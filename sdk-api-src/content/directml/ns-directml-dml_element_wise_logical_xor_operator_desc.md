@@ -52,7 +52,7 @@ Performs a logical XOR (exclusive or) on each pair of corresponding elements of 
 f(a, b) = (!!a) != (!!b)
 ```
 
-This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the the input tensors during binding.
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the input tensors during binding.
 
 ## -struct-fields
 

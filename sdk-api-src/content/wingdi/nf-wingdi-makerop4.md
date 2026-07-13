@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKEROP4","MAKEROP4 macro [Windows GDI]","_win32_MAKEROP4
 old-location: gdi\makerop4.htm
 tech.root: gdi
 ms.assetid: 9056df62-a636-49c7-9c86-aecc731e8c4f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKEROP4, MAKEROP4 macro [Windows GDI], _win32_MAKEROP4, gdi.makerop4, wingdi/MAKEROP4
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MAKEROP4 macro
+
+## -syntax
+
+```cpp
+DWORD MAKEROP4(
+    DWORD fore,
+    DWORD back
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+The return value is a quaternary raster operation code for use with the <a href="/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a> function.
 
 
 ## -description

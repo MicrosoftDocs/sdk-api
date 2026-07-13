@@ -58,15 +58,15 @@ The
 
 ### -param pRecord [in]
 
-A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the RR to be copied.
+A pointer to a <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a> structure that contains the RR to be copied.
 
 ### -param CharSetIn [in]
 
-A <a href="/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character encoding of the source RR.
+A <a href="/windows/desktop/api/windnsdef/ne-windnsdef-dns_charset">DNS_CHARSET</a> value that specifies the character encoding of the source RR.
 
 ### -param CharSetOut [in]
 
-A <a href="/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character encoding required of the destination record.
+A <a href="/windows/desktop/api/windnsdef/ne-windnsdef-dns_charset">DNS_CHARSET</a> value that specifies the character encoding required of the destination record.
 
 ## -returns
 
@@ -78,7 +78,7 @@ The <i>CharSetIn</i> parameter is used only if the character encoding of the sou
 
 ## -see-also
 
-<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a>
 
 
 

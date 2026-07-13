@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_RESOURCE_DIMENSION
 title: D3D10_RESOURCE_DIMENSION (d3d10.h)
-description: Identifies the type of resource being used.
+description: Identifies the type of resource being used. (D3D10_RESOURCE_DIMENSION)
 helpviewer_keywords: ["63b970df-266a-f05f-9db6-cec5c9ae14a6","D3D10_RESOURCE_DIMENSION","D3D10_RESOURCE_DIMENSION enumeration [Direct3D 10]","D3D10_RESOURCE_DIMENSION_BUFFER","D3D10_RESOURCE_DIMENSION_TEXTURE1D","D3D10_RESOURCE_DIMENSION_TEXTURE2D","D3D10_RESOURCE_DIMENSION_TEXTURE3D","D3D10_RESOURCE_DIMENSION_UNKNOWN","d3d10/D3D10_RESOURCE_DIMENSION","d3d10/D3D10_RESOURCE_DIMENSION_BUFFER","d3d10/D3D10_RESOURCE_DIMENSION_TEXTURE1D","d3d10/D3D10_RESOURCE_DIMENSION_TEXTURE2D","d3d10/D3D10_RESOURCE_DIMENSION_TEXTURE3D","d3d10/D3D10_RESOURCE_DIMENSION_UNKNOWN","direct3d10.d3d10_resource_dimension"]
 old-location: direct3d10\d3d10_resource_dimension.htm
 tech.root: direct3d10
@@ -54,23 +54,23 @@ Identifies the type of <a href="/windows/desktop/direct3d10/d3d10-graphics-progr
 
 ## -enum-fields
 
-### -field D3D10_RESOURCE_DIMENSION_UNKNOWN
+### -field D3D10_RESOURCE_DIMENSION_UNKNOWN:0
 
 Resource is of unknown type.
 
-### -field D3D10_RESOURCE_DIMENSION_BUFFER
+### -field D3D10_RESOURCE_DIMENSION_BUFFER:1
 
 Resource is a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a>.
 
-### -field D3D10_RESOURCE_DIMENSION_TEXTURE1D
+### -field D3D10_RESOURCE_DIMENSION_TEXTURE1D:2
 
 Resource is a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">1D texture</a>.
 
-### -field D3D10_RESOURCE_DIMENSION_TEXTURE2D
+### -field D3D10_RESOURCE_DIMENSION_TEXTURE2D:3
 
 Resource is a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">2D texture</a>.
 
-### -field D3D10_RESOURCE_DIMENSION_TEXTURE3D
+### -field D3D10_RESOURCE_DIMENSION_TEXTURE3D:4
 
 Resource is a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">3D texture</a>.
 

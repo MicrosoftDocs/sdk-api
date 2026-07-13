@@ -1,8 +1,8 @@
 ---
 UID: NF:mmeapi.midiInGetDevCapsA
 title: midiInGetDevCapsA function (mmeapi.h)
-description: The midiInGetDevCaps function determines the capabilities of a specified MIDI input device.
-helpviewer_keywords: ["_win32_midiInGetDevCaps","midiInGetDevCaps","midiInGetDevCaps function [Windows Multimedia]","midiInGetDevCapsA","midiInGetDevCapsW","mmeapi/midiInGetDevCaps","mmeapi/midiInGetDevCapsA","mmeapi/midiInGetDevCapsW","multimedia.midiingetdevcaps"]
+description: The midiInGetDevCaps function determines the capabilities of a specified MIDI input device. (midiInGetDevCapsA)
+helpviewer_keywords: ["midiInGetDevCapsA", "mmeapi/midiInGetDevCapsA"]
 old-location: multimedia\midiingetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: c3104427-69a9-434f-9f4e-780c96940c21
@@ -134,7 +134,7 @@ To determine the number of MIDI input devices present on the system, use the <a 
 
 
 > [!NOTE]
-> The mmeapi.h header defines midiInGetDevCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines midiInGetDevCaps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

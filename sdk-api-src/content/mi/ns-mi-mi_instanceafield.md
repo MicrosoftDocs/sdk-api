@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_InstanceAField
 title: MI_InstanceAField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_InstanceAField)
 helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_InstanceAField","MI_InstanceAField structure [Windows Management Infrastructure (MI)]","mi/MI_InstanceAField","wmi._mi_instanceafield","wmi_v2.mi_instanceafield"]
 old-location: wmi_v2\mi_instanceafield.htm
 tech.root: wmi_v2

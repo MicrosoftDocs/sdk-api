@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-devices-config-l1-1-2.dll
  - CfgMgr32.dll
  - API-MS-Win-devices-config-l1-1-0.dll
  - API-MS-Win-devices-config-l1-1-1.dll
@@ -53,6 +54,9 @@ api_name:
 ## -description
 
 The <b>CM_Get_Sibling</b> function obtains a device instance handle to the next sibling node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.
+
+> [!NOTE]
+> In Windows Vista and later versions of Windows, the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-) uses the [**DEVPKEY_Device_Siblings**](/windows-hardware/drivers/install/devpkey-device-siblings) [property key](/windows-hardware/drivers/install/property-keys) to represent device siblings. See [Retrieving Device Relations](/windows-hardware/drivers/install/retrieving-device-relations) for details.
 
 ## -parameters
 

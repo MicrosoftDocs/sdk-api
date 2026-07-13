@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITMSPAddress.GetEvent
 title: ITMSPAddress::GetEvent (tapi3.h)
-description: Retrieves event information.
+description: The ITMSPAddress::GetEvent (tapi3.h) method retrieves event information.
 helpviewer_keywords: ["GetEvent","GetEvent method [TAPI 2.2]","GetEvent method [TAPI 2.2]","ITMSPAddress interface","ITMSPAddress interface [TAPI 2.2]","GetEvent method","ITMSPAddress.GetEvent","ITMSPAddress::GetEvent","_tapi3_itmspaddress_getevent","msp/ITMSPAddress::GetEvent","tapi3.itmspaddress_getevent"]
 old-location: tapi3\itmspaddress_getevent.htm
 tech.root: tapi3
 ms.assetid: df5263f2-9d76-472d-b7fc-724d36f0b58f
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: GetEvent, GetEvent method [TAPI 2.2], GetEvent method [TAPI 2.2],ITMSPAddress interface, ITMSPAddress interface [TAPI 2.2],GetEvent method, ITMSPAddress.GetEvent, ITMSPAddress::GetEvent, _tapi3_itmspaddress_getevent, msp/ITMSPAddress::GetEvent, tapi3.itmspaddress_getevent
 req.header: tapi3.h
 req.include-header: Tapi3.h

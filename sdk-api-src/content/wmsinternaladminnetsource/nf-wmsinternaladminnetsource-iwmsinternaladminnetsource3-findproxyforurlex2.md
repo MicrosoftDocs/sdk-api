@@ -6,7 +6,7 @@ helpviewer_keywords: ["FindProxyForURLEx2","FindProxyForURLEx2 method [windows M
 old-location: wmformat\iwmsinternaladminnetsource3_findproxyforurlex2.htm
 tech.root: wmformat
 ms.assetid: 03c52ed2-bf77-4013-89d6-544d048f1056
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: FindProxyForURLEx2, FindProxyForURLEx2 method [windows Media Format], FindProxyForURLEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, IWMSInternalAdminNetSource3 interface [windows Media Format],FindProxyForURLEx2 method, IWMSInternalAdminNetSource3.FindProxyForURLEx2, IWMSInternalAdminNetSource3::FindProxyForURLEx2, IWMSInternalAdminNetSource3FindProxyForURLEx2, wmformat.iwmsinternaladminnetsource3_findproxyforurlex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>FindProxyForURLEx2</b> method finds a proxy server name and port to use for the user.
 

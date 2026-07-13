@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_CoverPageType
 title: IFaxDocument::put_CoverPageType (faxcomex.h)
-description: The IFaxDocument::get_CoverPageType property is a value from an enumeration that indicates whether a specified cover page template file (.cov) is a server-based cover page file or a local-computer-based cover page file.
+description: The IFaxDocument::get_CoverPageType property is a value from an enumeration that indicates whether a specified cover page template file (.cov) is a server-based cover page file or a local-computer-based cover page file. (Put)
 helpviewer_keywords: ["CoverPageType property [Fax Service]","CoverPageType property [Fax Service]","IFaxDocument interface","IFaxDocument interface [Fax Service]","CoverPageType property","IFaxDocument.CoverPageType","IFaxDocument.put_CoverPageType","IFaxDocument::CoverPageType","IFaxDocument::get_CoverPageType","IFaxDocument::put_CoverPageType","_mfax_faxdocument.coverpagetype","fax._mfax_faxdocument_coverpagetype","fax._mfax_faxdocument_cpp_mfax_faxdocument_coverpagetype_cpp","faxcomex/IFaxDocument::CoverPageType","faxcomex/IFaxDocument::get_CoverPageType","faxcomex/IFaxDocument::put_CoverPageType","put_CoverPageType"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_coverpagetype_cpp.htm
 tech.root: Fax

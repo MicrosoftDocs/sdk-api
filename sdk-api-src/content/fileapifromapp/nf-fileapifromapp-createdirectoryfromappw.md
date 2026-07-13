@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: OneCore.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -27,7 +27,8 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_location:
-- Kernel32.dll
+ - Kernel32.dll
+ - api-ms-win-core-file-fromapp-l1-1-0.dll
 api_name:
 - CreateDirectoryFromAppW
 - CreateDirectoryFromApp
@@ -72,8 +73,8 @@ If the function fails, the return value is zero. To get extended error informati
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

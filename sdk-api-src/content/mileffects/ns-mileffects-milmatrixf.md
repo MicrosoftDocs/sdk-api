@@ -142,7 +142,7 @@ The value of the forth row and second column of the matrix.
 
 Type: <b>DOUBLE</b>
 
-The value of the forth row and thrid column of the matrix.
+The value of the forth row and third column of the matrix.
 
 ### -field _44
 

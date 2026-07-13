@@ -54,9 +54,5 @@ The <b>IAzRoleDefinition</b> interface represents one or more <b>IAzRoleDefiniti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzRoleDefinition</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>. <b>IAzRoleDefinition</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IAzRoleDefinition</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>. <b>IAzRoleDefinition</b> also has these types of members:
 

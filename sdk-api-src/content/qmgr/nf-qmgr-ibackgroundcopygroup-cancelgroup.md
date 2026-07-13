@@ -54,7 +54,7 @@ api_name:
 
 Use the <b>CancelGroup</b> method to remove the group from the  queue. Files completely downloaded before calling this  method are available to the client. You can cancel a group at anytime; however, the group cannot be recovered once it is canceled.
 
-## -parameters
+
 
 ## -returns
 
@@ -68,7 +68,7 @@ This method returns the following <b>HRESULT</b> values, as well as others.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

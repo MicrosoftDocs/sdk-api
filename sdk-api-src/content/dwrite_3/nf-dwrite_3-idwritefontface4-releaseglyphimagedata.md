@@ -6,13 +6,13 @@ helpviewer_keywords: ["IDWriteFontFace4 interface [Direct Write]","ReleaseGlyphI
 old-location: directwrite\idwritefontface4_releaseglyphimagedata.htm
 tech.root: DirectWrite
 ms.assetid: 2A3211C1-90EB-42AE-BCE7-BDDA1D1E6312
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontFace4 interface [Direct Write],ReleaseGlyphImageData method, IDWriteFontFace4.ReleaseGlyphImageData, IDWriteFontFace4::ReleaseGlyphImageData, ReleaseGlyphImageData, ReleaseGlyphImageData method [Direct Write], ReleaseGlyphImageData method [Direct Write],IDWriteFontFace4 interface, directwrite.idwritefontface4_releaseglyphimagedata, dwrite_3/IDWriteFontFace4::ReleaseGlyphImageData
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 14393
+req.target-min-winversvr: Windows 10 Build 14393
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

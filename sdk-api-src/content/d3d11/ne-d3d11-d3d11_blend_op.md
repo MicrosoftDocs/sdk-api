@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_BLEND_OP
 title: D3D11_BLEND_OP (d3d11.h)
-description: RGB or alpha blending operation.
+description: RGB or alpha blending operation. (D3D11_BLEND_OP)
 helpviewer_keywords: ["2c289d70-b751-5cb8-a8b5-4db1d10f3c9d","D3D11_BLEND_OP","D3D11_BLEND_OP enumeration [Direct3D 11]","D3D11_BLEND_OP_ADD","D3D11_BLEND_OP_MAX","D3D11_BLEND_OP_MIN","D3D11_BLEND_OP_REV_SUBTRACT","D3D11_BLEND_OP_SUBTRACT","d3d11/D3D11_BLEND_OP","d3d11/D3D11_BLEND_OP_ADD","d3d11/D3D11_BLEND_OP_MAX","d3d11/D3D11_BLEND_OP_MIN","d3d11/D3D11_BLEND_OP_REV_SUBTRACT","d3d11/D3D11_BLEND_OP_SUBTRACT","direct3d11.d3d11_blend_op"]
 old-location: direct3d11\d3d11_blend_op.htm
 tech.root: direct3d11
@@ -54,23 +54,23 @@ RGB or alpha blending operation.
 
 ## -enum-fields
 
-### -field D3D11_BLEND_OP_ADD
+### -field D3D11_BLEND_OP_ADD:1
 
 Add source 1 and source 2.
 
-### -field D3D11_BLEND_OP_SUBTRACT
+### -field D3D11_BLEND_OP_SUBTRACT:2
 
 Subtract source 1 from source 2.
 
-### -field D3D11_BLEND_OP_REV_SUBTRACT
+### -field D3D11_BLEND_OP_REV_SUBTRACT:3
 
 Subtract source 2 from source 1.
 
-### -field D3D11_BLEND_OP_MIN
+### -field D3D11_BLEND_OP_MIN:4
 
 Find the minimum of source 1 and source 2.
 
-### -field D3D11_BLEND_OP_MAX
+### -field D3D11_BLEND_OP_MAX:5
 
 Find the maximum of source 1 and source 2.
 

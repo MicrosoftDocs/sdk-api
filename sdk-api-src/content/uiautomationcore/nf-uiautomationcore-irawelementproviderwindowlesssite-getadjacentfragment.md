@@ -54,7 +54,7 @@ Retrieves a fragment pointer for a fragment that is adjacent to the windowless M
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param direction [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection</a></b>
 

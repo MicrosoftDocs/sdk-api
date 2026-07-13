@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.MapViewOfFile2
 title: MapViewOfFile2 function (memoryapi.h)
-description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
+description: Maps a view of a file or a pagefile-backed section into the address space of the specified process. (MapViewOfFile2)
 helpviewer_keywords: ["MapViewOfFile2","MapViewOfFile2 function","base.mapviewoffile2","winbase/MapViewOfFile2"]
 old-location: base\mapviewoffile2.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -88,7 +88,7 @@ The type of allocation. This parameter can be zero (0) or one of the following c
 
 <ul>
 <li><b>MEM_RESERVE</b> - Maps a reserved view.</li>
-<li><b>MEM_LARGE_PAGES</b> - Maps a large page view. This flag specifies that the view should be mapped using <a href="/windows/desktop/Memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a large page reported by the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for the <i>BaseAddress</i> parameter, then the value must be a multiple of <b>GetLargePageMinimum</b>.</li>
+<li><b>MEM_LARGE_PAGES</b> - Maps a large page view. This flag specifies that the view should be mapped using <a href="/windows/win32/memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a large page reported by the <a href="/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for the <i>BaseAddress</i> parameter, then the value must be a multiple of <b>GetLargePageMinimum</b>.</li>
 </ul>
 
 ### -param PageProtection [in]
@@ -102,12 +102,16 @@ For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the
 ## -returns
 
 Returns the base address of the mapped view, if successful. Otherwise, returns <b>NULL</b> and extended error status is available
-           using <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+           using <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+
+## -remarks
+
+This function is implemented as an inline function in the header and can't be found in any export library or DLL. It's the same as calling <a href="/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2">MapViewOfFileNuma2</a> with the last parameter set to ``NUMA_NO_PREFERRED_NODE``.
 
 ## -see-also
 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffilenuma2">MapViewOfFileNuma2</a>
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2">MapViewOfFileNuma2</a>

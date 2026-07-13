@@ -6,7 +6,7 @@ helpviewer_keywords: ["WM_PORT_NUMBER_RANGE","WM_PORT_NUMBER_RANGE structure [wi
 old-location: wmformat\wm_port_number_range.htm
 tech.root: wmformat
 ms.assetid: 122db3fa-36bb-4d0c-9d05-0b7ae37f9187
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WM_PORT_NUMBER_RANGE, WM_PORT_NUMBER_RANGE structure [windows Media Format], structure [windows Media Format], wmformat.wm_port_number_range, wmsdkidl/WM_PORT_NUMBER_RANGE
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WM_PORT_NUMBER_RANGE</b> structure describes the range of port numbers used by the <b>IWMReaderNetworkConfig</b> interface.
 

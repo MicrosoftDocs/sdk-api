@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetActualSectionToInstallW
 title: SetupDiGetActualSectionToInstallW function (setupapi.h)
-description: The SetupDiGetActualSectionToInstall function retrieves the appropriate INF DDInstall section to use when installing a device from a device INF file on a local computer.
-helpviewer_keywords: ["SetupDiGetActualSectionToInstall","SetupDiGetActualSectionToInstall function [Device and Driver Installation]","SetupDiGetActualSectionToInstallA","SetupDiGetActualSectionToInstallW","devinst.setupdigetactualsectiontoinstall","di-rtns_fce32f02-ef7f-4a51-a559-5f0da3738906.xml","setupapi/SetupDiGetActualSectionToInstall"]
+description: The SetupDiGetActualSectionToInstall function retrieves the appropriate INF DDInstall section to use when installing a device from a device INF file on a local computer. (Unicode)
+helpviewer_keywords: ["SetupDiGetActualSectionToInstall", "SetupDiGetActualSectionToInstall function [Device and Driver Installation]", "SetupDiGetActualSectionToInstallW", "devinst.setupdigetactualsectiontoinstall", "di-rtns_fce32f02-ef7f-4a51-a559-5f0da3738906.xml", "setupapi/SetupDiGetActualSectionToInstall"]
 old-location: devinst\setupdigetactualsectiontoinstall.htm
 tech.root: devinst
 ms.assetid: ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7
@@ -123,7 +123,7 @@ If a driver is not selected for the specified device information element, a null
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetActualSectionToInstall as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetActualSectionToInstall as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsIscsiTarget
 title: IVdsIscsiTarget (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on an iSCSI target.
+description: The IVdsIscsiTarget interface (vdshwprv.h) provides methods for performing query and configuration operations on an iSCSI target.
 helpviewer_keywords: ["IVdsIscsiTarget","IVdsIscsiTarget interface [VDS]","IVdsIscsiTarget interface [VDS]","described","base.ivdsiscsitarget","vds/IVdsIscsiTarget","vdshwprv/IVdsIscsiTarget"]
 old-location: base\ivdsiscsitarget.htm
 tech.root: base
 ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,17 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides 
    methods for performing query and configuration operations on an iSCSI target.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiTarget</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsIscsiTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiTarget</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NC:wingdi.ICMENUMPROCW
 title: ICMENUMPROCW (wingdi.h)
-description: The EnumICMProfilesProcCallback callback is an application-defined callback function that processes color profile data from EnumICMProfiles .
+description: The EnumICMProfilesProcCallback callback is an application-defined callback function that processes color profile data from EnumICMProfiles . (Unicode)
 helpviewer_keywords: ["ICMENUMPROC","ICMENUMPROC callback","ICMENUMPROC callback function [Windows Color System]","ICMENUMPROCA","ICMENUMPROCW","_color_EnumICMProfilesProcCallback","wcs.enumicmprofilesproccallback","wingdi/ICMENUMPROC","wingdi/ICMENUMPROCA","wingdi/ICMENUMPROCW"]
 old-location: wcs\enumicmprofilesproccallback.htm
 tech.root: WCS
@@ -76,7 +76,7 @@ This function must return a positive value to continue enumeration, or zero to s
 ## -remarks
 
 > [!NOTE]
-> The wingdi.h header defines ICMENUMPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines ICMENUMPROC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

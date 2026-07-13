@@ -56,49 +56,49 @@ Defines a set of flags that you can assign to a cookie in the HTTP cookie jar by
 
 ## -enum-fields
 
-### -field XHR_COOKIE_IS_SECURE
+### -field XHR_COOKIE_IS_SECURE:0x1
 
 The cookie is secure. 
 
 When this flag is set, the client is only to return the cookie in subsequent requests if those requests use HTTPS.
 
-### -field XHR_COOKIE_IS_SESSION
+### -field XHR_COOKIE_IS_SESSION:0x2
 
 The cookie is only usable in the current HTTP session and is not persisted or saved.
 
-### -field XHR_COOKIE_THIRD_PARTY
+### -field XHR_COOKIE_THIRD_PARTY:0x10
 
 The cookie being set is a third-party cookie.
 
-### -field XHR_COOKIE_PROMPT_REQUIRED
+### -field XHR_COOKIE_PROMPT_REQUIRED:0x20
 
 A prompt to the user is required to accept the cookie from the server.
 
-### -field XHR_COOKIE_EVALUATE_P3P
+### -field XHR_COOKIE_EVALUATE_P3P:0x40
 
 The cookie has a Platform-for-Privacy-Protection (P3P) header.
 
-### -field XHR_COOKIE_APPLY_P3P
+### -field XHR_COOKIE_APPLY_P3P:0x80
 
 A cookie with a Platform-for-Privacy-Protection (P3P) header has been applied.
 
-### -field XHR_COOKIE_P3P_ENABLED
+### -field XHR_COOKIE_P3P_ENABLED:0x100
 
 A cookie with a Platform-for-Privacy-Protection (P3P) header has been enabled.
 
-### -field XHR_COOKIE_IS_RESTRICTED
+### -field XHR_COOKIE_IS_RESTRICTED:0x200
 
 The cookie being set is associated with an untrusted site.
 
-### -field XHR_COOKIE_IE6
+### -field XHR_COOKIE_IE6:0x400
 
-### -field XHR_COOKIE_IS_LEGACY
+### -field XHR_COOKIE_IS_LEGACY:0x800
 
-### -field XHR_COOKIE_NON_SCRIPT
+### -field XHR_COOKIE_NON_SCRIPT:0x1000
 
 Does not allow a script or other active content to access this cookie.
 
-### -field XHR_COOKIE_HTTPONLY
+### -field XHR_COOKIE_HTTPONLY:0x2000
 
 Enables the retrieval of cookies that are marked as "HTTPOnly". 
 

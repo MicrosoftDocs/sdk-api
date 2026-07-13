@@ -6,7 +6,7 @@ helpviewer_keywords: ["Animate_Open","Animate_Open macro [Windows Controls]","_w
 old-location: controls\Animate_Open.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_open.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Animate_Open, Animate_Open macro [Windows Controls], _win32_Animate_Open, _win32_Animate_Open_cpp, commctrl/Animate_Open, controls.Animate_Open, controls._win32_Animate_Open
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # Animate_Open macro
 
+## -syntax
+
+```cpp
+BOOL Animate_Open(
+   HWND   hwnd,
+   LPTSTR szName
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
+
 
 ## -description
 
@@ -64,7 +79,7 @@ A handle to the animation control.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> and zero in the <a href="/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a>. To create this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. The control loads an AVI resource from the module specified by the instance handle passed to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function, the <a href="/windows/desktop/api/commctrl/nf-commctrl-animate_create">Animate_Create</a> macro, or the dialog box creation function that created the control. The AVI file or resource specified by <i>lpszName</i> must not contain audio.
+A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> and zero in the <a href="/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a>. To create this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. The control loads an AVI resource from the module specified by the instance handle passed to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function, the <a href="/windows/desktop/api/commctrl/nf-commctrl-animate_create">Animate_Create</a> macro, or the dialog box creation function that created the control. The AVI file or resource specified by <i>szName</i> must not contain audio.
 
 
 
@@ -72,6 +87,6 @@ If this parameter is <b>NULL</b>, the system closes the AVI file that was previo
 
 ## -remarks
 
-You can only open silent AVI clips. <a href="/windows/desktop/Controls/acm-open">ACM_OPEN</a> and <b>Animate_Open</b> will fail if <i>lpszName</i> specifies an AVI clip that contains sound. 
+You can only open silent AVI clips. <a href="/windows/desktop/Controls/acm-open">ACM_OPEN</a> and <b>Animate_Open</b> will fail if <i>szName</i> specifies an AVI clip that contains sound. 
 
 You can use <a href="/windows/desktop/api/commctrl/nf-commctrl-animate_close">Animate_Close</a> to close an AVI file or AVI resource that was previously opened for the specified animation control.

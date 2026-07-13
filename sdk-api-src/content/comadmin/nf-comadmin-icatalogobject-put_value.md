@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICatalogObject.put_Value
 title: ICatalogObject::put_Value (comadmin.h)
-description: Accesses the value of the specified property exposed by this catalog object.
+description: Accesses the value of the specified property exposed by this catalog object. (Put)
 helpviewer_keywords: ["ICatalogObject interface [COM+]","Value property","ICatalogObject.Value","ICatalogObject.put_Value","ICatalogObject::Value","ICatalogObject::get_Value","ICatalogObject::put_Value","Value property [COM+]","Value property [COM+]","ICatalogObject interface","_cos_ICatalogObject_get_Value","_cos_ICatalogObject_put_Value","comadmin/ICatalogObject::Value","comadmin/ICatalogObject::get_Value","comadmin/ICatalogObject::put_Value","cos.icatalogobject_value","put_Value"]
 old-location: cos\icatalogobject_value.htm
 tech.root: cos

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IStreamBuilder interface [DirectShow]","Render method","I
 old-location: dshow\istreambuilder_render.htm
 tech.root: dshow
 ms.assetid: 7bba9d1a-03a8-4572-a08c-2e12071df73b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IStreamBuilder interface [DirectShow],Render method, IStreamBuilder.Render, IStreamBuilder::Render, IStreamBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IStreamBuilder interface, dshow.istreambuilder_render, strmif/IStreamBuilder::Render
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>Render</code> method completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.
 
 ## -parameters
@@ -71,7 +73,7 @@ Returns an <b>HRESULT</b> value. A return code of S_OK indicates that the stream
 
 The following code illustrates how to implement this method on an output pin. This example assumes that the filter requires a custom renderer downstream from it.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -89,26 +91,26 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
 
     // Create the renderer.
     HRESULT hr = CoCreateInstance(CLSID_MyRenderer, NULL, CLSCTX_INPROC,
-        IID_IBaseFilter, (void **)&amp;pMyRenderer);
+        IID_IBaseFilter, (void **)&pMyRenderer);
     if (FAILED(hr))
     {
         return hr;
     }
     
     // Add my renderer to the filter graph.
-    hr = pGraph-&gt;AddFilter(pMyRenderer, L"My Renderer");
+    hr = pGraph->AddFilter(pMyRenderer, L"My Renderer");
     if (FAILED(hr))
     {
-        pMyRenderer-&gt;Release();
+        pMyRenderer->Release();
         return hr;
     }
 
     IEnumPins *pEnumPins;
     IPin *pMyRendererInputPin = NULL;
-    hr = pMyRenderer-&gt;EnumPins(&amp;pEnumPins);
+    hr = pMyRenderer->EnumPins(&pEnumPins);
     if (SUCCEEDED(hr)) 
     {
-        if (S_OK != pEnumPins-&gt;Next(1, &amp;pMyRendererInputPin, 0))
+        if (S_OK != pEnumPins->Next(1, &pMyRendererInputPin, 0))
         {
             hr = E_UNEXPECTED;
          }
@@ -116,15 +118,15 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
     if (SUCCEEDED(hr)) 
     {
         // Connect my renderer to my output pin.
-        hr = pGraph-&gt;ConnectDirect(pPin, pMyRendererInputPin);
-        pMyRendererInputPin-&gt;Release();
+        hr = pGraph->ConnectDirect(pPin, pMyRendererInputPin);
+        pMyRendererInputPin->Release();
     }
     if (FAILED(hr)) 
     {
         // Could not connect to my renderer. Remove it from the graph.
-        pGraph-&gt;RemoveFilter(pMyRenderer);
+        pGraph->RemoveFilter(pMyRenderer);
     }
-    pMyRenderer-&gt;Release();
+    pMyRenderer->Release();
     return hr;
 }
 ```

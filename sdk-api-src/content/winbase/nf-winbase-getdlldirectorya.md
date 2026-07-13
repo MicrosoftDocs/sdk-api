@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetDllDirectoryA
 title: GetDllDirectoryA function (winbase.h)
-description: Retrieves the application-specific portion of the search path used to locate DLLs for the application.
-helpviewer_keywords: ["GetDllDirectory","GetDllDirectory function","GetDllDirectoryA","GetDllDirectoryW","base.getdlldirectory","winbase/GetDllDirectory","winbase/GetDllDirectoryA","winbase/GetDllDirectoryW"]
+description: Retrieves the application-specific portion of the search path used to locate DLLs for the application. (ANSI)
+helpviewer_keywords: ["GetDllDirectoryA", "winbase/GetDllDirectoryA"]
 old-location: base\getdlldirectory.htm
 tech.root: base
 ms.assetid: f892546a-6c48-48f2-8d9a-46e448fffb89
@@ -88,7 +88,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 > [!NOTE]
-> The winbase.h header defines GetDllDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetDllDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

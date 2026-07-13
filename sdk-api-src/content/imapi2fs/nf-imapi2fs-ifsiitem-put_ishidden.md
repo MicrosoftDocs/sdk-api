@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_IsHidden
 title: IFsiItem::put_IsHidden (imapi2fs.h)
-description: Determines if the item's hidden attribute is set in the file system image.
+description: Determines if the item's hidden attribute is set in the file system image. (Put)
 helpviewer_keywords: ["IFsiItem interface [IMAPI]","put_IsHidden method","IFsiItem.put_IsHidden","IFsiItem::put_IsHidden","imapi.ifsiitem_put_ishidden","imapi2fs/IFsiItem::put_IsHidden","put_IsHidden","put_IsHidden method [IMAPI]","put_IsHidden method [IMAPI]","IFsiItem interface"]
 old-location: imapi\ifsiitem_put_ishidden.htm
 tech.root: imapi

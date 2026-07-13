@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.get_Capabilities
 title: IFsrmStorageModuleDefinition::get_Capabilities (fsrmpipeline.h)
-description: Flags that specify capabilities of the storage module.
+description: Flags that specify capabilities of the storage module. (Get)
 helpviewer_keywords: ["Capabilities property [File Server Resource Manager]","Capabilities property [File Server Resource Manager]","IFsrmStorageModuleDefinition interface","IFsrmStorageModuleDefinition interface [File Server Resource Manager]","Capabilities property","IFsrmStorageModuleDefinition.Capabilities","IFsrmStorageModuleDefinition.get_Capabilities","IFsrmStorageModuleDefinition::Capabilities","IFsrmStorageModuleDefinition::get_Capabilities","IFsrmStorageModuleDefinition::put_Capabilities","fs.ifsrmstoragemoduledefinition_capabilities","fsrm.ifsrmstoragemoduledefinition_capabilities","fsrmpipeline/IFsrmStorageModuleDefinition::Capabilities","fsrmpipeline/IFsrmStorageModuleDefinition::get_Capabilities","fsrmpipeline/IFsrmStorageModuleDefinition::put_Capabilities","get_Capabilities"]
 old-location: fsrm\ifsrmstoragemoduledefinition_capabilities.htm
 tech.root: fsrm

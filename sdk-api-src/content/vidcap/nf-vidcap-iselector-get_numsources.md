@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISelector interface [DirectShow]","get_NumSources method"
 old-location: dshow\iselector_get_numsources.htm
 tech.root: dshow
 ms.assetid: ff04e32f-7902-417e-b0d4-125914928679
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ISelector interface [DirectShow],get_NumSources method, ISelector.get_NumSources, ISelector::get_NumSources, ISelectorget_NumSources, dshow.iselector_get_numsources, get_NumSources, get_NumSources method [DirectShow], get_NumSources method [DirectShow],ISelector interface, vidcap/ISelector::get_NumSources
 req.header: vidcap.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_NumSources</code> method returns the number of source nodes connected to the selector node.
 

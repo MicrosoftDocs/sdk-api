@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetLastErrorA
 title: WNetGetLastErrorA function (winnetwk.h)
-description: The WNetGetLastError function retrieves the most recent extended error code set by a WNet function. The network provider reported this error code; it will not generally be one of the errors included in the SDK header file WinError.h.
-helpviewer_keywords: ["WNetGetLastError","WNetGetLastError function [Windows Networking (WNet)]","WNetGetLastErrorA","WNetGetLastErrorW","_win32_wnetgetlasterror","winnetwk/WNetGetLastError","winnetwk/WNetGetLastErrorA","winnetwk/WNetGetLastErrorW","wnet.wnetgetlasterror"]
+description: The WNetGetLastError function retrieves the most recent extended error code set by a WNet function. The network provider reported this error code; it will not generally be one of the errors included in the SDK header file WinError.h. (ANSI)
+helpviewer_keywords: ["WNetGetLastErrorA", "winnetwk/WNetGetLastErrorA"]
 old-location: wnet\wnetgetlasterror.htm
 tech.root: WNet
 ms.assetid: 8e13c467-adcf-4e97-b51a-1f5fc919b51e
@@ -103,7 +103,7 @@ For more information about using an application-defined error handler that calls
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetGetLastError as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetGetLastError as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

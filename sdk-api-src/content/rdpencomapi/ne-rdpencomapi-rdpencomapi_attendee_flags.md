@@ -56,7 +56,7 @@ Defines values for the type of attendee. Attendee flags can be queried for each 
 
 ## -enum-fields
 
-### -field ATTENDEE_FLAGS_LOCAL
+### -field ATTENDEE_FLAGS_LOCAL:1
 
 Indicates that the attendee is a local attendee.
 

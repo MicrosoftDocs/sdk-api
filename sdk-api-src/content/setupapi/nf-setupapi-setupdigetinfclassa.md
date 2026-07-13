@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetINFClassA
 title: SetupDiGetINFClassA function (setupapi.h)
-description: The SetupDiGetINFClass function returns the class of a specified device INF file.
-helpviewer_keywords: ["SetupDiGetINFClass","SetupDiGetINFClass function [Device and Driver Installation]","SetupDiGetINFClassA","SetupDiGetINFClassW","devinst.setupdigetinfclass","di-rtns_10b0e077-9fb8-4d84-9c74-10b896774d40.xml","setupapi/SetupDiGetINFClass"]
+description: The SetupDiGetINFClass function returns the class of a specified device INF file. (ANSI)
+helpviewer_keywords: ["SetupDiGetINFClassA", "di-rtns_10b0e077-9fb8-4d84-9c74-10b896774d40.xml"]
 old-location: devinst\setupdigetinfclass.htm
 tech.root: devinst
 ms.assetid: 03e66c5b-9b76-4a40-8bd4-f640b689ce27
@@ -89,7 +89,7 @@ Do not use this function with INF files for Windows 9x or Millennium Edition.
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetINFClass as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetINFClass as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

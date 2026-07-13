@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PAM_DVDCOPY_BUSKEY","AM_DVDCOPY_BUSKEY","AM_DVDCOPY_BUSK
 old-location: dshow\am_dvdcopy_buskey.htm
 tech.root: dshow
 ms.assetid: 9f55dcc1-cb59-40ce-82d0-7f2066cb9d03
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*PAM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY structure [DirectShow], PAM_DVDCOPY_BUSKEY, PAM_DVDCOPY_BUSKEY structure pointer [DirectShow], dshow.am_dvdcopy_buskey, dvdmedia/AM_DVDCOPY_BUSKEY, dvdmedia/PAM_DVDCOPY_BUSKEY'
 req.header: dvdmedia.h
 req.include-header: 
@@ -53,6 +53,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Identifies the DVD bus key.
 

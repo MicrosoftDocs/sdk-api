@@ -54,39 +54,39 @@ The <b>DWRITE_PANOSE_LINING</b> enumeration contains values that specify the han
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_LINING_ANY
+### -field DWRITE_PANOSE_LINING_ANY:0
 
 Any lining.
 
-### -field DWRITE_PANOSE_LINING_NO_FIT
+### -field DWRITE_PANOSE_LINING_NO_FIT:1
 
 No fit for lining.
 
-### -field DWRITE_PANOSE_LINING_NONE
+### -field DWRITE_PANOSE_LINING_NONE:2
 
 No lining.
 
-### -field DWRITE_PANOSE_LINING_INLINE
+### -field DWRITE_PANOSE_LINING_INLINE:3
 
 The lining is inline.
 
-### -field DWRITE_PANOSE_LINING_OUTLINE
+### -field DWRITE_PANOSE_LINING_OUTLINE:4
 
 The lining is outline.
 
-### -field DWRITE_PANOSE_LINING_ENGRAVED
+### -field DWRITE_PANOSE_LINING_ENGRAVED:5
 
 The lining is engraved.
 
-### -field DWRITE_PANOSE_LINING_SHADOW
+### -field DWRITE_PANOSE_LINING_SHADOW:6
 
 The lining is shadowed.
 
-### -field DWRITE_PANOSE_LINING_RELIEF
+### -field DWRITE_PANOSE_LINING_RELIEF:7
 
 The lining is relief.
 
-### -field DWRITE_PANOSE_LINING_BACKDROP
+### -field DWRITE_PANOSE_LINING_BACKDROP:8
 
 The lining is backdrop.
 

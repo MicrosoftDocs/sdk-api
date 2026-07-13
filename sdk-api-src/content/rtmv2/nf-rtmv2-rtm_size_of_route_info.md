@@ -6,7 +6,7 @@ helpviewer_keywords: ["RTM_SIZE_OF_ROUTE_INFO","RTM_SIZE_OF_ROUTE_INFO macro [RA
 old-location: rras\rtm_size_of_route_info.htm
 tech.root: RRAS
 ms.assetid: ef3308a1-9a5e-4162-91d1-6ae2abff5c3b
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: RTM_SIZE_OF_ROUTE_INFO, RTM_SIZE_OF_ROUTE_INFO macro [RAS], _rtmv2ref_rtm_size_of_route_info, rras.rtm_size_of_route_info, rtmv2/RTM_SIZE_OF_ROUTE_INFO
 req.header: rtmv2.h
 req.include-header: 
@@ -47,12 +47,24 @@ api_name:
 
 # RTM_SIZE_OF_ROUTE_INFO macro
 
+## -syntax
+
+```cpp
+ULONG RTM_SIZE_OF_ROUTE_INFO(
+     NumHops
+);
+```
+
+## -returns
+
+Type: **ULONG**
+
+The return value is the size of the route information structure with the specified number of next hops.
+
 
 ## -description
 
-The 
-<b>RTM_SIZE_OF_ROUTE_INFO</b> macro returns the size of the route information structure, 
-<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>. The size of this structure is variable, and is based on the number of next hops associated with the route. Use this macro when allocating memory for route structures.
+The <b>RTM_SIZE_OF_ROUTE_INFO</b> macro returns the size of the route information structure, <a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>. The size of this structure is variable, and is based on the number of next hops associated with the route. Use this macro when allocating memory for route structures.
 
 ## -parameters
 

@@ -78,7 +78,7 @@ A <a href="/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedStrin
 
 ### -field infoClsid
 
-The <a href="/windows/win32/com/clsid-key-hklm">CLSID</a>of the COM object that implements
+The <a href="/windows/win32/com/clsid-key-hklm">CLSID</a> of the COM object that implements
    the <a href="/windows/desktop/NAP/inapcomponentinfo">INapComponentInfo</a> interface. This interface
    is used to retrieve more detailed and localized
    information about the NAP component.

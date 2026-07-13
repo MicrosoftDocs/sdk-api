@@ -2,14 +2,7 @@
   "tech": "wia",
   "headers": [
     "wia_xp.h",
-    "wia.h",
-    "scanprofile.h",
-    "scanprofilemgr.h",
-    "scanprofileui.h",
-    "wiadevd.h",
-    "wiavideo.h",
-    "wiadefd.h",
-    "wiadef.h"
+    "wiavideo.h"
   ],
   "displayName": "WIA"
 }

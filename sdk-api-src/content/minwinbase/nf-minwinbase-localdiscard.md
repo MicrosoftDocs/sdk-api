@@ -6,7 +6,7 @@ helpviewer_keywords: ["LocalDiscard","LocalDiscard macro","_win32_localdiscard",
 old-location: base\localdiscard.htm
 tech.root: base
 ms.assetid: 05842fa7-0438-4237-962f-055dc338368c
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdiscard, minwinbase/LocalDiscard
 req.header: minwinbase.h
 req.include-header: Windows.h
@@ -47,6 +47,20 @@ api_name:
 
 # LocalDiscard macro
 
+## -syntax
+
+```cpp
+HLOCAL LocalDiscard(
+  [in]  HLOCAL h
+);
+```
+
+## -returns
+
+Type: **[HLOCAL](/windows/desktop/winprog/windows-data-types)**
+
+If the function succeeds, the return value is a handle to the local memory object.If the function fails, the return value is **NULL**. To get extended error information, call [GetLastError](/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+
 
 ## -description
 
@@ -81,5 +95,4 @@ Although
 
 
 
-<a href="/windows/desktop/Memory/memory-management-functions">Memory
-		  Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>

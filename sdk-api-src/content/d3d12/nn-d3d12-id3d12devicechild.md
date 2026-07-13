@@ -54,10 +54,7 @@ An interface from which other core interfaces inherit from, including (but not l
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DeviceChild</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>. <b>ID3D12DeviceChild</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D12DeviceChild</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>. <b>ID3D12DeviceChild</b> also has these types of members:
 
 ## -see-also
 

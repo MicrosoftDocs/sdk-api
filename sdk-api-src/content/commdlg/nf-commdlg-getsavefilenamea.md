@@ -1,8 +1,8 @@
 ---
 UID: NF:commdlg.GetSaveFileNameA
 title: GetSaveFileNameA function (commdlg.h)
-description: Creates a Save dialog box that lets the user specify the drive, directory, and name of a file to save.
-helpviewer_keywords: ["GetSaveFileName","GetSaveFileName function [Dialog Boxes]","GetSaveFileNameA","GetSaveFileNameW","_win32_GetSaveFileName","_win32_getsavefilename_cpp","commdlg/GetSaveFileName","commdlg/GetSaveFileNameA","commdlg/GetSaveFileNameW","dlgbox.getsavefilename","winui._win32_getsavefilename"]
+description: Creates a Save dialog box that lets the user specify the drive, directory, and name of a file to save. (ANSI)
+helpviewer_keywords: ["GetSaveFileNameA", "commdlg/GetSaveFileNameA"]
 old-location: dlgbox\getsavefilename.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getsavefilename.htm
@@ -95,7 +95,7 @@ For an example, see <a href="/windows/desktop/gdi/creating-an-enhanced-metafile"
 
 
 > [!NOTE]
-> The commdlg.h header defines GetSaveFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines GetSaveFileName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

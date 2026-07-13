@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetStandardDeviation(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetStandardDeviation(IDCompositionAnimation) (dcomp.h)
-description: Sets the amount of blur to be applied to the alpha channel of the image.
+description: Sets the amount of blur to be applied to the alpha channel of the image. (overload 2/2)
 helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetStandardDeviation method","IDCompositionShadowEffect.SetStandardDeviation","IDCompositionShadowEffect.SetStandardDeviation(IDCompositionAnimation)","IDCompositionShadowEffect::SetStandardDeviation","IDCompositionShadowEffect::SetStandardDeviation(IDCompositionAnimation)","SetStandardDeviation","SetStandardDeviation method [DirectComposition]","SetStandardDeviation method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetStandardDeviation","directcomp.idcompositionshadoweffect_setstandarddeviation_2"]
 old-location: directcomp\idcompositionshadoweffect_setstandarddeviation_2.htm
 tech.root: directcomp
@@ -67,7 +67,7 @@ An animation that represents how the amount of blur to be applied to the alpha c
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

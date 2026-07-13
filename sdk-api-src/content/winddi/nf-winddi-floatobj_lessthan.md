@@ -64,7 +64,7 @@ Pointer to the second FLOATOBJ.
 
 ## -returns
 
-<b>FLOATOBJ_LessThan </b>returns <b>TRUE</b> if *<i>pf</i> is less than *<i>pf1</i>; otherwise it returns <b>FALSE</b>.
+<b>FLOATOBJ_LessThan</b> returns <b>TRUE</b> if *<i>pf</i> is less than *<i>pf1</i>; otherwise it returns <b>FALSE</b>.
 
 ## -remarks
 

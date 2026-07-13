@@ -1,8 +1,8 @@
 ---
 UID: NF:errorrep.AddERExcludedApplicationA
 title: AddERExcludedApplicationA function (errorrep.h)
-description: Excludes the specified application from error reporting.
-helpviewer_keywords: ["AddERExcludedApplication","AddERExcludedApplication function [Windows Error Reporting]","AddERExcludedApplicationA","AddERExcludedApplicationW","_win32_adderexcludedapplication","base.adderexcludedapplication","errorrep/AddERExcludedApplication","errorrep/AddERExcludedApplicationA","errorrep/AddERExcludedApplicationW","wer.adderexcludedapplication"]
+description: Excludes the specified application from error reporting. (ANSI)
+helpviewer_keywords: ["AddERExcludedApplicationA", "errorrep/AddERExcludedApplicationA"]
 old-location: wer\adderexcludedapplication.htm
 tech.root: wer
 ms.assetid: 9055437b-2ee2-4f0a-bcef-2b04ac5368b3
@@ -78,7 +78,7 @@ This function stores the excluded application list under the <b>HKEY_LOCAL_MACHI
 
 
 > [!NOTE]
-> The errorrep.h header defines AddERExcludedApplication as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The errorrep.h header defines AddERExcludedApplication as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

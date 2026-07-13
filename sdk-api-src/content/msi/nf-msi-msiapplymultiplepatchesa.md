@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiApplyMultiplePatchesA
 title: MsiApplyMultiplePatchesA function (msi.h)
-description: Applies one or more patches to products eligible to receive the patches.
-helpviewer_keywords: ["MsiApplyMultiplePatches","MsiApplyMultiplePatches function","MsiApplyMultiplePatchesA","MsiApplyMultiplePatchesW","msi/MsiApplyMultiplePatches","msi/MsiApplyMultiplePatchesA","msi/MsiApplyMultiplePatchesW","setup.msiapplymultiplepatches"]
+description: Applies one or more patches to products eligible to receive the patches. (ANSI)
+helpviewer_keywords: ["MsiApplyMultiplePatchesA", "msi/MsiApplyMultiplePatchesA"]
 old-location: setup\msiapplymultiplepatches.htm
 tech.root: setup
 ms.assetid: dc0a93e3-9f3c-40b2-86ee-98306038742a
@@ -201,4 +201,4 @@ Implies possible partial completion or that one or more transactions failed.
 ## -remarks
 
 > [!NOTE]
-> The msi.h header defines MsiApplyMultiplePatches as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiApplyMultiplePatches as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

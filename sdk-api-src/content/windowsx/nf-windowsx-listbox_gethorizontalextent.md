@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetHorizontalExtent","ListBox_GetHorizontalExtent
 old-location: controls\ListBox_GetHorizontalExtent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gethorizontalextent.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetHorizontalExtent, ListBox_GetHorizontalExtent macro [Windows Controls], _win32_ListBox_GetHorizontalExtent, _win32_ListBox_GetHorizontalExtent_cpp, controls.ListBox_GetHorizontalExtent, controls._win32_ListBox_GetHorizontalExtent, windowsx/ListBox_GetHorizontalExtent
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListBox_GetHorizontalExtent macro
+
+## -syntax
+
+```cpp
+int ListBox_GetHorizontalExtent(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The scrollable width, in pixels, of the list box.
 
 
 ## -description

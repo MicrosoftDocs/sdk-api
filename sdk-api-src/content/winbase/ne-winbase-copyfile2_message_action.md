@@ -58,7 +58,7 @@ Returned by the
 
 ## -enum-fields
 
-### -field COPYFILE2_PROGRESS_CONTINUE
+### -field COPYFILE2_PROGRESS_CONTINUE:0
 
 Continue the copy operation.
 

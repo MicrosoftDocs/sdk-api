@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_ForwardMouse","Pager_ForwardMouse macro [Windows Co
 old-location: controls\Pager_ForwardMouse.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_forwardmouse.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_ForwardMouse, Pager_ForwardMouse macro [Windows Controls], _win32_Pager_ForwardMouse, _win32_Pager_ForwardMouse_cpp, commctrl/Pager_ForwardMouse, controls.Pager_ForwardMouse, controls._win32_Pager_ForwardMouse
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Pager_ForwardMouse macro
+
+## -syntax
+
+```cpp
+VOID Pager_ForwardMouse(
+   HWND hwnd,
+   BOOL bForward
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+The return value is not used.
 
 
 ## -description

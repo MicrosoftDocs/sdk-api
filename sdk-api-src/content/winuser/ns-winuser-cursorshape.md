@@ -102,7 +102,7 @@ The number of bits used to indicate the color of a single pixel in the cursor.
 
 ## -remarks
 
-When an application passes a cursor handle to the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>function, the function returns a pointer to a buffer containing information about the cursor. An application can use the <b>CURSORSHAPE</b> structure to access the information.
+When an application passes a cursor handle to the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> function, the function returns a pointer to a buffer containing information about the cursor. An application can use the <b>CURSORSHAPE</b> structure to access the information.
 
 ## -see-also
 

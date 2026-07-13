@@ -69,7 +69,7 @@ This argument should be between -1.0 and 1.0. During the instantiation
 
 ### -param _y
 
-A normalized value for the y-coordinate of the vector, the <b>y</b>of the new instance of <code>XMBYTEN2</code>.
+A normalized value for the y-coordinate of the vector, the <b>y</b> of the new instance of <code>XMBYTEN2</code>.
         
 
 This argument should be between -1.0 and 1.0. During the instantiation
@@ -81,7 +81,7 @@ This argument should be between -1.0 and 1.0. During the instantiation
 The magnitude of each argument to the constructor will be clamped to the range supported by an 8-bit signed integer
       [-127.0, 127.0].
 
-The following pseudocode demonstrates the operation of this constructor, which takes advantage of the <code>union</code>of the four components of the <code>XMBYTEN2</code> vector with an instance of <code>uint32_t</code> in the definition of the
+The following pseudocode demonstrates the operation of this constructor, which takes advantage of the <code>union</code> of the four components of the <code>XMBYTEN2</code> vector with an instance of <code>uint32_t</code> in the definition of the
       structure:
 
 

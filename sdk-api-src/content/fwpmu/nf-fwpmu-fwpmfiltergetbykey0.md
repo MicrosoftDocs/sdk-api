@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmFilterGetByKey0
 title: FwpmFilterGetByKey0 function (fwpmu.h)
-description: Retrieves a filter object.
+description: Retrieves a filter object. (FwpmFilterGetByKey0)
 helpviewer_keywords: ["FwpmFilterGetByKey0","FwpmFilterGetByKey0 function [Filtering]","fwp.fwpmfiltergetbykey0_func","fwpmu/FwpmFilterGetByKey0"]
 old-location: fwp\fwpmfiltergetbykey0_func.htm
 tech.root: fwp

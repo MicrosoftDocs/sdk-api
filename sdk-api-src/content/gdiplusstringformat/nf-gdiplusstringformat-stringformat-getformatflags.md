@@ -54,7 +54,7 @@ api_name:
 The <b>StringFormat::GetFormatFlags</b> method gets the string format flags for this 
 			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetString
 title: IDWriteLocalizedStrings::GetString (dwrite.h)
-description: Copies the string with the specified index to the specified array.
+description: Copies the string with the specified index to the specified array. (IDWriteLocalizedStrings.GetString)
 helpviewer_keywords: ["GetString","GetString method [Direct Write]","GetString method [Direct Write]","IDWriteLocalizedStrings interface","IDWriteLocalizedStrings interface [Direct Write]","GetString method","IDWriteLocalizedStrings.GetString","IDWriteLocalizedStrings::GetString","directwrite.IDWriteLocalizedStrings_GetString","dwrite/IDWriteLocalizedStrings::GetString"]
 old-location: directwrite\IDWriteLocalizedStrings_GetString.htm
 tech.root: DirectWrite
@@ -77,7 +77,7 @@ The size of the array in characters. The size must include space for the termina
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

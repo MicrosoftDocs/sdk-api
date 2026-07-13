@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_URI
 title: IRegistrationInfo::put_URI (taskschd.h)
-description: Gets or sets the URI of the task.
+description: Gets or sets the URI of the task. (Put)
 helpviewer_keywords: ["IRegistrationInfo interface [Task Scheduler]","URI property","IRegistrationInfo.URI","IRegistrationInfo.put_URI","IRegistrationInfo::URI","IRegistrationInfo::get_URI","IRegistrationInfo::put_URI","URI property [Task Scheduler]","URI property [Task Scheduler]","IRegistrationInfo interface","put_URI","taskschd.iregistrationinfo_uri","taskschd/IRegistrationInfo::URI","taskschd/IRegistrationInfo::get_URI","taskschd/IRegistrationInfo::put_URI"]
 old-location: taskschd\iregistrationinfo_uri.htm
 tech.root: taskschd

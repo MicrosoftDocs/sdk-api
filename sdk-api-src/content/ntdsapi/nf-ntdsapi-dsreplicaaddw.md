@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsReplicaAddW
 title: DsReplicaAddW function (ntdsapi.h)
-description: Adds a replication source reference to a destination naming context.
-helpviewer_keywords: ["DS_REPADD_ASYNCHRONOUS_OPERATION","DS_REPADD_ASYNCHRONOUS_REPLICA","DS_REPADD_DISABLE_NOTIFICATION","DS_REPADD_DISABLE_PERIODIC","DS_REPADD_INITIAL","DS_REPADD_INTERSITE_MESSAGING","DS_REPADD_NEVER_NOTIFY","DS_REPADD_PERIODIC","DS_REPADD_USE_COMPRESSION","DS_REPADD_WRITEABLE","DsReplicaAdd","DsReplicaAdd function [Active Directory]","DsReplicaAddA","DsReplicaAddW","_glines_dsreplicaadd","ad.dsreplicaadd","ntdsapi/DsReplicaAdd","ntdsapi/DsReplicaAddA","ntdsapi/DsReplicaAddW"]
+description: Adds a replication source reference to a destination naming context. (Unicode)
+helpviewer_keywords: ["DS_REPADD_ASYNCHRONOUS_OPERATION", "DS_REPADD_ASYNCHRONOUS_REPLICA", "DS_REPADD_DISABLE_NOTIFICATION", "DS_REPADD_DISABLE_PERIODIC", "DS_REPADD_INITIAL", "DS_REPADD_INTERSITE_MESSAGING", "DS_REPADD_NEVER_NOTIFY", "DS_REPADD_PERIODIC", "DS_REPADD_USE_COMPRESSION", "DS_REPADD_WRITEABLE", "DsReplicaAdd", "DsReplicaAdd function [Active Directory]", "DsReplicaAddW", "_glines_dsreplicaadd", "ad.dsreplicaadd", "ntdsapi/DsReplicaAdd", "ntdsapi/DsReplicaAddW"]
 old-location: ad\dsreplicaadd.htm
 tech.root: ad
 ms.assetid: 33bd1b61-b9ed-479f-a128-fb7ddbb5e9af
@@ -233,4 +233,4 @@ If the function fails, the return value can be one of the following.
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsReplicaAdd as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsReplicaAdd as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

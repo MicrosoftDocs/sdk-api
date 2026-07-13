@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredDisplacement
 title: IInertiaProcessor::put_DesiredDisplacement (manipulations.h)
-description: The DesiredDisplacement property specifies the desired distance that the object will travel.
+description: The DesiredDisplacement property specifies the desired distance that the object will travel. (Put)
 helpviewer_keywords: ["DesiredDisplacement property [Windows Touch]","DesiredDisplacement property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","DesiredDisplacement property","IInertiaProcessor.DesiredDisplacement","IInertiaProcessor.put_DesiredDisplacement","IInertiaProcessor::DesiredDisplacement","IInertiaProcessor::get_DesiredDisplacement","IInertiaProcessor::put_DesiredDisplacement","manipulations/IInertiaProcessor::DesiredDisplacement","manipulations/IInertiaProcessor::get_DesiredDisplacement","manipulations/IInertiaProcessor::put_DesiredDisplacement","put_DesiredDisplacement","wintouch.iinertiaprocessor_desireddisplacement"]
 old-location: wintouch\iinertiaprocessor_desireddisplacement.htm
 tech.root: wintouch

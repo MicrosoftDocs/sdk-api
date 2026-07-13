@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
  - Dwmapi.dll
  - API-MS-Win-dwmapi-l1-1-0.dll
  - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
@@ -56,11 +58,9 @@ Retrieves the current composition timing information for a specified window.
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 The handle to the window for which the composition timing information should be retrieved.
-        
-                        
 
 Starting with Windows 8.1, this parameter must be set to <b>NULL</b>. If this parameter is not set to <b>NULL</b>, <b>DwmGetCompositionTimingInfo</b> returns E_INVALIDARG.
 
@@ -70,4 +70,4 @@ A pointer to a <a href="/windows/desktop/api/dwmapi/ns-dwmapi-dwm_timing_info">D
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

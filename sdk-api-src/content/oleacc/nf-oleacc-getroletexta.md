@@ -1,8 +1,8 @@
 ---
 UID: NF:oleacc.GetRoleTextA
 title: GetRoleTextA function (oleacc.h)
-description: Retrieves the localized string that describes the object's role for the specified role value.
-helpviewer_keywords: ["GetRoleText","GetRoleText function [Windows Accessibility]","GetRoleTextA","GetRoleTextW","_msaa_GetRoleText","msaa.getroletext","oleacc/GetRoleText","oleacc/GetRoleTextA","oleacc/GetRoleTextW","winauto.getroletext"]
+description: Retrieves the localized string that describes the object's role for the specified role value. (ANSI)
+helpviewer_keywords: ["GetRoleTextA", "oleacc/GetRoleTextA"]
 old-location: winauto\getroletext.htm
 tech.root: WinAuto
 ms.assetid: 58436001-92d7-4afa-af07-169c8bbda9ba
@@ -86,4 +86,4 @@ If the string resource does not exist, or if the <i>lpszRole</i> parameter is no
 ## -remarks
 
 > [!NOTE]
-> The oleacc.h header defines GetRoleText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oleacc.h header defines GetRoleText as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SERVICE_ENDPOINT_PROPERTY
 title: WS_SERVICE_ENDPOINT_PROPERTY (webservices.h)
-description: Specifies a service specific setting.
+description: Specifies a service specific setting. (WS_SERVICE_ENDPOINT_PROPERTY)
 helpviewer_keywords: ["WS_SERVICE_ENDPOINT_PROPERTY","WS_SERVICE_ENDPOINT_PROPERTY structure [Web Services for Windows]","webservices/WS_SERVICE_ENDPOINT_PROPERTY","wsw.ws_service_endpoint_property"]
 old-location: wsw\ws_service_endpoint_property.htm
 tech.root: wsw

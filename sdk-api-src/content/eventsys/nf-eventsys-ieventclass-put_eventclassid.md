@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass.put_EventClassID
 title: IEventClass::put_EventClassID (eventsys.h)
-description: The CLSID for the event class object.
+description: The CLSID for the event class object. (Put)
 helpviewer_keywords: ["EventClassID property [COM+]","EventClassID property [COM+]","IEventClass interface","IEventClass interface [COM+]","EventClassID property","IEventClass.EventClassID","IEventClass.put_EventClassID","IEventClass::EventClassID","IEventClass::get_EventClassID","IEventClass::put_EventClassID","cos.ieventclass_eventclassid","eventsys/IEventClass::EventClassID","eventsys/IEventClass::get_EventClassID","eventsys/IEventClass::put_EventClassID","put_EventClassID"]
 old-location: cos\ieventclass_eventclassid.htm
 tech.root: cos

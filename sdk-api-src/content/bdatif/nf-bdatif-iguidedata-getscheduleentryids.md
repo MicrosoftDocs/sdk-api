@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>GetScheduleEntryIDs</b> method returns a list of unique identifiers for all of the schedule entries contained in all transport streams.
 
 ## -parameters

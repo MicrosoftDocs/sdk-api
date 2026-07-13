@@ -56,7 +56,7 @@ The <b>OnDemandRegisterNotification</b> function allows an application to regist
 
 ### -param callback [in]
 
-A pointer to a function of type O<b>ONDEMAND_NOTIFICATION_CALLBACK</b> to receive the notifications.
+A pointer to a function of type <b>ONDEMAND_NOTIFICATION_CALLBACK</b> to receive the notifications.
 
 ### -param callbackContext [in, optional]
 
@@ -74,7 +74,11 @@ Returns S_OK on success.
 
 The <b>ONDEMAND_NOTIFICATION_CALLBACK</b> function is defined as:
 
-<pre class="syntax" xml:space="preserve"><code>typedef void (WINAPI *ONDEMAND_NOTIFICATION_CALLBACK) (PVOID);</code></pre>
+
+``` syntax
+typedef void (WINAPI *ONDEMAND_NOTIFICATION_CALLBACK) (PVOID);
+```
+
 
 ## -see-also
 

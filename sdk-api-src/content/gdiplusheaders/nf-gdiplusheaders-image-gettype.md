@@ -54,7 +54,7 @@ api_name:
 The <b>Image::GetType</b> method gets the type (bitmap or metafile) of this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-## -parameters
+
 
 ## -returns
 

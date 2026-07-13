@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.TabbedTextOutW
 title: TabbedTextOutW function (winuser.h)
-description: The TabbedTextOut function writes a character string at a specified location, expanding tabs to the values specified in an array of tab-stop positions. Text is written in the currently selected font, background color, and text color.
-helpviewer_keywords: ["TabbedTextOut","TabbedTextOut function [Windows GDI]","TabbedTextOutA","TabbedTextOutW","_win32_TabbedTextOut","gdi.tabbedtextout","winuser/TabbedTextOut","winuser/TabbedTextOutA","winuser/TabbedTextOutW"]
+description: The TabbedTextOut function writes a character string at a specified location, expanding tabs to the values specified in an array of tab-stop positions. Text is written in the currently selected font, background color, and text color. (Unicode)
+helpviewer_keywords: ["TabbedTextOut", "TabbedTextOut function [Windows GDI]", "TabbedTextOutW", "_win32_TabbedTextOut", "gdi.tabbedtextout", "winuser/TabbedTextOut", "winuser/TabbedTextOutW"]
 old-location: gdi\tabbedtextout.htm
 tech.root: gdi
 ms.assetid: 1cb78a75-752d-4e06-afdf-cd797f209114
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
  - user32.dll
  - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
@@ -121,7 +123,7 @@ By default, the current position is not used or updated by the <b>TabbedTextOut<
 
 
 > [!NOTE]
-> The winuser.h header defines TabbedTextOut as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines TabbedTextOut as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

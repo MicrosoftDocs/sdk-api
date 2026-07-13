@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_WriteEx
 title: ImageList_WriteEx function (commctrl.h)
-description: Writes an image list to a stream.
+description: Writes an image list to a stream. (ImageList_WriteEx)
 helpviewer_keywords: ["ILP_DOWNLEVEL","ILP_NORMAL","ImageList_WriteEx","ImageList_WriteEx function [Windows Controls]","_win32_ImageList_WriteEx","_win32_ImageList_WriteEx_cpp","commctrl/ImageList_WriteEx","controls.ImageList_WriteEx","controls._win32_ImageList_WriteEx"]
 old-location: controls\ImageList_WriteEx.htm
 tech.root: Controls
@@ -107,7 +107,7 @@ The address of the stream.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

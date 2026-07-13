@@ -89,6 +89,8 @@ If PSAPI_VERSION is 2 or greater, this function is defined as <b>K32EnumDeviceDr
 
 Programs that must run on earlier versions of Windows as well as Windows 7 and later versions should always call this function as <b>EnumDeviceDrivers</b>. To ensure correct resolution of symbols, add Psapi.lib to the TARGETLIBS macro and compile the program with –DPSAPI_VERSION=1. To use run-time dynamic linking, load Psapi.dll.
 
+Starting in Windows 11 Version 24H2, <b>EnumDeviceDrivers</b> will require <b>SeDebugPrivilege</b> to return valid <i>ImageBase</i> values. The function will still succeed if the caller does not have this privilege enabled, but the returned <i>lpImageBase</i> array will contain addresses that are all NULL.
+
 
 #### Examples
 

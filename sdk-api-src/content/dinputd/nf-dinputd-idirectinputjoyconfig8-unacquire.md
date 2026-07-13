@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::Unacquire </b>method unacquires "joystick configuration mode".
+The <b>IDirectInputJoyConfig8::Unacquire </b> method unacquires "joystick configuration mode".
 
-## -parameters
+
 
 ## -returns
 

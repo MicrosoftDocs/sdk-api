@@ -1,7 +1,7 @@
 ---
 UID: NS:srrestoreptapi._RESTOREPTINFOA
 title: RESTOREPOINTINFOA (srrestoreptapi.h)
-description: Contains information used by the SRSetRestorePoint function.
+description: Contains information used by the SRSetRestorePoint function. (ANSI)
 helpviewer_keywords: ["*PRESTOREPOINTINFOA","APPLICATION_INSTALL","APPLICATION_UNINSTALL","BEGIN_NESTED_SYSTEM_CHANGE","BEGIN_SYSTEM_CHANGE","CANCELLED_OPERATION","DEVICE_DRIVER_INSTALL","END_NESTED_SYSTEM_CHANGE","END_SYSTEM_CHANGE","MODIFY_SETTINGS","PRESTOREPOINTINFO","PRESTOREPOINTINFO structure pointer [System Restore]","RESTOREPOINTINFO","RESTOREPOINTINFO structure [System Restore]","RESTOREPOINTINFOA","RESTOREPOINTINFOW","_sr_restorepointinfo_str","sr.restorepointinfo_str","srrestoreptapi/PRESTOREPOINTINFO","srrestoreptapi/RESTOREPOINTINFO","srrestoreptapi/RESTOREPOINTINFOA","srrestoreptapi/RESTOREPOINTINFOW"]
 old-location: sr\restorepointinfo_str.htm
 tech.root: sr
@@ -208,4 +208,4 @@ The description to be displayed so the user can easily identify a restore point.
 ## -remarks
 
 > [!NOTE]
-> The srrestoreptapi.h header defines RESTOREPOINTINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The srrestoreptapi.h header defines RESTOREPOINTINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

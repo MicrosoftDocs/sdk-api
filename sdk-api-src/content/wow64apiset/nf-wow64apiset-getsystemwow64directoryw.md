@@ -1,10 +1,10 @@
 ---
 UID: NF:wow64apiset.GetSystemWow64DirectoryW
 title: GetSystemWow64DirectoryW function (wow64apiset.h)
-description: Retrieves the path of the system directory used by WOW64.
-helpviewer_keywords: ["GetSystemWow64Directory","GetSystemWow64Directory function","GetSystemWow64DirectoryA","GetSystemWow64DirectoryW","_win32_getsystemwow64directory","base.getsystemwow64directory","wow64apiset/GetSystemWow64Directory","wow64apiset/GetSystemWow64DirectoryA","wow64apiset/GetSystemWow64DirectoryW"]
+description: Retrieves the path of the system directory used by WOW64. (Unicode)
+helpviewer_keywords: ["GetSystemWow64Directory", "GetSystemWow64Directory function", "GetSystemWow64DirectoryW", "_win32_getsystemwow64directory", "base.getsystemwow64directory", "wow64apiset/GetSystemWow64Directory", "wow64apiset/GetSystemWow64DirectoryW"]
 old-location: base\getsystemwow64directory.htm
-tech.root: winprog
+tech.root: fs
 ms.assetid: 31ccd1bf-87c7-4df6-ae9d-5a3dfbd8b38b
 ms.date: 12/05/2018
 ms.keywords: GetSystemWow64Directory, GetSystemWow64Directory function, GetSystemWow64DirectoryA, GetSystemWow64DirectoryW, _win32_getsystemwow64directory, base.getsystemwow64directory, wow64apiset/GetSystemWow64Directory, wow64apiset/GetSystemWow64DirectoryA, wow64apiset/GetSystemWow64DirectoryW
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-wow64-l1-1-3.dll
+ - api-ms-win-core-wow64-l1-1-2.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll
@@ -99,7 +102,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0501
 
 
 > [!NOTE]
-> The wow64apiset.h header defines GetSystemWow64Directory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wow64apiset.h header defines GetSystemWow64Directory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

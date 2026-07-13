@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetExtendedListViewStyle","ListView_GetExtendedL
 old-location: controls\ListView_GetExtendedListViewStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getextendedlistviewstyle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetExtendedListViewStyle, ListView_GetExtendedListViewStyle macro [Windows Controls], _win32_ListView_GetExtendedListViewStyle, _win32_ListView_GetExtendedListViewStyle_cpp, commctrl/ListView_GetExtendedListViewStyle, controls.ListView_GetExtendedListViewStyle, controls._win32_ListView_GetExtendedListViewStyle
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetExtendedListViewStyle macro
+
+## -syntax
+
+```cpp
+DWORD ListView_GetExtendedListViewStyle(
+   HWND hwndLV
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>DWORD</b> value that represents the styles currently in use for a given list-view control. This can be a combination of extended styles.
 
 
 ## -description

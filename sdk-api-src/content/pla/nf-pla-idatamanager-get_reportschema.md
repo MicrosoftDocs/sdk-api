@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataManager.get_ReportSchema
 title: IDataManager::get_ReportSchema (pla.h)
-description: Retrieves or sets the schema used to customize the report that the TraceRpt.exe application generates.
+description: Retrieves or sets the schema used to customize the report that the TraceRpt.exe application generates. (Get)
 helpviewer_keywords: ["IDataManager interface [PLA]","ReportSchema property","IDataManager.ReportSchema","IDataManager.get_ReportSchema","IDataManager::ReportSchema","IDataManager::get_ReportSchema","IDataManager::put_ReportSchema","ReportSchema property [PLA]","ReportSchema property [PLA]","IDataManager interface","get_ReportSchema","pla.idatamanager_reportschema","pla/IDataManager::ReportSchema","pla/IDataManager::get_ReportSchema","pla/IDataManager::put_ReportSchema"]
 old-location: pla\idatamanager_reportschema.htm
 tech.root: PLA

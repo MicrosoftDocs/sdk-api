@@ -151,8 +151,8 @@ UPN and <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="KRB_NT_MS_PRINICPAL"></a><a id="krb_nt_ms_prinicpal"></a><dl>
-<dt><b>KRB_NT_MS_PRINICPAL</b></dt>
+<td width="40%"><a id="KRB_NT_MS_PRINCIPAL"></a><a id="krb_nt_ms_principal"></a><dl>
+<dt><b>KRB_NT_MS_PRINCIPAL</b></dt>
 </dl>
 </td>
 <td width="60%">

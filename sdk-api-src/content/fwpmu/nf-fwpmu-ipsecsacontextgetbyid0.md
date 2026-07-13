@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextGetById0
 title: IPsecSaContextGetById0 function (fwpmu.h)
-description: Retrieves an IPsec security association (SA) context.
+description: Retrieves an IPsec security association (SA) context. (IPsecSaContextGetById0)
 helpviewer_keywords: ["IPsecSaContextGetById0","IPsecSaContextGetById0 function [Filtering]","fwp.ipsecsacontextgetbyid0","fwpmu/IPsecSaContextGetById0"]
 old-location: fwp\ipsecsacontextgetbyid0.htm
 tech.root: fwp

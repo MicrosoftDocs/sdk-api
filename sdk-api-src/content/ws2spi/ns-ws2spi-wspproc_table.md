@@ -211,18 +211,18 @@ A pointer to the <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSP
 
  
 
-A pointer to the <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress<a> function.
+A pointer to the <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress</a> function.
 
 ## -remarks
 
-The **WSPPROC_TABLE** structure contains a table of pointers to service provider functions that are returned by the <a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup<a> function.
+The **WSPPROC_TABLE** structure contains a table of pointers to service provider functions that are returned by the <a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> function.
 
 ## -see-also
 
 **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**
 
 
-<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress<a>**
+<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress</a>**
 
 
 **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)**
@@ -273,6 +273,6 @@ The **WSPPROC_TABLE** structure contains a table of pointers to service provider
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
 
-<a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup<a>
+<a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>
 
-<a href=" /windows/win32/api/winsock2/nf-winsock2-wsastringtoaddressa">WSAStringToAddress<a>
+<a href=" /windows/win32/api/winsock2/nf-winsock2-wsastringtoaddressa">WSAStringToAddress</a>

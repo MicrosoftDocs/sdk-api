@@ -67,7 +67,7 @@ The handle must have the THREAD_QUERY_INFORMATION or THREAD_QUERY_LIMITED_INFORM
 
 ### -param GroupAffinity [out]
 
-A pointer to a GROUP_AFFINITY structure to receive the group affinity of the thread.
+A pointer to a [GROUP_AFFINITY](../winnt/ns-winnt-group_affinity.md) structure that receives the group affinity of the thread.
 
 ## -returns
 
@@ -76,6 +76,8 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero. To get extended error information, use <a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">GetLastError</a>.
 
 ## -remarks
+
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a>, by default. The <b>GetThreadGroupAffinity</b> function retrieves the group affinity over the thread's primary group.
 
 To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 

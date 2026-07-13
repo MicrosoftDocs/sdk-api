@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_SetMinTabWidth","TabCtrl_SetMinTabWidth macro [Wi
 old-location: controls\TabCtrl_SetMinTabWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setmintabwidth.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_SetMinTabWidth, TabCtrl_SetMinTabWidth macro [Windows Controls], _win32_TabCtrl_SetMinTabWidth, _win32_TabCtrl_SetMinTabWidth_cpp, commctrl/TabCtrl_SetMinTabWidth, controls.TabCtrl_SetMinTabWidth, controls._win32_TabCtrl_SetMinTabWidth
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TabCtrl_SetMinTabWidth macro
+
+## -syntax
+
+```cpp
+int TabCtrl_SetMinTabWidth(
+   HWND hwnd,
+   int  x
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns a value of type <b>int</b> that represents the previous minimum tab width.
 
 
 ## -description

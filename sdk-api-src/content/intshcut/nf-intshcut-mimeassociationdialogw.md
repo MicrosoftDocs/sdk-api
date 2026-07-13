@@ -1,8 +1,8 @@
 ---
 UID: NF:intshcut.MIMEAssociationDialogW
 title: MIMEAssociationDialogW function (intshcut.h)
-description: Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later:\_This function is no longer supported.
-helpviewer_keywords: ["MIMEAssociationDialog","MIMEAssociationDialog function [Windows Shell]","MIMEAssociationDialogA","MIMEAssociationDialogW","_win32_MIMEAssociationDialog","intshcut/MIMEAssociationDialog","intshcut/MIMEAssociationDialogA","intshcut/MIMEAssociationDialogW","shell.MIMEAssociationDialog"]
+description: Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later:\_This function is no longer supported. (Unicode)
+helpviewer_keywords: ["MIMEAssociationDialog", "MIMEAssociationDialog function [Windows Shell]", "MIMEAssociationDialogW", "_win32_MIMEAssociationDialog", "intshcut/MIMEAssociationDialog", "intshcut/MIMEAssociationDialogW", "shell.MIMEAssociationDialog"]
 old-location: shell\MIMEAssociationDialog.htm
 tech.root: shell
 ms.assetid: 0f8ee95a-3f95-47ee-822b-740ba134cd3c
@@ -164,5 +164,5 @@ This function does not validate the syntax of the input content type string at <
 
 
 > [!NOTE]
-> The intshcut.h header defines MIMEAssociationDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The intshcut.h header defines MIMEAssociationDialog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

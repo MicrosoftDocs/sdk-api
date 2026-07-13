@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetAddConnectionA
 title: WNetAddConnectionA function (winnetwk.h)
-description: The WNetAddConnection function enables the calling application to connect a local device to a network resource. A successful connection is persistent, meaning that the system automatically restores the connection during subsequent logon operations.
-helpviewer_keywords: ["WNetAddConnection","WNetAddConnection function [Windows Networking (WNet)]","WNetAddConnectionA","WNetAddConnectionW","_win32_wnetaddconnection","winnetwk/WNetAddConnection","winnetwk/WNetAddConnectionA","winnetwk/WNetAddConnectionW","wnet.wnetaddconnection"]
+description: The WNetAddConnection function enables the calling application to connect a local device to a network resource. A successful connection is persistent, meaning that the system automatically restores the connection during subsequent logon operations. (ANSI)
+helpviewer_keywords: ["WNetAddConnectionA", "winnetwk/WNetAddConnectionA"]
 old-location: wnet\wnetaddconnection.htm
 tech.root: WNet
 ms.assetid: 9f2cf166-eb08-4498-8cda-79808776a452
@@ -238,7 +238,7 @@ On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem c
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetAddConnection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetAddConnection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

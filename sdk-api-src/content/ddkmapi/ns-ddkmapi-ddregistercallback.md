@@ -233,4 +233,4 @@ Contains client data that is passed back to the client if the <b>pfnCallback</b>
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

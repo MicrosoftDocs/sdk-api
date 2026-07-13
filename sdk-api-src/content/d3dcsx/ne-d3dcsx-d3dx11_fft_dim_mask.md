@@ -54,15 +54,15 @@ Number of dimensions for FFT data.
 
 ## -enum-fields
 
-### -field D3DX11_FFT_DIM_MASK_1D
+### -field D3DX11_FFT_DIM_MASK_1D:0x1
 
 One dimension.
 
-### -field D3DX11_FFT_DIM_MASK_2D
+### -field D3DX11_FFT_DIM_MASK_2D:0x3
 
 Two dimensions.
 
-### -field D3DX11_FFT_DIM_MASK_3D
+### -field D3DX11_FFT_DIM_MASK_3D:0x7
 
 Three dimensions.
 

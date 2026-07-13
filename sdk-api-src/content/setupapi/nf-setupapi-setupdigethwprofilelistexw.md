@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileListExW
 title: SetupDiGetHwProfileListExW function (setupapi.h)
-description: The SetupDiGetHwProfileListEx function retrieves a list of all currently defined hardware profile IDs on a local or remote computer.
-helpviewer_keywords: ["SetupDiGetHwProfileListEx","SetupDiGetHwProfileListEx function [Device and Driver Installation]","SetupDiGetHwProfileListExA","SetupDiGetHwProfileListExW","devinst.setupdigethwprofilelistex","di-rtns_ef3bbf07-27d9-48fc-86a2-1bdfc10cbc33.xml","setupapi/SetupDiGetHwProfileListEx"]
+description: The SetupDiGetHwProfileListEx function retrieves a list of all currently defined hardware profile IDs on a local or remote computer. (Unicode)
+helpviewer_keywords: ["SetupDiGetHwProfileListEx", "SetupDiGetHwProfileListEx function [Device and Driver Installation]", "SetupDiGetHwProfileListExW", "devinst.setupdigethwprofilelistex", "di-rtns_ef3bbf07-27d9-48fc-86a2-1bdfc10cbc33.xml", "setupapi/SetupDiGetHwProfileListEx"]
 old-location: devinst\setupdigethwprofilelistex.htm
 tech.root: devinst
 ms.assetid: add700ee-48aa-47dd-8b55-6338dea05bfb
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetHwProfileListEx, SetupDiGetHwProfileListEx function [Device and Driver Installation], SetupDiGetHwProfileListExA, SetupDiGetHwProfileListExW, devinst.setupdigethwprofilelistex, di-rtns_ef3bbf07-27d9-48fc-86a2-1bdfc10cbc33.xml, setupapi/SetupDiGetHwProfileListEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -76,6 +76,9 @@ A pointer to a variable that receives the index of the currently active hardware
 
 A pointer to a NULL-terminated string that contains the name of a remote system for which to retrieve the list of hardware profile IDs. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the list is retrieved for the local system.
 
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
+
 ### -param Reserved
 
 Must be <b>NULL</b>.
@@ -91,4 +94,4 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetHwProfileListEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetHwProfileListEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

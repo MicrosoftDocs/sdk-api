@@ -75,7 +75,7 @@ The offset, in bytes, to a Unicode string that contains a domain name handled by
 
 ## -remarks
 
-This structure is supported on Windows Vistaand later.
+This structure is supported on Windows Vista and later.
 
 The 
 <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> structure describes a domain handled by a namespace provider for the NS_EMAIL namespace. A typical domain name represented by the <b>OffsetThisDomainName</b> member in this structure might be msn.com or yahoo.com.

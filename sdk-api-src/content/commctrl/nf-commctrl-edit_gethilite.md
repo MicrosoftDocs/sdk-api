@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.Edit_GetHilite
 title: Edit_GetHilite macro (commctrl.h)
-description: This macro is not implemented.
+description: This macro is not implemented. (Edit_GetHilite)
 helpviewer_keywords: ["Edit_GetHilite","Edit_GetHilite macro [Windows Controls]","_shell_Edit_GetHilite","_shell_Edit_GetHilite_cpp","commctrl/Edit_GetHilite","controls.Edit_GetHilite","controls._shell_Edit_GetHilite"]
 old-location: controls\Edit_GetHilite.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gethilite.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetHilite, Edit_GetHilite macro [Windows Controls], _shell_Edit_GetHilite, _shell_Edit_GetHilite_cpp, commctrl/Edit_GetHilite, controls.Edit_GetHilite, controls._shell_Edit_GetHilite
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetHilite macro
+
+## -syntax
+
+```cpp
+DWORD Edit_GetHilite(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+The starting and ending indexes that are highlighted. This value was created with the <b>MAKELONG</b> macro, with the starting index as the low word and the ending index as the high word. So, to get the starting index, call the <b>LOWORD</b> macro with the return value and to get the ending index, call the <b>HIWORD</b> macro with the return value.
 
 
 ## -description

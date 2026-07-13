@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMTuner interface [DirectShow]","get_CountryCode method"
 old-location: dshow\iamtuner_get_countrycode.htm
 tech.root: dshow
 ms.assetid: 8b459ad8-c9e0-4b35-aec4-113c8a67d907
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMTuner interface [DirectShow],get_CountryCode method, IAMTuner.get_CountryCode, IAMTuner::get_CountryCode, IAMTunerget_CountryCode, dshow.iamtuner_get_countrycode, get_CountryCode, get_CountryCode method [DirectShow], get_CountryCode method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_CountryCode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_CountryCode</code> method retrieves the country/region code that establishes the current channel-to-frequency mapping.
 

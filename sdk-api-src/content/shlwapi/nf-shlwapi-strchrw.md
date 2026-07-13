@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrChrW
 title: StrChrW function (shlwapi.h)
-description: Searches a string for the first occurrence of a character that matches the specified character. The comparison is case-sensitive.
-helpviewer_keywords: ["StrChr","StrChr function [Windows Shell]","StrChrA","StrChrW","_win32_StrChr","shell.StrChr","shlwapi/StrChr","shlwapi/StrChrA","shlwapi/StrChrW"]
+description: Searches a string for the first occurrence of a character that matches the specified character. The comparison is case-sensitive. (Unicode)
+helpviewer_keywords: ["StrChr", "StrChr function [Windows Shell]", "StrChrW", "_win32_StrChr", "shell.StrChr", "shlwapi/StrChr", "shlwapi/StrChrW"]
 old-location: shell\StrChr.htm
 tech.root: shell
 ms.assetid: 3e4c20cb-0b46-4f84-bbd1-860fdedde8c8
@@ -87,5 +87,5 @@ The comparison assumes <i>pszStart</i> points to the start of a null-terminated 
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrChr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrChr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

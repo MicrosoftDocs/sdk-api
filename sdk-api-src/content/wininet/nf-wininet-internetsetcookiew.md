@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetSetCookieW
 title: InternetSetCookieW function (wininet.h)
-description: Creates a cookie associated with the specified URL.
-helpviewer_keywords: ["InternetSetCookie","InternetSetCookie function [WinINet]","InternetSetCookieA","InternetSetCookieW","_win32_internetsetcookie","wininet.internetsetcookie","wininet/InternetSetCookie","wininet/InternetSetCookieA","wininet/InternetSetCookieW"]
+description: Creates a cookie associated with the specified URL. (InternetSetCookieW)
+helpviewer_keywords: ["InternetSetCookie", "InternetSetCookie function [WinINet]", "InternetSetCookieW", "_win32_internetsetcookie", "wininet.internetsetcookie", "wininet/InternetSetCookie", "wininet/InternetSetCookieW"]
 old-location: wininet\internetsetcookie.htm
 tech.root: wininet
 ms.assetid: 1b1ca72e-9c74-4e94-86a9-6fee12c83933
@@ -98,7 +98,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines InternetSetCookie as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetSetCookie as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

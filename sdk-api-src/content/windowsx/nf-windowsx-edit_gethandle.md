@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetHandle","Edit_GetHandle macro [Windows Controls]"
 old-location: controls\Edit_GetHandle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gethandle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetHandle, Edit_GetHandle macro [Windows Controls], _win32_Edit_GetHandle, _win32_Edit_GetHandle_cpp, controls.Edit_GetHandle, controls._win32_Edit_GetHandle, windowsx/Edit_GetHandle
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetHandle macro
+
+## -syntax
+
+```cpp
+HLOCAL Edit_GetHandle(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[HLOCAL](/windows/desktop/winprog/windows-data-types)**
+
+A memory handle identifying the buffer that holds the content of the edit control. If an error occurs, such as sending the message to a single-line edit control, the return value is zero.
 
 
 ## -description

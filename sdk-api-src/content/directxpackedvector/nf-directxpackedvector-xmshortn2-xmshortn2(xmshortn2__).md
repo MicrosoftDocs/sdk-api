@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(XMSHORTN2&&)
 title: XMSHORTN2::XMSHORTN2(XMSHORTN2 &&) (directxpackedvector.h)
-description: A constructor for XMSHORTN2.
+description: A constructor for XMSHORTN2. (overload 2/3)
 helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2.XMSHORTN2(XMSHORTN2 &&)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(XMSHORTN2 &&)","dxmath.xmshortn2_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMSHORTN2, XMSHORTN2 constructor [DirectX Math Support APIs], XMSHO
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

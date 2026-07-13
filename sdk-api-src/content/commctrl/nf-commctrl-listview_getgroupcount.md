@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetGroupCount","ListView_GetGroupCount macro [Wi
 old-location: controls\ListView_GetGroupCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetGroupCount, ListView_GetGroupCount macro [Windows Controls], _shell_ListView_GetGroupCount, _shell_ListView_GetGroupCount_cpp, commctrl/ListView_GetGroupCount, controls.ListView_GetGroupCount, controls._shell_ListView_GetGroupCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetGroupCount macro
+
+## -syntax
+
+```cpp
+int ListView_GetGroupCount(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the number of groups if successful, or -1 otherwise.
 
 
 ## -description

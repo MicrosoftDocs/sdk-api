@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_15
+UID: NS:commctrl.MCHITTESTINFO
 title: MCHITTESTINFO (commctrl.h)
 description: Carries information specific to hit-testing points for a month calendar control. This structure is used with the MCM_HITTEST message and the corresponding MonthCal_HitTest macro.
 helpviewer_keywords: ["*PMCHITTESTINFO","MCHITTESTINFO","MCHITTESTINFO structure [Windows Controls]","MCHT_CALENDARBK","MCHT_CALENDARCONTROL","MCHT_CALENDARDATE","MCHT_CALENDARDATEMAX","MCHT_CALENDARDATEMIN","MCHT_CALENDARDATENEXT","MCHT_CALENDARDATEPREV","MCHT_CALENDARDAY","MCHT_CALENDARWEEKNUM","MCHT_NOWHERE","MCHT_TITLEBK","MCHT_TITLEBTNNEXT","MCHT_TITLEBTNPREV","MCHT_TITLEMONTH","MCHT_TITLEYEAR","PMCHITTESTINFO","PMCHITTESTINFO structure pointer [Windows Controls]","_win32_MCHITTESTINFO","_win32_MCHITTESTINFO_cpp","commctrl/MCHITTESTINFO","commctrl/PMCHITTESTINFO","controls.MCHITTESTINFO","controls._win32_MCHITTESTINFO"]
@@ -64,7 +64,7 @@ The size of this structure, in bytes.
 
 ### -field pt
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 Point to be hit-tested.
 
@@ -266,3 +266,4 @@ The column number for the calendar grid that the given point was over. For examp
 ## -remarks
 
 Columns and rows in this control use a zero-based index system, that is, the first column or row has an index of zero.
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_FriendlyName
 title: ICertPropertyEnrollment::get_FriendlyName (certenroll.h)
-description: Retrieves the display name of the certificate.
+description: Retrieves the display name of the certificate. (ICertPropertyEnrollment.get_FriendlyName)
 helpviewer_keywords: ["FriendlyName property [Security]","FriendlyName property [Security]","ICertPropertyEnrollment interface","ICertPropertyEnrollment interface [Security]","FriendlyName property","ICertPropertyEnrollment.FriendlyName","ICertPropertyEnrollment.get_FriendlyName","ICertPropertyEnrollment::FriendlyName","ICertPropertyEnrollment::get_FriendlyName","certenroll/ICertPropertyEnrollment::FriendlyName","certenroll/ICertPropertyEnrollment::get_FriendlyName","get_FriendlyName","security.icertpropertyenrollment_friendlyname_property"]
 old-location: security\icertpropertyenrollment_friendlyname_property.htm
 tech.root: security

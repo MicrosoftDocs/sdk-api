@@ -1,11 +1,10 @@
 ---
 UID: NS:winuser.tagHIGHCONTRASTW
 title: HIGHCONTRASTW (winuser.h)
-description: Contains information about the high contrast accessibility feature.
+description: Contains information about the high contrast accessibility feature. (Unicode)
 helpviewer_keywords: ["*LPHIGHCONTRASTW","HCF_AVAILABLE","HCF_CONFIRMHOTKEY","HCF_HIGHCONTRASTON","HCF_HOTKEYACTIVE","HCF_HOTKEYAVAILABLE","HCF_HOTKEYSOUND","HCF_INDICATOR","HIGHCONTRAST","HIGHCONTRAST structure [Windows Accessibility]","HIGHCONTRASTW","LPHIGHCONTRAST","LPHIGHCONTRAST structure pointer [Windows Accessibility]","_win32_HIGHCONTRAST_str","msaa.highcontrast","tagACCESSTIMEOUTA","tagACCESSTIMEOUTW","winauto.highcontrast","winuser/HIGHCONTRAST","winuser/LPHIGHCONTRAST"]
 old-location: winauto\highcontrast.htm
 tech.root: WinAuto
-ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
 ms.date: 12/05/2018
 ms.keywords: '*LPHIGHCONTRASTW, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTW, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST'
 req.header: winuser.h
@@ -179,15 +178,15 @@ The hot key associated with the high contrast feature can be enabled. An applica
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-Points to a string that contains the name of the color scheme that will be set to the default scheme.
+Points to a string that contains the name of the color scheme that will be set to the default scheme. The system allocates this buffer, free it with LocalFree.
 
 ## -remarks
 
-An application uses this structure when calling the[SystemParametersInfoW function](nf-winuser-systemparametersinfow.md) with the <b>SPI_GETHIGHCONTRAST</b> or <b>SPI_SETHIGHCONTRAST</b> value. When using <b>SPI_GETHIGHCONTRAST</b>, an application must specify the <b>cbSize</b> member of the <b>HIGHCONTRAST</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETHIGHCONTRAST</b> value.
+An application uses this structure when calling the [SystemParametersInfoW function](nf-winuser-systemparametersinfow.md) with the **SPI_GETHIGHCONTRAST** or **SPI_SETHIGHCONTRAST** value. When using **SPI_GETHIGHCONTRAST**, an application must specify the **cbSize** member of the **HIGHCONTRAST** structure; the **SystemParametersInfo** function fills the remaining members. An application must specify all structure members when using the **SPI_SETHIGHCONTRAST** value.
 
 
 > [!NOTE]
-> The winuser.h header defines HIGHCONTRAST as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines HIGHCONTRAST as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

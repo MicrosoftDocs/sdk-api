@@ -4,7 +4,7 @@ title: SetProcessPriorityBoost function (processthreadsapi.h)
 description: Disables or enables the ability of the system to temporarily boost the priority of the threads of the specified process.
 helpviewer_keywords: ["SetProcessPriorityBoost","SetProcessPriorityBoost function","_win32_setprocesspriorityboost","base.setprocesspriorityboost","processthreadsapi/SetProcessPriorityBoost"]
 old-location: base\setprocesspriorityboost.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 211069cb-4b4c-49bc-ad3c-1be184999670
 ms.date: 12/05/2018
 ms.keywords: SetProcessPriorityBoost, SetProcessPriorityBoost function, _win32_setprocesspriorityboost, base.setprocesspriorityboost, processthreadsapi/SetProcessPriorityBoost
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
  - KernelBase.dll

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest
 title: IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest (dwrite_3.h)
-description: Adds a request to the font download queue (IDWriteFontDownloadQueue).
+description: Adds a request to the font download queue (IDWriteFontDownloadQueue). (IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest)
 helpviewer_keywords: ["EnqueueFileFragmentDownloadRequest","EnqueueFileFragmentDownloadRequest method [Direct Write]","EnqueueFileFragmentDownloadRequest method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","EnqueueFileFragmentDownloadRequest method","IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest","IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest","directwrite.idwritefontfacereference_enqueuefilefragmentdownloadrequest","dwrite_3/IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest"]
 old-location: directwrite\idwritefontfacereference_enqueuefilefragmentdownloadrequest.htm
 tech.root: DirectWrite
 ms.assetid: 6dfc2793-7960-5c13-950d-9ba14900c3e0
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: EnqueueFileFragmentDownloadRequest, EnqueueFileFragmentDownloadRequest method [Direct Write], EnqueueFileFragmentDownloadRequest method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],EnqueueFileFragmentDownloadRequest method, IDWriteFontFaceReference.EnqueueFileFragmentDownloadRequest, IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest, directwrite.idwritefontfacereference_enqueuefilefragmentdownloadrequest, dwrite_3/IDWriteFontFaceReference::EnqueueFileFragmentDownloadRequest
 req.header: dwrite_3.h
 req.include-header: 
@@ -70,7 +70,7 @@ Size of the fragment in bytes.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

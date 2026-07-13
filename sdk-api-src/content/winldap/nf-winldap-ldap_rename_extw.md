@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_rename_extW
 title: ldap_rename_extW function (winldap.h)
-description: The ldap_rename_ext function starts an asynchronous operation that changes the distinguished name of an entry in the directory. This function is available effective with LDAP 3.
-helpviewer_keywords: ["_ldap_ldap_rename_ext","ldap.ldap__rename__ext","ldap.ldap_rename_ext","ldap_rename_ext","ldap_rename_ext function [LDAP]","ldap_rename_extA","ldap_rename_extW","winldap/ldap_rename_ext","winldap/ldap_rename_extA","winldap/ldap_rename_extW"]
+description: The ldap_rename_extW (Unicode) function (winldap.h) starts an asynchronous operation that changes the distinguished name of an entry in the directory.
+helpviewer_keywords: ["_ldap_ldap_rename_ext", "ldap.ldap__rename__ext", "ldap.ldap_rename_ext", "ldap_rename_ext", "ldap_rename_ext function [LDAP]", "ldap_rename_extW", "winldap/ldap_rename_ext", "winldap/ldap_rename_extW"]
 old-location: ldap\ldap_rename_ext.htm
 tech.root: ldap
 ms.assetid: 73633a71-ebe6-4169-a9ff-17151d90ebcd
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_rename_ext, ldap.ldap__rename__ext, ldap.ldap_rename_ext, ldap_rename_ext, ldap_rename_ext function [LDAP], ldap_rename_extA, ldap_rename_extW, winldap/ldap_rename_ext, winldap/ldap_rename_extA, winldap/ldap_rename_extW
 req.header: winldap.h
 req.include-header: 
@@ -107,7 +107,7 @@ Multithreading: Calls to <b>ldap_rename_ext</b> are thread-safe.
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_rename_ext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_rename_ext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

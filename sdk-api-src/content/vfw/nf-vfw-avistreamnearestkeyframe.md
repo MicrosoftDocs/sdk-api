@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamNearestKeyFrame","AVIStreamNearestKeyFrame macro
 old-location: multimedia\avistreamnearestkeyframe.htm
 tech.root: Multimedia
 ms.assetid: 90d0e0a8-dc5b-4f7e-868e-03f40f037437
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamNearestKeyFrame, AVIStreamNearestKeyFrame macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrame, multimedia.avistreamnearestkeyframe, vfw/AVIStreamNearestKeyFrame
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamNearestKeyFrame macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamNearestKeyFrame(
+     pavi,
+     l
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the position of the key frame if successful or –1 otherwise.
+
 
 ## -description
 
@@ -69,8 +84,8 @@ The <b>AVIStreamNearestKeyFrame</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamNearestKeyFrame(pavi, lPos) \ 
-    AVIStreamFindSample(pavi, lPos , FIND_PREV | FIND_KEY) 
+#define AVIStreamNearestKeyFrame(pavi, l) \ 
+    AVIStreamFindSample(pavi, l , FIND_PREV | FIND_KEY) 
 
 ```
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetSelectedColumn","ListView_GetSelectedColumn m
 old-location: controls\ListView_GetSelectedColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcolumn.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetSelectedColumn, ListView_GetSelectedColumn macro [Windows Controls], _win32_ListView_GetSelectedColumn, _win32_ListView_GetSelectedColumn_cpp, commctrl/ListView_GetSelectedColumn, controls.ListView_GetSelectedColumn, controls._win32_ListView_GetSelectedColumn
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetSelectedColumn macro
+
+## -syntax
+
+```cpp
+UINT ListView_GetSelectedColumn(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>UINT</b> that specifies the selected column.
 
 
 ## -description

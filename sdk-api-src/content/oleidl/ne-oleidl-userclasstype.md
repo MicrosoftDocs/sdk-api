@@ -56,15 +56,15 @@ Indicates the different variants of the display name associated with a class of 
 
 ## -enum-fields
 
-### -field USERCLASSTYPE_FULL
+### -field USERCLASSTYPE_FULL:1
 
 The full type name of the class.
 
-### -field USERCLASSTYPE_SHORT
+### -field USERCLASSTYPE_SHORT:2
 
 A short name (maximum of 15 characters) that is used for popup menus and the <b>Links</b> dialog box.
 
-### -field USERCLASSTYPE_APPNAME
+### -field USERCLASSTYPE_APPNAME:3
 
 The name of the application servicing the class and is used in the result text in dialog boxes.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RefreshISNSServerW
 title: RefreshISNSServerW function (iscsidsc.h)
-description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service.
-helpviewer_keywords: ["RefreshISNSServerW","RefreshIsnsServer","RefreshIsnsServer function [iSCSI Discovery Library API]","RefreshIsnsServerA","RefreshIsnsServerW","iscsidisc.refreshisnsserver","iscsidsc/RefreshIsnsServer","iscsidsc/RefreshIsnsServerA","iscsidsc/RefreshIsnsServerW"]
+description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service. (Unicode)
+helpviewer_keywords: ["RefreshISNSServerW", "RefreshIsnsServer", "RefreshIsnsServer function [iSCSI Discovery Library API]", "RefreshIsnsServerW", "iscsidisc.refreshisnsserver", "iscsidsc/RefreshIsnsServer", "iscsidsc/RefreshIsnsServerW"]
 old-location: iscsidisc\refreshisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: c954126a-6bad-49cf-889e-81746fe175a4
@@ -76,7 +76,7 @@ If the iSNS server supports State Change Notifications (SCN), the iSCSI initiato
 
 
 > [!NOTE]
-> The iscsidsc.h header defines RefreshISNSServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines RefreshISNSServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

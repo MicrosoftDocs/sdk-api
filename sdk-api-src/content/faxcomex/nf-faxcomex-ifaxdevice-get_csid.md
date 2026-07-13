@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_CSID
 title: IFaxDevice::get_CSID (faxcomex.h)
-description: The IFaxDevice::get_CSID property is a null-terminated string that contains the called station identifier (CSID) for the device.
+description: The IFaxDevice::get_CSID property is a null-terminated string that contains the called station identifier (CSID) for the device. (Get)
 helpviewer_keywords: ["CSID property [Fax Service]","CSID property [Fax Service]","IFaxDevice interface","IFaxDevice interface [Fax Service]","CSID property","IFaxDevice.CSID","IFaxDevice.get_CSID","IFaxDevice.put_CSID","IFaxDevice::CSID","IFaxDevice::get_CSID","IFaxDevice::put_CSID","_mfax_faxdevice.csid","fax._mfax_faxdevice_cpp_mfax_faxdevice_csid_cpp","fax._mfax_faxdevice_csid","faxcomex/IFaxDevice::CSID","faxcomex/IFaxDevice::get_CSID","faxcomex/IFaxDevice::put_CSID","get_CSID"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_csid_cpp.htm
 tech.root: Fax

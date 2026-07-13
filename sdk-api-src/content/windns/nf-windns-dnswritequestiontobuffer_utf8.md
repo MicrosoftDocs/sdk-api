@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsWriteQuestionToBuffer_UTF8
 title: DnsWriteQuestionToBuffer_UTF8 function (windns.h)
-description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure.
+description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure. (DnsWriteQuestionToBuffer_UTF8)
 helpviewer_keywords: ["DnsWriteQuestionToBuffer","DnsWriteQuestionToBuffer_UTF8","DnsWriteQuestionToBuffer_W","DnsWriteQuestionToBuffer_W function [DNS]","_dns_dnswritequestiontobuffer","dns.dnswritequestiontobuffer","windns/DnsWriteQuestionToBuffer_UTF8","windns/DnsWriteQuestionToBuffer_W"]
 old-location: dns\dnswritequestiontobuffer.htm
 tech.root: DNS
@@ -53,7 +53,7 @@ api_name:
 
 The 
 <b>DnsWriteQuestionToBuffer</b> function type creates a DNS query message and stores it in a 
-<a href="/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure. Like many DNS functions, the 
+<a href="/windows/desktop/api/windnsdef/ns-windnsdef-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure. Like many DNS functions, the 
 <b>DnsWriteQuestionToBuffer</b> function type is implemented in multiple forms to facilitate different character encoding. Based on the character encoding involved, use one of the following functions:
 <ul>
 <li>
@@ -71,7 +71,7 @@ The
 
 ### -param pDnsBuffer [in, out]
 
-A pointer to a <a href="/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains a DNS query message stored in a buffer.
+A pointer to a <a href="/windows/desktop/api/windnsdef/ns-windnsdef-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains a DNS query message stored in a buffer.
 
 ### -param pdwBufferSize [in, out]
 
@@ -83,7 +83,7 @@ A pointer to a string that represents the name of the owner of the record set be
 
 ### -param wType [in]
 
-A value that represents the RR <a href="/windows/desktop/DNS/dns-constants">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
+A value that represents the RR <a href="/windows/desktop/DNS/dns-constants">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="/windows/win32/api/windns/nf-windns-dnsquery_a">DNS_A_DATA</a>.
 
 ### -param Xid [in]
 
@@ -101,7 +101,9 @@ Returns <b>TRUE</b> upon successful execution, otherwise <b>FALSE</b>.
 
 The following declaration for <b>DnsWriteQuestionToBuffer_UTF8</b> can be found in Windns.h.
 
-<pre class="syntax" xml:space="preserve"><code>BOOL
+
+``` syntax
+BOOL
 WINAPI
 DnsWriteQuestionToBuffer_UTF8(
     __inout     PDNS_MESSAGE_BUFFER pDnsBuffer,
@@ -110,15 +112,17 @@ DnsWriteQuestionToBuffer_UTF8(
     __in        WORD                wType,
     __in        WORD                Xid,
     __in        BOOL                fRecursionDesired
-    );</code></pre>
+    );
+```
+
 
 ## -see-also
 
-<a href="/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
+<a href="/windows/desktop/api/windnsdef/ns-windnsdef-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
 
 
 
-<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a>
 
 
 

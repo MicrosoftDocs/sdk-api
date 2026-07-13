@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_HighlightItem","TabCtrl_HighlightItem macro [Wind
 old-location: controls\TabCtrl_HighlightItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_highlightitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_HighlightItem, TabCtrl_HighlightItem macro [Windows Controls], _win32_TabCtrl_HighlightItem, _win32_TabCtrl_HighlightItem_cpp, commctrl/TabCtrl_HighlightItem, controls.TabCtrl_HighlightItem, controls._win32_TabCtrl_HighlightItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TabCtrl_HighlightItem macro
+
+## -syntax
+
+```cpp
+BOOL TabCtrl_HighlightItem(
+   HWND hwnd,
+   INT  i,
+   WORD fHighlight
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

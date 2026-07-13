@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SetColumnWidth","ListBox_SetColumnWidth macro [Wi
 old-location: controls\ListBox_SetColumnWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcolumnwidth.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SetColumnWidth, ListBox_SetColumnWidth macro [Windows Controls], _win32_ListBox_SetColumnWidth, _win32_ListBox_SetColumnWidth_cpp, controls.ListBox_SetColumnWidth, controls._win32_ListBox_SetColumnWidth, windowsx/ListBox_SetColumnWidth
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # ListBox_SetColumnWidth macro
+
+## -syntax
+
+```cpp
+void ListBox_SetColumnWidth(
+   HWND hwndCtl,
+   int  cxColumn
+);
+```
 
 
 ## -description

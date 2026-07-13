@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardStatusW
 title: SCardStatusW function (winscard.h)
-description: Provides the current status of a smart card in a reader.
-helpviewer_keywords: ["SCARD_ABSENT","SCARD_NEGOTIABLE","SCARD_POWERED","SCARD_PRESENT","SCARD_PROTOCOL_RAW","SCARD_PROTOCOL_T0","SCARD_PROTOCOL_T1","SCARD_SPECIFIC","SCARD_SWALLOWED","SCardStatus","SCardStatus function [Security]","SCardStatusA","SCardStatusW","_smart_scardstatus","security.scardstatus","winscard/SCardStatus","winscard/SCardStatusA","winscard/SCardStatusW"]
+description: Provides the current status of a smart card in a reader. (Unicode)
+helpviewer_keywords: ["SCARD_ABSENT", "SCARD_NEGOTIABLE", "SCARD_POWERED", "SCARD_PRESENT", "SCARD_PROTOCOL_RAW", "SCARD_PROTOCOL_T0", "SCARD_PROTOCOL_T1", "SCARD_SPECIFIC", "SCARD_SWALLOWED", "SCardStatus", "SCardStatus function [Security]", "SCardStatusW", "_smart_scardstatus", "security.scardstatus", "winscard/SCardStatus", "winscard/SCardStatusW"]
 old-location: security\scardstatus.htm
 tech.root: security
 ms.assetid: 04547cd1-7755-4332-8195-924b803d9a84
@@ -152,7 +152,7 @@ The card has been reset and specific <a href="/windows/desktop/SecGloss/c-gly">c
 
 ### -param pdwProtocol [out, optional]
 
-Current protocol, if any. The returned value is meaningful only if the returned value of <i>pdwState</i> is SCARD_SPECIFICMODE.
+Current protocol, if any. The returned value is meaningful only if the returned value of <i>pdwState</i> is SCARD_SPECIFIC.
 
 <table>
 <tr>
@@ -277,7 +277,7 @@ switch ( dwState )
 
 
 > [!NOTE]
-> The winscard.h header defines SCardStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardStatus as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

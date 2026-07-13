@@ -56,31 +56,31 @@ Specifies the quality level for a pipeline component. The quality level determin
 
 ## -enum-fields
 
-### -field MF_QUALITY_NORMAL
+### -field MF_QUALITY_NORMAL:0
 
 Normal quality.
 
-### -field MF_QUALITY_NORMAL_MINUS_1
+### -field MF_QUALITY_NORMAL_MINUS_1:0x1
 
 One level below normal quality.
 
-### -field MF_QUALITY_NORMAL_MINUS_2
+### -field MF_QUALITY_NORMAL_MINUS_2:0x2
 
 Two levels below normal quality.
 
-### -field MF_QUALITY_NORMAL_MINUS_3
+### -field MF_QUALITY_NORMAL_MINUS_3:0x3
 
 Three levels below normal quality.
 
-### -field MF_QUALITY_NORMAL_MINUS_4
+### -field MF_QUALITY_NORMAL_MINUS_4:0x4
 
 Four levels below normal quality.
 
-### -field MF_QUALITY_NORMAL_MINUS_5
+### -field MF_QUALITY_NORMAL_MINUS_5:0x5
 
 Five levels below normal quality.
 
-### -field MF_NUM_QUALITY_LEVELS
+### -field MF_NUM_QUALITY_LEVELS:0x6
 
 Maximum number of quality levels. This value is not a valid flag.
 

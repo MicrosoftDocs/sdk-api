@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxEnumGlobalRoutingInfoA
 title: FaxEnumGlobalRoutingInfoA function (winfax.h)
-description: The FaxEnumGlobalRoutingInfo function enumerates all fax routing methods associated with a specific fax server.
-helpviewer_keywords: ["FaxEnumGlobalRoutingInfo","FaxEnumGlobalRoutingInfo function [Fax Service]","FaxEnumGlobalRoutingInfoA","FaxEnumGlobalRoutingInfoW","_mfax_faxenumglobalroutinginfo","fax._mfax_faxenumglobalroutinginfo","winfax/FaxEnumGlobalRoutingInfo","winfax/FaxEnumGlobalRoutingInfoA","winfax/FaxEnumGlobalRoutingInfoW"]
+description: The FaxEnumGlobalRoutingInfo function enumerates all fax routing methods associated with a specific fax server. (ANSI)
+helpviewer_keywords: ["FaxEnumGlobalRoutingInfoA", "winfax/FaxEnumGlobalRoutingInfoA"]
 old-location: fax\_mfax_faxenumglobalroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5zvz.htm
@@ -136,7 +136,7 @@ The <b>FaxEnumGlobalRoutingInfo</b> function allocates the memory required for t
 
 
 > [!NOTE]
-> The winfax.h header defines FaxEnumGlobalRoutingInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxEnumGlobalRoutingInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

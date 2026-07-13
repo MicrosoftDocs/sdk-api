@@ -6,7 +6,7 @@ helpviewer_keywords: ["Animate_Stop","Animate_Stop macro [Windows Controls]","_w
 old-location: controls\Animate_Stop.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_stop.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Animate_Stop, Animate_Stop macro [Windows Controls], _win32_Animate_Stop, _win32_Animate_Stop_cpp, commctrl/Animate_Stop, controls.Animate_Stop, controls._win32_Animate_Stop
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Animate_Stop macro
+
+## -syntax
+
+```cpp
+BOOL Animate_Stop(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

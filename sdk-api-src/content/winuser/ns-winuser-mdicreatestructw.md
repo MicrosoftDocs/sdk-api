@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMDICREATESTRUCTW
 title: MDICREATESTRUCTW (winuser.h)
-description: Contains information about the class, title, owner, location, and size of a multiple-document interface (MDI) child window.
+description: Contains information about the class, title, owner, location, and size of a multiple-document interface (MDI) child window. (Unicode)
 helpviewer_keywords: ["*LPMDICREATESTRUCTW","LPMDICREATESTRUCT","LPMDICREATESTRUCT structure pointer [Windows and Messages]","MDICREATESTRUCT","MDICREATESTRUCT structure [Windows and Messages]","MDICREATESTRUCTA","MDICREATESTRUCTW","WS_HSCROLL","WS_MAXIMIZE","WS_MINIMIZE","WS_VSCROLL","_win32_MDICREATESTRUCT_str","_win32_mdicreatestruct_str_cpp","winmsg.mdicreatestruct","winui._win32_mdicreatestruct_str","winuser/LPMDICREATESTRUCT","winuser/MDICREATESTRUCT","winuser/MDICREATESTRUCTA","winuser/MDICREATESTRUCTW"]
 old-location: winmsg\mdicreatestruct.htm
 tech.root: winmsg
@@ -64,7 +64,7 @@ Contains information about the class, title, owner, location, and size of a mult
 
 Type: <b>LPCTSTR</b>
 
-The name of the window class of the MDI child window. The class name must have been registered by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function.
+The name of the window class of the MDI child window. The class name must have been registered by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassw">RegisterClass</a> function.
 
 ### -field szTitle
 
@@ -171,7 +171,7 @@ An application-defined value.
 ## -remarks
 
 When the MDI client window creates an MDI child window
-            by calling <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>, the system sends a <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> message to the created window. The <i>lParam</i> member of the <b>WM_CREATE</b> message contains a pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a> structure. The 
+            by calling <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>, the system sends a <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> message to the created window. The <i>lParam</i> member of the <b>WM_CREATE</b> message contains a pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-createstructw">CREATESTRUCT</a> structure. The 
 				<b>lpCreateParams</b> member of this structure contains a pointer to the <b>MDICREATESTRUCT</b> structure passed with the <a href="/windows/desktop/winmsg/wm-mdicreate">WM_MDICREATE</a> message that created the MDI child window.
 
 
@@ -179,7 +179,7 @@ When the MDI client window creates an MDI child window
 
 
 > [!NOTE]
-> The winuser.h header defines MDICREATESTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines MDICREATESTRUCT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -187,7 +187,7 @@ When the MDI client window creates an MDI child window
 
 
 
-<a href="/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-createstructw">CREATESTRUCT</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextChildPattern.get_TextRange
 title: IUIAutomationTextChildPattern::get_TextRange (uiautomationclient.h)
-description: Retrieves a text range that encloses this child element.
+description: Retrieves a text range that encloses this child element. (IUIAutomationTextChildPattern.get_TextRange)
 helpviewer_keywords: ["IUIAutomationTextChildPattern interface [Windows Accessibility]","TextRange property","IUIAutomationTextChildPattern.TextRange","IUIAutomationTextChildPattern.get_TextRange","IUIAutomationTextChildPattern::TextRange","IUIAutomationTextChildPattern::get_TextRange","TextRange property [Windows Accessibility]","TextRange property [Windows Accessibility]","IUIAutomationTextChildPattern interface","get_TextRange","uiautomationclient/IUIAutomationTextChildPattern::TextRange","uiautomationclient/IUIAutomationTextChildPattern::get_TextRange","winauto.uiauto_IUIAutomationTextChildPattern_TextRange"]
 old-location: winauto\uiauto_IUIAutomationTextChildPattern_TextRange.htm
 tech.root: WinAuto

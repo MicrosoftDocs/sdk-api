@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_SYNC_ROOT_PROVIDER_INFO","CF_SYNC_ROOT_PROVIDER_INFO s
 old-location: cloudapi\cf_sync_root_provider_info.htm
 tech.root: cloudapi
 ms.assetid: 9EBC64B5-7FB3-41AA-BCB2-29B3E444B463
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_SYNC_ROOT_PROVIDER_INFO, CF_SYNC_ROOT_PROVIDER_INFO structure, cfapi/CF_SYNC_ROOT_PROVIDER_INFO, cloudApi.cf_sync_root_provider_info
 req.header: cfapi.h
 req.include-header: 
@@ -47,23 +47,24 @@ api_name:
 
 ## -description
 
-Sync root provider information.
+Contains sync root provider information.
 
 ## -struct-fields
 
 ### -field ProviderStatus
 
-Status of the sync root provider.
+Status of the sync root provider. See [CF_SYNC_PROVIDER_STATUS](ne-cfapi-cf_sync_provider_status.md) for possible values.
 
 ### -field ProviderName
 
-Name of the sync root provider.
+Name of the sync root provider. *ProviderName* is an end-user facing string with a maximum length of **CF_MAX_PROVIDER_NAME_LENGTH** (255 characters).
 
 ### -field ProviderVersion
 
-Version of the sync root provider.
+Version of the sync root provider. *ProviderVersion* is an end-user facing string with a maximum length of **CF_MAX_PROVIDER_VERSION_LENGTH** (255 characters).
 
-## -remarks
+## -see-also
 
-<b>CF_MAX_PROVIDER_NAME_LENGTH</b> and <b>CF_MAX_PROVIDER_VERSION_LENGTH</b> are set to 255.
+[CfGetSyncRootInfoByPath](nf-cfapi-cfgetsyncrootinfobypath.md)
 
+[CF_SYNC_PROVIDER_STATUS](ne-cfapi-cf_sync_provider_status.md)

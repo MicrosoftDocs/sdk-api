@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedBundleWriter3
 title: IAppxEncryptedBundleWriter3 (appxpackaging.h)
-description: Provides a write-only object model for encrypted bundle packages.
+description: Provides a write-only object model for encrypted bundle packages. (IAppxEncryptedBundleWriter3)
 helpviewer_keywords: ["IAppxEncryptedBundleWriter3","IAppxEncryptedBundleWriter3 interface [App packaging and management]","IAppxEncryptedBundleWriter3 interface [App packaging and management]","described","appxpackaging/IAppxEncryptedBundleWriter3","appxpkg.iappxencryptedbundlewriter3"]
 old-location: appxpkg\iappxencryptedbundlewriter3.htm
 tech.root: appxpkg
@@ -54,8 +54,5 @@ Provides a write-only object model for encrypted bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedBundleWriter3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedBundleWriter3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxEncryptedBundleWriter3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedBundleWriter3</b> also has these types of members:
 

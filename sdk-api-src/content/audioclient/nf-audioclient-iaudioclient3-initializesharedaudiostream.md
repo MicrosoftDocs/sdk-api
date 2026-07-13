@@ -61,8 +61,6 @@ Type: <b>DWORD</b>
 Flags to control creation of the stream. The client should set this parameter to 0 or to the bitwise OR of one or more of the supported  <a href="/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a> or   <a href="/windows/desktop/CoreAudio/audclnt-sessionflags-xxx-constants">AUDCLNT_SESSIONFLAGS_XXX Constants</a>. The supported <a href="/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a> for this parameter when using this method are: 
 
 - AUDCLNT_STREAMFLAGS_EVENTCALLBACK
-- AUDCLNT_STREAMFLAGS_AUTOCONVERTPCM
-- AUDCLNT_STREAMFLAGS_SRC_DEFAULT_QUALITY
 
 ### -param PeriodInFrames [in]
 
@@ -250,6 +248,20 @@ A prior call to <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioc
 <td width="60%">
 Out of memory.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_RESOURCES_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The stream's resources have been invalidated. This error may be thrown for the following reasons:<br>
+- The stream is suspended.<br>
+- An Exclusive or Offload stream is disconnected.<br>
+- A packaged application that has an exclusive mode or offload stream is quiesced.<br>
+- A "protected output" stream is closed.<br>
 </td>
 </tr>
 </table>

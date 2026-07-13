@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_SetNextText","PropSheet_SetNextText macro [Wind
 old-location: controls\PropSheet_SetNextText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setnexttext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_SetNextText, PropSheet_SetNextText macro [Windows Controls], _shell_PropSheet_SetNextText, _shell_PropSheet_SetNextText_cpp, controls.PropSheet_SetNextText, controls._shell_PropSheet_SetNextText, prsht/PropSheet_SetNextText
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_SetNextText macro
+
+## -syntax
+
+```cpp
+VOID PropSheet_SetNextText(
+   HWND   hDlg,
+   LPTSTR lpszText
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No meaningful return value.
 
 
 ## -description

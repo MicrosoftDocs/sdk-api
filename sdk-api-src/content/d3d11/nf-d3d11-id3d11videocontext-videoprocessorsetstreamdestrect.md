@@ -68,7 +68,7 @@ Specifies whether to apply the destination rectangle.
 
 ### -param pRect [in]
 
-A pointer to a <a href="/previous-versions/dd162897(v=vs.85)">RECT</a> structure that specifies the destination rectangle. If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the destination rectangle. If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
 
 ## -remarks
 

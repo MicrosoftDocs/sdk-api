@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITrigger.get_StartBoundary
 title: ITrigger::get_StartBoundary (taskschd.h)
-description: Gets or sets the date and time when the trigger is activated.
+description: Gets or sets the date and time when the trigger is activated. (Get)
 helpviewer_keywords: ["ITrigger interface [Task Scheduler]","StartBoundary property","ITrigger.StartBoundary","ITrigger.get_StartBoundary","ITrigger::StartBoundary","ITrigger::get_StartBoundary","ITrigger::put_StartBoundary","StartBoundary property [Task Scheduler]","StartBoundary property [Task Scheduler]","ITrigger interface","get_StartBoundary","taskschd.itrigger_startboundary","taskschd/ITrigger::StartBoundary","taskschd/ITrigger::get_StartBoundary","taskschd/ITrigger::put_StartBoundary"]
 old-location: taskschd\itrigger_startboundary.htm
 tech.root: taskschd

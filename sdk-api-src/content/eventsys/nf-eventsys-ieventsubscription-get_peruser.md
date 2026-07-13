@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_PerUser
 title: IEventSubscription::get_PerUser (eventsys.h)
-description: Indicates whether the subscription receives the event only if the owner of the subscription is logged on to the same computer as the publisher.
+description: Indicates whether the subscription receives the event only if the owner of the subscription is logged on to the same computer as the publisher. (Get)
 helpviewer_keywords: ["IEventSubscription interface [COM+]","PerUser property","IEventSubscription.PerUser","IEventSubscription.get_PerUser","IEventSubscription::PerUser","IEventSubscription::get_PerUser","IEventSubscription::put_PerUser","PerUser property [COM+]","PerUser property [COM+]","IEventSubscription interface","cos.ieventsubscription_peruser","eventsys/IEventSubscription::PerUser","eventsys/IEventSubscription::get_PerUser","eventsys/IEventSubscription::put_PerUser","get_PerUser"]
 old-location: cos\ieventsubscription_peruser.htm
 tech.root: cos

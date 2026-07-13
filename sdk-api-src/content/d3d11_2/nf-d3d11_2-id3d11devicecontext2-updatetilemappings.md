@@ -265,7 +265,7 @@ Complex example - defining mappings for regions with some skips, some NULL mappi
 
 ```cpp
 // - This complex example hard codes the parameter arrays, whereas in practice the 
-//   application would likely configure the paramaters programatically or in a data driven way.
+//   application would likely configure the parameters programatically or in a data driven way.
 // - Suppose we have 3 regions in a Tiled Resource to configure mappings for, 2x3 at coordinate (1,1),
 //   3x3 at coordinate (4,7), and 7x1 at coordinate (20,30)
 // - The tiles in the regions are walked from first to last, in X then Y then Z order,
@@ -353,7 +353,7 @@ CopyTileMappings
 ```cpp
 // CopyTileMappings helps with tasks such as shifting mappings around within/across Tiled Resources, e.g. scrolling tiles.
 // The source and dest region can overlap - the result of the copy in this case is as if the source was saved to a temp and then
-// from there writen to the dest, though the implementation may be able to do better. 
+// from there written to the dest, though the implementation may be able to do better. 
 //
 // The Flags field allows D3D11_TILE_MAPPING_NO_OVERWRITE to be specified, means the caller promises that previously 
 //      submitted commands to the device that may still be executing do not reference any of the tile region being updated.

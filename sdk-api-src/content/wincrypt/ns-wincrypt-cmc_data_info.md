@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMC_DATA_INFO
 title: CMC_DATA_INFO (wincrypt.h)
-description: Provides a means of communicating different pieces of tagged information.
+description: Provides a means of communicating different pieces of tagged information. (CMC_DATA_INFO)
 helpviewer_keywords: ["*PCMC_DATA_INFO","CMC_DATA_INFO","CMC_DATA_INFO structure [Security]","PCMC_DATA_INFO","PCMC_DATA_INFO structure pointer [Security]","_crypto2_cmc_data_info","security.cmc_data_info","wincrypt/CMC_DATA_INFO","wincrypt/PCMC_DATA_INFO"]
 old-location: security\cmc_data_info.htm
 tech.root: security

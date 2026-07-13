@@ -54,10 +54,7 @@ A Microsoft Active Accessibility object implements this interface when the objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibleHostingElementProviders</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibleHostingElementProviders</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAccessibleHostingElementProviders</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibleHostingElementProviders</b> also has these types of members:
 
 ## -see-also
 

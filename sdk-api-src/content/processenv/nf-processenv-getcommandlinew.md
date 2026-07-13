@@ -1,15 +1,15 @@
 ---
 UID: NF:processenv.GetCommandLineW
 title: GetCommandLineW function (processenv.h)
-description: Retrieves the command-line string for the current process.
-helpviewer_keywords: ["GetCommandLine","GetCommandLine function","GetCommandLineA","GetCommandLineW","_win32_getcommandline","base.getcommandline","processenv/GetCommandLine","processenv/GetCommandLineA","processenv/GetCommandLineW","winbase/GetCommandLine","winbase/GetCommandLineA","winbase/GetCommandLineW"]
+description: Retrieves the command-line string for the current process. (Unicode)
+helpviewer_keywords: ["GetCommandLine", "GetCommandLine function", "GetCommandLineW", "_win32_getcommandline", "base.getcommandline", "processenv/GetCommandLine", "processenv/GetCommandLineW"]
 old-location: base\getcommandline.htm
 tech.root: backup
 ms.assetid: 08dfcab2-eb6e-49a4-80eb-87d4076c98c6
 ms.date: 12/05/2018
 ms.keywords: GetCommandLine, GetCommandLine function, GetCommandLineA, GetCommandLineW, _win32_getcommandline, base.getcommandline, processenv/GetCommandLine, processenv/GetCommandLineA, processenv/GetCommandLineW, winbase/GetCommandLine, winbase/GetCommandLineA, winbase/GetCommandLineW
 req.header: processenv.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the command-line string for the current process.
 
-## -parameters
+
 
 ## -returns
 
@@ -80,7 +80,7 @@ To convert the command line to an <i>argv</i> style array of strings, pass the r
 <div> </div>
 
 > [!NOTE]
-> The processenv.h header defines GetCommandLine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The processenv.h header defines GetCommandLine as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

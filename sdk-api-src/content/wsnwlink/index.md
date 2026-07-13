@@ -4,7 +4,8 @@ title: Wsnwlink.h header
 ms.assetid: f504e64c-4747-3634-a0be-5a1b3013e940
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: winsock
 f1_keywords:
  - wsnwlink

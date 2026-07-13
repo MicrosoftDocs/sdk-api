@@ -1,5 +1,5 @@
 ---
-UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0017_0003
+UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0018_0003
 title: MF_FILE_FLAGS (mfobjects.h)
 description: Specifies the behavior when opening a file.
 helpviewer_keywords: ["1e1c906e-c832-4df1-96f5-86e690c3c34e","MF_FILEFLAGS_ALLOW_WRITE_SHARING","MF_FILEFLAGS_NOBUFFERING","MF_FILEFLAGS_NONE","MF_FILE_FLAGS","MF_FILE_FLAGS enumeration [Media Foundation]","mf.mf_file_flags","mfobjects/MF_FILEFLAGS_ALLOW_WRITE_SHARING","mfobjects/MF_FILEFLAGS_NOBUFFERING","mfobjects/MF_FILEFLAGS_NONE","mfobjects/MF_FILE_FLAGS"]
@@ -56,15 +56,15 @@ Specifies the behavior when opening a file.
 
 ## -enum-fields
 
-### -field MF_FILEFLAGS_NONE
+### -field MF_FILEFLAGS_NONE:0
 
 Use the default behavior.
 
-### -field MF_FILEFLAGS_NOBUFFERING
+### -field MF_FILEFLAGS_NOBUFFERING:0x1
 
 Open the file with no system caching.
 
-### -field MF_FILEFLAGS_ALLOW_WRITE_SHARING
+### -field MF_FILEFLAGS_ALLOW_WRITE_SHARING:0x2
 
 Subsequent open operations can have write access to the file.
 

@@ -4,7 +4,7 @@ title: IsWow64GuestMachineSupported function (wow64apiset.h)
 description: Determines which architectures are supported (under WOW64) on the given machine architecture.
 helpviewer_keywords: ["IsWow64GuestMachineSupported","IsWow64GuestMachineSupported function","base.iswow64guestmachinesupported","wow64apiset/IsWow64GuestMachineSupported"]
 old-location: base\iswow64guestmachinesupported.htm
-tech.root: winprog
+tech.root: fs
 ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
 ms.date: 12/05/2018
 ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.dll
-req.dll: Kernel32.lib
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - kernel32.lib
+ - api-ms-win-core-wow64-l1-1-3.dll
+ - api-ms-win-core-wow64-l1-1-2.dll
+ - kernel32.dll
  - API-MS-Win-Core-Wow64-L1-1-1.dll
  - KernelBase.dll
 api_name:
@@ -49,10 +51,7 @@ api_name:
 
 # IsWow64GuestMachineSupported function
 
-
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Determines which architectures are supported (under <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>) on the given machine architecture.
 
@@ -64,7 +63,7 @@ An <a href="/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MA
 
 ### -param MachineIsSupported [out]
 
-On success, returns a pointer to a boolean: <b>true</b> if the machine supports WOW64, or <b>false</b> if it does not.
+A pointer to the variable that, on success, receives <b>true</b> if the machine supports WOW64, or <b>false</b> if it does not.
 
 ## -returns
 

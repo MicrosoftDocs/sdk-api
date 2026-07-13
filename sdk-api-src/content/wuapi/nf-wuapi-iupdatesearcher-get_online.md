@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_Online
 title: IUpdateSearcher::get_Online (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether the UpdateSearcher goes online to search for updates.
+description: Gets and sets a Boolean value that indicates whether the UpdateSearcher goes online to search for updates. (Get)
 helpviewer_keywords: ["IUpdateSearcher interface [Windows Update Agent]","Online property","IUpdateSearcher.Online","IUpdateSearcher.get_Online","IUpdateSearcher::Online","IUpdateSearcher::get_Online","IUpdateSearcher::put_Online","Online property [Windows Update Agent]","Online property [Windows Update Agent]","IUpdateSearcher interface","get_Online","wua.iupdatesearcheronline","wuapi/IUpdateSearcher::Online","wuapi/IUpdateSearcher::get_Online","wuapi/IUpdateSearcher::put_Online"]
 old-location: wua\iupdatesearcheronline.htm
 tech.root: wua

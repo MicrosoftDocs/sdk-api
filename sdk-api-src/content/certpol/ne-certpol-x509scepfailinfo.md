@@ -54,25 +54,25 @@ The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certif
 
 ## -enum-fields
 
-### -field SCEPFailUnknown
+### -field SCEPFailUnknown:-1
 
-### -field SCEPFailBadAlgorithm
+### -field SCEPFailBadAlgorithm:0
 
 Failure due to an unrecognized or unsupported algorithm.
 
-### -field SCEPFailBadMessageCheck
+### -field SCEPFailBadMessageCheck:1
 
 The integrity check failed.
 
-### -field SCEPFailBadRequest
+### -field SCEPFailBadRequest:2
 
 The transaction was not permitted or was not supported.
 
-### -field SCEPFailBadTime
+### -field SCEPFailBadTime:3
 
 The signing time attribute from the PKCS7 authenticated attributes was not sufficiently close to the system time.
 
-### -field SCEPFailBadCertId
+### -field SCEPFailBadCertId:4
 
 No certificate could be identified.
 

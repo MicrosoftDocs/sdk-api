@@ -1,5 +1,5 @@
 ---
-UID: NE:prnasnot.__unnamed_enum_1
+UID: NE:prnasnot.PrintAsyncNotifyConversationStyle
 title: PrintAsyncNotifyConversationStyle (prnasnot.h)
 description: Specifies whether communication is bidirectional or unidirectional between applications and Print Spooler-hosted components such as printer drivers, print processors, and port monitors.
 helpviewer_keywords: ["PrintAsyncNotifyConversationStyle","PrintAsyncNotifyConversationStyle enumeration [Windows GDI]","_win32_PrintAsyncNotifyConversationStyle","gdi.printasyncnotifyconversationstyle","kBiDirectional","kUniDirectional","prnasnot/PrintAsyncNotifyConversationStyle","prnasnot/kBiDirectional","prnasnot/kUniDirectional"]

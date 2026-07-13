@@ -54,15 +54,15 @@ Describes minimum precision support options for shaders in the current graphics 
 
 ## -enum-fields
 
-### -field D3D12_SHADER_MIN_PRECISION_SUPPORT_NONE
+### -field D3D12_SHADER_MIN_PRECISION_SUPPORT_NONE:0
 
 The driver supports only full 32-bit precision for all shader stages.
 
-### -field D3D12_SHADER_MIN_PRECISION_SUPPORT_10_BIT
+### -field D3D12_SHADER_MIN_PRECISION_SUPPORT_10_BIT:0x1
 
 The driver supports 10-bit precision.
 
-### -field D3D12_SHADER_MIN_PRECISION_SUPPORT_16_BIT
+### -field D3D12_SHADER_MIN_PRECISION_SUPPORT_16_BIT:0x2
 
 The driver supports 16-bit precision.
 

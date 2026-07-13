@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-cluster-clusapi-l1-1-6.dll
+ - ext-ms-win-cluster-clusapi-l1-1-5.dll
+ - ext-ms-win-cluster-clusapi-l1-1-4.dll
  - ClusAPI.dll
  - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
  - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
@@ -235,7 +238,9 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
 The following code fragment demonstrates a call to 
       <b>ClusterGroupControl</b>.
 
-<pre class="syntax" xml:space="preserve"><code>// Allocate buffer.
+
+``` syntax
+// Allocate buffer.
 lpPropList = LocalAlloc( LPTR, cbAllocated );
 
 // Initial call.
@@ -246,7 +251,7 @@ dwResult = ClusterGroupControl( hCluster,
                                 0,
                                 lpPropList,
                                 cbAllocated,
-                                &amp;cbReturned );
+                                &cbReturned );
 
 // If the buffer was too small, reallocate it to the necessary size,
 // returned in cbReturned.
@@ -266,13 +271,15 @@ if ( dwResult == ERROR_MORE_DATA )
                                   0,
                                   lpPropList,
                                   cbAllocated,
-                                  &amp;cbReturned );
+                                  &cbReturned );
 }
 
 if ( dwResult != ERROR_SUCCESS )
 {
   // Respond to error.
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

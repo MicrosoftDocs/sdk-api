@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.UnregisterCMMA
 title: UnregisterCMMA
-description: Dissociates a specified ID value from a given color management module dynamic-link library (CMM DLL).
+description: Dissociates a specified ID value from a given color management module dynamic-link library (CMM DLL). (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

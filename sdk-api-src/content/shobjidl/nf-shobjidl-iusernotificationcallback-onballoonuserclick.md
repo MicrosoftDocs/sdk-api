@@ -56,12 +56,12 @@ Called when the user clicks the balloon. The application may respond with an act
 
 ### -param pt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
-Takes a pointer to the <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure which, upon method return, points to the position of the mouse in screen space where the mouse click occurred.
+Takes a pointer to the <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure which, upon method return, points to the position of the mouse in screen space where the mouse click occurred.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

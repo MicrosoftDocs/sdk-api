@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Text
 title: IX509EnrollmentStatus::put_Text (certenroll.h)
-description: Specifies or retrieves a string that contains a message associated with the status of the enrollment process.
+description: Specifies or retrieves a string that contains a message associated with the status of the enrollment process. (Put)
 helpviewer_keywords: ["IX509EnrollmentStatus interface [Security]","Text property","IX509EnrollmentStatus.Text","IX509EnrollmentStatus.put_Text","IX509EnrollmentStatus::Text","IX509EnrollmentStatus::get_Text","IX509EnrollmentStatus::put_Text","Text property [Security]","Text property [Security]","IX509EnrollmentStatus interface","certenroll/IX509EnrollmentStatus::Text","certenroll/IX509EnrollmentStatus::get_Text","certenroll/IX509EnrollmentStatus::put_Text","put_Text","security.ix509enrollmentstatus_text_property"]
 old-location: security\ix509enrollmentstatus_text_property.htm
 tech.root: security

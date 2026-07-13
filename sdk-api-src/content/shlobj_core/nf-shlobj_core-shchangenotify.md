@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
+ - api-ms-win-shell-changenotify-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-Shell-Changenotify-L1-1-0.dll
  - Ext-Ms-Win-Shell-Directory-L1-1-0.dll

@@ -54,10 +54,7 @@ The <b>ITfPreservedKeyNotifySink</b> interface is implemented by an application 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPreservedKeyNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPreservedKeyNotifySink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITfPreservedKeyNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPreservedKeyNotifySink</b> also has these types of members:
 
 ## -remarks
 

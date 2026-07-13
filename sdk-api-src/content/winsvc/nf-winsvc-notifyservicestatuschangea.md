@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.NotifyServiceStatusChangeA
 title: NotifyServiceStatusChangeA function (winsvc.h)
-description: Enables an application to receive notification when the specified service is created or deleted or when its status changes.
-helpviewer_keywords: ["NotifyServiceStatusChange","NotifyServiceStatusChange function","NotifyServiceStatusChangeA","NotifyServiceStatusChangeW","SERVICE_NOTIFY_CONTINUE_PENDING","SERVICE_NOTIFY_CREATED","SERVICE_NOTIFY_DELETED","SERVICE_NOTIFY_DELETE_PENDING","SERVICE_NOTIFY_PAUSED","SERVICE_NOTIFY_PAUSE_PENDING","SERVICE_NOTIFY_RUNNING","SERVICE_NOTIFY_START_PENDING","SERVICE_NOTIFY_STOPPED","SERVICE_NOTIFY_STOP_PENDING","base.notifyservicestatuschange","winsvc/NotifyServiceStatusChange","winsvc/NotifyServiceStatusChangeA","winsvc/NotifyServiceStatusChangeW"]
+description: Enables an application to receive notification when the specified service is created or deleted or when its status changes. (ANSI)
+helpviewer_keywords: ["NotifyServiceStatusChangeA", "SERVICE_NOTIFY_CONTINUE_PENDING", "SERVICE_NOTIFY_CREATED", "SERVICE_NOTIFY_DELETED", "SERVICE_NOTIFY_DELETE_PENDING", "SERVICE_NOTIFY_PAUSED", "SERVICE_NOTIFY_PAUSE_PENDING", "SERVICE_NOTIFY_RUNNING", "SERVICE_NOTIFY_START_PENDING", "SERVICE_NOTIFY_STOPPED", "SERVICE_NOTIFY_STOP_PENDING", "winsvc/NotifyServiceStatusChangeA"]
 old-location: base\notifyservicestatuschange.htm
 tech.root: security
 ms.assetid: e22b7f69-f096-486f-97fa-0465bef499cd
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - sechost.dll
@@ -247,12 +248,12 @@ To cancel outstanding notifications, close the service handle using the <a href=
 
 
 > [!NOTE]
-> The winsvc.h header defines NotifyServiceStatusChange as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines NotifyServiceStatusChange as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
 <a href="/windows/desktop/api/winsvc/ns-winsvc-service_notify_2a">SERVICE_NOTIFY</a>
 
-
+<a href="/windows/desktop/services/subscribeservicechangenotifications">SubscribeServiceChangeNotifications</a>
 
 <a href="/windows/desktop/Services/service-functions">Service Functions</a>

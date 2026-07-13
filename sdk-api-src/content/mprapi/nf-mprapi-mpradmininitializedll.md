@@ -53,7 +53,7 @@ api_name:
 When the Routing and Remote Access Service (RRAS) starts, it calls the 
 <b>MprAdminInitializeDll</b> function that is exported by the administration DLL. Use this function to perform any required initialization for the DLL.
 
-## -parameters
+
 
 ## -returns
 

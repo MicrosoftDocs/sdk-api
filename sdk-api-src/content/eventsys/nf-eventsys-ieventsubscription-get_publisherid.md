@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_PublisherID
 title: IEventSubscription::get_PublisherID (eventsys.h)
-description: The unique ID of the event publisher.
+description: The unique ID of the event publisher. (Get)
 helpviewer_keywords: ["IEventSubscription interface [COM+]","PublisherID property","IEventSubscription.PublisherID","IEventSubscription.get_PublisherID","IEventSubscription::PublisherID","IEventSubscription::get_PublisherID","IEventSubscription::put_PublisherID","PublisherID property [COM+]","PublisherID property [COM+]","IEventSubscription interface","cos.ieventsubscription_publisherid","eventsys/IEventSubscription::PublisherID","eventsys/IEventSubscription::get_PublisherID","eventsys/IEventSubscription::put_PublisherID","get_PublisherID"]
 old-location: cos\ieventsubscription_publisherid.htm
 tech.root: cos

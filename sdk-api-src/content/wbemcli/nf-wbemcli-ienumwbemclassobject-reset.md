@@ -54,7 +54,7 @@ The
 <b>IEnumWbemClassObject::Reset</b> method resets an enumeration sequence back to the beginning. Because CIM objects are dynamic, calling this method does not necessarily return the same list of objects that you obtained previously.
 <div class="alert"><b>Note</b>  This method fails if the enumerator was originally created with the <b>WBEM_FLAG_FORWARD_ONLY</b> option.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

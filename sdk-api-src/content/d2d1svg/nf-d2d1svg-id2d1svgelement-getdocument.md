@@ -58,7 +58,7 @@ Gets the document that contains this element.
 
 Type: <b>ID2D1SvgDocument**</b>
 
-Ouputs the document that contains this element. This argument will be null if the element has been removed from the tree.
+Outputs the document that contains this element. This argument will be null if the element has been removed from the tree.
 
 ## -see-also
 

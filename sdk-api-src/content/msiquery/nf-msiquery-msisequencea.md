@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiSequenceA
 title: MsiSequenceA function (msiquery.h)
-description: The MsiSequence function executes another action sequence, as described in the specified table.
-helpviewer_keywords: ["MsiSequence","MsiSequence function","MsiSequenceA","MsiSequenceW","_msi_msisequence","msiquery/MsiSequence","msiquery/MsiSequenceA","msiquery/MsiSequenceW","setup.msisequence"]
+description: The MsiSequence function executes another action sequence, as described in the specified table. (ANSI)
+helpviewer_keywords: ["MsiSequenceA", "msiquery/MsiSequenceA"]
 old-location: setup\msisequence.htm
 tech.root: setup
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
@@ -94,7 +94,7 @@ An action sequence containing any actions that update the system, such as the
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiSequence as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiSequence as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

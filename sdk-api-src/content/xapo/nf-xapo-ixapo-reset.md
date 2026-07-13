@@ -52,7 +52,7 @@ api_name:
 
 Resets variables dependent on frame history.
 
-## -parameters
+
 
 ## -remarks
 

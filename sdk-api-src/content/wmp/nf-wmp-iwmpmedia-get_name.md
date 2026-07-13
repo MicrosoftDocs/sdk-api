@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_name met
 old-location: wmp\iwmpmedia_get_name.htm
 tech.root: WMP
 ms.assetid: 83bb3495-a12d-48a8-864c-3cd636866308
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia interface [Windows Media Player],get_name method, IWMPMedia.get_name, IWMPMedia2 interface [Windows Media Player],get_name method, IWMPMedia2::get_name, IWMPMedia3 interface [Windows Media Player],get_name method, IWMPMedia3::get_name, IWMPMedia::get_name, IWMPMediaget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPMedia interface, get_name method [Windows Media Player],IWMPMedia2 interface, get_name method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_name, wmp/IWMPMedia2::get_name, wmp/IWMPMedia3::get_name, wmp/IWMPMedia::get_name
 req.header: wmp.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_name</b> method retrieves the name of the media item.
 

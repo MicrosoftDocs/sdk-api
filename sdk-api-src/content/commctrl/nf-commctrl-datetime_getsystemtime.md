@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_GetSystemtime","DateTime_GetSystemtime macro [Wi
 old-location: controls\DateTime_GetSystemtime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getsystemtime.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_GetSystemtime, DateTime_GetSystemtime macro [Windows Controls], _win32_DateTime_GetSystemtime, _win32_DateTime_GetSystemtime_cpp, commctrl/DateTime_GetSystemtime, controls.DateTime_GetSystemtime, controls._win32_DateTime_GetSystemtime
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # DateTime_GetSystemtime macro
+
+## -syntax
+
+```cpp
+DWORD DateTime_GetSystemtime(
+   HWND         hdp,
+   LPSYSTEMTIME pst
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns GDT_VALID if the time information was successfully placed in <i>pst</i>. Returns GDT_NONE if the control was set to the <b>DTS_SHOWNONE</b> style and the control check box was not selected. Returns GDT_ERROR if an error occurs.
 
 
 ## -description

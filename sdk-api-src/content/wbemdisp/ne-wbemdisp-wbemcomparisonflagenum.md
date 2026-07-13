@@ -59,31 +59,31 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
 
 ## -enum-fields
 
-### -field wbemComparisonFlagIncludeAll
+### -field wbemComparisonFlagIncludeAll:0
 
 Used to compare all properties, qualifiers, and flavors.
 
-### -field wbemComparisonFlagIgnoreQualifiers
+### -field wbemComparisonFlagIgnoreQualifiers:0x1
 
 Ignores all qualifiers (including <a href="/windows/desktop/WmiSdk/key-qualifier">Key</a> and <a href="/windows/desktop/WmiSdk/standard-wmi-qualifiers">Dynamic</a>) in comparison.
 
-### -field wbemComparisonFlagIgnoreObjectSource
+### -field wbemComparisonFlagIgnoreObjectSource:0x2
 
 Ignores the source of the objects, namely the server and the namespace they came from, in comparison to other objects.
 
-### -field wbemComparisonFlagIgnoreDefaultValues
+### -field wbemComparisonFlagIgnoreDefaultValues:0x4
 
 Ignores default values of properties (only meaningful when comparing classes).
 
-### -field wbemComparisonFlagIgnoreClass
+### -field wbemComparisonFlagIgnoreClass:0x8
 
 Instructs the system to assume that the objects being compared are instances of the same class. Consequently, this constant compares instance-related information only. Use to optimize performance. If the objects are not of the same class, the results will be undefined.
 
-### -field wbemComparisonFlagIgnoreCase
+### -field wbemComparisonFlagIgnoreCase:0x10
 
 Compares string values in a case-insensitive manner. This applies both to strings and to qualifier values. Property and qualifier names are always compared in a case-insensitive manner whether this constant is specified or not.
 
-### -field wbemComparisonFlagIgnoreFlavor
+### -field wbemComparisonFlagIgnoreFlavor:0x20
 
 Ignore qualifier flavors. This constant still takes qualifier values into account, but ignores flavor distinctions such as propagation rules and override restrictions.
 

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ProjectedFSLib.lib
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -56,7 +56,7 @@ Enables a provider to update an item that has been cached on the local file syst
 
 ### -param namespaceVirtualizationContext [in]
 
-Opague handle for the virtualization instance.
+Opaque handle for the virtualization instance.
 
 ### -param destinationFileName [in]
 

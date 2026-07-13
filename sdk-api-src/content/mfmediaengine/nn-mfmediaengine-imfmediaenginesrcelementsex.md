@@ -54,10 +54,7 @@ Extends the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmedi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineSrcElementsEx</b> interface inherits from <b>IMFMediaEngineSrcElements</b>. <b>IMFMediaEngineSrcElementsEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFMediaEngineSrcElementsEx</b> interface inherits from <b>IMFMediaEngineSrcElements</b>. <b>IMFMediaEngineSrcElementsEx</b> also has these types of members:
 
 ## -see-also
 

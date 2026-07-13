@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptImportPublicKeyInfoEx
 title: CryptImportPublicKeyInfoEx function (wincrypt.h)
-description: Important  This API is deprecated.
+description: Important  This API is deprecated. (CryptImportPublicKeyInfoEx)
 helpviewer_keywords: ["CryptImportPublicKeyInfoEx","CryptImportPublicKeyInfoEx function [Security]","_crypto2_cryptimportpublickeyinfoex","security.cryptimportpublickeyinfoex","wincrypt/CryptImportPublicKeyInfoEx"]
 old-location: security\cryptimportpublickeyinfoex.htm
 tech.root: security
@@ -134,7 +134,9 @@ If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandli
 
 This function is normally used to retrieve the public key from a certificate. This is done by passing the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure from a filled-in certificate structure as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>PCCERT_CONTEXT pCertContext
+
+``` syntax
+PCCERT_CONTEXT pCertContext
 
 // Get the certificate context structure from a certificate.
 pCertContext = CertCreateCertificateContext(...)
@@ -146,11 +148,13 @@ if(pCertContext)
     CryptImportPublicKeyInfo(
         hCryptProv, 
         X509_ASN_ENCODING, 
-        &amp;pCertContext-&gt;pCertInfo-&gt;SubjectPublicKeyInfo, 
-        &amp;hCertPubKey)
+        &pCertContext->pCertInfo->SubjectPublicKeyInfo, 
+        &hCertPubKey)
 
     CertFreeCertificateContext(pCertContext)
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

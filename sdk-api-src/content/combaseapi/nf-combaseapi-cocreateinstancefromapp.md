@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - combase.dll
  - API-MS-Win-Core-COM-l1-1-0.dll
  - API-MS-Win-Core-COM-l1-1-1.dll

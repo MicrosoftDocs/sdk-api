@@ -52,9 +52,9 @@ api_name:
 
 Sets a 16-bit variable to the specified value as an atomic operation.
 
-To operate on a 32-bit variable, use the <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange</a> function.
+To operate on a 32-bit variable, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedexchange">InterlockedExchange</a> function.
 
-To operate on a 64-bit variable, use the <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange64</a> function.
+To operate on a 64-bit variable, use the <a href="/windows/win32/api/winnt/nf-winnt-interlockedexchange64">InterlockedExchange64</a> function.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAcquire64</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="/previous-versions/windows/desktop/legacy/ms683596(v=vs.85)">InterlockedExchangeAcquire64</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -93,55 +93,55 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedexchange">InterlockedExchange</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange16Acquire</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972654(v=vs.85)">InterlockedExchange16Acquire</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange16NoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972655(v=vs.85)">InterlockedExchange16NoFence</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange64</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedexchange64">InterlockedExchange64</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange8</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedexchange8">InterlockedExchange8</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAcquire</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683594(v=vs.85)">InterlockedExchangeAcquire</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAcquire64</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683596(v=vs.85)">InterlockedExchangeAcquire64</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAdd</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedexchangeadd">InterlockedExchangeAdd</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeNoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972659(v=vs.85)">InterlockedExchangeNoFence</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeNoFence64</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972660(v=vs.85)">InterlockedExchangeNoFence64</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangePointer</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedexchangepointer">InterlockedExchangePointer</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangePointerAcquire</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683611(v=vs.85)">InterlockedExchangePointerAcquire</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangePointerNoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972661(v=vs.85)">InterlockedExchangePointerNoFence</a>
 
 
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_27
+UID: NS:lpmapi.GuarFlowSpec
 title: GuarFlowSpec (lpmapi.h)
 description: The GuarFlowSpec structure contains guaranteed flowspec information.
 helpviewer_keywords: ["GuarFlowSpec","GuarFlowSpec structure [QOS]","lpmapi/GuarFlowSpec","qos.guarflowspec"]
@@ -90,3 +90,4 @@ Guaranteed rate, in bytes per second, expressed as a <a href="/previous-versions
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservservicehdr">IntServServiceHdr</a>
+

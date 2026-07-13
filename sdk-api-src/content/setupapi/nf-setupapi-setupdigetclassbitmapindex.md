@@ -56,7 +56,7 @@ The <b>SetupDiGetClassBitmapIndex</b> function retrieves the index of the mini-i
 
 ### -param ClassGuid [in, optional]
 
-A pointer to the GUID of the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve the mini-icon. This pointer is optional and can be <b>NULL</b>.
+A pointer to the GUID of the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> for which to retrieve the mini-icon. This pointer is optional and can be <b>NULL</b>.
 
 ### -param MiniIconIndex [out]
 

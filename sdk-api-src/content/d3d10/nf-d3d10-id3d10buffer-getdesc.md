@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Buffer.GetDesc
 title: ID3D10Buffer::GetDesc (d3d10.h)
-description: Get the properties of a buffer resource.
+description: Get the properties of a buffer resource. (ID3D10Buffer.GetDesc)
 helpviewer_keywords: ["43c98e35-c17e-73a5-5b4f-535b750660f1","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10Buffer interface","ID3D10Buffer interface [Direct3D 10]","GetDesc method","ID3D10Buffer.GetDesc","ID3D10Buffer::GetDesc","d3d10/ID3D10Buffer::GetDesc","direct3d10.id3d10buffer_getdesc"]
 old-location: direct3d10\id3d10buffer_getdesc.htm
 tech.root: direct3d10

@@ -56,9 +56,9 @@ Contains values used to specify the timeout for the <a href="/windows/desktop/ap
 
 ## -enum-fields
 
-### -field WBEM_NO_WAIT
+### -field WBEM_NO_WAIT:0
 
-### -field WBEM_INFINITE
+### -field WBEM_INFINITE:0xffffffff
 
 ## -see-also
 

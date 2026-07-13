@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition.GetDuration
 title: IUIAnimationTransition::GetDuration (uianimation.h)
-description: Gets the duration of the transition.
+description: Gets the duration of the transition. (IUIAnimationTransition.GetDuration)
 helpviewer_keywords: ["GetDuration","GetDuration method [Windows Animation]","GetDuration method [Windows Animation]","IUIAnimationTransition interface","IUIAnimationTransition interface [Windows Animation]","GetDuration method","IUIAnimationTransition.GetDuration","IUIAnimationTransition::GetDuration","uianimation.iuianimationtransition_getduration","uianimation/IUIAnimationTransition::GetDuration"]
 old-location: uianimation\iuianimationtransition_getduration.htm
 tech.root: UIAnimation

@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetAtomNameA
 title: GetAtomNameA function (winbase.h)
-description: Retrieves a copy of the character string associated with the specified local atom.
-helpviewer_keywords: ["GetAtomName","GetAtomName function [Data Exchange]","GetAtomNameA","GetAtomNameW","_win32_GetAtomName","_win32_getatomname_cpp","dataxchg.getatomname","winbase/GetAtomName","winbase/GetAtomNameA","winbase/GetAtomNameW","winui._win32_getatomname"]
+description: Retrieves a copy of the character string associated with the specified local atom. (ANSI)
+helpviewer_keywords: ["GetAtomNameA", "winbase/GetAtomNameA"]
 old-location: dataxchg\getatomname.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\getatomname.htm
@@ -99,7 +99,7 @@ Using this function incorrectly might compromise the security of your program. I
 
 
 > [!NOTE]
-> The winbase.h header defines GetAtomName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetAtomName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

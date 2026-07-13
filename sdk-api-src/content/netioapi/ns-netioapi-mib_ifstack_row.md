@@ -1,7 +1,7 @@
 ---
 UID: NS:netioapi._MIB_IFSTACK_ROW
 title: MIB_IFSTACK_ROW (netioapi.h)
-description: Represents the relationship between two network interfaces.
+description: Represents the relationship between two network interfaces. (MIB_IFSTACK_ROW)
 helpviewer_keywords: ["*PMIB_IFSTACK_ROW","MIB_IFSTACK_ROW","MIB_IFSTACK_ROW structure [MIB]","PMIB_IFSTACK_ROW","PMIB_IFSTACK_ROW structure pointer [MIB]","_MIB_IFSTACK_ROW","mib.mib_ifstack_row","netioapi/MIB_IFSTACK_ROW","netioapi/PMIB_IFSTACK_ROW"]
 old-location: mib\mib_ifstack_row.htm
 tech.root: MIB

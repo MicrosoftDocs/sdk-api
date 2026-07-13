@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxAccountNotify
 title: IFaxAccountNotify (faxcomex.h)
-description: Called by the fax service to send event notifications about particular fax accounts. This property sends event notifications. Events include changes to incoming and outgoing job queues, and changes to incoming and outgoing archives.
+description: Called by the fax service to send event notifications about particular fax accounts. This property sends event notifications. Events include changes to incoming and outgoing job queues, and changes to incoming and outgoing archives. (IIFaxAccountNotify)
 helpviewer_keywords: ["IFaxAccountNotify","IFaxAccountNotify interface [Fax Service]","IFaxAccountNotify interface [Fax Service]","described","IIFaxAccountNotify","_IFaxAccountNotify","_mfax_ifaxaccountnotify","fax._mfax_ifaxaccountnotify","faxcomex/_IFaxAccountNotify"]
 old-location: fax\_mfax_ifaxaccountnotify.htm
 tech.root: Fax
@@ -55,10 +55,7 @@ Called by the fax service to send event notifications about particular fax accou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountNotify</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>_IFaxAccountNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFaxAccountNotify</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>_IFaxAccountNotify</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetTextContrast</b> method gets the contrast value currently set for this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. The contrast value is used for antialiasing text.
 
-## -parameters
+
 
 ## -returns
 

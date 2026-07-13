@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.MoveIcons
 title: IShellFolderView::MoveIcons (shlobj_core.h)
-description: This method is not implemented.
+description: This method is not implemented. (IShellFolderView.MoveIcons)
 helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","MoveIcons method","IShellFolderView.MoveIcons","IShellFolderView::MoveIcons","MoveIcons","MoveIcons method [Windows Shell]","MoveIcons method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_MoveIcons","shell.IShellFolderView_MoveIcons","shlobj_core/IShellFolderView::MoveIcons"]
 old-location: shell\IShellFolderView_MoveIcons.htm
 tech.root: shell

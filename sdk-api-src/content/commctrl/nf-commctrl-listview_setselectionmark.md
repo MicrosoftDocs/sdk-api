@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetSelectionMark","ListView_SetSelectionMark mac
 old-location: controls\ListView_SetSelectionMark.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectionmark.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetSelectionMark, ListView_SetSelectionMark macro [Windows Controls], _win32_ListView_SetSelectionMark, _win32_ListView_SetSelectionMark_cpp, commctrl/ListView_SetSelectionMark, controls.ListView_SetSelectionMark, controls._win32_ListView_SetSelectionMark
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetSelectionMark macro
+
+## -syntax
+
+```cpp
+INT ListView_SetSelectionMark(
+   HWND hwnd,
+   INT  i
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the previous selection mark, or -1 if there is no previous selection mark.
 
 
 ## -description

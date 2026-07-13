@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVideoWindow","IVideoWindow interface [DirectShow]","IVid
 old-location: dshow\ivideowindow.htm
 tech.root: dshow
 ms.assetid: 8e931c15-bd1d-409e-ada1-97fe49125fe7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow interface [DirectShow],described, IVideoWindowInterface, control/IVideoWindow, dshow.ivideowindow
 req.header: control.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IVideoWindow</code> interface sets properties on the video window. Applications can use it to set the window owner, the position and dimensions of the window, and other properties.
 
 <div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a> or <a href="/previous-versions/ms787155(v=vs.85)">IVMRWindowlessControl9</a> interface is now preferred over <code>IVideoWindow</code>. For more information, see <a href="/windows/desktop/DirectShow/using-windowless-mode">Using Windowless Mode</a>.</div>
@@ -71,10 +73,7 @@ Because this interface is Automation-compatible, all Boolean values are defined 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoWindow</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IVideoWindow</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVideoWindow</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IVideoWindow</b> also has these types of members:
 
 ## -see-also
 

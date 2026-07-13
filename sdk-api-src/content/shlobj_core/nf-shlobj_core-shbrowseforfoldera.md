@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHBrowseForFolderA
 title: SHBrowseForFolderA function (shlobj_core.h)
-description: Displays a dialog box that enables the user to select a Shell folder.
-helpviewer_keywords: ["SHBrowseForFolder","SHBrowseForFolder function [Windows Shell]","SHBrowseForFolderA","SHBrowseForFolderW","_win32_SHBrowseForFolder","shell.SHBrowseForFolder","shlobj_core/SHBrowseForFolder","shlobj_core/SHBrowseForFolderA","shlobj_core/SHBrowseForFolderW"]
+description: Displays a dialog box that enables the user to select a Shell folder. (ANSI)
+helpviewer_keywords: ["SHBrowseForFolderA", "shlobj_core/SHBrowseForFolderA"]
 old-location: shell\SHBrowseForFolder.htm
 tech.root: shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c
@@ -296,7 +296,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHBrowseForFolder as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHBrowseForFolder as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

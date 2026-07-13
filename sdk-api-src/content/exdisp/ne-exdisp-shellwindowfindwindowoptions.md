@@ -55,15 +55,15 @@ Specifies options for finding window in the Shell windows collection.
 
 ## -enum-fields
 
-### -field SWFO_NEEDDISPATCH
+### -field SWFO_NEEDDISPATCH:0x1
 
 The window must have an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
-### -field SWFO_INCLUDEPENDING
+### -field SWFO_INCLUDEPENDING:0x2
 
 Include windows that were registered with <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-registerpending">IShellWindows::RegisterPending</a>.
 
-### -field SWFO_COOKIEPASSED
+### -field SWFO_COOKIEPASSED:0x4
 
 Causes <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-findwindowsw">IShellWindows::FindWindowSW</a> to interpret <i>pvarLoc</i>  as a cookie rather than a PIDL.
 

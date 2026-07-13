@@ -52,7 +52,7 @@ api_name:
 
 Gets the ClearType level of the rendering parameters object.
 
-## -parameters
+
 
 ## -returns
 

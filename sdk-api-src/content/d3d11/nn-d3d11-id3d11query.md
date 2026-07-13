@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11Query
 title: ID3D11Query (d3d11.h)
-description: A query interface queries information from the GPU.
+description: A query interface queries information from the GPU. (ID3D11Query)
 helpviewer_keywords: ["0779360e-d58a-0694-026e-d85fdc97bf60","ID3D11Query","ID3D11Query interface [Direct3D 11]","ID3D11Query interface [Direct3D 11]","described","d3d11/ID3D11Query","direct3d11.id3d11query"]
 old-location: direct3d11\id3d11query.htm
 tech.root: direct3d11
@@ -55,10 +55,7 @@ A query interface queries information from the GPU.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Query</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a>. <b>ID3D11Query</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D11Query</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a>. <b>ID3D11Query</b> also has these types of members:
 
 ## -remarks
 

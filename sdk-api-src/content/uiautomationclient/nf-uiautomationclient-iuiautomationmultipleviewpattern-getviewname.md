@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetViewName
 title: IUIAutomationMultipleViewPattern::GetViewName (uiautomationclient.h)
-description: Retrieves the name of a control-specific view.
+description: Retrieves the name of a control-specific view. (IUIAutomationMultipleViewPattern.GetViewName)
 helpviewer_keywords: ["GetViewName","GetViewName method [Windows Accessibility]","GetViewName method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetViewName method","IUIAutomationMultipleViewPattern.GetViewName","IUIAutomationMultipleViewPattern::GetViewName","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName","uiauto_IUIAutomationMultipleViewPattern_GetViewName","uiautomationclient/IUIAutomationMultipleViewPattern::GetViewName","winauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName"]
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetViewName.htm
 tech.root: WinAuto
@@ -70,4 +70,4 @@ Receives a pointer to a localized view name.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

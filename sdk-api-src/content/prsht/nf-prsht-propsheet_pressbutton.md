@@ -6,7 +6,7 @@ helpviewer_keywords: ["PSBTN_APPLYNOW","PSBTN_BACK","PSBTN_CANCEL","PSBTN_FINISH
 old-location: controls\PropSheet_PressButton.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_pressbutton.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PSBTN_APPLYNOW, PSBTN_BACK, PSBTN_CANCEL, PSBTN_FINISH, PSBTN_HELP, PSBTN_NEXT, PSBTN_OK, PropSheet_PressButton, PropSheet_PressButton macro [Windows Controls], _win32_PropSheet_PressButton, _win32_PropSheet_PressButton_cpp, controls.PropSheet_PressButton, controls._win32_PropSheet_PressButton, prsht/PropSheet_PressButton
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_PressButton macro
+
+## -syntax
+
+```cpp
+BOOL PropSheet_PressButton(
+   HWND hDlg,
+   int  iButton
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

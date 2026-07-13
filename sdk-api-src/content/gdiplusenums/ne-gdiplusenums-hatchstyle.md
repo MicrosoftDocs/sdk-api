@@ -6,7 +6,7 @@ helpviewer_keywords: ["HatchStyle","HatchStyle enumeration [GDI+]","HatchStyle05
 old-location: gdiplus\_gdiplus_ENUM_HatchStyle.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\hatchstyle.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: HatchStyle, HatchStyle enumeration [GDI+], HatchStyle05Percent, HatchStyle10Percent, HatchStyle20Percent, HatchStyle25Percent, HatchStyle30Percent, HatchStyle40Percent, HatchStyle50Percent, HatchStyle60Percent, HatchStyle70Percent, HatchStyle75Percent, HatchStyle80Percent, HatchStyle90Percent, HatchStyleBackwardDiagonal, HatchStyleCross, HatchStyleDarkDownwardDiagonal, HatchStyleDarkHorizontal, HatchStyleDarkUpwardDiagonal, HatchStyleDarkVertical, HatchStyleDashedDownwardDiagonal, HatchStyleDashedHorizontal, HatchStyleDashedUpwardDiagonal, HatchStyleDashedVertical, HatchStyleDiagonalBrick, HatchStyleDiagonalCross, HatchStyleDivot, HatchStyleDottedDiamond, HatchStyleDottedGrid, HatchStyleForwardDiagonal, HatchStyleHorizontal, HatchStyleHorizontalBrick, HatchStyleLargeCheckerBoard, HatchStyleLargeConfetti, HatchStyleLargeGrid, HatchStyleLightDownwardDiagonal, HatchStyleLightHorizontal, HatchStyleLightUpwardDiagonal, HatchStyleLightVertical, HatchStyleMax, HatchStyleMin, HatchStyleNarrowHorizontal, HatchStyleNarrowVertical, HatchStyleOutlinedDiamond, HatchStylePlaid, HatchStyleShingle, HatchStyleSmallCheckerBoard, HatchStyleSmallConfetti, HatchStyleSmallGrid, HatchStyleSolidDiamond, HatchStyleSphere, HatchStyleTotal, HatchStyleTrellis, HatchStyleVertical, HatchStyleWave, HatchStyleWeave, HatchStyleWideDownwardDiagonal, HatchStyleWideUpwardDiagonal, HatchStyleZigZag, _gdiplus_ENUM_HatchStyle, gdiplus._gdiplus_ENUM_HatchStyle, gdiplusenums/HatchStyle, gdiplusenums/HatchStyle05Percent, gdiplusenums/HatchStyle10Percent, gdiplusenums/HatchStyle20Percent, gdiplusenums/HatchStyle25Percent, gdiplusenums/HatchStyle30Percent, gdiplusenums/HatchStyle40Percent, gdiplusenums/HatchStyle50Percent, gdiplusenums/HatchStyle60Percent, gdiplusenums/HatchStyle70Percent, gdiplusenums/HatchStyle75Percent, gdiplusenums/HatchStyle80Percent, gdiplusenums/HatchStyle90Percent, gdiplusenums/HatchStyleBackwardDiagonal, gdiplusenums/HatchStyleCross, gdiplusenums/HatchStyleDarkDownwardDiagonal, gdiplusenums/HatchStyleDarkHorizontal, gdiplusenums/HatchStyleDarkUpwardDiagonal, gdiplusenums/HatchStyleDarkVertical, gdiplusenums/HatchStyleDashedDownwardDiagonal, gdiplusenums/HatchStyleDashedHorizontal, gdiplusenums/HatchStyleDashedUpwardDiagonal, gdiplusenums/HatchStyleDashedVertical, gdiplusenums/HatchStyleDiagonalBrick, gdiplusenums/HatchStyleDiagonalCross, gdiplusenums/HatchStyleDivot, gdiplusenums/HatchStyleDottedDiamond, gdiplusenums/HatchStyleDottedGrid, gdiplusenums/HatchStyleForwardDiagonal, gdiplusenums/HatchStyleHorizontal, gdiplusenums/HatchStyleHorizontalBrick, gdiplusenums/HatchStyleLargeCheckerBoard, gdiplusenums/HatchStyleLargeConfetti, gdiplusenums/HatchStyleLargeGrid, gdiplusenums/HatchStyleLightDownwardDiagonal, gdiplusenums/HatchStyleLightHorizontal, gdiplusenums/HatchStyleLightUpwardDiagonal, gdiplusenums/HatchStyleLightVertical, gdiplusenums/HatchStyleMax, gdiplusenums/HatchStyleMin, gdiplusenums/HatchStyleNarrowHorizontal, gdiplusenums/HatchStyleNarrowVertical, gdiplusenums/HatchStyleOutlinedDiamond, gdiplusenums/HatchStylePlaid, gdiplusenums/HatchStyleShingle, gdiplusenums/HatchStyleSmallCheckerBoard, gdiplusenums/HatchStyleSmallConfetti, gdiplusenums/HatchStyleSmallGrid, gdiplusenums/HatchStyleSolidDiamond, gdiplusenums/HatchStyleSphere, gdiplusenums/HatchStyleTotal, gdiplusenums/HatchStyleTrellis, gdiplusenums/HatchStyleVertical, gdiplusenums/HatchStyleWave, gdiplusenums/HatchStyleWeave, gdiplusenums/HatchStyleWideDownwardDiagonal, gdiplusenums/HatchStyleWideUpwardDiagonal, gdiplusenums/HatchStyleZigZag
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
@@ -77,14 +77,14 @@ Specifies vertical lines.
 Specifies diagonal lines that slant to the right from top points to bottom points. The lines are antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="./images/hatchstyleforwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with right-slanting lines over a background color." src="./images/hatchstyleforwarddiagonal.png"/>
 
 ### -field HatchStyleBackwardDiagonal
 
 Specifies diagonal lines that slant to the left from top points to bottom points. The lines are antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="./images/hatchstylebackwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with left-slanting lines over a background color." src="./images/hatchstylebackwarddiagonal.png"/>
 
 ### -field HatchStyleCross
 
@@ -133,7 +133,7 @@ Specifies a 25-percent hatch. The ratio of foreground color to background color 
 Specifies a 30-percent hatch. The ratio of foreground color to background color is 30:100. 
 				
 
-<img alt="Illustration of an ellipse filled with a dense, diagonal dot grid over a background color" src="./images/hatchstyle30percent.png"/>
+<img alt="Illustration of an ellipse filled with a 30 percent dense, diagonal dot grid over a background color." src="./images/hatchstyle30percent.png"/>
 
 ### -field HatchStyle40Percent
 
@@ -161,7 +161,7 @@ Specifies a 60-percent hatch. The ratio of foreground color to background color 
 Specifies a 70-percent hatch. The ratio of foreground color to background color is 70:100. 
 				
 
-<img alt="Illustration of an ellipse filled with a dense, diagonal dot grid over a background color" src="./images/hatchstyle70percent.png"/>
+<img alt="Illustration of an ellipse filled with a 70 percent dense, diagonal dot grid over a background color." src="./images/hatchstyle70percent.png"/>
 
 ### -field HatchStyle75Percent
 
@@ -189,7 +189,7 @@ Specifies a 90-percent hatch. The ratio of foreground color to background color 
 Specifies diagonal lines that slant to the right from top points to bottom points and are spaced 50 percent closer together than HatchStyleForwardDiagonal but are not antialiased. 
 				
 
-<img alt="Illustration of an ellipse filled with slanting lines over a background color" src="./images/hatchstylelightdownwarddiagonal.png"/>
+<img alt="Illustration of an ellipse filled with light left-slanting lines over a background color." src="./images/hatchstylelightdownwarddiagonal.png"/>
 
 ### -field HatchStyleLightUpwardDiagonal
 

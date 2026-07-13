@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetCustomAuthDataA
 title: RasSetCustomAuthDataA function (ras.h)
-description: Use the RasSetCustomAuthData function to set connection-specific authentication information. This information should not be specific to a particular user.
-helpviewer_keywords: ["RasSetCustomAuthData","RasSetCustomAuthData function [RAS]","RasSetCustomAuthDataA","RasSetCustomAuthDataW","_ras_rassetcustomauthdata","ras/RasSetCustomAuthData","ras/RasSetCustomAuthDataA","ras/RasSetCustomAuthDataW","rras.rassetcustomauthdata"]
+description: Use the RasSetCustomAuthData function to set connection-specific authentication information. This information should not be specific to a particular user. (ANSI)
+helpviewer_keywords: ["RasSetCustomAuthDataA", "ras/RasSetCustomAuthDataA"]
 old-location: rras\rassetcustomauthdata.htm
 tech.root: RRAS
 ms.assetid: a3369537-1b46-4d7b-8ee1-f6965a3f296d
@@ -144,4 +144,4 @@ Use
 ## -remarks
 
 > [!NOTE]
-> The ras.h header defines RasSetCustomAuthData as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasSetCustomAuthData as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

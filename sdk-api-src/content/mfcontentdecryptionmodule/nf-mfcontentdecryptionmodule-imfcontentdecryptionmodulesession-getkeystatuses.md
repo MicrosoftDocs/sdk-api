@@ -55,7 +55,7 @@ Receives the number of structures present in the *keyStatuses* array.
 
 ## -returns
 
-Returns S_OK. If an error occurs, the returned mey status list is empty.
+Returns S_OK. If an error occurs, the returned key status list is empty.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_LatestOutputLocation
 title: IDataCollectorSet::get_LatestOutputLocation (pla.h)
-description: Retrieves or sets the fully decorated folder name that PLA used the last time logs were written.
+description: Retrieves or sets the fully decorated folder name that PLA used the last time logs were written. (IDataCollectorSet.get_LatestOutputLocation)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","LatestOutputLocation property","IDataCollectorSet.LatestOutputLocation","IDataCollectorSet.get_LatestOutputLocation","IDataCollectorSet::LatestOutputLocation","IDataCollectorSet::get_LatestOutputLocation","IDataCollectorSet::put_LatestOutputLocation","LatestOutputLocation property [PLA]","LatestOutputLocation property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_latestoutputlocation","get_LatestOutputLocation","pla.idatacollectorset_get_latestoutputlocation","pla/IDataCollectorSet::LatestOutputLocation","pla/IDataCollectorSet::get_LatestOutputLocation","pla/IDataCollectorSet::put_LatestOutputLocation"]
 old-location: pla\idatacollectorset_get_latestoutputlocation.htm
 tech.root: PLA

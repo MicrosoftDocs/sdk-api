@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineCreateAgentSessionW
 title: lineCreateAgentSessionW function (tapi.h)
-description: The lineCreateAgentSession function creates a new AgentSession object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENTSESSION.
-helpviewer_keywords: ["_tapi2_linecreateagentsession","lineCreateAgentSession","lineCreateAgentSession function [TAPI 2.2]","lineCreateAgentSessionA","lineCreateAgentSessionW","tapi/lineCreateAgentSession","tapi/lineCreateAgentSessionA","tapi/lineCreateAgentSessionW","tapi2.linecreateagentsession"]
+description: The lineCreateAgentSession function creates a new AgentSession object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENTSESSION. (Unicode)
+helpviewer_keywords: ["_tapi2_linecreateagentsession", "lineCreateAgentSession", "lineCreateAgentSession function [TAPI 2.2]", "lineCreateAgentSessionW", "tapi/lineCreateAgentSession", "tapi/lineCreateAgentSessionW", "tapi2.linecreateagentsession"]
 old-location: tapi2\linecreateagentsession.htm
 tech.root: tapi3
 ms.assetid: 38b080d9-365f-49b6-a125-625602971bb8
@@ -104,4 +104,4 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineCreateAgentSession as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineCreateAgentSession as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

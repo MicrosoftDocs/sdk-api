@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetLocaleName
 title: IDWriteLocalizedStrings::GetLocaleName (dwrite.h)
-description: Copies the locale name with the specified index to the specified array.
+description: Copies the locale name with the specified index to the specified array. (IDWriteLocalizedStrings.GetLocaleName)
 helpviewer_keywords: ["GetLocaleName","GetLocaleName method [Direct Write]","GetLocaleName method [Direct Write]","IDWriteLocalizedStrings interface","IDWriteLocalizedStrings interface [Direct Write]","GetLocaleName method","IDWriteLocalizedStrings.GetLocaleName","IDWriteLocalizedStrings::GetLocaleName","directwrite.IDWriteLocalizedStrings_GetLocaleName","dwrite/IDWriteLocalizedStrings::GetLocaleName"]
 old-location: directwrite\IDWriteLocalizedStrings_GetLocaleName.htm
 tech.root: DirectWrite
@@ -77,7 +77,7 @@ The size of the array in characters. The size must include space for the termina
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

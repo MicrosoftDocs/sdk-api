@@ -53,7 +53,7 @@ api_name:
 
 Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a> object.
 
-## -parameters
+
 
 ## -see-also
 

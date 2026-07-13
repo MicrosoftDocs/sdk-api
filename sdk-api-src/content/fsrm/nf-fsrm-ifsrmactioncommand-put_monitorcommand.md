@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_MonitorCommand
 title: IFsrmActionCommand::put_MonitorCommand (fsrm.h)
-description: Retrieves or sets a value that determines whether FSRM will monitor the executable program specified in the ExecutablePath property.
+description: Retrieves or sets a value that determines whether FSRM will monitor the executable program specified in the ExecutablePath property. (Put)
 helpviewer_keywords: ["IFsrmActionCommand interface [File Server Resource Manager]","MonitorCommand property","IFsrmActionCommand.MonitorCommand","IFsrmActionCommand.put_MonitorCommand","IFsrmActionCommand::MonitorCommand","IFsrmActionCommand::get_MonitorCommand","IFsrmActionCommand::put_MonitorCommand","MonitorCommand property [File Server Resource Manager]","MonitorCommand property [File Server Resource Manager]","IFsrmActionCommand interface","fs.ifsrmactioncommand_monitorcommand","fsrm.ifsrmactioncommand_monitorcommand","fsrm/IFsrmActionCommand::MonitorCommand","fsrm/IFsrmActionCommand::get_MonitorCommand","fsrm/IFsrmActionCommand::put_MonitorCommand","put_MonitorCommand"]
 old-location: fsrm\ifsrmactioncommand_monitorcommand.htm
 tech.root: fsrm

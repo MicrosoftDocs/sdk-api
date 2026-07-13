@@ -1,5 +1,5 @@
 ---
-UID: NS:iptypes.__unnamed_struct_0
+UID: NS:iptypes.IP_ADDRESS_STRING
 title: IP_ADDRESS_STRING (iptypes.h)
 description: Stores an IPv4 address in dotted decimal notation.
 helpviewer_keywords: ["*PIP_ADDRESS_STRING","*PIP_ADDRESS_STRING","IP_MASK_STRING","*PIP_MASK_STRING","*PIP_ADDRESS_STRING","IP_MASK_STRING","*PIP_MASK_STRING structure [IP Helper]","*PIP_MASK_STRING","IP_ADDRESS_STRING","IP_ADDRESS_STRING structure [IP Helper]","IP_MASK_STRING","iphlp.ip_address_string","iptypes/*PIP_ADDRESS_STRING","IP_MASK_STRING","*PIP_MASK_STRING","iptypes/IP_ADDRESS_STRING"]
@@ -75,3 +75,4 @@ The <b>IP_ADDRESS_STRING</b> structure is used as  a parameter in  the  <a href=
 
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
+

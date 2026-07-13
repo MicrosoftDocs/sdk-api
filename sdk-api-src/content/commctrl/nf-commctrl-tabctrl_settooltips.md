@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_SetToolTips","TabCtrl_SetToolTips macro [Windows 
 old-location: controls\TabCtrl_SetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_settooltips.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_SetToolTips, TabCtrl_SetToolTips macro [Windows Controls], _win32_TabCtrl_SetToolTips, _win32_TabCtrl_SetToolTips_cpp, commctrl/TabCtrl_SetToolTips, controls.TabCtrl_SetToolTips, controls._win32_TabCtrl_SetToolTips
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # TabCtrl_SetToolTips macro
+
+## -syntax
+
+```cpp
+void TabCtrl_SetToolTips(
+   HWND hwnd,
+   HWND hwndTT
+);
+```
 
 
 ## -description

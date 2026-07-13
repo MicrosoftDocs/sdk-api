@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIEDITLINKSA
 title: OLEUIEDITLINKSA (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Edit Links dialog box, and contains space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Edit Links dialog box, and contains space for the library to return information when the dialog box is dismissed. (ANSI)
 helpviewer_keywords: ["*LPOLEUIEDITLINKSA","*POLEUIEDITLINKSA","ELF_DISABLECANCELLINK","ELF_DISABLECHANGESOURCE","ELF_DISABLEOPENSOURCE","ELF_DISABLEUPDATENOW","ELF_SHOWHELP","LPOLEUIEDITLINKS","LPOLEUIEDITLINKS structure pointer [COM]","OLEUIEDITLINKS","OLEUIEDITLINKS structure [COM]","OLEUIEDITLINKSA","OLEUIEDITLINKSW","POLEUIEDITLINKS","POLEUIEDITLINKS structure pointer [COM]","_ole_OLEUIEDITLINKS_str","com.oleuieditlinks_struct","oledlg/LPOLEUIEDITLINKS","oledlg/OLEUIEDITLINKS","oledlg/OLEUIEDITLINKSA","oledlg/OLEUIEDITLINKSW","oledlg/POLEUIEDITLINKS"]
 old-location: com\oleuieditlinks_struct.htm
 tech.root: com
@@ -170,4 +170,4 @@ Pointer to the container's implementation of the <a href="/windows/desktop/api/o
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUIEDITLINKS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUIEDITLINKS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

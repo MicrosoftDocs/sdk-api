@@ -56,21 +56,23 @@ api_name:
 
 ## -enum-fields
 
-### -field RmForceShutdown
+### -field RmForceShutdown:0x1
 
  Forces unresponsive applications and services to shut down after the timeout period. An application that does not respond to a shutdown request by the Restart Manager is forced to shut down after 30 seconds. A service that does not respond to a shutdown request is forced to shut down after 20 seconds. These default times can be changed by modifying the registry keys described in the Remarks section.
 
-### -field RmShutdownOnlyRegistered
+### -field RmShutdownOnlyRegistered:0x10 
 
 Shuts down applications if and only if all the applications have been registered for restart  using the <b>RegisterApplicationRestart</b> function. If any processes or services cannot be restarted, then no processes or services are shut down.
 
 ## -remarks
 
-The  time to wait before initiating a forced shutdown of applications is specified by the following registry key. <b>HKCU</b>&#92;<b>Control Panel</b>&#92;<b>Desktop</b>&#92;<b>HungAppTimeout</b>
+The time to wait before initiating a forced shutdown of applications can be obtained by calling the
+<a href="/windows/win32/api/winuser/nf-winuser-systemparametersinfow">SystemParametersInfo</a> function
+with the value <b>SPI_GETHUNGAPPTIMEOUT</b>.
 
-
-
-The time to wait before initiating a forced shutdown of services is specified by the following registry key. <b>HKLM</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Control</b>&#92;<b>WaitToKillServiceTimeout</b>
+The time to wait before initiating a forced shutdown of services can be obtained by calling the
+<a href="/windows/win32/api/winuser/nf-winuser-systemparametersinfow">SystemParametersInfo</a> function
+with the value <b>SPI_GETWAITTOKILLSERVICETIMEOUT</b>.
 
 ## -see-also
 

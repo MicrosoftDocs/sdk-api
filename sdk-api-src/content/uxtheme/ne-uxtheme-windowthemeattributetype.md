@@ -54,7 +54,7 @@ Specifies the type of visual style attribute to set on a window.
 
 ## -enum-fields
 
-### -field WTA_NONCLIENT
+### -field WTA_NONCLIENT:1
 
 Non-client area window attributes will be set.
 

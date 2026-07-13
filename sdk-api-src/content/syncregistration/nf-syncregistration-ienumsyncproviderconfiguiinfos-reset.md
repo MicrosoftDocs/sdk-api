@@ -52,7 +52,7 @@ api_name:
 
 Resets the enumerator to the beginning of the collection of <b>ISyncProviderConfigUIInfo</b> objects.
 
-## -parameters
+
 
 ## -returns
 

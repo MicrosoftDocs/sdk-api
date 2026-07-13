@@ -156,7 +156,7 @@ This functions supports the following scenarios, based on the contents
                 envelope/addressing version of the message).
                 </li>
 <li>Writing multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>and <b>WS_STRUCT_DESCRIPTION</b> should be specified.  In this case, each field of the
+                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b> and <b>WS_STRUCT_DESCRIPTION</b> should be specified.  In this case, each field of the
                 structure value being serialized should correspond to element(s) to write within the body.
                 </li>
 <li>Writing multiple elements as multiple values.  Writing multiple distinct values can be

@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - ComBase.dll
@@ -58,7 +60,7 @@ api_name:
 Unloads any DLLs that are no longer in use, probably because the DLL no longer has any instantiated COM objects outstanding.
 <div class="alert"><b>Note</b>  This function is provided for compatibility with 16-bit Windows.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

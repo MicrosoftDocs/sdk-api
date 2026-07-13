@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER2_
 title: FWPM_NET_EVENT_HEADER2 (fwpmtypes.h)
-description: Contains information common to all events.
+description: Contains information common to all events. (FWPM_NET_EVENT_HEADER2)
 helpviewer_keywords: ["FWPM_NET_EVENT_FLAG_APP_ID_SET","FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET","FWPM_NET_EVENT_FLAG_IP_VERSION_SET","FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET","FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET","FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET","FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET","FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET","FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET","FWPM_NET_EVENT_FLAG_SCOPE_ID_SET","FWPM_NET_EVENT_FLAG_USER_ID_SET","FWPM_NET_EVENT_HEADER2","FWPM_NET_EVENT_HEADER2 structure [Filtering]","fwp.fwpm_net_event_header2","fwpmtypes/FWPM_NET_EVENT_HEADER2"]
 old-location: fwp\fwpm_net_event_header2.htm
 tech.root: fwp

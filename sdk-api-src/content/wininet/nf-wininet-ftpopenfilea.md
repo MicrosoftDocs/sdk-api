@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FtpOpenFileA
 title: FtpOpenFileA function (wininet.h)
-description: Initiates access to a remote file on an FTP server for reading or writing.
-helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII","FTP_TRANSFER_TYPE_BINARY","FTP_TRANSFER_TYPE_UNKNOWN","FtpOpenFile","FtpOpenFile function [WinINet]","FtpOpenFileA","FtpOpenFileW","INTERNET_FLAG_HYPERLINK","INTERNET_FLAG_NEED_FILE","INTERNET_FLAG_RELOAD","INTERNET_FLAG_RESYNCHRONIZE","INTERNET_FLAG_TRANSFER_ASCII","INTERNET_FLAG_TRANSFER_BINARY","_inet_ftpopenfile_function","wininet.ftpopenfile","wininet/FtpOpenFile","wininet/FtpOpenFileA","wininet/FtpOpenFileW"]
+description: Initiates access to a remote file on an FTP server for reading or writing. (ANSI)
+helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII", "FTP_TRANSFER_TYPE_BINARY", "FTP_TRANSFER_TYPE_UNKNOWN", "FtpOpenFileA", "INTERNET_FLAG_HYPERLINK", "INTERNET_FLAG_NEED_FILE", "INTERNET_FLAG_RELOAD", "INTERNET_FLAG_RESYNCHRONIZE", "INTERNET_FLAG_TRANSFER_ASCII", "INTERNET_FLAG_TRANSFER_BINARY", "wininet/FtpOpenFileA"]
 old-location: wininet\ftpopenfile.htm
 tech.root: wininet
 ms.assetid: fb44d7bd-7868-4c53-aa4b-608d79c5bc7c
@@ -46,9 +46,6 @@ api_name:
  - FtpOpenFileA
  - FtpOpenFileW
 ---
-
-# FtpOpenFileA function
-
 
 ## -description
 
@@ -211,6 +208,8 @@ After calling
 
 Only one file can be open in a single FTP session. Therefore, no file handle is returned and the application simply uses the FTP session handle when necessary.
 
+Error 12058 can occur if **FtpOpenFileA** fails due to a lack of available local ports.
+
 The 
 <i>lpszFileName</i> parameter can be either a partially or fully qualified file name relative to the current directory.
 
@@ -223,7 +222,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines FtpOpenFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines FtpOpenFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

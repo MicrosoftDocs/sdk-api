@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.QuerySecurityPackageInfoA
 title: QuerySecurityPackageInfoA function (sspi.h)
-description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
-helpviewer_keywords: ["QuerySecurityPackageInfo","QuerySecurityPackageInfo function [Security]","QuerySecurityPackageInfoA","QuerySecurityPackageInfoW","_ssp_querysecuritypackageinfo","security.querysecuritypackageinfo","sspi/QuerySecurityPackageInfo","sspi/QuerySecurityPackageInfoA","sspi/QuerySecurityPackageInfoW"]
+description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts. (ANSI)
+helpviewer_keywords: ["QuerySecurityPackageInfoA", "sspi/QuerySecurityPackageInfoA"]
 old-location: security\querysecuritypackageinfo.htm
 tech.root: security
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
@@ -81,7 +81,7 @@ The caller must call the
 
 
 > [!NOTE]
-> The sspi.h header defines QuerySecurityPackageInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines QuerySecurityPackageInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

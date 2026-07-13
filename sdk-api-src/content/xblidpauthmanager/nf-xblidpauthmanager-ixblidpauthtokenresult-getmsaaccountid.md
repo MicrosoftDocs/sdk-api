@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaAccountId
 title: IXblIdpAuthTokenResult::GetMsaAccountId (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetMsaAccountId)
 helpviewer_keywords: ["GetMsaAccountId","GetMsaAccountId method","GetMsaAccountId method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetMsaAccountId method","IXblIdpAuthTokenResult.GetMsaAccountId","IXblIdpAuthTokenResult::GetMsaAccountId","xblidp.ixblidpauthtokenresult_getmsaaccountid","xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaAccountId"]
 old-location: xblidp\ixblidpauthtokenresult_getmsaaccountid.htm
 tech.root: xblidp
@@ -62,7 +62,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

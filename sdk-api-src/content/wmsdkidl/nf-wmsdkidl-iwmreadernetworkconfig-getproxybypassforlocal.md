@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetProxyBypassForLocal","GetProxyBypassForLocal method [w
 old-location: wmformat\iwmreadernetworkconfig_getproxybypassforlocal.htm
 tech.root: wmformat
 ms.assetid: 5e960fa9-d71c-4a13-9210-8a2a86e9989c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetProxyBypassForLocal, GetProxyBypassForLocal method [windows Media Format], GetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyBypassForLocal method, IWMReaderNetworkConfig.GetProxyBypassForLocal, IWMReaderNetworkConfig::GetProxyBypassForLocal, IWMReaderNetworkConfigGetProxyBypassForLocal, wmformat.iwmreadernetworkconfig_getproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetProxyBypassForLocal</b> method queries whether the reader object bypasses the proxy server for local URLs.
 

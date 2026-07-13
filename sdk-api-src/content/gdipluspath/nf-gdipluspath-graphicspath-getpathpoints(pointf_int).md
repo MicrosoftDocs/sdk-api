@@ -93,7 +93,7 @@ VOID GetPathPointsExample(HDC hdc)
    // Create a path that has a line, a rectangle, an ellipse, and a curve.
    GraphicsPath path;
 
-   PointF[] = {
+   PointF points[] = {
       PointF(200, 200),
       PointF(250, 240),
       PointF(200, 300),

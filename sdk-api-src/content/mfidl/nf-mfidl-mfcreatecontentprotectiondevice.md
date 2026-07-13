@@ -56,7 +56,7 @@ Creates an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectiondevi
 
 ### -param ProtectionSystemId [in]
 
-The idenfier of the media protection system for which you want to create the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectiondevice">IMFContentProtectionDevice</a> interface.
+The identifier of the media protection system for which you want to create the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectiondevice">IMFContentProtectionDevice</a> interface.
 
 ### -param ContentProtectionDevice [out]
 

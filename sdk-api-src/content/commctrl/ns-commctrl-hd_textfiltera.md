@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl._HD_TEXTFILTERA
 title: HD_TEXTFILTERA (commctrl.h)
-description: Contains information about header control text filters.
+description: Contains information about header control text filters. (ANSI)
 helpviewer_keywords: ["*LPHD_TEXTFILTERA","HDTEXTFILTER","HDTEXTFILTER structure [Windows Controls]","HD_TEXTFILTERA","HD_TEXTFILTERW","LPHD_TEXTFILTER","LPHD_TEXTFILTER structure pointer [Windows Controls]","_HD_TEXTFILTERA","_HD_TEXTFILTERW","_win32_HDTEXTFILTER_Structure","_win32_HDTEXTFILTER_Structure_cpp","commctrl/HDTEXTFILTER","commctrl/LPHD_TEXTFILTER","controls.HDTEXTFILTER","controls._win32_HDTEXTFILTER_Structure"]
 old-location: controls\HDTEXTFILTER.htm
 tech.root: Controls
@@ -75,4 +75,4 @@ A value specifying the maximum size, in characters, for an edit control buffer.
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines HD_TEXTFILTER as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines HD_TEXTFILTER as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

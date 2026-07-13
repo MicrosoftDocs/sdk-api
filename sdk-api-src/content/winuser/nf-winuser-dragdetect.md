@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-rawinput-l1-2-0.dll
+ - ext-ms-win-ntuser-rawinput-l1-1-0.dll
  - User32.dll
 api_name:
  - DragDetect
@@ -62,7 +64,7 @@ A handle to the window receiving mouse input.
 
 ### -param pt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 Initial position of the mouse, in screen coordinates. The function determines the coordinates of the drag rectangle by using this point.
 
@@ -92,7 +94,7 @@ The system metrics for the drag rectangle are configurable, allowing for larger 
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

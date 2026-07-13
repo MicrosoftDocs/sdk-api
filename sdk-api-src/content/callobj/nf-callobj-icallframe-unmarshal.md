@@ -109,7 +109,7 @@ An unexpected error has occurred.
 
 ## -remarks
 
-When unmarshalling, the [in] versions of [in, out] parameters are freed and interface pointers are released and replaced with there [out] versions. All the [in, out] and [out] parameters will always be set to reasonable [in], [in, out] values, [out] values successfully unmarshaled from the returned data, or a value explicitly initialized to <b>NULL</b>. On failure return, the caller will typically want to call <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-free">ICallFrame::Free</a> in order to clean up the values that are not <b>NULL</b>.
+When unmarshalling, the [in] versions of [in, out] parameters are freed and interface pointers are released and replaced with their [out] versions. All the [in, out] and [out] parameters will always be set to reasonable [in], [in, out] values, [out] values successfully unmarshaled from the returned data, or a value explicitly initialized to <b>NULL</b>. On failure return, the caller will typically want to call <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-free">ICallFrame::Free</a> in order to clean up the values that are not <b>NULL</b>.
 
 ## -see-also
 

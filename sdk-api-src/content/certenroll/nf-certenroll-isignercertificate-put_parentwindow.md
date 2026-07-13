@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISignerCertificate.put_ParentWindow
 title: ISignerCertificate::put_ParentWindow (certenroll.h)
-description: Specifies or retrieves the ID of the window used to display signing certificate information.
+description: Specifies or retrieves the ID of the window used to display signing certificate information. (Put)
 helpviewer_keywords: ["ISignerCertificate interface [Security]","ParentWindow property","ISignerCertificate.ParentWindow","ISignerCertificate.put_ParentWindow","ISignerCertificate::ParentWindow","ISignerCertificate::get_ParentWindow","ISignerCertificate::put_ParentWindow","ParentWindow property [Security]","ParentWindow property [Security]","ISignerCertificate interface","certenroll/ISignerCertificate::ParentWindow","certenroll/ISignerCertificate::get_ParentWindow","certenroll/ISignerCertificate::put_ParentWindow","put_ParentWindow","security.isignercertificate_parentwindow_property"]
 old-location: security\isignercertificate_parentwindow_property.htm
 tech.root: security

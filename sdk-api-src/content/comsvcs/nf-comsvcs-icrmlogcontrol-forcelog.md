@@ -52,7 +52,7 @@ api_name:
 
 Forces all log records to be durable on disk.
 
-## -parameters
+
 
 ## -returns
 

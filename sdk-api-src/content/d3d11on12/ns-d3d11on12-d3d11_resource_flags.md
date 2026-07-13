@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used with <a href="/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource">ID3D11On12Device::CreateWrappedResource</a>to override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
+Used with <a href="/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource">ID3D11On12Device::CreateWrappedResource</a> to override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
 
 ## -struct-fields
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhAddEnglishCounterW
 title: PdhAddEnglishCounterW function (pdh.h)
-description: Adds the specified language-neutral counter to the query.
-helpviewer_keywords: ["PdhAddEnglishCounter","PdhAddEnglishCounter function [Perf]","PdhAddEnglishCounterA","PdhAddEnglishCounterW","pdh/PdhAddEnglishCounter","pdh/PdhAddEnglishCounterA","pdh/PdhAddEnglishCounterW","perf.pdhaddenglishcounter"]
+description: Adds the specified language-neutral counter to the query. (Unicode)
+helpviewer_keywords: ["PdhAddEnglishCounter", "PdhAddEnglishCounter function [Perf]", "PdhAddEnglishCounterW", "pdh/PdhAddEnglishCounter", "pdh/PdhAddEnglishCounterW", "perf.pdhaddenglishcounter"]
 old-location: perf\pdhaddenglishcounter.htm
 tech.root: perf
 ms.assetid: 6a94b40d-0105-4358-93e1-dae603a35cc4
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-eventing-pdh-l1-1-3.dll
+ - ext-ms-win-eventing-pdh-l1-1-2.dll
+ - ext-ms-win-eventing-pdh-l1-1-1.dll
+ - ext-ms-win-eventing-pdh-l1-1-0.dll
  - Pdh.dll
 api_name:
  - PdhAddEnglishCounter
@@ -215,7 +219,7 @@ To remove the counter from the query, use the
 
 
 > [!NOTE]
-> The pdh.h header defines PdhAddEnglishCounter as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhAddEnglishCounter as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

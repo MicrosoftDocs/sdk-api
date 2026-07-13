@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_ClientDisplay
 title: ITsSbSession::get_ClientDisplay (sbtsv.h)
-description: Retrieves or specifies information about the display device of the client computer.
+description: Retrieves or specifies information about the display device of the client computer. (Get)
 helpviewer_keywords: ["ClientDisplay property [Remote Desktop Services]","ClientDisplay property [Remote Desktop Services]","ITsSbSession interface","ITsSbSession interface [Remote Desktop Services]","ClientDisplay property","ITsSbSession.ClientDisplay","ITsSbSession.get_ClientDisplay","ITsSbSession::ClientDisplay","ITsSbSession::get_ClientDisplay","ITsSbSession::put_ClientDisplay","get_ClientDisplay","sbtsv/ITsSbSession::ClientDisplay","sbtsv/ITsSbSession::get_ClientDisplay","sbtsv/ITsSbSession::put_ClientDisplay","termserv.itssbsession_clientdisplay"]
 old-location: termserv\itssbsession_clientdisplay.htm
 tech.root: TermServ

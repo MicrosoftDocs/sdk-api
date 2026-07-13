@@ -56,7 +56,7 @@ The <b>FWPM_ENGINE_OPTION</b> enumerated type specifies configurable options for
 
 ## -enum-fields
 
-### -field FWPM_ENGINE_COLLECT_NET_EVENTS
+### -field FWPM_ENGINE_COLLECT_NET_EVENTS:0
 
 The filter engine will collect WFP network events.
 

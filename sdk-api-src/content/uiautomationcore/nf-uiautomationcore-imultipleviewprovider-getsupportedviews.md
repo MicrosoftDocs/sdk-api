@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.GetSupportedViews
 title: IMultipleViewProvider::GetSupportedViews (uiautomationcore.h)
-description: Retrieves a collection of control-specific view identifiers.
+description: Retrieves a collection of control-specific view identifiers. (IMultipleViewProvider.GetSupportedViews)
 helpviewer_keywords: ["GetSupportedViews","GetSupportedViews method [Windows Accessibility]","GetSupportedViews method [Windows Accessibility]","IMultipleViewProvider interface","IMultipleViewProvider interface [Windows Accessibility]","GetSupportedViews method","IMultipleViewProvider.GetSupportedViews","IMultipleViewProvider::GetSupportedViews","uiauto.uiauto_IMultipleViewProvider_GetSupportedViews","uiauto_IMultipleViewProvider_GetSupportedViews","uiautomationcore/IMultipleViewProvider::GetSupportedViews","winauto.uiauto_IMultipleViewProvider_GetSupportedViews"]
 old-location: winauto\uiauto_IMultipleViewProvider_GetSupportedViews.htm
 tech.root: WinAuto
@@ -65,7 +65,7 @@ Receives a collection of control-specific integer values that identify the views
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

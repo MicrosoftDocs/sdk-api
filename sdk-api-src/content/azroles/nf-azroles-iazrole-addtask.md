@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddTask","AddTask method [Security]","AddTask method [Sec
 old-location: security\iazrole_addtask.htm
 tech.root: security
 ms.assetid: 51ba30c3-8067-4aca-b8aa-8e64d4427b98
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddTask, AddTask method [Security], AddTask method [Security],AzRole object, AddTask method [Security],IAzRole interface, AzRole object [Security],AddTask method, IAzRole interface [Security],AddTask method, IAzRole.AddTask, IAzRole::AddTask, azroles/IAzRole::AddTask, security.iazrole_addtask
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,30 @@ api_name:
 
 # IAzRole::AddTask
 
-
 ## -description
 
-The <b>AddTask</b> method adds the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object with the specified name to the role.
+The **AddTask** method adds the [IAzTask](nn-azroles-iaztask.md) object with the specified name to the role.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object to add to the role.
+Name of the [IAzTask](nn-azroles-iaztask.md) object to add to the role.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.
+You must call the [Submit](nf-azroles-iazrole-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[IAzTask](nn-azroles-iaztask.md)
+
+[Submit](nf-azroles-iazrole-submit.md)

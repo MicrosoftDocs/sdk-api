@@ -64,7 +64,7 @@ The current state of the keyboard modifier keys on the keyboard. Possible values
 
 ### -param pt [in]
 
-A <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
+A <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
 
 ### -param pdwEffect [in, out]
 
@@ -78,6 +78,17 @@ This method returns S_OK on success. Other possible values include the following
 <tr>
 <th>Return code</th>
 <th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>DRAGDROP_S_CANCEL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The OLE drag-and-drop operation was canceled.
+
+</td>
 </tr>
 <tr>
 <td width="40%">

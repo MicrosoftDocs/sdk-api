@@ -4,12 +4,12 @@ title: CreateThread function (processthreadsapi.h)
 description: Creates a thread to execute within the virtual address space of the calling process.
 helpviewer_keywords: ["CREATE_SUSPENDED","CreateThread","CreateThread function","STACK_SIZE_PARAM_IS_A_RESERVATION","_win32_createthread","base.createthread","processthreadsapi/CreateThread","winbase/CreateThread"]
 old-location: base\createthread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
-ms.date: 12/05/2018
+ms.date: 07/31/2023
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - KernelBase.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
@@ -54,7 +59,6 @@ api_name:
 
 # CreateThread function
 
-
 ## -description
 
 Creates a thread to execute within the virtual address space of the calling process.
@@ -66,11 +70,7 @@ To create a thread that runs in the virtual address space of another process, us
 
 ### -param lpThreadAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
-       structure that determines whether the returned handle can be inherited by child processes. If 
-       <i>lpThreadAttributes</i> is NULL, the handle cannot be inherited.
-
-The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new thread. If <i>lpThreadAttributes</i> is NULL, the thread gets a default security descriptor. The ACLs in the default security descriptor for a thread come from the primary token of the creator.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread and determines whether child processes can inherit the returned handle. If *lpThreadAttributes* is NULL, the thread gets a default security descriptor and the handle cannot be inherited. The access control lists (ACL) in the default security descriptor for a thread come from the primary token of the creator.
 
 ### -param dwStackSize [in]
 
@@ -152,7 +152,7 @@ Note that <b>CreateThread</b> may succeed even if
 
 ## -remarks
 
-The number of threads a process can create is limited by the available virtual memory. By default, every thread has one megabyte of stack space. Therefore, you can create at most 2,048 threads. If you reduce the default stack size, you can create more threads. However, your application will have better performance if you create one thread per processor and build queues of requests for which the application maintains the context information. A thread would process all requests in a queue before processing requests in the next queue.
+The number of threads a process can create is limited by the available virtual memory. By default, every thread has one megabyte of stack space. Therefore, you cannot create 2,048 or more threads on a 32-bit system without `/3GB` boot.ini option. If you reduce the default stack size, you can create more threads. However, your application will have better performance if you create one thread per processor and build queues of requests for which the application maintains the context information. A thread would process all requests in a queue before processing requests in the next queue.
 
 The new thread handle is created with the <b>THREAD_ALL_ACCESS</b> access right. If a security descriptor is not provided when the thread is created, a default security descriptor is constructed for the new thread using the primary token of the   process that is creating the thread. When a caller attempts to access the thread  with the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function, the effective token of the caller is evaluated against this  security descriptor to grant or deny access. 
 
@@ -242,7 +242,7 @@ For an example, see
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CanStep","CanStep method [DirectShow]","CanStep method [D
 old-location: dshow\ivideoframestep_canstep.htm
 tech.root: dshow
 ms.assetid: e2e3f665-28be-4a6d-b29a-4f0485d9a672
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: CanStep, CanStep method [DirectShow], CanStep method [DirectShow],IVideoFrameStep interface, IVideoFrameStep interface [DirectShow],CanStep method, IVideoFrameStep.CanStep, IVideoFrameStep::CanStep, IVideoFrameStepCanStep, dshow.ivideoframestep_canstep, strmif/IVideoFrameStep::CanStep
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>CanStep</code> method determines the stepping capabilities of the specified filter.
 

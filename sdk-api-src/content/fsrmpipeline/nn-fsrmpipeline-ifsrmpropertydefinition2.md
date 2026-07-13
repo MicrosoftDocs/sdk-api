@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyDefinition2
 title: IFsrmPropertyDefinition2 (fsrmpipeline.h)
-description: Defines a property that you want to use to classify files.
+description: Defines a property that you want to use to classify files. (IFsrmPropertyDefinition2)
 helpviewer_keywords: ["IFsrmPropertyDefinition2","IFsrmPropertyDefinition2 interface [File Server Resource Manager]","IFsrmPropertyDefinition2 interface [File Server Resource Manager]","described","fs.ifsrmpropertydefinition2","fsrm.ifsrmpropertydefinition2","fsrmpipeline/IFsrmPropertyDefinition2"]
 old-location: fsrm\ifsrmpropertydefinition2.htm
 tech.root: fsrm

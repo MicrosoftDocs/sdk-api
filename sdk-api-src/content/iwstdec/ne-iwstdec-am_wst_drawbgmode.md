@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PAM_WST_DRAWBGMODE","AM_WST_DRAWBGMODE","AM_WST_DRAWBGMO
 old-location: dshow\am_wst_drawbgmode.htm
 tech.root: dshow
 ms.assetid: 1c27f3e1-a097-4f0e-af01-62cf500a3264
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*PAM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE, AM_WST_DRAWBGMODE , AM_WST_DRAWBGMODE enumeration [DirectShow], AM_WST_DRAWBGMODEEnumeration, AM_WST_DRAWBGMODE_Opaque, AM_WST_DRAWBGMODE_Transparent, PAM_WST_DRAWBGMODE, PAM_WST_DRAWBGMODE enumeration pointer [DirectShow], dshow.am_wst_drawbgmode, iwstdec/AM_WST_DRAWBGMODE, iwstdec/AM_WST_DRAWBGMODE_Opaque, iwstdec/AM_WST_DRAWBGMODE_Transparent, iwstdec/PAM_WST_DRAWBGMODE'
 req.header: iwstdec.h
 req.include-header: 
@@ -53,6 +53,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AM_WST_DRAWBGMODE</b> enumeration specifies whether the background of the WST frame is opaque or transparent.
 

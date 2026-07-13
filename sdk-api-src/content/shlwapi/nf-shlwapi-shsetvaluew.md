@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHSetValueW
 title: SHSetValueW function (shlwapi.h)
-description: Sets the value of a registry key.
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHSetValue","SHSetValue function [Windows Shell]","SHSetValueA","SHSetValueW","_win32_SHSetValue","shell.SHSetValue","shlwapi/SHSetValue","shlwapi/SHSetValueA","shlwapi/SHSetValueW"]
+description: Sets the value of a registry key. (Unicode)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHSetValue", "SHSetValue function [Windows Shell]", "SHSetValueW", "_win32_SHSetValue", "shell.SHSetValue", "shlwapi/SHSetValue", "shlwapi/SHSetValueW"]
 old-location: shell\SHSetValue.htm
 tech.root: shell
 ms.assetid: 6cd5b7fd-8fb9-4c24-9670-20c23ca709bf
@@ -148,4 +148,4 @@ Returns ERROR_SUCCESS if successful; otherwise, a nonzero error code defined in 
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines SHSetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHSetValue as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

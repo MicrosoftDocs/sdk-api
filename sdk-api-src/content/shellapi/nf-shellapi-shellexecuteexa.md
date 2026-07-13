@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ShellExecuteExA
 title: ShellExecuteExA function (shellapi.h)
-description: Performs an operation on a specified file.
-helpviewer_keywords: ["ShellExecuteEx","ShellExecuteEx function [Windows Shell]","ShellExecuteExA","ShellExecuteExW","_win32_ShellExecuteEx","_win32_ShellExecuteEx_cpp","shell.ShellExecuteEx","shellapi/ShellExecuteEx","shellapi/ShellExecuteExA","shellapi/ShellExecuteExW"]
+description: Performs an operation on a specified file. (ShellExecuteExA)
+helpviewer_keywords: ["ShellExecuteExA", "shellapi/ShellExecuteExA"]
 old-location: shell\ShellExecuteEx.htm
 tech.root: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f
@@ -78,8 +78,12 @@ Because <b>ShellExecuteEx</b> can delegate execution to Shell extensions (data s
 
                 
 
-<pre class="syntax" xml:space="preserve"><code>CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)</code></pre>
-There are instances where <b>ShellExecuteEx</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to always initalize COM before using this function.
+
+``` syntax
+CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)
+```
+
+There are instances where <b>ShellExecuteEx</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to always initialize COM before using this function.
 
 When DLLs are loaded into your process, you acquire a lock known as a <a href="/windows/win32/win7appqual/preventing-hangs-in-windows-applications">loader lock</a>. The <a href="/windows/desktop/Dlls/dllmain">DllMain</a> function always executes under the loader lock. It is important that you do not call <b>ShellExecuteEx</b> while you hold a loader lock. Because <b>ShellExecuteEx</b> is extensible, you could load code that does not function properly in the presence of a loader lock, risking a deadlock and therefore an unresponsive thread.
 
@@ -142,7 +146,7 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="/window
 
 
 > [!NOTE]
-> The shellapi.h header defines ShellExecuteEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines ShellExecuteEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

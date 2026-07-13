@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmAutoApplyQuota.get_ExcludeFolders
 title: IFsrmAutoApplyQuota::get_ExcludeFolders (fsrmquota.h)
-description: Retrieves or sets an array of immediate subdirectories to exclude from the automatic quota.
+description: Retrieves or sets an array of immediate subdirectories to exclude from the automatic quota. (Get)
 helpviewer_keywords: ["ExcludeFolders property [File Server Resource Manager]","ExcludeFolders property [File Server Resource Manager]","IFsrmAutoApplyQuota interface","IFsrmAutoApplyQuota interface [File Server Resource Manager]","ExcludeFolders property","IFsrmAutoApplyQuota.ExcludeFolders","IFsrmAutoApplyQuota.get_ExcludeFolders","IFsrmAutoApplyQuota::ExcludeFolders","IFsrmAutoApplyQuota::get_ExcludeFolders","IFsrmAutoApplyQuota::put_ExcludeFolders","fs.ifsrmautoapplyquota_excludefolders","fsrm.ifsrmautoapplyquota_excludefolders","fsrmquota/IFsrmAutoApplyQuota::ExcludeFolders","fsrmquota/IFsrmAutoApplyQuota::get_ExcludeFolders","fsrmquota/IFsrmAutoApplyQuota::put_ExcludeFolders","get_ExcludeFolders"]
 old-location: fsrm\ifsrmautoapplyquota_excludefolders.htm
 tech.root: fsrm

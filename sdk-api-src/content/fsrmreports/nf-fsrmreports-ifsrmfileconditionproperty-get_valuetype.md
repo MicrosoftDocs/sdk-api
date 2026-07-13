@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_ValueType
 title: IFsrmFileConditionProperty::get_ValueType (fsrmreports.h)
-description: Specifies the type of the file condition property value, as enumerated by the FsrmPropertyValueType enumeration.
+description: Specifies the type of the file condition property value, as enumerated by the FsrmPropertyValueType enumeration. (Get)
 helpviewer_keywords: ["IFsrmFileConditionProperty interface [File Server Resource Manager]","ValueType property","IFsrmFileConditionProperty.ValueType","IFsrmFileConditionProperty.get_ValueType","IFsrmFileConditionProperty::ValueType","IFsrmFileConditionProperty::get_ValueType","IFsrmFileConditionProperty::put_ValueType","ValueType property [File Server Resource Manager]","ValueType property [File Server Resource Manager]","IFsrmFileConditionProperty interface","fs.ifsrmfileconditionproperty_valuetype","fsrm.ifsrmfileconditionproperty_valuetype","fsrmreports/IFsrmFileConditionProperty::ValueType","fsrmreports/IFsrmFileConditionProperty::get_ValueType","fsrmreports/IFsrmFileConditionProperty::put_ValueType","get_ValueType"]
 old-location: fsrm\ifsrmfileconditionproperty_valuetype.htm
 tech.root: fsrm

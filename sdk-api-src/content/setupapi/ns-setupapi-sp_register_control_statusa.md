@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_REGISTER_CONTROL_STATUSA
 title: SP_REGISTER_CONTROL_STATUSA (setupapi.h)
-description: The SP_REGISTER_CONTROL_STATUS structure contains information about a file being registered or unregistered using the RegisterDlls INF directive to self-register DLLs on Windows 2000.
+description: The SP_REGISTER_CONTROL_STATUS structure contains information about a file being registered or unregistered using the RegisterDlls INF directive to self-register DLLs on Windows 2000. (ANSI)
 helpviewer_keywords: ["*PSP_REGISTER_CONTROL_STATUSA","PSP_REGISTER_CONTROL_STATUS","PSP_REGISTER_CONTROL_STATUS structure pointer [Setup API]","SPREG_DLLINSTALL","SPREG_GETPROCADDR","SPREG_LOADLIBRARY","SPREG_REGSVR","SPREG_SUCCESS","SPREG_TIMEOUT","SPREG_UNKNOWN","SP_REGISTER_CONTROL_STATUS","SP_REGISTER_CONTROL_STATUS structure [Setup API]","SP_REGISTER_CONTROL_STATUSA","_setupapi_sp_register_control_status","setup.sp_register_control_status","setupapi/PSP_REGISTER_CONTROL_STATUS","setupapi/SP_REGISTER_CONTROL_STATUS"]
 old-location: setup\sp_register_control_status.htm
 tech.root: setup
@@ -185,4 +185,4 @@ Size of the structure, in bytes.
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SP_REGISTER_CONTROL_STATUS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SP_REGISTER_CONTROL_STATUS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -135,7 +135,7 @@ The DHCPv6 server does not have a binding for the prefix.
 </dl>
 </td>
 <td width="60%">
-The DHCPv6 server does not have a prefix availble to offer the requesting client.
+The DHCPv6 server does not have a prefix available to offer the requesting client.
 
 </td>
 </tr>

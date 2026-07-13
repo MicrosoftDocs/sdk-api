@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_check_filterA
 title: ldap_check_filterA function (winldap.h)
-description: The ldap_check_filter function is used to verify filter syntax.
-helpviewer_keywords: ["_ldap_ldap_check_filter","ldap.ldap__check__filter","ldap.ldap_check_filter","ldap_check_filter","ldap_check_filter function [LDAP]","ldap_check_filterA","ldap_check_filterW","winldap/ldap_check_filter","winldap/ldap_check_filterA","winldap/ldap_check_filterW"]
+description: The ldap_check_filter function is used to verify filter syntax. (ANSI)
+helpviewer_keywords: ["ldap.ldap__check__filter", "ldap_check_filterA", "winldap/ldap_check_filterA"]
 old-location: ldap\ldap_check_filter.htm
 tech.root: ldap
 ms.assetid: 33b549bc-4b23-484a-a7cf-f4963154d492
@@ -80,7 +80,7 @@ Use <b>ldap_check_filter</b> to verify the syntax of a search filter before init
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_check_filter as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_check_filter as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

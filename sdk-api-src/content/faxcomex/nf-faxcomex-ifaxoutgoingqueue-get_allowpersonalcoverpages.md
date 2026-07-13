@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_AllowPersonalCoverPages
 title: IFaxOutgoingQueue::get_AllowPersonalCoverPages (faxcomex.h)
-description: The AllowPersonalCoverPages property is a Boolean value that indicates whether fax client applications can include a user-designed cover page with fax transmissions.
+description: The AllowPersonalCoverPages property is a Boolean value that indicates whether fax client applications can include a user-designed cover page with fax transmissions. (Get)
 helpviewer_keywords: ["AllowPersonalCoverPages property [Fax Service]","AllowPersonalCoverPages property [Fax Service]","IFaxOutgoingQueue interface","IFaxOutgoingQueue interface [Fax Service]","AllowPersonalCoverPages property","IFaxOutgoingQueue.AllowPersonalCoverPages","IFaxOutgoingQueue.get_AllowPersonalCoverPages","IFaxOutgoingQueue::AllowPersonalCoverPages","IFaxOutgoingQueue::get_AllowPersonalCoverPages","IFaxOutgoingQueue::put_AllowPersonalCoverPages","_mfax_faxoutgoingqueue.allowpersonalcoverpages","fax._mfax_faxoutgoingqueue_allowpersonalcoverpages","fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_allowpersonalcoverpages_cpp","faxcomex/IFaxOutgoingQueue::AllowPersonalCoverPages","faxcomex/IFaxOutgoingQueue::get_AllowPersonalCoverPages","faxcomex/IFaxOutgoingQueue::put_AllowPersonalCoverPages","get_AllowPersonalCoverPages"]
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_allowpersonalcoverpages_cpp.htm
 tech.root: Fax

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProduct.get_RuleCategories
 title: INetFwProduct::get_RuleCategories (netfw.h)
-description: For a third-party firewall product registration, indicates the rule categories for which the third-party firewall wishes to take ownership from Windows Firewall.
+description: For a third-party firewall product registration, indicates the rule categories for which the third-party firewall wishes to take ownership from Windows Firewall. (Get)
 helpviewer_keywords: ["INetFwProduct interface [ICS/ICF]","RuleCategories property","INetFwProduct.RuleCategories","INetFwProduct.get_RuleCategories","INetFwProduct::RuleCategories","INetFwProduct::get_RuleCategories","INetFwProduct::put_RuleCategories","RuleCategories property [ICS/ICF]","RuleCategories property [ICS/ICF]","INetFwProduct interface","get_RuleCategories","ics.inetfwproduct_rulecategories","netfw/INetFwProduct::RuleCategories","netfw/INetFwProduct::get_RuleCategories","netfw/INetFwProduct::put_RuleCategories"]
 old-location: ics\inetfwproduct_rulecategories.htm
 tech.root: ics

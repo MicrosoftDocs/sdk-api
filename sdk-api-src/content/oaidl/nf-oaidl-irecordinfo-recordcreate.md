@@ -52,7 +52,7 @@ api_name:
 
 Allocates memory for a new record, initializes the instance and returns a pointer to the record.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_Retries
 title: IFaxConfiguration::get_Retries (faxcomex.h)
-description: Sets or retrieves a value that indicates the number of redial attempts for a given fax job.
+description: Sets or retrieves a value that indicates the number of redial attempts for a given fax job. (Get)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","Retries property","IFaxConfiguration.Retries","IFaxConfiguration.get_Retries","IFaxConfiguration::Retries","IFaxConfiguration::get_Retries","IFaxConfiguration::put_Retries","Retries property [Fax Service]","Retries property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_Retries","fax._mfax_IFaxConfiguration_Retries","faxcomex/IFaxConfiguration::Retries","faxcomex/IFaxConfiguration::get_Retries","faxcomex/IFaxConfiguration::put_Retries","get_Retries"]
 old-location: fax\_mfax_IFaxConfiguration_Retries.htm
 tech.root: Fax

@@ -6,13 +6,13 @@ helpviewer_keywords: ["DWRITE_COLOR_GLYPH_RUN1","DWRITE_COLOR_GLYPH_RUN1 structu
 old-location: directwrite\dwrite_color_glyph_run1.htm
 tech.root: DirectWrite
 ms.assetid: 4433AFDF-F034-43DF-A030-4D7DD6E9CFF5
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: DWRITE_COLOR_GLYPH_RUN1, DWRITE_COLOR_GLYPH_RUN1 structure [Direct Write], directwrite.dwrite_color_glyph_run1, dwrite_3/DWRITE_COLOR_GLYPH_RUN1
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 14393
+req.target-min-winversvr: Windows 10 Build 14393
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wsclient.lib
 req.dll: WSClient.dll
 req.irql: 
 targetos: Windows

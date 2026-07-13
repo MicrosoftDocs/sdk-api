@@ -6,7 +6,7 @@ helpviewer_keywords: ["HTTP_GREATER_EQUAL_VERSION","HTTP_GREATER_EQUAL_VERSION m
 old-location: http\http_greater_equal_version.htm
 tech.root: http
 ms.assetid: 2e3a7b3a-fc3b-4980-b1f7-72a18276388b
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: HTTP_GREATER_EQUAL_VERSION, HTTP_GREATER_EQUAL_VERSION macro [HTTP], _http_http_greater_equal_version, http.http_greater_equal_version, http/HTTP_GREATER_EQUAL_VERSION
 req.header: http.h
 req.include-header: 
@@ -47,19 +47,32 @@ api_name:
 
 # HTTP_GREATER_EQUAL_VERSION macro
 
+## -syntax
+
+```cpp
+int HTTP_GREATER_EQUAL_VERSION(
+    HTTP_VERSION version,
+    USHORT major,
+    USHORT minor
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns an integer that is either zero (false) or non-zero (true), that indicates whether or not the value of the _version_ parameter is greater than or equal to the version combination passed in the _major_ and _minor_ parameters.
+
 
 ## -description
 
-The 
-<b>HTTP_GREATER_EQUAL_VERSION</b> macro returns a non-zero value if an 
-<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure is greater than or equal to a specified major/minor version combination, or zero otherwise.
+The <b>HTTP_GREATER_EQUAL_VERSION</b> macro returns a non-zero value if an <a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure is greater than or equal to a specified major/minor version combination, or zero otherwise.
 
 ## -parameters
 
 ### -param version
 
-The 
-<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be examined.
+The <a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be examined.
 
 ### -param major
 

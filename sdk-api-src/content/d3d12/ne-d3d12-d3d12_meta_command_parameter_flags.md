@@ -54,11 +54,11 @@ Defines constants that specify the flags for a parameter to a meta command. Valu
 
 ## -enum-fields
 
-### -field D3D12_META_COMMAND_PARAMETER_FLAG_INPUT
+### -field D3D12_META_COMMAND_PARAMETER_FLAG_INPUT:0x1
 
 Specifies that the parameter is an input resource.
 
-### -field D3D12_META_COMMAND_PARAMETER_FLAG_OUTPUT
+### -field D3D12_META_COMMAND_PARAMETER_FLAG_OUTPUT:0x2
 
 Specifies that the parameter is an output resource.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.get_ConnectionTimeout
 title: IUIAutomation2::get_ConnectionTimeout (uiautomationclient.h)
-description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for an automation element.
+description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for an automation element. (Get)
 helpviewer_keywords: ["ConnectionTimeout property [Windows Accessibility]","ConnectionTimeout property [Windows Accessibility]","IUIAutomation2 interface","IUIAutomation2 interface [Windows Accessibility]","ConnectionTimeout property","IUIAutomation2.ConnectionTimeout","IUIAutomation2.get_ConnectionTimeout","IUIAutomation2::ConnectionTimeout","IUIAutomation2::get_ConnectionTimeout","IUIAutomation2::put_ConnectionTimeout","get_ConnectionTimeout","uiautomationclient/IUIAutomation2::ConnectionTimeout","uiautomationclient/IUIAutomation2::get_ConnectionTimeout","uiautomationclient/IUIAutomation2::put_ConnectionTimeout","winauto.uiauto_iuiautomation2_connectiontimeout"]
 old-location: winauto\uiauto_iuiautomation2_connectiontimeout.htm
 tech.root: WinAuto
@@ -57,6 +57,12 @@ Specifies the length of time that UI Automation will wait for a provider to resp
 This property is read/write.
 
 ## -parameters
+
+### -param timeout [out]
+
+Type: <b>DWORD</b>
+
+The duration of the time-out period, in milliseconds.
 
 ## -remarks
 

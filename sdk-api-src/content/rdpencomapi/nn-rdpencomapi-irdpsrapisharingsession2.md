@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPISharingSession2
 title: IRDPSRAPISharingSession2 (rdpencomapi.h)
-description: The main object that an application must create to start a collaboration session.
+description: The main object that an application must create to start a collaboration session. (IRDPSRAPISharingSession2)
 helpviewer_keywords: ["IRDPSRAPISharingSession2","IRDPSRAPISharingSession2 interface [RDP]","IRDPSRAPISharingSession2 interface [RDP]","described","rdp.irdpsrapisharingsession2","rdpencomapi/IRDPSRAPISharingSession2"]
 old-location: rdp\irdpsrapisharingsession2.htm
 tech.root: rdp
@@ -66,11 +66,7 @@ This interface extends the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPISharingSession2</b> interface inherits from <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>. <b>IRDPSRAPISharingSession2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IRDPSRAPISharingSession2</b> interface inherits from <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>. <b>IRDPSRAPISharingSession2</b> also has these types of members:
 
 ## -see-also
 

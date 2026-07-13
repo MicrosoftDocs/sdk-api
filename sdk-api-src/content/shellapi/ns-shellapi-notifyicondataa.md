@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._NOTIFYICONDATAA
 title: NOTIFYICONDATAA (shellapi.h)
-description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon.
+description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon. (ANSI)
 helpviewer_keywords: ["*PNOTIFYICONDATAA","0","NIF_GUID","NIF_ICON","NIF_INFO","NIF_MESSAGE","NIF_REALTIME","NIF_SHOWTIP","NIF_STATE","NIF_TIP","NIIF_ERROR","NIIF_ICON_MASK","NIIF_INFO","NIIF_LARGE_ICON","NIIF_NONE","NIIF_NOSOUND","NIIF_RESPECT_QUIET_TIME","NIIF_USER","NIIF_WARNING","NIS_HIDDEN","NIS_SHAREDICON","NOTIFYICONDATA","NOTIFYICONDATA structure [Windows Shell]","NOTIFYICONDATAA","NOTIFYICON_VERSION","NOTIFYICON_VERSION_4","PNOTIFYICONDATA","PNOTIFYICONDATA structure pointer [Windows Shell]","_win32_NOTIFYICONDATA","shell.NOTIFYICONDATA","shellapi/NOTIFYICONDATA","shellapi/PNOTIFYICONDATA"]
 old-location: shell\NOTIFYICONDATA.htm
 tech.root: shell
@@ -176,7 +176,7 @@ If only a 16x16 pixel icon is provided, it is scaled to a larger size in a syste
 
 ### -field szTip
 
-Type: <b>TCHAR[64]</b>
+Type: <b>CHAR[64]</b>
 
 A null-terminated string that specifies the text for a standard tooltip. It can have a maximum of 64 characters, including the terminating null character.
 
@@ -210,7 +210,7 @@ Type: <b>DWORD</b>
 
 ### -field szInfo
 
-Type: <b>TCHAR[256]</b>
+Type: <b>CHAR[256]</b>
 
 <b>Windows 2000 and later</b>. A null-terminated string that specifies the text to display in a balloon notification. It can have a maximum of 256 characters, including the terminating null character, but should be restricted to 200 characters in English to accommodate localization. To remove the balloon notification from the UI, either delete the icon (with <a href="/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicona">NIM_DELETE</a>) or set the <b>NIF_INFO</b> flag in <b>uFlags</b> and set <b>szInfo</b> to an empty string.
 
@@ -236,7 +236,7 @@ Type: <b>UINT</b>
 
 ### -field szInfoTitle
 
-Type: <b>TCHAR[64]</b>
+Type: <b>CHAR[64]</b>
 
 <b>Windows 2000 and later</b>. A null-terminated string that specifies a title for a balloon notification. This title appears in a larger font immediately above the text. It can have a maximum of 64 characters, including the terminating null character, but should be restricted to 48 characters in English to accommodate localization.
 
@@ -292,7 +292,7 @@ Type: <b>DWORD</b>
 
 #### NIIF_LARGE_ICON (0x00000020)
 
-0x00000020. <b>Windows Vista and later</b>. The large version of the icon should be used as the notification icon. This corresponds to the icon with dimensions SM_CXICON x SM_CYICON. If this flag is not set, the icon with dimensions XM_CXSMICON x SM_CYSMICON is used. 
+0x00000020. <b>Windows Vista and later</b>. The large version of the icon should be used as the notification icon. This corresponds to the icon with dimensions SM_CXICON x SM_CYICON. If this flag is not set, the icon with dimensions SM_CXSMICON x SM_CYSMICON is used. 
         
                                 
 
@@ -496,7 +496,7 @@ This also occurs in the case of a side-by-side installation. When dealing with a
 
 
 > [!NOTE]
-> The shellapi.h header defines NOTIFYICONDATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines NOTIFYICONDATA as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

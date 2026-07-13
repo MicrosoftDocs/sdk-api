@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Query.GetDesc
 title: ID3D10Query::GetDesc (d3d10.h)
-description: Get a query description.
+description: Get a query description. (ID3D10Query.GetDesc)
 helpviewer_keywords: ["298670c9-ff1f-f4ca-f91b-d36b87bae790","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10Query interface","ID3D10Query interface [Direct3D 10]","GetDesc method","ID3D10Query.GetDesc","ID3D10Query::GetDesc","d3d10/ID3D10Query::GetDesc","direct3d10.id3d10query_getdesc"]
 old-location: direct3d10\id3d10query_getdesc.htm
 tech.root: direct3d10

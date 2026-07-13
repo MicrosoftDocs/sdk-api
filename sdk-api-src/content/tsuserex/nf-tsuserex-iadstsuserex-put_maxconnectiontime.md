@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_MaxConnectionTime
 title: IADsTSUserEx::put_MaxConnectionTime (tsuserex.h)
-description: The maximum duration of the Remote Desktop Services session. After the specified number of minutes have elapsed, the session can be disconnected or terminated.
+description: The maximum duration of the Remote Desktop Services session. After the specified number of minutes have elapsed, the session can be disconnected or terminated. (Put)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","MaxConnectionTime property","IADsTSUserEx.MaxConnectionTime","IADsTSUserEx.put_MaxConnectionTime","IADsTSUserEx::MaxConnectionTime","IADsTSUserEx::get_MaxConnectionTime","IADsTSUserEx::put_MaxConnectionTime","MaxConnectionTime property [Remote Desktop Services]","MaxConnectionTime property [Remote Desktop Services]","IADsTSUserEx interface","put_MaxConnectionTime","termserv.iadstsuserex_maxconnectiontime","tsuserex/IADsTSUserEx::MaxConnectionTime","tsuserex/IADsTSUserEx::get_MaxConnectionTime","tsuserex/IADsTSUserEx::put_MaxConnectionTime"]
 old-location: termserv\iadstsuserex_maxconnectiontime.htm
 tech.root: TermServ

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DlgDirListA
 title: DlgDirListA function (winuser.h)
-description: Replaces the contents of a list box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list can optionally include mapped drives.
-helpviewer_keywords: ["DDL_ARCHIVE","DDL_DIRECTORY","DDL_DRIVES","DDL_EXCLUSIVE","DDL_HIDDEN","DDL_POSTMSGS","DDL_READONLY","DDL_READWRITE","DDL_SYSTEM","DlgDirList","DlgDirList function [Windows Controls]","DlgDirListA","DlgDirListW","_win32_DlgDirList","_win32_DlgDirList_cpp","controls.DlgDirList","controls._win32_DlgDirList","winuser/DlgDirList","winuser/DlgDirListA","winuser/DlgDirListW"]
+description: Replaces the contents of a list box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list can optionally include mapped drives. (ANSI)
+helpviewer_keywords: ["DDL_ARCHIVE", "DDL_DIRECTORY", "DDL_DRIVES", "DDL_EXCLUSIVE", "DDL_HIDDEN", "DDL_POSTMSGS", "DDL_READONLY", "DDL_READWRITE", "DDL_SYSTEM", "DlgDirListA", "winuser/DlgDirListA"]
 old-location: controls\DlgDirList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirlist.htm
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-1.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-0.dll
  - User32.dll
 api_name:
  - DlgDirList
@@ -225,7 +228,7 @@ For examples, see the following topics: <a href="/windows/desktop/Controls/using
 
 
 > [!NOTE]
-> The winuser.h header defines DlgDirList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines DlgDirList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

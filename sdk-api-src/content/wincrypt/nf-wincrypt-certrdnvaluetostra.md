@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CertRDNValueToStrA
 title: CertRDNValueToStrA function (wincrypt.h)
-description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.
-helpviewer_keywords: ["CertRDNValueToStr","CertRDNValueToStr function [Security]","CertRDNValueToStrA","CertRDNValueToStrW","_crypto2_certrdnvaluetostr","security.certrdnvaluetostr","wincrypt/CertRDNValueToStr","wincrypt/CertRDNValueToStrA","wincrypt/CertRDNValueToStrW"]
+description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string. (ANSI)
+helpviewer_keywords: ["CertRDNValueToStrA", "wincrypt/CertRDNValueToStrA"]
 old-location: security\certrdnvaluetostr.htm
 tech.root: security
 ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4
@@ -110,7 +110,7 @@ If <i>psz</i> is not <b>NULL</b> and <i>csz</i> is not zero, the returned <i>psz
 
 
 > [!NOTE]
-> The wincrypt.h header defines CertRDNValueToStr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincrypt.h header defines CertRDNValueToStr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

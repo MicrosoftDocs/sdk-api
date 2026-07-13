@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Configuration
 title: IWdsTransportNamespace::get_Configuration (wdstptmgmt.h)
-description: Sets or retrieves the configuration information for the content provider of the namespace.
+description: Sets or retrieves the configuration information for the content provider of the namespace. (Get)
 helpviewer_keywords: ["Configuration property [Windows Deployment Services]","Configuration property [Windows Deployment Services]","IWdsTransportNamespace interface","IWdsTransportNamespace interface [Windows Deployment Services]","Configuration property","IWdsTransportNamespace.Configuration","IWdsTransportNamespace.get_Configuration","IWdsTransportNamespace::Configuration","IWdsTransportNamespace::get_Configuration","IWdsTransportNamespace::put_Configuration","get_Configuration","wds.iwdstransportnamespace_configuration","wdstptmgmt/IWdsTransportNamespace::Configuration","wdstptmgmt/IWdsTransportNamespace::get_Configuration","wdstptmgmt/IWdsTransportNamespace::put_Configuration"]
 old-location: wds\iwdstransportnamespace_configuration.htm
 tech.root: wds

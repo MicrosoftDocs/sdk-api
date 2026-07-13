@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_FarmName
 title: ITsSbTarget::put_FarmName (sbtsv.h)
-description: Retrieves or specifies the name of the farm to which this target is joined.
+description: Retrieves or specifies the name of the farm to which this target is joined. (Put)
 helpviewer_keywords: ["FarmName property [Remote Desktop Services]","FarmName property [Remote Desktop Services]","ITsSbTarget interface","FarmName property [Remote Desktop Services]","ITsSbTargetEx interface","ITsSbTarget interface [Remote Desktop Services]","FarmName property","ITsSbTarget.FarmName","ITsSbTarget.put_FarmName","ITsSbTarget::FarmName","ITsSbTarget::get_FarmName","ITsSbTarget::put_FarmName","ITsSbTargetEx interface [Remote Desktop Services]","FarmName property","ITsSbTargetEx.FarmName","ITsSbTargetEx::get_FarmName","ITsSbTargetEx::put_FarmName","put_FarmName","sbtsv/ITsSbTarget::FarmName","sbtsv/ITsSbTarget::get_FarmName","sbtsv/ITsSbTarget::put_FarmName","sbtsv/ITsSbTargetEx::FarmName","sbtsv/ITsSbTargetEx::get_FarmName","sbtsv/ITsSbTargetEx::put_FarmName","termserv.itssbtarget_farmname"]
 old-location: termserv\itssbtarget_farmname.htm
 tech.root: TermServ

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IFilterGraph2 interface [DirectShow]","ReconnectEx method
 old-location: dshow\ifiltergraph2_reconnectex.htm
 tech.root: dshow
 ms.assetid: a72cf427-056b-4751-9c4a-665251e549f8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IFilterGraph2 interface [DirectShow],ReconnectEx method, IFilterGraph2.ReconnectEx, IFilterGraph2::ReconnectEx, IFilterGraph2ReconnectEx, ReconnectEx, ReconnectEx method [DirectShow], ReconnectEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_reconnectex, strmif/IFilterGraph2::ReconnectEx
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>ReconnectEx</code> method breaks the existing pin connection and reconnects it to the same pin, using a specified media type.
 
@@ -135,7 +137,7 @@ The filter is not stopped, but it does not support reconnection while in a runni
 
 ## -remarks
 
-Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the other pin to ensure that the reconnnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>ReconnectEx</code> method succeeds, leaving the filter graph in an inconsistent state.
+Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the other pin to ensure that the reconnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>ReconnectEx</code> method succeeds, leaving the filter graph in an inconsistent state.
 
 This method improves on the <a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-reconnect">IFilterGraph::Reconnect</a> method by specifying a media type. This makes the reconnection more likely to succeed.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumUILanguagesA
 title: EnumUILanguagesA function (winnls.h)
-description: Enumerates the user interface languages that are available on the operating system and calls the callback function with every language in the list.
-helpviewer_keywords: ["EnumUILanguages","EnumUILanguages function [Internationalization for Windows Applications]","EnumUILanguagesA","EnumUILanguagesW","MUI_ALL_INSTALLED_LANGUAGES","MUI_GROUP_POLICY","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","MUI_LICENSED_LANGUAGES","_win32_EnumUILanguages","intl.enumuilanguages","winnls/EnumUILanguages","winnls/EnumUILanguagesA","winnls/EnumUILanguagesW"]
+description: Enumerates the user interface languages that are available on the operating system and calls the callback function with every language in the list. (ANSI)
+helpviewer_keywords: ["EnumUILanguagesA", "MUI_ALL_INSTALLED_LANGUAGES", "MUI_GROUP_POLICY", "MUI_LANGUAGE_ID", "MUI_LANGUAGE_NAME", "MUI_LICENSED_LANGUAGES", "winnls/EnumUILanguagesA"]
 old-location: intl\enumuilanguages.htm
 tech.root: Intl
 ms.assetid: f97df853-fc40-4529-b8a5-27069863a9b9
@@ -189,7 +189,7 @@ characters in length. For example, en-US will be passed as "0409" and en as "000
 
 
 > [!NOTE]
-> The winnls.h header defines EnumUILanguages as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines EnumUILanguages as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

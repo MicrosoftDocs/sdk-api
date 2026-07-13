@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
-title: ISoftwareBitmapNativeFactory::imaging (windows.graphics.imaging.interop.h)
+title: ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2 (windows.graphics.imaging.interop.h)
 description: Creates an ISoftwareBitmapNative from the provided IMF2DBuffer2.
 helpviewer_keywords: ["CreateFromMF2DBuffer2","CreateFromMF2DBuffer2 method [Windows Runtime]","CreateFromMF2DBuffer2 method [Windows Runtime]","ISoftwareBitmapNativeFactory interface","ISoftwareBitmapNativeFactory interface [Windows Runtime]","CreateFromMF2DBuffer2 method","ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2","ISoftwareBitmapNativeFactory.imaging","ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2","ISoftwareBitmapNativeFactory::imaging","windows/ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2","winrt.isoftwarebitmapnativefactory_createfrommf2dbuffer2"]
 old-location: winrt\isoftwarebitmapnativefactory_createfrommf2dbuffer2.htm
@@ -45,12 +45,12 @@ api_name:
  - ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
 ---
 
-# ISoftwareBitmapNativeFactory::imaging
+# ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2 (windows.graphics.imaging.interop.h)
 
 
 ## -description
 
-Creates an <a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>  from the provided <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>.
+Creates a Windows Runtime <a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> object from the provided <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>.
 
 ## -parameters
 
@@ -84,8 +84,7 @@ Type: <b>BOOL</b>
 
 A value indicating whether the created software bitmap is read-only.
 
-<div class="alert"><b>Note</b>  The read-only access applies only to the Windows Runtime<a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> wrapper. Access to the underlying Media Foundation buffer is not restricted.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The read-only access applies only to the Windows Runtime <a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> object. Access to the underlying Media Foundation buffer is not restricted.</div>
 
 ### -param minDisplayAperture [in, optional]
 
@@ -97,7 +96,8 @@ The rectangular area within the surface that contains valid image data. Use NULL
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a> interface.
+The interface to obtain from the created <a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> object.
+This is usually Windows.Graphics.Imaging.ISoftwareBitmap.
 
 ### -param ppv [out]
 

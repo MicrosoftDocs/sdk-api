@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.MapUserPhysicalPages
 title: MapUserPhysicalPages function (memoryapi.h)
-description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
+description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region. (MapUserPhysicalPages)
 helpviewer_keywords: ["MapUserPhysicalPages","MapUserPhysicalPages function","_win32_mapuserphysicalpages","base.mapuserphysicalpages","winbase/MapUserPhysicalPages"]
 old-location: base\mapuserphysicalpages.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
+ - api-ms-win-core-memory-l1-1-5.dll
  - Kernel32.dll
  - API-MS-Win-Core-memory-l1-1-2.dll
  - KernelBase.dll

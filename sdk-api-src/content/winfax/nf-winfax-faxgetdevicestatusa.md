@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxGetDeviceStatusA
 title: FaxGetDeviceStatusA function (winfax.h)
-description: The FaxGetDeviceStatus function returns to a fax client application current status information for the fax device of interest.
-helpviewer_keywords: ["FaxGetDeviceStatus","FaxGetDeviceStatus function [Fax Service]","FaxGetDeviceStatusA","FaxGetDeviceStatusW","_mfax_faxgetdevicestatus","fax._mfax_faxgetdevicestatus","winfax/FaxGetDeviceStatus","winfax/FaxGetDeviceStatusA","winfax/FaxGetDeviceStatusW"]
+description: The FaxGetDeviceStatus function returns to a fax client application current status information for the fax device of interest. (ANSI)
+helpviewer_keywords: ["FaxGetDeviceStatusA", "winfax/FaxGetDeviceStatusA"]
 old-location: fax\_mfax_faxgetdevicestatus.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1u0j.htm
@@ -128,7 +128,7 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 > [!NOTE]
-> The winfax.h header defines FaxGetDeviceStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxGetDeviceStatus as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

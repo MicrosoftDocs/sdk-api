@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetItemText","ListView_GetItemText macro [Window
 old-location: controls\ListView_GetItemText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemtext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetItemText, ListView_GetItemText macro [Windows Controls], _win32_ListView_GetItemText, _win32_ListView_GetItemText_cpp, commctrl/ListView_GetItemText, controls.ListView_GetItemText, controls._win32_ListView_GetItemText
 req.header: commctrl.h
 req.include-header: 
@@ -44,10 +44,25 @@ api_location:
 api_name:
  - ListView_GetItemText
 ---
+# ListView_GetItemText macro
+
+## -syntax
+
+```cpp
+void ListView_GetItemText(
+   HWND   hwndLV,
+   int    i,
+   int    iSubItem_,
+   LPTSTR pszText_,
+   int    cchTextMax_
+);
+```
 
 ## -description
 
 Gets the text of a list-view item or subitem. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getitemtext">LVM_GETITEMTEXT</a> message explicitly.
+
+To get the length of the retrieved string, send the <b>LVM_GETITEMTEXT</b> message explicitly.
 
 ## -parameters
 
@@ -67,8 +82,7 @@ The index of the list-view item.
 
 Type: <b>int</b>
 
-The index of the subitem. To retrieve the item text, set 
-					<i>iSubItem</i> to zero.
+The index of the subitem. To retrieve the item text, set <i>iSubItem_</i> to zero.
 
 ### -param pszText_
 
@@ -80,8 +94,7 @@ A pointer to a buffer that receives the item or subitem text.
 
 Type: <b>int</b>
 
-The number of characters in the 
-					<i>pszText</i> buffer.
+The number of characters in the <i>pszText_</i> buffer.
 
 ## -see-also
 

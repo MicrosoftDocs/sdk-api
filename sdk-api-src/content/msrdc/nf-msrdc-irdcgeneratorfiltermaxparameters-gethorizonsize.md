@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.GetHorizonSize
 title: IRdcGeneratorFilterMaxParameters::GetHorizonSize (msrdc.h)
-description: Returns the horizon size�the length over which the FilterMax generator looks for local maxima.
+description: Returns the horizon size - the length over which the FilterMax generator looks for local maxima.
 helpviewer_keywords: ["GetHorizonSize","GetHorizonSize method [Remote Differential Compression]","GetHorizonSize method [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface","IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","GetHorizonSize method","IRdcGeneratorFilterMaxParameters.GetHorizonSize","IRdcGeneratorFilterMaxParameters::GetHorizonSize","fs.irdcgeneratorfiltermaxparameters_gethorizonsize","msrdc/IRdcGeneratorFilterMaxParameters::GetHorizonSize","rdc.irdcgeneratorfiltermaxparameters_gethorizonsize"]
 old-location: rdc\irdcgeneratorfiltermaxparameters_gethorizonsize.htm
 tech.root: rdc
@@ -64,7 +64,7 @@ Address of a <b>ULONG</b> that will receive the length in bytes of the horizon s
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

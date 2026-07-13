@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.UpdateSubresource1
 title: ID3D11DeviceContext1::UpdateSubresource1 (d3d11_1.h)
-description: The CPU copies data from memory to a subresource created in non-mappable memory.
+description: The CPU copies data from memory to a subresource created in non-mappable memory. (ID3D11DeviceContext1.UpdateSubresource1)
 helpviewer_keywords: ["ID3D11DeviceContext1 interface [Direct3D 11]","UpdateSubresource1 method","ID3D11DeviceContext1.UpdateSubresource1","ID3D11DeviceContext1::UpdateSubresource1","UpdateSubresource1","UpdateSubresource1 method [Direct3D 11]","UpdateSubresource1 method [Direct3D 11]","ID3D11DeviceContext1 interface","d3d11_1/ID3D11DeviceContext1::UpdateSubresource1","direct3d11.id3d11devicecontext1_updatesubresource1"]
 old-location: direct3d11\id3d11devicecontext1_updatesubresource1.htm
 tech.root: direct3d11

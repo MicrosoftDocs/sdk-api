@@ -1,12 +1,11 @@
 ---
 UID: NS:cimfs._CIMFS_FILE_METADATA
 title: CIMFS_FILE_METADATA
-ms.date: 9/9/2019
-ms.author: windowssdkdev
+description: The CIMFS_FILE_METADATA structure specifies file metadata for the file to be added by CimCreateFile.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: _CIMFS_FILE_METADATA, CIMFS_FILE_METADATA
 targetos: Windows
-ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorNodeNameA
 title: SetIScsiInitiatorNodeNameA function (iscsidsc.h)
-description: SetIscsiInitiatorNodeName function establishes an initiator node name for the computer. This name is utilized by any initiator nodes on the computer that are communicating with other nodes.
-helpviewer_keywords: ["SetIScsiInitiatorNodeNameA","SetIscsiInitiatorNodeName","SetIscsiInitiatorNodeName function [iSCSI Discovery Library API]","SetIscsiInitiatorNodeNameA","SetIscsiInitiatorNodeNameW","iscsidisc.setiscsiinitiatornodename","iscsidsc/SetIscsiInitiatorNodeName","iscsidsc/SetIscsiInitiatorNodeNameA","iscsidsc/SetIscsiInitiatorNodeNameW"]
+description: SetIscsiInitiatorNodeName function establishes an initiator node name for the computer. This name is utilized by any initiator nodes on the computer that are communicating with other nodes. (ANSI)
+helpviewer_keywords: ["SetIScsiInitiatorNodeNameA", "SetIscsiInitiatorNodeNameA", "iscsidsc/SetIscsiInitiatorNodeNameA"]
 old-location: iscsidisc\setiscsiinitiatornodename.htm
 tech.root: iSCSIDisc
 ms.assetid: 4758fbde-da94-4da2-9c04-d2bec2c61752
@@ -76,5 +76,5 @@ Some hardware initiator drivers can respond immediately to a change of the node 
 
 
 > [!NOTE]
-> The iscsidsc.h header defines SetIScsiInitiatorNodeName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines SetIScsiInitiatorNodeName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

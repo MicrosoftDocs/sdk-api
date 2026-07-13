@@ -52,7 +52,7 @@ api_name:
 
 The <b>PeerPnrpShutdown</b> function shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.
 
-## -parameters
+
 
 ## -returns
 

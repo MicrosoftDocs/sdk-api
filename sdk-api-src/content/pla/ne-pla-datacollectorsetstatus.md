@@ -56,23 +56,23 @@ Defines the running status of the data collector set.
 
 ## -enum-fields
 
-### -field plaStopped
+### -field plaStopped:0
 
 The data collector set is not running.
 
-### -field plaRunning
+### -field plaRunning:1
 
 The data collector set is running.
 
-### -field plaCompiling
+### -field plaCompiling:2
 
 The data collector set is performing data management. A running data collector set will transition from <b>plaRunning</b> to <b>plaCompiling</b> if the data manager is enabled.
 
-### -field plaPending
+### -field plaPending:3
 
 The data collector has been set to run, but the service has not started it yet.  Only computers that run operating systems prior to Windows Vista report this status.
 
-### -field plaUndefined
+### -field plaUndefined:4
 
 Cannot determine the status but no error has occurred. Typically, this status is set for autologgers.
 

@@ -54,10 +54,7 @@ Provides logging information about the parent object the async callback is assoc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAsyncCallbackLogging</b> interface inherits from <b>IMFAsyncCallback</b>. <b>IMFAsyncCallbackLogging</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFAsyncCallbackLogging</b> interface inherits from <b>IMFAsyncCallback</b>. <b>IMFAsyncCallbackLogging</b> also has these types of members:
 
 ## -remarks
 

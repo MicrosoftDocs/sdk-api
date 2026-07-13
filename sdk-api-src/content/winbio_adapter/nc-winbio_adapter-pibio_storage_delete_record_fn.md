@@ -111,7 +111,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_CORRUPTED</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_CORRUPTED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ There is an unspecified problem with the database.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_NO_SUCH_RECORD</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_NO_SUCH_RECORD</b></dt>
 </dl>
 </td>
 <td width="60%">

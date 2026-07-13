@@ -1,7 +1,7 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamPrioritization
 title: IMFASFStreamPrioritization (wmcontainer.h)
-description: Not implemented.
+description: Not implemented. (IMFASFStreamPrioritization)
 helpviewer_keywords: ["6eb79c52-dc81-406c-9000-d25ad380e6b2","IMFASFStreamPrioritization","IMFASFStreamPrioritization interface [Media Foundation]","IMFASFStreamPrioritization interface [Media Foundation]","described","mf.imfasfstreamprioritization","wmcontainer/IMFASFStreamPrioritization"]
 old-location: mf\imfasfstreamprioritization.htm
 tech.root: mf
@@ -57,10 +57,7 @@ The ASF stream prioritization object exposes this interface. The stream prioriti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFStreamPrioritization</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFStreamPrioritization</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFASFStreamPrioritization</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFStreamPrioritization</b> also has these types of members:
 
 ## -see-also
 

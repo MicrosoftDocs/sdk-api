@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_SetExtendedUI","ComboBox_SetExtendedUI macro [Wi
 old-location: controls\ComboBox_SetExtendedUI.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setextendedui.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_SetExtendedUI, ComboBox_SetExtendedUI macro [Windows Controls], _win32_ComboBox_SetExtendedUI, _win32_ComboBox_SetExtendedUI_cpp, controls.ComboBox_SetExtendedUI, controls._win32_ComboBox_SetExtendedUI, windowsx/ComboBox_SetExtendedUI
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_SetExtendedUI macro
+
+## -syntax
+
+```cpp
+int ComboBox_SetExtendedUI(
+   HWND hwndCtl,
+   UINT flags
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is CB_ERR.
 
 
 ## -description

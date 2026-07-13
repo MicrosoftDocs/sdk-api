@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmSetCompositionStringW
 title: ImmSetCompositionStringW function (immdev.h)
-description: Sets the characters, attributes, and clauses of the composition and reading strings.
-helpviewer_keywords: ["ImmSetCompositionString","ImmSetCompositionString function [Internationalization for Windows Applications]","ImmSetCompositionStringA","ImmSetCompositionStringW","SCS_CHANGEATTR","SCS_CHANGECLAUSE","SCS_QUERYRECONVERTSTRING","SCS_SETRECONVERTSTRING","SCS_SETSTR","_win32_ImmSetCompositionString","imm/ImmSetCompositionString","imm/ImmSetCompositionStringA","imm/ImmSetCompositionStringW","intl.immsetcompositionstring"]
+description: The ImmSetCompositionStringW (Unicode) function (immdev.h) sets the characters, attributes, and clauses of the composition and reading strings.
+helpviewer_keywords: ["ImmSetCompositionString", "ImmSetCompositionString function [Internationalization for Windows Applications]", "ImmSetCompositionStringW", "SCS_CHANGEATTR", "SCS_CHANGECLAUSE", "SCS_QUERYRECONVERTSTRING", "SCS_SETRECONVERTSTRING", "SCS_SETSTR", "_win32_ImmSetCompositionString", "intl.immsetcompositionstring"]
 old-location: intl\immsetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmSetCompositionString, ImmSetCompositionString function [Internationalization for Windows Applications], ImmSetCompositionStringA, ImmSetCompositionStringW, SCS_CHANGEATTR, SCS_CHANGECLAUSE, SCS_QUERYRECONVERTSTRING, SCS_SETRECONVERTSTRING, SCS_SETSTR, _win32_ImmSetCompositionString, imm/ImmSetCompositionString, imm/ImmSetCompositionStringA, imm/ImmSetCompositionStringW, intl.immsetcompositionstring
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-imm-l1-1-2.dll
  - Imm32.dll
  - Ext-MS-Win-imm-l1-1-0.dll
  - ext-ms-win-imm-l1-1-1.dll
@@ -166,7 +167,7 @@ When the IME completes the changes, it sends a <a href="/windows/desktop/Intl/wm
 
 
 > [!NOTE]
-> The immdev.h header defines ImmSetCompositionString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines ImmSetCompositionString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.auxGetDevCapsW
 title: auxGetDevCapsW function (mmeapi.h)
-description: The auxGetDevCaps function retrieves the capabilities of a given auxiliary output device.
-helpviewer_keywords: ["_win32_auxGetDevCaps","auxGetDevCaps","auxGetDevCaps function [Windows Multimedia]","auxGetDevCapsA","auxGetDevCapsW","mmeapi/auxGetDevCaps","mmeapi/auxGetDevCapsA","mmeapi/auxGetDevCapsW","multimedia.auxgetdevcaps"]
+description: The auxGetDevCapsW (Unicode) function (mmeapi.h) retrieves the capabilities of a given auxiliary output device.
+helpviewer_keywords: ["_win32_auxGetDevCaps", "auxGetDevCaps", "auxGetDevCaps function [Windows Multimedia]", "auxGetDevCapsW", "mmeapi/auxGetDevCaps", "mmeapi/auxGetDevCapsW", "multimedia.auxgetdevcaps"]
 old-location: multimedia\auxgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: c0920425-fb42-4112-b0c1-f4b607b9e794
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: _win32_auxGetDevCaps, auxGetDevCaps, auxGetDevCaps function [Windows Multimedia], auxGetDevCapsA, auxGetDevCapsW, mmeapi/auxGetDevCaps, mmeapi/auxGetDevCapsA, mmeapi/auxGetDevCapsW, multimedia.auxgetdevcaps
 req.header: mmeapi.h
 req.include-header: Windows.h
@@ -114,7 +114,7 @@ The device identifier in <i>uDeviceID</i> varies from zero to one less than the 
 
 
 > [!NOTE]
-> The mmeapi.h header defines auxGetDevCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines auxGetDevCaps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:processenv.SearchPathA
 title: SearchPathA function
-description: Searches for a specified file in a specified path.
-helpviewer_keywords: ["SearchPath","SearchPath function [Files]","SearchPathA","SearchPathW","_win32_searchpath","base.searchpath","fs.searchpath","processenv/SearchPath","processenv/SearchPathA","processenv/SearchPathW"]
+description: Searches for a specified file in a specified path. (ANSI)
+helpviewer_keywords: ["SearchPathA", "processenv/SearchPathA"]
 old-location: fs\searchpath.htm
 tech.root: fs
 ms.assetid: 8039365a-1b39-431e-af87-9a9933ca102d
@@ -72,6 +72,11 @@ If this parameter is <b>NULL</b>, the
 
 The name of the file for which to search.
 
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
+
 ### -param lpExtension [in, optional]
 
 The extension to be added to the file name when searching for the file. The first character of the file name 
@@ -136,8 +141,12 @@ The <b>SearchPath</b> function is not recommended as a method of
      <b>LoadLibrary</b> function. If you need to locate and load a 
      .dll file, use the <b>LoadLibrary</b> function. 
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>SearchPathW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation. See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+
+
+
+
+
+
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
 <table>
@@ -203,7 +212,7 @@ Yes
 
 
 > [!NOTE]
-> The processenv.h header defines SearchPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The processenv.h header defines SearchPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathRemoveFileSpecW
 title: PathRemoveFileSpecW function (shlwapi.h)
-description: Removes the trailing file name and backslash from a path, if they are present.
-helpviewer_keywords: ["PathRemoveFileSpec","PathRemoveFileSpec function [Windows Shell]","PathRemoveFileSpecA","PathRemoveFileSpecW","_win32_PathRemoveFileSpec","shell.PathRemoveFileSpec","shlwapi/PathRemoveFileSpec","shlwapi/PathRemoveFileSpecA","shlwapi/PathRemoveFileSpecW"]
+description: Removes the trailing file name and backslash from a path, if they are present. (Unicode)
+helpviewer_keywords: ["PathRemoveFileSpec", "PathRemoveFileSpec function [Windows Shell]", "PathRemoveFileSpecW", "_win32_PathRemoveFileSpec", "shell.PathRemoveFileSpec", "shlwapi/PathRemoveFileSpec", "shlwapi/PathRemoveFileSpecW"]
 old-location: shell\PathRemoveFileSpec.htm
 tech.root: shell
 ms.assetid: c47bcf8a-c59d-4d6a-81a9-a3960ae39867
@@ -76,4 +76,4 @@ Returns nonzero if something was removed, or zero otherwise.
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathRemoveFileSpec as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathRemoveFileSpec as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -56,7 +56,7 @@ Indicates how transactions are configured for <a href="/windows/desktop/cossdk/c
 
 ## -enum-fields
 
-### -field CSC_NoTransaction
+### -field CSC_NoTransaction:0
 
 Transactions are never used within the enclosed context. This is the default transaction setting for <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 

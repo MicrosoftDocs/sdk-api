@@ -4,7 +4,8 @@ title: Wcsplugin.h header
 ms.assetid: cd24e38d-d9a9-3363-bc85-29c88508da9d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: wcs
 f1_keywords:
  - wcsplugin

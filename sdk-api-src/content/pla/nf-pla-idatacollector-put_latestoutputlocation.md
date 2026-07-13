@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.put_LatestOutputLocation
 title: IDataCollector::put_LatestOutputLocation (pla.h)
-description: Retrieves or sets the fully decorated file name that PLA used the last time it created the file.
+description: Retrieves or sets the fully decorated file name that PLA used the last time it created the file. (IDataCollector.put_LatestOutputLocation)
 helpviewer_keywords: ["IDataCollector interface [PLA]","LatestOutputLocation property","IDataCollector.LatestOutputLocation","IDataCollector.put_LatestOutputLocation","IDataCollector::LatestOutputLocation","IDataCollector::get_LatestOutputLocation","IDataCollector::put_LatestOutputLocation","LatestOutputLocation property [PLA]","LatestOutputLocation property [PLA]","IDataCollector interface","base.idatacollector_latestoutputlocation","pla.idatacollector_latestoutputlocation","pla/IDataCollector::LatestOutputLocation","pla/IDataCollector::get_LatestOutputLocation","pla/IDataCollector::put_LatestOutputLocation","put_LatestOutputLocation"]
 old-location: pla\idatacollector_latestoutputlocation.htm
 tech.root: PLA

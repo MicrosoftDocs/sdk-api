@@ -95,7 +95,7 @@ When this method returns successfully, contains the interface pointer requested 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -135,6 +135,12 @@ The following are the most common interface identifiers the Shell uses when requ
 <tr>
 <td>
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a>
+</td>
+<td>The <i>cidl</i> parameter can only be one.</td>
+</tr>
+<tr>
+<td>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>
 </td>
 <td>The <i>cidl</i> parameter can only be one.</td>
 </tr>

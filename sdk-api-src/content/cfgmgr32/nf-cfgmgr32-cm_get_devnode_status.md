@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-devices-config-l1-1-2.dll
  - CfgMgr32.dll
  - API-MS-Win-devices-config-l1-1-0.dll
  - API-MS-Win-devices-config-l1-1-1.dll
@@ -47,18 +48,18 @@ api_name:
  - CM_Get_DevNode_Status
 ---
 
-# CM_Get_DevNode_Status function
-
-
 ## -description
 
 The <b>CM_Get_DevNode_Status</b> function obtains the status of a device instance from its device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.
+
+> [!NOTE]
+> In Windows Vista, and later, the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-) uses the [**DEVPKEY_Device_DevNodeStatus**](/windows-hardware/drivers/install/devpkey-device-devnodestatus) [property key](/windows-hardware/drivers/install/property-keys) to represent the device instance identifier. For details, see [Retrieving the status and problem code for a device instance](/windows-hardware/drivers/install/retrieving-the-status-and-problem-code-for-a-device-instance).
 
 ## -parameters
 
 ### -param pulStatus [out]
 
-Address of a location to receive status bit flags. The function can set any combination of the <b>DN_-</b>prefixed bit flags defined in <i>Cfg.h</i>.
+Address of a location to receive status bit flags. The function can set any combination of the <b>DN_-</b> prefixed bit flags defined in <i>Cfg.h</i>.
 
 ### -param pulProblemNumber [out]
 

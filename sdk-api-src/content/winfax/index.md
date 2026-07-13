@@ -4,7 +4,8 @@ title: Winfax.h header
 ms.assetid: 1d8372da-bf53-3345-882f-8adc98f7fe8d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: fax
 f1_keywords:
  - winfax

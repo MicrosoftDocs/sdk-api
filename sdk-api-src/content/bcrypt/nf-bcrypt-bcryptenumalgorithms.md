@@ -129,6 +129,17 @@ Include the random number generator (RNG) algorithms in the enumeration.
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="BCRYPT_KEY_DERIVATION_OPERATION"></a><a id="bcrypt_key_derivation_operation"></a><dl>
+<dt><b>BCRYPT_KEY_DERIVATION_OPERATION</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
+Include the key derivation algorithms in the enumeration.
+
+</td>
+</tr>
 </table>
 
 ### -param pAlgCount [out]

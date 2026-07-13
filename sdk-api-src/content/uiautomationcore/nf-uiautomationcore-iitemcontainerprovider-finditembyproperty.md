@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IItemContainerProvider.FindItemByProperty
 title: IItemContainerProvider::FindItemByProperty (uiautomationcore.h)
-description: Retrieves an element within a containing element, based on a specified property value.
+description: Retrieves an element within a containing element, based on a specified property value. (IItemContainerProvider.FindItemByProperty)
 helpviewer_keywords: ["FindItemByProperty","FindItemByProperty method [Windows Accessibility]","FindItemByProperty method [Windows Accessibility]","IItemContainerProvider interface","IItemContainerProvider interface [Windows Accessibility]","FindItemByProperty method","IItemContainerProvider.FindItemByProperty","IItemContainerProvider::FindItemByProperty","uiauto.uiauto_IItemContainerProvider_FindItemByProperty","uiauto_IItemContainerProvider_FindItemByProperty","uiautomationcore/IItemContainerProvider::FindItemByProperty","winauto.uiauto_IItemContainerProvider_FindItemByProperty"]
 old-location: winauto\uiauto_IItemContainerProvider_FindItemByProperty.htm
 tech.root: WinAuto
@@ -82,7 +82,7 @@ Receives a pointer to the UI Automation provider of the element.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_MeasurementPeriod
 title: ITQueue::get_MeasurementPeriod (tapi3cc.h)
-description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
+description: The ITQueue::get_MeasurementPeriod method (tapi3cc.h) gets the measurement period for which the switch and/or implementation stores and calculates information.
 helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_MeasurementPeriod method","ITQueue.get_MeasurementPeriod","ITQueue::get_MeasurementPeriod","_tapi3_itqueue_get_measurementperiod","get_MeasurementPeriod","get_MeasurementPeriod method [TAPI 2.2]","get_MeasurementPeriod method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_measurementperiod","tapi3cc/ITQueue::get_MeasurementPeriod"]
 old-location: tapi3\itqueue_get_measurementperiod.htm
 tech.root: tapi3
 ms.assetid: 931fb7dd-8c9b-4b1e-9296-6335e5a7e164
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueue interface [TAPI 2.2],get_MeasurementPeriod method, ITQueue.get_MeasurementPeriod, ITQueue::get_MeasurementPeriod, _tapi3_itqueue_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_measurementperiod, tapi3cc/ITQueue::get_MeasurementPeriod
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

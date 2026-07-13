@@ -4,12 +4,12 @@ title: OpenThread function (processthreadsapi.h)
 description: Opens an existing thread object.
 helpviewer_keywords: ["OpenThread","OpenThread function","_win32_openthread","base.openthread","processthreadsapi/OpenThread","winbase/OpenThread"]
 old-location: base\openthread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: d020ecc5-89d1-4a0d-a197-15a66e269e86
 ms.date: 12/05/2018
 ms.keywords: OpenThread, OpenThread function, _win32_openthread, base.openthread, processthreadsapi/OpenThread, winbase/OpenThread
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
  - KernelBase.dll

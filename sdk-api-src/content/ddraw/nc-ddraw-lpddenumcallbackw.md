@@ -1,7 +1,7 @@
 ---
 UID: NC:ddraw.LPDDENUMCALLBACKW
 title: LPDDENUMCALLBACKW (ddraw.h)
-description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function.
+description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function. (Unicode)
 helpviewer_keywords: ["DDEnumCallback","DDEnumCallback callback function [DirectDraw]","LPDDENUMCALLBACK","LPDDENUMCALLBACK callback","LPDDENUMCALLBACKA","LPDDENUMCALLBACKW","ddraw/DDEnumCallback","directdraw.ddenumcallback"]
 old-location: directdraw\ddenumcallback.htm
 tech.root: directdraw
@@ -85,4 +85,4 @@ If UNICODE is defined, the string values are returned as type LPWSTR, rather tha
 
 
 > [!NOTE]
-> The ddraw.h header defines LPDDENUMCALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ddraw.h header defines LPDDENUMCALLBACK as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

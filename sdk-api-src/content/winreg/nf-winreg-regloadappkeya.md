@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegLoadAppKeyA
 title: RegLoadAppKeyA function (winreg.h)
-description: Loads the specified registry hive as an application hive.
-helpviewer_keywords: ["RegLoadAppKey","RegLoadAppKey function","RegLoadAppKeyA","RegLoadAppKeyW","base.regloadappkey","winreg/RegLoadAppKey","winreg/RegLoadAppKeyA","winreg/RegLoadAppKeyW"]
+description: Loads the specified registry hive as an application hive. (ANSI)
+helpviewer_keywords: ["RegLoadAppKeyA", "winreg/RegLoadAppKeyA"]
 old-location: base\regloadappkey.htm
 tech.root: winprog
 ms.assetid: 88eb79c1-9ea0-436e-ad2e-9ce05b8dcb2c
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Registry-l1-1-0.dll
  - KernelBase.dll
@@ -116,7 +117,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 > [!NOTE]
-> The winreg.h header defines RegLoadAppKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegLoadAppKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_ServiceName
 title: INetFwRule::get_ServiceName (netfw.h)
-description: Specifies the service name property of the application.
+description: Specifies the service name property of the application. (Get)
 helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","ServiceName property","INetFwRule.ServiceName","INetFwRule.get_ServiceName","INetFwRule::ServiceName","INetFwRule::get_ServiceName","INetFwRule::put_ServiceName","ServiceName property [ICS/ICF]","ServiceName property [ICS/ICF]","INetFwRule interface","get_ServiceName","ics.inetfwrule_servicename","netfw/INetFwRule::ServiceName","netfw/INetFwRule::get_ServiceName","netfw/INetFwRule::put_ServiceName"]
 old-location: ics\inetfwrule_servicename.htm
 tech.root: ics

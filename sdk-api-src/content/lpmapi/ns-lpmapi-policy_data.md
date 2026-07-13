@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_13
+UID: NS:lpmapi.POLICY_DATA
 title: POLICY_DATA (lpmapi.h)
 description: The POLICY_DATA structure contains policy data for RSVP messages.
 helpviewer_keywords: ["POLICY_DATA","POLICY_DATA structure [QOS]","lpmapi/POLICY_DATA","qos.policy_data"]
@@ -70,3 +70,4 @@ Reserved. Do not use.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+

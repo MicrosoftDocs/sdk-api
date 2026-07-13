@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.WSAAsyncGetServByName
 title: WSAAsyncGetServByName function (winsock.h)
-description: The WSAAsyncGetServByName function asynchronously retrieves service information that corresponds to a service name and port.
+description: The WSAAsyncGetServByName function (winsock.h) asynchronously retrieves service information that corresponds to a service name and port.
 helpviewer_keywords: ["WSAAsyncGetServByName","WSAAsyncGetServByName function [Winsock]","_win32_wsaasyncgetservbyname_2","winsock.wsaasyncgetservbyname_2","winsock/WSAAsyncGetServByName"]
 old-location: winsock\wsaasyncgetservbyname_2.htm
 tech.root: WinSock
 ms.assetid: d3524197-cd7a-4863-8fbb-a05e6f5d38e0
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: WSAAsyncGetServByName, WSAAsyncGetServByName function [Winsock], _win32_wsaasyncgetservbyname_2, winsock.wsaasyncgetservbyname_2, winsock/WSAAsyncGetServByName
 req.header: winsock.h
 req.include-header: Winsock2.h

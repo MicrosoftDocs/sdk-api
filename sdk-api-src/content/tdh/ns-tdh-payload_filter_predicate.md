@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PAYLOAD_FILTER_PREDICATE</b> structure defines an event payload filter predicate that describes how to filter on a single field in a trace session.
+Defines an event payload filter predicate that describes how to filter on a single field in a trace session.
 
 ## -struct-fields
 
@@ -64,9 +64,9 @@ The name of the field to filter in package manifest.
 
 ### -field CompareOp
 
-The payload operator to use for the comparison. 
+The payload operator to use for the comparison.
 
-This member can be one of the values for the <b>PAYLOAD_OPERATOR</b> enumeration defined in the <i>Tdh.h</i> header file. 
+This member can be one of the values for the [**PAYLOAD_OPERATOR**](ne-tdh-payload_operator.md) enumeration defined in the *Tdh.h* header file. 
 
 <table>
 <tr>
@@ -285,7 +285,6 @@ the example for the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2
 <div class="code"></div>
 
 ## -see-also
-
 <a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 

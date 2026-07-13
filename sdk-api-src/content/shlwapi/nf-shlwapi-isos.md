@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 targetos: Windows
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-shlwapi-l2-1-0.dll
  - Shlwapi.dll
  - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
  - ShCore.dll

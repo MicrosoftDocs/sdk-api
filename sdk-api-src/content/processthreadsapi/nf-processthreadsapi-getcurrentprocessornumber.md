@@ -4,12 +4,12 @@ title: GetCurrentProcessorNumber function (processthreadsapi.h)
 description: Retrieves the number of the processor the current thread was running on during the call to this function.
 helpviewer_keywords: ["GetCurrentProcessorNumber","GetCurrentProcessorNumber function","base.getcurrentprocessornumber","processthreadsapi/GetCurrentProcessorNumber","winbase/GetCurrentProcessorNumber"]
 old-location: base\getcurrentprocessornumber.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 1f2bebc7-a548-409a-ab74-78a4b55c8fa7
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessorNumber, GetCurrentProcessorNumber function, base.getcurrentprocessornumber, processthreadsapi/GetCurrentProcessorNumber, winbase/GetCurrentProcessorNumber
 req.header: processthreadsapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
  - KernelBase.dll
@@ -59,8 +64,6 @@ api_name:
 ## -description
 
 Retrieves the number of the processor the current thread was running on during the call to this function.
-
-## -parameters
 
 ## -returns
 

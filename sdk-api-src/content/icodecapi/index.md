@@ -3,7 +3,8 @@ UID: NA:icodecapi
 title: icodecapi.h header
 ms.date: 05/22/2020
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: mf
 f1_keywords:
  - icodecapi

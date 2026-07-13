@@ -1,12 +1,12 @@
 ---
 UID: NS:tcpmib._MIB_TCPSTATS_W2K
 title: MIB_TCPSTATS_W2K (tcpmib.h)
-description: Contains statistics for the TCP protocol running on the local computer.
+description: MIB_TCPSTATS_W2K (tcpmib.h) contains statistics for the TCP protocol running on the local computer.
 helpviewer_keywords: ["*PMIB_TCPSTATS","*PMIB_TCPSTATS_W2K","MIB_TCPSTATS","MIB_TCPSTATS structure [MIB]","MIB_TCPSTATS_LH","MIB_TCPSTATS_W2K","MIB_TCP_RTO_CONSTANT","MIB_TCP_RTO_OTHER","MIB_TCP_RTO_RSRE","MIB_TCP_RTO_VANJ","PMIB_TCPSTATS","PMIB_TCPSTATS structure pointer [MIB]","_mpr_mib_tcpstats","iprtrmib/MIB_TCPSTATS","iprtrmib/PMIB_TCPSTATS","mib.mib_tcpstats","rras.mib_tcpstats","tcpmib/MIB_TCPSTATS","tcpmib/PMIB_TCPSTATS"]
 old-location: mib\mib_tcpstats.htm
 tech.root: MIB
 ms.assetid: 08d85d02-62a0-479d-bf56-5dad452436f3
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PMIB_TCPSTATS, *PMIB_TCPSTATS_W2K, MIB_TCPSTATS, MIB_TCPSTATS structure [MIB], MIB_TCPSTATS_LH, MIB_TCPSTATS_W2K, MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS, PMIB_TCPSTATS structure pointer [MIB], _mpr_mib_tcpstats, iprtrmib/MIB_TCPSTATS, iprtrmib/PMIB_TCPSTATS, mib.mib_tcpstats, rras.mib_tcpstats, tcpmib/MIB_TCPSTATS, tcpmib/PMIB_TCPSTATS'
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
@@ -207,7 +207,7 @@ The number of connections that are currently present in the system. This total n
 
 The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatistics">GetTcpStatistics</a> function returns a pointer to a <b>MIB_TCPSTATS</b> structure. 
 
-The <b>MIB_TCPSTATS</b> structure changed slightly on Windows Vista and later. On Windows Vistaand later, the <b>dwRtoAlgorithm</b> member is replaced by  a union that contains the following members.
+The <b>MIB_TCPSTATS</b> structure changed slightly on Windows Vista and later. On Windows Vista and later, the <b>dwRtoAlgorithm</b> member is replaced by  a union that contains the following members.
 
 
 
@@ -241,7 +241,7 @@ The retransmission time-out (RTO) algorithm in use.  This member can be one of t
 
 In the Windows SDK, the version of the structure for use on Windows Vista and later is  defined as <b>MIB_TCPSTATS_LH</b>. In the Windows SDK, the version of this structure to be used on earlier systems including Windows 2000 and later is defined as <b>MIB_TCPSTATS_W2K</b>. When compiling an application if the target platform is Windows Vista and later (<code>NTDDI_VERSION &gt;= NTDDI_LONGHORN</code>, <code>_WIN32_WINNT &gt;= 0x0600</code>, or <code>WINVER &gt;= 0x0600</code>), the <b>MIB_TCPSTATS_LH</b> structure is typedefed to the <b>MIB_TCPSTATS</b> structure. When compiling an application if the target platform is not Windows Vista and later, the <b>MIB_TCPSTATS_W2K</b> structure is typedefed to the <b>MIB_TCPSTATS</b> structure. 
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 ## -see-also
 

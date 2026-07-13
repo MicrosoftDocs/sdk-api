@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetPropW
 title: SetPropW function (winuser.h)
-description: Adds a new entry or changes an existing entry in the property list of the specified window.
-helpviewer_keywords: ["SetProp","SetProp function [Windows and Messages]","SetPropA","SetPropW","_win32_SetProp","_win32_setprop_cpp","winmsg.setprop","winui._win32_setprop","winuser/SetProp","winuser/SetPropA","winuser/SetPropW"]
+description: Adds a new entry or changes an existing entry in the property list of the specified window. (Unicode)
+helpviewer_keywords: ["SetProp", "SetProp function [Windows and Messages]", "SetPropW", "_win32_SetProp", "_win32_setprop_cpp", "winmsg.setprop", "winui._win32_setprop", "winuser/SetProp", "winuser/SetPropW"]
 old-location: winmsg\setprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\setprop.htm
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -110,7 +113,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-properties">Ad
 
 
 > [!NOTE]
-> The winuser.h header defines SetProp as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SetProp as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

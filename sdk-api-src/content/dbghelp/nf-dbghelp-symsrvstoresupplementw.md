@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvStoreSupplementW
 title: SymSrvStoreSupplementW function (dbghelp.h)
-description: Stores a file in the specified supplement to a symbol store. The file is typically associated with a file in the symbol server.
+description: The SymSrvStoreSupplementW (Unicode) function (dbghelp.h) stores a file in the specified supplement to a symbol store.
 helpviewer_keywords: ["SymSrvStoreSupplement","SymSrvStoreSupplement function","SymSrvStoreSupplementW","base.symsrvstoresupplement","dbghelp/SymSrvStoreSupplement","dbghelp/SymSrvStoreSupplementW"]
 old-location: base\symsrvstoresupplement.htm
 tech.root: Debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
 req.header: dbghelp.h
 req.include-header: 
@@ -101,7 +101,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymSrvStoreSupplement as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymSrvStoreSupplement as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

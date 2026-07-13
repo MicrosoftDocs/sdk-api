@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_FragmentDialect
 title: IWSManResourceLocator::get_FragmentDialect (wsmandisp.h)
-description: Gets or sets the language dialect for a resource fragment dialect when IWSManResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate.
+description: Gets or sets the language dialect for a resource fragment dialect when IWSManResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate. (Get)
 helpviewer_keywords: ["FragmentDialect property [Windows Remote Management]","FragmentDialect property [Windows Remote Management]","IWSManResourceLocator interface","IWSManResourceLocator interface [Windows Remote Management]","FragmentDialect property","IWSManResourceLocator.FragmentDialect","IWSManResourceLocator.get_FragmentDialect","IWSManResourceLocator::FragmentDialect","IWSManResourceLocator::get_FragmentDialect","IWSManResourceLocator::put_FragmentDialect","get_FragmentDialect","winrm.iwsmanresourcelocator_fragmentdialect","wsmandisp/IWSManResourceLocator::FragmentDialect","wsmandisp/IWSManResourceLocator::get_FragmentDialect","wsmandisp/IWSManResourceLocator::put_FragmentDialect"]
 old-location: winrm\iwsmanresourcelocator_fragmentdialect.htm
 tech.root: winrm

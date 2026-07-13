@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetWordBreakProc","Edit_SetWordBreakProc macro [Wind
 old-location: controls\Edit_SetWordBreakProc.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setwordbreakproc.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_SetWordBreakProc, Edit_SetWordBreakProc macro [Windows Controls], _win32_Edit_SetWordBreakProc, _win32_Edit_SetWordBreakProc_cpp, controls.Edit_SetWordBreakProc, controls._win32_Edit_SetWordBreakProc, windowsx/Edit_SetWordBreakProc
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Edit_SetWordBreakProc macro
+
+## -syntax
+
+```cpp
+void Edit_SetWordBreakProc(
+   HWND              hwndCtl,
+   EDITWORDBREAKPROC lpfnWordBreak
+);
+```
 
 
 ## -description

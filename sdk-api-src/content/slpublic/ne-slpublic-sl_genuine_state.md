@@ -56,7 +56,7 @@ Specifies the state of an application installation.
 
 ## -enum-fields
 
-### -field SL_GEN_STATE_IS_GENUINE
+### -field SL_GEN_STATE_IS_GENUINE:0
 
 The installation is genuine.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LookupIconIdFromDirectory
 title: LookupIconIdFromDirectory function (winuser.h)
-description: Searches through icon or cursor data for the icon or cursor that best fits the current display device.
+description: Searches through icon or cursor data for the icon or cursor that best fits the current display device. (LookupIconIdFromDirectory)
 helpviewer_keywords: ["LookupIconIdFromDirectory","LookupIconIdFromDirectory function [Menus and Other Resources]","_win32_LookupIconIdFromDirectory","_win32_lookupiconidfromdirectory_cpp","menurc.lookupiconidfromdirectory","winui._win32_lookupiconidfromdirectory","winuser/LookupIconIdFromDirectory"]
 old-location: menurc\lookupiconidfromdirectory.htm
 tech.root: menurc
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-gui-l1-3-1.dll
+ - ext-ms-win-ntuser-gui-l1-3-0.dll
+ - ext-ms-win-ntuser-gui-l1-2-0.dll
+ - ext-ms-win-ntuser-gui-l1-1-1.dll
+ - ext-ms-win-ntuser-gui-l1-1-0.dll
  - User32.dll
 api_name:
  - LookupIconIdFromDirectory
@@ -50,9 +55,9 @@ api_name:
 
 ## -description
 
-Searches through icon or cursor data for the icon or cursor that best fits the current display device.
+Searches through icon (<b>RT_GROUP_ICON</b>) or cursor (<b>RT_GROUP_CURSOR</b>) resource data for the icon or cursor that best fits the current display device.
 
-To specify a desired height or width, use the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> function.
+To specify a desired height or width, use the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> function. This function calls it by passing zero in the <b>cxDesired</b>/<b>cyDesired</b> parameters.
 
 ## -parameters
 
@@ -72,7 +77,7 @@ Indicates whether an icon or a cursor is sought. If this parameter is <b>TRUE</b
 
 Type: <b>int</b>
 
-If the function succeeds, the return value is an integer resource identifier for the icon or cursor that best fits the current display device. 
+If the function succeeds, the return value is an integer resource identifier for the icon (<b>RT_ICON</b>) or cursor (<b>RT_CURSOR</b>) that best fits the current display device. 
 
 If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 

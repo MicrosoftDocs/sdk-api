@@ -6,7 +6,7 @@ helpviewer_keywords: ["DestroyRecognizer","DestroyRecognizer function [Tablet PC
 old-location: tablet\destroyrecognizer.htm
 tech.root: tablet
 ms.assetid: ffd66ab7-fc11-407e-aedc-267271ecb32c
-ms.date: 12/05/2018
+ms.date: 11/06/2024
 ms.keywords: DestroyRecognizer, DestroyRecognizer function [Tablet PC], ffd66ab7-fc11-407e-aedc-267271ecb32c, recapis/DestroyRecognizer, tablet.destroyrecognizer
 req.header: recapis.h
 req.include-header: 
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: inkobjcore.lib
+req.dll: inkobjcore.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -38,9 +38,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport 
 api_location:
  - recapis.h
+ - inkobjcore.dll
+ - mshwgst.dll
 api_name:
  - DestroyRecognizer
 ---

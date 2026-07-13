@@ -43,6 +43,7 @@ api_location:
  - Wiaservc.dll
 api_name:
  - IWiaDevMgr.SelectDeviceDlgID
+archived: true
 ---
 
 # IWiaDevMgr::SelectDeviceDlgID

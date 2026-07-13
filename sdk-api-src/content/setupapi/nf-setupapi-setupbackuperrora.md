@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupBackupErrorA
 title: SetupBackupErrorA function (setupapi.h)
-description: The SetupBackupError function generates a dialog box that informs the user of a backup error.
-helpviewer_keywords: ["SetupBackupError","SetupBackupError function [Setup API]","SetupBackupErrorA","SetupBackupErrorW","_setupapi_setupbackuperror","setup.setupbackuperror","setupapi/SetupBackupError","setupapi/SetupBackupErrorA","setupapi/SetupBackupErrorW"]
+description: The SetupBackupError function generates a dialog box that informs the user of a backup error. (ANSI)
+helpviewer_keywords: ["SetupBackupErrorA", "setupapi/SetupBackupErrorA"]
 old-location: setup\setupbackuperror.htm
 tech.root: setup
 ms.assetid: 4c2a8a63-29e7-4750-9239-6693754dff58
@@ -133,4 +133,4 @@ To get extended error information, call
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupBackupError as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupBackupError as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

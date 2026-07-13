@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SetSel","ListBox_SetSel macro [Windows Controls]"
 old-location: controls\ListBox_SetSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setsel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SetSel, ListBox_SetSel macro [Windows Controls], _win32_ListBox_SetSel, _win32_ListBox_SetSel_cpp, controls.ListBox_SetSel, controls._win32_ListBox_SetSel, windowsx/ListBox_SetSel
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_SetSel macro
+
+## -syntax
+
+```cpp
+int ListBox_SetSel(
+   HWND hwndCtl,
+   BOOL fSelect,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is LB_ERR.
 
 
 ## -description

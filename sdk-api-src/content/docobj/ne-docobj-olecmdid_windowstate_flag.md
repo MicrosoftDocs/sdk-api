@@ -1,5 +1,5 @@
 ---
-UID: NE:docobj.__unnamed_enum_5
+UID: NE:docobj.OLECMDID_WINDOWSTATE_FLAG
 title: OLECMDID_WINDOWSTATE_FLAG (docobj.h)
 description: Specifies the window state.
 helpviewer_keywords: ["OLECMDIDF_WINDOWSTATE_ENABLED","OLECMDIDF_WINDOWSTATE_ENABLED_VALID","OLECMDIDF_WINDOWSTATE_USERVISIBLE","OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID","OLECMDID_WINDOWSTATE_FLAG","OLECMDID_WINDOWSTATE_FLAG enumeration [COM]","_ole_OLECMDID_WINDOWSTATE_FLAG","com.olecmdid_windowstate_flag","docobj/OLECMDIDF_WINDOWSTATE_ENABLED","docobj/OLECMDIDF_WINDOWSTATE_ENABLED_VALID","docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE","docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID","docobj/OLECMDID_WINDOWSTATE_FLAG"]
@@ -54,19 +54,19 @@ Specifies the window state.
 
 ## -enum-fields
 
-### -field OLECMDIDF_WINDOWSTATE_USERVISIBLE
+### -field OLECMDIDF_WINDOWSTATE_USERVISIBLE:0x00000001
 
 The window is visible.
 
-### -field OLECMDIDF_WINDOWSTATE_ENABLED
+### -field OLECMDIDF_WINDOWSTATE_ENABLED:0x00000002
 
 The window has focus.
 
-### -field OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID
+### -field OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID:0x00010000
 
 The window is visible and valid.
 
-### -field OLECMDIDF_WINDOWSTATE_ENABLED_VALID
+### -field OLECMDIDF_WINDOWSTATE_ENABLED_VALID:0x00020000
 
 The window has focus and is valid.
 
@@ -77,3 +77,4 @@ A value from this enumeration is passed as the <i>nCmdExecOpt</i> parameter to <
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/ne-docobj-olecmdid">OLECMDID</a>
+

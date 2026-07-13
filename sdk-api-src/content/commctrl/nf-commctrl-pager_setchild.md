@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_SetChild","Pager_SetChild macro [Windows Controls]"
 old-location: controls\Pager_SetChild.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setchild.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_SetChild, Pager_SetChild macro [Windows Controls], _win32_Pager_SetChild, _win32_Pager_SetChild_cpp, commctrl/Pager_SetChild, controls.Pager_SetChild, controls._win32_Pager_SetChild
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Pager_SetChild macro
+
+## -syntax
+
+```cpp
+void Pager_SetChild(
+   HWND hwnd,
+   HWND hwndChild
+);
+```
 
 
 ## -description

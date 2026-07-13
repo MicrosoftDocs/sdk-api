@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICQueryConfigure","ICQueryConfigure macro [Windows Multim
 old-location: multimedia\icqueryconfigure.htm
 tech.root: Multimedia
 ms.assetid: a0e65123-5224-43a4-9a1e-28a10ecbed5c
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICQueryConfigure, ICQueryConfigure macro [Windows Multimedia], _win32_ICQueryConfigure, multimedia.icqueryconfigure, vfw/ICQueryConfigure
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ICQueryConfigure macro
+
+## -syntax
+
+```cpp
+DWORD ICQueryConfigure(
+     hic
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the driver supports this macro or ICERR_UNSUPPORTED otherwise.
 
 
 ## -description

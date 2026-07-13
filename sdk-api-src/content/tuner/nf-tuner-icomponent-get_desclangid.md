@@ -11,7 +11,7 @@ ms.keywords: IComponent interface [Microsoft TV Technologies],get_DescLangID met
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>get_DescLangID</b> method retrieves the language identifier for the description property.
 
 ## -parameters
@@ -64,7 +66,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-The returned language identifer identifies the language of the description property, which is obtained by calling the <b>get_Description</b> method.
+The returned language identifier identifies the language of the description property, which is obtained by calling the <b>get_Description</b> method.
 
 To get the language of the stream content, call the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-get_langid">ILanguageComponentType::get_LangID</a> method (only if the component object exposes the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilanguagecomponenttype">ILanguageComponentType</a> interface).
 

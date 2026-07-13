@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_modifyW
 title: ldap_modifyW function (winldap.h)
-description: The ldap_modify function changes an existing entry.
-helpviewer_keywords: ["_ldap_ldap_modify","ldap.ldap__modify","ldap.ldap_modify","ldap_modify","ldap_modify function [LDAP]","ldap_modifyA","ldap_modifyW","winldap/ldap_modify","winldap/ldap_modifyA","winldap/ldap_modifyW"]
+description: The ldap_modifyW (Unicode) function (winldap.h) initiates an asynchronous operation to modify an existing entry.
+helpviewer_keywords: ["_ldap_ldap_modify", "ldap.ldap__modify", "ldap.ldap_modify", "ldap_modify", "ldap_modify function [LDAP]", "ldap_modifyW", "winldap/ldap_modify", "winldap/ldap_modifyW"]
 old-location: ldap\ldap_modify.htm
 tech.root: ldap
 ms.assetid: 93ae0af4-1b16-4bb0-952f-139241189d79
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_modify, ldap.ldap__modify, ldap.ldap_modify, ldap_modify, ldap_modify function [LDAP], ldap_modifyA, ldap_modifyW, winldap/ldap_modify, winldap/ldap_modifyA, winldap/ldap_modifyW
 req.header: winldap.h
 req.include-header: 
@@ -100,7 +100,7 @@ Multithreading: Calls to <b>ldap_modify</b> are thread-safe, provided that
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_modify as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_modify as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

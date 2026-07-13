@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngGetCurrentProcessId</b> function identifies an application's current process.
 
-## -parameters
+
 
 ## -returns
 

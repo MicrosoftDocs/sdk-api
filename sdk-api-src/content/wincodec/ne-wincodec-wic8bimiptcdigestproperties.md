@@ -54,13 +54,13 @@ Specifies the identifiers of the metadata items in an 8BIM IPTC digest metadata 
 
 ## -enum-fields
 
-### -field WIC8BIMIptcDigestPString
+### -field WIC8BIMIptcDigestPString:0x1
 
 [VT_LPSTR] A name that identifies the 8BIM block.
 
-### -field WIC8BIMIptcDigestIptcDigest
+### -field WIC8BIMIptcDigestIptcDigest:0x2
 
 [VT_BLOB] The embedded IPTC digest value.
 
-### -field WIC8BIMIptcDigestProperties_FORCE_DWORD
+### -field WIC8BIMIptcDigestProperties_FORCE_DWORD:0x7fffffff
 

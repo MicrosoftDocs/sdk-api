@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetDriveTypeW
 title: GetDriveTypeW function (fileapi.h)
-description: Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or network drive.
-helpviewer_keywords: ["GetDriveType","GetDriveType function [Files]","GetDriveTypeA","GetDriveTypeW","_win32_getdrivetype","base.getdrivetype","fileapi/GetDriveType","fileapi/GetDriveTypeA","fileapi/GetDriveTypeW","fs.getdrivetype","winbase/GetDriveType","winbase/GetDriveTypeA","winbase/GetDriveTypeW"]
+description: Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or network drive. (Unicode)
+helpviewer_keywords: ["GetDriveType", "GetDriveType function [Files]", "GetDriveTypeW", "_win32_getdrivetype", "base.getdrivetype", "fileapi/GetDriveType", "fileapi/GetDriveTypeW", "fs.getdrivetype"]
 old-location: fs\getdrivetype.htm
 tech.root: fs
 ms.assetid: b3989a3f-fc90-4ea0-8d3e-8e57068a08bc
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -240,7 +243,7 @@ SMB does not support volume management functions.
 
 
 > [!NOTE]
-> The fileapi.h header defines GetDriveType as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The fileapi.h header defines GetDriveType as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

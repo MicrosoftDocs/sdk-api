@@ -54,7 +54,7 @@ Defines flags that specify states related to  a graphics command list. Values ca
 
 ## -enum-fields
 
-### -field D3D12_GRAPHICS_STATE_NONE
+### -field D3D12_GRAPHICS_STATE_NONE:0
 
 Specifies no state.
 

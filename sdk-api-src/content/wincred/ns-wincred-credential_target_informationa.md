@@ -1,7 +1,7 @@
 ---
 UID: NS:wincred._CREDENTIAL_TARGET_INFORMATIONA
 title: CREDENTIAL_TARGET_INFORMATIONA (wincred.h)
-description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree.
+description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree. (ANSI)
 helpviewer_keywords: ["*PCREDENTIAL_TARGET_INFORMATIONA","CREDENTIAL_TARGET_INFORMATION","CREDENTIAL_TARGET_INFORMATION structure [Security]","CREDENTIAL_TARGET_INFORMATIONA","PCREDENTIAL_TARGET_INFORMATION","PCREDENTIAL_TARGET_INFORMATION structure pointer [Security]","_cred_credential_target_information","security.credential_target_information","wincred/CREDENTIAL_TARGET_INFORMATION","wincred/PCREDENTIAL_TARGET_INFORMATION"]
 old-location: security\credential_target_information.htm
 tech.root: security
@@ -127,4 +127,4 @@ Array specifying the credential types acceptable by the authentication package u
 ## -remarks
 
 > [!NOTE]
-> The wincred.h header defines CREDENTIAL_TARGET_INFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CREDENTIAL_TARGET_INFORMATION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_SenderNonce
 title: IX509CertificateRequestCmc::get_SenderNonce (certenroll.h)
-description: Specifies or retrieves a byte array that contains a nonce.
+description: Specifies or retrieves a byte array that contains a nonce. (Get)
 helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","SenderNonce property","IX509CertificateRequestCmc.SenderNonce","IX509CertificateRequestCmc.get_SenderNonce","IX509CertificateRequestCmc::SenderNonce","IX509CertificateRequestCmc::get_SenderNonce","IX509CertificateRequestCmc::put_SenderNonce","SenderNonce property [Security]","SenderNonce property [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::SenderNonce","certenroll/IX509CertificateRequestCmc::get_SenderNonce","certenroll/IX509CertificateRequestCmc::put_SenderNonce","get_SenderNonce","security.ix509certificaterequestcmc_sendernonce_property"]
 old-location: security\ix509certificaterequestcmc_sendernonce_property.htm
 tech.root: security

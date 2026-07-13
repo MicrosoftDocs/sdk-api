@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1GdiInteropRenderTarget
 title: ID2D1GdiInteropRenderTarget (d2d1.h)
-description: Provides access to an device context that can accept GDI drawing commands.
+description: Provides access to a device context that can accept GDI drawing commands.
 helpviewer_keywords: ["ID2D1GdiInteropRenderTarget","ID2D1GdiInteropRenderTarget interface [Direct2D]","ID2D1GdiInteropRenderTarget interface [Direct2D]","described","d2d1/ID2D1GdiInteropRenderTarget","direct2d.ID2D1GdiInteropRenderTarget"]
 old-location: direct2d\ID2D1GdiInteropRenderTarget.htm
 tech.root: Direct2D
@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides access to an device context that can accept GDI drawing commands.
+Provides access to a device context that can accept GDI drawing commands.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GdiInteropRenderTarget</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1GdiInteropRenderTarget</b> also has these types of members:
+The <b>ID2D1GdiInteropRenderTarget</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1GdiInteropRenderTarget</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
@@ -67,7 +67,7 @@ Not all render targets support the <b>ID2D1GdiInteropRenderTarget</b> interface.
 
 Note that the <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method always succeeds; if the render target doesn't support the <b>ID2D1GdiInteropRenderTarget</b> interface, calling <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">GetDC</a> will fail. (For render targets created through the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(d2d1_size_f_d2d1_size_u_d2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method, the render target that created it must have these settings.) 
 
-To test whether a given render target supports the <b>ID2D1GdiInteropRenderTarget</b> interface, create a <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES </a>that specifies GDI compatibility and the appropriate pixel format, then call the render target's <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-issupported(constd2d1_render_target_properties_)">IsSupported</a> method to see whether the render target is GDI-compatible.
+To test whether a given render target supports the <b>ID2D1GdiInteropRenderTarget</b> interface, create a <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES </a> that specifies GDI compatibility and the appropriate pixel format, then call the render target's <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-issupported(constd2d1_render_target_properties_)">IsSupported</a> method to see whether the render target is GDI-compatible.
 
 ## -see-also
 

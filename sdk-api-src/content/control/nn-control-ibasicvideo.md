@@ -6,7 +6,7 @@ helpviewer_keywords: ["IBasicVideo","IBasicVideo interface [DirectShow]","IBasic
 old-location: dshow\ibasicvideo.htm
 tech.root: dshow
 ms.assetid: 14f45bdc-2271-459d-b165-c860c8fc3e0b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IBasicVideo interface [DirectShow],described, IBasicVideoInterface, control/IBasicVideo, dshow.ibasicvideo
 req.header: control.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IBasicVideo</code> interface sets video properties such as the destination and source rectangles. The <a href="/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter and Video Mixing Renderer filters implement this interface, but the interface is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
 
 The <code>IBasicVideo</code> interface manipulates the following rectangles associated with the video image:
@@ -68,10 +70,7 @@ Properties set on the Video Renderer persist between successive connections and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBasicVideo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IBasicVideo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBasicVideo</b> also has these types of members:
 
 ## -see-also
 

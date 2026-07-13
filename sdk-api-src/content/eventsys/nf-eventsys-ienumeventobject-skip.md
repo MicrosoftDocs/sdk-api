@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Skip
 title: IEnumEventObject::Skip (eventsys.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumEventObject.Skip)
 helpviewer_keywords: ["IEnumEventObject interface [COM+]","Skip method","IEnumEventObject.Skip","IEnumEventObject::Skip","Skip","Skip method [COM+]","Skip method [COM+]","IEnumEventObject interface","_cos_ienumeventobject_skip","cos.ienumeventobject_skip","eventsys/IEnumEventObject::Skip"]
 old-location: cos\ienumeventobject_skip.htm
 tech.root: cos

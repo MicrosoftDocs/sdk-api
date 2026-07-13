@@ -1,12 +1,10 @@
 ---
 UID: NI:winioctl.FSCTL_QUERY_USN_JOURNAL
 title: FSCTL_QUERY_USN_JOURNAL
-author: windows-sdk-content
 description: Queries for information on the current update sequence number (USN) change journal, its records, and its capacity.
 old-location: fs\fsctl_query_usn_journal.htm
 tech.root: FileIO
 ms.assetid: 9491b054-934a-4b76-bf77-f397b6386f82
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_USN_JOURNAL, FSCTL_QUERY_USN_JOURNAL control, FSCTL_QUERY_USN_JOURNAL control code [Files], _win32_fsctl_query_usn_journal, base.fsctl_query_usn_journal, fs.fsctl_query_usn_journal, winioctl/FSCTL_QUERY_USN_JOURNAL
 req.header: winioctl.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -51,7 +48,7 @@ api_name:
 
 Queries for information on the current update sequence number (USN) change journal, its records, and 
     its capacity.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -60,7 +57,10 @@ Queries for information on the current update sequence number (USN) change journ
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       Device,          // handle to volume
-                 (DWORD) FSCTL_QUERY_USN_JOURNAL,// dwIoControlCode(LPVOID)       NULL,            // lpInBuffer(DWORD)        0,               // nInBufferSize(LPVOID)       lpOutBuffer,     // output buffer
+                 (DWORD) FSCTL_QUERY_USN_JOURNAL,// dwIoControlCode
+                 (LPVOID)       NULL,            // lpInBuffer
+                 (DWORD)        0,               // nInBufferSize
+                 (LPVOID)       lpOutBuffer,     // output buffer
                  (DWORD)        nOutBufferSize,  // size of output buffer
                  (LPDWORD)      lpBytesReturned, // number of bytes returned
                  (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
@@ -74,27 +74,21 @@ DeviceIoControl( (HANDLE)       Device,          // handle to volume
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 
@@ -116,7 +110,7 @@ To retrieve a handle to a volume, call
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
-\\.&#92;<i>X</i>:
+&#92;&#92;.&#92;<i>X</i>:
 
 In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
     appears. The volume must be formatted with the NTFS filesystem.

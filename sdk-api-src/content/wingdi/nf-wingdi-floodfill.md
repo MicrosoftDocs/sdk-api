@@ -86,7 +86,7 @@ The following are reasons this function might fail:
 <ul>
 <li>The fill could not be completed.</li>
 <li>The given point has the boundary color specified by the <i>color</i> parameter.</li>
-<li>The given point lies outside the current clipping regionthat is, it is not visible on the device.</li>
+<li>The given point lies outside the current clipping region, that is, it is not visible on the device.</li>
 </ul>
 
 ## -see-also

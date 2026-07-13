@@ -52,7 +52,7 @@ api_name:
 
 Terminates an active session on the WDS transport server and disconnects all WDS clients joined to the session.
 
-## -parameters
+
 
 ## -returns
 

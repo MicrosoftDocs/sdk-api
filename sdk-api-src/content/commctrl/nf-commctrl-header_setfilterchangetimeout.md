@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_SetFilterChangeTimeout","Header_SetFilterChangeTim
 old-location: controls\Header_SetFilterChangeTimeout.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfilterchangetimeout.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_SetFilterChangeTimeout, Header_SetFilterChangeTimeout macro [Windows Controls], _win32_Header_SetFilterChangeTimeout, _win32_Header_SetFilterChangeTimeout_cpp, commctrl/Header_SetFilterChangeTimeout, controls.Header_SetFilterChangeTimeout, controls._win32_Header_SetFilterChangeTimeout
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Header_SetFilterChangeTimeout macro
+
+## -syntax
+
+```cpp
+int Header_SetFilterChangeTimeout(
+   HWND hwnd,
+   int  i
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the filter control being modified.
 
 
 ## -description

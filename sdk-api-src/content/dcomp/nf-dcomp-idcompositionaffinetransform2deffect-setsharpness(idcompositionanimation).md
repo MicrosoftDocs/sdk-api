@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation)
 title: IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation) (dcomp.h)
-description: Sets the sharpness of the effect.
+description: Sets the sharpness of the effect. (overload 1/2)
 helpviewer_keywords: ["IDCompositionAffineTransform2DEffect interface [DirectComposition]","SetSharpness method","IDCompositionAffineTransform2DEffect.SetSharpness","IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation)","IDCompositionAffineTransform2DEffect::SetSharpness","IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation)","SetSharpness","SetSharpness method [DirectComposition]","SetSharpness method [DirectComposition]","IDCompositionAffineTransform2DEffect interface","dcomp/IDCompositionAffineTransform2DEffect::SetSharpness","directcomp.idcompositionaffinetransform2deffect_setsharpness_2"]
 old-location: directcomp\idcompositionaffinetransform2deffect_setsharpness_2.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ An animation that represents how the sharpness value changes over time. This par
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

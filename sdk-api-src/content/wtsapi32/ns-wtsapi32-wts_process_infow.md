@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTS_PROCESS_INFOW
 title: WTS_PROCESS_INFOW (wtsapi32.h)
-description: Contains information about a process running on a Remote Desktop Session Host (RD Session Host) server.
+description: Contains information about a process running on a Remote Desktop Session Host (RD Session Host) server. (Unicode)
 helpviewer_keywords: ["*PWTS_PROCESS_INFOW","PWTS_PROCESS_INFO","PWTS_PROCESS_INFO structure pointer [Remote Desktop Services]","WTS_PROCESS_INFO","WTS_PROCESS_INFO structure [Remote Desktop Services]","WTS_PROCESS_INFOA","WTS_PROCESS_INFOW","_win32_wts_process_info_str","termserv.wts_process_info_str","wtsapi32/PWTS_PROCESS_INFO","wtsapi32/WTS_PROCESS_INFO","wtsapi32/WTS_PROCESS_INFOA","wtsapi32/WTS_PROCESS_INFOW"]
 old-location: termserv\wts_process_info_str.htm
 tech.root: TermServ
@@ -85,4 +85,4 @@ Pointer to the user
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTS_PROCESS_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTS_PROCESS_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

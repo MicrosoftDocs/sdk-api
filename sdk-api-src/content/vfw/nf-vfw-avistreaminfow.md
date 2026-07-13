@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamInfoW
 title: AVIStreamInfoW function (vfw.h)
-description: The AVIStreamInfo function obtains stream header information.
-helpviewer_keywords: ["AVIStreamInfo","AVIStreamInfo function [Windows Multimedia]","AVIStreamInfoA","AVIStreamInfoW","_win32_AVIStreamInfo","multimedia.avistreaminfo","vfw/AVIStreamInfo","vfw/AVIStreamInfoA","vfw/AVIStreamInfoW"]
+description: The AVIStreamInfo function obtains stream header information. (Unicode)
+helpviewer_keywords: ["AVIStreamInfo", "AVIStreamInfo function [Windows Multimedia]", "AVIStreamInfoW", "_win32_AVIStreamInfo", "multimedia.avistreaminfo", "vfw/AVIStreamInfo", "vfw/AVIStreamInfoW"]
 old-location: multimedia\avistreaminfo.htm
 tech.root: Multimedia
 ms.assetid: 7a1ba29b-e8ba-435d-a551-c9184631971c
@@ -67,7 +67,7 @@ Pointer to a structure to contain the stream information.
 
 ### -param lSize
 
-Size, in bytes, of the structure used forpsi.
+Size, in bytes, of the structure used for psi.
 
 ## -returns
 
@@ -86,4 +86,4 @@ The argument <i>pavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn
 ## -remarks
 
 > [!NOTE]
-> The vfw.h header defines AVISTREAMINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines AVISTREAMINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

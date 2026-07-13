@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITQueue.get_TotalCallsFlowedOut
 title: ITQueue::get_TotalCallsFlowedOut (tapi3.h)
-description: The get_TotalCallsFlowedOut method gets the total number of calls that flowed out of this queue (passed down to another queue or ACD group) during the current measurement period.
+description: The ITQueue::get_TotalCallsFlowedOut (tapi3.h) method gets the total number of calls that flowed out of this queue during the current measurement period.
 helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_TotalCallsFlowedOut method","ITQueue.get_TotalCallsFlowedOut","ITQueue::get_TotalCallsFlowedOut","_tapi3_itqueue_get_totalcallsflowedout","get_TotalCallsFlowedOut","get_TotalCallsFlowedOut method [TAPI 2.2]","get_TotalCallsFlowedOut method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_totalcallsflowedout","tapi3cc/ITQueue::get_TotalCallsFlowedOut"]
 old-location: tapi3\itqueue_get_totalcallsflowedout.htm
 tech.root: tapi3
 ms.assetid: e12cc43b-54d9-4e65-82e8-a2e819ea219e
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsFlowedOut method, ITQueue.get_TotalCallsFlowedOut, ITQueue::get_TotalCallsFlowedOut, _tapi3_itqueue_get_totalcallsflowedout, get_TotalCallsFlowedOut, get_TotalCallsFlowedOut method [TAPI 2.2], get_TotalCallsFlowedOut method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsflowedout, tapi3cc/ITQueue::get_TotalCallsFlowedOut
 req.header: tapi3.h
 req.include-header: Tapi3.h

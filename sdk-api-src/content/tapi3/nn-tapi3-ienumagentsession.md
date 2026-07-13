@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.IEnumAgentSession
 title: IEnumAgentSession (tapi3.h)
-description: The IEnumAgentSession interface provides COM-standard enumeration methods for the ITAgentSession interface. The ITAgent::EnumerateAgentSessions method returns a pointer to IEnumAgentSession.
+description: The IEnumAgentSession (tapi3.h) interface provides COM-standard enumeration methods for the ITAgentSession interface.
 helpviewer_keywords: ["IEnumAgentSession","IEnumAgentSession interface [TAPI 2.2]","IEnumAgentSession interface [TAPI 2.2]","described","_tapi3_ienumagentsession","tapi3.ienumagentsession","tapi3cc/IEnumAgentSession"]
 old-location: tapi3\ienumagentsession.htm
 tech.root: tapi3
 ms.assetid: 38b9fc57-a0af-4dfa-9058-e721138c8be9
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], IEnumAgentSession interface [TAPI 2.2],described, _tapi3_ienumagentsession, tapi3.ienumagentsession, tapi3cc/IEnumAgentSession
 req.header: tapi3.h
 req.include-header: Tapi3.h
@@ -58,8 +58,5 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumAgentSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumAgentSession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumAgentSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumAgentSession</b> also has these types of members:
 

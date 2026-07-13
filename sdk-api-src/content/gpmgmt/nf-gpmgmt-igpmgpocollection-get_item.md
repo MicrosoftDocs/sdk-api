@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMGPOCollection.get_Item
 title: IGPMGPOCollection::get_Item (gpmgmt.h)
-description: Given an index, returns a pointer to an GPMGPO object from the collection.
+description: Given an index, returns a pointer to a GPMGPO object from the collection.
 helpviewer_keywords: ["GPMGPOCollection class [GPMC]","Item property","IGPMGPOCollection interface [GPMC]","Item property","IGPMGPOCollection.Item","IGPMGPOCollection.get_Item","IGPMGPOCollection::Item","IGPMGPOCollection::get_Item","Item property [GPMC]","Item property [GPMC]","GPMGPOCollection class","Item property [GPMC]","IGPMGPOCollection interface","_win32_igpmgpocollection_get_item","get_Item","gpmc.igpmgpocollection_get_item","gpmgmt/IGPMGPOCollection::Item","gpmgmt/IGPMGPOCollection::get_Item"]
 old-location: gpmc\igpmgpocollection_get_item.htm
 tech.root: gpmc

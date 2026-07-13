@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.UpdateICMRegKeyW
 title: UpdateICMRegKeyW function (wingdi.h)
-description: The UpdateICMRegKey function manages color profiles and Color Management Modules in the system.
-helpviewer_keywords: ["ICM_ADDPROFILE","ICM_DELETEPROFILE","ICM_QUERYMATCH","ICM_QUERYPROFILE","ICM_REGISTERICMATCHER","ICM_SETDEFAULTPROFILE","ICM_UNREGISTERICMATCHER","UpdateICMRegKey","UpdateICMRegKey function [Windows Color System]","UpdateICMRegKeyA","UpdateICMRegKeyW","_color_UpdateICMRegKey","wcs.updateicmregkey","wingdi/UpdateICMRegKey","wingdi/UpdateICMRegKeyA","wingdi/UpdateICMRegKeyW"]
+description: The UpdateICMRegKey function manages color profiles and Color Management Modules in the system. (Unicode)
+helpviewer_keywords: ["ICM_ADDPROFILE", "ICM_DELETEPROFILE", "ICM_QUERYMATCH", "ICM_QUERYPROFILE", "ICM_REGISTERICMATCHER", "ICM_SETDEFAULTPROFILE", "ICM_UNREGISTERICMATCHER", "UpdateICMRegKey", "UpdateICMRegKey function [Windows Color System]", "UpdateICMRegKeyW", "_color_UpdateICMRegKey", "wcs.updateicmregkey", "wingdi/UpdateICMRegKey", "wingdi/UpdateICMRegKeyW"]
 old-location: wcs\updateicmregkey.htm
 tech.root: WCS
 ms.assetid: 705b9671-7bf2-4a47-a3a5-42dd0f334338
@@ -173,7 +173,7 @@ This function is retained for backward compatibility and may be removed in futur
 
 
 > [!NOTE]
-> The wingdi.h header defines UpdateICMRegKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines UpdateICMRegKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

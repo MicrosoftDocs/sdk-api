@@ -53,7 +53,7 @@ api_name:
 This function marks a header as "understood" by the application.
             
 The set of headers is extensible and Message assimilation by the receiver is not accessible by the sender.  This function is the receiving applications method for making it known to the sender that the received header has been read and understood.
-<div class="alert"><b>Note</b>  This function should be used only if the application receives a message indicating that the  header must be understood and it did not acquire the header using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.
+<div class="alert"><b>Note</b>  This function should be used only if the application receives a message indicating that the  header must be understood and it did not acquire the header using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.
 
 The <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> must be in the set to  <b>WS_MESSAGE_STATE_READING</b>. See .<a href="/windows/desktop/api/webservices/nf-webservices-wscheckmustunderstandheaders">WsCheckMustUnderstandHeaders</a> for more information.</div><div> </div>
 

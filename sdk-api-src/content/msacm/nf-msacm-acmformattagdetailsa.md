@@ -1,8 +1,8 @@
 ---
 UID: NF:msacm.acmFormatTagDetailsA
 title: acmFormatTagDetailsA function (msacm.h)
-description: The acmFormatTagDetails function queries the ACM for details on a specific waveform-audio format tag.
-helpviewer_keywords: ["_win32_acmFormatTagDetails","acmFormatTagDetails","acmFormatTagDetails function [Windows Multimedia]","acmFormatTagDetailsA","acmFormatTagDetailsW","msacm/acmFormatTagDetails","msacm/acmFormatTagDetailsA","msacm/acmFormatTagDetailsW","multimedia.acmformattagdetails"]
+description: The acmFormatTagDetails function queries the ACM for details on a specific waveform-audio format tag. (acmFormatTagDetailsA)
+helpviewer_keywords: ["acmFormatTagDetailsA", "msacm/acmFormatTagDetailsA"]
 old-location: multimedia\acmformattagdetails.htm
 tech.root: Multimedia
 ms.assetid: 294d9e8b-de47-4ebe-8989-558469ba1356
@@ -156,4 +156,4 @@ At least one parameter is invalid.
 ## -remarks
 
 > [!NOTE]
-> The msacm.h header defines ACMFORMATTAGDETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMFORMATTAGDETAILS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

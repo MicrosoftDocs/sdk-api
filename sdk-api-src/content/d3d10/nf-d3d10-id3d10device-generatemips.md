@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.GenerateMips
 title: ID3D10Device::GenerateMips (d3d10.h)
-description: Generates mipmaps for the given shader resource.
+description: Generates mipmaps for the given shader resource. (ID3D10Device.GenerateMips)
 helpviewer_keywords: ["46ad9ad3-37a7-33c9-7829-0dbf6d4b348a","GenerateMips","GenerateMips method [Direct3D 10]","GenerateMips method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GenerateMips method","ID3D10Device.GenerateMips","ID3D10Device::GenerateMips","d3d10/ID3D10Device::GenerateMips","direct3d10.id3d10device_generatemips"]
 old-location: direct3d10\id3d10device_generatemips.htm
 tech.root: direct3d10

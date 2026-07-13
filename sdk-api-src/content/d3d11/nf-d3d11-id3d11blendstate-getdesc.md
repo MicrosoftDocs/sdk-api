@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11BlendState.GetDesc
 title: ID3D11BlendState::GetDesc (d3d11.h)
-description: Gets the description for blending state that you used to create the blend-state object.
+description: Gets the description for blending state that you used to create the blend-state object. (ID3D11BlendState.GetDesc)
 helpviewer_keywords: ["1228cbef-e4a2-9952-d96f-5f2e44ceaee0","GetDesc","GetDesc method [Direct3D 11]","GetDesc method [Direct3D 11]","ID3D11BlendState interface","ID3D11BlendState interface [Direct3D 11]","GetDesc method","ID3D11BlendState.GetDesc","ID3D11BlendState::GetDesc","d3d11/ID3D11BlendState::GetDesc","direct3d11.id3d11blendstate_getdesc"]
 old-location: direct3d11\id3d11blendstate_getdesc.htm
 tech.root: direct3d11

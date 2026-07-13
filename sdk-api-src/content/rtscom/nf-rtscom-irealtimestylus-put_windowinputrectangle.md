@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.put_WindowInputRectangle
 title: IRealTimeStylus::put_WindowInputRectangle (rtscom.h)
-description: Gets or sets the window input rectangle for the RealTimeStylus Class object.
+description: Gets or sets the window input rectangle for the RealTimeStylus Class object. (Put)
 helpviewer_keywords: ["IRealTimeStylus interface [Tablet PC]","WindowInputRectangle property","IRealTimeStylus.WindowInputRectangle","IRealTimeStylus.get_WindowInputRectangle","IRealTimeStylus.put_WindowInputRectangle","IRealTimeStylus::WindowInputRectangle","IRealTimeStylus::get_WindowInputRectangle","IRealTimeStylus::put_WindowInputRectangle","WindowInputRectangle property [Tablet PC]","WindowInputRectangle property [Tablet PC]","IRealTimeStylus interface","e202be43-48c7-4fa4-b049-efdda3ef2ada","put_WindowInputRectangle","rtscom/IRealTimeStylus::WindowInputRectangle","rtscom/IRealTimeStylus::get_WindowInputRectangle","rtscom/IRealTimeStylus::put_WindowInputRectangle","tablet.irealtimestylus_windowinputrectangle"]
 old-location: tablet\irealtimestylus_windowinputrectangle.htm
 tech.root: tablet

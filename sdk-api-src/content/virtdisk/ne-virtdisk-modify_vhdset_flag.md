@@ -55,15 +55,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Contains flags affecting the behavior of the <a href="/windows/win32/api/virtdisk/nf-virtdisk-modifyvhdset">ModifyVhdSet</a> function.
 
 ## -enum-fields
 
-### -field MODIFY_VHDSET_FLAG_NONE
+### -field MODIFY_VHDSET_FLAG_NONE:0x00000000
 
 No flag specified.
 
-### -field MODIFY_VHDSET_FLAG_WRITEABLE_SNAPSHOT
+### -field MODIFY_VHDSET_FLAG_WRITEABLE_SNAPSHOT:0x00000001
 

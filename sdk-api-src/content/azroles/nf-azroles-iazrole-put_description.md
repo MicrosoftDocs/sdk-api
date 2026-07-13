@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.put_Description
 title: IAzRole::put_Description (azroles.h)
-description: Sets or retrieves a comment that describes the role.
+description: Sets or retrieves a comment that describes the role. (Put)
 helpviewer_keywords: ["AzRole object [Security]","Description property","Description property [Security]","Description property [Security]","AzRole object","Description property [Security]","IAzRole interface","IAzRole interface [Security]","Description property","IAzRole.Description","IAzRole.put_Description","IAzRole::Description","IAzRole::get_Description","IAzRole::put_Description","azroles/IAzRole::Description","azroles/IAzRole::get_Description","azroles/IAzRole::put_Description","put_Description","security.iazrole_description"]
 old-location: security\iazrole_description.htm
 tech.root: security

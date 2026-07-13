@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineDialW
 title: lineDialW function (tapi.h)
-description: The lineDial function dials the specified dialable number on the specified call.
-helpviewer_keywords: ["_tapi2_linedial","lineDial","lineDial function [TAPI 2.2]","lineDialA","lineDialW","tapi/lineDial","tapi/lineDialA","tapi/lineDialW","tapi2.linedial"]
+description: The lineDialW (Unicode) function (tapi.h) dials the specified dialable number on the specified call.
+helpviewer_keywords: ["_tapi2_linedial", "lineDial", "lineDial function [TAPI 2.2]", "lineDialW", "tapi/lineDial", "tapi/lineDialW", "tapi2.linedial"]
 old-location: tapi2\linedial.htm
 tech.root: tapi3
 ms.assetid: 111e6c11-67a7-4aab-81dd-f1b4316887e7
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _tapi2_linedial, lineDial, lineDial function [TAPI 2.2], lineDialA, lineDialW, tapi/lineDial, tapi/lineDialA, tapi/lineDialW, tapi2.linedial
 req.header: tapi.h
 req.include-header: 
@@ -108,7 +108,7 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 > [!NOTE]
-> The tapi.h header defines lineDial as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineDial as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

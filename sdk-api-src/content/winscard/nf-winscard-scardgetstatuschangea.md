@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardGetStatusChangeA
 title: SCardGetStatusChangeA function (winscard.h)
-description: Blocks execution until the current availability of the cards in a specific set of readers changes.
-helpviewer_keywords: ["SCardGetStatusChange","SCardGetStatusChange function [Security]","SCardGetStatusChangeA","SCardGetStatusChangeW","_smart_scardgetstatuschange","security.scardgetstatuschange","winscard/SCardGetStatusChange","winscard/SCardGetStatusChangeA","winscard/SCardGetStatusChangeW"]
+description: Blocks execution until the current availability of the cards in a specific set of readers changes. (ANSI)
+helpviewer_keywords: ["SCardGetStatusChangeA", "winscard/SCardGetStatusChangeA"]
 old-location: security\scardgetstatuschange.htm
 tech.root: security
 ms.assetid: 94776f3d-e8f0-4062-a766-2cf28cbfd050
@@ -134,7 +134,7 @@ For information about how to call this function, see the  example in
 
 
 > [!NOTE]
-> The winscard.h header defines SCardGetStatusChange as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardGetStatusChange as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

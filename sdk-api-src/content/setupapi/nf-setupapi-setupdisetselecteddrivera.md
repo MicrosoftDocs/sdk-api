@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiSetSelectedDriverA
 title: SetupDiSetSelectedDriverA function (setupapi.h)
-description: The SetupDiSetSelectedDriver function sets, or resets, the selected driver for a device information element or the selected class driver for a device information set.
-helpviewer_keywords: ["SetupDiSetSelectedDriver","SetupDiSetSelectedDriver function [Device and Driver Installation]","SetupDiSetSelectedDriverA","SetupDiSetSelectedDriverW","devinst.setupdisetselecteddriver","di-rtns_823d52e2-7c55-4c52-bccc-809135f28251.xml","setupapi/SetupDiSetSelectedDriver"]
+description: The SetupDiSetSelectedDriver function sets, or resets, the selected driver for a device information element or the selected class driver for a device information set. (ANSI)
+helpviewer_keywords: ["SetupDiSetSelectedDriverA", "di-rtns_823d52e2-7c55-4c52-bccc-809135f28251.xml"]
 old-location: devinst\setupdisetselecteddriver.htm
 tech.root: devinst
 ms.assetid: 791df876-9037-405b-b899-eea2b577d923
@@ -84,7 +84,7 @@ If <i>DriverInfoData</i> is <b>NULL</b>, <b>SetupDiSetSelectedDriver</b> resets 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiSetSelectedDriver as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiSetSelectedDriver as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

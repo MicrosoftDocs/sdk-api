@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSAGetServiceClassNameByClassIdA
 title: WSAGetServiceClassNameByClassIdA function (winsock2.h)
-description: The WSAGetServiceClassNameByClassId function retrieves the name of the service associated with the specified type. This name is the generic service name, like FTP or SNA, and not the name of a specific instance of that service.
-helpviewer_keywords: ["WSAGetServiceClassNameByClassId","WSAGetServiceClassNameByClassId function [Winsock]","WSAGetServiceClassNameByClassIdA","WSAGetServiceClassNameByClassIdW","_win32_wsagetserviceclassnamebyclassid_2","winsock.wsagetserviceclassnamebyclassid_2","winsock2/WSAGetServiceClassNameByClassId","winsock2/WSAGetServiceClassNameByClassIdA","winsock2/WSAGetServiceClassNameByClassIdW"]
+description: The WSAGetServiceClassNameByClassId function retrieves the name of the service associated with the specified type. This name is the generic service name, like FTP or SNA, and not the name of a specific instance of that service. (ANSI)
+helpviewer_keywords: ["WSAGetServiceClassNameByClassIdA", "winsock2/WSAGetServiceClassNameByClassIdA"]
 old-location: winsock\wsagetserviceclassnamebyclassid_2.htm
 tech.root: WinSock
 ms.assetid: 0a61751e-10e5-4f91-a0b2-8c1baf477653
@@ -186,4 +186,4 @@ The WS2_32.DLL has not been initialized. The application must first call
 ## -remarks
 
 > [!NOTE]
-> The winsock2.h header defines WSAGetServiceClassNameByClassId as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSAGetServiceClassNameByClassId as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

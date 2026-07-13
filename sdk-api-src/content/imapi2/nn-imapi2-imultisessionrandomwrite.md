@@ -67,10 +67,7 @@ You can then call the IUnknown::QueryInterface method on each element in the col
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionRandomWrite</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionRandomWrite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMultisessionRandomWrite</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionRandomWrite</b> also has these types of members:
 
 ## -remarks
 

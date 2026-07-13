@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FtpGetCurrentDirectoryW
 title: FtpGetCurrentDirectoryW function (wininet.h)
-description: Retrieves the current directory for the specified FTP session.
-helpviewer_keywords: ["FtpGetCurrentDirectory","FtpGetCurrentDirectory function [WinINet]","FtpGetCurrentDirectoryA","FtpGetCurrentDirectoryW","_inet_ftpgetcurrentdirectory_function","wininet.ftpgetcurrentdirectory","wininet/FtpGetCurrentDirectory","wininet/FtpGetCurrentDirectoryA","wininet/FtpGetCurrentDirectoryW"]
+description: Retrieves the current directory for the specified FTP session. (Unicode)
+helpviewer_keywords: ["FtpGetCurrentDirectory", "FtpGetCurrentDirectory function [WinINet]", "FtpGetCurrentDirectoryW", "_inet_ftpgetcurrentdirectory_function", "wininet.ftpgetcurrentdirectory", "wininet/FtpGetCurrentDirectory", "wininet/FtpGetCurrentDirectoryW"]
 old-location: wininet\ftpgetcurrentdirectory.htm
 tech.root: wininet
 ms.assetid: 1b757061-469b-4c11-9d0d-38b300216221
@@ -88,7 +88,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines FtpGetCurrentDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines FtpGetCurrentDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

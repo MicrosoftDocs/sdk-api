@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzRole object [Security]","DeleteAppMember method","Delet
 old-location: security\iazrole_deleteappmember.htm
 tech.root: security
 ms.assetid: b2856d75-cf16-4eec-a0e1-2e9e9fff601e
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzRole object [Security],DeleteAppMember method, DeleteAppMember, DeleteAppMember method [Security], DeleteAppMember method [Security],AzRole object, DeleteAppMember method [Security],IAzRole interface, IAzRole interface [Security],DeleteAppMember method, IAzRole.DeleteAppMember, IAzRole::DeleteAppMember, azroles/IAzRole::DeleteAppMember, security.iazrole_deleteappmember
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzRole::DeleteAppMember
 
-
 ## -description
 
-The <b>DeleteAppMember</b> method removes the specified <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object from the list of application groups that belong to the role.
+The **DeleteAppMember** method removes the specified [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object from the list of application groups that belong to the role.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list of  application groups that belong to the role.
+String that contains the [Name](nf-azroles-iazapplicationgroup-get_name.md) property of the [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object to remove from the list of  application groups that belong to the role.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of application groups that belong to the role, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a> property.
+To view the list of application groups that belong to the role, use the [AppMembers](nf-azroles-iazrole-get_appmembers.md) property.
+
+## -see-also
+
+[IAzApplicationGroup](nn-azroles-iazapplicationgroup.md)

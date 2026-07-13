@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupRemoveSectionFromDiskSpaceListW
 title: SetupRemoveSectionFromDiskSpaceListW function (setupapi.h)
-description: The SetupRemoveSectionFromDiskSpaceList function removes the file delete or copy operations listed in a Copy Files section of an INF file from a disk-space list.
-helpviewer_keywords: ["FILEOP_COPY","FILEOP_DELETE","SetupRemoveSectionFromDiskSpaceList","SetupRemoveSectionFromDiskSpaceList function [Setup API]","SetupRemoveSectionFromDiskSpaceListA","SetupRemoveSectionFromDiskSpaceListW","_setupapi_setupremovesectionfromdiskspacelist","setup.setupremovesectionfromdiskspacelist","setupapi/SetupRemoveSectionFromDiskSpaceList","setupapi/SetupRemoveSectionFromDiskSpaceListA","setupapi/SetupRemoveSectionFromDiskSpaceListW"]
+description: The SetupRemoveSectionFromDiskSpaceList function removes the file delete or copy operations listed in a Copy Files section of an INF file from a disk-space list. (Unicode)
+helpviewer_keywords: ["FILEOP_COPY", "FILEOP_DELETE", "SetupRemoveSectionFromDiskSpaceList", "SetupRemoveSectionFromDiskSpaceList function [Setup API]", "SetupRemoveSectionFromDiskSpaceListW", "_setupapi_setupremovesectionfromdiskspacelist", "setup.setupremovesectionfromdiskspacelist", "setupapi/SetupRemoveSectionFromDiskSpaceList", "setupapi/SetupRemoveSectionFromDiskSpaceListW"]
 old-location: setup\setupremovesectionfromdiskspacelist.htm
 tech.root: setup
 ms.assetid: 0ac9becd-bdd5-4017-b880-4f226150d275
@@ -137,7 +137,7 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupRemoveSectionFromDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupRemoveSectionFromDiskSpaceList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

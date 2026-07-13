@@ -69,4 +69,4 @@ The
 <li>
 <a href="/windows/desktop/Tapi/cmspcallbase-pure-virtual-methods">CMSPCallBase Pure Virtual Methods</a>
 </li>
-</ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPCallBase</b> has these types of members:
+</ul><b>CMSPCallBase</b> has these types of members:

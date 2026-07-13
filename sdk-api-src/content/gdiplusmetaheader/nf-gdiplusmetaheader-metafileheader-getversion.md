@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::GetVersion</b> method gets the version of the metafile.
 
-## -parameters
+
 
 ## -returns
 

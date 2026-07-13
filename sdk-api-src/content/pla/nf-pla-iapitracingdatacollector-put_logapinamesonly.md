@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.put_LogApiNamesOnly
 title: IApiTracingDataCollector::put_LogApiNamesOnly (pla.h)
-description: Retrieves or sets a value that indicates whether PLA logs only the function name.
+description: Retrieves or sets a value that indicates whether PLA logs only the function name. (Put)
 helpviewer_keywords: ["IApiTracingDataCollector interface [PLA]","LogApiNamesOnly property","IApiTracingDataCollector.LogApiNamesOnly","IApiTracingDataCollector.put_LogApiNamesOnly","IApiTracingDataCollector::LogApiNamesOnly","IApiTracingDataCollector::get_LogApiNamesOnly","IApiTracingDataCollector::put_LogApiNamesOnly","LogApiNamesOnly property [PLA]","LogApiNamesOnly property [PLA]","IApiTracingDataCollector interface","base.iapitracingdatacollector_logapinamesonly","pla.iapitracingdatacollector_logapinamesonly","pla/IApiTracingDataCollector::LogApiNamesOnly","pla/IApiTracingDataCollector::get_LogApiNamesOnly","pla/IApiTracingDataCollector::put_LogApiNamesOnly","put_LogApiNamesOnly"]
 old-location: pla\iapitracingdatacollector_logapinamesonly.htm
 tech.root: PLA

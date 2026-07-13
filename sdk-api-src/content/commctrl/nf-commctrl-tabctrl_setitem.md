@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_SetItem","TabCtrl_SetItem macro [Windows Controls
 old-location: controls\TabCtrl_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_SetItem, TabCtrl_SetItem macro [Windows Controls], _win32_TabCtrl_SetItem, _win32_TabCtrl_SetItem_cpp, commctrl/TabCtrl_SetItem, controls.TabCtrl_SetItem, controls._win32_TabCtrl_SetItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TabCtrl_SetItem macro
+
+## -syntax
+
+```cpp
+BOOL TabCtrl_SetItem(
+   HWND     hwnd,
+   int      iItem,
+   LPTCITEM pitem
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

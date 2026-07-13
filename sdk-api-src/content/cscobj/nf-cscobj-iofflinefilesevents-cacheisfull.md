@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheIsFull
 title: IOfflineFilesEvents::CacheIsFull (cscobj.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IOfflineFilesEvents.CacheIsFull)
 helpviewer_keywords: ["CacheIsFull","CacheIsFull method [Offline Files]","CacheIsFull method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","CacheIsFull method","IOfflineFilesEvents.CacheIsFull","IOfflineFilesEvents::CacheIsFull","cscobj/IOfflineFilesEvents::CacheIsFull","of.iofflinefilesevents_cacheisfull"]
 old-location: of\iofflinefilesevents_cacheisfull.htm
 tech.root: of
@@ -53,11 +53,11 @@ api_name:
 
 This method is reserved for future use.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

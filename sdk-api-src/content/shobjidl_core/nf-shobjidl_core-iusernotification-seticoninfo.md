@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.SetIconInfo
 title: IUserNotification::SetIconInfo (shobjidl_core.h)
-description: Sets the notification area icon associated with specific user information.
+description: Sets the notification area icon associated with specific user information. (IUserNotification.SetIconInfo)
 helpviewer_keywords: ["IUserNotification interface [Windows Shell]","SetIconInfo method","IUserNotification.SetIconInfo","IUserNotification::SetIconInfo","SetIconInfo","SetIconInfo method [Windows Shell]","SetIconInfo method [Windows Shell]","IUserNotification interface","inet_IUserNotification_SetIconInfo","shell.IUserNotification_SetIconInfo","shobjidl_core/IUserNotification::SetIconInfo"]
 old-location: shell\IUserNotification_SetIconInfo.htm
 tech.root: shell
@@ -70,5 +70,5 @@ A pointer to a string that contains the tooltip text to display for the specifie
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

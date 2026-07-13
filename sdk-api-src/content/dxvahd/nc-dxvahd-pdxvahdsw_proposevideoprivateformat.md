@@ -64,7 +64,7 @@ A pointer to a <b>D3DFORMAT</b> value. On input, specifies the surface format th
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -74,7 +74,7 @@ This function is called when the application calls <a href="/windows/desktop/api
 <li>The type of input surface is <b>DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE</b>.</li>
 <li>The Direct3D device does not support the surface format requested by the application natively.</li>
 </ul>
-This function enbles the plug-in device  to propose an alternate format with an equivalent memory layout. For example, if the application requests AYUV, the plug-in device might allocate a surface of type <b>D3DFMT_A8R8G8B8</b>.
+This function enables the plug-in device to propose an alternate format with an equivalent memory layout. For example, if the application requests AYUV, the plug-in device might allocate a surface of type <b>D3DFMT_A8R8G8B8</b>.
 
 If the function succeeds, the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideosurface">CreateVideoSurface</a> method attempts to create a surface with the format returned in <i>pFormat</i>. 
 

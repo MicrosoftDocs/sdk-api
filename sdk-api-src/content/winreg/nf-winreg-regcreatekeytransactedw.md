@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegCreateKeyTransactedW
 title: RegCreateKeyTransactedW function (winreg.h)
-description: Creates the specified registry key and associates it with a transaction.
-helpviewer_keywords: ["REG_CREATED_NEW_KEY","REG_OPENED_EXISTING_KEY","REG_OPTION_BACKUP_RESTORE","REG_OPTION_NON_VOLATILE","REG_OPTION_VOLATILE","RegCreateKeyTransacted","RegCreateKeyTransacted function","RegCreateKeyTransactedA","RegCreateKeyTransactedW","base.regcreatekeytransacted","winreg/RegCreateKeyTransacted","winreg/RegCreateKeyTransactedA","winreg/RegCreateKeyTransactedW"]
+description: Creates the specified registry key and associates it with a transaction. (Unicode)
+helpviewer_keywords: ["REG_CREATED_NEW_KEY", "REG_OPENED_EXISTING_KEY", "REG_OPTION_BACKUP_RESTORE", "REG_OPTION_NON_VOLATILE", "REG_OPTION_VOLATILE", "RegCreateKeyTransacted", "RegCreateKeyTransacted function", "RegCreateKeyTransactedW", "base.regcreatekeytransacted", "winreg/RegCreateKeyTransacted", "winreg/RegCreateKeyTransactedW"]
 old-location: base\regcreatekeytransacted.htm
 tech.root: winprog
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l2-3-0.dll
  - Advapi32.dll
  - API-MS-Win-Core-Registry-l2-1-0.dll
  - advapi32legacy.dll
@@ -155,7 +156,7 @@ A mask that specifies the access rights for the key to be created. For more info
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
 
 
 
@@ -242,7 +243,7 @@ An application cannot create a key that is a direct child of <b>HKEY_USERS</b> o
 
 
 > [!NOTE]
-> The winreg.h header defines RegCreateKeyTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegCreateKeyTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -270,4 +271,4 @@ An application cannot create a key that is a direct child of <b>HKEY_USERS</b> o
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>

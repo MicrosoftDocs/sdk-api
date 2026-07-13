@@ -4,14 +4,14 @@ title: IDWriteFactory6::CreateFontCollectionFromFontSet
 description: From a font set, create a collection of fonts grouped into families.
 helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontCollectionFromFontSet method","IDWriteFactory6.CreateFontCollectionFromFontSet","IDWriteFactory6::CreateFontCollectionFromFontSet","CreateFontCollectionFromFontSet","CreateFontCollectionFromFontSet method [Direct Write]","CreateFontCollectionFromFontSet method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_createfontcollectionfromfontset","dwrite_3/IDWriteFactory6::CreateFontCollectionFromFontSet"]
 tech.root: DirectWrite
-ms.date: 09/10/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontCollectionFromFontSet method, IDWriteFactory6.CreateFontCollectionFromFontSet, IDWriteFactory6::CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet method [Direct Write], CreateFontCollectionFromFontSet method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontcollectionfromfontset, dwrite_3/IDWriteFactory6::CreateFontCollectionFromFontSet
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

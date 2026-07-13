@@ -1,7 +1,7 @@
 ---
 UID: NN:shldisp.IShellFolderViewDual
 title: IShellFolderViewDual (shldisp.h)
-description: Exposes methods that modify the view and select items in the current folder.
+description: Exposes methods that modify the view and select items in the current folder. (IShellFolderViewDual)
 helpviewer_keywords: ["IShellFolderViewDual","IShellFolderViewDual interface [Windows Shell]","IShellFolderViewDual interface [Windows Shell]","described","_shell_IShellFolderViewDual","shell.IShellFolderViewDual","shldisp/IShellFolderViewDual"]
 old-location: shell\IShellFolderViewDual.htm
 tech.root: shell
@@ -54,10 +54,7 @@ Exposes methods that modify the view and select items in the current folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IShellFolderViewDual</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IShellFolderViewDual</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IShellFolderViewDual</b> also has these types of members:
 
 ## -see-also
 

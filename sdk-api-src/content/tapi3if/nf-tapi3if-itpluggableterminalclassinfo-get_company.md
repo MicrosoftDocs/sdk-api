@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_Company
 title: ITPluggableTerminalClassInfo::get_Company (tapi3if.h)
-description: The get_Company method gets the name of the company that issued this pluggable terminal.
+description: The get_Company method gets the name of the company that issued this pluggable terminal. (ITPluggableTerminalClassInfo.get_Company)
 helpviewer_keywords: ["ITPluggableTerminalClassInfo interface [TAPI 2.2]","get_Company method","ITPluggableTerminalClassInfo.get_Company","ITPluggableTerminalClassInfo::get_Company","_tapi3_itpluggableterminalclassinfo_get_company","get_Company","get_Company method [TAPI 2.2]","get_Company method [TAPI 2.2]","ITPluggableTerminalClassInfo interface","tapi3.itpluggableterminalclassinfo_get_company","tapi3if/ITPluggableTerminalClassInfo::get_Company"]
 old-location: tapi3\itpluggableterminalclassinfo_get_company.htm
 tech.root: tapi3
@@ -62,7 +62,7 @@ The <b>BSTR</b> representation of the terminal's company name. The <b>BSTR</b> i
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

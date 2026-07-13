@@ -54,7 +54,7 @@ This operation starts writing an attribute to the current element.
       <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> must be called before an attribute can be written.
       After the attribute has been started, the attribute value can be written
         using <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a>, or <a href="/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a>. The attribute must
-        be completed using using <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.
+        be completed using <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.
 
 ## -parameters
 

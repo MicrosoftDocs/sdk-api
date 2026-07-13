@@ -56,11 +56,11 @@ Specifies how the default proxy locator will specify the connection settings to 
 
 ## -enum-fields
 
-### -field MFNET_PROXYSETTING_NONE
+### -field MFNET_PROXYSETTING_NONE:0
 
 The proxy locator bypasses all addresses.
 
-### -field MFNET_PROXYSETTING_MANUAL
+### -field MFNET_PROXYSETTING_MANUAL:1
 
 The proxy locator uses manual settings. The application must set the following properties:
 
@@ -79,11 +79,11 @@ The proxy locator uses manual settings. The application must set the following p
 </li>
 </ul>
 
-### -field MFNET_PROXYSETTING_AUTO
+### -field MFNET_PROXYSETTING_AUTO:2
 
 The proxy locator automatically discovers proxy servers by using the WinInet auto-proxy detection mechanism.
 
-### -field MFNET_PROXYSETTING_BROWSER
+### -field MFNET_PROXYSETTING_BROWSER:3
 
 The proxy locator uses the proxy settings of the browser. By default, the proxy locator sets this value for HTTP.
 

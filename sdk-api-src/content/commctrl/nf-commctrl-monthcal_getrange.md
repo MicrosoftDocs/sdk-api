@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetRange","MonthCal_GetRange macro [Windows Cont
 old-location: controls\MonthCal_GetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetRange, MonthCal_GetRange macro [Windows Controls], _win32_MonthCal_GetRange, _win32_MonthCal_GetRange_cpp, commctrl/MonthCal_GetRange, controls.MonthCal_GetRange, controls._win32_MonthCal_GetRange
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,26 @@ api_name:
 
 # MonthCal_GetRange macro
 
+## -syntax
+
+```cpp
+DWORD MonthCal_GetRange(
+   HWND         hmc,
+   LPSYSTEMTIME rgst
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>DWORD</b> value that can be zero (no limits are set) or a combination of the following values that specify limit information:
+
+| Return code | Description |
+|---|---|
+| GDTR_MAX | There is a maximum limit set for the control; rgst[0] is valid and contains the applicable date information.  |
+| GDTR_MIN | There is a minimum limit set for the control; rgst[1] is valid and contains the applicable date information.  |
+
 
 ## -description
 
@@ -64,4 +84,4 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that will receive the date limit information. The minimum limit is set in <i>lprgSysTimeArray</i>[0], and <i>lprgSysTimeArray</i>[1] receives the maximum limit. If either element is set to all zeros, then no corresponding limit is set for the month calendar control. The time members of these structures will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.
+Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that will receive the date limit information. The minimum limit is set in <i>rgst</i>[0], and <i>rgst</i>[1] receives the maximum limit. If either element is set to all zeros, then no corresponding limit is set for the month calendar control. The time members of these structures will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.

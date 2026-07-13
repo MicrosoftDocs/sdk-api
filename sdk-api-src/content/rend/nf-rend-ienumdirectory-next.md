@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.IEnumDirectory.Next
 title: IEnumDirectory::Next (rend.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: The Next method gets the next specified number of elements in the enumeration sequence. (IEnumDirectory.Next)
 helpviewer_keywords: ["IEnumDirectory interface [TAPI 2.2]","Next method","IEnumDirectory.Next","IEnumDirectory::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumDirectory interface","_tapi3_ienumdirectory_next","rend/IEnumDirectory::Next","tapi3.ienumdirectory_next"]
 old-location: tapi3\ienumdirectory_next.htm
 tech.root: tapi3

@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.SetUrlCacheGroupAttributeW
 title: SetUrlCacheGroupAttributeW function (wininet.h)
-description: Sets the attribute information of the specified cache group.
-helpviewer_keywords: ["SetUrlCacheGroupAttribute","SetUrlCacheGroupAttribute function [WinINet]","SetUrlCacheGroupAttributeA","SetUrlCacheGroupAttributeW","_inet_seturlcachegroupattribute_function","wininet.seturlcachegroupattribute","wininet/SetUrlCacheGroupAttribute","wininet/SetUrlCacheGroupAttributeA","wininet/SetUrlCacheGroupAttributeW"]
+description: Sets the attribute information of the specified cache group. (Unicode)
+helpviewer_keywords: ["SetUrlCacheGroupAttribute", "SetUrlCacheGroupAttribute function [WinINet]", "SetUrlCacheGroupAttributeW", "_inet_seturlcachegroupattribute_function", "wininet.seturlcachegroupattribute", "wininet/SetUrlCacheGroupAttribute", "wininet/SetUrlCacheGroupAttributeW"]
 old-location: wininet\seturlcachegroupattribute.htm
 tech.root: wininet
 ms.assetid: dd4e94cd-0fe5-414a-8a43-8777403e8a45
@@ -164,7 +164,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific er
 
 
 > [!NOTE]
-> The wininet.h header defines SetUrlCacheGroupAttribute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines SetUrlCacheGroupAttribute as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

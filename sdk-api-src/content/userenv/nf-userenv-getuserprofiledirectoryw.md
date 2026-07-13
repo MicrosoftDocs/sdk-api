@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.GetUserProfileDirectoryW
 title: GetUserProfileDirectoryW function (userenv.h)
-description: Retrieves the path to the root directory of the specified user's profile.
-helpviewer_keywords: ["GetUserProfileDirectory","GetUserProfileDirectory function [Windows Shell]","GetUserProfileDirectoryA","GetUserProfileDirectoryW","_shell_GetUserProfileDirectory","shell.GetUserProfileDirectory","userenv/GetUserProfileDirectory","userenv/GetUserProfileDirectoryA","userenv/GetUserProfileDirectoryW"]
+description: Retrieves the path to the root directory of the specified user's profile. (Unicode)
+helpviewer_keywords: ["GetUserProfileDirectory", "GetUserProfileDirectory function [Windows Shell]", "GetUserProfileDirectoryW", "_shell_GetUserProfileDirectory", "shell.GetUserProfileDirectory", "userenv/GetUserProfileDirectory", "userenv/GetUserProfileDirectoryW"]
 old-location: shell\GetUserProfileDirectory.htm
 tech.root: shell
 ms.assetid: b5de762d-c9ee-42b0-bce0-e74bcc9c78f0
@@ -78,6 +78,8 @@ Specifies the size of the <i>lpProfileDir</i> buffer, in <b>TCHARs</b>.
 
 If the buffer specified by <i>lpProfileDir</i> is not large enough or <i>lpProfileDir</i> is <b>NULL</b>, the function fails and this parameter receives the necessary buffer size, including the terminating null character.
 
+If the function succeeds then this parameter receives the number of <b>TCHARs</b> written to <i>lpProfileDir</i>, including the terminating null character.
+
 ## -returns
 
 Type: <b>BOOL</b>
@@ -88,10 +90,18 @@ Type: <b>BOOL</b>
 
 The following is an example of the path returned by <b>GetUserProfileDirectory</b> in Windows XP:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Documents and Settings\Joe</code></pre>
+
+``` syntax
+C:\Documents and Settings\Joe
+```
+
 The following is an example of the path returned by <b>GetUserProfileDirectory</b> in Windows 7:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Users\Joe</code></pre>
+
+``` syntax
+C:\Users\Joe
+```
+
 To obtain the paths of subdirectories of this directory, use the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> (Windows XP and earlier) or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> (Windows Vista) function.
 
 
@@ -99,7 +109,7 @@ To obtain the paths of subdirectories of this directory, use the <a href="/windo
 
 
 > [!NOTE]
-> The userenv.h header defines GetUserProfileDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The userenv.h header defines GetUserProfileDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

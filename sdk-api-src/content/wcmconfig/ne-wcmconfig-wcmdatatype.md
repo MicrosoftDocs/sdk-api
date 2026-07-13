@@ -58,46 +58,46 @@ Each of the following constants correspond to a data type.
 
 ## -enum-fields
 
-### -field dataTypeByte
+### -field dataTypeByte:1
 
 Corresponds to a byte.
 
-### -field dataTypeSByte
+### -field dataTypeSByte:2
 
 Corresponds to a signed byte.
 
-### -field dataTypeUInt16
+### -field dataTypeUInt16:3
 
 Corresponds to an unsigned 16-bit integer.
 
-### -field dataTypeInt16
+### -field dataTypeInt16:4
 
 Corresponds to a 16-bit integer.
 
-### -field dataTypeUInt32
+### -field dataTypeUInt32:5
 
 Corresponds to an unsigned 32-bit integer.
 
-### -field dataTypeInt32
+### -field dataTypeInt32:6
 
 Corresponds to a 32-bit integer.
 
-### -field dataTypeUInt64
+### -field dataTypeUInt64:7
 
 Corresponds to an unsigned 64-bit integer.
 
-### -field dataTypeInt64
+### -field dataTypeInt64:8
 
 Corresponds to a 64-bit integer.
 
-### -field dataTypeBoolean
+### -field dataTypeBoolean:11
 
 Corresponds to a Boolean.
 
-### -field dataTypeString
+### -field dataTypeString:12
 
 Corresponds to a string.
 
-### -field dataTypeFlagArray
+### -field dataTypeFlagArray:0x8000
 
 This flag may appear combined with <b>dataTypeByte</b> or <b>dataTypeString</b> to indicate xsd:hexBinary or wcm:multiString settings, respectively.

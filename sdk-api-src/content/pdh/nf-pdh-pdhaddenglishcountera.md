@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhAddEnglishCounterA
 title: PdhAddEnglishCounterA function (pdh.h)
-description: Adds the specified language-neutral counter to the query.
-helpviewer_keywords: ["PdhAddEnglishCounter","PdhAddEnglishCounter function [Perf]","PdhAddEnglishCounterA","PdhAddEnglishCounterW","pdh/PdhAddEnglishCounter","pdh/PdhAddEnglishCounterA","pdh/PdhAddEnglishCounterW","perf.pdhaddenglishcounter"]
+description: Adds the specified language-neutral counter to the query. (ANSI)
+helpviewer_keywords: ["PdhAddEnglishCounterA", "pdh/PdhAddEnglishCounterA"]
 old-location: perf\pdhaddenglishcounter.htm
 tech.root: perf
 ms.assetid: 6a94b40d-0105-4358-93e1-dae603a35cc4
@@ -215,7 +215,7 @@ To remove the counter from the query, use the
 
 
 > [!NOTE]
-> The pdh.h header defines PdhAddEnglishCounter as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhAddEnglishCounter as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

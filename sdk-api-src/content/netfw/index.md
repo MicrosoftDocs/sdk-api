@@ -4,7 +4,8 @@ title: Netfw.h header
 ms.assetid: 93a8b9f0-44a4-3194-b24f-bb1328222e71
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: ics
 f1_keywords:
  - netfw

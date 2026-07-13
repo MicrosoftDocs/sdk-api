@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_InsertString","ListBox_InsertString macro [Window
 old-location: controls\ListBox_InsertString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_InsertString, ListBox_InsertString macro [Windows Controls], _win32_ListBox_InsertString, _win32_ListBox_InsertString_cpp, controls.ListBox_InsertString, controls._win32_ListBox_InsertString, windowsx/ListBox_InsertString
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_InsertString macro
+
+## -syntax
+
+```cpp
+int ListBox_InsertString(
+   HWND   hwndCtl,
+   int    index,
+   LPCSTR lpsz
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is the zero-based index of the string in the list box. If an error occurs, the return value is LB_ERR. If there is insufficient space to store the new string, the return value is LB_ERRSPACE.
 
 
 ## -description

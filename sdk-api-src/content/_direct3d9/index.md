@@ -4,7 +4,8 @@ title: Direct3D 9 Graphics
 ms.assetid: e1922644-f233-3eab-8912-7b4d2f26d8ec
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Direct3D 9 Graphics

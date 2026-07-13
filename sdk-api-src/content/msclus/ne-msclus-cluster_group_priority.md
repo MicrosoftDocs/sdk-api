@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUSTER_GROUP_PRIORITY
 title: CLUSTER_GROUP_PRIORITY (msclus.h)
-description: Specifies the priority level of a group.
+description: The CLUSTER_GROUP_PRIORITY enumeration (msclus.h) specifies the priority level of a group. (CLUSTER_GROUP_PRIORITY)
 helpviewer_keywords: ["CLUSTER_GROUP_PRIORITY","CLUSTER_GROUP_PRIORITY enumeration [Failover Cluster]","PriorityDisabled","PriorityHigh","PriorityLow","PriorityMedium","clusapi/CLUSTER_GROUP_PRIORITY","clusapi/PriorityDisabled","clusapi/PriorityHigh","clusapi/PriorityLow","clusapi/PriorityMedium","msclus/CLUSTER_GROUP_PRIORITY","msclus/PriorityDisabled","msclus/PriorityHigh","msclus/PriorityLow","msclus/PriorityMedium","mscs.cluster_group_priority"]
 old-location: mscs\cluster_group_priority.htm
 tech.root: MsCS
 ms.assetid: CF2B9D74-72EC-4BBD-85C9-1BB0535580FB
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_GROUP_PRIORITY, CLUSTER_GROUP_PRIORITY enumeration [Failover Cluster], PriorityDisabled, PriorityHigh, PriorityLow, PriorityMedium, clusapi/CLUSTER_GROUP_PRIORITY, clusapi/PriorityDisabled, clusapi/PriorityHigh, clusapi/PriorityLow, clusapi/PriorityMedium, msclus/CLUSTER_GROUP_PRIORITY, msclus/PriorityDisabled, msclus/PriorityHigh, msclus/PriorityLow, msclus/PriorityMedium, mscs.cluster_group_priority
 req.header: msclus.h
 req.include-header: 
@@ -55,19 +55,19 @@ Specifies the priority level of a group.
 
 ## -enum-fields
 
-### -field PriorityDisabled
+### -field PriorityDisabled:0
 
 Disabled priority. A group that has a disabled priority does not start automatically.
 
-### -field PriorityLow
+### -field PriorityLow:1000
 
 Low priority.
 
-### -field PriorityMedium
+### -field PriorityMedium:2000
 
 Medium priority.
 
-### -field PriorityHigh
+### -field PriorityHigh:3000
 
 High priority.
 

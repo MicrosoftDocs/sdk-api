@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.QueryDosDeviceA
 title: QueryDosDeviceA function (winbase.h)
-description: Retrieves information about MS-DOS device names.
+description: Retrieves information about MS-DOS device names. (QueryDosDeviceA)
 helpviewer_keywords: ["QueryDosDevice","QueryDosDevice function [Files]","QueryDosDeviceA","QueryDosDeviceW","_win32_querydosdevice","base.querydosdevice","fileapi/QueryDosDevice","fileapi/QueryDosDeviceA","fileapi/QueryDosDeviceW","fs.querydosdevice","winbase/QueryDosDevice","winbase/QueryDosDeviceA","winbase/QueryDosDeviceW"]
 old-location: fs\querydosdevice.htm
 tech.root: fs

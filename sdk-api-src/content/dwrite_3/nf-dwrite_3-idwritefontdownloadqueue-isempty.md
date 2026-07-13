@@ -6,13 +6,13 @@ helpviewer_keywords: ["IDWriteFontDownloadQueue interface [Direct Write]","IsEmp
 old-location: directwrite\idwritefontdownloadqueue_isempty.htm
 tech.root: DirectWrite
 ms.assetid: 2f1f0d1c-0db8-c382-7879-92a889cfeb6b
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],IsEmpty method, IDWriteFontDownloadQueue.IsEmpty, IDWriteFontDownloadQueue::IsEmpty, IsEmpty, IsEmpty method [Direct Write], IsEmpty method [Direct Write],IDWriteFontDownloadQueue interface, directwrite.idwritefontdownloadqueue_isempty, dwrite_3/IDWriteFontDownloadQueue::IsEmpty
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -51,9 +51,9 @@ api_name:
 ## -description
 
 Determines whether the download queue is empty. Note that the queue does not    
-    include requests that are already being downloaded. Calling <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>clears the queue.
+    include requests that are already being downloaded. Calling <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a> clears the queue.
 
-## -parameters
+
 
 ## -returns
 

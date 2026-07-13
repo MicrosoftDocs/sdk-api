@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.Advise
 title: ITransferSource::Advise (shobjidl_core.h)
-description: Sets up an advisory connection for notifications on the status of file operations.
+description: Sets up an advisory connection for notifications on the status of file operations. (ITransferSource.Advise)
 helpviewer_keywords: ["Advise","Advise method [Windows Shell]","Advise method [Windows Shell]","ITransferSource interface","ITransferSource interface [Windows Shell]","Advise method","ITransferSource.Advise","ITransferSource::Advise","_shell_ITransferSource_Advise","shell.ITransferSource_Advise","shobjidl_core/ITransferSource::Advise"]
 old-location: shell\ITransferSource_Advise.htm
 tech.root: shell

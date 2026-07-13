@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVMRSurface9 interface [DirectShow]","LockSurface method"
 old-location: dshow\ivmrsurface9_locksurface.htm
 tech.root: dshow
 ms.assetid: fb185898-5d65-48ee-a7be-f4207199f5e9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRSurface9 interface [DirectShow],LockSurface method, IVMRSurface9.LockSurface, IVMRSurface9::LockSurface, IVMRSurface9LockSurface, LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_locksurface, vmr9/IVMRSurface9::LockSurface
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>LockSurface</code> method locks the attached Direct3D surface.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetNextItem","ListView_GetNextItem macro [Window
 old-location: controls\ListView_GetNextItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetNextItem, ListView_GetNextItem macro [Windows Controls], _win32_ListView_GetNextItem, _win32_ListView_GetNextItem_cpp, commctrl/ListView_GetNextItem, controls.ListView_GetNextItem, controls._win32_ListView_GetNextItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetNextItem macro
+
+## -syntax
+
+```cpp
+int ListView_GetNextItem(
+   HWND hwnd,
+   int  i,
+   UINT flags
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the next item if successful, or -1 otherwise.
 
 
 ## -description

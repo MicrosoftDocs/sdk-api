@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_12
+UID: NS:lpmapi.ERROR_SPEC
 title: ERROR_SPEC (lpmapi.h)
 description: The ERROR_SPEC structure contains RSVP error messages.
 helpviewer_keywords: ["ERROR_SPEC","ERROR_SPEC structure [QOS]","lpmapi/ERROR_SPEC","qos.error_spec"]
@@ -78,3 +78,4 @@ Error information, expressed as an <a href="/previous-versions/windows/desktop/a
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+

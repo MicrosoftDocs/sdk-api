@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IMTSActivity.AsyncCall
 title: IMTSActivity::AsyncCall (comsvcs.h)
-description: Performs the user-defined work asynchronously.
+description: Performs the user-defined work asynchronously. (IMTSActivity.AsyncCall)
 helpviewer_keywords: ["AsyncCall","AsyncCall method [COM+]","AsyncCall method [COM+]","IMTSActivity interface","IMTSActivity interface [COM+]","AsyncCall method","IMTSActivity.AsyncCall","IMTSActivity::AsyncCall","_cos_IMTSActivity_AsyncCall","comsvcs/IMTSActivity::AsyncCall","cos.imtsactivity_asynccall"]
 old-location: cos\imtsactivity_asynccall.htm
 tech.root: cos

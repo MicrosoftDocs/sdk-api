@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegQueryInfoKeyW
 title: RegQueryInfoKeyW function (winreg.h)
-description: Retrieves information about the specified registry key.
-helpviewer_keywords: ["RegQueryInfoKey","RegQueryInfoKey function","RegQueryInfoKeyA","RegQueryInfoKeyW","_win32_regqueryinfokey","base.regqueryinfokey","winreg/RegQueryInfoKey","winreg/RegQueryInfoKeyA","winreg/RegQueryInfoKeyW"]
+description: Retrieves information about the specified registry key. (Unicode)
+helpviewer_keywords: ["RegQueryInfoKey", "RegQueryInfoKey function", "RegQueryInfoKeyW", "_win32_regqueryinfokey", "base.regqueryinfokey", "winreg/RegQueryInfoKey", "winreg/RegQueryInfoKeyW"]
 old-location: base\regqueryinfokey.htm
 tech.root: winprog
 ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -74,7 +75,7 @@ A handle to an open registry key. The key must have been opened with the KEY_QUE
 This handle is returned by the 
 <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
 <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
-<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<pre xml:space="preserve"><b></b>
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<pre><b></b>
    <b>HKEY_CLASSES_ROOT</b>
    <b>HKEY_CURRENT_CONFIG</b>
    <b>HKEY_CURRENT_USER</b>
@@ -92,9 +93,9 @@ A pointer to a variable that specifies the size of the buffer pointed to by the 
 
 The size should include the terminating <b>null</b> character. When the function returns, this variable contains the size of the class string that is stored in the buffer. The count returned does not include the terminating <b>null</b> character. If the buffer is not big enough, the function returns ERROR_MORE_DATA, and the variable contains the size of the string, in characters, without counting the terminating <b>null</b> character.
 
-If <i>lpClass</i> is <b>NULL</b>, <i>lpcClass</i> can be <b>NULL</b>.
+If <i>lpClass</i> is <b>NULL</b>, <i>lpcchClass</i> can be <b>NULL</b>.
 
-If the <i>lpClass</i> parameter is a valid address, but the <i>lpcClass</i> parameter is not, for example, it is <b>NULL</b>, then the  function returns ERROR_INVALID_PARAMETER.
+If the <i>lpClass</i> parameter is a valid address, but the <i>lpcchClass</i> parameter is not, for example, it is <b>NULL</b>, then the function returns ERROR_INVALID_PARAMETER.
 
 ### -param lpReserved
 
@@ -179,4 +180,4 @@ If the <i>lpClass</i> buffer is too small to receive the name of the class, the 
 ## -remarks
 
 > [!NOTE]
-> The winreg.h header defines RegQueryInfoKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegQueryInfoKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

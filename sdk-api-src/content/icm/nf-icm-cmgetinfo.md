@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Icm32.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -52,8 +52,8 @@ Specifies what information should be retrieved. This parameter can take one of t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -106,11 +106,11 @@ If this function succeeds, the return value is the same nonzero value that was p
 
 ## -remarks
 
-The **CMGetInfo** function can be called by applications directly to obtain information about the CMM. Applications should not call other CMM functions directly. To obtain CMM information, get the path to the CMM from the registry. Invoke the Windows API function [GetModuleHandle](https://msdn.microsoft.com/en-us/library/ms683199\(v=vs.85\)) and pass the file name of the CMM as the value of its parameter. Call the **CMGetInfo** function and pass it the constant CMM\_DESCRIPTION as the value of its parameter. Call the [LoadString](https://msdn.microsoft.com/en-us/library/ms647486\(v=vs.85\)) function. Pass the module handle as the first parameter, and the return value of the **CMGetInfo** function as the value of the second parameter.
+The **CMGetInfo** function can be called by applications directly to obtain information about the CMM. Applications should not call other CMM functions directly. To obtain CMM information, get the path to the CMM from the registry. Invoke the Windows API function [GetModuleHandle](../libloaderapi/nf-libloaderapi-getmodulehandlea.md) and pass the file name of the CMM as the value of its parameter. Call the **CMGetInfo** function and pass it the constant CMM\_DESCRIPTION as the value of its parameter. Call the [LoadString](../winuser/nf-winuser-loadstringa.md) function. Pass the module handle as the first parameter, and the return value of the **CMGetInfo** function as the value of the second parameter.
 
 CMMs that do not run on Windows 95 should return 0x0050000 for CMM\_WIN\_VERSION.
 
 ## -see-also
 
-* [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)

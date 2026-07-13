@@ -56,11 +56,11 @@ The <b>PEER_APPLICATION_REGISTRATION_TYPE</b> enumeration defines the set of pee
 
 ## -enum-fields
 
-### -field PEER_APPLICATION_CURRENT_USER
+### -field PEER_APPLICATION_CURRENT_USER:0
 
 The application is available only to the current user account logged into the machine.
 
-### -field PEER_APPLICATION_ALL_USERS
+### -field PEER_APPLICATION_ALL_USERS:1
 
 The application is available to all user accounts set on the machine.
 

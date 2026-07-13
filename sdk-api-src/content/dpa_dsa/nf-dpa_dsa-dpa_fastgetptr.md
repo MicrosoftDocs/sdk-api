@@ -6,7 +6,7 @@ helpviewer_keywords: ["DPA_FastGetPtr","DPA_FastGetPtr macro [Windows Controls]"
 old-location: controls\DPA_FastGetPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastgetptr.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DPA_FastGetPtr, DPA_FastGetPtr macro [Windows Controls], _shell_DPA_FastGetPtr, _shell_DPA_FastGetPtr_cpp, controls.DPA_FastGetPtr, controls._shell_DPA_FastGetPtr, dpa_dsa/DPA_FastGetPtr
 req.header: dpa_dsa.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # DPA_FastGetPtr macro
+
+## -syntax
+
+```cpp
+void DPA_FastGetPtr(
+  [in] HDPA hdpa,
+  [in] int  i
+);
+```
 
 
 ## -description

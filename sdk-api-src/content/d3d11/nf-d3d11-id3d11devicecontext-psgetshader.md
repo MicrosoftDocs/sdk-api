@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSGetShader
 title: ID3D11DeviceContext::PSGetShader (d3d11.h)
-description: Get the pixel shader currently set on the device.
+description: Get the pixel shader currently set on the device. (ID3D11DeviceContext.PSGetShader)
 helpviewer_keywords: ["670956b7-c83d-77ff-bc7b-f0c5ef8d9986","ID3D11DeviceContext interface [Direct3D 11]","PSGetShader method","ID3D11DeviceContext.PSGetShader","ID3D11DeviceContext::PSGetShader","PSGetShader","PSGetShader method [Direct3D 11]","PSGetShader method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::PSGetShader","direct3d11.id3d11devicecontext_psgetshader"]
 old-location: direct3d11\id3d11devicecontext_psgetshader.htm
 tech.root: direct3d11

@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11_3.CD3D11_RASTERIZER_DESC2
 title: CD3D11_RASTERIZER_DESC2 (d3d11_3.h)
-description: Describes rasterizer state.
+description: The CD3D11_RASTERIZER_DESC2 (d3d11_3.h) structure describes rasterizer state.
 helpviewer_keywords: ["CD3D11_RASTERIZER_DESC2","D3D11_RASTERIZER_DESC2","D3D11_RASTERIZER_DESC2 structure [Direct3D 11]","d3d11_3/D3D11_RASTERIZER_DESC2","direct3d11.d3d11_rasterizer_desc2"]
 old-location: direct3d11\d3d11_rasterizer_desc2.htm
 tech.root: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
 req.header: d3d11_3.h
 req.include-header: 
@@ -105,12 +105,16 @@ Specifies whether to enable clipping based on distance.
 The hardware always performs x and y clipping of rasterized coordinates. When <b>DepthClipEnable</b> is set to the default–<b>TRUE</b>, the hardware also clips the z value (that is, the hardware performs the last step of the following algorithm).
 
 
-<pre class="syntax" xml:space="preserve"><code>
-0 &lt; w
--w &lt;= x &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
--w &lt;= y &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
-0 &lt;= z &lt;= w
-</code></pre>
+
+``` syntax
+
+0 < w
+-w <= x <= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
+-w <= y <= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
+0 <= z <= w
+
+```
+
 When you set <b>DepthClipEnable</b> to <b>FALSE</b>, the hardware skips the z clipping (that is, the last step in the preceding algorithm). However, the hardware still performs the "0 &lt; w" clipping. When z clipping is disabled, improper depth ordering at the pixel level might result. However, when z clipping is disabled, stencil shadow implementations are simplified. In other words, you can avoid complex special-case handling for geometry that goes beyond the back clipping plane.
 
 

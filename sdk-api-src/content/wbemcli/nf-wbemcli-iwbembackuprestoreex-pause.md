@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWbemBackupRestoreEx::Pause</b> method locks out write operations from the Windows Management Instrumentation (WMI) repository, and may cause read operations to be blocked.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.GetIScsiSessionListA
 title: GetIScsiSessionListA function (iscsidsc.h)
-description: GetIscsiSessionList function retrieves the list of active iSCSI sessions.
-helpviewer_keywords: ["GetIScsiSessionListA","GetIscsiSessionList","GetIscsiSessionList function [iSCSI Discovery Library API]","GetIscsiSessionListA","GetIscsiSessionListW","iscsidisc.getiscsisessionlist","iscsidsc/GetIscsiSessionList","iscsidsc/GetIscsiSessionListA","iscsidsc/GetIscsiSessionListW"]
+description: GetIscsiSessionList function retrieves the list of active iSCSI sessions. (ANSI)
+helpviewer_keywords: ["GetIScsiSessionListA", "GetIscsiSessionListA", "iscsidsc/GetIscsiSessionListA"]
 old-location: iscsidisc\getiscsisessionlist.htm
 tech.root: iSCSIDisc
 ms.assetid: b16b9e52-67af-4745-ac67-a2096dafe94e
@@ -83,4 +83,4 @@ Otherwise, <b>GetIscsiSessionList</b> returns the appropriate Win32 or iSCSI err
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines GetIScsiSessionList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines GetIScsiSessionList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

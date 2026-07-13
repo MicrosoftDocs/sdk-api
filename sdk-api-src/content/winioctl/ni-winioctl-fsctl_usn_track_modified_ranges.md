@@ -6,7 +6,7 @@ helpviewer_keywords: ["FSCTL_USN_TRACK_MODIFIED_RANGES","FSCTL_USN_TRACK_MODIFIE
 old-location: fs\fsctl_usn_track_modified_ranges.htm
 tech.root: fs
 ms.assetid: 258E16B2-B6E8-44BB-8073-B1BEDD4FA86A
-ms.date: 12/05/2018
+ms.date: 10/17/2025
 ms.keywords: FSCTL_USN_TRACK_MODIFIED_RANGES, FSCTL_USN_TRACK_MODIFIED_RANGES control, FSCTL_USN_TRACK_MODIFIED_RANGES control code [Files], fs.fsctl_usn_track_modified_ranges, winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES
 req.header: winioctl.h
 req.include-header: Windows.h
@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Enables range tracking feature for update sequence number (USN) change journal stream on a target volume, or modifies already enabled range tracking parameters.
+Enables range tracking for the update sequence number (USN) change journal stream on a target volume, or modifies already enabled range tracking parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -80,29 +80,19 @@ BOOL DeviceIoControl(
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
-
 ## -remarks
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
+For more details on implications of overlapped I/O on this operation, see the [DeviceIoControl remarks](../ioapiset/nf-ioapiset-deviceiocontrol.md#-remarks).
 
-You can use **FSCTL_USN_TRACK_MODIFIED_RANGES** to enable range tracking for the first time for a volume. After the enabling range tracking, the state and parameters will be persisted for that volume and on next reboot the range tracking will be initialized read from the persisted parameters.
+**FSCTL_USN_TRACK_MODIFIED_RANGES** can be used to enable range tracking for the first time on a volume. After enabling range tracking, the state and parameters will be persisted for that volume (on reboot, range tracking will be initialized from the persisted parameters).
 
-You can also use **FSCTL_USN_TRACK_MODIFIED_RANGES** to modify an existing change journal stream range track parameter. If range tracking is already exists, **FSCTL_USN_TRACK_MODIFIED_RANGES** sets it to the parameters provided in the [USN_TRACK_MODIFIED_RANGES](ns-winioctl-usn_track_modified_ranges.md) structure. The chunk size or file size threshold can only be lowered from previous values. Once enabled, range tracking feature cannot be disabled unless the journal is deleted. 
+**FSCTL_USN_TRACK_MODIFIED_RANGES** can also be used to modify an existing change journal stream range track parameter. If range tracking already exists, **FSCTL_USN_TRACK_MODIFIED_RANGES** sets it to the parameters provided in the [USN_TRACK_MODIFIED_RANGES](ns-winioctl-usn_track_modified_ranges.md) structure. The chunk size or file size threshold can only be lowered from previous values. Once enabled, the range tracking feature cannot be disabled unless the journal is deleted.
 
-To retrieve a handle to a volume, call [CreateFile](../fileapi/nf-fileapi-createfilea.md) with the *lpFileName* parameter set to a string in the following form:
+To retrieve a handle to a volume, call [CreateFile](../fileapi/nf-fileapi-createfilea.md) with the *lpFileName* parameter set to a string in the following form: `\\.\X:`
 
-\\\\.\\X:
+In the preceding string, X is the letter identifying the drive on which the volume appears. The volume must be NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command (where *X* is the drive letter of the volume): `fsutil fsinfo ntfsinfo X:`
 
-In the preceding string, X is the letter identifying the drive on which the volume appears. The volume must be NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
-
-**fsutil fsinfo ntfsinfo** _X_**:**
-
-where *X* is the drive letter of the volume.
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status is set to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 

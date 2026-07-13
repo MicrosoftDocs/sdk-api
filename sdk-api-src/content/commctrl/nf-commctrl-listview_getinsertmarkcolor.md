@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetInsertMarkColor","ListView_GetInsertMarkColor
 old-location: controls\ListView_GetInsertMarkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetInsertMarkColor, ListView_GetInsertMarkColor macro [Windows Controls], _win32_ListView_GetInsertMarkColor, _win32_ListView_GetInsertMarkColor_cpp, commctrl/ListView_GetInsertMarkColor, controls.ListView_GetInsertMarkColor, controls._win32_ListView_GetInsertMarkColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetInsertMarkColor macro
+
+## -syntax
+
+```cpp
+COLORREF ListView_GetInsertMarkColor(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>COLORREF</b> structure that contains the color of the insertion point.
 
 
 ## -description

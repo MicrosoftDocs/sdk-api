@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_ExtendedModes
 title: ITraceDataCollector::get_ExtendedModes (pla.h)
-description: Retrieves or sets the extended log file modes.
+description: Retrieves or sets the extended log file modes. (Get)
 helpviewer_keywords: ["ExtendedModes property [PLA]","ExtendedModes property [PLA]","ITraceDataCollector interface","ITraceDataCollector interface [PLA]","ExtendedModes property","ITraceDataCollector.ExtendedModes","ITraceDataCollector.get_ExtendedModes","ITraceDataCollector::ExtendedModes","ITraceDataCollector::get_ExtendedModes","ITraceDataCollector::put_ExtendedModes","base.itracedatacollector_extendedmodes","get_ExtendedModes","pla.itracedatacollector_extendedmodes","pla/ITraceDataCollector::ExtendedModes","pla/ITraceDataCollector::get_ExtendedModes","pla/ITraceDataCollector::put_ExtendedModes"]
 old-location: pla\itracedatacollector_extendedmodes.htm
 tech.root: PLA

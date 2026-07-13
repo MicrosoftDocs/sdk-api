@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyFix
 title: VarCyFix function (oleauto.h)
-description: Retrieves the integer portion of a variant of type currency.
+description: Retrieves the integer portion of a variant of type currency. (VarCyFix)
 helpviewer_keywords: ["VarCyFix","VarCyFix function [Automation]","_oa96_VarCyFix","automat.varcyfix","oleauto/VarCyFix"]
 old-location: automat\varcyfix.htm
 tech.root: automat
@@ -64,5 +64,5 @@ The resulting variant. If the variant is negative, then the first negative integ
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

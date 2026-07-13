@@ -4,7 +4,8 @@ title: Uiribbon.h header
 ms.assetid: a27b3b32-7e36-395c-beec-b81b278b75df
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: windowsribbon
 f1_keywords:
  - uiribbon

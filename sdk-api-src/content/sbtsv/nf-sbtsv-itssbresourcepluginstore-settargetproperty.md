@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetProperty
 title: ITsSbResourcePluginStore::SetTargetProperty (sbtsv.h)
-description: Sets the value of a property of a target.
+description: Sets the value of a property of a target. (ITsSbResourcePluginStoreEx.SetTargetProperty)
 helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetTargetProperty method","ITsSbResourcePluginStore.SetTargetProperty","ITsSbResourcePluginStore::SetTargetProperty","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","SetTargetProperty method","ITsSbResourcePluginStoreEx::SetTargetProperty","SetTargetProperty","SetTargetProperty method [Remote Desktop Services]","SetTargetProperty method [Remote Desktop Services]","ITsSbResourcePluginStore interface","SetTargetProperty method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","sbtsv/ITsSbResourcePluginStore::SetTargetProperty","sbtsv/ITsSbResourcePluginStoreEx::SetTargetProperty","termserv.itssbresourcepluginstore_settargetproperty"]
 old-location: termserv\itssbresourcepluginstore_settargetproperty.htm
 tech.root: TermServ
@@ -69,7 +69,7 @@ A pointer to the value to set.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

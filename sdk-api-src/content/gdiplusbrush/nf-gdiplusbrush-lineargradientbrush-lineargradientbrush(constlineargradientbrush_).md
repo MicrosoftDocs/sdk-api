@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush(constLinearGradientBrush&)
 title: LinearGradientBrush::LinearGradientBrush(const LinearGradientBrush &) (gdiplusbrush.h)
-description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
+description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class. (overload 2/2)
 helpviewer_keywords: ["LinearGradientBrush","LinearGradientBrush constructors [GDI+]","LinearGradientBrush.LinearGradientBrush","LinearGradientBrush.LinearGradientBrush(const LinearGradientBrush &)","LinearGradientBrush::LinearGradientBrush","LinearGradientBrush::LinearGradientBrush(const LinearGradientBrush &)","_gdiplus_CLASS_LinearGradientBrush_Constructors","gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors","gdiplusbrush/LinearGradientBrush"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Constructors.htm
 tech.root: gdiplus

@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyDescription.FormatForDisplay
 title: IPropertyDescription::FormatForDisplay (propsys.h)
-description: Gets a formatted, Unicode string representation of a property value.
+description: Gets a formatted, Unicode string representation of a property value. (IPropertyDescription.FormatForDisplay)
 old-location: properties\IPropertyDescription_FormatForDisplay.htm
 tech.root: properties
 ms.assetid: c900fce9-4462-4429-a5a1-9f0d1e73c681
@@ -156,7 +156,7 @@ On success, this method gets a formatted Unicode string representation of a prop
 
 The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a>, <a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">stringFormat</a>, <a href="/windows/desktop/properties/propdesc-schema-booleanformat">booleanFormat</a>, <a href="/windows/desktop/properties/propdesc-schema-numberformat">numberFormat</a>, <a href="/windows/desktop/api/commctrl/ns-commctrl-nmdatetimeformata">NMDATETIMEFORMAT</a>,  and <a href="/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>. Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
 
-The output string can contain Unicode directional characters. These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left to right (LTR) language is drawn on an right to left (RTL) window, and vice versa. These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
+The output string can contain Unicode directional characters. These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left-to-right (LTR) language is drawn onto a right-to-left (RTL) window, and vice versa. These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
 
 The following properties use special formats and are unaffected by the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> (examples cited are for strings with a current locale set to English; typically, output is localized except where noted).
 

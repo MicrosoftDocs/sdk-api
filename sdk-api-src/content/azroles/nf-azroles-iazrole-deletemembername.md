@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzRole object [Security]","DeleteMemberName method","Dele
 old-location: security\iazrole_deletemembername.htm
 tech.root: security
 ms.assetid: 3ca3e242-deab-46e7-b3f5-d6a75e5a2c08
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzRole object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzRole object, DeleteMemberName method [Security],IAzRole interface, IAzRole interface [Security],DeleteMemberName method, IAzRole.DeleteMemberName, IAzRole::DeleteMemberName, azroles/IAzRole::DeleteMemberName, security.iazrole_deletemembername
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,30 @@ api_name:
 
 # IAzRole::DeleteMemberName
 
-
 ## -description
 
-The <b>DeleteMemberName</b> method removes  the specified account name from the list of  accounts that belong to the role.
+The **DeleteMemberName** method removes  the specified account name from the list of accounts that belong to the role.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the account name to remove from the list of  accounts that belong to the role. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If the domain is not  in the "ExampleDomain\UserName" format, the <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
+String that contains the account name to remove from the list of accounts that belong to the role. The account name can be in either user principal name (UPN) format (for example, `someone@example.com`) or in the `ExampleDomain\UserName` format. If the domain is not in the `ExampleDomain\UserName` format, the [LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea) function is called to retrieve the domain.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of account names of accounts that belong to the role, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_membersname">MembersName</a> property.
+To view the list of account names of accounts that belong to the role, use the [MembersName](nf-azroles-iazrole-get_membersname.md) property.
+
+## -see-also
+
+[LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea)
+
+[MembersName](nf-azroles-iazrole-get_membersname.md)

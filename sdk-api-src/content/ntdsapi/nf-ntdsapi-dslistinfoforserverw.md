@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsListInfoForServerW
 title: DsListInfoForServerW function (ntdsapi.h)
-description: The DsListInfoForServer function lists miscellaneous data for a server.
-helpviewer_keywords: ["DS_LIST_ACCOUNT_OBJECT_FOR_SERVER","DS_LIST_DNS_HOST_NAME_FOR_SERVER","DS_LIST_DSA_OBJECT_FOR_SERVER","DsListInfoForServer","DsListInfoForServer function [Active Directory]","DsListInfoForServerA","DsListInfoForServerW","_glines_dslistinfoforserver","ad.dslistinfoforserver","ntdsapi/DsListInfoForServer","ntdsapi/DsListInfoForServerA","ntdsapi/DsListInfoForServerW"]
+description: The DsListInfoForServer function lists miscellaneous data for a server. (Unicode)
+helpviewer_keywords: ["DS_LIST_ACCOUNT_OBJECT_FOR_SERVER", "DS_LIST_DNS_HOST_NAME_FOR_SERVER", "DS_LIST_DSA_OBJECT_FOR_SERVER", "DsListInfoForServer", "DsListInfoForServer function [Active Directory]", "DsListInfoForServerW", "_glines_dslistinfoforserver", "ad.dslistinfoforserver", "ntdsapi/DsListInfoForServer", "ntdsapi/DsListInfoForServerW"]
 old-location: ad\dslistinfoforserver.htm
 tech.root: ad
 ms.assetid: 15dcc7ac-4edb-42fa-8466-033794762046
@@ -122,7 +122,7 @@ Individual name conversion errors are reported in the returned <a href="/windows
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsListInfoForServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsListInfoForServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

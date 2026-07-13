@@ -54,15 +54,15 @@ The <b>NLM_NETWORK_CLASS</b> enumeration defines a set of flags that specify if 
 
 ## -enum-fields
 
-### -field NLM_NETWORK_IDENTIFYING
+### -field NLM_NETWORK_IDENTIFYING:0x1
 
 The network is being identified.
 
-### -field NLM_NETWORK_IDENTIFIED
+### -field NLM_NETWORK_IDENTIFIED:0x2
 
 The network has been identified.
 
-### -field NLM_NETWORK_UNIDENTIFIED
+### -field NLM_NETWORK_UNIDENTIFIED:0x3
 
 The network has not been identified.
 

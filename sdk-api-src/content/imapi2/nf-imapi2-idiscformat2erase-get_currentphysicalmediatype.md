@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_CurrentPhysicalMediaType
 title: IDiscFormat2Erase::get_CurrentPhysicalMediaType (imapi2.h)
-description: Retrieves the type of media in the disc device.
+description: Retrieves the type of media in the disc device. (IDiscFormat2Erase.get_CurrentPhysicalMediaType)
 helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","get_CurrentPhysicalMediaType method","IDiscFormat2Erase.get_CurrentPhysicalMediaType","IDiscFormat2Erase::get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType method [IMAPI]","get_CurrentPhysicalMediaType method [IMAPI]","IDiscFormat2Erase interface","imapi.idiscformat2erase_get_currentphysicalmediatype","imapi2/IDiscFormat2Erase::get_CurrentPhysicalMediaType"]
 old-location: imapi\idiscformat2erase_get_currentphysicalmediatype.htm
 tech.root: imapi
@@ -56,7 +56,7 @@ Retrieves the type of media in the disc device.
 
 ### -param value [out]
 
-Type of media in the disc device. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>enumeration type.
+Type of media in the disc device. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
 
 ## -returns
 

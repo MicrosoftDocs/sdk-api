@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.CreateEncryptedBundleWriter
 title: IAppxEncryptionFactory3::CreateEncryptedBundleWriter (appxpackaging.h)
-description: Creates a write-only bundle object to which encrypted Windows app packages can be added.
+description: Creates a write-only bundle object to which encrypted Windows app packages can be added. (IAppxEncryptionFactory3.CreateEncryptedBundleWriter)
 helpviewer_keywords: ["CreateEncryptedBundleWriter","CreateEncryptedBundleWriter method [App packaging and management]","CreateEncryptedBundleWriter method [App packaging and management]","IAppxEncryptionFactory3 interface","IAppxEncryptionFactory3 interface [App packaging and management]","CreateEncryptedBundleWriter method","IAppxEncryptionFactory3.CreateEncryptedBundleWriter","IAppxEncryptionFactory3::CreateEncryptedBundleWriter","appxpackaging/IAppxEncryptionFactory3::CreateEncryptedBundleWriter","appxpkg.iappxencryptionfactory3_createencryptedbundlewriter"]
 old-location: appxpkg\iappxencryptionfactory3_createencryptedbundlewriter.htm
 tech.root: appxpkg
@@ -56,7 +56,7 @@ Creates a write-only bundle object to which encrypted Windows app packages can b
 
 ### -param outputStream [in]
 
-A writeable stream for writing the resulting encrypted app bundle.
+A writable stream for writing the resulting encrypted app bundle.
 
 ### -param bundleVersion [in]
 
@@ -80,7 +80,7 @@ The bundle writer object created.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Priority
 title: IFaxPort::get_Priority (faxcom.h)
-description: The IFaxPort::get_Priority property is a number representing the transmission priority designated for a specified fax port. Priority determines the relative order in which available fax devices send outgoing transmissions.
+description: The IFaxPort::get_Priority property is a number representing the transmission priority designated for a specified fax port. Priority determines the relative order in which available fax devices send outgoing transmissions. (Get)
 helpviewer_keywords: ["IFaxPort interface [Fax Service]","Priority property","IFaxPort.Priority","IFaxPort.get_Priority","IFaxPort::Priority","IFaxPort::get_Priority","IFaxPort::put_Priority","Priority property [Fax Service]","Priority property [Fax Service]","IFaxPort interface","_mfax_ifaxport_get_priority","fax._mfax_ifaxport_get_priority","fax._mfax_ifaxport_mfax_ifaxport_get_priority_cpp","faxcom/IFaxPort::Priority","faxcom/IFaxPort::get_Priority","faxcom/IFaxPort::put_Priority","get_Priority"]
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_priority_cpp.htm
 tech.root: Fax

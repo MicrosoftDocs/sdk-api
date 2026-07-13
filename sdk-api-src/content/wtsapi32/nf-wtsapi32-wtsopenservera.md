@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSOpenServerA
 title: WTSOpenServerA function (wtsapi32.h)
-description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSOpenServer","WTSOpenServer function [Remote Desktop Services]","WTSOpenServerA","WTSOpenServerW","_win32_wtsopenserver","termserv.wtsopenserver","wtsapi32/WTSOpenServer","wtsapi32/WTSOpenServerA","wtsapi32/WTSOpenServerW"]
+description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server. (ANSI)
+helpviewer_keywords: ["WTSOpenServerA", "wtsapi32/WTSOpenServerA"]
 old-location: termserv\wtsopenserver.htm
 tech.root: TermServ
 ms.assetid: f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3
@@ -78,7 +78,7 @@ You do not need to open a handle for operations performed on the RD Session Hos
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSOpenServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSOpenServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

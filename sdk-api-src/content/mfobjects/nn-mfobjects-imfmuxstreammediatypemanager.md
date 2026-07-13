@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -57,8 +57,5 @@ Enables the management of stream configurations for a multiplexed media source. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMuxStreamMediaTypeManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMuxStreamMediaTypeManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFMuxStreamMediaTypeManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMuxStreamMediaTypeManager</b> also has these types of members:
 

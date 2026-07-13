@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_HINTS2
 title: VDS_HINTS2 (vdshwprv.h)
-description: Contains the automagic hints for a LUN in a storage pool.
+description: The VDS_HINTS2 structure (vdshwprv.h) contains the automagic hints for a LUN in a storage pool.
 helpviewer_keywords: ["*PVDS_HINTS2","PVDS_HINTS2","PVDS_HINTS2 structure pointer","VDS_HINTS2","VDS_HINTS2 structure","VDS_HINT_ALLOCATEHOTSPARE","VDS_HINT_BUSTYPE","VDS_HINT_CONSISTENCYCHECKENABLED","VDS_HINT_FASTCRASHRECOVERYREQUIRED","VDS_HINT_HARDWARECHECKSUMENABLED","VDS_HINT_ISYANKABLE","VDS_HINT_MEDIASCANENABLED","VDS_HINT_MOSTLYREADS","VDS_HINT_OPTIMIZEFORSEQUENTIALREADS","VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES","VDS_HINT_READBACKVERIFYENABLED","VDS_HINT_READCACHINGENABLED","VDS_HINT_REMAPENABLED","VDS_HINT_USEMIRROREDCACHE","VDS_HINT_WRITECACHINGENABLED","VDS_HINT_WRITETHROUGHCACHINGENABLED","base.vds_hints2","vds/PVDS_HINTS2","vds/VDS_HINTS2","vdshwprv/PVDS_HINTS2","vdshwprv/VDS_HINTS2"]
 old-location: base\vds_hints2.htm
 tech.root: base
 ms.assetid: e24935ac-17c8-4338-99cb-2408ca61da8a
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: '*PVDS_HINTS2, PVDS_HINTS2, PVDS_HINTS2 structure pointer, VDS_HINTS2, VDS_HINTS2 structure, VDS_HINT_ALLOCATEHOTSPARE, VDS_HINT_BUSTYPE, VDS_HINT_CONSISTENCYCHECKENABLED, VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MEDIASCANENABLED, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_READCACHINGENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_USEMIRROREDCACHE, VDS_HINT_WRITECACHINGENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, base.vds_hints2, vds/PVDS_HINTS2, vds/VDS_HINTS2, vdshwprv/PVDS_HINTS2, vdshwprv/VDS_HINTS2'
 req.header: vdshwprv.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Contains the automagic hints for a LUN in a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Clone
 title: IEnumNetSharingPortMapping::Clone (netcon.h)
-description: The Clone method creates a new enumeration interface from this enumeration.
+description: The Clone method creates a new enumeration interface from this enumeration. (IEnumNetSharingPortMapping.Clone)
 helpviewer_keywords: ["Clone","Clone method [ICS/ICF]","Clone method [ICS/ICF]","IEnumNetSharingPortMapping interface","IEnumNetSharingPortMapping interface [ICS/ICF]","Clone method","IEnumNetSharingPortMapping.Clone","IEnumNetSharingPortMapping::Clone","_ics_ienumnetsharingportmapping_clone","ics.ienumnetsharingportmapping_clone","netcon/IEnumNetSharingPortMapping::Clone"]
 old-location: ics\ienumnetsharingportmapping_clone.htm
 tech.root: ics

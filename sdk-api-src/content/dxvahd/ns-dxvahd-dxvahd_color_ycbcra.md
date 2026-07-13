@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_COLOR_YCbCrA
 title: DXVAHD_COLOR_YCbCrA (dxvahd.h)
-description: Specifies a YCbCr color value.
+description: Specifies a YCbCr color value. (DXVAHD_COLOR_YCbCrA)
 helpviewer_keywords: ["DXVAHD_COLOR_YCbCrA","DXVAHD_COLOR_YCbCrA structure [Media Foundation]","dxvahd/DXVAHD_COLOR_YCbCrA","mf.dxvahd_color_ycbcra"]
 old-location: mf\dxvahd_color_ycbcra.htm
 tech.root: mf

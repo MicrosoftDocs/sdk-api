@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegSetValueExW
 title: RegSetValueExW function (winreg.h)
-description: Sets the data and type of a specified value under a registry key.
-helpviewer_keywords: ["RegSetValueEx","RegSetValueEx function","RegSetValueExA","RegSetValueExW","_win32_regsetvalueex","base.regsetvalueex","winreg/RegSetValueEx","winreg/RegSetValueExA","winreg/RegSetValueExW"]
+description: Sets the data and type of a specified value under a registry key. (Unicode)
+helpviewer_keywords: ["RegSetValueEx", "RegSetValueEx function", "RegSetValueExW", "_win32_regsetvalueex", "base.regsetvalueex", "winreg/RegSetValueEx", "winreg/RegSetValueExW"]
 old-location: base\regsetvalueex.htm
 tech.root: winprog
 ms.assetid: 29b0e27c-4999-4e92-bd8b-bba74920bccc
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -135,7 +136,7 @@ Note that operations that access certain registry keys are redirected. For more 
 Consider using the <a href="/windows/desktop/api/winreg/nf-winreg-regsetkeyvaluew">RegSetKeyValue</a> function, which provides a more convenient way to set the value of a registry key.
 
 > [!NOTE]
-> The winreg.h header defines RegSetValueEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegSetValueEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

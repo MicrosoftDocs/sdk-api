@@ -54,7 +54,7 @@ api_name:
 The <b>LinearGradientBrush::GetGammaCorrection</b> method determines whether gamma correction is enabled for this 
 			<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object.
 
-## -parameters
+
 
 ## -returns
 

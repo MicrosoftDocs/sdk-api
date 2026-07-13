@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.put_Name
 title: IWdsTransportNamespace::put_Name (wdstptmgmt.h)
-description: Sets or retrieves the name of the namespace.
+description: Sets or retrieves the name of the namespace. (Put)
 helpviewer_keywords: ["IWdsTransportNamespace interface [Windows Deployment Services]","Name property","IWdsTransportNamespace.Name","IWdsTransportNamespace.put_Name","IWdsTransportNamespace::Name","IWdsTransportNamespace::get_Name","IWdsTransportNamespace::put_Name","Name property [Windows Deployment Services]","Name property [Windows Deployment Services]","IWdsTransportNamespace interface","put_Name","wds.iwdstransportnamespace_name","wdstptmgmt/IWdsTransportNamespace::Name","wdstptmgmt/IWdsTransportNamespace::get_Name","wdstptmgmt/IWdsTransportNamespace::put_Name"]
 old-location: wds\iwdstransportnamespace_name.htm
 tech.root: wds

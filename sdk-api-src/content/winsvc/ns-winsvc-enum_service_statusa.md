@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._ENUM_SERVICE_STATUSA
 title: ENUM_SERVICE_STATUSA (winsvc.h)
-description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions.
+description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions. (ANSI)
 helpviewer_keywords: ["*LPENUM_SERVICE_STATUSA","ENUM_SERVICE_STATUS","ENUM_SERVICE_STATUS structure","ENUM_SERVICE_STATUSA","ENUM_SERVICE_STATUSW","LPENUM_SERVICE_STATUS","LPENUM_SERVICE_STATUS structure pointer","_win32_enum_service_status_str","base.enum_service_status_str","winsvc/ENUM_SERVICE_STATUS","winsvc/ENUM_SERVICE_STATUSA","winsvc/ENUM_SERVICE_STATUSW","winsvc/LPENUM_SERVICE_STATUS"]
 old-location: base\enum_service_status_str.htm
 tech.root: security
@@ -90,4 +90,4 @@ A
 ## -remarks
 
 > [!NOTE]
-> The winsvc.h header defines ENUM_SERVICE_STATUS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines ENUM_SERVICE_STATUS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

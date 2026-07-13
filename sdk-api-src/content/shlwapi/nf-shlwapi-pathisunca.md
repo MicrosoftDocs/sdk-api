@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsUNCA
 title: PathIsUNCA function (shlwapi.h)
-description: Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter.
-helpviewer_keywords: ["PathIsUNC","PathIsUNC function [Windows Shell]","PathIsUNCA","PathIsUNCW","_win32_PathIsUNC","shell.PathIsUNC","shlwapi/PathIsUNC","shlwapi/PathIsUNCA","shlwapi/PathIsUNCW"]
+description: Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter. (ANSI)
+helpviewer_keywords: ["PathIsUNCA", "shlwapi/PathIsUNCA"]
 old-location: shell\PathIsUNC.htm
 tech.root: shell
 ms.assetid: 53da5ba7-a2a4-45b2-90e0-ae006415933e
@@ -79,4 +79,4 @@ Returns <b>TRUE</b> if the string is a valid UNC path; otherwise, <b>FALSE</b>.
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathIsUNC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathIsUNC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

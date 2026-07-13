@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_bindW
 title: ldap_bindW function (winldap.h)
-description: Asynchronously authenticates a client with the LDAP server.
-helpviewer_keywords: ["_ldap_ldap_bind","ldap.ldap__bind","ldap.ldap_bind","ldap_bind","ldap_bind function [LDAP]","ldap_bindA","ldap_bindW","winldap/ldap_bind","winldap/ldap_bindA","winldap/ldap_bindW"]
+description: the ldap_bindW (Unicode) function (winldap.h) asynchronously authenticates a client with the LDAP server. 
+helpviewer_keywords: ["_ldap_ldap_bind", "ldap.ldap__bind", "ldap.ldap_bind", "ldap_bind", "ldap_bind function [LDAP]", "ldap_bindW", "winldap/ldap_bind", "winldap/ldap_bindW"]
 old-location: ldap\ldap_bind.htm
 tech.root: ldap
 ms.assetid: 889636f2-3dd0-4027-aa35-d7b7930d9e69
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_ldap_bind, ldap.ldap__bind, ldap.ldap_bind, ldap_bind, ldap_bind function [LDAP], ldap_bindA, ldap_bindW, winldap/ldap_bind, winldap/ldap_bindA, winldap/ldap_bindW
 req.header: winldap.h
 req.include-header: 
@@ -113,7 +113,7 @@ When all of the operations on the session handle are completed, terminate the se
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_bind as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_bind as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

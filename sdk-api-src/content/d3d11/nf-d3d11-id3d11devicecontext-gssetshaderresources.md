@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSSetShaderResources
 title: ID3D11DeviceContext::GSSetShaderResources (d3d11.h)
-description: Bind an array of shader resources to the geometry shader stage.
+description: Bind an array of shader resources to the geometry shader stage. (ID3D11DeviceContext.GSSetShaderResources)
 helpviewer_keywords: ["337f877b-2bd2-d15c-fe32-3f3bf0ef072a","GSSetShaderResources","GSSetShaderResources method [Direct3D 11]","GSSetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSSetShaderResources method","ID3D11DeviceContext.GSSetShaderResources","ID3D11DeviceContext::GSSetShaderResources","d3d11/ID3D11DeviceContext::GSSetShaderResources","direct3d11.id3d11devicecontext_gssetshaderresources"]
 old-location: direct3d11\id3d11devicecontext_gssetshaderresources.htm
 tech.root: direct3d11

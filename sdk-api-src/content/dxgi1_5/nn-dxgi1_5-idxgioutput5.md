@@ -54,10 +54,7 @@ Represents an adapter output (such as a monitor). The <b>IDXGIOutput5</b> interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput5</b> interface inherits from <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgioutput4">IDXGIOutput4</a>. <b>IDXGIOutput5</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIOutput5</b> interface inherits from <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgioutput4">IDXGIOutput4</a>. <b>IDXGIOutput5</b> also has these types of members:
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetModify","Edit_GetModify macro [Windows Controls]"
 old-location: controls\Edit_GetModify.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getmodify.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetModify, Edit_GetModify macro [Windows Controls], _win32_Edit_GetModify, _win32_Edit_GetModify_cpp, controls.Edit_GetModify, controls._win32_Edit_GetModify, windowsx/Edit_GetModify
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetModify macro
+
+## -syntax
+
+```cpp
+BOOL Edit_GetModify(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the contents of edit control have been modified, the return value is nonzero; otherwise, it is zero.
 
 
 ## -description

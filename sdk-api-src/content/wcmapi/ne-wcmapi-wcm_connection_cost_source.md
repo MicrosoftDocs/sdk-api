@@ -58,19 +58,19 @@ The <b>WCM_CONNECTION_COST_SOURCE</b> enumerated type specifies the source that 
 
 ## -enum-fields
 
-### -field WCM_CONNECTION_COST_SOURCE_DEFAULT
+### -field WCM_CONNECTION_COST_SOURCE_DEFAULT:0
 
 Default source.
 
-### -field WCM_CONNECTION_COST_SOURCE_GP
+### -field WCM_CONNECTION_COST_SOURCE_GP:1
 
 The source for the connection cost  is Group Policy.
 
-### -field WCM_CONNECTION_COST_SOURCE_USER
+### -field WCM_CONNECTION_COST_SOURCE_USER:2
 
 The source for the connection cost is the user.
 
-### -field WCM_CONNECTION_COST_SOURCE_OPERATOR
+### -field WCM_CONNECTION_COST_SOURCE_OPERATOR:3
 
 The source for the connection cost  is the operator.
 

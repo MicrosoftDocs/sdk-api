@@ -6,7 +6,7 @@ helpviewer_keywords: ["GET_XBUTTON_WPARAM","GET_XBUTTON_WPARAM macro [Keyboard a
 old-location: inputdev\get_xbutton_wparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_xbutton_wparam.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GET_XBUTTON_WPARAM, GET_XBUTTON_WPARAM macro [Keyboard and Mouse Input], _win32_GET_XBUTTON_WPARAM, _win32_get_xbutton_wparam_cpp, inputdev.get_xbutton_wparam, winui._win32_get_xbutton_wparam, winuser/GET_XBUTTON_WPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,25 @@ api_name:
 ---
 
 # GET_XBUTTON_WPARAM macro
+
+## -syntax
+
+```cpp
+int GET_XBUTTON_WPARAM(
+    WPARAM wParam
+);
+```
+
+## -returns
+
+Type: **int**
+
+The high-order word indicates which button was released. It can be either of the following values:
+
+| Return code | Value | Description |
+|--|--|--|
+| **XBUTTON1** | 0x0001 | The first X button was released. |
+| **XBUTTON2** | 0x0002 | The second X button was released. |
 
 
 ## -description

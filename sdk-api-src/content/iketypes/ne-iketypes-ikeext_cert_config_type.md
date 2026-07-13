@@ -56,7 +56,7 @@ The <b>IKEEXT_CERT_CONFIG_TYPE</b> enumerated type indicates a type of certifica
 
 ## -enum-fields
 
-### -field IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST
+### -field IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST:0
 
 An explicit trust list will be used for authentication.
 

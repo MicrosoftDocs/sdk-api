@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt32
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetInt32 (windows.foundation.h)
 description: Gets the signed 32-bit integer value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetInt32","GetInt32 method [Windows Runtime]","GetInt32 method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetInt32 method","IPropertyValue.GetInt32","IPropertyValue.IPropertyValue","IPropertyValue::GetInt32","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetInt32","winrt.ipropertyvalue_getint32"]
 old-location: winrt\ipropertyvalue_getint32.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetInt32
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetInt32 (windows.foundation.h)
 
 
 ## -description

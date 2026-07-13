@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_Direction
 title: INetFwRule::get_Direction (netfw.h)
-description: Specifies the direction of traffic for which the rule applies.
+description: Specifies the direction of traffic for which the rule applies. (Get)
 helpviewer_keywords: ["Direction property [ICS/ICF]","Direction property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","Direction property","INetFwRule.Direction","INetFwRule.get_Direction","INetFwRule::Direction","INetFwRule::get_Direction","INetFwRule::put_Direction","get_Direction","ics.inetfwrule_direction","netfw/INetFwRule::Direction","netfw/INetFwRule::get_Direction","netfw/INetFwRule::put_Direction"]
 old-location: ics\inetfwrule_direction.htm
 tech.root: ics

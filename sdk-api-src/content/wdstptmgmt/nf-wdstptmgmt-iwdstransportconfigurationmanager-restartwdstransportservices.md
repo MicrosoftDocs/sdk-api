@@ -52,7 +52,7 @@ api_name:
 
 Stops and then restarts any WDS transport services that are running. If no services are running, the method returns with <b>S_OK</b>  without further action.
 
-## -parameters
+
 
 ## -returns
 

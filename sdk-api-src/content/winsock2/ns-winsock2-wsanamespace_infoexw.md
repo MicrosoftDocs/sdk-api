@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSANAMESPACE_INFOEXW
 title: WSANAMESPACE_INFOEXW (winsock2.h)
-description: Contains all registration information for a namespace provider.
+description: Contains all registration information for a namespace provider. (WSANAMESPACE_INFOEXW)
 helpviewer_keywords: ["*LPWSANAMESPACE_INFOEXW","*PWSANAMESPACE_INFOEXW","LPWSANAMESPACE_INFOEX","LPWSANAMESPACE_INFOEX structure pointer [Winsock]","NS_BTH","NS_DNS","NS_EMAIL","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","PWSANAMESPACE_INFOEX","PWSANAMESPACE_INFOEX structure pointer [Winsock]","WSANAMESPACE_INFOEX","WSANAMESPACE_INFOEX structure [Winsock]","WSANAMESPACE_INFOEXA","WSANAMESPACE_INFOEXW","winsock.wsanamespace_infoex","winsock2/LPWSANAMESPACE_INFOEX","winsock2/PWSANAMESPACE_INFOEX","winsock2/WSANAMESPACE_INFOEX","winsock2/WSANAMESPACE_INFOEXA","winsock2/WSANAMESPACE_INFOEXW"]
 old-location: winsock\wsanamespace_infoex.htm
 tech.root: WinSock
@@ -207,7 +207,7 @@ The <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32
 
 
 > [!NOTE]
-> The winsock2.h header defines WSANAMESPACE_INFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSANAMESPACE_INFOEX as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

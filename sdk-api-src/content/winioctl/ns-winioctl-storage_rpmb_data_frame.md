@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_RPMB_DATA_FRAME
 title: STORAGE_RPMB_DATA_FRAME
-ms.date: 4/26/2019
+description: The STORAGE_RPMB_DATA_FRAME structure (winioctl.h) allows an application to use data from IOCTL_STORAGE_QUERY_PROPERTY to create a RPMB frame.
+ms.date: 08/09/2022
 ms.keywords: _STORAGE_RPMB_DATA_FRAME, STORAGE_RPMB_DATA_FRAME
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: STORAGE_RPMB_DATA_FRAME, *PSTORAGE_RPMB_DATA_FRAME
 req.umdf-ver: 

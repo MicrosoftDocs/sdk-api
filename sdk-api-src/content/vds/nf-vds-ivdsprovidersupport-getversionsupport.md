@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsProviderSupport.GetVersionSupport
 title: IVdsProviderSupport::GetVersionSupport (vds.h)
-description: Returns a bitmask of values enumerated by VDS_VERSION_SUPPORT_FLAG indicating the versions of the VDS interfaces supported by this provider.
+description: The IVdsProviderSupport::GetVersionSupport method (vds.h) returns a bitmask of values enumerated by VDS_VERSION_SUPPORT_FLAG with supported VDS interfaces.
 helpviewer_keywords: ["GetVersionSupport","GetVersionSupport method","GetVersionSupport method","IVdsProviderSupport interface","IVdsProviderSupport interface","GetVersionSupport method","IVdsProviderSupport.GetVersionSupport","IVdsProviderSupport::GetVersionSupport","base.ivdsprovidersupport_getversionsupport","vds/IVdsProviderSupport::GetVersionSupport","vdshwprv/IVdsProviderSupport::GetVersionSupport"]
 old-location: base\ivdsprovidersupport_getversionsupport.htm
 tech.root: base
 ms.assetid: c7527d29-7ab4-4f98-991b-411059e14237
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetVersionSupport, GetVersionSupport method, GetVersionSupport method,IVdsProviderSupport interface, IVdsProviderSupport interface,GetVersionSupport method, IVdsProviderSupport.GetVersionSupport, IVdsProviderSupport::GetVersionSupport, base.ivdsprovidersupport_getversionsupport, vds/IVdsProviderSupport::GetVersionSupport, vdshwprv/IVdsProviderSupport::GetVersionSupport
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns a bitmask of values enumerated by 
     <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_version_support_flag">VDS_VERSION_SUPPORT_FLAG</a> indicating the versions 

@@ -59,27 +59,27 @@ Values that identify shader-input options.
 
 ## -enum-fields
 
-### -field D3D_SIF_USERPACKED
+### -field D3D_SIF_USERPACKED:0x1
 
 Assign a shader input to a register based on the register assignment in the HLSL code (instead of letting the compiler choose the register).
 
-### -field D3D_SIF_COMPARISON_SAMPLER
+### -field D3D_SIF_COMPARISON_SAMPLER:0x2
 
 Use a comparison sampler, which uses the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
 
-### -field D3D_SIF_TEXTURE_COMPONENT_0
+### -field D3D_SIF_TEXTURE_COMPONENT_0:0x4
 
 A 2-bit value for encoding texture components.
 
-### -field D3D_SIF_TEXTURE_COMPONENT_1
+### -field D3D_SIF_TEXTURE_COMPONENT_1:0x8
 
 A 2-bit value for encoding texture components.
 
-### -field D3D_SIF_TEXTURE_COMPONENTS
+### -field D3D_SIF_TEXTURE_COMPONENTS:0xc
 
 A 2-bit value for encoding texture components.
 
-### -field D3D_SIF_UNUSED
+### -field D3D_SIF_UNUSED:0x10
 
 This value is reserved.
 
@@ -103,7 +103,7 @@ A 2-bit value for encoding texture components.
 
 A 2-bit value for encoding texture components.
 
-### -field D3D_SIF_FORCE_DWORD
+### -field D3D_SIF_FORCE_DWORD:0x7fffffff
 
 Forces the enumeration to compile to 32 bits.
             This value is not used directly by titles.

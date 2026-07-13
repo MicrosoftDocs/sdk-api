@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetUri
 title: IOpcRelationship::GetTargetUri (msopc.h)
-description: Gets the URI of the relationship�target.
+description: Gets the URI of the relationship target.
 helpviewer_keywords: ["GetTargetUri","GetTargetUri method [Open Packaging Conventions]","GetTargetUri method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetTargetUri method","IOpcRelationship.GetTargetUri","IOpcRelationship::GetTargetUri","msopc/IOpcRelationship::GetTargetUri","opc.iopcrelationship_gettargeturi"]
 old-location: opc\iopcrelationship_gettargeturi.htm
 tech.root: OPC
@@ -118,7 +118,7 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML</a>
 
 
 

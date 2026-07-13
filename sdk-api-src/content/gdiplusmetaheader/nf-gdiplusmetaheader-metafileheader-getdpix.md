@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::GetDpiX</b> method gets the horizontal dots per inch of the associated metafile.
 
-## -parameters
+
 
 ## -returns
 

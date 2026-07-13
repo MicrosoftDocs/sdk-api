@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-ole32-l1-1-0.dll
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - ComBase.dll
@@ -56,7 +59,7 @@ api_name:
 
 Prevents any new activation requests from the SCM on all class objects registered within the process.
 
-## -parameters
+
 
 ## -returns
 

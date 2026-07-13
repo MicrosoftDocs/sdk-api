@@ -54,14 +54,11 @@ Exposes methods that allow implementers of a custom <a href="/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithAppUserModelID</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithAppUserModelID</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IObjectWithAppUserModelID</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithAppUserModelID</b> also has these types of members:
 
 ## -remarks
 
-Only file types for which an application is a registered handler appear in that application's Jump List. When an application uses an explicit AppUserModelID to identify itself and the windows and processes that belong to it, that AppUserModelID must also be set in a handler's implemention so that the handler is recognized as being associated with that application. When the application accesses a file such that <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a> is called as a result, an attempt is made to add the file to the <b>Recent</b> or <b>Frequent</b> category, or possibly a custom category, in that application's Jump List. If the application is a registered handler for that file type, identified as such by the handler's AppUserModelID matching the application's AppUserModelID, that file is added to the Jump List. If not, it is filtered and does not appear.
+Only file types for which an application is a registered handler appear in that application's Jump List. When an application uses an explicit AppUserModelID to identify itself and the windows and processes that belong to it, that AppUserModelID must also be set in a handler's implementation so that the handler is recognized as being associated with that application. When the application accesses a file such that <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a> is called as a result, an attempt is made to add the file to the <b>Recent</b> or <b>Frequent</b> category, or possibly a custom category, in that application's Jump List. If the application is a registered handler for that file type, identified as such by the handler's AppUserModelID matching the application's AppUserModelID, that file is added to the Jump List. If not, it is filtered and does not appear.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided in Windows. Applications that create custom Shell folders that expose an association handler enumeration needed by the system to determine the files allowed in the application's Jump List should implement their own versions.

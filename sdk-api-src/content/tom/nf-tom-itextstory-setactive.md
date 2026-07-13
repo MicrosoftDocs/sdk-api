@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStory.SetActive
 title: ITextStory::SetActive (tom.h)
-description: Sets the active state of a story.
+description: Sets the active state of a story. (ITextStory.SetActive)
 helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetActive method","ITextStory.SetActive","ITextStory::SetActive","SetActive","SetActive method [Windows Controls]","SetActive method [Windows Controls]","ITextStory interface","controls.itextstory_setactive","tom/ITextStory::SetActive"]
 old-location: controls\itextstory_setactive.htm
 tech.root: Controls

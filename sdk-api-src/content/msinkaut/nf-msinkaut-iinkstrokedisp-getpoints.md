@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -65,7 +65,7 @@ Optional. The number of points to return. The default value ISC_AllElements, def
 
 ### -param Points [out, retval]
 
-Whent this method returns, contains the array of points from the stroke.
+When this method returns, contains the array of points from the stroke.
 
 For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 

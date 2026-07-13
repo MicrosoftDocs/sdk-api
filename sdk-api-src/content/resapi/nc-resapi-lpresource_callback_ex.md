@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.LPRESOURCE_CALLBACK_EX
 title: LPRESOURCE_CALLBACK_EX (resapi.h)
-description: TBD.
+description: The LPRESOURCE_CALLBACK_EX callback function is accessible by another function and is invoked after the first function completes. (LPRESOURCE_CALLBACK_EX)
 helpviewer_keywords: ["LPRESOURCE_CALLBACK_EX","LPRESOURCE_CALLBACK_EX callback function [Failover Cluster]","ResourceCallbackEx","ResourceCallbackEx callback","ResourceCallbackEx callback function [Failover Cluster]","mscs.lpresource_callback_ex","resapi/LPRESOURCE_CALLBACK_EX","resapi/ResourceCallbackEx"]
 old-location: mscs\lpresource_callback_ex.htm
 tech.root: MsCS
 ms.assetid: 663b009c-92cf-4881-bae7-fb1215140581
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: LPRESOURCE_CALLBACK_EX, LPRESOURCE_CALLBACK_EX callback function [Failover Cluster], ResourceCallbackEx, ResourceCallbackEx callback, ResourceCallbackEx callback function [Failover Cluster], mscs.lpresource_callback_ex, resapi/LPRESOURCE_CALLBACK_EX, resapi/ResourceCallbackEx
 req.header: resapi.h
 req.include-header: 

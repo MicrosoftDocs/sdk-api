@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-perf-legacy-l1-1-0.dll
  - AdvAPI32.dll
 api_name:
  - PerfDeleteCounters
@@ -76,7 +77,7 @@ If the function fails, the return value is a
 
 ## -remarks
 
-The <i>pCounters</i> parameter should point to a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
+The <i>pCounters</i> parameter should point to a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
 <b>PERF_COUNTER_IDENTIFIER</b> structure, optionally followed by a null-terminated
 UTF-16LE instance  name string, followed by padding that makes the size of the block a multiple of 8 bytes.
 

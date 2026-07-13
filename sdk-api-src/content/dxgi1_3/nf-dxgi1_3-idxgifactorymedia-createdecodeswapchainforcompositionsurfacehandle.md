@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_3.IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle
 title: IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle (dxgi1_3.h)
-description: Creates a YUV swap chain for an existing DirectComposition surface handle.
+description: Creates a YUV swap chain for an existing DirectComposition surface handle. (IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle)
 helpviewer_keywords: ["CreateDecodeSwapChainForCompositionSurfaceHandle","CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI]","CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI]","IDXGIFactoryMedia interface","IDXGIFactoryMedia interface [DXGI]","CreateDecodeSwapChainForCompositionSurfaceHandle method","IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle","IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle","direct3ddxgi.idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle","dxgi1_3/IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle"]
 old-location: direct3ddxgi\idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle.htm
 tech.root: direct3ddxgi

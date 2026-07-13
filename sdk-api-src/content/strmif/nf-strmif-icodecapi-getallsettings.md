@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ICodecAPI.GetAllSettings
 title: ICodecAPI::GetAllSettings (strmif.h)
-description: The GetAllSettings method gets the codec's current properties and writes them to a stream.
+description: The GetAllSettings method gets the codec's current properties and writes them to a stream. (ICodecAPI.GetAllSettings)
 helpviewer_keywords: ["GetAllSettings","GetAllSettings method [DirectShow]","GetAllSettings method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetAllSettings method","ICodecAPI.GetAllSettings","ICodecAPI::GetAllSettings","ICodecAPIGetAllSettings","dshow.icodecapi_getallsettings","strmif/ICodecAPI::GetAllSettings"]
 old-location: dshow\icodecapi_getallsettings.htm
 tech.root: dshow
 ms.assetid: 45685033-73cc-4810-90f2-49343494641b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAllSettings, GetAllSettings method [DirectShow], GetAllSettings method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetAllSettings method, ICodecAPI.GetAllSettings, ICodecAPI::GetAllSettings, ICodecAPIGetAllSettings, dshow.icodecapi_getallsettings, strmif/ICodecAPI::GetAllSettings
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAllSettings</b> method gets the codec's current properties and writes them to  a stream.
 

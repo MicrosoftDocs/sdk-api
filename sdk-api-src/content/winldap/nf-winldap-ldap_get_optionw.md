@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_get_optionW
 title: ldap_get_optionW function (winldap.h)
-description: Retrieves the current values of session-wide parameters.
+description: The ldap_get_optionW (Unicode) function (winldap.h) retrieves the current values of session-wide parameters. 
 helpviewer_keywords: ["_ldap_ldap_get_option","ldap.ldap__get__option","ldap.ldap_get_option","ldap_get_option","ldap_get_option function [LDAP]","ldap_get_optionW","winldap/ldap_get_option","winldap/ldap_get_optionW"]
 old-location: ldap\ldap_get_option.htm
 tech.root: ldap
 ms.assetid: e07c2c3d-8099-4f9c-9ee7-26c1287110d5
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_get_option, ldap.ldap__get__option, ldap.ldap_get_option, ldap_get_option, ldap_get_option function [LDAP], ldap_get_optionW, winldap/ldap_get_option, winldap/ldap_get_optionW
 req.header: winldap.h
 req.include-header: 
@@ -78,9 +78,9 @@ If the function fails, it returns an error code. For more information, see
 ## -remarks
 
 For more information and a description of optional settings that apply to an LDAP session, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. The <i>outvalue</i> value returns a pointer to an allocated block of memory of the type listed in the <b>Session Options</b> table; this memory should be freed using <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> when the data is no longer required, unless it is explicitly mentioned in the <b>Session Options</b> table not to free the returned memory.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. The <i>outvalue</i> value returns a pointer to an allocated block of memory of the type listed in the <b>Session Options</b> table; this memory should be freed using <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> when the data is no longer required, unless it is explicitly mentioned in the <b>Session Options</b> table not to free the returned memory.
 
-<div class="alert"><b>Note</b>  <a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_ERROR_STRING</a> returns a pointer to an internal static string table, and <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> should not be called when using this session option.</div>
+<div class="alert"><b>Note</b>  <a href="/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_ERROR_STRING</a> returns a pointer to an internal static string table, and <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> should not be called when using this session option.</div>
 <div> </div>
 Multithreading: The <b>ldap_get_option</b> function is thread-safe.
 
@@ -89,7 +89,7 @@ Multithreading: The <b>ldap_get_option</b> function is thread-safe.
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_get_option as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_get_option as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -105,7 +105,7 @@ Multithreading: The <b>ldap_get_option</b> function is thread-safe.
 
 
 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 

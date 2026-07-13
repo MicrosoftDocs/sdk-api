@@ -1,5 +1,5 @@
 ---
-UID: NE:propvarutil.__unnamed_enum_0
+UID: NE:propvarutil.PROPVAR_COMPARE_UNIT
 title: PROPVAR_COMPARE_UNIT (propvarutil.h)
 description: These flags are associated with certain PROPVARIANT structure comparisons.
 helpviewer_keywords: ["PROPVAR_COMPARE_UNIT","PROPVAR_COMPARE_UNIT enumeration [Windows Properties]","PVCU_DAY","PVCU_DEFAULT","PVCU_HOUR","PVCU_MINUTE","PVCU_MONTH","PVCU_SECOND","PVCU_YEAR","_shell_PROPVAR_COMPARE_UNIT","properties.PROPVAR_COMPARE_UNIT","propvarutil/PROPVAR_COMPARE_UNIT","propvarutil/PVCU_DAY","propvarutil/PVCU_DEFAULT","propvarutil/PVCU_HOUR","propvarutil/PVCU_MINUTE","propvarutil/PVCU_MONTH","propvarutil/PVCU_SECOND","propvarutil/PVCU_YEAR","shell.PROPVAR_COMPARE_UNIT"]
@@ -54,30 +54,31 @@ These flags are associated with certain <a href="/windows/desktop/api/propidl/ns
 
 ## -enum-fields
 
-### -field PVCU_DEFAULT
+### -field PVCU_DEFAULT:0
 
 The default unit.
 
-### -field PVCU_SECOND
+### -field PVCU_SECOND:1
 
 The second comparison unit.
 
-### -field PVCU_MINUTE
+### -field PVCU_MINUTE:2
 
 The minute comparison unit.
 
-### -field PVCU_HOUR
+### -field PVCU_HOUR:3
 
 The hour comparison unit.
 
-### -field PVCU_DAY
+### -field PVCU_DAY:4
 
 The day comparison unit.
 
-### -field PVCU_MONTH
+### -field PVCU_MONTH:5
 
 The month comparison unit.
 
-### -field PVCU_YEAR
+### -field PVCU_YEAR:6
 
 The year comparison unit.
+

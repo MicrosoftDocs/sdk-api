@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.AddPersistentIScsiDeviceW
 title: AddPersistentIScsiDeviceW function (iscsidsc.h)
-description: AddPersistentIscsiDevice function adds a volume device name, drive letter, or mount point symbolic link to the list of iSCSI persistently bound volumes and devices.
-helpviewer_keywords: ["AddPersistentIScsiDeviceW","AddPersistentIscsiDevice","AddPersistentIscsiDevice function [iSCSI Discovery Library API]","AddPersistentIscsiDeviceA","AddPersistentIscsiDeviceW","AddPersistentiScsiDevice","iscsidisc.addpersistentiscsidevice","iscsidsc/AddPersistentIscsiDevice","iscsidsc/AddPersistentIscsiDeviceA","iscsidsc/AddPersistentIscsiDeviceW"]
+description: AddPersistentIscsiDevice function adds a volume device name, drive letter, or mount point symbolic link to the list of iSCSI persistently bound volumes and devices. (Unicode)
+helpviewer_keywords: ["AddPersistentIScsiDeviceW", "AddPersistentIscsiDevice", "AddPersistentIscsiDevice function [iSCSI Discovery Library API]", "AddPersistentIscsiDeviceW", "AddPersistentiScsiDevice", "iscsidisc.addpersistentiscsidevice", "iscsidsc/AddPersistentIscsiDevice", "iscsidsc/AddPersistentIscsiDeviceW"]
 old-location: iscsidisc\addpersistentiscsidevice.htm
 tech.root: iSCSIDisc
 ms.assetid: 184b256b-0cb0-45c1-8f73-5ff28fb388fb
@@ -120,4 +120,4 @@ The volume or device is already in the persistent volume or device list.
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines AddPersistentIScsiDevice as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines AddPersistentIScsiDevice as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

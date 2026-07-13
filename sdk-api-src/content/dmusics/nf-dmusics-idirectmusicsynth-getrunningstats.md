@@ -4,7 +4,7 @@ title: IDirectMusicSynth::GetRunningStats (dmusics.h)
 description: The GetRunningStats method retrieves current information about the state of the synthesizer so that an application can tell how the synth is performing.
 helpviewer_keywords: ["GetRunningStats","GetRunningStats method [Audio Devices]","GetRunningStats method [Audio Devices]","IDirectMusicSynth interface","IDirectMusicSynth interface [Audio Devices]","GetRunningStats method","IDirectMusicSynth.GetRunningStats","IDirectMusicSynth::GetRunningStats","audio.idirectmusicsynth_getrunningstats","audmp-routines_9669d460-7c3b-4769-bb3e-fdca1d347f07.xml","dmusics/IDirectMusicSynth::GetRunningStats"]
 old-location: audio\idirectmusicsynth_getrunningstats.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: cf3e97f2-6068-4438-b4c7-5e55ba22bd6e
 ms.date: 12/05/2018
 ms.keywords: GetRunningStats, GetRunningStats method [Audio Devices], GetRunningStats method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetRunningStats method, IDirectMusicSynth.GetRunningStats, IDirectMusicSynth::GetRunningStats, audio.idirectmusicsynth_getrunningstats, audmp-routines_9669d460-7c3b-4769-bb3e-fdca1d347f07.xml, dmusics/IDirectMusicSynth::GetRunningStats
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynth.GetRunningStats
+archived: true
 ---
 
 # IDirectMusicSynth::GetRunningStats

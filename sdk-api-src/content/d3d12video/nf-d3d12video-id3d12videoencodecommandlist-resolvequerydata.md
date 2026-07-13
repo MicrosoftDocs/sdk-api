@@ -3,7 +3,7 @@ UID: NF:d3d12video.ID3D12VideoEncodeCommandList.ResolveQueryData
 title: ID3D12VideoEncodeCommandList::ResolveQueryData
 ms.date: 11/4/2019
 targetos: Windows
-description: Extracts data from a query.
+description: Extracts data from a query. (ID3D12VideoEncodeCommandList::ResolveQueryData)
 tech.root: mf
 req.assembly: 
 req.construct-type: function

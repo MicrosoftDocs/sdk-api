@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_Update","ListView_Update macro [Windows Controls
 old-location: controls\ListView_Update.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_update.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_Update, ListView_Update macro [Windows Controls], _win32_ListView_Update, _win32_ListView_Update_cpp, commctrl/ListView_Update, controls.ListView_Update, controls._win32_ListView_Update
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_Update macro
+
+## -syntax
+
+```cpp
+BOOL ListView_Update(
+   HWND hwndLV,
+   int  i
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

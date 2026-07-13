@@ -54,30 +54,30 @@ Specifies how a bitmap can be used.
 
 ## -enum-fields
 
-### -field D2D1_BITMAP_OPTIONS_NONE
+### -field D2D1_BITMAP_OPTIONS_NONE:0x00000000
 
 The bitmap is created with default properties.
 
-### -field D2D1_BITMAP_OPTIONS_TARGET
+### -field D2D1_BITMAP_OPTIONS_TARGET:0x00000001
 
 The bitmap can be used as a device context target.
 
-### -field D2D1_BITMAP_OPTIONS_CANNOT_DRAW
+### -field D2D1_BITMAP_OPTIONS_CANNOT_DRAW:0x00000002
 
 The bitmap cannot be used as an input.
 
-### -field D2D1_BITMAP_OPTIONS_CPU_READ
+### -field D2D1_BITMAP_OPTIONS_CPU_READ:0x00000004
 
 The bitmap can be read from the CPU.
 
-### -field D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE
+### -field D2D1_BITMAP_OPTIONS_GDI_COMPATIBLE:0x00000008
 
 The bitmap works with <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a>.
 
 <div class="alert"><b>Note</b>  This flag is not available in Windows Store apps.</div>
 <div> </div>
 
-### -field D2D1_BITMAP_OPTIONS_FORCE_DWORD
+### -field D2D1_BITMAP_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

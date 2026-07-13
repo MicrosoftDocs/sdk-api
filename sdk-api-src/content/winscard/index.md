@@ -4,7 +4,8 @@ title: Winscard.h header
 ms.assetid: e6918f93-5f64-355d-b78c-87148089fbaf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: security
 f1_keywords:
  - winscard

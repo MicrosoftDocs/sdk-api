@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::GetVersions </b>method obtains version information about the force-feedback hardware and driver.
+The <b>IDirectInputEffectDriver::GetVersions </b> method obtains version information about the force-feedback hardware and driver.
 
 ## -parameters
 

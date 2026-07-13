@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.AVIBuildFilterW
 title: AVIBuildFilterW function (vfw.h)
-description: The AVIBuildFilter function builds a filter specification that is subsequently used by the GetOpenFileName or GetSaveFileName function.
-helpviewer_keywords: ["AVIBuildFilter","AVIBuildFilter function [Windows Multimedia]","AVIBuildFilterA","AVIBuildFilterW","_win32_AVIBuildFilter","multimedia.avibuildfilter","vfw/AVIBuildFilter","vfw/AVIBuildFilterA","vfw/AVIBuildFilterW"]
+description: The AVIBuildFilter function builds a filter specification that is subsequently used by the GetOpenFileName or GetSaveFileName function. (Unicode)
+helpviewer_keywords: ["AVIBuildFilter", "AVIBuildFilter function [Windows Multimedia]", "AVIBuildFilterW", "_win32_AVIBuildFilter", "multimedia.avibuildfilter", "vfw/AVIBuildFilter", "vfw/AVIBuildFilterW"]
 old-location: multimedia\avibuildfilter.htm
 tech.root: Multimedia
 ms.assetid: 0ec90343-7493-4fa7-ac89-a49db90ecdf7
@@ -110,7 +110,7 @@ This function accesses the registry for all filter types that the AVIFile librar
 
 
 > [!NOTE]
-> The vfw.h header defines AVIBuildFilter as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines AVIBuildFilter as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

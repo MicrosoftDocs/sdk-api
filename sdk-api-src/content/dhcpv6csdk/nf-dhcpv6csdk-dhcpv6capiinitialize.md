@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: DhcpCSvc6.Lib
 req.dll: 
 req.irql: 
 targetos: Windows

@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.OpenFileMappingW
 title: OpenFileMappingW function (memoryapi.h)
-description: Opens a named file mapping object.
+description: Opens a named file mapping object. (OpenFileMappingW)
 helpviewer_keywords: ["OpenFileMapping","OpenFileMapping function","OpenFileMappingA","OpenFileMappingW","_win32_openfilemapping","base.openfilemapping","fs.openfilemapping","winbase/OpenFileMapping","winbase/OpenFileMappingA","winbase/OpenFileMappingW"]
 old-location: base\openfilemapping.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
+ - api-ms-win-core-memory-l1-1-5.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
  - kernel32legacy.dll
@@ -110,7 +115,7 @@ When modifying a file through a mapped view, the last modification timestamp may
      If required, the caller should use <a href="/windows/desktop/api/fileapi/nf-fileapi-setfiletime">SetFileTime</a> to set the 
      timestamp.
 
-When it is no longer needed, the caller should call release the handle returned by 
+When it is no longer needed, the caller should release the handle returned by 
      <b>OpenFileMapping</b> with a call to 
      <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 

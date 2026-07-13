@@ -88,7 +88,7 @@ This method returns the following <b>HRESULT</b> values, as well as others.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

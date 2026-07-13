@@ -6,13 +6,13 @@ helpviewer_keywords: ["DWRITE_GLYPH_IMAGE_DATA","DWRITE_GLYPH_IMAGE_DATA structu
 old-location: directwrite\dwrite_glyph_image_data.htm
 tech.root: DirectWrite
 ms.assetid: 4BBA8B7A-E2DA-445B-AE56-FFA7629E3D06
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: DWRITE_GLYPH_IMAGE_DATA, DWRITE_GLYPH_IMAGE_DATA structure [Direct Write], directwrite.dwrite_glyph_image_data, dwrite_3/DWRITE_GLYPH_IMAGE_DATA
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 14393
+req.target-min-winversvr: Windows 10 Build 14393
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

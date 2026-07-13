@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._TXFS_WRITE_BACKUP_INFORMATION
 title: TXFS_WRITE_BACKUP_INFORMATION
-description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
+description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION. (TXFS_WRITE_BACKUP_INFORMATION)
 helpviewer_keywords: ["*PTXFS_WRITE_BACKUP_INFORMATION","PTXFS_WRITE_BACKUP_INFORMATION","PTXFS_WRITE_BACKUP_INFORMATION structure pointer [Files]","TXFS_WRITE_BACKUP_INFORMATION","TXFS_WRITE_BACKUP_INFORMATION structure [Files]","fs.txfs_write_backup_information","winioctl/PTXFS_WRITE_BACKUP_INFORMATION","winioctl/TXFS_WRITE_BACKUP_INFORMATION"]
 old-location: fs\txfs_write_backup_information.htm
 tech.root: fs
@@ -59,7 +59,7 @@ api_name:
     information, and alternatives to TxF, please see 
     <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
-Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling <a href="/windows/desktop/api/winioctl/ns-winioctl-txfs_read_backup_information_out">TXFS_WRITE_BACKUP_INFORMATION</a>.
+Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
 
 ## -struct-fields
 

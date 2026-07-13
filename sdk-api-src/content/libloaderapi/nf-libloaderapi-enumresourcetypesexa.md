@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.EnumResourceTypesExA
 title: EnumResourceTypesExA function (libloaderapi.h)
-description: Enumerates resource types associated with a specified binary module.
-helpviewer_keywords: ["EnumResourceTypesEx","EnumResourceTypesEx function [Menus and Other Resources]","EnumResourceTypesExA","EnumResourceTypesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceTypesEx","_win32_enumresourcetypesex_cpp","libloaderapi/EnumResourceTypesEx","libloaderapi/EnumResourceTypesExA","libloaderapi/EnumResourceTypesExW","menurc.enumresourcetypesex","winui._win32_enumresourcetypesex"]
+description: Enumerates resource types associated with a specified binary module. (ANSI)
+helpviewer_keywords: ["EnumResourceTypesExA", "RESOURCE_ENUM_LN", "RESOURCE_ENUM_MUI", "RESOURCE_ENUM_VALIDATE", "libloaderapi/EnumResourceTypesExA"]
 old-location: menurc\enumresourcetypesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypesex.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-libraryloader-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
  - KernelBase.dll
@@ -144,7 +145,7 @@ The language used to filter the search in the MUI module. This parameter is used
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if successful or <b>FALSE</b> if the function does not find a resource, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -169,7 +170,7 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 > [!NOTE]
-> The libloaderapi.h header defines EnumResourceTypesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The libloaderapi.h header defines EnumResourceTypesEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -197,4 +198,4 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPAMVACompBufferInfo","AMVACompBufferInfo","AMVACompBuff
 old-location: dshow\amvacompbufferinfo.htm
 tech.root: dshow
 ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo'
 req.header: amva.h
 req.include-header: Videoacc.h
@@ -53,6 +53,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AMVACompBufferInfo</b> structure describes the allocated surfaces and compressed buffer information.
 

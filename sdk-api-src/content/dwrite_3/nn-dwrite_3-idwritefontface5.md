@@ -1,10 +1,10 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFace5
 title: IDWriteFontFace5
-description: Contains font face type, appropriate file references, and face identification data.
+description: Contains font face type, appropriate file references, and face identification data. (IDWriteFontFace5)
 helpviewer_keywords: ["IDWriteFontFace5","IDWriteFontFace5 interface [Direct Write]","IDWriteFontFace5 interface [Direct Write]","described","directwrite.idwritefontface5","dwrite_3/IDWriteFontFace5"]
 tech.root: DirectWrite
-ms.date: 09/10/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontFace5, IDWriteFontFace5 interface [Direct Write], IDWriteFontFace5 interface [Direct Write],described, directwrite.idwritefontface5, dwrite_3/IDWriteFontFace5
 targetos: Windows
 req.assembly: 
@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:

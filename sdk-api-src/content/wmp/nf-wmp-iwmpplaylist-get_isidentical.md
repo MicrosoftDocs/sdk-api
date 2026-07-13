@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","get_isIde
 old-location: wmp\iwmpplaylist_get_isidentical.htm
 tech.root: WMP
 ms.assetid: 480fa108-5cfd-49ab-92fe-c635f13f3194
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_isIdentical method, IWMPPlaylist.get_isIdentical, IWMPPlaylist::get_isIdentical, IWMPPlaylistget_isIdentical, get_isIdentical, get_isIdentical method [Windows Media Player], get_isIdentical method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_isidentical, wmp/IWMPPlaylist::get_isIdentical
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_isIdentical</b> method retrieves a value indicating whether the specified playlist is identical to the current playlist.
 

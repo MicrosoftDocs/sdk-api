@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.SetAppViewInitialized
 title: IXblIdpAuthManager::SetAppViewInitialized (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthManager.SetAppViewInitialized)
 helpviewer_keywords: ["IXblIdpAuthManager interface","SetAppViewInitialized method","IXblIdpAuthManager.SetAppViewInitialized","IXblIdpAuthManager::SetAppViewInitialized","SetAppViewInitialized","SetAppViewInitialized method","SetAppViewInitialized method","IXblIdpAuthManager interface","xblidp.ixblidpauthmanager_setappviewinitialized","xblidpauthmanager/IXblIdpAuthManager::SetAppViewInitialized"]
 old-location: xblidp\ixblidpauthmanager_setappviewinitialized.htm
 tech.root: xblidp
@@ -66,7 +66,7 @@ Type: <b>__RPC__in_string</b>
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

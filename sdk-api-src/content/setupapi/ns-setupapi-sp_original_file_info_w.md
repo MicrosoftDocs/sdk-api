@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_ORIGINAL_FILE_INFO_W
 title: SP_ORIGINAL_FILE_INFO_W (setupapi.h)
-description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.
+description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation. (Unicode)
 helpviewer_keywords: ["*PSP_ORIGINAL_FILE_INFO_W","PSP_ORIGINAL_FILE_INFO","PSP_ORIGINAL_FILE_INFO structure pointer [Setup API]","SP_ORIGINAL_FILE_INFO","SP_ORIGINAL_FILE_INFO structure [Setup API]","SP_ORIGINAL_FILE_INFO_W","_setupapi_sp_original_file_info","setup.sp_original_file_info","setupapi/PSP_ORIGINAL_FILE_INFO","setupapi/SP_ORIGINAL_FILE_INFO"]
 old-location: setup\sp_original_file_info.htm
 tech.root: setup
@@ -84,4 +84,4 @@ Catalog name of the INF file stored in array of size MAX_PATH.
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SP_ORIGINAL_FILE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SP_ORIGINAL_FILE_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

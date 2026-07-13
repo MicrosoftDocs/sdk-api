@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetCategory
 title: IKnownFolder::GetCategory (shobjidl_core.h)
-description: Retrieves the category�virtual, fixed, common, or per-user�of the selected folder.
+description: Retrieves the category—virtual, fixed, common, or per-user—of the selected folder.
 helpviewer_keywords: ["GetCategory","GetCategory method [Windows Shell]","GetCategory method [Windows Shell]","IKnownFolder interface","IKnownFolder interface [Windows Shell]","GetCategory method","IKnownFolder.GetCategory","IKnownFolder::GetCategory","_shell_IKnownFolder_GetCategory","shell.IKnownFolder_GetCategory","shobjidl_core/IKnownFolder::GetCategory"]
 old-location: shell\IKnownFolder_GetCategory.htm
 tech.root: shell
@@ -64,7 +64,7 @@ When this method returns, contains a pointer to the <a href="/windows/desktop/ap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

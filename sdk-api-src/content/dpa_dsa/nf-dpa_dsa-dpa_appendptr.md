@@ -6,7 +6,7 @@ helpviewer_keywords: ["DPA_AppendPtr","DPA_AppendPtr macro [Windows Controls]","
 old-location: controls\DPA_AppendPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_appendptr.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DPA_AppendPtr, DPA_AppendPtr macro [Windows Controls], _shell_DPA_AppendPtr, _shell_DPA_AppendPtr_cpp, controls.DPA_AppendPtr, controls._shell_DPA_AppendPtr, dpa_dsa/DPA_AppendPtr
 req.header: dpa_dsa.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # DPA_AppendPtr macro
+
+## -syntax
+
+```cpp
+int DPA_AppendPtr(
+   HDPA hdpa,
+   void *pitem
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the new item or <code>-1</code>, if the append action fails.
 
 
 ## -description

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWebProxy.get_Address
 title: IWebProxy::get_Address (wuapi.h)
-description: Gets and sets the address and the decimal port number of the proxy server.
+description: Gets and sets the address and the decimal port number of the proxy server. (Get)
 helpviewer_keywords: ["Address property [Windows Update Agent]","Address property [Windows Update Agent]","IWebProxy interface","IWebProxy interface [Windows Update Agent]","Address property","IWebProxy.Address","IWebProxy.get_Address","IWebProxy::Address","IWebProxy::get_Address","IWebProxy::put_Address","get_Address","wua.iwebproxy_address","wuapi/IWebProxy::Address","wuapi/IWebProxy::get_Address","wuapi/IWebProxy::put_Address"]
 old-location: wua\iwebproxy_address.htm
 tech.root: wua

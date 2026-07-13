@@ -6,7 +6,7 @@ helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","ThumbBarUpdateB
 old-location: shell\ITaskbarList3_ThumbBarUpdateButtons.htm
 tech.root: shell
 ms.assetid: 5bb38b1e-dc09-4868-b424-f11beca6e64f
-ms.date: 12/05/2018
+ms.date: 08/22/2025
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarUpdateButtons method, ITaskbarList3.ThumbBarUpdateButtons, ITaskbarList3::ThumbBarUpdateButtons, ThumbBarUpdateButtons, ThumbBarUpdateButtons method [Windows Shell], ThumbBarUpdateButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarUpdateButtons, shell.ITaskbarList3_ThumbBarUpdateButtons, shobjidl_core/ITaskbarList3::ThumbBarUpdateButtons
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -47,7 +47,6 @@ api_name:
 
 # ITaskbarList3::ThumbBarUpdateButtons
 
-
 ## -description
 
 Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by the window's current state. A thumbnail toolbar is a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
@@ -56,27 +55,27 @@ Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by
 
 ### -param hwnd [in]
 
-Type: <b>HWND</b>
+Type: **HWND**
 
 The handle of the window whose thumbnail representation contains the toolbar.
 
 ### -param cButtons [in]
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-The number of buttons defined in the array pointed to by <i>pButton</i>. The maximum number of buttons allowed is 7. This array contains only structures that represent existing buttons that are being updated.
+The number of buttons defined in the array pointed to by _pButton_. The maximum number of buttons allowed is 7. This array contains only structures that represent existing buttons that are being updated.
 
 ### -param pButton [in]
 
-Type: <b>LPTHUMBBUTTON</b>
+Type: **LPTHUMBBUTTON**
 
-A pointer to an array of <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a> structures. Each <b>THUMBBUTTON</b> defines an individual button. If the button already exists (the <b>iId</b> value is already defined), then that existing button is updated with the information provided in the structure.
+A pointer to an array of [THUMBBUTTON](ns-shobjidl_core-thumbbutton.md) structures. Each **THUMBBUTTON** defines an individual button. If the button already exists (the **iId** value is already defined), then that existing button is updated with the information provided in the structure.
 
 ## -returns
 
-Type: <b>HRESULT</b>
+Type: **HRESULT**
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
@@ -84,19 +83,22 @@ Because there is a limited amount of space in which to display thumbnails, as we
 
 Thumbnail toolbars are displayed only when thumbnails are being displayed on the taskbar. For instance, if a taskbar button represents a group with more open windows than there is room to display thumbnails for, the UI reverts to a legacy menu rather than thumbnails.
 
+### Accessibility
 
-#### Examples
+For information about accessibility in thumb bar button images, see the Remarks section of [ThumbBarSetImageList](nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist.md).
 
-The following example shows how to use <b>ThumbBarUpdateButtons</b> to change the text and image on an existing button in a thumbnail toolbar on the extended taskbar.
+### Examples
+
+The following example shows how to use **ThumbBarUpdateButtons** to change the text and image on an existing button in a thumbnail toolbar on the extended taskbar.
 
 
 ```cpp
-HRESULT UpdateThumbarButton(HWND hwnd)
+HRESULT UpdateThumbBarButton(HWND hwnd)
 {
     // Define a single structure for the button to update. The ID is that
     // of an existing button, so the other information (bitmap index and 
     // tooltip) overwrites the existing values, updating the button.
-    THUMBBUTON thbButton;
+    THUMBBUTTON thbButton;
     thbButton.dwMask = THB_BITMAP | THB_TOOLTIP;
     thbButtons[0].iId = 1;
     thbButton.iBitmap = 3;
@@ -121,24 +123,14 @@ HRESULT UpdateThumbarButton(HWND hwnd)
 
 ## -see-also
 
-<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
+[ITaskbarList](nn-shobjidl_core-itaskbarlist.md)
 
+[ITaskbarList2](nn-shobjidl_core-itaskbarlist2.md)
 
+[ITaskbarList3](nn-shobjidl_core-itaskbarlist3.md)
 
-<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
+[ITaskbarList3::ThumbBarSetImageList](nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist.md)
 
+[ITaskbarList3::ThumbBarAddButtons](nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons.md)
 
-
-<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>
-
-
-
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons">ITaskbarList3::ThumbBarAddButtons</a>
-
-
-
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist">ITaskbarList3::ThumbBarSetImageList</a>
-
-
-
-<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+[Taskbar Extensions](/windows/desktop/shell/taskbar-extensions)

@@ -47,6 +47,7 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_DEV_CAP
+archived: true
 ---
 
 # WIA_DEV_CAP structure

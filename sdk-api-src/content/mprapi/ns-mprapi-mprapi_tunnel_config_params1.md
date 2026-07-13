@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._MPRAPI_TUNNEL_CONFIG_PARAMS1
 title: MPRAPI_TUNNEL_CONFIG_PARAMS1 (mprapi.h)
-description: Used to get or set configuration of tunnel parameters on a RAS Server.
+description: Used to get or set configuration of tunnel parameters on a RAS Server. (MPRAPI_TUNNEL_CONFIG_PARAMS1)
 helpviewer_keywords: ["*PMPRAPI_TUNNEL_CONFIG_PARAMS1","MPRAPI_TUNNEL_CONFIG_PARAMS","MPRAPI_TUNNEL_CONFIG_PARAMS structure [RAS]","MPRAPI_TUNNEL_CONFIG_PARAMS0","MPRAPI_TUNNEL_CONFIG_PARAMS1","PMPRAPI_TUNNEL_CONFIG_PARAMS","PMPRAPI_TUNNEL_CONFIG_PARAMS structure pointer [RAS]","_MPRAPI_TUNNEL_CONFIG_PARAMS0","_MPRAPI_TUNNEL_CONFIG_PARAMS1","mprapi/MPRAPI_TUNNEL_CONFIG_PARAMS","mprapi/PMPRAPI_TUNNEL_CONFIG_PARAMS","rras.mprapi_tunnel_config_params"]
 old-location: rras\mprapi_tunnel_config_params.htm
 tech.root: RRAS

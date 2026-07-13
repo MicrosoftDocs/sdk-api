@@ -6,13 +6,13 @@ helpviewer_keywords: ["CancelDownload","CancelDownload method [Direct Write]","C
 old-location: directwrite\idwritefontdownloadqueue_canceldownload.htm
 tech.root: DirectWrite
 ms.assetid: f2ecabcf-3301-d446-8eda-4536b3f9b5e3
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: CancelDownload, CancelDownload method [Direct Write], CancelDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],CancelDownload method, IDWriteFontDownloadQueue.CancelDownload, IDWriteFontDownloadQueue::CancelDownload, directwrite.idwritefontdownloadqueue_canceldownload, dwrite_3/IDWriteFontDownloadQueue::CancelDownload
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,13 +53,13 @@ api_name:
  Removes all download requests from the queue and cancels any active download    
     operations.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

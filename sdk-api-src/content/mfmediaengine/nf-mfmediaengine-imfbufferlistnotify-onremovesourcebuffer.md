@@ -52,7 +52,7 @@ api_name:
 
 Indicates that a <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> has been removed.
 
-## -parameters
+
 
 ## -see-also
 

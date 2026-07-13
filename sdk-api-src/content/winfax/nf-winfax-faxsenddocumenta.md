@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxSendDocumentA
 title: FaxSendDocumentA function (winfax.h)
-description: A fax client application calls the FaxSendDocument function to queue a fax job that will transmit an outgoing fax transmission.
-helpviewer_keywords: ["FaxSendDocument","FaxSendDocument function [Fax Service]","FaxSendDocumentA","FaxSendDocumentW","_mfax_faxsenddocument","fax._mfax_faxsenddocument","winfax/FaxSendDocument","winfax/FaxSendDocumentA","winfax/FaxSendDocumentW"]
+description: A fax client application calls the FaxSendDocument function to queue a fax job that will transmit an outgoing fax transmission. (ANSI)
+helpviewer_keywords: ["FaxSendDocumentA", "winfax/FaxSendDocumentA"]
 old-location: fax\_mfax_faxsenddocument.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7t6c.htm
@@ -189,7 +189,7 @@ When you send a document from an application, links in the document may cause a 
 
 
 > [!NOTE]
-> The winfax.h header defines FaxSendDocument as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxSendDocument as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

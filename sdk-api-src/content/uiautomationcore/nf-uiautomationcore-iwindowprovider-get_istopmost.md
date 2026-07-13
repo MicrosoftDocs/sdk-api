@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_IsTopmost
 title: IWindowProvider::get_IsTopmost (uiautomationcore.h)
-description: Indicates whether the window is the topmost element in the z-order.
+description: Indicates whether the window is the topmost element in the z-order. (IWindowProvider.get_IsTopmost)
 helpviewer_keywords: ["IWindowProvider interface [Windows Accessibility]","IsTopmost property","IWindowProvider.IsTopmost","IWindowProvider.get_IsTopmost","IWindowProvider::IsTopmost","IWindowProvider::get_IsTopmost","IsTopmost property [Windows Accessibility]","IsTopmost property [Windows Accessibility]","IWindowProvider interface","get_IsTopmost","uiauto.uiauto_IWindowProvider_IsTopmost","uiauto_IWindowProvider_IsTopmost","uiautomationcore/IWindowProvider::IsTopmost","uiautomationcore/IWindowProvider::get_IsTopmost","winauto.uiauto_IWindowProvider_IsTopmost"]
 old-location: winauto\uiauto_IWindowProvider_IsTopmost.htm
 tech.root: WinAuto

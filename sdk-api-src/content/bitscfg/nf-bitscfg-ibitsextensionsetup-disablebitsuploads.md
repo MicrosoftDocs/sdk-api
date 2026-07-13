@@ -54,7 +54,7 @@ Use the
 <b>DisableBITSUploads</b> method to disable BITS upload on the virtual directory to which the ADSI object points. This method sets the 
 <a href="/windows/desktop/Bits/bits-iis-extension-properties">BITSUploadEnabled</a> IIS extension property.
 
-## -parameters
+
 
 ## -returns
 

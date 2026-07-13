@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLunMpio.GetLoadBalancePolicy
 title: IVdsLunMpio::GetLoadBalancePolicy (vdshwprv.h)
-description: Returns the current load balance policy on the LUN.
+description: The IVdsLunMpio::GetLoadBalancePolicy (vdshwprv.h) method returns the current load balance policy on the LUN.
 helpviewer_keywords: ["GetLoadBalancePolicy","GetLoadBalancePolicy method [VDS]","GetLoadBalancePolicy method [VDS]","IVdsLunMpio interface","IVdsLunMpio interface [VDS]","GetLoadBalancePolicy method","IVdsLunMpio.GetLoadBalancePolicy","IVdsLunMpio::GetLoadBalancePolicy","base.ivdslunmpio_getloadbalancepolicy","vds/IVdsLunMpio::GetLoadBalancePolicy","vdshwprv/IVdsLunMpio::GetLoadBalancePolicy"]
 old-location: base\ivdslunmpio_getloadbalancepolicy.htm
 tech.root: base
 ms.assetid: 56866ecb-c84b-4297-9bd4-54969501bf9e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetLoadBalancePolicy, GetLoadBalancePolicy method [VDS], GetLoadBalancePolicy method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetLoadBalancePolicy method, IVdsLunMpio.GetLoadBalancePolicy, IVdsLunMpio::GetLoadBalancePolicy, base.ivdslunmpio_getloadbalancepolicy, vds/IVdsLunMpio::GetLoadBalancePolicy, vdshwprv/IVdsLunMpio::GetLoadBalancePolicy
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the current load balance policy on the LUN.
 
@@ -82,7 +82,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -95,7 +95,7 @@ The load balance policy was successfully returned. If the LUN has no paths, the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -111,7 +111,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -123,7 +123,7 @@ The LUN object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_STATUS_FAILED</b></b></dt>
+<dt><b>VDS_E_OBJECT_STATUS_FAILED</b></dt>
 <dt>0x80042431L</dt>
 </dl>
 </td>
@@ -135,7 +135,7 @@ The LUN is in a failed state and is unable to perform the requested operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>

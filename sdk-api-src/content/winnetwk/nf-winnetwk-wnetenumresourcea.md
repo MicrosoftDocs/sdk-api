@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetEnumResourceA
 title: WNetEnumResourceA function (winnetwk.h)
-description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.
-helpviewer_keywords: ["WNetEnumResource","WNetEnumResource function [Windows Networking (WNet)]","WNetEnumResourceA","WNetEnumResourceW","_win32_wnetenumresource","winnetwk/WNetEnumResource","winnetwk/WNetEnumResourceA","winnetwk/WNetEnumResourceW","wnet.wnetenumresource"]
+description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function. (ANSI)
+helpviewer_keywords: ["WNetEnumResourceA", "winnetwk/WNetEnumResourceA"]
 old-location: wnet\wnetenumresource.htm
 tech.root: WNet
 ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
@@ -198,11 +198,11 @@ For a code sample that illustrates an application-defined function that enumerat
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetEnumResource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetEnumResource as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a>
 
 
 

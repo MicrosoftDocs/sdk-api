@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-gui-l1-1-1.dll
+ - ext-ms-win-ntuser-gui-l1-3-1.dll
  - User32.dll
  - ext-ms-win-ntuser-gui-l1-2-1.dll
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
@@ -77,22 +79,16 @@ The system copies the bitmaps in the <a href="/windows/desktop/api/winuser/ns-wi
 
 When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
+#### Examples
+
+For an example, see <a href="/windows/win32/menurc/using-cursors#creating-a-cursor">Creating a Cursor</a>.
+
 ## -see-also
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
-
-
 
 <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
 
-
-
 <a href="/windows/desktop/menurc/icons">Icons</a>
-
-
-
-<b>Reference</b>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetMaxTodayWidth","MonthCal_GetMaxTodayWidth mac
 old-location: controls\MonthCal_GetMaxTodayWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmaxtodaywidth.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetMaxTodayWidth, MonthCal_GetMaxTodayWidth macro [Windows Controls], _win32_MonthCal_GetMaxTodayWidth, _win32_MonthCal_GetMaxTodayWidth_cpp, commctrl/MonthCal_GetMaxTodayWidth, controls.MonthCal_GetMaxTodayWidth, controls._win32_MonthCal_GetMaxTodayWidth
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MonthCal_GetMaxTodayWidth macro
+
+## -syntax
+
+```cpp
+DWORD MonthCal_GetMaxTodayWidth(
+   HWND hmc
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the width of the "today" string, in pixels.
 
 
 ## -description

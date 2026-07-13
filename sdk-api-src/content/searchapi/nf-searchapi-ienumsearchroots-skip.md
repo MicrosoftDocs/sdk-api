@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Skip
 title: IEnumSearchRoots::Skip (searchapi.h)
-description: Skips the specified number of elements.
+description: Skips the specified number of elements. (IEnumSearchRoots.Skip)
 helpviewer_keywords: ["IEnumSearchRoots interface [search]","Skip method","IEnumSearchRoots.Skip","IEnumSearchRoots::Skip","Skip","Skip method [search]","Skip method [search]","IEnumSearchRoots interface","_search_IEnumSearchRoots_Skip","search._search_IEnumSearchRoots_Skip","searchapi/IEnumSearchRoots::Skip"]
 old-location: search\_search_IEnumSearchRoots_Skip.htm
 tech.root: search

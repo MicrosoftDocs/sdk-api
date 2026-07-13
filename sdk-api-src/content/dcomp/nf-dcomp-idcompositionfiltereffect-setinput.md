@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionFilterEffect.SetInput
 title: IDCompositionFilterEffect::SetInput (dcomp.h)
-description: Sets the the input at an index to the specified filter effect.
+description: Sets the input at an index to the specified filter effect.
 helpviewer_keywords: ["IDCompositionFilterEffect interface [DirectComposition]","SetInput method","IDCompositionFilterEffect.SetInput","IDCompositionFilterEffect::SetInput","SetInput","SetInput method [DirectComposition]","SetInput method [DirectComposition]","IDCompositionFilterEffect interface","dcomp/IDCompositionFilterEffect::SetInput","directcomp.idcompositionfiltereffect_setinput"]
 old-location: directcomp\idcompositionfiltereffect_setinput.htm
 tech.root: directcomp
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the the input at an index to the specified filter effect.
+Sets the input at an index to the specified filter effect.
 
 ## -parameters
 
@@ -82,7 +82,7 @@ The filter effect to apply.
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionbrightnesseffect">IDCompositionBrightnessEffect</a>
 </li>
 <li>
-<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioncolormatrixeffect">IDCompositionColorNatrixEffect</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioncolormatrixeffect">IDCompositionColorMatrixEffect</a>
 </li>
 <li>
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioncompositeeffect">IDCompositionCompositeEffect</a>
@@ -97,10 +97,10 @@ The filter effect to apply.
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionhuerotationeffect">IDCompositionHueRotationEffect</a>
 </li>
 <li>
-<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionlineartransfereffect">IDCompositionLinearTransferRffect</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionlineartransfereffect">IDCompositionLinearTransferEffect</a>
 </li>
 <li>
-<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionsaturationeffect">IDCompositionSaturationRffect</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionsaturationeffect">IDCompositionSaturationEffect</a>
 </li>
 <li>
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionshadoweffect">IDCompositionShadowEffect</a>
@@ -123,7 +123,7 @@ Flags to apply to the filter effect.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

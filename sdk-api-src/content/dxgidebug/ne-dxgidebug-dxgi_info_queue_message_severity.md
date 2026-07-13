@@ -54,7 +54,7 @@ Values that specify debug message severity levels for an information queue.
 
 ## -enum-fields
 
-### -field DXGI_INFO_QUEUE_MESSAGE_SEVERITY_CORRUPTION
+### -field DXGI_INFO_QUEUE_MESSAGE_SEVERITY_CORRUPTION:0
 
 Defines some type of corruption that has occurred.
 

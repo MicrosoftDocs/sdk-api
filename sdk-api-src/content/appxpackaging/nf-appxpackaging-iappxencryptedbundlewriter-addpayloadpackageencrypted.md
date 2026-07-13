@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted
 title: IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted (appxpackaging.h)
-description: Encrypts a new payload package to the bundle.
+description: Encrypts a new payload package to the bundle. (IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted)
 helpviewer_keywords: ["AddPayloadPackageEncrypted","AddPayloadPackageEncrypted method [App packaging and management]","AddPayloadPackageEncrypted method [App packaging and management]","IAppxEncryptedBundleWriter interface","IAppxEncryptedBundleWriter interface [App packaging and management]","AddPayloadPackageEncrypted method","IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted","IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted","appxpackaging/IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted","appxpkg.iappxencryptedbundlewriter_addpayloadpackageencrypted"]
 old-location: appxpkg\iappxencryptedbundlewriter_addpayloadpackageencrypted.htm
 tech.root: appxpkg

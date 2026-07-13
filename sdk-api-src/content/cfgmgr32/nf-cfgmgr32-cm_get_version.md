@@ -52,9 +52,9 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.]
 
-The <b>CM_Get_Version</b> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) for a local machine.
+The <b>CM_Get_Version</b> function returns version 4.0 of the <a href="/windows/win32/api/cfgmgr32/">Plug and Play (PnP) Configuration Manager DLL</a> (<i>Cfgmgr32.dll</i>) for a local machine.
 
-## -parameters
+
 
 ## -returns
 

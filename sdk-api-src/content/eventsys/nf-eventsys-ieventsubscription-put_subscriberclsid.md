@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriberCLSID
 title: IEventSubscription::put_SubscriberCLSID (eventsys.h)
-description: The CLSID of the subscriber component (for a persistent subscription).
+description: The CLSID of the subscriber component (for a persistent subscription). (Put)
 helpviewer_keywords: ["IEventSubscription interface [COM+]","SubscriberCLSID property","IEventSubscription.SubscriberCLSID","IEventSubscription.put_SubscriberCLSID","IEventSubscription::SubscriberCLSID","IEventSubscription::get_SubscriberCLSID","IEventSubscription::put_SubscriberCLSID","SubscriberCLSID property [COM+]","SubscriberCLSID property [COM+]","IEventSubscription interface","cos.ieventsubscription_subscriberclsid","eventsys/IEventSubscription::SubscriberCLSID","eventsys/IEventSubscription::get_SubscriberCLSID","eventsys/IEventSubscription::put_SubscriberCLSID","put_SubscriberCLSID"]
 old-location: cos\ieventsubscription_subscriberclsid.htm
 tech.root: cos

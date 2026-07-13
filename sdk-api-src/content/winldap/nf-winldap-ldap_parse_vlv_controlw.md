@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_parse_vlv_controlW
 title: ldap_parse_vlv_controlW function (winldap.h)
-description: Used to find and parse VLV search results.
-helpviewer_keywords: ["_ldap_ldap_parse_vlv_control","ldap.ldap__parse__vlv__control","ldap.ldap_parse_vlv_control","ldap_parse_vlv_control","ldap_parse_vlv_control function [LDAP]","ldap_parse_vlv_controlA","ldap_parse_vlv_controlW","winldap/ldap_parse_vlv_control","winldap/ldap_parse_vlv_controlA","winldap/ldap_parse_vlv_controlW"]
+description: Used to find and parse VLV search results. (Unicode)
+helpviewer_keywords: ["_ldap_ldap_parse_vlv_control", "ldap.ldap__parse__vlv__control", "ldap.ldap_parse_vlv_control", "ldap_parse_vlv_control", "ldap_parse_vlv_control function [LDAP]", "ldap_parse_vlv_controlW", "winldap/ldap_parse_vlv_control", "winldap/ldap_parse_vlv_controlW"]
 old-location: ldap\ldap_parse_vlv_control.htm
 tech.root: ldap
 ms.assetid: a1a1e47f-c53b-48a3-9c40-0e1518c5c729
@@ -117,7 +117,7 @@ For more information and a code example, see
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_parse_vlv_control as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_parse_vlv_control as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

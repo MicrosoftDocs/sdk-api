@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-keyboard-l1-3-2.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
@@ -116,10 +118,10 @@ void ShowDesktop()
     inputs[0].ki.wVk = VK_LWIN;
    
     inputs[1].type = INPUT_KEYBOARD;
-    inputs[1].ki.wVk = VK_D;
+    inputs[1].ki.wVk = 'D';
 
     inputs[2].type = INPUT_KEYBOARD;
-    inputs[2].ki.wVk = VK_D;
+    inputs[2].ki.wVk = 'D';
     inputs[2].ki.dwFlags = KEYEVENTF_KEYUP;
 
     inputs[3].type = INPUT_KEYBOARD;

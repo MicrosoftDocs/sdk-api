@@ -1,12 +1,12 @@
 ---
 UID: NF:mmiscapi.mmioOpenW
 title: mmioOpenW function (mmiscapi.h)
-description: The mmioOpen function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists.
-helpviewer_keywords: ["_win32_mmioOpen","mmioOpen","mmioOpen function [Windows Multimedia]","mmioOpenA","mmioOpenW","mmsystem/mmioOpen","mmsystem/mmioOpenA","mmsystem/mmioOpenW","multimedia.mmioopen"]
+description: The mmioOpenW (Unicode) function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists. (mmioOpenW)
+helpviewer_keywords: ["_win32_mmioOpen", "mmioOpen", "mmioOpen function [Windows Multimedia]", "mmioOpenW", "multimedia.mmioopen"]
 old-location: multimedia\mmioopen.htm
 tech.root: Multimedia
 ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia], mmioOpenA, mmioOpenW, mmsystem/mmioOpen, mmsystem/mmioOpenA, mmsystem/mmioOpenW, multimedia.mmioopen
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-mm-io-l1-1-0.dll
  - Winmm.dll
  - API-MS-Win-mm-misc-l1-1-0.dll
  - winmmbase.dll
@@ -81,7 +82,7 @@ Pointer to an <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> struct
 
 ### -param fdwOpen
 
-Flags for the open operation. The MMIO_READ, MMIO_WRITE, and MMIO_READWRITE flags are mutually exclusive â&euro;" only one should be specified. The MMIO_COMPAT, MMIO_EXCLUSIVE, MMIO_DENYWRITE, MMIO_DENYREAD, and MMIO_DENYNONE flags are file-sharing flags. The following values are defined.
+Flags for the open operation. The MMIO_READ, MMIO_WRITE, and MMIO_READWRITE flags are mutually exclusive – only one should be specified. The MMIO_COMPAT, MMIO_EXCLUSIVE, MMIO_DENYWRITE, MMIO_DENYREAD, and MMIO_DENYNONE flags are file-sharing flags. The following values are defined.
 
 <table>
 <tr>
@@ -173,6 +174,83 @@ Creates a fully qualified file name from the path specified in <i>szFilename</i>
 </tr>
 </table>
 
+## -returns
+
+Returns a handle of the opened file. If the file cannot be opened, the return value is <b>NULL</b>. If <i>lpmmioinfo</i> is not <b>NULL</b>, the <b>wErrorRet</b> member of the <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure will contain one of the following error values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_ACCESSDENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The file is protected and cannot be opened.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_INVALIDFILE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Another failure condition occurred. This is the default error for an open-file failure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_NETWORKERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+The network is not responding to the request to open a remote file.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_PATHNOTFOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The directory specification is incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_SHARINGVIOLATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The file is being used by another application and is unavailable.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_TOOMANYOPENFILES</b></dt>
+</dl>
+</td>
+<td width="60%">
+The number of files simultaneously open is at a maximum level. The system has run out of available file handles.
+
+</td>
+</tr>
+</table>
+
 ## -remarks
 
 If <i>lpmmioinfo</i> points to an <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure, initialize the members of the structure as follows. All unused members must be set to zero, including reserved members.
@@ -191,4 +269,4 @@ You must call <a href="/previous-versions/dd757316(v=vs.85)">mmioClose</a> to cl
 
 
 > [!NOTE]
-> The mmiscapi.h header defines mmioOpen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmiscapi.h header defines mmioOpen as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

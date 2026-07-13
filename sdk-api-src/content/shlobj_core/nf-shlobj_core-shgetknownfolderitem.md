@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
  - Shell32.dll
  - Ext-MS-Win-shell-shell32-l1-2-0.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
@@ -122,7 +126,7 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 
 ## -remarks
 
-The caller of this function must have Administrator privileges. To call this function on public known folders, the caller must have Administrator privileges. For per-user known folders the caller only requires User privileges.
+To call this function on public known folders, the caller must have Administrator privileges. For per-user known folders the caller only requires User privileges.
 
 Some of the known folders, for example, the <b>Documents</b> folder, are per-user. Every user has a different path for their <b>Documents</b> folder. If <i>hToken</i> is <b>NULL</b>, the API tries to access the calling application's instance of the folder, which is that of the current user. If <i>hToken</i> is a valid user token, the API tries to impersonate the user using this token and tries to access that user's instance.
 
@@ -153,3 +157,4 @@ To call this function on a folder of type <a href="/windows/desktop/api/shobjidl
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>
+

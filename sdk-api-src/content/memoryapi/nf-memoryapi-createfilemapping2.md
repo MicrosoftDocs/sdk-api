@@ -14,12 +14,12 @@ req.idl:
 req.include-header: Windows.h, Memoryapi.h
 req.irql: 
 req.kmdf-ver: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
@@ -30,6 +30,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
  - Kernel32.dll
 api_name:
  - CreateFileMapping2
@@ -39,6 +42,8 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# CreateFileMapping2 function
 
 ## -description
 
@@ -58,9 +63,9 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process must also sp
 
 ### -param SecurityAttributes
 
-Type: \_In_opt\_ **[SECURITY_ATTRIBUTES](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85))\***
+Type: \_In_opt\_ **[SECURITY_ATTRIBUTES](/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes)\***
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether a returned handle can be inherited by child processes. The <b>lpSecurityDescriptor</b> member of the <b>SECURITY_ATTRIBUTES</b> structure specifies a security descriptor for a new file mapping object.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether a returned handle can be inherited by child processes. The <b>lpSecurityDescriptor</b> member of the <b>SECURITY_ATTRIBUTES</b> structure specifies a security descriptor for a new file mapping object.
 
 If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited and the file mapping object gets a default security descriptor. The access control lists (ACL) in the default security descriptor for a file mapping object come from the primary or impersonation token of the creator. For more information, see <a href="/windows/win32/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
@@ -296,7 +301,7 @@ If <b>SEC_LARGE_PAGES</b> is specified, <b>SEC_COMMIT</b> must also
 </dl>
 </td>
 <td width="60%">
-Sets all pages to be non-cachable.
+Sets all pages to be non-cacheable.
 
 Applications should not use this attribute except when 
          explicitly required for a device. Using the interlocked functions with memory that is mapped with 
@@ -397,7 +402,7 @@ The number of extended parameters pointed to by *ExtendedParameters*.
 
 If the function succeeds, the return value is a handle to the newly created file mapping object.
 
-If the object exists before the function call, the function returns a handle to the existing object (with its current size, not the specified size), and <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>returns <b>ERROR_ALREADY_EXISTS</b>.
+If the object exists before the function call, the function returns a handle to the existing object (with its current size, not the specified size), and <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -429,7 +434,7 @@ For an example, see <a href="/windows/win32/memory/creating-named-shared-memory"
 
 <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 <a href="/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
 

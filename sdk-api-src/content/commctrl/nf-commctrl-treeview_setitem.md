@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetItem","TreeView_SetItem macro [Windows Contro
 old-location: controls\TreeView_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetItem, TreeView_SetItem macro [Windows Controls], _win32_TreeView_SetItem, _win32_TreeView_SetItem_cpp, commctrl/TreeView_SetItem, controls.TreeView_SetItem, controls._win32_TreeView_SetItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_SetItem macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_SetItem(
+   HWND     hwnd,
+   LPTVITEM pitem
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns a nonzero value if successful, or zero otherwise.
 
 
 ## -description

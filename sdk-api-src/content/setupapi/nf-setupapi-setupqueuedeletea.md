@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteA
 title: SetupQueueDeleteA function (setupapi.h)
-description: The SetupQueueDelete function places an individual file delete operation on a setup file queue.
-helpviewer_keywords: ["SetupQueueDelete","SetupQueueDelete function [Setup API]","SetupQueueDeleteA","SetupQueueDeleteW","_setupapi_setupqueuedelete","setup.setupqueuedelete","setupapi/SetupQueueDelete","setupapi/SetupQueueDeleteA","setupapi/SetupQueueDeleteW"]
+description: The SetupQueueDelete function places an individual file delete operation on a setup file queue. (ANSI)
+helpviewer_keywords: ["SetupQueueDeleteA", "setupapi/SetupQueueDeleteA"]
 old-location: setup\setupqueuedelete.htm
 tech.root: setup
 ms.assetid: 21cdaf05-c4fb-4130-baa5-31baf5391ece
@@ -88,7 +88,7 @@ Because delete operations are assumed to take place on fixed media, the user wil
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueueDelete as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueueDelete as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

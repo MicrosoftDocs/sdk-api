@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_ufn2dnW
 title: ldap_ufn2dnW function (winldap.h)
-description: Converts a user-friendly name to a distinguished name.
-helpviewer_keywords: ["_ldap_ldap_ufn2dn","ldap.ldap__ufn2dn","ldap.ldap_ufn2dn","ldap_ufn2dn","ldap_ufn2dn function [LDAP]","ldap_ufn2dnA","ldap_ufn2dnW","winldap/ldap_ufn2dn","winldap/ldap_ufn2dnA","winldap/ldap_ufn2dnW"]
+description: The ldap_ufn2dnW (Unicode) function (winldap.h) converts a user friendly name to a distinguished name.
+helpviewer_keywords: ["_ldap_ldap_ufn2dn", "ldap.ldap__ufn2dn", "ldap.ldap_ufn2dn", "ldap_ufn2dn", "ldap_ufn2dn function [LDAP]", "ldap_ufn2dnW", "winldap/ldap_ufn2dn", "winldap/ldap_ufn2dnW"]
 old-location: ldap\ldap_ufn2dn.htm
 tech.root: ldap
 ms.assetid: aca3942b-4371-48d2-8975-8d184abd1a49
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_ufn2dn, ldap.ldap__ufn2dn, ldap.ldap_ufn2dn, ldap_ufn2dn, ldap_ufn2dn function [LDAP], ldap_ufn2dnA, ldap_ufn2dnW, winldap/ldap_ufn2dn, winldap/ldap_ufn2dnA, winldap/ldap_ufn2dnW
 req.header: winldap.h
 req.include-header: 
@@ -83,7 +83,7 @@ The <b>ldap_ufn2dn</b> function attempts to normalize a user-specified name to a
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_ufn2dn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_ufn2dn as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

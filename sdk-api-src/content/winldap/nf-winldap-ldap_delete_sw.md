@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_delete_sW
 title: ldap_delete_sW function (winldap.h)
-description: The ldap_delete_s function is a synchronous operation that removes a leaf entry from the directory tree.
-helpviewer_keywords: ["_ldap_ldap_delete_s","ldap.ldap__delete__s","ldap.ldap_delete_s","ldap_delete_s","ldap_delete_s function [LDAP]","ldap_delete_sA","ldap_delete_sW","winldap/ldap_delete_s","winldap/ldap_delete_sA","winldap/ldap_delete_sW"]
+description: The ldap_delete_sW (Unicode) function (winldap.h) is a synchronous operation that removes a leaf entry from the directory tree.
+helpviewer_keywords: ["_ldap_ldap_delete_s", "ldap.ldap__delete__s", "ldap.ldap_delete_s", "ldap_delete_s", "ldap_delete_s function [LDAP]", "ldap_delete_sW", "winldap/ldap_delete_s", "winldap/ldap_delete_sW"]
 old-location: ldap\ldap_delete_s.htm
 tech.root: ldap
 ms.assetid: cded1b76-0fad-454f-bf5a-c500c9079f08
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _ldap_ldap_delete_s, ldap.ldap__delete__s, ldap.ldap_delete_s, ldap_delete_s, ldap_delete_s function [LDAP], ldap_delete_sA, ldap_delete_sW, winldap/ldap_delete_s, winldap/ldap_delete_sA, winldap/ldap_delete_sW
 req.header: winldap.h
 req.include-header: 
@@ -88,7 +88,7 @@ Multithreading: The <b>ldap_delete_s</b> function is thread-safe.
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_delete_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_delete_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

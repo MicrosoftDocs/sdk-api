@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2tcpip.InetNtopW
 title: InetNtopW function (ws2tcpip.h)
-description: The InetNtop function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is inet_ntop.
+description: The InetNtop function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is inet_ntop. (InetNtopW)
 helpviewer_keywords: ["AF_INET","AF_INET6","InetNtop","InetNtop function [Winsock]","InetNtopA","InetNtopA or inet_ntop","InetNtopW","inet_ntop","winsock.inet_ntop","ws2tcpip/InetNtop","ws2tcpip/InetNtopA or inet_ntop","ws2tcpip/InetNtopW"]
 old-location: winsock\inet_ntop.htm
 tech.root: WinSock
@@ -173,9 +173,9 @@ If the <i>Family</i> parameter specified is <b>AF_INET6</b>, then the <i>pAddr</
 
 If the length of the buffer pointed to by the <i>pStringBuf</i> parameter is not large enough to receive the string representation of the IP address, <b>InetNtop</b> returns ERROR_INVALID_PARAMETER.
 
-When UNICODE or _UNICODE is defined, <b>InetNtop</b> is defined to <b>InetNtopW</b>, the Unicode version of this function. The <i>pStringBuf</i> parameter is defined to the <b>PSTR</b> data type.
+When UNICODE or _UNICODE is defined, <b>InetNtop</b> is defined to <b>InetNtopW</b>, the Unicode version of this function. The <i>pStringBuf</i> parameter is defined to the <b>PWSTR</b> data type.
 
-When UNICODE or _UNICODE is not defined, <b>InetNtop</b> is defined to <b>InetNtopA</b>, the ANSI version of this function. The ANSI version of this function is always defined as <b>inet_ntop</b>. The <i>pStringBuf</i> parameter is defined to the <b>PWSTR</b> data type.
+When UNICODE or _UNICODE is not defined, <b>InetNtop</b> is defined to <b>InetNtopA</b>, the ANSI version of this function. The ANSI version of this function is always defined as <b>inet_ntop</b>. The <i>pStringBuf</i> parameter is defined to the <b>PSTR</b> data type.
 
 The <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
 

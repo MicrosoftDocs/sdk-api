@@ -136,7 +136,7 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 ## -remarks
 
-WinHTTP implements the <a href="http://tools.ietf.org/html/draft-ietf-wrec-wpad-01">Web Proxy Auto-Discovery (WPAD) protocol</a>, often referred to as <i>autoproxy</i>. For more information about well-known locations, see the  <a href="http://tools.ietf.org/html/draft-ietf-wrec-wpad-01">Discovery Process</a> section of the WPAD protocol document.
+WinHTTP implements the <a href="https://www.ietf.org/archive/id/draft-ietf-wrec-wpad-01.txt">Web Proxy Auto-Discovery (WPAD) protocol</a>, often referred to as <i>autoproxy</i>. For more information about well-known locations, see the  <a href="https://www.ietf.org/archive/id/draft-ietf-wrec-wpad-01.txt">Discovery Process</a> section of the WPAD protocol document.
 
 Note that because the <b>WinHttpDetectAutoProxyConfigUrl</b> function takes time to complete its operation, it should not be called from  a UI thread.
 

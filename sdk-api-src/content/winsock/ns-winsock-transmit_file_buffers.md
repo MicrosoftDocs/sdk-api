@@ -1,12 +1,12 @@
 ---
 UID: NS:winsock._TRANSMIT_FILE_BUFFERS
 title: TRANSMIT_FILE_BUFFERS (winsock.h)
-description: The TRANSMIT_FILE_BUFFERS structure specifies data to be transmitted before and after file data during a TransmitFile function file transfer operation.
+description: The TRANSMIT_FILE_BUFFERS (winsock.h) structure specifies data to be transmitted before and after file data during a TransmitFile function file transfer operation.
 helpviewer_keywords: ["*LPTRANSMIT_FILE_BUFFERS","*PTRANSMIT_FILE_BUFFERS","TRANSMIT_FILE_BUFFERS","TRANSMIT_FILE_BUFFERS structure [Winsock]","_TRANSMIT_FILE_BUFFERS","_win32_transmit_file_buffers_2","mswsock/TRANSMIT_FILE_BUFFERS","winsock.transmit_file_buffers_2"]
 old-location: winsock\transmit_file_buffers_2.htm
 tech.root: WinSock
 ms.assetid: 862dd8f8-5929-4426-b531-a87e36506634
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPTRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, TRANSMIT_FILE_BUFFERS, TRANSMIT_FILE_BUFFERS structure [Winsock], _TRANSMIT_FILE_BUFFERS, _win32_transmit_file_buffers_2, mswsock/TRANSMIT_FILE_BUFFERS, winsock.transmit_file_buffers_2'
 req.header: winsock.h
 req.include-header: Winsock.h

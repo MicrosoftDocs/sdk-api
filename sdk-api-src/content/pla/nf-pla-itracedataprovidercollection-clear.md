@@ -52,7 +52,7 @@ api_name:
 
 Removes all trace providers from the collection.
 
-## -parameters
+
 
 ## -returns
 

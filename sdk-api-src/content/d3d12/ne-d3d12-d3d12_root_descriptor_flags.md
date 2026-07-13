@@ -54,19 +54,19 @@ Specifies the volatility of the data referenced by descriptors in a Root Signatu
 
 ## -enum-fields
 
-### -field D3D12_ROOT_DESCRIPTOR_FLAG_NONE
+### -field D3D12_ROOT_DESCRIPTOR_FLAG_NONE:0
 
 Default assumptions are made for data (for SRV/CBV: DATA_STATIC_WHILE_SET_AT_EXECUTE, and for UAV: DATA_VOLATILE).
 
-### -field D3D12_ROOT_DESCRIPTOR_FLAG_DATA_VOLATILE
+### -field D3D12_ROOT_DESCRIPTOR_FLAG_DATA_VOLATILE:0x2
 
 Data is volatile. Equivalent to Root Signature Version 1.0.
 
-### -field D3D12_ROOT_DESCRIPTOR_FLAG_DATA_STATIC_WHILE_SET_AT_EXECUTE
+### -field D3D12_ROOT_DESCRIPTOR_FLAG_DATA_STATIC_WHILE_SET_AT_EXECUTE:0x4
 
 Data is static while set at execute.
 
-### -field D3D12_ROOT_DESCRIPTOR_FLAG_DATA_STATIC
+### -field D3D12_ROOT_DESCRIPTOR_FLAG_DATA_STATIC:0x8
 
 Data is static. The best potential for driver optimization.
 

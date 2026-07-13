@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetRect
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetRect (windows.foundation.h)
 description: Gets the Rect value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetRect","GetRect method [Windows Runtime]","GetRect method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetRect method","IPropertyValue.GetRect","IPropertyValue.IPropertyValue","IPropertyValue::GetRect","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetRect","winrt.ipropertyvalue_getrect"]
 old-location: winrt\ipropertyvalue_getrect.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetRect
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetRect (windows.foundation.h)
 
 
 ## -description
@@ -64,7 +64,7 @@ The value.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

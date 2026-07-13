@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkRectangle
 title: IInkRectangle (msinkaut.h)
-description: .
+description: . (IInkRectangle)
 helpviewer_keywords: ["IInkRectangle","IInkRectangle interface [Tablet PC]","IInkRectangle interface [Tablet PC]","described","msinkaut/IInkRectangle","tablet.iinkrectangle"]
 old-location: tablet\iinkrectangle.htm
 tech.root: tablet
@@ -54,11 +54,7 @@ Represents an ink rectangle.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRectangle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRectangle</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IInkRectangle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRectangle</b> also has these types of members:
 
 ## -see-also
 

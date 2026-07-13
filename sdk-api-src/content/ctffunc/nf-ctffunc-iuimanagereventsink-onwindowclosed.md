@@ -52,7 +52,7 @@ api_name:
 
 Called by the TSF after closing the IME UI.
 
-## -parameters
+
 
 ## -returns
 

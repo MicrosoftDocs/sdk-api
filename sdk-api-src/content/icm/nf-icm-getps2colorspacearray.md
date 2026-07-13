@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.GetPS2ColorSpaceArray
 title: GetPS2ColorSpaceArray
-description: Retrieves the PostScript Level 2 [color space](c.md) array from an ICC color profile.
+description: Retrieves the PostScript Level 2 [color space](/windows/win32/wcs/c) array from an ICC color profile.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

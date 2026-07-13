@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderStoragePools.QueryStoragePools
 title: IVdsHwProviderStoragePools::QueryStoragePools (vdshwprv.h)
-description: Returns an IEnumVdsObject enumeration object containing a list of the storage pools managed by the hardware provider.
+description: The IVdsHwProviderStoragePools::QueryStoragePools (vdshwprv.h) method returns an IEnumVdsObject enumeration object containing a list of the storage pools managed by the hardware provider.
 helpviewer_keywords: ["IVdsHwProviderStoragePools interface","QueryStoragePools method","IVdsHwProviderStoragePools.QueryStoragePools","IVdsHwProviderStoragePools::QueryStoragePools","QueryStoragePools","QueryStoragePools method","QueryStoragePools method","IVdsHwProviderStoragePools interface","base.ivdshwproviderstoragepools_querystoragepools","vds/IVdsHwProviderStoragePools::QueryStoragePools","vdshwprv/IVdsHwProviderStoragePools::QueryStoragePools"]
 old-location: base\ivdshwproviderstoragepools_querystoragepools.htm
 tech.root: base
 ms.assetid: 308c9821-927d-4b90-854d-b050f3730c22
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProviderStoragePools interface,QueryStoragePools method, IVdsHwProviderStoragePools.QueryStoragePools, IVdsHwProviderStoragePools::QueryStoragePools, QueryStoragePools, QueryStoragePools method, QueryStoragePools method,IVdsHwProviderStoragePools interface, base.ivdshwproviderstoragepools_querystoragepools, vds/IVdsHwProviderStoragePools::QueryStoragePools, vdshwprv/IVdsHwProviderStoragePools::QueryStoragePools
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a> enumeration object containing a list of the <a href="/windows/desktop/VDS/storage-pool-object">storage pools</a> managed by the hardware provider.
 

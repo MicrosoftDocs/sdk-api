@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
@@ -75,7 +77,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 This method generates a hash code from the values of the tuning properties in the object that implements the <b>IBDAComparable</b> interface, and its associated objects.
 
-Calling this method with a <i>PartialResult</i> value of 0 yields the same result as as calling <b>HashExact</b>.
+Calling this method with a <i>PartialResult</i> value of 0 yields the same result as calling <b>HashExact</b>.
 
 ## -see-also
 

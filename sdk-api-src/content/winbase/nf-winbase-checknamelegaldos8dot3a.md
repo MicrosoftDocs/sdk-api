@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CheckNameLegalDOS8Dot3A
 title: CheckNameLegalDOS8Dot3A function (winbase.h)
-description: Determines whether the specified name can be used to create a file on a FAT file system.
-helpviewer_keywords: ["CheckNameLegalDOS8Dot3","CheckNameLegalDOS8Dot3 function [Files]","CheckNameLegalDOS8Dot3A","CheckNameLegalDOS8Dot3W","base.checknamelegaldos8dot3","fs.checknamelegaldos8dot3","winbase/CheckNameLegalDOS8Dot3","winbase/CheckNameLegalDOS8Dot3A","winbase/CheckNameLegalDOS8Dot3W"]
+description: Determines whether the specified name can be used to create a file on a FAT file system. (ANSI)
+helpviewer_keywords: ["CheckNameLegalDOS8Dot3A", "winbase/CheckNameLegalDOS8Dot3A"]
 old-location: fs\checknamelegaldos8dot3.htm
 tech.root: fs
 ms.assetid: bb0edcc5-4991-47d0-9ade-6c6776a36f39
@@ -161,7 +161,7 @@ Note that SMB 3.0 does not support short names on shares with continuous availab
 
 
 > [!NOTE]
-> The winbase.h header defines CheckNameLegalDOS8Dot3 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CheckNameLegalDOS8Dot3 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

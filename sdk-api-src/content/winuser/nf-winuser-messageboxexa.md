@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.MessageBoxExA
 title: MessageBoxExA function (winuser.h)
-description: Creates, displays, and operates a message box.
-helpviewer_keywords: ["MessageBoxEx","MessageBoxEx function [Dialog Boxes]","MessageBoxExA","MessageBoxExW","_win32_MessageBoxEx","_win32_messageboxex_cpp","dlgbox.messageboxex","winui._win32_messageboxex","winuser/MessageBoxEx","winuser/MessageBoxExA","winuser/MessageBoxExW"]
+description: Creates, displays, and operates a message box. (ANSI)
+helpviewer_keywords: ["MessageBoxExA", "winuser/MessageBoxExA"]
 old-location: dlgbox\messageboxex.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxex.htm
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-1.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-0.dll
  - User32.dll
 api_name:
  - MessageBoxEx
@@ -228,7 +231,7 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 > [!NOTE]
-> The winuser.h header defines MessageBoxEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines MessageBoxEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

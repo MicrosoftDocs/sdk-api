@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingUnexportW
 title: RpcNsBindingUnexportW function (rpcnsi.h)
-description: The RpcNsBindingUnexport function removes the binding handles for an interface and objects from an entry in the name-service database.
-helpviewer_keywords: ["RpcNsBindingUnexport","RpcNsBindingUnexport function [RPC]","RpcNsBindingUnexportA","RpcNsBindingUnexportW","_rpc_rpcnsbindingunexport","rpc.rpcnsbindingunexport","rpcnsi/RpcNsBindingUnexport","rpcnsi/RpcNsBindingUnexportA","rpcnsi/RpcNsBindingUnexportW"]
+description: The RpcNsBindingUnexport function removes the binding handles for an interface and objects from an entry in the name-service database. (Unicode)
+helpviewer_keywords: ["RpcNsBindingUnexport", "RpcNsBindingUnexport function [RPC]", "RpcNsBindingUnexportW", "_rpc_rpcnsbindingunexport", "rpc.rpcnsbindingunexport", "rpcnsi/RpcNsBindingUnexport", "rpcnsi/RpcNsBindingUnexportW"]
 old-location: rpc\rpcnsbindingunexport.htm
 tech.root: Rpc
 ms.assetid: 70662e7e-7a81-4953-9814-e29b46422c5b
@@ -231,7 +231,7 @@ Therefore, before you call this function, keep in mind how long you expect the s
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsBindingUnexport as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsBindingUnexport as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

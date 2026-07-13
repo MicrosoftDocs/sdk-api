@@ -58,7 +58,7 @@ The <b>DHCP_SUBNET_STATE</b> enumeration defines the set of possible states for 
 
 ## -enum-fields
 
-### -field DhcpSubnetEnabled
+### -field DhcpSubnetEnabled:0
 
 The subnet is enabled; the server will distribute addresses, extend leases, and release addresses within the subnet range to clients.
 

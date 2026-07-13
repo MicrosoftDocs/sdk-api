@@ -6,13 +6,13 @@ helpviewer_keywords: ["IDWriteColorGlyphRunEnumerator1","IDWriteColorGlyphRunEnu
 old-location: directwrite\idwritecolorglyphrunenumerator1.htm
 tech.root: DirectWrite
 ms.assetid: 692CB5FF-3E74-4D3E-B961-E4AF5995A1B2
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteColorGlyphRunEnumerator1, IDWriteColorGlyphRunEnumerator1 interface [Direct Write], IDWriteColorGlyphRunEnumerator1 interface [Direct Write],described, directwrite.idwritecolorglyphrunenumerator1, dwrite_3/IDWriteColorGlyphRunEnumerator1
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 14393
+req.target-min-winversvr: Windows 10 Build 14393
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -55,8 +55,5 @@ Enumerator for an ordered collection of color glyph runs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteColorGlyphRunEnumerator1</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>. <b>IDWriteColorGlyphRunEnumerator1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteColorGlyphRunEnumerator1</b> interface derives from <a href="/windows/windows-app-sdk/api/win32/dwrite_2/nn-dwrite_2-idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>. <b>IDWriteColorGlyphRunEnumerator1</b> also has these types of members:
 

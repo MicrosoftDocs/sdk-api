@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFace3
 title: IDWriteFontFace3
-description: Contains font face type, appropriate file references, and face identification data.
+description: Contains font face type, appropriate file references, and face identification data. (IDWriteFontFace3)
 helpviewer_keywords: ["IDWriteFontFace3","IDWriteFontFace3 interface [Direct Write]","IDWriteFontFace3 interface [Direct Write]","described","directwrite.idwritefontface3","dwrite_3/IDWriteFontFace3"]
 old-location: directwrite\idwritefontface3.htm
 tech.root: DirectWrite
 ms.assetid: 1081A005-E4A8-4EE0-AFE0-10BD8D8471DF
-ms.date: 09/10/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontFace3, IDWriteFontFace3 interface [Direct Write], IDWriteFontFace3 interface [Direct Write],described, directwrite.idwritefontface3, dwrite_3/IDWriteFontFace3
 req.header: dwrite_3.h
 req.include-header: 

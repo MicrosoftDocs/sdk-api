@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_FindStringExact","ListBox_FindStringExact macro [
 old-location: controls\ListBox_FindStringExact.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_findstringexact.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_FindStringExact, ListBox_FindStringExact macro [Windows Controls], _win32_ListBox_FindStringExact, _win32_ListBox_FindStringExact_cpp, controls.ListBox_FindStringExact, controls._win32_ListBox_FindStringExact, windowsx/ListBox_FindStringExact
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_FindStringExact macro
+
+## -syntax
+
+```cpp
+int ListBox_FindStringExact(
+   HWND    hwndCtl,
+   int     indexStart,
+   LPCTSTR lpszFind
+);
+```
+
+## -returns
+
+Type: **int**
+
+The index of the matching item, or LB_ERR if the search was unsuccessful.
 
 
 ## -description

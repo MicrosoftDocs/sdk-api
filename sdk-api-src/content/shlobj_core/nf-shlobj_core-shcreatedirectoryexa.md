@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectoryExA
 title: SHCreateDirectoryExA function (shlobj_core.h)
-description: Creates a new file system folder, with optional security attributes.
-helpviewer_keywords: ["SHCreateDirectoryEx","SHCreateDirectoryEx function [Windows Shell]","SHCreateDirectoryExA","SHCreateDirectoryExW","_win32_SHCreateDirectoryEx","shell.SHCreateDirectoryEx","shlobj_core/SHCreateDirectoryEx","shlobj_core/SHCreateDirectoryExA","shlobj_core/SHCreateDirectoryExW"]
+description: Creates a new file system folder, with optional security attributes. (ANSI)
+helpviewer_keywords: ["SHCreateDirectoryExA", "shlobj_core/SHCreateDirectoryExA"]
 old-location: shell\SHCreateDirectoryEx.htm
 tech.root: shell
 ms.assetid: 7f44f907-cd12-4156-91c0-76e577ae25f6
@@ -77,9 +77,9 @@ A pointer to a null-terminated string specifying the fully qualified path of the
 
 ### -param psa [in, optional]
 
-Type: <b>const <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>*</b>
+Type: <b>const <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>*</b>
 
- A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the directory's security attribute. Set this parameter to <b>NULL</b> if no security attributes need to be set.
+ A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure with the directory's security attribute. Set this parameter to <b>NULL</b> if no security attributes need to be set.
 
 ## -returns
 
@@ -175,7 +175,7 @@ This function creates a file system folder whose fully qualified path is given b
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHCreateDirectoryEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHCreateDirectoryEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

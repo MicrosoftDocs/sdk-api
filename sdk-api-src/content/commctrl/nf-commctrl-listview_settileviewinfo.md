@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetTileViewInfo","ListView_SetTileViewInfo macro
 old-location: controls\ListView_SetTileViewInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileviewinfo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetTileViewInfo, ListView_SetTileViewInfo macro [Windows Controls], _win32_ListView_SetTileViewInfo, _win32_ListView_SetTileViewInfo_cpp, commctrl/ListView_SetTileViewInfo, controls.ListView_SetTileViewInfo, controls._win32_ListView_SetTileViewInfo
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetTileViewInfo macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetTileViewInfo(
+   HWND            hwnd,
+   PLVTILEVIEWINFO ptvi
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

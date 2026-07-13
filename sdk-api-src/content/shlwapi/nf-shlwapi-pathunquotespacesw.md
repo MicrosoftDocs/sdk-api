@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathUnquoteSpacesW
 title: PathUnquoteSpacesW function (shlwapi.h)
-description: Removes quotes from the beginning and end of a path.
-helpviewer_keywords: ["PathUnquoteSpaces","PathUnquoteSpaces function [Windows Shell]","PathUnquoteSpacesA","PathUnquoteSpacesW","_win32_PathUnquoteSpaces","shell.PathUnquoteSpaces","shlwapi/PathUnquoteSpaces","shlwapi/PathUnquoteSpacesA","shlwapi/PathUnquoteSpacesW"]
+description: Removes quotes from the beginning and end of a path. (Unicode)
+helpviewer_keywords: ["PathUnquoteSpaces", "PathUnquoteSpaces function [Windows Shell]", "PathUnquoteSpacesW", "_win32_PathUnquoteSpaces", "shell.PathUnquoteSpaces", "shlwapi/PathUnquoteSpaces", "shlwapi/PathUnquoteSpacesW"]
 old-location: shell\PathUnquoteSpaces.htm
 tech.root: shell
 ms.assetid: 00474c95-ec59-489a-bee3-191b98a47567
@@ -68,10 +68,10 @@ A pointer to a null-terminated string of length MAX_PATH that contains the path.
 
 ## -returns
 
-No return value.
+<b>TRUE</b> if the string gets unquoted; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathUnquoteSpaces as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathUnquoteSpaces as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetProviderListA
 title: lineGetProviderListA function (tapi.h)
-description: The lineGetProviderList function returns a list of service providers currently installed in the telephony system.
-helpviewer_keywords: ["_tapi2_linegetproviderlist","lineGetProviderList","lineGetProviderList function [TAPI 2.2]","lineGetProviderListA","lineGetProviderListW","tapi/lineGetProviderList","tapi/lineGetProviderListA","tapi/lineGetProviderListW","tapi2.linegetproviderlist"]
+description: The lineGetProviderList function returns a list of service providers currently installed in the telephony system. (lineGetProviderListA)
+helpviewer_keywords: ["lineGetProviderListA", "tapi/lineGetProviderListA"]
 old-location: tapi2\linegetproviderlist.htm
 tech.root: tapi3
 ms.assetid: 87d43409-e8c5-401a-87a2-02568ed0af4a
@@ -100,4 +100,4 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineGetProviderList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetProviderList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

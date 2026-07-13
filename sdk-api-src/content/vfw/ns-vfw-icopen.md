@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_0
+UID: NS:vfw.ICOPEN
 title: ICOPEN (vfw.h)
 description: The ICOPEN structure contains information about the data stream being compressed or decompressed, the version number of the driver, and how the driver is used.
 helpviewer_keywords: ["ICMODE_COMPRESS","ICMODE_DECOMPRESS","ICMODE_DRAW","ICMODE_QUERY","ICOPEN","ICOPEN structure [Windows Multimedia]","multimedia.icopen_COLLISION563","multimedia.icopen_struct","vfw/ICOPEN"]
@@ -146,3 +146,4 @@ This structure is passed to video capture drivers when they are opened. This all
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

@@ -56,9 +56,9 @@ The <b>UI_INFO_TYPE</b> enumeration identifies repairs that perform user interfa
 
 ## -enum-fields
 
-### -field UIT_INVALID
+### -field UIT_INVALID:0
 
-### -field UIT_NONE
+### -field UIT_NONE:1
 
 No additional repair interfaces are present.
 

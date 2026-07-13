@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CopyFileTransactedW
 title: CopyFileTransactedW function (winbase.h)
-description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.
-helpviewer_keywords: ["COPY_FILE_COPY_SYMLINK","COPY_FILE_FAIL_IF_EXISTS","COPY_FILE_OPEN_SOURCE_FOR_WRITE","COPY_FILE_RESTARTABLE","CopyFileTransacted","CopyFileTransacted function [Files]","CopyFileTransactedA","CopyFileTransactedW","fs.copyfiletransacted","winbase/CopyFileTransacted","winbase/CopyFileTransactedA","winbase/CopyFileTransactedW"]
+description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function. (Unicode)
+helpviewer_keywords: ["COPY_FILE_COPY_SYMLINK", "COPY_FILE_FAIL_IF_EXISTS", "COPY_FILE_OPEN_SOURCE_FOR_WRITE", "COPY_FILE_RESTARTABLE", "CopyFileTransacted", "CopyFileTransacted function [Files]", "CopyFileTransactedW", "fs.copyfiletransacted", "winbase/CopyFileTransacted", "winbase/CopyFileTransactedW"]
 old-location: fs\copyfiletransacted.htm
 tech.root: fs
 ms.assetid: 118392de-166b-413e-99c9-b3deb756de0e
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
  - Kernel32Legacy.dll
@@ -71,10 +72,10 @@ Copies an existing file to a new file as a transacted operation, notifying the a
 
 The name of an existing file.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 If <i>lpExistingFileName</i> does not exist, the 
        <b>CopyFileTransacted</b> function fails, and the 
@@ -88,10 +89,10 @@ The file must reside on the local computer; otherwise, the function fails and th
 
 The name of the new file.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpProgressRoutine [in, optional]
 
@@ -303,7 +304,7 @@ Note that SMB 3.0 does not support TxF.
 
 
 > [!NOTE]
-> The winbase.h header defines CopyFileTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CopyFileTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

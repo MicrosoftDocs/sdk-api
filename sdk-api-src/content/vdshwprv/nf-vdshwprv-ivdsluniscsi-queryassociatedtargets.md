@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLunIscsi.QueryAssociatedTargets
 title: IVdsLunIscsi::QueryAssociatedTargets (vdshwprv.h)
-description: Returns an enumeration of currently associated iSCSI targets�the targets through which the LUN is accessible.
+description: The IVdsLunIscsi::QueryAssociatedTargets (vdshwprv.h) method returns an enumeration of currently associated iSCSI targets.
 helpviewer_keywords: ["IVdsLunIscsi interface [VDS]","QueryAssociatedTargets method","IVdsLunIscsi.QueryAssociatedTargets","IVdsLunIscsi::QueryAssociatedTargets","QueryAssociatedTargets","QueryAssociatedTargets method [VDS]","QueryAssociatedTargets method [VDS]","IVdsLunIscsi interface","base.ivdsluniscsi_queryassociatedtargets","vds/IVdsLunIscsi::QueryAssociatedTargets","vdshwprv/IVdsLunIscsi::QueryAssociatedTargets"]
 old-location: base\ivdsluniscsi_queryassociatedtargets.htm
 tech.root: base
 ms.assetid: 4979e3c1-d966-4dfd-bb87-73c3e1252c50
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLunIscsi interface [VDS],QueryAssociatedTargets method, IVdsLunIscsi.QueryAssociatedTargets, IVdsLunIscsi::QueryAssociatedTargets, QueryAssociatedTargets, QueryAssociatedTargets method [VDS], QueryAssociatedTargets method [VDS],IVdsLunIscsi interface, base.ivdsluniscsi_queryassociatedtargets, vds/IVdsLunIscsi::QueryAssociatedTargets, vdshwprv/IVdsLunIscsi::QueryAssociatedTargets
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an enumeration of currently associated iSCSI targets—the targets 
    through which the LUN is accessible.

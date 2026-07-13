@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IPrincipal.put_GroupId
 title: IPrincipal::put_GroupId (taskschd.h)
-description: Gets or sets the identifier of the user group that is required to run the tasks that are associated with the principal.
+description: Gets or sets the identifier of the user group that is required to run the tasks that are associated with the principal. (Put)
 helpviewer_keywords: ["GroupId property [Task Scheduler]","GroupId property [Task Scheduler]","IPrincipal interface","IPrincipal interface [Task Scheduler]","GroupId property","IPrincipal.GroupId","IPrincipal.put_GroupId","IPrincipal::GroupId","IPrincipal::get_GroupId","IPrincipal::put_GroupId","put_GroupId","taskschd.iprincipal_groupid","taskschd/IPrincipal::GroupId","taskschd/IPrincipal::get_GroupId","taskschd/IPrincipal::put_GroupId"]
 old-location: taskschd\iprincipal_groupid.htm
 tech.root: taskschd

@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetQueryClassName</b> method retrieves the class name from the query.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:routprot._MPR50_ROUTING_CHARACTERISTICS
 title: MPR50_ROUTING_CHARACTERISTICS (routprot.h)
-description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager.
+description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager. (MPR50_ROUTING_CHARACTERISTICS)
 helpviewer_keywords: ["*PMPR_ROUTING_CHARACTERISTICS","DEMAND_UPDATE_ROUTES","DEMAND_UPDATE_SERVICES","MPR50_ROUTING_CHARACTERISTICS","MPR50_ROUTING_CHARACTERISTICS structure [RAS]","MPR_ROUTING_CHARACTERISTICS","MPR_ROUTING_CHARACTERISTICS structure [RAS]","PMPR_ROUTING_CHARACTERISTICS","PMPR_ROUTING_CHARACTERISTICS structure pointer [RAS]","ROUTING","SERVICES","_mpr_mpr_routing_characteristics","routprot/MPR_ROUTING_CHARACTERISTICS","routprot/PMPR_ROUTING_CHARACTERISTICS","rras.mpr_routing_characteristics"]
 old-location: rras\mpr_routing_characteristics.htm
 tech.root: RRAS

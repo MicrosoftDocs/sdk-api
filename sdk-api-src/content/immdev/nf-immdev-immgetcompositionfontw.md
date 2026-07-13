@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetCompositionFontW
 title: ImmGetCompositionFontW function (immdev.h)
-description: Retrieves information about the logical font currently used to display characters in the composition window.
-helpviewer_keywords: ["ImmGetCompositionFont","ImmGetCompositionFont function [Internationalization for Windows Applications]","ImmGetCompositionFontA","ImmGetCompositionFontW","_win32_ImmGetCompositionFont","imm/ImmGetCompositionFont","imm/ImmGetCompositionFontA","imm/ImmGetCompositionFontW","intl.immgetcompositionfont"]
+description: The ImmGetCompositionFontW (Unicode) function (immdev.h) retrieves information about the logical font currently used to display characters in the composition window.
+helpviewer_keywords: ["ImmGetCompositionFont", "ImmGetCompositionFont function [Internationalization for Windows Applications]", "ImmGetCompositionFontW", "_win32_ImmGetCompositionFont", "intl.immgetcompositionfont"]
 old-location: intl\immgetcompositionfont.htm
 tech.root: Intl
 ms.assetid: c38f424f-84d4-4181-9ada-bbd178a70373
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmGetCompositionFont, ImmGetCompositionFont function [Internationalization for Windows Applications], ImmGetCompositionFontA, ImmGetCompositionFontW, _win32_ImmGetCompositionFont, imm/ImmGetCompositionFont, imm/ImmGetCompositionFontA, imm/ImmGetCompositionFontW, intl.immgetcompositionfont
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-imm-l1-1-2.dll
+ - ext-ms-win-imm-l1-1-1.dll
+ - ext-ms-win-imm-l1-1-0.dll
  - Imm32.dll
 api_name:
  - ImmGetCompositionFont
@@ -79,4 +82,4 @@ Returns a nonzero value if successful, or 0 otherwise.
 ## -remarks
 
 > [!NOTE]
-> The immdev.h header defines ImmGetCompositionFont as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines ImmGetCompositionFont as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

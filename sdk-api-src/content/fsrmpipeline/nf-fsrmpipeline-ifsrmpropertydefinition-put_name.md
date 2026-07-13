@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Name
 title: IFsrmPropertyDefinition::put_Name (fsrmpipeline.h)
-description: The name of the property.
+description: The name of the property. (IFsrmPropertyDefinition.put_Name)
 helpviewer_keywords: ["IFsrmPropertyDefinition interface [File Server Resource Manager]","Name property","IFsrmPropertyDefinition.Name","IFsrmPropertyDefinition.put_Name","IFsrmPropertyDefinition::Name","IFsrmPropertyDefinition::get_Name","IFsrmPropertyDefinition::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmPropertyDefinition interface","fs.ifsrmpropertydefinition_name","fsrm.ifsrmpropertydefinition_name","fsrmpipeline/IFsrmPropertyDefinition::Name","fsrmpipeline/IFsrmPropertyDefinition::get_Name","fsrmpipeline/IFsrmPropertyDefinition::put_Name","put_Name"]
 old-location: fsrm\ifsrmpropertydefinition_name.htm
 tech.root: fsrm

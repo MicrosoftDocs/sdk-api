@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsADSystemInfo::RefreshSchemaCache</b> method refreshes the Active Directory schema cache.
 
-## -parameters
+
 
 ## -returns
 

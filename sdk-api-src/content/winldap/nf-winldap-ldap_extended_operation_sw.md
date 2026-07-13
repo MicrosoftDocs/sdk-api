@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_extended_operation_sW
 title: ldap_extended_operation_sW function (winldap.h)
-description: Used to pass extended LDAP operations to the server.
-helpviewer_keywords: ["ldap.ldap_extended_operation_s","ldap_extended_operation_s","ldap_extended_operation_s function [LDAP]","ldap_extended_operation_sA","ldap_extended_operation_sW","winldap/ldap_extended_operation_s","winldap/ldap_extended_operation_sA","winldap/ldap_extended_operation_sW"]
+description: Used to pass extended LDAP operations to the server. (Unicode)
+helpviewer_keywords: ["ldap.ldap_extended_operation_s", "ldap_extended_operation_s", "ldap_extended_operation_s function [LDAP]", "ldap_extended_operation_sW", "winldap/ldap_extended_operation_s", "winldap/ldap_extended_operation_sW"]
 old-location: ldap\ldap_extended_operation_s.htm
 tech.root: ldap
 ms.assetid: a9e354f3-b6b3-4c41-93d7-497354c87237
@@ -114,7 +114,7 @@ Multithreading: The <b>ldap_extended_operation_s</b> function is thread-safe.
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_extended_operation_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_extended_operation_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

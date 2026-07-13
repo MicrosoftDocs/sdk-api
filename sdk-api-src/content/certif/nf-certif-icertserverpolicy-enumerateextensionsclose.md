@@ -53,7 +53,7 @@ api_name:
 
 The <b>EnumerateExtensionsClose</b> method frees the resources connected with extension enumeration.
 
-## -parameters
+
 
 ## -returns
 

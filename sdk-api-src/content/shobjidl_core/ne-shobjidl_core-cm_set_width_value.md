@@ -54,10 +54,10 @@ Specifies width values in pixels and includes special support for default and au
 
 ## -enum-fields
 
-### -field CM_WIDTH_USEDEFAULT
+### -field CM_WIDTH_USEDEFAULT:-1
 
 Use the default width.
 
-### -field CM_WIDTH_AUTOSIZE
+### -field CM_WIDTH_AUTOSIZE:-2
 
 Use the auto-size width.

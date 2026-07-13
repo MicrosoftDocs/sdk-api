@@ -1,8 +1,8 @@
 ---
 UID: NF:msacm.acmFormatTagEnumA
 title: acmFormatTagEnumA function (msacm.h)
-description: The acmFormatTagEnum function enumerates waveform-audio format tags available from an ACM driver. This function continues enumerating until there are no more suitable format tags or the callback function returns FALSE.
-helpviewer_keywords: ["_win32_acmFormatTagEnum","acmFormatTagEnum","acmFormatTagEnum function [Windows Multimedia]","acmFormatTagEnumA","acmFormatTagEnumW","msacm/acmFormatTagEnum","msacm/acmFormatTagEnumA","msacm/acmFormatTagEnumW","multimedia.acmformattagenum"]
+description: The acmFormatTagEnum function enumerates waveform-audio format tags available from an ACM driver. This function continues enumerating until there are no more suitable format tags or the callback function returns FALSE. (acmFormatTagEnumA)
+helpviewer_keywords: ["acmFormatTagEnumA", "msacm/acmFormatTagEnumA"]
 old-location: multimedia\acmformattagenum.htm
 tech.root: Multimedia
 ms.assetid: 1693a7ee-1d9b-494e-8d28-b5e9279951e1
@@ -130,7 +130,7 @@ This function will return MMSYSERR_NOERROR (zero) if no suitable ACM drivers are
 
 
 > [!NOTE]
-> The msacm.h header defines acmFormatTagEnum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines acmFormatTagEnum as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

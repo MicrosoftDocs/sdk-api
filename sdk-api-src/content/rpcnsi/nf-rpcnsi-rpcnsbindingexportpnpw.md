@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingExportPnPW
 title: RpcNsBindingExportPnPW function (rpcnsi.h)
-description: The RpcNsBindingExportPnP function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play.
-helpviewer_keywords: ["RpcNsBindingExportPnP","RpcNsBindingExportPnP function [RPC]","RpcNsBindingExportPnPA","RpcNsBindingExportPnPW","_rpc_rpcnsbindingexportpnp","rpc.rpcnsbindingexportpnp","rpcnsi/RpcNsBindingExportPnP","rpcnsi/RpcNsBindingExportPnPA","rpcnsi/RpcNsBindingExportPnPW"]
+description: The RpcNsBindingExportPnP function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play. (Unicode)
+helpviewer_keywords: ["RpcNsBindingExportPnP", "RpcNsBindingExportPnP function [RPC]", "RpcNsBindingExportPnPW", "_rpc_rpcnsbindingexportpnp", "rpc.rpcnsbindingexportpnp", "rpcnsi/RpcNsBindingExportPnP", "rpcnsi/RpcNsBindingExportPnPW"]
 old-location: rpc\rpcnsbindingexportpnp.htm
 tech.root: Rpc
 ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65
@@ -209,7 +209,7 @@ Note that the server application should not explicitly supply the binding vector
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsBindingExportPnP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsBindingExportPnP as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

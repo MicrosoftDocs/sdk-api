@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetCountryW
 title: lineGetCountryW function (tapi.h)
-description: The lineGetCountry function fetches the stored dialing rules and other information related to a specified country/region, the first country/region in the country/region list, or all countries/regions.
-helpviewer_keywords: ["_tapi2_linegetcountry","lineGetCountry","lineGetCountry function [TAPI 2.2]","lineGetCountryA","lineGetCountryW","tapi/lineGetCountry","tapi/lineGetCountryA","tapi/lineGetCountryW","tapi2.linegetcountry"]
+description: The lineGetCountryW (Unicode) function fetches the stored dialing rules and other information related to a specified country/region.
+helpviewer_keywords: ["_tapi2_linegetcountry", "lineGetCountry", "lineGetCountry function [TAPI 2.2]", "lineGetCountryW", "tapi/lineGetCountry", "tapi/lineGetCountryW", "tapi2.linegetcountry"]
 old-location: tapi2\linegetcountry.htm
 tech.root: tapi3
 ms.assetid: 4de271b3-d93b-4fc9-b853-e26ef1ae75ae
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegetcountry, lineGetCountry, lineGetCountry function [TAPI 2.2], lineGetCountryA, lineGetCountryW, tapi/lineGetCountry, tapi/lineGetCountryA, tapi/lineGetCountryW, tapi2.linegetcountry
 req.header: tapi.h
 req.include-header: 
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ras-tapi32-l1-1-1.dll
  - Tapi32.dll
 api_name:
  - lineGetCountry
@@ -103,4 +104,4 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineGetCountry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetCountry as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

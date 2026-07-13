@@ -6,7 +6,7 @@ helpviewer_keywords: ["AreGlyphsLocal","AreGlyphsLocal method [Direct Write]","A
 old-location: directwrite\idwritefontface3_areglyphslocal.htm
 tech.root: DirectWrite
 ms.assetid: e8d5b51d-c5b5-6ea5-eda0-36cc9ec425d3
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: AreGlyphsLocal, AreGlyphsLocal method [Direct Write], AreGlyphsLocal method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],AreGlyphsLocal method, IDWriteFontFace3.AreGlyphsLocal, IDWriteFontFace3::AreGlyphsLocal, directwrite.idwritefontface3_areglyphslocal, dwrite_3/IDWriteFontFace3::AreGlyphsLocal
 req.header: dwrite_3.h
 req.include-header: 
@@ -84,7 +84,7 @@ Receives TRUE if all of the specified glyphs are local,
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

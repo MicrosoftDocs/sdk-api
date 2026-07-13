@@ -6,13 +6,13 @@ helpviewer_keywords: ["CreateFontSet","CreateFontSet method [Direct Write]","Cre
 old-location: directwrite\idwritefontsetbuilder_createfontset.htm
 tech.root: DirectWrite
 ms.assetid: 58923F9C-4DAA-4F97-AE25-A2560176E0F2
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: CreateFontSet, CreateFontSet method [Direct Write], CreateFontSet method [Direct Write],IDWriteFontSetBuilder interface, IDWriteFontSetBuilder interface [Direct Write],CreateFontSet method, IDWriteFontSetBuilder.CreateFontSet, IDWriteFontSetBuilder::CreateFontSet, directwrite.idwritefontsetbuilder_createfontset, dwrite_3/IDWriteFontSetBuilder::CreateFontSet
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -65,7 +65,7 @@ Contains the newly created font set object, or nullptr in case of failure.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

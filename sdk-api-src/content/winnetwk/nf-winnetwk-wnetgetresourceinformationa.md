@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetResourceInformationA
 title: WNetGetResourceInformationA function (winnetwk.h)
-description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource.
-helpviewer_keywords: ["WNetGetResourceInformation","WNetGetResourceInformation function [Windows Networking (WNet)]","WNetGetResourceInformationA","WNetGetResourceInformationW","_win32_wnetgetresourceinformation","winnetwk/WNetGetResourceInformation","winnetwk/WNetGetResourceInformationA","winnetwk/WNetGetResourceInformationW","wnet.wnetgetresourceinformation"]
+description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource. (ANSI)
+helpviewer_keywords: ["WNetGetResourceInformationA", "winnetwk/WNetGetResourceInformationA"]
 old-location: wnet\wnetgetresourceinformation.htm
 tech.root: WNet
 ms.assetid: 19273874-adf1-4ffb-8b83-0eaa64e4622e
@@ -61,7 +61,7 @@ When provided with a remote path to a network resource, the
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the network resource for which information is required. 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure that specifies the network resource for which information is required. 
 
 
 
@@ -72,7 +72,7 @@ The <b>lpRemoteName</b> member of the structure should specify the remote path n
 ### -param lpBuffer [out]
 
 Pointer to the buffer to receive the result. On successful return, the first portion of the buffer is a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure representing that portion of the input resource path that is accessed through the WNet functions, rather than through system functions specific to the input resource type. (The remainder of the buffer contains the variable-length strings to which the members of the 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure representing that portion of the input resource path that is accessed through the WNet functions, rather than through system functions specific to the input resource type. (The remainder of the buffer contains the variable-length strings to which the members of the 
 <b>NETRESOURCE</b> structure point.) 
 
 
@@ -101,7 +101,7 @@ If the function returns successfully, this parameter points to a string in the o
 
 
 For example, if the input remote resource name is \\server\share\dir1\dir2, the <b>lpRemoteName</b> member of the output 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure points to \\server\share. Also, the <i>lplpSystem</i> parameter points to \dir1\dir2. Both strings are stored in the buffer pointed to by the <i>lpBuffer</i> parameter.
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure points to \\server\share. Also, the <i>lplpSystem</i> parameter points to \dir1\dir2. Both strings are stored in the buffer pointed to by the <i>lpBuffer</i> parameter.
 
 ## -returns
 
@@ -202,4 +202,4 @@ The network is unavailable.
 ## -remarks
 
 > [!NOTE]
-> The winnetwk.h header defines WNetGetResourceInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetGetResourceInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

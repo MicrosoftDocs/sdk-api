@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCmdFromEvent","GetCmdFromEvent method [DirectShow]","G
 old-location: dshow\idvdinfo2_getcmdfromevent.htm
 tech.root: dshow
 ms.assetid: 488a394f-222f-4536-a20a-579df5c2f91f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCmdFromEvent, GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCmdFromEvent method, IDvdInfo2.GetCmdFromEvent, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetCmdFromEvent</code> method retrieves an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object from an <a href="/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a> or <a href="/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a> event.
 

@@ -4,7 +4,7 @@ title: IMFDesiredSample::GetDesiredSampleTimeAndDuration (evr.h)
 description: Called by the mixer to get the time and duration of the sample requested by the presenter.
 helpviewer_keywords: ["095202ed-0272-4bda-a268-6a407ef74a94","GetDesiredSampleTimeAndDuration","GetDesiredSampleTimeAndDuration method [Media Foundation]","GetDesiredSampleTimeAndDuration method [Media Foundation]","IMFDesiredSample interface","IMFDesiredSample interface [Media Foundation]","GetDesiredSampleTimeAndDuration method","IMFDesiredSample.GetDesiredSampleTimeAndDuration","IMFDesiredSample::GetDesiredSampleTimeAndDuration","evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration","mf.imfdesiredsample_getdesiredsampletimeandduration"]
 old-location: mf\imfdesiredsample_getdesiredsampletimeandduration.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 095202ed-0272-4bda-a268-6a407ef74a94
 ms.date: 12/05/2018
 ms.keywords: 095202ed-0272-4bda-a268-6a407ef74a94, GetDesiredSampleTimeAndDuration, GetDesiredSampleTimeAndDuration method [Media Foundation], GetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, IMFDesiredSample interface [Media Foundation],GetDesiredSampleTimeAndDuration method, IMFDesiredSample.GetDesiredSampleTimeAndDuration, IMFDesiredSample::GetDesiredSampleTimeAndDuration, evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration, mf.imfdesiredsample_getdesiredsampletimeandduration
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFDesiredSample.GetDesiredSampleTimeAndDuration
+archived: true
 ---
 
 # IMFDesiredSample::GetDesiredSampleTimeAndDuration
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Called by the mixer to get the time and duration of the sample requested by the presenter.
 

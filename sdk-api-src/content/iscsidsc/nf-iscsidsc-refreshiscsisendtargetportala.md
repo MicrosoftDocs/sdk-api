@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RefreshIScsiSendTargetPortalA
 title: RefreshIScsiSendTargetPortalA function (iscsidsc.h)
-description: RefreshIscsiSendTargetPortal function instructs the iSCSI initiator service to establish a discovery session with the indicated target portal and transmit a SendTargets request to refresh the list of discovered targets for the iSCSI initiator service.
-helpviewer_keywords: ["RefreshIScsiSendTargetPortalA","RefreshIscsiSendTargetPortal","RefreshIscsiSendTargetPortal function [iSCSI Discovery Library API]","RefreshIscsiSendTargetPortalA","RefreshIscsiSendTargetPortalW","iscsidisc.refreshiscsisendtargetportal","iscsidsc/RefreshIscsiSendTargetPortal","iscsidsc/RefreshIscsiSendTargetPortalA","iscsidsc/RefreshIscsiSendTargetPortalW"]
+description: RefreshIscsiSendTargetPortal function instructs the iSCSI initiator service to establish a discovery session with the indicated target portal and transmit a SendTargets request to refresh the list of discovered targets for the iSCSI initiator service. (ANSI)
+helpviewer_keywords: ["RefreshIScsiSendTargetPortalA", "RefreshIscsiSendTargetPortalA", "iscsidsc/RefreshIscsiSendTargetPortalA"]
 old-location: iscsidisc\refreshiscsisendtargetportal.htm
 tech.root: iSCSIDisc
 ms.assetid: 0e7d4e37-5d6e-4471-9cda-b9690fddf767
@@ -79,4 +79,4 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines RefreshIScsiSendTargetPortal as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines RefreshIScsiSendTargetPortal as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

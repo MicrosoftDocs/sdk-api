@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-eventing-pdh-l1-1-3.dll
+ - ext-ms-win-eventing-pdh-l1-1-2.dll
+ - ext-ms-win-eventing-pdh-l1-1-1.dll
+ - ext-ms-win-eventing-pdh-l1-1-0.dll
  - Pdh.dll
 api_name:
  - PdhCloseQuery
@@ -96,10 +100,14 @@ Do not use the counter handles associated with this query after calling this fun
 
 The following shows the syntax if calling this function from Visual Basic.
 
-<pre class="syntax" xml:space="preserve"><code>PdhCloseQuery(
+
+``` syntax
+PdhCloseQuery(
   ByVal QueryHandle as Long  
 )
-as Long</code></pre>
+as Long
+```
+
 
 
 

@@ -54,7 +54,7 @@ Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
 
 ## -enum-fields
 
-### -field WICPngSrgbRenderingIntent
+### -field WICPngSrgbRenderingIntent:0x1
 
 [VT_UI1] Indicates the rendering intent for an sRGB color space image. The rendering intents have the following meaning.
 
@@ -81,5 +81,5 @@ Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
 </tr>
 </table>
 
-### -field WICPngSrgbProperties_FORCE_DWORD
+### -field WICPngSrgbProperties_FORCE_DWORD:0x7fffffff
 

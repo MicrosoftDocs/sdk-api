@@ -54,9 +54,9 @@ Specifies the JPEG comment properties.
 
 ## -enum-fields
 
-### -field WICJpegCommentText
+### -field WICJpegCommentText:0x1
 
 Indicates the metadata property is comment text.
 
-### -field WICJpegCommentProperties_FORCE_DWORD
+### -field WICJpegCommentProperties_FORCE_DWORD:0x7fffffff
 

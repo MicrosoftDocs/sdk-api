@@ -56,11 +56,11 @@ Elements of the <b>TfShiftDir</b> enumeration specify which direction a range an
 
 ## -enum-fields
 
-### -field TF_SD_BACKWARD
+### -field TF_SD_BACKWARD:0
 
 Specifies that the anchor will be moved to the region immediately preceding the range.
 
-### -field TF_SD_FORWARD
+### -field TF_SD_FORWARD:1
 
 Specifies that the anchor will be moved to the region immediately following the range.
 

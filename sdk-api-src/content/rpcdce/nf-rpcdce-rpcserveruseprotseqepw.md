@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqEpW
 title: RpcServerUseProtseqEpW function (rpcdce.h)
-description: The RpcServerUseProtseqEp function tells the RPC run-time library to use the specified protocol sequence combined with the specified endpoint for receiving remote procedure calls.
-helpviewer_keywords: ["RpcServerUseProtseqEp","RpcServerUseProtseqEp function [RPC]","RpcServerUseProtseqEpA","RpcServerUseProtseqEpW","_rpc_rpcserveruseprotseqep","rpc.rpcserveruseprotseqep","rpcdce/RpcServerUseProtseqEp","rpcdce/RpcServerUseProtseqEpA","rpcdce/RpcServerUseProtseqEpW"]
+description: The RpcServerUseProtseqEpW (Unicode) function (rpcdce.h) tells the RPC run-time library to use the specified protocol sequence and endpoint for receiving remote procedure calls. 
+helpviewer_keywords: ["RpcServerUseProtseqEp", "RpcServerUseProtseqEp function [RPC]", "RpcServerUseProtseqEpW", "_rpc_rpcserveruseprotseqep", "rpc.rpcserveruseprotseqep", "rpcdce/RpcServerUseProtseqEp", "rpcdce/RpcServerUseProtseqEpW"]
 old-location: rpc\rpcserveruseprotseqep.htm
 tech.root: Rpc
 ms.assetid: 1914a90a-6dee-4517-9de1-d332124eb0a4
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcServerUseProtseqEp, RpcServerUseProtseqEp function [RPC], RpcServerUseProtseqEpA, RpcServerUseProtseqEpW, _rpc_rpcserveruseprotseqep, rpc.rpcserveruseprotseqep, rpcdce/RpcServerUseProtseqEp, rpcdce/RpcServerUseProtseqEpA, rpcdce/RpcServerUseProtseqEpW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -189,7 +189,7 @@ For more information, see
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcServerUseProtseqEp as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcServerUseProtseqEp as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

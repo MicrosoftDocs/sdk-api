@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia3 interface [Windows Media Player]","getAttribut
 old-location: wmp\iwmpmedia3_getattributecountbytype.htm
 tech.root: WMP
 ms.assetid: 86f5e67a-408f-4b93-b89a-12f42fd31966
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia3 interface [Windows Media Player],getAttributeCountByType method, IWMPMedia3.getAttributeCountByType, IWMPMedia3::getAttributeCountByType, IWMPMedia3getAttributeCountByType, getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia3_getattributecountbytype, wmp/IWMPMedia3::getAttributeCountByType
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>getAttributeCountByType</b> method retrieves the number of attributes associated with the specified attribute type.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.get_LocalizedName
 title: ISpellCheckProvider::get_LocalizedName (spellcheckprovider.h)
-description: Gets text, suitable to display to the user, that describes this spell checker.
+description: Gets text, suitable to display to the user, that describes this spell checker. (ISpellCheckProvider.get_LocalizedName)
 helpviewer_keywords: ["ISpellCheckProvider interface [Internationalization for Windows Applications]","LocalizedName property","ISpellCheckProvider.LocalizedName","ISpellCheckProvider.get_LocalizedName","ISpellCheckProvider::LocalizedName","ISpellCheckProvider::get_LocalizedName","LocalizedName property [Internationalization for Windows Applications]","LocalizedName property [Internationalization for Windows Applications]","ISpellCheckProvider interface","get_LocalizedName","intl.ispellcheckprovider_localizedname","spellcheckprovider/ISpellCheckProvider::LocalizedName","spellcheckprovider/ISpellCheckProvider::get_LocalizedName"]
 old-location: intl\ispellcheckprovider_localizedname.htm
 tech.root: Intl

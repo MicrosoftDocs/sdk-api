@@ -54,7 +54,7 @@ Specifies the type of root signature slot.
 
 ## -enum-fields
 
-### -field D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE
+### -field D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE:0
 
 The slot is for a descriptor table.
 

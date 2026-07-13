@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_MachineContext
 title: IX509PrivateKey::put_MachineContext (certenroll.h)
-description: Specifies or retrieves a Boolean value that identifies the local certificate store context.
+description: Specifies or retrieves a Boolean value that identifies the local certificate store context. (Put)
 helpviewer_keywords: ["IX509PrivateKey interface [Security]","MachineContext property","IX509PrivateKey.MachineContext","IX509PrivateKey.put_MachineContext","IX509PrivateKey::MachineContext","IX509PrivateKey::get_MachineContext","IX509PrivateKey::put_MachineContext","MachineContext property [Security]","MachineContext property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::MachineContext","certenroll/IX509PrivateKey::get_MachineContext","certenroll/IX509PrivateKey::put_MachineContext","put_MachineContext","security.ix509privatekey_machinecontext_property"]
 old-location: security\ix509privatekey_machinecontext_property.htm
 tech.root: security

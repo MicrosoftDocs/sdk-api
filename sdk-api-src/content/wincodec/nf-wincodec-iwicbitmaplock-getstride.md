@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides access to the <a href="https://docs.microsoft.com/">stride</a> value for the memory.
+Provides access to the stride value for the memory.
 
 ## -parameters
 
@@ -62,9 +62,9 @@ Type: <b>UINT*</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-Note the <a href="https://docs.microsoft.com/">stride</a> value is specific to the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>, not the bitmap. 
+Note the stride value is specific to the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>, not the bitmap. 
             For example, two consecutive locks on the same rectangle of a bitmap may return different pointers and stride values, depending on internal implementation.

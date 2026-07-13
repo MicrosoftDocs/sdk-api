@@ -56,31 +56,31 @@ Indicates the kind of change affecting an item when a source sink notifies a cli
 
 ## -enum-fields
 
-### -field SEARCH_CHANGE_ADD
+### -field SEARCH_CHANGE_ADD:0
 
 An item was added.
 
-### -field SEARCH_CHANGE_DELETE
+### -field SEARCH_CHANGE_DELETE:1
 
 An item was deleted.
 
-### -field SEARCH_CHANGE_MODIFY
+### -field SEARCH_CHANGE_MODIFY:2
 
 An item was modified.
 
-### -field SEARCH_CHANGE_MOVE_RENAME
+### -field SEARCH_CHANGE_MOVE_RENAME:3
 
 An item was moved or renamed. Not currently supported for use with <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-onitemschanged">ISearchPersistentItemsChangedSink::OnItemsChanged</a>.
 
-### -field SEARCH_CHANGE_SEMANTICS_DIRECTORY
+### -field SEARCH_CHANGE_SEMANTICS_DIRECTORY:0x40000
 
 An item is a directory. The item needs to be crawled rather than just reindexed as a document would be.
 
-### -field SEARCH_CHANGE_SEMANTICS_SHALLOW
+### -field SEARCH_CHANGE_SEMANTICS_SHALLOW:0x80000
 
 Index directory properties were changed for an item.
 
-### -field SEARCH_CHANGE_SEMANTICS_UPDATE_SECURITY
+### -field SEARCH_CHANGE_SEMANTICS_UPDATE_SECURITY:0x400000
 
 Security on an item was changed.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetVertexShaderConstantI
 title: IDirect3DDevice9::SetVertexShaderConstantI (d3d9helper.h)
-description: Sets an integer vertex shader constant.
+description: The IDirect3DDevice9::SetVertexShaderConstantI method (d3d9helper.h) sets an integer vertex shader constant.
 helpviewer_keywords: ["10342244-afff-6fcd-2e64-c19547f2f547","IDirect3DDevice9 interface [Direct3D 9]","SetVertexShaderConstantI method","IDirect3DDevice9.SetVertexShaderConstantI","IDirect3DDevice9::SetVertexShaderConstantI","SetVertexShaderConstantI","SetVertexShaderConstantI method [Direct3D 9]","SetVertexShaderConstantI method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetVertexShaderConstantI","direct3d9.idirect3ddevice9__setvertexshaderconstanti"]
 old-location: direct3d9\idirect3ddevice9__setvertexshaderconstanti.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexshaderconstanti.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 10342244-afff-6fcd-2e64-c19547f2f547, IDirect3DDevice9 interface [Direct3D 9],SetVertexShaderConstantI method, IDirect3DDevice9.SetVertexShaderConstantI, IDirect3DDevice9::SetVertexShaderConstantI, SetVertexShaderConstantI, SetVertexShaderConstantI method [Direct3D 9], SetVertexShaderConstantI method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetVertexShaderConstantI, direct3d9.idirect3ddevice9__setvertexshaderconstanti
 req.header: d3d9helper.h
 req.include-header: D3D9.h

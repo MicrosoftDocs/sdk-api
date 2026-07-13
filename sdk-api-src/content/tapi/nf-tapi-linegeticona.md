@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetIconA
 title: lineGetIconA function (tapi.h)
-description: The lineGetIcon function allows an application to retrieve a service line device-specific (or provider-specific) icon for display to the user.
-helpviewer_keywords: ["_tapi2_linegeticon","lineGetIcon","lineGetIcon function [TAPI 2.2]","lineGetIconA","lineGetIconW","tapi/lineGetIcon","tapi/lineGetIconA","tapi/lineGetIconW","tapi2.linegeticon"]
+description: The lineGetIcon function allows an application to retrieve a service line device-specific (or provider-specific) icon for display to the user. (lineGetIconA)
+helpviewer_keywords: ["lineGetIconA", "tapi/lineGetIconA"]
 old-location: tapi2\linegeticon.htm
 tech.root: tapi3
 ms.assetid: 4c76a990-676e-4bb2-b7d7-3b4a0aabf058
@@ -93,7 +93,7 @@ For applications using an API version earlier than 2.0, if the provider does not
 
 
 > [!NOTE]
-> The tapi.h header defines lineGetIcon as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetIcon as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

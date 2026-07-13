@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredAngularDeceleration
 title: IInertiaProcessor::get_DesiredAngularDeceleration (manipulations.h)
-description: The DesiredAngularDeceleration property specifies the desired rate that the target object will stop spinning in radians per msec squared.
+description: The DesiredAngularDeceleration property specifies the desired rate that the target object will stop spinning in radians per msec squared. (Get)
 helpviewer_keywords: ["DesiredAngularDeceleration property [Windows Touch]","DesiredAngularDeceleration property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","DesiredAngularDeceleration property","IInertiaProcessor.DesiredAngularDeceleration","IInertiaProcessor.get_DesiredAngularDeceleration","IInertiaProcessor::DesiredAngularDeceleration","IInertiaProcessor::get_DesiredAngularDeceleration","IInertiaProcessor::put_DesiredAngularDeceleration","get_DesiredAngularDeceleration","manipulations/IInertiaProcessor::DesiredAngularDeceleration","manipulations/IInertiaProcessor::get_DesiredAngularDeceleration","manipulations/IInertiaProcessor::put_DesiredAngularDeceleration","wintouch.iinertiaprocessor_desiredangulardeceleration"]
 old-location: wintouch\iinertiaprocessor_desiredangulardeceleration.htm
 tech.root: wintouch

@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportBeginW
 title: RpcNsBindingImportBeginW function (rpcnsi.h)
-description: The RpcNsBindingImportBegin function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object.
-helpviewer_keywords: ["RpcNsBindingImportBegin","RpcNsBindingImportBegin function [RPC]","RpcNsBindingImportBeginA","RpcNsBindingImportBeginW","_rpc_rpcnsbindingimportbegin","rpc.rpcnsbindingimportbegin","rpcnsi/RpcNsBindingImportBegin","rpcnsi/RpcNsBindingImportBeginA","rpcnsi/RpcNsBindingImportBeginW"]
+description: The RpcNsBindingImportBegin function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object. (Unicode)
+helpviewer_keywords: ["RpcNsBindingImportBegin", "RpcNsBindingImportBegin function [RPC]", "RpcNsBindingImportBeginW", "_rpc_rpcnsbindingimportbegin", "rpc.rpcnsbindingimportbegin", "rpcnsi/RpcNsBindingImportBegin", "rpcnsi/RpcNsBindingImportBeginW"]
 old-location: rpc\rpcnsbindingimportbegin.htm
 tech.root: Rpc
 ms.assetid: 8dca0490-72aa-41e0-b747-863d53a705ea
@@ -214,7 +214,7 @@ When finished importing binding handles, the client application calls the
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsBindingImportBegin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsBindingImportBegin as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

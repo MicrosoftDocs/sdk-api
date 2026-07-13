@@ -87,7 +87,7 @@ Returns S_OK if successful; an error code otherwise.
 ## -remarks
 
 For Direct3D 12, it's no longer possible to backtrack from a device to the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a> that was used to create it.
-          <b>IDXGIFactory4::EnumAdapterByLuid</b>enables an app to retrieve information about the adapter where a D3D12 device was created.
+          <b>IDXGIFactory4::EnumAdapterByLuid</b> enables an app to retrieve information about the adapter where a D3D12 device was created.
           <b>IDXGIFactory4::EnumAdapterByLuid</b> is designed to be paired with <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getadapterluid">ID3D12Device::GetAdapterLuid</a>.
           For more information, see <a href="/windows/desktop/direct3ddxgi/dxgi-1-4-improvements">DXGI 1.4 Improvements</a>.
 

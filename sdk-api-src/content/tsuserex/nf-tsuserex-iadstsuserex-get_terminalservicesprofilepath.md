@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesProfilePath
 title: IADsTSUserEx::get_TerminalServicesProfilePath (tsuserex.h)
-description: The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
+description: The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server. (Get)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","TerminalServicesProfilePath property","IADsTSUserEx.TerminalServicesProfilePath","IADsTSUserEx.get_TerminalServicesProfilePath","IADsTSUserEx::TerminalServicesProfilePath","IADsTSUserEx::get_TerminalServicesProfilePath","IADsTSUserEx::put_TerminalServicesProfilePath","TerminalServicesProfilePath property [Remote Desktop Services]","TerminalServicesProfilePath property [Remote Desktop Services]","IADsTSUserEx interface","get_TerminalServicesProfilePath","termserv.iadstsuserex_terminalservicesprofilepath","tsuserex/IADsTSUserEx::TerminalServicesProfilePath","tsuserex/IADsTSUserEx::get_TerminalServicesProfilePath","tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath"]
 old-location: termserv\iadstsuserex_terminalservicesprofilepath.htm
 tech.root: TermServ

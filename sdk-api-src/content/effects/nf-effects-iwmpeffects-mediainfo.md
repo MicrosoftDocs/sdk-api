@@ -6,7 +6,7 @@ helpviewer_keywords: ["EffectsMediaInfo","IWMPEffects interface [Windows Media P
 old-location: wmp\iwmpeffects_mediainfo.htm
 tech.root: WMP
 ms.assetid: 1267cb11-1b45-4f38-ad3c-02213405ed66
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: EffectsMediaInfo, IWMPEffects interface [Windows Media Player],MediaInfo method, IWMPEffects.MediaInfo, IWMPEffects::MediaInfo, MediaInfo, MediaInfo method [Windows Media Player], MediaInfo method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::MediaInfo, wmp.iwmpeffects_mediainfo
 req.header: effects.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>MediaInfo</b> method sends channel and sample rate data to the visualization.
 

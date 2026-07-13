@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_HitTest","TreeView_HitTest macro [Windows Contro
 old-location: controls\TreeView_HitTest.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_hittest.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_HitTest, TreeView_HitTest macro [Windows Controls], _win32_TreeView_HitTest, _win32_TreeView_HitTest_cpp, commctrl/TreeView_HitTest, controls.TreeView_HitTest, controls._win32_TreeView_HitTest
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_HitTest macro
+
+## -syntax
+
+```cpp
+HTREEITEM TreeView_HitTest(
+   HWND            hwnd,
+   LPTVHITTESTINFO lpht
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Returns the handle to the tree-view item that occupies the specified point, or <b>NULL</b> if no item occupies the point.
 
 
 ## -description

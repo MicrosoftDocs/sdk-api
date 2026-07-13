@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiUseFeatureA
 title: MsiUseFeatureA function (msi.h)
-description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
-helpviewer_keywords: ["MsiUseFeature","MsiUseFeature function","MsiUseFeatureA","MsiUseFeatureW","_msi_msiusefeature","msi/MsiUseFeature","msi/MsiUseFeatureA","msi/MsiUseFeatureW","setup.msiusefeature"]
+description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature. (ANSI)
+helpviewer_keywords: ["MsiUseFeatureA", "msi/MsiUseFeatureA"]
 old-location: setup\msiusefeature.htm
 tech.root: setup
 ms.assetid: 7a4dc671-d82e-4775-8198-79b80a4dd9e4
@@ -168,7 +168,7 @@ The
 
 
 > [!NOTE]
-> The msi.h header defines MsiUseFeature as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiUseFeature as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

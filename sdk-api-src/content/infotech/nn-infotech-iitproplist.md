@@ -54,8 +54,5 @@ Use this interface to set properties for build objects such as word wheels and i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IITPropList</b> interface inherits from <b>IPersistStreamInit</b>. <b>IITPropList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IITPropList</b> interface inherits from <b>IPersistStreamInit</b>. <b>IITPropList</b> also has these types of members:
 

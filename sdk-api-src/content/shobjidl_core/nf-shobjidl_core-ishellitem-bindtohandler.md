@@ -100,7 +100,7 @@ Restricts usage to <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStre
 
 #### BHID_LinkTargetItem
 
-CLSID_ShellItem is initialized with the target of this item (can only be SFGAO_LINK). See <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">GetAttributesOf</a> for a description of SFGAO_LINK.
+CLSID_ShellItem is initialized with the target of this item (can only be SFGAO_LINK). See <a href="/windows/win32/shell/sfgao">SFGAO</a> for a description of SFGAO_LINK.
 
 
 
@@ -184,7 +184,7 @@ When this method returns, contains a pointer of type <i>riid</i> that is returne
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

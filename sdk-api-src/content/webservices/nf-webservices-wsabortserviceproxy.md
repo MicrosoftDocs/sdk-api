@@ -91,7 +91,7 @@ One or more arguments are invalid.
                 cancel all pending I/O and transition back to WS_SERVICE_PROXY_STATE_CREATED state.</li>
 <li>If the service proxy is already open and in the WS_SERVICE_PROXY_STATE_OPEN state, <b>WsAbortServiceProxy</b> will cause the service proxy to abort all underlying channels and transition to the 
             WS_SERVICE_PROXY_STATE_FAULTED state. Once the abort is initiated, the service proxy will not accept any new calls. The application can call <a href="/windows/desktop/api/webservices/nf-webservices-wscloseserviceproxy">WsCloseServiceProxy</a> to close it</li>
-<li>If the service proxy is closing and in the WS_SERVICE_PROXY_STATE_CLOSING state, all underlying channels are aborted, and the service proxy tansitions to the WS_SERVICE_PROXY_STATE_CLOSED state. 
+<li>If the service proxy is closing and in the WS_SERVICE_PROXY_STATE_CLOSING state, all underlying channels are aborted, and the service proxy transitions to the WS_SERVICE_PROXY_STATE_CLOSED state. 
 </li>
 </ul>
 

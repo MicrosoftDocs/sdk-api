@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetState
 title: ID3D11DeviceContext::RSSetState (d3d11.h)
-description: Set the rasterizer state for the rasterizer stage of the pipeline.
+description: Set the rasterizer state for the rasterizer stage of the pipeline. (ID3D11DeviceContext.RSSetState)
 helpviewer_keywords: ["6a517464-81db-3af7-335a-c1eefddd9385","ID3D11DeviceContext interface [Direct3D 11]","RSSetState method","ID3D11DeviceContext.RSSetState","ID3D11DeviceContext::RSSetState","RSSetState","RSSetState method [Direct3D 11]","RSSetState method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::RSSetState","direct3d11.id3d11devicecontext_rssetstate"]
 old-location: direct3d11\id3d11devicecontext_rssetstate.htm
 tech.root: direct3d11

@@ -54,11 +54,11 @@ Specifies methods for sorting category data.
 
 ## -enum-fields
 
-### -field CATSORT_DEFAULT
+### -field CATSORT_DEFAULT:0
 
 Use the default sort order.
 
-### -field CATSORT_NAME
+### -field CATSORT_NAME:0x1
 
 Use a method that sorts on category names.
 

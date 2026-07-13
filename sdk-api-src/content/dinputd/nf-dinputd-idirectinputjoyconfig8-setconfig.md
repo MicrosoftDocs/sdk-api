@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::SetConfig </b>method creates or redefines configuration information about a joystick.
+The <b>IDirectInputJoyConfig8::SetConfig </b> method creates or redefines configuration information about a joystick.
 
 ## -parameters
 

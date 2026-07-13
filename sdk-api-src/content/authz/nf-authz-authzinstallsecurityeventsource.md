@@ -65,7 +65,7 @@ A pointer to an <a href="/windows/desktop/api/authz/ns-authz-authz_source_schema
 The members of the <a href="/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure are used as follows to install the security event source in the security log key:
 
 <ul>
-<li>The <b>szEventSourceName</b> member is added as a registry key under <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<li>The <b>szEventSourceName</b> member is added as a registry key under <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SYSTEM</b>
       <b>CurrentControlSet</b>
          <b>Services</b>

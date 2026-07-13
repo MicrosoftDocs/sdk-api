@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.TpSetCallbackRaceWithDll
 title: TpSetCallbackRaceWithDll function (winnt.h)
-description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
+description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks. (TpSetCallbackRaceWithDll)
 helpviewer_keywords: ["TpSetCallbackRaceWithDll","TpSetCallbackRaceWithDll function","base.tpsetcallbackracewithdll","winnt/TpSetCallbackRaceWithDll"]
 old-location: base\tpsetcallbackracewithdll.htm
 tech.root: backup

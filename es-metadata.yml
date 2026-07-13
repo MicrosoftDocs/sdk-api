@@ -1,0 +1,12 @@
+schemaVersion: 1.0.0
+providers:
+- provider: InventoryAsCode
+  version: 1.0.0
+  metadata:
+    isProduction: false
+    accountableOwners:
+      service: 889d777d-4106-4515-8a69-612f828aabbd
+    routing:
+      defaultAreaPath:
+        org: microsoft
+        path: OS\Core\DCX\Cpub-OSG Cpub\Developer\App Design and Development

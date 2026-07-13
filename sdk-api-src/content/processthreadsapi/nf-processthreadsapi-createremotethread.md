@@ -4,12 +4,12 @@ title: CreateRemoteThread function (processthreadsapi.h)
 description: Creates a thread that runs in the virtual address space of another process.
 helpviewer_keywords: ["CREATE_SUSPENDED","CreateRemoteThread","CreateRemoteThread function","STACK_SIZE_PARAM_IS_A_RESERVATION","_win32_createremotethread","base.createremotethread","processthreadsapi/CreateRemoteThread","winbase/CreateRemoteThread"]
 old-location: base\createremotethread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: f5257f78-b20f-4db5-b63e-3bb4e41a4b19
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThread, CreateRemoteThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createremotethread, base.createremotethread, processthreadsapi/CreateRemoteThread, winbase/CreateRemoteThread
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
  - KernelBase.dll
@@ -70,10 +75,7 @@ A handle to the process in which the thread is to be created. The handle must ha
 
 ### -param lpThreadAttributes [in]
 
-A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread and determines whether child processes can inherit the returned handle. If <i>lpThreadAttributes</i> is NULL, the thread gets a default security descriptor and the handle cannot be inherited. The access control lists (ACL) in the default security descriptor for a thread come from the primary token of the creator.
-
-<b>Windows XP:  </b>The ACLs in the default security descriptor for a thread come from the primary or impersonation token of the creator. This behavior changed with Windows XP with SP2 and Windows Server 2003.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread and determines whether child processes can inherit the returned handle. If *lpThreadAttributes* is NULL, the thread gets a default security descriptor and the handle cannot be inherited. The access control lists (ACL) in the default security descriptor for a thread come from the primary token of the creator.
 
 ### -param dwStackSize [in]
 
@@ -159,7 +161,7 @@ Note that
 The 
 <b>CreateRemoteThread</b> function causes a new thread of execution to begin in the address space of the specified process. The thread has access to all objects that the process opens.
 
-Terminal Services isolates each terminal session by design. Therefore, 
+Prior to Windows 8, Terminal Services isolates each terminal session by design. Therefore, 
 <b>CreateRemoteThread</b> fails if the target process is in a different session than the calling process.
 
 The new thread handle is created with full access to the new thread. If a security descriptor is not provided, the handle may be used in any function that requires a thread object handle. When a security descriptor is provided, an access check is performed on all subsequent uses of the handle before access is granted. If the access check denies access, the requesting process cannot use the handle to gain access to the thread.
@@ -235,7 +237,7 @@ Another common use of this function is to inject a thread into a process to quer
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

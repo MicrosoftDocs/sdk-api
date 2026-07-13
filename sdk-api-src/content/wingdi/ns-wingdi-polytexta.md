@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagPOLYTEXTA
 title: POLYTEXTA (wingdi.h)
-description: The POLYTEXT structure describes how the PolyTextOut function should draw a string of text.
+description: The POLYTEXT structure describes how the PolyTextOut function should draw a string of text. (ANSI)
 helpviewer_keywords: ["*LPPOLYTEXTA","*NPPOLYTEXTA","*PPOLYTEXTA","POLYTEXT","POLYTEXT structure [Windows GDI]","POLYTEXTA","POLYTEXTW","PPOLYTEXT","PPOLYTEXT structure pointer [Windows GDI]","_win32_POLYTEXT_str","gdi.polytext","wingdi/POLYTEXT","wingdi/POLYTEXTA","wingdi/POLYTEXTW","wingdi/PPOLYTEXT"]
 old-location: gdi\polytext.htm
 tech.root: gdi
@@ -118,4 +118,4 @@ Pointer to an array containing the width value for each character in the string.
 ## -remarks
 
 > [!NOTE]
-> The wingdi.h header defines POLYTEXT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines POLYTEXT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.Direct3DCreate9
 title: Direct3DCreate9 function (d3d9helper.h)
-description: Create an IDirect3D9 object and return an interface to it.
+description: The Direct3DCreate9 function (d3d9helper.h) creates an IDirect3D9 object and return an interface to it.
 helpviewer_keywords: ["911c767b-a75f-146e-b3ba-02c1df537127","Direct3DCreate9","Direct3DCreate9 function [Direct3D 9]","d3d9helper/Direct3DCreate9","direct3d9.direct3dcreate9"]
 old-location: direct3d9\direct3dcreate9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3d_tutorials.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 911c767b-a75f-146e-b3ba-02c1df537127, Direct3DCreate9, Direct3DCreate9 function [Direct3D 9], d3d9helper/Direct3DCreate9, direct3d9.direct3dcreate9
 req.header: d3d9helper.h
 req.include-header: D3D9.h

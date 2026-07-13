@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.put_SampleInterval
 title: IPerformanceCounterDataCollector::put_SampleInterval (pla.h)
-description: Retrieves or sets the interval to wait between sampling counter data.
+description: Retrieves or sets the interval to wait between sampling counter data. (Put)
 helpviewer_keywords: ["IPerformanceCounterDataCollector interface [PLA]","SampleInterval property","IPerformanceCounterDataCollector.SampleInterval","IPerformanceCounterDataCollector.put_SampleInterval","IPerformanceCounterDataCollector::SampleInterval","IPerformanceCounterDataCollector::get_SampleInterval","IPerformanceCounterDataCollector::put_SampleInterval","SampleInterval property [PLA]","SampleInterval property [PLA]","IPerformanceCounterDataCollector interface","base.iperformancecounterdatacollector_sampleinterval","pla.iperformancecounterdatacollector_sampleinterval","pla/IPerformanceCounterDataCollector::SampleInterval","pla/IPerformanceCounterDataCollector::get_SampleInterval","pla/IPerformanceCounterDataCollector::put_SampleInterval","put_SampleInterval"]
 old-location: pla\iperformancecounterdatacollector_sampleinterval.htm
 tech.root: PLA

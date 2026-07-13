@@ -54,19 +54,19 @@ Defines network status codes for the Media Engine.
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_NETWORK_EMPTY
+### -field MF_MEDIA_ENGINE_NETWORK_EMPTY:0
 
 The initial state.
 
-### -field MF_MEDIA_ENGINE_NETWORK_IDLE
+### -field MF_MEDIA_ENGINE_NETWORK_IDLE:1
 
 The Media Engine has started the resource selection algorithm, and has selected a media resource, but is not using the network.
 
-### -field MF_MEDIA_ENGINE_NETWORK_LOADING
+### -field MF_MEDIA_ENGINE_NETWORK_LOADING:2
 
 The Media Engine is loading a media resource.
 
-### -field MF_MEDIA_ENGINE_NETWORK_NO_SOURCE
+### -field MF_MEDIA_ENGINE_NETWORK_NO_SOURCE:3
 
 The Media Engine has started the resource selection algorithm, but has not selected a media resource.
 

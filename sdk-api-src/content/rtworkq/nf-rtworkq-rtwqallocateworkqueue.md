@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqAllocateWorkQueue
 title: RtwqAllocateWorkQueue function (rtworkq.h)
-description: Creates a new work queue.
+description: Creates a new work queue. (RtwqAllocateWorkQueue)
 helpviewer_keywords: ["RTWQ_MULTITHREADED_WORKQUEUE","RTWQ_STANDARD_WORKQUEUE","RTWQ_WINDOW_WORKQUEUE","RtwqAllocateWorkQueue","RtwqAllocateWorkQueue function","base.rtwqallocateworkqueue","rtworkq/RtwqAllocateWorkQueue"]
 old-location: base\rtwqallocateworkqueue.htm
 tech.root: backup
@@ -101,4 +101,4 @@ Receives an identifier for the work queue that was created.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

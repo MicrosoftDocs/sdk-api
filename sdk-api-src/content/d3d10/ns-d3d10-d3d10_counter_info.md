@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_COUNTER_INFO
 title: D3D10_COUNTER_INFO (d3d10.h)
-description: Information about the video card's performance counter capabilities.
+description: Information about the video card's performance counter capabilities. (D3D10_COUNTER_INFO)
 helpviewer_keywords: ["556a7645-8a0b-b615-840b-b33669862365","D3D10_COUNTER_INFO","D3D10_COUNTER_INFO structure [Direct3D 10]","d3d10/D3D10_COUNTER_INFO","direct3d10.d3d10_counter_info"]
 old-location: direct3d10\d3d10_counter_info.htm
 tech.root: direct3d10

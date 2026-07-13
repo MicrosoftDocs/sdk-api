@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhExpandCounterPathA
 title: PdhExpandCounterPathA function (pdh.h)
-description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
-helpviewer_keywords: ["PdhExpandCounterPath","PdhExpandCounterPath function [Perf]","PdhExpandCounterPathA","PdhExpandCounterPathW","_win32_pdhexpandcounterpath","base.pdhexpandcounterpath","pdh/PdhExpandCounterPath","pdh/PdhExpandCounterPathA","pdh/PdhExpandCounterPathW","perf.pdhexpandcounterpath"]
+description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path. (ANSI)
+helpviewer_keywords: ["PdhExpandCounterPathA", "pdh/PdhExpandCounterPathA"]
 old-location: perf\pdhexpandcounterpath.htm
 tech.root: perf
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
@@ -232,7 +232,7 @@ Cleanup:
 
 
 > [!NOTE]
-> The pdh.h header defines PdhExpandCounterPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhExpandCounterPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -4,12 +4,12 @@ title: GetCurrentProcessId function (processthreadsapi.h)
 description: Retrieves the process identifier of the calling process.
 helpviewer_keywords: ["GetCurrentProcessId","GetCurrentProcessId function","_win32_getcurrentprocessid","base.getcurrentprocessid","processthreadsapi/GetCurrentProcessId","winbase/GetCurrentProcessId"]
 old-location: base\getcurrentprocessid.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: a442e147-0db0-4911-94de-91728a4b277a
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessId, GetCurrentProcessId function, _win32_getcurrentprocessid, base.getcurrentprocessid, processthreadsapi/GetCurrentProcessId, winbase/GetCurrentProcessId
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
  - KernelBase.dll
@@ -59,7 +64,7 @@ api_name:
 
 Retrieves the process identifier of the calling process.
 
-## -parameters
+
 
 ## -returns
 

@@ -83,7 +83,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
+The <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a> was created successfully.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
 </dl>
 </td>
 <td width="60%">
-<i>bufferHandle</i> was not created by calling the <a href="/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function, or the caller has overwritten the   terminating NUL character in  <i>bufferHandle</i>.
+<i>bufferHandle</i> was not created by calling the <a href="/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function, or the caller has overwritten the terminating NULL character in  <i>bufferHandle</i>.
 
 </td>
 </tr>
@@ -124,12 +124,12 @@ Each call to the <b>WindowsPromoteStringBuffer</b> function must be matched with
 The following code example demonstrates how to use the <b>WindowsPromoteStringBuffer</b> function.
 
 ```cpp
-#include <WinrtString.h>
+#include <winstring.h>
 
 int main()
 {
     HSTRING hString = NULL;
-    LPVOID* hStringBuffer = NULL;
+    HSTRING_BUFFER hStringBuffer = NULL;
     PWSTR strBuffer = NULL;
 
     HRESULT hr = WindowsPreallocateStringBuffer(10, &strBuffer, &hStringBuffer);
@@ -140,14 +140,14 @@ int main()
 
         hr = WindowsPromoteStringBuffer(hStringBuffer, &hString);
 
-        If (SUCCEEDED(hr)
+        if (SUCCEEDED(hr))
         {
             WindowsDeleteString(hString);
         }
         else
-	       {
+        {
             WindowsDeleteStringBuffer(hStringBuffer);
-	       }
+        }
     }
 }
 ```

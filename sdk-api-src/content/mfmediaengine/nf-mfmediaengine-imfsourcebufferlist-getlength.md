@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> objects  in the list.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter3.AddExternalPackageReference
 title: IAppxEncryptedBundleWriter3::AddExternalPackageReference (appxpackaging.h)
-description: Adds a reference within the encrypted package bundle to an external app package.
+description: Adds a reference within the encrypted package bundle to an external app package. (IAppxEncryptedBundleWriter3.AddExternalPackageReference)
 helpviewer_keywords: ["AddExternalPackageReference","AddExternalPackageReference method [App packaging and management]","AddExternalPackageReference method [App packaging and management]","IAppxEncryptedBundleWriter3 interface","IAppxEncryptedBundleWriter3 interface [App packaging and management]","AddExternalPackageReference method","IAppxEncryptedBundleWriter3.AddExternalPackageReference","IAppxEncryptedBundleWriter3::AddExternalPackageReference","appxpackaging/IAppxEncryptedBundleWriter3::AddExternalPackageReference","appxpkg.iappxencryptedbundlewriter3_addexternalpackagereference"]
 old-location: appxpkg\iappxencryptedbundlewriter3_addexternalpackagereference.htm
 tech.root: appxpkg
@@ -68,7 +68,7 @@ A flag for whether this package is a default applicable package.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

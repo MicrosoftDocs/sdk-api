@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetHotCursor","ListView_GetHotCursor macro [Wind
 old-location: controls\ListView_GetHotCursor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotcursor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetHotCursor, ListView_GetHotCursor macro [Windows Controls], _win32_ListView_GetHotCursor, _win32_ListView_GetHotCursor_cpp, commctrl/ListView_GetHotCursor, controls.ListView_GetHotCursor, controls._win32_ListView_GetHotCursor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetHotCursor macro
+
+## -syntax
+
+```cpp
+HCURSOR ListView_GetHotCursor(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[HCURSOR](/windows/desktop/winprog/windows-data-types)**
+
+Returns an HCURSOR value that is the handle to the cursor that the list-view control uses when hot tracking is enabled.
 
 
 ## -description

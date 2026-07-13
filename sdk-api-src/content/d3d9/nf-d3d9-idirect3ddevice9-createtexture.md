@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateTexture
 title: IDirect3DDevice9::CreateTexture (d3d9.h)
-description: Creates a texture resource.
+description: The IDirect3DDevice9::CreateTexture method (d3d9.h) creates a texture resource.
 helpviewer_keywords: ["0ab6054e-eb96-2ef2-67bb-a8b5918e7fee","CreateTexture","CreateTexture method [Direct3D 9]","CreateTexture method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreateTexture method","IDirect3DDevice9.CreateTexture","IDirect3DDevice9::CreateTexture","d3d9helper/IDirect3DDevice9::CreateTexture","direct3d9.idirect3ddevice9__createtexture"]
 old-location: direct3d9\idirect3ddevice9__createtexture.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createtexture.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 0ab6054e-eb96-2ef2-67bb-a8b5918e7fee, CreateTexture, CreateTexture method [Direct3D 9], CreateTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateTexture method, IDirect3DDevice9.CreateTexture, IDirect3DDevice9::CreateTexture, d3d9helper/IDirect3DDevice9::CreateTexture, direct3d9.idirect3ddevice9__createtexture
 req.header: d3d9.h
 req.include-header: D3D9.h

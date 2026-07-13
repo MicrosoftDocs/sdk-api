@@ -267,7 +267,7 @@ The algorithm does not support decryption.
 
 The <i>pbInput</i> and <i>pbOutput</i> parameters can be equal. In this case, this function will perform the decryption in place. If <i>pbInput</i> and <i>pbOutput</i> are not equal, the two buffers may not overlap.
 
-Depending on what processor modes a provider supports, <b>BCryptDecrypt</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptDecrypt</b> function must refer to nonpaged (or locked) memory.
+When using a supported algorithm provider, <b>BCryptDecrypt</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptDecrypt</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 

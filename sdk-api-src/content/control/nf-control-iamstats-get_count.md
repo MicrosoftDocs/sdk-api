@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMStats interface [DirectShow]","get_Count method","IAMS
 old-location: dshow\iamstats_get_count.htm
 tech.root: dshow
 ms.assetid: 48f2543a-7c93-4d4f-a568-b8066e9545fd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMStats interface [DirectShow],get_Count method, IAMStats.get_Count, IAMStats::get_Count, IAMStatsget_Count, control/IAMStats::get_Count, dshow.iamstats_get_count, get_Count, get_Count method [DirectShow], get_Count method [DirectShow],IAMStats interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_Count</code> method retrieves the number of statistics.
 

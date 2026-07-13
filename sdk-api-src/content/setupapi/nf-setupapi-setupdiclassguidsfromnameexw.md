@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiClassGuidsFromNameExW
 title: SetupDiClassGuidsFromNameExW function (setupapi.h)
-description: The SetupDiClassGuidsFromNameEx function retrieves the GUIDs associated with the specified class name. This resulting list contains the classes currently installed on a local or remote computer.
-helpviewer_keywords: ["SetupDiClassGuidsFromNameEx","SetupDiClassGuidsFromNameEx function [Device and Driver Installation]","SetupDiClassGuidsFromNameExA","SetupDiClassGuidsFromNameExW","devinst.setupdiclassguidsfromnameex","di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml","setupapi/SetupDiClassGuidsFromNameEx"]
+description: The SetupDiClassGuidsFromNameEx function retrieves the GUIDs associated with the specified class name. This resulting list contains the classes currently installed on a local or remote computer. (Unicode)
+helpviewer_keywords: ["SetupDiClassGuidsFromNameEx", "SetupDiClassGuidsFromNameEx function [Device and Driver Installation]", "SetupDiClassGuidsFromNameExW", "devinst.setupdiclassguidsfromnameex", "di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml", "setupapi/SetupDiClassGuidsFromNameEx"]
 old-location: devinst\setupdiclassguidsfromnameex.htm
 tech.root: devinst
 ms.assetid: 5a692ed0-2e3a-464e-934e-2fe98d9c217b
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiClassGuidsFromNameEx, SetupDiClassGuidsFromNameEx function [Device and Driver Installation], SetupDiClassGuidsFromNameExA, SetupDiClassGuidsFromNameExW, devinst.setupdiclassguidsfromnameex, di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml, setupapi/SetupDiClassGuidsFromNameEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:
@@ -76,6 +77,9 @@ A pointer to a variable that receives the number of GUIDs associated with the cl
 
 A pointer to a NULL-terminated string that contains the name of a remote system from which to retrieve the GUIDs. This parameter is optional and can be <b>NULL</b>. If <i>MachineName</i> is <b>NULL</b>, the local system name is used.
 
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
+
 ### -param Reserved
 
 Must be <b>NULL</b>.
@@ -93,7 +97,7 @@ Class names are not guaranteed to be unique; only GUIDs are unique. Therefore, o
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiClassGuidsFromNameEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiClassGuidsFromNameEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

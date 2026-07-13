@@ -74,7 +74,7 @@ The format of <b>Packed</b> is:
 
 <ul>
 <li>
-The first 4 bits (bits 0-3) of <b>Packed</b> assigned to the <b>x</b>member of the current instance of <code>XMUNIBBLE4</code>.
+The first 4 bits (bits 0-3) of <b>Packed</b> assigned to the <b>x</b> member of the current instance of <code>XMUNIBBLE4</code>.
 		
 
 </li>
@@ -85,12 +85,12 @@ The second 4 bits (bits 4-7) of <b>Packed</b> assigned to the
 
 </li>
 <li>
-The third 4 bits (bits 8-11) of <b>Packed</b> assigned to the <b>z</b>member of the current instance of <code>XMUNIBBLE4</code>.
+The third 4 bits (bits 8-11) of <b>Packed</b> assigned to the <b>z</b> member of the current instance of <code>XMUNIBBLE4</code>.
 		
 
 </li>
 <li>
-The last 4 bits (bits 12-15) of <b>Packed</b> assigned to the <b>w</b>member of the current instance of <code>XMUNIBBLE4</code>.
+The last 4 bits (bits 12-15) of <b>Packed</b> assigned to the <b>w</b> member of the current instance of <code>XMUNIBBLE4</code>.
 		
 
 </li>

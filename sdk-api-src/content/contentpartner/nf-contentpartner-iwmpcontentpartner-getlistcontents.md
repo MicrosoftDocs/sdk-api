@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetListContents","GetListContents method [Windows Media P
 old-location: wmp\iwmpcontentpartner_getlistcontents.htm
 tech.root: WMP
 ms.assetid: a48935ea-8275-4b68-a1ab-006a23c455ad
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetListContents, GetListContents method [Windows Media Player], GetListContents method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetListContents method, IWMPContentPartner.GetListContents, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
 req.header: contentpartner.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>

@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_create_vlv_controlW
 title: ldap_create_vlv_controlW function (winldap.h)
-description: The ldap_create_vlv_control function is used to create the request control (LDAP_CONTROL_VLVREQUEST) on the server.
-helpviewer_keywords: ["_ldap_ldap_create_vlv_control","ldap.ldap__create__vlv__control","ldap.ldap_create_vlv_control","ldap_create_vlv_control","ldap_create_vlv_control function [LDAP]","ldap_create_vlv_controlA","ldap_create_vlv_controlW","winldap/ldap_create_vlv_control","winldap/ldap_create_vlv_controlA","winldap/ldap_create_vlv_controlW"]
+description: The ldap_create_vlv_control function is used to create the request control (LDAP_CONTROL_VLVREQUEST) on the server. (Unicode)
+helpviewer_keywords: ["_ldap_ldap_create_vlv_control", "ldap.ldap__create__vlv__control", "ldap.ldap_create_vlv_control", "ldap_create_vlv_control", "ldap_create_vlv_control function [LDAP]", "ldap_create_vlv_controlW", "winldap/ldap_create_vlv_control", "winldap/ldap_create_vlv_controlW"]
 old-location: ldap\ldap_create_vlv_control.htm
 tech.root: ldap
 ms.assetid: f4305aa9-e967-45a8-8b8b-49b1e60994e8
@@ -89,7 +89,7 @@ For more information, and  a code example for this function, see
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_create_vlv_control as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_create_vlv_control as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

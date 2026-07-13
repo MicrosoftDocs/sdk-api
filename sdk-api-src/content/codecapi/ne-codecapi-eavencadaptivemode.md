@@ -54,15 +54,15 @@ Specifies the adaptive encoding mode for a video encoder.
 
 ## -enum-fields
 
-### -field eAVEncAdaptiveMode_None
+### -field eAVEncAdaptiveMode_None:0
 
 Do not perform adaptive encoding.
 
-### -field eAVEncAdaptiveMode_Resolution
+### -field eAVEncAdaptiveMode_Resolution:1
 
 Adaptively change the frame resolution.
 
-### -field eAVEncAdaptiveMode_FrameRate
+### -field eAVEncAdaptiveMode_FrameRate:2
 
 Adaptively change the frame rate.
 

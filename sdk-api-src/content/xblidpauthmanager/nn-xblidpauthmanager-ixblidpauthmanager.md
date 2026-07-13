@@ -1,7 +1,7 @@
 ---
 UID: NN:xblidpauthmanager.IXblIdpAuthManager
 title: IXblIdpAuthManager (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthManager)
 helpviewer_keywords: ["IXblIdpAuthManager","IXblIdpAuthManager interface","IXblIdpAuthManager interface","described","xblidp.ixblidpauthmanager","xblidpauthmanager/IXblIdpAuthManager"]
 old-location: xblidp\ixblidpauthmanager.htm
 tech.root: xblidp
@@ -54,8 +54,5 @@ Reserved for Microsoft use.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXblIdpAuthManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXblIdpAuthManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXblIdpAuthManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXblIdpAuthManager</b> also has these types of members:
 

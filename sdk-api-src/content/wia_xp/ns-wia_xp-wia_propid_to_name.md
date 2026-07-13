@@ -47,6 +47,7 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_PROPID_TO_NAME
+archived: true
 ---
 
 # WIA_PROPID_TO_NAME structure

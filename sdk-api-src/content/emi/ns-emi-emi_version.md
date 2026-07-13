@@ -1,5 +1,5 @@
 ---
-UID: NS:emi.__unnamed_struct_0
+UID: NS:emi.EMI_VERSION
 title: EMI_VERSION (emi.h)
 description: The EMI_VERSION structure describes the version of the Energy Metering Interface (EMI) that is supported by a device.
 helpviewer_keywords: ["EMI_VERSION","EMI_VERSION structure [Power Metering and Budgeting Devices]","PEMI_VERSION","PEMI_VERSION structure pointer [Power Metering and Budgeting Devices]","emi/EMI_VERSION","emi/PEMI_VERSION","powermeter.emi_version"]
@@ -69,3 +69,4 @@ This structure is returned through a successful completion of an <a href="/windo
 
 
 <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_version">IOCTL_EMI_GET_VERSION</a>
+

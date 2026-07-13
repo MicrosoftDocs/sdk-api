@@ -62,4 +62,4 @@ The memory pointed to must be in state <a href="/windows/desktop/api/d3d12/ne-d3
 
 ### -field InfoType
 
-The type of post-build information to retrieve.
+A [D3D12_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE](/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_postbuild_info_type) value specifying the type of post-build information to retrieve.

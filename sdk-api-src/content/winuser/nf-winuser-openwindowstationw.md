@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.OpenWindowStationW
 title: OpenWindowStationW function (winuser.h)
-description: Opens the specified window station.
-helpviewer_keywords: ["OpenWindowStation","OpenWindowStation function [Windows Stations and Desktops]","OpenWindowStationA","OpenWindowStationW","_win32_openwindowstation","base.openwindowstation","winstation.openwindowstation","winuser/OpenWindowStation","winuser/OpenWindowStationA","winuser/OpenWindowStationW"]
+description: Opens the specified window station. (Unicode)
+helpviewer_keywords: ["OpenWindowStation", "OpenWindowStation function [Windows Stations and Desktops]", "OpenWindowStationW", "_win32_openwindowstation", "base.openwindowstation", "winstation.openwindowstation", "winuser/OpenWindowStation", "winuser/OpenWindowStationW"]
 old-location: winstation\openwindowstation.htm
 tech.root: winstation
 ms.assetid: 78ee7100-1bad-4c2d-b923-c5e67191bd41
@@ -94,7 +94,7 @@ After you are done with the handle, you must call
 
 
 > [!NOTE]
-> The winuser.h header defines OpenWindowStation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines OpenWindowStation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

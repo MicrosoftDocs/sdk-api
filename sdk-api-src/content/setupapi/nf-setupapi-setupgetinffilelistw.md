@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetInfFileListW
 title: SetupGetInfFileListW function (setupapi.h)
-description: The SetupGetInfFileList function returns a list of INF files located in a caller-specified directory to a call-supplied buffer.
-helpviewer_keywords: ["SetupGetInfFileList","SetupGetInfFileList function [Setup API]","SetupGetInfFileListA","SetupGetInfFileListW","_setupapi_setupgetinffilelist","setup.setupgetinffilelist","setupapi/SetupGetInfFileList","setupapi/SetupGetInfFileListA","setupapi/SetupGetInfFileListW"]
+description: The SetupGetInfFileList function returns a list of INF files located in a caller-specified directory to a call-supplied buffer. (Unicode)
+helpviewer_keywords: ["SetupGetInfFileList", "SetupGetInfFileList function [Setup API]", "SetupGetInfFileListW", "_setupapi_setupgetinffilelist", "setup.setupgetinffilelist", "setupapi/SetupGetInfFileList", "setupapi/SetupGetInfFileListW"]
 old-location: setup\setupgetinffilelist.htm
 tech.root: setup
 ms.assetid: d7074e88-757c-4ca9-adaf-2010472f106c
@@ -125,7 +125,7 @@ If multiple INF file styles are returned by this function, the style of a partic
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetInfFileList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetInfFileList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

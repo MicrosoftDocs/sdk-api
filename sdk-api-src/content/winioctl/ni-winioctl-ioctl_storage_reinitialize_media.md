@@ -1,7 +1,8 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_REINITIALIZE_MEDIA
 title: IOCTL_STORAGE_REINITIALIZE_MEDIA
-ms.date: 4/26/2019
+description: The IOCTL_STORAGE_REINITIALIZE_MEDIA ioctl (winioctl.h) offloads the erasure process to the storage device.
+ms.date: 08/09/2022
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA
 targetos: Windows
 req.construct-type: ioctl
@@ -14,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

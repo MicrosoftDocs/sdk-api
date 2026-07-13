@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSetW
 title: XMVectorSetW function (directxmath.h)
-description: Set the value of the w component of an XMVECTOR Data Type.
+description: Set the value of the w component of an XMVECTOR Data Type. (XMVectorSetW)
 helpviewer_keywords: ["Use DirectX..XMVectorSetW","XMVectorSetW","XMVectorSetW method [DirectX Math Support APIs]","dxmath.xmvectorsetw"]
 old-location: dxmath\xmvectorsetw.htm
 tech.root: dxmath

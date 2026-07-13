@@ -6,7 +6,7 @@ helpviewer_keywords: ["ScrollBar_GetPos","ScrollBar_GetPos macro [Windows Contro
 old-location: controls\ScrollBar_GetPos.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getpos.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ScrollBar_GetPos, ScrollBar_GetPos macro [Windows Controls], _win32_ScrollBar_GetPos, _win32_ScrollBar_GetPos_cpp, controls.ScrollBar_GetPos, controls._win32_ScrollBar_GetPos, windowsx/ScrollBar_GetPos
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ScrollBar_GetPos macro
+
+## -syntax
+
+```cpp
+int ScrollBar_GetPos(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The current position of the scroll bar.
 
 
 ## -description

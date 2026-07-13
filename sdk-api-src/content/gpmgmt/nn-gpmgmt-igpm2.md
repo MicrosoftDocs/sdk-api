@@ -58,10 +58,7 @@ the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoC
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPM2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>. <b>IGPM2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IGPM2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>. <b>IGPM2</b> also has these types of members:
 
 ## -see-also
 

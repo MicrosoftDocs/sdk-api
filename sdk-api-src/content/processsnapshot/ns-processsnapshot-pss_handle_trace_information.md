@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_6
+UID: NS:processsnapshot.PSS_HANDLE_TRACE_INFORMATION
 title: PSS_HANDLE_TRACE_INFORMATION (processsnapshot.h)
 description: Holds handle trace information returned by PssQuerySnapshot.
 helpviewer_keywords: ["PSS_HANDLE_TRACE_INFORMATION","PSS_HANDLE_TRACE_INFORMATION structure","proc_snap.pss_handle_trace_information","processsnapshot/PSS_HANDLE_TRACE_INFORMATION"]
@@ -69,3 +69,4 @@ The size of the handle trace section, in bytes.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

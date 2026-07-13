@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capSetAudioFormat","capSetAudioFormat","capSetAudi
 old-location: multimedia\capsetaudioformat.htm
 tech.root: Multimedia
 ms.assetid: 9f14b76c-3b12-4dfb-937d-e8a173e077bd
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capSetAudioFormat, capSetAudioFormat, capSetAudioFormat macro [Windows Multimedia], multimedia.capsetaudioformat, vfw/capSetAudioFormat
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # capSetAudioFormat macro
+
+## -syntax
+
+```cpp
+BOOL capSetAudioFormat(
+     hwnd,
+     s,
+     wSize
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

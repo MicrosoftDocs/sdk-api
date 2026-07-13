@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSensorByID","GetSensorByID method","GetSensorByID meth
 old-location: winsensors_com_ref\isensormanager_getsensorbyid.htm
 tech.root: winsensors
 ms.assetid: 453f46f3-43e1-466d-9f46-165b7d2bcd56
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetSensorByID, GetSensorByID method, GetSensorByID method,ISensorManager interface, ISensorManager interface,GetSensorByID method, ISensorManager.GetSensorByID, ISensorManager::GetSensorByID, sensorsapi/ISensorManager::GetSensorByID, winsensors_com_ref.isensormanager_getsensorbyid
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves a pointer to the specified sensor.
 

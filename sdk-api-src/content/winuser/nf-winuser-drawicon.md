@@ -95,12 +95,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 <b>DrawIcon</b> draws the icon or cursor using the width and height specified by the system metric values for icons; for more information, see <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>.
 
+The **DrawIcon** function calls [DrawIconEx](/windows/win32/api/winuser/nf-winuser-drawiconex) passing `DI_NORMAL|DI_DEFAULTSIZE` as flags.
 
 #### Examples
 
 For an example, see <a href="/windows/desktop/menurc/using-icons">Displaying an Icon</a>.
-
-<div class="code"></div>
 
 ## -see-also
 

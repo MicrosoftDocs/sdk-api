@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the image can be edited.
 
-## -parameters
+
 
 ## -returns
 

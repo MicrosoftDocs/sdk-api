@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_WorkingDirectory
 title: IFsrmActionCommand::put_WorkingDirectory (fsrm.h)
-description: Retrieves or sets the working directory in which the executable program will run.
+description: Retrieves or sets the working directory in which the executable program will run. (Put)
 helpviewer_keywords: ["IFsrmActionCommand interface [File Server Resource Manager]","WorkingDirectory property","IFsrmActionCommand.WorkingDirectory","IFsrmActionCommand.put_WorkingDirectory","IFsrmActionCommand::WorkingDirectory","IFsrmActionCommand::get_WorkingDirectory","IFsrmActionCommand::put_WorkingDirectory","WorkingDirectory property [File Server Resource Manager]","WorkingDirectory property [File Server Resource Manager]","IFsrmActionCommand interface","fs.ifsrmactioncommand_workingdirectory","fsrm.ifsrmactioncommand_workingdirectory","fsrm/IFsrmActionCommand::WorkingDirectory","fsrm/IFsrmActionCommand::get_WorkingDirectory","fsrm/IFsrmActionCommand::put_WorkingDirectory","put_WorkingDirectory"]
 old-location: fsrm\ifsrmactioncommand_workingdirectory.htm
 tech.root: fsrm

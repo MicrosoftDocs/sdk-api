@@ -6,7 +6,7 @@ helpviewer_keywords: ["DMO_INPUT_DATA_BUFFERF_SYNCPOINT","DMO_INPUT_DATA_BUFFERF
 old-location: dshow\dmo_input_data_buffer_flags.htm
 tech.root: dshow
 ms.assetid: b0217926-ac2d-48e5-a5d0-e31be6ea20ac
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DMO_INPUT_DATA_BUFFERF_SYNCPOINT, DMO_INPUT_DATA_BUFFERF_TIME, DMO_INPUT_DATA_BUFFERF_TIMELENGTH, DMO_INPUT_DATA_BUFFER_FLAGS , DMO_INPUT_DATA_BUFFER_FLAGSEnumeration, _DMO_INPUT_DATA_BUFFER_FLAGS, _DMO_INPUT_DATA_BUFFER_FLAGS enumeration [DirectShow], dshow.dmo_input_data_buffer_flags, mediaobj/DMO_INPUT_DATA_BUFFERF_SYNCPOINT, mediaobj/DMO_INPUT_DATA_BUFFERF_TIME, mediaobj/DMO_INPUT_DATA_BUFFERF_TIMELENGTH, mediaobj/_DMO_INPUT_DATA_BUFFER_FLAGS
 req.header: mediaobj.h
 req.include-header: 
@@ -50,25 +50,27 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>DMO_INPUT_DATA_BUFFER_FLAGS</code> enumeration defines flags that describe an input buffer.
 
 ## -enum-fields
 
-### -field DMO_INPUT_DATA_BUFFERF_SYNCPOINT
+### -field DMO_INPUT_DATA_BUFFERF_SYNCPOINT:0x1
 
 The beginning of the data is a synchronization point.
 
-### -field DMO_INPUT_DATA_BUFFERF_TIME
+### -field DMO_INPUT_DATA_BUFFERF_TIME:0x2
 
 The buffer's time stamp is valid.
 
 The buffer's indicated time length is valid.
 
-### -field DMO_INPUT_DATA_BUFFERF_TIMELENGTH
+### -field DMO_INPUT_DATA_BUFFERF_TIMELENGTH:0x4
 
 The buffer's indicated time length is valid.
 
-### -field DMO_INPUT_DATA_BUFFERF_DISCONTINUITY
+### -field DMO_INPUT_DATA_BUFFERF_DISCONTINUITY:0x8
 
 ## -see-also
 

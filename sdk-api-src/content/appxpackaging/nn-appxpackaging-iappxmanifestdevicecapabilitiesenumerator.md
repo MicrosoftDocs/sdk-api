@@ -54,10 +54,7 @@ Enumerates the device  capabilities defined in the package manifest.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestDeviceCapabilitiesEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestDeviceCapabilitiesEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxManifestDeviceCapabilitiesEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestDeviceCapabilitiesEnumerator</b> also has these types of members:
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaEnum0
 title: IPsecSaEnum0 function (fwpmu.h)
-description: Returns the next page of results from the IPsec security association (SA) enumerator.
+description: Returns the next page of results from the IPsec security association (SA) enumerator. (IPsecSaEnum0)
 helpviewer_keywords: ["IPsecSaEnum0","IPsecSaEnum0 function [Filtering]","fwp.ipsecsaenum0_func","fwpmu/IPsecSaEnum0"]
 old-location: fwp\ipsecsaenum0_func.htm
 tech.root: fwp

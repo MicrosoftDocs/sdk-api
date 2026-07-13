@@ -54,27 +54,27 @@ Used by <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton
 
 ## -enum-fields
 
-### -field THBF_ENABLED
+### -field THBF_ENABLED:0
 
 The button is active and available to the user.
 
-### -field THBF_DISABLED
+### -field THBF_DISABLED:0x1
 
 The button is disabled. It is present, but has a visual state that indicates that it will not respond to user action.
 
-### -field THBF_DISMISSONCLICK
+### -field THBF_DISMISSONCLICK:0x2
 
 When the button is clicked, the taskbar button's flyout closes immediately.
 
-### -field THBF_NOBACKGROUND
+### -field THBF_NOBACKGROUND:0x4
 
 Do not draw a button border, use only the image.
 
-### -field THBF_HIDDEN
+### -field THBF_HIDDEN:0x8
 
 The button is not shown to the user.
 
-### -field THBF_NONINTERACTIVE
+### -field THBF_NONINTERACTIVE:0x10
 
 The button is enabled but not interactive; no pressed button state is drawn. This value is intended for instances where the button is used in a notification.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SetCurSel","ListBox_SetCurSel macro [Windows Cont
 old-location: controls\ListBox_SetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcursel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SetCurSel, ListBox_SetCurSel macro [Windows Controls], _win32_ListBox_SetCurSel, _win32_ListBox_SetCurSel_cpp, controls.ListBox_SetCurSel, controls._win32_ListBox_SetCurSel, windowsx/ListBox_SetCurSel
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListBox_SetCurSel macro
+
+## -syntax
+
+```cpp
+int ListBox_SetCurSel(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is LB_ERR. If the <i>index</i> parameter is &#8211;1, the return value is LB_ERR even though no error occurred.
 
 
 ## -description

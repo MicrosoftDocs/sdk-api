@@ -52,7 +52,7 @@ api_name:
 
 Removes all pending audio buffers from the voice queue.
 
-## -parameters
+
 
 ## -returns
 

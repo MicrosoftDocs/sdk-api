@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetInsertMarkRect","ListView_GetInsertMarkRect m
 old-location: controls\ListView_GetInsertMarkRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetInsertMarkRect, ListView_GetInsertMarkRect macro [Windows Controls], _win32_ListView_GetInsertMarkRect, _win32_ListView_GetInsertMarkRect_cpp, commctrl/ListView_GetInsertMarkRect, controls.ListView_GetInsertMarkRect, controls._win32_ListView_GetInsertMarkRect
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,25 @@ api_name:
 
 # ListView_GetInsertMarkRect macro
 
+## -syntax
+
+```cpp
+int ListView_GetInsertMarkRect(
+   HWND   hwnd,
+   LPRECT rc
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns one of the following values:
+
+| Return code | Description |
+|---|---|
+| 0 | No insertion point found. |
+| 1 | Insertion point found. |
 
 ## -description
 

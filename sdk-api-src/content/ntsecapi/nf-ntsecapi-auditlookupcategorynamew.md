@@ -1,8 +1,8 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryNameW
 title: AuditLookupCategoryNameW function (ntsecapi.h)
-description: Retrieves the display name of the specified audit-policy category.
-helpviewer_keywords: ["AuditLookupCategoryName","AuditLookupCategoryName function [Security]","AuditLookupCategoryNameA","AuditLookupCategoryNameW","ntsecapi/AuditLookupCategoryName","ntsecapi/AuditLookupCategoryNameA","ntsecapi/AuditLookupCategoryNameW","security.auditlookupcategoryname_func"]
+description: Retrieves the display name of the specified audit-policy category. (Unicode)
+helpviewer_keywords: ["AuditLookupCategoryName", "AuditLookupCategoryName function [Security]", "AuditLookupCategoryNameW", "ntsecapi/AuditLookupCategoryName", "ntsecapi/AuditLookupCategoryNameW", "security.auditlookupcategoryname_func"]
 old-location: security\auditlookupcategoryname_func.htm
 tech.root: security
 ms.assetid: 8b30d864-8eb5-42d8-bc9a-a9eae1de5187
@@ -82,4 +82,4 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 ## -remarks
 
 > [!NOTE]
-> The ntsecapi.h header defines AuditLookupCategoryName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntsecapi.h header defines AuditLookupCategoryName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

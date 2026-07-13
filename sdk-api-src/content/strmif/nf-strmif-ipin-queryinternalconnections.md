@@ -6,7 +6,7 @@ helpviewer_keywords: ["IPin interface [DirectShow]","QueryInternalConnections me
 old-location: dshow\ipin_queryinternalconnections.htm
 tech.root: dshow
 ms.assetid: c0289b89-9220-402c-858c-09076e2ab6b6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IPin interface [DirectShow],QueryInternalConnections method, IPin.QueryInternalConnections, IPin::QueryInternalConnections, IPinQueryInternalConnections, QueryInternalConnections, QueryInternalConnections method [DirectShow], QueryInternalConnections method [DirectShow],IPin interface, dshow.ipin_queryinternalconnections, strmif/IPin::QueryInternalConnections
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>QueryInternalConnections</b> method retrieves the pins that are connected internally to this pin (within the filter).
 
@@ -111,7 +113,7 @@ Not implemented.
 
 This method returns information about the filter's internal mapping of input pins to output pins. In other words, it describes how the input pins deliver data to the output pins.
 
-In most filters, every input pin connects to every output pin. For example, in a transform filter, one input connects to one output; in a splitter filter, one input connects to multiple ouputs. In these cases, the method should simply return E_NOTIMPL.
+In most filters, every input pin connects to every output pin. For example, in a transform filter, one input connects to one output; in a splitter filter, one input connects to multiple outputs. In these cases, the method should simply return E_NOTIMPL.
 
 Otherwise, the method returns an array of <b>IPin</b> pointers, one for each pin that is mapped internally to the pin you have queried. If you call the method on an input pin, the array contains pointers to output pins, and vice versa.
 

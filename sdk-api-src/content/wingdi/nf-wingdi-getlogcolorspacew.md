@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetLogColorSpaceW
 title: GetLogColorSpaceW function (wingdi.h)
-description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle.
-helpviewer_keywords: ["GetLogColorSpace","GetLogColorSpace function [Windows Color System]","GetLogColorSpaceA","GetLogColorSpaceW","_color_GetLogColorSpace","wcs.getlogcolorspace","wingdi/GetLogColorSpace","wingdi/GetLogColorSpaceA","wingdi/GetLogColorSpaceW"]
+description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle. (Unicode)
+helpviewer_keywords: ["GetLogColorSpace", "GetLogColorSpace function [Windows Color System]", "GetLogColorSpaceW", "_color_GetLogColorSpace", "wcs.getlogcolorspace", "wingdi/GetLogColorSpace", "wingdi/GetLogColorSpaceW"]
 old-location: wcs\getlogcolorspace.htm
 tech.root: WCS
 ms.assetid: 01862a48-8c2f-4b29-b928-2800c02218a2
@@ -85,7 +85,7 @@ If this function fails, the return value is <b>FALSE</b>.
 
 
 > [!NOTE]
-> The wingdi.h header defines GetLogColorSpace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetLogColorSpace as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

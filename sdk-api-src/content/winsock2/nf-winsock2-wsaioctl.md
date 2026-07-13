@@ -6,7 +6,7 @@ helpviewer_keywords: ["WSAIoctl","WSAIoctl function [Winsock]","_win32_wsaioctl_
 old-location: winsock\wsaioctl_2.htm
 tech.root: WinSock
 ms.assetid: 038aeca6-d7b7-4f74-ac69-4536c2e5118b
-ms.date: 12/05/2018
+ms.date: 12/14/2023
 ms.keywords: WSAIoctl, WSAIoctl function [Winsock], _win32_wsaioctl_2, mstcpip/WSAIoctl, winsock.wsaioctl_2, winsock2/WSAIoctl
 req.header: winsock2.h
 req.include-header: 
@@ -45,13 +45,11 @@ api_name:
  - WSAIoctl
 ---
 
-# WSAIoctl function
-
+# WSAIoctl function (winsock2.h)
 
 ## -description
 
-The 
-<b>WSAIoctl</b> function controls the mode of a socket.
+The <b>WSAIoctl</b> function controls the mode of a socket.
 
 ## -parameters
 
@@ -61,7 +59,7 @@ A descriptor identifying a socket.
 
 ### -param dwIoControlCode [in]
 
-The control code of operation to perform.
+The control code of operation to perform. See [Winsock IOCTLs](/windows/win32/winsock/winsock-ioctls).
 
 ### -param lpvInBuffer [in]
 

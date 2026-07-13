@@ -56,7 +56,7 @@ Describes the tiling behavior of a tile brush.
 
 ## -enum-fields
 
-### -field XPS_TILE_MODE_NONE
+### -field XPS_TILE_MODE_NONE:1
 
 Only the base tile is drawn.
 
@@ -84,5 +84,5 @@ The following illustration shows the effect of each tile mode on how a tiled bru
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 

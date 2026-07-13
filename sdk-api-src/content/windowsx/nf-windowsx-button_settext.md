@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_SetText","Button_SetText macro [Windows Controls]"
 old-location: controls\Button_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_SetText, Button_SetText macro [Windows Controls], _win32_Button_SetText, _win32_Button_SetText_cpp, controls.Button_SetText, controls._win32_Button_SetText, windowsx/Button_SetText
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Button_SetText macro
+
+## -syntax
+
+```cpp
+int Button_SetText(
+   HWND   hwndCtl,
+   LPTSTR lpsz
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the function succeeds, the return value is nonzero. If it fails, the return value is zero.
 
 
 ## -description

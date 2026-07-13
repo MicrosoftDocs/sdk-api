@@ -1,18 +1,18 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference)
 title: IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference) (dwrite_3.h)
-description: Adds a reference to a font to the set being built. The necessary metadata will automatically be extracted from the font upon calling CreateFontSet.
+description: Adds a reference to a font to the set being built. The necessary metadata will automatically be extracted from the font upon calling CreateFontSet. (overload 1/2)
 helpviewer_keywords: ["AddFontFaceReference","AddFontFaceReference method [Direct Write]","AddFontFaceReference method [Direct Write]","IDWriteFontSetBuilder interface","IDWriteFontSetBuilder interface [Direct Write]","AddFontFaceReference method","IDWriteFontSetBuilder.AddFontFaceReference","IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference)","IDWriteFontSetBuilder::AddFontFaceReference","IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference)","directwrite.idwritefontsetbuilder_addfontfacereference_1","dwrite_3/IDWriteFontSetBuilder::AddFontFaceReference"]
 old-location: directwrite\idwritefontsetbuilder_addfontfacereference_1.htm
 tech.root: DirectWrite
 ms.assetid: 0E67F5EF-F8BB-47D9-995D-40879351DC17
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: AddFontFaceReference, AddFontFaceReference method [Direct Write], AddFontFaceReference method [Direct Write],IDWriteFontSetBuilder interface, IDWriteFontSetBuilder interface [Direct Write],AddFontFaceReference method, IDWriteFontSetBuilder.AddFontFaceReference, IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference), IDWriteFontSetBuilder::AddFontFaceReference, IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference), directwrite.idwritefontsetbuilder_addfontfacereference_1, dwrite_3/IDWriteFontSetBuilder::AddFontFaceReference
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -64,7 +64,7 @@ Font face reference object to add to the set.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

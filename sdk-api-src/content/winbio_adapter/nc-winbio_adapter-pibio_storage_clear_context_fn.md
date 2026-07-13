@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_CLEAR_CONTEXT_FN
 title: PIBIO_STORAGE_CLEAR_CONTEXT_FN (winbio_adapter.h)
-description: Prepares the processing pipeline of the biometric unit for a new operation.
+description: The PIBIO_STORAGE_CLEAR_CONTEXT_FN callback function (winbio_adapter.h) prepares the processing pipeline of the biometric unit for a new operation.
 helpviewer_keywords: ["PIBIO_STORAGE_CLEAR_CONTEXT_FN","PIBIO_STORAGE_CLEAR_CONTEXT_FN callback","StorageAdapterClearContext","StorageAdapterClearContext callback function [Windows Biometric Framework API]","secbiomet.storageadapterclearcontext","winbio_adapter/StorageAdapterClearContext"]
 old-location: secbiomet\storageadapterclearcontext.htm
 tech.root: SecBioMet
 ms.assetid: d7022363-01e9-4675-9bd0-e9369d237c3c
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PIBIO_STORAGE_CLEAR_CONTEXT_FN, PIBIO_STORAGE_CLEAR_CONTEXT_FN callback, StorageAdapterClearContext, StorageAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.storageadapterclearcontext, winbio_adapter/StorageAdapterClearContext
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

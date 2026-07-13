@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l2-1-4.dll
+ - api-ms-win-core-file-l2-1-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l2-1-0.dll
  - KernelBase.dll
@@ -283,6 +285,11 @@ For asynchronous completion, you can receive notification in one of three ways:
 <b>ReadDirectoryChangesW</b> fails with 
     <b>ERROR_NOACCESS</b> when the buffer is not aligned on a <b>DWORD</b> 
     boundary.
+
+<b>ReadDirectoryChangesW</b> fails with
+<b>ERROR_NOTIFY_ENUM_DIR</b>
+when the system was unable to record all the changes to the directory.
+In this case, you should compute the changes by enumerating the directory or subtree.
 
 If you opened the file using the short name, you can receive change notifications for the short name.
 

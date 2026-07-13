@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_VOLUME_NOTIFICATION
 title: VDS_VOLUME_NOTIFICATION (vds.h)
-description: Defines the details of volume events.
+description: The VDS_VOLUME_NOTIFICATION structure (vds.h) defines the details of volume events. 
 helpviewer_keywords: ["VDS_NF_VOLUME_ARRIVE","VDS_NF_VOLUME_DEPART","VDS_NF_VOLUME_MODIFY","VDS_NF_VOLUME_REBUILDING_PROGRESS","VDS_VOLUME_NOTIFICATION","VDS_VOLUME_NOTIFICATION structure [VDS]","base.vds_volume_notification","vds/_VDS_VOLUME_NOTIFICATION","vdshwprv/_VDS_VOLUME_NOTIFICATION"]
 old-location: base\vds_volume_notification.htm
 tech.root: base
 ms.assetid: 0aea3de4-60b1-4452-a5f1-f3556e719e09
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_NF_VOLUME_ARRIVE, VDS_NF_VOLUME_DEPART, VDS_NF_VOLUME_MODIFY, VDS_NF_VOLUME_REBUILDING_PROGRESS, VDS_VOLUME_NOTIFICATION, VDS_VOLUME_NOTIFICATION structure [VDS], base.vds_volume_notification, vds/_VDS_VOLUME_NOTIFICATION, vdshwprv/_VDS_VOLUME_NOTIFICATION
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the details of volume events.
 

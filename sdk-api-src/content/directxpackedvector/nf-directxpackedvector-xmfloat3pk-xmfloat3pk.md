@@ -55,7 +55,7 @@ Default constructor for <code>XMFLOAT3PK</code>.
 Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

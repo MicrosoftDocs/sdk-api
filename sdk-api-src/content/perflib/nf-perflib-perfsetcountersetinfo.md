@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-perfcounters-l1-2-0.dll
  - Advapi32.dll
  - API-MS-Win-Core-perfcounters-l1-1-0.dll
  - KernelBase.dll

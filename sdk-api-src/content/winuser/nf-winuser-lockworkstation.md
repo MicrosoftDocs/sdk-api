@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
@@ -54,7 +56,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.
 
 Locks the workstation's display. Locking a workstation protects it from unauthorized use.
 
-## -parameters
+
 
 ## -returns
 
@@ -70,8 +72,7 @@ The
 
 Common reasons the workstation might not be locked even if the function succeeds include the following: no user is logged on, the workstation is already locked, the process is not running on the interactive desktop, or the request is denied by the Graphical Identification and Authentication (GINA) DLL.
 
-This function has the same result as pressing Ctrl+Alt+Del and clicking <b>Lock Workstation</b>. To unlock the workstation, the user must log in. There is no function you can call to determine whether the workstation is locked. To receive notification when the user logs in, use the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a> function to receive <a href="/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a> messages. You can use session notifications to track the desktop state so you know whether it is possible to interact with the user.
-
+This function has the same result as pressing Ctrl+Alt+Del and clicking <b>Lock</b>. To unlock the workstation, the user must log in. There is no function you can call to determine whether the workstation is locked. To receive a notification when the user locks the workstation or logs in, use the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification">WTSRegisterSessionNotification</a> function to receive <a href="/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a> messages. You can use session notifications to track the desktop state so you know whether it is possible to interact with the user.
 
 #### Examples
 

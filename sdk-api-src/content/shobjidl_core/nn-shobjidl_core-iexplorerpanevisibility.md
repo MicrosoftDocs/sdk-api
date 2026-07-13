@@ -60,10 +60,7 @@ A namespace extension can provide a custom view by implementing <a href="/window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerPaneVisibility</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerPaneVisibility</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IExplorerPaneVisibility</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerPaneVisibility</b> also has these types of members:
 
 ## -see-also
 

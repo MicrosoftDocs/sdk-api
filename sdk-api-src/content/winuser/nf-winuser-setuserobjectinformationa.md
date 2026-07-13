@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetUserObjectInformationA
 title: SetUserObjectInformationA function (winuser.h)
-description: Sets information about the specified window station or desktop object.
-helpviewer_keywords: ["SetUserObjectInformation","SetUserObjectInformation function [Windows Stations and Desktops]","SetUserObjectInformationA","SetUserObjectInformationW","UOI_FLAGS","UOI_TIMERPROC_EXCEPTION_SUPPRESSION","_win32_setuserobjectinformation","base.setuserobjectinformation","winstation.setuserobjectinformation","winuser/SetUserObjectInformation","winuser/SetUserObjectInformationA","winuser/SetUserObjectInformationW"]
+description: Sets information about the specified window station or desktop object. (ANSI)
+helpviewer_keywords: ["SetUserObjectInformationA", "UOI_FLAGS", "UOI_TIMERPROC_EXCEPTION_SUPPRESSION", "winuser/SetUserObjectInformationA"]
 old-location: winstation\setuserobjectinformation.htm
 tech.root: winstation
 ms.assetid: 42ce6946-1659-41a3-8ba7-21588583b4bd
@@ -152,4 +152,4 @@ If the function fails the return value is zero. To get extended error informatio
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines SetUserObjectInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SetUserObjectInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

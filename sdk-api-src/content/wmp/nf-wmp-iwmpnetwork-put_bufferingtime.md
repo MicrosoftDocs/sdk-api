@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","put_buffer
 old-location: wmp\iwmpnetwork_put_bufferingtime.htm
 tech.root: WMP
 ms.assetid: 9f25992f-e3a0-477b-b445-1f3fb7d9eae1
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPNetwork interface [Windows Media Player],put_bufferingTime method, IWMPNetwork.put_bufferingTime, IWMPNetwork::put_bufferingTime, IWMPNetworkput_bufferingTime, put_bufferingTime, put_bufferingTime method [Windows Media Player], put_bufferingTime method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_put_bufferingtime, wmp/IWMPNetwork::put_bufferingTime
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_bufferingTime</b> method specifies the amount of time in milliseconds allocated for buffering incoming data before playing begins.
 

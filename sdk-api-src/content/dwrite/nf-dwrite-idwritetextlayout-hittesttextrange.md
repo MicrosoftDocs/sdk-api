@@ -59,12 +59,16 @@ The application is responsible for allocating a new buffer of greater size and c
 A good value to use as an initial value for maxHitTestMetricsCount may be calculated from the following equation:
 
 
-<pre class="syntax" xml:space="preserve"><code>maxHitTestMetricsCount = lineCount * maxBidiReorderingDepth</code></pre>
+
+``` syntax
+maxHitTestMetricsCount = lineCount * maxBidiReorderingDepth
+```
+
 
 
 where lineCount is obtained from the value of the output argument
      *actualLineCount (from the function <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>::GetLineLengths),
-     and the maxBidiReorderingDepth value from the <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_metrics">DWRITE_TEXT_METRICS</a>structure of the output argument *textMetrics (from the function
+     and the maxBidiReorderingDepth value from the <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_metrics">DWRITE_TEXT_METRICS</a> structure of the output argument *textMetrics (from the function
      <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>::<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">CreateTextLayout</a>).
 
 ## -parameters
@@ -115,7 +119,7 @@ Actual number of geometries <i>hitTestMetrics</i> holds in its buffer memory.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlAddFunctionTable
 title: RtlAddFunctionTable function (winnt.h)
-description: Adds a dynamic function table to the dynamic function table list.
+description: Adds a dynamic function table to the dynamic function table list. (RtlAddFunctionTable)
 helpviewer_keywords: ["RtlAddFunctionTable","RtlAddFunctionTable function","base.rtladdfunctiontable","winnt/RtlAddFunctionTable"]
 old-location: base\rtladdfunctiontable.htm
 tech.root: Debug
@@ -41,6 +41,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-rtlsupport-l1-2-2.dll
+ - api-ms-win-core-rtlsupport-l1-2-1.dll
  - Kernel32.dll
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
  - ntdll.dll

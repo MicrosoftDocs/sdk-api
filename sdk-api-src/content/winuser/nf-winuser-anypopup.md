@@ -54,7 +54,7 @@ Indicates whether an owned, visible, top-level pop-up, or overlapped window exis
 
 This function is provided only for compatibility with 16-bit versions of Windows. It is generally not useful.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,10 +56,7 @@ To get a pointer to this interface, call <a href="/windows/desktop/api/dxva2api/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoDecoderService</b> interface inherits from <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>. <b>IDirectXVideoDecoderService</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDirectXVideoDecoderService</b> interface inherits from <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>. <b>IDirectXVideoDecoderService</b> also has these types of members:
 
 ## -see-also
 

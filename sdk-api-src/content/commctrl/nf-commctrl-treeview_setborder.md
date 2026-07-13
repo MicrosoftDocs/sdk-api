@@ -6,7 +6,7 @@ helpviewer_keywords: ["TVSBF_XBORDER","TVSBF_YBORDER","TreeView_SetBorder","Tree
 old-location: controls\TreeView_SetBorder.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setborder.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TVSBF_XBORDER, TVSBF_YBORDER, TreeView_SetBorder, TreeView_SetBorder macro [Windows Controls], _win32_TreeView_SetBorder, _win32_TreeView_SetBorder_cpp, commctrl/TreeView_SetBorder, controls.TreeView_SetBorder, controls._win32_TreeView_SetBorder
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # TreeView_SetBorder macro
+
+## -syntax
+
+```cpp
+int TreeView_SetBorder(
+   HWND  hwnd,
+   DWORD dwFlags,
+   SHORT xBorder,
+   SHORT yBorder
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns a <b>int</b> value that contains the previous border size, in pixels. The <b>LOWORD</b> contains the previous size of the horizontal border, and the <b>HIWORD</b> contains the previous size of the vertical border.
 
 
 ## -description

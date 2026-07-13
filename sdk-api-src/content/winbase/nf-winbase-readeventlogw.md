@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.ReadEventLogW
 title: ReadEventLogW function (winbase.h)
-description: Reads the specified number of entries from the specified event log.
-helpviewer_keywords: ["EVENTLOG_BACKWARDS_READ","EVENTLOG_FORWARDS_READ","EVENTLOG_SEEK_READ","EVENTLOG_SEQUENTIAL_READ","ReadEventLog","ReadEventLog function","ReadEventLogA","ReadEventLogW","_win32_readeventlog","base.readeventlog","winbase/ReadEventLog","winbase/ReadEventLogA","winbase/ReadEventLogW"]
+description: Reads the specified number of entries from the specified event log. (Unicode)
+helpviewer_keywords: ["EVENTLOG_BACKWARDS_READ", "EVENTLOG_FORWARDS_READ", "EVENTLOG_SEEK_READ", "EVENTLOG_SEQUENTIAL_READ", "ReadEventLog", "ReadEventLog function", "ReadEventLogW", "_win32_readeventlog", "base.readeventlog", "winbase/ReadEventLog", "winbase/ReadEventLogW"]
 old-location: base\readeventlog.htm
 tech.root: base
 ms.assetid: 10b37174-661a-4dc6-a7fe-752739494156
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-eventlog-l1-1-2.dll
  - Advapi32.dll
  - Ext-MS-Win-AdvAPI32-EventLog-L1-1-0.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
@@ -199,7 +200,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winbase.h header defines ReadEventLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines ReadEventLog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

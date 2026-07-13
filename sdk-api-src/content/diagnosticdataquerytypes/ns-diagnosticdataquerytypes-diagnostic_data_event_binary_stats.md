@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_EVENT_BINARY_STATS, DIAGNOSTIC_DATA_EVENT_BINARY
 description: A resource that describes this binary and the amount of diagnostic data it has sent.
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderHomePhone
 title: IFaxDoc::get_SenderHomePhone (faxcom.h)
-description: Sets or retrieves the SenderHomePhone property of a FaxDoc object. The SenderHomePhone property is a null-terminated string that contains the home telephone number of the sender of the fax transmission.
+description: Sets or retrieves the SenderHomePhone property of a FaxDoc object. The SenderHomePhone property is a null-terminated string that contains the home telephone number of the sender of the fax transmission. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","SenderHomePhone property","IFaxDoc.SenderHomePhone","IFaxDoc.get_SenderHomePhone","IFaxDoc::SenderHomePhone","IFaxDoc::get_SenderHomePhone","IFaxDoc::put_SenderHomePhone","SenderHomePhone property [Fax Service]","SenderHomePhone property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_senderhomephone","fax._mfax_ifaxdoc_get_senderhomephone","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderhomephone_cpp","faxcom/IFaxDoc::SenderHomePhone","faxcom/IFaxDoc::get_SenderHomePhone","faxcom/IFaxDoc::put_SenderHomePhone","get_SenderHomePhone"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderhomephone_cpp.htm
 tech.root: Fax

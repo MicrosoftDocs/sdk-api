@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetLineColor","TreeView_SetLineColor macro [Wind
 old-location: controls\TreeView_SetLineColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setlinecolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetLineColor, TreeView_SetLineColor macro [Windows Controls], _win32_TreeView_SetLineColor, _win32_TreeView_SetLineColor_cpp, commctrl/TreeView_SetLineColor, controls.TreeView_SetLineColor, controls._win32_TreeView_SetLineColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_SetLineColor macro
+
+## -syntax
+
+```cpp
+COLORREF TreeView_SetLineColor(
+   HWND     hwnd,
+   COLORREF clr
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns the previous line color.
 
 
 ## -description

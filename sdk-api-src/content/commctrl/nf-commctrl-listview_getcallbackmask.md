@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetCallbackMask","ListView_GetCallbackMask macro
 old-location: controls\ListView_GetCallbackMask.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcallbackmask.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetCallbackMask, ListView_GetCallbackMask macro [Windows Controls], _win32_ListView_GetCallbackMask, _win32_ListView_GetCallbackMask_cpp, commctrl/ListView_GetCallbackMask, controls.ListView_GetCallbackMask, controls._win32_ListView_GetCallbackMask
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetCallbackMask macro
+
+## -syntax
+
+```cpp
+UINT ListView_GetCallbackMask(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the callback mask.
 
 
 ## -description

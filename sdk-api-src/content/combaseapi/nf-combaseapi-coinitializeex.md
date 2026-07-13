@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - ComBase.dll
@@ -107,7 +109,7 @@ The COM library is already initialized on this thread.
 </dl>
 </td>
 <td width="60%">
-A previous call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> specified the concurrency model for this thread as multithread apartment (MTA). This could also indicate that a change from neutral-threaded apartment to single-threaded apartment has occurred.
+A previous call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> specified an incompatible concurrency model for this thread. This could also indicate that a change from neutral-threaded apartment to single-threaded apartment has occurred.
 
 </td>
 </tr>
@@ -115,15 +117,14 @@ A previous call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinit
 
 ## -remarks
 
-<b>CoInitializeEx</b> must be called at least once, and is usually called only once, for each thread that uses the COM library. Multiple calls to <b>CoInitializeEx</b> by the same thread are allowed as long as they pass the same concurrency flag, but subsequent valid calls return S_FALSE. To close the COM library gracefully on a thread, each successful call to <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <b>CoInitializeEx</b>, including any call that returns S_FALSE, must be balanced by a corresponding call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>.
+<b>CoInitializeEx</b> must be called at least once, and is usually called only once, for each thread that uses the COM library. Multiple calls to <b>CoInitializeEx</b> by the same thread are allowed as long as they pass the same concurrency flag, but subsequent valid calls return S_FALSE.
+If the concurrency flag does not match, then the call fails and returns RPC_E_CHANGED_MODE.
+(For the purpose of this rule, a call to <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> is equivalent to calling <b>CoInitializeEx</b> with the COINIT_APARTMENTTHREADED flag.)
+To uninitialize the COM library gracefully on a thread, each successful call to <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <b>CoInitializeEx</b>, including any call that returns S_FALSE, must be balanced by a corresponding call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>.
+Once COM has been uninitialized on a thread, you can reinitialize it in any mode, subject to the constraints above.
 
 You need to initialize the COM library on a thread before you call any of the library functions except <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>, to get a pointer to the standard allocator, and the memory allocation functions.
-
 Otherwise, the COM function will return CO_E_NOTINITIALIZED.
-
-After the concurrency model for a thread is set, it cannot be changed. A call to <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> on an apartment that was previously initialized as multithreaded will fail and return RPC_E_CHANGED_MODE. 
-
-
 
 Objects created in a single-threaded apartment (STA) receive method calls only from their apartment's thread, so calls are serialized and arrive only at message-queue boundaries (when the <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a> function is called).
 

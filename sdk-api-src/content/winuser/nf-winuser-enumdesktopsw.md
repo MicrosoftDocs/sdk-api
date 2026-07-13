@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.EnumDesktopsW
 title: EnumDesktopsW function (winuser.h)
-description: Enumerates all desktops associated with the specified window station of the calling process. The function passes the name of each desktop, in turn, to an application-defined callback function.
-helpviewer_keywords: ["EnumDesktops","EnumDesktops function [Windows Stations and Desktops]","EnumDesktopsA","EnumDesktopsW","_win32_enumdesktops","base.enumdesktops","winstation.enumdesktops","winuser/EnumDesktops","winuser/EnumDesktopsA","winuser/EnumDesktopsW"]
+description: Enumerates all desktops associated with the specified window station of the calling process. The function passes the name of each desktop, in turn, to an application-defined callback function. (Unicode)
+helpviewer_keywords: ["EnumDesktops", "EnumDesktops function [Windows Stations and Desktops]", "EnumDesktopsW", "_win32_enumdesktops", "base.enumdesktops", "winstation.enumdesktops", "winuser/EnumDesktops", "winuser/EnumDesktopsW"]
 old-location: winstation\enumdesktops.htm
 tech.root: winstation
 ms.assetid: 3e900b34-2c60-4281-881f-13a746674aec
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-windowstation-l1-1-2.dll
+ - ext-ms-win-ntuser-windowstation-l1-1-1.dll
+ - ext-ms-win-ntuser-windowstation-l1-1-0.dll
  - User32.dll
 api_name:
  - EnumDesktops
@@ -98,7 +101,7 @@ The
 
 
 > [!NOTE]
-> The winuser.h header defines EnumDesktops as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines EnumDesktops as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

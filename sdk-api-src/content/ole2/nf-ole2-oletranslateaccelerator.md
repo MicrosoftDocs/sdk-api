@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-com-ole32-l1-4-0.dll
+ - ext-ms-win-com-ole32-l1-3-0.dll
+ - ext-ms-win-com-ole32-l1-2-0.dll
+ - ext-ms-win-com-ole32-l1-1-5.dll
  - Ole32.dll
  - Ext-MS-Win-Com-OLE32-l1-1-3.dll
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
@@ -100,7 +104,11 @@ Object servers call <b>OleTranslateAccelerator</b> to allow the object's contain
 
 Accelerator tables for containers should be defined so they will work properly with object applications that do their own accelerator keystroke translations. These tables should take the form:
 
-<pre class="syntax" xml:space="preserve"><code>"char", wID, VIRTKEY, CONTROL</code></pre>
+
+``` syntax
+"char", wID, VIRTKEY, CONTROL
+```
+
 This is the most common way to describe keyboard accelerators. Failure to do so can result in keystrokes being lost or sent to the wrong object during an in-place session.
 
 Objects can call the <a href="/windows/desktop/api/ole2/nf-ole2-isaccelerator">IsAccelerator</a> function to see whether the accelerator keystroke belongs to the object or the container.

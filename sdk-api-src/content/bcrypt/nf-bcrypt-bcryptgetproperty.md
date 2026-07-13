@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCryptGetProperty","BCryptGetProperty function [Security]
 old-location: security\bcryptgetproperty_func.htm
 tech.root: security
 ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4
-ms.date: 12/05/2018
+ms.date: 06/16/2025
 ms.keywords: BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func
 req.header: bcrypt.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # BCryptGetProperty function
 
-
 ## -description
 
-The <b>BCryptGetProperty</b> function retrieves the value of a named property for a CNG object.
+The **BCryptGetProperty** function retrieves the value of a named property for a CNG object.
 
 ## -parameters
 
@@ -61,19 +60,19 @@ A handle that represents the CNG object to obtain the property value for.
 
 ### -param pszProperty [in]
 
-A pointer to a null-terminated Unicode string that contains the name of the property to retrieve. This can be one of the predefined <a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a> or a custom property identifier.
+A pointer to a null-terminated Unicode string that contains the name of the property to retrieve. This can be one of the predefined [Cryptography Primitive Property Identifiers](/windows/win32/SecCNG/cng-property-identifiers) or a custom property identifier.
 
 ### -param pbOutput [out]
 
-The address of a buffer that receives the property value. The <i>cbOutput</i> parameter contains the size of this buffer.
+The address of a buffer that receives the property value. The *cbOutput* parameter contains the size of this buffer.
 
 ### -param cbOutput [in]
 
-The size, in bytes, of the <i>pbOutput</i> buffer.
+The size, in bytes, of the *pbOutput* buffer.
 
 ### -param pcbResult [out]
 
-A pointer to a <b>ULONG</b> variable that receives the number of bytes that were copied to the <i>pbOutput</i> buffer. If the <i>pbOutput</i> parameter is <b>NULL</b>, this function will place the required size, in bytes, in the location pointed to by this parameter.
+A pointer to a **ULONG** variable that receives the number of bytes that were copied to the *pbOutput* buffer. If the *pbOutput* parameter is `NULL`, this function will place the required size, in bytes, in the location pointed to by this parameter.
 
 ### -param dwFlags [in]
 
@@ -83,77 +82,20 @@ A set of flags that modify the behavior of this function. No flags are defined f
 
 Returns a status code that indicates the success or failure of the function.
 
+Possible return codes include, but are not limited to, the following:
 
-Possible return codes include, but are not limited to, the following.
-
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The buffer size specified by the <i>cbOutput</i> parameter is not large enough to hold the property value.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle in the <i>hObject</i> parameter is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more parameters are not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The named property specified by the <i>pszProperty</i> parameter is not supported.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **STATUS_SUCCESS** | The function was successful. |
+| **STATUS_BUFFER_TOO_SMALL** | The buffer size specified by the *cbOutput* parameter is not large enough to hold the property value. |
+| **STATUS_INVALID_HANDLE** | The handle in the *hObject* parameter is not valid. |
+| **STATUS_INVALID_PARAMETER** | One or more parameters are not valid. |
+| **STATUS_NOT_SUPPORTED** | The property specified by the *pszProperty* parameter is not supported. |
 
 ## -remarks
 
-To obtain the required size for a property, pass <b>NULL</b> for the <i>pbOutput</i> parameter. This function will place the required size, in bytes, in the value pointed to by the <i>pcbResult</i> parameter.
+To obtain the required size for a property, pass `NULL` for the *pbOutput* parameter. This function will place the required size, in bytes, in the value pointed to by the *pcbResult* parameter.
 
-Depending on what processor modes a provider supports, <b>BCryptGetProperty</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, any pointers passed to the <b>BCryptGetProperty</b> function must refer to nonpaged (or locked) memory. If the object specified in the <i>hObject</i> parameter is a handle, it must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
+When using a supported algorithm provider, **BCryptGetProperty** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, any pointers passed to the **BCryptGetProperty** function must refer to nonpaged (or locked) memory. If the object specified in the *hObject* parameter is a handle, it must have been opened by using the **BCRYPT_PROV_DISPATCH** flag.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use `Cng.lib`, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use `Ksecdd.lib`.

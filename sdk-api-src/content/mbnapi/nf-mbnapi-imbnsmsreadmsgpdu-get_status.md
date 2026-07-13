@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Status
 title: IMbnSmsReadMsgPdu::get_Status (mbnapi.h)
-description: The type of message.
+description: The type of message. (IMbnSmsReadMsgPdu.get_Status)
 helpviewer_keywords: ["IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","Status property","IMbnSmsReadMsgPdu.Status","IMbnSmsReadMsgPdu.get_Status","IMbnSmsReadMsgPdu::Status","IMbnSmsReadMsgPdu::get_Status","Status property [Microsoft Broadband Networks]","Status property [Microsoft Broadband Networks]","IMbnSmsReadMsgPdu interface","get_Status","mbn.imbnsmsreadmsgpdu_status","mbnapi/IMbnSmsReadMsgPdu::Status","mbnapi/IMbnSmsReadMsgPdu::get_Status"]
 old-location: mbn\imbnsmsreadmsgpdu_status.htm
 tech.root: mbn

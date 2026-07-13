@@ -58,7 +58,7 @@ The <b>POLICY_NOTIFICATION_INFORMATION_CLASS</b> enumeration defines the types o
 
 ## -enum-fields
 
-### -field PolicyNotifyAuditEventsInformation
+### -field PolicyNotifyAuditEventsInformation:1
 
 Notify when any of the audited categories are changed.
 

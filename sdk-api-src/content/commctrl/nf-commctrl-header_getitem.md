@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetItem","Header_GetItem macro [Windows Controls]"
 old-location: controls\Header_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetItem, Header_GetItem macro [Windows Controls], _win32_Header_GetItem, _win32_Header_GetItem_cpp, commctrl/Header_GetItem, controls.Header_GetItem, controls._win32_Header_GetItem
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # Header_GetItem macro
 
+## -syntax
+
+```cpp
+BOOL Header_GetItem(
+   HWND     hwndHD,
+   int      i,
+   LPHDITEM phdi
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
+
 
 ## -description
 
@@ -81,8 +97,12 @@ If the HDI_TEXT flag is set in the
 
 The <b>Header_GetItem</b> macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_GetItem(hwndHD, index, phdi)      \
+
+``` syntax
+#define Header_GetItem(hwndHD, i, phdi)      \
 
     (BOOL)SendMessage((hwndHD), HDM_GETITEM,   \
 
-    (WPARAM)(int)(index), (LPARAM)(LPHDITEM)(phdi))</code></pre>
+    (WPARAM)(int)(i), (LPARAM)(LPHDITEM)(phdi))
+```
+

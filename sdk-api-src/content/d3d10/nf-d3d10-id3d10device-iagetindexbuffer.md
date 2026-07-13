@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetIndexBuffer
 title: ID3D10Device::IAGetIndexBuffer (d3d10.h)
-description: Get a pointer to the index buffer that is bound to the input-assembler stage.
+description: Get a pointer to the index buffer that is bound to the input-assembler stage. (ID3D10Device.IAGetIndexBuffer)
 helpviewer_keywords: ["IAGetIndexBuffer","IAGetIndexBuffer method [Direct3D 10]","IAGetIndexBuffer method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IAGetIndexBuffer method","ID3D10Device.IAGetIndexBuffer","ID3D10Device::IAGetIndexBuffer","d3d10/ID3D10Device::IAGetIndexBuffer","direct3d10.id3d10device_iagetindexbuffer","ed98b873-1411-e17d-aa80-9545533db76a"]
 old-location: direct3d10\id3d10device_iagetindexbuffer.htm
 tech.root: direct3d10

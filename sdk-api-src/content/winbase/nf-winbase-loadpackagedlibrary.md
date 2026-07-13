@@ -81,7 +81,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 ## -remarks
 
 The 
-<b>LoadPackagedLibrary</b> function is a simplified version of <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>. Windows Runtime apps  can use <b>LoadPackagedLibrary</b> to load packaged modules. Desktop applications cannot use <b>LoadPackagedLibrary</b>; if a desktop application calls this function it fails with <b>APPMODEL_ERROR_NO_PACKAGE</b>.
+<b>LoadPackagedLibrary</b> function is a simplified version of <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>. Packaged apps can use <b>LoadPackagedLibrary</b> to load packaged modules. Unpackaged applications cannot use <b>LoadPackagedLibrary</b>; if a unpackaged application calls this function it fails with <b>APPMODEL_ERROR_NO_PACKAGE</b>.
 
 <b>LoadPackagedLibrary</b> returns a handle to the specified module and increments its reference count. If the module is already loaded, the function returns a handle to the loaded module. The calling process can use the handle returned by <b>LoadPackagedLibrary</b> to identify the module in calls to the 
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function. Use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> function to free a loaded module and decrement its reference              count.  

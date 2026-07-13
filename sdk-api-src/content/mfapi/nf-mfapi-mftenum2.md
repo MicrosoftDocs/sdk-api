@@ -285,7 +285,7 @@ Hardware codecs should also be registered under an <a href="/windows/desktop/med
 
 #### Examples
 
-The following example retrieves the first available <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a> and gets the adapters <a href="/windows/desktop/api/dxgi/ns-dxgi-_luid">LUID</a>, which is needed to identify the adapter for the subsequent examples.
+The following example retrieves the first available <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a> and gets the adapters <a href="/windows/win32/api/ntdef/ns-ntdef-luid">LUID</a>, which is needed to identify the adapter for the subsequent examples.
 
 
 ```cpp

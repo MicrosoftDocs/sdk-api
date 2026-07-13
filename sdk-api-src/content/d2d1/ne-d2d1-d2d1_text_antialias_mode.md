@@ -54,23 +54,23 @@ Describes the antialiasing mode used for drawing text.
 
 ## -enum-fields
 
-### -field D2D1_TEXT_ANTIALIAS_MODE_DEFAULT
+### -field D2D1_TEXT_ANTIALIAS_MODE_DEFAULT:0
 
 Use the system default. See Remarks.
 
-### -field D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE
+### -field D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE:1
 
 Use ClearType antialiasing.
 
-### -field D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE
+### -field D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE:2
 
 Use grayscale antialiasing.
 
-### -field D2D1_TEXT_ANTIALIAS_MODE_ALIASED
+### -field D2D1_TEXT_ANTIALIAS_MODE_ALIASED:3
 
 Do not use antialiasing.
 
-### -field D2D1_TEXT_ANTIALIAS_MODE_FORCE_DWORD
+### -field D2D1_TEXT_ANTIALIAS_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The<b>NLM_USAGE_DATA</b> structure stores information that indicates the data usage  of a plan.
+The <b>NLM_USAGE_DATA</b> structure stores information that indicates the data usage  of a plan.
 
 ## -struct-fields
 

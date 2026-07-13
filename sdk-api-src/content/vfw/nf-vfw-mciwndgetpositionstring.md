@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetPositionString","MCIWndGetPositionString macro [
 old-location: multimedia\mciwndgetpositionstring.htm
 tech.root: Multimedia
 ms.assetid: ccca1ec7-a523-4a36-bc81-9cb25cfa3aa1
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetPositionString, MCIWndGetPositionString macro [Windows Multimedia], _win32_MCIWndGetPositionString, multimedia.mciwndgetpositionstring, vfw/MCIWndGetPositionString
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MCIWndGetPositionString macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetPositionString(
+     hwnd,
+     lp,
+     len
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns an integer corresponding to the current position. The units for the position value depend on the current time format.
 
 
 ## -description

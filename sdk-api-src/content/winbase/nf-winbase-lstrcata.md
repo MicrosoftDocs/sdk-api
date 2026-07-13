@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.lstrcatA
 title: lstrcatA function (winbase.h)
-description: Appends one string to another.Warning  Do not use.
-helpviewer_keywords: ["_win32_lstrcat","_win32_lstrcat_cpp","lstrcat","lstrcat function [Menus and Other Resources]","lstrcatA","lstrcatW","menurc.lstrcat","winbase/lstrcat","winbase/lstrcatA","winbase/lstrcatW","winui._win32_lstrcat"]
+description: Appends one string to another.Warning  Do not use. (ANSI)
+helpviewer_keywords: ["lstrcatA", "winbase/lstrcatA"]
 old-location: menurc\lstrcat.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcat.htm
@@ -143,4 +143,4 @@ If the function fails, the return value is <b>NULL</b>
 ## -remarks
 
 > [!NOTE]
-> The winbase.h header defines lstrcat as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines lstrcat as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

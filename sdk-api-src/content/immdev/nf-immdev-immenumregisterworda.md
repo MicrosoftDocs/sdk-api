@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmEnumRegisterWordA
 title: ImmEnumRegisterWordA function (immdev.h)
-description: Enumerates the register strings having the specified reading string, style, and register string.
-helpviewer_keywords: ["ImmEnumRegisterWord","ImmEnumRegisterWord function [Internationalization for Windows Applications]","ImmEnumRegisterWordA","ImmEnumRegisterWordW","_win32_ImmEnumRegisterWord","imm/ImmEnumRegisterWord","imm/ImmEnumRegisterWordA","imm/ImmEnumRegisterWordW","intl.immenumregisterword"]
+description: The ImmEnumRegisterWordA (ANSI) function (immdev.h) enumerates the register strings having the specified reading string, style, and register string. 
+helpviewer_keywords: ["ImmEnumRegisterWordA"]
 old-location: intl\immenumregisterword.htm
 tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -86,7 +86,7 @@ Returns the last value returned by the callback function, with the meaning defin
 If <i>dwStyle</i> is set to 0 and both <i>lpszReading</i> and <i>lpszRegister</i> are set to <b>NULL</b>, this function enumerates all register strings in the IME dictionary.
 
 > [!NOTE]
-> The immdev.h header defines ImmEnumRegisterWord as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines ImmEnumRegisterWord as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

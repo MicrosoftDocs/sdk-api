@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Remove
 title: ICertificatePolicies::Remove (certenroll.h)
-description: Removes an object from the collection by index number.
+description: Removes an object from the collection by index number. (ICertificatePolicies.Remove)
 helpviewer_keywords: ["ICertificatePolicies interface [Security]","Remove method","ICertificatePolicies.Remove","ICertificatePolicies::Remove","Remove","Remove method [Security]","Remove method [Security]","ICertificatePolicies interface","certenroll/ICertificatePolicies::Remove","security.icertificatepolicies_remove_method"]
 old-location: security\icertificatepolicies_remove_method.htm
 tech.root: security

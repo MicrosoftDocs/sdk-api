@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._IMAGE_LOAD_CONFIG_DIRECTORY64
 title: IMAGE_LOAD_CONFIG_DIRECTORY64 (winnt.h)
-description: Contains the load configuration data of an image.
+description: Contains the load configuration data of an image. (64 bit)
 helpviewer_keywords: ["*PIMAGE_LOAD_CONFIG_DIRECTORY64","IMAGE_LOAD_CONFIG_DIRECTORY","IMAGE_LOAD_CONFIG_DIRECTORY32","IMAGE_LOAD_CONFIG_DIRECTORY64","IMAGE_LOAD_CONFIG_DIRECTORY64 structure","PIMAGE_LOAD_CONFIG_DIRECTORY64","PIMAGE_LOAD_CONFIG_DIRECTORY64 structure pointer","_IMAGE_LOAD_CONFIG_DIRECTORY64","base.image_load_config_directory64_str","winnt/IMAGE_LOAD_CONFIG_DIRECTORY64","winnt/PIMAGE_LOAD_CONFIG_DIRECTORY64"]
 old-location: base\image_load_config_directory64_str.htm
 tech.root: Debug
@@ -122,6 +122,8 @@ The service pack version.
 
 ### -field DependentLoadFlags
 
+The default load flags used when the operating system resolves the statically linked imports of a module. For more information, see [LoadLibraryEx](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw).
+
 ### -field EditList
 
 Reserved for use by the system.
@@ -183,14 +185,6 @@ The count of unique handlers in the table. This member is available only for x86
 ### -field VolatileMetadataPointer
 
  
-
-
-
-
-#### - Reserved1
-
-Reserved for use by the operating system.
-
 ## -remarks
 
 If <b>_WIN64</b> is defined, then <b>IMAGE_LOAD_CONFIG_DIRECTORY</b> is defined as <b>IMAGE_LOAD_CONFIG_DIRECTORY64</b>. However, if <b>_WIN64</b> is not defined,  then <b>IMAGE_LOAD_CONFIG_DIRECTORY</b> is defined as <b>IMAGE_LOAD_CONFIG_DIRECTORY32</b>. 
@@ -213,7 +207,7 @@ typedef struct {
     DWORD   ProcessHeapFlags;
     DWORD   ProcessAffinityMask;
     WORD    CSDVersion;
-    WORD    Reserved1;
+    WORD    DependentLoadFlags;
     DWORD   EditList;                   // VA
     DWORD   SecurityCookie;             // VA
     DWORD   SEHandlerTable;             // VA

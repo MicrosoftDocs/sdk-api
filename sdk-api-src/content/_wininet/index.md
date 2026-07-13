@@ -4,7 +4,8 @@ title: Windows Internet
 ms.assetid: a15a265a-5b11-3750-b1a2-587bb83a92f1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Windows Internet

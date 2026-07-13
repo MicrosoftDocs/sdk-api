@@ -52,7 +52,7 @@ api_name:
 
 Unmaps the bitmap from memory.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>Color::GetRed</b> method gets the red component of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
-## -parameters
+
 
 ## -returns
 

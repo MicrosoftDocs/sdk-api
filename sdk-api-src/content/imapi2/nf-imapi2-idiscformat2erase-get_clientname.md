@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_ClientName
 title: IDiscFormat2Erase::get_ClientName (imapi2.h)
-description: Retrieves the friendly name of the client.
+description: Retrieves the friendly name of the client. (IDiscFormat2Erase.get_ClientName)
 helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","get_ClientName method","IDiscFormat2Erase.get_ClientName","IDiscFormat2Erase::get_ClientName","get_ClientName","get_ClientName method [IMAPI]","get_ClientName method [IMAPI]","IDiscFormat2Erase interface","imapi.idiscformat2erase_get_clientname","imapi2/IDiscFormat2Erase::get_ClientName"]
 old-location: imapi\idiscformat2erase_get_clientname.htm
 tech.root: imapi

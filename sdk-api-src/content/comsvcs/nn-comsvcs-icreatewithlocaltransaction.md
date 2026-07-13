@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.ICreateWithLocalTransaction
 title: ICreateWithLocalTransaction (comsvcs.h)
-description: Creates a COM+ object that executes within the scope of the specified local transaction.
+description: Creates a COM+ object that executes within the scope of the specified local transaction. (ICreateWithLocalTransaction)
 helpviewer_keywords: ["ICreateWithLocalTransaction","ICreateWithLocalTransaction interface [COM+]","ICreateWithLocalTransaction interface [COM+]","described","comsvcs/ICreateWithLocalTransaction","cos.icreatewithlocaltransaction"]
 old-location: cos\icreatewithlocaltransaction.htm
 tech.root: cos
@@ -54,8 +54,5 @@ Creates a COM+ object that executes within the scope of the specified local tran
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateWithLocalTransaction</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithLocalTransaction</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICreateWithLocalTransaction</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithLocalTransaction</b> also has these types of members:
 

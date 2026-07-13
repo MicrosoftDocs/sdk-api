@@ -1,7 +1,7 @@
 ---
 UID: NF:infotech.IITResultSet.Add(PROPID,LPCWSTR,PRIORITY)
 title: IITResultSet::Add(PROPID,LPCWSTR,PRIORITY) (infotech.h)
-description: Adds a column to the result set.
+description: Adds a column to the result set. (overload 1/3)
 helpviewer_keywords: ["Add","Add method [HTML Help Workshop]","Add method [HTML Help Workshop]","IITResultSet interface","IITResultSet interface [HTML Help Workshop]","Add method","IITResultSet.Add","IITResultSet.Add(PROPID","LPCWSTR","PRIORITY)","IITResultSet::Add","IITResultSet::Add(PROPID","LPCWSTR","PRIORITY)","htmlhelp.iitresultset_add3","infotech/IITResultSet::Add","refIITResultSetAddString"]
 old-location: htmlhelp\iitresultset_add3.htm
 tech.root: htmlhelp

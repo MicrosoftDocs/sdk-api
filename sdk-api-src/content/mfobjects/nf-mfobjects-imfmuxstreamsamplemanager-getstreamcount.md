@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetStreamCount
 title: IMFMuxStreamSampleManager::GetStreamCount (mfobjects.h)
-description: Gets the count of substreams managed by the multiplexed media source.
+description: Gets the count of substreams managed by the multiplexed media source. (IMFMuxStreamSampleManager.GetStreamCount)
 helpviewer_keywords: ["GetStreamCount","GetStreamCount method [Media Foundation]","GetStreamCount method [Media Foundation]","IMFMuxStreamSampleManager interface","IMFMuxStreamSampleManager interface [Media Foundation]","GetStreamCount method","IMFMuxStreamSampleManager.GetStreamCount","IMFMuxStreamSampleManager::GetStreamCount","mf.imfmuxstreamsamplemanager_getstreamcount","mfobjects/IMFMuxStreamSampleManager::GetStreamCount"]
 old-location: mf\imfmuxstreamsamplemanager_getstreamcount.htm
 tech.root: mf
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
 req.irql: 
 targetos: Windows
 req.typenames: 

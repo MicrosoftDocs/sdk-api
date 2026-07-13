@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetArchitecture
 title: IAppxManifestPackageId::GetArchitecture (appxpackaging.h)
-description: Gets the processor architecture as defined in the manifest.
+description: Gets the processor architecture as defined in the manifest. (IAppxManifestPackageId.GetArchitecture)
 helpviewer_keywords: ["GetArchitecture","GetArchitecture method [App packaging and management]","GetArchitecture method [App packaging and management]","IAppxManifestPackageId interface","IAppxManifestPackageId interface [App packaging and management]","GetArchitecture method","IAppxManifestPackageId.GetArchitecture","IAppxManifestPackageId::GetArchitecture","appxpackaging/IAppxManifestPackageId::GetArchitecture","appxpkg.iappxmanifestpackageid_getarchitecture"]
 old-location: appxpkg\iappxmanifestpackageid_getarchitecture.htm
 tech.root: appxpkg
@@ -64,7 +64,7 @@ The architecture specified for the package.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

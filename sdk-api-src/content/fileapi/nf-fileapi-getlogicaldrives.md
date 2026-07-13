@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetLogicalDrives","GetLogicalDrives function [Files]","_w
 old-location: fs\getlogicaldrives.htm
 tech.root: fs
 ms.assetid: 21a66050-3bab-4c70-9003-3b52e8c72b00
-ms.date: 12/05/2018
+ms.date: 09/24/2025
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -54,88 +57,34 @@ api_name:
 
 # GetLogicalDrives function
 
-
 ## -description
 
 Retrieves a bitmask representing the currently available disk drives.
-
-## -parameters
 
 ## -returns
 
 If the function succeeds, the return value is a bitmask representing the currently available disk drives. Bit position 0 (the least-significant bit) is drive A, bit position 1 is drive B, bit position 2 is drive C, and so on.
 
-If the function fails, the return value is zero. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
-In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+Note that, in this context, "available" means the drive letter is currently assigned to an existing logical drive (for example, a local volume, removable media, or a mapped network share). Bits that are cleared indicate drive letters that are not currently assigned and therefore could be used for future mount points.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
+Starting in Windows 8 and Windows Server 2012, this function is supported by the following technologies:
 
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
- 
+| Technology | Supported |
+|------------|-----------|
+| Server Message Block (SMB) 3.0 protocol | No |
+| SMB 3.0 Transparent Failover (TFO) | No |
+| SMB 3.0 with Scale-out File Shares (SO) | No |
+| Cluster Shared Volume File System (CsvFS) | Yes |
+| Resilient File System (ReFS) | Yes |
 
 SMB does not support volume management functions.
 
 ## -see-also
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrivestringsw">GetLogicalDriveStrings</a>
+[GetLogicalDriveStrings](nf-fileapi-getlogicaldrivestringsw.md)
 
-
-
-<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
+[Volume Management Functions](/windows/win32/FileIO/volume-management-functions)

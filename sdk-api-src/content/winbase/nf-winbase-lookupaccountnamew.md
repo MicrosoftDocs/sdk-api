@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.LookupAccountNameW
 title: LookupAccountNameW function (winbase.h)
-description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
-helpviewer_keywords: ["LookupAccountName","LookupAccountName function [Security]","LookupAccountNameA","LookupAccountNameW","_win32_lookupaccountname","security.lookupaccountname","winbase/LookupAccountName","winbase/LookupAccountNameA","winbase/LookupAccountNameW"]
+description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found. (Unicode)
+helpviewer_keywords: ["LookupAccountName", "LookupAccountName function [Security]", "LookupAccountNameW", "_win32_lookupaccountname", "security.lookupaccountname", "winbase/LookupAccountName", "winbase/LookupAccountNameW"]
 old-location: security\lookupaccountname.htm
 tech.root: security
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
@@ -85,11 +85,11 @@ A pointer to a variable. On input, this value specifies the size, in bytes, of t
 
 ### -param ReferencedDomainName [out, optional]
 
-A pointer to a buffer that receives the name of the domain where the account name is found. For computers that are not joined to a domain, this buffer receives the computer name. If this parameter is <b>NULL</b>, the function returns the required buffer size.
+A pointer to a buffer that receives the name of the domain where the account name is found. For computers that are not joined to a domain, this buffer receives the computer name. If this parameter is <b>NULL</b>, <i>cchReferencedDomainName</i> must be zero.
 
 ### -param cchReferencedDomainName [in, out]
 
-A pointer to a variable. On input, this value specifies the size, in <b>TCHAR</b>s, of the <i>ReferencedDomainName</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size, including the terminating <b>null</b> character. If the <i>ReferencedDomainName</i> parameter is <b>NULL</b>, this parameter must be zero.
+A pointer to a variable. On input, this value specifies the size, in <b>TCHAR</b>s, of the <i>ReferencedDomainName</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size, including the terminating <b>null</b> character.
 
 ### -param peUse [out]
 
@@ -116,7 +116,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 > [!NOTE]
-> The winbase.h header defines LookupAccountName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines LookupAccountName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

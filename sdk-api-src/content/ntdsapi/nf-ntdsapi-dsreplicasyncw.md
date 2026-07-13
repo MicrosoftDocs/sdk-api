@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsReplicaSyncW
 title: DsReplicaSyncW function (ntdsapi.h)
-description: Synchronizes a destination naming context (NC) with one of its sources.
-helpviewer_keywords: ["DS_REPSYNC_ADD_REFERENCE","DS_REPSYNC_ALL_SOURCES","DS_REPSYNC_ASYNCHRONOUS_OPERATION","DS_REPSYNC_FORCE","DS_REPSYNC_FULL","DS_REPSYNC_INTERSITE_MESSAGING","DS_REPSYNC_NO_DISCARD","DS_REPSYNC_PERIODIC","DS_REPSYNC_URGENT","DS_REPSYNC_WRITEABLE","DsReplicaSync","DsReplicaSync function [Active Directory]","DsReplicaSyncA","DsReplicaSyncW","_glines_dsreplicasync","ad.dsreplicasync","ntdsapi/DsReplicaSync","ntdsapi/DsReplicaSyncA","ntdsapi/DsReplicaSyncW"]
+description: Synchronizes a destination naming context (NC) with one of its sources. (Unicode)
+helpviewer_keywords: ["DS_REPSYNC_ADD_REFERENCE", "DS_REPSYNC_ALL_SOURCES", "DS_REPSYNC_ASYNCHRONOUS_OPERATION", "DS_REPSYNC_FORCE", "DS_REPSYNC_FULL", "DS_REPSYNC_INTERSITE_MESSAGING", "DS_REPSYNC_NO_DISCARD", "DS_REPSYNC_PERIODIC", "DS_REPSYNC_URGENT", "DS_REPSYNC_WRITEABLE", "DsReplicaSync", "DsReplicaSync function [Active Directory]", "DsReplicaSyncW", "_glines_dsreplicasync", "ad.dsreplicasync", "ntdsapi/DsReplicaSync", "ntdsapi/DsReplicaSyncW"]
 old-location: ad\dsreplicasync.htm
 tech.root: ad
 ms.assetid: 20c7f96d-f298-4321-a6f5-910c25e418db
@@ -209,7 +209,7 @@ The server that <b>DsReplicaSync</b> executes on is called the destination. The 
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsReplicaSync as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsReplicaSync as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

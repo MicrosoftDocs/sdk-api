@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetPrimitiveBlend
 title: ID2D1CommandSink::SetPrimitiveBlend (d2d1_1.h)
-description: Sets a new primitive blend mode.
+description: Sets a new primitive blend mode. (ID2D1CommandSink.SetPrimitiveBlend)
 helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","SetPrimitiveBlend method","ID2D1CommandSink.SetPrimitiveBlend","ID2D1CommandSink::SetPrimitiveBlend","SetPrimitiveBlend","SetPrimitiveBlend method [Direct2D]","SetPrimitiveBlend method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::SetPrimitiveBlend","direct2d.id2d1commandsink_setprimitiveblend"]
 old-location: direct2d\id2d1commandsink_setprimitiveblend.htm
 tech.root: Direct2D

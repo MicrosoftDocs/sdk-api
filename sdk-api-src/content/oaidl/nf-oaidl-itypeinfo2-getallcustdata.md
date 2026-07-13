@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllCustData
 title: ITypeInfo2::GetAllCustData (oaidl.h)
-description: Gets all custom data items for the library.
+description: Gets all custom data items for the library. (ITypeInfo2.GetAllCustData)
 helpviewer_keywords: ["GetAllCustData","GetAllCustData method [Automation]","GetAllCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetAllCustData method","ITypeInfo2.GetAllCustData","ITypeInfo2::GetAllCustData","_oa96_ITypeInfo2_GetAllCustData","automat.itypeinfo2_getallcustdata","oaidl/ITypeInfo2::GetAllCustData"]
 old-location: automat\itypeinfo2_getallcustdata.htm
 tech.root: automat

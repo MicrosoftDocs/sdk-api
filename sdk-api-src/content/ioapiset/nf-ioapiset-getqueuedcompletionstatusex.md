@@ -99,6 +99,10 @@ If <i>dwMilliseconds</i> is <b>INFINITE</b> (0xFFFFFFFF), the function
        will never time out. If <i>dwMilliseconds</i> is zero and there is no I/O operation to 
        dequeue, the function will time out immediately.
 
+**Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2:** The <i>dwMilliseconds</i> value includes time spent in low-power states. For example, the timeout continues counting down while the computer is asleep.
+
+**Windows 8 and newer, Windows Server 2012 and newer:** The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not continue counting down while the computer is asleep.
+
 ### -param fAlertable [in]
 
 If this parameter is <b>FALSE</b>, the function does not return until the time-out period 

@@ -4,7 +4,7 @@ title: IDirectMusicSynthSink (dmusics.h)
 description: The IDirectMusicSynthSink interface is now largely obsolete and is supported only by versions of DirectMusic before DirectX 8.
 helpviewer_keywords: ["IDirectMusicSynthSink","IDirectMusicSynthSink interface [Audio Devices]","IDirectMusicSynthSink interface [Audio Devices]","described","audio.idirectmusicsynthsink","audmp-routines_9b9d541e-f841-40e1-8962-d93ec6650465.xml","dmusics/IDirectMusicSynthSink"]
 old-location: audio\idirectmusicsynthsink.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 11944933-cd95-4979-82b2-2c3875b221b3
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], IDirectMusicSynthSink interface [Audio Devices],described, audio.idirectmusicsynthsink, audmp-routines_9b9d541e-f841-40e1-8962-d93ec6650465.xml, dmusics/IDirectMusicSynthSink
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynthSink
+archived: true
 ---
 
 # IDirectMusicSynthSink interface

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathSetDlgItemPathA
 title: PathSetDlgItemPathA function (shlwapi.h)
-description: Sets the text of a child control in a window or dialog box, using PathCompactPath to ensure the path fits in the control.
-helpviewer_keywords: ["PathSetDlgItemPath","PathSetDlgItemPath function [Windows Shell]","PathSetDlgItemPathA","PathSetDlgItemPathW","_win32_PathSetDlgItemPath","shell.PathSetDlgItemPath","shlwapi/PathSetDlgItemPath","shlwapi/PathSetDlgItemPathA","shlwapi/PathSetDlgItemPathW"]
+description: Sets the text of a child control in a window or dialog box, using PathCompactPath to ensure the path fits in the control. (ANSI)
+helpviewer_keywords: ["PathSetDlgItemPathA", "shlwapi/PathSetDlgItemPathA"]
 old-location: shell\PathSetDlgItemPath.htm
 tech.root: shell
 ms.assetid: 05737525-d906-482c-847f-bdbf0ba0ce3d
@@ -79,4 +79,4 @@ A pointer to a null-terminated string of maximum length MAX_PATH that contains t
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathSetDlgItemPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathSetDlgItemPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

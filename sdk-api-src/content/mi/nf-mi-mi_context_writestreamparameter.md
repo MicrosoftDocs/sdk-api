@@ -78,7 +78,7 @@ Must be 0 or
 
 
 
-#### MI_FLAG_NULL (0x1000000)
+#### MI_FLAG_NULL (0x20000000)
 
 The end of the stream has been reached.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_Dir","ListBox_Dir macro [Windows Controls]","_win
 old-location: controls\ListBox_Dir.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_dir.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_Dir, ListBox_Dir macro [Windows Controls], _win32_ListBox_Dir, _win32_ListBox_Dir_cpp, controls.ListBox_Dir, controls._win32_ListBox_Dir, windowsx/ListBox_Dir
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_Dir macro
+
+## -syntax
+
+```cpp
+int ListBox_Dir(
+   HWND    hwndCtl,
+   UINT    attrs,
+   LPCTSTR lpszFileSpec
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the message succeeds, the return value is the zero-based index of the last name added to the list. If an error occurs, the return value is LB_ERR. If there is insufficient space to store the new strings, the return value is LB_ERRSPACE.
 
 
 ## -description

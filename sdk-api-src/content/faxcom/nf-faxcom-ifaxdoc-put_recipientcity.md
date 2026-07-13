@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientCity
 title: IFaxDoc::put_RecipientCity (faxcom.h)
-description: Sets or retrieves the RecipientCity property of a FaxDoc object. The RecipientCity property is a null-terminated string that contains the city name of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientCity property of a FaxDoc object. The RecipientCity property is a null-terminated string that contains the city name of the recipient of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientCity property","IFaxDoc.RecipientCity","IFaxDoc.put_RecipientCity","IFaxDoc::RecipientCity","IFaxDoc::get_RecipientCity","IFaxDoc::put_RecipientCity","RecipientCity property [Fax Service]","RecipientCity property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientcity","fax._mfax_ifaxdoc_get_recipientcity","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcity_cpp","faxcom/IFaxDoc::RecipientCity","faxcom/IFaxDoc::get_RecipientCity","faxcom/IFaxDoc::put_RecipientCity","put_RecipientCity"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcity_cpp.htm
 tech.root: Fax

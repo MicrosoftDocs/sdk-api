@@ -64,9 +64,11 @@ Handle to a device context. The function obtains a character set identifier for 
 
 ## -returns
 
-If successful, returns a value identifying the character set of the font that is currently selected into the specified device context. The following character set identifiers are defined:
+If successful, returns a value identifying the character set of the font that is currently selected into the specified device context.
 
-If the function fails, it returns DEFAULT_CHARSET.
+For a list of possible values, see *lfCharSet* field of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfontw">LOGFONT structure</a>.
+
+If the function fails, it returns **DEFAULT_CHARSET**.
 
 ## -see-also
 

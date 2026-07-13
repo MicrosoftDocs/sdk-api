@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.DeleteProfileW
 title: DeleteProfileW function (userenv.h)
-description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile.
-helpviewer_keywords: ["DeleteProfile","DeleteProfile function [Windows Shell]","DeleteProfileA","DeleteProfileW","_shell_DeleteProfile","shell.DeleteProfile","userenv/DeleteProfile","userenv/DeleteProfileA","userenv/DeleteProfileW"]
+description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile. (Unicode)
+helpviewer_keywords: ["DeleteProfile", "DeleteProfile function [Windows Shell]", "DeleteProfileW", "_shell_DeleteProfile", "shell.DeleteProfile", "userenv/DeleteProfile", "userenv/DeleteProfileW"]
 old-location: shell\DeleteProfile.htm
 tech.root: shell
 ms.assetid: 48a08d9a-4fdc-43ab-8323-c49bc2d0a58d
@@ -88,14 +88,13 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). For more information, see <a href="https://support.microsoft.com/kb/890212">KB890212</a>.
-
+<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). 
 
 
 
 
 > [!NOTE]
-> The userenv.h header defines DeleteProfile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The userenv.h header defines DeleteProfile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -96,7 +96,7 @@ void main(void)
 
     hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
 
-    // Get an instance to the most recent formal assessmenet.
+    // Get an instance to the most recent formal assessment.
     hr = CoCreateInstance(__uuidof(CQueryAllWinSAT),
         NULL,
         CLSCTX_INPROC_SERVER,
@@ -109,7 +109,7 @@ void main(void)
         goto cleanup;
     }
 
-    // Query the assessmenets for the memory nodes.
+    // Query the assessments for the memory nodes.
     hr = pAssessment->get_AllXML(bstrXPath, NULL, &pNodes);
     if (FAILED(hr))
     {

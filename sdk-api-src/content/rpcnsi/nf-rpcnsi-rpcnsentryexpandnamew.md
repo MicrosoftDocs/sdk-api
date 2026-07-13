@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryExpandNameW
 title: RpcNsEntryExpandNameW function (rpcnsi.h)
-description: The RpcNsEntryExpandName function expands a name-service entry name. This function is supported by Active Directory.
-helpviewer_keywords: ["RpcNsEntryExpandName","RpcNsEntryExpandName function [RPC]","RpcNsEntryExpandNameA","RpcNsEntryExpandNameW","_rpc_rpcnsentryexpandname","rpc.rpcnsentryexpandname","rpcnsi/RpcNsEntryExpandName","rpcnsi/RpcNsEntryExpandNameA","rpcnsi/RpcNsEntryExpandNameW"]
+description: The RpcNsEntryExpandName function expands a name-service entry name. This function is supported by Active Directory. (Unicode)
+helpviewer_keywords: ["RpcNsEntryExpandName", "RpcNsEntryExpandName function [RPC]", "RpcNsEntryExpandNameW", "_rpc_rpcnsentryexpandname", "rpc.rpcnsentryexpandname", "rpcnsi/RpcNsEntryExpandName", "rpcnsi/RpcNsEntryExpandNameW"]
 old-location: rpc\rpcnsentryexpandname.htm
 tech.root: Rpc
 ms.assetid: a93052c2-3fb1-448a-b4bf-70b9676de69a
@@ -128,7 +128,7 @@ The returned expanded entry name accounts for local name translations and for di
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsEntryExpandName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsEntryExpandName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

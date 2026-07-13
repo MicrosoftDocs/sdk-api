@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSaveDialog","MCIWndSaveDialog macro [Windows Multim
 old-location: multimedia\mciwndsavedialog.htm
 tech.root: Multimedia
 ms.assetid: 3ab1121f-5122-424b-a1df-ceeb57751dac
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndSaveDialog macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSaveDialog(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

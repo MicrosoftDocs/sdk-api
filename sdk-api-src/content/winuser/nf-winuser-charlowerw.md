@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CharLowerW
 title: CharLowerW function (winuser.h)
-description: Converts a character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place.
-helpviewer_keywords: ["CharLower","CharLower function [Menus and Other Resources]","CharLowerA","CharLowerW","_win32_CharLower","_win32_charlower_cpp","menurc.charlower","winui._win32_charlower","winuser/CharLower","winuser/CharLowerA","winuser/CharLowerW"]
+description: Converts a character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place. (Unicode)
+helpviewer_keywords: ["CharLower", "CharLower function [Menus and Other Resources]", "CharLowerW", "_win32_CharLower", "_win32_charlower_cpp", "menurc.charlower", "winui._win32_charlower", "winuser/CharLower", "winuser/CharLowerW"]
 old-location: menurc\charlower.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlower.htm
@@ -92,7 +92,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 > [!NOTE]
-> The winuser.h header defines CharLower as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CharLower as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

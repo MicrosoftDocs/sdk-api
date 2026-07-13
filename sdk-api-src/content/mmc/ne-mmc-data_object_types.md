@@ -59,18 +59,18 @@ The
 
 ## -enum-fields
 
-### -field CCT_SCOPE
+### -field CCT_SCOPE:0x8000
 
 Data object for scope pane context.
 
-### -field CCT_RESULT
+### -field CCT_RESULT:0x8001
 
 Data object for result pane context.
 
-### -field CCT_SNAPIN_MANAGER
+### -field CCT_SNAPIN_MANAGER:0x8002
 
 Data object for Snap-in Manager context.
 
-### -field CCT_UNINITIALIZED
+### -field CCT_UNINITIALIZED:0xffff
 
 Data object has an invalid type.

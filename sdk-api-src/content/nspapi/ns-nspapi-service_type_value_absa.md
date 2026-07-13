@@ -1,7 +1,7 @@
 ---
 UID: NS:nspapi._SERVICE_TYPE_VALUE_ABSA
 title: SERVICE_TYPE_VALUE_ABSA (nspapi.h)
-description: Contains information about a network-service type value. This information may be specific to a namespace.
+description: Contains information about a network-service type value. This information may be specific to a namespace. (ANSI)
 helpviewer_keywords: ["*LPSERVICE_TYPE_VALUE_ABSA","*PSERVICE_TYPE_VALUE_ABSA","NS_DEFAULT","NS_DNS","NS_NETBT","NS_SAP","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","REG_BINARY","REG_DWORD","REG_MULTI_SZ","REG_SZ","SERVICE_TYPE_VALUE_ABS","SERVICE_TYPE_VALUE_ABS structure [Winsock]","SERVICE_TYPE_VALUE_ABSA","SERVICE_TYPE_VALUE_ABSW","SERVICE_TYPE_VALUE_CONN","SERVICE_TYPE_VALUE_SAPID","SERVICE_TYPE_VALUE_TCPPORT","SERVICE_TYPE_VALUE_UDPPORT","_win32_service_type_value_abs_2","nspapi/SERVICE_TYPE_VALUE_ABS","nspapi/SERVICE_TYPE_VALUE_ABSA","nspapi/SERVICE_TYPE_VALUE_ABSW","winsock.service_type_value_abs_2"]
 old-location: winsock\service_type_value_abs_2.htm
 tech.root: WinSock
@@ -278,7 +278,7 @@ When you use the
 
 
 > [!NOTE]
-> The nspapi.h header defines SERVICE_TYPE_VALUE_ABS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines SERVICE_TYPE_VALUE_ABS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

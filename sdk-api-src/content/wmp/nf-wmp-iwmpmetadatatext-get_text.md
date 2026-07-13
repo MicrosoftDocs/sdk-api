@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMetadataText interface [Windows Media Player]","get_t
 old-location: wmp\iwmpmetadatatext_get_text.htm
 tech.root: WMP
 ms.assetid: 88aeb4bb-87e1-413d-888b-608fa349ebf5
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMetadataText interface [Windows Media Player],get_text method, IWMPMetadataText.get_text, IWMPMetadataText::get_text, IWMPMetadataTextget_text, get_text, get_text method [Windows Media Player], get_text method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_text, wmp/IWMPMetadataText::get_text
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_text</b> method retrieves the metadata text.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetSid
 title: IDiskQuotaUser::GetSid (dskquota.h)
-description: Retrieves the user's security identifier (SID).
+description: Retrieves the user's security identifier (SID). (IDiskQuotaUser.GetSid)
 helpviewer_keywords: ["GetSid","GetSid method [Files]","GetSid method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetSid method","IDiskQuotaUser.GetSid","IDiskQuotaUser::GetSid","_win32_idiskquotauser_getsid","base.idiskquotauser_getsid","dskquota/IDiskQuotaUser::GetSid","fs.idiskquotauser_getsid"]
 old-location: fs\idiskquotauser_getsid.htm
 tech.root: fs

@@ -56,7 +56,7 @@ The <b>DSROLE_OPERATION_STATE</b> enumeration is used with the <a href="/windows
 
 ## -enum-fields
 
-### -field DsRoleOperationIdle
+### -field DsRoleOperationIdle:0
 
 The computer is idle.
 

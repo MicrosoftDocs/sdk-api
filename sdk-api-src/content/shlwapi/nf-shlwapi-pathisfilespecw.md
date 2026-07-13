@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsFileSpecW
 title: PathIsFileSpecW function (shlwapi.h)
-description: Searches a path for any path-delimiting characters (for example, ':' or '\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
-helpviewer_keywords: ["PathIsFileSpec","PathIsFileSpec function [Windows Shell]","PathIsFileSpecA","PathIsFileSpecW","_win32_PathIsFileSpec","shell.PathIsFileSpec","shlwapi/PathIsFileSpec","shlwapi/PathIsFileSpecA","shlwapi/PathIsFileSpecW"]
+description: Searches a path for any path-delimiting characters (for example, ':' or '\\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
+helpviewer_keywords: ["PathIsFileSpec", "PathIsFileSpec function [Windows Shell]", "PathIsFileSpecW", "_win32_PathIsFileSpec", "shell.PathIsFileSpec", "shlwapi/PathIsFileSpec", "shlwapi/PathIsFileSpecW"]
 old-location: shell\PathIsFileSpec.htm
 tech.root: shell
 ms.assetid: c69d6cca-44e7-4792-8fb2-3c4ecd2e57f2
@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Searches a path for any path-delimiting characters (for example, ':' or '\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
+Searches a path for any path-delimiting characters (for example, ':' or '\\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
 
 ## -parameters
 
@@ -75,5 +75,5 @@ Returns <b>TRUE</b> if there are no path-delimiting characters within the path, 
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathIsFileSpec as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathIsFileSpec as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

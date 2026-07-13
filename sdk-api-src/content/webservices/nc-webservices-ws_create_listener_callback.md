@@ -62,17 +62,17 @@ The type of channel the listener listens for.
 ### -param listenerParameters
 
 The pointer to the value that was specified by the
-                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property when the custom listener is created using <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a>.
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a> property when the custom listener is created using <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a>.
                 
 
-If the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
+If the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a> property was not specified, the value will be <b>NULL</b>.
 
 ### -param listenerParametersSize [in]
 
 The size in bytes of the value pointed to by listenerParameters.
                 
 
-If the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property was not specified, the size will be 0.
+If the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a> property was not specified, the size will be 0.
                 
 
 
@@ -84,7 +84,7 @@ A pointer to an allocated structure that represents
                     for this particular listener instance.
                 
 
-If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_listener_callback">WS_FREE_LISTENER_CALLBACK</a>will be used to free the listener instance.
+If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_listener_callback">WS_FREE_LISTENER_CALLBACK</a> will be used to free the listener instance.
 
 ### -param error [in, optional]
 
@@ -98,7 +98,7 @@ A pointer to an allocated structure that represents
                     for this particular listener instance.
                 
 
-If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_listener_callback">WS_FREE_LISTENER_CALLBACK</a>will be used to free the listener instance.
+If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_listener_callback">WS_FREE_LISTENER_CALLBACK</a> will be used to free the listener instance.
 
 ## -returns
 

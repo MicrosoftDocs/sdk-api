@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_COUNTER_DESC
 title: D3D10_COUNTER_DESC (d3d10.h)
-description: Describes a counter.
+description: Describes a counter. (D3D10_COUNTER_DESC)
 helpviewer_keywords: ["5a8f3ccd-0cb9-a3e0-7e55-eb5c1dfe5252","D3D10_COUNTER_DESC","D3D10_COUNTER_DESC structure [Direct3D 10]","d3d10/D3D10_COUNTER_DESC","direct3d10.d3d10_counter_desc"]
 old-location: direct3d10\d3d10_counter_desc.htm
 tech.root: direct3d10

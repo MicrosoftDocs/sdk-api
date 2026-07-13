@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensorManagerEvents","ISensorManagerEvents interface [Wi
 old-location: winsensors\isensormanagerevents.htm
 tech.root: winsensors
 ms.assetid: b111a717-00c0-47cb-be6a-3050d54cd2ec
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensorManagerEvents, ISensorManagerEvents interface [WinSensors], ISensorManagerEvents interface [WinSensors],described, sensorsapi/ISensorManagerEvents, winsensors.isensormanagerevents
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The callback interface for receiving sensor manager events.
 

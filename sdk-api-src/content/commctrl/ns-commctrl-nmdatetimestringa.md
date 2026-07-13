@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMDATETIMESTRINGA
 title: NMDATETIMESTRINGA (commctrl.h)
-description: Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the DTN_USERSTRING notification code.
+description: Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the DTN_USERSTRING notification code. (ANSI)
 helpviewer_keywords: ["*LPNMDATETIMESTRINGA","LPNMDATETIMESTRING","LPNMDATETIMESTRING structure pointer [Windows Controls]","NMDATETIMESTRING","NMDATETIMESTRING structure [Windows Controls]","NMDATETIMESTRINGA","NMDATETIMESTRINGW","_win32_NMDATETIMESTRING","_win32_NMDATETIMESTRING_cpp","commctrl/LPNMDATETIMESTRING","commctrl/NMDATETIMESTRING","commctrl/NMDATETIMESTRINGA","commctrl/NMDATETIMESTRINGW","controls.NMDATETIMESTRING","controls._win32_NMDATETIMESTRING"]
 old-location: controls\NMDATETIMESTRING.htm
 tech.root: Controls
@@ -88,4 +88,4 @@ The return field. Set this member to GDT_VALID to indicate that the
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines NMDATETIMESTRING as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines NMDATETIMESTRING as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

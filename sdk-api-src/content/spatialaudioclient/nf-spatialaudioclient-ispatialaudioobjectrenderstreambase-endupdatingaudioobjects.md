@@ -52,7 +52,7 @@ api_name:
 
 Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with <a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject">ActivateSpatialAudioObject</a>.
 
-## -parameters
+
 
 ## -returns
 

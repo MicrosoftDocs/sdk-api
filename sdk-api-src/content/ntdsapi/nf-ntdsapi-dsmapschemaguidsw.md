@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsMapSchemaGuidsW
 title: DsMapSchemaGuidsW function (ntdsapi.h)
-description: Converts GUIDs of directory service schema objects to their display names.
-helpviewer_keywords: ["DsMapSchemaGuids","DsMapSchemaGuids function [Active Directory]","DsMapSchemaGuidsA","DsMapSchemaGuidsW","_glines_dsmapschemaguids","ad.dsmapschemaguids","ntdsapi/DsMapSchemaGuids","ntdsapi/DsMapSchemaGuidsA","ntdsapi/DsMapSchemaGuidsW"]
+description: Converts GUIDs of directory service schema objects to their display names. (Unicode)
+helpviewer_keywords: ["DsMapSchemaGuids", "DsMapSchemaGuids function [Active Directory]", "DsMapSchemaGuidsW", "_glines_dsmapschemaguids", "ad.dsmapschemaguids", "ntdsapi/DsMapSchemaGuids", "ntdsapi/DsMapSchemaGuidsW"]
 old-location: ad\dsmapschemaguids.htm
 tech.root: ad
 ms.assetid: 439fff20-51eb-490d-a330-61d07f79c436
@@ -95,4 +95,4 @@ Returns a standard error code that includes the following values.
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsMapSchemaGuids as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsMapSchemaGuids as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

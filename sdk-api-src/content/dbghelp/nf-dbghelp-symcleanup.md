@@ -69,7 +69,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 ## -remarks
 
-This function frees all resources associated with the process handle. Failure to call this function causes memory and resource leaks in the calling application
+This function frees all resources associated with the process handle. Failure to call this function causes memory and resource leaks in the calling application.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, call 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> only when your process starts and 

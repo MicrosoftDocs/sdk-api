@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITQueueEvent.get_Queue
 title: ITQueueEvent::get_Queue (tapi3.h)
-description: The get_Queue method gets a pointer to the queue on which the event occurred.
+description: The ITQueueEvent::get_Queue (tapi3.h) method gets a pointer to the queue on which the event occurred.
 helpviewer_keywords: ["ITQueueEvent interface [TAPI 2.2]","get_Queue method","ITQueueEvent.get_Queue","ITQueueEvent::get_Queue","_tapi3_itqueueevent_get_queue","get_Queue","get_Queue method [TAPI 2.2]","get_Queue method [TAPI 2.2]","ITQueueEvent interface","tapi3.itqueueevent_get_queue","tapi3cc/ITQueueEvent::get_Queue"]
 old-location: tapi3\itqueueevent_get_queue.htm
 tech.root: tapi3
 ms.assetid: 59a4be82-0118-4a9c-9f85-0febfe1b3e18
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueueEvent interface [TAPI 2.2],get_Queue method, ITQueueEvent.get_Queue, ITQueueEvent::get_Queue, _tapi3_itqueueevent_get_queue, get_Queue, get_Queue method [TAPI 2.2], get_Queue method [TAPI 2.2],ITQueueEvent interface, tapi3.itqueueevent_get_queue, tapi3cc/ITQueueEvent::get_Queue
 req.header: tapi3.h
 req.include-header: Tapi3.h

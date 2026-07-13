@@ -54,8 +54,5 @@ Accesses web restrictions settings for the user.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCWebSettings</b> interface inherits from <b>IWPCSettings</b>. <b>IWPCWebSettings</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWPCWebSettings</b> interface inherits from <b>IWPCSettings</b>. <b>IWPCWebSettings</b> also has these types of members:
 

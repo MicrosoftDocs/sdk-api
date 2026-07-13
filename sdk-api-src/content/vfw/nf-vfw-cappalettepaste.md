@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capPalettePaste","capPalettePaste","capPalettePast
 old-location: multimedia\cappalettepaste.htm
 tech.root: Multimedia
 ms.assetid: ccdaf58d-3d06-46c5-a812-322364a7f851
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capPalettePaste, capPalettePaste, capPalettePaste macro [Windows Multimedia], multimedia.cappalettepaste, vfw/capPalettePaste
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capPalettePaste macro
+
+## -syntax
+
+```cpp
+BOOL capPalettePaste(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.If an error occurs and an error callback function is set using the **capSetCallbackOnError** macro, the error callback function is called.
 
 
 ## -description

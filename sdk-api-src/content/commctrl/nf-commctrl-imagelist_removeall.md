@@ -6,7 +6,7 @@ helpviewer_keywords: ["ImageList_RemoveAll","ImageList_RemoveAll macro [Windows 
 old-location: controls\ImageList_RemoveAll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_removeall.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ImageList_RemoveAll, ImageList_RemoveAll macro [Windows Controls], _win32_ImageList_RemoveAll, _win32_ImageList_RemoveAll_cpp, commctrl/ImageList_RemoveAll, controls.ImageList_RemoveAll, controls._win32_ImageList_RemoveAll
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ImageList_RemoveAll macro
+
+## -syntax
+
+```cpp
+BOOL ImageList_RemoveAll(
+   HIMAGELIST himl
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

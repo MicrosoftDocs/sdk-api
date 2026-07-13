@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.GetTransformForStream
 title: IMFSourceReaderEx::GetTransformForStream (mfreadwrite.h)
-description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
+description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream. (IMFSourceReaderEx.GetTransformForStream)
 helpviewer_keywords: ["GetTransformForStream","GetTransformForStream method [Media Foundation]","GetTransformForStream method [Media Foundation]","IMFSourceReaderEx interface","IMFSourceReaderEx interface [Media Foundation]","GetTransformForStream method","IMFSourceReaderEx.GetTransformForStream","IMFSourceReaderEx::GetTransformForStream","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereaderex_gettransformforstream","mfreadwrite/IMFSourceReaderEx::GetTransformForStream"]
 old-location: mf\imfsourcereaderex_gettransformforstream.htm
 tech.root: mf
@@ -76,7 +76,7 @@ The zero-based index of a stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_FIRST_VIDEO_STREAM"></a><a id="mf_source_reader_first_video_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_FIRST_VIDEO_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_FIRST_VIDEO_STREAM</b></dt>
 <dt>0xFFFFFFFC</dt>
 </dl>
 </td>
@@ -87,7 +87,7 @@ The first video stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_FIRST_AUDIO_STREAM"></a><a id="mf_source_reader_first_audio_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_FIRST_AUDIO_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_FIRST_AUDIO_STREAM</b></dt>
 <dt>0xFFFFFFFD</dt>
 </dl>
 </td>
@@ -100,7 +100,7 @@ The first audio stream.
 
 ### -param dwTransformIndex [in]
 
-The zero-based index of the MFT to retreive.
+The zero-based index of the MFT to retrieve.
 
 ### -param pGuidCategory [out]
 
@@ -144,7 +144,7 @@ The <i>dwTransformIndex</i> parameter is out of range.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDSTREAMNUMBER</b></b></dt>
+<dt><b>MF_E_INVALIDSTREAMNUMBER</b></dt>
 </dl>
 </td>
 <td width="60%">

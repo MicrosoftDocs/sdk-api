@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsA
 title: ChangeDisplaySettingsA function (winuser.h)
-description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode.
-helpviewer_keywords: ["0","CDS_FULLSCREEN","CDS_GLOBAL","CDS_NORESET","CDS_RESET","CDS_SET_PRIMARY","CDS_TEST","CDS_UPDATEREGISTRY","ChangeDisplaySettings","ChangeDisplaySettings function [Windows GDI]","ChangeDisplaySettingsA","ChangeDisplaySettingsW","_win32_ChangeDisplaySettings","gdi.changedisplaysettings","winuser/ChangeDisplaySettings","winuser/ChangeDisplaySettingsA","winuser/ChangeDisplaySettingsW"]
+description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode. (ANSI)
+helpviewer_keywords: ["0", "CDS_FULLSCREEN", "CDS_GLOBAL", "CDS_NORESET", "CDS_RESET", "CDS_SET_PRIMARY", "CDS_TEST", "CDS_UPDATEREGISTRY", "ChangeDisplaySettingsA", "winuser/ChangeDisplaySettingsA"]
 old-location: gdi\changedisplaysettings.htm
 tech.root: gdi
 ms.assetid: 208bf1cc-c03c-4d03-92e4-32fcf856b4d8
@@ -364,7 +364,7 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 > [!NOTE]
-> The winuser.h header defines ChangeDisplaySettings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines ChangeDisplaySettings as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

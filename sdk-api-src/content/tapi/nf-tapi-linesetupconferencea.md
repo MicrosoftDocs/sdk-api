@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineSetupConferenceA
 title: lineSetupConferenceA function (tapi.h)
-description: The lineSetupConference function sets up a conference call for the addition of the third party.
-helpviewer_keywords: ["_tapi2_linesetupconference","lineSetupConference","lineSetupConference function [TAPI 2.2]","lineSetupConferenceA","lineSetupConferenceW","tapi/lineSetupConference","tapi/lineSetupConferenceA","tapi/lineSetupConferenceW","tapi2.linesetupconference"]
+description: The lineSetupConference function sets up a conference call for the addition of the third party. (lineSetupConferenceA)
+helpviewer_keywords: ["lineSetupConferenceA", "tapi/lineSetupConferenceA"]
 old-location: tapi2\linesetupconference.htm
 tech.root: tapi3
 ms.assetid: 13bf81c6-f7f6-4fd4-b546-15e58f7bc618
@@ -119,7 +119,7 @@ If an application specifies the handle of the original call (<i>hCall</i>) in a 
 
 
 > [!NOTE]
-> The tapi.h header defines lineSetupConference as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineSetupConference as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

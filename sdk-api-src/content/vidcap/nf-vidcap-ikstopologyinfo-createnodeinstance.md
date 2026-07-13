@@ -6,7 +6,7 @@ helpviewer_keywords: ["CreateNodeInstance","CreateNodeInstance method [DirectSho
 old-location: dshow\ikstopologyinfo_createnodeinstance.htm
 tech.root: dshow
 ms.assetid: f2c7ea1d-abd6-4179-b5b7-d89837ceecd7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: CreateNodeInstance, CreateNodeInstance method [DirectShow], CreateNodeInstance method [DirectShow],IKsTopologyInfo interface, IKsTopologyInfo interface [DirectShow],CreateNodeInstance method, IKsTopologyInfo.CreateNodeInstance, IKsTopologyInfo::CreateNodeInstance, IKsTopologyInfoCreateNodeInstance, dshow.ikstopologyinfo_createnodeinstance, vidcap/IKsTopologyInfo::CreateNodeInstance
 req.header: vidcap.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>CreateNodeInstance</code> method creates a COM object that represents a node in the filter.
 
@@ -98,4 +100,4 @@ Node objects expose the <b>IKsControl</b> interface. You can use this interface 
 
 
 
-<a href="/windows/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
+<a href="/previous-versions/ms785846(v=vs.85)">IKsTopologyInfo Interface</a>

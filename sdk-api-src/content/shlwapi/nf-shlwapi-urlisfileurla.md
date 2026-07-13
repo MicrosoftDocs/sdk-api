@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlIsFileUrlA
 title: UrlIsFileUrlA macro (shlwapi.h)
-description: Tests a URL to determine if it is a file URL.
-helpviewer_keywords: ["UrlIsFileUrl","UrlIsFileUrl function [Windows Shell]","UrlIsFileUrlA","UrlIsFileUrlW","_win32_UrlIsFileUrl","shell.UrlIsFileUrl","shlwapi/UrlIsFileUrl","shlwapi/UrlIsFileUrlA","shlwapi/UrlIsFileUrlW"]
+description: Tests a URL to determine if it is a file URL. (ANSI)
+helpviewer_keywords: ["UrlIsFileUrlA", "shlwapi/UrlIsFileUrlA"]
 old-location: shell\UrlIsFileUrl.htm
 tech.root: shell
 ms.assetid: b122d3e4-47cc-47c0-a30c-6f9d1aa9d174
@@ -82,7 +82,7 @@ A file URL has the form "File://
 
 
 > [!NOTE]
-> The shlwapi.h header defines UrlIsFileUrl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlIsFileUrl as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Check
 title: ISpellChecker::Check (spellcheck.h)
-description: Checks the spelling of the supplied text and returns a collection of spelling errors.
+description: Checks the spelling of the supplied text and returns a collection of spelling errors. (ISpellChecker.Check)
 helpviewer_keywords: ["Check","Check method [Internationalization for Windows Applications]","Check method [Internationalization for Windows Applications]","ISpellChecker interface","ISpellChecker interface [Internationalization for Windows Applications]","Check method","ISpellChecker.Check","ISpellChecker::Check","intl.ispellchecker_check","spellcheck/ISpellChecker::Check"]
 old-location: intl\ispellchecker_check.htm
 tech.root: Intl

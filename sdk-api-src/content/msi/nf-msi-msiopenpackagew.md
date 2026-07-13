@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiOpenPackageW
 title: MsiOpenPackageW function (msi.h)
-description: The MsiOpenPackage function opens a package to use with the functions that access the product database.
-helpviewer_keywords: ["MsiOpenPackage","MsiOpenPackage function","MsiOpenPackageA","MsiOpenPackageW","_msi_msiopenpackage","msi/MsiOpenPackage","msi/MsiOpenPackageA","msi/MsiOpenPackageW","setup.msiopenpackage"]
+description: The MsiOpenPackage function opens a package to use with the functions that access the product database. (Unicode)
+helpviewer_keywords: ["MsiOpenPackage", "MsiOpenPackage function", "MsiOpenPackageW", "_msi_msiopenpackage", "msi/MsiOpenPackage", "msi/MsiOpenPackageW", "setup.msiopenpackage"]
 old-location: setup\msiopenpackage.htm
 tech.root: setup
 ms.assetid: 1227493a-58dc-4e41-b6d7-9ecce0b3df40
@@ -144,7 +144,7 @@ MsiOpenPackage can accept an opened database handle in the form "#nnnn", where n
 
 
 > [!NOTE]
-> The msi.h header defines MsiOpenPackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiOpenPackage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

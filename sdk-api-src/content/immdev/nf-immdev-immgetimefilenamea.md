@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetIMEFileNameA
 title: ImmGetIMEFileNameA function (immdev.h)
-description: Retrieves the file name of the IME associated with the specified input locale.
-helpviewer_keywords: ["ImmGetIMEFileName","ImmGetIMEFileName function [Internationalization for Windows Applications]","ImmGetIMEFileNameA","ImmGetIMEFileNameW","_win32_ImmGetIMEFileName","imm/ImmGetIMEFileName","imm/ImmGetIMEFileNameA","imm/ImmGetIMEFileNameW","intl.immgetimefilename"]
+description: The ImmGetIMEFileNameA (ANSI) function (immdev.h) retrieves the file name of the IME associated with the specified input locale.
+helpviewer_keywords: ["ImmGetIMEFileNameA"]
 old-location: intl\immgetimefilename.htm
 tech.root: Intl
 ms.assetid: c2dafd0a-3cb9-4d9b-919b-c7ef86fb1cd4
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmGetIMEFileName, ImmGetIMEFileName function [Internationalization for Windows Applications], ImmGetIMEFileNameA, ImmGetIMEFileNameW, _win32_ImmGetIMEFileName, imm/ImmGetIMEFileName, imm/ImmGetIMEFileNameA, imm/ImmGetIMEFileNameW, intl.immgetimefilename
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -84,7 +84,7 @@ In the registry, the operating system stores the file name as the "IME name valu
 
 
 > [!NOTE]
-> The immdev.h header defines ImmGetIMEFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines ImmGetIMEFileName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

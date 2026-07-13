@@ -82,8 +82,8 @@ The following two pseudocode examples demonstrate the operation of this construc
 XMMATRIX mat;
 XMVECTOR rows[4];
 //...Initialize instances of XMVECTOR
-for (int i=0;i&lt;4;i++){
-    for (int j=0;j&lt;4;j++){
+for (int i=0;i<4;i++){
+    for (int j=0;j<4;j++){
         mat.m[i][j]=rows[i].v[j];
     }
 }
@@ -95,7 +95,7 @@ Or
 XMMATRIX mat;
 XMVECTOR rows[4];
 //...Initialize instances of XMVECTOR
-for (int i=0;i&lt;4;i++){
+for (int i=0;i<4;i++){
     mat.r[i]=rows[i];
 }
 ```

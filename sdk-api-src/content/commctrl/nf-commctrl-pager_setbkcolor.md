@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_SetBkColor","Pager_SetBkColor macro [Windows Contro
 old-location: controls\Pager_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setbkcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_SetBkColor, Pager_SetBkColor macro [Windows Controls], _win32_Pager_SetBkColor, _win32_Pager_SetBkColor_cpp, commctrl/Pager_SetBkColor, controls.Pager_SetBkColor, controls._win32_Pager_SetBkColor
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # Pager_SetBkColor macro
 
+## -syntax
+
+```cpp
+COLORREF Pager_SetBkColor(
+   HWND     hwnd,
+   COLORREF clr
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>COLORREF</b> value that contains the previous background color.
 
 ## -description
 

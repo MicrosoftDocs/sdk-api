@@ -56,19 +56,19 @@ The <b>PNRP_CLOUD_FLAGS</b> enumeration specifies the validity of a cloud name.
 
 ## -enum-fields
 
-### -field PNRP_CLOUD_NO_FLAGS
+### -field PNRP_CLOUD_NO_FLAGS:0
 
 The cloud name is valid on the network.
 
-### -field PNRP_CLOUD_NAME_LOCAL
+### -field PNRP_CLOUD_NAME_LOCAL:1
 
 The cloud name is not valid on other computers.
 
-### -field PNRP_CLOUD_RESOLVE_ONLY
+### -field PNRP_CLOUD_RESOLVE_ONLY:2
 
 The cloud is configured to be resolve only.  Names cannot be published to the cloud from this computer.
 
-### -field PNRP_CLOUD_FULL_PARTICIPANT
+### -field PNRP_CLOUD_FULL_PARTICIPANT:4
 
 This machine is a full participant in the cloud, and can publish and resolve names.
 

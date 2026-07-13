@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.FillContainsPoint(D2D1_POINT_2F,constD2D1_MATRIX_3X2_F,FLOAT,BOOL)
 title: ID2D1Geometry::FillContainsPoint (d2d1.h)
-description: Indicates whether the area filled by the geometry would contain the specified point given the specified flattening tolerance.
+description: Indicates whether the area filled by the geometry would contain the specified point given the specified flattening tolerance. (overload 2/2)
 helpviewer_keywords: ["FillContainsPoint","FillContainsPoint method [Direct2D]","FillContainsPoint method [Direct2D]","ID2D1Geometry interface","ID2D1Geometry interface [Direct2D]","FillContainsPoint method","ID2D1Geometry.FillContainsPoint","ID2D1Geometry::FillContainsPoint","ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F","const D2D1_MATRIX_3X2_F","FLOAT","BOOL)","d2d1/ID2D1Geometry::FillContainsPoint","direct2d.ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_BOOL"]
 old-location: direct2d\ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_BOOL.htm
 tech.root: Direct2D
@@ -83,7 +83,7 @@ You must allocate storage for this parameter.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 

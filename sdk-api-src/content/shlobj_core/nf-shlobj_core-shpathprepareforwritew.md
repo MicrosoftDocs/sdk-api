@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHPathPrepareForWriteW
 title: SHPathPrepareForWriteW function (shlobj_core.h)
-description: Checks to see if the path exists.
-helpviewer_keywords: ["SHPPFW_ASKDIRCREATE","SHPPFW_DEFAULT","SHPPFW_DIRCREATE","SHPPFW_IGNOREFILENAME","SHPPFW_MEDIACHECKONLY","SHPPFW_NONE","SHPPFW_NOWRITECHECK","SHPathPrepareForWrite","SHPathPrepareForWrite function [Windows Shell]","SHPathPrepareForWriteA","SHPathPrepareForWriteW","_shell_shpathprepareforwrite","shell.SHPathPrepareForWrite","shlobj_core/SHPathPrepareForWrite","shlobj_core/SHPathPrepareForWriteA","shlobj_core/SHPathPrepareForWriteW"]
+description: Checks to see if the path exists. (Unicode)
+helpviewer_keywords: ["SHPPFW_ASKDIRCREATE", "SHPPFW_DEFAULT", "SHPPFW_DIRCREATE", "SHPPFW_IGNOREFILENAME", "SHPPFW_MEDIACHECKONLY", "SHPPFW_NONE", "SHPPFW_NOWRITECHECK", "SHPathPrepareForWrite", "SHPathPrepareForWrite function [Windows Shell]", "SHPathPrepareForWriteW", "_shell_shpathprepareforwrite", "shell.SHPathPrepareForWrite", "shlobj_core/SHPathPrepareForWrite", "shlobj_core/SHPathPrepareForWriteW"]
 old-location: shell\SHPathPrepareForWrite.htm
 tech.root: shell
 ms.assetid: 1b65e34f-2c31-421b-9d27-ed263dfb372b
@@ -171,4 +171,4 @@ The primary use of this function is for a program to check a path before using i
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHPathPrepareForWrite as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHPathPrepareForWrite as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

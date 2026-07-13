@@ -97,7 +97,7 @@ Value: 0x8007000E
 
 ## -remarks
 
-UDFS (UDF) uses the <i>LastAccessedTime</i> value for the <i>CreationTime</i>, as IMAPI does not currently support the <i>CreationTime</i> extended attribue.
+UDFS (UDF) uses the <i>LastAccessedTime</i> value for the <i>CreationTime</i>, as IMAPI does not currently support the <i>CreationTime</i> extended attribute.
 
 CDFS (ISO 9660) sets the <i>LastAccessedTime</i> value to 0, as only the recording time is stored within the File/Directory descriptor.
 

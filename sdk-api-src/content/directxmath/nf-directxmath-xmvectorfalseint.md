@@ -52,7 +52,7 @@ api_name:
 
 Returns the zero (false) vector.
 
-## -parameters
+
 
 ## -returns
 

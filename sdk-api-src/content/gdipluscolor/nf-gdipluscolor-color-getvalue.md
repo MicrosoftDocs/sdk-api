@@ -53,7 +53,7 @@ api_name:
 
 The <b>Color::GetValue</b> method gets the <b>ARGB</b> value of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
-## -parameters
+
 
 ## -returns
 

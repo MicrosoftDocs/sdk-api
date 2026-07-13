@@ -1,8 +1,8 @@
 ---
 UID: NF:oleacc.CreateStdAccessibleProxyW
 title: CreateStdAccessibleProxyW function (oleacc.h)
-description: Creates an accessible object that has the properties and methods of the specified class of system-provided user interface element.
-helpviewer_keywords: ["CreateStdAccessibleProxy","CreateStdAccessibleProxy function [Windows Accessibility]","CreateStdAccessibleProxyA","CreateStdAccessibleProxyW","_msaa_CreateStdAccessibleProxy","msaa.createstdaccessibleproxy","oleacc/CreateStdAccessibleProxy","oleacc/CreateStdAccessibleProxyA","oleacc/CreateStdAccessibleProxyW","winauto.createstdaccessibleproxy"]
+description: Creates an accessible object that has the properties and methods of the specified class of system-provided user interface element. (Unicode)
+helpviewer_keywords: ["CreateStdAccessibleProxy", "CreateStdAccessibleProxy function [Windows Accessibility]", "CreateStdAccessibleProxyW", "_msaa_CreateStdAccessibleProxy", "msaa.createstdaccessibleproxy", "oleacc/CreateStdAccessibleProxy", "oleacc/CreateStdAccessibleProxyW", "winauto.createstdaccessibleproxy"]
 old-location: winauto\createstdaccessibleproxy.htm
 tech.root: WinAuto
 ms.assetid: 724b2a38-f7ca-4423-acd4-0871623d1201
@@ -107,7 +107,7 @@ Use <b>CreateStdAccessibleProxy</b> to create an accessible object for a user in
 
 
 > [!NOTE]
-> The oleacc.h header defines CreateStdAccessibleProxy as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oleacc.h header defines CreateStdAccessibleProxy as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

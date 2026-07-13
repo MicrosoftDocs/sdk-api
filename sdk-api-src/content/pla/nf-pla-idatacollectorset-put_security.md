@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Security
 title: IDataCollectorSet::put_Security (pla.h)
-description: Retrieves or sets access control information that determines who can access this data collector set.
+description: Retrieves or sets access control information that determines who can access this data collector set. (Put)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Security property","IDataCollectorSet.Security","IDataCollectorSet.put_Security","IDataCollectorSet::Security","IDataCollectorSet::get_Security","IDataCollectorSet::put_Security","Security property [PLA]","Security property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_security","pla.idatacollectorset_get_security","pla/IDataCollectorSet::Security","pla/IDataCollectorSet::get_Security","pla/IDataCollectorSet::put_Security","put_Security"]
 old-location: pla\idatacollectorset_get_security.htm
 tech.root: PLA

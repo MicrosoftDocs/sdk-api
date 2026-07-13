@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDecompressOrCopyFileW
 title: SetupDecompressOrCopyFileW function (setupapi.h)
-description: The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary.
-helpviewer_keywords: ["SetupDecompressOrCopyFile","SetupDecompressOrCopyFile function [Setup API]","SetupDecompressOrCopyFileA","SetupDecompressOrCopyFileW","_setupapi_setupdecompressorcopyfile","setup.setupdecompressorcopyfile","setupapi/SetupDecompressOrCopyFile","setupapi/SetupDecompressOrCopyFileA","setupapi/SetupDecompressOrCopyFileW"]
+description: The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary. (Unicode)
+helpviewer_keywords: ["SetupDecompressOrCopyFile", "SetupDecompressOrCopyFile function [Setup API]", "SetupDecompressOrCopyFileW", "_setupapi_setupdecompressorcopyfile", "setup.setupdecompressorcopyfile", "setupapi/SetupDecompressOrCopyFile", "setupapi/SetupDecompressOrCopyFileW"]
 old-location: setup\setupdecompressorcopyfile.htm
 tech.root: setup
 ms.assetid: 6058567b-fa34-472b-91d8-3c5f9ee741b1
@@ -98,4 +98,4 @@ To get extended error information, call
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupDecompressOrCopyFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDecompressOrCopyFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

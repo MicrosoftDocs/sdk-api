@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.sendto
 title: sendto function (winsock.h)
-description: The sendto function sends data to a specific destination.
+description: The sendto function (winsock.h) sends data to a specific destination.
 helpviewer_keywords: ["_win32_sendto_2","sendto","sendto function [Winsock]","winsock.sendto_2","winsock/sendto"]
 old-location: winsock\sendto_2.htm
 tech.root: WinSock
 ms.assetid: a1c89c6b-d11d-4d3e-a664-af2beed0cd09
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: _win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -289,7 +289,7 @@ The virtual circuit was terminated due to a time-out or other failure. The appli
 </dl>
 </td>
 <td width="60%">
-The virtual circuit was reset by the remote side executing a hard or abortive close. For UPD sockets, the remote host was unable to deliver a previously sent UDP datagram and responded with a "Port Unreachable" ICMP packet. The application should close the socket as it is no longer usable.
+The virtual circuit was reset by the remote side executing a hard or abortive close. For UDP sockets, the remote host was unable to deliver a previously sent UDP datagram and responded with a "Port Unreachable" ICMP packet. The application should close the socket as it is no longer usable.
 
 </td>
 </tr>

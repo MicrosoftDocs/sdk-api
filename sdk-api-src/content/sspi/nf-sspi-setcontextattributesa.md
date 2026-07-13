@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.SetContextAttributesA
 title: SetContextAttributesA function (sspi.h)
-description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package.
-helpviewer_keywords: ["SECPKG_ATTR_APP_DATA","SECPKG_ATTR_DTLS_MTU","SECPKG_ATTR_EAP_PRF_INFO","SECPKG_ATTR_EARLY_START","SECPKG_ATTR_KEYING_MATERIAL_INFO","SetContextAttributes","SetContextAttributes function [Security]","SetContextAttributesA","SetContextAttributesW","security.setcontextattributes","sspi/SetContextAttributes","sspi/SetContextAttributesA","sspi/SetContextAttributesW"]
+description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package. (ANSI)
+helpviewer_keywords: ["SECPKG_ATTR_APP_DATA", "SECPKG_ATTR_DTLS_MTU", "SECPKG_ATTR_EAP_PRF_INFO", "SECPKG_ATTR_EARLY_START", "SECPKG_ATTR_KEYING_MATERIAL_INFO", "SetContextAttributesA", "sspi/SetContextAttributesA"]
 old-location: security\setcontextattributes.htm
 tech.root: security
 ms.assetid: e3246c3e-3e8c-49fe-99d8-dfff1a10ab83
@@ -178,4 +178,4 @@ This value is returned by Schannel kernel mode to indicate that this function is
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines SetContextAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines SetContextAttributes as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListClearMediaDiskW
 title: MsiSourceListClearMediaDiskW function (msi.h)
-description: The MsiSourceListClearMediaDisk function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context.
-helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListClearMediaDisk","MsiSourceListClearMediaDisk function","MsiSourceListClearMediaDiskA","MsiSourceListClearMediaDiskW","NULL","User SID","msi/MsiSourceListClearMediaDisk","msi/MsiSourceListClearMediaDiskA","msi/MsiSourceListClearMediaDiskW","setup.msisourcelistclearmediadisks"]
+description: The MsiSourceListClearMediaDisk function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context. (Unicode)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiSourceListClearMediaDisk", "MsiSourceListClearMediaDisk function", "MsiSourceListClearMediaDiskW", "NULL", "User SID", "msi/MsiSourceListClearMediaDisk", "msi/MsiSourceListClearMediaDiskW", "setup.msisourcelistclearmediadisks"]
 old-location: setup\msisourcelistclearmediadisks.htm
 tech.root: setup
 ms.assetid: e2e7cc95-e41b-4270-8650-30a1c12a0057
@@ -71,7 +71,7 @@ The <a href="/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of 
 </tr>
 <tr>
 <td width="40%"><a id="NULL"></a><a id="null"></a><dl>
-<dt><b><b>NULL</b></b></dt>
+<dt><b>NULL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -288,7 +288,7 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 > [!NOTE]
-> The msi.h header defines MsiSourceListClearMediaDisk as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiSourceListClearMediaDisk as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

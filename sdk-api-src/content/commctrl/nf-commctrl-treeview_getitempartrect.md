@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetItemPartRect","TreeView_GetItemPartRect macro
 old-location: controls\TreeView_GetItemPartRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitempartrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetItemPartRect, TreeView_GetItemPartRect macro [Windows Controls], _shell_TreeView_GetItemPartRect, _shell_TreeView_GetItemPartRect_cpp, commctrl/TreeView_GetItemPartRect, controls.TreeView_GetItemPartRect, controls._shell_TreeView_GetItemPartRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # TreeView_GetItemPartRect macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_GetItemPartRect(
+   HWND       hwnd,
+   HTREEITEM  hitem,
+   RECT       *prc,
+   TVITEMPART *partid
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

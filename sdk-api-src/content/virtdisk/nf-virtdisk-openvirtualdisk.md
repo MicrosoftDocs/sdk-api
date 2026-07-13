@@ -66,7 +66,7 @@ A pointer to a valid path to the virtual disk image to open.
 ### -param VirtualDiskAccessMask [in]
 
 A valid value of the 
-     <a href="/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
+     <a href="/windows/win32/api/virtdisk/ne-virtdisk-virtual_disk_access_mask-r1">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
 
 ### -param Flags [in]
 

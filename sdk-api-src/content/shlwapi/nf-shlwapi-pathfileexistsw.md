@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathFileExistsW
 title: PathFileExistsW function (shlwapi.h)
-description: Determines whether a path to a file system object such as a file or folder is valid.
-helpviewer_keywords: ["PathFileExists","PathFileExists function [Windows Shell]","PathFileExistsA","PathFileExistsW","_win32_PathFileExists","shell.PathFileExists","shlwapi/PathFileExists","shlwapi/PathFileExistsA","shlwapi/PathFileExistsW"]
+description: Determines whether a path to a file system object such as a file or folder is valid. (Unicode)
+helpviewer_keywords: ["PathFileExists", "PathFileExists function [Windows Shell]", "PathFileExistsW", "_win32_PathFileExists", "shell.PathFileExists", "shlwapi/PathFileExists", "shlwapi/PathFileExistsW"]
 old-location: shell\PathFileExists.htm
 tech.root: shell
 ms.assetid: 26d01e9f-cbf2-4e40-9970-a594879b424d
@@ -149,4 +149,4 @@ The return from function is : 0
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathFileExists as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathFileExists as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

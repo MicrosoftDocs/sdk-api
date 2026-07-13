@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.SetValue(U,constBYTE,UINT32)
 title: ID2D1Properties::SetValue(U,const BYTE,UINT32,) (d2d1_1.h)
-description: Sets the corresponding property by index. This is a template overload.
+description: Sets the corresponding property by index. This is a template overload. (overload 2/2)
 helpviewer_keywords: ["ID2D1Properties interface [Direct2D]","SetValue method","ID2D1Properties.SetValue","ID2D1Properties.SetValue(U","const BYTE","UINT32",")","ID2D1Properties::SetValue","ID2D1Properties::SetValue(U","const BYTE*","UINT32)","ID2D1Properties::SetValue(U","const BYTE","UINT32",")","SetValue","SetValue method [Direct2D]","SetValue method [Direct2D]","ID2D1Properties interface","d2d1_1/ID2D1Properties::SetValue","direct2d.id2d1properties_setvalue3"]
 old-location: direct2d\id2d1properties_setvalue3.htm
 tech.root: Direct2D
@@ -11,8 +11,8 @@ ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properti
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows�8 and Platform Update for Windows�7 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server�2012 and Platform Update for Windows Server�2008�R2 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -100,7 +100,6 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>Unspecified failure.</td>
 </tr>
 </table>
-�
 
 ## -remarks
 
@@ -127,6 +126,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
-�
-
-�

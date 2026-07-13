@@ -58,19 +58,19 @@ Configures which WDS components have diagnostics enabled. WDS diagnostics log ev
 
 ## -enum-fields
 
-### -field WdsTptDiagnosticsComponentPxe
+### -field WdsTptDiagnosticsComponentPxe:0x1
 
 Diagnostics are enabled for the PXE component of WDS, which answers requests from clients performing a PXE network boot. This component is typically used by the WDS Deployment Server role but is also available for various third-party applications that use the WDS Transport Server role.
 
-### -field WdsTptDiagnosticsComponentTftp
+### -field WdsTptDiagnosticsComponentTftp:0x2
 
 Diagnostics are enabled for the TFTP component of WDS, which handles simple file transfers from clients that are typically in a pre-boot environment. This component is typically used by the WDS Deployment Server role but is also available for various third-party applications that use the WDS Transport Server role.
 
-### -field WdsTptDiagnosticsComponentImageServer
+### -field WdsTptDiagnosticsComponentImageServer:0x4
 
 Diagnostics are enabled for the Image Server component of WDS, which handles client requests for enumerating operating system images on the server. This component is typically used by the WDS Deployment Server role.
 
-### -field WdsTptDiagnosticsComponentMulticast
+### -field WdsTptDiagnosticsComponentMulticast:0x8
 
 Diagnostics are enabled for the Multicast component of WDS, which handles multicast file transfers from clients.
 

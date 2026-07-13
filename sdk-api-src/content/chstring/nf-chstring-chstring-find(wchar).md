@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.CHString.Find(WCHAR)
 title: CHString::Find
-description: 
+description: The CHString::Find method searches a string for the first match of a substring. 
 tech.root: wmi
 helpviewer_keywords: ["CHString::Find"]
 ms.assetid: 
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::Find
 targetos: Windows
 req.assembly: 
@@ -21,8 +21,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

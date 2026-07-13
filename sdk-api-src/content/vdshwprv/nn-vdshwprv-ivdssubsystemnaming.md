@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemNaming
 title: IVdsSubSystemNaming (vdshwprv.h)
-description: Provides a method to name subsystems for a class implementing the IVdsSubSystem interface.
+description: The IVdsSubSystemNaming interface (vdshwprv.h) provides a method to name subsystems for a class implementing the IVdsSubSystem interface. 
 helpviewer_keywords: ["IVdsSubSystemNaming","IVdsSubSystemNaming interface [VDS]","IVdsSubSystemNaming interface [VDS]","described","base.ivdssubsystemnaming","vds/IVdsSubSystemNaming","vdshwprv/IVdsSubSystemNaming"]
 old-location: base\ivdssubsystemnaming.htm
 tech.root: base
 ms.assetid: 1f507c6c-8eae-4c32-805f-5dbc7ba4a81e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming, vdshwprv/IVdsSubSystemNaming
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a 
    method to name subsystems for a class implementing the <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a> 
@@ -59,10 +59,7 @@ Provides a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystemNaming</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystemNaming</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsSubSystemNaming</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystemNaming</b> also has these types of members:
 
 ## -see-also
 

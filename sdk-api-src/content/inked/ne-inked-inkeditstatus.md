@@ -54,15 +54,15 @@ Specifies whether the <a href="/windows/desktop/tablet/inkedit-control-reference
 
 ## -enum-fields
 
-### -field IES_Idle
+### -field IES_Idle:0
 
 The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is neither collecting nor recognizing ink.
 
-### -field IES_Collecting
+### -field IES_Collecting:1
 
 The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is collecting ink.
 
-### -field IES_Recognizing
+### -field IES_Recognizing:2
 
 The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is recognizing ink.
 

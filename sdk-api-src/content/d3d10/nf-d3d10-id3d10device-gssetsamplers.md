@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetSamplers
 title: ID3D10Device::GSSetSamplers (d3d10.h)
-description: Set an array of sampler states to the geometry shader pipeline stage.
+description: Set an array of sampler states to the geometry shader pipeline stage. (ID3D10Device.GSSetSamplers)
 helpviewer_keywords: ["1c08811a-830c-451d-31b2-e679c42bcf69","GSSetSamplers","GSSetSamplers method [Direct3D 10]","GSSetSamplers method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GSSetSamplers method","ID3D10Device.GSSetSamplers","ID3D10Device::GSSetSamplers","d3d10/ID3D10Device::GSSetSamplers","direct3d10.id3d10device_gssetsamplers"]
 old-location: direct3d10\id3d10device_gssetsamplers.htm
 tech.root: direct3d10

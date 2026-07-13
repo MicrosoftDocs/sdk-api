@@ -56,15 +56,15 @@ Contains flags used to define a query or  enumerator.
 
 ## -enum-fields
 
-### -field WBEM_FLAG_DEEP
+### -field WBEM_FLAG_DEEP:0
 
 Include the specified class and all subclasses.
 
-### -field WBEM_FLAG_SHALLOW
+### -field WBEM_FLAG_SHALLOW:1
 
 Include only the specified class, not any subclasses.
 
-### -field WBEM_FLAG_PROTOTYPE
+### -field WBEM_FLAG_PROTOTYPE:2
 
 Used for prototyping. It does not execute the query and instead returns an object that looks like a typical result object.
 

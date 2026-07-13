@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFindFileInPath
 title: SymFindFileInPath function (dbghelp.h)
-description: Locates a symbol file or executable image.
+description: The SymFindFileInPath function (dbghelp.h) locates a symbol file or executable image.
 helpviewer_keywords: ["SSRVOPT_DWORD","SSRVOPT_DWORDPTR","SSRVOPT_GUIDPTR","SymFindFileInPath","SymFindFileInPath function","SymFindFileInPathW","_win32_symfindfileinpath","base.symfindfileinpath","dbghelp/SymFindFileInPath","dbghelp/SymFindFileInPathW"]
 old-location: base\symfindfileinpath.htm
 tech.root: Debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath, SymFindFileInPath function, SymFindFileInPathW, _win32_symfindfileinpath, base.symfindfileinpath, dbghelp/SymFindFileInPath, dbghelp/SymFindFileInPathW
 req.header: dbghelp.h
 req.include-header: 
@@ -129,7 +129,7 @@ The <i>id</i> parameter is a pointer to a <b>GUID</b>.
 
 ### -param FoundFile [out]
 
-A pointer to a buffer that receives the fully qualified path to the symbol file. This buffer must be at least MAX_PATH characters.
+A pointer to a buffer that receives the fully qualified path to the symbol file. This buffer must be at least MAX_PATH+1 characters.
 
 ### -param callback [in, optional]
 

@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-rawinput-l1-2-0.dll
+ - ext-ms-win-rtcore-ntuser-rawinput-l1-1-1.dll
+ - ext-ms-win-ntuser-rawinput-l1-2-0.dll
  - User32.dll
 api_name:
  - DefRawInputProc

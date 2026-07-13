@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectAttributeW
 title: SetNtmsObjectAttributeW function (ntmsapi.h)
-description: The SetNtmsObjectAttribute function creates an extended attribute (named private data) in the specified RSM object.
-helpviewer_keywords: ["SetNtmsObjectAttribute","SetNtmsObjectAttribute function [Files]","SetNtmsObjectAttributeA","SetNtmsObjectAttributeW","_zaw_setntmsobjectattribute","base.setntmsobjectattribute","fs.setntmsobjectattribute","ntmsapi/SetNtmsObjectAttribute","ntmsapi/SetNtmsObjectAttributeA","ntmsapi/SetNtmsObjectAttributeW"]
+description: The SetNtmsObjectAttribute function creates an extended attribute (named private data) in the specified RSM object. (Unicode)
+helpviewer_keywords: ["SetNtmsObjectAttribute", "SetNtmsObjectAttribute function [Files]", "SetNtmsObjectAttributeW", "_zaw_setntmsobjectattribute", "base.setntmsobjectattribute", "fs.setntmsobjectattribute", "ntmsapi/SetNtmsObjectAttribute", "ntmsapi/SetNtmsObjectAttributeW"]
 old-location: fs\setntmsobjectattribute.htm
 tech.root: fs
 ms.assetid: ce572b2a-f4c3-4cf3-8bb3-074ba3d1ec30
@@ -288,7 +288,7 @@ The following is the list of objects that require special access rights.
 
 
 > [!NOTE]
-> The ntmsapi.h header defines SetNtmsObjectAttribute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines SetNtmsObjectAttribute as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

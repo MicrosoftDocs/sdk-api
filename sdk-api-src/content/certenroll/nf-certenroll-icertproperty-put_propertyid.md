@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertProperty.put_PropertyId
 title: ICertProperty::put_PropertyId (certenroll.h)
-description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property.
+description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property. (Put)
 helpviewer_keywords: ["ICertProperty interface [Security]","PropertyId property","ICertProperty.PropertyId","ICertProperty.put_PropertyId","ICertProperty::PropertyId","ICertProperty::get_PropertyId","ICertProperty::put_PropertyId","PropertyId property [Security]","PropertyId property [Security]","ICertProperty interface","certenroll/ICertProperty::PropertyId","certenroll/ICertProperty::get_PropertyId","certenroll/ICertProperty::put_PropertyId","put_PropertyId","security.icertproperty_propertyid_property"]
 old-location: security\icertproperty_propertyid_property.htm
 tech.root: security

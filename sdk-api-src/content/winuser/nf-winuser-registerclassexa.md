@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.RegisterClassExA
 title: RegisterClassExA function (winuser.h)
-description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.
-helpviewer_keywords: ["RegisterClassEx","RegisterClassEx function [Windows and Messages]","RegisterClassExA","RegisterClassExW","_win32_RegisterClassEx","_win32_registerclassex_cpp","winmsg.registerclassex","winui._win32_registerclassex","winuser/RegisterClassEx","winuser/RegisterClassExA","winuser/RegisterClassExW"]
+description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function. (RegisterClassExA)
+helpviewer_keywords: ["RegisterClassExA", "winuser/RegisterClassExA"]
 old-location: winmsg\registerclassex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\registerclassex.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ansi-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -101,7 +102,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-classes">Using
 
 
 > [!NOTE]
-> The winuser.h header defines RegisterClassEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines RegisterClassEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -157,4 +158,4 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-classes">Using
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>

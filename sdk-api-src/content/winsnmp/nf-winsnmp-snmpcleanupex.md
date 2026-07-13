@@ -59,7 +59,7 @@ This function should be used instead of <a href="/windows/desktop/api/winsnmp/nf
 <div class="alert"><b>Note</b>  A WinSNMP application must call the 
 <b>SnmpCleanupEx</b> function for each successful call to <a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartupex">SnmpStartupEx</a>  before the application terminates.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

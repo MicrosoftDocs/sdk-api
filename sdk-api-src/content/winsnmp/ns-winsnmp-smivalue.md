@@ -1,5 +1,5 @@
 ---
-UID: NS:winsnmp.__unnamed_struct_3
+UID: NS:winsnmp.smiVALUE
 title: smiVALUE (winsnmp.h)
 description: The WinSNMP smiVALUE structure describes the value associated with a variable name in a variable binding entry.
 helpviewer_keywords: ["*smiLPVALUE","SNMP_SYNTAX_CNTR32","SNMP_SYNTAX_CNTR64","SNMP_SYNTAX_ENDOFMIBVIEW","SNMP_SYNTAX_GAUGE32","SNMP_SYNTAX_INT","SNMP_SYNTAX_INT32","SNMP_SYNTAX_IPADDR","SNMP_SYNTAX_NOSUCHINSTANCE","SNMP_SYNTAX_NOSUCHOBJECT","SNMP_SYNTAX_NULL","SNMP_SYNTAX_OCTETS","SNMP_SYNTAX_OID","SNMP_SYNTAX_OPAQUE","SNMP_SYNTAX_TIMETICKS","SNMP_SYNTAX_UINT32","_snmp_smivalue_str","smiLPVALUE","smiLPVALUE structure pointer [SNMP]","smiVALUE","smiVALUE structure [SNMP]","snmp.smivalue_str","winsnmp/smiLPVALUE","winsnmp/smiVALUE"]
@@ -76,7 +76,7 @@ Specifies an unsigned long integer that indicates the syntax data type of the <b
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_INT"></a><a id="snmp_syntax_int"></a><dl>
-<dt><b><b>SNMP_SYNTAX_INT</b></b></dt>
+<dt><b>SNMP_SYNTAX_INT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -86,7 +86,7 @@ Indicates a 32-bit signed integer variable.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_OCTETS"></a><a id="snmp_syntax_octets"></a><dl>
-<dt><b><b>SNMP_SYNTAX_OCTETS</b></b></dt>
+<dt><b>SNMP_SYNTAX_OCTETS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ Indicates an octet string variable that is binary or textual data.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_NULL"></a><a id="snmp_syntax_null"></a><dl>
-<dt><b><b>SNMP_SYNTAX_NULL</b></b></dt>
+<dt><b>SNMP_SYNTAX_NULL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ Indicates a <b>NULL</b> value.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_OID"></a><a id="snmp_syntax_oid"></a><dl>
-<dt><b><b>SNMP_SYNTAX_OID</b></b></dt>
+<dt><b>SNMP_SYNTAX_OID</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ Indicates an object identifier variable that is an assigned name with a maximum 
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_INT32"></a><a id="snmp_syntax_int32"></a><dl>
-<dt><b><b>SNMP_SYNTAX_INT32</b></b></dt>
+<dt><b>SNMP_SYNTAX_INT32</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +126,7 @@ Indicates a 32-bit signed integer variable.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_IPADDR"></a><a id="snmp_syntax_ipaddr"></a><dl>
-<dt><b><b>SNMP_SYNTAX_IPADDR</b></b></dt>
+<dt><b>SNMP_SYNTAX_IPADDR</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +136,7 @@ Indicates a 32-bit Internet address variable.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_CNTR32"></a><a id="snmp_syntax_cntr32"></a><dl>
-<dt><b><b>SNMP_SYNTAX_CNTR32</b></b></dt>
+<dt><b>SNMP_SYNTAX_CNTR32</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -146,7 +146,7 @@ Indicates a counter variable that increases until it reaches a maximum value of 
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_GAUGE32"></a><a id="snmp_syntax_gauge32"></a><dl>
-<dt><b><b>SNMP_SYNTAX_GAUGE32</b></b></dt>
+<dt><b>SNMP_SYNTAX_GAUGE32</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -156,7 +156,7 @@ Indicates a gauge variable that is a non-negative integer that can increase or d
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_TIMETICKS"></a><a id="snmp_syntax_timeticks"></a><dl>
-<dt><b><b>SNMP_SYNTAX_TIMETICKS</b></b></dt>
+<dt><b>SNMP_SYNTAX_TIMETICKS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -166,7 +166,7 @@ Indicates a counter variable that measures the time in hundredths of a second, u
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_OPAQUE"></a><a id="snmp_syntax_opaque"></a><dl>
-<dt><b><b>SNMP_SYNTAX_OPAQUE</b></b></dt>
+<dt><b>SNMP_SYNTAX_OPAQUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -176,7 +176,7 @@ This type provides backward compatibility, and should not be used for new object
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_CNTR64"></a><a id="snmp_syntax_cntr64"></a><dl>
-<dt><b><b>SNMP_SYNTAX_CNTR64</b></b></dt>
+<dt><b>SNMP_SYNTAX_CNTR64</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +186,7 @@ Indicates a counter variable that increases until it reaches a maximum value of 
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_UINT32"></a><a id="snmp_syntax_uint32"></a><dl>
-<dt><b><b>SNMP_SYNTAX_UINT32</b></b></dt>
+<dt><b>SNMP_SYNTAX_UINT32</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -196,7 +196,7 @@ Indicates a 32-bit unsigned integer variable.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_NOSUCHOBJECT"></a><a id="snmp_syntax_nosuchobject"></a><dl>
-<dt><b><b>SNMP_SYNTAX_NOSUCHOBJECT</b></b></dt>
+<dt><b>SNMP_SYNTAX_NOSUCHOBJECT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -206,7 +206,7 @@ Indicates that the agent does not support the object type that corresponds to th
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_NOSUCHINSTANCE"></a><a id="snmp_syntax_nosuchinstance"></a><dl>
-<dt><b><b>SNMP_SYNTAX_NOSUCHINSTANCE</b></b></dt>
+<dt><b>SNMP_SYNTAX_NOSUCHINSTANCE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -216,7 +216,7 @@ Indicates that the object instance does not exist for the operation.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_ENDOFMIBVIEW"></a><a id="snmp_syntax_endofmibview"></a><dl>
-<dt><b><b>SNMP_SYNTAX_ENDOFMIBVIEW</b></b></dt>
+<dt><b>SNMP_SYNTAX_ENDOFMIBVIEW</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -239,48 +239,48 @@ Specifies the union of all possible WinSNMP syntax data types, including the
 
 #### sNumber
 
-<b>Type: <b>smiINT</b>
-</b>
+Type: <b>smiINT</b>
+
 Specifies a signed long integer value.
 
 
 
 #### uNumber
 
-<b>Type: <b>smiUINT32</b>
-</b>
+Type: <b>smiUINT32</b>
+
 Specifies a 32-bit unsigned long integer value.
 
 
 
 #### hNumber
 
-<b>Type: <b>smiCNTR64</b>
-</b>
+Type: <b>smiCNTR64</b>
+
 Specifies a 64-bit unsigned integer value
 
 
 
 #### string
 
-<b>Type: <b>smiOCTETS</b>
-</b>
+Type: <b>smiOCTETS</b>
+
 Specifies a string.
 
 
 
 #### oid
 
-<b>Type: <b>smiOID</b>
-</b>
+Type: <b>smiOID</b>
+
 Specifies an object identifier (OID).
 
 
 
 #### empty
 
-<b>Type: <b>smiBYTE</b>
-</b>
+Type: <b>smiBYTE</b>
+
 Specifies an empty member.
 
 ### -field sNumber
@@ -339,3 +339,4 @@ Because the WinSNMP application allocates memory for input descriptors with vari
 
 
 <a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>
+

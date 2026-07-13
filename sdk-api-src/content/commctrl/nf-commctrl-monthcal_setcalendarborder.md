@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_SetCalendarBorder","MonthCal_SetCalendarBorder m
 old-location: controls\MonthCal_SetCalendarBorder.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcalendarborder.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_SetCalendarBorder, MonthCal_SetCalendarBorder macro [Windows Controls], _shell_MonthCal_SetCalendarBorder, _shell_MonthCal_SetCalendarBorder_cpp, commctrl/MonthCal_SetCalendarBorder, controls.MonthCal_SetCalendarBorder, controls._shell_MonthCal_SetCalendarBorder
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MonthCal_SetCalendarBorder macro
+
+## -syntax
+
+```cpp
+LRESULT MonthCal_SetCalendarBorder(
+   HWND hmc,
+   BOOL fset,
+   int  xyborder
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Unused.
 
 
 ## -description

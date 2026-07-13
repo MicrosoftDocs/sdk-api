@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT0_
 title: FWPM_PROVIDER_CONTEXT0 (fwpmtypes.h)
-description: Stores the state associated with a provider context.
+description: Stores the state associated with a provider context. (FWPM_PROVIDER_CONTEXT0)
 helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT0","FWPM_PROVIDER_CONTEXT0 structure [Filtering]","FWPM_PROVIDER_CONTEXT0_","FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT","fwp.fwpm_provider_context0_struct","fwpmtypes/FWPM_PROVIDER_CONTEXT0"]
 old-location: fwp\fwpm_provider_context0_struct.htm
 tech.root: fwp

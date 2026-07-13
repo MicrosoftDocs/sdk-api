@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiCreateTransformSummaryInfoA
 title: MsiCreateTransformSummaryInfoA function (msiquery.h)
-description: The MsiCreateTransformSummaryInfo function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using MsiGetLastErrorRecord.
-helpviewer_keywords: ["MSITRANSFORM_ERROR_ADDEXISTINGROW","MSITRANSFORM_ERROR_ADDEXISTINGTABLE","MSITRANSFORM_ERROR_CHANGECODEPAGE","MSITRANSFORM_ERROR_DELMISSINGROW","MSITRANSFORM_ERROR_DELMISSINGTABLE","MSITRANSFORM_ERROR_UPDATEMISSINGROW","MSITRANSFORM_VALIDATE_LANGUAGE","MSITRANSFORM_VALIDATE_MAJORVERSION","MSITRANSFORM_VALIDATE_MINORVERSION","MSITRANSFORM_VALIDATE_NEWEQUALBASEVERSION","MSITRANSFORM_VALIDATE_NEWGREATERBASEVERSION","MSITRANSFORM_VALIDATE_NEWGREATEREQUALBASEVERSION","MSITRANSFORM_VALIDATE_NEWLESSBASEVERSION","MSITRANSFORM_VALIDATE_NEWLESSEQUALBASEVERSION","MSITRANSFORM_VALIDATE_PRODUCT","MSITRANSFORM_VALIDATE_UPDATEVERSION","MSITRANSFORM_VALIDATE_UPGRADECODE","MsiCreateTransformSummaryInfo","MsiCreateTransformSummaryInfo function","MsiCreateTransformSummaryInfoA","MsiCreateTransformSummaryInfoW","_msi_msicreatetransformsummaryinfo","msiquery/MsiCreateTransformSummaryInfo","msiquery/MsiCreateTransformSummaryInfoA","msiquery/MsiCreateTransformSummaryInfoW","none","setup.msicreatetransformsummaryinfo"]
+description: The MsiCreateTransformSummaryInfo function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using MsiGetLastErrorRecord. (ANSI)
+helpviewer_keywords: ["MSITRANSFORM_ERROR_ADDEXISTINGROW", "MSITRANSFORM_ERROR_ADDEXISTINGTABLE", "MSITRANSFORM_ERROR_CHANGECODEPAGE", "MSITRANSFORM_ERROR_DELMISSINGROW", "MSITRANSFORM_ERROR_DELMISSINGTABLE", "MSITRANSFORM_ERROR_UPDATEMISSINGROW", "MSITRANSFORM_VALIDATE_LANGUAGE", "MSITRANSFORM_VALIDATE_MAJORVERSION", "MSITRANSFORM_VALIDATE_MINORVERSION", "MSITRANSFORM_VALIDATE_NEWEQUALBASEVERSION", "MSITRANSFORM_VALIDATE_NEWGREATERBASEVERSION", "MSITRANSFORM_VALIDATE_NEWGREATEREQUALBASEVERSION", "MSITRANSFORM_VALIDATE_NEWLESSBASEVERSION", "MSITRANSFORM_VALIDATE_NEWLESSEQUALBASEVERSION", "MSITRANSFORM_VALIDATE_PRODUCT", "MSITRANSFORM_VALIDATE_UPDATEVERSION", "MSITRANSFORM_VALIDATE_UPGRADECODE", "MsiCreateTransformSummaryInfoA", "msiquery/MsiCreateTransformSummaryInfoA", "none"]
 old-location: setup\msicreatetransformsummaryinfo.htm
 tech.root: setup
 ms.assetid: 7ed6738c-f693-477e-a3d7-e4f50d222fdb
@@ -356,7 +356,7 @@ The <a href="/windows/desktop/Msi/productcode">ProductCode</a> Property and
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiCreateTransformSummaryInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiCreateTransformSummaryInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

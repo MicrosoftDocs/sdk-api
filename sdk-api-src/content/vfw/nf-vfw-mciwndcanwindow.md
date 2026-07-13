@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndCanWindow","MCIWndCanWindow macro [Windows Multimed
 old-location: multimedia\mciwndcanwindow.htm
 tech.root: Multimedia
 ms.assetid: 2db1d83a-3e03-474e-b36e-8b3b3e3faa82
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndCanWindow, MCIWndCanWindow macro [Windows Multimedia], _win32_MCIWndCanWindow, multimedia.mciwndcanwindow, vfw/MCIWndCanWindow
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndCanWindow macro
+
+## -syntax
+
+```cpp
+BOOL MCIWndCanWindow(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if the device supports window-oriented MCI commands or **FALSE** otherwise.
 
 
 ## -description

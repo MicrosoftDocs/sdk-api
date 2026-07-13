@@ -1,7 +1,7 @@
 ---
 UID: NS:wincred._CREDENTIALW
 title: CREDENTIALW (wincred.h)
-description: The CREDENTIAL structure contains an individual credential.
+description: The CREDENTIAL structure contains an individual credential. (Unicode)
 helpviewer_keywords: ["*PCREDENTIALW","CREDENTIAL","CREDENTIAL structure [Security]","CREDENTIALA","CREDENTIALW","CRED_FLAGS_PROMPT_NOW","CRED_FLAGS_USERNAME_TARGET","CRED_PERSIST_ENTERPRISE","CRED_PERSIST_LOCAL_MACHINE","CRED_PERSIST_SESSION","CRED_TYPE_DOMAIN_CERTIFICATE","CRED_TYPE_DOMAIN_EXTENDED","CRED_TYPE_DOMAIN_PASSWORD","CRED_TYPE_DOMAIN_VISIBLE_PASSWORD","CRED_TYPE_GENERIC","CRED_TYPE_GENERIC_CERTIFICATE","CRED_TYPE_MAXIMUM","CRED_TYPE_MAXIMUM_EX","PCREDENTIAL","PCREDENTIAL structure pointer [Security]","_cred_credential","security.credential","wincred/CREDENTIAL","wincred/CREDENTIALA","wincred/CREDENTIALW","wincred/PCREDENTIAL"]
 old-location: security\credential.htm
 tech.root: security
@@ -73,7 +73,7 @@ A bit member that identifies characteristics of the credential. Undefined bits s
 </tr>
 <tr>
 <td width="40%"><a id="CRED_FLAGS_PROMPT_NOW"></a><a id="cred_flags_prompt_now"></a><dl>
-<dt><b><b>CRED_FLAGS_PROMPT_NOW</b></b></dt>
+<dt><b>CRED_FLAGS_PROMPT_NOW</b></dt>
 <dt>2 (0x2)</dt>
 </dl>
 </td>
@@ -88,7 +88,7 @@ If <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b> or <b>CRED_TYPE_DOMAIN_CERTIF
 </tr>
 <tr>
 <td width="40%"><a id="CRED_FLAGS_USERNAME_TARGET"></a><a id="cred_flags_username_target"></a><dl>
-<dt><b><b>CRED_FLAGS_USERNAME_TARGET</b></b></dt>
+<dt><b>CRED_FLAGS_USERNAME_TARGET</b></dt>
 <dt>4 (0x4)</dt>
 </dl>
 </td>
@@ -114,7 +114,7 @@ The type of the credential. This member cannot be changed after the credential i
 </tr>
 <tr>
 <td width="40%"><a id="CRED_TYPE_GENERIC"></a><a id="cred_type_generic"></a><dl>
-<dt><b><b>CRED_TYPE_GENERIC</b></b></dt>
+<dt><b>CRED_TYPE_GENERIC</b></dt>
 <dt>1 (0x1)</dt>
 </dl>
 </td>
@@ -125,7 +125,7 @@ The credential is a generic credential. The credential will not be used by any p
 </tr>
 <tr>
 <td width="40%"><a id="CRED_TYPE_DOMAIN_PASSWORD"></a><a id="cred_type_domain_password"></a><dl>
-<dt><b><b>CRED_TYPE_DOMAIN_PASSWORD</b></b></dt>
+<dt><b>CRED_TYPE_DOMAIN_PASSWORD</b></dt>
 <dt>2 (0x2)</dt>
 </dl>
 </td>
@@ -136,7 +136,7 @@ The credential is a password credential and is specific to Microsoft's authentic
 </tr>
 <tr>
 <td width="40%"><a id="CRED_TYPE_DOMAIN_CERTIFICATE"></a><a id="cred_type_domain_certificate"></a><dl>
-<dt><b><b>CRED_TYPE_DOMAIN_CERTIFICATE</b></b></dt>
+<dt><b>CRED_TYPE_DOMAIN_CERTIFICATE</b></dt>
 <dt>3 (0x3)</dt>
 </dl>
 </td>
@@ -147,7 +147,7 @@ The credential is a certificate credential and is specific to Microsoft's authen
 </tr>
 <tr>
 <td width="40%"><a id="CRED_TYPE_DOMAIN_VISIBLE_PASSWORD"></a><a id="cred_type_domain_visible_password"></a><dl>
-<dt><b><b>CRED_TYPE_DOMAIN_VISIBLE_PASSWORD</b></b></dt>
+<dt><b>CRED_TYPE_DOMAIN_VISIBLE_PASSWORD</b></dt>
 <dt>4 (0x4)</dt>
 </dl>
 </td>
@@ -263,7 +263,7 @@ The time, in Coordinated Universal Time (Greenwich Mean Time), of the last modif
 
 ### -field CredentialBlobSize
 
-The size, in bytes, of the <b>CredentialBlob</b> member. This member cannot be larger than <b>CRED_MAX_CREDENTIAL_BLOB_SIZE</b> (512) bytes.
+The size, in bytes, of the <b>CredentialBlob</b> member. This member cannot be larger than <b>CRED_MAX_CREDENTIAL_BLOB_SIZE</b> (5*512) bytes.
 
 ### -field CredentialBlobSize.range
 
@@ -300,7 +300,7 @@ Defines the persistence of this credential. This member can be read and written.
 </tr>
 <tr>
 <td width="40%"><a id="CRED_PERSIST_SESSION"></a><a id="cred_persist_session"></a><dl>
-<dt><b><b>CRED_PERSIST_SESSION</b></b></dt>
+<dt><b>CRED_PERSIST_SESSION</b></dt>
 <dt>1 (0x1)</dt>
 </dl>
 </td>
@@ -311,7 +311,7 @@ The credential persists for the life of the logon session. It will not be visibl
 </tr>
 <tr>
 <td width="40%"><a id="CRED_PERSIST_LOCAL_MACHINE"></a><a id="cred_persist_local_machine"></a><dl>
-<dt><b><b>CRED_PERSIST_LOCAL_MACHINE</b></b></dt>
+<dt><b>CRED_PERSIST_LOCAL_MACHINE</b></dt>
 <dt>2 (0x2)</dt>
 </dl>
 </td>
@@ -324,7 +324,7 @@ The credential persists for all subsequent logon sessions on this same computer.
 </tr>
 <tr>
 <td width="40%"><a id="CRED_PERSIST_ENTERPRISE"></a><a id="cred_persist_enterprise"></a><dl>
-<dt><b><b>CRED_PERSIST_ENTERPRISE</b></b></dt>
+<dt><b>CRED_PERSIST_ENTERPRISE</b></dt>
 <dt>3 (0x3)</dt>
 </dl>
 </td>
@@ -393,4 +393,4 @@ This member cannot be longer than <b>CRED_MAX_USERNAME_LENGTH</b> (513) characte
 ## -remarks
 
 > [!NOTE]
-> The wincred.h header defines CREDENTIAL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CREDENTIAL as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

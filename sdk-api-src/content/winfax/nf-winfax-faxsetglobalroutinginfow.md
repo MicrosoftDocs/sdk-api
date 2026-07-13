@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxSetGlobalRoutingInfoW
 title: FaxSetGlobalRoutingInfoW function (winfax.h)
-description: A fax management application calls the FaxSetGlobalRoutingInfo function to modify fax routing method data, such as routing priority, that applies globally to the fax server.
-helpviewer_keywords: ["FaxSetGlobalRoutingInfo","FaxSetGlobalRoutingInfo function [Fax Service]","FaxSetGlobalRoutingInfoA","FaxSetGlobalRoutingInfoW","_mfax_faxsetglobalroutinginfo","fax._mfax_faxsetglobalroutinginfo","winfax/FaxSetGlobalRoutingInfo","winfax/FaxSetGlobalRoutingInfoA","winfax/FaxSetGlobalRoutingInfoW"]
+description: A fax management application calls the FaxSetGlobalRoutingInfo function to modify fax routing method data, such as routing priority, that applies globally to the fax server. (Unicode)
+helpviewer_keywords: ["FaxSetGlobalRoutingInfo", "FaxSetGlobalRoutingInfo function [Fax Service]", "FaxSetGlobalRoutingInfoW", "_mfax_faxsetglobalroutinginfo", "fax._mfax_faxsetglobalroutinginfo", "winfax/FaxSetGlobalRoutingInfo", "winfax/FaxSetGlobalRoutingInfoW"]
 old-location: fax\_mfax_faxsetglobalroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3jlb.htm
@@ -128,7 +128,7 @@ To retrieve the current global configuration, call the <a href="/previous-versio
 
 
 > [!NOTE]
-> The winfax.h header defines FaxSetGlobalRoutingInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxSetGlobalRoutingInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

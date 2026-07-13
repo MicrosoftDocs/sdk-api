@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_AddPage","PropSheet_AddPage macro [Windows Cont
 old-location: controls\PropSheet_AddPage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_addpage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_AddPage, PropSheet_AddPage macro [Windows Controls], _win32_PropSheet_AddPage, _win32_PropSheet_AddPage_cpp, controls.PropSheet_AddPage, controls._win32_PropSheet_AddPage, prsht/PropSheet_AddPage
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_AddPage macro
+
+## -syntax
+
+```cpp
+BOOL PropSheet_AddPage(
+   HWND           hDlg,
+   HPROPSHEETPAGE hpage
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

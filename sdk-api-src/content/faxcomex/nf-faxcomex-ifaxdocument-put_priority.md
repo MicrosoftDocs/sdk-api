@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_Priority
 title: IFaxDocument::put_Priority (faxcomex.h)
-description: The IFaxDocument::get_Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.
+description: The IFaxDocument::get_Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority. (Put)
 helpviewer_keywords: ["IFaxDocument interface [Fax Service]","Priority property","IFaxDocument.Priority","IFaxDocument.get_Priority","IFaxDocument.put_Priority","IFaxDocument::Priority","IFaxDocument::get_Priority","IFaxDocument::put_Priority","Priority property [Fax Service]","Priority property [Fax Service]","IFaxDocument interface","_mfax_faxdocument.priority","fax._mfax_faxdocument_cpp_mfax_faxdocument_priority_cpp","fax._mfax_faxdocument_priority","faxcomex/IFaxDocument::Priority","faxcomex/IFaxDocument::get_Priority","faxcomex/IFaxDocument::put_Priority","put_Priority"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_priority_cpp.htm
 tech.root: Fax

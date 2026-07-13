@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_WakeToRun
 title: ITaskSettings::put_WakeToRun (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the Task Scheduler will wake the computer when it is time to run the task, and keep the computer awake until the task is completed.
+description: Gets or sets a Boolean value that indicates that the Task Scheduler will wake the computer when it is time to run the task, and keep the computer awake until the task is completed. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","WakeToRun property","ITaskSettings.WakeToRun","ITaskSettings.put_WakeToRun","ITaskSettings::WakeToRun","ITaskSettings::get_WakeToRun","ITaskSettings::put_WakeToRun","WakeToRun property [Task Scheduler]","WakeToRun property [Task Scheduler]","ITaskSettings interface","put_WakeToRun","taskschd.itasksettings_waketorun","taskschd/ITaskSettings::WakeToRun","taskschd/ITaskSettings::get_WakeToRun","taskschd/ITaskSettings::put_WakeToRun"]
 old-location: taskschd\itasksettings_waketorun.htm
 tech.root: taskschd

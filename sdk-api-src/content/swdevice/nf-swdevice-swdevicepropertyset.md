@@ -6,7 +6,7 @@ helpviewer_keywords: ["SwDevicePropertySet","SwDevicePropertySet function","swde
 old-location: swdevice\swdevicepropertyset.htm
 tech.root: swdevice
 ms.assetid: 6EA107FE-F1FD-4D19-82C8-00FE0D98A9EA
-ms.date: 12/05/2018
+ms.date: 04/22/2024
 ms.keywords: SwDevicePropertySet, SwDevicePropertySet function, swdevice.swdevicepropertyset, swdevice/SwDevicePropertySet
 req.header: swdevice.h
 req.include-header: 
@@ -73,8 +73,6 @@ An array of <a href="/previous-versions/windows/hardware/drivers/dn315030(v=vs.8
 S_OK is returned if <b>SwDevicePropertySet</b> successfully set the properties; otherwise, an appropriate error value.
 
 ## -remarks
-
-Typically, only the operating system and Administrators of the computer can set properties on a device, but the creator of a device can call <b>SwDevicePropertySet</b> to set properties on that device even if it isn't the operating system or an Administrator.
 
 You can call <b>SwDevicePropertySet</b> only after the operating system has called your client app's <a href="/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function to notify the client app that device enumeration completed.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_TaskArguments
 title: IAlertDataCollector::put_TaskArguments (pla.h)
-description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
+description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property. (IAlertDataCollector.put_TaskArguments)
 helpviewer_keywords: ["IAlertDataCollector interface [PLA]","TaskArguments property","IAlertDataCollector.TaskArguments","IAlertDataCollector.put_TaskArguments","IAlertDataCollector::TaskArguments","IAlertDataCollector::get_TaskArguments","IAlertDataCollector::put_TaskArguments","TaskArguments property [PLA]","TaskArguments property [PLA]","IAlertDataCollector interface","base.ialertdatacollector_taskarguments","pla.ialertdatacollector_taskarguments","pla/IAlertDataCollector::TaskArguments","pla/IAlertDataCollector::get_TaskArguments","pla/IAlertDataCollector::put_TaskArguments","put_TaskArguments"]
 old-location: pla\ialertdatacollector_taskarguments.htm
 tech.root: PLA

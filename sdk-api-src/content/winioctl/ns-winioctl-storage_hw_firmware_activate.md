@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PSTORAGE_HW_FIRMWARE_ACTIVATE","PSTORAGE_HW_FIRMWARE_ACT
 old-location: fs\storage_hw_firmware_activate.htm
 tech.root: fs
 ms.assetid: 2DAAC1FE-2503-4820-9718-9A653B0A05CA
-ms.date: 12/05/2018
+ms.date: 11/18/2024
 ms.keywords: '*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Files], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Files], fs.storage_hw_firmware_activate, winioctl/PSTORAGE_HW_FIRMWARE_ACTIVATE, winioctl/STORAGE_HW_FIRMWARE_ACTIVATE'
 req.header: winioctl.h
 req.include-header: Windows.h
@@ -81,6 +81,10 @@ The flags associated with the activation request. The following are valid flags 
 <tr>
 <td>STORAGE_HW_FIRMWARE_REQUEST_FLAG_SWITCH_TO_EXISTING_FIRMWARE</td>
 <td>Indicates that the existing firmware image in the specified slot should be activated.</td>
+</tr>
+<tr>
+<td>STORAGE_HW_FIRMWARE_REQUEST_FLAG_REPLACE_EXISTING_IMAGE</td>
+<td><strong>Supported in Windows 11, version 24H2, and later.</strong><br>Indicates that the existing firmware in the slot should be activated with a controller reset.</td>
 </tr>
 </table>
 

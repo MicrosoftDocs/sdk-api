@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxEnumJobsW
 title: FaxEnumJobsW function (winfax.h)
-description: The FaxEnumJobs function enumerates all queued and active fax jobs on the fax server to which the client has connected. The function returns detailed information for each fax job to the fax client application.
-helpviewer_keywords: ["FaxEnumJobs","FaxEnumJobs function [Fax Service]","FaxEnumJobsA","FaxEnumJobsW","_mfax_faxenumjobs","fax._mfax_faxenumjobs","winfax/FaxEnumJobs","winfax/FaxEnumJobsA","winfax/FaxEnumJobsW"]
+description: The FaxEnumJobs function enumerates all queued and active fax jobs on the fax server to which the client has connected. The function returns detailed information for each fax job to the fax client application. (Unicode)
+helpviewer_keywords: ["FaxEnumJobs", "FaxEnumJobs function [Fax Service]", "FaxEnumJobsW", "_mfax_faxenumjobs", "fax._mfax_faxenumjobs", "winfax/FaxEnumJobs", "winfax/FaxEnumJobsW"]
 old-location: fax\_mfax_faxenumjobs.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6fhv.htm
@@ -134,7 +134,7 @@ The <b>FaxEnumJobs</b> function allocates the memory required for the <a href="/
 
 
 > [!NOTE]
-> The winfax.h header defines FaxEnumJobs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxEnumJobs as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

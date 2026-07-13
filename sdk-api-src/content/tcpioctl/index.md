@@ -4,7 +4,8 @@ title: Tcpioctl.h header
 ms.assetid: 2b698fce-bd98-3a50-89b5-2a40b928f028
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: winprog
 f1_keywords:
  - tcpioctl

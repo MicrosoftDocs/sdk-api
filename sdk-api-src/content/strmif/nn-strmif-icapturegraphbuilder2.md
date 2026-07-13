@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICaptureGraphBuilder2","ICaptureGraphBuilder2 interface [
 old-location: dshow\icapturegraphbuilder2.htm
 tech.root: dshow
 ms.assetid: abdf6fb2-e98f-4df8-98ec-06d33798abb5
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], ICaptureGraphBuilder2 interface [DirectShow],described, ICaptureGraphBuilder2Interface, dshow.icapturegraphbuilder2, strmif/ICaptureGraphBuilder2
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>ICaptureGraphBuilder2</code> interface builds capture graphs and other custom filter graphs. The <a href="/windows/desktop/DirectShow/capture-graph-builder">Capture Graph Builder</a> object implements this interface.
 
 <div class="alert"><b>Note</b>  By default, the <code>ICaptureGraphBuilder2</code> interface does not use the Video Mixing Renderer (VMR), Enhanced Video Renderer (EVR) or <a href="/windows/desktop/DirectShow/video-port-manager">Video Port Manager</a> filters.</div>
@@ -58,10 +60,7 @@ The <code>ICaptureGraphBuilder2</code> interface builds capture graphs and other
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICaptureGraphBuilder2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptureGraphBuilder2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICaptureGraphBuilder2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptureGraphBuilder2</b> also has these types of members:
 
 ## -see-also
 

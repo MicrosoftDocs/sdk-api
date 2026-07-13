@@ -68,13 +68,13 @@ The size, in bytes, of the block of memory that <i>pSrcData</i> points to.
 
 ### -param pRootSignatureDeserializerInterface [in]
 
-Type: <b><b>REFIID</b></b>
+Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the root signature deserializer interface. See remarks.
 
 ### -param ppRootSignatureDeserializer [out]
 
-Type: <b><b>void</b>**</b>
+Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the root signature deserializer.
 
@@ -88,7 +88,7 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="/windo
 
 This function has been superceded by <a href="/windows/desktop/api/d3d12/nf-d3d12-d3d12createversionedrootsignaturedeserializer">D3D12CreateVersionedRootSignatureDeserializer</a>.
 
-If an application has a serialized root signature already or has a compiled shader that contains a root signature and wants to determine the layout definition, it can call <b>D3D12CreateRootSignatureDeserializer</b> to generate a <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer">ID3D12RootSignatureDeserializer</a> interface. <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12rootsignaturedeserializer-getrootsignaturedesc">ID3D12RootSignatureDeserializer::GetRootSignature</a>can return the deserialized data structure
+If an application has a serialized root signature already or has a compiled shader that contains a root signature and wants to determine the layout definition, it can call <b>D3D12CreateRootSignatureDeserializer</b> to generate a <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer">ID3D12RootSignatureDeserializer</a> interface. <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12rootsignaturedeserializer-getrootsignaturedesc">ID3D12RootSignatureDeserializer::GetRootSignature</a> can return the deserialized data structure
         (<a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a>).
         <b>ID3D12RootSignatureDeserializer</b> just owns the lifetime of the memory for the deserialized data structure.
       

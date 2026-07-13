@@ -58,15 +58,15 @@ The <b>QOS_SHAPING</b> enumeration defines the shaping behavior of a flow.
 
 ## -enum-fields
 
-### -field QOSShapeOnly
+### -field QOSShapeOnly:0
 
 Indicates that the Windows packet scheduler (Pacer) will be used to enforce the requested flow rate. Data packets that exceed the rate are delayed until appropriate in order to maintain the specified flow rate.  If the network supports prioritization, packets will always receive conformant priority values when QOSShapeFlow is specified.
 
-### -field QOSShapeAndMark
+### -field QOSShapeAndMark:1
 
 Indicates that the Windows Scheduler will be used to enforce the requested flow rate. Data packets exceeding the rate are delayed accordingly.  Packets receive conformant priority values.
 
-### -field QOSUseNonConformantMarkings
+### -field QOSUseNonConformantMarkings:2
 
 Indicates that the flow rate requested will not be enforced.  Data packets that would exceed the flow rate will receive a priority that indicates they are non-conformant.  This may lead to lost and reordered packets.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPluginEnable interface [Windows Media Player]","SetEn
 old-location: wmp\iwmppluginenable_setenable.htm
 tech.root: WMP
 ms.assetid: a0b8e79b-e9bd-40e5-ab58-11469406110a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPluginEnable interface [Windows Media Player],SetEnable method, IWMPPluginEnable.SetEnable, IWMPPluginEnable::SetEnable, IWMPPluginEnableSetEnableDSP, SetEnable, SetEnable method [Windows Media Player], SetEnable method [Windows Media Player],IWMPPluginEnable interface, wmp.iwmppluginenable_setenable, wmpservices/IWMPPluginEnable::SetEnable
 req.header: wmpservices.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPPluginEnable::SetEnable</b> method retrieves a value indicating whether user has enabled the plug-in.
 

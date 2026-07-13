@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","getItemInfo 
 old-location: wmp\iwmpmedia_getiteminfo.htm
 tech.root: WMP
 ms.assetid: ee964f68-d44c-4e66-908b-09070a96d96f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia interface [Windows Media Player],getItemInfo method, IWMPMedia.getItemInfo, IWMPMedia2 interface [Windows Media Player],getItemInfo method, IWMPMedia2::getItemInfo, IWMPMedia3 interface [Windows Media Player],getItemInfo method, IWMPMedia3::getItemInfo, IWMPMedia::getItemInfo, IWMPMediagetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPMedia interface, getItemInfo method [Windows Media Player],IWMPMedia2 interface, getItemInfo method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getiteminfo, wmp/IWMPMedia2::getItemInfo, wmp/IWMPMedia3::getItemInfo, wmp/IWMPMedia::getItemInfo
 req.header: wmp.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>getItemInfo</b> method retrieves the value of the specified attribute for the media item.
 

@@ -1,12 +1,12 @@
 ---
 UID: NS:propidl.tagSTATPROPSTG
 title: STATPROPSTG (propidl.h)
-description: Contains data about a single property in a property set. This data is the property ID and type tag, and the optional string name that may be associated with the property.
+description: The STATPROPSTG structure contains data about a single property in a property set. This data is the property ID and type tag, and the optional string name that may be associated with the property. 
 helpviewer_keywords: ["STATPROPSTG","STATPROPSTG [Strctd Stg]","STATPROPSTG structure [Structured Storage]","_stg_statpropstg","propidlbase/STATPROPSTG","stg.statpropstg","tagSTATPROPSTG"]
 old-location: stg\statpropstg.htm
 tech.root: Stg
 ms.assetid: 3b8de6d3-18a3-4c0a-94d1-04bcec05d41a
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: STATPROPSTG, STATPROPSTG [Strctd Stg], STATPROPSTG structure [Structured Storage], _stg_statpropstg, propidlbase/STATPROPSTG, stg.statpropstg, tagSTATPROPSTG
 req.header: propidl.h
 req.include-header: Propidl.h

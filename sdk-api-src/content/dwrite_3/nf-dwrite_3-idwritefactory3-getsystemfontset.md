@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSystemFontSet","GetSystemFontSet method [Direct Write]
 old-location: directwrite\idwritefactory3_getsystemfontset.htm
 tech.root: DirectWrite
 ms.assetid: 84fd8c9f-f4b1-3015-f431-08b7a07ff32b
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontSet method, IDWriteFactory3.GetSystemFontSet, IDWriteFactory3::GetSystemFontSet, directwrite.idwritefactory3_getsystemfontset, dwrite_3/IDWriteFactory3::GetSystemFontSet
 req.header: dwrite_3.h
 req.include-header: 
@@ -64,7 +64,7 @@ Holds the newly created font set object, or NULL in case of failure.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capCaptureAbort
 title: capCaptureAbort macro (vfw.h)
-description: The capCaptureAbort macro stops the capture operation. You can use this macro or explictly send the WM_CAP_ABORT message.
+description: The capCaptureAbort macro stops the capture operation. You can use this macro or explicitly send the WM_CAP_ABORT message.
 helpviewer_keywords: ["_win32_capCaptureAbort","capCaptureAbort","capCaptureAbort macro [Windows Multimedia]","multimedia.capcaptureabort","vfw/capCaptureAbort"]
 old-location: multimedia\capcaptureabort.htm
 tech.root: Multimedia
 ms.assetid: a1c17695-ee91-4f76-a2be-a6e512903c8f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capCaptureAbort, capCaptureAbort, capCaptureAbort macro [Windows Multimedia], multimedia.capcaptureabort, vfw/capCaptureAbort
 req.header: vfw.h
 req.include-header: 
@@ -47,10 +47,24 @@ api_name:
 
 # capCaptureAbort macro
 
+## -syntax
+
+```cpp
+BOOL capCaptureAbort(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
+
 
 ## -description
 
-The <b>capCaptureAbort</b> macro stops the capture operation. You can use this macro or explictly send the <a href="/windows/desktop/Multimedia/wm-cap-abort">WM_CAP_ABORT</a> message.
+The <b>capCaptureAbort</b> macro stops the capture operation. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-abort">WM_CAP_ABORT</a> message.
 
 ## -parameters
 

@@ -69,7 +69,7 @@ A <a href="/windows/desktop/api/certenroll/ne-certenroll-policyqualifiertype">Po
 </tr>
 <tr>
 <td width="40%"><a id="PolicyQualifierTypeUnknown"></a><a id="policyqualifiertypeunknown"></a><a id="POLICYQUALIFIERTYPEUNKNOWN"></a><dl>
-<dt><b><b>PolicyQualifierTypeUnknown</b></b></dt>
+<dt><b>PolicyQualifierTypeUnknown</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -80,7 +80,7 @@ The qualifier type is not specified.
 </tr>
 <tr>
 <td width="40%"><a id="PolicyQualifierTypeUrl"></a><a id="policyqualifiertypeurl"></a><a id="POLICYQUALIFIERTYPEURL"></a><dl>
-<dt><b><b>PolicyQualifierTypeUrl</b></b></dt>
+<dt><b>PolicyQualifierTypeUrl</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -91,7 +91,7 @@ The qualifier is a URL that points to a Certification Practice Statement (CPS) t
 </tr>
 <tr>
 <td width="40%"><a id="PolicyQualifierTypeUserNotice"></a><a id="policyqualifiertypeusernotice"></a><a id="POLICYQUALIFIERTYPEUSERNOTICE"></a><dl>
-<dt><b><b>PolicyQualifierTypeUserNotice</b></b></dt>
+<dt><b>PolicyQualifierTypeUserNotice</b></dt>
 <dt></dt>
 </dl>
 </td>

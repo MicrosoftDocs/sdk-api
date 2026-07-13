@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMHEADERA
 title: NMHEADERA (commctrl.h)
-description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure.
+description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure. (ANSI)
 helpviewer_keywords: ["*LPNMHEADERA","0","1","2","LPNMHEADER","LPNMHEADER structure pointer [Windows Controls]","NMHEADER","NMHEADER structure [Windows Controls]","NMHEADERA","NMHEADERW","_win32_NMHEADER","_win32_NMHEADER_cpp","commctrl/LPNMHEADER","commctrl/NMHEADER","commctrl/NMHEADERA","commctrl/NMHEADERW","controls.NMHEADER","controls._win32_NMHEADER"]
 old-location: controls\NMHEADER.htm
 tech.root: Controls
@@ -132,4 +132,4 @@ While most header control notifications pass a pointer to an <b>NMHEADER</b> str
 
 
 > [!NOTE]
-> The commctrl.h header defines NMHEADER as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines NMHEADER as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

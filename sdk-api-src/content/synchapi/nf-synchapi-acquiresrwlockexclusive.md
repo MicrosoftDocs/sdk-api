@@ -6,10 +6,10 @@ helpviewer_keywords: ["AcquireSRWLockExclusive","AcquireSRWLockExclusive functio
 old-location: base\acquiresrwlockexclusive.htm
 tech.root: base
 ms.assetid: 02e987a2-4c2f-4ccb-8816-c04320b568c1
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: AcquireSRWLockExclusive, AcquireSRWLockExclusive function, base.acquiresrwlockexclusive, synchapi/AcquireSRWLockExclusive, winbase/AcquireSRWLockExclusive
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -54,7 +54,6 @@ api_name:
 
 # AcquireSRWLockExclusive function
 
-
 ## -description
 
 Acquires a slim reader/writer (SRW) lock in exclusive mode.
@@ -67,12 +66,10 @@ A pointer to the SRW lock.
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-releasesrwlockexclusive">ReleaseSRWLockExclusive</a>
+[ReleaseSRWLockExclusive](nf-synchapi-releasesrwlockexclusive.md)
 
+[Slim Reader/Writer (SRW) Locks](/windows/win32/Sync/slim-reader-writer--srw--locks)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-<a href="/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
-
-
-
-<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

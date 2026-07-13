@@ -52,7 +52,7 @@ api_name:
 
 Sends a WS-Discovery <a href="/windows/desktop/WsdApi/bye-message">Bye</a> message and stops the host. After a host has been successfully stopped, it must be terminated with <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-terminate">IWSDDeviceHost::Terminate</a> before being released.
 
-## -parameters
+
 
 ## -returns
 

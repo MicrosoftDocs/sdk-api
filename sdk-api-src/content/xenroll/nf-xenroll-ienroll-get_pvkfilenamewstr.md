@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_PVKFileNameWStr
 title: IEnroll::get_PVKFileNameWStr (xenroll.h)
-description: Sets or retrieves the name of the file that will contain exported keys.
+description: Sets or retrieves the name of the file that will contain exported keys. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","PVKFileNameWStr property","IEnroll.PVKFileNameWStr","IEnroll.get_PVKFileNameWStr","IEnroll::PVKFileNameWStr","IEnroll::get_PVKFileNameWStr","IEnroll::put_PVKFileNameWStr","PVKFileNameWStr property [Security]","PVKFileNameWStr property [Security]","IEnroll interface","get_PVKFileNameWStr","security.ienroll4_pvkfilenamewstr","xenroll/IEnroll::PVKFileNameWStr","xenroll/IEnroll::get_PVKFileNameWStr","xenroll/IEnroll::put_PVKFileNameWStr"]
 old-location: security\ienroll4_pvkfilenamewstr.htm
 tech.root: security

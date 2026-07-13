@@ -54,19 +54,19 @@ Contains values that specify the state of a UI element that can be expanded and 
 
 ## -enum-fields
 
-### -field ExpandCollapseState_Collapsed
+### -field ExpandCollapseState_Collapsed:0
 
 No children are visible.
 
-### -field ExpandCollapseState_Expanded
+### -field ExpandCollapseState_Expanded:1
 
 All children are visible.
 
-### -field ExpandCollapseState_PartiallyExpanded
+### -field ExpandCollapseState_PartiallyExpanded:2
 
 Some, but not all, children are visible.
 
-### -field ExpandCollapseState_LeafNode
+### -field ExpandCollapseState_LeafNode:3
 
 The element does not expand or collapse.
 

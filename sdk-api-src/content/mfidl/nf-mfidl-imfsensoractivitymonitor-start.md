@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ api_name:
 
 Starts the sensor activity monitor.
 
-## -parameters
+
 
 ## -returns
 

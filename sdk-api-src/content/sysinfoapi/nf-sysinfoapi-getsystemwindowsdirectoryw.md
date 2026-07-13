@@ -1,8 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetSystemWindowsDirectoryW
 title: GetSystemWindowsDirectoryW function (sysinfoapi.h)
-description: Retrieves the path of the shared Windows directory on a multi-user system.
-helpviewer_keywords: ["GetSystemWindowsDirectory","GetSystemWindowsDirectory function","GetSystemWindowsDirectoryA","GetSystemWindowsDirectoryW","_win32_getsystemwindowsdirectory","base.getsystemwindowsdirectory","sysinfoapi/GetSystemWindowsDirectory","sysinfoapi/GetSystemWindowsDirectoryA","sysinfoapi/GetSystemWindowsDirectoryW"]
+description: Retrieves the path of the shared Windows directory on a multi-user system. (Unicode)
+helpviewer_keywords: ["GetSystemWindowsDirectory", "GetSystemWindowsDirectory function", "GetSystemWindowsDirectoryW", "_win32_getsystemwindowsdirectory", "base.getsystemwindowsdirectory", "sysinfoapi/GetSystemWindowsDirectory", "sysinfoapi/GetSystemWindowsDirectoryW"]
 old-location: base\getsystemwindowsdirectory.htm
 tech.root: winprog
 ms.assetid: 4f0955fb-8fa3-4102-b2a5-44ce5cbd2e35
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-sysinfo-l1-2-7.dll
+ - api-ms-win-core-sysinfo-l1-2-6.dll
+ - api-ms-win-core-sysinfo-l1-2-5.dll
+ - api-ms-win-core-sysinfo-l1-2-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-SysInfo-l1-1-0.dll
  - KernelBase.dll
@@ -69,7 +73,7 @@ This function is provided primarily for compatibility. Applications should store
 
 ### -param lpBuffer [out]
 
-A pointer to the buffer to receive the path. This path does not end with a backslash unless the Windows directory is the root directory. For example, if the Windows directory is named Windows on drive C, the path of the Windows directory retrieved by this function is C:\Windows. If the system was installed in the root directory of drive C, the path retrieved is C:\.
+A pointer to the buffer to receive the path. This path does not end with a backslash unless the Windows directory is the root directory. For example, if the Windows directory is named Windows on drive C, the path of the Windows directory retrieved by this function is `C:\Windows`. If the system was installed in the root directory of drive C, the path retrieved is `C:\`.
 
 ### -param uSize [in]
 
@@ -99,7 +103,7 @@ With Terminal Services, the
 
 
 > [!NOTE]
-> The sysinfoapi.h header defines GetSystemWindowsDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sysinfoapi.h header defines GetSystemWindowsDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

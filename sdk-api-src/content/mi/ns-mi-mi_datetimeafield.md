@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_DatetimeAField
 title: MI_DatetimeAField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_DatetimeAField)
 helpviewer_keywords: ["MI_DatetimeAField","MI_DatetimeAField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_DatetimeAField","wmi._mi_datetimeafield","wmi_v2.mi_datetimeafield"]
 old-location: wmi_v2\mi_datetimeafield.htm
 tech.root: wmi_v2

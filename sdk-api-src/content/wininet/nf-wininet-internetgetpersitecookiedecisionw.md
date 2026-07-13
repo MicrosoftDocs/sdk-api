@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetGetPerSiteCookieDecisionW
 title: InternetGetPerSiteCookieDecisionW function (wininet.h)
-description: Retrieves a decision on cookies for a given domain.
-helpviewer_keywords: ["InternetGetPerSiteCookieDecision","InternetGetPerSiteCookieDecision function [WinINet]","InternetGetPerSiteCookieDecisionA","InternetGetPerSiteCookieDecisionW","wininet.internetgetpersitecookiedecision","wininet/InternetGetPerSiteCookieDecision","wininet/InternetGetPerSiteCookieDecisionA","wininet/InternetGetPerSiteCookieDecisionW"]
+description: Retrieves a decision on cookies for a given domain. (Unicode)
+helpviewer_keywords: ["InternetGetPerSiteCookieDecision", "InternetGetPerSiteCookieDecision function [WinINet]", "InternetGetPerSiteCookieDecisionW", "wininet.internetgetpersitecookiedecision", "wininet/InternetGetPerSiteCookieDecision", "wininet/InternetGetPerSiteCookieDecisionW"]
 old-location: wininet\internetgetpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: 04fa4c33-077c-4b16-8170-c3770783c98a
@@ -74,7 +74,7 @@ A return value of <b>FALSE</b> may indicate that the domain <i>pchHostName</i> d
 
 
 
-WinINet minimizes the domain specified in the <i>pchHostName</i> parameter and sets the cookie policy on the minimimum legal domain. For example, if the specified host name is  widgets.microsoft.com, the policy is set on the minimized host name microsoft.com.
+WinINet minimizes the domain specified in the <i>pchHostName</i> parameter and sets the cookie policy on the minimum legal domain. For example, if the specified host name is  widgets.microsoft.com, the policy is set on the minimized host name microsoft.com.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
@@ -85,7 +85,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines InternetGetPerSiteCookieDecision as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetGetPerSiteCookieDecision as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

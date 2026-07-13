@@ -4,7 +4,8 @@ title: WPF Bitmap Effects
 ms.assetid: d29980a8-57dd-3a84-8b40-97d870d7b460
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # WPF Bitmap Effects

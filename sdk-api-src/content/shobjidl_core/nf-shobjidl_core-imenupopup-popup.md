@@ -56,15 +56,15 @@ Invokes the shortcut menu at a specified onscreen location.
 
 ### -param ppt [in]
 
-Type: <b><a href="/previous-versions/dd162807(v=vs.85)">POINTL</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that specifies the location of the pop-up menu in screen coordinates. The pop-up menu is displayed in relation to this point as determined by the position flags set in <i>dwFlags</i>.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that specifies the location of the pop-up menu in screen coordinates. The pop-up menu is displayed in relation to this point as determined by the position flags set in <i>dwFlags</i>.
 
 ### -param prcExclude [in]
 
-Type: <b><a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a> structure that specifies the rectangle to exclude when positioning the menu. In Windows Vista, the alignment of the menu in relation to this area is determined by the alignment flags set in <i>dwFlags</i>. This parameter can be <b>NULL</b> to include the entire screen.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that specifies the rectangle to exclude when positioning the menu. In Windows Vista, the alignment of the menu in relation to this area is determined by the alignment flags set in <i>dwFlags</i>. This parameter can be <b>NULL</b> to include the entire screen.
 
 ### -param dwFlags [in]
 

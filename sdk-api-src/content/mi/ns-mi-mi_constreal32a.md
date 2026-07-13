@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstReal32A
 title: MI_ConstReal32A (mi.h)
-description: Represents an array of MI_Real32 types.
+description: Represents an array of MI_Real32 types. (MI_ConstReal32A)
 helpviewer_keywords: ["MI_ConstReal32A","MI_ConstReal32A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstReal32A","wmi._mi_constreal32a","wmi_v2.mi_constreal32a"]
 old-location: wmi_v2\mi_constreal32a.htm
 tech.root: wmi_v2

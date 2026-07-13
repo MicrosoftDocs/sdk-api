@@ -66,7 +66,7 @@ An optional parameter that was passed to the callback function.
 
 ### -param Context [out, optional]
 
-The data to be stored with the one-time initialization structure. If  <i>Context</i>  references a value, the low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> of the value must be zero. If  <i>Context</i>  points to a data structure, the data structure must be <b>DWORD</b>-aligned.
+The data to be stored with the one-time initialization structure. If  <i>Context</i>  references a value, the low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> of the value must be zero. If  <i>Context</i>  points to a data structure, the data structure must be <b>DWORD</b>-aligned. <i>Context</i> must not be a code pointer on Arm32, because Arm32 code pointers always have the least significant bit set, see the <a href="/cpp/build/overview-of-arm-abi-conventions?view=msvc-170#instruction-set">Arm32 ABI</a> for details.
 
 ## -returns
 

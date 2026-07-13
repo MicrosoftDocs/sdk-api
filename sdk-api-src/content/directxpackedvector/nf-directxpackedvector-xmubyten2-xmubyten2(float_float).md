@@ -79,7 +79,7 @@ This argument should be between 0.0 and 1.0. During the instantiation of an inst
 The magnitude of each argument to the constructor will be clamped to the range supported by an 8-bit unsigned integer
    [0, 255.0].
 
-The following pseudocode demonstrates the operation of this constructor, which takes advantage of the <code>union</code>of the four components of the <code>XMUBYTEN2</code> vector with an instance of <code>uint32_t</code> in the definition of
+The following pseudocode demonstrates the operation of this constructor, which takes advantage of the <code>union</code> of the four components of the <code>XMUBYTEN2</code> vector with an instance of <code>uint32_t</code> in the definition of
    the structure:
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ExitWindows","ExitWindows macro","_win32_exitwindows","ba
 old-location: base\exitwindows.htm
 tech.root: base
 ms.assetid: 7c76caac-459d-45df-ae00-bc208a9e7b22
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ExitWindows, ExitWindows macro, _win32_exitwindows, base.exitwindows, winuser/ExitWindows
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ExitWindows macro
+
+## -syntax
+
+```cpp
+BOOL ExitWindows(
+    DWORD dwReserved,
+    UINT Code
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the call succeeds, the return value is nonzero. If the call fails, the return value is zero. To get extended error information, call **GetLastError**.
 
 
 ## -description

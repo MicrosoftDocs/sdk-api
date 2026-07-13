@@ -230,17 +230,17 @@ Use the certificate pointed to by <b>pCert</b>.
 ### -field pFile
 
 A pointer to a 
-<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_file_info_">WINTRUST_FILE_INFO</a> structure.
+<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_file_info">WINTRUST_FILE_INFO</a> structure.
 
 ### -field pCatalog
 
 A pointer to a 
-<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_catalog_info_">WINTRUST_CATALOG_INFO</a> structure.
+<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_catalog_info">WINTRUST_CATALOG_INFO</a> structure.
 
 ### -field pBlob
 
 A pointer to a 
-<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info_">WINTRUST_BLOB_INFO</a> structure.
+<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info">WINTRUST_BLOB_INFO</a> structure.
 
 ### -field pSgnr
 
@@ -250,7 +250,7 @@ A pointer to a
 ### -field pCert
 
 A pointer to a 
-<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_cert_info_">WINTRUST_CERT_INFO</a> structure.
+<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_cert_info">WINTRUST_CERT_INFO</a> structure.
 
 ### -field dwStateAction
 
@@ -535,4 +535,4 @@ Use when calling <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytru
 
 Pointer to a [WINTRUST_SIGNATURE_SETTINGS](/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings) structure.
 
-<b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
+<b>Windows 7 with KB3033929, Windows 8, and Windows Server 2012:  </b>Support for this member begins.

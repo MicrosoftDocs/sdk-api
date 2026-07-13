@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetFontDownloadQueue","GetFontDownloadQueue method [Direc
 old-location: directwrite\idwritefactory3_getfontdownloadqueue.htm
 tech.root: DirectWrite
 ms.assetid: 446e4544-b25d-9b59-922c-ca5c896ea99f
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetFontDownloadQueue, GetFontDownloadQueue method [Direct Write], GetFontDownloadQueue method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetFontDownloadQueue method, IDWriteFactory3.GetFontDownloadQueue, IDWriteFactory3::GetFontDownloadQueue, directwrite.idwritefactory3_getfontdownloadqueue, dwrite_3/IDWriteFactory3::GetFontDownloadQueue
 req.header: dwrite_3.h
 req.include-header: 
@@ -64,7 +64,7 @@ Receives a pointer to the font download queue interface.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

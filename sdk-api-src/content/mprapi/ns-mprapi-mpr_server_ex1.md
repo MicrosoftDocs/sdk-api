@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._MPR_SERVER_EX1
 title: MPR_SERVER_EX1 (mprapi.h)
-description: Used to get or set the configuration of a RAS server.
+description: Used to get or set the configuration of a RAS server. (MPR_SERVER_EX1)
 helpviewer_keywords: ["*PMPR_SERVER_EX1","MPR_SERVER_EX","MPR_SERVER_EX structure [RAS]","MPR_SERVER_EX0","MPR_SERVER_EX1","PMPR_SERVER_EX","PMPR_SERVER_EX structure pointer [RAS]","_MPR_SERVER_EX0","_MPR_SERVER_EX1","mprapi/MPR_SERVER_EX","mprapi/PMPR_SERVER_EX","rras.mpr_server_ex"]
 old-location: rras\mpr_server_ex.htm
 tech.root: RRAS

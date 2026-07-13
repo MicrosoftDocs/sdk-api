@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetExtendedStyle","TreeView_GetExtendedStyle mac
 old-location: controls\TreeView_GetExtendedStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getextendedstyle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetExtendedStyle, TreeView_GetExtendedStyle macro [Windows Controls], _shell_TreeView_GetExtendedStyle, _shell_TreeView_GetExtendedStyle_cpp, commctrl/TreeView_GetExtendedStyle, controls.TreeView_GetExtendedStyle, controls._shell_TreeView_GetExtendedStyle
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,19 @@ api_name:
 
 # TreeView_GetExtendedStyle macro
 
+## -syntax
+
+```cpp
+DWORD TreeView_GetExtendedStyle(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the value of extended style. For more information on styles, see <a href="/windows/win32/controls/tree-view-control-window-extended-styles">Tree-View Control Extended Styles</a>.
 
 ## -description
 

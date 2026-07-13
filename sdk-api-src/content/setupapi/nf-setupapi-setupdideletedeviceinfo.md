@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.dll
 api_name:
  - SetupDiDeleteDeviceInfo
@@ -60,7 +61,7 @@ A handle to the <a href="/windows-hardware/drivers/install/device-information-se
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device information element in <i>DeviceInfoSet </i>to delete.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device information element in <i>DeviceInfoSet </i> to delete.
 
 ## -returns
 

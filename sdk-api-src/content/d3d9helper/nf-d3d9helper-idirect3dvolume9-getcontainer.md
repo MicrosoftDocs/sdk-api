@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolume9.GetContainer
 title: IDirect3DVolume9::GetContainer (d3d9helper.h)
-description: Provides access to the parent volume texture object, if this surface is a child level of a volume texture.
+description: The IDirect3DVolume9::GetContainer method (d3d9.h) provides access to the parent volume texture object, if the surface is a child level of a volume texture.
 helpviewer_keywords: ["0941591e-d47b-5e74-736a-768203a929fd","GetContainer","GetContainer method [Direct3D 9]","GetContainer method [Direct3D 9]","IDirect3DVolume9 interface","IDirect3DVolume9 interface [Direct3D 9]","GetContainer method","IDirect3DVolume9.GetContainer","IDirect3DVolume9::GetContainer","d3d9helper/IDirect3DVolume9::GetContainer","direct3d9.idirect3dvolume9__getcontainer"]
 old-location: direct3d9\idirect3dvolume9__getcontainer.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getcontainer.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: 0941591e-d47b-5e74-736a-768203a929fd, GetContainer, GetContainer method [Direct3D 9], GetContainer method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetContainer method, IDirect3DVolume9.GetContainer, IDirect3DVolume9::GetContainer, d3d9helper/IDirect3DVolume9::GetContainer, direct3d9.idirect3dvolume9__getcontainer
 req.header: d3d9helper.h
 req.include-header: D3D9.h

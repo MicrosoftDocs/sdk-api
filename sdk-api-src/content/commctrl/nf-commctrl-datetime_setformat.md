@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_SetFormat","DateTime_SetFormat macro [Windows Co
 old-location: controls\DateTime_SetFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setformat.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_SetFormat, DateTime_SetFormat macro [Windows Controls], _win32_DateTime_SetFormat, _win32_DateTime_SetFormat_cpp, commctrl/DateTime_SetFormat, controls.DateTime_SetFormat, controls._win32_DateTime_SetFormat
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # DateTime_SetFormat macro
+
+## -syntax
+
+```cpp
+void DateTime_SetFormat(
+   HWND    hdp,
+   LPCTSTR sz
+);
+```
 
 
 ## -description

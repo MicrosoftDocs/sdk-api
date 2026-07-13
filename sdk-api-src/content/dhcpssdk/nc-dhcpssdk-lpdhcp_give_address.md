@@ -1,7 +1,7 @@
 ---
 UID: NC:dhcpssdk.LPDHCP_GIVE_ADDRESS
 title: LPDHCP_GIVE_ADDRESS (dhcpssdk.h)
-description: The DhcpAddressOfferHook function is called by Microsoft DHCP Server directly before Microsoft DHCP Server sends an acknowledgement (ACK) to a DHCP REQUEST message.
+description: The DhcpAddressOfferHook function is called by Microsoft DHCP Server directly before Microsoft DHCP Server sends an acknowledgment (ACK) to a DHCP REQUEST message.
 helpviewer_keywords: ["DHCP_CLIENT_BOOTP","DHCP_CLIENT_DHCP","DhcpAddressOfferHook","DhcpAddressOfferHook callback function [DHCP]","LPDHCP_GIVE_ADDRESS","LPDHCP_GIVE_ADDRESS callback","_dhcp_dhcpaddressofferhook","dhcp.dhcpaddressofferhook","dhcpssdk/DhcpAddressOfferHook"]
 old-location: dhcp\dhcpaddressofferhook.htm
 tech.root: DHCP
@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<b>DhcpAddressOfferHook</b> function is called by Microsoft DHCP Server directly before Microsoft DHCP Server sends an acknowledgement (ACK) to a DHCP REQUEST message. The 
+<b>DhcpAddressOfferHook</b> function is called by Microsoft DHCP Server directly before Microsoft DHCP Server sends an acknowledgment (ACK) to a DHCP REQUEST message. The 
 <b>DhcpAddressOfferHook</b> is implemented by a third-party DLL that registers for notification of significant Microsoft DHCP Server events.
 
 The 
@@ -69,7 +69,7 @@ Size of the <i>Packet</i> parameter, in bytes.
 
 ### -param ControlCode [in]
 
-Specifies the type of lease being approved. If the acknowledgement is for a new lease, <i>ControlCode</i> is DHCP_GIVE_ADDRESS_NEW. If the acknowledgement is for the renewal of an existing lease, <i>ControlCode</i> is DHCP_GIVE_ADDRESS_OLD.
+Specifies the type of lease being approved. If the acknowledgment is for a new lease, <i>ControlCode</i> is DHCP_GIVE_ADDRESS_NEW. If the acknowledgment is for the renewal of an existing lease, <i>ControlCode</i> is DHCP_GIVE_ADDRESS_OLD.
 
 ### -param IpAddress [in]
 

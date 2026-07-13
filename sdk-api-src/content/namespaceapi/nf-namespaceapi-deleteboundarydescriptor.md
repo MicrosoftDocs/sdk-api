@@ -9,7 +9,7 @@ ms.assetid: 759d9cd9-9ef2-4bbe-9e99-8aec87f5ba4a
 ms.date: 12/05/2018
 ms.keywords: DeleteBoundaryDescriptor, DeleteBoundaryDescriptor function, base.deleteboundarydescriptor, namespaceapi/DeleteBoundaryDescriptor, winbase/DeleteBoundaryDescriptor
 req.header: namespaceapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

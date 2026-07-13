@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPage interface
 
-
 ## -description
 
 Provides the root node of a tree of objects that hold the contents of  a single page. 
@@ -56,10 +55,7 @@ The <b>IXpsOMPage</b> interface corresponds to the <b>FixedPage</b> element in X
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPage</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMPage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXpsOMPage</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMPage</b> also has these types of members:
 
 ## -remarks
 
@@ -142,4 +138,4 @@ For information about using this interface in a program, see <a href="/previous-
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

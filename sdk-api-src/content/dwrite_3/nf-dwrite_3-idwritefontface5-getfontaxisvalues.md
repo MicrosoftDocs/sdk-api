@@ -4,14 +4,14 @@ title: IDWriteFontFace5::GetFontAxisValues
 description: Retrieves the list of axis values used by the font.
 helpviewer_keywords: ["IDWriteFontFace5 interface [Direct Write]","GetFontAxisValues method","IDWriteFontFace5.GetFontAxisValues","IDWriteFontFace5::GetFontAxisValues","GetFontAxisValues","GetFontAxisValues method [Direct Write]","GetFontAxisValues method [Direct Write]","IDWriteFontFace5 interface","directwrite.idwritefontface5_getfontaxisvalues","dwrite_3/IDWriteFontFace5::GetFontAxisValues"]
 tech.root: DirectWrite
-ms.date: 09/10/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontAxisValues method, IDWriteFontFace5.GetFontAxisValues, IDWriteFontFace5::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontaxisvalues, dwrite_3/IDWriteFontFace5::GetFontAxisValues
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

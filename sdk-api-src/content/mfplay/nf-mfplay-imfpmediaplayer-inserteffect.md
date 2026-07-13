@@ -4,7 +4,8 @@ title: IMFPMediaPlayer::InsertEffect (mfplay.h)
 description: Applies an audio or video effect to playback.
 helpviewer_keywords: ["FALSE","IMFPMediaPlayer interface [Media Foundation]","InsertEffect method","IMFPMediaPlayer.InsertEffect","IMFPMediaPlayer::InsertEffect","InsertEffect","InsertEffect method [Media Foundation]","InsertEffect method [Media Foundation]","IMFPMediaPlayer interface","TRUE","mf.imfpmediaplayer_inserteffect","mfplay/IMFPMediaPlayer::InsertEffect"]
 old-location: mf\imfpmediaplayer_inserteffect.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Applies an audio or video effect to playback.
@@ -78,7 +78,7 @@ Specifies whether the effect is optional.
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -88,7 +88,7 @@ The effect is optional. If the MFPlay player object cannot add the effect, it ig
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDINDEX</b></b></dt>
+<dt><b>MF_E_INVALIDINDEX</b></dt>
 </dl>
 </td>
 <td width="60%">

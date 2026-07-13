@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.GetDevice
 title: ID3D10DeviceChild::GetDevice (d3d10.h)
-description: Get a pointer to the device that created this interface.
+description: Get a pointer to the device that created this interface. (ID3D10DeviceChild.GetDevice)
 helpviewer_keywords: ["GetDevice","GetDevice method [Direct3D 10]","GetDevice method [Direct3D 10]","ID3D10DeviceChild interface","ID3D10DeviceChild interface [Direct3D 10]","GetDevice method","ID3D10DeviceChild.GetDevice","ID3D10DeviceChild::GetDevice","a6448c63-5b6c-87fa-33e0-73a8850ca573","d3d10/ID3D10DeviceChild::GetDevice","direct3d10.id3d10devicechild_getdevice"]
 old-location: direct3d10\id3d10devicechild_getdevice.htm
 tech.root: direct3d10

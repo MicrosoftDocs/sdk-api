@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-security-winscard-l1-1-1.dll
  - Winscard.dll
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
@@ -53,7 +54,7 @@ api_name:
 
 The <b>SCardAccessStartedEvent</b> function returns an event handle when an event signals that the smart card resource manager is started. The event-object handle can be specified in a call to one of the wait functions.
 
-## -parameters
+
 
 ## -returns
 

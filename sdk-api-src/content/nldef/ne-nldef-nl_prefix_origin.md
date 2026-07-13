@@ -1,5 +1,5 @@
 ---
-UID: NE:nldef.__unnamed_enum_0
+UID: NE:nldef.NL_PREFIX_ORIGIN
 title: NL_PREFIX_ORIGIN (nldef.h)
 description: The IP_PREFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address prefix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
 helpviewer_keywords: ["IP_PREFIX_ORIGIN","IP_PREFIX_ORIGIN enumeration [IP Helper]","IpPrefixOriginDhcp","IpPrefixOriginManual","IpPrefixOriginOther","IpPrefixOriginRouterAdvertisement","IpPrefixOriginUnchanged","IpPrefixOriginWellKnown","NL_PREFIX_ORIGIN","iphlp.ip_prefix_origin","iptypes/IP_PREFIX_ORIGIN","iptypes/IpPrefixOriginDhcp","iptypes/IpPrefixOriginManual","iptypes/IpPrefixOriginOther","iptypes/IpPrefixOriginRouterAdvertisement","iptypes/IpPrefixOriginUnchanged","iptypes/IpPrefixOriginWellKnown","nldef/IP_PREFIX_ORIGIN","nldef/IpPrefixOriginDhcp","nldef/IpPrefixOriginManual","nldef/IpPrefixOriginOther","nldef/IpPrefixOriginRouterAdvertisement","nldef/IpPrefixOriginUnchanged","nldef/IpPrefixOriginWellKnown"]
@@ -9,7 +9,7 @@ ms.assetid: fd7e7bbb-8596-4a72-ba63-d898f0048a11
 ms.date: 12/05/2018
 ms.keywords: IP_PREFIX_ORIGIN, IP_PREFIX_ORIGIN enumeration [IP Helper], IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, NL_PREFIX_ORIGIN, iphlp.ip_prefix_origin, iptypes/IP_PREFIX_ORIGIN, iptypes/IpPrefixOriginDhcp, iptypes/IpPrefixOriginManual, iptypes/IpPrefixOriginOther, iptypes/IpPrefixOriginRouterAdvertisement, iptypes/IpPrefixOriginUnchanged, iptypes/IpPrefixOriginWellKnown, nldef/IP_PREFIX_ORIGIN, nldef/IpPrefixOriginDhcp, nldef/IpPrefixOriginManual, nldef/IpPrefixOriginOther, nldef/IpPrefixOriginRouterAdvertisement, nldef/IpPrefixOriginUnchanged, nldef/IpPrefixOriginWellKnown
 req.header: nldef.h
-req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
+req.include-header: Iphlpapi.h on Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -55,7 +55,7 @@ The <b>IP_PREFIX_ORIGIN</b> enumeration specifies the origin of an IPv4 or IPv6 
 
 ## -enum-fields
 
-### -field IpPrefixOriginOther
+### -field IpPrefixOriginOther:0
 
 The IP prefix was provided by a source other than those defined in this enumeration.
 
@@ -75,7 +75,7 @@ The IP address prefix was provided by DHCP settings.
 
 The IP address prefix was obtained through a router advertisement (RA).
 
-### -field IpPrefixOriginUnchanged
+### -field IpPrefixOriginUnchanged:1 << 4
 
 The IP address prefix should be unchanged. This value is used when setting the properties for a unicast IP interface when the value for the IP prefix origin should be left unchanged.
 
@@ -93,3 +93,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a>
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll.createFilePKCS10
 title: ICEnroll::createFilePKCS10 (xenroll.h)
-description: Creates a base64-encoded PKCS
+description: Creates a base64-encoded PKCS (ICEnroll.createFilePKCS10)
 helpviewer_keywords: ["CEnroll object [Security]","createFilePKCS10 method","ICEnroll interface [Security]","createFilePKCS10 method","ICEnroll.createFilePKCS10","ICEnroll2 interface [Security]","createFilePKCS10 method","ICEnroll2::createFilePKCS10","ICEnroll3 interface [Security]","createFilePKCS10 method","ICEnroll3::createFilePKCS10","ICEnroll4 interface [Security]","createFilePKCS10 method","ICEnroll4::createFilePKCS10","ICEnroll::createFilePKCS10","createFilePKCS10","createFilePKCS10 method [Security]","createFilePKCS10 method [Security]","CEnroll object","createFilePKCS10 method [Security]","ICEnroll interface","createFilePKCS10 method [Security]","ICEnroll2 interface","createFilePKCS10 method [Security]","ICEnroll3 interface","createFilePKCS10 method [Security]","ICEnroll4 interface","security.icenroll4_createfilepkcs10","xenroll/ICEnroll2::createFilePKCS10","xenroll/ICEnroll3::createFilePKCS10","xenroll/ICEnroll4::createFilePKCS10","xenroll/ICEnroll::createFilePKCS10"]
 old-location: security\icenroll4_createfilepkcs10.htm
 tech.root: security

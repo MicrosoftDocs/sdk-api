@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DrawIndexed
 title: ID3D11DeviceContext::DrawIndexed (d3d11.h)
-description: Draw indexed, non-instanced primitives.
+description: Draw indexed, non-instanced primitives. (ID3D11DeviceContext.DrawIndexed)
 helpviewer_keywords: ["45129747-420c-37ba-aae0-05275af46932","DrawIndexed","DrawIndexed method [Direct3D 11]","DrawIndexed method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DrawIndexed method","ID3D11DeviceContext.DrawIndexed","ID3D11DeviceContext::DrawIndexed","d3d11/ID3D11DeviceContext::DrawIndexed","direct3d11.id3d11devicecontext_drawindexed"]
 old-location: direct3d11\id3d11devicecontext_drawindexed.htm
 tech.root: direct3d11

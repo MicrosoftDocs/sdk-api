@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_controls 
 old-location: wmp\iwmpcore_get_controls.htm
 tech.root: WMP
 ms.assetid: 54d013f1-d71b-4b6a-90b4-0226022a2a0f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCore interface [Windows Media Player],get_controls method, IWMPCore.get_controls, IWMPCore::get_controls, IWMPCoreget_controls, get_controls, get_controls method [Windows Media Player], get_controls method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_controls, wmp/IWMPCore::get_controls
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_controls</b> method retrieves a pointer to an <b>IWMPControls</b> interface.
 

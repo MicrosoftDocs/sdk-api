@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-tsf-msctf-l1-1-4.dll
+ - ext-ms-win-tsf-msctf-l1-1-3.dll
+ - ext-ms-win-tsf-msctf-l1-1-2.dll
  - msctf.dll
  - Ext-MS-Win-Tsf-MSctf-l1-1-0.dll
  - Ext-MS-Win-Tsf-MSctf-L1-1-1.dll

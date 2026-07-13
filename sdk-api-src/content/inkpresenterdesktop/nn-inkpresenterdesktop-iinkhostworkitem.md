@@ -58,7 +58,7 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
+<a href="/windows/win32/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
 
 
 

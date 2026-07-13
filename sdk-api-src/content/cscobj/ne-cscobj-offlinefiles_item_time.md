@@ -56,7 +56,7 @@ Specifies which time value associated with the cache item is to be used.
 
 ## -enum-fields
 
-### -field OFFLINEFILES_ITEM_TIME_CREATION
+### -field OFFLINEFILES_ITEM_TIME_CREATION:0
 
 Use the item's creation time.
 

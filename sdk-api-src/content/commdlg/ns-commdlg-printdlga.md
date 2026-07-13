@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagPDA
 title: PRINTDLGA (commdlg.h)
-description: Contains information that the PrintDlg function uses to initialize the Print Dialog Box. After the user closes the dialog box, the system uses this structure to return information about the user's selections.
+description: Contains information that the PrintDlg function uses to initialize the Print Dialog Box. After the user closes the dialog box, the system uses this structure to return information about the user's selections. (ANSI)
 helpviewer_keywords: ["*LPPRINTDLGA","LPPRINTDLG","LPPRINTDLG structure pointer [Dialog Boxes]","PD_ALLPAGES","PD_COLLATE","PD_DISABLEPRINTTOFILE","PD_ENABLEPRINTHOOK","PD_ENABLEPRINTTEMPLATE","PD_ENABLEPRINTTEMPLATEHANDLE","PD_ENABLESETUPHOOK","PD_ENABLESETUPTEMPLATE","PD_ENABLESETUPTEMPLATEHANDLE","PD_HIDEPRINTTOFILE","PD_NONETWORKBUTTON","PD_NOPAGENUMS","PD_NOSELECTION","PD_NOWARNING","PD_PAGENUMS","PD_PRINTSETUP","PD_PRINTTOFILE","PD_RETURNDC","PD_RETURNDEFAULT","PD_RETURNIC","PD_SELECTION","PD_SHOWHELP","PD_USEDEVMODECOPIES","PD_USEDEVMODECOPIESANDCOLLATE","PRINTDLG","PRINTDLG structure [Dialog Boxes]","PRINTDLGA","PRINTDLGW","_win32_PRINTDLG_str","_win32_printdlg_str_cpp","commdlg/LPPRINTDLG","commdlg/PRINTDLG","commdlg/PRINTDLGA","commdlg/PRINTDLGW","dlgbox.printdlg_str","tagPDA","tagPDW","winui._win32_printdlg_str"]
 old-location: dlgbox\printdlg_str.htm
 tech.root: dlgbox
@@ -389,7 +389,7 @@ If this flag is set and the printer driver does not support multiple copies, the
 The <b>dmCopies</b> and <b>dmCollate</b> members of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure contain the copies and collate information used by the printer driver. If this flag is set and the printer driver supports multiple copies, the <b>dmCopies</b> member indicates the number of copies requested by the user. If this flag is set and the printer driver supports collation, the <b>dmCollate</b> member of the <b>DEVMODE</b> structure indicates whether the user wants collation. If this flag is not set, the <b>dmCopies</b> member always returns 1, and the <b>dmCollate</b> member is always zero.
 
 <b>Known issue on Windows 2000/XP/2003:</b> 
-If this flag is not set before calling <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a>, <b>PrintDlg</b> might swap <b>nCopies</b> and <b>dmCopies</b> values when it returns. The workaround for this issue is use <b>dmCopies</b> if its value is larger than 1, else, use <b>nCopies</b>, for you to to get the actual number of copies to be printed when <b>PrintDlg</b> returns.
+If this flag is not set before calling <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a>, <b>PrintDlg</b> might swap <b>nCopies</b> and <b>dmCopies</b> values when it returns. The workaround for this issue is use <b>dmCopies</b> if its value is larger than 1, else, use <b>nCopies</b>, for you to get the actual number of copies to be printed when <b>PrintDlg</b> returns.
 
 </td>
 </tr>
@@ -501,7 +501,7 @@ If the <b>PD_RETURNDEFAULT</b> flag is set and both <b>hDevMode</b> and <b>hDevN
 
 
 > [!NOTE]
-> The commdlg.h header defines PRINTDLG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines PRINTDLG as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

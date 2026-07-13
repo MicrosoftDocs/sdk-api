@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetTabStops","Edit_SetTabStops macro [Windows Contro
 old-location: controls\Edit_SetTabStops.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_settabstops.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_SetTabStops, Edit_SetTabStops macro [Windows Controls], _win32_Edit_SetTabStops, _win32_Edit_SetTabStops_cpp, controls.Edit_SetTabStops, controls._win32_Edit_SetTabStops, windowsx/Edit_SetTabStops
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # Edit_SetTabStops macro
+
+## -syntax
+
+```cpp
+void Edit_SetTabStops(
+   HWND hwndCtl,
+   int  cTabs,
+   int  *lpTabs
+);
+```
 
 
 ## -description

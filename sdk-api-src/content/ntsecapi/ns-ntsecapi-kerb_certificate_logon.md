@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_LOGON
 title: KERB_CERTIFICATE_LOGON (ntsecapi.h)
-description: Contains information about a smart card logon session.
+description: Contains information about a smart card logon session. (KERB_CERTIFICATE_LOGON)
 helpviewer_keywords: ["*PKERB_CERTIFICATE_LOGON","KERB_CERTIFICATE_LOGON","KERB_CERTIFICATE_LOGON structure [Security]","KERB_CERTIFICATE_LOGON_FLAG_CHECK_DUPLICATES","KERB_CERTIFICATE_LOGON_FLAG_USE_CERTIFICATE_INFO","KerbCertificateLogon","KerbCertificateUnlockLogon","PKERB_CERTIFICATE_LOGON","PKERB_CERTIFICATE_LOGON structure pointer [Security]","ntsecapi/KERB_CERTIFICATE_LOGON","ntsecapi/PKERB_CERTIFICATE_LOGON","security.kerb_certificate_logon"]
 old-location: security\kerb_certificate_logon.htm
 tech.root: security

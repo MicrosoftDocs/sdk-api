@@ -49,134 +49,41 @@ api_name:
 
 # GetPropertyInteractionContext function
 
-
 ## -description
 
-Gets <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object properties.
+Gets [Interaction Context](../_input_intcontext/index.md) object properties.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Handle to the [Interaction Context](../_input_intcontext/index.md) object.
 
 ### -param contextProperty [in]
 
-One of the constants identified by <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY</a>.
+One of the constants identified by [INTERACTION_CONTEXT_PROPERTY enumeration](ne-interactioncontext-interaction_context_property.md).
 
 ### -param value [out]
 
 The value of the property.
 
-Valid values for <i>contextProperty</i> are:
+Valid values for *contextProperty* are:
 
-<table>
-<tr>
-<th>
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS</a>
-</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_HIMETRIC"></a><a id="interaction_context_property_measurement_units_himetric"></a><dl>
-<dt><b>INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_HIMETRIC</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Measurement units are HIMETRIC  units (0.01 mm).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_SCREEN"></a><a id="interaction_context_property_measurement_units_screen"></a><dl>
-<dt><b>INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_SCREEN</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Measurement units are screen pixels. This is the default value.
-
-</td>
-</tr>
-</table>
- 
-
-<table>
-<tr>
-<th>
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK</a>
-</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_OFF"></a><a id="interaction_context_property_ui_feedback_off"></a><dl>
-<dt><b>INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_OFF</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Visual feedback for user interactions is disabled (the caller is responsible for displaying visual feedback). For more info, see <a href="/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal">Input Feedback Configuration</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_ON"></a><a id="interaction_context_property_ui_feedback_on"></a><dl>
-<dt><b>INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_ON</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Visual feedback for user interactions is enabled. This is the default value. For more info, see <a href="/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal">Input Feedback Configuration</a>.
-
-</td>
-</tr>
-</table>
- 
-
-<table>
-<tr>
-<th>INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_OFF"></a><a id="interaction_context_property_filter_pointers_off"></a><dl>
-<dt><b>INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_OFF</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Pointer filtering is disabled (all pointer input data is processed).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_ON"></a><a id="interaction_context_property_filter_pointers_on"></a><dl>
-<dt><b>INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_ON</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Pointer filtering is enabled (only pointers specified through <a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a> are processed). This is the default value. 
-
-</td>
-</tr>
-</table>
+|||
+|--- |--- |
+|**INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_HIMETRIC**<br>0|Measurement units are HIMETRIC  units (0.01 mm).|
+|**INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_SCREEN**<br>1|Measurement units are screen pixels. This is the default value.|
+|**INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_OFF**<br>0|Visual feedback for user interactions is disabled (the caller is responsible for displaying visual feedback). For more info, see [GetWindowFeedbackSetting function](../winuser/nf-winuser-getwindowfeedbacksetting.md) and [SetWindowFeedbackSetting function](../winuser/nf-winuser-setwindowfeedbacksetting.md)|
+|**INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_ON**<br>1|Visual feedback for user interactions is enabled. This is the default value. For more info, see [GetWindowFeedbackSetting function](../winuser/nf-winuser-getwindowfeedbacksetting.md) and [SetWindowFeedbackSetting function](../winuser/nf-winuser-setwindowfeedbacksetting.md).|
+|**INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_OFF**<br>0|Pointer filtering is disabled (all pointer input data is processed).|
+|**INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_ON**<br>1|Pointer filtering is enabled (only pointers specified through the [AddPointerInteractionContext function](nf-interactioncontext-addpointerinteractioncontext.md) are processed). This is the default value. |
 
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>
+[SetPropertyInteractionContext function](nf-interactioncontext-setpropertyinteractioncontext.md)

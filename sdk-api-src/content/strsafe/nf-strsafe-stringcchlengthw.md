@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchLengthW
 title: StringCchLengthW function (strsafe.h)
-description: Determines whether a string exceeds the specified length, in characters.
-helpviewer_keywords: ["StringCchLength","StringCchLength function [Menus and Other Resources]","StringCchLengthA","StringCchLengthW","UnalignedStringCchLength","_shell_StringCchLength","_shell_stringcchlength_cpp","menurc.stringcchlength","strsafe/StringCchLength","strsafe/StringCchLengthA","strsafe/StringCchLengthW","winui._shell_stringcchlength"]
+description: Determines whether a string exceeds the specified length, in characters. (Unicode)
+helpviewer_keywords: ["StringCchLength", "StringCchLength function [Menus and Other Resources]", "StringCchLengthW", "UnalignedStringCchLength", "_shell_StringCchLength", "_shell_stringcchlength_cpp", "menurc.stringcchlength", "strsafe/StringCchLength", "strsafe/StringCchLengthW", "winui._shell_stringcchlength"]
 old-location: menurc\stringcchlength.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchlength.htm
@@ -155,7 +155,7 @@ Compared to  the functions it replaces, <b>StringCchLength</b> is an additional 
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCchLength as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCchLength as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

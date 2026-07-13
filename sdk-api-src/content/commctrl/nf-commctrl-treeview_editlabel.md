@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_EditLabel","TreeView_EditLabel macro [Windows Co
 old-location: controls\TreeView_EditLabel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_editlabel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_EditLabel, TreeView_EditLabel macro [Windows Controls], _win32_TreeView_EditLabel, _win32_TreeView_EditLabel_cpp, commctrl/TreeView_EditLabel, controls.TreeView_EditLabel, controls._win32_TreeView_EditLabel
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_EditLabel macro
+
+## -syntax
+
+```cpp
+HWND TreeView_EditLabel(
+   HWND      hwnd,
+   HTREEITEM hitem
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the edit control used to edit the item text if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

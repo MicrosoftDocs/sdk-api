@@ -4,7 +4,7 @@ title: IDWriteFontSet1::GetFontAxisRanges
 description: Retrieves all axis ranges in the font set; the union of all contained items.
 helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFontAxisRanges method","IDWriteFontSet1.GetFontAxisRanges","IDWriteFontSet1::GetFontAxisRanges","GetFontAxisRanges","GetFontAxisRanges method [Direct Write]","GetFontAxisRanges method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfontaxisranges","dwrite_3/IDWriteFontSet1::GetFontAxisRanges"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFontAxisRanges method, IDWriteFontSet1.GetFontAxisRanges, IDWriteFontSet1::GetFontAxisRanges, GetFontAxisRanges, GetFontAxisRanges method [Direct Write], GetFontAxisRanges method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfontaxisranges, dwrite_3/IDWriteFontSet1::GetFontAxisRanges
 f1_keywords:
 - dwrite_3/IDWriteFontSet1.GetFontAxisRanges
@@ -14,8 +14,8 @@ req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

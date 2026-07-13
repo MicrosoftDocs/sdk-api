@@ -54,15 +54,15 @@ Specifies how units in Direct2D will be interpreted.
 
 ## -enum-fields
 
-### -field D2D1_UNIT_MODE_DIPS
+### -field D2D1_UNIT_MODE_DIPS:0
 
 Units will be interpreted as device-independent pixels (1/96").
 
-### -field D2D1_UNIT_MODE_PIXELS
+### -field D2D1_UNIT_MODE_PIXELS:1
 
 Units will be interpreted as pixels.
 
-### -field D2D1_UNIT_MODE_FORCE_DWORD
+### -field D2D1_UNIT_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._ULARGE_INTEGER~r1
 title: ULARGE_INTEGER
-ms.date: 01/30/2019
+description: The ULARGE_INTEGER structure represents a 64-bit unsigned integer value. (ULARGE_INTEGER union (winnt.h))
+ms.date: 08/03/2022
 ms.keywords: _ULARGE_INTEGER, ULARGE_INTEGER
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: ULARGE_INTEGER
 req.umdf-ver: 

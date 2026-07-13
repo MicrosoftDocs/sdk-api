@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MouseUp met
 old-location: wmp\iwmpevents_iwmpevents__mouseup.htm
 tech.root: WMP
 ms.assetid: 314d633f-e2f4-43ff-951f-1403c1ccd571
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEvents interface [Windows Media Player],MouseUp method, IWMPEvents.MouseUp, IWMPEvents::MouseUp, IWMPEventsMouseUp, MouseUp, MouseUp method [Windows Media Player], MouseUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mouseup, wmp/IWMPEvents::MouseUp
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>MouseUp</b> event occurs when a mouse button is released.
 

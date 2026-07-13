@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetFeatureUsageW
 title: MsiGetFeatureUsageW function (msi.h)
-description: The MsiGetFeatureUsage function returns the usage metrics for a product feature.
-helpviewer_keywords: ["MsiGetFeatureUsage","MsiGetFeatureUsage function","MsiGetFeatureUsageA","MsiGetFeatureUsageW","_msi_msigetfeatureusage","msi/MsiGetFeatureUsage","msi/MsiGetFeatureUsageA","msi/MsiGetFeatureUsageW","setup.msigetfeatureusage"]
+description: The MsiGetFeatureUsage function returns the usage metrics for a product feature. (Unicode)
+helpviewer_keywords: ["MsiGetFeatureUsage", "MsiGetFeatureUsage function", "MsiGetFeatureUsageW", "_msi_msigetfeatureusage", "msi/MsiGetFeatureUsage", "msi/MsiGetFeatureUsageW", "setup.msigetfeatureusage"]
 old-location: setup\msigetfeatureusage.htm
 tech.root: setup
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
@@ -167,4 +167,4 @@ The function completed successfully.
 ## -remarks
 
 > [!NOTE]
-> The msi.h header defines MsiGetFeatureUsage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetFeatureUsage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

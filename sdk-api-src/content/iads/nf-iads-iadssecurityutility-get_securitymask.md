@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsSecurityUtility.get_SecurityMask
 title: IADsSecurityUtility::get_SecurityMask (iads.h)
-description: Determines which elements of the security descriptor to retrieve or set.
+description: Determines which elements of the security descriptor to retrieve or set. (Get)
 helpviewer_keywords: ["IADsSecurityUtility interface [ADSI]","SecurityMask property","IADsSecurityUtility.SecurityMask","IADsSecurityUtility.get_SecurityMask","IADsSecurityUtility::SecurityMask","IADsSecurityUtility::get_SecurityMask","IADsSecurityUtility::put_SecurityMask","SecurityMask property [ADSI]","SecurityMask property [ADSI]","IADsSecurityUtility interface","adsi.iadssecurityutility_securitymask","get_SecurityMask","iads/IADsSecurityUtility::SecurityMask","iads/IADsSecurityUtility::get_SecurityMask","iads/IADsSecurityUtility::put_SecurityMask"]
 old-location: adsi\iadssecurityutility_securitymask.htm
 tech.root: adsi
@@ -49,27 +49,28 @@ api_name:
 
 # IADsSecurityUtility::get_SecurityMask
 
-
 ## -description
 
-The <b>SecurityMask</b> property determines which elements of the security descriptor to retrieve or set. This property must be set prior to calling <a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a> or <a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>.
+The **SecurityMask** property determines which elements of the security descriptor to retrieve or set. This property must be set prior to calling [IADsSecurityUtility.GetSecurityDescriptor](/windows/win32/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor) or [IADsSecurityUtility.SetSecurityDescriptor](/windows/win32/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor).
 
 This property is read/write.
 
 ## -parameters
 
+### -param retval
+
+`[out]` A pointer to a variable that receives the security mask.
+
+## -returns
+
+An **HRESULT** value that indicates the success or failure of the call.
+
 ## -see-also
 
-<a href="/windows/win32/api/iads/ne-iads-ads_security_info_enum">ADS_SECURITY_INFO_ENUM</a>
+[ADS_SECURITY_INFO_ENUM](/windows/win32/api/iads/ne-iads-ads_security_info_enum)
 
+[IADsSecurityUtility](/windows/win32/api/iads/nn-iads-iadssecurityutility)
 
+[IADsSecurityUtility.GetSecurityDescriptor](/windows/win32/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor)
 
-<a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
-
-
-
-<a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a>
-
-
-
-<a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>
+[IADsSecurityUtility.SetSecurityDescriptor](/windows/win32/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor)

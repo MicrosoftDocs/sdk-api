@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointX(float)
 title: IDCompositionBrightnessEffect::SetBlackPointX (dcomp.h)
-description: Sets the x value of the black point.
+description: Sets the x value of the black point. (overload 2/2)
 helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetBlackPointX method","IDCompositionBrightnessEffect.SetBlackPointX","IDCompositionBrightnessEffect::SetBlackPointX","IDCompositionBrightnessEffect::SetBlackPointX(float)","SetBlackPointX","SetBlackPointX method [DirectComposition]","SetBlackPointX method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetBlackPointX","directcomp.idcompositionbrightnesseffect_setblackpointx"]
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointx.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ The x value of the black point.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

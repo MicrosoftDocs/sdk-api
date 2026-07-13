@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymFunctionTableAccess64
 title: SymFunctionTableAccess64 function (dbghelp.h)
-description: Retrieves the function table entry for the specified address.
+description: Retrieves the function table entry for the specified address. (SymFunctionTableAccess64)
 helpviewer_keywords: ["SymFunctionTableAccess","SymFunctionTableAccess function","SymFunctionTableAccess64","SymFunctionTableAccess64 function","_win32_symfunctiontableaccess64","base.symfunctiontableaccess64","dbghelp/SymFunctionTableAccess","dbghelp/SymFunctionTableAccess64"]
 old-location: base\symfunctiontableaccess64.htm
 tech.root: Debug
@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Dbghelp.dll
+ - imagehlp.dll
 api_name:
  - SymFunctionTableAccess64
  - SymFunctionTableAccess

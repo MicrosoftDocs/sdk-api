@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_create_page_controlW
 title: ldap_create_page_controlW function (winldap.h)
-description: Use the ldap_create_page_control function to create a basic control for paging results. Support for controls is available effective with LDAP 3, but whether the page control is supported or not is dependent on the particular server.
-helpviewer_keywords: ["_ldap_ldap_create_page_control","ldap.ldap__create__page__control","ldap.ldap_create_page_control","ldap_create_page_control","ldap_create_page_control function [LDAP]","ldap_create_page_controlA","ldap_create_page_controlW","winldap/ldap_create_page_control","winldap/ldap_create_page_controlA","winldap/ldap_create_page_controlW"]
+description: The ldap_create_page_controlW (Unicode) function (winldap.h) creates a basic control for paging results. 
+helpviewer_keywords: ["_ldap_ldap_create_page_control", "ldap.ldap__create__page__control", "ldap.ldap_create_page_control", "ldap_create_page_control", "ldap_create_page_control function [LDAP]", "ldap_create_page_controlW", "winldap/ldap_create_page_control", "winldap/ldap_create_page_controlW"]
 old-location: ldap\ldap_create_page_control.htm
 tech.root: ldap
 ms.assetid: b3b1f3bd-7eb3-4f76-921c-386562dae2e2
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _ldap_ldap_create_page_control, ldap.ldap__create__page__control, ldap.ldap_create_page_control, ldap_create_page_control, ldap_create_page_control function [LDAP], ldap_create_page_controlA, ldap_create_page_controlW, winldap/ldap_create_page_control, winldap/ldap_create_page_controlA, winldap/ldap_create_page_controlW
 req.header: winldap.h
 req.include-header: 
@@ -102,7 +102,7 @@ Call
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_create_page_control as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_create_page_control as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

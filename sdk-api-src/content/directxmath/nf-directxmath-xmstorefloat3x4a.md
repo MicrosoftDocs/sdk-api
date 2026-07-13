@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMStoreFloat3x4A
 title: XMStoreFloat3x4A
 ms.date: 04/23/2020
-description: Stores an [**XMMATRIX**](./ns-directxmath-xmmatrix.md) in an [**XMFLOAT3X4A**](./ns-directxmath-xmfloat3x4a.md).
+description: Stores an [**XMMATRIX**](../directxmath/ns-directxmath-xmmatrix.md) in an [**XMFLOAT3X4A**](../directxmath/ns-directxmath-xmfloat3x4a.md).
 tech.root: dxmath
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

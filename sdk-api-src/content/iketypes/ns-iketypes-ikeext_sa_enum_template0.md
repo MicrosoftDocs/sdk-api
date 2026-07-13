@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>IKEEXT_SA_ENUM_TEMPLATE0</b> structureis an enumeration template used for enumerating IKE/AuthIP security associations (SAs).
+The <b>IKEEXT_SA_ENUM_TEMPLATE0</b> structure is an enumeration template used for enumerating IKE/AuthIP security associations (SAs).
 
 ## -struct-fields
 

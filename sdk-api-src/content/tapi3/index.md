@@ -4,7 +4,8 @@ title: Tapi3.h header
 ms.assetid: 2a803490-7d07-3381-9db6-225fc7f8dfbb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: tapi3
 f1_keywords:
  - tapi3

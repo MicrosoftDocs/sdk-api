@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_10
+UID: NS:processsnapshot.PSS_HANDLE_ENTRY
 title: PSS_HANDLE_ENTRY (processsnapshot.h)
 description: Holds information about a handle returned by PssWalkSnapshot.
 helpviewer_keywords: ["PSS_HANDLE_ENTRY","PSS_HANDLE_ENTRY structure","proc_snap.pss_handle_entry","processsnapshot/PSS_HANDLE_ENTRY"]
@@ -363,3 +363,4 @@ Reserved for use by the operating system.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

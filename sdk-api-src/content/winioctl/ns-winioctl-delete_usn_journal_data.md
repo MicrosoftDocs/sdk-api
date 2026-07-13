@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_31
+UID: NS:winioctl.DELETE_USN_JOURNAL_DATA
 title: DELETE_USN_JOURNAL_DATA
 description: Contains information on the deletion of an update sequence number (USN) change journal using the FSCTL_DELETE_USN_JOURNAL control code.
 helpviewer_keywords: ["*PDELETE_USN_JOURNAL_DATA","DELETE_USN_JOURNAL_DATA","DELETE_USN_JOURNAL_DATA structure [Files]","PDELETE_USN_JOURNAL_DATA","PDELETE_USN_JOURNAL_DATA structure pointer [Files]","USN_DELETE_FLAG_DELETE","USN_DELETE_FLAG_NOTIFY","_win32_delete_usn_journal_data_str","base.delete_usn_journal_data_str","fs.delete_usn_journal_data_str","winioctl/DELETE_USN_JOURNAL_DATA","winioctl/PDELETE_USN_JOURNAL_DATA"]
@@ -125,3 +125,4 @@ For more information, see
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
+

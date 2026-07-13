@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSkinManager interface [Windows Media Player]","SetVis
 old-location: wmp\iwmpskinmanager_setvisualstyle.htm
 tech.root: WMP
 ms.assetid: 16d0020f-7650-4300-bd34-6f79ecca5175
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSkinManager interface [Windows Media Player],SetVisualStyle method, IWMPSkinManager.SetVisualStyle, IWMPSkinManager::SetVisualStyle, IWMPSkinManagerSetVisualStyle, SetVisualStyle, SetVisualStyle method [Windows Media Player], SetVisualStyle method [Windows Media Player],IWMPSkinManager interface, wmp.iwmpskinmanager_setvisualstyle, wmp/IWMPSkinManager::SetVisualStyle
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetVisualStyle</b> method specifies the path to a theme file in Windows XP to which Windows Media Player synchronizes the skin.
 

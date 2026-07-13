@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SetItemHeight","ListBox_SetItemHeight macro [Wind
 old-location: controls\ListBox_SetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemheight.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SetItemHeight, ListBox_SetItemHeight macro [Windows Controls], _win32_ListBox_SetItemHeight, _win32_ListBox_SetItemHeight_cpp, controls.ListBox_SetItemHeight, controls._win32_ListBox_SetItemHeight, windowsx/ListBox_SetItemHeight
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_SetItemHeight macro
+
+## -syntax
+
+```cpp
+int ListBox_SetItemHeight(
+   HWND   hwndCtl,
+   int    index,
+   LPARAM cy
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the index or height is invalid, the return value is LB_ERR.
 
 
 ## -description

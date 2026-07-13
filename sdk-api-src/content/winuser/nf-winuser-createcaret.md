@@ -69,8 +69,10 @@ A handle to the window that owns the caret.
 Type: <b>HBITMAP</b>
 
 A handle to the bitmap that defines the caret shape. If this parameter is <b>NULL</b>, the caret is solid. If this parameter is <code>(HBITMAP) 1</code>, the caret is gray. If this parameter is a bitmap handle, the caret is the specified bitmap. The bitmap handle must have been created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>, or <a href="/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a> function.
+The caret is drawn to the screen via the XOR operation.
 
 If <i>hBitmap</i> is a bitmap handle, <b>CreateCaret</b> ignores the <i>nWidth</i> and <i>nHeight</i> parameters; the bitmap defines its own width and height.
+The application should not delete the <i>hBitmap</i> until the caret is destroyed or replaced by another caret.
 
 ### -param nWidth [in]
 

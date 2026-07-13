@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiOpenClassRegKeyExA
 title: SetupDiOpenClassRegKeyExA function (setupapi.h)
-description: The SetupDiOpenClassRegKeyEx function opens the device setup class registry key, the device interface class registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
-helpviewer_keywords: ["SetupDiOpenClassRegKeyEx","SetupDiOpenClassRegKeyEx function [Device and Driver Installation]","SetupDiOpenClassRegKeyExA","SetupDiOpenClassRegKeyExW","devinst.setupdiopenclassregkeyex","di-rtns_498e4805-8ce4-41cb-8d77-552dbf342f60.xml","setupapi/SetupDiOpenClassRegKeyEx"]
+description: The SetupDiOpenClassRegKeyEx function opens the device setup class registry key, the device interface class registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer. (ANSI)
+helpviewer_keywords: ["SetupDiOpenClassRegKeyExA", "di-rtns_498e4805-8ce4-41cb-8d77-552dbf342f60.xml"]
 old-location: devinst\setupdiopenclassregkeyex.htm
 tech.root: devinst
 ms.assetid: c931f906-8237-4203-b9b6-4dd54a93ca8b
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiOpenClassRegKeyEx, SetupDiOpenClassRegKeyEx function [Device and Driver Installation], SetupDiOpenClassRegKeyExA, SetupDiOpenClassRegKeyExW, devinst.setupdiopenclassregkeyex, di-rtns_498e4805-8ce4-41cb-8d77-552dbf342f60.xml, setupapi/SetupDiOpenClassRegKeyEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:
@@ -51,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiOpenClassRegKeyEx</b> function opens the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> registry key, the <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
+The <b>SetupDiOpenClassRegKeyEx</b> function opens the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> registry key, the <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
 
 ## -parameters
 
@@ -85,6 +86,9 @@ Open an interface class key. If <i>ClassGuid</i> is <b>NULL</b>, open the root k
 
 Optionally points to a string that contains the name of a remote computer on which to open the specified key.
 
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
+
 ### -param Reserved
 
 Reserved. Must be <b>NULL</b>.
@@ -108,7 +112,7 @@ Callers of this function must close the handle returned from this function by ca
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiOpenClassRegKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiOpenClassRegKeyEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

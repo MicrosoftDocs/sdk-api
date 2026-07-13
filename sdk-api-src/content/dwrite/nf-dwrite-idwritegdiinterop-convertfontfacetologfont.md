@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.ConvertFontFaceToLOGFONT
 title: IDWriteGdiInterop::ConvertFontFaceToLOGFONT (dwrite.h)
-description: Initializes a LOGFONT structure based on the GDI-compatible properties of the specified font.
+description: Initializes a LOGFONT structure based on the GDI-compatible properties of the specified font. (IDWriteGdiInterop.ConvertFontFaceToLOGFONT)
 helpviewer_keywords: ["ConvertFontFaceToLOGFONT","ConvertFontFaceToLOGFONT method [Direct Write]","ConvertFontFaceToLOGFONT method [Direct Write]","IDWriteGdiInterop interface","IDWriteGdiInterop interface [Direct Write]","ConvertFontFaceToLOGFONT method","IDWriteGdiInterop.ConvertFontFaceToLOGFONT","IDWriteGdiInterop::ConvertFontFaceToLOGFONT","directwrite.IDWriteGdiInterop_ConvertFontFaceToLOGFONT","dwrite/IDWriteGdiInterop::ConvertFontFaceToLOGFONT"]
 old-location: directwrite\IDWriteGdiInterop_ConvertFontFaceToLOGFONT.htm
 tech.root: DirectWrite
@@ -70,7 +70,7 @@ When this method returns, contains a pointer to a structure that receives a GDI-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

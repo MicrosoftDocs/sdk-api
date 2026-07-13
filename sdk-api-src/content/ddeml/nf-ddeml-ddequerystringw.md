@@ -1,8 +1,8 @@
 ---
 UID: NF:ddeml.DdeQueryStringW
 title: DdeQueryStringW function (ddeml.h)
-description: Copies text associated with a string handle into a buffer.
-helpviewer_keywords: ["DdeQueryString","DdeQueryString function [Data Exchange]","DdeQueryStringA","DdeQueryStringW","_win32_DdeQueryString","_win32_ddequerystring_cpp","dataxchg.ddequerystring","ddeml/DdeQueryString","ddeml/DdeQueryStringA","ddeml/DdeQueryStringW","winui._win32_ddequerystring"]
+description: Copies text associated with a string handle into a buffer. (Unicode)
+helpviewer_keywords: ["DdeQueryString", "DdeQueryString function [Data Exchange]", "DdeQueryStringW", "_win32_DdeQueryString", "_win32_ddequerystring_cpp", "dataxchg.ddequerystring", "ddeml/DdeQueryString", "ddeml/DdeQueryStringW", "winui._win32_ddequerystring"]
 old-location: dataxchg\ddequerystring.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequerystring.htm
@@ -114,7 +114,7 @@ If the
 
 
 > [!NOTE]
-> The ddeml.h header defines DdeQueryString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ddeml.h header defines DdeQueryString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

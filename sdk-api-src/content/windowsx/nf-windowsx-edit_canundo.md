@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_CanUndo","Edit_CanUndo macro [Windows Controls]","_w
 old-location: controls\Edit_CanUndo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_canundo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_CanUndo, Edit_CanUndo macro [Windows Controls], _win32_Edit_CanUndo, _win32_Edit_CanUndo_cpp, controls.Edit_CanUndo, controls._win32_Edit_CanUndo, windowsx/Edit_CanUndo
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_CanUndo macro
+
+## -syntax
+
+```cpp
+BOOL Edit_CanUndo(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if there are actions in the undo queue; otherwise <b>FALSE</b>.
 
 
 ## -description

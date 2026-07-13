@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Insert
 title: IUpdateCollection::Insert (wuapi.h)
-description: Inserts an item into the collection at the specified position.
+description: Inserts an item into the collection at the specified position. (IUpdateCollection.Insert)
 helpviewer_keywords: ["IUpdateCollection interface [Windows Update Agent]","Insert method","IUpdateCollection.Insert","IUpdateCollection::Insert","Insert","Insert method [Windows Update Agent]","Insert method [Windows Update Agent]","IUpdateCollection interface","wua.iupdatecollection_insert","wuapi/IUpdateCollection::Insert"]
 old-location: wua\iupdatecollection_insert.htm
 tech.root: wua

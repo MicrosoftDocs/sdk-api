@@ -1,12 +1,12 @@
 ---
 UID: NC:msacm.ACMFORMATENUMCBW
 title: ACMFORMATENUMCBW (msacm.h)
-description: The acmFormatEnumCallback function specifies a callback function used with the acmFormatEnum function. The acmFormatEnumCallback name is a placeholder for the application-defined function name.
+description: The ACMFORMATENUMCBW (Unicode) callback function specifies a callback function used with the acmFormatEnum function.
 helpviewer_keywords: ["ACMFORMATENUMCB","ACMFORMATENUMCB callback","ACMFORMATENUMCB callback function [Windows Multimedia]","ACMFORMATENUMCBA","ACMFORMATENUMCBW","_win32_acmFormatEnumCallback","acmFormatEnumCallback","msacm/ACMFORMATENUMCB","msacm/ACMFORMATENUMCBA","msacm/ACMFORMATENUMCBW","multimedia.acmformatenumcallback"]
 old-location: multimedia\acmformatenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 58775258-c42c-4d59-8922-c478b5bdf0d7
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: ACMFORMATENUMCB, ACMFORMATENUMCB callback, ACMFORMATENUMCB callback function [Windows Multimedia], ACMFORMATENUMCBA, ACMFORMATENUMCBW, _win32_acmFormatEnumCallback, acmFormatEnumCallback, msacm/ACMFORMATENUMCB, msacm/ACMFORMATENUMCBA, msacm/ACMFORMATENUMCBW, multimedia.acmformatenumcallback
 req.header: msacm.h
 req.include-header: 
@@ -116,7 +116,7 @@ The following functions should not be called from within the callback function: 
 
 
 > [!NOTE]
-> The msacm.h header defines ACMFORMATENUMCB as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMFORMATENUMCB as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

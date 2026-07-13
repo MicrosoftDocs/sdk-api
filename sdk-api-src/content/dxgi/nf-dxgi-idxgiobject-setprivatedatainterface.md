@@ -65,19 +65,13 @@ A GUID identifying the interface.
 
 Type: <b>const <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-The interface to set.
+A pointer to the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)-derived interface to be associated with the device object. Its reference count is incremented when set, and decremented when either the [IDXGIObject](/windows/win32/api/dxgi/nn-dxgi-idxgiobject) is destroyed, or when the data is overwritten by calling [SetPrivateData](/windows/win32/api/dxgi/nf-dxgi-idxgiobject-setprivatedata) or **SetPrivateDataInterface** with the same **GUID**.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns one of the following <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
-
-## -remarks
-
-This API associates an interface pointer with the object.
-
-When the interface is set its reference count is incremented. When the data are overwritten (by calling SPD or SPDI with the same GUID) or the object is destroyed, ::Release() is called and the interface's reference count is decremented.
 
 ## -see-also
 

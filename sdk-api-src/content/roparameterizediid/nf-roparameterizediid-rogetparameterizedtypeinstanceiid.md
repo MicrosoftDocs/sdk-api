@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: OneCore.Lib
 req.dll: Api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
 req.irql: 
 targetos: Windows

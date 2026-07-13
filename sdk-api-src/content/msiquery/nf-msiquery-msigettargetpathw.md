@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetTargetPathW
 title: MsiGetTargetPathW function (msiquery.h)
-description: The MsiGetTargetPath function returns the full target path for a folder in the Directory table.
-helpviewer_keywords: ["MsiGetTargetPath","MsiGetTargetPath function","MsiGetTargetPathA","MsiGetTargetPathW","_msi_msigettargetpath","msiquery/MsiGetTargetPath","msiquery/MsiGetTargetPathA","msiquery/MsiGetTargetPathW","setup.msigettargetpath"]
+description: The MsiGetTargetPath function returns the full target path for a folder in the Directory table. (Unicode)
+helpviewer_keywords: ["MsiGetTargetPath", "MsiGetTargetPath function", "MsiGetTargetPathW", "_msi_msigettargetpath", "msiquery/MsiGetTargetPath", "msiquery/MsiGetTargetPathW", "setup.msigettargetpath"]
 old-location: setup\msigettargetpath.htm
 tech.root: setup
 ms.assetid: cad0e1c1-3f3a-4438-8b85-ea146c943579
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-msi-misc-l1-1-0.dll
  - Msi.dll
 api_name:
  - MsiGetTargetPath
@@ -103,7 +104,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiGetTargetPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiGetTargetPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

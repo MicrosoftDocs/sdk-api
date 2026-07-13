@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathMakePrettyA
 title: PathMakePrettyA function (shlwapi.h)
-description: Converts an all-uppercase path to all lowercase characters to give the path a consistent appearance.
-helpviewer_keywords: ["PathMakePretty","PathMakePretty function [Windows Shell]","PathMakePrettyA","PathMakePrettyW","_win32_PathMakePretty","shell.PathMakePretty","shlwapi/PathMakePretty","shlwapi/PathMakePrettyA","shlwapi/PathMakePrettyW"]
+description: Converts an all-uppercase path to all lowercase characters to give the path a consistent appearance. (ANSI)
+helpviewer_keywords: ["PathMakePrettyA", "shlwapi/PathMakePrettyA"]
 old-location: shell\PathMakePretty.htm
 tech.root: shell
 ms.assetid: fb871054-4c63-42de-b85b-edefa4b09ea0
@@ -126,5 +126,5 @@ The content of the converted path is   : c:\test\file
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathMakePretty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathMakePretty as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

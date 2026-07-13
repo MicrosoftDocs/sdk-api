@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITACDGroupEvent.get_Group
 title: ITACDGroupEvent::get_Group (tapi3.h)
-description: The get_Group method gets the ITACDGroup interface pointer for the group on which the event occurred.
+description: The ITACDGroupEvent::get_Group method (tapi3.h) gets the ITACDGroup interface pointer for the group on which the event occurred.
 helpviewer_keywords: ["ITACDGroupEvent interface [TAPI 2.2]","get_Group method","ITACDGroupEvent.get_Group","ITACDGroupEvent::get_Group","_tapi3_itacdgroupevent_get_group","get_Group","get_Group method [TAPI 2.2]","get_Group method [TAPI 2.2]","ITACDGroupEvent interface","tapi3.itacdgroupevent_get_group","tapi3cc/ITACDGroupEvent::get_Group"]
 old-location: tapi3\itacdgroupevent_get_group.htm
 tech.root: tapi3
 ms.assetid: bbdc94b0-fa46-422a-bffc-32bbd1d49e5a
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Group method, ITACDGroupEvent.get_Group, ITACDGroupEvent::get_Group, _tapi3_itacdgroupevent_get_group, get_Group, get_Group method [TAPI 2.2], get_Group method [TAPI 2.2],ITACDGroupEvent interface, tapi3.itacdgroupevent_get_group, tapi3cc/ITACDGroupEvent::get_Group
 req.header: tapi3.h
 req.include-header: Tapi3.h

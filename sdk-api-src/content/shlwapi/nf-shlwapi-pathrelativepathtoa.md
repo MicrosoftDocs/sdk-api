@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathRelativePathToA
 title: PathRelativePathToA function (shlwapi.h)
-description: Creates a relative path from one file or folder to another.
-helpviewer_keywords: ["PathRelativePathTo","PathRelativePathTo function [Windows Shell]","PathRelativePathToA","PathRelativePathToW","_win32_PathRelativePathTo","shell.PathRelativePathTo","shlwapi/PathRelativePathTo","shlwapi/PathRelativePathToA","shlwapi/PathRelativePathToW"]
+description: Creates a relative path from one file or folder to another. (ANSI)
+helpviewer_keywords: ["PathRelativePathToA", "shlwapi/PathRelativePathToA"]
 old-location: shell\PathRelativePathTo.htm
 tech.root: shell
 ms.assetid: 7ed8d50a-2ad4-4ddf-941d-aea593341592
@@ -150,5 +150,5 @@ The relative path is: ..\..\x\y\file
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathRelativePathTo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathRelativePathTo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

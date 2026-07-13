@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_DeleteAllItems","ListView_DeleteAllItems macro [
 old-location: controls\ListView_DeleteAllItems.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteallitems.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_DeleteAllItems, ListView_DeleteAllItems macro [Windows Controls], _win32_ListView_DeleteAllItems, _win32_ListView_DeleteAllItems_cpp, commctrl/ListView_DeleteAllItems, controls.ListView_DeleteAllItems, controls._win32_ListView_DeleteAllItems
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_DeleteAllItems macro
+
+## -syntax
+
+```cpp
+BOOL ListView_DeleteAllItems(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

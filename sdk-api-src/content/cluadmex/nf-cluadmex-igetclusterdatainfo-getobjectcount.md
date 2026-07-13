@@ -56,7 +56,7 @@ api_name:
 Returns a count of the number of selected 
     <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a>.
 
-## -parameters
+
 
 ## -returns
 

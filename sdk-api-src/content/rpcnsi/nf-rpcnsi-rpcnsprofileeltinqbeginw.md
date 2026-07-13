@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqBeginW
 title: RpcNsProfileEltInqBeginW function (rpcnsi.h)
-description: The RpcNsProfileEltInqBegin function creates an inquiry context for viewing the elements in a profile.
-helpviewer_keywords: ["RPC_C_PROFILE_ALL_ELTS","RPC_C_PROFILE_DEFAULT_ELT","RPC_C_PROFILE_MATCH_BY_BOTH","RPC_C_PROFILE_MATCH_BY_IF","RPC_C_PROFILE_MATCH_BY_MBR","RPC_C_VERS_ALL","RPC_C_VERS_COMPATIBLE","RPC_C_VERS_EXACT","RPC_C_VERS_MAJOR_ONLY","RPC_C_VERS_UPTO","RpcNsProfileEltInqBegin","RpcNsProfileEltInqBegin function [RPC]","RpcNsProfileEltInqBeginA","RpcNsProfileEltInqBeginW","_rpc_rpcnsprofileeltinqbegin","rpc.rpcnsprofileeltinqbegin","rpcnsi/RpcNsProfileEltInqBegin","rpcnsi/RpcNsProfileEltInqBeginA","rpcnsi/RpcNsProfileEltInqBeginW"]
+description: The RpcNsProfileEltInqBegin function creates an inquiry context for viewing the elements in a profile. (Unicode)
+helpviewer_keywords: ["RPC_C_PROFILE_ALL_ELTS", "RPC_C_PROFILE_DEFAULT_ELT", "RPC_C_PROFILE_MATCH_BY_BOTH", "RPC_C_PROFILE_MATCH_BY_IF", "RPC_C_PROFILE_MATCH_BY_MBR", "RPC_C_VERS_ALL", "RPC_C_VERS_COMPATIBLE", "RPC_C_VERS_EXACT", "RPC_C_VERS_MAJOR_ONLY", "RPC_C_VERS_UPTO", "RpcNsProfileEltInqBegin", "RpcNsProfileEltInqBegin function [RPC]", "RpcNsProfileEltInqBeginW", "_rpc_rpcnsprofileeltinqbegin", "rpc.rpcnsprofileeltinqbegin", "rpcnsi/RpcNsProfileEltInqBegin", "rpcnsi/RpcNsProfileEltInqBeginW"]
 old-location: rpc\rpcnsprofileeltinqbegin.htm
 tech.root: Rpc
 ms.assetid: 5b14eb21-0c3e-4f12-b1dc-95b364d87a4f
@@ -353,7 +353,7 @@ When finished viewing the profile elements, the application calls the
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsProfileEltInqBegin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsProfileEltInqBegin as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

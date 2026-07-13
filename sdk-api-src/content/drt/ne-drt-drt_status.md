@@ -56,19 +56,19 @@ The <b>DRT_STATUS</b> enumeration defines the status of a local DRT instance.
 
 ## -enum-fields
 
-### -field DRT_ACTIVE
+### -field DRT_ACTIVE:0
 
 The local node is connected to the DRT mesh and participating in the DRT system. This is also an indication that remote nodes exist and are present in the cache of the local node.
 
-### -field DRT_ALONE
+### -field DRT_ALONE:1
 
 The local node is participating in the DRT system, but is waiting for remote nodes to join the DRT mesh. This is an indication that remote nodes do not exist, or are not yet present in the cache of the local node.
 
-### -field DRT_NO_NETWORK
+### -field DRT_NO_NETWORK:10
 
 The local node does not have network connectivity.
 
-### -field DRT_FAULTED
+### -field DRT_FAULTED:20
 
 A critical error has occurred in the local DRT instance. The <a href="/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a> function must be called, after which  an attempt to re-open the DRT can be made.
 

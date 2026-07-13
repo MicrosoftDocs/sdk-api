@@ -56,7 +56,7 @@ Indicates the type of information that is included in a change batch during filt
 
 ## -enum-fields
 
-### -field FT_CURRENT_ITEMS_ONLY
+### -field FT_CURRENT_ITEMS_ONLY:0
 
 The change batch includes data and metadata for items that are currently in the filter.
 

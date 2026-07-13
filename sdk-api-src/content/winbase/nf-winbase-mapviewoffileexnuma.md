@@ -6,7 +6,7 @@ helpviewer_keywords: ["FILE_MAP_ALL_ACCESS","FILE_MAP_COPY","FILE_MAP_EXECUTE","
 old-location: base\mapviewoffileexnuma.htm
 tech.root: base
 ms.assetid: 1e28c8db-112d-481d-b470-8ca618e125ce
-ms.date: 12/05/2018
+ms.date: 10/30/2024
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileExNuma, MapViewOfFileExNuma function, NUMA_NO_PREFERRED_NODE, base.mapviewoffileexnuma, winbase/MapViewOfFileExNuma
 req.header: winbase.h
 req.include-header: Windows.h
@@ -47,7 +47,6 @@ api_name:
 
 # MapViewOfFileExNuma function
 
-
 ## -description
 
 Maps a view of a file mapping into the address space of a calling process and specifies the NUMA node 
@@ -57,14 +56,11 @@ Maps a view of a file mapping into the address space of a calling process and sp
 
 ### -param hFileMappingObject [in]
 
-A handle to a file mapping object. The 
-      <a href="/windows/desktop/api/winbase/nf-winbase-createfilemappingnumaa">CreateFileMappingNuma</a> and 
-      <a href="/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a> functions return this handle.
+A handle to a file mapping object. The <a href="/windows/desktop/api/winbase/nf-winbase-createfilemappingnumaa">CreateFileMappingNuma</a> and <a href="/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a> functions return this handle.
 
 ### -param dwDesiredAccess [in]
 
-The type of access to a file mapping object, which determines the page protection of the pages. This 
-      parameter can be one of the following values, or a bitwise OR combination of multiple values where appropriate.
+The type of access to a file mapping object, which determines the page protection of the pages. This parameter can be one of the following values, or a bitwise OR combination of multiple values where appropriate.
 
 <table>
 <tr>
@@ -77,11 +73,9 @@ The type of access to a file mapping object, which determines the page protectio
 </dl>
 </td>
 <td width="60%">
-A read/write view of the file is mapped.  The file mapping object must have been created with 
-         <b>PAGE_READWRITE</b> or <b>PAGE_EXECUTE_READWRITE</b> protection.
+A read/write view of the file is mapped.  The file mapping object must have been created with <b>PAGE_READWRITE</b> or <b>PAGE_EXECUTE_READWRITE</b> protection.
 
-When used with <b>MapViewOfFileExNuma</b>, <b>FILE_MAP_ALL_ACCESS</b> is equivalent to 
-         <b>FILE_MAP_WRITE</b>.
+When used with <b>MapViewOfFileExNuma</b>, <b>FILE_MAP_ALL_ACCESS</b> is equivalent to <b>FILE_MAP_WRITE</b>.
 
 </td>
 </tr>
@@ -91,12 +85,9 @@ When used with <b>MapViewOfFileExNuma</b>, <b>FILE_MAP_ALL_ACCESS</b> is equival
 </dl>
 </td>
 <td width="60%">
-A read-only view of the file is mapped. An attempt to write to the file view results in an access 
-         violation.
+A read-only view of the file is mapped. An attempt to write to the file view results in an access violation.
 
-The file mapping object must have been created with <b>PAGE_READONLY</b>, 
-         <b>PAGE_READWRITE</b>, <b>PAGE_EXECUTE_READ</b>, or 
-         <b>PAGE_EXECUTE_READWRITE</b> protection.
+The file mapping object must have been created with <b>PAGE_READONLY</b>, <b>PAGE_READWRITE</b>, <b>PAGE_EXECUTE_READ</b>, or <b>PAGE_EXECUTE_READWRITE</b> protection.
 
 </td>
 </tr>
@@ -106,17 +97,14 @@ The file mapping object must have been created with <b>PAGE_READONLY</b>,
 </dl>
 </td>
 <td width="60%">
-A read/write view of the file is mapped. The file mapping object must have been created with 
-         <b>PAGE_READWRITE</b> or <b>PAGE_EXECUTE_READWRITE</b> protection.
+A read/write view of the file is mapped. The file mapping object must have been created with <b>PAGE_READWRITE</b> or <b>PAGE_EXECUTE_READWRITE</b> protection.
 
-When used with <b>MapViewOfFileExNuma</b>, 
-         <code>(FILE_MAP_WRITE | FILE_MAP_READ)</code> is equivalent to <b>FILE_MAP_WRITE</b>.
+When used with <b>MapViewOfFileExNuma</b>, <code>(FILE_MAP_WRITE | FILE_MAP_READ)</code> is equivalent to <b>FILE_MAP_WRITE</b>.
 
 </td>
 </tr>
 </table>
  
-
 Using bitwise OR, you can combine the values above with these values.
 
 <table>
@@ -130,19 +118,11 @@ Using bitwise OR, you can combine the values above with these values.
 </dl>
 </td>
 <td width="60%">
-A copy-on-write view of the file is mapped. The file mapping object must have been created with 
-         <b>PAGE_READONLY</b>, <b>PAGE_READ_EXECUTE</b>, 
-         <b>PAGE_WRITECOPY</b>, <b>PAGE_EXECUTE_WRITECOPY</b>, 
-         <b>PAGE_READWRITE</b>, or <b>PAGE_EXECUTE_READWRITE</b> protection.
+A copy-on-write view of the file is mapped. The file mapping object must have been created with <b>PAGE_READONLY</b>, <b>PAGE_EXECUTE_READ</b>, <b>PAGE_WRITECOPY</b>, <b>PAGE_EXECUTE_WRITECOPY</b>, <b>PAGE_READWRITE</b>, or <b>PAGE_EXECUTE_READWRITE</b> protection.
 
-When a process writes to a copy-on-write page, the system copies the original page to a new page that is 
-         private to the process. The new page is backed by the paging file. The protection of the new page changes 
-         from copy-on-write to read/write.
+When a process writes to a copy-on-write page, the system copies the original page to a new page that is private to the process. The new page is backed by the paging file. The protection of the new page changes from copy-on-write to read/write.
 
-When copy-on-write access is specified, the system and process commit 
-         charge taken is for the entire view because the calling process can potentially write to every page in the 
-         view, making all pages private. The contents of the new page are never written back to the original file and 
-         are lost when the view is unmapped.
+When copy-on-write access is specified, the system and process commit charge taken is for the entire view because the calling process can potentially write to every page in the view, making all pages private. The contents of the new page are never written back to the original file and are lost when the view is unmapped.
 
 </td>
 </tr>

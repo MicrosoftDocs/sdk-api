@@ -70,7 +70,7 @@ are canonicalized including nodes of child elements skipped using <a href="/wind
 <div> </div>
 
 
-In order to use the XML Reader solely for canonicalizing an XML element node the application can call <b>WsStartReaderCanonicalization</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a>and <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> when the Reader is positioned on the element.
+In order to use the XML Reader solely for canonicalizing an XML element node the application can call <b>WsStartReaderCanonicalization</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> when the Reader is positioned on the element.
       
 <b>WsEndReaderCanonicalization</b> must be called in order to ensure that all canonicalized bytes are written to the specified callback.
 

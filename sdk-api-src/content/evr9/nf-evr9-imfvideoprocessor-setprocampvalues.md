@@ -4,7 +4,7 @@ title: IMFVideoProcessor::SetProcAmpValues (evr9.h)
 description: Sets one or more color adjustment (ProcAmp) settings.
 helpviewer_keywords: ["84a5e022-773c-483b-adb5-5883b25b716f","IMFVideoProcessor interface [Media Foundation]","SetProcAmpValues method","IMFVideoProcessor.SetProcAmpValues","IMFVideoProcessor::SetProcAmpValues","SetProcAmpValues","SetProcAmpValues method [Media Foundation]","SetProcAmpValues method [Media Foundation]","IMFVideoProcessor interface","evr9/IMFVideoProcessor::SetProcAmpValues","mf.imfvideoprocessor_setprocampvalues"]
 old-location: mf\imfvideoprocessor_setprocampvalues.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 84a5e022-773c-483b-adb5-5883b25b716f
 ms.date: 12/05/2018
 ms.keywords: 84a5e022-773c-483b-adb5-5883b25b716f, IMFVideoProcessor interface [Media Foundation],SetProcAmpValues method, IMFVideoProcessor.SetProcAmpValues, IMFVideoProcessor::SetProcAmpValues, SetProcAmpValues, SetProcAmpValues method [Media Foundation], SetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetProcAmpValues, mf.imfvideoprocessor_setprocampvalues
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoProcessor.SetProcAmpValues
+archived: true
 ---
 
 # IMFVideoProcessor::SetProcAmpValues
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets one or more color adjustment (ProcAmp) settings.
 

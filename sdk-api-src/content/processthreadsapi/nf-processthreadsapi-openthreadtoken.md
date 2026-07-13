@@ -4,7 +4,7 @@ title: OpenThreadToken function (processthreadsapi.h)
 description: Opens the access token associated with a thread.
 helpviewer_keywords: ["OpenThreadToken","OpenThreadToken function [Security]","_win32_openthreadtoken","processthreadsapi/OpenThreadToken","security.openthreadtoken"]
 old-location: security\openthreadtoken.htm
-tech.root: security
+tech.root: processthreadsapi
 ms.assetid: 5003f0c4-41e9-4a14-b6a9-4f259c4af08b
 ms.date: 12/05/2018
 ms.keywords: OpenThreadToken, OpenThreadToken function [Security], _win32_openthreadtoken, processthreadsapi/OpenThreadToken, security.openthreadtoken
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Advapi32.dll
  - API-MS-Win-Core-Processsecurity-l1-1-0.dll
  - Kernel32.dll

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetCurrentView","MonthCal_GetCurrentView macro [
 old-location: controls\MonthCal_GetCurrentView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcurrentview.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetCurrentView, MonthCal_GetCurrentView macro [Windows Controls], _shell_MonthCal_GetCurrentView, _shell_MonthCal_GetCurrentView_cpp, commctrl/MonthCal_GetCurrentView, controls.MonthCal_GetCurrentView, controls._shell_MonthCal_GetCurrentView
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,26 @@ api_name:
 
 # MonthCal_GetCurrentView macro
 
+## -syntax
+
+```cpp
+DWORD MonthCal_GetCurrentView(
+   HWND hmc
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Current view. One of the following values.
+
+| Return code | Description |
+|---|---|
+| MCMV_MONTH | Monthly view. |
+| MCMV_YEAR | Annual view. |
+| MCMV_DECADE | Decade view. |
+| MCMV_CENTURY | Century view. |
 
 ## -description
 

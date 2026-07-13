@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_GetCurSel","ComboBox_GetCurSel macro [Windows Co
 old-location: controls\ComboBox_GetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcursel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_GetCurSel, ComboBox_GetCurSel macro [Windows Controls], _win32_ComboBox_GetCurSel, _win32_ComboBox_GetCurSel_cpp, controls.ComboBox_GetCurSel, controls._win32_ComboBox_GetCurSel, windowsx/ComboBox_GetCurSel
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ComboBox_GetCurSel macro
+
+## -syntax
+
+```cpp
+int ComboBox_GetCurSel(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The zero-based index of the selected item. If there is no selection, the return value is CB_ERR.
 
 
 ## -description

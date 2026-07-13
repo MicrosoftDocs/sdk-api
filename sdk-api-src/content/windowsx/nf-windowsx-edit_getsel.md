@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetSel","Edit_GetSel macro [Windows Controls]","_win
 old-location: controls\Edit_GetSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getsel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetSel, Edit_GetSel macro [Windows Controls], _win32_Edit_GetSel, _win32_Edit_GetSel_cpp, controls.Edit_GetSel, controls._win32_Edit_GetSel, windowsx/Edit_GetSel
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetSel macro
+
+## -syntax
+
+```cpp
+DWORD Edit_GetSel(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+The return value is a zero-based value with the starting position of the selection in the <b>LOWORD</b> and the position of the first character after the last selected character in the <b>HIWORD</b>. If either of these values exceeds 65,535, the return value is &#8211;1.
 
 
 ## -description

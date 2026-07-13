@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_CONTROLLER_PROP
 title: VDS_CONTROLLER_PROP (vds.h)
-description: Defines the properties of a controller object.
+description: The VDS_CONTROLLER_PROP structure (vds.h) defines the properties of a controller object.  
 helpviewer_keywords: ["*PVDS_CONTROLLER_PROP","VDS_CONTROLLER_PROP","VDS_CONTROLLER_PROP structure [VDS]","VDS_H_DEGRADED","VDS_H_FAILED","VDS_H_HEALTHY","VDS_H_REPLACED","VDS_H_UNKNOWN","base.vds_controller_prop","vds/_VDS_CONTROLLER_PROP","vdshwprv/_VDS_CONTROLLER_PROP"]
 old-location: base\vds_controller_prop.htm
 tech.root: base
 ms.assetid: b9da3920-9bae-4198-ba0d-a0755aee15e4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP structure [VDS], VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_REPLACED, VDS_H_UNKNOWN, base.vds_controller_prop, vds/_VDS_CONTROLLER_PROP, vdshwprv/_VDS_CONTROLLER_PROP'
 req.header: vds.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    properties of a <a href="/windows/desktop/VDS/controller-object">controller object</a>.

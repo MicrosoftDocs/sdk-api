@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the name of the record type. This is useful if you want to print out the type of the record, because each UDT has it's own <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
+Gets the name of the record type. This is useful if you want to print out the type of the record, because each UDT has its own <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
 
 ## -parameters
 

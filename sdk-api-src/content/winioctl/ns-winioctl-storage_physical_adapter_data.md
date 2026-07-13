@@ -48,9 +48,6 @@ api_name:
  - STORAGE_PHYSICAL_ADAPTER_DATA
 ---
 
-# STORAGE_PHYSICAL_ADAPTER_DATA structure
-
-
 ## -description
 
 Describes a physical storage adapter.
@@ -77,26 +74,26 @@ A <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_spec_version">STORA
 
 Indicates whether an expander is connected.
 
-### -field FirmwareRevision [16]
+### -field FirmwareRevision
 
 Specifies the firmware revision.
 
-### -field Model [40]
+### -field Model
 
 Specifies the adapter model.
 
-### -field PhysicalLocation [32]
+### -field PhysicalLocation
 
 Reserved for future use.
 
-### -field Reserved0 [3]
+### -field Reserved0
 
 Reserved.
 
-### -field Reserved1 [3]
+### -field Reserved1
 
 Reserved.
 
-### -field Vendor [8]
+### -field Vendor
 
 Specifies the adapter vendor.

@@ -1,0 +1,7 @@
+{
+    "tech": "webauthn",
+    "headers": [
+      "webauthn.h"
+    ],
+    "displayName": "WebAuthn"
+  }

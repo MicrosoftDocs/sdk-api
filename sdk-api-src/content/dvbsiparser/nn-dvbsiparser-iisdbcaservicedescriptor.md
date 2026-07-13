@@ -11,7 +11,7 @@ ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Micro
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,14 +50,16 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Implements methods that get data from  an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) service descriptor. The conditional access service descriptor appears in the ISDB service information as part of the conditional access table (CAT). It facilitates the display of  entitlement management message (EMM) automatic display
 messages by indicating the broadcaster group that provides the service, the EMM automatic
 display message, and the delay time for displaying the "EMM automatic display message" .
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbCAServiceDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbCAServiceDescriptor</b> also has these types of members:
+The <b>IIsdbCAServiceDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbCAServiceDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

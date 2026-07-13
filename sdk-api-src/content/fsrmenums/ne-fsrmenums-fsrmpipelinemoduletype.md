@@ -56,16 +56,16 @@ Defines the types of modules that you can define.
 
 ## -enum-fields
 
-### -field FsrmPipelineModuleType_Unknown
+### -field FsrmPipelineModuleType_Unknown:0
 
 The module type is unknown; do not use this value.
 
-### -field FsrmPipelineModuleType_Storage
+### -field FsrmPipelineModuleType_Storage:1
 
 The module is a storage module. A storage module persists property values for the files that it 
       supports.
 
-### -field FsrmPipelineModuleType_Classifier
+### -field FsrmPipelineModuleType_Classifier:2
 
 The module is a classifier module. A classifier module assigns property values to files based on 
       classification rules.

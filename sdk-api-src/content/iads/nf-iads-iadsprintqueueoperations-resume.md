@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsPrintQueueOperations::Resume</b> method resumes processing of suspended print jobs in the print queue.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkA
 title: CreateSymbolicLinkA function (winbase.h)
-description: Creates a symbolic link.
-helpviewer_keywords: ["CreateSymbolicLink","CreateSymbolicLink function [Files]","CreateSymbolicLinkA","CreateSymbolicLinkW","SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclink","winbase/CreateSymbolicLink","winbase/CreateSymbolicLinkA","winbase/CreateSymbolicLinkW"]
+description: Creates a symbolic link. (ANSI)
+helpviewer_keywords: ["CreateSymbolicLinkA", "SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE", "SYMBOLIC_LINK_FLAG_DIRECTORY", "winbase/CreateSymbolicLinkA"]
 old-location: fs\createsymboliclink.htm
 tech.root: fs
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
@@ -70,13 +70,12 @@ To perform this operation as a transacted operation, use the
 
 The symbolic link to be created.
 
-This parameter may include the path. In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+This parameter may include the path. 
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateSymbolicLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpTargetFileName [in]
 
@@ -85,13 +84,12 @@ The name of the target for the symbolic link to be created.
  If <i>lpTargetFileName</i> has a device name associated with it, the link is treated as 
       an absolute link; otherwise, the link is treated as a relative link.
 
-This parameter may include the path. In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+This parameter may include the path. 
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateSymbolicLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param dwFlags [in]
 
@@ -131,7 +129,7 @@ The link target is a directory.
 </dl>
 </td>
 <td width="60%">
-Specify this flag to allow creation of symbolic links when the process is not elevated. <a href="/windows/uwp/get-started/enable-your-device-for-development">Developer Mode</a> must first be enabled on the machine before  this option will function.
+Specify this flag to allow creation of symbolic links when the process is not elevated. In UWP, <a href="/windows/uwp/get-started/enable-your-device-for-development">Developer Mode</a> must first be enabled on the machine before  this option will function.  Under MSIX, developer mode is not required to be enabled for this flag.
 
 </td>
 </tr>
@@ -239,7 +237,7 @@ CsvFs does not support soft link or any other reparse points.
 
 
 > [!NOTE]
-> The winbase.h header defines CreateSymbolicLink as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CreateSymbolicLink as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

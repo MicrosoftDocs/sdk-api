@@ -56,25 +56,25 @@ Describes the type of data provided by a frame source.
 
 ## -enum-fields
 
-### -field MFFrameSourceTypes_Color
+### -field MFFrameSourceTypes_Color:0x0001
 
 The frame source provides color data.
 
-### -field MFFrameSourceTypes_Infrared
+### -field MFFrameSourceTypes_Infrared:0x0002
 
 The frame source provides infrared data.
 
-### -field MFFrameSourceTypes_Depth
+### -field MFFrameSourceTypes_Depth:0x0004
 
 The frame source provides depth data.
 
-### -field MFFrameSourceTypes_Image
+### -field MFFrameSourceTypes_Image:0x0008
 
 The frame source provides image data.
 
 <b>Note</b>  This value was added in Windows 10, version 1803.
 
-### -field MFFrameSourceTypes_Custom
+### -field MFFrameSourceTypes_Custom:0x0080
 
 The frame source provides custom data.
 

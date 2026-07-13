@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the pixel format and alpha mode of the render target.
 
-## -parameters
+
 
 ## -returns
 

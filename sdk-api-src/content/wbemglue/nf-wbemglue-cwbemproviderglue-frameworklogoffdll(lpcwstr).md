@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.FrameworkLogoffDLL(LPCWSTR)
 title: CWbemProviderGlue::FrameworkLogoffDLL (wbemglue.h)
-description: The FrameworkLogoffDLL method is called by DllCanUnloadNow to determine whether the provider server is not in use and can be unloaded.
+description: The FrameworkLogoffDLL method is called by DllCanUnloadNow to determine whether the provider server is not in use and can be unloaded. (overload 1/2)
 helpviewer_keywords: ["?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z","?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z","CWbemProviderGlue interface [Windows Management Instrumentation]","FrameworkLogoffDLL method","CWbemProviderGlue.FrameworkLogoffDLL","CWbemProviderGlue::FrameworkLogoffDLL","FrameworkLogoffDLL","FrameworkLogoffDLL method [Windows Management Instrumentation]","FrameworkLogoffDLL method [Windows Management Instrumentation]","CWbemProviderGlue interface","_hmm_cwbemproviderglue_frameworklogoffdll","wbemglue/CWbemProviderGlue::FrameworkLogoffDLL","wmi.cwbemproviderglue_frameworklogoffdll"]
 old-location: wmi\cwbemproviderglue_frameworklogoffdll.htm
 tech.root: wmi

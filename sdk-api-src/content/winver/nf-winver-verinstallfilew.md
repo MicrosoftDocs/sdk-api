@@ -1,8 +1,8 @@
 ---
 UID: NF:winver.VerInstallFileW
 title: VerInstallFileW function (winver.h)
-description: Installs the specified file based on information returned from the VerFindFile function. VerInstallFile decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files.
-helpviewer_keywords: ["VIFF_DONTDELETEOLD","VIFF_FORCEINSTALL","VerInstallFile","VerInstallFile function [Menus and Other Resources]","VerInstallFileA","VerInstallFileW","_win32_VerInstallFile","_win32_verinstallfile_cpp","menurc.verinstallfile","winui._win32_verinstallfile","winver/VerInstallFile","winver/VerInstallFileA","winver/VerInstallFileW"]
+description: Installs the specified file based on information returned from the VerFindFile function. VerInstallFile decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files. (Unicode)
+helpviewer_keywords: ["VIFF_DONTDELETEOLD", "VIFF_FORCEINSTALL", "VerInstallFile", "VerInstallFile function [Menus and Other Resources]", "VerInstallFileW", "_win32_VerInstallFile", "_win32_verinstallfile_cpp", "menurc.verinstallfile", "winui._win32_verinstallfile", "winver/VerInstallFile", "winver/VerInstallFileW"]
 old-location: menurc\verinstallfile.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verinstallfile.htm
@@ -423,7 +423,7 @@ This function works on 16-, 32-, and 64-bit file images.
 
 
 > [!NOTE]
-> The winver.h header defines VerInstallFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winver.h header defines VerInstallFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

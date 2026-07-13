@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhSelectDataSourceW
 title: PdhSelectDataSourceW function (pdh.h)
-description: Displays a dialog window that prompts the user to specify the source of the performance data.
-helpviewer_keywords: ["0","PDH_FLAGS_FILE_BROWSER_ONLY","PdhSelectDataSource","PdhSelectDataSource function [Perf]","PdhSelectDataSourceA","PdhSelectDataSourceW","_win32_pdhselectdatasource","base.pdhselectdatasource","pdh/PdhSelectDataSource","pdh/PdhSelectDataSourceA","pdh/PdhSelectDataSourceW","perf.pdhselectdatasource"]
+description: Displays a dialog window that prompts the user to specify the source of the performance data. (Unicode)
+helpviewer_keywords: ["0", "PDH_FLAGS_FILE_BROWSER_ONLY", "PdhSelectDataSource", "PdhSelectDataSource function [Perf]", "PdhSelectDataSourceW", "_win32_pdhselectdatasource", "base.pdhselectdatasource", "pdh/PdhSelectDataSource", "pdh/PdhSelectDataSourceW", "perf.pdhselectdatasource"]
 old-location: perf\pdhselectdatasource.htm
 tech.root: perf
 ms.assetid: 211d4504-e1f9-48a0-8ddd-613f2f183c59
@@ -148,4 +148,4 @@ A zero-length buffer was passed in the <i>szDataSource</i> parameter.
 ## -remarks
 
 > [!NOTE]
-> The pdh.h header defines PdhSelectDataSource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhSelectDataSource as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

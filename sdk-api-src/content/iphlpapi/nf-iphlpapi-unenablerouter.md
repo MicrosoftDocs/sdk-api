@@ -80,7 +80,7 @@ The <b>UnenableRouter</b> function is specific to IPv4 forwarding. Each call tha
 <b>UnenableRouter</b>. As a result, a given process is not able to decrement the reference count that tracks the number of requests for enabling IPv4 forwarding for another process. Also, if IPv4 forwarding was enabled by a given process, it cannot be disabled by a different process.
 
 It is not possible to accurately determine the reference count that tracks the number of requests for enabling IPv4 forwarding since there might be other outstanding <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-enablerouter">EnableRouter</a> requests.
-        So the value returned for the <i>lpdwEnableCount</i>parmameter is always  a large count equal to ULONG_MAX/2.
+        So the value returned for the <i>lpdwEnableCount</i> parameter is always a large count equal to ULONG_MAX/2.
         
 
 If the process that calls 

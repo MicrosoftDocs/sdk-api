@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled
 title: INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled (netfw.h)
-description: Determines whether a specified group of firewall rules are enabled or disabled.
+description: Determines whether a specified group of firewall rules are enabled or disabled. (INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled)
 helpviewer_keywords: ["INetFwPolicy2 interface [ICS/ICF]","get_IsRuleGroupCurrentlyEnabled method","INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled","INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled","get_IsRuleGroupCurrentlyEnabled","get_IsRuleGroupCurrentlyEnabled method [ICS/ICF]","get_IsRuleGroupCurrentlyEnabled method [ICS/ICF]","INetFwPolicy2 interface","ics.inetfwpolicy2_isrulegroupcurrentlyenabled","netfw/INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled"]
 old-location: ics\inetfwpolicy2_isrulegroupcurrentlyenabled.htm
 tech.root: ics

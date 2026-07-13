@@ -52,7 +52,7 @@ api_name:
 
 Cancels a write operation that is in progress.
 
-## -parameters
+
 
 ## -returns
 

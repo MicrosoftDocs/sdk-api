@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetRate","GetRate method [DirectShow]","GetRate method [D
 old-location: dshow\imediaseeking_getrate.htm
 tech.root: dshow
 ms.assetid: 419b223d-95b9-4df6-8b65-56846faa6afe
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetRate, GetRate method [DirectShow], GetRate method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetRate method, IMediaSeeking.GetRate, IMediaSeeking::GetRate, IMediaSeekingGetRate, dshow.imediaseeking_getrate, strmif/IMediaSeeking::GetRate
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetRate</code> method retrieves the playback rate.
 

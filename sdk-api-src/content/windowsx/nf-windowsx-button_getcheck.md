@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_GetCheck","Button_GetCheck macro [Windows Controls
 old-location: controls\Button_GetCheck.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getcheck.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_GetCheck, Button_GetCheck macro [Windows Controls], _win32_Button_GetCheck, _win32_Button_GetCheck_cpp, controls.Button_GetCheck, controls._win32_Button_GetCheck, windowsx/Button_GetCheck
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,26 @@ api_name:
 ---
 
 # Button_GetCheck macro
+
+## -syntax
+
+```cpp
+int Button_GetCheck(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value from a button created with the <b>BS_AUTOCHECKBOX</b>, <b>BS_AUTORADIOBUTTON</b>, <b>BS_AUTO3STATE</b>, <b>BS_CHECKBOX</b>, <b>BS_RADIOBUTTON</b>, or <b>BS_3STATE</b> style can be one of the following:
+
+| Return code | Description |
+|---|---|
+| BST_CHECKED | Button is checked. |
+| BST_INDETERMINATE | Button is grayed, indicating an indeterminate state (applies only if the button has the BS_3STATE or BS_AUTO3STATE style). |
+| BST_UNCHECKED | Button is cleared. |
 
 
 ## -description

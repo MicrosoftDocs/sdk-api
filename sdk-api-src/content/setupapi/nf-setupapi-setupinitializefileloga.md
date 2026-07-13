@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupInitializeFileLogA
 title: SetupInitializeFileLogA function (setupapi.h)
-description: The SetupInitializeFileLog function initializes a file to record installation operations and outcomes. This can be the system log, where the system tracks the files installed as part of Windows, or any other file.
-helpviewer_keywords: ["SetupInitializeFileLog","SetupInitializeFileLog function [Setup API]","SetupInitializeFileLogA","SetupInitializeFileLogW","_setupapi_setupinitializefilelog","setup.setupinitializefilelog","setupapi/SetupInitializeFileLog","setupapi/SetupInitializeFileLogA","setupapi/SetupInitializeFileLogW"]
+description: The SetupInitializeFileLog function initializes a file to record installation operations and outcomes. This can be the system log, where the system tracks the files installed as part of Windows, or any other file. (ANSI)
+helpviewer_keywords: ["SetupInitializeFileLogA", "setupapi/SetupInitializeFileLogA"]
 old-location: setup\setupinitializefilelog.htm
 tech.root: setup
 ms.assetid: fac7abac-76a9-456a-843a-e1048df268b7
@@ -113,4 +113,4 @@ The function returns the handle to the log file if it is successful. Otherwise, 
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupInitializeFileLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupInitializeFileLog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.GetPrivateData
 title: IDirect3DVolume9::GetPrivateData (d3d9.h)
-description: Copies the private data associated with the volume to a provided buffer.
+description: The IDirect3DVolume9::GetPrivateData (d3d9.h) method copies the private data associated with the volume to a provided buffer.
 helpviewer_keywords: ["1b475aea-86d8-9a27-8391-6760763a593e","GetPrivateData","GetPrivateData method [Direct3D 9]","GetPrivateData method [Direct3D 9]","IDirect3DVolume9 interface","IDirect3DVolume9 interface [Direct3D 9]","GetPrivateData method","IDirect3DVolume9.GetPrivateData","IDirect3DVolume9::GetPrivateData","d3d9helper/IDirect3DVolume9::GetPrivateData","direct3d9.idirect3dvolume9__getprivatedata"]
 old-location: direct3d9\idirect3dvolume9__getprivatedata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getprivatedata.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 1b475aea-86d8-9a27-8391-6760763a593e, GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetPrivateData method, IDirect3DVolume9.GetPrivateData, IDirect3DVolume9::GetPrivateData, d3d9helper/IDirect3DVolume9::GetPrivateData, direct3d9.idirect3dvolume9__getprivatedata
 req.header: d3d9.h
 req.include-header: D3D9.h
@@ -79,6 +79,10 @@ Pointer to the size of the buffer at
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_MOREDATA, D3DERR_NOTFOUND.
+
+## -remarks
+
+If the data returned is a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or one of its derivative classes, which was previously set by **SetPrivateData** with a `D3DSPD_IUNKNOWN` flag, that interface will have its reference count incremented before the private data is returned.
 
 ## -see-also
 

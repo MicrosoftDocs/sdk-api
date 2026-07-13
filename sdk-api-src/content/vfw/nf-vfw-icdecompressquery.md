@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDecompressQuery","ICDecompressQuery macro [Windows Mult
 old-location: multimedia\icdecompressquery.htm
 tech.root: Multimedia
 ms.assetid: 77d9a28c-dff9-4ccb-a0b8-9dc38fc66372
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDecompressQuery, ICDecompressQuery macro [Windows Multimedia], _win32_ICDecompressQuery, multimedia.icdecompressquery, vfw/ICDecompressQuery
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICDecompressQuery macro
+
+## -syntax
+
+```cpp
+DWORD ICDecompressQuery(
+     hic,
+     lpbiInput,
+     lpbiOutput
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the specified decompression is supported or ICERR_BADFORMAT otherwise.
 
 
 ## -description

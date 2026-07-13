@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite.DWRITE_TEXT_METRICS
 title: DWRITE_TEXT_METRICS (dwrite.h)
-description: Contains the metrics associated with text after layout.
+description: Contains the metrics associated with text after layout. (DWRITE_TEXT_METRICS)
 helpviewer_keywords: ["DWRITE_TEXT_METRICS","DWRITE_TEXT_METRICS structure [Direct Write]","directwrite.dwrite_text_metrics","dwrite/DWRITE_TEXT_METRICS"]
 old-location: directwrite\dwrite_text_metrics.htm
 tech.root: DirectWrite

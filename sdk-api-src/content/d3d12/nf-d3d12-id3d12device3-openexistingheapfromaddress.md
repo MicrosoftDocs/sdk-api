@@ -6,7 +6,7 @@ helpviewer_keywords: ["ID3D12Device3.OpenExistingHeapFromAddress","ID3D12Device3
 old-location: direct3d12\id3d12device3_openexistingheapfromaddress.htm
 tech.root: direct3d12
 ms.assetid: E2343759-FC36-4638-AE91-F6BF6D0BC3BA
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ID3D12Device3.OpenExistingHeapFromAddress, ID3D12Device3::OpenExistingHeapFromAddress, Id3d12device3 interface,OpenExistingHeapFromAddress method, Id3d12device3::OpenExistingHeapFromAddress, OpenExistingHeapFromAddress, OpenExistingHeapFromAddress method, OpenExistingHeapFromAddress method,Id3d12device3 interface, d3d12/Id3d12device3::OpenExistingHeapFromAddress, direct3d12.id3d12device3_openexistingheapfromaddress
 req.header: d3d12.h
 req.include-header: 
@@ -69,7 +69,7 @@ The <b>REFIID</b>, or <b>GUID</b>, of the interface to the heap can be obtained 
 
 Type: <b>void**</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_COM_Outptr_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>_COM_Outptr_</code>
 
 A pointer to a memory block. On success, the D3D12 runtime will write a pointer to the newly-opened heap into the memory block. The type of the pointer depends on the provided <b>riid</b> parameter.
 

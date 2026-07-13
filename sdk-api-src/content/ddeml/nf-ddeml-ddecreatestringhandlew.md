@@ -1,8 +1,8 @@
 ---
 UID: NF:ddeml.DdeCreateStringHandleW
 title: DdeCreateStringHandleW function (ddeml.h)
-description: Creates a handle that identifies the specified string. A Dynamic Data Exchange (DDE) client or server application can pass the string handle as a parameter to other Dynamic Data Exchange Management Library (DDEML) functions.
-helpviewer_keywords: ["DdeCreateStringHandle","DdeCreateStringHandle function [Data Exchange]","DdeCreateStringHandleA","DdeCreateStringHandleW","_win32_DdeCreateStringHandle","_win32_ddecreatestringhandle_cpp","dataxchg.ddecreatestringhandle","ddeml/DdeCreateStringHandle","ddeml/DdeCreateStringHandleA","ddeml/DdeCreateStringHandleW","winui._win32_ddecreatestringhandle"]
+description: Creates a handle that identifies the specified string. A Dynamic Data Exchange (DDE) client or server application can pass the string handle as a parameter to other Dynamic Data Exchange Management Library (DDEML) functions. (Unicode)
+helpviewer_keywords: ["DdeCreateStringHandle", "DdeCreateStringHandle function [Data Exchange]", "DdeCreateStringHandleW", "_win32_DdeCreateStringHandle", "_win32_ddecreatestringhandle_cpp", "dataxchg.ddecreatestringhandle", "ddeml/DdeCreateStringHandle", "ddeml/DdeCreateStringHandleW", "winui._win32_ddecreatestringhandle"]
 old-location: dataxchg\ddecreatestringhandle.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecreatestringhandle.htm
@@ -110,7 +110,7 @@ hszNew = DdeCreateStringHandle(idInst, pszInst, CP_WINANSI);
 
 
 > [!NOTE]
-> The ddeml.h header defines DdeCreateStringHandle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ddeml.h header defines DdeCreateStringHandle as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

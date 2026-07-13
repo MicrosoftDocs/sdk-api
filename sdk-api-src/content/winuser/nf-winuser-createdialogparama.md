@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateDialogParamA
 title: CreateDialogParamA function (winuser.h)
-description: Creates a modeless dialog box from a dialog box template resource.
-helpviewer_keywords: ["CreateDialogParam","CreateDialogParam function [Dialog Boxes]","CreateDialogParamA","CreateDialogParamW","_win32_CreateDialogParam","_win32_createdialogparam_cpp","dlgbox.createdialogparam","winui._win32_createdialogparam","winuser/CreateDialogParam","winuser/CreateDialogParamA","winuser/CreateDialogParamW"]
+description: Creates a modeless dialog box from a dialog box template resource. (ANSI)
+helpviewer_keywords: ["CreateDialogParamA", "winuser/CreateDialogParamA"]
 old-location: dlgbox\createdialogparam.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogparam.htm
@@ -109,7 +109,7 @@ After <b>CreateDialogParam</b> returns, the application displays the dialog box 
 
 
 > [!NOTE]
-> The winuser.h header defines CreateDialogParam as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CreateDialogParam as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

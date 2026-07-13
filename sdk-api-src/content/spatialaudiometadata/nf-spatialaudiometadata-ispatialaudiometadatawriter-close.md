@@ -52,7 +52,7 @@ api_name:
 
 Completes any needed operations on the metadata buffer and releases the specified <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object.
 
-## -parameters
+
 
 ## -returns
 

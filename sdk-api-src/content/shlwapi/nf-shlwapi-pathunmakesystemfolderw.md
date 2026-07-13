@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathUnmakeSystemFolderW
 title: PathUnmakeSystemFolderW function (shlwapi.h)
-description: Removes the attributes from a folder that make it a system folder. This folder must actually exist in the file system.
-helpviewer_keywords: ["PathUnmakeSystemFolder","PathUnmakeSystemFolder function [Windows Shell]","PathUnmakeSystemFolderA","PathUnmakeSystemFolderW","_win32_PathUnmakeSystemFolder","shell.PathUnmakeSystemFolder","shlwapi/PathUnmakeSystemFolder","shlwapi/PathUnmakeSystemFolderA","shlwapi/PathUnmakeSystemFolderW"]
+description: Removes the attributes from a folder that make it a system folder. This folder must actually exist in the file system. (Unicode)
+helpviewer_keywords: ["PathUnmakeSystemFolder", "PathUnmakeSystemFolder function [Windows Shell]", "PathUnmakeSystemFolderW", "_win32_PathUnmakeSystemFolder", "shell.PathUnmakeSystemFolder", "shlwapi/PathUnmakeSystemFolder", "shlwapi/PathUnmakeSystemFolderW"]
 old-location: shell\PathUnmakeSystemFolder.htm
 tech.root: shell
 ms.assetid: 9c748ed6-3ee6-4889-8fdd-b33ed9d711d0
@@ -71,5 +71,5 @@ Returns nonzero if successful, or zero otherwise.
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathUnmakeSystemFolder as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathUnmakeSystemFolder as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

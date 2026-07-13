@@ -58,10 +58,7 @@ Calling the <a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsOpenDSObject</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsOpenDSObject</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IADsOpenDSObject</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsOpenDSObject</b> also has these types of members:
 
 ## -see-also
 

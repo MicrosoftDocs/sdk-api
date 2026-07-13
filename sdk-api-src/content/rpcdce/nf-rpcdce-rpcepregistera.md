@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterA
 title: RpcEpRegisterA function (rpcdce.h)
-description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
-helpviewer_keywords: ["RpcEpRegister","RpcEpRegister function [RPC]","RpcEpRegisterA","RpcEpRegisterW","_rpc_rpcepregister","rpc.rpcepregister","rpcdce/RpcEpRegister","rpcdce/RpcEpRegisterA","rpcdce/RpcEpRegisterW"]
+description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database. (RpcEpRegisterA)
+helpviewer_keywords: ["RpcEpRegisterA", "rpcdce/RpcEpRegisterA"]
 old-location: rpc\rpcepregister.htm
 tech.root: Rpc
 ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
@@ -190,7 +190,7 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcEpRegister as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcEpRegister as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

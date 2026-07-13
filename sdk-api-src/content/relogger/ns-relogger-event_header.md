@@ -1,12 +1,12 @@
 ---
 UID: NS:relogger._EVENT_HEADER
 title: EVENT_HEADER (relogger.h)
-description: Defines information about the event.
+description: The EVENT_HEADER structure (relogger.h) defines information about the event.  
 helpviewer_keywords: ["*PEVENT_HEADER","EVENT_HEADER","EVENT_HEADER structure [ETW]","EVENT_HEADER_FLAG_32_BIT_HEADER","EVENT_HEADER_FLAG_64_BIT_HEADER","EVENT_HEADER_FLAG_CLASSIC_HEADER","EVENT_HEADER_FLAG_EXTENDED_INFO","EVENT_HEADER_FLAG_NO_CPUTIME","EVENT_HEADER_FLAG_PRIVATE_SESSION","EVENT_HEADER_FLAG_STRING_ONLY","EVENT_HEADER_FLAG_TRACE_MESSAGE","EVENT_HEADER_PROPERTY_FORWARDED_XML","EVENT_HEADER_PROPERTY_LEGACY_EVENTLOG","EVENT_HEADER_PROPERTY_XML","PEVENT_HEADER","PEVENT_HEADER structure pointer [ETW]","_EVENT_HEADER","base.event_header","etw.event_header","relogger/EVENT_HEADER","relogger/PEVENT_HEADER"]
 old-location: etw\event_header.htm
 tech.root: ETW
 ms.assetid: 479091ae-7229-433b-b93b-8da6cc18df89
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PEVENT_HEADER, EVENT_HEADER, EVENT_HEADER structure [ETW], EVENT_HEADER_FLAG_32_BIT_HEADER, EVENT_HEADER_FLAG_64_BIT_HEADER, EVENT_HEADER_FLAG_CLASSIC_HEADER, EVENT_HEADER_FLAG_EXTENDED_INFO, EVENT_HEADER_FLAG_NO_CPUTIME, EVENT_HEADER_FLAG_PRIVATE_SESSION, EVENT_HEADER_FLAG_STRING_ONLY, EVENT_HEADER_FLAG_TRACE_MESSAGE, EVENT_HEADER_PROPERTY_FORWARDED_XML, EVENT_HEADER_PROPERTY_LEGACY_EVENTLOG, EVENT_HEADER_PROPERTY_XML, PEVENT_HEADER, PEVENT_HEADER structure pointer [ETW], _EVENT_HEADER, base.event_header, etw.event_header, relogger/EVENT_HEADER, relogger/PEVENT_HEADER'
 req.header: relogger.h
 req.include-header: Evntcons.h
@@ -17,7 +17,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Relogger.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

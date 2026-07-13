@@ -60,7 +60,7 @@ The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type defines the possible type
 
 The header is for a default level structure.
 
-### -field SaferIdentityTypeImageName
+### -field SaferIdentityTypeImageName:1
 
 The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
 

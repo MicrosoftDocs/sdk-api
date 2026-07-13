@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.LoginIScsiTargetA
 title: LoginIScsiTargetA function (iscsidsc.h)
-description: LoginIscsiTarget function establishes a full featured login session with the indicated target.
-helpviewer_keywords: ["ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","LoginIScsiTargetA","LoginIscsiTarget","LoginIscsiTarget function [iSCSI Discovery Library API]","LoginIscsiTargetA","LoginIscsiTargetW","iscsidisc.loginiscsitarget","iscsidsc/LoginIscsiTarget","iscsidsc/LoginIscsiTargetA","iscsidsc/LoginIscsiTargetW"]
+description: LoginIscsiTarget function establishes a full featured login session with the indicated target. (ANSI)
+helpviewer_keywords: ["ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED", "ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED", "ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED", "ISCSI_SECURITY_FLAG_PFS_ENABLED", "ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_VALID", "LoginIScsiTargetA", "LoginIscsiTargetA", "iscsidsc/LoginIscsiTargetA"]
 old-location: iscsidisc\loginiscsitarget.htm
 tech.root: iSCSIDisc
 ms.assetid: e94e72d2-b93c-41f4-aafc-78e6a97d7a26
@@ -218,7 +218,7 @@ The <b>LoginIscsiTarget</b> function either establishes a single login session w
 
 
 > [!NOTE]
-> The iscsidsc.h header defines LoginIScsiTarget as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines LoginIScsiTarget as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tagMIXERLINEW
 title: MIXERLINEW (mmeapi.h)
-description: The MIXERLINE structure describes the state and metrics of an audio line.
+description: The MIXERLINE structure describes the state and metrics of an audio line. (MIXERLINEW)
 helpviewer_keywords: ["*LPMIXERLINEW","*PMIXERLINEW","MIXERLINE","MIXERLINE structure [Windows Multimedia]","MIXERLINEW","MIXERLINE_COMPONENTTYPE_DST_DIGITAL","MIXERLINE_COMPONENTTYPE_DST_HEADPHONES","MIXERLINE_COMPONENTTYPE_DST_LINE","MIXERLINE_COMPONENTTYPE_DST_MONITOR","MIXERLINE_COMPONENTTYPE_DST_SPEAKERS","MIXERLINE_COMPONENTTYPE_DST_TELEPHONE","MIXERLINE_COMPONENTTYPE_DST_UNDEFINED","MIXERLINE_COMPONENTTYPE_DST_VOICEIN","MIXERLINE_COMPONENTTYPE_DST_WAVEIN","MIXERLINE_COMPONENTTYPE_SRC_ANALOG","MIXERLINE_COMPONENTTYPE_SRC_AUXILIARY","MIXERLINE_COMPONENTTYPE_SRC_COMPACTDISC","MIXERLINE_COMPONENTTYPE_SRC_DIGITAL","MIXERLINE_COMPONENTTYPE_SRC_LINE","MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE","MIXERLINE_COMPONENTTYPE_SRC_PCSPEAKER","MIXERLINE_COMPONENTTYPE_SRC_SYNTHESIZER","MIXERLINE_COMPONENTTYPE_SRC_TELEPHONE","MIXERLINE_COMPONENTTYPE_SRC_UNDEFINED","MIXERLINE_COMPONENTTYPE_SRC_WAVEOUT","MIXERLINE_LINEF_ACTIVE","MIXERLINE_LINEF_DISCONNECTED","MIXERLINE_LINEF_SOURCE","MIXERLINE_TARGETTYPE_AUX","MIXERLINE_TARGETTYPE_MIDIIN","MIXERLINE_TARGETTYPE_MIDIOUT","MIXERLINE_TARGETTYPE_UNDEFINED","MIXERLINE_TARGETTYPE_WAVEIN","MIXERLINE_TARGETTYPE_WAVEOUT","_win32_MIXERLINE_str","mmeapi/MIXERLINE","multimedia.mixerline","tagMIXERLINE","tagMIXERLINEA","tagMIXERLINEW"]
 old-location: multimedia\mixerline.htm
 tech.root: Multimedia
@@ -510,4 +510,4 @@ Audio Mixers
 ## -remarks
 
 > [!NOTE]
-> The mmeapi.h header defines MIXERLINE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines MIXERLINE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

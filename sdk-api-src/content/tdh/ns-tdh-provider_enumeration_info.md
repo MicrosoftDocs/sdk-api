@@ -49,7 +49,6 @@ api_name:
 
 # PROVIDER_ENUMERATION_INFO structure
 
-
 ## -description
 
 Defines the array of providers that have registered a MOF or manifest on the computer.
@@ -72,5 +71,4 @@ Array of <a href="/windows/desktop/api/tdh/ns-tdh-trace_provider_info">TRACE_PRO
 Reserved.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a>

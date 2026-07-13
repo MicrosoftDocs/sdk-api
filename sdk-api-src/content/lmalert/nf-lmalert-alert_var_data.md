@@ -6,7 +6,7 @@ helpviewer_keywords: ["ALERT_VAR_DATA","ALERT_VAR_DATA macro [Network Management
 old-location: netmgmt\alert_var_data.htm
 tech.root: NetMgmt
 ms.assetid: ff71fb3d-8c01-47ac-93f2-108b1f49e2da
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ALERT_VAR_DATA, ALERT_VAR_DATA macro [Network Management], _win32_alert_var_data, lmalert/ALERT_VAR_DATA, netmgmt.alert_var_data
 req.header: lmalert.h
 req.include-header: Lm.h
@@ -47,25 +47,30 @@ api_name:
 
 # ALERT_VAR_DATA macro
 
+## -syntax
+
+```cpp
+LPBYTE ALERT_VAR_DATA(
+    LPBYTE p
+);
+```
+
+## -returns
+
+Type: **LPBYTE**
+
+The return value is a pointer to the variable-length data that follows the fixed-length structure in the alert message.
+
 
 ## -description
 
-The 
-				<b>ALERT_VAR_DATA</b> macro returns a pointer to the variable-length portion of an alert message. Variable-length data can follow an 
-<a href="/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, a 
-<a href="/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or a 
-<a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure.
+The <b>ALERT_VAR_DATA</b> macro returns a pointer to the variable-length portion of an alert message. Variable-length data can follow an <a href="/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, a <a href="/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or a <a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure.
 
 ## -parameters
 
 ### -param p
 
-Pointer to an 
-<b>ADMIN_OTHER_INFO</b>, a 
-<b>PRINT_OTHER_INFO</b>, or a 
-<b>USER_OTHER_INFO</b> structure that was specified in a call to the 
-<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> function or the 
-<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> function.
+Pointer to an <b>ADMIN_OTHER_INFO</b>, a <b>PRINT_OTHER_INFO</b>, or a <b>USER_OTHER_INFO</b> structure that was specified in a call to the <a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> function or the <a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> function.
 
 ## -remarks
 
@@ -82,10 +87,7 @@ The
 ```
 
 
-See 
-<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> and 
-<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> for code samples that use the 
-<b>ALERT_VAR_DATA</b> macro to retrieve a pointer to the variable-length data in an alert message.
+See <a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> and <a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> for code samples that use the <b>ALERT_VAR_DATA</b> macro to retrieve a pointer to the variable-length data in an alert message.
 
 ## -see-also
 

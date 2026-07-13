@@ -52,7 +52,7 @@ api_name:
 
 Stops the component load balancing service if the service is currently installed.
 
-## -parameters
+
 
 ## -returns
 

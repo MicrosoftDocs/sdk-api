@@ -54,14 +54,14 @@ Provides a set of flags to be used with <a href="/windows/desktop/api/shobjidl_c
 
 ## -enum-fields
 
-### -field ATTACHMENT_ACTION_CANCEL
+### -field ATTACHMENT_ACTION_CANCEL:0
 
 Cancel
 
-### -field ATTACHMENT_ACTION_SAVE
+### -field ATTACHMENT_ACTION_SAVE:0x1
 
 Save
 
-### -field ATTACHMENT_ACTION_EXEC
+### -field ATTACHMENT_ACTION_EXEC:0x2
 
 Execute

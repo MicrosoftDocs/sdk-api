@@ -60,7 +60,7 @@ Address of a callback function that accepts data from the stream encryption or d
 
 ### -field pvCallbackCtxt
 
-Pointer to a buffer supplied the caller. The buffer is not modified by the data protection API. You can use the buffer to keep track of your application.
+Pointer to a buffer supplied by the caller. The buffer is not modified by the data protection API. You can use the buffer to pass generic data to the callback or keep track of your application.
 
 ## -see-also
 
@@ -72,4 +72,4 @@ Pointer to a buffer supplied the caller. The buffer is not modified by the data 
 
 
 
-<a href="/windows/desktop/api/ncryptprotect/nc-ncryptprotect-pfncryptstreamoutputcallback">PFNCryptStreamOutputCallback</a>
+<a href="/windows/win32/api/ncryptprotect/nc-ncryptprotect-pfncryptstreamoutputcallback">PFNCryptStreamOutputCallback</a>

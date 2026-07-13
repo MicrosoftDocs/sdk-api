@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetEntryPropertiesW
 title: RasSetEntryPropertiesW function (ras.h)
-description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
-helpviewer_keywords: ["RasSetEntryProperties","RasSetEntryProperties function [RAS]","RasSetEntryPropertiesA","RasSetEntryPropertiesW","_ras_rassetentryproperties","ras/RasSetEntryProperties","ras/RasSetEntryPropertiesA","ras/RasSetEntryPropertiesW","rras.rassetentryproperties"]
+description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry. (Unicode)
+helpviewer_keywords: ["RasSetEntryProperties", "RasSetEntryProperties function [RAS]", "RasSetEntryPropertiesW", "_ras_rassetentryproperties", "ras/RasSetEntryProperties", "ras/RasSetEntryPropertiesW", "rras.rassetentryproperties"]
 old-location: rras\rassetentryproperties.htm
 tech.root: RRAS
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
@@ -217,7 +217,7 @@ The combined path is the correct location for the phone-book file.
 
 
 > [!NOTE]
-> The ras.h header defines RasSetEntryProperties as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasSetEntryProperties as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

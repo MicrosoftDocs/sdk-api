@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: hrtfapo.lib
 req.dll: HrtfApo.dll
 req.irql: 
 targetos: Windows

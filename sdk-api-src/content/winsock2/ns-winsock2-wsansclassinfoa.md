@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSANSClassInfoA
 title: WSANSCLASSINFOA (winsock2.h)
-description: The WSANSCLASSINFO structure provides individual parameter information for a specific Windows Sockets namespace.
+description: The WSANSCLASSINFO structure provides individual parameter information for a specific Windows Sockets namespace. (ANSI)
 helpviewer_keywords: ["*LPWSANSCLASSINFOA","*PWSANSCLASSINFO","*LPWSANSCLASSINFO","*PWSANSCLASSINFO","*LPWSANSCLASSINFO structure [Winsock]","*PWSANSCLASSINFOA","WSANSCLASSINFO","WSANSCLASSINFO structure [Winsock]","WSANSCLASSINFOA","winsock.wsansclassinfo","winsock2/*PWSANSCLASSINFO","*LPWSANSCLASSINFO","winsock2/WSANSCLASSINFO"]
 old-location: winsock\wsansclassinfo.htm
 tech.root: WinSock
@@ -87,7 +87,7 @@ The <b>WSANSCLASSINFO</b> structure is defined differently depending on whether 
 
 
 > [!NOTE]
-> The winsock2.h header defines WSANSCLASSINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSANSCLASSINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

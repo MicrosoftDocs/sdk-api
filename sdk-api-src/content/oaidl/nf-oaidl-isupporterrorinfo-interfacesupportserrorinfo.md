@@ -97,7 +97,7 @@ Objects that support the <a href="/previous-versions/windows/desktop/api/oaidl/n
 
 
 
-Programs that receive an error return value should call <b>QueryInterface</b> to get a pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-isupporterrorinfo">ISupportErrorInfo</a>interface, and then call <b>InterfaceSupportsErrorInfo</b> with the <i>riid</i> of the interface that returned the return value. If <b>InterfaceSupportsErrorInfo</b> returns S_FALSE, then the error object does not represent an error returned from the caller, but from somewhere else. In this case, the error object can be considered incorrect and should be discarded.
+Programs that receive an error return value should call <b>QueryInterface</b> to get a pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-isupporterrorinfo">ISupportErrorInfo</a> interface, and then call <b>InterfaceSupportsErrorInfo</b> with the <i>riid</i> of the interface that returned the return value. If <b>InterfaceSupportsErrorInfo</b> returns S_FALSE, then the error object does not represent an error returned from the caller, but from somewhere else. In this case, the error object can be considered incorrect and should be discarded.
 
 
 

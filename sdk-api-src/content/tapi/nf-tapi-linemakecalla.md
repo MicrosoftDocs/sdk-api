@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineMakeCallA
 title: lineMakeCallA function (tapi.h)
-description: The lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested.
-helpviewer_keywords: ["_tapi2_linemakecall","lineMakeCall","lineMakeCall function [TAPI 2.2]","lineMakeCallA","lineMakeCallW","tapi/lineMakeCall","tapi/lineMakeCallA","tapi/lineMakeCallW","tapi2.linemakecall"]
+description: The lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested. (lineMakeCallA)
+helpviewer_keywords: ["lineMakeCallA", "tapi/lineMakeCallA"]
 old-location: tapi2\linemakecall.htm
 tech.root: tapi3
 ms.assetid: a7dc9cdc-3cc3-4b6a-98c8-e141402c781e
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ras-tapi32-l1-1-1.dll
  - Tapi32.dll
 api_name:
  - lineMakeCall
@@ -123,7 +124,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 > [!NOTE]
-> The tapi.h header defines lineMakeCall as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineMakeCall as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

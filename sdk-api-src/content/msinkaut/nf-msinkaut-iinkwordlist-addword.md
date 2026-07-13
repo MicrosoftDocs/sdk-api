@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -145,7 +145,7 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832804(v=VS.85).aspx">IInkWordList</a>
+<a href="../msinkaut/nn-msinkaut-iinkwordlist.md">IInkWordList</a>
 
 
 

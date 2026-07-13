@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmAttachMilContent
 title: DwmAttachMilContent function (dwmapi.h)
-description: This function is not implemented.
+description: This function is not implemented. (DwmAttachMilContent)
 helpviewer_keywords: ["DwmAttachMilContent","DwmAttachMilContent function [Desktop Window Manager]","_udwm_dwmattachmilcontent","_udwm_dwmattachmilcontent_cpp","dwm.dwmattachmilcontent","dwmapi/DwmAttachMilContent","winui._udwm_dwmattachmilcontent"]
 old-location: dwm\dwmattachmilcontent.htm
 tech.root: dwm
@@ -58,5 +58,5 @@ This function is deprecated and only returns DWM_E_COMPOSITIONDISABLED in Window
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

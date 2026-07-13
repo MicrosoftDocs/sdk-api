@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - ComBase.dll
@@ -57,7 +59,7 @@ api_name:
 
 Restores the authentication information on a thread of execution.
 
-## -parameters
+
 
 ## -returns
 
@@ -69,10 +71,14 @@ This function supports the standard return values, including S_OK to indicate su
 
 <b>CoRevertToSelf</b> encapsulates the following common sequence of calls (error handling excluded):
 
-<pre class="syntax" xml:space="preserve"><code>    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
-    pss-&gt;RevertToSelf();
-    pss-&gt;Release();
-</code></pre>
+
+``` syntax
+    CoGetCallContext(IID_IServerSecurity, (void**)&pss);
+    pss->RevertToSelf();
+    pss->Release();
+
+```
+
 
 ## -see-also
 

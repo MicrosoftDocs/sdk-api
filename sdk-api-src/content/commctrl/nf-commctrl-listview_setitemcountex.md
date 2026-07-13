@@ -6,7 +6,7 @@ helpviewer_keywords: ["LVSICF_NOINVALIDATEALL","LVSICF_NOSCROLL","ListView_SetIt
 old-location: controls\ListView_SetItemCountEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemcountex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: LVSICF_NOINVALIDATEALL, LVSICF_NOSCROLL, ListView_SetItemCountEx, ListView_SetItemCountEx macro [Windows Controls], _win32_ListView_SetItemCountEx, _win32_ListView_SetItemCountEx_cpp, commctrl/ListView_SetItemCountEx, controls.ListView_SetItemCountEx, controls._win32_ListView_SetItemCountEx
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # ListView_SetItemCountEx macro
+
+## -syntax
+
+```cpp
+LRESULT ListView_SetItemCountEx(
+   HWND  hwndLV,
+   int   cItems,
+   DWORD dwFlags
+);
+```
 
 
 ## -description
@@ -98,6 +108,12 @@ The list-view control will not change the scroll position when the item count ch
 </td>
 </tr>
 </table>
+
+## -returns
+
+Type: <b>LRESULT</b>
+
+Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 

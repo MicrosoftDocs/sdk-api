@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.GetAppliedGPOListW
 title: GetAppliedGPOListW function (userenv.h)
-description: The GetAppliedGPOList function retrieves the list of GPOs applied for the specified user or computer.
-helpviewer_keywords: ["GPO_LIST_FLAG_MACHINE","GetAppliedGPOList","GetAppliedGPOList function [Group Policy]","GetAppliedGPOListA","GetAppliedGPOListW","_win32_getappliedgpolist","policy.getappliedgpolist","userenv/GetAppliedGPOList","userenv/GetAppliedGPOListA","userenv/GetAppliedGPOListW"]
+description: The GetAppliedGPOList function retrieves the list of GPOs applied for the specified user or computer. (Unicode)
+helpviewer_keywords: ["GPO_LIST_FLAG_MACHINE", "GetAppliedGPOList", "GetAppliedGPOList function [Group Policy]", "GetAppliedGPOListW", "_win32_getappliedgpolist", "policy.getappliedgpolist", "userenv/GetAppliedGPOList", "userenv/GetAppliedGPOListW"]
 old-location: policy\getappliedgpolist.htm
 tech.root: Policy
 ms.assetid: 11e80a4e-acc4-4229-aa34-8f7d083c1041
@@ -109,7 +109,7 @@ To free the GPO list when you have finished processing it, call the
 
 
 > [!NOTE]
-> The userenv.h header defines GetAppliedGPOList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The userenv.h header defines GetAppliedGPOList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagPSDW
 title: PAGESETUPDLGW (commdlg.h)
-description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure.
+description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure. (Unicode)
 helpviewer_keywords: ["*LPPAGESETUPDLGW","LPPAGESETUPDLG","LPPAGESETUPDLG structure pointer [Dialog Boxes]","PAGESETUPDLG","PAGESETUPDLG structure [Dialog Boxes]","PAGESETUPDLGA","PAGESETUPDLGW","PSD_DEFAULTMINMARGINS","PSD_DISABLEMARGINS","PSD_DISABLEORIENTATION","PSD_DISABLEPAGEPAINTING","PSD_DISABLEPAPER","PSD_DISABLEPRINTER","PSD_ENABLEPAGEPAINTHOOK","PSD_ENABLEPAGESETUPHOOK","PSD_ENABLEPAGESETUPTEMPLATE","PSD_ENABLEPAGESETUPTEMPLATEHANDLE","PSD_INHUNDREDTHSOFMILLIMETERS","PSD_INTHOUSANDTHSOFINCHES","PSD_INWININIINTLMEASURE","PSD_MARGINS","PSD_MINMARGINS","PSD_NONETWORKBUTTON","PSD_NOWARNING","PSD_RETURNDEFAULT","PSD_SHOWHELP","_win32_PAGESETUPDLG_str","_win32_pagesetupdlg_str_cpp","commdlg/LPPAGESETUPDLG","commdlg/PAGESETUPDLG","commdlg/PAGESETUPDLGA","commdlg/PAGESETUPDLGW","dlgbox.pagesetupdlg_str","tagPSDA","tagPSDW","winui._win32_pagesetupdlg_str"]
 old-location: dlgbox\pagesetupdlg_str.htm
 tech.root: dlgbox
@@ -313,7 +313,7 @@ Causes the dialog box to display the 	<b>Help</b> button. The <b>hwndOwner</b> m
 
 ### -field ptPaperSize
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The dimensions of the paper selected by the user. The <b>PSD_INTHOUSANDTHSOFINCHES</b> or <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> flag indicates the units of measurement.
 
@@ -377,7 +377,7 @@ If both <b>hDevNames</b> and <b>hDevMode</b> have valid handles and the printer 
 
 
 > [!NOTE]
-> The commdlg.h header defines PAGESETUPDLG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines PAGESETUPDLG as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

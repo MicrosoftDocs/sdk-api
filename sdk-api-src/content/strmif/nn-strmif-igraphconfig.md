@@ -6,7 +6,7 @@ helpviewer_keywords: ["IGraphConfig","IGraphConfig interface [DirectShow]","IGra
 old-location: dshow\igraphconfig.htm
 tech.root: dshow
 ms.assetid: 7df22157-9dd1-410e-b037-a155f7b9a01b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], IGraphConfig interface [DirectShow],described, IGraphConfigInterface, dshow.igraphconfig, strmif/IGraphConfig
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The Filter Graph Manager exposes <code>IGraphConfig</code> to support dynamic graph building. This interface enables applications and filters to reconfigure the filter graph while the graph is in a running state, and without losing data from the stream.
 
 The most straightforward way to rebuild the graph dynamically is to call the <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method. This method handles most of the details of dynamically rebuilding the graph. If a situation ever arises where you want to implement your own technique, <code>IGraphConfig</code> also provides the <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a> method. This method obtains a lock on the filter graph and then calls a callback function in your application, which reconfigures the graph. With this method, most of the work is shifted to your application. For more information, see <a href="/windows/desktop/DirectShow/dynamic-graph-building">Dynamic Graph Building</a>.
@@ -59,8 +61,5 @@ To optimize the process of adding and removing filters, the filter graph maintai
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IGraphConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphConfig</b> also has these types of members:
 

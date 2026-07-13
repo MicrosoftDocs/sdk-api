@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.capCaptureGetSetup
 title: capCaptureGetSetup macro (vfw.h)
-description: The capCaptureGetSetup macro retrieves the current settings of the streaming capture parameters. You can use this macro or explictly send the WM_CAP_GET_SEQUENCE_SETUP message.
+description: The capCaptureGetSetup macro retrieves the current settings of the streaming capture parameters. You can use this macro or explicitly send the WM_CAP_GET_SEQUENCE_SETUP message.
 helpviewer_keywords: ["_win32_capCaptureGetSetup","capCaptureGetSetup","capCaptureGetSetup macro [Windows Multimedia]","multimedia.capcapturegetsetup","vfw/capCaptureGetSetup"]
 old-location: multimedia\capcapturegetsetup.htm
 tech.root: Multimedia
 ms.assetid: 198b1aae-b719-4fb8-a11d-859eaf7a4606
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capCaptureGetSetup, capCaptureGetSetup, capCaptureGetSetup macro [Windows Multimedia], multimedia.capcapturegetsetup, vfw/capCaptureGetSetup
 req.header: vfw.h
 req.include-header: 
@@ -47,10 +47,26 @@ api_name:
 
 # capCaptureGetSetup macro
 
+## -syntax
+
+```cpp
+BOOL capCaptureGetSetup(
+     hwnd,
+     s,
+     wSize
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
+
 
 ## -description
 
-The <b>capCaptureGetSetup</b> macro retrieves the current settings of the streaming capture parameters. You can use this macro or explictly send the <a href="/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a> message.
+The <b>capCaptureGetSetup</b> macro retrieves the current settings of the streaming capture parameters. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a> message.
 
 ## -parameters
 

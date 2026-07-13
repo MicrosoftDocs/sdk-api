@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowA
 title: CreateWindowA macro (winuser.h)
-description: Creates an overlapped, pop-up, or child window.
-helpviewer_keywords: ["CreateWindow","CreateWindow function [Windows and Messages]","CreateWindowA","CreateWindowW","_win32_CreateWindow","_win32_createwindow_cpp","winmsg.createwindow","winui._win32_createwindow","winuser/CreateWindow","winuser/CreateWindowA","winuser/CreateWindowW"]
+description: Creates an overlapped, pop-up, or child window. (ANSI)
+helpviewer_keywords: ["CreateWindowA", "winuser/CreateWindowA"]
 old-location: winmsg\createwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindow.htm
@@ -45,6 +45,7 @@ api_name:
  - CreateWindow
  - CreateWindowA
  - CreateWindowW
+no-loc: [BUTTON, COMBOBOX, EDIT, LISTBOX, MDICLIENT, RichEdit, RICHEDIT_CLASS, SCROLLBAR, STATIC]
 ---
 
 # CreateWindowA macro
@@ -56,17 +57,35 @@ Creates an overlapped, pop-up, or child window. It specifies the window class, w
 
 To use extended window styles in addition to the styles supported by <b>CreateWindow</b>, use the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
 
+## -syntax
+
+```cpp
+HWND CreateWindowA(
+  [in, optional] LPCSTR    lpClassName,
+  [in, optional] LPCSTR    lpWindowName,
+  [in]           DWORD     dwStyle,
+  [in]           int       x,
+  [in]           int       y,
+  [in]           int       nWidth,
+  [in]           int       nHeight,
+  [in, optional] HWND      hWndParent,
+  [in, optional] HMENU     hMenu,
+  [in, optional] HINSTANCE hInstance,
+  [in, optional] LPVOID    lpParam
+);
+```
+
 ## -parameters
 
 ### -param lpClassName [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 A <b>null</b>-terminated string or a class atom created by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. If <i>lpClassName</i> is a string, it specifies the window class name. The class name can be any name registered with <b>RegisterClass</b> or <b>RegisterClassEx</b>, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined system class names. For a list of system class names, see the Remarks section.
 
 ### -param lpWindowName [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 The window name. If the window style specifies a title bar, the window title pointed to by <i>lpWindowName</i> is displayed in the title bar. When using <b>CreateWindow</b> to create controls, such as buttons, check boxes, and static controls, use <i>lpWindowName</i> to specify the text of the control. When creating a static control with the <b>SS_ICON</b> style, use <i>lpWindowName</i> to specify the icon name or identifier. To specify an identifier, use the syntax "#<i>num</i>".
 
@@ -132,7 +151,7 @@ A pointer to a value to be passed to the window through the <a href="/windows/de
 If an application calls <b>CreateWindow</b> to create a MDI client window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If an MDI client window calls <b>CreateWindow</b> to create an MDI child window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure. <i>lpParam</i> may be <b>NULL</b> if no additional data is needed.
 
 
-## Returns
+## -returns
 
 Type: <b>HWND</b>
 
@@ -163,7 +182,7 @@ The following predefined system classes can be specified in the <i>lpClassName</
 <tr>
 <td><b>BUTTON</b></td>
 <td>
-Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="/windows/desktop/Tapi/buttons">Buttons</a>
+Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="/windows/desktop/Controls/buttons">Buttons</a>
 
 
 For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="/windows/desktop/Controls/button-styles">Button Styles</a>.
@@ -247,7 +266,9 @@ For a table of the static control styles you can specify in the <i>dwStyle</i> p
 
 <b>CreateWindow</b> is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function, as shown below.
 
-<pre class="syntax" xml:space="preserve"><code>#define CreateWindowA(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
+
+``` syntax
+#define CreateWindowA(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
 CreateWindowExA(0L, lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)
 
 #define CreateWindowW(lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, hWndParent, hMenu, hInstance, lpParam)\
@@ -257,7 +278,9 @@ CreateWindowExW(0L, lpClassName, lpWindowName, dwStyle, x, y, nWidth, nHeight, h
 #define CreateWindow  CreateWindowW
 #else
 #define CreateWindow  CreateWindowA
-#endif</code></pre>
+#endif
+```
+
 
 #### Examples
 
@@ -269,7 +292,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-classes">Using
 
 
 > [!NOTE]
-> The winuser.h header defines CreateWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CreateWindow as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

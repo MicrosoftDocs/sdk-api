@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.SetFolder
 title: INewShortcutHookA::SetFolder (shlobj.h)
-description: Sets the folder name for the shortcut object.
+description: Sets the folder name for the shortcut object. (ANSI)
 helpviewer_keywords: ["INewShortcutHook interface [Windows Shell]","SetFolder method","INewShortcutHook::SetFolder","INewShortcutHookA","INewShortcutHookA.SetFolder","INewShortcutHookA::SetFolder","INewShortcutHookW","INewShortcutHookW::SetFolder","SetFolder","SetFolder method [Windows Shell]","SetFolder method [Windows Shell]","INewShortcutHook interface","_win32_INewShortcutHook_SetFolder","shell.INewShortcutHook_SetFolder","shlobj/INewShortcutHook::SetFolder"]
 old-location: shell\INewShortcutHook_SetFolder.htm
 tech.root: shell
@@ -73,5 +73,5 @@ A pointer to a string that contains the folder name.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

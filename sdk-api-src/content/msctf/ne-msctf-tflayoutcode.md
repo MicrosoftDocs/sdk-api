@@ -56,15 +56,15 @@ Elements of the <b>TfLayoutCode</b> enumeration specify the type of layout chang
 
 ## -enum-fields
 
-### -field TF_LC_CREATE
+### -field TF_LC_CREATE:0
 
 The view has just been created.
 
-### -field TF_LC_CHANGE
+### -field TF_LC_CHANGE:1
 
 The view layout has changed.
 
-### -field TF_LC_DESTROY
+### -field TF_LC_DESTROY:2
 
 The view is about to be destroyed.
 

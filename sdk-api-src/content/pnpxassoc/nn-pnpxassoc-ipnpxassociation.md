@@ -56,16 +56,17 @@ Defines methods to manage the association database entries for  PnP-X devices. .
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPNPXAssociation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPNPXAssociation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPNPXAssociation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPNPXAssociation</b> also has these types of members:
 
 ## -remarks
 
 This interface is obtained by calling <a href="/previous-versions/windows/desktop/legacy/aa364381(v=vs.85)">QueryService</a> on a function instance returned by a Function Discovery query. The following pseudocode shows the parameters to use for the  <b>QueryService</b> call.
 
-<pre class="syntax" xml:space="preserve"><code>QueryService( SID_PNPXAssociation, __uuidof( IPNPXAssociation ) )</code></pre>
+
+``` syntax
+QueryService( SID_PNPXAssociation, __uuidof( IPNPXAssociation ) )
+```
+
 The <b>IPNPXAssociation</b> methods modify the association database entry for the function instance upon which <a href="/previous-versions/windows/desktop/legacy/aa364381(v=vs.85)">QueryService</a>  was called.
 
 Not all function instances can be associated using the <b>IPNPXAssociation</b> methods. The function instance must have its  PKEY_PNPX_GlobalIdentity key populated with the UUID supplied by the Function Discovery provider used to discover the device. For more information about property keys, see <a href="/previous-versions/windows/desktop/fundisc/pnp-x-provider-pkeys">PnP-X Provider PKEYs</a>.

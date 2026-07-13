@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertProperty.get_PropertyId
 title: ICertProperty::get_PropertyId (certenroll.h)
-description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property.
+description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property. (Get)
 helpviewer_keywords: ["ICertProperty interface [Security]","PropertyId property","ICertProperty.PropertyId","ICertProperty.get_PropertyId","ICertProperty::PropertyId","ICertProperty::get_PropertyId","ICertProperty::put_PropertyId","PropertyId property [Security]","PropertyId property [Security]","ICertProperty interface","certenroll/ICertProperty::PropertyId","certenroll/ICertProperty::get_PropertyId","certenroll/ICertProperty::put_PropertyId","get_PropertyId","security.icertproperty_propertyid_property"]
 old-location: security\icertproperty_propertyid_property.htm
 tech.root: security

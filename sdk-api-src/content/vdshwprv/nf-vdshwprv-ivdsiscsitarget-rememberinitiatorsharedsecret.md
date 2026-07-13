@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.RememberInitiatorSharedSecret
 title: IVdsIscsiTarget::RememberInitiatorSharedSecret (vdshwprv.h)
-description: Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator authenticates the target.
+description: The IVdsIscsiTarget::RememberInitiatorSharedSecret (vdshwprv.h) method communicates the initiator CHAP secret that is used for mutual CHAP authentication.
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","RememberInitiatorSharedSecret method","IVdsIscsiTarget.RememberInitiatorSharedSecret","IVdsIscsiTarget::RememberInitiatorSharedSecret","RememberInitiatorSharedSecret","RememberInitiatorSharedSecret method [VDS]","RememberInitiatorSharedSecret method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_rememberinitiatorsharedsecret","vds/IVdsIscsiTarget::RememberInitiatorSharedSecret","vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret"]
 old-location: base\ivdsiscsitarget_rememberinitiatorsharedsecret.htm
 tech.root: base
 ms.assetid: 3546f42c-2c30-4819-982d-9c186d9f858e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiTarget interface [VDS],RememberInitiatorSharedSecret method, IVdsIscsiTarget.RememberInitiatorSharedSecret, IVdsIscsiTarget::RememberInitiatorSharedSecret, RememberInitiatorSharedSecret, RememberInitiatorSharedSecret method [VDS], RememberInitiatorSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_rememberinitiatorsharedsecret, vds/IVdsIscsiTarget::RememberInitiatorSharedSecret, vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator 
    authenticates the target.
@@ -79,7 +79,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,7 +90,7 @@ The shared secret was remembered successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -107,7 +107,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -119,7 +119,7 @@ The target object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 <dt>0x80042400L</dt>
 </dl>
 </td>

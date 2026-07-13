@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderOfficePhone
 title: IFaxDoc::put_SenderOfficePhone (faxcom.h)
-description: Sets or retrieves the SenderOfficePhone property of a FaxDoc object. The SenderOfficePhone property is a null-terminated string that contains the office telephone number of the sender of the fax transmission.
+description: Sets or retrieves the SenderOfficePhone property of a FaxDoc object. The SenderOfficePhone property is a null-terminated string that contains the office telephone number of the sender of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","SenderOfficePhone property","IFaxDoc.SenderOfficePhone","IFaxDoc.put_SenderOfficePhone","IFaxDoc::SenderOfficePhone","IFaxDoc::get_SenderOfficePhone","IFaxDoc::put_SenderOfficePhone","SenderOfficePhone property [Fax Service]","SenderOfficePhone property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_senderofficephone","fax._mfax_ifaxdoc_get_senderofficephone","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderofficephone_cpp","faxcom/IFaxDoc::SenderOfficePhone","faxcom/IFaxDoc::get_SenderOfficePhone","faxcom/IFaxDoc::put_SenderOfficePhone","put_SenderOfficePhone"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderofficephone_cpp.htm
 tech.root: Fax

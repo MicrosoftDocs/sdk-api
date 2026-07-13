@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsCrackNamesA
 title: DsCrackNamesA function (ntdsapi.h)
-description: Converts an array of directory service object names from one format to another.
-helpviewer_keywords: ["DsCrackNames","DsCrackNames function [Active Directory]","DsCrackNamesA","DsCrackNamesW","_glines_dscracknames","ad.dscracknames","ntdsapi/DsCrackNames","ntdsapi/DsCrackNamesA","ntdsapi/DsCrackNamesW"]
+description: Converts an array of directory service object names from one format to another. (ANSI)
+helpviewer_keywords: ["DsCrackNamesA", "ntdsapi/DsCrackNamesA"]
 old-location: ad\dscracknames.htm
 tech.root: ad
 ms.assetid: f812a001-5aab-4c62-87bd-54f95792e271
@@ -139,7 +139,7 @@ The return value from <b>DsCrackNames</b> indicates errors such as invalid
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsCrackNames as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsCrackNames as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -92,7 +92,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information, 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>NULL</b></b></dt>
+<dt><b>NULL</b></dt>
 </dl>
 </td>
 <td width="60%">

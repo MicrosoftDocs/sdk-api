@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","isIdent
 old-location: wmp\iwmpsyncdevice_isidentical.htm
 tech.root: WMP
 ms.assetid: 4335d480-5af0-4764-b8f8-0e6edc1598b7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],isIdentical method, IWMPSyncDevice.isIdentical, IWMPSyncDevice::isIdentical, IWMPSyncDeviceisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_isidentical, wmp/IWMPSyncDevice::isIdentical
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>isIdentical</b> method compares the current device to the specified device and retrieves a value indicating whether they are the same device.
 

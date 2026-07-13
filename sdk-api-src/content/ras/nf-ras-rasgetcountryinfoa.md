@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetCountryInfoA
 title: RasGetCountryInfoA function (ras.h)
-description: The RasGetCountryInfo function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions.
-helpviewer_keywords: ["RasGetCountryInfo","RasGetCountryInfo function [RAS]","RasGetCountryInfoA","RasGetCountryInfoW","_ras_rasgetcountryinfo","ras/RasGetCountryInfo","ras/RasGetCountryInfoA","ras/RasGetCountryInfoW","rras.rasgetcountryinfo"]
+description: The RasGetCountryInfo function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions. (ANSI)
+helpviewer_keywords: ["RasGetCountryInfoA", "ras/RasGetCountryInfoA"]
 old-location: rras\rasgetcountryinfo.htm
 tech.root: RRAS
 ms.assetid: 87a4ae40-6750-46cf-89c2-c229de5a585d
@@ -149,7 +149,7 @@ To enumerate information for all countries/regions in the Windows Telephony list
 
 
 > [!NOTE]
-> The ras.h header defines RasGetCountryInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetCountryInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

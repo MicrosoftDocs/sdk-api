@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplate.get_Name
 title: IFsrmFileScreenTemplate::get_Name (fsrmscreen.h)
-description: Retrieves and sets the name of the file screen template.
+description: Retrieves and sets the name of the file screen template. (Get)
 helpviewer_keywords: ["IFsrmFileScreenTemplate interface [File Server Resource Manager]","Name property","IFsrmFileScreenTemplate.Name","IFsrmFileScreenTemplate.get_Name","IFsrmFileScreenTemplate::Name","IFsrmFileScreenTemplate::get_Name","IFsrmFileScreenTemplate::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmFileScreenTemplate interface","fs.ifsrmfilescreentemplate_name","fsrm.ifsrmfilescreentemplate_name","fsrmscreen/IFsrmFileScreenTemplate::Name","fsrmscreen/IFsrmFileScreenTemplate::get_Name","fsrmscreen/IFsrmFileScreenTemplate::put_Name","get_Name"]
 old-location: fsrm\ifsrmfilescreentemplate_name.htm
 tech.root: fsrm

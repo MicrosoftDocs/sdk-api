@@ -53,7 +53,7 @@ api_name:
 
 The <b>PathGradientBrush::GetBlendCount</b> method gets the number of blend factors currently set for this path gradient brush.
 
-## -parameters
+
 
 ## -returns
 
@@ -64,8 +64,8 @@ This method returns the number of blend factors currently set for this path grad
 ## -remarks
 
 Before you call the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblend">PathGradientBrush::GetBlend</a> method of a 
-				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object, you must allocate two buffers: one to receive an array of blend factors and one to receive an array of blend positions. To determine the size of the required buffers, call the <b>PathGradientBrush::GetBlendCount</b> method of the 
-				<b>PathGradientBrush</b>object. The size (in bytes) of each buffer should be the return value of <b>PathGradientBrush::GetBlendCount</b>multiplied by 
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object, you must allocate two buffers: one to receive an array of blend factors and one to receive an array of blend positions. To determine the size of the required buffers, call the <b>PathGradientBrush::GetBlendCount</b> method of the 
+				<b>PathGradientBrush</b> object. The size (in bytes) of each buffer should be the return value of <b>PathGradientBrush::GetBlendCount</b> multiplied by 
 				<b>sizeof</b>(
 				<b>REAL</b>).
 
@@ -75,8 +75,8 @@ Before you call the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pat
 
 
 The following example demonstrates several methods of the 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>class, including <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a>, <b>PathGradientBrush::GetBlendCount</b>, and <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblend">PathGradientBrush::GetBlend</a>. The code creates a 
-						<b>PathGradientBrush</b>object and calls the <b>PathGradientBrush::SetBlend</b> method to establish a set of blend factors and blend positions for the brush. Then the code calls the <b>PathGradientBrush::GetBlendCount</b>method to retrieve the number of blend factors. After the number of blend factors is retrieved, the code allocates two buffers: one to receive the array of blend factors and one to receive the array of blend positions. Then the code calls the <b>PathGradientBrush::GetBlend</b> method to retrieve the blend factors and the blend positions.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> class, including <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a>, <b>PathGradientBrush::GetBlendCount</b>, and <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblend">PathGradientBrush::GetBlend</a>. The code creates a 
+						<b>PathGradientBrush</b> object and calls the <b>PathGradientBrush::SetBlend</b> method to establish a set of blend factors and blend positions for the brush. Then the code calls the <b>PathGradientBrush::GetBlendCount</b> method to retrieve the number of blend factors. After the number of blend factors is retrieved, the code allocates two buffers: one to receive the array of blend factors and one to receive the array of blend positions. Then the code calls the <b>PathGradientBrush::GetBlend</b> method to retrieve the blend factors and the blend positions.
 
 
 ```cpp

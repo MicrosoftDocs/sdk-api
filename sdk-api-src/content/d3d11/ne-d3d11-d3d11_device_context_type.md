@@ -54,7 +54,7 @@ Device context options.
 
 ## -enum-fields
 
-### -field D3D11_DEVICE_CONTEXT_IMMEDIATE
+### -field D3D11_DEVICE_CONTEXT_IMMEDIATE:0
 
 The device context is an immediate context.
 

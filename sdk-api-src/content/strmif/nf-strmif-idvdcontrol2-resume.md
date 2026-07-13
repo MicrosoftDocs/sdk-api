@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","Resume method","IDv
 old-location: dshow\idvdcontrol2_resume.htm
 tech.root: dshow
 ms.assetid: 522dcb38-8c17-46b0-b5aa-5ee380057077
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDvdControl2 interface [DirectShow],Resume method, IDvdControl2.Resume, IDvdControl2::Resume, IDvdControl2Resume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_resume, strmif/IDvdControl2::Resume
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Resume</code> method leaves a menu and resumes playback.
 

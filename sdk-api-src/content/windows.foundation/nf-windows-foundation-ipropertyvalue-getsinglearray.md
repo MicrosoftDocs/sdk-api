@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSingleArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetSingleArray (windows.foundation.h)
 description: Gets the array of 32-bit floating point values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetSingleArray","GetSingleArray method [Windows Runtime]","GetSingleArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSingleArray method","IPropertyValue.GetSingleArray","IPropertyValue.IPropertyValue","IPropertyValue::GetSingleArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSingleArray","winrt.ipropertyvalue_getsinglearray"]
 old-location: winrt\ipropertyvalue_getsinglearray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetSingleArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetSingleArray (windows.foundation.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ The returned pointer must be freed using <a href="/windows/desktop/api/combaseap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

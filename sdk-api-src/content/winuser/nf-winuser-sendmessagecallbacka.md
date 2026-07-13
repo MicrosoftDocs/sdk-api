@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SendMessageCallbackA
 title: SendMessageCallbackA function (winuser.h)
-description: Sends the specified message to a window or windows.
-helpviewer_keywords: ["SendMessageCallback","SendMessageCallback function [Windows and Messages]","SendMessageCallbackA","SendMessageCallbackW","_win32_SendMessageCallback","_win32_sendmessagecallback_cpp","winmsg.sendmessagecallback","winui._win32_sendmessagecallback","winuser/SendMessageCallback","winuser/SendMessageCallbackA","winuser/SendMessageCallbackW"]
+description: Sends the specified message to a window or windows. (SendMessageCallbackA)
+helpviewer_keywords: ["SendMessageCallbackA", "winuser/SendMessageCallbackA"]
 old-location: winmsg\sendmessagecallback.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagecallback.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-message-ansi-l1-1-0.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
  - minuser.dll
@@ -125,7 +126,7 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 > [!NOTE]
-> The winuser.h header defines SendMessageCallback as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SendMessageCallback as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

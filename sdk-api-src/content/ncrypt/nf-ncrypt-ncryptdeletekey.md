@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptDeleteKey
 title: NCryptDeleteKey function (ncrypt.h)
-description: Deletes a CNG key.
+description: Deletes a CNG key from storage.
 helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptDeleteKey","NCryptDeleteKey function [Security]","ncrypt/NCryptDeleteKey","security.ncryptdeletekey_func"]
 old-location: security\ncryptdeletekey_func.htm
 tech.root: security
@@ -58,7 +58,7 @@ The <b>NCryptDeleteKey</b> function deletes a CNG key.
 
 The handle of the key to delete. This handle is obtained by using the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function.
 
-<div class="alert"><b>Note</b>  The <b>NCryptDeleteKey</b> function frees the handle. Applications must not use the handle or attempt to call the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function on it after calling the <b>NCryptDeleteKey</b> function.</div>
+<div class="alert"><b>Note</b>  The <b>NCryptDeleteKey</b> function deletes the key and frees the handle. Applications may use <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function to free the handle if <b>NCryptDeleteKey</b> fails.</div>
 <div> </div>
 
 ### -param dwFlags [in]
@@ -76,7 +76,7 @@ Flags that modify function behavior. This can be zero or a combination of values
 </dl>
 </td>
 <td width="60%">
-Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the <b>NTE_SILENT_CONTEXT</b> error code as the last error.
+Requests that the key storage provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the <b>NTE_SILENT_CONTEXT</b> error code as the last error.
 
 </td>
 </tr>

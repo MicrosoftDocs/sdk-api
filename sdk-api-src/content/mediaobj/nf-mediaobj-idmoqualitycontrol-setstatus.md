@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDMOQualityControl interface [DirectShow]","SetStatus met
 old-location: dshow\idmoqualitycontrol_setstatus.htm
 tech.root: dshow
 ms.assetid: d22a7a23-6623-4a98-9a0c-5195b29781f9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDMOQualityControl interface [DirectShow],SetStatus method, IDMOQualityControl.SetStatus, IDMOQualityControl::SetStatus, IDMOQualityControlSetStatus, SetStatus, SetStatus method [DirectShow], SetStatus method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setstatus, mediaobj/IDMOQualityControl::SetStatus
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetStatus</code> method enables or disables quality control.
 

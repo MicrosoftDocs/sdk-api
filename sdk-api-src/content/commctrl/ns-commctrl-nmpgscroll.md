@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_16
+UID: NS:commctrl.NMPGSCROLL
 title: NMPGSCROLL (commctrl.h)
 description: Contains and receives information that the pager control uses when scrolling the contained window. It is used with the PGN_SCROLL notification.
 helpviewer_keywords: ["*LPNMPGSCROLL","0","LPNMPGSCROLL","LPNMPGSCROLL structure pointer [Windows Controls]","NMPGSCROLL","NMPGSCROLL structure [Windows Controls]","PGF_SCROLLDOWN","PGF_SCROLLLEFT","PGF_SCROLLRIGHT","PGF_SCROLLUP","PGK_CONTROL","PGK_MENU","PGK_SHIFT","_win32_NMPGSCROLL","_win32_NMPGSCROLL_cpp","commctrl/LPNMPGSCROLL","commctrl/NMPGSCROLL","controls.NMPGSCROLL","controls._win32_NMPGSCROLL"]
@@ -192,3 +192,4 @@ Contains the vertical scroll position of the contained window, in pixels, before
 Type: <b>int</b>
 
 On entry, contains the default scroll delta in pixels. This member can be modified to contain a different scroll delta amount if desired. This value is always positive, regardless of the scroll direction.
+

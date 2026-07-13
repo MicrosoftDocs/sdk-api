@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_StreetAddress
 title: IFaxSender::get_StreetAddress (faxcomex.h)
-description: The IFaxSender::get_StreetAddress property is a null-terminated string that contains the street address associated with the sender.
+description: The IFaxSender::get_StreetAddress property is a null-terminated string that contains the street address associated with the sender. (Get)
 helpviewer_keywords: ["IFaxSender interface [Fax Service]","StreetAddress property","IFaxSender.StreetAddress","IFaxSender.get_StreetAddress","IFaxSender.put_StreetAddress","IFaxSender::StreetAddress","IFaxSender::get_StreetAddress","IFaxSender::put_StreetAddress","StreetAddress property [Fax Service]","StreetAddress property [Fax Service]","IFaxSender interface","_mfax_faxsender.streetaddress","fax._mfax_faxsender_cpp_mfax_faxsender_streetaddress_cpp","fax._mfax_faxsender_streetaddress","faxcomex/IFaxSender::StreetAddress","faxcomex/IFaxSender::get_StreetAddress","faxcomex/IFaxSender::put_StreetAddress","get_StreetAddress"]
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_streetaddress_cpp.htm
 tech.root: Fax

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetCountPerPage","ListView_GetCountPerPage macro
 old-location: controls\ListView_GetCountPerPage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcountperpage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetCountPerPage, ListView_GetCountPerPage macro [Windows Controls], _win32_ListView_GetCountPerPage, _win32_ListView_GetCountPerPage_cpp, commctrl/ListView_GetCountPerPage, controls.ListView_GetCountPerPage, controls._win32_ListView_GetCountPerPage
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetCountPerPage macro
+
+## -syntax
+
+```cpp
+int ListView_GetCountPerPage(
+   HWND hwndLV
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the number of fully visible items if successful. If the current view is icon or small icon view, the return value is the total number of items in the list-view control.
 
 
 ## -description

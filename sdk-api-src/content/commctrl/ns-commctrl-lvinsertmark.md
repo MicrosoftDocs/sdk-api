@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_8
+UID: NS:commctrl.LVINSERTMARK
 title: LVINSERTMARK (commctrl.h)
 description: Used to describe insertion points.
 helpviewer_keywords: ["*LPLVINSERTMARK","LVIM_AFTER","LVINSERTMARK","LVINSERTMARK structure [Windows Controls]","PLVINSERTMARK","PLVINSERTMARK structure pointer [Windows Controls]","commctrl/LVINSERTMARK","commctrl/PLVINSERTMARK","controls.LVINSERTMARK","controls.inet_LVINSERTMARK","inet_LVINSERTMARK","inet_LVINSERTMARK_cpp"]
@@ -94,3 +94,4 @@ Item next to which the insertion point appears. If this member contains -1, ther
 ### -field dwReserved
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+

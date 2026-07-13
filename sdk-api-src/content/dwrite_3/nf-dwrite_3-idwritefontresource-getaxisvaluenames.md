@@ -4,14 +4,14 @@ title: IDWriteFontResource::GetAxisValueNames
 description: Retrieves the localized names of specific values for a font axis.
 helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisValueNames method","IDWriteFontResource.GetAxisValueNames","IDWriteFontResource::GetAxisValueNames","GetAxisValueNames","GetAxisValueNames method [Direct Write]","GetAxisValueNames method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getaxisvaluenames","dwrite_3/IDWriteFontResource::GetAxisValueNames"]
 tech.root: DirectWrite
-ms.date: 09/13/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNames method, IDWriteFontResource.GetAxisValueNames, IDWriteFontResource::GetAxisValueNames, GetAxisValueNames, GetAxisValueNames method [Direct Write], GetAxisValueNames method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenames, dwrite_3/IDWriteFontResource::GetAxisValueNames
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

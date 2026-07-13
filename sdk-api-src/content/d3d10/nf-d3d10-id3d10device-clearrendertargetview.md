@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.ClearRenderTargetView
 title: ID3D10Device::ClearRenderTargetView (d3d10.h)
-description: Set all the elements in a render target to one value.
+description: Set all the elements in a render target to one value. (ID3D10Device.ClearRenderTargetView)
 helpviewer_keywords: ["3433c2e0-695b-85b1-b1ed-77a71348bc1f","ClearRenderTargetView","ClearRenderTargetView method [Direct3D 10]","ClearRenderTargetView method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","ClearRenderTargetView method","ID3D10Device.ClearRenderTargetView","ID3D10Device::ClearRenderTargetView","d3d10/ID3D10Device::ClearRenderTargetView","direct3d10.id3d10device_clearrendertargetview"]
 old-location: direct3d10\id3d10device_clearrendertargetview.htm
 tech.root: direct3d10

@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardGetReaderIconA
 title: SCardGetReaderIconA function (winscard.h)
-description: Gets an icon of the smart card reader for a given reader's name.
-helpviewer_keywords: ["SCardGetReaderIcon","SCardGetReaderIcon function [Security]","SCardGetReaderIconA","SCardGetReaderIconW","security.scardgetreadericon","winscard/SCardGetReaderIcon"]
+description: Gets an icon of the smart card reader for a given reader's name. (ANSI)
+helpviewer_keywords: ["SCardGetReaderIconA"]
 old-location: security\scardgetreadericon.htm
 tech.root: security
 ms.assetid: A83B5AF3-BF2C-42AE-9D34-3B651D7AF047
@@ -144,4 +144,4 @@ else
 
 
 > [!NOTE]
-> The winscard.h header defines SCardGetReaderIcon as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardGetReaderIcon as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

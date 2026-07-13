@@ -188,7 +188,7 @@ The <b>SignatureProperty</b> element is missing the required <b>Target</b> attri
 </dl>
 </td>
 <td width="60%">
-Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
+Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Either the content type of a part differed from the expected content type (speci
 
 If the certificate represented by the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure is corrupted or is not an X.509 certificate, this method will return an error; further,  the signing policy used by the caller dictates whether the signature will still be validated. After this kind of error is returned, calls to the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-movenext">MoveNext</a> or <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-moveprevious">MovePrevious</a> method will continue to iterate through the enumerator.
 
-When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-movenext">MoveNext</a>method after the enumerator is created.
+When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-movenext">MoveNext</a> method after the enumerator is created.
 
 
 #### Thread Safety

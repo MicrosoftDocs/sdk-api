@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.EncryptFileA
 title: EncryptFileA function (winbase.h)
-description: Encrypts a file or directory.
-helpviewer_keywords: ["EncryptFile","EncryptFile function [Files]","EncryptFileA","EncryptFileW","_win32_encryptfile","base.encryptfile","fs.encryptfile","winbase/EncryptFile","winbase/EncryptFileA","winbase/EncryptFileW"]
+description: Encrypts a file or directory. (ANSI)
+helpviewer_keywords: ["EncryptFileA", "winbase/EncryptFileA"]
 old-location: fs\encryptfile.htm
 tech.root: fs
 ms.assetid: 7620e9fa-74d6-4b41-93db-4a562be63202
@@ -161,7 +161,7 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 > [!NOTE]
-> The winbase.h header defines EncryptFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines EncryptFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

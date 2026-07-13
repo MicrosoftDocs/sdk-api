@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>IAccessible::accNavigate</b> method traverses to another UI element within a container and retrieves the object. This method is optional.
-<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="/windows/win32/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>accNavigate</b> method is deprecated and should not be used. Clients should use other methods and properties such as <a href="/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="/windows/win32/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>.</div><div> </div>
 
 ## -parameters
 

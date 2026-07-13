@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateVolumeTexture
 title: IDirect3DDevice9::CreateVolumeTexture (d3d9.h)
-description: Creates a volume texture resource.
+description: The IDirect3DDevice9::CreateVolumeTexture method (d3d9.h) creates a volume texture resource.
 helpviewer_keywords: ["CreateVolumeTexture","CreateVolumeTexture method [Direct3D 9]","CreateVolumeTexture method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreateVolumeTexture method","IDirect3DDevice9.CreateVolumeTexture","IDirect3DDevice9::CreateVolumeTexture","d27be66d-3b8c-f3af-34b8-9478b75f7b15","d3d9helper/IDirect3DDevice9::CreateVolumeTexture","direct3d9.idirect3ddevice9__createvolumetexture"]
 old-location: direct3d9\idirect3ddevice9__createvolumetexture.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createvolumetexture.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CreateVolumeTexture, CreateVolumeTexture method [Direct3D 9], CreateVolumeTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVolumeTexture method, IDirect3DDevice9.CreateVolumeTexture, IDirect3DDevice9::CreateVolumeTexture, d27be66d-3b8c-f3af-34b8-9478b75f7b15, d3d9helper/IDirect3DDevice9::CreateVolumeTexture, direct3d9.idirect3ddevice9__createvolumetexture
 req.header: d3d9.h
 req.include-header: D3D9.h

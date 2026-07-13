@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasHangUpA
 title: RasHangUpA function (ras.h)
-description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle.
-helpviewer_keywords: ["RasHangUp","RasHangUp function [RAS]","RasHangUpA","RasHangUpW","_ras_rashangup","ras/RasHangUp","ras/RasHangUpA","ras/RasHangUpW","rras.rashangup"]
+description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle. (ANSI)
+helpviewer_keywords: ["RasHangUpA", "ras/RasHangUpA"]
 old-location: rras\rashangup.htm
 tech.root: RRAS
 ms.assetid: b5720ddf-c7ac-439e-97cb-62240122a775
@@ -115,7 +115,7 @@ You can call
 
 
 > [!NOTE]
-> The ras.h header defines RasHangUp as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasHangUp as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

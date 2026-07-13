@@ -56,7 +56,7 @@ Defines the set of possible EAP authentication session status values during the 
 
 ## -enum-fields
 
-### -field EapHostInvalidSession
+### -field EapHostInvalidSession:0
 
 The EAP authentication session is no longer valid.
 

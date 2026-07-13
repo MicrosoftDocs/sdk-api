@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_escape_filter_elementW
 title: ldap_escape_filter_elementW function (winldap.h)
-description: The ldap_escape_filter_element function converts a filter element to a null-terminated character string that can be passed safely in a search filter.
-helpviewer_keywords: ["_ldap_ldap_escape_filter_element","ldap.ldap__escape__filter__element","ldap.ldap_escape_filter_element","ldap_escape_filter_element","ldap_escape_filter_element function [LDAP]","ldap_escape_filter_elementA","ldap_escape_filter_elementW","winldap/ldap_escape_filter_element","winldap/ldap_escape_filter_elementA","winldap/ldap_escape_filter_elementW"]
+description: The ldap_escape_filter_elementW (Unicode) function (winldap.h) converts a filter element to a null-terminated character string that can be passed safely in a search filter.
+helpviewer_keywords: ["_ldap_ldap_escape_filter_element", "ldap.ldap__escape__filter__element", "ldap.ldap_escape_filter_element", "ldap_escape_filter_element", "ldap_escape_filter_element function [LDAP]", "ldap_escape_filter_elementW", "winldap/ldap_escape_filter_element", "winldap/ldap_escape_filter_elementW"]
 old-location: ldap\ldap_escape_filter_element.htm
 tech.root: ldap
 ms.assetid: d3bc558c-7327-400e-a436-35adae8fc302
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _ldap_ldap_escape_filter_element, ldap.ldap__escape__filter__element, ldap.ldap_escape_filter_element, ldap_escape_filter_element, ldap_escape_filter_element function [LDAP], ldap_escape_filter_elementA, ldap_escape_filter_elementW, winldap/ldap_escape_filter_element, winldap/ldap_escape_filter_elementA, winldap/ldap_escape_filter_elementW
 req.header: winldap.h
 req.include-header: 
@@ -92,7 +92,7 @@ Call <b>ldap_escape_filter_element</b> with the <i>sourceFilterElement</i> param
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_escape_filter_element as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_escape_filter_element as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

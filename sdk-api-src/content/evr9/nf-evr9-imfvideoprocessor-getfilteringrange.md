@@ -4,7 +4,7 @@ title: IMFVideoProcessor::GetFilteringRange (evr9.h)
 description: Retrieves the range of values for a specified image filter setting.
 helpviewer_keywords: ["1e5f1635-51fe-4394-8a25-dcee3f55c711","GetFilteringRange","GetFilteringRange method [Media Foundation]","GetFilteringRange method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetFilteringRange method","IMFVideoProcessor.GetFilteringRange","IMFVideoProcessor::GetFilteringRange","evr9/IMFVideoProcessor::GetFilteringRange","mf.imfvideoprocessor_getfilteringrange"]
 old-location: mf\imfvideoprocessor_getfilteringrange.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 1e5f1635-51fe-4394-8a25-dcee3f55c711
 ms.date: 12/05/2018
 ms.keywords: 1e5f1635-51fe-4394-8a25-dcee3f55c711, GetFilteringRange, GetFilteringRange method [Media Foundation], GetFilteringRange method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetFilteringRange method, IMFVideoProcessor.GetFilteringRange, IMFVideoProcessor::GetFilteringRange, evr9/IMFVideoProcessor::GetFilteringRange, mf.imfvideoprocessor_getfilteringrange
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoProcessor.GetFilteringRange
+archived: true
 ---
 
 # IMFVideoProcessor::GetFilteringRange
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Retrieves the range of values for a specified image filter setting.
 

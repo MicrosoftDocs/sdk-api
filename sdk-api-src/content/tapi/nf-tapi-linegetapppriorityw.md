@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetAppPriorityW
 title: lineGetAppPriorityW function (tapi.h)
-description: Enables an application to determine whether or not it is in the handoff priority list for a particular media mode or Assisted Telephony request mode and, if so, its position in the priority list.
-helpviewer_keywords: ["_tapi2_linegetapppriority","lineGetAppPriority","lineGetAppPriority function [TAPI 2.2]","lineGetAppPriorityA","lineGetAppPriorityW","tapi/lineGetAppPriority","tapi/lineGetAppPriorityA","tapi/lineGetAppPriorityW","tapi2.linegetapppriority"]
+description: The lineGetAppPriorityW (Unicode) function enables an application to determine whether or not it is in the handoff priority list for a particular media mode.
+helpviewer_keywords: ["_tapi2_linegetapppriority", "lineGetAppPriority", "lineGetAppPriority function [TAPI 2.2]", "lineGetAppPriorityW", "tapi/lineGetAppPriority", "tapi/lineGetAppPriorityW", "tapi2.linegetapppriority"]
 old-location: tapi2\linegetapppriority.htm
 tech.root: tapi3
 ms.assetid: b1e402b5-a2d0-444c-83c5-12782772a4b1
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegetapppriority, lineGetAppPriority, lineGetAppPriority function [TAPI 2.2], lineGetAppPriorityA, lineGetAppPriorityW, tapi/lineGetAppPriority, tapi/lineGetAppPriorityA, tapi/lineGetAppPriorityW, tapi2.linegetapppriority
 req.header: tapi.h
 req.include-header: 
@@ -107,7 +107,7 @@ If LINEERR_INVALMEDIAMODE is returned, the value specified in <i>dwMediaMode</i>
 
 
 > [!NOTE]
-> The tapi.h header defines lineGetAppPriority as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetAppPriority as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

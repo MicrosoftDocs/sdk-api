@@ -54,10 +54,7 @@ Represents an asynchronous action.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsyncAction</b> interface inherits from <b>IInspectable</b>. <b>IAsyncAction</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAsyncAction</b> interface inherits from <b>IInspectable</b>. <b>IAsyncAction</b> also has these types of members:
 
 ## -remarks
 

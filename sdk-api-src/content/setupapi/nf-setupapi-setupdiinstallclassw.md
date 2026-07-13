@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiInstallClassW
 title: SetupDiInstallClassW function (setupapi.h)
-description: The SetupDiInstallClass function installs the ClassInstall32 section of the specified INF file.
-helpviewer_keywords: ["SetupDiInstallClass","SetupDiInstallClass function [Device and Driver Installation]","SetupDiInstallClassA","SetupDiInstallClassW","devinst.setupdiinstallclass","di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml","setupapi/SetupDiInstallClass"]
+description: The SetupDiInstallClass function installs the ClassInstall32 section of the specified INF file. (Unicode)
+helpviewer_keywords: ["SetupDiInstallClass", "SetupDiInstallClass function [Device and Driver Installation]", "SetupDiInstallClassW", "devinst.setupdiinstallclass", "di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml", "setupapi/SetupDiInstallClass"]
 old-location: devinst\setupdiinstallclass.htm
 tech.root: devinst
 ms.assetid: 6709936b-cd44-444a-a0c0-14b5ebce5226
@@ -135,7 +135,7 @@ To install an interface class or a device class, use <a href="/windows/desktop/a
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiInstallClass as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiInstallClass as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

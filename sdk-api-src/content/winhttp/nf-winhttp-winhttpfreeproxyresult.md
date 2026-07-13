@@ -45,12 +45,9 @@ api_name:
  - WinHttpFreeProxyResult
 ---
 
-# WinHttpFreeProxyResult function
-
-
 ## -description
 
-The <b>WinHttpFreeProxyResult</b> function frees the data retrieved from a previous call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.
+Frees the data retrieved from a previous call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.
 
 ## -parameters
 

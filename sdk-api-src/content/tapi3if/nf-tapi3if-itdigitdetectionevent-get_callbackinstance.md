@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_CallbackInstance
 title: ITDigitDetectionEvent::get_CallbackInstance (tapi3if.h)
-description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event.
+description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event. (ITDigitDetectionEvent.get_CallbackInstance)
 helpviewer_keywords: ["ITDigitDetectionEvent interface [TAPI 2.2]","get_CallbackInstance method","ITDigitDetectionEvent.get_CallbackInstance","ITDigitDetectionEvent::get_CallbackInstance","_tapi3_itdigitdetectionevent_get_callbackinstance","get_CallbackInstance","get_CallbackInstance method [TAPI 2.2]","get_CallbackInstance method [TAPI 2.2]","ITDigitDetectionEvent interface","tapi3.itdigitdetectionevent_get_callbackinstance","tapi3if/ITDigitDetectionEvent::get_CallbackInstance"]
 old-location: tapi3\itdigitdetectionevent_get_callbackinstance.htm
 tech.root: tapi3

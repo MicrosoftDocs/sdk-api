@@ -54,7 +54,7 @@ api_name:
 
 Cancels a currently running assessment.
 
-## -parameters
+
 
 ## -returns
 

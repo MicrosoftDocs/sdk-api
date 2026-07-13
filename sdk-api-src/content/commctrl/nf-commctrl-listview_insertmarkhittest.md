@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_InsertMarkHitTest","ListView_InsertMarkHitTest m
 old-location: controls\ListView_InsertMarkHitTest.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertmarkhittest.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_InsertMarkHitTest, ListView_InsertMarkHitTest macro [Windows Controls], _win32_ListView_InsertMarkHitTest, _win32_ListView_InsertMarkHitTest_cpp, commctrl/ListView_InsertMarkHitTest, controls.ListView_InsertMarkHitTest, controls._win32_ListView_InsertMarkHitTest
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_InsertMarkHitTest macro
+
+## -syntax
+
+```cpp
+BOOL ListView_InsertMarkHitTest(
+   HWND          hwnd,
+   LPPOINT       point,
+   PLVINSERTMARK lvim
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. 
 
 
 ## -description

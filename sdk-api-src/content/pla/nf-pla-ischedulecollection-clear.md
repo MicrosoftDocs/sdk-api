@@ -52,7 +52,7 @@ api_name:
 
 Removes all schedules from the collection.
 
-## -parameters
+
 
 ## -returns
 

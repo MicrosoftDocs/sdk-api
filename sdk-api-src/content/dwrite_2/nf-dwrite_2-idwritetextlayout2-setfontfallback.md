@@ -56,13 +56,13 @@ Apply a custom font fallback onto layout. If none is specified, the layout uses 
 
 ### -param fontFallback
 
-Custom font fallback created from <a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-createfontfallback">IDWriteFontFallbackBuilder::CreateFontFallback</a> or <a href="/windows/win32/DirectWrite/idwritefactory2-getsystemfontfallback">IDWriteFactory2::GetSystemFontFallback</a>.
+Custom font fallback created from <a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-createfontfallback">IDWriteFontFallbackBuilder::CreateFontFallback</a> or <a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-getsystemfontfallback">IDWriteFactory2::GetSystemFontFallback</a>.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextlayout2">IDWriteTextLayout2</a>
 

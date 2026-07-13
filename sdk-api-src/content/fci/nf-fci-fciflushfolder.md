@@ -68,7 +68,7 @@ Pointer to an application-defined callback function to update the user. The func
 
 ## -returns
 
-If the function succeeds, it returns <b>TRUE</b>; otherwise, FASLE.
+If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
 Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 

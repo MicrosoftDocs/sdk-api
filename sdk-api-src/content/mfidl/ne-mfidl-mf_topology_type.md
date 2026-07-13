@@ -54,7 +54,7 @@ Defines the type of a topology node.
 
 ## -enum-fields
 
-### -field MF_TOPOLOGY_OUTPUT_NODE
+### -field MF_TOPOLOGY_OUTPUT_NODE:0
 
 Output node. Represents a media sink in the topology.
 
@@ -70,7 +70,7 @@ Transform node. Represents a Media Foundation Transform (MFT) in the topology.
 
 Tee node. A tee node does not hold a pointer to an object. Instead, it represents a fork in the stream. A tee node has one input and multiple outputs, and samples from the upstream node are delivered to all of the downstream nodes.
 
-### -field MF_TOPOLOGY_MAX
+### -field MF_TOPOLOGY_MAX:0xffffffff
 
 Reserved.
 

@@ -53,7 +53,7 @@ Defines constants that specify the type of transfer job, such as download.
 
 ## -enum-fields
 
-### -field BG_JOB_TYPE_DOWNLOAD
+### -field BG_JOB_TYPE_DOWNLOAD:0
 
 Specifies that the job downloads files to the client.
 

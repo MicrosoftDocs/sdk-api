@@ -57,10 +57,7 @@ Provides the methods for running tasks, getting or setting task information, and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITask</b> interface inherits from <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>. <b>ITask</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITask</b> interface inherits from <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>. <b>ITask</b> also has these types of members:
 
 ## -remarks
 

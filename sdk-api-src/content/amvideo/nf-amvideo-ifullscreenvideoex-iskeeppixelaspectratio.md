@@ -6,7 +6,7 @@ helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","IsKeepPixelAs
 old-location: dshow\ifullscreenvideoex_iskeeppixelaspectratio.htm
 tech.root: dshow
 ms.assetid: 3f3b55d9-b504-42a3-b60a-65073d1e1447
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsKeepPixelAspectRatio method, IFullScreenVideoEx.IsKeepPixelAspectRatio, IFullScreenVideoEx::IsKeepPixelAspectRatio, IFullScreenVideoExIsKeepPixelAspectRatio, IsKeepPixelAspectRatio, IsKeepPixelAspectRatio method [DirectShow], IsKeepPixelAspectRatio method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsKeepPixelAspectRatio, dshow.ifullscreenvideoex_iskeeppixelaspectratio
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>IsKeepPixelAspectRatio</code> method queries whether the pixel aspect ratio is maintained. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
 

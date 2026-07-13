@@ -66,7 +66,7 @@ Each component of <i>VFloat</i> will be converted to a <b>int32_t</b> and then m
 
 ## -returns
 
-Returns the converted vector, where each component has been multiplied by two raised to the <i>MulExponent</i>power.
+Returns the converted vector, where each component has been multiplied by two raised to the <i>MulExponent</i> power.
 
 ## -remarks
 

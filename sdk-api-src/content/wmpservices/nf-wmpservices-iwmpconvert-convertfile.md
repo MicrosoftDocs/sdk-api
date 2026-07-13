@@ -6,7 +6,7 @@ helpviewer_keywords: ["ConvertFile","ConvertFile method [Windows Media Player]",
 old-location: wmp\iwmpconvert_convertfile.htm
 tech.root: WMP
 ms.assetid: 69ca3863-94ec-457f-9f93-aebb5b80c8a9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ConvertFile, ConvertFile method [Windows Media Player], ConvertFile method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],ConvertFile method, IWMPConvert.ConvertFile, IWMPConvert::ConvertFile, IWMPConvertConvertFile, wmp.iwmpconvert_convertfile, wmpservices/IWMPConvert::ConvertFile
 req.header: wmpservices.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>ConvertFile</b> method is implemented by a conversion plug-in and called by Windows Media Player to enable a conversion plug-in to convert a digital media file into ASF.
 

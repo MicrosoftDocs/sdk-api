@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardIntroduceReaderW
 title: SCardIntroduceReaderW function (winscard.h)
-description: Introduces a new name for an existing smart card reader.
-helpviewer_keywords: ["SCardIntroduceReader","SCardIntroduceReader function [Security]","SCardIntroduceReaderA","SCardIntroduceReaderW","_smart_scardintroducereader","security.scardintroducereader","winscard/SCardIntroduceReader","winscard/SCardIntroduceReaderA","winscard/SCardIntroduceReaderW"]
+description: Introduces a new name for an existing smart card reader. (Unicode)
+helpviewer_keywords: ["SCardIntroduceReader", "SCardIntroduceReader function [Security]", "SCardIntroduceReaderW", "_smart_scardintroducereader", "security.scardintroducereader", "winscard/SCardIntroduceReader", "winscard/SCardIntroduceReaderW"]
 old-location: security\scardintroducereader.htm
 tech.root: security
 ms.assetid: 1f8b9d75-5bba-40c3-99a0-6910855fcd4d
@@ -171,7 +171,7 @@ lReturn = SCardFreeMemory( hContext, pbAttr );
 
 
 > [!NOTE]
-> The winscard.h header defines SCardIntroduceReader as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardIntroduceReader as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

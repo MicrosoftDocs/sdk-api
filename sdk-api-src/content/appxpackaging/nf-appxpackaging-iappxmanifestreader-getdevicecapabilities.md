@@ -64,13 +64,13 @@ The enumerator that iterates through the device capabilities.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 Device capabilities are specified using the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability">DeviceCapability</a> element in the package manifest.
 
-If no package device capabilities are defined in the manifest, this method returns <b>S_OK</b> with an  empty enumerator.
+If no package device capabilities are defined in the manifest, this method returns <b>S_OK</b> with an empty enumerator.
 
 Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>deviceCapabilities</i> object.
 

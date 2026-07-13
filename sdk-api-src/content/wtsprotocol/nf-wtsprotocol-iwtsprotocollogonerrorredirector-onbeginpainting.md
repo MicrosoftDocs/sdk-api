@@ -54,7 +54,7 @@ api_name:
 
 Notifies the protocol that the logon user interface is ready to begin painting.
 
-## -parameters
+
 
 ## -returns
 

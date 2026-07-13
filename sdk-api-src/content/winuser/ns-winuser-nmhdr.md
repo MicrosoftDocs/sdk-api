@@ -1,12 +1,12 @@
 ---
 UID: NS:winuser.tagNMHDR
 title: NMHDR (winuser.h)
-description: Contains information about a notification message.
+description: The NMHDR structure contains information about a notification message. (NMHDR structure)
 helpviewer_keywords: ["*LPNMHDR","NMHDR","NMHDR structure [Windows Controls]","_win32_NMHDR_str","_win32_NMHDR_str_cpp","controls.NMHDR","controls._win32_NMHDR_str","richedit/NMHDR"]
 old-location: controls\NMHDR.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPNMHDR, NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR'
 req.header: winuser.h
 req.include-header: Winuser.h

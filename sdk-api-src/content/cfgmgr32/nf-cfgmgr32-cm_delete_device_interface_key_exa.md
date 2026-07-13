@@ -2,7 +2,7 @@
 UID: NF:cfgmgr32.CM_Delete_Device_Interface_Key_ExA
 title: CM_Delete_Device_Interface_Key_ExA function (cfgmgr32.h)
 description: The CM_Delete_Device_Interface_Key_ExA function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
-helpviewer_keywords: ["CM_Delete_Device_Interface_Key_ExA","CM_Delete_Device_Interface_Key_ExA function [Device and Driver Installation]","cfgmgr32/CM_Delete_Device_Interface_Key_ExA","devinst.cm_delete_device_interface_key_exa"]
+helpviewer_keywords: ["CM_Delete_Device_Interface_Key_ExA", "CM_Delete_Device_Interface_Key_ExA function [Device and Driver Installation]", "cfgmgr32/CM_Delete_Device_Interface_Key_ExA", "devinst.cm_delete_device_interface_key_exa"]
 old-location: devinst\cm_delete_device_interface_key_exa.htm
 tech.root: devinst
 ms.assetid: B12C62F7-B6B1-46F6-88B4-78F25A14E8F6
@@ -91,4 +91,4 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 ## -remarks
 
 > [!NOTE]
-> The cfgmgr32.h header defines CM_Delete_Device_Interface_Key_Ex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cfgmgr32.h header defines CM_Delete_Device_Interface_Key_Ex as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAttributeCountEx","GetAttributeCountEx method [windows
 old-location: wmformat\iwmheaderinfo3_getattributecountex.htm
 tech.root: wmformat
 ms.assetid: 8c56d7b6-4f59-450e-938c-b7d0bd37ea08
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAttributeCountEx, GetAttributeCountEx method [windows Media Format], GetAttributeCountEx method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeCountEx method, IWMHeaderInfo3.GetAttributeCountEx, IWMHeaderInfo3::GetAttributeCountEx, IWMHeaderInfo3GetAttributeCountEx, wmformat.iwmheaderinfo3_getattributecountex, wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAttributeCountEx</b> method retrieves the total number of attributes associated with a specified stream number. You can also use this method to get the number of attributes not associated with a specific stream (file-level attributes), or to get the total number of attributes in the file, regardless of stream number.
 

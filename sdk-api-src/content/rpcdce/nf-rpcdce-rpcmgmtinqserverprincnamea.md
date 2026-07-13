@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqServerPrincNameA
 title: RpcMgmtInqServerPrincNameA function (rpcdce.h)
-description: The RpcMgmtInqServerPrincName function returns a server's principal name.
-helpviewer_keywords: ["RpcMgmtInqServerPrincName","RpcMgmtInqServerPrincName function [RPC]","RpcMgmtInqServerPrincNameA","RpcMgmtInqServerPrincNameW","_rpc_rpcmgmtinqserverprincname","rpc.rpcmgmtinqserverprincname","rpcdce/RpcMgmtInqServerPrincName","rpcdce/RpcMgmtInqServerPrincNameA","rpcdce/RpcMgmtInqServerPrincNameW"]
+description: The RpcMgmtInqServerPrincName function returns a server's principal name. (RpcMgmtInqServerPrincNameA)
+helpviewer_keywords: ["RpcMgmtInqServerPrincNameA", "rpcdce/RpcMgmtInqServerPrincNameA"]
 old-location: rpc\rpcmgmtinqserverprincname.htm
 tech.root: Rpc
 ms.assetid: 2666adb4-8a89-480e-8855-9179a7128e35
@@ -132,7 +132,7 @@ The server must be listening for remote procedure calls for this function to suc
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcMgmtInqServerPrincName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcMgmtInqServerPrincName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

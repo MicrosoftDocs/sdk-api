@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_TEX3D_UAV
 title: D3D12_TEX3D_UAV (d3d12.h)
-description: Describes a unordered-access 3D texture resource.
+description: Describes a unordered-access 3D texture resource. (D3D12_TEX3D_UAV)
 helpviewer_keywords: ["D3D12_TEX3D_UAV","D3D12_TEX3D_UAV structure","d3d12/D3D12_TEX3D_UAV","direct3d12.d3d12_tex3d_uav"]
 old-location: direct3d12\d3d12_tex3d_uav.htm
 tech.root: direct3d12
@@ -65,6 +65,8 @@ The zero-based index of the first depth slice to be accessed.
 ### -field WSize
 
 The number of depth slices.
+
+Set to -1 to indicate all the depth slices from <b>FirstWSlice</b> to the last slice.
 
 ## -remarks
 

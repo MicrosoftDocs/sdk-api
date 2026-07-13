@@ -54,15 +54,15 @@ Specifies the version of root signature layout.
 
 ## -enum-fields
 
-### -field D3D_ROOT_SIGNATURE_VERSION_1
+### -field D3D_ROOT_SIGNATURE_VERSION_1:0x1
 
 Version one of root signature layout.
 
-### -field D3D_ROOT_SIGNATURE_VERSION_1_0
+### -field D3D_ROOT_SIGNATURE_VERSION_1_0:0x1
 
 Version one of root signature layout.
 
-### -field D3D_ROOT_SIGNATURE_VERSION_1_1
+### -field D3D_ROOT_SIGNATURE_VERSION_1_1:0x2
 
 Version 1.1  of root signature layout. Refer to <a href="/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>.
 

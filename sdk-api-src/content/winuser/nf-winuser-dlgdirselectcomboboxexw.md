@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DlgDirSelectComboBoxExW
 title: DlgDirSelectComboBoxExW function (winuser.h)
-description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name.
-helpviewer_keywords: ["DlgDirSelectComboBoxEx","DlgDirSelectComboBoxEx function [Windows Controls]","DlgDirSelectComboBoxExA","DlgDirSelectComboBoxExW","_win32_DlgDirSelectComboBoxEx","_win32_DlgDirSelectComboBoxEx_cpp","controls.DlgDirSelectComboBoxEx","controls._win32_DlgDirSelectComboBoxEx","winuser/DlgDirSelectComboBoxEx","winuser/DlgDirSelectComboBoxExA","winuser/DlgDirSelectComboBoxExW"]
+description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name. (Unicode)
+helpviewer_keywords: ["DlgDirSelectComboBoxEx", "DlgDirSelectComboBoxEx function [Windows Controls]", "DlgDirSelectComboBoxExW", "_win32_DlgDirSelectComboBoxEx", "_win32_DlgDirSelectComboBoxEx_cpp", "controls.DlgDirSelectComboBoxEx", "controls._win32_DlgDirSelectComboBoxEx", "winuser/DlgDirSelectComboBoxEx", "winuser/DlgDirSelectComboBoxExW"]
 old-location: controls\DlgDirSelectComboBoxEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirselectcomboboxex.htm
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-1.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-0.dll
  - User32.dll
 api_name:
  - DlgDirSelectComboBoxEx
@@ -104,13 +107,13 @@ You can use this function with all three types of combo boxes (<a href="/windows
 
 <b>Security Warning:  </b>Improper use of this function can cause problems for your application. For instance, the <i>nCount</i> parameter should be set properly for both ANSI and Unicode versions. Failure to do so could lead to a buffer overflow. You should review <a href="/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
-<b>Windows 95 or later</b>: <b>DlgDirSelectComboBoxExW</b> is supported by the Microsoft Layer for Unicode (MSLU). To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+<b>Windows 95 or later</b>: <b>DlgDirSelectComboBoxExW</b> is supported by the Microsoft Layer for Unicode (MSLU). To use this, you must add certain files to your application, as outlined in <a href="/archive/msdn-magazine/2001/october/mslu-develop-unicode-applications-for-windows-9x-platforms-with-the-microsoft-layer-for-unicode">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 
 
 > [!NOTE]
-> The winuser.h header defines DlgDirSelectComboBoxEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines DlgDirSelectComboBoxEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

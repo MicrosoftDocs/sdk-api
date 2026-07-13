@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathAndSubDirW
 title: SHGetFolderPathAndSubDirW function (shlobj_core.h)
-description: Gets the path of a folder and appends a user-provided subfolder path.
-helpviewer_keywords: ["SHGFP_TYPE_CURRENT","SHGFP_TYPE_DEFAULT","SHGetFolderPathAndSubDir","SHGetFolderPathAndSubDir function [Windows Shell]","SHGetFolderPathAndSubDirA","SHGetFolderPathAndSubDirW","_shell_SHGetFolderPathAndSubDir","shell.SHGetFolderPathAndSubDir","shlobj_core/SHGetFolderPathAndSubDir","shlobj_core/SHGetFolderPathAndSubDirA","shlobj_core/SHGetFolderPathAndSubDirW"]
+description: Gets the path of a folder and appends a user-provided subfolder path. (Unicode)
+helpviewer_keywords: ["SHGFP_TYPE_CURRENT", "SHGFP_TYPE_DEFAULT", "SHGetFolderPathAndSubDir", "SHGetFolderPathAndSubDir function [Windows Shell]", "SHGetFolderPathAndSubDirW", "_shell_SHGetFolderPathAndSubDir", "shell.SHGetFolderPathAndSubDir", "shlobj_core/SHGetFolderPathAndSubDir", "shlobj_core/SHGetFolderPathAndSubDirW"]
 old-location: shell\SHGetFolderPathAndSubDir.htm
 tech.root: shell
 ms.assetid: 7e92e136-1036-4c96-931f-6e0129fb839a
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell32-shellfolders-l1-2-1.dll
+ - ext-ms-win-shell32-shellfolders-l1-2-0.dll
+ - api-ms-win-shell-shellfolders-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-shell-shellfolders-l1-1-0.dll
  - KernelBase.dll
@@ -124,7 +127,7 @@ Return the folder's default path.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
@@ -133,4 +136,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 > [!NOTE]
-> The shlobj_core.h header defines SHGetFolderPathAndSubDir as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHGetFolderPathAndSubDir as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

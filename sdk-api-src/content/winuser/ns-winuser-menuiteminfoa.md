@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMENUITEMINFOA
 title: MENUITEMINFOA (winuser.h)
-description: Contains information about a menu item.
+description: Contains information about a menu item. (MENUITEMINFOA)
 helpviewer_keywords: ["*LPMENUITEMINFOA","HBMMENU_CALLBACK","HBMMENU_MBAR_CLOSE","HBMMENU_MBAR_CLOSE_D","HBMMENU_MBAR_MINIMIZE","HBMMENU_MBAR_MINIMIZE_D","HBMMENU_MBAR_RESTORE","HBMMENU_POPUP_CLOSE","HBMMENU_POPUP_MAXIMIZE","HBMMENU_POPUP_MINIMIZE","HBMMENU_POPUP_RESTORE","HBMMENU_SYSTEM","LPMENUITEMINFO","LPMENUITEMINFO structure pointer [Menus and Other Resources]","MENUITEMINFO","MENUITEMINFO structure [Menus and Other Resources]","MENUITEMINFOA","MENUITEMINFOW","MFS_CHECKED","MFS_DEFAULT","MFS_DISABLED","MFS_ENABLED","MFS_GRAYED","MFS_HILITE","MFS_UNCHECKED","MFS_UNHILITE","MFT_BITMAP","MFT_MENUBARBREAK","MFT_MENUBREAK","MFT_OWNERDRAW","MFT_RADIOCHECK","MFT_RIGHTJUSTIFY","MFT_RIGHTORDER","MFT_SEPARATOR","MFT_STRING","MIIM_BITMAP","MIIM_CHECKMARKS","MIIM_DATA","MIIM_FTYPE","MIIM_ID","MIIM_STATE","MIIM_STRING","MIIM_SUBMENU","MIIM_TYPE","_win32_MENUITEMINFO_str","_win32_menuiteminfo_str_cpp","menurc.menuiteminfo","winui._win32_menuiteminfo_str","winuser/LPMENUITEMINFO","winuser/MENUITEMINFO","winuser/MENUITEMINFOA","winuser/MENUITEMINFOW"]
 old-location: menurc\menuiteminfo.htm
 tech.root: menurc
@@ -655,7 +655,7 @@ The menu can display items using text, bitmaps, or both.
 
 
 > [!NOTE]
-> The winuser.h header defines MENUITEMINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines MENUITEMINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

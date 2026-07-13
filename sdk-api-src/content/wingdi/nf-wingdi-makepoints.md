@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKEPOINTS","MAKEPOINTS macro [Windows GDI]","_win32_MAKE
 old-location: gdi\makepoints.htm
 tech.root: gdi
 ms.assetid: 1f84cfd0-2836-4c20-9408-17e0d57742be
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.makepoints, wingdi/MAKEPOINTS
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -47,10 +47,24 @@ api_name:
 
 # MAKEPOINTS macro
 
+## -syntax
+
+```cpp
+POINTS MAKEPOINTS(
+    DWORD l
+);
+```
+
+## -returns
+
+Type: **POINTS**
+
+The return value is a pointer to a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
+
 
 ## -description
 
-The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
+The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
 
 ## -parameters
 

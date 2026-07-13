@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.EnumServicesStatusW
 title: EnumServicesStatusW function (winsvc.h)
-description: Enumerates services in the specified service control manager database. The name and status of each service are provided.
-helpviewer_keywords: ["EnumServicesStatus","EnumServicesStatus function","EnumServicesStatusA","EnumServicesStatusW","SERVICE_ACTIVE","SERVICE_DRIVER","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INACTIVE","SERVICE_KERNEL_DRIVER","SERVICE_STATE_ALL","SERVICE_WIN32","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_enumservicesstatus","base.enumservicesstatus","winsvc/EnumServicesStatus","winsvc/EnumServicesStatusA","winsvc/EnumServicesStatusW"]
+description: Enumerates services in the specified service control manager database. The name and status of each service are provided. (Unicode)
+helpviewer_keywords: ["EnumServicesStatus", "EnumServicesStatus function", "EnumServicesStatusW", "SERVICE_ACTIVE", "SERVICE_DRIVER", "SERVICE_FILE_SYSTEM_DRIVER", "SERVICE_INACTIVE", "SERVICE_KERNEL_DRIVER", "SERVICE_STATE_ALL", "SERVICE_WIN32", "SERVICE_WIN32_OWN_PROCESS", "SERVICE_WIN32_SHARE_PROCESS", "_win32_enumservicesstatus", "base.enumservicesstatus", "winsvc/EnumServicesStatus", "winsvc/EnumServicesStatusW"]
 old-location: base\enumservicesstatus.htm
 tech.root: security
 ms.assetid: 3a82ac0e-f3e8-4a5a-9b13-84e952712229
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-service-legacy-l1-1-0.dll
  - Advapi32.dll
 api_name:
  - EnumServicesStatus
@@ -303,4 +304,4 @@ There are more service entries than would fit into the <i>lpServices</i> buffer.
 ## -remarks
 
 > [!NOTE]
-> The winsvc.h header defines EnumServicesStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines EnumServicesStatus as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

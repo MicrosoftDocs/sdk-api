@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of color palettes defined by the font.
 
-## -parameters
+
 
 ## -returns
 

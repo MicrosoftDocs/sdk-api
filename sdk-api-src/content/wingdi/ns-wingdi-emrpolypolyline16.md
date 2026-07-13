@@ -80,7 +80,7 @@ An array of point counts for each poly.
 
 ### -field apts
 
-An array of <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structures, representing the points in logical units.
+An array of <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structures, representing the points in logical units.
 
 ## -see-also
 
@@ -96,8 +96,8 @@ An array of <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structures
 
 
 
-<a href="/previous-versions/dd162808(v=vs.85)">POINTS</a>
+<a href="/windows/win32/api/windef/ns-windef-points">POINTS</a>
 
 
 
-<a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>
+<a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>

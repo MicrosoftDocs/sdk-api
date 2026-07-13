@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetPlayerParentalLevel","GetPlayerParentalLevel method [D
 old-location: dshow\idvdinfo2_getplayerparentallevel.htm
 tech.root: dshow
 ms.assetid: 7ae9b79a-1a2e-4679-9ead-6892491a1af3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetPlayerParentalLevel, GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetPlayerParentalLevel method, IDvdInfo2.GetPlayerParentalLevel, IDvdInfo2::GetPlayerParentalLevel, IDvdInfo2GetPlayerParentalLevel, dshow.idvdinfo2_getplayerparentallevel, strmif/IDvdInfo2::GetPlayerParentalLevel
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetPlayerParentalLevel</code> method retrieves the current parental level and ISO 3166 country/region code settings for the DVD Navigator.
 

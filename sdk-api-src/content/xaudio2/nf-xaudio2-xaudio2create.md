@@ -41,6 +41,8 @@ api_type:
  - DllExport
 api_location:
  - Windows.Media.Audio.dll
+ - xaudio2_8.dll
+ - xaudio2_9.dll
 api_name:
  - XAudio2Create
 ---
@@ -69,7 +71,7 @@ An <a href="/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR
 
 <a href="/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a> default value is XAUDIO2_DEFAULT_PROCESSOR.
 
-<div class="alert"><b>Warning</b> If you specify <a href="/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_ANY_PROCESSOR</a>, the system will use all of the device's processors and, as noted above, create a worker thread for each processor.
+<div class="alert"><b>Warning</b> If you specify <a href="/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_ANY_PROCESSOR</a>, the system will use all of the device's processors and, as noted above, create a worker thread for each processor.</div>
 <div> </div>
 
 

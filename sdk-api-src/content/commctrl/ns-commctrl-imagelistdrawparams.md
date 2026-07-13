@@ -1,12 +1,12 @@
 ---
 UID: NS:commctrl._IMAGELISTDRAWPARAMS
 title: IMAGELISTDRAWPARAMS (commctrl.h)
-description: Contains information about an image list draw operation and is used with the IImageList::Draw function.
+description: The IMAGELISTDRAWPARAMS structure contains information about an image list draw operation and is used with the IImageList::Draw function. 
 helpviewer_keywords: ["*LPIMAGELISTDRAWPARAMS","BLACKNESS","CLR_DEFAULT","CLR_NONE","DSTINVERT","IMAGELISTDRAWPARAMS","IMAGELISTDRAWPARAMS structure [Windows Controls]","MERGECOPY","MERGEPAINT","NOTSRCCOPY","NOTSRCERASE","PATCOPY","PATINVERT","PATPAINT","SRCAND","SRCCOPY","SRCERASE","SRCINVERT","SRCPAINT","WHITENESS","_win32_IMAGELISTDRAWPARAMS","_win32_IMAGELISTDRAWPARAMS_cpp","commoncontrols/IMAGELISTDRAWPARAMS","controls.IMAGELISTDRAWPARAMS","controls._win32_IMAGELISTDRAWPARAMS"]
 old-location: controls\IMAGELISTDRAWPARAMS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imagelistdrawparams.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPIMAGELISTDRAWPARAMS, BLACKNESS, CLR_DEFAULT, CLR_NONE, DSTINVERT, IMAGELISTDRAWPARAMS, IMAGELISTDRAWPARAMS structure [Windows Controls], MERGECOPY, MERGEPAINT, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_IMAGELISTDRAWPARAMS, _win32_IMAGELISTDRAWPARAMS_cpp, commoncontrols/IMAGELISTDRAWPARAMS, controls.IMAGELISTDRAWPARAMS, controls._win32_IMAGELISTDRAWPARAMS'
 req.header: commctrl.h
 req.include-header: Commctrl.h
@@ -381,4 +381,4 @@ An overlay image is an image that is drawn on top of the primary image specified
 
 To extract the overlay image from the <b>fStyle</b>, use the bitwise <b>AND</b> operator to mask <b>fStyle</b> with the <a href="/windows/desktop/Controls/imagelistdrawflags">ILD_OVERLAYMASK</a> value. 
 
-Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+Comctl32.dll version 6 is not redistributable. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

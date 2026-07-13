@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetCrackUrlW
 title: InternetCrackUrlW function (wininet.h)
-description: Cracks a URL into its component parts.
-helpviewer_keywords: ["ICU_DECODE","ICU_ESCAPE","InternetCrackUrl","InternetCrackUrl function [WinINet]","InternetCrackUrlA","InternetCrackUrlW","_inet_internetcrackurl_function","wininet.internetcrackurl","wininet/InternetCrackUrl","wininet/InternetCrackUrlA","wininet/InternetCrackUrlW"]
+description: Cracks a URL into its component parts. (Unicode)
+helpviewer_keywords: ["ICU_DECODE", "ICU_ESCAPE", "InternetCrackUrl", "InternetCrackUrl function [WinINet]", "InternetCrackUrlW", "_inet_internetcrackurl_function", "wininet.internetcrackurl", "wininet/InternetCrackUrl", "wininet/InternetCrackUrlW"]
 old-location: wininet\internetcrackurl.htm
 tech.root: wininet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
@@ -136,7 +136,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines InternetCrackUrl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetCrackUrl as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

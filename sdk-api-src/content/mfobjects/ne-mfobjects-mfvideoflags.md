@@ -90,15 +90,15 @@ The source is a 16 x 9 image encoded within a 4 x 3 area.
 
 The source is a 2.35:1 image encoded within a 16 x 9 or 4 x 3 area.
 
-### -field MFVideoFlag_AnalogProtected
+### -field MFVideoFlag_AnalogProtected:0x20
 
 Analog copy protection should be applied.
 
-### -field MFVideoFlag_DigitallyProtected
+### -field MFVideoFlag_DigitallyProtected:0x40
 
 Digital copy protection should be applied.
 
-### -field MFVideoFlag_ProgressiveContent
+### -field MFVideoFlag_ProgressiveContent:0x80
 
 The video source is progressive content encoded as interlaced video, possibly using 3:2 pulldown. This flag is obsolete. See Remarks.
 
@@ -106,35 +106,35 @@ The video source is progressive content encoded as interlaced video, possibly us
 
 Used to extract the field repeat count. This flag is obsolete. See Remarks.
 
-### -field MFVideoFlag_FieldRepeatCountShift
+### -field MFVideoFlag_FieldRepeatCountShift:8
 
 Used to extract the field repeat count. This flag is obsolete. See Remarks.
 
-### -field MFVideoFlag_ProgressiveSeqReset
+### -field MFVideoFlag_ProgressiveSeqReset:0x800
 
 The progressive sequence was disrupted and the sequence is interlaced at the break. This flag is obsolete. See Remarks.
 
-### -field MFVideoFlag_PanScanEnabled
+### -field MFVideoFlag_PanScanEnabled:0x20000
 
 Apply the pan and scan rectangle on the output.
 
-### -field MFVideoFlag_LowerFieldFirst
+### -field MFVideoFlag_LowerFieldFirst:0x40000
 
 The sample contains the lower field. This flag applies only if the interlace mode is single fields (MFVideoInterlace_FieldSingleUpperFirst or MFVideoInterlace_FieldSingleLowerFirst). This flag is obsolete. See Remarks.
 
-### -field MFVideoFlag_BottomUpLinearRep
+### -field MFVideoFlag_BottomUpLinearRep:0x80000
 
 The image is represented bottom-up in memory. This flag should be used only with RGB formats.
 
-### -field MFVideoFlags_DXVASurface
+### -field MFVideoFlags_DXVASurface:0x100000
 
 Reserved. Do not use.
 
-### -field MFVideoFlags_RenderTargetSurface
+### -field MFVideoFlags_RenderTargetSurface:0x400000
 
 Reserved. Do not use.
 
-### -field MFVideoFlags_ForceQWORD
+### -field MFVideoFlags_ForceQWORD:0x7fffffff
 
 Reserved. This member forces the enumeration type to compile as a <b>QWORD</b> value.
 

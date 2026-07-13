@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardForgetReaderGroupA
 title: SCardForgetReaderGroupA function (winscard.h)
-description: Removes a previously introduced smart card reader group from the smart card subsystem. Although this function automatically clears all readers from the group, it does not affect the existence of the individual readers in the database.
-helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardForgetReaderGroup","SCardForgetReaderGroup function [Security]","SCardForgetReaderGroupA","SCardForgetReaderGroupW","_smart_scardforgetreadergroup","security.scardforgetreadergroup","winscard/SCardForgetReaderGroup","winscard/SCardForgetReaderGroupA","winscard/SCardForgetReaderGroupW"]
+description: Removes a previously introduced smart card reader group from the smart card subsystem. Although this function automatically clears all readers from the group, it does not affect the existence of the individual readers in the database. (ANSI)
+helpviewer_keywords: ["SCARD_ALL_READERS", "SCARD_DEFAULT_READERS", "SCARD_LOCAL_READERS", "SCARD_SYSTEM_READERS", "SCardForgetReaderGroupA", "winscard/SCardForgetReaderGroupA"]
 old-location: security\scardforgetreadergroup.htm
 tech.root: security
 ms.assetid: c6c98542-01b6-4b23-88cf-a619faee882e
@@ -176,7 +176,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 > [!NOTE]
-> The winscard.h header defines SCardForgetReaderGroup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardForgetReaderGroup as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

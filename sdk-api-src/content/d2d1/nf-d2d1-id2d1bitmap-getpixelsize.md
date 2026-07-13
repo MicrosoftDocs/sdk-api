@@ -52,7 +52,7 @@ api_name:
 
 Returns the size, in device-dependent units (pixels), of the bitmap.
 
-## -parameters
+
 
 ## -returns
 

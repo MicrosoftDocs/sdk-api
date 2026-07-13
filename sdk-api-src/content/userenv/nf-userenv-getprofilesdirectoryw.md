@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.GetProfilesDirectoryW
 title: GetProfilesDirectoryW function (userenv.h)
-description: Retrieves the path to the root directory where user profiles are stored.
-helpviewer_keywords: ["GetProfilesDirectory","GetProfilesDirectory function [Windows Shell]","GetProfilesDirectoryA","GetProfilesDirectoryW","_shell_GetProfilesDirectory","shell.GetProfilesDirectory","userenv/GetProfilesDirectory","userenv/GetProfilesDirectoryA","userenv/GetProfilesDirectoryW"]
+description: Retrieves the path to the root directory where user profiles are stored. (Unicode)
+helpviewer_keywords: ["GetProfilesDirectory", "GetProfilesDirectory function [Windows Shell]", "GetProfilesDirectoryW", "_shell_GetProfilesDirectory", "shell.GetProfilesDirectory", "userenv/GetProfilesDirectory", "userenv/GetProfilesDirectoryW"]
 old-location: shell\GetProfilesDirectory.htm
 tech.root: shell
 ms.assetid: e21411fa-f7e1-4944-93ce-7d9314d79fbf
@@ -82,10 +82,18 @@ Type: <b>BOOL</b>
 
 The following is an example of the path returned by <b>GetProfilesDirectory</b> in Windows XP:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Documents and Settings</code></pre>
+
+``` syntax
+C:\Documents and Settings
+```
+
 The following is an example of the path returned by <b>GetProfilesDirectory</b> in Windows 7:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Users</code></pre>
+
+``` syntax
+C:\Users
+```
+
 To obtain the paths of subdirectories of this directory, use the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> (Windows XP and earlier) or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> (Windows Vista) function.
 
 
@@ -93,7 +101,7 @@ To obtain the paths of subdirectories of this directory, use the <a href="/windo
 
 
 > [!NOTE]
-> The userenv.h header defines GetProfilesDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The userenv.h header defines GetProfilesDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

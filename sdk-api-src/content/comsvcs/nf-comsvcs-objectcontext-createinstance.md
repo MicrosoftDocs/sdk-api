@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ObjectContext.CreateInstance
 title: ObjectContext::CreateInstance (comsvcs.h)
-description: Creates an object using current object's context.
+description: Creates an object using current object's context. (ObjectContext.CreateInstance)
 helpviewer_keywords: ["CreateInstance","CreateInstance method [COM+]","CreateInstance method [COM+]","ObjectContext interface","ObjectContext interface [COM+]","CreateInstance method","ObjectContext.CreateInstance","ObjectContext::CreateInstance","_cos_ObjectContext_CreateInstance","comsvcs/ObjectContext::CreateInstance","cos.objectcontext_createinstance"]
 old-location: cos\objectcontext_createinstance.htm
 tech.root: cos

@@ -90,7 +90,7 @@ Pointer to a null-terminated wide-character string containing the instance name 
 
 ### -param dwCreatedInstanceNameLength [in, optional]
 
-Length, in bytes, of the buffer that <i>lpCreatedInstanceName </i>points to. This parameter is optional and can be zero.
+Length, in bytes, of the buffer that <i>lpCreatedInstanceName </i> points to. This parameter is optional and can be zero.
 
 ### -param lpCreatedInstanceName [out, optional]
 

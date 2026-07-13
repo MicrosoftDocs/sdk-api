@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredWriteDomainCredentialsW
 title: CredWriteDomainCredentialsW function (wincred.h)
-description: Writes domain credentials to the user's credential set.
-helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB","CredWriteDomainCredentials","CredWriteDomainCredentials function [Security]","CredWriteDomainCredentialsA","CredWriteDomainCredentialsW","_cred_credwritedomaincredentials","security.credwritedomaincredentials","wincred/CredWriteDomainCredentials","wincred/CredWriteDomainCredentialsA","wincred/CredWriteDomainCredentialsW"]
+description: Writes domain credentials to the user's credential set. (Unicode)
+helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB", "CredWriteDomainCredentials", "CredWriteDomainCredentials function [Security]", "CredWriteDomainCredentialsW", "_cred_credwritedomaincredentials", "security.credwritedomaincredentials", "wincred/CredWriteDomainCredentials", "wincred/CredWriteDomainCredentialsW"]
 old-location: security\credwritedomaincredentials.htm
 tech.root: security
 ms.assetid: 6b54c14f-a736-4fb0-b4e4-97765a792a5e
@@ -210,4 +210,4 @@ If the value of the <b>Type</b> member of the <a href="/windows/desktop/api/winc
 
 
 > [!NOTE]
-> The wincred.h header defines CredWriteDomainCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredWriteDomainCredentials as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

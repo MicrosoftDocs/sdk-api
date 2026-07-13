@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.CreateRole
 title: IAzApplication::CreateRole (azroles.h)
-description: Creates an IAzRole object with the specified name.
+description: Creates an IAzRole object with the specified name. (IAzApplication.CreateRole)
 helpviewer_keywords: ["AzApplication object [Security]","CreateRole method","CreateRole","CreateRole method [Security]","CreateRole method [Security]","AzApplication object","CreateRole method [Security]","IAzApplication interface","IAzApplication interface [Security]","CreateRole method","IAzApplication.CreateRole","IAzApplication::CreateRole","azroles/IAzApplication::CreateRole","security.iazapplication_createrole"]
 old-location: security\iazapplication_createrole.htm
 tech.root: security

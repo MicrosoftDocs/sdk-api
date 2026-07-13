@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_bitRat
 old-location: wmp\iwmpnetwork_get_bitrate.htm
 tech.root: WMP
 ms.assetid: dfac8b29-47d9-4cee-801b-f43fa2bba6ed
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bitRate method, IWMPNetwork.get_bitRate, IWMPNetwork::get_bitRate, IWMPNetworkget_bitRate, get_bitRate, get_bitRate method [Windows Media Player], get_bitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bitrate, wmp/IWMPNetwork::get_bitRate
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_bitRate</b> method retrieves the current bit rate being received.
 

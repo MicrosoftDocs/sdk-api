@@ -1,13 +1,13 @@
 ---
 UID: NS:iketypes.IKEEXT_POLICY2_
 title: IKEEXT_POLICY2 (iketypes.h)
-description: Is used to store the IKE/AuthIP main mode negotiation policy.
-helpviewer_keywords: ["IKEEXT_POLICY2","IKEEXT_POLICY2 structure [Filtering]","IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS","IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH","IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY","IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY","fwp.ikeext_policy2","iketypes/IKEEXT_POLICY2"]
+description: Is used to store the IKE/AuthIP main mode negotiation policy. (IKEEXT_POLICY2)
+helpviewer_keywords: ["IKEEXT_POLICY2","IKEEXT_POLICY2 structure [Filtering]","IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS","IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH","IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY","IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY","fwp.ikeext_policy2","iketypes/IKEEXT_POLICY2","IKEEXT_POLICY_FLAG_POINT_TO_SITE"]
 old-location: fwp\ikeext_policy2.htm
 tech.root: fwp
 ms.assetid: d6efc1dd-3127-44d0-9f6a-ebf7cba477aa
 ms.date: 12/05/2018
-ms.keywords: IKEEXT_POLICY2, IKEEXT_POLICY2 structure [Filtering], IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS, IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH, IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY, IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY, fwp.ikeext_policy2, iketypes/IKEEXT_POLICY2
+ms.keywords: IKEEXT_POLICY2, IKEEXT_POLICY2 structure [Filtering], IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS, IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH, IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY, IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY, fwp.ikeext_policy2, iketypes/IKEEXT_POLICY2, IKEEXT_POLICY_FLAG_POINT_TO_SITE
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -143,6 +143,15 @@ Disable SA verification of machine impersonation LUID.
 </td>
 <td width="60%">
 Allow the responder to accept any DH proposal, including no DH, regardless of what is configured in policy.  This flag is valid only if AuthIP is used.
+
+</td>
+</tr><tr>
+<td width="40%"><a id="IKEEXT_POLICY_FLAG_POINT_TO_SITE"></a><a id="ikeext_policy_flag_point_to_site"></a><dl>
+<dt><b>IKEEXT_POLICY_FLAG_POINT_TO_SITE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specifies that the IKE policy is for Point-to-Site VPN connections, typically used by individual clients connecting to a virtual network.
 
 </td>
 </tr>

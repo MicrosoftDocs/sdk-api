@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.FindNextFileA
 title: FindNextFileA function (fileapi.h)
-description: Continues a file search from a previous call to the FindFirstFile, FindFirstFileEx, or FindFirstFileTransacted functions.
-helpviewer_keywords: ["FindNextFile","FindNextFile function [Files]","FindNextFileA","FindNextFileW","_win32_findnextfile","base.findnextfile","fileapi/FindNextFile","fileapi/FindNextFileA","fileapi/FindNextFileW","fs.findnextfile","winbase/FindNextFile","winbase/FindNextFileA","winbase/FindNextFileW"]
+description: Continues a file search from a previous call to the FindFirstFile, FindFirstFileEx, or FindFirstFileTransacted functions. (ANSI)
+helpviewer_keywords: ["FindNextFileA", "fileapi/FindNextFileA"]
 old-location: fs\findnextfile.htm
 tech.root: fs
 ms.assetid: db7acb83-2da6-40bf-9962-5cfe54e257a5
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -191,7 +194,7 @@ For an example, see
 
 
 > [!NOTE]
-> The fileapi.h header defines FindNextFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The fileapi.h header defines FindNextFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

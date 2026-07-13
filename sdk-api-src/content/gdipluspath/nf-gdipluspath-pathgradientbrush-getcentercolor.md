@@ -74,9 +74,9 @@ If the method fails, it returns one of the other elements of the
 ## -remarks
 
 By default, the center point of a 
-				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object is the centroid of the brush's boundary path, but you can set the center point to any location, inside or outside the path, by calling the 
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object is the centroid of the brush's boundary path, but you can set the center point to any location, inside or outside the path, by calling the 
 				<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)">PathGradientBrush::SetCenterPoint Methods</a> method of the 
-				<b>PathGradientBrush</b>object.
+				<b>PathGradientBrush</b> object.
 
 
 #### Examples
@@ -84,8 +84,8 @@ By default, the center point of a
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object and uses it to fill an ellipse. Then the code calls the <b>PathGradientBrush::GetCenterColor</b> method of the 
-						<b>PathGradientBrush</b>object to obtain the center color.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object and uses it to fill an ellipse. Then the code calls the <b>PathGradientBrush::GetCenterColor</b> method of the 
+						<b>PathGradientBrush</b> object to obtain the center color.
 
 
 ```cpp

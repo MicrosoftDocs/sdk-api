@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDnsSamCompat
 title: IAzClientContext::get_UserDnsSamCompat (azroles.h)
-description: Retrieves the name of the current client in a DNS format compatible with Windows�Security�Account�Manager (SAM).
+description: Retrieves the name of the current client in a DNS format compatible with Windows Security Account Manager (SAM).
 helpviewer_keywords: ["AzClientContext object [Security]","UserDnsSamCompat property","IAzClientContext interface [Security]","UserDnsSamCompat property","IAzClientContext.UserDnsSamCompat","IAzClientContext.get_UserDnsSamCompat","IAzClientContext::UserDnsSamCompat","IAzClientContext::get_UserDnsSamCompat","UserDnsSamCompat property [Security]","UserDnsSamCompat property [Security]","AzClientContext object","UserDnsSamCompat property [Security]","IAzClientContext interface","azroles/IAzClientContext::UserDnsSamCompat","azroles/IAzClientContext::get_UserDnsSamCompat","get_UserDnsSamCompat","security.iazclientcontext_userdnssamcompat"]
 old-location: security\iazclientcontext_userdnssamcompat.htm
 tech.root: security

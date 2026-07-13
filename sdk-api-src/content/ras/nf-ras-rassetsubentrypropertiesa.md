@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetSubEntryPropertiesA
 title: RasSetSubEntryPropertiesA function (ras.h)
-description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry.
-helpviewer_keywords: ["RasSetSubEntryProperties","RasSetSubEntryProperties function [RAS]","RasSetSubEntryPropertiesA","RasSetSubEntryPropertiesW","_ras_rassetsubentryproperties","ras/RasSetSubEntryProperties","ras/RasSetSubEntryPropertiesA","ras/RasSetSubEntryPropertiesW","rras.rassetsubentryproperties"]
+description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry. (ANSI)
+helpviewer_keywords: ["RasSetSubEntryPropertiesA", "ras/RasSetSubEntryPropertiesA"]
 old-location: rras\rassetsubentryproperties.htm
 tech.root: RRAS
 ms.assetid: 6bbc826b-e296-42d0-89d0-a13d0ce94929
@@ -168,7 +168,7 @@ Use the
 
 
 > [!NOTE]
-> The ras.h header defines RasSetSubEntryProperties as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasSetSubEntryProperties as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

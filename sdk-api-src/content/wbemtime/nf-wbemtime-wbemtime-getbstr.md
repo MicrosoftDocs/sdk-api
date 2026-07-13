@@ -62,7 +62,7 @@ api_name:
 The <b>GetBSTR</b> method gets the time as a <b>BSTR</b> value in 
 CIM <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
 
-## -parameters
+
 
 ## -returns
 

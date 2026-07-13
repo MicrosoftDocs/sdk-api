@@ -68,7 +68,7 @@ To retrieve descriptors of all other interfaces and their related endpoints, use
 
 ### -param DescriptorType [in]
 
-A value that specifies the type of descriptor to return. This parameter corresponds to the <b>bDescriptorType</b> field of a standard device descriptor, whose values are described in the <i>Universal Serial Bus </i>specification. Some of these values are listed in the description of the <b>DescriptorType</b> member of the <a href="/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a> structure.
+A value that specifies the type of descriptor to return. This parameter corresponds to the <b>bDescriptorType</b> field of a standard device descriptor, whose values are described in the <i>Universal Serial Bus </i> specification. Some of these values are listed in the description of the <b>DescriptorType</b> member of the <a href="/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a> structure.
 
 ### -param Index [in]
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMLVGETINFOTIPA
 title: NMLVGETINFOTIPA (commctrl.h)
-description: Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the LVN_GETINFOTIP notification code.
+description: Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the LVN_GETINFOTIP notification code. (ANSI)
 helpviewer_keywords: ["*LPNMLVGETINFOTIPA","LPNMLVGETINFOTIP","LPNMLVGETINFOTIP structure pointer [Windows Controls]","NMLVGETINFOTIP","NMLVGETINFOTIP structure [Windows Controls]","NMLVGETINFOTIPA","NMLVGETINFOTIPW","_win32_NMLVGETINFOTIP","_win32_NMLVGETINFOTIP_cpp","commctrl/LPNMLVGETINFOTIP","commctrl/NMLVGETINFOTIP","commctrl/NMLVGETINFOTIPA","commctrl/NMLVGETINFOTIPW","controls.NMLVGETINFOTIP","controls._win32_NMLVGETINFOTIP"]
 old-location: controls\NMLVGETINFOTIP.htm
 tech.root: Controls
@@ -114,4 +114,4 @@ An item is said to be folded when the currently displayed text is truncated. If 
 
 
 > [!NOTE]
-> The commctrl.h header defines NMLVGETINFOTIP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines NMLVGETINFOTIP as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

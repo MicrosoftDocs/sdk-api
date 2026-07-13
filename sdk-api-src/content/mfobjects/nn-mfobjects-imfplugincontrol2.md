@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFPluginControl2
 title: IMFPluginControl2 (mfobjects.h)
-description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
+description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation. (IMFPluginControl2)
 helpviewer_keywords: ["IMFPluginControl2","IMFPluginControl2 interface [Media Foundation]","IMFPluginControl2 interface [Media Foundation]","described","mf.imfplugincontrol2","mfobjects/IMFPluginControl2"]
 old-location: mf\imfplugincontrol2.htm
 tech.root: mf
@@ -56,10 +56,7 @@ This interface extends the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPluginControl2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>. <b>IMFPluginControl2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFPluginControl2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>. <b>IMFPluginControl2</b> also has these types of members:
 
 ## -remarks
 

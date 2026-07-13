@@ -1,8 +1,8 @@
 ---
 UID: NF:sensapi.IsDestinationReachableW
 title: IsDestinationReachableW function (sensapi.h)
-description: The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination.
-helpviewer_keywords: ["IsDestinationReachable","IsDestinationReachable function [SENS]","IsDestinationReachableA","IsDestinationReachableW","_zaw_isdestinationreachable","sens.isdestinationreachable","sensapi/IsDestinationReachable","sensapi/IsDestinationReachableA","sensapi/IsDestinationReachableW","syncmgr.isdestinationreachable"]
+description: The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination. (Unicode)
+helpviewer_keywords: ["IsDestinationReachable", "IsDestinationReachable function [SENS]", "IsDestinationReachableW", "_zaw_isdestinationreachable", "sens.isdestinationreachable", "sensapi/IsDestinationReachable", "sensapi/IsDestinationReachableW", "syncmgr.isdestinationreachable"]
 old-location: sens\isdestinationreachable.htm
 tech.root: Sens
 ms.assetid: 377af331-8494-4a3d-b822-78c2b568239c
@@ -127,7 +127,7 @@ Starting with applications designed for Windows Vista and Windows Server 2008,
 
 
 > [!NOTE]
-> The sensapi.h header defines IsDestinationReachable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sensapi.h header defines IsDestinationReachable as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

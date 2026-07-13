@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.PeekMessageA
 title: PeekMessageA function (winuser.h)
-description: Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
-helpviewer_keywords: ["PM_NOREMOVE","PM_NOYIELD","PM_QS_INPUT","PM_QS_PAINT","PM_QS_POSTMESSAGE","PM_QS_SENDMESSAGE","PM_REMOVE","PeekMessage","PeekMessage function [Windows and Messages]","PeekMessageA","PeekMessageW","_win32_PeekMessage","_win32_peekmessage_cpp","winmsg.peekmessage","winui._win32_peekmessage","winuser/PeekMessage","winuser/PeekMessageA","winuser/PeekMessageW"]
+description: Dispatches incoming nonqueued messages, checks the thread message queue for a posted message, and retrieves the message (if any exist). (ANSI)
+helpviewer_keywords: ["PM_NOREMOVE", "PM_NOYIELD", "PM_QS_INPUT", "PM_QS_PAINT", "PM_QS_POSTMESSAGE", "PM_QS_SENDMESSAGE", "PM_REMOVE", "PeekMessageA", "winuser/PeekMessageA"]
 old-location: winmsg\peekmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\peekmessage.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-message-ansi-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-message-l1-1-0.dll
  - ie_shims.dll
@@ -62,7 +63,7 @@ req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 
 ## -description
 
-Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
+Dispatches incoming nonqueued messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
 
 ## -parameters
 
@@ -106,104 +107,22 @@ Type: <b>UINT</b>
 
 Specifies how messages are to be handled. This parameter can be one or more of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PM_NOREMOVE"></a><a id="pm_noremove"></a><dl>
-<dt><b>PM_NOREMOVE</b></dt>
-<dt>0x0000</dt>
-</dl>
-</td>
-<td width="60%">
-Messages are not removed from the queue after processing by <b>PeekMessage</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PM_REMOVE"></a><a id="pm_remove"></a><dl>
-<dt><b>PM_REMOVE</b></dt>
-<dt>0x0001</dt>
-</dl>
-</td>
-<td width="60%">
-Messages are removed from the queue after processing by <b>PeekMessage</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PM_NOYIELD"></a><a id="pm_noyield"></a><dl>
-<dt><b>PM_NOYIELD</b></dt>
-<dt>0x0002</dt>
-</dl>
-</td>
-<td width="60%">
-Prevents the system from releasing any thread that is waiting for the caller to go idle (see <a href="/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a>).
-
-Combine this value with either <b>PM_NOREMOVE</b> or <b>PM_REMOVE</b>.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+|-------|---------|
+| **PM\_NOREMOVE**<br>`0x0000`  | Messages are not removed from the queue after processing by **PeekMessage**. |
+| **PM\_REMOVE**<br>`0x0001` | Messages are removed from the queue after processing by **PeekMessage**. |
+| **PM\_NOYIELD**<br>`0x0002` | Prevents the system from releasing any thread that is waiting for the caller to go idle (see [WaitForInputIdle](/windows/desktop/api/winuser/nf-winuser-waitforinputidle)). Combine this value with either **PM\_NOREMOVE** or **PM\_REMOVE**. |
 
 By default, all message types are processed. To specify that only certain message should be processed, specify one or more of the following values.
 
+| Value | Meaning |
+|-------|---------|
+| **PM\_QS\_INPUT**<br>`(QS_INPUT << 16)` | Process mouse and keyboard messages. |
+| **PM\_QS\_POSTMESSAGE**<br>`((QS_POSTMESSAGE \| QS_HOTKEY \| QS_TIMER) << 16)` | Process all posted messages, including timers and hotkeys. |
+| **PM\_QS\_PAINT**<br>`(QS_PAINT << 16)` | Process paint messages. |
+| **PM\_QS\_SENDMESSAGE**<br>`(QS_SENDMESSAGE << 16)` | Process all sent messages. |
 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PM_QS_INPUT"></a><a id="pm_qs_input"></a><dl>
-<dt><b>PM_QS_INPUT</b></dt>
-<dt>(QS_INPUT &lt;&lt; 16)</dt>
-</dl>
-</td>
-<td width="60%">
- Process mouse and keyboard messages.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PM_QS_PAINT"></a><a id="pm_qs_paint"></a><dl>
-<dt><b>PM_QS_PAINT</b></dt>
-<dt>(QS_PAINT &lt;&lt; 16)</dt>
-</dl>
-</td>
-<td width="60%">
- Process paint messages.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PM_QS_POSTMESSAGE"></a><a id="pm_qs_postmessage"></a><dl>
-<dt><b>PM_QS_POSTMESSAGE</b></dt>
-<dt>((QS_POSTMESSAGE | QS_HOTKEY | QS_TIMER) &lt;&lt; 16)</dt>
-</dl>
-</td>
-<td width="60%">
- Process all posted messages, including timers and hotkeys.  
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PM_QS_SENDMESSAGE"></a><a id="pm_qs_sendmessage"></a><dl>
-<dt><b>PM_QS_SENDMESSAGE</b></dt>
-<dt>(QS_SENDMESSAGE &lt;&lt; 16)</dt>
-</dl>
-</td>
-<td width="60%">
- Process all sent messages.
-
-</td>
-</tr>
-</table>
+For more info on listed `QS_` flags and types of messages see [GetQueueStatus](nf-winuser-getqueuestatus.md) documentation.
 
 ## -returns
 
@@ -219,7 +138,7 @@ If no messages are available, the return value is zero.
 
 Note that <b>PeekMessage</b> always retrieves <a href="/windows/desktop/winmsg/wm-quit">WM_QUIT</a> messages, no matter which values you specify for <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i>.
 
-During this call, the system delivers pending,  nonqueued messages, that is, messages sent to windows owned by the calling thread using the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>, <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>, <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a>, or <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. Then the first queued message that matches the specified filter is retrieved. The system may also process internal events. If no filter is specified, messages are processed in the following order:
+During this call, the system dispatches (<a href="/windows/win32/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>) pending,  nonqueued messages, that is, messages sent to windows owned by the calling thread using the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>, <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>, <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a>, or <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. Then the first queued message that matches the specified filter is retrieved. The system may also process internal events. If no filter is specified, messages are processed in the following order:
 
 <ul>
 <li>Sent messages </li>
@@ -251,7 +170,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-
 
 
 > [!NOTE]
-> The winuser.h header defines PeekMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines PeekMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

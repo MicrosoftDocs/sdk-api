@@ -54,7 +54,7 @@ ms.custom: 19H1
 This operator returns the address of a <a href="/windows/desktop/direct3d11/d3d11-rect">D3D11_RECT</a> structure that contains  the data from the <a href="/windows/win32/api/d3d11/ns-d3d11-cd3d11_rect">CD3D11_RECT</a> instance.
 
 
-## -parameters
+
 
 
 

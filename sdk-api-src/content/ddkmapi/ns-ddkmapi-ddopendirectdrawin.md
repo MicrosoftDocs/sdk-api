@@ -76,4 +76,4 @@ Contains a value that is passed if the <a href="/windows/desktop/api/ddkmapi/nc-
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

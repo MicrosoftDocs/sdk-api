@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetMetrics
 title: IDWriteFontFace1::GetMetrics (dwrite_1.h)
-description: Obtains design units and common metrics for the font face. These metrics are applicable to all the glyphs within a font face and are used by applications for layout calculations.
+description: Obtains design units and common metrics for the font face. These metrics are applicable to all the glyphs within a font face and are used by applications for layout calculations. (IDWriteFontFace1.GetMetrics)
 helpviewer_keywords: ["GetMetrics","GetMetrics method [Direct Write]","GetMetrics method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetMetrics method","IDWriteFontFace1.GetMetrics","IDWriteFontFace1::GetMetrics","directwrite.idwritefontface1_getmetrics","dwrite_1/IDWriteFontFace1::GetMetrics"]
 old-location: directwrite\idwritefontface1_getmetrics.htm
 tech.root: DirectWrite

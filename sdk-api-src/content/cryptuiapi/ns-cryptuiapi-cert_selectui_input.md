@@ -1,5 +1,5 @@
 ---
-UID: NS:cryptuiapi.__unnamed_struct_0
+UID: NS:cryptuiapi.CERT_SELECTUI_INPUT
 title: CERT_SELECTUI_INPUT (cryptuiapi.h)
 description: Used by the CertSelectionGetSerializedBlob function to serialize the certificates contained in a store or an array of certificate chains. The returned serialized BLOB can be passed to the CredUIPromptForWindowsCredentials function.
 helpviewer_keywords: ["*PCERT_SELECTUI_INPUT","CERT_SELECTUI_INPUT","CERT_SELECTUI_INPUT structure [Security]","PCERT_SELECTUI_INPUT","PCERT_SELECTUI_INPUT structure pointer [Security]","cryptuiapi/CERT_SELECTUI_INPUT","cryptuiapi/PCERT_SELECTUI_INPUT","security.cert_selectui_input"]
@@ -67,3 +67,4 @@ An array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_
 ### -field cChain
 
 The number of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structures that are in the array pointed to by the <b>prgpChain</b> member.
+

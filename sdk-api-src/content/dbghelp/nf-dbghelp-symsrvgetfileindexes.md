@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexes
 title: SymSrvGetFileIndexes function (dbghelp.h)
-description: Retrieves the indexes for the specified .pdb, .dbg, or image file that would be used to store the file. The combination of these values uniquely identifies the file in the symbol server.
+description: The SymSrvGetFileIndexes function (dbghelp.h) retrieves the indexes for the specified .pdb, .dbg, or image file that would be used to store the file.
 helpviewer_keywords: ["SymSrvGetFileIndexes","SymSrvGetFileIndexes function","SymSrvGetFileIndexesW","base.symsrvgetfileindexes","dbghelp/SymSrvGetFileIndexes","dbghelp/SymSrvGetFileIndexesW"]
 old-location: base\symsrvgetfileindexes.htm
 tech.root: Debug
 ms.assetid: 9a6c6949-1ba2-4ed9-a038-68c57560454a
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvGetFileIndexes, SymSrvGetFileIndexes function, SymSrvGetFileIndexesW, base.symsrvgetfileindexes, dbghelp/SymSrvGetFileIndexes, dbghelp/SymSrvGetFileIndexesW
 req.header: dbghelp.h
 req.include-header: 

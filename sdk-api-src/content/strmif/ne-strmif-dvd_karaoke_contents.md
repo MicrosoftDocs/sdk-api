@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_KARAOKE_CONTENTS","DVD_KARAOKE_CONTENTS","DVD_KARAOKE
 old-location: dshow\dvd_karaoke_contents.htm
 tech.root: dshow
 ms.assetid: 9d02b0bf-237a-42bf-b946-588b899cd3d9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_KARAOKE_CONTENTS, DVD_KARAOKE_CONTENTS , DVD_KARAOKE_CONTENTS enumeration [DirectShow], DVD_KARAOKE_CONTENTSEnumeration, DVD_Karaoke_GuideMelody1, DVD_Karaoke_GuideMelody2, DVD_Karaoke_GuideMelodyA, DVD_Karaoke_GuideMelodyB, DVD_Karaoke_GuideVocal1, DVD_Karaoke_GuideVocal2, DVD_Karaoke_SoundEffectA, DVD_Karaoke_SoundEffectB, dshow.dvd_karaoke_contents, strmif/DVD_KARAOKE_CONTENTS, strmif/DVD_Karaoke_GuideMelody1, strmif/DVD_Karaoke_GuideMelody2, strmif/DVD_Karaoke_GuideMelodyA, strmif/DVD_Karaoke_GuideMelodyB, strmif/DVD_Karaoke_GuideVocal1, strmif/DVD_Karaoke_GuideVocal2, strmif/DVD_Karaoke_SoundEffectA, strmif/DVD_Karaoke_SoundEffectB
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,39 +52,41 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Specifies flags that, when used in a bitwise <b>OR</b> operation, describe the contents of each channel of an audio stream in a karaoke title.
 
 ## -enum-fields
 
-### -field DVD_Karaoke_GuideVocal1
+### -field DVD_Karaoke_GuideVocal1:0x1
 
 The channel contains guide vocal 1.
 
-### -field DVD_Karaoke_GuideVocal2
+### -field DVD_Karaoke_GuideVocal2:0x2
 
 The channel contains guide vocal 2.
 
-### -field DVD_Karaoke_GuideMelody1
+### -field DVD_Karaoke_GuideMelody1:0x4
 
 The channel contains guide melody 1.
 
-### -field DVD_Karaoke_GuideMelody2
+### -field DVD_Karaoke_GuideMelody2:0x8
 
 The channel contains guide melody 2.
 
-### -field DVD_Karaoke_GuideMelodyA
+### -field DVD_Karaoke_GuideMelodyA:0x10
 
 The channel contains guide melody A.
 
-### -field DVD_Karaoke_GuideMelodyB
+### -field DVD_Karaoke_GuideMelodyB:0x20
 
 The channel contains guide melody B.
 
-### -field DVD_Karaoke_SoundEffectA
+### -field DVD_Karaoke_SoundEffectA:0x40
 
 The channel contains sound effect A.
 
-### -field DVD_Karaoke_SoundEffectB
+### -field DVD_Karaoke_SoundEffectB:0x80
 
 The channel contains sound effect B.
 

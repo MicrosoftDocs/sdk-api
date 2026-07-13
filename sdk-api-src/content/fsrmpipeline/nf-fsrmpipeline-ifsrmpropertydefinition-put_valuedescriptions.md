@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_ValueDescriptions
 title: IFsrmPropertyDefinition::put_ValueDescriptions (fsrmpipeline.h)
-description: Descriptions for each of the possible values specified in the PossibleValues property.
+description: Descriptions for each of the possible values specified in the PossibleValues property. (Put)
 helpviewer_keywords: ["IFsrmPropertyDefinition interface [File Server Resource Manager]","ValueDescriptions property","IFsrmPropertyDefinition.ValueDescriptions","IFsrmPropertyDefinition.put_ValueDescriptions","IFsrmPropertyDefinition::ValueDescriptions","IFsrmPropertyDefinition::get_ValueDescriptions","IFsrmPropertyDefinition::put_ValueDescriptions","ValueDescriptions property [File Server Resource Manager]","ValueDescriptions property [File Server Resource Manager]","IFsrmPropertyDefinition interface","fs.ifsrmpropertydefinition_valuedescriptions","fsrm.ifsrmpropertydefinition_valuedescriptions","fsrmpipeline/IFsrmPropertyDefinition::ValueDescriptions","fsrmpipeline/IFsrmPropertyDefinition::get_ValueDescriptions","fsrmpipeline/IFsrmPropertyDefinition::put_ValueDescriptions","put_ValueDescriptions"]
 old-location: fsrm\ifsrmpropertydefinition_valuedescriptions.htm
 tech.root: fsrm

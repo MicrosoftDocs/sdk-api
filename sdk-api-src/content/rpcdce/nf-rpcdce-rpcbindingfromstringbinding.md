@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcBindingFromStringBinding
 title: RpcBindingFromStringBinding function (rpcdce.h)
-description: Returns a binding handle from a string representation of a binding handle.
+description: The RpcBindingFromStringBinding function (rpcdce.h) returns a binding handle from a string representation of a binding handle.
 helpviewer_keywords: ["RpcBindingFromStringBinding","RpcBindingFromStringBinding function [RPC]","RpcBindingFromStringBindingA","RpcBindingFromStringBindingW","_rpc_rpcbindingfromstringbinding","rpc.rpcbindingfromstringbinding","rpcdce/RpcBindingFromStringBinding","rpcdce/RpcBindingFromStringBindingA","rpcdce/RpcBindingFromStringBindingW"]
 old-location: rpc\rpcbindingfromstringbinding.htm
 tech.root: Rpc
 ms.assetid: fd82fb9f-da0e-46fb-9c11-a75a9b6ee858
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcBindingFromStringBinding, RpcBindingFromStringBinding function [RPC], RpcBindingFromStringBindingA, RpcBindingFromStringBindingW, _rpc_rpcbindingfromstringbinding, rpc.rpcbindingfromstringbinding, rpcdce/RpcBindingFromStringBinding, rpcdce/RpcBindingFromStringBindingA, rpcdce/RpcBindingFromStringBindingW
 req.header: rpcdce.h
 req.include-header: Rpc.h

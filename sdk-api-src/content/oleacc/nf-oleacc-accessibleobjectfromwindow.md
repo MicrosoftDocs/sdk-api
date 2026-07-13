@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-oleacc-l1-1-2.dll
  - Oleacc.dll
  - Ext-MS-Win-oleacc-l1-1-0.dll
  - ext-ms-win-oleacc-l1-1-1.dll

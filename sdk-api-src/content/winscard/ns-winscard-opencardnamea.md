@@ -1,7 +1,7 @@
 ---
-UID: NS:winscard.__unnamed_struct_8
+UID: NS:winscard.OPENCARDNAMEA
 title: OPENCARDNAMEA (winscard.h)
-description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box.
+description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box. (ANSI)
 helpviewer_keywords: ["*LPOPENCARDNAMEA","*POPENCARDNAMEA","LPOPENCARDNAME","LPOPENCARDNAME structure pointer [Security]","OPENCARDNAME","OPENCARDNAME structure [Security]","OPENCARDNAMEA","OPENCARDNAMEW","SC_DLG_FORCE_UI","SC_DLG_MINIMAL_UI","SC_DLG_NO_UI","_smart_opencardname","security.opencardname","winscard/LPOPENCARDNAME","winscard/OPENCARDNAME","winscard/OPENCARDNAMEA","winscard/OPENCARDNAMEW"]
 old-location: security\opencardname.htm
 tech.root: security
@@ -274,4 +274,5 @@ A handle of the connected card (either through an internal dialog box connect or
 ## -remarks
 
 > [!NOTE]
-> The winscard.h header defines OPENCARDNAME as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines OPENCARDNAME as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

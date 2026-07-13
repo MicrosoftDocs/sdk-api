@@ -4,7 +4,7 @@ title: IEVRTrustedVideoPlugin::CanConstrict (evr.h)
 description: Queries whether the plug-in can limit the effective video resolution.
 helpviewer_keywords: ["16bb31c3-51f7-4d9b-946c-f366fb6e5dee","CanConstrict","CanConstrict method [Media Foundation]","CanConstrict method [Media Foundation]","IEVRTrustedVideoPlugin interface","IEVRTrustedVideoPlugin interface [Media Foundation]","CanConstrict method","IEVRTrustedVideoPlugin.CanConstrict","IEVRTrustedVideoPlugin::CanConstrict","evr/IEVRTrustedVideoPlugin::CanConstrict","mf.ievrtrustedvideoplugin_canconstrict"]
 old-location: mf\ievrtrustedvideoplugin_canconstrict.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee
 ms.date: 12/05/2018
 ms.keywords: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee, CanConstrict, CanConstrict method [Media Foundation], CanConstrict method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],CanConstrict method, IEVRTrustedVideoPlugin.CanConstrict, IEVRTrustedVideoPlugin::CanConstrict, evr/IEVRTrustedVideoPlugin::CanConstrict, mf.ievrtrustedvideoplugin_canconstrict
@@ -44,12 +44,15 @@ api_location:
  - mfuuid.dll
 api_name:
  - IEVRTrustedVideoPlugin.CanConstrict
+archived: true
 ---
 
 # IEVRTrustedVideoPlugin::CanConstrict
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Queries whether the plug-in can limit the effective video resolution.
 

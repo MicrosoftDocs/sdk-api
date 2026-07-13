@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSQueryUserConfigA
 title: WTSQueryUserConfigA function (wtsapi32.h)
-description: Retrieves configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSQueryUserConfig","WTSQueryUserConfig function [Remote Desktop Services]","WTSQueryUserConfigA","WTSQueryUserConfigW","_win32_wtsqueryuserconfig","termserv.wtsqueryuserconfig","wtsapi32/WTSQueryUserConfig","wtsapi32/WTSQueryUserConfigA","wtsapi32/WTSQueryUserConfigW"]
+description: Retrieves configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server. (ANSI)
+helpviewer_keywords: ["WTSQueryUserConfigA", "wtsapi32/WTSQueryUserConfigA"]
 old-location: termserv\wtsqueryuserconfig.htm
 tech.root: TermServ
 ms.assetid: aabbcc03-3241-49ab-ab11-ccd3e6893e78
@@ -104,7 +104,7 @@ Any domain controller can set or query user configuration information. Use the
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSQueryUserConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSQueryUserConfig as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

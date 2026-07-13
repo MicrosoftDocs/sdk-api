@@ -58,7 +58,7 @@ Deserializes package data from a stream  and creates a package object to represe
 
 A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the stream.
 
-The stream must be readable, seekable, have size,   and must contain package data. Additionally, if the stream is not clonable, it will be buffered and read sequentially, incurring overhead.
+The stream must be readable, seekable, have size,   and must contain package data. Additionally, if the stream is not cloneable, it will be buffered and read sequentially, incurring overhead.
 
 ### -param flags [in]
 
@@ -124,7 +124,7 @@ At least one of the <i>stream</i> and <i>package</i> parameters is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>IStream</b> interface error</b></dt>
+<dt><b>IStream interface error</b></dt>
 </dl>
 </td>
 <td width="60%">

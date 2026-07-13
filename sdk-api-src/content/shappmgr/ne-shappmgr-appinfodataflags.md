@@ -56,75 +56,75 @@ Specifies application information to return from <a href="/windows/desktop/api/s
 
 ## -enum-fields
 
-### -field AIM_DISPLAYNAME
+### -field AIM_DISPLAYNAME:0x1
 
 Returns the display name.
 
-### -field AIM_VERSION
+### -field AIM_VERSION:0x2
 
 Returns the version.
 
-### -field AIM_PUBLISHER
+### -field AIM_PUBLISHER:0x4
 
 Returns the application publisher.
 
-### -field AIM_PRODUCTID
+### -field AIM_PRODUCTID:0x8
 
 Returns the application's product ID.
 
-### -field AIM_REGISTEREDOWNER
+### -field AIM_REGISTEREDOWNER:0x10
 
 Returns the application's registered owner.
 
-### -field AIM_REGISTEREDCOMPANY
+### -field AIM_REGISTEREDCOMPANY:0x20
 
 Returns the application's registered company.
 
-### -field AIM_LANGUAGE
+### -field AIM_LANGUAGE:0x40
 
 Returns the language.
 
-### -field AIM_SUPPORTURL
+### -field AIM_SUPPORTURL:0x80
 
 Returns the support URL.
 
-### -field AIM_SUPPORTTELEPHONE
+### -field AIM_SUPPORTTELEPHONE:0x100
 
 Returns the support telephone number.
 
-### -field AIM_HELPLINK
+### -field AIM_HELPLINK:0x200
 
 Returns the Help link.
 
-### -field AIM_INSTALLLOCATION
+### -field AIM_INSTALLLOCATION:0x400
 
 Returns the application's install location.
 
-### -field AIM_INSTALLSOURCE
+### -field AIM_INSTALLSOURCE:0x800
 
 Returns the install source.
 
-### -field AIM_INSTALLDATE
+### -field AIM_INSTALLDATE:0x1000
 
 Returns the application's install date.
 
-### -field AIM_CONTACT
+### -field AIM_CONTACT:0x4000
 
 Returns the application's contact information.
 
-### -field AIM_COMMENTS
+### -field AIM_COMMENTS:0x8000
 
 Returns application comments.
 
-### -field AIM_IMAGE
+### -field AIM_IMAGE:0x20000
 
 Returns the application image.
 
-### -field AIM_READMEURL
+### -field AIM_READMEURL:0x40000
 
 Returns the URL of the application's ReadMe file.
 
-### -field AIM_UPDATEINFOURL
+### -field AIM_UPDATEINFOURL:0x80000
 
 Returns the URL of the application's update information.
 

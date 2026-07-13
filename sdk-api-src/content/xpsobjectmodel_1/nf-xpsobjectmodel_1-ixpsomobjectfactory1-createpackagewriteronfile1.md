@@ -61,7 +61,7 @@ Opens a file for writing the contents of an XPS OM to an XPS package of a specif
 
 ### -param securityAttributes
 
-[in, unique]    The <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
+[in, unique]    The <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
 
 <ul>
 <li><b>lpSecurityDescriptor</b>: an optional security descriptor</li>
@@ -88,7 +88,7 @@ See <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ The package writer will try to optimize the markup for minimum size.
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

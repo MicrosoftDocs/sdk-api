@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredGetTargetInfoW
 title: CredGetTargetInfoW function (wincred.h)
-description: The CredGetTargetInfo function retrieves all known target name information for the named target computer.
-helpviewer_keywords: ["CredGetTargetInfo","CredGetTargetInfo function [Security]","CredGetTargetInfoA","CredGetTargetInfoW","_cred_credgettargetinfo","security.credgettargetinfo","wincred/CredGetTargetInfo","wincred/CredGetTargetInfoA","wincred/CredGetTargetInfoW"]
+description: The CredGetTargetInfo function retrieves all known target name information for the named target computer. (Unicode)
+helpviewer_keywords: ["CredGetTargetInfo", "CredGetTargetInfo function [Security]", "CredGetTargetInfoW", "_cred_credgettargetinfo", "security.credgettargetinfo", "wincred/CredGetTargetInfo", "wincred/CredGetTargetInfoW"]
 old-location: security\credgettargetinfo.htm
 tech.root: security
 ms.assetid: 14dca0af-72d7-4ca8-84bb-c7040c5b5fb9
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - sechost.dll
@@ -118,4 +119,4 @@ Target information for the named server is not available.
 ## -remarks
 
 > [!NOTE]
-> The wincred.h header defines CredGetTargetInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredGetTargetInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

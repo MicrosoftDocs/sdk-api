@@ -6,13 +6,13 @@ helpviewer_keywords: ["IDWriteFontDownloadListener","IDWriteFontDownloadListener
 old-location: directwrite\idwritefontdownloadlistener.htm
 tech.root: DirectWrite
 ms.assetid: 92678d34-9a14-8d58-129c-be31a0963942
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontDownloadListener, IDWriteFontDownloadListener interface [Direct Write], IDWriteFontDownloadListener interface [Direct Write],described, directwrite.idwritefontdownloadlistener, dwrite_3/IDWriteFontDownloadListener
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -55,8 +55,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontDownloadListener</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontDownloadListener</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontDownloadListener</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontDownloadListener</b> also has these types of members:
 

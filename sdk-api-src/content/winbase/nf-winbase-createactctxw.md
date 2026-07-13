@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateActCtxW
 title: CreateActCtxW function (winbase.h)
-description: The CreateActCtx function creates an activation context.
-helpviewer_keywords: ["CreateActCtx","CreateActCtx function [Side-by-side Assemblies]","CreateActCtxA","CreateActCtxW","_win32_createactctx","setup.createactctx","winbase/CreateActCtx","winbase/CreateActCtxA","winbase/CreateActCtxW"]
+description: The CreateActCtx function creates an activation context. (Unicode)
+helpviewer_keywords: ["CreateActCtx", "CreateActCtx function [Side-by-side Assemblies]", "CreateActCtxW", "_win32_createactctx", "setup.createactctx", "winbase/CreateActCtx", "winbase/CreateActCtxW"]
 old-location: setup\createactctx.htm
 tech.root: setup
 ms.assetid: 11508215-8d8b-4040-a725-88804103fac4
@@ -88,7 +88,7 @@ Set any undefined bits in <b>dwFlags</b> of
 
 
 > [!NOTE]
-> The winbase.h header defines CreateActCtx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CreateActCtx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

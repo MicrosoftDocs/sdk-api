@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.AddLogContainerSet
 title: AddLogContainerSet function (clfsw32.h)
-description: Adds multiple log containers to the physical log that is associated with the log handle�if the calling process has access to the log handle.
+description: Adds multiple log containers to the physical log that is associated with the log handle if the calling process has access to the log handle.
 helpviewer_keywords: ["AddLogContainerSet","AddLogContainerSet function [Files]","clfsw32/AddLogContainerSet","fs.addlogcontainerset"]
 old-location: fs\addlogcontainerset.htm
 tech.root: fs

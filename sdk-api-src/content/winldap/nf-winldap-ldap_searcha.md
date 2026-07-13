@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_searchA
 title: ldap_searchA function (winldap.h)
-description: Searches the LDAP directory and returns a requested set of attributes for each matched entry.
-helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search","ldap.ldap__search","ldap.ldap_search","ldap_search","ldap_search function [LDAP]","ldap_searchA","ldap_searchW","winldap/ldap_search","winldap/ldap_searchA","winldap/ldap_searchW"]
+description: Searches the LDAP directory and returns a requested set of attributes for each matched entry. (ldap_searchA)
+helpviewer_keywords: ["LDAP_SCOPE_BASE", "LDAP_SCOPE_ONELEVEL", "LDAP_SCOPE_SUBTREE", "ldap.ldap__search", "ldap_searchA", "winldap/ldap_searchA"]
 old-location: ldap\ldap_search.htm
 tech.root: ldap
 ms.assetid: fe0d782b-8faf-4666-a952-e2bfd33f6d67
@@ -126,7 +126,7 @@ The <b>ldap_search</b> function initiates an asynchronous search operation.
 
 Use the 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the LDAP_OPT_SIZELIMIT, LDAP_OPT_TIMELIMIT, and LDAP_OPT_DEREF options that determine how the search is performed. For more information, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>.
 
 As an asynchronous function, <b>ldap_search</b> returns a message ID for the operation. Call 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> with the message ID to get the result of the operation. To cancel an asynchronous search operation before it has completed, call 

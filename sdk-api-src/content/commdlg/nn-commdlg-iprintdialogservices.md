@@ -30,7 +30,6 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
- - IPrintDialogServices
  - commdlg/IPrintDialogServices
 dev_langs:
  - c++
@@ -47,17 +46,13 @@ api_name:
 
 # IPrintDialogServices interface
 
-
 ## -description
 
 Provides methods that enable an application using the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function to retrieve information about the currently selected printer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDialogServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogServices</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPrintDialogServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogServices</b> also has these types of members:
 
 ## -remarks
 

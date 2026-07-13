@@ -62,3 +62,8 @@ Pointer to the name of the compound file to be rewritten. This name must be a va
 
 This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as the following:
 
+| Return code | Description |
+|----------------|---------------|
+|STG_E_INVALIDNAME | The name passed to this function is not a valid file name.|
+|STG_E_UNKNOWN | The layout information has been corrupted and cannot be processed.|
+

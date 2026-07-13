@@ -45,9 +45,6 @@ api_name:
  - ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo
 ---
 
-# ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo
-
-
 ## -description
 
 Query the driver for resource requirements to build an acceleration structure.
@@ -62,7 +59,7 @@ The implementation is allowed to look at all the CPU parameters in this struct a
 
 ### -param pInfo [out]
 
-The result of the query.
+The result of the query (in a [D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO](./ns-d3d12-d3d12_raytracing_acceleration_structure_prebuild_info.md) structure).
 
 ## -remarks
 
@@ -74,4 +71,4 @@ This method is on the device interface as opposed to command list on the assumpt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
+<a href="../d3d12/nn-d3d12-id3d12device5.md">ID3D12Device5</a>

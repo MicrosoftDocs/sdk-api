@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasConnectionNotificationA
 title: RasConnectionNotificationA function (ras.h)
-description: The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated.
-helpviewer_keywords: ["RASCN_BandwidthAdded","RASCN_BandwidthRemoved","RASCN_Connection","RASCN_Disconnection","RasConnectionNotification","RasConnectionNotification function [RAS]","RasConnectionNotificationA","RasConnectionNotificationW","_ras_rasconnectionnotification","ras/RasConnectionNotification","ras/RasConnectionNotificationA","ras/RasConnectionNotificationW","rras.rasconnectionnotification"]
+description: The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated. (ANSI)
+helpviewer_keywords: ["RASCN_BandwidthAdded", "RASCN_BandwidthRemoved", "RASCN_Connection", "RASCN_Disconnection", "RasConnectionNotificationA", "ras/RasConnectionNotificationA"]
 old-location: rras\rasconnectionnotification.htm
 tech.root: RRAS
 ms.assetid: 7bbf928e-9b62-44fc-9d57-6c80f89865f0
@@ -142,7 +142,7 @@ When the event is signaled, use other RAS functions, such as
 
 
 > [!NOTE]
-> The ras.h header defines RasConnectionNotification as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasConnectionNotification as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-0.dll
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-1.dll
@@ -55,9 +57,9 @@ api_name:
 
 ## -description
 
-Indicates whether <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set for the mouse to  act as a pointer input device and send <a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
+Indicates whether <a href="/windows/desktop/api/winuser/nf-winuser-enablemouseinpointer">EnableMouseInPointer</a> is set for the mouse to  act as a pointer input device and send <a href="/windows/win32/inputmsg/messages">WM_POINTER</a> messages.
 
-## -parameters
+
 
 ## -returns
 
@@ -81,8 +83,8 @@ Call <b>IsMouseInPointerEnabled</b> to verify the mouse-in-pointer state.
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>
+<a href="/windows/win32/inputmsg/messages">WM_POINTER</a>

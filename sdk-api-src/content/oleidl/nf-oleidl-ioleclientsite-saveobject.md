@@ -52,7 +52,7 @@ api_name:
 
 Saves the embedded object associated with the client site. This function is synchronous; by the time it returns, the save will be completed.
 
-## -parameters
+
 
 ## -returns
 

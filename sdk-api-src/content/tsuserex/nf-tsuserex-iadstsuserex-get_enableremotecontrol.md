@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_EnableRemoteControl
 title: IADsTSUserEx::get_EnableRemoteControl (tsuserex.h)
-description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session.
+description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session. (Get)
 helpviewer_keywords: ["Disable","EnableInputNoNotify","EnableInputNotify","EnableNoInputNoNotify","EnableNoInputNotify","EnableRemoteControl property [Remote Desktop Services]","EnableRemoteControl property [Remote Desktop Services]","IADsTSUserEx interface","IADsTSUserEx interface [Remote Desktop Services]","EnableRemoteControl property","IADsTSUserEx.EnableRemoteControl","IADsTSUserEx.get_EnableRemoteControl","IADsTSUserEx::EnableRemoteControl","IADsTSUserEx::get_EnableRemoteControl","IADsTSUserEx::put_EnableRemoteControl","get_EnableRemoteControl","termserv.iadstsuserex_enableremotecontrol","tsuserex/IADsTSUserEx::EnableRemoteControl","tsuserex/IADsTSUserEx::get_EnableRemoteControl","tsuserex/IADsTSUserEx::put_EnableRemoteControl"]
 old-location: termserv\iadstsuserex_enableremotecontrol.htm
 tech.root: TermServ

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_Enable","Button_Enable macro [Windows Controls]","
 old-location: controls\Button_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_enable.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_Enable, Button_Enable macro [Windows Controls], _win32_Button_Enable, _win32_Button_Enable_cpp, controls.Button_Enable, controls._win32_Button_Enable, windowsx/Button_Enable
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Button_Enable macro
+
+## -syntax
+
+```cpp
+BOOL Button_Enable(
+   HWND hwndCtl,
+   BOOL fEnable
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Zero if the window was previously disabled; otherwise nonzero.
 
 
 ## -description

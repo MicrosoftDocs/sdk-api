@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_SELECTDEVICE_PARAMS_W
 title: SP_SELECTDEVICE_PARAMS_W (setupapi.h)
-description: An SP_SELECTDEVICE_PARAMS structure corresponds to a DIF_SELECTDEVICE installation request.
+description: An SP_SELECTDEVICE_PARAMS structure corresponds to a DIF_SELECTDEVICE installation request. (Unicode)
 helpviewer_keywords: ["*PSP_SELECTDEVICE_PARAMS_W","PSP_SELECTDEVICE_PARAMS","PSP_SELECTDEVICE_PARAMS structure pointer [Device and Driver Installation]","SP_SELECTDEVICE_PARAMS","SP_SELECTDEVICE_PARAMS structure [Device and Driver Installation]","SP_SELECTDEVICE_PARAMS_W","devinst.sp_selectdevice_params","di-struct_897a5d1d-5ff3-4d70-b39d-3763b81d54bf.xml","setupapi/PSP_SELECTDEVICE_PARAMS","setupapi/SP_SELECTDEVICE_PARAMS"]
 old-location: devinst\sp_selectdevice_params.htm
 tech.root: devinst
@@ -95,7 +95,7 @@ The following screen shot shows a sample Select Device dialog box and identifies
 
 
 > [!NOTE]
-> The setupapi.h header defines SP_SELECTDEVICE_PARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SP_SELECTDEVICE_PARAMS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

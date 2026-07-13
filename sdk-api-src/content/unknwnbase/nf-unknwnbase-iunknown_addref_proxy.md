@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - RpcRT4.dll
+ - Rpcrt4.dll
 api_name:
  - IUnknown_AddRef_Proxy
 ---

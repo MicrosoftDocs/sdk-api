@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderAddress
 title: IFaxDoc::put_SenderAddress (faxcom.h)
-description: Sets or retrieves the SenderAddress property of a FaxDoc object. The SenderAddress property is a null-terminated string that contains the street address of the sender of the fax transmission.
+description: Sets or retrieves the SenderAddress property of a FaxDoc object. The SenderAddress property is a null-terminated string that contains the street address of the sender of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","SenderAddress property","IFaxDoc.SenderAddress","IFaxDoc.put_SenderAddress","IFaxDoc::SenderAddress","IFaxDoc::get_SenderAddress","IFaxDoc::put_SenderAddress","SenderAddress property [Fax Service]","SenderAddress property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_senderaddress","fax._mfax_ifaxdoc_get_senderaddress","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderaddress_cpp","faxcom/IFaxDoc::SenderAddress","faxcom/IFaxDoc::get_SenderAddress","faxcom/IFaxDoc::put_SenderAddress","put_SenderAddress"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderaddress_cpp.htm
 tech.root: Fax

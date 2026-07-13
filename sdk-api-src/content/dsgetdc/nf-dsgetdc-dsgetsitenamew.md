@@ -1,8 +1,8 @@
 ---
 UID: NF:dsgetdc.DsGetSiteNameW
 title: DsGetSiteNameW function (dsgetdc.h)
-description: The DsGetSiteName function returns the name of the site where a computer resides.
-helpviewer_keywords: ["DsGetSiteName","DsGetSiteName function [Active Directory]","DsGetSiteNameA","DsGetSiteNameW","_glines_dsgetsitename","ad.dsgetsitename","dsgetdc/DsGetSiteName","dsgetdc/DsGetSiteNameA","dsgetdc/DsGetSiteNameW"]
+description: The DsGetSiteName function returns the name of the site where a computer resides. (Unicode)
+helpviewer_keywords: ["DsGetSiteName", "DsGetSiteName function [Active Directory]", "DsGetSiteNameW", "_glines_dsgetsitename", "ad.dsgetsitename", "dsgetdc/DsGetSiteName", "dsgetdc/DsGetSiteNameW"]
 old-location: ad\dsgetsitename.htm
 tech.root: ad
 ms.assetid: 2dfffd9a-af4f-4a93-8b3c-966e4f7c455f
@@ -80,7 +80,7 @@ The <b>DsGetSiteName</b> function does not require any particular access to the 
 
 
 > [!NOTE]
-> The dsgetdc.h header defines DsGetSiteName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsgetdc.h header defines DsGetSiteName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

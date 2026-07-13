@@ -55,10 +55,7 @@ Represents a multimedia sample with spatial sound information. Every <b>IMFSpati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSpatialAudioSample</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>. <b>IMFSpatialAudioSample</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFSpatialAudioSample</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>. <b>IMFSpatialAudioSample</b> also has these types of members:
 
 ## -see-also
 

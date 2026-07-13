@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetExtendedStyle","TreeView_SetExtendedStyle mac
 old-location: controls\TreeView_SetExtendedStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setextendedstyle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetExtendedStyle, TreeView_SetExtendedStyle macro [Windows Controls], _shell_TreeView_SetExtendedStyle, _shell_TreeView_SetExtendedStyle_cpp, commctrl/TreeView_SetExtendedStyle, controls.TreeView_SetExtendedStyle, controls._shell_TreeView_SetExtendedStyle
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # TreeView_SetExtendedStyle macro
 
+## -syntax
+
+```cpp
+HRESULT TreeView_SetExtendedStyle(
+   HWND  hwnd,
+   DWORD dw,
+   UINT  mask
+);
+```
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/winprog/windows-data-types)**
+
+If this macro succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -description
 

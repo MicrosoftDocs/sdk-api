@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-security-certpoleng-l1-1-0.dll
  - Certpoleng.dll
 api_name:
  - PstAcquirePrivateKey

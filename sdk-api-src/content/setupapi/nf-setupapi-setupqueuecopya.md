@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueueCopyA
 title: SetupQueueCopyA function (setupapi.h)
-description: The SetupQueueCopy function adds a single file copy operation to a setup file queue.
-helpviewer_keywords: ["SetupQueueCopy","SetupQueueCopy function [Setup API]","SetupQueueCopyA","SetupQueueCopyW","_setupapi_setupqueuecopy","setup.setupqueuecopy","setupapi/SetupQueueCopy","setupapi/SetupQueueCopyA","setupapi/SetupQueueCopyW"]
+description: The SetupQueueCopy function adds a single file copy operation to a setup file queue. (ANSI)
+helpviewer_keywords: ["SetupQueueCopyA", "setupapi/SetupQueueCopyA"]
 old-location: setup\setupqueuecopy.htm
 tech.root: setup
 ms.assetid: c8683438-7a28-4713-8781-45f9bd75b72c
@@ -214,7 +214,7 @@ If a UNC directory is specified as the target directory of a file copy operation
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueueCopy as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueueCopy as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_39
+UID: NS:wininet.AUTO_PROXY_SCRIPT_BUFFER
 title: AUTO_PROXY_SCRIPT_BUFFER (wininet.h)
 description: The AUTO_PROXY_SCRIPT_BUFFER structure is used to pass an autoproxy script in a buffer to InternetInitializeAutoProxyDll , instead of identifying a file that InternetInitializeAutoProxyDll opens.
 helpviewer_keywords: ["*LPAUTO_PROXY_SCRIPT_BUFFER","AUTO_PROXY_SCRIPT_BUFFER","AUTO_PROXY_SCRIPT_BUFFER structure [WinINet]","wininet.auto_proxy_script_buffer","wininet/AUTO_PROXY_SCRIPT_BUFFER"]
@@ -76,3 +76,4 @@ Size of the script buffer pointed to by <b>lpszScriptBuffer</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>
+

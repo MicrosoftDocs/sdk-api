@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_CREDENTIAL_CLEAR_TEXT","WMT_CREDENTIAL_DONT_CACHE","W
 old-location: wmformat\wmt_credential_flags.htm
 tech.root: wmformat
 ms.assetid: a03e54e8-682d-4fbd-bd5c-38f58620d0d4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_CREDENTIAL_CLEAR_TEXT, WMT_CREDENTIAL_DONT_CACHE, WMT_CREDENTIAL_ENCRYPT, WMT_CREDENTIAL_FLAGS, WMT_CREDENTIAL_FLAGS enumeration [windows Media Format], WMT_CREDENTIAL_PROXY, WMT_CREDENTIAL_SAVE, wmformat.wmt_credential_flags, wmsdkidl/WMT_CREDENTIAL_CLEAR_TEXT, wmsdkidl/WMT_CREDENTIAL_DONT_CACHE, wmsdkidl/WMT_CREDENTIAL_ENCRYPT, wmsdkidl/WMT_CREDENTIAL_FLAGS, wmsdkidl/WMT_CREDENTIAL_PROXY, wmsdkidl/WMT_CREDENTIAL_SAVE
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -50,27 +50,29 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>WMT_CREDENTIAL_FLAGS</b> enumeration type contains values used in the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcredentialcallback-acquirecredentials">IWMCredentialCallback::AcquireCredentials</a> method.
 
 ## -enum-fields
 
-### -field WMT_CREDENTIAL_SAVE
+### -field WMT_CREDENTIAL_SAVE:0x1
 
 The application can set this flag to indicate that the caller should save the credentials in a persistent manner.
 
-### -field WMT_CREDENTIAL_DONT_CACHE
+### -field WMT_CREDENTIAL_DONT_CACHE:0x2
 
 The application can set this flag to indicate that the caller should not cache the credentials in memory.
 
-### -field WMT_CREDENTIAL_CLEAR_TEXT
+### -field WMT_CREDENTIAL_CLEAR_TEXT:0x4
 
 If this flag is set when the <b>AcquireCredentials</b> method is called, it indicates that the credentials will be sent over the network unencrypted. Applications should not set this flag.
 
-### -field WMT_CREDENTIAL_PROXY
+### -field WMT_CREDENTIAL_PROXY:0x8
 
 If this flag is set when the <b>AcquireCredentials</b> method is called, it indicates that the credentials are for a proxy server. Applications should not set this flag.
 
-### -field WMT_CREDENTIAL_ENCRYPT
+### -field WMT_CREDENTIAL_ENCRYPT:0x10
 
 If this flag is set when the <b>AcquireCredentials</b> method is called, it indicates that the caller can handle encrypted credentials. When this flag is set, the application has the option of encrypting the credentials. To encrypt the credentials, use the <b>CryptProtectData</b> function, which is described in the Platform SDK documentation. The application can also return the credentials in plain text. In that case, the caller automatically encrypts the credentials, unless the WMT_CREDENTIAL_CLEAR_TEXT flag was set when the <b>AcquireCredentials</b> method was called.
 

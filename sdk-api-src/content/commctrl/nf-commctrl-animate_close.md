@@ -6,7 +6,7 @@ helpviewer_keywords: ["Animate_Close","Animate_Close macro [Windows Controls]","
 old-location: controls\Animate_Close.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_close.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Animate_Close, Animate_Close macro [Windows Controls], _win32_Animate_Close, _win32_Animate_Close_cpp, commctrl/Animate_Close, controls.Animate_Close, controls._win32_Animate_Close
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Animate_Close macro
+
+## -syntax
+
+```cpp
+BOOL Animate_Close(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Always returns <b>FALSE</b>.
 
 
 ## -description

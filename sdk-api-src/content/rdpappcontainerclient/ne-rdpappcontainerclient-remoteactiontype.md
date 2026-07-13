@@ -56,23 +56,23 @@ The action to send to the remote session.
 
 ## -enum-fields
 
-### -field RemoteActionCharms
+### -field RemoteActionCharms:0
 
 Displays the charms in the remote session.
 
-### -field RemoteActionAppbar
+### -field RemoteActionAppbar:1
 
 Displays the app bar in the remote session.
 
-### -field RemoteActionSnap
+### -field RemoteActionSnap:2
 
 Docks the application in the remote session.
 
-### -field RemoteActionStartScreen
+### -field RemoteActionStartScreen:3
 
 Causes the start screen to be displayed in the remote session.
 
-### -field RemoteActionAppSwitch
+### -field RemoteActionAppSwitch:4
 
 Causes the application switch window to be displayed in the remote session. This is the same as the user pressing Alt+Tab.
 

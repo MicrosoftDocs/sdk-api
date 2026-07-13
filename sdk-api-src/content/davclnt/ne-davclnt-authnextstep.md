@@ -1,5 +1,5 @@
 ---
-UID: NE:davclnt.__unnamed_enum_0
+UID: NE:davclnt.AUTHNEXTSTEP
 title: AUTHNEXTSTEP (davclnt.h)
 description: Specifies the next action that the WebDAV client should take after a successful call to the DavAuthCallback callback function.
 helpviewer_keywords: ["AUTHNEXTSTEP","AUTHNEXTSTEP enumeration [WebDAV]","CancelRequest","DefaultBehavior","RetryRequest","davclnt/AUTHNEXTSTEP","davclnt/CancelRequest","davclnt/DefaultBehavior","davclnt/RetryRequest","webdav.authnextstep"]
@@ -69,3 +69,4 @@ Cancel the connection request.
 ## -remarks
 
 This enumeration provides the values for the <i>NextStep</i> parameter of the <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.DeletePersistentUdpPortReservation
 title: DeletePersistentUdpPortReservation function (iphlpapi.h)
-description: Deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
+description: Deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer. (DeletePersistentUdpPortReservation)
 helpviewer_keywords: ["DeletePersistentUdpPortReservation","DeletePersistentUdpPortReservation function [IP Helper]","iphlp.deletepersistentudpportreservation","iphlpapi/DeletePersistentUdpPortReservation"]
 old-location: iphlp\deletepersistentudpportreservation.htm
 tech.root: IpHlp

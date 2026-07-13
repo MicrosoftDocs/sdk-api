@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueryFileLogW
 title: SetupQueryFileLogW function (setupapi.h)
-description: The SetupQueryFileLog function returns information from a setup file log.
-helpviewer_keywords: ["SetupFileLogChecksum","SetupFileLogDiskDescription","SetupFileLogDiskTagfile","SetupFileLogOtherInfo","SetupFileLogSourceFile name","SetupQueryFileLog","SetupQueryFileLog function [Setup API]","SetupQueryFileLogA","SetupQueryFileLogW","_setupapi_setupqueryfilelog","setup.setupqueryfilelog","setupapi/SetupQueryFileLog","setupapi/SetupQueryFileLogA","setupapi/SetupQueryFileLogW"]
+description: The SetupQueryFileLog function returns information from a setup file log. (Unicode)
+helpviewer_keywords: ["SetupFileLogChecksum", "SetupFileLogDiskDescription", "SetupFileLogDiskTagfile", "SetupFileLogOtherInfo", "SetupFileLogSourceFile name", "SetupQueryFileLog", "SetupQueryFileLog function [Setup API]", "SetupQueryFileLogW", "_setupapi_setupqueryfilelog", "setup.setupqueryfilelog", "setupapi/SetupQueryFileLog", "setupapi/SetupQueryFileLogW"]
 old-location: setup\setupqueryfilelog.htm
 tech.root: setup
 ms.assetid: c01233ee-4e3a-454b-b2e2-032937c874c9
@@ -168,7 +168,7 @@ If the value of <i>DesiredInfo</i> is greater than <b>SetupFileLogOtherInfo</b> 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueryFileLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueryFileLog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

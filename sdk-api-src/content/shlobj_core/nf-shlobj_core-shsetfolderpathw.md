@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHSetFolderPathW
 title: SHSetFolderPathW function (shlobj_core.h)
-description: Deprecated. Assigns a new path to a system folder identified by its CSIDL.
-helpviewer_keywords: ["SHSetFolderPath","SHSetFolderPath function [Windows Shell]","SHSetFolderPathA","SHSetFolderPathW","_win32_SHSetFolderPath","shell.SHSetFolderPath","shlobj_core/SHSetFolderPath","shlobj_core/SHSetFolderPathA","shlobj_core/SHSetFolderPathW"]
+description: Deprecated. Assigns a new path to a system folder identified by its CSIDL. (Unicode)
+helpviewer_keywords: ["SHSetFolderPath", "SHSetFolderPath function [Windows Shell]", "SHSetFolderPathW", "_win32_SHSetFolderPath", "shell.SHSetFolderPath", "shlobj_core/SHSetFolderPath", "shlobj_core/SHSetFolderPathW"]
 old-location: shell\SHSetFolderPath.htm
 tech.root: shell
 ms.assetid: 9da142fa-4765-4889-bd4c-d8167a16f86b
@@ -143,7 +143,7 @@ It is recommended that the paths be expressed as Unicode strings because folder 
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHSetFolderPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHSetFolderPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

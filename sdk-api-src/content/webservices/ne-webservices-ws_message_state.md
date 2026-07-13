@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_39
+UID: NE:webservices.WS_MESSAGE_STATE
 title: WS_MESSAGE_STATE (webservices.h)
 description: The different states that a message can be in.
 helpviewer_keywords: ["WS_MESSAGE_STATE","WS_MESSAGE_STATE enumeration [Web Services for Windows]","WS_MESSAGE_STATE_DONE","WS_MESSAGE_STATE_EMPTY","WS_MESSAGE_STATE_INITIALIZED","WS_MESSAGE_STATE_READING","WS_MESSAGE_STATE_WRITING","webservices/WS_MESSAGE_STATE","webservices/WS_MESSAGE_STATE_DONE","webservices/WS_MESSAGE_STATE_EMPTY","webservices/WS_MESSAGE_STATE_INITIALIZED","webservices/WS_MESSAGE_STATE_READING","webservices/WS_MESSAGE_STATE_WRITING","wsw.ws_message_state"]
@@ -54,19 +54,19 @@ The different states that a message can be in.
 
 ## -enum-fields
 
-### -field WS_MESSAGE_STATE_EMPTY
+### -field WS_MESSAGE_STATE_EMPTY:1
 
 The initial state after a message has been created.
                     In this state, there is no content in the message, and
                     neither the header nor the body can be accessed.
 
-### -field WS_MESSAGE_STATE_INITIALIZED
+### -field WS_MESSAGE_STATE_INITIALIZED:2
 
 The message headers have been initialized, and
                     can be accessed, but the body cannot be accessed.  This state
                     is used to build up all the headers prior to writing/sending them.
 
-### -field WS_MESSAGE_STATE_READING
+### -field WS_MESSAGE_STATE_READING:3
 
 The body of the message is being read, for example
                     when a message is received.
@@ -74,7 +74,7 @@ The body of the message is being read, for example
                     be read (see <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> or
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_READER</a>).
 
-### -field WS_MESSAGE_STATE_WRITING
+### -field WS_MESSAGE_STATE_WRITING:4
 
 The body of the message is being written, for example
                     when a message is being sent.
@@ -82,7 +82,7 @@ The body of the message is being written, for example
                     be written (see <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> or
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
 
-### -field WS_MESSAGE_STATE_DONE
+### -field WS_MESSAGE_STATE_DONE:5
 
 The message body has been read or written (the end of the
                     body has been read or written).  The headers can still be accessed.
@@ -105,3 +105,4 @@ The following are the state transitions while reading or receiving:
 
 Note that in the above diagrams, only valid transitions are
                 shown.
+

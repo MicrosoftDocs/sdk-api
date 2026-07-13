@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SaveCurrentMonitorSettings
 title: SaveCurrentMonitorSettings function (highlevelmonitorconfigurationapi.h)
-description: Saves the current monitor settings to the display's nonvolatile storage.
+description: Saves the current monitor settings to the display's nonvolatile storage. (SaveCurrentMonitorSettings)
 helpviewer_keywords: ["SaveCurrentMonitorSettings","SaveCurrentMonitorSettings function [Monitor Configuration]","highlevelmonitorconfigurationapi/SaveCurrentMonitorSettings","monitor.savecurrentmonitorsettings"]
 old-location: monitor\savecurrentmonitorsettings.htm
 tech.root: Monitor
@@ -47,10 +47,10 @@ api_name:
 
 # SaveCurrentMonitorSettings function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+> [!WARNING]
+> The physical monitor configuration functions work using the VESA Monitor Control Command Set (MCCS) standard over an I<sup>2</sup>C interface. Many monitors don't fully implement that standard; so your use of these commands might result in undefined monitor behavior. We don't recommend using these functions for arbitrary monitors without physically validating that they work as intended.
 
 Saves the current monitor settings to the display's nonvolatile storage.
 

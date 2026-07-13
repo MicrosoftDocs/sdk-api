@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -66,18 +67,15 @@ Notifies the caller about changes to the attributes or contents of a specified r
 
 A handle to an open registry key. This handle is returned by the 
 <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function. It can also be one of the following 
-<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>: 
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
+<b>HKEY_CLASSES_ROOT</b>,
+<b>HKEY_CURRENT_CONFIG</b>,
+<b>HKEY_CURRENT_USER</b>,
+<b>HKEY_LOCAL_MACHINE</b>,
+<b>HKEY_USERS</b>.
 
-
-
-<b>HKEY_CLASSES_ROOT</b>
-<b>HKEY_CURRENT_CONFIG</b>
-<b>HKEY_CURRENT_USER</b>
-<b>HKEY_LOCAL_MACHINE</b>
-<b>HKEY_USERS</b>
-This parameter must be a local handle. If 
-<b>RegNotifyChangeKeyValue</b> is called with a remote handle, it returns ERROR_INVALID_HANDLE.
+This parameter must be a local handle. If <b>RegNotifyChangeKeyValue</b> is called with a remote handle, it returns ERROR_INVALID_HANDLE.
 
 The key must have been opened with the KEY_NOTIFY access right. For more information, see 
 <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.

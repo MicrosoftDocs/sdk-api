@@ -65,7 +65,7 @@ Objects that are derived from <b>CVssWriterEx</b> must supply implementations
 A writer can override any or all of  the virtual 
     methods of <b>CVssWriterEx</b> and <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>. However, a writer can override the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> or <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">OnIdentifyEx</a> method, but not both.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">CVssWriterEx</b> has these types of members:
+<b>CVssWriterEx</b> has these types of members:
 
 ## -see-also
 

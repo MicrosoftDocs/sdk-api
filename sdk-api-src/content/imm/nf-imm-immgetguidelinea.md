@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmGetGuideLineA
 title: ImmGetGuideLineA function (imm.h)
-description: Retrieves information about errors. Applications use the information for user notifications.
-helpviewer_keywords: ["GGL_INDEX","GGL_LEVEL","GGL_PRIVATE","GGL_STRING","ImmGetGuideLine","ImmGetGuideLine function [Internationalization for Windows Applications]","ImmGetGuideLineA","ImmGetGuideLineW","_win32_ImmGetGuideLine","imm/ImmGetGuideLine","imm/ImmGetGuideLineA","imm/ImmGetGuideLineW","intl.immgetguideline"]
+description: The ImmGetGuideLineA (ANSI) function (imm.h) retrieves information about errors. Applications use the information for user notifications.
+helpviewer_keywords: ["GGL_INDEX", "GGL_LEVEL", "GGL_PRIVATE", "GGL_STRING", "ImmGetGuideLineA", "imm/ImmGetGuideLineA"]
 old-location: intl\immgetguideline.htm
 tech.root: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -226,7 +226,7 @@ Applications typically call this function after receiving an <a href="/windows/d
 
 
 > [!NOTE]
-> The imm.h header defines ImmGetGuideLine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The imm.h header defines ImmGetGuideLine as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

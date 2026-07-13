@@ -57,7 +57,7 @@ Queries whether the content enabler can perform all of its actions automatically
 
 ### -param pfAutomatic [out]
 
-Receives a Boolean value. If <b>TRUE</b>, the content enabler can perform the enabing action automatically.
+Receives a Boolean value. If <b>TRUE</b>, the content enabler can perform the enabling action automatically.
 
 ## -returns
 

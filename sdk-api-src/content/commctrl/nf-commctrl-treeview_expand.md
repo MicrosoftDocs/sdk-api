@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_Expand","TreeView_Expand macro [Windows Controls
 old-location: controls\TreeView_Expand.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_expand.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_Expand, TreeView_Expand macro [Windows Controls], _win32_TreeView_Expand, _win32_TreeView_Expand_cpp, commctrl/TreeView_Expand, controls.TreeView_Expand, controls._win32_TreeView_Expand
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # TreeView_Expand macro
 
+## -syntax
+
+```cpp
+BOOL TreeView_Expand(
+   HWND      hwnd,
+   HTREEITEM hitem,
+   UINT      code
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if the operation was successful, or zero otherwise.
+
 
 ## -description
 
@@ -70,7 +86,7 @@ Handle to the parent item that will be expanded or collapsed.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Action flag. For a list of possible values, see the description of the <i>flag</i> parameter in <a href="/windows/desktop/Controls/tvm-expand">TVM_EXPAND</a>.
+Action flag. For a list of possible values, see the description of the <i>wParam</i> parameter in <a href="/windows/desktop/Controls/tvm-expand">TVM_EXPAND</a>.
 
 ## -remarks
 

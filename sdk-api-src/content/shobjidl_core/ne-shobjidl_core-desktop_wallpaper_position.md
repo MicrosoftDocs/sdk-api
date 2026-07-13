@@ -54,27 +54,27 @@ Specifies how the desktop wallpaper should be displayed.
 
 ## -enum-fields
 
-### -field DWPOS_CENTER
+### -field DWPOS_CENTER:0
 
 Center the image; do not stretch. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_CENTER</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
-### -field DWPOS_TILE
+### -field DWPOS_TILE:1
 
 Tile the image across all monitors. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_TILE</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
-### -field DWPOS_STRETCH
+### -field DWPOS_STRETCH:2
 
 Stretch the image to exactly fit on the monitor. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_STRETCH</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
-### -field DWPOS_FIT
+### -field DWPOS_FIT:3
 
 Stretch the image to exactly the height or width of the monitor without changing its aspect ratio or cropping the image. This can result in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getbackgroundcolor">colored letterbox bars</a> on either side or on above and below of the image. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_KEEPASPECT</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
-### -field DWPOS_FILL
+### -field DWPOS_FILL:4
 
 Stretch the image to fill the screen, cropping the image as necessary to avoid letterbox bars. This is equivalent to the <a href="/windows/desktop/shell/iactivedesktop-flags">WPSTYLE_CROPTOFIT</a> style in <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>.
 
-### -field DWPOS_SPAN
+### -field DWPOS_SPAN:5
 
 Spans a single image across all monitors attached to the system. This flag has no <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> equivalent.
 

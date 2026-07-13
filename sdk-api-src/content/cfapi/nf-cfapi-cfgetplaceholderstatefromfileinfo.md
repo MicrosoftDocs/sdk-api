@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfGetPlaceholderStateFromFileInfo","CfGetPlaceholderState
 old-location: cloudapi\cfgetplaceholderstatefromfileinfo.htm
 tech.root: cloudapi
 ms.assetid: 33DB8FAC-D2C9-4BBB-8505-1D9A680EA2BF
-ms.date: 12/05/2018
+ms.date: 07/24/2024
 ms.keywords: CfGetPlaceholderStateFromFileInfo, CfGetPlaceholderStateFromFileInfo function, cfapi/CfGetPlaceholderStateFromFileInfo, cloudApi.cfgetplaceholderstatefromfileinfo
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfGetPlaceholderStateFromFileInfo function
 
-
 ## -description
 
 Gets a set of placeholder states based on the various information of the file.
@@ -60,15 +59,20 @@ An info buffer about the file.
 
 ### -param InfoClass [in]
 
-An info class so the function knows how to interpret the <i>InfoBuffer</i>.
+A [FILE_INFO_BY_HANDLE_CLASS](/windows/win32/api/minwinbase/ne-minwinbase-file_info_by_handle_class) class that helps the function interpret the data in *InfoBuffer*.
 
 ## -returns
 
-Can include <a href="/windows/desktop/api/cfapi/ne-cfapi-cf_placeholder_state">CF_PLACEHOLDER_STATE</a>; The placeholder state.
+Can include [CF_PLACEHOLDER_STATE](ne-cfapi-cf_placeholder_state.md); the placeholder state.
 
 ## -remarks
 
-The input is a buffer containing information returned by <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>, and the corresponding <i>InfoClass</i> so the API knows how to interpret the buffer.
+The input is a buffer containing information returned by [GetFileInformationByHandleEx](/windows/win32/api/winbase/nf-winbase-getfileinformationbyhandleex), and the corresponding *InfoClass* so the API knows how to interpret the buffer.
 
+Not all information classes supported by [GetFileInformationByHandleEx](/windows/win32/api/winbase/nf-winbase-getfileinformationbyhandleex) are supported by this API. If the *FileAttributes* and *ReparseTag* can’t be extracted from a given information class, this API will return **CF_PLACEHOLDER_STATE_INVALID** and set last error properly.
 
-Not all information classes supported by <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> are supported by this API.  If the <i>FileAttributes</i> and <i>ReparseTag</i> can’t be extracted from a given information class, this API will return CF_PLACEHOLDER_STATE_INVALID and set last error properly.
+## -see-also
+
+[CF_PLACEHOLDER_STATE](ne-cfapi-cf_placeholder_state.md)
+
+[GetFileInformationByHandleEx](/windows/win32/api/winbase/nf-winbase-getfileinformationbyhandleex)

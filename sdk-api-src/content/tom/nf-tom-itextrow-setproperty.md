@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetProperty
 title: ITextRow::SetProperty (tom.h)
-description: Sets the value of the specified property.
+description: Sets the value of the specified property. (ITextRow.SetProperty)
 helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetProperty method","ITextRow.SetProperty","ITextRow::SetProperty","SetProperty","SetProperty method [Windows Controls]","SetProperty method [Windows Controls]","ITextRow interface","controls.itextrow_setproperty","tom/ITextRow::SetProperty"]
 old-location: controls\itextrow_setproperty.htm
 tech.root: Controls

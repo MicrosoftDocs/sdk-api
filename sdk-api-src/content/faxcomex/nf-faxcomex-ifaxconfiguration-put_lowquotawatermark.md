@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_LowQuotaWaterMark
 title: IFaxConfiguration::put_LowQuotaWaterMark (faxcomex.h)
-description: Sets or retrieves a value that indicates the minimum size of a watermark.
+description: Sets or retrieves a value that indicates the minimum size of a watermark. (Put)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","LowQuotaWaterMark property","IFaxConfiguration.LowQuotaWaterMark","IFaxConfiguration.put_LowQuotaWaterMark","IFaxConfiguration::LowQuotaWaterMark","IFaxConfiguration::get_LowQuotaWaterMark","IFaxConfiguration::put_LowQuotaWaterMark","LowQuotaWaterMark property [Fax Service]","LowQuotaWaterMark property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_LowQuotaWaterMark","fax._mfax_IFaxConfiguration_LowQuotaWaterMark","faxcomex/IFaxConfiguration::LowQuotaWaterMark","faxcomex/IFaxConfiguration::get_LowQuotaWaterMark","faxcomex/IFaxConfiguration::put_LowQuotaWaterMark","put_LowQuotaWaterMark"]
 old-location: fax\_mfax_IFaxConfiguration_LowQuotaWaterMark.htm
 tech.root: Fax

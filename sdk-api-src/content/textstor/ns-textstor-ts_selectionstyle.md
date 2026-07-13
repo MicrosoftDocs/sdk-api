@@ -60,7 +60,7 @@ Specifies the active end of the selection. For more information, see <a href="/w
 
 ### -field fInterimChar
 
-Indicates if the selection is an interim character. If this value is nonzero, then the seleciton is an interim character and <b>ase</b> will be TS_AE_NONE. If this value is zero, the selection is not an interim character.
+Indicates if the selection is an interim character. If this value is nonzero, then the selection is an interim character and <b>ase</b> will be TS_AE_NONE. If this value is zero, the selection is not an interim character.
 
 ## -remarks
 

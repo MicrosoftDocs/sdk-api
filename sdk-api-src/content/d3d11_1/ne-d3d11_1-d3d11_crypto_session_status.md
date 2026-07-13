@@ -54,15 +54,15 @@ Represents the status of an <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11c
 
 ## -enum-fields
 
-### -field D3D11_CRYPTO_SESSION_STATUS_OK
+### -field D3D11_CRYPTO_SESSION_STATUS_OK:0
 
 The <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> is in a functional state.
 
-### -field D3D11_CRYPTO_SESSION_STATUS_KEY_LOST
+### -field D3D11_CRYPTO_SESSION_STATUS_KEY_LOST:1
 
 The underlying hardware key for the specified <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> has become lost.
 
-### -field D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST
+### -field D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST:2
 
 The underlying hardware key for the specified <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> has become lost and protected content has become corrupted.
 

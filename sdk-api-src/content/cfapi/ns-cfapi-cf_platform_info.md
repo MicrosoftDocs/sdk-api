@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_PLATFORM_INFO","CF_PLATFORM_INFO structure","cfapi/CF_
 old-location: cloudapi\cf_platform_info.htm
 tech.root: cloudapi
 ms.assetid: BEB1CBF0-05FB-4D48-AC43-AA957F2208DB
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_PLATFORM_INFO, CF_PLATFORM_INFO structure, cfapi/CF_PLATFORM_INFO, cloudApi.cf_platform_info
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_PLATFORM_INFO structure
 
-
 ## -description
 
 Returns information for the cloud files platform. This is intended for sync providers running on multiple versions of Windows.
@@ -72,3 +71,6 @@ The platform is a combination of the cloud filter and the placeholder files API 
 
 If you are building an app that uses or is aware of placeholder files, this may be useful to you.
 
+## -see-also
+
+[CfGetPlatformInfo](nf-cfapi-cfgetplatforminfo.md)

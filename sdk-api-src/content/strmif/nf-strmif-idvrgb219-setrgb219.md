@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDVRGB219 interface [DirectShow]","SetRGB219 method","IDV
 old-location: dshow\idvrgb219_setrgb219.htm
 tech.root: dshow
 ms.assetid: d203158b-4c15-4fde-9bc2-6d0ba04af504
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDVRGB219 interface [DirectShow],SetRGB219 method, IDVRGB219.SetRGB219, IDVRGB219::SetRGB219, IDVRGB219SetRGB219, SetRGB219, SetRGB219 method [DirectShow], SetRGB219 method [DirectShow],IDVRGB219 interface, dshow.idvrgb219_setrgb219, strmif/IDVRGB219::SetRGB219
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetRGB219</code> method controls the dynamic range for DV encoding and decoding.
 

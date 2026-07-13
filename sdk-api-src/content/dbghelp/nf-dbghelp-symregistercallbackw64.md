@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymRegisterCallbackW64
 title: SymRegisterCallbackW64 function (dbghelp.h)
-description: Registers a callback function for use by the symbol handler.
+description: Registers a callback function for use by the symbol handler. (SymRegisterCallbackW64)
 helpviewer_keywords: ["SymRegisterCallback","SymRegisterCallback function","SymRegisterCallback64","SymRegisterCallback64 function","SymRegisterCallbackW64","_win32_symregistercallback64","base.symregistercallback64","dbghelp/SymRegisterCallback","dbghelp/SymRegisterCallback64","dbghelp/SymRegisterCallbackW64"]
 old-location: base\symregistercallback64.htm
 tech.root: Debug

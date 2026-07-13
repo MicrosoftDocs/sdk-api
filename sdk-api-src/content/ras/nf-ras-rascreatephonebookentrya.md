@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasCreatePhonebookEntryA
 title: RasCreatePhonebookEntryA function (ras.h)
-description: The RasCreatePhonebookEntry function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry.
-helpviewer_keywords: ["RasCreatePhonebookEntry","RasCreatePhonebookEntry function [RAS]","RasCreatePhonebookEntryA","RasCreatePhonebookEntryW","_ras_rascreatephonebookentry","ras/RasCreatePhonebookEntry","ras/RasCreatePhonebookEntryA","ras/RasCreatePhonebookEntryW","rras.rascreatephonebookentry"]
+description: The RasCreatePhonebookEntry function creates a new phone-book entry. The function displays a dialog box in which the user types information for the phone-book entry. (ANSI)
+helpviewer_keywords: ["RasCreatePhonebookEntryA", "ras/RasCreatePhonebookEntryA"]
 old-location: rras\rascreatephonebookentry.htm
 tech.root: RRAS
 ms.assetid: da8bd49f-e890-4e8a-ab4d-7366c6f2b361
@@ -105,7 +105,7 @@ When calling <a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDial
 
 
 > [!NOTE]
-> The ras.h header defines RasCreatePhonebookEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasCreatePhonebookEntry as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

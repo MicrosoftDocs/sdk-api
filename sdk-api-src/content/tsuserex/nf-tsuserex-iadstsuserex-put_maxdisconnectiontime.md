@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_MaxDisconnectionTime
 title: IADsTSUserEx::put_MaxDisconnectionTime (tsuserex.h)
-description: The maximum amount of time that a disconnected Remote Desktop Services session remains active on the Remote Desktop Session Host (RD Session Host) server. After the specified number of minutes have elapsed, the session is terminated.
+description: The maximum amount of time that a disconnected Remote Desktop Services session remains active on the Remote Desktop Session Host (RD Session Host) server. After the specified number of minutes have elapsed, the session is terminated. (Put)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","MaxDisconnectionTime property","IADsTSUserEx.MaxDisconnectionTime","IADsTSUserEx.put_MaxDisconnectionTime","IADsTSUserEx::MaxDisconnectionTime","IADsTSUserEx::get_MaxDisconnectionTime","IADsTSUserEx::put_MaxDisconnectionTime","MaxDisconnectionTime property [Remote Desktop Services]","MaxDisconnectionTime property [Remote Desktop Services]","IADsTSUserEx interface","put_MaxDisconnectionTime","termserv.iadstsuserex_maxdisconnectiontime","tsuserex/IADsTSUserEx::MaxDisconnectionTime","tsuserex/IADsTSUserEx::get_MaxDisconnectionTime","tsuserex/IADsTSUserEx::put_MaxDisconnectionTime"]
 old-location: termserv\iadstsuserex_maxdisconnectiontime.htm
 tech.root: TermServ

@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportPersistentIScsiDevicesA
 title: ReportPersistentIScsiDevicesA function (iscsidsc.h)
-description: The ReportPersistentIscsiDevices function retrieves the list of persistently bound volumes and devices.
-helpviewer_keywords: ["ReportPersistentIScsiDevicesA","ReportPersistentIscsiDevices","ReportPersistentIscsiDevices function [iSCSI Discovery Library API]","ReportPersistentIscsiDevicesA","ReportPersistentIscsiDevicesW","iscsidisc.reportpersistentiscsidevices","iscsidsc/ReportPersistentIscsiDevices","iscsidsc/ReportPersistentIscsiDevicesA","iscsidsc/ReportPersistentIscsiDevicesW"]
+description: The ReportPersistentIscsiDevices function retrieves the list of persistently bound volumes and devices. (ANSI)
+helpviewer_keywords: ["ReportPersistentIScsiDevicesA", "ReportPersistentIscsiDevicesA", "iscsidsc/ReportPersistentIscsiDevicesA"]
 old-location: iscsidisc\reportpersistentiscsidevices.htm
 tech.root: iSCSIDisc
 ms.assetid: 856e240d-8c4d-4e55-aef3-71f98193c221
@@ -95,4 +95,4 @@ Returns ERROR_SUCCESS if the operation succeeds or ERROR_INSUFFICIENT_BUFFER if 
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ReportPersistentIScsiDevices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ReportPersistentIScsiDevices as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3X4.XMFLOAT3X4(float,float,float,float,float,float,float,float,float,float,float,float)
-title: XMFLOAT3X4::XMFLOAT3X4
+title: XMFLOAT3X4::XMFLOAT3X4(float,float,float,float,float,float,float,float,float,float,float,float)
 ms.date: 04/22/2020
 description: Constructs an **XMFLOAT3X4** from 12 scalar float values.
 tech.root: dxmath
@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

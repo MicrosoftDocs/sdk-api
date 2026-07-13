@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreatePointArray
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreatePointArray (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of Point values.
 helpviewer_keywords: ["CreatePointArray","CreatePointArray method [Windows Runtime]","CreatePointArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreatePointArray method","IPropertyValueStatics.CreatePointArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreatePointArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreatePointArray","winrt.ipropertyvaluefactory_createpointarray","winrt.ipropertyvaluestatics_createpointarray"]
 old-location: winrt\ipropertyvaluestatics_createpointarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreatePointArray
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreatePointArray (windows.foundation.h)
 
 
 ## -description
@@ -76,7 +76,7 @@ A pointer to a new object that contains <i>value</i>. Use the <a href="/windows/
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["VMRPresentationFlags","VMRPresentationFlags enumeration [
 old-location: dshow\vmrpresentationflags.htm
 tech.root: dshow
 ms.assetid: 27aab657-802e-4967-a5bd-3907637e1cfe
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VMRPresentationFlags, VMRPresentationFlags enumeration [DirectShow], VMRPresentationFlagsEnumeration, VMRSample_Discontinuity, VMRSample_Preroll, VMRSample_SyncPoint, VMRSample_TimeValid, dshow.vmrpresentationflags, strmif/VMRPresentationFlags, strmif/VMRSample_Discontinuity, strmif/VMRSample_Preroll, strmif/VMRSample_SyncPoint, strmif/VMRSample_TimeValid
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,27 +50,29 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The [VMRPRESENTATIONINFO](/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure .
 
 ## -enum-fields
 
-### -field VMRSample_SyncPoint
+### -field VMRSample_SyncPoint:0x1
 
 Indicates that the sample is a sync point.
 
-### -field VMRSample_Preroll
+### -field VMRSample_Preroll:0x2
 
 Indicates that the sample is part of the preroll.
 
-### -field VMRSample_Discontinuity
+### -field VMRSample_Discontinuity:0x4
 
 Indicates that the sample is a discontinuity.
 
-### -field VMRSample_TimeValid
+### -field VMRSample_TimeValid:0x8
 
 Indicates that the time stamp on the sample is valid.
 
-### -field VMRSample_SrcDstRectsValid
+### -field VMRSample_SrcDstRectsValid:0x10
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_InsertItemData","ListBox_InsertItemData macro [Wi
 old-location: controls\ListBox_InsertItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertitemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_InsertItemData, ListBox_InsertItemData macro [Windows Controls], _win32_ListBox_InsertItemData, _win32_ListBox_InsertItemData_cpp, controls.ListBox_InsertItemData, controls._win32_ListBox_InsertItemData, windowsx/ListBox_InsertItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_InsertItemData macro
+
+## -syntax
+
+```cpp
+int ListBox_InsertItemData(
+   HWND   hwndCtl,
+   int    index,
+   LPARAM data
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is the zero-based index of the item in the list box. If an error occurs, the return value is LB_ERR. If there is insufficient space to store the new string, the return value is LB_ERRSPACE.
 
 
 ## -description

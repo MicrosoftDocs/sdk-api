@@ -52,7 +52,7 @@ api_name:
 
 Returns the identity quaternion.
 
-## -parameters
+
 
 ## -returns
 

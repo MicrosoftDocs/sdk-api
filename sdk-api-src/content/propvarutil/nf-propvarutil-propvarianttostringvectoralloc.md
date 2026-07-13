@@ -70,7 +70,7 @@ When this function returns, contains a pointer to a vector of strings extracted 
 
 Type: <b>ULONG*</b>
 
-When this function returns, containsthe count of string elements extracted from source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+When this function returns, contains the count of string elements extracted from source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
@@ -111,7 +111,7 @@ The <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a
 
 This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a vector of string values.
 
-This helper function works for the following<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>types:
+This helper function works for the following<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> types:
             
 
 <ul>

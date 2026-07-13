@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetInsertMarkColor","ListView_SetInsertMarkColor
 old-location: controls\ListView_SetInsertMarkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinsertmarkcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetInsertMarkColor, ListView_SetInsertMarkColor macro [Windows Controls], _win32_ListView_SetInsertMarkColor, _win32_ListView_SetInsertMarkColor_cpp, commctrl/ListView_SetInsertMarkColor, controls.ListView_SetInsertMarkColor, controls._win32_ListView_SetInsertMarkColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetInsertMarkColor macro
+
+## -syntax
+
+```cpp
+COLORREF ListView_SetInsertMarkColor(
+   HWND     hwnd,
+   COLORREF color
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>COLORREF</b> structure set to the previous color.
 
 
 ## -description

@@ -54,11 +54,11 @@ Specifies how to perform a tile-mapping operation.
 
 ## -enum-fields
 
-### -field D3D12_TILE_MAPPING_FLAG_NONE
+### -field D3D12_TILE_MAPPING_FLAG_NONE:0
 
 No tile-mapping flags are specified.
 
-### -field D3D12_TILE_MAPPING_FLAG_NO_HAZARD
+### -field D3D12_TILE_MAPPING_FLAG_NO_HAZARD:0x1
 
 Unsupported, do not use.
 

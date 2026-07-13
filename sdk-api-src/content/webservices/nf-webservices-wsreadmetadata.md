@@ -91,17 +91,25 @@ Each URL specified using this function must have a  unique base URL. The base UR
 
 For example if the following URLs were specified:   
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 http://example.com/document1#fragment
 http://example.com/document2
-</code></pre>
+
+```
+
 The two base URLs would be:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 http://example.com/document1
 http://example.com/document2
-</code></pre>
+
+```
+
 
 ### -param error [in, optional]
 

@@ -54,11 +54,11 @@ Specifies how a selection appears on the control.
 
 ## -enum-fields
 
-### -field IDM_Ink
+### -field IDM_Ink:0
 
 The selection appears as ink.
 
-### -field IDM_Text
+### -field IDM_Text:1
 
 The selection appears as text.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDefaultQueueCallbackA
 title: SetupDefaultQueueCallbackA function (setupapi.h)
-description: The SetupDefaultQueueCallback function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the SetupCommitFileQueue function.
-helpviewer_keywords: ["SPFILENOTIFY_COPYERROR","SPFILENOTIFY_DELETEERROR","SPFILENOTIFY_ENDCOPY","SPFILENOTIFY_ENDDELETE","SPFILENOTIFY_ENDQUEUE","SPFILENOTIFY_ENDRENAME","SPFILENOTIFY_ENDSUBQUEUE","SPFILENOTIFY_LANGMISMATCH","SPFILENOTIFY_NEEDMEDIA","SPFILENOTIFY_RENAMEERROR","SPFILENOTIFY_STARTCOPY","SPFILENOTIFY_STARTDELETE","SPFILENOTIFY_STARTQUEUE","SPFILENOTIFY_STARTRENAME","SPFILENOTIFY_STARTSUBQUEUE","SPFILENOTIFY_TARGETEXISTS","SPFILENOTIFY_TARGETNEWER","SetupDefaultQueueCallback","SetupDefaultQueueCallback function [Setup API]","SetupDefaultQueueCallbackA","SetupDefaultQueueCallbackW","_setupapi_setupdefaultqueuecallback","setup.setupdefaultqueuecallback","setupapi/SetupDefaultQueueCallback","setupapi/SetupDefaultQueueCallbackA","setupapi/SetupDefaultQueueCallbackW"]
+description: The SetupDefaultQueueCallback function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the SetupCommitFileQueue function. (ANSI)
+helpviewer_keywords: ["SPFILENOTIFY_COPYERROR", "SPFILENOTIFY_DELETEERROR", "SPFILENOTIFY_ENDCOPY", "SPFILENOTIFY_ENDDELETE", "SPFILENOTIFY_ENDQUEUE", "SPFILENOTIFY_ENDRENAME", "SPFILENOTIFY_ENDSUBQUEUE", "SPFILENOTIFY_LANGMISMATCH", "SPFILENOTIFY_NEEDMEDIA", "SPFILENOTIFY_RENAMEERROR", "SPFILENOTIFY_STARTCOPY", "SPFILENOTIFY_STARTDELETE", "SPFILENOTIFY_STARTQUEUE", "SPFILENOTIFY_STARTRENAME", "SPFILENOTIFY_STARTSUBQUEUE", "SPFILENOTIFY_TARGETEXISTS", "SPFILENOTIFY_TARGETNEWER", "SetupDefaultQueueCallbackA", "setupapi/SetupDefaultQueueCallbackA"]
 old-location: setup\setupdefaultqueuecallback.htm
 tech.root: setup
 ms.assetid: e03f43b9-fe34-4340-86f3-c353df6c6db0
@@ -344,7 +344,7 @@ For more information see,
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDefaultQueueCallback as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDefaultQueueCallback as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

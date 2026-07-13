@@ -74,7 +74,9 @@ The
 <a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a> function from within the 
 <b>InitHelperDll</b> function, as shown in the following example:
 
-<pre class="syntax" xml:space="preserve"><code>DWORD
+
+``` syntax
+DWORD
 WINAPI
 InitHelperDll(
     DWORD      dwNetshVersion,
@@ -86,10 +88,12 @@ InitHelperDll(
     attMyAttributes.guidHelper = g_MyGuid;
     attMyAttributes.dwVersion  = 1;
     attMyAttributes.pfnStart   = NetshStartHelper;
-    RegisterHelper( NULL, &amp;attMyAttributes );
+    RegisterHelper( NULL, &attMyAttributes );
 
     return NO_ERROR;
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

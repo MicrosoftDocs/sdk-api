@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetAddressIDA
 title: lineGetAddressIDA function (tapi.h)
-description: The lineGetAddressID function returns the address identifier associated with an address in a different format on the specified line.
-helpviewer_keywords: ["_tapi2_linegetaddressid","lineGetAddressID","lineGetAddressID function [TAPI 2.2]","lineGetAddressIDA","lineGetAddressIDW","tapi/lineGetAddressID","tapi/lineGetAddressIDA","tapi/lineGetAddressIDW","tapi2.linegetaddressid"]
+description: The lineGetAddressID function returns the address identifier associated with an address in a different format on the specified line. (lineGetAddressIDA)
+helpviewer_keywords: ["lineGetAddressIDA", "tapi/lineGetAddressIDA"]
 old-location: tapi2\linegetaddressid.htm
 tech.root: tapi3
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4
@@ -98,7 +98,7 @@ The
 
 
 > [!NOTE]
-> The tapi.h header defines lineGetAddressID as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetAddressID as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

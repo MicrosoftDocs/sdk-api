@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(XMU565&&)
 title: XMU565::XMU565(XMU565 &&) (directxpackedvector.h)
-description: A constructor for XMU565.
+description: A constructor for XMU565. (overload 1/2)
 helpviewer_keywords: ["XMU565","XMU565 constructor [DirectX Math Support APIs]","XMU565 constructor [DirectX Math Support APIs]","XMU565 structure","XMU565 structure [DirectX Math Support APIs]","XMU565 constructor","XMU565.XMU565","XMU565.XMU565()","XMU565.XMU565(XMU565 &&)","XMU565::XMU565","XMU565::XMU565(XMU565 &&)","dxmath.xmu565_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 cons
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

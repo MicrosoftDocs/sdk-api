@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: fxsutility.lib
 req.dll: Fxsutility.dll
 req.irql: 
 targetos: Windows

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWebProxy.put_UserName
 title: IWebProxy::put_UserName (wuapi.h)
-description: Gets and sets the user name to submit to the proxy server for authentication.
+description: Gets and sets the user name to submit to the proxy server for authentication. (Put)
 helpviewer_keywords: ["IWebProxy interface [Windows Update Agent]","UserName property","IWebProxy.UserName","IWebProxy.put_UserName","IWebProxy::UserName","IWebProxy::get_UserName","IWebProxy::put_UserName","UserName property [Windows Update Agent]","UserName property [Windows Update Agent]","IWebProxy interface","put_UserName","wua.iwebproxy_username","wuapi/IWebProxy::UserName","wuapi/IWebProxy::get_UserName","wuapi/IWebProxy::put_UserName"]
 old-location: wua\iwebproxy_username.htm
 tech.root: wua

@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_8
+UID: NS:wininet.HTTP_VERSION_INFO
 title: HTTP_VERSION_INFO (wininet.h)
 description: Contains the global HTTP version.
 helpviewer_keywords: ["*LPHTTP_VERSION_INFO","HTTP_VERSION_INFO","HTTP_VERSION_INFO structure [WinINet]","LPHTTP_VERSION_INFO","LPHTTP_VERSION_INFO structure pointer [WinINet]","_inet_http_version_info_structure","wininet.http_version_info","wininet/HTTP_VERSION_INFO","wininet/LPHTTP_VERSION_INFO"]
@@ -79,3 +79,4 @@ On Windows 7, Windows Server 2008 R2, and later, the value in the <b>HTTP_VER
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
+

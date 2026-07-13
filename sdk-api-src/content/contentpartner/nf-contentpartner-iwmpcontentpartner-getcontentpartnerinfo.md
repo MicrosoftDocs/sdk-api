@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetContentPartnerInfo","GetContentPartnerInfo method [Win
 old-location: wmp\iwmpcontentpartner_getcontentpartnerinfo.htm
 tech.root: WMP
 ms.assetid: ca63b65c-9a60-4c5d-a9f2-69d1168c53a5
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetContentPartnerInfo, GetContentPartnerInfo method [Windows Media Player], GetContentPartnerInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetContentPartnerInfo method, IWMPContentPartner.GetContentPartnerInfo, IWMPContentPartner::GetContentPartnerInfo, IWMPContentPartnerGetContentPartnerInfo, contentpartner/IWMPContentPartner::GetContentPartnerInfo, wmp.iwmpcontentpartner_getcontentpartnerinfo
 req.header: contentpartner.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>

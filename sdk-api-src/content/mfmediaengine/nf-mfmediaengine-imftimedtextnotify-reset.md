@@ -52,7 +52,7 @@ api_name:
 
 Resets the timed-text-notify object.
 
-## -parameters
+
 
 ## -see-also
 

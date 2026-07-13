@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.EnumPageFilesA
 title: EnumPageFilesA function (psapi.h)
-description: Calls the callback routine for each installed pagefile in the system.
-helpviewer_keywords: ["EnumPageFiles","EnumPageFiles function [PSAPI]","EnumPageFilesA","EnumPageFilesW","K32EnumPageFiles","K32EnumPageFilesA","K32EnumPageFilesW","_win32_enumpagefiles","base.enumpagefiles","psapi.enumpagefiles","psapi/EnumPageFiles","psapi/EnumPageFilesA","psapi/EnumPageFilesW","psapi/K32EnumPageFiles","psapi/K32EnumPageFilesA","psapi/K32EnumPageFilesW"]
+description: Calls the callback routine for each installed pagefile in the system. (ANSI)
+helpviewer_keywords: ["EnumPageFilesA", "K32EnumPageFilesA", "psapi/EnumPageFilesA", "psapi/K32EnumPageFilesA"]
 old-location: psapi\enumpagefiles.htm
 tech.root: psapi
 ms.assetid: 9289fe3c-a7d9-4acb-aeb6-a50de65db0a2
@@ -103,7 +103,7 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 > [!NOTE]
-> The psapi.h header defines EnumPageFiles as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The psapi.h header defines EnumPageFiles as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

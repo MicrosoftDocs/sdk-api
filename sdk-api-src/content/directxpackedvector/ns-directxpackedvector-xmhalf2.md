@@ -96,7 +96,7 @@ The definition of the <code>HALF</code> type used under DirectXMath is consisten
 ```
 
 
-<code>XMHALF2</code>can be loaded into instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadhalf2">XMLoadHalf2</a>.
+<code>XMHALF2</code> can be loaded into instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadhalf2">XMLoadHalf2</a>.
 	
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMHALF2</code> with <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorehalf2">XMStoreHalf2</a>.

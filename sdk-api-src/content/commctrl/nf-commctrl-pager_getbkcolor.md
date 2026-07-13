@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_GetBkColor","Pager_GetBkColor macro [Windows Contro
 old-location: controls\Pager_GetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbkcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_GetBkColor, Pager_GetBkColor macro [Windows Controls], _win32_Pager_GetBkColor, _win32_Pager_GetBkColor_cpp, commctrl/Pager_GetBkColor, controls.Pager_GetBkColor, controls._win32_Pager_GetBkColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Pager_GetBkColor macro
+
+## -syntax
+
+```cpp
+COLORREF Pager_GetBkColor(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns the current background color.
 
 
 ## -description

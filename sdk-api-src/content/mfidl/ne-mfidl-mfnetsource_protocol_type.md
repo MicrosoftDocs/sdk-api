@@ -56,23 +56,23 @@ Indicates the type of control protocol that is used in streaming or downloading.
 
 ## -enum-fields
 
-### -field MFNETSOURCE_UNDEFINED
+### -field MFNETSOURCE_UNDEFINED:0
 
 The protocol type has not yet been determined.
 
-### -field MFNETSOURCE_HTTP
+### -field MFNETSOURCE_HTTP:0x1
 
 The protocol type is HTTP. This includes HTTPv9, WMSP, and HTTP download.
 
-### -field MFNETSOURCE_RTSP
+### -field MFNETSOURCE_RTSP:0x2
 
 The protocol type is Real Time Streaming Protocol (RTSP).
 
-### -field MFNETSOURCE_FILE
+### -field MFNETSOURCE_FILE:0x3
 
 The content is read from a file. The file might be local or on a remote share.
 
-### -field MFNETSOURCE_MULTICAST
+### -field MFNETSOURCE_MULTICAST:0x4
 
 The protocol type is multicast.
 

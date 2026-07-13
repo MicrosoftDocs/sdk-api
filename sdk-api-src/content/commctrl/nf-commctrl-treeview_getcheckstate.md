@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetCheckState","TreeView_GetCheckState macro [Wi
 old-location: controls\TreeView_GetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcheckstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetCheckState, TreeView_GetCheckState macro [Windows Controls], _win32_TreeView_GetCheckState, _win32_TreeView_GetCheckState_cpp, commctrl/TreeView_GetCheckState, controls.TreeView_GetCheckState, controls._win32_TreeView_GetCheckState
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,26 @@ api_name:
 
 # TreeView_GetCheckState macro
 
+## -syntax
+
+```cpp
+UINT TreeView_GetCheckState(
+   HWND      hwndTV,
+   HTREEITEM hti
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns:
+
+| Return code | Description |
+|---|---|
+| Checked | 1 |
+| Unchecked | 0 |
+| No Check Box Image | -1 |
 
 ## -description
 

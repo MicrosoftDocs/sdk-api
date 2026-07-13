@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetCancelConnectionA
 title: WNetCancelConnectionA function (winnetwk.h)
-description: The WNetCancelConnection function cancels an existing network connection.
-helpviewer_keywords: ["WNetCancelConnection","WNetCancelConnection function [Windows Networking (WNet)]","WNetCancelConnectionA","WNetCancelConnectionW","_win32_wnetcancelconnection","winnetwk/WNetCancelConnection","winnetwk/WNetCancelConnectionA","winnetwk/WNetCancelConnectionW","wnet.wnetcancelconnection"]
+description: The WNetCancelConnection function cancels an existing network connection. (ANSI)
+helpviewer_keywords: ["WNetCancelConnectionA", "winnetwk/WNetCancelConnectionA"]
 old-location: wnet\wnetcancelconnection.htm
 tech.root: WNet
 ms.assetid: e180d497-5e14-459a-8cf6-5664dfb88419
@@ -168,7 +168,7 @@ There are open files, and the <i>fForce</i> parameter is <b>FALSE</b>.
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetCancelConnection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetCancelConnection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

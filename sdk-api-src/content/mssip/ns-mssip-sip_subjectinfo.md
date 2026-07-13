@@ -188,15 +188,15 @@ The additional information is in a user defined format.
 
 ### -field psFlat
 
-An <a href="/windows/desktop/api/mssip/ns-mssip-ms_addinfo_flat_">MS_ADDINFO_FLAT</a> structure that contains additional information for flat file subject types.
+An <a href="/windows/win32/api/mssip/ns-mssip-ms_addinfo_flat">MS_ADDINFO_FLAT</a> structure that contains additional information for flat file subject types.
 
 ### -field psCatMember
 
-An <a href="/windows/desktop/api/mssip/ns-mssip-ms_addinfo_catalogmember_">MS_ADDINFO_CATALOGMEMBER</a> structure that contains additional information for catalog member subject types.
+An <a href="/windows/win32/api/mssip/ns-mssip-ms_addinfo_catalogmember">MS_ADDINFO_CATALOGMEMBER</a> structure that contains additional information for catalog member subject types.
 
 ### -field psBlob
 
-An <a href="/windows/desktop/api/mssip/ns-mssip-ms_addinfo_blob_">MS_ADDINFO_BLOB</a> structure that contains additional information for BLOB subject types.
+An <a href="/windows/win32/api/mssip/ns-mssip-ms_addinfo_blob">MS_ADDINFO_BLOB</a> structure that contains additional information for BLOB subject types.
 
 ### -field pClientData
 

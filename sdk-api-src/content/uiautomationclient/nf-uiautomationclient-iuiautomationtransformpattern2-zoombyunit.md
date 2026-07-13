@@ -54,7 +54,7 @@ Zooms the viewport of the control by the specified unit.
 
 ## -parameters
 
-#### - zoomUnit
+### -param zoomUnit
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-zoomunit">ZoomUnit</a></b>
 
@@ -64,7 +64,7 @@ The unit by which to increase or decrease the zoom of the viewport.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

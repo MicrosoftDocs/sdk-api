@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CharPrevW
 title: CharPrevW function (winuser.h)
-description: Retrieves a pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters.
-helpviewer_keywords: ["CharPrev","CharPrev function [Menus and Other Resources]","CharPrevA","CharPrevW","_win32_CharPrev","_win32_charprev_cpp","menurc.charprev","winui._win32_charprev","winuser/CharPrev","winuser/CharPrevA","winuser/CharPrevW"]
+description: Retrieves a pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters. (Unicode)
+helpviewer_keywords: ["CharPrev", "CharPrev function [Menus and Other Resources]", "CharPrevW", "_win32_CharPrev", "_win32_charprev_cpp", "menurc.charprev", "winui._win32_charprev", "winuser/CharPrev", "winuser/CharPrevW"]
 old-location: menurc\charprev.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charprev.htm
@@ -97,7 +97,7 @@ and so on.
 
 
 > [!NOTE]
-> The winuser.h header defines CharPrev as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CharPrev as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

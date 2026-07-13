@@ -1,8 +1,8 @@
 ---
 UID: NF:commdlg.ReplaceTextW
 title: ReplaceTextW function (commdlg.h)
-description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations.
-helpviewer_keywords: ["ReplaceText","ReplaceText function [Dialog Boxes]","ReplaceTextA","ReplaceTextW","_win32_ReplaceText","_win32_replacetext_cpp","commdlg/ReplaceText","commdlg/ReplaceTextA","commdlg/ReplaceTextW","dlgbox.replacetext","winui._win32_replacetext"]
+description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations. (Unicode)
+helpviewer_keywords: ["ReplaceText", "ReplaceText function [Dialog Boxes]", "ReplaceTextW", "_win32_ReplaceText", "_win32_replacetext_cpp", "commdlg/ReplaceText", "commdlg/ReplaceTextW", "dlgbox.replacetext", "winui._win32_replacetext"]
 old-location: dlgbox\replacetext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\replacetext.htm
@@ -86,7 +86,7 @@ You can provide an <a href="/windows/desktop/api/commdlg/nc-commdlg-lpfrhookproc
 
 
 > [!NOTE]
-> The commdlg.h header defines ReplaceText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines ReplaceText as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

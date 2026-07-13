@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetSourceUri
 title: IOpcRelationship::GetSourceUri (msopc.h)
-description: Gets the URI of the relationship�source.
+description: Gets the URI of the relationship source.
 helpviewer_keywords: ["GetSourceUri","GetSourceUri method [Open Packaging Conventions]","GetSourceUri method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetSourceUri method","IOpcRelationship.GetSourceUri","IOpcRelationship::GetSourceUri","msopc/IOpcRelationship::GetSourceUri","opc.iopcrelationship_getsourceuri"]
 old-location: opc\iopcrelationship_getsourceuri.htm
 tech.root: OPC
@@ -108,7 +108,7 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML</a>
 
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_IdToIndex","PropSheet_IdToIndex macro [Windows 
 old-location: controls\PropSheet_IdToIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_idtoindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_IdToIndex, PropSheet_IdToIndex macro [Windows Controls], _win32_PropSheet_IdToIndex, _win32_PropSheet_IdToIndex_cpp, controls.PropSheet_IdToIndex, controls._win32_PropSheet_IdToIndex, prsht/PropSheet_IdToIndex
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_IdToIndex macro
+
+## -syntax
+
+```cpp
+int PropSheet_IdToIndex(
+   HWND hDlg,
+   int  id
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the zero-based index of the property sheet page specified by <i>id</i> if successful. Otherwise, it returns -1.
 
 
 ## -description

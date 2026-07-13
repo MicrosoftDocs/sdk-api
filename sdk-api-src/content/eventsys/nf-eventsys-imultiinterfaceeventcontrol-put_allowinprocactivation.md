@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.put_AllowInprocActivation
 title: IMultiInterfaceEventControl::put_AllowInprocActivation (eventsys.h)
-description: Indicates whether subscribers can be activated in the publisher's process.
+description: Indicates whether subscribers can be activated in the publisher's process. (IMultiInterfaceEventControl.put_AllowInprocActivation)
 helpviewer_keywords: ["AllowInprocActivation property [COM+]","AllowInprocActivation property [COM+]","IMultiInterfaceEventControl interface","IMultiInterfaceEventControl interface [COM+]","AllowInprocActivation property","IMultiInterfaceEventControl.AllowInprocActivation","IMultiInterfaceEventControl.put_AllowInprocActivation","IMultiInterfaceEventControl::AllowInprocActivation","IMultiInterfaceEventControl::get_AllowInprocActivation","IMultiInterfaceEventControl::put_AllowInprocActivation","cos.imultiinterfaceeventcontrol_allowinprocactivation","eventsys/IMultiInterfaceEventControl::AllowInprocActivation","eventsys/IMultiInterfaceEventControl::get_AllowInprocActivation","eventsys/IMultiInterfaceEventControl::put_AllowInprocActivation","put_AllowInprocActivation"]
 old-location: cos\imultiinterfaceeventcontrol_allowinprocactivation.htm
 tech.root: cos

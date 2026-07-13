@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDrawEnd","ICDrawEnd macro [Windows Multimedia]","_win32
 old-location: multimedia\icdrawend.htm
 tech.root: Multimedia
 ms.assetid: efcb1913-edaf-454c-a317-c14349805a81
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDrawEnd, ICDrawEnd macro [Windows Multimedia], _win32_ICDrawEnd, multimedia.icdrawend, vfw/ICDrawEnd
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ICDrawEnd macro
+
+## -syntax
+
+```cpp
+DWORD ICDrawEnd(
+     hic
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

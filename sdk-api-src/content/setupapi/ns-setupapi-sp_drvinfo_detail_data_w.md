@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_DRVINFO_DETAIL_DATA_W
 title: SP_DRVINFO_DETAIL_DATA_W (setupapi.h)
-description: An SP_DRVINFO_DETAIL_DATA structure contains detailed information about a particular driver information structure.
+description: An SP_DRVINFO_DETAIL_DATA structure contains detailed information about a particular driver information structure. (Unicode)
 helpviewer_keywords: ["*PSP_DRVINFO_DETAIL_DATA_W","PSP_DRVINFO_DETAIL_DATA","PSP_DRVINFO_DETAIL_DATA structure pointer [Device and Driver Installation]","SP_DRVINFO_DETAIL_DATA","SP_DRVINFO_DETAIL_DATA structure [Device and Driver Installation]","SP_DRVINFO_DETAIL_DATA_W","devinst.sp_drvinfo_detail_data","di-struct_74ef2af7-e982-4041-9c39-605ca316359c.xml","setupapi/PSP_DRVINFO_DETAIL_DATA","setupapi/SP_DRVINFO_DETAIL_DATA"]
 old-location: devinst\sp_drvinfo_detail_data.htm
 tech.root: devinst
@@ -167,7 +167,7 @@ if (CompatIDsLength > 0)
 
 
 > [!NOTE]
-> The setupapi.h header defines SP_DRVINFO_DETAIL_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SP_DRVINFO_DETAIL_DATA as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

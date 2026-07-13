@@ -4,12 +4,12 @@ title: GetProcessVersion function (processthreadsapi.h)
 description: Retrieves the major and minor version numbers of the system on which the specified process expects to run.
 helpviewer_keywords: ["GetProcessVersion","GetProcessVersion function","_win32_getprocessversion","base.getprocessversion","processthreadsapi/GetProcessVersion","winbase/GetProcessVersion"]
 old-location: base\getprocessversion.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: ed12f2e5-1674-4885-878f-9ba39415780c
 ms.date: 12/05/2018
 ms.keywords: GetProcessVersion, GetProcessVersion function, _win32_getprocessversion, base.getprocessversion, processthreadsapi/GetProcessVersion, winbase/GetProcessVersion
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
  - KernelBase.dll
@@ -53,7 +58,6 @@ api_name:
 ---
 
 # GetProcessVersion function
-
 
 ## -description
 
@@ -69,13 +73,11 @@ The process identifier of the process of interest. A value of zero specifies the
 
 If the function succeeds, the return value is the version of the system on which the process expects to run. The high word of the return value contains the major version number. The low word of the return value contains the minor version number.
 
-If the function fails, the return value is zero. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if <i>ProcessId</i> is an invalid value.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if *ProcessId* is an invalid value.
 
 ## -remarks
 
-The 
-<b>GetProcessVersion</b> function performs less quickly when <i>ProcessId</i> is nonzero, specifying a process other than the calling process.
+The **GetProcessVersion** function performs less quickly when *ProcessId* is nonzero, specifying a process other than the calling process.
 
 The version number returned by this function is the version number stamped in the image header of the .exe file the process is running. Linker programs set this value.
 
@@ -84,7 +86,5 @@ If this function is called from a 32-bit application running on WOW64, the speci
 ## -see-also
 
 <a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
-
 
 <a href="/windows/desktop/ProcThread/child-processes">Processes</a>

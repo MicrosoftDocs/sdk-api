@@ -37,15 +37,15 @@ Specifies the usage of the associated video extension command parameter.
 
 ## -enum-fields
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAG_NONE
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAG_NONE:0
 
 None. Set for simple data type parameters.
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAG_READ
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAG_READ:0x1
 
 The resource parameter is read. This flag is for **ID3D12Resource** only and is not valid for simple data type parameters.
 
-### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAG_WRITE
+### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAG_WRITE:0x2
 
 The resource parameter is written. This flag is for **ID3D12Resource** only and is not valid for simple data type parameters.
 

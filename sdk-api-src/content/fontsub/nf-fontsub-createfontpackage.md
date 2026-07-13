@@ -269,7 +269,7 @@ Can be used only if <i>usSubsetPlatform</i> == TTFSUB_MS_PLATFORMID.
 
 ### -param pusSubsetKeepList [in]
 
-Points to an array of integers which comprise a list of character codes or glyph indices that should be retained in the output font or font package. If this list contains character codes (that is, if if TTFCFP_FLAGS_GLYPHLIST is not set in <i>usFlags</i>), this list may be either Unicode or some other type of encoding, depending on the Platform-Encoding CMAP specified by <i>usSubsetPlatform</i> and <i>usSubsetEncoding</i>.
+Points to an array of integers which comprise a list of character codes or glyph indices that should be retained in the output font or font package. If this list contains character codes (that is, if TTFCFP_FLAGS_GLYPHLIST is not set in <i>usFlags</i>), this list may be either Unicode or some other type of encoding, depending on the Platform-Encoding CMAP specified by <i>usSubsetPlatform</i> and <i>usSubsetEncoding</i>.
 
 ### -param usSubsetListCount [in]
 

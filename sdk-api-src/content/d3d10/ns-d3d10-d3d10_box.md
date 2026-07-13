@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_BOX
 title: D3D10_BOX (d3d10.h)
-description: Defines a 3D box.
+description: Defines a 3D box. (D3D10_BOX)
 helpviewer_keywords: ["D3D10_BOX","D3D10_BOX structure [Direct3D 10]","a02d025c-3b75-5cb1-2b68-a6c9d6261bf1","d3d10/D3D10_BOX","direct3d10.d3d10_box"]
 old-location: direct3d10\d3d10_box.htm
 tech.root: direct3d10

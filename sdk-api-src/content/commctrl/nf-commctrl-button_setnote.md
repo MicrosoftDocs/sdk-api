@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_SetNote","Button_SetNote macro [Windows Controls]"
 old-location: controls\Button_SetNote.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setnote.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_SetNote, Button_SetNote macro [Windows Controls], _shell_Button_SetNote, _shell_Button_SetNote_cpp, commctrl/Button_SetNote, controls.Button_SetNote, controls._shell_Button_SetNote
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Button_SetNote macro
+
+## -syntax
+
+```cpp
+BOOL Button_SetNote(
+   HWND   hwnd,
+   PCWSTR psz
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

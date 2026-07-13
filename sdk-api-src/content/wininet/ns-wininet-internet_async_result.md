@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_0
+UID: NS:wininet.INTERNET_ASYNC_RESULT
 title: INTERNET_ASYNC_RESULT (wininet.h)
 description: Contains the result of a call to an asynchronous function. This structure is used with InternetStatusCallback.
 helpviewer_keywords: ["*LPINTERNET_ASYNC_RESULT","INTERNET_ASYNC_RESULT","INTERNET_ASYNC_RESULT structure [WinINet]","LPINTERNET_ASYNC_RESULT","LPINTERNET_ASYNC_RESULT structure pointer [WinINet]","_inet_internet_async_result_structure","wininet.internet_async_result","wininet/ LPINTERNET_ASYNC_RESULT","wininet/INTERNET_ASYNC_RESULT"]
@@ -100,3 +100,4 @@ The value of
 ## -see-also
 
 <a href="/windows/desktop/WinInet/asynchronous-operation"> Asynchronous Operation</a>
+

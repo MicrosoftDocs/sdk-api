@@ -6,7 +6,7 @@ helpviewer_keywords: ["EXCEPTION_CONTINUE_EXECUTION","EXCEPTION_CONTINUE_SEARCH"
 old-location: base\setunhandledexceptionfilter.htm
 tech.root: Debug
 ms.assetid: 1c3bfdda-8049-4c3f-8ee6-0ee5c77b50ae
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: EXCEPTION_CONTINUE_EXECUTION, EXCEPTION_CONTINUE_SEARCH, EXCEPTION_EXECUTE_HANDLER, SetUnhandledExceptionFilter, SetUnhandledExceptionFilter function, _win32_setunhandledexceptionfilter, base.setunhandledexceptionfilter, errhandlingapi/SetUnhandledExceptionFilter
 req.header: errhandlingapi.h
 req.include-header: Windows.h
@@ -48,12 +48,12 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+ - vertdll.dll
 api_name:
  - SetUnhandledExceptionFilter
 ---
 
 # SetUnhandledExceptionFilter function
-
 
 ## -description
 
@@ -65,15 +65,9 @@ After calling this function, if an exception occurs in a process that is not bei
 
 ### -param lpTopLevelExceptionFilter [in]
 
-A pointer to a top-level exception filter function that will be called whenever the 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> function gets control, and the process is not being debugged. A value of <b>NULL</b> for this parameter specifies default handling within 
-<b>UnhandledExceptionFilter</b>. 
+A pointer to a top-level exception filter function that will be called whenever the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> function gets control, and the process is not being debugged. A value of <b>NULL</b> for this parameter specifies default handling within <b>UnhandledExceptionFilter</b>.
 
-
-
-
-The filter function has syntax similar to that of 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>: It takes a single parameter of type <b>LPEXCEPTION_POINTERS</b>, has a WINAPI calling convention, and returns a value of type <b>LONG</b>. The filter function should return one of the following values.
+The filter function has syntax similar to that of <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>: It takes a single parameter of type <b>LPEXCEPTION_POINTERS</b>, has a WINAPI calling convention, and returns a value of type <b>LONG</b>. The filter function should return one of the following values.
 
 <table>
 <tr>
@@ -111,9 +105,7 @@ Return from
 </dl>
 </td>
 <td width="60%">
-Proceed with normal execution of 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>. That means obeying the 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> flags, or invoking the Application Error pop-up message box.
+Proceed with normal execution of <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>. That means obeying the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> flags, or invoking the Application Error pop-up message box.
 
 </td>
 </tr>
@@ -121,24 +113,20 @@ Proceed with normal execution of
 
 ## -returns
 
-The 
-<b>SetUnhandledExceptionFilter</b> function returns the address of the previous exception filter established with the function. A <b>NULL</b> return value means that there is no current top-level exception handler.
+The <b>SetUnhandledExceptionFilter</b> function returns the address of the previous exception filter established with the function. A <b>NULL</b> return value means that there is no current top-level exception handler.
 
 ## -remarks
 
-Issuing 
-<b>SetUnhandledExceptionFilter</b> replaces the existing top-level exception filter for all existing and all future threads in the calling process.
+Issuing <b>SetUnhandledExceptionFilter</b> replaces the existing top-level exception filter for all existing and all future threads in the calling process.
 
 The exception handler specified by <i>lpTopLevelExceptionFilter</i> is executed in the context of the thread that caused the fault. This can affect the exception handler's ability to recover from certain exceptions, such as an invalid stack.
 
 ## -see-also
 
-<a href="/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
+[Structured Exception Handling Functions](/windows/win32/Debug/structured-exception-handling-functions)
 
+[Structured Exception Handling Overview](/windows/win32/Debug/structured-exception-handling)
 
+[UnhandledExceptionFilter](nf-errhandlingapi-unhandledexceptionfilter.md)
 
-<a href="/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>
-
-
-
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

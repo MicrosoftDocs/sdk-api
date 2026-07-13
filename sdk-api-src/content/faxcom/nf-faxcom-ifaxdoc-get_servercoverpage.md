@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_ServerCoverpage
 title: IFaxDoc::get_ServerCoverpage (faxcom.h)
-description: Sets or retrieves the ServerCoverpage property for a FaxDoc object. The ServerCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
+description: Sets or retrieves the ServerCoverpage property for a FaxDoc object. The ServerCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","ServerCoverpage property","IFaxDoc.ServerCoverpage","IFaxDoc.get_ServerCoverpage","IFaxDoc::ServerCoverpage","IFaxDoc::get_ServerCoverpage","IFaxDoc::put_ServerCoverpage","ServerCoverpage property [Fax Service]","ServerCoverpage property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_servercoverpage","fax._mfax_ifaxdoc_get_servercoverpage","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_servercoverpage_cpp","faxcom/IFaxDoc::ServerCoverpage","faxcom/IFaxDoc::get_ServerCoverpage","faxcom/IFaxDoc::put_ServerCoverpage","get_ServerCoverpage"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_servercoverpage_cpp.htm
 tech.root: Fax

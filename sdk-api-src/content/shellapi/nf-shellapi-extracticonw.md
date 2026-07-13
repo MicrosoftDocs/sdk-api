@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ExtractIconW
 title: ExtractIconW function (shellapi.h)
-description: Gets a handle to an icon from the specified executable file, DLL, or icon file. To retrieve an array of handles to large or small icons, use the ExtractIconEx function.
-helpviewer_keywords: ["ExtractIcon","ExtractIcon function [Windows Shell]","ExtractIconA","ExtractIconW","_shell_ExtractIcon","shell.ExtractIcon","shellapi/ExtractIcon","shellapi/ExtractIconA","shellapi/ExtractIconW"]
+description: Gets a handle to an icon from the specified executable file, DLL, or icon file. To retrieve an array of handles to large or small icons, use the ExtractIconEx function. (Unicode)
+helpviewer_keywords: ["ExtractIcon", "ExtractIcon function [Windows Shell]", "ExtractIconW", "_shell_ExtractIcon", "shell.ExtractIcon", "shellapi/ExtractIcon", "shellapi/ExtractIconW"]
 old-location: shell\ExtractIcon.htm
 tech.root: shell
 ms.assetid: a0314423-79d6-416e-8be0-be946477da3e
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
  - Shell32.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
@@ -102,7 +106,7 @@ When it is no longer needed, you must destroy the icon handle returned by <b>Ext
 
 
 > [!NOTE]
-> The shellapi.h header defines ExtractIcon as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines ExtractIcon as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

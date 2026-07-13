@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IEnumClockVector.Skip
 title: IEnumClockVector::Skip (winsync.h)
-description: Skips the specified number of clock vector elements.
+description: Skips the specified number of clock vector elements. (IEnumClockVector.Skip)
 helpviewer_keywords: ["IEnumClockVector interface [Windows Sync]","Skip method","IEnumClockVector.Skip","IEnumClockVector::Skip","Skip","Skip method [Windows Sync]","Skip method [Windows Sync]","IEnumClockVector interface","winsync.ienumclockvector_skip","winsync/IEnumClockVector::Skip"]
 old-location: winsync\ienumclockvector_skip.htm
 tech.root: winsync

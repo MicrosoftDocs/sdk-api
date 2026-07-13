@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrPBrkA
 title: StrPBrkA function (shlwapi.h)
-description: Searches a string for the first occurrence of a character contained in a specified buffer. This search does not include the terminating null character.
-helpviewer_keywords: ["StrPBrk","StrPBrk function [Windows Shell]","StrPBrkA","StrPBrkW","_win32_StrPBrk","shell.StrPBrk","shlwapi/StrPBrk","shlwapi/StrPBrkA","shlwapi/StrPBrkW"]
+description: Searches a string for the first occurrence of a character contained in a specified buffer. This search does not include the terminating null character. (ANSI)
+helpviewer_keywords: ["StrPBrkA", "shlwapi/StrPBrkA"]
 old-location: shell\StrPBrk.htm
 tech.root: shell
 ms.assetid: 116c0791-33dd-4c3f-b8a4-a7df91fc5f6a
@@ -82,5 +82,5 @@ Returns the address in <i>psz</i> of the first occurrence of a character contain
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines StrPBrk as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrPBrk as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -52,7 +52,7 @@ api_name:
 
 Removes the last axis-aligned clip from the render target. After this method is called, the clip is no longer applied to subsequent drawing operations.
 
-## -parameters
+
 
 ## -remarks
 

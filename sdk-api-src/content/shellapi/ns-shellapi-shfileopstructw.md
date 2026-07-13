@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHFILEOPSTRUCTW
 title: SHFILEOPSTRUCTW (shellapi.h)
-description: Contains information that the SHFileOperation function uses to perform file operations.
+description: Contains information that the SHFileOperation function uses to perform file operations. (Unicode)
 helpviewer_keywords: ["*LPSHFILEOPSTRUCTW","FOF_ALLOWUNDO","FOF_CONFIRMMOUSE","FOF_FILESONLY","FOF_MULTIDESTFILES","FOF_NOCONFIRMATION","FOF_NOCONFIRMMKDIR","FOF_NOCOPYSECURITYATTRIBS","FOF_NOERRORUI","FOF_NORECURSEREPARSE","FOF_NORECURSION","FOF_NO_CONNECTED_ELEMENTS","FOF_NO_UI","FOF_RENAMEONCOLLISION","FOF_SILENT","FOF_SIMPLEPROGRESS","FOF_WANTMAPPINGHANDLE","FOF_WANTNUKEWARNING","FO_COPY","FO_DELETE","FO_MOVE","FO_RENAME","LPSHFILEOPSTRUCT","LPSHFILEOPSTRUCT structure pointer [Windows Shell]","SHFILEOPSTRUCT","SHFILEOPSTRUCT structure [Windows Shell]","SHFILEOPSTRUCTW","_win32_SHFILEOPSTRUCT","shell.SHFILEOPSTRUCT","shellapi/LPSHFILEOPSTRUCT","shellapi/SHFILEOPSTRUCT"]
 old-location: shell\SHFILEOPSTRUCT.htm
 tech.root: shell
@@ -462,4 +462,4 @@ The <b>UINT</b> value indicates the number of <a href="/windows/desktop/api/shel
 
 
 > [!NOTE]
-> The shellapi.h header defines SHFILEOPSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHFILEOPSTRUCT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

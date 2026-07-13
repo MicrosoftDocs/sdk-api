@@ -54,71 +54,71 @@ Specifies an H.264 video profile.
 
 ## -enum-fields
 
-### -field eAVEncH264VProfile_unknown
+### -field eAVEncH264VProfile_unknown:0
 
 The profile is unknown or not specified.
 
-### -field eAVEncH264VProfile_Simple
+### -field eAVEncH264VProfile_Simple:66
 
 Simple profile.
 
-### -field eAVEncH264VProfile_Base
+### -field eAVEncH264VProfile_Base:66
 
 Baseline profile.
 
-### -field eAVEncH264VProfile_Main
+### -field eAVEncH264VProfile_Main:77
 
 Main profile.
 
-### -field eAVEncH264VProfile_High
+### -field eAVEncH264VProfile_High:100
 
 High profile.
 
-### -field eAVEncH264VProfile_422
+### -field eAVEncH264VProfile_422:122
 
 High 4:2:2 profile.
 
-### -field eAVEncH264VProfile_High10
+### -field eAVEncH264VProfile_High10:110
 
 High 10 profile.
 
-### -field eAVEncH264VProfile_444
+### -field eAVEncH264VProfile_444:244
 
 High 4:4:4 profile.
 
-### -field eAVEncH264VProfile_Extended
+### -field eAVEncH264VProfile_Extended:88
 
 Extended profile.
 
-### -field eAVEncH264VProfile_ScalableBase
+### -field eAVEncH264VProfile_ScalableBase:83
 
 Scalable base profile. H.264 extension.
 
-### -field eAVEncH264VProfile_ScalableHigh
+### -field eAVEncH264VProfile_ScalableHigh:86
 
 Scalable high profile. H.264 extension.
 
-### -field eAVEncH264VProfile_MultiviewHigh
+### -field eAVEncH264VProfile_MultiviewHigh:118
 
 Multiview high profile. H.264 extension.
 
-### -field eAVEncH264VProfile_StereoHigh
+### -field eAVEncH264VProfile_StereoHigh:128
 
 Stereo high profile. H.264 extension.
 
-### -field eAVEncH264VProfile_ConstrainedBase
+### -field eAVEncH264VProfile_ConstrainedBase:256
 
 Constrained base profile. H.264 extension.
 
-### -field eAVEncH264VProfile_UCConstrainedHigh
+### -field eAVEncH264VProfile_UCConstrainedHigh:257
 
 Constrained high profile. H.264 extension.
 
-### -field eAVEncH264VProfile_UCScalableConstrainedBase
+### -field eAVEncH264VProfile_UCScalableConstrainedBase:258
 
 UC Constrained base profile. H.264 extension.
 
-### -field eAVEncH264VProfile_UCScalableConstrainedHigh
+### -field eAVEncH264VProfile_UCScalableConstrainedHigh:259
 
 UC Constrained high profile. H.264 extension.
 

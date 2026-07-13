@@ -52,7 +52,7 @@ api_name:
 
 Asks a container to resize the display site for embedded objects.
 
-## -parameters
+
 
 ## -returns
 

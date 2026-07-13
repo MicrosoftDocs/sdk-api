@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_FINISH_CAPTURE_FN
 title: PIBIO_SENSOR_FINISH_CAPTURE_FN (winbio_adapter.h)
-description: Retrieves a value that indicates whether the sensor indicator is on or off.
+description: The PIBIO_SENSOR_FINISH_CAPTURE_FN callback (winbio_adapter.h) retrieves a value that indicates whether the sensor indicator is on or off.
 helpviewer_keywords: ["PIBIO_SENSOR_FINISH_CAPTURE_FN","PIBIO_SENSOR_FINISH_CAPTURE_FN callback","SensorAdapterFinishCapture","SensorAdapterFinishCapture callback function [Windows Biometric Framework API]","secbiomet.sensoradapterfinishcapture","winbio_adapter/SensorAdapterFinishCapture"]
 old-location: secbiomet\sensoradapterfinishcapture.htm
 tech.root: SecBioMet
 ms.assetid: f9ede590-5208-40ed-ac62-604a2d13a5a6
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, PIBIO_SENSOR_FINISH_CAPTURE_FN callback, SensorAdapterFinishCapture, SensorAdapterFinishCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterfinishcapture, winbio_adapter/SensorAdapterFinishCapture
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
@@ -87,7 +87,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_BAD_CAPTURE</b></b></dt>
+<dt><b>WINBIO_E_BAD_CAPTURE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ The sample could not be captured. If you return this error code, you must also s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_CAPTURE_CANCELED</b></b></dt>
+<dt><b>WINBIO_E_CAPTURE_CANCELED</b></dt>
 </dl>
 </td>
 <td width="60%">

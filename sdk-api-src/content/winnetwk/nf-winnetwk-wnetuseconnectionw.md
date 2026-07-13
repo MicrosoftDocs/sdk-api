@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetUseConnectionW
 title: WNetUseConnectionW function (winnetwk.h)
-description: The WNetUseConnection function makes a connection to a network resource. The function can redirect a local device to a network resource.
-helpviewer_keywords: ["CONNECT_CMD_SAVECRED","CONNECT_COMMANDLINE","CONNECT_INTERACTIVE","CONNECT_LOCALDRIVE","CONNECT_PROMPT","CONNECT_REDIRECT","CONNECT_UPDATE_PROFILE","WNetUseConnection","WNetUseConnection function [Windows Networking (WNet)]","WNetUseConnectionA","WNetUseConnectionW","_win32_wnetuseconnection","dwType","lpLocalName","lpProvider","lpRemoteName","winnetwk/WNetUseConnection","winnetwk/WNetUseConnectionA","winnetwk/WNetUseConnectionW","wnet.wnetuseconnection"]
+description: The WNetUseConnection function makes a connection to a network resource. The function can redirect a local device to a network resource. (Unicode)
+helpviewer_keywords: ["CONNECT_CMD_SAVECRED", "CONNECT_COMMANDLINE", "CONNECT_INTERACTIVE", "CONNECT_LOCALDRIVE", "CONNECT_PROMPT", "CONNECT_REDIRECT", "CONNECT_UPDATE_PROFILE", "WNetUseConnection", "WNetUseConnection function [Windows Networking (WNet)]", "WNetUseConnectionW", "_win32_wnetuseconnection", "dwType", "lpLocalName", "lpProvider", "lpRemoteName", "winnetwk/WNetUseConnection", "winnetwk/WNetUseConnectionW", "wnet.wnetuseconnection"]
 old-location: wnet\wnetuseconnection.htm
 tech.root: WNet
 ms.assetid: 80fa471d-074c-468f-b90f-1636081e1583
@@ -68,8 +68,7 @@ Handle to a window that the provider of network resources can use as an owner wi
 
 ### -param lpNetResource [in]
 
-Pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies details of the proposed connection. The structure contains information about the network resource, the local device, and the network resource provider. 
+Pointer to a <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure that specifies details of the proposed connection. The structure contains information about the network resource, the local device, and the network resource provider. 
 
 
 
@@ -84,7 +83,7 @@ You must specify the following members of the
 </tr>
 <tr>
 <td width="40%"><a id="dwType"></a><a id="dwtype"></a><a id="DWTYPE"></a><dl>
-<dt><b><b>dwType</b></b></dt>
+<dt><b>dwType</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -103,7 +102,7 @@ Although this member is required, its information may be ignored by the network 
 </tr>
 <tr>
 <td width="40%"><a id="lpLocalName"></a><a id="lplocalname"></a><a id="LPLOCALNAME"></a><dl>
-<dt><b><b>lpLocalName</b></b></dt>
+<dt><b>lpLocalName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +119,7 @@ If the CONNECT_REDIRECT value is set in the <i>dwFlags</i> parameter, or if the 
 </tr>
 <tr>
 <td width="40%"><a id="lpRemoteName"></a><a id="lpremotename"></a><a id="LPREMOTENAME"></a><dl>
-<dt><b><b>lpRemoteName</b></b></dt>
+<dt><b>lpRemoteName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +129,7 @@ Pointer to a <b>null</b>-terminated string that specifies the network resource t
 </tr>
 <tr>
 <td width="40%"><a id="lpProvider"></a><a id="lpprovider"></a><a id="LPPROVIDER"></a><dl>
-<dt><b><b>lpProvider</b></b></dt>
+<dt><b>lpProvider</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -150,7 +149,7 @@ You should set this member only if you know the network provider you want to use
 
 The 
 <b>WNetUseConnection</b> function ignores the other members of the 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. For more information, see the descriptions following for the <i>dwFlags</i> parameter.
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure. For more information, see the descriptions following for the <i>dwFlags</i> parameter.
 
 ### -param lpPassword [in]
 
@@ -223,7 +222,7 @@ This flag forces the redirection of a local device when making the connection.
 
 
 If the <b>lpLocalName</b> member of 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
 
 If this flag is not set, a local device is automatically chosen for redirection only if the network requires a local device to be redirected.
 
@@ -507,7 +506,7 @@ The network is unavailable.
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetUseConnection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetUseConnection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

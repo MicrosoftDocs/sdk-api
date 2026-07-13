@@ -54,7 +54,7 @@ Identifies how to check multisample quality levels.
 
 ## -enum-fields
 
-### -field D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE
+### -field D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE:0x1
 
 Indicates to check the multisample quality levels of a tiled resource.
 

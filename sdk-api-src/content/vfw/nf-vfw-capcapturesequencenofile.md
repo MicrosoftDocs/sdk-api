@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capCaptureSequenceNoFile","capCaptureSequenceNoFil
 old-location: multimedia\capcapturesequencenofile.htm
 tech.root: Multimedia
 ms.assetid: 40af5582-f801-4437-b782-8d03ffffcb82
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capCaptureSequenceNoFile, capCaptureSequenceNoFile, capCaptureSequenceNoFile macro [Windows Multimedia], multimedia.capcapturesequencenofile, vfw/capCaptureSequenceNoFile
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capCaptureSequenceNoFile macro
+
+## -syntax
+
+```cpp
+BOOL capCaptureSequenceNoFile(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

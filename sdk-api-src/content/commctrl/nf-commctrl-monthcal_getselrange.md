@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetSelRange","MonthCal_GetSelRange macro [Window
 old-location: controls\MonthCal_GetSelRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getselrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetSelRange, MonthCal_GetSelRange macro [Windows Controls], _win32_MonthCal_GetSelRange, _win32_MonthCal_GetSelRange_cpp, commctrl/MonthCal_GetSelRange, controls.MonthCal_GetSelRange, controls._win32_MonthCal_GetSelRange
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # MonthCal_GetSelRange macro
 
+## -syntax
+
+```cpp
+BOOL MonthCal_GetSelRange(
+   HWND         hmc,
+   LPSYSTEMTIME rgst
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise. <b>MonthCal_GetSelRange</b> will fail if applied to a month calendar control that does not use the <b>MCS_MULTISELECT</b> style.
+
 
 ## -description
 
@@ -64,4 +79,4 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that will receive the lower and upper limits of the user's selection. The lower and upper limits are placed in <i>lprgSysTimeArray</i>[0] and <i>lprgSysTimeArray</i>[1], respectively. The time members of these structures will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.
+Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that will receive the lower and upper limits of the user's selection. The lower and upper limits are placed in <i>rgst</i>[0] and <i>rgst</i>[1], respectively. The time members of these structures will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.

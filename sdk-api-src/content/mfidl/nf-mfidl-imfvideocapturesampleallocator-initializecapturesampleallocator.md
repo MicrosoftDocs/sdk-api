@@ -51,7 +51,7 @@ A DWORD specifying the sample size in bytes. The actual sample size used by the 
 
 ### -param cbCaptureMetadataSize
 
-A DWORD specifying the capture metadata size in bytes. Applies only to callers that want to to include additional metadata with the captured frames. The metadata size should include the size of a [KSCAMERA_METADATA_ITEMHEADER](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_metadata_itemheader) in addition to the size of the metadata payload itself.
+A DWORD specifying the capture metadata size in bytes. Applies only to callers that want to include additional metadata with the captured frames. The metadata size should include the size of a [KSCAMERA_METADATA_ITEMHEADER](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_metadata_itemheader) in addition to the size of the metadata payload itself.
 
 ### -param cbAlignment
 

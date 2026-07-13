@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAllGPRMs","GetAllGPRMs method [DirectShow]","GetAllGPR
 old-location: dshow\idvdinfo2_getallgprms.htm
 tech.root: dshow
 ms.assetid: 994f57b5-8514-4768-a679-21133ec92e32
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllGPRMs method, IDvdInfo2.GetAllGPRMs, IDvdInfo2::GetAllGPRMs, IDvdInfo2GetAllGPRMs, dshow.idvdinfo2_getallgprms, strmif/IDvdInfo2::GetAllGPRMs
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAllGPRMs</b> method retrieves the current contents of all general parameter registers (GPRMs).
 

@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>GetComponentData</b> method fills in all network-specific component data for the existing <a href="/previous-versions/windows/desktop/mstv/components-object">Components</a> collection on the specified tune request.
 
 ## -parameters

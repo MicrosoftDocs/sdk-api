@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FtpFindFirstFileW
 title: FtpFindFirstFileW function (wininet.h)
-description: Searches the specified directory of the given FTP session. File and directory entries are returned to the application in the WIN32_FIND_DATA structure.
-helpviewer_keywords: ["FtpFindFirstFile","FtpFindFirstFile function [WinINet]","FtpFindFirstFileA","FtpFindFirstFileW","_inet_ftpfindfirstfile_function","wininet.ftpfindfirstfile","wininet/FtpFindFirstFile","wininet/FtpFindFirstFileA","wininet/FtpFindFirstFileW"]
+description: Searches the specified directory of the given FTP session. File and directory entries are returned to the application in the WIN32_FIND_DATA structure. (Unicode)
+helpviewer_keywords: ["FtpFindFirstFile", "FtpFindFirstFile function [WinINet]", "FtpFindFirstFileW", "_inet_ftpfindfirstfile_function", "wininet.ftpfindfirstfile", "wininet/FtpFindFirstFile", "wininet/FtpFindFirstFileW"]
 old-location: wininet\ftpfindfirstfile.htm
 tech.root: wininet
 ms.assetid: 4f331f99-c52c-4744-a9a7-eeb09803862d
@@ -138,7 +138,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines FtpFindFirstFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines FtpFindFirstFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

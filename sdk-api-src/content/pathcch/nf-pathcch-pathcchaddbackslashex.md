@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchAddBackslashEx
 title: PathCchAddBackslashEx function (pathcch.h)
-description: Adds a backslash to the end of a string to create the correct syntax for a path.
+description: Adds a backslash to the end of a string to create the correct syntax for a path. (PathCchAddBackslashEx)
 helpviewer_keywords: ["PathCchAddBackslashEx","PathCchAddBackslashEx function [Windows Shell]","pathcch/PathCchAddBackslashEx","shell.PathCchAddBackslashEx"]
 old-location: shell\PathCchAddBackslashEx.htm
 tech.root: shell
@@ -58,7 +58,7 @@ This function differs from <a href="/windows/desktop/api/pathcch/nf-pathcch-path
 
 This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b>  This function, or <b>PathCchAddBackslashEx</b>, should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>  This function, or <b><a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslash">PathCchAddBackslash</a></b>, should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 

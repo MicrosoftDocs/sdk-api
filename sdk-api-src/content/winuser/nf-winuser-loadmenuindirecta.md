@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.LoadMenuIndirectA
 title: LoadMenuIndirectA function (winuser.h)
-description: Loads the specified menu template in memory.
-helpviewer_keywords: ["LoadMenuIndirect","LoadMenuIndirect function [Menus and Other Resources]","LoadMenuIndirectA","LoadMenuIndirectW","_win32_LoadMenuIndirect","_win32_loadmenuindirect_cpp","menurc.loadmenuindirect","winui._win32_loadmenuindirect","winuser/LoadMenuIndirect","winuser/LoadMenuIndirectA","winuser/LoadMenuIndirectW"]
+description: Loads the specified menu template in memory. (ANSI)
+helpviewer_keywords: ["LoadMenuIndirectA", "winuser/LoadMenuIndirectA"]
 old-location: menurc\loadmenuindirect.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\loadmenuindirect.htm
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-menu-l1-1-3.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - ext-ms-win-ntuser-menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-0.dll
  - User32.dll
 api_name:
  - LoadMenuIndirect
@@ -79,7 +83,7 @@ For both the ANSI and the Unicode version of this function, the strings in the <
 
 
 > [!NOTE]
-> The winuser.h header defines LoadMenuIndirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines LoadMenuIndirect as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

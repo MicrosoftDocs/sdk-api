@@ -1,7 +1,7 @@
 ---
 UID: NF:jobapi2.CreateJobObjectW
 title: CreateJobObjectW function (jobapi2.h)
-description: Creates or opens a job object.
+description: Creates or opens a job object. (CreateJobObjectW)
 helpviewer_keywords: ["CreateJobObject","CreateJobObject function","CreateJobObjectA","CreateJobObjectW","_win32_createjobobject","base.createjobobject","winbase/CreateJobObject","winbase/CreateJobObjectA","winbase/CreateJobObjectW"]
 old-location: base\createjobobject.htm
 tech.root: backup
@@ -63,7 +63,7 @@ Creates or opens a job object.
 ### -param lpJobAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies the security descriptor for the job object and determines whether child processes can inherit the returned handle. If <i>lpJobAttributes</i> is <b>NULL</b>, the job object gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a job object come from the primary or impersonation token of the creator.
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies the security descriptor for the job object and determines whether child processes can inherit the returned handle. If <i>lpJobAttributes</i> is <b>NULL</b>, the job object gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a job object come from the primary or impersonation token of the creator.
 
 ### -param lpName [in, optional]
 
@@ -128,7 +128,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

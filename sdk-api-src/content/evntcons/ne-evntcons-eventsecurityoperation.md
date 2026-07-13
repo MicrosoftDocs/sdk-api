@@ -1,5 +1,5 @@
 ---
-UID: NE:evntcons.__unnamed_enum_1
+UID: NE:evntcons.EVENTSECURITYOPERATION
 title: EVENTSECURITYOPERATION (evntcons.h)
 description: Defines what component of the security descriptor that the EventAccessControl function modifies.
 helpviewer_keywords: ["EVENTSECURITYOPERATION","EVENTSECURITYOPERATION enumeration [ETW]","EventSecurityAddDACL","EventSecurityAddSACL","EventSecurityMax","EventSecuritySetDACL","EventSecuritySetSACL","base.eventsecurityoperation","etw.eventsecurityoperation","evntcons/EVENTSECURITYOPERATION","evntcons/EventSecurityAddDACL","evntcons/EventSecurityAddSACL","evntcons/EventSecurityMax","evntcons/EventSecuritySetDACL","evntcons/EventSecuritySetSACL"]
@@ -45,7 +45,7 @@ api_name:
  - EVENTSECURITYOPERATION
 ---
 
-# EVENTSECURITYOPERATION enumeration
+# EVENTSECURITYOPERATION enumeration (evntcons.h)
 
 
 ## -description
@@ -81,3 +81,4 @@ For information on DACLs and SACLs, see <a href="/windows/desktop/SecAuthZ/acces
 ## -see-also
 
 <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>
+

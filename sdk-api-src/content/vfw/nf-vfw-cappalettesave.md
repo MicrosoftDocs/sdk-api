@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capPaletteSave","capPaletteSave","capPaletteSave m
 old-location: multimedia\cappalettesave.htm
 tech.root: Multimedia
 ms.assetid: 11309b32-bc42-41fd-a0cd-e356caade849
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capPaletteSave, capPaletteSave, capPaletteSave macro [Windows Multimedia], multimedia.cappalettesave, vfw/capPaletteSave
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capPaletteSave macro
+
+## -syntax
+
+```cpp
+BOOL capPaletteSave(
+     hwnd,
+     szName
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.If an error occurs and an error callback function is set using the **capSetCallbackOnError** macro, the error callback function is called.
 
 
 ## -description

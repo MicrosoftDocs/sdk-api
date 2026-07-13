@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_ConnectClientDrivesAtLogon
 title: IADsTSUserEx::put_ConnectClientDrivesAtLogon (tsuserex.h)
-description: A value that specifies if mapped client drives should be reconnected when a Remote Desktop Services session is started.
+description: A value that specifies if mapped client drives should be reconnected when a Remote Desktop Services session is started. (Put)
 helpviewer_keywords: ["ConnectClientDrivesAtLogon property [Remote Desktop Services]","ConnectClientDrivesAtLogon property [Remote Desktop Services]","IADsTSUserEx interface","IADsTSUserEx interface [Remote Desktop Services]","ConnectClientDrivesAtLogon property","IADsTSUserEx.ConnectClientDrivesAtLogon","IADsTSUserEx.put_ConnectClientDrivesAtLogon","IADsTSUserEx::ConnectClientDrivesAtLogon","IADsTSUserEx::get_ConnectClientDrivesAtLogon","IADsTSUserEx::put_ConnectClientDrivesAtLogon","put_ConnectClientDrivesAtLogon","termserv.iadstsuserex_connectclientdrivesatlogon","tsuserex/IADsTSUserEx::ConnectClientDrivesAtLogon","tsuserex/IADsTSUserEx::get_ConnectClientDrivesAtLogon","tsuserex/IADsTSUserEx::put_ConnectClientDrivesAtLogon"]
 old-location: termserv\iadstsuserex_connectclientdrivesatlogon.htm
 tech.root: TermServ

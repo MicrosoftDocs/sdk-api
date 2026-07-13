@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_Enabled
 title: IInkEdit::get_Enabled (inked.h)
-description: Gets or sets a value that determines whether the InkEdit control can respond to user-generated events.
+description: Gets or sets a value that determines whether the InkEdit control can respond to user-generated events. (Get)
 helpviewer_keywords: ["Enabled property [Tablet PC]","Enabled property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","Enabled property","IInkEdit.Enabled","IInkEdit.get_Enabled","IInkEdit::Enabled","IInkEdit::get_Enabled","IInkEdit::put_Enabled","InkEdit.get_Enabled","InkEdit.put_Enabled","get_Enabled","inked/IInkEdit::Enabled","inked/IInkEdit::get_Enabled","inked/IInkEdit::put_Enabled","put_Enabled","tablet.inkedit_enabled"]
 old-location: tablet\inkedit_enabled.htm
 tech.root: tablet
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkEd.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -68,7 +68,7 @@ The <b>Enabled</b> property allows objects to be enabled or disabled at run time
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

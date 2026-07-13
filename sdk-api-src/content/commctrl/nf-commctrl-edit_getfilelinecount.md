@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetFileLineCount","Edit_GetFileLineCount macro [Wind
 old-location: controls\edit_getfilelinecount.htm
 tech.root: Controls
 ms.assetid: FEE1018B-AE00-4934-9C64-AB7A679E6A8C
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetFileLineCount, Edit_GetFileLineCount macro [Windows Controls], commctrl/Edit_GetFileLineCount, controls.edit_getfilelinecount
 req.header: commctrl.h
 req.include-header: 
@@ -47,10 +47,18 @@ api_name:
 
 # Edit_GetFileLineCount macro
 
+## -syntax
+
+```cpp
+void Edit_GetFileLineCount(
+    HWND hwndCtl
+);
+```
+
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Gets the number of file (or logical) lines (text wrap delimiters are ignored). You can use this macro or send the <a href="/windows/desktop/controls/em-getfilelinecount">EM_GETFILELINECOUNT</a> message explicitly.
 

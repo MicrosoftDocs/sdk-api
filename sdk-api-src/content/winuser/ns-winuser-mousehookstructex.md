@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>. 
+Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="/windows/win32/winmsg/mouseproc">MouseProc</a>. 
 
 This is an extension of the <a href="/windows/desktop/api/winuser/ns-winuser-mousehookstruct">MOUSEHOOKSTRUCT</a> structure that includes information about wheel movement or the use of the X button.
 
@@ -119,7 +119,7 @@ The members of a <a href="/windows/desktop/api/winuser/ns-winuser-mousehookstruc
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
+<a href="/windows/win32/winmsg/mouseproc">MouseProc</a>
 
 
 

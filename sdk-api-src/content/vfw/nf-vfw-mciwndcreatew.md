@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.MCIWndCreateW
 title: MCIWndCreateW function (vfw.h)
-description: The MCIWndCreate function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. MCIWndCreate can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window.
-helpviewer_keywords: ["MCIWndCreate","MCIWndCreate function [Windows Multimedia]","MCIWndCreateA","MCIWndCreateW","_win32_MCIWndCreate","multimedia.mciwndcreate","vfw/MCIWndCreate","vfw/MCIWndCreateA","vfw/MCIWndCreateW"]
+description: The MCIWndCreate function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. MCIWndCreate can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window. (Unicode)
+helpviewer_keywords: ["MCIWndCreate", "MCIWndCreate function [Windows Multimedia]", "MCIWndCreateW", "_win32_MCIWndCreate", "multimedia.mciwndcreate", "vfw/MCIWndCreate", "vfw/MCIWndCreateW"]
 old-location: multimedia\mciwndcreate.htm
 tech.root: Multimedia
 ms.assetid: 7a4a22e1-6b04-4d46-8427-738181769f5b
@@ -170,7 +170,7 @@ Use the window handle returned by this function for the window handle in the MCI
 
 
 > [!NOTE]
-> The vfw.h header defines MCIWndCreate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines MCIWndCreate as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

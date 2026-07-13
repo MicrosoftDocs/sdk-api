@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the input trust authority (ITA) for a specified stream.
+Retrieves the input trust authority (ITA) for a specified stream.  If the specified stream is not protected, this method must return MF_E_NOT_PROTECTED.
 
 ## -parameters
 
@@ -95,6 +95,17 @@ The method succeeded.
 </td>
 <td width="60%">
 The ITA does not expose the requested interface.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_NOT_PROTECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified stream is not protected.
 
 </td>
 </tr>

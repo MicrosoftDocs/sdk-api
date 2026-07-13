@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcProtseqVectorFreeW
 title: RpcProtseqVectorFreeW function (rpcdce.h)
-description: The RpcProtseqVectorFree function frees the protocol sequences contained in the vector and the vector itself.
-helpviewer_keywords: ["RpcProtseqVectorFree","RpcProtseqVectorFree function [RPC]","RpcProtseqVectorFreeA","RpcProtseqVectorFreeW","_rpc_rpcprotseqvectorfree","rpc.rpcprotseqvectorfree","rpcdce/RpcProtseqVectorFree","rpcdce/RpcProtseqVectorFreeA","rpcdce/RpcProtseqVectorFreeW"]
+description: The RpcProtseqVectorFreeW (Unicode) function (rpcdce.h) frees the protocol sequences contained in the vector and the vector itself.
+helpviewer_keywords: ["RpcProtseqVectorFree", "RpcProtseqVectorFree function [RPC]", "RpcProtseqVectorFreeW", "_rpc_rpcprotseqvectorfree", "rpc.rpcprotseqvectorfree", "rpcdce/RpcProtseqVectorFree", "rpcdce/RpcProtseqVectorFreeW"]
 old-location: rpc\rpcprotseqvectorfree.htm
 tech.root: Rpc
 ms.assetid: 6f399600-0534-44cc-b179-d3bc7bee091d
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcProtseqVectorFree, RpcProtseqVectorFree function [RPC], RpcProtseqVectorFreeA, RpcProtseqVectorFreeW, _rpc_rpcprotseqvectorfree, rpc.rpcprotseqvectorfree, rpcdce/RpcProtseqVectorFree, rpcdce/RpcProtseqVectorFreeA, rpcdce/RpcProtseqVectorFreeW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -105,7 +105,7 @@ A server obtains a vector of protocol sequences by calling
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcProtseqVectorFree as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcProtseqVectorFree as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

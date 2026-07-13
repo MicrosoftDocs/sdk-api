@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_NetworkProfile
 title: IWdsTransportServicePolicy::get_NetworkProfile (wdstptmgmt.h)
-description: Enables a client computer to configure the network profile that is used by the WDS Transport Server.
+description: Enables a client computer to configure the network profile that is used by the WDS Transport Server. (Get)
 helpviewer_keywords: ["IWdsTransportServicePolicy interface [Windows Deployment Services]","NetworkProfile property","IWdsTransportServicePolicy.NetworkProfile","IWdsTransportServicePolicy.get_NetworkProfile","IWdsTransportServicePolicy::NetworkProfile","IWdsTransportServicePolicy::get_NetworkProfile","IWdsTransportServicePolicy::put_NetworkProfile","NetworkProfile property [Windows Deployment Services]","NetworkProfile property [Windows Deployment Services]","IWdsTransportServicePolicy interface","get_NetworkProfile","wds.iwdstransportservicepolicy_networkprofile","wdstptmgmt/IWdsTransportServicePolicy::NetworkProfile","wdstptmgmt/IWdsTransportServicePolicy::get_NetworkProfile","wdstptmgmt/IWdsTransportServicePolicy::put_NetworkProfile"]
 old-location: wds\iwdstransportservicepolicy_networkprofile.htm
 tech.root: wds

@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the status on whether TLS secure sessions are enabled for this address.
 
-## -parameters
+
 
 ## -returns
 

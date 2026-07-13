@@ -152,7 +152,7 @@ SI_EDIT_OWNER, and SI_EDIT_AUDITS flags.
 </dl>
 </td>
 <td width="60%">
-If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an <a href="/windows/desktop/SecAuthZ/auditing-property-page">Auditing property page</a>for editing the object's SACL. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
+If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an <a href="/windows/desktop/SecAuthZ/auditing-property-page">Auditing property page</a> for editing the object's SACL. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ If this flag is set and the user clicks the <b>Advanced</b> button, the system d
 </td>
 <td width="60%">
 If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an 
-<a href="/windows/desktop/SecAuthZ/owner-property-page">Owner property page</a>for changing the object's owner. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
+<a href="/windows/desktop/SecAuthZ/owner-property-page">Owner property page</a> for changing the object's owner. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
 
 </td>
 </tr>

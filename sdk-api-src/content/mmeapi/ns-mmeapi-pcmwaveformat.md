@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPPCMWAVEFORMAT","*NPPCMWAVEFORMAT","*PPCMWAVEFORMAT","P
 old-location: multimedia\pcmwaveformat.htm
 tech.root: Multimedia
 ms.assetid: c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT, PCMWAVEFORMAT structure [Windows Multimedia], _win32_PCMWAVEFORMAT_str, mmeapi/PCMWAVEFORMAT, multimedia.pcmwaveformat, pcmwaveformat_tag'
 req.header: mmeapi.h
 req.include-header: Mmreg.h, Windows.h

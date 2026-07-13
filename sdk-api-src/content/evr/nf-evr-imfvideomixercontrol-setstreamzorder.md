@@ -4,7 +4,7 @@ title: IMFVideoMixerControl::SetStreamZOrder (evr.h)
 description: Sets the z-order of a video stream.
 helpviewer_keywords: ["6187724a-6345-4feb-90a0-097b6d21180f","IMFVideoMixerControl interface [Media Foundation]","SetStreamZOrder method","IMFVideoMixerControl.SetStreamZOrder","IMFVideoMixerControl::SetStreamZOrder","SetStreamZOrder","SetStreamZOrder method [Media Foundation]","SetStreamZOrder method [Media Foundation]","IMFVideoMixerControl interface","evr/IMFVideoMixerControl::SetStreamZOrder","mf.imfvideomixercontrol_setstreamzorder"]
 old-location: mf\imfvideomixercontrol_setstreamzorder.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 6187724a-6345-4feb-90a0-097b6d21180f
 ms.date: 12/05/2018
 ms.keywords: 6187724a-6345-4feb-90a0-097b6d21180f, IMFVideoMixerControl interface [Media Foundation],SetStreamZOrder method, IMFVideoMixerControl.SetStreamZOrder, IMFVideoMixerControl::SetStreamZOrder, SetStreamZOrder, SetStreamZOrder method [Media Foundation], SetStreamZOrder method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamZOrder, mf.imfvideomixercontrol_setstreamzorder
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoMixerControl.SetStreamZOrder
+archived: true
 ---
 
 # IMFVideoMixerControl::SetStreamZOrder
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets the z-order of a video stream.
 

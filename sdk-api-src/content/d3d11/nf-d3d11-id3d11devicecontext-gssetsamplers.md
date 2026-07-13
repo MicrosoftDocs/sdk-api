@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSSetSamplers
 title: ID3D11DeviceContext::GSSetSamplers (d3d11.h)
-description: Set an array of sampler states to the geometry shader pipeline stage.
+description: Set an array of sampler states to the geometry shader pipeline stage. (ID3D11DeviceContext.GSSetSamplers)
 helpviewer_keywords: ["87e3b7dd-7f6c-9d28-cac9-47363e4c5207","GSSetSamplers","GSSetSamplers method [Direct3D 11]","GSSetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSSetSamplers method","ID3D11DeviceContext.GSSetSamplers","ID3D11DeviceContext::GSSetSamplers","d3d11/ID3D11DeviceContext::GSSetSamplers","direct3d11.id3d11devicecontext_gssetsamplers"]
 old-location: direct3d11\id3d11devicecontext_gssetsamplers.htm
 tech.root: direct3d11

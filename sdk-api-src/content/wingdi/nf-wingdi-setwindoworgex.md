@@ -72,7 +72,7 @@ The y-coordinate, in logical units, of the new window origin.
 
 ### -param lppt [out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous origin of the window, in logical units. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the previous origin of the window, in logical units. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
 
 ## -returns
 
@@ -113,7 +113,7 @@ This is related to the <a href="/windows/desktop/api/wingdi/nf-wingdi-setviewpor
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.RegisterServiceCtrlHandlerW
 title: RegisterServiceCtrlHandlerW function (winsvc.h)
-description: Registers a function to handle service control requests.
-helpviewer_keywords: ["RegisterServiceCtrlHandler","RegisterServiceCtrlHandler function","RegisterServiceCtrlHandlerA","RegisterServiceCtrlHandlerW","_win32_registerservicectrlhandler","base.registerservicectrlhandler","winsvc/RegisterServiceCtrlHandler","winsvc/RegisterServiceCtrlHandlerA","winsvc/RegisterServiceCtrlHandlerW"]
+description: Registers a function to handle service control requests. (Unicode)
+helpviewer_keywords: ["RegisterServiceCtrlHandler", "RegisterServiceCtrlHandler function", "RegisterServiceCtrlHandlerW", "_win32_registerservicectrlhandler", "base.registerservicectrlhandler", "winsvc/RegisterServiceCtrlHandler", "winsvc/RegisterServiceCtrlHandlerW"]
 old-location: base\registerservicectrlhandler.htm
 tech.root: security
 ms.assetid: 31ec28fe-8774-48fc-91ba-6fa43108e2cc
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - sechost.dll
@@ -146,7 +147,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winsvc.h header defines RegisterServiceCtrlHandler as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines RegisterServiceCtrlHandler as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

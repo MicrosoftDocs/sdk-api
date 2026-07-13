@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get__NewEnum
 title: IWindowsDriverUpdateEntryCollection::get__NewEnum (wuapi.h)
-description: Gets an IEnumVARIANT interface that is used to enumerate the collection.
+description: Gets an IEnumVARIANT interface that is used to enumerate the collection. (IWindowsDriverUpdateEntryCollection.get__NewEnum)
 helpviewer_keywords: ["IWindowsDriverUpdateEntryCollection interface [Windows Update Agent]","_NewEnum property","IWindowsDriverUpdateEntryCollection._NewEnum","IWindowsDriverUpdateEntryCollection.get__NewEnum","IWindowsDriverUpdateEntryCollection::_NewEnum","IWindowsDriverUpdateEntryCollection::get__NewEnum","_NewEnum property [Windows Update Agent]","_NewEnum property [Windows Update Agent]","IWindowsDriverUpdateEntryCollection interface","get__NewEnum","wua.iwindowsdriverupdateentrycollection__newenum","wuapi/IWindowsDriverUpdateEntryCollection::_NewEnum","wuapi/IWindowsDriverUpdateEntryCollection::get__NewEnum"]
 old-location: wua\iwindowsdriverupdateentrycollection__newenum.htm
 tech.root: wua

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetTileInfo","ListView_GetTileInfo macro [Window
 old-location: controls\ListView_GetTileInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettileinfo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetTileInfo, ListView_GetTileInfo macro [Windows Controls], _win32_ListView_GetTileInfo, _win32_ListView_GetTileInfo_cpp, commctrl/ListView_GetTileInfo, controls.ListView_GetTileInfo, controls._win32_ListView_GetTileInfo
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # ListView_GetTileInfo macro
+
+## -syntax
+
+```cpp
+void ListView_GetTileInfo(
+   HWND        hwnd,
+   PLVTILEINFO pti
+);
+```
 
 
 ## -description

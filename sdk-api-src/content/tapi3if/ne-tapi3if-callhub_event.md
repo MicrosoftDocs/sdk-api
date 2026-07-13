@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field CHE_CALLJOIN
+### -field CHE_CALLJOIN:0
 
 A new call has joined the CallHub.
 

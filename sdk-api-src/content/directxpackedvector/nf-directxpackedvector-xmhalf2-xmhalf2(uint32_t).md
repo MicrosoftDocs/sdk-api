@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.XMHALF2(uint32_t)
 title: XMHALF2::XMHALF2(uint32_t) (directxpackedvector.h)
-description: A constructor for XMHALF2.
+description: A constructor for XMHALF2. (overload 3/3)
 helpviewer_keywords: ["XMHALF2","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 structure","XMHALF2 structure [DirectX Math Support APIs]","XMHALF2 constructor","XMHALF2.XMHALF2","XMHALF2.XMHALF2()","XMHALF2.XMHALF2(uint32_t)","XMHALF2::XMHALF2","XMHALF2::XMHALF2(uint32_t)","dxmath.xmhalf2_ctor_1"]
 old-location: dxmath\xmhalf2_ctor_1.htm
 tech.root: dxmath

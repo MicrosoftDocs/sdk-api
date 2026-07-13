@@ -56,7 +56,7 @@ api_name:
 
 Gets a value that indicates whether any client application is subscribed to Microsoft UI Automation events.
 
-## -parameters
+
 
 ## -returns
 

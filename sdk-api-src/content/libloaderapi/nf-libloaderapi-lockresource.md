@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-libraryloader-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
  - KernelBase.dll

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_currentPl
 old-location: wmp\iwmpcore_get_currentplaylist.htm
 tech.root: WMP
 ms.assetid: bb923325-67d2-4d73-b7ec-49e9b52cabba
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCore interface [Windows Media Player],get_currentPlaylist method, IWMPCore.get_currentPlaylist, IWMPCore::get_currentPlaylist, IWMPCoreget_currentPlaylist, IWMPPlayer4.get_currentPlaylist, get_currentPlaylist, get_currentPlaylist method [Windows Media Player], get_currentPlaylist method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_currentplaylist, wmp/IWMPCore::get_currentPlaylist
 req.header: wmp.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_currentPlaylist</b> method retrieves a pointer to an <b>IWMPPlaylist</b> interface corresponding to the current playlist.
 

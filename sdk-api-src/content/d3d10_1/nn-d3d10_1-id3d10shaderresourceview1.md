@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10_1.ID3D10ShaderResourceView1
 title: ID3D10ShaderResourceView1 (d3d10_1.h)
-description: A shader-resource-view interface specifies the subresources a shader can access during rendering. Examples of shader resources include a constant buffer, a texture buffer, a texture or a sampler.
+description: A shader-resource-view interface specifies the subresources a shader can access during rendering. Examples of shader resources include a constant buffer, a texture buffer, a texture or a sampler. (ID3D10ShaderResourceView1)
 helpviewer_keywords: ["42bd4307-40a4-6b0e-192f-643d483668e8","ID3D10ShaderResourceView1","ID3D10ShaderResourceView1 interface [Direct3D 10]","ID3D10ShaderResourceView1 interface [Direct3D 10]","described","d3d10_1/ID3D10ShaderResourceView1","direct3d10.id3d10shaderresourceview1"]
 old-location: direct3d10\id3d10shaderresourceview1.htm
 tech.root: direct3d10
@@ -55,10 +55,7 @@ A shader-resource-view interface specifies the <a href="/windows/desktop/direct3
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderResourceView1</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">ID3D10ShaderResourceView</a>. <b>ID3D10ShaderResourceView1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10ShaderResourceView1</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview">ID3D10ShaderResourceView</a>. <b>ID3D10ShaderResourceView1</b> also has these types of members:
 
 ## -remarks
 

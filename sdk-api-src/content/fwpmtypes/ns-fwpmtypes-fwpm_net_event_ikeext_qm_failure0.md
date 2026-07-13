@@ -6,7 +6,7 @@ helpviewer_keywords: ["FWPM_NET_EVENT_IKEEXT_QM_FAILURE0","FWPM_NET_EVENT_IKEEXT
 old-location: fwp\fwpm_net_event_ikeext_qm_failure0.htm
 tech.root: fwp
 ms.assetid: a9cffcee-67a2-4a04-9ff1-85e2e02fa9a9
-ms.date: 12/05/2018
+ms.date: 04/25/2024
 ms.keywords: FWPM_NET_EVENT_IKEEXT_QM_FAILURE0, FWPM_NET_EVENT_IKEEXT_QM_FAILURE0 structure [Filtering], fwp.fwpm_net_event_ikeext_qm_failure0, fwpmtypes/FWPM_NET_EVENT_IKEEXT_QM_FAILURE0
 req.header: fwpmtypes.h
 req.include-header: 
@@ -46,9 +46,6 @@ api_location:
 api_name:
  - FWPM_NET_EVENT_IKEEXT_QM_FAILURE0
 ---
-
-# FWPM_NET_EVENT_IKEEXT_QM_FAILURE0 structure
-
 
 ## -description
 
@@ -98,8 +95,8 @@ Quick Mode filter ID.
 
 ## -remarks
 
-<b>FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</b> is a specific implementation of FWPM_NET_EVENT_IKEEXT_QM_FAILURE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+**FWPM_NET_EVENT_IKEEXT_QM_FAILURE0** is a specific implementation of **FWPM_NET_EVENT_IKEEXT_QM_FAILURE**. For more info, see [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/win32/fwp/wfp-version-independent-names-and-targeting-specific-versions-of-windows).
 
 ## -see-also
 
-<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API Structures</a>

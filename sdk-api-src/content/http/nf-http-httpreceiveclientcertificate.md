@@ -188,7 +188,7 @@ The buffer pointed to by the <i>pSslClientCertInfo</i> parameter is too small to
 <td width="60%">
 The buffer pointed to by the <i>pSslClientCertInfo</i> parameter is not large enough to receive all the data. Only the basic structure has been written and only partially populated.
 
-When the <i>Flags</i> parameter is 0, the <a href="/windows/desktop/api/http/ns-http-http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a>structure has been written with the <b>CertEncodedSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of  the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member.
+When the <i>Flags</i> parameter is 0, the <a href="/windows/desktop/api/http/ns-http-http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure has been written with the <b>CertEncodedSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of  the <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure plus the value of the <b>CertEncodedSize</b> member.
 
 When the <i>Flags</i> parameter is <b>HTTP_RECEIVE_SECURE_CHANNEL_TOKEN</b>, the <a href="/windows/desktop/api/http/ns-http-http_request_channel_bind_status">HTTP_REQUEST_CHANNEL_BIND_STATUS</a>  structure has been written with the <b>ChannelTokenSize</b> member populated. The caller should call the function again with a buffer that is at least the size, in bytes, of the <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b>  plus  the value of the <b>ChannelTokenSize</b> member.
 
@@ -220,7 +220,7 @@ A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defi
 
 ## -remarks
 
-The behavior of the <b>HttpReceiveClientCertificate</b> function varies based on whether an client SSL certificate or a channel binding token is requested.
+The behavior of the <b>HttpReceiveClientCertificate</b> function varies based on whether a client SSL certificate or a channel binding token is requested.
 
 In the case of a synchronous call to the <b>HttpReceiveClientCertificate</b> function , the number of bytes received is returned in the value pointed to by the <i>pBytesReceived</i> parameter.
 

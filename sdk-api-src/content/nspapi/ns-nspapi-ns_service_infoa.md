@@ -1,7 +1,7 @@
 ---
 UID: NS:nspapi._NS_SERVICE_INFOA
 title: NS_SERVICE_INFOA (nspapi.h)
-description: Contains information about a network service or a network service type in the context of a specified namespace, or a set of default namespaces.
+description: Contains information about a network service or a network service type in the context of a specified namespace, or a set of default namespaces. (ANSI)
 helpviewer_keywords: ["*LPNS_SERVICE_INFOA","*PNS_SERVICE_INFOA","NS_DEFAULT","NS_DNS","NS_MS","NS_NDS","NS_NETBT","NS_NIS","NS_SAP","NS_SERVICE_INFO","NS_SERVICE_INFO structure [Winsock]","NS_SERVICE_INFOA","NS_SERVICE_INFOW","NS_STDA","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","NS_WINS","NS_X500","_win32_ns_service_info_2","nspapi/NS_SERVICE_INFO","nspapi/NS_SERVICE_INFOA","nspapi/NS_SERVICE_INFOW","winsock.ns_service_info_2"]
 old-location: winsock\ns_service_info_2.htm
 tech.root: WinSock
@@ -213,4 +213,4 @@ A
 ## -remarks
 
 > [!NOTE]
-> The nspapi.h header defines NS_SERVICE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines NS_SERVICE_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

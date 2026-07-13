@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetOutputType","GetOutputType method [DirectShow]","GetOu
 old-location: dshow\imediaobject_getoutputtype.htm
 tech.root: dshow
 ms.assetid: a7652472-4091-4ecf-b623-5c6eb01be44a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetOutputType, GetOutputType method [DirectShow], GetOutputType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputType method, IMediaObject.GetOutputType, IMediaObject::GetOutputType, IMediaObjectGetOutputType, dshow.imediaobject_getoutputtype, mediaobj/IMediaObject::GetOutputType
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetOutputType</code> method retrieves a preferred media type for a specified output stream.
 

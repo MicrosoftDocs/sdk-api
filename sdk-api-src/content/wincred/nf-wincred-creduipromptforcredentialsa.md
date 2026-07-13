@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredUIPromptForCredentialsA
 title: CredUIPromptForCredentialsA function (wincred.h)
-description: Creates and displays a configurable dialog box that accepts credentials information from a user.
-helpviewer_keywords: ["CREDUI_FLAGS_ALWAYS_SHOW_UI","CREDUI_FLAGS_COMPLETE_USERNAME","CREDUI_FLAGS_DO_NOT_PERSIST","CREDUI_FLAGS_EXCLUDE_CERTIFICATES","CREDUI_FLAGS_EXPECT_CONFIRMATION","CREDUI_FLAGS_GENERIC_CREDENTIALS","CREDUI_FLAGS_INCORRECT_PASSWORD","CREDUI_FLAGS_KEEP_USERNAME","CREDUI_FLAGS_PASSWORD_ONLY_OK","CREDUI_FLAGS_PERSIST","CREDUI_FLAGS_REQUEST_ADMINISTRATOR","CREDUI_FLAGS_REQUIRE_CERTIFICATE","CREDUI_FLAGS_REQUIRE_SMARTCARD","CREDUI_FLAGS_SERVER_CREDENTIAL","CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX","CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS","CREDUI_FLAGS_VALIDATE_USERNAME","CredUIPromptForCredentials","CredUIPromptForCredentials function [Security]","CredUIPromptForCredentialsA","CredUIPromptForCredentialsW","_cred_creduipromptforcredentials","security.creduipromptforcredentials","wincred/CredUIPromptForCredentials","wincred/CredUIPromptForCredentialsA","wincred/CredUIPromptForCredentialsW"]
+description: Creates and displays a configurable dialog box that accepts credentials information from a user. (ANSI)
+helpviewer_keywords: ["CREDUI_FLAGS_ALWAYS_SHOW_UI", "CREDUI_FLAGS_COMPLETE_USERNAME", "CREDUI_FLAGS_DO_NOT_PERSIST", "CREDUI_FLAGS_EXCLUDE_CERTIFICATES", "CREDUI_FLAGS_EXPECT_CONFIRMATION", "CREDUI_FLAGS_GENERIC_CREDENTIALS", "CREDUI_FLAGS_INCORRECT_PASSWORD", "CREDUI_FLAGS_KEEP_USERNAME", "CREDUI_FLAGS_PASSWORD_ONLY_OK", "CREDUI_FLAGS_PERSIST", "CREDUI_FLAGS_REQUEST_ADMINISTRATOR", "CREDUI_FLAGS_REQUIRE_CERTIFICATE", "CREDUI_FLAGS_REQUIRE_SMARTCARD", "CREDUI_FLAGS_SERVER_CREDENTIAL", "CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX", "CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS", "CREDUI_FLAGS_VALIDATE_USERNAME", "CredUIPromptForCredentialsA", "wincred/CredUIPromptForCredentialsA"]
 old-location: security\creduipromptforcredentials.htm
 tech.root: security
 ms.assetid: 97a8e750-3e63-4e6f-a875-1e5c49c30dd4
@@ -286,7 +286,7 @@ Populate the combo box with certificates or smart cards only. Do not allow a use
 <tr>
 <td width="40%"><a id="CREDUI_FLAGS_SERVER_CREDENTIAL"></a><a id="credui_flags_server_credential"></a><dl>
 <dt><b>CREDUI_FLAGS_SERVER_CREDENTIAL</b></dt>
-<dt>)X04000</dt>
+<dt>0x04000</dt>
 </dl>
 </td>
 <td width="60%">
@@ -453,7 +453,7 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 
 > [!NOTE]
-> The wincred.h header defines CredUIPromptForCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredUIPromptForCredentials as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

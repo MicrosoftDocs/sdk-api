@@ -2,12 +2,12 @@
 UID: NE:http._HTTP_DATA_CHUNK_TYPE
 title: HTTP_DATA_CHUNK_TYPE (http.h)
 description: Defines the data source for a data chunk.
-helpviewer_keywords: ["*PHTTP_DATA_CHUNK_TYPE","HTTP_DATA_CHUNK_TYPE","HTTP_DATA_CHUNK_TYPE enumeration [HTTP]","HttpDataChunkFromFileHandle","HttpDataChunkFromFragmentCache","HttpDataChunkFromFragmentCacheEx","HttpDataChunkFromMemory","http.http_data_chunk_type","http/HTTP_DATA_CHUNK_TYPE","http/HttpDataChunkFromFileHandle","http/HttpDataChunkFromFragmentCache","http/HttpDataChunkFromFragmentCacheEx","http/HttpDataChunkFromMemory"]
+helpviewer_keywords: ["*PHTTP_DATA_CHUNK_TYPE","HTTP_DATA_CHUNK_TYPE","HTTP_DATA_CHUNK_TYPE enumeration [HTTP]","HttpDataChunkFromFileHandle","HttpDataChunkFromFragmentCache","HttpDataChunkFromFragmentCacheEx","HttpDataChunkFromMemory","HttpDataChunkTrailers","http.http_data_chunk_type","http/HTTP_DATA_CHUNK_TYPE","http/HttpDataChunkFromFileHandle","http/HttpDataChunkFromFragmentCache","http/HttpDataChunkFromFragmentCacheEx","http/HttpDataChunkFromMemory","http/HttpDataChunkTrailers"]
 old-location: http\http_data_chunk_type.htm
 tech.root: http
 ms.assetid: fbb04b0a-df1a-409d-aadc-c06b816924c5
 ms.date: 12/05/2018
-ms.keywords: '*PHTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE enumeration [HTTP], HttpDataChunkFromFileHandle, HttpDataChunkFromFragmentCache, HttpDataChunkFromFragmentCacheEx, HttpDataChunkFromMemory, http.http_data_chunk_type, http/HTTP_DATA_CHUNK_TYPE, http/HttpDataChunkFromFileHandle, http/HttpDataChunkFromFragmentCache, http/HttpDataChunkFromFragmentCacheEx, http/HttpDataChunkFromMemory'
+ms.keywords: '*PHTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE enumeration [HTTP], HttpDataChunkFromFileHandle, HttpDataChunkFromFragmentCache, HttpDataChunkFromFragmentCacheEx, HttpDataChunkFromMemory, HttpDataChunkTrailers, http.http_data_chunk_type, http/HTTP_DATA_CHUNK_TYPE, http/HttpDataChunkFromFileHandle, http/HttpDataChunkFromFragmentCache, http/HttpDataChunkFromFragmentCacheEx, http/HttpDataChunkFromMemory, http/HttpDataChunkTrailers'
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -49,13 +49,9 @@ api_name:
  - HTTP_DATA_CHUNK_TYPE
 ---
 
-# HTTP_DATA_CHUNK_TYPE enumeration
-
-
 ## -description
 
-The 
-<a href="/windows/desktop/api/http/ne-http-http_cache_policy_type">HTTP_DATA_CHUNK_TYPE</a> enumeration type defines the data source for a data chunk.
+Defines the data source for a data chunk.
 
 ## -enum-fields
 
@@ -76,5 +72,11 @@ The data source is a fragment cache data block. The union should be interpreted 
 The data source is a fragment cache data block. The union should be interpreted as a <b>FromFragmentCacheEx</b> structure.
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>This flag is not supported.
+
+### -field HttpDataChunkTrailers
+
+The data source is a trailers data block. The union should be interpreted as a <b>Trailers</b> structure.
+
+<b>Windows 10, version 2004 and prior:  </b>This flag is not supported.
 
 ### -field HttpDataChunkMaximum

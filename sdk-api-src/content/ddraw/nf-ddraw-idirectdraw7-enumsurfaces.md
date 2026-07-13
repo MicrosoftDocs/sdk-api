@@ -129,7 +129,7 @@ This method differs from its counterparts in previous interface versions in that
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IDirectDraw7::EnumSurfaces</b> method.
+
 
 ## -see-also
 

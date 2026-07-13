@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_DEVINFO_LIST_DETAIL_DATA_A
 title: SP_DEVINFO_LIST_DETAIL_DATA_A (setupapi.h)
-description: An SP_DEVINFO_LIST_DETAIL_DATA structure contains information about a device information set, such as its associated setup class GUID (if it has an associated setup class).
+description: An SP_DEVINFO_LIST_DETAIL_DATA structure contains information about a device information set, such as its associated setup class GUID (if it has an associated setup class). (ANSI)
 helpviewer_keywords: ["*PSP_DEVINFO_LIST_DETAIL_DATA_A","PSP_DEVINFO_LIST_DETAIL_DATA","PSP_DEVINFO_LIST_DETAIL_DATA structure pointer [Device and Driver Installation]","SP_DEVINFO_LIST_DETAIL_DATA","SP_DEVINFO_LIST_DETAIL_DATA structure [Device and Driver Installation]","SP_DEVINFO_LIST_DETAIL_DATA_A","devinst.sp_devinfo_list_detail_data","di-struct_8539bcfc-25ee-49f5-bc59-74efc6aae5bf.xml","setupapi/PSP_DEVINFO_LIST_DETAIL_DATA","setupapi/SP_DEVINFO_LIST_DETAIL_DATA"]
 old-location: devinst\sp_devinfo_list_detail_data.htm
 tech.root: devinst
@@ -84,4 +84,4 @@ A NULL-terminated string that contains the name of the remote computer. If the d
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SP_DEVINFO_LIST_DETAIL_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SP_DEVINFO_LIST_DETAIL_DATA as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

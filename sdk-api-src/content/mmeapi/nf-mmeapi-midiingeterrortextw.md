@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiInGetErrorTextW
 title: midiInGetErrorTextW function (mmeapi.h)
-description: The midiInGetErrorText function retrieves a textual description for an error identified by the specified error code.
-helpviewer_keywords: ["_win32_midiInGetErrorText","midiInGetErrorText","midiInGetErrorText function [Windows Multimedia]","midiInGetErrorTextA","midiInGetErrorTextW","mmeapi/midiInGetErrorText","mmeapi/midiInGetErrorTextA","mmeapi/midiInGetErrorTextW","multimedia.midiingeterrortext"]
+description: The midiInGetErrorTextW (Unicode) function (mmeapi.h) retrieves a textual description for an error identified by the specified error code. 
+helpviewer_keywords: ["_win32_midiInGetErrorText", "midiInGetErrorText", "midiInGetErrorText function [Windows Multimedia]", "midiInGetErrorTextW", "mmeapi/midiInGetErrorText", "mmeapi/midiInGetErrorTextW", "multimedia.midiingeterrortext"]
 old-location: multimedia\midiingeterrortext.htm
 tech.root: Multimedia
 ms.assetid: 0e653d6d-4d34-45c0-8ec9-975b885a5ef8
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: _win32_midiInGetErrorText, midiInGetErrorText, midiInGetErrorText function [Windows Multimedia], midiInGetErrorTextA, midiInGetErrorTextW, mmeapi/midiInGetErrorText, mmeapi/midiInGetErrorTextA, mmeapi/midiInGetErrorTextW, multimedia.midiingeterrortext
 req.header: mmeapi.h
 req.include-header: Windows.h
@@ -123,7 +123,7 @@ If the textual error description is longer than the specified buffer, the descri
 
 
 > [!NOTE]
-> The mmeapi.h header defines midiInGetErrorText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines midiInGetErrorText as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

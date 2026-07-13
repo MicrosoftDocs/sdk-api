@@ -6,7 +6,7 @@ helpviewer_keywords: ["IsReparseTagNameSurrogate","IsReparseTagNameSurrogate mac
 old-location: fs\isreparsetagnamesurrogate.htm
 tech.root: fs
 ms.assetid: 6d79527a-0c78-42d2-b079-3eb487de295f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate macro [Files], _win32_isreparsetagnamesurrogate, base.isreparsetagnamesurrogate, fs.isreparsetagnamesurrogate, winnt/IsReparseTagNameSurrogate
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # IsReparseTagNameSurrogate macro
+
+## -syntax
+
+```cpp
+ULONG IsReparseTagNameSurrogate(
+    ULONG _tag
+);
+```
+
+## -returns
+
+Type: **ULONG**
+
+A nonzero return value means that the tag indicates a surrogate reparse point. A zero return value means that the tag does not indicate a surrogate reparse point.
 
 
 ## -description

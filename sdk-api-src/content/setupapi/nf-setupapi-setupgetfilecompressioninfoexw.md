@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetFileCompressionInfoExW
 title: SetupGetFileCompressionInfoExW function (setupapi.h)
-description: The SetupGetFileCompressionInfoEx function examines a potentially compressed file and gets the type of compression, the file's full path (including file name), the compressed size, and the size of the uncompressed target file.
-helpviewer_keywords: ["SetupGetFileCompressionInfoEx","SetupGetFileCompressionInfoEx function [Setup API]","SetupGetFileCompressionInfoExA","SetupGetFileCompressionInfoExW","_setupapi_setupgetfilecompressioninfoex","setup.setupgetfilecompressioninfoex","setupapi/SetupGetFileCompressionInfoEx","setupapi/SetupGetFileCompressionInfoExA","setupapi/SetupGetFileCompressionInfoExW"]
+description: The SetupGetFileCompressionInfoEx function examines a potentially compressed file and gets the type of compression, the file's full path (including file name), the compressed size, and the size of the uncompressed target file. (Unicode)
+helpviewer_keywords: ["SetupGetFileCompressionInfoEx", "SetupGetFileCompressionInfoEx function [Setup API]", "SetupGetFileCompressionInfoExW", "_setupapi_setupgetfilecompressioninfoex", "setup.setupgetfilecompressioninfoex", "setupapi/SetupGetFileCompressionInfoEx", "setupapi/SetupGetFileCompressionInfoExW"]
 old-location: setup\setupgetfilecompressioninfoex.htm
 tech.root: setup
 ms.assetid: e6f01e02-ea39-4b25-bcc0-2aee941c7834
@@ -147,7 +147,7 @@ Because
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetFileCompressionInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetFileCompressionInfoEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

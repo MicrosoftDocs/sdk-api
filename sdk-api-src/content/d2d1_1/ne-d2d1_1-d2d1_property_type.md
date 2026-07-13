@@ -54,83 +54,83 @@ Specifies the types of properties supported by the Direct2D property interface.
 
 ## -enum-fields
 
-### -field D2D1_PROPERTY_TYPE_UNKNOWN
+### -field D2D1_PROPERTY_TYPE_UNKNOWN:0
 
 An unknown property.
 
-### -field D2D1_PROPERTY_TYPE_STRING
+### -field D2D1_PROPERTY_TYPE_STRING:1
 
 An arbitrary-length string.
 
-### -field D2D1_PROPERTY_TYPE_BOOL
+### -field D2D1_PROPERTY_TYPE_BOOL:2
 
 A 32-bit integer value constrained to be either 0 or 1.
 
-### -field D2D1_PROPERTY_TYPE_UINT32
+### -field D2D1_PROPERTY_TYPE_UINT32:3
 
 An unsigned 32-bit integer.
 
-### -field D2D1_PROPERTY_TYPE_INT32
+### -field D2D1_PROPERTY_TYPE_INT32:4
 
 A signed 32-bit integer.
 
-### -field D2D1_PROPERTY_TYPE_FLOAT
+### -field D2D1_PROPERTY_TYPE_FLOAT:5
 
 A 32-bit float.
 
-### -field D2D1_PROPERTY_TYPE_VECTOR2
+### -field D2D1_PROPERTY_TYPE_VECTOR2:6
 
 Two 32-bit float values.
 
-### -field D2D1_PROPERTY_TYPE_VECTOR3
+### -field D2D1_PROPERTY_TYPE_VECTOR3:7
 
  Three 32-bit float values.
 
-### -field D2D1_PROPERTY_TYPE_VECTOR4
+### -field D2D1_PROPERTY_TYPE_VECTOR4:8
 
 Four 32-bit float values.
 
-### -field D2D1_PROPERTY_TYPE_BLOB
+### -field D2D1_PROPERTY_TYPE_BLOB:9
 
 An arbitrary number of bytes.
 
-### -field D2D1_PROPERTY_TYPE_IUNKNOWN
+### -field D2D1_PROPERTY_TYPE_IUNKNOWN:10
 
 A returned COM or nano-COM interface.
 
-### -field D2D1_PROPERTY_TYPE_ENUM
+### -field D2D1_PROPERTY_TYPE_ENUM:11
 
 An enumeration. The value should be treated as a <b>UINT32</b> with a defined array of fields to specify the bindings to human-readable strings.
 
-### -field D2D1_PROPERTY_TYPE_ARRAY
+### -field D2D1_PROPERTY_TYPE_ARRAY:12
 
 An enumeration. The value is the count of sub-properties in the array. The set of array elements will be contained in the sub-property.
 
-### -field D2D1_PROPERTY_TYPE_CLSID
+### -field D2D1_PROPERTY_TYPE_CLSID:13
 
 A CLSID.
 
-### -field D2D1_PROPERTY_TYPE_MATRIX_3X2
+### -field D2D1_PROPERTY_TYPE_MATRIX_3X2:14
 
 A 3x2 matrix of  float values.
 
-### -field D2D1_PROPERTY_TYPE_MATRIX_4X3
+### -field D2D1_PROPERTY_TYPE_MATRIX_4X3:15
 
 A 4x2 matrix of  float values.
 
-### -field D2D1_PROPERTY_TYPE_MATRIX_4X4
+### -field D2D1_PROPERTY_TYPE_MATRIX_4X4:16
 
 A 4x4 matrix of  float values.
 
-### -field D2D1_PROPERTY_TYPE_MATRIX_5X4
+### -field D2D1_PROPERTY_TYPE_MATRIX_5X4:17
 
 A 5x4 matrix of  float values.
 
-### -field D2D1_PROPERTY_TYPE_COLOR_CONTEXT
+### -field D2D1_PROPERTY_TYPE_COLOR_CONTEXT:18
 
 A nano-COM color context interface pointer.
 
-### -field D2D1_PROPERTY_TYPE_FORCE_DWORD
+### -field D2D1_PROPERTY_TYPE_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

@@ -1,12 +1,10 @@
 ---
 UID: NI:winioctl.FSCTL_DISMOUNT_VOLUME
 title: FSCTL_DISMOUNT_VOLUME
-author: windows-sdk-content
 description: Dismounts a volume regardless of whether or not the volume is currently in use. For more information, see the Remarks section.
 old-location: fs\fsctl_dismount_volume.htm
 tech.root: FileIO
 ms.assetid: 8828760c-9635-4c69-9867-c2f5314841e6
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DISMOUNT_VOLUME, FSCTL_DISMOUNT_VOLUME control, FSCTL_DISMOUNT_VOLUME control code [Files], _win32_fsctl_dismount_volume, base.fsctl_dismount_volume, fs.fsctl_dismount_volume, winioctl/FSCTL_DISMOUNT_VOLUME
 req.header: winioctl.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -53,7 +50,7 @@ Dismounts a volume regardless of whether or not the volume is currently in use. 
 
 To perform this operation, call the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -72,27 +69,21 @@ To perform this operation, call the <a href="/windows/desktop/api/ioapiset/nf-io
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 
@@ -112,7 +103,7 @@ The <i>hDevice</i> handle passed to
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string of the following form:
 
-\\.&#92;<i>X</i>:
+&#92;&#92;.&#92;<i>X</i>:
 
 where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The 
      application must also specify the <b>FILE_SHARE_READ</b> and 

@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.ISearchViewChangedSink
 title: ISearchViewChangedSink (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchViewChangedSink)
 helpviewer_keywords: ["ISearchViewChangedSink","ISearchViewChangedSink interface [search]","ISearchViewChangedSink interface [search]","described","_search_ISearchViewChangedSink","search._search_ISearchViewChangedSink","searchapi/ISearchViewChangedSink"]
 old-location: search\_search_ISearchViewChangedSink.htm
 tech.root: search
@@ -54,8 +54,5 @@ Not implemented.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchViewChangedSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchViewChangedSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISearchViewChangedSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchViewChangedSink</b> also has these types of members:
 

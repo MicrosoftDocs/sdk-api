@@ -54,71 +54,71 @@ Represents the density of a typeface, in terms of the lightness or heaviness of 
 
 ## -enum-fields
 
-### -field DWRITE_FONT_WEIGHT_THIN
+### -field DWRITE_FONT_WEIGHT_THIN:100
 
 Predefined font weight : Thin (100).
 
-### -field DWRITE_FONT_WEIGHT_EXTRA_LIGHT
+### -field DWRITE_FONT_WEIGHT_EXTRA_LIGHT:200
 
 Predefined font weight : Extra-light (200).
 
-### -field DWRITE_FONT_WEIGHT_ULTRA_LIGHT
+### -field DWRITE_FONT_WEIGHT_ULTRA_LIGHT:200
 
 Predefined font weight : Ultra-light (200).
 
-### -field DWRITE_FONT_WEIGHT_LIGHT
+### -field DWRITE_FONT_WEIGHT_LIGHT:300
 
 Predefined font weight : Light (300).
 
-### -field DWRITE_FONT_WEIGHT_SEMI_LIGHT
+### -field DWRITE_FONT_WEIGHT_SEMI_LIGHT:350
 
 Predefined font weight : Semi-Light (350).
 
-### -field DWRITE_FONT_WEIGHT_NORMAL
+### -field DWRITE_FONT_WEIGHT_NORMAL:400
 
 Predefined font weight : Normal (400).
 
-### -field DWRITE_FONT_WEIGHT_REGULAR
+### -field DWRITE_FONT_WEIGHT_REGULAR:400
 
 Predefined font weight : Regular (400).
 
-### -field DWRITE_FONT_WEIGHT_MEDIUM
+### -field DWRITE_FONT_WEIGHT_MEDIUM:500
 
 Predefined font weight : Medium (500).
 
-### -field DWRITE_FONT_WEIGHT_DEMI_BOLD
+### -field DWRITE_FONT_WEIGHT_DEMI_BOLD:600
 
 Predefined font weight : Demi-bold (600).
 
-### -field DWRITE_FONT_WEIGHT_SEMI_BOLD
+### -field DWRITE_FONT_WEIGHT_SEMI_BOLD:600
 
 Predefined font weight : Semi-bold (600).
 
-### -field DWRITE_FONT_WEIGHT_BOLD
+### -field DWRITE_FONT_WEIGHT_BOLD:700
 
 Predefined font weight : Bold (700).
 
-### -field DWRITE_FONT_WEIGHT_EXTRA_BOLD
+### -field DWRITE_FONT_WEIGHT_EXTRA_BOLD:800
 
 Predefined font weight : Extra-bold (800).
 
-### -field DWRITE_FONT_WEIGHT_ULTRA_BOLD
+### -field DWRITE_FONT_WEIGHT_ULTRA_BOLD:800
 
 Predefined font weight : Ultra-bold (800).
 
-### -field DWRITE_FONT_WEIGHT_BLACK
+### -field DWRITE_FONT_WEIGHT_BLACK:900
 
 Predefined font weight : Black (900).
 
-### -field DWRITE_FONT_WEIGHT_HEAVY
+### -field DWRITE_FONT_WEIGHT_HEAVY:900
 
 Predefined font weight : Heavy (900).
 
-### -field DWRITE_FONT_WEIGHT_EXTRA_BLACK
+### -field DWRITE_FONT_WEIGHT_EXTRA_BLACK:950
 
 Predefined font weight : Extra-black (950).
 
-### -field DWRITE_FONT_WEIGHT_ULTRA_BLACK
+### -field DWRITE_FONT_WEIGHT_ULTRA_BLACK:950
 
 Predefined font weight : Ultra-black (950).
 

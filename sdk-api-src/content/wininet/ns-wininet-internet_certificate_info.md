@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_12
+UID: NS:wininet.INTERNET_CERTIFICATE_INFO
 title: INTERNET_CERTIFICATE_INFO (wininet.h)
 description: Contains certificate information returned from the server. This structure is used by the InternetQueryOption function.
 helpviewer_keywords: ["*LPINTERNET_CERTIFICATE_INFO","INTERNET_CERTIFICATE_INFO","INTERNET_CERTIFICATE_INFO structure [WinINet]","LPINTERNET_CERTIFICATE_INFO","LPINTERNET_CERTIFICATE_INFO structure pointer [WinINet]","_inet_internet_certificate_info_structure","wininet.internet_certificate_info","wininet/ LPINTERNET_CERTIFICATE_INFO","wininet/INTERNET_CERTIFICATE_INFO"]
@@ -101,3 +101,4 @@ Applications requesting this information must free pointers that are allocated a
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
+

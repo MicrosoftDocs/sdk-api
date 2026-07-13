@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardGetCardTypeProviderNameA
 title: SCardGetCardTypeProviderNameA function (winscard.h)
-description: Returns the name of the module (dynamic link library) that contains the provider for a given card name and provider type.
-helpviewer_keywords: ["SCARD_PROVIDER_CARD_MODULE","SCARD_PROVIDER_CSP","SCARD_PROVIDER_KSP","SCARD_PROVIDER_PRIMARY","SCardGetCardTypeProviderName","SCardGetCardTypeProviderName function [Security]","SCardGetCardTypeProviderNameA","SCardGetCardTypeProviderNameW","_smart_scardgetcardtypeprovidername","security.scardgetcardtypeprovidername","winscard/SCardGetCardTypeProviderName","winscard/SCardGetCardTypeProviderNameA","winscard/SCardGetCardTypeProviderNameW"]
+description: Returns the name of the module (dynamic link library) that contains the provider for a given card name and provider type. (ANSI)
+helpviewer_keywords: ["SCARD_PROVIDER_CARD_MODULE", "SCARD_PROVIDER_CSP", "SCARD_PROVIDER_KSP", "SCARD_PROVIDER_PRIMARY", "SCardGetCardTypeProviderNameA", "winscard/SCardGetCardTypeProviderNameA"]
 old-location: security\scardgetcardtypeprovidername.htm
 tech.root: security
 ms.assetid: 5006d1d6-b0f4-431f-8868-d1f4fc0c8124
@@ -223,7 +223,7 @@ if (SCARD_S_SUCCESS == lReturn)
 
 
 > [!NOTE]
-> The winscard.h header defines SCardGetCardTypeProviderName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardGetCardTypeProviderName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

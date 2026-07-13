@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetPathFromIDListW
 title: SHGetPathFromIDListW function (shlobj_core.h)
-description: Converts an item identifier list to a file system path.
-helpviewer_keywords: ["SHGetPathFromIDList","SHGetPathFromIDList function [Windows Shell]","SHGetPathFromIDListA","SHGetPathFromIDListW","_win32_SHGetPathFromIDList","shell.SHGetPathFromIDList","shlobj_core/SHGetPathFromIDList","shlobj_core/SHGetPathFromIDListA","shlobj_core/SHGetPathFromIDListW"]
+description: Converts an item identifier list to a file system path. (Unicode)
+helpviewer_keywords: ["SHGetPathFromIDList", "SHGetPathFromIDList function [Windows Shell]", "SHGetPathFromIDListW", "_win32_SHGetPathFromIDList", "shell.SHGetPathFromIDList", "shlobj_core/SHGetPathFromIDList", "shlobj_core/SHGetPathFromIDListW"]
 old-location: shell\SHGetPathFromIDList.htm
 tech.root: shell
 ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
  - Shell32.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
@@ -89,7 +93,7 @@ If the <i>pidl</i> parameter specifies a shortcut, the <i>pszPath</i> will conta
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHGetPathFromIDList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHGetPathFromIDList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

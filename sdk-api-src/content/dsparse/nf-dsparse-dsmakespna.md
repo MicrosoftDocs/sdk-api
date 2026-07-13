@@ -1,8 +1,8 @@
 ---
 UID: NF:dsparse.DsMakeSpnA
 title: DsMakeSpnA function (dsparse.h)
-description: Constructs a service principal name (SPN) that identifies a service instance.
-helpviewer_keywords: ["DsMakeSpn","DsMakeSpn function [Active Directory]","DsMakeSpnA","DsMakeSpnW","_glines_dsmakespn","ad.dsmakespn","dsparse/DsMakeSpn","dsparse/DsMakeSpnA","dsparse/DsMakeSpnW"]
+description: Constructs a service principal name (SPN) that identifies a service instance. (ANSI)
+helpviewer_keywords: ["DsMakeSpnA", "dsparse/DsMakeSpnA"]
 old-location: ad\dsmakespn.htm
 tech.root: ad
 ms.assetid: fca3c59c-bb81-42a0-acd3-2e55c902febe
@@ -157,7 +157,7 @@ String parameters cannot include the forward slash (/) character, as it is used 
 
 
 > [!NOTE]
-> The dsparse.h header defines DsMakeSpn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsparse.h header defines DsMakeSpn as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

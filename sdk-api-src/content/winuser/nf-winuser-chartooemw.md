@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.CharToOemW
 title: CharToOemW function (winuser.h)
-description: Translates a string into the OEM-defined character set.Warning  Do not use.
-helpviewer_keywords: ["CharToOem","CharToOem function [Menus and Other Resources]","CharToOemA","CharToOemW","_win32_CharToOem","_win32_chartooem_cpp","menurc.chartooem","winui._win32_chartooem","winuser/CharToOem","winuser/CharToOemA","winuser/CharToOemW"]
+description: Translates a string into the OEM-defined character set.Warning  Do not use. (Unicode)
+helpviewer_keywords: ["CharToOem", "CharToOem function [Menus and Other Resources]", "CharToOemW", "_win32_CharToOem", "_win32_chartooem_cpp", "menurc.chartooem", "winui._win32_chartooem", "winuser/CharToOem", "winuser/CharToOemW"]
 old-location: menurc\chartooem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooem.htm
-ms.date: 12/05/2018
+ms.date: 07/10/2025
 ms.keywords: CharToOem, CharToOem function [Menus and Other Resources], CharToOemA, CharToOemW, _win32_CharToOem, _win32_chartooem_cpp, menurc.chartooem, winui._win32_chartooem, winuser/CharToOem, winuser/CharToOemA, winuser/CharToOemW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -108,5 +108,9 @@ The return value is always nonzero except when you pass the same address to
 
 ## -remarks
 
+### Security Considerations
+
+Using this function incorrectly might compromise the security of your program. For example, miscalculating the proper size of the *lpszDst* buffer, especially when the application is used in both ANSI and Unicode versions, can cause a buffer overflow. For more information, see [Security Considerations: International Features](/windows/desktop/Intl/security-considerations--international-features) and [Security Considerations: Windows User Interface](/windows/win32/appuistart/sec-ui).
+
 > [!NOTE]
-> The winuser.h header defines CharToOem as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CharToOem as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

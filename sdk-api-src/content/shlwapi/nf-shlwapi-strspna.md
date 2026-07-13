@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrSpnA
 title: StrSpnA function (shlwapi.h)
-description: Obtains the length of a substring within a string that consists entirely of characters contained in a specified buffer.
-helpviewer_keywords: ["StrSpn","StrSpn function [Windows Shell]","StrSpnA","StrSpnW","_win32_StrSpn","shell.StrSpn","shlwapi/StrSpn","shlwapi/StrSpnA","shlwapi/StrSpnW"]
+description: Obtains the length of a substring within a string that consists entirely of characters contained in a specified buffer. (ANSI)
+helpviewer_keywords: ["StrSpnA", "shlwapi/StrSpnA"]
 old-location: shell\StrSpn.htm
 tech.root: shell
 ms.assetid: 1a57da7f-76e7-49f2-aa31-50c224376e95
@@ -82,5 +82,5 @@ Returns the length, in characters, of the matching string or zero if no match is
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines StrSpn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrSpn as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

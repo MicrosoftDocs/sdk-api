@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupRemoveFileLogEntryA
 title: SetupRemoveFileLogEntryA function (setupapi.h)
-description: The SetupRemoveFileLogEntry function removes an entry or section from a file log.
-helpviewer_keywords: ["SetupRemoveFileLogEntry","SetupRemoveFileLogEntry function [Setup API]","SetupRemoveFileLogEntryA","SetupRemoveFileLogEntryW","_setupapi_setupremovefilelogentry","setup.setupremovefilelogentry","setupapi/SetupRemoveFileLogEntry","setupapi/SetupRemoveFileLogEntryA","setupapi/SetupRemoveFileLogEntryW"]
+description: The SetupRemoveFileLogEntry function removes an entry or section from a file log. (ANSI)
+helpviewer_keywords: ["SetupRemoveFileLogEntryA", "setupapi/SetupRemoveFileLogEntryA"]
 old-location: setup\setupremovefilelogentry.htm
 tech.root: setup
 ms.assetid: a26d2c24-7092-40b0-9ae9-e7edf68aeb3d
@@ -94,4 +94,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupRemoveFileLogEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupRemoveFileLogEntry as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

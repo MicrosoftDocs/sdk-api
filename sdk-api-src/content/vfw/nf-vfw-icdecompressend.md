@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDecompressEnd","ICDecompressEnd macro [Windows Multimed
 old-location: multimedia\icdecompressend.htm
 tech.root: Multimedia
 ms.assetid: 9d66174a-b6bd-4bcd-a88a-bb1876bbc510
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDecompressEnd, ICDecompressEnd macro [Windows Multimedia], _win32_ICDecompressEnd, multimedia.icdecompressend, vfw/ICDecompressEnd
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ICDecompressEnd macro
+
+## -syntax
+
+```cpp
+DWORD ICDecompressEnd(
+     hic
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

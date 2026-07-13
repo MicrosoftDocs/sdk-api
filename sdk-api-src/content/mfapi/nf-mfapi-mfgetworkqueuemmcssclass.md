@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFGetWorkQueueMMCSSClass
 title: MFGetWorkQueueMMCSSClass function (mfapi.h)
-description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
+description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue. (MFGetWorkQueueMMCSSClass)
 helpviewer_keywords: ["97b48d18-3844-4b97-9bab-c5fc38eb927e","MFGetWorkQueueMMCSSClass","MFGetWorkQueueMMCSSClass function [Media Foundation]","mf.mfgetworkqueuemmcssclass","mfapi/MFGetWorkQueueMMCSSClass"]
 old-location: mf\mfgetworkqueuemmcssclass.htm
 tech.root: mf

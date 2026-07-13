@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.lib
-req.dll: Ntdll.dll; NtosKrnl.exe
+req.lib: ntdll.lib
+req.dll: ntdll.dll; NtosKrnl.exe
 req.irql: 
 targetos: Windows
 req.typenames: 

@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiDeterminePatchSequenceW
 title: MsiDeterminePatchSequenceW function (msi.h)
-description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product.
-helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiDeterminePatchSequence","MsiDeterminePatchSequence function","MsiDeterminePatchSequenceA","MsiDeterminePatchSequenceW","msi/MsiDeterminePatchSequence","msi/MsiDeterminePatchSequenceA","msi/MsiDeterminePatchSequenceW","setup.msideterminepatchsequence"]
+description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product. (Unicode)
+helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiDeterminePatchSequence", "MsiDeterminePatchSequence function", "MsiDeterminePatchSequenceW", "msi/MsiDeterminePatchSequence", "msi/MsiDeterminePatchSequenceW", "setup.msideterminepatchsequence"]
 old-location: setup\msideterminepatchsequence.htm
 tech.root: setup
 ms.assetid: f82e7d42-f0cd-4d25-b56f-7e423cb64cfd
@@ -311,7 +311,7 @@ If the function fails, the <a href="/windows/desktop/api/msi/ns-msi-msipatchsequ
 
 
 > [!NOTE]
-> The msi.h header defines MsiDeterminePatchSequence as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiDeterminePatchSequence as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DialogBoxIndirectParamW
 title: DialogBoxIndirectParamW function (winuser.h)
-description: Creates a modal dialog box from a dialog box template in memory.
-helpviewer_keywords: ["DialogBoxIndirectParam","DialogBoxIndirectParam function [Dialog Boxes]","DialogBoxIndirectParamA","DialogBoxIndirectParamW","_win32_DialogBoxIndirectParam","_win32_dialogboxindirectparam_cpp","dlgbox.dialogboxindirectparam","winui._win32_dialogboxindirectparam","winuser/DialogBoxIndirectParam","winuser/DialogBoxIndirectParamA","winuser/DialogBoxIndirectParamW"]
+description: Creates a modal dialog box from a dialog box template in memory. (Unicode)
+helpviewer_keywords: ["DialogBoxIndirectParam", "DialogBoxIndirectParam function [Dialog Boxes]", "DialogBoxIndirectParamW", "_win32_DialogBoxIndirectParam", "_win32_dialogboxindirectparam_cpp", "dlgbox.dialogboxindirectparam", "winui._win32_dialogboxindirectparam", "winuser/DialogBoxIndirectParam", "winuser/DialogBoxIndirectParamW"]
 old-location: dlgbox\dialogboxindirectparam.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirectparam.htm
@@ -120,7 +120,7 @@ All character strings in the dialog box template, such as titles for the dialog 
 
 
 > [!NOTE]
-> The winuser.h header defines DialogBoxIndirectParam as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines DialogBoxIndirectParam as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

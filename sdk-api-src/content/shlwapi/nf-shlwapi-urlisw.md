@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlIsW
 title: UrlIsW function (shlwapi.h)
-description: Tests whether a URL is a specified type.
-helpviewer_keywords: ["URLIS_APPLIABLE","URLIS_DIRECTORY","URLIS_FILEURL","URLIS_HASQUERY","URLIS_NOHISTORY","URLIS_OPAQUE","URLIS_URL","UrlIs","UrlIs function [Windows Shell]","UrlIsA","UrlIsW","_win32_UrlIs","shell.UrlIs","shlwapi/UrlIs","shlwapi/UrlIsA","shlwapi/UrlIsW"]
+description: Tests whether a URL is a specified type. (Unicode)
+helpviewer_keywords: ["URLIS_APPLIABLE", "URLIS_DIRECTORY", "URLIS_FILEURL", "URLIS_HASQUERY", "URLIS_NOHISTORY", "URLIS_OPAQUE", "URLIS_URL", "UrlIs", "UrlIs function [Windows Shell]", "UrlIsW", "_win32_UrlIs", "shell.UrlIs", "shlwapi/UrlIs", "shlwapi/UrlIsW"]
 old-location: shell\UrlIs.htm
 tech.root: shell
 ms.assetid: 2e83c953-b4c5-4411-90ca-49ffb94ee374
@@ -174,4 +174,4 @@ If <i>UrlIs</i> is set to <b>URLIS_APPLIABLE</b>, <b>UrlIs</b> will attempt to d
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines UrlIs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlIs as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

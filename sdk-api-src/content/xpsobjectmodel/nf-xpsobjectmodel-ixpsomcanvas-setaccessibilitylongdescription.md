@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetAccessibilityLongDescription
 title: IXpsOMCanvas::SetAccessibilityLongDescription (xpsobjectmodel.h)
-description: Sets the long (detailed) textual description of the object's contents.
+description: Sets the long (detailed) textual description of the object's contents. (IXpsOMCanvas.SetAccessibilityLongDescription)
 helpviewer_keywords: ["IXpsOMCanvas interface [XPS Documents and Packaging]","SetAccessibilityLongDescription method","IXpsOMCanvas.SetAccessibilityLongDescription","IXpsOMCanvas::SetAccessibilityLongDescription","SetAccessibilityLongDescription","SetAccessibilityLongDescription method [XPS Documents and Packaging]","SetAccessibilityLongDescription method [XPS Documents and Packaging]","IXpsOMCanvas interface","xps.ixpsomcanvas_setaccessibilitylongdescription","xpsobjectmodel/IXpsOMCanvas::SetAccessibilityLongDescription"]
 old-location: xps\ixpsomcanvas_setaccessibilitylongdescription.htm
 tech.root: xps
@@ -72,4 +72,4 @@ The property that is set by this method corresponds to the <b>AutomationProperti
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_GetButtonState","Pager_GetButtonState macro [Window
 old-location: controls\Pager_GetButtonState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_GetButtonState, Pager_GetButtonState macro [Windows Controls], _win32_Pager_GetButtonState, _win32_Pager_GetButtonState_cpp, commctrl/Pager_GetButtonState, controls.Pager_GetButtonState, controls._win32_Pager_GetButtonState
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # Pager_GetButtonState macro
 
+## -syntax
+
+```cpp
+DWORD Pager_GetButtonState(
+   HWND hwnd,
+   int  iButton
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the state of the button specified in <i>iButton</i>. See the return value description in <b>PGM_GETBUTTONSTATE</b> for a list of possible values.
 
 ## -description
 

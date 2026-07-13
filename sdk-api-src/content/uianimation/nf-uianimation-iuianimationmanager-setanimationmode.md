@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetAnimationMode
 title: IUIAnimationManager::SetAnimationMode (uianimation.h)
-description: Sets the animation mode.
+description: Sets the animation mode. (IUIAnimationManager.SetAnimationMode)
 helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","SetAnimationMode method","IUIAnimationManager.SetAnimationMode","IUIAnimationManager::SetAnimationMode","SetAnimationMode","SetAnimationMode method [Windows Animation]","SetAnimationMode method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_setanimationmode","uianimation/IUIAnimationManager::SetAnimationMode"]
 old-location: uianimation\iuianimationmanager_setanimationmode.htm
 tech.root: UIAnimation

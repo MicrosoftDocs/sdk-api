@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_37
+UID: NE:webservices.WS_IP_VERSION
 title: WS_IP_VERSION (webservices.h)
 description: Specifies an IP version.
 helpviewer_keywords: ["WS_IP_VERSION","WS_IP_VERSION enumeration [Web Services for Windows]","WS_IP_VERSION_4","WS_IP_VERSION_6","webservices/WS_IP_VERSION","webservices/WS_IP_VERSION_4","webservices/WS_IP_VERSION_6","wsw.ws_ip_version"]
@@ -54,13 +54,13 @@ Specifies an IP version.
 
 ## -enum-fields
 
-### -field WS_IP_VERSION_4
+### -field WS_IP_VERSION_4:1
 
 Use IPv4.
 
-### -field WS_IP_VERSION_6
+### -field WS_IP_VERSION_6:2
 
 Use IPv6.
 
-### -field WS_IP_VERSION_AUTO
+### -field WS_IP_VERSION_AUTO:3
 

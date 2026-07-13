@@ -1,7 +1,7 @@
 ---
 UID: NF:lmwksta.NetWkstaTransportDel
 title: NetWkstaTransportDel function (lmwksta.h)
-description: Not supported.
+description: Not supported. (NetWkstaTransportDel)
 helpviewer_keywords: ["NetWkstaTransportDel","NetWkstaTransportDel function [Network Management]","USE_FORCE","USE_LOTS_OF_FORCE","USE_NOFORCE","_win32_netwkstatransportdel","lmwksta/NetWkstaTransportDel","netmgmt.netwkstatransportdel"]
 old-location: netmgmt\netwkstatransportdel.htm
 tech.root: NetMgmt

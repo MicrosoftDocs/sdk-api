@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.UninstallColorProfileA
 title: UninstallColorProfileA
-description: Removes a specified color profile from a specified computer. Associated files are optionally deleted from the system.
+description: Removes a specified color profile from a specified computer. Associated files are optionally deleted from the system. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

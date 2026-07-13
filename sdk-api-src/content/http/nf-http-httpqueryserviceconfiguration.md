@@ -6,7 +6,7 @@ helpviewer_keywords: ["HttpQueryServiceConfiguration","HttpQueryServiceConfigura
 old-location: http\httpqueryserviceconfiguration.htm
 tech.root: http
 ms.assetid: bbd2c3c4-d2d0-4590-9b5c-6916b91600cd
-ms.date: 12/05/2018
+ms.date: 01/10/2024
 ms.keywords: HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration
 req.header: http.h
 req.include-header: 
@@ -45,13 +45,9 @@ api_name:
  - HttpQueryServiceConfiguration
 ---
 
-# HttpQueryServiceConfiguration function
-
-
 ## -description
 
-The 
-<b>HttpQueryServiceConfiguration</b> function retrieves one or more HTTP Server API configuration records.
+The <b>HttpQueryServiceConfiguration</b> function retrieves one or more HTTP Server API configuration records.
 
 ## -parameters
 
@@ -382,7 +378,7 @@ The buffer pointed to by <i>pOutputConfigInfo</i> is too small to receive the ou
 </dl>
 </td>
 <td width="60%">
-This error code is only returned when <i>ConfigId</i> is set to <b>HttpServiceConfigTimeout</b>. The buffer pointed to by <i>pOutputConfigInfo</i> is too small to receive the output data. Call the function again with a buffer at least as large as the size pointed to by <i>pReturnLength</i> on exit.
+The buffer pointed to by <i>pOutputConfigInfo</i> is too small to receive the output data. Call the function again with a buffer at least as large as the size pointed to by <i>pReturnLength</i> on exit.
 
 </td>
 </tr>

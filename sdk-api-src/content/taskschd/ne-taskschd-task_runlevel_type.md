@@ -56,11 +56,11 @@ Defines LUA elevation flags that specify with what privilege level the task will
 
 ## -enum-fields
 
-### -field TASK_RUNLEVEL_LUA
+### -field TASK_RUNLEVEL_LUA:0
 
 Tasks will be run with the least privileges.
 
-### -field TASK_RUNLEVEL_HIGHEST
+### -field TASK_RUNLEVEL_HIGHEST:1
 
 Tasks will be run with the highest privileges.
 

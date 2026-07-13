@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetDevCapsW
 title: lineGetDevCapsW function (tapi.h)
-description: The lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
-helpviewer_keywords: ["_tapi2_linegetdevcaps","lineGetDevCaps","lineGetDevCaps function [TAPI 2.2]","lineGetDevCapsA","lineGetDevCapsW","tapi/lineGetDevCaps","tapi/lineGetDevCapsA","tapi/lineGetDevCapsW","tapi2.linegetdevcaps"]
+description: The lineGetDevCapsW (Unicode) function (tapi.h) queries a specified line device to determine its telephony capabilities.
+helpviewer_keywords: ["_tapi2_linegetdevcaps", "lineGetDevCaps", "lineGetDevCaps function [TAPI 2.2]", "lineGetDevCapsW", "tapi/lineGetDevCaps", "tapi/lineGetDevCapsW", "tapi2.linegetdevcaps"]
 old-location: tapi2\linegetdevcaps.htm
 tech.root: tapi3
 ms.assetid: c0900c5b-8791-4653-8bfc-d32e51d10c50
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegetdevcaps, lineGetDevCaps, lineGetDevCaps function [TAPI 2.2], lineGetDevCapsA, lineGetDevCapsW, tapi/lineGetDevCaps, tapi/lineGetDevCapsA, tapi/lineGetDevCapsW, tapi2.linegetdevcaps
 req.header: tapi.h
 req.include-header: 
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ras-tapi32-l1-1-1.dll
  - Tapi32.dll
 api_name:
  - lineGetDevCaps
@@ -110,7 +111,7 @@ One of the members in the
 
 
 > [!NOTE]
-> The tapi.h header defines lineGetDevCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetDevCaps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

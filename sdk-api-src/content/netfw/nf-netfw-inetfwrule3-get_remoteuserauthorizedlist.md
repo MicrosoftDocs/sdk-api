@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule3.get_RemoteUserAuthorizedList
 title: INetFwRule3::get_RemoteUserAuthorizedList (netfw.h)
-description: Specifies a list of remote users who are authorized to access an app container.
+description: Specifies a list of remote users who are authorized to access an app container. (Get)
 helpviewer_keywords: ["INetFwRule3 interface [ICS/ICF]","RemoteUserAuthorizedList property","INetFwRule3.RemoteUserAuthorizedList","INetFwRule3.get_RemoteUserAuthorizedList","INetFwRule3::RemoteUserAuthorizedList","INetFwRule3::get_RemoteUserAuthorizedList","INetFwRule3::put_RemoteUserAuthorizedList","RemoteUserAuthorizedList property [ICS/ICF]","RemoteUserAuthorizedList property [ICS/ICF]","INetFwRule3 interface","get_RemoteUserAuthorizedList","ics.inetfwrule3_remoteuserauthorizedlist","netfw/INetFwRule3::RemoteUserAuthorizedList","netfw/INetFwRule3::get_RemoteUserAuthorizedList","netfw/INetFwRule3::put_RemoteUserAuthorizedList"]
 old-location: ics\inetfwrule3_remoteuserauthorizedlist.htm
 tech.root: ics

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetColumn","ListView_GetColumn macro [Windows Co
 old-location: controls\ListView_GetColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumn.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetColumn, ListView_GetColumn macro [Windows Controls], _win32_ListView_GetColumn, _win32_ListView_GetColumn_cpp, commctrl/ListView_GetColumn, controls.ListView_GetColumn, controls._win32_ListView_GetColumn
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetColumn macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetColumn(
+   HWND       hwnd,
+   int        iCol,
+   LPLVCOLUMN pcol
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

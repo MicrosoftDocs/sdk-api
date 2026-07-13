@@ -1,5 +1,5 @@
 ---
-UID: NE:roerrorapi.__unnamed_enum_1
+UID: NE:roerrorapi.RoErrorReportingFlags
 title: RoErrorReportingFlags
 description: Specifies the behavior of the RoOriginateError and RoTransformError functions.
 tech.root: winrt
@@ -7,10 +7,6 @@ helpviewer_keywords: ["RoErrorReportingFlags"]
 ms.assetid: 51C5D2A7-3831-437E-AD7F-AEBC79A7C801
 ms.date: 05/20/2019
 ms.keywords: RoErrorReportingFlags
-f1_keywords:
-- roerrorapi/RoErrorReportingFlags
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -23,17 +19,22 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - roerrorapi/RoErrorReportingFlags
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- roerrorapi.h
+ - roerrorapi.h
 api_name:
-- RoErrorReportingFlags
+ - RoErrorReportingFlags
 ---
 
 # RoErrorReportingFlags
+
 
 ## -description
 
@@ -76,3 +77,4 @@ Error functions do not report error strings through a COM object that is attache
 [RoOriginateError](nf-roerrorapi-rooriginateerror.md)
 
 [RoTransformError](nf-roerrorapi-rotransformerror.md)
+

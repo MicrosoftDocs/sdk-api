@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_StrictFileSystemCompliance
 title: IFileSystemImage::put_StrictFileSystemCompliance (imapi2fs.h)
-description: Determines the compliance level for creating and developing the file-system image.
+description: Determines the compliance level for creating and developing the file-system image. (Put)
 helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_StrictFileSystemCompliance method","IFileSystemImage.put_StrictFileSystemCompliance","IFileSystemImage::put_StrictFileSystemCompliance","imapi.ifilesystemimage_put_strictfilesystemcompliance","imapi2fs/IFileSystemImage::put_StrictFileSystemCompliance","put_StrictFileSystemCompliance","put_StrictFileSystemCompliance method [IMAPI]","put_StrictFileSystemCompliance method [IMAPI]","IFileSystemImage interface"]
 old-location: imapi\ifilesystemimage_put_strictfilesystemcompliance.htm
 tech.root: imapi

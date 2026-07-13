@@ -1,10 +1,10 @@
 ---
 UID: NF:processthreadsapi.CreateProcessAsUserW
 title: CreateProcessAsUserW function (processthreadsapi.h)
-description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.
-helpviewer_keywords: ["CreateProcessAsUser","CreateProcessAsUser function","CreateProcessAsUserA","CreateProcessAsUserW","_win32_createprocessasuser","base.createprocessasuser","processthreadsapi/CreateProcessAsUser","processthreadsapi/CreateProcessAsUserA","processthreadsapi/CreateProcessAsUserW"]
+description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token. (Unicode)
+helpviewer_keywords: ["CreateProcessAsUser", "CreateProcessAsUser function", "CreateProcessAsUserW", "_win32_createprocessasuser", "base.createprocessasuser", "processthreadsapi/CreateProcessAsUser", "processthreadsapi/CreateProcessAsUserW"]
 old-location: base\createprocessasuser.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Advapi32.dll
  - API-MS-Win-Core-Processsecurity-l1-1-0.dll
  - Kernel32.dll
@@ -133,12 +138,11 @@ The system adds a null character to the command line string to separate the file
 
 ### -param lpProcessAttributes [in, optional]
 
-A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new process object and determines whether child processes can inherit the returned handle to the process. If <i>lpProcessAttributes</i> is <b>NULL</b> or <b>lpSecurityDescriptor</b> is <b>NULL</b>, the process gets a default security descriptor and the handle cannot be inherited. The default security descriptor is that of the user referenced in the <i>hToken</i> parameter. This security descriptor may not allow access for the caller, in which case the process may not be opened again after it is run. The process handle is valid and will continue to have full access rights.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new process object and determines whether child processes can inherit the returned handle to the process. If <i>lpProcessAttributes</i> is <b>NULL</b> or <b>lpSecurityDescriptor</b> is <b>NULL</b>, the process gets a default security descriptor and the handle cannot be inherited. The default security descriptor is that of the user referenced in the <i>hToken</i> parameter. This security descriptor may not allow access for the caller, in which case the process may not be opened again after it is run. The process handle is valid and will continue to have full access rights.
 
 ### -param lpThreadAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread object and determines whether child processes can inherit the returned handle to the thread. If <i>lpThreadAttributes</i> is <b>NULL</b> or <b>lpSecurityDescriptor</b> is <b>NULL</b>, the thread gets a default security descriptor and the handle cannot be inherited. The default security descriptor is that of the user referenced in the <i>hToken</i> parameter. This security descriptor may not allow access for the caller.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread object and determines whether child processes can inherit the returned handle to the thread. If <i>lpThreadAttributes</i> is <b>NULL</b> or <b>lpSecurityDescriptor</b> is <b>NULL</b>, the thread gets a default security descriptor and the handle cannot be inherited. The default security descriptor is that of the user referenced in the <i>hToken</i> parameter. This security descriptor may not allow access for the caller.
 
 ### -param bInheritHandles [in]
 
@@ -169,7 +173,7 @@ If the dwCreationFlags parameter has a value of 0:
 
 ### -param lpEnvironment [in, optional]
 
-A pointer to an environment block for the new process. If this parameter is <b>NULL</b>, the new process uses the environment of the calling process. 
+A pointer to an <a href="/windows/win32/procthread/environment-variables">environment block</a> for the new process. If this parameter is <b>NULL</b>, the new process uses the environment of the calling process. 
 
 
 
@@ -180,7 +184,7 @@ An environment block consists of a null-terminated block of null-terminated stri
 
 Because the equal sign is used as a separator, it must not be used in the name of an environment variable.
 
-An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.  If this parameter is <b>NULL</b> and the environment block of the parent process contains Unicode characters, you must also ensure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
+An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
 
 The ANSI version of this function, <b>CreateProcessAsUserA</b> fails if the total size of the environment block for the process exceeds 32,767 characters.
 
@@ -289,15 +293,23 @@ to provide a list of handles to be inherited by a particular process.
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The <i>lpApplicationName</i> parameter can be NULL, in which case the executable name must be the first white space–delimited string in <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline[] = _tcsdup(TEXT("C:\\Program Files\\MyApp"));
-	CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/ );</code></pre>
+
+``` syntax
+    LPTSTR szCmdline[] = _tcsdup(TEXT("C:\\Program Files\\MyApp"));
+    CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/ );
+```
+
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>CreateProcessAsUser</b> using the Program Files directory will run this application instead of the intended application.
 
 To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do pass <b>NULL</b> for <i>lpApplicationName</i>, use quotation marks around the executable path in <i>lpCommandLine</i>, as shown in the example below.
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\""));
-	CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/);</code></pre>
+
+``` syntax
+    LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\""));
+    CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/);
+```
+
 <b>PowerShell:  </b>When the <b>CreateProcessAsUser</b> function is used to implement a cmdlet in PowerShell version 2.0, the cmdlet operates correctly for both fan-in and fan-out remote sessions. Because of certain security scenarios, however, a cmdlet implemented with <b>CreateProcessAsUser</b> only operates correctly in PowerShell version 3.0 for fan-in remote sessions; fan-out remote sessions will fail because of insufficient client security privileges. To implement a cmdlet that works for both fan-in and fan-out remote sessions in PowerShell version 3.0, use the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.
 
 
@@ -312,7 +324,7 @@ For an example, see
 
 
 > [!NOTE]
-> The processthreadsapi.h header defines CreateProcessAsUser as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The processthreadsapi.h header defines CreateProcessAsUser as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -368,7 +380,7 @@ For an example, see
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: OneCore.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -27,7 +27,8 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_location:
-- Kernel32.dll
+ - Kernel32.dll
+ - api-ms-win-core-file-fromapp-l1-1-0.dll
 api_name:
 - CopyFileFromAppW
 - CopyFileFromApp
@@ -60,9 +61,9 @@ If *lpExistingFileName* does not exist, the function fails, and [**GetLastError*
 
 The name of the new file.
 
-In the ANSI version of this function, the name is limited to **MAX\_PATH** characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see [Naming a File](https://msdn.microsoft.com/en-us/library/aa365247\(v=vs.85\)).
+In the ANSI version of this function, the name is limited to **MAX\_PATH** characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see [Naming a File](/windows/win32/FileIO/naming-a-file).
 
-For the unicode version of this function (**CopyFileFromAppW**), you can opt-in to remove the **MAX\_PATH** limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](https://msdn.microsoft.com/en-us/library/aa365247\(v=vs.85\)) for details.
+For the unicode version of this function (**CopyFileFromAppW**), you can opt-in to remove the **MAX\_PATH** limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/FileIO/naming-a-file) for details.
 
 
 ### -param bFailIfExists

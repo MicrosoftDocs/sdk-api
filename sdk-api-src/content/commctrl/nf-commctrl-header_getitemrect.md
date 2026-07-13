@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetItemRect","Header_GetItemRect macro [Windows Co
 old-location: controls\Header_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetItemRect, Header_GetItemRect macro [Windows Controls], _win32_Header_GetItemRect, _win32_Header_GetItemRect_cpp, commctrl/Header_GetItemRect, controls.Header_GetItemRect, controls._win32_Header_GetItemRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # Header_GetItemRect macro
+
+## -syntax
+
+```cpp
+BOOL Header_GetItemRect(
+   HWND   hwnd,
+   int    iItem,
+   LPRECT lprc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

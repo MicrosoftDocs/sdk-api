@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetRoot","TreeView_GetRoot macro [Windows Contro
 old-location: controls\TreeView_GetRoot.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getroot.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetRoot, TreeView_GetRoot macro [Windows Controls], _win32_TreeView_GetRoot, _win32_TreeView_GetRoot_cpp, commctrl/TreeView_GetRoot, controls.TreeView_GetRoot, controls._win32_TreeView_GetRoot
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TreeView_GetRoot macro
+
+## -syntax
+
+```cpp
+HTREEITEM TreeView_GetRoot(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Returns the handle to the item if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

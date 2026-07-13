@@ -55,10 +55,7 @@ A shader-resource-view interface represents the subresources a shader can access
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderResourceView1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>. <b>ID3D11ShaderResourceView1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D11ShaderResourceView1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>. <b>ID3D11ShaderResourceView1</b> also has these types of members:
 
 ## -remarks
 

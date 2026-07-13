@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_51
+UID: NE:webservices.WS_SECURITY_HEADER_VERSION
 title: WS_SECURITY_HEADER_VERSION (webservices.h)
 description: The WS-Security specification version to be used with message security and mixed-mode security.
 helpviewer_keywords: ["WS_SECURITY_HEADER_VERSION","WS_SECURITY_HEADER_VERSION enumeration [Web Services for Windows]","WS_SECURITY_HEADER_VERSION_1_0","WS_SECURITY_HEADER_VERSION_1_1","webservices/WS_SECURITY_HEADER_VERSION","webservices/WS_SECURITY_HEADER_VERSION_1_0","webservices/WS_SECURITY_HEADER_VERSION_1_1","wsw.ws_security_header_version"]
@@ -55,11 +55,11 @@ The WS-Security specification version to be used with message
 
 ## -enum-fields
 
-### -field WS_SECURITY_HEADER_VERSION_1_0
+### -field WS_SECURITY_HEADER_VERSION_1_0:0x1
 
 WS-Security 1.0.
 
-### -field WS_SECURITY_HEADER_VERSION_1_1
+### -field WS_SECURITY_HEADER_VERSION_1_1:0x2
 
 WS-Security 1.1.
 

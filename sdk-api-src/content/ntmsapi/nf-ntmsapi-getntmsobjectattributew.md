@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectAttributeW
 title: GetNtmsObjectAttributeW function (ntmsapi.h)
-description: The GetNtmsObjectAttribute function retrieves the extended attribute (named private data) from the specified RSM object.
-helpviewer_keywords: ["GetNtmsObjectAttribute","GetNtmsObjectAttribute function [Files]","GetNtmsObjectAttributeA","GetNtmsObjectAttributeW","_zaw_getntmsobjectattribute","base.getntmsobjectattribute","fs.getntmsobjectattribute","ntmsapi/GetNtmsObjectAttribute","ntmsapi/GetNtmsObjectAttributeA","ntmsapi/GetNtmsObjectAttributeW"]
+description: The GetNtmsObjectAttribute function retrieves the extended attribute (named private data) from the specified RSM object. (Unicode)
+helpviewer_keywords: ["GetNtmsObjectAttribute", "GetNtmsObjectAttribute function [Files]", "GetNtmsObjectAttributeW", "_zaw_getntmsobjectattribute", "base.getntmsobjectattribute", "fs.getntmsobjectattribute", "ntmsapi/GetNtmsObjectAttribute", "ntmsapi/GetNtmsObjectAttributeW"]
 old-location: fs\getntmsobjectattribute.htm
 tech.root: fs
 ms.assetid: 9a92d60c-a25f-4775-adb9-1a02af3c8917
@@ -273,7 +273,7 @@ The following is the list of objects that require special access rights.
 
 
 > [!NOTE]
-> The ntmsapi.h header defines GetNtmsObjectAttribute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines GetNtmsObjectAttribute as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

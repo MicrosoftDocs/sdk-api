@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITrigger.get_ExecutionTimeLimit
 title: ITrigger::get_ExecutionTimeLimit (taskschd.h)
-description: Gets or sets the maximum amount of time that the task launched by this trigger is allowed to run.
+description: Gets or sets the maximum amount of time that the task launched by this trigger is allowed to run. (Get)
 helpviewer_keywords: ["ExecutionTimeLimit property [Task Scheduler]","ExecutionTimeLimit property [Task Scheduler]","ITrigger interface","ITrigger interface [Task Scheduler]","ExecutionTimeLimit property","ITrigger.ExecutionTimeLimit","ITrigger.get_ExecutionTimeLimit","ITrigger::ExecutionTimeLimit","ITrigger::get_ExecutionTimeLimit","ITrigger::put_ExecutionTimeLimit","get_ExecutionTimeLimit","taskschd.itrigger_executiontimelimit","taskschd/ITrigger::ExecutionTimeLimit","taskschd/ITrigger::get_ExecutionTimeLimit","taskschd/ITrigger::put_ExecutionTimeLimit"]
 old-location: taskschd\itrigger_executiontimelimit.htm
 tech.root: taskschd

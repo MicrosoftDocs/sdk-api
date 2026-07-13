@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.OpenEventLogW
 title: OpenEventLogW function (winbase.h)
-description: Opens a handle to the specified event log.
-helpviewer_keywords: ["OpenEventLog","OpenEventLog function","OpenEventLogA","OpenEventLogW","_win32_openeventlog","base.openeventlog","winbase/OpenEventLog","winbase/OpenEventLogA","winbase/OpenEventLogW"]
+description: Opens a handle to the specified event log. (Unicode)
+helpviewer_keywords: ["OpenEventLog", "OpenEventLog function", "OpenEventLogW", "_win32_openeventlog", "base.openeventlog", "winbase/OpenEventLog", "winbase/OpenEventLogW"]
 old-location: base\openeventlog.htm
 tech.root: base
 ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-eventlog-l1-1-2.dll
  - Advapi32.dll
  - Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
@@ -95,7 +96,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winbase.h header defines OpenEventLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines OpenEventLog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

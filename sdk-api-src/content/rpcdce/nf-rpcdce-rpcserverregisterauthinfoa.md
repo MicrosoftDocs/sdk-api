@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterAuthInfoA
 title: RpcServerRegisterAuthInfoA function (rpcdce.h)
-description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library.
-helpviewer_keywords: ["RpcServerRegisterAuthInfo","RpcServerRegisterAuthInfo function [RPC]","RpcServerRegisterAuthInfoA","RpcServerRegisterAuthInfoW","_rpc_rpcserverregisterauthinfo","rpc.rpcserverregisterauthinfo","rpcdce/RpcServerRegisterAuthInfo","rpcdce/RpcServerRegisterAuthInfoA","rpcdce/RpcServerRegisterAuthInfoW"]
+description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library. (RpcServerRegisterAuthInfoA)
+helpviewer_keywords: ["RpcServerRegisterAuthInfoA", "rpcdce/RpcServerRegisterAuthInfoA"]
 old-location: rpc\rpcserverregisterauthinfo.htm
 tech.root: Rpc
 ms.assetid: b7a7b57e-540b-460b-9eec-6246cc1fd9d3
@@ -220,7 +220,7 @@ The authentication service that a client application specifies (using
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcServerRegisterAuthInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcServerRegisterAuthInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

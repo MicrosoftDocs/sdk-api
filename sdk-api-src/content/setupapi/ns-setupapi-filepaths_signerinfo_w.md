@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._FILEPATHS_SIGNERINFO_W
 title: FILEPATHS_SIGNERINFO_W (setupapi.h)
-description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information.
+description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information. (Unicode)
 helpviewer_keywords: ["*PFILEPATHS_SIGNERINFO_W","FILEOP_COPY","FILEOP_DELETE","FILEPATHS_SIGNERINFO","FILEPATHS_SIGNERINFO structure [Setup API]","FILEPATHS_SIGNERINFO_W","PFILEPATHS_SIGNERINFO","PFILEPATHS_SIGNERINFO structure pointer [Setup API]","SP_COPY_NOBROWSE","SP_COPY_NOSKIP","SP_COPY_WARNIFSKIP","_setupapi_filepaths_signerinfo","setup.filepaths_signerinfo","setupapi/FILEPATHS_SIGNERINFO","setupapi/PFILEPATHS_SIGNERINFO"]
 old-location: setup\filepaths_signerinfo.htm
 tech.root: setup
@@ -175,4 +175,4 @@ Catalog file.
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines FILEPATHS_SIGNERINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines FILEPATHS_SIGNERINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

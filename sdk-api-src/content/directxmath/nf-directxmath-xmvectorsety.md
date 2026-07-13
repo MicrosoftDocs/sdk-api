@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSetY
 title: XMVectorSetY function (directxmath.h)
-description: Set the value of the y component of an XMVECTOR Data Type.
+description: Set the value of the y component of an XMVECTOR Data Type. (XMVectorSetY)
 helpviewer_keywords: ["Use DirectX..XMVectorSetY","XMVectorSetY","XMVectorSetY method [DirectX Math Support APIs]","dxmath.xmvectorsety"]
 old-location: dxmath\xmvectorsety.htm
 tech.root: dxmath

@@ -55,9 +55,9 @@ Exposes a method that initializes the network data source CLSID_NetworkPlaces as
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeNetworkFolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeNetworkFolder</b> also has these types of members:
+The <b>IInitializeNetworkFolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeNetworkFolder</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -68,7 +68,7 @@ The <b>IInitializeNetworkFolder</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/shobjidl/nf-shobjidl-iinitializenetworkfolder-initialize">Initialize</a>
 </td>

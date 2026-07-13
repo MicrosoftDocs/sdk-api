@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_InsertColumn","ListView_InsertColumn macro [Wind
 old-location: controls\ListView_InsertColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertcolumn.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_InsertColumn, ListView_InsertColumn macro [Windows Controls], _win32_ListView_InsertColumn, _win32_ListView_InsertColumn_cpp, commctrl/ListView_InsertColumn, controls.ListView_InsertColumn, controls._win32_ListView_InsertColumn
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_InsertColumn macro
+
+## -syntax
+
+```cpp
+int ListView_InsertColumn(
+         HWND       hwnd,
+         int        iCol,
+   const LPLVCOLUMN pcol
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the new column if successful, or -1 otherwise.
 
 
 ## -description

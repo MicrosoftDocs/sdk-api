@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetStreamState","GetStreamState method [Windows Media Pla
 old-location: wmp\iwmpservices_getstreamstate.htm
 tech.root: WMP
 ms.assetid: 1a73ea54-45ce-47ff-b551-10aab2798420
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetStreamState, GetStreamState method [Windows Media Player], GetStreamState method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamState method, IWMPServices.GetStreamState, IWMPServices::GetStreamState, IWMPServicesGetStreamStateDSP, wmp.iwmpservices_getstreamstate, wmpservices/IWMPServices::GetStreamState
 req.header: wmpservices.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPServices::GetStreamState</b> method retrieves information about the current play state of the stream.
 

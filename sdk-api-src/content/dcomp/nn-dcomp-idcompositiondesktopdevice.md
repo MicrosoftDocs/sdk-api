@@ -54,10 +54,7 @@ An application must use the IDCompositionDesktopDevice interface in order to use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDesktopDevice</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>. <b>IDCompositionDesktopDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDCompositionDesktopDevice</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>. <b>IDCompositionDesktopDevice</b> also has these types of members:
 
 ## -see-also
 

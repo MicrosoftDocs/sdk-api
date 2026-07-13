@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateListenersW
 title: WTSEnumerateListenersW function (wtsapi32.h)
-description: Enumerates all the Remote Desktop Services listeners on a Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSEnumerateListeners","WTSEnumerateListeners function [Remote Desktop Services]","WTSEnumerateListenersA","WTSEnumerateListenersW","termserv.wtsenumeratelisteners","wtsapi32/WTSEnumerateListeners","wtsapi32/WTSEnumerateListenersA","wtsapi32/WTSEnumerateListenersW"]
+description: Enumerates all the Remote Desktop Services listeners on a Remote Desktop Session Host (RD Session Host) server. (Unicode)
+helpviewer_keywords: ["WTSEnumerateListeners", "WTSEnumerateListeners function [Remote Desktop Services]", "WTSEnumerateListenersW", "termserv.wtsenumeratelisteners", "wtsapi32/WTSEnumerateListeners", "wtsapi32/WTSEnumerateListenersW"]
 old-location: termserv\wtsenumeratelisteners.htm
 tech.root: TermServ
 ms.assetid: dcdf4b4e-de01-4c23-97f6-0d45ba8608f5
@@ -105,4 +105,4 @@ If the number of listeners is unknown, you can call this function with <i>pListe
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSEnumerateListeners as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSEnumerateListeners as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

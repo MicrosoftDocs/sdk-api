@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_ExcludeApis
 title: IApiTracingDataCollector::get_ExcludeApis (pla.h)
-description: Retrieves or sets the list of functions to exclude from the trace.
+description: Retrieves or sets the list of functions to exclude from the trace. (Get)
 helpviewer_keywords: ["ExcludeApis property [PLA]","ExcludeApis property [PLA]","IApiTracingDataCollector interface","IApiTracingDataCollector interface [PLA]","ExcludeApis property","IApiTracingDataCollector.ExcludeApis","IApiTracingDataCollector.get_ExcludeApis","IApiTracingDataCollector::ExcludeApis","IApiTracingDataCollector::get_ExcludeApis","IApiTracingDataCollector::put_ExcludeApis","base.iapitracingdatacollector_excludeapis","get_ExcludeApis","pla.iapitracingdatacollector_excludeapis","pla/IApiTracingDataCollector::ExcludeApis","pla/IApiTracingDataCollector::get_ExcludeApis","pla/IApiTracingDataCollector::put_ExcludeApis"]
 old-location: pla\iapitracingdatacollector_excludeapis.htm
 tech.root: PLA

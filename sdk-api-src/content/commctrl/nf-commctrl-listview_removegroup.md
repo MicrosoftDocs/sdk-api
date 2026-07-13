@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_RemoveGroup","ListView_RemoveGroup macro [Window
 old-location: controls\ListView_RemoveGroup.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_removegroup.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_RemoveGroup, ListView_RemoveGroup macro [Windows Controls], _win32_ListView_RemoveGroup, _win32_ListView_RemoveGroup_cpp, commctrl/ListView_RemoveGroup, controls.ListView_RemoveGroup, controls._win32_ListView_RemoveGroup
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_RemoveGroup macro
+
+## -syntax
+
+```cpp
+int ListView_RemoveGroup(
+   HWND hwnd,
+   int  iGroupId
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the group if successful, or -1 otherwise.
 
 
 ## -description

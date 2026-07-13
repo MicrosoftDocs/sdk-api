@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Attendees
 title: IRDPSRAPIViewer::get_Attendees (rdpencomapi.h)
-description: Returns an object implementing the IRDPSRAPIAttendeeManager interface.
+description: Returns an object implementing the IRDPSRAPIAttendeeManager interface. (IRDPSRAPIViewer.get_Attendees)
 helpviewer_keywords: ["Attendees property [RDP]","Attendees property [RDP]","IRDPSRAPIViewer interface","Attendees property [RDP]","RDPViewer object","IRDPSRAPIViewer interface [RDP]","Attendees property","IRDPSRAPIViewer.Attendees","IRDPSRAPIViewer.get_Attendees","IRDPSRAPIViewer::Attendees","IRDPSRAPIViewer::get_Attendees","RDPViewer object [RDP]","Attendees property","get_Attendees","rdp.irdpsrapiviewer_attendees","rdpencomapi/IRDPSRAPIViewer::Attendees","rdpencomapi/IRDPSRAPIViewer::get_Attendees"]
 old-location: rdp\irdpsrapiviewer_attendees.htm
 tech.root: rdp

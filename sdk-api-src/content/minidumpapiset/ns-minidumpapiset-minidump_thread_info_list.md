@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_INFO_LIST
 title: MINIDUMP_THREAD_INFO_LIST (minidumpapiset.h)
-description: Contains a list of threads.
+description: Contains a list of threads. (MINIDUMP_THREAD_INFO_LIST)
 helpviewer_keywords: ["*PMINIDUMP_THREAD_INFO_LIST","MINIDUMP_THREAD_INFO_LIST","MINIDUMP_THREAD_INFO_LIST structure","PMINIDUMP_THREAD_INFO_LIST","PMINIDUMP_THREAD_INFO_LIST structure pointer","_MINIDUMP_THREAD_INFO_LIST","base.minidump_thread_info_list_str","minidumpapiset/MINIDUMP_THREAD_INFO_LIST","minidumpapiset/PMINIDUMP_THREAD_INFO_LIST"]
 old-location: base\minidump_thread_info_list_str.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NF:perflib.PerfStartProvider
 title: PerfStartProvider function (perflib.h)
-description: Registers the provider.
+description: Registers the provider. (PerfStartProvider)
 helpviewer_keywords: ["PerfStartProvider","PerfStartProvider function [Perf]","base.perfstartprovider","perf.perfstartprovider","perflib/PerfStartProvider"]
 old-location: perf\perfstartprovider.htm
 tech.root: perf
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-perfcounters-l1-2-0.dll
  - Advapi32.dll
  - API-MS-Win-Core-perfcounters-l1-1-0.dll
  - KernelBase.dll

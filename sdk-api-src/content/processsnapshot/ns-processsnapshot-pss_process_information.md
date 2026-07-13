@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_0
+UID: NS:processsnapshot.PSS_PROCESS_INFORMATION
 title: PSS_PROCESS_INFORMATION (processsnapshot.h)
 description: Holds process information returned by PssQuerySnapshot.
 helpviewer_keywords: ["PSS_PROCESS_INFORMATION","PSS_PROCESS_INFORMATION structure","proc_snap.pss_process_information","processsnapshot/PSS_PROCESS_INFORMATION"]
@@ -165,3 +165,4 @@ The full path to the process executable. If the path exceeds the allocated buffe
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

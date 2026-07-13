@@ -52,21 +52,21 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Maps to the W3C cross origin settings (CORS) attribute used by the HTML5 media element
 
 ## -enum-fields
 
-### -field MF_CROSS_ORIGIN_POLICY_NONE
+### -field MF_CROSS_ORIGIN_POLICY_NONE:0
 
 No CORS state.
 
-### -field MF_CROSS_ORIGIN_POLICY_ANONYMOUS
+### -field MF_CROSS_ORIGIN_POLICY_ANONYMOUS:1
 
  Requests for the element will have their mode set to "cors" and their credentials mode set to "same-origin".
 
-### -field MF_CROSS_ORIGIN_POLICY_USE_CREDENTIALS
+### -field MF_CROSS_ORIGIN_POLICY_USE_CREDENTIALS:2
 
 Requests for the element will have their mode set to "cors" and their credentials mode set to "include".
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.NotifyIfTimestampConfigChange
 title: NotifyIfTimestampConfigChange function (iphlpapi.h)
-description: This function is reserved for system use, and you should not call it from your code.
+description: This function is reserved for system use, and you should not call it from your code. (NotifyIfTimestampConfigChange)
 helpviewer_keywords: ["NotifyIfTimestampConfigChange","NotifyIfTimestampConfigChange function [IP Helper]","iphlp.notifyiftimestampconfigchange","iphlpapi/NotifyIfTimestampConfigChange"]
 old-location: iphlp\notifyiftimestampconfigchange.htm
 tech.root: IpHlp

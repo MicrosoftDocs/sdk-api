@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.put_SmsFormat
 title: IMbnSmsConfiguration::put_SmsFormat (mbnapi.h)
-description: Format in which newly received SMS should be reported by the device.
+description: Format in which newly received SMS should be reported by the device. (Put)
 helpviewer_keywords: ["IMbnSmsConfiguration interface [Microsoft Broadband Networks]","SmsFormat property","IMbnSmsConfiguration.SmsFormat","IMbnSmsConfiguration.put_SmsFormat","IMbnSmsConfiguration::SmsFormat","IMbnSmsConfiguration::get_SmsFormat","IMbnSmsConfiguration::put_SmsFormat","SmsFormat property [Microsoft Broadband Networks]","SmsFormat property [Microsoft Broadband Networks]","IMbnSmsConfiguration interface","mbn.imbnsmsconfiguration_smsformat","mbnapi/IMbnSmsConfiguration::SmsFormat","mbnapi/IMbnSmsConfiguration::get_SmsFormat","mbnapi/IMbnSmsConfiguration::put_SmsFormat","put_SmsFormat"]
 old-location: mbn\imbnsmsconfiguration_smsformat.htm
 tech.root: mbn

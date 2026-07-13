@@ -1,15 +1,15 @@
 ---
 UID: NF:interlockedapi.InitializeSListHead
 title: InitializeSListHead function (interlockedapi.h)
-description: Initializes the head of a singly linked list.
+description: Initializes the head of a singly linked list. (InitializeSListHead)
 helpviewer_keywords: ["InitializeSListHead","InitializeSListHead function","_win32_initializeslisthead","base.initializeslisthead","interlockedapi/InitializeSListHead","winbase/InitializeSListHead"]
 old-location: base\initializeslisthead.htm
 tech.root: backup
 ms.assetid: 4e34f947-1687-4ea9-aaa1-8d8dc11dad70
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: InitializeSListHead, InitializeSListHead function, _win32_initializeslisthead, base.initializeslisthead, interlockedapi/InitializeSListHead, winbase/InitializeSListHead
 req.header: interlockedapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -54,7 +54,6 @@ api_name:
 
 # InitializeSListHead function
 
-
 ## -description
 
 Initializes the head of a singly linked list.
@@ -63,32 +62,24 @@ Initializes the head of a singly linked list.
 
 ### -param ListHead [in, out]
 
-A pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is for system use only.
+A pointer to an **SLIST_HEADER** structure that represents the head of a singly linked list. This structure is for system use only.
 
 ## -remarks
 
-All list items must be aligned on a  <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary. Unaligned items can cause unpredictable results. See <b>_aligned_malloc</b>.
+All list items must be aligned on a **MEMORY_ALLOCATION_ALIGNMENT** boundary. Unaligned items can cause unpredictable results. See **_aligned_malloc**.
 
-To add items to the list, use the 
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a> function. To remove items from the list, use the 
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a> function.
-
+To add items to the list, use the [InterlockedPushEntrySList](nf-interlockedapi-interlockedpushentryslist.md) function. To remove items from the list, use the [InterlockedPopEntrySList](nf-interlockedapi-interlockedpopentryslist.md) function.
 
 #### Examples
 
-For an example, see 
-<a href="/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>.
-
-<div class="code"></div>
+For an example, see [Interlocked Singly Linked Lists](/windows/win32/Sync/interlocked-singly-linked-lists).
 
 ## -see-also
 
-<a href="/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
+[Interlocked Singly Linked Lists](/windows/win32/Sync/interlocked-singly-linked-lists)
 
+[InterlockedPopEntrySList](nf-interlockedapi-interlockedpopentryslist.md)
 
+[InterlockedPushEntrySList](nf-interlockedapi-interlockedpushentryslist.md)
 
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a>
-
-
-
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_search_init_pageW
 title: ldap_search_init_pageW function (winldap.h)
-description: Initializes a search block for a simple paged-results search.
-helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_init_page","ldap.ldap__search__init__page","ldap.ldap_search_init_page","ldap_search_init_page","ldap_search_init_page function [LDAP]","ldap_search_init_pageA","ldap_search_init_pageW","winldap/ldap_search_init_page","winldap/ldap_search_init_pageA","winldap/ldap_search_init_pageW"]
+description: The ldap_search_init_pageW (Unicode) function (winldap.h) initializes a search block for a simple paged-results search.
+helpviewer_keywords: ["LDAP_SCOPE_BASE", "LDAP_SCOPE_ONELEVEL", "LDAP_SCOPE_SUBTREE", "_ldap_ldap_search_init_page", "ldap.ldap__search__init__page", "ldap.ldap_search_init_page", "ldap_search_init_page", "ldap_search_init_page function [LDAP]", "ldap_search_init_pageW", "winldap/ldap_search_init_page", "winldap/ldap_search_init_pageW"]
 old-location: ldap\ldap_search_init_page.htm
 tech.root: ldap
 ms.assetid: f88d32e3-ac5f-4934-bf84-4007ffd72ac2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_init_page, ldap.ldap__search__init__page, ldap.ldap_search_init_page, ldap_search_init_page, ldap_search_init_page function [LDAP], ldap_search_init_pageA, ldap_search_init_pageW, winldap/ldap_search_init_page, winldap/ldap_search_init_pageA, winldap/ldap_search_init_pageW
 req.header: winldap.h
 req.include-header: 
@@ -162,7 +162,7 @@ To determine whether a server supports paged-results searches, check the support
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_search_init_page as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_search_init_page as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

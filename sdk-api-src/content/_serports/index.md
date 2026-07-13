@@ -4,7 +4,8 @@ title: Serial Controller Driver Reference
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Serial Controller Driver Reference

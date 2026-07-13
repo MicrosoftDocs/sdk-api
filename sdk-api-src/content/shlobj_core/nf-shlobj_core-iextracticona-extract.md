@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IExtractIconA.Extract
 title: IExtractIconA::Extract (shlobj_core.h)
-description: Extracts an icon image from the specified location.
+description: Extracts an icon image from the specified location. (ANSI)
 helpviewer_keywords: ["Extract","Extract method [Windows Shell]","Extract method [Windows Shell]","IExtractIcon interface","IExtractIcon interface [Windows Shell]","Extract method","IExtractIcon::Extract","IExtractIconA","IExtractIconA.Extract","IExtractIconA::Extract","IExtractIconW","IExtractIconW::Extract","_win32_IExtractIcon_Extract","shell.IExtractIcon_Extract","shlobj_core/IExtractIcon::Extract"]
 old-location: shell\IExtractIcon_Extract.htm
 tech.root: shell

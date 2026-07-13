@@ -43,6 +43,7 @@ api_location:
  - Wiavideo.dll
 api_name:
  - IWiaVideo.Pause
+archived: true
 ---
 
 # IWiaVideo::Pause
@@ -52,13 +53,13 @@ api_name:
 
 The <b>IWiaVideo::Pause</b> method pauses video playback.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

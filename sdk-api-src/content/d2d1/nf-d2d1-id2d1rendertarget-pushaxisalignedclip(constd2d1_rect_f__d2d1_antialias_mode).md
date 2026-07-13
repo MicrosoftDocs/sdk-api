@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PushAxisAlignedClip(constD2D1_RECT_F&,D2D1_ANTIALIAS_MODE)
 title: ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE) (d2d1.h)
-description: Specifies a rectangle to which all subsequent drawing operations are clipped.
+description: Specifies a rectangle to which all subsequent drawing operations are clipped. (overload 2/2)
 helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","PushAxisAlignedClip method","ID2D1RenderTarget.PushAxisAlignedClip","ID2D1RenderTarget.PushAxisAlignedClip(const D2D1_RECT_F &","D2D1_ANTIALIAS_MODE)","ID2D1RenderTarget::PushAxisAlignedClip","ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &","D2D1_ANTIALIAS_MODE)","PushAxisAlignedClip","PushAxisAlignedClip method [Direct2D]","PushAxisAlignedClip method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::PushAxisAlignedClip","direct2d.ID2D1RenderTarget_PushAxisAlignedClip_ref_D2D_RECT_F_D2D1_ANTIALIAS_MODE"]
 old-location: direct2d\ID2D1RenderTarget_PushAxisAlignedClip_ref_D2D_RECT_F_D2D1_ANTIALIAS_MODE.htm
 tech.root: Direct2D

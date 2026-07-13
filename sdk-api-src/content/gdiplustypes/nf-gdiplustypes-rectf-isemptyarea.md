@@ -53,7 +53,7 @@ api_name:
 
 The <b>RectF::IsEmptyArea</b> method determines whether this rectangle is empty.
 
-## -parameters
+
 
 ## -returns
 

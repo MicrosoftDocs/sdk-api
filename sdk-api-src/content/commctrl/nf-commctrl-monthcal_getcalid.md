@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetCALID","MonthCal_GetCALID macro [Windows Cont
 old-location: controls\MonthCal_GetCALID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalid.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetCALID, MonthCal_GetCALID macro [Windows Controls], _shell_MonthCal_GetCALID, _shell_MonthCal_GetCALID_cpp, commctrl/MonthCal_GetCALID, controls.MonthCal_GetCALID, controls._shell_MonthCal_GetCALID
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MonthCal_GetCALID macro
+
+## -syntax
+
+```cpp
+CALID MonthCal_GetCALID(
+   HWND hmc
+);
+```
+
+## -returns
+
+Type: **CALID**
+
+ID of the current calendar. One of the Calendar Identifiers constants.
 
 
 ## -description

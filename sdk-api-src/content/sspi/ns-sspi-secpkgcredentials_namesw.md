@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgCredentials_NamesW
 title: SecPkgCredentials_NamesW (sspi.h)
-description: The SecPkgCredentials_Names structure holds the name of the user associated with a context. The QueryCredentialsAttributes function uses this structure.
+description: The SecPkgCredentials_Names structure holds the name of the user associated with a context. The QueryCredentialsAttributes function uses this structure. (Unicode)
 helpviewer_keywords: ["*PSecPkgCredentials_NamesW","PSecPkgCredentials_Names","PSecPkgCredentials_Names structure pointer [Security]","SecPkgCredentials_Names","SecPkgCredentials_Names structure [Security]","SecPkgCredentials_NamesA","SecPkgCredentials_NamesW","_ssp_secpkgcredentials_names","security.secpkgcredentials_names","sspi/PSecPkgCredentials_Names","sspi/SecPkgCredentials_Names","sspi/SecPkgCredentials_NamesA","sspi/SecPkgCredentials_NamesW"]
 old-location: security\secpkgcredentials_names.htm
 tech.root: security
@@ -74,4 +74,4 @@ Pointer to a null-terminated string containing the name of the user represented 
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines SecPkgCredentials_Names as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines SecPkgCredentials_Names as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

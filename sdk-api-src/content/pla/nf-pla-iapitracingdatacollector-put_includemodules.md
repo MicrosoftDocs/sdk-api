@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.put_IncludeModules
 title: IApiTracingDataCollector::put_IncludeModules (pla.h)
-description: Retrieves or sets the list of modules to include in the trace.
+description: Retrieves or sets the list of modules to include in the trace. (Put)
 helpviewer_keywords: ["IApiTracingDataCollector interface [PLA]","IncludeModules property","IApiTracingDataCollector.IncludeModules","IApiTracingDataCollector.put_IncludeModules","IApiTracingDataCollector::IncludeModules","IApiTracingDataCollector::get_IncludeModules","IApiTracingDataCollector::put_IncludeModules","IncludeModules property [PLA]","IncludeModules property [PLA]","IApiTracingDataCollector interface","base.iapitracingdatacollector_includemodules","pla.iapitracingdatacollector_includemodules","pla/IApiTracingDataCollector::IncludeModules","pla/IApiTracingDataCollector::get_IncludeModules","pla/IApiTracingDataCollector::put_IncludeModules","put_IncludeModules"]
 old-location: pla\iapitracingdatacollector_includemodules.htm
 tech.root: PLA

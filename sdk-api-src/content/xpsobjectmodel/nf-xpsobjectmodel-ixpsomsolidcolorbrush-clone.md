@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.Clone
 title: IXpsOMSolidColorBrush::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMSolidColorBrush.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMSolidColorBrush interface","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","Clone method","IXpsOMSolidColorBrush.Clone","IXpsOMSolidColorBrush::Clone","xps.ixpsomsolidcolorbrush_clone","xpsobjectmodel/IXpsOMSolidColorBrush::Clone"]
 old-location: xps\ixpsomsolidcolorbrush_clone.htm
 tech.root: xps
@@ -112,7 +112,7 @@ This method does not update any of the resource pointers in the copy.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

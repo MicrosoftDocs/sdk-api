@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetOutlineColor","ListView_GetOutlineColor macro
 old-location: controls\ListView_GetOutlineColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getoutlinecolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetOutlineColor, ListView_GetOutlineColor macro [Windows Controls], _win32_ListView_GetOutlineColor, _win32_ListView_GetOutlineColor_cpp, commctrl/ListView_GetOutlineColor, controls.ListView_GetOutlineColor, controls._win32_ListView_GetOutlineColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetOutlineColor macro
+
+## -syntax
+
+```cpp
+COLORREF ListView_GetOutlineColor(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>COLORREF</b> structure that contains the color of the border of a list-view control.
 
 
 ## -description

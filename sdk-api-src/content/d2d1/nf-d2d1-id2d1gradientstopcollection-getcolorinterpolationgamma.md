@@ -52,7 +52,7 @@ api_name:
 
 Indicates the gamma space in which the gradient stops are interpolated.
 
-## -parameters
+
 
 ## -returns
 

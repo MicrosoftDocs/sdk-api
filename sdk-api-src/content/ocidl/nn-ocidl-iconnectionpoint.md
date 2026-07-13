@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IConnectionPoint
 title: IConnectionPoint (ocidl.h)
-description: Supports connection points for connectable objects.
+description: Supports connection points for connectable objects. (IConnectionPoint)
 helpviewer_keywords: ["IConnectionPoint","IConnectionPoint interface [COM]","IConnectionPoint interface [COM]","described","_com_iconnectionpoint","com.iconnectionpoint","ocidl/IConnectionPoint"]
 old-location: com\iconnectionpoint.htm
 tech.root: com
@@ -54,10 +54,7 @@ Supports connection points for connectable objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectionPoint</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConnectionPoint</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IConnectionPoint</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConnectionPoint</b> also has these types of members:
 
 ## -remarks
 

@@ -54,10 +54,7 @@ This interface performs all the same functions as the <a href="/windows/desktop/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DeviceContext3</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>. <b>ID2D1DeviceContext3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1DeviceContext3</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>. <b>ID2D1DeviceContext3</b> also has these types of members:
 
 ## -see-also
 

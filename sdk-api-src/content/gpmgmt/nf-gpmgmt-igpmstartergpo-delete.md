@@ -52,7 +52,7 @@ api_name:
 
 Deletes the GPO from the current domain's system volume folder(SysVol).
 
-## -parameters
+
 
 ## -returns
 

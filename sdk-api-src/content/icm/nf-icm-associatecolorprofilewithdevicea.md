@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.AssociateColorProfileWithDeviceA
 title: AssociateColorProfileWithDeviceA
-description: Associates a specified color profile with a specified device.
+description: Associates a specified color profile with a specified device. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -14,12 +14,12 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Mscms.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

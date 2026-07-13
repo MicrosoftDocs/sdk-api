@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks
 title: IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks (imapi2.h)
-description: Retrieves the number of existing audio tracks on the media.
+description: Retrieves the number of existing audio tracks on the media. (IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks)
 helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_NumberOfExistingTracks method","IDiscFormat2TrackAtOnce.get_NumberOfExistingTracks","IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks","get_NumberOfExistingTracks","get_NumberOfExistingTracks method [IMAPI]","get_NumberOfExistingTracks method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_numberofexistingtracks","imapi2/IDiscFormat2TrackAtOnce::get_NumberOfExistingTracks"]
 old-location: imapi\idiscformat2trackatonce_get_numberofexistingtracks.htm
 tech.root: imapi

@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetGlyphImageData","GetGlyphImageData method [Direct Writ
 old-location: directwrite\idwritefontface4_getglyphimagedata.htm
 tech.root: DirectWrite
 ms.assetid: 2517A029-5ACF-4CB2-8A20-98253946DF5E
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetGlyphImageData, GetGlyphImageData method [Direct Write], GetGlyphImageData method [Direct Write],IDWriteFontFace4 interface, IDWriteFontFace4 interface [Direct Write],GetGlyphImageData method, IDWriteFontFace4.GetGlyphImageData, IDWriteFontFace4::GetGlyphImageData, directwrite.idwritefontface4_getglyphimagedata, dwrite_3/IDWriteFontFace4::GetGlyphImageData
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 14393
+req.target-min-winversvr: Windows 10 Build 14393
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

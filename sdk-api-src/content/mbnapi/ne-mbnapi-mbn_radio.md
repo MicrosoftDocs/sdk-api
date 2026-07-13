@@ -57,7 +57,7 @@ The MBN_RADIO enumerated type indicates whether the device radio is on or off.
 
 ## -enum-fields
 
-### -field MBN_RADIO_OFF
+### -field MBN_RADIO_OFF:0
 
 The device radio is off.
 

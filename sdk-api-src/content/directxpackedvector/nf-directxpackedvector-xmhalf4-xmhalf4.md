@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4
 title: XMHALF4::XMHALF4 (directxpackedvector.h)
-description: Default constructor for XMHALF4.
+description: Default constructor for XMHALF4. (XMHALF4.XMHALF4)
 helpviewer_keywords: ["XMHALF4","XMHALF4 constructor [DirectX Math Support APIs]","XMHALF4 constructor [DirectX Math Support APIs]","XMHALF4 structure","XMHALF4 structure [DirectX Math Support APIs]","XMHALF4 constructor","XMHALF4.XMHALF4","XMHALF4.XMHALF4()","XMHALF4::XMHALF4","dxmath.xmhalf4_ctor_1"]
 old-location: dxmath\xmhalf4_ctor_1.htm
 tech.root: dxmath
@@ -57,7 +57,7 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

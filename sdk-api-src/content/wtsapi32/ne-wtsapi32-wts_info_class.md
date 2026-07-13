@@ -6,8 +6,8 @@ helpviewer_keywords: ["WTSApplicationName","WTSClientAddress","WTSClientBuildNum
 old-location: termserv\wts_info_class_str.htm
 tech.root: TermServ
 ms.assetid: 20e015bd-323a-44c4-a0d6-02781f3a5eec
-ms.date: 12/05/2018
-ms.keywords: WTSApplicationName, WTSClientAddress, WTSClientBuildNumber, WTSClientDirectory, WTSClientDisplay, WTSClientHardwareId, WTSClientInfo, WTSClientName, WTSClientProductId, WTSClientProtocolType, WTSConfigInfo, WTSConnectState, WTSDomainName, WTSIdleTime, WTSIncomingBytes, WTSIncomingFrames, WTSInitialProgram, WTSIsRemoteSession, WTSLogonTime, WTSOEMId, WTSOutgoingBytes, WTSOutgoingFrames, WTSSessionAddressV4, WTSSessionId, WTSSessionInfo, WTSSessionInfoEx, WTSUserName, WTSValidationInfo, WTSWinStationName, WTSWorkingDirectory, WTS_INFO_CLASS, WTS_INFO_CLASS enumeration [Remote Desktop Services], _win32_wts_info_class_str, termserv.wts_info_class_str, wtsapi32/WTSApplicationName, wtsapi32/WTSClientAddress, wtsapi32/WTSClientBuildNumber, wtsapi32/WTSClientDirectory, wtsapi32/WTSClientDisplay, wtsapi32/WTSClientHardwareId, wtsapi32/WTSClientInfo, wtsapi32/WTSClientName, wtsapi32/WTSClientProductId, wtsapi32/WTSClientProtocolType, wtsapi32/WTSConfigInfo, wtsapi32/WTSConnectState, wtsapi32/WTSDomainName, wtsapi32/WTSIdleTime, wtsapi32/WTSIncomingBytes, wtsapi32/WTSIncomingFrames, wtsapi32/WTSInitialProgram, wtsapi32/WTSIsRemoteSession, wtsapi32/WTSLogonTime, wtsapi32/WTSOEMId, wtsapi32/WTSOutgoingBytes, wtsapi32/WTSOutgoingFrames, wtsapi32/WTSSessionAddressV4, wtsapi32/WTSSessionId, wtsapi32/WTSSessionInfo, wtsapi32/WTSSessionInfoEx, wtsapi32/WTSUserName, wtsapi32/WTSValidationInfo, wtsapi32/WTSWinStationName, wtsapi32/WTSWorkingDirectory, wtsapi32/WTS_INFO_CLASS
+ms.date: 09/03/2025
+ms.keywords: WTSApplicationName, WTSClientAddress, WTSClientBuildNumber, WTSClientDirectory, WTSClientDisplay, WTSClientHardwareId, WTSClientInfo, WTSClientName, WTSClientProductId, WTSClientProtocolType, WTSConfigInfo, WTSConnectState, WTSDomainName, WTSIdleTime, WTSIncomingBytes, WTSIncomingFrames, WTSInitialProgram, WTSIsRemoteSession, WTSLogonTime, WTSOEMId, WTSOutgoingBytes, WTSOutgoingFrames, WTSSessionAddressV4, WTSSessionId, WTSSessionInfo, WTSSessionInfoEx, WTSUserName, WTSValidationInfo, WTSWinStationName, WTSWorkingDirectory, WTSCapabilityCheck, WTS_INFO_CLASS, WTS_INFO_CLASS enumeration [Remote Desktop Services], _win32_wts_info_class_str, termserv.wts_info_class_str, wtsapi32/WTSApplicationName, wtsapi32/WTSClientAddress, wtsapi32/WTSClientBuildNumber, wtsapi32/WTSClientDirectory, wtsapi32/WTSClientDisplay, wtsapi32/WTSClientHardwareId, wtsapi32/WTSClientInfo, wtsapi32/WTSClientName, wtsapi32/WTSClientProductId, wtsapi32/WTSClientProtocolType, wtsapi32/WTSConfigInfo, wtsapi32/WTSConnectState, wtsapi32/WTSDomainName, wtsapi32/WTSIdleTime, wtsapi32/WTSIncomingBytes, wtsapi32/WTSIncomingFrames, wtsapi32/WTSInitialProgram, wtsapi32/WTSIsRemoteSession, wtsapi32/WTSLogonTime, wtsapi32/WTSOEMId, wtsapi32/WTSOutgoingBytes, wtsapi32/WTSOutgoingFrames, wtsapi32/WTSSessionAddressV4, wtsapi32/WTSSessionId, wtsapi32/WTSSessionInfo, wtsapi32/WTSSessionInfoEx, wtsapi32/WTSUserName, wtsapi32/WTSValidationInfo, wtsapi32/WTSWinStationName, wtsapi32/WTSWorkingDirectory, wtsapi32/WTS_INFO_CLASS
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -184,6 +184,8 @@ The RDP protocol.
 
 This value returns <b>FALSE</b>. If you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
 
+To caculate session idle time, use the <a href="https://learn.microsoft.com/en-us/windows/win32/api/wtsapi32/ns-wtsapi32-wtsinfoa">LastInputTime</a> structure field.
+
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not used.
 
 ### -field WTSLogonTime
@@ -252,6 +254,20 @@ A <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_address">WTS_SE
 Determines whether the current session is a remote session. The <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function returns a value of <b>TRUE</b> to indicate that the current session is a remote session, and <b>FALSE</b> to indicate that the current session is a local session. This value can only be used for the local machine, so the <i>hServer</i> parameter of the <b>WTSQuerySessionInformation</b> function must contain <b>WTS_CURRENT_SERVER_HANDLE</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
+
+### -field WTSSessionActivityId
+
+A **GUID** value that contains the Terminal Services activity ID currently associated with the session.
+
+**Versions prior to Windows Server 2025 or Windows 11 (23H2):** This value is not supported.
+
+### -field WTSCapabilityCheck
+
+An **array of UINT32** values corresponding to whether certain capabilities are supported by the session host.
+
+If the list includes the value `59083637` then that means that RAIL protocol v2 is supported.
+
+**Versions prior to Windows Server 2025 or Windows 11 (24H2):** This value is not supported.
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetEndOfLine","Edit_GetEndOfLine macro [Windows Cont
 old-location: controls\edit_getendofline.htm
 tech.root: Controls
 ms.assetid: 27B0CB7B-08BE-48FD-BF65-4F2B9C481A9C
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetEndOfLine, Edit_GetEndOfLine macro [Windows Controls], commctrl/Edit_GetEndOfLine, controls.edit_getendofline
 req.header: commctrl.h
 req.include-header: 
@@ -47,10 +47,29 @@ api_name:
 
 # Edit_GetEndOfLine macro
 
+## -syntax
+
+```cpp
+EC_ENDOFLINE Edit_GetEndOfLine(
+    HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **EC_ENDOFLINE**
+
+Returns an [EC_ENDOFLINE](/windows/win32/api/commctrl/ne-commctrl-ec_endofline) value that represents the end of line character currently in use for a given edit control.
+
+It can be one of the following **EC_ENDOFLINE** values.
+
+| Value | Meaning |
+|-|-|
+| **EC_ENDOFLINE_CRLF** | The end-of-line character used for new linebreaks is carriage return followed by linefeed (CRLF). |
+| **EC_ENDOFLINE_CR** | The end-of-line character used for new linebreaks is carriage return (CR). |
+| **EC_ENDOFLINE_LF** | The end-of-line character used for new linebreaks is linefeed (LF). |
 
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Gets the end of line character used for the content of the edit control. You can use this macro or send the <a href="/windows/desktop/controls/em-getendofline">EM_GETENDOFLINE</a> message explicitly.
 

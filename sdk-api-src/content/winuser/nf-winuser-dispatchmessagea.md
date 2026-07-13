@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DispatchMessageA
 title: DispatchMessageA function (winuser.h)
-description: Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the GetMessage function.
-helpviewer_keywords: ["DispatchMessage","DispatchMessage function [Windows and Messages]","DispatchMessageA","DispatchMessageW","_win32_DispatchMessage","_win32_dispatchmessage_cpp","winmsg.dispatchmessage","winui._win32_dispatchmessage","winuser/DispatchMessage","winuser/DispatchMessageA","winuser/DispatchMessageW"]
+description: Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the GetMessage function. (DispatchMessageA)
+helpviewer_keywords: ["DispatchMessageA", "winuser/DispatchMessageA"]
 old-location: winmsg\dispatchmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\dispatchmessage.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-message-ansi-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-message-l1-1-0.dll
  - ie_shims.dll
@@ -95,7 +96,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-
 
 
 > [!NOTE]
-> The winuser.h header defines DispatchMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines DispatchMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetPropertyValues(DWRITE_FONT_PROPERTY_ID,IDWriteStringList)
 title: IDWriteFontSet::GetPropertyValues(DWRITE_FONT_PROPERTY_ID,IDWriteStringList) (dwrite_3.h)
-description: Returns the property values of a specific font item index.
+description: Returns the property values of a specific font item index. (overload 2/3)
 helpviewer_keywords: ["GetPropertyValues","GetPropertyValues method [Direct Write]","GetPropertyValues method [Direct Write]","IDWriteFontSet interface","IDWriteFontSet interface [Direct Write]","GetPropertyValues method","IDWriteFontSet.GetPropertyValues","IDWriteFontSet.GetPropertyValues(DWRITE_FONT_PROPERTY_ID","IDWriteStringList)","IDWriteFontSet::GetPropertyValues","IDWriteFontSet::GetPropertyValues(DWRITE_FONT_PROPERTY_ID","IDWriteStringList)","directwrite.idwritefontset_getpropertyvalues_1","dwrite_3/IDWriteFontSet::GetPropertyValues"]
 old-location: directwrite\idwritefontset_getpropertyvalues_1.htm
 tech.root: DirectWrite
 ms.assetid: 4523d5a6-9d5f-61ac-a47f-810fef1522a9
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetPropertyValues, GetPropertyValues method [Direct Write], GetPropertyValues method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetPropertyValues method, IDWriteFontSet.GetPropertyValues, IDWriteFontSet.GetPropertyValues(DWRITE_FONT_PROPERTY_ID,IDWriteStringList), IDWriteFontSet::GetPropertyValues, IDWriteFontSet::GetPropertyValues(DWRITE_FONT_PROPERTY_ID,IDWriteStringList), directwrite.idwritefontset_getpropertyvalues_1, dwrite_3/IDWriteFontSet::GetPropertyValues
 req.header: dwrite_3.h
 req.include-header: 
@@ -70,7 +70,7 @@ Receives a pointer to the newly created localized strings object, or nullptr on 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

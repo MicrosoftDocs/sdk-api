@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetVolumePathNamesForVolumeNameW
 title: GetVolumePathNamesForVolumeNameW function (fileapi.h)
-description: Retrieves a list of drive letters and mounted folder paths for the specified volume.
+description: Retrieves a list of drive letters and mounted folder paths for the specified volume. (GetVolumePathNamesForVolumeNameW)
 helpviewer_keywords: ["GetVolumePathNamesForVolumeName","GetVolumePathNamesForVolumeName function [Files]","GetVolumePathNamesForVolumeNameA","GetVolumePathNamesForVolumeNameW","_win32_getvolumepathnamesforvolumename","base.getvolumepathnamesforvolumename","fileapi/GetVolumePathNamesForVolumeName","fileapi/GetVolumePathNamesForVolumeNameA","fileapi/GetVolumePathNamesForVolumeNameW","fs.getvolumepathnamesforvolumename","winbase/GetVolumePathNamesForVolumeName","winbase/GetVolumePathNamesForVolumeNameA","winbase/GetVolumePathNamesForVolumeNameW"]
 old-location: fs\getvolumepathnamesforvolumename.htm
 tech.root: fs
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-2-0.dll
  - KernelBase.dll
@@ -79,13 +82,13 @@ A pointer to a buffer that receives the list of drive letters and mounted folder
 ### -param cchBufferLength [in]
 
 The length of the <i>lpszVolumePathNames</i> buffer, in 
-      <b>TCHARs</b>, including all <b>NULL</b> characters.
+      <b>WCHARs</b>, including all <b>NULL</b> characters.
 
 ### -param lpcchReturnLength [out]
 
-If the call is successful, this parameter is the number of <b>TCHARs</b> copied to 
+If the call is successful, this parameter is the number of <b>WCHARs</b> copied to 
       the <i>lpszVolumePathNames</i> buffer. Otherwise, this parameter is the size of the buffer 
-      required to hold the complete list, in <b>TCHARs</b>.
+      required to hold the complete list, in <b>WCHARs</b>.
 
 ## -returns
 

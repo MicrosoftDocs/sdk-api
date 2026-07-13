@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","put_currentMe
 old-location: wmp\iwmpcore_put_currentmedia.htm
 tech.root: WMP
 ms.assetid: 003d1937-13f0-4d2c-ad5c-a83569295b62
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentMedia method, IWMPCore.put_currentMedia, IWMPCore::put_currentMedia, IWMPCoreput_currentMedia, put_currentMedia, put_currentMedia method [Windows Media Player], put_currentMedia method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentmedia, wmp/IWMPCore::put_currentMedia
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_currentMedia</b> method specifies the <b>IWMPMedia</b> interface that corresponds to the current media item.
 

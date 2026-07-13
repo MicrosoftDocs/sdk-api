@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagPDEXA
 title: PRINTDLGEXA (commdlg.h)
-description: Contains information that the PrintDlgEx function uses to initialize the Print property sheet. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
+description: Contains information that the PrintDlgEx function uses to initialize the Print property sheet. After the user closes the property sheet, the system uses this structure to return information about the user's selections. (ANSI)
 helpviewer_keywords: ["*LPPRINTDLGEXA","LPPRINTDLGEX","LPPRINTDLGEX structure pointer [Dialog Boxes]","PD_ALLPAGES","PD_COLLATE","PD_CURRENTPAGE","PD_DISABLEPRINTTOFILE","PD_ENABLEPRINTTEMPLATE","PD_ENABLEPRINTTEMPLATEHANDLE","PD_EXCLUSIONFLAGS","PD_EXCL_COPIESANDCOLLATE","PD_HIDEPRINTTOFILE","PD_NOCURRENTPAGE","PD_NOPAGENUMS","PD_NOSELECTION","PD_NOWARNING","PD_PAGENUMS","PD_PRINTTOFILE","PD_RESULT_APPLY","PD_RESULT_CANCEL","PD_RESULT_PRINT","PD_RETURNDC","PD_RETURNDEFAULT","PD_RETURNIC","PD_SELECTION","PD_USEDEVMODECOPIES","PD_USEDEVMODECOPIESANDCOLLATE","PD_USELARGETEMPLATE","PRINTDLGEX","PRINTDLGEX structure [Dialog Boxes]","PRINTDLGEXA","PRINTDLGEXW","_win32_PRINTDLGEX_str","_win32_printdlgex_str_cpp","commdlg/LPPRINTDLGEX","commdlg/PRINTDLGEX","commdlg/PRINTDLGEXA","commdlg/PRINTDLGEXW","dlgbox.printdlgex_str","tagPDEXA","tagPDEXW","winui._win32_printdlgex_str"]
 old-location: dlgbox\printdlgex_str.htm
 tech.root: dlgbox
@@ -96,7 +96,7 @@ For more information about the <b>hDevMode</b> and <b>hDevNames</b> members, see
 
 Type: <b>HDC</b>
 
-A handle to a device context or an information context, depending on whether the <b>Flags</b> member specifies the <b>PD_RETURNDC</b> or <b>PC_RETURNIC</b> flag. If neither flag is specified, the value of this member is undefined. If both flags are specified, <b>PD_RETURNDC</b> has priority.
+A handle to a device context or an information context, depending on whether the <b>Flags</b> member specifies the <b>PD_RETURNDC</b> or <b>PC_RETURNIC</b> flag. If neither flag is specified, then the value of this member is undefined. If both flags are specified, then <b>PD_RETURNDC</b> has priority. If <b>hDC</b> isn't <b>NULL</b>, then you must call <a href="/windows/win32/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> to free the GDI object after you no longer need it; otherwise you'll leak GDI objects whenever you call <a href="/windows/win32/api/commdlg/nc-commdlg-printdlgw"> PrintDlgw </a> APIs.
 
 ### -field Flags
 
@@ -500,7 +500,7 @@ During the execution of <a href="/previous-versions/windows/desktop/legacy/ms646
 
 
 > [!NOTE]
-> The commdlg.h header defines PRINTDLGEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines PRINTDLGEX as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

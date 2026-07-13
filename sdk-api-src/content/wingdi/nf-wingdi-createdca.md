@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateDCA
 title: CreateDCA function (wingdi.h)
-description: The CreateDC function creates a device context (DC) for a device using the specified name.
-helpviewer_keywords: ["CreateDC","CreateDC function [Windows GDI]","CreateDCA","CreateDCW","_win32_CreateDC","gdi.createdc","wingdi/CreateDC","wingdi/CreateDCA","wingdi/CreateDCW"]
+description: The CreateDC function creates a device context (DC) for a device using the specified name. (ANSI)
+helpviewer_keywords: ["CreateDCA", "wingdi/CreateDCA"]
 old-location: gdi\createdc.htm
 tech.root: gdi
 ms.assetid: 6fc443c8-da97-4196-a9ed-179a4e583849
@@ -117,7 +117,7 @@ For an example, see <a href="/windows/desktop/gdi/capturing-an-image">Capturing 
 
 
 > [!NOTE]
-> The wingdi.h header defines CreateDC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines CreateDC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

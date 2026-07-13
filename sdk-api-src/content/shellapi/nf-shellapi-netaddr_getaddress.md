@@ -6,7 +6,7 @@ helpviewer_keywords: ["NetAddr_GetAddress","NetAddr_GetAddress macro [Windows Sh
 old-location: shell\NetAddr_GetAddress.htm
 tech.root: shell
 ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shell_NetAddr_GetAddress, shell.NetAddr_GetAddress, shellapi/NetAddr_GetAddress
 req.header: shellapi.h
 req.include-header: 
@@ -46,6 +46,27 @@ api_name:
 ---
 
 # NetAddr_GetAddress macro
+
+## -syntax
+
+```cpp
+HRESULT NetAddr_GetAddress(
+             HWND hwnd,
+  [in, out]  LPARAM pv
+);
+```
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns one of the following values of type **HRESULT**:
+
+- **E_INVALIDARG** - The calling application failed to allocate a **NC_ADDRESS** structure.
+- **ERROR_INSUFFICIENT_BUFFER** - The out buffer is too small to hold the parsed network address.
+- **ERROR_INVALID_PARAMETER** - The network address string is not of any type specified.
+- **ERROR_SUCCESS** - The operation was successful.
+- **S_FALSE** - There is no address in the network address control to validate.
 
 
 ## -description

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemNaming.SetFriendlyName
 title: IVdsSubSystemNaming::SetFriendlyName (vdshwprv.h)
-description: Sets the friendly name of a subsystem.
+description: The IVdsSubSystemNaming::SetFriendlyName (vdshwprv.h) method sets the friendly name of a subsystem.
 helpviewer_keywords: ["IVdsSubSystemNaming interface","SetFriendlyName method","IVdsSubSystemNaming.SetFriendlyName","IVdsSubSystemNaming::SetFriendlyName","SetFriendlyName","SetFriendlyName method","SetFriendlyName method","IVdsSubSystemNaming interface","base.ivdssubsystemnaming_setfriendlyname","vds/IVdsSubSystemNaming::SetFriendlyName","vdshwprv/IVdsSubSystemNaming::SetFriendlyName"]
 old-location: base\ivdssubsystemnaming_setfriendlyname.htm
 tech.root: base
 ms.assetid: 8356eb25-af8c-4643-9ac4-e4ce001b617c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemNaming interface,SetFriendlyName method, IVdsSubSystemNaming.SetFriendlyName, IVdsSubSystemNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method, SetFriendlyName method,IVdsSubSystemNaming interface, base.ivdssubsystemnaming_setfriendlyname, vds/IVdsSubSystemNaming::SetFriendlyName, vdshwprv/IVdsSubSystemNaming::SetFriendlyName
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the friendly name of a subsystem.
 
@@ -73,7 +73,7 @@ This method can return standard <b>HRESULT</b> values, such as <b>E_INVALIDARG</
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,7 @@ The name was successfully set.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_S_NAME_TRUNCATED</b></b></dt>
+<dt><b>VDS_S_NAME_TRUNCATED</b></dt>
 <dt>0x00042700L</dt>
 </dl>
 </td>
@@ -97,7 +97,7 @@ The name was set successfully but had to be truncated due to limitations in the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -113,7 +113,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -125,7 +125,7 @@ The subsystem object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_STATUS_FAILED</b></b></dt>
+<dt><b>VDS_E_OBJECT_STATUS_FAILED</b></dt>
 <dt>0x80042431L</dt>
 </dl>
 </td>
@@ -137,7 +137,7 @@ The subsystem is in a failed state and is unable to perform the requested operat
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>
@@ -150,7 +150,7 @@ Another operation is in progress. This operation cannot proceed until  previous 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 <dt>0x80042400L</dt>
 </dl>
 </td>

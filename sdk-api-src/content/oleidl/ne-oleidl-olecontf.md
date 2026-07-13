@@ -57,25 +57,25 @@ Indicates the type of objects
 
 ## -enum-fields
 
-### -field OLECONTF_EMBEDDINGS
+### -field OLECONTF_EMBEDDINGS:1
 
 Enumerates the embedded objects in the container.
 
-### -field OLECONTF_LINKS
+### -field OLECONTF_LINKS:2
 
 Enumerates the linked objects in the container.
 
-### -field OLECONTF_OTHERS
+### -field OLECONTF_OTHERS:4
 
 Enumerates all objects in the container that are not OLE compound document objects (i.e., objects other than 
        linked or embedded objects). Use this flag to enumerate the container's pseudo-objects.
 
-### -field OLECONTF_ONLYUSER
+### -field OLECONTF_ONLYUSER:8
 
 Enumerates only those objects the user is aware of. For example, hidden named-ranges in Microsoft Excel would 
        not be enumerated using this value.
 
-### -field OLECONTF_ONLYIFRUNNING
+### -field OLECONTF_ONLYIFRUNNING:16
 
 Enumerates only those linked or embedded objects that are currently in the running state for this 
        container.

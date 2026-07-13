@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateRenderTargetView
 title: ID3D11Device::CreateRenderTargetView (d3d11.h)
-description: Creates a render-target view for accessing resource data.
+description: Creates a render-target view for accessing resource data. (ID3D11Device.CreateRenderTargetView)
 helpviewer_keywords: ["02715db5-c01a-06db-fe93-51594d87921b","CreateRenderTargetView","CreateRenderTargetView method [Direct3D 11]","CreateRenderTargetView method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateRenderTargetView method","ID3D11Device.CreateRenderTargetView","ID3D11Device::CreateRenderTargetView","d3d11/ID3D11Device::CreateRenderTargetView","direct3d11.id3d11device_createrendertargetview"]
 old-location: direct3d11\id3d11device_createrendertargetview.htm
 tech.root: direct3d11

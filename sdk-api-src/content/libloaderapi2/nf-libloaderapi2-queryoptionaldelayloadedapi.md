@@ -93,7 +93,7 @@ To check whether a function in a delay-loaded DLL is available on the system, th
 
 #### Examples
 
-The following example shows how to use <b>QueryOptionalDelayLoadedAPI</b> to determine whether the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function is available on the system.
+The following example shows how to use <b>QueryOptionalDelayLoadedAPI</b> to determine whether the <a href="/windows/win32/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> function is available on the system.
 
 
 ```cpp

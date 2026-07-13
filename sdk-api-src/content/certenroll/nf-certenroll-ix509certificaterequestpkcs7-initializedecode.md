@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeDecode
 title: IX509CertificateRequestPkcs7::InitializeDecode (certenroll.h)
-description: Decodes an existing signed or unsigned PKCS
+description: Decodes an existing signed or unsigned PKCS (IX509CertificateRequestPkcs7.InitializeDecode)
 helpviewer_keywords: ["IX509CertificateRequestPkcs7 interface [Security]","InitializeDecode method","IX509CertificateRequestPkcs7.InitializeDecode","IX509CertificateRequestPkcs7::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509CertificateRequestPkcs7 interface","certenroll/IX509CertificateRequestPkcs7::InitializeDecode","security.ix509certificaterequestpkcs7_initializedecode_method"]
 old-location: security\ix509certificaterequestpkcs7_initializedecode_method.htm
 tech.root: security
@@ -76,7 +76,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></dt>
 <dt></dt>
 </dl>
 </td>

@@ -56,11 +56,11 @@ Cancels a connection that was previously established by using <a href="/windows/
 
 ### -param dwCookie [in]
 
-A token that uniquely identifies the connection to cancel, which is provided by a previous call to to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a> method.
+A token that uniquely identifies the connection to cancel, which is provided by a previous call to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a> method.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

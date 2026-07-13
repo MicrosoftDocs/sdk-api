@@ -56,7 +56,7 @@ Saves to disk all the changes that were made in an <a href="/windows/desktop/Dev
 > [!NOTE] 
 > **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
-## -parameters
+
 
 ## -returns
 

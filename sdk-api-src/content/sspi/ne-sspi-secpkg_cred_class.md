@@ -58,19 +58,19 @@ Indicates the type of credential used in a client context. The <b>SECPKG_CRED_CL
 
 ## -enum-fields
 
-### -field SecPkgCredClass_None
+### -field SecPkgCredClass_None:0
 
 No credentials are supplied.
 
-### -field SecPkgCredClass_Ephemeral
+### -field SecPkgCredClass_Ephemeral:10
 
 Indicates the credentials used to log on to the system.
 
-### -field SecPkgCredClass_PersistedGeneric
+### -field SecPkgCredClass_PersistedGeneric:20
 
 Indicates saved credentials that are not target specific.
 
-### -field SecPkgCredClass_PersistedSpecific
+### -field SecPkgCredClass_PersistedSpecific:30
 
 Indicates saved credentials that are target specific.
 

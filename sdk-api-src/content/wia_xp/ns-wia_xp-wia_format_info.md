@@ -47,6 +47,7 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_FORMAT_INFO
+archived: true
 ---
 
 # WIA_FORMAT_INFO structure

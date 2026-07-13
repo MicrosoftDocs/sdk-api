@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_GetText","ComboBox_GetText macro [Windows Contro
 old-location: controls\ComboBox_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_gettext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_GetText, ComboBox_GetText macro [Windows Controls], _win32_ComboBox_GetText, _win32_ComboBox_GetText_cpp, controls.ComboBox_GetText, controls._win32_ComboBox_GetText, windowsx/ComboBox_GetText
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ComboBox_GetText macro
+
+## -syntax
+
+```cpp
+int ComboBox_GetText(
+   HWND   hwndCtl,
+   LPTSTR lpch,
+   int    cchMax
+);
+```
+
+## -returns
+
+Type: **int**
+
+The length, in characters, of the copied string, not including the terminating NULL character.
 
 
 ## -description

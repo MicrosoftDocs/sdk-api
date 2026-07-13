@@ -53,7 +53,7 @@ api_name:
 The 
 <b>PauseSubStream</b> method pauses the substream.
 
-## -parameters
+
 
 ## -returns
 

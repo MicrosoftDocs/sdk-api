@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIConvertA
 title: OleUIConvertA function (oledlg.h)
-description: Invokes the standard Convert dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class.
-helpviewer_keywords: ["OleUIConvert","OleUIConvert function [COM]","OleUIConvertA","OleUIConvertW","_ole_OleUIConvert","com.oleuiconvert","oledlg/OleUIConvert","oledlg/OleUIConvertA","oledlg/OleUIConvertW"]
+description: Invokes the standard Convert dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class. (ANSI)
+helpviewer_keywords: ["OleUIConvertA", "oledlg/OleUIConvertA"]
 old-location: com\oleuiconvert.htm
 tech.root: com
 ms.assetid: 3af4b321-cea2-4f88-ae22-2dcefbb2c2ad
@@ -414,7 +414,7 @@ The convert command, which invokes this function, should only be made available 
 
 
 > [!NOTE]
-> The oledlg.h header defines OLEUICONVERT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUICONVERT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

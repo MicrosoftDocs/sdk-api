@@ -88,7 +88,7 @@ One of the parameters was invalid. This error is returned if either the <i>Inter
 
 ## -remarks
 
-The <b>ConvertInterfaceGuidToLuid</b> function is available on Windows Vistaand later.
+The <b>ConvertInterfaceGuidToLuid</b> function is available on Windows Vista and later.
 
 The <b>ConvertInterfaceGuidToLuid</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol.
 

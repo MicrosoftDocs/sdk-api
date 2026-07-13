@@ -6,7 +6,7 @@ helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_SourceHeight met
 old-location: dshow\ibasicvideo_get_sourceheight.htm
 tech.root: dshow
 ms.assetid: 3f4e779a-cfa9-496d-a021-d24ae3daa5b3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceHeight method, IBasicVideo.get_SourceHeight, IBasicVideo::get_SourceHeight, IBasicVideoget_SourceHeight, control/IBasicVideo::get_SourceHeight, dshow.ibasicvideo_get_sourceheight, get_SourceHeight, get_SourceHeight method [DirectShow], get_SourceHeight method [DirectShow],IBasicVideo interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_SourceHeight</code> method retrieves the height of the source rectangle.
 

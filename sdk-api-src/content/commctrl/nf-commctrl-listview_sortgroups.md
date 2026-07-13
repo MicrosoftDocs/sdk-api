@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SortGroups","ListView_SortGroups macro [Windows 
 old-location: controls\ListView_SortGroups.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortgroups.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SortGroups, ListView_SortGroups macro [Windows Controls], _win32_ListView_SortGroups, _win32_ListView_SortGroups_cpp, commctrl/ListView_SortGroups, controls.ListView_SortGroups, controls._win32_ListView_SortGroups
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_SortGroups macro
+
+## -syntax
+
+```cpp
+int ListView_SortGroups(
+   HWND              hwnd,
+   PFNLVGROUPCOMPARE _pfnGroupCompate,
+   LPVOID            _plv
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns 1 if successful, or 0 otherwise.
 
 
 ## -description

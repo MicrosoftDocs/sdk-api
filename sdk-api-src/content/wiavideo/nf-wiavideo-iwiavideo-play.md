@@ -43,6 +43,7 @@ api_location:
  - Wiavideo.dll
 api_name:
  - IWiaVideo.Play
+archived: true
 ---
 
 # IWiaVideo::Play
@@ -52,7 +53,7 @@ api_name:
 
 Begins playback of streaming video.
 
-## -parameters
+
 
 ## -returns
 

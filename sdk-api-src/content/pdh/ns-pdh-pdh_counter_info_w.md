@@ -1,7 +1,7 @@
 ---
 UID: NS:pdh._PDH_COUNTER_INFO_W
 title: PDH_COUNTER_INFO_W (pdh.h)
-description: The PDH_COUNTER_INFO structure contains information describing the properties of a counter. This information also includes the counter path.
+description: The PDH_COUNTER_INFO structure contains information describing the properties of a counter. This information also includes the counter path. (Unicode)
 helpviewer_keywords: ["*PPDH_COUNTER_INFO_W","PDH_COUNTER_INFO","PDH_COUNTER_INFO structure [Perf]","PDH_COUNTER_INFO_A","PDH_COUNTER_INFO_W","PPDH_COUNTER_INFO","PPDH_COUNTER_INFO structure pointer [Perf]","_win32_pdh_counter_info_str","base.pdh_counter_info_str","pdh/PDH_COUNTER_INFO","pdh/PDH_COUNTER_INFO_A","pdh/PDH_COUNTER_INFO_W","pdh/PPDH_COUNTER_INFO","perf.pdh_counter_info_str"]
 old-location: perf\pdh_counter_info_str.htm
 tech.root: perf

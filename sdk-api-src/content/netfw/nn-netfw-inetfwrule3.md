@@ -54,11 +54,7 @@ The <b>INetFwRule3</b> interface allows an application or service to access all 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRule3</b> interface inherits from <b>INetFwRule2</b>. <b>INetFwRule3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>INetFwRule3</b> interface inherits from <b>INetFwRule2</b>. <b>INetFwRule3</b> also has these types of members:
 
 ## -see-also
 

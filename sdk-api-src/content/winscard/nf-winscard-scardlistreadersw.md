@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardListReadersW
 title: SCardListReadersW function (winscard.h)
-description: Provides the list of readers within a set of named reader groups, eliminating duplicates.
-helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardListReaders","SCardListReaders function [Security]","SCardListReadersA","SCardListReadersW","_smart_scardlistreaders","security.scardlistreaders","winscard/SCardListReaders","winscard/SCardListReadersA","winscard/SCardListReadersW"]
+description: Provides the list of readers within a set of named reader groups, eliminating duplicates. (Unicode)
+helpviewer_keywords: ["SCARD_ALL_READERS", "SCARD_DEFAULT_READERS", "SCARD_LOCAL_READERS", "SCARD_SYSTEM_READERS", "SCardListReaders", "SCardListReaders function [Security]", "SCardListReadersW", "_smart_scardlistreaders", "security.scardlistreaders", "winscard/SCardListReaders", "winscard/SCardListReadersW"]
 old-location: security\scardlistreaders.htm
 tech.root: security
 ms.assetid: b50218f1-e960-4838-b44b-6c71fa94a0ad
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-security-winscard-l1-1-1.dll
  - Winscard.dll
  - Ext-MS-Win-wlan-scard-l1-1-0.dll
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
@@ -253,7 +254,7 @@ default:
 
 
 > [!NOTE]
-> The winscard.h header defines SCardListReaders as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardListReaders as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

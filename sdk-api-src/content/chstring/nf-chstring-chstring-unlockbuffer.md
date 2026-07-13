@@ -59,7 +59,7 @@ api_name:
 
 The <b>UnlockBuffer</b> method unlocks the buffer that was previously secured by calling <a href="/windows/desktop/api/chstring/nf-chstring-chstring-lockbuffer">LockBuffer</a> and resets the reference count to 1.
 
-## -parameters
+
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterGroupEx
 title: OpenClusterGroupEx function (clusapi.h)
-description: Opens a failover cluster group and returns a handle to it.
+description: Opens a failover cluster group and returns a handle to it. (OpenClusterGroupEx)
 helpviewer_keywords: ["OpenClusterGroupEx","OpenClusterGroupEx function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_GROUP_EX","PCLUSAPI_OPEN_CLUSTER_GROUP_EX function [Failover Cluster]","clusapi/OpenClusterGroupEx","clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_EX","mscs.openclustergroupex"]
 old-location: mscs\openclustergroupex.htm
 tech.root: MsCS

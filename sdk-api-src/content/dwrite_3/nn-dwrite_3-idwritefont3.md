@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDWriteFont3","IDWriteFont3 interface [Direct Write]","ID
 old-location: directwrite\idwritefont3.htm
 tech.root: DirectWrite
 ms.assetid: 0BD21E3C-5F02-4A51-B64C-847B0DD5656B
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteFont3, IDWriteFont3 interface [Direct Write], IDWriteFont3 interface [Direct Write],described, directwrite.idwritefont3, dwrite_3/IDWriteFont3
 req.header: dwrite_3.h
 req.include-header: 
@@ -54,12 +54,9 @@ Represents a font in a font collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFont3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritefont2">IDWriteFont2</a>. <b>IDWriteFont3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFont3</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefont2">IDWriteFont2</a>. <b>IDWriteFont3</b> also has these types of members:
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritefont2">IDWriteFont2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefont2">IDWriteFont2</a>
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:ws2atm.__unnamed_struct_0
+UID: NS:ws2atm.ATM_ADDRESS
 title: ATM_ADDRESS (ws2atm.h)
 description: The ATM_ADDRESS structure holds ATM address data for ATM-based sockets.
 helpviewer_keywords: ["ATM_ADDRESS","ATM_ADDRESS structure [Winsock]","ATM_CALLED_PARTY_NUMBER_IE","ATM_CALLED_PARTY_SUBADDRESS_IE","ATM_CALLING_PARTY_SUBADDRESS_IE","_win32_atm_address_2","winsock.atm_address_2","ws2atm/ATM_ADDRESS"]
@@ -78,3 +78,4 @@ A value of SAP_FIELD_ANY in <b>AddressType</b> indicates that the <b>satm_number
 ## -see-also
 
 <a href="/windows/desktop/api/ws2atm/ns-ws2atm-sockaddr_atm">sockaddr_atm</a>
+

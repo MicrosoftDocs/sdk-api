@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetType","GetType method","GetType method","ISensor inter
 old-location: winsensors_com_ref\isensor_gettype.htm
 tech.root: winsensors
 ms.assetid: b01434ec-163a-4d91-a457-3d2a2c2a710a
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetType, GetType method, GetType method,ISensor interface, ISensor interface,GetType method, ISensor.GetType, ISensor::GetType, sensorsapi/ISensor::GetType, winsensors_com_ref.isensor_gettype
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the sensor type ID.
 

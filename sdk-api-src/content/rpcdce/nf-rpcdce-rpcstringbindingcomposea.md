@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcStringBindingComposeA
 title: RpcStringBindingComposeA function (rpcdce.h)
-description: The RpcStringBindingCompose function creates a string binding handle.
-helpviewer_keywords: ["RpcStringBindingCompose","RpcStringBindingCompose function [RPC]","RpcStringBindingComposeA","RpcStringBindingComposeW","_rpc_rpcstringbindingcompose","rpc.rpcstringbindingcompose","rpcdce/RpcStringBindingCompose","rpcdce/RpcStringBindingComposeA","rpcdce/RpcStringBindingComposeW"]
+description: The RpcStringBindingCompose function creates a string binding handle. (RpcStringBindingComposeA)
+helpviewer_keywords: ["RpcStringBindingComposeA", "rpcdce/RpcStringBindingComposeA"]
 old-location: rpc\rpcstringbindingcompose.htm
 tech.root: Rpc
 ms.assetid: 3f972fc9-67ca-4aa7-a0a0-204a8d90e928
@@ -146,7 +146,7 @@ Literal backslash characters within C-language strings must be quoted. The actua
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcStringBindingCompose as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcStringBindingCompose as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:relogger._ETW_BUFFER_CONTEXT
 title: ETW_BUFFER_CONTEXT (relogger.h)
-description: Provides context information about the event.
+description: Provides context information about the event. (ETW_BUFFER_CONTEXT)
 helpviewer_keywords: ["*PETW_BUFFER_CONTEXT","ETW_BUFFER_CONTEXT","ETW_BUFFER_CONTEXT structure [ETW]","PETW_BUFFER_CONTEXT","PETW_BUFFER_CONTEXT structure pointer [ETW]","_ETW_BUFFER_CONTEXT","base.etw_buffer_context","etw.etw_buffer_context","relogger/ETW_BUFFER_CONTEXT","relogger/PETW_BUFFER_CONTEXT"]
 old-location: etw\etw_buffer_context.htm
 tech.root: ETW
@@ -17,7 +17,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Relogger.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

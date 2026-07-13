@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_4
+UID: NS:processsnapshot.PSS_HANDLE_INFORMATION
 title: PSS_HANDLE_INFORMATION (processsnapshot.h)
 description: Holds handle information returned by PssQuerySnapshot.
 helpviewer_keywords: ["PSS_HANDLE_INFORMATION","PSS_HANDLE_INFORMATION structure","proc_snap.pss_handle_information","processsnapshot/PSS_HANDLE_INFORMATION"]
@@ -65,3 +65,4 @@ The count of handles captured.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

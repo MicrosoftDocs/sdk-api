@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DefMDIChildProcA
 title: DefMDIChildProcA function (winuser.h)
-description: Provides default processing for any window message that the window procedure of a multiple-document interface (MDI) child window does not process.
-helpviewer_keywords: ["DefMDIChildProc","DefMDIChildProc function [Windows and Messages]","DefMDIChildProcA","DefMDIChildProcW","_win32_DefMDIChildProc","_win32_defmdichildproc_cpp","winmsg.defmdichildproc","winui._win32_defmdichildproc","winuser/DefMDIChildProc","winuser/DefMDIChildProcA","winuser/DefMDIChildProcW"]
+description: Provides default processing for any window message that the window procedure of a multiple-document interface (MDI) child window does not process. (ANSI)
+helpviewer_keywords: ["DefMDIChildProcA", "winuser/DefMDIChildProcA"]
 old-location: winmsg\defmdichildproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\defmdichildproc.htm
@@ -40,6 +40,13 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
+ - ext-ms-win-ntuser-window-l1-1-4.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - ext-ms-win-ntuser-window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-0.dll
  - User32.dll
 api_name:
  - DefMDIChildProc
@@ -149,7 +156,7 @@ When an application's window procedure does not handle a message, it typically p
 
 
 > [!NOTE]
-> The winuser.h header defines DefMDIChildProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines DefMDIChildProc as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

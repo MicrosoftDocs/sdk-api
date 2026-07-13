@@ -45,12 +45,9 @@ api_name:
  - CreateDXGIFactory2
 ---
 
-# CreateDXGIFactory2 function
-
-
 ## -description
 
-Creates a DXGI 1.3 factory that you can use to generate other  DXGI objects.
+Creates a DXGI 1.3 factory that you can use to generate other DXGI objects.
 
 In Windows 8, any DXGI factory created while DXGIDebug.dll was present on the system would load and use it. Starting in Windows 8.1, apps explicitly request that DXGIDebug.dll be loaded instead. Use <b>CreateDXGIFactory2</b> and specify the DXGI_CREATE_FACTORY_DEBUG flag to request DXGIDebug.dll; the DLL will be loaded if it is present on the system.
 
@@ -64,7 +61,7 @@ Valid values include the <b>DXGI_CREATE_FACTORY_DEBUG (0x01)</b> flag, and zero.
 
 <div class="alert"><b>Note</b>  This flag will be set by the D3D runtime if:<ul>
 <li>The system creates an implicit factory during device creation.</li>
-<li>The D3D11_CREATE_DEVICE_DEBUG flag is specified during device creation, for example using <a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a> (or the swapchain method, or the Direct3D 10 equivalents).</li>
+<li>The D3D11_CREATE_DEVICE_DEBUG flag is specified during device creation, for example using <a href="/windows/win32/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a> (or the swapchain method, or the Direct3D 10 equivalents).</li>
 </ul>
 </div>
 <div> </div>
@@ -73,14 +70,14 @@ Valid values include the <b>DXGI_CREATE_FACTORY_DEBUG (0x01)</b> flag, and zero.
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (GUID) of the <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a> object referenced by 
+The globally unique identifier (GUID) of the <a href="/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a> object referenced by 
           the <i>ppFactory</i> parameter.
 
 ### -param ppFactory [out]
 
 Type: <b>void**</b>
 
-Address of a pointer to an <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a> object.
+Address of a pointer to an [IDXGIFactory2](/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) interface.
 
 ## -returns
 
@@ -90,7 +87,7 @@ Returns S_OK if successful; an error code otherwise. For a list of error codes, 
 
 ## -remarks
 
-This function accepts a flag indicating whether DXGIDebug.dll is loaded. The function otherwise behaves identically to <a href="/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a>.
+This function accepts a flag indicating whether DXGIDebug.dll is loaded. The function otherwise behaves identically to <a href="/windows/win32/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a>.
 
 ## -see-also
 

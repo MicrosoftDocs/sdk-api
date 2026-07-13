@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetCharacterPlacementA
 title: GetCharacterPlacementA function (wingdi.h)
-description: The GetCharacterPlacement function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering.
-helpviewer_keywords: ["GCP_CLASSIN","GCP_DIACRITIC","GCP_DISPLAYZWG","GCP_GLYPHSHAPE","GCP_JUSTIFY","GCP_KASHIDA","GCP_LIGATE","GCP_MAXEXTENT","GCP_NEUTRALOVERRIDE","GCP_NUMERICOVERRIDE","GCP_NUMERICSLATIN","GCP_NUMERICSLOCAL","GCP_REORDER","GCP_SYMSWAPOFF","GCP_USEKERNING","GetCharacterPlacement","GetCharacterPlacement function [Windows GDI]","GetCharacterPlacementA","GetCharacterPlacementW","_win32_GetCharacterPlacement","gdi.getcharacterplacement","wingdi/GetCharacterPlacement","wingdi/GetCharacterPlacementA","wingdi/GetCharacterPlacementW"]
+description: The GetCharacterPlacement function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering. (ANSI)
+helpviewer_keywords: ["GCP_CLASSIN", "GCP_DIACRITIC", "GCP_DISPLAYZWG", "GCP_GLYPHSHAPE", "GCP_JUSTIFY", "GCP_KASHIDA", "GCP_LIGATE", "GCP_MAXEXTENT", "GCP_NEUTRALOVERRIDE", "GCP_NUMERICOVERRIDE", "GCP_NUMERICSLATIN", "GCP_NUMERICSLOCAL", "GCP_REORDER", "GCP_SYMSWAPOFF", "GCP_USEKERNING", "GetCharacterPlacementA", "wingdi/GetCharacterPlacementA"]
 old-location: gdi\getcharacterplacement.htm
 tech.root: gdi
 ms.assetid: 80d3f4b3-503b-4abb-826c-e5c09972ba2f
@@ -211,7 +211,7 @@ Certain languages only. Override the normal handling of numerics and treat them 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -221,7 +221,7 @@ Arabic/Thai only. Use standard Latin glyphs for numbers and override the system 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -298,7 +298,7 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 > [!NOTE]
-> The wingdi.h header defines GetCharacterPlacement as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetCharacterPlacement as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -330,7 +330,7 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 
-<a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>
+<a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a>
 
 
 

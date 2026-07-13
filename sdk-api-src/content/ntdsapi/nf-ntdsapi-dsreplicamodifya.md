@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsReplicaModifyA
 title: DsReplicaModifyA function (ntdsapi.h)
-description: Modifies an existing replication source reference for a destination naming context.
-helpviewer_keywords: ["DS_REPL_NBR_COMPRESS_CHANGES","DS_REPL_NBR_DISABLE_SCHEDULED_SYNC","DS_REPL_NBR_DO_SCHEDULED_SYNCS","DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS","DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS","DS_REPL_NBR_SYNC_ON_STARTUP","DS_REPL_NBR_TWO_WAY_SYNC","DS_REPMOD_ASYNCHRONOUS_OPERATION","DS_REPMOD_UPDATE_ADDRESS","DS_REPMOD_UPDATE_FLAGS","DS_REPMOD_UPDATE_RESULT","DS_REPMOD_UPDATE_SCHEDULE","DS_REPMOD_UPDATE_TRANSPORT","DS_REPMOD_WRITEABLE","DsReplicaModify","DsReplicaModify function [Active Directory]","DsReplicaModifyA","DsReplicaModifyW","_glines_dsreplicamodify","ad.dsreplicamodify","ntdsapi/DsReplicaModify","ntdsapi/DsReplicaModifyA","ntdsapi/DsReplicaModifyW"]
+description: Modifies an existing replication source reference for a destination naming context. (ANSI)
+helpviewer_keywords: ["DS_REPL_NBR_COMPRESS_CHANGES", "DS_REPL_NBR_DISABLE_SCHEDULED_SYNC", "DS_REPL_NBR_DO_SCHEDULED_SYNCS", "DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS", "DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS", "DS_REPL_NBR_SYNC_ON_STARTUP", "DS_REPL_NBR_TWO_WAY_SYNC", "DS_REPMOD_ASYNCHRONOUS_OPERATION", "DS_REPMOD_UPDATE_ADDRESS", "DS_REPMOD_UPDATE_FLAGS", "DS_REPMOD_UPDATE_RESULT", "DS_REPMOD_UPDATE_SCHEDULE", "DS_REPMOD_UPDATE_TRANSPORT", "DS_REPMOD_WRITEABLE", "DsReplicaModifyA", "ntdsapi/DsReplicaModifyA"]
 old-location: ad\dsreplicamodify.htm
 tech.root: ad
 ms.assetid: aad20527-1211-41bc-b0e9-02e4ab28ae2e
@@ -211,4 +211,4 @@ If the function fails, the return value can be one of the following.
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsReplicaModify as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsReplicaModify as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITAMMediaFormat.get_MediaFormat
 title: ITAMMediaFormat::get_MediaFormat (tapi3.h)
-description: The get_MediaFormat method gets the media format.
+description: The ITAMMediaFormat::get_MediaFormat (tapi3.h) method gets the media format.
 helpviewer_keywords: ["ITAMMediaFormat interface [TAPI 2.2]","get_MediaFormat method","ITAMMediaFormat.get_MediaFormat","ITAMMediaFormat::get_MediaFormat","_tapi3_itammediaformat_get_mediaformat","get_MediaFormat","get_MediaFormat method [TAPI 2.2]","get_MediaFormat method [TAPI 2.2]","ITAMMediaFormat interface","tapi3.itammediaformat_get_mediaformat","tapi3ds/ITAMMediaFormat::get_MediaFormat"]
 old-location: tapi3\itammediaformat_get_mediaformat.htm
 tech.root: tapi3
 ms.assetid: 384cd41e-b59a-4ac4-9687-cf0f0738dfe0
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],get_MediaFormat method, ITAMMediaFormat.get_MediaFormat, ITAMMediaFormat::get_MediaFormat, _tapi3_itammediaformat_get_mediaformat, get_MediaFormat, get_MediaFormat method [TAPI 2.2], get_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_get_mediaformat, tapi3ds/ITAMMediaFormat::get_MediaFormat
 req.header: tapi3.h
 req.include-header: Tapi3.h

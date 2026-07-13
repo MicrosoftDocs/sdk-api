@@ -62,7 +62,7 @@ The <b>ADS_AUTHENTICATION_ENUM</b> enumeration
 
 ## -enum-fields
 
-### -field ADS_SECURE_AUTHENTICATION
+### -field ADS_SECURE_AUTHENTICATION:0x1
 
 Requests secure authentication. When this flag is set, the WinNT provider uses NT LAN Manager (NTLM) to 
       authenticate the client. Active Directory will use Kerberos, and possibly NTLM, to authenticate the client. When 
@@ -70,14 +70,14 @@ Requests secure authentication. When this flag is set, the WinNT provider uses N
       context of the calling thread, which is either the security context of the user account under which the 
       application is running or of the client user account that the calling thread represents.
 
-### -field ADS_USE_ENCRYPTION
+### -field ADS_USE_ENCRYPTION:0x2
 
 Requires ADSI to use encryption for data exchange over the network.
 
 <div class="alert"><b>Note</b>  This option is not supported by the WinNT provider.</div>
 <div> </div>
 
-### -field ADS_USE_SSL
+### -field ADS_USE_SSL:0x2
 
 The channel is encrypted using Secure Sockets Layer (SSL). Active Directory requires that the Certificate 
        Server be installed to support SSL.
@@ -90,7 +90,7 @@ If this flag is not combined with the <b>ADS_SECURE_AUTHENTICATION</b> flag and 
 <div class="alert"><b>Note</b>  This option is not supported by the WinNT provider.</div>
 <div> </div>
 
-### -field ADS_READONLY_SERVER
+### -field ADS_READONLY_SERVER:0x4
 
 A writable domain controller is not required. If your application only reads or queries data from Active 
        Directory, you should use this flag to open the sessions. This allows the application to take advantage of 
@@ -104,18 +104,18 @@ In Windows Server 2008, ADSI attempts to connect to either Read-Only DCs (RODCs
 For more information about programming for RODC compatibility, see the 
        <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755190(v=ws.10)">Read-Only Domain Controllers Application Compatibility Guide</a>.
 
-### -field ADS_PROMPT_CREDENTIALS
+### -field ADS_PROMPT_CREDENTIALS:0x8
 
 This flag is not supported.
 
-### -field ADS_NO_AUTHENTICATION
+### -field ADS_NO_AUTHENTICATION:0x10
 
 Request no authentication. The providers may attempt to bind the client, as an anonymous user, to the 
       target object. The WinNT provider does not support this flag. Active Directory establishes a connection between 
       the client and the targeted object, but will not perform authentication. Setting this flag amounts to requesting 
       an anonymous binding, which indicates all users as the security context.
 
-### -field ADS_FAST_BIND
+### -field ADS_FAST_BIND:0x20
 
 When this flag is set, ADSI will not attempt to query the <b>objectClass</b> 
        property and thus will only expose the base interfaces supported by all ADSI objects instead of the full object 
@@ -127,7 +127,7 @@ When this flag is set, ADSI will not attempt to query the <b>objectClass</b>
 This option is also useful for binding to non-Active Directory directory services, for example Exchange 5.5, 
        where the <b>objectClass</b> query would fail.
 
-### -field ADS_USE_SIGNING
+### -field ADS_USE_SIGNING:0x40
 
 Verifies data integrity. The <b>ADS_SECURE_AUTHENTICATION</b> flag must also be set also 
        to use signing.
@@ -135,7 +135,7 @@ Verifies data integrity. The <b>ADS_SECURE_AUTHENTICATION</b> flag must also be 
 <div class="alert"><b>Note</b>  This option is not supported by the WinNT provider.</div>
 <div> </div>
 
-### -field ADS_USE_SEALING
+### -field ADS_USE_SEALING:0x80
 
 Encrypts data using Kerberos. The <b>ADS_SECURE_AUTHENTICATION</b> flag must also be set 
        to use sealing.
@@ -143,11 +143,11 @@ Encrypts data using Kerberos. The <b>ADS_SECURE_AUTHENTICATION</b> flag must als
 <div class="alert"><b>Note</b>  This option is not supported by the WinNT provider.</div>
 <div> </div>
 
-### -field ADS_USE_DELEGATION
+### -field ADS_USE_DELEGATION:0x100
 
 Enables ADSI to delegate the user security context, which is necessary for moving objects across domains.
 
-### -field ADS_SERVER_BIND
+### -field ADS_SERVER_BIND:0x200
 
 If an Active Directory DNS server name is passed in the LDAP path, this forces an A-record lookup and 
        bypasses any SRV record lookup when resolving the host name.
@@ -155,7 +155,7 @@ If an Active Directory DNS server name is passed in the LDAP path, this forces a
 <div class="alert"><b>Note</b>  This option is not supported by the WinNT provider.</div>
 <div> </div>
 
-### -field ADS_NO_REFERRAL_CHASING
+### -field ADS_NO_REFERRAL_CHASING:0x400
 
 Specify this flag to turn referral chasing off for the life of the connection. However, even when this flag 
        is specified, ADSI still allows the setting of referral chasing behavior for container enumeration when set 
@@ -169,7 +169,7 @@ Specify this flag to turn referral chasing off for the life of the connection. H
 <div class="alert"><b>Note</b>  This option is not supported by the WinNT provider.</div>
 <div> </div>
 
-### -field ADS_AUTH_RESERVED
+### -field ADS_AUTH_RESERVED:0x80000000
 
 Reserved.
 

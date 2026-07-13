@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.EnumFontsW
 title: EnumFontsW function (wingdi.h)
-description: The EnumFonts function enumerates the fonts available on a specified device.
-helpviewer_keywords: ["EnumFonts","EnumFonts function [Windows GDI]","EnumFontsA","EnumFontsW","_win32_EnumFonts","gdi.enumfonts","wingdi/EnumFonts","wingdi/EnumFontsA","wingdi/EnumFontsW"]
+description: The EnumFonts function enumerates the fonts available on a specified device. (Unicode)
+helpviewer_keywords: ["EnumFonts", "EnumFonts function [Windows GDI]", "EnumFontsW", "_win32_EnumFonts", "gdi.enumfonts", "wingdi/EnumFonts", "wingdi/EnumFontsW"]
 old-location: gdi\enumfonts.htm
 tech.root: gdi
 ms.assetid: b5dfc38d-c400-4900-a15b-f251815ee346
@@ -92,7 +92,7 @@ The fonts for many East Asian languages have two typeface names: an English name
 
 
 > [!NOTE]
-> The wingdi.h header defines EnumFonts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines EnumFonts as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

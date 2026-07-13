@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-base-l1-2-2.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
  - KernelBase.dll
@@ -79,7 +80,7 @@ This value can be one of the following values.
 </tr>
 <tr>
 <td width="40%"><a id="ACL_REVISION"></a><a id="acl_revision"></a><dl>
-<dt><b><b>ACL_REVISION</b></b></dt>
+<dt><b>ACL_REVISION</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +90,7 @@ The SACL does not contain object-specific ACEs.
 </tr>
 <tr>
 <td width="40%"><a id="ACL_REVISION_DS"></a><a id="acl_revision_ds"></a><dl>
-<dt><b><b>ACL_REVISION_DS</b></b></dt>
+<dt><b>ACL_REVISION_DS</b></dt>
 </dl>
 </td>
 <td width="60%">

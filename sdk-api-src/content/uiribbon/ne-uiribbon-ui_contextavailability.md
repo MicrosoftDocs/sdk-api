@@ -54,15 +54,15 @@ Specifies values that identify the availability of a <a href="/windows/desktop/w
 
 ## -enum-fields
 
-### -field UI_CONTEXTAVAILABILITY_NOTAVAILABLE
+### -field UI_CONTEXTAVAILABILITY_NOTAVAILABLE:0
 
 A contextual tab is not available for the selected object.
 
-### -field UI_CONTEXTAVAILABILITY_AVAILABLE
+### -field UI_CONTEXTAVAILABILITY_AVAILABLE:1
 
 A contextual tab is available for the selected object. The tab is not the active tab.
 
-### -field UI_CONTEXTAVAILABILITY_ACTIVE
+### -field UI_CONTEXTAVAILABILITY_ACTIVE:2
 
 A contextual tab is available for the selected object. The tab is the active tab.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateInk(constD2D1_INK_POINT&,ID2D1Ink)
 title: ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT &,ID2D1Ink) (d2d1_3.h)
-description: Creates a new ID2D1Ink object that starts at the given point.
+description: Creates a new ID2D1Ink object that starts at the given point. (overload 1/2)
 helpviewer_keywords: ["CreateInk","CreateInk method [Direct2D]","CreateInk method [Direct2D]","ID2D1DeviceContext2 interface","ID2D1DeviceContext2 interface [Direct2D]","CreateInk method","ID2D1DeviceContext2.CreateInk","ID2D1DeviceContext2.CreateInk(const D2D1_INK_POINT &","ID2D1Ink)","ID2D1DeviceContext2::CreateInk","ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT &","ID2D1Ink)","d2d1_3/ID2D1DeviceContext2::CreateInk","direct2d.id2d1devicecontext2_createink"]
 old-location: direct2d\id2d1devicecontext2_createink.htm
 tech.root: Direct2D

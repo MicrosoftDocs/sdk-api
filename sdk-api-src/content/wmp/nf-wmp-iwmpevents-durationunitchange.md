@@ -6,7 +6,7 @@ helpviewer_keywords: ["DurationUnitChange","DurationUnitChange method [Windows M
 old-location: wmp\iwmpevents_iwmpevents__durationunitchange.htm
 tech.root: WMP
 ms.assetid: 03041012-fbb7-42ee-84a6-80b90091fedd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DurationUnitChange, DurationUnitChange method [Windows Media Player], DurationUnitChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DurationUnitChange method, IWMPEvents.DurationUnitChange, IWMPEvents::DurationUnitChange, IWMPEventsDurationUnitChange, wmp.iwmpevents_iwmpevents__durationunitchange, wmp/IWMPEvents::DurationUnitChange
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>DurationUnitChange</b> event is reserved for future use.
 

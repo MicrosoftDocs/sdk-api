@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CONTROL_UNIT_FN
 title: PIBIO_ENGINE_CONTROL_UNIT_FN (winbio_adapter.h)
-description: Performs a vendor-defined control operation that does not require elevated privilege.
+description: Performs a vendor-defined control operation that does not require elevated privilege.E
 helpviewer_keywords: ["EngineAdapterControlUnit","EngineAdapterControlUnit callback function [Windows Biometric Framework API]","PIBIO_ENGINE_CONTROL_UNIT_FN","PIBIO_ENGINE_CONTROL_UNIT_FN callback","secbiomet.engineadaptercontrolunit","winbio_adapter/EngineAdapterControlUnit"]
 old-location: secbiomet\engineadaptercontrolunit.htm
 tech.root: SecBioMet
@@ -109,7 +109,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b> E_INVALIDARG</b></b></dt>
+<dt><b> E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +153,7 @@ There was a hardware failure.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_INVALID_CONTROL_CODE</b></b></dt>
+<dt><b>WINBIO_E_INVALID_CONTROL_CODE</b></dt>
 </dl>
 </td>
 <td width="60%">

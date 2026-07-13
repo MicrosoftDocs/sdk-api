@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetAddressStatusW
 title: lineGetAddressStatusW function (tapi.h)
-description: The lineGetAddressStatus function allows an application to query the specified address for its current status.
-helpviewer_keywords: ["_tapi2_linegetaddressstatus","lineGetAddressStatus","lineGetAddressStatus function [TAPI 2.2]","lineGetAddressStatusA","lineGetAddressStatusW","tapi/lineGetAddressStatus","tapi/lineGetAddressStatusA","tapi/lineGetAddressStatusW","tapi2.linegetaddressstatus"]
+description: The lineGetAddressStatusW function (tapi.h) allows an application to query the specified address for its current status.
+helpviewer_keywords: ["_tapi2_linegetaddressstatus", "lineGetAddressStatus", "lineGetAddressStatus function [TAPI 2.2]", "lineGetAddressStatusW", "tapi/lineGetAddressStatus", "tapi/lineGetAddressStatusW", "tapi2.linegetaddressstatus"]
 old-location: tapi2\linegetaddressstatus.htm
 tech.root: tapi3
 ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegetaddressstatus, lineGetAddressStatus, lineGetAddressStatus function [TAPI 2.2], lineGetAddressStatusA, lineGetAddressStatusW, tapi/lineGetAddressStatus, tapi/lineGetAddressStatusA, tapi/lineGetAddressStatusW, tapi2.linegetaddressstatus
 req.header: tapi.h
 req.include-header: 
@@ -99,4 +99,4 @@ LINEERR_INVALADDRESSID, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALLINEHANDLE, LINEER
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineGetAddressStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetAddressStatus as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

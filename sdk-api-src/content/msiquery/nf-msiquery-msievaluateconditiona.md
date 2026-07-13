@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiEvaluateConditionA
 title: MsiEvaluateConditionA function (msiquery.h)
-description: The MsiEvaluateCondition function evaluates a conditional expression containing property names and values.
-helpviewer_keywords: ["MsiEvaluateCondition","MsiEvaluateCondition function","MsiEvaluateConditionA","MsiEvaluateConditionW","_msi_msievaluatecondition","msiquery/MsiEvaluateCondition","msiquery/MsiEvaluateConditionA","msiquery/MsiEvaluateConditionW","setup.msievaluatecondition"]
+description: The MsiEvaluateCondition function evaluates a conditional expression containing property names and values. (ANSI)
+helpviewer_keywords: ["MsiEvaluateConditionA", "msiquery/MsiEvaluateConditionA"]
 old-location: setup\msievaluatecondition.htm
 tech.root: setup
 ms.assetid: 8a444bad-8537-40ec-8c7d-6835e4319580
@@ -110,7 +110,7 @@ The following table shows the feature and component state values used by the
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiEvaluateCondition as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiEvaluateCondition as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

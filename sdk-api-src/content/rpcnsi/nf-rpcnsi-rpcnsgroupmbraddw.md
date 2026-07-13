@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrAddW
 title: RpcNsGroupMbrAddW function (rpcnsi.h)
-description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry.
-helpviewer_keywords: ["RpcNsGroupMbrAdd","RpcNsGroupMbrAdd function [RPC]","RpcNsGroupMbrAddA","RpcNsGroupMbrAddW","_rpc_rpcnsgroupmbradd","rpc.rpcnsgroupmbradd","rpcnsi/RpcNsGroupMbrAdd","rpcnsi/RpcNsGroupMbrAddA","rpcnsi/RpcNsGroupMbrAddW"]
+description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry. (Unicode)
+helpviewer_keywords: ["RpcNsGroupMbrAdd", "RpcNsGroupMbrAdd function [RPC]", "RpcNsGroupMbrAddW", "_rpc_rpcnsgroupmbradd", "rpc.rpcnsgroupmbradd", "rpcnsi/RpcNsGroupMbrAdd", "rpcnsi/RpcNsGroupMbrAddW"]
 old-location: rpc\rpcnsgroupmbradd.htm
 tech.root: Rpc
 ms.assetid: fa32b5e5-1a8a-44f4-aa38-81b024f4db51
@@ -169,7 +169,7 @@ If the <i>GroupName</i> entry does not exist,
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsGroupMbrAdd as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsGroupMbrAdd as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

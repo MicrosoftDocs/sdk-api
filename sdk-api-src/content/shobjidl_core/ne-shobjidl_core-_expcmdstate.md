@@ -54,27 +54,27 @@ api_name:
 
 ## -enum-fields
 
-### -field ECS_ENABLED
+### -field ECS_ENABLED:0
 
 The item is enabled.
 
-### -field ECS_DISABLED
+### -field ECS_DISABLED:0x1
 
 The item is unavailable. It might be displayed to the user as a dimmed, inaccessible item.
 
-### -field ECS_HIDDEN
+### -field ECS_HIDDEN:0x2
 
 The item is hidden.
 
-### -field ECS_CHECKBOX
+### -field ECS_CHECKBOX:0x4
 
 The item is displayed with a check box and that check box is not checked.
 
-### -field ECS_CHECKED
+### -field ECS_CHECKED:0x8
 
 The item is displayed with a check box and that check box is checked. <b>ECS_CHECKED</b> is always returned with ECS_CHECKBOX.
 
-### -field ECS_RADIOCHECK
+### -field ECS_RADIOCHECK:0x10
 
 <b>Windows 7 and later</b>. The item is one of a group of mutually exclusive options selected through a radio button. ECS_RADIOCHECK does not imply that the item is the selected option, though it might be.
 

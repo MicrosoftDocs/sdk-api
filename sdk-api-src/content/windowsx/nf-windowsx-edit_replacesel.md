@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_ReplaceSel","Edit_ReplaceSel macro [Windows Controls
 old-location: controls\Edit_ReplaceSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_replacesel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_ReplaceSel, Edit_ReplaceSel macro [Windows Controls], _win32_Edit_ReplaceSel, _win32_Edit_ReplaceSel_cpp, controls.Edit_ReplaceSel, controls._win32_Edit_ReplaceSel, windowsx/Edit_ReplaceSel
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Edit_ReplaceSel macro
+
+## -syntax
+
+```cpp
+void Edit_ReplaceSel(
+   HWND    hwndCtl,
+   LPCTSTR lpszReplace
+);
+```
 
 
 ## -description

@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddDelegatedPolicyUser
 title: IAzAuthorizationStore::AddDelegatedPolicyUser (azroles.h)
-description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
+description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users. (IAzAuthorizationStore.AddDelegatedPolicyUser)
 helpviewer_keywords: ["AddDelegatedPolicyUser","AddDelegatedPolicyUser method [Security]","AddDelegatedPolicyUser method [Security]","AzAuthorizationStore object","AddDelegatedPolicyUser method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddDelegatedPolicyUser method","IAzAuthorizationStore interface [Security]","AddDelegatedPolicyUser method","IAzAuthorizationStore.AddDelegatedPolicyUser","IAzAuthorizationStore::AddDelegatedPolicyUser","azroles/IAzAuthorizationStore::AddDelegatedPolicyUser","security.azauthorizationstore_adddelegatedpolicyuser"]
 old-location: security\azauthorizationstore_adddelegatedpolicyuser.htm
 tech.root: security
 ms.assetid: 0c6714e9-489e-4266-a8b5-35c66b0a14f4
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddDelegatedPolicyUser, AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security],AzAuthorizationStore object, AddDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddDelegatedPolicyUser method, IAzAuthorizationStore interface [Security],AddDelegatedPolicyUser method, IAzAuthorizationStore.AddDelegatedPolicyUser, IAzAuthorizationStore::AddDelegatedPolicyUser, azroles/IAzAuthorizationStore::AddDelegatedPolicyUser, security.azauthorizationstore_adddelegatedpolicyuser
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzAuthorizationStore::AddDelegatedPolicyUser
 
-
 ## -description
 
-The <b>AddDelegatedPolicyUser</b> method adds the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form to the list of principals that act as delegated policy users.
+The **AddDelegatedPolicyUser** method adds the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form to the list of principals that act as delegated policy users.
 
 ## -parameters
 
@@ -63,12 +62,25 @@ Text form of the SID to add to the list of delegated policy users.
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a>  or <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object uses to administer the delegated object.
+Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an [IAzApplication](nn-azroles-iazapplication.md) or [IAzScope](nn-azroles-iazscope.md) object uses to administer the delegated object.
 
-<div class="alert"><b>Note</b>  Delegated policy users are not supported for XML stores.</div>
-<div> </div>
-To view the list of delegated policy users, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_delegatedpolicyusers">DelegatedPolicyUsers</a> property.
+>[!NOTE]
+>Delegated policy users are not supported for XML stores.
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
+To view the list of delegated policy users, use the [DelegatedPolicyUsers](nf-azroles-iazauthorizationstore-get_delegatedpolicyusers.md) property.
+
+You must call the [Submit](nf-azroles-iazauthorizationstore-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[IAzApplication](nn-azroles-iazapplication.md)
+
+[IAzScope](nn-azroles-iazscope.md)
+
+[DelegatedPolicyUsers](nf-azroles-iazauthorizationstore-get_delegatedpolicyusers.md)

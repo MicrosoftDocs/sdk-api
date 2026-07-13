@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvStoreSupplement
 title: SymSrvStoreSupplement function (dbghelp.h)
-description: Stores a file in the specified supplement to a symbol store. The file is typically associated with a file in the symbol server.
+description: The SymSrvStoreSupplement function (dbghelp.h) stores a file in the specified supplement to a symbol store.
 helpviewer_keywords: ["SymSrvStoreSupplement","SymSrvStoreSupplement function","SymSrvStoreSupplementW","base.symsrvstoresupplement","dbghelp/SymSrvStoreSupplement","dbghelp/SymSrvStoreSupplementW"]
 old-location: base\symsrvstoresupplement.htm
 tech.root: Debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
 req.header: dbghelp.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IComHandlerAction.get_Data
 title: IComHandlerAction::get_Data (taskschd.h)
-description: Gets or sets additional data that is associated with the handler.
+description: Gets or sets additional data that is associated with the handler. (Get)
 helpviewer_keywords: ["Data property [Task Scheduler]","Data property [Task Scheduler]","IComHandlerAction interface","IComHandlerAction interface [Task Scheduler]","Data property","IComHandlerAction.Data","IComHandlerAction.get_Data","IComHandlerAction::Data","IComHandlerAction::get_Data","IComHandlerAction::put_Data","get_Data","taskschd.icomhandleraction_data","taskschd/IComHandlerAction::Data","taskschd/IComHandlerAction::get_Data","taskschd/IComHandlerAction::put_Data"]
 old-location: taskschd\icomhandleraction_data.htm
 tech.root: taskschd

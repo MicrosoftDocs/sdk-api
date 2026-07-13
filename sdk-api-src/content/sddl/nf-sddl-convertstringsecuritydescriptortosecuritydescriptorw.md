@@ -1,8 +1,8 @@
 ---
 UID: NF:sddl.ConvertStringSecurityDescriptorToSecurityDescriptorW
 title: ConvertStringSecurityDescriptorToSecurityDescriptorW function (sddl.h)
-description: Converts a string-format security descriptor into a valid, functional security descriptor.
-helpviewer_keywords: ["ConvertStringSecurityDescriptorToSecurityDescriptor","ConvertStringSecurityDescriptorToSecurityDescriptor function [Security]","ConvertStringSecurityDescriptorToSecurityDescriptorA","ConvertStringSecurityDescriptorToSecurityDescriptorW","_win32_convertstringsecuritydescriptortosecuritydescriptor","sddl/ConvertStringSecurityDescriptorToSecurityDescriptor","sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA","sddl/ConvertStringSecurityDescriptorToSecurityDescriptorW","security.convertstringsecuritydescriptortosecuritydescriptor"]
+description: Converts a string-format security descriptor into a valid, functional security descriptor. (Unicode)
+helpviewer_keywords: ["ConvertStringSecurityDescriptorToSecurityDescriptor", "ConvertStringSecurityDescriptorToSecurityDescriptor function [Security]", "ConvertStringSecurityDescriptorToSecurityDescriptorW", "_win32_convertstringsecuritydescriptortosecuritydescriptor", "sddl/ConvertStringSecurityDescriptorToSecurityDescriptor", "sddl/ConvertStringSecurityDescriptorToSecurityDescriptorW", "security.convertstringsecuritydescriptortosecuritydescriptor"]
 old-location: security\convertstringsecuritydescriptortosecuritydescriptor.htm
 tech.root: security
 ms.assetid: c5654148-fb4c-436d-9378-a1168fc82607
@@ -137,7 +137,7 @@ and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="/w
 
 
 > [!NOTE]
-> The sddl.h header defines ConvertStringSecurityDescriptorToSecurityDescriptor as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sddl.h header defines ConvertStringSecurityDescriptorToSecurityDescriptor as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

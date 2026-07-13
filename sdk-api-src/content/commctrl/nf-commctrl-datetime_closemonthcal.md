@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_CloseMonthCal","DateTime_CloseMonthCal macro [Wi
 old-location: controls\DateTime_CloseMonthCal.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_closemonthcal.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_CloseMonthCal, DateTime_CloseMonthCal macro [Windows Controls], _shell_DateTime_CloseMonthCal, _shell_DateTime_CloseMonthCal_cpp, commctrl/DateTime_CloseMonthCal, controls.DateTime_CloseMonthCal, controls._shell_DateTime_CloseMonthCal
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # DateTime_CloseMonthCal macro
+
+## -syntax
+
+```cpp
+LRESULT DateTime_CloseMonthCal(
+   HWND hdp
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns zero.
 
 
 ## -description

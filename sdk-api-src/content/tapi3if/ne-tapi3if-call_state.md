@@ -57,7 +57,7 @@ The
 
 ## -enum-fields
 
-### -field CS_IDLE
+### -field CS_IDLE:0
 
 The call has been created, but 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect">Connect</a> has not been called yet. A call can never transition into the idle state. This is the initial state for both incoming and outgoing calls.
@@ -89,7 +89,7 @@ The call is in the hold state.
 
 The call is queued.
 
-### -field CS_LASTITEM
+### -field CS_LASTITEM:CS_QUEUED
 
 ## -remarks
 

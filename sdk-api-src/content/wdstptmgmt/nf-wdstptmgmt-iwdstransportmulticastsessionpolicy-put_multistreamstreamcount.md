@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
 title: IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount (wdstptmgmt.h)
-description: Receives the maximum number of multicast streams per transmission used by the server.
+description: Receives the maximum number of multicast streams per transmission used by the server. (Put)
 helpviewer_keywords: ["IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services]","MultistreamStreamCount property","IWdsTransportMulticastSessionPolicy.MultistreamStreamCount","IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount","IWdsTransportMulticastSessionPolicy::MultistreamStreamCount","IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount","IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount","MultistreamStreamCount property [Windows Deployment Services]","MultistreamStreamCount property [Windows Deployment Services]","IWdsTransportMulticastSessionPolicy interface","put_MultistreamStreamCount","wds.iwdstransportmulticastsessionpolicy_multistreamstreamcount","wdstptmgmt/IWdsTransportMulticastSessionPolicy::MultistreamStreamCount","wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount","wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount"]
 old-location: wds\iwdstransportmulticastsessionpolicy_multistreamstreamcount.htm
 tech.root: wds

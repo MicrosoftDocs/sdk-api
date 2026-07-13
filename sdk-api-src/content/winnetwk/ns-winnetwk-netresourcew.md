@@ -1,7 +1,7 @@
 ---
 UID: NS:winnetwk._NETRESOURCEW
 title: NETRESOURCEW (winnetwk.h)
-description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection.
+description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection. (Unicode)
 helpviewer_keywords: ["*LPNETRESOURCEW","LPNETRESOURCE","LPNETRESOURCE structure pointer [Security]","NETRESOURCE","NETRESOURCE structure [Security]","NETRESOURCEA","NETRESOURCEW","RESOURCEDISPLAYTYPE_DIRECTORY","RESOURCEDISPLAYTYPE_DOMAIN","RESOURCEDISPLAYTYPE_GENERIC","RESOURCEDISPLAYTYPE_NETWORK","RESOURCEDISPLAYTYPE_SERVER","RESOURCEDISPLAYTYPE_SHARE","RESOURCETYPE_ANY","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","RESOURCEUSAGE_CONNECTABLE","RESOURCEUSAGE_CONTAINER","RESOURCE_CONNECTED","RESOURCE_CONTEXT","RESOURCE_GLOBALNET","_mnp_netresource","security.netresource","winnetwk/LPNETRESOURCE","winnetwk/NETRESOURCE","winnetwk/NETRESOURCEA","winnetwk/NETRESOURCEW"]
 old-location: security\netresource.htm
 tech.root: security
@@ -232,8 +232,8 @@ A bitmask that indicates how you can enumerate information about the resource. I
 <td width="60%">
 You can connect to the resource by calling 
 <a href="/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>. If <b>dwType</b> is RESOURCETYPE_DISK, then, after you have connected to the resource, you can use the file system APIs, such as 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, and 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>, to enumerate any files and directories the resource contains.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilew">FindFirstFile</a>, and 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilew">FindNextFile</a>, to enumerate any files and directories the resource contains.
 
 </td>
 </tr>
@@ -282,4 +282,4 @@ Specifies the name of the provider that owns this enumerated item.
 ## -remarks
 
 > [!NOTE]
-> The winnetwk.h header defines NETRESOURCE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines NETRESOURCE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

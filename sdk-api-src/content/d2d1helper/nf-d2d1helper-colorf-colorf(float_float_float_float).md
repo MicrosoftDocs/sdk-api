@@ -76,7 +76,7 @@ The blue component of the color to be constructed.
 
 Type: <b>FLOAT</b>
 
-The alpha value of the color to be constructed. An alpha channel value ranges from 0.0 to 1.0, where 0.0 represents a fully transparent color and 1.0  represents a fully opaque color.The default value is 1.0.
+The alpha value of the color to be constructed. An alpha channel value ranges from 0.0 to 1.0, where 0.0 represents a fully transparent color, and 1.0 represents a fully opaque color. This parameter is optional, and if omitted defaults to 1.0 (fully opaque).
 
 ## -see-also
 

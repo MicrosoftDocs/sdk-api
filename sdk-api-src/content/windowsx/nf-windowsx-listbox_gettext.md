@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetText","ListBox_GetText macro [Windows Controls
 old-location: controls\ListBox_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetText, ListBox_GetText macro [Windows Controls], _win32_ListBox_GetText, _win32_ListBox_GetText_cpp, controls.ListBox_GetText, controls._win32_ListBox_GetText, windowsx/ListBox_GetText
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_GetText macro
+
+## -syntax
+
+```cpp
+int ListBox_GetText(
+   HWND    hwndCtl,
+   int     index,
+   LPCTSTR lpszBuffer
+);
+```
+
+## -returns
+
+Type: **int**
+
+The count of characters in the string, excluding the terminating null character. If <i>index</i> does not specify a valid item, the return value is LB_ERR.
 
 
 ## -description

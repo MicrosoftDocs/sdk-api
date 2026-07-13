@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capGetVideoFormatSize","capGetVideoFormatSize","ca
 old-location: multimedia\capgetvideoformatsize.htm
 tech.root: Multimedia
 ms.assetid: 4ee78b19-4171-4da8-ad26-199067bb6db8
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capGetVideoFormatSize, capGetVideoFormatSize, capGetVideoFormatSize macro [Windows Multimedia], multimedia.capgetvideoformatsize, vfw/capGetVideoFormatSize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capGetVideoFormatSize macro
+
+## -syntax
+
+```cpp
+DWORD capGetVideoFormatSize(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the size, in bytes, of the video format or zero if the capture window is not connected to a capture driver. For video formats that require a palette, the current palette is also returned.
 
 
 ## -description

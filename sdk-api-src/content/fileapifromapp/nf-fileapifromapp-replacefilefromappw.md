@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: OneCore.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -27,7 +27,8 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_location:
-- Kernel32.dll
+ - Kernel32.dll
+ - api-ms-win-core-file-fromapp-l1-1-0.dll
 api_name:
 - ReplaceFileFromAppW
 - ReplaceFileFromApp
@@ -81,8 +82,8 @@ The replacement options. This parameter can be one or more of the following valu
     
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -126,12 +127,12 @@ Reserved for future use.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360\(v=vs.85\)). The following are possible error codes for this function.
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](../errhandlingapi/nf-errhandlingapi-getlasterror.md). The following are possible error codes for this function.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

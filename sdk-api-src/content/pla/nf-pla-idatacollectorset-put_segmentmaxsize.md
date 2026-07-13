@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SegmentMaxSize
 title: IDataCollectorSet::put_SegmentMaxSize (pla.h)
-description: Retrieves or sets the maximum size of any log file in the data collector set.
+description: Retrieves or sets the maximum size of any log file in the data collector set. (Put)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SegmentMaxSize property","IDataCollectorSet.SegmentMaxSize","IDataCollectorSet.put_SegmentMaxSize","IDataCollectorSet::SegmentMaxSize","IDataCollectorSet::get_SegmentMaxSize","IDataCollectorSet::put_SegmentMaxSize","SegmentMaxSize property [PLA]","SegmentMaxSize property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_segmentmaxsize","pla.idatacollectorset_get_segmentmaxsize","pla/IDataCollectorSet::SegmentMaxSize","pla/IDataCollectorSet::get_SegmentMaxSize","pla/IDataCollectorSet::put_SegmentMaxSize","put_SegmentMaxSize"]
 old-location: pla\idatacollectorset_get_segmentmaxsize.htm
 tech.root: PLA

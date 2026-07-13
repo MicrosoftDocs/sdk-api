@@ -55,7 +55,7 @@ Do not use. The <b>Gender</b> enumeration specifies the possible values for the 
 
 ## -enum-fields
 
-### -field genderUnspecified
+### -field genderUnspecified:0
 
 No gender is specified.
 

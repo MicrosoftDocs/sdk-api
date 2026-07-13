@@ -1,8 +1,8 @@
 ---
 UID: NF:nspapi.GetTypeByNameA
 title: GetTypeByNameA function (nspapi.h)
-description: The GetTypeByName function retrieves a service type GUID for a network service specified by name.
-helpviewer_keywords: ["GetTypeByName","GetTypeByName function [Winsock]","GetTypeByNameA","GetTypeByNameW","_win32_gettypebyname_2","nspapi/GetTypeByName","nspapi/GetTypeByNameA","nspapi/GetTypeByNameW","winsock.gettypebyname_2"]
+description: The GetTypeByName function retrieves a service type GUID for a network service specified by name. (ANSI)
+helpviewer_keywords: ["GetTypeByNameA", "nspapi/GetTypeByNameA"]
 old-location: winsock\gettypebyname_2.htm
 tech.root: WinSock
 ms.assetid: 177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e
@@ -113,4 +113,4 @@ The specified service type is unknown.
 ## -remarks
 
 > [!NOTE]
-> The nspapi.h header defines GetTypeByName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines GetTypeByName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

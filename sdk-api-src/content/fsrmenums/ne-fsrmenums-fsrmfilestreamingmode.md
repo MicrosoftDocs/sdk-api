@@ -56,15 +56,15 @@ Defines the streaming modes to use for the file stream.
 
 ## -enum-fields
 
-### -field FsrmFileStreamingMode_Unknown
+### -field FsrmFileStreamingMode_Unknown:0
 
 The streaming mode is unknown; do not use this value.
 
-### -field FsrmFileStreamingMode_Read
+### -field FsrmFileStreamingMode_Read:0x1
 
 Use the streaming interface for reading from the file.
 
-### -field FsrmFileStreamingMode_Write
+### -field FsrmFileStreamingMode_Write:0x2
 
 Use the streaming interface for writing to the  file.
 

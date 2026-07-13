@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi.RESOURCE_FAILURE_INFO
 title: RESOURCE_FAILURE_INFO (clusapi.h)
-description: Represents information about the Failover attempts for a resource. This structure is used by the RESOURCE_FAILURE_INFO_BUFFER structure.
+description: The RESOURCE_FAILURE_INFO (clusapi.h) structure represents information about the Failover attempts for a resource.
 helpviewer_keywords: ["*PRESOURCE_FAILURE_INFO","PRESOURCE_FAILURE_INFO","PRESOURCE_FAILURE_INFO structure pointer [Failover Cluster]","RESOURCE_FAILURE_INFO","RESOURCE_FAILURE_INFO structure [Failover Cluster]","clusapi/PRESOURCE_FAILURE_INFO","clusapi/RESOURCE_FAILURE_INFO","msclus/PRESOURCE_FAILURE_INFO","msclus/RESOURCE_FAILURE_INFO","mscs.resource_failure_info"]
 old-location: mscs\resource_failure_info.htm
 tech.root: MsCS
 ms.assetid: 3FE0CC0E-B097-48FC-882F-F6B236BB0CCB
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO, RESOURCE_FAILURE_INFO structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO, clusapi/RESOURCE_FAILURE_INFO, msclus/PRESOURCE_FAILURE_INFO, msclus/RESOURCE_FAILURE_INFO, mscs.resource_failure_info'
 req.header: clusapi.h
 req.include-header: 

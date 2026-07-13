@@ -54,15 +54,12 @@ api_name:
 The <b>ID3D10EffectType</b> interface accesses effect variables by type.
 
 The lifetime of an <b>ID3D10EffectType</b> object is equal to the lifetime of its parent <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect</a> object.
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectType</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getdesc">GetDesc</a>
 </td>
@@ -71,7 +68,7 @@ Get an effect-type description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembername">GetMemberName</a>
 </td>
@@ -80,7 +77,7 @@ Get the name of a member.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembersemantic">GetMemberSemantic</a>
 </td>
@@ -89,7 +86,7 @@ Get the semantic attached to a member.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyindex">GetMemberTypeByIndex</a>
 </td>
@@ -98,16 +95,16 @@ Get a member type by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyname">GetMemberTypeByName</a>
 </td>
 <td align="left" width="63%">
-Get an member type by name.
+Get a member type by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebysemantic">GetMemberTypeBySemantic</a>
 </td>
@@ -116,7 +113,7 @@ Get a member type by semantic.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-isvalid">IsValid</a>
 </td>

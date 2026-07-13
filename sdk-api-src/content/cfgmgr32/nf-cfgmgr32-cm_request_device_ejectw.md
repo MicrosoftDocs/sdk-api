@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Request_Device_EjectW
 title: CM_Request_Device_EjectW function (cfgmgr32.h)
-description: The CM_Request_Device_Eject function prepares a local device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.
-helpviewer_keywords: ["CM_Request_Device_Eject","CM_Request_Device_Eject function [Device and Driver Installation]","CM_Request_Device_EjectW","cfgmgr32/CM_Request_Device_Eject","cfgmgr32/CM_Request_Device_EjectW","cfgmgrfn_2c8cc2aa-56fe-4ab3-8063-0db0dcbc3098.xml","devinst.cm_request_device_eject"]
+description: The CM_Request_Device_Eject function prepares a local device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be. (Unicode)
+helpviewer_keywords: ["CM_Request_Device_Eject", "CM_Request_Device_Eject function [Device and Driver Installation]", "CM_Request_Device_EjectW", "cfgmgr32/CM_Request_Device_Eject", "cfgmgr32/CM_Request_Device_EjectW", "cfgmgrfn_2c8cc2aa-56fe-4ab3-8063-0db0dcbc3098.xml", "devinst.cm_request_device_eject"]
 old-location: devinst\cm_request_device_eject.htm
 tech.root: devinst
 ms.assetid: a73317c8-52e4-4f2c-855c-94259dc77846

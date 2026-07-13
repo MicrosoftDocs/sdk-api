@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_NotificationsDisabled
 title: INetFwPolicy2::put_NotificationsDisabled (netfw.h)
-description: Indicates whether interactive firewall notifications are disabled.
+description: Indicates whether interactive firewall notifications are disabled. (INetFwPolicy2.put_NotificationsDisabled)
 helpviewer_keywords: ["INetFwPolicy2 interface [ICS/ICF]","NotificationsDisabled property","INetFwPolicy2.NotificationsDisabled","INetFwPolicy2.put_NotificationsDisabled","INetFwPolicy2::NotificationsDisabled","INetFwPolicy2::get_NotificationsDisabled","INetFwPolicy2::put_NotificationsDisabled","NotificationsDisabled property [ICS/ICF]","NotificationsDisabled property [ICS/ICF]","INetFwPolicy2 interface","ics.inetfwpolicy2_notificationsdisabled","netfw/INetFwPolicy2::NotificationsDisabled","netfw/INetFwPolicy2::get_NotificationsDisabled","netfw/INetFwPolicy2::put_NotificationsDisabled","put_NotificationsDisabled"]
 old-location: ics\inetfwpolicy2_notificationsdisabled.htm
 tech.root: ics

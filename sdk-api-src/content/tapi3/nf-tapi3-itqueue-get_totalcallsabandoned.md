@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITQueue.get_TotalCallsAbandoned
 title: ITQueue::get_TotalCallsAbandoned (tapi3.h)
-description: The get_TotalCallsAbandoned method gets the number of abandoned calls during the current measurement period.
+description: The ITQueue::get_TotalCallsAbandoned (tapi3.h) method gets the number of abandoned calls during the current measurement period.
 helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_TotalCallsAbandoned method","ITQueue.get_TotalCallsAbandoned","ITQueue::get_TotalCallsAbandoned","_tapi3_itqueue_get_totalcallsabandoned","get_TotalCallsAbandoned","get_TotalCallsAbandoned method [TAPI 2.2]","get_TotalCallsAbandoned method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_totalcallsabandoned","tapi3cc/ITQueue::get_TotalCallsAbandoned"]
 old-location: tapi3\itqueue_get_totalcallsabandoned.htm
 tech.root: tapi3
 ms.assetid: 2db1309e-f6df-47f8-a695-7bf05d360d99
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsAbandoned method, ITQueue.get_TotalCallsAbandoned, ITQueue::get_TotalCallsAbandoned, _tapi3_itqueue_get_totalcallsabandoned, get_TotalCallsAbandoned, get_TotalCallsAbandoned method [TAPI 2.2], get_TotalCallsAbandoned method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsabandoned, tapi3cc/ITQueue::get_TotalCallsAbandoned
 req.header: tapi3.h
 req.include-header: Tapi3.h

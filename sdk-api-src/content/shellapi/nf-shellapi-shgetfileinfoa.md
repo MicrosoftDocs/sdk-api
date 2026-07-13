@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.SHGetFileInfoA
 title: SHGetFileInfoA function (shellapi.h)
-description: Retrieves information about an object in the file system, such as a file, folder, directory, or drive root.
-helpviewer_keywords: ["SHGFI_ADDOVERLAYS","SHGFI_ATTRIBUTES","SHGFI_ATTR_SPECIFIED","SHGFI_DISPLAYNAME","SHGFI_EXETYPE","SHGFI_ICON","SHGFI_ICONLOCATION","SHGFI_LARGEICON","SHGFI_LINKOVERLAY","SHGFI_OPENICON","SHGFI_OVERLAYINDEX","SHGFI_PIDL","SHGFI_SELECTED","SHGFI_SHELLICONSIZE","SHGFI_SMALLICON","SHGFI_SYSICONINDEX","SHGFI_TYPENAME","SHGFI_USEFILEATTRIBUTES","SHGetFileInfo","SHGetFileInfo function [Windows Shell]","SHGetFileInfoA","SHGetFileInfoW","_win32_SHGetFileInfo","shell.SHGetFileInfo","shellapi/SHGetFileInfo","shellapi/SHGetFileInfoA","shellapi/SHGetFileInfoW"]
+description: Retrieves information about an object in the file system, such as a file, folder, directory, or drive root. (ANSI)
+helpviewer_keywords: ["SHGFI_ADDOVERLAYS", "SHGFI_ATTRIBUTES", "SHGFI_ATTR_SPECIFIED", "SHGFI_DISPLAYNAME", "SHGFI_EXETYPE", "SHGFI_ICON", "SHGFI_ICONLOCATION", "SHGFI_LARGEICON", "SHGFI_LINKOVERLAY", "SHGFI_OPENICON", "SHGFI_OVERLAYINDEX", "SHGFI_PIDL", "SHGFI_SELECTED", "SHGFI_SHELLICONSIZE", "SHGFI_SMALLICON", "SHGFI_SYSICONINDEX", "SHGFI_TYPENAME", "SHGFI_USEFILEATTRIBUTES", "SHGetFileInfoA", "shellapi/SHGetFileInfoA"]
 old-location: shell\SHGetFileInfo.htm
 tech.root: shell
 ms.assetid: d662bedf-4be0-4528-8121-e7923a42bc67
@@ -318,7 +318,7 @@ ILFree(pidl);
 
 
 > [!NOTE]
-> The shellapi.h header defines SHGetFileInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHGetFileInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

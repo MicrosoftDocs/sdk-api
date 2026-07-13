@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SOURCE_MEDIA_A
 title: SOURCE_MEDIA_A (setupapi.h)
-description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information.
+description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information. (ANSI)
 helpviewer_keywords: ["*PSOURCE_MEDIA_A","PSOURCE_MEDIA","PSOURCE_MEDIA structure pointer [Setup API]","SOURCE_MEDIA","SOURCE_MEDIA structure [Setup API]","SOURCE_MEDIA_A","_setupapi_source_media_str","setup.source_media_str","setupapi/PSOURCE_MEDIA","setupapi/SOURCE_MEDIA"]
 old-location: setup\source_media_str.htm
 tech.root: setup
@@ -128,4 +128,4 @@ Do not offer the user the option to browse.
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SOURCE_MEDIA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SOURCE_MEDIA as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

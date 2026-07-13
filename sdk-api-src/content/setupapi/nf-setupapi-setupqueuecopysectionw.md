@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueueCopySectionW
 title: SetupQueueCopySectionW function (setupapi.h)
-description: The SetupQueueCopySection function places all the files in a section of an INF file in a setup queue for copying.
-helpviewer_keywords: ["SetupQueueCopySection","SetupQueueCopySection function [Setup API]","SetupQueueCopySectionA","SetupQueueCopySectionW","_setupapi_setupqueuecopysection","setup.setupqueuecopysection","setupapi/SetupQueueCopySection","setupapi/SetupQueueCopySectionA","setupapi/SetupQueueCopySectionW"]
+description: The SetupQueueCopySection function places all the files in a section of an INF file in a setup queue for copying. (Unicode)
+helpviewer_keywords: ["SetupQueueCopySection", "SetupQueueCopySection function [Setup API]", "SetupQueueCopySectionW", "_setupapi_setupqueuecopysection", "setup.setupqueuecopysection", "setupapi/SetupQueueCopySection", "setupapi/SetupQueueCopySectionW"]
 old-location: setup\setupqueuecopysection.htm
 tech.root: setup
 ms.assetid: f61fd00e-e60f-4722-9da7-1ed4d8491004
@@ -287,7 +287,7 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueueCopySection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueueCopySection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

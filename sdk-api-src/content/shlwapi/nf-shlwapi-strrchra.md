@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrRChrA
 title: StrRChrA function (shlwapi.h)
-description: Searches a string for the last occurrence of a specified character. The comparison is case-sensitive.
-helpviewer_keywords: ["StrRChr","StrRChr function [Windows Shell]","StrRChrA","StrRChrW","_win32_StrRChr","shell.StrRChr","shlwapi/StrRChr","shlwapi/StrRChrA","shlwapi/StrRChrW"]
+description: Searches a string for the last occurrence of a specified character. The comparison is case-sensitive. (ANSI)
+helpviewer_keywords: ["StrRChrA", "shlwapi/StrRChrA"]
 old-location: shell\StrRChr.htm
 tech.root: shell
 ms.assetid: 7f1e91ad-aaa0-4449-834e-8e309c88d6b1
@@ -93,5 +93,5 @@ The comparison assumes that <i>pszEnd</i> points to the end of the string.
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrRChr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrRChr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

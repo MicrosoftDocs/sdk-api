@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndChangeStyles","MCIWndChangeStyles macro [Windows Mu
 old-location: multimedia\mciwndchangestyles.htm
 tech.root: Multimedia
 ms.assetid: d87da0b0-4217-421d-a9d5-03602fb2b477
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndChangeStyles, MCIWndChangeStyles macro [Windows Multimedia], _win32_MCIWndChangeStyles, multimedia.mciwndchangestyles, vfw/MCIWndChangeStyles
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MCIWndChangeStyles macro
+
+## -syntax
+
+```cpp
+LONG MCIWndChangeStyles(
+     hwnd,
+     mask,
+     value
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero.
 
 
 ## -description

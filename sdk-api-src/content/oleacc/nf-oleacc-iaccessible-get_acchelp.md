@@ -60,11 +60,11 @@ Type: <b>VARIANT</b>
 
 Specifies whether the retrieved help information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about one of the object's child elements). For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-### -param pszHelp
+### -param pszHelp [out, retval]
 
 Type: <b>BSTR*</b>
 
-[out, retval] Address of a <b>BSTR</b> that receives the localized string that contains the help information for the specified object, or <b>NULL</b> if no help information is available.
+Address of a <b>BSTR</b> that receives the localized string containing the help information for the specified object, or <b>NULL</b> if no help information is available.
 
 ## -returns
 

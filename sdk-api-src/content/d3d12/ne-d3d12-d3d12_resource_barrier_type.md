@@ -54,7 +54,7 @@ Specifies a type of resource barrier (transition in resource use) description.
 
 ## -enum-fields
 
-### -field D3D12_RESOURCE_BARRIER_TYPE_TRANSITION
+### -field D3D12_RESOURCE_BARRIER_TYPE_TRANSITION:0
 
 A transition barrier that indicates a transition of a set of subresources between different usages. The caller must specify the before and after usages of the subresources.
 

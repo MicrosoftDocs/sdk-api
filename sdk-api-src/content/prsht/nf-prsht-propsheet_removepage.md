@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_RemovePage","PropSheet_RemovePage macro [Window
 old-location: controls\PropSheet_RemovePage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_removepage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_RemovePage, PropSheet_RemovePage macro [Windows Controls], _win32_PropSheet_RemovePage, _win32_PropSheet_RemovePage_cpp, controls.PropSheet_RemovePage, controls._win32_PropSheet_RemovePage, prsht/PropSheet_RemovePage
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # PropSheet_RemovePage macro
+
+## -syntax
+
+```cpp
+VOID PropSheet_RemovePage(
+   HWND           hDlg,
+   int            index,
+   HPROPSHEETPAGE hpage
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

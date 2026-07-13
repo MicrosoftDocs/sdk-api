@@ -1,12 +1,12 @@
 ---
 UID: NN:propidl.IEnumSTATPROPSTG
 title: IEnumSTATPROPSTG (propidl.h)
-description: Iterates through an array of STATPROPSTG structures. The STATPROPSTG structures contain statistical data about properties in a property set.
+description: The IEnumSTATPROPSTG interface iterates through an array of STATPROPSTG structures. The STATPROPSTG structures contain statistical data about properties in a property set. 
 helpviewer_keywords: ["IEnumSTATPROPSTG","IEnumSTATPROPSTG interface [Structured Storage]","IEnumSTATPROPSTG interface [Structured Storage]","described","_stg_ienumstatpropstg","propidlbase/IEnumSTATPROPSTG","stg.ienumstatpropstg"]
 old-location: stg\ienumstatpropstg.htm
 tech.root: Stg
 ms.assetid: e625e52a-5628-4d18-9282-aa1c141c83af
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
 req.header: propidl.h
 req.include-header: Propidl.h
@@ -64,10 +64,7 @@ Enumeration of a nonsimple property does not necessarily indicate that the prope
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATPROPSTG</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATPROPSTG</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumSTATPROPSTG</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATPROPSTG</b> also has these types of members:
 
 ## -see-also
 

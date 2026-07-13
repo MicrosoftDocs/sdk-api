@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3cc.ITAgentSession
 title: ITAgentSession (tapi3cc.h)
-description: An agent session represents an association between an agent, group, and address.
+description: The ITAgentSession interface (tapi3cc.h) handles agent session, which represent an association between an agent, group, and address.
 helpviewer_keywords: ["ITAgentSession","ITAgentSession interface [TAPI 2.2]","ITAgentSession interface [TAPI 2.2]","described","_tapi3_itagentsession","tapi3.itagentsession","tapi3cc/ITAgentSession"]
 old-location: tapi3\itagentsession.htm
 tech.root: tapi3
 ms.assetid: b0db0834-7b9b-4a72-9cc6-6cba31ed1275
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], ITAgentSession interface [TAPI 2.2],described, _tapi3_itagentsession, tapi3.itagentsession, tapi3cc/ITAgentSession
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
@@ -74,10 +74,7 @@ Note to TAPI 2.1 programmers: Many of the methods in this interface are COM wrap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgentSession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentSession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITAgentSession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentSession</b> also has these types of members:
 
 ## -see-also
 

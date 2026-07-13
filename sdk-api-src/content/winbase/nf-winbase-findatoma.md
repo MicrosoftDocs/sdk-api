@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.FindAtomA
 title: FindAtomA function (winbase.h)
-description: Searches the local atom table for the specified character string and retrieves the atom associated with that string.
-helpviewer_keywords: ["FindAtom","FindAtom function [Data Exchange]","FindAtomA","FindAtomW","_win32_FindAtom","_win32_findatom_cpp","dataxchg.findatom","winbase/FindAtom","winbase/FindAtomA","winbase/FindAtomW","winui._win32_findatom"]
+description: Searches the local atom table for the specified character string and retrieves the atom associated with that string. (ANSI)
+helpviewer_keywords: ["FindAtomA", "winbase/FindAtomA"]
 old-location: dataxchg\findatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\findatom.htm
@@ -87,7 +87,7 @@ If
 
 
 > [!NOTE]
-> The winbase.h header defines FindAtom as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines FindAtom as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetFontSet","GetFontSet method [Direct Write]","GetFontSe
 old-location: directwrite\idwritefontcollection1_getfontset.htm
 tech.root: DirectWrite
 ms.assetid: 964732b9-bf0f-2ec8-d566-3fa06c9d57e4
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontCollection1 interface, IDWriteFontCollection1 interface [Direct Write],GetFontSet method, IDWriteFontCollection1.GetFontSet, IDWriteFontCollection1::GetFontSet, directwrite.idwritefontcollection1_getfontset, dwrite_3/IDWriteFontCollection1::GetFontSet
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -64,7 +64,7 @@ Returns the font set used by the collection.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

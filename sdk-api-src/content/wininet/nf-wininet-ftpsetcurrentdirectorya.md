@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FtpSetCurrentDirectoryA
 title: FtpSetCurrentDirectoryA function (wininet.h)
-description: Changes to a different working directory on the FTP server.
-helpviewer_keywords: ["FtpSetCurrentDirectory","FtpSetCurrentDirectory function [WinINet]","FtpSetCurrentDirectoryA","FtpSetCurrentDirectoryW","_inet_ftpsetcurrentdirectory_function","wininet.ftpsetcurrentdirectory","wininet/FtpSetCurrentDirectory","wininet/FtpSetCurrentDirectoryA","wininet/FtpSetCurrentDirectoryW"]
+description: Changes to a different working directory on the FTP server. (ANSI)
+helpviewer_keywords: ["FtpSetCurrentDirectoryA", "wininet/FtpSetCurrentDirectoryA"]
 old-location: wininet\ftpsetcurrentdirectory.htm
 tech.root: wininet
 ms.assetid: 1ee21e9e-d113-427e-ab47-86139e6ecad0
@@ -87,7 +87,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines FtpSetCurrentDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines FtpSetCurrentDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

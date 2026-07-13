@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetCurFocus","TabCtrl_GetCurFocus macro [Windows 
 old-location: controls\TabCtrl_GetCurFocus.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getcurfocus.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetCurFocus, TabCtrl_GetCurFocus macro [Windows Controls], _win32_TabCtrl_GetCurFocus, _win32_TabCtrl_GetCurFocus_cpp, commctrl/TabCtrl_GetCurFocus, controls.TabCtrl_GetCurFocus, controls._win32_TabCtrl_GetCurFocus
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TabCtrl_GetCurFocus macro
+
+## -syntax
+
+```cpp
+int TabCtrl_GetCurFocus(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the tab item that has the focus.
 
 
 ## -description

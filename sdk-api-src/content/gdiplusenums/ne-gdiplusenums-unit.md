@@ -63,15 +63,15 @@ Specifies world coordinates, a nonphysical unit.
 
 Specifies display units. For example, if the display device is a monitor, then the unit is 1 pixel.
 
-### -field UnitPixel
+### -field UnitPixel:UnitPixel
 
 Specifies that a unit is 1 pixel.
 
-### -field UnitPoint
+### -field UnitPoint:UnitPoint
 
 Specifies that a unit is 1 point or 1/72 inch.
 
-### -field UnitInch
+### -field UnitInch:UnitInch
 
 Specifies that a unit is 1 inch.
 

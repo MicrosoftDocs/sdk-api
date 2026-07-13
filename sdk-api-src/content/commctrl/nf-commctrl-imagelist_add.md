@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_Add
 title: ImageList_Add function (commctrl.h)
-description: Adds an image or images to an image list.
+description: Adds an image or images to an image list. (ImageList_Add)
 helpviewer_keywords: ["ImageList_Add","ImageList_Add function [Windows Controls]","_win32_ImageList_Add","_win32_ImageList_Add_cpp","commctrl/ImageList_Add","controls.ImageList_Add","controls._win32_ImageList_Add"]
 old-location: controls\ImageList_Add.htm
 tech.root: Controls

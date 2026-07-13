@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector2ClampLengthV
 title: XMVector2ClampLengthV function (directxmath.h)
-description: Clamps the length of a 2D vector to a given range.
+description: Clamps the length of a 2D vector to a given range. (XMVector2ClampLengthV)
 helpviewer_keywords: ["Use DirectX..XMVector2ClampLengthV","XMVector2ClampLengthV","XMVector2ClampLengthV method [DirectX Math Support APIs]","dxmath.xmvector2clamplengthv"]
 old-location: dxmath\xmvector2clamplengthv.htm
 tech.root: dxmath

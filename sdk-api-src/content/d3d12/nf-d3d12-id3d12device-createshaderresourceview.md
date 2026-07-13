@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateShaderResourceView
 title: ID3D12Device::CreateShaderResourceView (d3d12.h)
-description: Creates a shader-resource view for accessing data in a resource.
+description: Creates a shader-resource view for accessing data in a resource. (ID3D12Device.CreateShaderResourceView)
 helpviewer_keywords: ["CreateShaderResourceView","CreateShaderResourceView method","CreateShaderResourceView method","ID3D12Device interface","ID3D12Device interface","CreateShaderResourceView method","ID3D12Device.CreateShaderResourceView","ID3D12Device::CreateShaderResourceView","d3d12/ID3D12Device::CreateShaderResourceView","direct3d12.id3d12device_createshaderresourceview"]
 old-location: direct3d12\id3d12device_createshaderresourceview.htm
 tech.root: direct3d12

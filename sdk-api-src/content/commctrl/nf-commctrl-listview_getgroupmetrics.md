@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetGroupMetrics","ListView_GetGroupMetrics macro
 old-location: controls\ListView_GetGroupMetrics.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupmetrics.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetGroupMetrics, ListView_GetGroupMetrics macro [Windows Controls], _win32_ListView_GetGroupMetrics, _win32_ListView_GetGroupMetrics_cpp, commctrl/ListView_GetGroupMetrics, controls.ListView_GetGroupMetrics, controls._win32_ListView_GetGroupMetrics
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # ListView_GetGroupMetrics macro
+
+## -syntax
+
+```cpp
+void ListView_GetGroupMetrics(
+   HWND            hwnd,
+   PLVGROUPMETRICS pGroupMetrics
+);
+```
 
 
 ## -description

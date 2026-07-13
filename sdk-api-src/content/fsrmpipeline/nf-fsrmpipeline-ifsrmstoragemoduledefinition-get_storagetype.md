@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.get_StorageType
 title: IFsrmStorageModuleDefinition::get_StorageType (fsrmpipeline.h)
-description: The type of storage that the storage module uses.
+description: The type of storage that the storage module uses. (Get)
 helpviewer_keywords: ["IFsrmStorageModuleDefinition interface [File Server Resource Manager]","StorageType property","IFsrmStorageModuleDefinition.StorageType","IFsrmStorageModuleDefinition.get_StorageType","IFsrmStorageModuleDefinition::StorageType","IFsrmStorageModuleDefinition::get_StorageType","IFsrmStorageModuleDefinition::put_StorageType","StorageType property [File Server Resource Manager]","StorageType property [File Server Resource Manager]","IFsrmStorageModuleDefinition interface","fs.ifsrmstoragemoduledefinition_storagetype","fsrm.ifsrmstoragemoduledefinition_storagetype","fsrmpipeline/IFsrmStorageModuleDefinition::StorageType","fsrmpipeline/IFsrmStorageModuleDefinition::get_StorageType","fsrmpipeline/IFsrmStorageModuleDefinition::put_StorageType","get_StorageType"]
 old-location: fsrm\ifsrmstoragemoduledefinition_storagetype.htm
 tech.root: fsrm

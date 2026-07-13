@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetOrderArray","Header_GetOrderArray macro [Window
 old-location: controls\Header_GetOrderArray.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getorderarray.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetOrderArray, Header_GetOrderArray macro [Windows Controls], _win32_Header_GetOrderArray, _win32_Header_GetOrderArray_cpp, commctrl/Header_GetOrderArray, controls.Header_GetOrderArray, controls._win32_Header_GetOrderArray
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # Header_GetOrderArray macro
 
+## -syntax
+
+```cpp
+BOOL Header_GetOrderArray(
+   HWND hwnd,
+   int  iCount,
+   int  *lpi
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, and the buffer at <i>lpiArray</i> receives the item number of each item in the header control in the order in which they appear from left to right. Returns zero otherwise.
+
 
 ## -description
 
@@ -75,20 +91,20 @@ A pointer to an array of integers that receive the index values for items in the
 
 ## -remarks
 
-The number of elements in <i>lpiArray</i> is specified in <i>iSize</i> and must be equal to the number of items in the control. For example, the following code fragment will reserve enough memory to hold the index values. 
+The number of elements in <i>lpiArray</i> is specified in <i>iCount</i> and must be equal to the number of items in the control. For example, the following code fragment will reserve enough memory to hold the index values. 
 
 
 ```
 
 int iItems,
 
-    *lpiArray;
+    *lpi;
 
 
 
 // Get memory for buffer
 
-if((iItems = SendMessage(hwndHD, HDM_GETITEMCOUNT, 0,0))!=-1)
+if((iItems = SendMessage(hwnd, HDM_GETITEMCOUNT, 0,0))!=-1)
 
     if(!(lpiArray = calloc(iItems,sizeof(int))))
 

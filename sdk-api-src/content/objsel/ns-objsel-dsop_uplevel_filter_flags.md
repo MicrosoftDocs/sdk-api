@@ -95,7 +95,7 @@ Includes distribution <a href="/previous-versions/windows/desktop/axe/group">gro
 
 #### DSOP_FILTER_UNIVERSAL_GROUPS_SE (32 (0x20))
 
-Includes security groups with universal scope. This flag has no affect in a mixed mode domain because universal security groups do not exist in mixed mode domains.
+Includes security groups with universal scope. This flag has no effect in a mixed mode domain because universal security groups do not exist in mixed mode domains.
 
 
 
@@ -147,7 +147,7 @@ Includes password settings objects.
 
 ### -field flMixedModeOnly
 
-Filter flags to use for an up-level domain in mixed mode. Mixed mode refers to an up-level domain that may have Windows NT 4.0 Backup Domain Controllers present. This member can be a combination of the flags listed in the <b>flBothModes</b> flags. The <b>DSOP_FILTER_UNIVERSAL_GROUPS_SE</b> flag has no affect in a mixed-mode domain because universal security groups do not exist in mixed mode domains.
+Filter flags to use for an up-level domain in mixed mode. Mixed mode refers to an up-level domain that may have Windows NT 4.0 Backup Domain Controllers present. This member can be a combination of the flags listed in the <b>flBothModes</b> flags. The <b>DSOP_FILTER_UNIVERSAL_GROUPS_SE</b> flag has no effect in a mixed-mode domain because universal security groups do not exist in mixed mode domains.
 
 ### -field flNativeModeOnly
 

@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::GetWidth</b> method gets the width currently set for this 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
-## -parameters
+
 
 ## -returns
 

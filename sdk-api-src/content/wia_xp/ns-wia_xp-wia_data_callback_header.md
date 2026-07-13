@@ -47,6 +47,7 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_DATA_CALLBACK_HEADER
+archived: true
 ---
 
 # WIA_DATA_CALLBACK_HEADER structure

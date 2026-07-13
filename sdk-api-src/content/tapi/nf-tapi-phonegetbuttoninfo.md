@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.phoneGetButtonInfo
 title: phoneGetButtonInfo function (tapi.h)
-description: The phoneGetButtonInfo function returns information about the specified button.
+description: The phoneGetButtonInfo function (tapi.h) returns information about the specified button. 
 helpviewer_keywords: ["_tapi2_phonegetbuttoninfo","phoneGetButtonInfo","phoneGetButtonInfo function [TAPI 2.2]","phoneGetButtonInfoA","phoneGetButtonInfoW","tapi/phoneGetButtonInfo","tapi/phoneGetButtonInfoA","tapi/phoneGetButtonInfoW","tapi2.phonegetbuttoninfo"]
 old-location: tapi2\phonegetbuttoninfo.htm
 tech.root: tapi3
 ms.assetid: a4df5ba0-7fce-4d29-80a6-4f8f58ae1a83
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo function [TAPI 2.2], phoneGetButtonInfoA, phoneGetButtonInfoW, tapi/phoneGetButtonInfo, tapi/phoneGetButtonInfoA, tapi/phoneGetButtonInfoW, tapi2.phonegetbuttoninfo
 req.header: tapi.h
 req.include-header: 

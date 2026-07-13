@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_SmtpServer
 title: IFsrmSetting::get_SmtpServer (fsrm.h)
-description: Retrieves or sets the SMTP server that FSRM uses to send email.
+description: Retrieves or sets the SMTP server that FSRM uses to send email. (Get)
 helpviewer_keywords: ["FsrmSetting class [File Server Resource Manager]","SmtpServer property","IFsrmSetting interface [File Server Resource Manager]","SmtpServer property","IFsrmSetting.SmtpServer","IFsrmSetting.get_SmtpServer","IFsrmSetting::SmtpServer","IFsrmSetting::get_SmtpServer","IFsrmSetting::put_SmtpServer","SmtpServer property [File Server Resource Manager]","SmtpServer property [File Server Resource Manager]","FsrmSetting class","SmtpServer property [File Server Resource Manager]","IFsrmSetting interface","fs.ifsrmsetting_smtpserver","fsrm.ifsrmsetting_smtpserver","fsrm/IFsrmSetting::SmtpServer","fsrm/IFsrmSetting::get_SmtpServer","fsrm/IFsrmSetting::put_SmtpServer","get_SmtpServer"]
 old-location: fsrm\ifsrmsetting_smtpserver.htm
 tech.root: fsrm

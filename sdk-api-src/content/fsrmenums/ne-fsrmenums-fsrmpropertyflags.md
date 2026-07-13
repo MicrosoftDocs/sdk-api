@@ -56,88 +56,88 @@ Defines flag values that provide additional information about a classification p
 
 ## -enum-fields
 
-### -field FsrmPropertyFlags_None
+### -field FsrmPropertyFlags_None:0
 
-### -field FsrmPropertyFlags_Orphaned
+### -field FsrmPropertyFlags_Orphaned:0x1
 
 The property does not have a corresponding property definition defined in FSRM.
 
-### -field FsrmPropertyFlags_RetrievedFromCache
+### -field FsrmPropertyFlags_RetrievedFromCache:0x2
 
 The value of the property was retrieved from the cache during this classification session.
 
-### -field FsrmPropertyFlags_RetrievedFromStorage
+### -field FsrmPropertyFlags_RetrievedFromStorage:0x4
 
 The value of the property was retrieved from the file or database during this classification session.
 
-### -field FsrmPropertyFlags_SetByClassifier
+### -field FsrmPropertyFlags_SetByClassifier:0x8
 
 The value of the property was set by a classification rule during the last classification run.
 
-### -field FsrmPropertyFlags_Deleted
+### -field FsrmPropertyFlags_Deleted:0x10
 
 The property was deleted by 
       <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-clearfileproperty">IFsrmClassificationManager::ClearFileProperty</a>.
 
-### -field FsrmPropertyFlags_Reclassified
+### -field FsrmPropertyFlags_Reclassified:0x20
 
 The property value from storage was changed to a different value by a classifier.
 
-### -field FsrmPropertyFlags_AggregationFailed
+### -field FsrmPropertyFlags_AggregationFailed:0x40
 
 There are values from multiple sources that could not be aggregated together.
 
-### -field FsrmPropertyFlags_Existing
+### -field FsrmPropertyFlags_Existing:0x80
 
 The property already exists in storage.
 
-### -field FsrmPropertyFlags_FailedLoadingProperties
+### -field FsrmPropertyFlags_FailedLoadingProperties:0x100
 
 The property may only be partially classified because a failure occurred while loading properties from 
       storage.
 
-### -field FsrmPropertyFlags_FailedClassifyingProperties
+### -field FsrmPropertyFlags_FailedClassifyingProperties:0x200
 
 The property may only be partially classified because a failure occurred while classifying 
       properties.
 
-### -field FsrmPropertyFlags_FailedSavingProperties
+### -field FsrmPropertyFlags_FailedSavingProperties:0x400
 
 The property failed to be saved by the storage module with the highest precedence.
 
 <b>Windows Server 2008 R2:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field FsrmPropertyFlags_Secure
+### -field FsrmPropertyFlags_Secure:0x800
 
 The property is defined to be used for security purposes or came from secure storage.
 
 <b>Windows Server 2008 R2:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field FsrmPropertyFlags_PolicyDerived
+### -field FsrmPropertyFlags_PolicyDerived:0x1000
 
 The property value originally came from a classification policy.
 
 <b>Windows Server 2008 R2:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field FsrmPropertyFlags_Inherited
+### -field FsrmPropertyFlags_Inherited:0x2000
 
 The property value was inherited from the property value of the file's parent folder.
 
 <b>Windows Server 2008 R2:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field FsrmPropertyFlags_Manual
+### -field FsrmPropertyFlags_Manual:0x4000
 
 The property value was set manually.
 
 <b>Windows Server 2008 R2:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field FsrmPropertyFlags_ExplicitValueDeleted
+### -field FsrmPropertyFlags_ExplicitValueDeleted:0x8000
 
 An explicit property value was deleted and replaced with an inherited value.
 
 <b>Windows Server 2008 R2:  </b>This enumeration value is not supported before Windows Server 2012.
 
-### -field FsrmPropertyFlags_PropertyDeletedFromClear
+### -field FsrmPropertyFlags_PropertyDeletedFromClear:0x10000
 
 The property has been deleted due to a rule marked with clear property.
 

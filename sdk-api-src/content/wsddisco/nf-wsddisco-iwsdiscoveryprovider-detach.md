@@ -52,7 +52,7 @@ api_name:
 
 Detaches a callback interface from the discovery provider.
 
-## -parameters
+
 
 ## -returns
 

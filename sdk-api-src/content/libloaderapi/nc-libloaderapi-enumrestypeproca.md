@@ -1,7 +1,7 @@
 ---
 UID: NC:libloaderapi.ENUMRESTYPEPROCA
 title: ENUMRESTYPEPROCA (libloaderapi.h)
-description: An application-defined callback function used with the EnumResourceTypes and EnumResourceTypesEx functions.
+description: An application-defined callback function used with the EnumResourceTypes and EnumResourceTypesEx functions. (ANSI)
 helpviewer_keywords: ["EnumResTypeProc","EnumResTypeProc callback","EnumResTypeProc callback function [Menus and Other Resources]","EnumResTypeProcA","EnumResTypeProcW","_win32_EnumResTypeProc","_win32_enumrestypeproc_cpp","libloaderapi/EnumResTypeProc","libloaderapi/EnumResTypeProcA","libloaderapi/EnumResTypeProcW","menurc.enumrestypeproc","winui._win32_enumrestypeproc"]
 old-location: menurc\enumrestypeproc.htm
 tech.root: menurc
@@ -61,7 +61,7 @@ A handle to the module whose executable file contains the resources for which th
 
 ### -param lpType
 
-Type: <b>LPTSTR</b>
+Type: <b>LPSTR</b>
 
 The type of resource for which the type is being enumerated. 
 
@@ -88,18 +88,23 @@ An application must register this function by passing its address to the <a href
 If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
 
 > [!NOTE]
-> The libloaderapi.h header defines ENUMRESTYPEPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The libloaderapi.h header defines ENUMRESTYPEPROC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
 <b>Conceptual</b>
 
+
 <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>
+
 
 <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a>
 
+
 <a href="/windows/win32/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>
+
 
 <b>Reference</b>
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

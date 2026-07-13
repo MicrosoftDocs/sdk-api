@@ -4,7 +4,8 @@ title: Msports.h header
 ms.assetid: a2437d99-676b-374a-b0ad-07ff2eac5eec
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: serports
 f1_keywords:
  - msports

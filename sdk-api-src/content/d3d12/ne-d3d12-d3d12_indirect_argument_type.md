@@ -54,7 +54,7 @@ Specifies the type of the indirect parameter.
 
 ## -enum-fields
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_DRAW
+### -field D3D12_INDIRECT_ARGUMENT_TYPE_DRAW:0
 
 Indicates the type is a Draw call.
 

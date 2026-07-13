@@ -6,7 +6,7 @@ helpviewer_keywords: ["Int64ShraMod32","Int64ShraMod32 macro [Windows API]","_wi
 old-location: winprog\int64shramod32.htm
 tech.root: WinProg
 ms.assetid: 69de2eb7-2cbe-48db-935b-b3d2c41f4e86
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Int64ShraMod32, Int64ShraMod32 macro [Windows API], _win32_int64shramod32, winnt/Int64ShraMod32, winprog.int64shramod32
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Int64ShraMod32 macro
+
+## -syntax
+
+```cpp
+LONGLONG Int64ShraMod32(
+  [in]  LONGLONG a,
+  [in]  DWORD b
+);
+```
+
+## -returns
+
+Type: **LONGLONG**
+
+The return value is the signed 64-bit integer result of the right arithmetic shift operation.
 
 
 ## -description

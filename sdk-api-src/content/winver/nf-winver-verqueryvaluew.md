@@ -1,8 +1,8 @@
 ---
 UID: NF:winver.VerQueryValueW
 title: VerQueryValueW function (winver.h)
-description: Retrieves specified version information from the specified version-information resource.
-helpviewer_keywords: ["VerQueryValue","VerQueryValue function [Menus and Other Resources]","VerQueryValueA","VerQueryValueW","_win32_VerQueryValue","_win32_verqueryvalue_cpp","menurc.verqueryvalue","winui._win32_verqueryvalue","winver/VerQueryValue","winver/VerQueryValueA","winver/VerQueryValueW"]
+description: Retrieves specified version information from the specified version-information resource. (Unicode)
+helpviewer_keywords: ["VerQueryValue", "VerQueryValue function [Menus and Other Resources]", "VerQueryValueW", "_win32_VerQueryValue", "_win32_verqueryvalue_cpp", "menurc.verqueryvalue", "winui._win32_verqueryvalue", "winver/VerQueryValue", "winver/VerQueryValueW"]
 old-location: menurc\verqueryvalue.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verqueryvalue.htm
@@ -212,7 +212,7 @@ for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 
 > [!NOTE]
-> The winver.h header defines VerQueryValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winver.h header defines VerQueryValue as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

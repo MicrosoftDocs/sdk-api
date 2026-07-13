@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.DeleteSecurityPackageW
 title: DeleteSecurityPackageW function (sspi.h)
-description: Deletes a security support provider from the list of providers supported by Microsoft Negotiate.
-helpviewer_keywords: ["DeleteSecurityPackage","DeleteSecurityPackage function [Security]","DeleteSecurityPackageA","DeleteSecurityPackageW","security.deletesecuritypackage","sspi/DeleteSecurityPackage","sspi/DeleteSecurityPackageA","sspi/DeleteSecurityPackageW"]
+description: Deletes a security support provider from the list of providers supported by Microsoft Negotiate. (Unicode)
+helpviewer_keywords: ["DeleteSecurityPackage", "DeleteSecurityPackage function [Security]", "DeleteSecurityPackageW", "security.deletesecuritypackage", "sspi/DeleteSecurityPackage", "sspi/DeleteSecurityPackageW"]
 old-location: security\deletesecuritypackage.htm
 tech.root: security
 ms.assetid: 7a9a2c64-92a4-419b-8b20-d0f5cba64147
@@ -73,4 +73,4 @@ If the function fails, it returns a nonzero error code.
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines DeleteSecurityPackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines DeleteSecurityPackage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

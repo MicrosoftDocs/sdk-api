@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagOFNA
 title: OPENFILENAMEA (commdlg.h)
-description: Contains information that the GetOpenFileName and GetSaveFileName functions use to initialize an Open or Save As dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+description: Contains information that the GetOpenFileName and GetSaveFileName functions use to initialize an Open or Save As dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. (ANSI)
 helpviewer_keywords: ["*LPOPENFILENAMEA","LPOPENFILENAME","LPOPENFILENAME structure pointer [Dialog Boxes]","OFN_ALLOWMULTISELECT","OFN_CREATEPROMPT","OFN_DONTADDTORECENT","OFN_ENABLEHOOK","OFN_ENABLEINCLUDENOTIFY","OFN_ENABLESIZING","OFN_ENABLETEMPLATE","OFN_ENABLETEMPLATEHANDLE","OFN_EXPLORER","OFN_EXTENSIONDIFFERENT","OFN_EX_NOPLACESBAR","OFN_FILEMUSTEXIST","OFN_FORCESHOWHIDDEN","OFN_HIDEREADONLY","OFN_LONGNAMES","OFN_NOCHANGEDIR","OFN_NODEREFERENCELINKS","OFN_NOLONGNAMES","OFN_NONETWORKBUTTON","OFN_NOREADONLYRETURN","OFN_NOTESTFILECREATE","OFN_NOVALIDATE","OFN_OVERWRITEPROMPT","OFN_PATHMUSTEXIST","OFN_READONLY","OFN_SHAREAWARE","OFN_SHOWHELP","OPENFILENAME","OPENFILENAME structure [Dialog Boxes]","OPENFILENAMEA","OPENFILENAMEW","_win32_OPENFILENAME_str","_win32_openfilename_str_cpp","commdlg/LPOPENFILENAME","commdlg/OPENFILENAME","commdlg/OPENFILENAMEA","commdlg/OPENFILENAMEW","dlgbox.openfilename_str","winui._win32_openfilename_str"]
 old-location: dlgbox\openfilename_str.htm
 tech.root: dlgbox
@@ -530,7 +530,11 @@ The name of the dialog template resource in the module identified by the <b>hIns
 
 ### -field lpEditInfo
 
+This member is conditionally compiled (using `#ifdef _MAC`) so that it is applicable only to Motorola 68K Macintosh computers, and not to Windows client operating systems.
+
 ### -field lpstrPrompt
+
+This member is conditionally compiled (using `#ifdef _MAC`) so that it is applicable only to Motorola 68K Macintosh computers, and not to Windows client operating systems.
 
 ### -field pvReserved
 
@@ -577,7 +581,7 @@ For compatibility reasons, the Places Bar is hidden if <b>Flags</b> is set to <b
 
 
 > [!NOTE]
-> The commdlg.h header defines OPENFILENAME as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines OPENFILENAME as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

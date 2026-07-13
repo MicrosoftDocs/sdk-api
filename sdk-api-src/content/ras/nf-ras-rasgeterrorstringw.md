@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetErrorStringW
 title: RasGetErrorStringW function (ras.h)
-description: The RasGetErrorString function obtains an error message string for a specified RAS error value.
-helpviewer_keywords: ["RasGetErrorString","RasGetErrorString function [RAS]","RasGetErrorStringA","RasGetErrorStringW","_ras_rasgeterrorstring","ras/RasGetErrorString","ras/RasGetErrorStringA","ras/RasGetErrorStringW","rras.rasgeterrorstring"]
+description: The RasGetErrorString function obtains an error message string for a specified RAS error value. (Unicode)
+helpviewer_keywords: ["RasGetErrorString", "RasGetErrorString function [RAS]", "RasGetErrorStringW", "_ras_rasgeterrorstring", "ras/RasGetErrorString", "ras/RasGetErrorStringW", "rras.rasgeterrorstring"]
 old-location: rras\rasgeterrorstring.htm
 tech.root: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
@@ -143,7 +143,7 @@ DWORD __cdecl wmain(){
 
 
 > [!NOTE]
-> The ras.h header defines RasGetErrorString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetErrorString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

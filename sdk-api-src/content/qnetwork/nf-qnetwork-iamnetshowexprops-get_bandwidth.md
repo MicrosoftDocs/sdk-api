@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMNetShowExProps interface [DirectShow]","get_Bandwidth 
 old-location: dshow\iamnetshowexprops_get_bandwidth.htm
 tech.root: dshow
 ms.assetid: 042ddea5-c17a-4cd6-a18d-9a3b65bf11b7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_Bandwidth method, IAMNetShowExProps.get_Bandwidth, IAMNetShowExProps::get_Bandwidth, IAMNetShowExPropsget_Bandwidth, dshow.iamnetshowexprops_get_bandwidth, get_Bandwidth, get_Bandwidth method [DirectShow], get_Bandwidth method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_Bandwidth
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_Bandwidth</code> method retrieves the bandwidth.
 

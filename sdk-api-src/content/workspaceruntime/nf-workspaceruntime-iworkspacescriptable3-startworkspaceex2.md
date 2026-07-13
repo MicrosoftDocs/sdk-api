@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable3.StartWorkspaceEx2
 title: IWorkspaceScriptable3::StartWorkspaceEx2 (workspaceruntime.h)
-description: Not implemented.
+description: Not implemented. (IWorkspaceScriptable3::StartWorkspaceEx2)
 helpviewer_keywords: ["IWorkspaceScriptable3 interface [Remote Desktop Services]","StartWorkspaceEx2 method","IWorkspaceScriptable3.StartWorkspaceEx2","IWorkspaceScriptable3::StartWorkspaceEx2","StartWorkspaceEx2","StartWorkspaceEx2 method [Remote Desktop Services]","StartWorkspaceEx2 method [Remote Desktop Services]","IWorkspaceScriptable3 interface","StartWorkspaceEx2 method [Remote Desktop Services]","Workspace object","WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE","WKS_FLAG_CREDS_AUTHENTICATED","WKS_FLAG_PASSWORD_ENCRYPTED","Workspace object [Remote Desktop Services]","StartWorkspaceEx2 method","termserv.iworkspacescriptable3_startworkspaceex2","workspaceruntime/IWorkspaceScriptable3::StartWorkspaceEx2"]
 old-location: termserv\iworkspacescriptable3_startworkspaceex2.htm
 tech.root: TermServ

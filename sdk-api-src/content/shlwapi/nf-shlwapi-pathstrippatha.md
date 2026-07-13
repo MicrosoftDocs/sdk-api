@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathStripPathA
 title: PathStripPathA function (shlwapi.h)
-description: Removes the path portion of a fully qualified path and file.
-helpviewer_keywords: ["PathStripPath","PathStripPath function [Windows Shell]","PathStripPathA","PathStripPathW","_win32_PathStripPath","shell.PathStripPath","shlwapi/PathStripPath","shlwapi/PathStripPathA","shlwapi/PathStripPathW"]
+description: Removes the path portion of a fully qualified path and file. (ANSI)
+helpviewer_keywords: ["PathStripPathA", "shlwapi/PathStripPathA"]
 old-location: shell\PathStripPath.htm
 tech.root: shell
 ms.assetid: 84b439f2-f570-4e7f-bc3f-e0fdd185ea15
@@ -69,5 +69,5 @@ A pointer to a null-terminated string of length MAX_PATH that contains the path 
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathStripPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathStripPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

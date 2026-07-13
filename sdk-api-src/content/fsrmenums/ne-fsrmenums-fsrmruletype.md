@@ -56,15 +56,15 @@ Defines the types of rules that you can define.
 
 ## -enum-fields
 
-### -field FsrmRuleType_Unknown
+### -field FsrmRuleType_Unknown:0
 
 The rule is unknown. Do not use this type.
 
-### -field FsrmRuleType_Classification
+### -field FsrmRuleType_Classification:1
 
 The rule defines how a classification module affects a file.
 
-### -field FsrmRuleType_Generic
+### -field FsrmRuleType_Generic:2
 
 For internal use only.
 

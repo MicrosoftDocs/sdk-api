@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -60,7 +62,7 @@ api_name:
 Returns the <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> of the current locale for the calling thread.<div class="alert"><b>Note</b>  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
 <div> </div>
 
-## -parameters
+
 
 ## -returns
 

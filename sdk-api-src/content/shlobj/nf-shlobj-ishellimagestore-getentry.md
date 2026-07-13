@@ -66,7 +66,7 @@ A pointer to a null-terminated string that specifies the path to the file that c
 
 Type: <b>DWORD</b>
 
-The storage instantiation mode specified by one of the <a href="/windows/desktop/Stg/stgm-constants">STGM </a>values.
+The storage instantiation mode specified by one of the <a href="/windows/desktop/Stg/stgm-constants">STGM </a> values.
 
 ### -param phImage [out]
 

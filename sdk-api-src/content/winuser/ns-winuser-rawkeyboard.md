@@ -61,7 +61,7 @@ Contains information about the state of the keyboard.
 
 Type: <b>USHORT</b>
 
-Specifies the scan code (from Scan Code Set 1) associated with a key press. See Remarks.
+Specifies the [scan code](/windows/win32/inputdev/about-keyboard-input#scan-codes) associated with a key press. See Remarks.
 
 ### -field Flags
 
@@ -102,28 +102,60 @@ The device-specific additional information for the event.
 
 ## -remarks
 
-For a **MakeCode** value [HID client mapper driver](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) converts HID usages into scan codes according to [USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) (see **PS/2 Set 1 Make** column).
-
-Older PS/2 keyboards actually transmit Scan Code Set 2 values down the wire from the keyboard to the keyboard port. These values are translated to Scan Code Set 1 by the i8042 port chip. Possible values are listed in [Keyboard Scan Code Specification](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc) (see **Scan Code Table**).
-
 <b>KEYBOARD_OVERRUN_MAKE_CODE</b> is a special **MakeCode** value sent when an invalid or unrecognizable combination of keys is pressed or the number of keys pressed exceeds the limit for this keyboard.
+
+```cpp
+case WM_INPUT:
+{
+    UINT dwSize = sizeof(RAWINPUT);
+    static BYTE lpb[sizeof(RAWINPUT)];
+
+    GetRawInputData((HRAWINPUT)lParam, RID_INPUT, lpb, &dwSize, sizeof(RAWINPUTHEADER));
+
+    RAWINPUT* raw = (RAWINPUT*)lpb;
+
+    if (raw->header.dwType == RIM_TYPEKEYBOARD)
+    {
+        RAWKEYBOARD& keyboard = raw->data.keyboard;
+        WORD scanCode = 0;
+        BOOL keyUp = keyboard.Flags & RI_KEY_BREAK;
+
+        // Ignore key overrun state and keys not mapped to any virtual key code
+        if (keyboard.MakeCode == KEYBOARD_OVERRUN_MAKE_CODE || keyboard.VKey >= UCHAR_MAX)
+            return 0;
+
+        if (keyboard.MakeCode)
+        {
+            // Compose the full scan code value with its extended byte
+            scanCode = MAKEWORD(keyboard.MakeCode & 0x7f, ((keyboard.Flags & RI_KEY_E0) ? 0xe0 : ((keyboard.Flags & RI_KEY_E1) ? 0xe1 : 0x00)));
+        }
+        else
+        {
+            // Scan code value may be empty for some buttons (for example multimedia buttons)
+            // Try to get the scan code from the virtual key code
+            scanCode = LOWORD(MapVirtualKey(keyboard.VKey, MAPVK_VK_TO_VSC_EX));
+        }
+
+        // Get the key name for debug output
+        TCHAR keyNameBuffer[MAX_PATH] = {};
+        GetKeyNameText((LONG)MAKELPARAM(0, (HIBYTE(scanCode) ? KF_EXTENDED : 0x00) | LOBYTE(scanCode)), keyNameBuffer, MAX_PATH);
+
+        // Debug output
+        TCHAR printBuffer[MAX_PATH] = {};
+        StringCchPrintf(printBuffer, MAX_PATH, TEXT("Keyboard: scanCode=%04x keyName=%s\r\n"), scanCode, keyNameBuffer);
+        OutputDebugString(printBuffer);
+    }
+    ...
+
+    return 0;
+}
+```
 
 ## -see-also
 
-<b>Conceptual</b>
-
-[GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md)
-
-[RAWINPUT](ns-winuser-rawinput.md)
-
-[Raw Input](/windows/win32/inputdev/raw-input)
-
-[Keyboard and mouse HID client drivers](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)
-
-<b>Reference</b>
-
-[USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf)
-
-[PS/2 Keyboard Scan Code Specification](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc)
-
-[KEYBOARD_INPUT_DATA structure](../ntddkbd/ns-ntddkbd-keyboard_input_data.md)
+- [GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfow.md)
+- [RAWINPUT](ns-winuser-rawinput.md)
+- [Raw Input](/windows/win32/inputdev/raw-input)
+- [Keyboard and mouse HID client drivers](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)
+- [KEYBOARD_INPUT_DATA structure](../ntddkbd/ns-ntddkbd-keyboard_input_data.md)
+- [Keyboard Input](/windows/desktop/inputdev/keyboard-input)

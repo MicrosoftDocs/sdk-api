@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_SetRange","DateTime_SetRange macro [Windows Cont
 old-location: controls\DateTime_SetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_SetRange, DateTime_SetRange macro [Windows Controls], GDTR_MAX, GDTR_MIN, _win32_DateTime_SetRange, _win32_DateTime_SetRange_cpp, commctrl/DateTime_SetRange, controls.DateTime_SetRange, controls._win32_DateTime_SetRange
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # DateTime_SetRange macro
+
+## -syntax
+
+```cpp
+BOOL DateTime_SetRange(
+   HWND         hdp,
+   DWORD        gd,
+   LPSYSTEMTIME rgst
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description
@@ -97,7 +113,7 @@ The second element in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures. The first element of the <b>SYSTEMTIME</b> array contains the minimum allowable time. The second element of the <b>SYSTEMTIME</b> array contains the maximum allowable time. It is not necessary to fill an array element that is not specified in the <i>flags</i> parameter.
+A pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures. The first element of the <b>SYSTEMTIME</b> array contains the minimum allowable time. The second element of the <b>SYSTEMTIME</b> array contains the maximum allowable time. It is not necessary to fill an array element that is not specified in the <i>gd</i> parameter.
 
 ## -remarks
 

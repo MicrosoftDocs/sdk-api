@@ -134,4 +134,7 @@ For Windows XP (with no service pack installed), this function must be called fr
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/install/cm-waitnopendinginstallevents">CM_WaitNoPendingInstallEvents</a>
+
+[CM_WaitNoPendingInstallEvents](/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_waitnopendinginstallevents)
+
+[How a Device Installation Application checks for in-progress device installations](/windows-hardware/drivers/install/checking-for-in-progress-installations)

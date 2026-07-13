@@ -74,7 +74,7 @@ This function is used to identify the <a href="/previous-versions/windows/deskto
 <ul>
 <li>The <a href="/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> originated from the same <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle passed to the function in the <i>PrimaryConn</i> parameter.</li>
 
-<li>The <a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_REF_DEREF_CONN_PER_MSG</a> session option was previously enabled on the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session associated with the message.</li>
+<li>The <a href="/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_REF_DEREF_CONN_PER_MSG</a> session option was previously enabled on the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session associated with the message.</li>
 </ul>
 If neither of these conditions are met, the function returns a <b>NULL</b> session handle.
 

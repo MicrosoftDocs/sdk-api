@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CopyEnhMetaFileW
 title: CopyEnhMetaFileW function (wingdi.h)
-description: The CopyEnhMetaFile function copies the contents of an enhanced-format metafile to a specified file.
-helpviewer_keywords: ["CopyEnhMetaFile","CopyEnhMetaFile function [Windows GDI]","CopyEnhMetaFileA","CopyEnhMetaFileW","_win32_CopyEnhMetaFile","gdi.copyenhmetafile","wingdi/CopyEnhMetaFile","wingdi/CopyEnhMetaFileA","wingdi/CopyEnhMetaFileW"]
+description: The CopyEnhMetaFile function copies the contents of an enhanced-format metafile to a specified file. (Unicode)
+helpviewer_keywords: ["CopyEnhMetaFile", "CopyEnhMetaFile function [Windows GDI]", "CopyEnhMetaFileW", "_win32_CopyEnhMetaFile", "gdi.copyenhmetafile", "wingdi/CopyEnhMetaFile", "wingdi/CopyEnhMetaFileW"]
 old-location: gdi\copyenhmetafile.htm
 tech.root: gdi
 ms.assetid: 7c428828-b239-41d4-926c-88caa0aa7214
@@ -85,7 +85,7 @@ When the application no longer needs the enhanced-metafile handle, it should del
 
 
 > [!NOTE]
-> The wingdi.h header defines CopyEnhMetaFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines CopyEnhMetaFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

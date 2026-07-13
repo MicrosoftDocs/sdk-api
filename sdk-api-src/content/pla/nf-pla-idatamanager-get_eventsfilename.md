@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataManager.get_EventsFileName
 title: IDataManager::get_EventsFileName (pla.h)
-description: Retrieves or sets the name for the events file.
+description: Retrieves or sets the name for the events file. (Get)
 helpviewer_keywords: ["EventsFileName property [PLA]","EventsFileName property [PLA]","IDataManager interface","IDataManager interface [PLA]","EventsFileName property","IDataManager.EventsFileName","IDataManager.get_EventsFileName","IDataManager::EventsFileName","IDataManager::get_EventsFileName","IDataManager::put_EventsFileName","base.idatamanager_eventsfilename","get_EventsFileName","pla.idatamanager_eventsfilename","pla/IDataManager::EventsFileName","pla/IDataManager::get_EventsFileName","pla/IDataManager::put_EventsFileName"]
 old-location: pla\idatamanager_eventsfilename.htm
 tech.root: PLA

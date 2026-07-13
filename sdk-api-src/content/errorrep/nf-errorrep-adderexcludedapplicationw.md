@@ -1,8 +1,8 @@
 ---
 UID: NF:errorrep.AddERExcludedApplicationW
 title: AddERExcludedApplicationW function (errorrep.h)
-description: Excludes the specified application from error reporting.
-helpviewer_keywords: ["AddERExcludedApplication","AddERExcludedApplication function [Windows Error Reporting]","AddERExcludedApplicationA","AddERExcludedApplicationW","_win32_adderexcludedapplication","base.adderexcludedapplication","errorrep/AddERExcludedApplication","errorrep/AddERExcludedApplicationA","errorrep/AddERExcludedApplicationW","wer.adderexcludedapplication"]
+description: Excludes the specified application from error reporting. (Unicode)
+helpviewer_keywords: ["AddERExcludedApplication", "AddERExcludedApplication function [Windows Error Reporting]", "AddERExcludedApplicationW", "_win32_adderexcludedapplication", "base.adderexcludedapplication", "errorrep/AddERExcludedApplication", "errorrep/AddERExcludedApplicationW", "wer.adderexcludedapplication"]
 old-location: wer\adderexcludedapplication.htm
 tech.root: wer
 ms.assetid: 9055437b-2ee2-4f0a-bcef-2b04ac5368b3
@@ -70,7 +70,7 @@ If the function fails, the return value is zero. To get extended error informati
 This function stores the excluded application list under the **HKEY_LOCAL_MACHINE** hive. The calling process must have permissions to write to this registry hive.
 
 > [!NOTE]
-> The errorrep.h header defines AddERExcludedApplication as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The errorrep.h header defines AddERExcludedApplication as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

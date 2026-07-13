@@ -111,7 +111,7 @@ The file attributes of the destination file or directory. The <b>FILE_READ_ONLY<
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the destination file or directory, if it does not already exist. If you specify <b>NULL</b>, the file or directory gets a default security descriptor. The ACLs in the default security descriptor for a file or directory are inherited from its parent directory.
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the destination file or directory, if it does not already exist. If you specify <b>NULL</b>, the file or directory gets a default security descriptor. The ACLs in the default security descriptor for a file or directory are inherited from its parent directory.
 
 ## -returns
 
@@ -200,4 +200,4 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>

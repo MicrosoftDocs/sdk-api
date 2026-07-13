@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathFindSuffixArrayW
 title: PathFindSuffixArrayW function (shlwapi.h)
-description: Determines whether a given file name has one of a list of suffixes.
-helpviewer_keywords: ["PathFindSuffixArray","PathFindSuffixArray function [Windows Shell]","PathFindSuffixArrayA","PathFindSuffixArrayW","_win32_PathFindSuffixArray","shell.PathFindSuffixArray","shlwapi/PathFindSuffixArray","shlwapi/PathFindSuffixArrayA","shlwapi/PathFindSuffixArrayW"]
+description: Determines whether a given file name has one of a list of suffixes. (Unicode)
+helpviewer_keywords: ["PathFindSuffixArray", "PathFindSuffixArray function [Windows Shell]", "PathFindSuffixArrayW", "_win32_PathFindSuffixArray", "shell.PathFindSuffixArray", "shlwapi/PathFindSuffixArray", "shlwapi/PathFindSuffixArrayW"]
 old-location: shell\PathFindSuffixArray.htm
 tech.root: shell
 ms.assetid: e2285f7d-bb5d-48c5-bdf1-10ca410389f0
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shlwapi-l1-2-1.dll
+ - ext-ms-win-shell-shlwapi-l1-2-0.dll
  - Shlwapi.dll
  - API-MS-Win-shlwapi-IE-l1-1-0.dll
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
@@ -91,5 +93,5 @@ This function uses a case-sensitive comparison. The suffix must match exactly.
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathFindSuffixArray as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathFindSuffixArray as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

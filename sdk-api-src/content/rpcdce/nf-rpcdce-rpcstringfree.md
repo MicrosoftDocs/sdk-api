@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcStringFree
 title: RpcStringFree function (rpcdce.h)
-description: The RpcStringFree function frees a character string allocated by the RPC run-time library.
+description: The RpcStringFree function (rpcdce.h) frees a character string allocated by the RPC run-time library.
 helpviewer_keywords: ["RpcStringFree","RpcStringFree function [RPC]","RpcStringFreeA","RpcStringFreeW","_rpc_rpcstringfree","rpc.rpcstringfree","rpcdce/RpcStringFree","rpcdce/RpcStringFreeA","rpcdce/RpcStringFreeW"]
 old-location: rpc\rpcstringfree.htm
 tech.root: Rpc
 ms.assetid: 07226282-1091-4479-adc8-b2f604c645e7
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcStringFree, RpcStringFree function [RPC], RpcStringFreeA, RpcStringFreeW, _rpc_rpcstringfree, rpc.rpcstringfree, rpcdce/RpcStringFree, rpcdce/RpcStringFreeA, rpcdce/RpcStringFreeW
 req.header: rpcdce.h
 req.include-header: Rpc.h

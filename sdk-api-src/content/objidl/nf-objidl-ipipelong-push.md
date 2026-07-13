@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IPipeLong.Push
 title: IPipeLong::Push (objidl.h)
-description: Sends data of the long integer type to the pipe source.
+description: The IPipeLong::Push method (objidl.h) sends data of the long integer type to the pipe source.
 helpviewer_keywords: ["IPipeLong interface [COM]","Push method","IPipeLong.Push","IPipeLong::Push","Push","Push method [COM]","Push method [COM]","IPipeLong interface","_com_ipipelong_push","com.ipipelong_push","objidlbase/IPipeLong::Push"]
 old-location: com\ipipelong_push.htm
 tech.root: com
 ms.assetid: 16389e32-74f9-419b-bcc5-63fe43b3e456
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IPipeLong interface [COM],Push method, IPipeLong.Push, IPipeLong::Push, Push, Push method [COM], Push method [COM],IPipeLong interface, _com_ipipelong_push, com.ipipelong_push, objidlbase/IPipeLong::Push
 req.header: objidl.h
 req.include-header: ObjIdl.h

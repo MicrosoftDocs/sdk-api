@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetTextColor","TreeView_SetTextColor macro [Wind
 old-location: controls\TreeView_SetTextColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settextcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetTextColor, TreeView_SetTextColor macro [Windows Controls], _win32_TreeView_SetTextColor, _win32_TreeView_SetTextColor_cpp, commctrl/TreeView_SetTextColor, controls.TreeView_SetTextColor, controls._win32_TreeView_SetTextColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_SetTextColor macro
+
+## -syntax
+
+```cpp
+COLORREF TreeView_SetTextColor(
+   HWND     hwnd,
+   COLORREF clr
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>COLORREF</b> value that represents the previous text color. If this value is -1, the control was using the system color for the text color.
 
 
 ## -description

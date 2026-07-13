@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_InsertString","ComboBox_InsertString macro [Wind
 old-location: controls\ComboBox_InsertString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertstring.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_InsertString, ComboBox_InsertString macro [Windows Controls], _win32_ComboBox_InsertString, _win32_ComboBox_InsertString_cpp, controls.ComboBox_InsertString, controls._win32_ComboBox_InsertString, windowsx/ComboBox_InsertString
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ComboBox_InsertString macro
+
+## -syntax
+
+```cpp
+int ComboBox_InsertString(
+   HWND   hwndCtl,
+   int    index,
+   LPCSTR lpsz
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is the zero-based index of the string in the list. If an error occurs, the return value is CB_ERR. If there is insufficient space to store the new string, the return value is CB_ERRSPACE.
 
 
 ## -description

@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_ListA
 title: CM_Get_Device_Interface_ListA function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class.
-helpviewer_keywords: ["CM_Get_Device_Interface_List","CM_Get_Device_Interface_List function [Device and Driver Installation]","CM_Get_Device_Interface_ListA","CM_Get_Device_Interface_ListW","cfgmgr32/CM_Get_Device_Interface_List","cfgmgr32/CM_Get_Device_Interface_ListA","cfgmgr32/CM_Get_Device_Interface_ListW","cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml","devinst.cm_get_device_interface_list"]
+description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class. (ANSI)
+helpviewer_keywords: ["CM_Get_Device_Interface_ListA", "cfgmgr32/CM_Get_Device_Interface_ListA", "cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml"]
 old-location: devinst\cm_get_device_interface_list.htm
 tech.root: devinst
 ms.assetid: 3f2dfc0f-1bde-40a8-b48c-25b75759e0d8
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-devices-config-l1-1-2.dll
  - CfgMgr32.dll
  - API-MS-Win-Devices-Config-L1-1-0.dll
  - API-MS-Win-Devices-Config-L1-1-1.dll
@@ -54,7 +55,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Device_Interface_List</b> function retrieves a list of device interface instances that belong to a specified <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
+The <b>CM_Get_Device_Interface_List</b> function retrieves a list of device interface instances that belong to a specified <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ## -parameters
 
@@ -126,7 +127,7 @@ Between calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device
 This snippet illustrates retrying getting the size and the list as described in the Remarks section.
 
 
-```
+```cpp
     CONFIGRET cr = CR_SUCCESS;
     PWSTR DeviceInterfaceList = NULL;
     ULONG DeviceInterfaceListLength = 0;
@@ -178,7 +179,7 @@ This snippet illustrates retrying getting the size and the list as described in 
 
 
 > [!NOTE]
-> The cfgmgr32.h header defines CM_Get_Device_Interface_List as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cfgmgr32.h header defines CM_Get_Device_Interface_List as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

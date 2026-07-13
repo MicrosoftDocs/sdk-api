@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateRoundedRectangleGeometry(constD2D1_ROUNDED_RECT&,ID2D1RoundedRectangleGeometry)
 title: ID2D1Factory::CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry) (d2d1.h)
-description: Creates an ID2D1RoundedRectangleGeometry.
+description: Creates an ID2D1RoundedRectangleGeometry. (overload 2/2)
 helpviewer_keywords: ["CreateRoundedRectangleGeometry","CreateRoundedRectangleGeometry method [Direct2D]","CreateRoundedRectangleGeometry method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateRoundedRectangleGeometry method","ID2D1Factory.CreateRoundedRectangleGeometry","ID2D1Factory.CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &","ID2D1RoundedRectangleGeometry)","ID2D1Factory::CreateRoundedRectangleGeometry","ID2D1Factory::CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &","ID2D1RoundedRectangleGeometry)","d2d1/ID2D1Factory::CreateRoundedRectangleGeometry","direct2d.ID2D1Factory_CreateRoundedRectangleGeometry_ref_D2D1_ROUNDED_RECT_ptr_ptr_ID2D1RoundedRectangleGeometry"]
 old-location: direct2d\ID2D1Factory_CreateRoundedRectangleGeometry_ref_D2D1_ROUNDED_RECT_ptr_ptr_ID2D1RoundedRectangleGeometry.htm
 tech.root: Direct2D
@@ -67,7 +67,7 @@ When this method returns, contains the address of the pointer to the rounded rec
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 

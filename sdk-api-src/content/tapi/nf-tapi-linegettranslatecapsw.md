@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetTranslateCapsW
 title: lineGetTranslateCapsW function (tapi.h)
-description: The lineGetTranslateCaps function returns address translation capabilities.
-helpviewer_keywords: ["_tapi2_linegettranslatecaps","lineGetTranslateCaps","lineGetTranslateCaps function [TAPI 2.2]","lineGetTranslateCapsA","lineGetTranslateCapsW","tapi/lineGetTranslateCaps","tapi/lineGetTranslateCapsA","tapi/lineGetTranslateCapsW","tapi2.linegettranslatecaps"]
+description: The lineGetTranslateCapsW (Unicode) function (tapi.h) returns address translation capabilities.
+helpviewer_keywords: ["_tapi2_linegettranslatecaps", "lineGetTranslateCaps", "lineGetTranslateCaps function [TAPI 2.2]", "lineGetTranslateCapsW", "tapi/lineGetTranslateCaps", "tapi/lineGetTranslateCapsW", "tapi2.linegettranslatecaps"]
 old-location: tapi2\linegettranslatecaps.htm
 tech.root: tapi3
 ms.assetid: 77437b06-fb02-44b5-8642-b3de700853ef
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegettranslatecaps, lineGetTranslateCaps, lineGetTranslateCaps function [TAPI 2.2], lineGetTranslateCapsA, lineGetTranslateCapsW, tapi/lineGetTranslateCaps, tapi/lineGetTranslateCapsA, tapi/lineGetTranslateCapsW, tapi2.linegettranslatecaps
 req.header: tapi.h
 req.include-header: 
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ras-tapi32-l1-1-1.dll
  - Tapi32.dll
 api_name:
  - lineGetTranslateCaps
@@ -115,4 +116,4 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineGetTranslateCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetTranslateCaps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

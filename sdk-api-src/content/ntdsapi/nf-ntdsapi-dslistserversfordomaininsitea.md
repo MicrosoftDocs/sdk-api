@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsListServersForDomainInSiteA
 title: DsListServersForDomainInSiteA function (ntdsapi.h)
-description: Lists all the servers in a domain in a site.
-helpviewer_keywords: ["DsListServersForDomainInSite","DsListServersForDomainInSite function [Active Directory]","DsListServersForDomainInSiteA","DsListServersForDomainInSiteW","_glines_dslistserversfordomaininsite","ad.dslistserversfordomaininsite","ntdsapi/DsListServersForDomainInSite","ntdsapi/DsListServersForDomainInSiteA","ntdsapi/DsListServersForDomainInSiteW"]
+description: Lists all the servers in a domain in a site. (ANSI)
+helpviewer_keywords: ["DsListServersForDomainInSiteA", "ntdsapi/DsListServersForDomainInSiteA"]
 old-location: ad\dslistserversfordomaininsite.htm
 tech.root: ad
 ms.assetid: 1e346532-bbbe-4b3b-a1cb-6a72319cb3e2
@@ -89,7 +89,7 @@ Individual name conversion errors are reported in the returned <a href="/windows
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsListServersForDomainInSite as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsListServersForDomainInSite as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

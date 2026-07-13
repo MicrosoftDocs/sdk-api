@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfObjectHA
 title: PdhGetDefaultPerfObjectHA function (pdh.h)
-description: Retrieves the name of the default object.
-helpviewer_keywords: ["PdhGetDefaultPerfObjectH","PdhGetDefaultPerfObjectH function [Perf]","PdhGetDefaultPerfObjectHA","PdhGetDefaultPerfObjectHW","_win32_pdhgetdefaultperfobjecth","base.pdhgetdefaultperfobjecth","pdh/PdhGetDefaultPerfObjectH","pdh/PdhGetDefaultPerfObjectHA","pdh/PdhGetDefaultPerfObjectHW","perf.pdhgetdefaultperfobjecth"]
+description: Retrieves the name of the default object. (ANSI)
+helpviewer_keywords: ["PdhGetDefaultPerfObjectHA", "pdh/PdhGetDefaultPerfObjectHA"]
 old-location: perf\pdhgetdefaultperfobjecth.htm
 tech.root: perf
 ms.assetid: 4950d5b7-3a6f-410d-830f-7868aa84f6d5
@@ -160,7 +160,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 > [!NOTE]
-> The pdh.h header defines PdhGetDefaultPerfObjectH as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhGetDefaultPerfObjectH as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

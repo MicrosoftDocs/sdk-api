@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-session-wtsapi32-l1-1-1.dll
  - Wtsapi32.dll
 api_name:
  - WTSVirtualChannelPurgeInput

@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardConnectA
 title: SCardConnectA function (winscard.h)
-description: Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader. If no card exists in the specified reader, an error is returned.
-helpviewer_keywords: ["0","SCARD_PROTOCOL_T0","SCARD_PROTOCOL_T1","SCARD_PROTOCOL_UNDEFINED","SCARD_SHARE_DIRECT","SCARD_SHARE_EXCLUSIVE","SCARD_SHARE_SHARED","SCardConnect","SCardConnect function [Security]","SCardConnectA","SCardConnectW","_smart_scardconnect","security.scardconnect","winscard/SCardConnect","winscard/SCardConnectA","winscard/SCardConnectW"]
+description: Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader. If no card exists in the specified reader, an error is returned. (ANSI)
+helpviewer_keywords: ["0", "SCARD_PROTOCOL_T0", "SCARD_PROTOCOL_T1", "SCARD_PROTOCOL_UNDEFINED", "SCARD_SHARE_DIRECT", "SCARD_SHARE_EXCLUSIVE", "SCARD_SHARE_SHARED", "SCardConnectA", "winscard/SCardConnectA"]
 old-location: security\scardconnect.htm
 tech.root: security
 ms.assetid: 389ada98-383f-4b37-bf5d-c40577ef25fd
@@ -296,7 +296,7 @@ switch ( dwAP )
 
 
 > [!NOTE]
-> The winscard.h header defines SCardConnect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardConnect as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

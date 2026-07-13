@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathFindOnPathW
 title: PathFindOnPathW function (shlwapi.h)
-description: Searches for a file.
-helpviewer_keywords: ["PathFindOnPath","PathFindOnPath function [Windows Shell]","PathFindOnPathA","PathFindOnPathW","_win32_PathFindOnPath","shell.PathFindOnPath","shlwapi/PathFindOnPath","shlwapi/PathFindOnPathA","shlwapi/PathFindOnPathW"]
+description: Searches for a file. (Unicode)
+helpviewer_keywords: ["PathFindOnPath", "PathFindOnPath function [Windows Shell]", "PathFindOnPathW", "_win32_PathFindOnPath", "shell.PathFindOnPath", "shlwapi/PathFindOnPath", "shlwapi/PathFindOnPathW"]
 old-location: shell\PathFindOnPath.htm
 tech.root: shell
 ms.assetid: d9281eb2-39b7-444f-85b7-1e1e76c38ae2
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shlwapi-l1-2-1.dll
+ - ext-ms-win-shell-shlwapi-l1-2-0.dll
  - Shlwapi.dll
  - API-MS-Win-shlwapi-IE-l1-1-0.dll
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
@@ -85,5 +87,5 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathFindOnPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathFindOnPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capPreview","capPreview","capPreview macro [Window
 old-location: multimedia\cappreview.htm
 tech.root: Multimedia
 ms.assetid: c6888e35-9915-4ffb-ac0d-3cc1419fdac3
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capPreview, capPreview, capPreview macro [Windows Multimedia], multimedia.cappreview, vfw/capPreview
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capPreview macro
+
+## -syntax
+
+```cpp
+BOOL capPreview(
+     hwnd,
+     f
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

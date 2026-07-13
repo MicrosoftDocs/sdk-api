@@ -72,6 +72,14 @@ You can set this pointer to <b>NULL</b>. In this case, this method does not prov
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The seek pointer was successfully adjusted.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream data is currently unavailable. |
+|STG_E_INVALIDPOINTER | Indicates that *plibNewPosition* points to invalid memory, because *plibNewPosition* is not read.|
+|STG_E_INVALIDFUNCTION | The *dwOrigin* parameter contains an invalid value, or the *dlibMove* parameter contains a bad offset value. For example, the result of the seek pointer is a negative offset value.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 <b>IStream::Seek</b> changes the seek pointer so that subsequent read and write operations can be performed at a different location in the stream object. It is an error to seek before the beginning of the stream. It is not, however, an error to seek past the end of the stream. Seeking past the end of the stream is useful for subsequent write operations, as the stream byte range will be extended to the new seek position immediately before the write is complete.

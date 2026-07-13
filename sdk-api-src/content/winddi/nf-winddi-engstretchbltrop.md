@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-core-win32k-common-export-l1-1-0.dll
  - Win32k.sys
 api_name:
  - EngStretchBltROP

@@ -56,31 +56,31 @@ The <b>WEB_SOCKET_BUFFER_TYPE</b> enumeration specifies the bit values used to c
 
 ## -enum-fields
 
-### -field WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE
+### -field WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE:0x80000000
 
 Indicates the buffer contains the last, and possibly only, part of a UTF8 message.
 
-### -field WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE
+### -field WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE:0x80000001
 
 Indicates the buffer contains part of a UTF8 message.
 
-### -field WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE
+### -field WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE:0x80000002
 
 Indicates the buffer contains the last, and possibly only, part of a binary message.
 
-### -field WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE
+### -field WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE:0x80000003
 
 Indicates the buffer contains part of a binary message.
 
-### -field WEB_SOCKET_CLOSE_BUFFER_TYPE
+### -field WEB_SOCKET_CLOSE_BUFFER_TYPE:0x80000004
 
 Indicates the buffer contains a close message.
 
-### -field WEB_SOCKET_PING_PONG_BUFFER_TYPE
+### -field WEB_SOCKET_PING_PONG_BUFFER_TYPE:0x80000005
 
 Indicates the buffer contains a ping or pong message. When sending, this value means 'ping', when processing received data, this value means 'pong'.
 
-### -field WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE
+### -field WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE:0x80000006
 
 Indicates the buffer contains an unsolicited pong message.
 

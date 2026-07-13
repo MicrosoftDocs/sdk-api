@@ -1,18 +1,18 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_METRICS1
 title: DWRITE_LINE_METRICS1 (dwrite_3.h)
-description: Contains information about a formatted line of text.
+description: Contains information about a formatted line of text. (DWRITE_LINE_METRICS1)
 helpviewer_keywords: ["DWRITE_LINE_METRICS1","DWRITE_LINE_METRICS1 structure [Direct Write]","directwrite.dwrite_line_metrics1","dwrite_3/DWRITE_LINE_METRICS1"]
 old-location: directwrite\dwrite_line_metrics1.htm
 tech.root: DirectWrite
 ms.assetid: 7b5cc425-8a7e-0bff-3fe1-73984872b60b
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: DWRITE_LINE_METRICS1, DWRITE_LINE_METRICS1 structure [Direct Write], directwrite.dwrite_line_metrics1, dwrite_3/DWRITE_LINE_METRICS1
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

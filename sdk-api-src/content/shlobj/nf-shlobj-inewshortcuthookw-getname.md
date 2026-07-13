@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.GetName
 title: INewShortcutHookW::GetName (shlobj.h)
-description: Gets the file name of the shortcut object, without the extension.
+description: Gets the file name of the shortcut object, without the extension. (Unicode)
 helpviewer_keywords: ["GetName","GetName method [Windows Shell]","GetName method [Windows Shell]","INewShortcutHook interface","INewShortcutHook interface [Windows Shell]","GetName method","INewShortcutHook::GetName","INewShortcutHookA","INewShortcutHookA::GetName","INewShortcutHookW","INewShortcutHookW.GetName","INewShortcutHookW::GetName","_win32_INewShortcutHook_GetName","shell.INewShortcutHook_GetName","shlobj/INewShortcutHook::GetName"]
 old-location: shell\INewShortcutHook_GetName.htm
 tech.root: shell
@@ -72,5 +72,5 @@ The size of the buffer at <i>pszName</i>, in characters.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

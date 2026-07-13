@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2spi.WSCInstallNameSpace
 title: WSCInstallNameSpace function (ws2spi.h)
-description: Installs a namespace provider.
+description: Installs a namespace provider. (WSCInstallNameSpace)
 helpviewer_keywords: ["WSCInstallNameSpace","WSCInstallNameSpace function [Winsock]","_win32_wscinstallnamespace_2","winsock.wscinstallnamespace_2","ws2spi/WSCInstallNameSpace"]
 old-location: winsock\wscinstallnamespace_2.htm
 tech.root: WinSock

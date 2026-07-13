@@ -4,7 +4,7 @@ title: FlushInstructionCache function (processthreadsapi.h)
 description: Flushes the instruction cache for the specified process.
 helpviewer_keywords: ["FlushInstructionCache","FlushInstructionCache function","_win32_flushinstructioncache","base.flushinstructioncache","processthreadsapi/FlushInstructionCache"]
 old-location: base\flushinstructioncache.htm
-tech.root: Debug
+tech.root: processthreadsapi
 ms.assetid: 6267adde-8169-4673-97ec-78c66e2135c1
 ms.date: 12/05/2018
 ms.keywords: FlushInstructionCache, FlushInstructionCache function, _win32_flushinstructioncache, base.flushinstructioncache, processthreadsapi/FlushInstructionCache
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
  - KernelBase.dll

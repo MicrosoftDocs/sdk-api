@@ -2,7 +2,7 @@
 UID: NF:shellapi.SHFileOperationW
 title: SHFileOperationW function (shellapi.h)
 description: Copies, moves, renames, or deletes a file system object. On Windows Vista and later releases, we recommend that you use IFileOperation instead of this function.
-helpviewer_keywords: ["SHFileOperation","SHFileOperation function [Windows Shell]","SHFileOperationA","SHFileOperationW","_win32_SHFileOperation","shell.SHFileOperation","shellapi/SHFileOperation","shellapi/SHFileOperationA","shellapi/SHFileOperationW"]
+helpviewer_keywords: ["SHFileOperation", "SHFileOperation function [Windows Shell]", "SHFileOperationW", "_win32_SHFileOperation", "shell.SHFileOperation", "shellapi/SHFileOperation", "shellapi/SHFileOperationW"]
 old-location: shell\SHFileOperation.htm
 tech.root: shell
 ms.assetid: 7807015f-52c5-46f5-9e90-4e3e60ddf705
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
  - Shell32.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
@@ -248,7 +252,7 @@ The HTML file must have a .htm or .html extension. You create the connection to 
 File connection is enabled by default. It can be disabled by adding a <b>REG_DWORD</b> entry, NoFileFolderConnection, as shown here:
 
 
-<pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
+<pre><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -267,4 +271,4 @@ Note that the use of a folder with a name like "MyFile_files" to define a connec
 
 
 > [!NOTE]
-> The shellapi.h header defines SHFileOperation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHFileOperation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

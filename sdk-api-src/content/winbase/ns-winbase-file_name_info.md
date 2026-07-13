@@ -68,6 +68,12 @@ The size of the <b>FileName</b> string, in bytes.
 
 The file name that is returned.
 
+## -remarks
+
+If the call to `GetFileInformationByHandleEx` fails with `ERROR_MORE_DATA` because there was not enough
+buffer space for the full length of the <b>FileName</b> then the `FileNameLength`
+field will contain the required length of the <b>FileName</b> in bytes.
+
 ## -see-also
 
 <a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>

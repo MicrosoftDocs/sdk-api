@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumLanguageGroupLocalesW
 title: EnumLanguageGroupLocalesW function (winnls.h)
-description: Enumerates the locales in a specified language group.
-helpviewer_keywords: ["EnumLanguageGroupLocales","EnumLanguageGroupLocales function [Internationalization for Windows Applications]","EnumLanguageGroupLocalesA","EnumLanguageGroupLocalesW","_win32_EnumLanguageGroupLocales","intl.enumlanguagegrouplocales","winnls/EnumLanguageGroupLocales","winnls/EnumLanguageGroupLocalesA","winnls/EnumLanguageGroupLocalesW"]
+description: Enumerates the locales in a specified language group. (Unicode)
+helpviewer_keywords: ["EnumLanguageGroupLocales", "EnumLanguageGroupLocales function [Internationalization for Windows Applications]", "EnumLanguageGroupLocalesW", "_win32_EnumLanguageGroupLocales", "intl.enumlanguagegrouplocales", "winnls/EnumLanguageGroupLocales", "winnls/EnumLanguageGroupLocalesW"]
 old-location: intl\enumlanguagegrouplocales.htm
 tech.root: Intl
 ms.assetid: 5a85c6bd-0362-46ff-80be-a198b1259482
@@ -136,7 +136,7 @@ This function enumerates locales in the specified language group by passing loca
 
 
 > [!NOTE]
-> The winnls.h header defines EnumLanguageGroupLocales as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines EnumLanguageGroupLocales as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3cc.ITAgent.CreateSession
 title: ITAgent::CreateSession (tapi3cc.h)
-description: The CreateSession method creates a new agent session for the input ACD group and address.
+description: The ITAgent::CreateSession method (tapi3cc.h) creates a new agent session for the input ACD group and address.
 helpviewer_keywords: ["CreateSession","CreateSession method [TAPI 2.2]","CreateSession method [TAPI 2.2]","ITAgent interface","ITAgent interface [TAPI 2.2]","CreateSession method","ITAgent.CreateSession","ITAgent::CreateSession","_tapi3_itagent_createsession","tapi3.itagent_createsession","tapi3cc/ITAgent::CreateSession"]
 old-location: tapi3\itagent_createsession.htm
 tech.root: tapi3
 ms.assetid: 68cc2ffe-3c63-4723-8652-0e28da2b17b6
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CreateSession, CreateSession method [TAPI 2.2], CreateSession method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSession method, ITAgent.CreateSession, ITAgent::CreateSession, _tapi3_itagent_createsession, tapi3.itagent_createsession, tapi3cc/ITAgent::CreateSession
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

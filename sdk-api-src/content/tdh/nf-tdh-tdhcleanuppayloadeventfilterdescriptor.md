@@ -99,7 +99,6 @@ the example for the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2
 <div class="code"></div>
 
 ## -see-also
-
 <a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 

@@ -57,17 +57,17 @@ The <b>MBN_SMS_FORMAT</b> enumerated type specifies the format of SMS messages.
 
 ## -enum-fields
 
-### -field MBN_SMS_FORMAT_NONE
+### -field MBN_SMS_FORMAT_NONE:0
 
 No SMS format.
 
-### -field MBN_SMS_FORMAT_PDU
+### -field MBN_SMS_FORMAT_PDU:0x1
 
 For GSM devices, SMS, messages will be read in PDU format. 
 
 For CDMA devices, SMS messages will be read in binary CDMA format.
 
-### -field MBN_SMS_FORMAT_TEXT
+### -field MBN_SMS_FORMAT_TEXT:0x2
 
 For CDMA devices, SMS messages will be read in text format.
 

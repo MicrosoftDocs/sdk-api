@@ -62,7 +62,7 @@ The <b>_VSS_SNAPSHOT_CONTEXT</b> enumeration
 
 ## -enum-fields
 
-### -field VSS_CTX_BACKUP
+### -field VSS_CTX_BACKUP:0
 
 The standard backup context. Specifies an auto-release, nonpersistent shadow copy in which writers are 
       involved in the creation.
@@ -107,7 +107,7 @@ Most requesters will want to use the <b>VSS_CTX_APP_ROLLBACK</b> context for per
 
 <b>Windows Server 2003 and Windows XP:  </b>This context is not supported by Windows Server 2003 and Windows XP.
 
-### -field VSS_CTX_ALL
+### -field VSS_CTX_ALL:0xffffffff
 
 All types of currently live shadow copies are available for administrative operations, such as shadow copy 
       queries (see <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>). 

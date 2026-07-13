@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetItem","ListView_SetItem macro [Windows Contro
 old-location: controls\ListView_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetItem, ListView_SetItem macro [Windows Controls], _win32_ListView_SetItem, _win32_ListView_SetItem_cpp, commctrl/ListView_SetItem, controls.ListView_SetItem, controls._win32_ListView_SetItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetItem macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetItem(
+         HWND     hwnd,
+   const LPLVITEM pitem
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

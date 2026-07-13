@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsGetDomainControllerInfoW
 title: DsGetDomainControllerInfoW function (ntdsapi.h)
-description: Retrieves data about the domain controllers in a domain.
-helpviewer_keywords: ["1","2","3","DsGetDomainControllerInfo","DsGetDomainControllerInfo function [Active Directory]","DsGetDomainControllerInfoA","DsGetDomainControllerInfoW","_glines_dsgetdomaincontrollerinfo","ad.dsgetdomaincontrollerinfo","ntdsapi/DsGetDomainControllerInfo","ntdsapi/DsGetDomainControllerInfoA","ntdsapi/DsGetDomainControllerInfoW"]
+description: Retrieves data about the domain controllers in a domain. (Unicode)
+helpviewer_keywords: ["1", "2", "3", "DsGetDomainControllerInfo", "DsGetDomainControllerInfo function [Active Directory]", "DsGetDomainControllerInfoW", "_glines_dsgetdomaincontrollerinfo", "ad.dsgetdomaincontrollerinfo", "ntdsapi/DsGetDomainControllerInfo", "ntdsapi/DsGetDomainControllerInfoW"]
 old-location: ad\dsgetdomaincontrollerinfo.htm
 tech.root: ad
 ms.assetid: 52db3b25-e6b0-4a0d-831b-89a203580cf1
@@ -152,4 +152,4 @@ If the function fails, the return value can be one of the following error codes.
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsGetDomainControllerInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsGetDomainControllerInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

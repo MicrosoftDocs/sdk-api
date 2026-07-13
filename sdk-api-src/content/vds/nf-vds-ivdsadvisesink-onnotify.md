@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsAdviseSink.OnNotify
 title: IVdsAdviseSink::OnNotify (vds.h)
-description: Passes notifications from providers to VDS, and from VDS to applications.
+description: The IVdsAdviseSink::OnNotify (vds.h) method passes notifications from providers to VDS, and from VDS to applications.
 helpviewer_keywords: ["IVdsAdviseSink interface [VDS]","OnNotify method","IVdsAdviseSink.OnNotify","IVdsAdviseSink::OnNotify","OnNotify","OnNotify method [VDS]","OnNotify method [VDS]","IVdsAdviseSink interface","base.ivdsadvisesink_onnotify","vds/IVdsAdviseSink::OnNotify","vdshwprv/IVdsAdviseSink::OnNotify"]
 old-location: base\ivdsadvisesink_onnotify.htm
 tech.root: base
 ms.assetid: 0cf7bf55-922e-4092-bb2f-6423d9addb0c
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsAdviseSink interface [VDS],OnNotify method, IVdsAdviseSink.OnNotify, IVdsAdviseSink::OnNotify, OnNotify, OnNotify method [VDS], OnNotify method [VDS],IVdsAdviseSink interface, base.ivdsadvisesink_onnotify, vds/IVdsAdviseSink::OnNotify, vdshwprv/IVdsAdviseSink::OnNotify
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Passes notifications 
    from providers to VDS, and from VDS to applications.

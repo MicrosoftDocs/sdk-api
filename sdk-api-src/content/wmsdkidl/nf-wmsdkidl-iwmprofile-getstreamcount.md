@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetStreamCount","GetStreamCount method [windows Media For
 old-location: wmformat\iwmprofile_getstreamcount.htm
 tech.root: wmformat
 ms.assetid: 49534bc3-9115-422b-b448-b6f9c6ec1c47
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetStreamCount, GetStreamCount method [windows Media Format], GetStreamCount method [windows Media Format],IWMProfile interface, GetStreamCount method [windows Media Format],IWMProfile2 interface, GetStreamCount method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetStreamCount method, IWMProfile.GetStreamCount, IWMProfile2 interface [windows Media Format],GetStreamCount method, IWMProfile2::GetStreamCount, IWMProfile3 interface [windows Media Format],GetStreamCount method, IWMProfile3::GetStreamCount, IWMProfile::GetStreamCount, IWMProfileGetStreamCount, wmformat.iwmprofile_getstreamcount, wmsdkidl/IWMProfile2::GetStreamCount, wmsdkidl/IWMProfile3::GetStreamCount, wmsdkidl/IWMProfile::GetStreamCount
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,6 +55,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetStreamCount</b> method retrieves the number of streams in a profile.
 

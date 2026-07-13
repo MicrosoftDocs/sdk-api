@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSINFOEX_LEVEL1_A
 title: WTSINFOEX_LEVEL1_A (wtsapi32.h)
-description: Contains extended information about a Remote Desktop Services session.
+description: Contains extended information about a Remote Desktop Services session. (ANSI)
 helpviewer_keywords: ["*PWTSINFOEX_LEVEL1_A","PWTSINFOEX_LEVEL1","PWTSINFOEX_LEVEL1 structure pointer [Remote Desktop Services]","WTSINFOEX_LEVEL1","WTSINFOEX_LEVEL1 structure [Remote Desktop Services]","WTSINFOEX_LEVEL1_A","WTSINFOEX_LEVEL1_W","WTS_SESSIONSTATE_LOCK","WTS_SESSIONSTATE_UNKNOWN","WTS_SESSIONSTATE_UNLOCK","termserv.wtsinfoex_level1","wtsapi32/PWTSINFOEX_LEVEL1","wtsapi32/WTSINFOEX_LEVEL1","wtsapi32/WTSINFOEX_LEVEL1_A","wtsapi32/WTSINFOEX_LEVEL1_W"]
 old-location: termserv\wtsinfoex_level1.htm
 tech.root: TermServ

@@ -6,7 +6,7 @@ helpviewer_keywords: ["TEXT","TEXT macro [Internationalization for Windows Appli
 old-location: intl\text.htm
 tech.root: Intl
 ms.assetid: 427d365f-2277-460c-8120-3ccb6c6cea4f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: TEXT, TEXT macro [Internationalization for Windows Applications], _win32_TEXT_Macro, intl.text, winnt/TEXT
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # TEXT macro
+
+## -syntax
+
+```cpp
+void TEXT(
+    LPTSTR quote
+);
+```
 
 
 ## -description

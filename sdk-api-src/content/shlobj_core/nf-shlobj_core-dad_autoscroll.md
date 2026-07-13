@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
  - Shell32.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
@@ -73,7 +77,7 @@ A pointer to the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-auto_s
 
 ### -param pptNow [in]
 
-Type: <b>const <a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 A pointer to the current scroll coordinates.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionGaussianBlurEffect.SetStandardDeviation(IDCompositionAnimation)
 title: IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation) (dcomp.h)
-description: Sets the amount of blur to be applied to the image.
+description: The IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation) method sets the amount of blur to be applied to the image.
 helpviewer_keywords: ["IDCompositionGaussianBlurEffect interface [DirectComposition]","SetStandardDeviation method","IDCompositionGaussianBlurEffect.SetStandardDeviation","IDCompositionGaussianBlurEffect.SetStandardDeviation(IDCompositionAnimation)","IDCompositionGaussianBlurEffect::SetStandardDeviation","IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation)","SetStandardDeviation","SetStandardDeviation method [DirectComposition]","SetStandardDeviation method [DirectComposition]","IDCompositionGaussianBlurEffect interface","dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation","directcomp.idcompositiongaussianblureffect_setstandarddeviation_2"]
 old-location: directcomp\idcompositiongaussianblureffect_setstandarddeviation_2.htm
 tech.root: directcomp
 ms.assetid: EBDB097C-4B79-4E38-A09E-48FAFE6E5553
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionGaussianBlurEffect.SetStandardDeviation, IDCompositionGaussianBlurEffect.SetStandardDeviation(IDCompositionAnimation), IDCompositionGaussianBlurEffect::SetStandardDeviation, IDCompositionGaussianBlurEffect::SetStandardDeviation(IDCompositionAnimation), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation, directcomp.idcompositiongaussianblureffect_setstandarddeviation_2
 req.header: dcomp.h
 req.include-header: 
@@ -66,7 +66,7 @@ An animation that represents how the amount of blur changes over time. You can c
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

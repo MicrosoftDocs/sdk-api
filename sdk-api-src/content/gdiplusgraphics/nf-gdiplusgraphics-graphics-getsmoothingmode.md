@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetSmoothingMode</b> method determines whether smoothing (antialiasing) is applied to the 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-## -parameters
+
 
 ## -returns
 

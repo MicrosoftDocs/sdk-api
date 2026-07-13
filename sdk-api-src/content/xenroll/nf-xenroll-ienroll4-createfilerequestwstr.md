@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll4.createFileRequestWStr
 title: IEnroll4::createFileRequestWStr (xenroll.h)
-description: Creates a PKCS
+description: Creates a PKCS (IEnroll4.createFileRequestWStr)
 helpviewer_keywords: ["IEnroll4 interface [Security]","createFileRequestWStr method","IEnroll4.createFileRequestWStr","IEnroll4::createFileRequestWStr","XECR_CMC","XECR_PKCS10_V1_5","XECR_PKCS10_V2_0","XECR_PKCS7","createFileRequestWStr","createFileRequestWStr method [Security]","createFileRequestWStr method [Security]","IEnroll4 interface","security.ienroll4_createfilerequestwstr","xenroll/IEnroll4::createFileRequestWStr"]
 old-location: security\ienroll4_createfilerequestwstr.htm
 tech.root: security

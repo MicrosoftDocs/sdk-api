@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.GetDevicesForIScsiSessionA
 title: GetDevicesForIScsiSessionA function (iscsidsc.h)
-description: GetDevicesForIscsiSession function retrieves information about the devices associated with the current session.
-helpviewer_keywords: ["GetDevicesForIScsiSessionA","GetDevicesForIscsiSession","GetDevicesForIscsiSession function [iSCSI Discovery Library API]","GetDevicesForIscsiSessionA","GetDevicesForIscsiSessionW","iscsidisc.getdevicesforiscsisession","iscsidsc/GetDevicesForIscsiSession","iscsidsc/GetDevicesForIscsiSessionA","iscsidsc/GetDevicesForIscsiSessionW"]
+description: GetDevicesForIscsiSession function retrieves information about the devices associated with the current session. (ANSI)
+helpviewer_keywords: ["GetDevicesForIScsiSessionA", "GetDevicesForIscsiSessionA", "iscsidsc/GetDevicesForIscsiSessionA"]
 old-location: iscsidisc\getdevicesforiscsisession.htm
 tech.root: iSCSIDisc
 ms.assetid: f7a07f36-1c3b-4e33-ac6e-d2e7e8f2466a
@@ -85,4 +85,4 @@ Otherwise, <b>GetDevicesForIscsiSession</b> returns the appropriate Win32 or iSC
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines GetDevicesForIScsiSession as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines GetDevicesForIScsiSession as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

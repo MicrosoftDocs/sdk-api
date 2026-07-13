@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetNamedPipeHandleStateA
 title: GetNamedPipeHandleStateA function (winbase.h)
-description: Retrieves information about a specified named pipe.
+description: The GetNamedPipeHandleStateA (ANSI) function (winbase.h) retrieves information about a specified named pipe.
 helpviewer_keywords: ["GetNamedPipeHandleState","GetNamedPipeHandleState function","GetNamedPipeHandleStateA","GetNamedPipeHandleStateW","PIPE_NOWAIT","PIPE_READMODE_MESSAGE","_win32_getnamedpipehandlestate","base.getnamedpipehandlestate","winbase/GetNamedPipeHandleState","winbase/GetNamedPipeHandleStateA","winbase/GetNamedPipeHandleStateW"]
 old-location: base\getnamedpipehandlestate.htm
 tech.root: base
 ms.assetid: a28003f0-f488-4ac3-91bf-dd7c5e87ea66
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetNamedPipeHandleState, GetNamedPipeHandleState function, GetNamedPipeHandleStateA, GetNamedPipeHandleStateW, PIPE_NOWAIT, PIPE_READMODE_MESSAGE, _win32_getnamedpipehandlestate, base.getnamedpipehandlestate, winbase/GetNamedPipeHandleState, winbase/GetNamedPipeHandleStateA, winbase/GetNamedPipeHandleStateW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -147,7 +147,7 @@ The
 To set the pipe handle state, use the 
 <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 ## -see-also
 

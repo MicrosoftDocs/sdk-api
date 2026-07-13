@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.Present
 title: IDirect3DSwapChain9::Present (d3d9.h)
-description: Presents the contents of the next buffer in the sequence of back buffers owned by the swap chain.
+description: The IDirect3DSwapChain9::Present (d3d9.h) method presents the contents of the next buffer in the sequence of back buffers owned by the swap chain.
 helpviewer_keywords: ["0765aea9-8fd8-8d38-bcaf-184610e8d81e","IDirect3DSwapChain9 interface [Direct3D 9]","Present method","IDirect3DSwapChain9.Present","IDirect3DSwapChain9::Present","Present","Present method [Direct3D 9]","Present method [Direct3D 9]","IDirect3DSwapChain9 interface","d3d9helper/IDirect3DSwapChain9::Present","direct3d9.idirect3dswapchain9__present"]
 old-location: direct3d9\idirect3dswapchain9__present.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__present.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 0765aea9-8fd8-8d38-bcaf-184610e8d81e, IDirect3DSwapChain9 interface [Direct3D 9],Present method, IDirect3DSwapChain9.Present, IDirect3DSwapChain9::Present, Present, Present method [Direct3D 9], Present method [Direct3D 9],IDirect3DSwapChain9 interface, d3d9helper/IDirect3DSwapChain9::Present, direct3d9.idirect3dswapchain9__present
 req.header: d3d9.h
 req.include-header: D3D9.h
@@ -92,7 +92,7 @@ Allows the application to request that the method return immediately when the dr
 <ul>
 <li>If dwFlags = 0, this method behaves as it did prior to Direct3D 9. Present will spin until the hardware is free, without returning an error.</li>
 <li>If dwFlags = <a href="/windows/desktop/direct3d9/d3dpresent">D3DPRESENT_DONOTWAIT</a>, and the hardware is busy processing or waiting for a vertical sync interval, the method will return D3DERR_WASSTILLDRAWING.</li>
-<li>If dwFlags = <a href="/windows/desktop/direct3d9/d3dpresent">D3DPRESENT_LINEAR_CONTENT</a>, gamma correction is performed from linear space to sRGB for windowed swap chains. This flag will take effect only when the driver exposes <a href="/windows/desktop/direct3d9/d3dcaps3">D3DCAPS3_LINEAR_TO_SRGB_PRESENTATION</a> (see <a href="/windows/desktop/direct3d9/gamma">Gamma (Direct3D 9)</a>). Appliations should specify this flag if the backbuffer format is 16-bit floating point in order to match windowed mode present to fullscreen gamma behavior.</li>
+<li>If dwFlags = <a href="/windows/desktop/direct3d9/d3dpresent">D3DPRESENT_LINEAR_CONTENT</a>, gamma correction is performed from linear space to sRGB for windowed swap chains. This flag will take effect only when the driver exposes <a href="/windows/desktop/direct3d9/d3dcaps3">D3DCAPS3_LINEAR_TO_SRGB_PRESENTATION</a> (see <a href="/windows/desktop/direct3d9/gamma">Gamma (Direct3D 9)</a>). Applications should specify this flag if the backbuffer format is 16-bit floating point in order to match windowed mode present to fullscreen gamma behavior.</li>
 </ul>
 
 ## -returns

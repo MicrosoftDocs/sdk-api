@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiOutGetDevCapsW
 title: midiOutGetDevCapsW function (mmeapi.h)
-description: The midiOutGetDevCaps function queries a specified MIDI output device to determine its capabilities.
-helpviewer_keywords: ["_win32_midiOutGetDevCaps","midiOutGetDevCaps","midiOutGetDevCaps function [Windows Multimedia]","midiOutGetDevCapsA","midiOutGetDevCapsW","mmeapi/midiOutGetDevCaps","mmeapi/midiOutGetDevCapsA","mmeapi/midiOutGetDevCapsW","multimedia.midioutgetdevcaps"]
+description: The midiOutGetDevCapsW (Unicode) function (mmeapi.h) queries a specified MIDI output device to determine its capabilities.
+helpviewer_keywords: ["_win32_midiOutGetDevCaps", "midiOutGetDevCaps", "midiOutGetDevCaps function [Windows Multimedia]", "midiOutGetDevCapsW", "mmeapi/midiOutGetDevCaps", "mmeapi/midiOutGetDevCapsW", "multimedia.midioutgetdevcaps"]
 old-location: multimedia\midioutgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 8777a903-fd47-4f3f-b534-1e72a5951846
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: _win32_midiOutGetDevCaps, midiOutGetDevCaps, midiOutGetDevCaps function [Windows Multimedia], midiOutGetDevCapsA, midiOutGetDevCapsW, mmeapi/midiOutGetDevCaps, mmeapi/midiOutGetDevCapsA, mmeapi/midiOutGetDevCapsW, multimedia.midioutgetdevcaps
 req.header: mmeapi.h
 req.include-header: Windows.h
@@ -136,7 +136,7 @@ To determine the number of MIDI output devices present in the system, use the <a
 
 
 > [!NOTE]
-> The mmeapi.h header defines midiOutGetDevCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines midiOutGetDevCaps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IStringCollection.RemoveAt
 title: IStringCollection::RemoveAt (wuapi.h)
-description: Removes the item at the specified index from the collection.
+description: Removes the item at the specified index from the collection. (IStringCollection.RemoveAt)
 helpviewer_keywords: ["IStringCollection interface [Windows Update Agent]","RemoveAt method","IStringCollection.RemoveAt","IStringCollection::RemoveAt","RemoveAt","RemoveAt method [Windows Update Agent]","RemoveAt method [Windows Update Agent]","IStringCollection interface","wua.istringcollection_removeat","wuapi/IStringCollection::RemoveAt"]
 old-location: wua\istringcollection_removeat.htm
 tech.root: wua

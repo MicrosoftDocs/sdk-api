@@ -1,7 +1,7 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamOpenToUnprotect
 title: NCryptStreamOpenToUnprotect function (ncryptprotect.h)
-description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption.
+description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption. (NCryptStreamOpenToUnprotect)
 helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptStreamOpenToUnprotect","NCryptStreamOpenToUnprotect function [Security]","ncryptprotect/NCryptStreamOpenToUnprotect","security.ncryptstreamopentounprotect"]
 old-location: security\ncryptstreamopentounprotect.htm
 tech.root: security

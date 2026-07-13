@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.HttpOpenRequestA
 title: HttpOpenRequestA function (wininet.h)
-description: Creates an HTTP request handle.
-helpviewer_keywords: ["HTTP/1.0","HTTP/1.1","HttpOpenRequest","HttpOpenRequest function [WinINet]","HttpOpenRequestA","HttpOpenRequestW","_inet_httpopenrequest_function","wininet.httpopenrequest","wininet/HttpOpenRequest","wininet/HttpOpenRequestA","wininet/HttpOpenRequestW"]
+description: Creates an HTTP request handle. (ANSI)
+helpviewer_keywords: ["HttpOpenRequestA", "wininet/HttpOpenRequestA"]
 old-location: wininet\httpopenrequest.htm
 tech.root: wininet
 ms.assetid: caaff8e8-7db9-4d6d-8ba2-d8d19475173a
@@ -351,7 +351,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 > [!NOTE]
-> The wininet.h header defines HttpOpenRequest as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines HttpOpenRequest as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

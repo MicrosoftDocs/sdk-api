@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capDriverConnect","capDriverConnect","capDriverCon
 old-location: multimedia\capdriverconnect.htm
 tech.root: Multimedia
 ms.assetid: ed8042c7-89c6-4591-b3e0-46327f8de2e1
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capDriverConnect, capDriverConnect, capDriverConnect macro [Windows Multimedia], multimedia.capdriverconnect, vfw/capDriverConnect
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capDriverConnect macro
+
+## -syntax
+
+```cpp
+BOOL capDriverConnect(
+     hwnd,
+     i
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if the specified capture driver cannot be connected to the capture window.
 
 
 ## -description

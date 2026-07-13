@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_EmailAddress
 title: IFaxDoc::get_EmailAddress (faxcom.h)
-description: Sets or retrieves the EmailAddress property of a FaxDoc object. The EmailAddress property is a null-terminated string that contains the email address of the sender of the fax transmission.
+description: Sets or retrieves the EmailAddress property of a FaxDoc object. The EmailAddress property is a null-terminated string that contains the email address of the sender of the fax transmission. (Get)
 helpviewer_keywords: ["EmailAddress property [Fax Service]","EmailAddress property [Fax Service]","IFaxDoc interface","IFaxDoc interface [Fax Service]","EmailAddress property","IFaxDoc.EmailAddress","IFaxDoc.get_EmailAddress","IFaxDoc::EmailAddress","IFaxDoc::get_EmailAddress","IFaxDoc::put_EmailAddress","_mfax_ifaxdoc_get_emailaddress","fax._mfax_ifaxdoc_get_emailaddress","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_emailaddress_cpp","faxcom/IFaxDoc::EmailAddress","faxcom/IFaxDoc::get_EmailAddress","faxcom/IFaxDoc::put_EmailAddress","get_EmailAddress"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_emailaddress_cpp.htm
 tech.root: Fax

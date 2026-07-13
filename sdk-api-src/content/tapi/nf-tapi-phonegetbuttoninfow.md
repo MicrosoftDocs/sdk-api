@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.phoneGetButtonInfoW
 title: phoneGetButtonInfoW function (tapi.h)
-description: The phoneGetButtonInfo function returns information about the specified button.
-helpviewer_keywords: ["_tapi2_phonegetbuttoninfo","phoneGetButtonInfo","phoneGetButtonInfo function [TAPI 2.2]","phoneGetButtonInfoA","phoneGetButtonInfoW","tapi/phoneGetButtonInfo","tapi/phoneGetButtonInfoA","tapi/phoneGetButtonInfoW","tapi2.phonegetbuttoninfo"]
+description: The phoneGetButtonInfoW (Unicode) function (tapi.h) returns information about the specified button.
+helpviewer_keywords: ["_tapi2_phonegetbuttoninfo", "phoneGetButtonInfo", "phoneGetButtonInfo function [TAPI 2.2]", "phoneGetButtonInfoW", "tapi/phoneGetButtonInfo", "tapi/phoneGetButtonInfoW", "tapi2.phonegetbuttoninfo"]
 old-location: tapi2\phonegetbuttoninfo.htm
 tech.root: tapi3
 ms.assetid: a4df5ba0-7fce-4d29-80a6-4f8f58ae1a83
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo function [TAPI 2.2], phoneGetButtonInfoA, phoneGetButtonInfoW, tapi/phoneGetButtonInfo, tapi/phoneGetButtonInfoA, tapi/phoneGetButtonInfoW, tapi2.phonegetbuttoninfo
 req.header: tapi.h
 req.include-header: 
@@ -91,4 +91,4 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_INVALBUTTONLAMPID, PHONEERR_
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines phoneGetButtonInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines phoneGetButtonInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValueByName(PCWSTR,T)
 title: ID2D1Properties::GetValueByName(PCWSTR,T,) (d2d1_1.h)
-description: Gets the property value by name. This is a template overload. See Remarks.
+description: Gets the property value by name. This is a template overload. See Remarks. (overload 1/2)
 helpviewer_keywords: ["GetValueByName","GetValueByName method [Direct2D]","GetValueByName method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetValueByName method","ID2D1Properties.GetValueByName","ID2D1Properties.GetValueByName(PCWSTR","T",")","ID2D1Properties::GetValueByName","ID2D1Properties::GetValueByName(PCWSTR","T*)","ID2D1Properties::GetValueByName(PCWSTR","T",")","d2d1_1/ID2D1Properties::GetValueByName","direct2d.id2d1properties_getvaluebyname3"]
 old-location: direct2d\id2d1properties_getvaluebyname3.htm
 tech.root: Direct2D
@@ -11,8 +11,8 @@ ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName me
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows�8 and Platform Update for Windows�7 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server�2012 and Platform Update for Windows Server�2008�R2 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -102,7 +102,6 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>Unspecified failure.</td>
 </tr>
 </table>
-�
 
 ## -remarks
 
@@ -125,6 +124,4 @@ Any error not in the standard set returned by a property implementation will be 
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
-�
 
-�

@@ -117,7 +117,7 @@ The following are some of the reasons this function might fail:
 <li>The filling could not be completed.</li>
 <li>The specified point has the boundary color specified by the <i>color</i> parameter (if FLOODFILLBORDER was requested).</li>
 <li>The specified point does not have the color specified by <i>color</i> (if FLOODFILLSURFACE was requested).</li>
-<li>The point is outside the clipping regionthat is, it is not visible on the device.</li>
+<li>The point is outside the clipping region, that is, it is not visible on the device.</li>
 </ul>
 If the <i>fuFillType</i> parameter is FLOODFILLBORDER, the system assumes that the area to be filled is completely bounded by the color specified by the <i>color</i> parameter. The function begins filling at the point specified by the <i>nXStart</i> and <i>nYStart</i> parameters and continues in all directions until it reaches the boundary.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_DisconnectTime
 title: ITsSbSession::get_DisconnectTime (sbtsv.h)
-description: Retrieves or specifies the time the session was disconnected.
+description: Retrieves or specifies the time the session was disconnected. (Get)
 helpviewer_keywords: ["DisconnectTime property [Remote Desktop Services]","DisconnectTime property [Remote Desktop Services]","ITsSbSession interface","ITsSbSession interface [Remote Desktop Services]","DisconnectTime property","ITsSbSession.DisconnectTime","ITsSbSession.get_DisconnectTime","ITsSbSession::DisconnectTime","ITsSbSession::get_DisconnectTime","ITsSbSession::put_DisconnectTime","get_DisconnectTime","sbtsv/ITsSbSession::DisconnectTime","sbtsv/ITsSbSession::get_DisconnectTime","sbtsv/ITsSbSession::put_DisconnectTime","termserv.itssbsession_disconnecttime"]
 old-location: termserv\itssbsession_disconnecttime.htm
 tech.root: TermServ

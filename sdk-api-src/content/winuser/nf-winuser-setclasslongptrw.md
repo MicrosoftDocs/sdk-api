@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetClassLongPtrW
 title: SetClassLongPtrW function (winuser.h)
-description: Replaces the specified value at the specified offset in the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs.
-helpviewer_keywords: ["GCLP_ HBRBACKGROUND","GCLP_HCURSOR","GCLP_HICON","GCLP_HICONSM","GCLP_HMODULE","GCLP_MENUNAME","GCLP_WNDPROC","GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_STYLE","SetClassLongPtr","SetClassLongPtr function [Windows and Messages]","SetClassLongPtrA","SetClassLongPtrW","_win32_SetClassLongPtr","_win32_setclasslongptr_cpp","winmsg.setclasslongptr","winui._win32_setclasslongptr","winuser/SetClassLongPtr","winuser/SetClassLongPtrA","winuser/SetClassLongPtrW"]
+description: Replaces the specified value at the specified offset in the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs. (Unicode)
+helpviewer_keywords: ["GCLP_ HBRBACKGROUND", "GCLP_HCURSOR", "GCLP_HICON", "GCLP_HICONSM", "GCLP_HMODULE", "GCLP_MENUNAME", "GCLP_WNDPROC", "GCL_CBCLSEXTRA", "GCL_CBWNDEXTRA", "GCL_STYLE", "SetClassLongPtr", "SetClassLongPtr function [Windows and Messages]", "SetClassLongPtrW", "_win32_SetClassLongPtr", "_win32_setclasslongptr_cpp", "winmsg.setclasslongptr", "winui._win32_setclasslongptr", "winuser/SetClassLongPtr", "winuser/SetClassLongPtrW"]
 old-location: winmsg\setclasslongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclasslongptr.htm
@@ -205,7 +205,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-If you use the <b>SetClassLongPtr</b> function and the <b>GCLP_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> callback function. 
+If you use the <b>SetClassLongPtr</b> function and the <b>GCLP_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a> callback function. 
 
 Calling <b>SetClassLongPtr</b> with the <b>GCLP_WNDPROC</b> index creates a subclass of the window class that affects all windows subsequently created with the class. An application can subclass a system class, but should not subclass a window class created by another process. 
 
@@ -219,7 +219,7 @@ Use the <b>SetClassLongPtr</b> function with care. For example, it is possible t
 
 
 > [!NOTE]
-> The winuser.h header defines SetClassLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SetClassLongPtr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -251,4 +251,4 @@ Use the <b>SetClassLongPtr</b> function with care. For example, it is possible t
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>

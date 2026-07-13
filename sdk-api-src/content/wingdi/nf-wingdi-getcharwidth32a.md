@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetCharWidth32A
 title: GetCharWidth32A function (wingdi.h)
-description: The GetCharWidth32 function retrieves the widths, in logical coordinates, of consecutive characters in a specified range from the current font.
-helpviewer_keywords: ["GetCharWidth32","GetCharWidth32 function [Windows GDI]","GetCharWidth32A","GetCharWidth32W","_win32_GetCharWidth32","gdi.getcharwidth32","wingdi/GetCharWidth32","wingdi/GetCharWidth32A","wingdi/GetCharWidth32W"]
+description: The GetCharWidth32 function retrieves the widths, in logical coordinates, of consecutive characters in a specified range from the current font. (ANSI)
+helpviewer_keywords: ["GetCharWidth32A", "wingdi/GetCharWidth32A"]
 old-location: gdi\getcharwidth32.htm
 tech.root: gdi
 ms.assetid: f7d6e9b3-72aa-42d8-8346-b230b9e98237
@@ -102,7 +102,7 @@ For an example, see "Displaying Keyboard Input" in <a href="/windows/desktop/inp
 
 
 > [!NOTE]
-> The wingdi.h header defines GetCharWidth32 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetCharWidth32 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

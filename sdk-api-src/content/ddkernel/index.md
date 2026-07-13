@@ -4,7 +4,8 @@ title: Ddkernel.h header
 ms.assetid: ffcc9cf7-b1a2-3b79-be74-05d52a927b03
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: display
 f1_keywords:
  - ddkernel

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DPA_GetPtrPtr","DPA_GetPtrPtr macro [Windows Controls]","
 old-location: controls\DPA_GetPtrPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrptr.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DPA_GetPtrPtr, DPA_GetPtrPtr macro [Windows Controls], _shell_DPA_GetPtrPtr, _shell_DPA_GetPtrPtr_cpp, controls.DPA_GetPtrPtr, controls._shell_DPA_GetPtrPtr, dpa_dsa/DPA_GetPtrPtr
 req.header: dpa_dsa.h
 req.include-header: 
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # DPA_GetPtrPtr macro
+
+## -syntax
+
+```cpp
+void DPA_GetPtrPtr(
+  [in] HDPA hdpa
+);
+```
 
 
 ## -description

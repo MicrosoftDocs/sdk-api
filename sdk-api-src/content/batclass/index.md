@@ -4,7 +4,8 @@ title: Batclass.h header
 ms.assetid: 09811379-f587-3506-b48b-4debc80ecdca
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: battery
 f1_keywords:
  - batclass

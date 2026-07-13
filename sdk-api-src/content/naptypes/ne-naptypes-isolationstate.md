@@ -56,15 +56,15 @@ api_name:
 
 ## -enum-fields
 
-### -field isolationStateNotRestricted
+### -field isolationStateNotRestricted:1
 
 The connection isolation state is not restricted.
 
-### -field isolationStateInProbation
+### -field isolationStateInProbation:2
 
 The connection isolation state is probation.
 
-### -field isolationStateRestrictedAccess
+### -field isolationStateRestrictedAccess:3
 
 The connection isolation state is restricted access.
 

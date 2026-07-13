@@ -54,14 +54,11 @@ Represents a sequence of commands that can be recorded and played back.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandList</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1CommandList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1CommandList</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1CommandList</b> also has these types of members:
 
 ## -remarks
 
-The command list does not include static copies of resources with the recorded set of commands. All bitmaps, effects, and geometries are stored as references to the actual resource and all the brushes are stored by value. All the resource creation and destruction happens outside of the command list. The following table  	lists resources and how they are treated inside of a command list.
+The command list does not include static copies of resources with the recorded set of commands. All bitmaps, effects, and geometries are stored as references to the actual resource and all the brushes are stored by value. All the resource creation and destruction happens outside of the command list. The following table lists resources and how they are treated inside of a command list.
 
 <table>
 <tr>
@@ -106,41 +103,45 @@ The command list does not include static copies of resources with the recorded s
 <h3><a id="Using_a_CommandList_as_a_Target"></a><a id="using_a_commandlist_as_a_target"></a><a id="USING_A_COMMANDLIST_AS_A_TARGET"></a>Using a CommandList as a Target</h3>
 The following pseudocode illustrates the different cases where a target is set as either a command list or as a bitmap.
 
-<pre class="syntax" xml:space="preserve"><code>//create a D2D device from an already created DXGI device 
+
+``` syntax
+//create a D2D device from an already created DXGI device 
 ID2D1Device *pD2D1Device;
-pD2D1Factory-&gt;CreateDevice(pDxgiDevice, &amp;pD2D1Device);
+pD2D1Factory->CreateDevice(pDxgiDevice, &pD2D1Device);
 
 //create a D2D device context from the D2D device
 ID2D1DeviceContext *pD2D1DeviceContext;
-pD2D1Device-&gt;CreateD2D1DeviceContext(&amp;pD2D1DeviceContext);
+pD2D1Device->CreateD2D1DeviceContext(&pD2D1DeviceContext);
 
 //create command list
 ID2D1CommandList *pCommandList1;
-pD2D1DeviceContext-&gt;CreateCommandList(&amp;pCommandList1);
+pD2D1DeviceContext->CreateCommandList(&pCommandList1);
 
 //CreateBitmap
 ID2D1Bitmap *pBitmap1;
 ID2D1Bitmap *pBitmap2;
-pD2D1DeviceContext-&gt;CreateBitmap(…, &amp;pBitmap1);
-pD2D1DeviceContext-&gt;CreateBitmap(…, &amp;pBitmap2);
+pD2D1DeviceContext->CreateBitmap(…, &pBitmap1);
+pD2D1DeviceContext->CreateBitmap(…, &pBitmap2);
 
 //Set the bitmap as the target
-pD2D1DeviceContext-&gt;SetTarget(pBitmap1);
-pD2D1DeviceContext-&gt;BeginDraw();
+pD2D1DeviceContext->SetTarget(pBitmap1);
+pD2D1DeviceContext->BeginDraw();
 RenderMyVectorContent(pD2D1DeviceContext);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->EndDraw();
 
 //Set the command list as the target
-pD2D1DeviceContext-&gt;SetTarget(pCommandList1);
-pD2D1DeviceContext-&gt;BeginDraw();
+pD2D1DeviceContext->SetTarget(pCommandList1);
+pD2D1DeviceContext->BeginDraw();
 RenderMyVectorContent(pD2D1DeviceContext);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->EndDraw();
 
 //Drawing a command list to a bitmap target
-pD2D1DeviceContext-&gt;SetTarget(pBitmap2);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawImage(pCommandList1);
-pD2D1DeviceContext-&gt;EndDraw();</code></pre>
+pD2D1DeviceContext->SetTarget(pBitmap2);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawImage(pCommandList1);
+pD2D1DeviceContext->EndDraw();
+```
+
 <ul>
 <li><b>Set the bitmap as the target:</b>In this case, all contents rendered to the bitmap are rasterized. If this bitmap is used somewhere else, it will not be resolution independent and if a transformation like <a href="/windows/desktop/Direct2D/high-quality-scale">High Quality Scale</a> is used, it will not maintain fidelity.</li>
 <li><b>Set the command list as the target:</b>In this case, instead of the scene being rasterized, all of the commands are recorded. When the command list is used later for screen drawing using <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a> or passed to an XPS print control, the vector content is replayed with no loss of fidelity.</li>
@@ -153,27 +154,31 @@ Command lists are a good way to support pattern brushes, because they are capabl
 
 The type of brush that supports filling a path with a command list is called an <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1imagebrush">image brush</a>.
 
-The following psuedocode illustrates the process of using a command list with an image brush.<pre class="syntax" xml:space="preserve"><code>//Draw the pattern to the command list
+The following psuedocode illustrates the process of using a command list with an image brush.
+``` syntax
+//Draw the pattern to the command list
 ID2D1CommandList *pCommandList;
-pD2D1DeviceContext-&gt;SetTarget(pCommandList);
-pD2D1DeviceContext-&gt;BeginDraw();
+pD2D1DeviceContext->SetTarget(pCommandList);
+pD2D1DeviceContext->BeginDraw();
 DrawMyPattern(pD2D1DeviceContext);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->EndDraw();
 
 //Create the image brush from the command list
 ID2D1ImageBrush *pImageBrush;
-pD2D1DeviceContext-&gt;CreateImageBrush(
-	pCommandList, 
-	pImageBrushProperties,
-	pBrushProperties,
-	&amp;pImageBrush);
+pD2D1DeviceContext->CreateImageBrush(
+    pCommandList, 
+    pImageBrushProperties,
+    pBrushProperties,
+    &pImageBrush);
 
 //Fill the ellipse with the pattern brush
-pD2D1DeviceContext-&gt;SetTarget(pTargetBitmap);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;FillEllipse(pEllipse, pImageBrush);
-pD2D1DeviceContext-&gt;EndDraw();
-</code></pre>Because the brush accepts an image, it has the following other benefits as well:<ul>
+pD2D1DeviceContext->SetTarget(pTargetBitmap);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->FillEllipse(pEllipse, pImageBrush);
+pD2D1DeviceContext->EndDraw();
+
+```
+Because the brush accepts an image, it has the following other benefits as well:<ul>
 <li>Because the output of an effect graph is an image, this image can be used to create an image brush, which effectively provides the capability of using an effect as a fill.</li>
 <li>Because the command list is a type of image, vector content can be inserted into an effect graph and can also be tiled or operated on. For example, a large copyright notice can be inserted over a graph with a virtualized image and then encoded.</li>
 </ul>
@@ -183,72 +188,76 @@ pD2D1DeviceContext-&gt;EndDraw();
 Compatible render targets are used very often for off-screen rendering to an intermediate bitmap that is later composited with the actual scene. Especially in the case of printing, using compatible render targets will increase the memory footprint because everything will be rasterized and sent to XPS instead of retaining the actual primitives. In this scenario, a developer is better off replacing the compatible render target with an intermediate command list. 
 The following pseudo code illustrates this point.
 
-<pre class="syntax" xml:space="preserve"><code>pD2D1Device-&gt;CreateDeviceContext(&amp;pD2D1DeviceContext);
-pRenderTarget-&gt;CreateCompatibleRenderTarget(…, &amp;pCompatibleRenderTarget);
+
+``` syntax
+pD2D1Device->CreateDeviceContext(&pD2D1DeviceContext);
+pRenderTarget->CreateCompatibleRenderTarget(…, &pCompatibleRenderTarget);
 
 //render to the compatible render target
-pCompatibleRenderTarget-&gt;BeginDraw();
+pCompatibleRenderTarget->BeginDraw();
 RenderMyScene1(pCompatibleRenderTarget);
-pCompatibleRenderTarget-&gt;EndDraw();
+pCompatibleRenderTarget->EndDraw();
 
 //get the bitmap from the compatible render target
-pCompatibleRenderTarget-&gt;GetBitmap(pCompatBitmap);
+pCompatibleRenderTarget->GetBitmap(pCompatBitmap);
 
 //draw this bitmap on the device context
-pD2D1DeviceContext-&gt;SetTarget(pTargetBitmap)
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawBitmap(pCompatBitmap);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pTargetBitmap)
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawBitmap(pCompatBitmap);
+pD2D1DeviceContext->EndDraw();
 
 //draw something else on the compatible render target
-pCompatibleRenderTarget-&gt;BeginDraw();
-pCompatibleRenderTarget-&gt;Clear();
-pCompatibleRenderTarget&gt;RenderScene2();
-pCompatibleRenderTarget-&gt;EndDraw();
+pCompatibleRenderTarget->BeginDraw();
+pCompatibleRenderTarget->Clear();
+pCompatibleRenderTarget->RenderScene2();
+pCompatibleRenderTarget->EndDraw();
 
 //get the bitmap from the compatible render target
-pCompatibleRenderTarget-&gt;GetBitmap(pCompatBitmap);
+pCompatibleRenderTarget->GetBitmap(pCompatBitmap);
 
 //draw this bitmap on the device context
-pD2D1DeviceContext-&gt;SetTarget(pTargetBitmap)
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawBitmap(pCompatBitmap);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pTargetBitmap)
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawBitmap(pCompatBitmap);
+pD2D1DeviceContext->EndDraw();
 
 
 //Use a command list instead for better quality and performance 
 
 //store the original target
-pOriginalTarget = pD2D1DeviceContext-&gt;GetTarget();
+pOriginalTarget = pD2D1DeviceContext->GetTarget();
 
-pD2D1DeviceContext-&gt;CreateCommandList(pCommandList1);
+pD2D1DeviceContext->CreateCommandList(pCommandList1);
 
 //draw to command list 1
-pD2D1DeviceContext-&gt;SetTarget(pCommandList1);
-pD2D1DeviceContext-&gt;BeginDraw();
+pD2D1DeviceContext->SetTarget(pCommandList1);
+pD2D1DeviceContext->BeginDraw();
 RenderMyScene1(pD2D1DeviceContext);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->EndDraw();
 
 //draw the command list to the original target
-pD2D1DeviceContext-&gt;SetTarget(pOriginalTarget);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawImage(pCommandList1);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pOriginalTarget);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawImage(pCommandList1);
+pD2D1DeviceContext->EndDraw();
 
-pD2D1DeviceContext-&gt;CreateCommandList(pCommandList2);
+pD2D1DeviceContext->CreateCommandList(pCommandList2);
 
 //draw something else to a new command list
-pD2D1DeviceContext-&gt;SetTarget(pCommandList2);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;RenderScene2();
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pCommandList2);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->RenderScene2();
+pD2D1DeviceContext->EndDraw();
 
 //draw the new command list on the old command list
-pD2D1DeviceContext-&gt;SetTarget(pCommandList1);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawImage(pCommandList2);
-pD2D1DeviceContext-&gt;EndDraw();
-</code></pre>
+pD2D1DeviceContext->SetTarget(pCommandList1);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawImage(pCommandList2);
+pD2D1DeviceContext->EndDraw();
+
+```
+
 <h3><a id="Working_with_Other_APIs"></a><a id="working_with_other_apis"></a><a id="WORKING_WITH_OTHER_APIS"></a>Working with Other APIs</h3>
 Direct2D employs a simple model when interoperating with GDI and Direct3D/DXGI APIs. The command list does not record these commands. It instead rasterizes the contents in place and stores them as an <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>. Because the contents are rasterized, these interop points do not maintain high fidelity.
 

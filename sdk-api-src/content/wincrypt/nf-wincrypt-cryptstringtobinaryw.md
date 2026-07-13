@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CryptStringToBinaryW
 title: CryptStringToBinaryW function (wincrypt.h)
-description: Converts a formatted string into an array of bytes.
-helpviewer_keywords: ["CRYPT_STRING_ANY","CRYPT_STRING_BASE64","CRYPT_STRING_BASE64HEADER","CRYPT_STRING_BASE64REQUESTHEADER","CRYPT_STRING_BASE64X509CRLHEADER","CRYPT_STRING_BASE64_ANY","CRYPT_STRING_BINARY","CRYPT_STRING_HEX","CRYPT_STRING_HEXADDR","CRYPT_STRING_HEXASCII","CRYPT_STRING_HEXASCIIADDR","CRYPT_STRING_HEXRAW","CRYPT_STRING_HEX_ANY","CRYPT_STRING_STRICT","CryptStringToBinary","CryptStringToBinary function [Security]","CryptStringToBinaryA","CryptStringToBinaryW","_crypto2_cryptstringtobinary","security.cryptstringtobinary","wincrypt/CryptStringToBinary","wincrypt/CryptStringToBinaryA","wincrypt/CryptStringToBinaryW"]
+description: Converts a formatted string into an array of bytes. (Unicode)
+helpviewer_keywords: ["CRYPT_STRING_ANY", "CRYPT_STRING_BASE64", "CRYPT_STRING_BASE64HEADER", "CRYPT_STRING_BASE64REQUESTHEADER", "CRYPT_STRING_BASE64X509CRLHEADER", "CRYPT_STRING_BASE64_ANY", "CRYPT_STRING_BINARY", "CRYPT_STRING_HEX", "CRYPT_STRING_HEXADDR", "CRYPT_STRING_HEXASCII", "CRYPT_STRING_HEXASCIIADDR", "CRYPT_STRING_HEXRAW", "CRYPT_STRING_HEX_ANY", "CRYPT_STRING_STRICT", "CryptStringToBinary", "CryptStringToBinary function [Security]", "CryptStringToBinaryW", "_crypto2_cryptstringtobinary", "security.cryptstringtobinary", "wincrypt/CryptStringToBinary", "wincrypt/CryptStringToBinaryW"]
 old-location: security\cryptstringtobinary.htm
 tech.root: security
 ms.assetid: 13b6f5ef-174a-4254-8492-6e7dcc58945f
@@ -366,4 +366,4 @@ does not mean that a request header or
 was found.
 
 > [!NOTE]
-> The wincrypt.h header defines CryptStringToBinary as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincrypt.h header defines CryptStringToBinary as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

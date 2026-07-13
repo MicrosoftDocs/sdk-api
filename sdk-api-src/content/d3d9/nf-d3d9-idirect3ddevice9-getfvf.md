@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetFVF
 title: IDirect3DDevice9::GetFVF (d3d9.h)
-description: Gets the fixed vertex function declaration.
+description: The IDirect3DDevice9::GetFVF method (d3d9.h) gets the fixed vertex function declaration.
 helpviewer_keywords: ["951f24cf-f72e-7ab4-8fde-fbe96bc36c7a","GetFVF","GetFVF method [Direct3D 9]","GetFVF method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetFVF method","IDirect3DDevice9.GetFVF","IDirect3DDevice9::GetFVF","d3d9helper/IDirect3DDevice9::GetFVF","direct3d9.idirect3ddevice9__getfvf"]
 old-location: direct3d9\idirect3ddevice9__getfvf.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getfvf.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 951f24cf-f72e-7ab4-8fde-fbe96bc36c7a, GetFVF, GetFVF method [Direct3D 9], GetFVF method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetFVF method, IDirect3DDevice9.GetFVF, IDirect3DDevice9::GetFVF, d3d9helper/IDirect3DDevice9::GetFVF, direct3d9.idirect3ddevice9__getfvf
 req.header: d3d9.h
 req.include-header: D3D9.h

@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamNearestSample","AVIStreamNearestSample macro [Wi
 old-location: multimedia\avistreamnearestsample.htm
 tech.root: Multimedia
 ms.assetid: 350255b7-35ae-4eed-8991-82b548a2fa65
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamNearestSample, AVIStreamNearestSample macro [Windows Multimedia], _win32_AVIStreamNearestSample, multimedia.avistreamnearestsample, vfw/AVIStreamNearestSample
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamNearestSample macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamNearestSample(
+     pavi,
+     l
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the sample position if successful or -1 otherwise.
+
 
 ## -description
 
@@ -69,8 +84,8 @@ The <b>AVIStreamNearestSample</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamNearestSample(pavi, lPos) \ 
-    AVIStreamFindSample(pavi, lPos, FIND_PREV | FIND_ANY) 
+#define AVIStreamNearestSample(pavi, l) \ 
+    AVIStreamFindSample(pavi, l, FIND_PREV | FIND_ANY) 
 
 ```
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_21
+UID: NS:winioctl.USN_RANGE_TRACK_OUTPUT
 title: USN_RANGE_TRACK_OUTPUT
 description: Contains returned update sequence number (USN) from FSCTL_USN_TRACK_MODIFIED_RANGES control code.
 helpviewer_keywords: ["*PUSN_RANGE_TRACK_OUTPUT","PUSN_RANGE_TRACK_OUTPUT","PUSN_RANGE_TRACK_OUTPUT structure pointer [Files]","USN_RANGE_TRACK_OUTPUT","USN_RANGE_TRACK_OUTPUT structure [Files]","fs.usn_range_track_output","winioctl/PUSN_RANGE_TRACK_OUTPUT","winioctl/USN_RANGE_TRACK_OUTPUT"]
@@ -66,3 +66,4 @@ This structure is optional.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
+

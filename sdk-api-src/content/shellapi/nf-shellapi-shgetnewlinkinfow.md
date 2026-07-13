@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.SHGetNewLinkInfoW
 title: SHGetNewLinkInfoW function (shellapi.h)
-description: Creates a name for a new shortcut based on the shortcut's proposed target. This function does not create the shortcut, just the name.
-helpviewer_keywords: ["SHGNLI_NOLNK","SHGNLI_NOLOCNAME","SHGNLI_NOUNIQUE","SHGNLI_PIDL","SHGNLI_PREFIXNAME","SHGNLI_USEURLEXT","SHGetNewLinkInfo","SHGetNewLinkInfo function [Windows Shell]","SHGetNewLinkInfoA","SHGetNewLinkInfoW","_win32_SHGetNewLinkInfo","shell.SHGetNewLinkInfo","shellapi/SHGetNewLinkInfo","shellapi/SHGetNewLinkInfoA","shellapi/SHGetNewLinkInfoW"]
+description: Creates a name for a new shortcut based on the shortcut's proposed target. This function does not create the shortcut, just the name. (Unicode)
+helpviewer_keywords: ["SHGNLI_NOLNK", "SHGNLI_NOLOCNAME", "SHGNLI_NOUNIQUE", "SHGNLI_PIDL", "SHGNLI_PREFIXNAME", "SHGNLI_USEURLEXT", "SHGetNewLinkInfo", "SHGetNewLinkInfo function [Windows Shell]", "SHGetNewLinkInfoW", "_win32_SHGetNewLinkInfo", "shell.SHGetNewLinkInfo", "shellapi/SHGetNewLinkInfo", "shellapi/SHGetNewLinkInfoW"]
 old-location: shell\SHGetNewLinkInfo.htm
 tech.root: shell
 ms.assetid: ca658d5c-af7b-400c-8f4d-7d4b07bf7f2b
@@ -166,4 +166,4 @@ Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
 
 > [!NOTE]
-> The shellapi.h header defines SHGetNewLinkInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHGetNewLinkInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

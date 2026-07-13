@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlGetLocationW
 title: UrlGetLocationW function (shlwapi.h)
-description: Retrieves the location from a URL.
-helpviewer_keywords: ["UrlGetLocation","UrlGetLocation function [Windows Shell]","UrlGetLocationA","UrlGetLocationW","_win32_UrlGetLocation","shell.UrlGetLocation","shlwapi/UrlGetLocation","shlwapi/UrlGetLocationA","shlwapi/UrlGetLocationW"]
+description: Retrieves the location from a URL. (Unicode)
+helpviewer_keywords: ["UrlGetLocation", "UrlGetLocation function [Windows Shell]", "UrlGetLocationW", "_win32_UrlGetLocation", "shell.UrlGetLocation", "shlwapi/UrlGetLocation", "shlwapi/UrlGetLocationW"]
 old-location: shell\UrlGetLocation.htm
 tech.root: shell
 ms.assetid: e75bde92-2ca0-4d34-a276-50b4eeceda1c
@@ -80,5 +80,5 @@ The location is the segment of the URL starting with a ? or # character. If a fi
 
 
 > [!NOTE]
-> The shlwapi.h header defines UrlGetLocation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlGetLocation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

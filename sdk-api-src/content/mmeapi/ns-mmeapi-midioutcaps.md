@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.midioutcaps_tag
 title: MIDIOUTCAPS (mmeapi.h)
-description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device.
+description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device. (MIDIOUTCAPS)
 helpviewer_keywords: ["*LPMIDIOUTCAPS","*NPMIDIOUTCAPS","*PMIDIOUTCAPS","MIDICAPS_CACHE","MIDICAPS_LRVOLUME","MIDICAPS_STREAM","MIDICAPS_VOLUME","MIDIOUTCAPS","MIDIOUTCAPS structure [Windows Multimedia]","MOD_FMSYNTH","MOD_MAPPER","MOD_MIDIPORT","MOD_SQSYNTH","MOD_SWSYNTH","MOD_SYNTH","MOD_WAVETABLE","_win32_MIDIOUTCAPS_str","midioutcaps_tag","mmeapi/MIDIOUTCAPS","multimedia.midioutcaps","tagMIDIOUTCAPSA","tagMIDIOUTCAPSW"]
 old-location: multimedia\midioutcaps.htm
 tech.root: Multimedia

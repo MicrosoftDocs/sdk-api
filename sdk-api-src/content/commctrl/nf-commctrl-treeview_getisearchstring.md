@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetISearchString","TreeView_GetISearchString mac
 old-location: controls\TreeView_GetISearchString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getisearchstring.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetISearchString, TreeView_GetISearchString macro [Windows Controls], _win32_TreeView_GetISearchString, _win32_TreeView_GetISearchString_cpp, commctrl/TreeView_GetISearchString, controls.TreeView_GetISearchString, controls._win32_TreeView_GetISearchString
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_GetISearchString macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_GetISearchString(
+   HWND   hwndTV,
+   LPTSTR lpsz
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if the string is retrieved; <b>FALSE</b> otherwise.
 
 
 ## -description

@@ -56,24 +56,24 @@ Defines the possible storage module types.
 
 ## -enum-fields
 
-### -field FsrmStorageModuleType_Unknown
+### -field FsrmStorageModuleType_Unknown:0
 
 The module type is unknown. Do not use this value.
 
-### -field FsrmStorageModuleType_Cache
+### -field FsrmStorageModuleType_Cache:1
 
 The storage module caches classification properties for quick access. This type is reserved for use by FSRM 
       and should not be used by any third party providers.
 
-### -field FsrmStorageModuleType_InFile
+### -field FsrmStorageModuleType_InFile:2
 
 The storage module stores classification properties within the file itself.
 
-### -field FsrmStorageModuleType_Database
+### -field FsrmStorageModuleType_Database:3
 
 The storage module stores classification properties in a database.
 
-### -field FsrmStorageModuleType_System
+### -field FsrmStorageModuleType_System:100
 
 The storage module stores classification properties in system data store. This type is reserved for use by 
        FSRM and should not be used by any third party providers.

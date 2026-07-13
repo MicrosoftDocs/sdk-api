@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.DeviceCapabilitiesA
 title: DeviceCapabilitiesA function (wingdi.h)
-description: The DeviceCapabilities function retrieves the capabilities of a printer driver.
-helpviewer_keywords: ["DC_BINNAMES","DC_BINS","DC_COLLATE","DC_COLORDEVICE","DC_COPIES","DC_DRIVER","DC_DUPLEX","DC_ENUMRESOLUTIONS","DC_EXTRA","DC_FIELDS","DC_FILEDEPENDENCIES","DC_MAXEXTENT","DC_MEDIAREADY","DC_MEDIATYPENAMES","DC_MEDIATYPES","DC_MINEXTENT","DC_NUP","DC_ORIENTATION","DC_PAPERNAMES","DC_PAPERS","DC_PAPERSIZE","DC_PERSONALITY","DC_PRINTERMEM","DC_PRINTRATE","DC_PRINTRATEPPM","DC_PRINTRATEUNIT","DC_SIZE","DC_STAPLE","DC_TRUETYPE","DC_VERSION","DeviceCapabilities","DeviceCapabilities function [Windows GDI]","DeviceCapabilitiesA","DeviceCapabilitiesW","_win32_DeviceCapabilities","gdi.devicecapabilities","wingdi/DeviceCapabilities","wingdi/DeviceCapabilitiesA","wingdi/DeviceCapabilitiesW"]
+description: The DeviceCapabilities function retrieves the capabilities of a printer driver. (ANSI)
+helpviewer_keywords: ["DC_BINNAMES", "DC_BINS", "DC_COLLATE", "DC_COLORDEVICE", "DC_COPIES", "DC_DRIVER", "DC_DUPLEX", "DC_ENUMRESOLUTIONS", "DC_EXTRA", "DC_FIELDS", "DC_FILEDEPENDENCIES", "DC_MAXEXTENT", "DC_MEDIAREADY", "DC_MEDIATYPENAMES", "DC_MEDIATYPES", "DC_MINEXTENT", "DC_NUP", "DC_ORIENTATION", "DC_PAPERNAMES", "DC_PAPERS", "DC_PAPERSIZE", "DC_PERSONALITY", "DC_PRINTERMEM", "DC_PRINTRATE", "DC_PRINTRATEPPM", "DC_PRINTRATEUNIT", "DC_SIZE", "DC_STAPLE", "DC_TRUETYPE", "DC_VERSION", "DeviceCapabilitiesA", "wingdi/DeviceCapabilitiesA"]
 old-location: gdi\devicecapabilities.htm
 tech.root: xps
 ms.assetid: d7f63ef7-0a2e-47c3-9e81-6e8a6dffe9af
@@ -299,7 +299,7 @@ Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an
 </dl>
 </td>
 <td width="60%">
-Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
+Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
 
 </td>
 </tr>
@@ -470,7 +470,7 @@ If the custom capability is an array of items, you must call <b>SetPinterData</b
 
 
 > [!NOTE]
-> The wingdi.h header defines DeviceCapabilities as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines DeviceCapabilities as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -498,7 +498,7 @@ If the custom capability is an array of items, you must call <b>SetPinterData</b
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

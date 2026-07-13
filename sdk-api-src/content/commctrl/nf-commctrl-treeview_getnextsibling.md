@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetNextSibling","TreeView_GetNextSibling macro [
 old-location: controls\TreeView_GetNextSibling.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextsibling.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetNextSibling, TreeView_GetNextSibling macro [Windows Controls], _win32_TreeView_GetNextSibling, _win32_TreeView_GetNextSibling_cpp, commctrl/TreeView_GetNextSibling, controls.TreeView_GetNextSibling, controls._win32_TreeView_GetNextSibling
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_GetNextSibling macro
+
+## -syntax
+
+```cpp
+HTREEITEM TreeView_GetNextSibling(
+   HWND      hwnd,
+   HTREEITEM hitem
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Returns the handle to the item if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

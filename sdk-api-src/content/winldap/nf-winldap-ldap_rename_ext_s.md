@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_rename_ext_s
 title: ldap_rename_ext_s function (winldap.h)
-description: The ldap_rename_ext_s function is a synchronous operation that changes the distinguished name of an entry in the directory. This function is available effective with LDAP 3.
+description: The ldap_rename_ext_s function (winldap.h) is a synchronous operation that changes the distinguished name of an entry in the directory.  
 helpviewer_keywords: ["_ldap_ldap_rename_ext_s","ldap.ldap__rename__ext__s","ldap.ldap_rename_ext_s","ldap_rename_ext_s","ldap_rename_ext_s function [LDAP]","ldap_rename_ext_sA","ldap_rename_ext_sW","winldap/ldap_rename_ext_s","winldap/ldap_rename_ext_sA","winldap/ldap_rename_ext_sW"]
 old-location: ldap\ldap_rename_ext_s.htm
 tech.root: ldap
 ms.assetid: 85a605f9-d075-4b1d-bfcb-a75c9e7f3023
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_rename_ext_s, ldap.ldap__rename__ext__s, ldap.ldap_rename_ext_s, ldap_rename_ext_s, ldap_rename_ext_s function [LDAP], ldap_rename_ext_sA, ldap_rename_ext_sW, winldap/ldap_rename_ext_s, winldap/ldap_rename_ext_sA, winldap/ldap_rename_ext_sW
 req.header: winldap.h
 req.include-header: 

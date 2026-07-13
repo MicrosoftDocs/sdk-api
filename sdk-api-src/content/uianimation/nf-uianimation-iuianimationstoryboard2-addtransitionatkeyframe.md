@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddTransitionAtKeyframe
 title: IUIAnimationStoryboard2::AddTransitionAtKeyframe (uianimation.h)
-description: Adds a transition that starts at the specified keyframe.
+description: Adds a transition that starts at the specified keyframe. (IUIAnimationStoryboard2.AddTransitionAtKeyframe)
 helpviewer_keywords: ["AddTransitionAtKeyframe","AddTransitionAtKeyframe method [Windows Animation]","AddTransitionAtKeyframe method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","AddTransitionAtKeyframe method","IUIAnimationStoryboard2.AddTransitionAtKeyframe","IUIAnimationStoryboard2::AddTransitionAtKeyframe","uianimation.iuianimationstoryboard2_addtransitionatkeyframe","uianimation/IUIAnimationStoryboard2::AddTransitionAtKeyframe"]
 old-location: uianimation\iuianimationstoryboard2_addtransitionatkeyframe.htm
 tech.root: UIAnimation

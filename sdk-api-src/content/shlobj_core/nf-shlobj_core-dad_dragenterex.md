@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.DAD_DragEnterEx
 title: DAD_DragEnterEx function (shlobj_core.h)
-description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.
+description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window. (DAD_DragEnterEx)
 helpviewer_keywords: ["DAD_DragEnterEx","DAD_DragEnterEx function [Windows Shell]","shell.DAD_DragEnterEx","shell_DAD_DragEnterEx","shlobj_core/DAD_DragEnterEx"]
 old-location: shell\DAD_DragEnterEx.htm
 tech.root: shell
@@ -65,7 +65,7 @@ A handle to the window that owns the drag image.
 
 ### -param ptStart
 
-Type: <b>const <a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The coordinates at which to begin displaying the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.
 

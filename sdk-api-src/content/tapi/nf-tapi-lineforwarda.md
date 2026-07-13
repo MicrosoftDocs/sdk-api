@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineForwardA
 title: lineForwardA function (tapi.h)
-description: The lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
-helpviewer_keywords: ["_tapi2_lineforward","lineForward","lineForward function [TAPI 2.2]","lineForwardA","lineForwardW","tapi/lineForward","tapi/lineForwardA","tapi/lineForwardW","tapi2.lineforward"]
+description: The lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions. (lineForwardA)
+helpviewer_keywords: ["lineForwardA", "tapi/lineForwardA"]
 old-location: tapi2\lineforward.htm
 tech.root: tapi3
 ms.assetid: 68dc99c5-1158-4e18-8e32-08216ff3567b
@@ -123,7 +123,7 @@ Invoking
 
 
 > [!NOTE]
-> The tapi.h header defines lineForward as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineForward as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

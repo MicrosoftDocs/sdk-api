@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_defau
 old-location: wmp\iwmpsettings_put_defaultframe.htm
 tech.root: WMP
 ms.assetid: 9b035e4e-84c5-46ea-aa8a-2e66810284b2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSettings interface [Windows Media Player],put_defaultFrame method, IWMPSettings.put_defaultFrame, IWMPSettings::put_defaultFrame, IWMPSettingsput_defaultFrame, put_defaultFrame, put_defaultFrame method [Windows Media Player], put_defaultFrame method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_defaultframe, wmp/IWMPSettings::put_defaultFrame
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_defaultFrame</b> method specifies the name of the frame used to display a URL that is received in a <b>ScriptCommand</b> event.
 

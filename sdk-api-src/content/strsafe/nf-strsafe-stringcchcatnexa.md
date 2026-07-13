@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCatNExA
 title: StringCchCatNExA function (strsafe.h)
-description: Concatenates the specified number of characters from one string to another string.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCatNEx","StringCchCatNEx function [Menus and Other Resources]","StringCchCatNExA","StringCchCatNExW","_shell_StringCchCatNEx","_shell_stringcchcatnex_cpp","menurc.stringcchcatnex","strsafe/StringCchCatNEx","strsafe/StringCchCatNExA","strsafe/StringCchCatNExW","winui._shell_stringcchcatnex"]
+description: Concatenates the specified number of characters from one string to another string. (StringCchCatNExA)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchCatNExA", "strsafe/StringCchCatNExA"]
 old-location: menurc\stringcchcatnex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatnex.htm
@@ -221,7 +221,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCchCatNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCatNEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+Compared to  the functions it replaces, <b>StringCchCatNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCatNEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
@@ -258,7 +258,7 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCchCatNEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCchCatNEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

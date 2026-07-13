@@ -1,7 +1,7 @@
 ---
 UID: NN:photoacquire.IUserInputString
 title: IUserInputString (photoacquire.h)
-description: The IUserInputString interface represents the object created when asking the user for a string�for example, when obtaining the name of a tag.
+description: The IUserInputString interface represents the object created when asking the user for a string - for example, when obtaining the name of a tag.
 helpviewer_keywords: ["IUserInputString","IUserInputString interface [Picture Acquisition]","IUserInputString interface [Picture Acquisition]","described","IUserInputStringInterface","photoacquire/IUserInputString","picacq.iuserinputstring"]
 old-location: picacq\iuserinputstring.htm
 tech.root: picacq
@@ -54,10 +54,7 @@ The <b>IUserInputString</b> interface represents the object created when asking 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserInputString</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserInputString</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IUserInputString</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserInputString</b> also has these types of members:
 
 ## -see-also
 

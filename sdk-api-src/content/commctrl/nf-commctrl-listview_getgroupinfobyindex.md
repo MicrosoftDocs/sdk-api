@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetGroupInfoByIndex","ListView_GetGroupInfoByInd
 old-location: controls\ListView_GetGroupInfoByIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfobyindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetGroupInfoByIndex, ListView_GetGroupInfoByIndex macro [Windows Controls], _shell_ListView_GetGroupInfoByIndex, _shell_ListView_GetGroupInfoByIndex_cpp, commctrl/ListView_GetGroupInfoByIndex, controls.ListView_GetGroupInfoByIndex, controls._shell_ListView_GetGroupInfoByIndex
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetGroupInfoByIndex macro
+
+## -syntax
+
+```cpp
+LRESULT ListView_GetGroupInfoByIndex(
+  [in]      HWND     hwnd,
+  [in]      int      iIndex,
+  [in, out] PLVGROUP pgrp
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns 1 if successful, or 0 otherwise.
 
 
 ## -description

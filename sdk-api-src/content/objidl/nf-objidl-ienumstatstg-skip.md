@@ -63,3 +63,8 @@ The number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a
 ## -returns
 
 This method supports the following return values:
+
+| Return code | Description |
+|----------------|---------------|
+| S_OK | The specified number of **STATSTG** structures that were successfully skipped. |
+| S_FALSE | The number of **STATSTG** structures skipped is less than the *celt* parameter. |

@@ -1,0 +1,7 @@
+{
+  "tech": "processthreadsapi",
+  "headers": [
+    "processthreadsapi.h"
+  ],
+  "displayName": "Processes and threads"
+}

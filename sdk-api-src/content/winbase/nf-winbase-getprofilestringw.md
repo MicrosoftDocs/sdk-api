@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetProfileStringW
 title: GetProfileStringW function (winbase.h)
-description: Retrieves the string associated with a key in the specified section of the Win.ini file.
-helpviewer_keywords: ["GetProfileString","GetProfileString function","GetProfileStringA","GetProfileStringW","_win32_getprofilestring","base.getprofilestring","winbase/GetProfileString","winbase/GetProfileStringA","winbase/GetProfileStringW"]
+description: Retrieves the string associated with a key in the specified section of the Win.ini file. (Unicode)
+helpviewer_keywords: ["GetProfileString", "GetProfileString function", "GetProfileStringW", "_win32_getprofilestring", "base.getprofilestring", "winbase/GetProfileString", "winbase/GetProfileStringW"]
 old-location: base\getprofilestring.htm
 tech.root: winprog
 ms.assetid: 70987969-7ad5-4eb6-bcd0-ce8709864ee7
@@ -105,11 +105,15 @@ The
 
 A section in the Win.ini file must have the following form: 
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 An application can use the 
 <a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a> function to retrieve a string from a specified initialization file.
 
@@ -149,7 +153,7 @@ When looking at values in the registry that specify other registry locations, th
 
 
 > [!NOTE]
-> The winbase.h header defines GetProfileString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetProfileString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

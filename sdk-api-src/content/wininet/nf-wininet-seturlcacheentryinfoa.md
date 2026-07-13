@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.SetUrlCacheEntryInfoA
 title: SetUrlCacheEntryInfoA function (wininet.h)
-description: Sets the specified members of the INTERNET_CACHE_ENTRY_INFO structure.
-helpviewer_keywords: ["SetUrlCacheEntryInfo","SetUrlCacheEntryInfo function [WinINet]","SetUrlCacheEntryInfoA","SetUrlCacheEntryInfoW","_inet_seturlcacheentryinfo_function","wininet.seturlcacheentryinfo","wininet/SetUrlCacheEntryInfo","wininet/SetUrlCacheEntryInfoA","wininet/SetUrlCacheEntryInfoW"]
+description: Sets the specified members of the INTERNET_CACHE_ENTRY_INFO structure. (ANSI)
+helpviewer_keywords: ["SetUrlCacheEntryInfoA", "wininet/SetUrlCacheEntryInfoA"]
 old-location: wininet\seturlcacheentryinfo.htm
 tech.root: wininet
 ms.assetid: 71f6e1a3-09ce-4576-9480-1270f343db39
@@ -209,7 +209,7 @@ The value(s) to be set is invalid.
 
 
 > [!NOTE]
-> The wininet.h header defines SetUrlCacheEntryInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines SetUrlCacheEntryInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

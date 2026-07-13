@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhValidatePathW
 title: PdhValidatePathW function (pdh.h)
-description: Validates that the counter is present on the computer specified in the counter path.
-helpviewer_keywords: ["PdhValidatePath","PdhValidatePath function [Perf]","PdhValidatePathA","PdhValidatePathW","_win32_pdhvalidatepath","base.pdhvalidatepath","pdh/PdhValidatePath","pdh/PdhValidatePathA","pdh/PdhValidatePathW","perf.pdhvalidatepath"]
+description: Validates that the counter is present on the computer specified in the counter path. (Unicode)
+helpviewer_keywords: ["PdhValidatePath", "PdhValidatePath function [Perf]", "PdhValidatePathW", "_win32_pdhvalidatepath", "base.pdhvalidatepath", "pdh/PdhValidatePath", "pdh/PdhValidatePathW", "perf.pdhvalidatepath"]
 old-location: perf\pdhvalidatepath.htm
 tech.root: perf
 ms.assetid: 9248e63c-2672-466f-85f5-46f26e31dc75
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-eventing-pdh-l1-1-3.dll
+ - ext-ms-win-eventing-pdh-l1-1-2.dll
+ - ext-ms-win-eventing-pdh-l1-1-1.dll
+ - ext-ms-win-eventing-pdh-l1-1-0.dll
  - Pdh.dll
 api_name:
  - PdhValidatePath
@@ -149,4 +153,4 @@ The function is unable to allocate a required temporary buffer.
 ## -remarks
 
 > [!NOTE]
-> The pdh.h header defines PdhValidatePath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhValidatePath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

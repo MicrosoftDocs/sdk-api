@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnceEventArgs.get_RemainingTime
 title: IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime (imapi2.h)
-description: Retrieves the estimated remaining time of the write operation.
+description: Retrieves the estimated remaining time of the write operation. (IDiscFormat2TrackAtOnceEventArgs.get_RemainingTime)
 helpviewer_keywords: ["IDiscFormat2TrackAtOnceEventArgs interface [IMAPI]","get_RemainingTime method","IDiscFormat2TrackAtOnceEventArgs.get_RemainingTime","IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime","get_RemainingTime","get_RemainingTime method [IMAPI]","get_RemainingTime method [IMAPI]","IDiscFormat2TrackAtOnceEventArgs interface","imapi.idiscformat2trackatonceeventargs_get_remainingtime","imapi2/IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime"]
 old-location: imapi\idiscformat2trackatonceeventargs_get_remainingtime.htm
 tech.root: imapi

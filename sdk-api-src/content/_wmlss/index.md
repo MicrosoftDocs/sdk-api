@@ -4,7 +4,8 @@ title: Windows Media Library Sharing Services
 ms.assetid: a7b62606-c322-3523-8185-eeea8cb1088a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 archived: true
 ---
 

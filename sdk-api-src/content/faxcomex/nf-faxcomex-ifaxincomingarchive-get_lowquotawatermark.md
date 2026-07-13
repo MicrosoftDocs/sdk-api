@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_LowQuotaWaterMark
 title: IFaxIncomingArchive::get_LowQuotaWaterMark (faxcomex.h)
-description: The LowQuotaWaterMark property is a value that specifies the lower warning threshold for the archive of inbound fax messages, in megabytes.
+description: The LowQuotaWaterMark property is a value that specifies the lower warning threshold for the archive of inbound fax messages, in megabytes. (Get)
 helpviewer_keywords: ["IFaxIncomingArchive interface [Fax Service]","LowQuotaWaterMark property","IFaxIncomingArchive.LowQuotaWaterMark","IFaxIncomingArchive.get_LowQuotaWaterMark","IFaxIncomingArchive.put_LowQuotaWaterMark","IFaxIncomingArchive::LowQuotaWaterMark","IFaxIncomingArchive::get_LowQuotaWaterMark","IFaxIncomingArchive::put_LowQuotaWaterMark","LowQuotaWaterMark property [Fax Service]","LowQuotaWaterMark property [Fax Service]","IFaxIncomingArchive interface","_mfax_faxincomingarchive.lowquotawatermark","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_lowquotawatermark_cpp","fax._mfax_faxincomingarchive_lowquotawatermark","faxcomex/IFaxIncomingArchive::LowQuotaWaterMark","faxcomex/IFaxIncomingArchive::get_LowQuotaWaterMark","faxcomex/IFaxIncomingArchive::put_LowQuotaWaterMark","get_LowQuotaWaterMark"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_lowquotawatermark_cpp.htm
 tech.root: Fax

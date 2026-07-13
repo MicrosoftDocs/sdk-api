@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.CreateFileMappingW
 title: CreateFileMappingW function (memoryapi.h)
-description: Creates or opens a named or unnamed file mapping object for a specified file.
+description: Creates or opens a named or unnamed file mapping object for a specified file. (CreateFileMappingW)
 helpviewer_keywords: ["CreateFileMapping","CreateFileMapping function","CreateFileMappingA","CreateFileMappingW","PAGE_EXECUTE_READ","PAGE_EXECUTE_READWRITE","PAGE_EXECUTE_WRITECOPY","PAGE_READONLY","PAGE_READWRITE","PAGE_WRITECOPY","SEC_COMMIT","SEC_IMAGE","SEC_IMAGE_NO_EXECUTE","SEC_LARGE_PAGES","SEC_NOCACHE","SEC_RESERVE","SEC_WRITECOMBINE","_win32_createfilemapping","base.createfilemapping","fs.createfilemapping","winbase/CreateFileMapping","winbase/CreateFileMappingA","winbase/CreateFileMappingW"]
 old-location: base\createfilemapping.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
+ - api-ms-win-core-memory-l1-1-5.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll
@@ -92,7 +97,7 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process
 
 ### -param lpFileMappingAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure that determines whether a returned handle can be inherited by child processes. The 
       <b>lpSecurityDescriptor</b> member of the 
       <b>SECURITY_ATTRIBUTES</b> structure specifies a 
@@ -244,7 +249,7 @@ This attribute has no effect for file mapping objects that are backed by executa
 
 <b>SEC_COMMIT</b> cannot be combined with <b>SEC_RESERVE</b>.
 
-If no attribute is specified, <b>SEC_COMMIT</b> is assumed.
+If no attribute is specified, <b>SEC_COMMIT</b> is assumed. However, <b>SEC_COMMIT</b> must be explicitly specified when combining it with another <b>SEC_</b> attribute that requires it.
 
 </td>
 </tr>
@@ -327,7 +332,7 @@ If <b>SEC_LARGE_PAGES</b> is specified, <b>SEC_COMMIT</b> must also
 </dl>
 </td>
 <td width="60%">
-Sets all pages to be non-cachable.
+Sets all pages to be non-cacheable.
 
 Applications should not use this attribute except when 
          explicitly required for a device. Using the interlocked functions with memory that is mapped with 
@@ -432,7 +437,7 @@ Fast user switching is implemented by using Terminal Services sessions. The firs
 If the function succeeds, the return value is a handle to the newly created file mapping object.
 
 If the object exists before the function call, the function returns a handle to the existing object (with its 
-       current size, not the specified size), and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>returns <b>ERROR_ALREADY_EXISTS</b>.
+       current size, not the specified size), and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -628,7 +633,7 @@ File Mapping Functions
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

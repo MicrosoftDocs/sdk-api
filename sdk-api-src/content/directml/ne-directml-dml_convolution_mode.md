@@ -53,11 +53,11 @@ Defines constants that specify a mode for the DirectML convolution operator (as 
 
 ### -field DML_CONVOLUTION_MODE_CONVOLUTION
 
-Specifies the convolution mode.
+Specifies the convolution mode. When used along with [DML_CONVOLUTION_DIRECTION_FORWARD](/windows/win32/api/directml/ne-directml-dml_convolution_direction), this flips the filter along the height and width axes.
 
 ### -field DML_CONVOLUTION_MODE_CROSS_CORRELATION
 
-Specifies the cross-correlation mode. If in doubt, use this mode—it is appropriate for the vast majority of machine learning (ML) models.
+Specifies the cross-correlation mode. If in doubt, use this mode&mdash;it is appropriate for the vast majority of machine learning (ML) model inference. When used along with [DML_CONVOLUTION_DIRECTION_BACKWARD](/windows/win32/api/directml/ne-directml-dml_convolution_direction), this flips the filter along the height and width axes.
 
 ## -see-also
 

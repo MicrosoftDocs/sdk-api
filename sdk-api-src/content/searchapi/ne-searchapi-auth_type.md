@@ -56,7 +56,7 @@ Describes authentication types for content access.
 
 ## -enum-fields
 
-### -field eAUTH_TYPE_ANONYMOUS
+### -field eAUTH_TYPE_ANONYMOUS:0
 
 Anonymous.
 

@@ -1,12 +1,12 @@
 ---
 UID: NS:dbghelp._SYMBOL_INFOW
 title: SYMBOL_INFOW (dbghelp.h)
-description: Contains symbol information.
+description: The SYMBOL_INFOW (Unicode) structure (dbghelp.h) contains symbol information.
 helpviewer_keywords: ["*PSYMBOL_INFOW","PSYMBOL_INFO","PSYMBOL_INFO structure pointer","SYMBOL_INFO","SYMBOL_INFO structure","SYMBOL_INFOW","SYMFLAG_CLR_TOKEN","SYMFLAG_CONSTANT","SYMFLAG_EXPORT","SYMFLAG_FORWARDER","SYMFLAG_FRAMEREL","SYMFLAG_FUNCTION","SYMFLAG_ILREL","SYMFLAG_LOCAL","SYMFLAG_METADATA","SYMFLAG_PARAMETER","SYMFLAG_REGISTER","SYMFLAG_REGREL","SYMFLAG_SLOT","SYMFLAG_THUNK","SYMFLAG_TLSREL","SYMFLAG_VALUEPRESENT","SYMFLAG_VIRTUAL","_SYMBOL_INFO","_SYMBOL_INFOW","_win32_symbol_info_str","base.symbol_info_str","dbghelp/PSYMBOL_INFO","dbghelp/SYMBOL_INFO","dbghelp/SYMBOL_INFOW"]
 old-location: base\symbol_info_str.htm
 tech.root: Debug
 ms.assetid: 785a9702-8b77-4ce1-99df-143ce78490ab
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PSYMBOL_INFOW, PSYMBOL_INFO, PSYMBOL_INFO structure pointer, SYMBOL_INFO, SYMBOL_INFO structure, SYMBOL_INFOW, SYMFLAG_CLR_TOKEN, SYMFLAG_CONSTANT, SYMFLAG_EXPORT, SYMFLAG_FORWARDER, SYMFLAG_FRAMEREL, SYMFLAG_FUNCTION, SYMFLAG_ILREL, SYMFLAG_LOCAL, SYMFLAG_METADATA, SYMFLAG_PARAMETER, SYMFLAG_REGISTER, SYMFLAG_REGREL, SYMFLAG_SLOT, SYMFLAG_THUNK, SYMFLAG_TLSREL, SYMFLAG_VALUEPRESENT, SYMFLAG_VIRTUAL, _SYMBOL_INFO, _SYMBOL_INFOW, _win32_symbol_info_str, base.symbol_info_str, dbghelp/PSYMBOL_INFO, dbghelp/SYMBOL_INFO, dbghelp/SYMBOL_INFOW'
 req.header: dbghelp.h
 req.include-header: 
@@ -345,4 +345,4 @@ The name of the symbol. The name can be undecorated if the SYMOPT_UNDNAME option
 ## -remarks
 
 > [!NOTE]
-> The dbghelp.h header defines SYMBOL_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SYMBOL_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

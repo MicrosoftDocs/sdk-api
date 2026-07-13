@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-biometrics-winbio-core-l1-1-6.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-5.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-4.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-3.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-2.dll
  - Winbio.dll
  - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
  - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
@@ -103,7 +108,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +119,7 @@ The caller does not have permission to delete the credential.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_CRED_PROV_NO_CREDENTIAL</b></b></dt>
+<dt><b>WINBIO_E_CRED_PROV_NO_CREDENTIAL</b></dt>
 </dl>
 </td>
 <td width="60%">

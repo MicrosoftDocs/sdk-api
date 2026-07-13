@@ -779,7 +779,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For display devices only, a <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
+For display devices only, a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayOrientation
 
@@ -796,15 +796,15 @@ For display devices only, the orientation at which images should be presented. I
 </tr>
 <tr>
 <td>DMDO_90</td>
-<td>The display orientation is rotated 90 degrees (measured clockwise) from DMDO_DEFAULT.</td>
+<td>The display orientation is rotated 90 degrees (measured counter-clockwise) from DMDO_DEFAULT.</td>
 </tr>
 <tr>
 <td>DMDO_180</td>
-<td>The display orientation is rotated 180 degrees (measured clockwise) from DMDO_DEFAULT.</td>
+<td>The display orientation is rotated 180 degrees (measured counter-clockwise) from DMDO_DEFAULT.</td>
 </tr>
 <tr>
 <td>DMDO_270</td>
-<td>The display orientation is rotated 270 degrees (measured clockwise) from DMDO_DEFAULT.</td>
+<td>The display orientation is rotated 270 degrees (measured counter-clockwise) from DMDO_DEFAULT.</td>
 </tr>
 </table>
  
@@ -956,7 +956,7 @@ Specifies the device's display mode. This member can be a combination of the fol
 </tr>
 <tr>
 <td>DM_GRAYSCALE</td>
-<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed.</td>
+<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed. This flag is no longer valid.</td>
 </tr>
 <tr>
 <td>DM_INTERLACED</td>
@@ -1229,7 +1229,7 @@ A device driver's private data follows the public portion of the <b>DEVMODE</b> 
 
 
 > [!NOTE]
-> The wingdi.h header defines DEVMODE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines DEVMODE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

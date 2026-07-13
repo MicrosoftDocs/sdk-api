@@ -60,13 +60,13 @@ The <b>DNS_RRSET</b> structure contains information about a DNS Resource Record 
 
 ### -field pFirstRR
 
-A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the first DNS RR in the set.
+A pointer to a <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a> structure that contains the first DNS RR in the set.
 
 ### -field pLastRR
 
-A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the last DNS RR in the set.
+A pointer to a <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a> structure that contains the last DNS RR in the set.
 
 ## -see-also
 
-<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a>
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.put_FragmentPath
 title: IWSManResourceLocator::put_FragmentPath (wsmandisp.h)
-description: Gets or sets the path for a resource fragment or property when ResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate.
+description: Gets or sets the path for a resource fragment or property when ResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate. (Put)
 helpviewer_keywords: ["FragmentPath property [Windows Remote Management]","FragmentPath property [Windows Remote Management]","IWSManResourceLocator interface","IWSManResourceLocator interface [Windows Remote Management]","FragmentPath property","IWSManResourceLocator.FragmentPath","IWSManResourceLocator.put_FragmentPath","IWSManResourceLocator::FragmentPath","IWSManResourceLocator::get_FragmentPath","IWSManResourceLocator::put_FragmentPath","put_FragmentPath","winrm.iwsmanresourcelocator_fragmentpath","wsmandisp/IWSManResourceLocator::FragmentPath","wsmandisp/IWSManResourceLocator::get_FragmentPath","wsmandisp/IWSManResourceLocator::put_FragmentPath"]
 old-location: winrm\iwsmanresourcelocator_fragmentpath.htm
 tech.root: winrm

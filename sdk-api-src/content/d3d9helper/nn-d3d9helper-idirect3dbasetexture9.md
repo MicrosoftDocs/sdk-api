@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9helper.IDirect3DBaseTexture9
 title: IDirect3DBaseTexture9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DBaseTexture9 interface to manipulate texture resources including cube and volume textures.
+description: The IDirect3DBaseTexture9 interface (d3d9helper.h) provides methods that manipulate texture resources, including cube and volume textures.
 helpviewer_keywords: ["9a51f87c-558e-0e06-6372-a3753ac70d17","IDirect3DBaseTexture9","IDirect3DBaseTexture9 interface [Direct3D 9]","IDirect3DBaseTexture9 interface [Direct3D 9]","described","d3d9helper/IDirect3DBaseTexture9","direct3d9.idirect3dbasetexture9"]
 old-location: direct3d9\idirect3dbasetexture9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: 9a51f87c-558e-0e06-6372-a3753ac70d17, IDirect3DBaseTexture9, IDirect3DBaseTexture9 interface [Direct3D 9], IDirect3DBaseTexture9 interface [Direct3D 9],described, d3d9helper/IDirect3DBaseTexture9, direct3d9.idirect3dbasetexture9
 req.header: d3d9helper.h
 req.include-header: D3D9.h
@@ -55,10 +55,7 @@ Applications use the methods of the IDirect3DBaseTexture9 interface to manipulat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DBaseTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DBaseTexture9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDirect3DBaseTexture9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DBaseTexture9</b> also has these types of members:
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxEnableRoutingMethodA
 title: FaxEnableRoutingMethodA function (winfax.h)
-description: The FaxEnableRoutingMethod function enables or disables a fax routing method for a specific fax device. A fax administration application typically calls this function for device management.
-helpviewer_keywords: ["FaxEnableRoutingMethod","FaxEnableRoutingMethod function [Fax Service]","FaxEnableRoutingMethodA","FaxEnableRoutingMethodW","_mfax_faxenableroutingmethod","fax._mfax_faxenableroutingmethod","winfax/FaxEnableRoutingMethod","winfax/FaxEnableRoutingMethodA","winfax/FaxEnableRoutingMethodW"]
+description: The FaxEnableRoutingMethod function enables or disables a fax routing method for a specific fax device. A fax administration application typically calls this function for device management. (ANSI)
+helpviewer_keywords: ["FaxEnableRoutingMethodA", "winfax/FaxEnableRoutingMethodA"]
 old-location: fax\_mfax_faxenableroutingmethod.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9ov8.htm
@@ -138,7 +138,7 @@ Call the <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxop
 
 
 > [!NOTE]
-> The winfax.h header defines FaxEnableRoutingMethod as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxEnableRoutingMethod as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

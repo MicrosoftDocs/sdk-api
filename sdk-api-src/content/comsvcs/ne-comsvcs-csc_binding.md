@@ -56,7 +56,7 @@ Indicates whether all of the work that is submitted via the activity returned fr
 
 ## -enum-fields
 
-### -field CSC_NoBinding
+### -field CSC_NoBinding:0
 
 The work submitted through the activity is not bound to a single STA.
 

@@ -61,4 +61,4 @@ api_name:
 
 The <b>CHStringArray</b> constructor constructs an empty <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> array.
 
-## -parameters
+

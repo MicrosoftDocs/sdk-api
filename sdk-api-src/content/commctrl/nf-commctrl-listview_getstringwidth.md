@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetStringWidth","ListView_GetStringWidth macro [
 old-location: controls\ListView_GetStringWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getstringwidth.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetStringWidth, ListView_GetStringWidth macro [Windows Controls], _win32_ListView_GetStringWidth, _win32_ListView_GetStringWidth_cpp, commctrl/ListView_GetStringWidth, controls.ListView_GetStringWidth, controls._win32_ListView_GetStringWidth
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetStringWidth macro
+
+## -syntax
+
+```cpp
+int ListView_GetStringWidth(
+   HWND   hwndLV,
+   LPCSTR psz
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the string width if successful, or zero otherwise.
 
 
 ## -description

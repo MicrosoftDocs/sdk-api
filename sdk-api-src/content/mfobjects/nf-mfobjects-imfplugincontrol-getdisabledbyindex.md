@@ -1,12 +1,12 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.GetDisabledByIndex
 title: IMFPluginControl::GetDisabledByIndex (mfobjects.h)
-description: Gets a class identifier (CLSID) from the blocked list.
+description: The IMFPluginControl::GetDisabledByIndex (mfobjects.h) gets a class identifier (CLSID) from the blocked list.
 helpviewer_keywords: ["GetDisabledByIndex","GetDisabledByIndex method [Media Foundation]","GetDisabledByIndex method [Media Foundation]","IMFPluginControl interface","IMFPluginControl interface [Media Foundation]","GetDisabledByIndex method","IMFPluginControl.GetDisabledByIndex","IMFPluginControl::GetDisabledByIndex","mf.imfplugincontrol_imfplugincontrol__getdisabledbyindex","mfobjects/IMFPluginControl::GetDisabledByIndex"]
 old-location: mf\imfplugincontrol_imfplugincontrol__getdisabledbyindex.htm
 tech.root: medfound
 ms.assetid: fae7ca09-3e37-444b-a4bc-bfd522917e3f
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [Media Foundation], GetDisabledByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetDisabledByIndex method, IMFPluginControl.GetDisabledByIndex, IMFPluginControl::GetDisabledByIndex, mf.imfplugincontrol_imfplugincontrol__getdisabledbyindex, mfobjects/IMFPluginControl::GetDisabledByIndex
 req.header: mfobjects.h
 req.include-header: Mfidl.h
@@ -78,7 +78,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +89,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +100,7 @@ Invalid argument.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_NO_MORE_ITEMS)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_NO_MORE_ITEMS)</b></dt>
 </dl>
 </td>
 <td width="60%">

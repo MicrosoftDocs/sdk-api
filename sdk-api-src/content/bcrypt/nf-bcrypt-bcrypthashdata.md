@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCryptHashData","BCryptHashData function [Security]","bcr
 old-location: security\bcrypthashdata_func.htm
 tech.root: security
 ms.assetid: dab89dff-dc84-4f69-8b6b-de65704b0265
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: BCryptHashData, BCryptHashData function [Security], bcrypt/BCryptHashData, security.bcrypthashdata_func
 req.header: bcrypt.h
 req.include-header: 
@@ -51,21 +51,21 @@ api_name:
 
 ## -description
 
-The <b>BCryptHashData</b> function performs a one way hash or <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) on a data buffer.
+The **BCryptHashData** function appends data to an ongoing cryptographic hash or [Message Authentication Code](/windows/win32/SecGloss/m-gly) (MAC) computation.
 
 ## -parameters
 
 ### -param hHash [in, out]
 
-The handle of the hash or MAC object to use to perform the operation. This handle is obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a> function.
+The handle of the hash or MAC object to use to perform the operation. This handle is obtained by calling the [BCryptCreateHash](nf-bcrypt-bcryptcreatehash.md) or [BCryptDuplicateHash](nf-bcrypt-bcryptduplicatehash.md) functions.
 
 ### -param pbInput [in]
 
-A pointer to a buffer that contains the data to process. The <i>cbInput</i> parameter contains the number of bytes in this buffer. This function does not modify the contents of this buffer.
+A pointer to a buffer that contains the data to process. The *cbInput* parameter contains the number of bytes in this buffer. This function does not modify the contents of this buffer.
 
 ### -param cbInput [in]
 
-The number of bytes in the <i>pbInput</i> buffer.
+The size, in bytes, of the *pbInput* buffer.
 
 ### -param dwFlags [in]
 
@@ -75,63 +75,28 @@ A set of flags that modify the behavior of this function. No flags are currently
 
 Returns a status code that indicates the success or failure of the function.
 
-
 Possible return codes include, but are not limited to, the following.
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more parameters are not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The hash handle in the <i>hHash</i> parameter is not valid. After the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function has been called for a hash  handle, that handle cannot be reused.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **STATUS_SUCCESS** | The function was successful. |
+| **STATUS_INVALID_PARAMETER** | One or more parameters are not valid. |
+| **STATUS_INVALID_HANDLE** | The handle in the *hHash* parameter is not valid. After the [BCryptFinishHash](nf-bcrypt-bcryptfinishhash.md) function has been called, that handle cannot be reused, unless the handle was created with the **BCRYPT_HASH_REUSABLE_FLAG** flag. |
 
 ## -remarks
 
-To combine more than one buffer into the hash or MAC, you can call this function multiple times, passing a different buffer each time. To obtain the hash or MAC value, call the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function. After the <b>BCryptFinishHash</b> function has been called for a specified  handle, that handle cannot be reused.
+To combine more than one buffer into the hash or MAC, you can call this function multiple times, passing a different buffer each time. This is functionally equivalent to concatenating these buffers into a single buffer and doing a single hash or MAC call, but is more often more convenient when the data is not naturally contiguous in memory.
 
-Depending on what processor modes a provider supports, <b>BCryptHashData</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hHash</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptHashData</b> function must refer to nonpaged (or locked) memory.
+To obtain the hash or MAC value, call the [BCryptFinishHash](nf-bcrypt-bcryptfinishhash.md) function. After the [BCryptFinishHash](nf-bcrypt-bcryptfinishhash.md) function has been called, the *hHash* handle cannot be reused, unless it was created with the **BCRYPT_HASH_REUSABLE_FLAG** flag.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+When using a supported algorithm provider, **BCryptHashData** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, the handle provided in the *hAlgorithm* parameter must have been opened by using the **BCRYPT_PROV_DISPATCH** flag, and any pointers passed to the **BCryptHashData** function must refer to nonpaged (or locked) memory.
+
+To call this function in kernel mode, use `Cng.lib`, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use `Ksecdd.lib`.
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a>
+[BCryptCreateHash](nf-bcrypt-bcryptcreatehash.md)
 
+[BCryptFinishHash](nf-bcrypt-bcryptfinishhash.md)
 
-
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a>
+[BCryptDestroyHash](nf-bcrypt-bcryptdestroyhash.md)

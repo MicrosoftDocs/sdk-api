@@ -57,7 +57,7 @@ Notifies the provider that an operation by an earlier invocation of a callback s
 ### -param callbackData [in]
 
 Information about the operation. The following <i>callbackData</i> members are necessary to implement this callback:<dl>
-<dd><b>CommandId</b>Identifies the operation to be cancelled.
+<dd><b>CommandId</b> Identifies the operation to be cancelled.
 
 </dd>
 </dl>

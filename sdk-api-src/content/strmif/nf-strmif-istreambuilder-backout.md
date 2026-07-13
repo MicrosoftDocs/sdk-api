@@ -6,7 +6,7 @@ helpviewer_keywords: ["Backout","Backout method [DirectShow]","Backout method [D
 old-location: dshow\istreambuilder_backout.htm
 tech.root: dshow
 ms.assetid: b8f895a7-7f71-4c0d-af9d-e2b0ed433172
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: Backout, Backout method [DirectShow], Backout method [DirectShow],IStreamBuilder interface, IStreamBuilder interface [DirectShow],Backout method, IStreamBuilder.Backout, IStreamBuilder::Backout, IStreamBuilderBackout, dshow.istreambuilder_backout, strmif/IStreamBuilder::Backout
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>Backout</code> method undoes steps taken in the <a href="/windows/desktop/api/strmif/nf-strmif-istreambuilder-render">IStreamBuilder::Render</a> method. This includes disconnecting and removing any filters that were added inside <b>Render</b>.
 
 ## -parameters
@@ -71,7 +73,7 @@ Returns an <b>HRESULT</b> value. A return code of S_OK indicates to the graph bu
 
 The following example shows how a filter would reverse the steps that are shown in the code example for the <b>IStreamBuilder::Render</b> method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -89,17 +91,17 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
     {
         // Find the filter that owns the pin connected to us.
         FILTER_INFO fi;
-        hr = m_Connected-&gt;QueryFilterInfo(&amp;fi);
+        hr = m_Connected->QueryFilterInfo(&fi);
         if (SUCCEEDED(hr)) 
         {
             if (fi.pFilter != NULL) 
             {
                 //  Disconnect the pins.
-                pGraph-&gt;Disconnect(m_Connected);
-                pGraph-&gt;Disconnect(pPin);
+                pGraph->Disconnect(m_Connected);
+                pGraph->Disconnect(pPin);
                 // Remove the filter from the graph.
-                pGraph-&gt;RemoveFilter(fi.pFilter);
-                fi.pFilter-&gt;Release();
+                pGraph->RemoveFilter(fi.pFilter);
+                fi.pFilter->Release();
             } 
             else 
             {

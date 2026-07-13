@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_EventLog
 title: IAlertDataCollector::get_EventLog (pla.h)
-description: Retrieves or sets a value that indicates if PLA should log an event each time the counter value crosses the threshold.
+description: Retrieves or sets a value that indicates if PLA should log an event each time the counter value crosses the threshold. (Get)
 helpviewer_keywords: ["EventLog property [PLA]","EventLog property [PLA]","IAlertDataCollector interface","IAlertDataCollector interface [PLA]","EventLog property","IAlertDataCollector.EventLog","IAlertDataCollector.get_EventLog","IAlertDataCollector::EventLog","IAlertDataCollector::get_EventLog","IAlertDataCollector::put_EventLog","base.ialertdatacollector_eventlog","get_EventLog","pla.ialertdatacollector_eventlog","pla/IAlertDataCollector::EventLog","pla/IAlertDataCollector::get_EventLog","pla/IAlertDataCollector::put_EventLog"]
 old-location: pla\ialertdatacollector_eventlog.htm
 tech.root: PLA

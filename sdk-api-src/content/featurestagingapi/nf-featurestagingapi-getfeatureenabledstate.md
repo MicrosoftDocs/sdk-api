@@ -1,7 +1,7 @@
 ---
 UID: NF:featurestagingapi.GetFeatureEnabledState
 title: GetFeatureEnabledState function (featurestagingapi.h)
-description: This function is intended for infrastructure use only.
+description: This function is intended for infrastructure use only. (GetFeatureEnabledState)
 helpviewer_keywords: ["GetFeatureEnabledState","GetFeatureEnabledState function [Windows API]","featurestagingapi/GetFeatureEnabledState","winprog.getfeatureenabledstate"]
 old-location: winprog\getfeatureenabledstate.htm
 tech.root: winprog
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-featurestaging-l1-1-1.dll
  - api-ms-win-core-featurestaging-l1-1-0.dll
 api_name:
  - GetFeatureEnabledState

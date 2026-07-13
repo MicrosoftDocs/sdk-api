@@ -2,7 +2,7 @@
 UID: NS:icm.YxyCOLOR
 title: YxyCOLOR
 tech.root: wcs
-description: TBD
+description: TBD (YxyCOLOR)
 ms.date: 02/01/2021
 targetos: Windows
 req.construct-type: structure

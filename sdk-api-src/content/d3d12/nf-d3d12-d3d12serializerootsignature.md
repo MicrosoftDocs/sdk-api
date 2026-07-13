@@ -92,7 +92,7 @@ If an application procedurally generates a <a href="/windows/desktop/api/d3d12/n
         The application then passes the serialized form to which <i>ppBlob</i> points into <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature">ID3D12Device::CreateRootSignature</a>.
       
 
-If a shader has been authored with a root signature in it (when that capability is added), the compiled shader will contain a serialized root signature in it already.
+If a shader has been authored with a root signature in it, the compiled shader will contain a serialized root signature in it already. In this case, pass the compiled shader blob to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature">ID3D12Device::CreateRootSignature</a> to obtain the runtime root signature object.
       
 
 The function signature PFN_D3D12_SERIALIZE_ROOT_SIGNATURE is provided as a typedef, so that you can use dynamic linking techniques (<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>) instead of statically linking.

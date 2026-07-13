@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetOutlineTextMetricsA
 title: GetOutlineTextMetricsA function (wingdi.h)
-description: The GetOutlineTextMetrics function retrieves text metrics for TrueType fonts.
-helpviewer_keywords: ["GetOutlineTextMetrics","GetOutlineTextMetrics function [Windows GDI]","GetOutlineTextMetricsA","GetOutlineTextMetricsW","_win32_GetOutlineTextMetrics","gdi.getoutlinetextmetrics","wingdi/GetOutlineTextMetrics","wingdi/GetOutlineTextMetricsA","wingdi/GetOutlineTextMetricsW"]
+description: The GetOutlineTextMetrics function retrieves text metrics for TrueType fonts. (ANSI)
+helpviewer_keywords: ["GetOutlineTextMetricsA", "wingdi/GetOutlineTextMetricsA"]
 old-location: gdi\getoutlinetextmetrics.htm
 tech.root: gdi
 ms.assetid: b8c7a557-ca35-41a4-9043-8496e5b01564
@@ -87,7 +87,7 @@ The <a href="/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETE
 
 
 > [!NOTE]
-> The wingdi.h header defines GetOutlineTextMetrics as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetOutlineTextMetrics as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

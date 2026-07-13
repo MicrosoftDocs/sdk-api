@@ -52,7 +52,7 @@ api_name:
 
  Gets the alignment option of a paragraph which is  relative to the top and bottom edges of a layout box.
 
-## -parameters
+
 
 ## -returns
 

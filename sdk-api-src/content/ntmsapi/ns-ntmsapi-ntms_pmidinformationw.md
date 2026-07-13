@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_PMIDINFORMATIONW
 title: NTMS_PMIDINFORMATIONW (ntmsapi.h)
-description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object.
+description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object. (Unicode)
 helpviewer_keywords: ["NTMS_BARCODESTATE_OK","NTMS_BARCODESTATE_UNREADABLE","NTMS_MEDIASTATE_IDLE","NTMS_MEDIASTATE_INUSE","NTMS_MEDIASTATE_LOADED","NTMS_MEDIASTATE_MOUNTED","NTMS_MEDIASTATE_OPREQ","NTMS_MEDIASTATE_OP_ERROR","NTMS_MEDIASTATE_UNLOADED","NTMS_PMIDINFORMATION","NTMS_PMIDINFORMATION structure [Files]","NTMS_PMIDINFORMATIONA","NTMS_PMIDINFORMATIONW","_NTMS_PMIDINFORMATIONA","_NTMS_PMIDINFORMATIONW","_zaw_ntms_pmidinformation","base.ntms_pmidinformation","fs.ntms_pmidinformation","ntmsapi/NTMS_PMIDINFORMATION"]
 old-location: fs\ntms_pmidinformation.htm
 tech.root: fs
@@ -236,7 +236,7 @@ The
 
 
 > [!NOTE]
-> The ntmsapi.h header defines NTMS_PMIDINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines NTMS_PMIDINFORMATION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -126,7 +126,9 @@ The Terminal Services session identifier associated with the current process.
 
 The syntax for this structure on 64-bit Windows is as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _PEB {
+
+``` syntax
+typedef struct _PEB {
     BYTE Reserved1[2];
     BYTE BeingDebugged;
     BYTE Reserved2[21];
@@ -136,11 +138,20 @@ The syntax for this structure on 64-bit Windows is as follows:
     PPS_POST_PROCESS_INIT_ROUTINE PostProcessInitRoutine;
     BYTE Reserved4[136];
     ULONG SessionId;
-} PEB;</code></pre>
+} PEB;
+```
+
 
 ## -see-also
 
+
 <a href="/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>
+
+<a href="/windows/desktop/ProcThread/zwqueryinformationprocess">ZwQueryInformationProcess</a>
+
+
+
+<a href="/windows/win32/api/winternl/ns-winternl-teb">TEB</a>
 
 
 
@@ -150,6 +161,3 @@ The syntax for this structure on 64-bit Windows is as follows:
 
 <a href="/windows/desktop/api/winternl/ns-winternl-rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a>
 
-
-
-<a href="/windows/desktop/ProcThread/zwqueryinformationprocess">ZwQueryInformationProcess</a>

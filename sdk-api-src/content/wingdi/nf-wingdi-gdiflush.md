@@ -57,7 +57,7 @@ api_name:
 
 The <b>GdiFlush</b> function flushes the calling thread's current batch.
 
-## -parameters
+
 
 ## -returns
 

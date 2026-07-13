@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsExW
 title: SymEnumSymbolsExW function (dbghelp.h)
-description: Enumerates all symbols in a process.
+description: The SymEnumSymbolsExW (Unicode) function enumerates all symbols in a process.
 helpviewer_keywords: ["*!*","SYMENUM_OPTIONS_DEFAULT","SYMENUM_OPTIONS_INLINE","SymEnumSymbolsEx","SymEnumSymbolsEx function","SymEnumSymbolsExW","base.symenumsymbolsex","dbghelp/SymEnumSymbolsEx","dbghelp/SymEnumSymbolsExW","foo","foo*!bar","foo?"]
 old-location: base\symenumsymbolsex.htm
 tech.root: Debug
 ms.assetid: 80fbe47d-702c-4cda-8e28-c72f8d7db3d2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*!*, SYMENUM_OPTIONS_DEFAULT, SYMENUM_OPTIONS_INLINE, SymEnumSymbolsEx, SymEnumSymbolsEx function, SymEnumSymbolsExW, base.symenumsymbolsex, dbghelp/SymEnumSymbolsEx, dbghelp/SymEnumSymbolsExW, foo, foo*!bar, foo?'
 req.header: dbghelp.h
 req.include-header: 
@@ -147,7 +147,7 @@ If <i>BaseOfDll</i> is zero, then
 
 ### -param EnumSymbolsCallback [in]
 
-A <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a> callback function that 
+A <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callbackw">SymEnumSymbolsProcW</a> callback function that 
       receives the symbol information.
 
 ### -param UserContext [in, optional]
@@ -199,4 +199,4 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 ## -remarks
 
 > [!NOTE]
-> The dbghelp.h header defines SymEnumSymbolsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymEnumSymbolsEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -253,7 +253,7 @@ It is possible that all three of these actions will result from a single call to
 The <b>MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE</b> flag signals a format change on an output stream. This might mean the current media type has become invalid, or the preference order has changed and a more efficient format is available. In the latter case, it is possible that the client will re-set the original media type. To guard against endless loops, the MFT should not set the <b>MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE</b> flag again until there is another change. Also, avoid setting this flag if the preference order changes but the current media type is still the most preferred type.
 
 <h3><a id="Sample_Attributes"></a><a id="sample_attributes"></a><a id="SAMPLE_ATTRIBUTES"></a>Sample Attributes</h3>
-An input sample might have attributes, which are accessed through the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. Unless a specific attribute no longer applies, all attributes should be copied into the corresponding output sample. The responsibily for copying attributes is determined as follows:
+An input sample might have attributes, which are accessed through the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. Unless a specific attribute no longer applies, all attributes should be copied into the corresponding output sample. The responsibility for copying attributes is determined as follows:
 
 <ul>
 <li>If the value of the <a href="/windows/desktop/medfound/mfpkey-exattribute-supported-property">MFPKEY_EXATTRIBUTE_SUPPORTED</a> property on the MFT is <b>VARIANT_TRUE</b>, the MFT copies the attributes.

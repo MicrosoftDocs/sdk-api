@@ -55,7 +55,7 @@ api_name:
 
 Returns a pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that describes the audio format.
 
-## -parameters
+
 
 ## -returns
 

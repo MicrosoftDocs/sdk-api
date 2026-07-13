@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_bind_sW
 title: ldap_bind_sW function (winldap.h)
-description: Synchronously authenticates a client to the LDAP server.
-helpviewer_keywords: ["_ldap_ldap_bind_s","ldap.ldap__bind__s","ldap.ldap_bind_s","ldap_bind_s","ldap_bind_s function [LDAP]","ldap_bind_sA","ldap_bind_sW","winldap/ldap_bind_s","winldap/ldap_bind_sA","winldap/ldap_bind_sW"]
+description: The ldap_bind_sW (Unicode) function (winldap.h) synchronously authenticates a client to the LDAP server. 
+helpviewer_keywords: ["_ldap_ldap_bind_s", "ldap.ldap__bind__s", "ldap.ldap_bind_s", "ldap_bind_s", "ldap_bind_s function [LDAP]", "ldap_bind_sW", "winldap/ldap_bind_s", "winldap/ldap_bind_sW"]
 old-location: ldap\ldap_bind_s.htm
 tech.root: ldap
 ms.assetid: 67d30a7b-2f42-4e1a-8c59-5ba22ed3fad4
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_ldap_bind_s, ldap.ldap__bind__s, ldap.ldap_bind_s, ldap_bind_s, ldap_bind_s function [LDAP], ldap_bind_sA, ldap_bind_sW, winldap/ldap_bind_s, winldap/ldap_bind_sA, winldap/ldap_bind_sW
 req.header: winldap.h
 req.include-header: 
@@ -213,7 +213,7 @@ When all of the operations on the session handle are completed, the session must
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_bind_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_bind_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

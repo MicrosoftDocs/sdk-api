@@ -6,10 +6,10 @@ helpviewer_keywords: ["TryEnterCriticalSection","TryEnterCriticalSection functio
 old-location: base\tryentercriticalsection.htm
 tech.root: base
 ms.assetid: 5225bda1-6e20-4f6b-9f9b-633c62acfdce
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: TryEnterCriticalSection, TryEnterCriticalSection function, _win32_tryentercriticalsection, base.tryentercriticalsection, synchapi/TryEnterCriticalSection, winbase/TryEnterCriticalSection
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -47,12 +47,12 @@ api_location:
  - API-MS-Win-Core-Synch-l1-2-1.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - TryEnterCriticalSection
 ---
 
 # TryEnterCriticalSection function
-
 
 ## -description
 
@@ -72,50 +72,30 @@ If another thread already owns the critical section, the return value is zero.
 
 ## -remarks
 
-The threads of a single process can use a critical section object for mutual-exclusion synchronization. The process is responsible for allocating the memory used by a critical section object, which it can do by declaring a variable of type <b>CRITICAL_SECTION</b>. Before using a critical section, some thread of the process must call the 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection">InitializeCriticalSection</a> or 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsectionandspincount">InitializeCriticalSectionAndSpinCount</a> function to initialize the object.
+The threads of a single process can use a critical section object for mutual-exclusion synchronization. The process is responsible for allocating the memory used by a critical section object, which it can do by declaring a variable of type **CRITICAL_SECTION**. Before using a critical section, some thread of the process must call the [InitializeCriticalSection](nf-synchapi-initializecriticalsection.md) or [InitializeCriticalSectionAndSpinCount](nf-synchapi-initializecriticalsectionandspincount.md) function to initialize the object.
 
-To enable mutually exclusive use of a shared resource, each thread calls the 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a> or 
-<b>TryEnterCriticalSection</b> function to request ownership of the critical section before executing any section of code that uses the protected resource. The difference is that 
-<b>TryEnterCriticalSection</b> returns immediately, regardless of whether it obtained ownership of the critical section, while 
-<b>EnterCriticalSection</b> blocks until the thread can take ownership of the critical section. When it has finished executing the protected code, the thread uses the 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection">LeaveCriticalSection</a> function to relinquish ownership, enabling another thread to become the owner and gain access to the protected resource. The thread must call 
-<b>LeaveCriticalSection</b> once for each time that it entered the critical section.
+To enable mutually exclusive use of a shared resource, each thread calls the [EnterCriticalSection](nf-synchapi-entercriticalsection.md) or **TryEnterCriticalSection** function to request ownership of the critical section before executing any section of code that uses the protected resource. The difference is that **TryEnterCriticalSection** returns immediately, regardless of whether it obtained ownership of the critical section, while **EnterCriticalSection** blocks until the thread can take ownership of the critical section. When it has finished executing the protected code, the thread uses the [LeaveCriticalSection](nf-synchapi-leavecriticalsection.md) function to relinquish ownership, enabling another thread to become the owner and gain access to the protected resource. The thread must call **LeaveCriticalSection** once for each time that it entered the critical section.
 
-Any thread of the process can use the 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection">DeleteCriticalSection</a> function to release the system resources that were allocated when the critical section object was initialized. After this function has been called, the critical section object can no longer be used for synchronization.
+Any thread of the process can use the [DeleteCriticalSection](nf-synchapi-deletecriticalsection.md) function to release the system resources that were allocated when the critical section object was initialized. After this function has been called, the critical section object can no longer be used for synchronization.
 
 If a thread terminates while it has ownership of a critical section, the state of the critical section is undefined.
 
-To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
-<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, define **_WIN32_WINNT** as `0x0400` or later. For more information, see [Using the Windows Headers](/windows/win32/WinProg/using-the-windows-headers).
 
 ## -see-also
 
-<a href="/windows/desktop/Sync/critical-section-objects">Critical Section Objects</a>
+[Critical Section Objects](/windows/win32/Sync/critical-section-objects)
 
+[DeleteCriticalSection](nf-synchapi-deletecriticalsection.md)
 
+[EnterCriticalSection](nf-synchapi-entercriticalsection.md)
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection">DeleteCriticalSection</a>
+[InitializeCriticalSection](nf-synchapi-initializecriticalsection.md)
 
+[InitializeCriticalSectionAndSpinCount](nf-synchapi-initializecriticalsectionandspincount.md)
 
+[LeaveCriticalSection](nf-synchapi-leavecriticalsection.md)
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a>
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection">InitializeCriticalSection</a>
-
-
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsectionandspincount">InitializeCriticalSectionAndSpinCount</a>
-
-
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection">LeaveCriticalSection</a>
-
-
-
-<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

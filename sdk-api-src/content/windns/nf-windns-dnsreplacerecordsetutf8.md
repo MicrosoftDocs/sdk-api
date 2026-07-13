@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsReplaceRecordSetUTF8
 title: DnsReplaceRecordSetUTF8 function (windns.h)
-description: Replaces an existing resource record (RR) set.
+description: Replaces an existing resource record (RR) set. (DnsReplaceRecordSetUTF8)
 helpviewer_keywords: ["DnsReplaceRecordSet","DnsReplaceRecordSet function [DNS]","DnsReplaceRecordSetA","DnsReplaceRecordSetUTF8","DnsReplaceRecordSetW","_dns_dnsreplacerecordset","dns.dnsreplacerecordset","windns/DnsReplaceRecordSet","windns/DnsReplaceRecordSetA","windns/DnsReplaceRecordSetUTF8","windns/DnsReplaceRecordSetW"]
 old-location: dns\dnsreplacerecordset.htm
 tech.root: DNS
@@ -71,7 +71,7 @@ Be aware of the lack of an underscore between the function type name and its suf
 ### -param pReplaceSet [in]
 
 A pointer to a 
-<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the RR set that replaces the existing set. The specified RR set is replaced with the contents of <i>pNewSet</i>. To delete a RR set, specify the set in <i>pNewSet</i>, but set <i>RDATA</i> to <b>NULL</b>.
+<a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a> structure that contains the RR set that replaces the existing set. The specified RR set is replaced with the contents of <i>pNewSet</i>. To delete a RR set, specify the set in <i>pNewSet</i>, but set <i>RDATA</i> to <b>NULL</b>.
 
 ### -param Options [in]
 
@@ -95,7 +95,7 @@ Returns success confirmation upon successful completion. Otherwise, returns the 
 
 ## -see-also
 
-<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a>
 
 
 

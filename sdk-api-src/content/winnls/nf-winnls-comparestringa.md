@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.CompareStringA
 title: CompareStringA function (winnls.h)
-description: Compares two character strings, for a locale specified by identifier.Caution  Using CompareString incorrectly can compromise the security of your application.
+description: Compares two character strings, for a locale specified by identifier.Caution  Using CompareString incorrectly can compromise the security of your application. (CompareStringA)
 helpviewer_keywords: ["CompareString","CompareString function [Internationalization for Windows Applications]","CompareStringA","CompareStringW","_win32_CompareString","_win32_CompareString_cpp","intl.comparestring","stringapiset/CompareString","stringapiset/CompareStringA","stringapiset/CompareStringW","winnls/CompareString","winnls/CompareStringA","winnls/CompareStringW","winui._win32_CompareString"]
 old-location: intl\comparestring.htm
 tech.root: Intl
@@ -129,7 +129,7 @@ Normally, for case-insensitive comparisons, <b>CompareString</b> maps the lowerc
 
 
 > [!NOTE]
-> The winnls.h header defines CompareString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines CompareString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CharUpperA
 title: CharUpperA function (winuser.h)
-description: Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place.
-helpviewer_keywords: ["CharUpper","CharUpper function [Menus and Other Resources]","CharUpperA","CharUpperW","_win32_CharUpper","_win32_charupper_cpp","menurc.charupper","winui._win32_charupper","winuser/CharUpper","winuser/CharUpperA","winuser/CharUpperW"]
+description: Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place. (ANSI)
+helpviewer_keywords: ["CharUpperA", "winuser/CharUpperA"]
 old-location: menurc\charupper.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupper.htm
@@ -92,7 +92,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 > [!NOTE]
-> The winuser.h header defines CharUpper as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CharUpper as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

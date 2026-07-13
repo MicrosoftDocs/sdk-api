@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_SCATTER_OPERATOR_DESC
 title: DML_SCATTER_OPERATOR_DESC (DML_SCATTER_ELEMENTS_OPERATOR_DESC)
-description: Copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor.
+description: Copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor. (DML_SCATTER_OPERATOR_DESC)
 tech.root: directml
 ms.date: 11/04/2020
 req.header: directml.h
@@ -146,10 +146,19 @@ OutputTensor: (Sizes:{3,3}, DataType:FLOAT32)
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-* *IndicesTensor*, *InputTensor*, *OutputTensor*, and `UpdatesTensor` must have the same *DimensionCount*.
-* *InputTensor*, *OutputTensor*, and `UpdatesTensor` must have the same *DataType*.
+* *IndicesTensor*, *InputTensor*, *OutputTensor*, and *UpdatesTensor* must have the same *DimensionCount*.
+* *InputTensor*, *OutputTensor*, and *UpdatesTensor* must have the same *DataType*.
 
 ## Tensor support
+
+### DML_FEATURE_LEVEL_4_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| IndicesTensor | Input | 1 to 8 | INT64, INT32, UINT64, UINT32 |
+| UpdatesTensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

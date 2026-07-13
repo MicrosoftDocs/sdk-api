@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmGetOpenStatus
 title: ImmGetOpenStatus function (imm.h)
-description: Determines whether the IME is open or closed.
+description: The ImmGetOpenStatus function (imm.h) determines whether the IME is open or closed.
 helpviewer_keywords: ["ImmGetOpenStatus","ImmGetOpenStatus function [Internationalization for Windows Applications]","_win32_ImmGetOpenStatus","imm/ImmGetOpenStatus","intl.immgetopenstatus"]
 old-location: intl\immgetopenstatus.htm
 tech.root: Intl
 ms.assetid: 8011bb84-9bda-49b7-8f44-76af4388ce21
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmGetOpenStatus, ImmGetOpenStatus function [Internationalization for Windows Applications], _win32_ImmGetOpenStatus, imm/ImmGetOpenStatus, intl.immgetopenstatus
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-imm-l1-1-2.dll
  - Imm32.dll
  - Ext-MS-Win-imm-l1-1-0.dll
  - ext-ms-win-imm-l1-1-1.dll

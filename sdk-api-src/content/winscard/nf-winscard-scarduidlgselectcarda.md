@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardUIDlgSelectCardA
 title: SCardUIDlgSelectCardA function (winscard.h)
-description: Displays the smart card Select Card dialog box.
-helpviewer_keywords: ["SCardUIDlgSelectCard","SCardUIDlgSelectCard function [Security]","SCardUIDlgSelectCardA","SCardUIDlgSelectCardW","_smart_scarduidlgselectcard","security.scarduidlgselectcard","winscard/SCardUIDlgSelectCard","winscard/SCardUIDlgSelectCardA","winscard/SCardUIDlgSelectCardW"]
+description: Displays the smart card Select Card dialog box. (ANSI)
+helpviewer_keywords: ["SCardUIDlgSelectCardA", "winscard/SCardUIDlgSelectCardA"]
 old-location: security\scarduidlgselectcard.htm
 tech.root: security
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
@@ -167,7 +167,7 @@ else
 
 
 > [!NOTE]
-> The winscard.h header defines SCardUIDlgSelectCard as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardUIDlgSelectCard as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

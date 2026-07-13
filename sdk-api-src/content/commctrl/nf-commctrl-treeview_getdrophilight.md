@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetDropHilight","TreeView_GetDropHilight macro [
 old-location: controls\TreeView_GetDropHilight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getdrophilight.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetDropHilight, TreeView_GetDropHilight macro [Windows Controls], _win32_TreeView_GetDropHilight, _win32_TreeView_GetDropHilight_cpp, commctrl/TreeView_GetDropHilight, controls.TreeView_GetDropHilight, controls._win32_TreeView_GetDropHilight
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TreeView_GetDropHilight macro
+
+## -syntax
+
+```cpp
+HTREEITEM TreeView_GetDropHilight(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Returns the handle to the item if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

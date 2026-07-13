@@ -54,15 +54,15 @@ The <b>ObjectIdPublicKeyFlags</b> enumeration type specifies whether a <a href="
 
 ## -enum-fields
 
-### -field XCN_CRYPT_OID_INFO_PUBKEY_ANY
+### -field XCN_CRYPT_OID_INFO_PUBKEY_ANY:0
 
 The algorithm can be used for signing or encryption.
 
-### -field XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG
+### -field XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG:0x80000000
 
 The algorithm is used for signing.
 
-### -field XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG
+### -field XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG:0x40000000
 
 The algorithm is used for encryption.
 

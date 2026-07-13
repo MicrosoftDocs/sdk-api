@@ -54,11 +54,11 @@ Indicates additional shaping requirements for text.
 
 ## -enum-fields
 
-### -field DWRITE_SCRIPT_SHAPES_DEFAULT
+### -field DWRITE_SCRIPT_SHAPES_DEFAULT:0
 
 Indicates that there is no additional shaping requirements for text. Text is shaped with the writing system default behavior.
 
-### -field DWRITE_SCRIPT_SHAPES_NO_VISUAL
+### -field DWRITE_SCRIPT_SHAPES_NO_VISUAL:1
 
 Indicates that text should leave no visible control or format control characters.
 

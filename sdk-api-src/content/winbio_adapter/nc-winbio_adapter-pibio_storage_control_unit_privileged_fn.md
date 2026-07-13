@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN
 title: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN (winbio_adapter.h)
-description: Performs a vendor-defined control operation that requires elevated privilege.
+description: The PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN callback function (winbio_adapter.h) performs a vendor-defined control operation that requires elevated privilege.
 helpviewer_keywords: ["PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN","PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN callback","StorageAdapterControlUnitPrivileged","StorageAdapterControlUnitPrivileged callback function [Windows Biometric Framework API]","secbiomet.storageadaptercontrolunitprivileged","winbio_adapter/StorageAdapterControlUnitPrivileged"]
 old-location: secbiomet\storageadaptercontrolunitprivileged.htm
 tech.root: SecBioMet
 ms.assetid: 42e33817-df5f-4598-bc6a-94e49ce5fca4
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN callback, StorageAdapterControlUnitPrivileged, StorageAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.storageadaptercontrolunitprivileged, winbio_adapter/StorageAdapterControlUnitPrivileged
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
@@ -109,7 +109,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b> E_INVALIDARG</b></b></dt>
+<dt><b> E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +153,7 @@ There was a hardware failure.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_INVALID_CONTROL_CODE</b></b></dt>
+<dt><b>WINBIO_E_INVALID_CONTROL_CODE</b></dt>
 </dl>
 </td>
 <td width="60%">

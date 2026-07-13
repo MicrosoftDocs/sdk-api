@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetCalendarGridInfo","MonthCal_GetCalendarGridIn
 old-location: controls\MonthCal_GetCalendarGridInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendargridinfo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetCalendarGridInfo, MonthCal_GetCalendarGridInfo macro [Windows Controls], _shell_MonthCal_GetCalendarGridInfo, _shell_MonthCal_GetCalendarGridInfo_cpp, commctrl/MonthCal_GetCalendarGridInfo, controls.MonthCal_GetCalendarGridInfo, controls._shell_MonthCal_GetCalendarGridInfo
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_GetCalendarGridInfo macro
+
+## -syntax
+
+```cpp
+BOOL MonthCal_GetCalendarGridInfo(
+   HWND       hmc,
+   MCGRIDINFO *pmcGridInfo
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if successful, otherwise <b>FALSE</b>.
 
 
 ## -description

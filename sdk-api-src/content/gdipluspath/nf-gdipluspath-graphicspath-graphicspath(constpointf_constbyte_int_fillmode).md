@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GraphicsPath(constPointF,constBYTE,INT,FillMode)
 title: GraphicsPath::GraphicsPath(IN const PointF,IN const BYTE,IN INT,IN FillMode) (gdipluspath.h)
-description: Creates a GraphicsPath::GraphicsPath object based on an array of points, an array of types, and a fill mode.
+description: Creates a GraphicsPath::GraphicsPath object based on an array of points, an array of types, and a fill mode. (overload 1/2)
 helpviewer_keywords: ["GraphicsPath","GraphicsPath class [GDI+]","GraphicsPath constructor","GraphicsPath constructor [GDI+]","GraphicsPath constructor [GDI+]","GraphicsPath class","GraphicsPath.GraphicsPath","GraphicsPath.GraphicsPath(IN const PointF","IN const BYTE","IN INT","IN FillMode)","GraphicsPath.GraphicsPath(const PointF*","const BYTE*","INT","FillMode)","GraphicsPath::GraphicsPath","GraphicsPath::GraphicsPath(IN const PointF","IN const BYTE","IN INT","IN FillMode)","_gdiplus_CLASS_GraphicsPath_GraphicsPath_PointF_points_BYTE_types_INT_count_FillMode_fillMode_","gdiplus._gdiplus_CLASS_GraphicsPath_GraphicsPath_PointF_points_BYTE_types_INT_count_FillMode_fillMode_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GraphicsPath_PointF_points_BYTE_types_INT_count_FillMode_fillMode_.htm
 tech.root: gdiplus

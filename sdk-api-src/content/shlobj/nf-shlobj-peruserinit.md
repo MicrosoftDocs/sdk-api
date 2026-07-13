@@ -54,7 +54,7 @@ api_name:
 
 Creates <a href="/windows/desktop/shell/manage">My Documents</a> and other special folders, initializes them as needed, and creates the <b>Send To</b> shortcut menu item for My Documents.
 
-## -parameters
+
 
 ## -remarks
 

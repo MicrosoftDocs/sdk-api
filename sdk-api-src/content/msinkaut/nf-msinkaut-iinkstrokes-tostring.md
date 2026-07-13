@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -165,7 +165,7 @@ No recognizers are installed, the recognizers registry key is corrupted, or your
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="../msinkaut/nn-msinkaut-iinkstrokes.md">IInkStrokes</a>
 
 
 

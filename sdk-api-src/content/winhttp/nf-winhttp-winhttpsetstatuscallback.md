@@ -338,17 +338,21 @@ At the end of asynchronous processing, the application may set the callback func
 
 The following code snippet shows the recommended method for setting the callback function to <b>NULL</b>.
 
-<pre class="syntax" xml:space="preserve"><code>WinHttpSetStatusCallback( hOpen,
+
+``` syntax
+WinHttpSetStatusCallback( hOpen,
                           NULL,
                           WINHTTP_CALLBACK_FLAG_ALL_NOTIFICATIONS,
                           NULL );
-</code></pre>
+
+```
+
 Note, however, that WinHTTP does not synchronize <b>WinHttpSetStatusCallback</b> with worker threads. If  a callback originating in another thread is in progress when an application calls <b>WinHttpSetStatusCallback</b>, the application still receives a callback notification even after <b>WinHttpSetStatusCallback</b> successfully sets the callback function to <b>NULL</b> and returns.
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
-#### Examples
+## Examples
 
 The following example shows how to install a callback function for asynchronous WinHTTP functions.  The example assumes that a 
 <a href="/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a> function named "AsyncCallback( )" has been previously implemented:

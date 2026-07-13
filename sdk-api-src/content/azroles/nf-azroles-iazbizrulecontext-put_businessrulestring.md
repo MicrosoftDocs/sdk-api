@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.put_BusinessRuleString
 title: IAzBizRuleContext::put_BusinessRuleString (azroles.h)
-description: Sets or retrieves an application-specific string for the Business Rule (BizRule).
+description: Sets or retrieves an application-specific string for the Business Rule (BizRule). (Put)
 helpviewer_keywords: ["AzBizRuleContext object [Security]","BusinessRuleString property","BusinessRuleString property [Security]","BusinessRuleString property [Security]","AzBizRuleContext object","BusinessRuleString property [Security]","IAzBizRuleContext interface","IAzBizRuleContext interface [Security]","BusinessRuleString property","IAzBizRuleContext.BusinessRuleString","IAzBizRuleContext.put_BusinessRuleString","IAzBizRuleContext::BusinessRuleString","IAzBizRuleContext::get_BusinessRuleString","IAzBizRuleContext::put_BusinessRuleString","azroles/IAzBizRuleContext::BusinessRuleString","azroles/IAzBizRuleContext::get_BusinessRuleString","azroles/IAzBizRuleContext::put_BusinessRuleString","put_BusinessRuleString","security.azbizrulecontext_businessrulestring"]
 old-location: security\azbizrulecontext_businessrulestring.htm
 tech.root: security

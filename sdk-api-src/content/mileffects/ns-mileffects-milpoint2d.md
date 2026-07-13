@@ -1,7 +1,7 @@
 ---
 UID: NS:mileffects.MilPoint2D
 title: MilPoint2D (mileffects.h)
-description: Represents an x- and y-coordinate pair in two-dimensional space.
+description: Represents an x- and y-coordinate pair in two-dimensional space.M
 helpviewer_keywords: ["MIL_2DPOINTD","MIL_2DPOINTD structure [WPF Bitmap Effects]","MilPoint2D","_wibe_mil_2dpointd","mileffects/MIL_2DPOINTD","wibe._wibe_mil_2dpointd"]
 old-location: wibe\_wibe_mil_2dpointd.htm
 tech.root: wibe

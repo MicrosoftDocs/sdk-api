@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_parse_sort_controlW
 title: ldap_parse_sort_controlW function (winldap.h)
-description: The ldap_parse_sort_control function parses the sort control returned by the server.
-helpviewer_keywords: ["_ldap_ldap_parse_sort_control","ldap.ldap__parse__sort__control","ldap.ldap_parse_sort_control","ldap_parse_sort_control","ldap_parse_sort_control function [LDAP]","ldap_parse_sort_controlA","ldap_parse_sort_controlW","winldap/ldap_parse_sort_control","winldap/ldap_parse_sort_controlA","winldap/ldap_parse_sort_controlW"]
+description: The ldap_parse_sort_controlW (Unicode) function (winldap.h) parses the sort control returned by the server. 
+helpviewer_keywords: ["_ldap_ldap_parse_sort_control", "ldap.ldap__parse__sort__control", "ldap.ldap_parse_sort_control", "ldap_parse_sort_control", "ldap_parse_sort_control function [LDAP]", "ldap_parse_sort_controlW", "winldap/ldap_parse_sort_control", "winldap/ldap_parse_sort_controlW"]
 old-location: ldap\ldap_parse_sort_control.htm
 tech.root: ldap
 ms.assetid: 71d6bae2-3ee4-417c-8c1b-d277cad03f36
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_parse_sort_control, ldap.ldap__parse__sort__control, ldap.ldap_parse_sort_control, ldap_parse_sort_control, ldap_parse_sort_control function [LDAP], ldap_parse_sort_controlA, ldap_parse_sort_controlW, winldap/ldap_parse_sort_control, winldap/ldap_parse_sort_controlA, winldap/ldap_parse_sort_controlW
 req.header: winldap.h
 req.include-header: 
@@ -92,7 +92,7 @@ If the sort operation failed, the server may return the name of the attribute th
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_parse_sort_control as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_parse_sort_control as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

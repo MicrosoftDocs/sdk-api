@@ -56,10 +56,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ContextInfo2</b> interface inherits from <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>. <b>ContextInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ContextInfo2</b> interface inherits from <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>. <b>ContextInfo2</b> also has these types of members:
 
 ## -see-also
 

@@ -62,7 +62,7 @@ MMC_ACTION_TYPE enumeration defines the types of action that can be triggered wh
 
 ## -enum-fields
 
-### -field MMC_ACTION_UNINITIALIZED
+### -field MMC_ACTION_UNINITIALIZED:-1
 
 No actions specified.
 

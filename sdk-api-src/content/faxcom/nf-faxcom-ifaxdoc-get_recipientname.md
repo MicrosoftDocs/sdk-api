@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientName
 title: IFaxDoc::get_RecipientName (faxcom.h)
-description: Sets or retrieves the RecipientName property of a FaxDoc object. The RecipientName property is a null-terminated string that contains the name of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientName property of a FaxDoc object. The RecipientName property is a null-terminated string that contains the name of the recipient of the fax transmission. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientName property","IFaxDoc.RecipientName","IFaxDoc.get_RecipientName","IFaxDoc::RecipientName","IFaxDoc::get_RecipientName","IFaxDoc::put_RecipientName","RecipientName property [Fax Service]","RecipientName property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientname","fax._mfax_ifaxdoc_get_recipientname","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientname_cpp","faxcom/IFaxDoc::RecipientName","faxcom/IFaxDoc::get_RecipientName","faxcom/IFaxDoc::put_RecipientName","get_RecipientName"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientname_cpp.htm
 tech.root: Fax

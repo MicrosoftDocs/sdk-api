@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_WriteCertToCSP
 title: IEnroll::get_WriteCertToCSP (xenroll.h)
-description: Sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP).
+description: Sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP). (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","WriteCertToCSP property","IEnroll.WriteCertToCSP","IEnroll.get_WriteCertToCSP","IEnroll::WriteCertToCSP","IEnroll::get_WriteCertToCSP","IEnroll::put_WriteCertToCSP","WriteCertToCSP property [Security]","WriteCertToCSP property [Security]","IEnroll interface","get_WriteCertToCSP","security.ienroll4_writecerttocsp","xenroll/IEnroll::WriteCertToCSP","xenroll/IEnroll::get_WriteCertToCSP","xenroll/IEnroll::put_WriteCertToCSP"]
 old-location: security\ienroll4_writecerttocsp.htm
 tech.root: security

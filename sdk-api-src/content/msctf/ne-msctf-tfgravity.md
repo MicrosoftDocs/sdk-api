@@ -56,11 +56,11 @@ Elements of the <b>TfGravity</b> enumeration specify the type of gravity associa
 
 ## -enum-fields
 
-### -field TF_GRAVITY_BACKWARD
+### -field TF_GRAVITY_BACKWARD:0
 
 The anchor has backward gravity.
 
-### -field TF_GRAVITY_FORWARD
+### -field TF_GRAVITY_FORWARD:1
 
 The anchor has forward gravity.
 

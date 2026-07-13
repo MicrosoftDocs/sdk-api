@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_InsertItem","Header_InsertItem macro [Windows Cont
 old-location: controls\Header_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_insertitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_InsertItem, Header_InsertItem macro [Windows Controls], _win32_Header_InsertItem, _win32_Header_InsertItem_cpp, commctrl/Header_InsertItem, controls.Header_InsertItem, controls._win32_Header_InsertItem
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # Header_InsertItem macro
 
+## -syntax
+
+```cpp
+int Header_InsertItem(
+         HWND     hwndHD,
+         int      i,
+   const LPHDITEM phdi
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the new item if successful, or -1 otherwise.
+
 
 ## -description
 
@@ -64,9 +80,7 @@ A handle to the header control.
 
 Type: <b>int</b>
 
-The index of the item after which the new item is to be inserted. The new item is inserted at the end of the header control if 
-					<i>index</i> is greater than or equal to the number of items in the control. If 
-					<i>index</i> is zero, the new item is inserted at the beginning of the header control.
+The index of the item after which the new item is to be inserted. The new item is inserted at the end of the header control if <i>i</i> is greater than or equal to the number of items in the control. If <i>i</i> is zero, the new item is inserted at the beginning of the header control.
 
 ### -param phdi
 
@@ -78,8 +92,12 @@ A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM
 
 The <b>Header_InsertItem</b> macro is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_InsertItem(hwndHD, index, phdi) \
 
-    (int)SendMessage((hwndHD), HDM_INSERTITEM, (WPARAM)(int)(index), \
+``` syntax
+#define Header_InsertItem(hwndHD, i, phdi) \
 
-    (LPARAM)(const LPHDITEM)(phdi))</code></pre>
+    (int)SendMessage((hwndHD), HDM_INSERTITEM, (WPARAM)(int)(i), \
+
+    (LPARAM)(const LPHDITEM)(phdi))
+```
+

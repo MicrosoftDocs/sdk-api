@@ -9,7 +9,7 @@ ms.assetid: 28df173d-b78c-4158-97d5-63117a2d3967
 ms.date: 12/05/2018
 ms.keywords: SubmitThreadpoolWork, SubmitThreadpoolWork function, base.submitthreadpoolwork, threadpoolapiset/SubmitThreadpoolWork, winbase/SubmitThreadpoolWork
 req.header: threadpoolapiset.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

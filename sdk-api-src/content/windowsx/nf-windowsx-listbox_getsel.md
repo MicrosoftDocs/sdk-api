@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetSel","ListBox_GetSel macro [Windows Controls]"
 old-location: controls\ListBox_GetSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getsel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetSel, ListBox_GetSel macro [Windows Controls], _win32_ListBox_GetSel, _win32_ListBox_GetSel_cpp, controls.ListBox_GetSel, controls._win32_ListBox_GetSel, windowsx/ListBox_GetSel
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListBox_GetSel macro
+
+## -syntax
+
+```cpp
+DWORD ListBox_GetSel(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+If the item is selected, the return value is greater than zero; otherwise, it is zero. If an error occurs, the return value is LB_ERR.
 
 
 ## -description

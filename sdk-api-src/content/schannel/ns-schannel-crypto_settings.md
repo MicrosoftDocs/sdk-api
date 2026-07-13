@@ -1,7 +1,7 @@
 ---
 UID: NS:schannel._CRYPTO_SETTINGS
 title: CRYPTO_SETTINGS
-ms.date: 11/4/2019
+ms.date: 06/25/2024
 targetos: Windows
 description: Indicates disabled cryptographic settings.
 tech.root: security
@@ -66,19 +66,19 @@ Cryptographic settings are ignored if the specified algorithm is not used by a s
 
 ### -field cChainingModes
 
-The count of entries in the rgstrChainingModes array. 
+The count of entries in the rgstrChainingModes array.
 
 Set to 0 if strCngAlgId does not have a chaining mode (*e.g. BCRYPT_SHA384_ALGORITHM*). It is an error to specify more than SCH_CRED_MAX_SUPPORTED_CHAINING_MODES.
 
 ### -field rgstrChainingModes
 
-An array of <a href="/windows/win32/seccng/cng-property-identifiers">CNG chaining mode identifiers</a>. 
+An array of <a href="/windows/win32/seccng/cng-property-identifiers">CNG chaining mode identifiers</a>.
 
 Set to NULL if strCngAlgId does not have a chaining mode (*e.g. BCRYPT_SHA384_ALGORITHM*).
 
 ### -field dwMinBitLength
 
-Minimum bit length for the specified CNG algorithm. 
+Minimum bit length for the specified CNG algorithm.
 
 If 0, schannel uses system defaults. Set to 0 if the CNG algorithm implies bit length (*e.g. BCRYPT_ECDH_P521_ALGORITHM*).
 
@@ -89,6 +89,13 @@ Maximum bit length for the specified CNG algorithm.
 If 0, schannel uses system defaults. Set to 0 if the CNG algorithm implies bit length (e.g. BCRYPT_ECDH_P521_ALGORITHM).
 
 ## -remarks
+
+The following constant distinguishes between the different RSA padding modes and can be specified in the `strCngAlgId` field. Either of these modes can be provided instead of the <a href="/windows/win32/seccng/cng-algorithm-identifiers">CNG algorithm identifier</a>.
+
+```cpp
+#define SCHANNEL_RSA_PSS_PADDING_ALGORITHM L"SCH_RSA_PSS_PAD"
+#define SCHANNEL_RSA_PKCS_PADDING_ALGORITHM L"SCH_RSA_PKCS_PAD"
+```
 
 ## -see-also
 

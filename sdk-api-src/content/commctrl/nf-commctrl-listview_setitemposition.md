@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetItemPosition","ListView_SetItemPosition macro
 old-location: controls\ListView_SetItemPosition.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetItemPosition, ListView_SetItemPosition macro [Windows Controls], _win32_ListView_SetItemPosition, _win32_ListView_SetItemPosition_cpp, commctrl/ListView_SetItemPosition, controls.ListView_SetItemPosition, controls._win32_ListView_SetItemPosition
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # ListView_SetItemPosition macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetItemPosition(
+   HWND hwndLV,
+   int  i,
+   int  x,
+   int  y
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

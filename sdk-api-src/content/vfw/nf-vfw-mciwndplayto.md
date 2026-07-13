@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndPlayTo","MCIWndPlayTo macro [Windows Multimedia]","
 old-location: multimedia\mciwndplayto.htm
 tech.root: Multimedia
 ms.assetid: 49048776-85bd-43ac-a5a0-414a26a6a533
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndPlayTo, MCIWndPlayTo macro [Windows Multimedia], _win32_MCIWndPlayTo, multimedia.mciwndplayto, vfw/MCIWndPlayTo
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndPlayTo macro
+
+## -syntax
+
+```cpp
+LONG MCIWndPlayTo(
+     hwnd,
+     lPos
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

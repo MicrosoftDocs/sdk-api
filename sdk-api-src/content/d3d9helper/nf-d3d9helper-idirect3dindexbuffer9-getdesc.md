@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DIndexBuffer9.GetDesc
 title: IDirect3DIndexBuffer9::GetDesc (d3d9helper.h)
-description: Retrieves a description of the index buffer resource.
+description: The IDirect3DIndexBuffer9::GetDesc method (d3d9helper.h) retrieves a description of the index buffer resource.
 helpviewer_keywords: ["GetDesc","GetDesc method [Direct3D 9]","GetDesc method [Direct3D 9]","IDirect3DIndexBuffer9 interface","IDirect3DIndexBuffer9 interface [Direct3D 9]","GetDesc method","IDirect3DIndexBuffer9.GetDesc","IDirect3DIndexBuffer9::GetDesc","d3d9helper/IDirect3DIndexBuffer9::GetDesc","direct3d9.idirect3dindexbuffer9__getdesc","f6d3661c-7957-0918-0367-c148e854bf9f"]
 old-location: direct3d9\idirect3dindexbuffer9__getdesc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9__getdesc.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DIndexBuffer9 interface, IDirect3DIndexBuffer9 interface [Direct3D 9],GetDesc method, IDirect3DIndexBuffer9.GetDesc, IDirect3DIndexBuffer9::GetDesc, d3d9helper/IDirect3DIndexBuffer9::GetDesc, direct3d9.idirect3dindexbuffer9__getdesc, f6d3661c-7957-0918-0367-c148e854bf9f
 req.header: d3d9helper.h
 req.include-header: D3D9.h

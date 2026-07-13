@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMap.get_Value
 title: IValueMap::get_Value (pla.h)
-description: Retrieves or sets the value of the collection.
+description: Retrieves or sets the value of the collection. (Get)
 helpviewer_keywords: ["IValueMap interface [PLA]","Value property","IValueMap.Value","IValueMap.get_Value","IValueMap::Value","IValueMap::get_Value","IValueMap::put_Value","Value property [PLA]","Value property [PLA]","IValueMap interface","base.ivaluemap_value","get_Value","pla.ivaluemap_value","pla/IValueMap::Value","pla/IValueMap::get_Value","pla/IValueMap::put_Value"]
 old-location: pla\ivaluemap_value.htm
 tech.root: PLA

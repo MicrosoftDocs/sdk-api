@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetVertexShader
 title: IDirect3DDevice9::SetVertexShader (d3d9.h)
-description: Sets the vertex shader.
+description: The IDirect3DDevice9::SetVertexShader method (d3d9helper.h) sets the vertex shader. 
 helpviewer_keywords: ["4fecc980-501f-804d-d212-782bd9df73d4","IDirect3DDevice9 interface [Direct3D 9]","SetVertexShader method","IDirect3DDevice9.SetVertexShader","IDirect3DDevice9::SetVertexShader","SetVertexShader","SetVertexShader method [Direct3D 9]","SetVertexShader method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetVertexShader","direct3d9.idirect3ddevice9__setvertexshader"]
 old-location: direct3d9\idirect3ddevice9__setvertexshader.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexshader.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 4fecc980-501f-804d-d212-782bd9df73d4, IDirect3DDevice9 interface [Direct3D 9],SetVertexShader method, IDirect3DDevice9.SetVertexShader, IDirect3DDevice9::SetVertexShader, SetVertexShader, SetVertexShader method [Direct3D 9], SetVertexShader method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetVertexShader, direct3d9.idirect3ddevice9__setvertexshader
 req.header: d3d9.h
 req.include-header: D3D9.h

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupSetFileQueueAlternatePlatformW
 title: SetupSetFileQueueAlternatePlatformW function (setupapi.h)
-description: The SetupSetFileQueueAlternatePlatform function associates the file queue with a target platform that is different from the platform running the function. This is done to enable for non-native signature verification.
-helpviewer_keywords: ["SetupSetFileQueueAlternatePlatform","SetupSetFileQueueAlternatePlatform function [Setup API]","SetupSetFileQueueAlternatePlatformA","SetupSetFileQueueAlternatePlatformW","_setupapi_setupsetfilequeuealternateplatform","setup.setupsetfilequeuealternateplatform","setupapi/SetupSetFileQueueAlternatePlatform","setupapi/SetupSetFileQueueAlternatePlatformA","setupapi/SetupSetFileQueueAlternatePlatformW"]
+description: The SetupSetFileQueueAlternatePlatform function associates the file queue with a target platform that is different from the platform running the function. This is done to enable for non-native signature verification. (Unicode)
+helpviewer_keywords: ["SetupSetFileQueueAlternatePlatform", "SetupSetFileQueueAlternatePlatform function [Setup API]", "SetupSetFileQueueAlternatePlatformW", "_setupapi_setupsetfilequeuealternateplatform", "setup.setupsetfilequeuealternateplatform", "setupapi/SetupSetFileQueueAlternatePlatform", "setupapi/SetupSetFileQueueAlternatePlatformW"]
 old-location: setup\setupsetfilequeuealternateplatform.htm
 tech.root: setup
 ms.assetid: 86289ab5-c313-470d-9ac1-3651c23af979
@@ -97,4 +97,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupSetFileQueueAlternatePlatform as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupSetFileQueueAlternatePlatform as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -52,7 +52,7 @@ api_name:
 
 Locks the file system information at the current change-point level.
 
-## -parameters
+
 
 ## -returns
 

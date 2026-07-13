@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.StoppedMonitoringScope
 title: ISearchItemsChangedSink::StoppedMonitoringScope (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchItemsChangedSink.StoppedMonitoringScope)
 helpviewer_keywords: ["ISearchItemsChangedSink interface [search]","StoppedMonitoringScope method","ISearchItemsChangedSink.StoppedMonitoringScope","ISearchItemsChangedSink::StoppedMonitoringScope","StoppedMonitoringScope","StoppedMonitoringScope method [search]","StoppedMonitoringScope method [search]","ISearchItemsChangedSink interface","_search_ISearchItemsChangedSink_StoppedMonitoringScope","search._search_ISearchItemsChangedSink_StoppedMonitoringScope","searchapi/ISearchItemsChangedSink::StoppedMonitoringScope"]
 old-location: search\_search_ISearchItemsChangedSink_StoppedMonitoringScope.htm
 tech.root: search
@@ -64,7 +64,7 @@ The pointer to a null-terminated, Unicode string containing the start address fo
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Get a string variable.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Notifies the drag-image manager that the drop target's <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method has been called.
 
-## -parameters
+
 
 ## -returns
 

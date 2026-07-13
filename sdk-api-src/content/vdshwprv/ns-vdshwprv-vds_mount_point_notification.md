@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_MOUNT_POINT_NOTIFICATION
 title: VDS_MOUNT_POINT_NOTIFICATION (vdshwprv.h)
-description: Represents notification information that was returned by the basic or dynamic software provider because a drive letter or volume GUID path changed.
+description: The VDS_MOUNT_POINT_NOTIFICATION structure (vdshwprv.h) represents data returned by the software provider because a drive letter or volume GUID path changed.
 helpviewer_keywords: ["VDS_MOUNT_POINT_NOTIFICATION","VDS_MOUNT_POINT_NOTIFICATION structure [VDS]","VDS_NF_MOUNT_POINTS_CHANGE","base.vds_mount_point_notification","vds/_VDS_MOUNT_POINT_NOTIFICATION","vdshwprv/_VDS_MOUNT_POINT_NOTIFICATION"]
 old-location: base\vds_mount_point_notification.htm
 tech.root: base
 ms.assetid: 6e49437e-8fc7-4fc5-a227-b326a1ea9967
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_MOUNT_POINT_NOTIFICATION, VDS_MOUNT_POINT_NOTIFICATION structure [VDS], VDS_NF_MOUNT_POINTS_CHANGE, base.vds_mount_point_notification, vds/_VDS_MOUNT_POINT_NOTIFICATION, vdshwprv/_VDS_MOUNT_POINT_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Represents notification information that was returned by the basic or dynamic software provider because a drive letter  or volume GUID path changed.
 

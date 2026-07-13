@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensorEvents interface","OnEvent method","ISensorEvents.
 old-location: winsensors_com_ref\isensorevents_onevent.htm
 tech.root: winsensors
 ms.assetid: 7dfe25d1-dc0e-4e97-8dad-ca66a829aa4c
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISensorEvents::OnEvent, OnEvent, OnEvent method, OnEvent method,ISensorEvents interface, sensorsapi/ISensorEvents::OnEvent, winsensors_com_ref.isensorevents_onevent
 req.header: sensorsapi.h
 req.include-header: 
@@ -50,6 +50,11 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 Provides custom event notifications.
 
 ## -parameters
@@ -68,7 +73,7 @@ Pointer to the <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceVa
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

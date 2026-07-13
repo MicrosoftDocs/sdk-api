@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateProcessesA
 title: WTSEnumerateProcessesA function (wtsapi32.h)
-description: Retrieves information about the active processes on a specified Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSEnumerateProcesses","WTSEnumerateProcesses function [Remote Desktop Services]","WTSEnumerateProcessesA","WTSEnumerateProcessesW","_win32_wtsenumerateprocesses","termserv.wtsenumerateprocesses","wtsapi32/WTSEnumerateProcesses","wtsapi32/WTSEnumerateProcessesA","wtsapi32/WTSEnumerateProcessesW"]
+description: Retrieves information about the active processes on a specified Remote Desktop Session Host (RD Session Host) server. (ANSI)
+helpviewer_keywords: ["WTSEnumerateProcessesA", "wtsapi32/WTSEnumerateProcessesA"]
 old-location: termserv\wtsenumerateprocesses.htm
 tech.root: TermServ
 ms.assetid: ddfae294-2e7c-416e-b328-76d011b4af39
@@ -103,7 +103,7 @@ The caller must be a member of the Administrators group to enumerate processes t
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSEnumerateProcesses as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSEnumerateProcesses as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetTextColor","ListView_GetTextColor macro [Wind
 old-location: controls\ListView_GetTextColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettextcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetTextColor, ListView_GetTextColor macro [Windows Controls], _win32_ListView_GetTextColor, _win32_ListView_GetTextColor_cpp, commctrl/ListView_GetTextColor, controls.ListView_GetTextColor, controls._win32_ListView_GetTextColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetTextColor macro
+
+## -syntax
+
+```cpp
+COLORREF ListView_GetTextColor(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns the text color.
 
 
 ## -description

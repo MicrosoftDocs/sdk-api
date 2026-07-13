@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_DaysSinceFileLastAccessed
 title: IFsrmFileManagementJob::get_DaysSinceFileLastAccessed (fsrmreports.h)
-description: The number of days that have elapsed since the file was last accessed.
+description: The number of days that have elapsed since the file was last accessed. (Get)
 helpviewer_keywords: ["DaysSinceFileLastAccessed property [File Server Resource Manager]","DaysSinceFileLastAccessed property [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","DaysSinceFileLastAccessed property","IFsrmFileManagementJob.DaysSinceFileLastAccessed","IFsrmFileManagementJob.get_DaysSinceFileLastAccessed","IFsrmFileManagementJob::DaysSinceFileLastAccessed","IFsrmFileManagementJob::get_DaysSinceFileLastAccessed","IFsrmFileManagementJob::put_DaysSinceFileLastAccessed","fs.ifsrmfilemanagementjob_dayssincefilelastaccessed","fsrm.ifsrmfilemanagementjob_dayssincefilelastaccessed","fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastAccessed","fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastAccessed","fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastAccessed","get_DaysSinceFileLastAccessed"]
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastaccessed.htm
 tech.root: fsrm

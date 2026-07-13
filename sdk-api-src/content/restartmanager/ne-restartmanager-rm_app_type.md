@@ -56,31 +56,31 @@ Specifies the type of application that is described by the <a href="/windows/des
 
 ## -enum-fields
 
-### -field RmUnknownApp
+### -field RmUnknownApp:0
 
 The application cannot be classified as any other type. An application of this type can only be shut down by a forced shutdown.
 
-### -field RmMainWindow
+### -field RmMainWindow:1
 
 A Windows application run as a stand-alone process that displays a top-level window.
 
-### -field RmOtherWindow
+### -field RmOtherWindow:2
 
 A Windows application that does not run as a stand-alone process and does not display a top-level window.
 
-### -field RmService
+### -field RmService:3
 
 The application is a Windows service.
 
-### -field RmExplorer
+### -field RmExplorer:4
 
 The application is Windows Explorer.
 
-### -field RmConsole
+### -field RmConsole:5
 
 The application is a stand-alone console application.
 
-### -field RmCritical
+### -field RmCritical:1000   
 
 A system restart is required to complete the installation because a process cannot be shut down. The process cannot be shut down because of the following reasons.  The process may be a critical process.  The current user may not have permission to shut down the process. The process may belong to the primary installer that started the Restart Manager.
 

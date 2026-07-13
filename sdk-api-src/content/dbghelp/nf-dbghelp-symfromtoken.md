@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFromToken
 title: SymFromToken function (dbghelp.h)
-description: Retrieves symbol information for the specified managed code token.
+description: The SymFromToken function (dbghelp.h) retrieves symbol information for the specified managed code token.
 helpviewer_keywords: ["SymFromToken","SymFromToken function","SymFromTokenW","base.symfromtoken","dbghelp/SymFromToken","dbghelp/SymFromTokenW"]
 old-location: base\symfromtoken.htm
 tech.root: Debug
 ms.assetid: ecef5213-9301-4ca0-852c-1e6be0d7b2a5
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymFromToken, SymFromToken function, SymFromTokenW, base.symfromtoken, dbghelp/SymFromToken, dbghelp/SymFromTokenW
 req.header: dbghelp.h
 req.include-header: 

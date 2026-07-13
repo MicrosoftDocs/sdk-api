@@ -4,7 +4,8 @@ title: Routing and Remote Access Service
 ms.assetid: 81dd190f-fadb-3fe6-8776-f89b1ee3e540
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Routing and Remote Access Service

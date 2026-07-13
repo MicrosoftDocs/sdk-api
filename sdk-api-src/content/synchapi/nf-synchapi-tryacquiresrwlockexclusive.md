@@ -6,7 +6,7 @@ helpviewer_keywords: ["TryAcquireSRWLockExclusive","TryAcquireSRWLockExclusive f
 old-location: base\tryacquiresrwlockexclusive.htm
 tech.root: base
 ms.assetid: 0de41cb0-5b37-4ac7-9ba2-e9e3d69e34af
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: TryAcquireSRWLockExclusive, TryAcquireSRWLockExclusive function, base.tryacquiresrwlockexclusive, synchapi/TryAcquireSRWLockExclusive, winbase/TryAcquireSRWLockExclusive
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -47,12 +47,12 @@ api_location:
  - API-MS-Win-Core-Synch-l1-2-1.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - TryAcquireSRWLockExclusive
 ---
 
 # TryAcquireSRWLockExclusive function
-
 
 ## -description
 
@@ -72,12 +72,12 @@ if the current thread could not acquire the lock, the return value is zero.
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockexclusive">AcquireSRWLockExclusive</a>
+[AcquireSRWLockExclusive](nf-synchapi-acquiresrwlockexclusive.md)
 
+[Slim Reader/Writer (SRW) Locks](/windows/win32/Sync/slim-reader-writer--srw--locks)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-<a href="/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
+[TryAcquireSRWLockShared](nf-synchapi-tryacquiresrwlockshared.md)
 
-
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-tryacquiresrwlockshared">TryAcquireSRWLockShared</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

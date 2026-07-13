@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_CONFIGW
 title: QUERY_SERVICE_CONFIGW (winsvc.h)
-description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function.
+description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function. (Unicode)
 helpviewer_keywords: ["*LPQUERY_SERVICE_CONFIGW","LPQUERY_SERVICE_CONFIG","LPQUERY_SERVICE_CONFIG structure pointer","QUERY_SERVICE_CONFIG","QUERY_SERVICE_CONFIG structure","QUERY_SERVICE_CONFIGA","QUERY_SERVICE_CONFIGW","SERVICE_AUTO_START","SERVICE_BOOT_START","SERVICE_DEMAND_START","SERVICE_DISABLED","SERVICE_ERROR_CRITICAL","SERVICE_ERROR_IGNORE","SERVICE_ERROR_NORMAL","SERVICE_ERROR_SEVERE","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_SYSTEM_START","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_query_service_config_str","base.query_service_config_str","winsvc/LPQUERY_SERVICE_CONFIG","winsvc/QUERY_SERVICE_CONFIG","winsvc/QUERY_SERVICE_CONFIGA","winsvc/QUERY_SERVICE_CONFIGW"]
 old-location: base\query_service_config_str.htm
 tech.root: security
@@ -346,7 +346,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winsvc.h header defines QUERY_SERVICE_CONFIG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines QUERY_SERVICE_CONFIG as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

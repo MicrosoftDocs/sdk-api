@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Update
 title: IUIAnimationManager::Update (uianimation.h)
-description: Updates the values of all animation variables.
+description: Updates the values of all animation variables. (IUIAnimationManager.Update)
 helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","Update method","IUIAnimationManager.Update","IUIAnimationManager::Update","Update","Update method [Windows Animation]","Update method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_update","uianimation/IUIAnimationManager::Update"]
 old-location: uianimation\iuianimationmanager_update.htm
 tech.root: UIAnimation

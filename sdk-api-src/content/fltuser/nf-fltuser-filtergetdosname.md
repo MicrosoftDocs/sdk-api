@@ -86,7 +86,7 @@ Pointer to a caller-allocated buffer that receives the MS-DOS device name as a N
 
 ### -param dwDosNameBufferSize [in]
 
-Size, in wide characters, of the buffer that <i>lpDosName </i>points to.
+Size, in wide characters, of the buffer that <i>lpDosName </i> points to.
 
 ## -returns
 

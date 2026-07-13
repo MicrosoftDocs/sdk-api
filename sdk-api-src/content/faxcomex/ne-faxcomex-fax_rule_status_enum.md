@@ -54,7 +54,7 @@ The <b>FAX_RULE_STATUS_ENUM</b> enumeration defines the status types for outboun
 
 ## -enum-fields
 
-### -field frsVALID
+### -field frsVALID:0
 
 The routing rule is valid and can be applied to outbound faxes.
 

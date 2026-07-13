@@ -62,47 +62,47 @@ No change in button state.
 
 ### -field POINTER_CHANGE_FIRSTBUTTON_DOWN
 
-The first button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FIRSTBUTTON</a>) transitioned to a pressed state.
+The first button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_FIRSTBUTTON</a>) transitioned to a pressed state.
 
 ### -field POINTER_CHANGE_FIRSTBUTTON_UP
 
-The first button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FIRSTBUTTON</a>) transitioned to a released state.
+The first button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_FIRSTBUTTON</a>) transitioned to a released state.
 
 ### -field POINTER_CHANGE_SECONDBUTTON_DOWN
 
-The second button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_SECONDBUTTON</a>) transitioned to a pressed state.
+The second button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_SECONDBUTTON</a>) transitioned to a pressed state.
 
 ### -field POINTER_CHANGE_SECONDBUTTON_UP
 
-The second button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_SECONDBUTTON</a>) transitioned to a released state.
+The second button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_SECONDBUTTON</a>) transitioned to a released state.
 
 ### -field POINTER_CHANGE_THIRDBUTTON_DOWN
 
-The third button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_THIRDBUTTON</a>) transitioned to a pressed state.
+The third button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_THIRDBUTTON</a>) transitioned to a pressed state.
 
 ### -field POINTER_CHANGE_THIRDBUTTON_UP
 
-The third button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_THIRDBUTTON</a>) transitioned to a released state.
+The third button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_THIRDBUTTON</a>) transitioned to a released state.
 
 ### -field POINTER_CHANGE_FOURTHBUTTON_DOWN
 
-The fourth button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FOURTHBUTTON</a>) transitioned to a pressed state.
+The fourth button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_FOURTHBUTTON</a>) transitioned to a pressed state.
 
 ### -field POINTER_CHANGE_FOURTHBUTTON_UP
 
-The fourth button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FOURTHBUTTON</a>) transitioned to a released state.
+The fourth button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_FOURTHBUTTON</a>) transitioned to a released state.
 
 ### -field POINTER_CHANGE_FIFTHBUTTON_DOWN
 
-The fifth button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FIFTHBUTTON</a>) transitioned to a pressed state.
+The fifth button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_FIFTHBUTTON</a>) transitioned to a pressed state.
 
 ### -field POINTER_CHANGE_FIFTHBUTTON_UP
 
-The fifth button (see <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_FIFTHBUTTON</a>) transitioned to a released state.
+The fifth button (see <a href="/windows/win32/inputmsg/pointer-flags-contants">POINTER_FLAG_FIFTHBUTTON</a>) transitioned to a released state.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/enums">Enumerations</a>
+<a href="/windows/win32/inputmsg/enums">Enumerations</a>
 
 
 

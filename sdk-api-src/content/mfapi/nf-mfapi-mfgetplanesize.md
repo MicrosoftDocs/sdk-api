@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFGetPlaneSize
 title: MFGetPlaneSize function (mfapi.h)
-description: Retrieves the image size, in bytes, for an uncompressed video format.
+description: Retrieves the image size, in bytes, for an uncompressed video format. (MFGetPlaneSize)
 helpviewer_keywords: ["53ce83f3-b06e-4c91-a3e2-6369963e7810","MFGetPlaneSize","MFGetPlaneSize function [Media Foundation]","mf.mfgetplanesize","mfapi/MFGetPlaneSize"]
 old-location: mf\mfgetplanesize.htm
 tech.root: mf

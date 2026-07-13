@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_COMPARISON_FUNC
 title: D3D11_COMPARISON_FUNC (d3d11.h)
-description: Comparison options.
+description: Comparison options. (D3D11_COMPARISON_FUNC)
 helpviewer_keywords: ["6fbaba9a-9ef4-f12b-ab05-adee47e72652","D3D11_COMPARISON_ALWAYS","D3D11_COMPARISON_EQUAL","D3D11_COMPARISON_FUNC","D3D11_COMPARISON_FUNC enumeration [Direct3D 11]","D3D11_COMPARISON_GREATER","D3D11_COMPARISON_GREATER_EQUAL","D3D11_COMPARISON_LESS","D3D11_COMPARISON_LESS_EQUAL","D3D11_COMPARISON_NEVER","D3D11_COMPARISON_NOT_EQUAL","d3d11/D3D11_COMPARISON_ALWAYS","d3d11/D3D11_COMPARISON_EQUAL","d3d11/D3D11_COMPARISON_FUNC","d3d11/D3D11_COMPARISON_GREATER","d3d11/D3D11_COMPARISON_GREATER_EQUAL","d3d11/D3D11_COMPARISON_LESS","d3d11/D3D11_COMPARISON_LESS_EQUAL","d3d11/D3D11_COMPARISON_NEVER","d3d11/D3D11_COMPARISON_NOT_EQUAL","direct3d11.d3d11_comparison_func"]
 old-location: direct3d11\d3d11_comparison_func.htm
 tech.root: direct3d11
@@ -54,35 +54,35 @@ Comparison options.
 
 ## -enum-fields
 
-### -field D3D11_COMPARISON_NEVER
+### -field D3D11_COMPARISON_NEVER:1
 
 Never pass the comparison.
 
-### -field D3D11_COMPARISON_LESS
+### -field D3D11_COMPARISON_LESS:2
 
 If the source data is less than the destination data, the comparison passes.
 
-### -field D3D11_COMPARISON_EQUAL
+### -field D3D11_COMPARISON_EQUAL:3
 
 If the source data is equal to the destination data, the comparison passes.
 
-### -field D3D11_COMPARISON_LESS_EQUAL
+### -field D3D11_COMPARISON_LESS_EQUAL:4
 
 If the source data is less than or equal to the destination data, the comparison passes.
 
-### -field D3D11_COMPARISON_GREATER
+### -field D3D11_COMPARISON_GREATER:5
 
 If the source data is greater than the destination data, the comparison passes.
 
-### -field D3D11_COMPARISON_NOT_EQUAL
+### -field D3D11_COMPARISON_NOT_EQUAL:6
 
 If the source data is not equal to the destination data, the comparison passes.
 
-### -field D3D11_COMPARISON_GREATER_EQUAL
+### -field D3D11_COMPARISON_GREATER_EQUAL:7
 
 If the source data is greater than or equal to the destination data, the comparison passes.
 
-### -field D3D11_COMPARISON_ALWAYS
+### -field D3D11_COMPARISON_ALWAYS:8
 
 Always pass the comparison.
 

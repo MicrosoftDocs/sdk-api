@@ -11,8 +11,8 @@ ms.keywords: VirtualQueryEx, VirtualQueryEx function, _win32_virtualqueryex, bas
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
+ - api-ms-win-core-memory-l1-1-5.dll
  - Kernel32.dll
  - API-MS-Win-Core-memory-l1-1-0.dll
  - KernelBase.dll

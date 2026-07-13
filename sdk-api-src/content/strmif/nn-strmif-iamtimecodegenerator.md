@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMTimecodeGenerator","IAMTimecodeGenerator interface [Di
 old-location: dshow\iamtimecodegenerator.htm
 tech.root: dshow
 ms.assetid: 7fe74fc2-03bd-43dd-917f-ee0149f1e17f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], IAMTimecodeGenerator interface [DirectShow],described, IAMTimecodeGeneratorInterface, dshow.iamtimecodegenerator, strmif/IAMTimecodeGenerator
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IAMTimecodeGenerator</code> interface controls how an external SMPTE/MIDI timecode generator supplies data to the filter graph.
 
 DirectShow currently does not provide any filters that implement this interface. Third parties should implement this interface on any filter that controls an external timecode generator. Timecode generators can be built into a VCR or can be separate external devices. The device must be able to read timecode and send it to the computer over its control interface. If not, the user must have a timecode reader card in the computer, or you can write a software decoder that converts VITC embedded in captured video frames or LTC captured as an audio signal into DirectShow timecode samples.
@@ -65,10 +67,7 @@ For hardware requirements, see the <a href="/windows/desktop/api/strmif/nn-strmi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeGenerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMTimecodeGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeGenerator</b> also has these types of members:
 
 ## -see-also
 

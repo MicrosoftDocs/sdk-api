@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFByteStreamProxyClassFactory
 title: IMFByteStreamProxyClassFactory (mfobjects.h)
-description: Creates a proxy to a byte stream.
+description: Creates a proxy to a byte stream. (IMFByteStreamProxyClassFactory)
 helpviewer_keywords: ["IMFByteStreamProxyClassFactory","IMFByteStreamProxyClassFactory interface [Media Foundation]","IMFByteStreamProxyClassFactory interface [Media Foundation]","described","mf.imfbytestreamproxyclassfactory","mfobjects/IMFByteStreamProxyClassFactory"]
 old-location: mf\imfbytestreamproxyclassfactory.htm
 tech.root: mf
@@ -54,10 +54,7 @@ Creates a proxy to a byte stream.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamProxyClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamProxyClassFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFByteStreamProxyClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamProxyClassFactory</b> also has these types of members:
 
 ## -remarks
 

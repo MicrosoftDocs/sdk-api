@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiEnumFeaturesW
 title: MsiEnumFeaturesW function (msi.h)
-description: The MsiEnumFeatures function enumerates the published features for a given product. This function retrieves one feature ID each time it is called.
-helpviewer_keywords: ["MsiEnumFeatures","MsiEnumFeatures function","MsiEnumFeaturesA","MsiEnumFeaturesW","_msi_msienumfeatures","msi/MsiEnumFeatures","msi/MsiEnumFeaturesA","msi/MsiEnumFeaturesW","setup.msienumfeatures"]
+description: The MsiEnumFeatures function enumerates the published features for a given product. This function retrieves one feature ID each time it is called. (Unicode)
+helpviewer_keywords: ["MsiEnumFeatures", "MsiEnumFeatures function", "MsiEnumFeaturesW", "_msi_msienumfeatures", "msi/MsiEnumFeatures", "msi/MsiEnumFeaturesW", "setup.msienumfeatures"]
 old-location: setup\msienumfeatures.htm
 tech.root: setup
 ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
@@ -164,7 +164,7 @@ To enumerate features, an application should initially call the
 
 
 > [!NOTE]
-> The msi.h header defines MsiEnumFeatures as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiEnumFeatures as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

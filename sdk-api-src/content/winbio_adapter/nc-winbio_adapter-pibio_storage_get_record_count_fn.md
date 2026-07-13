@@ -85,7 +85,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_NO_RESULTS</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_NO_RESULTS</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagCBT_CREATEWNDW
 title: CBT_CREATEWNDW (winuser.h)
-description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is created.
+description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is created. (Unicode)
 helpviewer_keywords: ["*LPCBT_CREATEWNDW","CBT_CREATEWND","CBT_CREATEWND structure [Windows and Messages]","CBT_CREATEWNDA","CBT_CREATEWNDW","LPCBT_CREATEWND","LPCBT_CREATEWND structure pointer [Windows and Messages]","_win32_CBT_CREATEWND_str","_win32_cbt_createwnd_str_cpp","winmsg.cbt_createwnd","winui._win32_cbt_createwnd_str","winuser/CBT_CREATEWND","winuser/CBT_CREATEWNDA","winuser/CBT_CREATEWNDW","winuser/LPCBT_CREATEWND"]
 old-location: winmsg\cbt_createwnd.htm
 tech.root: winmsg
@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>, before a window is created.
+Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="/windows/win32/winmsg/cbtproc">CBTProc</a>, before a window is created.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ A handle to the window whose position in the Z order precedes that of the window
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
+<a href="/windows/win32/winmsg/cbtproc">CBTProc</a>
 
 
 
@@ -99,4 +99,4 @@ A handle to the window whose position in the Z order precedes that of the window
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines CBT_CREATEWND as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CBT_CREATEWND as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

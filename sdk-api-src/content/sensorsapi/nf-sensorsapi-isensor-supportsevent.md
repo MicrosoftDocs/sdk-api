@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensor interface","SupportsEvent method","ISensor.Suppor
 old-location: winsensors_com_ref\isensor_supportsevent.htm
 tech.root: winsensors
 ms.assetid: abf4e339-651d-4444-b219-e5177dbaa7ee
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensor interface,SupportsEvent method, ISensor.SupportsEvent, ISensor::SupportsEvent, SupportsEvent, SupportsEvent method, SupportsEvent method,ISensor interface, sensorsapi/ISensor::SupportsEvent, winsensors_com_ref.isensor_supportsevent
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Indicates whether the sensor supports the specified event.
 

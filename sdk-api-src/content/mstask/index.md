@@ -4,7 +4,8 @@ title: Mstask.h header
 ms.assetid: ee24e518-a7b3-3029-9e89-3a815727ab3e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: taskschd
 f1_keywords:
  - mstask

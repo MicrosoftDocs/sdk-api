@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHSendMessageBroadcastW
 title: SHSendMessageBroadcastW function (shlwapi.h)
-description: Sends a message to all top-level windows in the system.
-helpviewer_keywords: ["SHSendMessageBroadcast","SHSendMessageBroadcast function [Windows Shell]","SHSendMessageBroadcastA","SHSendMessageBroadcastW","_shell_SHSendMessageBroadcast","shell.SHSendMessageBroadcast","shlwapi/SHSendMessageBroadcast","shlwapi/SHSendMessageBroadcastA","shlwapi/SHSendMessageBroadcastW"]
+description: Sends a message to all top-level windows in the system. (Unicode)
+helpviewer_keywords: ["SHSendMessageBroadcast", "SHSendMessageBroadcast function [Windows Shell]", "SHSendMessageBroadcastW", "_shell_SHSendMessageBroadcast", "shell.SHSendMessageBroadcast", "shlwapi/SHSendMessageBroadcast", "shlwapi/SHSendMessageBroadcastW"]
 old-location: shell\SHSendMessageBroadcast.htm
 tech.root: shell
 ms.assetid: 98671f0f-2386-486f-ac96-14dd44c776c6
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shlwapi-l1-2-1.dll
+ - ext-ms-win-shell-shlwapi-l1-2-0.dll
  - Shlwapi.dll
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
@@ -94,4 +96,4 @@ The return value is not meaningful.
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHSendMessageBroadcast as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHSendMessageBroadcast as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

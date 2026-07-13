@@ -52,7 +52,7 @@ api_name:
 
 Removes all the plug-ins from the asynchronous plug-in collection.
 
-## -parameters
+
 
 ## -returns
 
@@ -60,7 +60,7 @@ For a description of the return values, see <a href="/windows/desktop/tablet/rea
 
 ## -remarks
 
-Use <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">IRealTimeStylus::RemoveStylusAsyncPlugin Method</a> to remove a specific asynchonous plug-in.
+Use <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">IRealTimeStylus::RemoveStylusAsyncPlugin Method</a> to remove a specific asynchronous plug-in.
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_ShowDropdown","ComboBox_ShowDropdown macro [Wind
 old-location: controls\ComboBox_ShowDropdown.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_showdropdown.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_ShowDropdown, ComboBox_ShowDropdown macro [Windows Controls], _win32_ComboBox_ShowDropdown, _win32_ComboBox_ShowDropdown_cpp, controls.ComboBox_ShowDropdown, controls._win32_ComboBox_ShowDropdown, windowsx/ComboBox_ShowDropdown
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_ShowDropdown macro
+
+## -syntax
+
+```cpp
+BOOL ComboBox_ShowDropdown(
+   HWND hwndCtl,
+   BOOL fShow
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Always returns <b>TRUE</b>.
 
 
 ## -description

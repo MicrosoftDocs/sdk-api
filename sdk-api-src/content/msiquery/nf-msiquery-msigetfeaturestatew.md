@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetFeatureStateW
 title: MsiGetFeatureStateW function (msiquery.h)
-description: The MsiGetFeatureState function gets the requested state of a feature.
-helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_ADVERTISED","INSTALLSTATE_BADCONFIG","INSTALLSTATE_BROKEN","INSTALLSTATE_DEFAULT","INSTALLSTATE_INCOMPLETE","INSTALLSTATE_INVALIDARG","INSTALLSTATE_LOCAL","INSTALLSTATE_MOREDATA","INSTALLSTATE_SOURCE","INSTALLSTATE_SOURCEABSENT","INSTALLSTATE_UNKNOWN","MsiGetFeatureState","MsiGetFeatureState function","MsiGetFeatureStateA","MsiGetFeatureStateW","_msi_msigetfeaturestate","msiquery/MsiGetFeatureState","msiquery/MsiGetFeatureStateA","msiquery/MsiGetFeatureStateW","setup.msigetfeaturestate"]
+description: The MsiGetFeatureState function gets the requested state of a feature. (Unicode)
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_ADVERTISED", "INSTALLSTATE_BADCONFIG", "INSTALLSTATE_BROKEN", "INSTALLSTATE_DEFAULT", "INSTALLSTATE_INCOMPLETE", "INSTALLSTATE_INVALIDARG", "INSTALLSTATE_LOCAL", "INSTALLSTATE_MOREDATA", "INSTALLSTATE_SOURCE", "INSTALLSTATE_SOURCEABSENT", "INSTALLSTATE_UNKNOWN", "MsiGetFeatureState", "MsiGetFeatureState function", "MsiGetFeatureStateW", "_msi_msigetfeaturestate", "msiquery/MsiGetFeatureState", "msiquery/MsiGetFeatureStateW", "setup.msigetfeaturestate"]
 old-location: setup\msigetfeaturestate.htm
 tech.root: setup
 ms.assetid: eb8942b9-996e-45d8-b515-5c84737eb5ed
@@ -219,7 +219,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiGetFeatureState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiGetFeatureState as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

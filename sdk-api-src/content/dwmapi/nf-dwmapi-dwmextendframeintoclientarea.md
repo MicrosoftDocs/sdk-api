@@ -57,7 +57,7 @@ Extends the window frame into the client area.
 
 ## -parameters
 
-### -param hWnd
+### -param hWnd [in]
 
 The handle to the window in which the frame will be extended into the client area.
 
@@ -67,7 +67,7 @@ A pointer to a <a href="/windows/desktop/api/uxtheme/ns-uxtheme-margins">MARGINS
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

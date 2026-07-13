@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSetting2.get_volume","IWMPSetting2::get_volume","IWMP
 old-location: wmp\iwmpsettings_get_volume.htm
 tech.root: WMP
 ms.assetid: 92c217e4-2ec4-4890-810c-dc552a36d578
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSetting2.get_volume, IWMPSetting2::get_volume, IWMPSettings interface [Windows Media Player],get_volume method, IWMPSettings.get_volume, IWMPSettings::get_volume, IWMPSettingsget_volume, get_volume, get_volume method [Windows Media Player], get_volume method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_volume, wmp/IWMPSettings::get_volume
 req.header: wmp.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_volume</b> method retrieves the current playback volume.
 

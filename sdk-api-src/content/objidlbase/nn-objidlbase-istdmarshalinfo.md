@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IStdMarshalInfo
 title: IStdMarshalInfo (objidlbase.h)
-description: Retrieves the CLSID identifying the handler to be used in the destination process during standard marshaling.
+description: The IStdMarshalInfo (objidlbase.h) interface retrieves the CLSID identifying the handler to be used in the destination process during standard marshaling.
 helpviewer_keywords: ["IStdMarshalInfo","IStdMarshalInfo interface [COM]","IStdMarshalInfo interface [COM]","described","_com_istdmarshalinfo","com.istdmarshalinfo","objidlbase/IStdMarshalInfo"]
 old-location: com\istdmarshalinfo.htm
 tech.root: com
 ms.assetid: f034436f-e24e-4b99-9fb9-b0400d3ebb72
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM],described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,10 +54,7 @@ Retrieves the CLSID identifying the handler to be used in the destination proces
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStdMarshalInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStdMarshalInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IStdMarshalInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStdMarshalInfo</b> also has these types of members:
 
 ## -remarks
 

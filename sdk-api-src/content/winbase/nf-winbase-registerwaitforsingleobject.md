@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll
@@ -75,7 +76,7 @@ A pointer to a variable that receives a wait handle on return. Note that a wait 
 
 A handle to the object. For a list of the object types whose handles can be specified, see the following Remarks section. 
 
-
+Mutex is not supported. If a handle to a mutex is passed in, the thread pool raises a STATUS_THREADPOOL_HANDLE_EXCEPTION exception and ExceptionRecord.ExceptionInformation[0] will be equal to STATUS_INVALID_PARAMETER_3.
 
 
 If this handle is closed while the wait is still pending, the function's behavior is undefined.
@@ -233,7 +234,6 @@ The
 <li>Console input</li>
 <li>Event</li>
 <li>Memory resource notification</li>
-<li>Mutex</li>
 <li>Process</li>
 <li>Semaphore</li>
 <li>Thread</li>
@@ -244,8 +244,12 @@ For more information, see
 
 By default, the thread pool has a maximum of 500 threads. To raise this limit, use the <b>WT_SET_MAX_THREADPOOL_THREAD</b> macro defined in WinNT.h.
 
-<pre class="syntax" xml:space="preserve"><code>#define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
-    ((Flags)|=(Limit)&lt;&lt;16)</code></pre>
+
+``` syntax
+#define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
+    ((Flags)|=(Limit)<<16)
+```
+
 Use this macro when specifying the <i>dwFlags</i> parameter. The macro parameters are the desired flags and the new limit (up to (2&lt;&lt;16)-1 threads). However, note that your application can improve its performance by keeping the number of worker threads low.
 
 The work item and all functions it calls must be thread-pool safe. Therefore, you cannot call an asynchronous call that requires a persistent thread, such as the 

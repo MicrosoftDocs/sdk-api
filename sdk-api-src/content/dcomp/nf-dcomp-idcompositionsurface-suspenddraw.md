@@ -52,7 +52,7 @@ api_name:
 
 Suspends the drawing on this Microsoft DirectComposition surface object.
 
-## -parameters
+
 
 ## -returns
 

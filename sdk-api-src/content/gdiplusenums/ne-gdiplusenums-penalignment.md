@@ -55,15 +55,15 @@ The <b>PenAlignment</b> enumeration specifies the alignment of a pen relative to
 
 ## -enum-fields
 
-### -field PenAlignmentCenter
+### -field PenAlignmentCenter:0
 
 Specifies that the pen is aligned on the center of the line that is drawn.
 
-### -field PenAlignmentInset
+### -field PenAlignmentInset:1
 
 Specifies, when drawing a polygon, that the pen is aligned on the inside of the edge of the polygon.
 
 ## -remarks
 
 If you set the alignment of a 
-				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b><b>PenAlignmentInset</b></b>, you cannot use that pen to draw compound lines or triangular dash caps.
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw compound lines or triangular dash caps.

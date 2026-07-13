@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-xstate-l2-1-2.dll
  - Kernel32.dll
  - API-MS-Win-Core-Xstate-l2-1-0.dll
  - KernelBase.dll
@@ -79,7 +80,7 @@ The <b>GetXStateFeaturesMask</b> function returns
      the mask of valid features in the specified context.  If a 
      <a href="/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a> is to be passed to 
      <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a> or 
-     <a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>, the application must 
+     <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64getthreadcontext">Wow64GetThreadContext</a>, the application must 
      call <a href="/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> to set which 
      features are to be retrieved. 
      <b>GetXStateFeaturesMask</b> should then be called on 
@@ -136,4 +137,4 @@ The definition of XState features are processor vendor specific. Please refer to
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>
+<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64getthreadcontext">Wow64GetThreadContext</a>

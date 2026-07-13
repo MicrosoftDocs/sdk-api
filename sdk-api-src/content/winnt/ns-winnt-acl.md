@@ -66,7 +66,7 @@ Specifies a zero byte of <a href="/windows/desktop/SecGloss/p-gly">padding</a> t
 
 ### -field AclSize
 
-Specifies the size, in bytes, of the ACL. This value includes both the <b>ACL</b> structure and all the ACEs.
+Specifies the size, in bytes, of the ACL. This value includes the **ACL** structure, all the ACEs, and the potential unused memory.
 
 ### -field AceCount
 

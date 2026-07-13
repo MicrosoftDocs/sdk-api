@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Uxtheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-uxtheme-themes-l1-1-3.dll
  - UxTheme.dll
 api_name:
  - UpdatePanningFeedback

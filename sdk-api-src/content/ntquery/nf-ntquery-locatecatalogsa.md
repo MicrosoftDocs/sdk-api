@@ -2,7 +2,7 @@
 UID: NF:ntquery.LocateCatalogsA
 title: LocateCatalogsA function (ntquery.h)
 description: Finds the catalog that indexes a directory.
-helpviewer_keywords: ["LocateCatalogs","LocateCatalogs function [Indexing Service]","LocateCatalogsA","LocateCatalogsW","_idxs_LocateCatalogs","indexsrv.locatecatalogs","ntquery/LocateCatalogs","ntquery/LocateCatalogsA","ntquery/LocateCatalogsW"]
+helpviewer_keywords: ["LocateCatalogsA", "ntquery/LocateCatalogsA"]
 old-location: indexsrv\locatecatalogs.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm

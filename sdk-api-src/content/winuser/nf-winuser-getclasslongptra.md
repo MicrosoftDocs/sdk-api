@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetClassLongPtrA
 title: GetClassLongPtrA function (winuser.h)
-description: Retrieves the specified value from the WNDCLASSEX structure associated with the specified window.
-helpviewer_keywords: ["GCLP_HBRBACKGROUND","GCLP_HCURSOR","GCLP_HICON","GCLP_HICONSM","GCLP_HMODULE","GCLP_MENUNAME","GCLP_WNDPROC","GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_STYLE","GCW_ATOM","GetClassLongPtr","GetClassLongPtr function [Windows and Messages]","GetClassLongPtrA","GetClassLongPtrW","_win32_GetClassLongPtr","_win32_getclasslongptr_cpp","winmsg.getclasslongptr","winui._win32_getclasslongptr","winuser/GetClassLongPtr","winuser/GetClassLongPtrA","winuser/GetClassLongPtrW"]
+description: Retrieves the specified value from the WNDCLASSEX structure associated with the specified window. (ANSI)
+helpviewer_keywords: ["GCLP_HBRBACKGROUND", "GCLP_HCURSOR", "GCLP_HICON", "GCLP_HICONSM", "GCLP_HMODULE", "GCLP_MENUNAME", "GCLP_WNDPROC", "GCL_CBCLSEXTRA", "GCL_CBWNDEXTRA", "GCL_STYLE", "GCW_ATOM", "GetClassLongPtrA", "winuser/GetClassLongPtrA"]
 old-location: winmsg\getclasslongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclasslongptr.htm
@@ -218,7 +218,7 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 > [!NOTE]
-> The winuser.h header defines GetClassLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetClassLongPtr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

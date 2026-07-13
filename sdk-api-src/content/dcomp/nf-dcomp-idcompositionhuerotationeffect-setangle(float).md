@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionHueRotationEffect.SetAngle(float)
 title: IDCompositionHueRotationEffect::SetAngle(float) (dcomp.h)
-description: Sets the angle to rotate the hue.
+description: The IDCompositionHueRotationEffect::SetAngle(float) method sets the angle to rotate the hue.
 helpviewer_keywords: ["IDCompositionHueRotationEffect interface [DirectComposition]","SetAngle method","IDCompositionHueRotationEffect.SetAngle","IDCompositionHueRotationEffect.SetAngle(float)","IDCompositionHueRotationEffect::SetAngle","IDCompositionHueRotationEffect::SetAngle(float)","SetAngle","SetAngle method [DirectComposition]","SetAngle method [DirectComposition]","IDCompositionHueRotationEffect interface","dcomp/IDCompositionHueRotationEffect::SetAngle","directcomp.idcompositionhuerotationeffect_setangle"]
 old-location: directcomp\idcompositionhuerotationeffect_setangle.htm
 tech.root: directcomp
 ms.assetid: BA98A918-EE51-40C7-9392-D5E0D78580F8
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: IDCompositionHueRotationEffect interface [DirectComposition],SetAngle method, IDCompositionHueRotationEffect.SetAngle, IDCompositionHueRotationEffect.SetAngle(float), IDCompositionHueRotationEffect::SetAngle, IDCompositionHueRotationEffect::SetAngle(float), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionHueRotationEffect interface, dcomp/IDCompositionHueRotationEffect::SetAngle, directcomp.idcompositionhuerotationeffect_setangle
 req.header: dcomp.h
 req.include-header: 
@@ -67,7 +67,7 @@ The angle to rotate the hue. The effect calculates a color matrix based on the r
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

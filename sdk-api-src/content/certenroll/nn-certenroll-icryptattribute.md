@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>ICryptAttribute</b> interface represents a cryptographic attribute in a certificate request. A collection of these attributes is contained in the  <b>CertificateRequestInfo</b> structure of a  PKCS #10 request as shown by the following example syntax.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 CertificationRequestInfo ::= SEQUENCE 
 {
    version                 CertificationRequestInfoVersion,
@@ -69,7 +71,9 @@ Attribute ::= SEQUENCE
 }
 
 AttributeSetValue ::= SET OF ANY
-</code></pre>A single <b>ICryptAttribute</b> object corresponds to the attributes collection in the request. The <b>ICryptAttribute</b> object in turn contains a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a> objects. Each attribute in this collection contains an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> and one or more values. Each value is an encoded <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure. Zero or more of the following objects can be included in the collection:<ul>
+
+```
+A single <b>ICryptAttribute</b> object corresponds to the attributes collection in the request. The <b>ICryptAttribute</b> object in turn contains a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a> objects. Each attribute in this collection contains an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> and one or more values. Each value is an encoded <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure. Zero or more of the following objects can be included in the collection:<ul>
 <li>
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a>
 </li>
@@ -95,11 +99,7 @@ AttributeSetValue ::= SET OF ANY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICryptAttribute</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICryptAttribute</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>ICryptAttribute</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICryptAttribute</b> also has these types of members:
 
 ## -see-also
 

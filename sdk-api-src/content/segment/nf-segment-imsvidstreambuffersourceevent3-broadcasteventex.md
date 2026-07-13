@@ -50,12 +50,14 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
 
 
-The <b>BroadcastEventEx</b> method is called when the <a href="/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object receives a broadcast event through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcasteventex">IBroadcastEventEx</a> interface.
+The <b>BroadcastEventEx</b> method is called when the <a href="/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object receives a broadcast event through the <a href="/previous-versions/dd376295(v=vs.85)">IBroadcastEventEx</a> interface.
 
 ## -parameters
 
@@ -85,7 +87,7 @@ Return S_OK or an error code.
 
 ## -remarks
 
-For more information, see <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcasteventex-fireex">IBroadcastEventEx::FireEx</a>.
+For more information, see <a href="/previous-versions/dd376296(v=vs.85)">IBroadcastEventEx::FireEx</a>.
 
 ## -see-also
 

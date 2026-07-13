@@ -4,7 +4,8 @@ title: Windows Web Services
 ms.assetid: dc4e8f4e-add6-3a79-a002-c7682bed67b6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Windows Web Services

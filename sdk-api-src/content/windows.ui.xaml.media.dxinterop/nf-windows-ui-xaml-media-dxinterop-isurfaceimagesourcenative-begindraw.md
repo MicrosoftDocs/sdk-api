@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative.BeginDraw
-title: ISurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: ISurfaceImageSourceNative::BeginDraw (windows.ui.xaml.media.dxinterop.h)
 description: Opens the supplied DXGI surface for drawing.
 helpviewer_keywords: ["BeginDraw","BeginDraw method [Windows Runtime]","BeginDraw method [Windows Runtime]","ISurfaceImageSourceNative interface","ISurfaceImageSourceNative interface [Windows Runtime]","BeginDraw method","ISurfaceImageSourceNative.BeginDraw","ISurfaceImageSourceNative.xaml","ISurfaceImageSourceNative::BeginDraw","ISurfaceImageSourceNative::xaml","windows/ISurfaceImageSourceNative::BeginDraw","winrt.isurfaceimagesourcenative_begindraw"]
 old-location: winrt\isurfaceimagesourcenative_begindraw.htm
@@ -45,7 +45,7 @@ api_name:
  - ISurfaceImageSourceNative.BeginDraw
 ---
 
-# ISurfaceImageSourceNative::xaml
+# ISurfaceImageSourceNative::BeginDraw (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description
@@ -68,7 +68,7 @@ Receives the point (x,y) offset of the surface that will be drawn into.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsSameRootW
 title: PathIsSameRootW function (shlwapi.h)
-description: Compares two paths to determine if they have a common root component.
-helpviewer_keywords: ["PathIsSameRoot","PathIsSameRoot function [Windows Shell]","PathIsSameRootA","PathIsSameRootW","_win32_PathIsSameRoot","shell.PathIsSameRoot","shlwapi/PathIsSameRoot","shlwapi/PathIsSameRootA","shlwapi/PathIsSameRootW"]
+description: Compares two paths to determine if they have a common root component. (Unicode)
+helpviewer_keywords: ["PathIsSameRoot", "PathIsSameRoot function [Windows Shell]", "PathIsSameRootW", "_win32_PathIsSameRoot", "shell.PathIsSameRoot", "shlwapi/PathIsSameRoot", "shlwapi/PathIsSameRootW"]
 old-location: shell\PathIsSameRoot.htm
 tech.root: shell
 ms.assetid: 3409a8f1-e22c-4c13-961e-211a2d10fe10
@@ -81,5 +81,5 @@ Returns <b>TRUE</b> if both strings have the same root component, or <b>FALSE</b
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathIsSameRoot as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathIsSameRoot as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -54,7 +54,7 @@ The <b>FAX_LOG_LEVEL_ENUM</b> enumeration defines the event logging levels for a
 
 ## -enum-fields
 
-### -field fllNONE
+### -field fllNONE:0
 
 The fax server does not log events.
 

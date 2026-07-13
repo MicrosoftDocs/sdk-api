@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Tilt method",
 old-location: dshow\icameracontrol_put_tilt.htm
 tech.root: dshow
 ms.assetid: e75adedb-5cf2-4b2c-bb57-1bfedfc81979
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICameraControl interface [DirectShow],put_Tilt method, ICameraControl.put_Tilt, ICameraControl::put_Tilt, ICameraControlput_Tilt, dshow.icameracontrol_put_tilt, put_Tilt, put_Tilt method [DirectShow], put_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Tilt
 req.header: vidcap.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>put_Tilt</code> method sets the camera's tilt angle.
 
 ## -parameters
@@ -61,7 +63,7 @@ Specifies the tilt angle, in degrees. Positive values point the camera up, and n
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 ## -returns
 

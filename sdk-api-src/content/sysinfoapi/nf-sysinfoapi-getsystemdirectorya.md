@@ -1,8 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetSystemDirectoryA
 title: GetSystemDirectoryA function (sysinfoapi.h)
-description: Retrieves the path of the system directory.
-helpviewer_keywords: ["GetSystemDirectory","GetSystemDirectory function","GetSystemDirectoryA","GetSystemDirectoryW","_win32_getsystemdirectory","base.getsystemdirectory","sysinfoapi/GetSystemDirectory","sysinfoapi/GetSystemDirectoryA","sysinfoapi/GetSystemDirectoryW"]
+description: Retrieves the path of the system directory. (ANSI)
+helpviewer_keywords: ["GetSystemDirectoryA", "sysinfoapi/GetSystemDirectoryA"]
 old-location: base\getsystemdirectory.htm
 tech.root: winprog
 ms.assetid: 79f045b2-40d9-498a-b720-e729c92bf50b
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-sysinfo-l1-2-7.dll
+ - api-ms-win-core-sysinfo-l1-2-6.dll
+ - api-ms-win-core-sysinfo-l1-2-5.dll
+ - api-ms-win-core-sysinfo-l1-2-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-SysInfo-l1-1-0.dll
  - KernelBase.dll
@@ -98,7 +102,7 @@ For an example, see
 
 
 > [!NOTE]
-> The sysinfoapi.h header defines GetSystemDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sysinfoapi.h header defines GetSystemDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

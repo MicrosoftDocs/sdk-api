@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CreateWriter
 title: CreateWriter function (vswriter.h)
-description: This function is reserved for system use.
+description: This function is reserved for system use. (CreateWriter)
 helpviewer_keywords: ["CreateWriter","CreateWriter function","base.createwriter","vswriter/CreateWriter"]
 old-location: base\createwriter.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-fs-vssapi-l1-1-0.dll
  - vswriter.h
 api_name:
  - CreateWriter

@@ -1,7 +1,7 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceScriptable3
 title: IWorkspaceScriptable3 (workspaceruntime.h)
-description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections.
+description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections. (IWorkspaceScriptable3)
 helpviewer_keywords: ["IWorkspaceScriptable3","IWorkspaceScriptable3 interface [Remote Desktop Services]","IWorkspaceScriptable3 interface [Remote Desktop Services]","described","termserv.iworkspacescriptable3","workspaceruntime/IWorkspaceScriptable3"]
 old-location: termserv\iworkspacescriptable3.htm
 tech.root: TermServ
@@ -56,8 +56,5 @@ Exposes methods that manage RemoteApp and Desktop Connection credentials and con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable3</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable2">IWorkspaceScriptable2</a>. <b>IWorkspaceScriptable3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWorkspaceScriptable3</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable2">IWorkspaceScriptable2</a>. <b>IWorkspaceScriptable3</b> also has these types of members:
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.Invoke
 title: IRpcStubBuffer::Invoke (objidl.h)
-description: Invokes the interface that a stub represents.
+description: The IRpcStubBuffer::Invoke method (objidl.h) invokes the interface that a stub represents.
 helpviewer_keywords: ["IRpcStubBuffer interface [COM]","Invoke method","IRpcStubBuffer.Invoke","IRpcStubBuffer::Invoke","Invoke","Invoke method [COM]","Invoke method [COM]","IRpcStubBuffer interface","_com_irpcstubbuffer_invoke","com.irpcstubbuffer_invoke","objidlbase/IRpcStubBuffer::Invoke"]
 old-location: com\irpcstubbuffer_invoke.htm
 tech.root: com
 ms.assetid: 78d20830-78d7-4395-aaec-8a86b7c41cc7
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IRpcStubBuffer interface [COM],Invoke method, IRpcStubBuffer.Invoke, IRpcStubBuffer::Invoke, Invoke, Invoke method [COM], Invoke method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
 req.header: objidl.h
 req.include-header: ObjIdl.h

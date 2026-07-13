@@ -61,7 +61,7 @@ api_name:
 
 The <b>GetClassObjectInterface</b> method returns an <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface pointer.
 
-## -parameters
+
 
 ## -returns
 

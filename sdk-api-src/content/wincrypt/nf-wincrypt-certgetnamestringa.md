@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CertGetNameStringA
 title: CertGetNameStringA function (wincrypt.h)
-description: Obtains the subject or issuer name from a certificate CERT_CONTEXT structure and converts it to a null-terminated character string.
-helpviewer_keywords: ["CERT_NAME_ATTR_TYPE","CERT_NAME_DISABLE_IE4_UTF8_FLAG","CERT_NAME_DNS_TYPE","CERT_NAME_EMAIL_TYPE","CERT_NAME_FRIENDLY_DISPLAY_TYPE","CERT_NAME_ISSUER_FLAG","CERT_NAME_RDN_TYPE","CERT_NAME_SEARCH_ALL_NAMES_FLAG","CERT_NAME_SIMPLE_DISPLAY_TYPE","CERT_NAME_STR_ENABLE_PUNYCODE_FLAG","CERT_NAME_UPN_TYPE","CERT_NAME_URL_TYPE","CertGetNameString","CertGetNameString function [Security]","CertGetNameStringA","CertGetNameStringW","_crypto2_certgetnamestring","security.certgetnamestring","wincrypt/CertGetNameString","wincrypt/CertGetNameStringA","wincrypt/CertGetNameStringW"]
+description: Obtains the subject or issuer name from a certificate CERT_CONTEXT structure and converts it to a null-terminated character string. (ANSI)
+helpviewer_keywords: ["CERT_NAME_ATTR_TYPE", "CERT_NAME_DISABLE_IE4_UTF8_FLAG", "CERT_NAME_DNS_TYPE", "CERT_NAME_EMAIL_TYPE", "CERT_NAME_FRIENDLY_DISPLAY_TYPE", "CERT_NAME_ISSUER_FLAG", "CERT_NAME_RDN_TYPE", "CERT_NAME_SEARCH_ALL_NAMES_FLAG", "CERT_NAME_SIMPLE_DISPLAY_TYPE", "CERT_NAME_STR_ENABLE_PUNYCODE_FLAG", "CERT_NAME_UPN_TYPE", "CERT_NAME_URL_TYPE", "CertGetNameStringA", "wincrypt/CertGetNameStringA"]
 old-location: security\certgetnamestring.htm
 tech.root: security
 ms.assetid: 300e6345-0be0-48c7-a3a3-174879cf0bbb
@@ -275,4 +275,4 @@ Returns the number of characters converted, including the terminating zero chara
 ## -remarks
 
 > [!NOTE]
-> The wincrypt.h header defines CertGetNameString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincrypt.h header defines CertGetNameString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

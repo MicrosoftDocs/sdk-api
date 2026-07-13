@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.EnumResourceNamesExA
 title: EnumResourceNamesExA function (libloaderapi.h)
-description: Enumerates resources of a specified type that are associated with a specified binary module. The search can include both an LN file and its associated .mui files, or it can be limited in several ways.
-helpviewer_keywords: ["EnumResourceNamesEx","EnumResourceNamesEx function [Menus and Other Resources]","EnumResourceNamesExA","EnumResourceNamesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceNamesEx","_win32_enumresourcenamesex_cpp","libloaderapi/EnumResourceNamesEx","libloaderapi/EnumResourceNamesExA","libloaderapi/EnumResourceNamesExW","menurc.enumresourcenamesex","winui._win32_enumresourcenamesex"]
+description: Enumerates resources of a specified type that are associated with a specified binary module. The search can include both an LN file and its associated .mui files, or it can be limited in several ways. (ANSI)
+helpviewer_keywords: ["EnumResourceNamesExA", "RESOURCE_ENUM_LN", "RESOURCE_ENUM_MUI", "RESOURCE_ENUM_VALIDATE", "libloaderapi/EnumResourceNamesExA"]
 old-location: menurc\enumresourcenamesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenamesex.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-libraryloader-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
  - KernelBase.dll
@@ -73,7 +74,7 @@ If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the
 
 Type: <b>LPCSTR</b>
 
-The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://msdn.microsoft.com/8d27f79a-8165-4565-a975-f25b2344efdc">Resource Types</a>. For more information, see the Remarks section below.
+The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/win32/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ### -param lpEnumFunc [in]
 
@@ -143,7 +144,7 @@ The localization language used to filter the search in the MUI module. This para
 
 Type: <b>BOOL</b>
 
-The function <b>TRUE</b> if successful, or <b>FALSE</b> if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+The function <b>TRUE</b> if successful, or <b>FALSE</b> if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -153,7 +154,7 @@ integer identifier of the resource type. For example, the string "#258" represen
 
 The enumeration search can include both an LN file and its associated .mui files. It can be limited to a single binary module of any type. It can also be limited to the .mui files associated with a single LN file. By specifying an LN file for the <i>hModule</i> parameter and a nonzero <i>LangId</i> parameter, the search can be limited to the unique .mui file associated with that LN file and language.
 
-For each resource found, <b>EnumResourceNamesEx</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing the name or the ID of each resource it finds, as well as the various other parameters that were passed to <b>EnumResourceNamesEx</b>.
+For each resource found, <b>EnumResourceNamesEx</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing the name or the ID of each resource it finds, as well as the various other parameters that were passed to <b>EnumResourceNamesEx</b>. The passed name is only valid inside the callback - if the passed name is a string pointer, it points to an internal buffer that is reused for all callback invocations.
 
 If a resource has an ID, the ID is returned to the callback function; otherwise the resource name is returned to the callback function. For more information, see <a href="/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca">EnumResNameProc</a>.
 
@@ -161,19 +162,18 @@ The <b>EnumResourceNamesEx</b> function continues to enumerate resource names un
 
 If <i>hModule</i> specifies an LN file, and both flags are selected, the names enumerated correspond to resources residing either in that LN file or  the .mui files associated with it. If no .mui files are found, only names from the LN file are returned. After one appropriate .mui file is found the search will not continue further, because all .mui files corresponding to a single LN file have the same resource names.
 
-If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves like <a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>.
+If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves like <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>.
 
 If <i>LangId</i> is nonzero, then only the .mui file corresponding to that Language identifier will be searched. Language fallbacks will not be used. If an .mui file for that language does not exist, the enumeration will be empty (unless resources for that language exist in the LN file, and the flag is set to search the LN file as well).
 
 The enumeration never includes duplicates: if resources for a particular language are contained in both the LN file and in an .mui file, the name will only be enumerated once.
-
 
 ## Examples
 
 For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Creating a Resource List</a>.
 
 > [!NOTE]
-> The libloaderapi.h header defines EnumResourceNamesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The libloaderapi.h header defines EnumResourceNamesEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -189,7 +189,7 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
 
 
 
@@ -201,4 +201,4 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

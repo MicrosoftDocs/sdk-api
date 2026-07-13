@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredWriteA
 title: CredWriteA function (wincred.h)
-description: Creates a new credential or modifies an existing credential in the user's credential set.
-helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB","CredWrite","CredWrite function [Security]","CredWriteA","CredWriteW","_cred_credwrite","security.credwrite","wincred/CredWrite","wincred/CredWriteA","wincred/CredWriteW"]
+description: Creates a new credential or modifies an existing credential in the user's credential set. (ANSI)
+helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB", "CredWriteA", "wincred/CredWriteA"]
 old-location: security\credwrite.htm
 tech.root: security
 ms.assetid: 9a590347-d610-4916-bf63-60fbec173ac2
@@ -210,7 +210,7 @@ If the value of the <b>Type</b> member of the <a href="/windows/desktop/api/winc
 
 
 > [!NOTE]
-> The wincred.h header defines CredWrite as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredWrite as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

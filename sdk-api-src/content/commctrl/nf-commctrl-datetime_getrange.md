@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_GetRange","DateTime_GetRange macro [Windows Cont
 old-location: controls\DateTime_GetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_GetRange, DateTime_GetRange macro [Windows Controls], _win32_DateTime_GetRange, _win32_DateTime_GetRange_cpp, commctrl/DateTime_GetRange, controls.DateTime_GetRange, controls._win32_DateTime_GetRange
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # DateTime_GetRange macro
+
+## -syntax
+
+```cpp
+DWORD DateTime_GetRange(
+   HWND         hdp,
+   LPSYSTEMTIME rgst
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>DWORD</b> value that is a combination of GDTR_MIN or GDTR_MAX. The first element of the <b>SYSTEMTIME</b> array contains the minimum allowable time. The second element of the <b>SYSTEMTIME</b> array contains the maximum allowable time.
 
 
 ## -description

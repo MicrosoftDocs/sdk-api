@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.get_SignerCertificate
 title: IX509CertificateRequestCertificate::get_SignerCertificate (certenroll.h)
-description: Specifies or retrieves the ISignerCertificate object used to sign the certificate.
+description: Specifies or retrieves the ISignerCertificate object used to sign the certificate. (Get)
 helpviewer_keywords: ["IX509CertificateRequestCertificate interface [Security]","SignerCertificate property","IX509CertificateRequestCertificate.SignerCertificate","IX509CertificateRequestCertificate.get_SignerCertificate","IX509CertificateRequestCertificate::SignerCertificate","IX509CertificateRequestCertificate::get_SignerCertificate","IX509CertificateRequestCertificate::put_SignerCertificate","SignerCertificate property [Security]","SignerCertificate property [Security]","IX509CertificateRequestCertificate interface","certenroll/IX509CertificateRequestCertificate::SignerCertificate","certenroll/IX509CertificateRequestCertificate::get_SignerCertificate","certenroll/IX509CertificateRequestCertificate::put_SignerCertificate","get_SignerCertificate","security.ix509certificaterequestcertificate_signercertificate_property"]
 old-location: security\ix509certificaterequestcertificate_signercertificate_property.htm
 tech.root: security

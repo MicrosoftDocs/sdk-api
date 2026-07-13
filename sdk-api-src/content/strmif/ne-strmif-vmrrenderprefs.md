@@ -6,7 +6,7 @@ helpviewer_keywords: ["RenderPrefs_AllowOffscreen","RenderPrefs_AllowOverlays","
 old-location: dshow\vmrrenderprefs.htm
 tech.root: dshow
 ms.assetid: cfe1d4a7-b1ec-4d8e-b6d5-3fe5a530c352
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: RenderPrefs_AllowOffscreen, RenderPrefs_AllowOverlays, RenderPrefs_DoNotRenderColorKeyAndBorder, RenderPrefs_ForceOffscreen, RenderPrefs_ForceOverlays, RenderPrefs_Mask, RenderPrefs_PreferAGPMemWhenMixing, RenderPrefs_Reserved, RenderPrefs_RestrictToInitialMonitor, VMRRenderPrefs, VMRRenderPrefs enumeration [DirectShow], VMRRenderPrefsEnumeration, dshow.vmrrenderprefs, strmif/RenderPrefs_AllowOffscreen, strmif/RenderPrefs_AllowOverlays, strmif/RenderPrefs_DoNotRenderColorKeyAndBorder, strmif/RenderPrefs_ForceOffscreen, strmif/RenderPrefs_ForceOverlays, strmif/RenderPrefs_Mask, strmif/RenderPrefs_PreferAGPMemWhenMixing, strmif/RenderPrefs_Reserved, strmif/RenderPrefs_RestrictToInitialMonitor, strmif/VMRRenderPrefs
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,43 +50,45 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>VMRRenderPrefs</b> enumeration type is used with the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-getrenderingprefs">IVMRFilterConfig::GetRenderingPrefs</a> and <a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs">IVMRFilterConfig::SetRenderingPrefs</a> methods to get and set basic rendering preferences.
 
 ## -enum-fields
 
-### -field RenderPrefs_RestrictToInitialMonitor
+### -field RenderPrefs_RestrictToInitialMonitor:0
 
 Not implemented; do not use.
 
-### -field RenderPrefs_ForceOffscreen
+### -field RenderPrefs_ForceOffscreen:0x1
 
 Indicates that the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) should use only offscreen surfaces for rendering.
 
-### -field RenderPrefs_ForceOverlays
+### -field RenderPrefs_ForceOverlays:0x2
 
 Indicates that the VMR-7 should fail if no overlay surfaces are available.
 
-### -field RenderPrefs_AllowOverlays
+### -field RenderPrefs_AllowOverlays:0
 
 Indicates that the VMR-7 should use overlays if they are available. Should not be used by new applications.
 
-### -field RenderPrefs_AllowOffscreen
+### -field RenderPrefs_AllowOffscreen:0
 
 Indicates that the VMR-7 should use offscreen surfaces if no overlays are available. Should not be used by new applications.
 
-### -field RenderPrefs_DoNotRenderColorKeyAndBorder
+### -field RenderPrefs_DoNotRenderColorKeyAndBorder:0x8
 
 Indicates that the application is responsible for painting the color keys.
 
-### -field RenderPrefs_Reserved
+### -field RenderPrefs_Reserved:0x10
 
 Reserved; do not use.
 
-### -field RenderPrefs_PreferAGPMemWhenMixing
+### -field RenderPrefs_PreferAGPMemWhenMixing:0x20
 
 Indicates that the VMR-7 should attempt to use AGP memory when allocating texture surfaces.
 
-### -field RenderPrefs_Mask
+### -field RenderPrefs_Mask:0x3f
 
 Bitwise <b>OR</b> of all of the above flags.
 

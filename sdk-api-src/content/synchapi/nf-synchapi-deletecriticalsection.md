@@ -6,10 +6,10 @@ helpviewer_keywords: ["DeleteCriticalSection","DeleteCriticalSection function","
 old-location: base\deletecriticalsection.htm
 tech.root: base
 ms.assetid: 97e29fc3-b155-448e-aaa9-19f0fc2d841e
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: DeleteCriticalSection, DeleteCriticalSection function, _win32_deletecriticalsection, base.deletecriticalsection, synchapi/DeleteCriticalSection, winbase/DeleteCriticalSection
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -54,7 +54,6 @@ api_name:
 
 # DeleteCriticalSection function
 
-
 ## -description
 
 Releases all resources used by an unowned critical section object.
@@ -63,46 +62,32 @@ Releases all resources used by an unowned critical section object.
 
 ### -param lpCriticalSection [in, out]
 
-A pointer to the critical section object. The object must have been previously initialized with the 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection">InitializeCriticalSection</a> function.
+A pointer to the critical section object. The object must have been previously initialized with the [InitializeCriticalSection](nf-synchapi-initializecriticalsection.md) function.
 
 ## -remarks
 
 Deleting a critical section object releases all system resources used by the object. The caller is responsible for ensuring that the critical section object is unowned and the specified CRITICAL_SECTION structure is not being accessed by any critical section functions called by other threads in the process.
 
-After a critical section object has been deleted, do not reference the object in any function that operates on critical sections (such as <a href="/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a>, <a href="/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>, and <a href="/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection">LeaveCriticalSection</a>) other than <a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection">InitializeCriticalSection</a> and <a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsectionandspincount">InitializeCriticalSectionAndSpinCount</a>. If you attempt to do so, memory corruption and other unexpected errors can occur.
+After a critical section object has been deleted, do not reference the object in any function that operates on critical sections (such as [EnterCriticalSection](nf-synchapi-entercriticalsection.md), [TryEnterCriticalSection](nf-synchapi-tryentercriticalsection.md), and [LeaveCriticalSection](nf-synchapi-leavecriticalsection.md)) other than [InitializeCriticalSection](nf-synchapi-initializecriticalsection.md) and [InitializeCriticalSectionAndSpinCount](nf-synchapi-initializecriticalsectionandspincount.md). If you attempt to do so, memory corruption and other unexpected errors can occur.
 
 If a critical section is deleted while it is still owned, the state of the threads waiting for ownership of the deleted critical section is undefined.
 
-
 #### Examples
 
-For an example that uses 
-<b>DeleteCriticalSection</b>, see 
-<a href="/windows/desktop/Sync/using-critical-section-objects">Using Critical Section Objects</a>.
-
-<div class="code"></div>
+For an example that uses **DeleteCriticalSection**, see [Using Critical Section Objects](/windows/win32/Sync/using-critical-section-objects).
 
 ## -see-also
 
-<a href="/windows/desktop/Sync/critical-section-objects">Critical Section Objects</a>
+[Critical Section Objects](/windows/win32/Sync/critical-section-objects)
 
+[EnterCriticalSection](nf-synchapi-entercriticalsection.md)
 
+[InitializeCriticalSection](nf-synchapi-initializecriticalsection.md)
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a>
+[LeaveCriticalSection](nf-synchapi-leavecriticalsection.md)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
+[TryEnterCriticalSection](nf-synchapi-tryentercriticalsection.md)
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection">InitializeCriticalSection</a>
-
-
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection">LeaveCriticalSection</a>
-
-
-
-<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
-
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

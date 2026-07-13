@@ -47,10 +47,10 @@ api_name:
 
 # GetMonitorCapabilities function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+> [!WARNING]
+> The physical monitor configuration functions work using the VESA Monitor Control Command Set (MCCS) standard over an I<sup>2</sup>C interface. Many monitors don't fully implement that standard; so your use of these commands might result in undefined monitor behavior. We don't recommend using these functions for arbitrary monitors without physically validating that they work as intended.
 
 Retrieves the configuration capabilities of a monitor. Call this function to find out which high-level monitor configuration functions are supported by the monitor.
 
@@ -70,7 +70,7 @@ Receives a bitwise <b>OR</b> of color temperature flags. See Remarks.
 
 ## -returns
 
-If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <b>GetLastError</b>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The function fails if the monitor does not support DDC/CI.
 

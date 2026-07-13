@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-devices-config-l1-1-2.dll
  - CfgMgr32.dll
  - API-Ms-Win-Devices-Config-L1-1-0.dll
  - API-Ms-Win-Devices-Config-L1-1-1.dll
@@ -68,7 +69,7 @@ Pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</
 
 ### -param PropertyType [out]
 
-Pointer to a <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device instance property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
+Pointer to a <a href="/windows-hardware/drivers/install/property-data-type-identifiers">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device instance property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
 
 ### -param PropertyBuffer [out]
 

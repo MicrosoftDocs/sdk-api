@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreatePixelShader
 title: ID3D10Device::CreatePixelShader (d3d10.h)
-description: Create a pixel shader.
+description: Create a pixel shader. (ID3D10Device.CreatePixelShader)
 helpviewer_keywords: ["CreatePixelShader","CreatePixelShader method [Direct3D 10]","CreatePixelShader method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreatePixelShader method","ID3D10Device.CreatePixelShader","ID3D10Device::CreatePixelShader","d3d10/ID3D10Device::CreatePixelShader","direct3d10.id3d10device_createpixelshader","eaddd998-99a2-ab8d-51dd-98d72c93e291"]
 old-location: direct3d10\id3d10device_createpixelshader.htm
 tech.root: direct3d10

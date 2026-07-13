@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateStringArray
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateStringArray (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of string values.
 helpviewer_keywords: ["CreateStringArray","CreateStringArray method [Windows Runtime]","CreateStringArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateStringArray method","IPropertyValueStatics.CreateStringArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateStringArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateStringArray","winrt.ipropertyvaluefactory_createstringarray","winrt.ipropertyvaluestatics_createstringarray"]
 old-location: winrt\ipropertyvaluestatics_createstringarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateStringArray
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateStringArray (windows.foundation.h)
 
 
 ## -description
@@ -76,7 +76,7 @@ A pointer to a new object that contains <i>value</i>. Use the <a href="/windows/
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

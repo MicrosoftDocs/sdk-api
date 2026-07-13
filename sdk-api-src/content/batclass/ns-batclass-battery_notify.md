@@ -1,5 +1,5 @@
 ---
-UID: NS:batclass.__unnamed_struct_1
+UID: NS:batclass.BATTERY_NOTIFY
 title: BATTERY_NOTIFY (batclass.h)
 description: A battery miniclass driver receives a BATTERY_NOTIFY structure when its BatteryMiniSetStatusNotify routine is called.
 helpviewer_keywords: ["*PBATTERY_NOTIFY","BATTERY_NOTIFY","BATTERY_NOTIFY structure [Battery Devices]","PBATTERY_NOTIFY","PBATTERY_NOTIFY structure pointer [Battery Devices]","bat-struct_cd1e6dc5-678c-4529-b852-2832ce2e791b.xml","batclass/BATTERY_NOTIFY","batclass/PBATTERY_NOTIFY","battery.battery_notify"]
@@ -71,3 +71,4 @@ Specifies a ULONG value indicating the battery capacity above which the class dr
 ## -see-also
 
 <a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>
+

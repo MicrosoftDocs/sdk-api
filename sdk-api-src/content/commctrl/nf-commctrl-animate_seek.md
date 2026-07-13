@@ -6,7 +6,7 @@ helpviewer_keywords: ["Animate_Seek","Animate_Seek macro [Windows Controls]","_w
 old-location: controls\Animate_Seek.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_seek.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Animate_Seek, Animate_Seek macro [Windows Controls], _win32_Animate_Seek, _win32_Animate_Seek_cpp, commctrl/Animate_Seek, controls.Animate_Seek, controls._win32_Animate_Seek
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Animate_Seek macro
+
+## -syntax
+
+```cpp
+BOOL Animate_Seek(
+   HWND hwnd,
+   UINT frame
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

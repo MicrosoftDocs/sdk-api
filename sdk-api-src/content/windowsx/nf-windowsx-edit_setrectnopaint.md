@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetRectNoPaint","Edit_SetRectNoPaint macro [Windows 
 old-location: controls\Edit_SetRectNoPaint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setrectnopaint.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_SetRectNoPaint, Edit_SetRectNoPaint macro [Windows Controls], _win32_Edit_SetRectNoPaint, _win32_Edit_SetRectNoPaint_cpp, controls.Edit_SetRectNoPaint, controls._win32_Edit_SetRectNoPaint, windowsx/Edit_SetRectNoPaint
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Edit_SetRectNoPaint macro
+
+## -syntax
+
+```cpp
+void Edit_SetRectNoPaint(
+   HWND hwndCtl,
+   RECT *lprc
+);
+```
 
 
 ## -description

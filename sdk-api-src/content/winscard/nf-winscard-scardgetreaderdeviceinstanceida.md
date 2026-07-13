@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardGetReaderDeviceInstanceIdA
 title: SCardGetReaderDeviceInstanceIdA function (winscard.h)
-description: Gets the device instance identifier of the card reader for the given reader name. This function does not affect the state of the reader.
-helpviewer_keywords: ["SCardGetReaderDeviceInstanceId","SCardGetReaderDeviceInstanceId function [Security]","SCardGetReaderDeviceInstanceIdA","SCardGetReaderDeviceInstanceIdW","security.scardgetreaderdeviceinstanceid","winscard/SCardGetReaderDeviceInstanceId"]
+description: Gets the device instance identifier of the card reader for the given reader name. This function does not affect the state of the reader. (ANSI)
+helpviewer_keywords: ["SCardGetReaderDeviceInstanceIdA"]
 old-location: security\scardgetreaderdeviceinstanceid.htm
 tech.root: security
 ms.assetid: 306F1EAF-35A7-4449-802F-709667764737
@@ -141,4 +141,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 > [!NOTE]
-> The winscard.h header defines SCardGetReaderDeviceInstanceId as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardGetReaderDeviceInstanceId as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

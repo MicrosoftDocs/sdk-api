@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_29
+UID: NS:lpmapi.IS_FLOWSPEC
 title: IS_FLOWSPEC (lpmapi.h)
 description: The IS_FLOWSPEC structure stores an Integrated Services FLOWSPEC object.
 helpviewer_keywords: ["IS_FLOWSPEC","IS_FLOWSPEC structure [QOS]","lpmapi/IS_FLOWSPEC","qos.is_flowspec"]
@@ -70,3 +70,4 @@ FLOWSPEC object data, expressed as an <a href="/previous-versions/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+

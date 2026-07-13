@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList2.WriteBufferImmediate
 title: ID3D12GraphicsCommandList2::WriteBufferImmediate (d3d12.h)
-description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.
+description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream. (ID3D12GraphicsCommandList2.WriteBufferImmediate)
 helpviewer_keywords: ["ID3D12GraphicsCommandList2 interface","WriteBufferImmediate method","ID3D12GraphicsCommandList2.WriteBufferImmediate","ID3D12GraphicsCommandList2::WriteBufferImmediate","WriteBufferImmediate","WriteBufferImmediate method","WriteBufferImmediate method","ID3D12GraphicsCommandList2 interface","d3d12/ID3D12GraphicsCommandList2::WriteBufferImmediate","direct3d12.id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode"]
 old-location: direct3d12\id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode.htm
 tech.root: direct3d12

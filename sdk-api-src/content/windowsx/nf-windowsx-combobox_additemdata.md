@@ -1,12 +1,12 @@
 ---
 UID: NF:windowsx.ComboBox_AddItemData
 title: ComboBox_AddItemData macro (windowsx.h)
-description: Adds item data to the list in a combo box at the specified location. You can use this macro or send the CB_ADDSTRING message explicitly.
+description: Adds item data to the list in a combo box. You can use this macro or send the CB_ADDSTRING message explicitly.
 helpviewer_keywords: ["ComboBox_AddItemData","ComboBox_AddItemData macro [Windows Controls]","_win32_ComboBox_AddItemData","_win32_ComboBox_AddItemData_cpp","controls.ComboBox_AddItemData","controls._win32_ComboBox_AddItemData","windowsx/ComboBox_AddItemData"]
 old-location: controls\ComboBox_AddItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_additemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_AddItemData, ComboBox_AddItemData macro [Windows Controls], _win32_ComboBox_AddItemData, _win32_ComboBox_AddItemData_cpp, controls.ComboBox_AddItemData, controls._win32_ComboBox_AddItemData, windowsx/ComboBox_AddItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_AddItemData macro
+
+## -syntax
+
+```cpp
+int ComboBox_AddItemData(
+   HWND   hwndCtl,
+   LPARAM data
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is the zero-based index of the item in the list. If an error occurs, the return value is CB_ERR. If there is insufficient space to store the new string, the return value is CB_ERRSPACE.
 
 
 ## -description

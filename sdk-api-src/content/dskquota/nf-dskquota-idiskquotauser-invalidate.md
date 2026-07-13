@@ -52,7 +52,7 @@ api_name:
 
 Invalidates the quota information stored in the quota user object. The next time information is requested, it is refreshed from disk.
 
-## -parameters
+
 
 ## -returns
 

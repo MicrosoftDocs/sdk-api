@@ -98,10 +98,10 @@ Set of flags that indicate the item attributes that have changed. This member is
 
 ### -field ptAction
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that indicates the location at which the event occurred. This member is undefined for notification messages that do not use it.
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that indicates the location at which the event occurred. This member is undefined for notification messages that do not use it.
 
 ### -field lParam
 

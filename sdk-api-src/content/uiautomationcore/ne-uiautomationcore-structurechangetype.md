@@ -54,7 +54,7 @@ Contains values that specify the type of change in the Microsoft UI Automation t
 
 ## -enum-fields
 
-### -field StructureChangeType_ChildAdded
+### -field StructureChangeType_ChildAdded:0
 
 A child element was added to the UI Automation element tree.
 

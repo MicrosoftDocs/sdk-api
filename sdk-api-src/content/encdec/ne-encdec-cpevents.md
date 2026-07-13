@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Windows XP Service Pack 1 or later.
         
 
@@ -59,7 +61,7 @@ The <b>CPEvents</b> enumeration defines copy protection events for the Decrypter
 
 ## -enum-fields
 
-### -field CPEVENT_NONE
+### -field CPEVENT_NONE:0
 
 No content protection issues.
 

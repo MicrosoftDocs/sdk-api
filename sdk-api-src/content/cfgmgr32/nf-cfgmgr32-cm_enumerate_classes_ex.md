@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_classes">CM_Enumerate_Classes</a> instead.]
 
-The <b>CM_Enumerate_Classes_Ex</b> function, when called repeatedly, enumerates a local or a remote machine's installed <a href="/windows-hardware/drivers/">device classes</a>, by supplying each class's GUID.
+The <b>CM_Enumerate_Classes_Ex</b> function, when called repeatedly, enumerates a local or a remote machine's installed <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device classes</a>, by supplying each class's GUID.
 
 ## -parameters
 
@@ -99,7 +99,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate the local or a remote machine's device classes, call <b>CM_Enumerate_Classes_Ex</b> repeatedly, starting with a <i>ulClassIndex</i> index value of zero and incrementing the index value with each subsequent call until the function returns CR_NO_SUCH_VALUE. Some index values might represent list entries containing invalid class data, in which case the function returns CR_INVALID_DATA. This return value can be ignored.
 
-The class GUIDs obtained from this function can be used as input to the <a href="/previous-versions/ff541299(v=vs.85)">device installation functions</a>.
+The class GUIDs obtained from this function can be used as input to the <a href="/windows-hardware/drivers/install/using-device-installation-functions#ddk-update-driver-function-dg">device installation functions</a>.
 
 Beginning with Windows 8 and later operating systems, callers can use the <b>ulFlags</b> member to specify which device classes CM_Enumerate_Classes_Ex should return. Prior to Windows 8, CM_Enumerate_Classes_Ex returned only device setup classes.
 

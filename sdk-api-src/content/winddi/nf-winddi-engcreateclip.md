@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-core-win32k-base-export-l1-1-0.dll
  - Win32k.sys
 api_name:
  - EngCreateClip
@@ -52,7 +53,7 @@ api_name:
 
 The <b>EngCreateClip</b> function creates a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that the driver uses in callbacks.
 
-## -parameters
+
 
 ## -returns
 

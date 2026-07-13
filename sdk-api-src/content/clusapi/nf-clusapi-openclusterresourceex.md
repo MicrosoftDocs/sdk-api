@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterResourceEx
 title: OpenClusterResourceEx function (clusapi.h)
-description: Opens a resource and returns a handle to it.
+description: Opens a resource and returns a handle to it. (OpenClusterResourceEx)
 helpviewer_keywords: ["OpenClusterResourceEx","OpenClusterResourceEx function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX","PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX function [Failover Cluster]","clusapi/OpenClusterResourceEx","clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX","mscs.openclusterresourceex"]
 old-location: mscs\openclusterresourceex.htm
 tech.root: MsCS

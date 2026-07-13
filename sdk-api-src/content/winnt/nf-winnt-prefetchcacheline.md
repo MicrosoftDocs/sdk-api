@@ -6,7 +6,7 @@ helpviewer_keywords: ["PF_NON_TEMPORAL_LEVEL_ALL","PF_TEMPORAL_LEVEL_1","PreFetc
 old-location: base\prefetchcacheline.htm
 tech.root: backup
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # PreFetchCacheLine macro
+
+## -syntax
+
+```cpp
+void PreFetchCacheLine(
+    int l,
+    VOID CONST *a
+);
+```
 
 
 ## -description
@@ -93,10 +102,14 @@ The address of the cache line to be loaded. This address is not required to be o
 
 This macro can be called on all processor platforms where Windows is supported, but it  has no effect on some platforms.  The definition varies from platform to platform.  The following are some definitions of this macro in Winnt.h:
 
-<pre class="syntax" xml:space="preserve"><code>#define PreFetchCacheLine(l, a)  _mm_prefetch((CHAR CONST *) a, l)
+
+``` syntax
+#define PreFetchCacheLine(l, a)  _mm_prefetch((CHAR CONST *) a, l)
 
 #define PreFetchCacheLine(l, a)
 
 #define PreFetchCacheLine  __lfetch
-</code></pre>
+
+```
+
 

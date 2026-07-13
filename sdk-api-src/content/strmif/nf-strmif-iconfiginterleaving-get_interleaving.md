@@ -6,7 +6,7 @@ helpviewer_keywords: ["IConfigInterleaving interface [DirectShow]","get_Interlea
 old-location: dshow\iconfiginterleaving_get_interleaving.htm
 tech.root: dshow
 ms.assetid: 659aa136-c7fd-4955-913b-26f7c05325a8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Interleaving method, IConfigInterleaving.get_Interleaving, IConfigInterleaving::get_Interleaving, IConfigInterleavingget_Interleaving, dshow.iconfiginterleaving_get_interleaving, get_Interleaving, get_Interleaving method [DirectShow], get_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Interleaving
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_Interleaving</b> method gets the audio preroll time and the frequency of interleaving for an AVI file.
 

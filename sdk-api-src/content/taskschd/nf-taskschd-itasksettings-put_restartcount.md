@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_RestartCount
 title: ITaskSettings::put_RestartCount (taskschd.h)
-description: Gets or sets the number of times that the Task Scheduler will attempt to restart the task.
+description: Gets or sets the number of times that the Task Scheduler will attempt to restart the task. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","RestartCount property","ITaskSettings.RestartCount","ITaskSettings.put_RestartCount","ITaskSettings::RestartCount","ITaskSettings::get_RestartCount","ITaskSettings::put_RestartCount","RestartCount property [Task Scheduler]","RestartCount property [Task Scheduler]","ITaskSettings interface","put_RestartCount","taskschd.itasksettings_restartcount","taskschd/ITaskSettings::RestartCount","taskschd/ITaskSettings::get_RestartCount","taskschd/ITaskSettings::put_RestartCount"]
 old-location: taskschd\itasksettings_restartcount.htm
 tech.root: taskschd

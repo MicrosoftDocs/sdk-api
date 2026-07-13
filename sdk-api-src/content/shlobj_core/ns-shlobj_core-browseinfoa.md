@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core._browseinfoA
 title: BROWSEINFOA (shlobj_core.h)
-description: Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user.
+description: Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user. (ANSI)
 helpviewer_keywords: ["*LPBROWSEINFOA","*PBROWSEINFOA","BIF_BROWSEFILEJUNCTIONS","BIF_BROWSEFORCOMPUTER","BIF_BROWSEFORPRINTER","BIF_BROWSEINCLUDEFILES","BIF_BROWSEINCLUDEURLS","BIF_DONTGOBELOWDOMAIN","BIF_EDITBOX","BIF_NEWDIALOGSTYLE","BIF_NONEWFOLDERBUTTON","BIF_NOTRANSLATETARGETS","BIF_RETURNFSANCESTORS","BIF_RETURNONLYFSDIRS","BIF_SHAREABLE","BIF_STATUSTEXT","BIF_UAHINT","BIF_USENEWUI","BIF_VALIDATE","BROWSEINFO","BROWSEINFO structure [Windows Shell]","BROWSEINFOA","BROWSEINFOW","LPBROWSEINFO","LPBROWSEINFO structure pointer [Windows Shell]","PBROWSEINFO","PBROWSEINFO structure pointer [Windows Shell]","_win32_BROWSEINFO","shell.BROWSEINFO","shlobj_core/BROWSEINFO","shlobj_core/BROWSEINFOA","shlobj_core/BROWSEINFOW","shlobj_core/LPBROWSEINFO","shlobj_core/PBROWSEINFO"]
 old-location: shell\BROWSEINFO.htm
 tech.root: shell
@@ -232,4 +232,4 @@ An integer value that receives the index of the image associated with the select
 ## -remarks
 
 > [!NOTE]
-> The shlobj_core.h header defines BROWSEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines BROWSEINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

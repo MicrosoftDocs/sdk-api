@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagLVBKIMAGEW
 title: LVBKIMAGEW (commctrl.h)
-description: Contains information about the background image of a list-view control. This structure is used for both setting and retrieving background image information.
+description: Contains information about the background image of a list-view control. This structure is used for both setting and retrieving background image information. (Unicode)
 helpviewer_keywords: ["*LPLVBKIMAGEW","LPLVBKIMAGE","LPLVBKIMAGE structure pointer [Windows Controls]","LVBKIF_FLAG_ALPHABLEND","LVBKIF_FLAG_TILEOFFSET","LVBKIF_SOURCE_HBITMAP","LVBKIF_SOURCE_NONE","LVBKIF_SOURCE_URL","LVBKIF_STYLE_NORMAL","LVBKIF_STYLE_TILE","LVBKIF_TYPE_WATERMARK","LVBKIMAGE","LVBKIMAGE structure [Windows Controls]","LVBKIMAGEA","LVBKIMAGEW","_win32_LVBKIMAGE","_win32_LVBKIMAGE_cpp","commctrl/LPLVBKIMAGE","commctrl/LVBKIMAGE","commctrl/LVBKIMAGEA","commctrl/LVBKIMAGEW","controls.LVBKIMAGE","controls._win32_LVBKIMAGE"]
 old-location: controls\LVBKIMAGE.htm
 tech.root: Controls
@@ -200,4 +200,4 @@ This structure is used with the <a href="/windows/desktop/Controls/lvm-getbkimag
 
 
 > [!NOTE]
-> The commctrl.h header defines LVBKIMAGE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines LVBKIMAGE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

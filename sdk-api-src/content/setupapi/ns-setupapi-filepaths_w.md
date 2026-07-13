@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._FILEPATHS_W
 title: FILEPATHS_W (setupapi.h)
-description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications.
+description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications. (Unicode)
 helpviewer_keywords: ["*PFILEPATHS_W","FILEOP_COPY","FILEOP_DELETE","FILEPATHS","FILEPATHS structure [Setup API]","FILEPATHS_W","PFILEPATHS","PFILEPATHS structure pointer [Setup API]","SP_COPY_NOBROWSE","SP_COPY_NOSKIP","SP_COPY_WARNIFSKIP","_setupapi_filepaths_str","setup.filepaths_str","setupapi/FILEPATHS","setupapi/PFILEPATHS"]
 old-location: setup\filepaths_str.htm
 tech.root: setup
@@ -165,4 +165,4 @@ A file delete operation was delayed.
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines FILEPATHS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines FILEPATHS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

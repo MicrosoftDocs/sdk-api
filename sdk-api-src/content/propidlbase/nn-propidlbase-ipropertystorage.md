@@ -1,12 +1,12 @@
 ---
 UID: NN:propidlbase.IPropertyStorage
 title: IPropertyStorage (propidlbase.h)
-description: The IPropertyStorage interface manages the persistent properties of a single property set.
+description: The IPropertyStorage interface manages the persistent properties of a single property set. (IPropertyStorage interface)
 helpviewer_keywords: ["IPropertyStorage","IPropertyStorage interface [Structured Storage]","IPropertyStorage interface [Structured Storage]","described","_stg_ipropertystorage","propidl/IPropertyStorage","stg.ipropertystorage"]
 old-location: stg\ipropertystorage.htm
 tech.root: Stg
 ms.assetid: c021f695-db54-4861-9f30-35a81d2dccd5
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage],described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
@@ -70,10 +70,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStorage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStorage</b> also has these types of members:
 
 ## -see-also
 

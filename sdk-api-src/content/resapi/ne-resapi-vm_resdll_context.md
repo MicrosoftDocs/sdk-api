@@ -56,23 +56,23 @@ Contains actions for a virtual machine to perform.
 
 ## -enum-fields
 
-### -field VmResdllContextTurnOff
+### -field VmResdllContextTurnOff:0
 
 Turns off the virtual machine.
 
-### -field VmResdllContextSave
+### -field VmResdllContextSave:1
 
 Saves the virtual machine.
 
-### -field VmResdllContextShutdown
+### -field VmResdllContextShutdown:2
 
 Shuts down the virtual machine.
 
-### -field VmResdllContextShutdownForce
+### -field VmResdllContextShutdownForce:3
 
 Forces a shutdown of the virtual machine.
 
-### -field VmResdllContextLiveMigration
+### -field VmResdllContextLiveMigration:4
 
 Performs a live migration of the virtual machine.
 

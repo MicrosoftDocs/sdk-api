@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListAddSourceExW
 title: MsiSourceListAddSourceExW function (msi.h)
-description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context.
-helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListAddSourceEx","MsiSourceListAddSourceEx function","MsiSourceListAddSourceExA","MsiSourceListAddSourceExW","NULL","User SID","msi/MsiSourceListAddSourceEx","msi/MsiSourceListAddSourceExA","msi/MsiSourceListAddSourceExW","setup.msisourcelistaddsourceex"]
+description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context. (Unicode)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSISOURCETYPE_NETWORK", "MSISOURCETYPE_URL", "MsiSourceListAddSourceEx", "MsiSourceListAddSourceEx function", "MsiSourceListAddSourceExW", "NULL", "User SID", "msi/MsiSourceListAddSourceEx", "msi/MsiSourceListAddSourceExW", "setup.msisourcelistaddsourceex"]
 old-location: setup\msisourcelistaddsourceex.htm
 tech.root: setup
 ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2
@@ -72,7 +72,7 @@ This parameter can be a string SID that specifies the user account that contains
 </tr>
 <tr>
 <td width="40%"><a id="NULL"></a><a id="null"></a><dl>
-<dt><b><b>NULL</b></b></dt>
+<dt><b>NULL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -304,7 +304,7 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 > [!NOTE]
-> The msi.h header defines MsiSourceListAddSourceEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiSourceListAddSourceEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

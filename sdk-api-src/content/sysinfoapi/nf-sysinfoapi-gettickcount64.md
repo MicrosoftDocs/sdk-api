@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-sysinfo-l1-2-7.dll
+ - api-ms-win-core-sysinfo-l1-2-6.dll
+ - api-ms-win-core-sysinfo-l1-2-5.dll
+ - api-ms-win-core-sysinfo-l1-2-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-SysInfo-l1-1-0.dll
  - KernelBase.dll
@@ -60,7 +64,7 @@ api_name:
 
 Retrieves the number of milliseconds that have elapsed since the system was started.
 
-## -parameters
+
 
 ## -returns
 
@@ -77,7 +81,7 @@ If you need a higher resolution timer, use a
 
 To obtain the time the system has spent in the working state since it was started, use the <a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> function. 
 
-<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="https://msdn.microsoft.com/default.aspx">Microsoft Developer Network (MSDN)</a> Web site.</div>
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time.</div>
 <div> </div>
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 

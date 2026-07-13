@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateFontIndirectW
 title: CreateFontIndirectW function (wingdi.h)
-description: The CreateFontIndirect function creates a logical font that has the specified characteristics. The font can subsequently be selected as the current font for any device context.
-helpviewer_keywords: ["CreateFontIndirect","CreateFontIndirect function [Windows GDI]","CreateFontIndirectA","CreateFontIndirectW","_win32_CreateFontIndirect","gdi.createfontindirect","wingdi/CreateFontIndirect","wingdi/CreateFontIndirectA","wingdi/CreateFontIndirectW"]
+description: The CreateFontIndirect function creates a logical font that has the specified characteristics. The font can subsequently be selected as the current font for any device context. (Unicode)
+helpviewer_keywords: ["CreateFontIndirect", "CreateFontIndirect function [Windows GDI]", "CreateFontIndirectW", "_win32_CreateFontIndirect", "gdi.createfontindirect", "wingdi/CreateFontIndirect", "wingdi/CreateFontIndirectW"]
 old-location: gdi\createfontindirect.htm
 tech.root: gdi
 ms.assetid: b7919fb6-8515-4f1b-af9c-dc7eac381b90
@@ -94,7 +94,7 @@ For an example, see <a href="/windows/desktop/gdi/creating-a-logical-font">Creat
 
 
 > [!NOTE]
-> The wingdi.h header defines CreateFontIndirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines CreateFontIndirect as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,18 +1,18 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetLocaleName
 title: IDWriteStringList::GetLocaleName (dwrite_3.h)
-description: Copies the locale name with the specified index to the specified array.
+description: Copies the locale name with the specified index to the specified array. (IDWriteStringList.GetLocaleName)
 helpviewer_keywords: ["GetLocaleName","GetLocaleName method [Direct Write]","GetLocaleName method [Direct Write]","IDWriteStringList interface","IDWriteStringList interface [Direct Write]","GetLocaleName method","IDWriteStringList.GetLocaleName","IDWriteStringList::GetLocaleName","directwrite.idwritestringlist_getlocalename","dwrite_3/IDWriteStringList::GetLocaleName"]
 old-location: directwrite\idwritestringlist_getlocalename.htm
 tech.root: DirectWrite
 ms.assetid: 3CB369A4-D1FC-4C8B-BE41-33D176117133
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetLocaleName method, IDWriteStringList.GetLocaleName, IDWriteStringList::GetLocaleName, directwrite.idwritestringlist_getlocalename, dwrite_3/IDWriteStringList::GetLocaleName
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -76,7 +76,7 @@ Size of the array in characters. The size must include space for the terminating
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Indicates whether a Media Foundation transform (MFT) can produce output data.
 
 ## -enum-fields
 
-### -field MFT_OUTPUT_STATUS_SAMPLE_READY
+### -field MFT_OUTPUT_STATUS_SAMPLE_READY:0x1
 
 There is a sample available for at least one output stream. To retrieve the available output samples, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a>.
 

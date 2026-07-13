@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_status me
 old-location: wmp\iwmpcore_get_status.htm
 tech.root: WMP
 ms.assetid: ee11cb36-4dd2-4fe4-84fd-b3fc11b13ae0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCore interface [Windows Media Player],get_status method, IWMPCore.get_status, IWMPCore::get_status, IWMPCoreget_status, get_status, get_status method [Windows Media Player], get_status method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_status, wmp/IWMPCore::get_status
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_status</b> method retrieves the status of Windows Media Player.
 

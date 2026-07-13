@@ -75,7 +75,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 For each power scheme enumerated, the callback function is called with the following parameters:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 typedef BOOLEAN (CALLBACK* PWRSCHEMESENUMPROC)(
   UINT uiIndex,      // power scheme index
   DWORD dwName,      // size of the sName string, in bytes
@@ -84,7 +86,9 @@ typedef BOOLEAN (CALLBACK* PWRSCHEMESENUMPROC)(
   LPWSTR sDesc,      // description string
   PPOWER_POLICY pp,  // receives the power policy
   LPARAM lParam      // user-defined value
-);</code></pre>
+);
+```
+
 The <i>sName</i> and <i>sDesc</i> parameters are null-terminated Unicode strings. The <i>pp</i> parameter is a pointer to a 
 <a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure containing the power policy scheme. To continue until all power schemes have been enumerated, the callback function must return <b>TRUE</b>. To stop the enumeration, the callback function must return <b>FALSE</b>.
 

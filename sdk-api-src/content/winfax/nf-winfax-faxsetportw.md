@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxSetPortW
 title: FaxSetPortW function (winfax.h)
-description: A fax client application calls the FaxSetPort function to change the configuration of the fax port of interest.
-helpviewer_keywords: ["FaxSetPort","FaxSetPort function [Fax Service]","FaxSetPortA","FaxSetPortW","_mfax_faxsetport","fax._mfax_faxsetport","winfax/FaxSetPort","winfax/FaxSetPortA","winfax/FaxSetPortW"]
+description: A fax client application calls the FaxSetPort function to change the configuration of the fax port of interest. (Unicode)
+helpviewer_keywords: ["FaxSetPort", "FaxSetPort function [Fax Service]", "FaxSetPortW", "_mfax_faxsetport", "fax._mfax_faxsetport", "winfax/FaxSetPort", "winfax/FaxSetPortW"]
 old-location: fax\_mfax_faxsetport.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5sac.htm
@@ -132,7 +132,7 @@ To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter o
 
 
 > [!NOTE]
-> The winfax.h header defines FaxSetPort as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxSetPort as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

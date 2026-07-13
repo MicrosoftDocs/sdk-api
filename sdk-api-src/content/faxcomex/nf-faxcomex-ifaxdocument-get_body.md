@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_Body
 title: IFaxDocument::get_Body (faxcomex.h)
-description: The IFaxDocument::get_Body property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
+description: The IFaxDocument::get_Body property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page. (Get)
 helpviewer_keywords: ["Body property [Fax Service]","Body property [Fax Service]","IFaxDocument interface","IFaxDocument interface [Fax Service]","Body property","IFaxDocument.Body","IFaxDocument.get_Body","IFaxDocument::Body","IFaxDocument::get_Body","IFaxDocument::put_Body","_mfax_faxdocument.body","fax._mfax_faxdocument_body","fax._mfax_faxdocument_cpp_mfax_faxdocument_body_cpp","faxcomex/IFaxDocument::Body","faxcomex/IFaxDocument::get_Body","faxcomex/IFaxDocument::put_Body","get_Body"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_body_cpp.htm
 tech.root: Fax

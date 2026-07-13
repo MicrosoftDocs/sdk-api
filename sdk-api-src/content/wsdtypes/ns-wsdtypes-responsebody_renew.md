@@ -1,5 +1,5 @@
 ---
-UID: NS:wsdtypes.__unnamed_struct_4
+UID: NS:wsdtypes.RESPONSEBODY_Renew
 title: RESPONSEBODY_Renew (wsdtypes.h)
 description: Represents a WS-Eventing Renew response message.
 helpviewer_keywords: ["RESPONSEBODY_Renew","RESPONSEBODY_Renew structure","ncd.responsebody_renew_struct","wsdtypes/RESPONSEBODY_Renew"]
@@ -63,3 +63,4 @@ Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_eventing_e
 ### -field Any
 
 Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+

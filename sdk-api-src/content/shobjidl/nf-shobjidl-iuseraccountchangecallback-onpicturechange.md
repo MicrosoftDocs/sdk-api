@@ -64,13 +64,13 @@ Pointer to a string that contains the user name. Set this parameter to <b>NULL</
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 When the picture that represents a user account changes, the callback object notifies all applications that are registered under this registry subkey:
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows</b>

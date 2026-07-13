@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateDepthStencilView
 title: ID3D11Device::CreateDepthStencilView (d3d11.h)
-description: Create a depth-stencil view for accessing resource data.
+description: Create a depth-stencil view for accessing resource data. (ID3D11Device.CreateDepthStencilView)
 helpviewer_keywords: ["CreateDepthStencilView","CreateDepthStencilView method [Direct3D 11]","CreateDepthStencilView method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateDepthStencilView method","ID3D11Device.CreateDepthStencilView","ID3D11Device::CreateDepthStencilView","d3d11/ID3D11Device::CreateDepthStencilView","direct3d11.id3d11device_createdepthstencilview","e1e786e8-1374-b092-ac91-06c2482f6166"]
 old-location: direct3d11\id3d11device_createdepthstencilview.htm
 tech.root: direct3d11

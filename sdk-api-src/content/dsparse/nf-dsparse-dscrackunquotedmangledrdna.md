@@ -1,8 +1,8 @@
 ---
 UID: NF:dsparse.DsCrackUnquotedMangledRdnA
 title: DsCrackUnquotedMangledRdnA function (dsparse.h)
-description: The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used.
-helpviewer_keywords: ["DsCrackUnquotedMangledRdn","DsCrackUnquotedMangledRdn function [Active Directory]","DsCrackUnquotedMangledRdnA","DsCrackUnquotedMangledRdnW","_glines_dscrackunquotedmangledrdn","ad.dscrackunquotedmangledrdn","dsparse/DsCrackUnquotedMangledRdn","dsparse/DsCrackUnquotedMangledRdnA","dsparse/DsCrackUnquotedMangledRdnW"]
+description: The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used. (ANSI)
+helpviewer_keywords: ["DsCrackUnquotedMangledRdnA", "dsparse/DsCrackUnquotedMangledRdnA"]
 old-location: ad\dscrackunquotedmangledrdn.htm
 tech.root: ad
 ms.assetid: 30711d2d-f541-46b4-a301-a0f9fc7d6676
@@ -88,7 +88,7 @@ This function attempts to
 
 
 > [!NOTE]
-> The dsparse.h header defines DsCrackUnquotedMangledRdn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsparse.h header defines DsCrackUnquotedMangledRdn as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

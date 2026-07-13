@@ -6,7 +6,7 @@ helpviewer_keywords: ["FILEMUIINFO_GET_MUI_TYPEIDS","FILEMUIINFO_GET_MUI_TYPEIDS
 old-location: intl\filemuiinfo_get_mui_typeids.htm
 tech.root: Intl
 ms.assetid: 7f42e8e3-d308-4c2a-96c4-26df9f032211
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: FILEMUIINFO_GET_MUI_TYPEIDS, FILEMUIINFO_GET_MUI_TYPEIDS macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MUI_TYPEIDS, intl.filemuiinfo_get_mui_typeids, winnls/FILEMUIINFO_GET_MUI_TYPEIDS
 req.header: winnls.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # FILEMUIINFO_GET_MUI_TYPEIDS macro
+
+## -syntax
+
+```cpp
+DWORD* FILEMUIINFO_GET_MUI_TYPEIDS(
+    PFILEMUIINFO pInfo
+);
+```
+
+## -returns
+
+Type: **DWORD***
+
+Returns a pointer to the MUI module types array. The macro returns **NULL** if the array is not initialized.
 
 
 ## -description

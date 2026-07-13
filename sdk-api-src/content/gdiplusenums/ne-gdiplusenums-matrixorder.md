@@ -55,11 +55,11 @@ The <b>MatrixOrder</b> enumeration specifies the order of multiplication when a 
 
 ## -enum-fields
 
-### -field MatrixOrderPrepend
+### -field MatrixOrderPrepend:0
 
 Specifies that the new matrix is on the left and the existing matrix is on the right.
 
-### -field MatrixOrderAppend
+### -field MatrixOrderAppend:1
 
 Specifies that the existing matrix is on the left and the new matrix is on the right.
 

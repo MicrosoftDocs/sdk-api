@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeletePropertyItem
 title: IAzApplicationGroup::DeletePropertyItem (azroles.h)
-description: Removes the specified entity from the specified list.
+description: Removes the specified entity from the specified list. (IAzApplicationGroup.DeletePropertyItem)
 helpviewer_keywords: ["AZ_PROP_GROUP_APP_MEMBERS","AZ_PROP_GROUP_APP_NON_MEMBERS","AZ_PROP_GROUP_MEMBERS","AZ_PROP_GROUP_MEMBERS_NAME","AZ_PROP_GROUP_NON_MEMBERS","AZ_PROP_GROUP_NON_MEMBERS_NAME","AzApplicationGroup object [Security]","DeletePropertyItem method","DeletePropertyItem","DeletePropertyItem method [Security]","DeletePropertyItem method [Security]","AzApplicationGroup object","DeletePropertyItem method [Security]","IAzApplicationGroup interface","IAzApplicationGroup interface [Security]","DeletePropertyItem method","IAzApplicationGroup.DeletePropertyItem","IAzApplicationGroup::DeletePropertyItem","azroles/IAzApplicationGroup::DeletePropertyItem","security.iazapplicationgroup_deletepropertyitem"]
 old-location: security\iazapplicationgroup_deletepropertyitem.htm
 tech.root: security

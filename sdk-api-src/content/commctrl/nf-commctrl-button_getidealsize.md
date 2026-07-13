@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_GetIdealSize","Button_GetIdealSize macro [Windows 
 old-location: controls\Button_GetIdealSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getidealsize.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_GetIdealSize, Button_GetIdealSize macro [Windows Controls], _win32_Button_GetIdealSize, _win32_Button_GetIdealSize_cpp, commctrl/Button_GetIdealSize, controls.Button_GetIdealSize, controls._win32_Button_GetIdealSize
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # Button_GetIdealSize macro
 
+## -syntax
+
+```cpp
+BOOL Button_GetIdealSize(
+   HWND hwnd,
+   SIZE *psize
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the macro succeeds, it returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
+
 
 ## -description
 
@@ -62,9 +77,9 @@ A handle to the button control.
 
 ### -param psize
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the desired size of the button including the text and image list if present.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the desired size of the button including the text and image list if present.
 
 ## -remarks
 
@@ -72,7 +87,7 @@ This macro is most applicable to PushButtons. When sent to a PushButton, the mac
 
 When sent to a button of any other type, the size of the control's window rectangle is retrieved.
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comctl32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 ## -see-also
@@ -89,4 +104,4 @@ When sent to a button of any other type, the size of the control's window rectan
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>

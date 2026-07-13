@@ -69,16 +69,16 @@ The <b>IWbemServices</b> interface is used by clients and providers to access WM
 ```cpp
     IWbemClassObject *pObj = NULL;
 
-    //The pWbemSvc pointer is of type IWbemServices*
-    pWbemSvc->GetObject(L"path", 0, 0, &pObj, 0);
+    // The pWbemSvc pointer is of type IWbemServices*
+    // BSTR is not compatible with wchar_t, need to allocate.
+    BSTR path = SysAllocString(L"path");
+    pWbemSvc->GetObject(path, 0, 0, &pObj, 0);
+    SysFreeString(path);
 ```
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemServices</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWbemServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemServices</b> also has these types of members:
 
 ## -remarks
 
@@ -121,9 +121,10 @@ IWbemServices *pWbemServices = NULL;
 
 if (SUCCEEDED(hRes))
 {
+    BSTR namespace = SysAllocString(L"root\\CIMV2");
     hRes = pIWbemLocator->ConnectServer(
-                L"root\\CIMV2",  // Namespace
-                NULL,          // Userid
+                namespace,      // Namespace
+                NULL,           // Userid
                 NULL,           // PW
                 NULL,           // Locale
                 0,              // flags
@@ -131,10 +132,11 @@ if (SUCCEEDED(hRes))
                 NULL,           // Context
                 &pWbemServices
                 );
+    SysFreeString(namespace);            
 
-pIWbemLocator->Release(); // Free memory resources.
+    pIWbemLocator->Release(); // Free memory resources.
 
-// Use pWbemServices
+    // Use pWbemServices
 
 }
 

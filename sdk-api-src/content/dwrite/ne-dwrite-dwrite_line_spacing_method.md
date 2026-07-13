@@ -45,9 +45,6 @@ api_name:
  - DWRITE_LINE_SPACING_METHOD
 ---
 
-# DWRITE_LINE_SPACING_METHOD enumeration
-
-
 ## -description
 
 The method used for line spacing in a text layout.
@@ -65,15 +62,13 @@ Lines are explicitly set to uniform spacing, regardless of the size of fonts and
 ### -field DWRITE_LINE_SPACING_METHOD_PROPORTIONAL
 
 Line spacing and baseline distances are proportional to the computed values based on the content, the size of the fonts and inline objects.
-          
 
-<div class="alert"><b>Note</b>  This value is only available on Windows 10 or later and it can be used with <a href="/windows/win32/DirectWrite/idwritetextlayout3-setlinespacing">IDWriteTextLayout3::SetLineSpacing</a>, 
-          but can not be used with <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">IDWriteTextFormat::SetLineSpacing</a>.</div>
-<div> </div>
+> [!NOTE]
+> This value is available only on Windows 10 or later, and it can be used with [IDWriteTextLayout3::SetLineSpacing](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextlayout3-setlinespacing), but it can't be used with [IDWriteTextFormat::SetLineSpacing](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing).
 
 ## -remarks
 
-The line spacing method is set by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">SetLineSpacing</a> method of the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> or <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> interfaces.  To get  the current line spacing method of a text format or text layou use the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing">GetLineSpacing</a>.
+The line spacing method is set by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">SetLineSpacing</a> method of the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> or <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> interfaces.  To get  the current line spacing method of a text format or text layout use the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing">GetLineSpacing</a>.
 
 ## -see-also
 

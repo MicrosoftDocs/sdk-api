@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetEntryDialParamsA
 title: RasGetEntryDialParamsA function (ras.h)
-description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
-helpviewer_keywords: ["RasGetEntryDialParams","RasGetEntryDialParams function [RAS]","RasGetEntryDialParamsA","RasGetEntryDialParamsW","_ras_rasgetentrydialparams","ras/RasGetEntryDialParams","ras/RasGetEntryDialParamsA","ras/RasGetEntryDialParamsW","rras.rasgetentrydialparams"]
+description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry. (ANSI)
+helpviewer_keywords: ["RasGetEntryDialParamsA", "ras/RasGetEntryDialParamsA"]
 old-location: rras\rasgetentrydialparams.htm
 tech.root: RRAS
 ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa
@@ -183,4 +183,4 @@ The phone-book entry does not exist.
 ## -remarks
 
 > [!NOTE]
-> The ras.h header defines RasGetEntryDialParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetEntryDialParams as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

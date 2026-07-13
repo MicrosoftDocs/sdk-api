@@ -4,7 +4,8 @@ title: Relogger.h header
 ms.assetid: 1eef453f-1303-3d70-840f-ee4f0039c030
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: etw
 f1_keywords:
  - relogger

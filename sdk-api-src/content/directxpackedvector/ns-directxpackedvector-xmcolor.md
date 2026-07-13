@@ -107,9 +107,9 @@ Those <code>XMCOLOR</code> constructors using floating point arguments require n
 
 <code>XMCOLOR</code> can be used to load instances of <a href="/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> from
 	    normalized values, by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadcolor">XMLoadColor</a>, which divides color channel
-	    data by 255.0f, rounds the result, and then assigns the components to an <code>XMVECTOR</code>instance.
+	    data by 255.0f, rounds the result, and then assigns the components to an <code>XMVECTOR</code> instance.
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMCOLOR</code>using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorecolor">XMStoreColor</a>, which multiplies color channel data by 255.0f,
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMCOLOR</code> using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorecolor">XMStoreColor</a>, which multiplies color channel data by 255.0f,
 	    rounding the result before assigning the values to the appropriate <code>XMCOLOR</code> members.
 
 <b>Namespace:</b> Use DirectX::PackedVector

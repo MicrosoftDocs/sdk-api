@@ -144,7 +144,7 @@ The same name may map to different DISPIDs, depending on context. For example, a
 
 The implementation of <b>GetIDsOfNames</b> is case insensitive. Users that need case-sensitive name mapping should use type information interfaces to map names to DISPIDs, rather than call <b>GetIDsOfNames</b>.
 
-<div class="alert"><b>Caution</b>  You cannot use this method to access values that have been added dynamically, such as values added through JavaScript. Instead, use the GetDispID of the IDispatchEx interface. For more information, see the <a href="https://msdn.microsoft.com/library/sky96ah7(VS.94).aspx">IDispatchEx interface</a>.</div>
+<div class="alert"><b>Caution</b>  You cannot use this method to access values that have been added dynamically, such as values added through JavaScript. Instead, use the GetDispID of the IDispatchEx interface. For more information, see the <a href="/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/idispatchex-interface">IDispatchEx interface</a>.</div>
 <div> </div>
 
 #### Examples

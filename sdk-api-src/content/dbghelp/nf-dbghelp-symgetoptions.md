@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the current option mask.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportIScsiSendTargetPortalsExA
 title: ReportIScsiSendTargetPortalsExA function (iscsidsc.h)
-description: ReportIscsiSendTargetPortalsEx function retrieves a list of static target portals that the iSCSI initiator service uses to perform automatic discovery with SendTarget requests.
-helpviewer_keywords: ["ReportIScsiSendTargetPortalsExA","ReportIscsiSendTargetPortalsEx","ReportIscsiSendTargetPortalsEx function [iSCSI Discovery Library API]","ReportIscsiSendTargetPortalsExA","ReportIscsiSendTargetPortalsExW","iscsidisc.reportiscsisendtargetportalsex","iscsidsc/ReportIscsiSendTargetPortalsEx","iscsidsc/ReportIscsiSendTargetPortalsExA","iscsidsc/ReportIscsiSendTargetPortalsExW"]
+description: ReportIscsiSendTargetPortalsEx function retrieves a list of static target portals that the iSCSI initiator service uses to perform automatic discovery with SendTarget requests. (ANSI)
+helpviewer_keywords: ["ReportIScsiSendTargetPortalsExA", "ReportIscsiSendTargetPortalsExA", "iscsidsc/ReportIscsiSendTargetPortalsExA"]
 old-location: iscsidisc\reportiscsisendtargetportalsex.htm
 tech.root: iSCSIDisc
 ms.assetid: bf67ff5c-77b5-42ec-81b3-86b98e216d81
@@ -79,4 +79,4 @@ Returns ERROR_SUCCESS if the operation succeeds and ERROR_INSUFFICIENT_BUFFER if
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ReportIScsiSendTargetPortalsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ReportIScsiSendTargetPortalsEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

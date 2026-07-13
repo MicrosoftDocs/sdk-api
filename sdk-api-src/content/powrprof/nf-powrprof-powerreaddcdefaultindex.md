@@ -4,7 +4,7 @@ title: PowerReadDCDefaultIndex function (powrprof.h)
 description: Retrieves the default DC index of the specified power setting.
 helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadDCDefaultIndex","PowerReadDCDefaultIndex function","base.powerreaddcdefaultindex","powrprof/PowerReadDCDefaultIndex"]
 old-location: base\powerreaddcdefaultindex.htm
-tech.root: power
+tech.root: base
 ms.assetid: 32eeb0c2-ce37-4f1d-88e9-ced934740edd
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadDCDefaultIndex, PowerReadDCDefaultIndex function, base.powerreaddcdefaultindex, powrprof/PowerReadDCDefaultIndex

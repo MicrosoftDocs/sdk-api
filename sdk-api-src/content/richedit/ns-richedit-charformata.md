@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._charformat
 title: CHARFORMATA (richedit.h)
-description: Contains information about character formatting in a rich edit control.
+description: Contains information about character formatting in a rich edit control. (CHARFORMATA)
 helpviewer_keywords: ["CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_ITALIC","CFE_PROTECTED","CFE_STRIKEOUT","CFE_UNDERLINE","CFM_ALL","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_EFFECTS","CFM_FACE","CFM_ITALIC","CFM_OFFSET","CFM_PROTECTED","CFM_SIZE","CFM_STRIKEOUT","CFM_UNDERLINE.","CHARFORMAT","CHARFORMAT structure [Windows Controls]","CHARFORMATA","CHARFORMATW","_win32_CHARFORMAT_str","_win32_CHARFORMAT_str_cpp","controls.CHARFORMAT","controls._win32_CHARFORMAT_str","richedit/CHARFORMAT","richedit/CHARFORMATA","richedit/CHARFORMATW"]
 old-location: controls\CHARFORMAT.htm
 tech.root: Controls
@@ -57,7 +57,7 @@ api_name:
 Contains information about character formatting in a rich edit control.
         
 
-<b>Rich Edit 2.0:</b> The <a href="/windows/win32/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages.
+<b>Rich Edit 2.0:</b> The <a href="/windows/win32/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a> and <a href="/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a> messages.
 
 ## -struct-fields
 
@@ -277,7 +277,7 @@ Characters are underlined.
 </dl>
 </td>
 <td width="60%">
-Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code.
+Characters are protected; an attempt to modify them will cause an <a href="/windows/win32/controls/en-protected">EN_PROTECTED</a> notification code.
 
 </td>
 </tr>
@@ -330,7 +330,7 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 > [!NOTE]
-> The richedit.h header defines CHARFORMAT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The richedit.h header defines CHARFORMAT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -338,15 +338,15 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a>
+<a href="/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a>
+<a href="/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+<a href="/windows/win32/controls/en-protected">EN_PROTECTED</a>
 
 
 

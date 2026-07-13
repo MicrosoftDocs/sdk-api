@@ -52,7 +52,7 @@ api_name:
 
 Returns the debug feature flags that have been set on a command list.
 
-## -parameters
+
 
 ## -returns
 

@@ -72,7 +72,7 @@ A pointer to a variable that receives the write handle for the pipe.
 ### -param lpPipeAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpPipeAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpPipeAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
 
 
 
@@ -126,7 +126,7 @@ For an example, see
 <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>

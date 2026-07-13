@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.lstrcpyA
 title: lstrcpyA function (winbase.h)
-description: Copies a string to a buffer.
-helpviewer_keywords: ["_win32_lstrcpy","_win32_lstrcpy_cpp","lstrcpy","lstrcpy function [Menus and Other Resources]","lstrcpyA","lstrcpyW","menurc.lstrcpy","winbase/lstrcpy","winbase/lstrcpyA","winbase/lstrcpyW","winui._win32_lstrcpy"]
+description: Copies a string to a buffer. (ANSI)
+helpviewer_keywords: ["lstrcpyA", "winbase/lstrcpyA"]
 old-location: menurc\lstrcpy.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpy.htm
@@ -121,7 +121,7 @@ Consider using <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">
 
 
 > [!NOTE]
-> The winbase.h header defines lstrcpy as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines lstrcpy as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

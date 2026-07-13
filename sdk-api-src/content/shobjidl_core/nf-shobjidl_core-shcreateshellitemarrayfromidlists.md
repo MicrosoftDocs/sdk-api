@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: OneCore.Lib
 req.dll: Shell32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
+ - api-ms-win-shell-namespace-l1-1-1.dll
  - Shell32.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
@@ -78,4 +81,4 @@ When this function returns, contains an <a href="/windows/desktop/api/shobjidl_c
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

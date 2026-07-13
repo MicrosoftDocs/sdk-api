@@ -6,28 +6,28 @@ helpviewer_keywords: ["SendAsyncProc","SendAsyncProc callback","SendAsyncProc ca
 old-location: winmsg\sendasyncproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendasyncproc.htm
-ms.date: 12/05/2018
+ms.date: 09/30/2025
 ms.keywords: SendAsyncProc, SendAsyncProc callback, SendAsyncProc callback function [Windows and Messages], _win32_SendAsyncProc, _win32_sendasyncproc_cpp, winmsg.sendasyncproc, winui._win32_sendasyncproc, winuser/SendAsyncProc
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - SENDASYNCPROC
@@ -47,69 +47,59 @@ api_name:
 
 # SENDASYNCPROC callback function
 
-
 ## -description
 
-An application-defined callback function used with the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function. The system passes the message to the callback function after passing the message to the destination window procedure. The <b>SENDASYNCPROC</b> type defines a pointer to this callback function. <i>SendAsyncProc</i> is a placeholder for the application-defined function name.
+An application-defined callback function used with the [SendMessageCallback](/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka) function. The system passes the message to the callback function after passing the message to the destination window procedure. The **SENDASYNCPROC** type defines a pointer to this callback function. _SendAsyncProc_ is a placeholder for the application-defined function name.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-Type: <b>HWND</b>
+Type: **HWND**
 
-A handle to the window whose window procedure received the message. 
+A handle to the window whose window procedure received the message. This parameter is typically named _hWnd_.
 
-If the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function was called with its <i>hwnd</i> parameter set to <b>HWND_BROADCAST</b>, the system calls the <i>SendAsyncProc</i> function once for each top-level window.
+If the [SendMessageCallback](/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka) function was called with its _hWnd_ parameter set to **HWND_BROADCAST**, the system calls the _SendAsyncProc_ function once for each top-level window.
 
 ### -param unnamedParam2
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-The message.
+The message. This parameter is typically named _uMsg_.
 
 ### -param unnamedParam3
 
-Type: <b>ULONG_PTR</b>
+Type: **ULONG_PTR**
 
-An application-defined value sent from the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function.
+An application-defined value sent from the [SendMessageCallback](/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka) function. This parameter is typically named _dwData_.
 
 ### -param unnamedParam4
 
-Type: <b>LRESULT</b>
+Type: **LRESULT**
 
-The result of the message processing. This value depends on the message.
+The result of the message processing. This value depends on the message. This parameter is typically named _lResult_.
 
 ## -remarks
 
-You install a <i>SendAsyncProc</i> application-defined callback function by passing a <b>SENDASYNCPROC</b> pointer to the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function. 
+> [!NOTE]
+> The parameters are defined in the header with no names: `typedef VOID (CALLBACK* SENDASYNCPROC)(HWND, UINT, ULONG_PTR, LRESULT);`. Therefore, the syntax block lists them as `unnamedParam1` - `unnamedParam4`. You can name these parameters anything in your app. However, they are usually named as shown in the parameter descriptions.
 
-The callback function is only called when the thread that called <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> calls <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>, <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, or <a href="/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a>.
+You install a _SendAsyncProc_ application-defined callback function by passing a **SENDASYNCPROC** pointer to the [SendMessageCallback](/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka) function.
+
+The callback function is only called when the thread that called [SendMessageCallback](/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka) calls [GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage), [PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagea), or [WaitMessage](/windows/desktop/api/winuser/nf-winuser-waitmessage).
 
 ## -see-also
 
-<b>Conceptual</b>
+**Conceptual**
 
+[Messages and Message Queues](/windows/desktop/winmsg/messages-and-message-queues)
 
+**Reference**
 
-<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+[GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage)
 
+[PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagea)
 
+[SendMessageCallback](/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka)
 
-<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a>
+[WaitMessage](/windows/desktop/api/winuser/nf-winuser-waitmessage)

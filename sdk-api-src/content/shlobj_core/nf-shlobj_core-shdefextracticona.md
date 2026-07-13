@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHDefExtractIconA
 title: SHDefExtractIconA function (shlobj_core.h)
-description: Provides a default handler to extract an icon from a file.
-helpviewer_keywords: ["GIL_SIMULATEDOC","SHDefExtractIcon","SHDefExtractIcon function [Windows Shell]","SHDefExtractIconA","SHDefExtractIconW","_win32_SHDefExtractIcon","shell.SHDefExtractIcon","shlobj_core/SHDefExtractIcon","shlobj_core/SHDefExtractIconA","shlobj_core/SHDefExtractIconW"]
+description: Provides a default handler to extract an icon from a file. (ANSI)
+helpviewer_keywords: ["GIL_SIMULATEDOC", "SHDefExtractIconA", "shlobj_core/SHDefExtractIconA"]
 old-location: shell\SHDefExtractIcon.htm
 tech.root: shell
 ms.assetid: fbaa600a-5e5c-4948-81fb-d2c3993dcd47
@@ -155,4 +155,4 @@ It is the responsibility of the caller to free the icon resources created throug
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHDefExtractIcon as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHDefExtractIcon as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

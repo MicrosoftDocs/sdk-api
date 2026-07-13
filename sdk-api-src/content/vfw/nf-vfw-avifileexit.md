@@ -57,7 +57,7 @@ The <b>AVIFileExit</b> function exits the AVIFile library and decrements the ref
 
 This function supersedes the obsolete <b>AVIStreamExit</b> function.
 
-## -parameters
+
 
 ## -see-also
 

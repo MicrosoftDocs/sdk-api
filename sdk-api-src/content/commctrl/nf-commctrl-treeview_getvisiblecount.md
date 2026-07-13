@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetVisibleCount","TreeView_GetVisibleCount macro
 old-location: controls\TreeView_GetVisibleCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getvisiblecount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetVisibleCount, TreeView_GetVisibleCount macro [Windows Controls], _win32_TreeView_GetVisibleCount, _win32_TreeView_GetVisibleCount_cpp, commctrl/TreeView_GetVisibleCount, controls.TreeView_GetVisibleCount, controls._win32_TreeView_GetVisibleCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TreeView_GetVisibleCount macro
+
+## -syntax
+
+```cpp
+UINT TreeView_GetVisibleCount(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the number of items that can be fully visible in the client window of the tree-view control.
 
 
 ## -description

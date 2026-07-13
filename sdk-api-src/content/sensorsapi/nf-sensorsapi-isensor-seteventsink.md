@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensor interface","SetEventSink method","ISensor.SetEven
 old-location: winsensors_com_ref\isensor_seteventsink.htm
 tech.root: winsensors
 ms.assetid: 8e2f7edc-894f-4258-8948-2a3d4df532c3
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensor interface,SetEventSink method, ISensor.SetEventSink, ISensor::SetEventSink, SetEventSink, SetEventSink method, SetEventSink method,ISensor interface, sensorsapi/ISensor::SetEventSink, winsensors_com_ref.isensor_seteventsink
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Specifies the interface through which to receive sensor event notifications.
 

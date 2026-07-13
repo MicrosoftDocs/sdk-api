@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_FromDate
 title: IFsrmFileManagementJob::put_FromDate (fsrmreports.h)
-description: The date from which you want the file management job to begin expiring files (moving files to the expired files directory). This property also applies to custom commands for the file management job.
+description: The date from which you want the file management job to begin expiring files (moving files to the expired files directory). This property also applies to custom commands for the file management job. (Put)
 helpviewer_keywords: ["FromDate property [File Server Resource Manager]","FromDate property [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","FromDate property","IFsrmFileManagementJob.FromDate","IFsrmFileManagementJob.put_FromDate","IFsrmFileManagementJob::FromDate","IFsrmFileManagementJob::get_FromDate","IFsrmFileManagementJob::put_FromDate","fs.ifsrmfilemanagementjob_fromdate","fsrm.ifsrmfilemanagementjob_fromdate","fsrmreports/IFsrmFileManagementJob::FromDate","fsrmreports/IFsrmFileManagementJob::get_FromDate","fsrmreports/IFsrmFileManagementJob::put_FromDate","put_FromDate"]
 old-location: fsrm\ifsrmfilemanagementjob_fromdate.htm
 tech.root: fsrm

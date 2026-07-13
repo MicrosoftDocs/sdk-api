@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetAddConnection3W
 title: WNetAddConnection3W function (winnetwk.h)
-description: The WNetAddConnection3 function makes a connection to a network resource. The function can redirect a local device to the network resource.
-helpviewer_keywords: ["CONNECT_CMD_SAVECRED","CONNECT_COMMANDLINE","CONNECT_INTERACTIVE","CONNECT_PROMPT","CONNECT_REDIRECT","CONNECT_UPDATE_PROFILE","WNetAddConnection3","WNetAddConnection3 function [Windows Networking (WNet)]","WNetAddConnection3A","WNetAddConnection3W","_win32_wnetaddconnection3","dwType","lpLocalName","lpProvider","lpRemoteName","winnetwk/WNetAddConnection3","winnetwk/WNetAddConnection3A","winnetwk/WNetAddConnection3W","wnet.wnetaddconnection3"]
+description: The WNetAddConnection3 function makes a connection to a network resource. The function can redirect a local device to the network resource. (Unicode)
+helpviewer_keywords: ["CONNECT_CMD_SAVECRED", "CONNECT_COMMANDLINE", "CONNECT_INTERACTIVE", "CONNECT_PROMPT", "CONNECT_REDIRECT", "CONNECT_UPDATE_PROFILE", "WNetAddConnection3", "WNetAddConnection3 function [Windows Networking (WNet)]", "WNetAddConnection3W", "_win32_wnetaddconnection3", "dwType", "lpLocalName", "lpProvider", "lpRemoteName", "winnetwk/WNetAddConnection3", "winnetwk/WNetAddConnection3W", "wnet.wnetaddconnection3"]
 old-location: wnet\wnetaddconnection3.htm
 tech.root: WNet
 ms.assetid: 169c7bb4-cb08-424c-af79-2133684a99db
@@ -75,14 +75,12 @@ The <i>hwndOwner</i> parameter can be <b>NULL</b>. If it is, a call to
 
 ### -param lpNetResource [in]
 
-A pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies details of the proposed connection, such as information about the network resource, the local device, and the network resource provider. 
+A pointer to a <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure that specifies details of the proposed connection, such as information about the network resource, the local device, and the network resource provider. 
 
 
 
 
-You must specify the following members of the 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
+You must specify the following members of the <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure.
 
 <table>
 <tr>
@@ -91,7 +89,7 @@ You must specify the following members of the
 </tr>
 <tr>
 <td width="40%"><a id="dwType"></a><a id="dwtype"></a><a id="DWTYPE"></a><dl>
-<dt><b><b>dwType</b></b></dt>
+<dt><b>dwType</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +108,7 @@ Although this member is required, its information may be ignored by the network 
 </tr>
 <tr>
 <td width="40%"><a id="lpLocalName"></a><a id="lplocalname"></a><a id="LPLOCALNAME"></a><dl>
-<dt><b><b>lpLocalName</b></b></dt>
+<dt><b>lpLocalName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +120,7 @@ If the string is empty or if <b>lpLocalName</b> is <b>NULL</b>, the function mak
 </tr>
 <tr>
 <td width="40%"><a id="lpRemoteName"></a><a id="lpremotename"></a><a id="LPREMOTENAME"></a><dl>
-<dt><b><b>lpRemoteName</b></b></dt>
+<dt><b>lpRemoteName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +130,7 @@ A pointer to a <b>null</b>-terminated string that specifies the network resource
 </tr>
 <tr>
 <td width="40%"><a id="lpProvider"></a><a id="lpprovider"></a><a id="LPPROVIDER"></a><dl>
-<dt><b><b>lpProvider</b></b></dt>
+<dt><b>lpProvider</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +149,7 @@ You should set this member only if you know which network provider you want to u
 
 The 
 <b>WNetAddConnection3</b> function ignores the other members of the 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure.
 
 ### -param lpPassword [in]
 
@@ -226,7 +224,7 @@ This flag forces the redirection of a local device when making the connection.
 
 
 If the <b>lpLocalName</b> member of 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
 
 If this flag is not set, a local device is automatically chosen for redirection only if the network requires a local device to be redirected.
 
@@ -471,12 +469,12 @@ On Windows Server 2003 and Windows XP, the WNet functions create and delete ne
 
 On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem calls the <b>WNetAddConnection3</b> function, then the mapped drive is visible to all user logon sessions.  
 
-For Microsoft network providers, the <b>lpRemoteName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv4 address in dotted-decimal notation. An example for a share might be the following:
+For Microsoft network providers, the <b>lpRemoteName</b> member of the <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv4 address in dotted-decimal notation. An example for a share might be the following:
 
 <code>\\192.168.1.1\share
 </code>
 
-For Microsoft network providers on Windows Vista and later, the <b>lpRemoteName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv6 address. However, the IPv6 literal format must be used so that the IPv6 address is parsed correctly. An IPv6 literal address is of the form:
+For Microsoft network providers on Windows Vista and later, the <b>lpRemoteName</b> member of the <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv6 address. However, the IPv6 literal format must be used so that the IPv6 address is parsed correctly. An IPv6 literal address is of the form:
 
 ipv6-address with the ':' characters replaced by '-' characters followed by the ".ipv6-literal.net" string.
 
@@ -490,7 +488,7 @@ an example for a share might be the following:
 
 <code>\\2001-4898-9-3-c069-aa97-fe76-2449.ipv6-literal.net\share</code>
 
-Other network providers may support the <b>lpRemoteName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter that contains an IPv4 or IPv6 address, but this is up to specific network provider.
+Other network providers may support the <b>lpRemoteName</b> member of the <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter that contains an IPv4 or IPv6 address, but this is up to specific network provider.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>If the <b>WNetAddConnection3</b> function is called with explicit user credentials specified in the <i>pUsername</i> and <i>lpPassword</i> to establish a connection with a network resource on a specific server and then called again with either of these parameters as <b>NULL</b> (to use the default user name or default password) to the same server, the call with fail. The error returned will be <b>ERROR_BAD_USERNAME</b> or <b>ERROR_INVALID_PASSWORD</b>. 
 
@@ -499,11 +497,11 @@ Other network providers may support the <b>lpRemoteName</b> member of the <a hre
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetAddConnection3 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetAddConnection3 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a>
 
 
 

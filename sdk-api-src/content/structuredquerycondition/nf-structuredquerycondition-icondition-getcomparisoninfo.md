@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetComparisonInfo
 title: ICondition::GetComparisonInfo (structuredquerycondition.h)
-description: Retrieves the property name, operation, and value from a leaf search condition node.
+description: Retrieves the property name, operation, and value from a leaf search condition node. (ICondition.GetComparisonInfo)
 helpviewer_keywords: ["GetComparisonInfo","GetComparisonInfo method [search]","GetComparisonInfo method [search]","ICondition interface","ICondition interface [search]","GetComparisonInfo method","ICondition.GetComparisonInfo","ICondition::GetComparisonInfo","_search_ICondition_GetComparisonInfo","search._search_ICondition_GetComparisonInfo","structuredquerycondition/ICondition::GetComparisonInfo"]
 old-location: search\_search_ICondition_GetComparisonInfo.htm
 tech.root: search

@@ -4,7 +4,8 @@ title: Certview.h header
 ms.assetid: c415e444-f55c-375e-92f1-a66002eda15f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: security
 f1_keywords:
  - certview

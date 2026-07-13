@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IAGetIndexBuffer
 title: ID3D11DeviceContext::IAGetIndexBuffer (d3d11.h)
-description: Get a pointer to the index buffer that is bound to the input-assembler stage.
+description: Get a pointer to the index buffer that is bound to the input-assembler stage. (ID3D11DeviceContext.IAGetIndexBuffer)
 helpviewer_keywords: ["3fe40bcc-a76c-bfbf-97f0-0ee55d520b2d","IAGetIndexBuffer","IAGetIndexBuffer method [Direct3D 11]","IAGetIndexBuffer method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","IAGetIndexBuffer method","ID3D11DeviceContext.IAGetIndexBuffer","ID3D11DeviceContext::IAGetIndexBuffer","d3d11/ID3D11DeviceContext::IAGetIndexBuffer","direct3d11.id3d11devicecontext_iagetindexbuffer"]
 old-location: direct3d11\id3d11devicecontext_iagetindexbuffer.htm
 tech.root: direct3d11

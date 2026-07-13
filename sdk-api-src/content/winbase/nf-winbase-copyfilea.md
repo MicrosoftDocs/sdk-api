@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CopyFileA
 title: CopyFileA function (winbase.h)
-description: Copies an existing file to a new file.
-helpviewer_keywords: ["CopyFile","CopyFile function [Files]","CopyFileA","CopyFileW","_win32_copyfile","base.copyfile","fs.copyfile","winbase/CopyFile","winbase/CopyFileA","winbase/CopyFileW"]
+description: Copies an existing file to a new file. (CopyFileA)
+helpviewer_keywords: ["CopyFileA", "winbase/CopyFileA"]
 old-location: fs\copyfile.htm
 tech.root: fs
 ms.assetid: 2c8ad002-cef4-499c-acda-c162205f6a8d
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll
@@ -78,13 +79,11 @@ To perform this operation as a transacted operation, use the
 
 The name of an existing file.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
+
 If <i>lpExistingFileName</i> does not exist, 
       <b>CopyFile</b> fails, and 
       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
@@ -94,13 +93,10 @@ If <i>lpExistingFileName</i> does not exist,
 
 The name of the new file.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param bFailIfExists [in]
 
@@ -218,7 +214,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winbase.h header defines CopyFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CopyFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

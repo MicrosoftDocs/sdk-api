@@ -4,14 +4,14 @@ title: IDWriteFontResource::GetFontAxisAttributes
 description: Retrieves attributes describing the given axis, such as whether the font author recommends to hide the axis in user interfaces.
 helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetFontAxisAttributes method","IDWriteFontResource.GetFontAxisAttributes","IDWriteFontResource::GetFontAxisAttributes","GetFontAxisAttributes","GetFontAxisAttributes method [Direct Write]","GetFontAxisAttributes method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getfontaxisattributes","dwrite_3/IDWriteFontResource::GetFontAxisAttributes"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisAttributes method, IDWriteFontResource.GetFontAxisAttributes, IDWriteFontResource::GetFontAxisAttributes, GetFontAxisAttributes, GetFontAxisAttributes method [Direct Write], GetFontAxisAttributes method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisattributes, dwrite_3/IDWriteFontResource::GetFontAxisAttributes
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

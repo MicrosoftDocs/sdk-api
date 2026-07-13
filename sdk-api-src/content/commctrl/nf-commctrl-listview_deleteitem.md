@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_DeleteItem","ListView_DeleteItem macro [Windows 
 old-location: controls\ListView_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_DeleteItem, ListView_DeleteItem macro [Windows Controls], _win32_ListView_DeleteItem, _win32_ListView_DeleteItem_cpp, commctrl/ListView_DeleteItem, controls.ListView_DeleteItem, controls._win32_ListView_DeleteItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_DeleteItem macro
+
+## -syntax
+
+```cpp
+BOOL ListView_DeleteItem(
+   HWND hwnd,
+   int  i
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

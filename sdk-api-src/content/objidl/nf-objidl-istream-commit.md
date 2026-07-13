@@ -63,6 +63,13 @@ Controls how the changes for the stream object are committed. See the
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | Changes to the stream object were successfully committed to the parent level.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream's data is currently unavailable. |
+|STG_E_MEDIUMFULL | The commit operation failed due to lack of space on the storage device.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 The <b>Commit</b>  method ensures that changes to a stream object opened in transacted mode are reflected in the parent storage. Changes that have been made to the stream since it was opened or last committed are reflected to the parent storage object. If the parent is opened in transacted mode, the parent may revert at a later time, rolling back the changes to this stream object. The compound file implementation does not support the opening of streams in transacted mode, so this method has very little effect other than to flush memory buffers. For more information, see 

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread
-title: IReferenceTrackerHost::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread (windows.ui.xaml.hosting.referencetracker.h)
 description: Notifies the host that reference tracking is no longer available on the calling thread; XAML calls this when the FrameworkView is uninitialized.
 helpviewer_keywords: ["IReferenceTrackerHost interface [Windows Runtime]","NotifyEndOfReferenceTrackingOnThread method","IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread","IReferenceTrackerHost.xaml","IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread","IReferenceTrackerHost::xaml","NotifyEndOfReferenceTrackingOnThread","NotifyEndOfReferenceTrackingOnThread method [Windows Runtime]","NotifyEndOfReferenceTrackingOnThread method [Windows Runtime]","IReferenceTrackerHost interface","windows/IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread","winrt.ireferencetrackerhost_notifyendofreferencetrackingonthread"]
 old-location: winrt\ireferencetrackerhost_notifyendofreferencetrackingonthread.htm
@@ -45,18 +45,18 @@ api_name:
  - IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread
 ---
 
-# IReferenceTrackerHost::xaml
+# IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
 
 Notifies the host that reference tracking is no longer available on the calling thread; XAML calls this when the <b>FrameworkView</b> is uninitialized.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

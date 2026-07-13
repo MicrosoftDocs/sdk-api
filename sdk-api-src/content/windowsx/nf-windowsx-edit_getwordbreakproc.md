@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetWordBreakProc","Edit_GetWordBreakProc macro [Wind
 old-location: controls\Edit_GetWordBreakProc.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getwordbreakproc.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetWordBreakProc, Edit_GetWordBreakProc macro [Windows Controls], _win32_Edit_GetWordBreakProc, _win32_Edit_GetWordBreakProc_cpp, controls.Edit_GetWordBreakProc, controls._win32_Edit_GetWordBreakProc, windowsx/Edit_GetWordBreakProc
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetWordBreakProc macro
+
+## -syntax
+
+```cpp
+EDITWORDBREAKPROC Edit_GetWordBreakProc(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **EDITWORDBREAKPROC**
+
+The address of the application-defined Wordwrap function, or <b>NULL</b> if no function has been set.
 
 
 ## -description

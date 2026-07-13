@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The 
-<b>TAPE_GET_MEDIA_PARAMETERS</b> structure describes the tape in the tape drive. It is used by the <a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function.
+<b>TAPE_GET_MEDIA_PARAMETERS</b> structure describes the tape in the tape drive. It is used by the <a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
 
 ## -struct-fields
 

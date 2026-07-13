@@ -52,7 +52,7 @@ api_name:
 
 Destroys the window created in <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-activate">IPropertyPage::Activate</a>.
 
-## -parameters
+
 
 ## -returns
 

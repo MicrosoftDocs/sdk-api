@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEx.GetTransformForStream
 title: IMFSinkWriterEx::GetTransformForStream (mfreadwrite.h)
-description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
+description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream. (IMFSinkWriterEx.GetTransformForStream)
 helpviewer_keywords: ["GetTransformForStream","GetTransformForStream method [Media Foundation]","GetTransformForStream method [Media Foundation]","IMFSinkWriterEx interface","IMFSinkWriterEx interface [Media Foundation]","GetTransformForStream method","IMFSinkWriterEx.GetTransformForStream","IMFSinkWriterEx::GetTransformForStream","mf.imfsinkwriterex_gettransformforstream","mfreadwrite/IMFSinkWriterEx::GetTransformForStream"]
 old-location: mf\imfsinkwriterex_gettransformforstream.htm
 tech.root: mf
@@ -60,7 +60,7 @@ The zero-based index of a stream.
 
 ### -param dwTransformIndex [in]
 
-The zero-based index of the MFT to retreive.
+The zero-based index of the MFT to retrieve.
 
 ### -param pGuidCategory [out]
 
@@ -72,7 +72,7 @@ Receives a pointer to the <a href="/windows/desktop/api/mftransform/nn-mftransfo
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

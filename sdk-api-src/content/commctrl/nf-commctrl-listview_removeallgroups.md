@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_RemoveAllGroups","ListView_RemoveAllGroups macro
 old-location: controls\ListView_RemoveAllGroups.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_removeallgroups.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_RemoveAllGroups, ListView_RemoveAllGroups macro [Windows Controls], _win32_ListView_RemoveAllGroups, _win32_ListView_RemoveAllGroups_cpp, commctrl/ListView_RemoveAllGroups, controls.ListView_RemoveAllGroups, controls._win32_ListView_RemoveAllGroups
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # ListView_RemoveAllGroups macro
+
+## -syntax
+
+```cpp
+void ListView_RemoveAllGroups(
+   HWND hwnd
+);
+```
 
 
 ## -description

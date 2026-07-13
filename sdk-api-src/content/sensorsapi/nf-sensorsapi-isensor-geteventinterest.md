@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetEventInterest","GetEventInterest method","GetEventInte
 old-location: winsensors_com_ref\isensor_geteventinterest.htm
 tech.root: winsensors
 ms.assetid: 8324817e-c310-4b90-b5b4-c7e113e3502e
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetEventInterest, GetEventInterest method, GetEventInterest method,ISensor interface, ISensor interface,GetEventInterest method, ISensor.GetEventInterest, ISensor::GetEventInterest, sensorsapi/ISensor::GetEventInterest, winsensors_com_ref.isensor_geteventinterest
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the current event interest settings.
 

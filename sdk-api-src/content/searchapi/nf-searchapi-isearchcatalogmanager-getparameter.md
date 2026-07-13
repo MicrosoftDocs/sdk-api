@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetParameter
 title: ISearchCatalogManager::GetParameter (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchCatalogManager.GetParameter)
 helpviewer_keywords: ["GetParameter","GetParameter method [search]","GetParameter method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetParameter method","ISearchCatalogManager.GetParameter","ISearchCatalogManager::GetParameter","_search_ISearchCatalogManager_GetParameter","search._search_ISearchCatalogManager_GetParameter","searchapi/ISearchCatalogManager::GetParameter"]
 old-location: search\_search_ISearchCatalogManager_GetParameter.htm
 tech.root: search
@@ -70,4 +70,4 @@ Receives a pointer to the value of the parameter.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

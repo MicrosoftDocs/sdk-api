@@ -35,7 +35,7 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - directxmath.h
 api_name:
@@ -51,7 +51,7 @@ Returns the object implementing the current instance of XMVECTORI32 cast to a <a
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
 
-## -parameters
+
 
 ## -remarks
 

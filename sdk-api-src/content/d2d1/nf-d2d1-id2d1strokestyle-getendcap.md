@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the type of shape used at the end of a stroke.
 
-## -parameters
+
 
 ## -returns
 

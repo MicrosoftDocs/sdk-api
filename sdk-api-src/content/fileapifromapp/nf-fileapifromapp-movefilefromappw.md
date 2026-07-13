@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: OneCore.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -27,7 +27,8 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_location:
-- Kernel32.dll
+ - Kernel32.dll
+ - api-ms-win-core-file-fromapp-l1-1-0.dll
 api_name:
 - MoveFileFromAppW
 - MoveFileFromApp
@@ -42,7 +43,7 @@ dev_langs:
 
 ## -description
 
-Moves an existing file or a directory, including its children. The behavior of this function is identical to [**MoveFile**](https://msdn.microsoft.com/en-us/library/aa365239\(v=vs.85\)), except that this function adheres to the Universal Windows Platform app security model.
+Moves an existing file or a directory, including its children. The behavior of this function is identical to [**MoveFile**](../winbase/nf-winbase-movefile.md), except that this function adheres to the Universal Windows Platform app security model.
 
 
 ## -parameters

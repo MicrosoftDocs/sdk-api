@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrStrW
 title: StrStrW function (shlwapi.h)
-description: Finds the first occurrence of a substring within a string. The comparison is case-sensitive.
-helpviewer_keywords: ["StrStr","StrStr function [Windows Shell]","StrStrA","StrStrW","_win32_StrStr","shell.StrStr","shlwapi/StrStr","shlwapi/StrStrA","shlwapi/StrStrW"]
+description: Finds the first occurrence of a substring within a string. The comparison is case-sensitive. (StrStrW)
+helpviewer_keywords: ["StrStr", "StrStr function [Windows Shell]", "StrStrW", "_win32_StrStr", "shell.StrStr", "shlwapi/StrStr", "shlwapi/StrStrW"]
 old-location: shell\StrStr.htm
 tech.root: shell
 ms.assetid: b1de5007-6773-4dea-8a15-ccd5f6924a13
@@ -82,5 +82,5 @@ Returns the address of the first occurrence of the matching substring if success
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines StrStr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrStr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

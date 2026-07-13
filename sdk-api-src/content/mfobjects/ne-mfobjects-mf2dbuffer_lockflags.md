@@ -60,19 +60,19 @@ Contains flags for the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2
 
 Reserved.
 
-### -field MF2DBuffer_LockFlags_Read
+### -field MF2DBuffer_LockFlags_Read:0x1
 
 Lock the buffer for reading.
 
-### -field MF2DBuffer_LockFlags_Write
+### -field MF2DBuffer_LockFlags_Write:0x2
 
 Lock the buffer for writing.
 
-### -field MF2DBuffer_LockFlags_ReadWrite
+### -field MF2DBuffer_LockFlags_ReadWrite:0x3
 
 Lock the buffer for both reading and writing.
 
-### -field MF2DBuffer_LockFlags_ForceDWORD
+### -field MF2DBuffer_LockFlags_ForceDWORD:0x7fffffff
 
 Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> value.
 

@@ -1,9 +1,9 @@
 ---
 UID: NF:icm.WcsAssociateColorProfileWithDevice
 title: WcsAssociateColorProfileWithDevice
-description: 
+description: WcsAssociateColorProfileWithDevice associates a specified WCS color profile with a specified device.
 tech.root: wcs
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 targetos: Windows
 req.assembly: 
 req.construct-type: function

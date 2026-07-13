@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-net-netbios-l1-1-0.dll
  - netapi32.dll
 api_name:
  - Netbios

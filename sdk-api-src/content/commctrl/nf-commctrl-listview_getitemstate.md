@@ -6,7 +6,7 @@ helpviewer_keywords: ["LVIS_CUT","LVIS_DROPHILITED","LVIS_FOCUSED","LVIS_OVERLAY
 old-location: controls\ListView_GetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_GetItemState, ListView_GetItemState macro [Windows Controls], _win32_ListView_GetItemState, _win32_ListView_GetItemState_cpp, commctrl/ListView_GetItemState, controls.ListView_GetItemState, controls._win32_ListView_GetItemState
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetItemState macro
+
+## -syntax
+
+```cpp
+UINT ListView_GetItemState(
+   HWND hwndLV,
+   int  i,
+   UINT mask
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the current state for the specified item. The only valid bits in the return value are those that correspond to the bits set in the <i>mask</i> parameter.
 
 
 ## -description

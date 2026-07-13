@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field PBF_UNKNOWN
+### -field PBF_UNKNOWN:0
 
 A "dummy" function assignment that indicates that the exact function of the button is unknown or has not been assigned.
 

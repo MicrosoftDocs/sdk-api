@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.ResourceBarrier
 title: ID3D12VideoProcessCommandList::ResourceBarrier
-description: Notifies the driver that it needs to synchronize multiple accesses to resources.
+description: Notifies the driver that it needs to synchronize multiple accesses to resources. (ID3D12VideoProcessCommandList::ResourceBarrier)
 helpviewer_keywords: ["ID3D12VideoProcessCommandList::ResourceBarrier","ResourceBarrier","ID3D12VideoProcessCommandList.ResourceBarrier","ID3D12VideoProcessCommandList::ResourceBarrier","ID3D12VideoProcessCommandList.ResourceBarrier"]
 tech.root: mf
 ms.assetid: 9c37e5aa-b9f7-4e72-ae08-cf0403d0bc5a

@@ -54,7 +54,7 @@ Specifies the data type of the memory pointed to by the <i>pData</i> parameter o
 
 ## -enum-fields
 
-### -field D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS
+### -field D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS:0
 
 Indicates <i>pData</i> points to a <a href="/windows/desktop/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_debug_feature">D3D12_DEBUG_FEATURE</a> value.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamStartTime","AVIStreamStartTime macro [Windows Mu
 old-location: multimedia\avistreamstarttime.htm
 tech.root: Multimedia
 ms.assetid: 6bfa053f-26ca-4dc8-8896-11ee9f0d9b77
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamStartTime, AVIStreamStartTime macro [Windows Multimedia], _win32_AVIStreamStartTime, multimedia.avistreamstarttime, vfw/AVIStreamStartTime
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # AVIStreamStartTime macro
+
+## -syntax
+
+```cpp
+LONG AVIStreamStartTime(
+     pavi
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the time if successful or –1 otherwise.
 
 
 ## -description

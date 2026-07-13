@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-uxtheme-themes-l1-1-3.dll
+ - ext-ms-win-uxtheme-themes-l1-1-2.dll
  - UxTheme.dll
  - ext-ms-win-uxtheme-themes-l1-1-1.dll
  - xamlpalwp.dll
@@ -62,7 +64,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a window to apply changes to.
 
-### -param unnamedParam2 [in]
+### -param eAttribute [in]
 
 Type: <b>enum WINDOWTHEMEATTRIBUTETYPE</b>
 
@@ -80,7 +82,6 @@ Value of type <a href="/windows/desktop/api/uxtheme/ne-uxtheme-windowthemeattrib
 </td>
 <td width="60%">
 Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of type <a href="/windows/desktop/api/uxtheme/ns-uxtheme-wta_options">WTA_OPTIONS</a>.
-
 </td>
 </tr>
 </table>
@@ -101,7 +102,7 @@ Specifies the size, in bytes, of the data pointed to by <i>pvAttribute</i>.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

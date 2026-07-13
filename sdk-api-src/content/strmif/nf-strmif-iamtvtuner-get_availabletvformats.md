@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_AvailableTVFormat
 old-location: dshow\iamtvtuner_get_availabletvformats.htm
 tech.root: dshow
 ms.assetid: 7b1a31d4-be05-4ab3-8ca3-b1a3f4bda03f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMTVTuner interface [DirectShow],get_AvailableTVFormats method, IAMTVTuner.get_AvailableTVFormats, IAMTVTuner::get_AvailableTVFormats, IAMTVTunerget_AvailableTVFormats, dshow.iamtvtuner_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AvailableTVFormats
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_AvailableTVFormats</code> method retrieves all the analog video TV standards that the tuner supports.
 

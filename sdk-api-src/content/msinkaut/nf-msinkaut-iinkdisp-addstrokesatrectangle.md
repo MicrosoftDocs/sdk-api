@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -148,7 +148,7 @@ This method can be used to copy strokes within a single <a href="/windows/deskto
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="../msinkaut/nn-msinkaut-iinkdisp.md">IInkDisp</a>
 
 
 

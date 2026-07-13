@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupLogErrorW
 title: SetupLogErrorW function (setupapi.h)
-description: The SetupLogError function writes an error message to a log file.
-helpviewer_keywords: ["SetupLogError","SetupLogError function [Setup API]","SetupLogErrorA","SetupLogErrorW","_setupapi_setuplogerror","setup.setuplogerror","setupapi/SetupLogError","setupapi/SetupLogErrorA","setupapi/SetupLogErrorW"]
+description: The SetupLogError function writes an error message to a log file. (Unicode)
+helpviewer_keywords: ["SetupLogError", "SetupLogError function [Setup API]", "SetupLogErrorW", "_setupapi_setuplogerror", "setup.setuplogerror", "setupapi/SetupLogError", "setupapi/SetupLogErrorW"]
 old-location: setup\setuplogerror.htm
 tech.root: setup
 ms.assetid: 1e003338-9ada-48cb-89cc-557f12a43cd0
@@ -89,7 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupLogError as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupLogError as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsReplicaUpdateRefsW
 title: DsReplicaUpdateRefsW function (ntdsapi.h)
-description: Adds or removes a replication reference for a destination from a source naming context.
-helpviewer_keywords: ["DS_REPUPD_ADD_REFERENCE","DS_REPUPD_ASYNCHRONOUS_OPERATION","DS_REPUPD_DELETE_REFERENCE","DS_REPUPD_WRITEABLE","DsReplicaUpdateRefs","DsReplicaUpdateRefs function [Active Directory]","DsReplicaUpdateRefsA","DsReplicaUpdateRefsW","_glines_dsreplicaupdaterefs","ad.dsreplicaupdaterefs","ntdsapi/DsReplicaUpdateRefs","ntdsapi/DsReplicaUpdateRefsA","ntdsapi/DsReplicaUpdateRefsW"]
+description: Adds or removes a replication reference for a destination from a source naming context. (Unicode)
+helpviewer_keywords: ["DS_REPUPD_ADD_REFERENCE", "DS_REPUPD_ASYNCHRONOUS_OPERATION", "DS_REPUPD_DELETE_REFERENCE", "DS_REPUPD_WRITEABLE", "DsReplicaUpdateRefs", "DsReplicaUpdateRefs function [Active Directory]", "DsReplicaUpdateRefsW", "_glines_dsreplicaupdaterefs", "ad.dsreplicaupdaterefs", "ntdsapi/DsReplicaUpdateRefs", "ntdsapi/DsReplicaUpdateRefsW"]
 old-location: ad\dsreplicaupdaterefs.htm
 tech.root: ad
 ms.assetid: 158c7e73-0e6c-4b71-a87f-2f60f3db91cb
@@ -137,7 +137,7 @@ If both <b>DS_REPUPD_ADD_REFERENCE</b> and <b>DS_REPUPD_DELETE_REFERENCE</b> are
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsReplicaUpdateRefs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsReplicaUpdateRefs as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

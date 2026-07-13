@@ -56,10 +56,7 @@ Provides the methods for managing specific <a href="/windows/desktop/TaskSchd/w"
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScheduledWorkItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IScheduledWorkItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IScheduledWorkItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IScheduledWorkItem</b> also has these types of members:
 
 ## -remarks
 

@@ -54,10 +54,7 @@ The <b>ITextHost2</b> interface extends the <a href="/windows/desktop/api/textse
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextHost2</b> interface inherits from <a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>. <b>ITextHost2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITextHost2</b> interface inherits from <a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>. <b>ITextHost2</b> also has these types of members:
 
 ## -see-also
 

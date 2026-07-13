@@ -54,27 +54,27 @@ Describes how one geometry object is spatially related to another geometry objec
 
 ## -enum-fields
 
-### -field D2D1_GEOMETRY_RELATION_UNKNOWN
+### -field D2D1_GEOMETRY_RELATION_UNKNOWN:0
 
 The relationship between the two geometries cannot be determined. This value is never returned by any D2D method.
 
-### -field D2D1_GEOMETRY_RELATION_DISJOINT
+### -field D2D1_GEOMETRY_RELATION_DISJOINT:1
 
 The two geometries  do not intersect at all.
 
-### -field D2D1_GEOMETRY_RELATION_IS_CONTAINED
+### -field D2D1_GEOMETRY_RELATION_IS_CONTAINED:2
 
 The instance geometry is entirely contained by  the passed-in geometry.
 
-### -field D2D1_GEOMETRY_RELATION_CONTAINS
+### -field D2D1_GEOMETRY_RELATION_CONTAINS:3
 
 The instance geometry entirely contains the passed-in geometry.
 
-### -field D2D1_GEOMETRY_RELATION_OVERLAP
+### -field D2D1_GEOMETRY_RELATION_OVERLAP:4
 
 The two geometries overlap but neither completely contains the other.
 
-### -field D2D1_GEOMETRY_RELATION_FORCE_DWORD
+### -field D2D1_GEOMETRY_RELATION_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

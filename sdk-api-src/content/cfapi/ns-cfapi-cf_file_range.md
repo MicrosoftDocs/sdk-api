@@ -47,7 +47,6 @@ api_name:
 
 # CF_FILE_RANGE structure
 
-
 ## -description
 
 Specifies a range of data in a placeholder file.
@@ -62,3 +61,6 @@ The offset of the starting point of the data.
 
 The length of the data, in bytes.
 
+## -see-also
+
+[CfUpdatePlaceholder](nf-cfapi-cfupdateplaceholder.md)

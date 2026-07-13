@@ -83,7 +83,15 @@ The method succeeded.
 
 ## -remarks
 
-If the value passed to <code>SetSequencePaddingWidth</code> is nonzero and the format string specified in <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a> contains a sequential token, this method sets the width allotted for the sequential token. For example, given the template <code>$(GroupTag)$(AcquisitionSequence).$(OriginalExtension)</code>, if padding is set to 0, a file name might appear as <pre class="syntax" xml:space="preserve"><code>"Image1.jpg"</code></pre> If padding is set to 3, the file name may appear as <pre class="syntax" xml:space="preserve"><code>"Image   1.jpg"</code></pre>
+If the value passed to <code>SetSequencePaddingWidth</code> is nonzero and the format string specified in <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a> contains a sequential token, this method sets the width allotted for the sequential token. For example, given the template <code>$(GroupTag)$(AcquisitionSequence).$(OriginalExtension)</code>, if padding is set to 0, a file name might appear as 
+``` syntax
+"Image1.jpg"
+```
+ If padding is set to 3, the file name may appear as 
+``` syntax
+"Image   1.jpg"
+```
+
 
 ## -see-also
 

@@ -104,190 +104,15 @@ Specifies the character bias. This value is TrueType-specific and should be set 
 
 ### -field dpCharSets
 
-Specifies the offset from the beginning of this IFIMETRICS structure to an array containing a list of all Windows character sets supported by this font. The array is 16 bytes in size and is always terminated with DEFAULT_CHARSET. The first value of the array should identify the Windows character set that has the best and most complete coverage in the font; this value should also be stored in <b>jWinCharSet</b>. For instance, if this is a Japanese font that also supports US ANSI and Cyrillic character sets, then <b>jWinCharSet</b> should be set to SHIFTJIS_CHARSET and the array identified by <b>dpCharSets</b> would contain SHIFTJIS_CHARSET, ANSI_CHARSET, RUSSIAN_CHARSET, DEFAULT_CHARSET.
+Specifies the offset from the beginning of this IFIMETRICS structure to an array containing a list of all Windows character sets supported by this font. The array is 16 bytes in size and is always terminated with **DEFAULT_CHARSET**. The first value of the array should identify the Windows character set that has the best and most complete coverage in the font; this value should also be stored in <b>jWinCharSet</b>. For instance, if this is a Japanese font that also supports US ANSI and Cyrillic character sets, then <b>jWinCharSet</b> should be set to **SHIFTJIS_CHARSET** and the array identified by <b>dpCharSets</b> would contain **SHIFTJIS_CHARSET**, **ANSI_CHARSET**, **RUSSIAN_CHARSET**, **DEFAULT_CHARSET**.
 
 If this font does not support more than one Windows character set, <b>dpCharSets</b> should be set to zero.
 
 ### -field jWinCharSet
 
-Identifies the character set best supported by this font. If the font supports only a single Windows character set, the driver should store the corresponding value in <b>jWinCharSet</b>. The driver should not store DEFAULT_CHARSET in this field. This member can be one of the following values:
+Identifies the character set best supported by this font. If the font supports only a single Windows character set, the driver should store the corresponding value in <b>jWinCharSet</b>. The driver should not store **DEFAULT_CHARSET** in this field.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ANSI_CHARSET
-
-</td>
-<td>
-This font supports the Windows ANSI character set.
-
-</td>
-</tr>
-<tr>
-<td>
-ARABIC_CHARSET
-
-</td>
-<td>
-This font supports the Arabic character set.
-
-</td>
-</tr>
-<tr>
-<td>
-BALTIC_CHARSET
-
-</td>
-<td>
-This font supports the Baltic character set.
-
-</td>
-</tr>
-<tr>
-<td>
-CHINESEBIG5_CHARSET
-
-</td>
-<td>
-This font supports the traditional Chinese (Big 5) character set.
-
-</td>
-</tr>
-<tr>
-<td>
-EASTEUROPE_CHARSET
-
-</td>
-<td>
-This font supports the Eastern European character set.
-
-</td>
-</tr>
-<tr>
-<td>
-GB2312_CHARSET
-
-</td>
-<td>
-This font supports the simplified (PRC) Chinese character set.
-
-</td>
-</tr>
-<tr>
-<td>
-GREEK_CHARSET
-
-</td>
-<td>
-This font supports the Greek character set.
-
-</td>
-</tr>
-<tr>
-<td>
-HANGEUL_CHARSET
-
-</td>
-<td>
-This font supports the Korean (Hangeul) character set.
-
-</td>
-</tr>
-<tr>
-<td>
-HEBREW_CHARSET
-
-</td>
-<td>
-This font supports the Hebrew character set.
-
-</td>
-</tr>
-<tr>
-<td>
-JOHAB_CHARSET
-
-</td>
-<td>
-This font supports the Korean (Johab) character set.
-
-</td>
-</tr>
-<tr>
-<td>
-OEM_CHARSET
-
-</td>
-<td>
-This font supports an OEM-specific character set. The OEM character set is system dependent.
-
-</td>
-</tr>
-<tr>
-<td>
-SHIFTJIS_CHARSET
-
-</td>
-<td>
-This font supports the Shift-JIS (Japanese Industry Standard) character set.
-
-</td>
-</tr>
-<tr>
-<td>
-SYMBOL_CHARSET
-
-</td>
-<td>
-This font supports the Windows symbol character set.
-
-</td>
-</tr>
-<tr>
-<td>
-RUSSIAN_CHARSET
-
-</td>
-<td>
-This font supports the Cyrillic character set.
-
-</td>
-</tr>
-<tr>
-<td>
-THAI_CHARSET
-
-</td>
-<td>
-This font supports the Thai character set.
-
-</td>
-</tr>
-<tr>
-<td>
-TURKISH_CHARSET
-
-</td>
-<td>
-This font supports the Turkish character set.
-
-</td>
-</tr>
-<tr>
-<td>
-VIETNAMESE_CHARSET
-
-</td>
-<td>
-This font supports the Vietnamese character set.
-
-</td>
-</tr>
-</table>
+For a list of possible values, see *lfCharSet* field of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfontw">LOGFONT structure</a>.
 
 ### -field jWinPitchAndFamily
 
@@ -827,7 +652,7 @@ Specifies the Macintosh descender value for the font. This number is typically l
 
 ### -field fwdMacLineGap
 
-Specifies the Macintosh line gap for the font. The suggested Macintosh interline spacing is equal to <b>fwdMacLineGap</b> + <b>fwdMacAscender</b> âˆ’ <b>fwdMacDescender</b>.
+Specifies the Macintosh line gap for the font. The suggested Macintosh interline spacing is equal to <b>fwdMacLineGap</b> + <b>fwdMacAscender</b> − <b>fwdMacDescender</b>.
 
 ### -field fwdTypoAscender
 

@@ -43,6 +43,7 @@ api_location:
  - Wiaservc.dll
 api_name:
  - IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
+archived: true
 ---
 
 # IWiaDataTransfer::idtEnumWIA_FORMAT_INFO

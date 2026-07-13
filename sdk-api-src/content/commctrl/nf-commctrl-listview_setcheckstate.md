@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetCheckState","ListView_SetCheckState macro [Wi
 old-location: controls\ListView_SetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcheckstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetCheckState, ListView_SetCheckState macro [Windows Controls], _win32_ListView_SetCheckState, _win32_ListView_SetCheckState_cpp, commctrl/ListView_SetCheckState, controls.ListView_SetCheckState, controls._win32_ListView_SetCheckState
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # ListView_SetCheckState macro
+
+## -syntax
+
+```cpp
+void ListView_SetCheckState(
+   HWND hwndLV,
+   UINT i,
+   BOOL fCheck
+);
+```
 
 
 ## -description

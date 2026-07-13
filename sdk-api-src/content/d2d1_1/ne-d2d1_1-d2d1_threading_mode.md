@@ -62,7 +62,7 @@ Resources may only be invoked serially.  Device context state is not protected f
 
 Resources may be invoked from multiple threads. Resources use interlocked reference counting and their state is protected.
 
-### -field D2D1_THREADING_MODE_FORCE_DWORD
+### -field D2D1_THREADING_MODE_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

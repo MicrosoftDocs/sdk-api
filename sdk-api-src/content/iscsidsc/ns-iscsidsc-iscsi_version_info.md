@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_24
+UID: NS:iscsidsc.ISCSI_VERSION_INFO
 title: ISCSI_VERSION_INFO (iscsidsc.h)
 description: The ISCSI_VERSION_INFO structure contains the version and build numbers of the iSCSI software initiator and the initiator service.
 helpviewer_keywords: ["*PISCSI_VERSION_INFO","ISCSI_VERSION_INFO","ISCSI_VERSION_INFO structure [iSCSI Discovery Library API]","PISCSI_VERSION_INFO","PISCSI_VERSION_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_version_info","iscsidsc/ISCSI_VERSION_INFO","iscsidsc/PISCSI_VERSION_INFO"]

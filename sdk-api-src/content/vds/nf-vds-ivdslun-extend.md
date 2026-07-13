@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLun.Extend
 title: IVdsLun::Extend (vds.h)
-description: Extends a LUN by a specified number of bytes.
+description: The IVdsLun::Extend method (vds.h) extends a LUN by a specified number of bytes.
 helpviewer_keywords: ["Extend","Extend method [VDS]","Extend method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","Extend method","IVdsLun.Extend","IVdsLun::Extend","base.ivdslun_extend","vds/IVdsLun::Extend","vdshwprv/IVdsLun::Extend"]
 old-location: base\ivdslun_extend.htm
 tech.root: base
 ms.assetid: 65520b6a-206a-4b90-b8cc-b7964d0cf102
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsLun interface, IVdsLun interface [VDS],Extend method, IVdsLun.Extend, IVdsLun::Extend, base.ivdslun_extend, vds/IVdsLun::Extend, vdshwprv/IVdsLun::Extend
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Extends a LUN by a specified 
    number of bytes.

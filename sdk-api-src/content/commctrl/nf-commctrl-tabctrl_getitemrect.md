@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetItemRect","TabCtrl_GetItemRect macro [Windows 
 old-location: controls\TabCtrl_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetItemRect, TabCtrl_GetItemRect macro [Windows Controls], _win32_TabCtrl_GetItemRect, _win32_TabCtrl_GetItemRect_cpp, commctrl/TabCtrl_GetItemRect, controls.TabCtrl_GetItemRect, controls._win32_TabCtrl_GetItemRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TabCtrl_GetItemRect macro
+
+## -syntax
+
+```cpp
+BOOL TabCtrl_GetItemRect(
+   HWND hwnd,
+   int  i,
+   RECT *prc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

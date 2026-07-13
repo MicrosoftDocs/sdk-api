@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetSelItems","ListBox_GetSelItems macro [Windows 
 old-location: controls\ListBox_GetSelItems.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getselitems.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetSelItems, ListBox_GetSelItems macro [Windows Controls], _win32_ListBox_GetSelItems, _win32_ListBox_GetSelItems_cpp, controls.ListBox_GetSelItems, controls._win32_ListBox_GetSelItems, windowsx/ListBox_GetSelItems
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_GetSelItems macro
+
+## -syntax
+
+```cpp
+int ListBox_GetSelItems(
+   HWND hwndCtl,
+   int  cItems,
+   int  *lpItems
+);
+```
+
+## -returns
+
+Type: **int**
+
+The number of items placed in the buffer. If the list box is a single-selection list box, the return value is LB_ERR.
 
 
 ## -description

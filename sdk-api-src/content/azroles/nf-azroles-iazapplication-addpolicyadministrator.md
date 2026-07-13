@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyAdministrator
 title: IAzApplication::AddPolicyAdministrator (azroles.h)
-description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
+description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators. (IAzApplication.AddPolicyAdministrator)
 helpviewer_keywords: ["AddPolicyAdministrator","AddPolicyAdministrator method [Security]","AddPolicyAdministrator method [Security]","AzApplication object","AddPolicyAdministrator method [Security]","IAzApplication interface","AzApplication object [Security]","AddPolicyAdministrator method","IAzApplication interface [Security]","AddPolicyAdministrator method","IAzApplication.AddPolicyAdministrator","IAzApplication::AddPolicyAdministrator","azroles/IAzApplication::AddPolicyAdministrator","security.iazapplication_addpolicyadministrator"]
 old-location: security\iazapplication_addpolicyadministrator.htm
 tech.root: security
 ms.assetid: 944f93c1-5155-4c87-a241-9fdef84b68fc
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzApplication object, AddPolicyAdministrator method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyAdministrator method, IAzApplication interface [Security],AddPolicyAdministrator method, IAzApplication.AddPolicyAdministrator, IAzApplication::AddPolicyAdministrator, azroles/IAzApplication::AddPolicyAdministrator, security.iazapplication_addpolicyadministrator
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzApplication::AddPolicyAdministrator
 
-
 ## -description
 
-The <b>AddPolicyAdministrator</b> method adds the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form to the list of principals that act as policy administrators.
+The **AddPolicyAdministrator** method adds the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form to the list of principals that act as policy administrators.
 
 ## -parameters
 
@@ -63,19 +62,28 @@ Text form of the SID to add to the list of policy administrators.
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
 Policy administrators for an object can perform the following tasks:
 
-<ul>
-<li>Read the object</li>
-<li>Write attributes to the object</li>
-<li>Read attributes of child objects of the object</li>
-<li>Write attributes to child objects of the object</li>
-<li>Delete the object</li>
-<li>Delete child objects of the object</li>
-<li>Create child objects of the object</li>
-</ul>
-To view the list of policy administrators, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_policyadministrators">PolicyAdministrators</a> property.
+- Read the object
+- Write attributes to the object
+- Read attributes of child objects of the object
+- Write attributes to child objects of the object
+- Delete the object
+- Delete child objects of the object
+- Create child objects of the object
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">Submit</a> method to persist any changes made by this method.
+To view the list of policy administrators, use the [PolicyAdministrators](nf-azroles-iazapplication-get_policyadministrators.md) property.
+
+You must call the [Submit](nf-azroles-iazapplication-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[PolicyAdministrators](nf-azroles-iazapplication-get_policyadministrators.md)
+
+[Submit](nf-azroles-iazapplication-submit.md)

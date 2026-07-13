@@ -52,7 +52,7 @@ api_name:
 
 Terminates the host and releases any attached services. If a notification sink was passed to the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> method, then the notification sink is released.
 
-## -parameters
+
 
 ## -returns
 

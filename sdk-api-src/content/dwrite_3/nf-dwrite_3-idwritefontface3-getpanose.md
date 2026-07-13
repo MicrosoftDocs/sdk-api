@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetPanose","GetPanose method [Direct Write]","GetPanose m
 old-location: directwrite\idwritefontface3_getpanose.htm
 tech.root: DirectWrite
 ms.assetid: 977AFC97-9747-4FCE-861E-E1C40975B2E9
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetPanose, GetPanose method [Direct Write], GetPanose method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetPanose method, IDWriteFontFace3.GetPanose, IDWriteFontFace3::GetPanose, directwrite.idwritefontface3_getpanose, dwrite_3/IDWriteFontFace3::GetPanose
 req.header: dwrite_3.h
 req.include-header: 

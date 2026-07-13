@@ -1,8 +1,8 @@
 ---
 UID: NF:commdlg.GetFileTitleW
 title: GetFileTitleW function (commdlg.h)
-description: Retrieves the name of the specified file.
-helpviewer_keywords: ["GetFileTitle","GetFileTitle function [Dialog Boxes]","GetFileTitleA","GetFileTitleW","_win32_GetFileTitle","_win32_getfiletitle_cpp","commdlg/GetFileTitle","commdlg/GetFileTitleA","commdlg/GetFileTitleW","dlgbox.getfiletitle","winui._win32_getfiletitle"]
+description: Retrieves the name of the specified file. (Unicode)
+helpviewer_keywords: ["GetFileTitle", "GetFileTitle function [Dialog Boxes]", "GetFileTitleW", "_win32_GetFileTitle", "_win32_getfiletitle_cpp", "commdlg/GetFileTitle", "commdlg/GetFileTitleW", "dlgbox.getfiletitle", "winui._win32_getfiletitle"]
 old-location: dlgbox\getfiletitle.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm
@@ -102,7 +102,7 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 
 > [!NOTE]
-> The commdlg.h header defines GetFileTitle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines GetFileTitle as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

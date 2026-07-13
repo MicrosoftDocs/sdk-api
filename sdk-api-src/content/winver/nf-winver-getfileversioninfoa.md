@@ -1,8 +1,8 @@
 ---
 UID: NF:winver.GetFileVersionInfoA
 title: GetFileVersionInfoA function (winver.h)
-description: Retrieves version information for the specified file.
-helpviewer_keywords: ["GetFileVersionInfo","GetFileVersionInfo function [Menus and Other Resources]","GetFileVersionInfoA","GetFileVersionInfoW","_win32_GetFileVersionInfo","_win32_getfileversioninfo_cpp","menurc.getfileversioninfo","winui._win32_getfileversioninfo","winver/GetFileVersionInfo","winver/GetFileVersionInfoA","winver/GetFileVersionInfoW"]
+description: Retrieves version information for the specified file. (GetFileVersionInfoA)
+helpviewer_keywords: ["GetFileVersionInfoA", "winver/GetFileVersionInfoA"]
 old-location: menurc\getfileversioninfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfo.htm
@@ -113,7 +113,7 @@ Call the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea"
 
 
 > [!NOTE]
-> The winver.h header defines GetFileVersionInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winver.h header defines GetFileVersionInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

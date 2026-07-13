@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CheckCounter
 title: ID3D11Device::CheckCounter (d3d11.h)
-description: Get the type, name, units of measure, and a description of an existing counter.
+description: Get the type, name, units of measure, and a description of an existing counter. (ID3D11Device.CheckCounter)
 helpviewer_keywords: ["6fe48914-c164-b2f3-ada5-6ebc529a69a9","CheckCounter","CheckCounter method [Direct3D 11]","CheckCounter method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CheckCounter method","ID3D11Device.CheckCounter","ID3D11Device::CheckCounter","d3d11/ID3D11Device::CheckCounter","direct3d11.id3d11device_checkcounter"]
 old-location: direct3d11\id3d11device_checkcounter.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_PORT_A
 title: DEV_BROADCAST_PORT_A (dbt.h)
-description: Contains information about a modem, serial, or parallel port.
+description: Contains information about a modem, serial, or parallel port. (ANSI)
 helpviewer_keywords: ["*PDEV_BROADCAST_PORT_A","DEV_BROADCAST_PORT","DEV_BROADCAST_PORT structure","DEV_BROADCAST_PORT_A","PDEV_BROADCAST_PORT","PDEV_BROADCAST_PORT structure pointer","_win32_dev_broadcast_port_str","base.dev_broadcast_port_str","dbt/DEV_BROADCAST_PORT","dbt/PDEV_BROADCAST_PORT"]
 old-location: base\dev_broadcast_port_str.htm
 tech.root: base
@@ -93,4 +93,4 @@ A null-terminated string specifying the friendly name of the port or the device 
 ## -remarks
 
 > [!NOTE]
-> The dbt.h header defines DEV_BROADCAST_PORT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbt.h header defines DEV_BROADCAST_PORT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

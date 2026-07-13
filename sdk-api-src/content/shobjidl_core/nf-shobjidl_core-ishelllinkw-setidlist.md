@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.SetIDList
 title: IShellLinkW::SetIDList (shobjidl_core.h)
-description: Sets the pointer to an item identifier list (PIDL) for a Shell link object.
+description: Sets the pointer to an item identifier list (PIDL) for a Shell link object. (Unicode)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetIDList method","IShellLink::SetIDList","IShellLinkA interface [Windows Shell]","SetIDList method","IShellLinkA::SetIDList","IShellLinkW interface [Windows Shell]","SetIDList method","IShellLinkW.SetIDList","IShellLinkW::SetIDList","SetIDList","SetIDList method [Windows Shell]","SetIDList method [Windows Shell]","IShellLink interface","SetIDList method [Windows Shell]","IShellLinkA interface","SetIDList method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetIDList","shell.IShellLink_SetIDList","shobjidl_core/IShellLink::SetIDList","shobjidl_core/IShellLinkA::SetIDList","shobjidl_core/IShellLinkW::SetIDList"]
 old-location: shell\IShellLink_SetIDList.htm
 tech.root: shell
@@ -66,7 +66,7 @@ The object's fully qualified PIDL.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

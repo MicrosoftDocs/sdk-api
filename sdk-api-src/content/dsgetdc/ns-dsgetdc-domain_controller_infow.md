@@ -1,7 +1,7 @@
 ---
 UID: NS:dsgetdc._DOMAIN_CONTROLLER_INFOW
 title: DOMAIN_CONTROLLER_INFOW (dsgetdc.h)
-description: Used with the DsGetDcName function to receive data about a domain controller.
+description: Used with the DsGetDcName function to receive data about a domain controller. (Unicode)
 helpviewer_keywords: ["*PDOMAIN_CONTROLLER_INFOW","DOMAIN_CONTROLLER_INFO","DOMAIN_CONTROLLER_INFO structure [Active Directory]","DOMAIN_CONTROLLER_INFOA","DOMAIN_CONTROLLER_INFOW","DS_CLOSEST_FLAG","DS_DNS_CONTROLLER_FLAG","DS_DNS_DOMAIN_FLAG","DS_DNS_FOREST_FLAG","DS_DS_FLAG","DS_FULL_SECRET_DOMAIN_6_FLAG","DS_GC_FLAG","DS_GOOD_TIMESERV_FLAG","DS_INET_ADDRESS","DS_KDC_FLAG","DS_LDAP_FLAG","DS_NDNC_FLAG","DS_NETBIOS_ADDRESS","DS_PDC_FLAG","DS_SELECT_SECRET_DOMAIN_6_FLAG","DS_TIMESERV_FLAG","DS_WRITABLE_FLAG","PDOMAIN_CONTROLLER_INFO","PDOMAIN_CONTROLLER_INFO structure pointer [Active Directory]","_glines_domain_controller_info","ad.domain__controller__info","ad.domain_controller_info","dsgetdc/DOMAIN_CONTROLLER_INFO","dsgetdc/DOMAIN_CONTROLLER_INFOA","dsgetdc/DOMAIN_CONTROLLER_INFOW","dsgetdc/PDOMAIN_CONTROLLER_INFO"]
 old-location: ad\domain_controller_info.htm
 tech.root: ad
@@ -319,4 +319,4 @@ The domain controller hosts a writable directory service (or SAM).
 ## -remarks
 
 > [!NOTE]
-> The dsgetdc.h header defines DOMAIN_CONTROLLER_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsgetdc.h header defines DOMAIN_CONTROLLER_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

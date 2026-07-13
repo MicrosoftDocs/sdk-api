@@ -54,9 +54,9 @@ Determines the concurrency model used for incoming calls to the objects created 
 
 ## -enum-fields
 
-### -field RO_INIT_SINGLETHREADED
+### -field RO_INIT_SINGLETHREADED:0
 
-### -field RO_INIT_MULTITHREADED
+### -field RO_INIT_MULTITHREADED:1
 
 Initializes the thread for multi-threaded concurrency. The current thread is initialized in the MTA.
 

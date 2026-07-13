@@ -57,13 +57,13 @@ before signing.
 
 ## -enum-fields
 
-### -field XPS_SIGN_FLAGS_NONE
+### -field XPS_SIGN_FLAGS_NONE:0
 
 The system will check for any markup compatibility elements before 
 signing the package. If any markup compatibility elements are found, the signing operation 
 fails with an <b>XPS_E_MARKUP_COMPATIBILITY_ELEMENTS</b> error.
 
-### -field XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY
+### -field XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY:0x1
 
 The system will not check for any markup compatibility elements before 
 signing the package.
@@ -78,8 +78,8 @@ signing the package.
 
 
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

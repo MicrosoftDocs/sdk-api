@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>.
+Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="/windows/win32/winmsg/mouseproc">MouseProc</a>.
 
 ## -struct-fields
 
 ### -field pt
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The x- and y-coordinates of the cursor, in screen coordinates.
 
@@ -92,7 +92,7 @@ Additional information associated with the message.
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
+<a href="/windows/win32/winmsg/mouseproc">MouseProc</a>
 
 
 

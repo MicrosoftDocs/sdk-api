@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.get_Flags
 title: IX509PolicyServerUrl::get_Flags (certenroll.h)
-description: Specifies or retrieves a value that indicates whether the certificate enrollment policy (CEP) server policy information can be loaded from group policy, from the registry, or both.
+description: Specifies or retrieves a value that indicates whether the certificate enrollment policy (CEP) server policy information can be loaded from group policy, from the registry, or both. (Get)
 helpviewer_keywords: ["Flags property [Security]","Flags property [Security]","IX509PolicyServerUrl interface","IX509PolicyServerUrl interface [Security]","Flags property","IX509PolicyServerUrl.Flags","IX509PolicyServerUrl.get_Flags","IX509PolicyServerUrl::Flags","IX509PolicyServerUrl::get_Flags","IX509PolicyServerUrl::put_Flags","PsfLocationGroupPolicy","PsfLocationRegistry","certenroll/IX509PolicyServerUrl::Flags","certenroll/IX509PolicyServerUrl::get_Flags","certenroll/IX509PolicyServerUrl::put_Flags","get_Flags","security.ix509policyserverurl_flags"]
 old-location: security\ix509policyserverurl_flags.htm
 tech.root: security

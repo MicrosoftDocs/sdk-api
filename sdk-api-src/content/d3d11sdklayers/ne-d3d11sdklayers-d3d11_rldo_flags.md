@@ -54,15 +54,15 @@ Options for the amount of information to report about a device object's lifetime
 
 ## -enum-fields
 
-### -field D3D11_RLDO_SUMMARY
+### -field D3D11_RLDO_SUMMARY:0x1
 
 Specifies to obtain a summary about a device object's lifetime.
 
-### -field D3D11_RLDO_DETAIL
+### -field D3D11_RLDO_DETAIL:0x2
 
 Specifies to obtain detailed information about a device object's lifetime.
 
-### -field D3D11_RLDO_IGNORE_INTERNAL
+### -field D3D11_RLDO_IGNORE_INTERNAL:0x4
 
 This flag indicates to ignore objects which have no external refcounts keeping them alive. D3D objects are printed using an external refcount and an internal refcount. Typically, all objects are printed. This flag means ignore the objects whose external refcount is 0, because the application is not responsible for keeping them alive.
 

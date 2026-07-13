@@ -56,7 +56,7 @@ Specifies the button states of a math input control (MIC).
 
 ## -enum-fields
 
-### -field MICUIELEMENTSTATE_NORMAL
+### -field MICUIELEMENTSTATE_NORMAL:1
 
 The button does not have the mouse hovering over it.
 

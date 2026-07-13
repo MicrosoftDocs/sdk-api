@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptuiapi.tagCRYPTUI_VIEWCERTIFICATE_STRUCTW
 title: CRYPTUI_VIEWCERTIFICATE_STRUCTW (cryptuiapi.h)
-description: Contains information about a certificate to view. This structure is used in the CryptUIDlgViewCertificate function.
+description: Contains information about a certificate to view. This structure is used in the CryptUIDlgViewCertificate function. (Unicode)
 helpviewer_keywords: ["*PCRYPTUI_VIEWCERTIFICATE_STRUCTW","CRYPTUI_ACCEPT_DECLINE_STYLE","CRYPTUI_CACHE_ONLY_URL_RETRIEVAL","CRYPTUI_DISABLE_ADDTOSTORE","CRYPTUI_DISABLE_EDITPROPERTIES","CRYPTUI_DISABLE_EXPORT","CRYPTUI_DISABLE_HTMLLINK","CRYPTUI_DISABLE_ISSUERSTATEMENT","CRYPTUI_DONT_OPEN_STORES","CRYPTUI_ENABLE_ADDTOSTORE","CRYPTUI_ENABLE_EDITPROPERTIES","CRYPTUI_ENABLE_REVOCATION_CHECKING","CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN","CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT","CRYPTUI_ENABLE_REVOCATION_CHECK_END_CERT","CRYPTUI_HIDE_DETAILPAGE","CRYPTUI_HIDE_HIERARCHYPAGE","CRYPTUI_IGNORE_UNTRUSTED_ROOT","CRYPTUI_ONLY_OPEN_ROOT_STORE","CRYPTUI_VIEWCERTIFICATE_STRUCT","CRYPTUI_VIEWCERTIFICATE_STRUCT structure [Security]","CRYPTUI_VIEWCERTIFICATE_STRUCTA","CRYPTUI_VIEWCERTIFICATE_STRUCTW","CRYPTUI_WARN_REMOTE_TRUST","CRYPTUI_WARN_UNTRUSTED_ROOT","PCCRYPTUI_VIEWCERTIFICATE_STRUCT","PCCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security]","PCRYPTUI_VIEWCERTIFICATE_STRUCT","PCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security]","cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCT","cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTA","cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTW","cryptuiapi/PCCRYPTUI_VIEWCERTIFICATE_STRUCT","cryptuiapi/PCRYPTUI_VIEWCERTIFICATE_STRUCT","security.cryptui_viewcertificate_struct","security.cryptui_viewcertificate_structw"]
 old-location: security\cryptui_viewcertificate_struct.htm
 tech.root: security
@@ -358,4 +358,4 @@ The index of the initial page that will be displayed.  If the highest bit (0x800
 ## -remarks
 
 > [!NOTE]
-> The cryptuiapi.h header defines CRYPTUI_VIEWCERTIFICATE_STRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cryptuiapi.h header defines CRYPTUI_VIEWCERTIFICATE_STRUCT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

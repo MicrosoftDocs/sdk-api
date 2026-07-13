@@ -6,7 +6,7 @@ helpviewer_keywords: ["68c7c06b-eab1-419d-ad58-22cbd4c3065e","SetEnabledUnicodeR
 old-location: tablet\setenabledunicoderanges.htm
 tech.root: tablet
 ms.assetid: 68c7c06b-eab1-419d-ad58-22cbd4c3065e
-ms.date: 12/05/2018
+ms.date: 11/06/2024
 ms.keywords: 68c7c06b-eab1-419d-ad58-22cbd4c3065e, SetEnabledUnicodeRanges, SetEnabledUnicodeRanges function [Tablet PC], recapis/SetEnabledUnicodeRanges, tablet.setenabledunicoderanges
 req.header: recapis.h
 req.include-header: 
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: inkobjcore.lib
+req.dll: inkobjcore.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -38,9 +38,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport 
 api_location:
  - recapis.h
+ - inkobjcore.dll
+ - mshwgst.dll
 api_name:
  - SetEnabledUnicodeRanges
 ---

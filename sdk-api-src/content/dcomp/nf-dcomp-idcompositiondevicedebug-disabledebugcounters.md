@@ -52,7 +52,7 @@ api_name:
 
 Disables display of performance debugging counters.
 
-## -parameters
+
 
 ## -returns
 

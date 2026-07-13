@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_CALLOUT_SUBSCRIPTION0_
 title: FWPM_CALLOUT_SUBSCRIPTION0 (fwpmtypes.h)
-description: Used to subscribe for change notifications.
+description: Used to subscribe for change notifications. (FWPM_CALLOUT_SUBSCRIPTION0)
 helpviewer_keywords: ["FWPM_CALLOUT_SUBSCRIPTION0","FWPM_CALLOUT_SUBSCRIPTION0 structure [Filtering]","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE","fwp.fwpm_callout_subscription0_struct","fwpmtypes/FWPM_CALLOUT_SUBSCRIPTION0"]
 old-location: fwp\fwpm_callout_subscription0_struct.htm
 tech.root: fwp

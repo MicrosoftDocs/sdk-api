@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTS_SESSION_INFOW
 title: WTS_SESSION_INFOW (wtsapi32.h)
-description: Contains information about a client session on a Remote Desktop Session Host (RD Session Host) server.
+description: Contains information about a client session on a Remote Desktop Session Host (RD Session Host) server. (Unicode)
 helpviewer_keywords: ["*PWTS_SESSION_INFOW","PWTS_SESSION_INFO","PWTS_SESSION_INFO structure pointer [Remote Desktop Services]","WTS_SESSION_INFO","WTS_SESSION_INFO structure [Remote Desktop Services]","WTS_SESSION_INFOA","WTS_SESSION_INFOW","_win32_wts_session_info_str","termserv.wts_session_info_str","wtsapi32/PWTS_SESSION_INFO","wtsapi32/WTS_SESSION_INFO","wtsapi32/WTS_SESSION_INFOA","wtsapi32/WTS_SESSION_INFOW"]
 old-location: termserv\wts_session_info_str.htm
 tech.root: TermServ
@@ -86,4 +86,4 @@ A value from the
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTS_SESSION_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTS_SESSION_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

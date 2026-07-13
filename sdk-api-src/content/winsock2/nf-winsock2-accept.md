@@ -253,6 +253,7 @@ The following example demonstrates the use of the <b>accept</b> function.
 #endif
 
 #include <winsock2.h>
+#include <WS2tcpip.h>
 #include <stdio.h>
 #include <windows.h>
 
@@ -285,8 +286,8 @@ int wmain(void)
     // IP address, and port for the socket that is being bound.
     sockaddr_in service;
     service.sin_family = AF_INET;
-    service.sin_addr.s_addr = inet_addr("127.0.0.1");
     service.sin_port = htons(27015);
+    inet_pton(AF_INET, "127.0.0.1", &service.sin_addr);
 
     if (bind(ListenSocket,
              (SOCKADDR *) & service, sizeof (service)) == SOCKET_ERROR) {

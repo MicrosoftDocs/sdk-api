@@ -58,38 +58,38 @@ The <b>WCM_CONNECTION_COST</b> enumerated type determines the connection cost ty
 
 ## -enum-fields
 
-### -field WCM_CONNECTION_COST_UNKNOWN
+### -field WCM_CONNECTION_COST_UNKNOWN:0x0
 
 Connection cost information is not available.
 
-### -field WCM_CONNECTION_COST_UNRESTRICTED
+### -field WCM_CONNECTION_COST_UNRESTRICTED:0x1
 
 The connection is unlimited and has unrestricted usage constraints.
 
-### -field WCM_CONNECTION_COST_FIXED
+### -field WCM_CONNECTION_COST_FIXED:0x2
 
 Usage counts toward a fixed allotment of data which the user has already paid for (or agreed to pay for).
 
-### -field WCM_CONNECTION_COST_VARIABLE
+### -field WCM_CONNECTION_COST_VARIABLE:0x4
 
 The connection cost is on a per-byte basis.
 
-### -field WCM_CONNECTION_COST_OVERDATALIMIT
+### -field WCM_CONNECTION_COST_OVERDATALIMIT:0x10000
 
 The connection has exceeded its data limit.
 
-### -field WCM_CONNECTION_COST_CONGESTED
+### -field WCM_CONNECTION_COST_CONGESTED:0x20000
 
 The connection is throttled due to high traffic.
 
-### -field WCM_CONNECTION_COST_ROAMING
+### -field WCM_CONNECTION_COST_ROAMING:0x40000
 
 The connection is outside of the home network.
 
 <div class="alert"><b>Note</b>  The <b>WCM_CONNECTION_COST_ROAMING</b> value comes directly from  the connection source. Attempts to set it directly will fail.</div>
 <div> </div>
 
-### -field WCM_CONNECTION_COST_APPROACHINGDATALIMIT
+### -field WCM_CONNECTION_COST_APPROACHINGDATALIMIT:0x80000
 
 The connection is approaching its data limit.
 

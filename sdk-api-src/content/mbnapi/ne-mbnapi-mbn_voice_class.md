@@ -57,19 +57,19 @@ api_name:
 
 ## -enum-fields
 
-### -field MBN_VOICE_CLASS_NONE
+### -field MBN_VOICE_CLASS_NONE:0
 
 The device voice class is unknown.
 
-### -field MBN_VOICE_CLASS_NO_VOICE
+### -field MBN_VOICE_CLASS_NO_VOICE:0x1
 
 The device does not support voice calls.
 
-### -field MBN_VOICE_CLASS_SEPARATE_VOICE_DATA
+### -field MBN_VOICE_CLASS_SEPARATE_VOICE_DATA:0x2
 
 The device supports voice calls, but does not support simultaneous voice and data.
 
-### -field MBN_VOICE_CLASS_SIMULTANEOUS_VOICE_DATA
+### -field MBN_VOICE_CLASS_SIMULTANEOUS_VOICE_DATA:0x3
 
 The device supports simultaneous voice and data.
 

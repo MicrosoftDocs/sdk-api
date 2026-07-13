@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_GetMinVisible","ComboBox_GetMinVisible macro [Wi
 old-location: controls\ComboBox_GetMinVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getminvisible.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_GetMinVisible, ComboBox_GetMinVisible macro [Windows Controls], _win32_ComboBox_GetMinVisible, _win32_ComboBox_GetMinVisible_cpp, commctrl/ComboBox_GetMinVisible, controls.ComboBox_GetMinVisible, controls._win32_ComboBox_GetMinVisible
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ComboBox_GetMinVisible macro
+
+## -syntax
+
+```cpp
+INT ComboBox_GetMinVisible(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+The return value is the minimum number of visible items.
 
 
 ## -description

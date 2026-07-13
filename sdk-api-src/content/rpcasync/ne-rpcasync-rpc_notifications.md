@@ -56,17 +56,17 @@ The <b>RPC_NOTIFICATIONS</b> enumeration specifies the notifications a server ca
 
 ## -enum-fields
 
-### -field RpcNotificationCallNone
+### -field RpcNotificationCallNone:0
 
 Do not send a notification.
 
 <b>Windows Vista:  </b>Currently, this value is not supported for <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserversubscribefornotification">RpcServerSubscribeForNotification</a> and <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverunsubscribefornotification">RpcServerUnsubscribeForNotification</a>.
 
-### -field RpcNotificationClientDisconnect
+### -field RpcNotificationClientDisconnect:1
 
 The client has disconnected.
 
-### -field RpcNotificationCallCancel
+### -field RpcNotificationCallCancel:2      
 
 The RPC call has been canceled.
 

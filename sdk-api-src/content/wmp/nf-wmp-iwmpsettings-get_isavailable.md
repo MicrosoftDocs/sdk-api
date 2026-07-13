@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_isAva
 old-location: wmp\iwmpsettings_get_isavailable.htm
 tech.root: WMP
 ms.assetid: 0773792f-4046-4d58-9673-cbfef0ec5bf5
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSettings interface [Windows Media Player],get_isAvailable method, IWMPSettings.get_isAvailable, IWMPSettings::get_isAvailable, IWMPSettingsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_isavailable, wmp/IWMPSettings::get_isAvailable
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_isAvailable</b> method indicates whether a specified action can be performed.
 

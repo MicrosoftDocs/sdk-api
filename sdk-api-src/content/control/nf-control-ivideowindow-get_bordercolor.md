@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_BorderColor met
 old-location: dshow\ivideowindow_get_bordercolor.htm
 tech.root: dshow
 ms.assetid: 2f2df219-6b82-41fa-b0a9-251cc54fe019
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVideoWindow interface [DirectShow],get_BorderColor method, IVideoWindow.get_BorderColor, IVideoWindow::get_BorderColor, IVideoWindowget_BorderColor, control/IVideoWindow::get_BorderColor, dshow.ivideowindow_get_bordercolor, get_BorderColor, get_BorderColor method [DirectShow], get_BorderColor method [DirectShow],IVideoWindow interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_BorderColor</code> method retrieves the color that appears around the edges of the destination rectangle.
 

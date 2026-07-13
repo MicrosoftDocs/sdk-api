@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupLogFileW
 title: SetupLogFileW function (setupapi.h)
-description: The SetupLogFile function adds an entry to the log file.
-helpviewer_keywords: ["SetupLogFile","SetupLogFile function [Setup API]","SetupLogFileA","SetupLogFileW","_setupapi_setuplogfile","setup.setuplogfile","setupapi/SetupLogFile","setupapi/SetupLogFileA","setupapi/SetupLogFileW"]
+description: The SetupLogFile function adds an entry to the log file. (Unicode)
+helpviewer_keywords: ["SetupLogFile", "SetupLogFile function [Setup API]", "SetupLogFileW", "_setupapi_setuplogfile", "setup.setuplogfile", "setupapi/SetupLogFile", "setupapi/SetupLogFileW"]
 old-location: setup\setuplogfile.htm
 tech.root: setup
 ms.assetid: bc738212-ff81-4b52-b2ef-50aabf6658ab
@@ -118,4 +118,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupLogFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupLogFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetData</b> method gains direct access to the elements in the array.
 
-## -parameters
+
 
 ## -returns
 

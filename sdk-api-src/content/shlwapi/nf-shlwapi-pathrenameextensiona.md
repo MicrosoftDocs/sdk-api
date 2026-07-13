@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathRenameExtensionA
 title: PathRenameExtensionA function (shlwapi.h)
-description: Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string.
-helpviewer_keywords: ["PathRenameExtension","PathRenameExtension function [Windows Shell]","PathRenameExtensionA","PathRenameExtensionW","_win32_PathRenameExtension","shell.PathRenameExtension","shlwapi/PathRenameExtension","shlwapi/PathRenameExtensionA","shlwapi/PathRenameExtensionW"]
+description: Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string. (ANSI)
+helpviewer_keywords: ["PathRenameExtensionA", "shlwapi/PathRenameExtensionA"]
 old-location: shell\PathRenameExtension.htm
 tech.root: shell
 ms.assetid: 3d94f67c-e3ee-4b64-b0b9-8f771423bdc5
@@ -82,4 +82,4 @@ Returns nonzero if successful, or zero if the new path and extension would excee
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathRenameExtension as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathRenameExtension as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

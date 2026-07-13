@@ -54,31 +54,31 @@ Defines the possible states of <a href="/previous-versions/windows/desktop/direc
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_BUILDING
+### -field DIRECTMANIPULATION_BUILDING:0
 
 The viewport is being initialized and is not yet able to process input.
 
-### -field DIRECTMANIPULATION_ENABLED
+### -field DIRECTMANIPULATION_ENABLED:1
 
 The viewport was successfully enabled.
 
-### -field DIRECTMANIPULATION_DISABLED
+### -field DIRECTMANIPULATION_DISABLED:2
 
 The viewport is disabled and cannot process input or callbacks. The viewport can be enabled by calling <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-enable">Enable</a>.
 
-### -field DIRECTMANIPULATION_RUNNING
+### -field DIRECTMANIPULATION_RUNNING:3
 
 The viewport is currently processing input and updating content.
 
-### -field DIRECTMANIPULATION_INERTIA
+### -field DIRECTMANIPULATION_INERTIA:4
 
 The viewport is moving content due to inertia.
 
-### -field DIRECTMANIPULATION_READY
+### -field DIRECTMANIPULATION_READY:5
 
 The viewport has completed the previous interaction.
 
-### -field DIRECTMANIPULATION_SUSPENDED
+### -field DIRECTMANIPULATION_SUSPENDED:6
 
 The transient state of the viewport when input has been promoted to an ancestor in the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a> chain.
 

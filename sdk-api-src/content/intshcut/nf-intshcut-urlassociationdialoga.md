@@ -1,8 +1,8 @@
 ---
 UID: NF:intshcut.URLAssociationDialogA
 title: URLAssociationDialogA function (intshcut.h)
-description: Invokes the unregistered URL protocol dialog box.
-helpviewer_keywords: ["URLASSOCDLG_FL_REGISTER_ASSOC","URLASSOCDLG_FL_USE_DEFAULT_NAME","URLAssociationDialog","URLAssociationDialog function [Windows Shell]","URLAssociationDialogA","URLAssociationDialogW","_win32_URLAssociationDialog","intshcut/URLAssociationDialog","intshcut/URLAssociationDialogA","intshcut/URLAssociationDialogW","shell.URLAssociationDialog"]
+description: Invokes the unregistered URL protocol dialog box. (ANSI)
+helpviewer_keywords: ["URLASSOCDLG_FL_REGISTER_ASSOC", "URLASSOCDLG_FL_USE_DEFAULT_NAME", "URLAssociationDialogA", "intshcut/URLAssociationDialogA"]
 old-location: shell\URLAssociationDialog.htm
 tech.root: shell
 ms.assetid: 3158e819-f131-4f57-8516-998955100377
@@ -116,5 +116,5 @@ In supported systems, returns S_OK if the application is registered with the URL
 ## -remarks
 
 > [!NOTE]
-> The intshcut.h header defines URLAssociationDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The intshcut.h header defines URLAssociationDialog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

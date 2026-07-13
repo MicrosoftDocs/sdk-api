@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.Delete
 title: IVdsIscsiPortalGroup::Delete (vdshwprv.h)
-description: Deletes the portal group.
+description: The IVdsIscsiPortalGroup::Delete (vdshwprv.h) method deletes the portal group.
 helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","Delete method","IVdsIscsiPortalGroup.Delete","IVdsIscsiPortalGroup::Delete","base.ivdsiscsiportalgroup_delete","vds/IVdsIscsiPortalGroup::Delete","vdshwprv/IVdsIscsiPortalGroup::Delete"]
 old-location: base\ivdsiscsiportalgroup_delete.htm
 tech.root: base
 ms.assetid: 903f89b8-4712-4832-ba70-41a5362cbf28
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],Delete method, IVdsIscsiPortalGroup.Delete, IVdsIscsiPortalGroup::Delete, base.ivdsiscsiportalgroup_delete, vds/IVdsIscsiPortalGroup::Delete, vdshwprv/IVdsIscsiPortalGroup::Delete
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Deletes the 
    portal group.
@@ -79,7 +79,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,7 +90,7 @@ The portal group was successfully deleted.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -107,7 +107,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -119,7 +119,7 @@ The portal object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>
@@ -131,7 +131,7 @@ Another operation is in progress. This operation cannot proceed until the previo
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ASSOCIATED_PORTALS_EXIST</b></b></dt>
+<dt><b>VDS_E_ASSOCIATED_PORTALS_EXIST</b></dt>
 <dt>0x8004270CL</dt>
 </dl>
 </td>

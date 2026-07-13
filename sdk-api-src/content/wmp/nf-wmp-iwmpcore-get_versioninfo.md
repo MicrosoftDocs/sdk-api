@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_versionIn
 old-location: wmp\iwmpcore_get_versioninfo.htm
 tech.root: WMP
 ms.assetid: 8c8bb30b-8f8e-4f49-9506-d4735bccf847
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCore interface [Windows Media Player],get_versionInfo method, IWMPCore.get_versionInfo, IWMPCore::get_versionInfo, IWMPCoreget_versionInfo, get_versionInfo, get_versionInfo method [Windows Media Player], get_versionInfo method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_versioninfo, wmp/IWMPCore::get_versionInfo
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_versionInfo</b> method retrieves a <b>String</b> value specifying the version of Windows Media Player.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetTargetPathW
 title: SetupGetTargetPathW function (setupapi.h)
-description: The SetupGetTargetPath function determines the target directory for a file list section.
-helpviewer_keywords: ["SetupGetTargetPath","SetupGetTargetPath function [Setup API]","SetupGetTargetPathA","SetupGetTargetPathW","_setupapi_setupgettargetpath","setup.setupgettargetpath","setupapi/SetupGetTargetPath","setupapi/SetupGetTargetPathA","setupapi/SetupGetTargetPathW"]
+description: The SetupGetTargetPath function determines the target directory for a file list section. (Unicode)
+helpviewer_keywords: ["SetupGetTargetPath", "SetupGetTargetPath function [Setup API]", "SetupGetTargetPathW", "_setupapi_setupgettargetpath", "setup.setupgettargetpath", "setupapi/SetupGetTargetPath", "setupapi/SetupGetTargetPathW"]
 old-location: setup\setupgettargetpath.htm
 tech.root: setup
 ms.assetid: fe98f00e-7887-4e37-8e09-037a804e6195
@@ -100,7 +100,7 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetTargetPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetTargetPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

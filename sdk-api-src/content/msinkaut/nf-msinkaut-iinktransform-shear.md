@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -105,7 +105,7 @@ The transformation applied in this method is a pure shear only if one of the par
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
+<a href="../msinkaut/nn-msinkaut-iinktransform.md">IInkTransform</a>
 
 
 

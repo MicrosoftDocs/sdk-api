@@ -56,7 +56,7 @@ Queries the Microsoft DirectX Graphics Infrastructure (DXGI)surface for an inter
 
 ### -param riid [in]
 
-The interface identifer (IID) of the interface being requested.
+The interface identifier (IID) of the interface being requested.
 
 ### -param ppvObject [out]
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg._OFNOTIFYA
 title: OFNOTIFYA (commdlg.h)
-description: Contains information about a WM_NOTIFY message sent to an OFNHookProc hook procedure for an Open or Save As dialog box. The lParam parameter of the WM_NOTIFY message is a pointer to an OFNOTIFY structure.
+description: Contains information about a WM_NOTIFY message sent to an OFNHookProc hook procedure for an Open or Save As dialog box. The lParam parameter of the WM_NOTIFY message is a pointer to an OFNOTIFY structure. (ANSI)
 helpviewer_keywords: ["*LPOFNOTIFYA","LPOFNOTIFY","LPOFNOTIFY structure pointer [Dialog Boxes]","OFNOTIFY","OFNOTIFY structure [Dialog Boxes]","OFNOTIFYA","OFNOTIFYW","_win32_OFNOTIFY_str","_win32_ofnotify_str_cpp","commdlg/LPOFNOTIFY","commdlg/OFNOTIFY","commdlg/OFNOTIFYA","commdlg/OFNOTIFYW","dlgbox.ofnotify_str","winui._win32_ofnotify_str"]
 old-location: dlgbox\ofnotify_str.htm
 tech.root: dlgbox
@@ -87,7 +87,7 @@ Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>O
 
 
 > [!NOTE]
-> The commdlg.h header defines OFNOTIFY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines OFNOTIFY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

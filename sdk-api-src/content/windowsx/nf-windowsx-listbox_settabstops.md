@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SetTabStops","ListBox_SetTabStops macro [Windows 
 old-location: controls\ListBox_SetTabStops.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settabstops.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SetTabStops, ListBox_SetTabStops macro [Windows Controls], _win32_ListBox_SetTabStops, _win32_ListBox_SetTabStops_cpp, controls.ListBox_SetTabStops, controls._win32_ListBox_SetTabStops, windowsx/ListBox_SetTabStops
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_SetTabStops macro
+
+## -syntax
+
+```cpp
+BOOL ListBox_SetTabStops(
+   HWND hwndCtl,
+   int  cTabs,
+   int  *lpTabs
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If all the specified tabs are set, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
 
 
 ## -description

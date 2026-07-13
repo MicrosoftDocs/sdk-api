@@ -54,11 +54,11 @@ Defines the threading behavior for <a href="/previous-versions/windows/desktop/a
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC
+### -field DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC:0
 
 Input is automatically passed to the viewport in an independent thread.
 
-### -field DIRECTMANIPULATION_INPUT_MODE_MANUAL
+### -field DIRECTMANIPULATION_INPUT_MODE_MANUAL:1
 
 Input is manually passed by   the app on its thread via the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationmanager-processinput">ProcessInput</a> method.
 

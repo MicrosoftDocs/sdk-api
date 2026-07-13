@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ClearRenderTargetView
 title: ID3D11DeviceContext::ClearRenderTargetView (d3d11.h)
-description: Set all the elements in a render target to one value.
+description: Set all the elements in a render target to one value. (ID3D11DeviceContext.ClearRenderTargetView)
 helpviewer_keywords: ["2d296302-263e-a0b0-10ad-d1afbdf56ebf","ClearRenderTargetView","ClearRenderTargetView method [Direct3D 11]","ClearRenderTargetView method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","ClearRenderTargetView method","ID3D11DeviceContext.ClearRenderTargetView","ID3D11DeviceContext::ClearRenderTargetView","d3d11/ID3D11DeviceContext::ClearRenderTargetView","direct3d11.id3d11devicecontext_clearrendertargetview"]
 old-location: direct3d11\id3d11devicecontext_clearrendertargetview.htm
 tech.root: direct3d11

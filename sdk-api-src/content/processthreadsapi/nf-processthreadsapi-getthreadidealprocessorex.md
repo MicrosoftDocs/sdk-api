@@ -4,7 +4,7 @@ title: GetThreadIdealProcessorEx function (processthreadsapi.h)
 description: Retrieves the processor number of the ideal processor for the specified thread.
 helpviewer_keywords: ["GetThreadIdealProcessorEx","GetThreadIdealProcessorEx function","base.getthreadidealprocessorex","processthreadsapi/GetThreadIdealProcessorEx","winbase/GetThreadIdealProcessorEx"]
 old-location: base\getthreadidealprocessorex.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 4fbe1b85-352f-4576-9056-5ba1b0b85874
 ms.date: 12/05/2018
 ms.keywords: GetThreadIdealProcessorEx, GetThreadIdealProcessorEx function, base.getthreadidealprocessorex, processthreadsapi/GetThreadIdealProcessorEx, winbase/GetThreadIdealProcessorEx
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
  - KernelBase.dll

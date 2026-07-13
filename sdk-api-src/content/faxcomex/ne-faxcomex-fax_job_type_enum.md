@@ -54,7 +54,7 @@ The <b>FAX_JOB_TYPE_ENUM</b> enumeration defines the fax job type.
 
 ## -enum-fields
 
-### -field fjtSEND
+### -field fjtSEND:0
 
 The job is an outbound job.
 

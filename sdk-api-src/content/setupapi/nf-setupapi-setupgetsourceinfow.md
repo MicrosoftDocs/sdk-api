@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetSourceInfoW
 title: SetupGetSourceInfoW function (setupapi.h)
-description: The SetupGetSourceInfo function retrieves the path, tag file, or media description for a source listed in an INF file.
-helpviewer_keywords: ["SetupGetSourceInfo","SetupGetSourceInfo function [Setup API]","SetupGetSourceInfoA","SetupGetSourceInfoW","_setupapi_setupgetsourceinfo","setup.setupgetsourceinfo","setupapi/SetupGetSourceInfo","setupapi/SetupGetSourceInfoA","setupapi/SetupGetSourceInfoW"]
+description: The SetupGetSourceInfo function retrieves the path, tag file, or media description for a source listed in an INF file. (Unicode)
+helpviewer_keywords: ["SetupGetSourceInfo", "SetupGetSourceInfo function [Setup API]", "SetupGetSourceInfoW", "_setupapi_setupgetsourceinfo", "setup.setupgetsourceinfo", "setupapi/SetupGetSourceInfo", "setupapi/SetupGetSourceInfoW"]
 old-location: setup\setupgetsourceinfo.htm
 tech.root: setup
 ms.assetid: 15bedd7f-7079-4623-a797-db308a51093f
@@ -138,7 +138,7 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetSourceInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetSourceInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

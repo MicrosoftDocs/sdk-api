@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstSint16AField
 title: MI_ConstSint16AField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ConstSint16AField)
 helpviewer_keywords: ["MI_ConstSint16AField","MI_ConstSint16AField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstSint16AField","wmi._mi_constsint16afield","wmi_v2.mi_constsint16afield"]
 old-location: wmi_v2\mi_constsint16afield.htm
 tech.root: wmi_v2

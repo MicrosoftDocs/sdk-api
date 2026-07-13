@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_PreallocateFile
 title: ITraceDataCollector::put_PreallocateFile (pla.h)
-description: Retrieves or sets a value that indicates whether PLA should allocate the entire log file size before logging.
+description: Retrieves or sets a value that indicates whether PLA should allocate the entire log file size before logging. (Put)
 helpviewer_keywords: ["ITraceDataCollector interface [PLA]","PreallocateFile property","ITraceDataCollector.PreallocateFile","ITraceDataCollector.put_PreallocateFile","ITraceDataCollector::PreallocateFile","ITraceDataCollector::get_PreallocateFile","ITraceDataCollector::put_PreallocateFile","PreallocateFile property [PLA]","PreallocateFile property [PLA]","ITraceDataCollector interface","base.itracedatacollector_preallocatefile","pla.itracedatacollector_preallocatefile","pla/ITraceDataCollector::PreallocateFile","pla/ITraceDataCollector::get_PreallocateFile","pla/ITraceDataCollector::put_PreallocateFile","put_PreallocateFile"]
 old-location: pla\itracedatacollector_preallocatefile.htm
 tech.root: PLA

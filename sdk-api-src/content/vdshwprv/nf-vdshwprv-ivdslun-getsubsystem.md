@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.GetSubSystem
 title: IVdsLun::GetSubSystem (vdshwprv.h)
-description: Returns the subsystem that surfaces the LUN.
+description: The IVdsLun::GetSubSystem (vdshwprv.h) method returns the subsystem that surfaces the LUN.
 helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","GetSubSystem method","IVdsLun.GetSubSystem","IVdsLun::GetSubSystem","base.ivdslun_getsubsystem","vds/IVdsLun::GetSubSystem","vdshwprv/IVdsLun::GetSubSystem"]
 old-location: base\ivdslun_getsubsystem.htm
 tech.root: base
 ms.assetid: bd7dbe48-ad56-4304-a076-608f697620d8
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetSubSystem method, IVdsLun.GetSubSystem, IVdsLun::GetSubSystem, base.ivdslun_getsubsystem, vds/IVdsLun::GetSubSystem, vdshwprv/IVdsLun::GetSubSystem
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the subsystem that surfaces the LUN.
 

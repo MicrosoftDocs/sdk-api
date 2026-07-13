@@ -49,14 +49,9 @@ api_name:
 
 # WBEMTime::WBEMTime(const tm &)
 
-
 ## -description
 
-<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
-    is part of the WMI Provider Framework which is now considered in final state, and no further development, 
-    enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
-    development.]
+[The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
 
 The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> overload class constructor takes an ANSI C <b>tm</b> structure parameter.
 
@@ -64,4 +59,4 @@ The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> overload class const
 
 ### -param tmin [ref]
 
-ANSI C <b>tm</b> structure. A <b>tm</b> structure holds a time value using individual members and expressed as the number of years, months, day of month, hours, minutes, and seconds elapsed since 1900. For more information, see <a href="https://msdn.microsoft.com/library/default.aspx">MSDN</a>.
+ANSI C <b>tm</b> structure. A <b>tm</b> structure holds a time value using individual members and expressed as the number of years, months, day of month, hours, minutes, and seconds elapsed since 1900.

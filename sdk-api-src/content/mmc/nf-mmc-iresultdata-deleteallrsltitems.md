@@ -53,7 +53,7 @@ api_name:
 
 The <b>IResultData::DeleteAllRsltItems</b> method enables the snap-in to remove all user-inserted items and subitems from the result view pane.
 
-## -parameters
+
 
 ## -returns
 

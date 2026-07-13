@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.put_ApplicationData
 title: IAzApplication::put_ApplicationData (azroles.h)
-description: Sets or retrieves an opaque field that can be used by the application to store information.
+description: Sets or retrieves an opaque field that can be used by the application to store information. (IAzApplication.put_ApplicationData)
 helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzApplication object","ApplicationData property [Security]","IAzApplication interface","AzApplication object [Security]","ApplicationData property","IAzApplication interface [Security]","ApplicationData property","IAzApplication.ApplicationData","IAzApplication.put_ApplicationData","IAzApplication::ApplicationData","IAzApplication::get_ApplicationData","IAzApplication::put_ApplicationData","azroles/IAzApplication::ApplicationData","azroles/IAzApplication::get_ApplicationData","azroles/IAzApplication::put_ApplicationData","put_ApplicationData","security.iazapplication_applicationdata"]
 old-location: security\iazapplication_applicationdata.htm
 tech.root: security

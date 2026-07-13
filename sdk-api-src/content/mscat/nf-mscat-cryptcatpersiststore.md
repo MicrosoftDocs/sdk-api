@@ -88,7 +88,7 @@ One or more of the parameters are not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_NOT_SUPPORTED</b></b></dt>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
 </dl>
 </td>
 <td width="60%">

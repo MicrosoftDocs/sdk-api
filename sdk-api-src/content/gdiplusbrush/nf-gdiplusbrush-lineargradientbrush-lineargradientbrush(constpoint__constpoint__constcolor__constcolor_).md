@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush(constPoint&,constPoint&,constColor&,constColor&)
 title: LinearGradientBrush::LinearGradientBrush(IN const Point &,IN const Point &,IN const Color &,IN const Color &) (gdiplusbrush.h)
-description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
+description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class. (overload 1/2)
 helpviewer_keywords: ["LinearGradientBrush","LinearGradientBrush constructors [GDI+]","LinearGradientBrush.LinearGradientBrush","LinearGradientBrush.LinearGradientBrush(IN const Point &","IN const Point &","IN const Color &","IN const Color &)","LinearGradientBrush::LinearGradientBrush","LinearGradientBrush::LinearGradientBrush(IN const Point &","IN const Point &","IN const Color &","IN const Color &)","_gdiplus_CLASS_LinearGradientBrush_Constructors","gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors","gdiplusbrush/LinearGradientBrush"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Constructors.htm
 tech.root: gdiplus

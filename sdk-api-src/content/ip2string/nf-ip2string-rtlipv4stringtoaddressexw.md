@@ -1,8 +1,8 @@
 ---
 UID: NF:ip2string.RtlIpv4StringToAddressExW
 title: RtlIpv4StringToAddressExW function (ip2string.h)
-description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port.
-helpviewer_keywords: ["RtlIpv4StringToAddressEx","RtlIpv4StringToAddressEx function [IP Helper]","RtlIpv4StringToAddressExW","ip2string/RtlIpv4StringToAddressEx","ip2string/RtlIpv4StringToAddressExW","iphlp.rtlipv4stringtoaddressex"]
+description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port. (Unicode)
+helpviewer_keywords: ["RtlIpv4StringToAddressEx", "RtlIpv4StringToAddressEx function [IP Helper]", "RtlIpv4StringToAddressExW", "ip2string/RtlIpv4StringToAddressEx", "ip2string/RtlIpv4StringToAddressExW", "iphlp.rtlipv4stringtoaddressex"]
 old-location: iphlp\rtlipv4stringtoaddressex.htm
 tech.root: IpHlp
 ms.assetid: 72d20cf0-38ff-4c00-93ec-949aaf6f96e2
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -147,8 +147,6 @@ When both UNICODE and  _UNICODE are not defined, <b>RtlIpv4StringToAddressEx</b>
 
 
 The <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
-
-An import library containing the <b>RtlIpv4StringToAddressEx</b> function is not included in the Microsoft Windows Software Development Kit (SDK) released for Windows Vista. The <b>RtlIpv4StringToAddressEx</b> function is included in the <i>Ntdll.lib</i> import library included in the Windows Driver Kit (WDK). An application could also use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to retrieve the function pointer from the <i>Ntdll.dll</i> and call this function.
 
 ## -see-also
 

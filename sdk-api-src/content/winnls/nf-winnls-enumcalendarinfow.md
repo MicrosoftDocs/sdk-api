@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumCalendarInfoW
 title: EnumCalendarInfoW function (winnls.h)
-description: Enumerates calendar information for a specified locale.Note  To receive a calendar identifier in addition to calendar information, the application should use the EnumCalendarInfoEx function.
-helpviewer_keywords: ["EnumCalendarInfo","EnumCalendarInfo function [Internationalization for Windows Applications]","EnumCalendarInfoA","EnumCalendarInfoW","_win32_EnumCalendarInfo","intl.enumcalendarinfo","winnls/EnumCalendarInfo","winnls/EnumCalendarInfoA","winnls/EnumCalendarInfoW"]
+description: Enumerates calendar information for a specified locale.Note  To receive a calendar identifier in addition to calendar information, the application should use the EnumCalendarInfoEx function. (Unicode)
+helpviewer_keywords: ["EnumCalendarInfo", "EnumCalendarInfo function [Internationalization for Windows Applications]", "EnumCalendarInfoW", "_win32_EnumCalendarInfo", "intl.enumcalendarinfo", "winnls/EnumCalendarInfo", "winnls/EnumCalendarInfoW"]
 old-location: intl\enumcalendarinfo.htm
 tech.root: Intl
 ms.assetid: b38abdc9-6c03-4077-9d42-c7cb6d5c66ee
@@ -116,7 +116,7 @@ See Remarks for <a href="/windows/desktop/api/winnls/nf-winnls-enumcalendarinfoe
 
 
 > [!NOTE]
-> The winnls.h header defines EnumCalendarInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines EnumCalendarInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

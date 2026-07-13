@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ConvertThreadToFiberEx
 title: ConvertThreadToFiberEx function (winbase.h)
-description: Converts the current thread into a fiber. You must convert a thread into a fiber before you can schedule other fibers.
+description: Converts the current thread into a fiber. You must convert a thread into a fiber before you can schedule other fibers. (ConvertThreadToFiberEx)
 helpviewer_keywords: ["ConvertThreadToFiberEx","ConvertThreadToFiberEx function","_win32_convertthreadtofiberex","base.convertthreadtofiberex","winbase/ConvertThreadToFiberEx"]
 old-location: base\convertthreadtofiberex.htm
 tech.root: backup

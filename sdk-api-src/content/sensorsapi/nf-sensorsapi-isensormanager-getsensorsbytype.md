@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSensorsByType","GetSensorsByType method","GetSensorsBy
 old-location: winsensors_com_ref\isensormanager_getsensorsbytype.htm
 tech.root: winsensors
 ms.assetid: f383d7e3-bcd0-457d-a410-9ac225f1d147
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetSensorsByType, GetSensorsByType method, GetSensorsByType method,ISensorManager interface, ISensorManager interface,GetSensorsByType method, ISensorManager.GetSensorsByType, ISensorManager::GetSensorsByType, sensorsapi/ISensorManager::GetSensorsByType, winsensors_com_ref.isensormanager_getsensorsbytype
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves a collection containing all sensors associated with the specified type.
 

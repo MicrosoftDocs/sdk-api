@@ -1,7 +1,7 @@
 ---
 UID: NS:wdstpdi._WDS_TRANSPORTPROVIDER_INIT_PARAMS
 title: WDS_TRANSPORTPROVIDER_INIT_PARAMS (wdstpdi.h)
-description: This structure is used by the WdsTransportProviderInitialize callback function.
+description: This structure is used by the WdsTransportProviderInitialize callback function. (WDS_TRANSPORTPROVIDER_INIT_PARAMS)
 helpviewer_keywords: ["*PWDS_TRANSPORTPROVIDER_INIT_PARAMS","PWDS_TRANSPORTPROVIDER_INIT_PARAMS","PWDS_TRANSPORTPROVIDER_INIT_PARAMS structure pointer [Windows Deployment Services]","WDS_TRANSPORTPROVIDER_INIT_PARAMS","WDS_TRANSPORTPROVIDER_INIT_PARAMS structure [Windows Deployment Services]","wds.wds_transportprovider_init_params","wdstpdi/PWDS_TRANSPORTPROVIDER_INIT_PARAMS","wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS"]
 old-location: wds\wds_transportprovider_init_params.htm
 tech.root: wds

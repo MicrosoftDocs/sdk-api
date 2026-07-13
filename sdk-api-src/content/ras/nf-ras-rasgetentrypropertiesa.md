@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetEntryPropertiesA
 title: RasGetEntryPropertiesA function (ras.h)
-description: The RasGetEntryProperties function retrieves the properties of a phone-book entry.
-helpviewer_keywords: ["RasGetEntryProperties","RasGetEntryProperties function [RAS]","RasGetEntryPropertiesA","RasGetEntryPropertiesW","_ras_rasgetentryproperties","ras/RasGetEntryProperties","ras/RasGetEntryPropertiesA","ras/RasGetEntryPropertiesW","rras.rasgetentryproperties"]
+description: The RasGetEntryProperties function retrieves the properties of a phone-book entry. (ANSI)
+helpviewer_keywords: ["RasGetEntryPropertiesA", "ras/RasGetEntryPropertiesA"]
 old-location: rras\rasgetentryproperties.htm
 tech.root: RRAS
 ms.assetid: eef9c197-04b3-4f3c-a7bd-8c62f9fac560
@@ -216,4 +216,4 @@ The phone-book entry does not exist, or the phone-book file is corrupted and/or 
 ## -remarks
 
 > [!NOTE]
-> The ras.h header defines RasGetEntryProperties as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetEntryProperties as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation)
 title: IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation) (dcomp.h)
-description: Sets the y value of the black point.
+description: Sets the y value of the black point. (overload 2/2)
 helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetBlackPointY method","IDCompositionBrightnessEffect.SetBlackPointY","IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation)","IDCompositionBrightnessEffect::SetBlackPointY","IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation)","SetBlackPointY","SetBlackPointY method [DirectComposition]","SetBlackPointY method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetBlackPointY","directcomp.idcompositionbrightnesseffect_setblackpointy_2"]
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointy_2.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ An animation that represents how the y value of the black point changes over tim
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

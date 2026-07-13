@@ -57,7 +57,7 @@ api_name:
 
 Sends collected ink to the recognizer and posts the recognition result.
 
-## -parameters
+
 
 ## -returns
 

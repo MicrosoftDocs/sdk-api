@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.acceptPKCS7Blob
 title: IEnroll::acceptPKCS7Blob (xenroll.h)
-description: Accepts and processes a PKCS
+description: Accepts and processes a PKCS (IEnroll.acceptPKCS7Blob)
 helpviewer_keywords: ["IEnroll interface [Security]","acceptPKCS7Blob method","IEnroll.acceptPKCS7Blob","IEnroll::acceptPKCS7Blob","acceptPKCS7Blob","acceptPKCS7Blob method [Security]","acceptPKCS7Blob method [Security]","IEnroll interface","security.ienroll4_acceptpkcs7blob","xenroll/IEnroll::acceptPKCS7Blob"]
 old-location: security\ienroll4_acceptpkcs7blob.htm
 tech.root: security

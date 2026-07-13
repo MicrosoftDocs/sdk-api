@@ -50,19 +50,16 @@ api_name:
 
 ## -description
 
-Exposes methods that are called by Microsoft UI Automation to retrieve extra information about a control that supports Microsoft Active Accessibility.
+Exposes methods that are called by [Microsoft UI Automation](/windows/win32/winauto/entry-uiauto-win32) to retrieve extra information about a control that supports [Microsoft Active Accessibility](/windows/win32/winauto/microsoft-active-accessibility).
 
 ## -inheritance
 
-The **IAccessibleEx** interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. **IAccessibleEx** also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The **IAccessibleEx** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAccessibleEx** also has these types of members:
 
 ## -remarks
 
-This interface can be implemented on custom controls that also implement the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface, to provide added support for UI Automation without the cost of a full UI Automation provider implementation.
+This interface can be implemented on custom controls that also implement the [IAccessible](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface, to provide added support for UI Automation without the cost of a full UI Automation provider implementation.
 
 ## -see-also
 
-<a href="/windows/desktop/WinAuto/uiauto-usingiaccessibleex">Adding UI Automation Functionality to Active Accessibility Servers</a>
+[Adding UI Automation Functionality to Active Accessibility Servers](/windows/desktop/WinAuto/uiauto-usingiaccessibleex)

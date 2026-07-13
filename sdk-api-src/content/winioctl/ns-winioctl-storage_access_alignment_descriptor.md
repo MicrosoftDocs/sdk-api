@@ -91,12 +91,16 @@ The logical sector offset within the first physical sector where the first logic
 
 Example:  Offset = 3 Logical sectors
 
-<pre class="syntax" xml:space="preserve"><code>+---------+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+
+``` syntax
++---------+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
 |LBA      |##|##|##|00|01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|
 +---------+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
 |Physical |                       |                       |                ...
 |Sector   |           0           |           1           |           2
-+---------+-----------------------+-----------------------+---------------</code></pre>
++---------+-----------------------+-----------------------+---------------
+```
+
 In this example, <code>BytesOffsetForSectorAlignment = 3 * BytesPerLogicalSector</code>.
 
 ## -see-also

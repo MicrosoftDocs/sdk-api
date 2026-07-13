@@ -76,7 +76,7 @@ Specifies one or more of the following flags:
 
 ### -param r
 
-A handle to the root object directory for the path name specified in the ObjectName parameter. If ObjectName is a fully qualified object name, RootDirectory is NULL. Use ZwCreateDirectoryObject [ZwCreateDirectoryObject](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject) to obtain a handle to an object directory.
+A handle to the root object directory for the path name specified in the ObjectName parameter. If ObjectName is a fully qualified object name, RootDirectory is NULL. Use [ZwCreateDirectoryObject](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject) to obtain a handle to an object directory.
 
 ### -param s
 

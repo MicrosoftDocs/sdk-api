@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHELLEXECUTEINFOA
 title: SHELLEXECUTEINFOA (shellapi.h)
-description: Contains information used by ShellExecuteEx.
+description: Contains information used by ShellExecuteEx. (ANSI)
 helpviewer_keywords: ["*LPSHELLEXECUTEINFOA","LPSHELLEXECUTEINFO","LPSHELLEXECUTEINFO structure pointer [Windows Shell]","SEE_MASK_ASYNCOK","SEE_MASK_CLASSKEY","SEE_MASK_CLASSNAME","SEE_MASK_CONNECTNETDRV","SEE_MASK_DEFAULT","SEE_MASK_DOENVSUBST","SEE_MASK_FLAG_DDEWAIT","SEE_MASK_FLAG_HINST_IS_SITE","SEE_MASK_FLAG_LOG_USAGE","SEE_MASK_FLAG_NO_UI","SEE_MASK_HMONITOR","SEE_MASK_HOTKEY","SEE_MASK_ICON","SEE_MASK_IDLIST","SEE_MASK_INVOKEIDLIST","SEE_MASK_NOASYNC","SEE_MASK_NOCLOSEPROCESS","SEE_MASK_NOQUERYCLASSSTORE","SEE_MASK_NOZONECHECKS","SEE_MASK_NO_CONSOLE","SEE_MASK_UNICODE","SEE_MASK_WAITFORINPUTIDLE","SE_ERR_ACCESSDENIED","SE_ERR_ASSOCINCOMPLETE","SE_ERR_DDEBUSY","SE_ERR_DDEFAIL","SE_ERR_DDETIMEOUT","SE_ERR_DLLNOTFOUND","SE_ERR_FNF","SE_ERR_NOASSOC","SE_ERR_OOM","SE_ERR_PNF","SE_ERR_SHARE","SHELLEXECUTEINFO","SHELLEXECUTEINFO structure [Windows Shell]","SHELLEXECUTEINFOA","_SHELLEXECUTEINFOA","_SHELLEXECUTEINFOW","_win32_SHELLEXECUTEINFO","edit","explore","find","open","print","properties","shell.SHELLEXECUTEINFO","shellapi/LPSHELLEXECUTEINFO","shellapi/SHELLEXECUTEINFO"]
 old-location: shell\SHELLEXECUTEINFO.htm
 tech.root: shell
@@ -47,6 +47,7 @@ api_location:
  - Shellapi.h
 api_name:
  - SHELLEXECUTEINFO - SHELLEXECUTEINFOA
+no-loc: [verb, verbs, NULL, null, runas]
 ---
 
 # SHELLEXECUTEINFOA structure
@@ -71,8 +72,8 @@ A combination of one or more of the following values that indicate the content a
 
 <table>
 <colgroup>
-    <col span="1" style="width: 40%;">
-    <col span="1" style="width: 60%;">
+    <col span="1">
+    <col span="1">
 </colgroup>
 <tr valign="top">
 <td>SEE_MASK_DEFAULT (0x00000000)</td>
@@ -134,7 +135,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 </tr>
 <tr valign="top">
 <td>SEE_MASK_FLAG_NO_UI (0x00000400)</td>
-<td>Do not display an error message box if an error occurs.</td>
+<td>Do not display user interface (UI) error dialogs that would normally be presented without this option. Security prompts are exempted and will still be shown.</td>
 </tr>
 <tr valign="top">
 <td>SEE_MASK_UNICODE (0x00004000)
@@ -171,10 +172,12 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 <td>Indicates a user initiated launch that enables tracking of frequently used programs and other behaviors.</td>
 </tr>
 <tr valign="top">
-<td>SEE_MASK_FLAG_HINST_IS_SITE` (0x08000000)</td>
+<td>SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)</td>
 <td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
-To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
+<a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> can be provided to allow the caller to alter some parameters of the process being created.
+
+This flag is supported in Windows 8 and later.
 
 When this option is specified the call runs synchronously on the calling thread.
 </td>
@@ -185,27 +188,31 @@ When this option is specified the call runs synchronously on the calling thread.
 
 Type: <b>HWND</b>
 
-Optional. A handle to the parent window, used to display any message boxes that the system might produce while executing this function. This value can be <b>NULL</b>.
+Optional. A handle to the owner window, used to display and position any UI that the system might produce while executing this function.
 
 ### -field lpVerb
 
 Type: <b>LPCTSTR</b>
 
-A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry. The following verbs are commonly used:
+A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the ":::no-loc text="open"::" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
+Unless there is a reason to limit the action to a specific verb, pass NULL to use the computed default. This is necessary in some cases, for example when specifying SEE_MASK_FLAG_NO_UI and the intention is to produce the "Open With" UI, if no apps are installed.
 
-- **edit**: Launches an editor and opens the document for editing. If <b>lpFile</b> is not a document file, the function will fail.
-- **explore**: Explores the folder specified by <b>lpFile</b>.
-- **find**: Initiates a search starting from the specified directory.
-- **open**: Opens the file specified by the <b>lpFile</b> parameter. The file can be an executable file, a document file, or a folder.
-- **print**: Prints the document file specified by <b>lpFile</b>. If <b>lpFile</b> is not a document file, the function will fail.
-- **properties**: Displays the file or folder's properties.
+The following verbs are commonly used:
+
+- **:::no-loc text="edit":::**: Launches an editor and opens the document for editing. If <b>lpFile</b> is not a document file, the function will fail.
+- **:::no-loc text="explore":::**: Explores the folder specified by <b>lpFile</b>.
+- **:::no-loc text="find":::**: Initiates a search starting from the specified directory.
+- **:::no-loc text="open":::**: Opens the file specified by the <b>lpFile</b> parameter. The file can be an executable file, a document file, or a folder.
+- **:::no-loc text="openas":::**: Launches an "Open With" dialog that lets the user select an app with which to open the file specified by the <b>lpFile</b> parameter.
+- **:::no-loc text="print":::**: Prints the document file specified by <b>lpFile</b>. If <b>lpFile</b> is not a document file, the function will fail.
+- **:::no-loc text="properties":::**: Displays the file or folder's properties.
 - **runas**: Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application.
 
 ### -field lpFile
 
 Type: <b>LPCTSTR</b>
 
-The address of a null-terminated string that specifies the name of the file or object on which <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> will perform the action specified by the <b>lpVerb</b> parameter. The system registry verbs that are supported by the <b>ShellExecuteEx</b> function include "open" for executable files and document files and "print" for document files for which a print handler has been registered. Other applications might have added Shell verbs through the system registry, such as "play" for .avi and .wav files. To specify a Shell namespace object, pass the fully qualified parse name and set the <b>SEE_MASK_INVOKEIDLIST</b> flag in the <b>fMask</b> parameter.
+The address of a null-terminated string that specifies the name of the file or object on which <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> will perform the action specified by the <b>lpVerb</b> parameter. The system registry verbs that are supported by the <b>ShellExecuteEx</b> function include ":::no-loc text="open"::" for executable files and document files and ":::no-loc text="print"::" for document files for which a print handler has been registered. Other applications might have added Shell verbs through the system registry, such as ":::no-loc text="play"::" for .avi and .wav files. To specify a Shell namespace object, pass the fully qualified parse name and set the <b>SEE_MASK_INVOKEIDLIST</b> flag in the <b>fMask</b> parameter.
 
 <div class="alert"><b>Note:</b> If the <b>SEE_MASK_INVOKEIDLIST</b> flag is set, you can use either <b>lpFile</b> or <b>lpIDList</b> to identify the item by its file system path or its PIDL respectively. One of the two values—<b>lpFile</b> or <b>lpIDList</b>—must be set.</div>
 
@@ -319,4 +326,4 @@ sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";
 In this case, the application receives three parameters: <i>An</i>, <i>example:</i>, and <i>"quoted text"</i>.
 
 > [!NOTE]
-> The shellapi.h header defines SHELLEXECUTEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHELLEXECUTEINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

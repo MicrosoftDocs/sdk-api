@@ -6,7 +6,7 @@ helpviewer_keywords: ["RTM_SIZE_OF_DEST_INFO","RTM_SIZE_OF_DEST_INFO macro [RAS]
 old-location: rras\rtm_size_of_dest_info.htm
 tech.root: RRAS
 ms.assetid: faad2b79-dcd0-47e7-95ab-05f6bad36650
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: RTM_SIZE_OF_DEST_INFO, RTM_SIZE_OF_DEST_INFO macro [RAS], _rtmv2ref_rtm_size_of_dest_info, rras.rtm_size_of_dest_info, rtmv2/RTM_SIZE_OF_DEST_INFO
 req.header: rtmv2.h
 req.include-header: 
@@ -47,11 +47,24 @@ api_name:
 
 # RTM_SIZE_OF_DEST_INFO macro
 
+## -syntax
+
+```cpp
+ULONG RTM_SIZE_OF_DEST_INFO(
+     NumViews
+);
+```
+
+## -returns
+
+Type: **ULONG**
+
+The return value is the size of the destination information structure with the specified number of views.
+
 
 ## -description
 
-The 
-<b>RTM_SIZE_OF_DEST_INFO</b> macro returns the size of the destination information structure (<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a>). The size of this structure is variable, and is based on the number of views for which it contains information. Use this macro when allocating memory for destination information.
+The <b>RTM_SIZE_OF_DEST_INFO</b> macro returns the size of the destination information structure (<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a>). The size of this structure is variable, and is based on the number of views for which it contains information. Use this macro when allocating memory for destination information.
 
 ## -parameters
 

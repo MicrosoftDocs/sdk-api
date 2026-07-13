@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_ModuleClsid
 title: IFsrmPipelineModuleDefinition::get_ModuleClsid (fsrmpipeline.h)
-description: A string representation specifying the COM class identifier for the class that implements the module defined by this module definition.
+description: A string representation specifying the COM class identifier for the class that implements the module defined by this module definition. (Get)
 helpviewer_keywords: ["IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","ModuleClsid property","IFsrmPipelineModuleDefinition.ModuleClsid","IFsrmPipelineModuleDefinition.get_ModuleClsid","IFsrmPipelineModuleDefinition::ModuleClsid","IFsrmPipelineModuleDefinition::get_ModuleClsid","IFsrmPipelineModuleDefinition::put_ModuleClsid","ModuleClsid property [File Server Resource Manager]","ModuleClsid property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","fs.ifsrmpipelinemoduledefinition_moduleclsid","fsrm.ifsrmpipelinemoduledefinition_moduleclsid","fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleClsid","fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleClsid","fsrmpipeline/IFsrmPipelineModuleDefinition::put_ModuleClsid","get_ModuleClsid"]
 old-location: fsrm\ifsrmpipelinemoduledefinition_moduleclsid.htm
 tech.root: fsrm

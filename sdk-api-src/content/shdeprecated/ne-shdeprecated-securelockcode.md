@@ -55,11 +55,11 @@ Deprecated. This enumeration is used by the <a href="/windows/desktop/api/shdepr
 
 ## -enum-fields
 
-### -field SECURELOCK_NOCHANGE
+### -field SECURELOCK_NOCHANGE:-1
 
 No change in security encryption status.
 
-### -field SECURELOCK_SET_UNSECURE
+### -field SECURELOCK_SET_UNSECURE:0
 
 There is no security encryption present.
 

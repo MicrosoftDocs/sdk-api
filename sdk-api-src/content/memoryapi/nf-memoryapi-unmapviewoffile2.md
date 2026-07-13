@@ -40,7 +40,12 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
  - Kernel32.dll
+ - api-ms-win-core-memory-l1-1-5.dll
 api_name:
  - UnmapViewOfFile2
 ---
@@ -63,9 +68,10 @@ A <b>HANDLE</b> to the process from which the section
 ### -param BaseAddress [in]
 
 The base address of a previously mapped
-                  view that is to be unmapped.  This value must be
-                  identical to the value returned by a previous call
-                  to <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a>.
+view that is to be unmapped.  This value must be
+identical to the value returned by a previous call
+to one of the functions in the
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> family.
 
 ### -param UnmapFlags [in]
 
@@ -95,7 +101,7 @@ Specifies that the priority of the pages being unmapped should be temporarily bo
 </dl>
 </td>
 <td width="60%">
-Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a> or <b>MapViewOfFile2FromApp</b>).
+Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile3">MapViewOfFile3</a> or <b>MapViewOfFile3FromApp</b>).
 
 </td>
 </tr>
@@ -103,7 +109,7 @@ Unmaps a mapped view back to a placeholder (after you've replaced a placeholder 
 
 ## -returns
 
-Returns <b>TRUE</b> if sucessful. Otherwise, returns <b>FALSE</b> and extended error status is available
+Returns <b>TRUE</b> if successful. Otherwise, returns <b>FALSE</b> and extended error status is available
             using <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also

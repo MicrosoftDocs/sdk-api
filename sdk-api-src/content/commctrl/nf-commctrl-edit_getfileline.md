@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetFileLine","Edit_GetFileLine macro [Windows Contro
 old-location: controls\edit_getfileline.htm
 tech.root: Controls
 ms.assetid: F59ECED6-5584-43A9-A5F8-5502D66A29B6
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetFileLine, Edit_GetFileLine macro [Windows Controls], commctrl/Edit_GetFileLine, controls.edit_getfileline
 req.header: commctrl.h
 req.include-header: 
@@ -47,10 +47,20 @@ api_name:
 
 # Edit_GetFileLine macro
 
+## -syntax
+
+```cpp
+void Edit_GetFileLine(
+    HWND hwndCtl,
+    UINT lineNumber,
+    LPSTR textBuffer
+);
+```
+
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Gets the text of the specified file (or logical) line (text wrap delimiters are ignored). You can use this macro or send the <a href="/windows/desktop/controls/em-getfileline">EM_GETFILELINE</a> message explicitly.
 

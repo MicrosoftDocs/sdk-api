@@ -4,7 +4,8 @@ title: Evalcom2.h header
 ms.assetid: 689ac4df-9c24-39d6-a942-4c07c167855c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: setup
 f1_keywords:
  - evalcom2

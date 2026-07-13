@@ -235,7 +235,7 @@ This function returns the offset from the left side of <i>rc</i> where the strin
 
 By default, the icon is centered vertically and forced against the left side of the specified rectangle.
 
-<b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i>parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
+<b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i> parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
 
 
 ```

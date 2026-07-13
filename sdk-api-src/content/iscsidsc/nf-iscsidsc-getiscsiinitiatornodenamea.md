@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.GetIScsiInitiatorNodeNameA
 title: GetIScsiInitiatorNodeNameA function (iscsidsc.h)
-description: The GetIscsiInitiatorNodeName function retrieves the common initiator node name that is used when establishing sessions from the local machine.
-helpviewer_keywords: ["GetIScsiInitiatorNodeNameA","GetIscsiInitiatorNodeName","GetIscsiInitiatorNodeName function [iSCSI Discovery Library API]","GetIscsiInitiatorNodeNameA","GetIscsiInitiatorNodeNameW","iscsidisc.getiscsiinitiatornodename","iscsidsc/GetIscsiInitiatorNodeName","iscsidsc/GetIscsiInitiatorNodeNameA","iscsidsc/GetIscsiInitiatorNodeNameW"]
+description: The GetIscsiInitiatorNodeName function retrieves the common initiator node name that is used when establishing sessions from the local machine. (ANSI)
+helpviewer_keywords: ["GetIScsiInitiatorNodeNameA", "GetIscsiInitiatorNodeNameA", "iscsidsc/GetIscsiInitiatorNodeNameA"]
 old-location: iscsidisc\getiscsiinitiatornodename.htm
 tech.root: iSCSIDisc
 ms.assetid: 592d9cd8-5944-479c-ba21-7cf911e0a5b9
@@ -72,5 +72,5 @@ All initiator Host Bus Adapters, both software and hardware, use the same node n
 
 
 > [!NOTE]
-> The iscsidsc.h header defines GetIScsiInitiatorNodeName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines GetIScsiInitiatorNodeName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

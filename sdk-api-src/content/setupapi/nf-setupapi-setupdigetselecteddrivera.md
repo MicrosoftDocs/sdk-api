@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetSelectedDriverA
 title: SetupDiGetSelectedDriverA function (setupapi.h)
-description: The SetupDiGetSelectedDriver function retrieves the selected driver for a device information set or a particular device information element.
-helpviewer_keywords: ["SetupDiGetSelectedDriver","SetupDiGetSelectedDriver function [Device and Driver Installation]","SetupDiGetSelectedDriverA","SetupDiGetSelectedDriverW","devinst.setupdigetselecteddriver","di-rtns_6ea54b58-1b3f-4437-afa0-501a23af3529.xml","setupapi/SetupDiGetSelectedDriver"]
+description: The SetupDiGetSelectedDriver function retrieves the selected driver for a device information set or a particular device information element. (ANSI)
+helpviewer_keywords: ["SetupDiGetSelectedDriverA", "di-rtns_6ea54b58-1b3f-4437-afa0-501a23af3529.xml"]
 old-location: devinst\setupdigetselecteddriver.htm
 tech.root: devinst
 ms.assetid: dd3d9736-755c-497c-a523-18ca66557ae7
@@ -78,4 +78,4 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetSelectedDriver as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetSelectedDriver as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

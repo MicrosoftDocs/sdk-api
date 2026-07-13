@@ -52,41 +52,41 @@ api_name:
 
 ## -description
 
-Indicates the text mode of a rich edit control. The <a href="https://msdn.microsoft.com/d6741234-0ef3-4cd2-8817-6c852f1b500d">EM_SETTEXTMODE</a> and <a href="https://msdn.microsoft.com/5c976a82-9c51-4700-9db4-a6b0ed7bb852">EM_GETTEXTMODE</a> messages use this enumeration type.
+Indicates the text mode of a rich edit control. The <a href="/windows/win32/controls/em-settextmode">EM_SETTEXTMODE</a> and <a href="/windows/win32/controls/em-gettextmode">EM_GETTEXTMODE</a> messages use this enumeration type.
 
 ## -enum-fields
 
-### -field TM_PLAINTEXT
+### -field TM_PLAINTEXT:1
 
-Indicates plain-text mode, in which the control is similar to a standard edit control. For more information about plain-text mode, see the Remarks section of <a href="https://msdn.microsoft.com/d6741234-0ef3-4cd2-8817-6c852f1b500d">EM_SETTEXTMODE</a>.
+Indicates plain-text mode, in which the control is similar to a standard edit control. For more information about plain-text mode, see the Remarks section of <a href="/windows/win32/controls/em-settextmode">EM_SETTEXTMODE</a>.
 
-### -field TM_RICHTEXT
+### -field TM_RICHTEXT:2
 
 Indicates rich-text mode, in which the control has the standard rich edit functionality. Rich-text mode is the default setting.
 
-### -field TM_SINGLELEVELUNDO
+### -field TM_SINGLELEVELUNDO:4
 
 The control allows the user to undo only the last action in the undo queue.
 
-### -field TM_MULTILEVELUNDO
+### -field TM_MULTILEVELUNDO:8
 
-The control supports multiple undo actions. This is the default setting. Use the <a href="https://msdn.microsoft.com/485dbcda-89f4-40de-ad55-cd524958e910">EM_SETUNDOLIMIT</a> message to set the maximum number of undo actions.
+The control supports multiple undo actions. This is the default setting. Use the <a href="/windows/win32/controls/em-setundolimit">EM_SETUNDOLIMIT</a> message to set the maximum number of undo actions.
 
-### -field TM_SINGLECODEPAGE
+### -field TM_SINGLECODEPAGE:16
 
 The control only allows the English keyboard and a keyboard corresponding to the default character set. For example, you could have Greek and English. Note that this prevents Unicode text from entering the control. For example, use this value if a Rich Edit control must be restricted to ANSI text.
 
-### -field TM_MULTICODEPAGE
+### -field TM_MULTICODEPAGE:32	
 
 The control allows multiple code pages and Unicode text into the control. This is the default setting.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5c976a82-9c51-4700-9db4-a6b0ed7bb852">EM_GETTEXTMODE</a>
+<a href="/windows/win32/controls/em-gettextmode">EM_GETTEXTMODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6741234-0ef3-4cd2-8817-6c852f1b500d">EM_SETTEXTMODE</a>
+<a href="/windows/win32/controls/em-settextmode">EM_SETTEXTMODE</a>
 
 
 

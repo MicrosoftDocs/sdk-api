@@ -64,7 +64,7 @@ A reference to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnk
 
 ## -returns
 
-If the function succeds, the return value is a pointer to the specified interface that can be passed outside the current object's context. Otherwise, the return value is <b>NULL</b>.
+If the function succeeds, the return value is a pointer to the specified interface that can be passed outside the current object's context. Otherwise, the return value is <b>NULL</b>.
 
 ## -see-also
 

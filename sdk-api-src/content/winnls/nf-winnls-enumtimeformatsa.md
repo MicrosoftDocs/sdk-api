@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumTimeFormatsA
 title: EnumTimeFormatsA function (winnls.h)
-description: Enumerates the time formats that are available for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the EnumTimeFormatsEx function to EnumTimeFormats because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use EnumTimeFormatsEx.
-helpviewer_keywords: ["0","EnumTimeFormats","EnumTimeFormats function [Internationalization for Windows Applications]","EnumTimeFormatsA","EnumTimeFormatsW","LOCAL_USE_CP_ACP","TIME_NOSECONDS","_win32_EnumTimeFormats","intl.enumtimeformats","winnls/EnumTimeFormats","winnls/EnumTimeFormatsA","winnls/EnumTimeFormatsW"]
+description: Enumerates the time formats that are available for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the EnumTimeFormatsEx function to EnumTimeFormats because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use EnumTimeFormatsEx. (ANSI)
+helpviewer_keywords: ["0", "EnumTimeFormatsA", "LOCAL_USE_CP_ACP", "TIME_NOSECONDS", "winnls/EnumTimeFormatsA"]
 old-location: intl\enumtimeformats.htm
 tech.root: Intl
 ms.assetid: ad0fe26f-b915-4903-9335-4b268a889c80
@@ -157,7 +157,7 @@ Note that any new values for <i>dwFlags</i> introduced in the future will not wo
 
 
 > [!NOTE]
-> The winnls.h header defines EnumTimeFormats as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines EnumTimeFormats as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

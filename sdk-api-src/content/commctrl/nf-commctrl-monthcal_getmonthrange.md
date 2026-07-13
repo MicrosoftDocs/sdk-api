@@ -6,7 +6,7 @@ helpviewer_keywords: ["GMR_DAYSTATE","GMR_VISIBLE","MonthCal_GetMonthRange","Mon
 old-location: controls\MonthCal_GetMonthRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmonthrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: GMR_DAYSTATE, GMR_VISIBLE, MonthCal_GetMonthRange, MonthCal_GetMonthRange macro [Windows Controls], _win32_MonthCal_GetMonthRange, _win32_MonthCal_GetMonthRange_cpp, commctrl/MonthCal_GetMonthRange, controls.MonthCal_GetMonthRange, controls._win32_MonthCal_GetMonthRange
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MonthCal_GetMonthRange macro
+
+## -syntax
+
+```cpp
+INT MonthCal_GetMonthRange(
+   HWND         hmc,
+   DWORD        gmr,
+   LPSYSTEMTIME rgst
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+Returns an INT value that represents the range, in months, spanned by the two limits returned at <i>rgst</i>.
 
 
 ## -description
@@ -97,4 +113,4 @@ Include only those months that are entirely displayed.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that will receive the lower and upper limits of the scope specified by <i>dwFlag</i>. The lower and upper limits are placed in lprgSysTimeArray[0] and lprgSysTimeArray[1], respectively. The time members of these structures will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.
+Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that will receive the lower and upper limits of the scope specified by <i>gmr</i>. The lower and upper limits are placed in rgst[0] and rgst[1], respectively. The time members of these structures will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.

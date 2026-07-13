@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.UuidToStringW
 title: UuidToStringW function (rpcdce.h)
-description: The UuidToString function converts a UUID to a string.
-helpviewer_keywords: ["UuidToString","UuidToString function [RPC]","UuidToStringA","UuidToStringW","_rpc_uuidtostring","rpc.uuidtostring","rpcdce/UuidToString","rpcdce/UuidToStringA","rpcdce/UuidToStringW"]
+description: The UuidToStringW (Unicode) function (rpcdce.h) converts a UUID to a string. 
+helpviewer_keywords: ["UuidToString", "UuidToString function [RPC]", "UuidToStringW", "_rpc_uuidtostring", "rpc.uuidtostring", "rpcdce/UuidToString", "rpcdce/UuidToStringW"]
 old-location: rpc\uuidtostring.htm
 tech.root: Rpc
 ms.assetid: 49235b28-a0c5-4f69-9932-85350d7bcbb8
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: UuidToString, UuidToString function [RPC], UuidToStringA, UuidToStringW, _rpc_uuidtostring, rpc.uuidtostring, rpcdce/UuidToString, rpcdce/UuidToStringA, rpcdce/UuidToStringW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -113,7 +113,7 @@ An application calls
 
 
 > [!NOTE]
-> The rpcdce.h header defines UuidToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines UuidToString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

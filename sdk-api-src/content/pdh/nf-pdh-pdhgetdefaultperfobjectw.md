@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfObjectW
 title: PdhGetDefaultPerfObjectW function (pdh.h)
-description: Retrieves the name of the default object. This name can be used to set the initial object selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfObjectH function.
-helpviewer_keywords: ["PdhGetDefaultPerfObject","PdhGetDefaultPerfObject function [Perf]","PdhGetDefaultPerfObjectA","PdhGetDefaultPerfObjectW","_win32_pdhgetdefaultperfobject","base.pdhgetdefaultperfobject","pdh/PdhGetDefaultPerfObject","pdh/PdhGetDefaultPerfObjectA","pdh/PdhGetDefaultPerfObjectW","perf.pdhgetdefaultperfobject"]
+description: Retrieves the name of the default object. This name can be used to set the initial object selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfObjectH function. (Unicode)
+helpviewer_keywords: ["PdhGetDefaultPerfObject", "PdhGetDefaultPerfObject function [Perf]", "PdhGetDefaultPerfObjectW", "_win32_pdhgetdefaultperfobject", "base.pdhgetdefaultperfobject", "pdh/PdhGetDefaultPerfObject", "pdh/PdhGetDefaultPerfObjectW", "perf.pdhgetdefaultperfobject"]
 old-location: perf\pdhgetdefaultperfobject.htm
 tech.root: perf
 ms.assetid: 7c6d4d82-8b60-4422-8108-8ac10f254278
@@ -149,7 +149,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 > [!NOTE]
-> The pdh.h header defines PdhGetDefaultPerfObject as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhGetDefaultPerfObject as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

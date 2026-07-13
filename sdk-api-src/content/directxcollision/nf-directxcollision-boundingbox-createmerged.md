@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.CreateMerged
 title: BoundingBox::CreateMerged
-description: Creates a BoundingBox large enough to contains two specified BoundBox intances.
+description: Creates a BoundingBox large enough to contains two specified BoundBox instances.
 helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","CreateMerged method","BoundingBox.CreateMerged","BoundingBox::CreateMerged","CreateMerged","CreateMerged method [DirectX Math Support APIs]","CreateMerged method [DirectX Math Support APIs]","BoundingBox interface","Use DirectX..BoundingBox.CreateMerged","Use DirectX::::BoundingBox::CreateMerged","dxmath.boundingbox_createmerged"]
 old-location: dxmath\boundingbox_createmerged.htm
 tech.root: dxmath
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a BoundingBox large enough to contains two specified BoundBox intances.
+Creates a BoundingBox large enough to contains two specified BoundBox instances.
 
 ## -parameters
 

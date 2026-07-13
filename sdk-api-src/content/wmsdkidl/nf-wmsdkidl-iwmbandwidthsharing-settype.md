@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMBandwidthSharing interface [windows Media Format]","Se
 old-location: wmformat\iwmbandwidthsharing_settype.htm
 tech.root: wmformat
 ms.assetid: 3f4fc06a-ffbe-4854-8e64-d369acfac271
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetType method, IWMBandwidthSharing.SetType, IWMBandwidthSharing::SetType, IWMBandwidthSharingSetType, SetType, SetType method [windows Media Format], SetType method [windows Media Format],IWMBandwidthSharing interface, wmformat.iwmbandwidthsharing_settype, wmsdkidl/IWMBandwidthSharing::SetType
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetType</b> method sets the type of sharing (exclusive or partial) for the bandwidth sharing object.
 

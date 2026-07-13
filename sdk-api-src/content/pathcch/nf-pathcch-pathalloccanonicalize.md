@@ -148,6 +148,17 @@ One or more of the following flags:
 <b>Note</b> This value is available starting in Windows 10, version 1703.
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="____PATHCCH_CANONICALIZE_SLASHES"></a><a id="____pathcch_canonicalize_slashes"></a><dl>
+<dt><b>PATHCCH_CANONICALIZE_SLASHES</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">Convert forward slashes to back slashes and collapse multiple slashes.
+
+<b>Note</b> This value is available starting in Windows 11 (SDK version 10.0.22000.194).
+</td>
+</tr>
 </table>
 
 ### -param ppszPathOut [out]
@@ -156,7 +167,7 @@ The address of a pointer to a buffer that, when this function returns successful
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -168,4 +179,4 @@ This function supports these alternate path forms:
 <li>\\?\Volume{guid}\</li>
 </ul>
 
-This function does not convert forward slashes (`/`) into back slashes (`\`). With untrusted input, this function by itself, cannot be used to convert paths into a form that can be compared with other paths for sub-path or identity. Callers that need that ability should convert forward to back slashes before using this function.
+This function does not convert forward slashes (/) into back slashes (\\). With untrusted input, this function by itself, cannot be used to convert paths into a form that can be compared with other paths for sub-path or identity. Callers that need that ability should convert forward to back slashes before using this function.

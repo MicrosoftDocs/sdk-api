@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxSetJobW
 title: FaxSetJobW function (winfax.h)
-description: A fax client application calls the FaxSetJob function to pause, resume, cancel, or restart a specified fax job.
-helpviewer_keywords: ["FaxSetJob","FaxSetJob function [Fax Service]","FaxSetJobA","FaxSetJobW","JC_DELETE","JC_PAUSE","JC_RESTART","JC_RESUME","_mfax_faxsetjob","fax._mfax_faxsetjob","winfax/FaxSetJob","winfax/FaxSetJobA","winfax/FaxSetJobW"]
+description: A fax client application calls the FaxSetJob function to pause, resume, cancel, or restart a specified fax job. (Unicode)
+helpviewer_keywords: ["FaxSetJob", "FaxSetJob function [Fax Service]", "FaxSetJobW", "JC_DELETE", "JC_PAUSE", "JC_RESTART", "JC_RESUME", "_mfax_faxsetjob", "fax._mfax_faxsetjob", "winfax/FaxSetJob", "winfax/FaxSetJobW"]
 old-location: fax\_mfax_faxsetjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4pwi.htm
@@ -173,7 +173,7 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 > [!NOTE]
-> The winfax.h header defines FaxSetJob as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxSetJob as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl._HD_ITEMW
 title: HDITEMW (commctrl.h)
-description: Contains information about an item in a header control. This structure supersedes the HD_ITEM structure.
+description: Contains information about an item in a header control. This structure supersedes the HD_ITEM structure. (Unicode)
 helpviewer_keywords: ["*LPHDITEMW","Combining Flags:","Display:","HDFT_HASNOVALUE","HDFT_ISDATE","HDFT_ISNUMBER","HDFT_ISSTRING","HDF_BITMAP","HDF_BITMAP_ON_RIGHT","HDF_CENTER","HDF_CHECKBOX","HDF_CHECKED","HDF_FIXEDWIDTH","HDF_IMAGE","HDF_JUSTIFYMASK","HDF_LEFT","HDF_OWNERDRAW","HDF_RIGHT","HDF_RTLREADING","HDF_SORTDOWN","HDF_SORTUP","HDF_SPLITBUTTON","HDF_STRING","HDITEM","HDITEM structure [Windows Controls]","HDITEMA","HDITEMW","HDI_BITMAP","HDI_DI_SETITEM","HDI_FILTER","HDI_FORMAT","HDI_HEIGHT","HDI_IMAGE","HDI_LPARAM","HDI_ORDER","HDI_STATE","HDI_TEXT","HDI_WIDTH","LPHDITEM","LPHDITEM structure pointer [Windows Controls]","Text Justification:","_win32_HDITEM","_win32_HDITEM_cpp","commctrl/HDITEM","commctrl/HDITEMA","commctrl/HDITEMW","commctrl/LPHDITEM","controls.HDITEM","controls._win32_HDITEM"]
 old-location: controls\HDITEM.htm
 tech.root: Controls
@@ -535,4 +535,4 @@ The item has keyboard focus.
 
 
 > [!NOTE]
-> The commctrl.h header defines HDITEM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines HDITEM as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

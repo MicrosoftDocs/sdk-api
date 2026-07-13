@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiEnumPatchesExA
 title: MsiEnumPatchesExA function (msi.h)
-description: Enumerates all patches in a specific context or across all contexts.
-helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSIPATCHSTATE_ALL","MSIPATCHSTATE_APPLIED","MSIPATCHSTATE_OBSOLETED","MSIPATCHSTATE_REGISTERED","MSIPATCHSTATE_SUPERSEDED","MsiEnumPatchesEx","MsiEnumPatchesEx function","MsiEnumPatchesExA","MsiEnumPatchesExW","NULL","User SID","msi/MsiEnumPatchesEx","msi/MsiEnumPatchesExA","msi/MsiEnumPatchesExW","s-1-1-0","setup.msienumpatchesex"]
+description: Enumerates all patches in a specific context or across all contexts. (ANSI)
+helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSIPATCHSTATE_ALL", "MSIPATCHSTATE_APPLIED", "MSIPATCHSTATE_OBSOLETED", "MSIPATCHSTATE_REGISTERED", "MSIPATCHSTATE_SUPERSEDED", "MsiEnumPatchesExA", "NULL", "User SID", "msi/MsiEnumPatchesExA", "s-1-1-0"]
 old-location: setup\msienumpatchesex.htm
 tech.root: setup
 ms.assetid: 32edcc56-190a-465f-b341-56dc60ab0589
@@ -72,7 +72,7 @@ A null-terminated string that specifies a security identifier (SID) that restric
 </tr>
 <tr>
 <td width="40%"><a id="NULL"></a><a id="null"></a><dl>
-<dt><b><b>NULL</b></b></dt>
+<dt><b>NULL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -344,7 +344,7 @@ Non-administrators can  enumerate patches within  their visibility only. Adminis
 
 
 > [!NOTE]
-> The msi.h header defines MsiEnumPatchesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiEnumPatchesEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

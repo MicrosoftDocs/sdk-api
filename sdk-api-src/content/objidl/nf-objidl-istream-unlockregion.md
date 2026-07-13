@@ -71,6 +71,14 @@ Specifies the access restrictions previously placed on the range.
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The byte range was unlocked.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream's data is currently unavailable.|
+|STG_E_INVALIDFUNCTION | Locking is not supported at all or the specific type of lock requested is not supported.|
+|STG_E_LOCKVIOLATION | The requested unlock operation cannot be granted.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 <b>IStream::UnlockRegion</b> unlocks a region previously locked with the 

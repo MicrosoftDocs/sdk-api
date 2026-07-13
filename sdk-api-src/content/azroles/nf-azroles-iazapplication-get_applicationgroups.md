@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.get_ApplicationGroups
 title: IAzApplication::get_ApplicationGroups (azroles.h)
-description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
+description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data. (IAzApplication.get_ApplicationGroups)
 helpviewer_keywords: ["ApplicationGroups property [Security]","ApplicationGroups property [Security]","AzApplication object","ApplicationGroups property [Security]","IAzApplication interface","AzApplication object [Security]","ApplicationGroups property","IAzApplication interface [Security]","ApplicationGroups property","IAzApplication.ApplicationGroups","IAzApplication.get_ApplicationGroups","IAzApplication::ApplicationGroups","IAzApplication::get_ApplicationGroups","azroles/IAzApplication::ApplicationGroups","azroles/IAzApplication::get_ApplicationGroups","get_ApplicationGroups","security.iazapplication_applicationgroups"]
 old-location: security\iazapplication_applicationgroups.htm
 tech.root: security

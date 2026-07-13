@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetItemCount","ListView_GetItemCount macro [Wind
 old-location: controls\ListView_GetItemCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetItemCount, ListView_GetItemCount macro [Windows Controls], _win32_ListView_GetItemCount, _win32_ListView_GetItemCount_cpp, commctrl/ListView_GetItemCount, controls.ListView_GetItemCount, controls._win32_ListView_GetItemCount
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # ListView_GetItemCount macro
 
+## -syntax
+
+```cpp
+int ListView_GetItemCount(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the number of items.
+
 
 ## -description
 
@@ -59,3 +73,10 @@ Gets the number of items in a list-view control. You can use this macro or send 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
+
+## -returns
+
+Type: int
+
+Returns the count of items in the listview.
+

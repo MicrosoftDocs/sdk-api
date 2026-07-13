@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d12shader.ID3D12LibraryReflection.GetFunctionByIndex
 title: ID3D12LibraryReflection::GetFunctionByIndex (d3d12shader.h)
-description: Gets the function reflector.
+description: The ID3D12LibraryReflection::GetFunctionByIndex method (d3d12shader.h) gets the function reflector.
 helpviewer_keywords: ["GetFunctionByIndex","GetFunctionByIndex method","GetFunctionByIndex method","ID3D12LibraryReflection interface","ID3D12LibraryReflection interface","GetFunctionByIndex method","ID3D12LibraryReflection.GetFunctionByIndex","ID3D12LibraryReflection::GetFunctionByIndex","d3d12shader/ID3D12LibraryReflection::GetFunctionByIndex","direct3d12.id3d12libraryreflection_getfunctionbyindex"]
 old-location: direct3d12\id3d12libraryreflection_getfunctionbyindex.htm
 tech.root: direct3d12
 ms.assetid: 1600824A-6C9E-4C87-8D6B-07F299D47A53
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: GetFunctionByIndex, GetFunctionByIndex method, GetFunctionByIndex method,ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,GetFunctionByIndex method, ID3D12LibraryReflection.GetFunctionByIndex, ID3D12LibraryReflection::GetFunctionByIndex, d3d12shader/ID3D12LibraryReflection::GetFunctionByIndex, direct3d12.id3d12libraryreflection_getfunctionbyindex
 req.header: d3d12shader.h
 req.include-header: 

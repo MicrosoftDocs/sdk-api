@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTEENTRYA
 title: OLEUIPASTEENTRYA (oledlg.h)
-description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.
+description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box. (ANSI)
 helpviewer_keywords: ["*LPOLEUIPASTEENTRYA","*POLEUIPASTEENTRYA","LPOLEUIPASTEENTRY","LPOLEUIPASTEENTRY structure pointer [COM]","OLEUIPASTEENTRY","OLEUIPASTEENTRY structure [COM]","OLEUIPASTEENTRYA","OLEUIPASTEENTRYW","POLEUIPASTEENTRY","POLEUIPASTEENTRY structure pointer [COM]","_ole_OLEUIPASTEENTRY","com.oleuipasteentry_struct","oledlg/LPOLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRYA","oledlg/OLEUIPASTEENTRYW","oledlg/POLEUIPASTEENTRY"]
 old-location: com\oleuipasteentry_struct.htm
 tech.root: com
@@ -95,4 +95,4 @@ Scratch space available to routines that loop through an <a href="/windows/deskt
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUIPASTEENTRY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUIPASTEENTRY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

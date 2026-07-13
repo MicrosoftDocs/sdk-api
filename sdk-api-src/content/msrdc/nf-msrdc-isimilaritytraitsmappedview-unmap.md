@@ -52,7 +52,7 @@ api_name:
 
 Unmaps a mapped view of a similarity traits table file. The view, if any, is not dirty or does not otherwise need to be flushed to disk.
 
-## -parameters
+
 
 ## -returns
 

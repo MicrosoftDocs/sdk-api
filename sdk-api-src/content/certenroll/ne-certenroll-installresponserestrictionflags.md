@@ -54,19 +54,19 @@ The <b>InstallResponseRestrictionFlags</b> enumeration contains flags that ident
 
 ## -enum-fields
 
-### -field AllowNone
+### -field AllowNone:0
 
 Does not allow the installation of untrusted certificates or certificates for which there is no corresponding request.
 
-### -field AllowNoOutstandingRequest
+### -field AllowNoOutstandingRequest:0x1
 
 Creates the <a href="/windows/desktop/SecGloss/p-gly">private key</a> from the certificate response rather than from the dummy certificate. This makes the dummy certificate optional. If this value is not set, the dummy certificate must exist, and the private key is extracted from it.
 
-### -field AllowUntrustedCertificate
+### -field AllowUntrustedCertificate:0x2
 
 Installs untrusted end entity and <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> certificates. Certification authority certificates include root and subordinate certification authority certificates. End entity certificates are installed to the personal store, and certification authority certificates are installed to the certification authority store.
 
-### -field AllowUntrustedRoot
+### -field AllowUntrustedRoot:0x4
 
 Performs the same action as the <b>AllowUntrustedCertificate</b> flag but also installs the certificate even if the certificate chain cannot be built because the root is not trusted.
 

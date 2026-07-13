@@ -6,7 +6,7 @@ helpviewer_keywords: ["IFilterGraph2 interface [DirectShow]","RenderEx method","
 old-location: dshow\ifiltergraph2_renderex.htm
 tech.root: dshow
 ms.assetid: b169c784-2ce3-47dc-ad64-3e4c96483f34
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IFilterGraph2 interface [DirectShow],RenderEx method, IFilterGraph2.RenderEx, IFilterGraph2::RenderEx, IFilterGraph2RenderEx, RenderEx, RenderEx method [DirectShow], RenderEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_renderex, strmif/IFilterGraph2::RenderEx
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>RenderEx</code> method renders an output pin, with an option to use existing renderers only.
 

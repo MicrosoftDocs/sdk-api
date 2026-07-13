@@ -6,7 +6,7 @@ helpviewer_keywords: ["92446aca-e611-42b2-8b55-2d1c47ccaa5c","ResetContext","Res
 old-location: tablet\resetcontext.htm
 tech.root: tablet
 ms.assetid: 92446aca-e611-42b2-8b55-2d1c47ccaa5c
-ms.date: 12/05/2018
+ms.date: 11/06/2024
 ms.keywords: 92446aca-e611-42b2-8b55-2d1c47ccaa5c, ResetContext, ResetContext function [Tablet PC], recapis/ResetContext, tablet.resetcontext
 req.header: recapis.h
 req.include-header: 
@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: 
+req.dll: inkobjcore.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -38,9 +38,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport 
 api_location:
  - recapis.h
+ - inkobjcore.dll
+ - mshwgst.dll
 api_name:
  - ResetContext
 ---

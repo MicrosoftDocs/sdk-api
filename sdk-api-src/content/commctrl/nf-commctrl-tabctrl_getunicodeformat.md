@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetUnicodeFormat","TabCtrl_GetUnicodeFormat macro
 old-location: controls\TabCtrl_GetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getunicodeformat.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetUnicodeFormat, TabCtrl_GetUnicodeFormat macro [Windows Controls], _win32_TabCtrl_GetUnicodeFormat, _win32_TabCtrl_GetUnicodeFormat_cpp, commctrl/TabCtrl_GetUnicodeFormat, controls.TabCtrl_GetUnicodeFormat, controls._win32_TabCtrl_GetUnicodeFormat
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TabCtrl_GetUnicodeFormat macro
+
+## -syntax
+
+```cpp
+BOOL TabCtrl_GetUnicodeFormat(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns the Unicode format flag for the control. If this value is nonzero, the control is using Unicode characters. If this value is zero, the control is using ANSI characters.
 
 
 ## -description

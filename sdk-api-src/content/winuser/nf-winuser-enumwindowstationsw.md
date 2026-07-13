@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.EnumWindowStationsW
 title: EnumWindowStationsW function (winuser.h)
-description: Enumerates all window stations in the current session. The function passes the name of each window station, in turn, to an application-defined callback function.
-helpviewer_keywords: ["EnumWindowStations","EnumWindowStations function [Windows Stations and Desktops]","EnumWindowStationsA","EnumWindowStationsW","_win32_enumwindowstations","base.enumwindowstations","winstation.enumwindowstations","winuser/EnumWindowStations","winuser/EnumWindowStationsA","winuser/EnumWindowStationsW"]
+description: Enumerates all window stations in the current session. The function passes the name of each window station, in turn, to an application-defined callback function. (Unicode)
+helpviewer_keywords: ["EnumWindowStations", "EnumWindowStations function [Windows Stations and Desktops]", "EnumWindowStationsW", "_win32_enumwindowstations", "base.enumwindowstations", "winstation.enumwindowstations", "winuser/EnumWindowStations", "winuser/EnumWindowStationsW"]
 old-location: winstation\enumwindowstations.htm
 tech.root: winstation
 ms.assetid: 418d4d6a-9e4d-4fe3-8e1b-398c732c6e23
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-windowstation-l1-1-2.dll
+ - ext-ms-win-ntuser-windowstation-l1-1-1.dll
+ - ext-ms-win-ntuser-windowstation-l1-1-0.dll
  - User32.dll
 api_name:
  - EnumWindowStations
@@ -87,7 +90,7 @@ The
 
 
 > [!NOTE]
-> The winuser.h header defines EnumWindowStations as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines EnumWindowStations as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>RpcExceptionFilter</b> function is a default exception filter that determines whether an exception is fatal or non-fatal.<b>RpcExceptionFilter</b> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <a href="/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>.
+The <b>RpcExceptionFilter</b> function is a default exception filter that determines whether an exception is fatal or non-fatal. <b>RpcExceptionFilter</b> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <a href="/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>.
 
 ## -parameters
 

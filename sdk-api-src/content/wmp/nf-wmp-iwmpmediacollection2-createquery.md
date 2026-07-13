@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMediaCollection2 interface [Windows Media Player]","c
 old-location: wmp\iwmpmediacollection2_createquery.htm
 tech.root: WMP
 ms.assetid: b1e6bf08-3b81-4c04-92ff-73eac5f7495a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],createQuery method, IWMPMediaCollection2.createQuery, IWMPMediaCollection2::createQuery, IWMPMediaCollection2createQuery, createQuery, createQuery method [Windows Media Player], createQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_createquery, wmp/IWMPMediaCollection2::createQuery
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>createQuery</b> method retrieves a pointer to an <b>IWMPQuery</b> interface that represents a new query.
 

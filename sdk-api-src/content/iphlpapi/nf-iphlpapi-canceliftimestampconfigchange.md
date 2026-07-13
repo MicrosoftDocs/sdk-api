@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.CancelIfTimestampConfigChange
 title: CancelIfTimestampConfigChange function (iphlpapi.h)
-description: This function is reserved for system use, and you should not call it from your code.
+description: This function is reserved for system use, and you should not call it from your code. (CancelIfTimestampConfigChange)
 helpviewer_keywords: ["CancelIfTimestampConfigChange","CancelIfTimestampConfigChange function [IP Helper]","iphlp.canceliftimestampconfigchange","iphlpapi/CancelIfTimestampConfigChange"]
 old-location: iphlp\canceliftimestampconfigchange.htm
 tech.root: IpHlp

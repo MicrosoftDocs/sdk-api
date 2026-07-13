@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether the application is registered as a recommended handler for the queried file type.
 
-## -parameters
+
 
 ## -returns
 

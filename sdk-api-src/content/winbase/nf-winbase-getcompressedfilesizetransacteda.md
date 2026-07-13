@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetCompressedFileSizeTransactedA
 title: GetCompressedFileSizeTransactedA function (winbase.h)
-description: Retrieves the actual number of bytes of disk storage used to store a specified file as a transacted operation.
-helpviewer_keywords: ["GetCompressedFileSizeTransacted","GetCompressedFileSizeTransacted function [Files]","GetCompressedFileSizeTransactedA","GetCompressedFileSizeTransactedW","fs.getcompressedfilesizetransacted","winbase/GetCompressedFileSizeTransacted","winbase/GetCompressedFileSizeTransactedA","winbase/GetCompressedFileSizeTransactedW"]
+description: Retrieves the actual number of bytes of disk storage used to store a specified file as a transacted operation. (ANSI)
+helpviewer_keywords: ["GetCompressedFileSizeTransactedA", "winbase/GetCompressedFileSizeTransactedA"]
 old-location: fs\getcompressedfilesizetransacted.htm
 tech.root: fs
 ms.assetid: df062eb4-70e1-4ee7-b489-624938af7834
@@ -176,7 +176,7 @@ SMB 3.0 does not support TxF.
 
 
 > [!NOTE]
-> The winbase.h header defines GetCompressedFileSizeTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetCompressedFileSizeTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

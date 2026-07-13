@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._TRUSTEE_A
 title: TRUSTEE_A (accctrl.h)
-description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies.
+description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies. (ANSI)
 helpviewer_keywords: ["*PTRUSTEEA","*PTRUSTEE_A","PTRUSTEE","PTRUSTEE structure pointer [Security]","TRUSTEE","TRUSTEE structure [Security]","TRUSTEEA","TRUSTEE_","TRUSTEE_A","TRUSTEE_IS_NAME","TRUSTEE_IS_OBJECTS_AND_NAME","TRUSTEE_IS_OBJECTS_AND_SID","TRUSTEE_IS_SID","TRUSTEE_W","_win32_trustee_str","accctrl/PTRUSTEE","accctrl/TRUSTEE","accctrl/TRUSTEE_A","accctrl/TRUSTEE_W","security.trustee"]
 old-location: security\trustee.htm
 tech.root: security
@@ -53,6 +53,17 @@ api_name:
 
 # TRUSTEE_A structure
 
+## -syntax
+
+```cpp
+typedef struct _TRUSTEE_A {
+  struct _TRUSTEE_A          *pMultipleTrustee;
+  MULTIPLE_TRUSTEE_OPERATION MultipleTrusteeOperation;
+  TRUSTEE_FORM               TrusteeForm;
+  TRUSTEE_TYPE               TrusteeType;
+  LPCH                       ptstrName;
+} TRUSTEE_A, *PTRUSTEE_A, TRUSTEEA, *PTRUSTEEA;
+```
 
 ## -description
 
@@ -77,49 +88,21 @@ A value of the
 
 A value from the 
 <a href="/windows/desktop/api/accctrl/ne-accctrl-trustee_form">TRUSTEE_FORM</a> enumeration type that indicates the type of data pointed to by the <b>ptstrName</b> member.
+See <a href="#-remarks">Remarks</a> below.
 
 ### -field TrusteeType
 
 A value from the 
 <a href="/windows/desktop/api/accctrl/ne-accctrl-trustee_type">TRUSTEE_TYPE</a> enumeration type that indicates whether the trustee is a user account, a group account, or an unknown account type.
 
-### -field ptstrName.case
-
-### -field ptstrName.case.TRUSTEE_IS_NAME
-
-### -field pSid
-
-### -field pSid.case
-
-### -field pSid.case.TRUSTEE_IS_SID
-
-### -field pObjectsAndSid
-
-### -field pObjectsAndSid.case
-
-### -field pObjectsAndSid.case.TRUSTEE_IS_OBJECTS_AND_SID
-
-### -field pObjectsAndName
-
-### -field pObjectsAndName.case
-
-### -field pObjectsAndName.case.TRUSTEE_IS_OBJECTS_AND_NAME
-
-
-
 ### -field ptstrName
 
- A pointer to a buffer that identifies the trustee and, optionally, contains information about object-specific ACEs. The type of data depends on the value of the <b>TrusteeForm</b> member. 
-
-
-
-This member can be one of the following values.
-					
+A pointer whose form depends on the value of the <i>TrusteeForm</i> member, cast to LPCH.
 
 <table>
 <tr>
-<th>Value</th>
-<th>Meaning</th>
+<th>TrusteeForm</th>
+<th>Meaning of ptstrName</th>
 </tr>
 <tr>
 <td width="40%"><a id="TRUSTEE_IS_NAME"></a><a id="trustee_is_name"></a><dl>
@@ -159,8 +142,7 @@ A pointer to an
 </dl>
 </td>
 <td width="60%">
- Pointer to the SID of the trustee.
-
+A pointer to the SID of the trustee.
 </td>
 </tr>
 </table>
@@ -203,7 +185,7 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="/
 
 
 > [!NOTE]
-> The accctrl.h header defines TRUSTEE_ as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The accctrl.h header defines TRUSTEE_ as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

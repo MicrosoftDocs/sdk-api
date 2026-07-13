@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.CommitTransaction
 title: CommitTransaction function (ktmw32.h)
-description: Requests that the specified transaction be committed.
+description: Requests that the specified transaction be committed. (CommitTransaction)
 helpviewer_keywords: ["CommitTransaction","CommitTransaction function [Files]","fs.committransaction","ktmw32/CommitTransaction"]
 old-location: fs\committransaction.htm
 tech.root: fs

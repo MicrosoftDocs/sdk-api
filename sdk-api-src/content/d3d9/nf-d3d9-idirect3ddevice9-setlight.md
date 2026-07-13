@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetLight
 title: IDirect3DDevice9::SetLight (d3d9.h)
-description: Assigns a set of lighting properties for this device.
+description: The IDirect3DDevice9::SetLight method (d3d9.h) assigns a set of lighting properties for this device.
 helpviewer_keywords: ["01be5e3b-cd10-6899-0e92-5f0874741380","IDirect3DDevice9 interface [Direct3D 9]","SetLight method","IDirect3DDevice9.SetLight","IDirect3DDevice9::SetLight","SetLight","SetLight method [Direct3D 9]","SetLight method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetLight","direct3d9.idirect3ddevice9__setlight"]
 old-location: direct3d9\idirect3ddevice9__setlight.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setlight.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9 interface [Direct3D 9],SetLight method, IDirect3DDevice9.SetLight, IDirect3DDevice9::SetLight, SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
 req.header: d3d9.h
 req.include-header: D3D9.h

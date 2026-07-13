@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetLocalFileSize","GetLocalFileSize method [Direct Write]
 old-location: directwrite\idwriteremotefontfilestream_getlocalfilesize.htm
 tech.root: DirectWrite
 ms.assetid: 06FB14D5-19F6-48D3-AEA9-3D622219EF2A
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetLocalFileSize, GetLocalFileSize method [Direct Write], GetLocalFileSize method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetLocalFileSize method, IDWriteRemoteFontFileStream.GetLocalFileSize, IDWriteRemoteFontFileStream::GetLocalFileSize, directwrite.idwriteremotefontfilestream_getlocalfilesize, dwrite_3/IDWriteRemoteFontFileStream::GetLocalFileSize
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

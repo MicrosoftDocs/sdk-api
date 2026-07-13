@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Simplify(D2D1_GEOMETRY_SIMPLIFICATION_OPTION,constD2D1_MATRIX_3X2_F,FLOAT,ID2D1SimplifiedGeometrySink)
 title: ID2D1Geometry::Simplify (d2d1.h)
-description: Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an ID2D1SimplifiedGeometrySink.
+description: Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an ID2D1SimplifiedGeometrySink. (overload 2/4)
 helpviewer_keywords: ["ID2D1Geometry interface [Direct2D]","Simplify method","ID2D1Geometry.Simplify","ID2D1Geometry::Simplify","ID2D1Geometry::Simplify(D2D1_GEOMETRY_SIMPLIFICATION_OPTION","const D2D1_MATRIX_3X2_F &","FLOAT","ID2D1SimplifiedGeometrySink)","Simplify","Simplify method [Direct2D]","Simplify method [Direct2D]","ID2D1Geometry interface","d2d1/ID2D1Geometry::Simplify","direct2d.ID2D1Geometry_Simplify_D2D1_GEOMETRY_SIMPLIFICATION_OPTION_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink"]
 old-location: direct2d\ID2D1Geometry_Simplify_D2D1_GEOMETRY_SIMPLIFICATION_OPTION_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink.htm
 tech.root: Direct2D
@@ -79,7 +79,7 @@ The <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1S
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 

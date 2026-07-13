@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.put_Value
 title: IFsrmFileConditionProperty::put_Value (fsrmreports.h)
-description: Specifies the file condition property value.
+description: Specifies the file condition property value. (Put)
 helpviewer_keywords: ["IFsrmFileConditionProperty interface [File Server Resource Manager]","Value property","IFsrmFileConditionProperty.Value","IFsrmFileConditionProperty.put_Value","IFsrmFileConditionProperty::Value","IFsrmFileConditionProperty::get_Value","IFsrmFileConditionProperty::put_Value","Value property [File Server Resource Manager]","Value property [File Server Resource Manager]","IFsrmFileConditionProperty interface","fs.ifsrmfileconditionproperty_value","fsrm.ifsrmfileconditionproperty_value","fsrmreports/IFsrmFileConditionProperty::Value","fsrmreports/IFsrmFileConditionProperty::get_Value","fsrmreports/IFsrmFileConditionProperty::put_Value","put_Value"]
 old-location: fsrm\ifsrmfileconditionproperty_value.htm
 tech.root: fsrm

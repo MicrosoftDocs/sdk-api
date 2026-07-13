@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsController.GetPortProperties
 title: IVdsController::GetPortProperties (vdshwprv.h)
-description: Returns the properties of the specified controller port.
+description: The IVdsController::GetPortProperties method (vdshwprv.h) returns the properties of the specified controller port. 
 helpviewer_keywords: ["GetPortProperties","GetPortProperties method [VDS]","GetPortProperties method [VDS]","IVdsController interface","IVdsController interface [VDS]","GetPortProperties method","IVdsController.GetPortProperties","IVdsController::GetPortProperties","base.ivdscontroller_getportproperties","vds/IVdsController::GetPortProperties","vdshwprv/IVdsController::GetPortProperties"]
 old-location: base\ivdscontroller_getportproperties.htm
 tech.root: base
 ms.assetid: 01972923-2a43-4a80-80f8-8dab4207bbc4
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetPortProperties, GetPortProperties method [VDS], GetPortProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetPortProperties method, IVdsController.GetPortProperties, IVdsController::GetPortProperties, base.ivdscontroller_getportproperties, vds/IVdsController::GetPortProperties, vdshwprv/IVdsController::GetPortProperties
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of the specified controller port.
 

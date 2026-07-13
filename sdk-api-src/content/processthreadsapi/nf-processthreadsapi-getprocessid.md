@@ -4,12 +4,12 @@ title: GetProcessId function (processthreadsapi.h)
 description: Retrieves the process identifier of the specified process.
 helpviewer_keywords: ["GetProcessId","GetProcessId function","base.getprocessid","processthreadsapi/GetProcessId","winbase/GetProcessId"]
 old-location: base\getprocessid.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 9a024147-8bfe-427a-af12-a63f23328e38
 ms.date: 12/05/2018
 ms.keywords: GetProcessId, GetProcessId function, base.getprocessid, processthreadsapi/GetProcessId, winbase/GetProcessId
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
  - KernelBase.dll

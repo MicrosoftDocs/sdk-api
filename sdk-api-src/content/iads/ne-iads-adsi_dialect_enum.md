@@ -56,11 +56,11 @@ The <b>ADSI_DIALECT_ENUM</b> enumeration specifies query dialects used in the OL
 
 ## -enum-fields
 
-### -field ADSI_DIALECT_LDAP
+### -field ADSI_DIALECT_LDAP:0
 
 ADSI queries are based on the LDAP dialect.
 
-### -field ADSI_DIALECT_SQL
+### -field ADSI_DIALECT_SQL:0x1
 
 ADSI queries are based on the SQL dialect.
 

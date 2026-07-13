@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListEnumSourcesA
 title: MsiSourceListEnumSourcesA function (msi.h)
-description: The MsiSourceListEnumSources function enumerates the sources in the source list of a specified patch or product.
-helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListEnumSources","MsiSourceListEnumSources function","MsiSourceListEnumSourcesA","MsiSourceListEnumSourcesW","NULL","User SID","msi/MsiSourceListEnumSources","msi/MsiSourceListEnumSourcesA","msi/MsiSourceListEnumSourcesW","s-1-1-0","setup.msisourcelistenumsources"]
+description: The MsiSourceListEnumSources function enumerates the sources in the source list of a specified patch or product. (ANSI)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSISOURCETYPE_NETWORK", "MSISOURCETYPE_URL", "MsiSourceListEnumSourcesA", "NULL", "User SID", "msi/MsiSourceListEnumSourcesA", "s-1-1-0"]
 old-location: setup\msisourcelistenumsources.htm
 tech.root: setup
 ms.assetid: 30a5efae-ebb5-4ff3-880a-4eed1bc8eed4
@@ -71,7 +71,7 @@ A string SID that specifies the user account that contains the product or patch.
 </tr>
 <tr>
 <td width="40%"><a id="NULL"></a><a id="null"></a><dl>
-<dt><b><b>NULL</b></b></dt>
+<dt><b>NULL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -345,7 +345,7 @@ An administrator can enumerate per-user unmanaged and managed installations for 
 
 
 > [!NOTE]
-> The msi.h header defines MsiSourceListEnumSources as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiSourceListEnumSources as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

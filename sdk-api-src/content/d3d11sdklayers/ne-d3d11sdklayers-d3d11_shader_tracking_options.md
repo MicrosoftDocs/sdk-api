@@ -56,47 +56,47 @@ Options that specify how to perform shader debug tracking.
 
 ## -enum-fields
 
-### -field D3D11_SHADER_TRACKING_OPTION_IGNORE
+### -field D3D11_SHADER_TRACKING_OPTION_IGNORE:0
 
 No debug tracking is performed.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_UNINITIALIZED
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_UNINITIALIZED:0x1
 
 Track the reading of uninitialized data.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_RAW
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_RAW:0x2
 
 Track read-after-write hazards.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_WAR
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_WAR:0x4
 
 Track write-after-read hazards.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_WAW
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_WAW:0x8
 
 Track write-after-write hazards.
 
-### -field D3D11_SHADER_TRACKING_OPTION_ALLOW_SAME
+### -field D3D11_SHADER_TRACKING_OPTION_ALLOW_SAME:0x10
 
 Track that hazards are allowed in which data is written but the value does not change.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY:0x20
 
 Track that only one type of atomic operation is used on an address.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_RAW_ACROSS_THREADGROUPS
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_RAW_ACROSS_THREADGROUPS:0x40
 
 Track read-after-write hazards across thread groups.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_WAR_ACROSS_THREADGROUPS
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_WAR_ACROSS_THREADGROUPS:0x80
 
 Track write-after-read hazards across thread groups.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_WAW_ACROSS_THREADGROUPS
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_WAW_ACROSS_THREADGROUPS:0x100
 
 Track write-after-write hazards across thread groups.
 
-### -field D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY_ACROSS_THREADGROUPS
+### -field D3D11_SHADER_TRACKING_OPTION_TRACK_ATOMIC_CONSISTENCY_ACROSS_THREADGROUPS:0x200
 
 Track that only one type of atomic operation is used on an address across thread groups.
 

@@ -1,12 +1,10 @@
 ---
 UID: NF:winbase.MoveFileExW
 title: MoveFileExW function (winbase.h)
-author: windows-sdk-content
-description: Moves an existing file or directory, including its children, with various move options.
+description: Moves an existing file or directory, including its children, with various move options. (Unicode)
 old-location: fs\movefileex.htm
 tech.root: FileIO
 ms.assetid: 5fb4f897-66ed-49d7-913a-fb6e7cecdfa3
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_FAIL_IF_NOT_TRACKABLE, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileEx, MoveFileEx function [Files], MoveFileExA, MoveFileExW, _win32_movefileex, base.movefileex, fs.movefileex, rename file [Files], winbase/MoveFileEx, winbase/MoveFileExA, winbase/MoveFileExW
 req.header: winbase.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -40,6 +37,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l2-1-4.dll
+ - api-ms-win-core-file-l2-1-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll
@@ -85,14 +84,10 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b>, the
        file cannot exist on a remote share, because delayed operations are performed before the network is 
        available.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpNewFileName [in, optional]
 
@@ -116,9 +111,8 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
        "\\?\" to the path. For more information, see 
        <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>
 
-
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param dwFlags [in]
 
@@ -201,8 +195,7 @@ If a file named <i>lpNewFileName</i> exists, the function replaces its contents 
          regarding access control lists (ACLs) are met. For more information, see the Remarks section of this 
          topic.
 
-This value cannot be used if <i>lpNewFileName</i> or 
-         <i>lpExistingFileName</i> names a directory.
+If <i>lpNewFileName</i> names an existing directory, an error is reported.
 
 </td>
 </tr>
@@ -246,7 +239,7 @@ This registry  value is of type <b>REG_MULTI_SZ</b>. Each rename operation store
 
 <ul>
 <li>
-<i>szDstFile</i>\0\0
+<i>szSrcFile</i>\0\0
 
 </li>
 <li>
@@ -254,8 +247,8 @@ This registry  value is of type <b>REG_MULTI_SZ</b>. Each rename operation store
 
 </li>
 </ul>
-The string <i>szDstFile</i>\0\0 indicates that the file 
-     <i>szDstFile</i> is to be deleted on reboot. The string 
+The string <i>szSrcFile</i>\0\0 indicates that the file 
+     <i>szSrcFile</i> is to be deleted on reboot. The string 
      <i>szSrcFile</i>\0<i>szDstFile</i>\0 indicates that 
      <i>szSrcFile</i> is to be renamed <i>szDstFile</i> on reboot.
 
@@ -264,12 +257,12 @@ The string <i>szDstFile</i>\0\0 indicates that the file
 <div> </div>
 The system uses these registry entries to complete the operations at restart in the same order that they were 
      issued. For example, the following code fragment creates registry entries that delete 
-     <i>szDstFile</i> and rename <i>szSrcFile</i> to be 
+     <i>szSrcFile</i> and rename <i>szSrcFile</i> to be 
      <i>szDstFile</i> at restart:
 
 
 ```cpp
-MoveFileEx(szDstFile, NULL, MOVEFILE_DELAY_UNTIL_REBOOT);
+MoveFileEx(szSrcFile, NULL, MOVEFILE_DELAY_UNTIL_REBOOT);
 MoveFileEx(szSrcFile, szDstFile, MOVEFILE_DELAY_UNTIL_REBOOT);
 
 ```

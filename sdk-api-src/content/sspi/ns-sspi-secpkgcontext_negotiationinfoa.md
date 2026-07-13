@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_NegotiationInfoA
 title: SecPkgContext_NegotiationInfoA (sspi.h)
-description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
+description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package. (ANSI)
 helpviewer_keywords: ["*PSecPkgContext_NegotiationInfoA","PSecPkgContext_NegotiationInfo","PSecPkgContext_NegotiationInfo structure pointer [Security]","SECPKG_NEGOTIATION_COMPLETE","SECPKG_NEGOTIATION_IN_PROGRESS","SECPKG_NEGOTIATION_OPTIMISTIC","SecPkgContext_NegotiationInfo","SecPkgContext_NegotiationInfo structure [Security]","SecPkgContext_NegotiationInfoA","SecPkgContext_NegotiationInfoW","_ssp_secpkgcontext_negotiationinfo","security.secpkgcontext_negotiationinfo","sspi/PSecPkgContext_NegotiationInfo","sspi/SecPkgContext_NegotiationInfo","sspi/SecPkgContext_NegotiationInfoA","sspi/SecPkgContext_NegotiationInfoW"]
 old-location: security\secpkgcontext_negotiationinfo.htm
 tech.root: security
@@ -111,4 +111,4 @@ Negotiations in progress.
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines SecPkgContext_NegotiationInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines SecPkgContext_NegotiationInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

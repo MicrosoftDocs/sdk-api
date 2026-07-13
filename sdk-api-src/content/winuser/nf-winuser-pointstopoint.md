@@ -6,7 +6,7 @@ helpviewer_keywords: ["POINTSTOPOINT","POINTSTOPOINT macro [Windows GDI]","_win3
 old-location: gdi\pointstopoint.htm
 tech.root: gdi
 ms.assetid: 921da8a5-cd8a-4851-b470-9b7bd10afaad
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: POINTSTOPOINT, POINTSTOPOINT macro [Windows GDI], _win32_POINTSTOPOINT, gdi.pointstopoint, winuser/POINTSTOPOINT
 req.header: winuser.h
 req.include-header: Windows.h
@@ -47,20 +47,29 @@ api_name:
 
 # POINTSTOPOINT macro
 
+## -syntax
+
+```cpp
+void POINTSTOPOINT(
+    POINT pt,
+    POINTS pts
+);
+```
+
 
 ## -description
 
-The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure into a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
+The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure into a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure.
 
 ## -parameters
 
 ### -param pt
 
-The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to receive the contents of the <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
+The <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure to receive the contents of the <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
 
 ### -param pts
 
-The <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure to copy.
+The <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure to copy.
 
 ## -see-also
 

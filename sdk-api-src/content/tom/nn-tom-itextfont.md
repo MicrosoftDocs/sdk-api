@@ -1,7 +1,7 @@
 ---
 UID: NN:tom.ITextFont
 title: ITextFont (tom.h)
-description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara.
+description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara. (ITextFont)
 helpviewer_keywords: ["ITextFont","ITextFont interface [Windows Controls]","ITextFont interface [Windows Controls]","described","_win32_ITextFont","_win32_ITextFont_cpp","controls.ITextFont","controls._win32_ITextFont","tom/ITextFont"]
 old-location: controls\ITextFont.htm
 tech.root: Controls
@@ -54,10 +54,7 @@ Text Object Model (TOM) rich text-range attributes are accessed through a pair o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextFont</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextFont</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITextFont</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextFont</b> also has these types of members:
 
 ## -remarks
 

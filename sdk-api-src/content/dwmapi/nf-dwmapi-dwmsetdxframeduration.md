@@ -58,11 +58,11 @@ Sets the number of monitor refreshes through which to display the presented fram
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 The handle to the window that displays the presented frame.
 
-### -param cRefreshes
+### -param cRefreshes [in]
 
 The number of refreshes through which to display the presented frame.
 

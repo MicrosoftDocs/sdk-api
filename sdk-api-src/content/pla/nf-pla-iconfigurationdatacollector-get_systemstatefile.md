@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_SystemStateFile
 title: IConfigurationDataCollector::get_SystemStateFile (pla.h)
-description: Retrieves or sets the name of the file that contains the saved system state.
+description: Retrieves or sets the name of the file that contains the saved system state. (Get)
 helpviewer_keywords: ["IConfigurationDataCollector interface [PLA]","SystemStateFile property","IConfigurationDataCollector.SystemStateFile","IConfigurationDataCollector.get_SystemStateFile","IConfigurationDataCollector::SystemStateFile","IConfigurationDataCollector::get_SystemStateFile","IConfigurationDataCollector::put_SystemStateFile","SystemStateFile property [PLA]","SystemStateFile property [PLA]","IConfigurationDataCollector interface","get_SystemStateFile","pla.iconfigurationdatacollector_systemstatefile","pla/IConfigurationDataCollector::SystemStateFile","pla/IConfigurationDataCollector::get_SystemStateFile","pla/IConfigurationDataCollector::put_SystemStateFile"]
 old-location: pla\iconfigurationdatacollector_systemstatefile.htm
 tech.root: PLA

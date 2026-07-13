@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.AVIFileCreateStreamW
 title: AVIFileCreateStreamW function (vfw.h)
-description: The AVIFileCreateStream function creates a new stream in an existing file and creates an interface to the new stream.
-helpviewer_keywords: ["AVIFileCreateStream","AVIFileCreateStream function [Windows Multimedia]","AVIFileCreateStreamA","AVIFileCreateStreamW","_win32_AVIFileCreateStream","multimedia.avifilecreatestream","vfw/AVIFileCreateStream","vfw/AVIFileCreateStreamA","vfw/AVIFileCreateStreamW"]
+description: The AVIFileCreateStreamW (Unicode) function (vfw.h) creates a new stream in an existing file and creates an interface to the new stream.
+helpviewer_keywords: ["AVIFileCreateStream", "AVIFileCreateStream function [Windows Multimedia]", "AVIFileCreateStreamW", "_win32_AVIFileCreateStream", "multimedia.avifilecreatestream", "vfw/AVIFileCreateStream", "vfw/AVIFileCreateStreamW"]
 old-location: multimedia\avifilecreatestream.htm
 tech.root: Multimedia
 ms.assetid: bff87fbb-fcd8-4dd4-93d0-9cab39c30409
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: AVIFileCreateStream, AVIFileCreateStream function [Windows Multimedia], AVIFileCreateStreamA, AVIFileCreateStreamW, _win32_AVIFileCreateStream, multimedia.avifilecreatestream, vfw/AVIFileCreateStream, vfw/AVIFileCreateStreamA, vfw/AVIFileCreateStreamW
 req.header: vfw.h
 req.include-header: 
@@ -83,7 +83,7 @@ The argument <i>pfile</i> is a pointer to an <a href="/windows/desktop/api/vfw/n
 
 
 > [!NOTE]
-> The vfw.h header defines AVIFileCreateStream as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines AVIFileCreateStream as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextRenderer.DrawUnderline
 title: IDWriteTextRenderer::DrawUnderline (dwrite.h)
-description: IDWriteTextLayout::Draw calls this function to instruct the client to draw an underline.
+description: IDWriteTextLayout::Draw calls this function to instruct the client to draw an underline. (IDWriteTextRenderer.DrawUnderline)
 helpviewer_keywords: ["DrawUnderline","DrawUnderline method [Direct Write]","DrawUnderline method [Direct Write]","IDWriteTextRenderer interface","IDWriteTextRenderer interface [Direct Write]","DrawUnderline method","IDWriteTextRenderer.DrawUnderline","IDWriteTextRenderer::DrawUnderline","directwrite.IDWriteTextRenderer_DrawUnderline","dwrite/IDWriteTextRenderer::DrawUnderline"]
 old-location: directwrite\IDWriteTextRenderer_DrawUnderline.htm
 tech.root: DirectWrite
@@ -90,7 +90,7 @@ Type: <b>IUnknown*</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

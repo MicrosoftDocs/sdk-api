@@ -48,7 +48,7 @@ Concatenates a media sample onto another sample if their combined duration does 
 
 ### -param pSample
 
-A pointer to an [IMFSample](../mfobjects/nn-mfobjects-imfsample.md) to which the the sample provided in the *pSampleToAdd* parameter is appended.
+A pointer to an [IMFSample](../mfobjects/nn-mfobjects-imfsample.md) to which the sample provided in the *pSampleToAdd* parameter is appended.
 
 ### -param pSampleToAdd
 

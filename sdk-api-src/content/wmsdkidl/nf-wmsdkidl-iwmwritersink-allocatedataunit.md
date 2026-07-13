@@ -6,7 +6,7 @@ helpviewer_keywords: ["AllocateDataUnit","AllocateDataUnit method [windows Media
 old-location: wmformat\iwmwritersink_allocatedataunit.htm
 tech.root: wmformat
 ms.assetid: 56a16163-84e7-4235-8bf3-03e81696bb63
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AllocateDataUnit, AllocateDataUnit method [windows Media Format], AllocateDataUnit method [windows Media Format],IWMWriterSink interface, IWMWriterSink interface [windows Media Format],AllocateDataUnit method, IWMWriterSink.AllocateDataUnit, IWMWriterSink::AllocateDataUnit, IWMWriterSinkAllocateDataUnit, wmformat.iwmwritersink_allocatedataunit, wmsdkidl/IWMWriterSink::AllocateDataUnit
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -53,6 +53,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>AllocateDataUnit</b> method is called by the writer object when it needs a buffer to deliver a data unit. Your implementation of this method returns a buffer of at least the size passed in. You can manage buffers internally in any way that you like. The simplest method is to create a new buffer object for each call, but doing so is quite inefficient. Instead, most sinks maintain several buffers that are reused.
 
 ## -parameters
@@ -63,7 +65,7 @@ Size of the data unit that the writer needs to deliver, in bytes. The buffer you
 
 ### -param ppDataUnit [out]
 
-On return, set to a pointer to the <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of a buffer object.
+On return, set to a pointer to the <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of a buffer object.
 
 ## -returns
 

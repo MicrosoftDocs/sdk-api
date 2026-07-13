@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_BlockAllInboundTraffic
 title: INetFwPolicy2::put_BlockAllInboundTraffic (netfw.h)
-description: Indicates whether the firewall should not allow inbound traffic.
+description: Indicates whether the firewall should not allow inbound traffic. (Put)
 helpviewer_keywords: ["BlockAllInboundTraffic property [ICS/ICF]","BlockAllInboundTraffic property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","BlockAllInboundTraffic property","INetFwPolicy2.BlockAllInboundTraffic","INetFwPolicy2.put_BlockAllInboundTraffic","INetFwPolicy2::BlockAllInboundTraffic","INetFwPolicy2::get_BlockAllInboundTraffic","INetFwPolicy2::put_BlockAllInboundTraffic","ics.inetfwpolicy2_exceptionsnotallowed","netfw/INetFwPolicy2::BlockAllInboundTraffic","netfw/INetFwPolicy2::get_BlockAllInboundTraffic","netfw/INetFwPolicy2::put_BlockAllInboundTraffic","put_BlockAllInboundTraffic"]
 old-location: ics\inetfwpolicy2_exceptionsnotallowed.htm
 tech.root: ics

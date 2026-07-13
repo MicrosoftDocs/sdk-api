@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetSymNext
 title: SymGetSymNext function (dbghelp.h)
-description: Retrieves the symbol information for the next symbol.
+description: Retrieves the symbol information for the next symbol. (SymGetSymNext)
 helpviewer_keywords: ["SymGetSymNext","SymGetSymNext function","SymGetSymNext64","SymGetSymNext64 function","_win32_symgetsymnext64","base.symgetsymnext64","dbghelp/SymGetSymNext","dbghelp/SymGetSymNext64"]
 old-location: base\symgetsymnext64.htm
 tech.root: Debug

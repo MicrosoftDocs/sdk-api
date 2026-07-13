@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetToday","MonthCal_GetToday macro [Windows Cont
 old-location: controls\MonthCal_GetToday.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_gettoday.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetToday, MonthCal_GetToday macro [Windows Controls], _win32_MonthCal_GetToday, _win32_MonthCal_GetToday_cpp, commctrl/MonthCal_GetToday, controls.MonthCal_GetToday, controls._win32_MonthCal_GetToday
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_GetToday macro
+
+## -syntax
+
+```cpp
+BOOL MonthCal_GetToday(
+   HWND         hmc,
+   LPSYSTEMTIME pst
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

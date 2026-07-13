@@ -54,10 +54,7 @@ This interface is derived from <a href="/windows/desktop/api/objidl/nn-objidl-ia
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdviseSinkEx</b> interface inherits from <b>IAdviseSink</b>. <b>IAdviseSinkEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAdviseSinkEx</b> interface inherits from <b>IAdviseSink</b>. <b>IAdviseSinkEx</b> also has these types of members:
 
 ## -see-also
 

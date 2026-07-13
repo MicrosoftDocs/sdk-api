@@ -54,7 +54,7 @@ api_name:
 
 Checks whether the user has opted in for SQM data collection as part of the Customer Experience Improvement Program (CEIP).
 
-## -parameters
+
 
 ## -returns
 

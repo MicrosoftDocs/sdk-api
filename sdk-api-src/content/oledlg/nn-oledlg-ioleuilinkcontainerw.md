@@ -1,7 +1,7 @@
 ---
 UID: NN:oledlg.IOleUILinkContainerW
 title: IOleUILinkContainerW (oledlg.h)
-description: Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links.
+description: Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links. (Unicode)
 helpviewer_keywords: ["IOleUILinkContainer","IOleUILinkContainer interface [COM]","IOleUILinkContainer interface [COM]","described","IOleUILinkContainerA","IOleUILinkContainerW","_ole_IOleUILinkContainer","com.ioleuilinkcontainer","oledlg/IOleUILinkContainer"]
 old-location: com\ioleuilinkcontainer.htm
 tech.root: com
@@ -57,10 +57,7 @@ The <b>IOleUILinkContainer</b> methods enumerate the links associated with a con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUILinkContainer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUILinkContainer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOleUILinkContainer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUILinkContainer</b> also has these types of members:
 
 ## -see-also
 
@@ -85,4 +82,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUILinkContainer</b> inter
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines IOleUILinkContainer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines IOleUILinkContainer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

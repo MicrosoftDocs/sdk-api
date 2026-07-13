@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-core-win32k-base-export-l1-1-0.dll
  - Win32k.sys
 api_name:
  - EngGetLastError
@@ -52,7 +53,7 @@ api_name:
 
 The <b>EngGetLastError</b> function returns the last error code logged by GDI for the calling thread.
 
-## -parameters
+
 
 ## -returns
 

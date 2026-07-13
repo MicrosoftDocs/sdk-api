@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiConfigureFeatureW
 title: MsiConfigureFeatureW function (msi.h)
-description: The MsiConfigureFeature function configures the installed state for a product feature.
-helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_ADVERTISED","INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiConfigureFeature","MsiConfigureFeature function","MsiConfigureFeatureA","MsiConfigureFeatureW","_msi_msiconfigurefeature","msi/MsiConfigureFeature","msi/MsiConfigureFeatureA","msi/MsiConfigureFeatureW","setup.msiconfigurefeature"]
+description: The MsiConfigureFeature function configures the installed state for a product feature. (Unicode)
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_ADVERTISED", "INSTALLSTATE_DEFAULT", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MsiConfigureFeature", "MsiConfigureFeature function", "MsiConfigureFeatureW", "_msi_msiconfigurefeature", "msi/MsiConfigureFeature", "msi/MsiConfigureFeatureW", "setup.msiconfigurefeature"]
 old-location: setup\msiconfigurefeature.htm
 tech.root: setup
 ms.assetid: 067d6fbb-833f-4e0e-bfdb-18d1b8608f58
@@ -205,4 +205,4 @@ An error that relates to the initialization has occurred.
 ## -remarks
 
 > [!NOTE]
-> The msi.h header defines MsiConfigureFeature as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiConfigureFeature as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

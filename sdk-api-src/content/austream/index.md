@@ -4,7 +4,8 @@ title: Austream.h header
 ms.assetid: 3fefa0e7-26b1-3fad-a71b-13aaab6c12e2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: dshow
 archived: true
 f1_keywords:

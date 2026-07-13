@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiDatabaseOpenViewA
 title: MsiDatabaseOpenViewA function (msiquery.h)
-description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle.
-helpviewer_keywords: ["MsiDatabaseOpenView","MsiDatabaseOpenView function","MsiDatabaseOpenViewA","MsiDatabaseOpenViewW","_msi_msidatabaseopenview","msiquery/MsiDatabaseOpenView","msiquery/MsiDatabaseOpenViewA","msiquery/MsiDatabaseOpenViewW","setup.msidatabaseopenview"]
+description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle. (ANSI)
+helpviewer_keywords: ["MsiDatabaseOpenViewA", "msiquery/MsiDatabaseOpenViewA"]
 old-location: setup\msidatabaseopenview.htm
 tech.root: setup
 ms.assetid: 1ef23f9a-7d79-4d07-9349-8e9c132f1b94
@@ -75,7 +75,11 @@ Pointer to a handle for the returned view.
 ## -returns
 
 The 
-<b>MsiDatabaseOpenView</b> function  returns one of the following values:
+<b>MsiDatabaseOpenView</b> function returns one of the following values:
+
+ERROR_SUCCESS if successful, and the view handle which the phView [out] parameter points to is set.
+
+ERROR_INVALID_HANDLE, ERROR_INVALID_HANDLE_STATE, ERROR_BAD_QUERY_SYNTAX or ERROR_GEN_FAILURE if failure, and sets the error record, accessible via MsiGetLastErrorRecord.
 
 ## -remarks
 
@@ -95,7 +99,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiDatabaseOpenView as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiDatabaseOpenView as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

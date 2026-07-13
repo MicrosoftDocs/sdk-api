@@ -4,7 +4,8 @@ title: D3Dcommon.h header
 ms.assetid: 74c800d7-df10-3e74-b39e-d36d7acd05ef
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: direct3d11
 f1_keywords:
  - d3dcommon

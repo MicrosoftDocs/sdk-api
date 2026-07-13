@@ -6,7 +6,7 @@ helpviewer_keywords: ["5c483500-c58f-4fd0-903a-a3011727bab8","GetLatticePtr","Ge
 old-location: tablet\getlatticeptr.htm
 tech.root: tablet
 ms.assetid: 5c483500-c58f-4fd0-903a-a3011727bab8
-ms.date: 12/05/2018
+ms.date: 11/06/2024
 ms.keywords: 5c483500-c58f-4fd0-903a-a3011727bab8, GetLatticePtr, GetLatticePtr function [Tablet PC], recapis/GetLatticePtr, tablet.getlatticeptr
 req.header: recapis.h
 req.include-header: 
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: inkobjcore.lib
+req.dll: inkobjcore.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -38,9 +38,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport 
 api_location:
  - recapis.h
+ - inkobjcore.dll
+ - mshwgst.dll
 api_name:
  - GetLatticePtr
 ---

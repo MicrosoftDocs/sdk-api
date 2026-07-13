@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportIScsiInitiatorListA
 title: ReportIScsiInitiatorListA function (iscsidsc.h)
-description: ReportIscsiInitiatorList function retrieves the list of initiator Host Bus Adapters that are running on the machine.
-helpviewer_keywords: ["ReportIScsiInitiatorListA","ReportIscsiInitiatorList","ReportIscsiInitiatorList function [iSCSI Discovery Library API]","ReportIscsiInitiatorListA","ReportIscsiInitiatorListW","iscsidisc.reportiscsiinitiatorlist","iscsidsc/ReportIscsiInitiatorList","iscsidsc/ReportIscsiInitiatorListA","iscsidsc/ReportIscsiInitiatorListW"]
+description: ReportIscsiInitiatorList function retrieves the list of initiator Host Bus Adapters that are running on the machine. (ANSI)
+helpviewer_keywords: ["ReportIScsiInitiatorListA", "ReportIscsiInitiatorListA", "iscsidsc/ReportIscsiInitiatorListA"]
 old-location: iscsidisc\reportiscsiinitiatorlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 7039fab5-ac76-4420-994b-b8c18196b022
@@ -74,5 +74,5 @@ A buffer that, on output, is filled with the list of initiator names. Each initi
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ReportIScsiInitiatorList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ReportIScsiInitiatorList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

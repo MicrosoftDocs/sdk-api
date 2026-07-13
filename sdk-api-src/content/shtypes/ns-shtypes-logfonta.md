@@ -1,12 +1,12 @@
 ---
 UID: NS:shtypes.tagLOGFONTA
 title: LOGFONTA (shtypes.h)
-description: Defines the attributes of a font.
+description: The LOGFONTA (ANSI) structure defines the attributes of a font. (LOGFONTA structure)
 helpviewer_keywords: ["LOGFONT","LOGFONT structure [Windows Shell]","LOGFONTA","LOGFONTW","_shell_LOGFONT","_shell_LOGFONT_cpp","dimm/LOGFONT","dimm/LOGFONTA","dimm/LOGFONTW","shell.LOGFONT"]
 old-location: shell\LOGFONT.htm
 tech.root: shell
 ms.assetid: 759c54d9-5b8f-4b48-8380-79e7bcae5bdb
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: LOGFONT, LOGFONT structure [Windows Shell], LOGFONTA, LOGFONTW, _shell_LOGFONT, _shell_LOGFONT_cpp, dimm/LOGFONT, dimm/LOGFONTA, dimm/LOGFONTW, shell.LOGFONT
 req.header: shtypes.h
 req.include-header: Shtypes.h, Dimm.h
@@ -226,82 +226,27 @@ Type: <b>BYTE</b>
 
 Specifies the character set. The following values are predefined:
 
-<table class="clsStd">
-<tr>
-<td>ANSI_CHARSET</td>
-<td>BALTIC_CHARSET</td>
-</tr>
-<tr>
-<td>CHINESEBIG5_CHARSET</td>
-<td>DEFAULT_CHARSET</td>
-</tr>
-<tr>
-<td>EASTEUROPE_CHARSET</td>
-<td>GB2312_CHARSET</td>
-</tr>
-<tr>
-<td>GREEK_CHARSET</td>
-<td>HANGUL_CHARSET</td>
-</tr>
-<tr>
-<td>MAC_CHARSET</td>
-<td>OEM_CHARSET</td>
-</tr>
-<tr>
-<td>RUSSIAN_CHARSET</td>
-<td>SHIFTJIS_CHARSET</td>
-</tr>
-<tr>
-<td>SYMBOL_CHARSET</td>
-<td>TURKISH_CHARSET</td>
-</tr>
-</table>
- 
-
-
-
-<table class="clsStd">
-<tr>
-<th>Korean Windows</th>
-</tr>
-<tr>
-<td>JOHAB_CHARSET</td>
-</tr>
-</table>
- 
-
-
-
-<table class="clsStd">
-<tr>
-<th>Middle-Eastern Windows</th>
-</tr>
-<tr>
-<td>HEBREW_CHARSET</td>
-</tr>
-<tr>
-<td>ARABIC_CHARSET</td>
-</tr>
-</table>
- 
-
-
-
-<table class="clsStd">
-<tr>
-<th>Thai Windows</th>
-</tr>
-<tr>
-<td>THAI_CHARSET</td>
-</tr>
-</table>
- 
-
-
-
-The OEM_CHARSET value specifies a character set that is operating-system dependent.
-
-DEFAULT_CHARSET is set to a value based on the current system locale. For example, when the system locale is English (United States), the value is ANSI_CHARSET.
+| Value | Description |
+|--|--|
+| **ANSI_CHARSET** | This font supports the Windows ANSI character set. |
+| **ARABIC_CHARSET** | This font supports the Arabic character set. |
+| **BALTIC_CHARSET** | This font supports the Baltic character set. |
+| **CHINESEBIG5_CHARSET** | This font supports the traditional Chinese (Big 5) character set. |
+| **DEFAULT_CHARSET** | This font supports character set value based on the system default Windows ANSI code page. For example, when the system locale is English (United States), it is set as ANSI_CHARSET. |
+| **EASTEUROPE_CHARSET** | This font supports the Eastern European character set. |
+| **GB2312_CHARSET** | This font supports the simplified (PRC) Chinese character set. |
+| **GREEK_CHARSET** | This font supports the Greek character set. |
+| **HANGEUL_CHARSET** | This font supports the Korean (Hangul) character set. |
+| **HEBREW_CHARSET** | This font supports the Hebrew character set. |
+| **JOHAB_CHARSET** | This font supports the Korean (Johab) character set. |
+| **MAC_CHARSET** | This font supports character set value based on the current system Macintosh code page. This value is used primarily in legacy code and should not generally be needed since modern Macintosh computers use Unicode for encoding. |
+| **OEM_CHARSET** | This font supports an OEM-specific character set. The OEM character set is system dependent. |
+| **RUSSIAN_CHARSET** | This font supports the Cyrillic character set. |
+| **SHIFTJIS_CHARSET** | This font supports the Shift-JIS (Japanese Industry Standard) character set. |
+| **SYMBOL_CHARSET** | This font supports the Windows symbol character set. |
+| **THAI_CHARSET** | This font supports the Thai character set. |
+| **TURKISH_CHARSET** | This font supports the Turkish character set. |
+| **VIETNAMESE_CHARSET** | This font supports the Vietnamese character set. |
 
 Fonts with other character sets may exist in the operating system. If an application uses a font with an unknown character set, it should not attempt to translate or interpret strings that are rendered with that font.
 
@@ -375,7 +320,7 @@ Specifies the output quality. The output quality defines how carefully the GDI m
 <tr>
 <td>NONANTIALIASED_QUALITY</td>
 <td>Forces use of draft quality when the 
-                                <b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>GDI</b>&#92;<b>Fontsmoothing</b>registry subkey is present.</td>
+                                <b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>GDI</b>&#92;<b>Fontsmoothing</b> registry subkey is present.</td>
 </tr>
 <tr>
 <td>CLEARTYPE_COMPAT_QUALITY</td>

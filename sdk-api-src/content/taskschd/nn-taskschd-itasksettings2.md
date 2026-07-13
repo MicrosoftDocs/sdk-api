@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.ITaskSettings2
 title: ITaskSettings2 (taskschd.h)
-description: Provides the extended settings that the Task Scheduler uses to run the task.
+description: Provides the extended settings that the Task Scheduler uses to run the task. (ITaskSettings2)
 helpviewer_keywords: ["ITaskSettings2","ITaskSettings2 interface [Task Scheduler]","ITaskSettings2 interface [Task Scheduler]","described","taskschd.itasksettings2","taskschd/ITaskSettings2"]
 old-location: taskschd\itasksettings2.htm
 tech.root: taskschd

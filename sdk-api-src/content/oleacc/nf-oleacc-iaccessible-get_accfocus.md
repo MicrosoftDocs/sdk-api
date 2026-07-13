@@ -127,7 +127,7 @@ If not successful, returns one of the values in the table that follows, or anoth
 </dl>
 </td>
 <td width="60%">
-The object is a window but not not the foreground window.
+The object is a window but not the foreground window.
 
 </td>
 </tr>

@@ -54,15 +54,15 @@ Specifies values that identify the execution IDs that map to actions a user can 
 
 ## -enum-fields
 
-### -field UI_EXECUTIONVERB_EXECUTE
+### -field UI_EXECUTIONVERB_EXECUTE:0
 
 Execute a command.
 
-### -field UI_EXECUTIONVERB_PREVIEW
+### -field UI_EXECUTIONVERB_PREVIEW:1
 
 Show a preview of a visual element.
 
-### -field UI_EXECUTIONVERB_CANCELPREVIEW
+### -field UI_EXECUTIONVERB_CANCELPREVIEW:2
 
 Cancel a preview of a visual element.
 

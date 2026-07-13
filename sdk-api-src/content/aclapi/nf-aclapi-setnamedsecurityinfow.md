@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.SetNamedSecurityInfoW
 title: SetNamedSecurityInfoW function (aclapi.h)
-description: Sets specified security information in the security descriptor of a specified object.
-helpviewer_keywords: ["SetNamedSecurityInfo","SetNamedSecurityInfo function [Security]","SetNamedSecurityInfoA","SetNamedSecurityInfoW","_win32_setnamedsecurityinfo","aclapi/SetNamedSecurityInfo","aclapi/SetNamedSecurityInfoA","aclapi/SetNamedSecurityInfoW","security.setnamedsecurityinfo"]
+description: Sets specified security information in the security descriptor of a specified object. (Unicode)
+helpviewer_keywords: ["SetNamedSecurityInfo", "SetNamedSecurityInfo function [Security]", "SetNamedSecurityInfoW", "_win32_setnamedsecurityinfo", "aclapi/SetNamedSecurityInfo", "aclapi/SetNamedSecurityInfoW", "security.setnamedsecurityinfo"]
 old-location: security\setnamedsecurityinfo.htm
 tech.root: security
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6
@@ -140,7 +140,7 @@ For an example that uses this function, see <a href="/windows/desktop/SecAuthZ/m
 
 
 > [!NOTE]
-> The aclapi.h header defines SetNamedSecurityInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The aclapi.h header defines SetNamedSecurityInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

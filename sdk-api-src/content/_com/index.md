@@ -1,10 +1,12 @@
 ---
 UID: TP:com
 title: Component Object Model (COM)
+description: Overview of the Component Object Model (COM) technology.
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Component Object Model (COM)
@@ -37,6 +39,7 @@ To develop Component Object Model (COM), you need these headers:
  * [oleidl.h](../oleidl/index.md)
  * [roapi.h](../roapi/index.md)
  * [rpcdce.h](../rpcdce/index.md)
+ * [servprov.h](../servprov/index.md)
  * [shobjidl.h](../shobjidl/index.md)
  * [txlogpub.h](../txlogpub/index.md)
  * [unknwn.h](../unknwn/index.md)

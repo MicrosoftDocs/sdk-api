@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.get_BizRuleImportedPath
 title: IAzApplicationGroup2::get_BizRuleImportedPath (azroles.h)
-description: Gets or sets the path of the file that contains the business rule script associated with this application group.
+description: Gets or sets the path of the file that contains the business rule script associated with this application group. (Get)
 helpviewer_keywords: ["BizRuleImportedPath property [Security]","BizRuleImportedPath property [Security]","IAzApplicationGroup2 interface","IAzApplicationGroup2 interface [Security]","BizRuleImportedPath property","IAzApplicationGroup2.BizRuleImportedPath","IAzApplicationGroup2.get_BizRuleImportedPath","IAzApplicationGroup2::BizRuleImportedPath","IAzApplicationGroup2::get_BizRuleImportedPath","IAzApplicationGroup2::put_BizRuleImportedPath","azroles/IAzApplicationGroup2::BizRuleImportedPath","azroles/IAzApplicationGroup2::get_BizRuleImportedPath","azroles/IAzApplicationGroup2::put_BizRuleImportedPath","get_BizRuleImportedPath","security.iazapplicationgroup2_bizruleimportedpath_method"]
 old-location: security\iazapplicationgroup2_bizruleimportedpath_method.htm
 tech.root: security

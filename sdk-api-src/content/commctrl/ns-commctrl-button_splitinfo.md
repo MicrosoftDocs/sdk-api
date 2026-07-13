@@ -172,9 +172,9 @@ Stretch glyph, but try to retain aspect ratio.
 
 ### -field size
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a></b>
 
-A <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>.
+A <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>.
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateDialogIndirectParamW
 title: CreateDialogIndirectParamW function (winuser.h)
-description: Creates a modeless dialog box from a dialog box template in memory.
-helpviewer_keywords: ["CreateDialogIndirectParam","CreateDialogIndirectParam function [Dialog Boxes]","CreateDialogIndirectParamA","CreateDialogIndirectParamW","_win32_CreateDialogIndirectParam","_win32_createdialogindirectparam_cpp","dlgbox.createdialogindirectparam","winui._win32_createdialogindirectparam","winuser/CreateDialogIndirectParam","winuser/CreateDialogIndirectParamA","winuser/CreateDialogIndirectParamW"]
+description: Creates a modeless dialog box from a dialog box template in memory. (Unicode)
+helpviewer_keywords: ["CreateDialogIndirectParam", "CreateDialogIndirectParam function [Dialog Boxes]", "CreateDialogIndirectParamW", "_win32_CreateDialogIndirectParam", "_win32_createdialogindirectparam_cpp", "dlgbox.createdialogindirectparam", "winui._win32_createdialogindirectparam", "winuser/CreateDialogIndirectParam", "winuser/CreateDialogIndirectParamW"]
 old-location: dlgbox\createdialogindirectparam.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirectparam.htm
@@ -122,7 +122,7 @@ All character strings in the dialog box template, such as titles for the dialog 
 
 
 > [!NOTE]
-> The winuser.h header defines CreateDialogIndirectParam as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CreateDialogIndirectParam as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

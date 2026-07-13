@@ -54,10 +54,7 @@ Extends <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskbarList4</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>. <b>ITaskbarList4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITaskbarList4</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>. <b>ITaskbarList4</b> also has these types of members:
 
 ## -remarks
 

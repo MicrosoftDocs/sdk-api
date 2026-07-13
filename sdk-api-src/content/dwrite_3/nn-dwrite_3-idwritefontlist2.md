@@ -4,7 +4,7 @@ title: IDWriteFontList2
 description: Represents a list of fonts. **IDWriteFontList2** adds new facilities, including retrieving the underlying font set used by the list.
 helpviewer_keywords: ["IDWriteFontList2","IDWriteFontList2 interface [Direct Write]","IDWriteFontList2 interface [Direct Write]","described","directwrite.idwritefontlist2","dwrite_3/IDWriteFontList2"]
 tech.root: DirectWrite
-ms.date: 09/13/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontList2, IDWriteFontList2 interface [Direct Write], IDWriteFontList2 interface [Direct Write],described, directwrite.idwritefontlist2, dwrite_3/IDWriteFontList2
 targetos: Windows
 req.assembly: 
@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:

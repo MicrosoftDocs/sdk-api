@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_SYNC_ROOT_BASIC_INFO","CF_SYNC_ROOT_BASIC_INFO structu
 old-location: cloudapi\cf_sync_root_basic_info.htm
 tech.root: cloudapi
 ms.assetid: 7499D9DD-BAF6-449A-A34E-CEAE3EE10543
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_SYNC_ROOT_BASIC_INFO, CF_SYNC_ROOT_BASIC_INFO structure, cfapi/CF_SYNC_ROOT_BASIC_INFO, cloudApi.cf_sync_root_basic_info
 req.header: cfapi.h
 req.include-header: 
@@ -47,10 +47,9 @@ api_name:
 
 # CF_SYNC_ROOT_BASIC_INFO structure
 
-
 ## -description
 
-Basic sync root information.
+Provides basic sync root information.
 
 ## -struct-fields
 
@@ -58,3 +57,6 @@ Basic sync root information.
 
 The file ID of the sync root.
 
+## -see-also
+
+[CfGetSyncRootInfoByPath](nf-cfapi-cfgetsyncrootinfobypath.md)

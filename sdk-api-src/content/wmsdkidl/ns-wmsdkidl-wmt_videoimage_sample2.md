@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_VIDEOIMAGE_SAMPLE2","WMT_VIDEOIMAGE_SAMPLE2 structure
 old-location: wmformat\wmt_videoimage_sample2.htm
 tech.root: wmformat
 ms.assetid: 0c4fa9e2-9b7b-4c9e-be58-e28da408337d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE2, WMT_VIDEOIMAGE_SAMPLE2 structure [windows Media Format], wmformat.wmt_videoimage_sample2, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMT_VIDEOIMAGE_SAMPLE2</b> structure describes a sample for a Video Image stream. This structure must be used, either alone or with an accompanying image, in each sample passed to the writer for a Video Image stream. For more information, see <a href="/windows/desktop/wmformat/writing-video-image-samples">Writing Video Image Samples</a>.
 

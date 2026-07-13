@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetToolTips","ListView_SetToolTips macro [Window
 old-location: controls\ListView_SetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settooltips.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetToolTips, ListView_SetToolTips macro [Windows Controls], _win32_ListView_SetToolTips, _win32_ListView_SetToolTips_cpp, commctrl/ListView_SetToolTips, controls.ListView_SetToolTips, controls._win32_ListView_SetToolTips
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetToolTips macro
+
+## -syntax
+
+```cpp
+HWND ListView_SetToolTips(
+   HWND hwndLV,
+   HWND hwndNewHwnd
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the previous tooltip control.
 
 
 ## -description

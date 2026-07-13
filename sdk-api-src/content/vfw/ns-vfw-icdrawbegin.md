@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_7
+UID: NS:vfw.ICDRAWBEGIN
 title: ICDRAWBEGIN (vfw.h)
 description: The ICDRAWBEGIN structure contains decompression parameters used with the ICM_DRAW_BEGIN message.
 helpviewer_keywords: ["ICDRAWBEGIN","ICDRAWBEGIN structure [Windows Multimedia]","ICDRAW_ANIMATE","ICDRAW_BUFFER","ICDRAW_CONTINUE","ICDRAW_FULLSCREEN","ICDRAW_HDC","ICDRAW_MEMORYDC","ICDRAW_QUERY","ICDRAW_RENDER","ICDRAW_UPDATING","multimedia.icdrawbegin_COLLISION9","multimedia.icdrawbegin_struct","vfw/ICDRAWBEGIN"]
@@ -231,3 +231,4 @@ Value used to scale <b>dwRate</b> to frames per second.
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

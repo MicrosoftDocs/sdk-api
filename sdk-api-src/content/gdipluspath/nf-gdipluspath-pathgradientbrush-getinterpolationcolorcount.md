@@ -53,7 +53,7 @@ api_name:
 
 The <b>PathGradientBrush::GetInterpolationColorCount</b> method gets the number of preset colors currently specified for this path gradient brush.
 
-## -parameters
+
 
 ## -returns
 
@@ -66,9 +66,9 @@ This method returns the number of preset colors currently specified for this pat
 A simple path gradient brush has two colors: a boundary color and a center color. When you paint with such a brush, the color changes gradually from the boundary color to the center color as you move from the boundary path to the center point. You can create a more complex gradient by specifying an array of preset colors and an array of blend positions.
 
 You can obtain the interpolation colors and interpolation positions currently set for a 
-				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object by calling the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a> method of that 
-				<b>PathGradientBrush</b>object. Before you call the <b>PathGradientBrush::GetInterpolationColors</b> method, you must allocate two buffers: one to hold the array of interpolation colors and one to hold the array of interpolation positions. You can call the <b>PathGradientBrush::GetInterpolationColorCount</b> method of the 
-				<b>PathGradientBrush</b>object to determine the required size of those buffers. The size of the color buffer is the return value of <b>GetInterpolationColorCount</b> multiplied by 
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object by calling the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a> method of that 
+				<b>PathGradientBrush</b> object. Before you call the <b>PathGradientBrush::GetInterpolationColors</b> method, you must allocate two buffers: one to hold the array of interpolation colors and one to hold the array of interpolation positions. You can call the <b>PathGradientBrush::GetInterpolationColorCount</b> method of the 
+				<b>PathGradientBrush</b> object to determine the required size of those buffers. The size of the color buffer is the return value of <b>GetInterpolationColorCount</b> multiplied by 
 				<b>sizeof</b>(<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>). The size of the position buffer is the value of <b>PathGradientBrush::GetInterpolationColorCount</b> multiplied by 
 				<b>sizeof</b>(
 				<b>REAL</b>).
@@ -79,9 +79,9 @@ You can obtain the interpolation colors and interpolation positions currently se
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object from a triangular path. The code sets the preset colors to red, blue, and aqua and sets the blend positions to 0, 0.6, and 1. The code calls the <b>PathGradientBrush::GetInterpolationColorCount</b> method of the 
-						<b>PathGradientBrush</b>object to obtain the number of preset colors currently set for the brush. Next, the code allocates two buffers: one to hold the array of preset colors, and one to hold the array of blend positions. The call to the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a> method of the 
-						<b>PathGradientBrush</b>object fills the buffers with the preset colors and the blend positions. Finally the code fills a small square with each of the preset colors.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object from a triangular path. The code sets the preset colors to red, blue, and aqua and sets the blend positions to 0, 0.6, and 1. The code calls the <b>PathGradientBrush::GetInterpolationColorCount</b> method of the 
+						<b>PathGradientBrush</b> object to obtain the number of preset colors currently set for the brush. Next, the code allocates two buffers: one to hold the array of preset colors, and one to hold the array of blend positions. The call to the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a> method of the 
+						<b>PathGradientBrush</b> object fills the buffers with the preset colors and the blend positions. Finally the code fills a small square with each of the preset colors.
 
 
 ```cpp

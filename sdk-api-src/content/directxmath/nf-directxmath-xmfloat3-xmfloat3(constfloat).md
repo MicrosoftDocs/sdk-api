@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMFLOAT3.XMFLOAT3(constfloat)
 title: XMFLOAT3::XMFLOAT3(const float) (directxmath.h)
-description: A constructor for XMFLOAT3.
+description: A constructor for XMFLOAT3. (overload 2/3)
 helpviewer_keywords: ["XMFLOAT3","XMFLOAT3 constructor [DirectX Math Support APIs]","XMFLOAT3 constructor [DirectX Math Support APIs]","XMFLOAT3 structure","XMFLOAT3 structure [DirectX Math Support APIs]","XMFLOAT3 constructor","XMFLOAT3.XMFLOAT3","XMFLOAT3.XMFLOAT3()","XMFLOAT3.XMFLOAT3(const float)","XMFLOAT3::XMFLOAT3","XMFLOAT3::XMFLOAT3(const float)","dxmath.xmfloat3_ctor_1"]
 old-location: dxmath\xmfloat3_ctor_1.htm
 tech.root: dxmath

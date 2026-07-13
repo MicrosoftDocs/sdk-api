@@ -1,7 +1,7 @@
 ---
 UID: NC:msacm.ACMFILTERTAGENUMCBA
 title: ACMFILTERTAGENUMCBA (msacm.h)
-description: The acmFilterTagEnumCallback function specifies a callback function used with the acmFilterTagEnum function. The acmFilterTagEnumCallback function name is a placeholder for an application-defined function name.
+description: The acmFilterTagEnumCallback function specifies a callback function used with the acmFilterTagEnum function. The acmFilterTagEnumCallback function name is a placeholder for an application-defined function name. (ACMFILTERTAGENUMCBA)
 helpviewer_keywords: ["ACMFILTERTAGENUMCB","ACMFILTERTAGENUMCB callback","ACMFILTERTAGENUMCBA","ACMFILTERTAGENUMCBW","_win32_acmFilterTagEnumCallback","acmFilterTagEnumCallback","acmFilterTagEnumCallback callback function [Windows Multimedia]","msacm/ACMFILTERTAGENUMCBA","msacm/ACMFILTERTAGENUMCBW","msacm/acmFilterTagEnumCallback","multimedia.acmfiltertagenumcallback"]
 old-location: multimedia\acmfiltertagenumcallback.htm
 tech.root: Multimedia
@@ -116,7 +116,7 @@ The following functions should not be called from within the callback function: 
 
 
 > [!NOTE]
-> The msacm.h header defines ACMFILTERTAGENUMCB as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMFILTERTAGENUMCB as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

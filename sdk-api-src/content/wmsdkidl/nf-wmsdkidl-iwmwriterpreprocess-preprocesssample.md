@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMWriterPreprocess interface [windows Media Format]","Pr
 old-location: wmformat\iwmwriterpreprocess_preprocesssample.htm
 tech.root: wmformat
 ms.assetid: 95223ace-0c74-48d8-b49a-98b27c7b735f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMWriterPreprocess interface [windows Media Format],PreprocessSample method, IWMWriterPreprocess.PreprocessSample, IWMWriterPreprocess::PreprocessSample, IWMWriterPreprocessPreprocessSample, PreprocessSample, PreprocessSample method [windows Media Format], PreprocessSample method [windows Media Format],IWMWriterPreprocess interface, wmformat.iwmwriterpreprocess_preprocesssample, wmsdkidl/IWMWriterPreprocess::PreprocessSample
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -53,6 +53,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>PreprocessSample</b> method delivers a sample to the writer for preprocessing.
 
 ## -parameters
@@ -71,7 +73,7 @@ Reserved. Set to zero.
 
 ### -param pSample [in]
 
-Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object that contains the sample.
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object that contains the sample.
 
 ## -returns
 

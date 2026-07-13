@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_1
+UID: NS:lpmapi.Session_IPv4
 title: Session_IPv4 (lpmapi.h)
 description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.
 helpviewer_keywords: ["Session_IPv4","Session_IPv4 structure [QOS]","lpmapi/Session_IPv4","qos.session_ipv4"]
@@ -74,3 +74,4 @@ Destination IP address for the session.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+

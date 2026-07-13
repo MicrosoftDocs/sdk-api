@@ -6,13 +6,13 @@ helpviewer_keywords: ["TimerProc","TimerProc callback","TimerProc callback funct
 old-location: winmsg\timerproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\timerproc.htm
-ms.date: 12/05/2018
+ms.date: 09/30/2025
 ms.keywords: TimerProc, TimerProc callback, TimerProc callback function [Windows and Messages], _win32_TimerProc, _win32_timerproc_cpp, winmsg.timerproc, winui._win32_timerproc, winuser/TimerProc
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -47,58 +47,51 @@ api_name:
 
 # TIMERPROC callback function
 
-
 ## -description
 
-An application-defined callback function that processes <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages. The 
-			<b>TIMERPROC</b> type defines a pointer to this callback function. <i>TimerProc</i> is a placeholder for the application-defined function name.
+An application-defined callback function that processes [WM_TIMER](/windows/desktop/winmsg/wm-timer) messages. The **TIMERPROC** type defines a pointer to this callback function. _TimerProc_ is a placeholder for the application-defined function name.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-Type: <b>HWND</b>
+Type: **HWND**
 
-A handle to the window associated with the timer.
+A handle to the window associated with the timer. This parameter is typically named _hWnd_.
 
 ### -param unnamedParam2
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-The <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message.
+The [WM_TIMER](/windows/desktop/winmsg/wm-timer) message. This parameter is typically named _uMsg_.
 
 ### -param unnamedParam3
 
-Type: <b>UINT_PTR</b>
+Type: **UINT_PTR**
 
-The timer's identifier.
+The timer's identifier. This parameter is typically named _idEvent_.
 
 ### -param unnamedParam4
 
-Type: <b>DWORD</b>
+Type: **DWORD**
 
-The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function.
+The number of milliseconds that have elapsed since the system was started. This is the value returned by the [GetTickCount](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount) function. This parameter is typically named _dwTime_.
+
+## -remarks
+
+> [!NOTE]
+> The parameters are defined in the header with no names: `typedef VOID (CALLBACK* TIMERPROC)(HWND, UINT, UINT_PTR, DWORD);`. Therefore, the syntax block lists them as `unnamedParam1` - `unnamedParam4`. You can name these parameters anything in your app. However, they are usually named as shown in the parameter descriptions.
 
 ## -see-also
 
-<b>Conceptual</b>
+**Conceptual**
 
+[Timers](/windows/desktop/winmsg/timers)
 
+**Reference**
 
-<a href="/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a>
+[KillTimer](/windows/desktop/api/winuser/nf-winuser-killtimer)
 
+[SetTimer](/windows/desktop/api/winuser/nf-winuser-settimer)
 
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
-
-
-
-<a href="/windows/desktop/winmsg/timers">Timers</a>
-
-
-
-<a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
+[WM_TIMER](/windows/desktop/winmsg/wm-timer)

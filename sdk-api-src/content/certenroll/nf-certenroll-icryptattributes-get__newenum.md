@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get__NewEnum
 title: ICryptAttributes::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (ICryptAttributes.get__NewEnum)
 helpviewer_keywords: ["ICryptAttributes interface [Security]","_NewEnum property","ICryptAttributes._NewEnum","ICryptAttributes.get__NewEnum","ICryptAttributes::_NewEnum","ICryptAttributes::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ICryptAttributes interface","certenroll/ICryptAttributes::_NewEnum","certenroll/ICryptAttributes::get__NewEnum","get__NewEnum","security.icryptattributes__newenum_property"]
 old-location: security\icryptattributes__newenum_property.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d9.IDirect3D9ExOverlayExtension
 title: IDirect3D9ExOverlayExtension (d3d9.h)
-description: Queries the overlay hardware capabilities of a Direct3D device.
+description: Queries the overlay hardware capabilities of a Direct3D device. (IDirect3D9ExOverlayExtension)
 helpviewer_keywords: ["IDirect3D9ExOverlayExtension","IDirect3D9ExOverlayExtension interface [Media Foundation]","IDirect3D9ExOverlayExtension interface [Media Foundation]","described","d3d9/IDirect3D9ExOverlayExtension","mf.idirect3d9exoverlayextension"]
 old-location: mf\idirect3d9exoverlayextension.htm
 tech.root: mf
@@ -56,10 +56,7 @@ To get a pointer to this interface, call <b>QueryInterface</b> on an <b>IDirect3
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3D9ExOverlayExtension</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3D9ExOverlayExtension</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDirect3D9ExOverlayExtension</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3D9ExOverlayExtension</b> also has these types of members:
 
 ## -see-also
 

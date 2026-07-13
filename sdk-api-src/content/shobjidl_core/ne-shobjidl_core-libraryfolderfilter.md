@@ -54,15 +54,15 @@ Defines options for filtering folder items.
 
 ## -enum-fields
 
-### -field LFF_FORCEFILESYSTEM
+### -field LFF_FORCEFILESYSTEM:1
 
 Return only file system items.
 
-### -field LFF_STORAGEITEMS
+### -field LFF_STORAGEITEMS:2
 
 Return items that can be bound to an IStorage object.
 
-### -field LFF_ALLITEMS
+### -field LFF_ALLITEMS:3
 
 Return all items.
 

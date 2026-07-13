@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(constXMBYTE2&)
 title: XMBYTE2::XMBYTE2(const XMBYTE2 &) (directxpackedvector.h)
-description: A constructor for XMBYTE2.
+description: A constructor for XMBYTE2. (overload 3/3)
 helpviewer_keywords: ["XMBYTE2","XMBYTE2 constructor [DirectX Math Support APIs]","XMBYTE2 constructor [DirectX Math Support APIs]","XMBYTE2 structure","XMBYTE2 structure [DirectX Math Support APIs]","XMBYTE2 constructor","XMBYTE2.XMBYTE2","XMBYTE2.XMBYTE2()","XMBYTE2.XMBYTE2(const XMBYTE2 &)","XMBYTE2::XMBYTE2","XMBYTE2::XMBYTE2(const XMBYTE2 &)","dxmath.xmbyte2_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMBYTE2, XMBYTE2 constructor [DirectX Math Support APIs], XMBYTE2 c
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

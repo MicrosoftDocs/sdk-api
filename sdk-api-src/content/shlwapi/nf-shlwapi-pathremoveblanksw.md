@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathRemoveBlanksW
 title: PathRemoveBlanksW function (shlwapi.h)
-description: Removes all leading and trailing spaces from a string.
-helpviewer_keywords: ["PathRemoveBlanks","PathRemoveBlanks function [Windows Shell]","PathRemoveBlanksA","PathRemoveBlanksW","_win32_PathRemoveBlanks","shell.PathRemoveBlanks","shlwapi/PathRemoveBlanks","shlwapi/PathRemoveBlanksA","shlwapi/PathRemoveBlanksW"]
+description: Removes all leading and trailing spaces from a string. (Unicode)
+helpviewer_keywords: ["PathRemoveBlanks", "PathRemoveBlanks function [Windows Shell]", "PathRemoveBlanksW", "_win32_PathRemoveBlanks", "shell.PathRemoveBlanks", "shlwapi/PathRemoveBlanks", "shlwapi/PathRemoveBlanksW"]
 old-location: shell\PathRemoveBlanks.htm
 tech.root: shell
 ms.assetid: 0f496855-3ea7-4193-b895-fd4ea26ef6c5
@@ -69,5 +69,5 @@ A pointer to a null-terminated string of length MAX_PATH from which to strip all
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathRemoveBlanks as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathRemoveBlanks as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._PPP_LCP_INFO
 title: PPP_LCP_INFO (mprapi.h)
-description: The PPP_LCP_INFO structure contains information that describes the results of an PPP Link Control Protocol (LCP) negotiation.
+description: The PPP_LCP_INFO structure contains information that describes the results of a PPP Link Control Protocol (LCP) negotiation.
 helpviewer_keywords: ["PPP_LCP_CHAP","PPP_LCP_CHAP_MD5","PPP_LCP_CHAP_MS","PPP_LCP_CHAP_MSV2","PPP_LCP_EAP","PPP_LCP_INFO","PPP_LCP_INFO structure [RAS]","PPP_LCP_MULTILINK_FRAMING","PPP_LCP_PAP","PPP_LCP_SPAP","RASLCPO_3_DES","RASLCPO_ACFC","RASLCPO_DES_56","RASLCPO_PFC","RASLCPO_SSHF","_mpr_ppp_lcp_info","mprapi/PPP_LCP_INFO","rras.ppp_lcp_info"]
 old-location: rras\ppp_lcp_info.htm
 tech.root: RRAS
@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The 
-<b>PPP_LCP_INFO</b> structure contains information that describes the results of an PPP Link Control Protocol (LCP) negotiation.
+<b>PPP_LCP_INFO</b> structure contains information that describes the results of a PPP Link Control Protocol (LCP) negotiation.
 
 ## -struct-fields
 

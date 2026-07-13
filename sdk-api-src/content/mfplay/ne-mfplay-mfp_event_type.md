@@ -4,7 +4,8 @@ title: MFP_EVENT_TYPE (mfplay.h)
 description: Defines event types for the IMFPMediaPlayerCallback interface.
 helpviewer_keywords: ["MFP_EVENT_TYPE","MFP_EVENT_TYPE enumeration [Media Foundation]","MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL","MFP_EVENT_TYPE_ERROR","MFP_EVENT_TYPE_FRAME_STEP","MFP_EVENT_TYPE_MEDIAITEM_CLEARED","MFP_EVENT_TYPE_MEDIAITEM_CREATED","MFP_EVENT_TYPE_MEDIAITEM_SET","MFP_EVENT_TYPE_MF","MFP_EVENT_TYPE_PAUSE","MFP_EVENT_TYPE_PLAY","MFP_EVENT_TYPE_PLAYBACK_ENDED","MFP_EVENT_TYPE_POSITION_SET","MFP_EVENT_TYPE_RATE_SET","MFP_EVENT_TYPE_STOP","mf.mfp_event_type","mfplay/MFP_EVENT_TYPE","mfplay/MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL","mfplay/MFP_EVENT_TYPE_ERROR","mfplay/MFP_EVENT_TYPE_FRAME_STEP","mfplay/MFP_EVENT_TYPE_MEDIAITEM_CLEARED","mfplay/MFP_EVENT_TYPE_MEDIAITEM_CREATED","mfplay/MFP_EVENT_TYPE_MEDIAITEM_SET","mfplay/MFP_EVENT_TYPE_MF","mfplay/MFP_EVENT_TYPE_PAUSE","mfplay/MFP_EVENT_TYPE_PLAY","mfplay/MFP_EVENT_TYPE_PLAYBACK_ENDED","mfplay/MFP_EVENT_TYPE_POSITION_SET","mfplay/MFP_EVENT_TYPE_RATE_SET","mfplay/MFP_EVENT_TYPE_STOP"]
 old-location: mf\mfp_event_type.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 95beb13d-db84-4713-9c27-27b37eac7f2f
 ms.date: 12/05/2018
 ms.keywords: MFP_EVENT_TYPE, MFP_EVENT_TYPE enumeration [Media Foundation], MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL, MFP_EVENT_TYPE_ERROR, MFP_EVENT_TYPE_FRAME_STEP, MFP_EVENT_TYPE_MEDIAITEM_CLEARED, MFP_EVENT_TYPE_MEDIAITEM_CREATED, MFP_EVENT_TYPE_MEDIAITEM_SET, MFP_EVENT_TYPE_MF, MFP_EVENT_TYPE_PAUSE, MFP_EVENT_TYPE_PLAY, MFP_EVENT_TYPE_PLAYBACK_ENDED, MFP_EVENT_TYPE_POSITION_SET, MFP_EVENT_TYPE_RATE_SET, MFP_EVENT_TYPE_STOP, mf.mfp_event_type, mfplay/MFP_EVENT_TYPE, mfplay/MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL, mfplay/MFP_EVENT_TYPE_ERROR, mfplay/MFP_EVENT_TYPE_FRAME_STEP, mfplay/MFP_EVENT_TYPE_MEDIAITEM_CLEARED, mfplay/MFP_EVENT_TYPE_MEDIAITEM_CREATED, mfplay/MFP_EVENT_TYPE_MEDIAITEM_SET, mfplay/MFP_EVENT_TYPE_MF, mfplay/MFP_EVENT_TYPE_PAUSE, mfplay/MFP_EVENT_TYPE_PLAY, mfplay/MFP_EVENT_TYPE_PLAYBACK_ENDED, mfplay/MFP_EVENT_TYPE_POSITION_SET, mfplay/MFP_EVENT_TYPE_RATE_SET, mfplay/MFP_EVENT_TYPE_STOP
@@ -50,63 +51,62 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Defines event types for the <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> interface.
 
 ## -enum-fields
 
-### -field MFP_EVENT_TYPE_PLAY
+### -field MFP_EVENT_TYPE_PLAY:0
 
 Playback has started. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-play">IMFPMediaPlayer::Play</a> method completes.
 
-### -field MFP_EVENT_TYPE_PAUSE
+### -field MFP_EVENT_TYPE_PAUSE:1
 
 Playback has paused. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-pause">IMFPMediaPlayer::Pause</a> method completes.
 
-### -field MFP_EVENT_TYPE_STOP
+### -field MFP_EVENT_TYPE_STOP:2
 
 Playback has stopped. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-stop">IMFPMediaPlayer::Stop</a> method completes.
 
-### -field MFP_EVENT_TYPE_POSITION_SET
+### -field MFP_EVENT_TYPE_POSITION_SET:3
 
 The MFPlay player object has seeked to a new playback position. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setposition">IMFPMediaPlayer::SetPosition</a> method completes.
 
-### -field MFP_EVENT_TYPE_RATE_SET
+### -field MFP_EVENT_TYPE_RATE_SET:4
 
 The playback rate has changed. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setrate">IMFPMediaPlayer::SetRate</a> method completes.
 
-### -field MFP_EVENT_TYPE_MEDIAITEM_CREATED
+### -field MFP_EVENT_TYPE_MEDIAITEM_CREATED:5
 
 A new media item was created. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a> or <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject">CreateMediaItemFromObject</a> method completes.
 
-### -field MFP_EVENT_TYPE_MEDIAITEM_SET
+### -field MFP_EVENT_TYPE_MEDIAITEM_SET:6
 
 A media item is ready for playback. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem">IMFPMediaPlayer::SetMediaItem</a> method completes.
 
-### -field MFP_EVENT_TYPE_FRAME_STEP
+### -field MFP_EVENT_TYPE_FRAME_STEP:7
 
 A frame-step operation has completed. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-framestep">IMFPMediaPlayer::FrameStep</a> method completes.
 
-### -field MFP_EVENT_TYPE_MEDIAITEM_CLEARED
+### -field MFP_EVENT_TYPE_MEDIAITEM_CLEARED:8
 
 The current media item was cleared. This event is sent when the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-clearmediaitem">IMFPMediaPlayer::ClearMediaItem</a> method completes.
 
-### -field MFP_EVENT_TYPE_MF
+### -field MFP_EVENT_TYPE_MF:9
 
 A pipeline object sent an event. The player object forwards certain pipeline events to the application. For more information, see <a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_mf_event">MFP_MF_EVENT</a>.
 
-### -field MFP_EVENT_TYPE_ERROR
+### -field MFP_EVENT_TYPE_ERROR:10
 
 A playback error has occurred.
 
-### -field MFP_EVENT_TYPE_PLAYBACK_ENDED
+### -field MFP_EVENT_TYPE_PLAYBACK_ENDED:11
 
 Playback has ended. The player object sends this event when playback reaches the end of the media file.
 
-### -field MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL
+### -field MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL:12
 
 The media source requires authentication before it can play the file.
 

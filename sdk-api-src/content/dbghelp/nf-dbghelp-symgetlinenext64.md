@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetLineNext64
 title: SymGetLineNext64 function (dbghelp.h)
-description: Retrieves the line information for the next source line.
+description: Retrieves the line information for the next source line. (SymGetLineNext64)
 helpviewer_keywords: ["SymGetLineNext","SymGetLineNext function","SymGetLineNext64","SymGetLineNext64 function","SymGetLineNextW64","_win32_symgetlinenext64","base.symgetlinenext64","dbghelp/SymGetLineNext","dbghelp/SymGetLineNext64","dbghelp/SymGetLineNextW64"]
 old-location: base\symgetlinenext64.htm
 tech.root: Debug

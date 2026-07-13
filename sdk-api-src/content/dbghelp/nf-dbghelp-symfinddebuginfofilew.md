@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFindDebugInfoFileW
 title: SymFindDebugInfoFileW function (dbghelp.h)
-description: Locates a .dbg file in the process search path.
+description: The SymFindDebugInfoFileW (Unicode) function locates a .dbg file in the process search path.
 helpviewer_keywords: ["SymFindDebugInfoFile","SymFindDebugInfoFile function","SymFindDebugInfoFileW","base.symfinddebuginfofile","dbghelp/SymFindDebugInfoFile","dbghelp/SymFindDebugInfoFileW"]
 old-location: base\symfinddebuginfofile.htm
 tech.root: Debug
 ms.assetid: ea4879b2-edf8-4542-b16a-41777c0068cd
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymFindDebugInfoFile, SymFindDebugInfoFile function, SymFindDebugInfoFileW, base.symfinddebuginfofile, dbghelp/SymFindDebugInfoFile, dbghelp/SymFindDebugInfoFileW
 req.header: dbghelp.h
 req.include-header: 
@@ -67,7 +67,7 @@ The name of the .dbg file. You can use a partial path.
 
 ### -param DebugFilePath [out]
 
-The fully qualified path of the .dbg file. This buffer must be at least MAX_PATH characters.
+The fully qualified path of the .dbg file. This buffer must be at least MAX_PATH+1 characters.
 
 ### -param Callback [in, optional]
 
@@ -104,7 +104,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymFindDebugInfoFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymFindDebugInfoFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

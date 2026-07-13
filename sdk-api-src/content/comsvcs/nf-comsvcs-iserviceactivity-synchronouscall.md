@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IServiceActivity.SynchronousCall
 title: IServiceActivity::SynchronousCall (comsvcs.h)
-description: Performs the user-defined work synchronously.
+description: Performs the user-defined work synchronously. (IServiceActivity.SynchronousCall)
 helpviewer_keywords: ["IServiceActivity interface [COM+]","SynchronousCall method","IServiceActivity.SynchronousCall","IServiceActivity::SynchronousCall","SynchronousCall","SynchronousCall method [COM+]","SynchronousCall method [COM+]","IServiceActivity interface","_cos_IServiceActivity_SynchronousCall","comsvcs/IServiceActivity::SynchronousCall","cos.iserviceactivity_synchronouscall"]
 old-location: cos\iserviceactivity_synchronouscall.htm
 tech.root: cos

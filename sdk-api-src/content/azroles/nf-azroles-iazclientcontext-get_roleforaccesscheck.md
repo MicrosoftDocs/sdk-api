@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzClientContext.get_RoleForAccessCheck
 title: IAzClientContext::get_RoleForAccessCheck (azroles.h)
-description: Sets or retrieves the role that is used to perform the access check.
+description: Sets or retrieves the role that is used to perform the access check. (Get)
 helpviewer_keywords: ["AzClientContext object [Security]","RoleForAccessCheck property","IAzClientContext interface [Security]","RoleForAccessCheck property","IAzClientContext.RoleForAccessCheck","IAzClientContext.get_RoleForAccessCheck","IAzClientContext::RoleForAccessCheck","IAzClientContext::get_RoleForAccessCheck","IAzClientContext::put_RoleForAccessCheck","RoleForAccessCheck property [Security]","RoleForAccessCheck property [Security]","AzClientContext object","RoleForAccessCheck property [Security]","IAzClientContext interface","azroles/IAzClientContext::RoleForAccessCheck","azroles/IAzClientContext::get_RoleForAccessCheck","azroles/IAzClientContext::put_RoleForAccessCheck","get_RoleForAccessCheck","security.iazclientcontext_roleforaccesscheck"]
 old-location: security\iazclientcontext_roleforaccesscheck.htm
 tech.root: security

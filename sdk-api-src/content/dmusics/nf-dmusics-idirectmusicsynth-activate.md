@@ -4,7 +4,7 @@ title: IDirectMusicSynth::Activate (dmusics.h)
 description: The Activate method enables or disables the audio device under program control.
 helpviewer_keywords: ["Activate","Activate method [Audio Devices]","Activate method [Audio Devices]","IDirectMusicSynth interface","IDirectMusicSynth interface [Audio Devices]","Activate method","IDirectMusicSynth.Activate","IDirectMusicSynth::Activate","audio.idirectmusicsynth_activate","audmp-routines_56894d17-83db-4b4f-8e26-58103856a97e.xml","dmusics/IDirectMusicSynth::Activate"]
 old-location: audio\idirectmusicsynth_activate.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 9efdb079-ed24-43b4-844b-344571399de7
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Activate method, IDirectMusicSynth.Activate, IDirectMusicSynth::Activate, audio.idirectmusicsynth_activate, audmp-routines_56894d17-83db-4b4f-8e26-58103856a97e.xml, dmusics/IDirectMusicSynth::Activate
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynth.Activate
+archived: true
 ---
 
 # IDirectMusicSynth::Activate

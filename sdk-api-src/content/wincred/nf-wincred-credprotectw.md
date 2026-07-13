@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredProtectW
 title: CredProtectW function (wincred.h)
-description: Encrypts the specified credentials so that only the current security context can decrypt them.
-helpviewer_keywords: ["CredProtect","CredProtect function [Security]","CredProtectA","CredProtectW","security.credprotect","wincred/CredProtect","wincred/CredProtectA","wincred/CredProtectW"]
+description: Encrypts the specified credentials so that only the current security context can decrypt them. (Unicode)
+helpviewer_keywords: ["CredProtect", "CredProtect function [Security]", "CredProtectW", "security.credprotect", "wincred/CredProtect", "wincred/CredProtectW"]
 old-location: security\credprotect.htm
 tech.root: security
 ms.assetid: 1e299dfb-2ffe-463c-9e2c-b7774a2216e3
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - sechost.dll
@@ -98,4 +99,4 @@ Note that the output of the <b>CredProtect</b> function is not integrity protect
 
 
 > [!NOTE]
-> The wincred.h header defines CredProtect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredProtect as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_DeleteItem","TabCtrl_DeleteItem macro [Windows Co
 old-location: controls\TabCtrl_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_DeleteItem, TabCtrl_DeleteItem macro [Windows Controls], _win32_TabCtrl_DeleteItem, _win32_TabCtrl_DeleteItem_cpp, commctrl/TabCtrl_DeleteItem, controls.TabCtrl_DeleteItem, controls._win32_TabCtrl_DeleteItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TabCtrl_DeleteItem macro
+
+## -syntax
+
+```cpp
+BOOL TabCtrl_DeleteItem(
+   HWND hwnd,
+   int  i
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

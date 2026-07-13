@@ -56,7 +56,7 @@ Starts an asynchronous uninstallation of the updates.
 
 ### -param onProgressChanged [in]
 
-An <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogresschangedcallback">IInstallationProgressChangedCallback</a> interface that is called periodically for uninstallation progress changes before before the uninstallation is complete.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogresschangedcallback">IInstallationProgressChangedCallback</a> interface that is called periodically for uninstallation progress changes before the uninstallation is complete.
 
 ### -param onCompleted [in]
 
@@ -84,7 +84,7 @@ error codes.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

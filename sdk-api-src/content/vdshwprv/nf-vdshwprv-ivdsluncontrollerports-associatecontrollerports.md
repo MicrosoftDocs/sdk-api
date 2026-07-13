@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLunControllerPorts.AssociateControllerPorts
 title: IVdsLunControllerPorts::AssociateControllerPorts (vdshwprv.h)
-description: Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces IVdsLun::AssociateControllers.
+description: The IVdsLunControllerPorts::AssociateControllerPorts (vdshwprv.h) method sets the subsystem controller ports to active or inactive with respect to the LUN.
 helpviewer_keywords: ["AssociateControllerPorts","AssociateControllerPorts method [VDS]","AssociateControllerPorts method [VDS]","IVdsLunControllerPorts interface","IVdsLunControllerPorts interface [VDS]","AssociateControllerPorts method","IVdsLunControllerPorts.AssociateControllerPorts","IVdsLunControllerPorts::AssociateControllerPorts","base.ivdsluncontrollerports_associatecontrollerports","vds/IVdsLunControllerPorts::AssociateControllerPorts","vdshwprv/IVdsLunControllerPorts::AssociateControllerPorts"]
 old-location: base\ivdsluncontrollerports_associatecontrollerports.htm
 tech.root: base
 ms.assetid: 3b889cb7-92e4-4c18-b9b9-768865895595
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: AssociateControllerPorts, AssociateControllerPorts method [VDS], AssociateControllerPorts method [VDS],IVdsLunControllerPorts interface, IVdsLunControllerPorts interface [VDS],AssociateControllerPorts method, IVdsLunControllerPorts.AssociateControllerPorts, IVdsLunControllerPorts::AssociateControllerPorts, base.ivdsluncontrollerports_associatecontrollerports, vds/IVdsLunControllerPorts::AssociateControllerPorts, vdshwprv/IVdsLunControllerPorts::AssociateControllerPorts
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the subsystem controller ports to active or inactive with respect to the LUN. This method 
     replaces <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-associatecontrollers">IVdsLun::AssociateControllers</a>.
@@ -89,7 +89,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +100,7 @@ The association name was successfully set.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -117,7 +117,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -129,7 +129,7 @@ The LUN object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_STATUS_FAILED</b></b></dt>
+<dt><b>VDS_E_OBJECT_STATUS_FAILED</b></dt>
 <dt>0x80042431L</dt>
 </dl>
 </td>
@@ -141,7 +141,7 @@ The LUN is in a failed state and is unable to perform the requested operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>
@@ -153,7 +153,7 @@ Another operation is in progress. This operation cannot proceed until previous o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_NOT_FOUND</b></b></dt>
+<dt><b>VDS_E_OBJECT_NOT_FOUND</b></dt>
 <dt>0x80042405L</dt>
 </dl>
 </td>
@@ -167,7 +167,7 @@ One or more GUIDs of data type <b>VDS_OBJECT_ID</b> specified in
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 <dt>0x80042400L</dt>
 </dl>
 </td>

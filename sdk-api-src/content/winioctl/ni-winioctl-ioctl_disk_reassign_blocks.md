@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_REASSIGN_BLOCKS
 title: IOCTL_DISK_REASSIGN_BLOCKS
-description: Directs the disk device to map one or more blocks to its spare-block pool.
+description: Directs the disk device to map one or more blocks to its spare-block pool. (IOCTL_DISK_REASSIGN_BLOCKS)
 helpviewer_keywords: ["IOCTL_DISK_REASSIGN_BLOCKS","IOCTL_DISK_REASSIGN_BLOCKS control","IOCTL_DISK_REASSIGN_BLOCKS control code [Files]","_win32_ioctl_disk_reassign_blocks","base.ioctl_disk_reassign_blocks","fs.ioctl_disk_reassign_blocks","winioctl/IOCTL_DISK_REASSIGN_BLOCKS"]
 old-location: fs\ioctl_disk_reassign_blocks.htm
 tech.root: fs

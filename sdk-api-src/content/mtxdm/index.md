@@ -4,7 +4,8 @@ title: Mtxdm.h header
 ms.assetid: 4a1670f8-f5e8-3669-b72e-8e77ccbb84cd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: cos
 f1_keywords:
  - mtxdm

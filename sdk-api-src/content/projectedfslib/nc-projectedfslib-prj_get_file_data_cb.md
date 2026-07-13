@@ -57,13 +57,13 @@ Requests the contents of a file's primary data stream.
 ### -param callbackData [in]
 
 Information about the operation. The following <i>callbackData</i> members are necessary to implement this callback:<dl>
-<dd><b>FilePathName</b>Identifies the path to the file in the provider’s backing store for which data should be returned.  Note that this reflects the name the file had when its placeholder was first created.  If it has been renamed since then, <b>FilePathName</b> identifies the original (pre-rename) name, not the current (post-rename) name.
+<dd><b>FilePathName</b> Identifies the path to the file in the provider’s backing store for which data should be returned.  Note that this reflects the name the file had when its placeholder was first created.  If it has been renamed since then, <b>FilePathName</b> identifies the original (pre-rename) name, not the current (post-rename) name.
 
 </dd>
 <dd><b>DataStreamId</b>The unique value to associate with this file stream.  The provider must pass this value in the <i>dataStreamId</i> parameter of <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a> when providing file data as part of handling this callback.
 
 </dd>
-<dd><b>VersionInfo</b>Provides the <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_version_info">PRJ_PLACEHOLDER_VERSION_INFO</a> information that the provider supplied when it created the placeholder for this file.  This may help the provider determine which version of the file contents to return.  If the file has been renamed and the provider tracks renames, this may also help the provider determine which file’s contents are being requested.
+<dd><b>VersionInfo</b> Provides the <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_version_info">PRJ_PLACEHOLDER_VERSION_INFO</a> information that the provider supplied when it created the placeholder for this file.  This may help the provider determine which version of the file contents to return.  If the file has been renamed and the provider tracks renames, this may also help the provider determine which file’s contents are being requested.
 
 </dd>
 </dl>

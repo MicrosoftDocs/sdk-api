@@ -58,7 +58,7 @@ The fax service calls the <b>FaxRouteInitialize</b> function once, each time the
 
 Type: <b>HANDLE</b>
 
-Handle to an initialized heap. The fax routing extension DLL must use the Win32 <a href="/windows/desktop/Memory/heap-functions">heap functions</a>, described in MSDN, to allocate all memory from this heap.
+Handle to an initialized heap. The fax routing extension DLL must use the Win32 <a href="/windows/desktop/Memory/heap-functions">heap functions</a> to allocate all memory from this heap.
 
 ### -param FaxRouteCallbackRoutines [in]
 
@@ -76,11 +76,11 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The fax routing extension DLL should not perform provider-specific initialization when the fax service calls the <a href="/windows/desktop/Dlls/dllmain">DllMain</a> function, described in MSDN. Instead, the extension should do this when the fax service calls the <b>FaxRouteInitialize</b> function.
+The fax routing extension DLL should not perform provider-specific initialization when the fax service calls the <a href="/windows/desktop/Dlls/dllmain">DllMain</a> function. Instead, the extension should do this when the fax service calls the <b>FaxRouteInitialize</b> function.
 
 For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-fax-routing-extension-registration">Fax Routing Extension Registration</a> and <a href="/previous-versions/windows/desktop/fax/-mfax-fax-file-lists">Fax File Lists</a>.
 

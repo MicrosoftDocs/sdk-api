@@ -51,27 +51,27 @@ Specifies how memory gets routed by a shader resource view (SRV).
 
 ## -enum-fields
 
-### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_0
+### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_0:0
 
 Indicates return component 0 (red).
 
-### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_1
+### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_1:1
 
 Indicates return component 1 (green).
 
-### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_2
+### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_2:2
 
 Indicates return component 2 (blue).
 
-### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_3
+### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_3:3
 
 Indicates return component 3 (alpha).
 
-### -field D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_0
+### -field D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_0:4
 
 Indicates forcing the resulting value to 0.
 
-### -field D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_1
+### -field D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_1:5
 
 Indicates forcing the resulting value 1. The value of forcing 1 is either 0x1 or 1.0f depending on the format type for that component in the source format.
 

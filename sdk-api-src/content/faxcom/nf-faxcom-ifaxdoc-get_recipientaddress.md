@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientAddress
 title: IFaxDoc::get_RecipientAddress (faxcom.h)
-description: Sets or retrieves the RecipientAddress property of a FaxDoc object. The RecipientAddress property is a null-terminated string that contains the street address of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientAddress property of a FaxDoc object. The RecipientAddress property is a null-terminated string that contains the street address of the recipient of the fax transmission. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientAddress property","IFaxDoc.RecipientAddress","IFaxDoc.get_RecipientAddress","IFaxDoc::RecipientAddress","IFaxDoc::get_RecipientAddress","IFaxDoc::put_RecipientAddress","RecipientAddress property [Fax Service]","RecipientAddress property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientaddress","fax._mfax_ifaxdoc_get_recipientaddress","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientaddress_cpp","faxcom/IFaxDoc::RecipientAddress","faxcom/IFaxDoc::get_RecipientAddress","faxcom/IFaxDoc::put_RecipientAddress","get_RecipientAddress"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientaddress_cpp.htm
 tech.root: Fax

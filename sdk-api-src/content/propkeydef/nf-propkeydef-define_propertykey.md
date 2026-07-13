@@ -6,7 +6,7 @@ helpviewer_keywords: ["DEFINE_PROPERTYKEY","DEFINE_PROPERTYKEY macro [Windows Sh
 old-location: shell\DEFINE_PROPERTYKEY.htm
 tech.root: shell
 ms.assetid: 099F8A20-63E4-4712-97F3-82C61A0C2DE0
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: DEFINE_PROPERTYKEY, DEFINE_PROPERTYKEY macro [Windows Shell], _shell_DEFINE_PROPERTYKEY, propkeydef/DEFINE_PROPERTYKEY, shell.DEFINE_PROPERTYKEY
 req.header: propkeydef.h
 req.include-header: 
@@ -46,6 +46,26 @@ api_name:
 ---
 
 # DEFINE_PROPERTYKEY macro
+
+## -syntax
+
+```cpp
+void DEFINE_PROPERTYKEY(
+     name,
+    DWORD l,
+    WORD w1,
+    WORD w2,
+    BYTE b1,
+    BYTE b2,
+    BYTE b3,
+    BYTE b4,
+    BYTE b5,
+    BYTE b6,
+    BYTE b7,
+    BYTE b8,
+    DWORD pid
+);
+```
 
 
 ## -description

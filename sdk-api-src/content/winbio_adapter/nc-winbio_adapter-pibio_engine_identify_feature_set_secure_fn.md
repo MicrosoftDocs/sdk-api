@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Called by the Windows Biometric Framework to build a template from the current feature set and locate a matching template in the database. If a match can be found, the engine adapter must fill the <i>Identity</i>, <i>SubFactor</i>, <i>Authorization</i>, and <i>AuthorizationSize</i> fields.
 
@@ -100,7 +100,7 @@ A <a href="/windows/desktop/SecBioMet/winbio-biometric-subtype-constants">WINBIO
 
 ## -returns
 
-<b>WINBIO_E_INVALID_KEY_IDENTIFIER</b> must be returned in the case where the key cannot be used for whatever reason. When <b>WINBIO_E_INVALID_KEY_IDENTIFIER </b>is returned, the sensor and TPM will be re-provisioned.
+<b>WINBIO_E_INVALID_KEY_IDENTIFIER</b> must be returned in the case where the key cannot be used for whatever reason. When <b>WINBIO_E_INVALID_KEY_IDENTIFIER </b> is returned, the sensor and TPM will be re-provisioned.
 
 ## -remarks
 

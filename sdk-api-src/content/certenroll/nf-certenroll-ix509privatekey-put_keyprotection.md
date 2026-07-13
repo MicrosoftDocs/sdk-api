@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_KeyProtection
 title: IX509PrivateKey::put_KeyProtection (certenroll.h)
-description: Specifies or retrieves a value that indicates how a private key is protected before use.
+description: Specifies or retrieves a value that indicates how a private key is protected before use. (Put)
 helpviewer_keywords: ["IX509PrivateKey interface [Security]","KeyProtection property","IX509PrivateKey.KeyProtection","IX509PrivateKey.put_KeyProtection","IX509PrivateKey::KeyProtection","IX509PrivateKey::get_KeyProtection","IX509PrivateKey::put_KeyProtection","KeyProtection property [Security]","KeyProtection property [Security]","IX509PrivateKey interface","XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG","XCN_NCRYPT_UI_NO_PROTECTION_FLAG","XCN_NCRYPT_UI_PROTECT_KEY_FLAG","certenroll/IX509PrivateKey::KeyProtection","certenroll/IX509PrivateKey::get_KeyProtection","certenroll/IX509PrivateKey::put_KeyProtection","put_KeyProtection","security.ix509privatekey_keyprotection"]
 old-location: security\ix509privatekey_keyprotection.htm
 tech.root: security

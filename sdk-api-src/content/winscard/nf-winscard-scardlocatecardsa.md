@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardLocateCardsA
 title: SCardLocateCardsA function (winscard.h)
-description: Searches the readers listed in the rgReaderStates parameter for a card with an ATR string that matches one of the card names specified in mszCards, returning immediately with the result.
-helpviewer_keywords: ["SCardLocateCards","SCardLocateCards function [Security]","SCardLocateCardsA","SCardLocateCardsW","_smart_scardlocatecards","security.scardlocatecards","winscard/SCardLocateCards","winscard/SCardLocateCardsA","winscard/SCardLocateCardsW"]
+description: Searches the readers listed in the rgReaderStates parameter for a card with an ATR string that matches one of the card names specified in mszCards, returning immediately with the result. (ANSI)
+helpviewer_keywords: ["SCardLocateCardsA", "winscard/SCardLocateCardsA"]
 old-location: security\scardlocatecards.htm
 tech.root: security
 ms.assetid: 7ee90188-6fe5-417b-a7c7-9c29d9cdd4d0
@@ -253,7 +253,7 @@ return hr;
 
 
 > [!NOTE]
-> The winscard.h header defines SCardLocateCards as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardLocateCards as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

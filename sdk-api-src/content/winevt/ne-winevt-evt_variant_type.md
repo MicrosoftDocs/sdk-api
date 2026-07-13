@@ -56,99 +56,99 @@ Defines the possible data types of a variant data item.
 
 ## -enum-fields
 
-### -field EvtVarTypeNull
+### -field EvtVarTypeNull:0
 
 Null content that implies that the element that contains the content does not exist.
 
-### -field EvtVarTypeString
+### -field EvtVarTypeString:1
 
 A null-terminated Unicode string.
 
-### -field EvtVarTypeAnsiString
+### -field EvtVarTypeAnsiString:2
 
 A null-terminated ANSI string.
 
-### -field EvtVarTypeSByte
+### -field EvtVarTypeSByte:3
 
 A signed 8-bit integer value.
 
-### -field EvtVarTypeByte
+### -field EvtVarTypeByte:4
 
 An unsigned 8-bit integer value.
 
-### -field EvtVarTypeInt16
+### -field EvtVarTypeInt16:5
 
 An signed 16-bit integer value.
 
-### -field EvtVarTypeUInt16
+### -field EvtVarTypeUInt16:6
 
 An unsigned 16-bit integer value.
 
-### -field EvtVarTypeInt32
+### -field EvtVarTypeInt32:7
 
 A signed 32-bit integer value.
 
-### -field EvtVarTypeUInt32
+### -field EvtVarTypeUInt32:8
 
 An unsigned 32-bit integer value.
 
-### -field EvtVarTypeInt64
+### -field EvtVarTypeInt64:9
 
 A signed 64-bit integer value.
 
-### -field EvtVarTypeUInt64
+### -field EvtVarTypeUInt64:10
 
 An unsigned 64-bit integer value.
 
-### -field EvtVarTypeSingle
+### -field EvtVarTypeSingle:11
 
 A single-precision real value.
 
-### -field EvtVarTypeDouble
+### -field EvtVarTypeDouble:12
 
 A double-precision real value.
 
-### -field EvtVarTypeBoolean
+### -field EvtVarTypeBoolean:13
 
 A Boolean value.
 
-### -field EvtVarTypeBinary
+### -field EvtVarTypeBinary:14
 
 A hexadecimal binary value.
 
-### -field EvtVarTypeGuid
+### -field EvtVarTypeGuid:15
 
 A GUID value.
 
-### -field EvtVarTypeSizeT
+### -field EvtVarTypeSizeT:16
 
 An unsigned 32-bit or 64-bit integer value that contains a pointer address.
 
-### -field EvtVarTypeFileTime
+### -field EvtVarTypeFileTime:17
 
 A FILETIME value.
 
-### -field EvtVarTypeSysTime
+### -field EvtVarTypeSysTime:18
 
  A SYSTEMTIME value.
 
-### -field EvtVarTypeSid
+### -field EvtVarTypeSid:19
 
 A security identifier (<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>) structure
 
-### -field EvtVarTypeHexInt32
+### -field EvtVarTypeHexInt32:20
 
 A 32-bit hexadecimal number.
 
-### -field EvtVarTypeHexInt64
+### -field EvtVarTypeHexInt64:21
 
 A 64-bit hexadecimal number.
 
-### -field EvtVarTypeEvtHandle
+### -field EvtVarTypeEvtHandle:32
 
 An EVT_HANDLE value.
 
-### -field EvtVarTypeEvtXml
+### -field EvtVarTypeEvtXml:35
 
 A null-terminated Unicode string that contains XML.
 

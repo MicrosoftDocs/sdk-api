@@ -63,15 +63,15 @@ You also need to ensure that <b>DwmDefWindowProc</b> is called for the <a href="
 
 A handle to the window procedure that received the message.
 
-### -param msg
+### -param msg [in]
 
 The message.
 
-### -param wParam
+### -param wParam [in]
 
 Specifies additional message information. The content of this parameter depends on the value of the <i>msg</i> parameter.
 
-### -param lParam
+### -param lParam [in]
 
 Specifies additional message information. The content of this parameter depends on the value of the <i>msg</i> parameter.
 
@@ -85,4 +85,4 @@ A pointer to an <b>LRESULT</b> value that, when this method returns successfully
 
 ## -remarks
 
-When creating custom frames that include the standard caption buttons, <a href="/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a> and other non-client hit test messages should first be passed to the <b>DwmDefWindowProc</b> function. This enables the DWM to provide hit testing for the captions buttons. If <b>DwmDefWindowProc</b> does not handle the non-client hit test messages, further processing of these messages might be neccessary.
+When creating custom frames that include the standard caption buttons, <a href="/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a> and other non-client hit test messages should first be passed to the <b>DwmDefWindowProc</b> function. This enables the DWM to provide hit testing for the captions buttons. If <b>DwmDefWindowProc</b> does not handle the non-client hit test messages, further processing of these messages might be necessary.

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineSetupTransfer
 title: lineSetupTransfer function (tapi.h)
-description: The lineSetupTransfer function initiates a transfer of the call specified by the hCall parameter.
+description: The lineSetupTransfer function (tapi.h) initiates a transfer of the call specified by the hCall parameter.
 helpviewer_keywords: ["_tapi2_linesetuptransfer","lineSetupTransfer","lineSetupTransfer function [TAPI 2.2]","lineSetupTransferA","lineSetupTransferW","tapi/lineSetupTransfer","tapi/lineSetupTransferA","tapi/lineSetupTransferW","tapi2.linesetuptransfer"]
 old-location: tapi2\linesetuptransfer.htm
 tech.root: tapi3
 ms.assetid: 40f0ce8f-9809-43ec-af48-d8e410553048
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linesetuptransfer, lineSetupTransfer, lineSetupTransfer function [TAPI 2.2], lineSetupTransferA, lineSetupTransferW, tapi/lineSetupTransfer, tapi/lineSetupTransferA, tapi/lineSetupTransferW, tapi2.linesetuptransfer
 req.header: tapi.h
 req.include-header: 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_SetMinVisible","ComboBox_SetMinVisible macro [Wi
 old-location: controls\ComboBox_SetMinVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setminvisible.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_SetMinVisible, ComboBox_SetMinVisible macro [Windows Controls], _win32_ComboBox_SetMinVisible, _win32_ComboBox_SetMinVisible_cpp, commctrl/ComboBox_SetMinVisible, controls.ComboBox_SetMinVisible, controls._win32_ComboBox_SetMinVisible
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_SetMinVisible macro
+
+## -syntax
+
+```cpp
+BOOL ComboBox_SetMinVisible(
+   HWND hwnd,
+   INT  iMinVisible
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the macro succeeds, it returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
 
 
 ## -description

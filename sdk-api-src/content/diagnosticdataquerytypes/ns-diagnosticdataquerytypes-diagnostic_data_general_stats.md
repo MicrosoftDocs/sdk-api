@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_GENERAL_STATS, DIAGNOSTIC_DATA_GENERAL_STATS
 description: This resource contains general statistics about a set of diagnostic data records.
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

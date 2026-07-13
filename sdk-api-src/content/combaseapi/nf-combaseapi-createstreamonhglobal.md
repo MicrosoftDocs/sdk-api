@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - ComBase.dll
@@ -55,8 +57,7 @@ api_name:
 
 ## -description
 
-The 
-<b>CreateStreamOnHGlobal</b>function creates a stream object that uses an HGLOBAL memory handle to store the stream contents. This object is the OLE-provided implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
+The <b>CreateStreamOnHGlobal</b> function creates a stream object that uses an HGLOBAL memory handle to store the stream contents. This object is the OLE-provided implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
 
 The returned stream object supports both reading and writing, is not transacted, and does not support region locking. The object calls the <a href="/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function to grow the memory block as required.
 

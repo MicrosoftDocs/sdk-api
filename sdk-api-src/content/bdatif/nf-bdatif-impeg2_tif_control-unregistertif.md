@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>UnregisterTIF</b> method unregisters the TIF with the Network Provider.
 
 ## -parameters
@@ -93,7 +95,7 @@ Invalid argument.
 
 ## -remarks
 
-Call this method after the TIF's intput pin has been disconnected from the Demux.
+Call this method after the TIF's input pin has been disconnected from the Demux.
 
 ## -see-also
 

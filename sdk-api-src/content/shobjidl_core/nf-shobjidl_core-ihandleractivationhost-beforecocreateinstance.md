@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCoCreateInstance
 title: IHandlerActivationHost::BeforeCoCreateInstance (shobjidl_core.h)
-description: .
+description: . (IHandlerActivationHost.BeforeCoCreateInstance)
 helpviewer_keywords: ["BeforeCoCreateInstance","BeforeCoCreateInstance method [Windows Shell]","BeforeCoCreateInstance method [Windows Shell]","IHandlerActivationHost interface","IHandlerActivationHost interface [Windows Shell]","BeforeCoCreateInstance method","IHandlerActivationHost.BeforeCoCreateInstance","IHandlerActivationHost::BeforeCoCreateInstance","shell.IHandlerActivationHost_BeforeCoCreateInstance","shobjidl_core/IHandlerActivationHost::BeforeCoCreateInstance"]
 old-location: shell\IHandlerActivationHost_BeforeCoCreateInstance.htm
 tech.root: shell
@@ -68,8 +68,8 @@ Provides access to information about the handler that will be invoked. This obje
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. 
-Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code, <b>HRESULT_FROM_WIN32(ERROR_CANCELLED)</b> inciates that the ShellExecute call should be canceled, <b>EXECUTE_E_LAUNCH_APPLICATION</b> indicates that this handler should not be used, but if there is another it should be used.
+If this method succeeds, it returns <b>S_OK</b>. 
+Otherwise, it returns an <b>HRESULT</b> error code, <b>HRESULT_FROM_WIN32(ERROR_CANCELLED)</b> indicates that the ShellExecute call should be canceled, <b>EXECUTE_E_LAUNCH_APPLICATION</b> indicates that this handler should not be used, but if there is another it should be used.
 
 ## -see-also
 

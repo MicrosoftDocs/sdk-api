@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.ResumeDraw
-title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
+title: ICompositionDrawingSurfaceInterop::ResumeDraw (windows.ui.composition.interop.h)
 description: Resumes drawing on the surface object.
 helpviewer_keywords: ["ICompositionDrawingSurfaceInterop interface","ResumeDraw method","ICompositionDrawingSurfaceInterop.ResumeDraw","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::ResumeDraw","ICompositionDrawingSurfaceInterop::composition","ResumeDraw","ResumeDraw method","ResumeDraw method","ICompositionDrawingSurfaceInterop interface","w_ui_comp.icompositiondrawingsurfaceinterop_resumedraw","windows/ICompositionDrawingSurfaceInterop::ResumeDraw"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_resumedraw.htm
@@ -45,14 +45,14 @@ api_name:
  - ICompositionDrawingSurfaceInterop.ResumeDraw
 ---
 
-# ICompositionDrawingSurfaceInterop::composition
+# ICompositionDrawingSurfaceInterop::ResumeDraw (windows.ui.composition.interop.h)
 
 
 ## -description
 
 Resumes drawing on the surface object.
 
-## -parameters
+
 
 ## -returns
 

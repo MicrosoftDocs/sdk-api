@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.GetDisplayModeEx
 title: IDirect3DDevice9Ex::GetDisplayModeEx (d3d9.h)
-description: Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
+description: Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings. (IDirect3DDevice9Ex.GetDisplayModeEx)
 helpviewer_keywords: ["3de20b27-6ffa-11bb-e9a5-d1af96f798ac","GetDisplayModeEx","GetDisplayModeEx method [Direct3D 9]","GetDisplayModeEx method [Direct3D 9]","IDirect3DDevice9Ex interface","IDirect3DDevice9Ex interface [Direct3D 9]","GetDisplayModeEx method","IDirect3DDevice9Ex.GetDisplayModeEx","IDirect3DDevice9Ex::GetDisplayModeEx","d3d9/IDirect3DDevice9Ex::GetDisplayModeEx","direct3d9.idirect3ddevice9ex_getdisplaymodeex"]
 old-location: direct3d9\idirect3ddevice9ex_getdisplaymodeex.htm
 tech.root: direct3d9

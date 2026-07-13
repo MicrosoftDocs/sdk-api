@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_RecalcPageSizes","PropSheet_RecalcPageSizes mac
 old-location: controls\PropSheet_RecalcPageSizes.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_recalcpagesizes.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_RecalcPageSizes, PropSheet_RecalcPageSizes macro [Windows Controls], _win32_PropSheet_RecalcPageSizes, _win32_PropSheet_RecalcPageSizes_cpp, controls.PropSheet_RecalcPageSizes, controls._win32_PropSheet_RecalcPageSizes, prsht/PropSheet_RecalcPageSizes
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PropSheet_RecalcPageSizes macro
+
+## -syntax
+
+```cpp
+BOOL PropSheet_RecalcPageSizes(
+   HWND hDlg
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

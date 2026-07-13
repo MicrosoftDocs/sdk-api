@@ -1,15 +1,15 @@
 ---
 UID: NF:processenv.GetEnvironmentStringsW
 title: GetEnvironmentStringsW function (processenv.h)
-description: Retrieves the environment variables for the current process.
+description: The GetEnvironmentStringsW (Unicode) function (processenv.h) retrieves the environment variables for the current process. 
 helpviewer_keywords: ["GetEnvironmentStrings","GetEnvironmentStrings function","GetEnvironmentStringsA","GetEnvironmentStringsW","_win32_getenvironmentstrings","base.getenvironmentstrings","processenv/GetEnvironmentStrings","processenv/GetEnvironmentStringsA","processenv/GetEnvironmentStringsW","winbase/GetEnvironmentStrings","winbase/GetEnvironmentStringsA","winbase/GetEnvironmentStringsW"]
 old-location: base\getenvironmentstrings.htm
 tech.root: backup
 ms.assetid: fb431d83-f3e7-4f2a-bad9-81259681c1f4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetEnvironmentStrings, GetEnvironmentStrings function, GetEnvironmentStringsA, GetEnvironmentStringsW, _win32_getenvironmentstrings, base.getenvironmentstrings, processenv/GetEnvironmentStrings, processenv/GetEnvironmentStringsA, processenv/GetEnvironmentStringsW, winbase/GetEnvironmentStrings, winbase/GetEnvironmentStringsA, winbase/GetEnvironmentStringsW
 req.header: processenv.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the environment variables for the current process.
 
-## -parameters
+
 
 ## -returns
 
@@ -102,7 +102,7 @@ For an example, see
 
 
 > [!NOTE]
-> The processenv.h header defines GetEnvironmentStrings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The processenv.h header defines GetEnvironmentStrings as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

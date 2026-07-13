@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-2-3.dll
+ - api-ms-win-shell-namespace-l1-1-1.dll
  - Shell32.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
@@ -80,19 +82,19 @@ The address of a pointer to a variable of type <a href="/windows/desktop/api/sht
 
 Type: <b>SFGAOF</b>
 
-A <b>ULONG</b> value that specifies the attributes to query. To query for one or more attributes, initialize this parameter with the flags that represent the attributes of interest. For a list of available SFGAO flags, see <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
+A <b>ULONG</b> value that specifies the attributes to query. To query for one or more attributes, initialize this parameter with the flags that represent the attributes of interest. For a list of available SFGAO flags, see <a href="/windows/win32/shell/sfgao">SFGAO</a>.
 
 ### -param psfgaoOut [out, optional]
 
 Type: <b>SFGAOF*</b>
 
-A pointer to a <b>ULONG</b>. On return, those attributes that are true for the object and were requested in <i>sfgaoIn</i> are set. An object's attribute flags can be zero or a combination of SFGAO flags. For a list of available SFGAO flags, see <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
+A pointer to a <b>ULONG</b>. On return, those attributes that are true for the object and were requested in <i>sfgaoIn</i> are set. An object's attribute flags can be zero or a combination of SFGAO flags. For a list of available SFGAO flags, see <a href="/windows/win32/shell/sfgao">SFGAO</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

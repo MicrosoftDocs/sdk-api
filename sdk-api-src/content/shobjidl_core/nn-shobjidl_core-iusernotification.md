@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IUserNotification
 title: IUserNotification (shobjidl_core.h)
-description: Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar.
+description: Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar. (IUserNotification)
 helpviewer_keywords: ["IUserNotification","IUserNotification interface [Windows Shell]","IUserNotification interface [Windows Shell]","described","inet_IUserNotification","shell.IUserNotification","shobjidl_core/IUserNotification"]
 old-location: shell\IUserNotification.htm
 tech.root: shell
@@ -57,10 +57,7 @@ Exposes methods that set notification information and then display that notifica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserNotification</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IUserNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserNotification</b> also has these types of members:
 
 ## -remarks
 

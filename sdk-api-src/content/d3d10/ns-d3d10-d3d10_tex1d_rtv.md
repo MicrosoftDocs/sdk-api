@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_RTV
 title: D3D10_TEX1D_RTV (d3d10.h)
-description: Specifies the subresource from a 1D texture to use in a render-target view.
+description: Specifies the subresource from a 1D texture to use in a render-target view. (D3D10_TEX1D_RTV)
 helpviewer_keywords: ["591d1483-fde1-2aee-60bb-56aa133a09e4","D3D10_TEX1D_RTV","D3D10_TEX1D_RTV structure [Direct3D 10]","d3d10/D3D10_TEX1D_RTV","direct3d10.d3d10_tex1d_rtv"]
 old-location: direct3d10\d3d10_tex1d_rtv.htm
 tech.root: direct3d10

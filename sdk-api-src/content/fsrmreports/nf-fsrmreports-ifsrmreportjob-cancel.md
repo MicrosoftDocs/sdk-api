@@ -52,7 +52,7 @@ api_name:
 
 Cancels the running reports for this report job.
 
-## -parameters
+
 
 ## -returns
 

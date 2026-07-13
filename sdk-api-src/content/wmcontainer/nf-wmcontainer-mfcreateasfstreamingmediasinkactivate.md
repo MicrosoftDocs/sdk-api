@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamingMediaSinkActivate
 title: MFCreateASFStreamingMediaSinkActivate function (wmcontainer.h)
-description: Creates an activation object for the ASF streaming sink.
+description: Creates an activation object for the ASF streaming sink. (MFCreateASFStreamingMediaSinkActivate)
 helpviewer_keywords: ["MFCreateASFStreamingMediaSinkActivate","MFCreateASFStreamingMediaSinkActivate function [Media Foundation]","mf.mfcreateasfstreamingmediasinkactivate","wmcontainer/MFCreateASFStreamingMediaSinkActivate"]
 old-location: mf\mfcreateasfstreamingmediasinkactivate.htm
 tech.root: mf
@@ -71,7 +71,7 @@ Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-i
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

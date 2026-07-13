@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFLockWorkQueue
 title: MFLockWorkQueue function (mfapi.h)
-description: Locks a work queue.
+description: Locks a work queue. (MFLockWorkQueue)
 helpviewer_keywords: ["307a1ec5-e54a-47f6-8ace-3b935081faf8","MFLockWorkQueue","MFLockWorkQueue function [Media Foundation]","mf.mflockworkqueue","mfapi/MFLockWorkQueue"]
 old-location: mf\mflockworkqueue.htm
 tech.root: mf
@@ -60,7 +60,7 @@ The identifier for the work queue. The identifier is returned by the <a href="/w
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

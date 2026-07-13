@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj.SHOpenPropSheetA
 title: SHOpenPropSheetA function (shlobj.h)
-description: SHOpenPropSheet may be altered or unavailable.
-helpviewer_keywords: ["SHOpenPropSheet","SHOpenPropSheet function [Windows Shell]","SHOpenPropSheetA","SHOpenPropSheetW","_win32_SHOpenPropSheetW","shell.SHOpenPropSheetW","shlobj/SHOpenPropSheet","shlobj/SHOpenPropSheetA","shlobj/SHOpenPropSheetW"]
+description: SHOpenPropSheet may be altered or unavailable. (ANSI)
+helpviewer_keywords: ["SHOpenPropSheetA", "shlobj/SHOpenPropSheetA"]
 old-location: shell\SHOpenPropSheetW.htm
 tech.root: shell
 ms.assetid: bf42b26e-0f10-47b4-9d3b-48c59618342d
@@ -109,4 +109,4 @@ Returns <b>TRUE</b> if the property sheet was successfully created; otherwise, <
 ## -remarks
 
 > [!NOTE]
-> The shlobj.h header defines SHOpenPropSheet as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj.h header defines SHOpenPropSheet as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

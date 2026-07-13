@@ -56,11 +56,11 @@ The <b>WDMUSB_POWER_STATE</b> enumeration indicates the power state of a host co
 
 ## -enum-fields
 
-### -field WdmUsbPowerNotMapped
+### -field WdmUsbPowerNotMapped:0
 
 Power state information is not mapped.
 
-### -field WdmUsbPowerSystemUnspecified
+### -field WdmUsbPowerSystemUnspecified:100
 
 Power state information is not available.
 
@@ -88,7 +88,7 @@ The system is hibernating.
 
 The system is shutdown.
 
-### -field WdmUsbPowerDeviceUnspecified
+### -field WdmUsbPowerDeviceUnspecified:200
 
 A device is not specified.
 

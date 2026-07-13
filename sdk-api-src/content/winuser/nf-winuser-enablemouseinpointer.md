@@ -40,6 +40,15 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
+ - ext-ms-win-ntuser-misc-l1-5-1.dll
+ - ext-ms-win-ntuser-misc-l1-5-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-2-0.dll
+ - ext-ms-win-ntuser-misc-l1-1-0.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll
  - User32.dll
  - MinUser.dll
  - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
@@ -55,13 +64,13 @@ api_name:
 
 ## -description
 
-Enables the mouse to act as a pointer input device and send <a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
+Enables the mouse to act as a pointer input device and send <a href="/windows/win32/inputmsg/messages">WM_POINTER</a> messages.
 
 ## -parameters
 
 ### -param fEnable [in]
 
-<b>TRUE</b> to turn on mouse input support in <a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>.
+<b>TRUE</b> to turn on mouse input support in <a href="/windows/win32/inputmsg/messages">WM_POINTER</a>.
 
 ## -returns
 
@@ -81,7 +90,7 @@ Call <a href="/windows/desktop/api/winuser/nf-winuser-ismouseinpointerenabled">I
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>
 
 
 
@@ -89,4 +98,4 @@ Call <a href="/windows/desktop/api/winuser/nf-winuser-ismouseinpointerenabled">I
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>
+<a href="/windows/win32/inputmsg/messages">WM_POINTER</a>

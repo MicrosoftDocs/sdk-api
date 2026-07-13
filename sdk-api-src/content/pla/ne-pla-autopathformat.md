@@ -56,43 +56,43 @@ Defines how to decorate the file name or subdirectory name.
 
 ## -enum-fields
 
-### -field plaNone
+### -field plaNone:0
 
 Do not decorate the name.
 
-### -field plaPattern
+### -field plaPattern:0x1
 
 Add a pattern to the name. The pattern is specified in  the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">IDataCollector::FileNameFormatPattern</a> or <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern">IDataCollectorSet::SubdirectoryFormatPattern</a> property.
 
-### -field plaComputer
+### -field plaComputer:0x2
 
 Prefix the name with the computer name.
 
-### -field plaMonthDayHour
+### -field plaMonthDayHour:0x100
 
 Append the month, day, and hour to the name, in the form MMddHH.
 
-### -field plaSerialNumber
+### -field plaSerialNumber:0x200
 
 Append the serial number specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_serialnumber">IDataCollectorSet::SerialNumber</a> property to the subdirectory name in the form NNNNNN.
 
-### -field plaYearDayOfYear
+### -field plaYearDayOfYear:0x400
 
 Append the year and day of the year to the name, in the form yyyyDDD.
 
-### -field plaYearMonth
+### -field plaYearMonth:0x800
 
 Append the year and month to the name, in the form yyyyMM.
 
-### -field plaYearMonthDay
+### -field plaYearMonthDay:0x1000
 
 Append the year, month, and day to the name, in the form yyyyMMdd.
 
-### -field plaYearMonthDayHour
+### -field plaYearMonthDayHour:0x2000
 
 Append the year, month, day, and hour to the name, in the form yyyyMMddHH.
 
-### -field plaMonthDayHourMinute
+### -field plaMonthDayHourMinute:0x4000
 
 Append the month, day, hour, and minute to the name, in the form MMddHHmm.
 

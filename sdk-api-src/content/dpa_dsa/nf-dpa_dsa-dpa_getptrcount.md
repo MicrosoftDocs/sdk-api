@@ -6,7 +6,7 @@ helpviewer_keywords: ["DPA_GetPtrCount","DPA_GetPtrCount macro [Windows Controls
 old-location: controls\DPA_GetPtrCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DPA_GetPtrCount, DPA_GetPtrCount macro [Windows Controls], _shell_DPA_GetPtrCount, _shell_DPA_GetPtrCount_cpp, controls.DPA_GetPtrCount, controls._shell_DPA_GetPtrCount, dpa_dsa/DPA_GetPtrCount
 req.header: dpa_dsa.h
 req.include-header: 
@@ -47,6 +47,19 @@ api_name:
 
 # DPA_GetPtrCount macro
 
+## -syntax
+
+```cpp
+int DPA_GetPtrCount(
+  [in] HDPA hdpa
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the number of pointers (elements) the DPA contains.
 
 ## -description
 

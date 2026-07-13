@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>FindRecordProgramMapPid</b> method returns the packet identifier (PID) for the program map table (PMT) associated with a given program number.
 
 ## -parameters

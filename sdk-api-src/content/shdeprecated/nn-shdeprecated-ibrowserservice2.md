@@ -1,7 +1,7 @@
 ---
 UID: NN:shdeprecated.IBrowserService2
 title: IBrowserService2 (shdeprecated.h)
-description: Deprecated.
+description: Deprecated. (IBrowserService2)
 helpviewer_keywords: ["IBrowserService2","IBrowserService2 interface [Windows Shell]","IBrowserService2 interface [Windows Shell]","described","shdeprecated/IBrowserService2","shell.IBrowserService2","zone_IBrowserService2"]
 old-location: shell\IBrowserService2.htm
 tech.root: shell
@@ -55,10 +55,7 @@ Deprecated. <b>IBrowserService2</b> extends <a href="/windows/desktop/api/shdepr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService2</b> interface inherits from <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>. <b>IBrowserService2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IBrowserService2</b> interface inherits from <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>. <b>IBrowserService2</b> also has these types of members:
 
 ## -remarks
 

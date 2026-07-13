@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICGetStateSize","ICGetStateSize macro [Windows Multimedia
 old-location: multimedia\icgetstatesize.htm
 tech.root: Multimedia
 ms.assetid: 386761e8-9234-4541-b593-ce8e323714bf
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICGetStateSize, ICGetStateSize macro [Windows Multimedia], _win32_ICGetStateSize, multimedia.icgetstatesize, vfw/ICGetStateSize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ICGetStateSize macro
+
+## -syntax
+
+```cpp
+DWORD ICGetStateSize(
+     hic
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the amount of memory, in bytes, required by the state information.
 
 
 ## -description

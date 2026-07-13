@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensor interface","SetProperties method","ISensor.SetPro
 old-location: winsensors_com_ref\isensor_setproperties.htm
 tech.root: winsensors
 ms.assetid: f2bed074-fcee-4dbb-a4c1-d5922d65d3b9
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensor interface,SetProperties method, ISensor.SetProperties, ISensor::SetProperties, SetProperties, SetProperties method, SetProperties method,ISensor interface, sensorsapi/ISensor::SetProperties, winsensors_com_ref.isensor_setproperties
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Specifies sensor properties.
 

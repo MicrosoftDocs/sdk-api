@@ -1,12 +1,12 @@
 ---
 UID: NS:mmeapi.tMIXERCONTROLDETAILS_SIGNED
 title: MIXERCONTROLDETAILS_SIGNED (mmeapi.h)
-description: The MIXERCONTROLDETAILS structure refers to control-detail structures, retrieving or setting state information of an audio mixer control.
+description: The MIXERCONTROLDETAILS_SIGNED structure retrieves and sets signed type control properties for an audio mixer control.
 helpviewer_keywords: ["*LPMIXERCONTROLDETAILS_SIGNED","*PMIXERCONTROLDETAILS_SIGNED","0","1","MIXERCONTROL cMultipleItems member","MIXERCONTROLDETAILS","MIXERCONTROLDETAILS hwndOwner member","MIXERCONTROLDETAILS structure [Windows Multimedia]","MIXERCONTROLDETAILS_BOOLEAN","MIXERCONTROLDETAILS_LISTTEXT","MIXERCONTROLDETAILS_SIGNED","MIXERCONTROLDETAILS_UNSIGNED","MIXERLINE cChannels","_win32_MIXERCONTROLDETAILS_str","mmeapi/MIXERCONTROLDETAILS","multimedia.mixercontroldetails","tMIXERCONTROLDETAILS"]
 old-location: multimedia\mixercontroldetails.htm
 tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPMIXERCONTROLDETAILS_SIGNED, *PMIXERCONTROLDETAILS_SIGNED, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS'
 req.header: mmeapi.h
 req.include-header: 

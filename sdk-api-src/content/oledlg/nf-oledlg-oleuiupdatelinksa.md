@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIUpdateLinksA
 title: OleUIUpdateLinksA function (oledlg.h)
-description: Updates all links in the link container and displays a dialog box that shows the progress of the updating process. The process is stopped if the user presses the Stop button or when all links are processed.
-helpviewer_keywords: ["OleUIUpdateLinks","OleUIUpdateLinks function [COM]","OleUIUpdateLinksA","OleUIUpdateLinksW","_ole_OleUIUpdateLinks","com.oleuiupdatelinks","oledlg/OleUIUpdateLinks","oledlg/OleUIUpdateLinksA","oledlg/OleUIUpdateLinksW"]
+description: Updates all links in the link container and displays a dialog box that shows the progress of the updating process. The process is stopped if the user presses the Stop button or when all links are processed. (ANSI)
+helpviewer_keywords: ["OleUIUpdateLinksA", "oledlg/OleUIUpdateLinksA"]
 old-location: com\oleuiupdatelinks.htm
 tech.root: com
 ms.assetid: f280b061-45d8-484d-9fe1-ec4d85288bc6
@@ -87,4 +87,4 @@ Returns <b>TRUE</b> if the links were successfully updated; otherwise, <b>FALSE<
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OleUIUpdateLinks as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OleUIUpdateLinks as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

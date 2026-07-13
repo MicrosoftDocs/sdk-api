@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsExtractRecordsFromMessage_W
 title: DnsExtractRecordsFromMessage_W function (windns.h)
-description: The DnsExtractRecordsFromMessage function type extracts resource records (RR) from a DNS message, and stores those records in a DNS_RECORD structure.
+description: The DnsExtractRecordsFromMessage function type extracts resource records (RR) from a DNS message, and stores those records in a DNS_RECORD structure. (DnsExtractRecordsFromMessage_W)
 helpviewer_keywords: ["DnsExtractRecordsFromMessage","DnsExtractRecordsFromMessage_UTF8","DnsExtractRecordsFromMessage_W","DnsExtractRecordsFromMessage_W function [DNS]","_dns_dnsextractrecordsfrommessage","dns.dnsextractrecordsfrommessage","windns/DnsExtractRecordsFromMessage_UTF8","windns/DnsExtractRecordsFromMessage_W"]
 old-location: dns\dnsextractrecordsfrommessage.htm
 tech.root: DNS
@@ -53,7 +53,7 @@ api_name:
 
 The 
 <b>DnsExtractRecordsFromMessage</b> function type extracts resource records (RR) from a DNS message, and stores those records in a 
-<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure. Like many DNS functions, the 
+<a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a> structure. Like many DNS functions, the 
 <b>DnsExtractRecordsFromMessage</b> function type is implemented in multiple forms to facilitate different character encoding. Based on the character encoding involved, use one of the following functions:
 <ul>
 <li>
@@ -71,7 +71,7 @@ The
 
 ### -param pDnsBuffer [in]
 
-A pointer to a <a href="/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains the DNS response message.
+A pointer to a <a href="/windows/desktop/api/windnsdef/ns-windnsdef-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains the DNS response message.
 
 ### -param wMessageLength [in]
 
@@ -80,7 +80,7 @@ The size, in bytes, of the message in
 
 ### -param ppRecord [out]
 
-A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the list of extracted RRs. To free these records, use the 
+A pointer to a <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a> structure that contains the list of extracted RRs. To free these records, use the 
 <a href="/windows/desktop/api/windns/nf-windns-dnsrecordlistfree">DnsRecordListFree</a> function.
 
 ## -returns
@@ -93,22 +93,26 @@ The <b>DnsExtractRecordsFromMessage</b> function is designed to operate on messa
 
 The following declaration for <b>DnsExtractRecordsFromMessage_UTF8</b> can be found in Windns.h.
 
-<pre class="syntax" xml:space="preserve"><code>DNS_STATUS
+
+``` syntax
+DNS_STATUS
 WINAPI
 DnsExtractRecordsFromMessage_UTF8(
     __in            PDNS_MESSAGE_BUFFER pDnsBuffer,
     __in            WORD                wMessageLength,
     __deref_out     PDNS_RECORD *       ppRecord
     );
-</code></pre>
+
+```
+
 
 ## -see-also
 
-<a href="/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
+<a href="/windows/desktop/api/windnsdef/ns-windnsdef-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
 
 
 
-<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a>
 
 
 

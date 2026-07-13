@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzOperation.put_Description
 title: IAzOperation::put_Description (azroles.h)
-description: The Description property of IAzOperation sets or retrieves a comment that describes the operation.
+description: The Description property of IAzOperation sets or retrieves a comment that describes the operation. (Put)
 helpviewer_keywords: ["AzOperation object [Security]","Description property","Description property [Security]","Description property [Security]","AzOperation object","Description property [Security]","IAzOperation interface","IAzOperation interface [Security]","Description property","IAzOperation.Description","IAzOperation.put_Description","IAzOperation::Description","IAzOperation::get_Description","IAzOperation::put_Description","azroles/IAzOperation::Description","azroles/IAzOperation::get_Description","azroles/IAzOperation::put_Description","put_Description","security.iazoperation_description"]
 old-location: security\iazoperation_description.htm
 tech.root: security

@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CLSIDFromProgIDEx
 title: CLSIDFromProgIDEx function (objbase.h)
-description: Triggers automatic installation if the COMClassStore policy is enabled.
+description: The CLSIDFromProgIDEx function (objbase.h) triggers automatic installation if the COMClassStore policy is enabled.
 helpviewer_keywords: ["CLSIDFromProgIDEx","CLSIDFromProgIDEx function [COM]","_com_CLSIDFromProgIDEx","com.clsidfromprogidex","combaseapi/CLSIDFromProgIDEx"]
 old-location: com\clsidfromprogidex.htm
 tech.root: com
 ms.assetid: 2f937ac1-b214-482a-af4b-8cc8c0c585c3
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: CLSIDFromProgIDEx, CLSIDFromProgIDEx function [COM], _com_CLSIDFromProgIDEx, com.clsidfromprogidex, combaseapi/CLSIDFromProgIDEx
 req.header: objbase.h
 req.include-header: Objbase.h
@@ -40,6 +40,12 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-com-ole32-l1-4-0.dll
+ - ext-ms-win-com-ole32-l1-3-0.dll
+ - ext-ms-win-com-ole32-l1-2-0.dll
+ - ext-ms-win-com-ole32-l1-1-5.dll
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
 api_name:
  - CLSIDFromProgIDEx

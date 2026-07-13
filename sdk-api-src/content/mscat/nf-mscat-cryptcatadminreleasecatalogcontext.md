@@ -58,11 +58,11 @@ The <b>CryptCATAdminReleaseCatalogContext</b> function releases a handle to a ca
 
 ### -param hCatAdmin [in]
 
-Handle previously assigned by the  <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext">CryptCATAdminAcquireContext</a> function.
+Valid handle previously assigned by the  <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext">CryptCATAdminAcquireContext</a> function.
 
 ### -param hCatInfo [in]
 
-Handle previously assigned by the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminaddcatalog">CryptCATAdminAddCatalog</a> function or the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminenumcatalogfromhash">CryptCATAdminEnumCatalogFromHash</a> function.
+Valid handle previously assigned by the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminaddcatalog">CryptCATAdminAddCatalog</a> function or the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatadminenumcatalogfromhash">CryptCATAdminEnumCatalogFromHash</a> function.
 
 ### -param dwFlags [in]
 

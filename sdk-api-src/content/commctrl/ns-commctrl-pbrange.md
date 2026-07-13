@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_7
+UID: NS:commctrl.PBRANGE
 title: PBRANGE (commctrl.h)
 description: Contains information about the high and low limits of a progress bar control. This structure is used with the PBM_GETRANGE message.
 helpviewer_keywords: ["*PPBRANGE","PBRANGE","PBRANGE structure [Windows Controls]","PPBRANGE","PPBRANGE structure pointer [Windows Controls]","_win32_PBRANGE","_win32_PBRANGE_cpp","commctrl/PBRANGE","commctrl/PPBRANGE","controls.PBRANGE","controls._win32_PBRANGE"]
@@ -67,3 +67,4 @@ Low limit for the progress bar control. This is a signed integer.
 Type: <b>int</b>
 
 High limit for the progress bar control. This is a signed integer.
+

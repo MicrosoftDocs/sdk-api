@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVAudioChannelConfig","codecapi/eAVAudioChannel
 old-location: dshow\eavaudiochannelconfig.htm
 tech.root: dshow
 ms.assetid: 8835b00b-048b-404a-9ecc-84baeb70df66
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVAudioChannelConfig, codecapi/eAVAudioChannelConfig_BACK_CENTER, codecapi/eAVAudioChannelConfig_BACK_LEFT, codecapi/eAVAudioChannelConfig_BACK_RIGHT, codecapi/eAVAudioChannelConfig_FRONT_CENTER, codecapi/eAVAudioChannelConfig_FRONT_LEFT, codecapi/eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER, codecapi/eAVAudioChannelConfig_FRONT_RIGHT, codecapi/eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER, codecapi/eAVAudioChannelConfig_LOW_FREQUENCY, codecapi/eAVAudioChannelConfig_SIDE_LEFT, codecapi/eAVAudioChannelConfig_SIDE_RIGHT, codecapi/eAVAudioChannelConfig_TOP_BACK_CENTER, codecapi/eAVAudioChannelConfig_TOP_BACK_LEFT, codecapi/eAVAudioChannelConfig_TOP_BACK_RIGHT, codecapi/eAVAudioChannelConfig_TOP_CENTER, codecapi/eAVAudioChannelConfig_TOP_FRONT_CENTER, codecapi/eAVAudioChannelConfig_TOP_FRONT_LEFT, codecapi/eAVAudioChannelConfig_TOP_FRONT_RIGHT, dshow.eavaudiochannelconfig, eAVAudioChannelConfig, eAVAudioChannelConfig enumeration [DirectShow], eAVAudioChannelConfigEnumeration, eAVAudioChannelConfig_BACK_CENTER, eAVAudioChannelConfig_BACK_LEFT, eAVAudioChannelConfig_BACK_RIGHT, eAVAudioChannelConfig_FRONT_CENTER, eAVAudioChannelConfig_FRONT_LEFT, eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER, eAVAudioChannelConfig_FRONT_RIGHT, eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER, eAVAudioChannelConfig_LOW_FREQUENCY, eAVAudioChannelConfig_SIDE_LEFT, eAVAudioChannelConfig_SIDE_RIGHT, eAVAudioChannelConfig_TOP_BACK_CENTER, eAVAudioChannelConfig_TOP_BACK_LEFT, eAVAudioChannelConfig_TOP_BACK_RIGHT, eAVAudioChannelConfig_TOP_CENTER, eAVAudioChannelConfig_TOP_FRONT_CENTER, eAVAudioChannelConfig_TOP_FRONT_LEFT, eAVAudioChannelConfig_TOP_FRONT_RIGHT
 req.header: codecapi.h
 req.include-header: 
@@ -50,79 +50,81 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Specifies the speaker configuration for the audio channels in the audio bit stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avaudiochannelconfig-property">AVAudioChannelConfig</a> property.
 
 ## -enum-fields
 
-### -field eAVAudioChannelConfig_FRONT_LEFT
+### -field eAVAudioChannelConfig_FRONT_LEFT:0x1
 
 Front left
 
-### -field eAVAudioChannelConfig_FRONT_RIGHT
+### -field eAVAudioChannelConfig_FRONT_RIGHT:0x2
 
 Front right
 
-### -field eAVAudioChannelConfig_FRONT_CENTER
+### -field eAVAudioChannelConfig_FRONT_CENTER:0x4
 
 Front center
 
-### -field eAVAudioChannelConfig_LOW_FREQUENCY
+### -field eAVAudioChannelConfig_LOW_FREQUENCY:0x8
 
 Low frequency effect (LFE)
 
-### -field eAVAudioChannelConfig_BACK_LEFT
+### -field eAVAudioChannelConfig_BACK_LEFT:0x10
 
 Back left
 
-### -field eAVAudioChannelConfig_BACK_RIGHT
+### -field eAVAudioChannelConfig_BACK_RIGHT:0x20
 
 Back right
 
-### -field eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER
+### -field eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER:0x40
 
 Front, left of center
 
-### -field eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER
+### -field eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER:0x80
 
 Front, right of center
 
-### -field eAVAudioChannelConfig_BACK_CENTER
+### -field eAVAudioChannelConfig_BACK_CENTER:0x100
 
 Back center
 
-### -field eAVAudioChannelConfig_SIDE_LEFT
+### -field eAVAudioChannelConfig_SIDE_LEFT:0x200
 
 Side left
 
-### -field eAVAudioChannelConfig_SIDE_RIGHT
+### -field eAVAudioChannelConfig_SIDE_RIGHT:0x400
 
 Side right
 
-### -field eAVAudioChannelConfig_TOP_CENTER
+### -field eAVAudioChannelConfig_TOP_CENTER:0x800
 
 Top center
 
-### -field eAVAudioChannelConfig_TOP_FRONT_LEFT
+### -field eAVAudioChannelConfig_TOP_FRONT_LEFT:0x1000
 
 Top, front left
 
-### -field eAVAudioChannelConfig_TOP_FRONT_CENTER
+### -field eAVAudioChannelConfig_TOP_FRONT_CENTER:0x2000
 
 Top, front center
 
-### -field eAVAudioChannelConfig_TOP_FRONT_RIGHT
+### -field eAVAudioChannelConfig_TOP_FRONT_RIGHT:0x4000
 
 Top, front right
 
-### -field eAVAudioChannelConfig_TOP_BACK_LEFT
+### -field eAVAudioChannelConfig_TOP_BACK_LEFT:0x8000
 
 Top, back left
 
-### -field eAVAudioChannelConfig_TOP_BACK_CENTER
+### -field eAVAudioChannelConfig_TOP_BACK_CENTER:0x10000
 
 Top, back center
 
-### -field eAVAudioChannelConfig_TOP_BACK_RIGHT
+### -field eAVAudioChannelConfig_TOP_BACK_RIGHT:0x20000 
 
 Top, back right
 

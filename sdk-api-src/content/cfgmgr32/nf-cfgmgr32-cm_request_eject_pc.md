@@ -52,7 +52,7 @@ api_name:
 
 The <b>CM_Request_Eject_PC</b> function requests that a portable PC, which is inserted in a local <a href="/windows-hardware/drivers/">docking station</a>, be ejected.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.DeregisterEventSource
 title: DeregisterEventSource function (winbase.h)
-description: Closes the specified event log.
+description: Closes the specified event log. (DeregisterEventSource)
 helpviewer_keywords: ["DeregisterEventSource","DeregisterEventSource function","_win32_deregistereventsource","base.deregistereventsource","winbase/DeregisterEventSource"]
 old-location: base\deregistereventsource.htm
 tech.root: base
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-eventlog-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-EventLog-Legacy-l1-1-0.dll
  - advapi32legacy.dll

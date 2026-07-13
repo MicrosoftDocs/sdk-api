@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3d11_4.lib
-req.dll: D3d11_4.dll
+req.lib: D3d11.lib
+req.dll: D3d11.dll
 req.irql: 
 targetos: Windows
 req.typenames: 

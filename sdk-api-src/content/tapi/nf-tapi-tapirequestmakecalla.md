@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.tapiRequestMakeCallA
 title: tapiRequestMakeCallA function (tapi.h)
-description: The tapiRequestMakeCall function requests the establishment of a voice call. A call-manager application is responsible for establishing the call on behalf of the requesting application, which is then controlled by the user's call-manager application.
-helpviewer_keywords: ["_tapi2_tapirequestmakecall","tapi/tapiRequestMakeCall","tapi/tapiRequestMakeCallA","tapi/tapiRequestMakeCallW","tapi2.tapirequestmakecall","tapiRequestMakeCall","tapiRequestMakeCall function [TAPI 2.2]","tapiRequestMakeCallA","tapiRequestMakeCallW"]
+description: The tapiRequestMakeCall function requests the establishment of a voice call. A call-manager application is responsible for establishing the call on behalf of the requesting application, which is then controlled by the user's call-manager application. (tapiRequestMakeCallA)
+helpviewer_keywords: ["tapi/tapiRequestMakeCallA", "tapiRequestMakeCallA"]
 old-location: tapi2\tapirequestmakecall.htm
 tech.root: tapi3
 ms.assetid: bdbc1565-6570-4fad-890c-fb3965cce452
@@ -92,7 +92,7 @@ Invoking
 
 
 > [!NOTE]
-> The tapi.h header defines tapiRequestMakeCall as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines tapiRequestMakeCall as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

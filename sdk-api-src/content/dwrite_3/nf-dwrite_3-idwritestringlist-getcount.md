@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetCount","GetCount method [Direct Write]","GetCount meth
 old-location: directwrite\idwritestringlist_getcount.htm
 tech.root: DirectWrite
 ms.assetid: F185D57A-65F2-4EFA-9C93-DFA89F3FAB01
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetCount, GetCount method [Direct Write], GetCount method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetCount method, IDWriteStringList.GetCount, IDWriteStringList::GetCount, directwrite.idwritestringlist_getcount, dwrite_3/IDWriteStringList::GetCount
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of strings in the string list.
 
-## -parameters
+
 
 ## -returns
 

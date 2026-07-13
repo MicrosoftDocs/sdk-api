@@ -1,12 +1,12 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_CLASS
 title: CLUSTER_RESOURCE_CLASS (clusapi.h)
-description: Defines the class of a resource.
+description: CLUSTER_RESOURCE_CLASS (clusapi.h) defines the class of a resource.
 helpviewer_keywords: ["CLUSTER_RESOURCE_CLASS","CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster]","CLUS_RESCLASS_NETWORK","CLUS_RESCLASS_STORAGE","CLUS_RESCLASS_UNKNOWN","CLUS_RESCLASS_USER","_CLUSTER_RESOURCE_CLASS","_CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster]","clusapi/CLUSTER_RESOURCE_CLASS","clusapi/CLUS_RESCLASS_NETWORK","clusapi/CLUS_RESCLASS_STORAGE","clusapi/CLUS_RESCLASS_UNKNOWN","clusapi/CLUS_RESCLASS_USER","clusapi/_CLUSTER_RESOURCE_CLASS","msclus/CLUSTER_RESOURCE_CLASS","msclus/CLUS_RESCLASS_NETWORK","msclus/CLUS_RESCLASS_STORAGE","msclus/CLUS_RESCLASS_UNKNOWN","msclus/CLUS_RESCLASS_USER","msclus/_CLUSTER_RESOURCE_CLASS","mscs.cluster_resource_class"]
 old-location: mscs\cluster_resource_class.htm
 tech.root: MsCS
 ms.assetid: 65168256-f097-48a5-9e86-ec419ccb13bd
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_RESOURCE_CLASS, CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, _CLUSTER_RESOURCE_CLASS, _CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_CLASS, clusapi/CLUS_RESCLASS_NETWORK, clusapi/CLUS_RESCLASS_STORAGE, clusapi/CLUS_RESCLASS_UNKNOWN, clusapi/CLUS_RESCLASS_USER, clusapi/_CLUSTER_RESOURCE_CLASS, msclus/CLUSTER_RESOURCE_CLASS, msclus/CLUS_RESCLASS_NETWORK, msclus/CLUS_RESCLASS_STORAGE, msclus/CLUS_RESCLASS_UNKNOWN, msclus/CLUS_RESCLASS_USER, msclus/_CLUSTER_RESOURCE_CLASS, mscs.cluster_resource_class
 req.header: clusapi.h
 req.include-header: 
@@ -55,7 +55,7 @@ Defines the class of a resource.
 
 ## -enum-fields
 
-### -field CLUS_RESCLASS_UNKNOWN
+### -field CLUS_RESCLASS_UNKNOWN:0
 
 Resource class is unknown.
 
@@ -68,7 +68,7 @@ Resource is a storage device, such as a
 
 Resource is a <a href="/previous-versions/windows/desktop/mscs/n-gly">network</a> device.
 
-### -field CLUS_RESCLASS_USER
+### -field CLUS_RESCLASS_USER:32768
 
 Resource classes beginning at this value are user-defined.
 

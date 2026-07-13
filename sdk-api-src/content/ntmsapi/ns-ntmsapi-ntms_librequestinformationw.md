@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_LIBREQUESTINFORMATIONW
 title: NTMS_LIBREQUESTINFORMATIONW (ntmsapi.h)
-description: The NTMS_LIBREQUESTINFORMATION structure defines the properties specific to a work request, which are queued to RSM.
+description: The NTMS_LIBREQUESTINFORMATION structure defines the properties specific to a work request, which are queued to RSM. (Unicode)
 helpviewer_keywords: ["NTMS_LIBREQUESTINFORMATION","NTMS_LIBREQUESTINFORMATION structure [Files]","NTMS_LIBREQUESTINFORMATIONA","NTMS_LIBREQUESTINFORMATIONW","NTMS_LM_CANCELLED","NTMS_LM_CLASSIFY","NTMS_LM_CLEANDRIVE","NTMS_LM_DISABLEDRIVE","NTMS_LM_DISABLELIBRARY","NTMS_LM_DISABLEMEDIA","NTMS_LM_DISMOUNT","NTMS_LM_DOORACCESS","NTMS_LM_EJECT","NTMS_LM_EJECTCLEANER","NTMS_LM_ENABLEDRIVE","NTMS_LM_ENABLELIBRARY","NTMS_LM_ENABLEMEDIA","NTMS_LM_FAILED","NTMS_LM_INJECT","NTMS_LM_INJECTCLEANER","NTMS_LM_INPROCESS","NTMS_LM_INVALID","NTMS_LM_INVENTORY","NTMS_LM_MOUNT","NTMS_LM_PASSED","NTMS_LM_PROCESSOMID","NTMS_LM_QUEUED","NTMS_LM_RELEASECLEANER","NTMS_LM_REMOVE","NTMS_LM_RESERVECLEANER","NTMS_LM_UPDATEOMID","NTMS_LM_WAITING","NTMS_LM_WRITESCRATCH","_NTMS_LIBREQUESTINFORMATIONA","_NTMS_LIBREQUESTINFORMATIONW","_zaw_ntms_librequestinformation","base.ntms_librequestinformation","fs.ntms_librequestinformation","ntmsapi/NTMS_LIBREQUESTINFORMATION"]
 old-location: fs\ntms_librequestinformation.htm
 tech.root: fs
@@ -447,7 +447,7 @@ GUID in the work times may become not valid over time. For example, an eject of 
 
 
 > [!NOTE]
-> The ntmsapi.h header defines NTMS_LIBREQUESTINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines NTMS_LIBREQUESTINFORMATION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

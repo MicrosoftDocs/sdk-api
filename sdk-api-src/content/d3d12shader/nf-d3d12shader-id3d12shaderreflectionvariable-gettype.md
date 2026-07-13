@@ -52,7 +52,7 @@ api_name:
 
 Gets a shader-variable type.
 
-## -parameters
+
 
 ## -returns
 

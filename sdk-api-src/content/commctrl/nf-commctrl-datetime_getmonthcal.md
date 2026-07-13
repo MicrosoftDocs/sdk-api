@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_GetMonthCal","DateTime_GetMonthCal macro [Window
 old-location: controls\DateTime_GetMonthCal.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcal.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_GetMonthCal, DateTime_GetMonthCal macro [Windows Controls], _win32_DateTime_GetMonthCal, _win32_DateTime_GetMonthCal_cpp, commctrl/DateTime_GetMonthCal, controls.DateTime_GetMonthCal, controls._win32_DateTime_GetMonthCal
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # DateTime_GetMonthCal macro
+
+## -syntax
+
+```cpp
+HWND DateTime_GetMonthCal(
+   HWND hdp
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to a DTP control's child month calendar control.
 
 
 ## -description

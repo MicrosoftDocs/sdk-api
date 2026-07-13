@@ -86,7 +86,7 @@ For the <b>GetVirtualDiskPhysicalPath</b>
     function to succeed, the virtual disk referred to by the <i>VirtualDiskHandle</i> parameter 
     must be attached, the physical disk object must be to be located by the system, and the 
     <i>DiskPath</i> parameter must refer to a buffer large enough to hold the resulting path. This 
-    path is in the form \\.&#92;<i>PhysicalDriveX</i> where <i>X</i> 
+    path is in the form &#92;&#92;.&#92;<i>PhysicalDriveX</i> where <i>X</i> 
     is an integer that represents the particular enumeration of the physical disk on the caller's system.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 

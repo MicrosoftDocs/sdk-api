@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.AssertResourceState
 title: ID3D12DebugCommandList::AssertResourceState (d3d12sdklayers.h)
-description: Checks whether a resource, or subresource, is in a specified state, or not.
+description: Checks whether a resource, or subresource, is in a specified state, or not. (ID3D12DebugCommandList.AssertResourceState)
 helpviewer_keywords: ["AssertResourceState","AssertResourceState method","AssertResourceState method","ID3D12DebugCommandList interface","ID3D12DebugCommandList interface","AssertResourceState method","ID3D12DebugCommandList.AssertResourceState","ID3D12DebugCommandList::AssertResourceState","d3d12sdklayers/ID3D12DebugCommandList::AssertResourceState","direct3d12.id3d12debugcommandlist_assertresourcestate"]
 old-location: direct3d12\id3d12debugcommandlist_assertresourcestate.htm
 tech.root: direct3d12

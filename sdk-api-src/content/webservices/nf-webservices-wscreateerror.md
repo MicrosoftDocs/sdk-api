@@ -118,4 +118,4 @@ When you no long need the error object, free it by calling  the <a href="/window
 By default, the
                 language of any language-dependent information in the error object is  the current 
                 user default UI language. However, you can change the language by setting 
-                the WS_ERROR_PROPERTY_LANGID property. See the the <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.
+                the WS_ERROR_PROPERTY_LANGID property. See the <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.

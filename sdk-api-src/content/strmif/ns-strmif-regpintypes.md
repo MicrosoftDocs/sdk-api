@@ -6,7 +6,7 @@ helpviewer_keywords: ["AMOVIESETUP_MEDIATYPE","AMOVIESETUP_MEDIATYPE structure [
 old-location: dshow\regpintypes.htm
 tech.root: dshow
 ms.assetid: aa31f856-4151-420d-a69d-34ef3a105130
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AMOVIESETUP_MEDIATYPE, AMOVIESETUP_MEDIATYPE structure [DirectShow], LPAMOVIESETUP_MEDIATYPE, LPAMOVIESETUP_MEDIATYPE structure pointer [DirectShow], PAMOVIESETUP_MEDIATYPE, PAMOVIESETUP_MEDIATYPE structure pointer [DirectShow], REGPINTYPES, REGPINTYPES structure [DirectShow], REGPINTYPESStructure, dshow.regpintypes, strmif/AMOVIESETUP_MEDIATYPE, strmif/LPAMOVIESETUP_MEDIATYPE, strmif/PAMOVIESETUP_MEDIATYPE, strmif/REGPINTYPES
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>REGPINTYPES</code> structure contains media type information for registering a filter.
 

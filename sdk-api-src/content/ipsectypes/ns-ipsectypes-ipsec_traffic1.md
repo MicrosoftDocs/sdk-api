@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC1_
 title: IPSEC_TRAFFIC1 (ipsectypes.h)
-description: Specifies parameters to describe IPsec traffic.
+description: Specifies parameters to describe IPsec traffic. (IPSEC_TRAFFIC1)
 helpviewer_keywords: ["IPSEC_TRAFFIC1","IPSEC_TRAFFIC1 structure [Filtering]","fwp.ipsec_traffic1_struct","ipsectypes/IPSEC_TRAFFIC1"]
 old-location: fwp\ipsec_traffic1_struct.htm
 tech.root: fwp

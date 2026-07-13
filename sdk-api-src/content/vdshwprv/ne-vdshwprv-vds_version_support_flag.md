@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_VERSION_SUPPORT_FLAG
 title: VDS_VERSION_SUPPORT_FLAG (vdshwprv.h)
-description: Indicate which versions of the VDS interfaces are supported.
+description: The VDS_VERSION_SUPPORT_FLAG enumeration (vdshwprv.h) indicates which versions of the VDS interfaces are supported.  
 helpviewer_keywords: ["VDS_VERSION_SUPPORT_FLAG","VDS_VERSION_SUPPORT_FLAG enumeration","VDS_VSF_1_0","VDS_VSF_1_1","VDS_VSF_2_0","VDS_VSF_2_1","VDS_VSF_3_0","base.vds_version_support_flag","vds/VDS_VERSION_SUPPORT_FLAG","vds/VDS_VSF_1_0","vds/VDS_VSF_1_1","vds/VDS_VSF_2_0","vds/VDS_VSF_2_1","vds/VDS_VSF_3_0","vdshwprv/VDS_VERSION_SUPPORT_FLAG","vdshwprv/VDS_VSF_1_0","vdshwprv/VDS_VSF_1_1","vdshwprv/VDS_VSF_2_0","vdshwprv/VDS_VSF_2_1","vdshwprv/VDS_VSF_3_0"]
 old-location: base\vds_version_support_flag.htm
 tech.root: base
 ms.assetid: c145070f-587f-42d7-bde9-3bf0cdba8444
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_VERSION_SUPPORT_FLAG, VDS_VERSION_SUPPORT_FLAG enumeration, VDS_VSF_1_0, VDS_VSF_1_1, VDS_VSF_2_0, VDS_VSF_2_1, VDS_VSF_3_0, base.vds_version_support_flag, vds/VDS_VERSION_SUPPORT_FLAG, vds/VDS_VSF_1_0, vds/VDS_VSF_1_1, vds/VDS_VSF_2_0, vds/VDS_VSF_2_1, vds/VDS_VSF_3_0, vdshwprv/VDS_VERSION_SUPPORT_FLAG, vdshwprv/VDS_VSF_1_0, vdshwprv/VDS_VSF_1_1, vdshwprv/VDS_VSF_2_0, vdshwprv/VDS_VSF_2_1, vdshwprv/VDS_VSF_3_0
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,24 +53,24 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Used to 
     indicate which versions of the VDS interfaces are supported.
 
 ## -enum-fields
 
-### -field VDS_VSF_1_0
+### -field VDS_VSF_1_0:0x1
 
 Indicates that the VDS 1.0 interfaces are supported. VDS 1.0 is supported on 
       Windows Server 2003 and later.
 
-### -field VDS_VSF_1_1
+### -field VDS_VSF_1_1:0x2
 
 Indicates that the VDS 1.1 interfaces are supported. VDS 1.1 is supported on 
       Windows Server 2003 R2 and later.
 
-### -field VDS_VSF_2_0
+### -field VDS_VSF_2_0:0x4
 
 Indicates that the VDS 2.0 interfaces are supported. VDS 2.0 is supported on Windows Vista and 
       later.
@@ -78,7 +78,7 @@ Indicates that the VDS 2.0 interfaces are supported. VDS 2.0 is supported on Win
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003 R2:  </b>This value is not supported.
 
-### -field VDS_VSF_2_1
+### -field VDS_VSF_2_1:0x8
 
 Indicates that the VDS 2.1 interfaces are supported. VDS 2.1 is supported on Windows Vista with SP1,  
       Windows Server 2008, and later.
@@ -86,7 +86,7 @@ Indicates that the VDS 2.1 interfaces are supported. VDS 2.1 is supported on Win
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003 R2:  </b>This value is not supported.
 
-### -field VDS_VSF_3_0
+### -field VDS_VSF_3_0:0x10
 
 Indicates that the VDS 3.0 interfaces are supported. VDS 3.0 is supported on Windows 7, 
       Windows Server 2008 R2, and later.

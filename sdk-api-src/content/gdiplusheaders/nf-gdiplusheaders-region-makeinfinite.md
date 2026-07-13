@@ -53,7 +53,7 @@ api_name:
 
 The <b>Region::MakeInfinite</b> method updates this region to an infinite region.
 
-## -parameters
+
 
 ## -returns
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_RecalcSize","Pager_RecalcSize macro [Windows Contro
 old-location: controls\Pager_RecalcSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_recalcsize.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_RecalcSize, Pager_RecalcSize macro [Windows Controls], _win32_Pager_RecalcSize, _win32_Pager_RecalcSize_cpp, commctrl/Pager_RecalcSize, controls.Pager_RecalcSize, controls._win32_Pager_RecalcSize
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # Pager_RecalcSize macro
+
+## -syntax
+
+```cpp
+void Pager_RecalcSize(
+   HWND hwnd
+);
+```
 
 
 ## -description

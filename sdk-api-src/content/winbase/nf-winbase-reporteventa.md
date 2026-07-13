@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.ReportEventA
 title: ReportEventA function (winbase.h)
-description: Writes an entry at the end of the specified event log.
-helpviewer_keywords: ["EVENTLOG_AUDIT_FAILURE","EVENTLOG_AUDIT_SUCCESS","EVENTLOG_ERROR_TYPE","EVENTLOG_INFORMATION_TYPE","EVENTLOG_SUCCESS","EVENTLOG_WARNING_TYPE","ReportEvent","ReportEvent function","ReportEventA","ReportEventW","_win32_reportevent","base.reportevent","winbase/ReportEvent","winbase/ReportEventA","winbase/ReportEventW"]
+description: Writes an entry at the end of the specified event log. (ANSI)
+helpviewer_keywords: ["EVENTLOG_AUDIT_FAILURE", "EVENTLOG_AUDIT_SUCCESS", "EVENTLOG_ERROR_TYPE", "EVENTLOG_INFORMATION_TYPE", "EVENTLOG_SUCCESS", "EVENTLOG_WARNING_TYPE", "ReportEventA", "winbase/ReportEventA"]
 old-location: base\reportevent.htm
 tech.root: base
 ms.assetid: e39273c3-9e42-41a1-9ec1-1cdff2ab7b55
@@ -279,7 +279,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winbase.h header defines ReportEvent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines ReportEvent as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

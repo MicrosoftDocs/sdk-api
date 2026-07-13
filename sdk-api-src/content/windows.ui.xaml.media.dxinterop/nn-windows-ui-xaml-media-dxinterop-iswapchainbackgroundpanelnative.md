@@ -54,10 +54,7 @@ Provides interoperation between XAML and a DirectX swap chain.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISwapChainBackgroundPanelNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISwapChainBackgroundPanelNative</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISwapChainBackgroundPanelNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISwapChainBackgroundPanelNative</b> also has these types of members:
 
 ## -remarks
 

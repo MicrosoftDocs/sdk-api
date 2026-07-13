@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IObjectIds.get__NewEnum
 title: IObjectIds::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (IObjectIds.get__NewEnum)
 helpviewer_keywords: ["IObjectIds interface [Security]","_NewEnum property","IObjectIds._NewEnum","IObjectIds.get__NewEnum","IObjectIds::_NewEnum","IObjectIds::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","IObjectIds interface","certenroll/IObjectIds::_NewEnum","certenroll/IObjectIds::get__NewEnum","get__NewEnum","security.iobjectids__newenum_property"]
 old-location: security\iobjectids__newenum_property.htm
 tech.root: security

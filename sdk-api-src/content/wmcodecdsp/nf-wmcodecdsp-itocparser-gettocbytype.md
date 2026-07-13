@@ -64,7 +64,7 @@ A globally unique identifier (<b>GUID</b>) that specifies the type of table of c
 
 ### -param ppTocs [out]
 
-Pointer to an <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoccollection">ITocCollection</a> interface that represents the colleciton of retrieved tables of contents.
+Pointer to an <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoccollection">ITocCollection</a> interface that represents the collection of retrieved tables of contents.
 
 ## -returns
 

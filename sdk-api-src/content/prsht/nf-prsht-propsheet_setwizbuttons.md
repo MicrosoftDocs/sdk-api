@@ -6,7 +6,7 @@ helpviewer_keywords: ["PSWIZB_BACK","PSWIZB_DISABLEDFINISH","PSWIZB_FINISH","PSW
 old-location: controls\PropSheet_SetWizButtons.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setwizbuttons.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PSWIZB_BACK, PSWIZB_DISABLEDFINISH, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetWizButtons, PropSheet_SetWizButtons macro [Windows Controls], _win32_PropSheet_SetWizButtons, _win32_PropSheet_SetWizButtons_cpp, controls.PropSheet_SetWizButtons, controls._win32_PropSheet_SetWizButtons, prsht/PropSheet_SetWizButtons
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_SetWizButtons macro
+
+## -syntax
+
+```cpp
+VOID PropSheet_SetWizButtons(
+   HWND  hDlg,
+   DWORD dwFlags
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

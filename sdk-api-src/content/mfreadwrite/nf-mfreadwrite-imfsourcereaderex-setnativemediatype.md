@@ -125,7 +125,7 @@ Invalid request.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDSTREAMNUMBER</b></b></dt>
+<dt><b>MF_E_INVALIDSTREAMNUMBER</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -54,13 +54,13 @@ Specifies a value for the SVG overflow property.
 
 ## -enum-fields
 
-### -field D2D1_SVG_OVERFLOW_VISIBLE
+### -field D2D1_SVG_OVERFLOW_VISIBLE:0
 
 The element is not clipped to its viewport.
 
-### -field D2D1_SVG_OVERFLOW_HIDDEN
+### -field D2D1_SVG_OVERFLOW_HIDDEN:1
 
 The element is clipped to its viewport.
 
-### -field D2D1_SVG_OVERFLOW_FORCE_DWORD
+### -field D2D1_SVG_OVERFLOW_FORCE_DWORD:0xffffffff
 

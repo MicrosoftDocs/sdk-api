@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_KillTimeOut
 title: IFsrmActionCommand::get_KillTimeOut (fsrm.h)
-description: Retrieves or sets the number of minutes the server waits before terminating the process that is running the executable program specified in the ExecutablePath property.
+description: Retrieves or sets the number of minutes the server waits before terminating the process that is running the executable program specified in the ExecutablePath property. (Get)
 helpviewer_keywords: ["IFsrmActionCommand interface [File Server Resource Manager]","KillTimeOut property","IFsrmActionCommand.KillTimeOut","IFsrmActionCommand.get_KillTimeOut","IFsrmActionCommand::KillTimeOut","IFsrmActionCommand::get_KillTimeOut","IFsrmActionCommand::put_KillTimeOut","KillTimeOut property [File Server Resource Manager]","KillTimeOut property [File Server Resource Manager]","IFsrmActionCommand interface","fs.ifsrmactioncommand_killtimeout","fsrm.ifsrmactioncommand_killtimeout","fsrm/IFsrmActionCommand::KillTimeOut","fsrm/IFsrmActionCommand::get_KillTimeOut","fsrm/IFsrmActionCommand::put_KillTimeOut","get_KillTimeOut"]
 old-location: fsrm\ifsrmactioncommand_killtimeout.htm
 tech.root: fsrm

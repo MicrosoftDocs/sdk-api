@@ -49,7 +49,7 @@ api_name:
 
 Increments the reference count for an interface pointer to a COM object. You should call this method whenever you make a copy of an interface pointer
 
-## -parameters
+
 
 ## -returns
 

@@ -55,6 +55,9 @@ The <b>FNOPEN</b> macro provides the declaration for the application-defined cal
 
 The name of the file.
 
+In the case of a file in the cabinet, the name comes directly from the cabinet file.
+If the cabinet file is malicious, the name may contain illegal or malicious file name characters.
+
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/z0kc8e3z(VS.71).aspx">_open</a>.

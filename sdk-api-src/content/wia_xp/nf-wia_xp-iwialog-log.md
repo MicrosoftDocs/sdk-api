@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaLog.Log
 title: IWiaLog::Log (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaLog.Log)
 helpviewer_keywords: ["IWiaLog interface [WIA]","Log method","IWiaLog.Log","IWiaLog::Log","Log","Log method [WIA]","Log method [WIA]","IWiaLog interface","_wia_IWiaLog_Log","wia._wia_IWiaLog_Log","wia_xp/IWiaLog::Log"]
 old-location: wia\_wia_IWiaLog_Log.htm
 tech.root: wia
@@ -43,6 +43,7 @@ api_location:
  - Wiaservc.dll
 api_name:
  - IWiaLog.Log
+archived: true
 ---
 
 # IWiaLog::Log
@@ -74,5 +75,5 @@ Type: <b>BSTR</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

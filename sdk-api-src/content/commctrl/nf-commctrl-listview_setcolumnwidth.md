@@ -6,7 +6,7 @@ helpviewer_keywords: ["LVSCW_AUTOSIZE","LVSCW_AUTOSIZE_USEHEADER","ListView_SetC
 old-location: controls\ListView_SetColumnWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnwidth.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: LVSCW_AUTOSIZE, LVSCW_AUTOSIZE_USEHEADER, ListView_SetColumnWidth, ListView_SetColumnWidth macro [Windows Controls], _win32_ListView_SetColumnWidth, _win32_ListView_SetColumnWidth_cpp, commctrl/ListView_SetColumnWidth, controls.ListView_SetColumnWidth, controls._win32_ListView_SetColumnWidth
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_SetColumnWidth macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetColumnWidth(
+   HWND hwnd,
+   int  iCol,
+   int  cx
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

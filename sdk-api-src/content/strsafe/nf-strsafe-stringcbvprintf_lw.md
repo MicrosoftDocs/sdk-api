@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbVPrintf_lW
 title: StringCbVPrintf_lW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
-helpviewer_keywords: ["StringCbVPrintf_l","StringCbVPrintf_l function [Menus and Other Resources]","StringCbVPrintf_lA","StringCbVPrintf_lW","menurc.stringcbvprintf_l","strsafe/StringCbVPrintf_l","strsafe/StringCbVPrintf_lA","strsafe/StringCbVPrintf_lW"]
+description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCbVPrintf_lW)
+helpviewer_keywords: ["StringCbVPrintf_l", "StringCbVPrintf_l function [Menus and Other Resources]", "StringCbVPrintf_lW", "menurc.stringcbvprintf_l", "strsafe/StringCbVPrintf_l", "strsafe/StringCbVPrintf_lW"]
 old-location: menurc\stringcbvprintf_l.htm
 tech.root: menurc
 ms.assetid: e3e39151-03f7-4d85-91a0-d353122e6b4b
@@ -138,4 +138,4 @@ In order to use this function, you must define the following macro in your heade
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCbVPrintf_l as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCbVPrintf_l as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

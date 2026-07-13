@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPie(constBrush,REAL,REAL,REAL,REAL,REAL,REAL)
 title: Graphics::FillPie(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::FillPie method uses a brush to fill the interior of a pie.
+description: The Graphics::FillPie method uses a brush to fill the interior of a pie. (overload 1/4)
 helpviewer_keywords: ["FillPie","FillPie method [GDI+]","FillPie method [GDI+]","Graphics class","Graphics class [GDI+]","FillPie method","Graphics.FillPie","Graphics.FillPie(IN const Brush","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","Graphics.FillPie(const Brush*","REAL","REAL","REAL","REAL","REAL","REAL)","Graphics::FillPie","Graphics::FillPie(IN const Brush","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REA","gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REA"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REA.htm
 tech.root: gdiplus

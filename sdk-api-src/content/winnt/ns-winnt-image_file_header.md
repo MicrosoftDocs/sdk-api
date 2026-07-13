@@ -63,45 +63,7 @@ Represents the COFF header format.
 The architecture type of the computer. An image file can only be run on the specified computer or a system 
       that emulates the specified computer. This member can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_FILE_MACHINE_I386"></a><a id="image_file_machine_i386"></a><dl>
-<dt><b>IMAGE_FILE_MACHINE_I386</b></dt>
-<dt>0x014c</dt>
-</dl>
-</td>
-<td width="60%">
-x86
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_FILE_MACHINE_IA64"></a><a id="image_file_machine_ia64"></a><dl>
-<dt><b>IMAGE_FILE_MACHINE_IA64</b></dt>
-<dt>0x0200</dt>
-</dl>
-</td>
-<td width="60%">
-Intel Itanium
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_FILE_MACHINE_AMD64"></a><a id="image_file_machine_amd64"></a><dl>
-<dt><b>IMAGE_FILE_MACHINE_AMD64</b></dt>
-<dt>0x8664</dt>
-</dl>
-</td>
-<td width="60%">
-x64
-
-</td>
-</tr>
-</table>
+For a complete list of valid Machine types and supported architectures, see the [PE Format](/windows/win32/debug/pe-format#machine-types) documentation.
 
 ### -field NumberOfSections
 

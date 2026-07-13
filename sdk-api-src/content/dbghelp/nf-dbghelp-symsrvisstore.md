@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvIsStore
 title: SymSrvIsStore function (dbghelp.h)
-description: Determines whether the specified path points to a symbol store.
+description: The SymSrvIsStore function (dbghelp.h) determines whether the specified path points to a symbol store.
 helpviewer_keywords: ["SymSrvIsStore","SymSrvIsStore function","SymSrvIsStoreW","base.symsrvisstore","dbghelp/SymSrvIsStore","dbghelp/SymSrvIsStoreW"]
 old-location: base\symsrvisstore.htm
 tech.root: Debug
 ms.assetid: 7fbec886-c1b7-4d17-9813-af7812b4abb9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvIsStore, SymSrvIsStore function, SymSrvIsStoreW, base.symsrvisstore, dbghelp/SymSrvIsStore, dbghelp/SymSrvIsStoreW
 req.header: dbghelp.h
 req.include-header: 

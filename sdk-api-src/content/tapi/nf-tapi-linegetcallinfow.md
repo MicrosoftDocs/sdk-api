@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetCallInfoW
 title: lineGetCallInfoW function (tapi.h)
-description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
-helpviewer_keywords: ["_tapi2_linegetcallinfo","lineGetCallInfo","lineGetCallInfo function [TAPI 2.2]","lineGetCallInfoA","lineGetCallInfoW","tapi/lineGetCallInfo","tapi/lineGetCallInfoA","tapi/lineGetCallInfoW","tapi2.linegetcallinfo"]
+description: The lineGetCallInfoW (Unicode) function (tapi.h) enables an application to obtain fixed information about the specified call.
+helpviewer_keywords: ["_tapi2_linegetcallinfo", "lineGetCallInfo", "lineGetCallInfo function [TAPI 2.2]", "lineGetCallInfoW", "tapi/lineGetCallInfo", "tapi/lineGetCallInfoW", "tapi2.linegetcallinfo"]
 old-location: tapi2\linegetcallinfo.htm
 tech.root: tapi3
 ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo
 req.header: tapi.h
 req.include-header: 
@@ -85,7 +85,7 @@ A separate
 
 
 > [!NOTE]
-> The tapi.h header defines lineGetCallInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetCallInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

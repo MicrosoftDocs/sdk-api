@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass2.put_MultiInterfacePublisherFilterCLSID
 title: IEventClass2::put_MultiInterfacePublisherFilterCLSID (eventsys.h)
-description: The CLSID of the object implementing IMultiInterfacePublisherFilter.
+description: The CLSID of the object implementing IMultiInterfacePublisherFilter. (Put)
 helpviewer_keywords: ["IEventClass2 interface [COM+]","MultiInterfacePublisherFilterCLSID property","IEventClass2.MultiInterfacePublisherFilterCLSID","IEventClass2.put_MultiInterfacePublisherFilterCLSID","IEventClass2::MultiInterfacePublisherFilterCLSID","IEventClass2::get_MultiInterfacePublisherFilterCLSID","IEventClass2::put_MultiInterfacePublisherFilterCLSID","MultiInterfacePublisherFilterCLSID property [COM+]","MultiInterfacePublisherFilterCLSID property [COM+]","IEventClass2 interface","_cos_IEventClass2_get_MultiInterfacePublisherFilterCLSID","_cos_IEventClass2_put_MultiInterfacePublisherFilterCLSID","cos.ieventclass2_multiinterfacepublisherfilterclsid","eventsys/IEventClass2::MultiInterfacePublisherFilterCLSID","eventsys/IEventClass2::get_MultiInterfacePublisherFilterCLSID","eventsys/IEventClass2::put_MultiInterfacePublisherFilterCLSID","put_MultiInterfacePublisherFilterCLSID"]
 old-location: cos\ieventclass2_multiinterfacepublisherfilterclsid.htm
 tech.root: cos

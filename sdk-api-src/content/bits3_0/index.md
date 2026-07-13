@@ -4,7 +4,8 @@ title: Bits3_0.h header
 ms.assetid: 0e1fdd81-288b-33f8-83cd-c6c35f4e5c7d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: bits
 f1_keywords:
  - bits3_0

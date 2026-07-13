@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidGenericSink2.ResetFilterList
 title: IMSVidGenericSink2::ResetFilterList (segment.h)
-description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 helpviewer_keywords: ["IMSVidGenericSink2 interface [Microsoft TV Technologies]","ResetFilterList method","IMSVidGenericSink2.ResetFilterList","IMSVidGenericSink2::ResetFilterList","IMSVidGenericSink2ResetFilterList","ResetFilterList","ResetFilterList method [Microsoft TV Technologies]","ResetFilterList method [Microsoft TV Technologies]","IMSVidGenericSink2 interface","mstv.imsvidgenericsink2_resetfilterlist","segment/IMSVidGenericSink2::ResetFilterList"]
 old-location: mstv\imsvidgenericsink2_resetfilterlist.htm
 tech.root: mstv
@@ -50,15 +50,17 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.</div>
-<div> </div>
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.</div>
+<div> </div>
 
 
 
 
 The <b>ResetFilterList</b> method clears the list of filters that were added using <a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink2-addfilter">IMSVidGenericSink2::AddFilter</a>.
 
-## -parameters
+
 
 ## -returns
 

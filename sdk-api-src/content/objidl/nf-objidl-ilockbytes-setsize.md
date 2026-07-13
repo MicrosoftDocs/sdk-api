@@ -62,6 +62,12 @@ Specifies the new size of the byte array as a number of bytes.
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The size of the byte array was successfully changed.|
+|STG_E_ACCESSDENIED | The caller does not have permission to access the byte array.|
+|STG_E_MEDIUMFULL | The byte array size is not changed because there is no space left on the storage device.|
+
 ## -remarks
 
 <b>ILockBytes::SetSize</b> changes the size of the byte array. If the <i>cb</i> parameter is larger than the current byte array, the byte array is extended to the indicated size by filling the intervening space with bytes of undefined value, as does 

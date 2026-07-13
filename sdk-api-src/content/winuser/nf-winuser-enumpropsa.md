@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.EnumPropsA
 title: EnumPropsA function (winuser.h)
-description: Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. EnumProps continues until the last entry is enumerated or the callback function returns FALSE.
-helpviewer_keywords: ["EnumProps","EnumProps function [Windows and Messages]","EnumPropsA","EnumPropsW","_win32_EnumProps","_win32_enumprops_cpp","winmsg.enumprops","winui._win32_enumprops","winuser/EnumProps","winuser/EnumPropsA","winuser/EnumPropsW"]
+description: Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. EnumProps continues until the last entry is enumerated or the callback function returns FALSE. (ANSI)
+helpviewer_keywords: ["EnumPropsA", "winuser/EnumPropsA"]
 old-location: winmsg\enumprops.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\enumprops.htm
@@ -40,6 +40,13 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
+ - ext-ms-win-ntuser-window-l1-1-4.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - ext-ms-win-ntuser-window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-0.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
  - minuser.dll
@@ -88,7 +95,7 @@ An application can remove only those properties it has added. It must not remove
 
 
 > [!NOTE]
-> The winuser.h header defines EnumProps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines EnumProps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

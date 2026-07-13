@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_ProtoInfoA
 title: SecPkgContext_ProtoInfoA (sspi.h)
-description: The SecPkgContext_ProtoInfo structure holds information about the protocol in use.
+description: The SecPkgContext_ProtoInfo structure holds information about the protocol in use. (ANSI)
 helpviewer_keywords: ["*PSecPkgContext_ProtoInfoA","PSecPkgContext_ProtoInfo","PSecPkgContext_ProtoInfo structure pointer [Security]","SecPkgContext_ProtoInfo","SecPkgContext_ProtoInfo structure [Security]","SecPkgContext_ProtoInfoA","SecPkgContext_ProtoInfoW","_ssp_secpkgcontext_protoinfo","security.secpkgcontext_protoinfo","sspi/PSecPkgContext_ProtoInfo","sspi/SecPkgContext_ProtoInfo"]
 old-location: security\secpkgcontext_protoinfo.htm
 tech.root: security
@@ -77,4 +77,4 @@ Minor version number.
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines SecPkgContext_ProtoInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines SecPkgContext_ProtoInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.put_Value
 title: IFsrmClassificationRule::put_Value (fsrmpipeline.h)
-description: The value that this rule will set the property to.
+description: The value that this rule will set the property to. (Put)
 helpviewer_keywords: ["IFsrmClassificationRule interface [File Server Resource Manager]","Value property","IFsrmClassificationRule.Value","IFsrmClassificationRule.put_Value","IFsrmClassificationRule::Value","IFsrmClassificationRule::get_Value","IFsrmClassificationRule::put_Value","Value property [File Server Resource Manager]","Value property [File Server Resource Manager]","IFsrmClassificationRule interface","fs.ifsrmclassificationrule_value","fsrm.ifsrmclassificationrule_value","fsrmpipeline/IFsrmClassificationRule::Value","fsrmpipeline/IFsrmClassificationRule::get_Value","fsrmpipeline/IFsrmClassificationRule::put_Value","put_Value"]
 old-location: fsrm\ifsrmclassificationrule_value.htm
 tech.root: fsrm

@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-networking-wcmapi-l1-1-1.dll
  - Wcmapi.dll
  - Ext-MS-Win-networking-wcmapi-l1-1-0.dll
 api_name:

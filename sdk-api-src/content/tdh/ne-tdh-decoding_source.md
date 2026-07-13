@@ -49,7 +49,6 @@ api_name:
 
 # DECODING_SOURCE enumeration
 
-
 ## -description
 
 Defines the source of the event data.
@@ -75,5 +74,4 @@ Indicates that the event was a self-describing event and was decoded using Trace
 ### -field DecodingSourceMax
 
 ## -see-also
-
-<a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
+[TRACE_EVENT_INFO structure](ns-tdh-trace_event_info.md)

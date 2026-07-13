@@ -6,7 +6,7 @@ helpviewer_keywords: ["JOBOBJECT_IO_RATE_CONTROL_INFORMATION","JOBOBJECT_IO_RATE
 old-location: base\jobobject_io_rate_control_information.htm
 tech.root: backup
 ms.assetid: E4AA03B5-4D83-4826-B85D-FA4B412AFEBF
-ms.date: 12/05/2018
+ms.date: 01/09/2025
 ms.keywords: JOBOBJECT_IO_RATE_CONTROL_INFORMATION, JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure, JOB_OBJECT_IO_RATE_CONTROL_ENABLE, base.jobobject_io_rate_control_information, jobapi2/JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 req.header: jobapi2.h
 req.include-header: 
@@ -46,6 +46,8 @@ api_name:
 ---
 
 ## -description
+
+**Windows 10, version 1607, and newer: This structure is not supported.**
 
 Contains information used to control the I/O rate for a job. This structure is used by the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setioratecontrolinformationjobobject">SetIoRateControlInformationJobObject</a> and <a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject">QueryIoRateControlInformationJobObject</a> functions.
 
@@ -114,8 +116,6 @@ Turns on control of the I/O rate for the job when this structure is passed to th
 
 ## -remarks
 
-<div class="alert"><b>Important</b>  Starting with Windows 10, version 1607, this structure is no longer supported.</div>
-<div> </div>
 You can only set one I/O rate control for a job in a hierarchy of nested jobs. The settings that you specify apply to that job and the child jobs in the hierarchy for that job.  The settings do not apply to the chain of jobs from the parent job up to the top of the hierarchy. You still can change the settings for the original job in the hierarchy on which you set I/O rate control. However, attempts to set values for the control of the I/O rate for any other jobs in the hierarchy, including the parent jobs, fail.
 
 ## -see-also

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DPAS_INSERTAFTER","DPAS_INSERTBEFORE","DPA_SortedInsertPt
 old-location: controls\DPA_SortedInsertPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_sortedinsertptr.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPA_SortedInsertPtr, DPA_SortedInsertPtr macro [Windows Controls], _shell_DPA_SortedInsertPtr, _shell_DPA_SortedInsertPtr_cpp, controls.DPA_SortedInsertPtr, controls._shell_DPA_SortedInsertPtr, dpa_dsa/DPA_SortedInsertPtr
 req.header: dpa_dsa.h
 req.include-header: 
@@ -47,6 +47,25 @@ api_name:
 
 # DPA_SortedInsertPtr macro
 
+## -syntax
+
+```cpp
+int DPA_SortedInsertPtr(
+   HDPA          hdpa,
+   void          *pFind,
+   int           iStart,
+   PFNDPACOMPARE pfnCompare,
+   LPARAM        lParam,
+   UINT          options,
+   void          *pitem
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the new item, or <code>-1</code> if the insert action fails.
 
 ## -description
 
@@ -82,7 +101,7 @@ A pointer to the comparison function. See <a href="/windows/desktop/api/dpa_dsa/
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-An additional parameter used to pass information to the comparison function pointed to by <i>pfnCmp</i>.
+An additional parameter used to pass information to the comparison function pointed to by <i>pfnCompare</i>.
 
 ### -param options
 

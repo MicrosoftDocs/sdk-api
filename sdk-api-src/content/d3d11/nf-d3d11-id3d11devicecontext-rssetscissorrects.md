@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetScissorRects
 title: ID3D11DeviceContext::RSSetScissorRects (d3d11.h)
-description: Bind an array of scissor rectangles to the rasterizer stage.
+description: Bind an array of scissor rectangles to the rasterizer stage. (ID3D11DeviceContext.RSSetScissorRects)
 helpviewer_keywords: ["28026545-0d38-beff-91cf-a929caef1657","ID3D11DeviceContext interface [Direct3D 11]","RSSetScissorRects method","ID3D11DeviceContext.RSSetScissorRects","ID3D11DeviceContext::RSSetScissorRects","RSSetScissorRects","RSSetScissorRects method [Direct3D 11]","RSSetScissorRects method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::RSSetScissorRects","direct3d11.id3d11devicecontext_rssetscissorrects"]
 old-location: direct3d11\id3d11devicecontext_rssetscissorrects.htm
 tech.root: direct3d11

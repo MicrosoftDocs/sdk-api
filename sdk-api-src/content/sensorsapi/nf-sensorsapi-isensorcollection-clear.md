@@ -6,7 +6,7 @@ helpviewer_keywords: ["Clear","Clear method","Clear method","ISensorCollection i
 old-location: winsensors_com_ref\isensorcollection_clear.htm
 tech.root: winsensors
 ms.assetid: 03b2345b-1d06-449e-9ecf-ecce9aa60c08
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: Clear, Clear method, Clear method,ISensorCollection interface, ISensorCollection interface,Clear method, ISensorCollection.Clear, ISensorCollection::Clear, sensorsapi/ISensorCollection::Clear, winsensors_com_ref.isensorcollection_clear
 req.header: sensorsapi.h
 req.include-header: 
@@ -50,9 +50,14 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 Empties the sensor collection.
 
-## -parameters
+
 
 ## -returns
 

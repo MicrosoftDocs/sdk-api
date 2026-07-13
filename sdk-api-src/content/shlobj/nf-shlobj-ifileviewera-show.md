@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.IFileViewerA.Show
 title: IFileViewerA::Show
-description: Displays a file.
+description: Displays a file. (ANSI)
 helpviewer_keywords: ["IFileViewerA::Show"]
 tech.root: shell
 ms.assetid: 7555b40b-62c1-467a-b9d5-324fd1a7fd8e

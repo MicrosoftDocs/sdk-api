@@ -124,7 +124,7 @@ Indicates that the <b>ShareMode</b> and <b>AccessMode</b> members
 
 If the <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag is set and the 
       <b>OPLOCK_LEVEL_CACHE_HANDLE</b> level is being lost in an oplock break, contains the access 
-      mode mode of the request that is causing the break.
+      mode of the request that is causing the break.
 
 ### -field ShareMode
 

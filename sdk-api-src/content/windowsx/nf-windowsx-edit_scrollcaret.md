@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_ScrollCaret","Edit_ScrollCaret macro [Windows Contro
 old-location: controls\Edit_ScrollCaret.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scrollcaretl.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_ScrollCaret, Edit_ScrollCaret macro [Windows Controls], _win32_Edit_ScrollCaret, _win32_Edit_ScrollCaret_cpp, controls.Edit_ScrollCaret, controls._win32_Edit_ScrollCaret, windowsx/Edit_ScrollCaret
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_ScrollCaret macro
+
+## -syntax
+
+```cpp
+BOOL Edit_ScrollCaret(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+The return value is not meaningful.
 
 
 ## -description

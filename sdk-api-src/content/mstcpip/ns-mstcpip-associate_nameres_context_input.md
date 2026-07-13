@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 The <b>ASSOCIATE_NAMERES_CONTEXT_INPUT</b> structure contains the transport setting ID and handle to a fully qualified domain name.
 

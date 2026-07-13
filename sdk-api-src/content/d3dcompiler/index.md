@@ -4,7 +4,8 @@ title: D3Dcompiler.h header
 ms.assetid: 5437a1f1-b60b-368e-9e51-3efdb5f4d7fb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: direct3dhlsl
 f1_keywords:
  - d3dcompiler

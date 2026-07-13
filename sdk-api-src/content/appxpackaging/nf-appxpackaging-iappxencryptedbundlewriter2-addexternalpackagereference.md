@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter2.AddExternalPackageReference
 title: IAppxEncryptedBundleWriter2::AddExternalPackageReference (appxpackaging.h)
-description: Adds a reference within the encrypted package bundle to an external app package.
+description: Adds a reference within the encrypted package bundle to an external app package. (IAppxEncryptedBundleWriter2.AddExternalPackageReference)
 helpviewer_keywords: ["AddExternalPackageReference","AddExternalPackageReference method [App packaging and management]","AddExternalPackageReference method [App packaging and management]","IAppxEncryptedBundleWriter2 interface","IAppxEncryptedBundleWriter2 interface [App packaging and management]","AddExternalPackageReference method","IAppxEncryptedBundleWriter2.AddExternalPackageReference","IAppxEncryptedBundleWriter2::AddExternalPackageReference","appxpackaging/IAppxEncryptedBundleWriter2::AddExternalPackageReference","appxpkg.iappxencryptedbundlewriter2_addexternalpackagereference"]
 old-location: appxpkg\iappxencryptedbundlewriter2_addexternalpackagereference.htm
 tech.root: appxpkg
@@ -64,7 +64,7 @@ An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that prov
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

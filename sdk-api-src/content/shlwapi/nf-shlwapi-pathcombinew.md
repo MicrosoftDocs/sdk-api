@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathCombineW
 title: PathCombineW function (shlwapi.h)
-description: Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
-helpviewer_keywords: ["PathCombine","PathCombine function [Windows Shell]","PathCombineA","PathCombineW","_win32_PathCombine","shell.PathCombine","shlwapi/PathCombine","shlwapi/PathCombineA","shlwapi/PathCombineW"]
+description: Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements. (Unicode)
+helpviewer_keywords: ["PathCombine", "PathCombine function [Windows Shell]", "PathCombineW", "_win32_PathCombine", "shell.PathCombine", "shlwapi/PathCombine", "shlwapi/PathCombineW"]
 old-location: shell\PathCombine.htm
 tech.root: shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-shlwapi-l1-1-0.dll
  - Shlwapi.dll
  - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
  - KernelBase.dll
@@ -144,4 +145,4 @@ The combined path is             C:\One\Two\Three
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathCombine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathCombine as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-biometrics-winbio-core-l1-1-6.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-5.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-4.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-3.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-2.dll
  - Winbio.dll
  - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
  - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
@@ -89,7 +94,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +105,7 @@ The calling account is not allowed to perform enrollment.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +116,7 @@ The session handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +127,7 @@ The pointer specified by the <i>RejectDetail</i> parameter cannot be <b>NULL</b>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_BAD_CAPTURE</b></b></dt>
+<dt><b>WINBIO_E_BAD_CAPTURE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,7 +138,7 @@ The sample could not be captured. Use the <i>RejectDetail</i> value for more inf
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_LOCK_VIOLATION</b></b></dt>
+<dt><b>WINBIO_E_LOCK_VIOLATION</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -144,7 +149,7 @@ The biometric unit is in use and is locked.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_I_MORE_DATA</b></b></dt>
+<dt><b>WINBIO_I_MORE_DATA</b></dt>
 </dl>
 </td>
 <td width="60%">

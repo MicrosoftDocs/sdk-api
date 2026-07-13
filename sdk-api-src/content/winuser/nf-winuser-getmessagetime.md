@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-message-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-message-l1-1-0.dll
  - ie_shims.dll
@@ -61,7 +63,7 @@ req.apiset: ext-ms-win-ntuser-message-l1-1-1 (introduced in Windows 8.1)
 
 Retrieves the message time for the last message retrieved by the <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> function. The time is a long integer that specifies the elapsed time, in milliseconds, from the time the system was started to the time the message was created (that is, placed in the thread's message queue).
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tagMIXERCONTROLA
 title: MIXERCONTROLA (mmeapi.h)
-description: The MIXERCONTROL structure describes the state and metrics of a single control for an audio line.
+description: The MIXERCONTROL structure describes the state and metrics of a single control for an audio line. (mixercontrola)
 helpviewer_keywords: ["*LPMIXERCONTROLA","*PMIXERCONTROLA","MIXERCONTROL","MIXERCONTROL structure [Windows Multimedia]","MIXERCONTROL","*PMIXERCONTROL","FAR *PMIXERCONTROL","MIXERCONTROL","*PMIXERCONTROL","FAR *PMIXERCONTROL structure [Windows Multimedia]","MIXERCONTROLA","MIXERCONTROL_CONTROLF_DISABLED","MIXERCONTROL_CONTROLF_MULTIPLE","MIXERCONTROL_CONTROLF_UNIFORM","MIXERCONTROL_CT_CLASS_CUSTOM","MIXERCONTROL_CT_CLASS_FADER","MIXERCONTROL_CT_CLASS_LIST","MIXERCONTROL_CT_CLASS_METER","MIXERCONTROL_CT_CLASS_NUMBER","MIXERCONTROL_CT_CLASS_SLIDER","MIXERCONTROL_CT_CLASS_SWITCH","MIXERCONTROL_CT_CLASS_TIME","_win32_MIXERCONTROL_str","mmeapi/MIXERCONTROL","multimedia.mixercontrol","tMIXERCONTROL","tagMIXERCONTROLA","tagMIXERCONTROLW"]
 old-location: multimedia\mixercontrol.htm
 tech.root: Multimedia
@@ -274,4 +274,4 @@ Audio Mixers
 ## -remarks
 
 > [!NOTE]
-> The mmeapi.h header defines MIXERCONTROL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines MIXERCONTROL as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,12 +1,12 @@
 ---
 UID: NF:ntmsapi.CreateNtmsMediaPoolW
 title: CreateNtmsMediaPoolW function (ntmsapi.h)
-description: The CreateNtmsMediaPool function creates a new application media pool.
-helpviewer_keywords: ["CreateNtmsMediaPool","CreateNtmsMediaPool function [Files]","CreateNtmsMediaPoolA","CreateNtmsMediaPoolW","NTMS_CREATE_NEW","NTMS_OPEN_ALWAYS","NTMS_OPEN_EXISTING","_zaw_createntmsmediapool","base.createntmsmediapool","fs.createntmsmediapool","ntmsapi/CreateNtmsMediaPool","ntmsapi/CreateNtmsMediaPoolA","ntmsapi/CreateNtmsMediaPoolW"]
+description: The CreateNtmsMediaPoolW (Unicode) function creates a new application media pool. (CreateNtmsMediaPoolW)
+helpviewer_keywords: ["CreateNtmsMediaPool", "CreateNtmsMediaPool function [Files]", "CreateNtmsMediaPoolW", "NTMS_CREATE_NEW", "NTMS_OPEN_ALWAYS", "NTMS_OPEN_EXISTING", "_zaw_createntmsmediapool", "base.createntmsmediapool", "fs.createntmsmediapool", "ntmsapi/CreateNtmsMediaPool", "ntmsapi/CreateNtmsMediaPoolW"]
 old-location: fs\createntmsmediapool.htm
 tech.root: fs
 ms.assetid: a55a8952-2b64-4082-9422-31484c7e777f
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CreateNtmsMediaPool, CreateNtmsMediaPool function [Files], CreateNtmsMediaPoolA, CreateNtmsMediaPoolW, NTMS_CREATE_NEW, NTMS_OPEN_ALWAYS, NTMS_OPEN_EXISTING, _zaw_createntmsmediapool, base.createntmsmediapool, fs.createntmsmediapool, ntmsapi/CreateNtmsMediaPool, ntmsapi/CreateNtmsMediaPoolA, ntmsapi/CreateNtmsMediaPoolW
 req.header: ntmsapi.h
 req.include-header: 
@@ -263,7 +263,7 @@ Application-specific media pools are created by applications. Applications creat
 
 
 > [!NOTE]
-> The ntmsapi.h header defines CreateNtmsMediaPool as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines CreateNtmsMediaPool as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

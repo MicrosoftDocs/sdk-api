@@ -51,58 +51,31 @@ api_name:
 
 ## -description
 
-The <b>BCryptDestroyHash</b> function destroys a hash or <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) object.
+The **BCryptDestroyHash** function destroys a hash or [Message Authentication Code](/windows/win32/SecGloss/m-gly) (MAC) object.
 
 ## -parameters
 
 ### -param hHash [in, out]
 
-The handle of the hash or MAC object to destroy. This handle is obtained by using the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a> function.
+The handle of the hash or MAC object to destroy. This handle is obtained by using the [BCryptCreateHash](nf-bcrypt-bcryptcreatehash.md) function.
 
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
 
+Possible return codes include, but are not limited to, the following:
 
-Possible return codes include, but are not limited to, the following.
-
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The algorithm handle in the <i>hHash</i> parameter is not valid.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **STATUS_SUCCESS** | The function was successful. |
+| **STATUS_INVALID_HANDLE** | The algorithm handle in the *hHash* parameter is not valid. |
 
 ## -remarks
 
-Depending on what processor modes a provider supports, <b>BCryptDestroyHash</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hHash</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
+When using a supported algorithm provider, *BCryptDestroyHash* can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, the handle provided in the *hHash* parameter must be derived from an algorithm handle returned by a provider that was opened by using the **BCRYPT_PROV_DISPATCH** flag.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use Ksecdd.lib.
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a>
+[BCryptCreateHash](nf-bcrypt-bcryptcreatehash.md)

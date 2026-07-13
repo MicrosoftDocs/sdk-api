@@ -66,7 +66,7 @@ An <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfoffset">MFOffset</a> s
 
 ### -field Area
 
-A <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the width and height of the rectangle.
+A <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that contains the width and height of the rectangle.
 
 ## -see-also
 

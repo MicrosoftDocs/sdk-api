@@ -9,7 +9,7 @@ ms.assetid: e22a4910-45dd-4eb6-9ed5-a8e0bcdfad7b
 ms.date: 12/05/2018
 ms.keywords: GetProcessGroupAffinity, GetProcessGroupAffinity function, base.getprocessgroupaffinity, processtopologyapi/GetProcessGroupAffinity, winbase/GetProcessGroupAffinity
 req.header: processtopologyapi.h
-req.include-header: Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -82,6 +82,8 @@ If the function fails, the return value is zero. To get extended error informati
 If the error value is ERROR_INSUFFICIENT_BUFFER, the <i>GroupCount</i> parameter contains the required buffer size in number of elements.
 
 ## -remarks
+
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a>, by default.
 
 To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 

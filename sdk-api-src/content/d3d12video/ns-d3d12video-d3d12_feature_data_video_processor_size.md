@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
 title: D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
-description: Describes the allocation size of a video decoder heap.
+description: Describes the allocation size of a video decoder heap. (D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE)
 tech.root: mf
 ms.date: 4/26/2019
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
 req.umdf-ver: 

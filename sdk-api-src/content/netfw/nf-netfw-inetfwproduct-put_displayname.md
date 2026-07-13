@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProduct.put_DisplayName
 title: INetFwProduct::put_DisplayName (netfw.h)
-description: Indicates the display name for a third-party firewall product registration.
+description: Indicates the display name for a third-party firewall product registration. (Put)
 helpviewer_keywords: ["DisplayName property [ICS/ICF]","DisplayName property [ICS/ICF]","INetFwProduct interface","INetFwProduct interface [ICS/ICF]","DisplayName property","INetFwProduct.DisplayName","INetFwProduct.put_DisplayName","INetFwProduct::DisplayName","INetFwProduct::get_DisplayName","INetFwProduct::put_DisplayName","ics.inetfwproduct_displayname","netfw/INetFwProduct::DisplayName","netfw/INetFwProduct::get_DisplayName","netfw/INetFwProduct::put_DisplayName","put_DisplayName"]
 old-location: ics\inetfwproduct_displayname.htm
 tech.root: ics

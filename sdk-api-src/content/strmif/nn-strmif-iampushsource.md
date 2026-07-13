@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMPushSource","IAMPushSource interface [DirectShow]","IA
 old-location: dshow\iampushsource.htm
 tech.root: dshow
 ms.assetid: 5ab294a8-f250-405c-a589-68998bc04cdf
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource interface [DirectShow],described, IAMPushSourceInterface, dshow.iampushsource, strmif/IAMPushSource
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,16 +51,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IAMPushSource</code> interface synchronizes a filter graph that renders a live source. A live source is a source that streams data in real time, such as a capture device or a network broadcast.
 
 Source filters that stream live data should expose this interface on their output pins. Generally, applications should not call the methods on this interface; instead, use the <a href="/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMPushSource</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-iamlatency">IAMLatency</a>. <b>IAMPushSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMPushSource</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-iamlatency">IAMLatency</a>. <b>IAMPushSource</b> also has these types of members:
 
 ## -remarks
 

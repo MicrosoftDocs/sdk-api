@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SortItems","ListView_SortItems macro [Windows Co
 old-location: controls\ListView_SortItems.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortitems.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SortItems, ListView_SortItems macro [Windows Controls], _win32_ListView_SortItems, _win32_ListView_SortItems_cpp, commctrl/ListView_SortItems, controls.ListView_SortItems, controls._win32_ListView_SortItems
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # ListView_SortItems macro
 
+## -syntax
+
+```cpp
+BOOL ListView_SortItems(
+   HWND         hwndLV,
+   PFNLVCOMPARE _pfnCompare,
+   LPARAM       _lPrm
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
+
 
 ## -description
 
@@ -76,13 +92,14 @@ The application-defined value that is passed to the comparison function.
 
 The comparison function has the following form.
 
-<pre class="syntax" xml:space="preserve"><code>int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);</code></pre>
-The 
-				<i>lParam1</i> parameter is the value associated with the first item being compared; and the 
-				<i>lParam2</i> parameter is the value associated with the second item. These are the values that were specified in the 
-				<b>lParam</b> member of the items' <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure when they were inserted into the list. The <i>lParamSort</i> parameter is the same value passed to the <a href="/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message. 
 
-The comparison function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent. 
+``` syntax
+int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM _lPrm);
+```
+
+The <i>lParam1</i> parameter is the value associated with the first item being compared; and the <i>lParam2</i> parameter is the value associated with the second item. These are the values that were specified in the <b>lParam</b> member of the items' <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure when they were inserted into the list. The <i>_lPrm</i> parameter is the same value passed to the <a href="/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message.
+
+The comparison function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent.
 
 <div class="alert"><b>Note</b>   During the sorting process, the list-view contents are unstable. If the callback function sends any messages to the list-view control, the results are unpredictable.</div>
 <div> </div>

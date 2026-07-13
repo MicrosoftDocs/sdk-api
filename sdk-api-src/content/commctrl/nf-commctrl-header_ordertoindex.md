@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_OrderToIndex","Header_OrderToIndex macro [Windows 
 old-location: controls\Header_OrderToIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_ordertoindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_OrderToIndex, Header_OrderToIndex macro [Windows Controls], _win32_Header_OrderToIndex, _win32_Header_OrderToIndex_cpp, commctrl/Header_OrderToIndex, controls.Header_OrderToIndex, controls._win32_Header_OrderToIndex
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Header_OrderToIndex macro
+
+## -syntax
+
+```cpp
+int Header_OrderToIndex(
+   HWND hwnd,
+   int  i
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns an <b>int</b> that specifies the index of the item. If <i>i</i> is invalid (negative or too large), the return equals <i>i</i>.
 
 
 ## -description

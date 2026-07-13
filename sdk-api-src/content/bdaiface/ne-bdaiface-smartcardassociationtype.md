@@ -50,15 +50,17 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>SmartCardAssociationType</b> enumeration type specifies a smart card association.
 
 ## -enum-fields
 
-### -field NotAssociated
+### -field NotAssociated:0
 
 Not associated.
 
-### -field Associated
+### -field Associated:0
 
 Associated.
 

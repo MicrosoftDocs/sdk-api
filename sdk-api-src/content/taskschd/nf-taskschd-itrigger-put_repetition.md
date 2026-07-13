@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITrigger.put_Repetition
 title: ITrigger::put_Repetition (taskschd.h)
-description: Gets or sets a value that indicates how often the task is run and how long the repetition pattern is repeated after the task is started.
+description: Gets or sets a value that indicates how often the task is run and how long the repetition pattern is repeated after the task is started. (Put)
 helpviewer_keywords: ["ITrigger interface [Task Scheduler]","Repetition property","ITrigger.Repetition","ITrigger.put_Repetition","ITrigger::Repetition","ITrigger::get_Repetition","ITrigger::put_Repetition","Repetition property [Task Scheduler]","Repetition property [Task Scheduler]","ITrigger interface","put_Repetition","taskschd.itrigger_repetition","taskschd/ITrigger::Repetition","taskschd/ITrigger::get_Repetition","taskschd/ITrigger::put_Repetition"]
 old-location: taskschd\itrigger_repetition.htm
 tech.root: taskschd

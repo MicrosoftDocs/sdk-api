@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.ResolveIpNetEntry2
 title: ResolveIpNetEntry2 function (netioapi.h)
-description: Resolves the physical address for a neighbor IP address entry on the local computer.
+description: Resolves the physical address for a neighbor IP address entry on the local computer. (ResolveIpNetEntry2)
 helpviewer_keywords: ["ResolveIpNetEntry2","ResolveIpNetEntry2 function [IP Helper]","iphlp.resolveipnetentry2","netioapi/ResolveIpNetEntry2"]
 old-location: iphlp\resolveipnetentry2.htm
 tech.root: IpHlp

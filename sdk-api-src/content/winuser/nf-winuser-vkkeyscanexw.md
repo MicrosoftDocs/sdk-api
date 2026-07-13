@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.VkKeyScanExW
 title: VkKeyScanExW function (winuser.h)
-description: Translates a character to the corresponding virtual-key code and shift state. The function translates the character using the input language and physical keyboard layout identified by the input locale identifier.
-helpviewer_keywords: ["VkKeyScanEx","VkKeyScanEx function [Keyboard and Mouse Input]","VkKeyScanExA","VkKeyScanExW","_win32_VkKeyScanEx","_win32_vkkeyscanex_cpp","inputdev.vkkeyscanex","winui._win32_vkkeyscanex","winuser/VkKeyScanEx","winuser/VkKeyScanExA","winuser/VkKeyScanExW"]
+description: Translates a character to the corresponding virtual-key code and shift state. The function translates the character using the input language and physical keyboard layout identified by the input locale identifier. (Unicode)
+helpviewer_keywords: ["VkKeyScanEx", "VkKeyScanEx function [Keyboard and Mouse Input]", "VkKeyScanExW", "_win32_VkKeyScanEx", "_win32_vkkeyscanex_cpp", "inputdev.vkkeyscanex", "winui._win32_vkkeyscanex", "winuser/VkKeyScanEx", "winuser/VkKeyScanExW"]
 old-location: inputdev\vkkeyscanex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\vkkeyscanex.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-keyboard-l1-3-2.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
@@ -174,44 +176,15 @@ Translations for the numeric keypad (VK_NUMPAD0 through VK_DIVIDE) are ignored. 
 
 
 > [!NOTE]
-> The winuser.h header defines VkKeyScanEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines VkKeyScanEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getkeynametexta">GetKeyNameText</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
-
-
-
-<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeynametexta">GetKeyNameText</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

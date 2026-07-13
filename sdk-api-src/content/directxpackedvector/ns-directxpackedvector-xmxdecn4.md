@@ -107,13 +107,13 @@ Those <code>XMXDECN4</code> constructors using floating point arguments require 
 	    rounded and then assigned to the appropriate members of <code>XMXDECN4</code>.
 	
 
-<code>XMXDECN4</code>can be used to load instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from normalized
+<code>XMXDECN4</code> can be used to load instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from normalized
 	    values, by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadxdecn4">XMLoadXDecN4</a>, which divides the x-, y-, and
 	    z-components by 511.0f, the w-component by 3.0f, rounds the result, and then assigns
 	    the components to an <code>XMVECTOR</code> instance.
 	
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMXDECN4</code>using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorexdecn4">XMStoreXDecN4</a>, which multiplies the x-, y-,and z-components by
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMXDECN4</code> using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorexdecn4">XMStoreXDecN4</a>, which multiplies the x-, y-,and z-components by
 	    511.0f, the w-component by 3.0f, rounding the result, before assigning the values to the
 	    appropriate <code>XMXDECN4</code> members.
 	

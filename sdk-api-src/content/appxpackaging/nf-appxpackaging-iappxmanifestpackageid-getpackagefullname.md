@@ -38,9 +38,9 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - DllExport
 api_location:
- - AppxPackaging.h
+ - kernelbase.dll
 api_name:
  - IAppxManifestPackageId.GetPackageFullName
 ---

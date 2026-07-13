@@ -72,7 +72,7 @@ Input flags that identify the controller type. If this value is 0, then the capa
 </tr>
 <tr>
 <td><b>XINPUT_FLAG_GAMEPAD</b></td>
-<td>Limit query to devices of Xbox 360 Controller type.</td>
+<td>Limit query to devices of controller type.</td>
 </tr>
 </table>
  

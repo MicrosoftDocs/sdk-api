@@ -54,23 +54,23 @@ Defines preload hints for the Media Engine. These values correspond to the <b>pr
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_PRELOAD_MISSING
+### -field MF_MEDIA_ENGINE_PRELOAD_MISSING:0
 
 The <b>preload</b> attribute is missing.
 
-### -field MF_MEDIA_ENGINE_PRELOAD_EMPTY
+### -field MF_MEDIA_ENGINE_PRELOAD_EMPTY:1
 
 The <b>preload</b> attribute is an empty string. This value is equivalent to <b>MF_MEDIA_ENGINE_PRELOAD_AUTOMATIC</b>.
 
-### -field MF_MEDIA_ENGINE_PRELOAD_NONE
+### -field MF_MEDIA_ENGINE_PRELOAD_NONE:2
 
 The <b>preload</b> attribute is "none". This value is a hint to the user agent not to preload the resource.
 
-### -field MF_MEDIA_ENGINE_PRELOAD_METADATA
+### -field MF_MEDIA_ENGINE_PRELOAD_METADATA:3
 
 The <b>preload</b> attribute is "metadata". This value is a hint to the user agent to fetch the resource metadata.
 
-### -field MF_MEDIA_ENGINE_PRELOAD_AUTOMATIC
+### -field MF_MEDIA_ENGINE_PRELOAD_AUTOMATIC:4
 
 The <b>preload</b> attribute is "auto". This value is a hint to the user agent to preload the entire resource.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winver.GetFileVersionInfoSizeA
 title: GetFileVersionInfoSizeA function (winver.h)
-description: Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSize returns the size, in bytes, of that information.
-helpviewer_keywords: ["GetFileVersionInfoSize","GetFileVersionInfoSize function [Menus and Other Resources]","GetFileVersionInfoSizeA","GetFileVersionInfoSizeW","_win32_GetFileVersionInfoSize","_win32_getfileversioninfosize_cpp","menurc.getfileversioninfosize","winui._win32_getfileversioninfosize","winver/GetFileVersionInfoSize","winver/GetFileVersionInfoSizeA","winver/GetFileVersionInfoSizeW"]
+description: Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSize returns the size, in bytes, of that information. (ANSI)
+helpviewer_keywords: ["GetFileVersionInfoSizeA", "winver/GetFileVersionInfoSizeA"]
 old-location: menurc\getfileversioninfosize.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosize.htm
@@ -90,7 +90,7 @@ Call the
 
 
 > [!NOTE]
-> The winver.h header defines GetFileVersionInfoSize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winver.h header defines GetFileVersionInfoSize as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

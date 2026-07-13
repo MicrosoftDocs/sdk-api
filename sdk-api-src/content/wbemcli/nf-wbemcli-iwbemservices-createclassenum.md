@@ -116,7 +116,7 @@ This flag causes a forward-only enumerator to be returned. Typically, forward-on
 
 #### WBEM_FLAG_BIDIRECTIONAL
 
-This flag causes WMI to retain pointers to objects of the enumeration until the client releases the enumerator. Because object pointers are not released immediately, this method may fail withan <b>HRESULT</b> of <b>WBEM_E_OUT_OF_MEMORY</b> if the client attempts to enumerate a large number of objects. This flag is implied by default if you set the <i>lFlags</i> parameter to 0 (zero).
+This flag causes WMI to retain pointers to objects of the enumeration until the client releases the enumerator. Because object pointers are not released immediately, this method may fail with an <b>HRESULT</b> of <b>WBEM_E_OUT_OF_MEMORY</b> if the client attempts to enumerate a large number of objects. This flag is implied by default if you set the <i>lFlags</i> parameter to 0 (zero).
 
 ### -param pCtx [in]
 
@@ -130,7 +130,7 @@ Receives the pointer to the enumerator. The returned object has a positive refer
 
 ## -returns
 
-This method returns an <b>HRESULT</b> that indicates the status of a method call. The following list lists the value contained withinan <b>HRESULT</b>.
+This method returns an <b>HRESULT</b> that indicates the status of a method call. The following list lists the value contained within an <b>HRESULT</b>.
 
 On failure, you can obtain available information from the COM function <a href="/windows/win32/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 

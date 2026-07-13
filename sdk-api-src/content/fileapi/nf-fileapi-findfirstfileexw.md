@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.FindFirstFileExW
 title: FindFirstFileExW function (fileapi.h)
-description: Searches a directory for a file or subdirectory with a name and attributes that match those specified.
-helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FIND_FIRST_EX_LARGE_FETCH","FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY","FindFirstFileEx","FindFirstFileEx function [Files]","FindFirstFileExA","FindFirstFileExW","_win32_findfirstfileex","base.findfirstfileex","fileapi/FindFirstFileEx","fileapi/FindFirstFileExA","fileapi/FindFirstFileExW","fs.findfirstfileex","winbase/FindFirstFileEx","winbase/FindFirstFileExA","winbase/FindFirstFileExW"]
+description: Searches a directory for a file or subdirectory with a name and attributes that match those specified. (FindFirstFileExW)
+helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE", "FIND_FIRST_EX_LARGE_FETCH", "FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY", "FindFirstFileEx", "FindFirstFileEx function [Files]", "FindFirstFileExW", "_win32_findfirstfileex", "base.findfirstfileex", "fileapi/FindFirstFileEx", "fileapi/FindFirstFileExW", "fs.findfirstfileex"]
 old-location: fs\findfirstfileex.htm
 tech.root: fs
 ms.assetid: 9f40e98f-153f-4b65-afd9-06742684c100
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -81,7 +84,7 @@ This parameter should not be <b>NULL</b>, an invalid string (for example, an emp
 If the string ends with a wildcard, period, or  directory name, the user must have access to the root and all 
        subdirectories on the path.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
+In the  of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to approximately 32,000 wide characters, call the Unicode version of the function (<b>FindFirstFileExW</b>), and 
        prepend "\\\\?\\" to the path. For more information, see 
        <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
@@ -232,16 +235,17 @@ As stated previously, you cannot use a trailing backslash (\\) in the <i>lpFileN
 </ul>
 <div class="alert"><b>Note</b>  Prepending the string "\\?\" does not allow access to the root directory.</div>
 <div> </div>
+
 On network shares, you can use an <i>lpFileName</i> in the form of the following: 
-    "\\server\service\*". However, you cannot use an <i>lpFileName</i> that points 
-    to the share itself; for example, "\\server\service" is not valid.
+    "\\\\server\\service\\*". However, you cannot use an <i>lpFileName</i> that points 
+    to the share itself; for example, "\\\\server\\service" is not valid.
 
 To examine a directory that is not a root directory, use the path to that directory, without a trailing 
-    backslash. For example, an argument of "C:\Windows" returns information about the 
-    directory "C:\Windows", not about a directory or file in 
-    "C:\Windows". To examine the files and directories in 
-    "C:\Windows", use an <i>lpFileName</i> of 
-    "C:\Windows\*".
+    backslash. For example, an argument of "C:\\Windows" returns information about the 
+    directory "C:\\Windows", not about a directory or file in 
+    "C:\\Windows". To examine the files and directories in 
+    "C:\\Windows", use an <i>lpFileName</i> of 
+    "C:\\Windows\\*".
 
 The following call:
 
@@ -390,7 +394,7 @@ void _tmain(int argc, TCHAR *argv[])
 
 
 > [!NOTE]
-> The fileapi.h header defines FindFirstFileEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The fileapi.h header defines FindFirstFileEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

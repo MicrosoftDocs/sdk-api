@@ -7,7 +7,6 @@ description: Fetches the payload text for the event record specified by rowId.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -17,7 +16,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: DiagnosticDataQuery.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 

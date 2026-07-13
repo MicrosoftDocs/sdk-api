@@ -52,7 +52,7 @@ api_name:
 
 Deletes any profile associated with the network.
 
-## -parameters
+
 
 ## -returns
 

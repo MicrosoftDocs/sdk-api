@@ -37,7 +37,7 @@ Specifies the status of a Content Decryption Module (CDM) session key.
 
 ## -enum-fields
 
-### -field MF_MEDIAKEY_STATUS_USABLE
+### -field MF_MEDIAKEY_STATUS_USABLE:0
 
 The CDM is certain the key is currently usable for decryption.
 

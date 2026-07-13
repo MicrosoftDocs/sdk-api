@@ -1,12 +1,12 @@
 ---
 UID: NS:wabdefs._ADRLIST
 title: ADRLIST (wabdefs.h)
-description: Do not use. Describes zero or more properties belonging to one or more recipients.
+description: ADRLIST (wabdefs.h) - do not use. Describes zero or more properties belonging to one or more recipients.G
 helpviewer_keywords: ["*LPADRLIST","ADRLIST","ADRLIST structure [Windows Address Book]","Gender","Gender structure [Windows Address Book]","_wab_ADRLIST","wab._wab_ADRLIST","wabdefs/ADRLIST"]
 old-location: wab\_wab_ADRLIST.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrlist.htm
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*LPADRLIST, ADRLIST, ADRLIST structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRLIST, wab._wab_ADRLIST, wabdefs/ADRLIST'
 req.header: wabdefs.h
 req.include-header: 

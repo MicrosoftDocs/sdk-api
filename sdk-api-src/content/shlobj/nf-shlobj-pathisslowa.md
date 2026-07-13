@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj.PathIsSlowA
 title: PathIsSlowA function (shlobj.h)
-description: PathIsSlow may be altered or unavailable.
-helpviewer_keywords: ["PathIsSlow","PathIsSlow function [Windows Shell]","PathIsSlowA","PathIsSlowW","_win32_PathIsSlow","shell.PathIsSlow","shlobj/PathIsSlow","shlobj/PathIsSlowA","shlobj/PathIsSlowW"]
+description: PathIsSlow may be altered or unavailable. (ANSI)
+helpviewer_keywords: ["PathIsSlowA", "shlobj/PathIsSlowA"]
 old-location: shell\PathIsSlow.htm
 tech.root: shell
 ms.assetid: f848a098-9248-453b-a957-77c35d70e528
@@ -86,4 +86,4 @@ Note that network conditions can impact function performance time.
 
 
 > [!NOTE]
-> The shlobj.h header defines PathIsSlow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj.h header defines PathIsSlow as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

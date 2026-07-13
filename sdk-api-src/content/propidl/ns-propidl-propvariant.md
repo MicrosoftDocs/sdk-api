@@ -1,12 +1,12 @@
 ---
 UID: NS:propidl.tagPROPVARIANT
 title: PROPVARIANT (propidl.h)
-description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
+description: The PROPVARIANT structure is used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set. 
 helpviewer_keywords: ["*LPPROPVARIANT","PROPVARIANT","PROPVARIANT structure [Structured Storage]","_stg_propvariant","propidlbase/PROPVARIANT","stg.propvariant","tagPROPVARIANT"]
 old-location: stg\propvariant.htm
 tech.root: Stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT'
 req.header: propidl.h
 req.include-header: Propidl.h
@@ -386,7 +386,11 @@ Reserved for future use.
 The 
 <b>PROPVARIANT</b> structure can also hold a value of <b>VT_DECIMAL</b>:
 
-<pre class="syntax" xml:space="preserve"><code>    DECIMAL       decVal;        //VT_DECIMAL</code></pre>
+
+``` syntax
+    DECIMAL       decVal;        //VT_DECIMAL
+```
+
 However, the value of the <b>DECIMAL</b> structure requires special handling. The <b>DECIMAL</b> structure is the same size as an entire 
 <b>PROPVARIANT</b> structure and does not fit into the union that holds all other types of values. Instead, the value of the <b>DECIMAL</b> structure occupies the entire 
 <b>PROPVARIANT</b> structure, including the reserved fields and the <b>vt</b> member. However, the first member of the <b>DECIMAL</b> structure is not used and is equal in size to the <b>vt</b> member of the 
@@ -401,7 +405,9 @@ However, the value of the <b>DECIMAL</b> structure requires special handling. Th
 The data type 
 <b>PROPVARIANT</b> is related to the data type <b>VARIANT</b>, defined as part of Automation in OLE2. Several definitions are reused from Automation, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct  tagCY {
+
+``` syntax
+typedef struct  tagCY {
     unsigned long      Lo;
     long               Hi;
     } CY;
@@ -432,26 +438,36 @@ typedef CY             CURRENCY;
 typedef short          VARIANT_BOOL;
 typedef unsigned short VARTYPE;
 typedef double         DATE;
-typedef OLECHAR*       BSTR;</code></pre>
+typedef OLECHAR*       BSTR;
+```
+
 In addition, some types are unique to the 
 <b>PROPVARIANT</b> structure:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct  tagCLIPDATA {
+
+``` syntax
+typedef struct  tagCLIPDATA {
     // cbSize is the size of the buffer pointed to 
     // by pClipData, plus sizeof(ulClipFmt)
     ULONG              cbSize;
     long               ulClipFmt;
     BYTE*              pClipData;
-    } CLIPDATA;</code></pre>
+    } CLIPDATA;
+```
+
 Among the unique 
 <b>PROPVARIANT</b> types are several data types that define counted arrays of other data types. The data types of all counted arrays begin with the letters <b>CA</b>, for example <b>CAUB</b>, and have an <b>OR</b> operator <b>vt</b> value (the VarType of the element and an <b>OR</b> operator with <b>VT_VECTOR</b>). The counted array structure has the following form (where <i>name</i> is the specific name of the counted array).
 
-<pre class="syntax" xml:space="preserve"><code>#define TYPEDEF_CA(type, name) 
+
+``` syntax
+#define TYPEDEF_CA(type, name) 
  
     typedef struct tag ## name {\
         ULONG cElems;\
         type *pElems;\
-        } name</code></pre>
+        } name
+```
+
 <table>
 <tr>
 <th>Propvariant type</th>
@@ -754,13 +770,17 @@ Clipboard format identifiers, stored with the tag VT_CF, use one of five represe
 
 If the value of the <b>ulClipFmt</b> member is -1, the data is in the form of a built-in Windows format. In this case, the first <b>DWORD</b> of the buffer pointed to by <b>pClipData</b> is the clipboard format identifier, for example CF_METAFILEPICT. In the case of CF_METAFILEPCT, what follows is a variation on the <b>METAFILEPICT</b> structure (it uses <b>WORD</b>, rather than <b>DWORD</b> data types). That is, this data is in the following form:
 
-<pre class="syntax" xml:space="preserve"><code>struct PACKEDMETA
+
+``` syntax
+struct PACKEDMETA
 {
     WORD mm;
     WORD xExt;
     WORD yExt
     WORD reserved;
-};</code></pre>
+};
+```
+
 After the <b>METAFILEPICT</b> structure is the metafile data, suitable to be passed to the <b>SetMetaFileBitsEx</b> function. This function creates a memory-based, Windows-format metafile from the supplied data. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the <b>SetEnhMetaFileBits</b> function. This function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer. If the function succeeds and the buffer pointer is <b>NULL</b>, the return value is the size of the enhanced metafile in bytes. If the function succeeds and the buffer pointer is a valid pointer, the return value is the number of bytes copied to the buffer. If the function fails, the return value is zero.
 
 When register clipboard formats are placed on or retrieved from the clipboard, they must be in the form of an <b>HGLOBAL</b> value.

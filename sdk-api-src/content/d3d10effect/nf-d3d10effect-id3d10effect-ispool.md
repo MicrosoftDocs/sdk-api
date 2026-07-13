@@ -52,7 +52,7 @@ api_name:
 
 Test an effect to see if it is part of a memory pool.
 
-## -parameters
+
 
 ## -returns
 

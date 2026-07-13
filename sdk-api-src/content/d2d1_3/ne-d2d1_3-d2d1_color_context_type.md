@@ -54,11 +54,11 @@ Specifies which way a color profile is defined.
 
 ## -enum-fields
 
-### -field D2D1_COLOR_CONTEXT_TYPE_ICC
+### -field D2D1_COLOR_CONTEXT_TYPE_ICC:0
 
-### -field D2D1_COLOR_CONTEXT_TYPE_SIMPLE
+### -field D2D1_COLOR_CONTEXT_TYPE_SIMPLE:1
 
-### -field D2D1_COLOR_CONTEXT_TYPE_DXGI
+### -field D2D1_COLOR_CONTEXT_TYPE_DXGI:2
 
-### -field D2D1_COLOR_CONTEXT_TYPE_FORCE_DWORD
+### -field D2D1_COLOR_CONTEXT_TYPE_FORCE_DWORD:0xffffffff
 

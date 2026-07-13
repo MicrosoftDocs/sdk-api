@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetHoverTime","ListView_GetHoverTime macro [Wind
 old-location: controls\ListView_GetHoverTime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethovertime.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetHoverTime, ListView_GetHoverTime macro [Windows Controls], _win32_ListView_GetHoverTime, _win32_ListView_GetHoverTime_cpp, commctrl/ListView_GetHoverTime, controls.ListView_GetHoverTime, controls._win32_ListView_GetHoverTime
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetHoverTime macro
+
+## -syntax
+
+```cpp
+DWORD ListView_GetHoverTime(
+   HWND hwndLV
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the amount of time, in milliseconds, that the mouse cursor must hover over an item before it is selected. If the return value is (<b>DWORD</b>)-1, then the hover time is the default hover time.
 
 
 ## -description

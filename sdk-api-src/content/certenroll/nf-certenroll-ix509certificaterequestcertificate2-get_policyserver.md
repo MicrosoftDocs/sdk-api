@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate2.get_PolicyServer
 title: IX509CertificateRequestCertificate2::get_PolicyServer (certenroll.h)
-description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.
+description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization. (IX509CertificateRequestCertificate2.get_PolicyServer)
 helpviewer_keywords: ["IX509CertificateRequestCertificate2 interface [Security]","PolicyServer property","IX509CertificateRequestCertificate2.PolicyServer","IX509CertificateRequestCertificate2.get_PolicyServer","IX509CertificateRequestCertificate2::PolicyServer","IX509CertificateRequestCertificate2::get_PolicyServer","PolicyServer property [Security]","PolicyServer property [Security]","IX509CertificateRequestCertificate2 interface","certenroll/IX509CertificateRequestCertificate2::PolicyServer","certenroll/IX509CertificateRequestCertificate2::get_PolicyServer","get_PolicyServer","security.ix509certificaterequestcertificate2_policyserver"]
 old-location: security\ix509certificaterequestcertificate2_policyserver.htm
 tech.root: security

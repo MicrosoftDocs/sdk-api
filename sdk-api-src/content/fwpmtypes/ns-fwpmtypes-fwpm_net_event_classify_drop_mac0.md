@@ -94,7 +94,7 @@ The interface LUID corresponding to the network interface with which this packet
 
 ### -field filterId
 
-The LUID identifying the filter where the failure occured.
+The LUID identifying the filter where the failure occurred.
 
 ### -field layerId
 

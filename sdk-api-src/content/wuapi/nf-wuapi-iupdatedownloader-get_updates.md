@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.get_Updates
 title: IUpdateDownloader::get_Updates (wuapi.h)
-description: Gets and sets an interface that contains a read-only collection of the updates that are specified for download.
+description: Gets and sets an interface that contains a read-only collection of the updates that are specified for download. (Get)
 helpviewer_keywords: ["IUpdateDownloader interface [Windows Update Agent]","Updates property","IUpdateDownloader.Updates","IUpdateDownloader.get_Updates","IUpdateDownloader::Updates","IUpdateDownloader::get_Updates","IUpdateDownloader::put_Updates","Updates property [Windows Update Agent]","Updates property [Windows Update Agent]","IUpdateDownloader interface","get_Updates","wua.iupdatedownloader_updates","wuapi/IUpdateDownloader::Updates","wuapi/IUpdateDownloader::get_Updates","wuapi/IUpdateDownloader::put_Updates"]
 old-location: wua\iupdatedownloader_updates.htm
 tech.root: wua

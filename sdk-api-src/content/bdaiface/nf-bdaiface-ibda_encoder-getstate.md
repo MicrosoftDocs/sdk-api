@@ -11,8 +11,8 @@ ms.keywords: GetState, GetState method [Microsoft TV Technologies], GetState met
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Queries the current state of the Encoder Service.
 
@@ -156,7 +158,7 @@ Receives the identifier of the signal source. The value is an auxiliary connecto
 
 ### -param SignalFormat [out]
 
-Receives a value from the <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration. This value specifies the analog video standard that is received on the auxiliary input.
+Receives a value from the <a href="/windows/win32/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration. This value specifies the analog video standard that is received on the auxiliary input.
 
 ### -param SignalLock [out]
 
@@ -172,7 +174,7 @@ Receives a value between 0 and 100, indicating the signal-to-noise ratio.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

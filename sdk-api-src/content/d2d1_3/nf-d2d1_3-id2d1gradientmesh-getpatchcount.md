@@ -52,7 +52,7 @@ api_name:
 
 Returns the number of patches that make up this gradient mesh.
 
-## -parameters
+
 
 ## -returns
 

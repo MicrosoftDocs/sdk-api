@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_LUN_PLEX_FLAG
 title: VDS_LUN_PLEX_FLAG (vdshwprv.h)
-description: Defines the set of valid flags for a LUN plex object.
+description: The VDS_LUN_PLEX_FLAG enumeration (vdshwprv.h) defines the set of valid flags for a LUN plex object. 
 helpviewer_keywords: ["VDS_LPF_LBN_REMAP_ENABLED","VDS_LUN_PLEX_FLAG","VDS_LUN_PLEX_FLAG enumeration [VDS]","base.vds_lun_plex_flag","vds/VDS_LPF_LBN_REMAP_ENABLED","vds/VDS_LUN_PLEX_FLAG","vdshwprv/VDS_LPF_LBN_REMAP_ENABLED","vdshwprv/VDS_LUN_PLEX_FLAG"]
 old-location: base\vds_lun_plex_flag.htm
 tech.root: base
 ms.assetid: 0258d87c-0270-449e-8e96-2c511c5f7242
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_LPF_LBN_REMAP_ENABLED, VDS_LUN_PLEX_FLAG, VDS_LUN_PLEX_FLAG enumeration [VDS], base.vds_lun_plex_flag, vds/VDS_LPF_LBN_REMAP_ENABLED, vds/VDS_LUN_PLEX_FLAG, vdshwprv/VDS_LPF_LBN_REMAP_ENABLED, vdshwprv/VDS_LUN_PLEX_FLAG
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid flags for a LUN plex object.
 

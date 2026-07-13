@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSegmentData","GetSegmentData method [XPS Documents and
 old-location: xps\ixpsomgeometryfigure_getsegmentdata.htm
 tech.root: xps
 ms.assetid: e2e6be6f-3a9d-4d39-875f-cd23bc82e74b
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: GetSegmentData, GetSegmentData method [XPS Documents and Packaging], GetSegmentData method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentData method, IXpsOMGeometryFigure.GetSegmentData, IXpsOMGeometryFigure::GetSegmentData, xps.ixpsomgeometryfigure_getsegmentdata, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData
 req.header: xpsobjectmodel.h
 req.include-header: 
@@ -149,7 +149,7 @@ Two data values:
 <td>
 XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lc.png"/>
+<img alt="Diagram of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment." src="./images/segment_type_arc_lc.png"/>
 
 </td>
 <td>
@@ -187,7 +187,7 @@ Five data values:
 <td>
 XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lcc.png"/>
+<img alt="Diagram of an XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE figure segment." src="./images/segment_type_arc_lcc.png"/>
 
 </td>
 <td>
@@ -429,7 +429,7 @@ The following code example accesses the different data points of each segment ty
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

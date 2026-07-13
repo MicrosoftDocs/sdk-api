@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_EnsureVisible","ListView_EnsureVisible macro [Wi
 old-location: controls\ListView_EnsureVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_ensurevisible.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_EnsureVisible, ListView_EnsureVisible macro [Windows Controls], _win32_ListView_EnsureVisible, _win32_ListView_EnsureVisible_cpp, commctrl/ListView_EnsureVisible, controls.ListView_EnsureVisible, controls._win32_ListView_EnsureVisible
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_EnsureVisible macro
+
+## -syntax
+
+```cpp
+BOOL ListView_EnsureVisible(
+   HWND hwndLV,
+   int  i,
+   BOOL fPartialOK
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

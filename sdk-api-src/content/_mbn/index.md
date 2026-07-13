@@ -4,7 +4,8 @@ title: Mobile Broadband
 ms.assetid: a50fdfaa-8786-3d51-8479-2ca7260c9904
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Mobile Broadband

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.PolyBezierTo
 title: PolyBezierTo function (wingdi.h)
-description: The PolyBezierTo function draws one or more B�zier curves.
+description: The PolyBezierTo function draws one or more Bézier curves.
 helpviewer_keywords: ["PolyBezierTo","PolyBezierTo function [Windows GDI]","_win32_PolyBezierTo","gdi.polybezierto","wingdi/PolyBezierTo"]
 old-location: gdi\polybezierto.htm
 tech.root: gdi
@@ -65,7 +65,7 @@ A handle to a device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the endpoints and control points, in logical units.
+A pointer to an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures that contains the endpoints and control points, in logical units.
 
 ### -param cpt [in]
 
@@ -99,7 +99,7 @@ This function draws lines by using the current pen.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

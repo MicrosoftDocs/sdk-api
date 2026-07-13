@@ -1,8 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetComputerNameExA
 title: GetComputerNameExA function (sysinfoapi.h)
-description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
-helpviewer_keywords: ["ComputerNameDnsDomain","ComputerNameDnsFullyQualified","ComputerNameDnsHostname","ComputerNameNetBIOS","ComputerNamePhysicalDnsDomain","ComputerNamePhysicalDnsFullyQualified","ComputerNamePhysicalDnsHostname","ComputerNamePhysicalNetBIOS","GetComputerNameEx","GetComputerNameEx function","GetComputerNameExA","GetComputerNameExW","_win32_getcomputernameex","base.getcomputernameex","sysinfoapi/GetComputerNameEx","sysinfoapi/GetComputerNameExA","sysinfoapi/GetComputerNameExW"]
+description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry. (ANSI)
+helpviewer_keywords: ["ComputerNameDnsDomain", "ComputerNameDnsFullyQualified", "ComputerNameDnsHostname", "ComputerNameNetBIOS", "ComputerNamePhysicalDnsDomain", "ComputerNamePhysicalDnsFullyQualified", "ComputerNamePhysicalDnsHostname", "ComputerNamePhysicalNetBIOS", "GetComputerNameExA", "sysinfoapi/GetComputerNameExA"]
 old-location: base\getcomputernameex.htm
 tech.root: winprog
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-sysinfo-l1-2-7.dll
+ - api-ms-win-core-sysinfo-l1-2-6.dll
+ - api-ms-win-core-sysinfo-l1-2-5.dll
+ - api-ms-win-core-sysinfo-l1-2-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-SysInfo-l1-1-0.dll
  - KernelBase.dll
@@ -268,7 +272,7 @@ void _tmain(void)
 
 
 > [!NOTE]
-> The sysinfoapi.h header defines GetComputerNameEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sysinfoapi.h header defines GetComputerNameEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

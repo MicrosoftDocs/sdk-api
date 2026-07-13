@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.Invalidate
-title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: IVirtualSurfaceImageSourceNative::Invalidate (windows.ui.xaml.media.dxinterop.h)
 description: Invalidates a specific region of the shared surface for drawing.
 helpviewer_keywords: ["IVirtualSurfaceImageSourceNative interface [Windows Runtime]","Invalidate method","IVirtualSurfaceImageSourceNative.Invalidate","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::Invalidate","IVirtualSurfaceImageSourceNative::xaml","Invalidate","Invalidate method [Windows Runtime]","Invalidate method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","windows/IVirtualSurfaceImageSourceNative::Invalidate","winrt.ivirtualsurfaceimagesourcenative_invalidate"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_invalidate.htm
@@ -45,7 +45,7 @@ api_name:
  - IVirtualSurfaceImageSourceNative.Invalidate
 ---
 
-# IVirtualSurfaceImageSourceNative::xaml
+# IVirtualSurfaceImageSourceNative::Invalidate (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description
@@ -60,7 +60,7 @@ The region of the surface to invalidate.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

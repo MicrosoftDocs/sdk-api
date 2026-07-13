@@ -6,7 +6,7 @@ helpviewer_keywords: ["THIRD_IPADDRESS","THIRD_IPADDRESS macro [Windows Controls
 old-location: controls\THIRD_IPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\third_ipaddress.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: THIRD_IPADDRESS, THIRD_IPADDRESS macro [Windows Controls], _win32_THIRD_IPADDRESS, _win32_THIRD_IPADDRESS_cpp, commctrl/THIRD_IPADDRESS, controls.THIRD_IPADDRESS, controls._win32_THIRD_IPADDRESS
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # THIRD_IPADDRESS macro
+
+## -syntax
+
+```cpp
+BYTE THIRD_IPADDRESS(
+   LPARAM x
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+Returns a BYTE value that contains the field 2 value.
 
 
 ## -description

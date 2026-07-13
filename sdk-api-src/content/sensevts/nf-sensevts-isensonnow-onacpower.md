@@ -53,7 +53,7 @@ api_name:
 SENS calls the 
 <b>OnACPower</b> method to notify your application that the computer is using AC power.
 
-## -parameters
+
 
 ## -returns
 

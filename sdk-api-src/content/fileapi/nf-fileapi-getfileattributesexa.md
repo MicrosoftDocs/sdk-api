@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetFileAttributesExA
 title: GetFileAttributesExA function (fileapi.h)
-description: Retrieves attributes for a specified file or directory.
-helpviewer_keywords: ["GetFileAttributesEx","GetFileAttributesEx function [Files]","GetFileAttributesExA","GetFileAttributesExW","GetFileExInfoStandard","_win32_getfileattributesex","base.getfileattributesex","fileapi/GetFileAttributesEx","fileapi/GetFileAttributesExA","fileapi/GetFileAttributesExW","fs.getfileattributesex","winbase/GetFileAttributesEx","winbase/GetFileAttributesExA","winbase/GetFileAttributesExW"]
+description: Retrieves attributes for a specified file or directory. (ANSI)
+helpviewer_keywords: ["GetFileAttributesExA", "GetFileExInfoStandard", "fileapi/GetFileAttributesExA"]
 old-location: fs\getfileattributesex.htm
 tech.root: fs
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -70,13 +73,12 @@ To perform this operation as a transacted operation, use the
 
 The name of the file or directory.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>GetFileAttributesExW</b>), and prepend 
-       "\\\\?\\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFileAttributesExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
+
+
 
 ### -param fInfoLevelId [in]
 
@@ -210,7 +212,7 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 > [!NOTE]
-> The fileapi.h header defines GetFileAttributesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The fileapi.h header defines GetFileAttributesEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

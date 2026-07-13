@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effecthelpers.ValueGetter
 title: ValueGetter function (d2d1effecthelpers.h)
-description: Calls a member-function property setter callback for a value-type property.
+description: Calls a member-function property setter callback for a value-type property. (ValueGetter)
 helpviewer_keywords: ["ValueGetter","ValueGetter function [Direct2D]","d2d1effecthelpers/ValueGetter","direct2d.valuegetter"]
 old-location: direct2d\valuegetter.htm
 tech.root: Direct2D
@@ -76,5 +76,5 @@ TBD
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WinUsb_ReadIsochPipe</b> function reads data from an isochronous OUT endpoint.
+The <b>WinUsb_ReadIsochPipe</b> function reads data from an isochronous IN endpoint.
 
 ## -parameters
 

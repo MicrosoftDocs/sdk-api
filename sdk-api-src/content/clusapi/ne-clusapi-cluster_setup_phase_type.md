@@ -62,19 +62,19 @@ Describes the  progress of the cluster setup process. The
 
 ## -enum-fields
 
-### -field ClusterSetupPhaseStart
+### -field ClusterSetupPhaseStart:1
 
 Indicates the start of a new setup phase.
 
-### -field ClusterSetupPhaseContinue
+### -field ClusterSetupPhaseContinue:2
 
 Indicates the continuation of a setup phase.
 
-### -field ClusterSetupPhaseEnd
+### -field ClusterSetupPhaseEnd:3
 
 Indicates the end of a setup phase. Called once at the end of every setup phase.
 
-### -field ClusterSetupPhaseReport
+### -field ClusterSetupPhaseReport:4
 
 ## -see-also
 

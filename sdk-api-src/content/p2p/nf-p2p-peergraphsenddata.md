@@ -131,7 +131,7 @@ The graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/
 
 ## -remarks
 
-The <b>PeerGraphSendData</b> function returns as soon as data has been sent to the network layer; the peer graphing layer does not wait for an acknowledgement from the other side of the connection.
+The <b>PeerGraphSendData</b> function returns as soon as data has been sent to the network layer; the peer graphing layer does not wait for an acknowledgment from the other side of the connection.
 
 <div class="alert"><b>Note</b>  In order to be able to receive data with a direct connection, an application must register for a peer event of type <b>PEER_GRAPH_EVENT_INCOMING_DATA</b>. See <a href="/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a>.</div>
 <div> </div>

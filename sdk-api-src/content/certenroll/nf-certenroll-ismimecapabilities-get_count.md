@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.get_Count
 title: ISmimeCapabilities::get_Count (certenroll.h)
-description: Retrieves the number of objects in the collection.
+description: Retrieves the number of objects in the collection. (ISmimeCapabilities.get_Count)
 helpviewer_keywords: ["Count property [Security]","Count property [Security]","ISmimeCapabilities interface","ISmimeCapabilities interface [Security]","Count property","ISmimeCapabilities.Count","ISmimeCapabilities.get_Count","ISmimeCapabilities::Count","ISmimeCapabilities::get_Count","certenroll/ISmimeCapabilities::Count","certenroll/ISmimeCapabilities::get_Count","get_Count","security.ismimecapabilities_count_property"]
 old-location: security\ismimecapabilities_count_property.htm
 tech.root: security

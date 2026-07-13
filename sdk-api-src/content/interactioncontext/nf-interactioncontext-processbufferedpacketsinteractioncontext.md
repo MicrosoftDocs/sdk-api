@@ -49,7 +49,6 @@ api_name:
 
 # ProcessBufferedPacketsInteractionContext function
 
-
 ## -description
 
 Process buffered packets at the end of a pointer input frame.
@@ -58,22 +57,16 @@ Process buffered packets at the end of a pointer input frame.
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md).
 
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-<b>ProcessBufferedPacketsInteractionContext</b> is called at the end of the frame, when the buffer contains all the pointer histories from the frame.
+**ProcessBufferedPacketsInteractionContext** is called at the end of the frame, when the buffer contains all the pointer histories from the frame.
 
 ## -see-also
-
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

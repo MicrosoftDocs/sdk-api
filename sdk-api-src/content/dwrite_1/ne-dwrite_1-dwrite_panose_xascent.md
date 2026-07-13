@@ -54,31 +54,31 @@ The <b>DWRITE_PANOSE_XASCENT</b> enumeration contains values that specify the re
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_XASCENT_ANY
+### -field DWRITE_PANOSE_XASCENT_ANY:0
 
 Any xascent.
 
-### -field DWRITE_PANOSE_XASCENT_NO_FIT
+### -field DWRITE_PANOSE_XASCENT_NO_FIT:1
 
 No fit for xascent.
 
-### -field DWRITE_PANOSE_XASCENT_VERY_LOW
+### -field DWRITE_PANOSE_XASCENT_VERY_LOW:2
 
 Very low xascent.
 
-### -field DWRITE_PANOSE_XASCENT_LOW
+### -field DWRITE_PANOSE_XASCENT_LOW:3
 
 Low xascent.
 
-### -field DWRITE_PANOSE_XASCENT_MEDIUM
+### -field DWRITE_PANOSE_XASCENT_MEDIUM:4
 
 Medium xascent.
 
-### -field DWRITE_PANOSE_XASCENT_HIGH
+### -field DWRITE_PANOSE_XASCENT_HIGH:5
 
 High xascent.
 
-### -field DWRITE_PANOSE_XASCENT_VERY_HIGH
+### -field DWRITE_PANOSE_XASCENT_VERY_HIGH:6
 
 Very high xascent.
 

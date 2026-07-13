@@ -6,7 +6,7 @@ helpviewer_keywords: ["EffectsRender","IWMPEffects interface [Windows Media Play
 old-location: wmp\iwmpeffects_render.htm
 tech.root: WMP
 ms.assetid: 9040c309-5e45-41d2-9a02-b17c6d764f59
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: EffectsRender, IWMPEffects interface [Windows Media Player],Render method, IWMPEffects.Render, IWMPEffects::Render, Render, Render method [Windows Media Player], Render method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::Render, wmp.iwmpeffects_render
 req.header: effects.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>Render</b> method renders the visualization.
 

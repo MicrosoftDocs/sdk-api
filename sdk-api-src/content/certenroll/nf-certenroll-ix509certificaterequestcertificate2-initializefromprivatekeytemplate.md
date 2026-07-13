@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
 title: IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate (certenroll.h)
-description: Initializes the certificate request by using an IX509PrivateKey object and a certificate template.
+description: Initializes the certificate request by using an IX509PrivateKey object and a certificate template. (IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate)
 helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509CertificateRequestCertificate2 interface [Security]","InitializeFromPrivateKeyTemplate method","IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate","IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate","InitializeFromPrivateKeyTemplate","InitializeFromPrivateKeyTemplate method [Security]","InitializeFromPrivateKeyTemplate method [Security]","IX509CertificateRequestCertificate2 interface","certenroll/IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate","security.ix509certificaterequestcertificate2_initializefromprivatekeytemplate"]
 old-location: security\ix509certificaterequestcertificate2_initializefromprivatekeytemplate.htm
 tech.root: security

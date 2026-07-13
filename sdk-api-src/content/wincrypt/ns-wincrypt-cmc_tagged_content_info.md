@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_CONTENT_INFO
 title: CMC_TAGGED_CONTENT_INFO (wincrypt.h)
-description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
+description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures. (CMC_TAGGED_CONTENT_INFO)
 helpviewer_keywords: ["*PCMC_TAGGED_CONTENT_INFO","CMC_TAGGED_CONTENT_INFO","CMC_TAGGED_CONTENT_INFO structure [Security]","PCMC_TAGGED_CONTENT_INFO","PCMC_TAGGED_CONTENT_INFO structure pointer [Security]","_crypto2_cmc_tagged_content_info","security.cmc_tagged_content_info","wincrypt/CMC_TAGGED_CONTENT_INFO","wincrypt/PCMC_TAGGED_CONTENT_INFO"]
 old-location: security\cmc_tagged_content_info.htm
 tech.root: security

@@ -6,7 +6,7 @@ helpviewer_keywords: ["SwDeviceInterfaceRegister","SwDeviceInterfaceRegister fun
 old-location: swdevice\swdeviceinterfaceregister.htm
 tech.root: swdevice
 ms.assetid: A53FEBC2-E7D7-4DF7-B41C-BBB5A7EE044B
-ms.date: 12/05/2018
+ms.date: 06/20/2024
 ms.keywords: SwDeviceInterfaceRegister, SwDeviceInterfaceRegister function, swdevice.swdeviceinterfaceregister, swdevice/SwDeviceInterfaceRegister
 req.header: swdevice.h
 req.include-header: 
@@ -62,7 +62,7 @@ The <b>HSWDEVICE</b> handle to the software device to register a device interfac
 
 ### -param pInterfaceClassGuid [in]
 
-A pointer to the interface class GUID that names the contract that this interface implements.
+A pointer to the [interface class GUID](/windows-hardware/drivers/install/overview-of-device-interface-classes) that names the contract that this interface implements.
 
 ### -param pszReferenceString [in, optional]
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateServersA
 title: WTSEnumerateServersA function (wtsapi32.h)
-description: Returns a list of all Remote Desktop Session Host (RD Session Host) servers within the specified domain.
-helpviewer_keywords: ["WTSEnumerateServers","WTSEnumerateServers function [Remote Desktop Services]","WTSEnumerateServersA","WTSEnumerateServersW","termserv.wtsenumerateservers","wtsapi32/WTSEnumerateServers","wtsapi32/WTSEnumerateServersA","wtsapi32/WTSEnumerateServersW"]
+description: Returns a list of all Remote Desktop Session Host (RD Session Host) servers within the specified domain. (ANSI)
+helpviewer_keywords: ["WTSEnumerateServersA", "wtsapi32/WTSEnumerateServersA"]
 old-location: termserv\wtsenumerateservers.htm
 tech.root: TermServ
 ms.assetid: 49aa3813-4e29-420e-9309-3ef9b11f1da7
@@ -98,7 +98,7 @@ This function will not work if NetBT is disabled.
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSEnumerateServers as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSEnumerateServers as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

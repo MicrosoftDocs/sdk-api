@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflection.GetDesc
 title: ID3D10ShaderReflection::GetDesc (d3d10shader.h)
-description: Get a shader description.
+description: Get a shader description. (ID3D10ShaderReflection.GetDesc)
 helpviewer_keywords: ["8b97a8fe-7942-b7f8-b7be-a445a5865955","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10ShaderReflection interface","ID3D10ShaderReflection interface [Direct3D 10]","GetDesc method","ID3D10ShaderReflection.GetDesc","ID3D10ShaderReflection::GetDesc","d3d10shader/ID3D10ShaderReflection::GetDesc","direct3d10.id3d10shaderreflection_getdesc"]
 old-location: direct3d10\id3d10shaderreflection_getdesc.htm
 tech.root: direct3d10

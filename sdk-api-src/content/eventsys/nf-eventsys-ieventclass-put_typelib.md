@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass.put_TypeLib
 title: IEventClass::put_TypeLib (eventsys.h)
-description: The path of the type library that contains the description of the event interface.
+description: The path of the type library that contains the description of the event interface. (Put)
 helpviewer_keywords: ["IEventClass interface [COM+]","TypeLib property","IEventClass.TypeLib","IEventClass.put_TypeLib","IEventClass::TypeLib","IEventClass::get_TypeLib","IEventClass::put_TypeLib","TypeLib property [COM+]","TypeLib property [COM+]","IEventClass interface","cos.ieventclass_typelib","eventsys/IEventClass::TypeLib","eventsys/IEventClass::get_TypeLib","eventsys/IEventClass::put_TypeLib","put_TypeLib"]
 old-location: cos\ieventclass_typelib.htm
 tech.root: cos

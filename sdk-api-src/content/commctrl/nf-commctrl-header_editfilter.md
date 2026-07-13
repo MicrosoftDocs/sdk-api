@@ -6,7 +6,7 @@ helpviewer_keywords: ["FALSE","Header_EditFilter","Header_EditFilter macro [Wind
 old-location: controls\Header_EditFilter.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_editfilter.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: FALSE, Header_EditFilter, Header_EditFilter macro [Windows Controls], TRUE, _win32_Header_EditFilter, _win32_Header_EditFilter_cpp, commctrl/Header_EditFilter, controls.Header_EditFilter, controls._win32_Header_EditFilter
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # Header_EditFilter macro
 
+## -syntax
+
+```cpp
+int Header_EditFilter(
+   HWND            hwnd,
+   int             i,
+   fDi<no_pop></no_pop>scardChanges fDiscardChanges
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns an integer that indicates <b>TRUE</b>(1) or <b>FALSE</b>(0).
+
 
 ## -description
 
@@ -79,7 +95,7 @@ A flag that specifies how to handle the user's editing changes. Use this flag to
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +105,7 @@ Discard the changes made by the user.
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

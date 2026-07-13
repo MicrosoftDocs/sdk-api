@@ -94,10 +94,9 @@ A <b>DWORD</b> value that describes the transport protocol type of the static fi
 </tr>
 </table>
 
-### -param lpBuffer [out]
+### -param lpBuffer [in_out]
 
-On successful completion, a pointer to a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a> structure that contains the filter driver configuration information. Free this memory buffer by calling 
-<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
+On successful completion, writes a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a> structure with the filter driver configuration information to the provided buffer. <i>lpBuffer</i> must be at least <i>sizeof(<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a>)</i> bytes long.
 
 ## -returns
 

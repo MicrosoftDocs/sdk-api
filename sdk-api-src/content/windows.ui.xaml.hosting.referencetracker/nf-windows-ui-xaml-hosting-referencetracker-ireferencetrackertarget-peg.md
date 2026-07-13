@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.Peg
-title: IReferenceTrackerTarget::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerTarget::Peg (windows.ui.xaml.hosting.referencetracker.h)
 description: Marks that the reference tracker target is in use by the XAML framework, and should not be collected.
 helpviewer_keywords: ["IReferenceTrackerTarget interface [Windows Runtime]","Peg method","IReferenceTrackerTarget.Peg","IReferenceTrackerTarget.xaml","IReferenceTrackerTarget::Peg","IReferenceTrackerTarget::xaml","Peg","Peg method [Windows Runtime]","Peg method [Windows Runtime]","IReferenceTrackerTarget interface","windows/IReferenceTrackerTarget::Peg","winrt.ireferencetrackertarget_peg"]
 old-location: winrt\ireferencetrackertarget_peg.htm
@@ -45,18 +45,18 @@ api_name:
  - IReferenceTrackerTarget.Peg
 ---
 
-# IReferenceTrackerTarget::xaml
+# IReferenceTrackerTarget::Peg (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
 
 Marks that the reference tracker target is in use by the XAML framework, and should not be collected.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

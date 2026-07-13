@@ -60,7 +60,7 @@ Represents an extended stack frame.
 
 ### -field AddrPC
 
-An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program 
+An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies the program 
       counter.
       
 
@@ -72,12 +72,12 @@ An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> struc
 
 ### -field AddrReturn
 
-An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
+An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies 
       the return address.
 
 ### -field AddrFrame
 
-An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
+An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies 
       the frame pointer.
       
 
@@ -89,7 +89,7 @@ An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> struc
 
 ### -field AddrStack
 
-An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
+An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies 
       the stack pointer.
       
 
@@ -101,7 +101,7 @@ An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> struc
 
 ### -field AddrBStore
 
-<b>Intel Itanium:  </b>An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
+<b>Intel Itanium:  </b>An <a href="/windows/desktop/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies 
         the backing store (RsBSP).
 
 ### -field FuncTableEntry
@@ -123,12 +123,12 @@ This member is <b>TRUE</b> if this is a virtual frame.
 
 ### -field Reserved
 
-This member is used internally by the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalkex">StackWalkEx</a> 
+This member is used internally by the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk64">StackWalk64</a> 
       function.
 
 ### -field KdHelp
 
-A <a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for 
+A <a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp64">KDHELP64</a> structure that specifies helper data for 
       walking kernel callback frames.
 
 ### -field StackFrameSize
@@ -139,10 +139,37 @@ Set to <code>sizeof(STACKFRAME_EX)</code>.
 
 Specifies the type of the inline frame context.
 
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
 
+<tr>
+<td width="40%"><a id="inline_frame_context_init"></a><a id="INLINE_FRAME_CONTEXT_INIT"></a><dl>
+<dt><b>INLINE_FRAME_CONTEXT_INIT</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Unknown.
+</td>
+</tr>
 
-#### INLINE_FRAME_CONTEXT_INIT (0)
+<tr>
+<td width="40%"><a id="inline_frame_context_ignore"></a><a id="INLINE_FRAME_CONTEXT_IGNORE"></a><dl>
+<dt><b>INLINE_FRAME_CONTEXT_IGNORE</b></dt>
+<dt>0xffffffff</dt>
+</dl>
+</td>
+<td width="60%">
+Unknown.
+</td>
+</tr>
 
+</table>
 
+## -remarks
 
-#### INLINE_FRAME_CONTEXT_IGNORE (0xffffffff)
+This structure supersedes the <b>STACKFRAME64</b> structure. For more information, see 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>.

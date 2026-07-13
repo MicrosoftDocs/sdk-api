@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddSink","AddSink method [windows Media Format]","AddSink
 old-location: wmformat\iwmwriteradvanced_addsink.htm
 tech.root: wmformat
 ms.assetid: 65763ac3-fba0-4de6-9c2e-4e241bbe5f13
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AddSink, AddSink method [windows Media Format], AddSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],AddSink method, IWMWriterAdvanced.AddSink, IWMWriterAdvanced::AddSink, IWMWriterAdvancedAddSink, wmformat.iwmwriteradvanced_addsink, wmsdkidl/IWMWriterAdvanced::AddSink
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AddSink</b> method adds a writer sink to receive writer output. The Windows Media Format SDK supports <i>file sinks</i>, which create ASF files on disk; <i>network sinks</i>, which stream ASF content across a network; and <i>push sinks</i>, which deliver ASF content to other media servers. To create a sink object, call one of the following functions:
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SetTopIndex","ListBox_SetTopIndex macro [Windows 
 old-location: controls\ListBox_SetTopIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settopindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SetTopIndex, ListBox_SetTopIndex macro [Windows Controls], _win32_ListBox_SetTopIndex, _win32_ListBox_SetTopIndex_cpp, controls.ListBox_SetTopIndex, controls._win32_ListBox_SetTopIndex, windowsx/ListBox_SetTopIndex
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListBox_SetTopIndex macro
+
+## -syntax
+
+```cpp
+int ListBox_SetTopIndex(
+   HWND hwndCtl,
+   int  indexTop
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is LB_ERR.
 
 
 ## -description

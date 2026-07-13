@@ -52,7 +52,7 @@ api_name:
 
 The <b>IConsole2::IsTaskpadViewPreferred</b> method is obsolete. It always returns <b>S_OK</b>.
 
-## -parameters
+
 
 ## -returns
 

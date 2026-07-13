@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_Parameters
 title: IFsrmRule::get_Parameters (fsrmpipeline.h)
-description: The parameters that are passed to the classifier.
+description: The parameters that are passed to the classifier. (Get)
 helpviewer_keywords: ["IFsrmRule interface [File Server Resource Manager]","Parameters property","IFsrmRule.Parameters","IFsrmRule.get_Parameters","IFsrmRule::Parameters","IFsrmRule::get_Parameters","IFsrmRule::put_Parameters","Parameters property [File Server Resource Manager]","Parameters property [File Server Resource Manager]","IFsrmRule interface","fs.ifsrmrule_parameters","fsrm.ifsrmrule_parameters","fsrmpipeline/IFsrmRule::Parameters","fsrmpipeline/IFsrmRule::get_Parameters","fsrmpipeline/IFsrmRule::put_Parameters","get_Parameters"]
 old-location: fsrm\ifsrmrule_parameters.htm
 tech.root: fsrm

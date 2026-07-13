@@ -72,6 +72,8 @@ The handle must have the PROCESS_DUP_HANDLE access right. For more information, 
 
 The handle to be duplicated. This is an open object handle that is valid in the context of the source process. For a list of objects whose handles can be duplicated, see the following Remarks section.
 
+If <i>hSourceHandle</i> is a pseudo handle returned by <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a>, <i>hSourceProcessHandle</i> should be a handle to the process calling <b>DuplicateHandle</b>.
+
 ### -param hTargetProcessHandle [in]
 
 A handle to the process that is to receive the duplicated handle. The handle must have the PROCESS_DUP_HANDLE access right.
@@ -260,7 +262,7 @@ If the process that calls
 <td>Semaphore</td>
 <td>The handle is returned by the 
 <a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a> or 
-<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> function.</td>
+<a href="/windows/win32/api/synchapi/nf-synchapi-opensemaphorew">OpenSemaphore</a> function.</td>
 </tr>
 <tr>
 <td>Thread</td>

@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetVolumeNameForVolumeMountPointW
 title: GetVolumeNameForVolumeMountPointW function (fileapi.h)
-description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder).
+description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder). (GetVolumeNameForVolumeMountPointW)
 helpviewer_keywords: ["GetVolumeNameForVolumeMountPoint","GetVolumeNameForVolumeMountPoint function [Files]","GetVolumeNameForVolumeMountPointA","GetVolumeNameForVolumeMountPointW","_win32_getvolumenameforvolumemountpoint","base.getvolumenameforvolumemountpoint","fileapi/GetVolumeNameForVolumeMountPoint","fileapi/GetVolumeNameForVolumeMountPointA","fileapi/GetVolumeNameForVolumeMountPointW","fs.getvolumenameforvolumemountpoint","winbase/GetVolumeNameForVolumeMountPoint","winbase/GetVolumeNameForVolumeMountPointA","winbase/GetVolumeNameForVolumeMountPointW"]
 old-location: fs\getvolumenameforvolumemountpoint.htm
 tech.root: fs
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-2-0.dll
  - KernelBase.dll

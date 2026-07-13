@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DSA_Sort~r1
 title: DSA_Sort
-ms.date: 01/30/2019
+description: The DSA_Sort function sorts the items in a dynamic structure array (DSA).
+ms.date: 08/02/2022
 ms.keywords: DSA_Sort
 targetos: Windows
 req.assembly: 
@@ -17,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

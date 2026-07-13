@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Enrollment.InstallResponse
 title: IX509Enrollment::InstallResponse (certenroll.h)
-description: Installs a certificate chain on the end-entity computer.
+description: Installs a certificate chain on the end-entity computer. (IX509Enrollment.InstallResponse)
 helpviewer_keywords: ["AllowNoOutstandingRequest","AllowNone","AllowUntrustedCertificate","AllowUntrustedRoot","IX509Enrollment interface [Security]","InstallResponse method","IX509Enrollment.InstallResponse","IX509Enrollment::InstallResponse","InstallResponse","InstallResponse method [Security]","InstallResponse method [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::InstallResponse","security.ix509enrollment_installresponse_method"]
 old-location: security\ix509enrollment_installresponse_method.htm
 tech.root: security
@@ -65,7 +65,7 @@ An <a href="/windows/desktop/api/certenroll/ne-certenroll-installresponserestric
 </tr>
 <tr>
 <td width="40%"><a id="AllowNone"></a><a id="allownone"></a><a id="ALLOWNONE"></a><dl>
-<dt><b><b>AllowNone</b></b></dt>
+<dt><b>AllowNone</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -76,7 +76,7 @@ Do not install untrusted certificates or certificates for which there is no corr
 </tr>
 <tr>
 <td width="40%"><a id="AllowNoOutstandingRequest"></a><a id="allownooutstandingrequest"></a><a id="ALLOWNOOUTSTANDINGREQUEST"></a><dl>
-<dt><b><b>AllowNoOutstandingRequest</b></b></dt>
+<dt><b>AllowNoOutstandingRequest</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -87,7 +87,7 @@ Create the <a href="/windows/desktop/SecGloss/p-gly">private key</a> from the ce
 </tr>
 <tr>
 <td width="40%"><a id="AllowUntrustedCertificate"></a><a id="allowuntrustedcertificate"></a><a id="ALLOWUNTRUSTEDCERTIFICATE"></a><dl>
-<dt><b><b>AllowUntrustedCertificate</b></b></dt>
+<dt><b>AllowUntrustedCertificate</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -98,7 +98,7 @@ Install untrusted end entity and <a href="/windows/desktop/SecGloss/c-gly">certi
 </tr>
 <tr>
 <td width="40%"><a id="AllowUntrustedRoot"></a><a id="allowuntrustedroot"></a><a id="ALLOWUNTRUSTEDROOT"></a><dl>
-<dt><b><b>AllowUntrustedRoot</b></b></dt>
+<dt><b>AllowUntrustedRoot</b></dt>
 <dt></dt>
 </dl>
 </td>

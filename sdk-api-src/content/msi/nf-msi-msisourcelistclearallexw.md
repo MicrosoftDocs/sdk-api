@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListClearAllExW
 title: MsiSourceListClearAllExW function (msi.h)
-description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance.
-helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_MEDIA","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListClearAllEx","MsiSourceListClearAllEx function","MsiSourceListClearAllExA","MsiSourceListClearAllExW","msi/MsiSourceListClearAllEx","msi/MsiSourceListClearAllExA","msi/MsiSourceListClearAllExW","setup.msisourcelistclearallex"]
+description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance. (Unicode)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSISOURCETYPE_MEDIA", "MSISOURCETYPE_NETWORK", "MSISOURCETYPE_URL", "MsiSourceListClearAllEx", "MsiSourceListClearAllEx function", "MsiSourceListClearAllExW", "msi/MsiSourceListClearAllEx", "msi/MsiSourceListClearAllExW", "setup.msisourcelistclearallex"]
 old-location: setup\msisourcelistclearallex.htm
 tech.root: setup
 ms.assetid: 3caa16f0-da9e-44a9-82c3-79d881278b81
@@ -279,7 +279,7 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 > [!NOTE]
-> The msi.h header defines MsiSourceListClearAllEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiSourceListClearAllEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

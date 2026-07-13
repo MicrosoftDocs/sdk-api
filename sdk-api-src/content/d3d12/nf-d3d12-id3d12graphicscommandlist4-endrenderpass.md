@@ -52,7 +52,7 @@ api_name:
 
 Marks the ending of a render pass.
 
-## -parameters
+
 
 ## -see-also
 

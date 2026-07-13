@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IAppVisibility
 title: IAppVisibility (shobjidl_core.h)
-description: Provides functionality to determine whether the display is showing Windows Store apps.
+description: Provides functionality to determine whether the display is showing Universal Windows Platform apps.
 helpviewer_keywords: ["IAppVisibility","IAppVisibility interface [Windows Shell]","IAppVisibility interface [Windows Shell]","described","shell.IAppVisibility","shobjidl_core/IAppVisibility"]
 old-location: shell\IAppVisibility.htm
 tech.root: shell
@@ -50,18 +50,15 @@ api_name:
 
 ## -description
 
-Provides functionality to determine whether the display is showing Windows Store apps.
+Provides functionality to determine whether the display is showing Universal Windows Platform apps.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppVisibility</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppVisibility</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppVisibility</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppVisibility</b> also has these types of members:
 
 ## -remarks
 
-Use the <b>IAppVisibility</b> interface to determine when a display is showing Windows Store apps. This is useful for accessibility tools and other applications.
+Use the <b>IAppVisibility</b> interface to determine when a display is showing Universal Windows Platform apps. This is useful for accessibility tools and other applications.
 
 Use the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-islaunchervisible">IsLauncherVisible</a>  method to determine when  the Start screen is visible.
 

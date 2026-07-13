@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsExW
 title: ChangeDisplaySettingsExW function (winuser.h)
-description: The ChangeDisplaySettingsEx function changes the settings of the specified display device to the specified graphics mode.
-helpviewer_keywords: ["CDS_DISABLE_UNSAFE_MODES","CDS_ENABLE_UNSAFE_MODES","CDS_FULLSCREEN","CDS_GLOBAL","CDS_NORESET","CDS_RESET","CDS_SET_PRIMARY","CDS_TEST","CDS_UPDATEREGISTRY","CDS_VIDEOPARAMETERS","ChangeDisplaySettingsEx","ChangeDisplaySettingsEx function [Windows GDI]","ChangeDisplaySettingsExA","ChangeDisplaySettingsExW","_win32_ChangeDisplaySettingsEx","gdi.changedisplaysettingsex","winuser/ChangeDisplaySettingsEx","winuser/ChangeDisplaySettingsExA","winuser/ChangeDisplaySettingsExW"]
+description: The ChangeDisplaySettingsEx function changes the settings of the specified display device to the specified graphics mode. (Unicode)
+helpviewer_keywords: ["CDS_DISABLE_UNSAFE_MODES", "CDS_ENABLE_UNSAFE_MODES", "CDS_FULLSCREEN", "CDS_GLOBAL", "CDS_NORESET", "CDS_RESET", "CDS_SET_PRIMARY", "CDS_TEST", "CDS_UPDATEREGISTRY", "CDS_VIDEOPARAMETERS", "ChangeDisplaySettingsEx", "ChangeDisplaySettingsEx function [Windows GDI]", "ChangeDisplaySettingsExW", "_win32_ChangeDisplaySettingsEx", "gdi.changedisplaysettingsex", "winuser/ChangeDisplaySettingsEx", "winuser/ChangeDisplaySettingsExW"]
 old-location: gdi\changedisplaysettingsex.htm
 tech.root: gdi
 ms.assetid: 1448e04c-1452-4eab-bda4-4d249cb67a24
@@ -424,7 +424,7 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 > [!NOTE]
-> The winuser.h header defines ChangeDisplaySettingsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines ChangeDisplaySettingsEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

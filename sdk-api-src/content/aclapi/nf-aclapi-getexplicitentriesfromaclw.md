@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.GetExplicitEntriesFromAclW
 title: GetExplicitEntriesFromAclW function (aclapi.h)
-description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL).
-helpviewer_keywords: ["GetExplicitEntriesFromAcl","GetExplicitEntriesFromAcl function [Security]","GetExplicitEntriesFromAclA","GetExplicitEntriesFromAclW","_win32_getexplicitentriesfromacl","aclapi/GetExplicitEntriesFromAcl","aclapi/GetExplicitEntriesFromAclA","aclapi/GetExplicitEntriesFromAclW","security.getexplicitentriesfromacl"]
+description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL). (Unicode)
+helpviewer_keywords: ["GetExplicitEntriesFromAcl", "GetExplicitEntriesFromAcl function [Security]", "GetExplicitEntriesFromAclW", "_win32_getexplicitentriesfromacl", "aclapi/GetExplicitEntriesFromAcl", "aclapi/GetExplicitEntriesFromAclW", "security.getexplicitentriesfromacl"]
 old-location: security\getexplicitentriesfromacl.htm
 tech.root: security
 ms.assetid: 186aa6aa-efc3-4f8a-acad-e257da3dac0b
@@ -99,7 +99,7 @@ For a <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (
 
 
 > [!NOTE]
-> The aclapi.h header defines GetExplicitEntriesFromAcl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The aclapi.h header defines GetExplicitEntriesFromAcl as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

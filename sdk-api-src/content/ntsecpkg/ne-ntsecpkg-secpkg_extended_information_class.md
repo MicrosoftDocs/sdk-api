@@ -60,7 +60,7 @@ This enumeration is used by the
 
 ## -enum-fields
 
-### -field SecpkgGssInfo
+### -field SecpkgGssInfo:1
 
 GSS OID information used to identify the security package in GSS-compatible negotiations.
 

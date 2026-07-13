@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail2.put_AttachmentFileListSize
 title: IFsrmActionEmail2::put_AttachmentFileListSize (fsrm.h)
-description: The maximum number of files to include in the list.
+description: The maximum number of files to include in the list. (Put)
 helpviewer_keywords: ["AttachmentFileListSize property [File Server Resource Manager]","AttachmentFileListSize property [File Server Resource Manager]","IFsrmActionEmail2 interface","IFsrmActionEmail2 interface [File Server Resource Manager]","AttachmentFileListSize property","IFsrmActionEmail2.AttachmentFileListSize","IFsrmActionEmail2.put_AttachmentFileListSize","IFsrmActionEmail2::AttachmentFileListSize","IFsrmActionEmail2::get_AttachmentFileListSize","IFsrmActionEmail2::put_AttachmentFileListSize","fs.ifsrmactionemail2_attachmentfilelistsize","fsrm.ifsrmactionemail2_attachmentfilelistsize","fsrm/IFsrmActionEmail2::AttachmentFileListSize","fsrm/IFsrmActionEmail2::get_AttachmentFileListSize","fsrm/IFsrmActionEmail2::put_AttachmentFileListSize","put_AttachmentFileListSize"]
 old-location: fsrm\ifsrmactionemail2_attachmentfilelistsize.htm
 tech.root: fsrm

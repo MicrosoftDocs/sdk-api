@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_MODULE
 title: IMAGEHLP_MODULE (dbghelp.h)
-description: Contains module information.
+description: Contains module information. (IMAGEHLP_MODULE)
 helpviewer_keywords: ["*PIMAGEHLP_MODULE","IMAGEHLP_MODULE","IMAGEHLP_MODULE structure","IMAGEHLP_MODULE64","IMAGEHLP_MODULE64 structure","IMAGEHLP_MODULEW64","PIMAGEHLP_MODULE64","PIMAGEHLP_MODULE64 structure pointer","SymCoff","SymCv","SymDeferred","SymDia","SymExport","SymNone","SymPdb","SymSym","SymVirtual","_IMAGEHLP_MODULE64","_win32_imagehlp_module64_str","base.imagehlp_module64_str","dbghelp/IMAGEHLP_MODULE64","dbghelp/IMAGEHLP_MODULEW64","dbghelp/PIMAGEHLP_MODULE64"]
 old-location: base\imagehlp_module64_str.htm
 tech.root: Debug

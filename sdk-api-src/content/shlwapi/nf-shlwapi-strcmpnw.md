@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCmpNW
 title: StrCmpNW function (shlwapi.h)
-description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is case-sensitive. The StrNCmp macro differs from this function in name only.
-helpviewer_keywords: ["StrCmpN","StrCmpN function [Windows Shell]","StrCmpNA","StrCmpNW","_win32_StrCmpN","shell.StrCmpN","shlwapi/StrCmpN","shlwapi/StrCmpNA","shlwapi/StrCmpNW"]
+description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is case-sensitive. The StrNCmp macro differs from this function in name only. (Unicode)
+helpviewer_keywords: ["StrCmpN", "StrCmpN function [Windows Shell]", "StrCmpNW", "_win32_StrCmpN", "shell.StrCmpN", "shlwapi/StrCmpN", "shlwapi/StrCmpNW"]
 old-location: shell\StrCmpN.htm
 tech.root: shell
 ms.assetid: e2d97502-1819-463e-a56a-2d22b33502b7
@@ -88,5 +88,5 @@ Returns zero if the strings are identical. Returns a positive value if the first
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines StrCmpN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrCmpN as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

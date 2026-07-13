@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetProductPropertyA
 title: MsiGetProductPropertyA function (msi.h)
-description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database.
-helpviewer_keywords: ["MsiGetProductProperty","MsiGetProductProperty function","MsiGetProductPropertyA","MsiGetProductPropertyW","_msi_msigetproductproperty","msi/MsiGetProductProperty","msi/MsiGetProductPropertyA","msi/MsiGetProductPropertyW","setup.msigetproductproperty"]
+description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database. (ANSI)
+helpviewer_keywords: ["MsiGetProductPropertyA", "msi/MsiGetProductPropertyA"]
 old-location: setup\msigetproductproperty.htm
 tech.root: setup
 ms.assetid: 724f6034-c492-4bab-97dc-d9b2f75e9642
@@ -151,7 +151,7 @@ When the
 
 
 > [!NOTE]
-> The msi.h header defines MsiGetProductProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetProductProperty as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

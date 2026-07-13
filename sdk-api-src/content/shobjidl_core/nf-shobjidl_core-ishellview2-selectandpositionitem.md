@@ -68,12 +68,12 @@ One of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_S
 
 ### -param ppt
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the new position.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the new position.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

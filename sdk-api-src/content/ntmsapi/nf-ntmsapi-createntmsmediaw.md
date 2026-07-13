@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.CreateNtmsMediaW
 title: CreateNtmsMediaW function (ntmsapi.h)
-description: The CreateNtmsMedia function creates a PMID and side (or sides) for a new piece of offline media. The media is placed in the media pool specified for lpPhysicalMedia.
-helpviewer_keywords: ["CreateNtmsMedia","CreateNtmsMedia function [Files]","CreateNtmsMediaA","CreateNtmsMediaW","NTMS_ERROR_ON_DUPLICATE","_zaw_createntmsmedia","base.createntmsmedia","fs.createntmsmedia","ntmsapi/CreateNtmsMedia","ntmsapi/CreateNtmsMediaA","ntmsapi/CreateNtmsMediaW"]
+description: The CreateNtmsMedia function creates a PMID and side (or sides) for a new piece of offline media. The media is placed in the media pool specified for lpPhysicalMedia. (Unicode)
+helpviewer_keywords: ["CreateNtmsMedia", "CreateNtmsMedia function [Files]", "CreateNtmsMediaW", "NTMS_ERROR_ON_DUPLICATE", "_zaw_createntmsmedia", "base.createntmsmedia", "fs.createntmsmedia", "ntmsapi/CreateNtmsMedia", "ntmsapi/CreateNtmsMediaW"]
 old-location: fs\createntmsmedia.htm
 tech.root: fs
 ms.assetid: a44c51c3-13d7-490e-9b6f-4d4c82d5a8f8
@@ -507,7 +507,7 @@ RSM updates this member when it mounts the newly-imported medium for the first t
 
 
 > [!NOTE]
-> The ntmsapi.h header defines CreateNtmsMedia as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines CreateNtmsMedia as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRunnableObject.LockRunning
 title: IRunnableObject::LockRunning (objidl.h)
-description: Locks an already running object into its running state or unlocks it from its running state.
+description: Locks an already running object into its running state or unlocks it from its running state. (IRunnableObject.LockRunning)
 helpviewer_keywords: ["IRunnableObject interface [COM]","LockRunning method","IRunnableObject.LockRunning","IRunnableObject::LockRunning","LockRunning","LockRunning method [COM]","LockRunning method [COM]","IRunnableObject interface","_com_irunnableobject_lockrunning","com.irunnableobject_lockrunning","objidl/IRunnableObject::LockRunning"]
 old-location: com\irunnableobject_lockrunning.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll2.get_EnableSMIMECapabilities
 title: IEnroll2::get_EnableSMIMECapabilities (xenroll.h)
-description: Controls whether the PKCS
+description: Controls whether the PKCS (Get)
 helpviewer_keywords: ["EnableSMIMECapabilities property [Security]","EnableSMIMECapabilities property [Security]","IEnroll2 interface","IEnroll2 interface [Security]","EnableSMIMECapabilities property","IEnroll2.EnableSMIMECapabilities","IEnroll2.get_EnableSMIMECapabilities","IEnroll2::EnableSMIMECapabilities","IEnroll2::get_EnableSMIMECapabilities","IEnroll2::put_EnableSMIMECapabilities","get_EnableSMIMECapabilities","security.ienroll4_enablesmimecapabilities","xenroll/IEnroll2::EnableSMIMECapabilities","xenroll/IEnroll2::get_EnableSMIMECapabilities","xenroll/IEnroll2::put_EnableSMIMECapabilities"]
 old-location: security\ienroll4_enablesmimecapabilities.htm
 tech.root: security

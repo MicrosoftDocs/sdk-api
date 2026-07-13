@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMsgCollection.get__NewEnum
 title: IGPMStatusMsgCollection::get__NewEnum (gpmgmt.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. (IGPMStatusMsgCollection.get__NewEnum)
 helpviewer_keywords: ["IGPMStatusMsgCollection interface [GPMC]","get__NewEnum method","IGPMStatusMsgCollection.get__NewEnum","IGPMStatusMsgCollection::get__NewEnum","_win32_igpmstatusmsgcollection_get__newenum","get__NewEnum","get__NewEnum method [GPMC]","get__NewEnum method [GPMC]","IGPMStatusMsgCollection interface","gpmc.igpmstatusmsgcollection_get__newenum","gpmgmt/IGPMStatusMsgCollection::get__NewEnum"]
 old-location: gpmc\igpmstatusmsgcollection_get__newenum.htm
 tech.root: gpmc

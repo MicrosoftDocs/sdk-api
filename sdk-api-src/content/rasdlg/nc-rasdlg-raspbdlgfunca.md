@@ -1,7 +1,7 @@
 ---
 UID: NC:rasdlg.RASPBDLGFUNCA
 title: RASPBDLGFUNCA (rasdlg.h)
-description: The RasPBDlgFunc function is an application-defined callback function that receives notifications of user activity while the RasPhonebookDlg dialog box is open.
+description: The RasPBDlgFunc function is an application-defined callback function that receives notifications of user activity while the RasPhonebookDlg dialog box is open. (ANSI)
 helpviewer_keywords: ["RASPBDEVENT_AddEntry","RASPBDEVENT_DialEntry","RASPBDEVENT_EditEntry","RASPBDEVENT_EditGlobals","RASPBDEVENT_NoUser","RASPBDEVENT_NoUserEdit","RASPBDEVENT_RemoveEntry","RasPBDlgFunc","RasPBDlgFunc callback","RasPBDlgFunc callback function [RAS]","RasPBDlgFuncA","RasPBDlgFuncW","_ras_raspbdlgfunc","rasdlg/RasPBDlgFunc","rasdlg/RasPBDlgFuncA","rasdlg/RasPBDlgFuncW","rras.raspbdlgfunc"]
 old-location: rras\raspbdlgfunc.htm
 tech.root: RRAS
@@ -195,4 +195,4 @@ Pointer to an additional string argument whose meaning depends on the event indi
 ## -remarks
 
 > [!NOTE]
-> The rasdlg.h header defines RASPBDLGFUNC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rasdlg.h header defines RASPBDLGFUNC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

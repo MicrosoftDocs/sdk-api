@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_Replace
 title: ImageList_Replace function (commctrl.h)
-description: Replaces an image in an image list with a new image.
+description: Replaces an image in an image list with a new image. (ImageList_Replace)
 helpviewer_keywords: ["ImageList_Replace","ImageList_Replace function [Windows Controls]","_win32_ImageList_Replace","_win32_ImageList_Replace_cpp","commctrl/ImageList_Replace","controls.ImageList_Replace","controls._win32_ImageList_Replace"]
 old-location: controls\ImageList_Replace.htm
 tech.root: Controls

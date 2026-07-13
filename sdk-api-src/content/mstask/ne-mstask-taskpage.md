@@ -60,7 +60,7 @@ Each property page can be used to define the properties of a <a href="/windows/d
 
 ## -enum-fields
 
-### -field TASKPAGE_TASK
+### -field TASKPAGE_TASK:0
 
 Specifies the Task page for the task. This page provides the following UI elements: 
 
@@ -86,7 +86,7 @@ Specifies the Task page for the task. This page provides the following UI elemen
 <a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure.</li>
 </ul>
 
-### -field TASKPAGE_SCHEDULE
+### -field TASKPAGE_SCHEDULE:1
 
 Specifies the Schedule page for the task. This page is used to manage the <a href="/windows/desktop/TaskSchd/t">triggers</a> for the task. The user can create triggers, edit triggers, and delete triggers from this page. 
 
@@ -104,7 +104,7 @@ This page provides the following UI elements:
 <li><b>Show multiple schedules</b>: Shows all triggers. When checked, Trigger list box is displayed.</li>
 </ul>
 
-### -field TASKPAGE_SETTINGS
+### -field TASKPAGE_SETTINGS:2
 
 Specifies the Settings page for the task. The user can specify what happens when the task is completed, <a href="/windows/desktop/TaskSchd/i">idle conditions</a>, and power management properties for the task. 
 

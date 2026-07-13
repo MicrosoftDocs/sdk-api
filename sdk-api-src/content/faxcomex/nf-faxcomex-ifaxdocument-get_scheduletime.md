@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_ScheduleTime
 title: IFaxDocument::get_ScheduleTime (faxcomex.h)
-description: The IFaxDocument::get_ScheduleTime property indicates the time to submit the fax for processing to the fax service.
+description: The IFaxDocument::get_ScheduleTime property indicates the time to submit the fax for processing to the fax service. (Get)
 helpviewer_keywords: ["IFaxDocument interface [Fax Service]","ScheduleTime property","IFaxDocument.ScheduleTime","IFaxDocument.get_ScheduleTime","IFaxDocument.put_ScheduleTime","IFaxDocument::ScheduleTime","IFaxDocument::get_ScheduleTime","IFaxDocument::put_ScheduleTime","ScheduleTime property [Fax Service]","ScheduleTime property [Fax Service]","IFaxDocument interface","_mfax_faxdocument.scheduletime","fax._mfax_faxdocument_cpp_mfax_faxdocument_scheduletime_cpp","fax._mfax_faxdocument_scheduletime","faxcomex/IFaxDocument::ScheduleTime","faxcomex/IFaxDocument::get_ScheduleTime","faxcomex/IFaxDocument::put_ScheduleTime","get_ScheduleTime"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_scheduletime_cpp.htm
 tech.root: Fax

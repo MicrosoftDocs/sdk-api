@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Bthprops.lib
-req.dll: Bthprops.dll
+req.dll: bthprops.cpl
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Bthprops.dll
+ - bthprops.cpl
  - BluetoothAPIs.dll
  - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
@@ -111,7 +111,7 @@ The SDP stream is corrupt.
 If the callback function returns
 <b>FALSE</b>, the enumeration initiated by the <b>BluetoothSdpEnumAttributes</b> function is stopped.
 
-The record stream in <i>pSDPStream</i>must be an SDP stream formatted as an SDP record, a SEQUENCE
+The record stream in <i>pSDPStream</i> must be an SDP stream formatted as an SDP record, a SEQUENCE
 containing attribute ID (UINT16) plus attribute value (any SDP element type) pairs.
 
 ## -see-also

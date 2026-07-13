@@ -45,9 +45,6 @@ api_name:
  - FwpmEngineOpen0
 ---
 
-# FwpmEngineOpen0 function
-
-
 ## -description
 
 The <b>FwpmEngineOpen0</b> function  opens a session to the filter engine.
@@ -68,13 +65,13 @@ Specifies the authentication service to use. Allowed services are RPC_C_AUTHN_WI
 
 ### -param authIdentity [in, optional]
 
-Type: <b><a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_W</a>*</b>
+Type: <b><a href="/windows/win32/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_A</a>*</b>
 
 The authentication and authorization credentials for accessing the filter engine. This pointer is optional and can be <b>NULL</b>. If this pointer is <b>NULL</b>, the calling thread's credentials are used.
 
 ### -param session [in, optional]
 
-Type: [FWPM_SESSION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)*</b>
+Type: [FWPM_SESSION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)*</b>
 
 Session-specific parameters for the session being opened. This pointer is optional and can be <b>NULL</b>.
 
@@ -147,7 +144,7 @@ Failure to communicate with the remote or local firewall engine.
 
 A user application must call <b>FwpmEngineOpen0</b> to obtain a handle for open session to the filter engine before adding or removing any filter objects. A handle for an open session to the filter engine is also required for most of the other Windows Filtering Platform management functions.
 
-The session is automatically closed when the program ends. To explicitly close a session, call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineclose0">FwpmEngineClose0</a>.
+The session is automatically closed when the program ends. To explicitly close a session, call <a href="/windows/win32/api/fwpmu/nf-fwpmu-fwpmengineclose0">FwpmEngineClose0</a>.
 
 If <i>session</i>.<b>flags</b> is set to <b>FWPM_SESSION_FLAG_DYNAMIC</b>, any WFP objects added during the session are
 automatically deleted when the session ends. If the session is not dynamic, the caller needs to explicitly delete all WFP objects added during the session.
@@ -184,7 +181,6 @@ if (result != ERROR_SUCCESS)
 else
     printf("Filter engine opened successfully.\n");
 
-
 ```
 
 ## -see-also
@@ -193,11 +189,11 @@ else
 
 
 
-[FWPM_SESSION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)
+[FWPM_SESSION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)
 
 
 
-<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineclose0">FwpmEngineClose0</a>
+<a href="/windows/win32/api/fwpmu/nf-fwpmu-fwpmengineclose0">FwpmEngineClose0</a>
 
 
 
@@ -205,4 +201,4 @@ else
 
 
 
-<a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_W</a>
+<a href="/windows/win32/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_A</a>

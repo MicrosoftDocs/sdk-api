@@ -6,7 +6,7 @@ helpviewer_keywords: ["AllocCapFile","AllocCapFile method [DirectShow]","AllocCa
 old-location: dshow\icapturegraphbuilder2_alloccapfile.htm
 tech.root: dshow
 ms.assetid: e61459bd-cccb-4857-b336-82d23135fa16
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AllocCapFile, AllocCapFile method [DirectShow], AllocCapFile method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],AllocCapFile method, ICaptureGraphBuilder2.AllocCapFile, ICaptureGraphBuilder2::AllocCapFile, ICaptureGraphBuilder2AllocCapFile, dshow.icapturegraphbuilder2_alloccapfile, strmif/ICaptureGraphBuilder2::AllocCapFile
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>AllocCapFile</code> method preallocates a capture file to a specified size. For best results, always capture to a defragmented, preallocated capture file that is larger than the size of the capture data.
 
 ## -parameters
@@ -65,7 +67,7 @@ Size of the file to allocate, in bytes.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

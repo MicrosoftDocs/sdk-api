@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.AssocQueryStringByKeyW
 title: AssocQueryStringByKeyW function (shlwapi.h)
-description: Searches for and retrieves a file association-related string from the registry starting from a specified key.
-helpviewer_keywords: ["AssocQueryStringByKey","AssocQueryStringByKey function [Windows Shell]","AssocQueryStringByKeyA","AssocQueryStringByKeyW","_win32_AssocQueryStringByKey","shell.AssocQueryStringByKey","shlwapi/AssocQueryStringByKey","shlwapi/AssocQueryStringByKeyA","shlwapi/AssocQueryStringByKeyW"]
+description: Searches for and retrieves a file association-related string from the registry starting from a specified key. (Unicode)
+helpviewer_keywords: ["AssocQueryStringByKey", "AssocQueryStringByKey function [Windows Shell]", "AssocQueryStringByKeyW", "_win32_AssocQueryStringByKey", "shell.AssocQueryStringByKey", "shlwapi/AssocQueryStringByKey", "shlwapi/AssocQueryStringByKeyW"]
 old-location: shell\AssocQueryStringByKey.htm
 tech.root: shell
 ms.assetid: 6816f7fe-9a70-4c5f-bd45-d1ca96d4ebd0
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shlwapi-l1-2-1.dll
+ - ext-ms-win-shell-shlwapi-l1-2-0.dll
  - Shlwapi.dll
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
@@ -96,7 +98,7 @@ A pointer to a value that, on entry, specifies the number of characters in the <
 
                     
 
-If the <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
+If the <a href="/windows/win32/shell/assocf_str">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
 
 If <i>pszOut</i> is <b>NULL</b>, the function returns S_FALSE and <i>pcchOut</i> points to the required size of the buffer.
 
@@ -135,4 +137,4 @@ This function is a wrapper for the <a href="/windows/desktop/api/shlwapi/nn-shlw
 
 
 > [!NOTE]
-> The shlwapi.h header defines AssocQueryStringByKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines AssocQueryStringByKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

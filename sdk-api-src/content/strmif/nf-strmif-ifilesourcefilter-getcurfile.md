@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IFileSourceFilter.GetCurFile
 title: IFileSourceFilter::GetCurFile (strmif.h)
-description: The GetCurFile method retrieves the name and media type of the current file.
+description: The GetCurFile method retrieves the name and media type of the current file. (IFileSourceFilter.GetCurFile)
 helpviewer_keywords: ["GetCurFile","GetCurFile method [DirectShow]","GetCurFile method [DirectShow]","IFileSourceFilter interface","IFileSourceFilter interface [DirectShow]","GetCurFile method","IFileSourceFilter.GetCurFile","IFileSourceFilter::GetCurFile","IFileSourceFilterGetCurfile","dshow.ifilesourcefilter_getcurfile","strmif/IFileSourceFilter::GetCurFile"]
 old-location: dshow\ifilesourcefilter_getcurfile.htm
 tech.root: dshow
 ms.assetid: 67373df9-06a3-4678-b661-29580df4f359
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSourceFilter interface, IFileSourceFilter interface [DirectShow],GetCurFile method, IFileSourceFilter.GetCurFile, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetCurFile</code> method retrieves the name and media type of the current file.
 

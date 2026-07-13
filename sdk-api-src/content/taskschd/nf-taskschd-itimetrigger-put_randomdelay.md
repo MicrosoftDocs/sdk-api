@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITimeTrigger.put_RandomDelay
 title: ITimeTrigger::put_RandomDelay (taskschd.h)
-description: Gets or sets a delay time that is randomly added to the start time of the trigger.
+description: Gets or sets a delay time that is randomly added to the start time of the trigger. (ITimeTrigger.put_RandomDelay)
 helpviewer_keywords: ["ITimeTrigger interface [Task Scheduler]","RandomDelay property","ITimeTrigger.RandomDelay","ITimeTrigger.put_RandomDelay","ITimeTrigger::RandomDelay","ITimeTrigger::get_RandomDelay","ITimeTrigger::put_RandomDelay","RandomDelay property [Task Scheduler]","RandomDelay property [Task Scheduler]","ITimeTrigger interface","put_RandomDelay","taskschd.itimetrigger_randomdelay","taskschd/ITimeTrigger::RandomDelay","taskschd/ITimeTrigger::get_RandomDelay","taskschd/ITimeTrigger::put_RandomDelay"]
 old-location: taskschd\itimetrigger_randomdelay.htm
 tech.root: taskschd

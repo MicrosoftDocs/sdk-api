@@ -53,7 +53,7 @@ api_name:
 
 The <code>Delete</code> method deletes an item.
 
-## -parameters
+
 
 ## -returns
 

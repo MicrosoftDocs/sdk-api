@@ -1,12 +1,12 @@
 ---
 UID: NC:msacm.ACMFILTERTAGENUMCBW
 title: ACMFILTERTAGENUMCBW (msacm.h)
-description: The acmFilterTagEnumCallback function specifies a callback function used with the acmFilterTagEnum function. The acmFilterTagEnumCallback function name is a placeholder for an application-defined function name.
+description: The ACMFILTERTAGENUMCBW (Unicode) callback function specifies a callback function used with the acmFilterTagEnum function.
 helpviewer_keywords: ["ACMFILTERTAGENUMCB","ACMFILTERTAGENUMCB callback","ACMFILTERTAGENUMCBA","ACMFILTERTAGENUMCBW","_win32_acmFilterTagEnumCallback","acmFilterTagEnumCallback","acmFilterTagEnumCallback callback function [Windows Multimedia]","msacm/ACMFILTERTAGENUMCBA","msacm/ACMFILTERTAGENUMCBW","msacm/acmFilterTagEnumCallback","multimedia.acmfiltertagenumcallback"]
 old-location: multimedia\acmfiltertagenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 63469be1-d657-4e95-9978-d31140ccd46f
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: ACMFILTERTAGENUMCB, ACMFILTERTAGENUMCB callback, ACMFILTERTAGENUMCBA, ACMFILTERTAGENUMCBW, _win32_acmFilterTagEnumCallback, acmFilterTagEnumCallback, acmFilterTagEnumCallback callback function [Windows Multimedia], msacm/ACMFILTERTAGENUMCBA, msacm/ACMFILTERTAGENUMCBW, msacm/acmFilterTagEnumCallback, multimedia.acmfiltertagenumcallback
 req.header: msacm.h
 req.include-header: 
@@ -116,7 +116,7 @@ The following functions should not be called from within the callback function: 
 
 
 > [!NOTE]
-> The msacm.h header defines ACMFILTERTAGENUMCB as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMFILTERTAGENUMCB as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

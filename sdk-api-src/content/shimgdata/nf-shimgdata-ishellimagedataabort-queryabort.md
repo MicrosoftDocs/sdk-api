@@ -52,7 +52,7 @@ api_name:
 
 Aborts an <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> process such as <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a>, <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-draw">Draw</a>, or <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-scale">Scale</a>. This is a callback method.
 
-## -parameters
+
 
 ## -returns
 

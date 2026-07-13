@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Real32A
 title: MI_Real32A (mi.h)
-description: Represents an array of MI_Real32 types.
+description: Represents an array of MI_Real32 types. (MI_Real32A)
 helpviewer_keywords: ["MI_Real32A","MI_Real32A structure [Windows Management Infrastructure (MI)]","mi/MI_Real32A","wmi._mi_real32a","wmi_v2.mi_real32a"]
 old-location: wmi_v2\mi_real32a.htm
 tech.root: wmi_v2

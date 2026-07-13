@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_10
+UID: NS:winioctl.MOVE_FILE_DATA
 title: MOVE_FILE_DATA
 description: Contains input data for the FSCTL_MOVE_FILE control code.
 helpviewer_keywords: ["*PMOVE_FILE_DATA","MOVE_FILE_DATA","MOVE_FILE_DATA structure [Files]","PMOVE_FILE_DATA","PMOVE_FILE_DATA structure pointer [Files]","_win32_move_file_data_str","base.move_file_data_str","fs.move_file_data_str","winioctl/MOVE_FILE_DATA","winioctl/PMOVE_FILE_DATA"]
@@ -122,3 +122,4 @@ For more information about shadow copies, see <a href="/windows/desktop/VSS/abou
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>
+

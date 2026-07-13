@@ -4,7 +4,8 @@ title: Dciman.h header
 ms.assetid: bd676d3c-636f-3d67-9081-41926146aed2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: winprog
 f1_keywords:
  - dciman

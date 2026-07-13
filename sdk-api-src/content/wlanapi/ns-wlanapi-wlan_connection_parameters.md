@@ -101,7 +101,7 @@ The following table shows flags used to specify the connection parameters.
 <tr>
 <td>WLAN_CONNECTION_HIDDEN_NETWORK</td>
 <td>0x00000001</td>
-<td>Connect to the destination network even if the destination is a hidden network. A hidden network does not broadcast its SSID. Do not use this flag if the destination network is an ad-hoc network.If the profile specified by <b>strProfile</b> is not <b>NULL</b>, then this flag is ignored and the <a href="/windows/desktop/NativeWiFi/wlan-profileschema-nonbroadcast-ssidconfig-element">nonBroadcast</a> profile element determines whether to connect to a hidden network.
+<td>Connect to the destination network even if the destination is a hidden network. A hidden network does not broadcast its SSID. Do not use this flag if the destination network is an ad-hoc network.If the profile specified by <b>strProfile</b> is not <b>NULL</b>, then this flag is ignored and the <a href="/windows/win32/nativewifi/wlan-profileschema-ssidconfig-wlanprofile-element#nonbroadcast">nonBroadcast</a> profile element determines whether to connect to a hidden network.
 
 </td>
 </tr>

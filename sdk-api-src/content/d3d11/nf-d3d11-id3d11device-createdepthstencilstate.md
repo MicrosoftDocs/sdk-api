@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateDepthStencilState
 title: ID3D11Device::CreateDepthStencilState (d3d11.h)
-description: Create a depth-stencil state object that encapsulates depth-stencil test information for the output-merger stage.
+description: Create a depth-stencil state object that encapsulates depth-stencil test information for the output-merger stage. (ID3D11Device.CreateDepthStencilState)
 helpviewer_keywords: ["CreateDepthStencilState","CreateDepthStencilState method [Direct3D 11]","CreateDepthStencilState method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateDepthStencilState method","ID3D11Device.CreateDepthStencilState","ID3D11Device::CreateDepthStencilState","d3d11/ID3D11Device::CreateDepthStencilState","direct3d11.id3d11device_createdepthstencilstate","f09f7b38-23ad-f7a3-93dd-8500c90dc09c"]
 old-location: direct3d11\id3d11device_createdepthstencilstate.htm
 tech.root: direct3d11

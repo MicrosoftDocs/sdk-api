@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrDupA
 title: StrDupA function (shlwapi.h)
-description: Duplicates a string.
-helpviewer_keywords: ["StrDup","StrDup function [Windows Shell]","StrDupA","StrDupW","_win32_StrDup","shell.StrDup","shlwapi/StrDup","shlwapi/StrDupA","shlwapi/StrDupW"]
+description: Duplicates a string. (ANSI)
+helpviewer_keywords: ["StrDupA", "shlwapi/StrDupA"]
 old-location: shell\StrDup.htm
 tech.root: shell
 ms.assetid: fa77f0b3-8a9b-4221-87e3-9aebff4409fb
@@ -117,4 +117,4 @@ Copy:     This is the buffer text
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrDup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrDup as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

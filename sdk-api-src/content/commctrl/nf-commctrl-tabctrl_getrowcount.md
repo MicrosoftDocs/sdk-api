@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetRowCount","TabCtrl_GetRowCount macro [Windows 
 old-location: controls\TabCtrl_GetRowCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getrowcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetRowCount, TabCtrl_GetRowCount macro [Windows Controls], _win32_TabCtrl_GetRowCount, _win32_TabCtrl_GetRowCount_cpp, commctrl/TabCtrl_GetRowCount, controls.TabCtrl_GetRowCount, controls._win32_TabCtrl_GetRowCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TabCtrl_GetRowCount macro
+
+## -syntax
+
+```cpp
+int TabCtrl_GetRowCount(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the number of rows of tabs.
 
 
 ## -description

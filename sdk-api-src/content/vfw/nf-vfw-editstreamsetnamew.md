@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.EditStreamSetNameW
 title: EditStreamSetNameW function (vfw.h)
-description: The EditStreamSetName function assigns a descriptive string to a stream.
-helpviewer_keywords: ["EditStreamSetName","EditStreamSetName function [Windows Multimedia]","EditStreamSetNameA","EditStreamSetNameW","_win32_EditStreamSetName","multimedia.editstreamsetname","vfw/EditStreamSetName","vfw/EditStreamSetNameA","vfw/EditStreamSetNameW"]
+description: The EditStreamSetName function assigns a descriptive string to a stream. (Unicode)
+helpviewer_keywords: ["EditStreamSetName", "EditStreamSetName function [Windows Multimedia]", "EditStreamSetNameW", "_win32_EditStreamSetName", "multimedia.editstreamsetname", "vfw/EditStreamSetName", "vfw/EditStreamSetNameW"]
 old-location: multimedia\editstreamsetname.htm
 tech.root: Multimedia
 ms.assetid: 33542ad1-4bee-4051-8b75-f5328086250b
@@ -77,7 +77,7 @@ This function updates the <b>szName</b> member of the <b>AVISTREAMINFO</b> struc
 
 
 > [!NOTE]
-> The vfw.h header defines EditStreamSetName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines EditStreamSetName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

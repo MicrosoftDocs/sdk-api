@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSupportedDataFields","GetSupportedDataFields method","
 old-location: winsensors_com_ref\isensor_getsupporteddatafields.htm
 tech.root: winsensors
 ms.assetid: b808e472-8428-4176-a3a1-2ab6e454ef44
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetSupportedDataFields, GetSupportedDataFields method, GetSupportedDataFields method,ISensor interface, ISensor interface,GetSupportedDataFields method, ISensor.GetSupportedDataFields, ISensor::GetSupportedDataFields, sensorsapi/ISensor::GetSupportedDataFields, winsensors_com_ref.isensor_getsupporteddatafields
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves a set of <b>PROPERTYKEY</b>s that represent the data fields the sensor can provide.
 

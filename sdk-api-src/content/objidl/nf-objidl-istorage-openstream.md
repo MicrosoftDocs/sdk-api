@@ -80,6 +80,21 @@ A pointer to
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The stream was successfully opened.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream data is currently unavailable. |
+|STG_E_ACCESSDENIED | Not enough permissions to open stream.|
+|STG_E_FILENOTFOUND | The stream with specified name does not exist.|
+|STG_E_INSUFFICIENTMEMORY | The stream was not opened due to a lack of memory.|
+|STG_E_INVALIDFLAG | The value specified for the *grfMode* parameter is not a valid **STGM** constants value.|
+|STG_E_INVALIDFUNCTION | The specified combination of flags in the *grfMode* parameter is not supported; for example, when this method is called without the STGM_SHARE_EXCLUSIVE flag.|
+|STG_E_INVALIDNAME | Invalid value for *pwcsName*.|
+|STG_E_INVALIDPOINTER | The pointer specified for the stream object was not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_TOOMANYOPENFILES | The stream was not opened because there are too many open files.|
+
 ## -remarks
 
 <b>IStorage::OpenStream</b> opens an existing stream object within this storage object in the access mode specified in <i>grfMode</i>. There are restrictions on the permissions that can be given in <i>grfMode</i>. For example, the permissions on this storage object restrict the permissions on its streams. In general, access restrictions on streams need to be stricter than those on their parent storages. Compound-file streams must be opened with STGM_SHARE_EXCLUSIVE.

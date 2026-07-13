@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhParseCounterPathW
 title: PdhParseCounterPathW function (pdh.h)
-description: Parses the elements of the counter path and stores the results in the PDH_COUNTER_PATH_ELEMENTS structure.
-helpviewer_keywords: ["PdhParseCounterPath","PdhParseCounterPath function [Perf]","PdhParseCounterPathA","PdhParseCounterPathW","_win32_pdhparsecounterpath","base.pdhparsecounterpath","pdh/PdhParseCounterPath","pdh/PdhParseCounterPathA","pdh/PdhParseCounterPathW","perf.pdhparsecounterpath"]
+description: Parses the elements of the counter path and stores the results in the PDH_COUNTER_PATH_ELEMENTS structure. (Unicode)
+helpviewer_keywords: ["PdhParseCounterPath", "PdhParseCounterPath function [Perf]", "PdhParseCounterPathW", "_win32_pdhparsecounterpath", "base.pdhparsecounterpath", "pdh/PdhParseCounterPath", "pdh/PdhParseCounterPathW", "perf.pdhparsecounterpath"]
 old-location: perf\pdhparsecounterpath.htm
 tech.root: perf
 ms.assetid: 760b94e9-88df-4f7d-92e9-333d682779f6
@@ -142,7 +142,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 > [!NOTE]
-> The pdh.h header defines PdhParseCounterPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhParseCounterPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionEventLog.put_MessageText
 title: IFsrmActionEventLog::put_MessageText (fsrm.h)
-description: Retrieves or sets the event text that is logged when the action runs.
+description: Retrieves or sets the event text that is logged when the action runs. (IFsrmActionEventLog.put_MessageText)
 helpviewer_keywords: ["IFsrmActionEventLog interface [File Server Resource Manager]","MessageText property","IFsrmActionEventLog.MessageText","IFsrmActionEventLog.put_MessageText","IFsrmActionEventLog::MessageText","IFsrmActionEventLog::get_MessageText","IFsrmActionEventLog::put_MessageText","MessageText property [File Server Resource Manager]","MessageText property [File Server Resource Manager]","IFsrmActionEventLog interface","fs.ifsrmactioneventlog_messagetext","fsrm.ifsrmactioneventlog_messagetext","fsrm/IFsrmActionEventLog::MessageText","fsrm/IFsrmActionEventLog::get_MessageText","fsrm/IFsrmActionEventLog::put_MessageText","put_MessageText"]
 old-location: fsrm\ifsrmactioneventlog_messagetext.htm
 tech.root: fsrm

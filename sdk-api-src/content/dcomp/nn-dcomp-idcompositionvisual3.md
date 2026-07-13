@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionVisual3
 title: IDCompositionVisual3 (dcomp.h)
-description: Represents one DirectComposition visual in a visual tree.
+description: Represents one DirectComposition visual in a visual tree. (IDCompositionVisual3)
 helpviewer_keywords: ["IDCompositionVisual3","IDCompositionVisual3 interface [DirectComposition]","IDCompositionVisual3 interface [DirectComposition]","described","dcomp/IDCompositionVisual3","directcomp.idcompositionvisual3"]
 old-location: directcomp\idcompositionvisual3.htm
 tech.root: directcomp
@@ -54,10 +54,7 @@ Represents one DirectComposition visual in a visual tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual3</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisual3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDCompositionVisual3</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisual3</b> also has these types of members:
 
 ## -see-also
 

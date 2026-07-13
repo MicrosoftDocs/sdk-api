@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_COLOR_YCbCrA
 title: D3D11_VIDEO_COLOR_YCbCrA (d3d11.h)
-description: Specifies a YCbCr color value.
+description: Specifies a YCbCr color value. (D3D11_VIDEO_COLOR_YCbCrA)
 helpviewer_keywords: ["D3D11_VIDEO_COLOR_YCbCrA","D3D11_VIDEO_COLOR_YCbCrA structure [Media Foundation]","d3d11/D3D11_VIDEO_COLOR_YCbCrA","mf.d3d11_video_color_ycbcra"]
 old-location: mf\d3d11_video_color_ycbcra.htm
 tech.root: mf

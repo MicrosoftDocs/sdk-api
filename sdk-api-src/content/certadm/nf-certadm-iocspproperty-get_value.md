@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPProperty.get_Value
 title: IOCSPProperty::get_Value (certadm.h)
-description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object.
+description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object. (Get)
 helpviewer_keywords: ["IOCSPProperty interface [Security]","Value property","IOCSPProperty.Value","IOCSPProperty.get_Value","IOCSPProperty::Value","IOCSPProperty::get_Value","IOCSPProperty::put_Value","Value property [Security]","Value property [Security]","IOCSPProperty interface","certadm/IOCSPProperty::Value","certadm/IOCSPProperty::get_Value","certadm/IOCSPProperty::put_Value","get_Value","security.iocspproperty_value_method"]
 old-location: security\iocspproperty_value_method.htm
 tech.root: security

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVMRMixerControl9 interface [DirectShow]","SetProcAmpCont
 old-location: dshow\ivmrmixercontrol9_setprocampcontrol.htm
 tech.root: dshow
 ms.assetid: 6e2949f5-87e5-4748-bb23-be14452c8c82
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetProcAmpControl method, IVMRMixerControl9.SetProcAmpControl, IVMRMixerControl9::SetProcAmpControl, IVMRMixerControl9SetProcAmpControl, SetProcAmpControl, SetProcAmpControl method [DirectShow], SetProcAmpControl method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setprocampcontrol, vmr9/IVMRMixerControl9::SetProcAmpControl
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetProcAmpControl</code> method sets the image adjustment for the VMR-9. Image adjustment includes brightness, contrast, hue, and saturation, and is performed by the graphics device. If the graphics driver does not support hardware image adjustment, this method fails.
 

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -81,7 +81,7 @@ The platform determines the default <a href="/windows/desktop/api/msinkaut/nn-ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
+<a href="../msinkaut/nn-msinkaut-iinktablets.md">IInkTablets</a>
 
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PCRYPT_ALGORITHM_IDENTIFIER","CRYPT_ALGORITHM_IDENTIFIER
 old-location: security\crypt_algorithm_identifier.htm
 tech.root: security
 ms.assetid: ef0d3aa6-6b36-426f-a14c-2fdf7543deb9
-ms.date: 12/05/2018
+ms.date: 05/08/2025
 ms.keywords: '*PCRYPT_ALGORITHM_IDENTIFIER, CRYPT_ALGORITHM_IDENTIFIER, CRYPT_ALGORITHM_IDENTIFIER structure [Security], PCRYPT_ALGORITHM_IDENTIFIER, PCRYPT_ALGORITHM_IDENTIFIER structure pointer [Security], _crypto2_crypt_algorithm_identifier, security.crypt_algorithm_identifier, szOID_ANSI_x942, szOID_ANSI_x942_DH, szOID_DATA STRUCTURE, szOID_DH_SINGLE_PASS_STDDH_SHA1_KDF, szOID_DH_SINGLE_PASS_STDDH_SHA256_KDF, szOID_DH_SINGLE_PASS_STDDH_SHA384_KDF, szOID_DS, szOID_DSALG, szOID_DSALG_CRPT, szOID_DSALG_HASH, szOID_DSALG_RSA, szOID_DSALG_SIGN, szOID_ECC_CURVE_P256, szOID_ECC_CURVE_P384, szOID_ECC_CURVE_P521, szOID_ECC_PUBLIC_KEY, szOID_ECDSA_SHA1, szOID_ECDSA_SHA256, szOID_ECDSA_SHA384, szOID_ECDSA_SHA512, szOID_ECDSA_SPECIFIED, szOID_INFOSEC, szOID_INFOSEC_SuiteAConfidentiality, szOID_INFOSEC_SuiteAIntegrity, szOID_INFOSEC_SuiteAKMandSig, szOID_INFOSEC_SuiteAKeyManagement, szOID_INFOSEC_SuiteASignature, szOID_INFOSEC_SuiteATokenProtection, szOID_INFOSEC_mosaicConfidentiality, szOID_INFOSEC_mosaicIntegrity, szOID_INFOSEC_mosaicKMandSig, szOID_INFOSEC_mosaicKMandUpdSig, szOID_INFOSEC_mosaicKeyManagement, szOID_INFOSEC_mosaicSignature, szOID_INFOSEC_mosaicTokenProtection, szOID_INFOSEC_mosaicUpdatedInteg, szOID_INFOSEC_mosaicUpdatedSig, szOID_INFOSEC_sdnsConfidentiality, szOID_INFOSEC_sdnsIntegrity, szOID_INFOSEC_sdnsKMandSig, szOID_INFOSEC_sdnsKeyManagement, szOID_INFOSEC_sdnsSignature, szOID_INFOSEC_sdnsTokenProtection, szOID_NIST_AES128_CBC, szOID_NIST_AES128_WRAP, szOID_NIST_AES192_CBC, szOID_NIST_AES192_WRAP, szOID_NIST_AES256_CBC, szOID_NIST_AES256_WRAP, szOID_NIST_sha256, szOID_NIST_sha384, szOID_NIST_sha512, szOID_OIW, szOID_OIWDIR, szOID_OIWDIR_CRPT, szOID_OIWDIR_HASH, szOID_OIWDIR_SIGN, szOID_OIWDIR_md2, szOID_OIWDIR_md2RSA, szOID_OIWSEC, szOID_OIWSEC_desCBC, szOID_OIWSEC_desCFB, szOID_OIWSEC_desECB, szOID_OIWSEC_desEDE, szOID_OIWSEC_desMAC, szOID_OIWSEC_desOFB, szOID_OIWSEC_dhCommMod, szOID_OIWSEC_dsa, szOID_OIWSEC_dsaComm, szOID_OIWSEC_dsaCommSHA, szOID_OIWSEC_dsaCommSHA1, szOID_OIWSEC_dsaSHA1, szOID_OIWSEC_keyHashSeal, szOID_OIWSEC_md2RSASign, szOID_OIWSEC_md4RSA, szOID_OIWSEC_md4RSA2, szOID_OIWSEC_md5RSA, szOID_OIWSEC_md5RSASign, szOID_OIWSEC_mdc2, szOID_OIWSEC_mdc2RSA, szOID_OIWSEC_rsaSign, szOID_OIWSEC_rsaXchg, szOID_OIWSEC_sha, szOID_OIWSEC_sha1, szOID_OIWSEC_sha1RSASign, szOID_OIWSEC_shaDSA, szOID_OIWSEC_shaRSA, szOID_PKCS, szOID_PKCS_1, szOID_PKCS_10, szOID_PKCS_12, szOID_PKCS_2, szOID_PKCS_3, szOID_PKCS_4, szOID_PKCS_5, szOID_PKCS_6, szOID_PKCS_7, szOID_PKCS_8, szOID_PKCS_9, szOID_PKIX_NO_SIGNATURE, szOID_RFC3161_counterSign, szOID_RSA, szOID_RSAES_OAEP, szOID_RSA_DES_EDE3_CBC, szOID_RSA_DH, szOID_RSA_ENCRYPT, szOID_RSA_HASH, szOID_RSA_MD2, szOID_RSA_MD2RSA, szOID_RSA_MD4, szOID_RSA_MD4RSA, szOID_RSA_MD5, szOID_RSA_MD5RSA, szOID_RSA_MGF1, szOID_RSA_PSPECIFIED, szOID_RSA_RC2CBC, szOID_RSA_RC4, szOID_RSA_RC5_CBCPad, szOID_RSA_RSA, szOID_RSA_SETOAEP_RSA, szOID_RSA_SHA1RSA, szOID_RSA_SHA256RSA, szOID_RSA_SHA384RSA, szOID_RSA_SHA512RSA, szOID_RSA_SMIMECapabilities, szOID_RSA_SMIMEalg, szOID_RSA_SMIMEalgCMS3DESwrap, szOID_RSA_SMIMEalgCMSRC2wrap, szOID_RSA_SMIMEalgESDH, szOID_RSA_SSA_PSS, szOID_RSA_certExtensions, szOID_RSA_challengePwd, szOID_RSA_contentType, szOID_RSA_counterSign, szOID_RSA_data, szOID_RSA_digestedData, szOID_RSA_emailAddr, szOID_RSA_encryptedData, szOID_RSA_envelopedData, szOID_RSA_extCertAttrs, szOID_RSA_hashedData, szOID_RSA_messageDigest, szOID_RSA_preferSignedData, szOID_RSA_signEnvData, szOID_RSA_signedData, szOID_RSA_signingTime, szOID_RSA_unstructAddr, szOID_RSA_unstructName, szOID_TIMESTAMP_TOKEN, szOID_X957, szOID_X957_DSA, szOID_X957_SHA1DSA, wincrypt/CRYPT_ALGORITHM_IDENTIFIER, wincrypt/PCRYPT_ALGORITHM_IDENTIFIER'
 req.header: wincrypt.h
 req.include-header: 
@@ -54,17 +54,13 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure specifies an algorithm used to encrypt a <a href="/windows/desktop/SecGloss/p-gly">private key</a>. The structure includes the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the algorithm and any needed parameters for that algorithm. The parameters contained in its <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> are encoded.
+The <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure specifies an algorithm used to encrypt a <a href="/windows/win32/SecGloss/p-gly">private key</a>. The structure includes the <a href="/windows/win32/SecGloss/o-gly">object identifier</a> (OID) of the algorithm and any needed parameters for that algorithm. The parameters contained in its <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> are encoded.
 
 ## -struct-fields
 
 ### -field pszObjId
 
-An OID of an algorithm. This member can be one of the following values.  This list is only representative. New algorithms are being defined by 
-
-
-
-various users.
+An OID of an algorithm. This member can be one of the following values.  This list is only representative. New algorithms are being defined by various users.
 
 <table>
 <tr>
@@ -166,10 +162,7 @@ PKCS#4 was a Public Key Cryptography Standard (PKCS) that defined the RSA key sy
 </dl>
 </td>
 <td width="60%">
-PKCS#5 is a Public Key Cryptography Standard (PKCS)  that provides recommendations for the implementation of
-   password-based cryptography. It  covers key derivation functions,
-   encryption schemes, message-authentication schemes, and ASN.1 syntax
-   structure.
+PKCS#5 is a Public Key Cryptography Standard (PKCS)  that provides recommendations for the implementation of password-based cryptography. It covers key derivation functions, encryption schemes, message-authentication schemes, and ASN.1 syntax structure.
 
 </td>
 </tr>
@@ -180,9 +173,7 @@ PKCS#5 is a Public Key Cryptography Standard (PKCS)  that provides recommendatio
 </dl>
 </td>
 <td width="60%">
-PKCS#6 is a Public Key Cryptography Standard (PKCS)  that describes the syntax for extended certificate information, a set of attributes that provides additional information about the
-entity whose public key is certified in the X.509
-certificate.
+PKCS#6 is a Public Key Cryptography Standard (PKCS)  that describes the syntax for extended certificate information, a set of attributes that provides additional information about the entity whose public key is certified in the X.509 certificate.
 
 </td>
 </tr>
@@ -193,9 +184,7 @@ certificate.
 </dl>
 </td>
 <td width="60%">
-PKCS#7 is a Public Key Cryptography Standard (PKCS)  that describes the general types of content to which cryptography can be applied. This includes data, signed data,
-enveloped data, signed-and-enveloped data, digested data,
-and encrypted data.
+PKCS#7 is a Public Key Cryptography Standard (PKCS)  that describes the general types of content to which cryptography can be applied. This includes data, signed data, enveloped data, signed-and-enveloped data, digested data, and encrypted data.
 
 </td>
 </tr>
@@ -217,10 +206,7 @@ PKCS#8 is a Public Key Cryptography Standard (PKCS) that defines the syntax for 
 </dl>
 </td>
 <td width="60%">
-PKCS#8 is a Public Key Cryptography Standard (PKCS) that defines attribute types for use in
-PKCS#6 extended certificates, PKCS#7 digitally signed
-messages, PKCS#8 private-key information, and PKCS#10
-certificate-signing requests.
+PKCS#8 is a Public Key Cryptography Standard (PKCS) that defines attribute types for use in PKCS#6 extended certificates, PKCS#7 digitally signed messages, PKCS#8 private-key information, and PKCS#10 certificate-signing requests.
 
 </td>
 </tr>
@@ -656,7 +642,7 @@ Timestamp object identifier.
 <tr>
 <td width="40%"><a id="szOID_RFC3161_counterSign"></a><a id="szoid_rfc3161_countersign"></a><a id="SZOID_RFC3161_COUNTERSIGN"></a><dl>
 <dt><b>szOID_RFC3161_counterSign</b></dt>
-<dt>"1.2.840.113549.1.9.16.1.4"</dt>
+<dt>"1.3.6.1.4.1.311.3.3.1"</dt>
 </dl>
 </td>
 <td width="60%">
@@ -671,7 +657,7 @@ Counter signature of a signature.
 </dl>
 </td>
 <td width="60%">
-RSA applied to the Multipurpose Internet Mail Extensions (MIME) algorithm.  SMIME reports the decryption capabilities of an email recipient to an email sender so that the sender can choose the most secure algorithm supported by both parties.
+RSA applied to the Multipurpose Internet Mail Extensions (MIME) algorithm. SMIME reports the decryption capabilities of an email recipient to an email sender so that the sender can choose the most secure algorithm supported by both parties.
 
 </td>
 </tr>
@@ -737,7 +723,7 @@ RSA that uses the Rivest Cipher (RC4) block cipher algorithm coupled with a ciph
 </dl>
 </td>
 <td width="60%">
-RSA that uses the triple Data Encryption Standard (DES) algorithm coupled with a cipher-block chaining mode of operation.   The encryption operation is performed as encrypt-decrypt-encrypt.
+RSA that uses the triple Data Encryption Standard (DES) algorithm coupled with a cipher-block chaining mode of operation. The encryption operation is performed as encrypt-decrypt-encrypt.
 
 </td>
 </tr>
@@ -903,6 +889,28 @@ Elliptic curve Digital Signature Algorithm (DSA) coupled with the Secure Hashing
 </td>
 <td width="60%">
 Elliptic curve Digital Signature Algorithm (DSA) coupled with the Secure Hashing Algorithm (SHA512) algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="szOID_NO_HASH"></a><a id="szoid_no_hash"></a><a id="SZOID_NO_HASH"></a><dl>
+<dt><b>szOID_NO_HASH</b></dt>
+<dt>"1.3.6.1.4.1.311.73.1"</dt>
+</dl>
+</td>
+<td width="60%">
+An OID that indicates that no hash algorithm is used.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="szOID_PREHASH"></a><a id="szoid_prehash"></a><a id="SZOID_PREHASH"></a><dl>
+<dt><b>szOID_PREHASH</b></dt>
+<dt>"1.3.6.1.4.1.311.73.2"</dt>
+</dl>
+</td>
+<td width="60%">
+An OID that indicates that the bytes to be signed have been pre-hashed.
 
 </td>
 </tr>
@@ -1751,6 +1759,162 @@ Secure hashing algorithm (SHA) that uses a 512 bit key.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="_szOID_NIST_shake128"></a><a id="_szoid_nist_shake128"></a><a id="_SZOID_NIST_SHAKE128"></a><dl>
+<dt><b> szOID_NIST_shake128</b></dt>
+<dt>  "2.16.840.1.101.3.4.2.11"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Secure hashing algorithm KECCAK (SHAKE) that uses a 128 bit key.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_shake256"></a><a id="_szoid_nist_shake256"></a><a id="_SZOID_NIST_SHAKE256"></a><dl>
+<dt><b> szOID_NIST_shake256</b></dt>
+<dt>  "2.16.840.1.101.3.4.2.12"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Secure hashing algorithm KECCAK (SHAKE) that uses a 256 bit key.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_dsa_44"></a><a id="_szoid_nist_ml_dsa_44"></a><a id="_SZOID_NIST_ML_DSA_44"></a><dl>
+<dt><b> szOID_NIST_ml_dsa_44</b></dt>
+<dt>  "2.16.840.1.101.3.4.3.17"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+"Pure" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 128 bit lattice.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_dsa_65"></a><a id="_szoid_nist_ml_dsa_65"></a><a id="_SZOID_NIST_ML_DSA_65"></a><dl>
+<dt><b> szOID_NIST_ml_dsa_65</b></dt>
+<dt>  "2.16.840.1.101.3.4.3.18"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+"Pure" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 192 bit lattice.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_dsa_87"></a><a id="_szoid_nist_ml_dsa_87"></a><a id="_SZOID_NIST_ML_DSA_87"></a><dl>
+<dt><b> szOID_NIST_ml_dsa_87</b></dt>
+<dt>  "2.16.840.1.101.3.4.3.19"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+"Pure" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 256 bit lattice.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_hash_ml_dsa_44_with_sha512"></a><a id="_szoid_nist_hash_ml_dsa_44_with_sha512"></a><a id="_SZOID_NIST_HASH_ML_DSA_44_WITH_SHA512"></a><dl>
+<dt><b> szOID_NIST_hash_ml_dsa_44_with_sha512</b></dt>
+<dt>  "2.16.840.1.101.3.4.3.32"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+"Pre-Hash" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 128 bit lattice.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_hash_ml_dsa_65_with_sha512"></a><a id="_szoid_nist_hash_ml_dsa_65_with_sha512"></a><a id="_SZOID_NIST_HASH_ML_DSA_65_WITH_SHA512"></a><dl>
+<dt><b> szOID_NIST_hash_ml_dsa_65_with_sha512</b></dt>
+<dt>  "2.16.840.1.101.3.4.3.33"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+"Pre-Hash" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 192 bit lattice.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_hash_ml_dsa_87_with_sha512"></a><a id="_szoid_nist_hash_ml_dsa_87_with_sha512"></a><a id="_SZOID_NIST_HASH_ML_DSA_87_WITH_SHA512"></a><dl>
+<dt><b> szOID_NIST_hash_ml_dsa_87_with_sha512</b></dt>
+<dt>  "2.16.840.1.101.3.4.3.34"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+"Pre-Hash" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 256 bit lattice.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szoid_mldsa44_ecdsa_p256_sha256"></a><a id="_szoid_mldsa44_ecdsa_p256_sha256"></a><a id="_szOID_MLDSA44_ECDSA_P256_SHA256"></a><dl>
+<dt><b> szOID_MLDSA44_ECDSA_P256_SHA256</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.40"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 44 and Elliptic Curve Digital Signature Algorithm (ECDSA) p256 with SHA-256 Hash Algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szoid_mldsa65_ecdsa_p256_sha512"></a><a id="_szoid_mldsa65_ecdsa_p256_sha512"></a><a id="_szOID_MLDSA65_ECDSA_P256_SHA512"></a><dl>
+<dt><b> szOID_MLDSA65_ECDSA_P256_SHA512</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.45"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 65 and Elliptic Curve Digital Signature Algorithm (ECDSA) p256 with SHA-512 Hash Algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szoid_mldsa65_ecdsa_p384_sha512"></a><a id="_szoid_mldsa65_ecdsa_p384_sha512"></a><a id="_szOID_MLDSA65_ECDSA_P384_SHA512"></a><dl>
+<dt><b> szOID_MLDSA65_ECDSA_P384_SHA512</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.46"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 65 and Elliptic Curve Digital Signature Algorithm (ECDSA) p384 with SHA-512 Hash Algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szoid_mldsa87_ecdsa_p384_sha512"></a><a id="_szoid_mldsa87_ecdsa_p384_sha512"></a><a id="_szOID_MLDSA87_ECDSA_P384_SHA512"></a><dl>
+<dt><b> szOID_MLDSA87_ECDSA_P384_SHA512</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.49"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 87 and Elliptic Curve Digital Signature Algorithm (ECDSA) p384 with SHA-512 Hash Algorithm.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="szOID_PKIX_NO_SIGNATURE"></a><a id="szoid_pkix_no_signature"></a><a id="SZOID_PKIX_NO_SIGNATURE"></a><dl>
 <dt><b>szOID_PKIX_NO_SIGNATURE</b></dt>
 <dt>"1.3.6.1.5.5.7.6.2"</dt>
@@ -1758,6 +1922,84 @@ Secure hashing algorithm (SHA) that uses a 512 bit key.
 </td>
 <td width="60%">
 No signature.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_kem_512"></a><a id="_szoid_nist_ml_kem_512"></a><a id="_SZOID_NIST_ML_KEM_512"></a><dl>
+<dt><b> szOID_NIST_ml_kem_512</b></dt>
+<dt>  "2.16.840.1.101.3.4.4.1"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 512.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_kem_768"></a><a id="_szoid_nist_ml_kem_768"></a><a id="_SZOID_NIST_ML_KEM_768"></a><dl>
+<dt><b> szOID_NIST_ml_kem_768</b></dt>
+<dt>  "2.16.840.1.101.3.4.4.2"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 768.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_kem_1024"></a><a id="_szoid_nist_ml_kem_1024"></a><a id="_SZOID_NIST_ML_KEM_1024"></a><dl>
+<dt><b> szOID_NIST_ml_kem_1024</b></dt>
+<dt>  "2.16.840.1.101.3.4.4.3"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 1024.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_mlkem768_x25519_sha3_256"></a><a id="_szoid_mlkem768_x25519_sha3_256"></a><a id="_SZOID_MLKEM768_X25519_SHA3_256"></a><dl>
+<dt><b> szOID_MLKEM768_X25519_SHA3_256</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.58"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 768 and Curve 25519 with SHA3 256-bit hash algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_mlkem768_ecdh_p256_sha3_256"></a><a id="_szoid_mlkem768_ecdh_p256_sha3_256"></a><a id="_SZOID_MLKEM768_ECDH_P256_SHA3_256"></a><dl>
+<dt><b> szOID_MLKEM768_ECDH_P256_SHA3_256</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.59"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 768 and Elliptic Curve Diffie-Hellman P256 with SHA3 256-bit hash algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_mlkem1024_ecdh_p384_sha3_256"></a><a id="_szoid_mlkem1024_ecdh_p384_sha3_256"></a><a id="_SZOID_MLKEM1024_ECDH_P384_SHA3_256"></a><dl>
+<dt><b> szOID_MLKEM1024_ECDH_P384_SHA3_256</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.63"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 1024 and Elliptic Curve Diffie-Hellman P384 with SHA3 256-bit hash algorithm.
 
 </td>
 </tr>
@@ -1787,13 +2029,13 @@ Elliptic Curve Digital Signature Algorithm (ECDSA).
 
 ### -field Parameters
 
-A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>  that provides encoded algorithm-specific parameters. In many cases, there are no parameters. This is indicated by setting the <b>cbData</b> member of the <b>Parameters</b> BLOB to zero. 
+A <a href="/windows/win32/SecGloss/b-gly">BLOB</a>  that provides encoded algorithm-specific parameters. In many cases, there are no parameters. This is indicated by setting the <b>cbData</b> member of the <b>Parameters</b> BLOB to zero. 
 
 
 
 
 The following algorithms have the specified encoded parameters. For more information, see 
-<a href="/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
+<a href="/windows/win32/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
 <table>
 <tr>
@@ -1806,7 +2048,7 @@ The following algorithms have the specified encoded parameters. For more informa
 </dl>
 </td>
 <td width="60%">
-A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_dss_parameters">CERT_DSS_PARAMETERS</a> structure.
+A <a href="/windows/win32/api/wincrypt/ns-wincrypt-cert_dss_parameters">CERT_DSS_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1816,7 +2058,7 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_dss_parameters">CERT_D
 </dl>
 </td>
 <td width="60%">
-A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rc2_cbc_parameters">CRYPT_RC2_CBC_PARAMETERS</a> structure.
+A <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_rc2_cbc_parameters">CRYPT_RC2_CBC_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1826,7 +2068,7 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rc2_cbc_parameters">C
 </dl>
 </td>
 <td width="60%">
-A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/win32/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1836,7 +2078,7 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DA
 </dl>
 </td>
 <td width="60%">
-A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/win32/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1846,7 +2088,7 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DA
 </dl>
 </td>
 <td width="60%">
-A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/win32/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1856,7 +2098,7 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DA
 </dl>
 </td>
 <td width="60%">
-A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsa_ssa_pss_parameters">CRYPT_RSA_SSA_PSS_PARAMETERS</a> structure.
+A <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_rsa_ssa_pss_parameters">CRYPT_RSA_SSA_PSS_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1874,60 +2116,32 @@ A <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure.
 
 ## -see-also
 
-<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
+[ALG_ID](/windows/win32/SecCrypto/alg-id)
 
+[CERT_INFO](ns-wincrypt-cert_info.md)
 
+[CERT_PUBLIC_KEY_INFO](ns-wincrypt-cert_public_key_info.md)
 
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
+[CERT_SIGNED_CONTENT_INFO](ns-wincrypt-cert_signed_content_info.md)
 
+[CMSG_ENVELOPED_ENCODE_INFO](ns-wincrypt-cmsg_enveloped_encode_info.md)
 
+[CMSG_HASHED_ENCODE_INFO](ns-wincrypt-cmsg_hashed_encode_info.md)
 
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
+[CMSG_SIGNER_ENCODE_INFO](ns-wincrypt-cmsg_signer_encode_info.md)
 
+[CMSG_SIGNER_INFO](ns-wincrypt-cmsg_signer_info.md)
 
+[CRL_INFO](ns-wincrypt-crl_info.md)
 
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>
+[CRYPT_ENCRYPT_MESSAGE_PARA](ns-wincrypt-crypt_encrypt_message_para.md)
 
+[CRYPT_HASH_MESSAGE_PARA](ns-wincrypt-crypt_hash_message_para.md)
 
+[CRYPT_INTEGER_BLOB](/previous-versions/windows/desktop/legacy/aa381414(v=vs.85))
 
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
+[CRYPT_PRIVATE_KEY_INFO](ns-wincrypt-crypt_private_key_info.md)
 
+[CRYPT_SIGN_MESSAGE_PARA](ns-wincrypt-crypt_sign_message_para.md)
 
-
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_hashed_encode_info">CMSG_HASHED_ENCODE_INFO</a>
-
-
-
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>
-
-
-
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a>
-
-
-
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a>
-
-
-
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a>
-
-
-
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_hash_message_para">CRYPT_HASH_MESSAGE_PARA</a>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-
-
-
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
-
-
-
-<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a>
-
-
-
-<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a>
+[CryptMsgGetParam](nf-wincrypt-cryptmsggetparam.md)

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetCheckState","ListView_GetCheckState macro [Wi
 old-location: controls\ListView_GetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcheckstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetCheckState, ListView_GetCheckState macro [Windows Controls], _win32_ListView_GetCheckState, _win32_ListView_GetCheckState_cpp, commctrl/ListView_GetCheckState, controls.ListView_GetCheckState, controls._win32_ListView_GetCheckState
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetCheckState macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetCheckState(
+   HWND hwndLV,
+   UINT i
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if the given item is selected, or zero otherwise. If this macro is applied to a list-view control that does not have check boxes enabled, the return value is not reliable.
 
 
 ## -description

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -148,7 +148,7 @@ If the <i>ids</i> parameter is <b>NULL</b> or an empty array, then an empty <a h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="../msinkaut/nn-msinkaut-iinkdisp.md">IInkDisp</a>
 
 
 

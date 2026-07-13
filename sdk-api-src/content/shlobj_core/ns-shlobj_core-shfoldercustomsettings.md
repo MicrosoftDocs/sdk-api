@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_6
+UID: NS:shlobj_core.SHFOLDERCUSTOMSETTINGS
 title: SHFOLDERCUSTOMSETTINGS (shlobj_core.h)
 description: Holds custom folder settings. This structure is used with the SHGetSetFolderCustomSettings function.
 helpviewer_keywords: ["*LPSHFOLDERCUSTOMSETTINGS","FCSM_CLSID","FCSM_FLAGS","FCSM_ICONFILE","FCSM_INFOTIP","FCSM_LOGO","FCSM_VIEWID","FCSM_WEBVIEWTEMPLATE","LPSHFOLDERCUSTOMSETTINGS","LPSHFOLDERCUSTOMSETTINGS structure pointer [Windows Shell]","SHFOLDERCUSTOMSETTINGS","SHFOLDERCUSTOMSETTINGS structure [Windows Shell]","SHFOLDERCUSTOMSETTINGSA","SHFOLDERCUSTOMSETTINGSW","_win32_SHFOLDERCUSTOMSETTINGS","shell.SHFOLDERCUSTOMSETTINGS","shlobj_core/LPSHFOLDERCUSTOMSETTINGS","shlobj_core/SHFOLDERCUSTOMSETTINGS","shlobj_core/SHFOLDERCUSTOMSETTINGSA","shlobj_core/SHFOLDERCUSTOMSETTINGSW"]
@@ -193,3 +193,4 @@ If the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercu
 ## -remarks
 
 In Windows XP Service Pack 2 (SP2) and earlier versions, this structure supported both ANSI and Unicode strings. In Windows Vista and later versions, only Unicode strings are supported.
+

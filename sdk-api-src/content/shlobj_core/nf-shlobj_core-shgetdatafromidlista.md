@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetDataFromIDListA
 title: SHGetDataFromIDListA function (shlobj_core.h)
-description: Retrieves extended property data from a relative identifier list.
-helpviewer_keywords: ["SHGDFIL_DESCRIPTIONID","SHGDFIL_FINDDATA","SHGDFIL_NETRESOURCE","SHGetDataFromIDList","SHGetDataFromIDList function [Windows Shell]","SHGetDataFromIDListA","SHGetDataFromIDListW","_win32_SHGetDataFromIDList","shell.SHGetDataFromIDList","shlobj_core/SHGetDataFromIDList","shlobj_core/SHGetDataFromIDListA","shlobj_core/SHGetDataFromIDListW"]
+description: Retrieves extended property data from a relative identifier list. (ANSI)
+helpviewer_keywords: ["SHGDFIL_DESCRIPTIONID", "SHGDFIL_FINDDATA", "SHGDFIL_NETRESOURCE", "SHGetDataFromIDListA", "shlobj_core/SHGetDataFromIDListA"]
 old-location: shell\SHGetDataFromIDList.htm
 tech.root: shell
 ms.assetid: 11c041bd-22fd-46a4-b75c-cc86ee771241
@@ -87,7 +87,7 @@ Format used for file system objects. The <i>pv</i> parameter is the address of a
 
 #### SHGDFIL_NETRESOURCE
 
-Format used for network resources. The <i>pv</i> parameter is the address of a <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
+Format used for network resources. The <i>pv</i> parameter is the address of a <a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure.
 
 
 
@@ -126,4 +126,4 @@ E_INVALIDARG is returned if the <i>psf</i>, <i>pidl</i>, <i>pv</i>, or <i>cb</i>
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHGetDataFromIDList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHGetDataFromIDList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

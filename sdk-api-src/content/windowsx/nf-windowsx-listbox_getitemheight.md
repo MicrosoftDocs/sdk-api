@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetItemHeight","ListBox_GetItemHeight macro [Wind
 old-location: controls\ListBox_GetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemheight.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetItemHeight, ListBox_GetItemHeight macro [Windows Controls], _win32_ListBox_GetItemHeight, _win32_ListBox_GetItemHeight_cpp, controls.ListBox_GetItemHeight, controls._win32_ListBox_GetItemHeight, windowsx/ListBox_GetItemHeight
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListBox_GetItemHeight macro
+
+## -syntax
+
+```cpp
+int ListBox_GetItemHeight(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+The height, in pixels, of the item or items, or LB_ERR if an error occurs.
 
 
 ## -description

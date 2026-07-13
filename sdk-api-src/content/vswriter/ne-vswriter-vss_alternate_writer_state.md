@@ -61,7 +61,7 @@ Currently, the only supported value for a method taking a
 
 ## -enum-fields
 
-### -field VSS_AWS_UNDEFINED
+### -field VSS_AWS_UNDEFINED:0
 
 No information is available as to the existence of an alternate writer. This value indicates an application 
       error. This enumeration value is reserved for future use.

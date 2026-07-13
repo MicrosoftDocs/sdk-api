@@ -1,12 +1,12 @@
 ---
 UID: NC:dbghelp.PENUMDIRTREE_CALLBACKW
 title: PENUMDIRTREE_CALLBACKW (dbghelp.h)
-description: An application-defined callback function used with the EnumDirTree function. It is called every time a match is found.
+description: PENUMDIRTREE_CALLBACKW (Unicode) is an application-defined callback function used with the EnumDirTree function. It is called every time a match is found.
 helpviewer_keywords: ["EnumDirTreeProc","EnumDirTreeProc callback","EnumDirTreeProc callback function","PENUMDIRTREE_CALLBACK","PENUMDIRTREE_CALLBACKW","_win32_enumdirtreeproc","base.enumdirtreeproc","dbghelp/EnumDirTreeProc"]
 old-location: base\enumdirtreeproc.htm
 tech.root: Debug
 ms.assetid: eae41b83-bba5-4656-9a5c-b6ef56845954
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: EnumDirTreeProc, EnumDirTreeProc callback, EnumDirTreeProc callback function, PENUMDIRTREE_CALLBACK, PENUMDIRTREE_CALLBACKW, _win32_enumdirtreeproc, base.enumdirtreeproc, dbghelp/EnumDirTreeProc
 req.header: dbghelp.h
 req.include-header: 
@@ -84,4 +84,4 @@ To stop enumeration, the callback function must return <b>TRUE</b>.
 ## -remarks
 
 > [!NOTE]
-> The dbghelp.h header defines PENUMDIRTREE_CALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines PENUMDIRTREE_CALLBACK as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecSaContextEnum1
 title: IPsecSaContextEnum1 function (fwpmu.h)
-description: Returns the next page of results from the IPsec security association (SA) context enumerator.
+description: Returns the next page of results from the IPsec security association (SA) context enumerator. (IPsecSaContextEnum1)
 helpviewer_keywords: ["IPsecSaContextEnum1","IPsecSaContextEnum1 function [Filtering]","fwp.ipsecsacontextenum1","fwpmu/IPsecSaContextEnum1"]
 old-location: fwp\ipsecsacontextenum1.htm
 tech.root: fwp

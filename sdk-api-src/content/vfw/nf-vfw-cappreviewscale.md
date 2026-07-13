@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capPreviewScale","capPreviewScale","capPreviewScal
 old-location: multimedia\cappreviewscale.htm
 tech.root: Multimedia
 ms.assetid: 32f432a7-76be-4b75-8863-bc67cdcda781
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capPreviewScale, capPreviewScale, capPreviewScale macro [Windows Multimedia], multimedia.cappreviewscale, vfw/capPreviewScale
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capPreviewScale macro
+
+## -syntax
+
+```cpp
+BOOL capPreviewScale(
+     hwnd,
+     f
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

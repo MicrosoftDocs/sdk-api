@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddMemberName","AddMemberName method [Security]","AddMemb
 old-location: security\iazapplicationgroup_addmembername.htm
 tech.root: security
 ms.assetid: 148be96b-be8d-4ad7-a5ad-f22599114cfa
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddMemberName, AddMemberName method [Security], AddMemberName method [Security],AzApplicationGroup object, AddMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddMemberName method, IAzApplicationGroup interface [Security],AddMemberName method, IAzApplicationGroup.AddMemberName, IAzApplicationGroup::AddMemberName, azroles/IAzApplicationGroup::AddMemberName, security.iazapplicationgroup_addmembername
 req.header: azroles.h
 req.include-header: 
@@ -48,23 +48,32 @@ api_name:
 
 # IAzApplicationGroup::AddMemberName
 
-
 ## -description
 
-The <b>AddMemberName</b> method adds the specified account name to the list of  accounts that belong to the application group.
+The **AddMemberName** method adds the specified account name to the list of accounts that belong to the application group.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the account name to add to the list of accounts that belong to the application group. The account name must be in user principal name (UPN) format. The <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
+String that contains the account name to add to the list of accounts that belong to the application group. The account name must be in user principal name (UPN) format. The [LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea) function is called to retrieve the domain.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of account names of  accounts that belong to this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property.
+To view the list of account names of  accounts that belong to this application group, use the [MembersName](nf-azroles-iazapplicationgroup-get_membersname.md) property.
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
+You must call the [Submit](nf-azroles-iazapplicationgroup-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea)
+
+[Submit](nf-azroles-iazapplicationgroup-submit.md)

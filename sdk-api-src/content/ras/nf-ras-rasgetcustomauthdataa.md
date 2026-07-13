@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetCustomAuthDataA
 title: RasGetCustomAuthDataA function (ras.h)
-description: Use the RasGetCustomAuthData function to retrieve connection-specific authentication information. This information is not specific to a particular user.
-helpviewer_keywords: ["RasGetCustomAuthData","RasGetCustomAuthData function [RAS]","RasGetCustomAuthDataA","RasGetCustomAuthDataW","_ras_rasgetcustomauthdata","ras/RasGetCustomAuthData","ras/RasGetCustomAuthDataA","ras/RasGetCustomAuthDataW","rras.rasgetcustomauthdata"]
+description: Use the RasGetCustomAuthData function to retrieve connection-specific authentication information. This information is not specific to a particular user. (ANSI)
+helpviewer_keywords: ["RasGetCustomAuthDataA", "ras/RasGetCustomAuthDataA"]
 old-location: rras\rasgetcustomauthdata.htm
 tech.root: RRAS
 ms.assetid: 626d372c-4da8-4c79-92dd-9cc5b4b8a618
@@ -161,4 +161,4 @@ Use
 ## -remarks
 
 > [!NOTE]
-> The ras.h header defines RasGetCustomAuthData as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetCustomAuthData as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

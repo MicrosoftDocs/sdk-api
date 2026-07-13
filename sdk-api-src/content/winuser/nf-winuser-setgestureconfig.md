@@ -199,7 +199,7 @@ The following flags are used when <i>dwID</i> is set to GID_PAN.
 <div class="alert"><b>Note</b>  Pan gestures can be used in conjunction with each other to control behavior. 
     For example, setting the <b>dwWant</b> bits to panning with single-finger horizontal
     and setting the <b>dwBlock</b> bits to single-finger vertical will restrict panning to horizontal pans. Changing the
-    <b>dwWant</b> bit to have <code>GC_PAN_WITH_SINGLE_FINGER_VERTICALLY | GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY</code>and removing single-finger vertical pan from the <b>dwBlock </b>bit will enable both vertical and horizontal panning.    
+    <b>dwWant</b> bit to have <code>GC_PAN_WITH_SINGLE_FINGER_VERTICALLY | GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY</code> and removing single-finger vertical pan from the <b>dwBlock</b> bit will enable both vertical and horizontal panning.    
     </div>
 <div> </div>
 <div class="alert"><b>Note</b>  By default, panning has inertia enabled.

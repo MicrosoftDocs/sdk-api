@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetCount","TreeView_GetCount macro [Windows Cont
 old-location: controls\TreeView_GetCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetCount, TreeView_GetCount macro [Windows Controls], _win32_TreeView_GetCount, _win32_TreeView_GetCount_cpp, commctrl/TreeView_GetCount, controls.TreeView_GetCount, controls._win32_TreeView_GetCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TreeView_GetCount macro
+
+## -syntax
+
+```cpp
+UINT TreeView_GetCount(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the count of items.
 
 
 ## -description

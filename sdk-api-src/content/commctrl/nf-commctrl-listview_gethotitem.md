@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetHotItem","ListView_GetHotItem macro [Windows 
 old-location: controls\ListView_GetHotItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetHotItem, ListView_GetHotItem macro [Windows Controls], _win32_ListView_GetHotItem, _win32_ListView_GetHotItem_cpp, commctrl/ListView_GetHotItem, controls.ListView_GetHotItem, controls._win32_ListView_GetHotItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetHotItem macro
+
+## -syntax
+
+```cpp
+INT ListView_GetHotItem(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the index of the item that is currently hot.
 
 
 ## -description

@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
  - Dwmapi.dll
  - API-MS-Win-dwmapi-l1-1-0.dll
  - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
@@ -56,7 +58,7 @@ Notifies Desktop Window Manager (DWM) that a touch contact has been recognized a
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param gt [in]
 
 The type of gesture, specified as one of the <a href="/windows/desktop/api/dwmapi/ne-dwmapi-gesture_type">GESTURE_TYPE</a> values.
 

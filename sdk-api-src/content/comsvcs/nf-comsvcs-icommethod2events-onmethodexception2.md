@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComMethod2Events.OnMethodException2
 title: IComMethod2Events::OnMethodException2 (comsvcs.h)
-description: Generated when an object's method generates an exception.
+description: Generated when an object's method generates an exception. (IComMethod2Events.OnMethodException2)
 helpviewer_keywords: ["IComMethod2Events interface [COM+]","OnMethodException2 method","IComMethod2Events.OnMethodException2","IComMethod2Events::OnMethodException2","OnMethodException2","OnMethodException2 method [COM+]","OnMethodException2 method [COM+]","IComMethod2Events interface","_dtc_IComMethod2Events_OnMethodException2","comsvcs/IComMethod2Events::OnMethodException2","cos.icommethod2events_onmethodexception2"]
 old-location: cos\icommethod2events_onmethodexception2.htm
 tech.root: cos

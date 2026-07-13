@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d10.CD3D10_TEXTURE3D_DESC
 title: CD3D10_TEXTURE3D_DESC (d3d10.h)
-description: Describes a 3D texture.
+description: The CD3D10_TEXTURE3D_DESC (d3d10.h) structure describes a 3D texture.
 helpviewer_keywords: ["CD3D10_TEXTURE3D_DESC","D3D10_TEXTURE3D_DESC","D3D10_TEXTURE3D_DESC structure [Direct3D 10]","abbd74e0-643f-c06c-689d-08361a07731d","d3d10/D3D10_TEXTURE3D_DESC","direct3d10.d3d10_texture3d_desc"]
 old-location: direct3d10\d3d10_texture3d_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture3d_desc.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CD3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC structure [Direct3D 10], abbd74e0-643f-c06c-689d-08361a07731d, d3d10/D3D10_TEXTURE3D_DESC, direct3d10.d3d10_texture3d_desc
 req.header: d3d10.h
 req.include-header: 

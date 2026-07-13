@@ -1,7 +1,7 @@
 ---
 UID: NC:msacm.ACMFORMATTAGENUMCBA
 title: ACMFORMATTAGENUMCBA (msacm.h)
-description: The acmFormatTagEnumCallback function specifies a callback function used with the acmFormatTagEnum function. The acmFormatTagEnumCallback name is a placeholder for an application-defined function name.
+description: The acmFormatTagEnumCallback function specifies a callback function used with the acmFormatTagEnum function. The acmFormatTagEnumCallback name is a placeholder for an application-defined function name. (ACMFORMATTAGENUMCBA)
 helpviewer_keywords: ["ACMFORMATTAGENUMCB","ACMFORMATTAGENUMCB callback","ACMFORMATTAGENUMCB callback function [Windows Multimedia]","ACMFORMATTAGENUMCBA","ACMFORMATTAGENUMCBW","_win32_acmFormatTagEnumCallback","acmFormatTagEnumCallback","msacm/ACMFORMATTAGENUMCB","msacm/ACMFORMATTAGENUMCBA","msacm/ACMFORMATTAGENUMCBW","multimedia.acmformattagenumcallback"]
 old-location: multimedia\acmformattagenumcallback.htm
 tech.root: Multimedia
@@ -116,7 +116,7 @@ The following functions should not be called from within the callback function: 
 
 
 > [!NOTE]
-> The msacm.h header defines ACMFORMATTAGENUMCB as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMFORMATTAGENUMCB as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

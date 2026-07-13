@@ -54,19 +54,19 @@ Identifies the type of corrective action to be taken for a spelling error.
 
 ## -enum-fields
 
-### -field CORRECTIVE_ACTION_NONE
+### -field CORRECTIVE_ACTION_NONE:0
 
 There are no errors.
 
-### -field CORRECTIVE_ACTION_GET_SUGGESTIONS
+### -field CORRECTIVE_ACTION_GET_SUGGESTIONS:1
 
 The user should be prompted with a list of suggestions as returned by <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-suggest">ISpellChecker::Suggest</a>.
 
-### -field CORRECTIVE_ACTION_REPLACE
+### -field CORRECTIVE_ACTION_REPLACE:2
 
 Replace the indicated erroneous text with the text provided in the suggestion. The user does not need to be prompted.
 
-### -field CORRECTIVE_ACTION_DELETE
+### -field CORRECTIVE_ACTION_DELETE:3
 
 The user should be prompted to delete the indicated erroneous text.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["INDEXTOOVERLAYMASK","INDEXTOOVERLAYMASK macro [Windows Co
 old-location: controls\INDEXTOOVERLAYMASK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\indextooverlaymask.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: INDEXTOOVERLAYMASK, INDEXTOOVERLAYMASK macro [Windows Controls], _win32_INDEXTOOVERLAYMASK, _win32_INDEXTOOVERLAYMASK_cpp, commctrl/INDEXTOOVERLAYMASK, controls.INDEXTOOVERLAYMASK, controls._win32_INDEXTOOVERLAYMASK
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # INDEXTOOVERLAYMASK macro
 
+## -syntax
+
+```cpp
+UINT INDEXTOOVERLAYMASK(
+   UINT i
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
+
 
 ## -description
 
@@ -65,4 +79,8 @@ An index of an overlay mask.
 The <b>INDEXTOOVERLAYMASK</b> macro is defined as follows.
 
 
-<pre class="syntax" xml:space="preserve"><code>#define INDEXTOOVERLAYMASK(i) ((i) &lt;&lt; 8)</code></pre>
+
+``` syntax
+#define INDEXTOOVERLAYMASK(i) ((i) << 8)
+```
+

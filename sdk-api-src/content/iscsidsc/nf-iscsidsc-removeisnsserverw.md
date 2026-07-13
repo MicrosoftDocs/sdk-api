@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RemoveISNSServerW
 title: RemoveISNSServerW function (iscsidsc.h)
-description: RemoveIsnsServer function removes a server from the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
-helpviewer_keywords: ["RemoveISNSServerW","RemoveIsnsServer","RemoveIsnsServer function [iSCSI Discovery Library API]","RemoveIsnsServerA","RemoveIsnsServerW","iscsidisc.removeisnsserver","iscsidsc/RemoveIsnsServer","iscsidsc/RemoveIsnsServerA","iscsidsc/RemoveIsnsServerW"]
+description: RemoveIsnsServer function removes a server from the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets. (Unicode)
+helpviewer_keywords: ["RemoveISNSServerW", "RemoveIsnsServer", "RemoveIsnsServer function [iSCSI Discovery Library API]", "RemoveIsnsServerW", "iscsidisc.removeisnsserver", "iscsidsc/RemoveIsnsServer", "iscsidsc/RemoveIsnsServerW"]
 old-location: iscsidisc\removeisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: 702a86e3-eeac-40cd-9203-ee865e2b710a
@@ -75,7 +75,7 @@ The <b>RemoveIsnsServer</b> function does not affect the list of discovered targ
 
 
 > [!NOTE]
-> The iscsidsc.h header defines RemoveISNSServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines RemoveISNSServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateGlyphRunAnalysis
 title: IDWriteFactory::CreateGlyphRunAnalysis (dwrite.h)
-description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run.
+description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run. (IDWriteFactory.CreateGlyphRunAnalysis)
 helpviewer_keywords: ["CreateGlyphRunAnalysis","CreateGlyphRunAnalysis method [Direct Write]","CreateGlyphRunAnalysis method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateGlyphRunAnalysis method","IDWriteFactory.CreateGlyphRunAnalysis","IDWriteFactory::CreateGlyphRunAnalysis","directwrite.IDWriteFactory_CreateGlyphRunAnalysis","dwrite/IDWriteFactory::CreateGlyphRunAnalysis"]
 old-location: directwrite\IDWriteFactory_CreateGlyphRunAnalysis.htm
 tech.root: DirectWrite
@@ -65,7 +65,7 @@ A structure that contains the properties of the glyph run (font face, advances, 
 
 Type: <b>FLOAT</b>
 
-Number of physical pixels per DIP (device independent pixel). For example, if rendering onto a 96 DPI bitmap then <i>pixelsPerDip</i>is 1. If rendering onto a 120 DPI bitmap then <i>pixelsPerDip</i> is 1.25.
+Number of physical pixels per DIP (device independent pixel). For example, if rendering onto a 96 DPI bitmap then <i>pixelsPerDip</i> is 1. If rendering onto a 120 DPI bitmap then <i>pixelsPerDip</i> is 1.25.
 
 ### -param transform [in, optional]
 
@@ -108,7 +108,7 @@ When this method returns, contains an address of a pointer to the newly created 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["LVGGR_GROUP","LVGGR_HEADER","LVGGR_LABEL","LVGGR_SUBSETLI
 old-location: controls\ListView_GetGroupRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgrouprect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: LVGGR_GROUP, LVGGR_HEADER, LVGGR_LABEL, LVGGR_SUBSETLINK, ListView_GetGroupRect, ListView_GetGroupRect macro [Windows Controls], _shell_ListView_GetGroupRect, _shell_ListView_GetGroupRect_cpp, commctrl/ListView_GetGroupRect, controls.ListView_GetGroupRect, controls._shell_ListView_GetGroupRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # ListView_GetGroupRect macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetGroupRect(
+  [in]      HWND hwnd,
+  [in]      int  iGroupId,
+  [in]      LONG type,
+  [in, out] RECT *prc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

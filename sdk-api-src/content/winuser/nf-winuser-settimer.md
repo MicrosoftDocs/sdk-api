@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-message-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -103,15 +107,15 @@ If the function fails to create a timer, the return value is zero. To get extend
 
 ## -remarks
 
-An application can process <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the default window procedure calls the callback function when it processes <b>WM_TIMER</b>. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
+An application can process <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the DispatchMessage calls the callback function instead of calling the window procedure when it processes <b>WM_TIMER</b> with a non-NULL lParam. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
 
 The <i>wParam</i> parameter of the <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message contains the value of the <i>nIDEvent</i> parameter. 
 
 The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Another window can have its own timer which has the same identifier as a timer owned by another window. The timers are distinct. 
 
 <b>SetTimer</b> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
-			
-
+	
+Before using **SetTimer** or other timer-related functions, it is recommended to set the **UOI_TIMERPROC_EXCEPTION_SUPPRESSION** flag to **false** through the **SetUserObjectInformationW** function, otherwise the application could behave unpredictably and could be vulnerable to security exploits. For more info, see <a href="/windows/win32/api/winuser/nf-winuser-setuserobjectinformationw">SetUserObjectInformationW</a>.
 
 #### Examples
 
@@ -150,3 +154,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-timers">Creating a Ti
 
 
 <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
+
+
+
+<a href="/windows/win32/api/winuser/nf-winuser-setcoalescabletimer">SetCoalescableTimer</a>

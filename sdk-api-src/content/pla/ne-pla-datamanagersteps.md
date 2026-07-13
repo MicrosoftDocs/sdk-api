@@ -56,27 +56,27 @@ Defines the actions that the data manager takes when it runs.
 
 ## -enum-fields
 
-### -field plaCreateReport
+### -field plaCreateReport:0x1
 
 Runs TraceRpt.exe using as input all the binary performance files (.blg) or event trace files (.etl) in the collection. You can use the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_reportschema">IDataManager::ReportSchema</a> property to customize the report.
 
 The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">IDataManager::RuleTargetFileName</a> property contains the name of the file that TraceRpt creates.
 
-### -field plaRunRules
+### -field plaRunRules:0x2
 
 If a report exists, apply the rules specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_rules">IDataManager::Rules</a> property to the report.
 
 The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">RuleTargetFileName</a> property contains the name of the file to which the rules are applied.
 
-### -field plaCreateHtml
+### -field plaCreateHtml:0x4
 
 Converts the XML file specified in <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_ruletargetfilename">RuleTargetFileName</a> to HTML format. The HTML format is written to the file specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_reportfilename">IDataManager::ReportFileName</a> property.
 
-### -field plaFolderActions
+### -field plaFolderActions:0x8
 
 Apply the folder actions specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_folderactions">IDataManager::FolderActions</a> property to all folders defined in the collection.
 
-### -field plaResourceFreeing
+### -field plaResourceFreeing:0x10
 
 If the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_maxfoldercount">IDataManager::MaxFolderCount</a>, <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_maxsize">IDataManager::MaxSize</a>, or <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_minfreedisk">IDataManager::MinFreeDisk</a> property exceeds its limit, apply the resource policy specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_resourcepolicy">IDataManager::ResourcePolicy</a> property.
 

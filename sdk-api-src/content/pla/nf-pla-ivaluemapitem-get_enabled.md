@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMapItem.get_Enabled
 title: IValueMapItem::get_Enabled (pla.h)
-description: Retrieves or sets a value that indicates whether the item is enabled.
+description: Retrieves or sets a value that indicates whether the item is enabled. (Get)
 helpviewer_keywords: ["Enabled property [PLA]","Enabled property [PLA]","IValueMapItem interface","IValueMapItem interface [PLA]","Enabled property","IValueMapItem.Enabled","IValueMapItem.get_Enabled","IValueMapItem::Enabled","IValueMapItem::get_Enabled","IValueMapItem::put_Enabled","base.ivaluemapitem_enabled","get_Enabled","pla.ivaluemapitem_enabled","pla/IValueMapItem::Enabled","pla/IValueMapItem::get_Enabled","pla/IValueMapItem::put_Enabled"]
 old-location: pla\ivaluemapitem_enabled.htm
 tech.root: PLA

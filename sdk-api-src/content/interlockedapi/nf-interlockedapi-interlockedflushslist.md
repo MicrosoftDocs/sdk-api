@@ -1,15 +1,15 @@
 ---
 UID: NF:interlockedapi.InterlockedFlushSList
 title: InterlockedFlushSList function (interlockedapi.h)
-description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system.
+description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system. (InterlockedFlushSList)
 helpviewer_keywords: ["InterlockedFlushSList","InterlockedFlushSList function","_win32_interlockedflushslist","base.interlockedflushslist","interlockedapi/InterlockedFlushSList","winbase/InterlockedFlushSList"]
 old-location: base\interlockedflushslist.htm
 tech.root: backup
 ms.assetid: 3fde3377-8a98-4976-a350-2c173b209e8c
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: InterlockedFlushSList, InterlockedFlushSList function, _win32_interlockedflushslist, base.interlockedflushslist, interlockedapi/InterlockedFlushSList, winbase/InterlockedFlushSList
 req.header: interlockedapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -46,12 +46,12 @@ api_location:
  - API-MS-Win-Core-interlocked-l1-2-0.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - InterlockedFlushSList
 ---
 
 # InterlockedFlushSList function
-
 
 ## -description
 
@@ -61,48 +61,34 @@ Removes all items from a singly linked list. Access to the list is synchronized 
 
 ### -param ListHead [in, out]
 
-Pointer to an <b>SLIST_HEADER</b> structure that represents the head of the singly linked list. This structure is for system use only.
+Pointer to an **SLIST_HEADER** structure that represents the head of the singly linked list. This structure is for system use only.
 
 ## -returns
 
-The return value is a pointer to the items removed from the list. If the list is empty, the return value is <b>NULL</b>.
+The return value is a pointer to the items removed from the list. If the list is empty, the return value is `NULL`.
 
 ## -remarks
 
-All list items must be aligned on a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary; otherwise, this function will behave unpredictably. See <b>_aligned_malloc</b>.
-
+All list items must be aligned on a **MEMORY_ALLOCATION_ALIGNMENT** boundary; otherwise, this function will behave unpredictably. See **_aligned_malloc**.
 
 #### Examples
 
-For an example, see 
-<a href="/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>.
-
-<div class="code"></div>
+For an example, see [Using Singly Linked Lists](/windows/win32/Sync/using-singly-linked-lists).
 
 ## -see-also
 
-<a href="/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
+[Interlocked Singly Linked Lists](/windows/win32/Sync/interlocked-singly-linked-lists)
 
+[InterlockedPopEntrySList](nf-interlockedapi-interlockedpopentryslist.md)
 
+[InterlockedPushEntrySList](nf-interlockedapi-interlockedpushentryslist.md)
 
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a>
+[InterlockedPushListSList](/previous-versions/windows/desktop/legacy/hh448545(v=vs.85))
 
+[InterlockedPushListSListEx](nf-interlockedapi-interlockedpushlistslistex.md)
 
+[SLIST_ENTRY](../winnt/ns-winnt-slist_entry.md)
 
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>
+[Using Singly Linked Lists](/windows/win32/Sync/using-singly-linked-lists)
 
-
-
-<a href="/previous-versions/windows/desktop/legacy/hh448545(v=vs.85)">InterlockedPushListSList</a>
-
-
-
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex">InterlockedPushListSListEx</a>
-
-
-
-<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a>
-
-
-
-<a href="/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -6,7 +6,7 @@ helpviewer_keywords: ["WlanQueryInterface","WlanQueryInterface function [NativeW
 old-location: nwifi\wlanqueryinterface.htm
 tech.root: nwifi
 ms.assetid: e20eb9a3-5824-48ee-b13e-b0252bbf495e
-ms.date: 12/05/2018
+ms.date: 03/18/2024
 ms.keywords: WlanQueryInterface, WlanQueryInterface function [NativeWIFI], nwifi.wlanqueryinterface, wlanapi/WlanQueryInterface
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
@@ -48,8 +48,13 @@ api_name:
 
 # WlanQueryInterface function
 
-
 ## -description
+
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
 
 The <b>WlanQueryInterface</b> function queries various parameters of a specified interface.
 
@@ -57,7 +62,7 @@ The <b>WlanQueryInterface</b> function queries various parameters of a specified
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/win32/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
@@ -65,97 +70,32 @@ The GUID of the interface to be queried.
 
 ### -param OpCode [in]
 
-A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1">WLAN_INTF_OPCODE</a> value that specifies the parameter to be queried.  The following table lists the valid constants along with the data type of the parameter in <i>ppData</i>.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode">WLAN_INTF_OPCODE</a> value that specifies the parameter to be queried.  The following table lists the valid constants along with the data type of the parameter in <i>ppData</i>.
 
-<table>
-<tr>
-<th><b>WLAN_INTF_OPCODE</b> value</th>
-<th><i>ppData</i> data type</th>
-</tr>
-<tr>
-<td>wlan_intf_opcode_autoconf_enabled</td>
-<td>BOOL</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_background_scan_enabled </td>
-<td>BOOL</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_radio_state </td>
-<td>
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a>
-</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_bss_type </td>
-<td>
-<a href="/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a>
-</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_interface_state </td>
-<td>
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state-r1">WLAN_INTERFACE_STATE</a>
-</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_current_connection </td>
-<td>
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
-</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_channel_number 
-</td>
-<td>ULONG</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_supported_infrastructure_auth_cipher_pairs 
-</td>
-<td>
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
-</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_supported_adhoc_auth_cipher_pairs </td>
-<td>
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
-</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_supported_country_or_region_string_list </td>
-<td>
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_country_or_region_string_list">WLAN_COUNTRY_OR_REGION_STRING_LIST</a>
-</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_media_streaming_mode </td>
-<td>BOOL</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_statistics </td>
-<td>
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_statistics">WLAN_STATISTICS</a>
-</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_rssi</td>
-<td>LONG</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_current_operation_mode </td>
-<td>ULONG</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_supported_safe_mode</td>
-<td>BOOL</td>
-</tr>
-<tr>
-<td>wlan_intf_opcode_certified_safe_mode</td>
-<td>BOOL</td>
-</tr>
-</table>
- 
+|WLAN_INTF_OPCODE|*ppData* data type|
+|-|-|
+|wlan_intf_opcode_autoconf_enabled|BOOL|
+|wlan_intf_opcode_background_scan_enabled|BOOL|
+|wlan_intf_opcode_bss_type|[DOT11_BSS_TYPE](/windows/win32/NativeWiFi/dot11-bss-type)|
+|wlan_intf_opcode_certified_safe_mode|BOOL|
+|wlan_intf_opcode_channel_number|ULONG|
+|wlan_intf_opcode_current_connection|[WLAN_CONNECTION_ATTRIBUTES](/windows/win32/api/wlanapi/ns-wlanapi-wlan_connection_attributes)|
+|wlan_intf_opcode_current_operation_mode|ULONG|
+|wlan_intf_opcode_hosted_network_capable|BOOL|
+|wlan_intf_opcode_interface_state|[WLAN_INTERFACE_STATE](/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state-r1)|
+|wlan_intf_opcode_management_frame_protection_capable|BOOL|
+|wlan_intf_opcode_media_streaming_mode|BOOL|
+|wlan_intf_opcode_qos_info|[WLAN_QOS_INFO](/windows/win32/api/wlanapi/ns-wlanapi-wlan_qos_info)|
+|wlan_intf_opcode_radio_state|[WLAN_RADIO_STATE](/windows/win32/api/wlanapi/ns-wlanapi-wlan_radio_state)|
+|wlan_intf_opcode_realtime_connection_quality|[WLAN_REALTIME_CONNECTION_QUALITY](/windows/win32/api/wlanapi/ns-wlanapi-wlan_realtime_connection_quality)|
+|wlan_intf_opcode_rssi|LONG|
+|wlan_intf_opcode_secondary_sta_interfaces|[WLAN_INTERFACE_INFO_LIST](/windows/win32/api/wlanapi/ns-wlanapi-wlan_interface_info_list)|
+|wlan_intf_opcode_secondary_sta_synchronized_connections|BOOL|
+|wlan_intf_opcode_statistics|[WLAN_STATISTICS](/windows/win32/api/wlanapi/ns-wlanapi-wlan_statistics)|
+|wlan_intf_opcode_supported_adhoc_auth_cipher_pairs|[WLAN_AUTH_CIPHER_PAIR_LIST](/windows/win32/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list)|
+|wlan_intf_opcode_supported_country_or_region_string_list|[WLAN_COUNTRY_OR_REGION_STRING_LIST](/windows/win32/api/wlanapi/ns-wlanapi-wlan_country_or_region_string_list)|
+|wlan_intf_opcode_supported_infrastructure_auth_cipher_pairs|[WLAN_AUTH_CIPHER_PAIR_LIST](/windows/win32/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list)|
+|wlan_intf_opcode_supported_safe_mode|BOOL|
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_intf_opcode_autoconf_enabled</b>, <b>wlan_intf_opcode_bss_type</b>, <b>wlan_intf_opcode_interface_state</b>, and  <b>wlan_intf_opcode_current_connection</b> constants are valid.
 
@@ -186,16 +126,16 @@ If the function fails, the return value may be one of the following return codes
 
 ## -remarks
 
-The caller is responsible for using <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> to free the memory allocated for <i>ppData</i>.
+The caller is responsible for using <a href="/windows/win32/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> to free the memory allocated for <i>ppData</i>.
 
 When   <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>,  <b>WlanQueryInterface</b>  queries the current operation mode of the wireless interface. For more information about operation modes, see <a href="https://www.microsoft.com/?ref=go">Native 802.11 Operation Modes</a>. Two operation modes are supported: <b>DOT11_OPERATION_MODE_EXTENSIBLE_STATION</b> and  <b>DOT11_OPERATION_MODE_NETWORK_MONITOR</b>. The operation mode constants are defined in the header file Windot11.h. <i>ppData</i> will point to one of these two values.
 
 
 #### Examples
 
-The following example enumerates the wireless LAN interfaces on the local computer, queries each interface for the <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a> on the interface, and prints values from the retrieved <b>WLAN_CONNECTION_ATTRIBUTES</b> structure.
+The following example enumerates the wireless LAN interfaces on the local computer, queries each interface for the <a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a> on the interface, and prints values from the retrieved <b>WLAN_CONNECTION_ATTRIBUTES</b> structure.
 
-For another example using the <b>WlanQueryInterface</b> function, see the <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a> structure. 
+For another example using the <b>WlanQueryInterface</b> function, see the <a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a> structure. 
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
@@ -558,7 +498,7 @@ int wmain()
 
 ## -see-also
 
-<a href="/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a>
+<a href="/windows/win32/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a>
 
 
 
@@ -566,15 +506,15 @@ int wmain()
 
 
 
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
 
 
 
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
 
 
 
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_country_or_region_string_list">WLAN_COUNTRY_OR_REGION_STRING_LIST</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_country_or_region_string_list">WLAN_COUNTRY_OR_REGION_STRING_LIST</a>
 
 
 
@@ -582,7 +522,7 @@ int wmain()
 
 
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1">WLAN_INTF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode">WLAN_INTF_OPCODE</a>
 
 
 
@@ -590,20 +530,20 @@ int wmain()
 
 
 
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a>
 
 
 
-<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_statistics">WLAN_STATISTICS</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_statistics">WLAN_STATISTICS</a>
 
 
 
-<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a>
+<a href="/windows/win32/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a>
 
 
 
-<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a>
+<a href="/windows/win32/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a>
 
 
 
-<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a>
+<a href="/windows/win32/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a>

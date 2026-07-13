@@ -52,7 +52,7 @@ api_name:
 
 Get the number of milliseconds to sleep after <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a> is called.
 
-## -parameters
+
 
 ## -returns
 

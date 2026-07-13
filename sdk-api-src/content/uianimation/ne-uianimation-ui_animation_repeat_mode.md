@@ -56,11 +56,11 @@ Defines the pattern for a loop iteration.
 
 ## -enum-fields
 
-### -field UI_ANIMATION_REPEAT_MODE_NORMAL
+### -field UI_ANIMATION_REPEAT_MODE_NORMAL:0
 
 The start of a  loop begins with the first value (v1-&gt;v2, v1-&gt;v2, v1-&gt;v2, and so on).
 
-### -field UI_ANIMATION_REPEAT_MODE_ALTERNATE
+### -field UI_ANIMATION_REPEAT_MODE_ALTERNATE:1
 
 The  start of a loop alternates between values (v1-&gt;v2, v2-&gt;v1, v1-&gt;v2, and so on).
 

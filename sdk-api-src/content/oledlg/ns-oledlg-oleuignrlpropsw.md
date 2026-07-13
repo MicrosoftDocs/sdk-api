@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIGNRLPROPSW
 title: OLEUIGNRLPROPSW (oledlg.h)
-description: Initializes the General tab of the Object Properties dialog box.
+description: Initializes the General tab of the Object Properties dialog box. (Unicode)
 helpviewer_keywords: ["*LPOLEUIGNRLPROPSW","*POLEUIGNRLPROPSW","LPOLEUIGNRLPROPS","LPOLEUIGNRLPROPS structure pointer [COM]","OLEUIGNRLPROPS","OLEUIGNRLPROPS structure [COM]","OLEUIGNRLPROPSA","OLEUIGNRLPROPSW","POLEUIGNRLPROPS","POLEUIGNRLPROPS structure pointer [COM]","_ole_OLEUIGNRLPROPS","com.oleuignrlprops_struct","oledlg/LPOLEUIGNRLPROPS","oledlg/OLEUIGNRLPROPS","oledlg/OLEUIGNRLPROPSA","oledlg/OLEUIGNRLPROPSW","oledlg/POLEUIGNRLPROPS"]
 old-location: com\oleuignrlprops_struct.htm
 tech.root: com
@@ -99,4 +99,4 @@ Used internally.
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUIGNRLPROPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUIGNRLPROPS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

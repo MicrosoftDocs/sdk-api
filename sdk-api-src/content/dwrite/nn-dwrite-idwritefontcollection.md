@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteFontCollection
 title: IDWriteFontCollection (dwrite.h)
-description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory.
+description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. (IDWriteFontCollection)
 helpviewer_keywords: ["IDWriteFontCollection","IDWriteFontCollection interface [Direct Write]","IDWriteFontCollection interface [Direct Write]","described","directwrite.IDWriteFontCollection","dwrite/IDWriteFontCollection"]
 old-location: directwrite\IDWriteFontCollection.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontCollection</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontCollection</b> also has these types of members:
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:advpub._StrTableW
 title: STRTABLEW (advpub.h)
-description: Represents a table of registry string replacements.
+description: Represents a table of registry string replacements. (Unicode)
 helpviewer_keywords: ["*LPSTRTABLEW","LPSTRTABLEW","LPSTRTABLEW structure pointer [Windows API]","STRTABLE","STRTABLEW","STRTABLEW structure [Windows API]","_StrTableW","_StrTableW structure [Windows API]","advpub/LPSTRTABLEW","advpub/_StrTableW","winprog._strtablew"]
 old-location: winprog\_strtablew.htm
 tech.root: winprog
@@ -69,5 +69,5 @@ And array of entries.
 ## -remarks
 
 > [!NOTE]
-> The advpub.h header defines STRTABLE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The advpub.h header defines STRTABLE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

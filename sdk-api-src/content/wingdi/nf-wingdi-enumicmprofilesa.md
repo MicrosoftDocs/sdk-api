@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.EnumICMProfilesA
 title: EnumICMProfilesA function (wingdi.h)
-description: The EnumICMProfiles function enumerates the different output color profiles that the system supports for a given device context.
-helpviewer_keywords: ["EnumICMProfiles","EnumICMProfiles function [Windows Color System]","EnumICMProfilesA","EnumICMProfilesW","_color_EnumICMProfiles","wcs.enumicmprofiles","wingdi/EnumICMProfiles","wingdi/EnumICMProfilesA","wingdi/EnumICMProfilesW"]
+description: The EnumICMProfiles function enumerates the different output color profiles that the system supports for a given device context. (ANSI)
+helpviewer_keywords: ["EnumICMProfilesA", "wingdi/EnumICMProfilesA"]
 old-location: wcs\enumicmprofiles.htm
 tech.root: WCS
 ms.assetid: a93e6239-b6c7-4e37-9f06-03790a3ed53f
@@ -85,7 +85,7 @@ The <b>EnumICMProfiles</b> function returns a list of profiles that are associat
 
 
 > [!NOTE]
-> The wingdi.h header defines EnumICMProfiles as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines EnumICMProfiles as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11Predicate
 title: ID3D11Predicate (d3d11.h)
-description: A predicate interface determines whether geometry should be processed depending on the results of a previous draw call.
+description: A predicate interface determines whether geometry should be processed depending on the results of a previous draw call. (ID3D11Predicate)
 helpviewer_keywords: ["7bbde1c2-0bd3-3fda-2288-938ac2c04c3a","ID3D11Predicate","ID3D11Predicate interface [Direct3D 11]","ID3D11Predicate interface [Direct3D 11]","described","d3d11/ID3D11Predicate","direct3d11.id3d11predicate"]
 old-location: direct3d11\id3d11predicate.htm
 tech.root: direct3d11

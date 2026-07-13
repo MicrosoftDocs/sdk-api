@@ -54,23 +54,23 @@ Specifies the dimension type of the data contained in DDS image.
 
 ## -enum-fields
 
-### -field WICDdsTexture1D
+### -field WICDdsTexture1D:0
 
 DDS image contains a 1-dimensional texture .
 
-### -field WICDdsTexture2D
+### -field WICDdsTexture2D:0x1
 
 DDS image contains a 2-dimensional texture .
 
-### -field WICDdsTexture3D
+### -field WICDdsTexture3D:0x2
 
 DDS image contains a 3-dimensional texture .
 
-### -field WICDdsTextureCube
+### -field WICDdsTextureCube:0x3
 
 The DDS image contains a cube texture represented as an array of 6 faces.
 
-### -field WICDDSTEXTURE_FORCE_DWORD
+### -field WICDDSTEXTURE_FORCE_DWORD:0x7fffffff
 
 ## -remarks
 

@@ -54,11 +54,11 @@ Defines the ASF splitter options.
 
 ## -enum-fields
 
-### -field MFASF_SPLITTER_REVERSE
+### -field MFASF_SPLITTER_REVERSE:0x1
 
 The splitter delivers samples for the ASF content in reverse order to accommodate reverse playback.
 
-### -field MFASF_SPLITTER_WMDRM
+### -field MFASF_SPLITTER_WMDRM:0x2
 
 The splitter delivers samples for streams that are protected with Windows Media Digital Rights Management.
 

@@ -54,30 +54,26 @@ Specifies the rail states for an interaction.
 
 ## -enum-fields
 
-### -field MANIPULATION_RAILS_STATE_UNDECIDED
+### -field MANIPULATION_RAILS_STATE_UNDECIDED:0x00000000
 
 Rail state not defined yet.
 
-### -field MANIPULATION_RAILS_STATE_FREE
+### -field MANIPULATION_RAILS_STATE_FREE:0x00000001
 
 Interaction is not constrained to rail.
 
-### -field MANIPULATION_RAILS_STATE_RAILED
+### -field MANIPULATION_RAILS_STATE_RAILED:0x00000002
 
 Interaction is constrained to rail.
 
-### -field MANIPULATION_RAILS_STATE_MAX
+### -field MANIPULATION_RAILS_STATE_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_manipulation">INTERACTION_ARGUMENTS_MANIPULATION</a>
+[INTERACTION_ARGUMENTS_MANIPULATION structure](ns-interactioncontext-interaction_arguments_manipulation.md)
 
+[RegisterOutputCallbackInteractionContext function](nf-interactioncontext-registeroutputcallbackinteractioncontext.md)
 
-
-<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
+[RegisterOutputCallbackInteractionContext2 function](nf-interactioncontext-registeroutputcallbackinteractioncontext2.md)

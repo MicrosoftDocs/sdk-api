@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IFolderView
 title: IFolderView (shobjidl_core.h)
-description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.
+description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode. (IFolderView)
 helpviewer_keywords: ["IFolderView","IFolderView interface [Windows Shell]","IFolderView interface [Windows Shell]","described","_shell_IFolderView","shell.IFolderView","shobjidl_core/IFolderView"]
 old-location: shell\IFolderView.htm
 tech.root: shell
@@ -54,8 +54,5 @@ Exposes methods that retrieve information about a folder's display options, sele
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderView</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFolderView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderView</b> also has these types of members:
 

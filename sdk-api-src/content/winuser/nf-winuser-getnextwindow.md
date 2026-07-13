@@ -6,7 +6,7 @@ helpviewer_keywords: ["GW_HWNDNEXT","GW_HWNDPREV","GetNextWindow","GetNextWindow
 old-location: winmsg\getnextwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getnextwindow.htm
-ms.date: 12/05/2018
+ms.date: 09/02/2025
 ms.keywords: GW_HWNDNEXT, GW_HWNDPREV, GetNextWindow, GetNextWindow function [Windows and Messages], _win32_GetNextWindow, _win32_getnextwindow_cpp, winmsg.getnextwindow, winui._win32_getnextwindow, winuser/GetNextWindow
 req.header: winuser.h
 req.include-header: Windows.h
@@ -97,11 +97,29 @@ Returns a handle to the window above the given window.
 </tr>
 </table>
 
+## -returns
+
+Type: <b>HWND</b>
+
+If the function succeeds, the return value is a window handle. If no window exists with the specified relationship to the specified window, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+
 ## -remarks
 
 This function is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function.
 
-<pre class="syntax" xml:space="preserve"><code>#define GetNextWindow(hWnd, wCmd) GetWindow(hWnd, wCmd)</code></pre>
+
+``` syntax
+#define GetNextWindow(hWnd, wCmd) GetWindow(hWnd, wCmd)
+```
+
+## -syntax
+
+```cpp
+HWND GetNextWindow(
+  [in] hWnd,
+  [in] wCmd
+);
+```
 
 ## -see-also
 

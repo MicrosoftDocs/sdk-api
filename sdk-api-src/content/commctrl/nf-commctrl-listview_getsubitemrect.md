@@ -6,7 +6,7 @@ helpviewer_keywords: ["LVIR_BOUNDS","LVIR_ICON","LVIR_LABEL","ListView_GetSubIte
 old-location: controls\ListView_GetSubItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetSubItemRect, ListView_GetSubItemRect macro [Windows Controls], _win32_ListView_GetSubItemRect, _win32_ListView_GetSubItemRect_cpp, commctrl/ListView_GetSubItemRect, controls.ListView_GetSubItemRect, controls._win32_ListView_GetSubItemRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,24 @@ api_name:
 ---
 
 # ListView_GetSubItemRect macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetSubItemRect(
+   HWND   hwnd,
+   int    iItem,
+   int    iSubItem,
+   int    code,
+   LPRECT prc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

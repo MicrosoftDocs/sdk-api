@@ -4,7 +4,8 @@ title: Wmsecure.h header
 ms.assetid: 14a0419b-7f8b-3112-a842-d00a93875faa
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: wmformat
 archived: true
 f1_keywords:

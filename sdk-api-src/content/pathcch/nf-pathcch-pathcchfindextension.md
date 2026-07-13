@@ -66,7 +66,7 @@ A pointer to the path to search.
 
 ### -param cchPath [in]
 
-The size of the buffer pointed to by <i>pszPath</i>, in characters.
+The size of the buffer pointed to by <i>pszPath</i> in characters, including the null terminator.
 
 ### -param ppszExt [out]
 
@@ -74,4 +74,4 @@ The address of a pointer that, when this function returns successfully, points t
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

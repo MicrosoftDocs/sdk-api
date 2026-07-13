@@ -77,4 +77,4 @@ Creates an <a href="/previous-versions/ms535410(v=vs.85)">Image::Image</a> objec
 </tr>
 </table>
 
-## -parameters
+

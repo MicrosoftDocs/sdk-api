@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensorCollection interface","Remove method","ISensorColl
 old-location: winsensors_com_ref\isensorcollection_remove.htm
 tech.root: winsensors
 ms.assetid: 9e96bae1-9ac8-41fd-99c7-3c025baf674a
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensorCollection interface,Remove method, ISensorCollection.Remove, ISensorCollection::Remove, Remove, Remove method, Remove method,ISensorCollection interface, sensorsapi/ISensorCollection::Remove, winsensors_com_ref.isensorcollection_remove
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Removes a sensor from the collection. The sensor is specified by a pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface to be removed.
 

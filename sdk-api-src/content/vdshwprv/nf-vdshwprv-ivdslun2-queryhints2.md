@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun2.QueryHints2
 title: IVdsLun2::QueryHints2 (vdshwprv.h)
-description: Returns the hints currently applied to the LUN. This method is identical to the IVdsLun::QueryHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.
+description: The IVdsLun2::QueryHints2 (vdshwprv.h) method returns the hints currently applied to the LUN. This method is identical to the IVdsLun::QueryHints method.
 helpviewer_keywords: ["IVdsLun2 interface","QueryHints2 method","IVdsLun2.QueryHints2","IVdsLun2::QueryHints2","QueryHints2","QueryHints2 method","QueryHints2 method","IVdsLun2 interface","base.ivdslun2_queryhints2","vds/IVdsLun2::QueryHints2","vdshwprv/IVdsLun2::QueryHints2"]
 old-location: base\ivdslun2_queryhints2.htm
 tech.root: base
 ms.assetid: 077d200a-2eab-4dbe-b7b9-873061fa2c4b
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLun2 interface,QueryHints2 method, IVdsLun2.QueryHints2, IVdsLun2::QueryHints2, QueryHints2, QueryHints2 method, QueryHints2 method,IVdsLun2 interface, base.ivdslun2_queryhints2, vds/IVdsLun2::QueryHints2, vdshwprv/IVdsLun2::QueryHints2
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the hints 
    currently applied to the LUN. This method is identical to the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-queryhints">IVdsLun::QueryHints</a> method, except that it uses a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure instead of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure.

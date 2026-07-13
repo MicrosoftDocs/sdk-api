@@ -54,23 +54,23 @@ Defines the version number for sample protection.
 
 ## -enum-fields
 
-### -field SAMPLE_PROTECTION_VERSION_NO
+### -field SAMPLE_PROTECTION_VERSION_NO:0
 
 No sample protection.
 
-### -field SAMPLE_PROTECTION_VERSION_BASIC_LOKI
+### -field SAMPLE_PROTECTION_VERSION_BASIC_LOKI:1
 
 Version 1.
 
-### -field SAMPLE_PROTECTION_VERSION_SCATTER
+### -field SAMPLE_PROTECTION_VERSION_SCATTER:2
 
 Version 2.
 
-### -field SAMPLE_PROTECTION_VERSION_RC4
+### -field SAMPLE_PROTECTION_VERSION_RC4:3
 
 Version 3.
 
-### -field SAMPLE_PROTECTION_VERSION_AES128CTR
+### -field SAMPLE_PROTECTION_VERSION_AES128CTR:4
 
 ## -see-also
 

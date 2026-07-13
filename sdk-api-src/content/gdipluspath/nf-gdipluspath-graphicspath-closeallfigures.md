@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::CloseAllFigures</b> method closes all open figures in this path.
 
-## -parameters
+
 
 ## -returns
 

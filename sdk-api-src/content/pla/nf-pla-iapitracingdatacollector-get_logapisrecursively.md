@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_LogApisRecursively
 title: IApiTracingDataCollector::get_LogApisRecursively (pla.h)
-description: Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application.
+description: Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application. (Get)
 helpviewer_keywords: ["IApiTracingDataCollector interface [PLA]","LogApisRecursively property","IApiTracingDataCollector.LogApisRecursively","IApiTracingDataCollector.get_LogApisRecursively","IApiTracingDataCollector::LogApisRecursively","IApiTracingDataCollector::get_LogApisRecursively","IApiTracingDataCollector::put_LogApisRecursively","LogApisRecursively property [PLA]","LogApisRecursively property [PLA]","IApiTracingDataCollector interface","get_LogApisRecursively","pla.iapitracingdatacollector_logapisrecursively","pla/IApiTracingDataCollector::LogApisRecursively","pla/IApiTracingDataCollector::get_LogApisRecursively","pla/IApiTracingDataCollector::put_LogApisRecursively"]
 old-location: pla\iapitracingdatacollector_logapisrecursively.htm
 tech.root: PLA

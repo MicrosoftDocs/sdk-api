@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetKValue","GetKValue macro [Windows Color System]","_col
 old-location: wcs\getkvalue.htm
 tech.root: WCS
 ms.assetid: 8015689c-920c-4896-a34f-cda4f9b187e1
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GetKValue, GetKValue macro [Windows Color System], _color_GetKValue, wcs.getkvalue, wingdi/GetKValue
 req.header: wingdi.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # GetKValue macro
+
+## -syntax
+
+```cpp
+BYTE GetKValue(
+     cmyk
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+The black color value from a CMYK color value.
 
 
 ## -description

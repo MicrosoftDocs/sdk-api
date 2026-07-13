@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.QueryServiceConfigW
 title: QueryServiceConfigW function (winsvc.h)
-description: Retrieves the configuration parameters of the specified service.
-helpviewer_keywords: ["QueryServiceConfig","QueryServiceConfig function","QueryServiceConfigA","QueryServiceConfigW","_win32_queryserviceconfig","base.queryserviceconfig","winsvc/QueryServiceConfig","winsvc/QueryServiceConfigA","winsvc/QueryServiceConfigW"]
+description: Retrieves the configuration parameters of the specified service. (Unicode)
+helpviewer_keywords: ["QueryServiceConfig", "QueryServiceConfig function", "QueryServiceConfigW", "_win32_queryserviceconfig", "base.queryserviceconfig", "winsvc/QueryServiceConfig", "winsvc/QueryServiceConfigW"]
 old-location: base\queryserviceconfig.htm
 tech.root: security
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050
@@ -73,7 +73,7 @@ A handle to the service. This handle is returned by the
 ### -param lpServiceConfig [out, optional]
 
 A pointer to a buffer that receives the service configuration information. The format of the data is a 
-<a href="/windows/desktop/api/winsvc/ns-winsvc-query_service_configa">QUERY_SERVICE_CONFIG</a> structure.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-query_service_configw">QUERY_SERVICE_CONFIG</a> structure.
 
 The maximum size of this array is 8K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
@@ -157,7 +157,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winsvc.h header defines QueryServiceConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines QueryServiceConfig as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

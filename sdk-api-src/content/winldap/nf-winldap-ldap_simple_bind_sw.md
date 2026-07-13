@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_simple_bind_sW
 title: ldap_simple_bind_sW function (winldap.h)
-description: The ldap_simple_bind_s function synchronously authenticates a client to a server, using a plaintext password.
-helpviewer_keywords: ["_ldap_ldap_simple_bind_s","ldap.ldap__simple__bind__s","ldap.ldap_simple_bind_s","ldap_simple_bind_s","ldap_simple_bind_s function [LDAP]","ldap_simple_bind_sA","ldap_simple_bind_sW","winldap/ldap_simple_bind_s","winldap/ldap_simple_bind_sA","winldap/ldap_simple_bind_sW"]
+description: The ldap_simple_bind_sW (Unicode) function (winldap.h) synchronously authenticates a client to a server, using a plaintext password.
+helpviewer_keywords: ["_ldap_ldap_simple_bind_s", "ldap.ldap__simple__bind__s", "ldap.ldap_simple_bind_s", "ldap_simple_bind_s", "ldap_simple_bind_s function [LDAP]", "ldap_simple_bind_sW", "winldap/ldap_simple_bind_s", "winldap/ldap_simple_bind_sW"]
 old-location: ldap\ldap_simple_bind_s.htm
 tech.root: ldap
 ms.assetid: c3edca12-2dde-4f64-a479-2fbda8a4a996
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_simple_bind_s, ldap.ldap__simple__bind__s, ldap.ldap_simple_bind_s, ldap_simple_bind_s, ldap_simple_bind_s function [LDAP], ldap_simple_bind_sA, ldap_simple_bind_sW, winldap/ldap_simple_bind_s, winldap/ldap_simple_bind_sA, winldap/ldap_simple_bind_sW
 req.header: winldap.h
 req.include-header: 
@@ -95,7 +95,7 @@ When all of the operations on the session handle are completed, terminate the se
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_simple_bind_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_simple_bind_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

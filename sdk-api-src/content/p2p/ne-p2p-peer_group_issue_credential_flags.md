@@ -1,7 +1,7 @@
 ---
 UID: NE:p2p.peer_issue_credential_flags_tag
 title: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS (p2p.h)
-description: .
+description: . (PEER_GROUP_ISSUE_CREDENTIAL_FLAGS)
 helpviewer_keywords: ["PEER_GROUP_ISSUE_CREDENTIAL_FLAGS","PEER_GROUP_ISSUE_CREDENTIAL_FLAGS enumeration [Peer Networking]","PEER_GROUP_STORE_CREDENTIALS","p2p.peer_group_issue_credential_flags","p2p/PEER_GROUP_ISSUE_CREDENTIAL_FLAGS","p2p/PEER_GROUP_STORE_CREDENTIALS"]
 old-location: p2p\peer_group_issue_credential_flags.htm
 tech.root: p2p
@@ -56,7 +56,7 @@ The <b>PEER_GROUP_ISSUE_CREDENTIAL_FLAGS</b> are used to specify if user credent
 
 ## -enum-fields
 
-### -field PEER_GROUP_STORE_CREDENTIALS
+### -field PEER_GROUP_STORE_CREDENTIALS:0x0001
 
 When the <b>PEER_GROUP_STORE_CREDENTIALS</b> flag is set, the user  credentials are stored within a group database to be retrieved when the user connects. If the flag is not set, any new credentials are returned in string form and must be passed to the user out-of-band.
 

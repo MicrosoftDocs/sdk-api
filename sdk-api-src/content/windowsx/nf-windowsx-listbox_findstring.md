@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_FindString","ListBox_FindString macro [Windows Co
 old-location: controls\ListBox_FindString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_findstring.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_FindString, ListBox_FindString macro [Windows Controls], _win32_ListBox_FindString, _win32_ListBox_FindString_cpp, controls.ListBox_FindString, controls._win32_ListBox_FindString, windowsx/ListBox_FindString
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_FindString macro
+
+## -syntax
+
+```cpp
+int ListBox_FindString(
+   HWND    hwndCtl,
+   int     indexStart,
+   LPCTSTR lpszFind
+);
+```
+
+## -returns
+
+Type: **int**
+
+The index of the matching item, or LB_ERR if the search was unsuccessful.
 
 
 ## -description

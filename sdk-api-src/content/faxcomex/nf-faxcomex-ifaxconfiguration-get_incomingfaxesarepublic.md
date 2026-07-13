@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_IncomingFaxesArePublic
 title: IFaxConfiguration::get_IncomingFaxesArePublic (faxcomex.h)
-description: Indicates whether incoming faxes are either viewable by everyone or private.
+description: Indicates whether incoming faxes are either viewable by everyone or private. (Get)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","IncomingFaxesArePublic property","IFaxConfiguration.IncomingFaxesArePublic","IFaxConfiguration.get_IncomingFaxesArePublic","IFaxConfiguration::IncomingFaxesArePublic","IFaxConfiguration::get_IncomingFaxesArePublic","IFaxConfiguration::put_IncomingFaxesArePublic","IncomingFaxesArePublic property [Fax Service]","IncomingFaxesArePublic property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_IncomingFaxesArePublic","fax._mfax_IFaxConfiguration_IncomingFaxesArePublic","faxcomex/IFaxConfiguration::IncomingFaxesArePublic","faxcomex/IFaxConfiguration::get_IncomingFaxesArePublic","faxcomex/IFaxConfiguration::put_IncomingFaxesArePublic","get_IncomingFaxesArePublic"]
 old-location: fax\_mfax_IFaxConfiguration_IncomingFaxesArePublic.htm
 tech.root: Fax

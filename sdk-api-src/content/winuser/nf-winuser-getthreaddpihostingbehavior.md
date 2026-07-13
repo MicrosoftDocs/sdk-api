@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the <a href="/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a> from the current thread.
 
-## -parameters
+
 
 ## -returns
 

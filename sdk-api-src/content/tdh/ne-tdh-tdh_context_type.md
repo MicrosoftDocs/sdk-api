@@ -95,5 +95,4 @@ Reserved.
 If you are specifying context information for a legacy ETW event, you only need to specify the TDH_CONTEXT_POINTERSIZE type—the other types are used for WPP events and are ignored for legacy ETW events.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer2 interface [Windows Media Player]","get_window
 old-location: wmp\iwmpplayer2_get_windowlessvideo.htm
 tech.root: WMP
 ms.assetid: da1cfa7c-aa79-4711-8de2-d83317e5598f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_windowlessVideo method, IWMPPlayer2.get_windowlessVideo, IWMPPlayer2::get_windowlessVideo, IWMPPlayer2get_windowlessVideo, get_windowlessVideo, get_windowlessVideo method [Windows Media Player], get_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_get_windowlessvideo, wmp/IWMPPlayer2::get_windowlessVideo
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_windowlessVideo</b> method retrieves a value indicating whether the Windows Media Player control renders video in windowless mode.
 

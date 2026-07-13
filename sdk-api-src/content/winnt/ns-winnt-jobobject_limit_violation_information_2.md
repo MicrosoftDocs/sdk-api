@@ -2,12 +2,12 @@
 UID: NS:winnt.JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 title: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 (winnt.h)
 description: Contains extended information about resource notification limits that have been exceeded for a job object. This structure is used with the QueryInformationJobObject function with the JobObjectLimitViolationInformation2 information class.
-helpviewer_keywords: ["JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2","JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure","JOB_OBJECT_LIMIT_CPU_RATE_CONTROL","JOB_OBJECT_LIMIT_IO_RATE_CONTROL","JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH","JOB_OBJECT_LIMIT_JOB_MEMORY_LOW","JOB_OBJECT_LIMIT_JOB_READ_BYTES","JOB_OBJECT_LIMIT_JOB_TIME","JOB_OBJECT_LIMIT_JOB_WRITE_BYTES","JOB_OBJECT_LIMIT_NET_RATE_CONTROL","JOB_OBJECT_LIMIT_RATE_CONTROL","JOB_OBJECT_LIMIT_READ_BYTES","JOB_OBJECT_LIMIT_WRITE_BYTES","ToleranceHigh","ToleranceLow","ToleranceMedium","base.jobobject_limit_violation_information_2","winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2"]
+helpviewer_keywords: ["JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2","JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure","JOB_OBJECT_LIMIT_CPU_RATE_CONTROL","JOB_OBJECT_LIMIT_IO_RATE_CONTROL","JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH","JOB_OBJECT_LIMIT_JOB_MEMORY_LOW","JOB_OBJECT_LIMIT_JOB_READ_BYTES","JOB_OBJECT_LIMIT_JOB_TIME","JOB_OBJECT_LIMIT_JOB_WRITE_BYTES","JOB_OBJECT_LIMIT_NET_RATE_CONTROL","JOB_OBJECT_LIMIT_RATE_CONTROL","JOB_OBJECT_LIMIT_JOB_READ_BYTES","JOB_OBJECT_LIMIT_JOB_WRITE_BYTES","ToleranceHigh","ToleranceLow","ToleranceMedium","base.jobobject_limit_violation_information_2","winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2"]
 old-location: base\jobobject_limit_violation_information_2.htm
 tech.root: backup
 ms.assetid: B474F74E-B64B-4681-A235-C2DE317BFE0E
 ms.date: 12/05/2018
-ms.keywords: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2, JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_READ_BYTES, JOB_OBJECT_LIMIT_WRITE_BYTES, ToleranceHigh, ToleranceLow, ToleranceMedium, base.jobobject_limit_violation_information_2, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
+ms.keywords: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2, JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, ToleranceHigh, ToleranceLow, ToleranceMedium, base.jobobject_limit_violation_information_2, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -174,8 +174,8 @@ Flags that identify the notification limits that have been exceeded. This member
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="JOB_OBJECT_LIMIT_READ_BYTES"></a><a id="job_object_limit_read_bytes"></a><dl>
-<dt><b>JOB_OBJECT_LIMIT_READ_BYTES</b></dt>
+<td width="40%"><a id="JOB_OBJECT_LIMIT_JOB_READ_BYTES"></a><a id="job_object_limit_job_read_bytes"></a><dl>
+<dt><b>JOB_OBJECT_LIMIT_JOB_READ_BYTES</b></dt>
 <dt>0x00010000</dt>
 </dl>
 </td>
@@ -185,8 +185,8 @@ The job's I/O read bytes notification limit has been exceeded. The <b>IoReadByte
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="JOB_OBJECT_LIMIT_WRITE_BYTES"></a><a id="job_object_limit_write_bytes"></a><dl>
-<dt><b>JOB_OBJECT_LIMIT_WRITE_BYTES</b></dt>
+<td width="40%"><a id="JOB_OBJECT_LIMI_JOB_WRITE_BYTES"></a><a id="job_object_limit_job_write_bytes"></a><dl>
+<dt><b>JOB_OBJECT_LIMIT_JOB_WRITE_BYTES</b></dt>
 <dt>0x00020000</dt>
 </dl>
 </td>
@@ -276,19 +276,19 @@ The job's network rate control limit has been exceeded. The <b>NetworkRateContro
 
 ### -field IoReadBytes
 
-If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_READ_BYTES</b>, this member contains the total I/O read bytes for all processes in the job at the time the notification was sent.
+If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_READ_BYTES</b>, this member contains the total I/O read bytes for all processes in the job at the time the notification was sent.
 
 ### -field IoReadBytesLimit
 
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_READ_BYTES</b>, this member contains the I/O read bytes notification limit in effect for the job.
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_READ_BYTES</b>, this member contains the I/O read bytes notification limit in effect for the job.
 
 ### -field IoWriteBytes
 
-If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_WRITE_BYTES</b>, this member contains the total I/O write bytes for all processes in the job at the time the notification was sent.
+If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_WRITE_BYTES</b>, this member contains the total I/O write bytes for all processes in the job at the time the notification was sent.
 
 ### -field IoWriteBytesLimit
 
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_WRITE_BYTES</b>, this member contains the I/O write bytes notification limit in effect for the job.
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_WRITE_BYTES</b>, this member contains the I/O write bytes notification limit in effect for the job.
 
 ### -field PerJobUserTime
 

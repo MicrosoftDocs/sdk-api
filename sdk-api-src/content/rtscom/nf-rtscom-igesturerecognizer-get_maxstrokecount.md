@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.get_MaxStrokeCount
 title: IGestureRecognizer::get_MaxStrokeCount (rtscom.h)
-description: Gets or sets the maximum number of strokes allowed per gesture recognition.
+description: Gets or sets the maximum number of strokes allowed per gesture recognition. (Get)
 helpviewer_keywords: ["IGestureRecognizer interface [Tablet PC]","MaxStrokeCount property","IGestureRecognizer.MaxStrokeCount","IGestureRecognizer.get_MaxStrokeCount","IGestureRecognizer.put_MaxStrokeCount","IGestureRecognizer::MaxStrokeCount","IGestureRecognizer::get_MaxStrokeCount","IGestureRecognizer::put_MaxStrokeCount","MaxStrokeCount property [Tablet PC]","MaxStrokeCount property [Tablet PC]","IGestureRecognizer interface","d7f40294-437a-4d5c-9389-1798102d0d8f","get_MaxStrokeCount","rtscom/IGestureRecognizer::MaxStrokeCount","rtscom/IGestureRecognizer::get_MaxStrokeCount","rtscom/IGestureRecognizer::put_MaxStrokeCount","tablet.igesturerecognizer_maxstrokecount"]
 old-location: tablet\igesturerecognizer_maxstrokecount.htm
 tech.root: tablet

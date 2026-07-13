@@ -1,7 +1,7 @@
 ---
 UID: NS:icm.NAMEDCOLOR
 title: NAMEDCOLOR
-description: TBD
+description: TBD (NAMEDCOLOR)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

@@ -1,8 +1,8 @@
 ---
 UID: NF:avrt.AvRtCreateThreadOrderingGroupExW
 title: AvRtCreateThreadOrderingGroupExW function (avrt.h)
-description: Creates a thread ordering group and associates the server thread with a task.
-helpviewer_keywords: ["AvRtCreateThreadOrderingGroupEx","AvRtCreateThreadOrderingGroupEx function","AvRtCreateThreadOrderingGroupExA","AvRtCreateThreadOrderingGroupExW","avrt/AvRtCreateThreadOrderingGroupEx","avrt/AvRtCreateThreadOrderingGroupExA","avrt/AvRtCreateThreadOrderingGroupExW","base.avrtcreatethreadorderinggroupex"]
+description: Creates a thread ordering group and associates the server thread with a task. (Unicode)
+helpviewer_keywords: ["AvRtCreateThreadOrderingGroupEx", "AvRtCreateThreadOrderingGroupEx function", "AvRtCreateThreadOrderingGroupExW", "avrt/AvRtCreateThreadOrderingGroupEx", "avrt/AvRtCreateThreadOrderingGroupExW", "base.avrtcreatethreadorderinggroupex"]
 old-location: base\avrtcreatethreadorderinggroupex.htm
 tech.root: backup
 ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50
@@ -158,7 +158,7 @@ int main( void )
 
 
 > [!NOTE]
-> The avrt.h header defines AvRtCreateThreadOrderingGroupEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The avrt.h header defines AvRtCreateThreadOrderingGroupEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

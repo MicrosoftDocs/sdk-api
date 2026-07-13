@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.get_Name
 title: IAzRole::get_Name (azroles.h)
-description: Sets or retrieves the name of the role.
+description: Sets or retrieves the name of the role. (Get)
 helpviewer_keywords: ["AzRole object [Security]","Name property","IAzRole interface [Security]","Name property","IAzRole.Name","IAzRole.get_Name","IAzRole::Name","IAzRole::get_Name","IAzRole::put_Name","Name property [Security]","Name property [Security]","AzRole object","Name property [Security]","IAzRole interface","azroles/IAzRole::Name","azroles/IAzRole::get_Name","azroles/IAzRole::put_Name","get_Name","security.iazrole_name"]
 old-location: security\iazrole_name.htm
 tech.root: security

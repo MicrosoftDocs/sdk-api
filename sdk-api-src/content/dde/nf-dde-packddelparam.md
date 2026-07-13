@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
+ - ext-ms-win-ntuser-dde-l1-1-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-L1-1-0.dll
  - Ext-MS-Win-NTUser-Misc-L1-2-0.dll

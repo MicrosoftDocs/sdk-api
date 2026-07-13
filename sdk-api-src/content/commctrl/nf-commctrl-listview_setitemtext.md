@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetItemText","ListView_SetItemText macro [Window
 old-location: controls\ListView_SetItemText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemtext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetItemText, ListView_SetItemText macro [Windows Controls], _win32_ListView_SetItemText, _win32_ListView_SetItemText_cpp, commctrl/ListView_SetItemText, controls.ListView_SetItemText, controls._win32_ListView_SetItemText
 req.header: commctrl.h
 req.include-header: 
@@ -44,6 +44,24 @@ api_location:
 api_name:
  - ListView_SetItemText
 ---
+# ListView_SetItemText macro
+
+## -syntax
+
+```cpp
+VOID ListView_SetItemText(
+   HWND    hwndLV,
+   int     i,
+   int     iSubItem_,
+   LPCTSTR pszText_
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 ## -description
 
@@ -67,12 +85,12 @@ The zero-based index of the list-view item.
 
 Type: <b>int</b>
 
-The one-based index of the subitem. To set the item label, set 
-					<i>iSubItem</i> to zero.
+The one-based index of the subitem. To set the item label, set <i>iSubItem_</i> to zero.
 
 ### -param pszText_
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> notification code when it needs the text.
+
 This parameter can be <b>NULL</b>.

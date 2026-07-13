@@ -1,8 +1,8 @@
 ---
 UID: NF:srrestoreptapi.SRSetRestorePointW
 title: SRSetRestorePointW function (srrestoreptapi.h)
-description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
-helpviewer_keywords: ["SRSetRestorePoint","SRSetRestorePoint function [System Restore]","SRSetRestorePointA","SRSetRestorePointW","_sr_srsetrestorepoint","sr.srsetrestorepoint","srrestoreptapi/SRSetRestorePoint","srrestoreptapi/SRSetRestorePointA","srrestoreptapi/SRSetRestorePointW"]
+description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point. (Unicode)
+helpviewer_keywords: ["SRSetRestorePoint", "SRSetRestorePoint function [System Restore]", "SRSetRestorePointW", "_sr_srsetrestorepoint", "sr.srsetrestorepoint", "srrestoreptapi/SRSetRestorePoint", "srrestoreptapi/SRSetRestorePointW"]
 old-location: sr\srsetrestorepoint.htm
 tech.root: sr
 ms.assetid: 46f0094d-9079-41b5-9efc-ef07082653d3
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Sfc.Lib
 req.dll: SrClient.dll
 req.irql: 
 targetos: Windows
@@ -137,7 +137,7 @@ For an example, see <a href="/windows/desktop/sr/using-system-restore">Using Sys
 
 
 > [!NOTE]
-> The srrestoreptapi.h header defines SRSetRestorePoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The srrestoreptapi.h header defines SRSetRestorePoint as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

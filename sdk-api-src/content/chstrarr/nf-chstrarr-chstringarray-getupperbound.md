@@ -61,7 +61,7 @@ api_name:
 
 The <b>GetUpperBound</b> method gets the current upper bound of an array. Because array indexes are zero-based, this function returns a value that is one less than <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getsize">GetSize</a>.
 
-## -parameters
+
 
 ## -returns
 

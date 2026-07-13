@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-uxtheme-themes-l1-1-3.dll
+ - ext-ms-win-uxtheme-themes-l1-1-2.dll
  - UxTheme.dll
  - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
  - xamlpalwp.dll
@@ -81,5 +83,5 @@ the timing function structure.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

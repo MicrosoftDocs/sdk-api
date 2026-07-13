@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRAspectRatioControl.GetAspectRatioMode
 title: IVMRAspectRatioControl::GetAspectRatioMode (strmif.h)
-description: The GetAspectRatioMode method queries whether the VMR will preserve the aspect ratio of the source video.
+description: The GetAspectRatioMode method queries whether the VMR will preserve the aspect ratio of the source video. (IVMRAspectRatioControl.GetAspectRatioMode)
 helpviewer_keywords: ["GetAspectRatioMode","GetAspectRatioMode method [DirectShow]","GetAspectRatioMode method [DirectShow]","IVMRAspectRatioControl interface","IVMRAspectRatioControl interface [DirectShow]","GetAspectRatioMode method","IVMRAspectRatioControl.GetAspectRatioMode","IVMRAspectRatioControl::GetAspectRatioMode","IVMRAspectRatioControlGetAspectRatioMode","dshow.ivmraspectratiocontrol_getaspectratiomode","strmif/IVMRAspectRatioControl::GetAspectRatioMode"]
 old-location: dshow\ivmraspectratiocontrol_getaspectratiomode.htm
 tech.root: dshow
 ms.assetid: baecb2a1-e7d8-43ee-ac7d-d2dcf50cb594
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl interface, IVMRAspectRatioControl interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl.GetAspectRatioMode, IVMRAspectRatioControl::GetAspectRatioMode, IVMRAspectRatioControlGetAspectRatioMode, dshow.ivmraspectratiocontrol_getaspectratiomode, strmif/IVMRAspectRatioControl::GetAspectRatioMode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetAspectRatioMode</code> method queries whether the VMR will preserve the aspect ratio of the source video.
 

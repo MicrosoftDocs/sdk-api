@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderStoragePools.CreateLunInStoragePool
 title: IVdsHwProviderStoragePools::CreateLunInStoragePool (vdshwprv.h)
-description: Creates a LUN in a storage pool.
+description: The IVdsHwProviderStoragePools::CreateLunInStoragePool (vdshwprv.h) method creates a LUN in a storage pool.
 helpviewer_keywords: ["CreateLunInStoragePool","CreateLunInStoragePool method","CreateLunInStoragePool method","IVdsHwProviderStoragePools interface","IVdsHwProviderStoragePools interface","CreateLunInStoragePool method","IVdsHwProviderStoragePools.CreateLunInStoragePool","IVdsHwProviderStoragePools::CreateLunInStoragePool","base.ivdshwproviderstoragepools_createluninstoragepool","vds/IVdsHwProviderStoragePools::CreateLunInStoragePool","vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool"]
 old-location: base\ivdshwproviderstoragepools_createluninstoragepool.htm
 tech.root: base
 ms.assetid: 17377671-1a30-4aeb-bc89-3c1e3823d3fe
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: CreateLunInStoragePool, CreateLunInStoragePool method, CreateLunInStoragePool method,IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,CreateLunInStoragePool method, IVdsHwProviderStoragePools.CreateLunInStoragePool, IVdsHwProviderStoragePools::CreateLunInStoragePool, base.ivdshwproviderstoragepools_createluninstoragepool, vds/IVdsHwProviderStoragePools::CreateLunInStoragePool, vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates a LUN in a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmp2dlna.IMFDLNASinkInit.Initialize
 title: IMFDLNASinkInit::Initialize (mfmp2dlna.h)
-description: Initializes the Digital Living Network Alliance (DLNA) media sink.
+description: Initializes the Digital Living Network Alliance (DLNA) media sink. (IMFDLNASinkInit.Initialize)
 helpviewer_keywords: ["IMFDLNASinkInit interface [Media Foundation]","Initialize method","IMFDLNASinkInit.Initialize","IMFDLNASinkInit::Initialize","Initialize","Initialize method [Media Foundation]","Initialize method [Media Foundation]","IMFDLNASinkInit interface","mf.imfdlnasinkinit_initialize","mfmp2dlna/IMFDLNASinkInit::Initialize"]
 old-location: mf\imfdlnasinkinit_initialize.htm
 tech.root: mf
@@ -74,7 +74,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_ALREADY_INITIALIZED</b></b></dt>
+<dt><b>MF_E_ALREADY_INITIALIZED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ The method was already called.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLDepositOfflineConfirmationIdEx
 title: SLDepositOfflineConfirmationIdEx function (slpublic.h)
-description: Deposits Installation ID (IID) and Confirmation ID (CID) for offline activation.
+description: Deposits Installation ID (IID) and Confirmation ID (CID) for offline activation. (SLDepositOfflineConfirmationIdEx)
 helpviewer_keywords: ["SLDepositOfflineConfirmationIdEx","SLDepositOfflineConfirmationIdEx function [Security]","security.sldepositofflineconfirmationidex","slpublic/SLDepositOfflineConfirmationIdEx"]
 old-location: security\sldepositofflineconfirmationidex.htm
 tech.root: security

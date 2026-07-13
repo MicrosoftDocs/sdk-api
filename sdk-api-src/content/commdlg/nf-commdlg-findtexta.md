@@ -1,8 +1,8 @@
 ---
 UID: NF:commdlg.FindTextA
 title: FindTextA function (commdlg.h)
-description: Creates a system-defined modeless Find dialog box that lets the user specify a string to search for and options to use when searching for text in a document.
-helpviewer_keywords: ["FindText","FindText function [Dialog Boxes]","FindTextA","FindTextW","_win32_FindText","_win32_findtext_cpp","commdlg/FindText","commdlg/FindTextA","commdlg/FindTextW","dlgbox.findtext","winui._win32_findtext"]
+description: Creates a system-defined modeless Find dialog box that lets the user specify a string to search for and options to use when searching for text in a document. (ANSI)
+helpviewer_keywords: ["FindTextA", "commdlg/FindTextA"]
 old-location: dlgbox\findtext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\findtext.htm
@@ -92,7 +92,7 @@ For an example, see <a href="/windows/desktop/dlgbox/using-common-dialog-boxes">
 
 
 > [!NOTE]
-> The commdlg.h header defines FindText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines FindText as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

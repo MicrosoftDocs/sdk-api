@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This feature is expected to be available on a future version of the Windows operating system.
         
 
@@ -57,7 +59,7 @@ This feature is expected to be available on a future version of the Windows oper
 
 The <b>Unregister</b> method unregisters an apartment-threaded tuner and a tuner marshaller that were registered by <b>IRegisterTuner::Register</b>.
 
-## -parameters
+
 
 ## -returns
 

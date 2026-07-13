@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICQueryAbout","ICQueryAbout macro [Windows Multimedia]","
 old-location: multimedia\icqueryabout.htm
 tech.root: Multimedia
 ms.assetid: 073f217f-961b-4de2-9430-5ee81379e807
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICQueryAbout, ICQueryAbout macro [Windows Multimedia], _win32_ICQueryAbout, multimedia.icqueryabout, vfw/ICQueryAbout
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ICQueryAbout macro
+
+## -syntax
+
+```cpp
+DWORD ICQueryAbout(
+     hic
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the driver supports this message or ICERR_UNSUPPORTED otherwise.
 
 
 ## -description

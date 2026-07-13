@@ -4,7 +4,8 @@ title: Immdev.h header
 ms.assetid: 5b6a3964-dc81-322f-bed5-9efda946f817
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: intl
 f1_keywords:
  - immdev

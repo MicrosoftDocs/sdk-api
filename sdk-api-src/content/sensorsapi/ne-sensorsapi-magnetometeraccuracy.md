@@ -6,7 +6,7 @@ helpviewer_keywords: ["Approximate","High","MagnetometerAccuracy","MagnetometerA
 old-location: winsensors\magnetometeraccuracy.htm
 tech.root: winsensors
 ms.assetid: DBD06A2E-35AB-4692-8475-98B803C2202B
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [WinSensors], Unknown, Unreliable, sensorsapi/Approximate, sensorsapi/High, sensorsapi/MagnetometerAccuracy, sensorsapi/Unknown, sensorsapi/Unreliable, winsensors.magnetometeraccuracy
 req.header: sensorsapi.h
 req.include-header: 
@@ -50,11 +50,16 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 Specifies the accuracy of the magnetometer.
 
 ## -enum-fields
 
-### -field MAGNETOMETER_ACCURACY_UNKNOWN
+### -field MAGNETOMETER_ACCURACY_UNKNOWN:0
 
 ### -field MAGNETOMETER_ACCURACY_UNRELIABLE
 

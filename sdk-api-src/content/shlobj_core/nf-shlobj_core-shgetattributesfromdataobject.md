@@ -66,13 +66,13 @@ The data object from which to retrieve the information.
 
 Type: <b>DWORD</b>
 
-One or more of the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO</a> flags that indicate which pieces of information the calling application wants to retrieve.
+One or more of the <a href="/windows/win32/shell/sfgao">SFGAO</a> flags that indicate which pieces of information the calling application wants to retrieve.
 
 ### -param pdwAttributes [out, optional]
 
 Type: <b>DWORD*</b>
 
-A pointer to a <b>DWORD</b> value that, when this function returns successfully, receives one or more <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO</a> flags that indicate the attributes, among those requested, that are common to all items in <i>pdo</i>. This pointer can be <b>NULL</b> if this information is not needed.
+A pointer to a <b>DWORD</b> value that, when this function returns successfully, receives one or more <a href="/windows/win32/shell/sfgao">SFGAO</a> flags that indicate the attributes, among those requested, that are common to all items in <i>pdo</i>. This pointer can be <b>NULL</b> if this information is not needed.
 
 ### -param pcItems [out, optional]
 

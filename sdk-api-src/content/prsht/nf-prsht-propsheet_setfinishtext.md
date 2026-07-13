@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_SetFinishText","PropSheet_SetFinishText macro [
 old-location: controls\PropSheet_SetFinishText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setfinishtext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_SetFinishText, PropSheet_SetFinishText macro [Windows Controls], _win32_PropSheet_SetFinishText, _win32_PropSheet_SetFinishText_cpp, controls.PropSheet_SetFinishText, controls._win32_PropSheet_SetFinishText, prsht/PropSheet_SetFinishText
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_SetFinishText macro
+
+## -syntax
+
+```cpp
+VOID PropSheet_SetFinishText(
+   HWND   hDlg,
+   LPTSTR lpszText
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

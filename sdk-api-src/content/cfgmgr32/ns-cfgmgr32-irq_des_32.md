@@ -1,7 +1,7 @@
 ---
 UID: NS:cfgmgr32.IRQ_Des_32_s
 title: IRQ_DES_32 (cfgmgr32.h)
-description: The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
+description: The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources. (32 bit)
 helpviewer_keywords: ["*PIRQ_DES_32","IRQ_DES","IRQ_DES structure [Device and Driver Installation]","IRQ_DES_32","PIRQ_DES","PIRQ_DES structure pointer [Device and Driver Installation]","cfgmgr32/IRQ_DES","cfgmgr32/PIRQ_DES","cfgmgrst_039f414c-eefc-46f0-acbe-a94d09406d92.xml","devinst.irq_des"]
 old-location: devinst\irq_des.htm
 tech.root: devinst

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodReturn
 title: IComMethodEvents::OnMethodReturn (comsvcs.h)
-description: Generated when an object's method returns.
+description: Generated when an object's method returns. (IComMethodEvents.OnMethodReturn)
 helpviewer_keywords: ["IComMethodEvents interface [COM+]","OnMethodReturn method","IComMethodEvents.OnMethodReturn","IComMethodEvents::OnMethodReturn","OnMethodReturn","OnMethodReturn method [COM+]","OnMethodReturn method [COM+]","IComMethodEvents interface","_dtc_icommethodevents_onmethodreturn","comsvcs/IComMethodEvents::OnMethodReturn","cos.icommethodevents_onmethodreturn"]
 old-location: cos\icommethodevents_onmethodreturn.htm
 tech.root: cos

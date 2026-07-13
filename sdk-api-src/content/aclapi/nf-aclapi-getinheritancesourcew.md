@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.GetInheritanceSourceW
 title: GetInheritanceSourceW function (aclapi.h)
-description: Returns information about the source of inherited access control entries (ACEs) in an access control list (ACL).
-helpviewer_keywords: ["GetInheritanceSource","GetInheritanceSource function [Security]","GetInheritanceSourceA","GetInheritanceSourceW","_win32_getinheritancesource","aclapi/GetInheritanceSource","aclapi/GetInheritanceSourceA","aclapi/GetInheritanceSourceW","security.getinheritancesource"]
+description: Returns information about the source of inherited access control entries (ACEs) in an access control list (ACL). (Unicode)
+helpviewer_keywords: ["GetInheritanceSource", "GetInheritanceSource function [Security]", "GetInheritanceSourceW", "_win32_getinheritancesource", "aclapi/GetInheritanceSource", "aclapi/GetInheritanceSourceW", "security.getinheritancesource"]
 old-location: security\getinheritancesource.htm
 tech.root: security
 ms.assetid: ccc1702b-e414-4831-ae8b-fd92499bec94
@@ -114,7 +114,7 @@ This function does not handle race conditions. If your thread calls this functio
 
 
 > [!NOTE]
-> The aclapi.h header defines GetInheritanceSource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The aclapi.h header defines GetInheritanceSource as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

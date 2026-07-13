@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.DragShowNolock
 title: IImageList::DragShowNolock (commoncontrols.h)
-description: Shows or hides the image being dragged.
+description: Shows or hides the image being dragged. (IImageList.DragShowNolock)
 helpviewer_keywords: ["DragShowNolock","DragShowNolock method [Windows Controls]","DragShowNolock method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","DragShowNolock method","IImageList.DragShowNolock","IImageList::DragShowNolock","comctl_IImageList_DragShowNolock","comctl_IImageList_DragShowNolock_cpp","commoncontrols/IImageList::DragShowNolock","controls.IImageList_DragShowNolock","controls.comctl_IImageList_DragShowNolock"]
 old-location: controls\IImageList_DragShowNolock.htm
 tech.root: Controls
@@ -64,7 +64,7 @@ A value that specifies whether to show or hide the image being dragged. Specify 
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

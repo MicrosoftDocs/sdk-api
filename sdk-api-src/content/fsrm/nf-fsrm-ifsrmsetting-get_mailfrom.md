@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_MailFrom
 title: IFsrmSetting::get_MailFrom (fsrm.h)
-description: Retrieves or sets the default email address from which email messages are sent.
+description: Retrieves or sets the default email address from which email messages are sent. (Get)
 helpviewer_keywords: ["FsrmSetting class [File Server Resource Manager]","MailFrom property","IFsrmSetting interface [File Server Resource Manager]","MailFrom property","IFsrmSetting.MailFrom","IFsrmSetting.get_MailFrom","IFsrmSetting::MailFrom","IFsrmSetting::get_MailFrom","IFsrmSetting::put_MailFrom","MailFrom property [File Server Resource Manager]","MailFrom property [File Server Resource Manager]","FsrmSetting class","MailFrom property [File Server Resource Manager]","IFsrmSetting interface","fs.ifsrmsetting_mailfrom","fsrm.ifsrmsetting_mailfrom","fsrm/IFsrmSetting::MailFrom","fsrm/IFsrmSetting::get_MailFrom","fsrm/IFsrmSetting::put_MailFrom","get_MailFrom"]
 old-location: fsrm\ifsrmsetting_mailfrom.htm
 tech.root: fsrm

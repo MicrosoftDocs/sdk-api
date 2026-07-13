@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_LineIndex","Edit_LineIndex macro [Windows Controls]"
 old-location: controls\Edit_LineIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_lineindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_LineIndex, Edit_LineIndex macro [Windows Controls], _win32_Edit_LineIndex, _win32_Edit_LineIndex_cpp, controls.Edit_LineIndex, controls._win32_Edit_LineIndex, windowsx/Edit_LineIndex
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Edit_LineIndex macro
+
+## -syntax
+
+```cpp
+int Edit_LineIndex(
+   HWND hwndCtl,
+   int  line
+);
+```
+
+## -returns
+
+Type: **int**
+
+The character index of the first character in the line, or &#8211;1 if the specified line number is greater than the number of lines in the edit control.
 
 
 ## -description

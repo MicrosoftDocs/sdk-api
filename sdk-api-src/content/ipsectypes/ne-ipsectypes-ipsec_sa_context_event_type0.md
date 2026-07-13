@@ -56,7 +56,7 @@ The <b>IPSEC_SA_CONTEXT_EVENT_TYPE0</b> enumeration specifies the type of IPsec 
 
 ## -enum-fields
 
-### -field IPSEC_SA_CONTEXT_EVENT_ADD
+### -field IPSEC_SA_CONTEXT_EVENT_ADD:1
 
 A new IPsec SA context was added.
 

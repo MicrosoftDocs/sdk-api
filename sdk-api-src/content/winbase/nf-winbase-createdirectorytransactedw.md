@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateDirectoryTransactedW
 title: CreateDirectoryTransactedW function (winbase.h)
-description: Creates a new directory as a transacted operation, with the attributes of a specified template directory.
-helpviewer_keywords: ["CreateDirectoryTransacted","CreateDirectoryTransacted function [Files]","CreateDirectoryTransactedA","CreateDirectoryTransactedW","fs.createdirectorytransacted","winbase/CreateDirectoryTransacted","winbase/CreateDirectoryTransactedA","winbase/CreateDirectoryTransactedW"]
+description: Creates a new directory as a transacted operation, with the attributes of a specified template directory. (Unicode)
+helpviewer_keywords: ["CreateDirectoryTransacted", "CreateDirectoryTransacted function [Files]", "CreateDirectoryTransactedW", "fs.createdirectorytransacted", "winbase/CreateDirectoryTransacted", "winbase/CreateDirectoryTransactedW"]
 old-location: fs\createdirectorytransacted.htm
 tech.root: fs
 ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
@@ -73,28 +74,28 @@ Creates a new directory as a transacted operation, with the attributes of a spec
 ### -param lpTemplateDirectory [in, optional]
 
 The path of the directory to use as a template when creating the new directory.  This parameter can be 
-       <b>NULL</b>.
-
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <b>NULL</b>..
 
 The directory must reside on the local computer; otherwise, the function fails and the last error code is set 
        to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
+
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpNewDirectory [in]
 
 The path of the directory to be created.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details..
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure. The <b>lpSecurityDescriptor</b> member of the structure specifies a security 
        descriptor for the new directory.
 
@@ -245,7 +246,7 @@ SMB 3.0 does not support TxF.
 
 
 > [!NOTE]
-> The winbase.h header defines CreateDirectoryTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CreateDirectoryTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -265,7 +266,7 @@ SMB 3.0 does not support TxF.
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

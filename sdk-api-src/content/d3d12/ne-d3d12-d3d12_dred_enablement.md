@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_DRED_ENABLEMENT
 title: D3D12_DRED_ENABLEMENT
-description: Defines constants that specify render/compute GPU operations.
+description: Defines constants that specify render/compute GPU operations. (D3D12_DRED_ENABLEMENT)
 tech.root: direct3d12
 helpviewer_keywords: ["D3D12_DRED_ENABLEMENT","D3D12_DRED_ENABLEMENT enumeration","d3d12/D3D12_DRED_ENABLEMENT","d3d12/D3D12_DRED_ENABLEMENT enumeration","direct3d12.d3d12_dred_enablement"]
 ms.date: 02/07/2019
@@ -13,8 +13,8 @@ req.header: d3d12.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_DRED_ENABLEMENT
 req.umdf-ver: 

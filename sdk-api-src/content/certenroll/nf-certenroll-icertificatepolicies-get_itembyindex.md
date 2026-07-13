@@ -1,12 +1,12 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.get_ItemByIndex
 title: ICertificatePolicies::get_ItemByIndex (certenroll.h)
-description: Retrieves an object from the collection by index number.
+description: The ICertificatePolicies::get_ItemByIndex function retrieves an object from the collection by index number.
 helpviewer_keywords: ["ICertificatePolicies interface [Security]","ItemByIndex property","ICertificatePolicies.ItemByIndex","ICertificatePolicies.get_ItemByIndex","ICertificatePolicies::ItemByIndex","ICertificatePolicies::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","ICertificatePolicies interface","certenroll/ICertificatePolicies::ItemByIndex","certenroll/ICertificatePolicies::get_ItemByIndex","get_ItemByIndex","security.icertificatepolicies_itembyindex_property"]
 old-location: security\icertificatepolicies_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: dac1a656-265c-41ec-b460-0414fefe3c40
-ms.date: 12/05/2018
+ms.date: 08/01/2022
 ms.keywords: ICertificatePolicies interface [Security],ItemByIndex property, ICertificatePolicies.ItemByIndex, ICertificatePolicies.get_ItemByIndex, ICertificatePolicies::ItemByIndex, ICertificatePolicies::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::ItemByIndex, certenroll/ICertificatePolicies::get_ItemByIndex, get_ItemByIndex, security.icertificatepolicies_itembyindex_property
 req.header: certenroll.h
 req.include-header: 

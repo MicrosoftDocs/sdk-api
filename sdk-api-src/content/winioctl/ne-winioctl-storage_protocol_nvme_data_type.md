@@ -57,7 +57,7 @@ Describes  the type of NVMe protocol-specific data that's to be queried during a
 
 ## -enum-fields
 
-### -field NVMeDataTypeUnknown
+### -field NVMeDataTypeUnknown:0
 
 Unknown data type.
 

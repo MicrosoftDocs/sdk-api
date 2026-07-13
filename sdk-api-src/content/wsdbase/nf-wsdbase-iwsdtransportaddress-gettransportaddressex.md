@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetTransportAddressEx
 title: IWSDTransportAddress::GetTransportAddressEx (wsdbase.h)
-description: Gets a pointer to a string representation of the address object.
+description: Gets a pointer to a string representation of the address object. (IWSDTransportAddress.GetTransportAddressEx)
 helpviewer_keywords: ["GetTransportAddressEx","GetTransportAddressEx method","GetTransportAddressEx method","IWSDTransportAddress interface","IWSDTransportAddress interface","GetTransportAddressEx method","IWSDTransportAddress.GetTransportAddressEx","IWSDTransportAddress::GetTransportAddressEx","ncd.iwsdtransportaddress_gettransportaddressex","wsdbase/IWSDTransportAddress::GetTransportAddressEx"]
 old-location: ncd\iwsdtransportaddress_gettransportaddressex.htm
 tech.root: ncd

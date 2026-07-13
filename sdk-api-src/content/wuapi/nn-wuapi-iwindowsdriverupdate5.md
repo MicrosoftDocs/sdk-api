@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdate5
 title: IWindowsDriverUpdate5 (wuapi.h)
-description: Contains the properties and methods that are available only from a Windows driver update.
+description: Contains the properties and methods that are available only from a Windows driver update. (IWindowsDriverUpdate5)
 helpviewer_keywords: ["IWindowsDriverUpdate5","IWindowsDriverUpdate5 interface [Windows Update Agent]","IWindowsDriverUpdate5 interface [Windows Update Agent]","described","wua.iwindowsdriverupdate5","wuapi/IWindowsDriverUpdate5"]
 old-location: wua\iwindowsdriverupdate5.htm
 tech.root: wua

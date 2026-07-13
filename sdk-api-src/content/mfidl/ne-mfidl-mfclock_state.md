@@ -56,7 +56,7 @@ Defines the state of a clock.
 
 ## -enum-fields
 
-### -field MFCLOCK_STATE_INVALID
+### -field MFCLOCK_STATE_INVALID:0
 
 The clock is invalid. A clock might be invalid for several reasons. Some clocks return this state before the first start. This state can also occur if the underlying device is lost.
 

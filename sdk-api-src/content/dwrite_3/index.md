@@ -2,9 +2,10 @@
 UID: NA:dwrite_3
 title: Dwrite_3.h header
 ms.assetid: af1d7d21-37bd-3fb5-af34-0d792e9a54ad
-ms.date: 01/11/2019
+ms.date: 09/10/2025
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: directwrite
 f1_keywords:
  - dwrite_3

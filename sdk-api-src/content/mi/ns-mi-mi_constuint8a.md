@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstUint8A
 title: MI_ConstUint8A (mi.h)
-description: Represents an array of MI_Uint8 types.
+description: Represents an array of MI_Uint8 types. (MI_ConstUint8A)
 helpviewer_keywords: ["MI_ConstUint8A","MI_ConstUint8A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstUint8A","wmi._mi_constuint8a","wmi_v2.mi_constuint8a"]
 old-location: wmi_v2\mi_constuint8a.htm
 tech.root: wmi_v2

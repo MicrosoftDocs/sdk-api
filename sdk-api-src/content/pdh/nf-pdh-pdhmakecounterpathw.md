@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhMakeCounterPathW
 title: PdhMakeCounterPathW function (pdh.h)
-description: Creates a full counter path using the members specified in the PDH_COUNTER_PATH_ELEMENTS structure.
-helpviewer_keywords: ["0","PDH_PATH_WBEM_INPUT","PDH_PATH_WBEM_RESULT","PdhMakeCounterPath","PdhMakeCounterPath function [Perf]","PdhMakeCounterPathA","PdhMakeCounterPathW","_win32_pdhmakecounterpath","base.pdhmakecounterpath","pdh/PdhMakeCounterPath","pdh/PdhMakeCounterPathA","pdh/PdhMakeCounterPathW","perf.pdhmakecounterpath"]
+description: Creates a full counter path using the members specified in the PDH_COUNTER_PATH_ELEMENTS structure. (Unicode)
+helpviewer_keywords: ["0", "PDH_PATH_WBEM_INPUT", "PDH_PATH_WBEM_RESULT", "PdhMakeCounterPath", "PdhMakeCounterPath function [Perf]", "PdhMakeCounterPathW", "_win32_pdhmakecounterpath", "base.pdhmakecounterpath", "pdh/PdhMakeCounterPath", "pdh/PdhMakeCounterPathW", "perf.pdhmakecounterpath"]
 old-location: perf\pdhmakecounterpath.htm
 tech.root: perf
 ms.assetid: f2dc5f77-9f9e-4290-95fa-ce2f1e81fc69
@@ -163,7 +163,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 > [!NOTE]
-> The pdh.h header defines PdhMakeCounterPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhMakeCounterPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

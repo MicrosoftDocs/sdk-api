@@ -54,7 +54,7 @@ Determines whether the DLL that implements this function is in use. If not, the 
 
 OLE does not provide this function. DLLs that support the OLE Component Object Model (COM) should implement and export <b>DllCanUnloadNow</b>.
 
-## -parameters
+
 
 ## -returns
 

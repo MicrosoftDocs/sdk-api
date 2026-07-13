@@ -30,8 +30,7 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
- - IPrintDialogCallback::InitDone
- - commdlg/IPrintDialogCallback::InitDone
+ - commdlg/IPrintDialogCallback.InitDone
 dev_langs:
  - c++
 topic_type:
@@ -47,12 +46,11 @@ api_name:
 
 # IPrintDialogCallback::InitDone
 
-
 ## -description
 
 Called by <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> when the system has finished initializing the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
 
-## -parameters
+
 
 ## -returns
 

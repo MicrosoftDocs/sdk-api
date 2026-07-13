@@ -1,8 +1,8 @@
 ---
 UID: NF:nspapi.EnumProtocolsA
 title: EnumProtocolsA function (nspapi.h)
-description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host.
-helpviewer_keywords: ["EnumProtocols","EnumProtocols function [Winsock]","EnumProtocolsA","EnumProtocolsW","IPPROTO_TCP","IPPROTO_UDP","ISOPROTO_TP4","NSPROTO_IPX","NSPROTO_SPX","NSPROTO_SPXII","_win32_enumprotocols_2","nspapi/EnumProtocols","nspapi/EnumProtocolsA","nspapi/EnumProtocolsW","winsock.enumprotocols_2"]
+description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host. (ANSI)
+helpviewer_keywords: ["EnumProtocolsA", "IPPROTO_TCP", "IPPROTO_UDP", "ISOPROTO_TP4", "NSPROTO_IPX", "NSPROTO_SPX", "NSPROTO_SPXII", "nspapi/EnumProtocolsA"]
 old-location: winsock\enumprotocols_2.htm
 tech.root: WinSock
 ms.assetid: 0310b80d-5036-46c2-b60f-1a6661cb7f94
@@ -350,7 +350,7 @@ int FindProtocol (
 
 
 > [!NOTE]
-> The nspapi.h header defines EnumProtocols as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines EnumProtocols as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

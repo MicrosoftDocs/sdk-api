@@ -4,7 +4,8 @@ title: Appcompatapi.h header
 ms.assetid: 432df6ee-f095-3c5c-9e44-8bdb00741a61
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: winprog
 f1_keywords:
  - appcompatapi

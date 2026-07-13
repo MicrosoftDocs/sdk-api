@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetStringFieldA
 title: SetupGetStringFieldA function (setupapi.h)
-description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file.
-helpviewer_keywords: ["SetupGetStringField","SetupGetStringField function [Setup API]","SetupGetStringFieldA","SetupGetStringFieldW","_setupapi_setupgetstringfield","setup.setupgetstringfield","setupapi/SetupGetStringField","setupapi/SetupGetStringFieldA","setupapi/SetupGetStringFieldW"]
+description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file. (ANSI)
+helpviewer_keywords: ["SetupGetStringFieldA", "setupapi/SetupGetStringFieldA"]
 old-location: setup\setupgetstringfield.htm
 tech.root: setup
 ms.assetid: fc735827-37ae-4d77-a0d4-4d31f0225d69
@@ -103,7 +103,7 @@ Note that the maximum length of any single string specified in an INF Strings se
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetStringField as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetStringField as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

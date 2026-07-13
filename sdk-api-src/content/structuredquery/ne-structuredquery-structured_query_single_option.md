@@ -56,7 +56,7 @@ A set of flags to be used with <a href="/windows/desktop/api/structuredquery/nf-
 
 ## -enum-fields
 
-### -field SQSO_SCHEMA
+### -field SQSO_SCHEMA:0
 
 The option value should be a <b>VT_LPWSTR</b> that is the path to a file containing a schema binary. It is set automatically when obtaining a query parser through <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">IQueryParserManager::CreateLoadedParser</a>.
 

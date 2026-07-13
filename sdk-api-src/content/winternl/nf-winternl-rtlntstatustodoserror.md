@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -67,8 +67,6 @@ The function returns the corresponding <a href="/windows/desktop/Debug/system-er
 There is no function that provides the inverse functionality of <b>RtlNtStatusToDosError</b>, which would convert a system error code to its corresponding NTSTATUS code.
 
 ERROR_MR_MID_NOT_FOUND is returned when the specified NTSTATUS code does not have a corresponding system error code.
-
-This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 ## -see-also
 

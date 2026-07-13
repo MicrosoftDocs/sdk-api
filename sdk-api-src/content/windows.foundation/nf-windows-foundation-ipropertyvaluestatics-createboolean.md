@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateBoolean
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateBoolean (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified 8-bit Boolean value.
 helpviewer_keywords: ["CreateBoolean","CreateBoolean method [Windows Runtime]","CreateBoolean method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateBoolean method","IPropertyValueStatics.CreateBoolean","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateBoolean","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateBoolean","winrt.ipropertyvaluefactory_createboolean","winrt.ipropertyvaluestatics_createboolean"]
 old-location: winrt\ipropertyvaluestatics_createboolean.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateBoolean
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateBoolean (windows.foundation.h)
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectParentalCount
 old-location: dshow\idvdcontrol2_selectparentalcountry.htm
 tech.root: dshow
 ms.assetid: fb0b3fa9-c6e5-49a4-bec7-1e4e7d07ba46
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDvdControl2 interface [DirectShow],SelectParentalCountry method, IDvdControl2.SelectParentalCountry, IDvdControl2::SelectParentalCountry, IDvdControl2SelectParentalCountry, SelectParentalCountry, SelectParentalCountry method [DirectShow], SelectParentalCountry method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectparentalcountry, strmif/IDvdControl2::SelectParentalCountry
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SelectParentalCountry</code> method sets the country/region for interpreting parental access levels and setting default languages.
 

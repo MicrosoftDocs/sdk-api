@@ -51,51 +51,51 @@ api_name:
 ## -description
 
 The <b>FAX_JOB_STATUS_ENUM</b> enumeration defines the status values for a fax job.
-<div class="alert"><b>Note</b>  The members <b><b>fjsPAUSED</b></b> and <b><b>fjsNOLINE</b></b> are modifiers; they can be used in combination with any other member of this enumeration. Other members cannot be used as modifiers.</div><div> </div>
+<div class="alert"><b>Note</b>  The members <b>fjsPAUSED</b> and <b>fjsNOLINE</b> are modifiers; they can be used in combination with any other member of this enumeration. Other members cannot be used as modifiers.</div><div> </div>
 
 ## -enum-fields
 
-### -field fjsPENDING
+### -field fjsPENDING:0x1
 
 The fax job is in the queue and pending service.
 
-### -field fjsINPROGRESS
+### -field fjsINPROGRESS:0x2
 
 The fax job is in progress.
 
-### -field fjsFAILED
+### -field fjsFAILED:0x8
 
 The fax job failed.
 
-### -field fjsPAUSED
+### -field fjsPAUSED:0x10
 
 The fax server paused the fax job. This value can arrive in a bitwise combination with another value.
 
-### -field fjsNOLINE
+### -field fjsNOLINE:0x20
 
 There is no line available to send the fax. The fax server will send the transmission when a line is available. This value can arrive in a bitwise combination with another value.
 
-### -field fjsRETRYING
+### -field fjsRETRYING:0x40
 
 The fax job failed. The fax server will attempt to retransmit the fax after a specified interval.
 
-### -field fjsRETRIES_EXCEEDED
+### -field fjsRETRIES_EXCEEDED:0x80
 
 The fax server exceeded the maximum number of retransmission attempts allowed. The fax will not be sent.
 
-### -field fjsCOMPLETED
+### -field fjsCOMPLETED:0x100
 
 The fax job is completed.
 
-### -field fjsCANCELED
+### -field fjsCANCELED:0x200
 
 The fax job was canceled.
 
-### -field fjsCANCELING
+### -field fjsCANCELING:0x400
 
 The fax job is being canceled.
 
-### -field fjsROUTING
+### -field fjsROUTING:0x800
 
 The fax job is being routed.
 

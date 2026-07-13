@@ -52,7 +52,7 @@ api_name:
 
 Instructs an in-process server to create its registry entries for all classes supported in this server module.
 
-## -parameters
+
 
 ## -returns
 

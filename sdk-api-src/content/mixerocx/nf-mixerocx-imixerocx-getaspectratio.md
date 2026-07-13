@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAspectRatio","GetAspectRatio method [DirectShow]","Get
 old-location: dshow\imixerocx_getaspectratio.htm
 tech.root: dshow
 ms.assetid: 6143ba3c-6472-47d3-b3ca-55c06ca8da0e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAspectRatio, GetAspectRatio method [DirectShow], GetAspectRatio method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetAspectRatio method, IMixerOCX.GetAspectRatio, IMixerOCX::GetAspectRatio, IMixerOCXGetAspectRatio, dshow.imixerocx_getaspectratio, mixerocx/IMixerOCX::GetAspectRatio
 req.header: mixerocx.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetAspectRatio</code> method returns the current aspect ratio setting on the Overlay Mixer. (Currently not implemented.)
 

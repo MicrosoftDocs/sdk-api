@@ -82,7 +82,7 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_SUCCESS</b></b></dt>
+<dt><b>ERROR_SUCCESS</b></dt>
 <dt>0 (0x0)</dt>
 </dl>
 </td>
@@ -94,7 +94,7 @@ The power scheme was successfully duplicated.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_INVALID_PARAMETER</b></b></dt>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
 <dt>87 (0x57)</dt>
 </dl>
 </td>
@@ -106,7 +106,7 @@ One of the parameters is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_ALREADY_EXISTS</b></b></dt>
+<dt><b>ERROR_ALREADY_EXISTS</b></dt>
 <dt>183 (0xB7)</dt>
 </dl>
 </td>

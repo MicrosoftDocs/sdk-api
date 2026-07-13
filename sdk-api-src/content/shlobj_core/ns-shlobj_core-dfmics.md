@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_12
+UID: NS:shlobj_core.DFMICS
 title: DFMICS (shlobj_core.h)
 description: Contains additional arguments used by DFM_INVOKECOMMANDEX.
 helpviewer_keywords: ["*PDFMICS","CMIC_MASK_ASYNCOK","CMIC_MASK_CONTROL_DOWN","CMIC_MASK_FLAG_LOG_USAGE","CMIC_MASK_FLAG_NO_UI","CMIC_MASK_FLAG_SEP_VDM","CMIC_MASK_HOTKEY","CMIC_MASK_ICON","CMIC_MASK_NOASYNC","CMIC_MASK_NOZONECHECKS","CMIC_MASK_NO_CONSOLE","CMIC_MASK_PTINVOKE","CMIC_MASK_SHIFT_DOWN","CMIC_MASK_UNICODE","DFMICS","DFMICS structure [Windows Shell]","PDFMICS","PDFMICS structure pointer [Windows Shell]","_shell_DFMICS","shell.DFMICS","shlobj_core/DFMICS","shlobj_core/PDFMICS"]
@@ -176,3 +176,4 @@ A pointer to a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cmin
 Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the site of the context menu handler.
+

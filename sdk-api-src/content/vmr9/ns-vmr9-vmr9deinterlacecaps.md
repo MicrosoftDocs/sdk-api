@@ -6,7 +6,7 @@ helpviewer_keywords: ["VMR9DeinterlaceCaps","VMR9DeinterlaceCaps structure [Dire
 old-location: dshow\vmr9deinterlacecaps.htm
 tech.root: dshow
 ms.assetid: ae71c9d6-2540-4679-927c-e1d759df7009
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VMR9DeinterlaceCaps, VMR9DeinterlaceCaps structure [DirectShow], VMR9DeinterlaceCapsStructure, dshow.vmr9deinterlacecaps, vmr9/VMR9DeinterlaceCaps
 req.header: vmr9.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>VMR9DeinterlaceCaps</code> structure describes the capabilities of a deinterlacing mode.
 

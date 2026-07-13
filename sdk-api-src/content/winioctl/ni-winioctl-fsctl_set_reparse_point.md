@@ -94,6 +94,8 @@ For the implications of overlapped I/O on this operation, see the Remarks sectio
 
 Note that the time stamps may not be updated correctly for a remote file. To ensure consistent results, use unbuffered I/O.
 
+The calling process must have the SE_CREATE_SYMBOLIC_LINK_NAME privilege. For more information, see [Running with Special Privileges](/windows/desktop/SecBP/running-with-special-privileges). 
+
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
 Technology | Supported

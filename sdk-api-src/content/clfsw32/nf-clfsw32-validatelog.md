@@ -70,7 +70,7 @@ For more information, see <a href="/previous-versions/windows/desktop/clfs/log-t
 
 ### -param psaLogFile [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
 
 This parameter can be <b>NULL</b>.
 
@@ -104,4 +104,4 @@ The following list identifies the  possible error codes:
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>

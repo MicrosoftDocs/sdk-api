@@ -238,7 +238,7 @@ Also, take great care when the control is in-place active. This problem is even 
 
 
 
-<a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>
+<a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
 
 
 

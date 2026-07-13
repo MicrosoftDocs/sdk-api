@@ -57,7 +57,7 @@ The <b>MBN_PIN_STATE</b> enumerated type indicates the current PIN state of the 
 
 ## -enum-fields
 
-### -field MBN_PIN_STATE_NONE
+### -field MBN_PIN_STATE_NONE:0
 
 Indicates that no PIN is currently required.  
 

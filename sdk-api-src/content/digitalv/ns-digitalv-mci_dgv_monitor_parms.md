@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_11
+UID: NS:digitalv.MCI_DGV_MONITOR_PARMS
 title: MCI_DGV_MONITOR_PARMS (digitalv.h)
 description: The MCI_DGV_MONITOR_PARMS structure contains parameters for the MCI_MONITOR command.
 helpviewer_keywords: ["*LPMCI_DGV_MONITOR_PARMS","MCI_DGV_METHOD_DIRECT","MCI_DGV_METHOD_POST","MCI_DGV_METHOD_PRE","MCI_DGV_MONITOR_FILE","MCI_DGV_MONITOR_INPUT","MCI_DGV_MONITOR_PARMS","MCI_DGV_MONITOR_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_MONITOR_PARMS_str","digitalv/MCI_DGV_MONITOR_PARMS","multimedia.mci_dgv_monitor_parms"]
@@ -157,3 +157,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

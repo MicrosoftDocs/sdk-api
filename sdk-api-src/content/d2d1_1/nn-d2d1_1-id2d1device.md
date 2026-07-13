@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_1.ID2D1Device
 title: ID2D1Device (d2d1_1.h)
-description: Represents a resource domain whose objects and device contexts can be used together.
+description: Represents a resource domain whose objects and device contexts can be used together. (ID2D1Device)
 helpviewer_keywords: ["ID2D1Device","ID2D1Device interface [Direct2D]","ID2D1Device interface [Direct2D]","described","d2d1_1/ID2D1Device","direct2d.id2d1device"]
 old-location: direct2d\id2d1device.htm
 tech.root: Direct2D
@@ -54,10 +54,7 @@ Represents a resource domain whose objects and device contexts can be used toget
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Device</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1Device</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Device</b> also has these types of members:
 
 ## -see-also
 

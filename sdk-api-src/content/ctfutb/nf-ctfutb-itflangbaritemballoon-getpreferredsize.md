@@ -56,11 +56,11 @@ Obtains the preferred size,in pixels, of the balloon.
 
 ### -param pszDefault [in]
 
-Pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the balloon.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that contains the default size, in pixels, of the balloon.
 
 ### -param psz [out]
 
-Pointer to a <b>SIZE</b> structure that recevies the preferred balloon size, in pixels. The <b>cy</b> member of this structure is ignored.
+Pointer to a <b>SIZE</b> structure that receives the preferred balloon size, in pixels. The <b>cy</b> member of this structure is ignored.
 
 ## -returns
 
@@ -90,7 +90,7 @@ This method is required. The balloon must supply the preferred size in response 
 
 To obtain the font used to draw the balloon, call <a href="/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a> with DEFAULT_GUI_FONT. This font can be used to calculate the preferred balloon size at runtime.
 
-If the ballon text will not fit into the preferred size obtained from this method, the language bar truncates the text and adds an ellipses to the text.
+If the balloon text will not fit into the preferred size obtained from this method, the language bar truncates the text and adds an ellipses to the text.
 
 ## -see-also
 
@@ -102,4 +102,4 @@ If the ballon text will not fit into the preferred size obtained from this metho
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>

@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_0
+UID: NS:iscsidsc.ISCSI_LOGIN_OPTIONS
 title: ISCSI_LOGIN_OPTIONS (iscsidsc.h)
 description: ISCSI_LOGIN_OPTIONS structure is used by initiators to specify the characteristics of a login session.
 helpviewer_keywords: ["*PISCSI_LOGIN_OPTIONS","ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING","ISCSI_LOGIN_FLAG_MULTIPATH_ENABLED","ISCSI_LOGIN_FLAG_REQUIRE_IPSEC","ISCSI_LOGIN_FLAG_RESERVED1","ISCSI_LOGIN_OPTIONS","ISCSI_LOGIN_OPTIONS structure [iSCSI Discovery Library API]","ISCSI_LOGIN_OPTIONS_AUTH_TYPE","ISCSI_LOGIN_OPTIONS_DATA_DIGEST","ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_RETAIN","ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_WAIT","ISCSI_LOGIN_OPTIONS_HEADER_DIGEST","ISCSI_LOGIN_OPTIONS_MAXIMUM_CONNECTIONS","ISCSI_LOGIN_OPTIONS_PASSWORD","ISCSI_LOGIN_OPTIONS_USERNAME","PISCSI_LOGIN_OPTIONS","PISCSI_LOGIN_OPTIONS structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_login_options","iscsidsc/ISCSI_LOGIN_OPTIONS","iscsidsc/PISCSI_LOGIN_OPTIONS"]
@@ -259,3 +259,4 @@ If the authentication protocol requires that these two values be strings, they m
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIScsiTarget</a>
+

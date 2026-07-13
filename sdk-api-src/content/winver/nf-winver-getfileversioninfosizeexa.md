@@ -1,8 +1,8 @@
 ---
 UID: NF:winver.GetFileVersionInfoSizeExA
 title: GetFileVersionInfoSizeExA function (winver.h)
-description: Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSizeEx returns the size, in bytes, of that information.
-helpviewer_keywords: ["FILE_VER_GET_LOCALISED","FILE_VER_GET_NEUTRAL","GetFileVersionInfoSizeEx","GetFileVersionInfoSizeEx function [Menus and Other Resources]","GetFileVersionInfoSizeExA","GetFileVersionInfoSizeExW","_win32_GetFileVersionInfoSizeEx","_win32_getfileversioninfosizeex_cpp","menurc.getfileversioninfosizeex","winui._win32_getfileversioninfosizeex","winver/GetFileVersionInfoSizeEx","winver/GetFileVersionInfoSizeExA","winver/GetFileVersionInfoSizeExW"]
+description: Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSizeEx returns the size, in bytes, of that information. (ANSI)
+helpviewer_keywords: ["FILE_VER_GET_LOCALISED", "FILE_VER_GET_NEUTRAL", "GetFileVersionInfoSizeExA", "winver/GetFileVersionInfoSizeExA"]
 old-location: menurc\getfileversioninfosizeex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosizeex.htm
@@ -104,7 +104,7 @@ Type: <b>LPCTSTR</b>
 
 The name of the file of interest. The function uses the search sequence specified by the  <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
 
-### -param lpdwHandle [out]
+### -param lpdwHandle [out, optional]
 
 Type: <b>LPDWORD</b>
 
@@ -129,7 +129,7 @@ Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="/w
 
 
 > [!NOTE]
-> The winver.h header defines GetFileVersionInfoSizeEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winver.h header defines GetFileVersionInfoSizeEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

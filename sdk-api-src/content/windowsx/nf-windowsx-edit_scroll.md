@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_Scroll","Edit_Scroll macro [Windows Controls]","_win
 old-location: controls\Edit_Scroll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scroll.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_Scroll, Edit_Scroll macro [Windows Controls], _win32_Edit_Scroll, _win32_Edit_Scroll_cpp, controls.Edit_Scroll, controls._win32_Edit_Scroll, windowsx/Edit_Scroll
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # Edit_Scroll macro
+
+## -syntax
+
+```cpp
+void Edit_Scroll(
+   HWND hwndCtl,
+   int  dv,
+   int  dh
+);
+```
 
 
 ## -description

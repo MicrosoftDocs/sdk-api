@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.CommitUrlCacheEntryA
 title: CommitUrlCacheEntryA function (wininet.h)
-description: Stores data in the specified file in the Internet cache and associates it with the specified URL.
-helpviewer_keywords: ["CommitUrlCacheEntryA","CommitUrlCacheEntryA function [WinINet]","wininet.commiturlcacheentrya","wininet/CommitUrlCacheEntryA"]
+description: Stores data in the specified file in the Internet cache and associates it with the specified URL. (ANSI)
+helpviewer_keywords: ["CommitUrlCacheEntryA", "CommitUrlCacheEntryA function [WinINet]", "wininet.commiturlcacheentrya", "wininet/CommitUrlCacheEntryA"]
 old-location: wininet\commiturlcacheentrya.htm
 tech.root: wininet
 ms.assetid: 4bd21b30-cac5-482b-9826-b5a4ffeeebe9
@@ -250,7 +250,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines CommitUrlCacheEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines CommitUrlCacheEntry as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

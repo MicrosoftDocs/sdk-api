@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_PARTITIONINFORMATIONA
 title: NTMS_PARTITIONINFORMATIONA (ntmsapi.h)
-description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object.
+description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object. (ANSI)
 helpviewer_keywords: ["NTMS_PARTITIONINFORMATION","NTMS_PARTITIONINFORMATION structure [Files]","NTMS_PARTITIONINFORMATIONA","NTMS_PARTITIONINFORMATIONW","NTMS_PARTSTATE_ALLOCATED","NTMS_PARTSTATE_AVAILABLE","NTMS_PARTSTATE_COMPLETE","NTMS_PARTSTATE_DECOMMISIONED","NTMS_PARTSTATE_FOREIGN","NTMS_PARTSTATE_IMPORT","NTMS_PARTSTATE_INCOMPATIBLE","NTMS_PARTSTATE_RESERVED","NTMS_PARTSTATE_UNPREPARED","_NTMS_PARTITIONINFORMATIONA","_NTMS_PARTITIONINFORMATIONW","_zaw_ntms_partitioninformation","base.ntms_partitioninformation","fs.ntms_partitioninformation","ntmsapi/NTMS_PARTITIONINFORMATION"]
 old-location: fs\ntms_partitioninformation.htm
 tech.root: fs
@@ -216,7 +216,7 @@ The
 
 
 > [!NOTE]
-> The ntmsapi.h header defines NTMS_PARTITIONINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines NTMS_PARTITIONINFORMATION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

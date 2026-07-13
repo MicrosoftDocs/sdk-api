@@ -56,23 +56,23 @@ Defines the possible ways to set the <a href="/windows/desktop/api/wuapi/nf-wuap
 
 ## -enum-fields
 
-### -field auptSetNotificationLevel
+### -field auptSetNotificationLevel:1
 
 The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">IAutomaticUpdatesSettings::NotificationLevel</a> property.
 
-### -field auptDisableAutomaticUpdates
+### -field auptDisableAutomaticUpdates:2
 
 The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="/windows/desktop/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel">aunlDisabled</a>.
 
-### -field auptSetIncludeRecommendedUpdates
+### -field auptSetIncludeRecommendedUpdates:3
 
 The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-get_includerecommendedupdates">IAutomaticUpdatesSettings2::IncludedRecommendedUpdates</a> property.
 
-### -field auptSetFeaturedUpdatesEnabled
+### -field auptSetFeaturedUpdatesEnabled:4
 
 The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_featuredupdatesenabled">IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled</a> property.
 
-### -field auptSetNonAdministratorsElevated
+### -field auptSetNonAdministratorsElevated:5
 
 The ability to set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings3-get_nonadministratorselevated">IAutomaticUpdatesSettings3::NonAdministratorsElevated</a> property.
 

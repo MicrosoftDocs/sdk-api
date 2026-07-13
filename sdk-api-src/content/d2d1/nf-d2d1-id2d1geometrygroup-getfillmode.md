@@ -52,7 +52,7 @@ api_name:
 
 Indicates how the intersecting areas of the geometries contained in this geometry group are combined.
 
-## -parameters
+
 
 ## -returns
 

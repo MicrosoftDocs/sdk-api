@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueryInfOriginalFileInformationW
 title: SetupQueryInfOriginalFileInformationW function (setupapi.h)
-description: The SetupQueryInfOriginalFileInformation function returns the original name of an OEM INF file.
-helpviewer_keywords: ["SetupQueryInfOriginalFileInformation","SetupQueryInfOriginalFileInformation function [Setup API]","SetupQueryInfOriginalFileInformationA","SetupQueryInfOriginalFileInformationW","_setupapi_setupqueryinforiginalfileinformation","setup.setupqueryinforiginalfileinformation","setupapi/SetupQueryInfOriginalFileInformation","setupapi/SetupQueryInfOriginalFileInformationA","setupapi/SetupQueryInfOriginalFileInformationW"]
+description: The SetupQueryInfOriginalFileInformation function returns the original name of an OEM INF file. (Unicode)
+helpviewer_keywords: ["SetupQueryInfOriginalFileInformation", "SetupQueryInfOriginalFileInformation function [Setup API]", "SetupQueryInfOriginalFileInformationW", "_setupapi_setupqueryinforiginalfileinformation", "setup.setupqueryinforiginalfileinformation", "setupapi/SetupQueryInfOriginalFileInformation", "setupapi/SetupQueryInfOriginalFileInformationW"]
 old-location: setup\setupqueryinforiginalfileinformation.htm
 tech.root: setup
 ms.assetid: bc7c08ff-3d6b-4d45-b634-1358302f6fc6
@@ -99,4 +99,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueryInfOriginalFileInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueryInfOriginalFileInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

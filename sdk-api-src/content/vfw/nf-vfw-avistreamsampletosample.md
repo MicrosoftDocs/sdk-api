@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamSampleToSample","AVIStreamSampleToSample macro [
 old-location: multimedia\avistreamsampletosample.htm
 tech.root: Multimedia
 ms.assetid: ed726651-d8f3-4dba-b81d-e283733cabe2
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamSampleToSample, AVIStreamSampleToSample macro [Windows Multimedia], _win32_AVIStreamSampleToSample, multimedia.avistreamsampletosample, vfw/AVIStreamSampleToSample
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # AVIStreamSampleToSample macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamSampleToSample(
+     pavi1,
+     pavi2,
+     l
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the sample if successful or –1 otherwise.
+
 
 ## -description
 
@@ -73,9 +89,9 @@ The <b>AVIStreamSampleToSample</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamSampleToSample(pavi1, pavi2, lsample) \ 
+#define AVIStreamSampleToSample(pavi1, pavi2, l) \ 
     AVIStreamTimeToSample(pavi1, AVIStreamSampleToTime \ 
-    (pavi2, lsample)) 
+    (pavi2, l)) 
 
 ```
 

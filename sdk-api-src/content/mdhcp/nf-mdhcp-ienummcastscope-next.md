@@ -1,7 +1,7 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Next
 title: IEnumMcastScope::Next (mdhcp.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: The Next method gets the next specified number of elements in the enumeration sequence. (IEnumMcastScope.Next)
 helpviewer_keywords: ["IEnumMcastScope interface [TAPI 2.2]","Next method","IEnumMcastScope.Next","IEnumMcastScope::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumMcastScope interface","_tapi3_ienummcastscope_next","mdhcp/IEnumMcastScope::Next","tapi3.ienummcastscope_next"]
 old-location: tapi3\ienummcastscope_next.htm
 tech.root: tapi3

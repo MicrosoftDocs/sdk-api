@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DSurface9.GetDesc
 title: IDirect3DSurface9::GetDesc (d3d9helper.h)
-description: Retrieves a description of the surface.
+description: The IDirect3DSurface9::GetDesc method (d3d9helper.h) retrieves a description of the surface.
 helpviewer_keywords: ["068aa9b6-08d4-5e72-dc9f-18e83e42aef2","GetDesc","GetDesc method [Direct3D 9]","GetDesc method [Direct3D 9]","IDirect3DSurface9 interface","IDirect3DSurface9 interface [Direct3D 9]","GetDesc method","IDirect3DSurface9.GetDesc","IDirect3DSurface9::GetDesc","d3d9helper/IDirect3DSurface9::GetDesc","direct3d9.idirect3dsurface9__getdesc"]
 old-location: direct3d9\idirect3dsurface9__getdesc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getdesc.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 068aa9b6-08d4-5e72-dc9f-18e83e42aef2, GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetDesc method, IDirect3DSurface9.GetDesc, IDirect3DSurface9::GetDesc, d3d9helper/IDirect3DSurface9::GetDesc, direct3d9.idirect3dsurface9__getdesc
 req.header: d3d9helper.h
 req.include-header: D3D9.h

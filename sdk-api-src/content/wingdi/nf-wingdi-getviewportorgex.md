@@ -64,7 +64,7 @@ A handle to the device context.
 
 ### -param lppoint [out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the coordinates of the origin, in device units.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the coordinates of the origin, in device units.
 
 ## -returns
 
@@ -86,7 +86,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

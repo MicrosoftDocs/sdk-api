@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSAAddressToStringW
 title: WSAAddressToStringW function (winsock2.h)
-description: Converts all components of a sockaddr structure into a human-readable string representation of the address.
-helpviewer_keywords: ["WSAAddressToString","WSAAddressToString function [Winsock]","WSAAddressToStringA","WSAAddressToStringW","_win32_wsaaddresstostring_2","winsock.wsaaddresstostring_2","winsock2/WSAAddressToString","winsock2/WSAAddressToStringA","winsock2/WSAAddressToStringW"]
+description: Converts all components of a sockaddr structure into a human-readable string representation of the address. (Unicode)
+helpviewer_keywords: ["WSAAddressToString", "WSAAddressToString function [Winsock]", "WSAAddressToStringW", "_win32_wsaaddresstostring_2", "winsock.wsaaddresstostring_2", "winsock2/WSAAddressToString", "winsock2/WSAAddressToStringW"]
 old-location: winsock\wsaaddresstostring_2.htm
 tech.root: WinSock
 ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426
@@ -11,7 +11,7 @@ ms.keywords: WSAAddressToString, WSAAddressToString function [Winsock], WSAAddre
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows XP, Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -155,7 +155,7 @@ If the <i>lpsaAddress</i> parameter points to an IPv6 socket address (the addres
 If the length of the buffer pointed to by the <i>lpszAddressString</i> parameter is not large enough to receive the string representation of the socket address, <b>WSAAddressToString</b> returns 
 								<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>. 
 
-Support for IPv6 addresses using the <b>WSAAddressToString</b> function was added on Windows XP with Service Pack 1 (SP1)and later. IPv6 must also be installed on the local computer for the <b>WSAAddressToString</b> function to support IPv6 addresses. 
+Support for IPv6 addresses using the <b>WSAAddressToString</b> function was added on Windows XP with Service Pack 1 (SP1) and later. IPv6 must also be installed on the local computer for the <b>WSAAddressToString</b> function to support IPv6 addresses. 
 
 <b>Windows Phone 8:</b> The <b>WSAAddressToStringW</b> function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
@@ -166,7 +166,7 @@ Support for IPv6 addresses using the <b>WSAAddressToString</b> function was adde
 
 
 > [!NOTE]
-> The winsock2.h header defines WSAAddressToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSAAddressToString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

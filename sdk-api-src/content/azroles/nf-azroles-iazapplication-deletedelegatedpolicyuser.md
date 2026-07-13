@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplication object [Security]","DeleteDelegatedPolicyUs
 old-location: security\iazapplication_deletedelegatedpolicyuser.htm
 tech.root: security
 ms.assetid: 92e7f4fa-ff86-4ef5-8b87-086dd73966d1
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplication object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzApplication object, DeleteDelegatedPolicyUser method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteDelegatedPolicyUser method, IAzApplication.DeleteDelegatedPolicyUser, IAzApplication::DeleteDelegatedPolicyUser, azroles/IAzApplication::DeleteDelegatedPolicyUser, security.iazapplication_deletedelegatedpolicyuser
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzApplication::DeleteDelegatedPolicyUser
 
-
 ## -description
 
-The <b>DeleteDelegatedPolicyUser</b> method removes the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a>  (SID) in text form from the list of principals that act as delegated policy users.
+The **DeleteDelegatedPolicyUser** method removes the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form from the list of principals that act as delegated policy users.
 
 ## -parameters
 
@@ -63,10 +62,21 @@ Text form of the SID to remove from the list of delegated policy users.
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object uses to administer the delegated object.
+Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an [IAzApplication](nn-azroles-iazapplication.md) object uses to administer the delegated object.
 
-<div class="alert"><b>Note</b>  Delegated policy users are not supported for XML stores.</div>
-<div> </div>
-To view the list of delegated policy users, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_delegatedpolicyusers">DelegatedPolicyUsers</a> property.
+> [!NOTE]
+> Delegated policy users are not supported for XML stores.
+
+To view the list of delegated policy users, use the [DelegatedPolicyUsers](nf-azroles-iazapplication-get_delegatedpolicyusers.md) property.
+
+## -see-also
+
+[IAzApplication](nn-azroles-iazapplication.md)
+
+[DelegatedPolicyUsers](nf-azroles-iazapplication-get_delegatedpolicyusers.md)

@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>IX509ExtensionSmimeCapabilities</b> interface can be used to report the decryption capabilities of an email recipient to an email sender so that  the sender can choose the most secure algorithm supported by both parties. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the certificate request.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- SMIMECapabilities
 -- XCN_OID_RSA_SMIMECapabilities (1.2.840.113549.1.9.15)
@@ -64,7 +66,9 @@ SMIMECapability ::= SEQUENCE
    capabilityID    EncodedObjectID,
    smimeParameters ANY OPTIONAL    
 }
-</code></pre>The extension can be initialized from a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a> objects, each of which identifies a symmetric encryption algorithm and optional key length. The following algorithms are supported.<table>
+
+```
+The extension can be initialized from a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a> objects, each of which identifies a symmetric encryption algorithm and optional key length. The following algorithms are supported.<table>
 <tr>
 <th>OID</th>
 <th>Description</th>
@@ -150,11 +154,7 @@ To add this extension object to a  PKCS #10 request or a CMC request, you must f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionSmimeCapabilities</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionSmimeCapabilities</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IX509ExtensionSmimeCapabilities</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionSmimeCapabilities</b> also has these types of members:
 
 ## -see-also
 

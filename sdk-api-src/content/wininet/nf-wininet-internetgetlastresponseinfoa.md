@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetGetLastResponseInfoA
 title: InternetGetLastResponseInfoA function (wininet.h)
-description: Retrieves the last error description or server response on the thread calling this function.
-helpviewer_keywords: ["InternetGetLastResponseInfo","InternetGetLastResponseInfo function [WinINet]","InternetGetLastResponseInfoA","InternetGetLastResponseInfoW","_win32_internetgetlastresponseinfo","wininet.internetgetlastresponseinfo","wininet/InternetGetLastResponseInfo","wininet/InternetGetLastResponseInfoA","wininet/InternetGetLastResponseInfoW"]
+description: Retrieves the last error description or server response on the thread calling this function. (ANSI)
+helpviewer_keywords: ["InternetGetLastResponseInfoA", "wininet/InternetGetLastResponseInfoA"]
 old-location: wininet\internetgetlastresponseinfo.htm
 tech.root: wininet
 ms.assetid: 0aa274c5-0aa0-4eb9-8aef-3128e735759d
@@ -98,7 +98,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines InternetGetLastResponseInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetGetLastResponseInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

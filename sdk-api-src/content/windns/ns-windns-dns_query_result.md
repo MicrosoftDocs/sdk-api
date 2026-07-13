@@ -80,7 +80,7 @@ A value that contains a bitmap of <a href="/windows/desktop/DNS/dns-constants">D
 
 ### -field pQueryRecords
 
-A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure.
+A pointer to a <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a> structure.
 
 If the query was completed asynchronously and this structure was returned directly from <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>, <b>pQueryRecords</b> is NULL.
 

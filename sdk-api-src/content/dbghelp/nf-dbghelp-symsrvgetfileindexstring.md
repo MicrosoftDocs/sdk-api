@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexString
 title: SymSrvGetFileIndexString function (dbghelp.h)
-description: Retrieves the index string for the specified .pdb, .dbg, or image file.
+description: The SymSrvGetFileIndexString function (dbghelp.h) retrieves the index string for the specified .pdb, .dbg, or image file.
 helpviewer_keywords: ["SymSrvGetFileIndexString","SymSrvGetFileIndexString function","SymSrvGetFileIndexStringW","base.symsrvgetfileindexstring","dbghelp/SymSrvGetFileIndexString","dbghelp/SymSrvGetFileIndexStringW"]
 old-location: base\symsrvgetfileindexstring.htm
 tech.root: Debug
 ms.assetid: e66598fb-d7c7-4fde-a995-bfd1e7ceb24b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvGetFileIndexString, SymSrvGetFileIndexString function, SymSrvGetFileIndexStringW, base.symsrvgetfileindexstring, dbghelp/SymSrvGetFileIndexString, dbghelp/SymSrvGetFileIndexStringW
 req.header: dbghelp.h
 req.include-header: 

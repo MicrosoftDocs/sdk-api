@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAttributeByIndexEx","GetAttributeByIndexEx method [win
 old-location: wmformat\iwmheaderinfo3_getattributebyindexex.htm
 tech.root: wmformat
 ms.assetid: c20f4c79-f5b3-45d9-ad70-5fb9745bbf1b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAttributeByIndexEx, GetAttributeByIndexEx method [windows Media Format], GetAttributeByIndexEx method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByIndexEx method, IWMHeaderInfo3.GetAttributeByIndexEx, IWMHeaderInfo3::GetAttributeByIndexEx, IWMHeaderInfo3GetAttributeByIndexEx, wmformat.iwmheaderinfo3_getattributebyindexex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndexEx
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAttributeByIndexEx</b> method retrieves the value of an attribute specified by the attribute index. You can use this method in conjunction with the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributecountex">GetAttributeCountEx</a> method to retrieve all of the attributes associated with a particular stream number.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Enrollment.put_CertificateDescription
 title: IX509Enrollment::put_CertificateDescription (certenroll.h)
-description: Specifies or retrieves a string that contains a description of the certificate.
+description: Specifies or retrieves a string that contains a description of the certificate. (Put)
 helpviewer_keywords: ["CertificateDescription property [Security]","CertificateDescription property [Security]","IX509Enrollment interface","IX509Enrollment interface [Security]","CertificateDescription property","IX509Enrollment.CertificateDescription","IX509Enrollment.put_CertificateDescription","IX509Enrollment::CertificateDescription","IX509Enrollment::get_CertificateDescription","IX509Enrollment::put_CertificateDescription","certenroll/IX509Enrollment::CertificateDescription","certenroll/IX509Enrollment::get_CertificateDescription","certenroll/IX509Enrollment::put_CertificateDescription","put_CertificateDescription","security.ix509enrollment_certificatedescription_property"]
 old-location: security\ix509enrollment_certificatedescription_property.htm
 tech.root: security

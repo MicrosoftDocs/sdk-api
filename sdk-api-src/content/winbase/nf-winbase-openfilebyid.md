@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l2-1-4.dll
+ - api-ms-win-core-file-l2-1-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l2-1-1.dll
  - KernelBase.dll

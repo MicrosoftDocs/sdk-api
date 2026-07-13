@@ -62,7 +62,7 @@ A handle to a device context that contains a closed path.
 
 ### -param apt [out]
 
-A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that receives the line endpoints and curve control points, in logical coordinates.
+A pointer to an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures that receives the line endpoints and curve control points, in logical coordinates.
 
 ### -param aj [out]
 
@@ -129,7 +129,7 @@ Specifies that the figure is automatically closed after the corresponding line o
 
 ### -param cpt [in]
 
-The total number of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that can be stored in the array pointed to by <i>lpPoints</i>. This value must be the same as the number of bytes that can be placed in the array pointed to by <i>lpTypes</i>.
+The total number of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures that can be stored in the array pointed to by <i>lpPoints</i>. This value must be the same as the number of bytes that can be placed in the array pointed to by <i>lpTypes</i>.
 
 ## -returns
 
@@ -149,7 +149,7 @@ The <a href="/windows/desktop/api/wingdi/nf-wingdi-flattenpath">FlattenPath</a> 
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

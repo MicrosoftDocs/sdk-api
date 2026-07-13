@@ -6,7 +6,7 @@ helpviewer_keywords: ["EffectsGetTitle","GetTitle","GetTitle method [Windows Med
 old-location: wmp\iwmpeffects_gettitle.htm
 tech.root: WMP
 ms.assetid: 051a0d25-0773-4b9d-879e-5cc60633e406
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: EffectsGetTitle, GetTitle, GetTitle method [Windows Media Player], GetTitle method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetTitle method, IWMPEffects.GetTitle, IWMPEffects::GetTitle, effects/IWMPEffects::GetTitle, wmp.iwmpeffects_gettitle
 req.header: effects.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetTitle</b> method gets the display title of the visualization.
 

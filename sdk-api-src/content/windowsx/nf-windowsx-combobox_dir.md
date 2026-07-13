@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_Dir","ComboBox_Dir macro [Windows Controls]","_w
 old-location: controls\ComboBox_Dir.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_dir.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_Dir, ComboBox_Dir macro [Windows Controls], _win32_ComboBox_Dir, _win32_ComboBox_Dir_cpp, controls.ComboBox_Dir, controls._win32_ComboBox_Dir, windowsx/ComboBox_Dir
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ComboBox_Dir macro
+
+## -syntax
+
+```cpp
+int ComboBox_Dir(
+   HWND    hwndCtl,
+   UINT    attrs,
+   LPCTSTR lpszFileSpec
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the message succeeds, the return value is the zero-based index of the last name added to the list. If an error occurs, the return value is CB_ERR. If there is insufficient space to store the new strings, the return value is CB_ERRSPACE.
 
 
 ## -description

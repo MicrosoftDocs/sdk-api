@@ -6,7 +6,7 @@ helpviewer_keywords: ["Icmp6SendEcho2","Icmp6SendEcho2 function [IP Helper]","ic
 old-location: iphlp\icmp6sendecho2.htm
 tech.root: IpHlp
 ms.assetid: 622c769b-ede8-4bc2-ac54-98de47ae1fed
-ms.date: 12/05/2018
+ms.date: 10/10/2023
 ms.keywords: Icmp6SendEcho2, Icmp6SendEcho2 function [IP Helper], icmpapi/Icmp6SendEcho2, iphlp.icmp6sendecho2
 req.header: icmpapi.h
 req.include-header: 
@@ -44,9 +44,6 @@ api_location:
 api_name:
  - Icmp6SendEcho2
 ---
-
-# Icmp6SendEcho2 function
-
 
 ## -description
 
@@ -113,19 +110,17 @@ The size, in bytes,  of the reply buffer pointed to by the <i>ReplyBuffer</i> pa
 
 ### -param Timeout [in]
 
-The time, in milliseconds, to wait for replies. This parameter is only used if the <b>Icmp6SendEcho2</b> function is called synchronously. So this parameter is not used if either the <i>ApcRoutine</i> or <i>Event</i>parameter are not <b>NULL</b>.
+The time, in milliseconds, to wait for replies. This parameter is only used if the <b>Icmp6SendEcho2</b> function is called synchronously. So this parameter is not used if either the <i>ApcRoutine</i> or <i>Event</i> parameter are not <b>NULL</b>.
 
 ## -returns
 
-When called synchronously, the <b>Icmp6SendEcho2</b> function returns the number of replies received and stored in <i>ReplyBuffer</i>. If the return value is zero, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+When called synchronously, returns the number of replies that are received and stored in *ReplyBuffer*.
 
-When called asynchronously, the <b>Icmp6SendEcho2</b> function returns ERROR_IO_PENDING  to indicate the operation is in progress. The results can be retrieved later when the event specified in the <i>Event</i> parameter signals or the callback function in the <i>ApcRoutine</i> parameter is called.
+When called asynchronously, indicates that the operation is in progress by returning **ERROR_IO_PENDING**. You can retrieve the number-of-replies result later, when the event specified in the *Event* parameter signals, or when the callback function in the *ApcRoutine* parameter is called.
 
-If the return value is zero, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+If the (synchronous or asynchronous) number-of-replies value is zero, then for extended error information call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-If the function fails, the extended error code returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be one of the following values.
+If the function fails, then the extended error code returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be one of the following values.
 
 <table>
 <tr>
@@ -226,7 +221,7 @@ Use
 
 ## -remarks
 
-The <b>Icmp6SendEcho2</b> function is called synchronously if the <i>ApcRoutine</i> or <i>Event</i> parameters are <b>NULL</b>. When called synchronously, the return value contains the number of replies received and stored in <i>ReplyBuffer</i> after waiting for the time specified in the <i>Timeout</i> parameter. If the return value is zero, call 
+The <b>Icmp6SendEcho2</b> function is called synchronously if the <i>ApcRoutine</i> and <i>Event</i> parameters are <b>NULL</b>. When called synchronously, the return value contains the number of replies received and stored in <i>ReplyBuffer</i> after waiting for the time specified in the <i>Timeout</i> parameter. If the return value is zero, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
 The <b>Icmp6SendEcho2</b> function is called asynchronously when either the <i>ApcRoutine</i> or <i>Event</i> parameters are specified. When called asynchronously,  the <i>ReplyBuffer</i> and <i>ReplySize</i> parameters are  required to accept the response. ICMP response data is copied to the <i>ReplyBuffer</i> provided and the application is signaled (when the <i>Event</i> parameter is specified) or the callback function is called (when the <i>ApcRoutine</i> parameter is specified). The application must parse the data pointed to by <i>ReplyBuffer</i> parameter using the <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a> function. 
@@ -244,13 +239,17 @@ On Windows Vista and later, any application that calls <b>Icmp6SendEcho2</b> fu
 
 On Windows Vista and later, the callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
 
-<pre class="syntax" xml:space="preserve"><code>typedef
+
+``` syntax
+typedef
 VOID WINAPI
 (*PIO_APC_ROUTINE) (
     IN PVOID ApcContext,
     IN PIO_STATUS_BLOCK IoStatusBlock,
     IN ULONG Reserved
-    );</code></pre>
+    );
+```
+
 On Windows Vista and later, the parameters passed to the callback function include the following:
 
 
@@ -302,11 +301,15 @@ On Windows Server 2003 and Windows XP, any application that calls the <b>Icmp6
 
 On Windows Server 2003 and Windows XP, the callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
 
-<pre class="syntax" xml:space="preserve"><code>typedef
+
+``` syntax
+typedef
 VOID WINAPI
 (*FARPROC) (
     IN PVOID ApcContext,
-    );</code></pre>
+    );
+```
+
 On Windows Server 2003 and Windows XP, the parameters passed to the callback function include the following:
 
 

@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_OBJECT_TYPE
 title: VDS_OBJECT_TYPE (vds.h)
-description: Defines the set of valid types of a VDS object.
+description: The VDS_OBJECT_TYPE (vds.h) enumeration defines the set of valid types of a VDS object.
 helpviewer_keywords: ["VDS_OBJECT_TYPE","VDS_OBJECT_TYPE enumeration [VDS]","VDS_OT_ASYNC","VDS_OT_CONTROLLER","VDS_OT_DISK","VDS_OT_DRIVE","VDS_OT_ENUM","VDS_OT_HBAPORT","VDS_OT_INIT_ADAPTER","VDS_OT_INIT_PORTAL","VDS_OT_LUN","VDS_OT_LUN_PLEX","VDS_OT_OPEN_VDISK","VDS_OT_PACK","VDS_OT_PORT","VDS_OT_PORTAL","VDS_OT_PORTAL_GROUP","VDS_OT_PROVIDER","VDS_OT_STORAGE_POOL","VDS_OT_SUB_SYSTEM","VDS_OT_TARGET","VDS_OT_UNKNOWN","VDS_OT_VDISK","VDS_OT_VOLUME","VDS_OT_VOLUME_PLEX","base.vds_object_type","vds/VDS_OBJECT_TYPE","vds/VDS_OT_ASYNC","vds/VDS_OT_CONTROLLER","vds/VDS_OT_DISK","vds/VDS_OT_DRIVE","vds/VDS_OT_ENUM","vds/VDS_OT_HBAPORT","vds/VDS_OT_INIT_ADAPTER","vds/VDS_OT_INIT_PORTAL","vds/VDS_OT_LUN","vds/VDS_OT_LUN_PLEX","vds/VDS_OT_OPEN_VDISK","vds/VDS_OT_PACK","vds/VDS_OT_PORT","vds/VDS_OT_PORTAL","vds/VDS_OT_PORTAL_GROUP","vds/VDS_OT_PROVIDER","vds/VDS_OT_STORAGE_POOL","vds/VDS_OT_SUB_SYSTEM","vds/VDS_OT_TARGET","vds/VDS_OT_UNKNOWN","vds/VDS_OT_VDISK","vds/VDS_OT_VOLUME","vds/VDS_OT_VOLUME_PLEX","vdshwprv/VDS_OBJECT_TYPE","vdshwprv/VDS_OT_ASYNC","vdshwprv/VDS_OT_CONTROLLER","vdshwprv/VDS_OT_DISK","vdshwprv/VDS_OT_DRIVE","vdshwprv/VDS_OT_ENUM","vdshwprv/VDS_OT_HBAPORT","vdshwprv/VDS_OT_INIT_ADAPTER","vdshwprv/VDS_OT_INIT_PORTAL","vdshwprv/VDS_OT_LUN","vdshwprv/VDS_OT_LUN_PLEX","vdshwprv/VDS_OT_OPEN_VDISK","vdshwprv/VDS_OT_PACK","vdshwprv/VDS_OT_PORT","vdshwprv/VDS_OT_PORTAL","vdshwprv/VDS_OT_PORTAL_GROUP","vdshwprv/VDS_OT_PROVIDER","vdshwprv/VDS_OT_STORAGE_POOL","vdshwprv/VDS_OT_SUB_SYSTEM","vdshwprv/VDS_OT_TARGET","vdshwprv/VDS_OT_UNKNOWN","vdshwprv/VDS_OT_VDISK","vdshwprv/VDS_OT_VOLUME","vdshwprv/VDS_OT_VOLUME_PLEX"]
 old-location: base\vds_object_type.htm
 tech.root: base
 ms.assetid: 63997e08-b6d3-4011-8946-56ef9832c0e4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_OBJECT_TYPE, VDS_OBJECT_TYPE enumeration [VDS], VDS_OT_ASYNC, VDS_OT_CONTROLLER, VDS_OT_DISK, VDS_OT_DRIVE, VDS_OT_ENUM, VDS_OT_HBAPORT, VDS_OT_INIT_ADAPTER, VDS_OT_INIT_PORTAL, VDS_OT_LUN, VDS_OT_LUN_PLEX, VDS_OT_OPEN_VDISK, VDS_OT_PACK, VDS_OT_PORT, VDS_OT_PORTAL, VDS_OT_PORTAL_GROUP, VDS_OT_PROVIDER, VDS_OT_STORAGE_POOL, VDS_OT_SUB_SYSTEM, VDS_OT_TARGET, VDS_OT_UNKNOWN, VDS_OT_VDISK, VDS_OT_VOLUME, VDS_OT_VOLUME_PLEX, base.vds_object_type, vds/VDS_OBJECT_TYPE, vds/VDS_OT_ASYNC, vds/VDS_OT_CONTROLLER, vds/VDS_OT_DISK, vds/VDS_OT_DRIVE, vds/VDS_OT_ENUM, vds/VDS_OT_HBAPORT, vds/VDS_OT_INIT_ADAPTER, vds/VDS_OT_INIT_PORTAL, vds/VDS_OT_LUN, vds/VDS_OT_LUN_PLEX, vds/VDS_OT_OPEN_VDISK, vds/VDS_OT_PACK, vds/VDS_OT_PORT, vds/VDS_OT_PORTAL, vds/VDS_OT_PORTAL_GROUP, vds/VDS_OT_PROVIDER, vds/VDS_OT_STORAGE_POOL, vds/VDS_OT_SUB_SYSTEM, vds/VDS_OT_TARGET, vds/VDS_OT_UNKNOWN, vds/VDS_OT_VDISK, vds/VDS_OT_VOLUME, vds/VDS_OT_VOLUME_PLEX, vdshwprv/VDS_OBJECT_TYPE, vdshwprv/VDS_OT_ASYNC, vdshwprv/VDS_OT_CONTROLLER, vdshwprv/VDS_OT_DISK, vdshwprv/VDS_OT_DRIVE, vdshwprv/VDS_OT_ENUM, vdshwprv/VDS_OT_HBAPORT, vdshwprv/VDS_OT_INIT_ADAPTER, vdshwprv/VDS_OT_INIT_PORTAL, vdshwprv/VDS_OT_LUN, vdshwprv/VDS_OT_LUN_PLEX, vdshwprv/VDS_OT_OPEN_VDISK, vdshwprv/VDS_OT_PACK, vdshwprv/VDS_OT_PORT, vdshwprv/VDS_OT_PORTAL, vdshwprv/VDS_OT_PORTAL_GROUP, vdshwprv/VDS_OT_PROVIDER, vdshwprv/VDS_OT_STORAGE_POOL, vdshwprv/VDS_OT_SUB_SYSTEM, vdshwprv/VDS_OT_TARGET, vdshwprv/VDS_OT_UNKNOWN, vdshwprv/VDS_OT_VDISK, vdshwprv/VDS_OT_VOLUME, vdshwprv/VDS_OT_VOLUME_PLEX
 req.header: vds.h
 req.include-header: 
@@ -53,106 +53,106 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of 
    valid types of a VDS object.
 
 ## -enum-fields
 
-### -field VDS_OT_UNKNOWN
+### -field VDS_OT_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_OT_PROVIDER
+### -field VDS_OT_PROVIDER:1
 
 The object is a <a href="/windows/desktop/VDS/provider-object">provider</a>.
 
-### -field VDS_OT_PACK
+### -field VDS_OT_PACK:10
 
 The object is a <a href="/windows/desktop/VDS/pack-object">disk pack</a>.
 
-### -field VDS_OT_VOLUME
+### -field VDS_OT_VOLUME:11
 
 The object is a <a href="/windows/desktop/VDS/volume-object">volume</a>.
 
-### -field VDS_OT_VOLUME_PLEX
+### -field VDS_OT_VOLUME_PLEX:12
 
 The object is a <a href="/windows/desktop/VDS/volume-plex-object">volume plex</a>.
 
-### -field VDS_OT_DISK
+### -field VDS_OT_DISK:13
 
 The object is a <a href="/windows/desktop/VDS/disk-object">disk</a>.
 
-### -field VDS_OT_SUB_SYSTEM
+### -field VDS_OT_SUB_SYSTEM:30
 
 The object is a <a href="/windows/desktop/VDS/subsystem-object">subsystem</a>.
 
-### -field VDS_OT_CONTROLLER
+### -field VDS_OT_CONTROLLER:31
 
 The object is a <a href="/windows/desktop/VDS/controller-object">controller</a>.
 
-### -field VDS_OT_DRIVE
+### -field VDS_OT_DRIVE:32
 
 The object is a <a href="/windows/desktop/VDS/drive-object">drive</a>.
 
-### -field VDS_OT_LUN
+### -field VDS_OT_LUN:33
 
 The object is a <a href="/windows/desktop/VDS/lun-object">LUN</a>.
 
-### -field VDS_OT_LUN_PLEX
+### -field VDS_OT_LUN_PLEX:34
 
 The object is a <a href="/windows/desktop/VDS/lun-plex-object">LUN plex</a>.
 
-### -field VDS_OT_PORT
+### -field VDS_OT_PORT:35
 
 The object is a <a href="/windows/desktop/VDS/controller-port-object">controller port</a>.
 
-### -field VDS_OT_PORTAL
+### -field VDS_OT_PORTAL:36
 
 The object is an <a href="/windows/desktop/VDS/portal-object">iSCSI portal</a>.
 
-### -field VDS_OT_TARGET
+### -field VDS_OT_TARGET:37
 
 The object is an <a href="/windows/desktop/VDS/target-object">iSCSI target</a>.
 
-### -field VDS_OT_PORTAL_GROUP
+### -field VDS_OT_PORTAL_GROUP:38
 
 The object is an <a href="/windows/desktop/VDS/portal-group-object">iSCSI portal group</a>.
 
-### -field VDS_OT_STORAGE_POOL
+### -field VDS_OT_STORAGE_POOL:39
 
 The object is a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDS_OT_HBAPORT
+### -field VDS_OT_HBAPORT:90
 
 The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">HBA port</a>.
 
-### -field VDS_OT_INIT_ADAPTER
+### -field VDS_OT_INIT_ADAPTER:91
 
 The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">iSCSI initiator adapter</a>.
 
-### -field VDS_OT_INIT_PORTAL
+### -field VDS_OT_INIT_PORTAL:92
 
 The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">iSCSI initiator portal</a>.
 
-### -field VDS_OT_ASYNC
+### -field VDS_OT_ASYNC:100
 
 This value is reserved.
 
-### -field VDS_OT_ENUM
+### -field VDS_OT_ENUM:101
 
 This value is reserved.
 
-### -field VDS_OT_VDISK
+### -field VDS_OT_VDISK:200
 
 The object is a virtual disk.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
-### -field VDS_OT_OPEN_VDISK
+### -field VDS_OT_OPEN_VDISK:201
 
 This value is reserved.
 

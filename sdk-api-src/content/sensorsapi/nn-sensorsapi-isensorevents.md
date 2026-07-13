@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensorEvents","ISensorEvents interface [WinSensors]","IS
 old-location: winsensors\isensorevents.htm
 tech.root: winsensors
 ms.assetid: 41acbb4f-b4f8-4573-a993-ed93ec9494f0
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensorEvents, ISensorEvents interface [WinSensors], ISensorEvents interface [WinSensors],described, sensorsapi/ISensorEvents, winsensors.isensorevents
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The callback interface you must implement if you want to receive sensor events.
 

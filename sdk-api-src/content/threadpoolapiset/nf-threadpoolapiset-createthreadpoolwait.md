@@ -9,7 +9,7 @@ ms.assetid: ba19f5f9-d4b0-4865-9609-95e7697d61c0
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolWait, CreateThreadpoolWait function, base.createthreadpoolwait, threadpoolapiset/CreateThreadpoolWait, winbase/CreateThreadpoolWait
 req.header: threadpoolapiset.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

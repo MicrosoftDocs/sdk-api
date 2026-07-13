@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.put_Name
 title: IFsrmReport::put_Name (fsrmreports.h)
-description: Retrieves or sets the name of the report.
+description: Retrieves or sets the name of the report. (Put)
 helpviewer_keywords: ["IFsrmReport interface [File Server Resource Manager]","Name property","IFsrmReport.Name","IFsrmReport.put_Name","IFsrmReport::Name","IFsrmReport::get_Name","IFsrmReport::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmReport interface","fs.ifsrmreport_name","fsrm.ifsrmreport_name","fsrmreports/IFsrmReport::Name","fsrmreports/IFsrmReport::get_Name","fsrmreports/IFsrmReport::put_Name","put_Name"]
 old-location: fsrm\ifsrmreport_name.htm
 tech.root: fsrm

@@ -72,7 +72,7 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 ### -param pdwDataSize [out]
 
-The size, in bytes,  of the user data buffer pointed to by the <i>ppData</i>parameter.
+The size, in bytes,  of the user data buffer pointed to by the <i>ppData</i> parameter.
 
 ### -param ppData [out]
 

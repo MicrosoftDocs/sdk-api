@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4
 title: XMUBYTE4::XMUBYTE4 (directxpackedvector.h)
-description: Default constructor for XMUBYTE4.
+description: Default constructor for XMUBYTE4. (XMUBYTE4.XMUBYTE4)
 helpviewer_keywords: ["XMUBYTE4","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 structure","XMUBYTE4 structure [DirectX Math Support APIs]","XMUBYTE4 constructor","XMUBYTE4.XMUBYTE4","XMUBYTE4.XMUBYTE4()","XMUBYTE4::XMUBYTE4","dxmath.xmubyte4_ctor_1"]
 old-location: dxmath\xmubyte4_ctor_1.htm
 tech.root: dxmath
@@ -55,7 +55,7 @@ Default constructor for <code>XMUBYTE4</code>.
 Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

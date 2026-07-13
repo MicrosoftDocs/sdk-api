@@ -1,17 +1,13 @@
 ---
-UID: NS:mmreg.__unnamed_struct_0
+UID: NS:mmreg.WAVEFORMATEXTENSIBLE
 title: WAVEFORMATEXTENSIBLE (mmreg.h)
 description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.
 helpviewer_keywords: ["*LPWAVEFORMATIEEEFLOATEX","*LPWAVEFORMATPCMEX","*NPWAVEFORMATIEEEFLOATEX","*NPWAVEFORMATPCMEX","*PWAVEFORMATEXTENSIBLE","*PWAVEFORMATIEEEFLOATEX","*PWAVEFORMATPCMEX","PWAVEFORMATEXTENSIBLE","PWAVEFORMATEXTENSIBLE structure pointer [Windows Multimedia]","WAVEFORMATEXTENSIBLE","WAVEFORMATEXTENSIBLE structure [Windows Multimedia]","WAVEFORMATIEEEFLOATEX","WAVEFORMATPCMEX","_win32_WAVEFORMATEXTENSIBLE_str","mmreg/PWAVEFORMATEXTENSIBLE","mmreg/WAVEFORMATEXTENSIBLE","multimedia.waveformatextensible"]
 old-location: multimedia\waveformatextensible.htm
 tech.root: Multimedia
 ms.assetid: 179d6c0c-ea80-4e9f-9e1b-43785f20cbd3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*LPWAVEFORMATIEEEFLOATEX, *LPWAVEFORMATPCMEX, *NPWAVEFORMATIEEEFLOATEX, *NPWAVEFORMATPCMEX, *PWAVEFORMATEXTENSIBLE, *PWAVEFORMATIEEEFLOATEX, *PWAVEFORMATPCMEX, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Windows Multimedia], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Windows Multimedia], WAVEFORMATIEEEFLOATEX, WAVEFORMATPCMEX, _win32_WAVEFORMATEXTENSIBLE_str, mmreg/PWAVEFORMATEXTENSIBLE, mmreg/WAVEFORMATEXTENSIBLE, multimedia.waveformatextensible'
-f1_keywords:
-- mmreg/WAVEFORMATEXTENSIBLE
-dev_langs:
-- c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmreg.h
-api_name:
-- WAVEFORMATEXTENSIBLE
 targetos: Windows
 req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mmreg/WAVEFORMATEXTENSIBLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmreg.h
+api_name:
+ - WAVEFORMATEXTENSIBLE
 ---
 
 # WAVEFORMATEXTENSIBLE structure
@@ -49,86 +49,47 @@ ms.custom: 19H1
 
 ## -description
 
-
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>. It can also be used to define any format that can be defined by <b>WAVEFORMATEX</b>.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field wFormatTag
 
- 
-
-
 ### -field nChannels
-
- 
-
 
 ### -field nSamplesPerSec
 
- 
-
-
 ### -field nAvgBytesPerSec
-
- 
-
 
 ### -field nBlockAlign
 
- 
-
-
 ### -field wBitsPerSample
-
- 
-
 
 ### -field cbSize
 
- 
-
-
 ### -field wValidBitsPerSample
-
- 
-
 
 ### -field dwChannelMask
 
 Bitmask specifying the assignment of channels in the stream to speaker positions.
 
-
 ### -field SubFormat
 
 Subformat of the data, such as KSDATAFORMAT_SUBTYPE_PCM. The subformat information is similar to that provided by the tag in the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure's <b>wFormatTag</b> member.
 
-
-
-
 ### -field Format
 
-
 <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that specifies the basic format. The <b>wFormatTag</b> member must be WAVE_FORMAT_EXTENSIBLE. The <b>cbSize</b> member must be at least 22.
-
 
 ### -field Samples
 
 A union describing the sample format.
 
-
-
 ### -field Samples.wValidBitsPerSample
 
 Number of bits of precision in the signal. Usually equal to <b>WAVEFORMATEX.wBitsPerSample</b>. However, <b>wBitsPerSample</b> is the container size and must be a multiple of 8, whereas <b>wValidBitsPerSample</b> can be any value not exceeding the container size. For example, if the format uses 20-bit samples, <b>wBitsPerSample</b> must be at least 24, but <b>wValidBitsPerSample</b> is 20.
-
 
 ### -field Samples.wSamplesPerBlock
 
@@ -139,20 +100,7 @@ Number of samples contained in one compressed block of audio data. This value is
 
 Reserved for internal use by operating system. Set to 0.
 
-
-### -field dwChannelMask
-
-Bitmask specifying the assignment of channels in the stream to speaker positions.
-
-
-### -field SubFormat
-
-Subformat of the data, such as KSDATAFORMAT_SUBTYPE_PCM. The subformat information is similar to that provided by the tag in the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure's <b>wFormatTag</b> member.
-
-
 ## -remarks
-
-
 
 <b>WAVEFORMATEXTENSIBLE</b> can describe any format that can be described by <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>, but provides additional support for more than two channels, for greater precision in the number of bits per sample, and for new compression schemes.
 
@@ -300,21 +248,12 @@ The following structures, for particular extended formats, are defined as <b>WAV
 <td>KSDATAFORMAT_SUBTYPE_PCM</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
 <a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
- 
 
- 

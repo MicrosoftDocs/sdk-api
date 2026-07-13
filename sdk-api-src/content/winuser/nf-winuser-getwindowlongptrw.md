@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetWindowLongPtrW
 title: GetWindowLongPtrW function (winuser.h)
-description: Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory.
-helpviewer_keywords: ["DWLP_DLGPROC","DWLP_MSGRESULT","DWLP_USER","GWLP_HINSTANCE","GWLP_HWNDPARENT","GWLP_ID","GWLP_USERDATA","GWLP_WNDPROC","GWL_EXSTYLE","GWL_STYLE","GetWindowLongPtr","GetWindowLongPtr function [Windows and Messages]","GetWindowLongPtrA","GetWindowLongPtrW","_win32_GetWindowLongPtr","_win32_getwindowlongptr_cpp","winmsg.getwindowlongptr","winui._win32_getwindowlongptr","winuser/GetWindowLongPtr","winuser/GetWindowLongPtrA","winuser/GetWindowLongPtrW"]
+description: Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory. (Unicode)
+helpviewer_keywords: ["DWLP_DLGPROC", "DWLP_MSGRESULT", "DWLP_USER", "GWLP_HINSTANCE", "GWLP_HWNDPARENT", "GWLP_ID", "GWLP_USERDATA", "GWLP_WNDPROC", "GWL_EXSTYLE", "GWL_STYLE", "GetWindowLongPtr", "GetWindowLongPtr function [Windows and Messages]", "GetWindowLongPtrW", "_win32_GetWindowLongPtr", "_win32_getwindowlongptr_cpp", "winmsg.getwindowlongptr", "winui._win32_getwindowlongptr", "winuser/GetWindowLongPtr", "winuser/GetWindowLongPtrW"]
 old-location: winmsg\getwindowlongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getwindowlongptr.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-l1-1-0.dll
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -228,7 +230,7 @@ Reserve extra window memory by specifying a nonzero value in the
 
 
 > [!NOTE]
-> The winuser.h header defines GetWindowLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetWindowLongPtr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

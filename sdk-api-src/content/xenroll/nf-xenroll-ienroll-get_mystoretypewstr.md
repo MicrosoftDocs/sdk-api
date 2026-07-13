@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_MyStoreTypeWStr
 title: IEnroll::get_MyStoreTypeWStr (xenroll.h)
-description: Sets or retrieves the type of store specified by the MyStoreTypeWStr property.
+description: Sets or retrieves the type of store specified by the MyStoreTypeWStr property. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","MyStoreTypeWStr property","IEnroll.MyStoreTypeWStr","IEnroll.get_MyStoreTypeWStr","IEnroll::MyStoreTypeWStr","IEnroll::get_MyStoreTypeWStr","IEnroll::put_MyStoreTypeWStr","MyStoreTypeWStr property [Security]","MyStoreTypeWStr property [Security]","IEnroll interface","get_MyStoreTypeWStr","security.ienroll4_mystoretypewstr","sz_CERT_STORE_PROV_SYSTEM_W","xenroll/IEnroll::MyStoreTypeWStr","xenroll/IEnroll::get_MyStoreTypeWStr","xenroll/IEnroll::put_MyStoreTypeWStr"]
 old-location: security\ienroll4_mystoretypewstr.htm
 tech.root: security

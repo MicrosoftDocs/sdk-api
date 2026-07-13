@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxConnectFaxServerA
 title: FaxConnectFaxServerA function (winfax.h)
-description: The FaxConnectFaxServer function connects a fax client application to the local fax server. The function returns a fax server handle that is required to call other fax client functions that facilitate job, device, configuration, and document management.
-helpviewer_keywords: ["FaxConnectFaxServer","FaxConnectFaxServer function [Fax Service]","FaxConnectFaxServerA","FaxConnectFaxServerW","_mfax_faxconnectfaxserver","fax._mfax_faxconnectfaxserver","winfax/FaxConnectFaxServer","winfax/FaxConnectFaxServerA","winfax/FaxConnectFaxServerW"]
+description: The FaxConnectFaxServer function connects a fax client application to the local fax server. The function returns a fax server handle that is required to call other fax client functions that facilitate job, device, configuration, and document management. (ANSI)
+helpviewer_keywords: ["FaxConnectFaxServerA", "winfax/FaxConnectFaxServerA"]
 old-location: fax\_mfax_faxconnectfaxserver.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3qya.htm
@@ -130,7 +130,7 @@ The fax client application must call the <a href="/previous-versions/windows/des
 
 
 > [!NOTE]
-> The winfax.h header defines FaxConnectFaxServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxConnectFaxServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

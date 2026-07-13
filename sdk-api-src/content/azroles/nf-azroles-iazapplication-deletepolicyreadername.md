@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePolicyReaderName
 title: IAzApplication::DeletePolicyReaderName (azroles.h)
-description: Removes the specified account name from the list of principals that act as policy readers.
+description: Removes the specified account name from the list of principals that act as policy readers. (IAzApplication.DeletePolicyReaderName)
 helpviewer_keywords: ["AzApplication object [Security]","DeletePolicyReaderName method","DeletePolicyReaderName","DeletePolicyReaderName method [Security]","DeletePolicyReaderName method [Security]","AzApplication object","DeletePolicyReaderName method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeletePolicyReaderName method","IAzApplication.DeletePolicyReaderName","IAzApplication::DeletePolicyReaderName","azroles/IAzApplication::DeletePolicyReaderName","security.iazapplication_deletepolicyreadername"]
 old-location: security\iazapplication_deletepolicyreadername.htm
 tech.root: security

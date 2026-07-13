@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_READ_CAPACITY
 title: IOCTL_STORAGE_READ_CAPACITY
-description: Retrieves the geometry information for the device.
+description: Retrieves the geometry information for the device. (IOCTL_STORAGE_READ_CAPACITY)
 helpviewer_keywords: ["IOCTL_STORAGE_READ_CAPACITY","IOCTL_STORAGE_READ_CAPACITY control","IOCTL_STORAGE_READ_CAPACITY control code","base.ioctl_storage_read_capacity","winioctl/IOCTL_STORAGE_READ_CAPACITY"]
 old-location: base\ioctl_storage_read_capacity.htm
 tech.root: base

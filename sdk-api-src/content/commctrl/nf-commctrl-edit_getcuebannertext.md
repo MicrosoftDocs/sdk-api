@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetCueBannerText","Edit_GetCueBannerText macro [Wind
 old-location: controls\Edit_GetCueBannerText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getcuebannertext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetCueBannerText, Edit_GetCueBannerText macro [Windows Controls], _win32_Edit_GetCueBannerText, _win32_Edit_GetCueBannerText_cpp, commctrl/Edit_GetCueBannerText, controls.Edit_GetCueBannerText, controls._win32_Edit_GetCueBannerText
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # Edit_GetCueBannerText macro
 
+## -syntax
+
+```cpp
+BOOL Edit_GetCueBannerText(
+   HWND    hwnd,
+   LPCWSTR lpwText,
+   LONG    cchText
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the macro succeeds, it returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
+
 
 ## -description
 
@@ -70,11 +86,11 @@ A  pointer to a Unicode string that receives the text that is set as the cue ban
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string referenced by <i>lpcwText</i>.
+A <b>LONG</b> that specifies the number of <b>WCHAR</b>s in the string referenced by <i>lpwText</i>.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comctl32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 ## -see-also

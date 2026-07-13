@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCurrentClusterNodeId","GetCurrentClusterNodeId macro [
 old-location: mscs\getcurrentclusternodeid.htm
 tech.root: MsCS
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid
 req.header: clusapi.h
 req.include-header: 
@@ -71,3 +71,26 @@ Note that <i>_lpcchName_</i> refers to a count of characters and not a count of 
 
 <a href="/windows/win32/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
 
+
+## -syntax
+
+```cpp
+DWORD GetCurrentClusterNodeId(
+  [out]      LPWSTR _lpszNodeId,
+  [in, out]  LPDWORD _lpcchName_
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+This function returns a [system error code](/windows/win32/debug/system-error-codes). The following are the possible values:
+
+- **ERROR_SUCCESS**
+  - 0 (0x0)
+  - The operation completed successfully.
+- **ERROR_MORE_DATA**
+  - 234 (0xEA)
+  - More data is available.
+  - This value is returned if the buffer pointed to by _\_lpszNodeId_\_ is not long enough to hold the required number of characters. **GetCurrentClusterNodeId** sets the content of _\_lpcchName_\_ to the required length.

@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP2.RequestAttrsTransitioningAtPosition
 title: ITextStoreACP2::RequestAttrsTransitioningAtPosition (textstor.h)
-description: Gets text attributes transitioning at the specified character position.
+description: Gets text attributes transitioning at the specified character position. (ITextStoreACP2.RequestAttrsTransitioningAtPosition)
 helpviewer_keywords: ["ITextStoreACP2 interface [Text Services Framework]","RequestAttrsTransitioningAtPosition method","ITextStoreACP2.RequestAttrsTransitioningAtPosition","ITextStoreACP2::RequestAttrsTransitioningAtPosition","RequestAttrsTransitioningAtPosition","RequestAttrsTransitioningAtPosition method [Text Services Framework]","RequestAttrsTransitioningAtPosition method [Text Services Framework]","ITextStoreACP2 interface","TS_ATTR_FIND_WANT_END","TS_ATTR_FIND_WANT_VALUE","textstor/ITextStoreACP2::RequestAttrsTransitioningAtPosition","tsf.itextstoreacp2_requestattrstransitioningatposition"]
 old-location: tsf\itextstoreacp2_requestattrstransitioningatposition.htm
 tech.root: TSF

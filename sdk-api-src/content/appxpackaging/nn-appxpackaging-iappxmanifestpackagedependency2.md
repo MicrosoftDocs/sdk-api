@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxManifestPackageDependency2
 title: IAppxManifestPackageDependency2 (appxpackaging.h)
-description: Describes the dependency of one package on another package.
+description: Describes the dependency of one package on another package. (IAppxManifestPackageDependency2)
 helpviewer_keywords: ["IAppxManifestPackageDependency2","IAppxManifestPackageDependency2 interface [App packaging and management]","IAppxManifestPackageDependency2 interface [App packaging and management]","described","appxpackaging/IAppxManifestPackageDependency2","appxpkg.iappxmanifestpackagedependency2"]
 old-location: appxpkg\iappxmanifestpackagedependency2.htm
 tech.root: appxpkg
@@ -54,10 +54,7 @@ Describes the dependency of one package on another package.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageDependency2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>. <b>IAppxManifestPackageDependency2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxManifestPackageDependency2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>. <b>IAppxManifestPackageDependency2</b> also has these types of members:
 
 ## -see-also
 

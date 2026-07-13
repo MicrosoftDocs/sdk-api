@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetRedTableValue(UINT,float)
 title: IDCompositionTableTransferEffect::SetRedTableValue(UINT,float) (dcomp.h)
-description: Sets a value in the red table.
+description: Sets a value in the red table. (overload 1/2)
 helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetRedTableValue method","IDCompositionTableTransferEffect.SetRedTableValue","IDCompositionTableTransferEffect.SetRedTableValue(UINT","float)","IDCompositionTableTransferEffect::SetRedTableValue","IDCompositionTableTransferEffect::SetRedTableValue(UINT","float)","SetRedTableValue","SetRedTableValue method [DirectComposition]","SetRedTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetRedTableValue","directcomp.idcompositiontabletransfereffect_setredtablevalue"]
 old-location: directcomp\idcompositiontabletransfereffect_setredtablevalue.htm
 tech.root: directcomp
@@ -70,7 +70,7 @@ The new value.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

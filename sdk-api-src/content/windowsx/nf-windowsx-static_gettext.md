@@ -6,7 +6,7 @@ helpviewer_keywords: ["Static_GetText","Static_GetText macro [Windows Controls]"
 old-location: controls\Static_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_gettext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Static_GetText, Static_GetText macro [Windows Controls], _win32_Static_GetText, _win32_Static_GetText_cpp, controls.Static_GetText, controls._win32_Static_GetText, windowsx/Static_GetText
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # Static_GetText macro
+
+## -syntax
+
+```cpp
+int Static_GetText(
+   HWND   hwndCtl,
+   LPTSTR lpch,
+   int    cchMax
+);
+```
+
+## -returns
+
+Type: **int**
+
+The length, in characters, of the copied string, not including the terminating NULL character.
 
 
 ## -description

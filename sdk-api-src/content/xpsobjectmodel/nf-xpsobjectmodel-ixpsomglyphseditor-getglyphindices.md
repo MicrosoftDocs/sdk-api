@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphIndices
 title: IXpsOMGlyphsEditor::GetGlyphIndices (xpsobjectmodel.h)
-description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font.
+description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font. (IXpsOMGlyphsEditor.GetGlyphIndices)
 helpviewer_keywords: ["GetGlyphIndices","GetGlyphIndices method [XPS Documents and Packaging]","GetGlyphIndices method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetGlyphIndices method","IXpsOMGlyphsEditor.GetGlyphIndices","IXpsOMGlyphsEditor::GetGlyphIndices","xps.ixpsomglyphseditor_getglyphindices","xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphIndices"]
 old-location: xps\ixpsomglyphseditor_getglyphindices.htm
 tech.root: xps
@@ -119,7 +119,7 @@ The method succeeded.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

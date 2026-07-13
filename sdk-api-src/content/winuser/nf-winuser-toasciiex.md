@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-keyboard-l1-3-2.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-2.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
@@ -55,6 +57,9 @@ api_name:
 ## -description
 
 Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the input locale identifier.
+
+> [!NOTE]
+> This method may not work properly with some <a href="/globalization/windows-keyboard-layouts">keyboard layouts</a> that may produce multiple characters (i.e. ligatures) and/or supplementary Unicode characters on a single key press. It is highly recommended to use the <a href="/windows/win32/api/winuser/nf-winuser-tounicode">ToUnicode</a> or <a href="/windows/win32/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a> methods that handles such cases properly.
 
 ## -parameters
 
@@ -82,7 +87,7 @@ The low bit, if set, indicates that the key is toggled on. In this function, onl
 
 Type: <b>LPWORD</b>
 
-A pointer to the buffer that receives the translated character or characters.
+A pointer to the buffer that receives the translated character (or two characters packed into a single **WORD** value, where the low-order byte contains the first character and the high-order byte contains the second character).
 
 ### -param uFlags [in]
 
@@ -100,7 +105,7 @@ Input locale identifier to use to translate the code. This parameter can be any 
 
 Type: <b>int</b>
 
-If the specified key is a dead key, the return value is negative. Otherwise, it is one of the following values.
+The return value is one of the following values.
 
 <table>
 <tr>

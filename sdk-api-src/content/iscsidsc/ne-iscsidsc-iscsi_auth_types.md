@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidsc.__unnamed_enum_1
+UID: NE:iscsidsc.ISCSI_AUTH_TYPES
 title: ISCSI_AUTH_TYPES (iscsidsc.h)
 description: ISCSI_AUTH_TYPES enumeration indicates the type of authentication method utilized.
 helpviewer_keywords: ["*PISCSI_AUTH_TYPES","ISCSI_AUTH_TYPES","ISCSI_AUTH_TYPES enumeration [iSCSI Discovery Library API]","ISCSI_CHAP_AUTH_TYPE","ISCSI_MUTUAL_CHAP_AUTH_TYPE","ISCSI_NO_AUTH_TYPE","iscsidisc.iscsi_auth_types","iscsidsc/ISCSI_AUTH_TYPES","iscsidsc/ISCSI_CHAP_AUTH_TYPE","iscsidsc/ISCSI_MUTUAL_CHAP_AUTH_TYPE","iscsidsc/ISCSI_NO_AUTH_TYPE"]
@@ -56,18 +56,19 @@ The <b>ISCSI_AUTH_TYPES</b> enumeration indicates the type of authentication met
 
 ## -enum-fields
 
-### -field ISCSI_NO_AUTH_TYPE
+### -field ISCSI_NO_AUTH_TYPE:0
 
 No authentication type was specified.
 
-### -field ISCSI_CHAP_AUTH_TYPE
+### -field ISCSI_CHAP_AUTH_TYPE:1
 
 Challenge Handshake Authentication Protocol (CHAP) authentication.
 
-### -field ISCSI_MUTUAL_CHAP_AUTH_TYPE
+### -field ISCSI_MUTUAL_CHAP_AUTH_TYPE:2
 
 Mutual (2-way) CHAP authentication.
 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
+

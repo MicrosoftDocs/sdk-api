@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiDatabaseOpenViewW
 title: MsiDatabaseOpenViewW function (msiquery.h)
-description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle.
-helpviewer_keywords: ["MsiDatabaseOpenView","MsiDatabaseOpenView function","MsiDatabaseOpenViewA","MsiDatabaseOpenViewW","_msi_msidatabaseopenview","msiquery/MsiDatabaseOpenView","msiquery/MsiDatabaseOpenViewA","msiquery/MsiDatabaseOpenViewW","setup.msidatabaseopenview"]
+description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle. (Unicode)
+helpviewer_keywords: ["MsiDatabaseOpenView", "MsiDatabaseOpenView function", "MsiDatabaseOpenViewW", "_msi_msidatabaseopenview", "msiquery/MsiDatabaseOpenView", "msiquery/MsiDatabaseOpenViewW", "setup.msidatabaseopenview"]
 old-location: setup\msidatabaseopenview.htm
 tech.root: setup
 ms.assetid: 1ef23f9a-7d79-4d07-9349-8e9c132f1b94
@@ -95,7 +95,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiDatabaseOpenView as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiDatabaseOpenView as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

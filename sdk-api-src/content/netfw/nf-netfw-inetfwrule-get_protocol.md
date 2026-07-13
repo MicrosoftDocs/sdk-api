@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_Protocol
 title: INetFwRule::get_Protocol (netfw.h)
-description: Specifies the IP protocol of this rule.
+description: Specifies the IP protocol of this rule. (Get)
 helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","Protocol property","INetFwRule.Protocol","INetFwRule.get_Protocol","INetFwRule::Protocol","INetFwRule::get_Protocol","INetFwRule::put_Protocol","Protocol property [ICS/ICF]","Protocol property [ICS/ICF]","INetFwRule interface","get_Protocol","ics.inetfwrule_protocol","netfw/INetFwRule::Protocol","netfw/INetFwRule::get_Protocol","netfw/INetFwRule::put_Protocol"]
 old-location: ics\inetfwrule_protocol.htm
 tech.root: ics

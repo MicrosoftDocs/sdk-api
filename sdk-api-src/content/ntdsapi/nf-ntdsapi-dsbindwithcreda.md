@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsBindWithCredA
 title: DsBindWithCredA function (ntdsapi.h)
-description: Binds to a domain controller using the specified credentials.
-helpviewer_keywords: ["DsBindWithCred","DsBindWithCred function [Active Directory]","DsBindWithCredA","DsBindWithCredW","_glines_dsbindwithcred","ad.dsbindwithcred","ntdsapi/DsBindWithCred","ntdsapi/DsBindWithCredA","ntdsapi/DsBindWithCredW"]
+description: Binds to a domain controller using the specified credentials. (ANSI)
+helpviewer_keywords: ["DsBindWithCredA", "ntdsapi/DsBindWithCredA"]
 old-location: ad\dsbindwithcred.htm
 tech.root: ad
 ms.assetid: 708e3874-852c-4a57-bf4b-edaf98818fe5
@@ -71,7 +71,7 @@ This parameter is required to secure a Kerberos authentication.
 
 Contains an <a href="/windows/desktop/Rpc/rpc-auth-identity-handle">RPC_AUTH_IDENTITY_HANDLE</a> value that represents the credentials to be used for the bind. The 
     
-<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>function is used to obtain this value. If this parameter is <b>NULL</b>,
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function is used to obtain this value. If this parameter is <b>NULL</b>,
     the credentials of the calling thread are used.
 
 
@@ -121,4 +121,4 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Windows or RPC error code otherw
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsBindWithCred as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsBindWithCred as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

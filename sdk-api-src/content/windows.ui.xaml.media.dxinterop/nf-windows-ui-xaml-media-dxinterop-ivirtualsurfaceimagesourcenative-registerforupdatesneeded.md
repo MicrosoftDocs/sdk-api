@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded
-title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded (windows.ui.xaml.media.dxinterop.h)
 description: Registers for the callback that will perform the drawing when an update to the shared surface is requested.
 helpviewer_keywords: ["IVirtualSurfaceImageSourceNative interface [Windows Runtime]","RegisterForUpdatesNeeded method","IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded","IVirtualSurfaceImageSourceNative::xaml","RegisterForUpdatesNeeded","RegisterForUpdatesNeeded method [Windows Runtime]","RegisterForUpdatesNeeded method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","windows/IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded","winrt.ivirtualsurfaceimagesourcenative_registerforupdatesneeded"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_registerforupdatesneeded.htm
@@ -45,7 +45,7 @@ api_name:
  - IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded
 ---
 
-# IVirtualSurfaceImageSourceNative::xaml
+# IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description
@@ -60,7 +60,7 @@ Pointer to an implementation of <a href="/windows/desktop/api/windows.ui.xaml.me
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

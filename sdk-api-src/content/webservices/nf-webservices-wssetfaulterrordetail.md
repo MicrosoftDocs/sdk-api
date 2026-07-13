@@ -64,7 +64,7 @@ A pointer to a description of the fault detail.
                 
 
 If the action field of the fault detail description is non-<b>NULL</b>,
-                    then it is set as the <a href="/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ACTION</a>of the <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a>.
+                    then it is set as the <a href="/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ACTION</a> of the <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a>.
                 
 
 The element description of the fault detail description 
@@ -147,7 +147,7 @@ This functions supports the following scenarios, based on the contents
                 the type of the value being serialized.  
                 </li>
 <li>Writing multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>and <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
+                fields of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a> and <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
                 structure value being serialized should correspond to element(s) to write within the fault detail.
                 The writeOption parameter must be either <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_VALUE</a> or 
                 <b>WS_WRITE_REQUIRED_POINTER</b>.                

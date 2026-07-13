@@ -71,9 +71,11 @@ If the application gets an error result from any TAPI function, the error value 
 
 The following example uses <b>FormatMessage</b> to produce an error string that corresponds to a TAPI error code.
 
-<pre class="syntax" xml:space="preserve"><code>lResult = lineClose(hLine);
 
-if (lResult &lt; 0)
+``` syntax
+lResult = lineClose(hLine);
+
+if (lResult < 0)
 {
     FormatMessage(FORMAT_MESSAGE_FROM_HMODULE,
                   (LPCVOID)GetModuleHandle("TAPIUI.DLL"),
@@ -83,4 +85,6 @@ if (lResult &lt; 0)
                   BUFSIZE,
                   NULL);
     MessageBox(hWnd,pBuf,"TAPI ERROR",MB_OK);
-}</code></pre>
+}
+```
+

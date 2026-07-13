@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.CreateRasterizerState2
 title: ID3D11Device3::CreateRasterizerState2 (d3d11_3.h)
-description: Creates a rasterizer state object that informs the rasterizer stage how to behave and forces the sample count while UAV rendering or rasterizing.
+description: Creates a rasterizer state object that informs the rasterizer stage how to behave and forces the sample count while UAV rendering or rasterizing. (ID3D11Device3.CreateRasterizerState2)
 helpviewer_keywords: ["CreateRasterizerState2","CreateRasterizerState2 method [Direct3D 11]","CreateRasterizerState2 method [Direct3D 11]","ID3D11Device3 interface","ID3D11Device3 interface [Direct3D 11]","CreateRasterizerState2 method","ID3D11Device3.CreateRasterizerState2","ID3D11Device3::CreateRasterizerState2","d3d11_3/ID3D11Device3::CreateRasterizerState2","direct3d11.id3d11device3_createrasterizerstate2"]
 old-location: direct3d11\id3d11device3_createrasterizerstate2.htm
 tech.root: direct3d11

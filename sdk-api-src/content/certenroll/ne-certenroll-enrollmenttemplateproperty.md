@@ -54,124 +54,124 @@ The <b>EnrollmentTemplateProperty</b> enumeration contains property values for a
 
 ## -enum-fields
 
-### -field TemplatePropCommonName
+### -field TemplatePropCommonName:1
 
 A <b>VT_BSTR</b> value that contains the common name of the template in Active Directory.
 
-### -field TemplatePropFriendlyName
+### -field TemplatePropFriendlyName:2
 
 A <b>VT_BSTR</b> value that contains the template display name.
 
-### -field TemplatePropEKUs
+### -field TemplatePropEKUs:3
 
 A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of extended key usage object identifiers. This value applies to version 2 and later templates.
 
-### -field TemplatePropCryptoProviders
+### -field TemplatePropCryptoProviders:4
 
 A <b>VT_ARRAY|VT_BSTR</b> collection of cryptographic service providers (version 2) and key storage providers (version 3) that the client can use when generating requests based on  this template.
 
-### -field TemplatePropMajorRevision
+### -field TemplatePropMajorRevision:5
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that specifies the major version number for the template.
 
-### -field TemplatePropDescription
+### -field TemplatePropDescription:6
 
 Not used.
 
-### -field TemplatePropKeySpec
+### -field TemplatePropKeySpec:7
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains <b>AT_SIGNATURE</b> or <b>AT_KEYEXCHANGE</b> to specify the <b>Key_Spec</b> value for legacy cryptographic service providers.
 
-### -field TemplatePropSchemaVersion
+### -field TemplatePropSchemaVersion:8
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that specifies the template version. Currently, this can be 1, 2, or 3.
 
-### -field TemplatePropMinorRevision
+### -field TemplatePropMinorRevision:9
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that specifies the minor version number of a version 2 and later template.
 
-### -field TemplatePropRASignatureCount
+### -field TemplatePropRASignatureCount:10
 
 A <b>VT_UI4</b>  (<b>VT_I4</b> beginning with Windows 8.1) value that specifies the number of recovery agent signatures that are required when generating a certificate request base on this template.
 
-### -field TemplatePropMinimumKeySize
+### -field TemplatePropMinimumKeySize:11
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that specifies the minimum size of the public key used by the enrolling client.
 
-### -field TemplatePropOID
+### -field TemplatePropOID:12
 
 A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that contains an object identifier for this template. This value applies to version 2 and later templates.
 
-### -field TemplatePropSupersede
+### -field TemplatePropSupersede:13
 
 A <b>VT_ARRAY|VT_BSTR</b> collection that contains the common names of all version 2 and later templates that have been superseded.
 
-### -field TemplatePropRACertificatePolicies
+### -field TemplatePropRACertificatePolicies:14
 
 A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of certificate policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
 
-### -field TemplatePropRAEKUs
+### -field TemplatePropRAEKUs:15
 
 A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of application policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
 
-### -field TemplatePropCertificatePolicies
+### -field TemplatePropCertificatePolicies:16
 
 A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate policy extension.
 
-### -field TemplatePropV1ApplicationPolicy
+### -field TemplatePropV1ApplicationPolicy:17
 
 A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate application policy extension.
 
-### -field TemplatePropAsymmetricAlgorithm
+### -field TemplatePropAsymmetricAlgorithm:18
 
 A <b>VT_BSTR</b> value that specifies the name of a public key algorithm the enrolling client must use when generating a certificate request based on  this template. This value applies to version 3 and later templates.
 
-### -field TemplatePropKeySecurityDescriptor
+### -field TemplatePropKeySecurityDescriptor:19
 
 A <b>VT_BSTR</b> value that specifies the asymmetric key security descriptor for version 3 and later templates.
 
-### -field TemplatePropSymmetricAlgorithm
+### -field TemplatePropSymmetricAlgorithm:20
 
 A <b>VT_BSTR</b> value that specifies the name of the symmetric algorithm that a client must use for key exchange when using this template. This value applies to version 3 and later templates.
 
-### -field TemplatePropSymmetricKeyLength
+### -field TemplatePropSymmetricKeyLength:21
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that specifies the length, in bits, of the symmetric key. This value applies to version 3 and later templates.
 
-### -field TemplatePropHashAlgorithm
+### -field TemplatePropHashAlgorithm:22
 
 A <b>VT_BSTR</b> value that specifies the name of the hashing algorithm that an enrolling client must use. This value applies to version 3 and later templates.
 
-### -field TemplatePropKeyUsage
+### -field TemplatePropKeyUsage:23
 
-### -field TemplatePropEnrollmentFlags
+### -field TemplatePropEnrollmentFlags:24
 
 A <b>VT_I4</b> value that contains a bitwise <b>OR</b> of <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplateenrollmentflag">X509CertificateTemplateEnrollmentFlag</a> values.
 
-### -field TemplatePropSubjectNameFlags
+### -field TemplatePropSubjectNameFlags:25
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplatesubjectnameflag">X509CertificateTemplateSubjectNameFlag</a> values.
 
-### -field TemplatePropPrivateKeyFlags
+### -field TemplatePropPrivateKeyFlags:26
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplateprivatekeyflag">X509CertificateTemplatePrivateKeyFlag</a> values.
 
-### -field TemplatePropGeneralFlags
+### -field TemplatePropGeneralFlags:27
 
 A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificatetemplategeneralflag">X509CertificateTemplateGeneralFlag</a> values.
 
-### -field TemplatePropSecurityDescriptor
+### -field TemplatePropSecurityDescriptor:28
 
 A <b>VT_BSTR</b> value that specifies the security descriptor.
 
-### -field TemplatePropExtensions
+### -field TemplatePropExtensions:29
 
 A <b>VT_DISPATCH</b> pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> interface that contains the certificate extensions to be added to the certificate request when generating requests based on this template.
 
-### -field TemplatePropValidityPeriod
+### -field TemplatePropValidityPeriod:30
 
 A <b>VT_UI8 FILETIME</b> value that contains the maximum validity period, in seconds, of the certificate.
 
-### -field TemplatePropRenewalPeriod
+### -field TemplatePropRenewalPeriod:31
 
 A <b>VT_UI8 FILETIME</b> value that specifies the amount of time before expiration that automatic enrollment has to  attempt certificate renewal.

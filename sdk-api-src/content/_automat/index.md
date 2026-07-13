@@ -4,7 +4,8 @@ title: Automation
 ms.assetid: fa0e9310-2f3a-3207-9d42-b2f8ad9f6315
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Automation
@@ -18,7 +19,6 @@ To develop Automation, you need these headers:
  * [oaidl.h](../oaidl/index.md)
  * [oleauto.h](../oleauto/index.md)
  * [olectl.h](../olectl/index.md)
- * [wia_xp.h](../wia_xp/index.md)
  * [wtypes.h](../wtypes/index.md)
 
 

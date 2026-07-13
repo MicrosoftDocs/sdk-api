@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardListCardsA
 title: SCardListCardsA function (winscard.h)
-description: Searches the smart card database and provides a list of named cards previously introduced to the system by the user.
-helpviewer_keywords: ["SCardListCards","SCardListCards function [Security]","SCardListCardsA","SCardListCardsW","_smart_scardlistcards","security.scardlistcards","winscard/SCardListCards","winscard/SCardListCardsA","winscard/SCardListCardsW"]
+description: Searches the smart card database and provides a list of named cards previously introduced to the system by the user. (ANSI)
+helpviewer_keywords: ["SCardListCardsA", "winscard/SCardListCardsA"]
 old-location: security\scardlistcards.htm
 tech.root: security
 ms.assetid: b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1
@@ -183,7 +183,7 @@ while ( '\0' != *pCard )
 
 
 > [!NOTE]
-> The winscard.h header defines SCardListCards as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardListCards as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

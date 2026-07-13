@@ -1,7 +1,7 @@
 ---
 UID: NS:batclass._BATTERY_TAG_CHANGE
 title: BATTERY_TAG_CHANGE (batclass.h)
-description: This structure is reserved for system use.
+description: This structure is reserved for system use. (BATTERY_TAG_CHANGE)
 helpviewer_keywords: ["*PBATTERY_TAG_CHANGE","BATTERY_TAG_CHANGE","BATTERY_TAG_CHANGE structure [Battery Devices]","PBATTERY_TAG_CHANGE","PBATTERY_TAG_CHANGE structure pointer [Battery Devices]","batclass/BATTERY_TAG_CHANGE","batclass/PBATTERY_TAG_CHANGE","battery.battery_tag_change"]
 old-location: battery\battery_tag_change.htm
 tech.root: battery

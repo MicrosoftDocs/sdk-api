@@ -57,7 +57,7 @@ The <b>MBN_CONTEXT_TYPE</b> enumerated type specifies the represented context ty
 
 ## -enum-fields
 
-### -field MBN_CONTEXT_TYPE_NONE
+### -field MBN_CONTEXT_TYPE_NONE:0
 
 Context has not yet provisioned for this ID.
 

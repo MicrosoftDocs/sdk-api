@@ -52,7 +52,7 @@ api_name:
 
 Gets the rendering mode of the rendering parameters object.
 
-## -parameters
+
 
 ## -returns
 

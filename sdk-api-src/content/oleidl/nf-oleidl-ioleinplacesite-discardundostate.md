@@ -54,7 +54,7 @@ api_name:
 
 Instructs the container to discard its undo state. The container should not call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-reactivateandundo">IOleInPlaceObject::ReActivateAndUndo</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -83,8 +83,8 @@ Indicates that pixel centers have coordinates that are half way between integer 
 
 ## -remarks
 
-Consider the pixel in the upper-left corner of an image with address (0, 0). With <b><b>PixelOffsetModeNone</b></b>, the pixel covers the area between 
-				–0.5 and 0.5 in both the x and y directions; that is, the pixel center is at (0, 0). With <b><b>PixelOffsetModeHalf</b></b>, the pixel covers the area between 0 and 1 in both the x and y directions; that is, the pixel center is at (0.5, 0.5).
+Consider the pixel in the upper-left corner of an image with address (0, 0). With <b>PixelOffsetModeNone</b>, the pixel covers the area between 
+				–0.5 and 0.5 in both the x and y directions; that is, the pixel center is at (0, 0). With <b>PixelOffsetModeHalf</b>, the pixel covers the area between 0 and 1 in both the x and y directions; that is, the pixel center is at (0.5, 0.5).
 
 ## -see-also
 

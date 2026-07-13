@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Unpark</b> method gets the call from park.
 
-## -parameters
+
 
 ## -returns
 
@@ -129,17 +129,21 @@ To unpark a call,
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>// Note: the parameters used in this call are obtained from elsewhere in the code.  
 
-HRESULT hr = pAddress-&gt;CreateCall( bstrAddressToCall, 
-                           dwAddressType, 
-                           dwMediaTypes, 
-                           &amp;pBasicCall 
-                           ); 
-// If ( hr != S_OK ) process the error here. 
+``` syntax
+// Note: the parameters used in this call are obtained from elsewhere in the code.
 
-// Select appropriate terminals for call, and then call: 
-pBasicCall -&gt;Unpark();</code></pre>
+HRESULT hr = pAddress->CreateCall( bstrAddressToCall,
+                           dwAddressType,
+                           dwMediaTypes,
+                           &pBasicCall
+                           );
+// If ( hr != S_OK ) process the error here.
+
+// Select appropriate terminals for call, and then call:
+pBasicCall->Unpark();
+```
+
 
 ## -see-also
 

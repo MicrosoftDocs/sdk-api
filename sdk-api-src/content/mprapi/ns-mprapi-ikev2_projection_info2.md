@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._IKEV2_PROJECTION_INFO2
 title: IKEV2_PROJECTION_INFO2 (mprapi.h)
-description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
+description: Contains information obtained during Internet Key Exchange (IKE) negotiation. (IKEV2_PROJECTION_INFO2)
 helpviewer_keywords: ["*PIKEV2_PROJECTION_INFO2","IKEV2_PROJECTION_INFO2","IKEV2_PROJECTION_INFO2 structure [RAS]","IPSEC_CIPHER_TYPE_3DES","IPSEC_CIPHER_TYPE_AES_128","IPSEC_CIPHER_TYPE_AES_192","IPSEC_CIPHER_TYPE_AES_256","MPRAPI_IKEV2_AUTH_USING_CERT","MPRAPI_IKEV2_AUTH_USING_EAP","PIKEV2_PROJECTION_INFO2","PIKEV2_PROJECTION_INFO2 structure pointer [RAS]","mprapi/IKEV2_PROJECTION_INFO2","mprapi/PIKEV2_PROJECTION_INFO2","rras.ikev2_projection_info2"]
 old-location: rras\ikev2_projection_info2.htm
 tech.root: RRAS

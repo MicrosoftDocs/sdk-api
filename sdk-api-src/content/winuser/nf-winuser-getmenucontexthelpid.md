@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-menu-l1-1-3.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - ext-ms-win-ntuser-menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-0.dll
  - User32.dll
 api_name:
  - GetMenuContextHelpId

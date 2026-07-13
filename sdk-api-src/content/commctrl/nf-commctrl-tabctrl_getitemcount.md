@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetItemCount","TabCtrl_GetItemCount macro [Window
 old-location: controls\TabCtrl_GetItemCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetItemCount, TabCtrl_GetItemCount macro [Windows Controls], _win32_TabCtrl_GetItemCount, _win32_TabCtrl_GetItemCount_cpp, commctrl/TabCtrl_GetItemCount, controls.TabCtrl_GetItemCount, controls._win32_TabCtrl_GetItemCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TabCtrl_GetItemCount macro
+
+## -syntax
+
+```cpp
+int TabCtrl_GetItemCount(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the number of items if successful, or zero otherwise.
 
 
 ## -description

@@ -54,15 +54,15 @@ Specifies how the effective opacity value of a visual is applied to that visual�
 
 ## -enum-fields
 
-### -field DCOMPOSITION_OPACITY_MODE_LAYER
+### -field DCOMPOSITION_OPACITY_MODE_LAYER:0
 
 The target visual defines a logical layer into which its entire sub-tree is composed with a starting effective opacity of 1.0. The original opacity value is then used to blend the layer onto the visual’s background.
 
-### -field DCOMPOSITION_OPACITY_MODE_MULTIPLY
+### -field DCOMPOSITION_OPACITY_MODE_MULTIPLY:1
 
 The opacity value is multiplied with the effective opacity of the parent visual and the result is then individually applied to each piece of content in this visual’s sub-tree.
 
-### -field DCOMPOSITION_OPACITY_MODE_INHERIT
+### -field DCOMPOSITION_OPACITY_MODE_INHERIT:0xffffffff
 
 The opacity mode is the same as that of the target visual’s parent visual.
 

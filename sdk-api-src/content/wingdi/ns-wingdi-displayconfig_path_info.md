@@ -67,18 +67,44 @@ A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info"
 A bitwise OR of flag values that indicates the state of the path. The following values are supported:
 
 
-
-
-
-#### DISPLAYCONFIG_PATH_ACTIVE
-
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_PATH_ACTIVE"></a><a id="displayconfig_path_active"></a><dl>
+<dt><b>DISPLAYCONFIG_PATH_ACTIVE</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
 Set by <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to indicate that the path is active and part of the desktop. If this flag value is set, <a href="/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a> attempts to enable this path.
-
-
-
-#### DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE
-
-Set by <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to indicate that the path supports the virtual mode. Supported starting in Windows 10.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE"></a><a id="displayconfig_path_support_virtual_mode"></a><dl>
+<dt><b>DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Set by <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to indicate that the path supports virtual modes. This flag is for reporting only and cannot be modified.</p>
+<p>Supported starting in Windows 10.</p>
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISPLAYCONFIG_PATH_BOOST_REFRESH_RATE"></a><a id="displayconfig_path_boost_refresh_rate"></a><dl>
+<dt><b>DISPLAYCONFIG_PATH_BOOST_REFRESH_RATE</b></dt>
+<dt>0x00000010</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Set by <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to indicate that the path is configured to automatically boost the refresh rate between the virtual refresh rate and the physical refresh rate (this is known as "Dynamic refresh rate"). This value can be set or removed for a path by <a href="/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a>. The virtual refresh rate is set by <a href="/windows/win32/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO.refreshRate</a> and the physical refresh rate is selected by <a href="/windows/win32/api/wingdi/ns-wingdi-displayconfig_target_mode">DISPLAYCONFIG_TARGET_MODE.targetVideoSignalInfo</a>.</p>
+<p>Supported starting in Windows 11.</p>
+</td>
+</tr>
+</table>
 
 ## -see-also
 

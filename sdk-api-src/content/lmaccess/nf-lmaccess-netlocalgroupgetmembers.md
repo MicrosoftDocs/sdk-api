@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Netapi32.dll
+ - samcli.dll
 api_name:
  - NetLocalGroupGetMembers
 ---

@@ -1,8 +1,8 @@
 ---
 UID: NF:processenv.SearchPathW
 title: SearchPathW function
-description: Searches for a specified file in a specified path.
-helpviewer_keywords: ["SearchPath","SearchPath function [Files]","SearchPathA","SearchPathW","_win32_searchpath","base.searchpath","fs.searchpath","processenv/SearchPath","processenv/SearchPathA","processenv/SearchPathW"]
+description: Searches for a specified file in a specified path. (Unicode)
+helpviewer_keywords: ["SearchPath", "SearchPath function [Files]", "SearchPathW", "_win32_searchpath", "base.searchpath", "fs.searchpath", "processenv/SearchPath", "processenv/SearchPathW"]
 old-location: fs\searchpath.htm
 tech.root: fs
 ms.assetid: 8039365a-1b39-431e-af87-9a9933ca102d
@@ -203,7 +203,7 @@ Yes
 
 
 > [!NOTE]
-> The processenv.h header defines SearchPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The processenv.h header defines SearchPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

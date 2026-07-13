@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-eventing-tdh-l1-1-2.dll
+ - api-ms-win-eventing-tdh-l1-1-1.dll
  - Tdh.dll
  - API-MS-Win-Eventing-Tdh-L1-1-0.dll
  - MinTdh.dll
@@ -48,7 +50,6 @@ api_name:
 ---
 
 # TdhUnloadManifest function
-
 
 ## -description
 
@@ -109,5 +110,4 @@ The manifest did not pass validation. To determine the validation errors, run th
 You must call this function after processing all the events. For example, you can call this function after calling <a href="/windows/desktop/ETW/closetrace">CloseTrace</a>.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a>

@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ICreateTypeLib
 title: ICreateTypeLib (oaidl.h)
-description: Provides the methods for creating and managing the component or file that contains type information.
+description: Provides the methods for creating and managing the component or file that contains type information. (ICreateTypeLib)
 helpviewer_keywords: ["ICreateTypeLib","ICreateTypeLib interface [Automation]","ICreateTypeLib interface [Automation]","described","_oa96_ICreateTypeLib_Interface","automat.icreatetypelib","oaidl/ICreateTypeLib"]
 old-location: automat\icreatetypelib.htm
 tech.root: automat
@@ -54,10 +54,7 @@ Provides the methods for creating and managing the component or file that contai
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeLib</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateTypeLib</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICreateTypeLib</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateTypeLib</b> also has these types of members:
 
 ## -see-also
 

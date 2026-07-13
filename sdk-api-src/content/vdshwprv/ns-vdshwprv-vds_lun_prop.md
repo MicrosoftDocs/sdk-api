@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_LUN_PROP
 title: VDS_LUN_PROP (vdshwprv.h)
-description: Defines the properties of a LUN object.
+description: The VDS_LUN_PROP structure (vdshwprv.h) defines the properties of a LUN object.
 helpviewer_keywords: ["*PVDS_LUN_PROP","PVDS_LUN_PROP","PVDS_LUN_PROP structure pointer [VDS]","VDS_H_FAILED","VDS_H_FAILED_REDUNDANCY","VDS_H_FAILED_REDUNDANCY_FAILING","VDS_H_FAILING","VDS_H_FAILING_REDUNDANCY","VDS_H_HEALTHY","VDS_H_REBUILDING","VDS_H_UNKNOWN","VDS_LUN_PROP","VDS_LUN_PROP structure [VDS]","base.vds_lun_prop","vds/PVDS_LUN_PROP","vds/_VDS_LUN_PROP","vdshwprv/PVDS_LUN_PROP","vdshwprv/_VDS_LUN_PROP"]
 old-location: base\vds_lun_prop.htm
 tech.root: base
 ms.assetid: 4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: '*PVDS_LUN_PROP, PVDS_LUN_PROP, PVDS_LUN_PROP structure pointer [VDS], VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PROP, VDS_LUN_PROP structure [VDS], base.vds_lun_prop, vds/PVDS_LUN_PROP, vds/_VDS_LUN_PROP, vdshwprv/PVDS_LUN_PROP, vdshwprv/_VDS_LUN_PROP'
 req.header: vdshwprv.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of 
    a <a href="/windows/desktop/VDS/lun-object">LUN object</a>.

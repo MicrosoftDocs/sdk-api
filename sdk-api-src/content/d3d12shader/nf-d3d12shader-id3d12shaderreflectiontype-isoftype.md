@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.IsOfType
 title: ID3D12ShaderReflectionType::IsOfType (d3d12shader.h)
-description: Indicates whether a variable is of the specified type.
+description: Indicates whether a variable is of the specified type. (ID3D12ShaderReflectionType.IsOfType)
 helpviewer_keywords: ["ID3D12ShaderReflectionType interface","IsOfType method","ID3D12ShaderReflectionType.IsOfType","ID3D12ShaderReflectionType::IsOfType","IsOfType","IsOfType method","IsOfType method","ID3D12ShaderReflectionType interface","d3d12shader/ID3D12ShaderReflectionType::IsOfType","direct3d12.id3d12shaderreflectiontype_isoftype"]
 old-location: direct3d12\id3d12shaderreflectiontype_isoftype.htm
 tech.root: direct3d12

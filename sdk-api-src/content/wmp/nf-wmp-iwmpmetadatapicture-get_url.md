@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMetadataPicture interface [Windows Media Player]","ge
 old-location: wmp\iwmpmetadatapicture_get_url.htm
 tech.root: WMP
 ms.assetid: e61c9c1a-4ffc-4a71-83b7-ad3f9937e303
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_URL method, IWMPMetadataPicture.get_URL, IWMPMetadataPicture::get_URL, IWMPMetadataPictureget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_url, wmp/IWMPMetadataPicture::get_URL
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This method is for internal use only.
 

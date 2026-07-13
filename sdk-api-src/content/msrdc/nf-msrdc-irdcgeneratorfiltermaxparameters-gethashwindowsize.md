@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.GetHashWindowSize
 title: IRdcGeneratorFilterMaxParameters::GetHashWindowSize (msrdc.h)
-description: Returns the hash window size�the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
+description: Returns the hash window size - the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
 helpviewer_keywords: ["GetHashWindowSize","GetHashWindowSize method [Remote Differential Compression]","GetHashWindowSize method [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface","IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","GetHashWindowSize method","IRdcGeneratorFilterMaxParameters.GetHashWindowSize","IRdcGeneratorFilterMaxParameters::GetHashWindowSize","fs.irdcgeneratorfiltermaxparameters_gethashwindowsize","msrdc/IRdcGeneratorFilterMaxParameters::GetHashWindowSize","rdc.irdcgeneratorfiltermaxparameters_gethashwindowsize"]
 old-location: rdc\irdcgeneratorfiltermaxparameters_gethashwindowsize.htm
 tech.root: rdc
@@ -64,7 +64,7 @@ Address of a <b>ULONG</b> that will receive the length in bytes of the hash wind
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

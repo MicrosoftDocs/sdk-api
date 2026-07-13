@@ -53,7 +53,7 @@ api_name:
 Writes a start element to the writer.
       
 
-After calling this function <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritexmlnsattribute">WsWriteXmlnsAttribute</a>can be called to write additional attributes to the element. The element is not committed to the writer until <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendelement">WsWriteEndElement</a> or some other function  that  writes content is called.
+After calling this function <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritexmlnsattribute">WsWriteXmlnsAttribute</a> can be called to write additional attributes to the element. The element is not committed to the writer until <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendelement">WsWriteEndElement</a> or some other function  that  writes content is called.
 
 ## -parameters
 

@@ -54,10 +54,10 @@ Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shshowmanag
 
 ## -enum-fields
 
-### -field LMD_DEFAULT
+### -field LMD_DEFAULT:0
 
 Show default warning UI to the user.
 
-### -field LMD_ALLOWUNINDEXABLENETWORKLOCATIONS
+### -field LMD_ALLOWUNINDEXABLENETWORKLOCATIONS:0x1
 
 Do not display a warning dialog to the user in collisions that concern network locations that cannot be indexed.

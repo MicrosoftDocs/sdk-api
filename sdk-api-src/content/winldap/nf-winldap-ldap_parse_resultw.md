@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_parse_resultW
 title: ldap_parse_resultW function (winldap.h)
-description: The ldap_parse_result function parses responses from the server and returns the appropriate fields.
-helpviewer_keywords: ["_ldap_ldap_parse_result","ldap.ldap__parse__result","ldap.ldap_parse_result","ldap_parse_result","ldap_parse_result function [LDAP]","ldap_parse_resultA","ldap_parse_resultW","winldap/ldap_parse_result","winldap/ldap_parse_resultA","winldap/ldap_parse_resultW"]
+description: The ldap_parse_resultW (Unicode) function (winldap.h) parses responses from the server and returns the appropriate fields. 
+helpviewer_keywords: ["_ldap_ldap_parse_result", "ldap.ldap__parse__result", "ldap.ldap_parse_result", "ldap_parse_result", "ldap_parse_result function [LDAP]", "ldap_parse_resultW", "winldap/ldap_parse_result", "winldap/ldap_parse_resultW"]
 old-location: ldap\ldap_parse_result.htm
 tech.root: ldap
 ms.assetid: 6cadfbe0-0b69-4c43-a2ca-d8b3a12bf0a9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_parse_result, ldap.ldap__parse__result, ldap.ldap_parse_result, ldap_parse_result, ldap_parse_result function [LDAP], ldap_parse_resultA, ldap_parse_resultW, winldap/ldap_parse_result, winldap/ldap_parse_resultA, winldap/ldap_parse_resultW
 req.header: winldap.h
 req.include-header: 
@@ -111,7 +111,7 @@ When they are no longer needed, free the <i>ErrorMessage</i> and <i>MatchedDNs</
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_parse_result as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_parse_result as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

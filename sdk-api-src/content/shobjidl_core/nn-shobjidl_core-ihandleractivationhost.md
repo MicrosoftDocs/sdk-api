@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IHandlerActivationHost
 title: IHandlerActivationHost (shobjidl_core.h)
-description: .
+description: . (IHandlerActivationHost)
 helpviewer_keywords: ["IHandlerActivationHost","IHandlerActivationHost interface [Windows Shell]","IHandlerActivationHost interface [Windows Shell]","described","shell.IHandlerActivationHost","shobjidl_core/IHandlerActivationHost"]
 old-location: shell\IHandlerActivationHost.htm
 tech.root: shell
@@ -54,10 +54,7 @@ Enables a client of Shell item activation (including callers of [ShellExecuteEx]
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandlerActivationHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandlerActivationHost</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IHandlerActivationHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandlerActivationHost</b> also has these types of members:
 
 ## -remarks
 

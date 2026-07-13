@@ -113,7 +113,7 @@ The test does not guarantee to display only the resolutions in the array describ
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>StartModeTest</b> method.
+
 
 ## -see-also
 

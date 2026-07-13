@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Clone
 title: IEnumFullIDList::Clone (shobjidl_core.h)
-description: Creates a new item enumeration object with the same contents and state as the current one.
+description: Creates a new item enumeration object with the same contents and state as the current one. (IEnumFullIDList.Clone)
 helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumFullIDList interface","IEnumFullIDList interface [Windows Shell]","Clone method","IEnumFullIDList.Clone","IEnumFullIDList::Clone","_shell_IEnumFullIDList_Clone","shell.IEnumFullIDList_Clone","shobjidl_core/IEnumFullIDList::Clone"]
 old-location: shell\IEnumFullIDList_Clone.htm
 tech.root: shell
@@ -64,4 +64,4 @@ On success, contains the address of an <a href="/windows/desktop/api/shobjidl_co
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

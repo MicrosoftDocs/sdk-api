@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDeleteErrorA
 title: SetupDeleteErrorA function (setupapi.h)
-description: The SetupDeleteError function generates a dialog box that informs the user of a delete error.
-helpviewer_keywords: ["SetupDeleteError","SetupDeleteError function [Setup API]","SetupDeleteErrorA","SetupDeleteErrorW","_setupapi_setupdeleteerror","setup.setupdeleteerror","setupapi/SetupDeleteError","setupapi/SetupDeleteErrorA","setupapi/SetupDeleteErrorW"]
+description: The SetupDeleteError function generates a dialog box that informs the user of a delete error. (ANSI)
+helpviewer_keywords: ["SetupDeleteErrorA", "setupapi/SetupDeleteErrorA"]
 old-location: setup\setupdeleteerror.htm
 tech.root: setup
 ms.assetid: 200e1926-7ebd-4373-803d-1c054db5df8d
@@ -125,4 +125,4 @@ To get extended error information, call
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupDeleteError as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDeleteError as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

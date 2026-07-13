@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.get__NewEnum
 title: IX509PolicyServerListManager::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (IX509PolicyServerListManager.get__NewEnum)
 helpviewer_keywords: ["IX509PolicyServerListManager interface [Security]","_NewEnum property","IX509PolicyServerListManager._NewEnum","IX509PolicyServerListManager.get__NewEnum","IX509PolicyServerListManager::_NewEnum","IX509PolicyServerListManager::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","IX509PolicyServerListManager interface","certenroll/IX509PolicyServerListManager::_NewEnum","certenroll/IX509PolicyServerListManager::get__NewEnum","get__NewEnum","security.ix509policyserverlistmanager__newenum"]
 old-location: security\ix509policyserverlistmanager__newenum.htm
 tech.root: security

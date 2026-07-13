@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVMRSurfaceAllocator interface [DirectShow]","PrepareSurf
 old-location: dshow\ivmrsurfaceallocator_preparesurface.htm
 tech.root: dshow
 ms.assetid: 5978bd6e-1aee-4e5e-9d28-f60e20b5b3e7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRSurfaceAllocator interface [DirectShow],PrepareSurface method, IVMRSurfaceAllocator.PrepareSurface, IVMRSurfaceAllocator::PrepareSurface, IVMRSurfaceAllocatorPrepareSurface, PrepareSurface, PrepareSurface method [DirectShow], PrepareSurface method [DirectShow],IVMRSurfaceAllocator interface, dshow.ivmrsurfaceallocator_preparesurface, strmif/IVMRSurfaceAllocator::PrepareSurface
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>PrepareSurface</code> method prepares the DirectDraw surface to have the next video frame decoded into it.
 

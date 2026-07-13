@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1effectauthor_1.ID2D1EffectContext1
 title: ID2D1EffectContext1 (d2d1effectauthor_1.h)
-description: Provides factory methods and other state management for effect and transform authors.
+description: Provides factory methods and other state management for effect and transform authors. (ID2D1EffectContext1)
 helpviewer_keywords: ["ID2D1EffectContext1","ID2D1EffectContext1 interface [Direct2D]","ID2D1EffectContext1 interface [Direct2D]","described","d2d1effectauthor_1/ID2D1EffectContext1","direct2d.id2d1effectcontext1"]
 old-location: direct2d\id2d1effectcontext1.htm
 tech.root: Direct2D
@@ -54,10 +54,7 @@ Provides factory methods and other state management for effect and transform aut
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1EffectContext1</b> interface inherits from <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>. <b>ID2D1EffectContext1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1EffectContext1</b> interface inherits from <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>. <b>ID2D1EffectContext1</b> also has these types of members:
 
 ## -see-also
 

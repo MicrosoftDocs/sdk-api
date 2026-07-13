@@ -4,7 +4,7 @@ title: IMFVideoMixerControl (evr.h)
 description: Controls how the Enhanced Video Renderer (EVR) mixes video substreams.
 helpviewer_keywords: ["8b5f54e3-c6da-4201-857a-9c718ad911db","IMFVideoMixerControl","IMFVideoMixerControl interface [Media Foundation]","IMFVideoMixerControl interface [Media Foundation]","described","evr/IMFVideoMixerControl","mf.imfvideomixercontrol"]
 old-location: mf\imfvideomixercontrol.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 8b5f54e3-c6da-4201-857a-9c718ad911db
 ms.date: 12/05/2018
 ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], IMFVideoMixerControl interface [Media Foundation],described, evr/IMFVideoMixerControl, mf.imfvideomixercontrol
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoMixerControl
+archived: true
 ---
 
 # IMFVideoMixerControl interface
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Controls how the <a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) mixes video substreams. Applications can use this interface to control video mixing during playback.
 
@@ -67,10 +70,7 @@ The EVR mixer implements this interface. To get a pointer to the interface, call
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMixerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoMixerControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFVideoMixerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoMixerControl</b> also has these types of members:
 
 ## -see-also
 

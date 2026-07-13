@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_AlertThresholds
 title: IAlertDataCollector::put_AlertThresholds (pla.h)
-description: Retrieves or sets a list of performance counters and thresholds to monitor.
+description: Retrieves or sets a list of performance counters and thresholds to monitor. (Put)
 helpviewer_keywords: ["AlertThresholds property [PLA]","AlertThresholds property [PLA]","IAlertDataCollector interface","IAlertDataCollector interface [PLA]","AlertThresholds property","IAlertDataCollector.AlertThresholds","IAlertDataCollector.put_AlertThresholds","IAlertDataCollector::AlertThresholds","IAlertDataCollector::get_AlertThresholds","IAlertDataCollector::put_AlertThresholds","base.ialertdatacollector_alertthresholds","pla.ialertdatacollector_alertthresholds","pla/IAlertDataCollector::AlertThresholds","pla/IAlertDataCollector::get_AlertThresholds","pla/IAlertDataCollector::put_AlertThresholds","put_AlertThresholds"]
 old-location: pla\ialertdatacollector_alertthresholds.htm
 tech.root: PLA

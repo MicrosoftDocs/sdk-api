@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetClassLongW
 title: SetClassLongW function (winuser.h)
-description: Replaces the specified 32-bit (long) value at the specified offset into the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs.
-helpviewer_keywords: ["GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_HBRBACKGROUND","GCL_HCURSOR","GCL_HICON","GCL_HICONSM","GCL_HMODULE","GCL_MENUNAME","GCL_STYLE","GCL_WNDPROC","SetClassLong","SetClassLong function [Windows and Messages]","SetClassLongA","SetClassLongW","_win32_SetClassLong","_win32_setclasslong_cpp","winmsg.setclasslong","winui._win32_setclasslong","winuser/SetClassLong","winuser/SetClassLongA","winuser/SetClassLongW"]
+description: Replaces the specified 32-bit (long) value at the specified offset into the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs. (Unicode)
+helpviewer_keywords: ["GCL_CBCLSEXTRA", "GCL_CBWNDEXTRA", "GCL_HBRBACKGROUND", "GCL_HCURSOR", "GCL_HICON", "GCL_HICONSM", "GCL_HMODULE", "GCL_MENUNAME", "GCL_STYLE", "GCL_WNDPROC", "SetClassLong", "SetClassLong function [Windows and Messages]", "SetClassLongW", "_win32_SetClassLong", "_win32_setclasslong_cpp", "winmsg.setclasslong", "winui._win32_setclasslong", "winuser/SetClassLong", "winuser/SetClassLongW"]
 old-location: winmsg\setclasslong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclasslong.htm
@@ -207,7 +207,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-If you use the <b>SetClassLong</b> function and the <b>GCL_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> callback function. 
+If you use the <b>SetClassLong</b> function and the <b>GCL_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a> callback function. 
 
 Calling <b>SetClassLong</b> with the <b>GCL_WNDPROC</b> index creates a subclass of the window class that affects all windows subsequently created with the class. An application can subclass a system class, but should not subclass a window class created by another process. 
 
@@ -226,7 +226,7 @@ For an example, see <a href="/windows/desktop/menurc/using-icons">Displaying an 
 
 
 > [!NOTE]
-> The winuser.h header defines SetClassLong as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SetClassLong as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -262,4 +262,4 @@ For an example, see <a href="/windows/desktop/menurc/using-icons">Displaying an 
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>

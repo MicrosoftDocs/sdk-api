@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,constD2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink)
 title: ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink) (d2d1_3.h)
-description: Retrieves a geometric representation of this ink object.
+description: Retrieves a geometric representation of this ink object. (overload 3/4)
 helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","StreamAsGeometry method","ID2D1Ink.StreamAsGeometry","ID2D1Ink.StreamAsGeometry(ID2D1InkStyle","const D2D1_MATRIX_3X2_F","ID2D1SimplifiedGeometrySink)","ID2D1Ink::StreamAsGeometry","ID2D1Ink::StreamAsGeometry(ID2D1InkStyle","const D2D1_MATRIX_3X2_F","ID2D1SimplifiedGeometrySink)","StreamAsGeometry","StreamAsGeometry method [Direct2D]","StreamAsGeometry method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::StreamAsGeometry","direct2d.id2d1ink_streamasgeometry_3"]
 old-location: direct2d\id2d1ink_streamasgeometry_3.htm
 tech.root: Direct2D
@@ -76,7 +76,7 @@ The geometry sink to which the geometry representation will be streamed.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

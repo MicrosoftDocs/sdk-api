@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetResourceParentW
 title: WNetGetResourceParentW function (winnetwk.h)
-description: The WNetGetResourceParent function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource.
-helpviewer_keywords: ["WNetGetResourceParent","WNetGetResourceParent function [Windows Networking (WNet)]","WNetGetResourceParentA","WNetGetResourceParentW","_win32_wnetgetresourceparent","dwType","lpProvider","lpRemoteName","winnetwk/WNetGetResourceParent","winnetwk/WNetGetResourceParentA","winnetwk/WNetGetResourceParentW","wnet.wnetgetresourceparent"]
+description: The WNetGetResourceParent function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource. (Unicode)
+helpviewer_keywords: ["WNetGetResourceParent", "WNetGetResourceParent function [Windows Networking (WNet)]", "WNetGetResourceParentW", "_win32_wnetgetresourceparent", "dwType", "lpProvider", "lpRemoteName", "winnetwk/WNetGetResourceParent", "winnetwk/WNetGetResourceParentW", "wnet.wnetgetresourceparent"]
 old-location: wnet\wnetgetresourceparent.htm
 tech.root: WNet
 ms.assetid: 6ad5e2c0-d557-43cc-8ccf-a21160e262f8
@@ -64,8 +64,7 @@ Call the
 
 ### -param lpNetResource [in]
 
-Pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the network resource for which the parent name is required. 
+Pointer to a <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure that specifies the network resource for which the parent name is required. 
 
 
 
@@ -82,7 +81,7 @@ Specify the members of the input
 </tr>
 <tr>
 <td width="40%"><a id="dwType"></a><a id="dwtype"></a><a id="DWTYPE"></a><dl>
-<dt><b><b>dwType</b></b></dt>
+<dt><b>dwType</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -92,7 +91,7 @@ This member should be filled in if known; otherwise, it should be set to <b>NULL
 </tr>
 <tr>
 <td width="40%"><a id="lpRemoteName"></a><a id="lpremotename"></a><a id="LPREMOTENAME"></a><dl>
-<dt><b><b>lpRemoteName</b></b></dt>
+<dt><b>lpRemoteName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +101,7 @@ This member should specify the remote name of the network resource whose parent 
 </tr>
 <tr>
 <td width="40%"><a id="lpProvider"></a><a id="lpprovider"></a><a id="LPPROVIDER"></a><dl>
-<dt><b><b>lpProvider</b></b></dt>
+<dt><b>lpProvider</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -219,7 +218,7 @@ You can call the
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>, 
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a>, or 
 <b>WNetGetResourceParent</b> function to return information from the 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. You can also construct network resource information using the members of the 
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure. You can also construct network resource information using the members of the 
 <b>NETRESOURCE</b> structure.
 
 An example of an inappropriate use of 
@@ -230,7 +229,7 @@ An example of an inappropriate use of
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetGetResourceParent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetGetResourceParent as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

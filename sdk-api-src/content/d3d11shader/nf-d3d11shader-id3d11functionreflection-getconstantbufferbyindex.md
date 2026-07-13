@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionReflection.GetConstantBufferByIndex
 title: ID3D11FunctionReflection::GetConstantBufferByIndex (d3d11shader.h)
-description: Gets a constant buffer by index for a function.
+description: The ID3D11FunctionReflection::GetConstantBufferByIndex (d3d11shader.h) method gets a constant buffer by index for a function.
 helpviewer_keywords: ["GetConstantBufferByIndex","GetConstantBufferByIndex method [Direct3D 11]","GetConstantBufferByIndex method [Direct3D 11]","ID3D11FunctionReflection interface","ID3D11FunctionReflection interface [Direct3D 11]","GetConstantBufferByIndex method","ID3D11FunctionReflection.GetConstantBufferByIndex","ID3D11FunctionReflection::GetConstantBufferByIndex","d3d11shader/ID3D11FunctionReflection::GetConstantBufferByIndex","direct3d11.id3d11functionreflection_getconstantbufferbyindex"]
 old-location: direct3d11\id3d11functionreflection_getconstantbufferbyindex.htm
 tech.root: direct3d11
 ms.assetid: AFA54153-E205-4E6F-B328-9EC0262F2A5C
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D 11], GetConstantBufferByIndex method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetConstantBufferByIndex method, ID3D11FunctionReflection.GetConstantBufferByIndex, ID3D11FunctionReflection::GetConstantBufferByIndex, d3d11shader/ID3D11FunctionReflection::GetConstantBufferByIndex, direct3d11.id3d11functionreflection_getconstantbufferbyindex
 req.header: d3d11shader.h
 req.include-header: 

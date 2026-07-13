@@ -60,7 +60,7 @@ In the descriptions that follow, the data type and value-type tag for the <a hre
 
 ## -enum-fields
 
-### -field MFNETSOURCE_RECVPACKETS_ID
+### -field MFNETSOURCE_RECVPACKETS_ID:0
 
 The number of packets received (<b>LONG</b>, <b>VT_I4</b>).
 

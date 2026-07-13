@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSConnectSessionW
 title: WTSConnectSessionW function (wtsapi32.h)
-description: Connects a Remote Desktop Services session to an existing session on the local computer.
-helpviewer_keywords: ["WTSConnectSession","WTSConnectSession function [Remote Desktop Services]","WTSConnectSessionA","WTSConnectSessionW","termserv.wtsconnectsession","wtsapi32/WTSConnectSession","wtsapi32/WTSConnectSessionA","wtsapi32/WTSConnectSessionW"]
+description: Connects a Remote Desktop Services session to an existing session on the local computer. (Unicode)
+helpviewer_keywords: ["WTSConnectSession", "WTSConnectSession function [Remote Desktop Services]", "WTSConnectSessionW", "termserv.wtsconnectsession", "wtsapi32/WTSConnectSession", "wtsapi32/WTSConnectSessionW"]
 old-location: termserv\wtsconnectsession.htm
 tech.root: TermServ
 ms.assetid: 3911b02c-43df-4a8d-9cd6-92d2e5323f61
@@ -91,4 +91,4 @@ Either the <i>LogonId</i> or <i>TargetLogonId</i> parameter can be <b>LOGONID_CU
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSConnectSession as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSConnectSession as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

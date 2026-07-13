@@ -70,7 +70,7 @@ The access mask used for opening the peer user application and computer token ha
 
 ## -remarks
 
-The <b>SOCKET_SECURITY_QUERY_TEMPLATE</b> structure  is supported on Windows Vistaand later.
+The <b>SOCKET_SECURITY_QUERY_TEMPLATE</b> structure  is supported on Windows Vista and later.
 
 The <b>SOCKET_SECURITY_QUERY_TEMPLATE</b> structure  is used by the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a> function to specify the type of query information to return for a socket. The <b>SOCKET_SECURITY_QUERY_TEMPLATE</b> structure passed to the <b>WSAQuerySocketSecurity</b> function may contain zeros for all members to request default security information. 
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqIfW
 title: RpcServerUseProtseqIfW function (rpcdce.h)
-description: The RpcServerUseProtseqIf function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls.
-helpviewer_keywords: ["RpcServerUseProtseqIf","RpcServerUseProtseqIf function [RPC]","RpcServerUseProtseqIfA","RpcServerUseProtseqIfW","_rpc_rpcserveruseprotseqif","rpc.rpcserveruseprotseqif","rpcdce/RpcServerUseProtseqIf","rpcdce/RpcServerUseProtseqIfA","rpcdce/RpcServerUseProtseqIfW"]
+description: The RpcServerUseProtseqIfW (Unicode) function (rpcdce.h) tells the RPC run-time library to use the specified protocol sequence and endpoints in the interface specification for receiving remote procedure calls. 
+helpviewer_keywords: ["RpcServerUseProtseqIf", "RpcServerUseProtseqIf function [RPC]", "RpcServerUseProtseqIfW", "_rpc_rpcserveruseprotseqif", "rpc.rpcserveruseprotseqif", "rpcdce/RpcServerUseProtseqIf", "rpcdce/RpcServerUseProtseqIfW"]
 old-location: rpc\rpcserveruseprotseqif.htm
 tech.root: Rpc
 ms.assetid: 41c1fa20-266a-4071-91b3-d0fd8196871b
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcServerUseProtseqIf, RpcServerUseProtseqIf function [RPC], RpcServerUseProtseqIfA, RpcServerUseProtseqIfW, _rpc_rpcserveruseprotseqif, rpc.rpcserveruseprotseqif, rpcdce/RpcServerUseProtseqIf, rpcdce/RpcServerUseProtseqIfA, rpcdce/RpcServerUseProtseqIfW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -194,7 +194,7 @@ For more information, see
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcServerUseProtseqIf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcServerUseProtseqIf as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

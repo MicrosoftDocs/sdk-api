@@ -4,7 +4,8 @@ title: Projectedfslib.h header
 ms.assetid: a01433cf-71ee-3901-a4c5-9de9add9d979
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: projfs
 f1_keywords:
  - projectedfslib

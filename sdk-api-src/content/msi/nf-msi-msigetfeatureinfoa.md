@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetFeatureInfoA
 title: MsiGetFeatureInfoA function (msi.h)
-description: Returns descriptive information for a feature.
-helpviewer_keywords: ["INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORADVERTISE","INSTALLFEATUREATTRIBUTE_FAVORLOCAL","INSTALLFEATUREATTRIBUTE_FAVORSOURCE","INSTALLFEATUREATTRIBUTE_FOLLOWPARENT","INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE","MsiGetFeatureInfo","MsiGetFeatureInfo function","MsiGetFeatureInfoA","MsiGetFeatureInfoW","_msi_msigetfeatureinfo","msi/MsiGetFeatureInfo","msi/MsiGetFeatureInfoA","msi/MsiGetFeatureInfoW","setup.msigetfeatureinfo"]
+description: Returns descriptive information for a feature. (ANSI)
+helpviewer_keywords: ["INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE", "INSTALLFEATUREATTRIBUTE_FAVORADVERTISE", "INSTALLFEATUREATTRIBUTE_FAVORLOCAL", "INSTALLFEATUREATTRIBUTE_FAVORSOURCE", "INSTALLFEATUREATTRIBUTE_FOLLOWPARENT", "INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE", "MsiGetFeatureInfoA", "msi/MsiGetFeatureInfoA"]
 old-location: setup\msigetfeatureinfo.htm
 tech.root: setup
 ms.assetid: 2553fddf-3349-4b48-86a9-be63f2d23684
@@ -193,7 +193,7 @@ The buffer sizes for the
 
 
 > [!NOTE]
-> The msi.h header defines MsiGetFeatureInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetFeatureInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

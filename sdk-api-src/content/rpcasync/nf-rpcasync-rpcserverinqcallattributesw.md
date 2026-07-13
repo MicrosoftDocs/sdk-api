@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcasync.RpcServerInqCallAttributesW
 title: RpcServerInqCallAttributesW function (rpcasync.h)
-description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes.
-helpviewer_keywords: ["RpcServerInqCallAttributes","RpcServerInqCallAttributes function [RPC]","RpcServerInqCallAttributesA","RpcServerInqCallAttributesW","_rpc_rpcserverinqcallattributes","rpc.rpcserverinqcallattributes","rpcasync/RpcServerInqCallAttributes","rpcasync/RpcServerInqCallAttributesA","rpcasync/RpcServerInqCallAttributesW"]
+description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes. (Unicode)
+helpviewer_keywords: ["RpcServerInqCallAttributes", "RpcServerInqCallAttributes function [RPC]", "RpcServerInqCallAttributesW", "_rpc_rpcserverinqcallattributes", "rpc.rpcserverinqcallattributes", "rpcasync/RpcServerInqCallAttributes", "rpcasync/RpcServerInqCallAttributesW"]
 old-location: rpc\rpcserverinqcallattributes.htm
 tech.root: Rpc
 ms.assetid: 563b70ed-bc9a-40be-a77b-17b993cc64f3
@@ -113,7 +113,7 @@ Status = RpcServerInqCallAttributes(0, &ClientContextAttributes);
 
 
 > [!NOTE]
-> The rpcasync.h header defines RpcServerInqCallAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcasync.h header defines RpcServerInqCallAttributes as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

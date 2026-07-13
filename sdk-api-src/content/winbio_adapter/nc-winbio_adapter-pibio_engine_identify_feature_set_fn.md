@@ -122,7 +122,7 @@ The <i>Pipeline</i> parameter is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b> WINBIO_E_BAD_CAPTURE</b></b></dt>
+<dt><b> WINBIO_E_BAD_CAPTURE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,7 +133,7 @@ The feature set did not meet internal requirements of the engine adapter for an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_UNKNOWN_ID</b></b></dt>
+<dt><b>WINBIO_E_UNKNOWN_ID</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.GetOpenCardNameA
 title: GetOpenCardNameA function (winscard.h)
-description: The GetOpenCardName function displays the smart card &quot;select card&quot; dialog box.
-helpviewer_keywords: ["GetOpenCardName","GetOpenCardName function [Security]","GetOpenCardNameA","GetOpenCardNameW","_smart_getopencardname","security.getopencardname","winscard/GetOpenCardName","winscard/GetOpenCardNameA","winscard/GetOpenCardNameW"]
+description: The GetOpenCardName function displays the smart card &quot;select card&quot; dialog box. (ANSI)
+helpviewer_keywords: ["GetOpenCardNameA", "winscard/GetOpenCardNameA"]
 old-location: security\getopencardname.htm
 tech.root: security
 ms.assetid: b103cec0-dd28-4f90-864b-5f66d044ec55
@@ -106,4 +106,4 @@ An error code. For more information, see
 ## -remarks
 
 > [!NOTE]
-> The winscard.h header defines GetOpenCardName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines GetOpenCardName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

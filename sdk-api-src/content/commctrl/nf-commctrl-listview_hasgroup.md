@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_HasGroup","ListView_HasGroup macro [Windows Cont
 old-location: controls\ListView_HasGroup.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hasgroup.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_HasGroup, ListView_HasGroup macro [Windows Controls], _win32_ListView_HasGroup, _win32_ListView_HasGroup_cpp, commctrl/ListView_HasGroup, controls.ListView_HasGroup, controls._win32_ListView_HasGroup
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_HasGroup macro
+
+## -syntax
+
+```cpp
+BOOL ListView_HasGroup(
+   HWND hwnd,
+   int  dwGroupId
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if the list-view control has the specified group, or <b>FALSE</b> otherwise.
 
 
 ## -description

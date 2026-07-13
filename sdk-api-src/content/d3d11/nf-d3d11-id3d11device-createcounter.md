@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateCounter
 title: ID3D11Device::CreateCounter (d3d11.h)
-description: Create a counter object for measuring GPU performance.
+description: Create a counter object for measuring GPU performance. (ID3D11Device.CreateCounter)
 helpviewer_keywords: ["CreateCounter","CreateCounter method [Direct3D 11]","CreateCounter method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateCounter method","ID3D11Device.CreateCounter","ID3D11Device::CreateCounter","ac3cd491-a912-ddaf-0f13-ac5555a100ca","d3d11/ID3D11Device::CreateCounter","direct3d11.id3d11device_createcounter"]
 old-location: direct3d11\id3d11device_createcounter.htm
 tech.root: direct3d11

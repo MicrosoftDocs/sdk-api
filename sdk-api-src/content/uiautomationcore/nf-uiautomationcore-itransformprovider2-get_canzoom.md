@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.get_CanZoom
 title: ITransformProvider2::get_CanZoom (uiautomationcore.h)
-description: Indicates whether the control supports zooming of its viewport.
+description: Indicates whether the control supports zooming of its viewport. (ITransformProvider2.get_CanZoom)
 helpviewer_keywords: ["CanZoom property [Windows Accessibility]","CanZoom property [Windows Accessibility]","ITransformProvider2 interface","ITransformProvider2 interface [Windows Accessibility]","CanZoom property","ITransformProvider2.CanZoom","ITransformProvider2.get_CanZoom","ITransformProvider2::CanZoom","ITransformProvider2::get_CanZoom","get_CanZoom","uiautomationcore/ITransformProvider2::CanZoom","uiautomationcore/ITransformProvider2::get_CanZoom","winauto.uiauto_ITransformProvider2_CanZoom"]
 old-location: winauto\uiauto_ITransformProvider2_CanZoom.htm
 tech.root: WinAuto

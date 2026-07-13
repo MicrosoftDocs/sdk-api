@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_ufn2dnA
 title: ldap_ufn2dnA function (winldap.h)
-description: Converts a user-friendly name to a distinguished name.
-helpviewer_keywords: ["_ldap_ldap_ufn2dn","ldap.ldap__ufn2dn","ldap.ldap_ufn2dn","ldap_ufn2dn","ldap_ufn2dn function [LDAP]","ldap_ufn2dnA","ldap_ufn2dnW","winldap/ldap_ufn2dn","winldap/ldap_ufn2dnA","winldap/ldap_ufn2dnW"]
+description: Converts a user-friendly name to a distinguished name. (ldap_ufn2dnA)
+helpviewer_keywords: ["ldap.ldap__ufn2dn", "ldap_ufn2dnA", "winldap/ldap_ufn2dnA"]
 old-location: ldap\ldap_ufn2dn.htm
 tech.root: ldap
 ms.assetid: aca3942b-4371-48d2-8975-8d184abd1a49

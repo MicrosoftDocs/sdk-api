@@ -56,10 +56,10 @@ The <b>URLASSOCIATIONDIALOG_IN_FLAGS</b> enumerated values are used with <a href
 
 ## -enum-fields
 
-### -field URLASSOCDLG_FL_USE_DEFAULT_NAME
+### -field URLASSOCDLG_FL_USE_DEFAULT_NAME:0x0001
 
 Use the default file name (that is, "Internet Shortcut").
 
-### -field URLASSOCDLG_FL_REGISTER_ASSOC
+### -field URLASSOCDLG_FL_REGISTER_ASSOC:0x0002
 
 Register the selected application as the handler for the protocol specified in the <i>pcszURL</i> parameter of <a href="/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga">URLAssociationDialog</a>. The application is registered only if this flag is set and the user indicates that a persistent association is desired.

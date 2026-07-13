@@ -96,7 +96,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_BAD_INDEX_VECTOR</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_BAD_INDEX_VECTOR</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ The size of the  index vector specified in the <a href="/windows/win32/api/winbi
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DUPLICATE_ENROLLMENT</b></b></dt>
+<dt><b>WINBIO_E_DUPLICATE_ENROLLMENT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +119,7 @@ The database already contains a template with the combination of values specifie
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_CORRUPTED</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_CORRUPTED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +130,7 @@ There is an unspecified problem with the database.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_FULL</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_FULL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -141,7 +141,7 @@ The database is full and no further records can be added.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_LOCKED</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_LOCKED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,7 +152,7 @@ The database is locked.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_WRITE_ERROR</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_WRITE_ERROR</b></dt>
 </dl>
 </td>
 <td width="60%">

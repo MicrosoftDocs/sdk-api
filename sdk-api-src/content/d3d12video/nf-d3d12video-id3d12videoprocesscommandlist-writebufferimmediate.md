@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.WriteBufferImmediate
 title: ID3D12VideoProcessCommandList::WriteBufferImmediate
-description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.
+description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream. (ID3D12VideoProcessCommandList::WriteBufferImmediate)
 helpviewer_keywords: ["ID3D12VideoProcessCommandList::WriteBufferImmediate","WriteBufferImmediate","ID3D12VideoProcessCommandList.WriteBufferImmediate","ID3D12VideoProcessCommandList::WriteBufferImmediate","ID3D12VideoProcessCommandList.WriteBufferImmediate"]
 tech.root: mf
 ms.assetid: adb313fe-7c4b-451e-b1a8-19b390460194

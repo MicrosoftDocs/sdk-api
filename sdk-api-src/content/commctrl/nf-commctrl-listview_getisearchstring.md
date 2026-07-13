@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetISearchString","ListView_GetISearchString mac
 old-location: controls\ListView_GetISearchString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getisearchstring.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetISearchString, ListView_GetISearchString macro [Windows Controls], _win32_ListView_GetISearchString, _win32_ListView_GetISearchString_cpp, commctrl/ListView_GetISearchString, controls.ListView_GetISearchString, controls._win32_ListView_GetISearchString
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetISearchString macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetISearchString(
+   HWND  hwndLV,
+   LPSTR lpsz
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns the number of characters in the incremental search string, or zero if the list-view control is not in incremental search mode.
 
 
 ## -description

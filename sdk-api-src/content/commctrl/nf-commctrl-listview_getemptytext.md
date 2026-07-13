@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetEmptyText","ListView_GetEmptyText macro [Wind
 old-location: controls\ListView_GetEmptyText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getemptytext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetEmptyText, ListView_GetEmptyText macro [Windows Controls], _shell_ListView_GetEmptyText, _shell_ListView_GetEmptyText_cpp, commctrl/ListView_GetEmptyText, controls.ListView_GetEmptyText, controls._shell_ListView_GetEmptyText
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetEmptyText macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetEmptyText(
+  [in]      HWND  hwnd,
+  [in, out] PWSTR pszText,
+  [in]      UINT  cchText
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

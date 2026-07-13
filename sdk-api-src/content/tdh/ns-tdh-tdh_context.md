@@ -69,5 +69,4 @@ Context type. For a list of types, see the <a href="/windows/desktop/api/tdh/ne-
 Reserved for future use.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a>

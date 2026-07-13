@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCSC_BACKGROUND","MCSC_MONTHBK","MCSC_TEXT","MCSC_TITLEBK
 old-location: controls\MonthCal_GetColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, MonthCal_GetColor, MonthCal_GetColor macro [Windows Controls], _win32_MonthCal_GetColor, _win32_MonthCal_GetColor_cpp, commctrl/MonthCal_GetColor, controls.MonthCal_GetColor, controls._win32_MonthCal_GetColor
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # MonthCal_GetColor macro
 
+## -syntax
+
+```cpp
+COLORREF MonthCal_GetColor(
+   HWND hmc,
+   INT  iColor
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>COLORREF</b> value that represents the color setting for the specified portion of the month calendar control if successful. Otherwise, the return is -1.
 
 ## -description
 

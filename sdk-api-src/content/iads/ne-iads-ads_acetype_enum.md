@@ -58,63 +58,63 @@ For more information and possible values for file, file share and registry objec
 
 ## -enum-fields
 
-### -field ADS_ACETYPE_ACCESS_ALLOWED
+### -field ADS_ACETYPE_ACCESS_ALLOWED:0
 
 The ACE is of the standard ACCESS ALLOWED type, where the <b>ObjectType</b> and <b>InheritedObjectType</b> fields are <b>NULL</b>.
 
-### -field ADS_ACETYPE_ACCESS_DENIED
+### -field ADS_ACETYPE_ACCESS_DENIED:0x1
 
 The ACE is of the standard system-audit type, where the <b>ObjectType</b> and <b>InheritedObjectType</b> fields are <b>NULL</b>.
 
-### -field ADS_ACETYPE_SYSTEM_AUDIT
+### -field ADS_ACETYPE_SYSTEM_AUDIT:0x2
 
 The ACE is of the standard system type, where the <b>ObjectType</b> and <b>InheritedObjectType</b> fields are <b>NULL</b>.
 
-### -field ADS_ACETYPE_ACCESS_ALLOWED_OBJECT
+### -field ADS_ACETYPE_ACCESS_ALLOWED_OBJECT:0x5
 
 The ACE grants access to an object or a subobject of the object, such as a property set or property. <b>ObjectType</b> or <b>InheritedObjectType</b> or both contain a GUID that identifies a property set, property, extended right, or type of child object.
 
-### -field ADS_ACETYPE_ACCESS_DENIED_OBJECT
+### -field ADS_ACETYPE_ACCESS_DENIED_OBJECT:0x6
 
 The ACE denies access to an object or a subobject of the object, such as a property set or property. <b>ObjectType</b> or <b>InheritedObjectType</b> or both contain a GUID that identifies a property set, property, extended right, or type of child object.
 
-### -field ADS_ACETYPE_SYSTEM_AUDIT_OBJECT
+### -field ADS_ACETYPE_SYSTEM_AUDIT_OBJECT:0x7
 
 The ACE audits access to an object or a subobject of the object, such as a property set or property. <b>ObjectType</b> or <b>InheritedObjectType</b> or both contain a GUID that identifies a property set, property, extended right, or type of child object.
 
-### -field ADS_ACETYPE_SYSTEM_ALARM_OBJECT
+### -field ADS_ACETYPE_SYSTEM_ALARM_OBJECT:0x8
 
 Not used.
 
-### -field ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK
+### -field ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK:0x9
 
 Same functionality as <b>ADS_ACETYPE_ACCESS_ALLOWED</b>, but used with applications that use Authz to verify ACEs.
 
-### -field ADS_ACETYPE_ACCESS_DENIED_CALLBACK
+### -field ADS_ACETYPE_ACCESS_DENIED_CALLBACK:0xa
 
 Same functionality as <b>ADS_ACETYPE_ACCESS_DENIED</b>, but used with applications that use Authz to verify ACEs.
 
-### -field ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK_OBJECT
+### -field ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK_OBJECT:0xb
 
 Same functionality as <b>ADS_ACETYPE_ACCESS_ALLOWED_OBJECT</b>, but used with applications that use Authz to verify ACEs.
 
-### -field ADS_ACETYPE_ACCESS_DENIED_CALLBACK_OBJECT
+### -field ADS_ACETYPE_ACCESS_DENIED_CALLBACK_OBJECT:0xc
 
 Same functionality as <b>ADS_ACETYPE_ACCESS_DENIED_OBJECT</b>, but used with applications that use Authz to check ACEs.
 
-### -field ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK
+### -field ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK:0xd
 
 Same functionality as <b>ADS_ACETYPE_SYSTEM_AUDIT</b>, but used with applications that use Authz to check ACEs.
 
-### -field ADS_ACETYPE_SYSTEM_ALARM_CALLBACK
+### -field ADS_ACETYPE_SYSTEM_ALARM_CALLBACK:0xe
 
 Not used.
 
-### -field ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK_OBJECT
+### -field ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK_OBJECT:0xf
 
 Same functionality as <b>ADS_ACETYPE_SYSTEM_AUDIT_OBJECT</b>, but used with applications that use Authz to verify ACEs.
 
-### -field ADS_ACETYPE_SYSTEM_ALARM_CALLBACK_OBJECT
+### -field ADS_ACETYPE_SYSTEM_ALARM_CALLBACK_OBJECT:0x10
 
 Not used.
 

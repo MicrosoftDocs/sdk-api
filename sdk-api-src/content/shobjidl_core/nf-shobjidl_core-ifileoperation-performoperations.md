@@ -52,7 +52,7 @@ api_name:
 
 Executes all selected operations.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ Defines the set of possible authentication parameter values.
 
 ## -enum-fields
 
-### -field EapHostPeerAuthStatus
+### -field EapHostPeerAuthStatus:1
 
 Contains the current status of authentication for the supplicant.
 

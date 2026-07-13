@@ -1,7 +1,7 @@
 ---
-UID: NS:ntdsapi.__unnamed_struct_12
+UID: NS:ntdsapi.DS_SCHEMA_GUID_MAPW
 title: DS_SCHEMA_GUID_MAPW (ntdsapi.h)
-description: Contains the results of a call to DsMapSchemaGuids.
+description: Contains the results of a call to DsMapSchemaGuids. (Unicode)
 helpviewer_keywords: ["*PDS_SCHEMA_GUID_MAPW","DS_SCHEMA_GUID_ATTR","DS_SCHEMA_GUID_ATTR_SET","DS_SCHEMA_GUID_CLASS","DS_SCHEMA_GUID_CONTROL_RIGHT","DS_SCHEMA_GUID_MAP","DS_SCHEMA_GUID_MAP structure [Active Directory]","DS_SCHEMA_GUID_MAPA","DS_SCHEMA_GUID_MAPW","DS_SCHEMA_GUID_NOT_FOUND","PDS_SCHEMA_GUID_MAP","PDS_SCHEMA_GUID_MAP structure pointer [Active Directory]","_glines_ds_schema_guid_map","ad.ds__schema__guid__map","ad.ds_schema_guid_map","ntdsapi/DS_SCHEMA_GUID_MAP","ntdsapi/DS_SCHEMA_GUID_MAPA","ntdsapi/DS_SCHEMA_GUID_MAPW","ntdsapi/PDS_SCHEMA_GUID_MAP"]
 old-location: ad\ds_schema_guid_map.htm
 tech.root: ad
@@ -149,4 +149,5 @@ The GUID cannot be found in the directory service schema.
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DS_SCHEMA_GUID_MAP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DS_SCHEMA_GUID_MAP as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

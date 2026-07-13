@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBstrFromUI8
 title: VarBstrFromUI8 function (oleauto.h)
-description: Converts an 8-byte unsigned integer value to a BSTR value.
+description: Converts an 8-byte unsigned integer value to a BSTR value. (VarBstrFromUI8)
 helpviewer_keywords: ["VarBstrFromUI8","VarBstrFromUI8 function [Automation]","_oa96_VarBstrFromUI8","automat.varbstrfromui8","oleauto/VarBstrFromUI8"]
 old-location: automat\varbstrfromui8.htm
 tech.root: automat

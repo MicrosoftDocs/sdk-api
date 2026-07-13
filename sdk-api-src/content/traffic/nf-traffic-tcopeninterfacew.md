@@ -1,8 +1,8 @@
 ---
 UID: NF:traffic.TcOpenInterfaceW
 title: TcOpenInterfaceW function (traffic.h)
-description: The TcOpenInterface function opens an interface.
-helpviewer_keywords: ["TcOpenInterface","TcOpenInterface function [QOS]","TcOpenInterfaceA","TcOpenInterfaceW","_gqos_tcopeninterface","qos.tcopeninterface","traffic/TcOpenInterface","traffic/TcOpenInterfaceA","traffic/TcOpenInterfaceW"]
+description: The TcOpenInterface function opens an interface. (Unicode)
+helpviewer_keywords: ["TcOpenInterface", "TcOpenInterface function [QOS]", "TcOpenInterfaceW", "_gqos_tcopeninterface", "qos.tcopeninterface", "traffic/TcOpenInterface", "traffic/TcOpenInterfaceW"]
 old-location: qos\tcopeninterface.htm
 tech.root: QOS
 ms.assetid: 8c7e658c-862f-4715-9ba5-ac079db924a1
@@ -151,7 +151,7 @@ Use of the
 
 
 > [!NOTE]
-> The traffic.h header defines TcOpenInterface as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The traffic.h header defines TcOpenInterface as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

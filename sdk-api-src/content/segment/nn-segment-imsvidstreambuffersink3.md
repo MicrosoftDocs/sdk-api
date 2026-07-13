@@ -50,18 +50,20 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         </div>
-<div> </div>
+<div> </div>
 
 
 The <b>IMSVidStreamBufferSink3</b> interface represents the Stream Buffer Sink filter within the Video Control.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink3</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink2">IMSVidStreamBufferSink2</a>. <b>IMSVidStreamBufferSink3</b> also has these types of members:
+The <b>IMSVidStreamBufferSink3</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink2">IMSVidStreamBufferSink2</a>. <b>IMSVidStreamBufferSink3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

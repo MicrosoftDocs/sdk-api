@@ -4,7 +4,7 @@ title: MFVideoAlphaBitmapParams (evr9.h)
 description: Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.
 helpviewer_keywords: ["3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce","MFVideoAlphaBitmapParams","MFVideoAlphaBitmapParams structure [Media Foundation]","evr9/MFVideoAlphaBitmapParams","mf.mfvideoalphabitmapparams"]
 old-location: mf\mfvideoalphabitmapparams.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce
 ms.date: 12/05/2018
 ms.keywords: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce, MFVideoAlphaBitmapParams, MFVideoAlphaBitmapParams structure [Media Foundation], evr9/MFVideoAlphaBitmapParams, mf.mfvideoalphabitmapparams
@@ -43,12 +43,15 @@ api_location:
  - evr9.h
 api_name:
  - MFVideoAlphaBitmapParams
+archived: true
 ---
 
 # MFVideoAlphaBitmapParams structure
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.
 

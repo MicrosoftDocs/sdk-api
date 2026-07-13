@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-libraryloader-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
  - KernelBase.dll
@@ -66,7 +67,7 @@ Retrieves the size, in bytes, of the specified resource.
 
 Type: <b>HMODULE</b>
 
-A handle to the module whose executable file contains the resource.
+A handle to the module whose executable file contains the resource. Default is the module used to create the current process.
 
 ### -param hResInfo [in]
 

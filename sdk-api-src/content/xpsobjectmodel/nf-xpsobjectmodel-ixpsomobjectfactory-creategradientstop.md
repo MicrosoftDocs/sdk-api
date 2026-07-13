@@ -159,7 +159,7 @@ The following illustration shows the gradient stops of a radial gradient. In thi
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient2.png"/>
 The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface specifies one and only one stop in a gradient.
 
-The calculations used to render a gradient are described in the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.
+The calculations used to render a gradient are described in the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
@@ -221,7 +221,7 @@ else
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

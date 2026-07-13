@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportActiveIScsiTargetMappingsW
 title: ReportActiveIScsiTargetMappingsW function (iscsidsc.h)
-description: ReportActiveIscsiTargetMappings function retrieves the target mappings that are currently active for all initiators on the computer.
-helpviewer_keywords: ["ReportActiveIScsiTargetMappingsW","ReportActiveIscsiTargetMappings","ReportActiveIscsiTargetMappings function [iSCSI Discovery Library API]","ReportActiveIscsiTargetMappingsA","ReportActiveIscsiTargetMappingsW","iscsidisc.reportactiveiscsitargetmappings","iscsidsc/ReportActiveIscsiTargetMappings","iscsidsc/ReportActiveIscsiTargetMappingsA","iscsidsc/ReportActiveIscsiTargetMappingsW"]
+description: ReportActiveIscsiTargetMappings function retrieves the target mappings that are currently active for all initiators on the computer. (Unicode)
+helpviewer_keywords: ["ReportActiveIScsiTargetMappingsW", "ReportActiveIscsiTargetMappings", "ReportActiveIscsiTargetMappings function [iSCSI Discovery Library API]", "ReportActiveIscsiTargetMappingsW", "iscsidisc.reportactiveiscsitargetmappings", "iscsidsc/ReportActiveIscsiTargetMappings", "iscsidsc/ReportActiveIscsiTargetMappingsW"]
 old-location: iscsidisc\reportactiveiscsitargetmappings.htm
 tech.root: iSCSIDisc
 ms.assetid: 24de0e43-ba16-4598-92c5-ea17da17e030
@@ -85,7 +85,7 @@ Target mappings associate bus, target and LUN numbers with the LUNs on a target 
 
 
 > [!NOTE]
-> The iscsidsc.h header defines ReportActiveIScsiTargetMappings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ReportActiveIScsiTargetMappings as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

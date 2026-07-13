@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.put_NotificationLevel
 title: IAutomaticUpdatesSettings::put_NotificationLevel (wuapi.h)
-description: Gets and sets how users are notified about Automatic Update events.
+description: Gets and sets how users are notified about Automatic Update events. (Put)
 helpviewer_keywords: ["IAutomaticUpdatesSettings interface [Windows Update Agent]","NotificationLevel property","IAutomaticUpdatesSettings.NotificationLevel","IAutomaticUpdatesSettings.put_NotificationLevel","IAutomaticUpdatesSettings::NotificationLevel","IAutomaticUpdatesSettings::get_NotificationLevel","IAutomaticUpdatesSettings::put_NotificationLevel","NotificationLevel property [Windows Update Agent]","NotificationLevel property [Windows Update Agent]","IAutomaticUpdatesSettings interface","put_NotificationLevel","wua.iautomaticupdatessettings_notificationlevel","wuapi/IAutomaticUpdatesSettings::NotificationLevel","wuapi/IAutomaticUpdatesSettings::get_NotificationLevel","wuapi/IAutomaticUpdatesSettings::put_NotificationLevel"]
 old-location: wua\iautomaticupdatessettings_notificationlevel.htm
 tech.root: wua

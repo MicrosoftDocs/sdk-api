@@ -69,7 +69,6 @@ Reserved.
 An array of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structures that contain information about each event.
 
 ## -see-also
-
 <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 

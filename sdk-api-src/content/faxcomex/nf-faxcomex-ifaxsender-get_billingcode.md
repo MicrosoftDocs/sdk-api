@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_BillingCode
 title: IFaxSender::get_BillingCode (faxcomex.h)
-description: The IFaxSender::get_BillingCode property is a null-terminated string that contains the billing code associated with the sender.
+description: The IFaxSender::get_BillingCode property is a null-terminated string that contains the billing code associated with the sender. (Get)
 helpviewer_keywords: ["BillingCode property [Fax Service]","BillingCode property [Fax Service]","IFaxSender interface","IFaxSender interface [Fax Service]","BillingCode property","IFaxSender.BillingCode","IFaxSender.get_BillingCode","IFaxSender::BillingCode","IFaxSender::get_BillingCode","IFaxSender::put_BillingCode","_mfax_faxsender.billingcode","fax._mfax_faxsender_billingcode","fax._mfax_faxsender_cpp_mfax_faxsender_billingcode_cpp","faxcomex/IFaxSender::BillingCode","faxcomex/IFaxSender::get_BillingCode","faxcomex/IFaxSender::put_BillingCode","get_BillingCode"]
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_billingcode_cpp.htm
 tech.root: Fax

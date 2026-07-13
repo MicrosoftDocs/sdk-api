@@ -54,13 +54,13 @@ Moves one endpoint of the text range the specified number of <a href="/windows/d
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param endpoint [in]
 
 Type: <b>TextPatternRangeEndpoint</b>
 
 The endpoint to move.
 
-### -param unnamedParam2 [in]
+### -param unit [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
 
@@ -83,7 +83,7 @@ Receives the number of units actually moved, which can be less than the number r
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

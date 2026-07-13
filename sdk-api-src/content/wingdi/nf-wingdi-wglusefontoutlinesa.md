@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.wglUseFontOutlinesA
 title: wglUseFontOutlinesA function (wingdi.h)
-description: The wglUseFontOutlines function creates a set of display lists, one for each glyph of the currently selected outline font of a device context, for use with the current rendering context.
-helpviewer_keywords: ["_ogl_wglUseFontOutlines","opengl.wglusefontoutlines","wglUseFontOutlines","wglUseFontOutlines function [OpenGL]","wglUseFontOutlinesA","wglUseFontOutlinesW","wingdi/wglUseFontOutlines","wingdi/wglUseFontOutlinesA","wingdi/wglUseFontOutlinesW"]
+description: The wglUseFontOutlines function creates a set of display lists, one for each glyph of the currently selected outline font of a device context, for use with the current rendering context. (ANSI)
+helpviewer_keywords: ["wglUseFontOutlinesA", "wingdi/wglUseFontOutlinesA"]
 old-location: opengl\wglusefontoutlines.htm
 tech.root: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
@@ -154,7 +154,7 @@ glCallLists(24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World.");
 
 
 > [!NOTE]
-> The wingdi.h header defines wglUseFontOutlines as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines wglUseFontOutlines as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

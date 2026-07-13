@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMClockSlave","IAMClockSlave interface [DirectShow]","IA
 old-location: dshow\iamclockslave.htm
 tech.root: dshow
 ms.assetid: 7b3d0f93-09dd-4a36-a031-70f61402c314
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], IAMClockSlave interface [DirectShow],described, IAMClockSlaveInterface, dshow.iamclockslave, strmif/IAMClockSlave
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IAMClockSlave</code> interface controls the tolerance of an audio renderer when it is matching rates with another clock.
 
 If the audio renderer is matching rates with another clock, it allows the audio to drift up to the amount of the specified tolerance. If the audio drifts too far ahead, the renderer drops samples; if it drifts too far behind, the renderer inserts silent gaps. This interface enables an application to change the tolerance from the default.
@@ -59,10 +61,7 @@ Setting a larger tolerance is likely to result in the audio stream becoming out 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMClockSlave</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMClockSlave</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMClockSlave</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMClockSlave</b> also has these types of members:
 
 ## -see-also
 

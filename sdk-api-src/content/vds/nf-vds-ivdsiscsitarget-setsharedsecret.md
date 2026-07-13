@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.SetSharedSecret
 title: IVdsIscsiTarget::SetSharedSecret (vds.h)
-description: Sets the target CHAP shared secret that is used for CHAP authentication when the target authenticates the initiator.
+description: The IVdsIscsiTarget::SetSharedSecret method (vds.h) sets the target CHAP shared secret used for CHAP authentication when the target authenticates the initiator.
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","SetSharedSecret method","IVdsIscsiTarget.SetSharedSecret","IVdsIscsiTarget::SetSharedSecret","SetSharedSecret","SetSharedSecret method [VDS]","SetSharedSecret method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_setsharedsecret","vds/IVdsIscsiTarget::SetSharedSecret","vdshwprv/IVdsIscsiTarget::SetSharedSecret"]
 old-location: base\ivdsiscsitarget_setsharedsecret.htm
 tech.root: base
 ms.assetid: 2b2eae3d-8ad0-4b68-943b-a42696165543
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTarget.SetSharedSecret, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the target CHAP shared secret that is used for CHAP authentication when the target authenticates the 
    initiator.
@@ -81,7 +81,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -92,7 +92,7 @@ The shared secret was set successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -108,7 +108,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -120,7 +120,7 @@ The target object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 <dt>0x80042400L</dt>
 </dl>
 </td>
@@ -132,7 +132,7 @@ This operation or combination of parameters is not supported by this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_INITIATOR_SPECIFIC_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_INITIATOR_SPECIFIC_NOT_SUPPORTED</b></dt>
 <dt>0x80042707L</dt>
 </dl>
 </td>

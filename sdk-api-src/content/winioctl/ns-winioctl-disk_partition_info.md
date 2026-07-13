@@ -71,7 +71,7 @@ For more information, see [PARTITION_STYLE](ne-winioctl-partition_style.md).
 
 ### -field DUMMYUNIONNAME.Mbr
 
-If **PartitionStyle** is **PARTITION_STYLE_MBR** (0), the union is a structure that contains information for an master boot record partition, which includes a disk signature and a checksum.
+If **PartitionStyle** is **PARTITION_STYLE_MBR** (0), the union is a structure that contains information for a master boot record partition, which includes a disk signature and a checksum.
 
 ### -field DUMMYUNIONNAME.Mbr.Signature
 

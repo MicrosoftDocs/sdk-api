@@ -6,7 +6,7 @@ helpviewer_keywords: ["IGraphConfig interface [DirectShow]","Reconfigure method"
 old-location: dshow\igraphconfig_reconfigure.htm
 tech.root: dshow
 ms.assetid: 924087c0-e3ad-437b-96e5-de39bbce2ea7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IGraphConfig interface [DirectShow],Reconfigure method, IGraphConfig.Reconfigure, IGraphConfig::Reconfigure, IGraphConfigReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconfigure, strmif/IGraphConfig::Reconfigure
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Reconfigure</code> method locks the filter graph and calls a callback function in the application or filter to perform a dynamic reconfiguration.
 

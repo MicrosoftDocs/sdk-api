@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_6
+UID: NS:winioctl.VOLUME_BITMAP_BUFFER
 title: VOLUME_BITMAP_BUFFER
 description: Represents the occupied and available clusters on a disk.
 helpviewer_keywords: ["*PVOLUME_BITMAP_BUFFER","PVOLUME_BITMAP_BUFFER","PVOLUME_BITMAP_BUFFER structure pointer [Files]","VOLUME_BITMAP_BUFFER","VOLUME_BITMAP_BUFFER structure [Files]","_win32_volume_bitmap_buffer_str","base.volume_bitmap_buffer_str","fs.volume_bitmap_buffer_str","winioctl/PVOLUME_BITMAP_BUFFER","winioctl/VOLUME_BITMAP_BUFFER"]
@@ -79,3 +79,4 @@ The <b>BitmapSize</b> member is the number of clusters on the volume starting fr
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>
+

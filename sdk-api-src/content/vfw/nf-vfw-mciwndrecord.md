@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndRecord","MCIWndRecord macro [Windows Multimedia]","
 old-location: multimedia\mciwndrecord.htm
 tech.root: Multimedia
 ms.assetid: 9f68f258-6e7d-45f0-8b42-93a03d559c04
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndRecord, MCIWndRecord macro [Windows Multimedia], _win32_MCIWndRecord, multimedia.mciwndrecord, vfw/MCIWndRecord
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndRecord macro
+
+## -syntax
+
+```cpp
+LONG MCIWndRecord(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

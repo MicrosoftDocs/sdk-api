@@ -91,7 +91,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 
 ## -remarks
 
-A superscope is the set of all subnets defined on a DHCP server, and hence all scopes along with the IP address ranges each serves. Taken altogether, a superscope provides a complete set of all IP addresses served by the DHCP server. The superscope table provides the IP addresses associated with each subnet. To obtain the IP ranges served by each, <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetsubnetinfo">DhcpGetSubnetInfo</a> should be called on the IP address provided in each <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_super_scope_table_entry">DHCP_SUPER_SCOPE_TABLE_ENTRY</a>structure of the table.
+A superscope is the set of all subnets defined on a DHCP server, and hence all scopes along with the IP address ranges each serves. Taken altogether, a superscope provides a complete set of all IP addresses served by the DHCP server. The superscope table provides the IP addresses associated with each subnet. To obtain the IP ranges served by each, <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetsubnetinfo">DhcpGetSubnetInfo</a> should be called on the IP address provided in each <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_super_scope_table_entry">DHCP_SUPER_SCOPE_TABLE_ENTRY</a> structure of the table.
 
 ## -see-also
 

@@ -4,7 +4,8 @@ title: Commdlg.h header
 ms.assetid: 6f102f30-dc60-3106-8d84-e0a9a81401c2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: dlgbox
 f1_keywords:
  - commdlg

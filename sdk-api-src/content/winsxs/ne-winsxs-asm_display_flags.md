@@ -56,30 +56,30 @@ The values of the  <b>ASM_DISPLAY_FLAGS</b> enumeration are used by the <a href=
 
 ## -enum-fields
 
-### -field ASM_DISPLAYF_VERSION
+### -field ASM_DISPLAYF_VERSION:0x1
 
 Include the version number.
 
-### -field ASM_DISPLAYF_CULTURE
+### -field ASM_DISPLAYF_CULTURE:0x2
 
 Include the culture.
 
-### -field ASM_DISPLAYF_PUBLIC_KEY_TOKEN
+### -field ASM_DISPLAYF_PUBLIC_KEY_TOKEN:0x4
 
 Include the public key token.
 
-### -field ASM_DISPLAYF_PUBLIC_KEY
+### -field ASM_DISPLAYF_PUBLIC_KEY:0x8
 
 Include the public key.
 
-### -field ASM_DISPLAYF_CUSTOM
+### -field ASM_DISPLAYF_CUSTOM:0x10
 
 Include the custom part of the assembly name.
 
-### -field ASM_DISPLAYF_PROCESSORARCHITECTURE
+### -field ASM_DISPLAYF_PROCESSORARCHITECTURE:0x20
 
 Include the processor architecture.
 
-### -field ASM_DISPLAYF_LANGUAGEID
+### -field ASM_DISPLAYF_LANGUAGEID:0x40
 
 Reserved.

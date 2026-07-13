@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.put_UserId
 title: ISessionStateChangeTrigger::put_UserId (taskschd.h)
-description: Gets or sets the user for the Terminal Server session. When a session state change is detected for this user, a task is started.
+description: Gets or sets the user for the Terminal Server session. When a session state change is detected for this user, a task is started. (Put)
 helpviewer_keywords: ["ISessionStateChangeTrigger interface [Task Scheduler]","UserId property","ISessionStateChangeTrigger.UserId","ISessionStateChangeTrigger.put_UserId","ISessionStateChangeTrigger::UserId","ISessionStateChangeTrigger::get_UserId","ISessionStateChangeTrigger::put_UserId","UserId property [Task Scheduler]","UserId property [Task Scheduler]","ISessionStateChangeTrigger interface","put_UserId","taskschd.isessionstatechangetrigger_userid","taskschd/ISessionStateChangeTrigger::UserId","taskschd/ISessionStateChangeTrigger::get_UserId","taskschd/ISessionStateChangeTrigger::put_UserId"]
 old-location: taskschd\isessionstatechangetrigger_userid.htm
 tech.root: taskschd

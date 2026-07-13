@@ -4,7 +4,7 @@ title: IFilter::BindRegion (filter.h)
 description: Retrieves an interface representing the specified portion of object. Currently reserved for future use.
 helpviewer_keywords: ["BindRegion","BindRegion method [Indexing Service]","BindRegion method [Indexing Service]","IFilter interface","IFilter interface [Indexing Service]","BindRegion method","IFilter.BindRegion","IFilter::BindRegion","_idxs_IFilter_BindRegion","filter/IFilter::BindRegion","indexsrv.ifilter_bindregion"]
 old-location: indexsrv\ifilter_bindregion.htm
-tech.root: IndexSrv
+tech.root: search
 ms.assetid: VS|indexsrv|~\html\ixrefint_8bam.htm
 ms.date: 12/05/2018
 ms.keywords: BindRegion, BindRegion method [Indexing Service], BindRegion method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],BindRegion method, IFilter.BindRegion, IFilter::BindRegion, _idxs_IFilter_BindRegion, filter/IFilter::BindRegion, indexsrv.ifilter_bindregion
@@ -49,9 +49,6 @@ api_name:
 
 
 ## -description
-
-> [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Retrieves an interface representing the specified portion of object. Currently reserved for future use.
 

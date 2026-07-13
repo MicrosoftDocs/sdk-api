@@ -7,7 +7,6 @@ description: Fetches error reports uploaded or enqueued for upload from this PC 
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -17,7 +16,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: DiagnosticDataQuery.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 

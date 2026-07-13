@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsFreeNameResultW
 title: DsFreeNameResultW function (ntdsapi.h)
-description: Frees the memory held by a DS_NAME_RESULT structure.
-helpviewer_keywords: ["DsFreeNameResult","DsFreeNameResult function [Active Directory]","DsFreeNameResultA","DsFreeNameResultW","_glines_dsfreenameresult","ad.dsfreenameresult","ntdsapi/DsFreeNameResult","ntdsapi/DsFreeNameResultA","ntdsapi/DsFreeNameResultW"]
+description: Frees the memory held by a DS_NAME_RESULT structure. (Unicode)
+helpviewer_keywords: ["DsFreeNameResult", "DsFreeNameResult function [Active Directory]", "DsFreeNameResultW", "_glines_dsfreenameresult", "ad.dsfreenameresult", "ntdsapi/DsFreeNameResult", "ntdsapi/DsFreeNameResultW"]
 old-location: ad\dsfreenameresult.htm
 tech.root: ad
 ms.assetid: 210650a6-70b9-4d4f-b99a-106afd3fe615
@@ -80,4 +80,4 @@ Pointer to the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta"
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsFreeNameResult as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsFreeNameResult as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

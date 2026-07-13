@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetRectArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetRectArray (windows.foundation.h)
 description: Gets the array of Rect values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetRectArray","GetRectArray method [Windows Runtime]","GetRectArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetRectArray method","IPropertyValue.GetRectArray","IPropertyValue.IPropertyValue","IPropertyValue::GetRectArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetRectArray","winrt.ipropertyvalue_getrectarray"]
 old-location: winrt\ipropertyvalue_getrectarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetRectArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetRectArray (windows.foundation.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ The returned pointer must be freed using <a href="/windows/desktop/api/combaseap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

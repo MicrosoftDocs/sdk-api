@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKEIPADDRESS","MAKEIPADDRESS macro [Windows Controls]","
 old-location: controls\MAKEIPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # MAKEIPADDRESS macro
+
+## -syntax
+
+```cpp
+LPARAM MAKEIPADDRESS(
+   BYTE b1,
+   BYTE b2,
+   BYTE b3,
+   BYTE b4
+);
+```
+
+## -returns
+
+Type: **[LPARAM](/windows/desktop/winprog/windows-data-types)**
+
+Returns an LPARAM value that contains the address.
 
 
 ## -description

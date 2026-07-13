@@ -244,7 +244,7 @@ A new profile is added at the top of the list after the group policy profiles.  
 
 
 
-You can call <b>WlanSetProfile</b> on a profile that contains a plaintext key (that is, a profile with the  <a href="/windows/desktop/NativeWiFi/wlan-profileschema-protected-sharedkey-element">protected</a> element present and set to <b>FALSE</b>).  Before the profile is saved in the profile store, the key material is automatically encrypted. When the profile is subsequently retrieved from the profile store by calling <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>, the encrypted key material is returned.<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The key material is never encrypted.
+You can call <b>WlanSetProfile</b> on a profile that contains a plaintext key (that is, a profile with the  <a href="/windows/win32/nativewifi/wlan-profileschema-sharedkey-security-element#protected">protected</a> element present and set to <b>FALSE</b>).  Before the profile is saved in the profile store, the key material is automatically encrypted. When the profile is subsequently retrieved from the profile store by calling <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>, the encrypted key material is returned.<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The key material is never encrypted.
 
 
 

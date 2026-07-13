@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.mixerGetLineControlsW
 title: mixerGetLineControlsW function (mmeapi.h)
-description: The mixerGetLineControls function retrieves one or more controls associated with an audio line.
-helpviewer_keywords: ["_win32_mixerGetLineControls","mixerGetLineControls","mixerGetLineControls function [Windows Multimedia]","mixerGetLineControlsA","mixerGetLineControlsW","mmeapi/mixerGetLineControls","mmeapi/mixerGetLineControlsA","mmeapi/mixerGetLineControlsW","multimedia.mixergetlinecontrols"]
+description: The mixerGetLineControlsW (Unicode) function retrieves one or more controls associated with an audio line. (mixerGetLineControlsW)
+helpviewer_keywords: ["_win32_mixerGetLineControls", "mixerGetLineControls", "mixerGetLineControls function [Windows Multimedia]", "mixerGetLineControlsW", "mmeapi/mixerGetLineControls", "mmeapi/mixerGetLineControlsW", "multimedia.mixergetlinecontrols"]
 old-location: multimedia\mixergetlinecontrols.htm
 tech.root: Multimedia
 ms.assetid: 48fa3396-f3ec-411a-9ea7-d7e82d606f14
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_mixerGetLineControls, mixerGetLineControls, mixerGetLineControls function [Windows Multimedia], mixerGetLineControlsA, mixerGetLineControlsW, mmeapi/mixerGetLineControls, mmeapi/mixerGetLineControlsA, mmeapi/mixerGetLineControlsW, multimedia.mixergetlinecontrols
 req.header: mmeapi.h
 req.include-header: Windows.h
@@ -236,4 +236,4 @@ No mixer device is available for the object specified by <i>hmxobj</i>.
 ## -remarks
 
 > [!NOTE]
-> The mmeapi.h header defines mixerGetLineControls as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines mixerGetLineControls as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

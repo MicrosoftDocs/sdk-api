@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSizeArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetSizeArray (windows.foundation.h)
 description: Gets the array of Size values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetSizeArray","GetSizeArray method [Windows Runtime]","GetSizeArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSizeArray method","IPropertyValue.GetSizeArray","IPropertyValue.IPropertyValue","IPropertyValue::GetSizeArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSizeArray","winrt.ipropertyvalue_getsizearray"]
 old-location: winrt\ipropertyvalue_getsizearray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetSizeArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetSizeArray (windows.foundation.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ The returned pointer must be freed using <a href="/windows/desktop/api/combaseap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

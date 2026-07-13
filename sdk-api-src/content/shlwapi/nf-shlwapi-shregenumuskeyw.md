@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegEnumUSKeyW
 title: SHRegEnumUSKeyW function (shlwapi.h)
-description: Enumerates the subkeys of a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHRegEnumUSKey","SHRegEnumUSKey function [Windows Shell]","SHRegEnumUSKeyA","SHRegEnumUSKeyW","_win32_SHRegEnumUSKey","shell.SHRegEnumUSKey","shlwapi/SHRegEnumUSKey","shlwapi/SHRegEnumUSKeyA","shlwapi/SHRegEnumUSKeyW"]
+description: Enumerates the subkeys of a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
+helpviewer_keywords: ["SHRegEnumUSKey", "SHRegEnumUSKey function [Windows Shell]", "SHRegEnumUSKeyW", "_win32_SHRegEnumUSKey", "shell.SHRegEnumUSKey", "shlwapi/SHRegEnumUSKey", "shlwapi/SHRegEnumUSKeyW"]
 old-location: shell\SHRegEnumUSKey.htm
 tech.root: shell
 ms.assetid: 9418ad45-f451-4976-afd7-fa1e0088038d
@@ -108,4 +108,4 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegEnumUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegEnumUSKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

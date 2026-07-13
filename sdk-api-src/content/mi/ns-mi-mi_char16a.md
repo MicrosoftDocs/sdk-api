@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Char16A
 title: MI_Char16A (mi.h)
-description: Represents an array of MI_Char16 types.
+description: Represents an array of MI_Char16 types. (MI_Char16A)
 helpviewer_keywords: ["MI_Char16A","MI_Char16A structure [Windows Management Infrastructure (MI)]","mi/MI_Char16A","wmi._mi_char16a","wmi_v2.mi_char16a"]
 old-location: wmi_v2\mi_char16a.htm
 tech.root: wmi_v2

@@ -56,7 +56,7 @@ Defines the potential return values for the <a href="/previous-versions/windows/
 
 ## -enum-fields
 
-### -field ClusterRoleUnknown
+### -field ClusterRoleUnknown:-1
 
 It is unknown whether or not the role is clustered.
 

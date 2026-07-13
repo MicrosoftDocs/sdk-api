@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataManager.get_RuleTargetFileName
 title: IDataManager::get_RuleTargetFileName (pla.h)
-description: Retrieves or sets the name of the report file that the TraceRpt.exe application creates.
+description: Retrieves or sets the name of the report file that the TraceRpt.exe application creates. (IDataManager.get_RuleTargetFileName)
 helpviewer_keywords: ["IDataManager interface [PLA]","RuleTargetFileName property","IDataManager.RuleTargetFileName","IDataManager.get_RuleTargetFileName","IDataManager::RuleTargetFileName","IDataManager::get_RuleTargetFileName","IDataManager::put_RuleTargetFileName","RuleTargetFileName property [PLA]","RuleTargetFileName property [PLA]","IDataManager interface","get_RuleTargetFileName","pla.idatamanager_ruletargetfilename","pla/IDataManager::RuleTargetFileName","pla/IDataManager::get_RuleTargetFileName","pla/IDataManager::put_RuleTargetFileName"]
 old-location: pla\idatamanager_ruletargetfilename.htm
 tech.root: PLA

@@ -82,12 +82,12 @@ The actual size needed to retrieve the entire short name associated with the GUI
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 Windows Imaging Component (WIC) short name mappings can be found within the following registry key:
-            <pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+            <pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <b>{FAE3D380-FEA4-4623-8C75-C6B61110B681}</b>
          <b>Namespace</b>

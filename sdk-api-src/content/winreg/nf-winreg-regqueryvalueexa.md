@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegQueryValueExA
 title: RegQueryValueExA function (winreg.h)
-description: Retrieves the type and data for the specified value name associated with an open registry key.
-helpviewer_keywords: ["RegQueryValueEx","RegQueryValueEx function","RegQueryValueExA","RegQueryValueExW","_win32_regqueryvalueex","base.regqueryvalueex","winreg/RegQueryValueEx","winreg/RegQueryValueExA","winreg/RegQueryValueExW"]
+description: Retrieves the type and data for the specified value name associated with an open registry key. (ANSI)
+helpviewer_keywords: ["RegQueryValueExA", "winreg/RegQueryValueExA"]
 old-location: base\regqueryvalueex.htm
 tech.root: winprog
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -62,7 +63,8 @@ api_name:
 
 Retrieves the type and data for the specified value name associated with an open registry key.
 
-To ensure that any string values (REG_SZ, REG_MULTI_SZ, and REG_EXPAND_SZ) returned are <b>null</b>-terminated, use the <a href="/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a> function.
+> [!WARNING]
+> If the value being queried is a string (REG_SZ, REG_MULTI_SZ, and REG_EXPAND_SZ) the value returned is NOT guaranteed to be null-terminated. Use the <a href="/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a> function if you want to ensure returned string values are null-terminated. More information is in the remarks below.
 
 ## -parameters
 
@@ -221,7 +223,7 @@ void main()
 
 
 > [!NOTE]
-> The winreg.h header defines RegQueryValueEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegQueryValueEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

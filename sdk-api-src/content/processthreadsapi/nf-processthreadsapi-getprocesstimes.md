@@ -4,12 +4,12 @@ title: GetProcessTimes function (processthreadsapi.h)
 description: Retrieves timing information for the specified process.
 helpviewer_keywords: ["GetProcessTimes","GetProcessTimes function","_win32_getprocesstimes","base.getprocesstimes","processthreadsapi/GetProcessTimes","winbase/GetProcessTimes"]
 old-location: base\getprocesstimes.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 4c1e8bd4-5ed2-4c97-bc4f-1083a8b24623
 ms.date: 12/05/2018
 ms.keywords: GetProcessTimes, GetProcessTimes function, _win32_getprocesstimes, base.getprocesstimes, processthreadsapi/GetProcessTimes, winbase/GetProcessTimes
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
  - KernelBase.dll

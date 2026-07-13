@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcStringFreeW
 title: RpcStringFreeW function (rpcdce.h)
-description: The RpcStringFree function frees a character string allocated by the RPC run-time library.
-helpviewer_keywords: ["RpcStringFree","RpcStringFree function [RPC]","RpcStringFreeA","RpcStringFreeW","_rpc_rpcstringfree","rpc.rpcstringfree","rpcdce/RpcStringFree","rpcdce/RpcStringFreeA","rpcdce/RpcStringFreeW"]
+description: The RpcStringFreeW (Unicode) function (rpcdce.h) frees a character string allocated by the RPC run-time library.
+helpviewer_keywords: ["RpcStringFree", "RpcStringFree function [RPC]", "RpcStringFreeW", "_rpc_rpcstringfree", "rpc.rpcstringfree", "rpcdce/RpcStringFree", "rpcdce/RpcStringFreeW"]
 old-location: rpc\rpcstringfree.htm
 tech.root: Rpc
 ms.assetid: 07226282-1091-4479-adc8-b2f604c645e7
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcStringFree, RpcStringFree function [RPC], RpcStringFreeA, RpcStringFreeW, _rpc_rpcstringfree, rpc.rpcstringfree, rpcdce/RpcStringFree, rpcdce/RpcStringFreeA, rpcdce/RpcStringFreeW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -96,7 +96,7 @@ An application is responsible for calling
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcStringFree as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcStringFree as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

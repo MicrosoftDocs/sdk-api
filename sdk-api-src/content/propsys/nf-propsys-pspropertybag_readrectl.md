@@ -56,9 +56,9 @@ Retrieves the coordinates of a rectangle stored in a property contained in a spe
 
 ### -param propBag [in]
 
-Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
+Type: <b><a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a>*</b>
 
-A pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 ### -param propName [in]
 
@@ -68,15 +68,15 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>*</b>
 
-When this function returns, contains a pointer to a <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a> structure that contains the property coordinates.
+When this function returns, contains a pointer to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that contains the property coordinates.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

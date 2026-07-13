@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegDeleteTreeW
 title: RegDeleteTreeW function (winreg.h)
-description: Deletes the subkeys and values of the specified key recursively.
-helpviewer_keywords: ["RegDeleteTree","RegDeleteTree function","RegDeleteTreeA","RegDeleteTreeW","base.regdeletetree","winreg/RegDeleteTree","winreg/RegDeleteTreeA","winreg/RegDeleteTreeW"]
+description: Deletes the subkeys and values of the specified key recursively. (Unicode)
+helpviewer_keywords: ["RegDeleteTree", "RegDeleteTree function", "RegDeleteTreeW", "base.regdeletetree", "winreg/RegDeleteTree", "winreg/RegDeleteTreeW"]
 old-location: base\regdeletetree.htm
 tech.root: winprog
 ms.assetid: 984813a9-e191-498f-8288-b8a4c567112b
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -69,9 +70,12 @@ Deletes the subkeys and values of the specified key recursively.
 A handle to an open registry key. The key must have been opened with the following access rights: DELETE, KEY_ENUMERATE_SUB_KEYS, and KEY_QUERY_VALUE. For more information, see 
 <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
-This handle is returned by the 
-<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or 
-<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function, or it can be one of the following 
+This handle is returned by the
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>,
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>,
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function,
+or it can be one of the following 
 <a href="/windows/desktop/SysInfo/predefined-keys">Predefined Keys</a>:<dl>
 <dd><b>HKEY_CLASSES_ROOT</b></dd>
 <dd><b>HKEY_CURRENT_CONFIG</b></dd>
@@ -104,16 +108,14 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 > On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 > [!NOTE]
-> The winreg.h header defines RegDeleteTree as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegDeleteTree as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
 <a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a>
 
-
-
 <a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa">RegDeleteKeyEx</a>
 
-
+<a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeytransacteda">RegDeleteKeyTransacted</a>
 
 <a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>

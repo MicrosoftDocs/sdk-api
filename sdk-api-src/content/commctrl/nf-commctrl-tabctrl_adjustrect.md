@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_AdjustRect","TabCtrl_AdjustRect macro [Windows Co
 old-location: controls\TabCtrl_AdjustRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_adjustrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_AdjustRect, TabCtrl_AdjustRect macro [Windows Controls], _win32_TabCtrl_AdjustRect, _win32_TabCtrl_AdjustRect_cpp, commctrl/TabCtrl_AdjustRect, controls.TabCtrl_AdjustRect, controls._win32_TabCtrl_AdjustRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TabCtrl_AdjustRect macro
+
+## -syntax
+
+```cpp
+int TabCtrl_AdjustRect(
+   HWND hwnd,
+   BOOL bLarger,
+   RECT *prc
+);
+```
+
+## -returns
+
+Type: **int**
+
+No return value.
 
 
 ## -description

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSeekInfo
 title: IMFSeekInfo (mfidl.h)
-description: For a particular seek position, gets the two nearest key frames.
+description: For a particular seek position, gets the two nearest key frames. (IMFSeekInfo)
 helpviewer_keywords: ["IMFSeekInfo","IMFSeekInfo interface [Media Foundation]","IMFSeekInfo interface [Media Foundation]","described","mf.imfseekinfo","mfidl/IMFSeekInfo"]
 old-location: mf\imfseekinfo.htm
 tech.root: mf
@@ -54,10 +54,7 @@ For a particular seek position, gets the two nearest key frames.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSeekInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSeekInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFSeekInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSeekInfo</b> also has these types of members:
 
 ## -remarks
 

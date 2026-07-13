@@ -71,13 +71,13 @@ Available when <b>eventType</b> is <b>FWPM_VSWITCH_EVENT_FILTER_ADD_TO_FILTER_EN
 
 ### -field positionInfo.numvSwitchFilterExtensions
 
-<b>Type: <b>ULONG</b>
+Type: <b>ULONG</b>
 
 The number of vSwitch filter extensions.
 
 ### -field positionInfo.vSwitchFilterExtensions
 
-<b>Type: <b>LPWSTR*</b>
+Type: <b>LPWSTR*</b>
 
 size_is(numvSwitchFilterExtensions)
 
@@ -89,19 +89,19 @@ Available when <b>eventType</b> is <b>FWPM_VSWITCH_EVENT_FILTER_ENGINE_REORDER</
 
 ### -field reorderInfo.inRequiredPosition
 
-<b>Type: <b>BOOL</b>
+Type: <b>BOOL</b>
 
 True if the filter engine is in the required position to correctly enforce committed filters; otherwise, false.
 
 ### -field reorderInfo.numvSwitchFilterExtensions
 
-<b>Type: <b>ULONG</b>
+Type: <b>ULONG</b>
 
 The number of vSwitch filter extensions.
 
 ### -field reorderInfo.vSwitchFilterExtensions
 
-<b>Type: <b>LPWSTR*</b>
+Type: <b>LPWSTR*</b>
 
 size_is(numvSwitchFilterExtensions)
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardLocateCardsByATRW
 title: SCardLocateCardsByATRW function (winscard.h)
-description: Searches the readers listed in the rgReaderStates parameter for a card with a name that matches one of the card names contained in one of the SCARD_ATRMASK structures specified by the rgAtrMasks parameter.
-helpviewer_keywords: ["SCardLocateCardsByATR","SCardLocateCardsByATR function [Security]","SCardLocateCardsByATRA","SCardLocateCardsByATRW","_smart_scardlocatecardsbyatr","security.scardlocatecardsbyatr","winscard/SCardLocateCardsByATR","winscard/SCardLocateCardsByATRA","winscard/SCardLocateCardsByATRW"]
+description: Searches the readers listed in the rgReaderStates parameter for a card with a name that matches one of the card names contained in one of the SCARD_ATRMASK structures specified by the rgAtrMasks parameter. (Unicode)
+helpviewer_keywords: ["SCardLocateCardsByATR", "SCardLocateCardsByATR function [Security]", "SCardLocateCardsByATRW", "_smart_scardlocatecardsbyatr", "security.scardlocatecardsbyatr", "winscard/SCardLocateCardsByATR", "winscard/SCardLocateCardsByATRW"]
 old-location: security\scardlocatecardsbyatr.htm
 tech.root: security
 ms.assetid: 6c4a644c-033f-4654-b96d-0379e9ac0bb4
@@ -123,4 +123,4 @@ The <b>SCardLocateCardsByATR</b> function is a <a href="/windows/desktop/SecGlos
 
 
 > [!NOTE]
-> The winscard.h header defines SCardLocateCardsByATR as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardLocateCardsByATR as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

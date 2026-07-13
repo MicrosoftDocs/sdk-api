@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiQueryFeatureStateW
 title: MsiQueryFeatureStateW function (msi.h)
-description: The MsiQueryFeatureState function returns the installed state for a product feature.
-helpviewer_keywords: ["MsiQueryFeatureState","MsiQueryFeatureState function","MsiQueryFeatureStateA","MsiQueryFeatureStateW","_msi_msiqueryfeaturestate","msi/MsiQueryFeatureState","msi/MsiQueryFeatureStateA","msi/MsiQueryFeatureStateW","setup.msiqueryfeaturestate"]
+description: The MsiQueryFeatureState function returns the installed state for a product feature. (Unicode)
+helpviewer_keywords: ["MsiQueryFeatureState", "MsiQueryFeatureState function", "MsiQueryFeatureStateW", "_msi_msiqueryfeaturestate", "msi/MsiQueryFeatureState", "msi/MsiQueryFeatureStateW", "setup.msiqueryfeaturestate"]
 old-location: setup\msiqueryfeaturestate.htm
 tech.root: setup
 ms.assetid: d84aa7f1-d29a-493d-a065-8f7b680019d7
@@ -154,7 +154,7 @@ The
 
 
 > [!NOTE]
-> The msi.h header defines MsiQueryFeatureState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiQueryFeatureState as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

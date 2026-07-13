@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymUnDName
 title: SymUnDName function (dbghelp.h)
-description: Undecorates a decorated C++ symbol name.
+description: Undecorates a decorated C++ symbol name. (SymUnDName)
 helpviewer_keywords: ["SymUnDName","SymUnDName function","SymUnDName64","SymUnDName64 function","base.symundname64","dbghelp/SymUnDName","dbghelp/SymUnDName64"]
 old-location: base\symundname64.htm
 tech.root: Debug

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupCopyErrorW
 title: SetupCopyErrorW function (setupapi.h)
-description: The SetupCopyError function generates a dialog box to notify a user of a copy file error.
-helpviewer_keywords: ["SetupCopyError","SetupCopyError function [Setup API]","SetupCopyErrorA","SetupCopyErrorW","_setupapi_setupcopyerror","setup.setupcopyerror","setupapi/SetupCopyError","setupapi/SetupCopyErrorA","setupapi/SetupCopyErrorW"]
+description: The SetupCopyError function generates a dialog box to notify a user of a copy file error. (Unicode)
+helpviewer_keywords: ["SetupCopyError", "SetupCopyError function [Setup API]", "SetupCopyErrorW", "_setupapi_setupcopyerror", "setup.setupcopyerror", "setupapi/SetupCopyError", "setupapi/SetupCopyErrorW"]
 old-location: setup\setupcopyerror.htm
 tech.root: setup
 ms.assetid: bda8ffef-f1a7-474c-9ec6-f76c2f006d51
@@ -236,7 +236,7 @@ To avoid insufficient buffer errors, <i>ReturnBuffer</i> should be at least MAX_
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupCopyError as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupCopyError as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

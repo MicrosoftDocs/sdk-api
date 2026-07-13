@@ -6,7 +6,7 @@ helpviewer_keywords: ["FALSE","IAMAsyncReaderTimestampScaling interface [DirectS
 old-location: dshow\iamasyncreadertimestampscaling_settimestampmode.htm
 tech.root: dshow
 ms.assetid: 7f556e26-049d-4024-95a2-c899be1ef180
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: FALSE, IAMAsyncReaderTimestampScaling interface [DirectShow],SetTimestampMode method, IAMAsyncReaderTimestampScaling.SetTimestampMode, IAMAsyncReaderTimestampScaling::SetTimestampMode, SetTimestampMode, SetTimestampMode method [DirectShow], SetTimestampMode method [DirectShow],IAMAsyncReaderTimestampScaling interface, TRUE, dshow.iamasyncreadertimestampscaling_settimestampmode, strmif/IAMAsyncReaderTimestampScaling::SetTimestampMode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Sets the filter's time-stamping mode.
 
 ## -parameters
@@ -65,7 +67,7 @@ Specifies the units for the source filter's time stamps.
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -75,7 +77,7 @@ Time stamps are in units of bytes.
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,7 +92,7 @@ The default value is <b>FALSE</b>.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

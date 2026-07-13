@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Clone
 title: IEnumDot11AdHocInterfaces::Clone (adhoc.h)
-description: Creates a new enumeration interface.
+description: Creates a new enumeration interface. (IEnumDot11AdHocInterfaces.Clone)
 helpviewer_keywords: ["Clone","Clone method [NativeWIFI]","Clone method [NativeWIFI]","IEnumDot11AdHocInterfaces interface","IEnumDot11AdHocInterfaces interface [NativeWIFI]","Clone method","IEnumDot11AdHocInterfaces.Clone","IEnumDot11AdHocInterfaces::Clone","adhoc/IEnumDot11AdHocInterfaces::Clone","nwifi.ienumdot11adhocinterfaces_clone"]
 old-location: nwifi\ienumdot11adhocinterfaces_clone.htm
 tech.root: nwifi
@@ -56,7 +56,7 @@ Creates a new enumeration interface.
 
 ### -param ppEnum [out]
 
-A pointer that, on successful return, points to an <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a>interface.
+A pointer that, on successful return, points to an <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a> interface.
 
 ## -returns
 

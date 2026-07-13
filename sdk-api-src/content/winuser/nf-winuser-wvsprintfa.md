@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.wvsprintfA
 title: wvsprintfA function (winuser.h)
-description: Writes formatted data to the specified buffer using a pointer to a list of arguments.
-helpviewer_keywords: ["_win32_wvsprintf","_win32_wvsprintf_cpp","menurc.wvsprintf","winui._win32_wvsprintf","winuser/wvsprintf","winuser/wvsprintfA","winuser/wvsprintfW","wvsprintf","wvsprintf function [Menus and Other Resources]","wvsprintfA","wvsprintfW"]
+description: Writes formatted data to the specified buffer using a pointer to a list of arguments. (ANSI)
+helpviewer_keywords: ["winuser/wvsprintfA", "wvsprintfA"]
 old-location: menurc\wvsprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wvsprintf.htm
@@ -95,7 +95,7 @@ The function copies the format-control string into the output buffer character b
 
 
 > [!NOTE]
-> The winuser.h header defines wvsprintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines wvsprintf as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

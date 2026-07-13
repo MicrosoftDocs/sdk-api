@@ -57,7 +57,7 @@ interpreted.
 
 ## -enum-fields
 
-### -field FWPM_FIELD_RAW_DATA
+### -field FWPM_FIELD_RAW_DATA:0
 
 Value contains raw data.
 

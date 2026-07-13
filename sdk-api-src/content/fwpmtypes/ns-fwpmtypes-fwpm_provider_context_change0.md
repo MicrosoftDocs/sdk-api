@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT_CHANGE0_
 title: FWPM_PROVIDER_CONTEXT_CHANGE0 (fwpmtypes.h)
-description: Change notification dispatched to subscribers.
+description: Change notification dispatched to subscribers. (FWPM_PROVIDER_CONTEXT_CHANGE0)
 helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT_CHANGE0","FWPM_PROVIDER_CONTEXT_CHANGE0 structure [Filtering]","fwp.fwpm_provider_context_change0_struct","fwpmtypes/FWPM_PROVIDER_CONTEXT_CHANGE0"]
 old-location: fwp\fwpm_provider_context_change0_struct.htm
 tech.root: fwp

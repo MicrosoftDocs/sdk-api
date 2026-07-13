@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetGlyphOrientationTransform
 title: IDWriteTextAnalyzer1::GetGlyphOrientationTransform (dwrite_1.h)
-description: Returns 2x3 transform matrix for the respective angle to draw the glyph run.
+description: Returns 2x3 transform matrix for the respective angle to draw the glyph run. (IDWriteTextAnalyzer1.GetGlyphOrientationTransform)
 helpviewer_keywords: ["GetGlyphOrientationTransform","GetGlyphOrientationTransform method [Direct Write]","GetGlyphOrientationTransform method [Direct Write]","IDWriteTextAnalyzer1 interface","IDWriteTextAnalyzer1 interface [Direct Write]","GetGlyphOrientationTransform method","IDWriteTextAnalyzer1.GetGlyphOrientationTransform","IDWriteTextAnalyzer1::GetGlyphOrientationTransform","directwrite.idwritetextanalyzer1_getglyphorientationtransform","dwrite_1/IDWriteTextAnalyzer1::GetGlyphOrientationTransform"]
 old-location: directwrite\idwritetextanalyzer1_getglyphorientationtransform.htm
 tech.root: DirectWrite
@@ -78,7 +78,7 @@ Returned transform.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

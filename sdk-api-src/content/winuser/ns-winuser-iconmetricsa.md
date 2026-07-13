@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagICONMETRICSA
 title: ICONMETRICSA (winuser.h)
-description: Contains the scalable metrics associated with icons. This structure is used with the SystemParametersInfo function when the SPI_GETICONMETRICS or SPI_SETICONMETRICS action is specified.
+description: Contains the scalable metrics associated with icons. This structure is used with the SystemParametersInfo function when the SPI_GETICONMETRICS or SPI_SETICONMETRICS action is specified. (ANSI)
 helpviewer_keywords: ["*LPICONMETRICSA","*PICONMETRICSA","ICONMETRICS","ICONMETRICS structure [Menus and Other Resources]","ICONMETRICSA","ICONMETRICSW","LPICONMETRICS","LPICONMETRICS structure pointer [Menus and Other Resources]","PICONMETRICS","PICONMETRICS structure pointer [Menus and Other Resources]","_win32_ICONMETRICS_str","_win32_iconmetrics_str_cpp","menurc.iconmetrics","winui._win32_iconmetrics_str","winuser/ICONMETRICS","winuser/ICONMETRICSA","winuser/ICONMETRICSW","winuser/LPICONMETRICS","winuser/PICONMETRICS"]
 old-location: menurc\iconmetrics.htm
 tech.root: menurc
@@ -109,4 +109,4 @@ The font to use for icon titles.
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines ICONMETRICS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines ICONMETRICS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

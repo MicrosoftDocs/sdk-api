@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_RetryDelay
 title: IFaxOutgoingQueue::put_RetryDelay (faxcomex.h)
-description: The IFaxOutgoingQueue::get_RetryDelay property is a value that indicates the time interval, in minutes, that the fax service waits before attempting to retransmit an outbound fax job.
+description: The IFaxOutgoingQueue::get_RetryDelay property is a value that indicates the time interval, in minutes, that the fax service waits before attempting to retransmit an outbound fax job. (Put)
 helpviewer_keywords: ["IFaxOutgoingQueue interface [Fax Service]","RetryDelay property","IFaxOutgoingQueue.RetryDelay","IFaxOutgoingQueue.get_RetryDelay","IFaxOutgoingQueue.put_RetryDelay","IFaxOutgoingQueue::RetryDelay","IFaxOutgoingQueue::get_RetryDelay","IFaxOutgoingQueue::put_RetryDelay","RetryDelay property [Fax Service]","RetryDelay property [Fax Service]","IFaxOutgoingQueue interface","_mfax_faxoutgoingqueue.retrydelay","fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retrydelay_cpp","fax._mfax_faxoutgoingqueue_retrydelay","faxcomex/IFaxOutgoingQueue::RetryDelay","faxcomex/IFaxOutgoingQueue::get_RetryDelay","faxcomex/IFaxOutgoingQueue::put_RetryDelay","put_RetryDelay"]
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retrydelay_cpp.htm
 tech.root: Fax

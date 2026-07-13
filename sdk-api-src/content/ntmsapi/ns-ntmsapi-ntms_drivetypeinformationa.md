@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_DRIVETYPEINFORMATIONA
 title: NTMS_DRIVETYPEINFORMATIONA (ntmsapi.h)
-description: The NTMS_DRIVETYPEINFORMATION structure defines the properties specific to a type of drive supported by RSM.
+description: The NTMS_DRIVETYPEINFORMATION structure defines the properties specific to a type of drive supported by RSM. (ANSI)
 helpviewer_keywords: ["FILE_DEVICE_CD_ROM","FILE_DEVICE_DISK","FILE_DEVICE_DVD","FILE_DEVICE_TAPE","NTMS_DRIVETYPEINFORMATION","NTMS_DRIVETYPEINFORMATION structure [Files]","NTMS_DRIVETYPEINFORMATIONA","NTMS_DRIVETYPEINFORMATIONW","_NTMS_DRIVETYPEINFORMATIONA","_NTMS_DRIVETYPEINFORMATIONW","_zaw_ntms_drivetypeinformation","base.ntms_drivetypeinformation","fs.ntms_drivetypeinformation","ntmsapi/NTMS_DRIVETYPEINFORMATION"]
 old-location: fs\ntms_drivetypeinformation.htm
 tech.root: fs
@@ -137,7 +137,7 @@ The
 
 
 > [!NOTE]
-> The ntmsapi.h header defines NTMS_DRIVETYPEINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines NTMS_DRIVETYPEINFORMATION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

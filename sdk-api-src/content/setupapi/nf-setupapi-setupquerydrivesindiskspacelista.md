@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueryDrivesInDiskSpaceListA
 title: SetupQueryDrivesInDiskSpaceListA function (setupapi.h)
-description: The SetupQueryDrivesInDiskSpaceList function fills a buffer with a list of the drives referenced by the file operations listed in the disk-space list.
-helpviewer_keywords: ["SetupQueryDrivesInDiskSpaceList","SetupQueryDrivesInDiskSpaceList function [Setup API]","SetupQueryDrivesInDiskSpaceListA","SetupQueryDrivesInDiskSpaceListW","_setupapi_setupquerydrivesindiskspacelist","setup.setupquerydrivesindiskspacelist","setupapi/SetupQueryDrivesInDiskSpaceList","setupapi/SetupQueryDrivesInDiskSpaceListA","setupapi/SetupQueryDrivesInDiskSpaceListW"]
+description: The SetupQueryDrivesInDiskSpaceList function fills a buffer with a list of the drives referenced by the file operations listed in the disk-space list. (ANSI)
+helpviewer_keywords: ["SetupQueryDrivesInDiskSpaceListA", "setupapi/SetupQueryDrivesInDiskSpaceListA"]
 old-location: setup\setupquerydrivesindiskspacelist.htm
 tech.root: setup
 ms.assetid: be298b54-f5dc-46a3-a54c-f7ca5cb3a2fb
@@ -101,4 +101,4 @@ If the
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueryDrivesInDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueryDrivesInDiskSpaceList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

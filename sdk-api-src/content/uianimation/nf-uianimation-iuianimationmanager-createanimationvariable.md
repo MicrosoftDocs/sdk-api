@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.CreateAnimationVariable
 title: IUIAnimationManager::CreateAnimationVariable (uianimation.h)
-description: Creates a new animation variable.
+description: Creates a new animation variable. (IUIAnimationManager.CreateAnimationVariable)
 helpviewer_keywords: ["CreateAnimationVariable","CreateAnimationVariable method [Windows Animation]","CreateAnimationVariable method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","CreateAnimationVariable method","IUIAnimationManager.CreateAnimationVariable","IUIAnimationManager::CreateAnimationVariable","uianimation.iuianimationmanager_createanimationvariable","uianimation/IUIAnimationManager::CreateAnimationVariable"]
 old-location: uianimation\iuianimationmanager_createanimationvariable.htm
 tech.root: UIAnimation

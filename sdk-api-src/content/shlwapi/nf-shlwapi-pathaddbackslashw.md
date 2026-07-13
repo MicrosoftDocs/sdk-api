@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathAddBackslashW
 title: PathAddBackslashW function (shlwapi.h)
-description: Adds a backslash to the end of a string to create the correct syntax for a path.
-helpviewer_keywords: ["PathAddBackslash","PathAddBackslash function [Windows Shell]","PathAddBackslashA","PathAddBackslashW","_win32_PathAddBackslash","shell.PathAddBackslash","shlwapi/PathAddBackslash","shlwapi/PathAddBackslashA","shlwapi/PathAddBackslashW"]
+description: Adds a backslash to the end of a string to create the correct syntax for a path. (PathAddBackslashW)
+helpviewer_keywords: ["PathAddBackslash", "PathAddBackslash function [Windows Shell]", "PathAddBackslashW", "_win32_PathAddBackslash", "shell.PathAddBackslash", "shlwapi/PathAddBackslash", "shlwapi/PathAddBackslashW"]
 old-location: shell\PathAddBackslash.htm
 tech.root: shell
 ms.assetid: 27d8aec7-8b00-412a-9a42-8ce27e262781
@@ -78,4 +78,4 @@ A pointer that, when this function returns successfully, points to the new strin
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathAddBackslash as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathAddBackslash as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

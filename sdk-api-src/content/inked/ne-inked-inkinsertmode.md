@@ -51,11 +51,11 @@ Specifies how ink is inserted onto the <a href="/windows/win32/tablet/inkedit-co
 
 ## -enum-fields
 
-### -field IEM_InsertText
+### -field IEM_InsertText:0
 
 Default. Drawn ink is inserted as text.
 
-### -field IEM_InsertInk
+### -field IEM_InsertInk:1
 
 Drawn ink is inserted as ink.
 

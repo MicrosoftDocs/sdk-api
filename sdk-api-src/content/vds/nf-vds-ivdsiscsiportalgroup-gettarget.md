@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.GetTarget
 title: IVdsIscsiPortalGroup::GetTarget (vds.h)
-description: Returns the target to which the portal group belongs.
+description: The IVdsIscsiPortalGroup::GetTarget method (vds.h) returns the target to which the portal group belongs.
 helpviewer_keywords: ["GetTarget","GetTarget method [VDS]","GetTarget method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","GetTarget method","IVdsIscsiPortalGroup.GetTarget","IVdsIscsiPortalGroup::GetTarget","base.ivdsiscsiportalgroup_gettarget","vds/IVdsIscsiPortalGroup::GetTarget","vdshwprv/IVdsIscsiPortalGroup::GetTarget"]
 old-location: base\ivdsiscsiportalgroup_gettarget.htm
 tech.root: base
 ms.assetid: b9195e17-4e41-494d-b6ce-ceacfc16d6cb
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetTarget, GetTarget method [VDS], GetTarget method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetTarget method, IVdsIscsiPortalGroup.GetTarget, IVdsIscsiPortalGroup::GetTarget, base.ivdsiscsiportalgroup_gettarget, vds/IVdsIscsiPortalGroup::GetTarget, vdshwprv/IVdsIscsiPortalGroup::GetTarget
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the target to which the portal group belongs.
 
@@ -74,7 +74,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ The target object was returned successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -102,7 +102,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>

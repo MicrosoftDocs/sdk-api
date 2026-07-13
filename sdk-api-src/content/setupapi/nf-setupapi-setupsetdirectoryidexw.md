@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdExW
 title: SetupSetDirectoryIdExW function (setupapi.h)
-description: The SetupSetDirectoryIdEx function associates a directory identifier in an INF file with a specific directory.
-helpviewer_keywords: ["SetupSetDirectoryIdEx","SetupSetDirectoryIdEx function [Setup API]","SetupSetDirectoryIdExA","SetupSetDirectoryIdExW","setup.setupsetdirectoryidex","setupapi/SetupSetDirectoryIdEx","setupapi/SetupSetDirectoryIdExA","setupapi/SetupSetDirectoryIdExW"]
+description: The SetupSetDirectoryIdEx function associates a directory identifier in an INF file with a specific directory. (Unicode)
+helpviewer_keywords: ["SetupSetDirectoryIdEx", "SetupSetDirectoryIdEx function [Setup API]", "SetupSetDirectoryIdExW", "setup.setupsetdirectoryidex", "setupapi/SetupSetDirectoryIdEx", "setupapi/SetupSetDirectoryIdExW"]
 old-location: setup\setupsetdirectoryidex.htm
 tech.root: setup
 ms.assetid: 0f8f3fa0-cb98-42da-82dd-9114e6753e61
@@ -104,7 +104,7 @@ DIRID_ABSOLUTE_16BIT is not a valid value for <i>Id</i>, which ensures compatibi
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupSetDirectoryIdEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupSetDirectoryIdEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ImageList_AddIcon","ImageList_AddIcon macro [Windows Cont
 old-location: controls\ImageList_AddIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_addicon.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ImageList_AddIcon, ImageList_AddIcon macro [Windows Controls], _win32_ImageList_AddIcon, _win32_ImageList_AddIcon_cpp, commctrl/ImageList_AddIcon, controls.ImageList_AddIcon, controls._win32_ImageList_AddIcon
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,15 @@ api_name:
 
 # ImageList_AddIcon macro
 
+## -syntax
+
+```cpp
+int ImageList_AddIcon(
+   HIMAGELIST himl,
+   HICON      hicon
+);
+```
+
 
 ## -description
 
@@ -66,6 +75,12 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
 A handle to the icon or cursor that contains the bitmap and mask for the new image.
 
+## -returns
+
+Type: <b>int</b>
+
+Returns the index of the image if successful, or -1 otherwise.
+
 ## -remarks
 
 Because the system does not save 
@@ -73,4 +88,8 @@ Because the system does not save
 
 The <b>ImageList_AddIcon</b> macro is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>#define  ImageList_AddIcon(himl, hicon) ImageList_ReplaceIcon(himl, -1, hicon)</code></pre>
+
+``` syntax
+#define  ImageList_AddIcon(himl, hicon) ImageList_ReplaceIcon(himl, -1, hicon)
+```
+

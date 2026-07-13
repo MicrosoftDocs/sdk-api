@@ -56,7 +56,7 @@ The <b>KSJACK_SINK_CONNECTIONTYPE</b> enumeration defines constants that specify
 
 ## -enum-fields
 
-### -field KSJACK_SINK_CONNECTIONTYPE_HDMI
+### -field KSJACK_SINK_CONNECTIONTYPE_HDMI:0
 
 High-Definition Multimedia Interface (HDMI) connection.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetParent","TreeView_GetParent macro [Windows Co
 old-location: controls\TreeView_GetParent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getparent.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetParent, TreeView_GetParent macro [Windows Controls], _win32_TreeView_GetParent, _win32_TreeView_GetParent_cpp, commctrl/TreeView_GetParent, controls.TreeView_GetParent, controls._win32_TreeView_GetParent
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # TreeView_GetParent macro
 
+## -syntax
+
+```cpp
+HTREEITEM TreeView_GetParent(
+   HWND      hwnd,
+   HTREEITEM hitem
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Returns the handle to the item if successful. For most cases, the message returns a <b>NULL</b> value to indicate an error. See the Remarks section for details.
 
 ## -description
 

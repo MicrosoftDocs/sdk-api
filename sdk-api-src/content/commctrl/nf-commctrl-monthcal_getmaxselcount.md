@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetMaxSelCount","MonthCal_GetMaxSelCount macro [
 old-location: controls\MonthCal_GetMaxSelCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmaxselcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetMaxSelCount, MonthCal_GetMaxSelCount macro [Windows Controls], _win32_MonthCal_GetMaxSelCount, _win32_MonthCal_GetMaxSelCount_cpp, commctrl/MonthCal_GetMaxSelCount, controls.MonthCal_GetMaxSelCount, controls._win32_MonthCal_GetMaxSelCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MonthCal_GetMaxSelCount macro
+
+## -syntax
+
+```cpp
+DWORD MonthCal_GetMaxSelCount(
+   HWND hmc
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns an INT value that represents the total number of days that can be selected for the control.
 
 
 ## -description

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_DisallowStartIfOnBatteries
 title: ITaskSettings::get_DisallowStartIfOnBatteries (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the task will not be started if the computer is running on batteries.
+description: Gets or sets a Boolean value that indicates that the task will not be started if the computer is running on batteries. (Get)
 helpviewer_keywords: ["DisallowStartIfOnBatteries property [Task Scheduler]","DisallowStartIfOnBatteries property [Task Scheduler]","ITaskSettings interface","ITaskSettings interface [Task Scheduler]","DisallowStartIfOnBatteries property","ITaskSettings.DisallowStartIfOnBatteries","ITaskSettings.get_DisallowStartIfOnBatteries","ITaskSettings::DisallowStartIfOnBatteries","ITaskSettings::get_DisallowStartIfOnBatteries","ITaskSettings::put_DisallowStartIfOnBatteries","get_DisallowStartIfOnBatteries","taskschd.itasksettings_disallowstartifonbatteries","taskschd/ITaskSettings::DisallowStartIfOnBatteries","taskschd/ITaskSettings::get_DisallowStartIfOnBatteries","taskschd/ITaskSettings::put_DisallowStartIfOnBatteries"]
 old-location: taskschd\itasksettings_disallowstartifonbatteries.htm
 tech.root: taskschd

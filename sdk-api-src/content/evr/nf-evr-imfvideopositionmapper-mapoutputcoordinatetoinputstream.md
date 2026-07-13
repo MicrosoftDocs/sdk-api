@@ -4,7 +4,7 @@ title: IMFVideoPositionMapper::MapOutputCoordinateToInputStream (evr.h)
 description: Maps output image coordinates to input image coordinates.
 helpviewer_keywords: ["IMFVideoPositionMapper interface [Media Foundation]","MapOutputCoordinateToInputStream method","IMFVideoPositionMapper.MapOutputCoordinateToInputStream","IMFVideoPositionMapper::MapOutputCoordinateToInputStream","MapOutputCoordinateToInputStream","MapOutputCoordinateToInputStream method [Media Foundation]","MapOutputCoordinateToInputStream method [Media Foundation]","IMFVideoPositionMapper interface","d57aed5f-90cb-47e7-af80-f3573a3b8256","evr/IMFVideoPositionMapper::MapOutputCoordinateToInputStream","mf.imfvideopositionmapper_mapoutputcoordinatetoinputstream"]
 old-location: mf\imfvideopositionmapper_mapoutputcoordinatetoinputstream.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: d57aed5f-90cb-47e7-af80-f3573a3b8256
 ms.date: 12/05/2018
 ms.keywords: IMFVideoPositionMapper interface [Media Foundation],MapOutputCoordinateToInputStream method, IMFVideoPositionMapper.MapOutputCoordinateToInputStream, IMFVideoPositionMapper::MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream method [Media Foundation], MapOutputCoordinateToInputStream method [Media Foundation],IMFVideoPositionMapper interface, d57aed5f-90cb-47e7-af80-f3573a3b8256, evr/IMFVideoPositionMapper::MapOutputCoordinateToInputStream, mf.imfvideopositionmapper_mapoutputcoordinatetoinputstream
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoPositionMapper.MapOutputCoordinateToInputStream
+archived: true
 ---
 
 # IMFVideoPositionMapper::MapOutputCoordinateToInputStream
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Maps output image coordinates to input image coordinates. This method provides the reverse transformation for components that map coordinates on the input image to different coordinates on the output image.
 
@@ -122,19 +125,31 @@ In the following diagram, R(dest) is the destination rectangle for the video. Yo
 
 The position of P relative to R(dest) in <i>normalized</i> coordinates is calculated as follows:
 
-<pre class="syntax" xml:space="preserve"><code>float xn = float(x + 0.5) / widthDest;
+
+``` syntax
+float xn = float(x + 0.5) / widthDest;
 float xy = float(y + 0.5) / heightDest;
-</code></pre>
+
+```
+
 where <i>widthDest</i> and <i>heightDest</i> are the width and height of R(dest) in pixels.
 
 To calculate the position of P relative to R1, call <b>MapOutputCoordinateToInputStream</b> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>float x1 = 0, y1 = 0;
-hr = pMap-&gt;MapOutputCoordinateToInputStream(xn, yn, 0, dwInputStreamIndex, &amp;x1, &amp;y1);</code></pre>
+
+``` syntax
+float x1 = 0, y1 = 0;
+hr = pMap->MapOutputCoordinateToInputStream(xn, yn, 0, dwInputStreamIndex, &x1, &y1);
+```
+
 The values returned in <i>x1</i> and <i>y1</i> are normalized to the range [0...1]. To convert back to pixel coordinates, scale these values by the size of R1:
 
-<pre class="syntax" xml:space="preserve"><code>int scaledx = int(floor(x1 * widthR1));
-int scaledy = int(floor(xy * heightR1));</code></pre>
+
+``` syntax
+int scaledx = int(floor(x1 * widthR1));
+int scaledy = int(floor(xy * heightR1));
+```
+
 Note that <i>x1</i> and <i>y1</i> might fall outside the range [0...1] if P lies outside of R1.
 
 ## -see-also

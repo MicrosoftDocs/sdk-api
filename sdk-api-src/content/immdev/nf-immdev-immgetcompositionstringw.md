@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetCompositionStringW
 title: ImmGetCompositionStringW function (immdev.h)
-description: Retrieves information about the composition string.
-helpviewer_keywords: ["ImmGetCompositionString","ImmGetCompositionString function [Internationalization for Windows Applications]","ImmGetCompositionStringA","ImmGetCompositionStringW","_win32_ImmGetCompositionString","imm/ImmGetCompositionString","imm/ImmGetCompositionStringA","imm/ImmGetCompositionStringW","intl.immgetcompositionstring"]
+description: The ImmGetCompositionStringW (Unicode) function (immdev.h) retrieves information about the composition string. 
+helpviewer_keywords: ["ImmGetCompositionString", "ImmGetCompositionString function [Internationalization for Windows Applications]", "ImmGetCompositionStringW", "_win32_ImmGetCompositionString", "intl.immgetcompositionstring"]
 old-location: intl\immgetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-imm-l1-1-2.dll
  - Imm32.dll
  - Ext-MS-Win-imm-l1-1-0.dll
  - ext-ms-win-imm-l1-1-1.dll
@@ -97,7 +98,7 @@ An application calls this function in response to the <a href="/windows/desktop/
 
 
 > [!NOTE]
-> The immdev.h header defines ImmGetCompositionString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines ImmGetCompositionString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

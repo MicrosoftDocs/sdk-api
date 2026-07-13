@@ -6,13 +6,13 @@ helpviewer_keywords: ["IDWriteInMemoryFontFileLoader","IDWriteInMemoryFontFileLo
 old-location: directwrite\idwriteinmemoryfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteInMemoryFontFileLoader, IDWriteInMemoryFontFileLoader interface [Direct Write], IDWriteInMemoryFontFileLoader interface [Direct Write],described, directwrite.idwriteinmemoryfontfileloader, dwrite_3/IDWriteInMemoryFontFileLoader
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 14393
+req.target-min-winversvr: Windows 10 Build 14393
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -60,10 +60,7 @@ Represents a font file loader that can access in-memory fonts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteInMemoryFontFileLoader</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>. <b>IDWriteInMemoryFontFileLoader</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteInMemoryFontFileLoader</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>. <b>IDWriteInMemoryFontFileLoader</b> also has these types of members:
 
 ## -see-also
 

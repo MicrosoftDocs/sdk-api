@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -60,7 +62,7 @@ api_name:
 Returns the current original equipment manufacturer (OEM) code page identifier for the operating system.
 <div class="alert"><b>Note</b>   The ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

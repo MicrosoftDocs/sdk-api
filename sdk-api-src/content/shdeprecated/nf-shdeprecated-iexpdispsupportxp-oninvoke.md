@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IExpDispSupportXP.OnInvoke
 title: IExpDispSupportXP::OnInvoke (shdeprecated.h)
-description: Not implemented.
+description: Not implemented. (IExpDispSupportXP.OnInvoke)
 helpviewer_keywords: ["IExpDispSupportXP interface [Windows Shell]","OnInvoke method","IExpDispSupportXP.OnInvoke","IExpDispSupportXP::OnInvoke","OnInvoke","OnInvoke method [Windows Shell]","OnInvoke method [Windows Shell]","IExpDispSupportXP interface","_shell_IExpDispSupportXP_OnInvoke","shdeprecated/IExpDispSupportXP::OnInvoke","shell.IExpDispSupportXP_OnInvoke"]
 old-location: shell\IExpDispSupportXP_OnInvoke.htm
 tech.root: shell

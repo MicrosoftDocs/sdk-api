@@ -179,7 +179,7 @@ HRESULT CompareIDs(LPARAM lParam, PCUIDLIST_RELATIVE pidl1, PCUIDLIST_RELATIVE p
     unsigned uSeverity = 0x000000000;
     
     // Code that determines the relative order of pidl1 and pidl2 according to
-    // any sortring rules specified by lParam goes here.
+    // any sorting rules specified by lParam goes here.
     //
     // Set sResult = -1 if pidl1 precedes pidl2 (pidl1 < pidl2).
     // Set sResult =  1 if pidl1 follows pidl2. (pidl1 > pidl2).

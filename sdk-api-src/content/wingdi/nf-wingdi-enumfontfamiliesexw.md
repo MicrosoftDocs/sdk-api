@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.EnumFontFamiliesExW
 title: EnumFontFamiliesExW function (wingdi.h)
-description: The EnumFontFamiliesEx function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the LOGFONT structure. EnumFontFamiliesEx enumerates fonts based on typeface name, character set, or both.
-helpviewer_keywords: ["EnumFontFamiliesEx","EnumFontFamiliesEx function [Windows GDI]","EnumFontFamiliesExA","EnumFontFamiliesExW","_win32_EnumFontFamiliesEx","gdi.enumfontfamiliesex","wingdi/EnumFontFamiliesEx","wingdi/EnumFontFamiliesExA","wingdi/EnumFontFamiliesExW"]
+description: The EnumFontFamiliesEx function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the LOGFONT structure. EnumFontFamiliesEx enumerates fonts based on typeface name, character set, or both. (Unicode)
+helpviewer_keywords: ["EnumFontFamiliesEx", "EnumFontFamiliesEx function [Windows GDI]", "EnumFontFamiliesExW", "_win32_EnumFontFamiliesEx", "gdi.enumfontfamiliesex", "wingdi/EnumFontFamiliesEx", "wingdi/EnumFontFamiliesExW"]
 old-location: gdi\enumfontfamiliesex.htm
 tech.root: gdi
 ms.assetid: 4d70906d-8005-4c4a-869e-16dd3e6fa3f2
@@ -220,7 +220,7 @@ When the graphics mode on the device context is set to GM_ADVANCED using the Set
 
 
 > [!NOTE]
-> The wingdi.h header defines EnumFontFamiliesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines EnumFontFamiliesEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

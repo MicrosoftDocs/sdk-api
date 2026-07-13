@@ -3,7 +3,7 @@ UID: NF:icodecapi.ICodecAPI.GetParameterValues
 title: ICodecAPI::GetParameterValues
 ms.date: 09/22/2020
 targetos: Windows
-description: The GetParameterValues method gets the list of possible values for a codec property.
+description: The GetParameterValues method gets the list of possible values for a codec property. (ICodecAPI::GetParameterValues)
 helpviewer_keywords: ["GetParameterValues","GetParameterValues method [DirectShow]","GetParameterValues method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetParameterValues method","ICodecAPI.GetParameterValues","ICodecAPI::GetParameterValues","ICodecAPIGetParameterValues","dshow.icodecapi_getparametervalues","icodecapi/ICodecAPI::GetParameterValues"]
 tech.root: mf
 req.assembly: 
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

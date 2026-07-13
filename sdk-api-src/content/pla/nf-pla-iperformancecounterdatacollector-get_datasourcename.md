@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_DataSourceName
 title: IPerformanceCounterDataCollector::get_DataSourceName (pla.h)
-description: Retrieves or sets the data source name if the log file is an SQL log file.
+description: Retrieves or sets the data source name if the log file is an SQL log file. (Get)
 helpviewer_keywords: ["DataSourceName property [PLA]","DataSourceName property [PLA]","IPerformanceCounterDataCollector interface","IPerformanceCounterDataCollector interface [PLA]","DataSourceName property","IPerformanceCounterDataCollector.DataSourceName","IPerformanceCounterDataCollector.get_DataSourceName","IPerformanceCounterDataCollector::DataSourceName","IPerformanceCounterDataCollector::get_DataSourceName","IPerformanceCounterDataCollector::put_DataSourceName","base.iperformancecounterdatacollector_datasourcename","get_DataSourceName","pla.iperformancecounterdatacollector_datasourcename","pla/IPerformanceCounterDataCollector::DataSourceName","pla/IPerformanceCounterDataCollector::get_DataSourceName","pla/IPerformanceCounterDataCollector::put_DataSourceName"]
 old-location: pla\iperformancecounterdatacollector_datasourcename.htm
 tech.root: PLA

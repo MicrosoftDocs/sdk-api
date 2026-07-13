@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Remove
 title: ISmimeCapabilities::Remove (certenroll.h)
-description: Removes an object from the collection by index value.
+description: Removes an object from the collection by index value. (ISmimeCapabilities.Remove)
 helpviewer_keywords: ["ISmimeCapabilities interface [Security]","Remove method","ISmimeCapabilities.Remove","ISmimeCapabilities::Remove","Remove","Remove method [Security]","Remove method [Security]","ISmimeCapabilities interface","certenroll/ISmimeCapabilities::Remove","security.ismimecapabilities_remove_method"]
 old-location: security\ismimecapabilities_remove_method.htm
 tech.root: security

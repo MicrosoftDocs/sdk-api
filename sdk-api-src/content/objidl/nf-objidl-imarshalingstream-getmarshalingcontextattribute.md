@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IMarshalingStream.GetMarshalingContextAttribute
 title: IMarshalingStream::GetMarshalingContextAttribute (objidl.h)
-description: Gets information about the marshaling context.
+description: The IMarshalingStream::GetMarshalingContextAttribute method (objidl.h) gets information about the marshaling context.
 helpviewer_keywords: ["GetMarshalingContextAttribute","GetMarshalingContextAttribute method [COM]","GetMarshalingContextAttribute method [COM]","IMarshalingStream interface","IMarshalingStream interface [COM]","GetMarshalingContextAttribute method","IMarshalingStream.GetMarshalingContextAttribute","IMarshalingStream::GetMarshalingContextAttribute","com.imarshalingstream_getmarshalingcontextattribute","objidl/IMarshalingStream::GetMarshalingContextAttribute"]
 old-location: com\imarshalingstream_getmarshalingcontextattribute.htm
 tech.root: com
 ms.assetid: 60B401C8-1ACA-412D-B754-997C39454821
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: GetMarshalingContextAttribute, GetMarshalingContextAttribute method [COM], GetMarshalingContextAttribute method [COM],IMarshalingStream interface, IMarshalingStream interface [COM],GetMarshalingContextAttribute method, IMarshalingStream.GetMarshalingContextAttribute, IMarshalingStream::GetMarshalingContextAttribute, com.imarshalingstream_getmarshalingcontextattribute, objidl/IMarshalingStream::GetMarshalingContextAttribute
 req.header: objidl.h
 req.include-header: Objidlbase.h
@@ -64,7 +64,7 @@ The value of <i>attribute</i>.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

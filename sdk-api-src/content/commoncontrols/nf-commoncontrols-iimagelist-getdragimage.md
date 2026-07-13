@@ -56,15 +56,15 @@ Gets the temporary image list that is used for the drag image. The function also
 
 ### -param ppt [out]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the current drag position. Can be <b>NULL</b>.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the current drag position. Can be <b>NULL</b>.
 
 ### -param pptHotspot [out]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the offset of the drag image relative to the drag position. Can be <b>NULL</b>.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the offset of the drag image relative to the drag position. Can be <b>NULL</b>.
 
 ### -param riid [out]
 
@@ -82,7 +82,7 @@ The address of a pointer to the interface for the image list if successful, <b>N
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

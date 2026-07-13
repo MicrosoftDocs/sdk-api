@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPAMVABUFFERINFO","AMVABUFFERINFO","AMVABUFFERINFO struc
 old-location: dshow\amvabufferinfo.htm
 tech.root: dshow
 ms.assetid: 8b018c40-44ae-4033-97b3-efa4b4c1bfb2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*LPAMVABUFFERINFO, AMVABUFFERINFO, AMVABUFFERINFO structure [DirectShow], AMVABUFFERINFOStructure, DXVA_ALPHA_BLEND_COMBINATION_BUFFER, DXVA_AYUV_BUFFER, DXVA_BITSTREAM_DATA_BUFFER, DXVA_DCCMD_SURFACE_BUFFER, DXVA_DEBLOCKING_CONTROL_BUFFER, DXVA_DPXD_SURFACE_BUFFER, DXVA_HIGHLIGHT_BUFFER, DXVA_IA44_SURFACE_BUFFER, DXVA_INVERSE_QUANTIZATION_MATRIX_BUFFER, DXVA_MACROBLOCK_CONTROL_BUFFER, DXVA_PICTURE_DECODE_BUFFER, DXVA_PICTURE_RESAMPLE_BUFFER, DXVA_READ_BACK_BUFFER, DXVA_RESIDUAL_DIFFERENCE_BUFFER, DXVA_SLICE_CONTROL_BUFFER, LPAMVABUFFERINFO, LPAMVABUFFERINFO structure pointer [DirectShow], amva/AMVABUFFERINFO, amva/LPAMVABUFFERINFO, dshow.amvabufferinfo'
 req.header: amva.h
 req.include-header: Videoacc.h
@@ -53,6 +53,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AMVABUFFERINFO</b> structure specifies a buffer for the 
         <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>  method.

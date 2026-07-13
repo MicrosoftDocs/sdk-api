@@ -56,7 +56,7 @@ The <b>QuarantineStatus</b> enumeration specifies possible health status values 
 
 ## -enum-fields
 
-### -field NOQUARANTINE
+### -field NOQUARANTINE:0
 
 The DHCP client is compliant with the health policies defined by the administrator and has normal access to the network.
 

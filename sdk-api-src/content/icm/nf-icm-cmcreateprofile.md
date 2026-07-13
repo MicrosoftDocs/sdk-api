@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Icm32.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -78,10 +78,10 @@ If a CMM does not support **CMCreateProfile**, Windows uses the default CMM to c
 
 The CMM should set all header fields to sensible defaults. This profile should be usable as the input profile in a transform.
 
-The calling application must free the buffer allocated by this function and pointed to by the *lpProfileData* parameter. Use [**GlobalFree**](https://msdn.microsoft.com/en-us/library/aa366579\(v=vs.85\)) to free the buffer.
+The calling application must free the buffer allocated by this function and pointed to by the *lpProfileData* parameter. Use [**GlobalFree**](../winbase/nf-winbase-globalfree.md) to free the buffer.
 
 ## -see-also
 
-* [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [CMCreateProfileW](/windows/win32/api/icm/nf-icm-cmcreateprofilew)

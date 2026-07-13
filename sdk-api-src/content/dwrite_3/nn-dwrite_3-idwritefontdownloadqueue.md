@@ -6,13 +6,13 @@ helpviewer_keywords: ["IDWriteFontDownloadQueue","IDWriteFontDownloadQueue inter
 old-location: directwrite\idwritefontdownloadqueue.htm
 tech.root: DirectWrite
 ms.assetid: d1b1dfab-a22a-40bb-ffc4-eb094ac14217
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontDownloadQueue, IDWriteFontDownloadQueue interface [Direct Write], IDWriteFontDownloadQueue interface [Direct Write],described, directwrite.idwritefontdownloadqueue, dwrite_3/IDWriteFontDownloadQueue
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -57,8 +57,5 @@ Interface that enqueues download requests for remote fonts, characters, glyphs, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontDownloadQueue</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontDownloadQueue</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontDownloadQueue</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontDownloadQueue</b> also has these types of members:
 

@@ -1,7 +1,7 @@
 ---
 UID: NC:winsvc.LPSERVICE_MAIN_FUNCTIONW
 title: LPSERVICE_MAIN_FUNCTIONW (winsvc.h)
-description: The entry point for a service.
+description: The entry point for a service. (Unicode)
 helpviewer_keywords: ["LPSERVICE_MAIN_FUNCTION","LPSERVICE_MAIN_FUNCTION callback","LPSERVICE_MAIN_FUNCTION callback function","LPSERVICE_MAIN_FUNCTIONA","LPSERVICE_MAIN_FUNCTIONW","ServiceMain","_win32_servicemain","base.servicemain","winsvc/LPSERVICE_MAIN_FUNCTION","winsvc/LPSERVICE_MAIN_FUNCTIONA","winsvc/LPSERVICE_MAIN_FUNCTIONW"]
 old-location: base\servicemain.htm
 tech.root: security
@@ -109,7 +109,7 @@ For an example, see
 <div class="code"></div>
 
 > [!NOTE]
-> The winsvc.h header defines LPSERVICE_MAIN_FUNCTION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines LPSERVICE_MAIN_FUNCTION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

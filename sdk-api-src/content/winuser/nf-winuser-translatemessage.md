@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-message-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-message-l1-1-0.dll
  - ie_shims.dll
@@ -100,60 +102,17 @@ For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a>
-
-
-
-<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-char">WM_CHAR</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-deadchar">WM_DEADCHAR</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-syschar">WM_SYSCHAR</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-sysdeadchar">WM_SYSDEADCHAR</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a>
+- <a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
+- <a href="/windows/desktop/inputdev/wm-char">WM_CHAR</a>
+- <a href="/windows/desktop/inputdev/wm-deadchar">WM_DEADCHAR</a>
+- <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+- <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+- <a href="/windows/desktop/menurc/wm-syschar">WM_SYSCHAR</a>
+- <a href="/windows/desktop/inputdev/wm-sysdeadchar">WM_SYSDEADCHAR</a>
+- <a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
+- <a href="/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

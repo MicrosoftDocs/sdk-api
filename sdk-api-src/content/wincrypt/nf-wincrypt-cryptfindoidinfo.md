@@ -86,7 +86,7 @@ This parameter can be one of the following key types.
 #### CRYPT_OID_INFO_ALGID_KEY
 
 <i>pvKey</i> is the address of an 
-<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>variable. The following <b>ALG_ID</b>s are supported:
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> variable. The following <b>ALG_ID</b>s are supported:
 
 Hash Algorithms:
 

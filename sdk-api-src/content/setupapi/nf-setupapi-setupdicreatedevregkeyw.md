@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiCreateDevRegKeyW
 title: SetupDiCreateDevRegKeyW function (setupapi.h)
-description: The SetupDiCreateDevRegKey function creates a registry key for device-specific configuration information and returns a handle to the key.
-helpviewer_keywords: ["SetupDiCreateDevRegKey","SetupDiCreateDevRegKey function [Device and Driver Installation]","SetupDiCreateDevRegKeyA","SetupDiCreateDevRegKeyW","devinst.setupdicreatedevregkey","di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml","setupapi/SetupDiCreateDevRegKey"]
+description: The SetupDiCreateDevRegKey function creates a registry key for device-specific configuration information and returns a handle to the key. (Unicode)
+helpviewer_keywords: ["SetupDiCreateDevRegKey", "SetupDiCreateDevRegKey function [Device and Driver Installation]", "SetupDiCreateDevRegKeyW", "devinst.setupdicreatedevregkey", "di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml", "setupapi/SetupDiCreateDevRegKey"]
 old-location: devinst\setupdicreatedevregkey.htm
 tech.root: devinst
 ms.assetid: 8c07db95-eb59-4e01-851d-f6a8da169625
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:
@@ -154,7 +155,7 @@ If the supplied device information set contains device information elements for 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiCreateDevRegKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiCreateDevRegKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

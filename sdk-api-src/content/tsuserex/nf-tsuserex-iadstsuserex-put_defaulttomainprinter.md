@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_DefaultToMainPrinter
 title: IADsTSUserEx::put_DefaultToMainPrinter (tsuserex.h)
-description: A value that specifies whether to print automatically to the client's default printer.
+description: A value that specifies whether to print automatically to the client's default printer. (Put)
 helpviewer_keywords: ["DefaultToMainPrinter property [Remote Desktop Services]","DefaultToMainPrinter property [Remote Desktop Services]","IADsTSUserEx interface","IADsTSUserEx interface [Remote Desktop Services]","DefaultToMainPrinter property","IADsTSUserEx.DefaultToMainPrinter","IADsTSUserEx.put_DefaultToMainPrinter","IADsTSUserEx::DefaultToMainPrinter","IADsTSUserEx::get_DefaultToMainPrinter","IADsTSUserEx::put_DefaultToMainPrinter","put_DefaultToMainPrinter","termserv.iadstsuserex_defaulttomainprinter","tsuserex/IADsTSUserEx::DefaultToMainPrinter","tsuserex/IADsTSUserEx::get_DefaultToMainPrinter","tsuserex/IADsTSUserEx::put_DefaultToMainPrinter"]
 old-location: termserv\iadstsuserex_defaulttomainprinter.htm
 tech.root: TermServ

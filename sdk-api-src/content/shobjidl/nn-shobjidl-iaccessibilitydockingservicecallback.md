@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IAccessibilityDockingServiceCallback
 title: IAccessibilityDockingServiceCallback (shobjidl.h)
-description: Receives Acessibility Window Docking events.
+description: Receives Accessibility Window Docking events.
 helpviewer_keywords: ["IAccessibilityDockingServiceCallback","IAccessibilityDockingServiceCallback interface [COM]","IAccessibilityDockingServiceCallback interface [COM]","described","com.iaccessibilitydockingservicecallback","shobjidl/IAccessibilityDockingServiceCallback"]
 old-location: com\iaccessibilitydockingservicecallback.htm
 tech.root: com
@@ -51,12 +51,9 @@ api_name:
 
 ## -description
 
-Receives Acessibility Window Docking events.
+Receives Accessibility Window Docking events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingServiceCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibilityDockingServiceCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAccessibilityDockingServiceCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibilityDockingServiceCallback</b> also has these types of members:
 

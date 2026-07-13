@@ -1,8 +1,8 @@
 ---
 UID: NF:immdev.ImmRequestMessageA
 title: ImmRequestMessageA function (immdev.h)
-description: Generates a WM_IME_REQUEST message.
-helpviewer_keywords: ["ImmRequestMessage","ImmRequestMessage function [Internationalization for Windows Applications]","ImmRequestMessageA","ImmRequestMessageW","immdev/ImmRequestMessage","immdev/ImmRequestMessageA","immdev/ImmRequestMessageW","intl.immrequestmessage"]
+description: Generates a WM_IME_REQUEST message. (ANSI)
+helpviewer_keywords: ["ImmRequestMessageA", "immdev/ImmRequestMessageA"]
 old-location: intl\immrequestmessage.htm
 tech.root: Intl
 ms.assetid: 70c90851-b6a4-41ce-a048-c828adcd4ed8
@@ -81,7 +81,7 @@ IME must use this function instead of sending the <a href="/windows/desktop/Intl
 
 
 > [!NOTE]
-> The immdev.h header defines ImmRequestMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines ImmRequestMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj.__unnamed_struct_0
+UID: NS:shlobj.FVSHOWINFO
 title: FVSHOWINFO (shlobj.h)
 description: Contains information that the file viewer uses to display a file.
 helpviewer_keywords: ["*LPFVSHOWINFO","FVSHOWINFO","FVSHOWINFO structure [Windows Shell]","FVSIF_CANVIEWIT","FVSIF_NEWFAILED","FVSIF_NEWFILE","FVSIF_PINNED","FVSIF_RECT","LPFVSHOWINFO","LPFVSHOWINFO structure pointer [Windows Shell]","_win32_FVSHOWINFO","shell.FVSHOWINFO","shlobj/FVSHOWINFO","shlobj/LPFVSHOWINFO"]
@@ -127,3 +127,4 @@ The address of an interface that has its <a href="/windows/desktop/api/unknwn/nf
 Type: <b>OLECHAR[MAX_PATH]</b>
 
 The address of a string that specifies the name of a new file to display. A file viewer sets this member when a drag-and-drop operation drops a file on the file viewer's window.
+

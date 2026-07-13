@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.AcquireCredentialsHandleW
 title: AcquireCredentialsHandleW function (sspi.h)
-description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
-helpviewer_keywords: ["AcquireCredentialsHandle","AcquireCredentialsHandle (CredSSP)","AcquireCredentialsHandle function [Security]","AcquireCredentialsHandleA","AcquireCredentialsHandleW","SECPKG_CRED_INBOUND","SECPKG_CRED_OUTBOUND","security.acquirecredentialshandle__credssp_","sspi/AcquireCredentialsHandle","sspi/AcquireCredentialsHandleA","sspi/AcquireCredentialsHandleW"]
+description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal. (Unicode)
+helpviewer_keywords: ["AcquireCredentialsHandle", "AcquireCredentialsHandle (CredSSP)", "AcquireCredentialsHandle function [Security]", "AcquireCredentialsHandleW", "SECPKG_CRED_INBOUND", "SECPKG_CRED_OUTBOUND", "security.acquirecredentialshandle__credssp_", "sspi/AcquireCredentialsHandle", "sspi/AcquireCredentialsHandleW"]
 old-location: security\acquirecredentialshandle__credssp_.htm
 tech.root: security
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Secur32.dll
+ - schannel.dll
 api_name:
  - AcquireCredentialsHandle
  - AcquireCredentialsHandleA
@@ -244,7 +245,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 > [!NOTE]
-> The sspi.h header defines AcquireCredentialsHandle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines AcquireCredentialsHandle as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

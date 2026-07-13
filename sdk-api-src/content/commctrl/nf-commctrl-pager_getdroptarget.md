@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_GetDropTarget","Pager_GetDropTarget macro [Windows 
 old-location: controls\Pager_GetDropTarget.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getdroptarget.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_GetDropTarget, Pager_GetDropTarget macro [Windows Controls], _win32_Pager_GetDropTarget, _win32_Pager_GetDropTarget_cpp, commctrl/Pager_GetDropTarget, controls.Pager_GetDropTarget, controls._win32_Pager_GetDropTarget
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Pager_GetDropTarget macro
+
+## -syntax
+
+```cpp
+void Pager_GetDropTarget(
+   HWND        hwnd,
+   IDropTarget **ppdt
+);
+```
 
 
 ## -description

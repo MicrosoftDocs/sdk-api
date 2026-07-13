@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionType.GetDesc
 title: ID3D10ShaderReflectionType::GetDesc (d3d10shader.h)
-description: Get the description of a shader-reflection-variable type.
+description: Get the description of a shader-reflection-variable type. (ID3D10ShaderReflectionType.GetDesc)
 helpviewer_keywords: ["GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10ShaderReflectionType interface","ID3D10ShaderReflectionType interface [Direct3D 10]","GetDesc method","ID3D10ShaderReflectionType.GetDesc","ID3D10ShaderReflectionType::GetDesc","d3d10shader/ID3D10ShaderReflectionType::GetDesc","direct3d10.id3d10shaderreflectiontype_getdesc","e11b1daf-b201-1efd-a110-5cde3866d456"]
 old-location: direct3d10\id3d10shaderreflectiontype_getdesc.htm
 tech.root: direct3d10

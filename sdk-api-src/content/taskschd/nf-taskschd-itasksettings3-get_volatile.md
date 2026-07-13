@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings3.get_Volatile
 title: ITaskSettings3::get_Volatile (taskschd.h)
-description: Gets or sets a boolean value that indicates whether the task is automatically disabled every time Windows starts.
+description: Gets or sets a boolean value that indicates whether the task is automatically disabled every time Windows starts. (Get)
 helpviewer_keywords: ["ITaskSettings3 interface [Task Scheduler]","Volatile property","ITaskSettings3.Volatile","ITaskSettings3.get_Volatile","ITaskSettings3::Volatile","ITaskSettings3::get_Volatile","ITaskSettings3::put_Volatile","Volatile property [Task Scheduler]","Volatile property [Task Scheduler]","ITaskSettings3 interface","get_Volatile","taskschd.itasksettings3_volatile","taskschd/ITaskSettings3::Volatile","taskschd/ITaskSettings3::get_Volatile","taskschd/ITaskSettings3::put_Volatile"]
 old-location: taskschd\itasksettings3_volatile.htm
 tech.root: taskschd

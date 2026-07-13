@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IACList2.GetOptions
 title: IACList2::GetOptions (shlobj_core.h)
-description: Gets the current autocomplete options.
+description: Gets the current autocomplete options. (IACList2.GetOptions)
 helpviewer_keywords: ["ACLO_CURRENTDIR","ACLO_DESKTOP","ACLO_FAVORITES","ACLO_FILESYSDIRS","ACLO_FILESYSONLY","ACLO_MYCOMPUTER","ACLO_NONE","GetOptions","GetOptions method [Windows Shell]","GetOptions method [Windows Shell]","IACList2 interface","IACList2 interface [Windows Shell]","GetOptions method","IACList2.GetOptions","IACList2::GetOptions","_win32_IACList2_GetOptions","shell.IACList2_GetOptions","shlobj_core/IACList2::GetOptions"]
 old-location: shell\IACList2_GetOptions.htm
 tech.root: shell

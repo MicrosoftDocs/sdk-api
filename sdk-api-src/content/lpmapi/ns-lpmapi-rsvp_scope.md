@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_10
+UID: NS:lpmapi.RSVP_SCOPE
 title: RSVP_SCOPE (lpmapi.h)
 description: The RSVP_SCOPE structure provides RSVP scope information.
 helpviewer_keywords: ["RSVP_SCOPE","RSVP_SCOPE structure [QOS]","lpmapi/RSVP_SCOPE","qos.rsvp_scope"]
@@ -78,3 +78,4 @@ RSVP scope list, in the form of a <a href="/previous-versions/windows/desktop/ap
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-scope_list_ipv4">Scope_list_ipv4</a>
+

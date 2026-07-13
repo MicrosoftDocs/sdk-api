@@ -60,7 +60,7 @@ Provides a set of flags to be used with the following methods to indicate the ty
 
 ## -enum-fields
 
-### -field CT_AND_CONDITION
+### -field CT_AND_CONDITION:0
 
 Indicates that the values of the subterms are combined by "AND".
 

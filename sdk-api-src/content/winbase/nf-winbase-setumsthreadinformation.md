@@ -54,6 +54,9 @@ req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 
 Sets application-specific context information for the specified user-mode scheduling (UMS) worker thread.
 
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
+
 ## -parameters
 
 ### -param UmsThread [in]
@@ -62,7 +65,7 @@ A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A <a href="/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
+A <a href="/windows/win32/api/winbase/nf-winbase-queryumsthreadinformation">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
 
 ### -param UmsThreadInformation [in]
 
@@ -104,6 +107,14 @@ The buffer size does not match the  required size for the specified information 
 The <i>UmsThreadInfoClass</i> parameter specifies an information class that is not supported.
 
 </td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
+</dl>
+</td>
+<td width="60%">UMS is not supported.</td>
 </tr>
 </table>
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetObject
 title: IMFAsyncResult::GetObject (mfobjects.h)
-description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
+description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called. (IMFAsyncResult.GetObject)
 helpviewer_keywords: ["GetObject","GetObject method [Media Foundation]","GetObject method [Media Foundation]","IMFAsyncResult interface","IMFAsyncResult interface [Media Foundation]","GetObject method","IMFAsyncResult.GetObject","IMFAsyncResult::GetObject","b4b871ff-370d-4a37-9fe4-91d1805890eb","mf.imfasyncresult_getobject","mfobjects/IMFAsyncResult::GetObject"]
 old-location: mf\imfasyncresult_getobject.htm
 tech.root: mf

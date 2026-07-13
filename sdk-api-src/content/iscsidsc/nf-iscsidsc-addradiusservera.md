@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.AddRadiusServerA
 title: AddRadiusServerA function (iscsidsc.h)
-description: AddRadiusServer.
-helpviewer_keywords: ["AddRadiusServer","AddRadiusServer function [iSCSI Discovery Library API]","AddRadiusServerA","AddRadiusServerW","iscsidisc.addradiusserver","iscsidsc/AddRadiusServer","iscsidsc/AddRadiusServerA","iscsidsc/AddRadiusServerW"]
+description: AddRadiusServer. (ANSI)
+helpviewer_keywords: ["AddRadiusServerA", "iscsidsc/AddRadiusServerA"]
 old-location: iscsidisc\addradiusserver.htm
 tech.root: iSCSIDisc
 ms.assetid: ed89b329-f1ea-4606-b305-a245d29b119c
@@ -91,7 +91,7 @@ When the iSCSI initiator service receives a request from the <b>AddRadiusServer<
 
 
 > [!NOTE]
-> The iscsidsc.h header defines AddRadiusServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines AddRadiusServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

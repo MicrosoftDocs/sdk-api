@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetData","GetData method","GetData method","ISensor inter
 old-location: winsensors_com_ref\isensor_getdata.htm
 tech.root: winsensors
 ms.assetid: 89145856-96c7-48c2-988c-b410ab20aed4
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetData, GetData method, GetData method,ISensor interface, ISensor interface,GetData method, ISensor.GetData, ISensor::GetData, sensorsapi/ISensor::GetData, winsensors_com_ref.isensor_getdata
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the most recent sensor data report.
 

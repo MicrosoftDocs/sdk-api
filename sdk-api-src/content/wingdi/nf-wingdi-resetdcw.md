@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.ResetDCW
 title: ResetDCW function (wingdi.h)
-description: The ResetDC function updates the specified printer or plotter device context (DC) using the specified information.
-helpviewer_keywords: ["ResetDC","ResetDC function [Windows GDI]","ResetDCA","ResetDCW","_win32_ResetDC","gdi.resetdc","wingdi/ResetDC","wingdi/ResetDCA","wingdi/ResetDCW"]
+description: The ResetDC function updates the specified printer or plotter device context (DC) using the specified information. (Unicode)
+helpviewer_keywords: ["ResetDC", "ResetDC function [Windows GDI]", "ResetDCW", "_win32_ResetDC", "gdi.resetdc", "wingdi/ResetDC", "wingdi/ResetDCW"]
 old-location: gdi\resetdc.htm
 tech.root: gdi
 ms.assetid: 3f77db51-90d1-4a87-812b-1e129ae8fde9
@@ -87,7 +87,7 @@ An application can pass an information DC to the <b>ResetDC</b> function. In tha
 
 
 > [!NOTE]
-> The wingdi.h header defines ResetDC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines ResetDC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

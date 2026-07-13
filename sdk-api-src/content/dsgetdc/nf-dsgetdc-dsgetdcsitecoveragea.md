@@ -1,8 +1,8 @@
 ---
 UID: NF:dsgetdc.DsGetDcSiteCoverageA
 title: DsGetDcSiteCoverageA function (dsgetdc.h)
-description: The DsGetDcSiteCoverage function returns the site names of all sites covered by a domain controller.
-helpviewer_keywords: ["DsGetDcSiteCoverage","DsGetDcSiteCoverage function [Active Directory]","DsGetDcSiteCoverageA","DsGetDcSiteCoverageW","_glines_dsgetdcsitecoverage","ad.dsgetdcsitecoverage","dsgetdc/DsGetDcSiteCoverage","dsgetdc/DsGetDcSiteCoverageA","dsgetdc/DsGetDcSiteCoverageW"]
+description: The DsGetDcSiteCoverage function returns the site names of all sites covered by a domain controller. (ANSI)
+helpviewer_keywords: ["DsGetDcSiteCoverageA", "dsgetdc/DsGetDcSiteCoverageA"]
 old-location: ad\dsgetdcsitecoverage.htm
 tech.root: ad
 ms.assetid: e0f757d9-36b6-40f8-a1db-fb5b9862b46a
@@ -87,4 +87,4 @@ This function returns DSGETDCAPI DWORD.
 ## -remarks
 
 > [!NOTE]
-> The dsgetdc.h header defines DsGetDcSiteCoverage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsgetdc.h header defines DsGetDcSiteCoverage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

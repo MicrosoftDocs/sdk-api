@@ -72,12 +72,12 @@ Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-i
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 This function creates a file in the system temporary folder, and then returns a byte stream object for that file.
-      The full path name of the file is storted in the <a href="/windows/desktop/medfound/mf-bytestream-origin-name-attribute">MF_BYTESTREAM_ORIGIN_NAME</a> attribute. The file is created with the <b>FILE_FLAG_DELETE_ON_CLOSE</b> flag, and is deleted after the byte stream is released.
+      The full path name of the file is stored in the <a href="/windows/desktop/medfound/mf-bytestream-origin-name-attribute">MF_BYTESTREAM_ORIGIN_NAME</a> attribute. The file is created with the <b>FILE_FLAG_DELETE_ON_CLOSE</b> flag, and is deleted after the byte stream is released.
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

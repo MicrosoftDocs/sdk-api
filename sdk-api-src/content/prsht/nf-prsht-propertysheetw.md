@@ -1,8 +1,8 @@
 ---
 UID: NF:prsht.PropertySheetW
 title: PropertySheetW function (prsht.h)
-description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.
-helpviewer_keywords: ["PropertySheet","PropertySheet function [Windows Controls]","PropertySheetA","PropertySheetW","_win32_PropertySheet","_win32_PropertySheet_cpp","controls.PropertySheet","controls._win32_PropertySheet","prsht/PropertySheet","prsht/PropertySheetA","prsht/PropertySheetW"]
+description: Creates a property sheet and adds the pages defined in the specified property sheet header structure. (Unicode)
+helpviewer_keywords: ["PropertySheet", "PropertySheet function [Windows Controls]", "PropertySheetW", "_win32_PropertySheet", "_win32_PropertySheet_cpp", "controls.PropertySheet", "controls._win32_PropertySheet", "prsht/PropertySheet", "prsht/PropertySheetW"]
 old-location: controls\PropertySheet.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
@@ -139,4 +139,4 @@ For a modeless property sheet, your message loop should use <a href="/windows/de
 
 
 > [!NOTE]
-> The prsht.h header defines PropertySheet as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The prsht.h header defines PropertySheet as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

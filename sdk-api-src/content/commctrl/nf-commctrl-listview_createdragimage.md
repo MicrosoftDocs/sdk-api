@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_CreateDragImage","ListView_CreateDragImage macro
 old-location: controls\ListView_CreateDragImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_createdragimage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_CreateDragImage, ListView_CreateDragImage macro [Windows Controls], _win32_ListView_CreateDragImage, _win32_ListView_CreateDragImage_cpp, commctrl/ListView_CreateDragImage, controls.ListView_CreateDragImage, controls._win32_ListView_CreateDragImage
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # ListView_CreateDragImage macro
 
+## -syntax
+
+```cpp
+HIMAGELIST ListView_CreateDragImage(
+   HWND    hwnd,
+   int     i,
+   LPPOINT lpptUpLeft
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns the handle to the drag image list if successful, or <b>NULL</b> otherwise.
+
 
 ## -description
 
@@ -70,7 +86,7 @@ The index of the item.
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the initial location of the upper-left corner of the image, in view coordinates.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the initial location of the upper-left corner of the image, in view coordinates.
 
 ## -remarks
 

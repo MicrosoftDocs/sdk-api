@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.put_TSID
 title: IFaxDevice::put_TSID (faxcomex.h)
-description: The IFaxDevice::get_TSID property is a null-terminated string that contains the transmitting station identifier (TSID) for the device.
+description: The IFaxDevice::get_TSID property is a null-terminated string that contains the transmitting station identifier (TSID) for the device. (Put)
 helpviewer_keywords: ["IFaxDevice interface [Fax Service]","TSID property","IFaxDevice.TSID","IFaxDevice.get_TSID","IFaxDevice.put_TSID","IFaxDevice::TSID","IFaxDevice::get_TSID","IFaxDevice::put_TSID","TSID property [Fax Service]","TSID property [Fax Service]","IFaxDevice interface","_mfax_faxdevice.tsid","fax._mfax_faxdevice_cpp_mfax_faxdevice_tsid_cpp","fax._mfax_faxdevice_tsid","faxcomex/IFaxDevice::TSID","faxcomex/IFaxDevice::get_TSID","faxcomex/IFaxDevice::put_TSID","put_TSID"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_tsid_cpp.htm
 tech.root: Fax

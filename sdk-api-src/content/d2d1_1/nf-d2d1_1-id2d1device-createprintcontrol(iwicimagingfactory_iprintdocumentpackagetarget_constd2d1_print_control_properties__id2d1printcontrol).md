@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Device.CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,constD2D1_PRINT_CONTROL_PROPERTIES&,ID2D1PrintControl)
 title: ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES &,ID2D1PrintControl) (d2d1_1.h)
-description: Creates an ID2D1PrintControl object that converts Direct2D primitives stored in ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
+description: Creates an ID2D1PrintControl object that converts Direct2D primitives stored in ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives. (overload 2/2)
 helpviewer_keywords: ["CreatePrintControl","CreatePrintControl method [Direct2D]","CreatePrintControl method [Direct2D]","ID2D1Device interface","ID2D1Device interface [Direct2D]","CreatePrintControl method","ID2D1Device.CreatePrintControl","ID2D1Device.CreatePrintControl(IWICImagingFactory","IPrintDocumentPackageTarget","const D2D1_PRINT_CONTROL_PROPERTIES &","ID2D1PrintControl)","ID2D1Device::CreatePrintControl","ID2D1Device::CreatePrintControl(IWICImagingFactory","IPrintDocumentPackageTarget","const D2D1_PRINT_CONTROL_PROPERTIES &","ID2D1PrintControl)","d2d1_1/ID2D1Device::CreatePrintControl","direct2d.id2d1device_createprintcontrol2"]
 old-location: direct2d\id2d1device_createprintcontrol2.htm
 tech.root: Direct2D

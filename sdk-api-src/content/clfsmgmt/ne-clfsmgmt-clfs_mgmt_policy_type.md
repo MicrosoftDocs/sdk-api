@@ -58,7 +58,7 @@ The <b>CLFS_MGMT_POLICY_TYPE</b> enumeration lists the valid policy types.
 
 ## -enum-fields
 
-### -field ClfsMgmtPolicyMaximumSize
+### -field ClfsMgmtPolicyMaximumSize:0x0
 
 Specifies the maximum size of the log.
 

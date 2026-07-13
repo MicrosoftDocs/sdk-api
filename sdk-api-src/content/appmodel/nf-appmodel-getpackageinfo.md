@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackageInfo
 title: GetPackageInfo function (appmodel.h)
-description: Gets the package information for the specified package.
+description: Gets the package information for the specified package. (GetPackageInfo)
 helpviewer_keywords: ["GetPackageInfo","GetPackageInfo function [App packaging and management]","appmodel/GetPackageInfo","appxpkg.getpackageinfo"]
 old-location: appxpkg\getpackageinfo.htm
 tech.root: appxpkg
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
+ - api-ms-win-appmodel-runtime-l1-1-6.dll
+ - api-ms-win-appmodel-runtime-l1-1-5.dll
+ - api-ms-win-appmodel-runtime-l1-1-4.dll
+ - api-ms-win-appmodel-runtime-l1-1-3.dll
  - Kernel32.dll
  - API-MS-Win-AppModel-Runtime-l1-1-0.dll
  - kernel32legacy.dll

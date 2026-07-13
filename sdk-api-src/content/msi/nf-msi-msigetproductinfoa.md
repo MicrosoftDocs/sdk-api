@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetProductInfoA
 title: MsiGetProductInfoA function (msi.h)
-description: The MsiGetProductInfo function returns product information for published and installed products.
-helpviewer_keywords: ["INSTALLPROPERTY_HELPLINK","INSTALLPROPERTY_HELPTELEPHONE","INSTALLPROPERTY_INSTALLDATE","INSTALLPROPERTY_INSTALLEDLANGUAGE","INSTALLPROPERTY_INSTALLEDPRODUCTNAME","INSTALLPROPERTY_INSTALLLOCATION","INSTALLPROPERTY_INSTALLSOURCE","INSTALLPROPERTY_LOCALPACKAGE","INSTALLPROPERTY_PUBLISHER","INSTALLPROPERTY_URLINFOABOUT","INSTALLPROPERTY_URLUPDATEINFO","INSTALLPROPERTY_VERSIONMAJOR","INSTALLPROPERTY_VERSIONMINOR","INSTALLPROPERTY_VERSIONSTRING","MsiGetProductInfo","MsiGetProductInfo function","MsiGetProductInfoA","MsiGetProductInfoW","_msi_msigetproductinfo","msi/MsiGetProductInfo","msi/MsiGetProductInfoA","msi/MsiGetProductInfoW","setup.msigetproductinfo"]
+description: The MsiGetProductInfo function returns product information for published and installed products. (ANSI)
+helpviewer_keywords: ["INSTALLPROPERTY_HELPLINK", "INSTALLPROPERTY_HELPTELEPHONE", "INSTALLPROPERTY_INSTALLDATE", "INSTALLPROPERTY_INSTALLEDLANGUAGE", "INSTALLPROPERTY_INSTALLEDPRODUCTNAME", "INSTALLPROPERTY_INSTALLLOCATION", "INSTALLPROPERTY_INSTALLSOURCE", "INSTALLPROPERTY_LOCALPACKAGE", "INSTALLPROPERTY_PUBLISHER", "INSTALLPROPERTY_URLINFOABOUT", "INSTALLPROPERTY_URLUPDATEINFO", "INSTALLPROPERTY_VERSIONMAJOR", "INSTALLPROPERTY_VERSIONMINOR", "INSTALLPROPERTY_VERSIONSTRING", "MsiGetProductInfoA", "msi/MsiGetProductInfoA"]
 old-location: setup\msigetproductinfo.htm
 tech.root: setup
 ms.assetid: 336a68d6-5239-4313-b6c7-8091907a0e35
@@ -434,7 +434,7 @@ If you attempt to use <b>MsiGetProductInfo</b> to query an advertised product  f
 
 
 > [!NOTE]
-> The msi.h header defines MsiGetProductInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetProductInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_NoSetFocus","Edit_NoSetFocus macro [Windows Controls
 old-location: controls\Edit_NoSetFocus.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_nosetfocus.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_NoSetFocus, Edit_NoSetFocus macro [Windows Controls], _win32_Edit_NoSetFocus, _win32_Edit_NoSetFocus_cpp, commctrl/Edit_NoSetFocus, controls.Edit_NoSetFocus, controls._win32_Edit_NoSetFocus
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_NoSetFocus macro
+
+## -syntax
+
+```cpp
+DWORD Edit_NoSetFocus(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+The return value is not used.
 
 
 ## -description

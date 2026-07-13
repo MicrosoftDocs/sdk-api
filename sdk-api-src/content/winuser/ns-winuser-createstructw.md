@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagCREATESTRUCTW
 title: CREATESTRUCTW (winuser.h)
-description: Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function.
+description: Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function. (Unicode)
 helpviewer_keywords: ["*LPCREATESTRUCTW","CREATESTRUCT","CREATESTRUCT structure [Windows and Messages]","CREATESTRUCTA","CREATESTRUCTW","LPCREATESTRUCT","LPCREATESTRUCT structure pointer [Windows and Messages]","_win32_CREATESTRUCT_str","_win32_createstruct_str_cpp","winmsg.createstruct","winui._win32_createstruct_str","winuser/CREATESTRUCT","winuser/CREATESTRUCTA","winuser/CREATESTRUCTW","winuser/LPCREATESTRUCT"]
 old-location: winmsg\createstruct.htm
 tech.root: winmsg
@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
+Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexw">CreateWindowEx</a> function.
 
 ## -struct-fields
 
@@ -64,9 +64,9 @@ Defines the initialization parameters passed to the window procedure of an appli
 
 Type: <b>LPVOID</b>
 
-Contains additional data which may be used to create the window. If the window is being created as a result of a call to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function, this member contains the value of the <i>lpParam</i> parameter specified in the function call.
+Contains additional data which may be used to create the window. If the window is being created as a result of a call to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindoww">CreateWindow</a> or <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexw">CreateWindowEx</a> function, this member contains the value of the <i>lpParam</i> parameter specified in the function call.
 
-If the window being created is a MDI client window, this member contains a pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If the window being created is a MDI child window, this member contains a pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure.
+If the window being created is a MDI client window, this member contains a pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If the window being created is a MDI child window, this member contains a pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructw">MDICREATESTRUCT</a> structure.
 
  If the window is being created from a dialog template, this member is the address of a <b>SHORT</b> value that specifies the size, in bytes, of the window creation data. The value is immediately followed by the creation data. For more information, see the following Remarks section.
 
@@ -138,7 +138,7 @@ The extended window style for the new window. For a list of possible values, see
 
 ## -remarks
 
-Because the <b>lpszClass</b> member can contain a pointer to a local (and thus inaccessable) atom, do not obtain the class name by using this member. Use the <a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a> function instead.
+Because the <b>lpszClass</b> member can contain a pointer to a local (and thus inaccessible) atom, do not obtain the class name by using this member. Use the <a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a> function instead.
 
  You should access the data represented by the <b>lpCreateParams</b> member using a pointer that has been declared using the <b>UNALIGNED</b> type, because the pointer may not be <b>DWORD</b> aligned. This is demonstrated in the following example:
 
@@ -166,7 +166,7 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams)
 
 
 > [!NOTE]
-> The winuser.h header defines CREATESTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CREATESTRUCT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -178,15 +178,15 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams)
 
 
 
-<a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindoww">CreateWindow</a>
 
 
 
-<a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowexw">CreateWindowEx</a>
 
 
 
-<a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructw">MDICREATESTRUCT</a>
 
 
 

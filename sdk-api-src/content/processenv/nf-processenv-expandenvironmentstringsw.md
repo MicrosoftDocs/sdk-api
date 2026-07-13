@@ -1,8 +1,8 @@
 ---
 UID: NF:processenv.ExpandEnvironmentStringsW
 title: ExpandEnvironmentStringsW function (processenv.h)
-description: Expands environment-variable strings and replaces them with the values defined for the current user.
-helpviewer_keywords: ["ExpandEnvironmentStrings","ExpandEnvironmentStrings function","ExpandEnvironmentStringsA","ExpandEnvironmentStringsW","_win32_expandenvironmentstrings","base.expandenvironmentstrings","processenv/ExpandEnvironmentStrings","processenv/ExpandEnvironmentStringsA","processenv/ExpandEnvironmentStringsW"]
+description: Expands environment-variable strings and replaces them with the values defined for the current user. (Unicode)
+helpviewer_keywords: ["ExpandEnvironmentStrings", "ExpandEnvironmentStrings function", "ExpandEnvironmentStringsW", "_win32_expandenvironmentstrings", "base.expandenvironmentstrings", "processenv/ExpandEnvironmentStrings", "processenv/ExpandEnvironmentStringsW"]
 old-location: base\expandenvironmentstrings.htm
 tech.root: winprog
 ms.assetid: b563e8ed-311d-4971-94f3-9c9fde4a2f30
@@ -91,11 +91,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-The size of the <i>lpSrc</i> and <i>lpDst</i> buffers is limited to 32K.
+**Windows Server 2003 and Windows XP:** The size of the <i>lpSrc</i> and <i>lpDst</i> buffers is limited to 32K.
 
 To replace folder names in a fully qualified path with their associated environment-variable strings, use the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> function.
 
-To retrieve the list of environment variables for a process, use the <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
+To retrieve the list of environment variables for a process, use the <a href="/windows/win32/api/processenv/nf-processenv-getenvironmentstrings">GetEnvironmentStrings</a> function.
 
 
 #### Examples
@@ -109,7 +109,7 @@ For an example, see
 
 
 > [!NOTE]
-> The processenv.h header defines ExpandEnvironmentStrings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The processenv.h header defines ExpandEnvironmentStrings as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

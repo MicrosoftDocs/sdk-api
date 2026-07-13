@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.GetCPInfoExW
 title: GetCPInfoExW function (winnls.h)
-description: Retrieves information about any valid installed or available code page.
-helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_THREAD_ACP","GetCPInfoEx","GetCPInfoEx function [Internationalization for Windows Applications]","GetCPInfoExA","GetCPInfoExW","_win32_GetCPInfoEx","intl.getcpinfoex","winnls/GetCPInfoEx","winnls/GetCPInfoExA","winnls/GetCPInfoExW"]
+description: Retrieves information about any valid installed or available code page. (GetCPInfoExW)
+helpviewer_keywords: ["CP_ACP", "CP_MACCP", "CP_OEMCP", "CP_THREAD_ACP", "GetCPInfoEx", "GetCPInfoEx function [Internationalization for Windows Applications]", "GetCPInfoExW", "_win32_GetCPInfoEx", "intl.getcpinfoex", "winnls/GetCPInfoEx", "winnls/GetCPInfoExW"]
 old-location: intl\getcpinfoex.htm
 tech.root: Intl
 ms.assetid: c21ed6fe-85b6-438a-8f53-e30833e0c88a
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -122,31 +124,30 @@ Reserved; must be 0.
 
 ### -param lpCPInfoEx [out]
 
-Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a> structure that receives information about the code page.
+Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexw">CPINFOEX</a> structure that receives information about the code page.
 
 ## -returns
 
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
-
-<ul>
-<li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
-</ul>
+- ERROR_INVALID_PARAMETER if any of the parameter values are invalid.
+- ERROR_SUCCESS for code page 1147
+- ERROR_MUI_FILE_NOT_FOUND for code page 20949.
 
 ## -remarks
 
-The information retrieved in the <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a> structure is not always useful for all code pages. To determine buffer sizes, for example, the application should call <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> to request an accurate buffer size. If <b>CPINFOEX</b> settings indicate that a lead byte exists, the conversion function does not necessarily handle lead bytes differently, for example, in the case of a missing or illegal trail byte.
+The information retrieved in the <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexw">CPINFOEX</a> structure is not always useful for all code pages. To determine buffer sizes, for example, the application should call <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> to request an accurate buffer size. If <b>CPINFOEX</b> settings indicate that a lead byte exists, the conversion function does not necessarily handle lead bytes differently, for example, in the case of a missing or illegal trail byte.
 
 
 
 
 
 > [!NOTE]
-> The winnls.h header defines GetCPInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines GetCPInfoEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>
+<a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexw">CPINFOEX</a>
 
 
 
@@ -167,3 +168,4 @@ The information retrieved in the <a href="/windows/desktop/api/winnls/ns-winnls-
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+

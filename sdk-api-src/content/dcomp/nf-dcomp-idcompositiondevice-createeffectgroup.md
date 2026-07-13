@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateEffectGroup
 title: IDCompositionDevice::CreateEffectGroup (dcomp.h)
-description: Creates an object that represents multiple effects to be applied to a visual subtree.
+description: Creates an object that represents multiple effects to be applied to a visual subtree. (IDCompositionDevice.CreateEffectGroup)
 helpviewer_keywords: ["CreateEffectGroup","CreateEffectGroup method [DirectComposition]","CreateEffectGroup method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateEffectGroup method","IDCompositionDevice.CreateEffectGroup","IDCompositionDevice::CreateEffectGroup","dcomp/IDCompositionDevice::CreateEffectGroup","directcomp.idcompositiondevice_createeffectgroup"]
 old-location: directcomp\idcompositiondevice_createeffectgroup.htm
 tech.root: directcomp

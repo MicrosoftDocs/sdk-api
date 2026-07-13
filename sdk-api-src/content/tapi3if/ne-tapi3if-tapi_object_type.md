@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field TOT_NONE
+### -field TOT_NONE:0
 
 No TAPI object event has occurred.
 

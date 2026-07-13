@@ -54,19 +54,19 @@ Contains flags specifying the type of paths accepted.
 
 ## -enum-fields
 
-### -field WBEMPATH_CREATE_ACCEPT_RELATIVE
+### -field WBEMPATH_CREATE_ACCEPT_RELATIVE:0x1
 
 Allow paths without server names.
 
-### -field WBEMPATH_CREATE_ACCEPT_ABSOLUTE
+### -field WBEMPATH_CREATE_ACCEPT_ABSOLUTE:0x2
 
 Reserved for future use.
 
-### -field WBEMPATH_CREATE_ACCEPT_ALL
+### -field WBEMPATH_CREATE_ACCEPT_ALL:0x4
 
 Allow setting an empty path (which additionally clears out the object), Also allows paths which have just the server names, or paths which don't have server names.
 
-### -field WBEMPATH_TREAT_SINGLE_IDENT_AS_NS
+### -field WBEMPATH_TREAT_SINGLE_IDENT_AS_NS:0x8
 
 A simple path, such as "XYZ" is interpreted as a namespace.
 

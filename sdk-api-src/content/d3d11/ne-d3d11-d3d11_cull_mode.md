@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_CULL_MODE
 title: D3D11_CULL_MODE (d3d11.h)
-description: Indicates triangles facing a particular direction are not drawn.
+description: Indicates triangles facing a particular direction are not drawn. (D3D11_CULL_MODE)
 helpviewer_keywords: ["6a382bf1-a9ce-3b9b-41ed-46a4fee9ef85","D3D11_CULL_BACK","D3D11_CULL_FRONT","D3D11_CULL_MODE","D3D11_CULL_MODE enumeration [Direct3D 11]","D3D11_CULL_NONE","d3d11/D3D11_CULL_BACK","d3d11/D3D11_CULL_FRONT","d3d11/D3D11_CULL_MODE","d3d11/D3D11_CULL_NONE","direct3d11.d3d11_cull_mode"]
 old-location: direct3d11\d3d11_cull_mode.htm
 tech.root: direct3d11
@@ -54,15 +54,15 @@ Indicates triangles facing a particular direction are not drawn.
 
 ## -enum-fields
 
-### -field D3D11_CULL_NONE
+### -field D3D11_CULL_NONE:1
 
 Always draw all triangles.
 
-### -field D3D11_CULL_FRONT
+### -field D3D11_CULL_FRONT:2
 
 Do not draw triangles that are front-facing.
 
-### -field D3D11_CULL_BACK
+### -field D3D11_CULL_BACK:3
 
 Do not draw triangles that are back-facing.
 

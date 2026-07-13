@@ -44,6 +44,7 @@ api_location:
  - Wiaguid.dll
 api_name:
  - IWiaEventCallback
+archived: true
 ---
 
 # IWiaEventCallback interface
@@ -55,10 +56,7 @@ The <b>IWiaEventCallback</b> interface is used by applications to receive notifi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaEventCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaEventCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWiaEventCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaEventCallback</b> also has these types of members:
 
 ## -remarks
 

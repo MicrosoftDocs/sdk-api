@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCatBuffW
 title: StrCatBuffW function (shlwapi.h)
-description: Copies and appends characters from one string to the end of another.
-helpviewer_keywords: ["StrCatBuff","StrCatBuff function [Windows Shell]","StrCatBuffA","StrCatBuffW","_win32_StrCatBuff","shell.StrCatBuff","shlwapi/StrCatBuff","shlwapi/StrCatBuffA","shlwapi/StrCatBuffW"]
+description: Copies and appends characters from one string to the end of another. (Unicode)
+helpviewer_keywords: ["StrCatBuff", "StrCatBuff function [Windows Shell]", "StrCatBuffW", "_win32_StrCatBuff", "shell.StrCatBuff", "shlwapi/StrCatBuff", "shlwapi/StrCatBuffW"]
 old-location: shell\StrCatBuff.htm
 tech.root: shell
 ms.assetid: ce8c002f-f4f8-4b5f-a9e2-7bcd21f8808c
@@ -95,4 +95,4 @@ Returns a pointer to the destination string.
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrCatBuff as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrCatBuff as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

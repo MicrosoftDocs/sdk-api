@@ -52,7 +52,7 @@ api_name:
 
 Release all references to device objects.
 
-## -parameters
+
 
 ## -returns
 

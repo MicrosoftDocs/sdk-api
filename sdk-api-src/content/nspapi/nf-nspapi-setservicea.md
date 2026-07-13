@@ -1,8 +1,8 @@
 ---
 UID: NF:nspapi.SetServiceA
 title: SetServiceA function (nspapi.h)
-description: The SetService function registers or removes from the registry a network service within one or more namespaces.
-helpviewer_keywords: ["NS_DEFAULT","NS_DNS","NS_NDS","NS_NETBT","NS_SAP","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","SERVICE_ADD_TYPE","SERVICE_DELETE_TYPE","SERVICE_DEREGISTER","SERVICE_FLAG_DEFER","SERVICE_FLAG_HARD","SERVICE_FLUSH","SERVICE_REGISTER","SET_SERVICE_ PARTIAL_SUCCESS","SetService","SetService function [Winsock]","SetServiceA","SetServiceW","_win32_setservice_2","nspapi/SetService","nspapi/SetServiceA","nspapi/SetServiceW","winsock.setservice_2"]
+description: The SetService function registers or removes from the registry a network service within one or more namespaces. (ANSI)
+helpviewer_keywords: ["NS_DEFAULT", "NS_DNS", "NS_NDS", "NS_NETBT", "NS_SAP", "NS_TCPIP_HOSTS", "NS_TCPIP_LOCAL", "SERVICE_ADD_TYPE", "SERVICE_DELETE_TYPE", "SERVICE_DEREGISTER", "SERVICE_FLAG_DEFER", "SERVICE_FLAG_HARD", "SERVICE_FLUSH", "SERVICE_REGISTER", "SET_SERVICE_ PARTIAL_SUCCESS", "SetServiceA", "nspapi/SetServiceA"]
 old-location: winsock\setservice_2.htm
 tech.root: WinSock
 ms.assetid: cc5e35ef-5c64-41ba-a5f9-5961371c4d08
@@ -343,4 +343,4 @@ The function tried to register a service that was already registered.
 ## -remarks
 
 > [!NOTE]
-> The nspapi.h header defines SetService as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines SetService as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

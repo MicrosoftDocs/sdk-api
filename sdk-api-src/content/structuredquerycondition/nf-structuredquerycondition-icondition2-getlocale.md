@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquerycondition.ICondition2.GetLocale
 title: ICondition2::GetLocale (structuredquerycondition.h)
-description: Retrieves the property name, operation, and value from a leaf search condition node.
+description: Retrieves the property name, operation, and value from a leaf search condition node. (ICondition2.GetLocale)
 helpviewer_keywords: ["GetLocale","GetLocale method [search]","GetLocale method [search]","ICondition2 interface","ICondition2 interface [search]","GetLocale method","ICondition2.GetLocale","ICondition2::GetLocale","_search_ICondition2_GetLocale","search._search_ICondition2_GetLocale","structuredquerycondition/ICondition2::GetLocale"]
 old-location: search\_search_ICondition2_GetLocale.htm
 tech.root: search

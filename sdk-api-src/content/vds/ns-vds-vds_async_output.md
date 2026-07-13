@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_ASYNC_OUTPUT
 title: VDS_ASYNC_OUTPUT (vds.h)
-description: Defines the output of an async object. Output elements vary depending on the operation type.
+description: The VDS_ASYNC_OUTPUT structure (vds.h) defines the output of an async object. Output elements vary depending on the operation type.
 helpviewer_keywords: ["VDS_ASYNCOUT_BREAKVOLUMEPLEX","VDS_ASYNCOUT_CREATELUN","VDS_ASYNCOUT_CREATEPARTITION","VDS_ASYNCOUT_CREATEPORTALGROUP","VDS_ASYNCOUT_CREATETARGET","VDS_ASYNCOUT_CREATEVOLUME","VDS_ASYNCOUT_CREATE_VDISK","VDS_ASYNC_OUTPUT","VDS_ASYNC_OUTPUT structure [VDS]","base.vds_async_output","vds/_VDS_ASYNC_OUTPUT","vdshwprv/_VDS_ASYNC_OUTPUT"]
 old-location: base\vds_async_output.htm
 tech.root: base
 ms.assetid: 21771c6a-eca9-47f3-b6fc-383bca1e11bf
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_ASYNCOUT_BREAKVOLUMEPLEX, VDS_ASYNCOUT_CREATELUN, VDS_ASYNCOUT_CREATEPARTITION, VDS_ASYNCOUT_CREATEPORTALGROUP, VDS_ASYNCOUT_CREATETARGET, VDS_ASYNCOUT_CREATEVOLUME, VDS_ASYNCOUT_CREATE_VDISK, VDS_ASYNC_OUTPUT, VDS_ASYNC_OUTPUT structure [VDS], base.vds_async_output, vds/_VDS_ASYNC_OUTPUT, vdshwprv/_VDS_ASYNC_OUTPUT
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    output of an async object. Output elements vary depending on the operation type.
@@ -72,7 +72,7 @@ Discriminant for the union enumerated by
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATEPARTITION"></a><a id="vds_asyncout_createpartition"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEPARTITION</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATEPARTITION</b></dt>
 <dt>10</dt>
 </dl>
 </td>
@@ -83,7 +83,7 @@ See the following description of the <b>cp</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATEVOLUME"></a><a id="vds_asyncout_createvolume"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEVOLUME</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATEVOLUME</b></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -94,7 +94,7 @@ See the following description of the <b>cv</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_BREAKVOLUMEPLEX"></a><a id="vds_asyncout_breakvolumeplex"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_BREAKVOLUMEPLEX</b></b></dt>
+<dt><b>VDS_ASYNCOUT_BREAKVOLUMEPLEX</b></dt>
 <dt>5</dt>
 </dl>
 </td>
@@ -105,7 +105,7 @@ See the following description of the <b>bvp</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATELUN"></a><a id="vds_asyncout_createlun"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATELUN</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATELUN</b></dt>
 <dt>50</dt>
 </dl>
 </td>
@@ -116,7 +116,7 @@ See the following description of the <b>cl</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATETARGET"></a><a id="vds_asyncout_createtarget"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATETARGET</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATETARGET</b></dt>
 <dt>62</dt>
 </dl>
 </td>
@@ -127,7 +127,7 @@ See the following description of the <b>ct</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATEPORTALGROUP"></a><a id="vds_asyncout_createportalgroup"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEPORTALGROUP</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATEPORTALGROUP</b></dt>
 <dt>63</dt>
 </dl>
 </td>
@@ -138,7 +138,7 @@ See the following description of the <b>cpg</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATE_VDISK"></a><a id="vds_asyncout_create_vdisk"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATE_VDISK</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATE_VDISK</b></dt>
 <dt>200</dt>
 </dl>
 </td>

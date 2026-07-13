@@ -6,7 +6,7 @@ helpviewer_keywords: ["HeapDestroy","HeapDestroy function","_win32_heapdestroy",
 old-location: base\heapdestroy.htm
 tech.root: base
 ms.assetid: 2ad8d15f-de5e-424d-9349-3baccb000a36
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
 req.header: heapapi.h
 req.include-header: Windows.h
@@ -46,57 +46,45 @@ api_location:
  - API-MS-Win-Core-heap-l1-2-0.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - HeapDestroy
 ---
 
 # HeapDestroy function
 
-
 ## -description
 
-Destroys the specified heap object. 
-It decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
+Destroys the specified heap object.
+
+**HeapDestroy** de-commits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 
 ## -parameters
 
 ### -param hHeap [in]
 
-A handle to the heap to be destroyed. This handle is returned by the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function. Do not use the handle to the process heap returned by the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+A handle to the heap to be destroyed. This handle is returned by the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function. Do not use the handle to the process heap returned by the <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Processes can call 
-<b>HeapDestroy</b> without first calling the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free memory allocated from the heap.
-
+Processes can call <b>HeapDestroy</b> without first calling the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free memory allocated from the heap.
 
 #### Examples
 
-
 <a href="/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
-
-
-<div class="code"></div>
 
 ## -see-also
 
-<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
+[Heap Functions](/windows/win32/Memory/heap-functions)
 
+[HeapCreate](nf-heapapi-heapcreate.md)
 
+[Memory Management Functions](/windows/win32/Memory/memory-management-functions)
 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
-
-
-
-<a href="/windows/desktop/Memory/memory-management-functions">Memory
-		  Management Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

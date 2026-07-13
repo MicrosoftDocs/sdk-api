@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: RuntimeObject.lib
 req.dll: Combase.dll
 req.irql: 
 targetos: Windows

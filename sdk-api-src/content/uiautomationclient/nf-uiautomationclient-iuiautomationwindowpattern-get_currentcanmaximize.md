@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentCanMaximize
 title: IUIAutomationWindowPattern::get_CurrentCanMaximize (uiautomationclient.h)
-description: Indicates whether the window can be maximized.
+description: Indicates whether the window can be maximized. (IUIAutomationWindowPattern.get_CurrentCanMaximize)
 helpviewer_keywords: ["CurrentCanMaximize property [Windows Accessibility]","CurrentCanMaximize property [Windows Accessibility]","IUIAutomationWindowPattern interface","IUIAutomationWindowPattern interface [Windows Accessibility]","CurrentCanMaximize property","IUIAutomationWindowPattern.CurrentCanMaximize","IUIAutomationWindowPattern.get_CurrentCanMaximize","IUIAutomationWindowPattern::CurrentCanMaximize","IUIAutomationWindowPattern::get_CurrentCanMaximize","get_CurrentCanMaximize","uiauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize","uiauto_IUIAutomationWindowPattern_CurrentCanMaximize","uiautomationclient/IUIAutomationWindowPattern::CurrentCanMaximize","uiautomationclient/IUIAutomationWindowPattern::get_CurrentCanMaximize","winauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize"]
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentCanMaximize.htm
 tech.root: WinAuto

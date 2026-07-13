@@ -1,7 +1,8 @@
 {
   "tech": "dns",
   "headers": [
-    "windns.h"
+    "windns.h",
+    "windnsdef.h"
   ],
   "displayName": "Domain Name System (DNS)"
 }

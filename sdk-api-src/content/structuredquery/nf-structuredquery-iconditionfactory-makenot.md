@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeNot
 title: IConditionFactory::MakeNot (structuredquery.h)
-description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
+description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node). (IConditionFactory.MakeNot)
 helpviewer_keywords: ["IConditionFactory interface [search]","MakeNot method","IConditionFactory.MakeNot","IConditionFactory::MakeNot","MakeNot","MakeNot method [search]","MakeNot method [search]","IConditionFactory interface","_search_IConditionFactory_MakeNot","search._search_IConditionFactory_MakeNot","structuredquery/IConditionFactory::MakeNot"]
 old-location: search\_search_IConditionFactory_MakeNot.htm
 tech.root: search
@@ -76,7 +76,7 @@ Receives a pointer to the new <a href="/windows/desktop/api/structuredquerycondi
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

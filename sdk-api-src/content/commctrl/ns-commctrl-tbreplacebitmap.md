@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_1
+UID: NS:commctrl.TBREPLACEBITMAP
 title: TBREPLACEBITMAP (commctrl.h)
 description: Used with the TB_REPLACEBITMAP message to replace one toolbar bitmap with another.
 helpviewer_keywords: ["*LPTBREPLACEBITMAP","LPTBREPLACEBITMAP","LPTBREPLACEBITMAP structure pointer [Windows Controls]","TBREPLACEBITMAP","TBREPLACEBITMAP structure [Windows Controls]","_win32_TBREPLACEBITMAP","_win32_TBREPLACEBITMAP_cpp","commctrl/LPTBREPLACEBITMAP","commctrl/TBREPLACEBITMAP","controls.TBREPLACEBITMAP","controls._win32_TBREPLACEBITMAP"]
@@ -92,3 +92,4 @@ Number of button images contained in the new bitmap. The number of new images sh
 
 If 
 				<b>nIDNew</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a>, or the toolbar is destroyed.
+

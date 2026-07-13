@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetTimestamp","GetTimestamp method","GetTimestamp method"
 old-location: winsensors_com_ref\isensordatareport_gettimestamp.htm
 tech.root: winsensors
 ms.assetid: 3366bfb5-1132-4960-8a0e-49967310ade5
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetTimestamp, GetTimestamp method, GetTimestamp method,ISensorDataReport interface, ISensorDataReport interface,GetTimestamp method, ISensorDataReport.GetTimestamp, ISensorDataReport::GetTimestamp, sensorsapi/ISensorDataReport::GetTimestamp, winsensors_com_ref.isensordatareport_gettimestamp
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the time at which the data report was created.
 

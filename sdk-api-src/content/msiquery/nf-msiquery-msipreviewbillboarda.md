@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiPreviewBillboardA
 title: MsiPreviewBillboardA function (msiquery.h)
-description: The MsiPreviewBillboard function displays a billboard with the host control in the displayed dialog box.
-helpviewer_keywords: ["MsiPreviewBillboard","MsiPreviewBillboard function","MsiPreviewBillboardA","MsiPreviewBillboardW","_msi_msipreviewbillboard","msiquery/MsiPreviewBillboard","msiquery/MsiPreviewBillboardA","msiquery/MsiPreviewBillboardW","setup.msipreviewbillboard"]
+description: The MsiPreviewBillboard function displays a billboard with the host control in the displayed dialog box. (ANSI)
+helpviewer_keywords: ["MsiPreviewBillboardA", "msiquery/MsiPreviewBillboardA"]
 old-location: setup\msipreviewbillboard.htm
 tech.root: setup
 ms.assetid: 7404ea12-bb38-4b7d-986e-2dff2fc36346
@@ -83,7 +83,7 @@ Supplying a null billboard name in the
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiPreviewBillboard as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiPreviewBillboard as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

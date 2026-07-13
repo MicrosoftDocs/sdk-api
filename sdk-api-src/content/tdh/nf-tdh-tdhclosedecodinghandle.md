@@ -68,5 +68,4 @@ Type: <b>ULONG</b>
 This function returns ERROR_SUCCESS on completion.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhopendecodinghandle">TdhOpenDecodingHandle</a>

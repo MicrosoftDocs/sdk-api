@@ -64,13 +64,13 @@ A pointer to a <a href="/windows/win32/api/credentialprovider/ns-credentialprovi
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 This method is required. It accepts a credential and determines if <i>pcpcs</i> was a partial or a full credential. If it is a partial credential, it is either incomplete or was passed for the purpose of displaying some information to the user. If it is a full credential, it should be serialized and submitted. Use the members of the <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> and the flags passed in <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setusagescenario">SetUsageScenario</a> to determine how to handle the input. The responsibility is on the credential provider to verify the integrity of the input. The Credential UI and Logon UI do not perform any checks on the structure before passing it to the credential provider.
 
-<b>SetSerialization</b> is always called after <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setusagescenario">SetUsageScenario</a>. The Logon UI also calls <b>SetSerialization</b> when a filter returns a credential through <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderfilter-updateremotecredential">UpdateRemoteCredential</a>. It does not use this method when re-enumerating tiles because of a call to <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderevents-credentialschanged">CredentialsChanged</a>. The Credential UI calls <b>SetSerialization</b> when an input credential has been suppled by an application.
+<b>SetSerialization</b> is always called after <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setusagescenario">SetUsageScenario</a>. The Logon UI also calls <b>SetSerialization</b> when a filter returns a credential through <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderfilter-updateremotecredential">UpdateRemoteCredential</a>. It does not use this method when re-enumerating tiles because of a call to <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialproviderevents-credentialschanged">CredentialsChanged</a>. The Credential UI calls <b>SetSerialization</b> when an input credential has been supplied by an application.
 
 The Credential UI enforces the following rules based on the <i>dwFlags</i> for this content provider instance defined when <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setusagescenario">SetUsageScenario</a> was called.
 

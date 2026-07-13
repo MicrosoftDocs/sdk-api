@@ -135,7 +135,7 @@ The <i>pPublicKey</i>, <i>pPolicyServer</i>, or <i>pTemplate</i> parameters are 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></dt>
 <dt></dt>
 </dl>
 </td>

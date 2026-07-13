@@ -77,7 +77,7 @@ The operation context.
 
 ### -param asyncContext [in, optional]
 
-Information on whether the function is getting invoked asynchornously.
+Information on whether the function is getting invoked asynchronously.
 
 ## -returns
 
@@ -107,18 +107,22 @@ This callback is cancellable.
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>HRESULT CALLBACK FreeSessionCalculator (const WS_OPERATION_CONTEXT* context,
+
+``` syntax
+HRESULT CALLBACK FreeSessionCalculator (const WS_OPERATION_CONTEXT* context,
                                         const WS_ASYNC_CONTEXT* asyncContext)
 {
      HRESULT hr = NOERROR;
      SessionfulCalculator* calculator = NULL;
      hr = WsGetOperationContextProperty (context, 
                                          WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE, 
-                                         &amp;calculator, sizeof (SessionfulCalculator*), NULL);
-     if (SUCCEEDED(hr) &amp;&amp; (calculator != NULL))
+                                         &calculator, sizeof (SessionfulCalculator*), NULL);
+     if (SUCCEEDED(hr) && (calculator != NULL))
      {                                                       
          delete calculator;
      }
      return NOERROR;
 }
-</code></pre>
+
+```
+

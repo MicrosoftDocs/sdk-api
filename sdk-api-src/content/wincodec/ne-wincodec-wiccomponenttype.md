@@ -54,33 +54,33 @@ Specifies the type of Windows Imaging Component (WIC) component.
 
 ## -enum-fields
 
-### -field WICDecoder
+### -field WICDecoder:0x1
 
 A WIC decoder.
 
-### -field WICEncoder
+### -field WICEncoder:0x2
 
 A WIC encoder.
 
-### -field WICPixelFormatConverter
+### -field WICPixelFormatConverter:0x4
 
 A WIC pixel converter.
 
-### -field WICMetadataReader
+### -field WICMetadataReader:0x8
 
 A WIC metadata reader.
 
-### -field WICMetadataWriter
+### -field WICMetadataWriter:0x10
 
 A WIC metadata writer.
 
-### -field WICPixelFormat
+### -field WICPixelFormat:0x20
 
 A WIC pixel format.
 
-### -field WICAllComponents
+### -field WICAllComponents:0x3f
 
 All WIC components.
 
-### -field WICCOMPONENTTYPE_FORCE_DWORD
+### -field WICCOMPONENTTYPE_FORCE_DWORD:0x7fffffff
 

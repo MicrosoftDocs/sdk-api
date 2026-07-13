@@ -53,7 +53,7 @@ api_name:
 
 The <b>End</b> method ends frame extraction and decompression. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avistreamgetframeclose">AVIStreamGetFrameClose</a> function.
 
-## -parameters
+
 
 #### - ps
 

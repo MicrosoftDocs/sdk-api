@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Remove
 title: IPolicyQualifiers::Remove (certenroll.h)
-description: Removes an object from the collection by index value.
+description: Removes an object from the collection by index value. (IPolicyQualifiers.Remove)
 helpviewer_keywords: ["IPolicyQualifiers interface [Security]","Remove method","IPolicyQualifiers.Remove","IPolicyQualifiers::Remove","Remove","Remove method [Security]","Remove method [Security]","IPolicyQualifiers interface","certenroll/IPolicyQualifiers::Remove","security.ipolicyqualifiers_remove_method"]
 old-location: security\ipolicyqualifiers_remove_method.htm
 tech.root: security

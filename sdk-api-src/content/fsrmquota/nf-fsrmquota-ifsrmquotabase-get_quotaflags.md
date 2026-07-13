@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_QuotaFlags
 title: IFsrmQuotaBase::get_QuotaFlags (fsrmquota.h)
-description: Retrieves or sets the quota flags for the object.
+description: Retrieves or sets the quota flags for the object. (Get)
 helpviewer_keywords: ["IFsrmQuotaBase interface [File Server Resource Manager]","QuotaFlags property","IFsrmQuotaBase.QuotaFlags","IFsrmQuotaBase.get_QuotaFlags","IFsrmQuotaBase::QuotaFlags","IFsrmQuotaBase::get_QuotaFlags","IFsrmQuotaBase::put_QuotaFlags","QuotaFlags property [File Server Resource Manager]","QuotaFlags property [File Server Resource Manager]","IFsrmQuotaBase interface","fs.ifsrmquotabase_quotaflags","fsrm.ifsrmquotabase_quotaflags","fsrmquota/IFsrmQuotaBase::QuotaFlags","fsrmquota/IFsrmQuotaBase::get_QuotaFlags","fsrmquota/IFsrmQuotaBase::put_QuotaFlags","get_QuotaFlags"]
 old-location: fsrm\ifsrmquotabase_quotaflags.htm
 tech.root: fsrm

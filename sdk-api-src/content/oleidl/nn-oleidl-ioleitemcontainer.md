@@ -61,10 +61,7 @@ This interface is not supported for use across machine boundaries.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleItemContainer</b> interface inherits from <b>IOleContainer</b>. <b>IOleItemContainer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOleItemContainer</b> interface inherits from <b>IOleContainer</b>. <b>IOleItemContainer</b> also has these types of members:
 
 ## -see-also
 

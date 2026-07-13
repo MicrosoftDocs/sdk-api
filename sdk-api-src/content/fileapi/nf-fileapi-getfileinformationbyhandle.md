@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetFileInformationByHandle
 title: GetFileInformationByHandle function (fileapi.h)
-description: Retrieves file information for the specified file.
+description: Retrieves file information for the specified file. (GetFileInformationByHandle)
 helpviewer_keywords: ["GetFileInformationByHandle","GetFileInformationByHandle function [Files]","_win32_getfileinformationbyhandle","base.getfileinformationbyhandle","fileapi/GetFileInformationByHandle","fs.getfileinformationbyhandle","winbase/GetFileInformationByHandle"]
 old-location: fs\getfileinformationbyhandle.htm
 tech.root: fs
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll

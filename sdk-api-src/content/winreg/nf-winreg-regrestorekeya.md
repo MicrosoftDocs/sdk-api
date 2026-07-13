@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegRestoreKeyA
 title: RegRestoreKeyA function (winreg.h)
-description: Reads the registry information in a specified file and copies it over the specified key. This registry information may be in the form of a key and multiple levels of subkeys.
-helpviewer_keywords: ["REG_FORCE_RESTORE","REG_WHOLE_HIVE_VOLATILE","RegRestoreKey","RegRestoreKey function","RegRestoreKeyA","RegRestoreKeyW","_win32_regrestorekey","base.regrestorekey","winreg/RegRestoreKey","winreg/RegRestoreKeyA","winreg/RegRestoreKeyW"]
+description: Reads the registry information in a specified file and copies it over the specified key. This registry information may be in the form of a key and multiple levels of subkeys. (ANSI)
+helpviewer_keywords: ["REG_FORCE_RESTORE", "REG_WHOLE_HIVE_VOLATILE", "RegRestoreKeyA", "winreg/RegRestoreKeyA"]
 old-location: base\regrestorekey.htm
 tech.root: winprog
 ms.assetid: 6267383d-427a-4ae8-b9cc-9c1861d3b7bb
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -148,7 +149,7 @@ If <i>hKey</i> represents a key in a remote computer, the path described by <i>l
 
 
 > [!NOTE]
-> The winreg.h header defines RegRestoreKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegRestoreKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

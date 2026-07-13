@@ -2,7 +2,7 @@
 UID: NF:cfgmgr32.CM_Open_Device_Interface_Key_ExW
 title: CM_Open_Device_Interface_Key_ExW function (cfgmgr32.h)
 description: The CM_Open_Device_Interface_Key_ExW function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.
-helpviewer_keywords: ["CM_Open_Device_Interface_Key_ExW","CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation]","cfgmgr32/CM_Open_Device_Interface_Key_ExW","devinst.cm_open_device_interface_key_exw"]
+helpviewer_keywords: ["CM_Open_Device_Interface_Key_ExW", "CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation]", "cfgmgr32/CM_Open_Device_Interface_Key_ExW", "devinst.cm_open_device_interface_key_exw"]
 old-location: devinst\cm_open_device_interface_key_exw.htm
 tech.root: devinst
 ms.assetid: 71F8EF83-4DEC-4BDC-BBCE-4F7C232F1768
@@ -114,7 +114,7 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 
 > [!NOTE]
-> The cfgmgr32.h header defines CM_Open_Device_Interface_Key_Ex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cfgmgr32.h header defines CM_Open_Device_Interface_Key_Ex as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

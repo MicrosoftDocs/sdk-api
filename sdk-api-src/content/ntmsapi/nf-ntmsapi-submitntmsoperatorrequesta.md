@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.SubmitNtmsOperatorRequestA
 title: SubmitNtmsOperatorRequestA function (ntmsapi.h)
-description: The SubmitNtmsOperatorRequest function submits an RSM operator request.
-helpviewer_keywords: ["NTMS_OPREQ_CLEANER","NTMS_OPREQ_DEVICESERVICE","NTMS_OPREQ_MESSAGE","NTMS_OPREQ_MOVEMEDIA","NTMS_OPREQ_NEWMEDIA","SubmitNtmsOperatorRequest","SubmitNtmsOperatorRequest function [Files]","SubmitNtmsOperatorRequestA","SubmitNtmsOperatorRequestW","_zaw_submitntmsoperatorrequest","base.submitntmsoperatorrequest","fs.submitntmsoperatorrequest","ntmsapi/SubmitNtmsOperatorRequest","ntmsapi/SubmitNtmsOperatorRequestA","ntmsapi/SubmitNtmsOperatorRequestW"]
+description: The SubmitNtmsOperatorRequest function submits an RSM operator request. (ANSI)
+helpviewer_keywords: ["NTMS_OPREQ_CLEANER", "NTMS_OPREQ_DEVICESERVICE", "NTMS_OPREQ_MESSAGE", "NTMS_OPREQ_MOVEMEDIA", "NTMS_OPREQ_NEWMEDIA", "SubmitNtmsOperatorRequestA", "ntmsapi/SubmitNtmsOperatorRequestA"]
 old-location: fs\submitntmsoperatorrequest.htm
 tech.root: fs
 ms.assetid: d2c146d0-f1f9-4810-a489-91b5c4ca3431
@@ -263,7 +263,7 @@ The NTMS_OPEREQ_MESSAGE value (in the <i>dwRequest</i> parameter) is the request
 
 
 > [!NOTE]
-> The ntmsapi.h header defines SubmitNtmsOperatorRequest as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines SubmitNtmsOperatorRequest as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

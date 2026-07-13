@@ -142,7 +142,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 ## -remarks
 
-This function prepares to draw a DIB specified by <i>lpbi</i> to the DC. The image is stretched to the size specified by <i>dxDest</i> and <i>dyDest</i>. If <i>dxDest</i> and <i>dyDest</i> are set to â€“1, the DIB is drawn to a 1:1 scale without stretching.
+This function prepares to draw a DIB specified by <i>lpbi</i> to the DC. The image is stretched to the size specified by <i>dxDest</i> and <i>dyDest</i>. If <i>dxDest</i> and <i>dyDest</i> are set to −1, the DIB is drawn to a 1:1 scale without stretching.
 
 You can update the flags of a DrawDib DC by reissuing <b>DrawDibBegin</b>, specifying the new flags, and changing at least one of the following settings: <i>dxDest</i>, <i>dyDest</i>, <i>lpbi</i>, <i>dxSrc</i>, or <i>dySrc</i>.
 

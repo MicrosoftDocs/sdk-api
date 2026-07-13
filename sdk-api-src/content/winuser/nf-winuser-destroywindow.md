@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-l1-1-0.dll
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -61,7 +65,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 
 ## -description
 
-Destroys the specified window. The function sends <a href="/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a> and <a href="/windows/desktop/winmsg/wm-ncdestroy">WM_NCDESTROY</a> messages to the window to deactivate it and remove the keyboard focus from it. The function also destroys the window's menu, flushes the thread message queue, destroys timers, removes clipboard ownership, and breaks the clipboard viewer chain (if the window is at the top of the viewer chain).
+Destroys the specified window. The function sends <a href="/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a> and <a href="/windows/desktop/winmsg/wm-ncdestroy">WM_NCDESTROY</a> messages to the window to deactivate it and remove the keyboard focus from it. The function also destroys the window's menu, destroys timers, removes clipboard ownership, and breaks the clipboard viewer chain (if the window is at the top of the viewer chain).
 
 If the specified window is a parent or owner window, <b>DestroyWindow</b> automatically destroys the associated child or owned windows when it destroys the parent or owner window. The function first destroys child or owned windows, and then it destroys the parent or owner window.
 
@@ -87,7 +91,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 A thread cannot use <b>DestroyWindow</b> to destroy a window created by a different thread. 
 
-If the window being destroyed is a child window that does not have the <b>WS_EX_NOPARENTNOTIFY</b> style, a <a href="/previous-versions/windows/desktop/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a> message is sent to the parent. 
+If the window being destroyed is a child window that does not have the <b>WS_EX_NOPARENTNOTIFY</b> style, a <a href="/windows/win32/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a> message is sent to the parent. 
 
 
 #### Examples
@@ -126,7 +130,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-windows">Destroying a
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
+<a href="/windows/win32/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
 
 
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>Reset</b> method resets the audio stream.
 
-## -parameters
+
 
 ## -returns
 

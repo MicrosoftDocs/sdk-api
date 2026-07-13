@@ -1,12 +1,12 @@
 ---
 UID: NS:evr.MFVideoNormalizedRect
 title: MFVideoNormalizedRect (evr.h)
-description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
+description: The MFVideoNormalizedRect (evr.h) structure defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
 helpviewer_keywords: ["MFVideoNormalizedRect","MFVideoNormalizedRect structure [Media Foundation]","c1dd42ca-64a0-4f30-82e1-eda3f4721526","evr/MFVideoNormalizedRect","mf.mfvideonormalizedrect"]
 old-location: mf\mfvideonormalizedrect.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
 req.header: evr.h
 req.include-header: Mfcaptureengine.h, Mfmediaengine.h
@@ -43,12 +43,15 @@ api_location:
  - evr.h
 api_name:
  - MFVideoNormalizedRect
+archived: true
 ---
 
 # MFVideoNormalizedRect structure
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle. When a rectangle N is <i>normalized</i> relative to some other rectangle R, it means the following:
 

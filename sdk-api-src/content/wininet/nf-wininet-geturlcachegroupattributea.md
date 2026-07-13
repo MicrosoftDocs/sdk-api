@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.GetUrlCacheGroupAttributeA
 title: GetUrlCacheGroupAttributeA function (wininet.h)
-description: Retrieves the attribute information of the specified cache group.
-helpviewer_keywords: ["GetUrlCacheGroupAttribute","GetUrlCacheGroupAttribute function [WinINet]","GetUrlCacheGroupAttributeA","GetUrlCacheGroupAttributeW","_inet_geturlcachegroupattribute_function","wininet.geturlcachegroupattribute","wininet/GetUrlCacheGroupAttribute","wininet/GetUrlCacheGroupAttributeA","wininet/GetUrlCacheGroupAttributeW"]
+description: Retrieves the attribute information of the specified cache group. (ANSI)
+helpviewer_keywords: ["GetUrlCacheGroupAttributeA", "wininet/GetUrlCacheGroupAttributeA"]
 old-location: wininet\geturlcachegroupattribute.htm
 tech.root: wininet
 ms.assetid: 5e4e5666-1999-4bea-9b3e-f435f5dcfff8
@@ -180,7 +180,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific er
 
 
 > [!NOTE]
-> The wininet.h header defines GetUrlCacheGroupAttribute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines GetUrlCacheGroupAttribute as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

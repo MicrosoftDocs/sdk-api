@@ -58,11 +58,11 @@ The
 
 ## -enum-fields
 
-### -field OT_CONFERENCE
+### -field OT_CONFERENCE:1
 
 Conference.
 
-### -field OT_USER
+### -field OT_USER:2
 
 User.
 

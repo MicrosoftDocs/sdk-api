@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetFontFaceReference","GetFontFaceReference method [Direc
 old-location: directwrite\idwritefontset_getfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 8cbc1275-29d5-917d-6938-8fb35e5054fb
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetFontFaceReference method, IDWriteFontSet.GetFontFaceReference, IDWriteFontSet::GetFontFaceReference, directwrite.idwritefontset_getfontfacereference, dwrite_3/IDWriteFontSet::GetFontFaceReference
 req.header: dwrite_3.h
 req.include-header: 
@@ -70,7 +70,7 @@ Receives a pointer the font face reference object, or nullptr on failure.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

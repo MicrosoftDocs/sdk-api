@@ -72,7 +72,7 @@ The vertical offset, in device units.
 
 ### -param lppt [out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure. The previous viewport origin, in device units, is placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous viewport origin is not returned.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure. The previous viewport origin, in device units, is placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous viewport origin is not returned.
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 The 
 <b>StopTone</b> method ceases any tone that is currently being played. If no tone is being played, the method performs no action and returns success.
 
-## -parameters
+
 
 ## -returns
 

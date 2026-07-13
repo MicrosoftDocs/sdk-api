@@ -55,15 +55,15 @@ Contains values that specify the toggle state of a Microsoft UI Automation eleme
 
 ## -enum-fields
 
-### -field ToggleState_Off
+### -field ToggleState_Off:0
 
 The UI Automation element is not selected, checked, marked or otherwise activated.
 
-### -field ToggleState_On
+### -field ToggleState_On:1
 
 The UI Automation element is selected, checked, marked or otherwise activated.
 
-### -field ToggleState_Indeterminate
+### -field ToggleState_Indeterminate:2
 
 The UI Automation element is in an indeterminate state. 
             

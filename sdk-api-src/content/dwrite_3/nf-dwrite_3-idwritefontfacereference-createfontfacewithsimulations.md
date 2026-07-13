@@ -6,7 +6,7 @@ helpviewer_keywords: ["CreateFontFaceWithSimulations","CreateFontFaceWithSimulat
 old-location: directwrite\idwritefontfacereference_createfontfacewithsimulations.htm
 tech.root: DirectWrite
 ms.assetid: 99b6fb24-2f66-8132-b66e-ca711bb0c7e0
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: CreateFontFaceWithSimulations, CreateFontFaceWithSimulations method [Direct Write], CreateFontFaceWithSimulations method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],CreateFontFaceWithSimulations method, IDWriteFontFaceReference.CreateFontFaceWithSimulations, IDWriteFontFaceReference::CreateFontFaceWithSimulations, directwrite.idwritefontfacereference_createfontfacewithsimulations, dwrite_3/IDWriteFontFaceReference::CreateFontFaceWithSimulations
 req.header: dwrite_3.h
 req.include-header: 
@@ -70,7 +70,7 @@ Newly created font face object, or nullptr in the case of failure.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

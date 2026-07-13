@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetInputFormat","GetInputFormat method [windows Media For
 old-location: wmformat\iwmwriter_getinputformat.htm
 tech.root: wmformat
 ms.assetid: c058de81-a29a-4bcd-a819-3cdef11cae9f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetInputFormat, GetInputFormat method [windows Media Format], GetInputFormat method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormat method, IWMWriter.GetInputFormat, IWMWriter::GetInputFormat, IWMWriterGetInputFormat, wmformat.iwmwriter_getinputformat, wmsdkidl/IWMWriter::GetInputFormat
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetInputFormat</b> method retrieves possible media formats for the specified input.
 

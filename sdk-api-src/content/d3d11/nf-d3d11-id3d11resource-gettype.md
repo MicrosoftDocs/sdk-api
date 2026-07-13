@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Resource.GetType
 title: ID3D11Resource::GetType (d3d11.h)
-description: Get the type of the resource.
+description: Get the type of the resource. (ID3D11Resource.GetType)
 helpviewer_keywords: ["62bac8ef-4d59-ca5c-1bf7-3993d5ecf42e","GetType","GetType method [Direct3D 11]","GetType method [Direct3D 11]","ID3D11Resource interface","ID3D11Resource interface [Direct3D 11]","GetType method","ID3D11Resource.GetType","ID3D11Resource::GetType","d3d11/ID3D11Resource::GetType","direct3d11.id3d11resource_gettype"]
 old-location: direct3d11\id3d11resource_gettype.htm
 tech.root: direct3d11

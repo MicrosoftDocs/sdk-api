@@ -54,27 +54,27 @@ Contains values that specify the type of synchronized input.
 
 ## -enum-fields
 
-### -field SynchronizedInputType_KeyUp
+### -field SynchronizedInputType_KeyUp:0x1
 
 A key has been released.
 
-### -field SynchronizedInputType_KeyDown
+### -field SynchronizedInputType_KeyDown:0x2
 
 A key has been pressed.
 
-### -field SynchronizedInputType_LeftMouseUp
+### -field SynchronizedInputType_LeftMouseUp:0x4
 
 The left mouse button has been released.
 
-### -field SynchronizedInputType_LeftMouseDown
+### -field SynchronizedInputType_LeftMouseDown:0x8
 
 The left mouse button has been pressed.
 
-### -field SynchronizedInputType_RightMouseUp
+### -field SynchronizedInputType_RightMouseUp:0x10
 
 The right mouse button has been released.
 
-### -field SynchronizedInputType_RightMouseDown
+### -field SynchronizedInputType_RightMouseDown:0x20
 
 The right mouse button has been pressed.
 

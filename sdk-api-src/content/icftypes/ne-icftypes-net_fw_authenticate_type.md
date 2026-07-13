@@ -56,7 +56,7 @@ The <b>NET_FW_AUTHENTICATE_TYPE</b> enumerated type specifies the type of authen
 
 ## -enum-fields
 
-### -field NET_FW_AUTHENTICATE_NONE
+### -field NET_FW_AUTHENTICATE_NONE:0
 
 No security check is performed.
 

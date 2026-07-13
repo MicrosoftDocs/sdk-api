@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.get_ProviderName
 title: ICertSrvSetupKeyInformation::get_ProviderName (casetup.h)
-description: Gets or sets the name of the cryptographic service provider (CSP) or key storage provider (KSP) that is used to generate or store the private key.
+description: Gets or sets the name of the cryptographic service provider (CSP) or key storage provider (KSP) that is used to generate or store the private key. (Get)
 helpviewer_keywords: ["ICertSrvSetupKeyInformation interface [Security]","ProviderName property","ICertSrvSetupKeyInformation.ProviderName","ICertSrvSetupKeyInformation.get_ProviderName","ICertSrvSetupKeyInformation::ProviderName","ICertSrvSetupKeyInformation::get_ProviderName","ICertSrvSetupKeyInformation::put_ProviderName","ProviderName property [Security]","ProviderName property [Security]","ICertSrvSetupKeyInformation interface","casetup/ICertSrvSetupKeyInformation::ProviderName","casetup/ICertSrvSetupKeyInformation::get_ProviderName","casetup/ICertSrvSetupKeyInformation::put_ProviderName","get_ProviderName","security.icertsrvsetupkeyinformation_providername"]
 old-location: security\icertsrvsetupkeyinformation_providername.htm
 tech.root: security

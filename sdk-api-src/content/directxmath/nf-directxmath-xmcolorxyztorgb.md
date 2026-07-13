@@ -56,11 +56,11 @@ Converts XYZ color values to RGB color values.
 
 ### -param xyz [in]
 
-Color value to convert with the trisimulus values of X, Y, and Z in the corresponding element, and the W element with Alpha. Each has a range of 0.0 to 1.0
+Color value to convert with the tristimulus values of X, Y, and Z in the corresponding element, and the W element with Alpha. Each has a range of 0.0 to 1.0
 
 ## -returns
 
-Returns the converetd color value. X element is Red, Y element is Green, Z element is Blue, and W element is Alpha (a copy of xyz.w). Each has a range of 0.0 to 1.0.
+Returns the converted color value. X element is Red, Y element is Green, Z element is Blue, and W element is Alpha (a copy of xyz.w). Each has a range of 0.0 to 1.0.
 
 ## -remarks
 

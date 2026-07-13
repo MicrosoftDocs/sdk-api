@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetModify","Edit_SetModify macro [Windows Controls]"
 old-location: controls\Edit_SetModify.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setmodify.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_SetModify, Edit_SetModify macro [Windows Controls], _win32_Edit_SetModify, _win32_Edit_SetModify_cpp, controls.Edit_SetModify, controls._win32_Edit_SetModify, windowsx/Edit_SetModify
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Edit_SetModify macro
+
+## -syntax
+
+```cpp
+void Edit_SetModify(
+   HWND hwndCtl,
+   BOOL fModified
+);
+```
 
 
 ## -description

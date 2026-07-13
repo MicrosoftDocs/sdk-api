@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._ARM64_NT_CONTEXT
 title: ARM64_NT_CONTEXT (winnt.h)
-description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations.
+description: Contains processor-specific register data for Arm64 architecture. The system uses CONTEXT structures to perform various internal operations. The system uses CONTEXT structures to perform various internal operations.C
 helpviewer_keywords: ["*PARM64_NT_CONTEXT","*PCONTEXT","ARM64_NT_CONTEXT","CONTEXT","CONTEXT structure","LPCONTEXT","LPCONTEXT structure pointer","_win32_context_str","base.context_str","winnt/CONTEXT","winnt/LPCONTEXT"]
 old-location: base\context_str.htm
 tech.root: Debug
@@ -54,10 +54,14 @@ api_name:
 
 ## -description
 
-Contains processor-specific register data. The system uses 
-   <b>CONTEXT</b> structures to perform various internal 
-   operations. Refer to the header file WinNT.h for definitions of this structure for each 
-   processor architecture.
+Contains processor-specific register data. The system uses <b>CONTEXT</b> structures to perform various internal operations. The structure definition varies for different processor architectures. This page applies to the Arm64 architecture. The following table links to the structures for other architectures.
+
+| Architecture | API reference page |
+|--------------|--------------------|
+| x86 64-bit | [CONTEXT structure (x86 64-bit)](ns-winnt-context.md) |
+| x86 32-bit | [CONTEXT structure (x86 32-bit)](ns-winnt-context~r2.md) |
+| Arm32 | [CONTEXT structure (Arm32)](ns-winnt-context~r1.md) |
+
 
 ## -struct-fields
 

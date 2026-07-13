@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_NumberOfCalls
 title: ITAgentSession::get_NumberOfCalls (tapi3cc.h)
-description: The get_NumberOfCalls method gets the number of ACD calls handled by this agent during this session.
+description: The ITAgentSession::get_NumberOfCalls method (tapi3cc.h) gets the number of ACD calls handled by this agent during this session.
 helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_NumberOfCalls method","ITAgentSession.get_NumberOfCalls","ITAgentSession::get_NumberOfCalls","_tapi3_itagentsession_get_numberofcalls","get_NumberOfCalls","get_NumberOfCalls method [TAPI 2.2]","get_NumberOfCalls method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_numberofcalls","tapi3cc/ITAgentSession::get_NumberOfCalls"]
 old-location: tapi3\itagentsession_get_numberofcalls.htm
 tech.root: tapi3
 ms.assetid: 8a3f00fc-9da2-4dc9-ab9a-ebc92664e907
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_NumberOfCalls method, ITAgentSession.get_NumberOfCalls, ITAgentSession::get_NumberOfCalls, _tapi3_itagentsession_get_numberofcalls, get_NumberOfCalls, get_NumberOfCalls method [TAPI 2.2], get_NumberOfCalls method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_numberofcalls, tapi3cc/ITAgentSession::get_NumberOfCalls
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

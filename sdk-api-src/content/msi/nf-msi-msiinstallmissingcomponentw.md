@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiInstallMissingComponentW
 title: MsiInstallMissingComponentW function (msi.h)
-description: The MsiInstallMissingComponent function installs files that are unexpectedly missing.
-helpviewer_keywords: ["INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiInstallMissingComponent","MsiInstallMissingComponent function","MsiInstallMissingComponentA","MsiInstallMissingComponentW","_msi_msiinstallmissingcomponent","msi/MsiInstallMissingComponent","msi/MsiInstallMissingComponentA","msi/MsiInstallMissingComponentW","setup.msiinstallmissingcomponent"]
+description: The MsiInstallMissingComponent function installs files that are unexpectedly missing. (Unicode)
+helpviewer_keywords: ["INSTALLSTATE_DEFAULT", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MsiInstallMissingComponent", "MsiInstallMissingComponent function", "MsiInstallMissingComponentW", "_msi_msiinstallmissingcomponent", "msi/MsiInstallMissingComponent", "msi/MsiInstallMissingComponentW", "setup.msiinstallmissingcomponent"]
 old-location: setup\msiinstallmissingcomponent.htm
 tech.root: setup
 ms.assetid: 81b44b77-e972-409c-b933-8fcae8887266
@@ -219,7 +219,7 @@ The
 
 
 > [!NOTE]
-> The msi.h header defines MsiInstallMissingComponent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiInstallMissingComponent as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

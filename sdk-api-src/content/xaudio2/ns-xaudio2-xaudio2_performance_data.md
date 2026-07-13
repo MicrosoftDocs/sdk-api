@@ -1,7 +1,7 @@
 ---
 UID: NS:xaudio2.XAUDIO2_PERFORMANCE_DATA
 title: XAUDIO2_PERFORMANCE_DATA (xaudio2.h)
-description: Contains performance information.
+description: Contains performance information. (XAUDIO2_PERFORMANCE_DATA)
 helpviewer_keywords: ["XAUDIO2_PERFORMANCE_DATA","XAUDIO2_PERFORMANCE_DATA structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_performance_data","xaudio2/XAUDIO2_PERFORMANCE_DATA"]
 old-location: xaudio2\xaudio2_performance_data.htm
 tech.root: xaudio2

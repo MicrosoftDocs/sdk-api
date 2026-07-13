@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_Branding
 title: IFaxConfiguration::get_Branding (faxcomex.h)
-description: Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes.
+description: Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes. (Get)
 helpviewer_keywords: ["Branding property [Fax Service]","Branding property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","Branding property","IFaxConfiguration.Branding","IFaxConfiguration.get_Branding","IFaxConfiguration::Branding","IFaxConfiguration::get_Branding","IFaxConfiguration::put_Branding","_mfax_IFaxConfiguration_Branding","fax._mfax_IFaxConfiguration_Branding","faxcomex/IFaxConfiguration::Branding","faxcomex/IFaxConfiguration::get_Branding","faxcomex/IFaxConfiguration::put_Branding","get_Branding"]
 old-location: fax\_mfax_IFaxConfiguration_Branding.htm
 tech.root: Fax

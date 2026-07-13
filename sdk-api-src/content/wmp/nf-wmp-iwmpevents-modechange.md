@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","ModeChange 
 old-location: wmp\iwmpevents_iwmpevents__modechange.htm
 tech.root: WMP
 ms.assetid: 64761f19-914a-4ab5-aeb9-12c0aefc8113
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEvents interface [Windows Media Player],ModeChange method, IWMPEvents.ModeChange, IWMPEvents::ModeChange, IWMPEventsModeChange, ModeChange, ModeChange method [Windows Media Player], ModeChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__modechange, wmp/IWMPEvents::ModeChange
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>ModeChange</b> event occurs when a mode of the player is changed.
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFByteStreamCacheControl2
 title: IMFByteStreamCacheControl2 (mfidl.h)
-description: Controls how a network byte stream transfers data to a local cache.
+description: Controls how a network byte stream transfers data to a local cache. (IMFByteStreamCacheControl2)
 helpviewer_keywords: ["IMFByteStreamCacheControl2","IMFByteStreamCacheControl2 interface [Media Foundation]","IMFByteStreamCacheControl2 interface [Media Foundation]","described","mf.imfbytestreamcachecontrol2","mfidl/IMFByteStreamCacheControl2"]
 old-location: mf\imfbytestreamcachecontrol2.htm
 tech.root: mf
@@ -54,10 +54,7 @@ Controls how a network byte stream transfers data to a local cache. This interfa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamCacheControl2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>. <b>IMFByteStreamCacheControl2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFByteStreamCacheControl2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>. <b>IMFByteStreamCacheControl2</b> also has these types of members:
 
 ## -remarks
 

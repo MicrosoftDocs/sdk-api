@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionGraphicsDeviceInterop.SetRenderingDevice
-title: ICompositionGraphicsDeviceInterop::composition (windows.ui.composition.interop.h)
+title: ICompositionGraphicsDeviceInterop::SetRenderingDevice (windows.ui.composition.interop.h)
 description: Sets the rendering device.
 helpviewer_keywords: ["ICompositionGraphicsDeviceInterop interface","SetRenderingDevice method","ICompositionGraphicsDeviceInterop.SetRenderingDevice","ICompositionGraphicsDeviceInterop.composition","ICompositionGraphicsDeviceInterop::SetRenderingDevice","ICompositionGraphicsDeviceInterop::composition","SetRenderingDevice","SetRenderingDevice method","SetRenderingDevice method","ICompositionGraphicsDeviceInterop interface","w_ui_comp.icompositiongraphicsdeviceinterop_setrenderingdevice","windows/ICompositionGraphicsDeviceInterop::SetRenderingDevice"]
 old-location: w_ui_comp\icompositiongraphicsdeviceinterop_setrenderingdevice.htm
@@ -45,7 +45,7 @@ api_name:
  - ICompositionGraphicsDeviceInterop.SetRenderingDevice
 ---
 
-# ICompositionGraphicsDeviceInterop::composition
+# ICompositionGraphicsDeviceInterop::SetRenderingDevice (windows.ui.composition.interop.h)
 
 
 ## -description

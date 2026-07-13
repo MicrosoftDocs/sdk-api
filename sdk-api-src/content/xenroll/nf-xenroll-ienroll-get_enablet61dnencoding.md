@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_EnableT61DNEncoding
 title: IEnroll::get_EnableT61DNEncoding (xenroll.h)
-description: Sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string.
+description: Sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string. (Get)
 helpviewer_keywords: ["EnableT61DNEncoding property [Security]","EnableT61DNEncoding property [Security]","IEnroll interface","IEnroll interface [Security]","EnableT61DNEncoding property","IEnroll.EnableT61DNEncoding","IEnroll.get_EnableT61DNEncoding","IEnroll::EnableT61DNEncoding","IEnroll::get_EnableT61DNEncoding","IEnroll::put_EnableT61DNEncoding","get_EnableT61DNEncoding","security.ienroll4_enablet61dnencoding","xenroll/IEnroll::EnableT61DNEncoding","xenroll/IEnroll::get_EnableT61DNEncoding","xenroll/IEnroll::put_EnableT61DNEncoding"]
 old-location: security\ienroll4_enablet61dnencoding.htm
 tech.root: security

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetRasterStatus
 title: IDirect3DSwapChain9::GetRasterStatus (d3d9.h)
-description: Returns information describing the raster of the monitor on which the swap chain is presented.
+description: The IDirect3DSwapChain9::GetRasterStatus (d3d9.h) method returns information describing the raster of the monitor on which the swap chain is presented.
 helpviewer_keywords: ["4aff9086-c86f-2455-7c76-8c5de15bd4bd","GetRasterStatus","GetRasterStatus method [Direct3D 9]","GetRasterStatus method [Direct3D 9]","IDirect3DSwapChain9 interface","IDirect3DSwapChain9 interface [Direct3D 9]","GetRasterStatus method","IDirect3DSwapChain9.GetRasterStatus","IDirect3DSwapChain9::GetRasterStatus","d3d9helper/IDirect3DSwapChain9::GetRasterStatus","direct3d9.idirect3dswapchain9__getrasterstatus"]
 old-location: direct3d9\idirect3dswapchain9__getrasterstatus.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getrasterstatus.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 4aff9086-c86f-2455-7c76-8c5de15bd4bd, GetRasterStatus, GetRasterStatus method [Direct3D 9], GetRasterStatus method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetRasterStatus method, IDirect3DSwapChain9.GetRasterStatus, IDirect3DSwapChain9::GetRasterStatus, d3d9helper/IDirect3DSwapChain9::GetRasterStatus, direct3d9.idirect3dswapchain9__getrasterstatus
 req.header: d3d9.h
 req.include-header: D3D9.h

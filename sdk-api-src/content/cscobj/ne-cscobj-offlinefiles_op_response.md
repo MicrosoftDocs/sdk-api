@@ -56,7 +56,7 @@ Specifies whether to continue, retry, or stop processing items.
 
 ## -enum-fields
 
-### -field OFFLINEFILES_OP_CONTINUE
+### -field OFFLINEFILES_OP_CONTINUE:0
 
 Continue processing items.
 

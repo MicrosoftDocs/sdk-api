@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.UnregisterWait
 title: UnregisterWait function (winbase.h)
-description: Cancels a registered wait operation issued by the RegisterWaitForSingleObject function.
+description: Cancels a registered wait operation issued by the RegisterWaitForSingleObject function. (UnregisterWait)
 helpviewer_keywords: ["UnregisterWait","UnregisterWait function","_win32_unregisterwait","base.unregisterwait","winbase/UnregisterWait"]
 old-location: base\unregisterwait.htm
 tech.root: backup
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll

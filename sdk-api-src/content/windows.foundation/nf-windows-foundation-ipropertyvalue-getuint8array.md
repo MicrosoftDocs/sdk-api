@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt8Array
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetUInt8Array (windows.foundation.h)
 description: Gets the array of unsigned 8-bit integer values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetUInt8Array","GetUInt8Array method [Windows Runtime]","GetUInt8Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt8Array method","IPropertyValue.GetUInt8Array","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt8Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt8Array","winrt.ipropertyvalue_getuint8array"]
 old-location: winrt\ipropertyvalue_getuint8array.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetUInt8Array
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetUInt8Array (windows.foundation.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ The returned pointer must be freed using <a href="/windows/desktop/api/combaseap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

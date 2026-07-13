@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateBooleanLeaf
 title: IConditionFactory2::CreateBooleanLeaf (structuredquery.h)
-description: Creates a search condition that is either TRUE or FALSE.
+description: Creates a search condition that is either TRUE or FALSE. (IConditionFactory2.CreateBooleanLeaf)
 helpviewer_keywords: ["CreateBooleanLeaf","CreateBooleanLeaf method [search]","CreateBooleanLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateBooleanLeaf method","IConditionFactory2.CreateBooleanLeaf","IConditionFactory2::CreateBooleanLeaf","_search_IConditionFactory2_CreateBooleanLeaf","search._search_IConditionFactory2_CreateBooleanLeaf","structuredquery/IConditionFactory2::CreateBooleanLeaf"]
 old-location: search\_search_IConditionFactory2_CreateBooleanLeaf.htm
 tech.root: search
@@ -94,7 +94,7 @@ Receives a pointer to zero or more <a href="/windows/desktop/api/structuredquery
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

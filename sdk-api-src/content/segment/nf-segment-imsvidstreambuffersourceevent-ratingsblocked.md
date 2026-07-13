@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Windows XP Service Pack 1 or later.
         
 
@@ -57,7 +59,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>RatingsBlocked</b> method is called when the object blocks the stream, which occurs if the rating is not allowed under the current permissions.
 
-## -parameters
+
 
 ## -returns
 

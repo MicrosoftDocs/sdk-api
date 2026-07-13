@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_IMPORT_KEY_TRANS
 title: PFN_CMSG_IMPORT_KEY_TRANS (wincrypt.h)
-description: Imports a content encryption key for a key transport recipient of an enveloped message.
+description: Imports a content encryption key for a key transport recipient of an enveloped message. (PFN_CMSG_IMPORT_KEY_TRANS)
 helpviewer_keywords: ["PFN_CMSG_IMPORT_KEY_TRANS","PFN_CMSG_IMPORT_KEY_TRANS callback","PFN_CMSG_IMPORT_KEY_TRANS callback function [Security]","security.pfn_cmsg_import_key_trans","wincrypt/PFN_CMSG_IMPORT_KEY_TRANS"]
 old-location: security\pfn_cmsg_import_key_trans.htm
 tech.root: security

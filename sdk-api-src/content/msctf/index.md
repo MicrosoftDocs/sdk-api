@@ -4,7 +4,8 @@ title: Msctf.h header
 ms.assetid: ef92eca1-73be-3e47-bafd-fff6e05e51ac
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: tsf
 f1_keywords:
  - msctf

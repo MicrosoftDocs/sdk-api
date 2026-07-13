@@ -358,11 +358,15 @@ void main()
 ```
 
 
-<pre class="syntax" xml:space="preserve"><code>// Sample output
+
+``` syntax
+// Sample output
 
 The system time is: 19:34
  The local time is: 12:34
-</code></pre>
+
+```
+
 
 ## -see-also
 

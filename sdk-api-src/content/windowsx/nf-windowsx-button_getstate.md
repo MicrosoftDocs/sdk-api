@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_GetState","Button_GetState macro [Windows Controls
 old-location: controls\Button_GetState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_GetState, Button_GetState macro [Windows Controls], _win32_Button_GetState, _win32_Button_GetState_cpp, controls.Button_GetState, controls._win32_Button_GetState, windowsx/Button_GetState
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,31 @@ api_name:
 ---
 
 # Button_GetState macro
+
+## -syntax
+
+```cpp
+int Button_GetState(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value specifies the current state of the button. It is a combination of the following values:
+
+| Return code | Description |
+|---|---|
+| BST_CHECKED | The button is checked. |
+| BST_DROPDOWNPUSHED | Windows Vista. The button is in the drop-down state. Applies only if the button has the TBSTYLE_DROPDOWN style. |
+| BST_FOCUS | The button has the keyboard focus. |
+| BST_HOT | The button is hot; that is, the mouse is hovering over it. |
+| BST_INDETERMINATE | The state of the button is indeterminate. Applies only if the button has the BS_3STATE or BS_AUTO3STATE style. |
+| BST_PUSHED | The button is being shown in the pushed state. |
+| BST_UNCHECKED | No special state. Equivalent to zero. |
+
 
 
 ## -description

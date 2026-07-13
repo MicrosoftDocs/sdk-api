@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_RENDER_TARGET_BLEND_DESC
 title: D3D11_RENDER_TARGET_BLEND_DESC (d3d11.h)
-description: Describes the blend state for a render target.
+description: Describes the blend state for a render target. (D3D11_RENDER_TARGET_BLEND_DESC)
 helpviewer_keywords: ["D3D11_RENDER_TARGET_BLEND_DESC","D3D11_RENDER_TARGET_BLEND_DESC structure [Direct3D 11]","b9385251-2030-9e95-a5f0-6bdef2d1d699","d3d11/D3D11_RENDER_TARGET_BLEND_DESC","direct3d11.d3d11_render_target_blend_desc"]
 old-location: direct3d11\d3d11_render_target_blend_desc.htm
 tech.root: direct3d11

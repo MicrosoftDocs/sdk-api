@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.put_Recorder
 title: IDiscFormat2RawCD::put_Recorder (imapi2.h)
-description: Sets the recording device to use for the write operation.
+description: Sets the recording device to use for the write operation. (IDiscFormat2RawCD.put_Recorder)
 helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","put_Recorder method","IDiscFormat2RawCD.put_Recorder","IDiscFormat2RawCD::put_Recorder","imapi.idiscformat2rawcd_put_recorder","imapi2/IDiscFormat2RawCD::put_Recorder","put_Recorder","put_Recorder method [IMAPI]","put_Recorder method [IMAPI]","IDiscFormat2RawCD interface"]
 old-location: imapi\idiscformat2rawcd_put_recorder.htm
 tech.root: imapi

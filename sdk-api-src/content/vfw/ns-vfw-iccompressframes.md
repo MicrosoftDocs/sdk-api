@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_3
+UID: NS:vfw.ICCOMPRESSFRAMES
 title: ICCOMPRESSFRAMES (vfw.h)
 description: The ICCOMPRESSFRAMES structure contains compression parameters used with the ICM_COMPRESS_FRAMES_INFO message.
 helpviewer_keywords: ["ICCOMPRESSFRAMES","ICCOMPRESSFRAMES structure [Windows Multimedia]","_win32_ICCOMPRESSFRAMES_str","multimedia.iccompressframes","vfw/ICCOMPRESSFRAMES"]
@@ -133,3 +133,4 @@ Video Compression Manager
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

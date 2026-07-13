@@ -60,7 +60,7 @@ The DDGETKERNELCAPSOUT structure contains the capabilities of the Microsoft Dire
 
 ### -field ddRVal
 
-Specifies the location in which DirectDraw writes the return value of the <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff550629(v=vs.85)">DD_DXAPI_GETKERNELCAPS</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which DirectDraw writes the return value of the <a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff550629(v=vs.85)">DD_DXAPI_GETKERNELCAPS</a> operations. A return code of DD_OK indicates success.
 
 ### -field dwCaps
 
@@ -76,4 +76,4 @@ Can be a combination of the flags in the <b>dwIRQCaps</b> member of DDKERNELCAPS
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

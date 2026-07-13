@@ -55,7 +55,7 @@ api_name:
 
 Restores the local configuration to its default, installed state.
 
-## -parameters
+
 
 ## -returns
 

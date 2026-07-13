@@ -68,7 +68,7 @@ Address of a 16 element <code>float</code> array, specifying the value of each m
 
 ## -remarks
 
-The matrix elements are stored in <b>pArray</b> in <i>row-major</i>order.
+The matrix elements are stored in <b>pArray</b> in <i>row-major</i> order.
 	
 
 The following two pseudocode examples demonstrate the operation of this constructor:

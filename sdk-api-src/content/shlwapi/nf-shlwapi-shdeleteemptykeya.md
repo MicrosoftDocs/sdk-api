@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHDeleteEmptyKeyA
 title: SHDeleteEmptyKeyA function (shlwapi.h)
-description: Deletes an empty key.
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHDeleteEmptyKey","SHDeleteEmptyKey function [Windows Shell]","SHDeleteEmptyKeyA","SHDeleteEmptyKeyW","_win32_SHDeleteEmptyKey","shell.SHDeleteEmptyKey","shlwapi/SHDeleteEmptyKey","shlwapi/SHDeleteEmptyKeyA","shlwapi/SHDeleteEmptyKeyW"]
+description: Deletes an empty key. (ANSI)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHDeleteEmptyKeyA", "shlwapi/SHDeleteEmptyKeyA"]
 old-location: shell\SHDeleteEmptyKey.htm
 tech.root: shell
 ms.assetid: 6a560bc3-f65e-4b7d-9fbc-b4f2971ce2a9
@@ -125,4 +125,4 @@ Alternatively, use the <a href="/windows/desktop/api/winreg/nf-winreg-regdeletek
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHDeleteEmptyKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHDeleteEmptyKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

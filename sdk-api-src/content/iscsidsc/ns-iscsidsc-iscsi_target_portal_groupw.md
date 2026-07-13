@@ -1,7 +1,7 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_12
+UID: NS:iscsidsc.ISCSI_TARGET_PORTAL_GROUPW
 title: ISCSI_TARGET_PORTAL_GROUPW (iscsidsc.h)
-description: ISCSI_TARGET_PORTAL_GROUP.
+description: ISCSI_TARGET_PORTAL_GROUP. (Unicode)
 helpviewer_keywords: ["*PISCSI_TARGET_PORTAL_GROUPW","ISCSI_TARGET_PORTAL_GROUP","ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTAL_GROUPA","ISCSI_TARGET_PORTAL_GROUPW","PISCSI_TARGET_PORTAL_GROUP","PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal_group","iscsidsc/ISCSI_TARGET_PORTAL_GROUP","iscsidsc/ISCSI_TARGET_PORTAL_GROUPA","iscsidsc/ISCSI_TARGET_PORTAL_GROUPW","iscsidsc/PISCSI_TARGET_PORTAL_GROUP"]
 old-location: iscsidisc\iscsi_target_portal_group.htm
 tech.root: iSCSIDisc
@@ -69,4 +69,5 @@ An array of <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ISCSI_TARGET_PORTAL_GROUP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ISCSI_TARGET_PORTAL_GROUP as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

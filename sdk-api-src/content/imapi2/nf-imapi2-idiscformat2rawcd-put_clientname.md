@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.put_ClientName
 title: IDiscFormat2RawCD::put_ClientName (imapi2.h)
-description: Sets the friendly name of the client.
+description: Sets the friendly name of the client. (IDiscFormat2RawCD.put_ClientName)
 helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","put_ClientName method","IDiscFormat2RawCD.put_ClientName","IDiscFormat2RawCD::put_ClientName","imapi.idiscformat2rawcd_put_clientname","imapi2/IDiscFormat2RawCD::put_ClientName","put_ClientName","put_ClientName method [IMAPI]","put_ClientName method [IMAPI]","IDiscFormat2RawCD interface"]
 old-location: imapi\idiscformat2rawcd_put_clientname.htm
 tech.root: imapi

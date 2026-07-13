@@ -65,7 +65,7 @@ Pointer to a string that contains the <a href="/windows/desktop/WinHttp/glossary
 
 ### -param pwszObjectName [in]
 
-Pointer to a string that contains the name of the target resource of the specified HTTP verb. This is generally a file name, an executable module, or a search specifier.
+Pointer to a <b>null</b>-terminated string that contains the name of the target resource of the specified HTTP verb. This is generally a file name, an executable module, or a search specifier.
 
 ### -param pwszVersion [in]
 

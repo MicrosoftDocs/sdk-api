@@ -4,7 +4,8 @@ title: Windows Ribbon Framework
 ms.assetid: 4cd0882b-8e17-315a-8b08-7f07ef01a8d7
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Windows Ribbon Framework

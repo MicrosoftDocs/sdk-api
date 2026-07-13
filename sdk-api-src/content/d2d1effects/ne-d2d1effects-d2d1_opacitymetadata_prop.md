@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/opacity-met
 
 ## -enum-fields
 
-### -field D2D1_OPACITYMETADATA_PROP_INPUT_OPAQUE_RECT
+### -field D2D1_OPACITYMETADATA_PROP_INPUT_OPAQUE_RECT:0
 
 The portion of the source image that is opaque. The default is the entire input image.
           
@@ -63,4 +63,4 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1
 
 The default is {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}.
 
-### -field D2D1_OPACITYMETADATA_PROP_FORCE_DWORD
+### -field D2D1_OPACITYMETADATA_PROP_FORCE_DWORD:0xffffffff

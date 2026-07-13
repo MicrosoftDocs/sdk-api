@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.phoneInitializeExA
 title: phoneInitializeExA function (tapi.h)
-description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction.
-helpviewer_keywords: ["_tapi2_phoneinitializeex","phoneInitializeEx","phoneInitializeEx function [TAPI 2.2]","phoneInitializeExA","phoneInitializeExW","tapi/phoneInitializeEx","tapi/phoneInitializeExA","tapi/phoneInitializeExW","tapi2.phoneinitializeex"]
+description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction. (ANSI)
+helpviewer_keywords: ["phoneInitializeExA", "tapi/phoneInitializeExA"]
 old-location: tapi2\phoneinitializeex.htm
 tech.root: tapi3
 ms.assetid: 362e37df-4b14-4651-8d23-b70613e354c8
@@ -149,7 +149,7 @@ The application can refer to individual phone devices by using phone device iden
 
 
 > [!NOTE]
-> The tapi.h header defines phoneInitializeEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines phoneInitializeEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

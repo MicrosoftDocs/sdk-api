@@ -68,7 +68,7 @@ Pointer to an application-defined callback function to allocate memory. The func
 
 ### -param pfnf [in]
 
-Pointer to an application-defined callback function to free previously allocated memory. The function should be delcared using the <a href="/windows/desktop/api/fci/nf-fci-fnfcifree">FNFCIFREE</a> macro.
+Pointer to an application-defined callback function to free previously allocated memory. The function should be declared using the <a href="/windows/desktop/api/fci/nf-fci-fnfcifree">FNFCIFREE</a> macro.
 
 ### -param pfnopen [in]
 

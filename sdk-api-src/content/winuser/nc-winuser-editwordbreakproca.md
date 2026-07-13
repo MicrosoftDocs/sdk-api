@@ -1,7 +1,7 @@
 ---
 UID: NC:winuser.EDITWORDBREAKPROCA
 title: EDITWORDBREAKPROCA (winuser.h)
-description: An application-defined callback function used with the EM_SETWORDBREAKPROC message.
+description: An application-defined callback function used with the EM_SETWORDBREAKPROC message. (ANSI)
 helpviewer_keywords: ["EDITWORDBREAKPROCA","EDITWORDBREAKPROCW","EditWordBreakProc","EditWordBreakProc callback","EditWordBreakProc callback function [Windows Controls]","WB_CLASSIFY","WB_ISDELIMITER","WB_LEFT","WB_LEFTBREAK","WB_MOVEWORDLEFT","WB_MOVEWORDRIGHT","WB_RIGHT","WB_RIGHTBREAK","_win32_EditWordBreakProc","_win32_EditWordBreakProc_cpp","controls.EditWordBreakProc","controls._win32_EditWordBreakProc","winuser/EDITWORDBREAKPROCA","winuser/EDITWORDBREAKPROCW","winuser/EditWordBreakProc"]
 old-location: controls\EditWordBreakProc.htm
 tech.root: Controls
@@ -193,7 +193,7 @@ An application must install the callback function by specifying the address of t
 
 
 > [!NOTE]
-> The winuser.h header defines EDITWORDBREAKPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines EDITWORDBREAKPROC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.SetPrivateData
 title: ID3D10DeviceChild::SetPrivateData (d3d10.h)
-description: Set application-defined data to a device child and associate that data with an application-defined guid.
+description: Set application-defined data to a device child and associate that data with an application-defined guid. (ID3D10DeviceChild.SetPrivateData)
 helpviewer_keywords: ["ID3D10DeviceChild interface [Direct3D 10]","SetPrivateData method","ID3D10DeviceChild.SetPrivateData","ID3D10DeviceChild::SetPrivateData","SetPrivateData","SetPrivateData method [Direct3D 10]","SetPrivateData method [Direct3D 10]","ID3D10DeviceChild interface","b8fdde8d-dc47-4ec2-997e-b42841dc5441","d3d10/ID3D10DeviceChild::SetPrivateData","direct3d10.id3d10devicechild_setprivatedata"]
 old-location: direct3d10\id3d10devicechild_setprivatedata.htm
 tech.root: direct3d10

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetFocusedItem","Header_GetFocusedItem macro [Wind
 old-location: controls\Header_GetFocusedItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getfocuseditem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetFocusedItem, Header_GetFocusedItem macro [Windows Controls], _shell_Header_GetFocusedItem, _shell_Header_GetFocusedItem_cpp, commctrl/Header_GetFocusedItem, controls.Header_GetFocusedItem, controls._shell_Header_GetFocusedItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Header_GetFocusedItem macro
+
+## -syntax
+
+```cpp
+int Header_GetFocusedItem(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the item in focus.
 
 
 ## -description

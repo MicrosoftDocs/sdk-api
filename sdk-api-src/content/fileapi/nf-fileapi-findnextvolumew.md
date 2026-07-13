@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.FindNextVolumeW
 title: FindNextVolumeW function (fileapi.h)
-description: Continues a volume search started by a call to the FindFirstVolume function.
+description: Continues a volume search started by a call to the FindFirstVolume function. (FindNextVolumeW)
 helpviewer_keywords: ["FindNextVolume","FindNextVolume function [Files]","FindNextVolumeA","FindNextVolumeW","_win32_findnextvolume","base.findnextvolume","fileapi/FindNextVolume","fileapi/FindNextVolumeA","fileapi/FindNextVolumeW","fs.findnextvolume","winbase/FindNextVolume","winbase/FindNextVolumeA","winbase/FindNextVolumeW"]
 old-location: fs\findnextvolume.htm
 tech.root: fs
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll

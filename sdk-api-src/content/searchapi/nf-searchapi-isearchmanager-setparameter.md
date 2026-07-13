@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchManager.SetParameter
 title: ISearchManager::SetParameter (searchapi.h)
-description: Not supported.This method returns E_INVALIDARG when called.
+description: Not supported.This method returns E_INVALIDARG when called. (ISearchManager.SetParameter)
 helpviewer_keywords: ["ISearchManager interface [search]","SetParameter method","ISearchManager.SetParameter","ISearchManager::SetParameter","SetParameter","SetParameter method [search]","SetParameter method [search]","ISearchManager interface","_search_ISearchManager_SetParameter","search._search_ISearchManager_SetParameter","searchapi/ISearchManager::SetParameter"]
 old-location: search\_search_ISearchManager_SetParameter.htm
 tech.root: search

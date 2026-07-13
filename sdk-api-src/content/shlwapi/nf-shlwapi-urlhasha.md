@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlHashA
 title: UrlHashA function (shlwapi.h)
-description: Hashes a URL string.
-helpviewer_keywords: ["UrlHash","UrlHash function [Windows Shell]","UrlHashA","UrlHashW","_win32_UrlHash","shell.UrlHash","shlwapi/UrlHash","shlwapi/UrlHashA","shlwapi/UrlHashW"]
+description: Hashes a URL string. (ANSI)
+helpviewer_keywords: ["UrlHashA", "shlwapi/UrlHashA"]
 old-location: shell\UrlHash.htm
 tech.root: shell
 ms.assetid: 9c0ce709-e097-4501-bee1-b24df9d4828d
@@ -68,7 +68,7 @@ A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains
 
 Type: <b>BYTE*</b>
 
-A pointere to a buffer that, when this function returns successfully, receives the hashed array.
+A pointer to a buffer that, when this function returns successfully, receives the hashed array.
 
 ### -param cbHash
 
@@ -80,7 +80,7 @@ The number of elements in the array at <i>pbHash</i>. It should be no larger tha
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -91,7 +91,7 @@ To hash a URL into a single byte, set <i>cbHash</i> = sizeof(BYTE) and <i>pbHash
 
 
 > [!NOTE]
-> The shlwapi.h header defines UrlHash as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlHash as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

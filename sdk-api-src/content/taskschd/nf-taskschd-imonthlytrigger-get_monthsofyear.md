@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.get_MonthsOfYear
 title: IMonthlyTrigger::get_MonthsOfYear (taskschd.h)
-description: Gets or sets the months of the year during which the task runs.
+description: Gets or sets the months of the year during which the task runs. (IMonthlyTrigger.get_MonthsOfYear)
 helpviewer_keywords: ["IMonthlyTrigger interface [Task Scheduler]","MonthsOfYear property","IMonthlyTrigger.MonthsOfYear","IMonthlyTrigger.get_MonthsOfYear","IMonthlyTrigger::MonthsOfYear","IMonthlyTrigger::get_MonthsOfYear","IMonthlyTrigger::put_MonthsOfYear","MonthsOfYear property [Task Scheduler]","MonthsOfYear property [Task Scheduler]","IMonthlyTrigger interface","get_MonthsOfYear","taskschd.imonthlytrigger_monthsofyear","taskschd/IMonthlyTrigger::MonthsOfYear","taskschd/IMonthlyTrigger::get_MonthsOfYear","taskschd/IMonthlyTrigger::put_MonthsOfYear"]
 old-location: taskschd\imonthlytrigger_monthsofyear.htm
 tech.root: taskschd

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEFORMATQUERYW
 title: NMDATETIMEFORMATQUERYW (commctrl.h)
-description: Contains information about a date and time picker (DTP) control callback field.
+description: Contains information about a date and time picker (DTP) control callback field. (Unicode)
 helpviewer_keywords: ["*LPNMDATETIMEFORMATQUERYW","LPNMDATETIMEFORMATQUERY","LPNMDATETIMEFORMATQUERY structure pointer [Windows Controls]","NMDATETIMEFORMATQUERY","NMDATETIMEFORMATQUERY structure [Windows Controls]","NMDATETIMEFORMATQUERYA","NMDATETIMEFORMATQUERYW","_win32_NMDATETIMEFORMATQUERY","_win32_NMDATETIMEFORMATQUERY_cpp","commctrl/LPNMDATETIMEFORMATQUERY","commctrl/NMDATETIMEFORMATQUERY","commctrl/NMDATETIMEFORMATQUERYA","commctrl/NMDATETIMEFORMATQUERYW","controls.NMDATETIMEFORMATQUERY","controls._win32_NMDATETIMEFORMATQUERY"]
 old-location: controls\NMDATETIMEFORMATQUERY.htm
 tech.root: Controls
@@ -74,11 +74,11 @@ A pointer to a substring that defines a DTP control callback field. The substrin
 
 ### -field szMax
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a></b>
 
-A <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that must be filled with the maximum size of the text that will be displayed in the callback field.
+A <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that must be filled with the maximum size of the text that will be displayed in the callback field.
 
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines NMDATETIMEFORMATQUERY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines NMDATETIMEFORMATQUERY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

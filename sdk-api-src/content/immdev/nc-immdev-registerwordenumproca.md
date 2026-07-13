@@ -1,12 +1,12 @@
 ---
 UID: NC:immdev.REGISTERWORDENUMPROCA
 title: REGISTERWORDENUMPROCA (immdev.h)
-description: An application-defined callback function used with the ImmEnumRegisterWord function.
+description: REGISTERWORDENUMPROCA (ANSI) is an application-defined callback function used with the ImmEnumRegisterWord function.
 helpviewer_keywords: ["EnumRegisterWordProc","EnumRegisterWordProc callback function [Internationalization for Windows Applications]","EnumRegisterWordProcA","EnumRegisterWordProcW","REGISTERWORDENUMPROC","REGISTERWORDENUMPROC callback","REGISTERWORDENUMPROCA","REGISTERWORDENUMPROCW","_win32_EnumRegisterWordProc","imm/EnumRegisterWordProc","imm/EnumRegisterWordProcA","imm/EnumRegisterWordProcW","intl.enumregisterwordproc"]
 old-location: intl\enumregisterwordproc.htm
 tech.root: Intl
 ms.assetid: 06038c87-3553-47de-ba9f-b9c65ea9920b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: EnumRegisterWordProc, EnumRegisterWordProc callback function [Internationalization for Windows Applications], EnumRegisterWordProcA, EnumRegisterWordProcW, REGISTERWORDENUMPROC, REGISTERWORDENUMPROC callback, REGISTERWORDENUMPROCA, REGISTERWORDENUMPROCW, _win32_EnumRegisterWordProc, imm/EnumRegisterWordProc, imm/EnumRegisterWordProcA, imm/EnumRegisterWordProcW, intl.enumregisterwordproc
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -79,7 +79,7 @@ Returns a nonzero value to continue enumeration, or 0 to stop enumeration.
 An application must register this function by passing its address to the <a href="/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a> function.
 
 > [!NOTE]
-> The immdev.h header defines REGISTERWORDENUMPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for function prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines REGISTERWORDENUMPROC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for function prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

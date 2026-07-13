@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgInfoA
 title: SecPkgInfoA (sspi.h)
-description: The SecPkgInfo structure provides general information about a security package, such as its name and capabilities.
+description: The SecPkgInfo structure provides general information about a security package, such as its name and capabilities. (ANSI)
 helpviewer_keywords: ["*PSecPkgInfoA","PSecPkgInfo","PSecPkgInfo structure pointer [Security]","SECPKG_CALLFLAGS_APPCONTAINER","SECPKG_CALLFLAGS_AUTHCAPABLE","SECPKG_CALLFLAGS_FORCE_SUPPLIED","SECPKG_FLAG_ACCEPT_WIN32_NAME","SECPKG_FLAG_APPCONTAINER_CHECKS","SECPKG_FLAG_APPCONTAINER_PASSTHROUGH","SECPKG_FLAG_ASCII_BUFFERS","SECPKG_FLAG_CLIENT_ONLY","SECPKG_FLAG_CONNECTION","SECPKG_FLAG_DATAGRAM","SECPKG_FLAG_DELEGATION","SECPKG_FLAG_EXTENDED_ERROR","SECPKG_FLAG_FRAGMENT","SECPKG_FLAG_GSS_COMPATIBLE","SECPKG_FLAG_IMPERSONATION","SECPKG_FLAG_INTEGRITY","SECPKG_FLAG_LOGON","SECPKG_FLAG_MULTI_REQUIRED","SECPKG_FLAG_MUTUAL_AUTH","SECPKG_FLAG_NEGOTIABLE","SECPKG_FLAG_NEGOTIABLE2","SECPKG_FLAG_NEGO_EXTENDER","SECPKG_FLAG_PRIVACY","SECPKG_FLAG_READONLY_WITH_CHECKSUM","SECPKG_FLAG_RESTRICTED_TOKENS","SECPKG_FLAG_STREAM","SECPKG_FLAG_TOKEN_ONLY","SecPkgInfo","SecPkgInfo structure [Security]","SecPkgInfoA","SecPkgInfoW","_ssp_secpkginfo","security.secpkginfo","sspi/PSecPkgInfo","sspi/SecPkgInfo","sspi/SecPkgInfoA","sspi/SecPkgInfoW"]
 old-location: security\secpkginfo.htm
 tech.root: security
@@ -418,4 +418,4 @@ Pointer to a null-terminated string. This can be any additional string passed ba
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines SecPkgInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines SecPkgInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

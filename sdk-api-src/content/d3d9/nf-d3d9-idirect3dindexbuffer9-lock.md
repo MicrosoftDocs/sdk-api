@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DIndexBuffer9.Lock
 title: IDirect3DIndexBuffer9::Lock (d3d9.h)
-description: Locks a range of index data and obtains a pointer to the index buffer memory.
+description: The IDirect3DIndexBuffer9::Lock method (d3d9helper.h) locks a range of index data and obtains a pointer to the index buffer memory.
 helpviewer_keywords: ["IDirect3DIndexBuffer9 interface [Direct3D 9]","Lock method","IDirect3DIndexBuffer9.Lock","IDirect3DIndexBuffer9::Lock","Lock","Lock method [Direct3D 9]","Lock method [Direct3D 9]","IDirect3DIndexBuffer9 interface","a727fd78-b27c-1dcd-d6ca-d3bf644edaa8","d3d9helper/IDirect3DIndexBuffer9::Lock","direct3d9.idirect3dindexbuffer9__lock"]
 old-location: direct3d9\idirect3dindexbuffer9__lock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9__lock.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DIndexBuffer9 interface [Direct3D 9],Lock method, IDirect3DIndexBuffer9.Lock, IDirect3DIndexBuffer9::Lock, Lock, Lock method [Direct3D 9], Lock method [Direct3D 9],IDirect3DIndexBuffer9 interface, a727fd78-b27c-1dcd-d6ca-d3bf644edaa8, d3d9helper/IDirect3DIndexBuffer9::Lock, direct3d9.idirect3dindexbuffer9__lock
 req.header: d3d9.h
 req.include-header: D3D9.h

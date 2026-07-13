@@ -6,7 +6,7 @@ helpviewer_keywords: ["FILE_MAP_ALL_ACCESS","FILE_MAP_COPY","FILE_MAP_EXECUTE","
 old-location: base\mapviewoffileex.htm
 tech.root: base
 ms.assetid: 2ac8a7d6-5c52-41de-acb9-d7f975fd2a94
-ms.date: 12/05/2018
+ms.date: 10/30/2024
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileEx, MapViewOfFileEx function, _win32_mapviewoffileex, base.mapviewoffileex, fs.mapviewoffileex, winbase/MapViewOfFileEx
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
+ - api-ms-win-core-memory-l1-1-5.dll
  - Kernel32.dll
  - API-MS-Win-Core-memory-l1-1-0.dll
  - KernelBase.dll
@@ -143,7 +148,7 @@ Using bitwise OR, you can combine the values above with these values.
 </td>
 <td width="60%">
 A copy-on-write view of the file is mapped. The file mapping object must have been created with 
-         <b>PAGE_READONLY</b>, <b>PAGE_READ_EXECUTE</b>, 
+         <b>PAGE_READONLY</b>, <b>PAGE_EXECUTE_READ</b>, 
          <b>PAGE_WRITECOPY</b>, <b>PAGE_EXECUTE_WRITECOPY</b>, 
          <b>PAGE_READWRITE</b>, or <b>PAGE_EXECUTE_READWRITE</b> protection.
 

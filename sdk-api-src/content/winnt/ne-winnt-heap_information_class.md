@@ -56,7 +56,7 @@ Specifies the class of heap information to be set or retrieved.
 
 ## -enum-fields
 
-### -field HeapCompatibilityInformation
+### -field HeapCompatibilityInformation:0
 
 The heap features that are enabled. The available features vary based on operating system. Depending on the <i>HeapInformation</i> parameter in the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a> or <a href="/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> functions, specifying this enumeration value can indicate one of the following features:
 
@@ -67,14 +67,14 @@ The heap features that are enabled. The available features vary based on operati
 </ul>
 For more information about look-aside lists, see the Remarks section.
 
-### -field HeapEnableTerminationOnCorruption
+### -field HeapEnableTerminationOnCorruption:1
 
 The terminate-on-corruption feature. If the heap manager detects an error in any heap used by the 
          process, it calls the Windows Error Reporting service and terminates the process.
 
 After a process enables this feature, it cannot be disabled.
 
-### -field HeapOptimizeResources
+### -field HeapOptimizeResources:3
 
 ## -remarks
 

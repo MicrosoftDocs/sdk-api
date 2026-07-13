@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAt","GetAt method","GetAt method","ISensorCollection i
 old-location: winsensors_com_ref\isensorcollection_getat.htm
 tech.root: winsensors
 ms.assetid: 3117a46d-62f2-4d69-97e1-1a75c08a799e
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetAt, GetAt method, GetAt method,ISensorCollection interface, ISensorCollection interface,GetAt method, ISensorCollection.GetAt, ISensorCollection::GetAt, sensorsapi/ISensorCollection::GetAt, winsensors_com_ref.isensorcollection_getat
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the sensor at the specified index in the collection.
 

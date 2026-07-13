@@ -1,5 +1,5 @@
 ---
-UID: NS:dde.__unnamed_struct_2
+UID: NS:dde.DDEDATA
 title: DDEDATA (dde.h)
 description: Contains the data, and information about the data, sent as part of a WM_DDE_DATA message.
 helpviewer_keywords: ["CF_BITMAP","CF_DIB","CF_DIF","CF_ENHMETAFILE","CF_METAFILEPICT","CF_OEMTEXT","CF_PALETTE","CF_PENDATA","CF_RIFF","CF_SYLK","CF_TEXT","CF_TIFF","CF_UNICODETEXT","CF_WAVE","DDEDATA","DDEDATA structure [Data Exchange]","_win32_DDEDATA_str","_win32_ddedata_str_cpp","dataxchg.ddedata","dde/DDEDATA","winui._win32_ddedata_str"]
@@ -186,3 +186,4 @@ Contains the data. The length and type of data depend on the <b>cfFormat</b> mem
 
 
 <a href="/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a>
+

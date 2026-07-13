@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsControllerPort
 title: IVdsControllerPort (vds.h)
-description: Provides methods for performing query and configuration operations on a controller port.
+description: The IVdsControllerPort interface (vds.h) provides methods for performing query and configuration operations on a controller port.
 helpviewer_keywords: ["IVdsControllerPort","IVdsControllerPort interface [VDS]","IVdsControllerPort interface [VDS]","described","base.ivdscontrollerport","vds/IVdsControllerPort","vdshwprv/IVdsControllerPort"]
 old-location: base\ivdscontrollerport.htm
 tech.root: base
 ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
 req.header: vds.h
 req.include-header: 
@@ -51,17 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing 
    query and configuration operations on a controller port.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsControllerPort</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsControllerPort</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsControllerPort</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsControllerPort</b> also has these types of members:
 
 ## -see-also
 

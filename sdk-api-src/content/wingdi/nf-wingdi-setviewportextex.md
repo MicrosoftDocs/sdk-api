@@ -71,7 +71,7 @@ The vertical extent, in device units, of the viewport.
 
 ### -param lpsz [out]
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the previous viewport extents, in device units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the previous viewport extents, in device units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 
 ## -returns
 
@@ -116,7 +116,7 @@ For an example, see <a href="/windows/desktop/gdi/invalidating-the-client-area">
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>
 
 
 

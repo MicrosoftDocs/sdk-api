@@ -6,7 +6,7 @@ helpviewer_keywords: ["IIPDVDec interface [DirectShow]","get_IPDisplay method","
 old-location: dshow\iipdvdec_get_ipdisplay.htm
 tech.root: dshow
 ms.assetid: 9bf8e318-48b7-4aa8-a8c5-974b320f31ce
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IIPDVDec interface [DirectShow],get_IPDisplay method, IIPDVDec.get_IPDisplay, IIPDVDec::get_IPDisplay, IIPDVDecget_IPDisplay, dshow.iipdvdec_get_ipdisplay, get_IPDisplay, get_IPDisplay method [DirectShow], get_IPDisplay method [DirectShow],IIPDVDec interface, strmif/IIPDVDec::get_IPDisplay
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_IPDisplay</code> method gets the decoding resolution.
 

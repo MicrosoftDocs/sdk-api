@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_CspStatus
 title: IX509PrivateKey::put_CspStatus (certenroll.h)
-description: Specifies or retrieves an ICspStatus object that contains information about the cryptographic provider and algorithm pair associated with the private key.
+description: Specifies or retrieves an ICspStatus object that contains information about the cryptographic provider and algorithm pair associated with the private key. (Put)
 helpviewer_keywords: ["CspStatus property [Security]","CspStatus property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","CspStatus property","IX509PrivateKey.CspStatus","IX509PrivateKey.put_CspStatus","IX509PrivateKey::CspStatus","IX509PrivateKey::get_CspStatus","IX509PrivateKey::put_CspStatus","certenroll/IX509PrivateKey::CspStatus","certenroll/IX509PrivateKey::get_CspStatus","certenroll/IX509PrivateKey::put_CspStatus","put_CspStatus","security.ix509privatekey_cspstatus"]
 old-location: security\ix509privatekey_cspstatus.htm
 tech.root: security

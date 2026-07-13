@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignatureId
 title: IXpsSigningOptions::GetSignatureId (xpsdigitalsignature.h)
-description: Gets the value of the Id attribute of the Signature element.
+description: Gets the value of the Id attribute of the Signature element. (IXpsSigningOptions.GetSignatureId)
 helpviewer_keywords: ["GetSignatureId","GetSignatureId method [XPS Documents and Packaging]","GetSignatureId method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetSignatureId method","IXpsSigningOptions.GetSignatureId","IXpsSigningOptions::GetSignatureId","xps.ixpssigningoptions_getsignatureid","xpsdigitalsignature/IXpsSigningOptions::GetSignatureId"]
 old-location: xps\ixpssigningoptions_getsignatureid.htm
 tech.root: xps
@@ -78,4 +78,4 @@ The default value of the signature ID is an empty string.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

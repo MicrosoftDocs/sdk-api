@@ -1,7 +1,7 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_ARCHITECTURE2
 title: APPX_PACKAGE_ARCHITECTURE2 (appxpackaging.h)
-description: Specifies the processor architectures supported by a package.
+description: Specifies the processor architectures supported by a package. (APPX_PACKAGE_ARCHITECTURE2)
 helpviewer_keywords: ["APPX_PACKAGE_ARCHITECTURE2","APPX_PACKAGE_ARCHITECTURE2 enumeration [App packaging and management]","APPX_PACKAGE_ARCHITECTURE2_ARM","APPX_PACKAGE_ARCHITECTURE2_ARM64","APPX_PACKAGE_ARCHITECTURE2_NEUTRAL","APPX_PACKAGE_ARCHITECTURE2_UNKNOWN","APPX_PACKAGE_ARCHITECTURE2_X64","APPX_PACKAGE_ARCHITECTURE2_X86","APPX_PACKAGE_ARCHITECTURE2_X86_ON_ARM64","appxpackaging/APPX_PACKAGE_ARCHITECTURE2","appxpackaging/APPX_PACKAGE_ARCHITECTURE2_ARM","appxpackaging/APPX_PACKAGE_ARCHITECTURE2_ARM64","appxpackaging/APPX_PACKAGE_ARCHITECTURE2_NEUTRAL","appxpackaging/APPX_PACKAGE_ARCHITECTURE2_UNKNOWN","appxpackaging/APPX_PACKAGE_ARCHITECTURE2_X64","appxpackaging/APPX_PACKAGE_ARCHITECTURE2_X86","appxpackaging/APPX_PACKAGE_ARCHITECTURE2_X86_ON_ARM64","appxpkg.appx_package_architecture2"]
 old-location: appxpkg\appx_package_architecture2.htm
 tech.root: appxpkg

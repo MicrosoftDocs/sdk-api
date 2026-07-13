@@ -54,7 +54,7 @@ api_name:
 
 Arranges moved icons so that they tend toward the left side of the viewing area and displace other icons with which they come into contact.
 
-## -parameters
+
 
 ## -returns
 

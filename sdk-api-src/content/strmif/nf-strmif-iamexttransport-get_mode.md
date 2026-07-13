@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","get_Mode method"
 old-location: dshow\iamexttransport_get_mode.htm
 tech.root: dshow
 ms.assetid: ee08cca0-a2ea-4a7c-8714-f22d5cd62fe8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMExtTransport interface [DirectShow],get_Mode method, IAMExtTransport.get_Mode, IAMExtTransport::get_Mode, IAMExtTransportget_Mode, dshow.iamexttransport_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Mode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_Mode</code> method retrieves the current transport mode, such as play, stop, or record.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.GetPrivateData
 title: ID3D10DeviceChild::GetPrivateData (d3d10.h)
-description: Get application-defined data from a device child.
+description: Get application-defined data from a device child. (ID3D10DeviceChild.GetPrivateData)
 helpviewer_keywords: ["1156e7b1-1ba9-fab9-ab1a-7695c94278e9","GetPrivateData","GetPrivateData method [Direct3D 10]","GetPrivateData method [Direct3D 10]","ID3D10DeviceChild interface","ID3D10DeviceChild interface [Direct3D 10]","GetPrivateData method","ID3D10DeviceChild.GetPrivateData","ID3D10DeviceChild::GetPrivateData","d3d10/ID3D10DeviceChild::GetPrivateData","direct3d10.id3d10devicechild_getprivatedata"]
 old-location: direct3d10\id3d10devicechild_getprivatedata.htm
 tech.root: direct3d10
@@ -81,7 +81,7 @@ This method returns one of the following <a href="/windows/desktop/direct3d10/d3
 
 ## -remarks
 
-The data stored in the device child is set with <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10devicechild-setprivatedata">ID3D10DeviceChild::SetPrivateData</a>.
+If the data returned is a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or one of its derivative classes, which was previously set by **SetPrivateDataInterface**, that interface will have its reference count incremented before the private data is returned.
 
 ## -see-also
 

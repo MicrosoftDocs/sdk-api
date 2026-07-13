@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.GetModuleBaseNameW
 title: GetModuleBaseNameW function (psapi.h)
-description: Retrieves the base name of the specified module.
-helpviewer_keywords: ["GetModuleBaseName","GetModuleBaseName function [PSAPI]","GetModuleBaseNameA","GetModuleBaseNameW","K32GetModuleBaseName","K32GetModuleBaseNameA","K32GetModuleBaseNameW","_win32_getmodulebasename","base.getmodulebasename","psapi.getmodulebasename","psapi/GetModuleBaseName","psapi/GetModuleBaseNameA","psapi/GetModuleBaseNameW","psapi/K32GetModuleBaseName","psapi/K32GetModuleBaseNameA","psapi/K32GetModuleBaseNameW"]
+description: Retrieves the base name of the specified module. (Unicode)
+helpviewer_keywords: ["GetModuleBaseName", "GetModuleBaseName function [PSAPI]", "GetModuleBaseNameW", "K32GetModuleBaseName", "K32GetModuleBaseNameW", "_win32_getmodulebasename", "base.getmodulebasename", "psapi.getmodulebasename", "psapi/GetModuleBaseName", "psapi/GetModuleBaseNameW", "psapi/K32GetModuleBaseName", "psapi/K32GetModuleBaseNameW"]
 old-location: psapi\getmodulebasename.htm
 tech.root: psapi
 ms.assetid: 31a9eb69-95f0-4dd7-8fd5-296f2cff0b8a
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-base-psapi-l1-1-0.dll
  - Kernel32.dll
  - Psapi.dll
  - Psapi.dll
@@ -96,14 +97,14 @@ The <b>GetModuleBaseName</b> function is primarily designed for use by debuggers
 
 
 
-To retrieve the base name of a module in the current process, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a> function to retrieve the full module name and then use a function call such as <code>strrchr(szmodulename, '\\')</code> to scan to the beginning of the base name within the module name string. This is more efficient and more reliable than calling  <b>GetModuleBaseName</b>  with a handle to the current process.
+To retrieve the base name of a module in the current process, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamew">GetModuleFileName</a> function to retrieve the full module name and then use a function call such as <code>strrchr(szmodulename, '\\')</code> to scan to the beginning of the base name within the module name string. This is more efficient and more reliable than calling  <b>GetModuleBaseName</b>  with a handle to the current process.
 
 
 
-To retrieve the base name of the main executable module for a remote process, use the <a href="/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamea">GetProcessImageFileName</a> or <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function to retrieve the module name and then use the <code>strrchr</code> function as described in the previous paragraph. This is more efficient and more reliable than calling  <b>GetModuleBaseName</b>  with a NULL module handle.
+To retrieve the base name of the main executable module for a remote process, use the <a href="/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamew">GetProcessImageFileName</a> or <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamew">QueryFullProcessImageName</a> function to retrieve the module name and then use the <code>strrchr</code> function as described in the previous paragraph. This is more efficient and more reliable than calling  <b>GetModuleBaseName</b>  with a NULL module handle.
 
 
-The <b>GetModuleBaseName</b> function does not retrieve the base name for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
+The <b>GetModuleBaseName</b> function does not retrieve the base name for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexw">LoadLibraryEx</a>.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -134,7 +135,7 @@ For an example, see
 
 
 > [!NOTE]
-> The psapi.h header defines GetModuleBaseName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The psapi.h header defines GetModuleBaseName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -142,7 +143,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/psapi/nf-psapi-getmodulefilenameexa">GetModuleFileNameEx</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getmodulefilenameexw">GetModuleFileNameEx</a>
 
 
 

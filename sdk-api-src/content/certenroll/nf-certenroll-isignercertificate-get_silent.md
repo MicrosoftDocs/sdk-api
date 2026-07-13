@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_Silent
 title: ISignerCertificate::get_Silent (certenroll.h)
-description: Specifies or retrieves a Boolean value that indicates whether the user is notified when the private key is used to sign a certificate request.
+description: Specifies or retrieves a Boolean value that indicates whether the user is notified when the private key is used to sign a certificate request. (Get)
 helpviewer_keywords: ["ISignerCertificate interface [Security]","Silent property","ISignerCertificate.Silent","ISignerCertificate.get_Silent","ISignerCertificate::Silent","ISignerCertificate::get_Silent","ISignerCertificate::put_Silent","Silent property [Security]","Silent property [Security]","ISignerCertificate interface","certenroll/ISignerCertificate::Silent","certenroll/ISignerCertificate::get_Silent","certenroll/ISignerCertificate::put_Silent","get_Silent","security.isignercertificate_silent_property"]
 old-location: security\isignercertificate_silent_property.htm
 tech.root: security

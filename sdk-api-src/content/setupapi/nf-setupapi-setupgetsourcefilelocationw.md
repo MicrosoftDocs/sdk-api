@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileLocationW
 title: SetupGetSourceFileLocationW function (setupapi.h)
-description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file.
-helpviewer_keywords: ["SetupGetSourceFileLocation","SetupGetSourceFileLocation function [Setup API]","SetupGetSourceFileLocationA","SetupGetSourceFileLocationW","_setupapi_setupgetsourcefilelocation","setup.setupgetsourcefilelocation","setupapi/SetupGetSourceFileLocation","setupapi/SetupGetSourceFileLocationA","setupapi/SetupGetSourceFileLocationW"]
+description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file. (Unicode)
+helpviewer_keywords: ["SetupGetSourceFileLocation", "SetupGetSourceFileLocation function [Setup API]", "SetupGetSourceFileLocationW", "_setupapi_setupgetsourcefilelocation", "setup.setupgetsourcefilelocation", "setupapi/SetupGetSourceFileLocation", "setupapi/SetupGetSourceFileLocationW"]
 old-location: setup\setupgetsourcefilelocation.htm
 tech.root: setup
 ms.assetid: 00245cb9-99de-464a-a0b4-d1efb1f1331b
@@ -103,7 +103,7 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetSourceFileLocation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetSourceFileLocation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

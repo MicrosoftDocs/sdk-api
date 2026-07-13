@@ -4,14 +4,14 @@ title: IDWriteTextFormat3::SetFontAxisValues
 description: Sets values for the font axes of the format.
 helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","SetFontAxisValues method","IDWriteTextFormat3.SetFontAxisValues","IDWriteTextFormat3::SetFontAxisValues","SetFontAxisValues","SetFontAxisValues method [Direct Write]","SetFontAxisValues method [Direct Write]","IDWriteTextFormat3 interface","directwrite.idwritetextformat3_setfontaxisvalues","dwrite_3/IDWriteTextFormat3::SetFontAxisValues"]
 tech.root: DirectWrite
-ms.date: 09/17/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetFontAxisValues method, IDWriteTextFormat3.SetFontAxisValues, IDWriteTextFormat3::SetFontAxisValues, SetFontAxisValues, SetFontAxisValues method [Direct Write], SetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setfontaxisvalues, dwrite_3/IDWriteTextFormat3::SetFontAxisValues
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

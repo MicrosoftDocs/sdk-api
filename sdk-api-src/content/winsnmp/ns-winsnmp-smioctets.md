@@ -1,5 +1,5 @@
 ---
-UID: NS:winsnmp.__unnamed_struct_0
+UID: NS:winsnmp.smiOCTETS
 title: smiOCTETS (winsnmp.h)
 description: The WinSNMP smiOCTETS structure passes context strings to multiple WinSNMP functions. The structure also describes and receives encoded SNMP messages.
 helpviewer_keywords: ["*smiLPBITS","*smiLPIPADDR","*smiLPNSAPADDR","*smiLPOCTETS","*smiLPOPAQUE","_snmp_smioctets_str","smiBITS","smiIPADDR","smiLPOCTETS","smiLPOCTETS structure pointer [SNMP]","smiNSAPADDR","smiOCTETS","smiOCTETS structure [SNMP]","smiOPAQUE","snmp.smioctets_str","winsnmp/smiLPOCTETS","winsnmp/smiOCTETS"]
@@ -112,3 +112,4 @@ Because the WinSNMP application allocates memory for input descriptor objects wi
 
 
 <a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>
+

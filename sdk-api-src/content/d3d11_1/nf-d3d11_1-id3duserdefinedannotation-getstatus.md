@@ -53,7 +53,7 @@ api_name:
 
 Determines whether the calling application is running under a Microsoft Direct3D profiling tool.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IDiscFormat2DataEventArgs
 title: IDiscFormat2DataEventArgs (imapi2.h)
-description: Use this interface to retrieve information about the current write operation.
+description: Use this interface to retrieve information about the current write operation. (IDiscFormat2DataEventArgs)
 helpviewer_keywords: ["IDiscFormat2DataEventArgs","IDiscFormat2DataEventArgs interface [IMAPI]","IDiscFormat2DataEventArgs interface [IMAPI]","described","imapi.idiscformat2dataeventargs","imapi2/IDiscFormat2DataEventArgs"]
 old-location: imapi\idiscformat2dataeventargs.htm
 tech.root: imapi
@@ -56,10 +56,7 @@ This interface is passed to the <a href="/windows/desktop/api/imapi2/nf-imapi2-d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2DataEventArgs</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2DataEventArgs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDiscFormat2DataEventArgs</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2DataEventArgs</b> also has these types of members:
 
 ## -see-also
 

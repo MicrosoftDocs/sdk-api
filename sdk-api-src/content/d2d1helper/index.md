@@ -4,7 +4,8 @@ title: D2D1Helper.h header
 ms.assetid: be44552e-6c89-39af-8b03-739c3a3a0a2d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: direct2d
 f1_keywords:
  - d2d1helper

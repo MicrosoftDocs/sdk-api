@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLun.Shrink
 title: IVdsLun::Shrink (vds.h)
-description: Shrinks a LUN by a specified number of bytes.
+description: The IVdsLun::Shrink method (vds.h) shrinks a LUN by a specified number of bytes.
 helpviewer_keywords: ["IVdsLun interface [VDS]","Shrink method","IVdsLun.Shrink","IVdsLun::Shrink","Shrink","Shrink method [VDS]","Shrink method [VDS]","IVdsLun interface","base.ivdslun_shrink","vds/IVdsLun::Shrink","vdshwprv/IVdsLun::Shrink"]
 old-location: base\ivdslun_shrink.htm
 tech.root: base
 ms.assetid: a02f7741-c17a-48f3-a823-292613aa287b
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLun interface [VDS],Shrink method, IVdsLun.Shrink, IVdsLun::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsLun interface, base.ivdslun_shrink, vds/IVdsLun::Shrink, vdshwprv/IVdsLun::Shrink
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Shrinks a LUN by a specified 
    number of bytes.

@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - ComBase.dll
@@ -146,11 +148,15 @@ One or more arguments is invalid.
 
 <b>CoSetProxyBlanket</b> sets the authentication information that will be used to make calls on the specified proxy. This function encapsulates the following sequence of common calls (error handling excluded).
 
-<pre class="syntax" xml:space="preserve"><code>    pProxy-&gt;QueryInterface(IID_IClientSecurity, (void**)&amp;pcs);
-    pcs-&gt;SetBlanket(pProxy, dwAuthnSvc, dwAuthzSvc, pServerPrincName, 
+
+```C++
+    pProxy->QueryInterface(IID_IClientSecurity, (void**)&pcs);
+    pcs->SetBlanket(pProxy, dwAuthnSvc, dwAuthzSvc, pServerPrincName, 
         dwAuthnLevel, dwImpLevel, pAuthInfo, dwCapabilities);
-    pcs-&gt;Release();
-</code></pre>
+    pcs->Release();
+
+```
+
 This sequence calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the proxy to get a pointer to <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>, and with the resulting pointer, calls <a href="/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a> and then releases the pointer.
 
 ## -see-also

@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-com-ole32-l1-4-0.dll
+ - ext-ms-win-com-ole32-l1-3-0.dll
+ - ext-ms-win-com-ole32-l1-2-0.dll
  - Ole32.dll
 api_name:
  - CoFreeAllLibraries
@@ -53,7 +56,7 @@ req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.
 
 Frees all the DLLs that have been loaded with the <a href="/windows/desktop/api/objbase/nf-objbase-coloadlibrary">CoLoadLibrary</a> function (called internally by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>), regardless of whether they are currently in use.
 
-## -parameters
+
 
 ## -remarks
 

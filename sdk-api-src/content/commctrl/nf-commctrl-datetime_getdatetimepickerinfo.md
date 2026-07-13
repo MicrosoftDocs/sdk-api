@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_GetDateTimePickerInfo","DateTime_GetDateTimePick
 old-location: controls\DateTime_GetDateTimePickerInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getdatetimepickerinfo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_GetDateTimePickerInfo, DateTime_GetDateTimePickerInfo macro [Windows Controls], _shell_DateTime_GetDateTimePickerInfo, _shell_DateTime_GetDateTimePickerInfo_cpp, commctrl/DateTime_GetDateTimePickerInfo, controls.DateTime_GetDateTimePickerInfo, controls._shell_DateTime_GetDateTimePickerInfo
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # DateTime_GetDateTimePickerInfo macro
+
+## -syntax
+
+```cpp
+LRESULT DateTime_GetDateTimePickerInfo(
+  [in]      HWND               hdp,
+  [in, out] DATETIMEPICKERINFO *pdtpi
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Return value is ignored.
 
 
 ## -description

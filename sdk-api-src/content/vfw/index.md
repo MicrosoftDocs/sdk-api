@@ -4,7 +4,8 @@ title: Vfw.h header
 ms.assetid: 84b00537-6030-36ab-8d3a-4a3fd59cba5c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: multimedia
 f1_keywords:
  - vfw

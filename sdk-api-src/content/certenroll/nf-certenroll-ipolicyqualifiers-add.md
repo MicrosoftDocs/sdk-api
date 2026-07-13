@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Add
 title: IPolicyQualifiers::Add (certenroll.h)
-description: Adds an object to the collection.
+description: Adds an object to the collection. (IPolicyQualifiers.Add)
 helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","IPolicyQualifiers interface","IPolicyQualifiers interface [Security]","Add method","IPolicyQualifiers.Add","IPolicyQualifiers::Add","certenroll/IPolicyQualifiers::Add","security.ipolicyqualifiers_add_method"]
 old-location: security\ipolicyqualifiers_add_method.htm
 tech.root: security

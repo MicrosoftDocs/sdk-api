@@ -52,39 +52,39 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid types for a volume object.
 
 ## -enum-fields
 
-### -field VDS_VT_UNKNOWN
+### -field VDS_VT_UNKNOWN:0
 
 The volume type is unknown.
 
-### -field VDS_VT_SIMPLE
+### -field VDS_VT_SIMPLE:10
 
 The volume type is simple—it is composed of extents from exactly one disk.
 
-### -field VDS_VT_SPAN
+### -field VDS_VT_SPAN:11
 
 The volume type is spanned—it is composed of extents from more than one disk.
 
-### -field VDS_VT_STRIPE
+### -field VDS_VT_STRIPE:12
 
 The volume type is striped, which is equivalent to RAID 0.
 
-### -field VDS_VT_MIRROR
+### -field VDS_VT_MIRROR:13
 
 The volume type is mirrored, which is equivalent to RAID 1.
 
-### -field VDS_VT_PARITY
+### -field VDS_VT_PARITY:14
 
 The volume type is striped with parity, which accounts for RAID levels 3, 4, 5, and 6.
 
 ## -remarks
 
-The  <a href="/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">IVdsPack::CreateVolume</a>method passes a <b>VDS_VOLUME_TYPE</b> value as an argument to set a new volume type, and the <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>structure includes a <b>VDS_VOLUME_TYPE</b> value as a member to indicate  the existing volume type.
+The  <a href="/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">IVdsPack::CreateVolume</a> method passes a <b>VDS_VOLUME_TYPE</b> value as an argument to set a new volume type, and the <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a> structure includes a <b>VDS_VOLUME_TYPE</b> value as a member to indicate  the existing volume type.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_VOLUME_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_VOLUME_TYPE</b> enumeration constant.</div>
 <div> </div>

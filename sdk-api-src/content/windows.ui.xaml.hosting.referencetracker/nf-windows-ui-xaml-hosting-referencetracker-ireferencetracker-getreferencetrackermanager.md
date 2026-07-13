@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.GetReferenceTrackerManager
-title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTracker::GetReferenceTrackerManager (windows.ui.xaml.hosting.referencetracker.h)
 description: Gets an IReferenceTrackerManager interface from a XAML object.
 helpviewer_keywords: ["GetReferenceTrackerManager","GetReferenceTrackerManager method [Windows Runtime]","GetReferenceTrackerManager method [Windows Runtime]","IReferenceTracker interface","IReferenceTracker interface [Windows Runtime]","GetReferenceTrackerManager method","IReferenceTracker.GetReferenceTrackerManager","IReferenceTracker.xaml","IReferenceTracker::GetReferenceTrackerManager","IReferenceTracker::xaml","windows/IReferenceTracker::GetReferenceTrackerManager","winrt.ireferencetracker_getreferencetrackermanager"]
 old-location: winrt\ireferencetracker_getreferencetrackermanager.htm
@@ -45,7 +45,7 @@ api_name:
  - IReferenceTracker.GetReferenceTrackerManager
 ---
 
-# IReferenceTracker::xaml
+# IReferenceTracker::GetReferenceTrackerManager (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
@@ -58,7 +58,7 @@ Gets an <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/n
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

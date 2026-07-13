@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.put_IsForced
 title: IUpdateInstaller::put_IsForced (wuapi.h)
-description: Gets or sets a Boolean value that indicates whether to forcibly install or uninstall an update.
+description: Gets or sets a Boolean value that indicates whether to forcibly install or uninstall an update. (Put)
 helpviewer_keywords: ["IUpdateInstaller interface [Windows Update Agent]","IsForced property","IUpdateInstaller.IsForced","IUpdateInstaller.put_IsForced","IUpdateInstaller::IsForced","IUpdateInstaller::get_IsForced","IUpdateInstaller::put_IsForced","IsForced property [Windows Update Agent]","IsForced property [Windows Update Agent]","IUpdateInstaller interface","put_IsForced","wua.iupdateinstaller_isforced","wuapi/IUpdateInstaller::IsForced","wuapi/IUpdateInstaller::get_IsForced","wuapi/IUpdateInstaller::put_IsForced"]
 old-location: wua\iupdateinstaller_isforced.htm
 tech.root: wua

@@ -65,13 +65,17 @@ A pointer to a <b>BCRYPT_KEY_HANDLE</b> variable that receives the handle of the
 
 ### -param pbKeyObject [out]
 
-A pointer to a buffer that receives the duplicate key object. The <i>cbKeyObject</i> parameter contains the size of this buffer. The required size of this buffer can be obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a> function to get the <b>BCRYPT_OBJECT_LENGTH</b> property. This will provide the size of the key object for the specified algorithm.
+An ***optional*** pointer to a buffer that receives the duplicate key object. The <i>cbKeyObject</i> parameter contains the size of this buffer. The required size of this buffer can be obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a> function to get the <b>BCRYPT_OBJECT_LENGTH</b> property. This will provide the size of the key object for the specified algorithm.
 
 This memory can only be freed after the <i>phNewKey</i> key handle is destroyed.
+
+If the value of this parameter is <b>NULL</b> and the value of the <i>cbKeyObject</i> parameter is zero, the memory for the duplicate key object is allocated by this function and freed by <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a>. <b>Windows 7:  </b>This memory management functionality is available beginning with Windows 7.
 
 ### -param cbKeyObject [in]
 
 The size, in bytes, of the <i>pbKeyObject</i> buffer.
+
+If the value of this parameter is zero and the value of the <i>pbKeyObject</i> parameter is <b>NULL</b>, the memory for the duplicate key object is allocated by this function and freed by <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a>. <b>Windows 7:  </b>This memory management functionality is available beginning with Windows 7.
 
 ### -param dwFlags [in]
 
@@ -139,6 +143,6 @@ One or more parameters are not valid.
 
 ## -remarks
 
-Depending on what processor modes a provider supports, <b>BCryptDuplicateKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptDuplicateKey</b> function must refer to nonpaged (or locked) memory.
+When using a supported algorithm provider, <b>BCryptDuplicateKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptDuplicateKey</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.

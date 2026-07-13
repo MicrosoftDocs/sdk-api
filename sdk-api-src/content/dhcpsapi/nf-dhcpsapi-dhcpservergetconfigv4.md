@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpServerGetConfigV4
 title: DhcpServerGetConfigV4 function (dhcpsapi.h)
-description: Returns the specific configuration settings of a DHCP server.
+description: Returns the specific configuration settings of a DHCP server. (DhcpServerGetConfigV4)
 helpviewer_keywords: ["DhcpServerGetConfigV4","DhcpServerGetConfigV4 function [DHCP]","dhcp.dhcpservergetconfigv4","dhcpsapi/DhcpServerGetConfigV4"]
 old-location: dhcp\dhcpservergetconfigv4.htm
 tech.root: DHCP

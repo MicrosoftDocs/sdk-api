@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetTempFileName
 title: GetTempFileName function (winbase.h)
-description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
+description: The GetTempFileName function (winbase.h) creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
 helpviewer_keywords: ["GetTempFileName","GetTempFileName function [Files]","GetTempFileNameA","GetTempFileNameW","_win32_gettempfilename","base.gettempfilename","fileapi/GetTempFileName","fileapi/GetTempFileNameA","fileapi/GetTempFileNameW","fs.gettempfilename","winbase/GetTempFileName","winbase/GetTempFileNameA","winbase/GetTempFileNameW"]
 old-location: fs\gettempfilename.htm
 tech.root: fs
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -67,7 +67,7 @@ Creates a name for a temporary file. If a unique file name is generated, an empt
 ### -param lpPathName [in]
 
 The directory path for the file name. Applications typically specify a period (.) for the current directory 
-       or the result of the <a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a> function. The string 
+       or the result of the <a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppath2a">GetTempPath2</a> function. The string 
        cannot be longer than <b>MAX_PATH</b>–14 characters or
        <b>GetTempFileName</b> will fail. If this parameter is 
        <b>NULL</b>, the function fails.
@@ -258,7 +258,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppath2a">GetTempPath2</a>
 
 
 

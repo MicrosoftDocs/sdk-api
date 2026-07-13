@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphMappings
 title: IXpsOMGlyphs::GetGlyphMappings (xpsobjectmodel.h)
-description: Gets an array of XPS_GLYPH_MAPPING structures that describe how to map UTF-16 scalar values to entries in the array of XPS_GLYPH_INDEX structures, which is returned by GetGlyphIndices.
+description: Gets an array of XPS_GLYPH_MAPPING structures that describe how to map UTF-16 scalar values to entries in the array of XPS_GLYPH_INDEX structures, which is returned by GetGlyphIndices. (IXpsOMGlyphs.GetGlyphMappings)
 helpviewer_keywords: ["GetGlyphMappings","GetGlyphMappings method [XPS Documents and Packaging]","GetGlyphMappings method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetGlyphMappings method","IXpsOMGlyphs.GetGlyphMappings","IXpsOMGlyphs::GetGlyphMappings","xps.ixpsomglyphs_getglyphmappings","xpsobjectmodel/IXpsOMGlyphs::GetGlyphMappings"]
 old-location: xps\ixpsomglyphs_getglyphmappings.htm
 tech.root: xps
@@ -120,7 +120,7 @@ The method succeeded.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["SETTEXTEX","SETTEXTEX structure [Windows Controls]","ST_D
 old-location: controls\SETTEXTEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\settextex.htm
-ms.date: 12/05/2018
+ms.date: 11/27/2023
 ms.keywords: SETTEXTEX, SETTEXTEX structure [Windows Controls], ST_DEFAULT, ST_KEEPUNDO, ST_NEWCHARS, ST_SELECTION, ST_UNICODE, _win32_SETTEXTEX_str, _win32_SETTEXTEX_str_cpp, controls.SETTEXTEX, controls._win32_SETTEXTEX_str, richedit/SETTEXTEX
 req.header: richedit.h
 req.include-header: 
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the <a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a> message.
+Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the <a href="/windows/win32/controls/em-settextex">EM_SETTEXTEX</a> message.
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ Option flags. It can be any reasonable combination of the following flags.
 </tr>
 <tr>
 <td width="40%"><a id="ST_DEFAULT"></a><a id="st_default"></a><dl>
-<dt><b>ST_DEFAULT</b></dt>
+<dt><b>ST_DEFAULT</b></dt><dd>0x00</dd>
 </dl>
 </td>
 <td width="60%">
@@ -79,7 +79,7 @@ Deletes the undo stack, discards rich-text formatting, replaces all text.
 </tr>
 <tr>
 <td width="40%"><a id="ST_KEEPUNDO"></a><a id="st_keepundo"></a><dl>
-<dt><b>ST_KEEPUNDO</b></dt>
+<dt><b>ST_KEEPUNDO</b></dt><dd>0x01</dd>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +89,7 @@ Keeps the undo stack.
 </tr>
 <tr>
 <td width="40%"><a id="ST_SELECTION"></a><a id="st_selection"></a><dl>
-<dt><b>ST_SELECTION</b></dt>
+<dt><b>ST_SELECTION</b></dt><dd>0x02</dd>
 </dl>
 </td>
 <td width="60%">
@@ -99,7 +99,7 @@ Replaces selection and keeps rich-text formatting.
 </tr>
 <tr>
 <td width="40%"><a id="ST_NEWCHARS"></a><a id="st_newchars"></a><dl>
-<dt><b>ST_NEWCHARS</b></dt>
+<dt><b>ST_NEWCHARS</b></dt><dd>0x04</dd>
 </dl>
 </td>
 <td width="60%">
@@ -110,13 +110,32 @@ Act as if new characters are being entered.
 </tr>
 <tr>
 <td width="40%"><a id="ST_UNICODE"></a><a id="st_unicode"></a><dl>
-<dt><b>ST_UNICODE</b></dt>
+<dt><b>ST_UNICODE</b></dt><dd>0x08</dd>
 </dl>
 </td>
 <td width="60%">
 The text is UTF-16 
 (the <b>WCHAR</b> data type).
 
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="ST_PLACEHOLDERTEXT"></a><a id="st_placeholdertext"></a><dl>
+<dt><b>ST_PLACEHOLDERTEXT</b></dt><dd>0x10</dd>
+</dl>
+</td>
+<td width="60%">
+Placeholder text that is visible only when focus is not on the RichEdit control and the control does not contain any user-specified text.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="ST_PLAINTEXTONLY"></a><a id="st_placeholdertext"></a><dl>
+<dt><b>ST_PLAINTEXTONLY</b></dt><dd>0x20</dd>
+</dl>
+</td>
+<td width="60%">
+RichEdit control supports plain text only.
 </td>
 </tr>
 </table>
@@ -129,4 +148,4 @@ The code page used to translate the text to Unicode. If <b>codepage</b> is 1200 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a>
+<a href="/windows/win32/controls/em-settextex">EM_SETTEXTEX</a>

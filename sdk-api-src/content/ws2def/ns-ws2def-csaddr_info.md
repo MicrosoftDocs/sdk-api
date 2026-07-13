@@ -1,12 +1,12 @@
 ---
 UID: NS:ws2def._CSADDR_INFO
 title: CSADDR_INFO (ws2def.h)
-description: Contains Windows Sockets address information for a socket, network service, or namespace provider.
+description: The CSADDR_INFO (ws2def.h) structure contains Windows Sockets address information for a socket, network service, or namespace provider.
 helpviewer_keywords: ["*LPCSADDR_INFO","*PCSADDR_INFO","CSADDR_INFO","CSADDR_INFO structure [Winsock]","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","SOCK_DGRAM","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","_CSADDR_INFO","_win32_csaddr_info_2","winsock.csaddr_info_2","ws2def/CSADDR_INFO"]
 old-location: winsock\csaddr_info_2.htm
 tech.root: WinSock
 ms.assetid: 9cad3586-e315-4f6f-9045-7c95502bb768
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPCSADDR_INFO, *PCSADDR_INFO, CSADDR_INFO, CSADDR_INFO structure [Winsock], IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _CSADDR_INFO, _win32_csaddr_info_2, winsock.csaddr_info_2, ws2def/CSADDR_INFO'
 req.header: ws2def.h
 req.include-header: Nspapi.h

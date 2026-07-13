@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterW
 title: PdhGetDefaultPerfCounterW function (pdh.h)
-description: Retrieves the name of the default counter for the specified object. This name can be used to set the initial counter selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfCounterH function.
-helpviewer_keywords: ["PdhGetDefaultPerfCounter","PdhGetDefaultPerfCounter function [Perf]","PdhGetDefaultPerfCounterA","PdhGetDefaultPerfCounterW","_win32_pdhgetdefaultperfcounter","base.pdhgetdefaultperfcounter","pdh/PdhGetDefaultPerfCounter","pdh/PdhGetDefaultPerfCounterA","pdh/PdhGetDefaultPerfCounterW","perf.pdhgetdefaultperfcounter"]
+description: Retrieves the name of the default counter for the specified object. This name can be used to set the initial counter selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfCounterH function. (Unicode)
+helpviewer_keywords: ["PdhGetDefaultPerfCounter", "PdhGetDefaultPerfCounter function [Perf]", "PdhGetDefaultPerfCounterW", "_win32_pdhgetdefaultperfcounter", "base.pdhgetdefaultperfcounter", "pdh/PdhGetDefaultPerfCounter", "pdh/PdhGetDefaultPerfCounterW", "perf.pdhgetdefaultperfcounter"]
 old-location: perf\pdhgetdefaultperfcounter.htm
 tech.root: perf
 ms.assetid: 0eb78071-3496-40e9-91b0-3c06547c88d5
@@ -185,7 +185,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 > [!NOTE]
-> The pdh.h header defines PdhGetDefaultPerfCounter as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhGetDefaultPerfCounter as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

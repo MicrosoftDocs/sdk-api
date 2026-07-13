@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupInstallFileW
 title: SetupInstallFileW function (setupapi.h)
-description: The SetupInstallFile function installs a file as specified either by an INFCONTEXT returned by SetupFindXXXLine or explicitly by the file name and path.
-helpviewer_keywords: ["SP_COPY_DELETESOURCE","SP_COPY_FORCE_IN_USE","SP_COPY_FORCE_NEWER","SP_COPY_FORCE_NOOVERWRITE","SP_COPY_LANGUAGEAWARE","SP_COPY_NEWER_ONLY","SP_COPY_NEWER_OR_SAME","SP_COPY_NODECOMP","SP_COPY_NOOVERWRITE","SP_COPY_REPLACEONLY","SP_COPY_SOURCEPATH_ABSOLUTE","SP_COPY_SOURCE_ABSOLUTE","SetupInstallFile","SetupInstallFile function [Setup API]","SetupInstallFileA","SetupInstallFileW","_setupapi_setupinstallfile","setup.setupinstallfile","setupapi/SetupInstallFile","setupapi/SetupInstallFileA","setupapi/SetupInstallFileW"]
+description: The SetupInstallFile function installs a file as specified either by an INFCONTEXT returned by SetupFindXXXLine or explicitly by the file name and path. (Unicode)
+helpviewer_keywords: ["SP_COPY_DELETESOURCE", "SP_COPY_FORCE_IN_USE", "SP_COPY_FORCE_NEWER", "SP_COPY_FORCE_NOOVERWRITE", "SP_COPY_LANGUAGEAWARE", "SP_COPY_NEWER_ONLY", "SP_COPY_NEWER_OR_SAME", "SP_COPY_NODECOMP", "SP_COPY_NOOVERWRITE", "SP_COPY_REPLACEONLY", "SP_COPY_SOURCEPATH_ABSOLUTE", "SP_COPY_SOURCE_ABSOLUTE", "SetupInstallFile", "SetupInstallFile function [Setup API]", "SetupInstallFileW", "_setupapi_setupinstallfile", "setup.setupinstallfile", "setupapi/SetupInstallFile", "setupapi/SetupInstallFileW"]
 old-location: setup\setupinstallfile.htm
 tech.root: setup
 ms.assetid: 04db1553-1c9a-414e-a2b8-b087dd44ef55
@@ -250,7 +250,7 @@ If a UNC directory is specified as the target directory of a file installation, 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupInstallFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupInstallFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

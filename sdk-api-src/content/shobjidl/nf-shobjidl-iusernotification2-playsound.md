@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IUserNotification2.PlaySound
 title: IUserNotification2::PlaySound (shobjidl.h)
-description: Plays a sound in conjunction with the notification.
+description: Plays a sound in conjunction with the notification. (IUserNotification2.PlaySound)
 helpviewer_keywords: ["IUserNotification2 interface [Windows Shell]","PlaySound method","IUserNotification2.PlaySound","IUserNotification2::PlaySound","PlaySound","PlaySound method [Windows Shell]","PlaySound method [Windows Shell]","IUserNotification2 interface","_shell_IUserNotification2_PlaySound","shell.IUserNotification2_PlaySound","shobjidl/IUserNotification2::PlaySound"]
 old-location: shell\IUserNotification2_PlaySound.htm
 tech.root: shell
@@ -64,7 +64,7 @@ A pointer to a null-terminated Unicode string that specifies the alias of the so
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

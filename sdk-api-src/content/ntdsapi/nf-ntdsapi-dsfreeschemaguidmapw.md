@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsFreeSchemaGuidMapW
 title: DsFreeSchemaGuidMapW function (ntdsapi.h)
-description: Frees memory that the DsMapSchemaGuids function has allocated for a DS_SCHEMA_GUID_MAP structure.
-helpviewer_keywords: ["DsFreeSchemaGuidMap","DsFreeSchemaGuidMap function [Active Directory]","DsFreeSchemaGuidMapA","DsFreeSchemaGuidMapW","_glines_dsfreeschemaguidmap","ad.dsfreeschemaguidmap","ntdsapi/DsFreeSchemaGuidMap","ntdsapi/DsFreeSchemaGuidMapA","ntdsapi/DsFreeSchemaGuidMapW"]
+description: Frees memory that the DsMapSchemaGuids function has allocated for a DS_SCHEMA_GUID_MAP structure. (Unicode)
+helpviewer_keywords: ["DsFreeSchemaGuidMap", "DsFreeSchemaGuidMap function [Active Directory]", "DsFreeSchemaGuidMapW", "_glines_dsfreeschemaguidmap", "ad.dsfreeschemaguidmap", "ntdsapi/DsFreeSchemaGuidMap", "ntdsapi/DsFreeSchemaGuidMapW"]
 old-location: ad\dsfreeschemaguidmap.htm
 tech.root: ad
 ms.assetid: 54d6acb9-5602-4996-a483-08534143bc0a
@@ -81,4 +81,4 @@ This function does not return a value.
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsFreeSchemaGuidMap as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsFreeSchemaGuidMap as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

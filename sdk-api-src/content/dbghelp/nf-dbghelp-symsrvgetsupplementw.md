@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvGetSupplementW
 title: SymSrvGetSupplementW function (dbghelp.h)
-description: Retrieves the specified file from the supplement for a symbol store.
+description: The SymSrvGetSupplementW (Unicode) function (dbghelp.h) retrieves the specified file from the supplement for a symbol store.
 helpviewer_keywords: ["SymSrvGetSupplement","SymSrvGetSupplement function","SymSrvGetSupplementW","base.symsrvgetsupplement","dbghelp/SymSrvGetSupplement","dbghelp/SymSrvGetSupplementW"]
 old-location: base\symsrvgetsupplement.htm
 tech.root: Debug
 ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
 req.header: dbghelp.h
 req.include-header: 
@@ -97,7 +97,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymSrvGetSupplement as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymSrvGetSupplement as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -91,7 +91,7 @@ The network is unavailable. (This condition is tested before the handle specifie
 </dl>
 </td>
 <td width="60%">
-The <i>hEnum</i> parameter does not specifiy a valid handle.
+The <i>hEnum</i> parameter does not specify a valid handle.
 
 </td>
 </tr>

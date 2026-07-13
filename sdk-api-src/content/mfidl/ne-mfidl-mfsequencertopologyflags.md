@@ -56,7 +56,7 @@ Contains flags for adding a topology to the sequencer source, or updating a topo
 
 ## -enum-fields
 
-### -field SequencerTopologyFlags_Last
+### -field SequencerTopologyFlags_Last:0x1
 
 This topology is the last topology in the sequence.
 

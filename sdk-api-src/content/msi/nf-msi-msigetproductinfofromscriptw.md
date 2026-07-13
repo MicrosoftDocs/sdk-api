@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetProductInfoFromScriptW
 title: MsiGetProductInfoFromScriptW function (msi.h)
-description: The MsiGetProductInfoFromScript function returns product information for a Windows Installer script file.
-helpviewer_keywords: ["MsiGetProductInfoFromScript","MsiGetProductInfoFromScript function","MsiGetProductInfoFromScriptA","MsiGetProductInfoFromScriptW","_msi_msigetproductinfofromscript","msi/MsiGetProductInfoFromScript","msi/MsiGetProductInfoFromScriptA","msi/MsiGetProductInfoFromScriptW","setup.msigetproductinfofromscript"]
+description: The MsiGetProductInfoFromScript function returns product information for a Windows Installer script file. (Unicode)
+helpviewer_keywords: ["MsiGetProductInfoFromScript", "MsiGetProductInfoFromScript function", "MsiGetProductInfoFromScriptW", "_msi_msigetproductinfofromscript", "msi/MsiGetProductInfoFromScript", "msi/MsiGetProductInfoFromScriptW", "setup.msigetproductinfofromscript"]
 old-location: setup\msigetproductinfofromscript.htm
 tech.root: setup
 ms.assetid: fe0bc709-b410-4a61-bea3-d11fc8f71883
@@ -157,4 +157,4 @@ This function is only available on Windows 2000 and Windows XP.
 ## -remarks
 
 > [!NOTE]
-> The msi.h header defines MsiGetProductInfoFromScript as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetProductInfoFromScript as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

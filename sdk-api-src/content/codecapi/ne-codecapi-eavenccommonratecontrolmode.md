@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVEncCommonRateControlMode","codecapi/eAVEncCom
 old-location: dshow\eavenccommonratecontrolmode.htm
 tech.root: dshow
 ms.assetid: 6a8e538f-3d1e-4098-a001-a623c1212450
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVEncCommonRateControlMode, codecapi/eAVEncCommonRateControlMode_CBR, codecapi/eAVEncCommonRateControlMode_GlobalLowDelayVBR, codecapi/eAVEncCommonRateControlMode_GlobalVBR, codecapi/eAVEncCommonRateControlMode_LowDelayVBR, codecapi/eAVEncCommonRateControlMode_PeakConstrainedVBR, codecapi/eAVEncCommonRateControlMode_Quality, codecapi/eAVEncCommonRateControlMode_UnconstrainedVBR, dshow.eavenccommonratecontrolmode, eAVEncCommonRateControlMode, eAVEncCommonRateControlMode enumeration [DirectShow], eAVEncCommonRateControlModeEnumeration, eAVEncCommonRateControlMode_CBR, eAVEncCommonRateControlMode_GlobalLowDelayVBR, eAVEncCommonRateControlMode_GlobalVBR, eAVEncCommonRateControlMode_LowDelayVBR, eAVEncCommonRateControlMode_PeakConstrainedVBR, eAVEncCommonRateControlMode_Quality, eAVEncCommonRateControlMode_UnconstrainedVBR
 req.header: codecapi.h
 req.include-header: 
@@ -50,39 +50,41 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Specifies the rate control mode for an encoder. This enumeration is used with the <a href="/windows/desktop/DirectShow/avenccommonratecontrolmode-property">AVEncCommonRateControlMode</a> codec property.
 
 ## -enum-fields
 
-### -field eAVEncCommonRateControlMode_CBR
+### -field eAVEncCommonRateControlMode_CBR:0
 
 Constant bit rate (CBR) encoding.
 
-### -field eAVEncCommonRateControlMode_PeakConstrainedVBR
+### -field eAVEncCommonRateControlMode_PeakConstrainedVBR:1
 
 Constrained variable bit rate (VBR) encoding.
 
-### -field eAVEncCommonRateControlMode_UnconstrainedVBR
+### -field eAVEncCommonRateControlMode_UnconstrainedVBR:2
 
 Unconstrained VBR encoding.
 
-### -field eAVEncCommonRateControlMode_Quality
+### -field eAVEncCommonRateControlMode_Quality:3
 
 Quality-based VBR encoding. The encoder selects the bit rate to match a specified quality level. To specify the quality level, set the <a href="/windows/desktop/DirectShow/avenccommonquality-property">AVEncCommonQuality</a> property.
 
-### -field eAVEncCommonRateControlMode_LowDelayVBR
+### -field eAVEncCommonRateControlMode_LowDelayVBR:4
 
 Low delay VBR encoding. H.264 extension.
 
 Requires Windows 8.
 
-### -field eAVEncCommonRateControlMode_GlobalVBR
+### -field eAVEncCommonRateControlMode_GlobalVBR:5
 
 Global VBR encoding. H.264 extension.
 
 Requires Windows 8.
 
-### -field eAVEncCommonRateControlMode_GlobalLowDelayVBR
+### -field eAVEncCommonRateControlMode_GlobalLowDelayVBR:6
 
 Global low delay VBR encoding. H.264 extension.
 

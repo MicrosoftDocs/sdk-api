@@ -106,7 +106,7 @@ Failed to add the desktop item, or an instance of the desktop item already exist
 </dl>
 </td>
 <td width="60%">
-Desktop item has been added succesfully.
+Desktop item has been added successfully.
 
 </td>
 </tr>

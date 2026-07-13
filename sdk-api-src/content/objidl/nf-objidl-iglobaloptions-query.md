@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IGlobalOptions.Query
 title: IGlobalOptions::Query (objidl.h)
-description: Queries the specified global property of the COM runtime.
+description: The IGlobalOptions::Query method (objidl.h) queries the specified global property of the COM runtime.
 helpviewer_keywords: ["IGlobalOptions interface [COM]","Query method","IGlobalOptions.Query","IGlobalOptions::Query","Query","Query method [COM]","Query method [COM]","IGlobalOptions interface","_com_iglobaloptions_query","com.iglobaloptions_query","objidlbase/IGlobalOptions::Query"]
 old-location: com\iglobaloptions_query.htm
 tech.root: com
 ms.assetid: ee16e59d-c629-45c1-afe6-fb4e37eba5d1
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IGlobalOptions interface [COM],Query method, IGlobalOptions.Query, IGlobalOptions::Query, Query, Query method [COM], Query method [COM],IGlobalOptions interface, _com_iglobaloptions_query, com.iglobaloptions_query, objidlbase/IGlobalOptions::Query
 req.header: objidl.h
 req.include-header: ObjIdl.h

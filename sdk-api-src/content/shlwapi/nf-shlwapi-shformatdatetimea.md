@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHFormatDateTimeA
 title: SHFormatDateTimeA function (shlwapi.h)
-description: SHFormatDateTime may be altered or unavailable.
-helpviewer_keywords: ["FDTF_DEFAULT","FDTF_LONGDATE","FDTF_LONGTIME","FDTF_LTRDATE","FDTF_NOAUTOREADINGORDER","FDTF_RELATIVE","FDTF_RTLDATE","FDTF_SHORTDATE","FDTF_SHORTTIME","SHFormatDateTime","SHFormatDateTime function [Windows Shell]","SHFormatDateTimeA","SHFormatDateTimeW","_win32_SHFormatDateTime","shell.SHFormatDateTime","shlwapi/SHFormatDateTime","shlwapi/SHFormatDateTimeA","shlwapi/SHFormatDateTimeW"]
+description: SHFormatDateTime may be altered or unavailable. (ANSI)
+helpviewer_keywords: ["FDTF_DEFAULT", "FDTF_LONGDATE", "FDTF_LONGTIME", "FDTF_LTRDATE", "FDTF_NOAUTOREADINGORDER", "FDTF_RELATIVE", "FDTF_RTLDATE", "FDTF_SHORTDATE", "FDTF_SHORTTIME", "SHFormatDateTimeA", "shlwapi/SHFormatDateTimeA"]
 old-location: shell\SHFormatDateTime.htm
 tech.root: shell
 ms.assetid: 2208ed29-6029-4051-bdcc-885c42fe5c1b
@@ -179,4 +179,4 @@ Returns the number of TCHARs written to the buffer, including the terminating nu
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines SHFormatDateTime as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHFormatDateTime as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

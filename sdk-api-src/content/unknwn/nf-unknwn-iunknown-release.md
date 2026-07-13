@@ -49,7 +49,7 @@ api_name:
 
 Decrements the reference count for an interface on a COM object.
 
-## -parameters
+
 
 ## -returns
 

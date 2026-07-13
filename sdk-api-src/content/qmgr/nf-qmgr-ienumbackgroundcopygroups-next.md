@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.Next
 title: IEnumBackgroundCopyGroups::Next (qmgr.h)
-description: Use the Next method to retrieve the specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
+description: Use the Next method to retrieve the specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements. (IEnumBackgroundCopyGroups.Next)
 helpviewer_keywords: ["IEnumBackgroundCopyGroups interface [BITS]","Next method","IEnumBackgroundCopyGroups.Next","IEnumBackgroundCopyGroups::Next","Next","Next method [BITS]","Next method [BITS]","IEnumBackgroundCopyGroups interface","bits.ienumbackgroundcopygroups_next","qmgr/IEnumBackgroundCopyGroups::Next"]
 old-location: bits\ienumbackgroundcopygroups_next.htm
 tech.root: Bits
@@ -80,7 +80,7 @@ This method returns the following <b>HRESULT</b> values, as well as others.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

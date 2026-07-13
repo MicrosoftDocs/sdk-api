@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.SetBreakOnSeverity
 title: ID3D11InfoQueue::SetBreakOnSeverity (d3d11sdklayers.h)
-description: Set a message severity level to break on when a message with that severity level passes through the storage filter.
+description: Set a message severity level to break on when a message with that severity level passes through the storage filter. (ID3D11InfoQueue.SetBreakOnSeverity)
 helpviewer_keywords: ["1dc10d17-30bc-4151-6e43-5c1c7fbd518c","ID3D11InfoQueue interface [Direct3D 11]","SetBreakOnSeverity method","ID3D11InfoQueue.SetBreakOnSeverity","ID3D11InfoQueue::SetBreakOnSeverity","SetBreakOnSeverity","SetBreakOnSeverity method [Direct3D 11]","SetBreakOnSeverity method [Direct3D 11]","ID3D11InfoQueue interface","d3d11sdklayers/ID3D11InfoQueue::SetBreakOnSeverity","direct3d11.id3d11infoqueue_setbreakonseverity"]
 old-location: direct3d11\id3d11infoqueue_setbreakonseverity.htm
 tech.root: direct3d11

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.wsprintfW
 title: wsprintfW function (winuser.h)
-description: Writes formatted data to the specified buffer.
-helpviewer_keywords: ["_win32_wsprintf","_win32_wsprintf_cpp","menurc.wsprintf","winui._win32_wsprintf","winuser/wsprintf","winuser/wsprintfA","winuser/wsprintfW","wsprintf","wsprintf function [Menus and Other Resources]","wsprintfA","wsprintfW"]
+description: Writes formatted data to the specified buffer. (Unicode)
+helpviewer_keywords: ["_win32_wsprintf", "_win32_wsprintf_cpp", "menurc.wsprintf", "winui._win32_wsprintf", "winuser/wsprintf", "winuser/wsprintfW", "wsprintf", "wsprintf function [Menus and Other Resources]", "wsprintfW"]
 old-location: menurc\wsprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wsprintf.htm
@@ -145,14 +145,20 @@ Output the corresponding argument as a character, a string, or a number. This fi
 
 
 <dl>
-<dt><a id="c"></a><a id="C"></a><code>c</code></dt>
+<dt><a id="c"></a><code>c</code></dt>
 <dd>
-Single character. This value is interpreted as type <b>WCHAR</b> if the calling application defines Unicode and as type <b>__wchar_t</b> otherwise.
+Single character. This value is interpreted as type <b>CHAR</b> by
+<b>wsprintfA</b> and type <b>WCHAR</b> by <b>wsprintfW</b>. Note
+<b>wsprintf</b> is a macro defined as <b>wsprintfA</b> (Unicode not defined) or
+<b>wsprintfW</b> (Unicode defined).
 
 </dd>
-<dt><a id="C"></a><a id="c"></a><code>C</code></dt>
+<dt><a id="C"></a></a><code>C</code></dt>
 <dd>
-Single character. This value is interpreted as type <b>__wchar_t</b> if the calling application defines Unicode and as type <b>WCHAR</b> otherwise.
+Single character. This value is interpreted as type <b>WCHAR</b> by
+<b>wsprintfA</b> and type <b>CHAR</b> by <b>wsprintfW</b>. Note
+<b>wsprintf</b> is a macro defined as <b>wsprintfA</b> (Unicode not defined) or
+<b>wsprintfW</b> (Unicode defined).
 
 </dd>
 <dt><a id="d"></a><a id="D"></a><code>d</code></dt>
@@ -162,7 +168,9 @@ Signed decimal integer. This value is equivalent to <code>i</code>.
 </dd>
 <dt><a id="hc__hC"></a><a id="hc__hc"></a><a id="HC__HC"></a><code>hc</code>, <code>hC</code></dt>
 <dd>
-Single character. The <b>wsprintf</b> function ignores character arguments with a numeric value of zero. This value is always interpreted as type <b>__wchar_t</b>, even when the calling application defines Unicode.
+Single character. If the character has a numeric value of zero it is ignored.
+This value is always interpreted as type <b>CHAR</b>, even when the calling
+application defines Unicode.
 
 </dd>
 <dt><a id="hd"></a><a id="HD"></a><code>hd</code></dt>
@@ -192,7 +200,9 @@ Signed decimal integer. This value is equivalent to <code>d</code>.
 </dd>
 <dt><a id="lc__lC"></a><a id="lc__lc"></a><a id="LC__LC"></a><code>lc</code>, <code>lC</code></dt>
 <dd>
-Single character. The <b>wsprintf</b> function ignores character arguments with a numeric value of zero. This value is always interpreted as type <b>WCHAR</b>, even when the calling application does not define Unicode.
+Single character. If the character has a numeric value of zero it is ignored.
+This value is always interpreted as type <b>WCHAR</b>, even when the calling
+application defines Unicode.
 
 </dd>
 <dt><a id="ld"></a><a id="LD"></a><code>ld</code></dt>
@@ -227,15 +237,21 @@ Pointer. The address is printed using hexadecimal.
 </dd>
 <dt><a id="s"></a><a id="S"></a><code>s</code></dt>
 <dd>
-String. This value is interpreted as type <b>LPWSTR</b> when the calling application defines Unicode and as type <b>LPSTR</b> otherwise.
+String. This value is interpreted as type <b>LPSTR</b> by <b>wsprintfA</b> and
+type <b>LPWSTR</b> by <b>wsprintfW</b>. Note <b>wsprintf</b> is a macro defined
+as <b>wsprintfA</b> (Unicode not defined) or <b>wsprintfW</b> (Unicode
+defined).
 
 </dd>
 <dt><a id="S"></a><a id="s"></a><code>S</code></dt>
 <dd>
-String. This value is interpreted as type <b>LPSTR</b> when the calling application defines Unicode and as type <b>LPWSTR</b> otherwise.
+String. This value is interpreted as type <b>LPWSTR</b> by <b>wsprintfA</b> and
+type <b>LPSTR</b> by <b>wsprintfW</b>. Note <b>wsprintf</b> is a macro defined
+as <b>wsprintfA</b> (Unicode not defined) or <b>wsprintfW</b> (Unicode
+defined).
 
 </dd>
-<dt><a id="u"></a><a id="U"></a><code></code>u</dt>
+<dt><a id="u"></a><a id="U"></a><code>u</code></dt>
 <dd>
 Unsigned integer argument.
 
@@ -260,7 +276,7 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 > [!NOTE]
-> The winuser.h header defines wsprintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines wsprintf as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

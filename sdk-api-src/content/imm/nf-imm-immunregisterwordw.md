@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmUnregisterWordW
 title: ImmUnregisterWordW function (imm.h)
-description: Removes a register string from the dictionary of the IME associated with the specified input locale.
-helpviewer_keywords: ["Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST","IME_REGWORD_STYLE_EUDC","ImmUnregisterWord","ImmUnregisterWord function [Internationalization for Windows Applications]","ImmUnregisterWordA","ImmUnregisterWordW","_win32_ImmUnregisterWord","imm/ImmUnregisterWord","imm/ImmUnregisterWordA","imm/ImmUnregisterWordW","intl.immunregisterword"]
+description: The ImmUnregisterWordW (Unicode) function (imm.h) removes a register string from the dictionary of the IME associated with the specified input locale.
+helpviewer_keywords: ["Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST", "IME_REGWORD_STYLE_EUDC", "ImmUnregisterWord", "ImmUnregisterWord function [Internationalization for Windows Applications]", "ImmUnregisterWordW", "_win32_ImmUnregisterWord", "imm/ImmUnregisterWord", "imm/ImmUnregisterWordW", "intl.immunregisterword"]
 old-location: intl\immunregisterword.htm
 tech.root: Intl
 ms.assetid: 1724d516-bc9d-418f-9fe1-5c82eccc73c5
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmUnregisterWord, ImmUnregisterWord function [Internationalization for Windows Applications], ImmUnregisterWordA, ImmUnregisterWordW, _win32_ImmUnregisterWord, imm/ImmUnregisterWord, imm/ImmUnregisterWordA, imm/ImmUnregisterWordW, intl.immunregisterword
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -114,4 +114,4 @@ Returns a nonzero value if successful, or 0 otherwise.
 ## -remarks
 
 > [!NOTE]
-> The imm.h header defines ImmUnregisterWord as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The imm.h header defines ImmUnregisterWord as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.__unnamed_struct_4
+UID: NS:dsclient.DSCLASSCREATIONINFO
 title: DSCLASSCREATIONINFO (dsclient.h)
 description: Used with the IDsDisplaySpecifier::GetClassCreationInfo method to hold data about the class creation wizard objects for an object class.
 helpviewer_keywords: ["*LPDSCLASSCREATIONINFO","DSCCIF_HASWIZARDDIALOG","DSCCIF_HASWIZARDPRIMARYPAGE","DSCLASSCREATIONINFO","DSCLASSCREATIONINFO structure [Active Directory]","LPDSCLASSCREATIONINFO","LPDSCLASSCREATIONINFO structure pointer [Active Directory]","_glines_dsclasscreationinfo","ad.dsclasscreationinfo","dsclient/DSCLASSCREATIONINFO","dsclient/LPDSCLASSCREATIONINFO"]
@@ -95,3 +95,4 @@ Contains an array of the class identifiers of the  property page extensions. <b>
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">IDsDisplaySpecifier::GetClassCreationInfo</a>
+

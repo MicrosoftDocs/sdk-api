@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_PORT_PROP
 title: VDS_PORT_PROP (vdshwprv.h)
-description: Defines the properties of a port on a controller object.
+description: The VDS_PORT_PROP structure (vdshwprv.h) defines the properties of a port on a controller object.
 helpviewer_keywords: ["*PVDS_PORT_PROP","VDS_PORT_PROP","VDS_PORT_PROP structure [VDS]","base.vds_port_prop","vds/_VDS_PORT_PROP","vdshwprv/_VDS_PORT_PROP"]
 old-location: base\vds_port_prop.htm
 tech.root: base
 ms.assetid: 40f81f31-3776-4685-8b79-c047c669b2bb
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: '*PVDS_PORT_PROP, VDS_PORT_PROP, VDS_PORT_PROP structure [VDS], base.vds_port_prop, vds/_VDS_PORT_PROP, vdshwprv/_VDS_PORT_PROP'
 req.header: vdshwprv.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties 
    of a port on a controller object.

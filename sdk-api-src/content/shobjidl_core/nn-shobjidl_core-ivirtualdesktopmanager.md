@@ -50,14 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.
+Exposes methods that enable an application to interact with groups of windows that form virtual workspaces. This interface is implemented by <a href="/windows/desktop/shell/virtualdesktopmanager">VirtualDesktopManager</a>, a COM class identified by CLSID_VirtualDesktopManager. Use CoCreateInstance(CLSID_VirtualDesktopManager) to get an instance of this object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualDesktopManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualDesktopManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVirtualDesktopManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualDesktopManager</b> also has these types of members:
 
 ## -remarks
 

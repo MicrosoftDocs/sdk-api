@@ -7,7 +7,7 @@ description: Fetches the filtered event transcript Diagnostic Data record stats.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -17,7 +17,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: DiagnosticDataQuery.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -52,7 +52,7 @@ Handle to the Diagnostic Data Query session.
 
 ### -param searchCriteria
 
-Type: **[DIAGNOSTIC_DATA_SEARCH_CRITERIA\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_search_criteria)**
+Type: **[DIAGNOSTIC_DATA_SEARCH_CRITERIA\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_search_criteria)**
 Pointer to the resource that contains the search criteria for this operation. This resource contains criteria such as producers, categories, and tags.
 
 ### -param recordCount

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.WinHelpA
 title: WinHelpA function (winuser.h)
-description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.
-helpviewer_keywords: ["WinHelp","WinHelp function [Windows Shell]","WinHelpA","WinHelpW","_win32_WinHelp","shell.WinHelp","winuser/WinHelp","winuser/WinHelpA","winuser/WinHelpW"]
+description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application. (ANSI)
+helpviewer_keywords: ["WinHelpA", "winuser/WinHelpA"]
 old-location: shell\WinHelp.htm
 tech.root: shell
 ms.assetid: fce80bac-2a44-46e7-a87a-ef93f4599807
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
@@ -210,7 +212,7 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 
 
 > [!NOTE]
-> The winuser.h header defines WinHelp as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines WinHelp as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

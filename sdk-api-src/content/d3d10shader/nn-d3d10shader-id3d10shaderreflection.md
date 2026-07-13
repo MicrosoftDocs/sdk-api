@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflection
 title: ID3D10ShaderReflection (d3d10shader.h)
-description: A shader-reflection interface accesses shader information.
+description: A shader-reflection interface accesses shader information. (ID3D10ShaderReflection)
 helpviewer_keywords: ["ID3D10ShaderReflection","ID3D10ShaderReflection interface [Direct3D 10]","ID3D10ShaderReflection interface [Direct3D 10]","described","d3d10shader/ID3D10ShaderReflection","direct3d10.id3d10shaderreflection","fd699fe1-b903-c976-14c4-3b0023611424"]
 old-location: direct3d10\id3d10shaderreflection.htm
 tech.root: direct3d10
@@ -55,10 +55,7 @@ A shader-reflection interface accesses shader information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10ShaderReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflection</b> also has these types of members:
 
 ## -remarks
 

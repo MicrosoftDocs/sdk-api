@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateRectangleClip
 title: IDCompositionDevice2::CreateRectangleClip (dcomp.h)
-description: Creates a clip object that can be used to restrict the rendering of a visual subtree to a rectangular area.
+description: Creates a clip object that can be used to restrict the rendering of a visual subtree to a rectangular area. (IDCompositionDevice2.CreateRectangleClip)
 helpviewer_keywords: ["CreateRectangleClip","CreateRectangleClip method [DirectComposition]","CreateRectangleClip method [DirectComposition]","IDCompositionDevice2 interface","IDCompositionDevice2 interface [DirectComposition]","CreateRectangleClip method","IDCompositionDevice2.CreateRectangleClip","IDCompositionDevice2::CreateRectangleClip","dcomp/IDCompositionDevice2::CreateRectangleClip","directcomp.idcompositiondevice2_createrectangleclip"]
 old-location: directcomp\idcompositiondevice2_createrectangleclip.htm
 tech.root: directcomp
@@ -68,12 +68,10 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 ## -remarks
 
-A newly created clip object has a static value of <a href="https://msdn.microsoft.com/library/6bs3y5ya(VS.71).aspx">FLT_MAX</a> for the left and top properties, and a static value of –FLT_MAX for the right and bottom properties, effectively making it a no-op clip object.
+A newly created clip object has a value of -2^21 for the left and top properties, and a value of 2^21 for the right and bottom properties, effectively making it a no-op clip object.
 
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
-
-
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_)">IDCompositionVisual::SetClip</a>

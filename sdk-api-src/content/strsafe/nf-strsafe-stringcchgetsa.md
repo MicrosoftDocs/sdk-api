@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchGetsA
 title: StringCchGetsA function (strsafe.h)
-description: Gets one line of text from stdin, up to and including the newline character ('\n').
-helpviewer_keywords: ["StringCchGets","StringCchGets function [Menus and Other Resources]","StringCchGetsA","StringCchGetsW","_shell_StringCchGets","_shell_stringcchgets_cpp","menurc.stringcchgets","strsafe/StringCchGets","strsafe/StringCchGetsA","strsafe/StringCchGetsW","winui._shell_stringcchgets"]
+description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCchGetsA)
+helpviewer_keywords: ["StringCchGetsA", "strsafe/StringCchGetsA"]
 old-location: menurc\stringcchgets.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgets.htm
@@ -134,7 +134,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGets</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCchGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGets</b> always null-terminates a nonzero-length destination buffer.
 
 The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsexa">StringCchGetsEx</a> if you require the handling of null string pointer values.
 
@@ -169,7 +169,7 @@ The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="/windows/des
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCchGets as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCchGets as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

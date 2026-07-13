@@ -58,7 +58,7 @@ The <b>TOKEN_ELEVATION_TYPE</b> enumeration indicates the elevation type of toke
 
 ## -enum-fields
 
-### -field TokenElevationTypeDefault
+### -field TokenElevationTypeDefault:1
 
 The token does not have a linked token.
 

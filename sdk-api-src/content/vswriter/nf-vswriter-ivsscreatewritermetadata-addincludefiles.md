@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddIncludeFiles
 title: IVssCreateWriterMetadata::AddIncludeFiles (vswriter.h)
-description: Not supported.
+description: Not supported. (IVssCreateWriterMetadata.AddIncludeFiles)
 helpviewer_keywords: ["AddIncludeFiles","AddIncludeFiles method [VSS]","AddIncludeFiles method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddIncludeFiles method","IVssCreateWriterMetadata.AddIncludeFiles","IVssCreateWriterMetadata::AddIncludeFiles","_win32_ivsscreatewritermetadata_addincludefiles","base.ivsscreatewritermetadata_addincludefiles","vswriter/IVssCreateWriterMetadata::AddIncludeFiles"]
 old-location: base\ivsscreatewritermetadata_addincludefiles.htm
 tech.root: base

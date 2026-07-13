@@ -4,7 +4,8 @@ title: Wsdevlicensing.h header
 ms.assetid: 9d35a75a-05d2-332f-aca6-77f462433962
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: devlic
 f1_keywords:
  - wsdevlicensing

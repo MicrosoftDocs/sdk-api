@@ -6,7 +6,7 @@ helpviewer_keywords: ["HTTP_SET_VERSION","HTTP_SET_VERSION macro [HTTP]","_http_
 old-location: http\http_set_version.htm
 tech.root: http
 ms.assetid: e621ef1c-aa12-400e-ba57-754b8320c419
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: HTTP_SET_VERSION, HTTP_SET_VERSION macro [HTTP], _http_http_set_version, http.http_set_version, http/HTTP_SET_VERSION
 req.header: http.h
 req.include-header: 
@@ -47,19 +47,26 @@ api_name:
 
 # HTTP_SET_VERSION macro
 
+## -syntax
+
+```cpp
+void HTTP_SET_VERSION(
+    HTTP_VERSION version,
+    USHORT major,
+    USHORT minor
+);
+```
+
 
 ## -description
 
-The 
-<b>HTTP_SET_VERSION</b> macro sets a specified 
-<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to a specified major/minor version combination.
+The <b>HTTP_SET_VERSION</b> macro sets a specified <a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to a specified major/minor version combination.
 
 ## -parameters
 
 ### -param version
 
-The 
-<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be set.
+The <a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be set.
 
 ### -param major
 

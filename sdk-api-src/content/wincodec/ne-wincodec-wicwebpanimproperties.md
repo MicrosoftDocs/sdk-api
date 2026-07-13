@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Specifies the animation properties of a WebP image.
 
 ## -enum-fields
 
-### -field WICWebpAnimLoopCount
+### -field WICWebpAnimLoopCount:0x1
 
 The number of times the animation loops. A value of 0 indicates that the animation will loop infinitely.
 
-### -field WICWebpAnimProperties_FORCE_DWORD
+### -field WICWebpAnimProperties_FORCE_DWORD:0x7fffffff
 

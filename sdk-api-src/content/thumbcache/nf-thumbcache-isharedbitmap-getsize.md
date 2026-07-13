@@ -56,7 +56,7 @@ Retrieves the size of the bitmap contained in an <a href="/windows/desktop/api/t
 
 ### -param pSize [out]
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>*</b>
 
 When this method returns, contains a pointer to a value that specifies the size, in pixels, of the contained bitmap.
 
@@ -64,4 +64,4 @@ When this method returns, contains a pointer to a value that specifies the size,
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

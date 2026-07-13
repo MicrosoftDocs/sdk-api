@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GlobalFindAtomW
 title: GlobalFindAtomW function (winbase.h)
-description: Searches the global atom table for the specified character string and retrieves the global atom associated with that string.
-helpviewer_keywords: ["GlobalFindAtom","GlobalFindAtom function [Data Exchange]","GlobalFindAtomA","GlobalFindAtomW","_win32_GlobalFindAtom","_win32_globalfindatom_cpp","dataxchg.globalfindatom","winbase/GlobalFindAtom","winbase/GlobalFindAtomA","winbase/GlobalFindAtomW","winui._win32_globalfindatom"]
+description: Searches the global atom table for the specified character string and retrieves the global atom associated with that string. (Unicode)
+helpviewer_keywords: ["GlobalFindAtom", "GlobalFindAtom function [Data Exchange]", "GlobalFindAtomW", "_win32_GlobalFindAtom", "_win32_globalfindatom_cpp", "dataxchg.globalfindatom", "winbase/GlobalFindAtom", "winbase/GlobalFindAtomW", "winui._win32_globalfindatom"]
 old-location: dataxchg\globalfindatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globalfindatom.htm
@@ -87,7 +87,7 @@ If
 
 
 > [!NOTE]
-> The winbase.h header defines GlobalFindAtom as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GlobalFindAtom as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

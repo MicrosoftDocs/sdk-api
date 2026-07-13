@@ -54,39 +54,39 @@ Specifies how to access a resource used in a render-target <a href="/windows/des
 
 ## -enum-fields
 
-### -field D3D10_RTV_DIMENSION_UNKNOWN
+### -field D3D10_RTV_DIMENSION_UNKNOWN:0
 
 The resource will be accessed according to its type as determined from the actual instance this enumeration is paired with when the render-target view is created.
 
-### -field D3D10_RTV_DIMENSION_BUFFER
+### -field D3D10_RTV_DIMENSION_BUFFER:1
 
 The resource will be accessed as a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a>.
 
-### -field D3D10_RTV_DIMENSION_TEXTURE1D
+### -field D3D10_RTV_DIMENSION_TEXTURE1D:2
 
 The resource will be accessed as a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">1D texture</a>.
 
-### -field D3D10_RTV_DIMENSION_TEXTURE1DARRAY
+### -field D3D10_RTV_DIMENSION_TEXTURE1DARRAY:3
 
 The resource will be accessed as an array of 1D textures.
 
-### -field D3D10_RTV_DIMENSION_TEXTURE2D
+### -field D3D10_RTV_DIMENSION_TEXTURE2D:4
 
 The resource will be accessed as a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">2D texture</a>.
 
-### -field D3D10_RTV_DIMENSION_TEXTURE2DARRAY
+### -field D3D10_RTV_DIMENSION_TEXTURE2DARRAY:5
 
 The resource will be accessed as an array of 2D textures.
 
-### -field D3D10_RTV_DIMENSION_TEXTURE2DMS
+### -field D3D10_RTV_DIMENSION_TEXTURE2DMS:6
 
 The resource will be accessed as a 2D texture with multisampling.
 
-### -field D3D10_RTV_DIMENSION_TEXTURE2DMSARRAY
+### -field D3D10_RTV_DIMENSION_TEXTURE2DMSARRAY:7
 
 The resource will be accessed as an array of 2D textures with multisampling.
 
-### -field D3D10_RTV_DIMENSION_TEXTURE3D
+### -field D3D10_RTV_DIMENSION_TEXTURE3D:8
 
 The resource will be accessed as a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">3D texture</a>.
 

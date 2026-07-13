@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1_1.D2D1_BITMAP_BRUSH_PROPERTIES1
 title: D2D1_BITMAP_BRUSH_PROPERTIES1 (d2d1_1.h)
-description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush.
+description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush. (D2D1_BITMAP_BRUSH_PROPERTIES1)
 helpviewer_keywords: ["D2D1_BITMAP_BRUSH_PROPERTIES1","D2D1_BITMAP_BRUSH_PROPERTIES1 structure [Direct2D]","d2d1_1/D2D1_BITMAP_BRUSH_PROPERTIES1","direct2d.d2d1_bitmap_brush_properties1"]
 old-location: direct2d\d2d1_bitmap_brush_properties1.htm
 tech.root: Direct2D

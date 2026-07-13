@@ -98,7 +98,7 @@ Type: <b>UINT</b>
 
 ### -field punk
 
-Type: <b>IUknown*</b>
+Type: <b>IUnknown*</b>
 
 A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the <a href="/windows/desktop/shell/profiles-directory">MenuBand</a> object.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_RootStoreFlags
 title: IEnroll::get_RootStoreFlags (xenroll.h)
-description: Sets or retrieves the registry location used for the root store.
+description: Sets or retrieves the registry location used for the root store. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","RootStoreFlags property","IEnroll.RootStoreFlags","IEnroll.get_RootStoreFlags","IEnroll::RootStoreFlags","IEnroll::get_RootStoreFlags","IEnroll::put_RootStoreFlags","RootStoreFlags property [Security]","RootStoreFlags property [Security]","IEnroll interface","get_RootStoreFlags","security.ienroll4_rootstoreflags","xenroll/IEnroll::RootStoreFlags","xenroll/IEnroll::get_RootStoreFlags","xenroll/IEnroll::put_RootStoreFlags"]
 old-location: security\ienroll4_rootstoreflags.htm
 tech.root: security

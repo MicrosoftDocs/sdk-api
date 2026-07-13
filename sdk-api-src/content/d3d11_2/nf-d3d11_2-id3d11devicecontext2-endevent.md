@@ -52,7 +52,7 @@ api_name:
 
 Allows applications to annotate the end of a range of graphics commands.
 
-## -parameters
+
 
 ## -remarks
 

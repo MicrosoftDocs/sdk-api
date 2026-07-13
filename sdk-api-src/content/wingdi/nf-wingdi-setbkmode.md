@@ -6,7 +6,7 @@ helpviewer_keywords: ["OPAQUE","SetBkMode","SetBkMode function [Windows GDI]","T
 old-location: gdi\setbkmode.htm
 tech.root: gdi
 ms.assetid: 60e4467a-14ab-421e-b174-4b9c0134ce72
-ms.date: 12/05/2018
+ms.date: 04/29/2025
 ms.keywords: OPAQUE, SetBkMode, SetBkMode function [Windows GDI], TRANSPARENT, _win32_SetBkMode, gdi.setbkmode, wingdi/SetBkMode
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -49,9 +49,6 @@ api_name:
  - SetBkMode
 ---
 
-# SetBkMode function
-
-
 ## -description
 
 The <b>SetBkMode</b> function sets the background mix mode of the specified device context. The background mix mode is used with text, hatched brushes, and pen styles that are not solid lines.
@@ -66,32 +63,10 @@ A handle to the device context.
 
 The background mode. This parameter can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="OPAQUE"></a><a id="opaque"></a><dl>
-<dt><b>OPAQUE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Background is filled with the current background color before the text, hatched brush, or pen is drawn.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSPARENT"></a><a id="transparent"></a><dl>
-<dt><b>TRANSPARENT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Background remains untouched.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|-|-|
+|`OPAQUE`|Background is filled with the current background color before the text, hatched brush, or pen is drawn.|
+|`TRANSPARENT`|Background is unaffected.|
 
 ## -returns
 
@@ -103,14 +78,12 @@ If the function fails, the return value is zero.
 
 The <b>SetBkMode</b> function affects the line styles for lines drawn using a pen created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a> function. <b>SetBkMode</b> does not affect lines drawn using a pen created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> function.
 
-
-#### Examples
+## Examples
 
 To see how to make the background of a  hatch brush transparent or opaque, refer to the example shown in the <a href="/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>   topic.
 
 The next example draws a string 36 times, rotating it 10 degrees 
 counterclockwise each time. It also sets the background mode to transparent to make the text visible.
-
 
 ```cpp
 #include "strsafe.h"
@@ -136,7 +109,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 // Allocate memory for a LOGFONT structure. 
  
 PLOGFONT plf = (PLOGFONT) LocalAlloc(LPTR, sizeof(LOGFONT)); 
- 
  
 // Specify a font typeface name and weight. 
  
@@ -198,9 +170,7 @@ LocalFree((LOCALHANDLE) plf);
     }
     return 0;
 }
-
 ```
-
 
 <div class="code"></div>
 

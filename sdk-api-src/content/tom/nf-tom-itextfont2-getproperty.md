@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetProperty
 title: ITextFont2::GetProperty (tom.h)
-description: Gets the value of the specified property.
+description: Gets the value of the specified property. (ITextFont2.GetProperty)
 helpviewer_keywords: ["GetProperty","GetProperty method [Windows Controls]","GetProperty method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetProperty method","ITextFont2.GetProperty","ITextFont2::GetProperty","controls.itextfont2_getproperty","tom/ITextFont2::GetProperty"]
 old-location: controls\itextfont2_getproperty.htm
 tech.root: Controls

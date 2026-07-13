@@ -54,10 +54,7 @@ Represents a remote WSD service for client applications and middleware.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDServiceProxy</b> interface inherits from <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>. <b>IWSDServiceProxy</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWSDServiceProxy</b> interface inherits from <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>. <b>IWSDServiceProxy</b> also has these types of members:
 
 ## -remarks
 

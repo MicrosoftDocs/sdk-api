@@ -59,7 +59,7 @@ api_name:
 
 The <b>KeysOnly</b> method indicates whether only the key properties are required.
 
-## -parameters
+
 
 ## -returns
 

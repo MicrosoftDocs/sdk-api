@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Compatibility
 title: ITaskSettings::get_Compatibility (taskschd.h)
-description: Gets or sets an integer value that indicates which version of Task Scheduler a task is compatible with.
+description: Gets or sets an integer value that indicates which version of Task Scheduler a task is compatible with. (Get)
 helpviewer_keywords: ["Compatibility property [Task Scheduler]","Compatibility property [Task Scheduler]","ITaskSettings interface","ITaskSettings interface [Task Scheduler]","Compatibility property","ITaskSettings.Compatibility","ITaskSettings.get_Compatibility","ITaskSettings::Compatibility","ITaskSettings::get_Compatibility","ITaskSettings::put_Compatibility","TASK_COMPATIBILITY_AT","TASK_COMPATIBILITY_V1","TASK_COMPATIBILITY_V2","get_Compatibility","taskschd.itasksettings_compatibility","taskschd/ITaskSettings::Compatibility","taskschd/ITaskSettings::get_Compatibility","taskschd/ITaskSettings::put_Compatibility"]
 old-location: taskschd\itasksettings_compatibility.htm
 tech.root: taskschd

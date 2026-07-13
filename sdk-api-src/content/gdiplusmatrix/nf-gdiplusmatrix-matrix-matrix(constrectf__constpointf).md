@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Matrix(constRectF&,constPointF)
 title: Matrix::Matrix(IN const RectF &,IN const PointF) (gdiplusmatrix.h)
-description: Creates a Matrix::Matrix object based on a rectangle and a point.
+description: Creates a Matrix::Matrix object based on a rectangle and a point. (overload 1/2)
 helpviewer_keywords: ["Matrix","Matrix class [GDI+]","Matrix constructor","Matrix constructor [GDI+]","Matrix constructor [GDI+]","Matrix class","Matrix.Matrix","Matrix.Matrix(IN const RectF &","IN const PointF)","Matrix.Matrix(const RectF&","const PointF*)","Matrix::Matrix","Matrix::Matrix(IN const RectF &","IN const PointF)","_gdiplus_CLASS_Matrix_Matrix_RectF_rect_PointF_dstplg_","gdiplus._gdiplus_CLASS_Matrix_Matrix_RectF_rect_PointF_dstplg_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_RectF_rect_PointF_dstplg_.htm
 tech.root: gdiplus

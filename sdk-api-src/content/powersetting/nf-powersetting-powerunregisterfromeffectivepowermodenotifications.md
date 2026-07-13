@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-power-setting-l1-1-1.dll
  - Powrprof.dll
 api_name:
  - PowerUnregisterFromEffectivePowerModeNotifications
@@ -56,7 +57,7 @@ Unregisters from effective power mode change notifications. This function is int
 
 ### -param RegistrationHandle
 
-The handle corresponding to a single power mode registration. This handle should have been saved by the caller after the call to <a href="https://msdn.microsoft.com/en-us/library/Mt830299(v=VS.85).aspx">PowerRegisterForEffectivePowerModeNotifications</a> and passed in here.
+The handle corresponding to a single power mode registration. This handle should have been saved by the caller after the call to <a href="../powersetting/nf-powersetting-powerregisterforeffectivepowermodenotifications.md">PowerRegisterForEffectivePowerModeNotifications</a> and passed in here.
 
 ## -returns
 
@@ -68,5 +69,5 @@ Immediately after registration, the callback will be invoked with the current va
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt830299(v=VS.85).aspx">PowerRegisterForEffectivePowerModeNotifications</a>
+<a href="../powersetting/nf-powersetting-powerregisterforeffectivepowermodenotifications.md">PowerRegisterForEffectivePowerModeNotifications</a>
 

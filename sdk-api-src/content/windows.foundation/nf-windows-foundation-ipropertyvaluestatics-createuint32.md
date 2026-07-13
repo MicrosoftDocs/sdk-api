@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt32
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateUInt32 (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified unsigned 32-bit integer value.
 helpviewer_keywords: ["CreateUInt32","CreateUInt32 method [Windows Runtime]","CreateUInt32 method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateUInt32 method","IPropertyValueStatics.CreateUInt32","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateUInt32","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateUInt32","winrt.ipropertyvaluefactory_createuint32","winrt.ipropertyvaluestatics_createuint32"]
 old-location: winrt\ipropertyvaluestatics_createuint32.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateUInt32
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateUInt32 (windows.foundation.h)
 
 
 ## -description

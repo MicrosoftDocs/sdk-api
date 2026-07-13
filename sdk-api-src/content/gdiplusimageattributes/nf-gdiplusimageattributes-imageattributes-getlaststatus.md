@@ -53,7 +53,7 @@ api_name:
 
 The <b>ImageAttributes::GetLastStatus</b> method returns a value that indicates the nature of this <a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object's most recent method failure.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectInformationA
 title: GetNtmsObjectInformationA function (ntmsapi.h)
-description: The GetNtmsObjectInformation function returns an object's information structure for the specified object.
-helpviewer_keywords: ["GetNtmsObjectInformation","GetNtmsObjectInformation function [Files]","GetNtmsObjectInformationA","GetNtmsObjectInformationW","_zaw_getntmsobjectinformation","base.getntmsobjectinformation","fs.getntmsobjectinformation","ntmsapi/GetNtmsObjectInformation","ntmsapi/GetNtmsObjectInformationA","ntmsapi/GetNtmsObjectInformationW"]
+description: The GetNtmsObjectInformation function returns an object's information structure for the specified object. (GetNtmsObjectInformationA)
+helpviewer_keywords: ["GetNtmsObjectInformationA", "ntmsapi/GetNtmsObjectInformationA"]
 old-location: fs\getntmsobjectinformation.htm
 tech.root: fs
 ms.assetid: e5c1b165-2c55-40c3-94d8-c996c5db4250
@@ -241,7 +241,7 @@ The following is the list of objects that require special access rights.
 
 
 > [!NOTE]
-> The ntmsapi.h header defines GetNtmsObjectInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines GetNtmsObjectInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

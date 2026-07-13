@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhGetRawCounterArrayA
 title: PdhGetRawCounterArrayA function (pdh.h)
-description: Returns an array of raw values from the specified counter. Use this function when you want to retrieve the raw counter values of a counter that contains a wildcard character for the instance name.
-helpviewer_keywords: ["PdhGetRawCounterArray","PdhGetRawCounterArray function [Perf]","PdhGetRawCounterArrayA","PdhGetRawCounterArrayW","_win32_pdhgetrawcounterarray","base.pdhgetrawcounterarray","pdh/PdhGetRawCounterArray","pdh/PdhGetRawCounterArrayA","pdh/PdhGetRawCounterArrayW","perf.pdhgetrawcounterarray"]
+description: Returns an array of raw values from the specified counter. Use this function when you want to retrieve the raw counter values of a counter that contains a wildcard character for the instance name. (ANSI)
+helpviewer_keywords: ["PdhGetRawCounterArrayA", "pdh/PdhGetRawCounterArrayA"]
 old-location: perf\pdhgetrawcounterarray.htm
 tech.root: perf
 ms.assetid: 03b30d08-6901-45cd-bd6d-d2672eb0f914
@@ -136,7 +136,7 @@ The data for the counter is locked for the duration of the call to
 
 
 > [!NOTE]
-> The pdh.h header defines PdhGetRawCounterArray as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhGetRawCounterArray as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

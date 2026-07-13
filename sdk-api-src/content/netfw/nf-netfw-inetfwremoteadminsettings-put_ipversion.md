@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.put_IpVersion
 title: INetFwRemoteAdminSettings::put_IpVersion (netfw.h)
-description: Specifies the IP version.
+description: Specifies the IP version. (INetFwRemoteAdminSettings.put_IpVersion)
 helpviewer_keywords: ["INetFwRemoteAdminSettings interface [ICS/ICF]","IpVersion property","INetFwRemoteAdminSettings.IpVersion","INetFwRemoteAdminSettings.put_IpVersion","INetFwRemoteAdminSettings::IpVersion","INetFwRemoteAdminSettings::get_IpVersion","INetFwRemoteAdminSettings::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwRemoteAdminSettings interface","ics.inetfwremoteadminsettings_ipversion","netfw/INetFwRemoteAdminSettings::IpVersion","netfw/INetFwRemoteAdminSettings::get_IpVersion","netfw/INetFwRemoteAdminSettings::put_IpVersion","put_IpVersion"]
 old-location: ics\inetfwremoteadminsettings_ipversion.htm
 tech.root: ics

@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_List_SizeA
 title: CM_Get_Device_Interface_List_SizeA function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_List_Size function retrieves the buffer size that must be passed to the CM_Get_Device_Interface_List function.
-helpviewer_keywords: ["CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES","CM_GET_DEVICE_INTERFACE_LIST_PRESENT","CM_Get_Device_Interface_List_Size","CM_Get_Device_Interface_List_Size function [Device and Driver Installation]","CM_Get_Device_Interface_List_SizeA","CM_Get_Device_Interface_List_SizeW","cfgmgr32/CM_Get_Device_Interface_List_Size","cfgmgr32/CM_Get_Device_Interface_List_SizeA","cfgmgr32/CM_Get_Device_Interface_List_SizeW","cfgmgrfn_91624b8d-408b-4b08-b23c-aecc2c4581d0.xml","devinst.cm_get_device_interface_list_size"]
+description: The CM_Get_Device_Interface_List_Size function retrieves the buffer size that must be passed to the CM_Get_Device_Interface_List function. (ANSI)
+helpviewer_keywords: ["CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES", "CM_GET_DEVICE_INTERFACE_LIST_PRESENT", "CM_Get_Device_Interface_List_SizeA", "cfgmgr32/CM_Get_Device_Interface_List_SizeA", "cfgmgrfn_91624b8d-408b-4b08-b23c-aecc2c4581d0.xml"]
 old-location: devinst\cm_get_device_interface_list_size.htm
 tech.root: devinst
 ms.assetid: f3e1ceb7-9812-4339-889f-dade2efb3998
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-devices-config-l1-1-2.dll
  - CfgMgr32.dll
  - API-MS-Win-Devices-Config-L1-1-0.dll
  - API-MS-Win-Devices-Config-L1-1-1.dll
@@ -70,7 +71,7 @@ Caller-supplied pointer to a location that receives the required length, in char
 ### -param InterfaceClassGuid [in]
 
 Supplies a GUID that identifies a 
-           <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
+           <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ### -param pDeviceID [in, optional]
 
@@ -127,4 +128,4 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 ## -remarks
 
 > [!NOTE]
-> The cfgmgr32.h header defines CM_Get_Device_Interface_List_Size as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cfgmgr32.h header defines CM_Get_Device_Interface_List_Size as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

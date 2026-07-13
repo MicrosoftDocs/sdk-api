@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_POOL_CUSTOM_ATTRIBUTES
 title: VDS_POOL_CUSTOM_ATTRIBUTES (vdshwprv.h)
-description: Defines a custom attribute of a storage pool.
+description: The VDS_POOL_CUSTOM_ATTRIBUTES structure (vdshwprv.h) defines a custom attribute of a storage pool.
 helpviewer_keywords: ["*PVDS_POOL_CUSTOM_ATTRIBUTES","PVDS_POOL_CUSTOM_ATTRIBUTES","PVDS_POOL_CUSTOM_ATTRIBUTES structure pointer","VDS_POOL_CUSTOM_ATTRIBUTES","VDS_POOL_CUSTOM_ATTRIBUTES structure","base.vds_pool_custom_attributes","vds/PVDS_POOL_CUSTOM_ATTRIBUTES","vds/VDS_POOL_CUSTOM_ATTRIBUTES","vdshwprv/PVDS_POOL_CUSTOM_ATTRIBUTES","vdshwprv/VDS_POOL_CUSTOM_ATTRIBUTES"]
 old-location: base\vds_pool_custom_attributes.htm
 tech.root: base
 ms.assetid: beea122a-476c-43e0-bb70-2555d4211bf7
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: '*PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES structure pointer, VDS_POOL_CUSTOM_ATTRIBUTES, VDS_POOL_CUSTOM_ATTRIBUTES structure, base.vds_pool_custom_attributes, vds/PVDS_POOL_CUSTOM_ATTRIBUTES, vds/VDS_POOL_CUSTOM_ATTRIBUTES, vdshwprv/PVDS_POOL_CUSTOM_ATTRIBUTES, vdshwprv/VDS_POOL_CUSTOM_ATTRIBUTES'
 req.header: vdshwprv.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines a custom attribute of a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>. This structure is used in the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">pPoolCustomAttributes</a> member of the <b>VDS_POOL_ATTRIBUTES</b> structure.
 

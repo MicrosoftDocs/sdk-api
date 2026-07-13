@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetCheckState","TreeView_SetCheckState macro [Wi
 old-location: controls\TreeView_SetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setcheckstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetCheckState, TreeView_SetCheckState macro [Windows Controls], _win32_TreeView_SetCheckState, _win32_TreeView_SetCheckState_cpp, commctrl/TreeView_SetCheckState, controls.TreeView_SetCheckState, controls._win32_TreeView_SetCheckState
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TreeView_SetCheckState macro
+
+## -syntax
+
+```cpp
+UINT TreeView_SetCheckState(
+   HWND      hwndTV,
+   HTREEITEM hti,
+   BOOL      fCheck
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+The return value is not used.
 
 
 ## -description

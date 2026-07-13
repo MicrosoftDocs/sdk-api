@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ILogonTrigger.get_UserId
 title: ILogonTrigger::get_UserId (taskschd.h)
-description: Gets or sets the identifier of the user.
+description: Gets or sets the identifier of the user. (Get)
 helpviewer_keywords: ["ILogonTrigger interface [Task Scheduler]","UserId property","ILogonTrigger.UserId","ILogonTrigger.get_UserId","ILogonTrigger::UserId","ILogonTrigger::get_UserId","ILogonTrigger::put_UserId","UserId property [Task Scheduler]","UserId property [Task Scheduler]","ILogonTrigger interface","get_UserId","taskschd.ilogontrigger_userid","taskschd/ILogonTrigger::UserId","taskschd/ILogonTrigger::get_UserId","taskschd/ILogonTrigger::put_UserId"]
 old-location: taskschd\ilogontrigger_userid.htm
 tech.root: taskschd

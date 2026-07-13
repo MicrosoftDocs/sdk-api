@@ -1,8 +1,8 @@
 ---
 UID: NF:dsgetdc.DsAddressToSiteNamesA
 title: DsAddressToSiteNamesA function (dsgetdc.h)
-description: Obtains the site names corresponding to the specified addresses.
-helpviewer_keywords: ["DsAddressToSiteNames","DsAddressToSiteNames function [Active Directory]","DsAddressToSiteNamesA","DsAddressToSiteNamesW","_glines_dsaddresstositenames","ad.dsaddresstositenames","dsgetdc/DsAddressToSiteNames","dsgetdc/DsAddressToSiteNamesA","dsgetdc/DsAddressToSiteNamesW"]
+description: Obtains the site names corresponding to the specified addresses. (ANSI)
+helpviewer_keywords: ["DsAddressToSiteNamesA", "dsgetdc/DsAddressToSiteNamesA"]
 old-location: ad\dsaddresstositenames.htm
 tech.root: ad
 ms.assetid: 4d70dbee-be33-4d2a-a200-3696443fa853
@@ -96,4 +96,4 @@ Returns <b>NO_ERROR</b> if successful or a Win32 or RPC error otherwise. The fol
 ## -remarks
 
 > [!NOTE]
-> The dsgetdc.h header defines DsAddressToSiteNames as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsgetdc.h header defines DsAddressToSiteNames as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

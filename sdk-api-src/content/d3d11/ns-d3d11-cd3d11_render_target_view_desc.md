@@ -58,7 +58,7 @@ Represents a render-target view and provides convenience methods for creating re
 
 Here is how D3D11.h defines <b>CD3D11_RENDER_TARGET_VIEW_DESC</b>:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>

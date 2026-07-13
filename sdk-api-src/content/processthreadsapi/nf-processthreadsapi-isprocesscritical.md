@@ -4,7 +4,7 @@ title: IsProcessCritical function (processthreadsapi.h)
 description: Determines whether the specified process is considered critical.
 helpviewer_keywords: ["IsProcessCritical","IsProcessCritical function","base.isprocesscritical","processthreadsapi/IsProcessCritical"]
 old-location: base\isprocesscritical.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
 ms.date: 09/24/2020
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - kernel32.dll
  - API-MS-Win-Core-Processthreads-l1-1-2.dll
  - Kernel32.dll

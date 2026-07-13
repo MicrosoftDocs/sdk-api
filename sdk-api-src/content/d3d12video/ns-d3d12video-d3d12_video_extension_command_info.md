@@ -3,7 +3,7 @@ UID: NS:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_INFO
 title: D3D12_VIDEO_EXTENSION_COMMAND_INFO
 ms.date: 11/4/2019
 targetos: Windows
-description: Describes a video extension command.
+description: Describes a video extension command. (D3D12_VIDEO_EXTENSION_COMMAND_INFO)
 tech.root: mf
 req.construct-type: structure
 req.ddi-compliance: 
@@ -55,7 +55,7 @@ A member of the [D3D12_COMMAND_LIST_SUPPORT_FLAGS](../d3d12/ne-d3d12-d3d12_comma
 
 ## -remarks
 
-An array of this structure is provided in a [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS](ns-d3d12video-d3d12_feature_data_video_extension_commands.md) structure returned from a call to[ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12_FEATURE_VIDEO_EXTENSION_COMMANDS](ne-d3d12video-d3d12_feature_video.md).
+An array of this structure is provided in a [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS](ns-d3d12video-d3d12_feature_data_video_extension_commands.md) structure returned from a call to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12_FEATURE_VIDEO_EXTENSION_COMMANDS](ne-d3d12video-d3d12_feature_video.md).
 
 ## -see-also
 

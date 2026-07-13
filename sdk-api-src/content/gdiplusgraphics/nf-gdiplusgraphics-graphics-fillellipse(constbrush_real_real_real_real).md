@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillEllipse(constBrush,REAL,REAL,REAL,REAL)
 title: Graphics::FillEllipse(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::FillEllipse method uses a brush to fill the interior of an ellipse that is specified by coordinates and dimensions.
+description: The Graphics::FillEllipse method uses a brush to fill the interior of an ellipse that is specified by coordinates and dimensions. (overload 2/2)
 helpviewer_keywords: ["FillEllipse","FillEllipse method [GDI+]","FillEllipse method [GDI+]","Graphics class","Graphics class [GDI+]","FillEllipse method","Graphics.FillEllipse","Graphics.FillEllipse(IN const Brush","IN REAL","IN REAL","IN REAL","IN REAL)","Graphics.FillEllipse(const Brush*","REAL","REAL","REAL","REAL)","Graphics::FillEllipse","Graphics::FillEllipse(IN const Brush","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_","gdiplus._gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_.htm
 tech.root: gdiplus

@@ -76,7 +76,7 @@ A smooth-stop transition slows down as it approaches the specified final value, 
 
 The following figure shows the change in value over time of an animation variable during a smooth-stop transition.
 
-<img alt="Diagram showing a smoth stop transition" src="Images/SmoothStopTransition.png"/>
+<img alt="Diagram showing a smooth stop transition" src="Images/SmoothStopTransition.png"/>
 
 ## -see-also
 

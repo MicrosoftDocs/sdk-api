@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.cldap_openW
 title: cldap_openW function (winldap.h)
-description: Establishes a session with an LDAP server over a connectionless User Datagram Protocol (UDP) service.
-helpviewer_keywords: ["_ldap_cldap_open","cldap_open","cldap_open function [LDAP]","cldap_openA","cldap_openW","ldap.cldap__open","ldap.cldap_open","winldap/cldap_open","winldap/cldap_openA","winldap/cldap_openW"]
+description: The cldap_openW (Unicode) function (winldap.h) establishes a session with an LDAP server over a connectionless User Datagram Protocol (UDP) service. 
+helpviewer_keywords: ["_ldap_cldap_open", "cldap_open", "cldap_open function [LDAP]", "cldap_openW", "ldap.cldap__open", "ldap.cldap_open", "winldap/cldap_open", "winldap/cldap_openW"]
 old-location: ldap\cldap_open.htm
 tech.root: ldap
 ms.assetid: 9dc62bb8-8569-4682-bfc7-7721af287318
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_cldap_open, cldap_open, cldap_open function [LDAP], cldap_openA, cldap_openW, ldap.cldap__open, ldap.cldap_open, winldap/cldap_open, winldap/cldap_openA, winldap/cldap_openW
 req.header: winldap.h
 req.include-header: 
@@ -88,7 +88,7 @@ Multithreading: Calls to <b>cldap_open</b> are thread-safe.
 
 
 > [!NOTE]
-> The winldap.h header defines cldap_open as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines cldap_open as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_FILTER_RANGE_DATA
 title: DXVAHD_FILTER_RANGE_DATA (dxvahd.h)
-description: Defines the range of supported values for an image filter.
+description: Defines the range of supported values for an image filter. (DXVAHD_FILTER_RANGE_DATA)
 helpviewer_keywords: ["DXVAHD_FILTER_RANGE_DATA","DXVAHD_FILTER_RANGE_DATA structure [Media Foundation]","dxvahd/DXVAHD_FILTER_RANGE_DATA","mf.dxvahd_filter_range_data"]
 old-location: mf\dxvahd_filter_range_data.htm
 tech.root: mf

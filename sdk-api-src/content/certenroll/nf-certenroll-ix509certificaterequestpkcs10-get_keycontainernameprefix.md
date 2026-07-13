@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix
 title: IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix (certenroll.h)
-description: Specifies or retrieves a prefix used to create the container name for a new private key.
+description: Specifies or retrieves a prefix used to create the container name for a new private key. (Get)
 helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","KeyContainerNamePrefix property","IX509CertificateRequestPkcs10.KeyContainerNamePrefix","IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix","IX509CertificateRequestPkcs10::KeyContainerNamePrefix","IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix","IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix","KeyContainerNamePrefix property [Security]","KeyContainerNamePrefix property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::KeyContainerNamePrefix","certenroll/IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix","certenroll/IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix","get_KeyContainerNamePrefix","security.ix509certificaterequestpkcs10_keycontainernameprefix_property"]
 old-location: security\ix509certificaterequestpkcs10_keycontainernameprefix_property.htm
 tech.root: security

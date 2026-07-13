@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetFooterInfo","ListView_GetFooterInfo macro [Wi
 old-location: controls\ListView_GetFooterInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooterinfo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetFooterInfo, ListView_GetFooterInfo macro [Windows Controls], _shell_ListView_GetFooterInfo, _shell_ListView_GetFooterInfo_cpp, commctrl/ListView_GetFooterInfo, controls.ListView_GetFooterInfo, controls._shell_ListView_GetFooterInfo
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetFooterInfo macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetFooterInfo(
+  [in]      HWND           hwnd,
+  [in, out] LPLVFOOTERINFO plvfi
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b>.
 
 
 ## -description

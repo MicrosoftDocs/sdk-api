@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: kernel32.Lib
 req.dll: Normaliz.dll
 req.irql: 
 targetos: Windows

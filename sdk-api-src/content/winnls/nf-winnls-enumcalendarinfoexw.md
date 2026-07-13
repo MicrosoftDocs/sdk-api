@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumCalendarInfoExW
 title: EnumCalendarInfoExW function (winnls.h)
-description: Enumerates calendar information for a locale specified by identifier.Note  Any application that runs only on Windows Vista and later should use EnumCalendarInfoExEx in preference to this function.
-helpviewer_keywords: ["EnumCalendarInfoEx","EnumCalendarInfoEx function [Internationalization for Windows Applications]","EnumCalendarInfoExA","EnumCalendarInfoExW","_win32_EnumCalendarInfoEx","intl.enumcalendarinfoex","winnls/EnumCalendarInfoEx","winnls/EnumCalendarInfoExA","winnls/EnumCalendarInfoExW"]
+description: Enumerates calendar information for a locale specified by identifier.Note  Any application that runs only on Windows Vista and later should use EnumCalendarInfoExEx in preference to this function. (Unicode)
+helpviewer_keywords: ["EnumCalendarInfoEx", "EnumCalendarInfoEx function [Internationalization for Windows Applications]", "EnumCalendarInfoExW", "_win32_EnumCalendarInfoEx", "intl.enumcalendarinfoex", "winnls/EnumCalendarInfoEx", "winnls/EnumCalendarInfoExW"]
 old-location: intl\enumcalendarinfoex.htm
 tech.root: Intl
 ms.assetid: 5a313af5-e595-49b1-9651-a5afc158c7a7
@@ -124,7 +124,7 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 > [!NOTE]
-> The winnls.h header defines EnumCalendarInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines EnumCalendarInfoEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

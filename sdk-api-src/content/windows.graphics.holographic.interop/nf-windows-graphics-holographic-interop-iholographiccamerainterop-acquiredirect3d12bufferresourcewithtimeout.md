@@ -1,9 +1,9 @@
 ---
 UID: NF:windows.graphics.holographic.interop.IHolographicCameraInterop.AcquireDirect3D12BufferResourceWithTimeout
 title: IHolographicCameraInterop::AcquireDirect3D12BufferResourceWithTimeout
-description: Acquires a Direct3D 12 buffer resource, with an optional timeout.
+description: The IHolographicCameraInterop::AcquireDirect3D12BufferResourceWithTimeout function acquires a Direct3D 12 buffer resource, with an optional timeout.
 tech.root: direct3d12
-ms.date: 12/12/2019
+ms.date: 08/03/2022
 targetos: Windows
 req.assembly: 
 req.construct-type: function

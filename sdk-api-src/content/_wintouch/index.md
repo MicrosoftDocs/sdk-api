@@ -4,7 +4,8 @@ title: Touch Input
 ms.assetid: 7340eb41-5269-3872-ab0e-7e5a90776681
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Touch Input

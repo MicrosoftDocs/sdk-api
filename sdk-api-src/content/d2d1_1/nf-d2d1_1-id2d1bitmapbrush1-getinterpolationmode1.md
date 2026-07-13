@@ -52,7 +52,7 @@ api_name:
 
 Returns the current interpolation mode of the brush.
 
-## -parameters
+
 
 ## -returns
 

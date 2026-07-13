@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymEnumTypesW
 title: SymEnumTypesW function (dbghelp.h)
-description: Enumerates all user-defined types.
+description: The SymEnumTypesW (Unicode) function enumerates all user-defined types.
 helpviewer_keywords: ["SymEnumTypes","SymEnumTypes function","SymEnumTypesW","_win32_symenumtypes","base.symenumtypes","dbghelp/SymEnumTypes","dbghelp/SymEnumTypesW"]
 old-location: base\symenumtypes.htm
 tech.root: Debug
 ms.assetid: 06f964bc-107a-468d-a35d-141b5da1780e
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymEnumTypes, SymEnumTypes function, SymEnumTypesW, _win32_symenumtypes, base.symenumtypes, dbghelp/SymEnumTypes, dbghelp/SymEnumTypesW
 req.header: dbghelp.h
 req.include-header: 
@@ -92,7 +92,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymEnumTypes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymEnumTypes as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

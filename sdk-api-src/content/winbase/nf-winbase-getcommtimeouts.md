@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-comm-l1-1-2.dll
+ - api-ms-win-core-comm-l1-1-1.dll
  - Kernel32.dll
  - API-MS-Win-Core-comm-l1-1-0.dll
  - KernelBase.dll
@@ -78,7 +80,7 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 For more information about time-out values for communications devices, see the 
-<a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>function.
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a> function.
 
 ## -see-also
 

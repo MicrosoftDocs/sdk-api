@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_GenerateAudits
 title: IAzAuthorizationStore::put_GenerateAudits (azroles.h)
-description: Sets or retrieves a value that indicates whether run-time audits should be generated.
+description: Sets or retrieves a value that indicates whether run-time audits should be generated. (Put)
 helpviewer_keywords: ["AzAuthorizationStore object [Security]","GenerateAudits property","GenerateAudits property [Security]","GenerateAudits property [Security]","AzAuthorizationStore object","GenerateAudits property [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","GenerateAudits property","IAzAuthorizationStore.GenerateAudits","IAzAuthorizationStore.put_GenerateAudits","IAzAuthorizationStore::GenerateAudits","IAzAuthorizationStore::get_GenerateAudits","IAzAuthorizationStore::put_GenerateAudits","azroles/IAzAuthorizationStore::GenerateAudits","azroles/IAzAuthorizationStore::get_GenerateAudits","azroles/IAzAuthorizationStore::put_GenerateAudits","put_GenerateAudits","security.azauthorizationstore_generateaudits"]
 old-location: security\azauthorizationstore_generateaudits.htm
 tech.root: security

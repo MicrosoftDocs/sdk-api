@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_count_valuesW
 title: ldap_count_valuesW function (winldap.h)
-description: The ldap_count_values function counts the number of values in a list.
-helpviewer_keywords: ["_ldap_ldap_count_values","ldap.ldap__count__values","ldap.ldap_count_values","ldap_count_values","ldap_count_values function [LDAP]","ldap_count_valuesA","ldap_count_valuesW","winldap/ldap_count_values","winldap/ldap_count_valuesA","winldap/ldap_count_valuesW"]
+description: The ldap_count_valuesW (Unicode) function (winldap.h) counts the number of values in a list.
+helpviewer_keywords: ["_ldap_ldap_count_values", "ldap.ldap__count__values", "ldap.ldap_count_values", "ldap_count_values", "ldap_count_values function [LDAP]", "ldap_count_valuesW", "winldap/ldap_count_values", "winldap/ldap_count_valuesW"]
 old-location: ldap\ldap_count_values.htm
 tech.root: ldap
 ms.assetid: 3b00eeea-a966-4cf1-b945-2f052cae727a
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _ldap_ldap_count_values, ldap.ldap__count__values, ldap.ldap_count_values, ldap_count_values, ldap_count_values function [LDAP], ldap_count_valuesA, ldap_count_valuesW, winldap/ldap_count_values, winldap/ldap_count_valuesA, winldap/ldap_count_valuesW
 req.header: winldap.h
 req.include-header: 
@@ -78,7 +78,7 @@ The <b>ldap_count_values</b> function returns the number of values in an array o
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_count_values as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_count_values as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

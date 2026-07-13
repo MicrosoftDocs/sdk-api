@@ -4,7 +4,7 @@ title: GetProcessShutdownParameters function (processthreadsapi.h)
 description: Retrieves the shutdown parameters for the currently calling process.
 helpviewer_keywords: ["GetProcessShutdownParameters","GetProcessShutdownParameters function","SHUTDOWN_NORETRY","_win32_getprocessshutdownparameters","base.getprocessshutdownparameters","processthreadsapi/GetProcessShutdownParameters"]
 old-location: base\getprocessshutdownparameters.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 68b48e67-c7e0-4434-bef5-b2aaebb343ff
 ms.date: 12/05/2018
 ms.keywords: GetProcessShutdownParameters, GetProcessShutdownParameters function, SHUTDOWN_NORETRY, _win32_getprocessshutdownparameters, base.getprocessshutdownparameters, processthreadsapi/GetProcessShutdownParameters
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-Ms-Win-Core-ProcessThreads-L1-1-3.dll
  - KernelBase.dll

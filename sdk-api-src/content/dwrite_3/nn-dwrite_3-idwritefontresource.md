@@ -4,7 +4,7 @@ title: IDWriteFontResource
 description: Provides axis information for a font resource, and is used to create specific font face instances.
 helpviewer_keywords: ["IDWriteFontResource","IDWriteFontResource interface [Direct Write]","IDWriteFontResource interface [Direct Write]","described","directwrite.idwritefontresource","dwrite_3/IDWriteFontResource"]
 tech.root: DirectWrite
-ms.date: 09/13/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontResource, IDWriteFontResource interface [Direct Write], IDWriteFontResource interface [Direct Write],described, directwrite.idwritefontresource, dwrite_3/IDWriteFontResource
 targetos: Windows
 req.assembly: 
@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:

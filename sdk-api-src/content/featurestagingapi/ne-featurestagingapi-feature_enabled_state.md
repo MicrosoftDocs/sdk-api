@@ -1,7 +1,7 @@
 ---
 UID: NE:featurestagingapi.FEATURE_ENABLED_STATE
 title: FEATURE_ENABLED_STATE (featurestagingapi.h)
-description: This enumeration is intended for infrastructure use only.
+description: This enumeration is intended for infrastructure use only. (FEATURE_ENABLED_STATE)
 helpviewer_keywords: ["FEATURE_ENABLED_STATE","FEATURE_ENABLED_STATE enumeration [Windows API]","FEATURE_ENABLED_STATE_DEFAULT","FEATURE_ENABLED_STATE_DISABLED","FEATURE_ENABLED_STATE_ENABLED","FEATURE_ENABLED_STATE_HAS_NOTIFICATION","featurestagingapi/FEATURE_ENABLED_STATE","featurestagingapi/FEATURE_ENABLED_STATE_DEFAULT","featurestagingapi/FEATURE_ENABLED_STATE_DISABLED","featurestagingapi/FEATURE_ENABLED_STATE_ENABLED","featurestagingapi/FEATURE_ENABLED_STATE_HAS_NOTIFICATION","winprog.feature_enabled_state"]
 old-location: winprog\feature_enabled_state.htm
 tech.root: winprog
@@ -51,14 +51,14 @@ This enumeration is intended for infrastructure use only. Do not use this enumer
 
 ## -enum-fields
 
-### -field FEATURE_ENABLED_STATE_DEFAULT
+### -field FEATURE_ENABLED_STATE_DEFAULT:0
 
 TBD
 
-### -field FEATURE_ENABLED_STATE_DISABLED
+### -field FEATURE_ENABLED_STATE_DISABLED:1
 
 TBD
 
-### -field FEATURE_ENABLED_STATE_ENABLED
+### -field FEATURE_ENABLED_STATE_ENABLED:2
 
 TBD

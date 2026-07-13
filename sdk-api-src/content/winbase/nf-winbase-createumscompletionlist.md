@@ -54,6 +54,9 @@ req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 
 Creates a user-mode scheduling (UMS) completion list.
 
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
+
 ## -parameters
 
 ### -param UmsCompletionList [out]
@@ -84,6 +87,14 @@ If the function fails, the return value is zero. To get extended error informati
 Not enough memory is available to create the completion list.
 
 </td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
+</dl>
+</td>
+<td width="60%">UMS is not supported.</td>
 </tr>
 </table>
 

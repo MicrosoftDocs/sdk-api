@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetEntryDialParamsW
 title: RasSetEntryDialParamsW function (ras.h)
-description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
-helpviewer_keywords: ["RasSetEntryDialParams","RasSetEntryDialParams function [RAS]","RasSetEntryDialParamsA","RasSetEntryDialParamsW","_ras_rassetentrydialparams","dwCallbackId","dwSize","dwSubEntry","ras/RasSetEntryDialParams","ras/RasSetEntryDialParamsA","ras/RasSetEntryDialParamsW","rras.rassetentrydialparams","szCallbackNumber","szDomain","szEntryName","szPassword","szPhoneNumber","szUserName"]
+description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry. (Unicode)
+helpviewer_keywords: ["RasSetEntryDialParams", "RasSetEntryDialParams function [RAS]", "RasSetEntryDialParamsW", "_ras_rassetentrydialparams", "dwCallbackId", "dwSize", "dwSubEntry", "ras/RasSetEntryDialParams", "ras/RasSetEntryDialParamsW", "rras.rassetentrydialparams", "szCallbackNumber", "szDomain", "szEntryName", "szPassword", "szPhoneNumber", "szUserName"]
 old-location: rras\rassetentrydialparams.htm
 tech.root: RRAS
 ms.assetid: e1acd68e-796e-49a2-8c7d-c0fd1a9764ef
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ras-rasapi32-l1-1-2.dll
  - Rasapi32.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
@@ -86,7 +87,7 @@ Pointer to the
 </tr>
 <tr>
 <td width="40%"><a id="dwSize"></a><a id="dwsize"></a><a id="DWSIZE"></a><dl>
-<dt><b><b>dwSize</b></b></dt>
+<dt><b>dwSize</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +97,7 @@ Must specify the size of (<a href="/previous-versions/windows/desktop/legacy/aa3
 </tr>
 <tr>
 <td width="40%"><a id="szEntryName"></a><a id="szentryname"></a><a id="SZENTRYNAME"></a><dl>
-<dt><b><b>szEntryName</b></b></dt>
+<dt><b>szEntryName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +107,7 @@ A null-terminated string that identifies the phone-book entry to set parameters 
 </tr>
 <tr>
 <td width="40%"><a id="szPhoneNumber"></a><a id="szphonenumber"></a><a id="SZPHONENUMBER"></a><dl>
-<dt><b><b>szPhoneNumber</b></b></dt>
+<dt><b>szPhoneNumber</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +117,7 @@ Not used. Set to <b>NULL</b>.
 </tr>
 <tr>
 <td width="40%"><a id="szCallbackNumber"></a><a id="szcallbacknumber"></a><a id="SZCALLBACKNUMBER"></a><dl>
-<dt><b><b>szCallbackNumber</b></b></dt>
+<dt><b>szCallbackNumber</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +127,7 @@ A null-terminated string that contains the callback phone number. If <b>szCallba
 </tr>
 <tr>
 <td width="40%"><a id="szUserName"></a><a id="szusername"></a><a id="SZUSERNAME"></a><dl>
-<dt><b><b>szUserName</b></b></dt>
+<dt><b>szUserName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +137,7 @@ A null-terminated string that contains the logon name of the user associated wit
 </tr>
 <tr>
 <td width="40%"><a id="szPassword"></a><a id="szpassword"></a><a id="SZPASSWORD"></a><dl>
-<dt><b><b>szPassword</b></b></dt>
+<dt><b>szPassword</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -156,7 +157,7 @@ A null-terminated string that contains the password for the user specified by <b
 </tr>
 <tr>
 <td width="40%"><a id="szDomain"></a><a id="szdomain"></a><a id="SZDOMAIN"></a><dl>
-<dt><b><b>szDomain</b></b></dt>
+<dt><b>szDomain</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -166,7 +167,7 @@ A null-terminated string that contains the name of the domain on which to log on
 </tr>
 <tr>
 <td width="40%"><a id="dwSubEntry"></a><a id="dwsubentry"></a><a id="DWSUBENTRY"></a><dl>
-<dt><b><b>dwSubEntry</b></b></dt>
+<dt><b>dwSubEntry</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -176,7 +177,7 @@ Specifies the (one-based) index of the initial subentry to dial when establishin
 </tr>
 <tr>
 <td width="40%"><a id="dwCallbackId"></a><a id="dwcallbackid"></a><a id="DWCALLBACKID"></a><dl>
-<dt><b><b>dwCallbackId</b></b></dt>
+<dt><b>dwCallbackId</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -254,7 +255,7 @@ To create a new phone-book entry, use the
 
 
 > [!NOTE]
-> The ras.h header defines RasSetEntryDialParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasSetEntryDialParams as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

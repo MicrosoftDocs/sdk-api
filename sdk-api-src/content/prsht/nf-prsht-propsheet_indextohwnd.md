@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_IndexToHwnd","PropSheet_IndexToHwnd macro [Wind
 old-location: controls\PropSheet_IndexToHwnd.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextohwnd.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_IndexToHwnd, PropSheet_IndexToHwnd macro [Windows Controls], _win32_PropSheet_IndexToHwnd, _win32_PropSheet_IndexToHwnd_cpp, controls.PropSheet_IndexToHwnd, controls._win32_PropSheet_IndexToHwnd, prsht/PropSheet_IndexToHwnd
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_IndexToHwnd macro
+
+## -syntax
+
+```cpp
+HWND PropSheet_IndexToHwnd(
+   HWND hDlg,
+   int  i
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the property sheet page's window specified by <i>i</i> if successful. Otherwise, it returns zero.
 
 
 ## -description

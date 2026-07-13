@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -64,7 +67,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 1
 
 Retrieves the window handle to the active window attached to the calling thread's message queue.
 
-## -parameters
+
 
 ## -returns
 

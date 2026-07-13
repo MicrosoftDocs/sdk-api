@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserSamCompat
 title: IAzClientContext::get_UserSamCompat (azroles.h)
-description: Retrieves the name of the current client in a format compatible with Windows�Security�Account�Manager (SAM).
+description: Retrieves the name of the current client in a format compatible with Windows Security Account Manager (SAM).
 helpviewer_keywords: ["AzClientContext object [Security]","UserSamCompat property","IAzClientContext interface [Security]","UserSamCompat property","IAzClientContext.UserSamCompat","IAzClientContext.get_UserSamCompat","IAzClientContext::UserSamCompat","IAzClientContext::get_UserSamCompat","UserSamCompat property [Security]","UserSamCompat property [Security]","AzClientContext object","UserSamCompat property [Security]","IAzClientContext interface","azroles/IAzClientContext::UserSamCompat","azroles/IAzClientContext::get_UserSamCompat","get_UserSamCompat","security.iazclientcontext_usersamcompat"]
 old-location: security\iazclientcontext_usersamcompat.htm
 tech.root: security

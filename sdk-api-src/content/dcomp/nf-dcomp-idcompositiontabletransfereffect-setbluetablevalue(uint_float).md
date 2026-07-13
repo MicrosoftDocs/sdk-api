@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetBlueTableValue(UINT,float)
 title: IDCompositionTableTransferEffect::SetBlueTableValue (dcomp.h)
-description: Sets a value in the blue table.
+description: Sets a value in the blue table. (overload 2/2)
 helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetBlueTableValue method","IDCompositionTableTransferEffect.SetBlueTableValue","IDCompositionTableTransferEffect::SetBlueTableValue","IDCompositionTableTransferEffect::SetBlueTableValue(UINT","float)","SetBlueTableValue","SetBlueTableValue method [DirectComposition]","SetBlueTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetBlueTableValue","directcomp.idcompositiontabletransfereffect_setbluetablevalue"]
 old-location: directcomp\idcompositiontabletransfereffect_setbluetablevalue.htm
 tech.root: directcomp
@@ -70,7 +70,7 @@ The new value.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

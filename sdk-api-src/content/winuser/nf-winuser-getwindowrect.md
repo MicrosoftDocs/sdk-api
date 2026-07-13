@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -91,12 +94,12 @@ In conformance with conventions for the <a href="/windows/desktop/api/windef/ns-
 
 GetWindowRect is virtualized for DPI.
 
-In Windows Vista and later, the Window Rect now includes the area occupied by the drop shadow.
+In Windows Vista and later, the Window Rect now may include invisible resize borders.
 
-Calling GetWindowRect will have different behavior depending on whether the window has ever been shown or not.  If the window has not been shown before, GetWindowRect will not include the area of the drop shadow.
-
-To get the window bounds excluding the drop shadow, use <a href="/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>, specifying <b>DWMWA_EXTENDED_FRAME_BOUNDS</b>.  Note that unlike the Window Rect, the DWM Extended Frame Bounds are not adjusted for DPI.  Getting the extended frame bounds can only be done after the window has been shown at least once.
-
+To get the visible window bounds, not including the invisible resize borders,
+use <a href="/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>,
+specifying <b>DWMWA_EXTENDED_FRAME_BOUNDS</b>. Note that unlike the Window Rect,
+the DWM Extended Frame Bounds are not adjusted for DPI.
 
 #### Examples
 

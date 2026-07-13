@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_playlistC
 old-location: wmp\iwmpcore_get_playlistcollection.htm
 tech.root: WMP
 ms.assetid: 8f6ab34f-e055-4a18-b1b8-e3c7b8f9c76a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCore interface [Windows Media Player],get_playlistCollection method, IWMPCore.get_playlistCollection, IWMPCore::get_playlistCollection, IWMPCoreget_playlistCollection, get_playlistCollection, get_playlistCollection method [Windows Media Player], get_playlistCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playlistcollection, wmp/IWMPCore::get_playlistCollection
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_playlistCollection</b> method retrieves a pointer to an <b>IWMPPlaylistCollection</b> interface.
 

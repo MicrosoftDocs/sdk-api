@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingCreateA
 title: RpcBindingCreateA function (rpcdce.h)
-description: The RpcBindingCreate function creates a new fast RPC binding handle based on a supplied template.
-helpviewer_keywords: ["RpcBindingCreate","RpcBindingCreate function [RPC]","RpcBindingCreateA","RpcBindingCreateW","rpc.rpcbindingcreate","rpcdce/RpcBindingCreate","rpcdce/RpcBindingCreateA","rpcdce/RpcBindingCreateW"]
+description: The RpcBindingCreate function creates a new fast RPC binding handle based on a supplied template. (ANSI)
+helpviewer_keywords: ["RpcBindingCreateA", "rpcdce/RpcBindingCreateA"]
 old-location: rpc\rpcbindingcreate.htm
 tech.root: Rpc
 ms.assetid: 0188512e-bff6-414b-a6eb-19bfe8e0b3a9
@@ -127,7 +127,7 @@ However, before any calls can be made on the binding handle, <a href="/windows/d
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcBindingCreate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcBindingCreate as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

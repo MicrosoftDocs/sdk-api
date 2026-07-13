@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_RequestedWriteSpeed
 title: IDiscFormat2RawCD::get_RequestedWriteSpeed (imapi2.h)
-description: Retrieves the requested write speed.
+description: Retrieves the requested write speed. (IDiscFormat2RawCD.get_RequestedWriteSpeed)
 helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_RequestedWriteSpeed method","IDiscFormat2RawCD.get_RequestedWriteSpeed","IDiscFormat2RawCD::get_RequestedWriteSpeed","get_RequestedWriteSpeed","get_RequestedWriteSpeed method [IMAPI]","get_RequestedWriteSpeed method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_requestedwritespeed","imapi2/IDiscFormat2RawCD::get_RequestedWriteSpeed"]
 old-location: imapi\idiscformat2rawcd_get_requestedwritespeed.htm
 tech.root: imapi

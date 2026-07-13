@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdate4
 title: IWindowsDriverUpdate4 (wuapi.h)
-description: Contains the properties and methods that are available only from a Windows driver update.
+description: Contains the properties and methods that are available only from a Windows driver update. (IWindowsDriverUpdate4)
 helpviewer_keywords: ["IWindowsDriverUpdate4","IWindowsDriverUpdate4 interface [Windows Update Agent]","IWindowsDriverUpdate4 interface [Windows Update Agent]","described","wua.iwindowsdriverupdate4","wuapi/IWindowsDriverUpdate4"]
 old-location: wua\iwindowsdriverupdate4.htm
 tech.root: wua

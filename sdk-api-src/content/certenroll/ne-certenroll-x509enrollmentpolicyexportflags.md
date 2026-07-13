@@ -54,15 +54,15 @@ The <b>X509EnrollmentPolicyExportFlags</b> enumeration is used by the <a href="/
 
 ## -enum-fields
 
-### -field ExportTemplates
+### -field ExportTemplates:0x1
 
 Export templates.
 
-### -field ExportOIDs
+### -field ExportOIDs:0x2
 
 Export custom object identifiers.
 
-### -field ExportCAs
+### -field ExportCAs:0x4
 
 Not used.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetPhysicalType","GetPhysicalType method [DirectShow]","G
 old-location: dshow\iamphysicalpininfo_getphysicaltype.htm
 tech.root: dshow
 ms.assetid: e18be591-64c7-4da0-aa28-c51dca7901b7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetPhysicalType, GetPhysicalType method [DirectShow], GetPhysicalType method [DirectShow],IAMPhysicalPinInfo interface, IAMPhysicalPinInfo interface [DirectShow],GetPhysicalType method, IAMPhysicalPinInfo.GetPhysicalType, IAMPhysicalPinInfo::GetPhysicalType, IAMPhysicalPinInfoGetPhysicalType, dshow.iamphysicalpininfo_getphysicaltype, strmif/IAMPhysicalPinInfo::GetPhysicalType
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  The <code>IAMPhysicalPinInfo</code> interface is deprecated.</div>
 <div> </div>

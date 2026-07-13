@@ -6,7 +6,7 @@ helpviewer_keywords: ["VMR9_SampleFieldInterleavedEvenFirst","VMR9_SampleFieldIn
 old-location: dshow\vmr9_sampleformat.htm
 tech.root: dshow
 ms.assetid: 0e501c05-91ac-4594-bdfe-e8b4bfeb5bcb
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VMR9_SampleFieldInterleavedEvenFirst, VMR9_SampleFieldInterleavedOddFirst, VMR9_SampleFieldSingleEven, VMR9_SampleFieldSingleOdd, VMR9_SampleFormat, VMR9_SampleFormat , VMR9_SampleFormat enumeration [DirectShow], VMR9_SampleProgressiveFrame, VMR9_SampleReserved, dshow.vmr9_sampleformat, vmr9/VMR9_SampleFieldInterleavedEvenFirst, vmr9/VMR9_SampleFieldInterleavedOddFirst, vmr9/VMR9_SampleFieldSingleEven, vmr9/VMR9_SampleFieldSingleOdd, vmr9/VMR9_SampleFormat, vmr9/VMR9_SampleProgressiveFrame, vmr9/VMR9_SampleReserved
 req.header: vmr9.h
 req.include-header: 
@@ -52,31 +52,33 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>VMR9_SampleFormat</b> enumeration type describes the interlacing of a video stream.
 
 ## -enum-fields
 
-### -field VMR9_SampleReserved
+### -field VMR9_SampleReserved:1
 
 Reserved; do not use.
 
-### -field VMR9_SampleProgressiveFrame
+### -field VMR9_SampleProgressiveFrame:2
 
 Progressive frame; no interleaving
 
-### -field VMR9_SampleFieldInterleavedEvenFirst
+### -field VMR9_SampleFieldInterleavedEvenFirst:3
 
 Each sample contains two interleaved fields, with the even field first.
 
-### -field VMR9_SampleFieldInterleavedOddFirst
+### -field VMR9_SampleFieldInterleavedOddFirst:4
 
 Each sample contains two interleaved fields, with the odd field first.
 
-### -field VMR9_SampleFieldSingleEven
+### -field VMR9_SampleFieldSingleEven:5
 
 The sample contains a single field, and each line in the sample corresponds to the even lines in a deinterlaced frame. That is, lines 0, 1, 2,... in the sample correspond to lines 0, 2, 4,... in the deinterlaced frame. The missing lines must be constructed when the frame is deinterlaced.
 
-### -field VMR9_SampleFieldSingleOdd
+### -field VMR9_SampleFieldSingleOdd:6
 
 The sample contains a single field, and each line in the sample corresponds to the odd lines in a de-interlaced frame.
 

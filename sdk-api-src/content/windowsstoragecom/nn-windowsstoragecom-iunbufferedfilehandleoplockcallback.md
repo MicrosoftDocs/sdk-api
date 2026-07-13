@@ -54,10 +54,7 @@ Defines a callback method that you want to run when the opportunistic lock for a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUnbufferedFileHandleOplockCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUnbufferedFileHandleOplockCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IUnbufferedFileHandleOplockCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUnbufferedFileHandleOplockCallback</b> also has these types of members:
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetInfo","GetInfo method [DirectShow]","GetInfo method [D
 old-location: dshow\iamvideocompression_getinfo.htm
 tech.root: dshow
 ms.assetid: d8ba2ba2-510a-4fb8-844e-48059ec4ef0d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMVideoCompression interface, IAMVideoCompression interface [DirectShow],GetInfo method, IAMVideoCompression.GetInfo, IAMVideoCompression::GetInfo, IAMVideoCompressionGetInfo, dshow.iamvideocompression_getinfo, strmif/IAMVideoCompression::GetInfo
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetInfo</code> method retrieves information about the filter's compression properties, including capabilities and default values.
 
@@ -97,7 +99,7 @@ Any of the listed parameters can be <b>NULL</b>, in which case the method ignore
 
 The application must allocate the buffers for the version and description strings. To determine the required size of the buffers, call this method with <b>NULL</b> for the <i>pszVersion</i> and <i>pszDescription</i> parameters. Use the values returned in <i>pcbVersion</i> and <i>pcbDescription</i> to allocate the buffers and then call the method again, as shown in the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -107,7 +109,7 @@ The application must allocate the buffers for the version and description string
 ```
 // Get the size of the version and description strings, in bytes.
 int cbVersion, cbDesc; 
-hr = pCompress-&gt;GetInfo(NULL, &amp;cbVersion, NULL, &amp;cbDesc, 
+hr = pCompress->GetInfo(NULL, &cbVersion, NULL, &cbDesc, 
     NULL, NULL, NULL, NULL);
 if (SUCCEEDED(hr))
 {
@@ -116,7 +118,7 @@ if (SUCCEEDED(hr))
     WCHAR *pszDesc = new WCHAR[cbDesc / sizeof(WCHAR)];
 
     // Now query for the strings.
-    hr = pCompress-&gt;GetInfo(pszVersion, &amp;cbVersion, pszDesc, &amp;cbDesc, 
+    hr = pCompress->GetInfo(pszVersion, &cbVersion, pszDesc, &cbDesc, 
         NULL, NULL, NULL, NULL);
     }
     delete [] pszVersion;

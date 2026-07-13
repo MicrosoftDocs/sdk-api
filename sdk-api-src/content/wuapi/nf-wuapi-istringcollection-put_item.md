@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IStringCollection.put_Item
 title: IStringCollection::put_Item (wuapi.h)
-description: Gets or sets a string in the collection.
+description: Gets or sets a string in the collection. (Put)
 helpviewer_keywords: ["IStringCollection interface [Windows Update Agent]","Item property","IStringCollection.Item","IStringCollection.put_Item","IStringCollection::Item","IStringCollection::get_Item","IStringCollection::put_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IStringCollection interface","put_Item","wua.istringcollection_item","wuapi/IStringCollection::Item","wuapi/IStringCollection::get_Item","wuapi/IStringCollection::put_Item"]
 old-location: wua\istringcollection_item.htm
 tech.root: wua

@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IComMethodEvents
 title: IComMethodEvents (comsvcs.h)
-description: Notifies the subscriber if an object's method has been called, returned, or generated an exception.
+description: Notifies the subscriber if an object's method has been called, returned, or generated an exception. (IComMethodEvents)
 helpviewer_keywords: ["IComMethodEvents","IComMethodEvents interface [COM+]","IComMethodEvents interface [COM+]","described","_dtc_IComMethodEvents","comsvcs/IComMethodEvents","cos.icommethodevents"]
 old-location: cos\icommethodevents.htm
 tech.root: cos
@@ -54,10 +54,7 @@ Notifies the subscriber if an object's method has been called, returned, or gene
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComMethodEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComMethodEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IComMethodEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComMethodEvents</b> also has these types of members:
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.GetNamedSecurityInfoA
 title: GetNamedSecurityInfoA function (aclapi.h)
-description: Retrieves a copy of the security descriptor for an object specified by name.
-helpviewer_keywords: ["GetNamedSecurityInfo","GetNamedSecurityInfo function [Security]","GetNamedSecurityInfoA","GetNamedSecurityInfoW","_win32_getnamedsecurityinfo","aclapi/GetNamedSecurityInfo","aclapi/GetNamedSecurityInfoA","aclapi/GetNamedSecurityInfoW","security.getnamedsecurityinfo"]
+description: Retrieves a copy of the security descriptor for an object specified by name. (ANSI)
+helpviewer_keywords: ["GetNamedSecurityInfoA", "aclapi/GetNamedSecurityInfoA"]
 old-location: security\getnamedsecurityinfo.htm
 tech.root: security
 ms.assetid: 11f2119b-5314-4fa1-8016-9c01f79d037d
@@ -142,7 +142,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="/windows/desk
 
 
 > [!NOTE]
-> The aclapi.h header defines GetNamedSecurityInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The aclapi.h header defines GetNamedSecurityInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

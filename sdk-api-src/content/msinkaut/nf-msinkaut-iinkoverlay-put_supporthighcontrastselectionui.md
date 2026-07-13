@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_SupportHighContrastSelectionUI
 title: IInkOverlay::put_SupportHighContrastSelectionUI (msinkaut.h)
-description: Gets or sets a value that specifies whether all selection user interface (UI) elements are drawn in high contrast when the system is in High Contrast mode.
+description: Gets or sets a value that specifies whether all selection user interface (UI) elements are drawn in high contrast when the system is in High Contrast mode. (Put)
 helpviewer_keywords: ["IInkOverlay","IInkOverlay interface [Tablet PC]","SupportHighContrastSelectionUI property","IInkOverlay.SupportHighContrastSelectionUI","IInkOverlay.put_SupportHighContrastSelectionUI","IInkOverlay::SupportHighContrastSelectionUI","IInkOverlay::get_SupportHighContrastSelectionUI","IInkOverlay::put_SupportHighContrastSelectionUI","InkOverlay.get_SupportHighContrastSelectionUI","InkOverlay.put_SupportHighContrastSelectionUI","SupportHighContrastSelectionUI property [Tablet PC]","SupportHighContrastSelectionUI property [Tablet PC]","IInkOverlay interface","a8837657-6eb0-44d3-8c39-11a5524fe9db","msinkaut/IInkOverlay::SupportHighContrastSelectionUI","msinkaut/IInkOverlay::get_SupportHighContrastSelectionUI","msinkaut/IInkOverlay::put_SupportHighContrastSelectionUI","put_SupportHighContrastSelectionUI","tablet.inkoverlay_supporthighcontrastselectionui"]
 old-location: tablet\inkoverlay_supporthighcontrastselectionui.htm
 tech.root: tablet
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -67,7 +67,7 @@ This property is read/write.
 
 This property changes the way selection UI is displayed when the system changes to High Contrast mode. Selection UI elements include the selection bounding box and the selection handles.
 
-Ink selection uses the COLOR_WINDOWTEXT, COLOR_WINDOW, and COLOR_HIGHLIGHT system colors to draw elements of the selection UI when the system is in High Contrast mode and the <b>SupportHighContrastSelectionUI</b> property is <b>TRUE</b>. For more information on system colors, see the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function in MSDN.
+Ink selection uses the COLOR_WINDOWTEXT, COLOR_WINDOW, and COLOR_HIGHLIGHT system colors to draw elements of the selection UI when the system is in High Contrast mode and the <b>SupportHighContrastSelectionUI</b> property is <b>TRUE</b>. For more information on system colors, see the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function.
 
 ## -see-also
 
@@ -75,7 +75,7 @@ Ink selection uses the COLOR_WINDOWTEXT, COLOR_WINDOW, and COLOR_HIGHLIGHT syste
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

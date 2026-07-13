@@ -91,7 +91,7 @@ The offset,  in bytes, to the first of multiple <a href="/windows/desktop/api/ns
 
 ## -remarks
 
-This structure is supported on Windows Vistaand later.
+This structure is supported on Windows Vista and later.
 
 The 
 <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure contains the information required to install a namespace provider for the NS_EMAIL namespace. There may be multiple namespace providers for the NS_EMAIL namespace install on a local system.

@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbCopyNA
 title: StringCbCopyNA function (strsafe.h)
-description: Copies the specified number of bytes from one string to another.
-helpviewer_keywords: ["StringCbCopyN","StringCbCopyN function [Menus and Other Resources]","StringCbCopyNA","StringCbCopyNW","_shell_StringCbCopyN","_shell_stringcbcopyn_cpp","menurc.stringcbcopyn","strsafe/StringCbCopyN","strsafe/StringCbCopyNA","strsafe/StringCbCopyNW","winui._shell_stringcbcopyn"]
+description: Copies the specified number of bytes from one string to another. (StringCbCopyNA)
+helpviewer_keywords: ["StringCbCopyNA", "strsafe/StringCbCopyNA"]
 old-location: menurc\stringcbcopyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyn.htm
@@ -175,7 +175,7 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="/wi
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCbCopyN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCbCopyN as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

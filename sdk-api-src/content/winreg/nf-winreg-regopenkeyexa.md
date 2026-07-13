@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegOpenKeyExA
 title: RegOpenKeyExA function (winreg.h)
-description: Opens the specified registry key. Note that key names are not case sensitive.
-helpviewer_keywords: ["REG_OPTION_OPEN_LINK","RegOpenKeyEx","RegOpenKeyEx function","RegOpenKeyExA","RegOpenKeyExW","_win32_regopenkeyex","base.regopenkeyex","winreg/RegOpenKeyEx","winreg/RegOpenKeyExA","winreg/RegOpenKeyExW"]
+description: Opens the specified registry key. Note that key names are not case sensitive. (ANSI)
+helpviewer_keywords: ["REG_OPTION_OPEN_LINK", "RegOpenKeyExA", "winreg/RegOpenKeyExA"]
 old-location: base\regopenkeyex.htm
 tech.root: winprog
 ms.assetid: c8a590f2-3249-437f-a320-c7443d42b792
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -178,7 +179,7 @@ To see this example in context, see
 
 
 > [!NOTE]
-> The winreg.h header defines RegOpenKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegOpenKeyEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

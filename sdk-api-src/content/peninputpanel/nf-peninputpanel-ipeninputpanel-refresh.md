@@ -55,7 +55,7 @@ api_name:
 
 Updates and restores the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> properties based on Tablet PC Input Panel settings, automatically positions the pen input panel, and sets the user interface to the default panel.
 
-## -parameters
+
 
 ## -returns
 
@@ -121,7 +121,7 @@ Calling <b>Refresh</b> while the pen input panel does not have focus will genera
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="../peninputpanel/nn-peninputpanel-ipeninputpanel.md">IPenInputPanel</a>
 
 
 

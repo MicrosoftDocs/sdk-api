@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientHomePhone
 title: IFaxDoc::put_RecipientHomePhone (faxcom.h)
-description: Sets or retrieves the RecipientHomePhone property of a FaxDoc object. The RecipientHomePhone property is a null-terminated string that contains the home telephone number of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientHomePhone property of a FaxDoc object. The RecipientHomePhone property is a null-terminated string that contains the home telephone number of the recipient of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientHomePhone property","IFaxDoc.RecipientHomePhone","IFaxDoc.put_RecipientHomePhone","IFaxDoc::RecipientHomePhone","IFaxDoc::get_RecipientHomePhone","IFaxDoc::put_RecipientHomePhone","RecipientHomePhone property [Fax Service]","RecipientHomePhone property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipienthomephone","fax._mfax_ifaxdoc_get_recipienthomephone","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipienthomephone_cpp","faxcom/IFaxDoc::RecipientHomePhone","faxcom/IFaxDoc::get_RecipientHomePhone","faxcom/IFaxDoc::put_RecipientHomePhone","put_RecipientHomePhone"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipienthomephone_cpp.htm
 tech.root: Fax

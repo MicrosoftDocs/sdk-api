@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupFindFirstLineW
 title: SetupFindFirstLineW function (setupapi.h)
-description: The SetupFindFirstLine function locates a line in the specified section of an INF file. If the Key parameter is NULL, SetupFindFirstLine returns the first line of the section.
-helpviewer_keywords: ["SetupFindFirstLine","SetupFindFirstLine function [Setup API]","SetupFindFirstLineA","SetupFindFirstLineW","_setupapi_setupfindfirstline","setup.setupfindfirstline","setupapi/SetupFindFirstLine","setupapi/SetupFindFirstLineA","setupapi/SetupFindFirstLineW"]
+description: The SetupFindFirstLine function locates a line in the specified section of an INF file. If the Key parameter is NULL, SetupFindFirstLine returns the first line of the section. (Unicode)
+helpviewer_keywords: ["SetupFindFirstLine", "SetupFindFirstLine function [Setup API]", "SetupFindFirstLineW", "_setupapi_setupfindfirstline", "setup.setupfindfirstline", "setupapi/SetupFindFirstLine", "setupapi/SetupFindFirstLineW"]
 old-location: setup\setupfindfirstline.htm
 tech.root: setup
 ms.assetid: ff4b13b6-62ca-48ae-9ddd-e721bde7bd8b
@@ -95,7 +95,7 @@ If the <i>InfHandle</i> parameter references multiple INF files that have been a
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupFindFirstLine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupFindFirstLine as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

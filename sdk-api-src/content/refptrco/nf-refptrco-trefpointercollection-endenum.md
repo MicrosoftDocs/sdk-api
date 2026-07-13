@@ -59,7 +59,7 @@ api_name:
 
 The <b>EndEnum</b> method ends the enumeration of the collection.
 
-## -parameters
+
 
 ## -see-also
 

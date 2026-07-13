@@ -89,8 +89,8 @@ In the following versions of Windows, Slot 1 of Thread Local Storage (TLS) holds
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64getthreadcontext.md">Wow64GetThreadContext</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64setthreadcontext.md">Wow64SetThreadContext</a>

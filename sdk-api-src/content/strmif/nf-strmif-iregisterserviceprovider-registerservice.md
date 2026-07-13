@@ -6,7 +6,7 @@ helpviewer_keywords: ["IRegisterServiceProvider interface [DirectShow]","Registe
 old-location: dshow\iregisterserviceprovider_registerservice.htm
 tech.root: dshow
 ms.assetid: be8c3a89-687e-4a53-9fd0-0ec676e27ce0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IRegisterServiceProvider interface [DirectShow],RegisterService method, IRegisterServiceProvider.RegisterService, IRegisterServiceProvider::RegisterService, IRegisterServiceProviderRegisterService, RegisterService, RegisterService method [DirectShow], RegisterService method [DirectShow],IRegisterServiceProvider interface, dshow.iregisterserviceprovider_registerservice, strmif/IRegisterServiceProvider::RegisterService
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>RegisterService</code> method registers an object as a service.
 
 ## -parameters
@@ -75,7 +77,7 @@ The <code>RegisterService</code> method enables you to register a service with t
 
 A service is identified by a GUID, called the service identifier (SID). One service can support multiple interfaces. To register the service, call <code>RegisterService</code>, as shown in the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -99,7 +101,7 @@ if (SUCCEEDED(hr))
 </table></span></div>
 This example assumes that MyCreateServiceHelper is a helper function that creates the service object. A client could get a pointer to the service object by calling <b>IServiceProvider::QueryService</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -125,7 +127,7 @@ if (SUCCEEDED(hr))
 </table></span></div>
 To unregister the service, call <code>RegisterService</code> with a <b>NULL</b> pointer in the second parameter:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

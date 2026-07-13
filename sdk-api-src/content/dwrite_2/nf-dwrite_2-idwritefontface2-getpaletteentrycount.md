@@ -52,7 +52,7 @@ api_name:
 
 Get the number of entries in each color palette.
 
-## -parameters
+
 
 ## -returns
 

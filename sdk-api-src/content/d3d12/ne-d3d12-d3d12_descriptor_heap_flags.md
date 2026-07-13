@@ -51,11 +51,11 @@ Specifies options for a heap.
 
 ## -enum-fields
 
-### -field D3D12_DESCRIPTOR_HEAP_FLAG_NONE
+### -field D3D12_DESCRIPTOR_HEAP_FLAG_NONE:0
 
 Indicates default usage of a heap.
 
-### -field D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE
+### -field D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE:0x1
 
 The flag [D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE](/windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_flags) can optionally be set on a descriptor heap to indicate it is be bound on a command list for reference by shaders. Descriptor heaps created <i>without</i> this flag allow applications the option to stage descriptors in CPU memory before copying them to a shader visible descriptor heap, as a convenience. But it is also fine for applications to directly create descriptors into shader visible descriptor heaps with no requirement to stage anything on the CPU.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetConfirmZoneCrossingA
 title: InternetConfirmZoneCrossingA function (wininet.h)
-description: Checks for changes between secure and nonsecure URLs. Always inform the user when a change occurs in security between two URLs. Typically, an application should allow the user to acknowledge the change through interaction with a dialog box.
-helpviewer_keywords: ["InternetConfirmZoneCrossing","InternetConfirmZoneCrossing function [WinINet]","InternetConfirmZoneCrossingA","InternetConfirmZoneCrossingW","_inet_internetconfirmzonecrossing_function","wininet.internetconfirmzonecrossing","wininet/InternetConfirmZoneCrossing","wininet/InternetConfirmZoneCrossingA","wininet/InternetConfirmZoneCrossingW"]
+description: Checks for changes between secure and nonsecure URLs. Always inform the user when a change occurs in security between two URLs. Typically, an application should allow the user to acknowledge the change through interaction with a dialog box. (InternetConfirmZoneCrossingA)
+helpviewer_keywords: ["InternetConfirmZoneCrossingA", "wininet/InternetConfirmZoneCrossingA"]
 old-location: wininet\internetconfirmzonecrossing.htm
 tech.root: wininet
 ms.assetid: e14f58df-5457-4a17-919c-6a25691c2ee1
@@ -129,7 +129,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines InternetConfirmZoneCrossing as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetConfirmZoneCrossing as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

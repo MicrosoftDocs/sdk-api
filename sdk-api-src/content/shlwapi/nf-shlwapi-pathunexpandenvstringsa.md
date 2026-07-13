@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathUnExpandEnvStringsA
 title: PathUnExpandEnvStringsA function (shlwapi.h)
-description: Replaces certain folder names in a fully qualified path with their associated environment string.
-helpviewer_keywords: ["PathUnExpandEnvStrings","PathUnExpandEnvStrings function [Windows Shell]","PathUnExpandEnvStringsA","PathUnExpandEnvStringsW","_win32_PathUnExpandEnvStrings","shell.PathUnExpandEnvStrings","shlwapi/PathUnExpandEnvStrings","shlwapi/PathUnExpandEnvStringsA","shlwapi/PathUnExpandEnvStringsW"]
+description: Replaces certain folder names in a fully qualified path with their associated environment string. (ANSI)
+helpviewer_keywords: ["PathUnExpandEnvStringsA", "shlwapi/PathUnExpandEnvStringsA"]
 old-location: shell\PathUnExpandEnvStrings.htm
 tech.root: shell
 ms.assetid: cfab1ee0-03f3-4e0f-a29d-5331fec022b5
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-shlwapi-l1-1-0.dll
  - Shlwapi.dll
  - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
  - KernelBase.dll
@@ -132,7 +133,7 @@ The environment variables listed in the above table might not all be set on all 
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathUnExpandEnvStrings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathUnExpandEnvStrings as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
-UID: NS:ntdsapi.__unnamed_struct_9
+UID: NS:ntdsapi.DS_REPSYNCALL_UPDATEW
 title: DS_REPSYNCALL_UPDATEW (ntdsapi.h)
-description: The DS_REPSYNCALL_UPDATE structure contains status data about the replication performed by the DsReplicaSyncAll function.
+description: The DS_REPSYNCALL_UPDATE structure contains status data about the replication performed by the DsReplicaSyncAll function. (Unicode)
 helpviewer_keywords: ["*PDS_REPSYNCALL_UPDATEW","DS_REPSYNCALL_UPDATE","DS_REPSYNCALL_UPDATE structure [Active Directory]","DS_REPSYNCALL_UPDATEA","DS_REPSYNCALL_UPDATEW","PDS_REPSYNCALL_UPDATE","PDS_REPSYNCALL_UPDATE structure pointer [Active Directory]","_glines_ds_repsyncall_update","ad.ds__repsyncall__update","ad.ds_repsyncall_update","ntdsapi/DS_REPSYNCALL_UPDATE","ntdsapi/DS_REPSYNCALL_UPDATEA","ntdsapi/DS_REPSYNCALL_UPDATEW","ntdsapi/PDS_REPSYNCALL_UPDATE"]
 old-location: ad\ds_repsyncall_update.htm
 tech.root: ad
@@ -101,4 +101,5 @@ Pointer to a
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DS_REPSYNCALL_UPDATE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DS_REPSYNCALL_UPDATE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

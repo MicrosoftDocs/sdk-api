@@ -56,7 +56,7 @@ Describes full-screen mode for a swap chain.
 
 ### -field RefreshRate
 
-A <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure that describes the refresh rate in hertz.
+A <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure that describes the refresh rate in hertz. Setting the numerator to 0 forces the native display's refresh rate.
 
 ### -field ScanlineOrdering
 

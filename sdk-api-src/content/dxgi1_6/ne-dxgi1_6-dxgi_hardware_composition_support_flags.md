@@ -54,15 +54,15 @@ Describes which levels of hardware composition are supported.
 
 ## -enum-fields
 
-### -field DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_FULLSCREEN
+### -field DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_FULLSCREEN:1
 
 This flag specifies that swapchain composition can be facilitated in a performant manner using hardware for fullscreen applications.
 
-### -field DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_WINDOWED
+### -field DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_WINDOWED:2
 
 This flag specifies that swapchain composition can be facilitated in a performant manner using hardware for windowed applications.
 
-### -field DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_CURSOR_STRETCHED
+### -field DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_CURSOR_STRETCHED:4
 
 This flag specifies that swapchain composition facilitated using hardware can cause the cursor to appear stretched.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchVPrintf_lW
 title: StringCchVPrintf_lW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
-helpviewer_keywords: ["StringCchVPrintf_l","StringCchVPrintf_l function [Menus and Other Resources]","StringCchVPrintf_lA","StringCchVPrintf_lW","menurc.stringcchvprintf_l","strsafe/StringCchVPrintf_l","strsafe/StringCchVPrintf_lA","strsafe/StringCchVPrintf_lW"]
+description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCchVPrintf_lW)
+helpviewer_keywords: ["StringCchVPrintf_l", "StringCchVPrintf_l function [Menus and Other Resources]", "StringCchVPrintf_lW", "menurc.stringcchvprintf_l", "strsafe/StringCchVPrintf_l", "strsafe/StringCchVPrintf_lW"]
 old-location: menurc\stringcchvprintf_l.htm
 tech.root: menurc
 ms.assetid: 90c83405-f2c8-480b-883c-c3ce258016cd
@@ -138,4 +138,4 @@ In order to use this function, you must define the following macro in your heade
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCchVPrintf_l as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCchVPrintf_l as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

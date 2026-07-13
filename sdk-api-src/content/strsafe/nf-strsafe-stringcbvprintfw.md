@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbVPrintfW
 title: StringCbVPrintfW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments.
-helpviewer_keywords: ["StringCbVPrintf","StringCbVPrintf function [Menus and Other Resources]","StringCbVPrintfA","StringCbVPrintfW","_shell_StringCbVPrintf","_shell_stringcbvprintf_cpp","menurc.stringcbvprintf","strsafe/StringCbVPrintf","strsafe/StringCbVPrintfA","strsafe/StringCbVPrintfW","winui._shell_stringcbvprintf"]
+description: Writes formatted data to the specified string using a pointer to a list of arguments. (StringCbVPrintfW)
+helpviewer_keywords: ["StringCbVPrintf", "StringCbVPrintf function [Menus and Other Resources]", "StringCbVPrintfW", "_shell_StringCbVPrintf", "_shell_stringcbvprintf_cpp", "menurc.stringcbvprintf", "strsafe/StringCbVPrintf", "strsafe/StringCbVPrintfW", "winui._shell_stringcbvprintf"]
 old-location: menurc\stringcbvprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbvprintf.htm
@@ -143,7 +143,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCbVPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbVPrintf</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCbVPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbVPrintf</b> always null-terminates a nonzero-length destination buffer.
 
 For more information on va_lists, see the conventions defined in Stdarg.h.
 
@@ -182,7 +182,7 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCbVPrintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCbVPrintf as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

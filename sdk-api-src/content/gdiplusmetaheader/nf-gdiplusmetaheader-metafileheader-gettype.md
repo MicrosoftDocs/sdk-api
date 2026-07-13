@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::GetType</b> method gets the type of the associated metafile.
 
-## -parameters
+
 
 ## -returns
 

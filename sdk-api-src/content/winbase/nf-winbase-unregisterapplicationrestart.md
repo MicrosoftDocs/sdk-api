@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-windowserrorreporting-l1-1-3.dll
  - Kernel32.dll
 api_name:
  - UnregisterApplicationRestart
@@ -52,7 +53,7 @@ api_name:
 
 Removes the active instance of an application from the restart list.
 
-## -parameters
+
 
 ## -returns
 

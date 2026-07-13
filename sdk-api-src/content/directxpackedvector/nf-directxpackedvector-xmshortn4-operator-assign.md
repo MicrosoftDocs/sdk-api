@@ -60,7 +60,7 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ### -param unnamedParam1
 
-Instance of <code>XMSHORTN4</code> used to update the current <code>XMSHORTN4</code>structure.
+Instance of <code>XMSHORTN4</code> used to update the current <code>XMSHORTN4</code> structure.
 
 ## -returns
 

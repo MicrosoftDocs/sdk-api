@@ -1,5 +1,5 @@
 ---
-UID: NS:winuser.__unnamed_struct_4
+UID: NS:winuser.DLGTEMPLATE
 title: DLGTEMPLATE (winuser.h)
 description: Defines the dimensions and style of a dialog box.
 helpviewer_keywords: ["*LPDLGTEMPLATEA","*LPDLGTEMPLATEW","DLGTEMPLATE","DLGTEMPLATE structure [Dialog Boxes]","LPDLGTEMPLATE","LPDLGTEMPLATE structure pointer [Dialog Boxes]","_win32_DLGTEMPLATE_str","_win32_dlgtemplate_str_cpp","dlgbox.dlgtemplate","winui._win32_dlgtemplate_str","winuser/DLGTEMPLATE","winuser/LPDLGTEMPLATE"]
@@ -179,3 +179,4 @@ The
 
 
 <b>Reference</b>
+

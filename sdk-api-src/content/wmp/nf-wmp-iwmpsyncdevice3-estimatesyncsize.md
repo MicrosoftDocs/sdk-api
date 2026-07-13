@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSyncDevice3 interface [Windows Media Player]","estima
 old-location: wmp\iwmpsyncdevice3_estimatesyncsize.htm
 tech.root: WMP
 ms.assetid: 49b07233-df9d-4fd0-836e-62b992408018
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],estimateSyncSize method, IWMPSyncDevice3.estimateSyncSize, IWMPSyncDevice3::estimateSyncSize, estimateSyncSize, estimateSyncSize method [Windows Media Player], estimateSyncSize method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_estimatesyncsize, wmp/IWMPSyncDevice3::estimateSyncSize
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>estimateSyncSize</b> method initiates the estimation of the size required on the device to synchronize a specified playlist.
 

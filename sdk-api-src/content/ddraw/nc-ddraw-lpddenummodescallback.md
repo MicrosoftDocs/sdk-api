@@ -52,7 +52,7 @@ Do not use. This callback function is superseded by the <a href="/windows/deskto
 
 ### -param unnamedParam1 [in]
 
-A pointer to a read-only <a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure that provides the monitor frequency and the mode that can be created.
+A pointer to a read-only <a href="/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc">DDSURFACEDESC</a> structure that provides the monitor frequency and the mode that can be created.
 
 ### -param unnamedParam2 [in]
 

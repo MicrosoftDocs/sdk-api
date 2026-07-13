@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_InsertPage","PropSheet_InsertPage macro [Window
 old-location: controls\PropSheet_InsertPage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_insertpage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_InsertPage, PropSheet_InsertPage macro [Windows Controls], _win32_PropSheet_InsertPage, _win32_PropSheet_InsertPage_cpp, controls.PropSheet_InsertPage, controls._win32_PropSheet_InsertPage, hpageInsertAfter, index, prsht/PropSheet_InsertPage
 req.header: prsht.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # PropSheet_InsertPage macro
 
+## -syntax
+
+```cpp
+BOOL PropSheet_InsertPage(
+   HWND hDlg,
+   HWND index,
+   HWND hpage
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns a nonzero value if the page was successfully inserted, or zero otherwise.
+
 
 ## -description
 
@@ -64,7 +80,7 @@ Handle to the property sheet.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Where the page is to be inserted. Set <i>wParam</i> to <b>NULL</b> to make the new page the first page. To specify where the new page is to be inserted, you can either pass an index or an existing page's HPROPSHEETPAGE handle.
+Where the page is to be inserted. Set <i>index</i> to <b>NULL</b> to make the new page the first page. To specify where the new page is to be inserted, you can either pass an index or an existing page's HPROPSHEETPAGE handle.
 
 <table>
 <tr>
@@ -77,7 +93,7 @@ Where the page is to be inserted. Set <i>wParam</i> to <b>NULL</b> to make the n
 </dl>
 </td>
 <td width="60%">
-If <i>wParam</i> is less than MAXUSHORT (the largest unsigned short integer), it specifies the zero-based index for the new page. For example, to make the inserted page the third page on the property sheet, set <i>index</i> to 2. To make it the first page, set <i>index</i> to 0. If <i>index</i> has a value greater than the number of pages and less than MAXUSHORT, the page will be appended.
+If <i>index</i> is less than MAXUSHORT (the largest unsigned short integer), it specifies the zero-based index for the new page. For example, to make the inserted page the third page on the property sheet, set <i>index</i> to 2. To make it the first page, set <i>index</i> to 0. If <i>index</i> has a value greater than the number of pages and less than MAXUSHORT, the page will be appended.
 
 </td>
 </tr>
@@ -87,7 +103,7 @@ If <i>wParam</i> is less than MAXUSHORT (the largest unsigned short integer), it
 </dl>
 </td>
 <td width="60%">
-If you set <i>wParam</i> to an existing page's HPROPSHEETPAGE handle, the new page will be inserted after it.
+If you set <i>index</i> to an existing page's HPROPSHEETPAGE handle, the new page will be inserted after it.
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-assign(constFILETIME&)
 title: WBEMTimeSpan::operator-assign(const FILETIME &) (wbemtime.h)
-description: Converts a BSTR time interval value to a WBEMTimeSpan object in CIM date and time format.
+description: Converts a BSTR time interval value to a WBEMTimeSpan object in CIM date and time format. (overload 1/3)
 helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator= method","WBEMTimeSpan.operator-assign(const FILETIME &)","WBEMTimeSpan.operator=","WBEMTimeSpan::operator-assign(const FILETIME &)","WBEMTimeSpan::operator=","_hmm_wbemtimespan_operator_equal","operator=","operator= method [Windows Management Instrumentation]","operator= method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator=","wmi.wbemtimespan_operator_equal"]
 old-location: wmi\wbemtimespan_operator_equal.htm
 tech.root: wmi

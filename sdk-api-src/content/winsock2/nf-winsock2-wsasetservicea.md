@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSASetServiceA
 title: WSASetServiceA function (winsock2.h)
-description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces.
-helpviewer_keywords: ["RNRSERVICE_DELETE","RNRSERVICE_DEREGISTER","RNRSERVICE_REGISTER","SERVICE_MULTIPLE","WSASetService","WSASetService function [Winsock]","WSASetServiceA","WSASetServiceW","_win32_wsasetservice_2","winsock.wsasetservice_2","winsock2/WSASetService","winsock2/WSASetServiceA","winsock2/WSASetServiceW"]
+description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces. (ANSI)
+helpviewer_keywords: ["RNRSERVICE_DELETE", "RNRSERVICE_DEREGISTER", "RNRSERVICE_REGISTER", "SERVICE_MULTIPLE", "WSASetServiceA", "winsock2/WSASetServiceA"]
 old-location: winsock\wsasetservice_2.htm
 tech.root: WinSock
 ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab
@@ -108,7 +108,7 @@ Delete the service from dynamic name and persistent spaces. For services represe
 
 ### -param dwControlFlags [in]
 
-Service install flags value that further controls the operation performed of the <b>WSASetService</b>function. The possible values for this parameter are defined in the <i>Winsock2.h</i> header file.
+Service install flags value that further controls the operation performed of the <b>WSASetService</b> function. The possible values for this parameter are defined in the <i>Winsock2.h</i> header file.
 
 <table>
 <tr>
@@ -354,7 +354,7 @@ As illustrated in the following, the combination of the <b>dwNameSpace</b> and <
 
 
 > [!NOTE]
-> The winsock2.h header defines WSASetService as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSASetService as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

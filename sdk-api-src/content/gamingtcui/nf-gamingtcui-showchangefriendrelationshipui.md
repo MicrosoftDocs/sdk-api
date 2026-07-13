@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.ShowChangeFriendRelationshipUI
 title: ShowChangeFriendRelationshipUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (ShowChangeFriendRelationshipUI)
 helpviewer_keywords: ["ShowChangeFriendRelationshipUI","ShowChangeFriendRelationshipUI function","gamingtcui/ShowChangeFriendRelationshipUI","tcui.showchangefriendrelationshipui"]
 old-location: tcui\showchangefriendrelationshipui.htm
 tech.root: tcui
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-gaming-tcui-l1-1-4.dll
+ - api-ms-win-gaming-tcui-l1-1-3.dll
  - gamingtcui.dll
  - API-MS-Win-Gaming-Tcui-L1-1-0.dll
  - GamingTcuiStub.dll

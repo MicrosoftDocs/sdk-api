@@ -56,11 +56,11 @@ The <b>WEB_SOCKET_ACTION_QUEUE</b> enumeration specifies the action types return
 
 ## -enum-fields
 
-### -field WEB_SOCKET_SEND_ACTION_QUEUE
+### -field WEB_SOCKET_SEND_ACTION_QUEUE:0x1
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> will return only send-related actions.
 
-### -field WEB_SOCKET_RECEIVE_ACTION_QUEUE
+### -field WEB_SOCKET_RECEIVE_ACTION_QUEUE:0x2
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> will return receive-related actions as well as internal send actions (reply to a ping frame).
 

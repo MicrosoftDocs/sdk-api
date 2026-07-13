@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateFontIndirectExA
 title: CreateFontIndirectExA function (wingdi.h)
-description: The CreateFontIndirectEx function specifies a logical font that has the characteristics in the specified structure. The font can subsequently be selected as the current font for any device context.
-helpviewer_keywords: ["CreateFontIndirectEx","CreateFontIndirectEx function [Windows GDI]","CreateFontIndirectExA","CreateFontIndirectExW","_win32_CreateFontIndirectEx","gdi.createfontindirectex","wingdi/CreateFontIndirectEx","wingdi/CreateFontIndirectExA","wingdi/CreateFontIndirectExW"]
+description: The CreateFontIndirectEx function specifies a logical font that has the characteristics in the specified structure. The font can subsequently be selected as the current font for any device context. (ANSI)
+helpviewer_keywords: ["CreateFontIndirectExA", "wingdi/CreateFontIndirectExA"]
 old-location: gdi\createfontindirectex.htm
 tech.root: gdi
 ms.assetid: 1161b79e-f9c8-4073-97c4-1ccc1a78279b
@@ -83,7 +83,7 @@ The font mapper for <a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">
 
 
 > [!NOTE]
-> The wingdi.h header defines CreateFontIndirectEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines CreateFontIndirectEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

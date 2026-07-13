@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.EndQuery
 title: ID3D12VideoDecodeCommandList::EndQuery
-description: Ends a query.
+description: Ends a query. (ID3D12VideoDecodeCommandList::EndQuery)
 helpviewer_keywords: ["ID3D12VideoDecodeCommandList::EndQuery","EndQuery","ID3D12VideoDecodeCommandList.EndQuery","ID3D12VideoDecodeCommandList::EndQuery","ID3D12VideoDecodeCommandList.EndQuery"]
 tech.root: mf
 ms.assetid: 6919b1be-e7eb-4b9a-ab51-d5c912803c3f

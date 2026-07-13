@@ -52,7 +52,7 @@ api_name:
 
 Gets a value that describes the stroke's dash pattern.
 
-## -parameters
+
 
 ## -returns
 

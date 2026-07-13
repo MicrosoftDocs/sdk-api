@@ -61,7 +61,7 @@ The
 
 ## -enum-fields
 
-### -field DocumentMode_Author
+### -field DocumentMode_Author:0
 
 The document is opened in Author Mode.
 

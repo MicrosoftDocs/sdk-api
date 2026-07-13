@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetColumnOrderArray","ListView_SetColumnOrderArr
 old-location: controls\ListView_SetColumnOrderArray.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnorderarray.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetColumnOrderArray, ListView_SetColumnOrderArray macro [Windows Controls], _win32_ListView_SetColumnOrderArray, _win32_ListView_SetColumnOrderArray_cpp, commctrl/ListView_SetColumnOrderArray, controls.ListView_SetColumnOrderArray, controls._win32_ListView_SetColumnOrderArray
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_SetColumnOrderArray macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetColumnOrderArray(
+   HWND hwnd,
+   int  iCount,
+   int  *pi
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

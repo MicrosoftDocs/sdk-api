@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_1.IDWriteRenderingParams1
 title: IDWriteRenderingParams1 (dwrite_1.h)
-description: Represents text rendering settings for glyph rasterization and filtering.
+description: Represents text rendering settings for glyph rasterization and filtering. (IDWriteRenderingParams1)
 helpviewer_keywords: ["IDWriteRenderingParams1","IDWriteRenderingParams1 interface [Direct Write]","IDWriteRenderingParams1 interface [Direct Write]","described","directwrite.idwriterenderingparams1","dwrite_1/IDWriteRenderingParams1"]
 old-location: directwrite\idwriterenderingparams1.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ Represents text rendering settings for glyph rasterization and filtering.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>. <b>IDWriteRenderingParams1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteRenderingParams1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>. <b>IDWriteRenderingParams1</b> also has these types of members:
 
 ## -see-also
 

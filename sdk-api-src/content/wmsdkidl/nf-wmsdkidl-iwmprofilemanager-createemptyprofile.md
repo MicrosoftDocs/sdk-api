@@ -6,7 +6,7 @@ helpviewer_keywords: ["CreateEmptyProfile","CreateEmptyProfile method [windows M
 old-location: wmformat\iwmprofilemanager_createemptyprofile.htm
 tech.root: wmformat
 ms.assetid: fb5c2ed4-f733-422e-87e3-8e70c3ee9f1c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: CreateEmptyProfile, CreateEmptyProfile method [windows Media Format], CreateEmptyProfile method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],CreateEmptyProfile method, IWMProfileManager.CreateEmptyProfile, IWMProfileManager::CreateEmptyProfile, IWMProfileManagerCreateEmptyProfile, wmformat.iwmprofilemanager_createemptyprofile, wmsdkidl/IWMProfileManager::CreateEmptyProfile
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>CreateEmptyProfile</b> method creates an empty profile object. You can use the interfaces of the profile object to configure the profile. When you are done configuring the profile, you can save it to a string using <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-saveprofile">IWMProfileManager::SaveProfile</a>.
 

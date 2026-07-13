@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAsyncReader interface [DirectShow]","RequestAllocator me
 old-location: dshow\iasyncreader_requestallocator.htm
 tech.root: dshow
 ms.assetid: 7bde850e-662f-4610-bac3-914c93584b30
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAsyncReader interface [DirectShow],RequestAllocator method, IAsyncReader.RequestAllocator, IAsyncReader::RequestAllocator, IAsyncReaderRequestAllocator, RequestAllocator, RequestAllocator method [DirectShow], RequestAllocator method [DirectShow],IAsyncReader interface, dshow.iasyncreader_requestallocator, strmif/IAsyncReader::RequestAllocator
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>RequestAllocator</code> method requests an allocator during the pin connection.
 

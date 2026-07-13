@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHCopyKeyW
 title: SHCopyKeyW function (shlwapi.h)
-description: Recursively copies the subkeys and values of the source subkey to the destination key. SHCopyKey does not copy the security attributes of the keys.
-helpviewer_keywords: ["SHCopyKey","SHCopyKey function [Windows Shell]","SHCopyKeyA","SHCopyKeyW","_win32_SHCopyKey","shell.SHCopyKey","shlwapi/SHCopyKey","shlwapi/SHCopyKeyA","shlwapi/SHCopyKeyW"]
+description: Recursively copies the subkeys and values of the source subkey to the destination key. SHCopyKey does not copy the security attributes of the keys. (Unicode)
+helpviewer_keywords: ["SHCopyKey", "SHCopyKey function [Windows Shell]", "SHCopyKeyW", "_win32_SHCopyKey", "shell.SHCopyKey", "shlwapi/SHCopyKey", "shlwapi/SHCopyKeyW"]
 old-location: shell\SHCopyKey.htm
 tech.root: shell
 ms.assetid: 52521ef4-fe59-4766-8828-acb557b0e968
@@ -99,4 +99,4 @@ Returns ERROR_SUCCESS if successful, or one of the nonzero error codes defined i
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHCopyKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHCopyKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

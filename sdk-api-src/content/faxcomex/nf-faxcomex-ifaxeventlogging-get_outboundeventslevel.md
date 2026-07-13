@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.get_OutboundEventsLevel
 title: IFaxEventLogging::get_OutboundEventsLevel (faxcomex.h)
-description: The IFaxEventLogging::get_OutboundEventsLevel property indicates the level of detail at which the fax service logs events about outbound fax transmissions in the application log.
+description: The IFaxEventLogging::get_OutboundEventsLevel property indicates the level of detail at which the fax service logs events about outbound fax transmissions in the application log. (Get)
 helpviewer_keywords: ["IFaxEventLogging interface [Fax Service]","OutboundEventsLevel property","IFaxEventLogging.OutboundEventsLevel","IFaxEventLogging.get_OutboundEventsLevel","IFaxEventLogging.put_OutboundEventsLevel","IFaxEventLogging::OutboundEventsLevel","IFaxEventLogging::get_OutboundEventsLevel","IFaxEventLogging::put_OutboundEventsLevel","OutboundEventsLevel property [Fax Service]","OutboundEventsLevel property [Fax Service]","IFaxEventLogging interface","_mfax_faxeventlogging.outboundeventslevel","fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_outboundeventslevel_cpp","fax._mfax_faxeventlogging_outboundeventslevel","faxcomex/IFaxEventLogging::OutboundEventsLevel","faxcomex/IFaxEventLogging::get_OutboundEventsLevel","faxcomex/IFaxEventLogging::put_OutboundEventsLevel","get_OutboundEventsLevel"]
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_outboundeventslevel_cpp.htm
 tech.root: Fax

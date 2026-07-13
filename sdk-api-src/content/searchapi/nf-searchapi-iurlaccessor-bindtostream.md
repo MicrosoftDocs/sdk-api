@@ -64,8 +64,8 @@ Receives the address of a pointer to the <a href="/windows/desktop/api/objidl/nn
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
- Using the information returned by the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getfilename">IUrlAccessor::GetFileName</a>, <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getclsid">IUrlAccessor::GetCLSID</a>, and <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getdocformat">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>object is created and passed to this stream by the IPersistStream interface.
+ Using the information returned by the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getfilename">IUrlAccessor::GetFileName</a>, <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getclsid">IUrlAccessor::GetCLSID</a>, and <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getdocformat">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> object is created and passed to this stream by the IPersistStream interface.

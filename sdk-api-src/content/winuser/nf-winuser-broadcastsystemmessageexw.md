@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.BroadcastSystemMessageExW
 title: BroadcastSystemMessageExW function (winuser.h)
-description: Sends a message to the specified recipients.
-helpviewer_keywords: ["BSF_ALLOWSFW","BSF_FLUSHDISK","BSF_FORCEIFHUNG","BSF_IGNORECURRENTTASK","BSF_LUID","BSF_NOHANG","BSF_NOTIMEOUTIFNOTHUNG","BSF_POSTMESSAGE","BSF_QUERY","BSF_RETURNHDESK","BSF_SENDNOTIFYMESSAGE","BSM_ALLCOMPONENTS","BSM_ALLDESKTOPS","BSM_APPLICATIONS","BroadcastSystemMessageEx","BroadcastSystemMessageEx function [Windows and Messages]","BroadcastSystemMessageExA","BroadcastSystemMessageExW","_win32_BroadcastSystemMessageEx","_win32_broadcastsystemmessageex_cpp","winmsg.broadcastsystemmessageex","winui._win32_broadcastsystemmessageex","winuser/BroadcastSystemMessageEx","winuser/BroadcastSystemMessageExA","winuser/BroadcastSystemMessageExW"]
+description: Sends a message to the specified recipients. (BroadcastSystemMessageExW)
+helpviewer_keywords: ["BSF_ALLOWSFW", "BSF_FLUSHDISK", "BSF_FORCEIFHUNG", "BSF_IGNORECURRENTTASK", "BSF_LUID", "BSF_NOHANG", "BSF_NOTIMEOUTIFNOTHUNG", "BSF_POSTMESSAGE", "BSF_QUERY", "BSF_RETURNHDESK", "BSF_SENDNOTIFYMESSAGE", "BSM_ALLCOMPONENTS", "BSM_ALLDESKTOPS", "BSM_APPLICATIONS", "BroadcastSystemMessageEx", "BroadcastSystemMessageEx function [Windows and Messages]", "BroadcastSystemMessageExW", "_win32_BroadcastSystemMessageEx", "_win32_broadcastsystemmessageex_cpp", "winmsg.broadcastsystemmessageex", "winui._win32_broadcastsystemmessageex", "winuser/BroadcastSystemMessageEx", "winuser/BroadcastSystemMessageExW"]
 old-location: winmsg\broadcastsystemmessageex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessageex.htm
@@ -300,7 +300,7 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 > [!NOTE]
-> The winuser.h header defines BroadcastSystemMessageEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines BroadcastSystemMessageEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

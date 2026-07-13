@@ -66,7 +66,7 @@ A pointer to a valid string that represents the path to the new virtual disk ima
 
 ### -param VirtualDiskAccessMask [in]
 
-The <a href="/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
+The <a href="/windows/win32/api/virtdisk/ne-virtdisk-virtual_disk_access_mask-r1">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
      when opening the newly created virtual disk file. If the <b>Version</b> member of the 
      <i>Parameters</i> parameter is set to 
      <b>CREATE_VIRTUAL_DISK_VERSION_2</b> then only the 

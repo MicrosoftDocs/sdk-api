@@ -1,17 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFonts(DWRITE_FONT_PROPERTYconst,UINT32,BOOL,IDWriteFontSet1)
-title: IDWriteFontSet1::GetFilteredFonts
+title: IDWriteFontSet1::GetFilteredFonts(DWRITE_FONT_PROPERTYconst,UINT32,BOOL,IDWriteFontSet1)
 description: Retrieves a subset of fonts filtered by the given properties.
 helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFonts method","IDWriteFontSet1.GetFilteredFonts","IDWriteFontSet1::GetFilteredFonts","GetFilteredFonts","GetFilteredFonts method [Direct Write]","GetFilteredFonts method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfilteredfonts","dwrite_3/IDWriteFontSet1::GetFilteredFonts"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFonts method, IDWriteFontSet1.GetFilteredFonts, IDWriteFontSet1::GetFilteredFonts, GetFilteredFonts, GetFilteredFonts method [Direct Write], GetFilteredFonts method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfonts, dwrite_3/IDWriteFontSet1::GetFilteredFonts
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

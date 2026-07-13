@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDrawQuery","ICDrawQuery macro [Windows Multimedia]","_w
 old-location: multimedia\icdrawquery.htm
 tech.root: Multimedia
 ms.assetid: 5cd673e3-af82-4c24-b0d5-4c3cb7c7ab71
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDrawQuery, ICDrawQuery macro [Windows Multimedia], _win32_ICDrawQuery, multimedia.icdrawquery, vfw/ICDrawQuery
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICDrawQuery macro
+
+## -syntax
+
+```cpp
+DWORD ICDrawQuery(
+     hic,
+     lpbiInput
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the driver can render data in the specified format or ICERR_BADFORMAT otherwise.
 
 
 ## -description

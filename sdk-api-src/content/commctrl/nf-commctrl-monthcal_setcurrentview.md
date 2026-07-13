@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCMV_CENTURY","MCMV_DECADE","MCMV_MONTH","MCMV_YEAR","Mon
 old-location: controls\MonthCal_SetCurrentView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcurrentview.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, MonthCal_SetCurrentView, MonthCal_SetCurrentView macro [Windows Controls], _shell_MonthCal_SetCurrentView, _shell_MonthCal_SetCurrentView_cpp, commctrl/MonthCal_SetCurrentView, controls.MonthCal_SetCurrentView, controls._shell_MonthCal_SetCurrentView
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_SetCurrentView macro
+
+## -syntax
+
+```cpp
+BOOL MonthCal_SetCurrentView(
+   HWND  hmc,
+   DWORD dwNewView
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetBreakOnSeverity
 title: ID3D10InfoQueue::GetBreakOnSeverity (d3d10sdklayers.h)
-description: Get a message severity level to break on when a message with that severity level passes through the storage filter.
+description: Get a message severity level to break on when a message with that severity level passes through the storage filter. (ID3D10InfoQueue.GetBreakOnSeverity)
 helpviewer_keywords: ["640ea84e-c7af-c3d2-d27b-1edd4a3629f9","GetBreakOnSeverity","GetBreakOnSeverity method [Direct3D 10]","GetBreakOnSeverity method [Direct3D 10]","ID3D10InfoQueue interface","ID3D10InfoQueue interface [Direct3D 10]","GetBreakOnSeverity method","ID3D10InfoQueue.GetBreakOnSeverity","ID3D10InfoQueue::GetBreakOnSeverity","d3d10sdklayers/ID3D10InfoQueue::GetBreakOnSeverity","direct3d10.id3d10infoqueue_getbreakonseverity"]
 old-location: direct3d10\id3d10infoqueue_getbreakonseverity.htm
 tech.root: direct3d10

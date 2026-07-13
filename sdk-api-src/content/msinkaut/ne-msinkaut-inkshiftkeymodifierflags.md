@@ -54,15 +54,15 @@ Specifies which modifier key was pressed.
 
 ## -enum-fields
 
-### -field IKM_Shift
+### -field IKM_Shift:0x1
 
 The SHIFT key was used as a modifier.
 
-### -field IKM_Control
+### -field IKM_Control:0x2
 
 The CTRL key was used as a modifier.
 
-### -field IKM_Alt
+### -field IKM_Alt:0x4
 
 The ALT key was used as a modifier.
 

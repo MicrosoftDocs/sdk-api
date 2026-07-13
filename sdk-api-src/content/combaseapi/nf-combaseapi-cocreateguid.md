@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - ComBase.dll
@@ -88,7 +90,7 @@ Errors returned by <a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">Uu
 
 ## -remarks
 
-The <b>CoCreateGuid</b> function calls the RPC function <a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>, which creates a GUID, a globally unique 128-bit integer. Use <b>CoCreateGuid</b> when you need an absolutely unique number that you will use as a persistent identifier in a distributed environment.To a very high degree of certainty, this function returns a unique value – no other invocation, on the same or any other system (networked or not), should return the same value.
+The <b>CoCreateGuid</b> function calls the RPC function <a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>, which creates a GUID, a globally unique 128-bit integer. Use <b>CoCreateGuid</b> when you need an absolutely unique number that you will use as a persistent identifier in a distributed environment. To a very high degree of certainty, this function returns a unique value – no other invocation, on the same or any other system (networked or not), should return the same value.
 
 ## -see-also
 

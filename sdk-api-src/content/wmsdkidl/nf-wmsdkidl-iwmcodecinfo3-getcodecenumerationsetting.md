@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCodecEnumerationSetting","GetCodecEnumerationSetting m
 old-location: wmformat\iwmcodecinfo3_getcodecenumerationsetting.htm
 tech.root: wmformat
 ms.assetid: 9a8f34ef-4d52-47d4-b6d5-e6f07f27cc8d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCodecEnumerationSetting, GetCodecEnumerationSetting method [windows Media Format], GetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecEnumerationSetting method, IWMCodecInfo3.GetCodecEnumerationSetting, IWMCodecInfo3::GetCodecEnumerationSetting, IWMCodecInfo3GetCodecEnumerationSetting, wmformat.iwmcodecinfo3_getcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetCodecEnumerationSetting</b> method retrieves the current value for one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo</a>. You can change codec enumeration settings in order to retrieve codec formats supporting specific features by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-setcodecenumerationsetting">IWMCodecInfo3::SetCodecEnumerationSetting</a>.
 

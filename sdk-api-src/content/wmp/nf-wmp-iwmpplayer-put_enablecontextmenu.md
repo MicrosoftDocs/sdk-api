@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","put_enableC
 old-location: wmp\iwmpplayer_put_enablecontextmenu.htm
 tech.root: WMP
 ms.assetid: 1fd79fc3-34c6-4d76-a726-bbf64ee983c9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enableContextMenu method, IWMPPlayer.put_enableContextMenu, IWMPPlayer::put_enableContextMenu, IWMPPlayerput_enableContextMenu, put_enableContextMenu, put_enableContextMenu method [Windows Media Player], put_enableContextMenu method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enablecontextmenu, wmp/IWMPPlayer::put_enableContextMenu
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_enableContextMenu</b> method specifies a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
 

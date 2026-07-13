@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.GetIScsiTargetInformationW
 title: GetIScsiTargetInformationW function (iscsidsc.h)
-description: GetIscsiTargetInformation function retrieves information about the specified target.
-helpviewer_keywords: ["GetIScsiTargetInformationW","GetIscsiTargetInformation","GetIscsiTargetInformation function [iSCSI Discovery Library API]","GetIscsiTargetInformationA","GetIscsiTargetInformationW","iscsidisc.getiscsitargetinformation","iscsidsc/GetIscsiTargetInformation","iscsidsc/GetIscsiTargetInformationA","iscsidsc/GetIscsiTargetInformationW"]
+description: GetIscsiTargetInformation function retrieves information about the specified target. (Unicode)
+helpviewer_keywords: ["GetIScsiTargetInformationW", "GetIscsiTargetInformation", "GetIscsiTargetInformation function [iSCSI Discovery Library API]", "GetIscsiTargetInformationW", "iscsidisc.getiscsitargetinformation", "iscsidsc/GetIscsiTargetInformation", "iscsidsc/GetIscsiTargetInformationW"]
 old-location: iscsidisc\getiscsitargetinformation.htm
 tech.root: iSCSIDisc
 ms.assetid: 3db31d0b-ed08-432b-9c28-a700c4a9d369
@@ -95,7 +95,7 @@ Since the information associated with a target is relative to the way in which i
 
 
 > [!NOTE]
-> The iscsidsc.h header defines GetIScsiTargetInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines GetIScsiTargetInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

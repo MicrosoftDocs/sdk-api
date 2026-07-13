@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdate4
 title: IUpdate4 (wuapi.h)
-description: Contains the properties and methods that are available to an update.
+description: Contains the properties and methods that are available to an update. (IUpdate4)
 helpviewer_keywords: ["IUpdate4","IUpdate4 interface [Windows Update Agent]","IUpdate4 interface [Windows Update Agent]","described","wua.iupdate4","wuapi/IUpdate4"]
 old-location: wua\iupdate4.htm
 tech.root: wua

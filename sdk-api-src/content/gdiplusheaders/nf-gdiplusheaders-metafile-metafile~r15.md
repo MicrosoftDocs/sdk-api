@@ -176,4 +176,4 @@ Creates a <a href="/previous-versions/ms535289(v=vs.85)">Metafile::Metafile</a> 
 </tr>
 </table>
 
-## -parameters
+

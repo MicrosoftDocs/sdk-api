@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHDeleteKeyA
 title: SHDeleteKeyA function (shlwapi.h)
-description: Deletes a subkey and all its descendants. This function removes the key and all the key's values from the registry.
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHDeleteKey","SHDeleteKey function [Windows Shell]","SHDeleteKeyA","SHDeleteKeyW","_win32_SHDeleteKey","_win32_SHDeleteKey_cpp","shell.SHDeleteKey","shlwapi/SHDeleteKey","shlwapi/SHDeleteKeyA","shlwapi/SHDeleteKeyW"]
+description: Deletes a subkey and all its descendants. This function removes the key and all the key's values from the registry. (ANSI)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHDeleteKeyA", "shlwapi/SHDeleteKeyA"]
 old-location: shell\SHDeleteKey.htm
 tech.root: shell
 ms.assetid: 3c46db08-52d8-48fa-bda5-3c087908a1d3
@@ -123,4 +123,4 @@ Alternatively, use the <a href="/windows/desktop/api/winreg/nf-winreg-regdeletek
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHDeleteKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHDeleteKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

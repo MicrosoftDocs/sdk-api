@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Clone
 title: IEnumIDList::Clone (shobjidl_core.h)
-description: Creates a new item enumeration object with the same contents and state as the current one.
+description: Creates a new item enumeration object with the same contents and state as the current one. (IEnumIDList.Clone)
 helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumIDList interface","IEnumIDList interface [Windows Shell]","Clone method","IEnumIDList.Clone","IEnumIDList::Clone","_win32_IEnumIDList_Clone","shell.IEnumIDList_Clone","shobjidl_core/IEnumIDList::Clone"]
 old-location: shell\IEnumIDList_Clone.htm
 tech.root: shell

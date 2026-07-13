@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -60,7 +60,6 @@ Heap options, as a bitwise-OR'd combination of **D3D12_HEAP_FLAGS** enumeration 
 
 ### -param pDesc
 
-_In_ const D3D12_RESOURCE_DESC1 *pDesc,
 Type: **const [D3D12_RESOURCE_DESC1](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1)\***
 
 A pointer to a **D3D12_RESOURCE_DESC1** structure that describes the resource, including a mip region.

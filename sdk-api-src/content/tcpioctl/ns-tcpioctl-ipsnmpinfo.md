@@ -1,7 +1,7 @@
 ---
 UID: NS:tcpioctl.IPSNMPInfo
 title: IPSNMPInfo (tcpioctl.h)
-description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
+description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011. (IPSNMPInfo)
 helpviewer_keywords: ["IPSNMPInfo","IPSNMPInfo structure [Windows API]","tcpioctl/IPSNMPInfo","winprog.ipsnmpinfo"]
 old-location: winprog\ipsnmpinfo.htm
 tech.root: winprog

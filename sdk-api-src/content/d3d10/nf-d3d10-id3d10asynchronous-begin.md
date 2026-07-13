@@ -53,7 +53,7 @@ api_name:
 
 Starts the collection of GPU data.
 
-## -parameters
+
 
 ## -remarks
 

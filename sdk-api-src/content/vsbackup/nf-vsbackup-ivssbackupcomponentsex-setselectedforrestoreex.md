@@ -218,7 +218,7 @@ The distinction between the <i>instanceId</i> and <i>writerID</i> parameters is 
 
 If the value of the <i>instanceId</i> parameter is  GUID_NULL, this is equivalent to calling the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">IVssBackupComponents::SetSelectedForRestore</a> method.
 
-The <i>instanceId</i> parameter is used to specify that the component is to be restored to a different writer instance. If the value of the <i>instanceId</i> parameter is not GUID_NULL, it must match the instance ID of a writer instance with the same writer class ID specified in in the <i>writerID</i> parameter.
+The <i>instanceId</i> parameter is used to specify that the component is to be restored to a different writer instance. If the value of the <i>instanceId</i> parameter is not GUID_NULL, it must match the instance ID of a writer instance with the same writer class ID specified in the <i>writerID</i> parameter.
 
 A writer's class identifier, instance identifier, and instance name can be found by calling the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex">IVssExamineWriterMetadataEx::GetIdentityEx</a> method.
 

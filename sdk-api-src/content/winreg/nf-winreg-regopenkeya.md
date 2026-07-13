@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegOpenKeyA
 title: RegOpenKeyA function (winreg.h)
-description: Opens the specified registry key.
-helpviewer_keywords: ["RegOpenKey","RegOpenKey function","RegOpenKeyA","RegOpenKeyW","_win32_regopenkey","base.regopenkey","winreg/RegOpenKey","winreg/RegOpenKeyA","winreg/RegOpenKeyW"]
+description: Opens the specified registry key. (ANSI)
+helpviewer_keywords: ["RegOpenKeyA", "winreg/RegOpenKeyA"]
 old-location: base\regopenkey.htm
 tech.root: winprog
 ms.assetid: bad0a0f8-1889-4eff-98be-084c95d69f3b
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l2-3-0.dll
  - Advapi32.dll
  - API-MS-Win-Core-Registry-l2-1-0.dll
  - advapi32legacy.dll
@@ -68,11 +69,11 @@ A handle to an open registry key. This handle is returned by the
 <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function, or it can be one of the following 
 <a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
-<b>HKEY_CLASSES_ROOT</b>
-<b>HKEY_CURRENT_CONFIG</b>
-<b>HKEY_CURRENT_USER</b>
-<b>HKEY_LOCAL_MACHINE</b>
-<b>HKEY_USERS</b>
+* <b>HKEY_CLASSES_ROOT</b>
+* <b>HKEY_CURRENT_CONFIG</b>
+* <b>HKEY_CURRENT_USER</b>
+* <b>HKEY_LOCAL_MACHINE</b>
+* <b>HKEY_USERS</b>
 
 ### -param lpSubKey [in, optional]
 
@@ -112,7 +113,7 @@ If your service or application impersonates different users, do not use this fun
 
 
 > [!NOTE]
-> The winreg.h header defines RegOpenKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegOpenKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

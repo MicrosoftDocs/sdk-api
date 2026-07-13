@@ -55,7 +55,7 @@ api_name:
 
 Returns a handle to the font to be displayed on property and wizard pages.
 
-## -parameters
+
 
 ## -returns
 

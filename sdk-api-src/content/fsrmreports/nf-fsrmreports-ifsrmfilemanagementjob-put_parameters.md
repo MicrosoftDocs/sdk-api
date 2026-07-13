@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Parameters
 title: IFsrmFileManagementJob::put_Parameters (fsrmreports.h)
-description: The parameters for the file management job.
+description: The parameters for the file management job. (Put)
 helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","Parameters property","IFsrmFileManagementJob.Parameters","IFsrmFileManagementJob.put_Parameters","IFsrmFileManagementJob::Parameters","IFsrmFileManagementJob::get_Parameters","IFsrmFileManagementJob::put_Parameters","Parameters property [File Server Resource Manager]","Parameters property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_parameters","fsrm.ifsrmfilemanagementjob_parameters","fsrmreports/IFsrmFileManagementJob::Parameters","fsrmreports/IFsrmFileManagementJob::get_Parameters","fsrmreports/IFsrmFileManagementJob::put_Parameters","put_Parameters"]
 old-location: fsrm\ifsrmfilemanagementjob_parameters.htm
 tech.root: fsrm

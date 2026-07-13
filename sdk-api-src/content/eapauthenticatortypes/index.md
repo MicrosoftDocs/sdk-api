@@ -4,7 +4,8 @@ title: Eapauthenticatortypes.h header
 ms.assetid: 0d23718a-e379-3023-8412-598fbba7b01b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: eaphost
 f1_keywords:
  - eapauthenticatortypes

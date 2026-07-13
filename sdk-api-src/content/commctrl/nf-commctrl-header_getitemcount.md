@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetItemCount","Header_GetItemCount macro [Windows 
 old-location: controls\Header_GetItemCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetItemCount, Header_GetItemCount macro [Windows Controls], _win32_Header_GetItemCount, _win32_Header_GetItemCount_cpp, commctrl/Header_GetItemCount, controls.Header_GetItemCount, controls._win32_Header_GetItemCount
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # Header_GetItemCount macro
 
+## -syntax
+
+```cpp
+int Header_GetItemCount(
+   HWND hwndHD
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the number of items if successful, or -1 otherwise.
+
 
 ## -description
 
@@ -64,6 +78,10 @@ A handle to the header control.
 
 The <b>Header_GetItemCount</b> macro is defined as follows. 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_GetItemCount(hwndHD)   \
 
-       (int)SendMessage((hwndHD), HDM_GETITEMCOUNT, 0, 0L)</code></pre>
+``` syntax
+#define Header_GetItemCount(hwndHD)   \
+
+       (int)SendMessage((hwndHD), HDM_GETITEMCOUNT, 0, 0L)
+```
+

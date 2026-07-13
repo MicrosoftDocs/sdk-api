@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetMonitorInfoW
 title: GetMonitorInfoW function (winuser.h)
-description: The GetMonitorInfo function retrieves information about a display monitor.
-helpviewer_keywords: ["GetMonitorInfo","GetMonitorInfo function [Windows GDI]","GetMonitorInfoA","GetMonitorInfoW","_win32_GetMonitorInfo","gdi.getmonitorinfo","winuser/GetMonitorInfo","winuser/GetMonitorInfoA","winuser/GetMonitorInfoW"]
+description: The GetMonitorInfo function retrieves information about a display monitor. (Unicode)
+helpviewer_keywords: ["GetMonitorInfo", "GetMonitorInfo function [Windows GDI]", "GetMonitorInfoW", "_win32_GetMonitorInfo", "gdi.getmonitorinfo", "winuser/GetMonitorInfo", "winuser/GetMonitorInfoW"]
 old-location: gdi\getmonitorinfo.htm
 tech.root: gdi
 ms.assetid: 025a89c2-4bbd-4c8b-8367-3735fb5b872a
@@ -98,4 +98,4 @@ If the function fails, the return value is zero.
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines GetMonitorInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetMonitorInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

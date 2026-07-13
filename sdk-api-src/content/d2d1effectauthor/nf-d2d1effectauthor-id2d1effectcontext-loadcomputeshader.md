@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.LoadComputeShader
 title: ID2D1EffectContext::LoadComputeShader (d2d1effectauthor.h)
-description: Loads the given shader by its unique ID.
+description: Loads the given shader by its unique ID. (ID2D1EffectContext.LoadComputeShader)
 helpviewer_keywords: ["ID2D1EffectContext interface [Direct2D]","LoadComputeShader method","ID2D1EffectContext.LoadComputeShader","ID2D1EffectContext::LoadComputeShader","LoadComputeShader","LoadComputeShader method [Direct2D]","LoadComputeShader method [Direct2D]","ID2D1EffectContext interface","d2d1effectauthor/ID2D1EffectContext::LoadComputeShader","direct2d.id2d1contextinternal_loadcomputeshader"]
 old-location: direct2d\id2d1contextinternal_loadcomputeshader.htm
 tech.root: Direct2D

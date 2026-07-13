@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capPreviewRate","capPreviewRate","capPreviewRate m
 old-location: multimedia\cappreviewrate.htm
 tech.root: Multimedia
 ms.assetid: 72d885cb-5a48-4403-a668-c3c437405317
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capPreviewRate, capPreviewRate, capPreviewRate macro [Windows Multimedia], multimedia.cappreviewrate, vfw/capPreviewRate
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capPreviewRate macro
+
+## -syntax
+
+```cpp
+BOOL capPreviewRate(
+     hwnd,
+     wMS
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if the capture window is not connected to a capture driver.
 
 
 ## -description

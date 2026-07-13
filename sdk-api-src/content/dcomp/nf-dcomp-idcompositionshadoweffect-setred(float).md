@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetRed(float)
 title: IDCompositionShadowEffect::SetRed (dcomp.h)
-description: Sets the red value for the color of the shadow.
+description: Sets the red value for the color of the shadow. (overload 2/2)
 helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetRed method","IDCompositionShadowEffect.SetRed","IDCompositionShadowEffect::SetRed","IDCompositionShadowEffect::SetRed(float)","SetRed","SetRed method [DirectComposition]","SetRed method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetRed","directcomp.idcompositionshadoweffect_setred"]
 old-location: directcomp\idcompositionshadoweffect_setred.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ The red value for the color of the shadow.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

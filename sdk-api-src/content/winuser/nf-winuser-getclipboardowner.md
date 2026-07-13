@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
@@ -59,7 +61,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 
 Retrieves the window handle of the current owner of the clipboard.
 
-## -parameters
+
 
 ## -returns
 

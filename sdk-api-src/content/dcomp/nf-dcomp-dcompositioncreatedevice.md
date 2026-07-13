@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.DCompositionCreateDevice
 title: DCompositionCreateDevice function (dcomp.h)
-description: Creates a new device object that can be used to create other Microsoft DirectComposition objects.
+description: Creates a new device object that can be used to create other Microsoft DirectComposition objects. (DCompositionCreateDevice)
 helpviewer_keywords: ["DCompositionCreateDevice","DCompositionCreateDevice function [DirectComposition]","dcomp/DCompositionCreateDevice","directcomp.dcompositioncreatedevice"]
 old-location: directcomp\dcompositioncreatedevice.htm
 tech.root: directcomp

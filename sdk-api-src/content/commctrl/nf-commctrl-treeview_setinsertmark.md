@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetInsertMark","TreeView_SetInsertMark macro [Wi
 old-location: controls\TreeView_SetInsertMark.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setinsertmark.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetInsertMark, TreeView_SetInsertMark macro [Windows Controls], _win32_TreeView_SetInsertMark, _win32_TreeView_SetInsertMark_cpp, commctrl/TreeView_SetInsertMark, controls.TreeView_SetInsertMark, controls._win32_TreeView_SetInsertMark
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TreeView_SetInsertMark macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_SetInsertMark(
+   HWND      hwnd,
+   HTREEITEM hItem,
+   BOOL      fAfter
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

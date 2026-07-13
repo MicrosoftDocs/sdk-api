@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_SelectItemData","ComboBox_SelectItemData macro [
 old-location: controls\ComboBox_SelectItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectitemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_SelectItemData, ComboBox_SelectItemData macro [Windows Controls], _win32_ComboBox_SelectItemData, _win32_ComboBox_SelectItemData_cpp, controls.ComboBox_SelectItemData, controls._win32_ComboBox_SelectItemData, windowsx/ComboBox_SelectItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ComboBox_SelectItemData macro
+
+## -syntax
+
+```cpp
+int ComboBox_SelectItemData(
+   HWND   hwndCtl,
+   int    indexStart,
+   LPARAM data
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the search is successful, the return value is the index of the selected item. If the search is unsuccessful, the return value is CB_ERR and the current selection is not changed.
 
 
 ## -description

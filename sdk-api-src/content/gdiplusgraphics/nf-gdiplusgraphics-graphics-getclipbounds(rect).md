@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetClipBounds(Rect)
 title: Graphics::GetClipBounds(OUT Rect) (gdiplusgraphics.h)
-description: The Graphics::GetClipBounds method gets a rectangle that encloses the clipping region of this Graphics object.
+description: The Graphics::GetClipBounds method gets a rectangle that encloses the clipping region of this Graphics object. (overload 1/2)
 helpviewer_keywords: ["GetClipBounds","GetClipBounds method [GDI+]","GetClipBounds method [GDI+]","Graphics class","Graphics class [GDI+]","GetClipBounds method","Graphics.GetClipBounds","Graphics.GetClipBounds(OUT Rect)","Graphics.GetClipBounds(Rect*)","Graphics::GetClipBounds","Graphics::GetClipBounds(OUT Rect)","_gdiplus_CLASS_Graphics_GetClipBounds_Rect_rect_","gdiplus._gdiplus_CLASS_Graphics_GetClipBounds_Rect_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetClipBounds_Rect_rect_.htm
 tech.root: gdiplus

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_SetScrollInfo","Pager_SetScrollInfo macro [Windows 
 old-location: controls\Pager_SetScrollInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setscrollinfo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_SetScrollInfo, Pager_SetScrollInfo macro [Windows Controls], _win32_Pager_SetScrollInfo, _win32_Pager_SetScrollInfo_cpp, commctrl/Pager_SetScrollInfo, controls.Pager_SetScrollInfo, controls._win32_Pager_SetScrollInfo
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # Pager_SetScrollInfo macro
+
+## -syntax
+
+```cpp
+int Pager_SetScrollInfo(
+   HWND hwnd,
+   UINT cTimeOut,
+   UINT cLinesPer,
+   UINT cPixelsPerLine
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is not used.
 
 
 ## -description

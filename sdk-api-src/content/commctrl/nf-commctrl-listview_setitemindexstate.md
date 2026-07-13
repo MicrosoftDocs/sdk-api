@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetItemIndexState","ListView_SetItemIndexState m
 old-location: controls\ListView_SetItemIndexState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemindexstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetItemIndexState, ListView_SetItemIndexState macro [Windows Controls], _shell_ListView_SetItemIndexState, _shell_ListView_SetItemIndexState_cpp, commctrl/ListView_SetItemIndexState, controls.ListView_SetItemIndexState, controls._shell_ListView_SetItemIndexState
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,29 @@ api_name:
 ---
 
 # ListView_SetItemIndexState macro
+
+## -syntax
+
+```cpp
+HRESULT ListView_SetItemIndexState(
+  [in] HWND        hwndLV,
+  [in] LVITEMINDEX *plvii,
+  [in] UINT        data,
+  [in] UINT        mask
+);
+```
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns one of the following values of type <b>HRESULT</b>.
+
+| Return code | Description |
+|---|---|
+| E_FAIL | The state could not be set. |
+| E_UNEXPECTED | The list-view control was not ready for the operation. |
+| S_OK | The operation was successful. |
 
 
 ## -description

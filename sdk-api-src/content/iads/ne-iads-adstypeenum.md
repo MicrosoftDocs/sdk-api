@@ -56,7 +56,7 @@ The <b>ADSTYPEENUM</b> enumeration is used to identify the data type of an ADSI 
 
 ## -enum-fields
 
-### -field ADSTYPE_INVALID
+### -field ADSTYPE_INVALID:0
 
 The data type is not valid
 

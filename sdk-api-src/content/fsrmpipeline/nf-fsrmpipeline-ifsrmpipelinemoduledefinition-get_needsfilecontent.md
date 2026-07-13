@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_NeedsFileContent
 title: IFsrmPipelineModuleDefinition::get_NeedsFileContent (fsrmpipeline.h)
-description: Determines whether the module needs to read the contents of the file.
+description: Determines whether the module needs to read the contents of the file. (Get)
 helpviewer_keywords: ["IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","NeedsFileContent property","IFsrmPipelineModuleDefinition.NeedsFileContent","IFsrmPipelineModuleDefinition.get_NeedsFileContent","IFsrmPipelineModuleDefinition::NeedsFileContent","IFsrmPipelineModuleDefinition::get_NeedsFileContent","IFsrmPipelineModuleDefinition::put_NeedsFileContent","NeedsFileContent property [File Server Resource Manager]","NeedsFileContent property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","fs.ifsrmpipelinemoduledefinition_needsfilecontent","fsrm.ifsrmpipelinemoduledefinition_needsfilecontent","fsrmpipeline/IFsrmPipelineModuleDefinition::NeedsFileContent","fsrmpipeline/IFsrmPipelineModuleDefinition::get_NeedsFileContent","fsrmpipeline/IFsrmPipelineModuleDefinition::put_NeedsFileContent","get_NeedsFileContent"]
 old-location: fsrm\ifsrmpipelinemoduledefinition_needsfilecontent.htm
 tech.root: fsrm

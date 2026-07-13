@@ -1,5 +1,5 @@
 ---
-UID: NS:winuser.__unnamed_struct_1
+UID: NS:winuser.POWERBROADCAST_SETTING
 title: POWERBROADCAST_SETTING (winuser.h)
 description: Sent with a power setting event and contains data about the specific change.
 helpviewer_keywords: ["*PPOWERBROADCAST_SETTING","POWERBROADCAST_SETTING","POWERBROADCAST_SETTING structure","PPOWERBROADCAST_SETTING","PPOWERBROADCAST_SETTING structure pointer","base.powerbroadcast_setting","winuser/POWERBROADCAST_SETTING","winuser/PPOWERBROADCAST_SETTING"]
@@ -78,3 +78,4 @@ The new value of the power setting. The type and possible values for this member
 
 
 <a href="/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>
+

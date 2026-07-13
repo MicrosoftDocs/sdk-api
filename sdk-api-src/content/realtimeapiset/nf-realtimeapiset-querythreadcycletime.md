@@ -6,10 +6,10 @@ helpviewer_keywords: ["QueryThreadCycleTime","QueryThreadCycleTime function","ba
 old-location: base\querythreadcycletime.htm
 tech.root: backup
 ms.assetid: 5828b073-48af-4118-9206-096b87c978e7
-ms.date: 12/05/2018
+ms.date: 09/26/2024
 ms.keywords: QueryThreadCycleTime, QueryThreadCycleTime function, base.querythreadcycletime, realtimeapiset/QueryThreadCycleTime, winbase/QueryThreadCycleTime
 req.header: realtimeapiset.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-realtime-l1-1-2.dll
  - Kernel32.dll
  - API-MS-Win-Core-realtime-l1-1-0.dll
  - KernelBase.dll
@@ -61,8 +62,8 @@ Retrieves the cycle time for the specified thread.
 
 ### -param ThreadHandle [in]
 
-A handle to the thread. The handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right. For more information, see 
-<a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the thread. The handle must have the THREAD_QUERY_INFORMATION or THREAD_QUERY_LIMITED_INFORMATION access right. For more information, see 
+<a href="/windows/win32/procthread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ### -param CycleTime [out]
 

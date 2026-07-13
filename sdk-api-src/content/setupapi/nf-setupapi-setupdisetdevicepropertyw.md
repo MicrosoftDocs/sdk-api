@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:
@@ -70,7 +71,7 @@ A pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY
 
 ### -param PropertyType [in]
 
-A <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device instance property. For more information, see the <b>Remarks</b> section later in this topic.
+A <a href="/windows-hardware/drivers/install/property-data-type-identifiers">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device instance property. For more information, see the <b>Remarks</b> section later in this topic.
 
 ### -param PropertyBuffer [in, optional]
 
@@ -78,7 +79,7 @@ A pointer to a buffer that contains the device instance property value. If the p
 
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer</i> buffer. If <i>PropertyBuffer </i>is <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
+The size, in bytes, of the <i>PropertyBuffer</i> buffer. If <i>PropertyBuffer </i> is <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
 
 ### -param Flags [in]
 

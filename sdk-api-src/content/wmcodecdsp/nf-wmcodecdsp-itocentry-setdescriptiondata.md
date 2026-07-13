@@ -92,7 +92,7 @@ The method succeeded.
 
 You can use this method to associate any information of your choice with the entry. The nature of the information you store in the description data block is completely up to you. TOC Parser does not inspect or interpret the description data block.
 
-You can associate only one description data block with a given entry at a given time. However, you might want to design different types of description data blocks and identfy each type of block with a globally unique identifier (GUID). That way, you could associate description data of a certain type with some of your entries and description data of a different type with other entries. If you do not need to distinguish between different types of description data blocks, you can set <i>pguidType</i> to <b>NULL</b>.
+You can associate only one description data block with a given entry at a given time. However, you might want to design different types of description data blocks and identify each type of block with a globally unique identifier (GUID). That way, you could associate description data of a certain type with some of your entries and description data of a different type with other entries. If you do not need to distinguish between different types of description data blocks, you can set <i>pguidType</i> to <b>NULL</b>.
 
 ## -see-also
 

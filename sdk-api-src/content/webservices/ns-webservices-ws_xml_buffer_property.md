@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_BUFFER_PROPERTY
 title: WS_XML_BUFFER_PROPERTY (webservices.h)
-description: Specifies an XML buffer�specific setting.
+description: Specifies an XML buffer specific setting.
 helpviewer_keywords: ["WS_XML_BUFFER_PROPERTY","WS_XML_BUFFER_PROPERTY structure [Web Services for Windows]","webservices/WS_XML_BUFFER_PROPERTY","wsw.ws_xml_buffer_property"]
 old-location: wsw\ws_xml_buffer_property.htm
 tech.root: wsw

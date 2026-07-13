@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_UAV
 title: D3D12_TEX2D_UAV (d3d12.h)
-description: Describes a unordered-access 2D texture resource.
+description: Describes a unordered-access 2D texture resource. (D3D12_TEX2D_UAV)
 helpviewer_keywords: ["D3D12_TEX2D_UAV","D3D12_TEX2D_UAV structure","d3d12/D3D12_TEX2D_UAV","direct3d12.d3d12_tex2d_uav"]
 old-location: direct3d12\d3d12_tex2d_uav.htm
 tech.root: direct3d12

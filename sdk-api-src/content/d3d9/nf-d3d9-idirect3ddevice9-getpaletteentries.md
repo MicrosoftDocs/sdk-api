@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetPaletteEntries
 title: IDirect3DDevice9::GetPaletteEntries (d3d9.h)
-description: Retrieves palette entries.
+description: The IDirect3DDevice9::GetPaletteEntries method (d3d9.h) retrieves palette entries.
 helpviewer_keywords: ["GetPaletteEntries","GetPaletteEntries method [Direct3D 9]","GetPaletteEntries method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetPaletteEntries method","IDirect3DDevice9.GetPaletteEntries","IDirect3DDevice9::GetPaletteEntries","c99163c4-eea0-1af6-c7fd-c8d1cfd3d969","d3d9helper/IDirect3DDevice9::GetPaletteEntries","direct3d9.idirect3ddevice9__getpaletteentries"]
 old-location: direct3d9\idirect3ddevice9__getpaletteentries.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getpaletteentries.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: GetPaletteEntries, GetPaletteEntries method [Direct3D 9], GetPaletteEntries method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPaletteEntries method, IDirect3DDevice9.GetPaletteEntries, IDirect3DDevice9::GetPaletteEntries, c99163c4-eea0-1af6-c7fd-c8d1cfd3d969, d3d9helper/IDirect3DDevice9::GetPaletteEntries, direct3d9.idirect3ddevice9__getpaletteentries
 req.header: d3d9.h
 req.include-header: D3D9.h

@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptdlg.tagCERT_VIEWPROPERTIES_STRUCT_W
 title: CERT_VIEWPROPERTIES_STRUCT_W (cryptdlg.h)
-description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties.
+description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties. (Unicode)
 helpviewer_keywords: ["*PCERT_VIEWPROPERTIES_STRUCT_W","CERT_VIEWPROPERTIES_STRUCT","CERT_VIEWPROPERTIES_STRUCT structure [Security]","CERT_VIEWPROPERTIES_STRUCT_W","CM_ADD_CERT_STORES","CM_ENABLEHOOK","CM_ENABLETEMPLATE","CM_HIDE_ADVANCEPAGE","CM_HIDE_DETAILPAGE","CM_HIDE_TRUSTPAGE","CM_NO_EDITTRUST","CM_NO_NAMECHANGE","CM_SHOW_HELP","CM_SHOW_HELPICON","PCERT_VIEWPROPERTIES_STRUCT","PCERT_VIEWPROPERTIES_STRUCT structure pointer [Security]","cryptdlg/CERT_VIEWPROPERTIES_STRUCT","cryptdlg/PCERT_VIEWPROPERTIES_STRUCT","security.cert_viewproperties_struct"]
 old-location: security\cert_viewproperties_struct.htm
 tech.root: security
@@ -275,4 +275,4 @@ A pointer to an array of <b>PROPSHEETPAGE</b> structures that specify the proper
 ## -remarks
 
 > [!NOTE]
-> The cryptdlg.h header defines CERT_VIEWPROPERTIES_STRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cryptdlg.h header defines CERT_VIEWPROPERTIES_STRUCT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

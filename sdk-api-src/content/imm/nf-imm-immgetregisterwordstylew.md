@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmGetRegisterWordStyleW
 title: ImmGetRegisterWordStyleW function (imm.h)
-description: Retrieves a list of the styles supported by the IME associated with the specified input locale.
-helpviewer_keywords: ["ImmGetRegisterWordStyle","ImmGetRegisterWordStyle function [Internationalization for Windows Applications]","ImmGetRegisterWordStyleA","ImmGetRegisterWordStyleW","_win32_ImmGetRegisterWordStyle","imm/ImmGetRegisterWordStyle","imm/ImmGetRegisterWordStyleA","imm/ImmGetRegisterWordStyleW","intl.immgetregisterwordstyle"]
+description: The ImmGetRegisterWordStyleW (Unicode) function (imm.h) retrieves a list of the styles supported by the IME associated with the specified input locale.
+helpviewer_keywords: ["ImmGetRegisterWordStyle", "ImmGetRegisterWordStyle function [Internationalization for Windows Applications]", "ImmGetRegisterWordStyleW", "_win32_ImmGetRegisterWordStyle", "imm/ImmGetRegisterWordStyle", "imm/ImmGetRegisterWordStyleW", "intl.immgetregisterwordstyle"]
 old-location: intl\immgetregisterwordstyle.htm
 tech.root: Intl
 ms.assetid: 29ddf963-f421-4fad-9861-a6ed51e481ac
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmGetRegisterWordStyle, ImmGetRegisterWordStyle function [Internationalization for Windows Applications], ImmGetRegisterWordStyleA, ImmGetRegisterWordStyleW, _win32_ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyleA, imm/ImmGetRegisterWordStyleW, intl.immgetregisterwordstyle
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -87,4 +87,4 @@ Returns the number of styles copied to the buffer. If the application sets the <
 ## -remarks
 
 > [!NOTE]
-> The imm.h header defines ImmGetRegisterWordStyle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The imm.h header defines ImmGetRegisterWordStyle as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

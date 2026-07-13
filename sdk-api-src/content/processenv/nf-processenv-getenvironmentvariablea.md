@@ -1,15 +1,15 @@
 ---
 UID: NF:processenv.GetEnvironmentVariableA
 title: GetEnvironmentVariableA function (processenv.h)
-description: Retrieves the contents of the specified variable from the environment block of the calling process.
-helpviewer_keywords: ["GetEnvironmentVariable","GetEnvironmentVariable function","GetEnvironmentVariableA","GetEnvironmentVariableW","_win32_getenvironmentvariable","base.getenvironmentvariable","processenv/GetEnvironmentVariable","processenv/GetEnvironmentVariableA","processenv/GetEnvironmentVariableW","winbase/GetEnvironmentVariable","winbase/GetEnvironmentVariableA","winbase/GetEnvironmentVariableW"]
+description: Retrieves the contents of the specified variable from the environment block of the calling process. (GetEnvironmentVariableA)
+helpviewer_keywords: ["GetEnvironmentVariableA", "processenv/GetEnvironmentVariableA"]
 old-location: base\getenvironmentvariable.htm
 tech.root: backup
 ms.assetid: 1d4cc328-12e6-4aae-9f58-58675116ad54
 ms.date: 12/05/2018
 ms.keywords: GetEnvironmentVariable, GetEnvironmentVariable function, GetEnvironmentVariableA, GetEnvironmentVariableW, _win32_getenvironmentvariable, base.getenvironmentvariable, processenv/GetEnvironmentVariable, processenv/GetEnvironmentVariableA, processenv/GetEnvironmentVariableW, winbase/GetEnvironmentVariable, winbase/GetEnvironmentVariableA, winbase/GetEnvironmentVariableW
 req.header: processenv.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -92,7 +92,7 @@ For an example, see
 <a href="/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
 
 > [!NOTE]
-> The processenv.h header defines GetEnvironmentVariable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The processenv.h header defines GetEnvironmentVariable as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

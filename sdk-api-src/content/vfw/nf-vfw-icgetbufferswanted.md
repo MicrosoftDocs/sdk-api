@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICGetBuffersWanted","ICGetBuffersWanted macro [Windows Mu
 old-location: multimedia\icgetbufferswanted.htm
 tech.root: Multimedia
 ms.assetid: ed294649-d7e7-4e5f-89d4-49ed65c71b96
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICGetBuffersWanted macro
+
+## -syntax
+
+```cpp
+DWORD ICGetBuffersWanted(
+     hic,
+     lpdwBuffers
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or ICERR_UNSUPPORTED otherwise.
 
 
 ## -description

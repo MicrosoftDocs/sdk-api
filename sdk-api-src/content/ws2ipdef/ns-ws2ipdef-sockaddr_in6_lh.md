@@ -1,12 +1,12 @@
 ---
 UID: NS:ws2ipdef.sockaddr_in6
 title: SOCKADDR_IN6_LH (ws2ipdef.h)
-description: The SOCKADDR_IN6 structure specifies a transport address and port for the AF_INET6 address family.
+description: The SOCKADDR_IN6_LH (ws2ipdef.h) structure specifies a transport address and port for the AF_INET6 address family.
 helpviewer_keywords: ["*LPSOCKADDR_IN6","*LPSOCKADDR_IN6_LH","*PSOCKADDR_IN6","*PSOCKADDR_IN6_LH","PSOCKADDR_IN6","PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista]","SOCKADDR_IN6","SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista]","SOCKADDR_IN6_LH","netvista.sockaddr_in6","ws2ipdef/PSOCKADDR_IN6","ws2ipdef/SOCKADDR_IN6","wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml"]
 old-location: netvista\sockaddr_in6.htm
 tech.root: NetVista
 ms.assetid: ef2955d2-5dc1-420b-a9e0-32a584059d5a
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPSOCKADDR_IN6, *LPSOCKADDR_IN6_LH, *PSOCKADDR_IN6, *PSOCKADDR_IN6_LH, PSOCKADDR_IN6, PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN6, SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista], SOCKADDR_IN6_LH, netvista.sockaddr_in6, ws2ipdef/PSOCKADDR_IN6, ws2ipdef/SOCKADDR_IN6, wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml'
 req.header: ws2ipdef.h
 req.include-header: Ws2ipdef.h

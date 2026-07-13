@@ -6,7 +6,7 @@ helpviewer_keywords: ["LANGIDFROMLCID","LANGIDFROMLCID macro [Internationalizati
 old-location: intl\langidfromlcid.htm
 tech.root: Intl
 ms.assetid: 23392f93-8724-4b58-879e-4f48aaba4084
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: LANGIDFROMLCID, LANGIDFROMLCID macro [Internationalization for Windows Applications], _win32_LANGIDFROMLCID, intl.langidfromlcid, winnt/LANGIDFROMLCID
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # LANGIDFROMLCID macro
+
+## -syntax
+
+```cpp
+WORD LANGIDFROMLCID(
+    LCID lcid
+);
+```
+
+## -returns
+
+Type: **WORD**
+
+Returns the language identifier.
 
 
 ## -description

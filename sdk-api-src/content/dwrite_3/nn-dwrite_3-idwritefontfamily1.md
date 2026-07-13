@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFamily1
 title: IDWriteFontFamily1 (dwrite_3.h)
-description: Represents a family of related fonts.
+description: Represents a family of related fonts. (IDWriteFontFamily1)
 helpviewer_keywords: ["IDWriteFontFamily1","IDWriteFontFamily1 interface [Direct Write]","IDWriteFontFamily1 interface [Direct Write]","described","directwrite.idwritefontfamily1","dwrite_3/IDWriteFontFamily1"]
 old-location: directwrite\idwritefontfamily1.htm
 tech.root: DirectWrite
 ms.assetid: 0642C2FA-03D0-4233-B8C4-27E4549B30BB
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontFamily1, IDWriteFontFamily1 interface [Direct Write], IDWriteFontFamily1 interface [Direct Write],described, directwrite.idwritefontfamily1, dwrite_3/IDWriteFontFamily1
 req.header: dwrite_3.h
 req.include-header: 
@@ -54,10 +54,7 @@ Represents a family of related fonts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFamily1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>. <b>IDWriteFontFamily1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontFamily1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>. <b>IDWriteFontFamily1</b> also has these types of members:
 
 ## -see-also
 

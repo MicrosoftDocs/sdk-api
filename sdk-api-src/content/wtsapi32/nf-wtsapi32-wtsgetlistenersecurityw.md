@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSGetListenerSecurityW
 title: WTSGetListenerSecurityW function (wtsapi32.h)
-description: Retrieves the security descriptor of a Remote Desktop Services listener.
-helpviewer_keywords: ["WTSGetListenerSecurity","WTSGetListenerSecurity function [Remote Desktop Services]","WTSGetListenerSecurityA","WTSGetListenerSecurityW","WTS_SECURITY_ALL_ACCESS","WTS_SECURITY_CONNECT","WTS_SECURITY_CURRENT_GUEST_ACCESS","WTS_SECURITY_CURRENT_USER_ACCESS","WTS_SECURITY_DISCONNECT","WTS_SECURITY_GUEST_ACCESS","WTS_SECURITY_LOGOFF","WTS_SECURITY_LOGON","WTS_SECURITY_MESSAGE","WTS_SECURITY_QUERY_INFORMATION","WTS_SECURITY_REMOTE_CONTROL","WTS_SECURITY_RESET","WTS_SECURITY_SET_INFORMATION","WTS_SECURITY_USER_ACCESS","WTS_SECURITY_VIRTUAL_CHANNELS","termserv.wtsgetlistenersecurity","wtsapi32/WTSGetListenerSecurity","wtsapi32/WTSGetListenerSecurityA","wtsapi32/WTSGetListenerSecurityW"]
+description: Retrieves the security descriptor of a Remote Desktop Services listener. (Unicode)
+helpviewer_keywords: ["WTSGetListenerSecurity", "WTSGetListenerSecurity function [Remote Desktop Services]", "WTSGetListenerSecurityW", "WTS_SECURITY_ALL_ACCESS", "WTS_SECURITY_CONNECT", "WTS_SECURITY_CURRENT_GUEST_ACCESS", "WTS_SECURITY_CURRENT_USER_ACCESS", "WTS_SECURITY_DISCONNECT", "WTS_SECURITY_GUEST_ACCESS", "WTS_SECURITY_LOGOFF", "WTS_SECURITY_LOGON", "WTS_SECURITY_MESSAGE", "WTS_SECURITY_QUERY_INFORMATION", "WTS_SECURITY_REMOTE_CONTROL", "WTS_SECURITY_RESET", "WTS_SECURITY_SET_INFORMATION", "WTS_SECURITY_USER_ACCESS", "WTS_SECURITY_VIRTUAL_CHANNELS", "termserv.wtsgetlistenersecurity", "wtsapi32/WTSGetListenerSecurity", "wtsapi32/WTSGetListenerSecurityW"]
 old-location: termserv\wtsgetlistenersecurity.htm
 tech.root: TermServ
 ms.assetid: 6e49df9a-679d-4cc1-9297-90cf1e3509fa
@@ -332,7 +332,7 @@ If the number of bytes needed for the buffer that receives the <a href="/windows
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSGetListenerSecurity as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSGetListenerSecurity as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

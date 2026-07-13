@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-media-avi-l1-1-0.dll
  - Avifil32.dll
 api_name:
  - AVIStreamWrite

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagCOMBOBOXEXITEMA
 title: COMBOBOXEXITEMA (commctrl.h)
-description: Contains information about an item in a ComboBoxEx control.
+description: Contains information about an item in a ComboBoxEx control. (ANSI)
 helpviewer_keywords: ["*PCOMBOBOXEXITEMA","CBEIF_DI_SETITEM","CBEIF_IMAGE","CBEIF_INDENT","CBEIF_LPARAM","CBEIF_OVERLAY","CBEIF_SELECTEDIMAGE","CBEIF_TEXT","COMBOBOXEXITEM","COMBOBOXEXITEM structure [Windows Controls]","COMBOBOXEXITEMA","COMBOBOXEXITEMW","PCOMBOBOXEXITEM","PCOMBOBOXEXITEM structure pointer [Windows Controls]","_win32_COMBOBOXEXITEM","_win32_COMBOBOXEXITEM_cpp","commctrl/COMBOBOXEXITEM","commctrl/COMBOBOXEXITEMA","commctrl/COMBOBOXEXITEMW","commctrl/PCOMBOBOXEXITEM","controls.COMBOBOXEXITEM","controls._win32_COMBOBOXEXITEM"]
 old-location: controls\COMBOBOXEXITEM.htm
 tech.root: Controls
@@ -201,4 +201,4 @@ A value specific to the item.
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines COMBOBOXEXITEM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines COMBOBOXEXITEM as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

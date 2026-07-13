@@ -56,7 +56,7 @@ The <b>SAFER_OBJECT_INFO_CLASS</b> enumeration type defines the type of informat
 
 ## -enum-fields
 
-### -field SaferObjectLevelId
+### -field SaferObjectLevelId:1
 
 Queries for the LEVELID constant.
 

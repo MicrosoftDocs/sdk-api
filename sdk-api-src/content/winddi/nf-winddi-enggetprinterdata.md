@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-core-win32k-full-export-l1-1-0.dll
  - Win32k.sys
 api_name:
  - EngGetPrinterData
@@ -50,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>EngGetPrinterData </b>function retrieves configuration data for the specified printer.
+The <b>EngGetPrinterData </b> function retrieves configuration data for the specified printer.
 
 ## -parameters
 

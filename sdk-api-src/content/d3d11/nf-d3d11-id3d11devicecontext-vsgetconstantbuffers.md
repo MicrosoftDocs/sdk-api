@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSGetConstantBuffers
 title: ID3D11DeviceContext::VSGetConstantBuffers (d3d11.h)
-description: Get the constant buffers used by the vertex shader pipeline stage.
+description: Get the constant buffers used by the vertex shader pipeline stage. (ID3D11DeviceContext.VSGetConstantBuffers)
 helpviewer_keywords: ["195aec78-0809-915e-4807-c20139d72b2b","ID3D11DeviceContext interface [Direct3D 11]","VSGetConstantBuffers method","ID3D11DeviceContext.VSGetConstantBuffers","ID3D11DeviceContext::VSGetConstantBuffers","VSGetConstantBuffers","VSGetConstantBuffers method [Direct3D 11]","VSGetConstantBuffers method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::VSGetConstantBuffers","direct3d11.id3d11devicecontext_vsgetconstantbuffers"]
 old-location: direct3d11\id3d11devicecontext_vsgetconstantbuffers.htm
 tech.root: direct3d11

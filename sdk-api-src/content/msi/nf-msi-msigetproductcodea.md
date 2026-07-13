@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetProductCodeA
 title: MsiGetProductCodeA function (msi.h)
-description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.
-helpviewer_keywords: ["MsiGetProductCode","MsiGetProductCode function","MsiGetProductCodeA","MsiGetProductCodeW","_msi_msigetproductcode","msi/MsiGetProductCode","msi/MsiGetProductCodeA","msi/MsiGetProductCodeW","setup.msigetproductcode"]
+description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application. (ANSI)
+helpviewer_keywords: ["MsiGetProductCodeA", "msi/MsiGetProductCodeA"]
 old-location: setup\msigetproductcode.htm
 tech.root: setup
 ms.assetid: 5893c437-6827-44d6-bc22-18c402dda894
@@ -142,7 +142,7 @@ During initialization, an application must determine the product code under whic
 
 
 > [!NOTE]
-> The msi.h header defines MsiGetProductCode as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetProductCode as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

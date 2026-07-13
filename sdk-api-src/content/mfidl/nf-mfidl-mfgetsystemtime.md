@@ -52,7 +52,7 @@ api_name:
 
 Returns the system time.
 
-## -parameters
+
 
 ## -returns
 

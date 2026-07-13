@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_INFO_EX
 title: EAP_METHOD_INFO_EX (eaptypes.h)
-description: Contains information about an EAP method.
+description: Contains information about an EAP method. (EAP_METHOD_INFO_EX)
 helpviewer_keywords: ["EAP_METHOD_INFO_EX","EAP_METHOD_INFO_EX structure [EAPHost]","eaphost.eap_method_info_ex","eaptypes/EAP_METHOD_INFO_EX"]
 old-location: eaphost\eap_method_info_ex.htm
 tech.root: eaphost

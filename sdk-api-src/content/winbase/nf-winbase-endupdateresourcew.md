@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.EndUpdateResourceW
 title: EndUpdateResourceW function (winbase.h)
-description: Commits or discards changes made prior to a call to UpdateResource.
-helpviewer_keywords: ["EndUpdateResource","EndUpdateResource function [Menus and Other Resources]","EndUpdateResourceA","EndUpdateResourceW","_win32_EndUpdateResource","_win32_endupdateresource_cpp","menurc.endupdateresource","winbase/EndUpdateResource","winbase/EndUpdateResourceA","winbase/EndUpdateResourceW","winui._win32_endupdateresource"]
+description: Commits or discards changes made prior to a call to UpdateResource. (Unicode)
+helpviewer_keywords: ["EndUpdateResource", "EndUpdateResource function [Menus and Other Resources]", "EndUpdateResourceW", "_win32_EndUpdateResource", "_win32_endupdateresource_cpp", "menurc.endupdateresource", "winbase/EndUpdateResource", "winbase/EndUpdateResourceW", "winui._win32_endupdateresource"]
 old-location: menurc\endupdateresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\endupdateresource.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-kernel32-updateresource-l1-1-0.dll
  - Kernel32.dll
 api_name:
  - EndUpdateResource
@@ -91,7 +92,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Updating R
 
 
 > [!NOTE]
-> The winbase.h header defines EndUpdateResource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines EndUpdateResource as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

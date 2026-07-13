@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_LineFromChar","Edit_LineFromChar macro [Windows Cont
 old-location: controls\Edit_LineFromChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linefromchar.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_LineFromChar, Edit_LineFromChar macro [Windows Controls], _win32_Edit_LineFromChar, _win32_Edit_LineFromChar_cpp, controls.Edit_LineFromChar, controls._win32_Edit_LineFromChar, windowsx/Edit_LineFromChar
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Edit_LineFromChar macro
+
+## -syntax
+
+```cpp
+int Edit_LineFromChar(
+   HWND hwndCtl,
+   int  ich
+);
+```
+
+## -returns
+
+Type: **int**
+
+The zero-based index of the line.
 
 
 ## -description

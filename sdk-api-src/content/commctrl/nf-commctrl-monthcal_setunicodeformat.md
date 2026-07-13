@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.MonthCal_SetUnicodeFormat
 title: MonthCal_SetUnicodeFormat macro (commctrl.h)
-description: Sets the Unicode character format flag for the control.
+description: Sets the Unicode character format flag for the control. (MonthCal_SetUnicodeFormat)
 helpviewer_keywords: ["MonthCal_SetUnicodeFormat","MonthCal_SetUnicodeFormat macro [Windows Controls]","_win32_MonthCal_SetUnicodeFormat","_win32_MonthCal_SetUnicodeFormat_cpp","commctrl/MonthCal_SetUnicodeFormat","controls.MonthCal_SetUnicodeFormat","controls._win32_MonthCal_SetUnicodeFormat"]
 old-location: controls\MonthCal_SetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setunicodeformat.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_SetUnicodeFormat, MonthCal_SetUnicodeFormat macro [Windows Controls], _win32_MonthCal_SetUnicodeFormat, _win32_MonthCal_SetUnicodeFormat_cpp, commctrl/MonthCal_SetUnicodeFormat, controls.MonthCal_SetUnicodeFormat, controls._win32_MonthCal_SetUnicodeFormat
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_SetUnicodeFormat macro
+
+## -syntax
+
+```cpp
+BOOL MonthCal_SetUnicodeFormat(
+   HWND hwnd,
+   BOOL fUnicode
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns the previous Unicode format flag for the control.
 
 
 ## -description

@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_32
+UID: NS:winioctl._MARK_HANDLE_INFO
 title: MARK_HANDLE_INFO
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 helpviewer_keywords: ["*PMARK_HANDLE_INFO","MARK_HANDLE_INFO","MARK_HANDLE_INFO structure [Files]","MARK_HANDLE_NOT_READ_COPY","MARK_HANDLE_NOT_REALTIME","MARK_HANDLE_NOT_TXF_SYSTEM_LOG","MARK_HANDLE_PROTECT_CLUSTERS","MARK_HANDLE_READ_COPY","MARK_HANDLE_REALTIME","MARK_HANDLE_TXF_SYSTEM_LOG","PMARK_HANDLE_INFO","PMARK_HANDLE_INFO structure pointer [Files]","USN_SOURCE_AUXILIARY_DATA","USN_SOURCE_DATA_MANAGEMENT","USN_SOURCE_REPLICATION_MANAGEMENT","_win32_mark_handle_info_str","base.mark_handle_info_str","fs.mark_handle_info_str","winioctl/MARK_HANDLE_INFO","winioctl/PMARK_HANDLE_INFO"]
@@ -144,7 +144,7 @@ Replication is being performed on client systems either from the cloud or server
 
 ### -field CopyNumber
 
-The zero-based copy number to use for subsequent reads. This is for use on  on Storage Spaces and Streams on 
+The zero-based copy number to use for subsequent reads. This is for use on Storage Spaces and Streams on 
         NTFS and ReFS and non-integrity streams on ReFS (streams with integrity on ReFS handle this automatically.)
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This member is not supported before Windows 8 and Windows Server 2012.
@@ -358,7 +358,7 @@ To retrieve a handle to a volume, call
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
-"\\.&#92;<i>X</i>:"
+"&#92;&#92;.&#92;<i>X</i>:"
 
 In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
      appears.
@@ -370,3 +370,4 @@ In the preceding string, <i>X</i> is the letter identifying the drive on which t
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
+

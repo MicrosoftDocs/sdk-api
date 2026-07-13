@@ -1,12 +1,12 @@
 ---
-UID: NS:digitalv.__unnamed_struct_25
+UID: NS:digitalv.MCI_DGV_SETAUDIO_PARMSA
 title: MCI_DGV_SETAUDIO_PARMSA (digitalv.h)
-description: The MCI_DGV_SETAUDIO_PARMS structure contains parameters for the MCI_SETAUDIO command for digital-video devices.
+description: The MCI_DGV_SETAUDIO_PARMSA (ANSI) structure (digitalv.h) contains parameters for the MCI_SETAUDIO command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_SETAUDIO_PARMSA","MCI_DGV_SETAUDIO_PARMS","MCI_DGV_SETAUDIO_PARMS structure [Windows Multimedia]","MCI_DGV_SETAUDIO_PARMSA","_win32_MCI_DGV_SETAUDIO_PARMS_str","digitalv/MCI_DGV_SETAUDIO_PARMS","multimedia.mci_dgv_setaudio_parms"]
 old-location: multimedia\mci_dgv_setaudio_parms.htm
 tech.root: Multimedia
 ms.assetid: 9c2e72d0-5f6a-4884-a072-ed3d38b953c5
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPMCI_DGV_SETAUDIO_PARMSA, MCI_DGV_SETAUDIO_PARMS, MCI_DGV_SETAUDIO_PARMS structure [Windows Multimedia], MCI_DGV_SETAUDIO_PARMSA, _win32_MCI_DGV_SETAUDIO_PARMS_str, digitalv/MCI_DGV_SETAUDIO_PARMS, multimedia.mci_dgv_setaudio_parms'
 req.header: digitalv.h
 req.include-header: 
@@ -88,7 +88,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 > [!NOTE]
-> The digitalv.h header defines MCI_DGV_SETAUDIO_PARMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The digitalv.h header defines MCI_DGV_SETAUDIO_PARMS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -105,3 +105,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

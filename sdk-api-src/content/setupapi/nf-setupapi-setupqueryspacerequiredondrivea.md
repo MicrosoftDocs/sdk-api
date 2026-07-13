@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQuerySpaceRequiredOnDriveA
 title: SetupQuerySpaceRequiredOnDriveA function (setupapi.h)
-description: The SetupQuerySpaceRequiredOnDrive function examines a disk space list to determine the space that is required to perform all the file operations listed for a specific drive.
-helpviewer_keywords: ["SetupQuerySpaceRequiredOnDrive","SetupQuerySpaceRequiredOnDrive function [Setup API]","SetupQuerySpaceRequiredOnDriveA","SetupQuerySpaceRequiredOnDriveW","_setupapi_setupqueryspacerequiredondrive","setup.setupqueryspacerequiredondrive","setupapi/SetupQuerySpaceRequiredOnDrive","setupapi/SetupQuerySpaceRequiredOnDriveA","setupapi/SetupQuerySpaceRequiredOnDriveW"]
+description: The SetupQuerySpaceRequiredOnDrive function examines a disk space list to determine the space that is required to perform all the file operations listed for a specific drive. (ANSI)
+helpviewer_keywords: ["SetupQuerySpaceRequiredOnDriveA", "setupapi/SetupQuerySpaceRequiredOnDriveA"]
 old-location: setup\setupqueryspacerequiredondrive.htm
 tech.root: setup
 ms.assetid: 529e04e2-671a-4aad-bb1c-2b24cf2e5cd1
@@ -160,4 +160,4 @@ The specified <i>DriveSpec</i> string is invalid.
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupQuerySpaceRequiredOnDrive as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQuerySpaceRequiredOnDrive as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

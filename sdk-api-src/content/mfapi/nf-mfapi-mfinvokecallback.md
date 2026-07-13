@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFInvokeCallback
 title: MFInvokeCallback function (mfapi.h)
-description: Invokes a callback method to complete an asynchronous operation.
+description: Invokes a callback method to complete an asynchronous operation. (MFInvokeCallback)
 helpviewer_keywords: ["28832d50-9b15-4eb0-96f9-2032d4edcaf4","MFInvokeCallback","MFInvokeCallback function [Media Foundation]","mf.mfinvokecallback","mfapi/MFInvokeCallback"]
 old-location: mf\mfinvokecallback.htm
 tech.root: mf
@@ -70,7 +70,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -82,7 +82,7 @@ The function succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALID_WORKQUEUE</b></b></dt>
+<dt><b>MF_E_INVALID_WORKQUEUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ Invalid work queue. For more information, see <a href="/windows/desktop/api/mfob
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

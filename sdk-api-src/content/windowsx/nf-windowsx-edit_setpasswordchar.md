@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetPasswordChar","Edit_SetPasswordChar macro [Window
 old-location: controls\Edit_SetPasswordChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setpasswordchar.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_SetPasswordChar, Edit_SetPasswordChar macro [Windows Controls], _win32_Edit_SetPasswordChar, _win32_Edit_SetPasswordChar_cpp, controls.Edit_SetPasswordChar, controls._win32_Edit_SetPasswordChar, windowsx/Edit_SetPasswordChar
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Edit_SetPasswordChar macro
+
+## -syntax
+
+```cpp
+void Edit_SetPasswordChar(
+   HWND hwndCtl,
+   UINT ch
+);
+```
 
 
 ## -description

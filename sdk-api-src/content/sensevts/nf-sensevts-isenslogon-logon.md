@@ -1,7 +1,7 @@
 ---
 UID: NF:sensevts.ISensLogon.Logon
 title: ISensLogon::Logon (sensevts.h)
-description: The Logon method notifies an application that a user is logged on.
+description: The Logon method notifies an application that a user is logged on. (ISensLogon.Logon)
 helpviewer_keywords: ["ISensLogon interface [SENS]","Logon method","ISensLogon.Logon","ISensLogon::Logon","Logon","Logon method [SENS]","Logon method [SENS]","ISensLogon interface","_zaw_isenslogon_logon","sens.isenslogon_logon","sensevts/ISensLogon::Logon","syncmgr.isenslogon_logon"]
 old-location: sens\isenslogon_logon.htm
 tech.root: Sens

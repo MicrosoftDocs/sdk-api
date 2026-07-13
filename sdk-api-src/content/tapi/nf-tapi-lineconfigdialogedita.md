@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineConfigDialogEditA
 title: lineConfigDialogEditA function (tapi.h)
-description: The lineConfigDialogEdit function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
-helpviewer_keywords: ["_tapi2_lineconfigdialogedit","lineConfigDialogEdit","lineConfigDialogEdit function [TAPI 2.2]","lineConfigDialogEditA","lineConfigDialogEditW","tapi/lineConfigDialogEdit","tapi/lineConfigDialogEditA","tapi/lineConfigDialogEditW","tapi2.lineconfigdialogedit"]
+description: The lineConfigDialogEdit function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device. (lineConfigDialogEditA)
+helpviewer_keywords: ["lineConfigDialogEditA", "tapi/lineConfigDialogEditA"]
 old-location: tapi2\lineconfigdialogedit.htm
 tech.root: tapi3
 ms.assetid: 417016c3-8053-4a70-bce4-b96cce5e09a5
@@ -126,7 +126,7 @@ The difference between this function and
 
 
 > [!NOTE]
-> The tapi.h header defines lineConfigDialogEdit as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineConfigDialogEdit as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

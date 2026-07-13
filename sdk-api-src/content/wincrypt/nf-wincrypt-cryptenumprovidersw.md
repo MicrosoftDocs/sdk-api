@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CryptEnumProvidersW
 title: CryptEnumProvidersW function (wincrypt.h)
-description: Important  This API is deprecated.
-helpviewer_keywords: ["CryptEnumProviders","CryptEnumProviders function [Security]","CryptEnumProvidersA","CryptEnumProvidersW","_crypto2_cryptenumproviders","security.cryptenumproviders","wincrypt/CryptEnumProviders","wincrypt/CryptEnumProvidersA","wincrypt/CryptEnumProvidersW"]
+description: Important  This API is deprecated. (CryptEnumProvidersW)
+helpviewer_keywords: ["CryptEnumProviders", "CryptEnumProviders function [Security]", "CryptEnumProvidersW", "_crypto2_cryptenumproviders", "security.cryptenumproviders", "wincrypt/CryptEnumProviders", "wincrypt/CryptEnumProvidersW"]
 old-location: security\cryptenumproviders.htm
 tech.root: security
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
@@ -252,7 +252,7 @@ void main()
 
 
 > [!NOTE]
-> The wincrypt.h header defines CryptEnumProviders as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincrypt.h header defines CryptEnumProviders as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

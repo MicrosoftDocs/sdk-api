@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY0_
 title: IPSEC_TUNNEL_POLICY0 (ipsectypes.h)
-description: Stores the quick mode negotiation policy for tunnel mode IPsec.
+description: Stores the quick mode negotiation policy for tunnel mode IPsec. (IPSEC_TUNNEL_POLICY0)
 helpviewer_keywords: ["IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME","IPSEC_POLICY_FLAG_ND_BOUNDARY","IPSEC_POLICY_FLAG_ND_SECURE","IPSEC_TUNNEL_POLICY0","IPSEC_TUNNEL_POLICY0 structure [Filtering]","fwp.ipsec_tunnel_policy0_struct","ipsectypes/IPSEC_TUNNEL_POLICY0"]
 old-location: fwp\ipsec_tunnel_policy0_struct.htm
 tech.root: fwp

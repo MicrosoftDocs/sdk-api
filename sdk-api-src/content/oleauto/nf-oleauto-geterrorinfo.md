@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-ole32-l1-1-0.dll
  - OleAut32.dll
  - API-MS-Win-Downlevel-OLE32-l1-1-1.dll
  - ComBase.dll

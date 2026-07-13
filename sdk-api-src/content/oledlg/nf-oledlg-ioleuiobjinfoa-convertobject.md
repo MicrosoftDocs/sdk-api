@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoA.ConvertObject
 title: IOleUIObjInfoA::ConvertObject (oledlg.h)
-description: Converts the object to the type of the specified CLSID.
+description: Converts the object to the type of the specified CLSID. (ANSI)
 helpviewer_keywords: ["ConvertObject","ConvertObject method [COM]","ConvertObject method [COM]","IOleUIObjInfo interface","ConvertObject method [COM]","IOleUIObjInfoA interface","ConvertObject method [COM]","IOleUIObjInfoW interface","IOleUIObjInfo interface [COM]","ConvertObject method","IOleUIObjInfo::ConvertObject","IOleUIObjInfoA interface [COM]","ConvertObject method","IOleUIObjInfoA.ConvertObject","IOleUIObjInfoA::ConvertObject","IOleUIObjInfoW interface [COM]","ConvertObject method","IOleUIObjInfoW::ConvertObject","_ole_IOleUIObjInfo_ConvertObject","com.ioleuiobjinfo_convertobject","oledlg/IOleUIObjInfo::ConvertObject","oledlg/IOleUIObjInfoA::ConvertObject","oledlg/IOleUIObjInfoW::ConvertObject"]
 old-location: com\ioleuiobjinfo_convertobject.htm
 tech.root: com

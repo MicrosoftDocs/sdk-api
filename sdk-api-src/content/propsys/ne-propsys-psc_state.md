@@ -54,17 +54,17 @@ Specifies the state of a property. They are set manually by the code that is hos
 
 ## -enum-fields
 
-### -field PSC_NORMAL
+### -field PSC_NORMAL:0
 
 The property has not been altered.
 
-### -field PSC_NOTINSOURCE
+### -field PSC_NOTINSOURCE:1
 
 The requested property does not exist for the file or stream on which the property handler was initialized.
 
-### -field PSC_DIRTY
+### -field PSC_DIRTY:2
 
 The property has been altered but has not yet been committed to the file or stream.
 
-### -field PSC_READONLY
+### -field PSC_READONLY:3
 

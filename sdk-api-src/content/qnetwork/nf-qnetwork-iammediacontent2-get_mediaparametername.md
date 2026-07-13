@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMMediaContent2 interface [DirectShow]","get_MediaParame
 old-location: dshow\iammediacontent2_get_mediaparametername.htm
 tech.root: dshow
 ms.assetid: 67eb8a01-312a-45ee-8da3-59a1f9f952ec
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_MediaParameterName method, IAMMediaContent2.get_MediaParameterName, IAMMediaContent2::get_MediaParameterName, IAMMediaContent2get_MediaParameterName, dshow.iammediacontent2_get_mediaparametername, get_MediaParameterName, get_MediaParameterName method [DirectShow], get_MediaParameterName method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_MediaParameterName
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_MediaParameterName</code> method retrieves the name of a custom parameter in an ASX file.
 

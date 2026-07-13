@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION, DIAGNOSTIC_DATA_EVEN
 description: A resource that represents a category, defined by an identifier and a name. A category is an organizational construct to categorize records for a given producer. For example, "Browsing Data" could be a category for the producer "Microsoft Edge".
 tech.root: security
 targetos: Windows
-ms.product: Windows
+ms.service: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -57,4 +57,3 @@ The name of this category.
 ## -remarks
 
 ## -see-also
-

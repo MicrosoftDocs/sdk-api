@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_UIContextMessage
 title: IX509PrivateKey::get_UIContextMessage (certenroll.h)
-description: Specifies or retrieves a string that contains user interface text associated with the private key.
+description: Specifies or retrieves a string that contains user interface text associated with the private key. (Get)
 helpviewer_keywords: ["IX509PrivateKey interface [Security]","UIContextMessage property","IX509PrivateKey.UIContextMessage","IX509PrivateKey.get_UIContextMessage","IX509PrivateKey::UIContextMessage","IX509PrivateKey::get_UIContextMessage","IX509PrivateKey::put_UIContextMessage","UIContextMessage property [Security]","UIContextMessage property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::UIContextMessage","certenroll/IX509PrivateKey::get_UIContextMessage","certenroll/IX509PrivateKey::put_UIContextMessage","get_UIContextMessage","security.ix509privatekey_uicontextmessage_property"]
 old-location: security\ix509privatekey_uicontextmessage_property.htm
 tech.root: security

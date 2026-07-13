@@ -30,7 +30,6 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
- - IPrintDialogCallback
  - commdlg/IPrintDialogCallback
 dev_langs:
  - c++
@@ -47,17 +46,13 @@ api_name:
 
 # IPrintDialogCallback interface
 
-
 ## -description
 
 Provides methods that enable an application to receive notifications and messages from the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function while the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a> is displayed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDialogCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPrintDialogCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogCallback</b> also has these types of members:
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","put_uiMode 
 old-location: wmp\iwmpplayer_put_uimode.htm
 tech.root: WMP
 ms.assetid: 154db914-a0c3-44de-b692-e1b7f9c681f6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_uiMode method, IWMPPlayer.put_uiMode, IWMPPlayer::put_uiMode, IWMPPlayerput_uiMode, put_uiMode, put_uiMode method [Windows Media Player], put_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_uimode, wmp/IWMPPlayer::put_uiMode
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_uiMode</b> method specifies a value indicating which controls are shown in the user interface.
 

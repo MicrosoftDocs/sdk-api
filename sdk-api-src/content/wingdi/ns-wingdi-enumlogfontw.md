@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTW
 title: ENUMLOGFONTW (wingdi.h)
-description: The ENUMLOGFONT structure defines the attributes of a font, the complete name of a font, and the style of a font.
+description: The ENUMLOGFONT structure defines the attributes of a font, the complete name of a font, and the style of a font. (Unicode)
 helpviewer_keywords: ["*LPENUMLOGFONTW","ENUMLOGFONT","ENUMLOGFONT structure [Windows GDI]","ENUMLOGFONTA","ENUMLOGFONTW","LPENUMLOGFONT","LPENUMLOGFONT structure pointer [Windows GDI]","_win32_ENUMLOGFONT_str","gdi.enumlogfont","wingdi/ENUMLOGFONT","wingdi/ENUMLOGFONTA","wingdi/ENUMLOGFONTW","wingdi/LPENUMLOGFONT"]
 old-location: gdi\enumlogfont.htm
 tech.root: gdi
@@ -91,4 +91,4 @@ The style of the font. For example, Bold Italic.
 ## -remarks
 
 > [!NOTE]
-> The wingdi.h header defines ENUMLOGFONT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines ENUMLOGFONT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

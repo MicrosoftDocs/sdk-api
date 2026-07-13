@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReaderNetworkConfig2 interface [windows Media Format]"
 old-location: wmformat\iwmreadernetworkconfig2_setautoreconnectlimit.htm
 tech.root: wmformat
 ms.assetid: 0ef6bb5c-6369-4b80-a227-da790b1ab6da
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetAutoReconnectLimit method, IWMReaderNetworkConfig2.SetAutoReconnectLimit, IWMReaderNetworkConfig2::SetAutoReconnectLimit, IWMReaderNetworkConfig2SetAutoReconnectLimit, SetAutoReconnectLimit, SetAutoReconnectLimit method [windows Media Format], SetAutoReconnectLimit method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setautoreconnectlimit, wmsdkidl/IWMReaderNetworkConfig2::SetAutoReconnectLimit
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetAutoReconnectLimit</b> method sets the maximum number of times the reader will attempt to reconnect to the server in the case of an unexpected disconnection. This feature, called Fast Reconnect, applies only to content being streamed from a server running Windows Media Services.
 

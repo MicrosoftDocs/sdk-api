@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.PolyDraw
 title: PolyDraw function (wingdi.h)
-description: The PolyDraw function draws a set of line segments and B�zier curves.
+description: The PolyDraw function draws a set of line segments and Bézier curves.
 helpviewer_keywords: ["PT_BEZIERTO","PT_CLOSEFIGURE","PT_LINETO","PT_MOVETO","PolyDraw","PolyDraw function [Windows GDI]","_win32_PolyDraw","gdi.polydraw","wingdi/PolyDraw"]
 old-location: gdi\polydraw.htm
 tech.root: gdi
@@ -61,7 +61,7 @@ A handle to a device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
+A pointer to an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
 
 ### -param aj [in]
 
@@ -174,7 +174,7 @@ This function updates the current position.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

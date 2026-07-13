@@ -55,7 +55,7 @@ The <b>EnumerateExtensionsClose</b>  method frees any resources connected with e
 
 All applications that use <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">ICertServerExit::EnumerateExtensionsSetup</a> and <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensions">ICertServerExit::EnumerateExtensions</a> should call <b>EnumerateExtensionsClose</b> when finished enumerating.
 
-## -parameters
+
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaQueryForestTrustInformation
 title: LsaQueryForestTrustInformation function (ntsecapi.h)
-description: Retrieves forest trust information for the specified Local Security Authority�TrustedDomain object.
+description: Retrieves forest trust information for the specified Local Security Authority TrustedDomain object.
 helpviewer_keywords: ["LsaQueryForestTrustInformation","LsaQueryForestTrustInformation function [Security]","ntsecapi/LsaQueryForestTrustInformation","security.lsaqueryforesttrustinformation"]
 old-location: security\lsaqueryforesttrustinformation.htm
 tech.root: security
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-lsa-l1-1-4.dll
+ - ext-ms-win-advapi32-lsa-l1-1-3.dll
+ - ext-ms-win-advapi32-lsa-l1-1-2.dll
  - Advapi32.dll
 api_name:
  - LsaQueryForestTrustInformation

@@ -37,19 +37,19 @@ Specifies the type of a Content Decryption Module (CDM) message.
 
 ## -enum-fields
 
-### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_REQUEST
+### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_REQUEST:0
 
 The message contains a request for a new license.
 
-### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_RENEWAL
+### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_RENEWAL:1
 
 The message contains a request to renew an existing license.
 
-### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_RELEASE
+### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_RELEASE:2
 
 The message contains a record of license destruction.
 
-### -field MF_MEDIAKEYSESSION_MESSAGETYPE_INDIVIDUALIZATION_REQUEST
+### -field MF_MEDIAKEYSESSION_MESSAGETYPE_INDIVIDUALIZATION_REQUEST:3
 
 The message contains a request for App-Assisted Individualization (or re-individualization).
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:dcomptypes.__unnamed_struct_0
+UID: NS:dcomptypes.DCOMPOSITION_FRAME_STATISTICS
 title: DCOMPOSITION_FRAME_STATISTICS (dcomptypes.h)
 description: Describes timing and composition statistics for a frame.
 helpviewer_keywords: ["DCOMPOSITION_FRAME_STATISTICS","DCOMPOSITION_FRAME_STATISTICS structure [DirectComposition]","PDCOMPOSITION_FRAME_STATISTICS","PDCOMPOSITION_FRAME_STATISTICS structure pointer [DirectComposition]","dcomptypes/DCOMPOSITION_FRAME_STATISTICS","dcomptypes/PDCOMPOSITION_FRAME_STATISTICS","directcomp.dcomposition_frame_statistics"]
@@ -91,3 +91,4 @@ The <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-getframesta
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-getframestatistics">IDCompositionDevice::GetFrameStatistics</a>
+

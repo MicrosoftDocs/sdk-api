@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetGroupInfo","ListView_GetGroupInfo macro [Wind
 old-location: controls\ListView_GetGroupInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetGroupInfo, ListView_GetGroupInfo macro [Windows Controls], _win32_ListView_GetGroupInfo, _win32_ListView_GetGroupInfo_cpp, commctrl/ListView_GetGroupInfo, controls.ListView_GetGroupInfo, controls._win32_ListView_GetGroupInfo
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetGroupInfo macro
+
+## -syntax
+
+```cpp
+int ListView_GetGroupInfo(
+   HWND     hwnd,
+   int      iGroupId,
+   PLVGROUP pgrp
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the ID of the group if successful, or -1 otherwise.
 
 
 ## -description

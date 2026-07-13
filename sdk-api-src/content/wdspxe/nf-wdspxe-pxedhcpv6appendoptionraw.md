@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6AppendOptionRaw
 title: PxeDhcpv6AppendOptionRaw function (wdspxe.h)
-description: Appends a DHCPv6 option to the reply packet.
+description: Appends a DHCPv6 option to the reply packet. (PxeDhcpv6AppendOptionRaw)
 helpviewer_keywords: ["PxeDhcpv6AppendOptionRaw","PxeDhcpv6AppendOptionRaw function [Windows Deployment Services]","wds.pxedhcpv6appendoptionraw","wdspxe/PxeDhcpv6AppendOptionRaw"]
 old-location: wds\pxedhcpv6appendoptionraw.htm
 tech.root: wds

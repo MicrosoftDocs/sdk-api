@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkTransactedW
 title: CreateSymbolicLinkTransactedW function (winbase.h)
-description: Creates a symbolic link as a transacted operation.
-helpviewer_keywords: ["CreateSymbolicLinkTransacted","CreateSymbolicLinkTransacted function [Files]","CreateSymbolicLinkTransactedA","CreateSymbolicLinkTransactedW","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclinktransacted","winbase/CreateSymbolicLinkTransacted","winbase/CreateSymbolicLinkTransactedA","winbase/CreateSymbolicLinkTransactedW"]
+description: Creates a symbolic link as a transacted operation. (Unicode)
+helpviewer_keywords: ["CreateSymbolicLinkTransacted", "CreateSymbolicLinkTransacted function [Files]", "CreateSymbolicLinkTransactedW", "SYMBOLIC_LINK_FLAG_DIRECTORY", "fs.createsymboliclinktransacted", "winbase/CreateSymbolicLinkTransacted", "winbase/CreateSymbolicLinkTransactedW"]
 old-location: fs\createsymboliclinktransacted.htm
 tech.root: fs
 ms.assetid: e440b940-129b-4638-a0b5-8f516687c74e
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
  - Kernel32Legacy.dll
@@ -211,7 +212,7 @@ SMB 3.0 does not support TxF.
 
 
 > [!NOTE]
-> The winbase.h header defines CreateSymbolicLinkTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CreateSymbolicLinkTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

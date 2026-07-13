@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Enabled
 title: INetFwAuthorizedApplication::put_Enabled (netfw.h)
-description: Indicates whether the settings for this application are currently enabled.
+description: Indicates whether the settings for this application are currently enabled. (Put)
 helpviewer_keywords: ["Enabled property [ICS/ICF]","Enabled property [ICS/ICF]","INetFwAuthorizedApplication interface","INetFwAuthorizedApplication interface [ICS/ICF]","Enabled property","INetFwAuthorizedApplication.Enabled","INetFwAuthorizedApplication.put_Enabled","INetFwAuthorizedApplication::Enabled","INetFwAuthorizedApplication::get_Enabled","INetFwAuthorizedApplication::put_Enabled","ics.inetfwauthorizedapplication_enabled","netfw/INetFwAuthorizedApplication::Enabled","netfw/INetFwAuthorizedApplication::get_Enabled","netfw/INetFwAuthorizedApplication::put_Enabled","put_Enabled"]
 old-location: ics\inetfwauthorizedapplication_enabled.htm
 tech.root: ics

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IExecAction.get_Path
 title: IExecAction::get_Path (taskschd.h)
-description: Gets or sets the path to an executable file.
+description: Gets or sets the path to an executable file. (Get)
 helpviewer_keywords: ["IExecAction interface [Task Scheduler]","Path property","IExecAction.Path","IExecAction.get_Path","IExecAction::Path","IExecAction::get_Path","IExecAction::put_Path","Path property [Task Scheduler]","Path property [Task Scheduler]","IExecAction interface","get_Path","taskschd.iexecaction_path","taskschd/IExecAction::Path","taskschd/IExecAction::get_Path","taskschd/IExecAction::put_Path"]
 old-location: taskschd\iexecaction_path.htm
 tech.root: taskschd

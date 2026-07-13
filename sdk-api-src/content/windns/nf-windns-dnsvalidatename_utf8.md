@@ -1,12 +1,12 @@
 ---
 UID: NF:windns.DnsValidateName_UTF8
 title: DnsValidateName_UTF8 function (windns.h)
-description: The DnsValidateName function validates the status of a specified DNS name.
+description: The DnsValidateName_UTF8 function (windns.h) function validates the status of a specified DNS name.
 helpviewer_keywords: ["DnsValidateName","DnsValidateName function [DNS]","DnsValidateName_A","DnsValidateName_UTF8","DnsValidateName_W","_dns_dnsvalidatename","dns.dnsvalidatename","windns/DnsValidateName","windns/DnsValidateName_A","windns/DnsValidateName_UTF8","windns/DnsValidateName_W"]
 old-location: dns\dnsvalidatename.htm
 tech.root: DNS
 ms.assetid: efdbd217-6936-42c1-a1eb-8655a62513ee
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: DnsValidateName, DnsValidateName function [DNS], DnsValidateName_A, DnsValidateName_UTF8, DnsValidateName_W, _dns_dnsvalidatename, dns.dnsvalidatename, windns/DnsValidateName, windns/DnsValidateName_A, windns/DnsValidateName_UTF8, windns/DnsValidateName_W
 req.header: windns.h
 req.include-header: 
@@ -145,7 +145,7 @@ The
 
 
 
-<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a>
 
 
 

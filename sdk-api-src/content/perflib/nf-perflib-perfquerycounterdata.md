@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-perf-legacy-l1-1-0.dll
  - AdvAPI32.dll
 api_name:
  - PerfQueryCounterData
@@ -143,7 +144,7 @@ For other types of failures, the return value is a
 
 ## -remarks
 
-The information about the performance counter values is  written to the buffer that <i>pCounterBlock</i> specifies as a <a href="/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block, which consists <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
+The information about the performance counter values is  written to the buffer that <i>pCounterBlock</i> specifies as a <a href="/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block, which consists <b>PERF_DATA_HEADER</b> structure followed by a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
 
 ## -see-also
 

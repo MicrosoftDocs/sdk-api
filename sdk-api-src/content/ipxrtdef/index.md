@@ -4,7 +4,8 @@ title: Ipxrtdef.h header
 ms.assetid: b37109dc-4bfd-32a5-8382-30f9516d3f3d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: rras
 f1_keywords:
  - ipxrtdef

@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_CreateDragImage","TreeView_CreateDragImage macro
 old-location: controls\TreeView_CreateDragImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_createdragimage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_CreateDragImage, TreeView_CreateDragImage macro [Windows Controls], _win32_TreeView_CreateDragImage, _win32_TreeView_CreateDragImage_cpp, commctrl/TreeView_CreateDragImage, controls.TreeView_CreateDragImage, controls._win32_TreeView_CreateDragImage
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_CreateDragImage macro
+
+## -syntax
+
+```cpp
+HIMAGELIST TreeView_CreateDragImage(
+   HWND      hwnd,
+   HTREEITEM hitem
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns the handle to the image list to which the dragging bitmap was added if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

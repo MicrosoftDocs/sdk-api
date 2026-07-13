@@ -6,13 +6,13 @@ helpviewer_keywords: ["CreateInMemoryFontFileReference","CreateInMemoryFontFileR
 old-location: directwrite\idwriteinmemoryfontfileloader_createinmemoryfontfilereference.htm
 tech.root: DirectWrite
 ms.assetid: 16570F56-5894-475B-A6AF-6C4BA2C82784
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: CreateInMemoryFontFileReference, CreateInMemoryFontFileReference method [Direct Write], CreateInMemoryFontFileReference method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],CreateInMemoryFontFileReference method, IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference, IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference, directwrite.idwriteinmemoryfontfileloader_createinmemoryfontfilereference, dwrite_3/IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 14393
+req.target-min-winversvr: Windows 10 Build 14393
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

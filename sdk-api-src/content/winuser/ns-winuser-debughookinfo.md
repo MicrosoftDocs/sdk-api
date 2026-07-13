@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains debugging information passed to a <b>WH_DEBUG</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>.
+Contains debugging information passed to a <b>WH_DEBUG</b> hook procedure, [*DebugProc*](/windows/win32/winmsg/debugproc).
 
 ## -struct-fields
 
@@ -74,38 +74,27 @@ A handle to the thread that installed the debugging filter function.
 
 Type: <b>LPARAM</b>
 
-The value to be passed to the hook in the 
-					<i>lParam</i> parameter of the <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
+The value to be passed to the hook in the <i>lParam</i> parameter of the [*DebugProc*](/windows/win32/winmsg/debugproc) callback function.
 
 ### -field wParam
 
 Type: <b>WPARAM</b>
 
-The value to be passed to the hook in the 
-					<i>wParam</i> parameter of the <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
+The value to be passed to the hook in the <i>wParam</i> parameter of the [*DebugProc*](/windows/win32/winmsg/debugproc) callback function.
 
 ### -field code
 
 Type: <b>int</b>
 
-The value to be passed to the hook in the 
-					<i>nCode</i> parameter of the <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> callback function.
+The value to be passed to the hook in the <i>nCode</i> parameter of the [*DebugProc*](/windows/win32/winmsg/debugproc) callback function.
 
 ## -see-also
 
-<b>Conceptual</b>
 
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
-
+[*DebugProc*](/windows/win32/winmsg/debugproc)
 
 
 <a href="/windows/desktop/winmsg/hooks">Hooks</a>
-
-
-
-<b>Reference</b>
 
 
 

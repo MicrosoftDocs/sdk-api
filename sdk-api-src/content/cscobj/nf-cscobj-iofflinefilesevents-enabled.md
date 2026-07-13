@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.Enabled
 title: IOfflineFilesEvents::Enabled (cscobj.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IOfflineFilesEvents.Enabled)
 helpviewer_keywords: ["Enabled","Enabled method [Offline Files]","Enabled method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","Enabled method","IOfflineFilesEvents.Enabled","IOfflineFilesEvents::Enabled","cscobj/IOfflineFilesEvents::Enabled","of.iofflinefilesevents_enabled"]
 old-location: of\iofflinefilesevents_enabled.htm
 tech.root: of

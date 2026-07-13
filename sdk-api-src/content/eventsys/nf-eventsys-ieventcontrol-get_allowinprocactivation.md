@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventControl.get_AllowInprocActivation
 title: IEventControl::get_AllowInprocActivation (eventsys.h)
-description: Indicates whether subscribers can be activated in the publisher's process.
+description: Indicates whether subscribers can be activated in the publisher's process. (IEventControl.get_AllowInprocActivation)
 helpviewer_keywords: ["AllowInprocActivation property [COM+]","AllowInprocActivation property [COM+]","IEventControl interface","IEventControl interface [COM+]","AllowInprocActivation property","IEventControl.AllowInprocActivation","IEventControl.get_AllowInprocActivation","IEventControl::AllowInprocActivation","IEventControl::get_AllowInprocActivation","IEventControl::put_AllowInprocActivation","_cos_IEventControl_Properties","cos.ieventcontrol_allowinprocactivation","eventsys/IEventControl::AllowInprocActivation","eventsys/IEventControl::get_AllowInprocActivation","eventsys/IEventControl::put_AllowInprocActivation","get_AllowInprocActivation"]
 old-location: cos\ieventcontrol_allowinprocactivation.htm
 tech.root: cos

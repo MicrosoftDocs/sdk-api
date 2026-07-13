@@ -57,7 +57,7 @@ req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 
 Creates a drop-down menu, submenu, or shortcut menu. The menu is initially empty. You can insert or append menu items by using the <a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a> function. You can also use the <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> function to insert menu items and the [AppendMenu](/windows/win32/api/winuser/nf-winuser-appendmenua) function to append menu items.
 
-## -parameters
+
 
 ## -returns
 

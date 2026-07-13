@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.Shell_GetCachedImageIndexA
 title: Shell_GetCachedImageIndexA function (shlobj_core.h)
-description: Shell_GetCachedImageIndex may be altered or unavailable.
-helpviewer_keywords: ["Shell_GetCachedImageIndex","Shell_GetCachedImageIndex function [Windows Shell]","Shell_GetCachedImageIndexA","Shell_GetCachedImageIndexW","_win32_Shell_GetCachedImageIndex","shell.Shell_GetCachedImageIndex","shlobj_core/Shell_GetCachedImageIndex","shlobj_core/Shell_GetCachedImageIndexA","shlobj_core/Shell_GetCachedImageIndexW"]
+description: Shell_GetCachedImageIndex may be altered or unavailable. (ANSI)
+helpviewer_keywords: ["Shell_GetCachedImageIndexA", "shlobj_core/Shell_GetCachedImageIndexA"]
 old-location: shell\Shell_GetCachedImageIndex.htm
 tech.root: shell
 ms.assetid: f0d4dd1f-a41c-4dd0-9713-e3aec48ff101
@@ -101,7 +101,7 @@ The <b>Shell_GetCachedImageIndexA</b> and <b>Shell_GetCachedImageIndexW</b> vers
 
 
 > [!NOTE]
-> The shlobj_core.h header defines Shell_GetCachedImageIndex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines Shell_GetCachedImageIndex as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

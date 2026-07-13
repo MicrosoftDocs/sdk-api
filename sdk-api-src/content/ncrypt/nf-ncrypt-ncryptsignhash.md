@@ -1,12 +1,12 @@
 ---
 UID: NF:ncrypt.NCryptSignHash
 title: NCryptSignHash function (ncrypt.h)
-description: Creates a signature of a hash value.
+description: Creates a signature of a hash value. (NCryptSignHash)
 helpviewer_keywords: ["BCRYPT_PAD_PKCS1","BCRYPT_PAD_PSS","NCRYPT_SILENT_FLAG","NCryptSignHash","NCryptSignHash function [Security]","ncrypt/NCryptSignHash","security.ncryptsignhash_func"]
 old-location: security\ncryptsignhash_func.htm
 tech.root: security
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
-ms.date: 12/05/2018
+ms.date: 06/25/2025
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func
 req.header: ncrypt.h
 req.include-header: 
@@ -50,172 +50,78 @@ api_name:
 
 ## -description
 
-The <b>NCryptSignHash</b> function creates a signature of a hash value.
+The **NCryptSignHash** function creates a signature over data to be signed.
 
 ## -parameters
 
 ### -param hKey [in]
 
-The handle of the key to use to sign the hash.
+The handle of the private key to use to generate the signature.
 
 ### -param pPaddingInfo [in, optional]
 
-A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <i>dwFlags</i> parameter. This parameter is only used with asymmetric keys and must be <b>NULL</b> otherwise.
+A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the *dwFlags* parameter. When *dwFlags* is `0`, this parameter must be `NULL`.
 
 ### -param pbHashValue [in]
 
-A pointer to a buffer that contains the hash value to sign. The <i>cbInput</i> parameter contains the size of this buffer.
+A pointer to a buffer that contains the input to be signed. The *cbHashValue* parameter contains the size of this buffer.
+
+**Note:** The parameter name *pbHashValue* is a misnomer due to the history of this API.
+
+For many signature algorithms (DSA, RSA, ECDSA, HashML-DSA, etc.), the signature routine is defined to take the result of a hash function as input. In these algorithms, the original message to be signed must first be hashed, and the resultant hash value (pre-hash) is passed in the *pbHashValue* buffer.
+
+However, some signature algorithms (pure ML-DSA, pure SLH-DSA, etc.) allow direct signing of arbitrary sized data. For these algorithms the *pbHashValue* buffer contains the input to be signed. Signer and verifier must agree on how to construct this input, but there is no requirement for a pre-hash to be involved. Signing a very large buffer directly may harm interoperability.
+
+In either case, the *pbHashValue* buffer represents the input to be signed.
 
 ### -param cbHashValue [in]
 
-The number of bytes in the <i>pbHashValue</i> buffer to sign.
+The size, in bytes, of the *pbHashValue* buffer.
 
 ### -param pbSignature [out]
 
-The address of a buffer to receive the signature produced by this function. The <i>cbSignature</i> parameter contains the size of this buffer.
+The address of a buffer to receive the signature produced by this function. The *cbSignature* parameter contains the size of this buffer.
 
-If this parameter is <b>NULL</b>, this function will calculate the size required for the signature and return the size in the location pointed to by the <i>pcbResult</i> parameter.
+If this parameter is `NULL`, this function will calculate the size required for the signature and return the size in the location pointed to by the *pcbResult* parameter.
 
 ### -param cbSignature [in]
 
-The size, in bytes, of the <i>pbSignature</i> buffer. This parameter is ignored if the <i>pbSignature</i> parameter is <b>NULL</b>.
+The size, in bytes, of the *pbSignature* buffer. This parameter is ignored if the *pbSignature* parameter is `NULL`.
 
 ### -param pcbResult [out]
 
-A pointer to a <b>DWORD</b> variable that receives the number of bytes copied to the <i>pbSignature</i> buffer. 
+A pointer to a **DWORD** variable that receives the number of bytes copied to the *pbSignature* buffer. 
 
-If <i>pbSignature</i> is <b>NULL</b>, this receives the size, in bytes, required for the signature.
+If *pbSignature* is `NULL`, this receives the size, in bytes, required for the signature.
 
 ### -param dwFlags [in]
 
-Flags that modify function behavior. The allowed set of flags depends on the type of key specified by the <i>hKey</i> parameter.
+A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the *hKey* parameter.
 
-If the key is a symmetric key, this parameter is not used and should be set to zero.
+This can be zero or a combination of one or more of the following values:
 
-
-If the key is an asymmetric key, this can be one of the following values.
-
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="BCRYPT_PAD_PKCS1"></a><a id="bcrypt_pad_pkcs1"></a><dl>
-<dt><b>BCRYPT_PAD_PKCS1</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use the PKCS1 padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="BCRYPT_PAD_PSS"></a><a id="bcrypt_pad_pss"></a><dl>
-<dt><b>BCRYPT_PAD_PSS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use the Probabilistic Signature Scheme (PSS) padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NCRYPT_SILENT_FLAG"></a><a id="ncrypt_silent_flag"></a><dl>
-<dt><b>NCRYPT_SILENT_FLAG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the <b>NTE_SILENT_CONTEXT</b> error code as the last error.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|-------|---------|
+| **NCRYPT_PAD_PKCS1_FLAG** | Use the RSA PKCS1 padding scheme. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PKCS1_PADDING_INFO](../bcrypt/ns-bcrypt-bcrypt_pkcs1_padding_info.md) structure. |
+| **NCRYPT_PAD_PSS_FLAG** | Use the RSA Probabilistic Signature Scheme (PSS) padding scheme. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PSS_PADDING_INFO](../bcrypt/ns-bcrypt-bcrypt_pss_padding_info.md) structure. |
+| **NCRYPT_PAD_PQDSA_FLAG** | Use the PQ padding scheme for ML-DSA or SLH-DSA. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PQDSA_PADDING_INFO](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_padding_info) structure.<br/><br/>**Note:** This must be set if using a pre-hash ML-DSA variant. |
+| **NCRYPT_SILENT_FLAG** | Requests that the key storage provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the **NTE_SILENT_CONTEXT** error code as the last error. |
 
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
 
+Possible return codes include, but are not limited to, the following:
 
-Possible return codes include, but are not limited to, the following.
-
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_BAD_ALGID</b></dt>
-</dl>
-</td>
-<td width="60%">
-The key represented by the <i>hKey</i> parameter does not support signing.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_BAD_FLAGS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>dwFlags</i> parameter contains a value that is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>hKey</i> parameter is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more parameters are not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-A memory allocation failure occurred.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **ERROR_SUCCESS** | The function was successful. |
+| **NTE_BAD_ALGID** | The key represented by the *hKey* parameter does not support signing. |
+| **NTE_BAD_FLAGS** | The *dwFlags* parameter contains a value that is not valid. |
+| **NTE_INVALID_HANDLE** | The *hKey* parameter is not valid. |
+| **NTE_INVALID_PARAMETER** | One or more parameters are not valid. |
+| **NTE_NO_MEMORY** | A memory allocation failure occurred. |
 
 ## -remarks
 
-A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its [StartService Function](../winsvc/nf-winsvc-startservicea.md). If a service calls this function from its **StartService** function, a deadlock can occur, and the service may stop responding.

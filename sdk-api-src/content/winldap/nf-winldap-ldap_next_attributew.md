@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_next_attributeW
 title: ldap_next_attributeW function (winldap.h)
-description: Returns the next attribute.
-helpviewer_keywords: ["_ldap_ldap_next_attribute","ldap.ldap__next__attribute","ldap.ldap_next_attribute","ldap_next_attribute","ldap_next_attribute function [LDAP]","ldap_next_attributeA","ldap_next_attributeW","winldap/ldap_next_attribute","winldap/ldap_next_attributeA","winldap/ldap_next_attributeW"]
+description: The ldap_next_attributeW (Unicode) function (winldap.h) returns the next attribute. 
+helpviewer_keywords: ["_ldap_ldap_next_attribute", "ldap.ldap__next__attribute", "ldap.ldap_next_attribute", "ldap_next_attribute", "ldap_next_attribute function [LDAP]", "ldap_next_attributeW", "winldap/ldap_next_attribute", "winldap/ldap_next_attributeW"]
 old-location: ldap\ldap_next_attribute.htm
 tech.root: ldap
 ms.assetid: 4df50d80-0d01-4d7f-b542-865b84bac2a5
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_next_attribute, ldap.ldap__next__attribute, ldap.ldap_next_attribute, ldap_next_attribute, ldap_next_attribute function [LDAP], ldap_next_attributeA, ldap_next_attributeW, winldap/ldap_next_attribute, winldap/ldap_next_attributeA, winldap/ldap_next_attributeW
 req.header: winldap.h
 req.include-header: 
@@ -100,7 +100,7 @@ The
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_next_attribute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_next_attribute as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

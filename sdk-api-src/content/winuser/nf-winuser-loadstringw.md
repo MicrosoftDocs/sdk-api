@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.LoadStringW
 title: LoadStringW function (winuser.h)
-description: Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating null character.
-helpviewer_keywords: ["LoadString","LoadString function [Menus and Other Resources]","LoadStringA","LoadStringW","_win32_LoadString","_win32_loadstring_cpp","menurc.loadstring","winui._win32_loadstring","winuser/LoadString","winuser/LoadStringA","winuser/LoadStringW"]
+description: Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating null character. (Unicode)
+helpviewer_keywords: ["LoadString", "LoadString function [Menus and Other Resources]", "LoadStringW", "_win32_LoadString", "_win32_loadstring_cpp", "menurc.loadstring", "winui._win32_loadstring", "winuser/LoadString", "winuser/LoadStringW"]
 old-location: menurc\loadstring.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\loadstring.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-user32-l1-1-0.dll
+ - api-ms-win-core-libraryloader-l1-2-3.dll
  - User32.dll
  - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
  - KernelBase.dll
@@ -121,7 +123,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-the-multiple-document
 
 
 > [!NOTE]
-> The winuser.h header defines LoadString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines LoadString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

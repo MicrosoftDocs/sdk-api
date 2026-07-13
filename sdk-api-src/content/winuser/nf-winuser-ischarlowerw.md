@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsCharLowerW
 title: IsCharLowerW
-ms.date: 4/26/2019
+description: The IsCharLowerW (Unicode) function determines whether a character is lowercase. (IsCharLowerW)
+ms.date: 08/02/2022
 ms.keywords: IsCharLowerW
 targetos: Windows
 req.assembly: 
@@ -13,12 +14,12 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: User32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -33,6 +34,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-string-l2-1-1.dll
+ - api-ms-win-core-string-l2-1-0.dll
  - User32.dll
  - API-MS-Win-Core-Stringansi-l1-1-0.dll
  - KernelBase.dll
@@ -51,7 +54,7 @@ Determines whether a character is lowercase. This determination is based on the 
 
 ### -param ch
 
-Type: <b>TCHAR</b>
+Type: <b>WCHAR</b>
 
 The character to be tested.
 
@@ -66,7 +69,7 @@ If the character is not lowercase, the return value is zero. To get extended err
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines IsCharLower as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines IsCharLower as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

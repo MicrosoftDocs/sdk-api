@@ -60,6 +60,8 @@ The interface ID for the requested service. The client should set this parameter
 
 IID_IAudioCaptureClient
 
+IID_IAudioClientDuckingControl
+
 IID_IAudioClock
 
 IID_IAudioRenderClient
@@ -70,9 +72,11 @@ IID_IAudioStreamVolume
 
 IID_IChannelAudioVolume
 
- IID_IMFTrustedOutput
+IID_IMFTrustedOutput
 
 IID_ISimpleAudioVolume
+
+
 
 For more information, see Remarks.
 
@@ -147,6 +151,20 @@ The audio endpoint device has been unplugged, or the audio hardware or associate
 <tr>
 <td width="40%">
 <dl>
+<dt><b>AUDCLNT_E_RESOURCES_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The stream's resources have been invalidated. This error may be thrown for the following reasons:<br>
+- The stream is suspended.<br>
+- An Exclusive or Offload stream is disconnected.<br>
+- A packaged application that has an exclusive mode or offload stream is quiesced.<br>
+- A "protected output" stream is closed.<br>
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
 <dt><b>AUDCLNT_E_SERVICE_NOT_RUNNING</b></dt>
 </dl>
 </td>
@@ -198,9 +216,13 @@ Note that activating IMFTrustedOutput through this mechanism works regardless of
 
 To obtain the interface ID for a service interface, use the <b>__uuidof</b> operator. For example, the interface ID of <b>IAudioCaptureClient</b> is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 const IID IID_IAudioCaptureClient  __uuidof(IAudioCaptureClient)
-</code></pre>
+
+```
+
 For information about the <b>__uuidof</b> operator, see the Windows SDK documentation.
 
 To release the <b>IAudioClient</b> object and free all its associated resources, the client must release all references to any service objects that were created by calling <b>GetService</b>, in addition to calling <b>Release</b> on the <b>IAudioClient</b> interface itself. The client must release a service from the same thread that releases the <b>IAudioClient</b> object.

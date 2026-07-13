@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetGlobalLocationPermission","GetGlobalLocationPermission
 old-location: winsensors_com_ref\ilocationpermissions_getgloballocationpermission.htm
 tech.root: winsensors
 ms.assetid: 8a2fbf9f-4b9b-4d2b-8ffc-c9491f7b8ed1
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetGlobalLocationPermission, GetGlobalLocationPermission method, GetGlobalLocationPermission method,ILocationPermissions interface, ILocationPermissions interface,GetGlobalLocationPermission method, ILocationPermissions.GetGlobalLocationPermission, ILocationPermissions::GetGlobalLocationPermission, sensorsapi/ILocationPermissions::GetGlobalLocationPermission, winsensors_com_ref.ilocationpermissions_getgloballocationpermission
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Gets the status of the system setting that allows users to change location settings.
 

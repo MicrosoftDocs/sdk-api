@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsServerRegisterSpnA
 title: DsServerRegisterSpnA function (ntdsapi.h)
-description: The DsServerRegisterSpn function composes two SPNs for a host-based service.
-helpviewer_keywords: ["DS_SPN_ADD_SPN_OP","DS_SPN_DELETE_SPN_OP","DS_SPN_REPLACE_SPN_OP","DsServerRegisterSpn","DsServerRegisterSpn function [Active Directory]","DsServerRegisterSpnA","DsServerRegisterSpnW","_glines_dsserverregisterspn","ad.dsserverregisterspn","ntdsapi/DsServerRegisterSpn","ntdsapi/DsServerRegisterSpnA","ntdsapi/DsServerRegisterSpnW"]
+description: The DsServerRegisterSpn function composes two SPNs for a host-based service. (ANSI)
+helpviewer_keywords: ["DS_SPN_ADD_SPN_OP", "DS_SPN_DELETE_SPN_OP", "DS_SPN_REPLACE_SPN_OP", "DsServerRegisterSpnA", "ntdsapi/DsServerRegisterSpnA"]
 old-location: ad\dsserverregisterspn.htm
 tech.root: ad
 ms.assetid: d95dfa55-f978-4d8d-a63d-cd1339769c79
@@ -111,7 +111,7 @@ In most cases, the <b>DsServerRegisterSpn</b> caller must have domain administra
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsServerRegisterSpn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsServerRegisterSpn as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

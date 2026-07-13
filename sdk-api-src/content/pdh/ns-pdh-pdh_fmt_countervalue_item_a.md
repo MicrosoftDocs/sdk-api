@@ -1,7 +1,7 @@
 ---
 UID: NS:pdh._PDH_FMT_COUNTERVALUE_ITEM_A
 title: PDH_FMT_COUNTERVALUE_ITEM_A (pdh.h)
-description: The PDH_FMT_COUNTERVALUE_ITEM structure contains the instance name and formatted value of a counter.
+description: The PDH_FMT_COUNTERVALUE_ITEM structure contains the instance name and formatted value of a counter. (ANSI)
 helpviewer_keywords: ["*PPDH_FMT_COUNTERVALUE_ITEM_A","PDH_FMT_COUNTERVALUE_ITEM","PDH_FMT_COUNTERVALUE_ITEM structure [Perf]","PDH_FMT_COUNTERVALUE_ITEM_A","PDH_FMT_COUNTERVALUE_ITEM_W","PPDH_FMT_COUNTERVALUE_ITEM","PPDH_FMT_COUNTERVALUE_ITEM structure pointer [Perf]","_win32_pdh_fmt_countervalue_item_str","base.pdh_fmt_countervalue_item_str","pdh/PDH_FMT_COUNTERVALUE_ITEM","pdh/PDH_FMT_COUNTERVALUE_ITEM_A","pdh/PDH_FMT_COUNTERVALUE_ITEM_W","pdh/PPDH_FMT_COUNTERVALUE_ITEM","perf.pdh_fmt_countervalue_item_str"]
 old-location: perf\pdh_fmt_countervalue_item_str.htm
 tech.root: perf

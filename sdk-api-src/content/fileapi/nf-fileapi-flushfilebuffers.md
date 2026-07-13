@@ -1,12 +1,10 @@
 ---
 UID: NF:fileapi.FlushFileBuffers
 title: FlushFileBuffers function (fileapi.h)
-author: windows-sdk-content
 description: Flushes the buffers of a specified file and causes all buffered data to be written to a file.
 old-location: fs\flushfilebuffers.htm
 tech.root: FileIO
 ms.assetid: 0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushFileBuffers, FlushFileBuffers function [Files], _win32_flushfilebuffers, base.flushfilebuffers, fileapi/FlushFileBuffers, fs.flushfilebuffers, winbase/FlushFileBuffers
 req.header: fileapi.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -40,6 +37,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -95,7 +95,7 @@ written to persistent media, the application should use unbuffered I/O  instead 
 To flush all open files on a volume, call <b>FlushFileBuffers</b> with a handle to the volume. The caller must have administrative privileges. For more information, see 
 <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>. 
 
-When opening a volume with <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, the <i>lpFileName</i> string should be the following form: \\.&#92;<i>x</i>: or \\?\Volume{<i>GUID</i>}. Do not use a trailing backslash in the volume name, because that indicates the root directory of a drive.  
+When opening a volume with <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, the <i>lpFileName</i> string should be the following form: &#92;&#92;.&#92;<i>x</i>: or &#92;&#92;?&#92;Volume{<i>GUID</i>}. Do not use a trailing backslash in the volume name, because that indicates the root directory of a drive.  
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

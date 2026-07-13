@@ -3,7 +3,7 @@ UID: NF:icodecapi.ICodecAPI.SetAllDefaults
 title: ICodecAPI::SetAllDefaults
 ms.date: 09/22/2020
 targetos: Windows
-description: The SetAllDefaults method resets all codec properties to their default values.
+description: The SetAllDefaults method resets all codec properties to their default values. (ICodecAPI::SetAllDefaults)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllDefaults method","ICodecAPI.SetAllDefaults","ICodecAPI::SetAllDefaults","ICodecAPISetAllDefaults","SetAllDefaults","SetAllDefaults method [DirectShow]","SetAllDefaults method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setalldefaults","icodecapi/ICodecAPI::SetAllDefaults"]
 tech.root: mf
 req.assembly: 
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ dev_langs:
 
 The <b>SetAllDefaults</b> method resets all codec properties to their default values.
 
-## -parameters
+
 
 ## -returns
 

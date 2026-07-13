@@ -77,7 +77,7 @@ The following illustration shows how a linear gradient changes as you change its
 
 ## Examples
 
-The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)">CreateLinearGradientBrush</a> method to create an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> (<i>m_pLinearGradientBrush</i>). It uses the <a href="/windows/win32/api/d2d1helper/nf-d2d1helper-lineargradientbrushproperties">D2D1::LinearGradientBrushProperties</a> helper method to create a <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structure that contains a start point of (0, 0) and and end point of (150, 150) and passes it to the  <b>CreateLinearGradientBrush</b> method.
+The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)">CreateLinearGradientBrush</a> method to create an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> (<i>m_pLinearGradientBrush</i>). It uses the <a href="/windows/win32/api/d2d1helper/nf-d2d1helper-lineargradientbrushproperties">D2D1::LinearGradientBrushProperties</a> helper method to create a <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structure that contains a start point of (0, 0) and end point of (150, 150) and passes it to the  <b>CreateLinearGradientBrush</b> method.
 
 
 ```cpp

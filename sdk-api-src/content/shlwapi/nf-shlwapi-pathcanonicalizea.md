@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathCanonicalizeA
 title: PathCanonicalizeA function (shlwapi.h)
-description: Simplifies a path by removing navigation elements such as &quot;.&quot; and &quot;..&quot; to produce a direct, well-formed path.
-helpviewer_keywords: ["PathCanonicalize","PathCanonicalize function [Windows Shell]","PathCanonicalizeA","PathCanonicalizeW","_win32_PathCanonicalize","shell.PathCanonicalize","shlwapi/PathCanonicalize","shlwapi/PathCanonicalizeA","shlwapi/PathCanonicalizeW"]
+description: Simplifies a path by removing navigation elements such as &quot;.&quot; and &quot;..&quot; to produce a direct, well-formed path. (ANSI)
+helpviewer_keywords: ["PathCanonicalizeA", "shlwapi/PathCanonicalizeA"]
 old-location: shell\PathCanonicalize.htm
 tech.root: shell
 ms.assetid: e9b1e877-2cd6-4dd9-a15b-676cb940daed
@@ -184,4 +184,4 @@ The canonicalized path 1 is    : C:\
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathCanonicalize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathCanonicalize as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

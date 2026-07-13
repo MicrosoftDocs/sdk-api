@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.GetDocument
 title: IVssCreateWriterMetadata::GetDocument (vswriter.h)
-description: Not supported.
+description: Not supported. (IVssCreateWriterMetadata.GetDocument)
 helpviewer_keywords: ["GetDocument","GetDocument method [VSS]","GetDocument method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","GetDocument method","IVssCreateWriterMetadata.GetDocument","IVssCreateWriterMetadata::GetDocument","_win32_ivsscreatewritermetadata_getdocument","base.ivsscreatewritermetadata_getdocument","vswriter/IVssCreateWriterMetadata::GetDocument"]
 old-location: base\ivsscreatewritermetadata_getdocument.htm
 tech.root: base

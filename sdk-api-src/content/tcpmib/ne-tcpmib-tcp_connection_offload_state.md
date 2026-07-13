@@ -1,5 +1,5 @@
 ---
-UID: NE:tcpmib.__unnamed_enum_1
+UID: NE:tcpmib.TCP_CONNECTION_OFFLOAD_STATE
 title: TCP_CONNECTION_OFFLOAD_STATE (tcpmib.h)
 description: Defines the possible TCP offload states for a TCP connection.
 helpviewer_keywords: ["*PTCP_CONNECTION_OFFLOAD_STATE","TCP_CONNECTION_OFFLOAD_STATE","TCP_CONNECTION_OFFLOAD_STATE enumeration [MIB]","TcpConnectionOffloadStateInHost","TcpConnectionOffloadStateMax","TcpConnectionOffloadStateOffloaded","TcpConnectionOffloadStateOffloading","TcpConnectionOffloadStateUploading","iprtrmib/TCP_CONNECTION_OFFLOAD_STATE","iprtrmib/TcpConnectionOffloadStateInHost","iprtrmib/TcpConnectionOffloadStateMax","iprtrmib/TcpConnectionOffloadStateOffloaded","iprtrmib/TcpConnectionOffloadStateOffloading","iprtrmib/TcpConnectionOffloadStateUploading","mib.tcp_connection_offload_state","tcpmib/TCP_CONNECTION_OFFLOAD_STATE","tcpmib/TcpConnectionOffloadStateInHost","tcpmib/TcpConnectionOffloadStateMax","tcpmib/TcpConnectionOffloadStateOffloaded","tcpmib/TcpConnectionOffloadStateOffloading","tcpmib/TcpConnectionOffloadStateUploading"]
@@ -106,3 +106,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
+

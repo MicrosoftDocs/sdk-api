@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_ForceOverwrite
 title: IDiscFormat2Data::get_ForceOverwrite (imapi2.h)
-description: Determines if the data writer must overwrite the disc on overwritable media types.
+description: Determines if the data writer must overwrite the disc on overwritable media types. (Get)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_ForceOverwrite method","IDiscFormat2Data.get_ForceOverwrite","IDiscFormat2Data::get_ForceOverwrite","get_ForceOverwrite","get_ForceOverwrite method [IMAPI]","get_ForceOverwrite method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_forceoverwrite","imapi2/IDiscFormat2Data::get_ForceOverwrite"]
 old-location: imapi\idiscformat2data_get_forceoverwrite.htm
 tech.root: imapi

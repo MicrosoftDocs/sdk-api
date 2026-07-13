@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateImageSourceFromWic(IWICBitmapSource,D2D1_IMAGE_SOURCE_LOADING_OPTIONS,D2D1_ALPHA_MODE,ID2D1ImageSourceFromWic)
 title: ID2D1DeviceContext2::CreateImageSourceFromWic (d2d1_3.h)
-description: Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source. The image is loaded and stored while using a minimal amount of memory.
+description: Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source. The image is loaded and stored while using a minimal amount of memory. (overload 3/3)
 helpviewer_keywords: ["CreateImageSourceFromWic","CreateImageSourceFromWic method [Direct2D]","CreateImageSourceFromWic method [Direct2D]","ID2D1DeviceContext2 interface","ID2D1DeviceContext2 interface [Direct2D]","CreateImageSourceFromWic method","ID2D1DeviceContext2.CreateImageSourceFromWic","ID2D1DeviceContext2::CreateImageSourceFromWic","ID2D1DeviceContext2::CreateImageSourceFromWic(IWICBitmapSource","D2D1_IMAGE_SOURCE_LOADING_OPTIONS","D2D1_ALPHA_MODE","ID2D1ImageSourceFromWic)","d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromWic","direct2d.id2d1devicecontext2_createimagesourcefromwic"]
 old-location: direct2d\id2d1devicecontext2_createimagesourcefromwic.htm
 tech.root: Direct2D

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEX1D_RTV
 title: D3D11_TEX1D_RTV (d3d11.h)
-description: Specifies the subresource from a 1D texture to use in a render-target view.
+description: Specifies the subresource from a 1D texture to use in a render-target view. (D3D11_TEX1D_RTV)
 helpviewer_keywords: ["0516fc42-e56a-46ea-3b76-1365112b0601","D3D11_TEX1D_RTV","D3D11_TEX1D_RTV structure [Direct3D 11]","d3d11/D3D11_TEX1D_RTV","direct3d11.d3d11_tex1d_rtv"]
 old-location: direct3d11\d3d11_tex1d_rtv.htm
 tech.root: direct3d11

@@ -52,7 +52,7 @@ api_name:
 
 Resets the enumerator to the beginning of the change unit exception set.
 
-## -parameters
+
 
 ## -returns
 

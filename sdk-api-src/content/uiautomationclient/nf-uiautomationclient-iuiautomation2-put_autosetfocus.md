@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.put_AutoSetFocus
 title: IUIAutomation2::put_AutoSetFocus (uiautomationclient.h)
-description: Specifies whether calls to UI Automation control pattern methods automatically set focus to the target element.
+description: Specifies whether calls to UI Automation control pattern methods automatically set focus to the target element. (Put)
 helpviewer_keywords: ["AutoSetFocus property [Windows Accessibility]","AutoSetFocus property [Windows Accessibility]","IUIAutomation2 interface","IUIAutomation2 interface [Windows Accessibility]","AutoSetFocus property","IUIAutomation2.AutoSetFocus","IUIAutomation2.put_AutoSetFocus","IUIAutomation2::AutoSetFocus","IUIAutomation2::get_AutoSetFocus","IUIAutomation2::put_AutoSetFocus","put_AutoSetFocus","uiautomationclient/IUIAutomation2::AutoSetFocus","uiautomationclient/IUIAutomation2::get_AutoSetFocus","uiautomationclient/IUIAutomation2::put_AutoSetFocus","winauto.uiauto_IUIAutomation2_AutoSetFocus"]
 old-location: winauto\uiauto_IUIAutomation2_AutoSetFocus.htm
 tech.root: WinAuto

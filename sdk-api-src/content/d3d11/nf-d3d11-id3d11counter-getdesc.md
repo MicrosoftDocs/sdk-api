@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Counter.GetDesc
 title: ID3D11Counter::GetDesc (d3d11.h)
-description: Get a counter description.
+description: Get a counter description. (ID3D11Counter.GetDesc)
 helpviewer_keywords: ["107efca2-bbb6-d2d4-0cd9-b65d35420837","GetDesc","GetDesc method [Direct3D 11]","GetDesc method [Direct3D 11]","ID3D11Counter interface","ID3D11Counter interface [Direct3D 11]","GetDesc method","ID3D11Counter.GetDesc","ID3D11Counter::GetDesc","d3d11/ID3D11Counter::GetDesc","direct3d11.id3d11counter_getdesc"]
 old-location: direct3d11\id3d11counter_getdesc.htm
 tech.root: direct3d11

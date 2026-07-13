@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetCreateUrlW
 title: InternetCreateUrlW function (wininet.h)
-description: Creates a URL from its component parts.
-helpviewer_keywords: ["InternetCreateUrl","InternetCreateUrl function [WinINet]","InternetCreateUrlA","InternetCreateUrlW","_inet_internetcreateurl_function","wininet.internetcreateurl","wininet/InternetCreateUrl","wininet/InternetCreateUrlA","wininet/InternetCreateUrlW"]
+description: Creates a URL from its component parts. (Unicode)
+helpviewer_keywords: ["InternetCreateUrl", "InternetCreateUrl function [WinINet]", "InternetCreateUrlW", "_inet_internetcreateurl_function", "wininet.internetcreateurl", "wininet/InternetCreateUrl", "wininet/InternetCreateUrlW"]
 old-location: wininet\internetcreateurl.htm
 tech.root: wininet
 ms.assetid: b01bb684-0b2f-4c17-ab32-9f83fdd89e69
@@ -103,7 +103,7 @@ Pointer to a buffer that receives the URL.
 ### -param lpdwUrlLength [in, out]
 
 Pointer to a variable that specifies the size of the 
-URL<i>lpszUrl</i> buffer, in <b>TCHARs</b>. When the function returns, this parameter receives the size of the URL string, excluding the NULL terminator. If 
+URL <i>lpszUrl</i> buffer, in <b>TCHARs</b>. When the function returns, this parameter receives the size of the URL string, excluding the NULL terminator. If 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, this parameter receives the number of bytes required to hold the created URL.
 
 ## -returns
@@ -122,7 +122,7 @@ When specifying scheme in the <a href="/windows/desktop/api/wininet/ns-wininet-u
 
 
 > [!NOTE]
-> The wininet.h header defines InternetCreateUrl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetCreateUrl as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

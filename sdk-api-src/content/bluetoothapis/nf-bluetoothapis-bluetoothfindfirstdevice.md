@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Bthprops.lib
-req.dll: Bthprops.dll
+req.dll: bthprops.cpl
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Bthprops.dll
+ - bthprops.cpl
  - BluetoothAPIs.dll
  - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
@@ -98,6 +98,13 @@ The structure pointed to by <i>pbtsp</i> or <i>pbtdi</i> is not the correct size
 </td>
 </tr>
 </table>
+
+## -remarks
+
+The BluetoothFindFirstDevice function does not find Bluetooth Low Energy (LE) devices.
+To access Bluetooth LE devices, use the
+<a href="/windows/uwp/devices-sensors/bluetooth-low-energy-overview">Windows Runtime Bluetooth Low Energy APIs</a>.
+The Windows Runtime APIs for Bluetooth work in both UWP and classic desktop apps.
 
 ## -see-also
 

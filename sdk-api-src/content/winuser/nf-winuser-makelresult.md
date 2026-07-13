@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKELRESULT","MAKELRESULT macro [Windows and Messages]","
 old-location: winmsg\makelresult.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelresult.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKELRESULT, MAKELRESULT macro [Windows and Messages], _win32_MAKELRESULT, _win32_makelresult_cpp, winmsg.makelresult, winui._win32_makelresult, winuser/MAKELRESULT
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MAKELRESULT macro
+
+## -syntax
+
+```cpp
+LRESULT MAKELRESULT(
+    WORD l,
+    WORD h
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+The return value is an **LRESULT** value.
 
 
 ## -description

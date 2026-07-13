@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionAbort2
 title: IComTransaction2Events::OnTransactionAbort2 (comsvcs.h)
-description: Generated when a transaction aborts.
+description: Generated when a transaction aborts. (IComTransaction2Events.OnTransactionAbort2)
 helpviewer_keywords: ["IComTransaction2Events interface [COM+]","OnTransactionAbort2 method","IComTransaction2Events.OnTransactionAbort2","IComTransaction2Events::OnTransactionAbort2","OnTransactionAbort2","OnTransactionAbort2 method [COM+]","OnTransactionAbort2 method [COM+]","IComTransaction2Events interface","_dtc_icomtransaction2events_ontransactionabort2","comsvcs/IComTransaction2Events::OnTransactionAbort2","cos.icomtransaction2events_ontransactionabort2"]
 old-location: cos\icomtransaction2events_ontransactionabort2.htm
 tech.root: cos

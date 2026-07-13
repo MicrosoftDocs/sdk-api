@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterW
 title: RpcEpRegisterW function (rpcdce.h)
-description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
-helpviewer_keywords: ["RpcEpRegister","RpcEpRegister function [RPC]","RpcEpRegisterA","RpcEpRegisterW","_rpc_rpcepregister","rpc.rpcepregister","rpcdce/RpcEpRegister","rpcdce/RpcEpRegisterA","rpcdce/RpcEpRegisterW"]
+description: The RpcEpRegisterW (Unicode) function (rpcdce.h) adds to or replaces server address information in the local endpoint-map database.
+helpviewer_keywords: ["RpcEpRegister", "RpcEpRegister function [RPC]", "RpcEpRegisterW", "_rpc_rpcepregister", "rpc.rpcepregister", "rpcdce/RpcEpRegister", "rpcdce/RpcEpRegisterW"]
 old-location: rpc\rpcepregister.htm
 tech.root: Rpc
 ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -190,7 +190,7 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcEpRegister as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcEpRegister as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

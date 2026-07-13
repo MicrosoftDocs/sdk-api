@@ -6,7 +6,7 @@ helpviewer_keywords: ["ImageList_LoadBitmap","ImageList_LoadBitmap macro [Window
 old-location: controls\ImageList_LoadBitmap.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_loadbitmap.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ImageList_LoadBitmap, ImageList_LoadBitmap macro [Windows Controls], _win32_ImageList_LoadBitmap, _win32_ImageList_LoadBitmap_cpp, commctrl/ImageList_LoadBitmap, controls.ImageList_LoadBitmap, controls._win32_ImageList_LoadBitmap
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,24 @@ api_name:
 
 # ImageList_LoadBitmap macro
 
+## -syntax
+
+```cpp
+HIMAGELIST ImageList_LoadBitmap(
+   HINSTANCE hi,
+   LPCTSTR   lpbmp,
+   int       cx,
+   int       cGrow,
+   COLORREF  crMask
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns the handle to the image list if successful, or <b>NULL</b> otherwise.
+
 
 ## -description
 
@@ -64,7 +82,7 @@ A handle to the instance that contains the bitmap resource. This parameter is <b
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
-The image to load. If the <i>hi</i> parameter is non-<b>NULL</b>, <i>lpbmp</i>is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module. If <i>hi</i> is <b>NULL</b>, the <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> of this parameter must be the identifier of an OEM bitmap to load. To create this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with one of the OEM bitmap identifiers defined in WINUSER.H. These identifiers have the OBM_ prefix.
+The image to load. If the <i>hi</i> parameter is non-<b>NULL</b>, <i>lpbmp</i> is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module. If <i>hi</i> is <b>NULL</b>, the <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> of this parameter must be the identifier of an OEM bitmap to load. To create this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with one of the OEM bitmap identifiers defined in WINUSER.H. These identifiers have the OBM_ prefix.
 
 ### -param cx
 

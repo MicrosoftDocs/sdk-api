@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.put_SignerCertificate
 title: IX509CertificateRequestPkcs7::put_SignerCertificate (certenroll.h)
-description: Specifies or retrieves a certificate used to sign the certificate request.
+description: Specifies or retrieves a certificate used to sign the certificate request. (Put)
 helpviewer_keywords: ["IX509CertificateRequestPkcs7 interface [Security]","SignerCertificate property","IX509CertificateRequestPkcs7.SignerCertificate","IX509CertificateRequestPkcs7.put_SignerCertificate","IX509CertificateRequestPkcs7::SignerCertificate","IX509CertificateRequestPkcs7::get_SignerCertificate","IX509CertificateRequestPkcs7::put_SignerCertificate","SignerCertificate property [Security]","SignerCertificate property [Security]","IX509CertificateRequestPkcs7 interface","certenroll/IX509CertificateRequestPkcs7::SignerCertificate","certenroll/IX509CertificateRequestPkcs7::get_SignerCertificate","certenroll/IX509CertificateRequestPkcs7::put_SignerCertificate","put_SignerCertificate","security.ix509certificaterequestpkcs7_signercertificate_property"]
 old-location: security\ix509certificaterequestpkcs7_signercertificate_property.htm
 tech.root: security

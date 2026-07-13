@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the error mode for the current process.
 
-## -parameters
+
 
 ## -returns
 
@@ -69,6 +69,16 @@ The process error mode. This function returns one of the following values.
 <tr>
 <th>Return code/value</th>
 <th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Uses the system default, which displays all error dialog boxes.
+</td>
 </tr>
 <tr>
 <td width="40%">

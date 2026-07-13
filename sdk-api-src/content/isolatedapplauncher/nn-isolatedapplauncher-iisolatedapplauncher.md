@@ -1,12 +1,12 @@
 ---
 UID: NN:isolatedapplauncher.IIsolatedAppLauncher
 title: IIsolatedAppLauncher (isolatedapplauncher.h)
-description: Enables apps to determine whether they are running in a Windows Defender Application Guard container (VM container environment).
+description: Enables apps to determine whether they are running in a Microsoft Defender Application Guard (MDAG) container (VM container environment).
 helpviewer_keywords: ["IIsolatedAppLauncher","IIsolatedAppLauncher interface [Windows API]","IIsolatedAppLauncher interface [Windows API]","described","isolatedapplauncher/IIsolatedAppLauncher","winprog.iisolatedapplauncher"]
 old-location: winprog\iisolatedapplauncher.htm
 tech.root: winprog
 ms.assetid: 49C30C52-ACE7-446D-A9B2-5BA7C6583700
-ms.date: 12/05/2018
+ms.date: 07/24/2023
 ms.keywords: IIsolatedAppLauncher, IIsolatedAppLauncher interface [Windows API], IIsolatedAppLauncher interface [Windows API],described, isolatedapplauncher/IIsolatedAppLauncher, winprog.iisolatedapplauncher
 req.header: isolatedapplauncher.h
 req.include-header: 
@@ -47,8 +47,11 @@ api_name:
 
 # IIsolatedAppLauncher interface
 
-
 ## -description
 
-Enables apps to determine whether they are running in a Windows Defender Application Guard container (VM container environment).
+Enables apps to determine whether they are running in a Microsoft Defender Application Guard container (VM container environment).
 
+## -remarks
+
+> [!WARNING]
+> This is a deprecated API.

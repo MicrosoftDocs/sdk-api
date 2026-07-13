@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetMinReqRect","MonthCal_GetMinReqRect macro [Wi
 old-location: controls\MonthCal_GetMinReqRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getminreqrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetMinReqRect, MonthCal_GetMinReqRect macro [Windows Controls], _win32_MonthCal_GetMinReqRect, _win32_MonthCal_GetMinReqRect_cpp, commctrl/MonthCal_GetMinReqRect, controls.MonthCal_GetMinReqRect, controls._win32_MonthCal_GetMinReqRect
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # MonthCal_GetMinReqRect macro
 
+## -syntax
+
+```cpp
+BOOL MonthCal_GetMinReqRect(
+   HWND   hmc,
+   LPRECT prc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero and <b>MonthCal_GetMinReqRect</b> receives the applicable bounding information if successful. Otherwise, the return is zero.
 
 ## -description
 
@@ -72,4 +86,4 @@ The minimum required window size for a month calendar control depends on the cur
 
 <div class="alert"><b>Note</b>  The rectangle returned by <b>MonthCal_GetMinReqRect</b> does not include the width of the "Today" string, if it is present. If the <a href="/windows/desktop/Controls/month-calendar-control-styles">MCS_NOTODAY</a> style is not set, your application should also retrieve the rectangle that defines the "Today" string width by calling the <a href="/windows/desktop/api/commctrl/nf-commctrl-monthcal_getmaxtodaywidth">MonthCal_GetMaxTodayWidth</a> macro. Use the larger of the two rectangles to ensure that the "Today" string is not clipped.</div>
 <div> </div>
-The <b>top</b> and <b>left</b> members of <i>lpRectInfo</i> will always be zero. The <b>right</b> and <b>bottom</b> members represent the minimum <i>cx</i> and <i>cy</i> required for the control.
+The <b>top</b> and <b>left</b> members of <i>prc</i> will always be zero. The <b>right</b> and <b>bottom</b> members represent the minimum <i>cx</i> and <i>cy</i> required for the control.

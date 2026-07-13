@@ -4,7 +4,8 @@ title: Cmnquery.h header
 ms.assetid: abd5885b-c8db-3998-9edb-520f306c5343
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: ad
 f1_keywords:
  - cmnquery

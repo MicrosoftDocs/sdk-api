@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,float)
 title: IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,float) (dcomp.h)
-description: Sets an element of the transform matrix of the effect.
+description: Sets an element of the transform matrix of the effect. (overload 1/2)
 helpviewer_keywords: ["IDCompositionAffineTransform2DEffect interface [DirectComposition]","SetTransformMatrixElement method","IDCompositionAffineTransform2DEffect.SetTransformMatrixElement","IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int","int","float)","IDCompositionAffineTransform2DEffect::SetTransformMatrixElement","IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int","int","float)","SetTransformMatrixElement","SetTransformMatrixElement method [DirectComposition]","SetTransformMatrixElement method [DirectComposition]","IDCompositionAffineTransform2DEffect interface","dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement","directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement"]
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement.htm
 tech.root: directcomp
@@ -76,7 +76,7 @@ The new value of the element.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

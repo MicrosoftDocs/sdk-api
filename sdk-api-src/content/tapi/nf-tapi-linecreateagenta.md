@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineCreateAgentA
 title: lineCreateAgentA function (tapi.h)
-description: The lineCreateAgent function creates a new Agent object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENT.
-helpviewer_keywords: ["_tapi2_linecreateagent","lineCreateAgent","lineCreateAgent function [TAPI 2.2]","lineCreateAgentA","lineCreateAgentW","tapi/lineCreateAgent","tapi/lineCreateAgentA","tapi/lineCreateAgentW","tapi2.linecreateagent"]
+description: The lineCreateAgent function creates a new Agent object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENT. (ANSI)
+helpviewer_keywords: ["lineCreateAgentA", "tapi/lineCreateAgentA"]
 old-location: tapi2\linecreateagent.htm
 tech.root: tapi3
 ms.assetid: 14b2e9c8-32ab-42c0-acfa-17a0f8a9b73f
@@ -92,4 +92,4 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineCreateAgent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineCreateAgent as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

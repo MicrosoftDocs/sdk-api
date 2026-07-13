@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.lib
-req.dll: Ntdll.dll; NtosKrnl.exe
+req.lib: ntdll.lib
+req.dll: ntdll.dll; NtosKrnl.exe
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ Initializes a counted Unicode string.
 
 ## -parameters
 
-### -param DestinationString [in, out]
+### -param DestinationString [out]
 
 The buffer for a counted Unicode string to be initialized. The length is initialized to zero if the <i>SourceString</i> is not specified.
 

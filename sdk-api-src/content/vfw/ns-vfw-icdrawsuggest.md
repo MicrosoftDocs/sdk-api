@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_9
+UID: NS:vfw.ICDRAWSUGGEST
 title: ICDRAWSUGGEST (vfw.h)
 description: The ICDRAWSUGGEST structure contains compression parameters used with the ICM_DRAW_SUGGESTFORMAT message to suggest an appropriate input format.
 helpviewer_keywords: ["ICDRAWSUGGEST","ICDRAWSUGGEST structure [Windows Multimedia]","_win32_ICDRAWSUGGEST_str","multimedia.icdrawsuggest","vfw/ICDRAWSUGGEST"]
@@ -93,3 +93,4 @@ Video Compression Manager
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

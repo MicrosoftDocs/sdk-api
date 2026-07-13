@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement3.ShowContextMenu
 title: IUIAutomationElement3::ShowContextMenu (uiautomationclient.h)
-description: Programmatically invokes a context menu on the target element.
+description: Programmatically invokes a context menu on the target element. (IUIAutomationElement3.ShowContextMenu)
 helpviewer_keywords: ["IUIAutomationElement3 interface [Windows Accessibility]","ShowContextMenu method","IUIAutomationElement3.ShowContextMenu","IUIAutomationElement3::ShowContextMenu","ShowContextMenu","ShowContextMenu method [Windows Accessibility]","ShowContextMenu method [Windows Accessibility]","IUIAutomationElement3 interface","uiautomationclient/IUIAutomationElement3::ShowContextMenu","winauto.uiauto_IUIAutomationElement3_ShowContextMenu"]
 old-location: winauto\uiauto_IUIAutomationElement3_ShowContextMenu.htm
 tech.root: WinAuto
@@ -52,13 +52,13 @@ api_name:
 
 Programmatically invokes a context menu on the target element.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

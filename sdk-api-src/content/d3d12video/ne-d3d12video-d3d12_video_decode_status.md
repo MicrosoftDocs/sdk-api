@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_STATUS
 title: D3D12_VIDEO_DECODE_STATUS
-description: Specifes the status of a video decode operation.
+description: Specifies the status of a video decode operation.
 helpviewer_keywords: ["D3D12_VIDEO_DECODE_STATUS","D3D12_VIDEO_DECODE_STATUS",""]
 tech.root: mf
 ms.assetid: 4ed97807-90ca-4709-a635-004ecf8f235d
@@ -39,7 +39,7 @@ api_name:
 
 ## -description
 
-Specifes the status of a video decode operation. This enumeration is used in the status field of a [D3D12_VIDEO_DECODE_STATUS](ne-d3d12video-d3d12_video_decode_status.md) structure.
+Specifies the status of a video decode operation. This enumeration is used in the status field of a [D3D12_VIDEO_DECODE_STATUS](ne-d3d12video-d3d12_video_decode_status.md) structure.
 
 ## -enum-fields
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:nspapi.GetAddressByNameW
 title: GetAddressByNameW function (nspapi.h)
-description: GetAddressByName is no longer available for use as of Windows Sockets 2.
-helpviewer_keywords: ["GetAddressByName","GetAddressByName function [Winsock]","GetAddressByNameA","GetAddressByNameW","NS_DEFAULT","NS_DNS","NS_NETBT","NS_SAP","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","RES_FIND_MULTIPLE","RES_SERVICE","RES_SOFT_SEARCH","_win32_getaddressbyname_2","nspapi/GetAddressByName","nspapi/GetAddressByNameA","nspapi/GetAddressByNameW","winsock.getaddressbyname_2"]
+description: GetAddressByName is no longer available for use as of Windows Sockets 2. (Unicode)
+helpviewer_keywords: ["GetAddressByName", "GetAddressByName function [Winsock]", "GetAddressByNameW", "NS_DEFAULT", "NS_DNS", "NS_NETBT", "NS_SAP", "NS_TCPIP_HOSTS", "NS_TCPIP_LOCAL", "RES_FIND_MULTIPLE", "RES_SERVICE", "RES_SOFT_SEARCH", "_win32_getaddressbyname_2", "nspapi/GetAddressByName", "nspapi/GetAddressByNameW", "winsock.getaddressbyname_2"]
 old-location: winsock\getaddressbyname_2.htm
 tech.root: WinSock
 ms.assetid: ea257b9e-5c5b-41fb-bcf0-7ac10b563b8c
@@ -297,7 +297,7 @@ Note that the
 
 
 > [!NOTE]
-> The nspapi.h header defines GetAddressByName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines GetAddressByName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

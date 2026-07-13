@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_FileMaxCount
 title: IConfigurationDataCollector::get_FileMaxCount (pla.h)
-description: Retrieves or sets the maximum number of files to collect.
+description: Retrieves or sets the maximum number of files to collect. (Get)
 helpviewer_keywords: ["FileMaxCount property [PLA]","FileMaxCount property [PLA]","IConfigurationDataCollector interface","IConfigurationDataCollector interface [PLA]","FileMaxCount property","IConfigurationDataCollector.FileMaxCount","IConfigurationDataCollector.get_FileMaxCount","IConfigurationDataCollector::FileMaxCount","IConfigurationDataCollector::get_FileMaxCount","IConfigurationDataCollector::put_FileMaxCount","base.iconfigurationdatacollector_filemaxcount","get_FileMaxCount","pla.iconfigurationdatacollector_filemaxcount","pla/IConfigurationDataCollector::FileMaxCount","pla/IConfigurationDataCollector::get_FileMaxCount","pla/IConfigurationDataCollector::put_FileMaxCount"]
 old-location: pla\iconfigurationdatacollector_filemaxcount.htm
 tech.root: PLA

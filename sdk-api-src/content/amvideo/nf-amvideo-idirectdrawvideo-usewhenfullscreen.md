@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","UseWhenFullScre
 old-location: dshow\idirectdrawvideo_usewhenfullscreen.htm
 tech.root: dshow
 ms.assetid: e50f7f06-6534-4373-a2b8-fa315158729d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseWhenFullScreen method, IDirectDrawVideo.UseWhenFullScreen, IDirectDrawVideo::UseWhenFullScreen, IDirectDrawVideoUseWhenFullScreen, UseWhenFullScreen, UseWhenFullScreen method [DirectShow], UseWhenFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseWhenFullScreen, dshow.idirectdrawvideo_usewhenfullscreen
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>UseWhenFullScreen</code> method determines whether DirectShow should change display mode when going to full-screen mode.
 

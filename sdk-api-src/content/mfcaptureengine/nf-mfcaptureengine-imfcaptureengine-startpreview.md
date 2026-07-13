@@ -52,7 +52,7 @@ api_name:
 
 Starts preview.
 
-## -parameters
+
 
 ## -returns
 

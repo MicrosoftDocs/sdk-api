@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_SetCurSel","PropSheet_SetCurSel macro [Windows 
 old-location: controls\PropSheet_SetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setcursel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_SetCurSel, PropSheet_SetCurSel macro [Windows Controls], _win32_PropSheet_SetCurSel, _win32_PropSheet_SetCurSel_cpp, controls.PropSheet_SetCurSel, controls._win32_PropSheet_SetCurSel, prsht/PropSheet_SetCurSel
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # PropSheet_SetCurSel macro
+
+## -syntax
+
+```cpp
+BOOL PropSheet_SetCurSel(
+   HWND           hDlg,
+   HPROPSHEETPAGE hpage,
+   UINT           index
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

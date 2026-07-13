@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiDatabaseGenerateTransformA
 title: MsiDatabaseGenerateTransformA function (msiquery.h)
-description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases.
-helpviewer_keywords: ["MsiDatabaseGenerateTransform","MsiDatabaseGenerateTransform function","MsiDatabaseGenerateTransformA","MsiDatabaseGenerateTransformW","_msi_msidatabasegeneratetransform","msiquery/MsiDatabaseGenerateTransform","msiquery/MsiDatabaseGenerateTransformA","msiquery/MsiDatabaseGenerateTransformW","setup.msidatabasegeneratetransform"]
+description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases. (ANSI)
+helpviewer_keywords: ["MsiDatabaseGenerateTransformA", "msiquery/MsiDatabaseGenerateTransformA"]
 old-location: setup\msidatabasegeneratetransform.htm
 tech.root: setup
 ms.assetid: 9e8fc756-4195-4fb7-9adb-0bda20e4ae95
@@ -107,7 +107,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiDatabaseGenerateTransform as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiDatabaseGenerateTransform as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

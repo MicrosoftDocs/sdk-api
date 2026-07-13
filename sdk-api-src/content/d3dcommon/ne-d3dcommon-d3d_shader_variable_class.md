@@ -59,7 +59,7 @@ Values that identify the class of a shader variable.
 
 ## -enum-fields
 
-### -field D3D_SVC_SCALAR
+### -field D3D_SVC_SCALAR:0
 
 The shader variable is a scalar.
 
@@ -123,7 +123,7 @@ The shader variable is a class.
 
 The shader variable is an interface.
 
-### -field D3D_SVC_FORCE_DWORD
+### -field D3D_SVC_FORCE_DWORD:0x7fffffff
 
 This value is not used by a programmer; it exists to force the enumeration to compile to 32 bits.
 

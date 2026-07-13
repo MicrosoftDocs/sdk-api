@@ -56,7 +56,7 @@ Specifies whether File History backups are enabled.
 
 ## -enum-fields
 
-### -field FH_STATUS_DISABLED
+### -field FH_STATUS_DISABLED:0
 
 File History backups are not enabled by the user.
 

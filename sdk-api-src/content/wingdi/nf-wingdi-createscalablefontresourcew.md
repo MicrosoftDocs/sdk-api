@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateScalableFontResourceW
 title: CreateScalableFontResourceW function (wingdi.h)
-description: The CreateScalableFontResource function creates a font resource file for a scalable font.
-helpviewer_keywords: ["0","1","CreateScalableFontResource","CreateScalableFontResource function [Windows GDI]","CreateScalableFontResourceA","CreateScalableFontResourceW","_win32_CreateScalableFontResource","gdi.createscalablefontresource","wingdi/CreateScalableFontResource","wingdi/CreateScalableFontResourceA","wingdi/CreateScalableFontResourceW"]
+description: The CreateScalableFontResource function creates a font resource file for a scalable font. (Unicode)
+helpviewer_keywords: ["0", "1", "CreateScalableFontResource", "CreateScalableFontResource function [Windows GDI]", "CreateScalableFontResourceW", "_win32_CreateScalableFontResource", "gdi.createscalablefontresource", "wingdi/CreateScalableFontResource", "wingdi/CreateScalableFontResourceW"]
 old-location: gdi\createscalablefontresource.htm
 tech.root: gdi
 ms.assetid: 9a43a254-4cf4-46de-80b2-a83838871fd7
@@ -130,7 +130,7 @@ When a path is specified in the <i>lpszFontFile</i> parameter and <b>NULL</b> is
 
 
 > [!NOTE]
-> The wingdi.h header defines CreateScalableFontResource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines CreateScalableFontResource as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

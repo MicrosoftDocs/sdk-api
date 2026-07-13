@@ -51,13 +51,16 @@ An **LPCWSTR** specifying the Key System for which support is being queried.
 
 ### -param contentType
 
-Optional. An **LPCWSTR** specifying the content type for which support is being queried.
+Optional. An **LPCWSTR** specifying the content type for which support is being queried. See the **Remarks** section for more information about this parameter.
 
 ## -returns
 
 True if the specified Key System and content type are supported; otherwise, false.
 
 ## -remarks
+
+> [!NOTE]
+> The *contentType* parameter is ignored by PlayReady, and so for that content protection system the return value only indicates whether the specified Key System is supported. If the specified Key System is supported, the method will return true, regardless of what value is specified for *contentType*. The *contentType* parameter may also be ignored by other content protection systems.
 
 For information about Key Systems, see the Encrypted Media Extension specification's [Key System](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#key-system)
 

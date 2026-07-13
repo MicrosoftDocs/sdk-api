@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetTransform
 title: IDirect3DDevice9::GetTransform (d3d9.h)
-description: Retrieves a matrix describing a transformation state.
+description: The IDirect3DDevice9::GetTransform method (d3d9.h) retrieves a matrix describing a transformation state.
 helpviewer_keywords: ["GetTransform","GetTransform method [Direct3D 9]","GetTransform method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetTransform method","IDirect3DDevice9.GetTransform","IDirect3DDevice9::GetTransform","a6b5ae1d-9cec-460e-5acb-c2e1bd7566e6","d3d9helper/IDirect3DDevice9::GetTransform","direct3d9.idirect3ddevice9__gettransform"]
 old-location: direct3d9\idirect3ddevice9__gettransform.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__gettransform.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: GetTransform, GetTransform method [Direct3D 9], GetTransform method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetTransform method, IDirect3DDevice9.GetTransform, IDirect3DDevice9::GetTransform, a6b5ae1d-9cec-460e-5acb-c2e1bd7566e6, d3d9helper/IDirect3DDevice9::GetTransform, direct3d9.idirect3ddevice9__gettransform
 req.header: d3d9.h
 req.include-header: D3D9.h

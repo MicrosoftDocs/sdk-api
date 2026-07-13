@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetHoverTime","ListView_SetHoverTime macro [Wind
 old-location: controls\ListView_SetHoverTime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethovertime.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetHoverTime, ListView_SetHoverTime macro [Windows Controls], _win32_ListView_SetHoverTime, _win32_ListView_SetHoverTime_cpp, commctrl/ListView_SetHoverTime, controls.ListView_SetHoverTime, controls._win32_ListView_SetHoverTime
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,15 @@ api_name:
 
 # ListView_SetHoverTime macro
 
+## -syntax
+
+```cpp
+void ListView_SetHoverTime(
+   HWND  hwndLV,
+   DWORD dwHoverTimeMsMs
+);
+```
+
 
 ## -description
 
@@ -60,7 +69,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
 
-### -param dwHoverTimeMs
+### -param dwHoverTimeMsMs
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 

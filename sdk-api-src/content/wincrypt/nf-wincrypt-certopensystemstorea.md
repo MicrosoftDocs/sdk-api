@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CertOpenSystemStoreA
 title: CertOpenSystemStoreA function (wincrypt.h)
-description: Opens the most common system certificate store. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use CertOpenStore.
-helpviewer_keywords: ["CA","CertOpenSystemStore","CertOpenSystemStore function [Security]","CertOpenSystemStoreA","CertOpenSystemStoreW","MY","ROOT","SPC","_crypto2_certopensystemstore","security.certopensystemstore","wincrypt/CertOpenSystemStore","wincrypt/CertOpenSystemStoreA","wincrypt/CertOpenSystemStoreW"]
+description: Opens the most common system certificate store. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use CertOpenStore. (ANSI)
+helpviewer_keywords: ["CA", "CertOpenSystemStoreA", "MY", "ROOT", "SPC", "wincrypt/CertOpenSystemStoreA"]
 old-location: security\certopensystemstore.htm
 tech.root: security
 ms.assetid: 23699439-1a6c-4907-93fa-651024856be7
@@ -58,9 +58,9 @@ The <b>CertOpenSystemStore</b> function is a simplified function that opens the 
 
 ### -param hProv [in]
 
-This parameter is not used and should be set to <b>NULL</b>.
+This parameter is not used and should be set to <b>0</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Set <i>hProv</i> to <b>NULL</b> to use the default CSP. If <i>hProv</i> is not <b>NULL</b>, it must be a CSP handle created by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.This parameter's data type is <b>HCRYPTPROV</b>.
+<b>Windows Server 2003 and Windows XP:  </b>A handle of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Set <i>hProv</i> to <b>0</b> to use the default CSP. If <i>hProv</i> is not <b>0</b>, it must be a CSP handle created by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.This parameter's data type is <b>HCRYPTPROV</b>.
 
 ### -param szSubsystemProtocol [in]
 
@@ -178,7 +178,7 @@ if(!CertCloseStore(hSystemStore, 0))
 
 
 > [!NOTE]
-> The wincrypt.h header defines CertOpenSystemStore as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincrypt.h header defines CertOpenSystemStore as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

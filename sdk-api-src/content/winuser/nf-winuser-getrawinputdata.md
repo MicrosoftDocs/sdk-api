@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-rawinput-l1-2-0.dll
+ - ext-ms-win-rtcore-ntuser-rawinput-l1-1-1.dll
+ - ext-ms-win-ntuser-rawinput-l1-2-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
@@ -64,8 +67,7 @@ Retrieves the raw input from the specified device.
 
 Type: <b>HRAWINPUT</b>
 
-A handle to the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This comes from the 
-					<i>lParam</i> in <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>.
+A handle to the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This comes from the <i>lParam</i> in <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>.
 
 ### -param uiCommand [in]
 
@@ -106,16 +108,15 @@ Get the raw data from the <a href="/windows/desktop/api/winuser/ns-winuser-rawin
 
 Type: <b>LPVOID</b>
 
-A pointer to the data that comes from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This depends on the value of 
-					<i>uiCommand</i>. If 
-					<i>pData</i> is <b>NULL</b>, the required size of the buffer is returned in *<i>pcbSize</i>.
+A pointer to the data that comes from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This depends on the value of <i>uiCommand</i>. Pointer should be aligned on a **DWORD** (32-bit) boundary. 
+
+If <i>pData</i> is <b>NULL</b>, the required size of the buffer is returned in *<i>pcbSize</i>.
 
 ### -param pcbSize [in, out]
 
 Type: <b>PUINT</b>
 
-The size, in bytes, of the data in 
-					<i>pData</i>.
+The size, in bytes, of the data in <i>pData</i>.
 
 ### -param cbSizeHeader [in]
 
@@ -127,9 +128,7 @@ The size, in bytes, of the <a href="/windows/desktop/api/winuser/ns-winuser-rawi
 
 Type: <b>UINT</b>
 
-If 
-						<i>pData</i> is <b>NULL</b> and the function is successful, the return value is 0. If 
-						<i>pData</i> is not <b>NULL</b> and the function is successful, the return value is the number of bytes copied into pData.
+If <i>pData</i> is <b>NULL</b> and the function is successful, the return value is 0. If <i>pData</i> is not <b>NULL</b> and the function is successful, the return value is the number of bytes copied into pData.
 
 If there is an error, the return value is (<b>UINT</b>)-1.
 
@@ -141,19 +140,11 @@ If there is an error, the return value is (<b>UINT</b>)-1.
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a>
-
-
 
 <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
-
-
 <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
-
-
 
 <a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 

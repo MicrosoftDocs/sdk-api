@@ -6,7 +6,7 @@ helpviewer_keywords: ["MPEG2_PROGRAM_DIRECTORY_PES_PACKET","MPEG2_PROGRAM_ELEMEN
 old-location: dshow\stream_id_map.htm
 tech.root: dshow
 ms.assetid: 75f41d9f-00a1-47e1-8b42-64de1e6abbdb
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: MPEG2_PROGRAM_DIRECTORY_PES_PACKET, MPEG2_PROGRAM_ELEMENTARY_STREAM, MPEG2_PROGRAM_PACK_HEADER, MPEG2_PROGRAM_PES_STREAM, MPEG2_PROGRAM_STREAM_MAP, MPEG2_PROGRAM_SYSTEM_HEADER, STREAM_ID_MAP, STREAM_ID_MAP structure [DirectShow], STREAM_ID_MAPStructure, dshow.stream_id_map, strmif/STREAM_ID_MAP
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>STREAM_ID_MAP</code> structure describes an elementary stream within an MPEG-2 program stream. Used with the <a href="/windows/desktop/api/strmif/nn-strmif-ienumstreamidmap">IEnumStreamIdMap</a> interface methods.
 

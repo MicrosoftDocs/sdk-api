@@ -1,12 +1,10 @@
 ---
 UID: NI:winioctl.FSCTL_CREATE_USN_JOURNAL
 title: FSCTL_CREATE_USN_JOURNAL
-author: windows-sdk-content
 description: Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal stream.
 old-location: fs\fsctl_create_usn_journal.htm
 tech.root: FileIO
 ms.assetid: 92e737e6-dba6-47f1-a077-e303039e12eb
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CREATE_USN_JOURNAL, FSCTL_CREATE_USN_JOURNAL control, FSCTL_CREATE_USN_JOURNAL control code [Files], _win32_fsctl_create_usn_journal, base.fsctl_create_usn_journal, fs.fsctl_create_usn_journal, winioctl/FSCTL_CREATE_USN_JOURNAL
 req.header: winioctl.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -51,7 +48,7 @@ api_name:
 
 Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal 
     stream.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -73,27 +70,21 @@ DeviceIoControl( (HANDLE) hDevice,              // handle to volume
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 
@@ -128,7 +119,7 @@ To retrieve a handle to a volume, call
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
-\\.&#92;<i>X</i>:
+&#92;&#92;.&#92;<i>X</i>:
 
 In the preceding string, <i>X</i> is the letter identifying the drive on which the 
      volume appears. The volume must be NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command 

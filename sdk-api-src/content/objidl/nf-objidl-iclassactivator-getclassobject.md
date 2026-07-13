@@ -41,6 +41,7 @@ api_type:
  - COM
 api_location:
  - ObjIdl.h
+ - CLUAMoniker
 api_name:
  - IClassActivator.GetClassObject
 ---

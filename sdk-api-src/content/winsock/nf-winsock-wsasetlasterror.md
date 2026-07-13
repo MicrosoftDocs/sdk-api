@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.WSASetLastError
 title: WSASetLastError function (winsock.h)
-description: The WSASetLastError function sets the error code that can be retrieved through the WSAGetLastError function.
+description: The WSASetLastError function (winsock.h) sets the error code that can be retrieved through the WSAGetLastError function.
 helpviewer_keywords: ["WSASetLastError","WSASetLastError function [Winsock]","_win32_wsasetlasterror_2","winsock.wsasetlasterror_2","winsock/WSASetLastError"]
 old-location: winsock\wsasetlasterror_2.htm
 tech.root: WinSock
 ms.assetid: 596155ee-3dcc-4ae3-97ab-0653e019cbee
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: WSASetLastError, WSASetLastError function [Winsock], _win32_wsasetlasterror_2, winsock.wsasetlasterror_2, winsock/WSASetLastError
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -91,7 +91,7 @@ The
 <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> call for the current thread. Note that any subsequent Windows Sockets routine called by the application will override the error code as set by this routine.
 
 The error code set by 
-<b>WSASetLastError</b> is different from the error code reset by calling the function 
+<b>WSASetLastError</b> is different from the error code returned by calling the function 
 <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> with SO_ERROR. 
 
 The Windows Sockets error codes used by this function are listed under <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IExtractIconA.GetIconLocation
 title: IExtractIconA::GetIconLocation (shlobj_core.h)
-description: Gets the location and index of an icon.
+description: Gets the location and index of an icon. (ANSI)
 helpviewer_keywords: ["GIL_ASYNC","GIL_CHECKSHIELD","GIL_DEFAULTICON","GIL_DONTCACHE","GIL_FORCENOSHIELD","GIL_FORSHELL","GIL_FORSHORTCUT","GIL_NOTFILENAME","GIL_OPENICON","GIL_PERCLASS","GIL_PERINSTANCE","GIL_SHIELD","GIL_SIMULATEDOC","GetIconLocation","GetIconLocation method [Windows Shell]","GetIconLocation method [Windows Shell]","IExtractIcon interface","IExtractIcon interface [Windows Shell]","GetIconLocation method","IExtractIcon::GetIconLocation","IExtractIconA","IExtractIconA.GetIconLocation","IExtractIconA::GetIconLocation","IExtractIconW","IExtractIconW::GetIconLocation","_win32_IExtractIcon_GetIconLocation","shell.IExtractIcon_GetIconLocation","shlobj_core/IExtractIcon::GetIconLocation"]
 old-location: shell\IExtractIcon_GetIconLocation.htm
 tech.root: shell

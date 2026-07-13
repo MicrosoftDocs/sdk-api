@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetHandleCount
 title: SetHandleCount
-ms.date: 4/26/2019
+description: The SetHandleCount function changes the number of file handles available to a process.
+ms.date: 08/04/2022
 ms.keywords: SetHandleCount
 targetos: Windows
 req.assembly: 
@@ -13,12 +14,12 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: kernel32.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -33,6 +34,15 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-kernel32-l2-1-0.dll
+ - api-ms-win-core-misc-l1-1-0.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-5.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-4.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-3.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-2.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-1.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-0.dll
  - kernel32.dll
 api_name:
  - SetHandleCount

@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_explode_dnW
 title: ldap_explode_dnW function (winldap.h)
-description: The ldap_explode_dn function breaks up an entry name into its component parts.
-helpviewer_keywords: ["_ldap_ldap_explode_dn","ldap.ldap__explode__dn","ldap.ldap_explode_dn","ldap_explode_dn","ldap_explode_dn function [LDAP]","ldap_explode_dnA","ldap_explode_dnW","winldap/ldap_explode_dn","winldap/ldap_explode_dnA","winldap/ldap_explode_dnW"]
+description: The ldap_explode_dnW (Unicode) function (winldap.h) breaks up an entry name into its component parts. 
+helpviewer_keywords: ["_ldap_ldap_explode_dn", "ldap.ldap__explode__dn", "ldap.ldap_explode_dn", "ldap_explode_dn", "ldap_explode_dn function [LDAP]", "ldap_explode_dnW", "winldap/ldap_explode_dn", "winldap/ldap_explode_dnW"]
 old-location: ldap\ldap_explode_dn.htm
 tech.root: ldap
 ms.assetid: 9d151adf-f8b2-4ed1-8e25-86c95a89a948
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _ldap_ldap_explode_dn, ldap.ldap__explode__dn, ldap.ldap_explode_dn, ldap_explode_dn, ldap_explode_dn function [LDAP], ldap_explode_dnA, ldap_explode_dnW, winldap/ldap_explode_dn, winldap/ldap_explode_dnA, winldap/ldap_explode_dnW
 req.header: winldap.h
 req.include-header: 
@@ -80,7 +80,7 @@ Calling <b>ldap_explode_dn</b> with a pointer to a constant string will cause th
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_explode_dn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_explode_dn as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

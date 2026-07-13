@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetFinalPathNameByHandleA
 title: GetFinalPathNameByHandleA function (fileapi.h)
-description: Retrieves the final path for the specified file.
-helpviewer_keywords: ["FILE_NAME_NORMALIZED","FILE_NAME_OPENED","GetFinalPathNameByHandle","GetFinalPathNameByHandle function [Files]","GetFinalPathNameByHandleA","GetFinalPathNameByHandleW","VOLUME_NAME_DOS","VOLUME_NAME_GUID","VOLUME_NAME_NONE","VOLUME_NAME_NT","fileapi/GetFinalPathNameByHandle","fileapi/GetFinalPathNameByHandleA","fileapi/GetFinalPathNameByHandleW","fs.getfinalpathnamebyhandle","fs.getfinalpathnamebyhandlew","winbase/GetFinalPathNameByHandle","winbase/GetFinalPathNameByHandleA","winbase/GetFinalPathNameByHandleW"]
+description: Retrieves the final path for the specified file. (ANSI)
+helpviewer_keywords: ["FILE_NAME_NORMALIZED", "FILE_NAME_OPENED", "GetFinalPathNameByHandleA", "VOLUME_NAME_DOS", "VOLUME_NAME_GUID", "VOLUME_NAME_NONE", "VOLUME_NAME_NT", "fileapi/GetFinalPathNameByHandleA"]
 old-location: fs\getfinalpathnamebyhandle.htm
 tech.root: fs
 ms.assetid: 02783ba9-a8d7-482f-a8b1-7cac934cf476
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -233,6 +236,9 @@ Invalid flags were specified for <i>dwFlags</i>.
 
 The Server Message Block (SMB) Protocol does not support queries for normalized paths. Consequently, when you call this function passing the handle of a file opened using SMB, and with the FILE_NAME_NORMALIZED flag, the function splits the path into its components and tries to query for the normalized name of each of those components in turn. If the user lacks access permission to any one of those components, then the function call fails with ERROR_ACCESS_DENIED.
 
+> [!NOTE]
+> Windows 10 version 1709 and later and Windows Server version 1709 and later support the **FileNormalizedNameInformation** information class via SMB. See the [MS-SMB2 specification] (/openspecs/windows_protocols/ms-smb2/a64e55aa-1152-48e4-8206-edd96444e7f7#Appendix_A_414) Appendix A, Section 3.3.5.20.1 for more information.
+
  A final path is the path that is returned when a path is fully resolved. For example, for a symbolic link 
      named "C:\tmp\mydir" that points to "D:\yourdir", the final path would be 
      "D:\yourdir".
@@ -360,7 +366,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
 
 
 > [!NOTE]
-> The fileapi.h header defines GetFinalPathNameByHandle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The fileapi.h header defines GetFinalPathNameByHandle as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

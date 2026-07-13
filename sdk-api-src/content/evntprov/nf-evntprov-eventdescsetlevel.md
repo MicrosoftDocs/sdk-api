@@ -2,65 +2,77 @@
 UID: NF:evntprov.EventDescSetLevel
 title: EventDescSetLevel function (evntprov.h)
 description: Sets the Level member of the event descriptor.
-helpviewer_keywords: ["EventDescSetLevel","EventDescSetLevel function [ETW]","base.eventdescsetlevel_func","etw.eventdescsetlevel_func","evntprov/EventDescSetLevel"]
+helpviewer_keywords:
+  [
+    "EventDescSetLevel",
+    "EventDescSetLevel function [ETW]",
+    "base.eventdescsetlevel_func",
+    "etw.eventdescsetlevel_func",
+    "evntprov/EventDescSetLevel",
+  ]
 old-location: etw\eventdescsetlevel_func.htm
 tech.root: ETW
 ms.assetid: a4fe3b0e-6ca5-401c-a669-752e2955cc52
 ms.date: 12/05/2018
-ms.keywords: EventDescSetLevel, EventDescSetLevel function [ETW], base.eventdescsetlevel_func, etw.eventdescsetlevel_func, evntprov/EventDescSetLevel
+ms.keywords:
+  EventDescSetLevel, EventDescSetLevel function [ETW],
+  base.eventdescsetlevel_func, etw.eventdescsetlevel_func,
+  evntprov/EventDescSetLevel
 req.header: evntprov.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - EventDescSetLevel
- - evntprov/EventDescSetLevel
+  - EventDescSetLevel
+  - evntprov/EventDescSetLevel
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - HeaderDef
+  - HeaderDef
 api_location:
- - Evntprov.h
+  - Evntprov.h
 api_name:
- - EventDescSetLevel
+  - EventDescSetLevel
 ---
 
 # EventDescSetLevel function
 
-
 ## -description
 
-Sets the <b>Level</b> member of the event descriptor.
+Sets the **Level** member of the event descriptor.
 
 ## -parameters
 
 ### -param EventDescriptor [in]
 
-Event descriptor to modify. See <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
+Event descriptor to modify. See
+[EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor).
 
 ### -param Level [in]
 
-Severity level that indicates the verboseness with which to log the event. For details, see the Level parameter of <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
+Severity level that indicates the verboseness with which to log the event. For
+details, see the Level parameter of
+[EnableTraceEx](/windows/desktop/ETW/enabletraceex-func).
 
 ## -returns
 
@@ -68,8 +80,10 @@ The modified event descriptor.
 
 ## -remarks
 
-This is a convenience macro for setting the member of the <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
+This is a convenience macro for setting the member of the
+[EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
+structure.
 
 ## -see-also
 
-<a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
+[EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)

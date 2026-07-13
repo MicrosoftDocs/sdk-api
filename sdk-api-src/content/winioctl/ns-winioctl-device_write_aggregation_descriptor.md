@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 title: DEVICE_WRITE_AGGREGATION_DESCRIPTOR
-description: Reserved for system use.
+description: Reserved for system use. (DEVICE_WRITE_AGGREGATION_DESCRIPTOR)
 helpviewer_keywords: ["*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR","DEVICE_WRITE_AGGREGATION_DESCRIPTOR","DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Files]","PDEVICE_WRITE_AGGREGATION_DESCRIPTOR","PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Files]","fs.device_write_aggregation_descriptor","winioctl/DEVICE_WRITE_AGGREGATION_DESCRIPTOR","winioctl/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR"]
 old-location: fs\device_write_aggregation_descriptor.htm
 tech.root: fs

@@ -67,7 +67,7 @@ The value to use in the <i>dwCompletionKey</i> parameter of
 
 The completion port to use in the <i>CompletionPort</i> parameter of the <a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function when messages are sent on behalf of the job.
 
-<b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>Specify <b>NULL</b> to remove the association between the current completion port and the job.
+**Windows 8 and newer, Windows Server 2012 and newer:** Specify <b>NULL</b> to remove the association between the current completion port and the job.
 
 ## -remarks
 
@@ -227,6 +227,32 @@ The value of <i>lpOverlapped</i> is the identifier of the process that has excee
  
 
 The following exit codes indicate an abnormal exit:
+
+* STATUS_GUARD_PAGE_VIOLATION
+* STATUS_DATATYPE_MISALIGNMENT
+* STATUS_BREAKPOINT
+* STATUS_SINGLE_STEP
+* STATUS_ACCESS_VIOLATION
+* STATUS_IN_PAGE_ERROR
+* STATUS_ILLEGAL_INSTRUCTION
+* STATUS_NONCONTINUABLE_EXCEPTION
+* STATUS_INVALID_DISPOSITION
+* STATUS_ARRAY_BOUNDS_EXCEEDED
+* STATUS_FLOAT_DENORMAL_OPERAND
+* STATUS_FLOAT_DIVIDE_BY_ZERO
+* STATUS_FLOAT_INEXACT_RESULT
+* STATUS_FLOAT_INVALID_OPERATION
+* STATUS_FLOAT_OVERFLOW
+* STATUS_FLOAT_STACK_CHECK
+* STATUS_FLOAT_UNDERFLOW
+* STATUS_INTEGER_DIVIDE_BY_ZERO
+* STATUS_INTEGER_OVERFLOW
+* STATUS_PRIVILEGED_INSTRUCTION
+* STATUS_STACK_OVERFLOW
+* STATUS_CONTROL_C_EXIT
+* STATUS_FLOAT_MULTIPLE_FAULTS
+* STATUS_FLOAT_MULTIPLE_TRAPS
+* STATUS_REG_NAT_CONSUMPTION
 
 You must be cautious when using the JOB_OBJECT_MSG_NEW_PROCESS and JOB_OBJECT_MSG_EXIT_PROCESS messages, as race conditions may occur. For instance, if processes are actively starting and exiting within a job, and you are in the process of assigning a completion port to the job, you may miss messages for processes whose states change during the association of the completion port. For this reason, it is best to associate a completion port with a job when the job is inactive.
 

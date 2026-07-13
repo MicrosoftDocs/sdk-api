@@ -55,10 +55,7 @@ Describes the details of a presentation. A <i>presentation</i> is a set of relat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPresentationDescriptor</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFPresentationDescriptor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFPresentationDescriptor</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFPresentationDescriptor</b> also has these types of members:
 
 ## -remarks
 

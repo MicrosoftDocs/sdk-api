@@ -1,8 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetWindowsDirectoryA
 title: GetWindowsDirectoryA function (sysinfoapi.h)
-description: Retrieves the path of the Windows directory.
-helpviewer_keywords: ["GetWindowsDirectory","GetWindowsDirectory function","GetWindowsDirectoryA","GetWindowsDirectoryW","_win32_getwindowsdirectory","base.getwindowsdirectory","sysinfoapi/GetWindowsDirectory","sysinfoapi/GetWindowsDirectoryA","sysinfoapi/GetWindowsDirectoryW"]
+description: Retrieves the path of the Windows directory. (ANSI)
+helpviewer_keywords: ["GetWindowsDirectoryA", "sysinfoapi/GetWindowsDirectoryA"]
 old-location: base\getwindowsdirectory.htm
 tech.root: winprog
 ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-sysinfo-l1-2-7.dll
+ - api-ms-win-core-sysinfo-l1-2-6.dll
+ - api-ms-win-core-sysinfo-l1-2-5.dll
+ - api-ms-win-core-sysinfo-l1-2-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-SysInfo-l1-1-0.dll
  - KernelBase.dll
@@ -127,7 +131,7 @@ For an example, see <a href="/windows/desktop/SysInfo/getting-system-information
 
 
 > [!NOTE]
-> The sysinfoapi.h header defines GetWindowsDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sysinfoapi.h header defines GetWindowsDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

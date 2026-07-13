@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIINSERTOBJECTA
 title: OLEUIINSERTOBJECTA (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Insert Object dialog box, and space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Insert Object dialog box, and space for the library to return information when the dialog box is dismissed. (ANSI)
 helpviewer_keywords: ["*LPOLEUIINSERTOBJECTA","*POLEUIINSERTOBJECTA","IOF_CHECKDISPLAYASICON","IOF_CHECKLINK","IOF_CREATEFILEOBJECT","IOF_CREATELINKOBJECT","IOF_CREATENEWOBJECT","IOF_DISABLEDISPLAYASICON","IOF_DISABLELINK","IOF_HIDECHANGEICON","IOF_SELECTCREATECONTROL","IOF_SELECTCREATEFROMFILE","IOF_SELECTCREATENEW","IOF_SHOWHELP","IOF_SHOWINSERTCONTROL","IOF_VERIFYSERVERSEXIST","LPOLEUIINSERTOBJECT","LPOLEUIINSERTOBJECT structure pointer [COM]","OLEUIINSERTOBJECT","OLEUIINSERTOBJECT structure [COM]","OLEUIINSERTOBJECTA","OLEUIINSERTOBJECTW","POLEUIINSERTOBJECT","POLEUIINSERTOBJECT structure pointer [COM]","_ole_OLEUIINSERTOBJECT_str","com.oleuiinsertobject_struct","oledlg/LPOLEUIINSERTOBJECT","oledlg/OLEUIINSERTOBJECT","oledlg/OLEUIINSERTOBJECTA","oledlg/OLEUIINSERTOBJECTW","oledlg/POLEUIINSERTOBJECT"]
 old-location: com\oleuiinsertobject_struct.htm
 tech.root: com
@@ -307,4 +307,4 @@ MetafilePict structure containing the iconic aspect, if it wasn't placed in the 
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUIINSERTOBJECT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUIINSERTOBJECT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

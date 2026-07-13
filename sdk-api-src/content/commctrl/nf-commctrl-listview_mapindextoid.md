@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_MapIndexToID","ListView_MapIndexToID macro [Wind
 old-location: controls\ListView_MapIndexToID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_mapindextoid.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_MapIndexToID, ListView_MapIndexToID macro [Windows Controls], _win32_ListView_MapIndexToID, _win32_ListView_MapIndexToID_cpp, commctrl/ListView_MapIndexToID, controls.ListView_MapIndexToID, controls._win32_ListView_MapIndexToID
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_MapIndexToID macro
+
+## -syntax
+
+```cpp
+UINT ListView_MapIndexToID(
+   HWND hwnd,
+   UINT index
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns a unique ID.
 
 
 ## -description

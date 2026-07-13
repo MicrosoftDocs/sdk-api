@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_Name
 title: INetFwRule::get_Name (netfw.h)
-description: Specifies the friendly name of this rule.
+description: Specifies the friendly name of this rule. (Get)
 helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","Name property","INetFwRule.Name","INetFwRule.get_Name","INetFwRule::Name","INetFwRule::get_Name","INetFwRule::put_Name","Name property [ICS/ICF]","Name property [ICS/ICF]","INetFwRule interface","get_Name","ics.inetfwrule_name","netfw/INetFwRule::Name","netfw/INetFwRule::get_Name","netfw/INetFwRule::put_Name"]
 old-location: ics\inetfwrule_name.htm
 tech.root: ics

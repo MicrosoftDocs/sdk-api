@@ -4,7 +4,8 @@ title: Data Exchange
 ms.assetid: 8367a3cd-5a5f-3203-9e68-d3a9a508c968
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Data Exchange

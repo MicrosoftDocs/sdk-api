@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetToolTips","TabCtrl_GetToolTips macro [Windows 
 old-location: controls\TabCtrl_GetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_gettooltips.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetToolTips, TabCtrl_GetToolTips macro [Windows Controls], _win32_TabCtrl_GetToolTips, _win32_TabCtrl_GetToolTips_cpp, commctrl/TabCtrl_GetToolTips, controls.TabCtrl_GetToolTips, controls._win32_TabCtrl_GetToolTips
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TabCtrl_GetToolTips macro
+
+## -syntax
+
+```cpp
+HWND TabCtrl_GetToolTips(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the tooltip control if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

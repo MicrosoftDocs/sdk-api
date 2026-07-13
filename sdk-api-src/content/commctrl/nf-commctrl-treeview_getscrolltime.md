@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetScrollTime","TreeView_GetScrollTime macro [Wi
 old-location: controls\TreeView_GetScrollTime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getscrolltime.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetScrollTime, TreeView_GetScrollTime macro [Windows Controls], _win32_TreeView_GetScrollTime, _win32_TreeView_GetScrollTime_cpp, commctrl/TreeView_GetScrollTime, controls.TreeView_GetScrollTime, controls._win32_TreeView_GetScrollTime
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TreeView_GetScrollTime macro
+
+## -syntax
+
+```cpp
+UINT TreeView_GetScrollTime(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the maximum scroll time, in milliseconds.
 
 
 ## -description

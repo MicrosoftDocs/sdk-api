@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IPropertyDescription2
 title: IPropertyDescription2 (propsys.h)
-description: Exposes methods that enumerate and retrieve individual property description details.
+description: Exposes methods that enumerate and retrieve individual property description details. (IPropertyDescription2)
 helpviewer_keywords: ["IPropertyDescription2","IPropertyDescription2 interface [Windows Properties]","IPropertyDescription2 interface [Windows Properties]","described","properties.IPropertyDescription2","propsys/IPropertyDescription2","shell.IPropertyDescription2","shell_IPropertyDescription2"]
 old-location: properties\IPropertyDescription2.htm
 tech.root: properties
@@ -54,10 +54,7 @@ Exposes methods that enumerate and retrieve individual property description deta
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescription2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>. <b>IPropertyDescription2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyDescription2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>. <b>IPropertyDescription2</b> also has these types of members:
 
 ## -remarks
 

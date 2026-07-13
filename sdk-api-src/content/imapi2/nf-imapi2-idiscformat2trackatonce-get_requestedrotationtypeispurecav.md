@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_RequestedRotationTypeIsPureCAV
 title: IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV (imapi2.h)
-description: Retrieves the requested rotational-speed control type.
+description: Retrieves the requested rotational-speed control type. (IDiscFormat2TrackAtOnce.get_RequestedRotationTypeIsPureCAV)
 helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_RequestedRotationTypeIsPureCAV method","IDiscFormat2TrackAtOnce.get_RequestedRotationTypeIsPureCAV","IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV","get_RequestedRotationTypeIsPureCAV","get_RequestedRotationTypeIsPureCAV method [IMAPI]","get_RequestedRotationTypeIsPureCAV method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_requestedrotationtypeispurecav","imapi2/IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV"]
 old-location: imapi\idiscformat2trackatonce_get_requestedrotationtypeispurecav.htm
 tech.root: imapi

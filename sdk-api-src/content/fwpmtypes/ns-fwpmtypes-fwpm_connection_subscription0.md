@@ -58,6 +58,8 @@ The <b>FWPM_CONNECTION_SUBSCRIPTION0</b> structure stores information used to su
 
 ### -field enumTemplate
 
+Type: **[FWPM_CONNECTION_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)**
+
 Enumeration template for limiting the subscription.
 
 ### -field flags

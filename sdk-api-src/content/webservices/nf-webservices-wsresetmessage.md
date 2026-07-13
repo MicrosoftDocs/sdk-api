@@ -89,5 +89,5 @@ One or more arguments are invalid.
 When a message is reset, its underlying heap is reset.
             
 
-Reusing a message object to receive or send multiple messages is is generally
-                more efficient than creating and free'ing the message object for each message.
+Reusing a message object to receive or send multiple messages is generally
+                more efficient than creating and freeing the message object for each message.

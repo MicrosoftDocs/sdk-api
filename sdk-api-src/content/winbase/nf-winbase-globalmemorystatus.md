@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GlobalMemoryStatus
 title: GlobalMemoryStatus function (winbase.h)
-description: Retrieves information about the system's current usage of both physical and virtual memory.
+description: Retrieves information about the system's current usage of both physical and virtual memory. (GlobalMemoryStatus)
 helpviewer_keywords: ["GlobalMemoryStatus","GlobalMemoryStatus function","_win32_globalmemorystatus","base.globalmemorystatus","winbase/GlobalMemoryStatus"]
 old-location: base\globalmemorystatus.htm
 tech.root: base
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll

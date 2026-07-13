@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxServer.get_ArchiveOutboundFaxes
 title: IFaxServer::get_ArchiveOutboundFaxes (faxcom.h)
-description: Sets or retrieves the ArchiveOutboundFaxes property for a FaxServer object. The ArchiveOutboundFaxes property is a Boolean value that indicates whether the fax server archives outgoing fax transmissions.
+description: Sets or retrieves the ArchiveOutboundFaxes property for a FaxServer object. The ArchiveOutboundFaxes property is a Boolean value that indicates whether the fax server archives outgoing fax transmissions. (Get)
 helpviewer_keywords: ["ArchiveOutboundFaxes property [Fax Service]","ArchiveOutboundFaxes property [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","ArchiveOutboundFaxes property","IFaxServer.ArchiveOutboundFaxes","IFaxServer.get_ArchiveOutboundFaxes","IFaxServer.put_ArchiveOutboundFaxes","IFaxServer::ArchiveOutboundFaxes","IFaxServer::get_ArchiveOutboundFaxes","IFaxServer::put_ArchiveOutboundFaxes","_mfax_ifaxserver_get_archiveoutboundfaxes","fax._mfax_ifaxserver_client_mfax_ifaxserver_get_archiveoutboundfaxes_cpp","fax._mfax_ifaxserver_get_archiveoutboundfaxes","faxcom/IFaxServer::ArchiveOutboundFaxes","faxcom/IFaxServer::get_ArchiveOutboundFaxes","faxcom/IFaxServer::put_ArchiveOutboundFaxes","get_ArchiveOutboundFaxes"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_archiveoutboundfaxes_cpp.htm
 tech.root: Fax

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Account
 title: IFsrmPipelineModuleDefinition::put_Account (fsrmpipeline.h)
-description: The account to use when running the module.
+description: The account to use when running the module. (Put)
 helpviewer_keywords: ["Account property [File Server Resource Manager]","Account property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","Account property","IFsrmPipelineModuleDefinition.Account","IFsrmPipelineModuleDefinition.put_Account","IFsrmPipelineModuleDefinition::Account","IFsrmPipelineModuleDefinition::get_Account","IFsrmPipelineModuleDefinition::put_Account","fs.ifsrmpipelinemoduledefinition_account","fsrm.ifsrmpipelinemoduledefinition_account","fsrmpipeline/IFsrmPipelineModuleDefinition::Account","fsrmpipeline/IFsrmPipelineModuleDefinition::get_Account","fsrmpipeline/IFsrmPipelineModuleDefinition::put_Account","put_Account"]
 old-location: fsrm\ifsrmpipelinemoduledefinition_account.htm
 tech.root: fsrm

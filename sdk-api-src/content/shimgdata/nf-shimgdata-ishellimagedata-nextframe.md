@@ -52,7 +52,7 @@ api_name:
 
 Switches to the next frame of an animated image.
 
-## -parameters
+
 
 ## -returns
 

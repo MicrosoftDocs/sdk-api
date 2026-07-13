@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.HoldVariable
 title: IUIAnimationStoryboard2::HoldVariable (uianimation.h)
-description: Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
+description: Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends. (IUIAnimationStoryboard2.HoldVariable)
 helpviewer_keywords: ["HoldVariable","HoldVariable method [Windows Animation]","HoldVariable method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","HoldVariable method","IUIAnimationStoryboard2.HoldVariable","IUIAnimationStoryboard2::HoldVariable","uianimation.iuianimationstoryboard2_holdvariable","uianimation/IUIAnimationStoryboard2::HoldVariable"]
 old-location: uianimation\iuianimationstoryboard2_holdvariable.htm
 tech.root: UIAnimation

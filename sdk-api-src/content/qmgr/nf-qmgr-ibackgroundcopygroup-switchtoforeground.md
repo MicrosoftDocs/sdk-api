@@ -54,7 +54,7 @@ api_name:
 
 Use the <b>SwitchToForeground</b> method to download the group in the foreground instead of the background.
 
-## -parameters
+
 
 ## -returns
 
@@ -68,7 +68,7 @@ This method returns the following <b>HRESULT</b> values, as well as others.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

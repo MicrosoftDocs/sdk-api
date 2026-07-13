@@ -52,7 +52,7 @@ api_name:
 
 The <b>AVIClearClipboard</b> function removes an AVI file from the clipboard.
 
-## -parameters
+
 
 ## -returns
 

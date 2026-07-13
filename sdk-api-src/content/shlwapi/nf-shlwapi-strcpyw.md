@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.StrCpyW
 title: StrCpyW function (shlwapi.h)
-description: Copies one string to another.
+description: Copies one string to another. (StrCpyW)
 helpviewer_keywords: ["StrCpy","StrCpy function [Windows Shell]","StrCpyW","_win32_StrCpy","shell.StrCpy","shlwapi/StrCpy","shlwapi/StrCpyW"]
 old-location: shell\StrCpy.htm
 tech.root: shell

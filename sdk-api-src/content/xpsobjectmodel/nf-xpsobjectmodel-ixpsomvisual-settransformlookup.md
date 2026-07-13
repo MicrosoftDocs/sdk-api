@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLookup
 title: IXpsOMVisual::SetTransformLookup (xpsobjectmodel.h)
-description: Sets the lookup key name of a shared matrix transform in a resource dictionary.
+description: Sets the lookup key name of a shared matrix transform in a resource dictionary. (IXpsOMVisual.SetTransformLookup)
 helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetTransformLookup method","IXpsOMVisual.SetTransformLookup","IXpsOMVisual::SetTransformLookup","SetTransformLookup","SetTransformLookup method [XPS Documents and Packaging]","SetTransformLookup method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_settransformlookup","xpsobjectmodel/IXpsOMVisual::SetTransformLookup"]
 old-location: xps\ixpsomvisual_settransformlookup.htm
 tech.root: xps
@@ -85,7 +85,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Neither <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvis
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

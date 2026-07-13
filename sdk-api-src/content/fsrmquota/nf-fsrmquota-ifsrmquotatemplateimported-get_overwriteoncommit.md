@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateImported.get_OverwriteOnCommit
 title: IFsrmQuotaTemplateImported::get_OverwriteOnCommit (fsrmquota.h)
-description: Retrieves or sets a value that determines whether a quota template is overwritten if it exists when the template is imported.
+description: Retrieves or sets a value that determines whether a quota template is overwritten if it exists when the template is imported. (Get)
 helpviewer_keywords: ["IFsrmQuotaTemplateImported interface [File Server Resource Manager]","OverwriteOnCommit property","IFsrmQuotaTemplateImported.OverwriteOnCommit","IFsrmQuotaTemplateImported.get_OverwriteOnCommit","IFsrmQuotaTemplateImported::OverwriteOnCommit","IFsrmQuotaTemplateImported::get_OverwriteOnCommit","IFsrmQuotaTemplateImported::put_OverwriteOnCommit","OverwriteOnCommit property [File Server Resource Manager]","OverwriteOnCommit property [File Server Resource Manager]","IFsrmQuotaTemplateImported interface","fs.ifsrmquotatemplateimported_overwriteoncommit","fsrm.ifsrmquotatemplateimported_overwriteoncommit","fsrmquota/IFsrmQuotaTemplateImported::OverwriteOnCommit","fsrmquota/IFsrmQuotaTemplateImported::get_OverwriteOnCommit","fsrmquota/IFsrmQuotaTemplateImported::put_OverwriteOnCommit","get_OverwriteOnCommit"]
 old-location: fsrm\ifsrmquotatemplateimported_overwriteoncommit.htm
 tech.root: fsrm

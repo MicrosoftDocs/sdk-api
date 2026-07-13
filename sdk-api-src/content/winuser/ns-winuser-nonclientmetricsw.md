@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagNONCLIENTMETRICSW
 title: NONCLIENTMETRICSW (winuser.h)
-description: Contains the scalable metrics associated with the nonclient area of a nonminimized window.
+description: Contains the scalable metrics associated with the nonclient area of a nonminimized window. (Unicode)
 helpviewer_keywords: ["*LPNONCLIENTMETRICSW","*PNONCLIENTMETRICSW","LPNONCLIENTMETRICS","LPNONCLIENTMETRICS structure pointer [Windows and Messages]","NONCLIENTMETRICS","NONCLIENTMETRICS structure [Windows and Messages]","NONCLIENTMETRICSA","NONCLIENTMETRICSW","PNONCLIENTMETRICS","PNONCLIENTMETRICS structure pointer [Windows and Messages]","_win32_nonclientmetrics_str","base.nonclientmetrics_str","nonclientmetrics_str_cpp","tagNONCLIENTMETRICS","winmsg.nonclientmetrics_str","winui.nonclientmetrics_str","winuser/LPNONCLIENTMETRICS","winuser/NONCLIENTMETRICS","winuser/NONCLIENTMETRICSA","winuser/NONCLIENTMETRICSW","winuser/PNONCLIENTMETRICS"]
 old-location: winmsg\nonclientmetrics_str.htm
 tech.root: winmsg
@@ -138,7 +138,7 @@ If the <b>iPaddedBorderWidth</b> member of the <a href="/windows/desktop/api/win
 
 
 > [!NOTE]
-> The winuser.h header defines NONCLIENTMETRICS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines NONCLIENTMETRICS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

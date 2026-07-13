@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Loads an <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a> into an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+Loads an <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a">XMFLOAT4X4A</a> into an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -parameters
 
 ### -param pSource [in]
 
-Address of the <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a> structure to load.
+Address of the <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a">XMFLOAT4X4A</a> structure to load.
 
 ## -returns
 
@@ -64,10 +64,10 @@ Returns an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XM
 
 ## -remarks
 
-<a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a> is a row-major form of the matrix. This function could be used to read column-major data, 
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a">XMFLOAT4X4A</a> is a row-major form of the matrix. This function could be used to read column-major data, 
     but would then need to be transposed with <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrixtranspose">XMMatrixTranpose</a> before use in other XMMATRIX functions.
 
-The members of the <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)">XMFLOAT4X4A</a> structure (<b>_11</b>, <b>_12</b>,
+The members of the <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a">XMFLOAT4X4A</a> structure (<b>_11</b>, <b>_12</b>,
    <b>_13</b>, and so on) are loaded into the corresponding members of the
    <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
 

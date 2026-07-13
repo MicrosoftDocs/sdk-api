@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetBoolean
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetBoolean (windows.foundation.h)
 description: Gets the 8-bit Boolean value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetBoolean","GetBoolean method [Windows Runtime]","GetBoolean method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetBoolean method","IPropertyValue.GetBoolean","IPropertyValue.IPropertyValue","IPropertyValue::GetBoolean","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetBoolean","winrt.ipropertyvalue_getboolean"]
 old-location: winrt\ipropertyvalue_getboolean.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetBoolean
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetBoolean (windows.foundation.h)
 
 
 ## -description

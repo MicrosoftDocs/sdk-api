@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetID","GetID method","GetID method","ISensor interface",
 old-location: winsensors_com_ref\isensor_getid.htm
 tech.root: winsensors
 ms.assetid: f314060d-ed39-48b1-b8b1-8659c05be549
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetID, GetID method, GetID method,ISensor interface, ISensor interface,GetID method, ISensor.GetID, ISensor::GetID, sensorsapi/ISensor::GetID, winsensors_com_ref.isensor_getid
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the unique identifier of the sensor.
 

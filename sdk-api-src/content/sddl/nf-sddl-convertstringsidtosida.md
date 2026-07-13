@@ -1,8 +1,8 @@
 ---
 UID: NF:sddl.ConvertStringSidToSidA
 title: ConvertStringSidToSidA function (sddl.h)
-description: Converts a string-format security identifier (SID) into a valid, functional SID. You can use this function to retrieve a SID that the ConvertSidToStringSid function converted to string format.
-helpviewer_keywords: ["ConvertStringSidToSid","ConvertStringSidToSid function [Security]","ConvertStringSidToSidA","ConvertStringSidToSidW","_win32_convertstringsidtosid","sddl/ConvertStringSidToSid","sddl/ConvertStringSidToSidA","sddl/ConvertStringSidToSidW","security.convertstringsidtosid"]
+description: Converts a string-format security identifier (SID) into a valid, functional SID. You can use this function to retrieve a SID that the ConvertSidToStringSid function converted to string format. (ANSI)
+helpviewer_keywords: ["ConvertStringSidToSidA", "sddl/ConvertStringSidToSidA"]
 old-location: security\convertstringsidtosid.htm
 tech.root: security
 ms.assetid: bf7262e3-ad2c-44c4-99cb-dcf29ad36efd
@@ -140,4 +140,4 @@ Invalid SID.
 ## -remarks
 
 > [!NOTE]
-> The sddl.h header defines ConvertStringSidToSid as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sddl.h header defines ConvertStringSidToSid as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

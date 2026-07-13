@@ -1,12 +1,12 @@
 ---
-UID: NS:dbghelp.__unnamed_struct_1
+UID: NS:dbghelp.SYMSRV_INDEX_INFOW
 title: SYMSRV_INDEX_INFOW (dbghelp.h)
-description: Contains symbol server index information.
+description: The SYMSRV_INDEX_INFOW (Unicode) structure (dbghelp.h) contains symbol server index information.
 helpviewer_keywords: ["*PSYMSRV_INDEX_INFOW","PSYMSRV_INDEX_INFO","PSYMSRV_INDEX_INFO structure pointer","SYMSRV_INDEX_INFO","SYMSRV_INDEX_INFO structure","SYMSRV_INDEX_INFOW","base.symsrv_index_info","dbghelp/PSYMSRV_INDEX_INFO","dbghelp/SYMSRV_INDEX_INFO","dbghelp/SYMSRV_INDEX_INFOW"]
 old-location: base\symsrv_index_info.htm
 tech.root: Debug
 ms.assetid: 110cf21c-7768-48fd-bfdc-1f7cd30ca291
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PSYMSRV_INDEX_INFOW, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO structure pointer, SYMSRV_INDEX_INFO, SYMSRV_INDEX_INFO structure, SYMSRV_INDEX_INFOW, base.symsrv_index_info, dbghelp/PSYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFOW'
 req.header: dbghelp.h
 req.include-header: 
@@ -105,4 +105,5 @@ The age of the .pdb file.
 ## -remarks
 
 > [!NOTE]
-> The dbghelp.h header defines SYMSRV_INDEX_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SYMSRV_INDEX_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

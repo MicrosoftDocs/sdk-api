@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_OTHER_MSG
 title: CMC_TAGGED_OTHER_MSG (wincrypt.h)
-description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
+description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures. (CMC_TAGGED_OTHER_MSG)
 helpviewer_keywords: ["*PCMC_TAGGED_OTHER_MSG","CMC_TAGGED_OTHER_MSG","CMC_TAGGED_OTHER_MSG structure [Security]","PCMC_TAGGED_OTHER_MSG","PCMC_TAGGED_OTHER_MSG structure pointer [Security]","_crypto2_cmc_tagged_other_msg","security.cmc_tagged_other_msg","wincrypt/CMC_TAGGED_OTHER_MSG","wincrypt/PCMC_TAGGED_OTHER_MSG"]
 old-location: security\cmc_tagged_other_msg.htm
 tech.root: security

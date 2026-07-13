@@ -63,7 +63,7 @@ Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-d
 
 ### -param m00
 
-Value used to initialize the <b>_11</b> member (equivalently the <b>m[0,0]</b>member) of the <code>XMFLOAT3X3</code> structure.
+Value used to initialize the <b>_11</b> member (equivalently the <b>m[0,0]</b> member) of the <code>XMFLOAT3X3</code> structure.
 
 ### -param m01
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMStreamControl","IAMStreamControl interface [DirectShow
 old-location: dshow\iamstreamcontrol.htm
 tech.root: dshow
 ms.assetid: 126c7ed7-acc0-4248-a3ab-c91c9f1c5cee
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], IAMStreamControl interface [DirectShow],described, IAMStreamControlInterface, dshow.iamstreamcontrol, strmif/IAMStreamControl
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IAMStreamControl</code> interface controls individual streams on a filter. Pins on some filters expose this interface. For example, the <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux Filter</a> supports this interface on its input pins, and the <a href="/windows/desktop/DirectShow/audio-capture-filter">Audio Capture Filter</a> and <a href="/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> support it on their output pins.
 
 This interface enables an application to turn streams on and off at specified times. For example, an application might turn off an audio stream to mute the audio during video preview. Capture applications can use this interface to specify exact start and stop times for capture, and to control capture and preview streams independently of each other.
@@ -70,10 +72,7 @@ Depending on the application, you might find the <a href="/windows/desktop/api/s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamControl</b> also has these types of members:
 
 ## -see-also
 

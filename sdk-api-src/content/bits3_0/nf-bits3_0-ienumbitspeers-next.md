@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Next
 title: IEnumBitsPeers::Next (bits3_0.h)
-description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
+description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements. (IEnumBitsPeers.Next)
 helpviewer_keywords: ["IEnumBitsPeers interface [BITS]","Next method","IEnumBitsPeers.Next","IEnumBitsPeers::Next","Next","Next method [BITS]","Next method [BITS]","IEnumBitsPeers interface","bits.ienumbitspeers_next","bits3_0/IEnumBitsPeers::Next"]
 old-location: bits\ienumbitspeers_next.htm
 tech.root: Bits
@@ -80,7 +80,7 @@ This method returns the following <b>HRESULT</b> values, as well as others.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

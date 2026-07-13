@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,UINT32,UINT32,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS)
 title: ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,UINT32,UINT32,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS) (d2d1_3.h)
-description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
+description: Renders part or all of the given sprite batch to the device context using the specified drawing options. (overload 1/2)
 helpviewer_keywords: ["DrawSpriteBatch","DrawSpriteBatch method [Direct2D]","DrawSpriteBatch method [Direct2D]","ID2D1DeviceContext3 interface","ID2D1DeviceContext3 interface [Direct2D]","DrawSpriteBatch method","ID2D1DeviceContext3.DrawSpriteBatch","ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch","UINT32","UINT32","ID2D1Bitmap","D2D1_BITMAP_INTERPOLATION_MODE","D2D1_SPRITE_OPTIONS)","ID2D1DeviceContext3::DrawSpriteBatch","ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch","UINT32","UINT32","ID2D1Bitmap","D2D1_BITMAP_INTERPOLATION_MODE","D2D1_SPRITE_OPTIONS)","d2d1_3/ID2D1DeviceContext3::DrawSpriteBatch","direct2d.id2d1devicecontext3_drawspritebatch"]
 old-location: direct2d\id2d1devicecontext3_drawspritebatch.htm
 tech.root: Direct2D

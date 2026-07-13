@@ -47,6 +47,7 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_DITHER_PATTERN_DATA
+archived: true
 ---
 
 # WIA_DITHER_PATTERN_DATA structure

@@ -1,5 +1,5 @@
 ---
-UID: NS:t2embapi.__unnamed_struct_3
+UID: NS:t2embapi.TTVALIDATIONTESTSPARAMSEX
 title: TTVALIDATIONTESTSPARAMSEX (t2embapi.h)
 description: The TTVALIDATIONTESTSPARAMSEX structure contains parameters for testing a Microsoft OpenType font.
 helpviewer_keywords: ["TTVALIDATIONTESTSPARAMSEX","TTVALIDATIONTESTSPARAMSEX structure [Windows GDI]","_win32_TTVALIDATIONTESTPARAMSEX","gdi.ttvalidationtestparamsex","t2embapi/TTVALIDATIONTESTSPARAMSEX"]
@@ -104,3 +104,4 @@ Pointer to array of UCS-4 characters.
 
 
 <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparams">TTVALIDATIONTESTSPARAMS</a>
+

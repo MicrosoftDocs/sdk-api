@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMTuner interface [DirectShow]","put_CountryCode method"
 old-location: dshow\iamtuner_put_countrycode.htm
 tech.root: dshow
 ms.assetid: d733f829-5600-4f75-9bc9-de8dc8dd8031
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMTuner interface [DirectShow],put_CountryCode method, IAMTuner.put_CountryCode, IAMTuner::put_CountryCode, IAMTunerput_CountryCode, dshow.iamtuner_put_countrycode, put_CountryCode, put_CountryCode method [DirectShow], put_CountryCode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_CountryCode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_CountryCode</code> method sets the country/region code to establish the frequency to use.
 

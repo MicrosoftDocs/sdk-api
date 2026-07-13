@@ -76,7 +76,7 @@ The zero-based index of a stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_FIRST_VIDEO_STREAM"></a><a id="mf_source_reader_first_video_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_FIRST_VIDEO_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_FIRST_VIDEO_STREAM</b></dt>
 <dt>0xFFFFFFFC</dt>
 </dl>
 </td>
@@ -87,7 +87,7 @@ The first video stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_FIRST_AUDIO_STREAM"></a><a id="mf_source_reader_first_audio_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_FIRST_AUDIO_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_FIRST_AUDIO_STREAM</b></dt>
 <dt>0xFFFFFFFD</dt>
 </dl>
 </td>
@@ -98,7 +98,7 @@ The first audio stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_ALL_STREAMS"></a><a id="mf_source_reader_all_streams"></a><dl>
-<dt><b><b>MF_SOURCE_READER_ALL_STREAMS</b></b></dt>
+<dt><b>MF_SOURCE_READER_ALL_STREAMS</b></dt>
 <dt>0xFFFFFFFE</dt>
 </dl>
 </td>
@@ -115,7 +115,7 @@ Specify <b>TRUE</b> to select streams or <b>FALSE</b> to deselect streams. If a 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

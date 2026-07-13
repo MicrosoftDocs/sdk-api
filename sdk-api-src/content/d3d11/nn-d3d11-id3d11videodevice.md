@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11VideoDevice
 title: ID3D11VideoDevice (d3d11.h)
-description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device.
+description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device. (ID3D11VideoDevice)
 helpviewer_keywords: ["ID3D11VideoDevice","ID3D11VideoDevice interface [Media Foundation]","ID3D11VideoDevice interface [Media Foundation]","described","d3d11/ID3D11VideoDevice","mf.id3d11videodevice"]
 old-location: mf\id3d11videodevice.htm
 tech.root: mf
@@ -54,10 +54,7 @@ Provides the video decoding and video processing capabilities of a Microsoft Dir
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11VideoDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D11VideoDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11VideoDevice</b> also has these types of members:
 
 ## -remarks
 

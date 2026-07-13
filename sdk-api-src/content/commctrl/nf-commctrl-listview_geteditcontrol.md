@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetEditControl","ListView_GetEditControl macro [
 old-location: controls\ListView_GetEditControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_geteditcontrol.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetEditControl, ListView_GetEditControl macro [Windows Controls], _win32_ListView_GetEditControl, _win32_ListView_GetEditControl_cpp, commctrl/ListView_GetEditControl, controls.ListView_GetEditControl, controls._win32_ListView_GetEditControl
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetEditControl macro
+
+## -syntax
+
+```cpp
+HWND ListView_GetEditControl(
+   HWND hwndLV
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the edit control if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Context_ShouldContinue
 title: MI_Context_ShouldContinue function (mi.h)
-description: Queries the client to determine if an operation should continue.
+description: Queries the client to determine if an operation should continue. (MI_Context_ShouldContinue)
 helpviewer_keywords: ["MI_Context_ShouldContinue","MI_Context_ShouldContinue function [Windows Management Infrastructure (MI)]","mi/MI_Context_ShouldContinue","wmi.mi_shouldcontinue","wmi_v2.mi_context_shouldcontinue"]
 old-location: wmi_v2\mi_context_shouldcontinue.htm
 tech.root: wmi_v2

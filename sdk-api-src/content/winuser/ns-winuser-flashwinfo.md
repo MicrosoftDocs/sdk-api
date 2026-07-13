@@ -1,5 +1,5 @@
 ---
-UID: NS:winuser.__unnamed_struct_3
+UID: NS:winuser.FLASHWINFO
 title: FLASHWINFO (winuser.h)
 description: Contains the flash status for a window and the number of times the system should flash the window.
 helpviewer_keywords: ["*PFLASHWINFO","FLASHWINFO","FLASHWINFO structure","FLASHW_ALL","FLASHW_CAPTION","FLASHW_STOP","FLASHW_TIMER","FLASHW_TIMERNOFG","FLASHW_TRAY","PFLASHWINFO","PFLASHWINFO structure pointer","_win32_flashwinfo_str","base.flashwinfo_str","winuser/FLASHWINFO","winuser/PFLASHWINFO"]
@@ -149,8 +149,9 @@ The number of times to flash the window.
 
 ### -field dwTimeout
 
-The rate at which the window is to be flashed, in milliseconds. If <b>dwTimeout</b> is zero, the function uses the default cursor blink rate.
+The rate at which the window is to be flashed, in milliseconds. If <b>dwTimeout</b> is zero, the function uses the default caret blink rate.
 
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a>
+

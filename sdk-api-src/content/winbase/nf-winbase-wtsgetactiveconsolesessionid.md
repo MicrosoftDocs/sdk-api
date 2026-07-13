@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - api-ms-win-core-kernel32-legacy-l1-1-0.dll
  - kernel32legacy.dll
@@ -61,7 +62,7 @@ api_name:
 Retrieves the session identifier of the console session. The console session is the session that is currently attached to the physical console. Note that it is not necessary that Remote Desktop Services be running for this 
     function to succeed.
 
-## -parameters
+
 
 ## -returns
 

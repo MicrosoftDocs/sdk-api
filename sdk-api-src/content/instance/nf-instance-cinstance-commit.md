@@ -61,7 +61,7 @@ api_name:
 
 The <b>Commit</b> method returns the current instance to WMI.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,11 +54,11 @@ Defines flags for processing output samples in a Media Foundation transform (MFT
 
 ## -enum-fields
 
-### -field MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+### -field MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER:0x1
 
 Do not produce output for streams in which the <b>pSample</b> member of the <a href="/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure is <b>NULL</b>. This flag is not valid unless the MFT has marked the output stream with the MFT_OUTPUT_STREAM_DISCARDABLE or MFT_OUTPUT_STREAM_LAZY_READ flag. For more information, see <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a>.
 
-### -field MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
+### -field MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT:0x2
 
 Regenerates the last output sample. This flag is only used by video processing MFTs.
 

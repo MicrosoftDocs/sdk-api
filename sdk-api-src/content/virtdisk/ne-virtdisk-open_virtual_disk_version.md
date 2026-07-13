@@ -59,21 +59,21 @@ Contains the version of the virtual disk
 
 ## -enum-fields
 
-### -field OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
 Not supported.
 
-### -field OPEN_VIRTUAL_DISK_VERSION_1
+### -field OPEN_VIRTUAL_DISK_VERSION_1:1
 
 The <b>Version1</b> member structure will be used.
 
-### -field OPEN_VIRTUAL_DISK_VERSION_2
+### -field OPEN_VIRTUAL_DISK_VERSION_2:2
 
 The <b>Version2</b> member structure will be used.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported until Windows 8 and Windows Server 2012.
 
-### -field OPEN_VIRTUAL_DISK_VERSION_3
+### -field OPEN_VIRTUAL_DISK_VERSION_3:3
 
 ## -see-also
 

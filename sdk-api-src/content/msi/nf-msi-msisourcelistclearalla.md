@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListClearAllA
 title: MsiSourceListClearAllA function (msi.h)
-description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency.
-helpviewer_keywords: ["MsiSourceListClearAll","MsiSourceListClearAll function","MsiSourceListClearAllA","MsiSourceListClearAllW","_msi_msisourcelistclearall","msi/MsiSourceListClearAll","msi/MsiSourceListClearAllA","msi/MsiSourceListClearAllW","setup.msisourcelistclearall"]
+description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency. (ANSI)
+helpviewer_keywords: ["MsiSourceListClearAllA", "msi/MsiSourceListClearAllA"]
 old-location: setup\msisourcelistclearall.htm
 tech.root: setup
 ms.assetid: e46d222d-f788-4b68-b7ff-a72261e1066b
@@ -192,7 +192,7 @@ This function cannot modify a non-managed installation for any user besides the 
 
 
 > [!NOTE]
-> The msi.h header defines MsiSourceListClearAll as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiSourceListClearAll as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

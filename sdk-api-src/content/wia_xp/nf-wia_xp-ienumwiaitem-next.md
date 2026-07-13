@@ -44,6 +44,7 @@ api_location:
  - Wiaguid.dll
 api_name:
  - IEnumWiaItem.Next
+archived: true
 ---
 
 # IEnumWiaItem::Next

@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddSourceFilter","AddSourceFilter method [DirectShow]","A
 old-location: dshow\igraphbuilder_addsourcefilter.htm
 tech.root: dshow
 ms.assetid: ed4d7fc6-558b-474f-ae8d-58aa8479b4d2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],AddSourceFilter method, IGraphBuilder.AddSourceFilter, IGraphBuilder::AddSourceFilter, IGraphBuilderAddSourceFilter, dshow.igraphbuilder_addsourcefilter, strmif/IGraphBuilder::AddSourceFilter
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>AddSourceFilter</code> method adds a source filter for a specified file to the filter graph.
 

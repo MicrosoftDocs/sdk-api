@@ -54,23 +54,23 @@ The <b>X509RequestType</b> enumeration specifies the <a href="/windows/desktop/S
 
 ## -enum-fields
 
-### -field TypeAny
+### -field TypeAny:0
 
 The type is not defined.
 
-### -field TypePkcs10
+### -field TypePkcs10:1
 
 A PKCS #10 request. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> interface.
 
-### -field TypePkcs7
+### -field TypePkcs7:2
 
 A PKCS #7 request represented by an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> interface.
 
-### -field TypeCmc
+### -field TypeCmc:3
 
 A <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> interface.
 
-### -field TypeCertificate
+### -field TypeCertificate:4
 
 A self-signed <a href="/windows/desktop/SecGloss/c-gly">certificate</a>. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a> interface.
 

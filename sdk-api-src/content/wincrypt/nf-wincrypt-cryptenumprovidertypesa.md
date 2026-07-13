@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CryptEnumProviderTypesA
 title: CryptEnumProviderTypesA function (wincrypt.h)
-description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer.
-helpviewer_keywords: ["CryptEnumProviderTypes","CryptEnumProviderTypes function [Security]","CryptEnumProviderTypesA","CryptEnumProviderTypesW","_crypto2_cryptenumprovidertypes","security.cryptenumprovidertypes","wincrypt/CryptEnumProviderTypes","wincrypt/CryptEnumProviderTypesA","wincrypt/CryptEnumProviderTypesW"]
+description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer. (ANSI)
+helpviewer_keywords: ["CryptEnumProviderTypesA", "wincrypt/CryptEnumProviderTypesA"]
 old-location: security\cryptenumprovidertypes.htm
 tech.root: security
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
@@ -245,7 +245,7 @@ For another example that uses the <b>CryptEnumProviderTypes</b> function, see <a
 
 
 > [!NOTE]
-> The wincrypt.h header defines CryptEnumProviderTypes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincrypt.h header defines CryptEnumProviderTypes as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

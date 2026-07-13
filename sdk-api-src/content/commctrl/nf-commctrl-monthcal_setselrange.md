@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_SetSelRange","MonthCal_SetSelRange macro [Window
 old-location: controls\MonthCal_SetSelRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setselrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_SetSelRange, MonthCal_SetSelRange macro [Windows Controls], _win32_MonthCal_SetSelRange, _win32_MonthCal_SetSelRange_cpp, commctrl/MonthCal_SetSelRange, controls.MonthCal_SetSelRange, controls._win32_MonthCal_SetSelRange
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # MonthCal_SetSelRange macro
 
+## -syntax
+
+```cpp
+BOOL MonthCal_SetSelRange(
+   HWND         hmc,
+   LPSYSTEMTIME rgst
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise. This macro will fail if applied to a month calendar control that does not use the <b>MCS_MULTISELECT</b> style.
+
 
 ## -description
 
@@ -64,4 +79,4 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that contain date information representing the selection limits. The first selected date must be specified in <i>lprgSysTimeArray</i>[0], and the last selected date must be specified in <i>lprgSysTimeArray</i>[1]. The time members of these structures are ignored.
+Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that contain date information representing the selection limits. The first selected date must be specified in <i>rgst</i>[0], and the last selected date must be specified in <i>rgst</i>[1]. The time members of these structures are ignored.

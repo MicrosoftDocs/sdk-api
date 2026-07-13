@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSAInstallServiceClassW
 title: WSAInstallServiceClassW function (winsock2.h)
-description: The WSAInstallServiceClass function registers a service class schema within a namespace.
-helpviewer_keywords: ["WSAInstallServiceClass","WSAInstallServiceClass function [Winsock]","WSAInstallServiceClassA","WSAInstallServiceClassW","_win32_wsainstallserviceclass_2","winsock.wsainstallserviceclass_2","winsock2/WSAInstallServiceClass","winsock2/WSAInstallServiceClassA","winsock2/WSAInstallServiceClassW"]
+description: The WSAInstallServiceClass function registers a service class schema within a namespace. (Unicode)
+helpviewer_keywords: ["WSAInstallServiceClass", "WSAInstallServiceClass function [Winsock]", "WSAInstallServiceClassW", "_win32_wsainstallserviceclass_2", "winsock.wsainstallserviceclass_2", "winsock2/WSAInstallServiceClass", "winsock2/WSAInstallServiceClassW"]
 old-location: winsock\wsainstallserviceclass_2.htm
 tech.root: WinSock
 ms.assetid: 06760319-aeeb-4ad7-b77a-01efea7ed904
@@ -192,4 +192,4 @@ The WS2_32.DLL has not been initialized. The application must first call
 ## -remarks
 
 > [!NOTE]
-> The winsock2.h header defines WSAInstallServiceClass as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSAInstallServiceClass as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

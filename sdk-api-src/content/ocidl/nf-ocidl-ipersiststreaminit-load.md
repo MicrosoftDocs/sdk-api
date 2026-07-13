@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Load
 title: IPersistStreamInit::Load (ocidl.h)
-description: Initializes an object from the stream where it was saved previously.
+description: Initializes an object from the stream where it was saved previously. (IPersistStreamInit.Load)
 helpviewer_keywords: ["IPersistStreamInit interface [COM]","Load method","IPersistStreamInit.Load","IPersistStreamInit::Load","Load","Load method [COM]","Load method [COM]","IPersistStreamInit interface","_com_ipersiststreaminit_load","com.ipersiststreaminit_load","ocidl/IPersistStreamInit::Load"]
 old-location: com\ipersiststreaminit_load.htm
 tech.root: com

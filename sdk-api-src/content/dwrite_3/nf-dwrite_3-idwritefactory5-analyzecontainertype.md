@@ -6,13 +6,13 @@ helpviewer_keywords: ["AnalyzeContainerType","AnalyzeContainerType method [Direc
 old-location: directwrite\idwritefactory5_analyzecontainertype.htm
 tech.root: DirectWrite
 ms.assetid: A13656C9-E793-40E2-81BD-0F9C0F437F1E
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: AnalyzeContainerType, AnalyzeContainerType method [Direct Write], AnalyzeContainerType method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],AnalyzeContainerType method, IDWriteFactory5.AnalyzeContainerType, IDWriteFactory5::AnalyzeContainerType, directwrite.idwritefactory5_analyzecontainertype, dwrite_3/IDWriteFactory5::AnalyzeContainerType
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

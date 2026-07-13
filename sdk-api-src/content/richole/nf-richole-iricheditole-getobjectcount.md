@@ -52,7 +52,7 @@ api_name:
 
 Returns the number of objects currently contained in a rich edit control.
 
-## -parameters
+
 
 ## -returns
 

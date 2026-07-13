@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -57,8 +57,5 @@ The interface implemented by sensor transforms to allow  the media pipeline to q
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorTransformFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorTransformFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFSensorTransformFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorTransformFactory</b> also has these types of members:
 

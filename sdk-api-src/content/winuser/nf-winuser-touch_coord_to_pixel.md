@@ -6,7 +6,7 @@ helpviewer_keywords: ["TOUCH_COORD_TO_PIXEL","TOUCH_COORD_TO_PIXEL macro [Window
 old-location: wintouch\touch_coord_to_pixel.htm
 tech.root: wintouch
 ms.assetid: 719b6800-aeda-424a-86ea-d8c307bd6ad2
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: TOUCH_COORD_TO_PIXEL, TOUCH_COORD_TO_PIXEL macro [Windows Touch], wintouch.touch_coord_to_pixel, winuser/TOUCH_COORD_TO_PIXEL
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TOUCH_COORD_TO_PIXEL macro
+
+## -syntax
+
+```cpp
+long TOUCH_COORD_TO_PIXEL(
+    long l
+);
+```
+
+## -returns
+
+Type: **long**
+
+The coordinate value in pixels.
 
 
 ## -description

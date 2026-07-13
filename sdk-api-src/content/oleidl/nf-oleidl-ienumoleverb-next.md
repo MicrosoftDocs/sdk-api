@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Next
 title: IEnumOLEVERB::Next (oleidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.
+description: Retrieves the specified number of items in the enumeration sequence. (IEnumOLEVERB.Next)
 helpviewer_keywords: ["IEnumOLEVERB interface [COM]","Next method","IEnumOLEVERB.Next","IEnumOLEVERB::Next","Next","Next method [COM]","Next method [COM]","IEnumOLEVERB interface","_ole_ienumoleverb_next","com.ienumoleverb_next","oleidl/IEnumOLEVERB::Next"]
 old-location: com\ienumoleverb_next.htm
 tech.root: com

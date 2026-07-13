@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.get_Type
 title: IFsrmPropertyCondition::get_Type (fsrmreports.h)
-description: The comparison operator used to determine whether the property condition is met.
+description: The comparison operator used to determine whether the property condition is met. (Get)
 helpviewer_keywords: ["IFsrmPropertyCondition interface [File Server Resource Manager]","Type property","IFsrmPropertyCondition.Type","IFsrmPropertyCondition.get_Type","IFsrmPropertyCondition::Type","IFsrmPropertyCondition::get_Type","IFsrmPropertyCondition::put_Type","Type property [File Server Resource Manager]","Type property [File Server Resource Manager]","IFsrmPropertyCondition interface","fs.ifsrmpropertycondition_type","fsrm.ifsrmpropertycondition_type","fsrmreports/IFsrmPropertyCondition::Type","fsrmreports/IFsrmPropertyCondition::get_Type","fsrmreports/IFsrmPropertyCondition::put_Type","get_Type"]
 old-location: fsrm\ifsrmpropertycondition_type.htm
 tech.root: fsrm

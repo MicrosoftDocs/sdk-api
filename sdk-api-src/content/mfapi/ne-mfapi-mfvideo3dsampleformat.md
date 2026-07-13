@@ -56,11 +56,11 @@ Specifies how a 3D video frame is stored in a media sample.
 
 ## -enum-fields
 
-### -field MFSampleExtension_3DVideo_MultiView
+### -field MFSampleExtension_3DVideo_MultiView:1
 
 Each view is stored in a separate buffer. The sample contains one buffer per view.
 
-### -field MFSampleExtension_3DVideo_Packed
+### -field MFSampleExtension_3DVideo_Packed:0
 
 All of the views are stored in the same buffer. The sample contains a single buffer.
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._CREATE_PARTITION_PARAMETERS
 title: CREATE_PARTITION_PARAMETERS (vds.h)
-description: Defines the partition parameters of a partition style.
+description: Defines the partition parameters of a partition style. (CREATE_PARTITION_PARAMETERS)
 helpviewer_keywords: ["CREATE_PARTITION_PARAMETERS","CREATE_PARTITION_PARAMETERS structure [VDS]","GPT_ATTRIBUTE_PLATFORM_REQUIRED","GPT_BASIC_DATA_ATTRIBUTE_HIDDEN","GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER","GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY","GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY","PARTITION_BASIC_DATA_GUID","PARTITION_ENTRY_UNUSED","PARTITION_ENTRY_UNUSED_GUID","PARTITION_EXTENDED","PARTITION_FAT32","PARTITION_FAT32_XINT13","PARTITION_FAT_12","PARTITION_FAT_16","PARTITION_HUGE","PARTITION_IFS","PARTITION_LDM","PARTITION_LDM_DATA_GUID","PARTITION_LDM_METADATA_GUID","PARTITION_MSFT_RECOVERY_GUID","PARTITION_MSFT_RESERVED_GUID","PARTITION_NTFT","PARTITION_OS2BOOTMGR","PARTITION_PREP","PARTITION_SYSTEM_GUID","PARTITION_UNIX","PARTITION_XENIX_1","PARTITION_XENIX_2","PARTITION_XINT13","PARTITION_XINT13_EXTENDED","base.create_partition_parameters","vds/CREATE_PARTITION_PARAMETERS"]
 old-location: base\create_partition_parameters.htm
 tech.root: base
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the partition parameters of a partition style.
 

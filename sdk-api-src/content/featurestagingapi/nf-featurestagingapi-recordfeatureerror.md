@@ -1,7 +1,7 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureError
 title: RecordFeatureError function (featurestagingapi.h)
-description: This function is intended for infrastructure use only.
+description: This function is intended for infrastructure use only. (RecordFeatureError)
 helpviewer_keywords: ["RecordFeatureError","RecordFeatureError function [Windows API]","featurestagingapi/RecordFeatureError","winprog.recordfeatureerror"]
 old-location: winprog\recordfeatureerror.htm
 tech.root: winprog
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-featurestaging-l1-1-1.dll
  - api-ms-win-core-featurestaging-l1-1-0.dll
 api_name:
  - RecordFeatureError

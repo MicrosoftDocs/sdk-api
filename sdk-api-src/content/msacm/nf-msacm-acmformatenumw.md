@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmFormatEnumW
 title: acmFormatEnumW function (msacm.h)
-description: The acmFormatEnum function enumerates waveform-audio formats available for a given format tag from an ACM driver. This function continues enumerating until there are no more suitable formats for the format tag or the callback function returns FALSE.
-helpviewer_keywords: ["_win32_acmFormatEnum","acmFormatEnum","acmFormatEnum function [Windows Multimedia]","acmFormatEnumA","acmFormatEnumW","msacm/acmFormatEnum","msacm/acmFormatEnumA","msacm/acmFormatEnumW","multimedia.acmformatenum"]
+description: The acmFormatEnum (Unicode) function enumerates waveform-audio formats available for a given format tag from an ACM driver. This function continues enumerating until there are no more suitable formats for the format tag or the callback function returns FALSE. (acmFormatEnumW)
+helpviewer_keywords: ["_win32_acmFormatEnum", "acmFormatEnum", "acmFormatEnum function [Windows Multimedia]", "acmFormatEnumW", "msacm/acmFormatEnum", "msacm/acmFormatEnumW", "multimedia.acmformatenum"]
 old-location: multimedia\acmformatenum.htm
 tech.root: Multimedia
 ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFormatEnum, acmFormatEnum, acmFormatEnum function [Windows Multimedia], acmFormatEnumA, acmFormatEnumW, msacm/acmFormatEnum, msacm/acmFormatEnumA, msacm/acmFormatEnumW, multimedia.acmformatenum
 req.header: msacm.h
 req.include-header: 
@@ -286,7 +286,7 @@ BOOL CALLBACK acmFormatEnumCallback(
 
 
 > [!NOTE]
-> The msacm.h header defines acmFormatEnum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines acmFormatEnum as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

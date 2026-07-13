@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-biometrics-winbio-core-l1-1-6.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-5.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-4.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-3.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-2.dll
  - Winbio.dll
  - Ext-MS-Win-BioMetrics-WinBio-Core-l1-1-0.dll
  - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
@@ -290,7 +295,7 @@ If the function succeeds, it returns <b>S_OK</b>. If the function fails, it retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -301,7 +306,7 @@ There is not enough memory available to create the biometric session.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -312,7 +317,7 @@ If you set the notification method to <b>WINBIO_ASYNC_NOTIFY_MESSAGE</b>, the <i
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -325,7 +330,7 @@ If you set the notification method to <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b>, you m
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -336,7 +341,7 @@ The <i>Flags</i> parameter contains the <b>WINBIO_FLAG_RAW</b> or the <b>WINBIO_
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_INVALID_UNIT</b></b></dt>
+<dt><b>WINBIO_E_INVALID_UNIT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -347,7 +352,7 @@ One or more of the biometric unit numbers specified in the <i>UnitArray</i> para
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_NOT_ACTIVE_CONSOLE</b></b></dt>
+<dt><b>WINBIO_E_NOT_ACTIVE_CONSOLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -358,7 +363,7 @@ The client application is running on a remote desktop client and is attempting t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_SENSOR_UNAVAILABLE</b></b></dt>
+<dt><b>WINBIO_E_SENSOR_UNAVAILABLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -369,7 +374,7 @@ The <i>PoolType</i> parameter is set to <b>WINBIO_POOL_PRIVATE</b> and one or mo
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DISABLED</b></b></dt>
+<dt><b>WINBIO_E_DISABLED</b></dt>
 </dl>
 </td>
 <td width="60%">

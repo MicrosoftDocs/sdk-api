@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-biometrics-winbio-core-l1-1-6.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-5.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-4.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-3.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-2.dll
  - Winbio.dll
  - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
  - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
@@ -84,7 +89,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -95,7 +100,7 @@ The session handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +111,7 @@ The <i>UnitId</i> parameter contains zero or the <i>SubFactor</i> contains WINBI
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">

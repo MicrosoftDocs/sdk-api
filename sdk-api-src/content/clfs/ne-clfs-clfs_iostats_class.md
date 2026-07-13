@@ -58,11 +58,11 @@ Defines types of I/O statistics reported by CLFS and is used when a client calls
 
 ## -enum-fields
 
-### -field ClfsIoStatsDefault
+### -field ClfsIoStatsDefault:0x0000
 
 The default I/O statistics exported.
 
-### -field ClfsIoStatsMax
+### -field ClfsIoStatsMax:0xFFFF
 
 The log flush rate.
 

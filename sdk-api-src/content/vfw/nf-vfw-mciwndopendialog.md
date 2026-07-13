@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndOpenDialog","MCIWndOpenDialog macro [Windows Multim
 old-location: multimedia\mciwndopendialog.htm
 tech.root: Multimedia
 ms.assetid: 28110649-24a8-45c5-bf1a-b05a6476d9a5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndOpenDialog, MCIWndOpenDialog macro [Windows Multimedia], _win32_MCIWndOpenDialog, multimedia.mciwndopendialog, vfw/MCIWndOpenDialog
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndOpenDialog macro
+
+## -syntax
+
+```cpp
+LONG MCIWndOpenDialog(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

@@ -69,7 +69,6 @@ Type of field information in  the <b>FieldInfoArray</b> array. For possible valu
 Array of <a href="/windows/desktop/api/tdh/ns-tdh-provider_field_info">PROVIDER_FIELD_INFO</a> structures that define the field's name, description and value.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation">TdhEnumerateProviderFieldInformation</a>
 
 

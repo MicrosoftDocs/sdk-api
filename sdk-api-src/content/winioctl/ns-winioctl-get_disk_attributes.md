@@ -110,4 +110,4 @@ The disk is read-only.
 
 
 
-<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">SET_DISK_ATTRIBUTES</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-set_disk_attributes">SET_DISK_ATTRIBUTES</a>

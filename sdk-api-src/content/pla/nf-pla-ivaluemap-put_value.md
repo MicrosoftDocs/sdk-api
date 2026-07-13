@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMap.put_Value
 title: IValueMap::put_Value (pla.h)
-description: Retrieves or sets the value of the collection.
+description: Retrieves or sets the value of the collection. (Put)
 helpviewer_keywords: ["IValueMap interface [PLA]","Value property","IValueMap.Value","IValueMap.put_Value","IValueMap::Value","IValueMap::get_Value","IValueMap::put_Value","Value property [PLA]","Value property [PLA]","IValueMap interface","base.ivaluemap_value","pla.ivaluemap_value","pla/IValueMap::Value","pla/IValueMap::get_Value","pla/IValueMap::put_Value","put_Value"]
 old-location: pla\ivaluemap_value.htm
 tech.root: PLA

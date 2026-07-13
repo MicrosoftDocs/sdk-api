@@ -80,6 +80,18 @@ A pointer to the open storage object into which this storage object is to be cop
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The storage object was successfully copied.|
+|E_PENDING | Asynchronous Storage only: Part or all of the data to be copied is currently unavailable. |
+|STG_E_ACCESSDENIED | The destination storage object is a child of the source storage object.|
+|STG_E_INSUFFICIENTMEMORY | The copy was not completed due to a lack of memory.|
+|STG_E_INVALIDPOINTER | The pointer specified for the storage object was not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_TOOMANYOPENFILES | The copy was not completed because there are too many open files.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_MEDIUMFULL | The copy was not completed because the storage medium is full.|
+
 ## -remarks
 
 This method merges elements contained in the source storage object with those already present in the destination. The layout of the destination storage object may differ from the source storage object.

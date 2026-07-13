@@ -54,7 +54,7 @@ api_name:
 The <b>Image::GetPaletteSize</b> method gets the size, in bytes, of the color palette of this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-## -parameters
+
 
 ## -returns
 

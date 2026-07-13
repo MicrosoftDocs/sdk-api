@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_GetItemData","ComboBox_GetItemData macro [Window
 old-location: controls\ComboBox_GetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getitemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_GetItemData, ComboBox_GetItemData macro [Windows Controls], _win32_ComboBox_GetItemData, _win32_ComboBox_GetItemData_cpp, controls.ComboBox_GetItemData, controls._win32_ComboBox_GetItemData, windowsx/ComboBox_GetItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_GetItemData macro
+
+## -syntax
+
+```cpp
+LRESULT ComboBox_GetItemData(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+The item data. For more information, see <b>CB_GETITEMDATA</b>.
 
 
 ## -description

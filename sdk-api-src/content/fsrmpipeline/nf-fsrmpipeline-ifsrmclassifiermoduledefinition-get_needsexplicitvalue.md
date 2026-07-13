@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.get_NeedsExplicitValue
 title: IFsrmClassifierModuleDefinition::get_NeedsExplicitValue (fsrmpipeline.h)
-description: Determines whether a rule that uses the classifier needs to provide the value for the classification property.
+description: Determines whether a rule that uses the classifier needs to provide the value for the classification property. (Get)
 helpviewer_keywords: ["IFsrmClassifierModuleDefinition interface [File Server Resource Manager]","NeedsExplicitValue property","IFsrmClassifierModuleDefinition.NeedsExplicitValue","IFsrmClassifierModuleDefinition.get_NeedsExplicitValue","IFsrmClassifierModuleDefinition::NeedsExplicitValue","IFsrmClassifierModuleDefinition::get_NeedsExplicitValue","IFsrmClassifierModuleDefinition::put_NeedsExplicitValue","NeedsExplicitValue property [File Server Resource Manager]","NeedsExplicitValue property [File Server Resource Manager]","IFsrmClassifierModuleDefinition interface","fs.ifsrmclassifiermoduledefinition_needsexplicitvalue","fsrm.ifsrmclassifiermoduledefinition_needsexplicitvalue","fsrmpipeline/IFsrmClassifierModuleDefinition::NeedsExplicitValue","fsrmpipeline/IFsrmClassifierModuleDefinition::get_NeedsExplicitValue","fsrmpipeline/IFsrmClassifierModuleDefinition::put_NeedsExplicitValue","get_NeedsExplicitValue"]
 old-location: fsrm\ifsrmclassifiermoduledefinition_needsexplicitvalue.htm
 tech.root: fsrm

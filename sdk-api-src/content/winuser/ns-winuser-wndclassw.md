@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagWNDCLASSW
 title: WNDCLASSW (winuser.h)
-description: Contains the window class attributes that are registered by the RegisterClass function.
+description: Contains the window class attributes that are registered by the RegisterClass function. (Unicode)
 helpviewer_keywords: ["*LPWNDCLASSW","*NPWNDCLASSW","*PWNDCLASSW","PWNDCLASS","PWNDCLASS structure pointer [Windows and Messages]","WNDCLASS","WNDCLASS structure [Windows and Messages]","WNDCLASSA","WNDCLASSW","_win32_WNDCLASS_str","_win32_wndclass_str_cpp","winmsg.wndclass","winui._win32_wndclass_str","winuser/PWNDCLASS","winuser/WNDCLASS","winuser/WNDCLASSA","winuser/WNDCLASSW"]
 old-location: winmsg\wndclass.htm
 tech.root: winmsg
@@ -72,7 +72,7 @@ The class style(s). This member can be any combination of the <a href="/windows/
 
 Type: <b>WNDPROC</b>
 
-A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>.
+A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>.
 
 ### -field cbClsExtra
 
@@ -216,9 +216,9 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>
 
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines WNDCLASS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines WNDCLASS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

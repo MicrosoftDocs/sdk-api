@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateIconFromResourceEx
 title: CreateIconFromResourceEx function (winuser.h)
-description: Creates an icon or cursor from resource bits describing the icon.
+description: Creates an icon or cursor from resource bits describing the icon. (CreateIconFromResourceEx)
 helpviewer_keywords: ["CreateIconFromResourceEx","CreateIconFromResourceEx function [Menus and Other Resources]","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_MONOCHROME","LR_SHARED","_win32_CreateIconFromResourceEx","_win32_createiconfromresourceex_cpp","menurc.createiconfromresourceex","winui._win32_createiconfromresourceex","winuser/CreateIconFromResourceEx"]
 old-location: menurc\createiconfromresourceex.htm
 tech.root: menurc
@@ -58,7 +58,9 @@ Creates an icon or cursor from resource bits describing the icon.
 
 Type: <b>PBYTE</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+The DWORD-aligned buffer pointer containing the icon (<b>RT_ICON</b>) or cursor (<b>RT_CURSOR</b>) resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+
+See <a href="/windows/win32/menurc/resource-file-formats#cursor-and-icon-resources">Cursor and Icon Resources</a> for more info on icon and cursor resource format.
 
 ### -param dwResSize [in]
 
@@ -72,23 +74,25 @@ Type: <b>BOOL</b>
 
 Indicates whether an icon or a cursor is to be created. If this parameter is <b>TRUE</b>, an icon is to be created. If it is <b>FALSE</b>, a cursor is to be created.
 
+The <a href="/windows/win32/menurc/localheader">LOCALHEADER</a> structure defines cursor hotspot and is the first data read from the cursor resource bits.
+
 ### -param dwVer [in]
 
 Type: <b>DWORD</b>
 
-The version number of the icon or cursor format for the resource bits pointed to by the <i>pbIconBits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000.
+The version number of the icon or cursor format for the resource bits pointed to by the <i>presbits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000.
 
 ### -param cxDesired [in]
 
 Type: <b>int</b>
 
-The desired width, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width.
+The width, in pixels, of the icon or cursor. If this parameter is zero and the <i>Flags</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource width.
 
 ### -param cyDesired [in]
 
 Type: <b>int</b>
 
-The desired height, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height.
+The height, in pixels, of the icon or cursor. If this parameter is zero and the <i>Flags</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
 
 ### -param Flags [in]
 
@@ -119,7 +123,7 @@ Uses the default color format.
 </dl>
 </td>
 <td width="60%">
-Uses the width or height specified by the system metric values for cursors or icons, if the <i>cxDesired</i> or <i>cyDesired</i> values are set to zero. If this flag is not specified and <i>cxDesired</i> and <i>cyDesired</i> are set to zero, the function uses the actual resource size. If the resource contains multiple images, the function uses the size of the first image.
+Uses the width or height specified by the system metric values for cursors or icons, if the <i>cxDesired</i> or <i>cyDesired</i> values are set to zero. If this flag is not specified and <i>cxDesired</i> and <i>cyDesired</i> are set to zero, the function uses the actual resource size.
 
 </td>
 </tr>
@@ -147,8 +151,6 @@ When you use this flag, the system will destroy the resource when it is no longe
 
 Do not use <b>LR_SHARED</b> for icons or cursors that have non-standard sizes, that may change after loading, or that are loaded from a file.
 
-When loading a system icon or cursor, you must use <b>LR_SHARED</b> or the function will fail to load the resource.
-
 </td>
 </tr>
 </table>
@@ -165,18 +167,15 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The <a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>, <a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
 
-You should call <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
-
+You should call <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons or <a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> for cursors created with <b>CreateIconFromResourceEx</b>.
 
 #### Examples
 
-For an example, see <a href="/windows/desktop/menurc/using-icons">Sharing Icon Resources</a>.
-
-<div class="code"></div>
+For an example, see <a href="/windows/desktop/menurc/using-icons#sharing-icon-resources">Sharing Icon Resources</a>.
 
 ## -see-also
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReaderAdvanced2 interface [windows Media Format]","Sav
 old-location: wmformat\iwmreaderadvanced2_savefileas.htm
 tech.root: wmformat
 ms.assetid: 97bdac1f-8830-45c0-9229-322ad72b3954
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SaveFileAs method, IWMReaderAdvanced2.SaveFileAs, IWMReaderAdvanced2::SaveFileAs, IWMReaderAdvanced2SaveFileAs, SaveFileAs, SaveFileAs method [windows Media Format], SaveFileAs method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_savefileas, wmsdkidl/IWMReaderAdvanced2::SaveFileAs
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SaveFileAs</b> method saves the current file.
 

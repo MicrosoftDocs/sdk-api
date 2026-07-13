@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <code>XMDECN4</code> from four normalized <code>float</code>arguments.
+Initializes a new instance of <code>XMDECN4</code> from four normalized <code>float</code> arguments.
     
 
 This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a> from four
@@ -104,7 +104,7 @@ All input values,<i>_x</i>,<i>_y</i>, <i>_z</i>, and <i>_w</i> are
 	
 
 The following pseudocode demonstrates the operation of this constructor, which takes
-	    advantage of the <code>union</code> of the four components of the <code>XMDECN4</code>vector with an instance of <code>uint32_t</code> in the definition of the structure:
+	    advantage of the <code>union</code> of the four components of the <code>XMDECN4</code> vector with an instance of <code>uint32_t</code> in the definition of the structure:
 	
 
 

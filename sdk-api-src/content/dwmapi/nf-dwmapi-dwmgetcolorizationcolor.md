@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
  - Dwmapi.dll
  - ext-ms-win-dwmapi-ext-l1-1-0.dll
 api_name:
@@ -65,7 +67,7 @@ A pointer to a value that, when this function returns successfully, indicates wh
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

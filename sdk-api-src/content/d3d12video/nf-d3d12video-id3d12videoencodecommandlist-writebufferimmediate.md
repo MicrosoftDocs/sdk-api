@@ -3,7 +3,7 @@ UID: NF:d3d12video.ID3D12VideoEncodeCommandList.WriteBufferImmediate
 title: ID3D12VideoEncodeCommandList::WriteBufferImmediate
 ms.date: 11/4/2019
 targetos: Windows
-description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.
+description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream. (ID3D12VideoEncodeCommandList::WriteBufferImmediate)
 tech.root: mf
 req.assembly: 
 req.construct-type: function

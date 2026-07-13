@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.AVIFileInfoW
 title: AVIFileInfoW function (vfw.h)
-description: The AVIFileInfo function obtains information about an AVI file.
-helpviewer_keywords: ["AVIFileInfo","AVIFileInfo function [Windows Multimedia]","AVIFileInfoA","AVIFileInfoW","_win32_AVIFileInfo","multimedia.avifileinfo","vfw/AVIFileInfo","vfw/AVIFileInfoA","vfw/AVIFileInfoW"]
+description: The AVIFileInfoW function (vfw.h) obtains information about an AVI file.
+helpviewer_keywords: ["AVIFileInfo", "AVIFileInfo function [Windows Multimedia]", "AVIFileInfoW", "_win32_AVIFileInfo", "multimedia.avifileinfo", "vfw/AVIFileInfo", "vfw/AVIFileInfoW"]
 old-location: multimedia\avifileinfo.htm
 tech.root: Multimedia
 ms.assetid: 10d7decf-a133-4d55-93d5-867952307819
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: AVIFileInfo, AVIFileInfo function [Windows Multimedia], AVIFileInfoA, AVIFileInfoW, _win32_AVIFileInfo, multimedia.avifileinfo, vfw/AVIFileInfo, vfw/AVIFileInfoA, vfw/AVIFileInfoW
 req.header: vfw.h
 req.include-header: 
@@ -82,7 +82,7 @@ The argument <i>pfile</i> is a pointer to an <a href="/windows/desktop/api/vfw/n
 
 
 > [!NOTE]
-> The vfw.h header defines AVIFILEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines AVIFILEINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

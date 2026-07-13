@@ -52,7 +52,7 @@ api_name:
 
 Blocks the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> function.
 
-## -parameters
+
 
 ## -returns
 

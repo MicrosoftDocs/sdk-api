@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.GetTrusteeFormA
 title: GetTrusteeFormA function (aclapi.h)
-description: Retrieves the trustee name from the specified TRUSTEE structure. This value indicates whether the structure uses a name string or a security identifier (SID) to identify the trustee.
-helpviewer_keywords: ["GetTrusteeForm","GetTrusteeForm function [Security]","GetTrusteeFormA","GetTrusteeFormW","_win32_gettrusteeform","aclapi/GetTrusteeForm","aclapi/GetTrusteeFormA","aclapi/GetTrusteeFormW","security.gettrusteeform"]
+description: Retrieves the trustee name from the specified TRUSTEE structure. This value indicates whether the structure uses a name string or a security identifier (SID) to identify the trustee. (ANSI)
+helpviewer_keywords: ["GetTrusteeFormA", "aclapi/GetTrusteeFormA"]
 old-location: security\gettrusteeform.htm
 tech.root: security
 ms.assetid: e5e450b8-0b7b-4324-b453-5c020e74b1ee
@@ -93,4 +93,4 @@ The return value is one of the constants from the
 ## -remarks
 
 > [!NOTE]
-> The aclapi.h header defines GetTrusteeForm as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The aclapi.h header defines GetTrusteeForm as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

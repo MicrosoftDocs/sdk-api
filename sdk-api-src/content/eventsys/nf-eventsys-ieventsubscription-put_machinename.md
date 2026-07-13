@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_MachineName
 title: IEventSubscription::put_MachineName (eventsys.h)
-description: The name of the computer on which the subscriber should be activated (for a persistent subscription).
+description: The name of the computer on which the subscriber should be activated (for a persistent subscription). (Put)
 helpviewer_keywords: ["IEventSubscription interface [COM+]","MachineName property","IEventSubscription.MachineName","IEventSubscription.put_MachineName","IEventSubscription::MachineName","IEventSubscription::get_MachineName","IEventSubscription::put_MachineName","MachineName property [COM+]","MachineName property [COM+]","IEventSubscription interface","cos.ieventsubscription_machinename","eventsys/IEventSubscription::MachineName","eventsys/IEventSubscription::get_MachineName","eventsys/IEventSubscription::put_MachineName","put_MachineName"]
 old-location: cos\ieventsubscription_machinename.htm
 tech.root: cos

@@ -57,7 +57,7 @@ The
 
 ## -enum-fields
 
-### -field MMCC_STANDARD_VIEW_SELECT
+### -field MMCC_STANDARD_VIEW_SELECT:-1
 
 Sent to a snap-in's 
 <a href="/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a> method when the user switches from a custom result view to the standard list view.

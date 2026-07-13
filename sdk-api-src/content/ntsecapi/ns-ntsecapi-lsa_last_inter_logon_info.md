@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._LSA_LAST_INTER_LOGON_INFO
 title: LSA_LAST_INTER_LOGON_INFO (ntsecapi.h)
-description: Contains information about a logon session.
+description: Contains information about a logon session. (LSA_LAST_INTER_LOGON_INFO)
 helpviewer_keywords: ["*PLSA_LAST_INTER_LOGON_INFO","LSA_LAST_INTER_LOGON_INFO","LSA_LAST_INTER_LOGON_INFO structure [Security]","PLSA_LAST_INTER_LOGON_INFO","PLSA_LAST_INTER_LOGON_INFO structure pointer [Security]","_LSA_LAST_INTER_LOGON_INFO","ntsecapi/LSA_LAST_INTER_LOGON_INFO","ntsecapi/PLSA_LAST_INTER_LOGON_INFO","security.lsa_last_inter_logon_info"]
 old-location: security\lsa_last_inter_logon_info.htm
 tech.root: security

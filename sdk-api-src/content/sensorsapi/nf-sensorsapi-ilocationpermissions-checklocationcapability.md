@@ -6,7 +6,7 @@ helpviewer_keywords: ["CheckLocationCapability","CheckLocationCapability method"
 old-location: winsensors\ilocationpermissions_checklocationcapability.htm
 tech.root: winsensors
 ms.assetid: B7D6268C-4A0D-490F-B1E7-573159EF7CFF
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: CheckLocationCapability, CheckLocationCapability method, CheckLocationCapability method,ILocationPermissions interface, ILocationPermissions interface,CheckLocationCapability method, ILocationPermissions.CheckLocationCapability, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Gets the location capability of the Windows Store app of the given thread
 

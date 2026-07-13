@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.SetPriority
 title: IDirect3DResource9::SetPriority (d3d9helper.h)
-description: Assigns the priority of a resource for scheduling purposes.
+description: The IDirect3DResource9::SetPriority method (d3d9helper.h) assigns the priority of a resource for scheduling purposes.
 helpviewer_keywords: ["04209b19-79e0-1e86-73f2-4225b9102296","IDirect3DResource9 interface [Direct3D 9]","SetPriority method","IDirect3DResource9.SetPriority","IDirect3DResource9::SetPriority","SetPriority","SetPriority method [Direct3D 9]","SetPriority method [Direct3D 9]","IDirect3DResource9 interface","d3d9helper/IDirect3DResource9::SetPriority","direct3d9.idirect3dresource9__setpriority"]
 old-location: direct3d9\idirect3dresource9__setpriority.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__setpriority.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 04209b19-79e0-1e86-73f2-4225b9102296, IDirect3DResource9 interface [Direct3D 9],SetPriority method, IDirect3DResource9.SetPriority, IDirect3DResource9::SetPriority, SetPriority, SetPriority method [Direct3D 9], SetPriority method [Direct3D 9],IDirect3DResource9 interface, d3d9helper/IDirect3DResource9::SetPriority, direct3d9.idirect3dresource9__setpriority
 req.header: d3d9helper.h
 req.include-header: D3D9.h

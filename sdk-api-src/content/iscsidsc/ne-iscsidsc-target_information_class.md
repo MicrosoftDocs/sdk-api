@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidsc.__unnamed_enum_4
+UID: NE:iscsidsc.TARGET_INFORMATION_CLASS
 title: TARGET_INFORMATION_CLASS (iscsidsc.h)
 description: TARGET_INFORMATION_CLASS enumeration specifies information about the indicated target device that the GetIScsiTargetInformation function retrieves.
 helpviewer_keywords: ["*PTARGET_INFORMATION_CLASS","DiscoveryMechanism","InitiatorName","LoginOptions","PersistentTargetMappings","PortalGroups","ProtocolType","TARGET_INFORMATION_CLASS","TARGET_INFORMATION_CLASS enumeration [iSCSI Discovery Library API]","TargetAlias","TargetFlags","iscsidisc.target_information_class","iscsidsc/DiscoveryMechanism","iscsidsc/InitiatorName","iscsidsc/LoginOptions","iscsidsc/PersistentTargetMappings","iscsidsc/PortalGroups","iscsidsc/ProtocolType","iscsidsc/TARGET_INFORMATION_CLASS","iscsidsc/TargetAlias","iscsidsc/TargetFlags"]
@@ -99,3 +99,4 @@ A value of the <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a>
+

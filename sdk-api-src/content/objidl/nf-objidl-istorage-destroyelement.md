@@ -64,6 +64,19 @@ A pointer to a wide character null-terminated Unicode string that contains the n
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The element was successfully removed.|
+|E_PENDING | Asynchronous Storage only: Part or all of the element data is currently unavailable. |
+|STG_E_ACCESSDENIED | The caller does not have permissions to remove the element.|
+|STG_E_FILENOTFOUND | The element with the specified name does not exist.|
+|STG_E_INSUFFICIENTMEMORY | The element was not removed due to a lack of memory.|
+|STG_E_INVALIDNAME | Invalid value for *pwcsName*.|
+|STG_E_INVALIDPOINTER | The pointer specified for the element was not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_TOOMANYOPENFILES | The element was not removed because there are too many open files.|
+
 ## -remarks
 
 The 

@@ -1,8 +1,8 @@
 ---
 UID: NF:secext.GetUserNameExA
 title: GetUserNameExA function (secext.h)
-description: Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name.
-helpviewer_keywords: ["GetUserNameEx","GetUserNameEx function","GetUserNameExA","GetUserNameExW","_win32_getusernameex","base.getusernameex","secext/GetUserNameEx","secext/GetUserNameExA","secext/GetUserNameExW"]
+description: Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name. (ANSI)
+helpviewer_keywords: ["GetUserNameExA", "secext/GetUserNameExA"]
 old-location: base\getusernameex.htm
 tech.root: winprog
 ms.assetid: 7e7d618b-2e64-4b0b-aed3-f3221b0443ca
@@ -140,4 +140,4 @@ The user name is not available in the specified format.
 ## -remarks
 
 > [!NOTE]
-> The secext.h header defines GetUserNameEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The secext.h header defines GetUserNameEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

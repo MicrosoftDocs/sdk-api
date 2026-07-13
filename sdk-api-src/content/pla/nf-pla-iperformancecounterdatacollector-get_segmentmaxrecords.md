@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_SegmentMaxRecords
 title: IPerformanceCounterDataCollector::get_SegmentMaxRecords (pla.h)
-description: Retrieves or sets the maximum number of samples to log.
+description: Retrieves or sets the maximum number of samples to log. (Get)
 helpviewer_keywords: ["IPerformanceCounterDataCollector interface [PLA]","SegmentMaxRecords property","IPerformanceCounterDataCollector.SegmentMaxRecords","IPerformanceCounterDataCollector.get_SegmentMaxRecords","IPerformanceCounterDataCollector::SegmentMaxRecords","IPerformanceCounterDataCollector::get_SegmentMaxRecords","IPerformanceCounterDataCollector::put_SegmentMaxRecords","SegmentMaxRecords property [PLA]","SegmentMaxRecords property [PLA]","IPerformanceCounterDataCollector interface","base.iperformancecounterdatacollector_segmentmaxrecords","get_SegmentMaxRecords","pla.iperformancecounterdatacollector_segmentmaxrecords","pla/IPerformanceCounterDataCollector::SegmentMaxRecords","pla/IPerformanceCounterDataCollector::get_SegmentMaxRecords","pla/IPerformanceCounterDataCollector::put_SegmentMaxRecords"]
 old-location: pla\iperformancecounterdatacollector_segmentmaxrecords.htm
 tech.root: PLA

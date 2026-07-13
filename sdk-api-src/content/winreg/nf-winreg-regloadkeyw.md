@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegLoadKeyW
 title: RegLoadKeyW function (winreg.h)
-description: Creates a subkey under HKEY_USERS or HKEY_LOCAL_MACHINE and loads the data from the specified registry hive into that subkey.
-helpviewer_keywords: ["RegLoadKey","RegLoadKey function","RegLoadKeyA","RegLoadKeyW","_win32_regloadkey","base.regloadkey","winreg/RegLoadKey","winreg/RegLoadKeyA","winreg/RegLoadKeyW"]
+description: Creates a subkey under HKEY_USERS or HKEY_LOCAL_MACHINE and loads the data from the specified registry hive into that subkey. (Unicode)
+helpviewer_keywords: ["RegLoadKey", "RegLoadKey function", "RegLoadKeyW", "_win32_regloadkey", "base.regloadkey", "winreg/RegLoadKey", "winreg/RegLoadKeyW"]
 old-location: base\regloadkey.htm
 tech.root: winprog
 ms.assetid: 536395aa-03ba-430d-a66d-fcabdc9dfe22
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -116,7 +117,7 @@ The calling process must have the SE_RESTORE_NAME and SE_BACKUP_NAME privileges 
 
 
 > [!NOTE]
-> The winreg.h header defines RegLoadKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegLoadKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

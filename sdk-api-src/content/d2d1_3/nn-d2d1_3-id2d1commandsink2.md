@@ -55,10 +55,7 @@ This interface performs all the same functions as the existing <a href="/windows
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink2</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink1</a>. <b>ID2D1CommandSink2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1CommandSink2</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink1</a>. <b>ID2D1CommandSink2</b> also has these types of members:
 
 ## -see-also
 

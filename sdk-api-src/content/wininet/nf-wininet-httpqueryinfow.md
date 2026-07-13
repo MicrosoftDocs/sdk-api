@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.HttpQueryInfoW
 title: HttpQueryInfoW function (wininet.h)
-description: Retrieves header information associated with an HTTP request.
-helpviewer_keywords: ["HttpQueryInfo","HttpQueryInfo function [WinINet]","HttpQueryInfoA","HttpQueryInfoW","_inet_httpqueryinfo_function","wininet.httpqueryinfo","wininet/HttpQueryInfo","wininet/HttpQueryInfoA","wininet/HttpQueryInfoW"]
+description: Retrieves header information associated with an HTTP request. (Unicode)
+helpviewer_keywords: ["HttpQueryInfo", "HttpQueryInfo function [WinINet]", "HttpQueryInfoW", "_inet_httpqueryinfo_function", "wininet.httpqueryinfo", "wininet/HttpQueryInfo", "wininet/HttpQueryInfoW"]
 old-location: wininet\httpqueryinfo.htm
 tech.root: wininet
 ms.assetid: 5747ce19-5004-4eea-abe9-dd00abac1b3b
@@ -120,7 +120,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines HttpQueryInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines HttpQueryInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

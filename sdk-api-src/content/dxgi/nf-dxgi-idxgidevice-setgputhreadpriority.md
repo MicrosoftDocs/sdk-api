@@ -59,7 +59,7 @@ Sets the GPU thread priority.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-A value that specifies the required GPU thread priority. This value must be between -7 and 7, inclusive, where 0 represents normal priority.
+A value that specifies the required GPU thread priority. See the [Remarks](#remarks) section in this topic.
 
 ## -returns
 
@@ -69,14 +69,32 @@ Return S_OK if successful; otherwise, returns E_INVALIDARG if the <i>Priority</i
 
 ## -remarks
 
-The values for the <i>Priority</i> parameter function as follows:
+To use the <b>SetGPUThreadPriority</b> method, you should have a comprehensive understanding of GPU scheduling. If used inappropriately, the <b>SetGPUThreadPriority</b> method can impede rendering speed and result in a poor user experience, so profile your application to understand impact of priority change on application and on system.
 
+The values for the <i>Priority</i> parameter function as follows:
+<b>Priority Values Bit Definition:</b>
 <ul>
-<li>Positive values increase the likelihood that the GPU scheduler will grant GPU execution cycles to the device when rendering.</li>
-<li>Negative values lessen the likelihood that the device will receive GPU execution cycles when devices compete for them.</li>
-<li>The device is guaranteed to receive some GPU execution cycles at all settings.</li>
+Bit 0-4  : Priority Value <br>
+Bit 5-29 : Reserved <br>
+Bit 30   : Absolute Priority Flag ( D3DKMT_SETCONTEXTSCHEDULINGPRIORITY_ABSOLUTE ), can be ORed with Priority Value Bits [4:0] (Only valid for Windows 10+, else not used)<br>
+Bit 31   : Signed bit <br>
 </ul>
-To use the <b>SetGPUThreadPriority</b> method, you should have a comprehensive understanding of GPU scheduling. You should profile your application to ensure that it behaves as intended. If used inappropriately, the <b>SetGPUThreadPriority</b> method can impede rendering speed and result in a poor user experience.
+
+Bit 30 (Absolute Priority Flag) can be used to control the mode of operation for this API. 
+
+<b>Relative Priority Mode</b> : API will use this mode when bit 30 value is set to 0. In this mode, <b>Priority</b> value must be between -7 and 7, inclusive, where priority value 0 represents normal priority (Default for all contexts) and -7 represents Idle priority. Bit 31 is used to control sign of the priority.
+
+<b>Absolute Priority Mode</b> : API will use this mode when bit 30 value is set to 1. In this mode, <b>Priority</b> value (for bits[4:0]) must be between 0 and 31. Meaning of these priority levels is described below. Use D3DKMT_SETCONTEXTSCHEDULINGPRIORITY_ABSOLUTE only if you have thorough understanding of dxgkrnl/graphics priorities and understand repercussions of changing them.
+
+<b>Priority Values Bits[4:0]</b> translates to following priority values:
+<ul>
+0     : Idle Priority   - Forward progress is not guaranteed if higher priorties use most of the accelerator time.<br>
+1     : Normal Priority - Most of the processes use this priority with forward progress guarantee.<br>
+2 -15 : Reserved        - <br>
+16-29 : Soft Realtime   - Preempts lower priorities and periodically yields to lower priorities to ensure their forward progress.<br>
+30    : Hard Realtime   - Used for extremely latency sensitive well bounded workloads. This priority does not yield to lower priorities. <br>
+31    : Internal Use <br>
+</ul>
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSINFOA
 title: WTSINFOA (wtsapi32.h)
-description: Contains information about a Remote Desktop Services session.
+description: Contains information about a Remote Desktop Services session. (WTSINFOA)
 helpviewer_keywords: ["*PWTSINFOA","PWTSINFO","PWTSINFO structure pointer [Remote Desktop Services]","WTSINFO","WTSINFO structure [Remote Desktop Services]","WTSINFOA","WTSINFOW","termserv.wtsinfo","wtsapi32/PWTSINFO","wtsapi32/WTSINFO","wtsapi32/WTSINFOA","wtsapi32/WTSINFOW"]
 old-location: termserv\wtsinfo.htm
 tech.root: TermServ
@@ -130,4 +130,4 @@ Compressed RDP data from the server to the client.
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

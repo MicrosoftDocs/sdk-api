@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqCreateAsyncResult
 title: RtwqCreateAsyncResult function (rtworkq.h)
-description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
+description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method. (RtwqCreateAsyncResult)
 helpviewer_keywords: ["RtwqCreateAsyncResult","RtwqCreateAsyncResult function","base.rtwqcreateasyncresult","rtworkq/RtwqCreateAsyncResult"]
 old-location: base\rtwqcreateasyncresult.htm
 tech.root: backup
@@ -72,7 +72,7 @@ Receives a pointer to the <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwq
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

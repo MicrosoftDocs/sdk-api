@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CMGetPS2ColorRenderingIntent
 title: CMGetPS2ColorRenderingIntent
-description: Retrieves the PostScript Level 2 color [rendering intent](ms536500\(v=vs.85\).md) from a profile.
+description: Retrieves the PostScript Level 2 color [rendering intent](/windows/win32/wcs/r) from a profile.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

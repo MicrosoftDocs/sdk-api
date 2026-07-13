@@ -83,5 +83,4 @@ The number of elements in the <i>EventPropertyInfoArray</i> array.
 An array of <a href="/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structures that define the filter data.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>

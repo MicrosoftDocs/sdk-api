@@ -43,6 +43,7 @@ api_location:
  - Wiaservc.dll
 api_name:
  - IWiaItem.DeleteItem
+archived: true
 ---
 
 # IWiaItem::DeleteItem

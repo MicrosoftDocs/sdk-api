@@ -76,7 +76,7 @@ Specifies the character sequence that should be used to delimit the mime parts. 
 
 ### -field startInfo
 
-Specifies the type used by the mime part that contains the xml.  This correpsonds to the "start-info" parameter in the of the MIME Content-Type.
+Specifies the type used by the mime part that contains the xml.  This corresponds to the "start-info" parameter in the of the MIME Content-Type.
 
 ### -field startUri
 

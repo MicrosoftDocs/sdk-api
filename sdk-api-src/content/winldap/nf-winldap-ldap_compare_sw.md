@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_compare_sW
 title: ldap_compare_sW function (winldap.h)
-description: Use the ldap_compare_s function to determine whether an attribute for a given entry holds a known value.
-helpviewer_keywords: ["_ldap_ldap_compare_s","ldap.ldap__compare__s","ldap.ldap_compare_s","ldap_compare_s","ldap_compare_s function [LDAP]","ldap_compare_sA","ldap_compare_sW","winldap/ldap_compare_s","winldap/ldap_compare_sA","winldap/ldap_compare_sW"]
+description: The ldap_compare_sW (Unicode) function (winldap.h) determines whether an attribute for a given entry holds a known value. 
+helpviewer_keywords: ["_ldap_ldap_compare_s", "ldap.ldap__compare__s", "ldap.ldap_compare_s", "ldap_compare_s", "ldap_compare_s function [LDAP]", "ldap_compare_sW", "winldap/ldap_compare_s", "winldap/ldap_compare_sW"]
 old-location: ldap\ldap_compare_s.htm
 tech.root: ldap
 ms.assetid: 44a7001d-d7ad-4b29-80bf-8d4b06e0fa43
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_ldap_compare_s, ldap.ldap__compare__s, ldap.ldap_compare_s, ldap_compare_s, ldap_compare_s function [LDAP], ldap_compare_sA, ldap_compare_sW, winldap/ldap_compare_s, winldap/ldap_compare_sA, winldap/ldap_compare_sW
 req.header: winldap.h
 req.include-header: 
@@ -105,7 +105,7 @@ Multithreading: Calls to <b>ldap_compare_s</b> are
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_compare_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_compare_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

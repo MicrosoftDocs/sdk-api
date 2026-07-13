@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSStartRemoteControlSessionA
 title: WTSStartRemoteControlSessionA function (wtsapi32.h)
-description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session.
-helpviewer_keywords: ["REMOTECONTROL_KBDALT_HOTKEY","REMOTECONTROL_KBDCTRL_HOTKEY","REMOTECONTROL_KBDSHIFT_HOTKEY","WTSStartRemoteControlSession","WTSStartRemoteControlSession function [Remote Desktop Services]","WTSStartRemoteControlSessionA","WTSStartRemoteControlSessionW","termserv.wtsstartremotecontrolsession","wtsapi32/WTSStartRemoteControlSession","wtsapi32/WTSStartRemoteControlSessionA","wtsapi32/WTSStartRemoteControlSessionW"]
+description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session. (ANSI)
+helpviewer_keywords: ["REMOTECONTROL_KBDALT_HOTKEY", "REMOTECONTROL_KBDCTRL_HOTKEY", "REMOTECONTROL_KBDSHIFT_HOTKEY", "WTSStartRemoteControlSessionA", "wtsapi32/WTSStartRemoteControlSessionA"]
 old-location: termserv\wtsstartremotecontrolsession.htm
 tech.root: TermServ
 ms.assetid: 8ccab62b-228b-4449-82c1-970de891cbdb
@@ -102,4 +102,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSStartRemoteControlSession as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSStartRemoteControlSession as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

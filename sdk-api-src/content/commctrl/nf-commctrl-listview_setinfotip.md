@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetInfoTip","ListView_SetInfoTip macro [Windows 
 old-location: controls\ListView_SetInfoTip.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinfotip.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetInfoTip, ListView_SetInfoTip macro [Windows Controls], _win32_ListView_SetInfoTip, _win32_ListView_SetInfoTip_cpp, commctrl/ListView_SetInfoTip, controls.ListView_SetInfoTip, controls._win32_ListView_SetInfoTip
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetInfoTip macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetInfoTip(
+   HWND          hwndLV,
+   PLVSETINFOTIP plvInfoTip
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if the tooltip text is set successfully, or <b>FALSE</b> otherwise.
 
 
 ## -description

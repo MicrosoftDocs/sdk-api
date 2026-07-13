@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetHeader","ListView_GetHeader macro [Windows Co
 old-location: controls\ListView_GetHeader.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getheader.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetHeader, ListView_GetHeader macro [Windows Controls], _win32_ListView_GetHeader, _win32_ListView_GetHeader_cpp, commctrl/ListView_GetHeader, controls.ListView_GetHeader, controls._win32_ListView_GetHeader
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetHeader macro
+
+## -syntax
+
+```cpp
+HWND ListView_GetHeader(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the header control.
 
 
 ## -description

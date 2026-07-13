@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Save
 title: IPersistStreamInit::Save (ocidl.h)
-description: Saves an object to the specified stream.
+description: Saves an object to the specified stream. (IPersistStreamInit.Save)
 helpviewer_keywords: ["IPersistStreamInit interface [COM]","Save method","IPersistStreamInit.Save","IPersistStreamInit::Save","Save","Save method [COM]","Save method [COM]","IPersistStreamInit interface","_com_ipersiststreaminit_save","com.ipersiststreaminit_save","ocidl/IPersistStreamInit::Save"]
 old-location: com\ipersiststreaminit_save.htm
 tech.root: com

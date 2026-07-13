@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.TranslateAcceleratorA
 title: TranslateAcceleratorA function (winuser.h)
-description: Processes accelerator keys for menu commands.
-helpviewer_keywords: ["TranslateAccelerator","TranslateAccelerator function [Menus and Other Resources]","TranslateAcceleratorA","TranslateAcceleratorW","_win32_TranslateAccelerator","_win32_translateaccelerator_cpp","menurc.translateaccelerator","winui._win32_translateaccelerator","winuser/TranslateAccelerator","winuser/TranslateAcceleratorA","winuser/TranslateAcceleratorW"]
+description: Processes accelerator keys for menu commands. (ANSI)
+helpviewer_keywords: ["TranslateAcceleratorA", "winuser/TranslateAcceleratorA"]
 old-location: menurc\translateaccelerator.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-keyboard-ansi-l1-1-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
@@ -127,7 +128,7 @@ For an example, see <a href="/windows/desktop/menurc/using-keyboard-accelerators
 
 
 > [!NOTE]
-> The winuser.h header defines TranslateAccelerator as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines TranslateAccelerator as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

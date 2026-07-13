@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetColumnWidth","ListView_GetColumnWidth macro [
 old-location: controls\ListView_GetColumnWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumnwidth.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetColumnWidth, ListView_GetColumnWidth macro [Windows Controls], _win32_ListView_GetColumnWidth, _win32_ListView_GetColumnWidth_cpp, commctrl/ListView_GetColumnWidth, controls.ListView_GetColumnWidth, controls._win32_ListView_GetColumnWidth
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetColumnWidth macro
+
+## -syntax
+
+```cpp
+int ListView_GetColumnWidth(
+   HWND hwnd,
+   int  iCol
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the column width if successful, or zero otherwise. If this macro is used on a list-view control with the <b>LVS_REPORT</b> style and the specified column does not exist, the return value is undefined.
 
 
 ## -description

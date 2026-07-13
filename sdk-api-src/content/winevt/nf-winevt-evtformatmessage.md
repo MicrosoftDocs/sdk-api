@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtFormatMessage
 title: EvtFormatMessage function (winevt.h)
-description: Formats a message string.
+description: Formats a message string. (EvtFormatMessage)
 helpviewer_keywords: ["EvtFormatMessage","EvtFormatMessage function [EventLog]","wes.evtformatmessage","winevt/EvtFormatMessage"]
 old-location: wes\evtformatmessage.htm
 tech.root: wes
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-wevtapi-eventlog-l1-1-3.dll
  - Wevtapi.dll
  - Ext-MS-Win-WevtAPI-EventLog-L1-1-2.dll
 api_name:

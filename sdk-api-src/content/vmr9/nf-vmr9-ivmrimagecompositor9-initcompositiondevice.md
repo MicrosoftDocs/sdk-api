@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVMRImageCompositor9 interface [DirectShow]","InitComposi
 old-location: dshow\ivmrimagecompositor9_initcompositiondevice.htm
 tech.root: dshow
 ms.assetid: 78381141-6b6d-4ed5-b8d3-aa1114fd9ac0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRImageCompositor9 interface [DirectShow],InitCompositionDevice method, IVMRImageCompositor9.InitCompositionDevice, IVMRImageCompositor9::InitCompositionDevice, IVMRImageCompositor9InitCompositionDevice, InitCompositionDevice, InitCompositionDevice method [DirectShow], InitCompositionDevice method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_initcompositiondevice, vmr9/IVMRImageCompositor9::InitCompositionDevice
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>InitCompositionDevice</code> method informs the compositor that a new composition target has been created. The compositor should perform any necessary configuration work in this method. This could include attaching a Z or stencil buffer for the new render target.
 

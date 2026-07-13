@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetMessageA
 title: GetMessageA function (winuser.h)
-description: Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval.
-helpviewer_keywords: ["GetMessage","GetMessage function [Windows and Messages]","GetMessageA","GetMessageW","_win32_GetMessage","_win32_getmessage_cpp","winmsg.getmessage","winui._win32_getmessage","winuser/GetMessage","winuser/GetMessageA","winuser/GetMessageW"]
+description: Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval. (GetMessageA)
+helpviewer_keywords: ["GetMessageA", "winuser/GetMessageA"]
 old-location: winmsg\getmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessage.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-message-ansi-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-message-l1-1-0.dll
  - ie_shims.dll
@@ -186,7 +187,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-
 
 
 > [!NOTE]
-> The winuser.h header defines GetMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

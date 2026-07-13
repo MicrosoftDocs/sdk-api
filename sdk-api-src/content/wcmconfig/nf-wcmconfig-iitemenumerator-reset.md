@@ -52,7 +52,7 @@ api_name:
 
 Resets the state of the enumerator to its initialized state. You must immediately follow <b>IItemEnumerator::Reset</b> with a call  to  <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-iitemenumerator-movenext">IItemEnumerator::MoveNext</a> on the enumerator   in order to set the current pointer at the first position in the enumeration.
 
-## -parameters
+
 
 ## -returns
 

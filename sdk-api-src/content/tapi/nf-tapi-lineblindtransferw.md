@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineBlindTransferW
 title: lineBlindTransferW function (tapi.h)
-description: The lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address.
-helpviewer_keywords: ["_tapi2_lineblindtransfer","lineBlindTransfer","lineBlindTransfer function [TAPI 2.2]","lineBlindTransferA","lineBlindTransferW","tapi/lineBlindTransfer","tapi/lineBlindTransferA","tapi/lineBlindTransferW","tapi2.lineblindtransfer"]
+description: The lineBlindTransfer (Unicode) function (tapi.h) performs a blind or single-step transfer of the specified call to the specified destination address. 
+helpviewer_keywords: ["_tapi2_lineblindtransfer", "lineBlindTransfer", "lineBlindTransfer function [TAPI 2.2]", "lineBlindTransferW", "tapi/lineBlindTransfer", "tapi/lineBlindTransferW", "tapi2.lineblindtransfer"]
 old-location: tapi2\lineblindtransfer.htm
 tech.root: tapi3
 ms.assetid: c1997933-475e-4bcd-be44-ad92a2a678eb
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _tapi2_lineblindtransfer, lineBlindTransfer, lineBlindTransfer function [TAPI 2.2], lineBlindTransferA, lineBlindTransferW, tapi/lineBlindTransfer, tapi/lineBlindTransferA, tapi/lineBlindTransferW, tapi2.lineblindtransfer
 req.header: tapi.h
 req.include-header: 
@@ -90,7 +90,7 @@ The application's call handle remains valid after the transfer has completed. Th
 
 
 > [!NOTE]
-> The tapi.h header defines lineBlindTransfer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineBlindTransfer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

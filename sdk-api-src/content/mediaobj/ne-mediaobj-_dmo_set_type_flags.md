@@ -6,7 +6,7 @@ helpviewer_keywords: ["DMO_SET_TYPEF_CLEAR","DMO_SET_TYPEF_TEST_ONLY","DMO_SET_T
 old-location: dshow\dmo_set_type_flags.htm
 tech.root: dshow
 ms.assetid: e0638668-bbd2-4696-8482-d72438510740
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DMO_SET_TYPEF_CLEAR, DMO_SET_TYPEF_TEST_ONLY, DMO_SET_TYPE_FLAGS , DMO_SET_TYPE_FLAGSEnumeration, _DMO_SET_TYPE_FLAGS, _DMO_SET_TYPE_FLAGS enumeration [DirectShow], dshow.dmo_set_type_flags, mediaobj/DMO_SET_TYPEF_CLEAR, mediaobj/DMO_SET_TYPEF_TEST_ONLY, mediaobj/_DMO_SET_TYPE_FLAGS
 req.header: mediaobj.h
 req.include-header: 
@@ -50,15 +50,17 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>DMO_SET_TYPE_FLAGS</code> enumeration defines flags for setting the media type on a stream.
 
 ## -enum-fields
 
-### -field DMO_SET_TYPEF_TEST_ONLY
+### -field DMO_SET_TYPEF_TEST_ONLY:0x1
 
 Test the media type but do not set it.
 
-### -field DMO_SET_TYPEF_CLEAR
+### -field DMO_SET_TYPEF_CLEAR:0x2
 
 Clear the media type that was set for the stream.
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets a Boolean value specifying whether the factory is a delegate folder.
 
-## -parameters
+
 
 ## -returns
 

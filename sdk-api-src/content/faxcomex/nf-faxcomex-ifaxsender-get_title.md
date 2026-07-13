@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_Title
 title: IFaxSender::get_Title (faxcomex.h)
-description: The IFaxSender::get_Title property is a null-terminated string that contains the title associated with the sender.
+description: The IFaxSender::get_Title property is a null-terminated string that contains the title associated with the sender. (Get)
 helpviewer_keywords: ["IFaxSender interface [Fax Service]","Title property","IFaxSender.Title","IFaxSender.get_Title","IFaxSender.put_Title","IFaxSender::Title","IFaxSender::get_Title","IFaxSender::put_Title","Title property [Fax Service]","Title property [Fax Service]","IFaxSender interface","_mfax_faxsender.title","fax._mfax_faxsender_cpp_mfax_faxsender_title_cpp","fax._mfax_faxsender_title","faxcomex/IFaxSender::Title","faxcomex/IFaxSender::get_Title","faxcomex/IFaxSender::put_Title","get_Title"]
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_title_cpp.htm
 tech.root: Fax

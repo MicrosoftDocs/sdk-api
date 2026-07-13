@@ -56,7 +56,7 @@ Defines the set of actions an EAP authenticator can indicate to a supplicant or 
 
 ## -enum-fields
 
-### -field EapPeerMethodResponseActionDiscard
+### -field EapPeerMethodResponseActionDiscard:0
 
 The supplicant should discard the request as it is not usable by EAP.
 

@@ -53,7 +53,7 @@ api_name:
 
 Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colormatrixeffect">ColorMatrixEffect</a> object.
 
-## -parameters
+
 
 ## -see-also
 

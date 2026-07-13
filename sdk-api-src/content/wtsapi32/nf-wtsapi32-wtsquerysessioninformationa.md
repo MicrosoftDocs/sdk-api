@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSQuerySessionInformationA
 title: WTSQuerySessionInformationA function (wtsapi32.h)
-description: Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSQuerySessionInformation","WTSQuerySessionInformation function [Remote Desktop Services]","WTSQuerySessionInformationA","WTSQuerySessionInformationW","_win32_wtsquerysessioninformation","termserv.wtsquerysessioninformation","wtsapi32/WTSQuerySessionInformation","wtsapi32/WTSQuerySessionInformationA","wtsapi32/WTSQuerySessionInformationW"]
+description: Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server. (ANSI)
+helpviewer_keywords: ["WTSQuerySessionInformationA", "wtsapi32/WTSQuerySessionInformationA"]
 old-location: termserv\wtsquerysessioninformation.htm
 tech.root: TermServ
 ms.assetid: d52345a4-0408-4ea9-ba71-349910143752
@@ -128,7 +128,7 @@ To determine whether your application is running on the physical console, you mu
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSQuerySessionInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSQuerySessionInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

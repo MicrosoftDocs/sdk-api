@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.IEnumDirectoryObject.Clone
 title: IEnumDirectoryObject::Clone (rend.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. (IEnumDirectoryObject.Clone)
 helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumDirectoryObject interface","IEnumDirectoryObject interface [TAPI 2.2]","Clone method","IEnumDirectoryObject.Clone","IEnumDirectoryObject::Clone","_tapi3_ienumdirectoryobject_clone","rend/IEnumDirectoryObject::Clone","tapi3.ienumdirectoryobject_clone"]
 old-location: tapi3\ienumdirectoryobject_clone.htm
 tech.root: tapi3

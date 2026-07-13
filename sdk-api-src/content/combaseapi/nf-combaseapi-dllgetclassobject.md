@@ -125,7 +125,7 @@ The following is an example (in C++) of an implementation of <b>DllGetClassObjec
 
 
 ```cpp
-HRESULT_export CALLBACK DllGetClassObject 
+HRESULT _export CALLBACK DllGetClassObject 
     (REFCLSID rclsid, REFIID riid, LPVOID * ppvObj) 
 { 
     HRESULT hr = E_OUTOFMEMORY; 

@@ -54,18 +54,18 @@ Specifies the memory pool for the heap.
 
 ## -enum-fields
 
-### -field D3D12_MEMORY_POOL_UNKNOWN
+### -field D3D12_MEMORY_POOL_UNKNOWN:0
 
 The memory pool is unknown.
 
-### -field D3D12_MEMORY_POOL_L0
+### -field D3D12_MEMORY_POOL_L0:1
 
 The memory pool is L0.
             L0 is the physical system memory pool.
             When the adapter is discrete/NUMA, this pool has greater bandwidth for the CPU and less bandwidth for the GPU.
             When the adapter is UMA, this pool is the only one which is valid.
 
-### -field D3D12_MEMORY_POOL_L1
+### -field D3D12_MEMORY_POOL_L1:2
 
 The memory pool is L1.
             L1 is typically known as the physical video memory pool.

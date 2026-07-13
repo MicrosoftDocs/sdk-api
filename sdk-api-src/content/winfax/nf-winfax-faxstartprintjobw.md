@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxStartPrintJobW
 title: FaxStartPrintJobW function (winfax.h)
-description: A fax client application calls the FaxStartPrintJob function to start printing an outbound fax transmission on the specified fax printer.
-helpviewer_keywords: ["FaxStartPrintJob","FaxStartPrintJob function [Fax Service]","FaxStartPrintJobA","FaxStartPrintJobW","_mfax_faxstartprintjob","fax._mfax_faxstartprintjob","winfax/FaxStartPrintJob","winfax/FaxStartPrintJobA","winfax/FaxStartPrintJobW"]
+description: A fax client application calls the FaxStartPrintJob function to start printing an outbound fax transmission on the specified fax printer. (Unicode)
+helpviewer_keywords: ["FaxStartPrintJob", "FaxStartPrintJob function [Fax Service]", "FaxStartPrintJobW", "_mfax_faxstartprintjob", "fax._mfax_faxstartprintjob", "winfax/FaxStartPrintJob", "winfax/FaxStartPrintJobW"]
 old-location: fax\_mfax_faxstartprintjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3dwi.htm
@@ -178,7 +178,7 @@ A fax client application must call the <b>FaxStartPrintJob</b> function before c
 
 
 > [!NOTE]
-> The winfax.h header defines FaxStartPrintJob as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxStartPrintJob as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

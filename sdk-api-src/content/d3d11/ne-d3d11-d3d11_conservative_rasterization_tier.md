@@ -54,19 +54,19 @@ Specifies if the hardware and driver support conservative rasterization and at w
 
 ## -enum-fields
 
-### -field D3D11_CONSERVATIVE_RASTERIZATION_NOT_SUPPORTED
+### -field D3D11_CONSERVATIVE_RASTERIZATION_NOT_SUPPORTED:0
 
 Conservative rasterization isn't supported.
 
-### -field D3D11_CONSERVATIVE_RASTERIZATION_TIER_1
+### -field D3D11_CONSERVATIVE_RASTERIZATION_TIER_1:1
 
 Tier_1 conservative rasterization is supported.
 
-### -field D3D11_CONSERVATIVE_RASTERIZATION_TIER_2
+### -field D3D11_CONSERVATIVE_RASTERIZATION_TIER_2:2
 
 Tier_2 conservative rasterization is supported.
 
-### -field D3D11_CONSERVATIVE_RASTERIZATION_TIER_3
+### -field D3D11_CONSERVATIVE_RASTERIZATION_TIER_3:3
 
 Tier_3 conservative rasterization is supported.
 

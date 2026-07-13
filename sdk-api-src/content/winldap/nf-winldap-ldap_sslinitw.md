@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_sslinitW
 title: ldap_sslinitW function (winldap.h)
-description: Initializes a Secure Sockets Layer (SSL) session with an LDAP server.
-helpviewer_keywords: ["_ldap_ldap_sslinit","ldap.ldap__sslinit","ldap.ldap_sslinit","ldap_sslinit","ldap_sslinit function [LDAP]","ldap_sslinitA","ldap_sslinitW","winldap/ldap_sslinit","winldap/ldap_sslinitA","winldap/ldap_sslinitW"]
+description: The ldap_sslinitW (Unicode) function (winldap.h) initializes a Secure Sockets Layer (SSL) session with an LDAP server.
+helpviewer_keywords: ["_ldap_ldap_sslinit", "ldap.ldap__sslinit", "ldap.ldap_sslinit", "ldap_sslinit", "ldap_sslinit function [LDAP]", "ldap_sslinitW", "winldap/ldap_sslinit", "winldap/ldap_sslinitW"]
 old-location: ldap\ldap_sslinit.htm
 tech.root: ldap
 ms.assetid: 04c13577-9d9f-4305-8aa2-fad81c03290a
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW
 req.header: winldap.h
 req.include-header: 
@@ -95,7 +95,7 @@ Microsoft implements security features, like SSL, through its SSPI capabilities.
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_sslinit as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_sslinit as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

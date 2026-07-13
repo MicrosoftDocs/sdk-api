@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_ApplicationName
 title: INetFwRule::get_ApplicationName (netfw.h)
-description: Specifies the friendly name of the application to which this rule applies.
+description: Specifies the friendly name of the application to which this rule applies. (Get)
 helpviewer_keywords: ["ApplicationName property [ICS/ICF]","ApplicationName property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","ApplicationName property","INetFwRule.ApplicationName","INetFwRule.get_ApplicationName","INetFwRule::ApplicationName","INetFwRule::get_ApplicationName","INetFwRule::put_ApplicationName","get_ApplicationName","ics.inetfwrule_applicationname","netfw/INetFwRule::ApplicationName","netfw/INetFwRule::get_ApplicationName","netfw/INetFwRule::put_ApplicationName"]
 old-location: ics\inetfwrule_applicationname.htm
 tech.root: ics

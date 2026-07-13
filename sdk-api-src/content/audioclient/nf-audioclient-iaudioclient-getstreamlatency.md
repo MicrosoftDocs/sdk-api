@@ -82,6 +82,20 @@ The audio stream has not been successfully initialized.
 <td width="40%">
 <dl>
 <dt><b>AUDCLNT_E_DEVICE_INVALIDATED</b></dt>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_RESOURCES_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The stream's resources have been invalidated. This error may be thrown for the following reasons:<br>
+- The stream is suspended.<br>
+- An Exclusive or Offload stream is disconnected.<br>
+- A packaged application that has an exclusive mode or offload stream is quiesced.<br>
+- A "protected output" stream is closed.<br>
+</td>
+</tr>
 </dl>
 </td>
 <td width="60%">

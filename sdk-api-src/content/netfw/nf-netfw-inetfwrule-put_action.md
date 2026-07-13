@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.put_Action
 title: INetFwRule::put_Action (netfw.h)
-description: Specifies the action for a rule or default setting.
+description: Specifies the action for a rule or default setting. (INetFwRule.put_Action)
 helpviewer_keywords: ["Action property [ICS/ICF]","Action property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","Action property","INetFwRule.Action","INetFwRule.put_Action","INetFwRule::Action","INetFwRule::get_Action","INetFwRule::put_Action","ics.inetfwrule_action","netfw/INetFwRule::Action","netfw/INetFwRule::get_Action","netfw/INetFwRule::put_Action","put_Action"]
 old-location: ics\inetfwrule_action.htm
 tech.root: ics

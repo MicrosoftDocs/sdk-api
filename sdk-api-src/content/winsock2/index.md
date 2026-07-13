@@ -4,7 +4,8 @@ title: Winsock2.h header
 ms.assetid: 1418c4da-e9d0-35ea-9c7b-fe2f54273e08
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: qos
 f1_keywords:
  - winsock2
@@ -16,7 +17,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Quality of Service (QOS). For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Network Drivers Prior to Windows Vista](../_netxp/index.md)
 - [Quality of Service (QOS)](../_qos/index.md)
+- [Windows Sockets 2](../_winsock/index.md)
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.IEnumDirectoryObject.Skip
 title: IEnumDirectoryObject::Skip (rend.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. (IEnumDirectoryObject.Skip)
 helpviewer_keywords: ["IEnumDirectoryObject interface [TAPI 2.2]","Skip method","IEnumDirectoryObject.Skip","IEnumDirectoryObject::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumDirectoryObject interface","_tapi3_ienumdirectoryobject_skip","rend/IEnumDirectoryObject::Skip","tapi3.ienumdirectoryobject_skip"]
 old-location: tapi3\ienumdirectoryobject_skip.htm
 tech.root: tapi3

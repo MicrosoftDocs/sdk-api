@@ -1,12 +1,12 @@
 ---
 UID: NF:winineti.PrivacyGetZonePreferenceW
 title: PrivacyGetZonePreferenceW function (winineti.h)
-description: Retrieves the privacy settings for a given URLZONE and PrivacyType.
+description: The PrivacyGetZonePreferenceW (Unicode) function (winineti.h) retrieves the privacy settings for a given URLZONE and PrivacyType.
 helpviewer_keywords: ["PrivacyGetZonePreferenceW","PrivacyGetZonePreferenceW function [WinINet]","wininet.privacygetzonepreferencew","winineti/PrivacyGetZonePreferenceW"]
 old-location: wininet\privacygetzonepreferencew.htm
 tech.root: wininet
 ms.assetid: 530a86a0-bb67-406a-be83-5f2b463a1aa1
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: PrivacyGetZonePreferenceW, PrivacyGetZonePreferenceW function [WinINet], wininet.privacygetzonepreferencew, winineti/PrivacyGetZonePreferenceW
 req.header: winineti.h
 req.include-header: Wininet.h
@@ -52,13 +52,13 @@ api_name:
 ## -description
 
 Retrieves the privacy settings for a given 
-<a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
+<a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> and <a href="/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
 
 ## -parameters
 
 ### -param dwZone [in]
 
-A value of type <i>DWORD</i> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> for which privacy settings are being retrieved.
+A value of type <i>DWORD</i> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> for which privacy settings are being retrieved.
 
 ### -param dwType [in]
 

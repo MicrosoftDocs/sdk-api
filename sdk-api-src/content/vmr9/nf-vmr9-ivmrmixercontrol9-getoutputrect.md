@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetOutputRect","GetOutputRect method [DirectShow]","GetOu
 old-location: dshow\ivmrmixercontrol9_getoutputrect.htm
 tech.root: dshow
 ms.assetid: 93d976a4-1c48-4aac-8326-92b1ad9b751c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetOutputRect, GetOutputRect method [DirectShow], GetOutputRect method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetOutputRect method, IVMRMixerControl9.GetOutputRect, IVMRMixerControl9::GetOutputRect, IVMRMixerControl9GetOutputRect, dshow.ivmrmixercontrol9_getoutputrect, vmr9/IVMRMixerControl9::GetOutputRect
 req.header: vmr9.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>GetOutputRect</code> method retrieves the position of this stream's video rectangle within the composition rectangle.
 
 ## -parameters
@@ -61,7 +63,7 @@ Specifies the input stream. This value corresponds to the input pin. For example
 
 ### -param pRect [out]
 
-Pointer to a <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-normalizedrect">NORMALIZEDRECT</a> structure that receives the destination rectangle in composition space.
+Pointer to a <a href="/windows/win32/api/strmif/ns-strmif-normalizedrect">NORMALIZEDRECT</a> structure that receives the destination rectangle in composition space.
 
 ## -returns
 

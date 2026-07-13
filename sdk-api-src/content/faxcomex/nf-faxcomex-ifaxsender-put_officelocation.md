@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSender.put_OfficeLocation
 title: IFaxSender::put_OfficeLocation (faxcomex.h)
-description: The IFaxSender::get_OfficeLocation property is a null-terminated string that contains the office location of the sender.
+description: The IFaxSender::get_OfficeLocation property is a null-terminated string that contains the office location of the sender. (Put)
 helpviewer_keywords: ["IFaxSender interface [Fax Service]","OfficeLocation property","IFaxSender.OfficeLocation","IFaxSender.get_OfficeLocation","IFaxSender.put_OfficeLocation","IFaxSender::OfficeLocation","IFaxSender::get_OfficeLocation","IFaxSender::put_OfficeLocation","OfficeLocation property [Fax Service]","OfficeLocation property [Fax Service]","IFaxSender interface","_mfax_faxsender.officelocation","fax._mfax_faxsender_cpp_mfax_faxsender_officelocation_cpp","fax._mfax_faxsender_officelocation","faxcomex/IFaxSender::OfficeLocation","faxcomex/IFaxSender::get_OfficeLocation","faxcomex/IFaxSender::put_OfficeLocation","put_OfficeLocation"]
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_officelocation_cpp.htm
 tech.root: Fax

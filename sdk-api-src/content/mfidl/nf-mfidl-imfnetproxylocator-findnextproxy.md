@@ -53,7 +53,7 @@ api_name:
 
 Determines the next proxy to use.
 
-## -parameters
+
 
 ## -returns
 

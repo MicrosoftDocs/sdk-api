@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_SendEnabled
 title: IFaxDevice::get_SendEnabled (faxcomex.h)
-description: The IFaxDevice::get_SendEnabled property is a Boolean value that indicates whether the fax device is enabled for sending faxes.
+description: The IFaxDevice::get_SendEnabled property is a Boolean value that indicates whether the fax device is enabled for sending faxes. (Get)
 helpviewer_keywords: ["IFaxDevice interface [Fax Service]","SendEnabled property","IFaxDevice.SendEnabled","IFaxDevice.get_SendEnabled","IFaxDevice.put_SendEnabled","IFaxDevice::SendEnabled","IFaxDevice::get_SendEnabled","IFaxDevice::put_SendEnabled","SendEnabled property [Fax Service]","SendEnabled property [Fax Service]","IFaxDevice interface","_mfax_faxdevice.sendenabled","fax._mfax_faxdevice_cpp_mfax_faxdevice_sendenabled_cpp","fax._mfax_faxdevice_sendenabled","faxcomex/IFaxDevice::SendEnabled","faxcomex/IFaxDevice::get_SendEnabled","faxcomex/IFaxDevice::put_SendEnabled","get_SendEnabled"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_sendenabled_cpp.htm
 tech.root: Fax

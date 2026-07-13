@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetDevice","MCIWndGetDevice macro [Windows Multimed
 old-location: multimedia\mciwndgetdevice.htm
 tech.root: Multimedia
 ms.assetid: 0e918cf0-e9aa-402a-9db6-f9a39c718962
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetDevice, MCIWndGetDevice macro [Windows Multimedia], _win32_MCIWndGetDevice, multimedia.mciwndgetdevice, vfw/MCIWndGetDevice
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MCIWndGetDevice macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetDevice(
+     hwnd,
+     lp,
+     len
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or a nonzero value otherwise.
 
 
 ## -description

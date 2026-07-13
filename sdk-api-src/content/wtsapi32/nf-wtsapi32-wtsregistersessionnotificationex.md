@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSRegisterSessionNotificationEx
 title: WTSRegisterSessionNotificationEx function (wtsapi32.h)
-description: Registers the specified window to receive session change notifications.
+description: Registers the specified window to receive session change notifications. (WTSRegisterSessionNotificationEx)
 helpviewer_keywords: ["NOTIFY_FOR_ALL_SESSIONS","NOTIFY_FOR_THIS_SESSION","WTSRegisterSessionNotificationEx","WTSRegisterSessionNotificationEx function [Remote Desktop Services]","termserv.wtsregistersessionnotificationex","wtsapi32/WTSRegisterSessionNotificationEx"]
 old-location: termserv\wtsregistersessionnotificationex.htm
 tech.root: TermServ

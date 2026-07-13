@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Hidden
 title: ITaskSettings::get_Hidden (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the task will not be visible in the UI.
+description: Gets or sets a Boolean value that indicates that the task will not be visible in the UI. (Get)
 helpviewer_keywords: ["Hidden property [Task Scheduler]","Hidden property [Task Scheduler]","ITaskSettings interface","ITaskSettings interface [Task Scheduler]","Hidden property","ITaskSettings.Hidden","ITaskSettings.get_Hidden","ITaskSettings::Hidden","ITaskSettings::get_Hidden","ITaskSettings::put_Hidden","get_Hidden","taskschd.itasksettings_hidden","taskschd/ITaskSettings::Hidden","taskschd/ITaskSettings::get_Hidden","taskschd/ITaskSettings::put_Hidden"]
 old-location: taskschd\itasksettings_hidden.htm
 tech.root: taskschd

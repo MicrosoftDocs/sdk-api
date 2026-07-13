@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
  - Dwmapi.dll
  - ext-ms-win-dwmapi-ext-l1-1-0.dll
 api_name:
@@ -55,15 +57,15 @@ Enables the graphical feedback of touch and drag interactions to the user.
 
 ## -parameters
 
-### -param dwPointerID
+### -param dwPointerID [in]
 
 The pointer ID.
 
-### -param fEnable
+### -param fEnable [in]
 
 Indicates whether the contact is enabled.
 
-### -param ptTether
+### -param ptTether [in]
 
 The tether.
 

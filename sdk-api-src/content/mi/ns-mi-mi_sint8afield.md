@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Sint8AField
 title: MI_Sint8AField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_Sint8AField)
 helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_Sint8AField","MI_Sint8AField structure [Windows Management Infrastructure (MI)]","mi/MI_Sint8AField","wmi._mi_sint8afield","wmi_v2.mi_sint8afield"]
 old-location: wmi_v2\mi_sint8afield.htm
 tech.root: wmi_v2

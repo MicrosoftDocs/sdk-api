@@ -4,7 +4,8 @@ title: Windows Installer Provider
 ms.assetid: abe8849e-63b1-3b32-9ba5-6645fd44f216
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Windows Installer Provider

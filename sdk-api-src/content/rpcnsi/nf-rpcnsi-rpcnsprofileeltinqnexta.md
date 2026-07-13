@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqNextA
 title: RpcNsProfileEltInqNextA function (rpcnsi.h)
-description: The RpcNsProfileEltInqNext function returns one element at a time from a profile.
-helpviewer_keywords: ["RpcNsProfileEltInqNext","RpcNsProfileEltInqNext function [RPC]","RpcNsProfileEltInqNextA","RpcNsProfileEltInqNextW","_rpc_rpcnsprofileeltinqnext","rpc.rpcnsprofileeltinqnext","rpcnsi/RpcNsProfileEltInqNext","rpcnsi/RpcNsProfileEltInqNextA","rpcnsi/RpcNsProfileEltInqNextW"]
+description: The RpcNsProfileEltInqNext function returns one element at a time from a profile. (ANSI)
+helpviewer_keywords: ["RpcNsProfileEltInqNextA", "rpcnsi/RpcNsProfileEltInqNextA"]
 old-location: rpc\rpcnsprofileeltinqnext.htm
 tech.root: Rpc
 ms.assetid: 78835fde-82c3-4cff-94b9-91e07120e03f
@@ -175,7 +175,7 @@ On each call to
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsProfileEltInqNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsProfileEltInqNext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.EnumDisplaySettingsA
 title: EnumDisplaySettingsA function (winuser.h)
-description: The EnumDisplaySettings function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes of a display device, make a series of calls to this function.
-helpviewer_keywords: ["ENUM_CURRENT_SETTINGS","ENUM_REGISTRY_SETTINGS","EnumDisplaySettings","EnumDisplaySettings function [Windows GDI]","EnumDisplaySettingsA","EnumDisplaySettingsW","_win32_EnumDisplaySettings","gdi.enumdisplaysettings","winuser/EnumDisplaySettings","winuser/EnumDisplaySettingsA","winuser/EnumDisplaySettingsW"]
+description: The EnumDisplaySettings function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes of a display device, make a series of calls to this function. (ANSI)
+helpviewer_keywords: ["ENUM_CURRENT_SETTINGS", "ENUM_REGISTRY_SETTINGS", "EnumDisplaySettingsA", "winuser/EnumDisplaySettingsA"]
 old-location: gdi\enumdisplaysettings.htm
 tech.root: gdi
 ms.assetid: af73610b-bcd8-4660-800e-84fa0cc5b4eb
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-sysparams-ext-l1-1-1.dll
  - user32.dll
  - Ext-MS-Win-NTUser-sysparams-Ext-l1-1-0.dll
  - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
@@ -136,7 +137,7 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 > [!NOTE]
-> The winuser.h header defines EnumDisplaySettings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines EnumDisplaySettings as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

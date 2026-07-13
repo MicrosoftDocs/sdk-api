@@ -58,7 +58,7 @@ Sets video stream configuration settings  in the transcode profile.
 
 ### -param pAttrs [in]
 
-Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store that contains contains the configuration settings for the video stream. The specified attribute values overwrites any existing values stored in the transcode profile. 
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store that contains the configuration settings for the video stream. The specified attribute values overwrites any existing values stored in the transcode profile. 
 
 The following video attributes can be set:
 
@@ -80,7 +80,7 @@ To create the attribute store, call <a href="/windows/desktop/api/mfapi/nf-mfapi
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

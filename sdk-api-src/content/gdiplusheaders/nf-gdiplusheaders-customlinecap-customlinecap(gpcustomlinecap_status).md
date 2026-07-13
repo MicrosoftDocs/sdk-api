@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.CustomLineCap(GpCustomLineCap,Status)
 title: CustomLineCap::CustomLineCap(GpCustomLineCap,Status) (gdiplusheaders.h)
-description: Creates a CustomLineCap::CustomLineCap object.
+description: Creates a CustomLineCap::CustomLineCap object. (overload 2/2)
 helpviewer_keywords: ["CustomLineCap","CustomLineCap class [GDI+]","CustomLineCap constructor","CustomLineCap constructor [GDI+]","CustomLineCap constructor [GDI+]","CustomLineCap class","CustomLineCap.CustomLineCap","CustomLineCap.CustomLineCap(GpCustomLineCap","Status)","CustomLineCap::CustomLineCap","CustomLineCap::CustomLineCap(GpCustomLineCap","Status)","_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_","gdiplus._gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_.htm
 tech.root: gdiplus

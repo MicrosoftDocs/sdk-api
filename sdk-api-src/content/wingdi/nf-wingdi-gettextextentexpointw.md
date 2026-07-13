@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetTextExtentExPointW
 title: GetTextExtentExPointW function (wingdi.h)
-description: The GetTextExtentExPoint function retrieves the number of characters in a specified string that will fit within a specified space and fills an array with the text extent for each of those characters.
-helpviewer_keywords: ["GetTextExtentExPoint","GetTextExtentExPoint function [Windows GDI]","GetTextExtentExPointA","GetTextExtentExPointW","_win32_GetTextExtentExPoint","gdi.gettextextentexpoint","wingdi/GetTextExtentExPoint","wingdi/GetTextExtentExPointA","wingdi/GetTextExtentExPointW"]
+description: The GetTextExtentExPoint function retrieves the number of characters in a specified string that will fit within a specified space and fills an array with the text extent for each of those characters. (Unicode)
+helpviewer_keywords: ["GetTextExtentExPoint", "GetTextExtentExPoint function [Windows GDI]", "GetTextExtentExPointW", "_win32_GetTextExtentExPoint", "gdi.gettextextentexpoint", "wingdi/GetTextExtentExPoint", "wingdi/GetTextExtentExPointW"]
 old-location: gdi\gettextextentexpoint.htm
 tech.root: gdi
 ms.assetid: b873a059-5aa3-47d0-b109-7acd542c7d79
@@ -89,7 +89,7 @@ For complex scripts, where a sequence of characters may be represented by any nu
 
 ### -param lpSize [out]
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units. This parameter cannot be <b>NULL</b>.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the dimensions of the string, in logical units. This parameter cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -105,7 +105,7 @@ For the ANSI version of <b>GetTextExtentExPoint</b>, the <i>lpDx</i> array has t
 
 Note, the <i>alpDx</i> values for <b>GetTextExtentExPoint</b> are not the same as the <i>lpDx</i> values for <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>. To use the <i>alpDx</i> values in <i>lpDx</i>, you must first process them.
 
-When this function returns the text extent, it assumes that the text is horizontal, that is, that the escapement is always 0. This is true for both the horizontal and vertical measurements of the text. Even if you use a font that specifies a nonzero escapement, this function doesn't use the angle while it computes the text extent. The app must convert it explicitly. However, when the graphics mode is set to <a href="/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">GM_ADVANCED</a> and the character orientation is 90 degrees from the print orientation, the values that this function return do not follow this rule. When the character orientation and the print orientation match for a given string, this function returns the dimensions of the string in the <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure as { cx : 116, cy : 18 }.  When the character orientation and the print orientation are 90 degrees apart for the same string, this function returns the dimensions of the string in the <b>SIZE</b> structure as { cx : 18, cy : 116 }.
+When this function returns the text extent, it assumes that the text is horizontal, that is, that the escapement is always 0. This is true for both the horizontal and vertical measurements of the text. Even if you use a font that specifies a nonzero escapement, this function doesn't use the angle while it computes the text extent. The app must convert it explicitly. However, when the graphics mode is set to <a href="/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">GM_ADVANCED</a> and the character orientation is 90 degrees from the print orientation, the values that this function return do not follow this rule. When the character orientation and the print orientation match for a given string, this function returns the dimensions of the string in the <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure as { cx : 116, cy : 18 }.  When the character orientation and the print orientation are 90 degrees apart for the same string, this function returns the dimensions of the string in the <b>SIZE</b> structure as { cx : 18, cy : 116 }.
 
 This function returns the extent of each successive character in a string. When these are rounded to logical units, you get different results than what is returned from the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidtha">GetCharWidth</a>, which returns the width of each individual character rounded to logical units.
 
@@ -114,7 +114,7 @@ This function returns the extent of each successive character in a string. When 
 
 
 > [!NOTE]
-> The wingdi.h header defines GetTextExtentExPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetTextExtentExPoint as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -130,4 +130,4 @@ This function returns the extent of each successive character in a string. When 
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>

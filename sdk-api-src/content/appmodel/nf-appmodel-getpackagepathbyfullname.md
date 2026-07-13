@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackagePathByFullName
 title: GetPackagePathByFullName function (appmodel.h)
-description: Gets the path of the specified package.
+description: Gets the path of the specified package. (GetPackagePathByFullName)
 helpviewer_keywords: ["GetPackagePathByFullName","GetPackagePathByFullName function [App packaging and management]","appmodel/GetPackagePathByFullName","appxpkg.getpackagepathbyfullname"]
 old-location: appxpkg\getpackagepathbyfullname.htm
 tech.root: appxpkg
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
+ - api-ms-win-appmodel-runtime-l1-1-6.dll
+ - api-ms-win-appmodel-runtime-l1-1-5.dll
+ - api-ms-win-appmodel-runtime-l1-1-4.dll
+ - api-ms-win-appmodel-runtime-l1-1-3.dll
  - Kernel32.dll
  - API-MS-Win-AppModel-RunTime-l1-1-1.dll
  - Kernel.AppCore.dll

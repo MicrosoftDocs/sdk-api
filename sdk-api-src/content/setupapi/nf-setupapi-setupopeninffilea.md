@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupOpenInfFileA
 title: SetupOpenInfFileA function (setupapi.h)
-description: The SetupOpenInfFile function opens an INF file and returns a handle to it.
-helpviewer_keywords: ["SetupOpenInfFile","SetupOpenInfFile function [Setup API]","SetupOpenInfFileA","SetupOpenInfFileW","_setupapi_setupopeninffile","setup.setupopeninffile","setupapi/SetupOpenInfFile","setupapi/SetupOpenInfFileA","setupapi/SetupOpenInfFileW"]
+description: The SetupOpenInfFile function opens an INF file and returns a handle to it. (ANSI)
+helpviewer_keywords: ["SetupOpenInfFileA", "setupapi/SetupOpenInfFileA"]
 old-location: setup\setupopeninffile.htm
 tech.root: setup
 ms.assetid: a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7
@@ -118,7 +118,7 @@ For legacy INF files, the <i>InfClass</i> string must match the type specified i
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupOpenInfFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupOpenInfFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

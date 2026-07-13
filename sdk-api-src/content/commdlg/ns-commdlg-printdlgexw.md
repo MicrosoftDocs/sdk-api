@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagPDEXW
 title: PRINTDLGEXW (commdlg.h)
-description: Contains information that the PrintDlgEx function uses to initialize the Print property sheet. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
+description: Contains information that the PrintDlgEx function uses to initialize the Print property sheet. After the user closes the property sheet, the system uses this structure to return information about the user's selections. (Unicode)
 helpviewer_keywords: ["*LPPRINTDLGEXW","LPPRINTDLGEX","LPPRINTDLGEX structure pointer [Dialog Boxes]","PD_ALLPAGES","PD_COLLATE","PD_CURRENTPAGE","PD_DISABLEPRINTTOFILE","PD_ENABLEPRINTTEMPLATE","PD_ENABLEPRINTTEMPLATEHANDLE","PD_EXCLUSIONFLAGS","PD_EXCL_COPIESANDCOLLATE","PD_HIDEPRINTTOFILE","PD_NOCURRENTPAGE","PD_NOPAGENUMS","PD_NOSELECTION","PD_NOWARNING","PD_PAGENUMS","PD_PRINTTOFILE","PD_RESULT_APPLY","PD_RESULT_CANCEL","PD_RESULT_PRINT","PD_RETURNDC","PD_RETURNDEFAULT","PD_RETURNIC","PD_SELECTION","PD_USEDEVMODECOPIES","PD_USEDEVMODECOPIESANDCOLLATE","PD_USELARGETEMPLATE","PRINTDLGEX","PRINTDLGEX structure [Dialog Boxes]","PRINTDLGEXA","PRINTDLGEXW","_win32_PRINTDLGEX_str","_win32_printdlgex_str_cpp","commdlg/LPPRINTDLGEX","commdlg/PRINTDLGEX","commdlg/PRINTDLGEXA","commdlg/PRINTDLGEXW","dlgbox.printdlgex_str","tagPDEXA","tagPDEXW","winui._win32_printdlgex_str"]
 old-location: dlgbox\printdlgex_str.htm
 tech.root: dlgbox
@@ -76,7 +76,7 @@ A handle to the window that owns the property sheet. This member must be a valid
 
 Type: <b>HGLOBAL</b>
 
-A handle to a movable global memory object that contains a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If <b>hDevMode</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVMODE</b> structure and initialize its members. The <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVMODE</b> members indicate the user's input.
+A handle to a movable global memory object that contains a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure. If <b>hDevMode</b> is not <b>NULL</b> on input, you must allocate a movable block of memory for the <b>DEVMODE</b> structure and initialize its members. The <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function uses the input data to initialize the controls in the property sheet. When <b>PrintDlgEx</b> returns, the <b>DEVMODE</b> members indicate the user's input.
 
 If <b>hDevMode</b> is <b>NULL</b> on input, <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> allocates memory for the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, initializes its members to indicate the user's input, and returns a handle that identifies it. 
 
@@ -520,7 +520,7 @@ During the execution of <a href="/previous-versions/windows/desktop/legacy/ms646
 
 
 > [!NOTE]
-> The commdlg.h header defines PRINTDLGEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines PRINTDLGEX as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

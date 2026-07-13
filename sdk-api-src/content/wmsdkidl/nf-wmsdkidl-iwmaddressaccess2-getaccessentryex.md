@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAccessEntryEx","GetAccessEntryEx method [windows Media
 old-location: wmformat\iwmaddressaccess2_getaccessentryex.htm
 tech.root: wmformat
 ms.assetid: 477e6b28-bfa0-4ce9-b2e0-eb51eaba6476
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAccessEntryEx, GetAccessEntryEx method [windows Media Format], GetAccessEntryEx method [windows Media Format],IWMAddressAccess2 interface, IWMAddressAccess2 interface [windows Media Format],GetAccessEntryEx method, IWMAddressAccess2.GetAccessEntryEx, IWMAddressAccess2::GetAccessEntryEx, IWMAddressAccess2GetAccessEntryEx, wmformat.iwmaddressaccess2_getaccessentryex, wmsdkidl/IWMAddressAccess2::GetAccessEntryEx
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAccessEntryEx</b> method retrieves an entry from the IP address access list.
 

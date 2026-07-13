@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathParseIconLocationA
 title: PathParseIconLocationA function (shlwapi.h)
-description: Parses a file location string that contains a file location and icon index, and returns separate values.
-helpviewer_keywords: ["PathParseIconLocation","PathParseIconLocation function [Windows Shell]","PathParseIconLocationA","PathParseIconLocationW","_win32_PathParseIconLocation","shell.PathParseIconLocation","shlwapi/PathParseIconLocation","shlwapi/PathParseIconLocationA","shlwapi/PathParseIconLocationW"]
+description: Parses a file location string that contains a file location and icon index, and returns separate values. (ANSI)
+helpviewer_keywords: ["PathParseIconLocationA", "shlwapi/PathParseIconLocationA"]
 old-location: shell\PathParseIconLocation.htm
 tech.root: shell
 ms.assetid: 1ded2f0f-0e11-4730-ab7b-16536e7f4435
@@ -114,4 +114,4 @@ PathParseIconLocation returns the icon index of: 3
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathParseIconLocation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathParseIconLocation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

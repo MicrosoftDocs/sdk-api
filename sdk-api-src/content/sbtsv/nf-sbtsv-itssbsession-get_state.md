@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_State
 title: ITsSbSession::get_State (sbtsv.h)
-description: Retrieves or specifies the session state.
+description: Retrieves or specifies the session state. (Get)
 helpviewer_keywords: ["ITsSbSession interface [Remote Desktop Services]","State property","ITsSbSession.State","ITsSbSession.get_State","ITsSbSession::State","ITsSbSession::get_State","ITsSbSession::put_State","State property [Remote Desktop Services]","State property [Remote Desktop Services]","ITsSbSession interface","get_State","sbtsv/ITsSbSession::State","sbtsv/ITsSbSession::get_State","sbtsv/ITsSbSession::put_State","termserv.itssbsession_state"]
 old-location: termserv\itssbsession_state.htm
 tech.root: TermServ

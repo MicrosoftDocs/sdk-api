@@ -53,7 +53,7 @@ api_name:
 
 Gets the index of the swap chain's current back buffer.
 
-## -parameters
+
 
 ## -returns
 

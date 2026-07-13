@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-2-3.dll
+ - api-ms-win-shell-namespace-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-Shell-Namespace-L1-1-0.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
@@ -91,5 +93,5 @@ The item's PIDL relative to the parent folder. This PIDL can be used with many o
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

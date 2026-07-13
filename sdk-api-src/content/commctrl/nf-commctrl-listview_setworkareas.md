@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetWorkAreas","ListView_SetWorkAreas macro [Wind
 old-location: controls\ListView_SetWorkAreas.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setworkareas.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,16 @@ api_name:
 
 # ListView_SetWorkAreas macro
 
+## -syntax
+
+```cpp
+void ListView_SetWorkAreas(
+   HWND   hwnd,
+   INT    nWorkAreas,
+   LPRECT prc
+);
+```
+
 
 ## -description
 
@@ -64,8 +74,7 @@ A handle to a list-view control.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-The number of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures in the array at 
-					<i>lprc</i>. The maximum number of working areas allowed is defined by the <b>LV_MAX_WORKAREAS</b> value.
+The number of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures in the array at <i>prc</i>. The maximum number of working areas allowed is defined by the <b>LV_MAX_WORKAREAS</b> value.
 
 ### -param prc
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmGetUnmetTabRequirements
 title: DwmGetUnmetTabRequirements function (dwmapi.h)
-description: Note  This function is publically available, but nonfunctional, for Windows 10, version 1803.Checks the requirements needed to get tabs in the application title bar for the specified window.
+description: This function was part of an experimental feature that was never implemented in Windows. It has no effect and should not be used.
 helpviewer_keywords: ["DwmGetUnmetTabRequirements","DwmGetUnmetTabRequirements function [Desktop Window Manager]","dwm.dwmgetunmettabrequirements","dwmapi/DwmGetUnmetTabRequirements"]
 old-location: dwm\dwmgetunmettabrequirements.htm
 tech.root: dwm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
  - dwmapi.dll
 api_name:
  - DwmGetUnmetTabRequirements
@@ -50,17 +52,14 @@ api_name:
 
 ## -description
 
-<b>Note</b>  This function is publically available, but nonfunctional, for Windows 10, version 1803.</p>Checks the requirements needed to get tabs in the application title bar for the specified window.
+This function was part of an experimental feature that was never implemented in Windows. It has no effect and should not be used.
 
 ## -parameters
 
 ### -param appWindow [in, optional]
 
-The handle of the window to check.
+This parameter isn't used.
 
-### -param unnamedParam2 [out]
+### -param *value [out]
 
-On success, returns a pointer to a   <a href="/windows/desktop/api/dwmapi/ne-dwmapi-dwm_tab_window_requirements">DWM_TAB_WINDOW_REQUIREMENTS</a> value describing the requirements for placing a tab.
-
-If <b>DWMTWR_NONE</b>, the window is capable of
-receiving tabs in its title bar.  Otherwise, indicates the reason why the application is ineligible.
+This parameter isn't used.

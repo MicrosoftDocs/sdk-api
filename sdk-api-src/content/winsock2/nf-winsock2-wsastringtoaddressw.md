@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSAStringToAddressW
 title: WSAStringToAddressW function (winsock2.h)
-description: The WSAStringToAddress function converts a network address in its standard text presentation form into its numeric binary form in a sockaddr structure, suitable for passing to Windows Sockets routines that take such a structure.
-helpviewer_keywords: ["WSAStringToAddress","WSAStringToAddress function [Winsock]","WSAStringToAddressA","WSAStringToAddressW","_win32_wsastringtoaddress_2","winsock.wsastringtoaddress_2","winsock2/WSAStringToAddress","winsock2/WSAStringToAddressA","winsock2/WSAStringToAddressW"]
+description: The WSAStringToAddress function converts a network address in its standard text presentation form into its numeric binary form in a sockaddr structure, suitable for passing to Windows Sockets routines that take such a structure. (Unicode)
+helpviewer_keywords: ["WSAStringToAddress", "WSAStringToAddress function [Winsock]", "WSAStringToAddressW", "_win32_wsastringtoaddress_2", "winsock.wsastringtoaddress_2", "winsock2/WSAStringToAddress", "winsock2/WSAStringToAddressW"]
 old-location: winsock\wsastringtoaddress_2.htm
 tech.root: WinSock
 ms.assetid: 7b9946c3-c8b3-45ae-9bde-03faaf604bba
@@ -11,7 +11,7 @@ ms.keywords: WSAStringToAddress, WSAStringToAddress function [Winsock], WSAStrin
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows XP, Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -150,7 +150,7 @@ The
 <b>WSAStringToAddress</b> function fails (and returns WSAEINVAL) if the <b>sin_family</b> member of the <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN</a> structure, which is passed in the <i>lpAddress</i> parameter in the form of a 
 <b>sockaddr</b> structure, is not set to AF_INET or AF_INET6. 
 
-Support for IPv6 addresses using the <b>WSAStringToAddress</b> function was added on Windows XP with Service Pack 1 (SP1)and later. IPv6 must also be installed on the local computer for the <b>WSAStringToAddress</b> function to support IPv6 addresses. 
+Support for IPv6 addresses using the <b>WSAStringToAddress</b> function was added on Windows XP with Service Pack 1 (SP1) and later. IPv6 must also be installed on the local computer for the <b>WSAStringToAddress</b> function to support IPv6 addresses. 
 
 <b>Windows Phone 8:</b> This  function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
@@ -161,7 +161,7 @@ Support for IPv6 addresses using the <b>WSAStringToAddress</b> function was adde
 
 
 > [!NOTE]
-> The winsock2.h header defines WSAStringToAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSAStringToAddress as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

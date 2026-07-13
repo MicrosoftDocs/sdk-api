@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.BeginPrepareVariants
 title: ICrmCompensatorVariants::BeginPrepareVariants (comsvcs.h)
-description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered.
+description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered. (ICrmCompensatorVariants.BeginPrepareVariants)
 helpviewer_keywords: ["BeginPrepareVariants","BeginPrepareVariants method [COM+]","BeginPrepareVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","BeginPrepareVariants method","ICrmCompensatorVariants.BeginPrepareVariants","ICrmCompensatorVariants::BeginPrepareVariants","_dtc_ICrmCompensatorVariants_BeginPrepareVariants","comsvcs/ICrmCompensatorVariants::BeginPrepareVariants","cos.icrmcompensatorvariants_beginpreparevariants"]
 old-location: cos\icrmcompensatorvariants_beginpreparevariants.htm
 tech.root: cos
@@ -54,11 +54,11 @@ Notifies the CRM Compensator of the prepare phase of the transaction completion 
 
 Prepare notifications are never received during recovery, only during normal processing.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

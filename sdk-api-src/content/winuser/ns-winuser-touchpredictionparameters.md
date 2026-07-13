@@ -80,4 +80,4 @@ By default, touch prediction is activated. For information on getting pointer da
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
+<a href="/windows/win32/inputmsg/structures">Structures</a>

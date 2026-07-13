@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredUIPromptForWindowsCredentialsW
 title: CredUIPromptForWindowsCredentialsW function (wincred.h)
-description: Creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer.
-helpviewer_keywords: ["CREDUIWIN_AUTHPACKAGE_ONLY","CREDUIWIN_CHECKBOX","CREDUIWIN_ENUMERATE_ADMINS","CREDUIWIN_ENUMERATE_CURRENT_USER","CREDUIWIN_GENERIC","CREDUIWIN_IN_CRED_ONLY","CREDUIWIN_PACK_32_WOW","CREDUIWIN_PREPROMPTING","CREDUIWIN_SECURE_PROMPT","CredUIPromptForWindowsCredentials","CredUIPromptForWindowsCredentials function [Security]","CredUIPromptForWindowsCredentialsA","CredUIPromptForWindowsCredentialsW","security.creduipromptforwindowscredentials","wincred/CredUIPromptForWindowsCredentials","wincred/CredUIPromptForWindowsCredentialsA","wincred/CredUIPromptForWindowsCredentialsW"]
+description: Creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer. (Unicode)
+helpviewer_keywords: ["CREDUIWIN_AUTHPACKAGE_ONLY", "CREDUIWIN_CHECKBOX", "CREDUIWIN_ENUMERATE_ADMINS", "CREDUIWIN_ENUMERATE_CURRENT_USER", "CREDUIWIN_GENERIC", "CREDUIWIN_IN_CRED_ONLY", "CREDUIWIN_PACK_32_WOW", "CREDUIWIN_PREPROMPTING", "CREDUIWIN_SECURE_PROMPT", "CredUIPromptForWindowsCredentials", "CredUIPromptForWindowsCredentials function [Security]", "CredUIPromptForWindowsCredentialsW", "security.creduipromptforwindowscredentials", "wincred/CredUIPromptForWindowsCredentials", "wincred/CredUIPromptForWindowsCredentialsW"]
 old-location: security\creduipromptforwindowscredentials.htm
 tech.root: security
 ms.assetid: 946ac279-d30a-4a6c-a76d-d93597121427
@@ -271,4 +271,4 @@ Applications that use <a href="/windows/desktop/SecAuthN/sspi">SSPI</a> to authe
 
 
 > [!NOTE]
-> The wincred.h header defines CredUIPromptForWindowsCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredUIPromptForWindowsCredentials as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

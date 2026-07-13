@@ -77,224 +77,224 @@ Union of data values, with the specific value dictated by the property type. The
 
 #### i
 
-<b>Type: <b>short</b>
-</b>
+Type: <b>short</b>
+
 PT_I2 or PT_SHORT
 
 
 
 #### l
 
-<b>Type: <b>LONG</b>
-</b>
+Type: <b>LONG</b>
+
 PT_LONG
 
 
 
 #### ul
 
-<b>Type: <b>ULONG</b>
-</b>
+Type: <b>ULONG</b>
+
 PT_LONG
 
 
 
 #### flt
 
-<b>Type: <b>float</b>
-</b>
+Type: <b>float</b>
+
 PT_R4
 
 
 
 #### dbl
 
-<b>Type: <b>double</b>
-</b>
+Type: <b>double</b>
+
 PT_DOUBLE
 
 
 
 #### b
 
-<b>Type: <b>USHORT</b>
-</b>
+Type: <b>USHORT</b>
+
 PT_BOOLEAN
 
 
 
 #### cur
 
-<b>Type: <b>CURRENCY</b>
-</b>
+Type: <b>CURRENCY</b>
+
 PT_CURRENCY
 
 
 
 #### at
 
-<b>Type: <b>double</b>
-</b>
+Type: <b>double</b>
+
 PT_APPTIME
 
 
 
 #### ft
 
-<b>Type: <b>FILETIME</b>
-</b>
+Type: <b>FILETIME</b>
+
 PT_SYSTIME
 
 
 
 #### lpszA
 
-<b>Type: <b>LPSTR</b>
-</b>
+Type: <b>LPSTR</b>
+
 PT_STRING8
 
 
 
 #### bin
 
-<b>Type: <b><a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
-</b>
+Type: <b><a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
+
 PT_BINARY
 
 
 
 #### lpszW
 
-<b>Type: <b>LPWSTR</b>
-</b>
+Type: <b>LPWSTR</b>
+
 PT_UNICODE
 
 
 
 #### lpguid
 
-<b>Type: <b>LPGUID</b>
-</b>
+Type: <b>LPGUID</b>
+
 PT_CLSID
 
 
 
 #### li
 
-<b>Type: <b>LARGE_INTEGER</b>
-</b>
+Type: <b>LARGE_INTEGER</b>
+
 PT_I8
 
 
 
 #### MVi
 
-<b>Type: <b>SShortArray</b>
-</b>
+Type: <b>SShortArray</b>
+
 PT_MV_I2
 
 
 
 #### MVl
 
-<b>Type: <b>SLongArray</b>
-</b>
+Type: <b>SLongArray</b>
+
 PT_MV_LONG
 
 
 
 #### MVflt
 
-<b>Type: <b>SRealArray</b>
-</b>
+Type: <b>SRealArray</b>
+
 PT_MV_R4
 
 
 
 #### MVdbl
 
-<b>Type: <b>SDoubleArray</b>
-</b>
+Type: <b>SDoubleArray</b>
+
 PT_MV_DOUBLE
 
 
 
 #### MVcur
 
-<b>Type: <b>SCurrencyArray</b>
-</b>
+Type: <b>SCurrencyArray</b>
+
 PT_MV_CURRENCY
 
 
 
 #### MVat
 
-<b>Type: <b>SAppTimeArray</b>
-</b>
+Type: <b>SAppTimeArray</b>
+
 PT_MV_APPTIME
 
 
 
 #### MVft
 
-<b>Type: <b>SDateTimeArray</b>
-</b>
+Type: <b>SDateTimeArray</b>
+
 PT_MV_SYSTIME
 
 
 
 #### MVbin
 
-<b>Type: <b><a href="/previous-versions/office/developer/office-2007/cc815398(v=office.12)">SBinaryArray</a></b>
-</b>
+Type: <b><a href="/previous-versions/office/developer/office-2007/cc815398(v=office.12)">SBinaryArray</a></b>
+
 PT_MV_BINARY
 
 
 
 #### MVszA
 
-<b>Type: <b>SLPSTRArray</b>
-</b>
+Type: <b>SLPSTRArray</b>
+
 PT_MV_STRING8
 
 
 
 #### MVszW
 
-<b>Type: <b>SWStringArray</b>
-</b>
+Type: <b>SWStringArray</b>
+
 PT_MV_UNICODE
 
 
 
 #### MVguid
 
-<b>Type: <b>SGuidArray</b>
-</b>
+Type: <b>SGuidArray</b>
+
 PT_MV_CLSID
 
 
 
 #### MVli
 
-<b>Type: <b>SLargeIntegerArray</b>
-</b>
+Type: <b>SLargeIntegerArray</b>
+
 PT_MV_I8
 
 
 
 #### err
 
-<b>Type: <b>SCODE</b>
-</b>
+Type: <b>SCODE</b>
+
 PT_ERROR
 
 
 
 #### x
 
-<b>Type: <b>LONG</b>
-</b>
+Type: <b>LONG</b>
+
 PT_NULL, PT_OBJECT (no usable value)
 
 ### -field _PV

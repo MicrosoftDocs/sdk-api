@@ -69,7 +69,7 @@ There are a number of components, such as Shell extension handlers, that are imp
 
 <div class="alert"><b>Note</b>  If <b>GetProcessReference</b> is successful, the component must release the host's reference when it is no longer needed. Otherwise, all resources associated with the process will remain in memory. The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointed to by *<i>punk</i> can only be used to release this reference. Components cannot use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">(*punk)->QueryInterface</a> to request other interface pointers.</div>
 <div> </div>
-<b>GetProcessReference</b> succeeds only if it is called from from an application which had previously called <a href="/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a> to set a process reference.
+<b>GetProcessReference</b> succeeds only if it is called from an application which had previously called <a href="/windows/desktop/api/shlwapi/nf-shlwapi-setprocessreference">SetProcessReference</a> to set a process reference.
 
 ## -see-also
 

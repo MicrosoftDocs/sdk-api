@@ -6,7 +6,7 @@ helpviewer_keywords: ["TVGN_CARET","TVGN_DROPHILITE","TVGN_FIRSTVISIBLE","TreeVi
 old-location: controls\TreeView_Select.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_select.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TVGN_CARET, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TreeView_Select, TreeView_Select macro [Windows Controls], _win32_TreeView_Select, _win32_TreeView_Select_cpp, commctrl/TreeView_Select, controls.TreeView_Select, controls._win32_TreeView_Select
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TreeView_Select macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_Select(
+   HWND      hwnd,
+   HTREEITEM hitem,
+   UINT      code
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

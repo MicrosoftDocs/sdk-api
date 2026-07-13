@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymMatchString
 title: SymMatchString function (dbghelp.h)
-description: Compares the specified string to the specified wildcard expression.
+description: The SymMatchString function (dbghelp.h) compares the specified string to the specified wildcard expression.
 helpviewer_keywords: ["SymMatchString","SymMatchString function","SymMatchStringW","base.symmatchstring","dbghelp/SymMatchString","dbghelp/SymMatchStringW"]
 old-location: base\symmatchstring.htm
 tech.root: Debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symmatchstring, dbghelp/SymMatchString, dbghelp/SymMatchStringW
 req.header: dbghelp.h
 req.include-header: 

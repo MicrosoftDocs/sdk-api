@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetMinPacketSize","GetMinPacketSize method [windows Media
 old-location: wmformat\iwmpacketsize2_getminpacketsize.htm
 tech.root: wmformat
 ms.assetid: 2b15f5b9-b7c1-4427-81d9-bbcd0bb0ce45
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetMinPacketSize, GetMinPacketSize method [windows Media Format], GetMinPacketSize method [windows Media Format],IWMPacketSize2 interface, IWMPacketSize2 interface [windows Media Format],GetMinPacketSize method, IWMPacketSize2.GetMinPacketSize, IWMPacketSize2::GetMinPacketSize, IWMPacketSize2GetMinPacketSize, wmformat.iwmpacketsize2_getminpacketsize, wmsdkidl/IWMPacketSize2::GetMinPacketSize
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetMinPacketSize</b> method retrieves the minimum <a href="/windows/desktop/wmformat/wmformat-glossary">packet</a> size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
 

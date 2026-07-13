@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_Recorder
 title: IDiscFormat2Data::put_Recorder (imapi2.h)
-description: Sets the recording device to use for the write operation.
+description: Sets the recording device to use for the write operation. (IDiscFormat2Data.put_Recorder)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_Recorder method","IDiscFormat2Data.put_Recorder","IDiscFormat2Data::put_Recorder","imapi.idiscformat2data_put_recorder","imapi2/IDiscFormat2Data::put_Recorder","put_Recorder","put_Recorder method [IMAPI]","put_Recorder method [IMAPI]","IDiscFormat2Data interface"]
 old-location: imapi\idiscformat2data_put_recorder.htm
 tech.root: imapi

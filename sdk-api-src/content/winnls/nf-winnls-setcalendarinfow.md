@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.SetCalendarInfoW
 title: SetCalendarInfoW function (winnls.h)
-description: Sets an item of locale information for a calendar. For more information, see Date and Calendar.
-helpviewer_keywords: ["SetCalendarInfo","SetCalendarInfo function [Internationalization for Windows Applications]","SetCalendarInfoA","SetCalendarInfoW","_win32_SetCalendarInfo","intl.setcalendarinfo","winnls/SetCalendarInfo","winnls/SetCalendarInfoA","winnls/SetCalendarInfoW"]
+description: Sets an item of locale information for a calendar. For more information, see Date and Calendar. (Unicode)
+helpviewer_keywords: ["SetCalendarInfo", "SetCalendarInfo function [Internationalization for Windows Applications]", "SetCalendarInfoW", "_win32_SetCalendarInfo", "intl.setcalendarinfo", "winnls/SetCalendarInfo", "winnls/SetCalendarInfoW"]
 old-location: intl\setcalendarinfo.htm
 tech.root: Intl
 ms.assetid: 3599f68f-5b7c-4bf9-9c42-452047c0731f
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -137,7 +139,7 @@ CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not 
 
 
 > [!NOTE]
-> The winnls.h header defines SetCalendarInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines SetCalendarInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

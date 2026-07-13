@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetCredentialsW
 title: RasSetCredentialsW function (ras.h)
-description: Sets the user credentials associated with a specified RAS phone-book entry.
-helpviewer_keywords: ["RasSetCredentials","RasSetCredentials function [RAS]","RasSetCredentialsA","RasSetCredentialsW","_ras_rassetcredentials","ras/RasSetCredentials","ras/RasSetCredentialsA","ras/RasSetCredentialsW","rras.rassetcredentials"]
+description: Sets the user credentials associated with a specified RAS phone-book entry. (Unicode)
+helpviewer_keywords: ["RasSetCredentials", "RasSetCredentials function [RAS]", "RasSetCredentialsW", "_ras_rassetcredentials", "ras/RasSetCredentials", "ras/RasSetCredentialsW", "rras.rassetcredentials"]
 old-location: rras\rassetcredentials.htm
 tech.root: RRAS
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
@@ -203,7 +203,7 @@ To set a pre-shared key, use the <b>RASCM_PreSharedKey</b> flag in the
 
 
 > [!NOTE]
-> The ras.h header defines RasSetCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasSetCredentials as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.PreFastRecovery
 title: IVssBackupComponentsEx2::PreFastRecovery (vsbackup.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IVssBackupComponentsEx2.PreFastRecovery)
 helpviewer_keywords: ["IVssBackupComponentsEx2 interface","PreFastRecovery method","IVssBackupComponentsEx2.PreFastRecovery","IVssBackupComponentsEx2::PreFastRecovery","PreFastRecovery","PreFastRecovery method","PreFastRecovery method","IVssBackupComponentsEx2 interface","base.ivssbackupcomponentsex2_prefastrecovery","vsbackup/IVssBackupComponentsEx2::PreFastRecovery"]
 old-location: base\ivssbackupcomponentsex2_prefastrecovery.htm
 tech.root: base

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Name
 title: IFsrmFileManagementJob::put_Name (fsrmreports.h)
-description: The name of the file management job.
+description: The name of the file management job. (Put)
 helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","Name property","IFsrmFileManagementJob.Name","IFsrmFileManagementJob.put_Name","IFsrmFileManagementJob::Name","IFsrmFileManagementJob::get_Name","IFsrmFileManagementJob::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_name","fsrm.ifsrmfilemanagementjob_name","fsrmreports/IFsrmFileManagementJob::Name","fsrmreports/IFsrmFileManagementJob::get_Name","fsrmreports/IFsrmFileManagementJob::put_Name","put_Name"]
 old-location: fsrm\ifsrmfilemanagementjob_name.htm
 tech.root: fsrm

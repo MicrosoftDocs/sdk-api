@@ -1,8 +1,8 @@
 ---
 UID: NF:msacm.acmFilterChooseA
 title: acmFilterChooseA function (msacm.h)
-description: The acmFilterChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter.
-helpviewer_keywords: ["_win32_acmFilterChoose","acmFilterChoose","acmFilterChoose function [Windows Multimedia]","acmFilterChooseA","acmFilterChooseW","msacm/acmFilterChoose","msacm/acmFilterChooseA","msacm/acmFilterChooseW","multimedia.acmfilterchoose"]
+description: The acmFilterChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter. (acmFilterChooseA)
+helpviewer_keywords: ["acmFilterChooseA", "msacm/acmFilterChooseA"]
 old-location: multimedia\acmfilterchoose.htm
 tech.root: Multimedia
 ms.assetid: 9d8f659f-46f7-4399-a538-24c887c0fbee
@@ -151,4 +151,4 @@ A suitable driver is not available to provide valid filter selections.
 ## -remarks
 
 > [!NOTE]
-> The msacm.h header defines ACMFILTERCHOOSE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMFILTERCHOOSE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

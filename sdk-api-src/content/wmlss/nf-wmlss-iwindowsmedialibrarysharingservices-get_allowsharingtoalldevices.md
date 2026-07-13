@@ -11,8 +11,8 @@ ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Librar
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Library Sharing Services](/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). Media Casting has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use Media Casting instead of #FEATURENAMENOLINK#, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>get_allowSharingToAllDevices</b> method retrieves a value that indicates whether the current user's media library is shared with all devices on the home network.
 
 ## -parameters
 
 ### -param sharingEnabled [out]
 
-Pointer to a <b>VARIANT_BOOL</b> that receives <b>VARIANT_TRUE</b> if the media libray is shared with all devices and <b>VARIANT_FALSE</b> if the media library is not shared with at least one device.
+Pointer to a <b>VARIANT_BOOL</b> that receives <b>VARIANT_TRUE</b> if the media library is shared with all devices and <b>VARIANT_FALSE</b> if the media library is not shared with at least one device.
 
 ## -returns
 

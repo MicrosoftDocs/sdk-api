@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateInstaller2.put_ForceQuiet
 title: IUpdateInstaller2::put_ForceQuiet (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether Windows Installer is forced to install the updates without user interaction.
+description: Gets and sets a Boolean value that indicates whether Windows Installer is forced to install the updates without user interaction. (Put)
 helpviewer_keywords: ["ForceQuiet property [Windows Update Agent]","ForceQuiet property [Windows Update Agent]","IUpdateInstaller2 interface","IUpdateInstaller2 interface [Windows Update Agent]","ForceQuiet property","IUpdateInstaller2.ForceQuiet","IUpdateInstaller2.put_ForceQuiet","IUpdateInstaller2::ForceQuiet","IUpdateInstaller2::get_ForceQuiet","IUpdateInstaller2::put_ForceQuiet","put_ForceQuiet","wua.iupdateinstaller2_forcequiet","wuapi/IUpdateInstaller2::ForceQuiet","wuapi/IUpdateInstaller2::get_ForceQuiet","wuapi/IUpdateInstaller2::put_ForceQuiet"]
 old-location: wua\iupdateinstaller2_forcequiet.htm
 tech.root: wua

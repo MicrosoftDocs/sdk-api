@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_IndexToId","PropSheet_IndexToId macro [Windows 
 old-location: controls\PropSheet_IndexToId.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextoid.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_IndexToId, PropSheet_IndexToId macro [Windows Controls], _win32_PropSheet_IndexToId, _win32_PropSheet_IndexToId_cpp, controls.PropSheet_IndexToId, controls._win32_PropSheet_IndexToId, prsht/PropSheet_IndexToId
 req.header: prsht.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # PropSheet_IndexToId macro
 
+## -syntax
+
+```cpp
+int PropSheet_IndexToId(
+   HWND hDlg,
+   int  i
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the resource ID of the property sheet page specified by <i>i</i> if successful. Otherwise, it returns zero.
 
 ## -description
 

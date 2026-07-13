@@ -52,7 +52,7 @@ api_name:
 
 The <b>Close</b> method releases the connection to the service.
 
-## -parameters
+
 
 ## -returns
 

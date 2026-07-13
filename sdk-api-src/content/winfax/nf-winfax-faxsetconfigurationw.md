@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxSetConfigurationW
 title: FaxSetConfigurationW function (winfax.h)
-description: A fax client application calls the FaxSetConfiguration function to change the global configuration settings for the fax server to which the client has connected.
-helpviewer_keywords: ["FaxSetConfiguration","FaxSetConfiguration function [Fax Service]","FaxSetConfigurationA","FaxSetConfigurationW","_mfax_faxsetconfiguration","fax._mfax_faxsetconfiguration","winfax/FaxSetConfiguration","winfax/FaxSetConfigurationA","winfax/FaxSetConfigurationW"]
+description: A fax client application calls the FaxSetConfiguration function to change the global configuration settings for the fax server to which the client has connected. (Unicode)
+helpviewer_keywords: ["FaxSetConfiguration", "FaxSetConfiguration function [Fax Service]", "FaxSetConfigurationW", "_mfax_faxsetconfiguration", "fax._mfax_faxsetconfiguration", "winfax/FaxSetConfiguration", "winfax/FaxSetConfigurationW"]
 old-location: fax\_mfax_faxsetconfiguration.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8iwe.htm
@@ -126,7 +126,7 @@ A fax administration application typically calls the <b>FaxSetConfiguration</b> 
 
 
 > [!NOTE]
-> The winfax.h header defines FaxSetConfiguration as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxSetConfiguration as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

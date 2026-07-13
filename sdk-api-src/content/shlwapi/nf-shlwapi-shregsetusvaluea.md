@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegSetUSValueA
 title: SHRegSetUSValueA function (shlwapi.h)
-description: Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegSetUSValue","SHRegSetUSValue function [Windows Shell]","SHRegSetUSValueA","SHRegSetUSValueW","_win32_SHRegSetUSValue","shell.SHRegSetUSValue","shlwapi/SHRegSetUSValue","shlwapi/SHRegSetUSValueA","shlwapi/SHRegSetUSValueW"]
+description: Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
+helpviewer_keywords: ["SHREGSET_DEFAULT", "SHREGSET_FORCE_HKCU", "SHREGSET_FORCE_HKLM", "SHREGSET_HKCU", "SHREGSET_HKLM", "SHRegSetUSValueA", "shlwapi/SHRegSetUSValueA"]
 old-location: shell\SHRegSetUSValue.htm
 tech.root: shell
 ms.assetid: 96559f8c-8527-4924-928e-f27049069407
@@ -140,4 +140,4 @@ This function opens the key each time it is used. If your code involves setting 
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegSetUSValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegSetUSValue as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

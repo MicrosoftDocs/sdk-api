@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_STROKE_STYLE_PROPERTIES
 title: D2D1_STROKE_STYLE_PROPERTIES (d2d1.h)
-description: Describes the stroke that outlines a shape.
+description: Describes the stroke that outlines a shape. (D2D1_STROKE_STYLE_PROPERTIES)
 helpviewer_keywords: ["D2D1_STROKE_STYLE_PROPERTIES","D2D1_STROKE_STYLE_PROPERTIES structure [Direct2D]","d2d1/D2D1_STROKE_STYLE_PROPERTIES","direct2d.D2D1_STROKE_STYLE_PROPERTIES"]
 old-location: direct2d\D2D1_STROKE_STYLE_PROPERTIES.htm
 tech.root: Direct2D

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetItemData","ListBox_GetItemData macro [Windows 
 old-location: controls\ListBox_GetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetItemData, ListBox_GetItemData macro [Windows Controls], _win32_ListBox_GetItemData, _win32_ListBox_GetItemData_cpp, controls.ListBox_GetItemData, controls._win32_ListBox_GetItemData, windowsx/ListBox_GetItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListBox_GetItemData macro
+
+## -syntax
+
+```cpp
+LRESULT ListBox_GetItemData(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+The item data. For more information, see <b>LB_GETITEMDATA</b>.
 
 
 ## -description

@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupInstallFromInfSectionA
 title: SetupInstallFromInfSectionA function (setupapi.h)
-description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
-helpviewer_keywords: ["SetupInstallFromInfSection","SetupInstallFromInfSection function [Setup API]","SetupInstallFromInfSectionA","SetupInstallFromInfSectionW","_setupapi_setupinstallfrominfsection","setup.setupinstallfrominfsection","setupapi/SetupInstallFromInfSection","setupapi/SetupInstallFromInfSectionA","setupapi/SetupInstallFromInfSectionW"]
+description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section. (ANSI)
+helpviewer_keywords: ["SetupInstallFromInfSectionA", "setupapi/SetupInstallFromInfSectionA"]
 old-location: setup\setupinstallfrominfsection.htm
 tech.root: setup
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
-ms.date: 12/05/2018
+ms.date: 12/20/2024
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
 req.header: setupapi.h
 req.include-header: 
@@ -338,8 +338,8 @@ Value to be passed to the callback function when the file queue built by this ro
       committed via 
       <a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>. The 
       <i>Context</i> parameter is optional only if the <i>Flags</i> parameter 
-      does not include SPINST_FIlLES. This parameter must be specified if <i>Flags</i> includes 
-      SPINST_FIlLES.
+      does not include SPINST_FILES. This parameter must be specified if <i>Flags</i> includes 
+      SPINST_FILES.
 
 ### -param DeviceInfoSet
 
@@ -375,7 +375,9 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupInstallFromInfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupInstallFromInfSection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
+<b>SetupInstallFromInfSection</b> will log diagnostic information to the [SetupAPI application installation text log](/windows-hardware/drivers/install/setupapi-text-logs). This log file is generally off by default. It can be enabled by modifying the *General logging levels* part of the SetupAPI `LogLevel` value as described at [Setting SetupAPI Logging Levels](/windows-hardware/drivers/install/setting-setupapi-logging-levels). For performance reasons, you should only enable this log file when troubleshooting an issue. When the log file is enabled, you can find it at `%windir%\inf\setupapi.app.log`.
 
 ## -see-also
 

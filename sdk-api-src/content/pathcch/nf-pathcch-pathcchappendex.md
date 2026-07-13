@@ -183,7 +183,7 @@ The resulting string would exceed <b>PATHCCH_MAX_CCH</b>.
 </dl>
 </td>
 <td width="60%">
-The function could not allocate a buffer of the neccessary size.
+The function could not allocate a buffer of the necessary size.
 </td>
 </tr>
 </table>

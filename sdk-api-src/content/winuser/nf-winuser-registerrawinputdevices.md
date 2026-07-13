@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-rawinput-l1-2-0.dll
+ - ext-ms-win-rtcore-ntuser-rawinput-l1-1-1.dll
+ - ext-ms-win-ntuser-rawinput-l1-2-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
@@ -64,7 +67,7 @@ Registers the devices that supply the raw input data.
 
 Type: <b>PCRAWINPUTDEVICE</b>
 
-An array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures that represent the devices that supply the raw input.
+An array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures that represent the devices that supply the raw input. Pointer should be aligned on a **DWORD** (32-bit) boundary.
 
 ### -param uiNumDevices [in]
 
@@ -98,18 +101,10 @@ Only one window per raw input device class may be registered to receive raw inpu
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a>
-
-
 
 <a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
-
-
 <b>Reference</b>
-
-
 
 <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>

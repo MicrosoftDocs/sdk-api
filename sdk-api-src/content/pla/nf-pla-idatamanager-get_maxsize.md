@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataManager.get_MaxSize
 title: IDataManager::get_MaxSize (pla.h)
-description: Retrieves or sets the maximum disk space to be used by all data collectors in the set.
+description: Retrieves or sets the maximum disk space to be used by all data collectors in the set. (Get)
 helpviewer_keywords: ["IDataManager interface [PLA]","MaxSize property","IDataManager.MaxSize","IDataManager.get_MaxSize","IDataManager::MaxSize","IDataManager::get_MaxSize","IDataManager::put_MaxSize","MaxSize property [PLA]","MaxSize property [PLA]","IDataManager interface","base.idatamanager_maxsize","get_MaxSize","pla.idatamanager_maxsize","pla/IDataManager::MaxSize","pla/IDataManager::get_MaxSize","pla/IDataManager::put_MaxSize"]
 old-location: pla\idatamanager_maxsize.htm
 tech.root: PLA

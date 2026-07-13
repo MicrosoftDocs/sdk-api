@@ -9,7 +9,7 @@ ms.assetid: b9b74cf2-bf13-4ceb-9242-bc6a884ac6f1
 ms.date: 12/05/2018
 ms.keywords: ClosePrivateNamespace, ClosePrivateNamespace function, base.closeprivatenamespace, namespaceapi/ClosePrivateNamespace, winbase/ClosePrivateNamespace
 req.header: namespaceapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

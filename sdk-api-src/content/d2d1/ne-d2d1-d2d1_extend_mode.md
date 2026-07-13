@@ -54,19 +54,19 @@ Specifies how a brush paints areas outside of its normal content area.
 
 ## -enum-fields
 
-### -field D2D1_EXTEND_MODE_CLAMP
+### -field D2D1_EXTEND_MODE_CLAMP:0
 
 Repeat the edge pixels of the brush's content for all regions outside the normal content area.
 
-### -field D2D1_EXTEND_MODE_WRAP
+### -field D2D1_EXTEND_MODE_WRAP:1
 
 Repeat the brush's content.
 
-### -field D2D1_EXTEND_MODE_MIRROR
+### -field D2D1_EXTEND_MODE_MIRROR:2
 
  The same as D2D1_EXTEND_MODE_WRAP, except that alternate tiles of the brush's content are flipped. (The brush's normal content is drawn untransformed.)
 
-### -field D2D1_EXTEND_MODE_FORCE_DWORD
+### -field D2D1_EXTEND_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates when  <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a> processing has completed.
 
-## -parameters
+
 
 ## -returns
 

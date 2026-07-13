@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.Transform
 title: BoundingBox::Transform
-description: Transforms the BoundingBox.
+description: Transforms the BoundingBox. (BoundingBox::Transform)
 tech.root: dxmath
 helpviewer_keywords: ["BoundingBox::Transform"]
 ms.date: 04/22/2019
@@ -20,8 +20,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

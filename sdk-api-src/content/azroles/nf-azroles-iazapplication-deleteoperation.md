@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplication object [Security]","DeleteOperation method"
 old-location: security\iazapplication_deleteoperation.htm
 tech.root: security
 ms.assetid: 2541e01d-20a4-424f-b8e0-5d6dedfbd7fe
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplication object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzApplication object, DeleteOperation method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteOperation method, IAzApplication.DeleteOperation, IAzApplication::DeleteOperation, azroles/IAzApplication::DeleteOperation, security.iazapplication_deleteoperation
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,30 @@ api_name:
 
 # IAzApplication::DeleteOperation
 
-
 ## -description
 
-The <b>DeleteOperation</b> method removes the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name from the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
+The **DeleteOperation** method removes the [IAzOperation](nn-azroles-iazoperation.md) object with the specified name from the [IAzApplication](nn-azroles-iazapplication.md) object.
 
 ## -parameters
 
 ### -param bstrOperationName [in]
 
-Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object to delete.
+Name of the [IAzApplication](nn-azroles-iazapplication.md) object to delete.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-If there are any <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> references to an <b>IAzOperation</b> object that has been deleted from the cache, the <b>IAzOperation</b> object can no longer be used. In C++, you must release references to deleted <b>IAzOperation</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If there are any [IAzApplication](nn-azroles-iazapplication.md) references to an **IAzOperation** object that has been deleted from the cache, the **IAzOperation** object can no longer be used. In C++, you must release references to deleted **IAzOperation** objects by calling the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method. In C# and Visual Basic, references to deleted objects are automatically released.
+
+## -see-also
+
+[IAzApplication](nn-azroles-iazapplication.md)
+
+[IAzOperation](nn-azroles-iazoperation.md)

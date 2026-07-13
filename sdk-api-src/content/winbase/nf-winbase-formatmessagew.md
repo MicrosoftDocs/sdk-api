@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.FormatMessageW
 title: FormatMessageW function (winbase.h)
-description: Formats a message string.
-helpviewer_keywords: ["FORMAT_MESSAGE_ALLOCATE_BUFFER","FORMAT_MESSAGE_ARGUMENT_ARRAY","FORMAT_MESSAGE_FROM_HMODULE","FORMAT_MESSAGE_FROM_STRING","FORMAT_MESSAGE_FROM_SYSTEM","FORMAT_MESSAGE_IGNORE_INSERTS","FORMAT_MESSAGE_MAX_WIDTH_MASK","FormatMessage","FormatMessage function","FormatMessageA","FormatMessageW","_win32_formatmessage","base.formatmessage","winbase/FormatMessage","winbase/FormatMessageA","winbase/FormatMessageW"]
+description: The FormatMessageW (Unicode) function (winbase.h) formats a message string.
+helpviewer_keywords: ["FORMAT_MESSAGE_ALLOCATE_BUFFER", "FORMAT_MESSAGE_ARGUMENT_ARRAY", "FORMAT_MESSAGE_FROM_HMODULE", "FORMAT_MESSAGE_FROM_STRING", "FORMAT_MESSAGE_FROM_SYSTEM", "FORMAT_MESSAGE_IGNORE_INSERTS", "FORMAT_MESSAGE_MAX_WIDTH_MASK", "FormatMessage", "FormatMessage function", "FormatMessageW", "_win32_formatmessage", "base.formatmessage", "winbase/FormatMessage", "winbase/FormatMessageW"]
 old-location: base\formatmessage.htm
 tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORMAT_MESSAGE_FROM_HMODULE, FORMAT_MESSAGE_FROM_STRING, FORMAT_MESSAGE_FROM_SYSTEM, FORMAT_MESSAGE_IGNORE_INSERTS, FORMAT_MESSAGE_MAX_WIDTH_MASK, FormatMessage, FormatMessage function, FormatMessageA, FormatMessageW, _win32_formatmessage, base.formatmessage, winbase/FormatMessage, winbase/FormatMessageA, winbase/FormatMessageW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-2-0.dll
  - KernelBase.dll
@@ -585,7 +587,7 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
 
 
 > [!NOTE]
-> The winbase.h header defines FormatMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines FormatMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

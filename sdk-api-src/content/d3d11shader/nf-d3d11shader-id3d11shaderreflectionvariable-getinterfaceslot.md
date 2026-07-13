@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionVariable.GetInterfaceSlot
 title: ID3D11ShaderReflectionVariable::GetInterfaceSlot (d3d11shader.h)
-description: Gets the corresponding interface slot for a variable that represents an interface pointer.
+description: Gets the corresponding interface slot for a variable that represents an interface pointer. (ID3D11ShaderReflectionVariable.GetInterfaceSlot)
 helpviewer_keywords: ["GetInterfaceSlot","GetInterfaceSlot method [Direct3D 11]","GetInterfaceSlot method [Direct3D 11]","ID3D11ShaderReflectionVariable interface","ID3D11ShaderReflectionVariable interface [Direct3D 11]","GetInterfaceSlot method","ID3D11ShaderReflectionVariable.GetInterfaceSlot","ID3D11ShaderReflectionVariable::GetInterfaceSlot","b13015c6-721f-9155-57ca-42f52d0e5885","d3d11shader/ID3D11ShaderReflectionVariable::GetInterfaceSlot","direct3d11.id3d11shaderreflectionvariable_getinterfaceslot"]
 old-location: direct3d11\id3d11shaderreflectionvariable_getinterfaceslot.htm
 tech.root: direct3d11
@@ -68,7 +68,7 @@ Returns the index of the interface in the interface array.
 
 ## -remarks
 
-GetInterfaceSlot gets the corresponding slot in an dynamic linkage array for an interface instance.  The returned slot number is used to set an interface instance to a particular class instance.  See the HLSL <a href="/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking-class">Interfaces and Classes</a> overview for additional information.
+GetInterfaceSlot gets the corresponding slot in a dynamic linkage array for an interface instance.  The returned slot number is used to set an interface instance to a particular class instance.  See the HLSL <a href="/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking-class">Interfaces and Classes</a> overview for additional information.
 
 This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 

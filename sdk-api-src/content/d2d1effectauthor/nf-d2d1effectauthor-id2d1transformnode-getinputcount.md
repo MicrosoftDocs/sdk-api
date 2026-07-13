@@ -53,7 +53,7 @@ api_name:
 
 Gets the number of inputs to the transform node.
 
-## -parameters
+
 
 ## -returns
 

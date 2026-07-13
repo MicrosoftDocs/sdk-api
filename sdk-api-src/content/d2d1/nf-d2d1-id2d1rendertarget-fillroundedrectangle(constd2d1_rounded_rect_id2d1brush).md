@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillRoundedRectangle(constD2D1_ROUNDED_RECT,ID2D1Brush)
 title: ID2D1RenderTarget::FillRoundedRectangle (d2d1.h)
-description: Paints the interior of the specified rounded rectangle.
+description: Paints the interior of the specified rounded rectangle. (overload 2/2)
 helpviewer_keywords: ["FillRoundedRectangle","FillRoundedRectangle methods [Direct2D]","ID2D1RenderTarget.FillRoundedRectangle","ID2D1RenderTarget::FillRoundedRectangle","d2d1/FillRoundedRectangle","direct2d.id2d1rendertarget_fillroundedrectangle"]
 old-location: direct2d\id2d1rendertarget_fillroundedrectangle.htm
 tech.root: Direct2D

@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 title: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-description: Reserved for future use.
+description: Reserved for future use. (STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR)
 helpviewer_keywords: ["*PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR","PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR","PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Files]","STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR","STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Files]","fs.storage_device_attributes_descriptor","winioctl/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR","winioctl/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"]
 old-location: fs\storage_device_attributes_descriptor.htm
 tech.root: fs

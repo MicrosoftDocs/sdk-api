@@ -96,7 +96,7 @@ A mandatory pointer parameter is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b> WINBIO_E_BAD_CAPTURE</b></b></dt>
+<dt><b> WINBIO_E_BAD_CAPTURE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ There is no enrollment in progress on this biometric unit.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_I_MORE_DATA</b></b></dt>
+<dt><b>WINBIO_I_MORE_DATA</b></dt>
 </dl>
 </td>
 <td width="60%">

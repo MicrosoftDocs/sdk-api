@@ -6,7 +6,7 @@ helpviewer_keywords: ["LVIR_BOUNDS","LVIR_ICON","LVIR_LABEL","ListView_GetItemIn
 old-location: controls\ListView_GetItemIndexRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemindexrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetItemIndexRect, ListView_GetItemIndexRect macro [Windows Controls], _shell_ListView_GetItemIndexRect, _shell_ListView_GetItemIndexRect_cpp, commctrl/ListView_GetItemIndexRect, controls.ListView_GetItemIndexRect, controls._shell_ListView_GetItemIndexRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,24 @@ api_name:
 ---
 
 # ListView_GetItemIndexRect macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetItemIndexRect(
+  [in]      HWND        hwnd,
+  [in]      LVITEMINDEX *plvii,
+  [in]      LONG        iSubItem,
+  [in]      LONG        code,
+  [in, out] LPRECT      prc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

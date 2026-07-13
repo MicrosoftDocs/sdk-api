@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_get_valuesW
 title: ldap_get_valuesW function (winldap.h)
-description: The ldap_get_values function retrieves the list of values of a given attribute.
-helpviewer_keywords: ["_ldap_ldap_get_values","ldap.ldap__get__values","ldap.ldap_get_values","ldap_get_values","ldap_get_values function [LDAP]","ldap_get_valuesA","ldap_get_valuesW","winldap/ldap_get_values","winldap/ldap_get_valuesA","winldap/ldap_get_valuesW"]
+description: The ldap_get_valuesW (Unicode) function (winldap.h) retrieves the list of values of a given attribute.  
+helpviewer_keywords: ["_ldap_ldap_get_values", "ldap.ldap__get__values", "ldap.ldap_get_values", "ldap_get_values", "ldap_get_values function [LDAP]", "ldap_get_valuesW", "winldap/ldap_get_values", "winldap/ldap_get_valuesW"]
 old-location: ldap\ldap_get_values.htm
 tech.root: ldap
 ms.assetid: a633afa1-4a37-4894-ae94-5225d99077fd
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_get_values, ldap.ldap__get__values, ldap.ldap_get_values, ldap_get_values, ldap_get_values function [LDAP], ldap_get_valuesA, ldap_get_valuesW, winldap/ldap_get_values, winldap/ldap_get_valuesA, winldap/ldap_get_valuesW
 req.header: winldap.h
 req.include-header: 
@@ -96,7 +96,7 @@ Certain LDAP servers place limits on the number of attribute string values that 
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_get_values as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_get_values as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

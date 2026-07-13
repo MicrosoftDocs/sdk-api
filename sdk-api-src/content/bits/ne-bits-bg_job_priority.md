@@ -53,7 +53,7 @@ Defines constants that specify the priority level of a job.
 
 ## -enum-fields
 
-### -field BG_JOB_PRIORITY_FOREGROUND
+### -field BG_JOB_PRIORITY_FOREGROUND:0
 
 Transfers the job in the foreground. Foreground transfers compete for network bandwidth with other applications, which can impede the user's network experience. This is the highest priority level.
 

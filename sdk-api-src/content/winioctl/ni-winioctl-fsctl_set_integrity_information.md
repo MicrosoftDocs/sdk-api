@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_SET_INTEGRITY_INFORMATION
 title: FSCTL_SET_INTEGRITY_INFORMATION
-description: Retrieves the integrity status of a file or directory on a ReFS volume.
+description: Retrieves the integrity status of a file or directory on a ReFS volume. (FSCTL_SET_INTEGRITY_INFORMATION)
 helpviewer_keywords: ["FSCTL_SET_INTEGRITY_INFORMATION","FSCTL_SET_INTEGRITY_INFORMATION control","FSCTL_SET_INTEGRITY_INFORMATION control code [Files]","fs.fsctl_set_integrity_information","winioctl/FSCTL_SET_INTEGRITY_INFORMATION"]
 old-location: fs\fsctl_set_integrity_information.htm
 tech.root: fs
@@ -89,8 +89,6 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
-
-The integrity status can only be changed for empty files.
 
 If the [ReplaceFile](../winbase/nf-winbase-replacefilea.md) is used to replace a file with integrity set, and the *lpBackupFileName* parameter points to a location that does not have integrity set, the integrity status of the original file will not be persisted.
 

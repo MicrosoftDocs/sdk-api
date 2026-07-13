@@ -56,7 +56,7 @@ Specifies a type of credential field. Used by <a href="/windows/win32/api/creden
 
 ## -enum-fields
 
-### -field CPFT_INVALID
+### -field CPFT_INVALID:0
 
 The value is invalid. This is a safe initialization value, as fields do not default to any given type.
 

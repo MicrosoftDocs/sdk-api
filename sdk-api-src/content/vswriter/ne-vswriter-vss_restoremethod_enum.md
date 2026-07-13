@@ -60,7 +60,7 @@ The restore method is writer-wide and is also referred to as the original restor
 
 ## -enum-fields
 
-### -field VSS_RME_UNDEFINED
+### -field VSS_RME_UNDEFINED:0
 
 No restore method is defined. 
       

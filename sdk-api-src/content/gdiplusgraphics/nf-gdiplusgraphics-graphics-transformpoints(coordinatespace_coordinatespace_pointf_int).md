@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.TransformPoints(CoordinateSpace,CoordinateSpace,PointF,INT)
 title: Graphics::TransformPoints (gdiplusgraphics.h)
-description: The Graphics::TransformPoints method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this Graphics object.
+description: The Graphics::TransformPoints method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this Graphics object. (overload 2/2)
 helpviewer_keywords: ["Graphics class [GDI+]","TransformPoints method","Graphics.TransformPoints","Graphics::TransformPoints","TransformPoints","TransformPoints method [GDI+]","TransformPoints method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_","gdiplus._gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_.htm
 tech.root: gdiplus

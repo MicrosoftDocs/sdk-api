@@ -6,7 +6,7 @@ helpviewer_keywords: ["IKsTopologyInfo interface [DirectShow]","get_NumConnectio
 old-location: dshow\ikstopologyinfo_get_numconnections.htm
 tech.root: dshow
 ms.assetid: 55f52b02-2768-4c59-9275-96e238ccf3f0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumConnections method, IKsTopologyInfo.get_NumConnections, IKsTopologyInfo::get_NumConnections, IKsTopologyInfoget_NumConnections, dshow.ikstopologyinfo_get_numconnections, get_NumConnections, get_NumConnections method [DirectShow], get_NumConnections method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumConnections
 req.header: vidcap.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>get_NumConnections</code> method returns the number of node connections within the filter.
 
 ## -parameters
@@ -90,4 +92,4 @@ To get information about the connections, call the <a href="/windows/desktop/api
 
 
 
-<a href="/windows/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
+<a href="/previous-versions/ms785846(v=vs.85)">IKsTopologyInfo Interface</a>

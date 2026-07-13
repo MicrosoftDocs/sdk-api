@@ -1,12 +1,12 @@
 ---
 UID: NS:wabdefs._ADRENTRY
 title: ADRENTRY (wabdefs.h)
-description: Do not use. Describes zero or more properties belonging to one or more recipients.
+description: ADRENTRY (wabdefs.h) - do not use. Describes zero or more properties belonging to one or more recipients.
 helpviewer_keywords: ["*LPADRENTRY","ADRENTRY","ADRENTRY structure [Windows Address Book]","Gender","Gender structure [Windows Address Book]","_wab_ADRENTRY","wab._wab_ADRENTRY","wabdefs/ADRENTRY"]
 old-location: wab\_wab_ADRENTRY.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrentry.htm
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY'
 req.header: wabdefs.h
 req.include-header: 

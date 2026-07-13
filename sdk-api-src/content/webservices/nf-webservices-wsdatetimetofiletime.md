@@ -102,5 +102,5 @@ The input data was not in the expected format or did not have the expected value
 
 ## -remarks
 
-A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
+A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
       (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

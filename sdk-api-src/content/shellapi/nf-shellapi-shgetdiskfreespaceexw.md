@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.SHGetDiskFreeSpaceExW
 title: SHGetDiskFreeSpaceExW function (shellapi.h)
-description: Retrieves disk space information for a disk volume.
-helpviewer_keywords: ["SHGetDiskFreeSpace","SHGetDiskFreeSpaceEx","SHGetDiskFreeSpaceEx function [Windows Shell]","SHGetDiskFreeSpaceExA","SHGetDiskFreeSpaceExW","_shell_SHGetDiskFreeSpaceEx","shell.SHGetDiskFreeSpaceEx","shellapi/SHGetDiskFreeSpaceEx","shellapi/SHGetDiskFreeSpaceExA","shellapi/SHGetDiskFreeSpaceExW"]
+description: Retrieves disk space information for a disk volume. (Unicode)
+helpviewer_keywords: ["SHGetDiskFreeSpace", "SHGetDiskFreeSpaceEx", "SHGetDiskFreeSpaceEx function [Windows Shell]", "SHGetDiskFreeSpaceExW", "_shell_SHGetDiskFreeSpaceEx", "shell.SHGetDiskFreeSpaceEx", "shellapi/SHGetDiskFreeSpaceEx", "shellapi/SHGetDiskFreeSpaceExW"]
 old-location: shell\SHGetDiskFreeSpaceEx.htm
 tech.root: shell
 ms.assetid: f8adbfa8-124a-4934-b5dc-16e261c15a8b
@@ -97,7 +97,7 @@ This function calls the <a href="/windows/desktop/api/fileapi/nf-fileapi-getdisk
 
 
 > [!NOTE]
-> The shellapi.h header defines SHGetDiskFreeSpaceEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHGetDiskFreeSpaceEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

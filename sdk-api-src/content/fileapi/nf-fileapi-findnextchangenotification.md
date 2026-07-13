@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -80,7 +83,7 @@ After the
 <a href="/windows/desktop/Sync/wait-functions">wait functions</a>.
 
 If a change occurs after a call to 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>but before a call to 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> but before a call to 
 <b>FindNextChangeNotification</b>, the operating system records the change. When 
 <b>FindNextChangeNotification</b> is executed, the recorded change immediately satisfies a wait for the change notification.
 

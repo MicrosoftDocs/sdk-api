@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_AuthenticationType
 title: ISearchRoot::get_AuthenticationType (searchapi.h)
-description: Retrieves the type of authentication needed to access the URLs under this this search root.
+description: Retrieves the type of authentication needed to access the URLs under this search root.
 helpviewer_keywords: ["ISearchRoot interface [search]","get_AuthenticationType method","ISearchRoot.get_AuthenticationType","ISearchRoot::get_AuthenticationType","_search_ISearchRoot_get_AuthenticationType","get_AuthenticationType","get_AuthenticationType method [search]","get_AuthenticationType method [search]","ISearchRoot interface","search._search_ISearchRoot_get_AuthenticationType","searchapi/ISearchRoot::get_AuthenticationType"]
 old-location: search\_search_ISearchRoot_get_AuthenticationType.htm
 tech.root: search
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the type of authentication needed to access the URLs under this this search root.
+Retrieves the type of authentication needed to access the URLs under this search root.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A pointer to a value from the <a href="/windows/desktop/api/searchapi/ne-searcha
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

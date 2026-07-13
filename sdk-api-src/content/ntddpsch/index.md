@@ -4,7 +4,8 @@ title: Ntddpsch.h header
 ms.assetid: 3fd316fd-6cd6-36da-9bff-dbea56a85fe8
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: qos
 f1_keywords:
  - ntddpsch

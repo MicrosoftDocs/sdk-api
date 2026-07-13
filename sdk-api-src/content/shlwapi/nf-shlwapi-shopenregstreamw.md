@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHOpenRegStreamW
 title: SHOpenRegStreamW function (shlwapi.h)
-description: Deprecated.
-helpviewer_keywords: ["SHOpenRegStream","SHOpenRegStream function [Windows Shell]","SHOpenRegStreamA","SHOpenRegStreamW","STGM_READ","STGM_READWRITE","STGM_WRITE","_win32_SHOpenRegStream","shell.SHOpenRegStream","shlwapi/SHOpenRegStream","shlwapi/SHOpenRegStreamA","shlwapi/SHOpenRegStreamW"]
+description: Deprecated. (SHOpenRegStreamW)
+helpviewer_keywords: ["SHOpenRegStream", "SHOpenRegStream function [Windows Shell]", "SHOpenRegStreamW", "STGM_READ", "STGM_READWRITE", "STGM_WRITE", "_win32_SHOpenRegStream", "shell.SHOpenRegStream", "shlwapi/SHOpenRegStream", "shlwapi/SHOpenRegStreamW"]
 old-location: shell\SHOpenRegStream.htm
 tech.root: shell
 ms.assetid: 2f839b89-8584-4b4d-91e7-166b6e2b6892
@@ -139,4 +139,4 @@ The calling application is responsible for calling the <a href="/windows/desktop
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHOpenRegStream as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHOpenRegStream as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

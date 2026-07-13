@@ -86,7 +86,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>GetEntries</b> method.
+
 
 ## -see-also
 

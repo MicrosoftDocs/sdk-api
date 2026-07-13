@@ -52,7 +52,7 @@ api_name:
 
 The <b>IPropertySheetProvider::AddExtensionPages</b> method collects the pages from the extension snap-ins.
 
-## -parameters
+
 
 ## -returns
 

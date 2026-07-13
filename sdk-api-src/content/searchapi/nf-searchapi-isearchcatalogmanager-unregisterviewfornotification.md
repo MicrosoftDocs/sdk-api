@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.UnregisterViewForNotification
 title: ISearchCatalogManager::UnregisterViewForNotification (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchCatalogManager.UnregisterViewForNotification)
 helpviewer_keywords: ["ISearchCatalogManager interface [search]","UnregisterViewForNotification method","ISearchCatalogManager.UnregisterViewForNotification","ISearchCatalogManager::UnregisterViewForNotification","UnregisterViewForNotification","UnregisterViewForNotification method [search]","UnregisterViewForNotification method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_UnregisterViewForNotification","search._search_ISearchCatalogManager_UnregisterViewForNotification","searchapi/ISearchCatalogManager::UnregisterViewForNotification"]
 old-location: search\_search_ISearchCatalogManager_UnregisterViewForNotification.htm
 tech.root: search
@@ -62,5 +62,5 @@ Type: <b>DWORD</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

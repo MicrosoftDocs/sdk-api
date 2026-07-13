@@ -1,8 +1,8 @@
 ---
 UID: NF:secext.TranslateNameA
 title: TranslateNameA function (secext.h)
-description: Converts a directory service object name from one format to another.
-helpviewer_keywords: ["TranslateName","TranslateName function","TranslateNameA","TranslateNameW","_win32_translatename","base.translatename","secext/TranslateName","secext/TranslateNameA","secext/TranslateNameW"]
+description: Converts a directory service object name from one format to another. (ANSI)
+helpviewer_keywords: ["TranslateNameA", "secext/TranslateNameA"]
 old-location: base\translatename.htm
 tech.root: winprog
 ms.assetid: 4df25519-e7d6-46ea-b0e8-ba1f82e5f94f
@@ -102,7 +102,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 > [!NOTE]
-> The secext.h header defines TranslateName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The secext.h header defines TranslateName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

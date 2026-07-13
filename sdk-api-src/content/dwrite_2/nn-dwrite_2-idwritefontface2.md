@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_2.IDWriteFontFace2
 title: IDWriteFontFace2
-description: Contains font face type, appropriate file references, and face identification data.
+description: Contains font face type, appropriate file references, and face identification data. (IDWriteFontFace2)
 helpviewer_keywords: ["IDWriteFontFace2","IDWriteFontFace2 interface [Direct Write]","IDWriteFontFace2 interface [Direct Write]","described","IDWriteFontFace2","directwrite.idwritefontface2","dwrite_2/IDWriteFontFace2"]
 old-location: directwrite\idwritefontface2.htm
 tech.root: DirectWrite

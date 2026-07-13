@@ -1,7 +1,7 @@
 ---
 UID: NS:icm.XYZCOLOR
 title: XYZCOLOR
-description: TBD
+description: TBD (XYZCOLOR)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

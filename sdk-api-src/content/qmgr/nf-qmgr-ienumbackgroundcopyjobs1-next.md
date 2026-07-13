@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.Next
 title: IEnumBackgroundCopyJobs1::Next (qmgr.h)
-description: Use the Next method to retrieve the specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
+description: Use the Next method to retrieve the specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements. (IEnumBackgroundCopyJobs1.Next)
 helpviewer_keywords: ["IEnumBackgroundCopyJobs1 interface [BITS]","Next method","IEnumBackgroundCopyJobs1.Next","IEnumBackgroundCopyJobs1::Next","Next","Next method [BITS]","Next method [BITS]","IEnumBackgroundCopyJobs1 interface","bits.ienumbackgroundcopyjobs1_next","qmgr/IEnumBackgroundCopyJobs1::Next"]
 old-location: bits\ienumbackgroundcopyjobs1_next.htm
 tech.root: Bits
@@ -80,7 +80,7 @@ This method returns the following <b>HRESULT</b> values, as well as others.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

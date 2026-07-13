@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiFormatRecordA
 title: MsiFormatRecordA function (msiquery.h)
-description: The MsiFormatRecord function formats record field data and properties using a format string.
-helpviewer_keywords: ["MsiFormatRecord","MsiFormatRecord function","MsiFormatRecordA","MsiFormatRecordW","_msi_msiformatrecord","msiquery/MsiFormatRecord","msiquery/MsiFormatRecordA","msiquery/MsiFormatRecordW","setup.msiformatrecord"]
+description: The MsiFormatRecord function formats record field data and properties using a format string. (ANSI)
+helpviewer_keywords: ["MsiFormatRecordA", "msiquery/MsiFormatRecordA"]
 old-location: setup\msiformatrecord.htm
 tech.root: setup
 ms.assetid: 574f51b1-a5cf-46c8-bfa3-449839872cf3
@@ -132,7 +132,7 @@ If <b>ERROR_MORE_DATA</b> is returned, the parameter which is a pointer gives th
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiFormatRecord as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiFormatRecord as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

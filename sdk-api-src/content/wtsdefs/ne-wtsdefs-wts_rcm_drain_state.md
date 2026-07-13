@@ -1,5 +1,5 @@
 ---
-UID: NE:wtsdefs.__unnamed_enum_1
+UID: NE:wtsdefs.WTS_RCM_DRAIN_STATE
 title: WTS_RCM_DRAIN_STATE (wtsdefs.h)
 description: Contains information about the drain state of the Remote Desktop Session Host (RD Session Host) server.
 helpviewer_keywords: ["WRDS_RCM_DRAIN_STATE","WRDS_RCM_DRAIN_STATE enumeration [Remote Desktop Services]","WTS_DRAIN_IN_DRAIN","WTS_DRAIN_NOT_IN_DRAIN","WTS_DRAIN_STATE_NONE","WTS_RCM_DRAIN_STATE","WTS_RCM_DRAIN_STATE enumeration [Remote Desktop Services]","termserv.wts_rcm_drain_state","wtsdefs/WRDS_RCM_DRAIN_STATE","wtsdefs/WTS_DRAIN_IN_DRAIN","wtsdefs/WTS_DRAIN_NOT_IN_DRAIN","wtsdefs/WTS_DRAIN_STATE_NONE","wtsdefs/WTS_RCM_DRAIN_STATE"]
@@ -69,3 +69,4 @@ The server is not in drain mode, or it is exiting drain mode. (It is accepting n
 ## -remarks
 
 This enumeration type is used by the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WTS_SERVICE_STATE</a> structure.
+

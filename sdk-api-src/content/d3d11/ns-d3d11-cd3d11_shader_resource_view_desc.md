@@ -58,7 +58,7 @@ Represents a shader-resource view and provides convenience methods for creating 
 
 Here is how D3D11.h defines <b>CD3D11_SHADER_RESOURCE_VIEW_DESC</b>:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>

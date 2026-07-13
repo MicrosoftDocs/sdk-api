@@ -6,10 +6,10 @@ helpviewer_keywords: ["QueryIdleProcessorCycleTime","QueryIdleProcessorCycleTime
 old-location: base\queryidleprocessorcycletime.htm
 tech.root: backup
 ms.assetid: 75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06
-ms.date: 12/05/2018
+ms.date: 09/26/2024
 ms.keywords: QueryIdleProcessorCycleTime, QueryIdleProcessorCycleTime function, base.queryidleprocessorcycletime, realtimeapiset/QueryIdleProcessorCycleTime, winbase/QueryIdleProcessorCycleTime
 req.header: realtimeapiset.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-realtime-l1-1-2.dll
  - Kernel32.dll
  - API-MS-Win-Core-realtime-l1-1-0.dll
  - KernelBase.dll

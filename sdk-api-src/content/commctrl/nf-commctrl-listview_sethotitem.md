@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetHotItem","ListView_SetHotItem macro [Windows 
 old-location: controls\ListView_SetHotItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetHotItem, ListView_SetHotItem macro [Windows Controls], _win32_ListView_SetHotItem, _win32_ListView_SetHotItem_cpp, commctrl/ListView_SetHotItem, controls.ListView_SetHotItem, controls._win32_ListView_SetHotItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetHotItem macro
+
+## -syntax
+
+```cpp
+INT ListView_SetHotItem(
+   HWND hwnd,
+   INT  i
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the index of the item that was previously hot.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetOverflowRect","Header_GetOverflowRect macro [Wi
 old-location: controls\Header_GetOverflowRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getoverflowrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetOverflowRect, Header_GetOverflowRect macro [Windows Controls], _shell_Header_GetOverflowRect, _shell_Header_GetOverflowRect_cpp, commctrl/Header_GetOverflowRect, controls.Header_GetOverflowRect, controls._shell_Header_GetOverflowRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Header_GetOverflowRect macro
+
+## -syntax
+
+```cpp
+BOOL Header_GetOverflowRect(
+  [in]      HWND   hwnd,
+  [in, out] LPRECT lprc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
 
 ## -description

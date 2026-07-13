@@ -6,7 +6,6 @@ ms.keywords: tagDIAGNOSTIC_REPORT_DATA, DIAGNOSTIC_REPORT_DATA
 description: This resource contains information about a diagnostic report.
 tech.root: security
 targetos: Windows
-ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -46,7 +45,7 @@ This resource contains information about a diagnostic report.
 
 ### -field signature
 
-Type: **[DIAGNOSTIC_DATA_REPORT_SIGNATURE](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_signature)**
+Type: **[DIAGNOSTIC_DATA_REPORT_SIGNATURE](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_report_data)**
 The signature for this report.
 
 ### -field bucketId

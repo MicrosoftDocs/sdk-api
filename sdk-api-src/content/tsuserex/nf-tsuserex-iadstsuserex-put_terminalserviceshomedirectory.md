@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesHomeDirectory
 title: IADsTSUserEx::put_TerminalServicesHomeDirectory (tsuserex.h)
-description: The root directory for the user. Each user on a Remote Desktop Session Host (RD Session Host) server has a unique root directory. This ensures that application information is stored separately for each user in a multiuser environment.
+description: The root directory for the user. Each user on a Remote Desktop Session Host (RD Session Host) server has a unique root directory. This ensures that application information is stored separately for each user in a multiuser environment. (Put)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","TerminalServicesHomeDirectory property","IADsTSUserEx.TerminalServicesHomeDirectory","IADsTSUserEx.put_TerminalServicesHomeDirectory","IADsTSUserEx::TerminalServicesHomeDirectory","IADsTSUserEx::get_TerminalServicesHomeDirectory","IADsTSUserEx::put_TerminalServicesHomeDirectory","TerminalServicesHomeDirectory property [Remote Desktop Services]","TerminalServicesHomeDirectory property [Remote Desktop Services]","IADsTSUserEx interface","put_TerminalServicesHomeDirectory","termserv.iadstsuserex_terminalserviceshomedirectory","tsuserex/IADsTSUserEx::TerminalServicesHomeDirectory","tsuserex/IADsTSUserEx::get_TerminalServicesHomeDirectory","tsuserex/IADsTSUserEx::put_TerminalServicesHomeDirectory"]
 old-location: termserv\iadstsuserex_terminalserviceshomedirectory.htm
 tech.root: TermServ

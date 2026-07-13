@@ -75,4 +75,4 @@ The
 <li>
 <a href="/windows/desktop/Tapi/cmspaddress-template-helper-methods">CMSPAddress Template Helper Methods</a>
 </li>
-</ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPAddress</b> has these types of members:
+</ul><b>CMSPAddress</b> has these types of members:

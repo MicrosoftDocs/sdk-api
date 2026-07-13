@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IMarshal.UnmarshalInterface
 title: IMarshal::UnmarshalInterface (objidlbase.h)
-description: Unmarshals an interface pointer.
+description: The IMarshal::UnmarshalInterface (objidlbase.h) method unmarshals an interface pointer.
 helpviewer_keywords: ["IMarshal interface [COM]","UnmarshalInterface method","IMarshal.UnmarshalInterface","IMarshal::UnmarshalInterface","UnmarshalInterface","UnmarshalInterface method [COM]","UnmarshalInterface method [COM]","IMarshal interface","_com_imarshal_unmarshalinterface","com.imarshal_unmarshalinterface","objidlbase/IMarshal::UnmarshalInterface"]
 old-location: com\imarshal_unmarshalinterface.htm
 tech.root: com
 ms.assetid: 5b496028-57db-447e-8c5c-76b7ea0fa4ee
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IMarshal interface [COM],UnmarshalInterface method, IMarshal.UnmarshalInterface, IMarshal::UnmarshalInterface, UnmarshalInterface, UnmarshalInterface method [COM], UnmarshalInterface method [COM],IMarshal interface, _com_imarshal_unmarshalinterface, com.imarshal_unmarshalinterface, objidlbase/IMarshal::UnmarshalInterface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

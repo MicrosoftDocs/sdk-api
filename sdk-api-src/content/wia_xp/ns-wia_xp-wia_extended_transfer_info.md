@@ -47,6 +47,7 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_EXTENDED_TRANSFER_INFO
+archived: true
 ---
 
 # WIA_EXTENDED_TRANSFER_INFO structure

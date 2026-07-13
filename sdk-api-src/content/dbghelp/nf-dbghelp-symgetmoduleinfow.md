@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetModuleInfoW
 title: SymGetModuleInfoW function (dbghelp.h)
-description: Retrieves the module information of the specified module.
+description: Retrieves the module information of the specified module. (SymGetModuleInfoW)
 helpviewer_keywords: ["SymGetModuleInfo","SymGetModuleInfo function","SymGetModuleInfo64","SymGetModuleInfo64 function","SymGetModuleInfoW","SymGetModuleInfoW64","_win32_symgetmoduleinfo64","base.symgetmoduleinfo64","dbghelp/SymGetModuleInfo","dbghelp/SymGetModuleInfo64","dbghelp/SymGetModuleInfoW","dbghelp/SymGetModuleInfoW64"]
 old-location: base\symgetmoduleinfo64.htm
 tech.root: Debug

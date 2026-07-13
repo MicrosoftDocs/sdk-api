@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiEnumPatchesA
 title: MsiEnumPatchesA function (msi.h)
-description: The MsiEnumPatches function enumerates all of the patches that have been applied to a product.
-helpviewer_keywords: ["MsiEnumPatches","MsiEnumPatches function","MsiEnumPatchesA","MsiEnumPatchesW","_msi_msienumpatches","msi/MsiEnumPatches","msi/MsiEnumPatchesA","msi/MsiEnumPatchesW","setup.msienumpatches"]
+description: The MsiEnumPatches function enumerates all of the patches that have been applied to a product. (ANSI)
+helpviewer_keywords: ["MsiEnumPatchesA", "msi/MsiEnumPatchesA"]
 old-location: setup\msienumpatches.htm
 tech.root: setup
 ms.assetid: 8f15accf-1ff5-4aa3-8a8e-be0e339360d2
@@ -158,4 +158,4 @@ If the buffer is too small to hold the requested data,
 
 
 > [!NOTE]
-> The msi.h header defines MsiEnumPatches as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiEnumPatches as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

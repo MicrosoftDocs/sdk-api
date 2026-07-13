@@ -4,7 +4,7 @@ title: IDirectMusicSynthSink::Activate (dmusics.h)
 description: The Activate method activates or deactivates the synthesizer sink.
 helpviewer_keywords: ["Activate","Activate method [Audio Devices]","Activate method [Audio Devices]","IDirectMusicSynthSink interface","IDirectMusicSynthSink interface [Audio Devices]","Activate method","IDirectMusicSynthSink.Activate","IDirectMusicSynthSink::Activate","audio.idirectmusicsynthsink_activate","audmp-routines_8a2d5dd7-92f1-4341-a5f3-68fd1215fc06.xml","dmusics/IDirectMusicSynthSink::Activate"]
 old-location: audio\idirectmusicsynthsink_activate.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 49b66410-23bd-4c4d-929c-b7e82fb45a9c
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynthSink interface, IDirectMusicSynthSink interface [Audio Devices],Activate method, IDirectMusicSynthSink.Activate, IDirectMusicSynthSink::Activate, audio.idirectmusicsynthsink_activate, audmp-routines_8a2d5dd7-92f1-4341-a5f3-68fd1215fc06.xml, dmusics/IDirectMusicSynthSink::Activate
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynthSink.Activate
+archived: true
 ---
 
 # IDirectMusicSynthSink::Activate

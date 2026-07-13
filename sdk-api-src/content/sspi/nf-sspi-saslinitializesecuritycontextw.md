@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.SaslInitializeSecurityContextW
 title: SaslInitializeSecurityContextW function (sspi.h)
-description: Wraps a standard call to the Security Support Provider Interface InitializeSecurityContext (General) function and processes SASL server cookies from the server.
-helpviewer_keywords: ["ISC_REQ_CONFIDENTIALITY","ISC_REQ_CONNECTION","ISC_REQ_EXTENDED_ERROR","ISC_REQ_INTEGRITY","ISC_REQ_MUTUAL_AUTH","ISC_REQ_REPLAY_DETECT","ISC_REQ_SEQUENCE_DETECT","ISC_REQ_STREAM","SaslInitializeSecurityContext","SaslInitializeSecurityContext function [Security]","SaslInitializeSecurityContextA","SaslInitializeSecurityContextW","security.saslinitializesecuritycontext","sspi/SaslInitializeSecurityContext","sspi/SaslInitializeSecurityContextA","sspi/SaslInitializeSecurityContextW"]
+description: Wraps a standard call to the Security Support Provider Interface InitializeSecurityContext (General) function and processes SASL server cookies from the server. (Unicode)
+helpviewer_keywords: ["ISC_REQ_CONFIDENTIALITY", "ISC_REQ_CONNECTION", "ISC_REQ_EXTENDED_ERROR", "ISC_REQ_INTEGRITY", "ISC_REQ_MUTUAL_AUTH", "ISC_REQ_REPLAY_DETECT", "ISC_REQ_SEQUENCE_DETECT", "ISC_REQ_STREAM", "SaslInitializeSecurityContext", "SaslInitializeSecurityContext function [Security]", "SaslInitializeSecurityContextW", "security.saslinitializesecuritycontext", "sspi/SaslInitializeSecurityContext", "sspi/SaslInitializeSecurityContextW"]
 old-location: security\saslinitializesecuritycontext.htm
 tech.root: security
 ms.assetid: 9cc661b7-f1b0-4fb1-b799-5b318d87fd4d
@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Secur32.dll
+ - schannel.dll
 api_name:
  - SaslInitializeSecurityContext
  - SaslInitializeSecurityContextA
@@ -260,4 +261,4 @@ No Token buffer is located in the <i>pOutput</i> parameter, or the message faile
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines SaslInitializeSecurityContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines SaslInitializeSecurityContext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

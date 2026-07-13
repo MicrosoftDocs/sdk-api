@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.EnumFontFamiliesW
 title: EnumFontFamiliesW function (wingdi.h)
-description: The EnumFontFamilies function enumerates the fonts in a specified font family that are available on a specified device.
-helpviewer_keywords: ["EnumFontFamilies","EnumFontFamilies function [Windows GDI]","EnumFontFamiliesA","EnumFontFamiliesW","_win32_EnumFontFamilies","gdi.enumfontfamilies","wingdi/EnumFontFamilies","wingdi/EnumFontFamiliesA","wingdi/EnumFontFamiliesW"]
+description: The EnumFontFamilies function enumerates the fonts in a specified font family that are available on a specified device. (Unicode)
+helpviewer_keywords: ["EnumFontFamilies", "EnumFontFamilies function [Windows GDI]", "EnumFontFamiliesW", "_win32_EnumFontFamilies", "gdi.enumfontfamilies", "wingdi/EnumFontFamilies", "wingdi/EnumFontFamiliesW"]
 old-location: gdi\enumfontfamilies.htm
 tech.root: gdi
 ms.assetid: 4960afbb-eeba-4030-ac89-d1ff077bb2f3
@@ -102,7 +102,7 @@ For examples, see <a href="/windows/desktop/gdi/enumerating-the-installed-fonts"
 
 
 > [!NOTE]
-> The wingdi.h header defines EnumFontFamilies as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines EnumFontFamilies as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

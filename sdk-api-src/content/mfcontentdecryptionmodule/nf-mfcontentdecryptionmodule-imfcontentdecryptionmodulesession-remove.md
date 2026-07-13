@@ -43,7 +43,7 @@ dev_langs:
 
 Removes all licenses and keys associated with the session.
 
-## -parameters
+
 
 ## -returns
 

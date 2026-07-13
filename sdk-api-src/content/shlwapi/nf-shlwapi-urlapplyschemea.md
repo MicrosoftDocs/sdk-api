@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlApplySchemeA
 title: UrlApplySchemeA function (shlwapi.h)
-description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix.
-helpviewer_keywords: ["URL_APPLY_DEFAULT","URL_APPLY_FORCEAPPLY","URL_APPLY_GUESSFILE","URL_APPLY_GUESSSCHEME","UrlApplyScheme","UrlApplyScheme function [Windows Shell]","UrlApplySchemeA","UrlApplySchemeW","_win32_UrlApplyScheme","shell.UrlApplyScheme","shlwapi/UrlApplyScheme","shlwapi/UrlApplySchemeA","shlwapi/UrlApplySchemeW"]
+description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix. (ANSI)
+helpviewer_keywords: ["URL_APPLY_DEFAULT", "URL_APPLY_FORCEAPPLY", "URL_APPLY_GUESSFILE", "URL_APPLY_GUESSSCHEME", "UrlApplySchemeA", "shlwapi/UrlApplySchemeA"]
 old-location: shell\UrlApplyScheme.htm
 tech.root: shell
 ms.assetid: af60643e-b1a4-4013-b116-dd9fad4e90bf
@@ -162,5 +162,5 @@ If the URL has a valid scheme, the string will not be modified. However, almost 
 
 
 > [!NOTE]
-> The shlwapi.h header defines UrlApplyScheme as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlApplyScheme as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

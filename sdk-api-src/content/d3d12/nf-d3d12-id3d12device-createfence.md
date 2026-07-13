@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateFence
 title: ID3D12Device::CreateFence (d3d12.h)
-description: Creates a fence object.
+description: Creates a fence object. (ID3D12Device.CreateFence)
 helpviewer_keywords: ["CreateFence","CreateFence method","CreateFence method","ID3D12Device interface","ID3D12Device interface","CreateFence method","ID3D12Device.CreateFence","ID3D12Device::CreateFence","d3d12/ID3D12Device::CreateFence","direct3d12.id3d12device_createfence"]
 old-location: direct3d12\id3d12device_createfence.htm
 tech.root: direct3d12

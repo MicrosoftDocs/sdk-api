@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_PageToIndex","PropSheet_PageToIndex macro [Wind
 old-location: controls\PropSheet_PageToIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_pagetoindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_PageToIndex, PropSheet_PageToIndex macro [Windows Controls], _win32_PropSheet_PageToIndex, _win32_PropSheet_PageToIndex_cpp, controls.PropSheet_PageToIndex, controls._win32_PropSheet_PageToIndex, prsht/PropSheet_PageToIndex
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_PageToIndex macro
+
+## -syntax
+
+```cpp
+int PropSheet_PageToIndex(
+   HWND           hDlg,
+   HPROPSHEETPAGE hpage
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the zero-based index of the property sheet page specified by <i>hpage</i>  if successful. Otherwise, it returns -1.
 
 
 ## -description

@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiGetClassImageListExW
 title: SetupDiGetClassImageListExW function (setupapi.h)
-description: The SetupDiGetClassImageListEx function builds an image list of bitmaps for every class installed on a local or remote system.
-helpviewer_keywords: ["SetupDiGetClassImageListEx","SetupDiGetClassImageListEx function [Device and Driver Installation]","SetupDiGetClassImageListExA","SetupDiGetClassImageListExW","devinst.setupdigetclassimagelistex","di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml","setupapi/SetupDiGetClassImageListEx"]
+description: The SetupDiGetClassImageListEx function builds an image list of bitmaps for every class installed on a local or remote system. (Unicode)
+helpviewer_keywords: ["SetupDiGetClassImageListEx", "SetupDiGetClassImageListEx function [Device and Driver Installation]", "SetupDiGetClassImageListExW", "devinst.setupdigetclassimagelistex", "di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml", "setupapi/SetupDiGetClassImageListEx"]
 old-location: devinst\setupdigetclassimagelistex.htm
 tech.root: devinst
 ms.assetid: f9cf7904-3fda-4f7f-bb05-3634fd1c9af3
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetClassImageListEx, SetupDiGetClassImageListEx function [Device and Driver Installation], SetupDiGetClassImageListExA, SetupDiGetClassImageListExW, devinst.setupdigetclassimagelistex, di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml, setupapi/SetupDiGetClassImageListEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -61,7 +61,10 @@ A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classimage
 
 ### -param MachineName [in, optional]
 
-A pointer to NULL-terminated string that supplies the name of a remote system for whose classes <b>SetupDiGetClassImageListEx must build </b>the bitmap. This parameter is optional and can be <b>NULL</b>. If <i>MachineName</i> is <b>NULL</b>, <b>SetupDiGetClassImageListEx</b> builds the list for the local system.
+A pointer to NULL-terminated string that supplies the name of a remote system for whose classes <b>SetupDiGetClassImageListEx must build</b> the bitmap. This parameter is optional and can be <b>NULL</b>. If <i>MachineName</i> is <b>NULL</b>, <b>SetupDiGetClassImageListEx</b> builds the list for the local system.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 
@@ -82,7 +85,7 @@ The image list built by this function should be destroyed by calling <a href="/w
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetClassImageListEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetClassImageListEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["FALSE","Header_SetHotDivider","Header_SetHotDivider macro
 old-location: controls\Header_SetHotDivider.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_sethotdivider.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: FALSE, Header_SetHotDivider, Header_SetHotDivider macro [Windows Controls], TRUE, _win32_Header_SetHotDivider, _win32_Header_SetHotDivider_cpp, commctrl/Header_SetHotDivider, controls.Header_SetHotDivider, controls._win32_Header_SetHotDivider
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # Header_SetHotDivider macro
 
+## -syntax
+
+```cpp
+int Header_SetHotDivider(
+   HWND  hwnd,
+   BOOL  fPos,
+   DWORD dw
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the divider that the control highlighted.
+
 
 ## -description
 
@@ -64,8 +80,7 @@ A handle to a header control.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-A value specifying how 
-					<i>dwInputValue</i> is to be interpreted. The value in this field can be one of the following: 
+A value specifying how <i>dw</i> is to be interpreted. The value in this field can be one of the following:
 
 <table>
 <tr>
@@ -74,23 +89,21 @@ A value specifying how
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
-Indicates that 
-						<i>dwInputValue</i> holds client coordinates of the pointer.
+Indicates that <i>dw</i> holds client coordinates of the pointer.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">
-Indicates that 
-						<i>dwInputValue</i> holds a divider index value.
+Indicates that <i>dw</i> holds a divider index value.
 
 </td>
 </tr>
@@ -100,17 +113,11 @@ Indicates that
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The value held here is interpreted depending on the value of 
-					<i>flag</i>. 
+The value held here is interpreted depending on the value of <i>fPos</i>.
 
-If 
-						<i>flag</i> is <b>TRUE</b>, 
-						<i>dwInputValue</i> represents the x- and y- client coordinates of the pointer. The x-coordinate is in the low word, and the y-coordinate is in the high word. Upon receiving the message, the header control highlights the appropriate divider based on the 
-						<i>dwInputValue</i> coordinates. 
+If <i>fPos</i> is <b>TRUE</b>, <i>dw</i> represents the x- and y- client coordinates of the pointer. The x-coordinate is in the low word, and the y-coordinate is in the high word. Upon receiving the message, the header control highlights the appropriate divider based on the <i>dw</i> coordinates.
 
-If 
-						<i>flag</i> is <b>FALSE</b>, 
-						<i>dwInputValue</i> represents the integer index of the divider that will be highlighted.
+If <i>fPos</i> is <b>FALSE</b>, <i>dw</i> represents the integer index of the divider that will be highlighted.
 
 ## -remarks
 

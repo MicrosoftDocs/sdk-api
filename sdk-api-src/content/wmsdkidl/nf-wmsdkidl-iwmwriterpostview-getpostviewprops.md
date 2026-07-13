@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetPostViewProps","GetPostViewProps method [windows Media
 old-location: wmformat\iwmwriterpostview_getpostviewprops.htm
 tech.root: wmformat
 ms.assetid: 39dc32d1-53e5-43b5-bc96-074dc286890e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetPostViewProps, GetPostViewProps method [windows Media Format], GetPostViewProps method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewProps method, IWMWriterPostView.GetPostViewProps, IWMWriterPostView::GetPostViewProps, IWMWriterPostViewGetPostViewProps, wmformat.iwmwriterpostview_getpostviewprops, wmsdkidl/IWMWriterPostView::GetPostViewProps
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetPostViewProps</b> method retrieves the properties for the specified output stream.
 

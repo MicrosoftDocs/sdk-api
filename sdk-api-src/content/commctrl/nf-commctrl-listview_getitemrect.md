@@ -6,7 +6,7 @@ helpviewer_keywords: ["LVIR_BOUNDS","LVIR_ICON","LVIR_LABEL","LVIR_SELECTBOUNDS"
 old-location: controls\ListView_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, LVIR_SELECTBOUNDS, ListView_GetItemRect, ListView_GetItemRect macro [Windows Controls], _win32_ListView_GetItemRect, _win32_ListView_GetItemRect_cpp, commctrl/ListView_GetItemRect, controls.ListView_GetItemRect, controls._win32_ListView_GetItemRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # ListView_GetItemRect macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetItemRect(
+  [in]  HWND hwnd,
+  [in]  int  i,
+  [out] RECT *prc,
+  [in]  int  code
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

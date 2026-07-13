@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_BooleanAField
 title: MI_BooleanAField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_BooleanAField)
 helpviewer_keywords: ["MI_BooleanAField","MI_BooleanAField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_BooleanAField","wmi._mi_booleanafield","wmi_v2.mi_booleanafield"]
 old-location: wmi_v2\mi_booleanafield.htm
 tech.root: wmi_v2

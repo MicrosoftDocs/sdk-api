@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","KeyUp metho
 old-location: wmp\iwmpevents_iwmpevents__keyup.htm
 tech.root: WMP
 ms.assetid: e76e11d8-6cb9-488e-b5ca-1b5b11898d4b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyUp method, IWMPEvents.KeyUp, IWMPEvents::KeyUp, IWMPEventsKeyUp, KeyUp, KeyUp method [Windows Media Player], KeyUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keyup, wmp/IWMPEvents::KeyUp
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>KeyUp</b> event occurs when a key is released.
 

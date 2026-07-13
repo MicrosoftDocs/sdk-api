@@ -56,19 +56,19 @@ Defines the possible states of a collection object.
 
 ## -enum-fields
 
-### -field FsrmCollectionState_Fetching
+### -field FsrmCollectionState_Fetching:1
 
 The collection object is fetching data.
 
-### -field FsrmCollectionState_Committing
+### -field FsrmCollectionState_Committing:2
 
 The collection object is committing its data.
 
-### -field FsrmCollectionState_Complete
+### -field FsrmCollectionState_Complete:3
 
 The collection object is complete (has stopped fetching or committing data).
 
-### -field FsrmCollectionState_Cancelled
+### -field FsrmCollectionState_Cancelled:4
 
 The collection operation (fetching or committing) was canceled.
 

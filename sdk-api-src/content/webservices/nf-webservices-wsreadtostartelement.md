@@ -115,54 +115,62 @@ A quota was exceeded.
 Consider the following XML:
       
 
-<pre class="syntax" xml:space="preserve"><code>&lt;!-- A purchase order --&gt;
-        &lt;PurchaseOrder xmlns='http://tempuri.org'&gt;
-            &lt;Item&gt;
+
+``` syntax
+<!-- A purchase order -->
+        <PurchaseOrder xmlns='http://tempuri.org'>
+            <Item>
                 Pencil
-            &lt;/Item&gt;
-        &lt;/PurchaseOrder&gt;
-</code></pre>
+            </Item>
+        </PurchaseOrder>
+
+```
+
 The following examples illustrates the behaviors of <b>WsReadToStartElement</b> when the reader is
         positioned in various places in the document.
       
 
-<pre class="syntax" xml:space="preserve"><code>WS_XML_STRING purchaseOrder = WS_XML_STRING_VALUE("PurchaseOrder");
+
+``` syntax
+WS_XML_STRING purchaseOrder = WS_XML_STRING_VALUE("PurchaseOrder");
 WS_XML_STRING item = WS_XML_STRING_VALUE("Item");
 WS_XML_STRING ns = WS_XML_STRING("http://tempuri.org");
 WS_ERROR* error = NULL;
 
 // Example 1: Reader on comment, element has specified name and namespace, found argument is not provided
-HRESULT hr = WsReadToStartElement(reader, &amp;purchaseOrder, &amp;ns, NULL, error);
-// hr = NOERROR, the reader is positioned on &lt;PurchaseOrder&gt;
+HRESULT hr = WsReadToStartElement(reader, &purchaseOrder, &ns, NULL, error);
+// hr = NOERROR, the reader is positioned on <PurchaseOrder>
 
 // Example 2: Reader on comment, element has specified name and namespace, found argument is provided
 BOOL found;
-HRESULT hr = WsReadToStartElement(reader, &amp;purchaseOrder, &amp;ns, found, error);
-// hr = NOERROR, found = TRUE, the reader is positioned on &lt;PurchaseOrder&gt;
+HRESULT hr = WsReadToStartElement(reader, &purchaseOrder, &ns, found, error);
+// hr = NOERROR, found = TRUE, the reader is positioned on <PurchaseOrder>
 
 // Example 3: Reader on comment, element does not have specified name and namespace, found argument is not provided
-HRESULT hr = WsReadToStartElement(reader, &amp;item, &amp;ns, NULL, error);
+HRESULT hr = WsReadToStartElement(reader, &item, &ns, NULL, error);
 // hr = WS_E_INVALID_FORMAT, the reader is faulted
 
 // Example 4: Reader on comment, element does not have specified name and namespace, found argument is provided
 BOOL found;
-HRESULT hr = WsReadToStartElement(reader, &amp;item, &amp;ns, &amp;found, error);
-// hr = NOERROR, found = FALSE, the reader is positioned on &lt;PurchaseOrder&gt;
+HRESULT hr = WsReadToStartElement(reader, &item, &ns, &found, error);
+// hr = NOERROR, found = FALSE, the reader is positioned on <PurchaseOrder>
 
 // Example 5: Reader on comment, name and namespace not specified, found argument is provided
 BOOL found;
-HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &amp;found, error);
-// hr = NOERROR, found = TRUE, the reader is positioned on &lt;PurchaseOrder&gt;
+HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &found, error);
+// hr = NOERROR, found = TRUE, the reader is positioned on <PurchaseOrder>
 
-// Example 6: Reader on &lt;/Item&gt;, name and namespace not specified, found argument is not provided
+// Example 6: Reader on </Item>, name and namespace not specified, found argument is not provided
 HRESULT hr = WsReadToStartElement(reader, NULL, NULL, NULL, error);
 // hr = WS_E_INVALID_FORMAT, the reader is faulted
 
-// Example 7: Reader on &lt;/Item&gt;, name and namespace not specified, found argument is provided
+// Example 7: Reader on </Item>, name and namespace not specified, found argument is provided
 BOOL found;
-HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &amp;found, error);
-// hr = NOERROR, found = FALSE, the reader is positioned on &lt;/Item&gt;
-</code></pre>
+HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &found, error);
+// hr = NOERROR, found = FALSE, the reader is positioned on </Item>
+
+```
+
 If <b>WsReadToStartElement</b> indicates an element has been found, then <a href="/windows/desktop/api/webservices/nf-webservices-wsreadstartelement">WsReadStartElement</a> 
         or <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a> may be used to move the reader past the start element into the content of the element.
       

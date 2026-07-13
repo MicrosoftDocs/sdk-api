@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetGreenSlope(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetGreenSlope(IDCompositionAnimation) (dcomp.h)
-description: Sets the slope of the linear function for the green channel.
+description: The IDCompositionLinearTransferEffect::SetGreenSlope(IDCompositionAnimation) method sets the slope of the linear function for the green channel.
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetGreenSlope method","IDCompositionLinearTransferEffect.SetGreenSlope","IDCompositionLinearTransferEffect.SetGreenSlope(IDCompositionAnimation)","IDCompositionLinearTransferEffect::SetGreenSlope","IDCompositionLinearTransferEffect::SetGreenSlope(IDCompositionAnimation)","SetGreenSlope","SetGreenSlope method [DirectComposition]","SetGreenSlope method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetGreenSlope","directcomp.idcompositionlineartransfereffect_setgreenslope_2"]
 old-location: directcomp\idcompositionlineartransfereffect_setgreenslope_2.htm
 tech.root: directcomp
 ms.assetid: BAB60C7E-D2FA-4148-A1F6-5937D3AE746B
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenSlope method, IDCompositionLinearTransferEffect.SetGreenSlope, IDCompositionLinearTransferEffect.SetGreenSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetGreenSlope, IDCompositionLinearTransferEffect::SetGreenSlope(IDCompositionAnimation), SetGreenSlope, SetGreenSlope method [DirectComposition], SetGreenSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenSlope, directcomp.idcompositionlineartransfereffect_setgreenslope_2
 req.header: dcomp.h
 req.include-header: 
@@ -64,7 +64,7 @@ An animation that represents how the slope of the linear function for the green 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

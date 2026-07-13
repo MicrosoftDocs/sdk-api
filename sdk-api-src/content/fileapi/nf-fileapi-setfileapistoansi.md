@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-Ms-Win-Core-File-L1-2-2.dll
  - KernelBase.dll
@@ -55,7 +58,7 @@ api_name:
 Causes the file I/O functions to use the ANSI character set code page for the current 
     process. This function is useful for 8-bit console input and output operations.
 
-## -parameters
+
 
 ## -remarks
 

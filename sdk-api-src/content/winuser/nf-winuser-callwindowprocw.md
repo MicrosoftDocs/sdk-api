@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CallWindowProcW
 title: CallWindowProcW function (winuser.h)
-description: Passes message information to the specified window procedure.
-helpviewer_keywords: ["CallWindowProc","CallWindowProc function [Windows and Messages]","CallWindowProcA","CallWindowProcW","_win32_CallWindowProc","_win32_callwindowproc_cpp","winmsg.callwindowproc","winui._win32_callwindowproc","winuser/CallWindowProc","winuser/CallWindowProcA","winuser/CallWindowProcW"]
+description: Passes message information to the specified window procedure. (Unicode)
+helpviewer_keywords: ["CallWindowProc", "CallWindowProc function [Windows and Messages]", "CallWindowProcW", "_win32_CallWindowProc", "_win32_callwindowproc_cpp", "winmsg.callwindowproc", "winui._win32_callwindowproc", "winuser/CallWindowProc", "winuser/CallWindowProcW"]
 old-location: winmsg\callwindowproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\callwindowproc.htm
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-l1-1-0.dll
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -106,19 +110,31 @@ The <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLo
 
 If <b>STRICT</b> is defined, the <i>lpPrevWndFunc</i> parameter has the data type <b>WNDPROC</b>. The <b>WNDPROC</b> type is declared as follows:
 
-<pre class="syntax" xml:space="preserve"><code>LRESULT (CALLBACK* WNDPROC) (HWND, UINT, WPARAM, LPARAM); </code></pre>
+
+``` syntax
+LRESULT (CALLBACK* WNDPROC) (HWND, UINT, WPARAM, LPARAM); 
+```
+
 If <b>STRICT</b> is not defined, the <i>lpPrevWndFunc</i> parameter has the data type <b>FARPROC</b>. The <b>FARPROC</b> type is declared as follows:
 
-<pre class="syntax" xml:space="preserve"><code>int (FAR WINAPI * FARPROC) () </code></pre>
+
+``` syntax
+int (FAR WINAPI * FARPROC) () 
+```
+
 In C, the <b>FARPROC</b> declaration indicates a callback function that has an unspecified parameter list. In C++, however, the empty parameter list in the declaration indicates that a function has no parameters. This subtle distinction can break careless code. Following is one way to handle this situation:
 
-<pre class="syntax" xml:space="preserve"><code>#ifdef STRICT 
+
+``` syntax
+#ifdef STRICT 
   WNDPROC MyWindowProcedure 
 #else 
   FARPROC MyWindowProcedure 
 #endif 
 ... 
-  lResult = CallWindowProc(MyWindowProcedure, ...) ; </code></pre>
+  lResult = CallWindowProc(MyWindowProcedure, ...) ; 
+```
+
 For further information about functions declared with empty argument lists, refer to 
 				<i>The C++ Programming Language, Second Edition,</i> by Bjarne Stroustrup. 
 
@@ -135,7 +151,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-procedures">Su
 
 
 > [!NOTE]
-> The winuser.h header defines CallWindowProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CallWindowProc as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

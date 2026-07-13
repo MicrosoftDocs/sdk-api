@@ -4,7 +4,8 @@ title: Spatialaudioclient.h header
 ms.assetid: 0857548c-508b-3d0b-a26a-fcb1ab7fad07
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: coreaudio
 f1_keywords:
  - spatialaudioclient

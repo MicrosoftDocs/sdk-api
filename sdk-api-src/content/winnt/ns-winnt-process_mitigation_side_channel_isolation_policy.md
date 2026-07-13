@@ -49,9 +49,6 @@ api_name:
  - PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
 ---
 
-# PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY structure
-
-
 ## -description
 
 This data structure provides the status of process policies that are related to the mitigation of side channels. This can include side channel attacks involving speculative execution and page combining.
@@ -68,29 +65,42 @@ This member is reserved for system use.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.SmtBranchTargetIsolation
 
-Prevent branch target pollution cross-SMT-thread in user mode.
+If **TRUE** then, while this process is executing in user-mode, requests the application of hardware mitigations to prevent cross-SMT-thread branch target pollution.
+
+If the hardware doesn't provide support for such a mitigation, or the mitigation has been disabled system-wide, then this policy has no effect.
+
+To enable this policy after a process has started, you can call [SetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy). It can't be disabled once enabled.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.IsolateSecurityDomain
 
-Isolate this process into a distinct security domain, even from other processes running as the same security context.  This
-            prevents branch target injection cross-process.
+If **TRUE**, isolates this process into a distinct security domain, even from other processes running as the same security context. That prevents branch target injection cross-process.
 
-Page combining is limited to processes within the same security
-            domain.  This flag effectively limits the process to
-             only combining internally to the process itself,
-            except for common pages and unless further restricted by the
-            <b>DisablePageCombine</b> policy.
+Page-combining is limited to processes within the same security domain. This flag effectively limits the process to only combining internally to the process itself, except for common pages and unless further restricted by the **DisablePageCombine** policy.
+
+To enable this policy after a process has started, you can call [SetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy). It can't be disabled once enabled.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DisablePageCombine
 
-Disable all page combining for this process, even internally to
-             the process itself, except for common pages.
+If **TRUE**, disables all page-combining for this process, even internally to the process itself, except for common pages (pages of entirely 0s or entirely 1s).
+
+To enable this policy after a process has started, you can call [SetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy). It can't be disabled once enabled.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.SpeculativeStoreBypassDisable
 
-Memory Disambiguation Disable.
+If **TRUE** then, while this process is executing in user-mode, and in order to mitigate intra-process SSB, requests that hardware mitigations for Speculative Store Bypass (SSB) be enabled.
+
+If the hardware doesn't provide support for such a mitigation, or the mitigation has been disabled system-wide, then this policy has no effect.
+
+To enable this policy after a process has started, you can call [SetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy). It can't be disabled once enabled.
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.RestrictCoreSharing
+
+If **TRUE**, the CPU scheduler prevents threads within this process from being scheduled to the same core as threads from another security domain.
+
+This policy can't be enabled on systems where the scheduler is incapable of providing this guarantee. For example, this policy can't be enabled for processes in a virtual machine unless the hypervisor reports the absence of [non-architectural core sharing](/windows-server/virtualization/hyper-v/manage/about-hyper-v-scheduler-type-selection#nononarchitecturalcoresharing-enlightenment-details).
+
+To enable this policy after a process has started, you can call [SetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy). It can't be disabled once enabled.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 This member is reserved for system use.
-

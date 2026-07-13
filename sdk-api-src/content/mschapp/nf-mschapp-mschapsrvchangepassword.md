@@ -162,7 +162,7 @@ The old password parameter does not match the user's current password.
 </dl>
 </td>
 <td width="60%">
-The domain controlelr is not in an enabled state. The domain controller must be enabled for this operation.
+The domain controller is not in an enabled state. The domain controller must be enabled for this operation.
 
 </td>
 </tr>

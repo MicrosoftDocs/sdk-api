@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FtpRenameFileA
 title: FtpRenameFileA function (wininet.h)
-description: Renames a file stored on the FTP server.
-helpviewer_keywords: ["FtpRenameFile","FtpRenameFile function [WinINet]","FtpRenameFileA","FtpRenameFileW","_inet_ftprenamefile_function","wininet.ftprenamefile","wininet/FtpRenameFile","wininet/FtpRenameFileA","wininet/FtpRenameFileW"]
+description: Renames a file stored on the FTP server. (ANSI)
+helpviewer_keywords: ["FtpRenameFileA", "wininet/FtpRenameFileA"]
 old-location: wininet\ftprenamefile.htm
 tech.root: wininet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
@@ -88,7 +88,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines FtpRenameFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines FtpRenameFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

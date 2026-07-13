@@ -4,7 +4,8 @@ title: IMFPMediaPlayer::CreateMediaItemFromObject (mfplay.h)
 description: Creates a media item from an object.
 helpviewer_keywords: ["CreateMediaItemFromObject","CreateMediaItemFromObject method [Media Foundation]","CreateMediaItemFromObject method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","CreateMediaItemFromObject method","IMFPMediaPlayer.CreateMediaItemFromObject","IMFPMediaPlayer::CreateMediaItemFromObject","mf.imfpmediaplayer_createmediaitemfromobject","mfplay/IMFPMediaPlayer::CreateMediaItemFromObject"]
 old-location: mf\imfpmediaplayer_createmediaitemfromobject.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: d647df89-b874-448e-ae41-ee3bcb55521f
 ms.date: 12/05/2018
 ms.keywords: CreateMediaItemFromObject, CreateMediaItemFromObject method [Media Foundation], CreateMediaItemFromObject method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromObject method, IMFPMediaPlayer.CreateMediaItemFromObject, IMFPMediaPlayer::CreateMediaItemFromObject, mf.imfpmediaplayer_createmediaitemfromobject, mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Creates a media item from an object.
@@ -86,7 +86,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +97,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ Invalid argument.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDREQUEST</b></b></dt>
+<dt><b>MF_E_INVALIDREQUEST</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +119,7 @@ Invalid request. This error can occur when <i>fSync</i> is <b>FALSE</b> and the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

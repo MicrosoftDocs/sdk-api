@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpGetCredUIContextFn
 title: SpGetCredUIContextFn (ntsecpkg.h)
-description: Retrieves context information from a credential provider.
+description: Retrieves context information from a credential provider. (SpGetCredUIContextFn)
 helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SpGetCredUIContextFn","SpGetCredUIContextFn callback","SpGetCredUIContextFn callback function [Security]","ntsecpkg/SpGetCredUIContextFn","security.spgetcreduicontextfn"]
 old-location: security\spgetcreduicontextfn.htm
 tech.root: security

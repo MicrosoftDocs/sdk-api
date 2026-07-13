@@ -95,7 +95,8 @@
     "austream.h",
     "ddstream.h",
     "mmstream.h",
-    "fil_data.h"
+    "fil_data.h",
+    "dmusics.h"
   ],
   "displayName": "DirectShow"
 }

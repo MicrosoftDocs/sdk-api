@@ -62,7 +62,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 ### -field hashMethod
 
-Type: <b><b>IUri</b>*</b>
+Type: <b>IUri*</b>
 
 The hash algorithm URI to use for the block map of the package.
 

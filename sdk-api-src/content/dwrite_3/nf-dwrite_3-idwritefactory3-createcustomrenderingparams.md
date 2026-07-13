@@ -1,12 +1,12 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateCustomRenderingParams
 title: IDWriteFactory3::CreateCustomRenderingParams (dwrite_3.h)
-description: Creates a rendering parameters object with the specified properties.
+description: Creates a rendering parameters object with the specified properties. (IDWriteFactory3.CreateCustomRenderingParams)
 helpviewer_keywords: ["CreateCustomRenderingParams","CreateCustomRenderingParams method [Direct Write]","CreateCustomRenderingParams method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateCustomRenderingParams method","IDWriteFactory3.CreateCustomRenderingParams","IDWriteFactory3::CreateCustomRenderingParams","directwrite.idwritefactory3_createcustomrenderingparams","dwrite_3/IDWriteFactory3::CreateCustomRenderingParams"]
 old-location: directwrite\idwritefactory3_createcustomrenderingparams.htm
 tech.root: DirectWrite
 ms.assetid: 60FA5675-C1E2-40CC-874D-F7E8942165CC
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Direct Write], CreateCustomRenderingParams method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateCustomRenderingParams method, IDWriteFactory3.CreateCustomRenderingParams, IDWriteFactory3::CreateCustomRenderingParams, directwrite.idwritefactory3_createcustomrenderingparams, dwrite_3/IDWriteFactory3::CreateCustomRenderingParams
 req.header: dwrite_3.h
 req.include-header: 
@@ -106,7 +106,7 @@ A pointer to a memory block that receives a pointer to a <a href="/windows/win32
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

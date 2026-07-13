@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11Device2.GetResourceTiling
 title: ID3D11Device2::GetResourceTiling (d3d11_2.h)
-description: Gets info about how a tiled resource is broken into tiles.
+description: Gets info about how a tiled resource is broken into tiles. (ID3D11Device2.GetResourceTiling)
 helpviewer_keywords: ["GetResourceTiling","GetResourceTiling method [Direct3D 11]","GetResourceTiling method [Direct3D 11]","ID3D11Device2 interface","ID3D11Device2 interface [Direct3D 11]","GetResourceTiling method","ID3D11Device2.GetResourceTiling","ID3D11Device2::GetResourceTiling","d3d11_2/ID3D11Device2::GetResourceTiling","direct3d11.id3d11device2_getresourcetiling"]
 old-location: direct3d11\id3d11device2_getresourcetiling.htm
 tech.root: direct3d11

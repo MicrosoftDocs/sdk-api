@@ -52,7 +52,7 @@ api_name:
 
 Handles events that occur before an animation update begins.
 
-## -parameters
+
 
 ## -returns
 

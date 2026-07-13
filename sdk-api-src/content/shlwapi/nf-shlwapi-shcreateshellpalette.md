@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shlwapi-l1-2-1.dll
+ - ext-ms-win-shell-shlwapi-l1-2-0.dll
  - Shlwapi.dll
  - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
  - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll

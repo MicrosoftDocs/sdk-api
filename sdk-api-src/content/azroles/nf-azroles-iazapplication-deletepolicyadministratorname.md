@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePolicyAdministratorName
 title: IAzApplication::DeletePolicyAdministratorName (azroles.h)
-description: Removes the specified account name from the list of principals that act as policy administrators.
+description: Removes the specified account name from the list of principals that act as policy administrators. (IAzApplication.DeletePolicyAdministratorName)
 helpviewer_keywords: ["AzApplication object [Security]","DeletePolicyAdministratorName method","DeletePolicyAdministratorName","DeletePolicyAdministratorName method [Security]","DeletePolicyAdministratorName method [Security]","AzApplication object","DeletePolicyAdministratorName method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeletePolicyAdministratorName method","IAzApplication.DeletePolicyAdministratorName","IAzApplication::DeletePolicyAdministratorName","azroles/IAzApplication::DeletePolicyAdministratorName","security.iazapplication_deletepolicyadministratorname"]
 old-location: security\iazapplication_deletepolicyadministratorname.htm
 tech.root: security

@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-draw-l1-1-0.dll
  - user32.dll
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
@@ -47,24 +48,21 @@ api_name:
 req.apiset: ext-ms-win-ntuser-draw-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
-# DrawFrameControl function
-
-
 ## -description
 
 The <b>DrawFrameControl</b> function draws a frame control of the specified type and style.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param hdc [in]
 
 A handle to the device context of the window in which to draw the control.
 
-### -param unnamedParam2 [in]
+### -param lprc [in]
 
  A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the logical coordinates of the bounding rectangle for frame control.
 
-### -param unnamedParam3 [in]
+### -param uType [in]
 
 The type of frame control to draw. This parameter can be one of the following values.
 
@@ -125,7 +123,7 @@ Scroll bar
 </tr>
 </table>
 
-### -param unnamedParam4 [in]
+### -param uState [in]
 
 The initial state of the frame control. If <i>uType</i> is DFC_BUTTON, <i>uState</i> can be one of the following values.
 

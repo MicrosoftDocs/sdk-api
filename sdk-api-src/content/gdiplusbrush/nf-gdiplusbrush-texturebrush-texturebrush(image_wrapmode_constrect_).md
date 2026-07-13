@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(Image,WrapMode,constRect&)
 title: TextureBrush::TextureBrush(IN Image,IN WrapMode,const IN Rect &) (gdiplusbrush.h)
-description: Creates a TextureBrush object based on an image, a wrap mode, and a defining rectangle.
+description: Creates a TextureBrush object based on an image, a wrap mode, and a defining rectangle. (overload 1/2)
 helpviewer_keywords: ["TextureBrush","TextureBrush class [GDI+]","TextureBrush constructor","TextureBrush constructor [GDI+]","TextureBrush constructor [GDI+]","TextureBrush class","TextureBrush.TextureBrush","TextureBrush.TextureBrush(IN Image","IN WrapMode","const IN Rect &)","TextureBrush.TextureBrush(Image*","WrapMode","const Rect&)","TextureBrush::TextureBrush","TextureBrush::TextureBrush(IN Image","IN WrapMode","const IN Rect &)","_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_Rect_dstRect_","gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_Rect_dstRect_"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_Rect_dstRect_.htm
 tech.root: gdiplus

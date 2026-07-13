@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.dll
 api_name:
  - SetupDiGetDeviceInfoListClass
@@ -50,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetDeviceInfoListClass</b> function retrieves the GUID for the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> associated with a device information set if the set has an associated class.
+The <b>SetupDiGetDeviceInfoListClass</b> function retrieves the GUID for the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> associated with a device information set if the set has an associated class.
 
 ## -parameters
 

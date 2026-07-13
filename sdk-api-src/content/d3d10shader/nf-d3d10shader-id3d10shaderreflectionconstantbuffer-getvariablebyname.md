@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionConstantBuffer.GetVariableByName
 title: ID3D10ShaderReflectionConstantBuffer::GetVariableByName (d3d10shader.h)
-description: Get a shader-reflection variable by name.
+description: Get a shader-reflection variable by name. (ID3D10ShaderReflectionConstantBuffer.GetVariableByName)
 helpviewer_keywords: ["684b47bc-14a8-01c4-053a-ee1a44d0861c","GetVariableByName","GetVariableByName method [Direct3D 10]","GetVariableByName method [Direct3D 10]","ID3D10ShaderReflectionConstantBuffer interface","ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10]","GetVariableByName method","ID3D10ShaderReflectionConstantBuffer.GetVariableByName","ID3D10ShaderReflectionConstantBuffer::GetVariableByName","d3d10shader/ID3D10ShaderReflectionConstantBuffer::GetVariableByName","direct3d10.id3d10shaderreflectionconstantbuffer_getvariablebyname"]
 old-location: direct3d10\id3d10shaderreflectionconstantbuffer_getvariablebyname.htm
 tech.root: direct3d10

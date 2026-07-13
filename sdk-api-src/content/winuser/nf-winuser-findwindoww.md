@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.FindWindowW
 title: FindWindowW function (winuser.h)
-description: Retrieves a handle to the top-level window whose class name and window name match the specified strings. This function does not search child windows. This function does not perform a case-sensitive search.
-helpviewer_keywords: ["FindWindow","FindWindow function [Windows and Messages]","FindWindowA","FindWindowW","_win32_FindWindow","_win32_findwindow_cpp","winmsg.findwindow","winui._win32_findwindow","winuser/FindWindow","winuser/FindWindowA","winuser/FindWindowW"]
+description: Retrieves a handle to the top-level window whose class name and window name match the specified strings. This function does not search child windows. This function does not perform a case-sensitive search. (Unicode)
+helpviewer_keywords: ["FindWindow", "FindWindow function [Windows and Messages]", "FindWindowW", "_win32_FindWindow", "_win32_findwindow_cpp", "winmsg.findwindow", "winui._win32_findwindow", "winuser/FindWindow", "winuser/FindWindowW"]
 old-location: winmsg\findwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\findwindow.htm
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -91,7 +94,7 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the window that has the specified class name and window name.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. This function does not modify the last error value.
 
 ## -remarks
 
@@ -108,7 +111,7 @@ For an example, see <a href="/windows/desktop/inputdev/using-mouse-input">Retrie
 
 
 > [!NOTE]
-> The winuser.h header defines FindWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines FindWindow as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

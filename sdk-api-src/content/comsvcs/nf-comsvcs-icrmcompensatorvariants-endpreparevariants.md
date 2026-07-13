@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndPrepareVariants
 title: ICrmCompensatorVariants::EndPrepareVariants (comsvcs.h)
-description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
+description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase. (ICrmCompensatorVariants.EndPrepareVariants)
 helpviewer_keywords: ["EndPrepareVariants","EndPrepareVariants method [COM+]","EndPrepareVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","EndPrepareVariants method","ICrmCompensatorVariants.EndPrepareVariants","ICrmCompensatorVariants::EndPrepareVariants","_dtc_ICrmCompensatorVariants_EndPrepareVariants","comsvcs/ICrmCompensatorVariants::EndPrepareVariants","cos.icrmcompensatorvariants_endpreparevariants"]
 old-location: cos\icrmcompensatorvariants_endpreparevariants.htm
 tech.root: cos
@@ -60,7 +60,7 @@ Indicates whether the prepare phase succeeded, in which case it is OK to commit 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

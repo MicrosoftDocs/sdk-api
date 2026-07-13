@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.CHString.Format(LPCWSTR,...)
-title: CHString::Format
-description: 
+title: CHString::Format(LPCWSTR,...)
+description: The CHString::Format method formats and stores a series of characters and values in a CHString.
 tech.root: wmi
 helpviewer_keywords: ["CHString::Format"]
 ms.assetid: 2187385b-8e30-4620-be1a-8c95c4d870b1
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::Format
 targetos: Windows
 req.assembly: 
@@ -42,9 +42,6 @@ api_name:
  - CHString::Format
 ---
 
-# CHString::Format
-
-
 ## -description
 
 <p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
@@ -79,7 +76,7 @@ If your function writes to a string rather than standard output, you may need to
 If the string object is offered as a parameter to **Format**, the call fails.
 For example, the following code causes unpredictable results.
 
-#### Examples
+## Examples
 
 ```cpp
 CHString str = L"Some Data";
@@ -97,4 +94,3 @@ A **NULL** character is appended to the end of the written characters.
 <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">CHString::GetBuffer</a>
-

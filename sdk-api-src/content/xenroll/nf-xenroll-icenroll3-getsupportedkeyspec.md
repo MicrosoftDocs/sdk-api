@@ -76,7 +76,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 ## -remarks
 
-Call this method to determine whether the current CSP supports exchange keys, signature keys, or both. The <i>pdwKeySpec</i> parameter will contain one or more of the following constants (defined in in Wincrypt.h):<ul>
+Call this method to determine whether the current CSP supports exchange keys, signature keys, or both. The <i>pdwKeySpec</i> parameter will contain one or more of the following constants (defined in Wincrypt.h):<ul>
 <li>AT_KEYEXCHANGE</li>
 <li>AT_SIGNATURE</li>
 </ul>

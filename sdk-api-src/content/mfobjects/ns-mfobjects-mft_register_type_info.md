@@ -1,5 +1,5 @@
 ---
-UID: NS:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0008_0003
+UID: NS:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0009_0003
 title: MFT_REGISTER_TYPE_INFO (mfobjects.h)
 description: Contains media type information for registering a Media Foundation transform (MFT).
 helpviewer_keywords: ["1d26b9ee-545a-4e47-9a68-b9e567f0dec4","MFT_REGISTER_TYPE_INFO","MFT_REGISTER_TYPE_INFO structure [Media Foundation]","_MFT_REGISTER_TYPE_INFO","mf.mft_register_type_info","mfobjects/MFT_REGISTER_TYPE_INFO"]

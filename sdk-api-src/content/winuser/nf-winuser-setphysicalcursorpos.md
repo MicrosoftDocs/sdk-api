@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-gui-l1-3-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
  - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
@@ -79,7 +80,7 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-For a description of the difference between logicial coordinates and physical coordinates, see <a href="/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a>.
+For a description of the difference between logical coordinates and physical coordinates, see <a href="/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a>.
 
 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be called to get more information about any error that is generated.

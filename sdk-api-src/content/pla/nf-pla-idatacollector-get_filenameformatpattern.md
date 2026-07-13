@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.get_FileNameFormatPattern
 title: IDataCollector::get_FileNameFormatPattern (pla.h)
-description: Retrieves or sets the format pattern to use when decorating the file name.
+description: Retrieves or sets the format pattern to use when decorating the file name. (Get)
 helpviewer_keywords: ["FileNameFormatPattern property [PLA]","FileNameFormatPattern property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","FileNameFormatPattern property","IDataCollector.FileNameFormatPattern","IDataCollector.get_FileNameFormatPattern","IDataCollector::FileNameFormatPattern","IDataCollector::get_FileNameFormatPattern","IDataCollector::put_FileNameFormatPattern","base.idatacollector_filenameformatpattern","get_FileNameFormatPattern","pla.idatacollector_filenameformatpattern","pla/IDataCollector::FileNameFormatPattern","pla/IDataCollector::get_FileNameFormatPattern","pla/IDataCollector::put_FileNameFormatPattern"]
 old-location: pla\idatacollector_filenameformatpattern.htm
 tech.root: PLA

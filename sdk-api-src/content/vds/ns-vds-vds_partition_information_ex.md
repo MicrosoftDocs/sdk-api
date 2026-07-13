@@ -1,7 +1,7 @@
 ---
 UID: NS:vds._VDS_PARTITION_INFORMATION_EX
 title: VDS_PARTITION_INFORMATION_EX (vds.h)
-description: This structure is reserved for system use.
+description: This structure is reserved for system use. (VDS_PARTITION_INFORMATION_EX)
 helpviewer_keywords: ["PVDS_PARTITION_INFORMATION_EX","PVDS_PARTITION_INFORMATION_EX structure pointer","VDS_PARTITION_INFORMATION_EX","VDS_PARTITION_INFORMATION_EX structure","base.vds_partition_information_ex","vds/PVDS_PARTITION_INFORMATION_EX","vds/VDS_PARTITION_INFORMATION_EX"]
 old-location: base\vds_partition_information_ex.htm
 tech.root: base
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

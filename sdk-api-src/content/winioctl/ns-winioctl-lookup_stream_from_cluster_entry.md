@@ -97,9 +97,7 @@ The stream is part of the system pagefile.
 </dl>
 </td>
 <td width="60%">
-The stream is locked from defragmentation. The <b>HandleInfo</b> member of the 
-        <a href="/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure for this stream has 
-        the <b>MARK_HANDLE_PROTECT_CLUSTERS</b> flag set.
+The stream is locked from defragmentation. The <b>HandleInfo</b> member of the [MARK_HANDLE_INFO structure](ns-winioctl-mark_handle_info.md) for this stream has the <b>MARK_HANDLE_PROTECT_CLUSTERS</b> flag set.
 
 </td>
 </tr>

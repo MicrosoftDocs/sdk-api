@@ -1,7 +1,8 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_RPMB_COMMAND
 title: IOCTL_STORAGE_RPMB_COMMAND
-ms.date: 4/26/2019
+description: The IOCTL_STORAGE_RPMB_COMMAND ioctl (winioctl.h) sends an RPMB command to the underlying storage device.
+ms.date: 08/09/2022
 ms.keywords: IOCTL_STORAGE_RPMB_COMMAND
 targetos: Windows
 req.construct-type: ioctl
@@ -14,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

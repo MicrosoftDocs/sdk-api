@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetCertificate
 title: IDirect3DCryptoSession9::GetCertificate (d3d9.h)
-description: Gets the driver's certificate chain.
+description: Gets the driver's certificate chain. (IDirect3DCryptoSession9.GetCertificate)
 helpviewer_keywords: ["GetCertificate","GetCertificate method [Media Foundation]","GetCertificate method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","GetCertificate method","IDirect3DCryptoSession9.GetCertificate","IDirect3DCryptoSession9::GetCertificate","d3d9/IDirect3DCryptoSession9::GetCertificate","mf.idirect3dcryptosession9_getcertificate"]
 old-location: mf\idirect3dcryptosession9_getcertificate.htm
 tech.root: mf
@@ -64,13 +64,13 @@ A pointer to a byte array that receives the driver's certificate chain. The call
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 The standard key-exchange mechanism uses the driver's Output Protection Manager (OPM) certificate, which is an X.509 certificate. The type of key exchange is given in the capabilities information returned by the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>  method. The key-exchange mechanism is specified by the <b>KeyExchangeType</b>  member of the <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcontentprotectioncaps">D3DCONTENTPROTECTIONCAPS</a> structure. If the value is <b>D3DKEYEXCHANGE_RSAES_OAEP</b>, an X.509 certificate is used.
 
-For other types of key exhange, the driver might use some other type of certificate, or might not provide a certificate.
+For other types of key exchange, the driver might use some other type of certificate, or might not provide a certificate.
 
 ## -see-also
 

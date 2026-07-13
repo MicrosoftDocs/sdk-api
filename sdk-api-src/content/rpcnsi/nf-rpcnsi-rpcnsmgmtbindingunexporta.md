@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtBindingUnexportA
 title: RpcNsMgmtBindingUnexportA function (rpcnsi.h)
-description: The RpcNsMgmtBindingUnexport function removes multiple binding handles and objects from an entry in the name-service database.
-helpviewer_keywords: ["RPC_C_VERS_ALL","RPC_C_VERS_EXACT","RPC_C_VERS_IF_ID","RPC_C_VERS_MAJOR_ONLY","RPC_C_VERS_UPTO","RpcNsMgmtBindingUnexport","RpcNsMgmtBindingUnexport function [RPC]","RpcNsMgmtBindingUnexportA","RpcNsMgmtBindingUnexportW","_rpc_rpcnsmgmtbindingunexport","rpc.rpcnsmgmtbindingunexport","rpcnsi/RpcNsMgmtBindingUnexport","rpcnsi/RpcNsMgmtBindingUnexportA","rpcnsi/RpcNsMgmtBindingUnexportW"]
+description: The RpcNsMgmtBindingUnexport function removes multiple binding handles and objects from an entry in the name-service database. (ANSI)
+helpviewer_keywords: ["RPC_C_VERS_ALL", "RPC_C_VERS_EXACT", "RPC_C_VERS_IF_ID", "RPC_C_VERS_MAJOR_ONLY", "RPC_C_VERS_UPTO", "RpcNsMgmtBindingUnexportA", "rpcnsi/RpcNsMgmtBindingUnexportA"]
 old-location: rpc\rpcnsmgmtbindingunexport.htm
 tech.root: Rpc
 ms.assetid: e15b9e45-ac9f-4f90-9323-8b16066290d2
@@ -291,7 +291,7 @@ In addition to calling
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsMgmtBindingUnexport as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsMgmtBindingUnexport as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

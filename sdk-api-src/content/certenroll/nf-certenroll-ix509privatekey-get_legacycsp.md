@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_LegacyCsp
 title: IX509PrivateKey::get_LegacyCsp (certenroll.h)
-description: Specifies or retrieves a Boolean value that indicates whether the provider is a CryptoAPI (legacy) cryptographic service provider (CSP).
+description: Specifies or retrieves a Boolean value that indicates whether the provider is a CryptoAPI (legacy) cryptographic service provider (CSP). (Get)
 helpviewer_keywords: ["IX509PrivateKey interface [Security]","LegacyCsp property","IX509PrivateKey.LegacyCsp","IX509PrivateKey.get_LegacyCsp","IX509PrivateKey::LegacyCsp","IX509PrivateKey::get_LegacyCsp","IX509PrivateKey::put_LegacyCsp","LegacyCsp property [Security]","LegacyCsp property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::LegacyCsp","certenroll/IX509PrivateKey::get_LegacyCsp","certenroll/IX509PrivateKey::put_LegacyCsp","get_LegacyCsp","security.ix509privatekey_legacycsp"]
 old-location: security\ix509privatekey_legacycsp.htm
 tech.root: security

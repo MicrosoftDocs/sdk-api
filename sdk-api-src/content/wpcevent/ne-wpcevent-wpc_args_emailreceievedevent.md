@@ -56,7 +56,7 @@ Indicates information about an email message that has been received.
 
 ## -enum-fields
 
-### -field WPC_ARGS_EMAILRECEIEVEDEVENT_SENDER
+### -field WPC_ARGS_EMAILRECEIEVEDEVENT_SENDER:0
 
 The sender who sent the email message.
 

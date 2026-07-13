@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineHandoff
 title: lineHandoff function (tapi.h)
-description: The lineHandoff function gives ownership of the specified call to another application. The application can be either specified directly by its file name or indirectly as the highest priority application that handles calls of the specified media mode.
+description: The lineHandoff function (tapi.h) gives ownership of the specified call to another application. 
 helpviewer_keywords: ["_tapi2_linehandoff","lineHandoff","lineHandoff function [TAPI 2.2]","lineHandoffA","lineHandoffW","tapi/lineHandoff","tapi/lineHandoffA","tapi/lineHandoffW","tapi2.linehandoff"]
 old-location: tapi2\linehandoff.htm
 tech.root: tapi3
 ms.assetid: 931c2fa4-dad6-432d-8f07-bb04b646916b
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff
 req.header: tapi.h
 req.include-header: 

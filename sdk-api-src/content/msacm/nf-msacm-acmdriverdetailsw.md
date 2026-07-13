@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmDriverDetailsW
 title: acmDriverDetailsW function (msacm.h)
-description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.
-helpviewer_keywords: ["_win32_acmDriverDetails","acmDriverDetails","acmDriverDetails function [Windows Multimedia]","acmDriverDetailsA","acmDriverDetailsW","msacm/acmDriverDetails","msacm/acmDriverDetailsA","msacm/acmDriverDetailsW","multimedia.acmdriverdetails"]
+description: The acmDriverDetails (Unicode) function queries a specified ACM driver to determine its capabilities. (acmDriverDetailsW)
+helpviewer_keywords: ["_win32_acmDriverDetails", "acmDriverDetails", "acmDriverDetails function [Windows Multimedia]", "acmDriverDetailsW", "msacm/acmDriverDetails", "msacm/acmDriverDetailsW", "multimedia.acmdriverdetails"]
 old-location: multimedia\acmdriverdetails.htm
 tech.root: Multimedia
 ms.assetid: f8fcce73-1cac-463d-8e2d-1372d6b64614
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmDriverDetails, acmDriverDetails, acmDriverDetails function [Windows Multimedia], acmDriverDetailsA, acmDriverDetailsW, msacm/acmDriverDetails, msacm/acmDriverDetailsA, msacm/acmDriverDetailsW, multimedia.acmdriverdetails
 req.header: msacm.h
 req.include-header: 
@@ -124,4 +124,4 @@ At least one parameter is invalid.
 ## -remarks
 
 > [!NOTE]
-> The msacm.h header defines ACMDRIVERDETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMDRIVERDETAILS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

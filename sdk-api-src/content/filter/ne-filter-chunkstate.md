@@ -4,7 +4,7 @@ title: CHUNKSTATE (filter.h)
 description: Specifies whether the current chunk is a text-type property or a value-type property.
 helpviewer_keywords: ["CHUNKSTATE","CHUNKSTATE enumeration [Indexing Service]","CHUNK_FILTER_OWNED_VALUE","CHUNK_TEXT","CHUNK_VALUE","_idxs_CHUNKSTATE","filter/CHUNKSTATE","filter/CHUNK_FILTER_OWNED_VALUE","filter/CHUNK_TEXT","filter/CHUNK_VALUE","indexsrv.chunkstate","tagCHUNKSTATE"]
 old-location: indexsrv\chunkstate.htm
-tech.root: IndexSrv
+tech.root: search
 ms.assetid: VS|indexsrv|~\html\ixrefint_6mat.htm
 ms.date: 12/05/2018
 ms.keywords: CHUNKSTATE, CHUNKSTATE enumeration [Indexing Service], CHUNK_FILTER_OWNED_VALUE, CHUNK_TEXT, CHUNK_VALUE, _idxs_CHUNKSTATE, filter/CHUNKSTATE, filter/CHUNK_FILTER_OWNED_VALUE, filter/CHUNK_TEXT, filter/CHUNK_VALUE, indexsrv.chunkstate, tagCHUNKSTATE
@@ -59,17 +59,21 @@ Specifies whether the current chunk is a text-type property or a value-type prop
 
 ## -enum-fields
 
-### -field CHUNK_TEXT
+### -field CHUNK_TEXT:0x1
 
 The current chunk is a text-type property.
 
-### -field CHUNK_VALUE
+### -field CHUNK_VALUE:0x2
 
 The current chunk is a value-type property.
 
-### -field CHUNK_FILTER_OWNED_VALUE
+### -field CHUNK_FILTER_OWNED_VALUE:0x4
 
 Reserved.
+
+### -field CHUNK_IMAGE:0x8
+
+The current chunk is an image.
 
 ## -see-also
 
@@ -82,3 +86,5 @@ Reserved.
 
 
 <a href="/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a>
+
+

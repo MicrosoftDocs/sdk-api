@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.get_LogOverwrite
 title: IDataCollector::get_LogOverwrite (pla.h)
-description: Retrieves or sets a value that indicates if PLA should overwrite the current file.
+description: Retrieves or sets a value that indicates if PLA should overwrite the current file. (Get)
 helpviewer_keywords: ["IDataCollector interface [PLA]","LogOverwrite property","IDataCollector.LogOverwrite","IDataCollector.get_LogOverwrite","IDataCollector::LogOverwrite","IDataCollector::get_LogOverwrite","IDataCollector::put_LogOverwrite","LogOverwrite property [PLA]","LogOverwrite property [PLA]","IDataCollector interface","base.idatacollector_logoverwrite","get_LogOverwrite","pla.idatacollector_logoverwrite","pla/IDataCollector::LogOverwrite","pla/IDataCollector::get_LogOverwrite","pla/IDataCollector::put_LogOverwrite"]
 old-location: pla\idatacollector_logoverwrite.htm
 tech.root: PLA

@@ -54,7 +54,7 @@ api_name:
 
 The <b>mixerGetNumDevs</b> function retrieves the number of mixer devices present in the system.
 
-## -parameters
+
 
 ## -returns
 

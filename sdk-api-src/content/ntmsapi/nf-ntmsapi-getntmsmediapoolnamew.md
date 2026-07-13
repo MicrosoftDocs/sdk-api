@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.GetNtmsMediaPoolNameW
 title: GetNtmsMediaPoolNameW function (ntmsapi.h)
-description: The GetNtmsMediaPoolName function retrieves the specified media pool's full name hierarchy.
-helpviewer_keywords: ["GetNtmsMediaPoolName","GetNtmsMediaPoolName function [Files]","GetNtmsMediaPoolNameA","GetNtmsMediaPoolNameW","_zaw_getntmsmediapoolname","base.getntmsmediapoolname","fs.getntmsmediapoolname","ntmsapi/GetNtmsMediaPoolName","ntmsapi/GetNtmsMediaPoolNameA","ntmsapi/GetNtmsMediaPoolNameW"]
+description: The GetNtmsMediaPoolName function retrieves the specified media pool's full name hierarchy. (Unicode)
+helpviewer_keywords: ["GetNtmsMediaPoolName", "GetNtmsMediaPoolName function [Files]", "GetNtmsMediaPoolNameW", "_zaw_getntmsmediapoolname", "base.getntmsmediapoolname", "fs.getntmsmediapoolname", "ntmsapi/GetNtmsMediaPoolName", "ntmsapi/GetNtmsMediaPoolNameW"]
 old-location: fs\getntmsmediapoolname.htm
 tech.root: fs
 ms.assetid: 72b9028b-d97e-4441-8677-1a4a0b03dee2
@@ -164,4 +164,4 @@ The function was successful.
 ## -remarks
 
 > [!NOTE]
-> The ntmsapi.h header defines GetNtmsMediaPoolName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines GetNtmsMediaPoolName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

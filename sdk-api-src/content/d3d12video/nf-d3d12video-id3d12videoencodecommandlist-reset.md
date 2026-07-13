@@ -3,7 +3,7 @@ UID: NF:d3d12video.ID3D12VideoEncodeCommandList.Reset
 title: ID3D12VideoEncodeCommandList::Reset
 ms.date: 11/4/2019
 targetos: Windows
-description: Resets a command list back to its initial state as if a new command list was just created.
+description: Resets a command list back to its initial state as if a new command list was just created. (ID3D12VideoEncodeCommandList::Reset)
 tech.root: mf
 req.assembly: 
 req.construct-type: function

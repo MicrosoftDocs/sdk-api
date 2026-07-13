@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetNextSelected","TreeView_GetNextSelected macro
 old-location: controls\TreeView_GetNextSelected.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextselected.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetNextSelected, TreeView_GetNextSelected macro [Windows Controls], _shell_TreeView_GetNextSelected, _shell_TreeView_GetNextSelected_cpp, commctrl/TreeView_GetNextSelected, controls.TreeView_GetNextSelected, controls._shell_TreeView_GetNextSelected
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_GetNextSelected macro
+
+## -syntax
+
+```cpp
+HTREEITEM TreeView_GetNextSelected(
+   HWND      hwnd,
+   HTREEITEM *hitem
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Handle to an item, or <b>NULL</b> if no item is found with the <b>TVGN_NEXTSELECTED</b> relationship.
 
 
 ## -description

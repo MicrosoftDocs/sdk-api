@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_POPULATION_POLICY","CF_POPULATION_POLICY structure","c
 old-location: cloudapi\cf_population_policy.htm
 tech.root: cloudapi
 ms.assetid: 043EBBF8-4077-429B-B959-55E0623520E2
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_POPULATION_POLICY, CF_POPULATION_POLICY structure, cfapi/CF_POPULATION_POLICY, cloudApi.cf_population_policy
 req.header: cfapi.h
 req.include-header: 
@@ -47,18 +47,24 @@ api_name:
 
 # CF_POPULATION_POLICY structure
 
-
 ## -description
 
-Specifies the primary population policy and its modifier.
+Specifies the primary population policy and its modifier. The population policy allows a sync provider to control how placeholder namespace (both directories and files) should be created by the platform.
 
 ## -struct-fields
 
 ### -field Primary
 
-The primary population policy.
+The primary population policy. See [CF_POPULATION_POLICY_PRIMARY](ne-cfapi-cf_population_policy_primary.md) for more information.
 
 ### -field Modifier
 
-The population policy modifier.
+The population policy modifier. See [CF_POPULATION_POLICY_MODIFIER](ne-cfapi-cf_population_policy_modifier.md) for more information.
 
+## -see-also
+
+[CF_POPULATION_POLICY_PRIMARY](ne-cfapi-cf_population_policy_primary.md)
+
+[CF_POPULATION_POLICY_MODIFIER](ne-cfapi-cf_population_policy_modifier.md)
+
+[CfRegisterSyncRoot](nf-cfapi-cfregistersyncroot.md)

@@ -4,7 +4,8 @@ title: Spell Checker API
 ms.assetid: 76fca260-1821-33b9-82d4-94994e7a2c11
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Spell Checker API

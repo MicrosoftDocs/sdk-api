@@ -1,7 +1,7 @@
 ---
 UID: NS:cmdtree.tagDBGROUPINFO
 title: DBGROUPINFO (cmdtree.h)
-description: The DBCONTENTVECTOR structure represents specific information required by the DBOP_content_vector_or operator.
+description: The DBCONTENTVECTOR structure represents specific information required by the DBOP_content_vector_or operator. (DBGROUPINFO)
 helpviewer_keywords: ["DBGROUPINFO","DBGROUPINFO structure [Indexing Service]","_idxs_DBGROUPINFO","cmdtree/DBGROUPINFO","indexsrv.dbgroupinfo","tagDBGROUPINFO"]
 old-location: indexsrv\dbgroupinfo.htm
 tech.root: IndexSrv

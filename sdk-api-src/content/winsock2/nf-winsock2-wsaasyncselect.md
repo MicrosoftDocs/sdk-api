@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.WSAAsyncSelect
 title: WSAAsyncSelect function (winsock2.h)
-description: Requests Windows message-based notification of network events for a socket.
+description: The WSAAsyncSelect function (winsock2.h) requests Windows message based notification of network events for a socket. 
 helpviewer_keywords: ["WSAAsyncSelect","WSAAsyncSelect function [Winsock]","_win32_wsaasyncselect_2","winsock.wsaasyncselect_2","winsock/WSAAsyncSelect"]
 old-location: winsock\wsaasyncselect_2.htm
 tech.root: WinSock
 ms.assetid: a4d3f599-358c-4a94-91eb-7e1c80244250
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: WSAAsyncSelect, WSAAsyncSelect function [Winsock], _win32_wsaasyncselect_2, winsock.wsaasyncselect_2, winsock/WSAAsyncSelect
 req.header: winsock2.h
 req.include-header: Winsock2.h
@@ -605,7 +605,7 @@ Here is a summary of events and conditions for each asynchronous notification me
 <b>send</b> or 
 <b>sendto</b> are likely to succeed.</li>
 <li>After 
-<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> on a connectionless socket. <b>FD_WRITE</b> may or may not occur at this time (implementation-dependent). In any case, a connectionless socket is always writeable immediately after a 
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> on a connectionless socket. <b>FD_WRITE</b> may or may not occur at this time (implementation-dependent). In any case, a connectionless socket is always writable immediately after a 
 <b>bind</b> operation.</li>
 </ol>
 </li>

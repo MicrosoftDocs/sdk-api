@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.OpenNtmsSessionA
 title: OpenNtmsSessionA function (ntmsapi.h)
-description: The OpenNtmsSession function sets up a session with a RSM server.
-helpviewer_keywords: ["OpenNtmsSession","OpenNtmsSession function [Files]","OpenNtmsSessionA","OpenNtmsSessionW","_zaw_openntmssession","base.openntmssession","fs.openntmssession","ntmsapi/OpenNtmsSession","ntmsapi/OpenNtmsSessionA","ntmsapi/OpenNtmsSessionW"]
+description: The OpenNtmsSession function sets up a session with a RSM server. (ANSI)
+helpviewer_keywords: ["OpenNtmsSessionA", "ntmsapi/OpenNtmsSessionA"]
 old-location: fs\openntmssession.htm
 tech.root: fs
 ms.assetid: 5a323911-e99c-4f81-9580-0feac2f0a54e
@@ -187,7 +187,7 @@ Sessions are thread-safe but cannot be passed among processes.
 
 
 > [!NOTE]
-> The ntmsapi.h header defines OpenNtmsSession as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines OpenNtmsSession as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

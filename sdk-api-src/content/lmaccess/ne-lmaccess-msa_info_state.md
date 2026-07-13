@@ -58,7 +58,7 @@ Indicates the state of a managed service account. A managed service account  can
 
 ## -enum-fields
 
-### -field MsaInfoNotExist
+### -field MsaInfoNotExist:1
 
 The account does not exist.
 

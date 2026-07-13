@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetUnicodeString
 title: IXpsOMGlyphsEditor::GetUnicodeString (xpsobjectmodel.h)
-description: Gets the text in unescaped UTF-16 scalar values.
+description: Gets the text in unescaped UTF-16 scalar values. (IXpsOMGlyphsEditor.GetUnicodeString)
 helpviewer_keywords: ["GetUnicodeString","GetUnicodeString method [XPS Documents and Packaging]","GetUnicodeString method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetUnicodeString method","IXpsOMGlyphsEditor.GetUnicodeString","IXpsOMGlyphsEditor::GetUnicodeString","xps.ixpsomglyphseditor_getunicodestring","xpsobjectmodel/IXpsOMGlyphsEditor::GetUnicodeString"]
 old-location: xps\ixpsomglyphseditor_getunicodestring.htm
 tech.root: xps
@@ -101,7 +101,7 @@ This method allocates the memory used by the string that is returned in <i>unico
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

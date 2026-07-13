@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Tessellate(constD2D1_MATRIX_3X2_F&,ID2D1TessellationSink)
 title: ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &,ID2D1TessellationSink) (d2d1.h)
-description: Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance.
+description: Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. (overload 2/2)
 helpviewer_keywords: ["ID2D1Geometry interface [Direct2D]","Tessellate method","ID2D1Geometry.Tessellate","ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F &","ID2D1TessellationSink)","ID2D1Geometry::Tessellate","ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &","ID2D1TessellationSink)","Tessellate","Tessellate method [Direct2D]","Tessellate method [Direct2D]","ID2D1Geometry interface","d2d1/ID2D1Geometry::Tessellate","direct2d.ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1TessellationSink"]
 old-location: direct2d\ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1TessellationSink.htm
 tech.root: Direct2D
@@ -67,7 +67,7 @@ The <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1Tessell
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 

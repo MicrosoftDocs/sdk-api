@@ -90,6 +90,8 @@ If <i>dwMilliseconds</i> is nonzero and the operation is still in progress, the 
 
 If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function returns only when the object is signaled or an I/O completion routine or APC is queued.
 
+The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not continue counting down while the computer is asleep.
+
 ### -param bAlertable [in]
 
 If this parameter is <b>TRUE</b> and the calling thread is in the waiting state, the function returns when the system queues an I/O completion routine or APC. The calling thread then runs the routine or function. Otherwise, the function does not return, and the completion routine or APC function is not executed.

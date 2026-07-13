@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetCaretIndex","ListBox_GetCaretIndex macro [Wind
 old-location: controls\ListBox_GetCaretIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcaretindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetCaretIndex, ListBox_GetCaretIndex macro [Windows Controls], _win32_ListBox_GetCaretIndex, _win32_ListBox_GetCaretIndex_cpp, controls.ListBox_GetCaretIndex, controls._win32_ListBox_GetCaretIndex, windowsx/ListBox_GetCaretIndex
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListBox_GetCaretIndex macro
+
+## -syntax
+
+```cpp
+int ListBox_GetCaretIndex(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The zero-based index of the focused item, or 0 if no item has the focus.
 
 
 ## -description

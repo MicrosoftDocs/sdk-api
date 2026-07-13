@@ -1,7 +1,7 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperties.GetProperty
 title: IWindowsMediaLibrarySharingDeviceProperties::GetProperty (wmlss.h)
-description: The GetProperty method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an indivdual property for a media device.
+description: The GetProperty method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an individual property for a media device.
 helpviewer_keywords: ["GetProperty","GetProperty method [Windows Media Library Sharing Services]","GetProperty method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperties interface","IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services]","GetProperty method","IWindowsMediaLibrarySharingDeviceProperties.GetProperty","IWindowsMediaLibrarySharingDeviceProperties::GetProperty","wmlss.IWMLSDevicePropertiesGetProperty","wmlss/IWindowsMediaLibrarySharingDeviceProperties::GetProperty"]
 old-location: wmlss\IWMLSDevicePropertiesGetProperty.htm
 tech.root: WMLSS
@@ -11,8 +11,8 @@ ms.keywords: GetProperty, GetProperty method [Windows Media Library Sharing Serv
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,7 +50,9 @@ api_name:
 
 ## -description
 
-The <b>GetProperty</b> method retrieves an <a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperty">IWindowsMediaLibrarySharingDeviceProperty</a> interface that represents an indivdual property for a media device.
+\[The feature associated with this page, [Windows Media Library Sharing Services](/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). Media Casting has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use Media Casting instead of #FEATURENAMENOLINK#, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+The <b>GetProperty</b> method retrieves an <a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperty">IWindowsMediaLibrarySharingDeviceProperty</a> interface that represents an individual property for a media device.
 
 ## -parameters
 

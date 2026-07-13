@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ReferenceAField
 title: MI_ReferenceAField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ReferenceAField)
 helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_ReferenceAField","MI_ReferenceAField structure [Windows Management Infrastructure (MI)]","mi/MI_ReferenceAField","wmi._mi_referenceafield","wmi_v2.mi_referenceafield"]
 old-location: wmi_v2\mi_referenceafield.htm
 tech.root: wmi_v2

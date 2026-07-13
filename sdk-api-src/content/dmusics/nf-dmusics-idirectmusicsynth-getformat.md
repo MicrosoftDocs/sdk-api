@@ -4,7 +4,7 @@ title: IDirectMusicSynth::GetFormat (dmusics.h)
 description: The GetFormat method retrieves information about the wave format.
 helpviewer_keywords: ["GetFormat","GetFormat method [Audio Devices]","GetFormat method [Audio Devices]","IDirectMusicSynth interface","IDirectMusicSynth interface [Audio Devices]","GetFormat method","IDirectMusicSynth.GetFormat","IDirectMusicSynth::GetFormat","audio.idirectmusicsynth_getformat","audmp-routines_4448775d-9737-4679-89ca-abfee56fa337.xml","dmusics/IDirectMusicSynth::GetFormat"]
 old-location: audio\idirectmusicsynth_getformat.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 4fa55ff5-4f72-4f8b-bf11-64f07b054ff5
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [Audio Devices], GetFormat method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetFormat method, IDirectMusicSynth.GetFormat, IDirectMusicSynth::GetFormat, audio.idirectmusicsynth_getformat, audmp-routines_4448775d-9737-4679-89ca-abfee56fa337.xml, dmusics/IDirectMusicSynth::GetFormat
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynth.GetFormat
+archived: true
 ---
 
 # IDirectMusicSynth::GetFormat

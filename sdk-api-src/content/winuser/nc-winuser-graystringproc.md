@@ -6,7 +6,7 @@ helpviewer_keywords: ["GRAYSTRINGPROC","GRAYSTRINGPROC callback","GRAYSTRINGPROC
 old-location: gdi\outputproc.htm
 tech.root: gdi
 ms.assetid: 4d9145d2-5be4-4da3-9d03-01ebd74e0d06
-ms.date: 12/05/2018
+ms.date: 09/30/2025
 ms.keywords: GRAYSTRINGPROC, GRAYSTRINGPROC callback, GRAYSTRINGPROC callback function [Windows GDI], _win32_OutputProc, gdi.outputproc, winuser/GRAYSTRINGPROC
 req.header: winuser.h
 req.include-header: Windows.h
@@ -47,43 +47,49 @@ api_name:
 
 # GRAYSTRINGPROC callback function
 
-
 ## -description
 
-The <b>OutputProc</b> function is an application-defined callback function used with the <a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a> function. It is used to draw a string. The <b>GRAYSTRINGPROC</b> type defines a pointer to this callback function. <b>OutputProc</b> is a placeholder for the application-defined or library-defined function name.
+An application-defined callback function used with the [GrayString](/windows/desktop/api/winuser/nf-winuser-graystringa) function. It is used to draw a string. The **GRAYSTRINGPROC** type defines a pointer to this callback function. _GrayStringProc_ (or _OutputProc_) is a placeholder for the application-defined or library-defined function name.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-A handle to a device context with a bitmap of at least the width and height specified by the <i>nWidth</i> and <i>nHeight</i> parameters passed to <a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>.
+Type: **HDC**
+
+A handle to a device context with a bitmap of at least the width and height specified by the _nWidth_ and _nHeight_ parameters passed to [GrayString](/windows/desktop/api/winuser/nf-winuser-graystringa). This parameter is typically named _hDc_.
 
 ### -param unnamedParam2
 
-A pointer to the string to be drawn.
+Type: **LPARAM**
+
+A pointer to the string to be drawn. This parameter is typically named _lpData_.
 
 ### -param unnamedParam3
 
-The length, in characters, of the string.
+Type: **int**
+
+The length, in characters, of the string. This parameter is typically named _nCount_.
 
 ## -returns
 
-If it succeeds, the callback function should return <b>TRUE</b>.
+Type: **BOOL**
 
-If the function fails, the return value is <b>FALSE</b>.
+If it succeeds, the callback function should return **TRUE**.
+
+If the function fails, the return value is **FALSE**.
 
 ## -remarks
+
+> [!NOTE]
+> The parameters are defined in the header with no names: `typedef BOOL (CALLBACK* GRAYSTRINGPROC)(HDC, LPARAM, int);`. Therefore, the syntax block lists them as `unnamedParam1` - `unnamedParam3`. You can name these parameters anything in your app. However, they are usually named as shown in the parameter descriptions.
 
 The callback function must draw an image relative to the coordinates (0,0).
 
 ## -see-also
 
-<a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>
+[GrayString](/windows/desktop/api/winuser/nf-winuser-graystringa)
 
+[Painting and Drawing Functions](/windows/desktop/gdi/painting-and-drawing-functions)
 
-
-<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
-
-
-
-<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+[Painting and Drawing Overview](/windows/desktop/gdi/painting-and-drawing)

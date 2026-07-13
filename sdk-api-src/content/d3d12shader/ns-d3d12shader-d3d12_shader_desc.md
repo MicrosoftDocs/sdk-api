@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12shader._D3D12_SHADER_DESC
 title: D3D12_SHADER_DESC (d3d12shader.h)
-description: Describes a shader.
+description: Describes a shader. (D3D12_SHADER_DESC)
 helpviewer_keywords: ["D3D12_SHADER_DESC","D3D12_SHADER_DESC structure","d3d12shader/D3D12_SHADER_DESC","direct3d12.d3d12_shader_desc"]
 old-location: direct3d12\d3d12_shader_desc.htm
 tech.root: direct3d12

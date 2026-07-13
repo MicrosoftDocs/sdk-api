@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.Clone
 title: IXpsOMPath::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMPath.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","Clone method","IXpsOMPath.Clone","IXpsOMPath::Clone","xps.ixpsompath_clone","xpsobjectmodel/IXpsOMPath::Clone"]
 old-location: xps\ixpsompath_clone.htm
 tech.root: xps
@@ -108,7 +108,7 @@ Not enough memory to perform this operation.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

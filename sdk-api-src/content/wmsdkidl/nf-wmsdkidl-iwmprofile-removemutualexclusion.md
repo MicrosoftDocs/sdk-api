@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMProfile interface [windows Media Format]","RemoveMutua
 old-location: wmformat\iwmprofile_removemutualexclusion.htm
 tech.root: wmformat
 ms.assetid: eb453285-a4e5-48dd-a4d0-72d2e09badc2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMProfile interface [windows Media Format],RemoveMutualExclusion method, IWMProfile.RemoveMutualExclusion, IWMProfile2 interface [windows Media Format],RemoveMutualExclusion method, IWMProfile2::RemoveMutualExclusion, IWMProfile3 interface [windows Media Format],RemoveMutualExclusion method, IWMProfile3::RemoveMutualExclusion, IWMProfile::RemoveMutualExclusion, IWMProfileRemoveMutualExclusion, RemoveMutualExclusion, RemoveMutualExclusion method [windows Media Format], RemoveMutualExclusion method [windows Media Format],IWMProfile interface, RemoveMutualExclusion method [windows Media Format],IWMProfile2 interface, RemoveMutualExclusion method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_removemutualexclusion, wmsdkidl/IWMProfile2::RemoveMutualExclusion, wmsdkidl/IWMProfile3::RemoveMutualExclusion, wmsdkidl/IWMProfile::RemoveMutualExclusion
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,6 +55,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>RemoveMutualExclusion</b> method removes a mutual exclusion object from the profile.
 

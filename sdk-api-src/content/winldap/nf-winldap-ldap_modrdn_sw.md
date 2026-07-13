@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_modrdn_sW
 title: ldap_modrdn_sW function (winldap.h)
-description: Changes the relative distinguished name of an LDAP entry.
-helpviewer_keywords: ["_ldap_ldap_modrdn_s","ldap.ldap__modrdn__s","ldap.ldap_modrdn_s","ldap_modrdn_s","ldap_modrdn_s function [LDAP]","ldap_modrdn_sA","ldap_modrdn_sW","winldap/ldap_modrdn_s","winldap/ldap_modrdn_sA","winldap/ldap_modrdn_sW"]
+description: The ldap_modrdn_sW (Unicode) function (winldap.h) changes the relative distinguished name of an LDAP entry.  
+helpviewer_keywords: ["_ldap_ldap_modrdn_s", "ldap.ldap__modrdn__s", "ldap.ldap_modrdn_s", "ldap_modrdn_s", "ldap_modrdn_s function [LDAP]", "ldap_modrdn_sW", "winldap/ldap_modrdn_s", "winldap/ldap_modrdn_sW"]
 old-location: ldap\ldap_modrdn_s.htm
 tech.root: ldap
 ms.assetid: 0ea0c52d-5056-4ccf-bc64-87a2f0ebd0c5
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_modrdn_s, ldap.ldap__modrdn__s, ldap.ldap_modrdn_s, ldap_modrdn_s, ldap_modrdn_s function [LDAP], ldap_modrdn_sA, ldap_modrdn_sW, winldap/ldap_modrdn_s, winldap/ldap_modrdn_sA, winldap/ldap_modrdn_sW
 req.header: winldap.h
 req.include-header: 
@@ -95,7 +95,7 @@ Be aware that the <a href="/previous-versions/windows/desktop/api/winldap/nf-win
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_modrdn_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_modrdn_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

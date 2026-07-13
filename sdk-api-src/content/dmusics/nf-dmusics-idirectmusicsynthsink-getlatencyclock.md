@@ -4,7 +4,7 @@ title: IDirectMusicSynthSink::GetLatencyClock (dmusics.h)
 description: The GetLatencyClock method retrieves the latency clock, which measures the progress of the output audio stream.
 helpviewer_keywords: ["GetLatencyClock","GetLatencyClock method [Audio Devices]","GetLatencyClock method [Audio Devices]","IDirectMusicSynthSink interface","IDirectMusicSynthSink interface [Audio Devices]","GetLatencyClock method","IDirectMusicSynthSink.GetLatencyClock","IDirectMusicSynthSink::GetLatencyClock","audio.idirectmusicsynthsink_getlatencyclock","audmp-routines_13de73b3-d0c6-4693-a56c-919628c63efb.xml","dmusics/IDirectMusicSynthSink::GetLatencyClock"]
 old-location: audio\idirectmusicsynthsink_getlatencyclock.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 6f767ef2-6f7e-49b7-a169-09db49f55622
 ms.date: 12/05/2018
 ms.keywords: GetLatencyClock, GetLatencyClock method [Audio Devices], GetLatencyClock method [Audio Devices],IDirectMusicSynthSink interface, IDirectMusicSynthSink interface [Audio Devices],GetLatencyClock method, IDirectMusicSynthSink.GetLatencyClock, IDirectMusicSynthSink::GetLatencyClock, audio.idirectmusicsynthsink_getlatencyclock, audmp-routines_13de73b3-d0c6-4693-a56c-919628c63efb.xml, dmusics/IDirectMusicSynthSink::GetLatencyClock
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynthSink.GetLatencyClock
+archived: true
 ---
 
 # IDirectMusicSynthSink::GetLatencyClock

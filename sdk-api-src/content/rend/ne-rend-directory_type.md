@@ -58,11 +58,11 @@ The
 
 ## -enum-fields
 
-### -field DT_NTDS
+### -field DT_NTDS:1
 
 Directory type is NTDS.
 
-### -field DT_ILS
+### -field DT_ILS:2
 
 Directory type is ILS. The ILS directory type is valid only for Windows 2000 and not for Windows XP.
 

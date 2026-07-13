@@ -60,7 +60,7 @@ api_name:
 
 The <b>RemoveAll</b> method removes all the <a href="/windows/desktop/api/chptrarr/nl-chptrarr-chptrarray">CHPtrArray</a> members from this array.
 
-## -parameters
+
 
 ## -remarks
 

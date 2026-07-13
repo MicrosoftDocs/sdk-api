@@ -130,7 +130,7 @@ policy provider.
 </dl>
 </td>
 <td width="60%">
-Verify an SSL/TLS connection through Internet Explorer.
+Verify an SSL/TLS connection established by WinINet.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ For example, a trust provider might indicate that the subject is not trusted, or
 <td width="60%">
 The subject failed the specified verification action. Most trust providers return a more detailed error code that describes the reason for the failure.
 
-<div class="alert"><b>Note</b>  <p class="note">The <b>TRUST_E_SUBJECT_NOT_TRUSTED</b> return code may be returned depending on the value of the <b>EnableCertPaddingCheck</b> registry key under <b>HKLM\Software\Microsoft\Cryptography\Wintrust\Config</b>. If <b>EnableCertPaddingCheck</b> is set to "1", then an additional check is performed to verify that the <b>WIN_CERTIFICATE</b> structure does not contain extraneous information. The check validates that there is no non-zero data beyond the PKCS #7 structure. The <b>EnableCertPaddingCheck</b> key will be set to "1" by default on June 10, 2014. For more information, please refer to the following security advisory: <a href="/security-updates/SecurityAdvisories/2014/2915720">http://technet.microsoft.com/security/advisory/2915720#section1</a>.
+<div class="alert"><b>Note</b>  <p class="note">The <b>TRUST_E_SUBJECT_NOT_TRUSTED</b> return code may be returned depending on the value of the <b>EnableCertPaddingCheck</b> registry key under <b>HKLM\Software\Microsoft\Cryptography\Wintrust\Config</b>. If <b>EnableCertPaddingCheck</b> is set to "1", then an additional check is performed to verify that the <b>WIN_CERTIFICATE</b> structure does not contain extraneous information. The check validates that there is no non-zero data beyond the PKCS #7 structure.  For more information, please refer to the following security advisory: <a href="/security-updates/SecurityAdvisories/2014/2915720">http://technet.microsoft.com/security/advisory/2915720#section1</a>.
 
 </div>
 <div> </div>
@@ -261,7 +261,7 @@ The trust provider does not support the form specified for the subject.
 
 The <b>WinVerifyTrust</b> function enables applications to invoke a <a href="/windows/desktop/SecGloss/t-gly">trust provider</a> to verify that a specified object satisfies the criteria of a specified verification operation. The <i>pgActionID</i> parameter identifies the verification operation, and the <i>pWinTrustData</i> parameter identifies the object whose trust is to be verified. A trust provider is a DLL registered with the operating system. A call to <b>WinVerifyTrust</b> forwards that call to the registered trust provider, if there is one, that supports that specified action identifier.
 
-For example, the Software Publisher Trust Provider can verify that an executable image file comes from a trusted software publisher and that the file has not been modified since it was published. In this case, the <i>pWinTrustData</i> parameter specifies the name of the file and the type of file, such as a Microsoft <a href="/windows/desktop/SecGloss/p-gly">Portable Executable</a> image file.
+For example, the Software Publisher Trust Provider can verify that an executable image file comes from a trusted software publisher and that the code in the file has not been modified since it was signed. In this case, the <i>pWinTrustData</i> parameter specifies the name of the file and the type of file, such as a Microsoft <a href="/windows/desktop/SecGloss/p-gly">Portable Executable</a> image file.
 
 Each trust provider supports a specific set of actions that it can evaluate. Each action has a GUID that identifies it. A trust provider can support any number of action identifiers, but two trust providers cannot support the same action identifier.
 

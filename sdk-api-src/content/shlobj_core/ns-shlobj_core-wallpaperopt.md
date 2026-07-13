@@ -102,7 +102,7 @@ The wallpaper style; one of the following values:
 
 #### WPSTYLE_SPAN (0x5)
 
-0x5. <b>Introduced in Windows 8</b>. Spans the wallpaper across multiple monitors. When this value is set, the <b>WPSTYLE_MAX</b> value must also be set.
+0x5. <b>Introduced in Windows 8</b>. Spans the wallpaper across multiple monitors.
 
 
 

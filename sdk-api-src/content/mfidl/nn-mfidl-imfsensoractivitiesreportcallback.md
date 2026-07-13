@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -57,10 +57,7 @@ Interface implemented by the client to receive callbacks when sensor activity re
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorActivitiesReportCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivitiesReportCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFSensorActivitiesReportCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivitiesReportCallback</b> also has these types of members:
 
 ## -remarks
 

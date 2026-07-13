@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolWait
 title: SetThreadpoolWait function (threadpoolapiset.h)
-description: Sets the wait object�replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
+description: Sets the wait object — replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires. (SetThreadpoolWait)
 helpviewer_keywords: ["SetThreadpoolWait","SetThreadpoolWait function","base.setthreadpoolwait","threadpoolapiset/SetThreadpoolWait","winbase/SetThreadpoolWait"]
 old-location: base\setthreadpoolwait.htm
 tech.root: backup
@@ -9,7 +9,7 @@ ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolWait, SetThreadpoolWait function, base.setthreadpoolwait, threadpoolapiset/SetThreadpoolWait, winbase/SetThreadpoolWait
 req.header: threadpoolapiset.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -69,7 +69,9 @@ A handle.
 
 If this parameter is NULL, the wait object will cease to queue new callbacks (but callbacks already queued will still occur).
 
-If this parameter is not NULL, it must refer to a valid waitable object.
+If this parameter is not NULL, it must refer to a valid waitable object. 
+
+Mutex is not supported. If a handle to a mutex is passed in, the thread pool raises a STATUS_THREADPOOL_HANDLE_EXCEPTION exception and ExceptionRecord.ExceptionInformation[0] will be equal to STATUS_INVALID_PARAMETER_3.
 
 If this handle is closed while the wait is still pending, the function's behavior is undefined. If the wait is still pending and the handle must be closed, use <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a> to cancel the wait and then close the handle.
 

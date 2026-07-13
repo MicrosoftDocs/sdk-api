@@ -58,7 +58,7 @@ The
 
 ### -param p [in, out, optional]
 
-A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
+A pointer to a <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_recorda">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
 
 ### -param t [in]
 

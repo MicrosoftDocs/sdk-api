@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_UAV
 title: D3D11_TEX2D_UAV (d3d11.h)
-description: Describes a unordered-access 2D texture resource.
+description: Describes a unordered-access 2D texture resource. (D3D11_TEX2D_UAV)
 helpviewer_keywords: ["65641581-384e-db89-9ea9-db917e580788","D3D11_TEX2D_UAV","D3D11_TEX2D_UAV structure [Direct3D 11]","d3d11/D3D11_TEX2D_UAV","direct3d11.d3d11_tex2d_uav"]
 old-location: direct3d11\d3d11_tex2d_uav.htm
 tech.root: direct3d11

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrToIntExW
 title: StrToIntExW function (shlwapi.h)
-description: Converts a string representing a decimal or hexadecimal number to an integer.
-helpviewer_keywords: ["STIF_DEFAULT","STIF_SUPPORT_HEX","StrToIntEx","StrToIntEx function [Windows Shell]","StrToIntExA","StrToIntExW","_win32_StrToIntEx","shell.StrToIntEx","shlwapi/StrToIntEx","shlwapi/StrToIntExA","shlwapi/StrToIntExW"]
+description: Converts a string representing a decimal or hexadecimal number to an integer. (Unicode)
+helpviewer_keywords: ["STIF_DEFAULT", "STIF_SUPPORT_HEX", "StrToIntEx", "StrToIntEx function [Windows Shell]", "StrToIntExW", "_win32_StrToIntEx", "shell.StrToIntEx", "shlwapi/StrToIntEx", "shlwapi/StrToIntExW"]
 old-location: shell\StrToIntEx.htm
 tech.root: shell
 ms.assetid: 2e8286c7-585f-441b-904b-f3b4e8cf95f9
@@ -120,11 +120,23 @@ The string pointed to by the <i>pszString</i> parameter must have one of the fol
 
 <ul>
 <li>This form is accepted as a decimal value under either flag.
-                        <pre class="syntax" xml:space="preserve"><code>(optional white space)(optional sign)(one or more decimal digits)</code></pre>
+                        
+``` syntax
+(optional white space)(optional sign)(one or more decimal digits)
+```
+
 </li>
 <li>These forms are required for hexadecimal values when the STIF_SUPPORT_HEX flag is passed.
-                        <pre class="syntax" xml:space="preserve"><code>(optional white space)(optional sign)0x(one or more hexadecimal digits)</code></pre>
-<pre class="syntax" xml:space="preserve"><code>(optional white space)(optional sign)0X(one or more hexadecimal digits)</code></pre>
+                        
+``` syntax
+(optional white space)(optional sign)0x(one or more hexadecimal digits)
+```
+
+
+``` syntax
+(optional white space)(optional sign)0X(one or more hexadecimal digits)
+```
+
 </li>
 </ul>
 The optional sign can be the character '-' or '+'; if omitted, the sign is assumed to be positive.
@@ -137,5 +149,5 @@ If the string pointed to by <i>pszString</i> contains an invalid character, that
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrToIntEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrToIntEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -64,13 +64,10 @@ The LPARAM of the key event. For more information about this parameter, see the 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink
-      </a>
-
-
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink</a>
 <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

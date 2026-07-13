@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12shader._D3D12_SHADER_INPUT_BIND_DESC
 title: D3D12_SHADER_INPUT_BIND_DESC (d3d12shader.h)
-description: Describes how a shader resource is bound to a shader input.
+description: Describes how a shader resource is bound to a shader input. (D3D12_SHADER_INPUT_BIND_DESC)
 helpviewer_keywords: ["D3D12_SHADER_INPUT_BIND_DESC","D3D12_SHADER_INPUT_BIND_DESC structure","d3d12shader/D3D12_SHADER_INPUT_BIND_DESC","direct3d12.d3d12_shader_input_bind_desc"]
 old-location: direct3d12\d3d12_shader_input_bind_desc.htm
 tech.root: direct3d12
@@ -88,6 +88,7 @@ A <a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_srv_dimension">D3D_SR
 
 The number of samples for a multisampled texture; when a texture isn't multisampled, the value is set to -1 (0xFFFFFFFF).
             This is zero if the shader resource is not a recognized texture.
+            If the shader resource is a structured buffer, the field contains the stride of the type in bytes.
 
 ### -field Space
 

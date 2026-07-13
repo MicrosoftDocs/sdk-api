@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._currencyfmtA
 title: CURRENCYFMTA (winnls.h)
-description: Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale.
+description: Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale. (ANSI)
 helpviewer_keywords: ["*LPCURRENCYFMTA","CURRENCYFMT","CURRENCYFMT structure [Internationalization for Windows Applications]","CURRENCYFMTA","LPCURRENCYFMT","LPCURRENCYFMT structure pointer [Internationalization for Windows Applications]","_win32_CURRENCYFMT_str","intl.currencyfmt","winnls/CURRENCYFMT","winnls/LPCURRENCYFMT"]
 old-location: intl\currencyfmt.htm
 tech.root: Intl
@@ -104,4 +104,4 @@ Pointer to a null-terminated currency symbol string.
 ## -remarks
 
 > [!NOTE]
-> The winnls.h header defines CURRENCYFMT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines CURRENCYFMT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

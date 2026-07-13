@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIBusyA
 title: OleUIBusyA function (oledlg.h)
-description: Invokes the standard Busy dialog box, allowing the user to manage concurrency.
-helpviewer_keywords: ["OleUIBusy","OleUIBusy function [COM]","OleUIBusyA","OleUIBusyW","_ole_OleUIBusy","com.oleuibusy","oledlg/OleUIBusy","oledlg/OleUIBusyA","oledlg/OleUIBusyW"]
+description: Invokes the standard Busy dialog box, allowing the user to manage concurrency. (ANSI)
+helpviewer_keywords: ["OleUIBusyA", "oledlg/OleUIBusyA"]
 old-location: com\oleuibusy.htm
 tech.root: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
@@ -435,7 +435,7 @@ The standard OLE Server <b>Busy</b> dialog box notifies the user that the server
 
 
 > [!NOTE]
-> The oledlg.h header defines OLEUIBUSY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUIBUSY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthInfoA
 title: RpcBindingInqAuthInfoA function (rpcdce.h)
-description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle.
-helpviewer_keywords: ["RpcBindingInqAuthInfo","RpcBindingInqAuthInfo function [RPC]","RpcBindingInqAuthInfoA","RpcBindingInqAuthInfoW","_rpc_rpcbindinginqauthinfo","rpc.rpcbindinginqauthinfo","rpcdce/RpcBindingInqAuthInfo","rpcdce/RpcBindingInqAuthInfoA","rpcdce/RpcBindingInqAuthInfoW"]
+description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle. (RpcBindingInqAuthInfoA)
+helpviewer_keywords: ["RpcBindingInqAuthInfoA", "rpcdce/RpcBindingInqAuthInfoA"]
 old-location: rpc\rpcbindinginqauthinfo.htm
 tech.root: Rpc
 ms.assetid: becb2c58-bfc7-47a7-ad2f-947ecf7bba2b
@@ -175,7 +175,7 @@ The RPC run-time library allocates memory for the returned <i>ServerPrincName</i
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcBindingInqAuthInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcBindingInqAuthInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

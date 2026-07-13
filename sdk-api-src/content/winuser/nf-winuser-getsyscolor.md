@@ -82,6 +82,7 @@ The display element whose color is to be retrieved. This parameter can be one of
 <td width="60%">
 Dark shadow for three-dimensional display elements.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -92,7 +93,6 @@ Dark shadow for three-dimensional display elements.
 </td>
 <td width="60%">
 Face color for three-dimensional display elements and for dialog box backgrounds.
-
 </td>
 </tr>
 <tr>
@@ -104,6 +104,7 @@ Face color for three-dimensional display elements and for dialog box backgrounds
 <td width="60%">
 Highlight color for three-dimensional display elements (for edges facing the light source.)
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -115,6 +116,7 @@ Highlight color for three-dimensional display elements (for edges facing the lig
 <td width="60%">
 Highlight color for three-dimensional display elements (for edges facing the light source.)
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -126,6 +128,7 @@ Highlight color for three-dimensional display elements (for edges facing the lig
 <td width="60%">
 Light color for three-dimensional display elements (for edges facing the light source.)
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -137,6 +140,7 @@ Light color for three-dimensional display elements (for edges facing the light s
 <td width="60%">
 Shadow color for three-dimensional display elements (for edges facing away from the light source).
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -148,6 +152,7 @@ Shadow color for three-dimensional display elements (for edges facing away from 
 <td width="60%">
 Active window border.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -159,13 +164,11 @@ Active window border.
 <td width="60%">
 Active window title bar. 
 
-
 The associated foreground color is <b>COLOR_CAPTIONTEXT</b>.
 
 Specifies the left side color in the color gradient of an active window's title bar if the gradient effect is enabled.
 
-
-
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -177,6 +180,7 @@ Specifies the left side color in the color gradient of an active window's title 
 <td width="60%">
 Background color of multiple document interface (MDI) applications.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -188,6 +192,7 @@ Background color of multiple document interface (MDI) applications.
 <td width="60%">
 Desktop.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -199,28 +204,31 @@ Desktop.
 <td width="60%">
 Face color for three-dimensional display elements and for dialog box backgrounds. The associated foreground color is <b>COLOR_BTNTEXT</b>.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="_COLOR_BTNHIGHLIGHT"></a><a id="_color_btnhighlight"></a><dl>
-<dt><b> COLOR_BTNHIGHLIGHT</b></dt>
+<dt><b>COLOR_BTNHIGHLIGHT</b></dt>
 <dt>20</dt>
 </dl>
 </td>
 <td width="60%">
 Highlight color for three-dimensional display elements (for edges facing the light source.)
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="_COLOR_BTNHILIGHT"></a><a id="_color_btnhilight"></a><dl>
-<dt><b> COLOR_BTNHILIGHT</b></dt>
+<dt><b>COLOR_BTNHILIGHT</b></dt>
 <dt>20</dt>
 </dl>
 </td>
 <td width="60%">
 Highlight color for three-dimensional display elements (for edges facing the light source.)
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -232,6 +240,7 @@ Highlight color for three-dimensional display elements (for edges facing the lig
 <td width="60%">
 Shadow color for three-dimensional display elements (for edges facing away from the light source).
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -254,6 +263,7 @@ Text on push buttons. The associated background color is COLOR_BTNFACE.
 <td width="60%">
 Text in caption, size box, and scroll bar arrow box. The associated background color is COLOR_ACTIVECAPTION.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -265,6 +275,7 @@ Text in caption, size box, and scroll bar arrow box. The associated background c
 <td width="60%">
 Desktop.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -277,6 +288,7 @@ Desktop.
 Right side color in the color gradient of an active window's title bar. COLOR_ACTIVECAPTION specifies the left side color. Use SPI_GETGRADIENTCAPTIONS with the 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function to determine whether the gradient effect is enabled.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -288,6 +300,7 @@ Right side color in the color gradient of an active window's title bar. COLOR_AC
 <td width="60%">
 Right side color in the color gradient of an inactive window's title bar. COLOR_INACTIVECAPTION specifies the left side color.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -343,6 +356,7 @@ Color for a hyperlink or hot-tracked item. The associated background color is CO
 <td width="60%">
 Inactive window border.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -352,13 +366,13 @@ Inactive window border.
 </dl>
 </td>
 <td width="60%">
-Inactive window caption. 
-
+Inactive window caption.
 
 The associated foreground color is COLOR_INACTIVECAPTIONTEXT.
 
 Specifies the left side color in the color gradient of an inactive window's title bar if the gradient effect is enabled. 
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -370,6 +384,7 @@ Specifies the left side color in the color gradient of an inactive window's titl
 <td width="60%">
 Color of text in an inactive caption. The associated background color is COLOR_INACTIVECAPTION.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -381,6 +396,7 @@ Color of text in an inactive caption. The associated background color is COLOR_I
 <td width="60%">
 Background color for tooltip controls. The associated foreground color is COLOR_INFOTEXT.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -392,6 +408,7 @@ Background color for tooltip controls. The associated foreground color is COLOR_
 <td width="60%">
 Text color for tooltip controls. The associated background color is COLOR_INFOBK.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -403,6 +420,7 @@ Text color for tooltip controls. The associated background color is COLOR_INFOBK
 <td width="60%">
 Menu background. The associated foreground color is COLOR_MENUTEXT.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -415,7 +433,7 @@ Menu background. The associated foreground color is COLOR_MENUTEXT.
 The color used to highlight menu items when the menu appears as a flat menu (see 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>). The highlighted menu item is outlined with COLOR_HIGHLIGHT.
 
-<b>Windows 2000:  </b>This value is not supported.
+<b>Windows 2000, Windows 10 or greater:  </b>This value is not supported.
 
 </td>
 </tr>
@@ -429,7 +447,7 @@ The color used to highlight menu items when the menu appears as a flat menu (see
 The background color for the menu bar when menus appear as flat menus (see 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>). However, COLOR_MENU continues to specify the background color of the menu popup.
 
-<b>Windows 2000:  </b>This value is not supported.
+<b>Windows 2000, Windows 10 or greater:  </b>This value is not supported.
 
 </td>
 </tr>
@@ -442,6 +460,7 @@ The background color for the menu bar when menus appear as flat menus (see
 <td width="60%">
 Text in menus. The associated background color is COLOR_MENU.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -453,6 +472,7 @@ Text in menus. The associated background color is COLOR_MENU.
 <td width="60%">
 Scroll bar gray area.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -475,6 +495,7 @@ Window background. The associated foreground colors are COLOR_WINDOWTEXT and COL
 <td width="60%">
 Window frame.
 
+<b>Windows 10 or greater:</b> This value is not supported.
 </td>
 </tr>
 <tr>
@@ -496,9 +517,7 @@ Type: <b>DWORD</b>
 
 The function returns the red, green, blue (RGB) color value of the given element.
 
-If the <i>nIndex</i> parameter is out of range, the return value is zero. Because zero is also a valid RGB value, you cannot use 
-<b>GetSysColor</b> to determine whether a system color is supported by the current platform. Instead, use the 
-<a href="/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a> function, which returns <b>NULL</b> if the color is not supported.
+If the <i>nIndex</i> parameter is out of range, the return value is zero. Because zero is also a valid RGB value, you cannot use <b>GetSysColor</b> to determine whether a system color is supported by the current platform. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a> function, which returns <b>NULL</b> if the color is not supported.
 
 ## -remarks
 
@@ -506,11 +525,35 @@ To display the component of the RGB  value, use the <a href="/windows/desktop/ap
 
 System colors for monochrome displays are usually interpreted as shades of gray.
 
-To paint with a system color brush, an application should use <code>GetSysColorBrush(nIndex)</code>, instead of 
-<code>CreateSolidBrush(GetSysColor(nIndex))</code>, because <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a> returns a cached brush, instead of allocating a new one.
+To paint with a system color brush, an application should use <code>GetSysColorBrush(nIndex)</code>, instead of <code>CreateSolidBrush(GetSysColor(nIndex))</code>, because <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a> returns a cached brush, instead of allocating a new one.
 
-Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="https://msdn.microsoft.com/library/aa511283.aspx">Color</a>.
+Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="/windows/win32/uxguide/vis-color">Color - Win32</a> and <a href="/windows/apps/design/signature-experiences/color">Color in Windows 11</a>.
 
+### Windows 10/11 system colors
+
+This table shows the values that are supported in Windows 10 and Windows 11 with color values from the Windows 11 _Aquatic_ contrast theme.
+
+
+| Color swatch | Description |
+|---------|---------|
+|:::image type="icon" source="images/sys-color/aquatic-color-window.png":::|  <b>COLOR_WINDOW</b></br>Background of pages, panes, popups, and windows.<br/><br/>Pair with COLOR_WINDOWTEXT       |
+|:::image type="icon" source="images/sys-color/aquatic-color-windowtext.png"::: | <b>COLOR_WINDOWTEXT</b></br>Headings, body copy, lists, placeholder text, app and window borders, any UI that can't be interacted with.</br></br>Pair with COLOR_WINDOW        |
+|:::image type="icon" source="images/sys-color/aquatic-color-hotlight.png":::| <b>COLOR_HOTLIGHT</b></br>Hyperlinks.</br></br>Pair with COLOR_WINDOW        |
+|:::image type="icon" source="images/sys-color/aquatic-color-graytext.png":::|  <b>COLOR_GRAYTEXT</b></br>Inactive (disabled) UI.</br></br>Pair with COLOR_WINDOW       |
+|:::image type="icon" source="images/sys-color/aquatic-color-highlighttext.png":::| <b>COLOR_HIGHLIGHTTEXT</b></br>Foreground color for text or UI that is in selected, interacted with (hover, pressed), or in progress.</br></br>Pair with COLOR_HIGHLIGHT        |
+|:::image type="icon" source="images/sys-color/aquatic-color-highlight.png":::| <b>COLOR_HIGHLIGHT</b></br>Background or accent color for UI that is in selected, interacted with (hover, pressed), or in progress.</br></br>Pair with COLOR_HIGHLIGHTTEXT        |
+|:::image type="icon" source="images/sys-color/aquatic-color-btntext.png":::| <b>COLOR_BTNTEXT</b></br>Foreground color for buttons and any UI that can be interacted with.</br></br>Pair with COLOR_3DFACE        |
+|:::image type="icon" source="images/sys-color/aquatic-color-3dface.png":::| <b>COLOR_3DFACE</b></br>Background color for buttons and any UI that can be interacted with.</br></br>Pair with COLOR_BTNTEXT        |
+
+These images show how the colors appear when used on a background set to **COLOR_WINDOW**.
+
+| Example | Values |
+|---------|---------|
+|:::image type="content" source="images/sys-color/aquatic-example-windowtext.png" alt-text="A window with text using the window text color." border="false"::: | <b>COLOR_WINDOWTEXT</b> |
+|:::image type="content" source="images/sys-color/aquatic-example-hotlight.png" alt-text="A window with hyperlink text using the hot light color." border="false":::| <b>COLOR_HOTLIGHT</b> |
+|:::image type="content" source="images/sys-color/aquatic-example-graytext.png" alt-text="A window with inactive text using the gray text color." border="false":::| <b>COLOR_GRAYTEXT</b> |
+|:::image type="content" source="images/sys-color/aquatic-example-highlighttext+highlight.png" alt-text="A window with text using the highlight text color on the highlight color." border="false":::|<b>COLOR_HIGHLIGHTTEXT + HIGHLIGHT</b> |
+|:::image type="content" source="images/sys-color/aquatic-example-btntext+3dface.png" alt-text="A window with a button using the 3d face color and button text using the button text color." border="false":::| <b>COLOR_BTNTEXT + COLOR_3DFACE</b>
 
 #### Examples
 

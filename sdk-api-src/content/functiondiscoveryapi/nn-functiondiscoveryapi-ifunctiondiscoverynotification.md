@@ -56,10 +56,7 @@ This interface is implemented by the client program  to support asynchronous que
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionDiscoveryNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscoveryNotification</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFunctionDiscoveryNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscoveryNotification</b> also has these types of members:
 
 ## -remarks
 
@@ -74,7 +71,9 @@ This interface must be implemented by the client program in order to receive not
 
 The examples that appear on individual method pages are based on the following class declaration.
 
-<pre class="syntax" xml:space="preserve"><code>class CMyNotificationListener : public CFunctionDiscoveryNotificationWrapper
+
+``` syntax
+class CMyNotificationListener : public CFunctionDiscoveryNotificationWrapper
 {
 public:
     CMyNotificationListener() {
@@ -93,4 +92,6 @@ public:
 private:
     HANDLE m_hAddEvent, m_hRemoveEvent, m_hChangeEvent;
 };
-</code></pre>
+
+```
+

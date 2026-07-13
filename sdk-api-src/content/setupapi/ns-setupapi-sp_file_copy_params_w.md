@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_FILE_COPY_PARAMS_W
 title: SP_FILE_COPY_PARAMS_W (setupapi.h)
-description: The SP_FILE_COPY_PARAMS structure describes a single file copy operation.
+description: The SP_FILE_COPY_PARAMS structure describes a single file copy operation. (Unicode)
 helpviewer_keywords: ["*PSP_FILE_COPY_PARAMS_W","PSP_FILE_COPY_PARAMS","PSP_FILE_COPY_PARAMS structure pointer [Setup API]","SP_COPY_DELETESOURCE","SP_COPY_FORCE_IN_USE","SP_COPY_FORCE_NEWER","SP_COPY_FORCE_NOOVERWRITE","SP_COPY_IN_USE_NEEDS_REBOOT","SP_COPY_LANGUAGEAWARE","SP_COPY_NEWER_ONLY","SP_COPY_NEWER_OR_SAME","SP_COPY_NODECOMP","SP_COPY_NOOVERWRITE","SP_COPY_NOSKIP","SP_COPY_REPLACEONLY","SP_COPY_SOURCEPATH_ABSOLUTE","SP_COPY_SOURCE_ABSOLUTE","SP_COPY_WARNIFSKIP","SP_FILE_COPY_PARAMS","SP_FILE_COPY_PARAMS structure [Setup API]","SP_FILE_COPY_PARAMS_W","_setupapi_sp_file_copy_params","setup.sp_file_copy_params","setupapi/PSP_FILE_COPY_PARAMS","setupapi/SP_FILE_COPY_PARAMS"]
 old-location: setup\sp_file_copy_params.htm
 tech.root: setup
@@ -283,4 +283,4 @@ An optional Security Descriptor String specifying the ACL to apply to the file.
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SP_FILE_COPY_PARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SP_FILE_COPY_PARAMS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

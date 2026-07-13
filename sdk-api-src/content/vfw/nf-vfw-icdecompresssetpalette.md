@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDecompressSetPalette","ICDecompressSetPalette macro [Wi
 old-location: multimedia\icdecompresssetpalette.htm
 tech.root: Multimedia
 ms.assetid: a3c4b04f-23a5-4499-b76e-50ab4565857d
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDecompressSetPalette, ICDecompressSetPalette macro [Windows Multimedia], _win32_ICDecompressSetPalette, multimedia.icdecompresssetpalette, vfw/ICDecompressSetPalette
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # ICDecompressSetPalette macro
 
+## -syntax
+
+```cpp
+DWORD ICDecompressSetPalette(
+     hic,
+     lpbiPalette
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the decompression driver can precisely decompress images to the suggested palette using the set of colors as they are arranged in the palette. Returns ICERR_UNSUPPORTED otherwise.
+
 
 ## -description
 
@@ -60,7 +75,7 @@ Handle to a decompressor.
 
 ### -param lpbiPalette
 
-Pointer to a <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure whose color table contains the colors that should be used if possible. You can specify zero to use the default set of output colors.
+Pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure whose color table contains the colors that should be used if possible. You can specify zero to use the default set of output colors.
 
 ## -remarks
 

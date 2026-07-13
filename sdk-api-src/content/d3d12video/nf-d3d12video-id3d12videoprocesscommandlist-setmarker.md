@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.SetMarker
 title: ID3D12VideoProcessCommandList::SetMarker
-description: For internal use only. Not intended to be called directl
+description: For internal use only. Not intended to be called directly
 helpviewer_keywords: ["ID3D12VideoProcessCommandList::SetMarker","SetMarker","ID3D12VideoProcessCommandList.SetMarker","ID3D12VideoProcessCommandList::SetMarker","ID3D12VideoProcessCommandList.SetMarker"]
 tech.root: mf
 ms.assetid: 207d33d0-1da3-41e9-a8ba-2210f907d25e

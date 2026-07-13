@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_NonMembers
 title: IFsrmFileGroup::get_NonMembers (fsrmscreen.h)
-description: Retrieves or sets the filename patterns that determine the files that are excluded from the file group.
+description: Retrieves or sets the filename patterns that determine the files that are excluded from the file group. (Get)
 helpviewer_keywords: ["IFsrmFileGroup interface [File Server Resource Manager]","NonMembers property","IFsrmFileGroup.NonMembers","IFsrmFileGroup.get_NonMembers","IFsrmFileGroup::NonMembers","IFsrmFileGroup::get_NonMembers","IFsrmFileGroup::put_NonMembers","NonMembers property [File Server Resource Manager]","NonMembers property [File Server Resource Manager]","IFsrmFileGroup interface","fs.ifsrmfilegroup_nonmembers","fsrm.ifsrmfilegroup_nonmembers","fsrmscreen/IFsrmFileGroup::NonMembers","fsrmscreen/IFsrmFileGroup::get_NonMembers","fsrmscreen/IFsrmFileGroup::put_NonMembers","get_NonMembers"]
 old-location: fsrm\ifsrmfilegroup_nonmembers.htm
 tech.root: fsrm

@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetCurSel","TabCtrl_GetCurSel macro [Windows Cont
 old-location: controls\TabCtrl_GetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getcursel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetCurSel, TabCtrl_GetCurSel macro [Windows Controls], _win32_TabCtrl_GetCurSel, _win32_TabCtrl_GetCurSel_cpp, commctrl/TabCtrl_GetCurSel, controls.TabCtrl_GetCurSel, controls._win32_TabCtrl_GetCurSel
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TabCtrl_GetCurSel macro
+
+## -syntax
+
+```cpp
+int TabCtrl_GetCurSel(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the selected tab if successful, or -1 if no tab is selected.
 
 
 ## -description

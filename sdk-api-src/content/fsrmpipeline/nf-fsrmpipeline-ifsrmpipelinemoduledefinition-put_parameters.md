@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Parameters
 title: IFsrmPipelineModuleDefinition::put_Parameters (fsrmpipeline.h)
-description: The optional parameters to pass to the module.
+description: The optional parameters to pass to the module. (Put)
 helpviewer_keywords: ["IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","Parameters property","IFsrmPipelineModuleDefinition.Parameters","IFsrmPipelineModuleDefinition.put_Parameters","IFsrmPipelineModuleDefinition::Parameters","IFsrmPipelineModuleDefinition::get_Parameters","IFsrmPipelineModuleDefinition::put_Parameters","Parameters property [File Server Resource Manager]","Parameters property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","fs.ifsrmpipelinemoduledefinition_parameters","fsrm.ifsrmpipelinemoduledefinition_parameters","fsrmpipeline/IFsrmPipelineModuleDefinition::Parameters","fsrmpipeline/IFsrmPipelineModuleDefinition::get_Parameters","fsrmpipeline/IFsrmPipelineModuleDefinition::put_Parameters","put_Parameters"]
 old-location: fsrm\ifsrmpipelinemoduledefinition_parameters.htm
 tech.root: fsrm

@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.BackupEventLogW
 title: BackupEventLogW function (winbase.h)
-description: Saves the specified event log to a backup file.
-helpviewer_keywords: ["BackupEventLog","BackupEventLog function","BackupEventLogA","BackupEventLogW","_win32_backupeventlog","base.backupeventlog","winbase/BackupEventLog","winbase/BackupEventLogA","winbase/BackupEventLogW"]
+description: Saves the specified event log to a backup file. (Unicode)
+helpviewer_keywords: ["BackupEventLog", "BackupEventLog function", "BackupEventLogW", "_win32_backupeventlog", "base.backupeventlog", "winbase/BackupEventLog", "winbase/BackupEventLogW"]
 old-location: base\backupeventlog.htm
 tech.root: base
 ms.assetid: 5cfd5bad-4401-4abd-9e81-5f139e4ecf73
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-eventlog-l1-1-2.dll
  - Advapi32.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
 api_name:
@@ -83,7 +84,7 @@ The <b>BackupEventLog</b> function fails with the ERROR_PRIVILEGE_NOT_HELD error
 
 
 > [!NOTE]
-> The winbase.h header defines BackupEventLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines BackupEventLog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

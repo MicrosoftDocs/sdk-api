@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_LogResult
 title: IFsrmActionCommand::get_LogResult (fsrm.h)
-description: Retrieves or sets a value that determines whether FSRM logs an Application event that contains the return code of the executable program.
+description: Retrieves or sets a value that determines whether FSRM logs an Application event that contains the return code of the executable program. (Get)
 helpviewer_keywords: ["IFsrmActionCommand interface [File Server Resource Manager]","LogResult property","IFsrmActionCommand.LogResult","IFsrmActionCommand.get_LogResult","IFsrmActionCommand::LogResult","IFsrmActionCommand::get_LogResult","IFsrmActionCommand::put_LogResult","LogResult property [File Server Resource Manager]","LogResult property [File Server Resource Manager]","IFsrmActionCommand interface","fs.ifsrmactioncommand_logresult","fsrm.ifsrmactioncommand_logresult","fsrm/IFsrmActionCommand::LogResult","fsrm/IFsrmActionCommand::get_LogResult","fsrm/IFsrmActionCommand::put_LogResult","get_LogResult"]
 old-location: fsrm\ifsrmactioncommand_logresult.htm
 tech.root: fsrm

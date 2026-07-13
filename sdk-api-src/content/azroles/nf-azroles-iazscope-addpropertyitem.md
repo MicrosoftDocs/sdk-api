@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.AddPropertyItem
 title: IAzScope::AddPropertyItem (azroles.h)
-description: Adds the specified principal to the specified list of principals.
+description: Adds the specified principal to the specified list of principals. (IAzScope.AddPropertyItem)
 helpviewer_keywords: ["AZ_PROP_POLICY_ADMINS","AZ_PROP_POLICY_ADMINS_NAME","AZ_PROP_POLICY_READERS","AZ_PROP_POLICY_READERS_NAME","AddPropertyItem","AddPropertyItem method [Security]","AddPropertyItem method [Security]","AzScope object","AddPropertyItem method [Security]","IAzScope interface","AzScope object [Security]","AddPropertyItem method","IAzScope interface [Security]","AddPropertyItem method","IAzScope.AddPropertyItem","IAzScope::AddPropertyItem","azroles/IAzScope::AddPropertyItem","security.iazscope_addpropertyitem"]
 old-location: security\iazscope_addpropertyitem.htm
 tech.root: security

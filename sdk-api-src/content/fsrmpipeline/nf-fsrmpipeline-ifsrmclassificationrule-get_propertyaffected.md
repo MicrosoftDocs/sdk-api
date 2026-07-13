@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.get_PropertyAffected
 title: IFsrmClassificationRule::get_PropertyAffected (fsrmpipeline.h)
-description: The name of the property that this rule affects.
+description: The name of the property that this rule affects. (Get)
 helpviewer_keywords: ["IFsrmClassificationRule interface [File Server Resource Manager]","PropertyAffected property","IFsrmClassificationRule.PropertyAffected","IFsrmClassificationRule.get_PropertyAffected","IFsrmClassificationRule::PropertyAffected","IFsrmClassificationRule::get_PropertyAffected","IFsrmClassificationRule::put_PropertyAffected","PropertyAffected property [File Server Resource Manager]","PropertyAffected property [File Server Resource Manager]","IFsrmClassificationRule interface","fs.ifsrmclassificationrule_propertyaffected","fsrm.ifsrmclassificationrule_propertyaffected","fsrmpipeline/IFsrmClassificationRule::PropertyAffected","fsrmpipeline/IFsrmClassificationRule::get_PropertyAffected","fsrmpipeline/IFsrmClassificationRule::put_PropertyAffected","get_PropertyAffected"]
 old-location: fsrm\ifsrmclassificationrule_propertyaffected.htm
 tech.root: fsrm

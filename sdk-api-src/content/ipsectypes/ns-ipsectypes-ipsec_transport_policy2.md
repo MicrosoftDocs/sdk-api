@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRANSPORT_POLICY2_
 title: IPSEC_TRANSPORT_POLICY2 (ipsectypes.h)
-description: Stores the quick mode negotiation policy for transport mode IPsec.
+description: Stores the quick mode negotiation policy for transport mode IPsec. (IPSEC_TRANSPORT_POLICY2)
 helpviewer_keywords: ["IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME","IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY","IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY","IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL","IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT","IPSEC_POLICY_FLAG_ND_BOUNDARY","IPSEC_POLICY_FLAG_ND_SECURE","IPSEC_TRANSPORT_POLICY2","IPSEC_TRANSPORT_POLICY2 structure [Filtering]","fwp.ipsec_transport_policy2","ipsectypes/IPSEC_TRANSPORT_POLICY2"]
 old-location: fwp\ipsec_transport_policy2.htm
 tech.root: fwp

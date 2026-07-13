@@ -56,11 +56,11 @@ Indicates the target mode of a relationship.
 
 ## -enum-fields
 
-### -field OPC_URI_TARGET_MODE_INTERNAL
+### -field OPC_URI_TARGET_MODE_INTERNAL:0
 
 The target of the relationship  is a part inside the package.
 
-### -field OPC_URI_TARGET_MODE_EXTERNAL
+### -field OPC_URI_TARGET_MODE_EXTERNAL:1
 
 The target of the relationship is a resource outside of the package.
 
@@ -74,7 +74,7 @@ For more information about relationships, see the <a href="/previous-versions/wi
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML standard</a>
 
 
 

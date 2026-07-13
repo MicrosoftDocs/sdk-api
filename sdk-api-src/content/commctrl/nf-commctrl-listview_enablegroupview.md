@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_EnableGroupView","ListView_EnableGroupView macro
 old-location: controls\ListView_EnableGroupView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_enablegroupview.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_EnableGroupView, ListView_EnableGroupView macro [Windows Controls], _win32_ListView_EnableGroupView, _win32_ListView_EnableGroupView_cpp, commctrl/ListView_EnableGroupView, controls.ListView_EnableGroupView, controls._win32_ListView_EnableGroupView
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,28 @@ api_name:
 ---
 
 # ListView_EnableGroupView macro
+
+## -syntax
+
+```cpp
+int ListView_EnableGroupView(
+   HWND hwnd,
+   BOOL fEnable
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns one of the following values:
+
+| Return code | Description |
+|---|---|
+| 0 | The ability to display list-view items as a group is already enabled or disabled. |
+| 1 | The state of the control was successfully changed. |
+| -1 | The operation failed. |
+
 
 
 ## -description

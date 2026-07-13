@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_SetSplitInfo","Button_SetSplitInfo macro [Windows 
 old-location: controls\Button_SetSplitInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setsplitinfo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_SetSplitInfo, Button_SetSplitInfo macro [Windows Controls], _shell_Button_SetSplitInfo, _shell_Button_SetSplitInfo_cpp, commctrl/Button_SetSplitInfo, controls.Button_SetSplitInfo, controls._shell_Button_SetSplitInfo
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Button_SetSplitInfo macro
+
+## -syntax
+
+```cpp
+BOOL Button_SetSplitInfo(
+  [in] HWND             hwnd,
+  [in] BUTTON_SPLITINFO *pInfo
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

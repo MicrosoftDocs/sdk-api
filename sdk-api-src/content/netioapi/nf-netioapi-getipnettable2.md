@@ -45,13 +45,9 @@ api_name:
  - GetIpNetTable2
 ---
 
-# GetIpNetTable2 function
-
-
 ## -description
 
-The 
-<b>GetIpNetTable2</b> function retrieves the IP neighbor table on the local computer.
+The <b>GetIpNetTable2</b> function retrieves the IP neighbor table on the local computer.
 
 ## -parameters
 
@@ -107,8 +103,7 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 
 ### -param Table [out]
 
-A pointer to a 
-<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure that contains a table of neighbor IP address entries on the local computer.
+A pointer to a pointer to a [MIB_IPNET_TABLE2](/windows/win32/api/netioapi/ns-netioapi-mib_ipnet_table2) structure that contains a table of neighbor IP address entries on the local computer.
 
 ## -returns
 
@@ -196,13 +191,9 @@ The <i>Family</i> parameter must be initialized to either <b>AF_INET</b>,  <b>AF
 
 Note that the returned <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_row2">MIB_IPNET_ROW2</a> array entry in the <b>Table</b> member of the <b>MIB_IPNET_TABLE2</b> structure. Padding for alignment may also be present between the <b>MIB_IPNET_ROW2</b> array entries. Any access to a <b>MIB_IPNET_ROW2</b> array entry should assume  padding may exist. 
 
-
-
-
-#### Examples
+## Examples
 
 The following example retrieves the IP neighbor table, then prints the values for IP neighbor row entries in the table.
-
 
 ```cpp
 #ifndef WIN32_LEAN_AND_MEAN
@@ -338,8 +329,6 @@ int main()
 
     exit(0);
 }
-
-
 ```
 
 ## -see-also

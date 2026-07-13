@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_SetTitle","PropSheet_SetTitle macro [Windows Co
 old-location: controls\PropSheet_SetTitle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_settitle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_SetTitle, PropSheet_SetTitle macro [Windows Controls], _win32_PropSheet_SetTitle, _win32_PropSheet_SetTitle_cpp, controls.PropSheet_SetTitle, controls._win32_PropSheet_SetTitle, prsht/PropSheet_SetTitle
 req.header: prsht.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # PropSheet_SetTitle macro
 
+## -syntax
+
+```cpp
+VOID PropSheet_SetTitle(
+   HWND   hDlg,
+   DWORD  wStyle,
+   LPTSTR lpszText
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
+
 
 ## -description
 
@@ -64,7 +80,7 @@ Handle to the property sheet.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Flag that indicates whether to include the prefix "Properties for" with the specified title string. If <i>dwStyle</i> is the PSH_PROPTITLE value, the prefix is included. Otherwise, the prefix is not used.
+Flag that indicates whether to include the prefix "Properties for" with the specified title string. If <i>wStyle</i> is the PSH_PROPTITLE value, the prefix is included. Otherwise, the prefix is not used.
 
 ### -param lpszText
 

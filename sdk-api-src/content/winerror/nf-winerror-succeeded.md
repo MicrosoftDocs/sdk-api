@@ -62,7 +62,11 @@ The status code. This value can be an <b>HRESULT</b> or an <b>SCODE</b>. A non-n
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define SUCCEEDED(hr) (((HRESULT)(hr)) &gt;= 0)</code></pre>
+
+``` syntax
+#define SUCCEEDED(hr) (((HRESULT)(hr)) >= 0)
+```
+
 
 ## -see-also
 

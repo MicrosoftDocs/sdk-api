@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiPersistentTargetW
 title: RemoveIScsiPersistentTargetW function (iscsidsc.h)
-description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal.
-helpviewer_keywords: ["RemoveIScsiPersistentTargetW","RemoveIscsiPersistentTarget","RemoveIscsiPersistentTarget function [iSCSI Discovery Library API]","RemoveIscsiPersistentTargetA","RemoveIscsiPersistentTargetW","iscsidisc.removeiscsipersistenttarget","iscsidsc/RemoveIscsiPersistentTarget","iscsidsc/RemoveIscsiPersistentTargetA","iscsidsc/RemoveIscsiPersistentTargetW"]
+description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal. (Unicode)
+helpviewer_keywords: ["RemoveIScsiPersistentTargetW", "RemoveIscsiPersistentTarget", "RemoveIscsiPersistentTarget function [iSCSI Discovery Library API]", "RemoveIscsiPersistentTargetW", "iscsidisc.removeiscsipersistenttarget", "iscsidsc/RemoveIscsiPersistentTarget", "iscsidsc/RemoveIscsiPersistentTargetW"]
 old-location: iscsidisc\removeiscsipersistenttarget.htm
 tech.root: iSCSIDisc
 ms.assetid: 2522f906-2a91-4d5b-8d6b-86e22c707046
@@ -103,4 +103,4 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines RemoveIScsiPersistentTarget as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines RemoveIScsiPersistentTarget as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

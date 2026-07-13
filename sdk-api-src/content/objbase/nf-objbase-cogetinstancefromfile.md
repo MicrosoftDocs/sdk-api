@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-private-l1-3-1.dll
+ - api-ms-win-core-com-private-l1-3-0.dll
+ - api-ms-win-core-com-private-l1-2-0.dll
  - ComBase.dll
  - API-MS-Win-Core-Com-private-l1-1-0.dll
  - API-MS-Win-Core-COM-Private-l1-1-1.dll

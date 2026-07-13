@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.lstrlenA
 title: lstrlenA function (winbase.h)
-description: Determines the length of the specified string (not including the terminating null character).
-helpviewer_keywords: ["_win32_lstrlen","_win32_lstrlen_cpp","lstrlen","lstrlen function [Menus and Other Resources]","lstrlenA","lstrlenW","menurc.lstrlen","winbase/lstrlen","winbase/lstrlenA","winbase/lstrlenW","winui._win32_lstrlen"]
+description: Determines the length of the specified string (not including the terminating null character). (ANSI)
+helpviewer_keywords: ["lstrlenA", "winbase/lstrlenA"]
 old-location: menurc\lstrlen.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrlen.htm
@@ -114,4 +114,4 @@ The function returns the length of the string, in characters. If <i>lpString</i>
 ## -remarks
 
 > [!NOTE]
-> The winbase.h header defines lstrlen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines lstrlen as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

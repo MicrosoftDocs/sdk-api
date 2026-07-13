@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetAddConnection2A
 title: WNetAddConnection2A function (winnetwk.h)
-description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource.
-helpviewer_keywords: ["CONNECT_CMD_SAVECRED","CONNECT_COMMANDLINE","CONNECT_CRED_RESET","CONNECT_CURRENT_MEDIA","CONNECT_INTERACTIVE","CONNECT_PROMPT","CONNECT_REDIRECT","CONNECT_TEMPORARY","CONNECT_UPDATE_PROFILE","CONNECT_UPDATE_RECENT","WNetAddConnection2","WNetAddConnection2 function [Windows Networking (WNet)]","WNetAddConnection2A","WNetAddConnection2W","_win32_wnetaddconnection2","dwType","lpLocalName","lpProvider","lpRemoteName","winnetwk/WNetAddConnection2","winnetwk/WNetAddConnection2A","winnetwk/WNetAddConnection2W","wnet.wnetaddconnection2"]
+description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource. (ANSI)
+helpviewer_keywords: ["CONNECT_CMD_SAVECRED", "CONNECT_COMMANDLINE", "CONNECT_CRED_RESET", "CONNECT_CURRENT_MEDIA", "CONNECT_INTERACTIVE", "CONNECT_PROMPT", "CONNECT_REDIRECT", "CONNECT_TEMPORARY", "CONNECT_UPDATE_PROFILE", "CONNECT_UPDATE_RECENT", "WNetAddConnection2A", "dwType", "lpLocalName", "lpProvider", "lpRemoteName", "winnetwk/WNetAddConnection2A"]
 old-location: wnet\wnetaddconnection2.htm
 tech.root: WNet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb
@@ -80,7 +80,7 @@ You must specify the following members of the
 </tr>
 <tr>
 <td width="40%"><a id="dwType"></a><a id="dwtype"></a><a id="DWTYPE"></a><dl>
-<dt><b><b>dwType</b></b></dt>
+<dt><b>dwType</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -99,7 +99,7 @@ Although this member is required, its information may be ignored by the network 
 </tr>
 <tr>
 <td width="40%"><a id="lpLocalName"></a><a id="lplocalname"></a><a id="LPLOCALNAME"></a><dl>
-<dt><b><b>lpLocalName</b></b></dt>
+<dt><b>lpLocalName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +111,7 @@ If the string is empty, or if <b>lpLocalName</b> is <b>NULL</b>, the function ma
 </tr>
 <tr>
 <td width="40%"><a id="lpRemoteName"></a><a id="lpremotename"></a><a id="LPREMOTENAME"></a><dl>
-<dt><b><b>lpRemoteName</b></b></dt>
+<dt><b>lpRemoteName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ A pointer to a <b>null</b>-terminated string that specifies the network resource
 </tr>
 <tr>
 <td width="40%"><a id="lpProvider"></a><a id="lpprovider"></a><a id="LPPROVIDER"></a><dl>
-<dt><b><b>lpProvider</b></b></dt>
+<dt><b>lpProvider</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -678,7 +678,7 @@ For other code samples that illustrates how to make a connection to a network re
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetAddConnection2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetAddConnection2 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

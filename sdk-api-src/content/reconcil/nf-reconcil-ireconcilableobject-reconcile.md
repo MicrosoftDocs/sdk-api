@@ -95,7 +95,7 @@ The briefcase reconciler can discard any residue associated with this object. In
 #### RECONCILEF_ONLYYOUWERECHANGED
 
 The <b>Reconcile</b> method is being called to propagate changes in the changed object to other unchanged objects. This value will only be set if the following key exists in the registry.
-					<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+					<pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <i>{CLSID of reconciler}</i>
          <b>SingleChangeHook</b></pre>

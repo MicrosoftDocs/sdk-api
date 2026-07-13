@@ -6,7 +6,7 @@ helpviewer_keywords: ["FALSE","ISensorManager interface","RequestPermissions met
 old-location: winsensors_com_ref\Isensormanager_requestpermissions.htm
 tech.root: winsensors
 ms.assetid: 6a21820c-4f13-4220-ad13-34d0226597b6
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: FALSE, ISensorManager interface,RequestPermissions method, ISensorManager.RequestPermissions, ISensorManager::RequestPermissions, RequestPermissions, RequestPermissions method, RequestPermissions method,ISensorManager interface, TRUE, sensorsapi/ISensorManager::RequestPermissions, winsensors_com_ref.Isensormanager_requestpermissions
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Opens a system dialog box to request user permission to access sensor data.
 
@@ -223,7 +228,7 @@ Making a synchronous call from the user interface (UI) thread of a Windows appli
 
 #### Examples
 
-The following example code requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will only prompt the user to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged">ISensorEvents::OnStateChanged</a> event. For additional examles that demonstrate how to request permissions, see <a href="/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>.
+The following example code requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will only prompt the user to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged">ISensorEvents::OnStateChanged</a> event. For additional examples that demonstrate how to request permissions, see <a href="/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>.
 
 
 ```cpp

@@ -60,7 +60,7 @@ A string that contains the provider name. For key storage providers, this must b
 
 ### -param pVal [out]
 
-A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string represents the name of an hash algorithm supported by the CSP.
+A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string represents the name of a hash algorithm supported by the CSP.
 
 ## -see-also
 

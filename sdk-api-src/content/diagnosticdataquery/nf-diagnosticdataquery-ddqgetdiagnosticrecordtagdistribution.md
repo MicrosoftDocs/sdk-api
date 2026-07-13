@@ -7,7 +7,7 @@ description: Fetches Diagnostic Data Events per privacy tag event distribution s
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -17,7 +17,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: DiagnosticDataQuery.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -62,7 +62,7 @@ The number of producer names in the list of producer names to search for. Use `0
 
 ### -param tagStats
 
-Type: **[DIAGNOSTIC_DATA_TAG_STATS\*\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_tag_stats)**
+Type: **[DIAGNOSTIC_DATA_TAG_STATS\*\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_stats)**
 This output parameter is a pointer to a list of DIAGNOSTIC_DATA_TAG_STATS items. Each item is a resource that contains information about a privacy tag and the number of events that have that tag.
 
 ### -param statCount

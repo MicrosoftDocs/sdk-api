@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_IsDialogMessage","PropSheet_IsDialogMessage mac
 old-location: controls\PropSheet_IsDialogMessage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_isdialogmessage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_IsDialogMessage, PropSheet_IsDialogMessage macro [Windows Controls], _win32_PropSheet_IsDialogMessage, _win32_PropSheet_IsDialogMessage_cpp, controls.PropSheet_IsDialogMessage, controls._win32_PropSheet_IsDialogMessage, prsht/PropSheet_IsDialogMessage
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_IsDialogMessage macro
+
+## -syntax
+
+```cpp
+BOOL PropSheet_IsDialogMessage(
+   HWND  hDlg,
+   LPMSG pMsg
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if the macro has been processed, or <b>FALSE</b> if the macro has not been processed.
 
 
 ## -description

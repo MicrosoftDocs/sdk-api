@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the timed-text track is inband.
 
-## -parameters
+
 
 ## -returns
 

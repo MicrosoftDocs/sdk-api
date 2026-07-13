@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymLoadModuleExW
 title: SymLoadModuleExW function (dbghelp.h)
-description: Loads the symbol table for the specified module.
+description: The SymLoadModuleExW (Unicode) function loads the symbol table for the specified module.
 helpviewer_keywords: ["SLMFLAG_NO_SYMBOLS","SLMFLAG_VIRTUAL","SymLoadModuleEx","SymLoadModuleEx function","SymLoadModuleExW","_win32_symloadmoduleex","base.symloadmoduleex","dbghelp/SymLoadModuleEx","dbghelp/SymLoadModuleExW"]
 old-location: base\symloadmoduleex.htm
 tech.root: Debug
 ms.assetid: 4a880090-f063-4d03-8fd5-a57ccba262c8
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SLMFLAG_NO_SYMBOLS, SLMFLAG_VIRTUAL, SymLoadModuleEx, SymLoadModuleEx function, SymLoadModuleExW, _win32_symloadmoduleex, base.symloadmoduleex, dbghelp/SymLoadModuleEx, dbghelp/SymLoadModuleExW
 req.header: dbghelp.h
 req.include-header: 
@@ -135,10 +135,10 @@ If the module is already loaded, the return value is zero and <a href="/windows/
 
 ## -remarks
 
-The symbol handler creates an entry for the module and if the deferred symbol loading option is turned off, an attempt is made to load the symbols. If deferred symbol loading is enabled, the module is marked as deferred and the symbols are not loaded until a reference is made to a symbol in the module. Therefore, you should always call the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a> function after calling <b>SymLoadModuleEx</b>.
+The symbol handler creates an entry for the module and if the deferred symbol loading option is turned off, an attempt is made to load the symbols. If deferred symbol loading is enabled, the module is marked as deferred and the symbols are not loaded until a reference is made to a symbol in the module. Therefore, you should always call the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo64">SymGetModuleInfo64</a> function after calling <b>SymLoadModuleEx</b>.
 
 To unload the symbol table, use the 
-<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule64">SymUnloadModule64</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -156,7 +156,7 @@ For an example, see
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymLoadModuleEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymLoadModuleEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

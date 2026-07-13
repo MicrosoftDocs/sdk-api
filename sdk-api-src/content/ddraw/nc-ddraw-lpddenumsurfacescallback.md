@@ -1,12 +1,12 @@
 ---
 UID: NC:ddraw.LPDDENUMSURFACESCALLBACK
 title: LPDDENUMSURFACESCALLBACK (ddraw.h)
-description: Do not use. This callback function is superseded by the EnumSurfacesCallback7 function that is used with the IDirectDraw7::EnumSurfaces, IDirectDrawSurface7::EnumAttachedSurfaces, and IDirectDrawSurface7::EnumOverlayZOrders methods.
+description: The LPDDENUMSURFACESCALLBACK function (ddraw.h) is superseded by the EnumSurfacesCallback7 function.
 helpviewer_keywords: ["EnumSurfacesCallback","EnumSurfacesCallback callback function [DirectDraw]","LPDDENUMSURFACESCALLBACK","LPDDENUMSURFACESCALLBACK callback","ddraw/EnumSurfacesCallback","directdraw.enumsurfacescallback"]
 old-location: directdraw\enumsurfacescallback.htm
 tech.root: directdraw
 ms.assetid: 4195C266-4F1D-4DD6-935E-78D07ACAA765
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: EnumSurfacesCallback, EnumSurfacesCallback callback function [DirectDraw], LPDDENUMSURFACESCALLBACK, LPDDENUMSURFACESCALLBACK callback, ddraw/EnumSurfacesCallback, directdraw.enumsurfacescallback
 f1_keywords:
 - ddraw/EnumSurfacesCallback
@@ -56,7 +56,7 @@ A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
 
 ### -param unnamedParam2 [in]
 
-A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure that describes the attached surface.
+A pointer to a <a href="/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc">DDSURFACEDESC</a> structure that describes the attached surface.
 
 ### -param unnamedParam3 [in]
 

@@ -49,12 +49,7 @@ api_name:
  - SecPkgContext_CipherInfo
 ---
 
-# SecPkgContext_CipherInfo structure
-
-
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes</a> (Schannel) function.
 
@@ -100,22 +95,22 @@ The dw max exchange length.
 
 The dw key type.
 
-### -field szCertificate [SZ_ALG_MAX_SIZE]
+### -field szCertificate
 
 The sz certificate.
 
-### -field szCipherSuite [SZ_ALG_MAX_SIZE]
+### -field szCipherSuite
 
 The sz cipher suite.
 
-### -field szCipher [SZ_ALG_MAX_SIZE]
+### -field szCipher
 
 The sz cipher.
 
-### -field szExchange [SZ_ALG_MAX_SIZE]
+### -field szExchange
 
 The sz exchange.
 
-### -field szHash [SZ_ALG_MAX_SIZE]
+### -field szHash
 
 The sz hash.

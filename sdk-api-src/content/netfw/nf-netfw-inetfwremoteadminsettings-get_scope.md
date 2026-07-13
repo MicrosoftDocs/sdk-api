@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.get_Scope
 title: INetFwRemoteAdminSettings::get_Scope (netfw.h)
-description: Controls the network scope from which remote administration is allowed.
+description: Controls the network scope from which remote administration is allowed. (Get)
 helpviewer_keywords: ["INetFwRemoteAdminSettings interface [ICS/ICF]","Scope property","INetFwRemoteAdminSettings.Scope","INetFwRemoteAdminSettings.get_Scope","INetFwRemoteAdminSettings::Scope","INetFwRemoteAdminSettings::get_Scope","INetFwRemoteAdminSettings::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwRemoteAdminSettings interface","get_Scope","ics.inetfwremoteadminsettings_scope","netfw/INetFwRemoteAdminSettings::Scope","netfw/INetFwRemoteAdminSettings::get_Scope","netfw/INetFwRemoteAdminSettings::put_Scope"]
 old-location: ics\inetfwremoteadminsettings_scope.htm
 tech.root: ics

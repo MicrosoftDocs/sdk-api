@@ -58,7 +58,7 @@ This enumeration identifies Plug and Play device event types.
 
 ## -enum-fields
 
-### -field CM_NOTIFY_ACTION_DEVICEINTERFACEARRIVAL
+### -field CM_NOTIFY_ACTION_DEVICEINTERFACEARRIVAL:0
 
 For this value, set the <b>FilterType</b> member of the <a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cm_notify_filter">CM_NOTIFY_FILTER</a> structure
  to <b>CM_NOTIFY_FILTER_TYPE_DEVICEINTERFACE</b>.  This action indicates that a device interface that meets your filter criteria has been enabled.

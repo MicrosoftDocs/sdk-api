@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.GetVisibleRanges
 title: ITextProvider::GetVisibleRanges (uiautomationcore.h)
-description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
+description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text. (ITextProvider.GetVisibleRanges)
 helpviewer_keywords: ["GetVisibleRanges","GetVisibleRanges method [Windows Accessibility]","GetVisibleRanges method [Windows Accessibility]","ITextProvider interface","ITextProvider interface [Windows Accessibility]","GetVisibleRanges method","ITextProvider.GetVisibleRanges","ITextProvider::GetVisibleRanges","uiauto.uiauto_ITextProvider_GetVisibleRanges","uiauto_ITextProvider_GetVisibleRanges","uiautomationcore/ITextProvider::GetVisibleRanges","winauto.uiauto_ITextProvider_GetVisibleRanges"]
 old-location: winauto\uiauto_ITextProvider_GetVisibleRanges.htm
 tech.root: WinAuto
@@ -68,7 +68,7 @@ Receives the address of an array of pointers to the
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

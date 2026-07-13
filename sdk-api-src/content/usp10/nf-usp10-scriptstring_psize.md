@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Returns a pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure for an analyzed string.
+Returns a pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure for an analyzed string.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS<
 
 ## -returns
 
-Returns a pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure containing the size (width and height) of the analyzed string if successful. The function returns <b>NULL</b> if it does not succeed.
+Returns a pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure containing the size (width and height) of the analyzed string if successful. The function returns <b>NULL</b> if it does not succeed.
 
 ## -remarks
 

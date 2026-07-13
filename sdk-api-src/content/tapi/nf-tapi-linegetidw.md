@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetIDW
 title: lineGetIDW function (tapi.h)
-description: The lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call.
-helpviewer_keywords: ["_tapi2_linegetid","lineGetID","lineGetID function [TAPI 2.2]","lineGetIDA","lineGetIDW","tapi/lineGetID","tapi/lineGetIDA","tapi/lineGetIDW","tapi2.linegetid"]
+description: The lineGetIDW (Unicode) function (tapi.h) returns a device identifier for the specified device class associated with the selected line, address, or call.
+helpviewer_keywords: ["_tapi2_linegetid", "lineGetID", "lineGetID function [TAPI 2.2]", "lineGetIDW", "tapi/lineGetID", "tapi/lineGetIDW", "tapi2.linegetid"]
 old-location: tapi2\linegetid.htm
 tech.root: tapi3
 ms.assetid: e9981574-0058-420f-9627-6d5a1745a739
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegetid, lineGetID, lineGetID function [TAPI 2.2], lineGetIDA, lineGetIDW, tapi/lineGetID, tapi/lineGetIDA, tapi/lineGetIDW, tapi2.linegetid
 req.header: tapi.h
 req.include-header: 
@@ -113,7 +113,7 @@ A vendor that defines a device-specific media mode also needs to define the corr
 
 
 > [!NOTE]
-> The tapi.h header defines lineGetID as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetID as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

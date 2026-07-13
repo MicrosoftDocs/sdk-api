@@ -53,7 +53,7 @@ api_name:
 
 The <b>TextureBrush::GetImage</b> method gets a pointer to the <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that is defined by this texture brush.
 
-## -parameters
+
 
 ## -returns
 

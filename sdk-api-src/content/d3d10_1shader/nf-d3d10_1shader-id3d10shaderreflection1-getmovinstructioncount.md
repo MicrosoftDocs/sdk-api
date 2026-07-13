@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetMovInstructionCount
 title: ID3D10ShaderReflection1::GetMovInstructionCount (d3d10_1shader.h)
-description: Gets the number of Mov instructions.
+description: Gets the number of Mov instructions. (ID3D10ShaderReflection1.GetMovInstructionCount)
 helpviewer_keywords: ["4e498569-995e-e845-cb5e-8c9a0bd2351f","GetMovInstructionCount","GetMovInstructionCount method [Direct3D 10]","GetMovInstructionCount method [Direct3D 10]","ID3D10ShaderReflection1 interface","ID3D10ShaderReflection1 interface [Direct3D 10]","GetMovInstructionCount method","ID3D10ShaderReflection1.GetMovInstructionCount","ID3D10ShaderReflection1::GetMovInstructionCount","d3d10_1shader/ID3D10ShaderReflection1::GetMovInstructionCount","direct3d10.id3d10shaderreflection1_getmovinstructioncount"]
 old-location: direct3d10\id3d10shaderreflection1_getmovinstructioncount.htm
 tech.root: direct3d10

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetOffsetX(float)
 title: IDCompositionVisual::SetOffsetX(float) (dcomp.h)
-description: Changes the value of the OffsetX property of this visual.
+description: Changes the value of the OffsetX property of this visual. (overload 1/2)
 helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetOffsetX method","IDCompositionVisual.SetOffsetX","IDCompositionVisual.SetOffsetX(float)","IDCompositionVisual::SetOffsetX","IDCompositionVisual::SetOffsetX(float)","SetOffsetX","SetOffsetX method [DirectComposition]","SetOffsetX method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetOffsetX","directcomp.idcompositionvisual_setoffsetx_float"]
 old-location: directcomp\idcompositionvisual_setoffsetx_float.htm
 tech.root: directcomp

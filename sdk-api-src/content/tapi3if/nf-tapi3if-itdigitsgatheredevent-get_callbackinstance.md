@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_CallbackInstance
 title: ITDigitsGatheredEvent::get_CallbackInstance (tapi3if.h)
-description: The get_CallbackInstance method gets a pointer to the application's callback function that will process the event.
+description: The get_CallbackInstance method gets a pointer to the application's callback function that will process the event. (ITDigitsGatheredEvent.get_CallbackInstance)
 helpviewer_keywords: ["ITDigitsGatheredEvent interface [TAPI 2.2]","get_CallbackInstance method","ITDigitsGatheredEvent.get_CallbackInstance","ITDigitsGatheredEvent::get_CallbackInstance","_tapi3_itdigitsgatheredevent_get_callbackinstance","get_CallbackInstance","get_CallbackInstance method [TAPI 2.2]","get_CallbackInstance method [TAPI 2.2]","ITDigitsGatheredEvent interface","tapi3.itdigitsgatheredevent_get_callbackinstance","tapi3if/ITDigitsGatheredEvent::get_CallbackInstance"]
 old-location: tapi3\itdigitsgatheredevent_get_callbackinstance.htm
 tech.root: tapi3

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara2.GetProperty
 title: ITextPara2::GetProperty (tom.h)
-description: Gets the value of the specified property.
+description: Gets the value of the specified property. (ITextPara2.GetProperty)
 helpviewer_keywords: ["GetProperty","GetProperty method [Windows Controls]","GetProperty method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetProperty method","ITextPara2.GetProperty","ITextPara2::GetProperty","controls.itextpara2_getproperty","tom/ITextPara2::GetProperty"]
 old-location: controls\itextpara2_getproperty.htm
 tech.root: Controls

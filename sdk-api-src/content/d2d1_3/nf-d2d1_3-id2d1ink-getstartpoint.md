@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the starting point for this ink object.
 
-## -parameters
+
 
 ## -returns
 

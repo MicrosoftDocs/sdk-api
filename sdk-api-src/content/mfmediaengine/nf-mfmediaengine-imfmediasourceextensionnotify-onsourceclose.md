@@ -52,7 +52,7 @@ api_name:
 
 Used to indicate that the media source has closed.
 
-## -parameters
+
 
 ## -see-also
 

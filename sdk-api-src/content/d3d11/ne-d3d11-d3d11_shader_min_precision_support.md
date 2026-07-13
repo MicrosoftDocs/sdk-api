@@ -54,11 +54,11 @@ api_name:
 
 ## -enum-fields
 
-### -field D3D11_SHADER_MIN_PRECISION_10_BIT
+### -field D3D11_SHADER_MIN_PRECISION_10_BIT:0x1
 
 Minimum precision level is 10-bit.
 
-### -field D3D11_SHADER_MIN_PRECISION_16_BIT
+### -field D3D11_SHADER_MIN_PRECISION_16_BIT:0x2
 
 Minimum precision level is 16-bit.
 

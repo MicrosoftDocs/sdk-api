@@ -4,14 +4,14 @@ title: IDWriteFontSetBuilder2::AddFont
 description: Adds a font to the set being built.
 helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFont method","IDWriteFontSetBuilder2.AddFont","IDWriteFontSetBuilder2::AddFont","AddFont","AddFont method [Direct Write]","AddFont method [Direct Write]","IDWriteFontSetBuilder2 interface","directwrite.idwritefontsetbuilder2_addfont","dwrite_3/IDWriteFontSetBuilder2::AddFont"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFont method, IDWriteFontSetBuilder2.AddFont, IDWriteFontSetBuilder2::AddFont, AddFont, AddFont method [Direct Write], AddFont method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfont, dwrite_3/IDWriteFontSetBuilder2::AddFont
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

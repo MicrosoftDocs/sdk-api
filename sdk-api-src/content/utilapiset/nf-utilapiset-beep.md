@@ -76,7 +76,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
- A long time ago, all PC computers shared a common 8254 programable interval timer chip for the generation of primitive sounds.  The <b>Beep</b> function was written specifically to emit a beep on that piece of hardware.  
+ A long time ago, all PC computers shared a common 8254 programmable interval timer chip for the generation of primitive sounds.  The <b>Beep</b> function was written specifically to emit a beep on that piece of hardware.  
 
 On these older systems, muting and volume controls have no effect on <b>Beep</b>; you would still hear the tone. To silence the tone, you used the following commands:
 
@@ -86,7 +86,7 @@ On these older systems, muting and volume controls have no effect on <b>Beep</b>
 
 Since then, sound cards have become standard equipment on almost all PC computers.  As sound cards became more common, manufacturers began to remove the old timer chip from computers.   The chips were also excluded from the design of server computers.  The result is that <b>Beep</b> did not work on all computers without the chip.  This was okay because most developers had moved on to calling the <a href="/windows/desktop/api/winuser/nf-winuser-messagebeep">MessageBeep</a> function that uses whatever is the default sound device instead of the 8254 chip.  
 
-Eventually because of the lack of hardware to communicate with, support for <b>Beep</b> was dropped in Windows Vista and Windows XP 64-Bit Edition.
+Eventually because of the lack of hardware to communicate with, support for playing sound from the motherboard speaker was dropped in Windows Vista and Windows XP 64-Bit Edition.
 
 In Windows 7,  <b>Beep</b> was rewritten to pass the beep to the default sound device for the session.  This is normally the sound card, except when run under Terminal Services, in which case the beep is rendered on the client.
 

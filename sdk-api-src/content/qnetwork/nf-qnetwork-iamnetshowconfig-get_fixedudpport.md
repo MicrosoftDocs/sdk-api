@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_FixedUDPPor
 old-location: dshow\iamnetshowconfig_get_fixedudpport.htm
 tech.root: dshow
 ms.assetid: 0890d29b-540a-45ce-a5f0-04a2db517135
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_FixedUDPPort method, IAMNetShowConfig.get_FixedUDPPort, IAMNetShowConfig::get_FixedUDPPort, IAMNetShowConfigget_FixedUDPPort, dshow.iamnetshowconfig_get_fixedudpport, get_FixedUDPPort, get_FixedUDPPort method [DirectShow], get_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_FixedUDPPort
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_FixedUDPPort</code> method gets the fixed UDP port number.
 

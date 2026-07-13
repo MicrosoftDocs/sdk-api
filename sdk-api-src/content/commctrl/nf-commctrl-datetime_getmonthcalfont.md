@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_GetMonthCalFont","DateTime_GetMonthCalFont macro
 old-location: controls\DateTime_GetMonthCalFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalfont.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_GetMonthCalFont, DateTime_GetMonthCalFont macro [Windows Controls], _win32_DateTime_GetMonthCalFont, _win32_DateTime_GetMonthCalFont_cpp, commctrl/DateTime_GetMonthCalFont, controls.DateTime_GetMonthCalFont, controls._win32_DateTime_GetMonthCalFont
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # DateTime_GetMonthCalFont macro
+
+## -syntax
+
+```cpp
+HFONT DateTime_GetMonthCalFont(
+   HWND hdp
+);
+```
+
+## -returns
+
+Type: **[HFONT](/windows/desktop/winprog/windows-data-types)**
+
+Returns an HFONT value that is the handle to the current font.
 
 
 ## -description

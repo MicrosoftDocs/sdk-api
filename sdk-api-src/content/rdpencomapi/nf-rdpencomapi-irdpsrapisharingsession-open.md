@@ -53,7 +53,7 @@ api_name:
 
 Puts the session in an active state. After this method is called, the listener is started   and incoming connections will be accepted.
 
-## -parameters
+
 
 ## -returns
 

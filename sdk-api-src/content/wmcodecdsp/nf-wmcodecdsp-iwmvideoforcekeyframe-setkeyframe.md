@@ -52,7 +52,7 @@ api_name:
 
 Specifies that the current frame will be encoded as a key frame.
 
-## -parameters
+
 
 ## -returns
 

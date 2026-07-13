@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Retrieves the index of the browser in the window hierarchy.
 
-## -parameters
+
 
 ## -returns
 

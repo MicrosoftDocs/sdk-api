@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetNumberOfWorkAreas","ListView_GetNumberOfWorkA
 old-location: controls\ListView_GetNumberOfWorkAreas.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnumberofworkareas.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetNumberOfWorkAreas, ListView_GetNumberOfWorkAreas macro [Windows Controls], _win32_ListView_GetNumberOfWorkAreas, _win32_ListView_GetNumberOfWorkAreas_cpp, commctrl/ListView_GetNumberOfWorkAreas, controls.ListView_GetNumberOfWorkAreas, controls._win32_ListView_GetNumberOfWorkAreas
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetNumberOfWorkAreas macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetNumberOfWorkAreas(
+   HWND   hwnd,
+   LPUINT pnWorkAreas
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+The return value for this macro is not used.
 
 
 ## -description

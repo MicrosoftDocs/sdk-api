@@ -54,47 +54,47 @@ The <b>AlternativeNameType</b> enumeration  specifies the alternative name types
 
 ## -enum-fields
 
-### -field XCN_CERT_ALT_NAME_UNKNOWN
+### -field XCN_CERT_ALT_NAME_UNKNOWN:0
 
 The name type is not identified.
 
-### -field XCN_CERT_ALT_NAME_OTHER_NAME
+### -field XCN_CERT_ALT_NAME_OTHER_NAME:1
 
 The name consists of an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a byte array that contains the name value.
 
-### -field XCN_CERT_ALT_NAME_RFC822_NAME
+### -field XCN_CERT_ALT_NAME_RFC822_NAME:2
 
 The name is an email address such as  <i>someone@example.com</i>.
 
-### -field XCN_CERT_ALT_NAME_DNS_NAME
+### -field XCN_CERT_ALT_NAME_DNS_NAME:3
 
 The name is a Domain Name System (DNS) name such as <i>MyDomain.Microsoft.com</i>. The format of a DNS name is <i>Host.Entity.Domain</i>. For more information about DNS, see RFC 1034 (Domain Names—Concepts and Facilities), and RFC 1035 (Domain Names—Implementation and Specification).
 
-### -field XCN_CERT_ALT_NAME_X400_ADDRESS
+### -field XCN_CERT_ALT_NAME_X400_ADDRESS:4
 
-### -field XCN_CERT_ALT_NAME_DIRECTORY_NAME
+### -field XCN_CERT_ALT_NAME_DIRECTORY_NAME:5
 
 The name is an <a href="/windows/desktop/SecGloss/x-gly">X.500</a> directory name such as <i>CN=administrators,CN=users,DC=nttest,DC=microsoft,DC=com</i>.
 
-### -field XCN_CERT_ALT_NAME_EDI_PARTY_NAME
+### -field XCN_CERT_ALT_NAME_EDI_PARTY_NAME:6
 
-### -field XCN_CERT_ALT_NAME_URL
+### -field XCN_CERT_ALT_NAME_URL:7
 
 The name is a URL such as <i>http://www.adatum.com/</i>.
 
-### -field XCN_CERT_ALT_NAME_IP_ADDRESS
+### -field XCN_CERT_ALT_NAME_IP_ADDRESS:8
 
 The name is an Internet Protocol (IP) address in dotted decimal format <i>123.456.789.123</i>.
 
-### -field XCN_CERT_ALT_NAME_REGISTERED_ID
+### -field XCN_CERT_ALT_NAME_REGISTERED_ID:9
 
 The name is an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) registered with the International Standards Organization (ISO).
 
-### -field XCN_CERT_ALT_NAME_GUID
+### -field XCN_CERT_ALT_NAME_GUID:10
 
 The name is a Directory Service Agent GUID. The GUID identifies a server to the Active Directory replication system as a domain controller.
 
-### -field XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME
+### -field XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME:11
 
 The name is a <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN). A UPN is a user logon name in email address format. That is, a UPN consists of a shorthand name for a user account followed by the DNS name of the Active Directory tree in which the user object resides. It has the form <i>UserName@DNS_suffix</i>. An example is <i>UserName@Microsoft.com</i> where Microsoft.com is the  DNS suffix and <i>UserName</i> is a placeholder for a shorthand name assigned by Microsoft to a user account.
 

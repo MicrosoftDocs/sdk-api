@@ -51,7 +51,6 @@ api_name:
 
 # SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS enumeration
 
-
 ## -description
 
 Describes the status of the SEC application protocol negotiation.
@@ -69,4 +68,3 @@ The application protocol was negotiated successfully.
 ### -field SecApplicationProtocolNegotiationStatus_SelectedClientOnly
 
 The application protocol was negotiated successfully, but for selected clients only.
-

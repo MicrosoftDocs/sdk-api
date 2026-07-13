@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.OpenJobObjectA
 title: OpenJobObjectA function (winbase.h)
-description: Opens an existing job object.
+description: Opens an existing job object. (OpenJobObjectA)
 helpviewer_keywords: ["OpenJobObject","OpenJobObject function","OpenJobObjectA","OpenJobObjectW","_win32_openjobobject","base.openjobobject","winbase/OpenJobObject","winbase/OpenJobObjectA","winbase/OpenJobObjectW"]
 old-location: base\openjobobject.htm
 tech.root: backup
@@ -84,6 +84,8 @@ If the function succeeds, the return value is a handle to the job. The handle pr
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+
+An error of ERROR_FILE_NOT_FOUND indicates that the job specified in *lpName* does not exist.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.VirtualizedItemPattern_Realize
 title: VirtualizedItemPattern_Realize function (uiautomationcoreapi.h)
-description: Makes the virtual item fully accessible as a UI Automation element.
+description: Makes the virtual item fully accessible as a UI Automation element. (VirtualizedItemPattern_Realize)
 helpviewer_keywords: ["VirtualizedItemPattern_Realize","VirtualizedItemPattern_Realize function [Windows Accessibility]","uiauto.uiauto_VirtualizedItemPattern_Realize","uiauto_VirtualizedItemPattern_Realize","uiautomationcoreapi/VirtualizedItemPattern_Realize","winauto.uiauto_VirtualizedItemPattern_Realize"]
 old-location: winauto\uiauto_VirtualizedItemPattern_Realize.htm
 tech.root: WinAuto

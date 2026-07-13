@@ -57,15 +57,15 @@ Enumerates the type of the value being assigned to an FSRM property in a propert
 
 ## -enum-fields
 
-### -field FsrmPropertyValueType_Undefined
+### -field FsrmPropertyValueType_Undefined:0
 
 The type assigned to the property value is not defined.
 
-### -field FsrmPropertyValueType_Literal
+### -field FsrmPropertyValueType_Literal:1
 
 The type assigned to the property value is one or more literal values.
 
-### -field FsrmPropertyValueType_DateOffset
+### -field FsrmPropertyValueType_DateOffset:2
 
 The type assigned to the property value is a date expression containing a date variable and an optional 
       date offset.

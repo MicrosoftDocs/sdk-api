@@ -130,4 +130,4 @@ If there is detail for the fault, the <a href="/windows/desktop/wsw/ws-xml-buffe
                     an element that corresponds to the detail element of a SOAP fault.  The
                     fault-specific XML content is contained within the detail element.
                     The local name and namespace of the element are ignored; they are replaced with
-                    the appropriate element name according to the <a href="/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION</a>when the detail element is written.
+                    the appropriate element name according to the <a href="/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION</a> when the detail element is written.

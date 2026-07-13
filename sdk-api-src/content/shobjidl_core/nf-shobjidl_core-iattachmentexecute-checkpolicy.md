@@ -52,7 +52,7 @@ api_name:
 
 Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetDesc
 title: ID3D11ShaderReflectionType::GetDesc (d3d11shader.h)
-description: Get the description of a shader-reflection-variable type.
+description: Get the description of a shader-reflection-variable type. (ID3D11ShaderReflectionType.GetDesc)
 helpviewer_keywords: ["0828a5c8-51bc-2665-51f3-1125bd152a6e","GetDesc","GetDesc method [Direct3D 11]","GetDesc method [Direct3D 11]","ID3D11ShaderReflectionType interface","ID3D11ShaderReflectionType interface [Direct3D 11]","GetDesc method","ID3D11ShaderReflectionType.GetDesc","ID3D11ShaderReflectionType::GetDesc","d3d11shader/ID3D11ShaderReflectionType::GetDesc","direct3d11.id3d11shaderreflectiontype_getdesc"]
 old-location: direct3d11\id3d11shaderreflectiontype_getdesc.htm
 tech.root: direct3d11

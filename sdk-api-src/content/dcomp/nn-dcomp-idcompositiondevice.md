@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionDevice
 title: IDCompositionDevice (dcomp.h)
-description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition.
+description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition. (IDCompositionDevice)
 helpviewer_keywords: ["IDCompositionDevice","IDCompositionDevice interface [DirectComposition]","IDCompositionDevice interface [DirectComposition]","described","dcomp/IDCompositionDevice","directcomp.idcompositiondevice"]
 old-location: directcomp\idcompositiondevice.htm
 tech.root: directcomp
@@ -54,10 +54,7 @@ Serves as a factory for all other Microsoft DirectComposition objects and provid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDCompositionDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionDevice</b> also has these types of members:
 
 ## -see-also
 

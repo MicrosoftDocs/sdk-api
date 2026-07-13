@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_acmFormatTagEnum","acmFormatTagEnum","acmFormatTag
 old-location: multimedia\acmformattagenum.htm
 tech.root: Multimedia
 ms.assetid: 1693a7ee-1d9b-494e-8d28-b5e9279951e1
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFormatTagEnum, acmFormatTagEnum, acmFormatTagEnum function [Windows Multimedia], acmFormatTagEnumA, acmFormatTagEnumW, msacm/acmFormatTagEnum, msacm/acmFormatTagEnumA, msacm/acmFormatTagEnumW, multimedia.acmformattagenum
 req.header: msacm.h
 req.include-header: 

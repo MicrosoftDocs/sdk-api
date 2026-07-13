@@ -113,10 +113,12 @@ The subject certificate was not found in the store.
 The following example shows retrieving a subject's certificate context, uniquely identified by its issuer and serial number, from the certificate store. For an example that includes the complete context for this example, see 
 <a href="/windows/desktop/SecCrypto/example-c-program-signing-encoding-decoding-and-verifying-a-message">Example C Program: Signing, Encoding, Decoding, and Verifying a Message</a>.
 
-<pre class="syntax" xml:space="preserve"><code>
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+``` syntax
+
+#include <windows.h>
+#include <stdio.h>
+#include <Wincrypt.h>
 
 #define MY_ENCODING_TYPE  (PKCS_7_ASN_ENCODING | X509_ASN_ENCODING)
 
@@ -145,7 +147,7 @@ if(CryptMsgGetParam(
    CMSG_SIGNER_CERT_INFO_PARAM,  // parameter type
    0,                            // index
    NULL,   
-   &amp;cbSignerCertInfo))           // size of the returned information
+   &cbSignerCertInfo))           // size of the returned information
 
 {
    printf("%d bytes needed for the buffer.\n", cbSignerCertInfo);
@@ -175,7 +177,7 @@ if(!(CryptMsgGetParam(
      CMSG_SIGNER_CERT_INFO_PARAM,  // parameter type
      0,                            // index
      pSignerCertInfo,              // address for returned information
-     &amp;cbSignerCertInfo)))          // size of the returned information
+     &cbSignerCertInfo)))          // size of the returned information
 
 {
     printf("Verify SIGNER_CERT_INFO #2 failed.\n");
@@ -234,7 +236,9 @@ if(hStoreHandle)
 if(hMsg)
    CryptMsgClose(hMsg);
 
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

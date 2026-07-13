@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3D9.GetAdapterDisplayMode
 title: IDirect3D9::GetAdapterDisplayMode (d3d9.h)
-description: Retrieves the current display mode of the adapter.
+description: The IDirect3D9::GetAdapterDisplayMode method (d3d9.h) retrieves the current display mode of the adapter. 
 helpviewer_keywords: ["GetAdapterDisplayMode","GetAdapterDisplayMode method [Direct3D 9]","GetAdapterDisplayMode method [Direct3D 9]","IDirect3D9 interface","IDirect3D9 interface [Direct3D 9]","GetAdapterDisplayMode method","IDirect3D9.GetAdapterDisplayMode","IDirect3D9::GetAdapterDisplayMode","a03b5255-0046-403d-b90f-e76191710598","d3d9helper/IDirect3D9::GetAdapterDisplayMode","direct3d9.idirect3d9__getadapterdisplaymode"]
 old-location: direct3d9\idirect3d9__getadapterdisplaymode.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadapterdisplaymode.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: GetAdapterDisplayMode, GetAdapterDisplayMode method [Direct3D 9], GetAdapterDisplayMode method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterDisplayMode method, IDirect3D9.GetAdapterDisplayMode, IDirect3D9::GetAdapterDisplayMode, a03b5255-0046-403d-b90f-e76191710598, d3d9helper/IDirect3D9::GetAdapterDisplayMode, direct3d9.idirect3d9__getadapterdisplaymode
 req.header: d3d9.h
 req.include-header: D3D9.h

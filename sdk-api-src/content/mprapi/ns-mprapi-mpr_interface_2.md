@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._MPR_INTERFACE_2
 title: MPR_INTERFACE_2 (mprapi.h)
-description: Contains data for a router demand-dial interface.
+description: Contains data for a router demand-dial interface. (MPR_INTERFACE_2)
 helpviewer_keywords: ["*PMPR_INTERFACE_2","MPRDM_DialAll","MPRDM_DialAsNeeded","MPRDT_Atm","MPRDT_FrameRelay","MPRDT_Generic","MPRDT_Irda","MPRDT_Isdn","MPRDT_Modem","MPRDT_Pad","MPRDT_Parallel","MPRDT_SW56","MPRDT_Serial","MPRDT_Sonet","MPRDT_Vpn","MPRDT_X25","MPRET_Direct","MPRET_Phone","MPRET_Vpn","MPRIDS_Disabled","MPRIDS_UseGlobalValue","MPRIO_DisableLcpExtensions","MPRIO_IpHeaderCompression","MPRIO_IpSecPreSharedKey","MPRIO_NetworkLogon","MPRIO_PromoteAlternates","MPRIO_RemoteDefaultGateway","MPRIO_RequireCHAP","MPRIO_RequireDataEncryption","MPRIO_RequireEAP","MPRIO_RequireEncryptedPw","MPRIO_RequireMachineCertificates","MPRIO_RequireMsCHAP","MPRIO_RequireMsCHAP2","MPRIO_RequireMsEncryptedPw","MPRIO_RequirePAP","MPRIO_RequireSPAP","MPRIO_SecureLocalFiles","MPRIO_SharedPhoneNumbers","MPRIO_SpecificIpAddr","MPRIO_SpecificNameServers","MPRIO_SwCompression","MPRIO_UseLogonCredentials","MPRIO_UsePreSharedKeyForIkev2Initiator","MPRIO_UsePreSharedKeyForIkev2Responder","MPRNP_Ip","MPRNP_Ipx","MPR_ET_None","MPR_ET_Optional","MPR_ET_Require","MPR_ET_RequireMax","MPR_INTERFACE_2","MPR_INTERFACE_2 structure [RAS]","MPR_VS_Default","MPR_VS_L2tpFirst","MPR_VS_L2tpOnly","MPR_VS_PptpFirst","MPR_VS_PptpOnly","PMPR_INTERFACE_2","PMPR_INTERFACE_2 structure pointer [RAS]","_mpr_mpr_interface_2","mprapi/MPR_INTERFACE_2","mprapi/PMPR_INTERFACE_2","rras.mpr_interface_2"]
 old-location: rras\mpr_interface_2.htm
 tech.root: RRAS

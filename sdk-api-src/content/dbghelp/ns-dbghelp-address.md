@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._tagADDRESS
 title: ADDRESS (dbghelp.h)
-description: Represents an address. It is used in the STACKFRAME64 structure.
+description: Represents an address. It is used in the STACKFRAME64 structure. (ADDRESS)
 helpviewer_keywords: ["*LPADDRESS","ADDRESS","ADDRESS structure","ADDRESS64","ADDRESS64 structure","AddrMode1616","AddrMode1632","AddrModeFlat","AddrModeReal","LPADDRESS64","LPADDRESS64 structure pointer","_tagADDRESS64","_win32_address64_str","base.address64_str","dbghelp/ADDRESS64","dbghelp/LPADDRESS64"]
 old-location: base\address64_str.htm
 tech.root: Debug

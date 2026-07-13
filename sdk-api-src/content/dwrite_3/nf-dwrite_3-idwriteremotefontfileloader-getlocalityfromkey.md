@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetLocalityFromKey","GetLocalityFromKey method [Direct Wr
 old-location: directwrite\idwriteremotefontfileloader_getlocalityfromkey.htm
 tech.root: DirectWrite
 ms.assetid: 997D8F04-8667-4D90-B097-CD48F979BE02
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetLocalityFromKey, GetLocalityFromKey method [Direct Write], GetLocalityFromKey method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],GetLocalityFromKey method, IDWriteRemoteFontFileLoader.GetLocalityFromKey, IDWriteRemoteFontFileLoader::GetLocalityFromKey, directwrite.idwriteremotefontfileloader_getlocalityfromkey, dwrite_3/IDWriteRemoteFontFileLoader::GetLocalityFromKey
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

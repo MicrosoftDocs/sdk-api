@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_OutgoingQueueAgeLimit
 title: IFaxConfiguration::get_OutgoingQueueAgeLimit (faxcomex.h)
-description: Sets or retrieves a value that indicates the length of time that an undeliverable fax message is kept on the fax server before it is deleted.
+description: Sets or retrieves a value that indicates the length of time that an undeliverable fax message is kept on the fax server before it is deleted. (Get)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","OutgoingQueueAgeLimit property","IFaxConfiguration.OutgoingQueueAgeLimit","IFaxConfiguration.get_OutgoingQueueAgeLimit","IFaxConfiguration::OutgoingQueueAgeLimit","IFaxConfiguration::get_OutgoingQueueAgeLimit","IFaxConfiguration::put_OutgoingQueueAgeLimit","OutgoingQueueAgeLimit property [Fax Service]","OutgoingQueueAgeLimit property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_OutgoingQueueAgeLimit","fax._mfax_IFaxConfiguration_OutgoingQueueAgeLimit","faxcomex/IFaxConfiguration::OutgoingQueueAgeLimit","faxcomex/IFaxConfiguration::get_OutgoingQueueAgeLimit","faxcomex/IFaxConfiguration::put_OutgoingQueueAgeLimit","get_OutgoingQueueAgeLimit"]
 old-location: fax\_mfax_IFaxConfiguration_OutgoingQueueAgeLimit.htm
 tech.root: Fax

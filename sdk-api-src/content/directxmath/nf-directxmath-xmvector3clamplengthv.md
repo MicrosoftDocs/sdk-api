@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3ClampLengthV
 title: XMVector3ClampLengthV function (directxmath.h)
-description: Clamps the length of a 3D vector to a given range.
+description: Clamps the length of a 3D vector to a given range. (XMVector3ClampLengthV)
 helpviewer_keywords: ["Use DirectX..XMVector3ClampLengthV","XMVector3ClampLengthV","XMVector3ClampLengthV method [DirectX Math Support APIs]","dxmath.xmvector3clamplengthv"]
 old-location: dxmath\xmvector3clamplengthv.htm
 tech.root: dxmath

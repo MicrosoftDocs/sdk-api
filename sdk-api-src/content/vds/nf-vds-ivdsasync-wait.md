@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsAsync.Wait
 title: IVdsAsync::Wait (vds.h)
-description: Returns when the asynchronous operation has either finished successfully or failed.
+description: The IVdsAsync::Wait (vds.h) method returns when the asynchronous operation has either finished successfully or failed.
 helpviewer_keywords: ["IVdsAsync interface [VDS]","Wait method","IVdsAsync.Wait","IVdsAsync::Wait","Wait","Wait method [VDS]","Wait method [VDS]","IVdsAsync interface","base.ivdsasync_wait","vds/IVdsAsync::Wait","vdshwprv/IVdsAsync::Wait"]
 old-location: base\ivdsasync_wait.htm
 tech.root: base
 ms.assetid: 1bb30247-efb8-488f-b142-8912c351f5f2
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsAsync interface [VDS],Wait method, IVdsAsync.Wait, IVdsAsync::Wait, Wait, Wait method [VDS], Wait method [VDS],IVdsAsync interface, base.ivdsasync_wait, vds/IVdsAsync::Wait, vdshwprv/IVdsAsync::Wait
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns when the asynchronous 
    operation has either finished successfully or failed.

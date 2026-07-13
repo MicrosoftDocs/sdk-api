@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.SetPrivateData
 title: ID3D11Device::SetPrivateData (d3d11.h)
-description: Set data to a device and associate that data with a guid.
+description: Set data to a device and associate that data with a guid. (ID3D11Device.SetPrivateData)
 helpviewer_keywords: ["ID3D11Device interface [Direct3D 11]","SetPrivateData method","ID3D11Device.SetPrivateData","ID3D11Device::SetPrivateData","SetPrivateData","SetPrivateData method [Direct3D 11]","SetPrivateData method [Direct3D 11]","ID3D11Device interface","d3d11/ID3D11Device::SetPrivateData","direct3d11.id3d11device_setprivatedata","f1172c7e-62ba-f206-04b7-7dc3e29d9d16"]
 old-location: direct3d11\id3d11device_setprivatedata.htm
 tech.root: direct3d11

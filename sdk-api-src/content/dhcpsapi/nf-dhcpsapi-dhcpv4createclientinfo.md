@@ -60,7 +60,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param ClientInfo [in]
 
-Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v6">DHCP_CLIENT_INFO_PB</a> structure that contains the DHCP client lease record information. The <b>ClientIpAddress</b> and <b>ClientHardwareAddress</b> fields of this structure are required, all others are optional.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info">DHCP_CLIENT_INFO_PB</a> structure that contains the DHCP client lease record information. The <b>ClientIpAddress</b> and <b>ClientHardwareAddress</b> fields of this structure are required, all others are optional.
 
 ## -returns
 
@@ -123,7 +123,7 @@ The provided DHCP client record already exists in the DHCP server database.
 
 This function does not allow creation of leases if there is no scope corresponding to the <i>ClientIpAddress</i> configured on the server and instead returns <b>ERROR_DHCP_SUBNET_NOT_PRESENT</b>. It marks the specified client IP address as unavailable (or distributed) to avoid IP collisions. The addresses thus marked are also reflected in the scope’s address statistics.
 
-Unlike <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateclientinfovq">DhcpCreateClientInfoVQ</a>, this function uses the <b>bClientType</b>, <b>AddressState</b>, <b>Status</b>, <b>ProbationEnds</b> and <b>QuarantineCapable</b> fields passed within the <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v6">DHCP_CLIENT_INFO_PB</a> structure to <i>ClientInfo</i> when creating the lease record. It also adds the new field <b>PolicyName</b> if passed within <i>ClientInfo</i> in the new lease record. There is no validation of whether the <b>PolicyName</b> corresponds to a valid policy configured on the DHCP server or corresponding scope.
+Unlike <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateclientinfovq">DhcpCreateClientInfoVQ</a>, this function uses the <b>bClientType</b>, <b>AddressState</b>, <b>Status</b>, <b>ProbationEnds</b> and <b>QuarantineCapable</b> fields passed within the <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info">DHCP_CLIENT_INFO_PB</a> structure to <i>ClientInfo</i> when creating the lease record. It also adds the new field <b>PolicyName</b> if passed within <i>ClientInfo</i> in the new lease record. There is no validation of whether the <b>PolicyName</b> corresponds to a valid policy configured on the DHCP server or corresponding scope.
 
 ## -see-also
 

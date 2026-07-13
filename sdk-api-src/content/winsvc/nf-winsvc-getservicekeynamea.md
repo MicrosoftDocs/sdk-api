@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.GetServiceKeyNameA
 title: GetServiceKeyNameA function (winsvc.h)
-description: Retrieves the service name of the specified service.
-helpviewer_keywords: ["GetServiceKeyName","GetServiceKeyName function","GetServiceKeyNameA","GetServiceKeyNameW","_win32_getservicekeyname","base.getservicekeyname","winsvc/GetServiceKeyName","winsvc/GetServiceKeyNameA","winsvc/GetServiceKeyNameW"]
+description: Retrieves the service name of the specified service. (ANSI)
+helpviewer_keywords: ["GetServiceKeyNameA", "winsvc/GetServiceKeyNameA"]
 old-location: base\getservicekeyname.htm
 tech.root: security
 ms.assetid: d2421566-de4a-49e5-bb41-ea98c6f6d19d
@@ -102,7 +102,7 @@ To map the service name to the display name, use the
 
 
 > [!NOTE]
-> The winsvc.h header defines GetServiceKeyName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines GetServiceKeyName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

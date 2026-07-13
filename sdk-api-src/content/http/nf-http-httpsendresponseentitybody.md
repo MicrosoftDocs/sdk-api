@@ -122,7 +122,7 @@ When this flag is set, it should be used consistently in calls to the <a href="/
 </dl>
 </td>
 <td width="60%">
-Enables the TCP nagling algorithm for this  send only.
+Enables the TCP nagling algorithm for this send only.
 
 <b>Windows Vista and later:  </b>This flag is not supported.
 

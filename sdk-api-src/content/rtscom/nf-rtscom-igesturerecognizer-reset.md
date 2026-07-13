@@ -52,7 +52,7 @@ api_name:
 
 Deletes past stroke information from the <a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object.
 
-## -parameters
+
 
 ## -returns
 

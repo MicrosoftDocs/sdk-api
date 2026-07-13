@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetStatusWindowPos
 title: ImmGetStatusWindowPos function (immdev.h)
-description: Retrieves the position of the status window.
+description: The ImmGetStatusWindowPos function (immdev.h) retrieves the position of the status window.
 helpviewer_keywords: ["ImmGetStatusWindowPos","ImmGetStatusWindowPos function [Internationalization for Windows Applications]","_win32_ImmGetStatusWindowPos","imm/ImmGetStatusWindowPos","intl.immgetstatuswindowpos"]
 old-location: intl\immgetstatuswindowpos.htm
 tech.root: Intl
 ms.assetid: 785d8523-14a7-4443-8326-34ca197b1cff
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmGetStatusWindowPos, ImmGetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmGetStatusWindowPos, imm/ImmGetStatusWindowPos, intl.immgetstatuswindowpos
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -60,7 +60,7 @@ Handle to the input context.
 
 ### -param lpptPos [out]
 
-Pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure in which the function retrieves the position coordinates. These are screen coordinates, relative to the upper left corner of the screen.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure in which the function retrieves the position coordinates. These are screen coordinates, relative to the upper left corner of the screen.
 
 ## -returns
 

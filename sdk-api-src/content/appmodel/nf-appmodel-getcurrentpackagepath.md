@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackagePath
 title: GetCurrentPackagePath function (appmodel.h)
-description: Gets the package path for the calling process.
+description: Gets the package path for the calling process. (GetCurrentPackagePath)
 helpviewer_keywords: ["GetCurrentPackagePath","GetCurrentPackagePath function [App packaging and management]","appmodel/GetCurrentPackagePath","appxpkg.getcurrentpackagepath"]
 old-location: appxpkg\getcurrentpackagepath.htm
 tech.root: appxpkg
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
+ - api-ms-win-appmodel-runtime-l1-1-6.dll
+ - api-ms-win-appmodel-runtime-l1-1-5.dll
+ - api-ms-win-appmodel-runtime-l1-1-4.dll
+ - api-ms-win-appmodel-runtime-l1-1-3.dll
  - Kernel32.dll
  - API-MS-Win-AppModel-Runtime-l1-1-0.dll
  - kernel32legacy.dll

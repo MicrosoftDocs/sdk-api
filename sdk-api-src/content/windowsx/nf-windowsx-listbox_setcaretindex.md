@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SetCaretIndex","ListBox_SetCaretIndex macro [Wind
 old-location: controls\ListBox_SetCaretIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcaretindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SetCaretIndex, ListBox_SetCaretIndex macro [Windows Controls], _win32_ListBox_SetCaretIndex, _win32_ListBox_SetCaretIndex_cpp, controls.ListBox_SetCaretIndex, controls._win32_ListBox_SetCaretIndex, windowsx/ListBox_SetCaretIndex
 req.header: windowsx.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # ListBox_SetCaretIndex macro
 
+## -syntax
+
+```cpp
+int ListBox_SetCaretIndex(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is LB_ERR.
+
 
 ## -description
 
@@ -64,7 +79,7 @@ A handle to the control.
 
 Type: <b>int</b>
 
- the zero-based index of the list box item that is to receive the focus rectangle.
+The zero-based index of the list box item that is to receive the focus rectangle.
 
 ## -remarks
 

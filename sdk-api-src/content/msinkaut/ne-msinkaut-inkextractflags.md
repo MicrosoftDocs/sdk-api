@@ -54,11 +54,11 @@ Determines how a stroke is removed from an <a href="/windows/desktop/tablet/inkd
 
 ## -enum-fields
 
-### -field IEF_CopyFromOriginal
+### -field IEF_CopyFromOriginal:0
 
 The ink is copied from the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
-### -field IEF_RemoveFromOriginal
+### -field IEF_RemoveFromOriginal:0x1
 
 The ink is cut from the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 

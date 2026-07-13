@@ -1,12 +1,12 @@
 ---
-UID: NS:avifmt.__unnamed_struct_3
+UID: NS:avifmt.AVIPALCHANGE
 title: AVIPALCHANGE (avifmt.h)
 description: The AVIPALCHANGE structure defines a palette change in an AVI file.
 helpviewer_keywords: ["AVIPALCHANGE","AVIPALCHANGE structure [DirectShow]","AVIPALCHANGEStructure","_AVIPALchange","avifmt/AVIPALCHANGE","dshow.avipalchange"]
 old-location: dshow\avipalchange.htm
 tech.root: dshow
 ms.assetid: f8f38fe0-f506-4cf8-9a6d-381cf46b51a4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AVIPALCHANGE, AVIPALCHANGE structure [DirectShow], AVIPALCHANGEStructure, _AVIPALchange, avifmt/AVIPALCHANGE, dshow.avipalchange
 req.header: avifmt.h
 req.include-header: Vfw.h
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>AVIPALCHANGE</b> structure defines a palette change in an AVI file.
 
 ## -struct-fields
@@ -77,3 +79,4 @@ Specifies an array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTR
 
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

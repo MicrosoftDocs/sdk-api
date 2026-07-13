@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
 title: ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck (sbtsv.h)
-description: Sets a property of an environment.
+description: Sets a property of an environment. (ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck)
 helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetEnvironmentPropertyWithVersionCheck method","ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck","ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck","SetEnvironmentPropertyWithVersionCheck","SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services]","SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck","termserv.itssbresourcepluginstore_setenvironmentpropertywithversioncheck"]
 old-location: termserv\itssbresourcepluginstore_setenvironmentpropertywithversioncheck.htm
 tech.root: TermServ
@@ -68,7 +68,7 @@ A pointer to the value to set.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

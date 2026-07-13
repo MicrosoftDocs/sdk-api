@@ -56,27 +56,27 @@ Elements of the <b>TfSapiObject</b> enumeration are used with the <a href="/wind
 
 ## -enum-fields
 
-### -field GETIF_RESMGR
+### -field GETIF_RESMGR:0
 
 Specifies an ISpResourceManager object.
 
-### -field GETIF_RECOCONTEXT
+### -field GETIF_RECOCONTEXT:0x1
 
 Specifies an ISpRecoContext object.
 
-### -field GETIF_RECOGNIZER
+### -field GETIF_RECOGNIZER:0x2
 
 Specifies an ISpRecognizer object.
 
-### -field GETIF_VOICE
+### -field GETIF_VOICE:0x3
 
 Specifies an ISpVoice object.
 
-### -field GETIF_DICTGRAM
+### -field GETIF_DICTGRAM:0x4
 
 Specifies an ISpRecoGrammar object.
 
-### -field GETIF_RECOGNIZERNOINIT
+### -field GETIF_RECOGNIZERNOINIT:0x5
 
 Specifies an ISpRecognizer object. SAPI will not be initialized if it is not already.
 

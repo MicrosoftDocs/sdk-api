@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: NtDll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -47,16 +47,11 @@ api_name:
 
 # NtCreateFile function
 
-
 ## -description
 
-Creates a new file or directory, or opens an existing file, device, directory, or 
-    volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.</div>
-<div> </div>
+Creates a new file or directory, or opens an existing file, device, directory, or volume.
 
-
-This function is the user-mode equivalent to the <b>ZwCreateFile</b> function documented in the 
-    Windows Driver Kit (WDK).
+This function is the user-mode equivalent to the <b>ZwCreateFile</b> function documented in the Windows Driver Kit (WDK).
 
 ## -parameters
 
@@ -66,9 +61,7 @@ A pointer to a variable that receives the file handle if the call is successful.
 
 ### -param DesiredAccess [in]
 
-The <b>ACCESS_MASK</b> value that expresses the type of access that the caller 
-      requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags 
-      determines the following specific access rights for file objects.
+The <b>ACCESS_MASK</b> value that expresses the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects.
 
 <table>
 <tr>
@@ -211,12 +204,9 @@ Data can be read into memory from the file using system paging I/O. This flag is
 </tr>
 </table>
  
-
 Do not specify <b>FILE_READ_DATA</b>, <b>FILE_WRITE_DATA</b>, <b>FILE_APPEND_DATA</b>, or <b>FILE_EXECUTE</b> when you create or open a directory.
 
-Callers of <b>NtCreateFile</b> can specify one or a combination of the following, 
-      possibly using a bitwise-OR with additional compatible flags from the preceding <i>DesiredAccess</i> flags 
-      list, for any file object that does not represent a directory file.
+Callers of <b>NtCreateFile</b> can specify one or a combination of the following, possibly using a bitwise-OR with additional compatible flags from the preceding <i>DesiredAccess</i> flags list, for any file object that does not represent a directory file.
 
 <table>
 <tr>
@@ -257,18 +247,12 @@ Callers of <b>NtCreateFile</b> can specify one or a combination of the following
 </td>
 </tr>
 </table>
- 
 
 The <b>FILE_GENERIC_EXECUTE</b>  value is irrelevant for device and intermediate drivers.
 
-The <b>STANDARD_RIGHTS_</b><i>XXX</i> are predefined system values 
-      used to enforce security on system objects.
-      
+The <b>STANDARD_RIGHTS_</b><i>XXX</i> are predefined system values used to enforce security on system objects.
 
-To open or create a directory file, as also indicated with the <i>CreateOptions</i> 
-       parameter, callers of <b>NtCreateFile</b> can specify one or a combination of the 
-       following, possibly using a bitwise-OR with one or more compatible flags from the preceding 
-       <i>DesiredAccess</i> flags list.
+To open or create a directory file, as also indicated with the <i>CreateOptions</i> parameter, callers of <b>NtCreateFile</b> can specify one or a combination of the following, possibly using a bitwise-OR with one or more compatible flags from the preceding <i>DesiredAccess</i> flags list.
 
 <table>
 <tr>
@@ -299,9 +283,7 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 
 ### -param ObjectAttributes [in]
 
-A pointer to a structure already initialized with 
-      <b>InitializeObjectAttributes</b>. 
-      Members of this structure for a file object include the following.
+A pointer to a structure already initialized with <b>InitializeObjectAttributes</b>. Members of this structure for a file object include the following.
 
 <table>
 <tr>
@@ -314,8 +296,7 @@ A pointer to a structure already initialized with
 </dl>
 </td>
 <td width="60%">
-Specifies the number of bytes of <i>ObjectAttributes</i> data supplied. This value 
-        must be at least sizeof(OBJECT_ATTRIBUTES).
+Specifies the number of bytes of <i>ObjectAttributes</i> data supplied. This value must be at least sizeof(OBJECT_ATTRIBUTES).
 
 </td>
 </tr>
@@ -325,12 +306,7 @@ Specifies the number of bytes of <i>ObjectAttributes</i> data supplied. This val
 </dl>
 </td>
 <td width="60%">
-Optionally specifies a handle to a directory obtained by a preceding call to 
-        <b>NtCreateFile</b>. If this value is 
-        <b>NULL</b>, the <b>ObjectName</b> member must be a fully qualified 
-        file specification that includes the full path to the target file. If this value is 
-        non-<b>NULL</b>, the <b>ObjectName</b> member specifies a file name 
-        relative to this directory.
+Optionally specifies a handle to a directory obtained by a preceding call to <b>NtCreateFile</b>. If this value is <b>NULL</b>, the <b>ObjectName</b> member must be a fully qualified file specification that includes the full path to the target file. If this value is non-<b>NULL</b>, the <b>ObjectName</b> member specifies a file name relative to this directory.
 
 </td>
 </tr>
@@ -340,11 +316,7 @@ Optionally specifies a handle to a directory obtained by a preceding call to
 </dl>
 </td>
 <td width="60%">
-Points to a buffered Unicode string that names the file to be created or opened. This value must be a 
-        fully qualified file specification or the name of a device object, unless it is the name of a file relative to 
-        the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat 
-        or \??\B:\myfile.dat could be the fully qualified file specification, provided that the floppy driver and 
-        overlying file system are already loaded. For more information, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+Points to a buffered Unicode string that names the file to be created or opened. This value must be a fully qualified file specification or the name of a device object, unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat or \??\B:\myfile.dat could be the fully qualified file specification, provided that the floppy driver and overlying file system are already loaded. For more information, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 </td>
 </tr>
@@ -354,10 +326,7 @@ Points to a buffered Unicode string that names the file to be created or opened.
 </dl>
 </td>
 <td width="60%">
-Is a set of flags that controls the file object attributes. This value can be zero or 
-        <b>OBJ_CASE_INSENSITIVE</b>, which indicates that name-lookup code should ignore the case 
-        of the <b>ObjectName</b> member rather than performing an exact-match search. The value 
-        <b>OBJ_INHERIT</b> is irrelevant to device and intermediate drivers.
+Is a set of flags that controls the file object attributes. This value can be zero or <b>OBJ_CASE_INSENSITIVE</b>, which indicates that name-lookup code should ignore the case of the <b>ObjectName</b> member rather than performing an exact-match search. The value <b>OBJ_INHERIT</b> is irrelevant to device and intermediate drivers.
 
 </td>
 </tr>
@@ -367,11 +336,7 @@ Is a set of flags that controls the file object attributes. This value can be ze
 </dl>
 </td>
 <td width="60%">
-Optionally specifies a security descriptor to be applied to a file. ACLs specified by such a security 
-        descriptor are applied to the file only when it is created. If the value is <b>NULL</b> when a file is created, the 
-        ACL placed on the file is file-system-dependent; most file systems propagate some part of such an ACL from the 
-        parent directory file combined with the caller's default ACL. Device and intermediate drivers can set this 
-        member to <b>NULL</b>.
+Optionally specifies a security descriptor to be applied to a file. ACLs specified by such a security descriptor are applied to the file only when it is created. If the value is <b>NULL</b> when a file is created, the ACL placed on the file is file-system-dependent; most file systems propagate some part of such an ACL from the parent directory file combined with the caller's default ACL. Device and intermediate drivers can set this member to <b>NULL</b>.
 
 </td>
 </tr>
@@ -381,10 +346,7 @@ Optionally specifies a security descriptor to be applied to a file. ACLs specifi
 </dl>
 </td>
 <td width="60%">
-Specifies the access rights a server should be given to the client's security context. This value is 
-        non-<b>NULL</b> only when a connection to a protected server is established, allowing the 
-        caller to control which parts of the caller's security context are made available to the server and whether 
-        the server is allowed to impersonate the caller.
+Specifies the access rights a server should be given to the client's security context. This value is non-<b>NULL</b> only when a connection to a protected server is established, allowing the caller to control which parts of the caller's security context are made available to the server and whether the server is allowed to impersonate the caller.
 
 </td>
 </tr>
@@ -392,10 +354,7 @@ Specifies the access rights a server should be given to the client's security co
 
 ### -param IoStatusBlock [out]
 
-A pointer to a variable that receives the final completion status and information about the requested 
-      operation. On return from <b>NtCreateFile</b>, the 
-      <b>Information</b> member contains one of the following values:
-      
+A pointer to a variable that receives the final completion status and information about the requested operation. On return from <b>NtCreateFile</b>, the <b>Information</b> member contains one of the following values:
 
 <ul>
 <li><b>FILE_CREATED</b></li>
@@ -408,23 +367,15 @@ A pointer to a variable that receives the final completion status and informatio
 
 ### -param AllocationSize [in, optional]
 
-The initial allocation size in bytes for the file. A nonzero value has no effect unless the file is being 
-      created, overwritten, or superseded.
+The initial allocation size in bytes for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
 ### -param FileAttributes [in]
 
-The file attributes. Explicitly specified attributes are applied only when the file is created, superseded, 
-      or, in some cases, overwritten. By default, this value is a <b>FILE_ATTRIBUTE_NORMAL</b>, 
-      which can be overridden by an ORed combination of one or more 
-      <b>FILE_ATTRIBUTE_</b><i>xxxx</i> flags, which are defined in Wdm.h and 
-      NtDdk.h. For a list of flags that can be used with 
-      <b>NtCreateFile</b>, see 
-      <b>CreateFile</b>.
+The file attributes. Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is a <b>FILE_ATTRIBUTE_NORMAL</b>, which can be overridden by an ORed combination of one or more <b>FILE_ATTRIBUTE_</b><i>xxxx</i> flags, which are defined in Wdm.h and NtDdk.h. For a list of flags that can be used with <b>NtCreateFile</b>, see <b>CreateFile</b>.
 
 ### -param ShareAccess [in]
 
-The type of share access that the caller would like to use in  the file, as zero, or as one or a 
-      combination of the following values.
+The type of share access that the caller would like to use in  the file, as zero, or as one or a combination of the following values.
 
 <table>
 <tr>
@@ -437,8 +388,7 @@ The type of share access that the caller would like to use in  the file, as zero
 </dl>
 </td>
 <td width="60%">
-The file can be opened for read access by other threads' calls to 
-        <b>NtCreateFile</b>.
+The file can be opened for read access by other threads' calls to <b>NtCreateFile</b>.
 
 </td>
 </tr>
@@ -448,8 +398,7 @@ The file can be opened for read access by other threads' calls to
 </dl>
 </td>
 <td width="60%">
-The file can be opened for write access by other threads' calls to 
-        <b>NtCreateFile</b>.
+The file can be opened for write access by other threads' calls to <b>NtCreateFile</b>.
 
 </td>
 </tr>
@@ -459,13 +408,11 @@ The file can be opened for write access by other threads' calls to
 </dl>
 </td>
 <td width="60%">
-The file can be opened for delete access by other threads' calls to 
-        <b>NtCreateFile</b>.
+The file can be opened for delete access by other threads' calls to <b>NtCreateFile</b>.
 
 </td>
 </tr>
 </table>
- 
 
 For more information, see the Windows SDK.
 
@@ -494,8 +441,7 @@ If the file already exists, replace it with the given file. If it does not, crea
 </dl>
 </td>
 <td width="60%">
-If the file already exists, fail the request and do not create or open the given file. If it does not, 
-        create the given file.
+If the file already exists, fail the request and do not create or open the given file. If it does not, create the given file.
 
 </td>
 </tr>
@@ -505,8 +451,7 @@ If the file already exists, fail the request and do not create or open the given
 </dl>
 </td>
 <td width="60%">
-If the file already exists, open it instead of creating a new file. If it does not, fail the request and 
-        do not create a new file.
+If the file already exists, open it instead of creating a new file. If it does not, fail the request and do not create a new file.
 
 </td>
 </tr>
@@ -544,8 +489,7 @@ If the file already exists, open it and overwrite it. If it does not, create the
 
 ### -param CreateOptions [in]
 
-The options to be applied when creating or opening the file, as a compatible combination of the following 
-      flags.
+The options to be applied when creating or opening the file, as a compatible combination of the following flags.
 
 <table>
 <tr>
@@ -558,13 +502,7 @@ The options to be applied when creating or opening the file, as a compatible com
 </dl>
 </td>
 <td width="60%">
-The file being created or opened is a directory file. With this flag, the 
-        <i>CreateDisposition</i> parameter must be set to <b>FILE_CREATE</b>, 
-        <b>FILE_OPEN</b>, or <b>FILE_OPEN_IF</b>. With this flag, other 
-        compatible <i>CreateOptions</i> flags include only the following: 
-        <b>FILE_SYNCHRONOUS_IO_ALERT</b>, <b>FILE_SYNCHRONOUS_IO _NONALERT</b>, 
-        <b>FILE_WRITE_THROUGH</b>, <b>FILE_OPEN_FOR_BACKUP_INTENT</b>, and 
-        <b>FILE_OPEN_BY_FILE_ID</b>.
+The file being created or opened is a directory file. With this flag, the <i>CreateDisposition</i> parameter must be set to <b>FILE_CREATE</b>, <b>FILE_OPEN</b>, or <b>FILE_OPEN_IF</b>. With this flag, other compatible <i>CreateOptions</i> flags include only the following: <b>FILE_SYNCHRONOUS_IO_ALERT</b>, <b>FILE_SYNCHRONOUS_IO _NONALERT</b>, <b>FILE_WRITE_THROUGH</b>, <b>FILE_OPEN_FOR_BACKUP_INTENT</b>, and <b>FILE_OPEN_BY_FILE_ID</b>.
 
 </td>
 </tr>
@@ -574,8 +512,7 @@ The file being created or opened is a directory file. With this flag, the
 </dl>
 </td>
 <td width="60%">
-The file being opened must not be a directory file or this call fails. The file object being opened can 
-        represent a data file, a logical, virtual, or physical device, or a volume.
+The file being opened must not be a directory file or this call fails. The file object being opened can represent a data file, a logical, virtual, or physical device, or a volume.
 
 </td>
 </tr>
@@ -585,9 +522,7 @@ The file being opened must not be a directory file or this call fails. The file 
 </dl>
 </td>
 <td width="60%">
-Applications that write data to the file must actually transfer the data into the file before any 
-        requested write operation is considered complete. This flag is automatically set if the 
-        <i>CreateOptions</i> flag <b>FILE_NO_INTERMEDIATE _BUFFERING</b> is set.
+Applications that write data to the file must actually transfer the data into the file before any requested write operation is considered complete. This flag is automatically set if the <i>CreateOptions</i> flag <b>FILE_NO_INTERMEDIATE _BUFFERING</b> is set.
 
 </td>
 </tr>
@@ -607,8 +542,7 @@ All accesses to the file are sequential.
 </dl>
 </td>
 <td width="60%">
-Accesses to the file can be random, so no sequential read-ahead operations should be performed on the 
-        file by FSDs or the system.
+Accesses to the file can be random, so no sequential read-ahead operations should be performed on the file by FSDs or the system.
 
 </td>
 </tr>
@@ -618,8 +552,7 @@ Accesses to the file can be random, so no sequential read-ahead operations shoul
 </dl>
 </td>
 <td width="60%">
-The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the 
-        <i>DesiredAccess</i> <b>FILE_APPEND_DATA</b> 
+The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the <i>DesiredAccess</i> <b>FILE_APPEND_DATA</b> 
         flag.
 
 </td>
@@ -630,9 +563,7 @@ The file cannot be cached or buffered in a driver's internal buffers. This flag 
 </dl>
 </td>
 <td width="60%">
-All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to 
-        premature termination from alerts. This flag also causes the I/O system to maintain the file position context. 
-        If this flag is set, the <i>DesiredAccess</i> <b>SYNCHRONIZE</b> flag also must be set.
+All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the <i>DesiredAccess</i> <b>SYNCHRONIZE</b> flag also must be set.
 
 </td>
 </tr>
@@ -642,9 +573,7 @@ All operations on the file are performed synchronously. Any wait on behalf of th
 </dl>
 </td>
 <td width="60%">
-All operations on the file are performed synchronously. Waits in the system to synchronize I/O queuing 
-        and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position 
-        context. If this flag is set, the <i>DesiredAccess</i> <b>SYNCHRONIZE</b> flag also must be set.
+All operations on the file are performed synchronously. Waits in the system to synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the <i>DesiredAccess</i> <b>SYNCHRONIZE</b> flag also must be set.
 
 </td>
 </tr>
@@ -664,8 +593,7 @@ Create a tree connection for this file in order to open it over the network. Thi
 </dl>
 </td>
 <td width="60%">
-If the extended attributes on an existing file being opened indicate that the caller must understand EAs 
-        to properly interpret the file, fail this request because the caller does not understand how to deal with EAs. This flag is irrelevant for device and intermediate drivers.
+If the extended attributes on an existing file being opened indicate that the caller must understand EAs to properly interpret the file, fail this request because the caller does not understand how to deal with EAs. This flag is irrelevant for device and intermediate drivers.
 
 </td>
 </tr>
@@ -715,7 +643,7 @@ The file is being opened for backup intent. Therefore, the system should check f
 </dl>
 </td>
 <td width="60%">
-This flag allows an application to request a filter opportunistic lock (<a href="https://www.microsoft.com/?ref=go">oplock</a>) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with <b>STATUS_OPLOCK_NOT_GRANTED</b>. For more information, see the Remarks section.
+This flag allows an application to request a filter <a href="/windows/win32/fileio/opportunistic-locks">opportunistic lock</a> to prevent other applications from getting share violations. If there are already open handles, the create request will fail with <b>STATUS_OPLOCK_NOT_GRANTED</b>. For more information, see the Remarks section.
 
 </td>
 </tr>
@@ -725,9 +653,9 @@ This flag allows an application to request a filter opportunistic lock (<a href=
 </dl>
 </td>
 <td width="60%">
-The file is being opened and an opportunistic lock (<a href="https://www.microsoft.com/?ref=go">oplock</a>) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation and will fail the create with a return code of <b>STATUS_CANNOT_BREAK_OPLOCK</b> if the result would be to break an existing oplock.  For more information, see the Remarks section.<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
+The file is being opened and an <a href="/windows/win32/fileio/opportunistic-locks">opportunistic lock</a> on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation and will fail the create with a return code of <b>STATUS_CANNOT_BREAK_OPLOCK</b> if the result would be to break an existing oplock.  For more information, see the Remarks section.
 
-
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
 This flag is supported on the following file systems: NTFS, FAT, and exFAT.
 
@@ -739,7 +667,7 @@ This flag is supported on the following file systems: NTFS, FAT, and exFAT.
 </dl>
 </td>
 <td width="60%">
-Complete this operation immediately with an alternate success code of <b>STATUS_OPLOCK_BREAK_IN_PROGRESS</b> if the target file is oplocked, rather than blocking the caller's thread. If the file is <a href="https://www.microsoft.com/?ref=go">oplocked</a>, another caller already has access to the file. This flag is not used by device and intermediate drivers.
+Complete this operation immediately with an alternate success code of <b>STATUS_OPLOCK_BREAK_IN_PROGRESS</b> if the target file is oplocked, rather than blocking the caller's thread. If the file is <a href="/windows/win32/fileio/opportunistic-locks">oplocked</a>, another caller already has access to the file. This flag is not used by device and intermediate drivers.
 
 </td>
 </tr>
@@ -759,81 +687,44 @@ Length of the EA buffer.
 
 ## -returns
 
-<b>NtCreateFile</b> returns either 
-      <b>STATUS_SUCCESS</b> or an appropriate error status. If it returns an error status, the 
-      caller can find more information about the cause of the failure by checking the 
-      <i>IoStatusBlock</i>. To simplify this check, an application can use the <b>NT_SUCCESS</b>, <b>NT_ERROR</b>, and <b>NT_WARNING</b> macros.
+<b>NtCreateFile</b> returns either <b>STATUS_SUCCESS</b> or an appropriate error status. If it returns an error status, the caller can find more information about the cause of the failure by checking the <i>IoStatusBlock</i>. To simplify this check, an application can use the <b>NT_SUCCESS</b>, <b>NT_ERROR</b>, and <b>NT_WARNING</b> macros.
 
 ## -remarks
 
-The handle, given by <b>NtCreateFile</b>, can be used by 
-    subsequent calls to manipulate data within the file or the file object's state or attributes.
+The handle, given by <b>NtCreateFile</b>, can be used by subsequent calls to manipulate data within the file or the file object's state or attributes.
 
-There are two alternate ways to specify the name of the file to be created or opened with 
-     <b>NtCreateFile</b>:
+There are two alternate ways to specify the name of the file to be created or opened with <b>NtCreateFile</b>:
 
 <ul>
-<li>As a fully qualified pathname, supplied in the <b>ObjectName</b> member of the input 
-      <i>ObjectAttributes</i></li>
-<li>As a pathname relative to the directory file represented by the handle in the 
-      <b>RootDirectory</b> member of the input <i>ObjectAttributes</i></li>
+<li>As a fully qualified pathname, supplied in the <b>ObjectName</b> member of the input <i>ObjectAttributes</i></li>
+<li>As a pathname relative to the directory file represented by the handle in the <b>RootDirectory</b> member of the input <i>ObjectAttributes</i></li>
 </ul>
+
 Certain <i>DesiredAccess</i> flags and combinations of flags have the following effects:
 
 <ul>
-<li>For a caller to synchronize an I/O completion by waiting on the returned 
-      <i>FileHandle</i>, the <b>SYNCHRONIZE</b> flag must be set.</li>
-<li>Passing a zero to <i>DesiredFlags</i> is not valid.</li>
-<li>If only the <b>FILE_APPEND_DATA</b> and <b>SYNCHRONIZE</b> flags are 
-      set, the caller can write only to the end of the file, and any offset information on writes to the file is 
-      ignored. However, the file is automatically  extended as necessary for this type of write operation.</li>
-<li>Setting the <b>FILE_WRITE_DATA</b> flag for a file also allows writes beyond the end of 
-      the file to occur. The file is automatically extended for this type of write, as well.</li>
-<li>If only the <b>FILE_EXECUTE</b> and <b>SYNCHRONIZE</b> flags are set, 
-      the caller cannot directly read or write any data in the file using the returned 
-      <i>FileHandle</i>, that is, all operations on the file occur through the system pager in 
-      response to instruction and data accesses. </li>
+<li>For a caller to synchronize an I/O completion by waiting on the returned <i>FileHandle</i>, the <b>SYNCHRONIZE</b> flag must be set.</li>
+<li>Passing a zero to <i>DesiredAccess</i> is not valid.</li>
+<li>If only the <b>FILE_APPEND_DATA</b> and <b>SYNCHRONIZE</b> flags are set, the caller can write only to the end of the file, and any offset information on writes to the file is ignored. However, the file is automatically  extended as necessary for this type of write operation.</li>
+<li>Setting the <b>FILE_WRITE_DATA</b> flag for a file also allows writes beyond the end of the file to occur. The file is automatically extended for this type of write, as well.</li>
+<li>If only the <b>FILE_EXECUTE</b> and <b>SYNCHRONIZE</b> flags are set, the caller cannot directly read or write any data in the file using the returned <i>FileHandle</i>, that is, all operations on the file occur through the system pager in response to instruction and data accesses. </li>
 </ul>
-The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, 
-    possibly simultaneously. Provided that both file openers have the privilege to access a file in the specified 
-    manner, the file can be successfully opened and shared. If the original caller of 
-    <b>NtCreateFile</b> does not specify 
-    <b>FILE_SHARE_READ</b>, <b>FILE_SHARE_WRITE</b>, or 
-    <b>FILE_SHARE_DELETE</b>, no other open operations can be performed on the file; that is, the 
-    original caller is given exclusive access to the file.
 
-For a shared file to be successfully opened, the requested <i>DesiredAccess</i> parameter to 
-     the file must be compatible with both the <i>DesiredAccess</i> and 
-     <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with 
-     <b>NtClose</b>. That is, the <i>DesiredAccess</i> parameter 
-     specified to <b>NtCreateFile</b> for a given file must not 
-     conflict with the accesses that other openers of the file have disallowed.
+The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both file openers have the privilege to access a file in the specified manner, the file can be successfully opened and shared. If the original caller of <b>NtCreateFile</b> does not specify <b>FILE_SHARE_READ</b>, <b>FILE_SHARE_WRITE</b>, or <b>FILE_SHARE_DELETE</b>, no other open operations can be performed on the file; that is, the original caller is given exclusive access to the file.
 
-The <i>CreateDisposition</i> value <b>FILE_SUPERSEDE</b> requires that 
-     the caller have <b>DELETE</b> access to an existing file object. If so, a successful call to 
-     <b>NtCreateFile</b> with 
-     <b>FILE_SUPERSEDE</b> on an existing file effectively deletes that file, and then re-creates 
-     it. This implies that, if the file has already been opened by another thread, it opened the file by specifying a 
-     <i>ShareAccess</i> parameter with the <b>FILE_SHARE_DELETE</b> flag set. 
-     Note that this type of disposition is consistent with the POSIX style of overwriting files. The 
-     <i>CreateDisposition</i> values <b>FILE_OVERWRITE_IF</b> and 
-     <b>FILE_SUPERSEDE</b> are similar. If <b>ZwCreateFile</b> is called 
-     with an existing file and either of these <i>CreateDisposition</i> values, the file is 
-     replaced.
+For a shared file to be successfully opened, the requested <i>DesiredAccess</i> parameter to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with <b>NtClose</b>. That is, the <i>DesiredAccess</i> parameter specified to <b>NtCreateFile</b> for a given file must not conflict with the accesses that other openers of the file have disallowed.
+
+The <i>CreateDisposition</i> value <b>FILE_SUPERSEDE</b> requires that the caller have <b>DELETE</b> access to an existing file object. If so, a successful call to <b>NtCreateFile</b> with <b>FILE_SUPERSEDE</b> on an existing file effectively deletes that file, and then re-creates it. This implies that, if the file has already been opened by another thread, it opened the file by specifying a <i>ShareAccess</i> parameter with the <b>FILE_SHARE_DELETE</b> flag set. 
+
+Note that this type of disposition is consistent with the POSIX style of overwriting files. The <i>CreateDisposition</i> values <b>FILE_OVERWRITE_IF</b> and <b>FILE_SUPERSEDE</b> are similar. If <b>ZwCreateFile</b> is called with an existing file and either of these <i>CreateDisposition</i> values, the file is replaced.
 
 Overwriting a file is semantically equivalent to a supersede operation, except for the following:
 
 <ul>
-<li>The caller must have write access to the file, rather than delete access. This implies that, if the file 
-      has already been opened by another thread, it opened the file with the 
-      <b>FILE_SHARE_WRITE</b> flag set in the input <i>ShareAccess</i> 
-      parameter.</li>
-<li>The specified file attributes are logically ORed with those already on the file. This implies that, if the 
-      file has already been opened by another thread, a subsequent caller of 
-      <b>NtCreateFile</b> cannot disable existing 
-      <i>FileAttributes</i> flags but can enable additional flags for the same file. Note that this 
-      style of overwriting files is consistent with MS-DOS, Windows 3.1, and  OS/2 operating systems.</li>
+<li>The caller must have write access to the file, rather than delete access. This implies that, if the file has already been opened by another thread, it opened the file with the <b>FILE_SHARE_WRITE</b> flag set in the input <i>ShareAccess</i> parameter.</li>
+<li>The specified file attributes are logically ORed with those already on the file. This implies that, if the file has already been opened by another thread, a subsequent caller of <b>NtCreateFile</b> cannot disable existing <i>FileAttributes</i> flags but can enable additional flags for the same file. Note that this style of overwriting files is consistent with MS-DOS, Windows 3.1, and  OS/2 operating systems.</li>
 </ul>
+
 The <i>CreateOptions</i> <b>FILE_DIRECTORY_FILE</b> value specifies that the file to be created or opened is a 
      directory file. When a directory file is created, the file system creates an appropriate structure on the disk to 
      represent an empty directory for that particular file system's on-disk structure. If this option was specified 
@@ -885,7 +776,7 @@ In Windows 7, if other handles exist on the file when an application uses this 
 
 If this create operation would break an oplock that already exists on the file, then setting the <b>FILE_OPEN_REQUIRING_OPLOCK</b> flag will cause the create operation to fail with <b>STATUS_CANNOT_BREAK_OPLOCK</b>. The existing oplock will not be broken by this create operation.
 
-An application that uses this flag must request an oplock after this call succeeds, or all subsequent attempts to open the file will be blocked without the benefit of normal oplock processing. Similarly, if this call succeeds but the subsequent oplock request fails, an application that uses this flag must close its handle after it detects that the oplock request has failed.
+An application that uses the FILE_OPEN_REQUIRING_OPLOCK flag must request an oplock on the file after this call succeeds, or all subsequent attempts to open the file will be blocked without the benefit of normal oplock processing. Similarly, if this call succeeds but the subsequent oplock request fails, an application that uses this flag must close its handle after it detects that the oplock request has failed. The application must not perform any other file system operation on the file before requsting the oplock (besides closing the file handle), otherwise a deadlock may occur.
 
 <div class="alert"><b>Note</b>  The <b>FILE_OPEN_REQUIRING_OPLOCK</b> flag is available in Windows 7, Windows Server 2008 R2 and later operating systems for the following file systems: NTFS, FAT, and exFAT.
 </div>
@@ -911,11 +802,6 @@ The <i>CreateOptions</i> parameter's <b>FILE_RESERVE_OPFILTER</b> flag allows an
 
 NTFS is the only Microsoft file system that implements <b>FILE_RESERVE_OPFILTER</b>.
 
-For more information on oplocks, see <a href="https://msdn.microsoft.com/library/dd445267.aspx">Oplock Semantics</a>.
+For more information on oplocks, see [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks).
 
-Note that the WDK header file NtDef.h is necessary for many constant definitions 
-    as well as the <b>InitializeObjectAttributes</b> macro. The associated import library, 
-    NtDll.lib is available in the WDK. To obtain the WDK, see <a href="/windows-hardware/drivers/download-the-wdk">Download kits for Windows hardware development</a>. You can also use the 
-    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
-    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
-    NtDll.dll.
+Note that the WDK header file NtDef.h is necessary for many constant definitions. You can also use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to NtDll.dll.

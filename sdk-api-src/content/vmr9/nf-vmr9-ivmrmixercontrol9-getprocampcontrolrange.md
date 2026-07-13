@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetProcAmpControlRange","GetProcAmpControlRange method [D
 old-location: dshow\ivmrmixercontrol9_getprocampcontrolrange.htm
 tech.root: dshow
 ms.assetid: e7db2b22-b3d2-4c6f-84fc-5a287761ed7a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetProcAmpControlRange, GetProcAmpControlRange method [DirectShow], GetProcAmpControlRange method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControlRange method, IVMRMixerControl9.GetProcAmpControlRange, IVMRMixerControl9::GetProcAmpControlRange, IVMRMixerControl9GetProcAmpControlRange, dshow.ivmrmixercontrol9_getprocampcontrolrange, vmr9/IVMRMixerControl9::GetProcAmpControlRange
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetProcAmpControlRange</code> method retrieves the range of values for an image adjustment setting, such as brightness, contrast, hue, or saturation. Image adjustment is performed by the graphics device, so the valid range depends on the graphics driver. If the driver does not support hardware image adjustment, this method fails.
 

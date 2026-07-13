@@ -52,7 +52,7 @@ api_name:
 
 Saves the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> instance following the layout of type information.
 
-## -parameters
+
 
 ## -returns
 

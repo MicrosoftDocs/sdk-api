@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties 
    of a <a href="/windows/desktop/VDS/disk-object">disk object</a>.
@@ -172,7 +172,7 @@ The name used to open a handle to an object created using the <a href="/windows/
 
 ### -field pwszFriendlyName
 
-The name returned by the Plug and Play   Manager. This name is maintained in the Windows registry by the 
+The name returned by the Plug and Play Manager. This name is maintained in the Windows registry by the 
       Plug and Play Manager, for example: "SEAGATE ST34573N SCSI Disk Device".
 
 ### -field pwszAdaptorName

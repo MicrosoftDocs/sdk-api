@@ -56,7 +56,7 @@ Specifies how closely an event must match a filter.
 
 ## -enum-fields
 
-### -field OFFLINEFILES_PATHFILTER_SELF
+### -field OFFLINEFILES_PATHFILTER_SELF:0
 
 Event must be an exact match for the fully qualified UNC path associated with the filter.
 

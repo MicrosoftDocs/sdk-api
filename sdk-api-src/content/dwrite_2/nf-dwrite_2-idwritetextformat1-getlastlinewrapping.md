@@ -52,7 +52,7 @@ api_name:
 
 Gets the wrapping mode of the last line.
 
-## -parameters
+
 
 ## -returns
 
@@ -62,5 +62,5 @@ Returns FALSE if the last line is not wrapped; TRUE if the last line is wrapped.
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextformat1">IDWriteTextFormat1</a>
 

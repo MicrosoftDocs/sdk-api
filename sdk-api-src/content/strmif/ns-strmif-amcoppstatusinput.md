@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPAMCOPPStatusInput","AMCOPPStatusInput","AMCOPPStatusIn
 old-location: dshow\amcoppstatusinput.htm
 tech.root: dshow
 ms.assetid: 988e6d54-f241-4cfc-8793-fc42de92ac52
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*LPAMCOPPStatusInput, AMCOPPStatusInput, AMCOPPStatusInput structure [DirectShow], AMCOPPStatusInputStructure, LPAMCOPPStatusInput, LPAMCOPPStatusInput structure pointer [DirectShow], dshow.amcoppstatusinput, strmif/AMCOPPStatusInput, strmif/LPAMCOPPStatusInput'
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -53,6 +53,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The AMCOPPStatusInput structure contains a Certified Output Protection Protocol (COPP) status request.
 

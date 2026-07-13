@@ -70,7 +70,7 @@ The amount of disk space, in bytes, that remains to be freed at this point in th
 
 Type: <b>DWORD</b>
 
-A flag that can be sent to the disk cleanup manager. It can can have the following value: 
+A flag that can be sent to the disk cleanup manager. It can have the following value: 
 
 
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhEnumMachinesHA
 title: PdhEnumMachinesHA function (pdh.h)
-description: Returns a list of the computer names associated with counters in a log file.
-helpviewer_keywords: ["PdhEnumMachinesH","PdhEnumMachinesH function [Perf]","PdhEnumMachinesHA","PdhEnumMachinesHW","_win32_pdhenummachinesh","base.pdhenummachinesh","pdh/PdhEnumMachinesH","pdh/PdhEnumMachinesHA","pdh/PdhEnumMachinesHW","perf.pdhenummachinesh"]
+description: Returns a list of the computer names associated with counters in a log file. (PdhEnumMachinesHA)
+helpviewer_keywords: ["PdhEnumMachinesHA", "pdh/PdhEnumMachinesHA"]
 old-location: perf\pdhenummachinesh.htm
 tech.root: perf
 ms.assetid: 7e8dc113-76a7-4a7a-bbad-1a4387831501
@@ -120,7 +120,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 > [!NOTE]
-> The pdh.h header defines PdhEnumMachinesH as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhEnumMachinesH as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

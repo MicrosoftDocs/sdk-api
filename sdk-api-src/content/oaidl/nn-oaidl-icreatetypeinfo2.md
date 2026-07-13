@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ICreateTypeInfo2
 title: ICreateTypeInfo2 (oaidl.h)
-description: Provides the tools for creating and administering the type information defined through the type description.
+description: Provides the tools for creating and administering the type information defined through the type description. (ICreateTypeInfo2)
 helpviewer_keywords: ["ICreateTypeInfo2","ICreateTypeInfo2 interface [Automation]","ICreateTypeInfo2 interface [Automation]","described","_oa96_ICreateTypeInfo2_Interface","automat.icreatetypeinfo2","oaidl/ICreateTypeInfo2"]
 old-location: automat\icreatetypeinfo2.htm
 tech.root: automat
@@ -56,10 +56,7 @@ The <a href="/previous-versions/windows/desktop/automat/out">ICreateTypeInfo::La
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeInfo2</b> interface inherits from <b>ICreateTypeInfo</b>. <b>ICreateTypeInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICreateTypeInfo2</b> interface inherits from <b>ICreateTypeInfo</b>. <b>ICreateTypeInfo2</b> also has these types of members:
 
 ## -see-also
 

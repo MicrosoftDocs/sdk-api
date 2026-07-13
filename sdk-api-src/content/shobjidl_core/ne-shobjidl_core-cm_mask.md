@@ -54,22 +54,22 @@ Indicates which values in the <a href="/windows/desktop/api/shobjidl_core/ns-sho
 
 ## -enum-fields
 
-### -field CM_MASK_WIDTH
+### -field CM_MASK_WIDTH:0x1
 
 The <b>uWidth</b> member is specified.
 
-### -field CM_MASK_DEFAULTWIDTH
+### -field CM_MASK_DEFAULTWIDTH:0x2
 
 The <b>uDefaultWidth</b> member is specified.
 
-### -field CM_MASK_IDEALWIDTH
+### -field CM_MASK_IDEALWIDTH:0x4
 
 The <b>uIdealWidth</b> member is specified.
 
-### -field CM_MASK_NAME
+### -field CM_MASK_NAME:0x8
 
 The <b>wszName</b> member is specified.
 
-### -field CM_MASK_STATE
+### -field CM_MASK_STATE:0x10
 
 The <b>dwState</b> member is specified.

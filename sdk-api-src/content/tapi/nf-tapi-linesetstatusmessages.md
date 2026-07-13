@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ras-tapi32-l1-1-1.dll
  - Tapi32.dll
 api_name:
  - lineSetStatusMessages

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509ExtensionAuthorityKeyIdentifier.get_AuthorityKeyIdentifier
 title: IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier (certenroll.h)
-description: Retrieves a byte array that contains the extension value.
+description: Retrieves a byte array that contains the extension value. (IX509ExtensionAuthorityKeyIdentifier.get_AuthorityKeyIdentifier)
 helpviewer_keywords: ["AuthorityKeyIdentifier property [Security]","AuthorityKeyIdentifier property [Security]","IX509ExtensionAuthorityKeyIdentifier interface","IX509ExtensionAuthorityKeyIdentifier interface [Security]","AuthorityKeyIdentifier property","IX509ExtensionAuthorityKeyIdentifier.AuthorityKeyIdentifier","IX509ExtensionAuthorityKeyIdentifier.get_AuthorityKeyIdentifier","IX509ExtensionAuthorityKeyIdentifier::AuthorityKeyIdentifier","IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier","certenroll/IX509ExtensionAuthorityKeyIdentifier::AuthorityKeyIdentifier","certenroll/IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier","get_AuthorityKeyIdentifier","security.ix509extensionauthoritykeyidentifier_authoritykeyidentifier_property"]
 old-location: security\ix509extensionauthoritykeyidentifier_authoritykeyidentifier_property.htm
 tech.root: security

@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvStoreFileW
 title: SymSrvStoreFileW function (dbghelp.h)
-description: Stores a file in the specified symbol store.
+description: The SymSrvStoreFileW (Unicode) function (dbghelp.h) stores a file in the specified symbol store.
 helpviewer_keywords: ["SYMSTOREOPT_COMPRESS","SYMSTOREOPT_OVERWRITE","SYMSTOREOPT_PASS_IF_EXISTS","SYMSTOREOPT_POINTER","SYMSTOREOPT_RETURNINDEX","SymSrvStoreFile","SymSrvStoreFile function","SymSrvStoreFileW","base.symsrvstorefile","dbghelp/SymSrvStoreFile","dbghelp/SymSrvStoreFileW"]
 old-location: base\symsrvstorefile.htm
 tech.root: Debug
 ms.assetid: 308ce0bb-d5ff-4de0-b5b3-9e26aa7b163a
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SYMSTOREOPT_COMPRESS, SYMSTOREOPT_OVERWRITE, SYMSTOREOPT_PASS_IF_EXISTS, SYMSTOREOPT_POINTER, SYMSTOREOPT_RETURNINDEX, SymSrvStoreFile, SymSrvStoreFile function, SymSrvStoreFileW, base.symsrvstorefile, dbghelp/SymSrvStoreFile, dbghelp/SymSrvStoreFileW
 req.header: dbghelp.h
 req.include-header: 
@@ -157,7 +157,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymSrvStoreFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymSrvStoreFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

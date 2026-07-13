@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_duration
 old-location: wmp\iwmpmedia_get_durationstring.htm
 tech.root: WMP
 ms.assetid: 540f4780-850f-41ec-940c-e8f7d3c96e6b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia interface [Windows Media Player],get_durationString method, IWMPMedia.get_durationString, IWMPMedia2 interface [Windows Media Player],get_durationString method, IWMPMedia2::get_durationString, IWMPMedia3 interface [Windows Media Player],get_durationString method, IWMPMedia3::get_durationString, IWMPMedia::get_durationString, IWMPMediaget_durationString, get_durationString, get_durationString method [Windows Media Player], get_durationString method [Windows Media Player],IWMPMedia interface, get_durationString method [Windows Media Player],IWMPMedia2 interface, get_durationString method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_durationstring, wmp/IWMPMedia2::get_durationString, wmp/IWMPMedia3::get_durationString, wmp/IWMPMedia::get_durationString
 req.header: wmp.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_durationString</b> method retrieves a string indicating the duration of the current media item in HH:MM:SS format.
 

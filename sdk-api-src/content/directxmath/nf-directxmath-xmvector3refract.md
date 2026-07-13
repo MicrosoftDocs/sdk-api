@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3Refract
 title: XMVector3Refract function (directxmath.h)
-description: Refracts an incident 3D vector across a 3D normal vector.
+description: Refracts an incident 3D vector across a 3D normal vector. (XMVector3Refract)
 helpviewer_keywords: ["Use DirectX..XMVector3Refract","XMVector3Refract","XMVector3Refract method [DirectX Math Support APIs]","dxmath.xmvector3refract"]
 old-location: dxmath\xmvector3refract.htm
 tech.root: dxmath

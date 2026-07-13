@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_ConnectClientPrintersAtLogon
 title: IADsTSUserEx::get_ConnectClientPrintersAtLogon (tsuserex.h)
-description: A value that specifies whether to reconnect to mapped client printers at logon.
+description: A value that specifies whether to reconnect to mapped client printers at logon. (Get)
 helpviewer_keywords: ["ConnectClientPrintersAtLogon property [Remote Desktop Services]","ConnectClientPrintersAtLogon property [Remote Desktop Services]","IADsTSUserEx interface","IADsTSUserEx interface [Remote Desktop Services]","ConnectClientPrintersAtLogon property","IADsTSUserEx.ConnectClientPrintersAtLogon","IADsTSUserEx.get_ConnectClientPrintersAtLogon","IADsTSUserEx::ConnectClientPrintersAtLogon","IADsTSUserEx::get_ConnectClientPrintersAtLogon","IADsTSUserEx::put_ConnectClientPrintersAtLogon","get_ConnectClientPrintersAtLogon","termserv.iadstsuserex_connectclientprintersatlogon","tsuserex/IADsTSUserEx::ConnectClientPrintersAtLogon","tsuserex/IADsTSUserEx::get_ConnectClientPrintersAtLogon","tsuserex/IADsTSUserEx::put_ConnectClientPrintersAtLogon"]
 old-location: termserv\iadstsuserex_connectclientprintersatlogon.htm
 tech.root: TermServ

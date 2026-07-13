@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1BitmapBrush
 title: ID2D1BitmapBrush (d2d1.h)
-description: Paints an area with a bitmap.
+description: Paints an area with a bitmap. (ID2D1BitmapBrush)
 helpviewer_keywords: ["ID2D1BitmapBrush","ID2D1BitmapBrush interface [Direct2D]","ID2D1BitmapBrush interface [Direct2D]","described","d2d1/ID2D1BitmapBrush","direct2d.ID2D1BitmapBrush"]
 old-location: direct2d\ID2D1BitmapBrush.htm
 tech.root: Direct2D
@@ -54,7 +54,7 @@ Paints an area with a bitmap.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BitmapBrush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1BitmapBrush</b> also has these types of members:
+The <b>ID2D1BitmapBrush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1BitmapBrush</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>

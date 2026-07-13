@@ -1,7 +1,7 @@
 ---
 UID: NF:lmwksta.NetWkstaTransportAdd
 title: NetWkstaTransportAdd function (lmwksta.h)
-description: Not supported.
+description: Not supported. (NetWkstaTransportAdd)
 helpviewer_keywords: ["0","NetWkstaTransportAdd","NetWkstaTransportAdd function [Network Management]","_win32_netwkstatransportadd","lmwksta/NetWkstaTransportAdd","netmgmt.netwkstatransportadd"]
 old-location: netmgmt\netwkstatransportadd.htm
 tech.root: NetMgmt

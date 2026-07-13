@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLunNumber.GetLunNumber
 title: IVdsLunNumber::GetLunNumber (vdshwprv.h)
-description: Retrieves the LUN number for a LUN.
+description: The IVdsLunNumber::GetLunNumber (vdshwprv.h) method retrieves the LUN number for a LUN.
 helpviewer_keywords: ["GetLunNumber","GetLunNumber method","GetLunNumber method","IVdsLunNumber interface","IVdsLunNumber interface","GetLunNumber method","IVdsLunNumber.GetLunNumber","IVdsLunNumber::GetLunNumber","base.ivdslunnumber_getlunnumber","vds/IVdsLunNumber::GetLunNumber","vdshwprv/IVdsLunNumber::GetLunNumber"]
 old-location: base\ivdslunnumber_getlunnumber.htm
 tech.root: base
 ms.assetid: 79aa7dc1-ef46-4b6d-8088-e42839625a16
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetLunNumber, GetLunNumber method, GetLunNumber method,IVdsLunNumber interface, IVdsLunNumber interface,GetLunNumber method, IVdsLunNumber.GetLunNumber, IVdsLunNumber::GetLunNumber, base.ivdslunnumber_getlunnumber, vds/IVdsLunNumber::GetLunNumber, vdshwprv/IVdsLunNumber::GetLunNumber
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Retrieves the LUN number for a LUN.
 

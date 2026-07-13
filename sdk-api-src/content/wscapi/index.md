@@ -4,7 +4,8 @@ title: Wscapi.h header
 ms.assetid: 9bb7e037-d8a3-31ab-ad51-cdc6531e5b47
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: winprog
 f1_keywords:
  - wscapi

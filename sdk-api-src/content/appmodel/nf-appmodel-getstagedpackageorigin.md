@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
+req.lib: onecoreuap.lib
+req.dll: Kernelbase.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
+ - api-ms-win-appmodel-runtime-l1-1-6.dll
+ - api-ms-win-appmodel-runtime-l1-1-5.dll
+ - api-ms-win-appmodel-runtime-l1-1-4.dll
+ - api-ms-win-appmodel-runtime-l1-1-3.dll
  - Kernel32.dll
  - API-MS-Win-AppModel-RunTime-l1-1-1.dll
  - Kernel.AppCore.dll

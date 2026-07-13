@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get__NewEnum
 title: IGPMMapEntryCollection::get__NewEnum (gpmgmt.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. (IGPMMapEntryCollection.get__NewEnum)
 helpviewer_keywords: ["IGPMMapEntryCollection interface [GPMC]","get__NewEnum method","IGPMMapEntryCollection.get__NewEnum","IGPMMapEntryCollection::get__NewEnum","get__NewEnum","get__NewEnum method [GPMC]","get__NewEnum method [GPMC]","IGPMMapEntryCollection interface","gpmc.igpmmapentrycollection_get__newenum","gpmgmt/IGPMMapEntryCollection::get__NewEnum"]
 old-location: gpmc\igpmmapentrycollection_get__newenum.htm
 tech.root: gpmc

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.AddRetrievalFilterEntries
 title: ID3D12InfoQueue::AddRetrievalFilterEntries (d3d12sdklayers.h)
-description: Add storage filters to the top of the retrieval-filter stack.
+description: Add storage filters to the top of the retrieval-filter stack. (ID3D12InfoQueue.AddRetrievalFilterEntries)
 helpviewer_keywords: ["AddRetrievalFilterEntries","AddRetrievalFilterEntries method","AddRetrievalFilterEntries method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","AddRetrievalFilterEntries method","ID3D12InfoQueue.AddRetrievalFilterEntries","ID3D12InfoQueue::AddRetrievalFilterEntries","d3d12sdklayers/ID3D12InfoQueue::AddRetrievalFilterEntries","direct3d12.id3d12infoqueue_addretrievalfilterentries"]
 old-location: direct3d12\id3d12infoqueue_addretrievalfilterentries.htm
 tech.root: direct3d12
@@ -72,13 +72,15 @@ The following code example shows how to use this method:
 
 
 
-<pre class="syntax" xml:space="preserve"><code> 
+
+``` syntax
+ 
 D3D12_MESSAGE_CATEGORY cats[] = { ..., ..., ... };
 D3D12_MESSAGE_SEVERITY sevs[] = { ..., ..., ... };
 D3D12_MESSAGE_ID ids[] = { ..., ..., ... };
 
 D3D12_INFO_QUEUE_FILTER filter;
-memset( &amp;filter, 0, sizeof(filter) );
+memset( &filter, 0, sizeof(filter) );
 
 // To set the type of messages to allow, 
 // set filter.AllowList as follows:
@@ -93,9 +95,11 @@ filter.AllowList.pIDList = ids;
 // similarly to the preceding filter.AllowList.
 
 // The following single call sets all of the preceding information.
-hr = infoQueue-&gt;AddRetrievalFilterEntries( &amp;filter );
+hr = infoQueue->AddRetrievalFilterEntries( &filter );
  
-</code></pre>
+
+```
+
 
 ## -see-also
 

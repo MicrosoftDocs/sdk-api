@@ -1,7 +1,7 @@
 ---
 UID: NS:bcrypt._BCRYPT_DSA_KEY_BLOB
 title: BCRYPT_DSA_KEY_BLOB (bcrypt.h)
-description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory.
+description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory. (BCRYPT_DSA_KEY_BLOB)
 helpviewer_keywords: ["*PBCRYPT_DSA_KEY_BLOB","BCRYPT_DSA_KEY_BLOB","BCRYPT_DSA_KEY_BLOB structure [Security]","BCRYPT_DSA_PRIVATE_MAGIC","BCRYPT_DSA_PUBLIC_MAGIC","PBCRYPT_DSA_KEY_BLOB","PBCRYPT_DSA_KEY_BLOB structure pointer [Security]","bcrypt/BCRYPT_DSA_KEY_BLOB","bcrypt/PBCRYPT_DSA_KEY_BLOB","security.bcrypt_dsa_key_blob"]
 old-location: security\bcrypt_dsa_key_blob.htm
 tech.root: security
@@ -113,21 +113,29 @@ The structure applies to DSA keys that equal or exceed 512 bits in length but ar
 
 This structure is used as a header for a larger buffer. A DSA <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Modulus, Generator, and Public numbers are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DSA_KEY_BLOB
 Modulus[cbKey]    // Big-endian.
 Generator[cbKey]  // Big-endian.
 Public[cbKey]     // Big-endian.
-</code></pre>
+
+```
+
 A DSA <a href="/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_DSA_PRIVATE_BLOB) has the following format in contiguous memory. The Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DSA_KEY_BLOB
 Modulus[cbKey]        // Big-endian.
 Generator[cbKey]      // Big-endian.
 Public[cbKey]         // Big-endian.
 PrivateExponent[20]   // Big-endian.
-</code></pre>
+
+```
+
 
 ## -see-also
 

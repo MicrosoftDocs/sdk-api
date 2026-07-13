@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_AllowHardTerminate
 title: ITaskSettings::put_AllowHardTerminate (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using TerminateProcess.
+description: Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using TerminateProcess. (Put)
 helpviewer_keywords: ["AllowHardTerminate property [Task Scheduler]","AllowHardTerminate property [Task Scheduler]","ITaskSettings interface","AllowHardTerminate property [Task Scheduler]","TaskSettings class","ITaskSettings interface [Task Scheduler]","AllowHardTerminate property","ITaskSettings.AllowHardTerminate","ITaskSettings.put_AllowHardTerminate","ITaskSettings::AllowHardTerminate","ITaskSettings::get_AllowHardTerminate","ITaskSettings::put_AllowHardTerminate","TaskSettings class [Task Scheduler]","AllowHardTerminate property","put_AllowHardTerminate","taskschd.itasksettings_allowhardterminate","taskschd/ITaskSettings::AllowHardTerminate","taskschd/ITaskSettings::get_AllowHardTerminate","taskschd/ITaskSettings::put_AllowHardTerminate"]
 old-location: taskschd\itasksettings_allowhardterminate.htm
 tech.root: taskschd

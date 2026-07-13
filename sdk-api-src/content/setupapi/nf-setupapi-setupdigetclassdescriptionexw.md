@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDescriptionExW
 title: SetupDiGetClassDescriptionExW function (setupapi.h)
-description: The SetupDiGetClassDescriptionEx function retrieves the description of a setup class installed on a local or remote computer.
-helpviewer_keywords: ["SetupDiGetClassDescriptionEx","SetupDiGetClassDescriptionEx function [Device and Driver Installation]","SetupDiGetClassDescriptionExA","SetupDiGetClassDescriptionExW","devinst.setupdigetclassdescriptionex","di-rtns_1e1110ab-59c3-42be-863a-396f329b114e.xml","setupapi/SetupDiGetClassDescriptionEx"]
+description: The SetupDiGetClassDescriptionEx function retrieves the description of a setup class installed on a local or remote computer. (Unicode)
+helpviewer_keywords: ["SetupDiGetClassDescriptionEx", "SetupDiGetClassDescriptionEx function [Device and Driver Installation]", "SetupDiGetClassDescriptionExW", "devinst.setupdigetclassdescriptionex", "di-rtns_1e1110ab-59c3-42be-863a-396f329b114e.xml", "setupapi/SetupDiGetClassDescriptionEx"]
 old-location: devinst\setupdigetclassdescriptionex.htm
 tech.root: devinst
 ms.assetid: db3c6317-4f77-4ca6-96b8-4b26f6b04943
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:
@@ -95,7 +96,7 @@ If there is a friendly name in the registry key for the class, this routine retu
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetClassDescriptionEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetClassDescriptionEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

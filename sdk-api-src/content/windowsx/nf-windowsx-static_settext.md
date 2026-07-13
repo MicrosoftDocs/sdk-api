@@ -6,7 +6,7 @@ helpviewer_keywords: ["Static_SetText","Static_SetText macro [Windows Controls]"
 old-location: controls\Static_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_settext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Static_SetText, Static_SetText macro [Windows Controls], _win32_Static_SetText, _win32_Static_SetText_cpp, controls.Static_SetText, controls._win32_Static_SetText, windowsx/Static_SetText
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Static_SetText macro
+
+## -syntax
+
+```cpp
+int Static_SetText(
+   HWND   hwndCtl,
+   LPTSTR lpsz
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the function succeeds, the return value is nonzero. If it fails, the return value is zero.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_SetMonthCalColor","DateTime_SetMonthCalColor mac
 old-location: controls\DateTime_SetMonthCalColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_SetMonthCalColor, DateTime_SetMonthCalColor macro [Windows Controls], MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, _win32_DateTime_SetMonthCalColor, _win32_DateTime_SetMonthCalColor_cpp, commctrl/DateTime_SetMonthCalColor, controls.DateTime_SetMonthCalColor, controls._win32_DateTime_SetMonthCalColor
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # DateTime_SetMonthCalColor macro
 
+## -syntax
+
+```cpp
+COLORREF DateTime_SetMonthCalColor(
+   HWND     hdp,
+   int      iColor,
+   COLORREF clr
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>COLORREF</b> value that represents the previous color setting for the specified portion of the month calendar control if successful. Otherwise, this message returns -1.
 
 ## -description
 

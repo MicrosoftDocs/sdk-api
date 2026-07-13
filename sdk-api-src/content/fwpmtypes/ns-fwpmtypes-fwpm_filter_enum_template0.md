@@ -6,7 +6,7 @@ helpviewer_keywords: ["FWPM_FILTER_ENUM_TEMPLATE0","FWPM_FILTER_ENUM_TEMPLATE0 s
 old-location: fwp\fwpm_filter_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 5ae77ee2-42b2-4794-afec-80360fe4f4da
-ms.date: 12/05/2018
+ms.date: 05/03/2024
 ms.keywords: FWPM_FILTER_ENUM_TEMPLATE0, FWPM_FILTER_ENUM_TEMPLATE0 structure [Filtering], FWP_ACTION_FLAG_CALLOUT, FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH, FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY, FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME, FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED, FWP_FILTER_ENUM_FLAG_SORTED, fwp.fwpm_filter_enum_template0_struct, fwpmtypes/FWPM_FILTER_ENUM_TEMPLATE0
 req.header: fwpmtypes.h
 req.include-header: 
@@ -47,12 +47,9 @@ api_name:
  - FWPM_FILTER_ENUM_TEMPLATE0
 ---
 
-# FWPM_FILTER_ENUM_TEMPLATE0 structure
-
-
 ## -description
 
-The <b>FWPM_FILTER_ENUM_TEMPLATE0</b> structure is used for enumerating filters.
+The **FWPM_FILTER_ENUM_TEMPLATE0** structure is used for enumerating filters.
 
 ## -struct-fields
 
@@ -66,7 +63,7 @@ Layer whose fields are to be enumerated.
 
 ### -field enumType
 
-A [FWP_FILTER_ENUM_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type) value that determines how the filter conditions are interpreted.
+A [FWP_FILTER_ENUM_TYPE](/windows/win32/api/fwptypes/ne-fwptypes-fwp_filter_enum_type) value that determines how the filter conditions are interpreted.
 
 ### -field flags
 
@@ -77,7 +74,7 @@ A [FWP_FILTER_ENUM_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_en
 </tr>
 <tr>
 <td width="40%"><a id="FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH_"></a><a id="fwp_filter_enum_flag_best_terminating_match_"></a><dl>
-<dt><b>FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH </b></dt>
+<dt><b>FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,9 +109,9 @@ Return only boot-time filters.
 </td>
 <td width="60%">
 Include boot-time filters; ignored if the <b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY</b> flag is set.
-
 </td>
 </tr>
+
 <tr>
 <td width="40%"><a id="FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED"></a><a id="fwp_filter_enum_flag_include_disabled"></a><dl>
 <dt><b>FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED</b></dt>
@@ -122,15 +119,24 @@ Include boot-time filters; ignored if the <b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY<
 </td>
 <td width="60%">
 Include disabled filters; ignored if the <b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY</b> flag is set.
-
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="FWP_FILTER_ENUM_VALID_FLAGS"></a><a id="fwp_filter_enum_valid_flags"></a><dl>
+<dt><b>FWP_FILTER_ENUM_VALID_FLAGS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combination of <b>FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH</b> and <b>FWP_FILTER_ENUM_FLAG_SORTED</b>.
+</td>
+</tr>
+
 </table>
 
 ### -field providerContextTemplate
 
-A <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> structure that is used to limit the number of filters enumerated. If non-<b>NULL</b>, only enumerate filters whose provider context matches the
-   template.
+A <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> structure that is used to limit the number of filters enumerated. If non-**NULL**, only enumerate filters whose provider context matches the template.
 
 ### -field numFilterConditions
 
@@ -138,18 +144,52 @@ Number of filter conditions. If zero, then all filters match.
 
 ### -field filterCondition
 
-An array of [FWPM_FILTER_CONDITION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0) structures that contain distinct filter conditions (duplicated filter conditions will generate an error).
+An array of [FWPM_FILTER_CONDITION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0) structures that contain distinct filter conditions (duplicated filter conditions will generate an error).
 
 ### -field actionMask
 
-Only filters whose action type contains at least one of the bits in
-   <b>actionMask</b> will be returned.
+Only filters whose action type contains at least one of the bits in **actionMask** will be returned. Using the **FWP_ACTION_** constants directly may not work as intended since they contain multiple bits. Some common examples are in the table below (**^** represents the logical XOR operator).
 
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
+ 
+<tr>
+<td width="40%">
+<dl>
+<dt>FWP_ACTION_BLOCK ^ FWP_ACTION_FLAG_TERMINATING</dt>
+</dl>
+</td>
+<td width="60%">
+ Enumerate filters that have an **FWP_ACTION_BLOCK** action.
+ </td>
+</tr>
+ 
+<tr>
+<td width="40%">
+<dl>
+<dt>FWP_ACTION_PERMIT ^ FWP_ACTION_FLAG_TERMINATING</dt>
+</dl>
+</td>
+<td width="60%">
+ Enumerate filters that have an **FWP_ACTION_PERMIT** action.
+ </td>
+</tr>
+ 
+<tr>
+<td width="40%"><a id="FWP_ACTION_FLAG_CALLOUT"></a><a id="fwp_action_flag_callout"></a><dl>
+<dt>**FWP_ACTION_FLAG_CALLOUT**</dt>
+</dl>
+</td>
+<td width="60%">
+Enumerate filters that reference callout drivers.
+<div class="alert">**Note**  **calloutKey** must not be **NULL**.</div>
+<div> </div>
+</td>
+</tr>
+ 
 <tr>
 <td width="40%">
 <dl>
@@ -157,23 +197,10 @@ Only filters whose action type contains at least one of the bits in
 </dl>
 </td>
 <td width="60%">
-Ignore the filter's action type when
-   enumerating.
-
+Ignore the filter's action type when enumerating.
 </td>
 </tr>
-<tr>
-<td width="40%"><a id="FWP_ACTION_FLAG_CALLOUT"></a><a id="fwp_action_flag_callout"></a><dl>
-<dt><b>FWP_ACTION_FLAG_CALLOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enumerate callouts only.
 
-<div class="alert"><b>Note</b>  <b>calloutKey</b> must not be <b>NULL</b>.</div>
-<div> </div>
-</td>
-</tr>
 </table>
 
 ### -field calloutKey
@@ -182,11 +209,11 @@ Uniquely identifies the callout.
 
 ## -remarks
 
-<b>FWPM_FILTER_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_FILTER_ENUM_TEMPLATE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+**FWPM_FILTER_ENUM_TEMPLATE0** is a specific implementation of FWPM_FILTER_ENUM_TEMPLATE. See <a href="/windows/win32/fwp/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWPM_FILTER_CONDITION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
+[FWPM_FILTER_CONDITION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
 
 
@@ -194,8 +221,8 @@ Uniquely identifies the callout.
 
 
 
-[FWP_FILTER_ENUM_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)
+[FWP_FILTER_ENUM_TYPE](/windows/win32/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)
 
 
 
-<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+<a href="/windows/win32/fwp/fwp-structs">Windows Filtering Platform  API Structures</a>

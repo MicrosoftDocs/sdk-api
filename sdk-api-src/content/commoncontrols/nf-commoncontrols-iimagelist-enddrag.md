@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.EndDrag
 title: IImageList::EndDrag (commoncontrols.h)
-description: Ends a drag operation.
+description: Ends a drag operation. (IImageList.EndDrag)
 helpviewer_keywords: ["EndDrag","EndDrag method [Windows Controls]","EndDrag method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","EndDrag method","IImageList.EndDrag","IImageList::EndDrag","comctl_IImageList_EndDrag","comctl_IImageList_EndDrag_cpp","commoncontrols/IImageList::EndDrag","controls.IImageList_EndDrag","controls.comctl_IImageList_EndDrag"]
 old-location: controls\IImageList_EndDrag.htm
 tech.root: Controls
@@ -52,13 +52,13 @@ api_name:
 
 Ends a drag operation.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

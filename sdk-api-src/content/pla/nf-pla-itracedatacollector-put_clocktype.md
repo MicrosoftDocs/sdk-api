@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_ClockType
 title: ITraceDataCollector::put_ClockType (pla.h)
-description: Retrieves or sets the clock resolution to use when logging the time stamp for each event.
+description: Retrieves or sets the clock resolution to use when logging the time stamp for each event. (Put)
 helpviewer_keywords: ["ClockType property [PLA]","ClockType property [PLA]","ITraceDataCollector interface","ITraceDataCollector interface [PLA]","ClockType property","ITraceDataCollector.ClockType","ITraceDataCollector.put_ClockType","ITraceDataCollector::ClockType","ITraceDataCollector::get_ClockType","ITraceDataCollector::put_ClockType","base.itracedatacollector_clocktype","pla.itracedatacollector_clocktype","pla/ITraceDataCollector::ClockType","pla/ITraceDataCollector::get_ClockType","pla/ITraceDataCollector::put_ClockType","put_ClockType"]
 old-location: pla\itracedatacollector_clocktype.htm
 tech.root: PLA

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCount","GetCount method","GetCount method","ISensorCol
 old-location: winsensors_com_ref\isensorcollection_getcount.htm
 tech.root: winsensors
 ms.assetid: 40bcf993-55fb-4d75-91dc-44d770a0e226
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetCount, GetCount method, GetCount method,ISensorCollection interface, ISensorCollection interface,GetCount method, ISensorCollection.GetCount, ISensorCollection::GetCount, sensorsapi/ISensorCollection::GetCount, winsensors_com_ref.isensorcollection_getcount
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the count of sensors in the collection.
 

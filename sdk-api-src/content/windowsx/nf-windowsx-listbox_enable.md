@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_Enable","ListBox_Enable macro [Windows Controls]"
 old-location: controls\ListBox_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_enable.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_Enable, ListBox_Enable macro [Windows Controls], _win32_ListBox_Enable, _win32_ListBox_Enable_cpp, controls.ListBox_Enable, controls._win32_ListBox_Enable, windowsx/ListBox_Enable
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListBox_Enable macro
+
+## -syntax
+
+```cpp
+BOOL ListBox_Enable(
+   HWND hwndCtl,
+   BOOL fEnable
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if the window was previously disabled, or <b>FALSE</b> if it was previously enabled.
 
 
 ## -description

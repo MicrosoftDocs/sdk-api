@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FindFirstUrlCacheEntryExW
 title: FindFirstUrlCacheEntryExW function (wininet.h)
-description: Starts a filtered enumeration of the Internet cache.
-helpviewer_keywords: ["FindFirstUrlCacheEntryEx","FindFirstUrlCacheEntryEx function [WinINet]","FindFirstUrlCacheEntryExA","FindFirstUrlCacheEntryExW","_inet_findfirsturlcacheentryex_function","wininet.findfirsturlcacheentryex","wininet/FindFirstUrlCacheEntryEx","wininet/FindFirstUrlCacheEntryExA","wininet/FindFirstUrlCacheEntryExW"]
+description: Starts a filtered enumeration of the Internet cache. (Unicode)
+helpviewer_keywords: ["FindFirstUrlCacheEntryEx", "FindFirstUrlCacheEntryEx function [WinINet]", "FindFirstUrlCacheEntryExW", "_inet_findfirsturlcacheentryex_function", "wininet.findfirsturlcacheentryex", "wininet/FindFirstUrlCacheEntryEx", "wininet/FindFirstUrlCacheEntryExW"]
 old-location: wininet\findfirsturlcacheentryex.htm
 tech.root: wininet
 ms.assetid: af17c809-2a9e-443a-b64a-93c028e3b71b
@@ -211,7 +211,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines FindFirstUrlCacheEntryEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines FindFirstUrlCacheEntryEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

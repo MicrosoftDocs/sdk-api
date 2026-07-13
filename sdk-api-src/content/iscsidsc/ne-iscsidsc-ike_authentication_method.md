@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidsc.__unnamed_enum_2
+UID: NE:iscsidsc.IKE_AUTHENTICATION_METHOD
 title: IKE_AUTHENTICATION_METHOD (iscsidsc.h)
 description: IKE_AUTHENTICATION_METHOD enumeration indicates the type of Internet Key Exchange (IKE) authentication method.
 helpviewer_keywords: ["*PIKE_AUTHENTICATION_METHOD","IKE_AUTHENTICATION_METHOD","IKE_AUTHENTICATION_METHOD enumeration [iSCSI Discovery Library API]","IKE_AUTHENTICATION_PRESHARED_KEY_METHOD","PIKE_AUTHENTICATION_METHOD","PIKE_AUTHENTICATION_METHOD enumeration pointer [iSCSI Discovery Library API]","iscsidisc.ike_authentication_method","iscsidsc/IKE_AUTHENTICATION_METHOD","iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY_METHOD","iscsidsc/PIKE_AUTHENTICATION_METHOD"]
@@ -56,7 +56,7 @@ The <b>IKE_AUTHENTICATION_METHOD</b> enumeration indicates the type of Internet 
 
 ## -enum-fields
 
-### -field IKE_AUTHENTICATION_PRESHARED_KEY_METHOD
+### -field IKE_AUTHENTICATION_PRESHARED_KEY_METHOD:1
 
 The authentication method was preshared.
 
@@ -67,3 +67,4 @@ Used in conjunction with the <a href="/previous-versions/windows/desktop/api/isc
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-ike_authentication_information">IKE_AUTHENTICATION_INFORMATION</a>
+

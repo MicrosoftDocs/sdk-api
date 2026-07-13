@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.Reset
 title: ID3D12VideoDecodeCommandList::Reset
-description: Resets a command list back to its initial state as if a new command list was just created.
+description: Resets a command list back to its initial state as if a new command list was just created. (ID3D12VideoDecodeCommandList::Reset)
 helpviewer_keywords: ["ID3D12VideoDecodeCommandList::Reset","Reset","ID3D12VideoDecodeCommandList.Reset","ID3D12VideoDecodeCommandList::Reset","ID3D12VideoDecodeCommandList.Reset"]
 tech.root: mf
 ms.assetid: 2cad8f37-8905-4321-a707-0121961e1f9c

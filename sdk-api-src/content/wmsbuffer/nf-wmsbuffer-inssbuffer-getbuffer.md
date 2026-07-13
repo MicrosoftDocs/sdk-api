@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetBuffer","GetBuffer method [windows Media Format]","Get
 old-location: wmformat\inssbuffer_getbuffer.htm
 tech.root: wmformat
 ms.assetid: 3f9e8408-52ce-48aa-ba85-51bdbbfd8b51
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetBuffer, GetBuffer method [windows Media Format], GetBuffer method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBuffer method, INSSBuffer.GetBuffer, INSSBuffer::GetBuffer, INSSBufferGetBuffer, wmformat.inssbuffer_getbuffer, wmsbuffer/INSSBuffer::GetBuffer
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
@@ -53,11 +53,13 @@ api_name:
 
 ## -description
 
-The <b>GetBuffer</b> method retrieves the location of the buffer controlled by the buffer object. Buffers are used to store samples. When passing samples to the writer, you need the location of the buffer so you can copy your samples into it. When you copy data to the address returned by this call, you must call <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a> to specify how much of the buffer actually contains data.
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+The <b>GetBuffer</b> method retrieves the location of the buffer controlled by the buffer object. Buffers are used to store samples. When passing samples to the writer, you need the location of the buffer so you can copy your samples into it. When you copy data to the address returned by this call, you must call <a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a> to specify how much of the buffer actually contains data.
 
 
 
-When receiving samples from the reader or synchronous reader, retrieve the size of the buffer at the same time as the location by calling <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">INSSBuffer::GetBufferAndLength</a>.
+When receiving samples from the reader or synchronous reader, retrieve the size of the buffer at the same time as the location by calling <a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">INSSBuffer::GetBufferAndLength</a>.
 
 ## -parameters
 
@@ -100,8 +102,8 @@ The <i>ppdwBuffer</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">INSSBuffer::GetBufferAndLength</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">INSSBuffer::GetBufferAndLength</a>

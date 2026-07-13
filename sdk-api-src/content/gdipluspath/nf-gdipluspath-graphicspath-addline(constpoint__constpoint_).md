@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLine(constPoint&,constPoint&)
 title: GraphicsPath::AddLine(IN const Point &,IN const Point &) (gdipluspath.h)
-description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
+description: The GraphicsPath::AddLine method adds a line to the current figure of this path. (overload 2/4)
 helpviewer_keywords: ["AddLine","AddLine method [GDI+]","AddLine method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddLine method","GraphicsPath.AddLine","GraphicsPath.AddLine(IN const Point &","IN const Point &)","GraphicsPath.AddLine(const Point&","const Point&)","GraphicsPath::AddLine","GraphicsPath::AddLine(IN const Point &","IN const Point &)","_gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_","gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_Point_pt1_Point_pt2_.htm
 tech.root: gdiplus

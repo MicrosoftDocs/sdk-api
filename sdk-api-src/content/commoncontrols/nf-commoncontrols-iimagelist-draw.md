@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.Draw
 title: IImageList::Draw (commoncontrols.h)
-description: Draws an image list item in the specified device context.
+description: Draws an image list item in the specified device context. (IImageList.Draw)
 helpviewer_keywords: ["Draw","Draw method [Windows Controls]","Draw method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","Draw method","IImageList.Draw","IImageList::Draw","comctl_IImageList_Draw","comctl_IImageList_Draw_cpp","commoncontrols/IImageList::Draw","controls.IImageList_Draw","controls.comctl_IImageList_Draw"]
 old-location: controls\IImageList_Draw.htm
 tech.root: Controls
@@ -64,7 +64,7 @@ A pointer to an  <a href="/windows/desktop/api/commoncontrols/ns-commoncontrols-
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

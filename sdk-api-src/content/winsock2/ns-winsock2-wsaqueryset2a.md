@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSAQuerySet2A
 title: WSAQUERYSET2A (winsock2.h)
-description: Provides relevant information about a given service, including service class ID, service name , applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens.
+description: Provides relevant information about a given service, including service class ID, service name , applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens. (ANSI)
 helpviewer_keywords: ["*LPWSAQUERYSET2A","*PWSAQUERYSET2A","LPWSAQUERYSET2","LPWSAQUERYSET2 structure pointer [Winsock]","NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NLA","NS_PNRPCLOUD","NS_PNRPNAME","PWSAQUERYSET2","PWSAQUERYSET2 structure pointer [Winsock]","WSAQUERYSET2","WSAQUERYSET2 structure [Winsock]","WSAQUERYSET2A","WSAQUERYSET2W","winsock.wsaqueryset2","winsock2/LPWSAQUERYSET2","winsock2/PWSAQUERYSET2","winsock2/WSAQUERYSET2","winsock2/WSAQUERYSET2A","winsock2/WSAQUERYSET2W"]
 old-location: winsock\wsaqueryset2.htm
 tech.root: WinSock
@@ -240,7 +240,7 @@ On Windows Vista and Windows Server 2008, the <b>WSAQUERYSET2</b> structure ca
 
 
 > [!NOTE]
-> The winsock2.h header defines WSAQUERYSET2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSAQUERYSET2 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

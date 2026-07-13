@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetFocusedGroup","ListView_GetFocusedGroup macro
 old-location: controls\ListView_GetFocusedGroup.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfocusedgroup.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetFocusedGroup, ListView_GetFocusedGroup macro [Windows Controls], _shell_ListView_GetFocusedGroup, _shell_ListView_GetFocusedGroup_cpp, commctrl/ListView_GetFocusedGroup, controls.ListView_GetFocusedGroup, controls._shell_ListView_GetFocusedGroup
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetFocusedGroup macro
+
+## -syntax
+
+```cpp
+INT ListView_GetFocusedGroup(
+  [in] HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the index of the group with state of LVGS_FOCUSED, or -1 if there is no group with state of LVGS_FOCUSED.
 
 
 ## -description

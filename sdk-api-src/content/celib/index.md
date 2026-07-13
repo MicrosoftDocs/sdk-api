@@ -4,7 +4,8 @@ title: Celib.h header
 ms.assetid: 79c14376-de1c-3334-96fc-a8b62cfd75cf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: security
 f1_keywords:
  - celib

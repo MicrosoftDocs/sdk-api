@@ -4,7 +4,7 @@ title: MFCreateVideoSampleAllocator (evr.h)
 description: Creates an object that allocates video samples.
 helpviewer_keywords: ["IID_IMFVideoSampleAllocator","IID_IMFVideoSampleAllocatorCallback","IID_IUnknown","MFCreateVideoSampleAllocator","MFCreateVideoSampleAllocator callback","MFCreateVideoSampleAllocator callback function [Media Foundation]","evr/MFCreateVideoSampleAllocator","mf.mfcreatevideosampleallocator"]
 old-location: mf\mfcreatevideosampleallocator.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 2d40a335-9948-40d9-b93f-18a6decf96c8
 ms.date: 12/05/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IUnknown, MFCreateVideoSampleAllocator, MFCreateVideoSampleAllocator callback, MFCreateVideoSampleAllocator callback function [Media Foundation], evr/MFCreateVideoSampleAllocator, mf.mfcreatevideosampleallocator
@@ -43,12 +43,15 @@ api_location:
  - evr.h
 api_name:
  - MFCreateVideoSampleAllocator
+archived: true
 ---
 
 # MFCreateVideoSampleAllocator callback function
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Creates an object that allocates video samples.
 
@@ -65,7 +68,7 @@ The identifier of the interface to retrieve. Specify one of the following values
 </tr>
 <tr>
 <td width="40%"><a id="IID_IUnknown"></a><a id="iid_iunknown"></a><a id="IID_IUNKNOWN"></a><dl>
-<dt><b><b>IID_IUnknown</b></b></dt>
+<dt><b>IID_IUnknown</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -75,7 +78,7 @@ Retrieve an <b>IUnknown</b> pointer.
 </tr>
 <tr>
 <td width="40%"><a id="IID_IMFVideoSampleAllocator"></a><a id="iid_imfvideosampleallocator"></a><a id="IID_IMFVIDEOSAMPLEALLOCATOR"></a><dl>
-<dt><b><b>IID_IMFVideoSampleAllocator</b></b></dt>
+<dt><b>IID_IMFVideoSampleAllocator</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +88,7 @@ Retrieve an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator
 </tr>
 <tr>
 <td width="40%"><a id="IID_IMFVideoSampleAllocatorCallback"></a><a id="iid_imfvideosampleallocatorcallback"></a><a id="IID_IMFVIDEOSAMPLEALLOCATORCALLBACK"></a><dl>
-<dt><b><b>IID_IMFVideoSampleAllocatorCallback</b></b></dt>
+<dt><b>IID_IMFVideoSampleAllocatorCallback</b></dt>
 </dl>
 </td>
 <td width="60%">

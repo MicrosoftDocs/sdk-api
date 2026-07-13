@@ -2,7 +2,7 @@
 UID: NS:aviriff._avistreamheader
 title: AVISTREAMHEADER (aviriff.h)
 description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.
-helpviewer_keywords: [""auds","mids","txts","vids","AVISF_DISABLED","AVISF_VIDEO_PALCHANGES","AVISTREAMHEADER","AVISTREAMHEADER structure [DirectShow]","AVISTREAMHEADERStructure","_avistreamheader","avifmt/AVISTREAMHEADER","dshow.avistreamheader""]
+helpviewer_keywords: ["auds","mids","txts","vids","AVISF_DISABLED","AVISF_VIDEO_PALCHANGES","AVISTREAMHEADER","AVISTREAMHEADER structure [DirectShow]","AVISTREAMHEADERStructure","_avistreamheader","avifmt/AVISTREAMHEADER","dshow.avistreamheader"]
 old-location: dshow\avistreamheader.htm
 tech.root: dshow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854

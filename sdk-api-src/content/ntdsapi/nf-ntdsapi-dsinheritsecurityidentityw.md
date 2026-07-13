@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsInheritSecurityIdentityW
 title: DsInheritSecurityIdentityW function (ntdsapi.h)
-description: Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction.
-helpviewer_keywords: ["DsInheritSecurityIdentity","DsInheritSecurityIdentity function [Active Directory]","DsInheritSecurityIdentityA","DsInheritSecurityIdentityW","_glines_dsinheritsecurityidentity","ad.dsinheritsecurityidentity","ntdsapi/DsInheritSecurityIdentity","ntdsapi/DsInheritSecurityIdentityA","ntdsapi/DsInheritSecurityIdentityW"]
+description: Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction. (Unicode)
+helpviewer_keywords: ["DsInheritSecurityIdentity", "DsInheritSecurityIdentity function [Active Directory]", "DsInheritSecurityIdentityW", "_glines_dsinheritsecurityidentity", "ad.dsinheritsecurityidentity", "ntdsapi/DsInheritSecurityIdentity", "ntdsapi/DsInheritSecurityIdentityW"]
 old-location: ad\dsinheritsecurityidentity.htm
 tech.root: ad
 ms.assetid: ea467069-f886-4e22-896c-16e6e01f3968
@@ -105,7 +105,7 @@ A <b>DsInheritSecurityIdentity</b> implementation:
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsInheritSecurityIdentity as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsInheritSecurityIdentity as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

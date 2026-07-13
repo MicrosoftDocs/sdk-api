@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_FileName
 title: IFaxDoc::get_FileName (faxcom.h)
-description: Sets or retrieves the FileName property for a FaxDoc object. The FileName property is a null-terminated string that contains the name of the document file associated with the object.
+description: Sets or retrieves the FileName property for a FaxDoc object. The FileName property is a null-terminated string that contains the name of the document file associated with the object. (Get)
 helpviewer_keywords: ["FileName property [Fax Service]","FileName property [Fax Service]","IFaxDoc interface","IFaxDoc interface [Fax Service]","FileName property","IFaxDoc.FileName","IFaxDoc.get_FileName","IFaxDoc::FileName","IFaxDoc::get_FileName","IFaxDoc::put_FileName","_mfax_ifaxdoc_get_filename","fax._mfax_ifaxdoc_get_filename","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_filename_cpp","faxcom/IFaxDoc::FileName","faxcom/IFaxDoc::get_FileName","faxcom/IFaxDoc::put_FileName","get_FileName"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_filename_cpp.htm
 tech.root: Fax

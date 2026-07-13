@@ -4,7 +4,7 @@ title: IFilter::GetText (filter.h)
 description: Retrieves text (text-type properties) from the current chunk, which must have a CHUNKSTATE enumeration value of CHUNK_TEXT.
 helpviewer_keywords: ["GetText","GetText method [Indexing Service]","GetText method [Indexing Service]","IFilter interface","IFilter interface [Indexing Service]","GetText method","IFilter.GetText","IFilter::GetText","_idxs_IFilter_GetText","filter/IFilter::GetText","indexsrv.ifilter_gettext"]
 old-location: indexsrv\ifilter_gettext.htm
-tech.root: IndexSrv
+tech.root: search
 ms.assetid: VS|indexsrv|~\html\ixrefint_5378.htm
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Indexing Service], GetText method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetText method, IFilter.GetText, IFilter::GetText, _idxs_IFilter_GetText, filter/IFilter::GetText, indexsrv.ifilter_gettext
@@ -49,9 +49,6 @@ api_name:
 
 
 ## -description
-
-> [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Retrieves text (text-type properties) from the current chunk, which must have a <a href="/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a> enumeration value of CHUNK_TEXT.
 

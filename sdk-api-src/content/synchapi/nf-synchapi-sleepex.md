@@ -9,7 +9,7 @@ ms.assetid: a73cff94-ad63-4110-9f01-6469481c3d55
 ms.date: 12/05/2018
 ms.keywords: SleepEx, SleepEx function, _win32_sleepex, base.sleepex, synchapi/SleepEx, winbase/SleepEx
 req.header: synchapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -69,7 +69,7 @@ Suspends the current thread until the specified condition is met. Execution resu
 
 The time interval for which execution is to be suspended, in milliseconds.
 
-A value of zero, together with the bAlertable parameter set to FALSE, causes the thread to relinquish the remainder of its time slice to any other thread that is ready to run, if there are no pending user APCs on the calling thread. If there are no other threads ready to run and no user APCs are queued, the function returns immediately, and the thread continues execution.<b>Windows XP: </b>A value of zero causes the thread to relinquish the remainder of its time slice to any other thread of equal priority that is ready to run. If there are no other threads of equal priority ready to run, the function returns immediately, and the thread continues execution. This behavior changed starting with Windows Server 2003.
+A value of zero causes the thread to relinquish the remainder of its time slice to any other thread that is ready to run. If there are no other threads ready to run, the function returns immediately, and the thread continues execution.<b>Windows XP: </b>A value of zero causes the thread to relinquish the remainder of its time slice to any other thread of equal priority that is ready to run. If there are no other threads of equal priority ready to run, the function returns immediately, and the thread continues execution. This behavior changed starting with Windows Server 2003.
 
 
 
@@ -77,10 +77,10 @@ A value of INFINITE indicates that the suspension should not time out.
 
 ### -param bAlertable [in]
 
-If this parameter is FALSE, the function does not return until the time-out period has elapsed. If an I/O completion callback occurs, the function does not return and the I/O completion function is not executed. If an APC is queued to the thread, the function does not return and the APC function is not executed.
+If this parameter is FALSE, the function does not return until the time-out period has elapsed. If an I/O completion callback occurs, the function does not immediately return and the I/O completion function is not executed. If an APC is queued to the thread, the function does not immediately return and the APC function is not executed.
 
 If the parameter is TRUE and the thread that called this function is the same thread that called the extended I/O function (<a href="/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a> or 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>), the function returns when either the time-out period has elapsed or when an I/O completion callback function occurs. If an I/O completion callback occurs, the I/O completion function is called. If an APC is queued to the thread (<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>), the function returns when either the timer-out period has elapsed or when the APC function is called.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>), the function returns when either the time-out period has elapsed or when an I/O completion callback function occurs. If an I/O completion callback occurs, the I/O completion function is called. If an APC is queued to the thread (<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>), the function returns when either the time-out period has elapsed or when the APC function is called.
 
 ## -returns
 

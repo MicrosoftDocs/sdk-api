@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsFreeDomainControllerInfoW
 title: DsFreeDomainControllerInfoW function (ntdsapi.h)
-description: The DsFreeDomainControllerInfo function frees memory that is allocated by DsGetDomainControllerInfo for data about the domain controllers in a domain.
-helpviewer_keywords: ["1","2","DsFreeDomainControllerInfo","DsFreeDomainControllerInfo function [Active Directory]","DsFreeDomainControllerInfoA","DsFreeDomainControllerInfoW","_glines_dsfreedomaincontrollerinfo","ad.dsfreedomaincontrollerinfo","ntdsapi/DsFreeDomainControllerInfo","ntdsapi/DsFreeDomainControllerInfoA","ntdsapi/DsFreeDomainControllerInfoW"]
+description: The DsFreeDomainControllerInfo function frees memory that is allocated by DsGetDomainControllerInfo for data about the domain controllers in a domain. (Unicode)
+helpviewer_keywords: ["1", "2", "DsFreeDomainControllerInfo", "DsFreeDomainControllerInfo function [Active Directory]", "DsFreeDomainControllerInfoW", "_glines_dsfreedomaincontrollerinfo", "ad.dsfreedomaincontrollerinfo", "ntdsapi/DsFreeDomainControllerInfo", "ntdsapi/DsFreeDomainControllerInfoW"]
 old-location: ad\dsfreedomaincontrollerinfo.htm
 tech.root: ad
 ms.assetid: 1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2
@@ -113,4 +113,4 @@ This function does not return a value.
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsFreeDomainControllerInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsFreeDomainControllerInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

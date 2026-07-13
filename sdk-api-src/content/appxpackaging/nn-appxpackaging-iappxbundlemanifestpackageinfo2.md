@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestPackageInfo2
 title: IAppxBundleManifestPackageInfo2 (appxpackaging.h)
-description: Provides a read-only object model for a &lt;Package&gt; element in a bundle package manifest.
+description: Provides a read-only object model for a &lt;Package&gt; element in a bundle package manifest. (IAppxBundleManifestPackageInfo2)
 helpviewer_keywords: ["IAppxBundleManifestPackageInfo2","IAppxBundleManifestPackageInfo2 interface [App packaging and management]","IAppxBundleManifestPackageInfo2 interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestPackageInfo2","appxpkg.iappxbundlemanifestpackageinfo2"]
 old-location: appxpkg\iappxbundlemanifestpackageinfo2.htm
 tech.root: appxpkg
@@ -54,8 +54,5 @@ Provides a read-only object model for a &lt;Package&gt; element in a bundle pack
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestPackageInfo2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestPackageInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxBundleManifestPackageInfo2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestPackageInfo2</b> also has these types of members:
 

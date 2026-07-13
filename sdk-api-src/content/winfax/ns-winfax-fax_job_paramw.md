@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_JOB_PARAMW
 title: FAX_JOB_PARAMW (winfax.h)
-description: The FAX_JOB_PARAM structure contains the information necessary for the fax server to send an individual fax transmission.
+description: The FAX_JOB_PARAM structure contains the information necessary for the fax server to send an individual fax transmission. (Unicode)
 helpviewer_keywords: ["*PFAX_JOB_PARAMW","DRT_EMAIL","DRT_INBOX","DRT_NONE","FAX_JOB_PARAM","FAX_JOB_PARAM structure [Fax Service]","FAX_JOB_PARAMA","FAX_JOB_PARAMW","JSA_DISCOUNT_PERIOD","JSA_NOW","JSA_SPECIFIC_TIME","PFAX_JOB_PARAM","PFAX_JOB_PARAM structure pointer [Fax Service]","_mfax_fax_job_param_str","fax._mfax_fax_job_param_str","winfax/FAX_JOB_PARAM","winfax/FAX_JOB_PARAMA","winfax/FAX_JOB_PARAMW","winfax/PFAX_JOB_PARAM"]
 old-location: fax\_mfax_fax_job_param_str.htm
 tech.root: Fax
@@ -227,7 +227,7 @@ A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to 
 
 
 > [!NOTE]
-> The winfax.h header defines FAX_JOB_PARAM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FAX_JOB_PARAM as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_INPUT_ELEMENT_DESC
 title: D3D10_INPUT_ELEMENT_DESC (d3d10.h)
-description: A description of a single element for the input-assembler stage.
+description: A description of a single element for the input-assembler stage. (D3D10_INPUT_ELEMENT_DESC)
 helpviewer_keywords: ["0181f051-1b3b-7933-88f6-5ddfa2b8cf74","D3D10_INPUT_ELEMENT_DESC","D3D10_INPUT_ELEMENT_DESC structure [Direct3D 10]","d3d10/D3D10_INPUT_ELEMENT_DESC","direct3d10.d3d10_input_element_desc"]
 old-location: direct3d10\d3d10_input_element_desc.htm
 tech.root: direct3d10

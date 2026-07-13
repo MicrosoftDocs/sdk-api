@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetPrivateProfileSectionA
 title: GetPrivateProfileSectionA function (winbase.h)
-description: Retrieves all the keys and values for the specified section of an initialization file.
-helpviewer_keywords: ["GetPrivateProfileSection","GetPrivateProfileSection function","GetPrivateProfileSectionA","GetPrivateProfileSectionW","_win32_getprivateprofilesection","base.getprivateprofilesection","winbase/GetPrivateProfileSection","winbase/GetPrivateProfileSectionA","winbase/GetPrivateProfileSectionW"]
+description: Retrieves all the keys and values for the specified section of an initialization file. (GetPrivateProfileSectionA)
+helpviewer_keywords: ["GetPrivateProfileSectionA", "winbase/GetPrivateProfileSectionA"]
 old-location: base\getprivateprofilesection.htm
 tech.root: winprog
 ms.assetid: 17e01d6b-e1de-45a5-a620-c967694c24b9
@@ -73,8 +73,7 @@ A pointer to a buffer that receives the key name and value pairs associated with
 
 The size of the buffer pointed to by the <i>lpReturnedString</i> parameter, in characters. 
 
-
-The maximum profile section size is 32,767 characters.
+**Note:** In earlier Windows versions, the maximum profile section size is 32,767 characters. Windows 7 and newer versions don't have this limitation.
 
 ### -param lpFileName [in]
 
@@ -128,7 +127,7 @@ Comments (any line that starts with a semicolon) are stripped out and not return
 
 
 > [!NOTE]
-> The winbase.h header defines GetPrivateProfileSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetPrivateProfileSection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

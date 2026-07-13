@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetKerningPairsA
 title: GetKerningPairsA function (wingdi.h)
-description: The GetKerningPairs function retrieves the character-kerning pairs for the currently selected font for the specified device context.
-helpviewer_keywords: ["GetKerningPairs","GetKerningPairs function [Windows GDI]","GetKerningPairsA","GetKerningPairsW","_win32_GetKerningPairs","gdi.getkerningpairs","wingdi/GetKerningPairs","wingdi/GetKerningPairsA","wingdi/GetKerningPairsW"]
+description: The GetKerningPairs function retrieves the character-kerning pairs for the currently selected font for the specified device context. (ANSI)
+helpviewer_keywords: ["GetKerningPairsA", "wingdi/GetKerningPairsA"]
 old-location: gdi\getkerningpairs.htm
 tech.root: gdi
 ms.assetid: 9aba629f-afab-4ef3-8e1d-d0b90e122e94
@@ -93,4 +93,4 @@ If the function fails, the return value is zero.
 ## -remarks
 
 > [!NOTE]
-> The wingdi.h header defines GetKerningPairs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetKerningPairs as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

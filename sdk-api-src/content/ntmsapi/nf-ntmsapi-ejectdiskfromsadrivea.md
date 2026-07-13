@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.EjectDiskFromSADriveA
 title: EjectDiskFromSADriveA function (ntmsapi.h)
-description: The EjectDiskFromSADrive function ejects the media that is in a standalone removable drive.
-helpviewer_keywords: ["EjectDiskFromSADrive","EjectDiskFromSADrive function [Files]","EjectDiskFromSADriveA","EjectDiskFromSADriveW","NTMS_EJECT_ASK_USER","NTMS_EJECT_FORCE","NTMS_EJECT_IMMEDIATE","NTMS_EJECT_QUEUE","NTMS_EJECT_START","NTMS_EJECT_STOP","base.ejectdiskfromsadrive","fs.ejectdiskfromsadrive","ntmsapi/EjectDiskFromSADrive","ntmsapi/EjectDiskFromSADriveA","ntmsapi/EjectDiskFromSADriveW"]
+description: The EjectDiskFromSADrive function ejects the media that is in a standalone removable drive. (ANSI)
+helpviewer_keywords: ["EjectDiskFromSADriveA", "NTMS_EJECT_ASK_USER", "NTMS_EJECT_FORCE", "NTMS_EJECT_IMMEDIATE", "NTMS_EJECT_QUEUE", "NTMS_EJECT_START", "NTMS_EJECT_STOP", "ntmsapi/EjectDiskFromSADriveA"]
 old-location: fs\ejectdiskfromsadrive.htm
 tech.root: fs
 ms.assetid: eb1e79b5-f059-4e18-836f-3ba4de97eea2
@@ -309,7 +309,7 @@ The
 
 
 > [!NOTE]
-> The ntmsapi.h header defines EjectDiskFromSADrive as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines EjectDiskFromSADrive as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

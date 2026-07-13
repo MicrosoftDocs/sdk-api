@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_MapHTREEITEMToAccID","TreeView_MapHTREEITEMtoAcc
 old-location: controls\TreeView_MapHTREEITEMToAccID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_maphtreeitemtoaccid.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_MapHTREEITEMToAccID, TreeView_MapHTREEITEMtoAccID, TreeView_MapHTREEITEMtoAccID macro [Windows Controls], _win32_TreeView_MapHTREEITEMToAccID, _win32_TreeView_MapHTREEITEMToAccID_cpp, commctrl/TreeView_MapHTREEITEMtoAccID, controls.TreeView_MapHTREEITEMToAccID, controls._win32_TreeView_MapHTREEITEMToAccID
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_MapHTREEITEMToAccID macro
+
+## -syntax
+
+```cpp
+UINT TreeView_MapHTREEITEMtoAccID(
+   HWND      hwnd,
+   HTREEITEM htreeitem
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns an accessibility ID.
 
 
 ## -description

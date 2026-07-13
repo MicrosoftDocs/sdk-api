@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_RestartWindows","PropSheet_RestartWindows macro
 old-location: controls\PropSheet_RestartWindows.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_restartwindows.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_RestartWindows, PropSheet_RestartWindows macro [Windows Controls], _win32_PropSheet_RestartWindows, _win32_PropSheet_RestartWindows_cpp, controls.PropSheet_RestartWindows, controls._win32_PropSheet_RestartWindows, prsht/PropSheet_RestartWindows
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PropSheet_RestartWindows macro
+
+## -syntax
+
+```cpp
+VOID PropSheet_RestartWindows(
+   HWND hDlg
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

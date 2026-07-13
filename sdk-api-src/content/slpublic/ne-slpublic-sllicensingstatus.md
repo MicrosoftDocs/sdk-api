@@ -1,7 +1,7 @@
 ---
 UID: NE:slpublic._tagSLLICENSINGSTATUS
 title: SLLICENSINGSTATUS (slpublic.h)
-description: Represents the licensing status.
+description: Represents the licensing status. (SLLICENSINGSTATUS)
 helpviewer_keywords: ["SLLICENSINGSTATUS","SLLICENSINGSTATUS enumeration [Security]","SL_LICENSING_STATUS_IN_GRACE_PERIOD","SL_LICENSING_STATUS_LAST","SL_LICENSING_STATUS_LICENSED","SL_LICENSING_STATUS_NOTIFICATION","SL_LICENSING_STATUS_UNLICENSED","security.sllicensingstatus","slpublic/SLLICENSINGSTATUS","slpublic/SL_LICENSING_STATUS_IN_GRACE_PERIOD","slpublic/SL_LICENSING_STATUS_LAST","slpublic/SL_LICENSING_STATUS_LICENSED","slpublic/SL_LICENSING_STATUS_NOTIFICATION","slpublic/SL_LICENSING_STATUS_UNLICENSED"]
 old-location: security\sllicensingstatus.htm
 tech.root: security

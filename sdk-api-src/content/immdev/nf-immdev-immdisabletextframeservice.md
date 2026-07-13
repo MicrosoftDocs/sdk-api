@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmDisableTextFrameService
 title: ImmDisableTextFrameService function (immdev.h)
-description: ImmDisableTextFrameService is no longer available for use as of Windows Vista.
+description: The ImmDisableTextFrameService function (immdev.h) is no longer available for use as of Windows Vista.
 helpviewer_keywords: ["ImmDisableTextFrameService","ImmDisableTextFrameService function [Internationalization for Windows Applications]","_win32_ImmDisableTextFrameService","imm/ImmDisableTextFrameService","intl.immdisabletextframeservice"]
 old-location: intl\immdisabletextframeservice.htm
 tech.root: Intl
 ms.assetid: ce294f9e-ba0b-460d-8685-85371af8a7e6
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmDisableTextFrameService, ImmDisableTextFrameService function [Internationalization for Windows Applications], _win32_ImmDisableTextFrameService, imm/ImmDisableTextFrameService, intl.immdisabletextframeservice
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetSelectionMark","ListView_GetSelectionMark mac
 old-location: controls\ListView_GetSelectionMark.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectionmark.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetSelectionMark, ListView_GetSelectionMark macro [Windows Controls], _win32_ListView_GetSelectionMark, _win32_ListView_GetSelectionMark_cpp, commctrl/ListView_GetSelectionMark, controls.ListView_GetSelectionMark, controls._win32_ListView_GetSelectionMark
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetSelectionMark macro
+
+## -syntax
+
+```cpp
+INT ListView_GetSelectionMark(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the zero-based selection mark, or -1 if there is no selection mark.
 
 
 ## -description

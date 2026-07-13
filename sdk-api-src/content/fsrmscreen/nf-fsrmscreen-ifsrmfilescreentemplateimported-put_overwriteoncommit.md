@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateImported.put_OverwriteOnCommit
 title: IFsrmFileScreenTemplateImported::put_OverwriteOnCommit (fsrmscreen.h)
-description: Retrieves or sets a value that determines whether a file screen template is overwritten if it exists when the template is imported.
+description: Retrieves or sets a value that determines whether a file screen template is overwritten if it exists when the template is imported. (Put)
 helpviewer_keywords: ["IFsrmFileScreenTemplateImported interface [File Server Resource Manager]","OverwriteOnCommit property","IFsrmFileScreenTemplateImported.OverwriteOnCommit","IFsrmFileScreenTemplateImported.put_OverwriteOnCommit","IFsrmFileScreenTemplateImported::OverwriteOnCommit","IFsrmFileScreenTemplateImported::get_OverwriteOnCommit","IFsrmFileScreenTemplateImported::put_OverwriteOnCommit","OverwriteOnCommit property [File Server Resource Manager]","OverwriteOnCommit property [File Server Resource Manager]","IFsrmFileScreenTemplateImported interface","fs.ifsrmfilescreentemplateimported_overwriteoncommit","fsrm.ifsrmfilescreentemplateimported_overwriteoncommit","fsrmscreen/IFsrmFileScreenTemplateImported::OverwriteOnCommit","fsrmscreen/IFsrmFileScreenTemplateImported::get_OverwriteOnCommit","fsrmscreen/IFsrmFileScreenTemplateImported::put_OverwriteOnCommit","put_OverwriteOnCommit"]
 old-location: fsrm\ifsrmfilescreentemplateimported_overwriteoncommit.htm
 tech.root: fsrm

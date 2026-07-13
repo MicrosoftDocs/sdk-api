@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.Zoom
 title: IUIAutomationTransformPattern2::Zoom (uiautomationclient.h)
-description: Zooms the viewport of the control.
+description: Zooms the viewport of the control. (IUIAutomationTransformPattern2.Zoom)
 helpviewer_keywords: ["IUIAutomationTransformPattern2 interface [Windows Accessibility]","Zoom method","IUIAutomationTransformPattern2.Zoom","IUIAutomationTransformPattern2::Zoom","Zoom","Zoom method [Windows Accessibility]","Zoom method [Windows Accessibility]","IUIAutomationTransformPattern2 interface","uiautomationclient/IUIAutomationTransformPattern2::Zoom","winauto.uiauto_IUIAutomationTransformPattern2_Zoom"]
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_Zoom.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ The amount to zoom the viewport, specified as a percentage. Positive values incr
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

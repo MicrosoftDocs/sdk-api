@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialAngularVelocity
 title: IInertiaProcessor::put_InitialAngularVelocity (manipulations.h)
-description: The InitialAngularVelocity property specifies the rotational (angular) velocity of the target when movement begins.
+description: The InitialAngularVelocity property specifies the rotational (angular) velocity of the target when movement begins. (Put)
 helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialAngularVelocity property","IInertiaProcessor.InitialAngularVelocity","IInertiaProcessor.put_InitialAngularVelocity","IInertiaProcessor::InitialAngularVelocity","IInertiaProcessor::get_InitialAngularVelocity","IInertiaProcessor::put_InitialAngularVelocity","InitialAngularVelocity property [Windows Touch]","InitialAngularVelocity property [Windows Touch]","IInertiaProcessor interface","manipulations/IInertiaProcessor::InitialAngularVelocity","manipulations/IInertiaProcessor::get_InitialAngularVelocity","manipulations/IInertiaProcessor::put_InitialAngularVelocity","put_InitialAngularVelocity","wintouch.iinertiaprocessor_initialangularvelocity"]
 old-location: wintouch\iinertiaprocessor_initialangularvelocity.htm
 tech.root: wintouch
@@ -61,7 +61,7 @@ This property is read/write.
 ## -remarks
 
 <a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredrotation">DesiredRotation</a> and <a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration">DesiredAngularDeceleration</a> are mutually exclusive.  If one is set, the other should be NaN.  If the <b>DesiredRotation</b> property is set, the API will set the <b>DesiredAngularDeceleration</b> property so that the object will stop after the desired number of radians.
-       The unit of angular accelleration is radians.
+       The unit of angular acceleration is radians.
       
 
 If inertia processing has already started, setting <b>InitialAngularVelocity</b> will reset the inertia engine to the initial state with new velocity values applied.

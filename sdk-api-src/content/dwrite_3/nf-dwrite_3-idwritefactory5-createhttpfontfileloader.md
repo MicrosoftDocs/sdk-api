@@ -6,13 +6,13 @@ helpviewer_keywords: ["CreateHttpFontFileLoader","CreateHttpFontFileLoader metho
 old-location: directwrite\idwritefactory5_createhttpfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: 7C8D581E-489D-48BE-8B3F-278E1C246BBA
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: CreateHttpFontFileLoader, CreateHttpFontFileLoader method [Direct Write], CreateHttpFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateHttpFontFileLoader method, IDWriteFactory5.CreateHttpFontFileLoader, IDWriteFactory5::CreateHttpFontFileLoader, directwrite.idwritefactory5_createhttpfontfileloader, dwrite_3/IDWriteFactory5::CreateHttpFontFileLoader
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

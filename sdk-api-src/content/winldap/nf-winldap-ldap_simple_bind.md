@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_simple_bind
 title: ldap_simple_bind function (winldap.h)
-description: Asynchronously authenticates a client to a server, using a plaintext password.
+description: The ldap_simple_bind function (winldap.h) asynchronously authenticates a client to a server, using a plaintext password.  
 helpviewer_keywords: ["_ldap_ldap_simple_bind","ldap.ldap__simple__bind","ldap.ldap_simple_bind","ldap_simple_bind","ldap_simple_bind function [LDAP]","ldap_simple_bindA","ldap_simple_bindW","winldap/ldap_simple_bind","winldap/ldap_simple_bindA","winldap/ldap_simple_bindW"]
 old-location: ldap\ldap_simple_bind.htm
 tech.root: ldap
 ms.assetid: 13fc47c5-094b-4a91-8e5f-bfff8c72b431
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_simple_bind, ldap.ldap__simple__bind, ldap.ldap_simple_bind, ldap_simple_bind, ldap_simple_bind function [LDAP], ldap_simple_bindA, ldap_simple_bindW, winldap/ldap_simple_bind, winldap/ldap_simple_bindA, winldap/ldap_simple_bindW
 req.header: winldap.h
 req.include-header: 

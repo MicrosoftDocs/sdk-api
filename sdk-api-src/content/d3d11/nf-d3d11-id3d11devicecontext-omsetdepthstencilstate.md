@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetDepthStencilState
 title: ID3D11DeviceContext::OMSetDepthStencilState (d3d11.h)
-description: Sets the depth-stencil state of the output-merger stage.
+description: Sets the depth-stencil state of the output-merger stage. (ID3D11DeviceContext.OMSetDepthStencilState)
 helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","OMSetDepthStencilState method","ID3D11DeviceContext.OMSetDepthStencilState","ID3D11DeviceContext::OMSetDepthStencilState","OMSetDepthStencilState","OMSetDepthStencilState method [Direct3D 11]","OMSetDepthStencilState method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::OMSetDepthStencilState","direct3d11.id3d11devicecontext_omsetdepthstencilstate","faf5401a-abab-bc40-9854-cf64f6ca05eb"]
 old-location: direct3d11\id3d11devicecontext_omsetdepthstencilstate.htm
 tech.root: direct3d11

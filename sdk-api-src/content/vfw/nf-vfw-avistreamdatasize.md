@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamDataSize","AVIStreamDataSize macro [Windows Mult
 old-location: multimedia\avistreamdatasize.htm
 tech.root: Multimedia
 ms.assetid: e91258ee-b90a-43b9-9d5e-0adee215714c
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamDataSize, AVIStreamDataSize macro [Windows Multimedia], _win32_AVIStreamDataSize, multimedia.avistreamdatasize, vfw/AVIStreamDataSize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # AVIStreamDataSize macro
+
+## -syntax
+
+```cpp
+HRESULT AVIStreamDataSize(
+     pavi,
+     fcc,
+     plSize
+);
+```
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns zero if successful or an error otherwise. The return value AVIERR_NODATA indicates the system could not find any data with the specified four-character code.
 
 
 ## -description

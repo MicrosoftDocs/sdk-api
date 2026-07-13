@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_OutgoingQueueBlocked
 title: IFaxConfiguration::get_OutgoingQueueBlocked (faxcomex.h)
-description: Sets or retrieves a value that indicates whether the fax server queue for outgoing faxes has been blocked.
+description: Sets or retrieves a value that indicates whether the fax server queue for outgoing faxes has been blocked. (Get)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","OutgoingQueueBlocked property","IFaxConfiguration.OutgoingQueueBlocked","IFaxConfiguration.get_OutgoingQueueBlocked","IFaxConfiguration::OutgoingQueueBlocked","IFaxConfiguration::get_OutgoingQueueBlocked","IFaxConfiguration::put_OutgoingQueueBlocked","OutgoingQueueBlocked property [Fax Service]","OutgoingQueueBlocked property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_BlockOutgoingQueue","fax._mfax_IFaxConfiguration_BlockOutgoingQueue","faxcomex/IFaxConfiguration::OutgoingQueueBlocked","faxcomex/IFaxConfiguration::get_OutgoingQueueBlocked","faxcomex/IFaxConfiguration::put_OutgoingQueueBlocked","get_OutgoingQueueBlocked"]
 old-location: fax\_mfax_IFaxConfiguration_BlockOutgoingQueue.htm
 tech.root: Fax

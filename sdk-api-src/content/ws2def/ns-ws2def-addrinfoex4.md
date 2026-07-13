@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2def.addrinfoex4
 title: ADDRINFOEX4 (ws2def.h)
-description: Used by the GetAddrInfoEx function to hold host address information when a specific network interface has been requested.
+description: Used by the GetAddrInfoEx function to hold host address information when a specific network interface has been requested. (addrinfoex4W)
 helpviewer_keywords: ["*LPADDRINFOEX4","*PADDRINFOEX4","ADDRINFOEX4","AF_BTH","AF_INET","AF_INET6","AF_IRDA","AF_NETBIOS","AF_UNSPEC","AI_ADDRCONFIG","AI_ALL","AI_CANONNAME","AI_DISABLE_IDN_ENCODING","AI_EXTENDED","AI_FILESERVER","AI_FQDN","AI_NON_AUTHORITATIVE","AI_NUMERICHOST","AI_PASSIVE","AI_RESOLUTION_HANDLE","AI_RETURN_PREFERRED_NAMES","AI_SECURE","AI_V4MAPPED","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","LPaddrinfoex4","LPaddrinfoex4 structure pointer [Winsock]","Paddrinfoex4","Paddrinfoex4 structure pointer [Winsock]","SOCK_DGRAM","SOCK_RAW","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","addrinfoex4","addrinfoex4 structure [Winsock]","addrinfoex4A","addrinfoex4W","winsock.addrinfoex4","ws2def/LPaddrinfoex4","ws2def/Paddrinfoex4","ws2def/addrinfoex4","ws2def/addrinfoex4A","ws2def/addrinfoex4W"]
 old-location: winsock\addrinfoex4.htm
 tech.root: WinSock
@@ -84,7 +84,7 @@ Supported values for the <b>ai_flags</b> member are defined in the <i>Winsock2.h
 </dl>
 </td>
 <td width="60%">
-The socket address will be used in a call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>function.
+The socket address will be used in a call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function.
 
 </td>
 </tr>
@@ -430,7 +430,7 @@ In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DATAGRAM</b> 
 
 The protocol type. The possible options are specific to the address family and socket type specified. Possible values for the <b>ai_protocol</b> are defined in <i>Winsock2.h</i> and the <i>Wsrm.h</i> header files. 
 
-On the Windows SDK released for Windows Vista and later,, the organization of header files has changed and this member can be one of the values from the <b>IPPROTO</b> enumeration type defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed and this member can be one of the values from the <b>IPPROTO</b> enumeration type defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
 
 If a value of  0 is specified for <b>ai_protocol</b>, the caller does not
               wish to specify a protocol and the service provider will choose the <b>ai_protocol</b> to use. For protocols other than IPv4 and IPv6, set <b>ai_protocol</b> to zero.

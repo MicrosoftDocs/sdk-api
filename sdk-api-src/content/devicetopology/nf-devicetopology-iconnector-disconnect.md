@@ -52,7 +52,7 @@ api_name:
 
 The <b>Disconnect</b> method disconnects this connector from another connector.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.SHInvokePrinterCommandA
 title: SHInvokePrinterCommandA function (shellapi.h)
-description: Executes a command on a printer object.
-helpviewer_keywords: ["PRINTACTION_DOCUMENTDEFAULTS","PRINTACTION_NETINSTALL","PRINTACTION_NETINSTALLLINK","PRINTACTION_OPEN","PRINTACTION_OPENNETPRN","PRINTACTION_PROPERTIES","PRINTACTION_SERVERPROPERTIES","PRINTACTION_TESTPAGE","SHInvokePrinterCommand","SHInvokePrinterCommand function [Windows Shell]","SHInvokePrinterCommandA","SHInvokePrinterCommandW","_win32_SHInvokePrinterCommand","shell.SHInvokePrinterCommand","shellapi/SHInvokePrinterCommand","shellapi/SHInvokePrinterCommandA","shellapi/SHInvokePrinterCommandW"]
+description: Executes a command on a printer object. (ANSI)
+helpviewer_keywords: ["PRINTACTION_DOCUMENTDEFAULTS", "PRINTACTION_NETINSTALL", "PRINTACTION_NETINSTALLLINK", "PRINTACTION_OPEN", "PRINTACTION_OPENNETPRN", "PRINTACTION_PROPERTIES", "PRINTACTION_SERVERPROPERTIES", "PRINTACTION_TESTPAGE", "SHInvokePrinterCommandA", "shellapi/SHInvokePrinterCommandA"]
 old-location: shell\SHInvokePrinterCommand.htm
 tech.root: shell
 ms.assetid: 32a5802f-cef7-4dbd-affd-82285fe97a8c
@@ -161,4 +161,4 @@ This function is implemented in <a href="/previous-versions/windows/desktop/lega
 
 
 > [!NOTE]
-> The shellapi.h header defines SHInvokePrinterCommand as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHInvokePrinterCommand as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

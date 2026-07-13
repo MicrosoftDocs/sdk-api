@@ -52,7 +52,7 @@ api_name:
 
 The client calls this method to cancel an asynchronous Group Policy Management Console (GPMC) operation. GPMC operations such as backup, restore, import, copy, and report generation can execute asynchronously.
 
-## -parameters
+
 
 ## -returns
 

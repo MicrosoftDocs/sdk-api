@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.FormatPartition
 title: IVdsAdvancedDisk::FormatPartition (vds.h)
-description: Formats an existing OEM, ESP, or unknown partition.
+description: Formats an existing OEM, ESP, or unknown partition. (IVdsAdvancedDisk.FormatPartition)
 helpviewer_keywords: ["FormatPartition","FormatPartition method [VDS]","FormatPartition method [VDS]","IVdsAdvancedDisk interface","IVdsAdvancedDisk interface [VDS]","FormatPartition method","IVdsAdvancedDisk.FormatPartition","IVdsAdvancedDisk::FormatPartition","base.ivdsadvanceddisk_formatpartition","vds/IVdsAdvancedDisk::FormatPartition"]
 old-location: base\ivdsadvanceddisk_formatpartition.htm
 tech.root: base
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Formats an existing OEM, ESP, or unknown partition.
 

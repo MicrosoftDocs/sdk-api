@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shlwapi-l1-2-1.dll
+ - ext-ms-win-shell-shlwapi-l1-2-0.dll
  - Shlwapi.dll
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
@@ -67,15 +69,18 @@ The original RGB color.
 Type: <b>WORD*</b>
 
 A pointer to a value that, when this method returns successfully, receives the HLS hue value.
+Can range from 0 to 240.
 
 ### -param pwLuminance [out]
 
 Type: <b>WORD*</b>
 
 A pointer to a value that, when this method returns successfully, receives the HLS luminance value.
+Can range from 0 to 240.
 
 ### -param pwSaturation [out]
 
 Type: <b>WORD*</b>
 
 A pointer to a value that, when this method returns successfully, receives the HLS saturation value.
+Can range from 0 to 240.

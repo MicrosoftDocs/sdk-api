@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensorEvents interface","OnDataUpdated method","ISensorE
 old-location: winsensors_com_ref\isensorevents_ondataupdated.htm
 tech.root: winsensors
 ms.assetid: dda03a66-ffdb-4f1f-a6e4-17075eab7e00
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensorEvents interface,OnDataUpdated method, ISensorEvents.OnDataUpdated, ISensorEvents::OnDataUpdated, OnDataUpdated, OnDataUpdated method, OnDataUpdated method,ISensorEvents interface, sensorsapi/ISensorEvents::OnDataUpdated, winsensors_com_ref.isensorevents_ondataupdated
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Provides sensor event data.
 

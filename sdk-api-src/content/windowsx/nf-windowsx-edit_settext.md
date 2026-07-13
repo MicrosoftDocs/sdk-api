@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetText","Edit_SetText macro [Windows Controls]","_w
 old-location: controls\Edit_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_settext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_SetText, Edit_SetText macro [Windows Controls], _win32_Edit_SetText, _win32_Edit_SetText_cpp, controls.Edit_SetText, controls._win32_Edit_SetText, windowsx/Edit_SetText
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Edit_SetText macro
+
+## -syntax
+
+```cpp
+int Edit_SetText(
+   HWND   hwndCtl,
+   LPTSTR lpsz
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the function succeeds, the return value is nonzero. If it fails, the return value is zero.
 
 
 ## -description

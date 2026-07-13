@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9.IDirect3DSurface9
 title: IDirect3DSurface9 (d3d9.h)
-description: Applications use the methods of the IDirect3DSurface9 interface to query and prepare surfaces.
+description: The IDirect3DSurface9 (d3d9.h) interface is used by applications to query and prepare surfaces.
 helpviewer_keywords: ["7eb0f571-de02-55a6-f6eb-fc92e63fbb48","IDirect3DSurface9","IDirect3DSurface9 interface [Direct3D 9]","IDirect3DSurface9 interface [Direct3D 9]","described","d3d9helper/IDirect3DSurface9","direct3d9.idirect3dsurface9"]
 old-location: direct3d9\idirect3dsurface9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 7eb0f571-de02-55a6-f6eb-fc92e63fbb48, IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], IDirect3DSurface9 interface [Direct3D 9],described, d3d9helper/IDirect3DSurface9, direct3d9.idirect3dsurface9
 req.header: d3d9.h
 req.include-header: D3D9.h
@@ -55,10 +55,7 @@ Applications use the methods of the IDirect3DSurface9 interface to query and pre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSurface9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DSurface9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDirect3DSurface9</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>. <b>IDirect3DSurface9</b> also has these types of members:
 
 ## -remarks
 

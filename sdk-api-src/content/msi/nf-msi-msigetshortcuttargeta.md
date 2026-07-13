@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetShortcutTargetA
 title: MsiGetShortcutTargetA function (msi.h)
-description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available.
-helpviewer_keywords: ["MsiGetShortcutTarget","MsiGetShortcutTarget function","MsiGetShortcutTargetA","MsiGetShortcutTargetW","_msi_msigetshortcuttarget","msi/MsiGetShortcutTarget","msi/MsiGetShortcutTargetA","msi/MsiGetShortcutTargetW","setup.msigetshortcuttarget"]
+description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available. (ANSI)
+helpviewer_keywords: ["MsiGetShortcutTargetA", "msi/MsiGetShortcutTargetA"]
 old-location: setup\msigetshortcuttarget.htm
 tech.root: setup
 ms.assetid: 5c040372-d266-4f79-9b80-950ceac9f9b8
@@ -91,4 +91,4 @@ Otherwise, the state of the target may be determined by using the
 
 
 > [!NOTE]
-> The msi.h header defines MsiGetShortcutTarget as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetShortcutTarget as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.put_StateChange
 title: ISessionStateChangeTrigger::put_StateChange (taskschd.h)
-description: Gets or sets the kind of Terminal Server session change that would trigger a task launch.
+description: Gets or sets the kind of Terminal Server session change that would trigger a task launch. (Put)
 helpviewer_keywords: ["ISessionStateChangeTrigger interface [Task Scheduler]","StateChange property","ISessionStateChangeTrigger.StateChange","ISessionStateChangeTrigger.put_StateChange","ISessionStateChangeTrigger::StateChange","ISessionStateChangeTrigger::get_StateChange","ISessionStateChangeTrigger::put_StateChange","StateChange property [Task Scheduler]","StateChange property [Task Scheduler]","ISessionStateChangeTrigger interface","TASK_CONSOLE_CONNECT","TASK_CONSOLE_DISCONNECT","TASK_REMOTE_CONNECT","TASK_REMOTE_DISCONNECT","TASK_SESSION_LOCK","TASK_SESSION_UNLOCK","put_StateChange","taskschd.isessionstatechangetrigger_statechange","taskschd/ISessionStateChangeTrigger::StateChange","taskschd/ISessionStateChangeTrigger::get_StateChange","taskschd/ISessionStateChangeTrigger::put_StateChange"]
 old-location: taskschd\isessionstatechangetrigger_statechange.htm
 tech.root: taskschd

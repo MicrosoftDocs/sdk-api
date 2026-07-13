@@ -54,11 +54,11 @@ Contains flags which control the format of the text.
 
 ## -enum-fields
 
-### -field WBEMPATH_TEXT
+### -field WBEMPATH_TEXT:0x1
 
 Not used.
 
-### -field WBEMPATH_QUOTEDTEXT
+### -field WBEMPATH_QUOTEDTEXT:0x2
 
 Places quotes around the string key values.
 

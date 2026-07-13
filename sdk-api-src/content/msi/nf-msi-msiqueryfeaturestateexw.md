@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiQueryFeatureStateExW
 title: MsiQueryFeatureStateExW function (msi.h)
-description: The MsiQueryFeatureStateEx function returns the installed state for a product feature.
-helpviewer_keywords: ["INSTALLSTATE_ADVERTISED","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiQueryFeatureStateEx","MsiQueryFeatureStateEx function","MsiQueryFeatureStateExA","MsiQueryFeatureStateExW","NULL","User SID","msi/MsiQueryFeatureStateEx","msi/MsiQueryFeatureStateExA","msi/MsiQueryFeatureStateExW","setup.msiqueryfeaturestateex"]
+description: The MsiQueryFeatureStateEx function returns the installed state for a product feature. (Unicode)
+helpviewer_keywords: ["INSTALLSTATE_ADVERTISED", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiQueryFeatureStateEx", "MsiQueryFeatureStateEx function", "MsiQueryFeatureStateExW", "NULL", "User SID", "msi/MsiQueryFeatureStateEx", "msi/MsiQueryFeatureStateExW", "setup.msiqueryfeaturestateex"]
 old-location: setup\msiqueryfeaturestateex.htm
 tech.root: setup
 ms.assetid: 60165f0d-01d9-4ce8-a369-092d0c670b87
@@ -286,7 +286,7 @@ The
 
 
 > [!NOTE]
-> The msi.h header defines MsiQueryFeatureStateEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiQueryFeatureStateEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -52,35 +52,35 @@ The <b>PathPointType</b> enumeration indicates point types and flags for the dat
 
 ## -enum-fields
 
-### -field PathPointTypeStart
+### -field PathPointTypeStart:0
 
 Indicates that the point is the start of a figure.
 
-### -field PathPointTypeLine
+### -field PathPointTypeLine:1
 
 Indicates that the point is one of the two endpoints of a line.
 
-### -field PathPointTypeBezier
+### -field PathPointTypeBezier:3
 
 Indicates that the point is an endpoint or control point of a cubic Bézier spline.
 
-### -field PathPointTypePathTypeMask
+### -field PathPointTypePathTypeMask:0x07
 
 Masks all bits except for the three low-order bits, which indicate the point type.
 
-### -field PathPointTypeDashMode
+### -field PathPointTypeDashMode:0x10
 
 Not used.
 
-### -field PathPointTypePathMarker
+### -field PathPointTypePathMarker:0x20
 
 Specifies that the point is a marker.
 
-### -field PathPointTypeCloseSubpath
+### -field PathPointTypeCloseSubpath:0x80
 
 Specifies that the point is the last point in a closed subpath (figure).
 
-### -field PathPointTypeBezier3
+### -field PathPointTypeBezier3:3
 
 Indicates that the point is an endpoint or control point of a cubic Bézier spline. 
 

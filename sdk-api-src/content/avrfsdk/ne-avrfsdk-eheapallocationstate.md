@@ -54,15 +54,15 @@ Specifies the current heap allocation state.
 
 ## -enum-fields
 
-### -field HeapFullPageHeap
+### -field HeapFullPageHeap:0x40000000
 
 Specifies the full-page heap arrangement is being used.
 
-### -field HeapMetadata
+### -field HeapMetadata:0x80000000
 
 Specifies the highest bit. When set, it has not been allocated by the user.
 
-### -field HeapStateMask
+### -field HeapStateMask:0xFFFF0000
 
 Specifies a value to be used as a mask with the bitwise AND operator to indicate whether the allocation is by the user.
 

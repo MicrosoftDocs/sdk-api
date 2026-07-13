@@ -54,9 +54,5 @@ The <b>IAzApplication3</b> interface provides methods to manage <a href="/window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplication3</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a>. <b>IAzApplication3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IAzApplication3</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a>. <b>IAzApplication3</b> also has these types of members:
 

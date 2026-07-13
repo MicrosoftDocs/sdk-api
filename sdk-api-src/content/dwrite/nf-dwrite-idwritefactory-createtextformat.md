@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTextFormat
 title: IDWriteFactory::CreateTextFormat (dwrite.h)
-description: Creates a text format object used for text layout.
+description: Creates a text format object used for text layout. (IDWriteFactory.CreateTextFormat)
 helpviewer_keywords: ["CreateTextFormat","CreateTextFormat method [Direct Write]","CreateTextFormat method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateTextFormat method","IDWriteFactory.CreateTextFormat","IDWriteFactory::CreateTextFormat","directwrite.IDWriteFactory_CreateTextFormat","dwrite/IDWriteFactory::CreateTextFormat"]
 old-location: directwrite\IDWriteFactory_CreateTextFormat.htm
 tech.root: DirectWrite
@@ -106,7 +106,7 @@ When this method returns, contains an address of a pointer to a  newly created t
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

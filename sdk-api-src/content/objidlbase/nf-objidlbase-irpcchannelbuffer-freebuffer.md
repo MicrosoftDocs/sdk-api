@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IRpcChannelBuffer.FreeBuffer
 title: IRpcChannelBuffer::FreeBuffer (objidlbase.h)
-description: Frees a previously allocated RPC channel buffer.
+description: The IRpcChannelBuffer::FreeBuffer (objidlbase.h) method frees a previously allocated RPC channel buffer.
 helpviewer_keywords: ["FreeBuffer","FreeBuffer method [COM]","FreeBuffer method [COM]","IRpcChannelBuffer interface","IRpcChannelBuffer interface [COM]","FreeBuffer method","IRpcChannelBuffer.FreeBuffer","IRpcChannelBuffer::FreeBuffer","_com_irpcchannelbuffer_freebuffer","com.irpcchannelbuffer_freebuffer","objidlbase/IRpcChannelBuffer::FreeBuffer"]
 old-location: com\irpcchannelbuffer_freebuffer.htm
 tech.root: com
 ms.assetid: bcdd4783-4a75-42d0-86a9-ab2605abbbe1
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: FreeBuffer, FreeBuffer method [COM], FreeBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],FreeBuffer method, IRpcChannelBuffer.FreeBuffer, IRpcChannelBuffer::FreeBuffer, _com_irpcchannelbuffer_freebuffer, com.irpcchannelbuffer_freebuffer, objidlbase/IRpcChannelBuffer::FreeBuffer
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

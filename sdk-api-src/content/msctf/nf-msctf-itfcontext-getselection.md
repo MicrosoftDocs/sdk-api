@@ -159,7 +159,7 @@ If this method is successful, the caller must release the <b>range</b> member of
 
 Normally, a context only supports a single selection. It is possible, however, for a context to support multiple, simultaneous selections. This method can be used to obtain multiple selections.
 
-## -examples
+## Examples
 
 ```cpp
 

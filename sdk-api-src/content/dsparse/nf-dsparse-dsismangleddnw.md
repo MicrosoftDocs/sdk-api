@@ -1,8 +1,8 @@
 ---
 UID: NF:dsparse.DsIsMangledDnW
 title: DsIsMangledDnW function (dsparse.h)
-description: The DsIsMangledDn function determines if the first relative distinguished name (RDN) in a distinguished name (DN) is a mangled name of a given type.
-helpviewer_keywords: ["DsIsMangledDn","DsIsMangledDn function [Active Directory]","DsIsMangledDnA","DsIsMangledDnW","_glines_dsismangleddn","ad.dsismangleddn","dsparse/DsIsMangledDn","dsparse/DsIsMangledDnA","dsparse/DsIsMangledDnW"]
+description: The DsIsMangledDn function determines if the first relative distinguished name (RDN) in a distinguished name (DN) is a mangled name of a given type. (Unicode)
+helpviewer_keywords: ["DsIsMangledDn", "DsIsMangledDn function [Active Directory]", "DsIsMangledDnW", "_glines_dsismangleddn", "ad.dsismangleddn", "dsparse/DsIsMangledDn", "dsparse/DsIsMangledDnW"]
 old-location: ad\dsismangleddn.htm
 tech.root: ad
 ms.assetid: e4aaa83c-3bd6-48db-9d34-367b76ba629c
@@ -83,4 +83,4 @@ Returns <b>TRUE</b> if the first relative distinguished name in <i>pszDn</i> is 
 ## -remarks
 
 > [!NOTE]
-> The dsparse.h header defines DsIsMangledDn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsparse.h header defines DsIsMangledDn as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

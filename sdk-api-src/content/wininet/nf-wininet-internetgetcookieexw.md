@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetGetCookieExW
 title: InternetGetCookieExW function (wininet.h)
-description: Retrieves data stored in cookies associated with a specified URL.
-helpviewer_keywords: ["INTERNET_COOKIE_HTTPONLY","INTERNET_COOKIE_THIRD_PARTY","INTERNET_FLAG_RESTRICTED_ZONE","InternetGetCookieEx","InternetGetCookieEx function [WinINet]","InternetGetCookieExA","InternetGetCookieExW","wininet.internetgetcookieex","wininet/InternetGetCookieEx","wininet/InternetGetCookieExA","wininet/InternetGetCookieExW"]
+description: Retrieves data stored in cookies associated with a specified URL. (Unicode)
+helpviewer_keywords: ["INTERNET_COOKIE_HTTPONLY", "INTERNET_COOKIE_THIRD_PARTY", "INTERNET_FLAG_RESTRICTED_ZONE", "InternetGetCookieEx", "InternetGetCookieEx function [WinINet]", "InternetGetCookieExW", "wininet.internetgetcookieex", "wininet/InternetGetCookieEx", "wininet/InternetGetCookieExW"]
 old-location: wininet\internetgetcookieex.htm
 tech.root: wininet
 ms.assetid: 5006f009-e217-4fdc-9e4e-800ff5fcbf03
@@ -192,7 +192,7 @@ Returned if no cookied data as specified could be retrieved.
 
 
 > [!NOTE]
-> The wininet.h header defines InternetGetCookieEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetGetCookieEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

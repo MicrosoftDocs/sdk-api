@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field TS_INUSE
+### -field TS_INUSE:0
 
 The terminal is currently in use.
 

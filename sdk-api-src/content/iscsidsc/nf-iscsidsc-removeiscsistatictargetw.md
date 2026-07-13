@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiStaticTargetW
 title: RemoveIScsiStaticTargetW function (iscsidsc.h)
-description: RemoveIscsiStaticTarget function removes a target from the list of static targets made available to the machine.
-helpviewer_keywords: ["RemoveIScsiStaticTargetW","RemoveIscsiStaticTarget","RemoveIscsiStaticTarget function [iSCSI Discovery Library API]","RemoveIscsiStaticTargetA","RemoveIscsiStaticTargetW","iscsidisc.removeiscsistatictarget","iscsidsc/RemoveIscsiStaticTarget","iscsidsc/RemoveIscsiStaticTargetA","iscsidsc/RemoveIscsiStaticTargetW"]
+description: RemoveIscsiStaticTarget function removes a target from the list of static targets made available to the machine. (Unicode)
+helpviewer_keywords: ["RemoveIScsiStaticTargetW", "RemoveIscsiStaticTarget", "RemoveIscsiStaticTarget function [iSCSI Discovery Library API]", "RemoveIscsiStaticTargetW", "iscsidisc.removeiscsistatictarget", "iscsidsc/RemoveIscsiStaticTarget", "iscsidsc/RemoveIscsiStaticTargetW"]
 old-location: iscsidisc\removeiscsistatictarget.htm
 tech.root: iSCSIDisc
 ms.assetid: 7927d414-929e-4f01-b6bf-e6d571486aed
@@ -71,4 +71,4 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines RemoveIScsiStaticTarget as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines RemoveIScsiStaticTarget as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

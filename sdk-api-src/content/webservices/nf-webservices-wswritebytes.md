@@ -119,7 +119,7 @@ A quota was exceeded.
 ## -remarks
 
 <b>WsWriteBytes</b> may be called more than once between <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.  It may
-        not be combined with <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.
+        not be combined with <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a> when writing an attribute.
       
 
 For the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the byteCount exceeds the maxInlineByteCount specified

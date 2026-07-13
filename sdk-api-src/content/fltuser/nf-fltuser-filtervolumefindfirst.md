@@ -147,7 +147,7 @@ A volume was not found in the list of volumes known to the filter manager.
 
 ## -remarks
 
-This <b>FilterVolumeFindFirst </b>function is used to begin scanning the volumes that are known to the filter manager.
+This <b>FilterVolumeFindFirst </b> function is used to begin scanning the volumes that are known to the filter manager.
 
 <b>FilterVolumeFindFirst</b> opens a search handle and returns information about the first volume found in the list of volumes known to the filter manager. After the search handle has been established, use the <a href="/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a> function to search for other volumes in the filter manager's list. When the search handle is no longer required, close it by calling <a href="/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindclose">FilterVolumeFindClose</a>.
 

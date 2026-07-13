@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.OpenRole
 title: IAzScope::OpenRole (azroles.h)
-description: Opens an IAzRole object with the specified name.
+description: Opens an IAzRole object with the specified name. (IAzScope.OpenRole)
 helpviewer_keywords: ["AzScope object [Security]","OpenRole method","IAzScope interface [Security]","OpenRole method","IAzScope.OpenRole","IAzScope::OpenRole","OpenRole","OpenRole method [Security]","OpenRole method [Security]","AzScope object","OpenRole method [Security]","IAzScope interface","azroles/IAzScope::OpenRole","security.iazscope_openrole"]
 old-location: security\iazscope_openrole.htm
 tech.root: security

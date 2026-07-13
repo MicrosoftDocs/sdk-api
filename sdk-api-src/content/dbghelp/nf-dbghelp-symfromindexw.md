@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFromIndexW
 title: SymFromIndexW function (dbghelp.h)
-description: Retrieves symbol information for the specified index.
+description: The SymFromIndexW (Unicode) function retrieves symbol information for the specified index.
 helpviewer_keywords: ["SymFromIndex","SymFromIndex function","SymFromIndexW","base.symfromindex","dbghelp/SymFromIndex","dbghelp/SymFromIndexW"]
 old-location: base\symfromindex.htm
 tech.root: Debug
 ms.assetid: 84e94edd-2874-4b57-89eb-18b01dac91f4
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromindex, dbghelp/SymFromIndex, dbghelp/SymFromIndexW
 req.header: dbghelp.h
 req.include-header: 
@@ -91,7 +91,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymFromIndex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymFromIndex as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

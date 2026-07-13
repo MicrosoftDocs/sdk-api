@@ -60,7 +60,7 @@ The LUID for the adapter where the target is located.
 
 ### -param VidPnTarget [in]
 
-Target ID for the target on the specified adapter adapter.
+Target ID for the target on the specified adapter.
 
 ### -param vos [in]
 
@@ -99,7 +99,7 @@ Receives a pointer to an <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvide
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

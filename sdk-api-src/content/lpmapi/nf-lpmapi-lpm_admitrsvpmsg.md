@@ -1,7 +1,7 @@
 ---
 UID: NF:lpmapi.LPM_AdmitRsvpMsg
 title: LPM_AdmitRsvpMsg function (lpmapi.h)
-description: The LPM_AdmitRsvpMsg function is called by the PCM to pass RSVP messages to the LPM for policy based�admission control decisions.
+description: The LPM_AdmitRsvpMsg function is called by the PCM to pass RSVP messages to the LPM for policy-based admission control decisions.
 helpviewer_keywords: ["ErrorSpec","FlowDescList","FlowDescListCount","LPM_AdmitRsvpMsg","LPM_AdmitRsvpMsg callback","LPM_AdmitRsvpMsg callback function [QOS]","LpmPriorityValue","PolicyDataCount","PolicyDataObjects","PolicyErrorCode","PolicyErrorValue","RsvpFromHop","RsvpMsgType","RsvpScope","RsvpSession","RsvpStyle","_gqos_lpm_admitrsvpmsg","lpmapi/LPM_AdmitRsvpMsg","qos.lpm_admitrsvpmsg"]
 old-location: qos\lpm_admitrsvpmsg.htm
 tech.root: QOS

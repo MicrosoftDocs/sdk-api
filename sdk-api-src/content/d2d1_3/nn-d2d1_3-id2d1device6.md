@@ -56,8 +56,5 @@ Represents a resource domain whose objects and device contexts can be used toget
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device6</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device5">ID2D1Device5</a>. <b>ID2D1Device6</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID2D1Device6</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device5">ID2D1Device5</a>. <b>ID2D1Device6</b> also has these types of members:
 

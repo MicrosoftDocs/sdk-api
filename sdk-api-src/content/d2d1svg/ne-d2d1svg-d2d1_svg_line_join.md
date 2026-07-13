@@ -66,5 +66,5 @@ The property is set to SVG's 'miter' value. Note that this is equivalent to D2D1
 
 The property is set to SVG's 'round' value.
 
-### -field D2D1_SVG_LINE_JOIN_FORCE_DWORD
+### -field D2D1_SVG_LINE_JOIN_FORCE_DWORD:0xffffffff
 

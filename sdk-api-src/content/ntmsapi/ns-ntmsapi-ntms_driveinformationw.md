@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_DRIVEINFORMATIONW
 title: NTMS_DRIVEINFORMATIONW (ntmsapi.h)
-description: The NTMS_DRIVEINFORMATION structure defines properties specific to a drive object.
+description: The NTMS_DRIVEINFORMATION structure defines properties specific to a drive object. (Unicode)
 helpviewer_keywords: ["NTMS_DRIVEINFORMATION","NTMS_DRIVEINFORMATION structure [Files]","NTMS_DRIVEINFORMATIONA","NTMS_DRIVEINFORMATIONW","NTMS_DRIVESTATE_BEING_CLEANED","NTMS_DRIVESTATE_DISMOUNTABLE","NTMS_DRIVESTATE_DISMOUNTED","NTMS_DRIVESTATE_LOADED","NTMS_DRIVESTATE_MOUNTED","NTMS_DRIVESTATE_UNLOADED","_NTMS_DRIVEINFORMATIONA","_NTMS_DRIVEINFORMATIONW","_zaw_ntms_driveinformation","base.ntms_driveinformation","fs.ntms_driveinformation","ntmsapi/NTMS_DRIVEINFORMATION"]
 old-location: fs\ntms_driveinformation.htm
 tech.root: fs
@@ -205,7 +205,7 @@ The
 
 
 > [!NOTE]
-> The ntmsapi.h header defines NTMS_DRIVEINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines NTMS_DRIVEINFORMATION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

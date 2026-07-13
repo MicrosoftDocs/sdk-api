@@ -57,13 +57,13 @@ Contains virtual disk compact request flags.
 
 ## -enum-fields
 
-### -field COMPACT_VIRTUAL_DISK_FLAG_NONE
+### -field COMPACT_VIRTUAL_DISK_FLAG_NONE:0x00000000
 
 No flags are specified.
 
-### -field COMPACT_VIRTUAL_DISK_FLAG_NO_ZERO_SCAN
+### -field COMPACT_VIRTUAL_DISK_FLAG_NO_ZERO_SCAN:0x00000001
 
-### -field COMPACT_VIRTUAL_DISK_FLAG_NO_BLOCK_MOVES
+### -field COMPACT_VIRTUAL_DISK_FLAG_NO_BLOCK_MOVES:0x00000002
 
 ## -see-also
 

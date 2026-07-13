@@ -52,7 +52,7 @@ api_name:
 
 Notifies the cache that it should terminate any existing advise sinks. No indication is given as to whether a connection actually existed.
 
-## -parameters
+
 
 ## -returns
 

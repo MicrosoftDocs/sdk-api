@@ -1,224 +1,197 @@
 ---
 UID: NF:evntrace.TraceEvent
 title: TraceEvent function (evntrace.h)
-description: The TraceEvent function sends an event to an event tracing session.
-helpviewer_keywords: ["TraceEvent","TraceEvent function [ETW]","_evt_traceevent","base.traceevent","etw.traceevent","evntrace/TraceEvent"]
+description:
+  A RegisterTraceGuids-based ("Classic") event provider uses the TraceEvent
+  function to send a structured event to an event tracing session.
+helpviewer_keywords:
+  [
+    "TraceEvent",
+    "TraceEvent function [ETW]",
+    "_evt_traceevent",
+    "base.traceevent",
+    "etw.traceevent",
+    "evntrace/TraceEvent",
+  ]
 old-location: etw\traceevent.htm
 tech.root: ETW
 ms.assetid: 9b21f6f0-dd9b-4f9c-a879-846901a3bab7
 ms.date: 12/05/2018
-ms.keywords: TraceEvent, TraceEvent function [ETW], _evt_traceevent, base.traceevent, etw.traceevent, evntrace/TraceEvent
+ms.keywords:
+  TraceEvent, TraceEvent function [ETW], _evt_traceevent, base.traceevent,
+  etw.traceevent, evntrace/TraceEvent
 req.header: evntrace.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
-req.irql: 
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - TraceEvent
- - evntrace/TraceEvent
+  - TraceEvent
+  - evntrace/TraceEvent
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - DllExport
+  - DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+  - Advapi32.dll
+  - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+  - KernelBase.dll
+  - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+  - API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
- - TraceEvent
+  - TraceEvent
 ---
 
 # TraceEvent function
 
-
 ## -description
 
-The 
-<b>TraceEvent</b> function sends an event to an event tracing session.
+A
+[RegisterTraceGuids](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa)-based
+("Classic") event provider uses the **TraceEvent** function to send a structured
+event to an event tracing session.
 
 ## -parameters
 
 ### -param TraceHandle [in]
 
-Handle to the event tracing session that records the event. The provider obtains the handle when it calls the <a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function in its <a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> implementation.
+Handle to the event tracing session that records the event. The provider obtains
+the handle when it calls the
+[GetTraceLoggerHandle](/windows/desktop/ETW/gettraceloggerhandle) function in
+its [ControlCallback](/windows/desktop/ETW/controlcallback) implementation.
 
 ### -param EventTrace [in]
 
-Pointer to an 
-<a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure. Event-specific data is optionally appended to the structure. The largest event you can log is 64K. You must specify values for the following members of the 
-<b>EVENT_TRACE_HEADER</b> structure. 
+Pointer to an [EVENT_TRACE_HEADER](/windows/desktop/ETW/event-trace-header)
+structure. Event-specific data is optionally appended to the structure. The
+largest event you can log is slightly less than 64K. You must specify values for
+the following members of the **EVENT_TRACE_HEADER** structure.
 
+- **Size**
+- **Guid** or **GuidPtr**
+- **Flags**
 
+Depending on the complexity of the information your provider provides, you
+should also consider specifying values for the following members.
 
-<ul>
-<li><b>Size</b></li>
-<li><b>Guid</b> or <b>GuidPtr</b></li>
-<li><b>Flags</b></li>
-</ul>
-Depending on the complexity of the information your provider provides, you should also consider specifying values for the following members.
-
-<ul>
-<li><b>Class.Type</b></li>
-<li><b>Class.Level</b></li>
-</ul>
+- **Class.Type**
+- **Class.Level**
 
 ## -returns
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is one of the 
-<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+If the function fails, the return value is one of the
+[system error codes](/windows/win32/debug/system-error-codes). The following
+are some common errors and their causes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_FLAG_NUMBER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>Flags</b> member of the 
-<a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure is incorrect.
+- **ERROR_INVALID_FLAG_NUMBER**
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>SessionHandle</i> is not valid or specifies the NT Kernel Logger session handle.
+  The **Flags** member of the
+  [EVENT_TRACE_HEADER](/windows/desktop/ETW/event-trace-header) structure is
+  incorrect.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="/windows/desktop/ETW/traceevent">TraceEvent</a> discards the event. 
+- **ERROR_INVALID_HANDLE**
 
-Consider increasing the number and size of the buffers for the session, or reducing the number of events written or the size of the events.
+  _TraceHandle_ is not valid or specifies the NT Kernel Logger session handle.
 
-<b>Windows 2000:  </b>Not supported.
+- **ERROR_NOT_ENOUGH_MEMORY**
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event is discarded because, although the buffer pool has not reached its maximum size, there is insufficient available memory to allocate an additional buffer and there is no buffer available to receive the event. 
+  The session ran out of free buffers to write to. This can occur during high
+  event rates because the disk subsystem is overloaded or the number of buffers
+  is too small. Rather than blocking until more buffers become available,
+  [TraceEvent](/windows/desktop/ETW/traceevent) discards the event.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following is true:
+  Consider increasing the number and size of the buffers for the session, or
+  reducing the number of events written or the size of the events.
 
-<ul>
-<li><i>SessionHandle</i> is <b>NULL</b>.</li>
-<li><i>EventTrace</i> is <b>NULL</b>.</li>
-<li>The <b>Size</b> member of the 
-<a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure is incorrect.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_MORE_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-Data from a single event cannot span multiple buffers. A trace event is limited to the size of the event tracing session's buffer minus the size of the  
-<a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> structure. 
+  **Windows 2000:** Not supported.
 
-</td>
-</tr>
-</table>
+- **ERROR_OUTOFMEMORY**
+
+  The event is discarded because, although the buffer pool has not reached its
+  maximum size, there is insufficient available memory to allocate an additional
+  buffer and there is no buffer available to receive the event.
+
+- **ERROR_INVALID_PARAMETER**
+
+  One of the following is true:
+
+  - _TraceHandle_ is **NULL**.
+  - _EventTrace_ is **NULL**.
+  - The **Size** member of the
+    [EVENT_TRACE_HEADER](/windows/desktop/ETW/event-trace-header) structure is
+    incorrect.
+
+- **ERROR_MORE_DATA**
+
+  Data from a single event cannot span multiple buffers. A trace event is
+  limited to the size of the event tracing session's buffer minus the size of
+  the [EVENT_TRACE_HEADER](/windows/desktop/ETW/event-trace-header) structure.
 
 ## -remarks
 
-Providers call this function.
+MOF-based ETW providers call this function.
 
-Before the provider can call this function, the  provider 
+> [!Note]
+> Most developers will not call this function. This API supports
+> MOF-based ETW, but MOF-based ETW is deprecated in favor of manifest-based ETW.
+> In addition, most MOF-based providers use wrapper functions generated by
+> MC.exe instead of directly calling ETW APIs.
 
-<ul>
-<li>Must call the 
-<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function to register itself and the event trace class.</li>
-<li>Must be enabled. A controller calls the 
-<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> function to enable a provider.</li>
-</ul>
-The event is either written to a log file, sent to event trace consumers in real time, or both. The <b>LogFileMode</b> member of the 
-<a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure passed to the 
-<a href="/windows/desktop/ETW/starttrace">StartTrace</a> defines where the event is sent.
+Before the provider can call this function, the provider
 
-The trace events are written in the order in which they occur. 
+- Must call the
+  [RegisterTraceGuids](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa)
+  function to register itself and the event trace class.
+- Must be enabled. A controller calls the
+  [EnableTrace](/windows/desktop/ETW/enabletrace) function to enable a provider.
 
-To trace a set of related events, use the 
-<a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function.
+The event is either written to a log file, sent to event trace consumers in real
+time, or both. The **LogFileMode** member of the
+[EVENT_TRACE_PROPERTIES](/windows/desktop/ETW/event-trace-properties) structure
+passed to the [StartTrace](/windows/desktop/ETW/starttrace) defines where the
+event is sent.
 
- On Windows Vista, you should use the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> function to log events.
+The trace events are written in the order in which they occur.
 
+To trace a set of related events, use the
+[TraceEventInstance](/windows/desktop/ETW/traceeventinstance) function.
 
-#### Examples
+On Windows Vista, you should use the
+[EventWrite](/windows/desktop/api/evntprov/nf-evntprov-eventwrite) function to
+log events.
 
-For an example that uses 
-<b>TraceEvent</b>, see 
-<a href="/windows/desktop/ETW/tracing-events">Tracing Events</a>.
+### Examples
 
-<div class="code"></div>
+For an example that uses **TraceEvent**, see
+[Tracing Events](/windows/desktop/ETW/tracing-events).
 
 ## -see-also
 
-<a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>
+[EVENT_TRACE_HEADER](/windows/desktop/ETW/event-trace-header)
 
+[EnableTrace](/windows/desktop/ETW/enabletrace)
 
+[RegisterTraceGuids](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa)
 
-<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a>
-
-
-
-<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
-
-
-
-<a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>
+[TraceEventInstance](/windows/desktop/ETW/traceeventinstance)

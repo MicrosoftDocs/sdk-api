@@ -1,5 +1,5 @@
 ---
-UID: NE:winnt.__unnamed_enum_7
+UID: NE:winnt.SYSTEM_POWER_CONDITION
 title: SYSTEM_POWER_CONDITION (winnt.h)
 description: Used by the GUID_ACDC_POWER_SOURCE power event to indicate the current power source.
 helpviewer_keywords: ["PoAc","PoConditionMaximum","PoDc","PoHot","SYSTEM_POWER_CONDITION","SYSTEM_POWER_CONDITION enumeration","base.system_power_condition","winnt/PoAc","winnt/PoConditionMaximum","winnt/PoDc","winnt/PoHot","winnt/SYSTEM_POWER_CONDITION"]
@@ -75,3 +75,4 @@ Values equal to or greater than this value indicate an out of range value.
 ## -see-also
 
 <a href="/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
+

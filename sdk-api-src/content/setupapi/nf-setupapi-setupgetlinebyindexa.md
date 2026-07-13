@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetLineByIndexA
 title: SetupGetLineByIndexA function (setupapi.h)
-description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file.
-helpviewer_keywords: ["SetupGetLineByIndex","SetupGetLineByIndex function [Setup API]","SetupGetLineByIndexA","SetupGetLineByIndexW","_setupapi_setupgetlinebyindex","setup.setupgetlinebyindex","setupapi/SetupGetLineByIndex","setupapi/SetupGetLineByIndexA","setupapi/SetupGetLineByIndexW"]
+description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file. (ANSI)
+helpviewer_keywords: ["SetupGetLineByIndexA", "setupapi/SetupGetLineByIndexA"]
 old-location: setup\setupgetlinebyindex.htm
 tech.root: setup
 ms.assetid: 7a1c313b-3150-4f4f-a1e9-0fc9544b97ab
@@ -99,7 +99,7 @@ If <i>InfHandle</i> references multiple INF files that have been appended togeth
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetLineByIndex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetLineByIndex as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

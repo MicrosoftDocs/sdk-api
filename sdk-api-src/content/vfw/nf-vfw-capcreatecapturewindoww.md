@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.capCreateCaptureWindowW
 title: capCreateCaptureWindowW function (vfw.h)
-description: The capCreateCaptureWindow function creates a capture window.
-helpviewer_keywords: ["_win32_capCreateCaptureWindow","capCreateCaptureWindow","capCreateCaptureWindow function [Windows Multimedia]","capCreateCaptureWindowA","capCreateCaptureWindowW","multimedia.capcreatecapturewindow","vfw/capCreateCaptureWindow","vfw/capCreateCaptureWindowA","vfw/capCreateCaptureWindowW"]
+description: The capCreateCaptureWindow function creates a capture window. (Unicode)
+helpviewer_keywords: ["_win32_capCreateCaptureWindow", "capCreateCaptureWindow", "capCreateCaptureWindow function [Windows Multimedia]", "capCreateCaptureWindowW", "multimedia.capcreatecapturewindow", "vfw/capCreateCaptureWindow", "vfw/capCreateCaptureWindowW"]
 old-location: multimedia\capcreatecapturewindow.htm
 tech.root: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
@@ -107,4 +107,4 @@ Returns a handle of the capture window if successful or <b>NULL</b> otherwise.
 ## -remarks
 
 > [!NOTE]
-> The vfw.h header defines capCreateCaptureWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines capCreateCaptureWindow as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

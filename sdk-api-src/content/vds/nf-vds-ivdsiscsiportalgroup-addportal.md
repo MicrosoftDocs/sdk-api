@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.AddPortal
 title: IVdsIscsiPortalGroup::AddPortal (vds.h)
-description: Adds a portal to a portal group.
+description: The IVdsIscsiPortalGroup::AddPortal method (vds.h) adds a portal to a portal group.
 helpviewer_keywords: ["AddPortal","AddPortal method [VDS]","AddPortal method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","AddPortal method","IVdsIscsiPortalGroup.AddPortal","IVdsIscsiPortalGroup::AddPortal","base.ivdsiscsiportalgroup_addportal","vds/IVdsIscsiPortalGroup::AddPortal","vdshwprv/IVdsIscsiPortalGroup::AddPortal"]
 old-location: base\ivdsiscsiportalgroup_addportal.htm
 tech.root: base
 ms.assetid: 6a2c1427-5137-47d4-a4b9-88a1bbc1e6c9
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: AddPortal, AddPortal method [VDS], AddPortal method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],AddPortal method, IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Adds a portal to a portal group. A portal can belong only to a single portal group within a 
    particular target. It can belong to other portal groups in other targets.
@@ -82,7 +82,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ The portal was added successfully to the portal group.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -110,7 +110,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -122,7 +122,7 @@ The portal group object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>
@@ -134,7 +134,7 @@ Another operation is in progress. This operation cannot proceed until the previo
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_NOT_FOUND</b></b></dt>
+<dt><b>VDS_E_OBJECT_NOT_FOUND</b></dt>
 <dt>0x80042405L</dt>
 </dl>
 </td>

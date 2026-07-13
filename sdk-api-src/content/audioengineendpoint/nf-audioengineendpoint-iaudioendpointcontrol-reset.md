@@ -52,7 +52,7 @@ api_name:
 
 The <b>Reset</b> method resets the endpoint stream.
 
-## -parameters
+
 
 ## -returns
 

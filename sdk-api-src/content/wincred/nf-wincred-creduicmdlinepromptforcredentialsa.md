@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredUICmdLinePromptForCredentialsA
 title: CredUICmdLinePromptForCredentialsA function (wincred.h)
-description: Prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification.
-helpviewer_keywords: ["CREDUI_FLAGS_ALWAYS_SHOW_UI","CREDUI_FLAGS_DO_NOT_PERSIST","CREDUI_FLAGS_EXCLUDE_CERTIFICATES","CREDUI_FLAGS_EXPECT_CONFIRMATION","CREDUI_FLAGS_GENERIC_CREDENTIALS","CREDUI_FLAGS_INCORRECT_PASSWORD","CREDUI_FLAGS_PERSIST","CREDUI_FLAGS_REQUEST_ADMINISTRATOR","CREDUI_FLAGS_REQUIRE_CERTIFICATE","CREDUI_FLAGS_REQUIRE_SMARTCARD","CREDUI_FLAGS_SERVER_CREDENTIAL","CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX","CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS","CredUICmdLinePromptForCredentials","CredUICmdLinePromptForCredentials function [Security]","CredUICmdLinePromptForCredentialsA","CredUICmdLinePromptForCredentialsW","_cred_creduicmdlinepromptforcredentials","security.creduicmdlinepromptforcredentials","wincred/CredUICmdLinePromptForCredentials","wincred/CredUICmdLinePromptForCredentialsA","wincred/CredUICmdLinePromptForCredentialsW"]
+description: Prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification. (ANSI)
+helpviewer_keywords: ["CREDUI_FLAGS_ALWAYS_SHOW_UI", "CREDUI_FLAGS_DO_NOT_PERSIST", "CREDUI_FLAGS_EXCLUDE_CERTIFICATES", "CREDUI_FLAGS_EXPECT_CONFIRMATION", "CREDUI_FLAGS_GENERIC_CREDENTIALS", "CREDUI_FLAGS_INCORRECT_PASSWORD", "CREDUI_FLAGS_PERSIST", "CREDUI_FLAGS_REQUEST_ADMINISTRATOR", "CREDUI_FLAGS_REQUIRE_CERTIFICATE", "CREDUI_FLAGS_REQUIRE_SMARTCARD", "CREDUI_FLAGS_SERVER_CREDENTIAL", "CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX", "CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS", "CredUICmdLinePromptForCredentialsA", "wincred/CredUICmdLinePromptForCredentialsA"]
 old-location: security\creduicmdlinepromptforcredentials.htm
 tech.root: security
 ms.assetid: 5b5bfe87-8f31-4228-931e-50cfc399b66b
@@ -386,7 +386,7 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 
 > [!NOTE]
-> The wincred.h header defines CredUICmdLinePromptForCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredUICmdLinePromptForCredentials as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

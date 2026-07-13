@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetAnnotationByName
 title: ID3D10EffectVariable::GetAnnotationByName (d3d10effect.h)
-description: Get an annotation by name.
+description: Get an annotation by name. (ID3D10EffectVariable.GetAnnotationByName)
 helpviewer_keywords: ["88e41418-934c-2f28-baec-b4fa95311890","GetAnnotationByName","GetAnnotationByName method [Direct3D 10]","GetAnnotationByName method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetAnnotationByName method","ID3D10EffectVariable.GetAnnotationByName","ID3D10EffectVariable::GetAnnotationByName","d3d10effect/ID3D10EffectVariable::GetAnnotationByName","direct3d10.id3d10effectvariable_getannotationbyname"]
 old-location: direct3d10\id3d10effectvariable_getannotationbyname.htm
 tech.root: direct3d10
@@ -68,7 +68,7 @@ A pointer to an <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10e
 
 ## -remarks
 
-Annonations can be attached to a technique, a pass or a gloval variable. For the syntax, see <a href="/windows/desktop/direct3d10/d3d10-effect-annotation-syntax">Annotation Syntax (Direct3D 10)</a>.
+Annotations can be attached to a technique, a pass or a global variable. For the syntax, see <a href="/windows/desktop/direct3d10/d3d10-effect-annotation-syntax">Annotation Syntax (Direct3D 10)</a>.
 
 ## -see-also
 

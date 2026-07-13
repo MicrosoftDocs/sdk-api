@@ -54,15 +54,15 @@ Specifies which gamma is used for interpolation.
 
 ## -enum-fields
 
-### -field D2D1_GAMMA_2_2
+### -field D2D1_GAMMA_2_2:0
 
 Interpolation is performed in the standard RGB (sRGB) gamma.
 
-### -field D2D1_GAMMA_1_0
+### -field D2D1_GAMMA_1_0:1
 
 Interpolation is performed in the linear-gamma color space.
 
-### -field D2D1_GAMMA_FORCE_DWORD
+### -field D2D1_GAMMA_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetExtendedStyle","Edit_SetExtendedStyle macro [Wind
 old-location: controls\edit_setextendedstyle.htm
 tech.root: Controls
 ms.assetid: 4ECAA174-A9C5-4A01-9341-CF6C8777E0F5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_SetExtendedStyle, Edit_SetExtendedStyle macro [Windows Controls], commctrl/Edit_SetExtendedStyle, controls.edit_setextendedstyle
 req.header: commctrl.h
 req.include-header: 
@@ -47,10 +47,20 @@ api_name:
 
 # Edit_SetExtendedStyle macro
 
+## -syntax
+
+```cpp
+void Edit_SetExtendedStyle(
+    HWND hwndCtl,
+    DWORD dw,
+    DWORD dwMask
+);
+```
+
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Sets extended styles for edit controls using the style mask. You can use this macro or send the <a href="/windows/desktop/controls/em-setextendedstyle">EM_SETEXTENDEDSTYLE</a> message explicitly.
 

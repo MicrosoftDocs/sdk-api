@@ -1,12 +1,12 @@
 ---
 UID: NF:mmeapi.midiOutGetErrorTextW
 title: midiOutGetErrorTextW function (mmeapi.h)
-description: The midiOutGetErrorText function retrieves a textual description for an error identified by the specified error code.
-helpviewer_keywords: ["_win32_midiOutGetErrorText","midiOutGetErrorText","midiOutGetErrorText function [Windows Multimedia]","midiOutGetErrorTextA","midiOutGetErrorTextW","mmeapi/midiOutGetErrorText","mmeapi/midiOutGetErrorTextA","mmeapi/midiOutGetErrorTextW","multimedia.midioutgeterrortext"]
+description: The midiOutGetErrorTextW (Unicode) function (mmeapi.h) retrieves a textual description for an error identified by the specified error code.
+helpviewer_keywords: ["_win32_midiOutGetErrorText", "midiOutGetErrorText", "midiOutGetErrorText function [Windows Multimedia]", "midiOutGetErrorTextW", "mmeapi/midiOutGetErrorText", "mmeapi/midiOutGetErrorTextW", "multimedia.midioutgeterrortext"]
 old-location: multimedia\midioutgeterrortext.htm
 tech.root: Multimedia
 ms.assetid: e0e9a22f-da8b-4c87-bbdb-dedc22336503
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: _win32_midiOutGetErrorText, midiOutGetErrorText, midiOutGetErrorText function [Windows Multimedia], midiOutGetErrorTextA, midiOutGetErrorTextW, mmeapi/midiOutGetErrorText, mmeapi/midiOutGetErrorTextA, mmeapi/midiOutGetErrorTextW, multimedia.midioutgeterrortext
 req.header: mmeapi.h
 req.include-header: Windows.h
@@ -112,7 +112,7 @@ If the textual error description is longer than the specified buffer, the descri
 
 
 > [!NOTE]
-> The mmeapi.h header defines midiOutGetErrorText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines midiOutGetErrorText as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

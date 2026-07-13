@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_SHADER_CACHE
 title: D3D11_FEATURE_DATA_SHADER_CACHE (d3d11.h)
-description: Describes the level of shader caching supported in the current graphics driver.
+description: Describes the level of shader caching supported in the current graphics driver. (D3D11_FEATURE_DATA_SHADER_CACHE)
 helpviewer_keywords: ["D3D11_FEATURE_DATA_SHADER_CACHE","D3D11_FEATURE_DATA_SHADER_CACHE structure [Direct3D 11]","d3d11/D3D11_FEATURE_DATA_SHADER_CACHE","direct3d11.d3d11_feature_data_shader_cache"]
 old-location: direct3d11\d3d11_feature_data_shader_cache.htm
 tech.root: direct3d11

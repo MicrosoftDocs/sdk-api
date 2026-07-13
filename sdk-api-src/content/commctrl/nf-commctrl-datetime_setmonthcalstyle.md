@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_SetMonthCalStyle","DateTime_SetMonthCalStyle mac
 old-location: controls\DateTime_SetMonthCalStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalstyle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_SetMonthCalStyle, DateTime_SetMonthCalStyle macro [Windows Controls], _shell_DateTime_SetMonthCalStyle, _shell_DateTime_SetMonthCalStyle_cpp, commctrl/DateTime_SetMonthCalStyle, controls.DateTime_SetMonthCalStyle, controls._shell_DateTime_SetMonthCalStyle
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # DateTime_SetMonthCalStyle macro
+
+## -syntax
+
+```cpp
+LRESULT DateTime_SetMonthCalStyle(
+  [in] HWND  hdp,
+  [in] DWORD dwStyle
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the value of the previous style.
 
 
 ## -description

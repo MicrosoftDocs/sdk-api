@@ -57,7 +57,7 @@ Specifies the various types of storage buses.
 
 ## -enum-fields
 
-### -field BusTypeUnknown
+### -field BusTypeUnknown:0x00
 
 Unknown bus type.
 
@@ -125,7 +125,7 @@ SATA bus.
 
 ### -field BusTypeMax
 
-### -field BusTypeMaxReserved
+### -field BusTypeMaxReserved:0x7F
 
 ### -field BusTypeiSCSI
 

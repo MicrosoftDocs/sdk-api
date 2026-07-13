@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3X4.operator-assign(XMFLOAT3X4&&)
-title: XMFLOAT3X4::operator=
+title: XMFLOAT3X4::operator=(XMFLOAT3X4&&)
 ms.date: 04/22/2020
 description: Move assignment operator for **XMFLOAT3X4**. Moves the argument's vector component data into the current instance of **XMFLOAT3X4**.
 tech.root: dxmath
@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

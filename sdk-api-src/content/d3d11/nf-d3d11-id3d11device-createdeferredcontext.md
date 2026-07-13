@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateDeferredContext
 title: ID3D11Device::CreateDeferredContext (d3d11.h)
-description: Creates a deferred context, which can record command lists.
+description: Creates a deferred context, which can record command lists. (ID3D11Device.CreateDeferredContext)
 helpviewer_keywords: ["CreateDeferredContext","CreateDeferredContext method [Direct3D 11]","CreateDeferredContext method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateDeferredContext method","ID3D11Device.CreateDeferredContext","ID3D11Device::CreateDeferredContext","ad59e9e8-de25-e887-81b2-63e050b34473","d3d11/ID3D11Device::CreateDeferredContext","direct3d11.id3d11device_createdeferredcontext"]
 old-location: direct3d11\id3d11device_createdeferredcontext.htm
 tech.root: direct3d11

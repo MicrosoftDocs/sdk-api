@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IASetPrimitiveTopology
 title: ID3D11DeviceContext::IASetPrimitiveTopology (d3d11.h)
-description: Bind information about the primitive type, and data order that describes input data for the input assembler stage.
+description: Bind information about the primitive type, and data order that describes input data for the input assembler stage. (ID3D11DeviceContext.IASetPrimitiveTopology)
 helpviewer_keywords: ["71a948e7-b358-d717-cbee-71a3647b9ce1","IASetPrimitiveTopology","IASetPrimitiveTopology method [Direct3D 11]","IASetPrimitiveTopology method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","IASetPrimitiveTopology method","ID3D11DeviceContext.IASetPrimitiveTopology","ID3D11DeviceContext::IASetPrimitiveTopology","d3d11/ID3D11DeviceContext::IASetPrimitiveTopology","direct3d11.id3d11devicecontext_iasetprimitivetopology"]
 old-location: direct3d11\id3d11devicecontext_iasetprimitivetopology.htm
 tech.root: direct3d11

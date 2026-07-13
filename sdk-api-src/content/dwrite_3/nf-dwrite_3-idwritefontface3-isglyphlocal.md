@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDWriteFontFace3 interface [Direct Write]","IsGlyphLocal 
 old-location: directwrite\idwritefontface3_isglyphlocal.htm
 tech.root: DirectWrite
 ms.assetid: def185b6-a717-5390-8521-46e38335800b
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontFace3 interface [Direct Write],IsGlyphLocal method, IDWriteFontFace3.IsGlyphLocal, IDWriteFontFace3::IsGlyphLocal, IsGlyphLocal, IsGlyphLocal method [Direct Write], IsGlyphLocal method [Direct Write],IDWriteFontFace3 interface, directwrite.idwritefontface3_isglyphlocal, dwrite_3/IDWriteFontFace3::IsGlyphLocal
 req.header: dwrite_3.h
 req.include-header: 

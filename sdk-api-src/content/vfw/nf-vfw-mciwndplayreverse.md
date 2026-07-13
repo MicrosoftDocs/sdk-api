@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndPlayReverse","MCIWndPlayReverse macro [Windows Mult
 old-location: multimedia\mciwndplayreverse.htm
 tech.root: Multimedia
 ms.assetid: 1f3c9c98-a8f5-4ad9-bef9-5d685076df9d
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndPlayReverse, MCIWndPlayReverse macro [Windows Multimedia], _win32_MCIWndPlayReverse, multimedia.mciwndplayreverse, vfw/MCIWndPlayReverse
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndPlayReverse macro
+
+## -syntax
+
+```cpp
+LONG MCIWndPlayReverse(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

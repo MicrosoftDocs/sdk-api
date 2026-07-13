@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Reset
 title: IProviderPropertyConstraintCollection::Reset (functiondiscoveryprovider.h)
-description: Resets the current index to the start of the collection.
+description: Resets the current index to the start of the collection. (IProviderPropertyConstraintCollection.Reset)
 helpviewer_keywords: ["IProviderPropertyConstraintCollection interface","Reset method","IProviderPropertyConstraintCollection.Reset","IProviderPropertyConstraintCollection::Reset","Reset","Reset method","Reset method","IProviderPropertyConstraintCollection interface","functiondiscoveryprovider/IProviderPropertyConstraintCollection::Reset","ncd.iproviderpropertyconstraintcollection_reset"]
 old-location: ncd\iproviderpropertyconstraintcollection_reset.htm
 tech.root: ncd
@@ -54,11 +54,11 @@ api_name:
 
 Resets the current index to the start of the collection.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

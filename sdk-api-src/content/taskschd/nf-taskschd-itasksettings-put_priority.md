@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_Priority
 title: ITaskSettings::put_Priority (taskschd.h)
-description: Gets or sets the priority level of the task.
+description: Gets or sets the priority level of the task. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","Priority property","ITaskSettings.Priority","ITaskSettings.put_Priority","ITaskSettings::Priority","ITaskSettings::get_Priority","ITaskSettings::put_Priority","Priority property [Task Scheduler]","Priority property [Task Scheduler]","ITaskSettings interface","put_Priority","taskschd.itasksettings_priority","taskschd/ITaskSettings::Priority","taskschd/ITaskSettings::get_Priority","taskschd/ITaskSettings::put_Priority"]
 old-location: taskschd\itasksettings_priority.htm
 tech.root: taskschd

@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSCLIENTA
 title: WTSCLIENTA (wtsapi32.h)
-description: Contains information about a Remote Desktop Connection (RDC) client.
+description: Contains information about a Remote Desktop Connection (RDC) client. (ANSI)
 helpviewer_keywords: ["*PWTSCLIENTA","PWTSCLIENT","PWTSCLIENT structure pointer [Remote Desktop Services]","WTSCLIENT","WTSCLIENT structure [Remote Desktop Services]","WTSCLIENTA","WTSCLIENTW","termserv.wtsclient","wtsapi32/PWTSCLIENT","wtsapi32/WTSCLIENT","wtsapi32/WTSCLIENTA","wtsapi32/WTSCLIENTW"]
 old-location: termserv\wtsclient.htm
 tech.root: TermServ
@@ -147,4 +147,4 @@ For the <b>ClientAddressFamily</b> member, <b>AF_INET</b>  (IPv4) will return in
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSCLIENT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSCLIENT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

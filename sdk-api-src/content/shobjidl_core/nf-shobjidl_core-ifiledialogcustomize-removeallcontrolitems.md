@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.RemoveAllControlItems
 title: IFileDialogCustomize::RemoveAllControlItems (shobjidl_core.h)
-description: Not implemented.
+description: Not implemented. (IFileDialogCustomize.RemoveAllControlItems)
 helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","RemoveAllControlItems method","IFileDialogCustomize.RemoveAllControlItems","IFileDialogCustomize::RemoveAllControlItems","RemoveAllControlItems","RemoveAllControlItems method [Windows Shell]","RemoveAllControlItems method [Windows Shell]","IFileDialogCustomize interface","_shell_IFileDialogCustomize_RemoveAllControlItems","shell.IFileDialogCustomize_RemoveAllControlItems","shobjidl_core/IFileDialogCustomize::RemoveAllControlItems"]
 old-location: shell\IFileDialogCustomize_RemoveAllControlItems.htm
 tech.root: shell
@@ -64,5 +64,5 @@ The ID of the container control from which to remove the items.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

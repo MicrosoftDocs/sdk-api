@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_SetDropDownState","Button_SetDropDownState macro [
 old-location: controls\Button_SetDropDownState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setdropdownstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_SetDropDownState, Button_SetDropDownState macro [Windows Controls], _shell_Button_SetDropDownState, _shell_Button_SetDropDownState_cpp, commctrl/Button_SetDropDownState, controls.Button_SetDropDownState, controls._shell_Button_SetDropDownState
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Button_SetDropDownState macro
+
+## -syntax
+
+```cpp
+BOOL Button_SetDropDownState(
+  [in] HWND hwnd,
+  [in] BOOL fDropDown
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

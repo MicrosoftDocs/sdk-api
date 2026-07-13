@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.QueryAssociatedPortalGroups
 title: IVdsIscsiPortal::QueryAssociatedPortalGroups (vdshwprv.h)
-description: Returns an enumeration of the portal groups with which the portal is associated.
+description: The IVdsIscsiPortal::QueryAssociatedPortalGroups (vdshwprv.h) method returns an enumeration of the portal groups with which the portal is associated.
 helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","QueryAssociatedPortalGroups method","IVdsIscsiPortal.QueryAssociatedPortalGroups","IVdsIscsiPortal::QueryAssociatedPortalGroups","QueryAssociatedPortalGroups","QueryAssociatedPortalGroups method [VDS]","QueryAssociatedPortalGroups method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_queryassociatedportalgroups","vds/IVdsIscsiPortal::QueryAssociatedPortalGroups","vdshwprv/IVdsIscsiPortal::QueryAssociatedPortalGroups"]
 old-location: base\ivdsiscsiportal_queryassociatedportalgroups.htm
 tech.root: base
 ms.assetid: 6b8dbfc8-9112-4ca9-9976-ac3bf859588d
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiPortal interface [VDS],QueryAssociatedPortalGroups method, IVdsIscsiPortal.QueryAssociatedPortalGroups, IVdsIscsiPortal::QueryAssociatedPortalGroups, QueryAssociatedPortalGroups, QueryAssociatedPortalGroups method [VDS], QueryAssociatedPortalGroups method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_queryassociatedportalgroups, vds/IVdsIscsiPortal::QueryAssociatedPortalGroups, vdshwprv/IVdsIscsiPortal::QueryAssociatedPortalGroups
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an enumeration of the portal groups with which the portal is associated.
 
@@ -73,7 +73,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ The enumeration of associated portal groups was returned successfully. If the po
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -102,7 +102,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -114,7 +114,7 @@ The portal object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>

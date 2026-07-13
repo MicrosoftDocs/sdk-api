@@ -6,7 +6,7 @@ helpviewer_keywords: ["RGB","RGB macro [Windows GDI]","_win32_RGB","gdi.rgb","wi
 old-location: gdi\rgb.htm
 tech.root: gdi
 ms.assetid: e1dcb5f8-c026-4a4e-8541-928a057bf0ae
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # RGB macro
+
+## -syntax
+
+```cpp
+COLORREF RGB(
+    BYTE r,
+    BYTE g,
+    BYTE b
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+The return value is the resultant RGB color as a <a href="/windows/win32/gdi/colorref">COLORREF</a> value.
 
 
 ## -description

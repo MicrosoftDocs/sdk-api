@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 targetos: Windows

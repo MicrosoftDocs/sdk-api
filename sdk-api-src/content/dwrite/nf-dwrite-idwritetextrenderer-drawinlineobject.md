@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextRenderer.DrawInlineObject
 title: IDWriteTextRenderer::DrawInlineObject (dwrite.h)
-description: IDWriteTextLayout::Draw calls this application callback when it needs to draw an inline object.
+description: IDWriteTextLayout::Draw calls this application callback when it needs to draw an inline object. (IDWriteTextRenderer.DrawInlineObject)
 helpviewer_keywords: ["DrawInlineObject","DrawInlineObject method [Direct Write]","DrawInlineObject method [Direct Write]","IDWriteTextRenderer interface","IDWriteTextRenderer interface [Direct Write]","DrawInlineObject method","IDWriteTextRenderer.DrawInlineObject","IDWriteTextRenderer::DrawInlineObject","directwrite.IDWriteTextRenderer_DrawInlineObject","dwrite/IDWriteTextRenderer::DrawInlineObject"]
 old-location: directwrite\IDWriteTextRenderer_DrawInlineObject.htm
 tech.root: DirectWrite
@@ -101,7 +101,7 @@ Application-defined drawing effects for the glyphs to render. Usually this argum
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

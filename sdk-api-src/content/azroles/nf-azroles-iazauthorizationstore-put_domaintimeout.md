@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_DomainTimeout
 title: IAzAuthorizationStore::put_DomainTimeout (azroles.h)
-description: Sets or retrieves the time in milliseconds after which a domain is determined to be unreachable.
+description: Sets or retrieves the time in milliseconds after which a domain is determined to be unreachable. (Put)
 helpviewer_keywords: ["AzAuthorizationStore object [Security]","DomainTimeout property","DomainTimeout property [Security]","DomainTimeout property [Security]","AzAuthorizationStore object","DomainTimeout property [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DomainTimeout property","IAzAuthorizationStore.DomainTimeout","IAzAuthorizationStore.put_DomainTimeout","IAzAuthorizationStore::DomainTimeout","IAzAuthorizationStore::get_DomainTimeout","IAzAuthorizationStore::put_DomainTimeout","azroles/IAzAuthorizationStore::DomainTimeout","azroles/IAzAuthorizationStore::get_DomainTimeout","azroles/IAzAuthorizationStore::put_DomainTimeout","put_DomainTimeout","security.azauthorizationstore_domaintimeout"]
 old-location: security\azauthorizationstore_domaintimeout.htm
 tech.root: security

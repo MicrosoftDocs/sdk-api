@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetItemDropDownRect","Header_GetItemDropDownRect m
 old-location: controls\Header_GetItemDropDownRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemdropdownrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetItemDropDownRect, Header_GetItemDropDownRect macro [Windows Controls], _shell_Header_GetItemDropDownRect, _shell_Header_GetItemDropDownRect_cpp, commctrl/Header_GetItemDropDownRect, controls.Header_GetItemDropDownRect, controls._shell_Header_GetItemDropDownRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # Header_GetItemDropDownRect macro
+
+## -syntax
+
+```cpp
+BOOL Header_GetItemDropDownRect(
+  [in]      HWND   hwnd,
+  [in]      int    iItem,
+  [in, out] LPRECT lprc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
 
 ## -description

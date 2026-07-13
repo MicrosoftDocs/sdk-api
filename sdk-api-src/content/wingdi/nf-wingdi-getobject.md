@@ -1,12 +1,12 @@
 ---
 UID: NF:wingdi.GetObject
 title: GetObject function (wingdi.h)
-description: The GetObject function retrieves information for the specified graphics object.
+description: The GetObject function (wingdi.h) retrieves information for the specified graphics object.
 helpviewer_keywords: ["GetObject","GetObject function [Windows GDI]","GetObjectA","GetObjectW","HBITMAP","HBITMAP returned from a call to CreateDIBSection","HBRUSH","HFONT","HPALETTE","HPEN","HPEN returned from a call to ExtCreatePen","_win32_GetObject","gdi.getobject","wingdi/GetObject","wingdi/GetObjectA","wingdi/GetObjectW"]
 old-location: gdi\getobject.htm
 tech.root: gdi
 ms.assetid: 555ab876-d990-426d-915c-f98df82a10aa
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: GetObject, GetObject function [Windows GDI], GetObjectA, GetObjectW, HBITMAP, HBITMAP returned from a call to CreateDIBSection, HBRUSH, HFONT, HPALETTE, HPEN, HPEN returned from a call to ExtCreatePen, _win32_GetObject, gdi.getobject, wingdi/GetObject, wingdi/GetObjectA, wingdi/GetObjectW
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -81,7 +81,7 @@ The following table shows the type of information the buffer receives for each t
 </tr>
 <tr>
 <td width="40%"><a id="HBITMAP"></a><a id="hbitmap"></a><dl>
-<dt><b><b>HBITMAP</b></b></dt>
+<dt><b>HBITMAP</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ The following table shows the type of information the buffer receives for each t
 </tr>
 <tr>
 <td width="40%"><a id="HBITMAP_returned_from_a_call_to_CreateDIBSection"></a><a id="hbitmap_returned_from_a_call_to_createdibsection"></a><a id="HBITMAP_RETURNED_FROM_A_CALL_TO_CREATEDIBSECTION"></a><dl>
-<dt><b><b>HBITMAP</b> returned from a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a></b></dt>
+<dt><b>HBITMAP returned from a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +104,7 @@ The following table shows the type of information the buffer receives for each t
 </tr>
 <tr>
 <td width="40%"><a id="HPALETTE"></a><a id="hpalette"></a><dl>
-<dt><b><b>HPALETTE</b></b></dt>
+<dt><b>HPALETTE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +114,7 @@ A <b>WORD</b> count of the number of entries in the logical palette
 </tr>
 <tr>
 <td width="40%"><a id="HPEN_returned_from_a_call_to_ExtCreatePen"></a><a id="hpen_returned_from_a_call_to_extcreatepen"></a><a id="HPEN_RETURNED_FROM_A_CALL_TO_EXTCREATEPEN"></a><dl>
-<dt><b><b>HPEN</b> returned from a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a></b></dt>
+<dt><b>HPEN returned from a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +126,7 @@ A <b>WORD</b> count of the number of entries in the logical palette
 </tr>
 <tr>
 <td width="40%"><a id="HPEN"></a><a id="hpen"></a><dl>
-<dt><b><b>HPEN</b></b></dt>
+<dt><b>HPEN</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ A <b>WORD</b> count of the number of entries in the logical palette
 </tr>
 <tr>
 <td width="40%"><a id="HBRUSH"></a><a id="hbrush"></a><dl>
-<dt><b><b>HBRUSH</b></b></dt>
+<dt><b>HBRUSH</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -150,7 +150,7 @@ A <b>WORD</b> count of the number of entries in the logical palette
 </tr>
 <tr>
 <td width="40%"><a id="HFONT"></a><a id="hfont"></a><dl>
-<dt><b><b>HFONT</b></b></dt>
+<dt><b>HFONT</b></dt>
 </dl>
 </td>
 <td width="60%">

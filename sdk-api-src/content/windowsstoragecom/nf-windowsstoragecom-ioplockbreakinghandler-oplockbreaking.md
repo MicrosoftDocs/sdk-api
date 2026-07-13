@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsstoragecom.IOplockBreakingHandler.OplockBreaking
 title: IOplockBreakingHandler::OplockBreaking (windowsstoragecom.h)
-description: This method is not currently implemented.
+description: This method is not currently implemented. (IOplockBreakingHandler.OplockBreaking)
 helpviewer_keywords: ["IOplockBreakingHandler interface [Windows Runtime]","OplockBreaking method","IOplockBreakingHandler.OplockBreaking","IOplockBreakingHandler::OplockBreaking","OplockBreaking","OplockBreaking method [Windows Runtime]","OplockBreaking method [Windows Runtime]","IOplockBreakingHandler interface","windowsstoragecom/IOplockBreakingHandler::OplockBreaking","winrt.ioplockbreakinghandler_oplockbreaking"]
 old-location: winrt\ioplockbreakinghandler_oplockbreaking.htm
 tech.root: WinRT
@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 This method is not currently implemented.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

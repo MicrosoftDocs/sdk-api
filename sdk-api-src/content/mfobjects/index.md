@@ -4,7 +4,8 @@ title: Mfobjects.h header
 ms.assetid: 920f4beb-9813-34b6-bdfb-d5b9ee264f4c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: mf
 f1_keywords:
  - mfobjects

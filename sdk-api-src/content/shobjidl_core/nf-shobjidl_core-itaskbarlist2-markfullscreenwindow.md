@@ -70,7 +70,7 @@ A Boolean value marking the desired full-screen status of the window.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -78,7 +78,7 @@ Setting the value of <i>fFullscreen</i> to <b>TRUE</b>, the Shell treats this wi
 
 
 
-**Since Windows 7,** call `SetProp(hwnd, L”NonRudeHWND”, reinterpret_cast<HANDLE>(TRUE))` before showing a window to indicate to the Shell that the window should not be treated as full-screen. This ensures the taskbar does not adjust itself to be below the window in z-order. This is similar to `ITaskbarList2::MarkFullscreenWindow(FALSE)` except the Shell will not fallback to its automatic detection facility and will not treat the window as full-screen.
+**Since Windows 7,** call `SetProp(hwnd, L"NonRudeHWND", reinterpret_cast<HANDLE>(TRUE))` before showing a window to indicate to the Shell that the window should not be treated as full-screen. This ensures the taskbar does not adjust itself to be below the window in z-order. This is similar to `ITaskbarList2::MarkFullscreenWindow(FALSE)` except the Shell will not fallback to its automatic detection facility and will not treat the window as full-screen.
 
 ## -see-also
 

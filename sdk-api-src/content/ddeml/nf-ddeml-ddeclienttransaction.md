@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-dde-l1-1-0.dll
  - User32.dll
 api_name:
  - DdeClientTransaction

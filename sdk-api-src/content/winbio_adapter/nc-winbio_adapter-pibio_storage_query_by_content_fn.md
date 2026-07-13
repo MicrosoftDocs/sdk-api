@@ -119,7 +119,7 @@ Memory could not be allocated for the record header.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_BAD_INDEX_VECTOR</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_BAD_INDEX_VECTOR</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +130,7 @@ The size of the  index vector does not match the index size specified when the d
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_NO_RESULTS</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_NO_RESULTS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -141,7 +141,7 @@ The query was successful, but no matching records could be found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_LOCKED</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_LOCKED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,7 +152,7 @@ The database is locked.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_READ_ERROR</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_READ_ERROR</b></dt>
 </dl>
 </td>
 <td width="60%">

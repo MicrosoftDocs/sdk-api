@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.AddPropertyItem
 title: IAzTask::AddPropertyItem (azroles.h)
-description: Adds the specified entity to the specified list.
+description: Adds the specified entity to the specified list. (IAzTask.AddPropertyItem)
 helpviewer_keywords: ["AZ_PROP_TASK_OPERATIONS","AZ_PROP_TASK_TASKS","AddPropertyItem","AddPropertyItem method [Security]","AddPropertyItem method [Security]","AzTask object","AddPropertyItem method [Security]","IAzTask interface","AzTask object [Security]","AddPropertyItem method","IAzTask interface [Security]","AddPropertyItem method","IAzTask.AddPropertyItem","IAzTask::AddPropertyItem","azroles/IAzTask::AddPropertyItem","security.iaztask_addpropertyitem"]
 old-location: security\iaztask_addpropertyitem.htm
 tech.root: security

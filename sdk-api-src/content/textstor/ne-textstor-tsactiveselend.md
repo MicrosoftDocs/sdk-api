@@ -56,15 +56,15 @@ Elements of the <b>TsActiveSelEnd</b> enumeration specify which end of a text st
 
 ## -enum-fields
 
-### -field TS_AE_NONE
+### -field TS_AE_NONE:0
 
 The selection has no active end. This is typical for all selections other than the default selection.
 
-### -field TS_AE_START
+### -field TS_AE_START:1
 
 The active end of the selection is at the start of the range of text.
 
-### -field TS_AE_END
+### -field TS_AE_END:2
 
 The active end of the selection is at the end of the range of text.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetUserInfoA
 title: MsiGetUserInfoA function (msi.h)
-description: The MsiGetUserInfo function returns the registered user information for an installed product.
-helpviewer_keywords: ["MsiGetUserInfo","MsiGetUserInfo function","MsiGetUserInfoA","MsiGetUserInfoW","_msi_msigetuserinfo","msi/MsiGetUserInfo","msi/MsiGetUserInfoA","msi/MsiGetUserInfoW","setup.msigetuserinfo"]
+description: The MsiGetUserInfo function returns the registered user information for an installed product. (ANSI)
+helpviewer_keywords: ["MsiGetUserInfoA", "msi/MsiGetUserInfoA"]
 old-location: setup\msigetuserinfo.htm
 tech.root: setup
 ms.assetid: c05580c6-9be3-410a-aa97-be15c2980ba8
@@ -167,7 +167,7 @@ The user information is considered to be present even in the absence of a compan
 
 
 > [!NOTE]
-> The msi.h header defines MsiGetUserInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetUserInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

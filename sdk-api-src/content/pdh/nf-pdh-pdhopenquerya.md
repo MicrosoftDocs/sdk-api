@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhOpenQueryA
 title: PdhOpenQueryA function (pdh.h)
-description: Creates a new query that is used to manage the collection of performance data. To use handles to data sources, use the PdhOpenQueryH function.
-helpviewer_keywords: ["PdhOpenQuery","PdhOpenQuery function [Perf]","PdhOpenQueryA","PdhOpenQueryW","_win32_pdhopenquery","base.pdhopenquery","pdh/PdhOpenQuery","pdh/PdhOpenQueryA","pdh/PdhOpenQueryW","perf.pdhopenquery"]
+description: Creates a new query that is used to manage the collection of performance data. To use handles to data sources, use the PdhOpenQueryH function. (ANSI)
+helpviewer_keywords: ["PdhOpenQueryA", "pdh/PdhOpenQueryA"]
 old-location: perf\pdhopenquery.htm
 tech.root: perf
 ms.assetid: ec4e5353-c7f5-4957-b7f4-39df508846a0
@@ -105,4 +105,4 @@ If the function fails, the return value is a
 ## -remarks
 
 > [!NOTE]
-> The pdh.h header defines PdhOpenQuery as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhOpenQuery as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

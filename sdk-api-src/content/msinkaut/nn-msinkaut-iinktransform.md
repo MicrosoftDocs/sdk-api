@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkTransform
 title: IInkTransform (msinkaut.h)
-description: .
+description: . (IInkTransform)
 helpviewer_keywords: ["IInkTransform","IInkTransform interface [Tablet PC]","IInkTransform interface [Tablet PC]","described","msinkaut/IInkTransform","tablet.iinktransform"]
 old-location: tablet\iinktransform.htm
 tech.root: tablet
@@ -54,11 +54,7 @@ Represents a 3x3 matrix that, in turn, represents an affine transformation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkTransform</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IInkTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkTransform</b> also has these types of members:
 
 ## -see-also
 

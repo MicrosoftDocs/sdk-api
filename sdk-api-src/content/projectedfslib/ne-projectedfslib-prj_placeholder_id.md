@@ -54,7 +54,7 @@ Defines the length of a placeholder identifier.
 
 ## -enum-fields
 
-### -field PRJ_PLACEHOLDER_ID_LENGTH
+### -field PRJ_PLACEHOLDER_ID_LENGTH:128
 
 The length of a placeholder identifier.
 

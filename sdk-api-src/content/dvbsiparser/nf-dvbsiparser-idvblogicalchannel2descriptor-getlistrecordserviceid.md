@@ -11,7 +11,7 @@ ms.keywords: GetListRecordServiceId, GetListRecordServiceId method [Microsoft TV
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Gets the service identifier from a Digital Video Broadcast (DVB) logical channel descriptor.  getlistcountofrecords
 
 ## -parameters
@@ -57,12 +59,12 @@ Gets the service identifier from a Digital Video Broadcast (DVB) logical channel
 ### -param bListIndex [in]
 
 Specifies the channel list record number,
-  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getcountoflists">IDvbLogicalChannel2Descriptor::GetCountOfLists</a>method to get the number of channel list records in the logical channel descriptor.
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getcountoflists">IDvbLogicalChannel2Descriptor::GetCountOfLists</a> method to get the number of channel list records in the logical channel descriptor.
 
 ### -param bRecordIndex [in]
 
 Specifies the service record number,
-  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords">IDvbLogicalChannel2Descriptor::GetListCountOfRecords</a>method to get the number of service records in the logical channel descriptor.
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords">IDvbLogicalChannel2Descriptor::GetListCountOfRecords</a> method to get the number of service records in the logical channel descriptor.
 
 ### -param pwVal [out]
 
@@ -70,7 +72,7 @@ Receives the service identifier.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

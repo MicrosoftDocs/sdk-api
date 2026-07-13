@@ -54,23 +54,23 @@ The <b>KeyIdentifierHashAlgorithm</b> enumeration type specifies the algorithm u
 
 ## -enum-fields
 
-### -field SKIHashDefault
+### -field SKIHashDefault:0
 
 The default hash algorithm. This is redundant with the <b>SKIHashSha1</b> value.
 
-### -field SKIHashSha1
+### -field SKIHashSha1:1
 
 A 160-bit SHA-1 hash of a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded public key, excluding the tag, length, and number of unused bits.
 
-### -field SKIHashCapiSha1
+### -field SKIHashCapiSha1:2
 
 A 160-bit SHA-1 hash of a DER-encoded public key, including the tag, length, and number of unused bits.
 
-### -field SKIHashSha256
+### -field SKIHashSha256:3
 
 A 256-bit SHA256 (SHA-2) hash of a DER-encoded public key, including the tag, length, and number of unused bits.
 
-### -field SKIHashHPKP
+### -field SKIHashHPKP:5
 
 ## -see-also
 

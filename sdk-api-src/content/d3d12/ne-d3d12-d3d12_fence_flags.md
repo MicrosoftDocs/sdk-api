@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_FENCE_FLAGS
 title: D3D12_FENCE_FLAGS (d3d12.h)
-description: Specifies fence options.
+description: Specifies fence options. (D3D12_FENCE_FLAGS)
 helpviewer_keywords: ["D3D12_FENCE_FLAGS","D3D12_FENCE_FLAGS enumeration","D3D12_FENCE_FLAG_NONE","D3D12_FENCE_FLAG_NON_MONITORED","D3D12_FENCE_FLAG_SHARED","D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER","d3d12/D3D12_FENCE_FLAGS","d3d12/D3D12_FENCE_FLAG_NONE","d3d12/D3D12_FENCE_FLAG_NON_MONITORED","d3d12/D3D12_FENCE_FLAG_SHARED","d3d12/D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER","direct3d12.d3d12_fence_flags"]
 old-location: direct3d12\d3d12_fence_flags.htm
 tech.root: direct3d12
@@ -54,19 +54,19 @@ Specifies fence options.
 
 ## -enum-fields
 
-### -field D3D12_FENCE_FLAG_NONE
+### -field D3D12_FENCE_FLAG_NONE:0
 
 No options are specified.
 
-### -field D3D12_FENCE_FLAG_SHARED
+### -field D3D12_FENCE_FLAG_SHARED:0x1
 
 The fence is shared.
 
-### -field D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER
+### -field D3D12_FENCE_FLAG_SHARED_CROSS_ADAPTER:0x2
 
 The fence is shared with another GPU adapter.
 
-### -field D3D12_FENCE_FLAG_NON_MONITORED
+### -field D3D12_FENCE_FLAG_NON_MONITORED:0x4
 
 The fence is of the non-monitored type. Non-monitored fences should only be used when the adapter doesn't support monitored fences, or when a fence is shared with an adapter that doesn't support monitored fences.
 

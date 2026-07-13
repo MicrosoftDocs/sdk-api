@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetTextLen","ListBox_GetTextLen macro [Windows Co
 old-location: controls\ListBox_GetTextLen.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettextlen.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetTextLen, ListBox_GetTextLen macro [Windows Controls], _win32_ListBox_GetTextLen, _win32_ListBox_GetTextLen_cpp, controls.ListBox_GetTextLen, controls._win32_ListBox_GetTextLen, windowsx/ListBox_GetTextLen
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListBox_GetTextLen macro
+
+## -syntax
+
+```cpp
+int ListBox_GetTextLen(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+The count of characters in the string.
 
 
 ## -description

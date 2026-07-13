@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhEnumObjectsHA
 title: PdhEnumObjectsHA function (pdh.h)
-description: Returns a list of objects available on the specified computer or in the specified log file.This function is identical to PdhEnumObjects, except that it supports the use of handles to data sources.
-helpviewer_keywords: ["FALSE","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjectsH","PdhEnumObjectsH function [Perf]","PdhEnumObjectsHA","PdhEnumObjectsHW","TRUE","_win32_pdhenumobjectsh","base.pdhenumobjectsh","pdh/PdhEnumObjectsH","pdh/PdhEnumObjectsHA","pdh/PdhEnumObjectsHW","perf.pdhenumobjectsh"]
+description: Returns a list of objects available on the specified computer or in the specified log file.This function is identical to PdhEnumObjects, except that it supports the use of handles to data sources. (ANSI)
+helpviewer_keywords: ["FALSE", "PERF_DETAIL_ADVANCED", "PERF_DETAIL_EXPERT", "PERF_DETAIL_NOVICE", "PERF_DETAIL_WIZARD", "PdhEnumObjectsHA", "TRUE", "pdh/PdhEnumObjectsHA"]
 old-location: perf\pdhenumobjectsh.htm
 tech.root: perf
 ms.assetid: 8f68a7a8-cc56-4f7f-a86f-4b439738808d
@@ -238,7 +238,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 > [!NOTE]
-> The pdh.h header defines PdhEnumObjectsH as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhEnumObjectsH as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

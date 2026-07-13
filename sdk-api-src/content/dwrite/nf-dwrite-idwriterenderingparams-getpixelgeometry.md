@@ -52,7 +52,7 @@ api_name:
 
 Gets the pixel geometry of the rendering parameters object.
 
-## -parameters
+
 
 ## -returns
 

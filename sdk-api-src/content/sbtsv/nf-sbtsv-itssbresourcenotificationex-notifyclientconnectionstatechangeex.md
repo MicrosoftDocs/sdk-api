@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx
 title: ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a client connection.
+description: Notifies registered plug-ins about state changes in a client connection. (ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx)
 helpviewer_keywords: ["CONNECTION_REQUEST_CANCELLED","CONNECTION_REQUEST_FAILED","CONNECTION_REQUEST_PENDING","CONNECTION_REQUEST_SUCCEEDED","CONNECTION_REQUEST_TIMEDOUT","ITsSbResourceNotificationEx interface [Remote Desktop Services]","NotifyClientConnectionStateChangeEx method","ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx","ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx","NotifyClientConnectionStateChangeEx","NotifyClientConnectionStateChangeEx method [Remote Desktop Services]","NotifyClientConnectionStateChangeEx method [Remote Desktop Services]","ITsSbResourceNotificationEx interface","sbtsv/ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx","termserv.itssbresourcenotificationex_notifyclientconnectionstatechangeex"]
 old-location: termserv\itssbresourcenotificationex_notifyclientconnectionstatechangeex.htm
 tech.root: TermServ
@@ -129,7 +129,7 @@ RD Connection Broker service was stopping.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

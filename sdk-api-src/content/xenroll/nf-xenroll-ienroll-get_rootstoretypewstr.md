@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_RootStoreTypeWStr
 title: IEnroll::get_RootStoreTypeWStr (xenroll.h)
-description: Sets or retrieves the type of store to use for the store specified by the RootStoreNameWStr property.
+description: Sets or retrieves the type of store to use for the store specified by the RootStoreNameWStr property. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","RootStoreTypeWStr property","IEnroll.RootStoreTypeWStr","IEnroll.get_RootStoreTypeWStr","IEnroll::RootStoreTypeWStr","IEnroll::get_RootStoreTypeWStr","IEnroll::put_RootStoreTypeWStr","RootStoreTypeWStr property [Security]","RootStoreTypeWStr property [Security]","IEnroll interface","get_RootStoreTypeWStr","security.ienroll4_rootstoretypewstr","sz_CERT_STORE_PROV_SYSTEM_W","xenroll/IEnroll::RootStoreTypeWStr","xenroll/IEnroll::get_RootStoreTypeWStr","xenroll/IEnroll::put_RootStoreTypeWStr"]
 old-location: security\ienroll4_rootstoretypewstr.htm
 tech.root: security

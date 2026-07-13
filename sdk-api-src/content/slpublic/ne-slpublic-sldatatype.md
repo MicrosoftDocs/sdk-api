@@ -56,19 +56,19 @@ Specifies the data type of the buffer returned by the <a href="/windows/desktop/
 
 ## -enum-fields
 
-### -field SL_DATA_NONE
+### -field SL_DATA_NONE:REG_NONE
 
 The buffer has no data type.
 
-### -field SL_DATA_SZ
+### -field SL_DATA_SZ:REG_SZ
 
 The buffer contains a null-terminated Unicode string.
 
-### -field SL_DATA_DWORD
+### -field SL_DATA_DWORD:REG_DWORD
 
 The buffer contains a <b>DWORD</b> value.
 
-### -field SL_DATA_BINARY
+### -field SL_DATA_BINARY:REG_BINARY
 
 The buffer contains a binary value.
 
@@ -76,6 +76,6 @@ The buffer contains a binary value.
 
 The buffer contains multiple null-terminated Unicode strings.
 
-### -field SL_DATA_SUM
+### -field SL_DATA_SUM:100
 
 The buffer contains a sum.

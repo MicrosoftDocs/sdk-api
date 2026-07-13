@@ -188,7 +188,7 @@ The return value is a handle to the <a href="/windows-hardware/drivers/">PDEV</a
 
 ## -remarks
 
-A graphics device driver might support several physical devices attached to different logical addresses. Drivers must also support simultenous use of different drawing surfaces.
+A graphics device driver might support several physical devices attached to different logical addresses. Drivers must also support simultaneous use of different drawing surfaces.
 
 The purposes of <b>DrvEnablePDEV</b> are the following: 
 

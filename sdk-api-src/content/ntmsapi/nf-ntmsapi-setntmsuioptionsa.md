@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.SetNtmsUIOptionsA
 title: SetNtmsUIOptionsA function (ntmsapi.h)
-description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object.
-helpviewer_keywords: ["NTMS_UIDEST_ADD","NTMS_UIDEST_DELETE","NTMS_UIDEST_DELETEALL","NTMS_UITYPE_ERR","NTMS_UITYPE_INFO","NTMS_UITYPE_REQ","SetNtmsUIOptions","SetNtmsUIOptions function [Files]","SetNtmsUIOptionsA","SetNtmsUIOptionsW","_zaw_setntmsuioptions","base.setntmsuioptions","fs.setntmsuioptions","ntmsapi/SetNtmsUIOptions","ntmsapi/SetNtmsUIOptionsA","ntmsapi/SetNtmsUIOptionsW"]
+description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object. (ANSI)
+helpviewer_keywords: ["NTMS_UIDEST_ADD", "NTMS_UIDEST_DELETE", "NTMS_UIDEST_DELETEALL", "NTMS_UITYPE_ERR", "NTMS_UITYPE_INFO", "NTMS_UITYPE_REQ", "SetNtmsUIOptionsA", "ntmsapi/SetNtmsUIOptionsA"]
 old-location: fs\setntmsuioptions.htm
 tech.root: fs
 ms.assetid: 1e76fddc-20b4-4645-9519-2033487dbbc5
@@ -295,7 +295,7 @@ Note that there is no checking of destination strings. A call to with a destinat
 
 
 > [!NOTE]
-> The ntmsapi.h header defines SetNtmsUIOptions as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines SetNtmsUIOptions as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

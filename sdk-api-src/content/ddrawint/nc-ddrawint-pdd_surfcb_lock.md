@@ -94,7 +94,7 @@ A driver running on an NT-based operating system
 	 PLEASE_ALLOC_USERMEM flag. If PLEASE_ALLOC_USERMEM was 
 	 not used, applications could receive errors whenever they 
 	 attempted to access such memory. See 
-	 <a href="https://docs.microsoft.com/">NT Kernel's Implementation 
+	 <a href="/">NT Kernel's Implementation 
 	 of DDLOCK_NOSYSLOCK</a> for more information.
 
 <i>DdLock</i> can be called with a disabled 

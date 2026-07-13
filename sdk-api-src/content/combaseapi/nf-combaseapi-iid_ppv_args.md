@@ -6,7 +6,7 @@ helpviewer_keywords: ["IID_PPV_ARGS","IID_PPV_ARGS macro [Windows Shell]","IID_P
 old-location: shell\IID_PPV_ARGS.htm
 tech.root: shell
 ms.assetid: 268B59FA-44EB-4777-8162-C50981CBDD09
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IID_PPV_ARGS, IID_PPV_ARGS macro [Windows Shell], IID_PPV_ARGS_Helper, _shell_IID_PPV_ARGS, combaseapi/IID_PPV_ARGS, shell.IID_PPV_ARGS
 req.header: combaseapi.h
 req.include-header: 
@@ -73,4 +73,12 @@ The following example shows the use of <b>IID_PPV_ARGS</b> to create the memory 
 IPropertyStore *pPropertyStore;
 
 CoCreateInstance(CLSID_PropertyStore, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pPropertyStore));
+```
+
+## -syntax
+
+```cpp
+void IID_PPV_ARGS(
+    T **ppType
+);
 ```

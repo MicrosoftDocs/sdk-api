@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_OperationType
 title: IFsrmFileManagementJob::get_OperationType (fsrmreports.h)
-description: The type of file management job. The type determines the operation to perform on a file when all conditions are met.
+description: The type of file management job. The type determines the operation to perform on a file when all conditions are met. (Get)
 helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","OperationType property","IFsrmFileManagementJob.OperationType","IFsrmFileManagementJob.get_OperationType","IFsrmFileManagementJob::OperationType","IFsrmFileManagementJob::get_OperationType","IFsrmFileManagementJob::put_OperationType","OperationType property [File Server Resource Manager]","OperationType property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_operationtype","fsrm.ifsrmfilemanagementjob_operationtype","fsrmreports/IFsrmFileManagementJob::OperationType","fsrmreports/IFsrmFileManagementJob::get_OperationType","fsrmreports/IFsrmFileManagementJob::put_OperationType","get_OperationType"]
 old-location: fsrm\ifsrmfilemanagementjob_operationtype.htm
 tech.root: fsrm

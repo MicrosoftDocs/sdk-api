@@ -54,10 +54,7 @@ Implemented by hosts of Shell views (objects that implement <a href="/windows/de
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellBrowser</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IShellBrowser</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IShellBrowser</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IShellBrowser</b> also has these types of members:
 
 ## -remarks
 
@@ -65,7 +62,7 @@ Windows Explorer and the <b>Open File</b> common dialog box are examples of impl
 
 
 
-Objects that have access to the site chain of the browser can get a reference to the browser on <b>IShellBrowser</b> using  <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">IServiceProvider::QueryService</a>, with Service IDs such as SID_STopLevelBrowser and SID_SCommDlgBrowser. See the Knowledge Base article <a href="https://support.microsoft.com/kb/257717">Retrieve the Top-Level IWebBrowser2 Interface from an ActiveX Control</a> for more information on using service IDs.
+Objects that have access to the site chain of the browser can get a reference to the browser on <b>IShellBrowser</b> using  <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">IServiceProvider::QueryService</a>, with Service IDs such as SID_STopLevelBrowser and SID_SCommDlgBrowser.
 
 <b>Windows 7 and later</b>.  Windows Explorer context menus  can support in-place navigation by using  <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">IServiceProvider::QueryService</a> with the Service ID SID_SlnPlaceBrowser.
 

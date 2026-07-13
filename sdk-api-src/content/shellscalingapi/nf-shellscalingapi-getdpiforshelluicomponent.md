@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-shcore-scaling-l1-1-2.dll
  - shcore.dll
  - api-ms-win-shcore-scaling-l1-1-1.dll
 api_name:

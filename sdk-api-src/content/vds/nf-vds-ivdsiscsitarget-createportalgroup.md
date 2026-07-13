@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.CreatePortalGroup
 title: IVdsIscsiTarget::CreatePortalGroup (vds.h)
-description: Creates a portal group.
+description: The IVdsIscsiTarget::CreatePortalGroup method (vds.h) creates a portal group.
 helpviewer_keywords: ["CreatePortalGroup","CreatePortalGroup method [VDS]","CreatePortalGroup method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","CreatePortalGroup method","IVdsIscsiTarget.CreatePortalGroup","IVdsIscsiTarget::CreatePortalGroup","base.ivdsiscsitarget_createportalgroup","vds/IVdsIscsiTarget::CreatePortalGroup","vdshwprv/IVdsIscsiTarget::CreatePortalGroup"]
 old-location: base\ivdsiscsitarget_createportalgroup.htm
 tech.root: base
 ms.assetid: c479b5ee-2e6a-4a3f-bd80-c3c25adac20f
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: CreatePortalGroup, CreatePortalGroup method [VDS], CreatePortalGroup method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],CreatePortalGroup method, IVdsIscsiTarget.CreatePortalGroup, IVdsIscsiTarget::CreatePortalGroup, base.ivdsiscsitarget_createportalgroup, vds/IVdsIscsiTarget::CreatePortalGroup, vdshwprv/IVdsIscsiTarget::CreatePortalGroup
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates a portal group. The interface pointer for the new 
    portal group object can be retrieved by calling 
@@ -83,7 +83,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ The portal group was created successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_S_ALREADY_EXISTS</b></b></dt>
+<dt><b>VDS_S_ALREADY_EXISTS</b></dt>
 <dt>0x00042714L</dt>
 </dl>
 </td>
@@ -108,7 +108,7 @@ No more portal groups can be created. The <a href="/windows/desktop/api/vdshwprv
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -124,7 +124,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -136,7 +136,7 @@ The target object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>

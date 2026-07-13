@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Icm32.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -62,8 +62,8 @@ Specifies how the transform should be used to make the translation. This paramet
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

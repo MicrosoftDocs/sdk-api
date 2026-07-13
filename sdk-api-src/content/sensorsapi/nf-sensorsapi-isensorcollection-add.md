@@ -6,7 +6,7 @@ helpviewer_keywords: ["Add","Add method","Add method","ISensorCollection interfa
 old-location: winsensors_com_ref\isensorcollection_add.htm
 tech.root: winsensors
 ms.assetid: 7f563d5d-2943-4cbd-bfb5-c347ec270e85
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: Add, Add method, Add method,ISensorCollection interface, ISensorCollection interface,Add method, ISensorCollection.Add, ISensorCollection::Add, sensorsapi/ISensorCollection::Add, winsensors_com_ref.isensorcollection_add
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Adds a sensor to the collection.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_SetCueBannerText","ComboBox_SetCueBannerText mac
 old-location: controls\ComboBox_SetCueBannerText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcuebannertext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_SetCueBannerText, ComboBox_SetCueBannerText macro [Windows Controls], _shell_ComboBox_SetCueBannerText, _shell_ComboBox_SetCueBannerText_cpp, commctrl/ComboBox_SetCueBannerText, controls.ComboBox_SetCueBannerText, controls._shell_ComboBox_SetCueBannerText
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_SetCueBannerText macro
+
+## -syntax
+
+```cpp
+BOOL ComboBox_SetCueBannerText(
+   HWND    hwnd,
+   LPCWSTR lpcwText
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or an error value otherwise.
 
 
 ## -description

@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetLocalComputerName</b> method returns a constant reference to the computer name in <a href="/windows/desktop/WmiSdk/chstring">CHString</a> format.
 
-## -parameters
+
 
 ## -returns
 

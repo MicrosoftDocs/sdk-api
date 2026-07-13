@@ -53,7 +53,7 @@ api_name:
 
 Ascertains whether an item URL is a document or directory.
 
-## -parameters
+
 
 ## -returns
 

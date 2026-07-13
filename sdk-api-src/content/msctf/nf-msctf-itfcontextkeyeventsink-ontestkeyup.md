@@ -90,4 +90,4 @@ The method was successful.
 
 ## -see-also
 
-[ITfContextKeyEventSink interface](nn-msctf-itfcontextkeyeventsink.md), [WM_KEYUP](/windows/desktop/inputdev/wm-keyup)
+[ITfContextKeyEventSink interface](nn-msctf-itfcontextkeyeventsink.md), [WM_KEYUP](/windows/desktop/inputdev/wm-keyup), <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

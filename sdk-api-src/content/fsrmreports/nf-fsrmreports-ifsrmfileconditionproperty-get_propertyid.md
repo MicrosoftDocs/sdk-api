@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_PropertyId
 title: IFsrmFileConditionProperty::get_PropertyId (fsrmreports.h)
-description: Specifies the predefined file property, as enumerated by the FsrmFileSystemPropertyId enumeration.
+description: Specifies the predefined file property, as enumerated by the FsrmFileSystemPropertyId enumeration. (Get)
 helpviewer_keywords: ["IFsrmFileConditionProperty interface [File Server Resource Manager]","PropertyId property","IFsrmFileConditionProperty.PropertyId","IFsrmFileConditionProperty.get_PropertyId","IFsrmFileConditionProperty::PropertyId","IFsrmFileConditionProperty::get_PropertyId","IFsrmFileConditionProperty::put_PropertyId","PropertyId property [File Server Resource Manager]","PropertyId property [File Server Resource Manager]","IFsrmFileConditionProperty interface","fs.ifsrmfileconditionproperty_propertyid","fsrm.ifsrmfileconditionproperty_propertyid","fsrmreports/IFsrmFileConditionProperty::PropertyId","fsrmreports/IFsrmFileConditionProperty::get_PropertyId","fsrmreports/IFsrmFileConditionProperty::put_PropertyId","get_PropertyId"]
 old-location: fsrm\ifsrmfileconditionproperty_propertyid.htm
 tech.root: fsrm

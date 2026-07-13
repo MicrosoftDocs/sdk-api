@@ -70,7 +70,7 @@ Contains the name of a directory server where the associated security principal 
 
 ### -field ObjectGuid
 
-Contains the ID of a security principal objecton a directory server.
+Contains the ID of a security principal object on a directory server.
 
 ## -see-also
 

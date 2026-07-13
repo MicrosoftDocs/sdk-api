@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetImageList","Header_GetImageList macro [Windows 
 old-location: controls\Header_GetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getimagelist.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetImageList, Header_GetImageList macro [Windows Controls], _win32_Header_GetImageList, _win32_Header_GetImageList_cpp, commctrl/Header_GetImageList, controls.Header_GetImageList, controls._win32_Header_GetImageList
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Header_GetImageList macro
+
+## -syntax
+
+```cpp
+HIMAGELIST Header_GetImageList(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns the handle to the image list that is set for the header control.
 
 
 ## -description

@@ -56,19 +56,19 @@ Indicates whether a location is within the image of an object.
 
 ## -enum-fields
 
-### -field HITRESULT_OUTSIDE
+### -field HITRESULT_OUTSIDE:0
 
 The specified location is outside the object and not close to the object.
 
-### -field HITRESULT_TRANSPARENT
+### -field HITRESULT_TRANSPARENT:1
 
 The specified location is within the bounds of the object, but not close to the image. For example, a point in the middle of a transparent circle could be HITRESULT_TRANSPARENT.
 
-### -field HITRESULT_CLOSE
+### -field HITRESULT_CLOSE:2
 
 The specified location is inside the object or is outside the object but is close enough to the object to be considered inside. Small, thin or detailed objects may use this value. Even if a point is outside the bounding rectangle of an object it may still be close. This value is needed for hitting small objects.
 
-### -field HITRESULT_HIT
+### -field HITRESULT_HIT:3
 
 The specified location is within the image of the object.
 

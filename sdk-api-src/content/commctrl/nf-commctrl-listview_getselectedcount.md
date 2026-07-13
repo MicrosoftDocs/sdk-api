@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetSelectedCount","ListView_GetSelectedCount mac
 old-location: controls\ListView_GetSelectedCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetSelectedCount, ListView_GetSelectedCount macro [Windows Controls], _win32_ListView_GetSelectedCount, _win32_ListView_GetSelectedCount_cpp, commctrl/ListView_GetSelectedCount, controls.ListView_GetSelectedCount, controls._win32_ListView_GetSelectedCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetSelectedCount macro
+
+## -syntax
+
+```cpp
+UINT ListView_GetSelectedCount(
+   HWND hwndLV
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the number of selected items.
 
 
 ## -description

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlCombineW
 title: UrlCombineW function (shlwapi.h)
-description: When provided with a relative URL and its base, returns a URL in canonical form.
-helpviewer_keywords: ["URL_DONT_SIMPLIFY","URL_ESCAPE_AS_UTF8","URL_ESCAPE_PERCENT","URL_ESCAPE_SPACES_ONLY","URL_ESCAPE_UNSAFE","URL_NO_META","URL_PLUGGABLE_PROTOCOL","URL_UNESCAPE","UrlCombine","UrlCombine function [Windows Shell]","UrlCombineA","UrlCombineW","_win32_UrlCombine","shell.UrlCombine","shlwapi/UrlCombine","shlwapi/UrlCombineA","shlwapi/UrlCombineW"]
+description: When provided with a relative URL and its base, returns a URL in canonical form. (Unicode)
+helpviewer_keywords: ["URL_DONT_SIMPLIFY", "URL_ESCAPE_AS_UTF8", "URL_ESCAPE_PERCENT", "URL_ESCAPE_SPACES_ONLY", "URL_ESCAPE_UNSAFE", "URL_NO_META", "URL_PLUGGABLE_PROTOCOL", "URL_UNESCAPE", "UrlCombine", "UrlCombine function [Windows Shell]", "UrlCombineW", "_win32_UrlCombine", "shell.UrlCombine", "shlwapi/UrlCombine", "shlwapi/UrlCombineW"]
 old-location: shell\UrlCombine.htm
 tech.root: shell
 ms.assetid: f574d365-1ab9-4de4-84fe-17820c327ccf
@@ -250,7 +250,7 @@ If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the c
 
 
 > [!NOTE]
-> The shlwapi.h header defines UrlCombine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlCombine as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

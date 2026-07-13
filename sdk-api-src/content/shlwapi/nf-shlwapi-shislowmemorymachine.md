@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHIsLowMemoryMachine
 title: SHIsLowMemoryMachine function (shlwapi.h)
-description: Not supported.
+description: Not supported. (SHIsLowMemoryMachine)
 helpviewer_keywords: ["ILMM_IE4","SHIsLowMemoryMachine","SHIsLowMemoryMachine function [Windows Shell]","_shell_SHIsLowMemoryMachine","shell.SHIsLowMemoryMachine","shlwapi/SHIsLowMemoryMachine"]
 old-location: shell\SHIsLowMemoryMachine.htm
 tech.root: shell

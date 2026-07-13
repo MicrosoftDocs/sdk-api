@@ -52,25 +52,25 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of the valid code sets (encodings) of a storage identifier.
 
 ## -enum-fields
 
-### -field VDSStorageIdCodeSetReserved
+### -field VDSStorageIdCodeSetReserved:0
 
 This value is reserved.
 
-### -field VDSStorageIdCodeSetBinary
+### -field VDSStorageIdCodeSetBinary:1
 
 The storage identifier is encoded as binary data.
 
-### -field VDSStorageIdCodeSetAscii
+### -field VDSStorageIdCodeSetAscii:2
 
 The storage identifier is encoded as ASCII data.
 
-### -field VDSStorageIdCodeSetUtf8
+### -field VDSStorageIdCodeSetUtf8:3
 
 The storage identifier is encoded as UTF-8.
 

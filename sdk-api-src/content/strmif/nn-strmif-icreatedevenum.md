@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICreateDevEnum","ICreateDevEnum interface [DirectShow]","
 old-location: dshow\icreatedevenum.htm
 tech.root: dshow
 ms.assetid: fc300bb8-aea4-4848-af43-a70a7fb8c07c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICreateDevEnum, ICreateDevEnum interface [DirectShow], ICreateDevEnum interface [DirectShow],described, ICreateDevEnumInterface, dshow.icreatedevenum, strmif/ICreateDevEnum
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>ICreateDevEnum</b> interface creates an enumerator for a category of filters, such as video capture devices or audio capture devices. The <a href="/windows/desktop/DirectShow/system-device-enumerator">System Device Enumerator</a> exposes this interface.
 
 Applications can use this interface to enumerate filters within a category. The <a href="/windows/desktop/api/strmif/nf-strmif-icreatedevenum-createclassenumerator">CreateClassEnumerator</a> method returns an enumerator object for a specific filter category. The enumerator object supports the <a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> interface and returns a list of monikers, where each moniker represents a filter.
@@ -61,10 +63,7 @@ For more information on using this interface, see <a href="/windows/desktop/Dire
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateDevEnum</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateDevEnum</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICreateDevEnum</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateDevEnum</b> also has these types of members:
 
 ## -see-also
 

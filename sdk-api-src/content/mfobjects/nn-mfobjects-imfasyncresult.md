@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFAsyncResult
 title: IMFAsyncResult (mfobjects.h)
-description: Provides information about the result of an asynchronous operation.
+description: Provides information about the result of an asynchronous operation. (IMFAsyncResult)
 helpviewer_keywords: ["8c95b1de-8974-445c-8070-41552ea83e53","IMFAsyncResult","IMFAsyncResult interface [Media Foundation]","IMFAsyncResult interface [Media Foundation]","described","mf.imfasyncresult","mfobjects/IMFAsyncResult"]
 old-location: mf\imfasyncresult.htm
 tech.root: mf
@@ -55,10 +55,7 @@ Provides information about the result of an asynchronous operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAsyncResult</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAsyncResult</b> also has these types of members:
 
 ## -remarks
 

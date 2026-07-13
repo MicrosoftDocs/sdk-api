@@ -1,12 +1,12 @@
 ---
 UID: NF:msp.ITMSPAddress.ShutdownMSPCall
 title: ITMSPAddress::ShutdownMSPCall (msp.h)
-description: The ShutdownMSPCall method is called when the call object is being destroyed.
+description: The ITMSPAddress::ShutdownMSPCall (msp.h) method is called when the call object is being destroyed.
 helpviewer_keywords: ["ITMSPAddress interface [TAPI 2.2]","ShutdownMSPCall method","ITMSPAddress.ShutdownMSPCall","ITMSPAddress::ShutdownMSPCall","ShutdownMSPCall","ShutdownMSPCall method [TAPI 2.2]","ShutdownMSPCall method [TAPI 2.2]","ITMSPAddress interface","_tapi3_itmspaddress_shutdownmspcall","msp/ITMSPAddress::ShutdownMSPCall","tapi3.itmspaddress_shutdownmspcall"]
 old-location: tapi3\itmspaddress_shutdownmspcall.htm
 tech.root: tapi3
 ms.assetid: 6527db85-cad8-4b0d-977a-9ab8b047e44e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: ITMSPAddress interface [TAPI 2.2],ShutdownMSPCall method, ITMSPAddress.ShutdownMSPCall, ITMSPAddress::ShutdownMSPCall, ShutdownMSPCall, ShutdownMSPCall method [TAPI 2.2], ShutdownMSPCall method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_shutdownmspcall, msp/ITMSPAddress::ShutdownMSPCall, tapi3.itmspaddress_shutdownmspcall
 req.header: msp.h
 req.include-header: Tapi3.h

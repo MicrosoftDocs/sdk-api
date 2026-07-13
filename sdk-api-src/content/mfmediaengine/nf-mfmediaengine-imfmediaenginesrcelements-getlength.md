@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of source elements in the list.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFromTokenW
 title: SymFromTokenW function (dbghelp.h)
-description: Retrieves symbol information for the specified managed code token.
+description: The SymFromTokenW (Unicode) function retrieves symbol information for the specified managed code token.
 helpviewer_keywords: ["SymFromToken","SymFromToken function","SymFromTokenW","base.symfromtoken","dbghelp/SymFromToken","dbghelp/SymFromTokenW"]
 old-location: base\symfromtoken.htm
 tech.root: Debug
 ms.assetid: ecef5213-9301-4ca0-852c-1e6be0d7b2a5
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymFromToken, SymFromToken function, SymFromTokenW, base.symfromtoken, dbghelp/SymFromToken, dbghelp/SymFromTokenW
 req.header: dbghelp.h
 req.include-header: 
@@ -92,7 +92,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymFromToken as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymFromToken as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

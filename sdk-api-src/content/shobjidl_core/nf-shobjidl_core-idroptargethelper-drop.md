@@ -62,9 +62,9 @@ A pointer to the data object's <a href="/windows/desktop/api/objidl/nn-objidl-id
 
 ### -param ppt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure pointer that was received in the <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method's 
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure pointer that was received in the <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method's 
 					<i>pt</i> parameter.
 
 ### -param dwEffect [in]

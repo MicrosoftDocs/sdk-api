@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetSourcePathA
 title: MsiGetSourcePathA function (msiquery.h)
-description: The MsiGetSourcePath function returns the full source path for a folder in the Directory table.
-helpviewer_keywords: ["MsiGetSourcePath","MsiGetSourcePath function","MsiGetSourcePathA","MsiGetSourcePathW","_msi_msigetsourcepath","msiquery/MsiGetSourcePath","msiquery/MsiGetSourcePathA","msiquery/MsiGetSourcePathW","setup.msigetsourcepath"]
+description: The MsiGetSourcePath function returns the full source path for a folder in the Directory table. (ANSI)
+helpviewer_keywords: ["MsiGetSourcePathA", "msiquery/MsiGetSourcePathA"]
 old-location: setup\msigetsourcepath.htm
 tech.root: setup
 ms.assetid: 3cb8c3fa-6f0a-4829-befd-450e58c86962
@@ -96,7 +96,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiGetSourcePath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiGetSourcePath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

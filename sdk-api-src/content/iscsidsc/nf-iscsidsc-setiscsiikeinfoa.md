@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.SetIScsiIKEInfoA
 title: SetIScsiIKEInfoA function (iscsidsc.h)
-description: SetIscsiIKEInfo function establishes the IPsec policy and preshared key for the indicated initiator to use when performing iSCSI connections.
-helpviewer_keywords: ["SetIScsiIKEInfoA","SetIscsiIKEInfo","SetIscsiIKEInfo function [iSCSI Discovery Library API]","SetIscsiIKEInfoA","SetIscsiIKEInfoW","iscsidisc.setiscsiikeinfo","iscsidsc/SetIscsiIKEInfo","iscsidsc/SetIscsiIKEInfoA","iscsidsc/SetIscsiIKEInfoW"]
+description: SetIscsiIKEInfo function establishes the IPsec policy and preshared key for the indicated initiator to use when performing iSCSI connections. (ANSI)
+helpviewer_keywords: ["SetIScsiIKEInfoA", "SetIscsiIKEInfoA", "iscsidsc/SetIscsiIKEInfoA"]
 old-location: iscsidisc\setiscsiikeinfo.htm
 tech.root: iSCSIDisc
 ms.assetid: db020346-45cf-4944-9776-81bb38c7ee6a
@@ -87,4 +87,4 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines SetIScsiIKEInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines SetIScsiIKEInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

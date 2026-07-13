@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_CreateDragImage","Header_CreateDragImage macro [Wi
 old-location: controls\Header_CreateDragImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_createdragimage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_CreateDragImage, Header_CreateDragImage macro [Windows Controls], _win32_Header_CreateDragImage, _win32_Header_CreateDragImage_cpp, commctrl/Header_CreateDragImage, controls.Header_CreateDragImage, controls._win32_Header_CreateDragImage
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Header_CreateDragImage macro
+
+## -syntax
+
+```cpp
+HIMAGELIST Header_CreateDragImage(
+   HWND hwnd,
+   int  i
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns a handle to an image list that contains the new image as its only element.
 
 
 ## -description

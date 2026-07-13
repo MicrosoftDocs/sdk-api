@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Reset
 title: IEnumResources::Reset (shobjidl_core.h)
-description: Resets the enumeration index to 0.
+description: Resets the enumeration index to 0. (IEnumResources.Reset)
 helpviewer_keywords: ["IEnumResources interface [Windows Shell]","Reset method","IEnumResources.Reset","IEnumResources::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumResources interface","_shell_IEnumResources_Reset","shell.IEnumResources_Reset","shobjidl_core/IEnumResources::Reset"]
 old-location: shell\IEnumResources_Reset.htm
 tech.root: shell
@@ -52,11 +52,11 @@ api_name:
 
 Resets the enumeration index to 0.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

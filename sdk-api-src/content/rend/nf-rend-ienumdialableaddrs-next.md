@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Next
 title: IEnumDialableAddrs::Next (rend.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: The Next method gets the next specified number of elements in the enumeration sequence. (IEnumDialableAddrs.Next)
 helpviewer_keywords: ["IEnumDialableAddrs interface [TAPI 2.2]","Next method","IEnumDialableAddrs.Next","IEnumDialableAddrs::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumDialableAddrs interface","_tapi3_ienumdialableaddrs_next","rend/IEnumDialableAddrs::Next","tapi3.ienumdialableaddrs_next"]
 old-location: tapi3\ienumdialableaddrs_next.htm
 tech.root: tapi3

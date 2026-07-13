@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WinUsb_StopTrackingForTimeSync</b> function tops the time synchronization feature in the USB driver stack that gets the associated system QPC time for USB bus frames and microframes.
+The <b>WinUsb_StopTrackingForTimeSync</b> function stops the time synchronization feature in the USB driver stack that gets the associated system QPC time for USB bus frames and microframes.
 
 ## -parameters
 

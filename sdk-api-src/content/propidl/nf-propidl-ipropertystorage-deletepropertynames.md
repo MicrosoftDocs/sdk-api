@@ -1,7 +1,7 @@
 ---
 UID: NF:propidl.IPropertyStorage.DeletePropertyNames
 title: IPropertyStorage::DeletePropertyNames (propidl.h)
-description: The DeletePropertyNames method deletes specified string names from the current property set.
+description: The DeletePropertyNames method deletes specified string names from the current property set. (IPropertyStorage.DeletePropertyNames)
 helpviewer_keywords: ["DeletePropertyNames","DeletePropertyNames method [Structured Storage]","DeletePropertyNames method [Structured Storage]","IPropertyStorage interface","IPropertyStorage [Strctd Stg]","DeletePropertyNames","IPropertyStorage interface [Structured Storage]","DeletePropertyNames method","IPropertyStorage.DeletePropertyNames","IPropertyStorage::DeletePropertyNames","_stg_ipropertystorage_deletepropertynames","propidl/IPropertyStorage::DeletePropertyNames","stg.ipropertystorage_deletepropertynames"]
 old-location: stg\ipropertystorage_deletepropertynames.htm
 tech.root: Stg

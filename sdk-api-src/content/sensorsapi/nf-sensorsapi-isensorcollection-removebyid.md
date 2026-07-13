@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensorCollection interface","RemoveByID method","ISensor
 old-location: winsensors_com_ref\isensorcollection_removebyid.htm
 tech.root: winsensors
 ms.assetid: 933ea072-d62c-4274-a2c0-69282ecb79d2
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensorCollection interface,RemoveByID method, ISensorCollection.RemoveByID, ISensorCollection::RemoveByID, RemoveByID, RemoveByID method, RemoveByID method,ISensorCollection interface, sensorsapi/ISensorCollection::RemoveByID, winsensors_com_ref.isensorcollection_removebyid
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Removes a sensor from the collection. The sensor to be removed is specified by its ID.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsSubSystemIscsi.QueryPortals
 title: IVdsSubSystemIscsi::QueryPortals (vds.h)
-description: Returns an object that enumerates the iSCSI portals of the subsystem.
+description: The IVdsSubSystemIscsi::QueryPortals method (vds.h) returns an object that enumerates the iSCSI portals of the subsystem.
 helpviewer_keywords: ["IVdsSubSystemIscsi interface [VDS]","QueryPortals method","IVdsSubSystemIscsi.QueryPortals","IVdsSubSystemIscsi::QueryPortals","QueryPortals","QueryPortals method [VDS]","QueryPortals method [VDS]","IVdsSubSystemIscsi interface","base.ivdssubsystemiscsi_queryportals","vds/IVdsSubSystemIscsi::QueryPortals","vdshwprv/IVdsSubSystemIscsi::QueryPortals"]
 old-location: base\ivdssubsystemiscsi_queryportals.htm
 tech.root: base
 ms.assetid: 277cc256-ac9d-4a4c-b154-ba611c08db9f
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryPortals method, IVdsSubSystemIscsi.QueryPortals, IVdsSubSystemIscsi::QueryPortals, QueryPortals, QueryPortals method [VDS], QueryPortals method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_queryportals, vds/IVdsSubSystemIscsi::QueryPortals, vdshwprv/IVdsSubSystemIscsi::QueryPortals
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an object that enumerates the iSCSI portals of the subsystem.
 
@@ -85,7 +85,7 @@ The enumeration of portals was successfully returned. If the subsystem has no iS
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -102,7 +102,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -114,7 +114,7 @@ The subsystem object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_STATUS_FAILED</b></b></dt>
+<dt><b>VDS_E_OBJECT_STATUS_FAILED</b></dt>
 <dt>0x80042431L</dt>
 </dl>
 </td>
@@ -126,7 +126,7 @@ The subsystem is in a failed state and is unable to perform the requested operat
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>

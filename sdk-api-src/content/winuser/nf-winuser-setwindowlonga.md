@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetWindowLongA
 title: SetWindowLongA function (winuser.h)
-description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.
-helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","SetWindowLong","SetWindowLong function [Windows and Messages]","SetWindowLongA","SetWindowLongW","_win32_SetWindowLong","_win32_setwindowlong_cpp","winmsg.setwindowlong","winui._win32_setwindowlong","winuser/SetWindowLong","winuser/SetWindowLongA","winuser/SetWindowLongW"]
+description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory. (ANSI)
+helpviewer_keywords: ["DWL_DLGPROC", "DWL_MSGRESULT", "DWL_USER", "GWL_EXSTYLE", "GWL_HINSTANCE", "GWL_ID", "GWL_STYLE", "GWL_USERDATA", "GWL_WNDPROC", "SetWindowLongA", "winuser/SetWindowLongA"]
 old-location: winmsg\setwindowlong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlong.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-window-ansi-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -102,6 +104,17 @@ Sets a new <a href="/windows/desktop/winmsg/extended-window-styles">extended win
 </td>
 <td width="60%">
 Sets a new application instance handle.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="GWL_HWNDPARENT"></a><a id="gwl_hwndparent"></a><dl>
+<dt><b>GWL_HWNDPARENT</b></dt>
+<dt>-8</dt>
+</dl>
+</td>
+<td width="60%">
+Sets a new owner for a top-level window.
 
 </td>
 </tr>
@@ -219,7 +232,7 @@ If the previous value of the specified 32-bit integer is zero, and the function 
 
 Certain window data is cached, so changes you make using <b>SetWindowLong</b> will not take effect until you call the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function. Specifically, if you change any of the frame styles, you must call <b>SetWindowPos</b> with the <b>SWP_FRAMECHANGED</b> flag for the cache to be updated properly. 
 
-If you use <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> callback function. 
+If you use <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a> callback function. 
 
 If you use <b>SetWindowLong</b> with the <b>DWL_MSGRESULT</b> index to set the return value for a message processed by a dialog procedure, you should return <b>TRUE</b> directly afterward. Otherwise, if you call any function that results in your dialog procedure receiving a window message, the nested window message could overwrite the return value you set using <b>DWL_MSGRESULT</b>. 
 
@@ -228,7 +241,11 @@ Calling <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index creates a subclas
 Reserve extra window memory by specifying a nonzero value in the 
 				<b>cbWndExtra</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
 
-You must not call <b>SetWindowLong</b> with the <b>GWL_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a> function. 
+Do not call <b>SetWindowLong</b> with the <b>GWL_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a> function. 
+
+<b>GWL_HWNDPARENT</b> is used to change the owner of a top-level window, not the parent of a child window.
+
+A window can have either a parent or an owner, or neither, but never both simultaneously.
 
 If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_OWNDC</b>, do not set the extended window styles <b>WS_EX_COMPOSITED</b> or <b>WS_EX_LAYERED</b>.
 
@@ -245,7 +262,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-procedures">Su
 
 
 > [!NOTE]
-> The winuser.h header defines SetWindowLong as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SetWindowLong as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -285,4 +302,4 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-procedures">Su
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>

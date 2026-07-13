@@ -6,7 +6,7 @@ helpviewer_keywords: ["ScrollBar_SetRange","ScrollBar_SetRange macro [Windows Co
 old-location: controls\ScrollBar_SetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_setrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ScrollBar_SetRange, ScrollBar_SetRange macro [Windows Controls], _win32_ScrollBar_SetRange, _win32_ScrollBar_SetRange_cpp, controls.ScrollBar_SetRange, controls._win32_ScrollBar_SetRange, windowsx/ScrollBar_SetRange
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # ScrollBar_SetRange macro
+
+## -syntax
+
+```cpp
+BOOL ScrollBar_SetRange(
+   HWND hwndCtl,
+   int  posMin,
+   int  posMax,
+   BOOL fRedraw
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if the call succeeded; otherwise <b>FALSE</b>.
 
 
 ## -description

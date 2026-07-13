@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_SetStyle","Button_SetStyle macro [Windows Controls
 old-location: controls\Button_SetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setstyle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_SetStyle, Button_SetStyle macro [Windows Controls], _win32_Button_SetStyle, _win32_Button_SetStyle_cpp, controls.Button_SetStyle, controls._win32_Button_SetStyle, windowsx/Button_SetStyle
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # Button_SetStyle macro
+
+## -syntax
+
+```cpp
+void Button_SetStyle(
+   HWND  hwndCtl,
+   DWORD style,
+   BOOL  fRedraw
+);
+```
 
 
 ## -description

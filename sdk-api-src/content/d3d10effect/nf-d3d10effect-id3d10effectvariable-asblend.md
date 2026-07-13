@@ -52,7 +52,7 @@ api_name:
 
 Get a effect-blend variable.
 
-## -parameters
+
 
 ## -returns
 

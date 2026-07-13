@@ -57,7 +57,7 @@ api_name:
 The <b>Reset</b> method returns the 
 certificate enrollment control  object to its initial <a href="/windows/desktop/SecGloss/s-gly">state</a> and thereby allow reuse of the control. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
 
-## -parameters
+
 
 ## -returns
 

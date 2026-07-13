@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.put_Shared
 title: IRDPSRAPIWindow::put_Shared (rdpencomapi.h)
-description: Gets or sets the sharing property for a window.
+description: Gets or sets the sharing property for a window. (Put)
 helpviewer_keywords: ["IRDPSRAPIWindow interface [RDP]","Shared property","IRDPSRAPIWindow.Shared","IRDPSRAPIWindow.put_Shared","IRDPSRAPIWindow::Shared","IRDPSRAPIWindow::get_Shared","IRDPSRAPIWindow::put_Shared","RDPSRAPIWindow object [RDP]","Shared property","Shared property [RDP]","Shared property [RDP]","IRDPSRAPIWindow interface","Shared property [RDP]","RDPSRAPIWindow object","put_Shared","rdp.irdpsrapiwindow_shared","rdpencomapi/IRDPSRAPIWindow::Shared","rdpencomapi/IRDPSRAPIWindow::get_Shared","rdpencomapi/IRDPSRAPIWindow::put_Shared"]
 old-location: rdp\irdpsrapiwindow_shared.htm
 tech.root: rdp

@@ -52,7 +52,7 @@ api_name:
 
 Resets progress dialog after a cancellation has been completed.
 
-## -parameters
+
 
 ## -returns
 

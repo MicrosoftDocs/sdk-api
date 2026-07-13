@@ -137,67 +137,67 @@ Union of restriction structures describing the filter to be applied. The specifi
 
 ### -field res.resCompareProps
 
-<b>Type: <b>SComparePropsRestriction</b>
-</b>
+Type: <b>SComparePropsRestriction</b>
+
 RES_COMPAREPROPS
 
 ### -field res.resAnd
 
-<b>Type: <b>SAndRestriction</b>
-</b>
+Type: <b>SAndRestriction</b>
+
 RES_AND
 
 ### -field res.resOr
 
-<b>Type: <b>SOrRestriction</b>
-</b>
+Type: <b>SOrRestriction</b>
+
 RES_OR
 
 ### -field res.resNot
 
-<b>Type: <b>SNotRestriction</b>
-</b>
+Type: <b>SNotRestriction</b>
+
 RES_NOT
 
 ### -field res.resContent
 
-<b>Type: <b>SContentRestriction</b>
-</b>
+Type: <b>SContentRestriction</b>
+
 RES_CONTENT
 
 ### -field res.resProperty
 
-<b>Type: <b>SPropertyRestriction</b>
-</b>
+Type: <b>SPropertyRestriction</b>
+
 RES_PROPERTY
 
 ### -field res.resBitMask
 
-<b>Type: <b>SBitMaskRestriction</b>
-</b>
+Type: <b>SBitMaskRestriction</b>
+
 RES_BITMASK
 
 ### -field res.resSize
 
-<b>Type: <b>SSizeRestriction</b>
-</b>
+Type: <b>SSizeRestriction</b>
+
 RES_SIZE
 
 ### -field res.resExist
 
-<b>Type: <b>SExistRestriction</b>
-</b>
+Type: <b>SExistRestriction</b>
+
 RES_EXIST
 
 ### -field res.resSub
 
-<b>Type: <b>SSubRestriction</b>
-</b>
+Type: <b>SSubRestriction</b>
+
 RES_SUBRESTRICTION
 
 ### -field res.resComment
 
-<b>Type: <b>SCommentRestriction</b>
-</b>
+Type: <b>SCommentRestriction</b>
+
 RES_COMMENT
 

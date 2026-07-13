@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_GetTextMargin","Button_GetTextMargin macro [Window
 old-location: controls\Button_GetTextMargin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettextmargin.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_GetTextMargin, Button_GetTextMargin macro [Windows Controls], _win32_Button_GetTextMargin, _win32_Button_GetTextMargin_cpp, commctrl/Button_GetTextMargin, controls.Button_GetTextMargin, controls._win32_Button_GetTextMargin
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # Button_GetTextMargin macro
 
+## -syntax
+
+```cpp
+BOOL Button_GetTextMargin(
+   HWND  hwnd,
+   RECT* pmargin
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the macro succeeds, it returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
+
 
 ## -description
 
@@ -68,5 +83,5 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comctl32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>

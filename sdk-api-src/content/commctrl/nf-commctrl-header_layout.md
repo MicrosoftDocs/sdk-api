@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_Layout","Header_Layout macro [Windows Controls]","
 old-location: controls\Header_Layout.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_layout.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_Layout, Header_Layout macro [Windows Controls], _win32_Header_Layout, _win32_Header_Layout_cpp, commctrl/Header_Layout, controls.Header_Layout, controls._win32_Header_Layout
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # Header_Layout macro
 
+## -syntax
+
+```cpp
+BOOL Header_Layout(
+  [in]  HWND       hwndHD,
+  [out] LPHDLAYOUT playout
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
+
 
 ## -description
 
@@ -72,8 +87,12 @@ A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hdlayout">HDLAY
 
 The <b>Header_Layout</b> macro is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_Layout(hwndHD, playout) \
+
+``` syntax
+#define Header_Layout(hwndHD, playout) \
 
     (BOOL)SendMessage((hwndHD), HDM_LAYOUT, 0, \
 
-    (LPARAM)(LPHDLAYOUT)(playout))</code></pre>
+    (LPARAM)(LPHDLAYOUT)(playout))
+```
+

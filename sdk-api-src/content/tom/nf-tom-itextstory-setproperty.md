@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStory.SetProperty
 title: ITextStory::SetProperty (tom.h)
-description: Sets the value of the specified property.
+description: Sets the value of the specified property. (ITextStory.SetProperty)
 helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetProperty method","ITextStory.SetProperty","ITextStory::SetProperty","SetProperty","SetProperty method [Windows Controls]","SetProperty method [Windows Controls]","ITextStory interface","controls.itextstory_setproperty","tom/ITextStory::SetProperty"]
 old-location: controls\itextstory_setproperty.htm
 tech.root: Controls

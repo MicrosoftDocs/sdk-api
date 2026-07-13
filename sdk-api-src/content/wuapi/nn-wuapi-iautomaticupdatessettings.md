@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IAutomaticUpdatesSettings
 title: IAutomaticUpdatesSettings (wuapi.h)
-description: Contains the settings that are available in Automatic Updates.
+description: Contains the settings that are available in Automatic Updates. (IAutomaticUpdatesSettings)
 helpviewer_keywords: ["IAutomaticUpdatesSettings","IAutomaticUpdatesSettings interface [Windows Update Agent]","IAutomaticUpdatesSettings interface [Windows Update Agent]","described","wua.iautomaticupdatessettings","wuapi/IAutomaticUpdatesSettings"]
 old-location: wua\iautomaticupdatessettings.htm
 tech.root: wua
@@ -54,11 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdatesSettings</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdatesSettings</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IAutomaticUpdatesSettings</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdatesSettings</b> also has these types of members:
 
 ## -remarks
 

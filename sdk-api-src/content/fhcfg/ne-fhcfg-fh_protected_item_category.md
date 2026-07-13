@@ -58,7 +58,7 @@ Specifies the type of an inclusion or exclusion list.
 
 ## -enum-fields
 
-### -field FH_FOLDER
+### -field FH_FOLDER:0
 
 The inclusion or exclusion list is a list of folders.
 

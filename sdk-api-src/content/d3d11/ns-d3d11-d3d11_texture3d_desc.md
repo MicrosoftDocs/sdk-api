@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEXTURE3D_DESC
 title: D3D11_TEXTURE3D_DESC (d3d11.h)
-description: Describes a 3D texture.
+description: Describes a 3D texture. (D3D11_TEXTURE3D_DESC)
 helpviewer_keywords: ["64540f29-b4c0-93ff-f17c-15c6a0d7da4b","D3D11_TEXTURE3D_DESC","D3D11_TEXTURE3D_DESC structure [Direct3D 11]","d3d11/D3D11_TEXTURE3D_DESC","direct3d11.d3d11_texture3d_desc"]
 old-location: direct3d11\d3d11_texture3d_desc.htm
 tech.root: direct3d11
@@ -94,19 +94,19 @@ Value that identifies how the texture is to be read from and written to. The mos
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>) for binding to pipeline stages. The flags can be combined by a logical OR.
+Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>) for binding to pipeline stages. The flags can be combined by a bitwise OR.
 
 ### -field CPUAccessFlags
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_FLAG</a>) to specify the types of CPU access allowed. Use 0 if CPU access is not required. These flags can be combined with a logical OR.
+Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_FLAG</a>) to specify the types of CPU access allowed. Use 0 if CPU access is not required. These flags can be combined with a bitwise OR.
 
 ### -field MiscFlags
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a>) that identify other, less common resource options. Use 0 if none of these flags apply. These flags can be combined with a logical OR.
+Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a>) that identify other, less common resource options. Use 0 if none of these flags apply. These flags can be combined with a bitwise OR.
 
 ## -remarks
 

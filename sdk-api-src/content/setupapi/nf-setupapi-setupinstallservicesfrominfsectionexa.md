@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionExA
 title: SetupInstallServicesFromInfSectionExA function (setupapi.h)
-description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
-helpviewer_keywords: ["SPSVCINST_ASSOCSERVICE","SPSVCINST_CLOBBER_SECURITY","SPSVCINST_DELETEEVENTLOGENTRY","SPSVCINST_NOCLOBBER_DEPENDENCIES","SPSVCINST_NOCLOBBER_DESCRIPTION","SPSVCINST_NOCLOBBER_DISPLAYNAME","SPSVCINST_NOCLOBBER_ERRORCONTROL","SPSVCINST_NOCLOBBER_LOADORDERGROUP","SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES","SPSVCINST_NOCLOBBER_STARTTYPE","SPSVCINST_STARTSERVICE","SPSVCINST_STOPSERVICE","SPSVCINST_TAGTOFRONT","SetupInstallServicesFromInfSectionEx","SetupInstallServicesFromInfSectionEx function [Setup API]","SetupInstallServicesFromInfSectionExA","SetupInstallServicesFromInfSectionExW","_setupapi_setupinstallservicesfrominfsectionex","setup.setupinstallservicesfrominfsectionex","setupapi/SetupInstallServicesFromInfSectionEx","setupapi/SetupInstallServicesFromInfSectionExA","setupapi/SetupInstallServicesFromInfSectionExW"]
+description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file. (ANSI)
+helpviewer_keywords: ["SPSVCINST_ASSOCSERVICE", "SPSVCINST_CLOBBER_SECURITY", "SPSVCINST_DELETEEVENTLOGENTRY", "SPSVCINST_NOCLOBBER_DEPENDENCIES", "SPSVCINST_NOCLOBBER_DESCRIPTION", "SPSVCINST_NOCLOBBER_DISPLAYNAME", "SPSVCINST_NOCLOBBER_ERRORCONTROL", "SPSVCINST_NOCLOBBER_LOADORDERGROUP", "SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES", "SPSVCINST_NOCLOBBER_STARTTYPE", "SPSVCINST_STARTSERVICE", "SPSVCINST_STOPSERVICE", "SPSVCINST_TAGTOFRONT", "SetupInstallServicesFromInfSectionExA", "setupapi/SetupInstallServicesFromInfSectionExA"]
 old-location: setup\setupinstallservicesfrominfsectionex.htm
 tech.root: setup
 ms.assetid: c0bf6442-56dc-41f1-8a21-ff7b92b1ef0f
-ms.date: 12/05/2018
+ms.date: 12/20/2024
 ms.keywords: SPSVCINST_ASSOCSERVICE, SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINST_NOCLOBBER_DEPENDENCIES, SPSVCINST_NOCLOBBER_DESCRIPTION, SPSVCINST_NOCLOBBER_DISPLAYNAME, SPSVCINST_NOCLOBBER_ERRORCONTROL, SPSVCINST_NOCLOBBER_LOADORDERGROUP, SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES, SPSVCINST_NOCLOBBER_STARTTYPE, SPSVCINST_STARTSERVICE, SPSVCINST_STOPSERVICE, SPSVCINST_TAGTOFRONT, SetupInstallServicesFromInfSectionEx, SetupInstallServicesFromInfSectionEx function [Setup API], SetupInstallServicesFromInfSectionExA, SetupInstallServicesFromInfSectionExW, _setupapi_setupinstallservicesfrominfsectionex, setup.setupinstallservicesfrominfsectionex, setupapi/SetupInstallServicesFromInfSectionEx, setupapi/SetupInstallServicesFromInfSectionExA, setupapi/SetupInstallServicesFromInfSectionExW
 req.header: setupapi.h
 req.include-header: 
@@ -240,9 +240,7 @@ and countries.)
 
 ### -param DeviceInfoData [in]
 
-An optional pointer to  the <b>SP_DEVINFO_DATA</b> structure that provides a context to a specific element in the set that  <i>DeviceInfoSet</i> specifies. For more information, see the DDK <i>Programmer's Guide</i>. (This resource may not be available in some languages 
-
-and countries.)
+An optional pointer to  the <b>SP_DEVINFO_DATA</b> structure that provides a context to a specific element in the set that  <i>DeviceInfoSet</i> specifies. For more information, see the DDK <i>Programmer's Guide</i>. (This resource may not be available in some languages and countries.)
 
 ### -param Reserved1
 
@@ -282,4 +280,6 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupInstallServicesFromInfSectionEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupInstallServicesFromInfSectionEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
+<b>SetupInstallServicesFromInfSectionEx</b> will log diagnostic information to the [SetupAPI application installation text log](/windows-hardware/drivers/install/setupapi-text-logs). This log file is generally off by default. It can be enabled by modifying the *General logging levels* part of the SetupAPI `LogLevel` value as described at [Setting SetupAPI Logging Levels](/windows-hardware/drivers/install/setting-setupapi-logging-levels). For performance reasons, you should only enable this log file when troubleshooting an issue. When the log file is enabled, you can find it at `%windir%\inf\setupapi.app.log`.

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule3.get_LocalUserAuthorizedList
 title: INetFwRule3::get_LocalUserAuthorizedList (netfw.h)
-description: Specifies a list of authorized local users for an app container.
+description: Specifies a list of authorized local users for an app container. (Get)
 helpviewer_keywords: ["INetFwRule3 interface [ICS/ICF]","LocalUserAuthorizedList property","INetFwRule3.LocalUserAuthorizedList","INetFwRule3.get_LocalUserAuthorizedList","INetFwRule3::LocalUserAuthorizedList","INetFwRule3::get_LocalUserAuthorizedList","INetFwRule3::put_LocalUserAuthorizedList","LocalUserAuthorizedList property [ICS/ICF]","LocalUserAuthorizedList property [ICS/ICF]","INetFwRule3 interface","get_LocalUserAuthorizedList","ics.inetfwrule3_localuserauthorizedlist","netfw/INetFwRule3::LocalUserAuthorizedList","netfw/INetFwRule3::get_LocalUserAuthorizedList","netfw/INetFwRule3::put_LocalUserAuthorizedList"]
 old-location: ics\inetfwrule3_localuserauthorizedlist.htm
 tech.root: ics

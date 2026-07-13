@@ -78,9 +78,11 @@ Reserved; must be set to 0.
 
 ## -returns
 
-If successful, returns a value identifying the character set of the font currently selected into the specified device context. The following character set identifiers are defined:
+If successful, returns a value identifying the character set of the font currently selected into the specified device context.
 
-If the function fails, the return value is DEFAULT_CHARSET.
+For a list of possible values, see *lfCharSet* field of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfontw">LOGFONT structure</a>.
+
+If the function fails, the return value is **DEFAULT_CHARSET**.
 
 ## -see-also
 

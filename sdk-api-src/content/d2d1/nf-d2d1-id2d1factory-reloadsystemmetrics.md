@@ -45,30 +45,20 @@ api_name:
  - ID2D1Factory.ReloadSystemMetrics
 ---
 
-# ID2D1Factory::ReloadSystemMetrics
-
-
 ## -description
 
 Forces the factory to refresh any system defaults that it might have changed since factory creation.
-
-## -parameters
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
-You should call this method before calling the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi">GetDesktopDpi</a> method, to ensure that the system DPI is current.
+To ensure that the system DPI is current, you should call **ID2D1Factory.ReloadSystemMetrics** before calling the [GetDesktopDpi](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method.
 
 ## -see-also
 
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi">GetDesktopDpi</a>
-
-
-
-<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
-
+* [ID2D1Factory](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)

@@ -1,7 +1,7 @@
 ---
 UID: NN:thumbcache.IThumbnailCachePrimer
 title: IThumbnailCachePrimer (thumbcache.h)
-description: .
+description: . (IThumbnailCachePrimer)
 helpviewer_keywords: ["IThumbnailCachePrimer","IThumbnailCachePrimer interface [Windows Shell]","IThumbnailCachePrimer interface [Windows Shell]","described","shell.IThumbnailCachePrimer","thumbcache/IThumbnailCachePrimer"]
 old-location: shell\IThumbnailCachePrimer.htm
 tech.root: shell
@@ -54,10 +54,7 @@ Not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailCachePrimer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCachePrimer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IThumbnailCachePrimer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCachePrimer</b> also has these types of members:
 
 ## -see-also
 

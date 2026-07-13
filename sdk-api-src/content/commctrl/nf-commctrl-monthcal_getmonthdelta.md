@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetMonthDelta","MonthCal_GetMonthDelta macro [Wi
 old-location: controls\MonthCal_GetMonthDelta.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmonthdelta.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetMonthDelta, MonthCal_GetMonthDelta macro [Windows Controls], _win32_MonthCal_GetMonthDelta, _win32_MonthCal_GetMonthDelta_cpp, commctrl/MonthCal_GetMonthDelta, controls.MonthCal_GetMonthDelta, controls._win32_MonthCal_GetMonthDelta
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MonthCal_GetMonthDelta macro
+
+## -syntax
+
+```cpp
+INT MonthCal_GetMonthDelta(
+   HWND hmc
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+If the month delta was previously set using the <b>MonthCal_SetMonthDelta</b> macro, returns an INT value that represents the month calendar's current scroll rate. If the month delta was not previously set using the <b>MonthCal_SetMonthDelta</b> macro, or the month delta was reset to the default, returns an INT value that represents the current number of months visible.
 
 
 ## -description

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DialogBoxW
 title: DialogBoxW macro (winuser.h)
-description: Creates a modal dialog box from a dialog box template resource. DialogBox does not return control until the specified callback function terminates the modal dialog box by calling the EndDialog function.
-helpviewer_keywords: ["DialogBox","DialogBox function [Dialog Boxes]","DialogBoxA","DialogBoxW","_win32_DialogBox","_win32_dialogbox_cpp","dlgbox.dialogbox","winui._win32_dialogbox","winuser/DialogBox","winuser/DialogBoxA","winuser/DialogBoxW"]
+description: Creates a modal dialog box from a dialog box template resource. DialogBox does not return control until the specified callback function terminates the modal dialog box by calling the EndDialog function. (Unicode)
+helpviewer_keywords: ["DialogBox", "DialogBox function [Dialog Boxes]", "DialogBoxW", "_win32_DialogBox", "_win32_dialogbox_cpp", "dlgbox.dialogbox", "winui._win32_dialogbox", "winuser/DialogBox", "winuser/DialogBoxW"]
 old-location: dlgbox\dialogbox.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogbox.htm
@@ -99,7 +99,7 @@ For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creatin
 
 
 > [!NOTE]
-> The winuser.h header defines DialogBox as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines DialogBox as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

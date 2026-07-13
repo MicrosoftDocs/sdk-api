@@ -1,7 +1,7 @@
 ---
 UID: NC:winuser.EDITWORDBREAKPROCW
 title: EDITWORDBREAKPROCW (winuser.h)
-description: An application-defined callback function used with the EM_SETWORDBREAKPROC message.
+description: An application-defined callback function used with the EM_SETWORDBREAKPROC message. (Unicode)
 helpviewer_keywords: ["EDITWORDBREAKPROCA","EDITWORDBREAKPROCW","EditWordBreakProc","EditWordBreakProc callback","EditWordBreakProc callback function [Windows Controls]","WB_CLASSIFY","WB_ISDELIMITER","WB_LEFT","WB_LEFTBREAK","WB_MOVEWORDLEFT","WB_MOVEWORDRIGHT","WB_RIGHT","WB_RIGHTBREAK","_win32_EditWordBreakProc","_win32_EditWordBreakProc_cpp","controls.EditWordBreakProc","controls._win32_EditWordBreakProc","winuser/EDITWORDBREAKPROCA","winuser/EDITWORDBREAKPROCW","winuser/EditWordBreakProc"]
 old-location: controls\EditWordBreakProc.htm
 tech.root: Controls
@@ -60,7 +60,7 @@ The <b>EDITWORDBREAKPROC</b> type defines a pointer to this callback function. <
 
 ### -param lpch [in]
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 A pointer to the text of the edit control.
 
@@ -74,8 +74,7 @@ An index to a character position in the buffer of text that identifies the point
 
 Type: <b>int</b>
 
-The number of 
-					<b>TCHARs</b> in the edit control text. For the ANSI text, this is the number of bytes; for the Unicode text, this is the number of WCHARs.
+The number of <b>TCHARs</b> in the edit control text. For the ANSI text, this is the number of bytes; for the Unicode text, this is the number of WCHARs.
 
 ### -param code [in]
 
@@ -193,7 +192,7 @@ An application must install the callback function by specifying the address of t
 
 
 > [!NOTE]
-> The winuser.h header defines EDITWORDBREAKPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines EDITWORDBREAKPROC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

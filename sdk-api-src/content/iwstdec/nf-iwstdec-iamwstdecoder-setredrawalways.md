@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMWstDecoder interface [DirectShow]","SetRedrawAlways me
 old-location: dshow\iamwstdecoder_setredrawalways.htm
 tech.root: dshow
 ms.assetid: 4663a9c0-3d08-4f25-8742-458081536f98
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMWstDecoder interface [DirectShow],SetRedrawAlways method, IAMWstDecoder.SetRedrawAlways, IAMWstDecoder::SetRedrawAlways, IAMWstDecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setredrawalways, iwstdec/IAMWstDecoder::SetRedrawAlways
 req.header: iwstdec.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Downstream filters use the <code>SetRedrawAlways</code> method to determine whether the whole output bitmap should be redrawn for each sample.
 

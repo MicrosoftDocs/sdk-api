@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvDeltaName
 title: SymSrvDeltaName function (dbghelp.h)
-description: Generates the name for a file that describes the relationship between two different versions of the same symbol or image file. Using this feature prevents applications from having to regenerate such information every time they analyze two files.
+description: The SymSrvDeltaName function (dbghelp.h) generates the name for a file that describes the relationship between two versions of the same symbol/image.
 helpviewer_keywords: ["SymSrvDeltaName","SymSrvDeltaName function","SymSrvDeltaNameW","base.symsrvdeltaname","dbghelp/SymSrvDeltaName","dbghelp/SymSrvDeltaNameW"]
 old-location: base\symsrvdeltaname.htm
 tech.root: Debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
 req.header: dbghelp.h
 req.include-header: 

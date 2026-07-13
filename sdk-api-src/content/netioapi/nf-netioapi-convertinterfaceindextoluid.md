@@ -99,7 +99,7 @@ One of the parameters was invalid. This error is returned if the <i>InterfaceLui
 
 ## -remarks
 
-The <b>ConvertInterfaceIndexToLuid</b> function is available on Windows Vistaand later.
+The <b>ConvertInterfaceIndexToLuid</b> function is available on Windows Vista and later.
 
 The <b>ConvertInterfaceIndexToLuid</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol.
 

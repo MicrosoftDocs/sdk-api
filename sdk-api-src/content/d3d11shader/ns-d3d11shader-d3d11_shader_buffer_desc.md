@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11shader._D3D11_SHADER_BUFFER_DESC
 title: D3D11_SHADER_BUFFER_DESC (d3d11shader.h)
-description: Describes a shader constant-buffer.
+description: Describes a shader constant-buffer. (D3D11_SHADER_BUFFER_DESC)
 helpviewer_keywords: ["D3D11_SHADER_BUFFER_DESC","D3D11_SHADER_BUFFER_DESC structure [Direct3D 11]","d3d11shader/D3D11_SHADER_BUFFER_DESC","direct3d11.d3d11_shader_buffer_desc","f067255d-ad70-0513-b346-8e4194271884"]
 old-location: direct3d11\d3d11_shader_buffer_desc.htm
 tech.root: direct3d11

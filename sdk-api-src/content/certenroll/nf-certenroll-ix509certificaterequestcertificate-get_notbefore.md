@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.get_NotBefore
 title: IX509CertificateRequestCertificate::get_NotBefore (certenroll.h)
-description: Specifies or retrieves the date and time before which the certificate is not valid.
+description: Specifies or retrieves the date and time before which the certificate is not valid. (Get)
 helpviewer_keywords: ["IX509CertificateRequestCertificate interface [Security]","NotBefore property","IX509CertificateRequestCertificate.NotBefore","IX509CertificateRequestCertificate.get_NotBefore","IX509CertificateRequestCertificate::NotBefore","IX509CertificateRequestCertificate::get_NotBefore","IX509CertificateRequestCertificate::put_NotBefore","NotBefore property [Security]","NotBefore property [Security]","IX509CertificateRequestCertificate interface","certenroll/IX509CertificateRequestCertificate::NotBefore","certenroll/IX509CertificateRequestCertificate::get_NotBefore","certenroll/IX509CertificateRequestCertificate::put_NotBefore","get_NotBefore","security.ix509certificaterequestcertificate_notbefore_property"]
 old-location: security\ix509certificaterequestcertificate_notbefore_property.htm
 tech.root: security

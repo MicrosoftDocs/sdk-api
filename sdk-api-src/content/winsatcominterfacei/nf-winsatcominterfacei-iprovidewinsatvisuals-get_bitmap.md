@@ -285,7 +285,7 @@ LRESULT CALLBACK MonitorWndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lpara
 }
 
 // Use the Win32_WinSAT WMI class to retrieve the base score and
-// state of the most recent assessmeent.
+// state of the most recent assessment.
 HRESULT GetBaseScore(float* pBaseScore, WINSAT_ASSESSMENT_STATE* pState)
 {
     HRESULT hr = S_OK;

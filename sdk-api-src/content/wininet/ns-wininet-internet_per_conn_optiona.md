@@ -1,7 +1,7 @@
 ---
-UID: NS:wininet.__unnamed_struct_3
+UID: NS:wininet.INTERNET_PER_CONN_OPTIONA
 title: INTERNET_PER_CONN_OPTIONA (wininet.h)
-description: Contains the value of an option.
+description: Contains the value of an option. (ANSI)
 helpviewer_keywords: ["*LPINTERNET_PER_CONN_OPTIONA","INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_TIME","INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_URL","INTERNET_PER_CONN_AUTOCONFIG_RELOAD_DELAY_MINS","INTERNET_PER_CONN_AUTOCONFIG_SECONDARY_URL","INTERNET_PER_CONN_AUTOCONFIG_URL","INTERNET_PER_CONN_AUTODISCOVERY_FLAGS","INTERNET_PER_CONN_FLAGS","INTERNET_PER_CONN_FLAGS_UI","INTERNET_PER_CONN_OPTION","INTERNET_PER_CONN_OPTION structure [WinINet]","INTERNET_PER_CONN_OPTIONA","INTERNET_PER_CONN_OPTIONW","INTERNET_PER_CONN_PROXY_BYPASS","INTERNET_PER_CONN_PROXY_SERVER","LPINTERNET_PER_CONN_OPTION","LPINTERNET_PER_CONN_OPTION structure pointer [WinINet]","_inet_internet_per_conn_option_structure","wininet.internet_per_conn_option","wininet/INTERNET_PER_CONN_OPTION","wininet/INTERNET_PER_CONN_OPTIONA","wininet/INTERNET_PER_CONN_OPTIONW","wininet/LPINTERNET_PER_CONN_OPTION"]
 old-location: wininet\internet_per_conn_option.htm
 tech.root: wininet
@@ -323,7 +323,7 @@ For queries that return strings,
 
 
 > [!NOTE]
-> The wininet.h header defines INTERNET_PER_CONN_OPTION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines INTERNET_PER_CONN_OPTION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -336,3 +336,4 @@ For queries that return strings,
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
+

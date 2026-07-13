@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase._FILE_FULL_DIR_INFO
 title: FILE_FULL_DIR_INFO (winbase.h)
-description: Contains directory information for a file.
+description: Contains directory information for a file. (FILE_FULL_DIR_INFO)
 helpviewer_keywords: ["*PFILE_FULL_DIR_INFO","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_FULL_DIR_INFO","FILE_FULL_DIR_INFO structure [Files]","PFILE_FULL_DIR_INFO","PFILE_FULL_DIR_INFO structure pointer [Files]","_FILE_FULL_DIR_INFO","fs.file_full_dir_info","winbase/FILE_FULL_DIR_INFO","winbase/PFILE_FULL_DIR_INFO"]
 old-location: fs\file_full_dir_info.htm
 tech.root: fs

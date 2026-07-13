@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12shader.ID3D12ShaderReflection
 title: ID3D12ShaderReflection (d3d12shader.h)
-description: A shader-reflection interface accesses shader information.
+description: A shader-reflection interface accesses shader information. (ID3D12ShaderReflection)
 helpviewer_keywords: ["ID3D12ShaderReflection","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","described","d3d12shader/ID3D12ShaderReflection","direct3d12.id3d12shaderreflection"]
 old-location: direct3d12\id3d12shaderreflection.htm
 tech.root: direct3d12
@@ -51,10 +51,7 @@ A shader-reflection interface accesses shader information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ShaderReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12ShaderReflection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D12ShaderReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12ShaderReflection</b> also has these types of members:
 
 ## -remarks
 

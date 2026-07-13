@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedYIntercept(float)
 title: IDCompositionLinearTransferEffect::SetRedYIntercept(float) (dcomp.h)
-description: Sets the Y-intercept of the linear function for the red channel.
+description: Sets the Y-intercept of the linear function for the red channel. (overload 1/2)
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetRedYIntercept method","IDCompositionLinearTransferEffect.SetRedYIntercept","IDCompositionLinearTransferEffect.SetRedYIntercept(float)","IDCompositionLinearTransferEffect::SetRedYIntercept","IDCompositionLinearTransferEffect::SetRedYIntercept(float)","SetRedYIntercept","SetRedYIntercept method [DirectComposition]","SetRedYIntercept method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept","directcomp.idcompositionlineartransfereffect_setredyintercept"]
 old-location: directcomp\idcompositionlineartransfereffect_setredyintercept.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ The Y-intercept of the linear function for the red channel.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.put_InboundEventsLevel
 title: IFaxEventLogging::put_InboundEventsLevel (faxcomex.h)
-description: The IFaxEventLogging::get_InboundEventsLevel property indicates the level of detail at which the fax service logs events about inbound fax transmissions in the application log.
+description: The IFaxEventLogging::get_InboundEventsLevel property indicates the level of detail at which the fax service logs events about inbound fax transmissions in the application log. (Put)
 helpviewer_keywords: ["IFaxEventLogging interface [Fax Service]","InboundEventsLevel property","IFaxEventLogging.InboundEventsLevel","IFaxEventLogging.get_InboundEventsLevel","IFaxEventLogging.put_InboundEventsLevel","IFaxEventLogging::InboundEventsLevel","IFaxEventLogging::get_InboundEventsLevel","IFaxEventLogging::put_InboundEventsLevel","InboundEventsLevel property [Fax Service]","InboundEventsLevel property [Fax Service]","IFaxEventLogging interface","_mfax_faxeventlogging.inboundeventslevel","fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_inboundeventslevel_cpp","fax._mfax_faxeventlogging_inboundeventslevel","faxcomex/IFaxEventLogging::InboundEventsLevel","faxcomex/IFaxEventLogging::get_InboundEventsLevel","faxcomex/IFaxEventLogging::put_InboundEventsLevel","put_InboundEventsLevel"]
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_inboundeventslevel_cpp.htm
 tech.root: Fax

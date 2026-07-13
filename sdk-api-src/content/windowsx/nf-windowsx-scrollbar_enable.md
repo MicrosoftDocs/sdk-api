@@ -6,7 +6,7 @@ helpviewer_keywords: ["ScrollBar_Enable","ScrollBar_Enable macro [Windows Contro
 old-location: controls\ScrollBar_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_enable.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ScrollBar_Enable, ScrollBar_Enable macro [Windows Controls], _win32_ScrollBar_Enable, _win32_ScrollBar_Enable_cpp, controls.ScrollBar_Enable, controls._win32_ScrollBar_Enable, windowsx/ScrollBar_Enable
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ScrollBar_Enable macro
+
+## -syntax
+
+```cpp
+BOOL ScrollBar_Enable(
+   HWND hwndCtl,
+   UINT flags
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the arrows are enabled or disabled as specified, the return value is nonzero.
 
 
 ## -description

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_IsHidden
 title: IFsiItem::get_IsHidden (imapi2fs.h)
-description: Determines if the item's hidden attribute is set in the file system image.
+description: Determines if the item's hidden attribute is set in the file system image. (Get)
 helpviewer_keywords: ["IFsiItem interface [IMAPI]","get_IsHidden method","IFsiItem.get_IsHidden","IFsiItem::get_IsHidden","get_IsHidden","get_IsHidden method [IMAPI]","get_IsHidden method [IMAPI]","IFsiItem interface","imapi.ifsiitem_get_ishidden","imapi2fs/IFsiItem::get_IsHidden"]
 old-location: imapi\ifsiitem_get_ishidden.htm
 tech.root: imapi

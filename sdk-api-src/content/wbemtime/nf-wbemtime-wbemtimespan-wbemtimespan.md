@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan
 title: WBEMTimeSpan::WBEMTimeSpan (wbemtime.h)
-description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
+description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded. (WBEMTimeSpan::WbemTimeSpan)
 helpviewer_keywords: ["WBEMTimeSpan","WBEMTimeSpan.WBEMTimeSpan","WBEMTimeSpan::WBEMTimeSpan","WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation]","WBEMTimeSpan::WbemTimeSpan","wbemtime/WBEMTimeSpan::WBEMTimeSpan","wmi.wbemtimespan_wbemtimespan"]
 old-location: wmi\wbemtimespan_wbemtimespan.htm
 tech.root: wmi
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: FrameDyn.Lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 targetos: Windows
@@ -92,4 +92,4 @@ Initializes the new time span object to values in the parameters.
 </tr>
 </table>
 
-## -parameters
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.SetHashWindowSize
 title: IRdcGeneratorFilterMaxParameters::SetHashWindowSize (msrdc.h)
-description: Sets the hash window size�the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
+description: Sets the hash window size - the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
 helpviewer_keywords: ["IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","SetHashWindowSize method","IRdcGeneratorFilterMaxParameters.SetHashWindowSize","IRdcGeneratorFilterMaxParameters::SetHashWindowSize","SetHashWindowSize","SetHashWindowSize method [Remote Differential Compression]","SetHashWindowSize method [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface","fs.irdcgeneratorfiltermaxparameters_sethashwindowsize","msrdc/IRdcGeneratorFilterMaxParameters::SetHashWindowSize","rdc.irdcgeneratorfiltermaxparameters_sethashwindowsize"]
 old-location: rdc\irdcgeneratorfiltermaxparameters_sethashwindowsize.htm
 tech.root: rdc
@@ -64,7 +64,7 @@ The length in bytes of the hash window size. The valid range is from
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

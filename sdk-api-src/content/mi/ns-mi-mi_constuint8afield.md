@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstUint8AField
 title: MI_ConstUint8AField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ConstUint8AField)
 helpviewer_keywords: ["MI_ConstUint8AField","MI_ConstUint8AField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstUint8AField","wmi._mi_constuint8afield","wmi_v2.mi_constuint8afield"]
 old-location: wmi_v2\mi_constuint8afield.htm
 tech.root: wmi_v2

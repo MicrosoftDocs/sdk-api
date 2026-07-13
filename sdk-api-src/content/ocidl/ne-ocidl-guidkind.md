@@ -56,7 +56,7 @@ Flags used to specify the kind of information requested from an object in the <a
 
 ## -enum-fields
 
-### -field GUIDKIND_DEFAULT_SOURCE_DISP_IID
+### -field GUIDKIND_DEFAULT_SOURCE_DISP_IID:1
 
 The interface identifier (IID) of the object's outgoing dispinterface, labeled [source, default]. The outgoing interface in question must be derived from <b>IDispatch</b>.
 

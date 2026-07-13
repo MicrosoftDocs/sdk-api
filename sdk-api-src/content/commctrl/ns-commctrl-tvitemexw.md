@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagTVITEMEXW
 title: TVITEMEXW (commctrl.h)
-description: Specifies or receives attributes of a tree-view item. This structure is an enhancement to the TVITEM structure. New applications should use this structure where appropriate.
+description: Specifies or receives attributes of a tree-view item. This structure is an enhancement to the TVITEM structure. New applications should use this structure where appropriate. (Unicode)
 helpviewer_keywords: ["*LPTVITEMEXW","I_CHILDRENAUTO","I_CHILDRENCALLBACK","LPTVITEMEX","LPTVITEMEX structure pointer [Windows Controls]","TVIF_CHILDREN","TVIF_DI_SETITEM","TVIF_EXPANDEDIMAGE","TVIF_HANDLE","TVIF_IMAGE","TVIF_INTEGRAL","TVIF_PARAM","TVIF_SELECTEDIMAGE","TVIF_STATE","TVIF_STATEEX","TVIF_TEXT","TVIS_EX_DISABLED","TVIS_EX_FLAT","TVIS_EX_HWND","TVITEMEX","TVITEMEX structure [Windows Controls]","TVITEMEXA","TVITEMEXW","_win32_TVITEMEX","_win32_TVITEMEX_cpp","commctrl/LPTVITEMEX","commctrl/TVITEMEX","commctrl/TVITEMEXA","commctrl/TVITEMEXW","controls.TVITEMEX","controls._win32_TVITEMEX","one","zero"]
 old-location: controls\TVITEMEX.htm
 tech.root: Controls
@@ -383,4 +383,4 @@ Reserved member. Do not use.
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines TVITEMEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines TVITEMEX as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

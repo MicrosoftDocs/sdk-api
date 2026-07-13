@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetExtendedStyle","TabCtrl_GetExtendedStyle macro
 old-location: controls\TabCtrl_GetExtendedStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getextendedstyle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetExtendedStyle, TabCtrl_GetExtendedStyle macro [Windows Controls], _win32_TabCtrl_GetExtendedStyle, _win32_TabCtrl_GetExtendedStyle_cpp, commctrl/TabCtrl_GetExtendedStyle, controls.TabCtrl_GetExtendedStyle, controls._win32_TabCtrl_GetExtendedStyle
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TabCtrl_GetExtendedStyle macro
+
+## -syntax
+
+```cpp
+DWORD TabCtrl_GetExtendedStyle(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>DWORD</b> value that represents the extended styles currently in use for the tab control. This value is a combination of tab control extended styles.
 
 
 ## -description

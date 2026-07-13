@@ -57,35 +57,35 @@ Defines the computer account types under which a command action (see
 
 ## -enum-fields
 
-### -field FsrmAccountType_Unknown
+### -field FsrmAccountType_Unknown:0
 
 The account type is unknown. Do not use this value to set the 
       <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioncommand-get_account">IFsrmActionCommand::Account</a> property.
 
-### -field FsrmAccountType_NetworkService
+### -field FsrmAccountType_NetworkService:1
 
 Run the command or pipeline module under the "NetworkService" account.
 
-### -field FsrmAccountType_LocalService
+### -field FsrmAccountType_LocalService:2
 
 Run the command or pipeline module under the "LocalService" account.
 
-### -field FsrmAccountType_LocalSystem
+### -field FsrmAccountType_LocalSystem:3
 
 Run the command or pipeline module under the "LocalSystem" account.
 
-### -field FsrmAccountType_InProc
+### -field FsrmAccountType_InProc:4
 
 This value is reserved for internal use.
 
-### -field FsrmAccountType_External
+### -field FsrmAccountType_External:5
 
 Run the classifier or storage module in a separate process from FSRM (FSRM uses 
       <b>CLSCTX_LOCAL_SERVER</b> to instantiate the module). The module's COM registration 
       specifies the account used to run the module. If the registration does not specify the account, the module is 
       run using the user's account.
 
-### -field FsrmAccountType_Automatic
+### -field FsrmAccountType_Automatic:500
 
 Run the command or pipeline module under the account that FSRM selects. This is the recommended value.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndNew","MCIWndNew macro [Windows Multimedia]","_win32
 old-location: multimedia\mciwndnew.htm
 tech.root: Multimedia
 ms.assetid: dddd73d5-3ce5-43df-a685-05f519b45386
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndNew, MCIWndNew macro [Windows Multimedia], _win32_MCIWndNew, multimedia.mciwndnew, vfw/MCIWndNew
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndNew macro
+
+## -syntax
+
+```cpp
+LONG MCIWndNew(
+     hwnd,
+     lp
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

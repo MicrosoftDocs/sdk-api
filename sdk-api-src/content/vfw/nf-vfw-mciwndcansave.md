@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndCanSave","MCIWndCanSave macro [Windows Multimedia]"
 old-location: multimedia\mciwndcansave.htm
 tech.root: Multimedia
 ms.assetid: dc08b385-3e19-480d-ab05-58fd9b8c6b3a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndCanSave, MCIWndCanSave macro [Windows Multimedia], _win32_MCIWndCanSave, multimedia.mciwndcansave, vfw/MCIWndCanSave
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndCanSave macro
+
+## -syntax
+
+```cpp
+BOOL MCIWndCanSave(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if the device supports saving data or **FALSE** otherwise.
 
 
 ## -description

@@ -79,7 +79,7 @@ The minor version of the service provider specification supported by this provid
 
 ### -field NSPv2Startup
 
-Type: ** LPNSPV2STARTUP**
+Type: **LPNSPV2STARTUP**
 
 A pointer to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup</a> function for this NSPv2 provider.
 

@@ -4,14 +4,14 @@ title: IDWriteFontResource::GetDefaultFontAxisValues
 description: Retrieves the default values for all axes supported by the font resource.
 helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetDefaultFontAxisValues method","IDWriteFontResource.GetDefaultFontAxisValues","IDWriteFontResource::GetDefaultFontAxisValues","GetDefaultFontAxisValues","GetDefaultFontAxisValues method [Direct Write]","GetDefaultFontAxisValues method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getdefaultfontaxisvalues","dwrite_3/IDWriteFontResource::GetDefaultFontAxisValues"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontResource interface [Direct Write],GetDefaultFontAxisValues method, IDWriteFontResource.GetDefaultFontAxisValues, IDWriteFontResource::GetDefaultFontAxisValues, GetDefaultFontAxisValues, GetDefaultFontAxisValues method [Direct Write], GetDefaultFontAxisValues method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getdefaultfontaxisvalues, dwrite_3/IDWriteFontResource::GetDefaultFontAxisValues
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

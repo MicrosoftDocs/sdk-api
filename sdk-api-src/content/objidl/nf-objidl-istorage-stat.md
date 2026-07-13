@@ -70,6 +70,15 @@ Specifies that some of the members in the
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The STATSTG structure was successfully returned at the specified location.|
+|E_PENDING | Asynchronous Storage only: Part or all of the storage's data is currently unavailable.|
+|STG_E_ACCESSDENIED | The caller does not have enough permissions for accessing statistics for this storage object.|
+|STG_E_INSUFFICIENTMEMORY | The STATSTG structure was not returned due to a lack of memory.|
+|STG_E_INVALIDFLAG | The value for the *grfStateFlag* parameter is not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+
 ## -remarks
 
 <b>IStorage::Stat</b> retrieves the 

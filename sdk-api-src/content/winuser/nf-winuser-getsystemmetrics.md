@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-sysparams-ext-l1-1-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-sysparams-Ext-l1-1-0.dll
  - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
@@ -159,7 +160,7 @@ The width of a window border, in pixels. This is equivalent to the SM_CXEDGE val
 </dl>
 </td>
 <td width="60%">
-The width of a cursor, in pixels. The system cannot create cursors of other sizes.
+The nominal width of a cursor, in pixels.
 
 </td>
 </tr>
@@ -299,8 +300,7 @@ The width of the thumb box in a horizontal scroll bar, in pixels.
 </dl>
 </td>
 <td width="60%">
-The default width of an icon, in pixels. The 
-       <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the  dimensions that SM_CXICON and SM_CYICON specifies.
+The system large width of an icon, in pixels. The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the dimensions that SM_CXICON and SM_CYICON specifies. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>
@@ -470,8 +470,7 @@ This value is the same as SM_CXFRAME.
 </dl>
 </td>
 <td width="60%">
-The recommended width of a small icon, in pixels. Small icons typically appear in window captions and in
-       small icon view.
+The system small width of an icon, in pixels. Small icons typically appear in window captions and in small icon view. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>
@@ -493,11 +492,7 @@ The width of small caption buttons, in pixels.
 </dl>
 </td>
 <td width="60%">
-The width of the virtual screen, in pixels. The virtual screen is the bounding rectangle of all
-       display monitors. The SM_XVIRTUALSCREEN metric is the coordinates for the left side of
-       the virtual screen. 
-       
-
+The width of the <a href="/windows/win32/gdi/the-virtual-screen">virtual screen</a>, in pixels. The virtual screen is the bounding rectangle of all display monitors. The SM_XVIRTUALSCREEN metric is the coordinates for the left side of the virtual screen.
 </td>
 </tr>
 <tr>
@@ -541,7 +536,7 @@ The height of a caption area, in pixels.
 </dl>
 </td>
 <td width="60%">
-The height of a cursor, in pixels. The system cannot create cursors of other sizes.
+The nominal height of a cursor, in pixels.
 
 </td>
 </tr>
@@ -671,9 +666,7 @@ The height of a horizontal scroll bar, in
 </dl>
 </td>
 <td width="60%">
-The default height of an icon, in pixels. The 
-       <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the
-       dimensions SM_CXICON and SM_CYICON.
+The system large height of an icon, in pixels. The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the dimensions that SM_CXICON and SM_CYICON specifies. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>
@@ -864,8 +857,7 @@ The height of a small caption, in pixels.
 </dl>
 </td>
 <td width="60%">
-The recommended height of a small icon, in pixels. Small icons typically appear in window captions and in
-       small icon view.
+The system small height of an icon, in pixels. Small icons typically appear in window captions and in small icon view. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>
@@ -887,10 +879,7 @@ The height of small caption buttons, in pixels.
 </dl>
 </td>
 <td width="60%">
-The height of the virtual screen, in pixels. The virtual screen is the bounding rectangle of all
-       display monitors. The SM_YVIRTUALSCREEN metric is the coordinates for the top of
-       the virtual screen.
-
+The height of the <a href="/windows/win32/gdi/the-virtual-screen">virtual screen</a>, in pixels. The virtual screen is the bounding rectangle of all display monitors. The SM_YVIRTUALSCREEN metric is the coordinates for the top of the virtual screen.
 </td>
 </tr>
 <tr>
@@ -1234,12 +1223,7 @@ Nonzero if the current operating system is the Windows XP Tablet PC edition or i
 </dl>
 </td>
 <td width="60%">
-The coordinates for the left side of the virtual screen. The virtual screen is the bounding
-        rectangle of all display monitors. The SM_CXVIRTUALSCREEN metric is the width 
-        of the virtual screen.
-        
-       
-
+The coordinates for the left side of the <a href="/windows/win32/gdi/the-virtual-screen">virtual screen</a>. The virtual screen is the bounding rectangle of all display monitors. The SM_CXVIRTUALSCREEN metric is the width of the virtual screen.
 </td>
 </tr>
 <tr>
@@ -1249,11 +1233,7 @@ The coordinates for the left side of the virtual screen. The virtual screen is t
 </dl>
 </td>
 <td width="60%">
-The coordinates for the top of the virtual screen. The virtual screen is the bounding
-        rectangle of all display monitors. The SM_CYVIRTUALSCREEN metric is the height of the virtual screen.
-        
-       
-
+The coordinates for the top of the <a href="/windows/win32/gdi/the-virtual-screen">virtual screen</a>. The virtual screen is the bounding rectangle of all display monitors. The SM_CYVIRTUALSCREEN metric is the height of the virtual screen.
 </td>
 </tr>
 </table>
@@ -1426,8 +1406,10 @@ The following example uses the
 <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function to determine whether a mouse is installed and whether the mouse buttons are swapped. The example also uses the 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function to retrieve the mouse threshold and speed. It displays the information in the console.
 
-<pre class="syntax" xml:space="preserve"><code>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+``` syntax
+#include <windows.h>
+#include <stdio.h>
 #pragma comment(lib, "user32.lib")
 
 void main()
@@ -1456,7 +1438,7 @@ void main()
       fResult = SystemParametersInfo(
          SPI_GETMOUSE,  // get mouse information 
          0,             // not used 
-         &amp;aMouseInfo,   // holds mouse information 
+         &aMouseInfo,   // holds mouse information 
          0);            // not used 
 
       if( fResult )
@@ -1466,7 +1448,9 @@ void main()
             aMouseInfo[0], aMouseInfo[1]); 
       }
    } 
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

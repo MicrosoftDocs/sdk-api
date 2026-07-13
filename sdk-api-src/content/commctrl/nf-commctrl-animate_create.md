@@ -6,7 +6,7 @@ helpviewer_keywords: ["Animate_Create","Animate_Create macro [Windows Controls]"
 old-location: controls\Animate_Create.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Animate_Create, _win32_Animate_Create_cpp, commctrl/Animate_Create, controls.Animate_Create, controls._win32_Animate_Create
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # Animate_Create macro
+
+## -syntax
+
+```cpp
+HWND Animate_Create(
+   HWND      hwndP,
+   UINT      id,
+   DWORD     dwStyle,
+   HINSTANCE hInstance
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the animation control.
 
 
 ## -description

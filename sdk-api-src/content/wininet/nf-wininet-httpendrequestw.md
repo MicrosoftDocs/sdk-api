@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.HttpEndRequestW
 title: HttpEndRequestW function (wininet.h)
-description: Ends an HTTP request that was initiated by HttpSendRequestEx.
-helpviewer_keywords: ["HttpEndRequest","HttpEndRequest function [WinINet]","HttpEndRequestA","HttpEndRequestW","_win32_httpendrequest","wininet.httpendrequest","wininet/HttpEndRequest","wininet/HttpEndRequestA","wininet/HttpEndRequestW"]
+description: Ends an HTTP request that was initiated by HttpSendRequestEx. (Unicode)
+helpviewer_keywords: ["HttpEndRequest", "HttpEndRequest function [WinINet]", "HttpEndRequestW", "_win32_httpendrequest", "wininet.httpendrequest", "wininet/HttpEndRequest", "wininet/HttpEndRequestW"]
 old-location: wininet\httpendrequest.htm
 tech.root: wininet
 ms.assetid: 6ea91da6-0bc2-49b6-a56b-c4224ad73b81
@@ -99,7 +99,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines HttpEndRequest as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines HttpEndRequest as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

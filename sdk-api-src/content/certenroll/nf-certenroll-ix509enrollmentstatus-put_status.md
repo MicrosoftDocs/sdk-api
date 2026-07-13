@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Status
 title: IX509EnrollmentStatus::put_Status (certenroll.h)
-description: Specifies or retrieves a value that indicates the status of the enrollment process.
+description: Specifies or retrieves a value that indicates the status of the enrollment process. (Put)
 helpviewer_keywords: ["IX509EnrollmentStatus interface [Security]","Status property","IX509EnrollmentStatus.Status","IX509EnrollmentStatus.put_Status","IX509EnrollmentStatus::Status","IX509EnrollmentStatus::get_Status","IX509EnrollmentStatus::put_Status","Status property [Security]","Status property [Security]","IX509EnrollmentStatus interface","certenroll/IX509EnrollmentStatus::Status","certenroll/IX509EnrollmentStatus::get_Status","certenroll/IX509EnrollmentStatus::put_Status","put_Status","security.ix509enrollmentstatus_status_property"]
 old-location: security\ix509enrollmentstatus_status_property.htm
 tech.root: security

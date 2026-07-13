@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.FinishSessionKeyRefresh
 title: IDirect3DCryptoSession9::FinishSessionKeyRefresh (d3d9.h)
-description: Switches to a new session key.
+description: Switches to a new session key. (IDirect3DCryptoSession9.FinishSessionKeyRefresh)
 helpviewer_keywords: ["FinishSessionKeyRefresh","FinishSessionKeyRefresh method [Media Foundation]","FinishSessionKeyRefresh method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","FinishSessionKeyRefresh method","IDirect3DCryptoSession9.FinishSessionKeyRefresh","IDirect3DCryptoSession9::FinishSessionKeyRefresh","d3d9/IDirect3DCryptoSession9::FinishSessionKeyRefresh","mf.idirect3dcryptosession9_finishsessionkeyrefresh"]
 old-location: mf\idirect3dcryptosession9_finishsessionkeyrefresh.htm
 tech.root: mf
@@ -52,11 +52,11 @@ api_name:
 
 Switches to a new session key.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

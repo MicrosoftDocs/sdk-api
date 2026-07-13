@@ -52,7 +52,7 @@ api_name:
 
 Returns the size, in device-independent pixels (DIPs), of the bitmap.
 
-## -parameters
+
 
 ## -returns
 
@@ -62,7 +62,7 @@ The size, in DIPs, of the bitmap.
 
 ## -remarks
 
-A DIP is 1/96 of an inch. To retrieve the size in device pixels, use the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap::GetPixelSize</a>method.
+A DIP is 1/96 of an inch. To retrieve the size in device pixels, use the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap::GetPixelSize</a> method.
 
 ## -see-also
 

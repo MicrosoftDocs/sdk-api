@@ -4,14 +4,14 @@ title: IDWriteFactory6::CreateFontSetBuilder
 description: Creates an empty font set builder, ready to add font instances to, and create a custom font set.
 helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontSetBuilder method","IDWriteFactory6.CreateFontSetBuilder","IDWriteFactory6::CreateFontSetBuilder","CreateFontSetBuilder","CreateFontSetBuilder method [Direct Write]","CreateFontSetBuilder method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_createfontsetbuilder","dwrite_3/IDWriteFactory6::CreateFontSetBuilder"]
 tech.root: DirectWrite
-ms.date: 09/10/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontSetBuilder method, IDWriteFactory6.CreateFontSetBuilder, IDWriteFactory6::CreateFontSetBuilder, CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], CreateFontSetBuilder method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontsetbuilder, dwrite_3/IDWriteFactory6::CreateFontSetBuilder
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.AddFontResourceW
 title: AddFontResourceW function (wingdi.h)
-description: The AddFontResource function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application.
-helpviewer_keywords: [".fnt",".fon",".fot",".mmm",".otf",".pfb",".pfm",".ttc",".ttf","AddFontResource","AddFontResource function [Windows GDI]","AddFontResourceA","AddFontResourceW","_win32_AddFontResource","gdi.addfontresource","wingdi/AddFontResource","wingdi/AddFontResourceA","wingdi/AddFontResourceW"]
+description: The AddFontResource function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application. (Unicode)
+helpviewer_keywords: [".fnt", ".fon", ".fot", ".mmm", ".otf", ".pfb", ".pfm", ".ttc", ".ttf", "AddFontResource", "AddFontResource function [Windows GDI]", "AddFontResourceW", "_win32_AddFontResource", "gdi.addfontresource", "wingdi/AddFontResource", "wingdi/AddFontResourceW"]
 old-location: gdi\addfontresource.htm
 tech.root: gdi
 ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
@@ -185,7 +185,7 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 > [!NOTE]
-> The wingdi.h header defines AddFontResource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines AddFontResource as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

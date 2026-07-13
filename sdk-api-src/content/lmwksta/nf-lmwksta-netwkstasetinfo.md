@@ -303,7 +303,7 @@ If the
 </table>
  
 
-The workstation service parameter settings are stored in the registry, not in the LanMan.ini file used prveiously by LAN Manager. The 
+The workstation service parameter settings are stored in the registry, not in the LanMan.ini file used previously by LAN Manager. The 
 <b>NetWkstaSetInfo</b> function does not change the values in the LanMan.ini file. When the workstation service is stopped and restarted, workstation parameters are reset to the default values specified in the registry (unless they are overwritten by command-line parameters). Values set by previous calls to 
 <b>NetWkstaSetInfo</b> can be overwritten when workstation parameters are reset.
 

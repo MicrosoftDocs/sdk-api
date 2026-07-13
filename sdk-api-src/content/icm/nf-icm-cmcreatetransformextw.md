@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Icm32.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -72,6 +72,6 @@ Every CMM is required to export this function.
 
 ## -see-also
 
-* [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [CMCreateTransformExtW](/windows/win32/api/icm/nf-icm-cmcreatetransformextw)

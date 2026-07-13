@@ -67,14 +67,18 @@ The <b>IX509Attribute</b> interface can be used to represent an attribute in a P
 
 
 Attributes are added to a certificate request to provide a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> with additional information that it can use when creating and issuing a certificate. Each attribute is a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure that contains an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and zero or more values as shown by the following syntax.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Attributes ::= SET OF Attribute
 
 Attribute ::= SEQUENCE 
 {
    type       EncodedObjectID,
    values     AttributeSetValue
-}</code></pre>The <b>IX509Attribute</b> interface can be used to initialize and retrieve an attribute value. It also serves as the base for the following common attribute interfaces.<table>
+}
+```
+The <b>IX509Attribute</b> interface can be used to initialize and retrieve an attribute value. It also serves as the base for the following common attribute interfaces.<table>
 <tr>
 <th>Interface/OID</th>
 <th>Description</th>
@@ -139,11 +143,7 @@ Attribute ::= SEQUENCE
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Attribute</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509Attribute</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IX509Attribute</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509Attribute</b> also has these types of members:
 
 ## -see-also
 

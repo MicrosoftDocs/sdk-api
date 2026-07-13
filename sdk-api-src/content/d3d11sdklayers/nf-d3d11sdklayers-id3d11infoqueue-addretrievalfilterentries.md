@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.AddRetrievalFilterEntries
 title: ID3D11InfoQueue::AddRetrievalFilterEntries (d3d11sdklayers.h)
-description: Add storage filters to the top of the retrieval-filter stack.
+description: Add storage filters to the top of the retrieval-filter stack. (ID3D11InfoQueue.AddRetrievalFilterEntries)
 helpviewer_keywords: ["9da78ed8-cfc3-47cd-e2a8-318199bba80d","AddRetrievalFilterEntries","AddRetrievalFilterEntries method [Direct3D 11]","AddRetrievalFilterEntries method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","AddRetrievalFilterEntries method","ID3D11InfoQueue.AddRetrievalFilterEntries","ID3D11InfoQueue::AddRetrievalFilterEntries","d3d11sdklayers/ID3D11InfoQueue::AddRetrievalFilterEntries","direct3d11.id3d11infoqueue_addretrievalfilterentries"]
 old-location: direct3d11\id3d11infoqueue_addretrievalfilterentries.htm
 tech.root: direct3d11

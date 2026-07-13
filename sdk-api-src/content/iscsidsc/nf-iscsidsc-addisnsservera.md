@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.AddISNSServerA
 title: AddISNSServerA function (iscsidsc.h)
-description: AddIsnsServer function adds a new server to the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
-helpviewer_keywords: ["AddISNSServerA","AddIsnsServer","AddIsnsServer function [iSCSI Discovery Library API]","AddIsnsServerA","AddIsnsServerW","iscsidisc.addisnsserver","iscsidsc/AddIsnsServer","iscsidsc/AddIsnsServerA","iscsidsc/AddIsnsServerW"]
+description: AddIsnsServer function adds a new server to the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets. (ANSI)
+helpviewer_keywords: ["AddISNSServerA", "AddIsnsServerA", "iscsidsc/AddIsnsServerA"]
 old-location: iscsidisc\addisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: c01f00f9-2929-4745-a60b-89ab1143a084
@@ -75,7 +75,7 @@ If management software does not call <b>AddIsnsServer</b> to manually add the ne
 
 
 > [!NOTE]
-> The iscsidsc.h header defines AddISNSServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines AddISNSServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

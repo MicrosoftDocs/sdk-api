@@ -46,9 +46,6 @@ api_name:
  - IInputPaneInterop.GetTrustLevel
 ---
 
-# IInspectable::GetTrustLevel
-
-
 ## -description
 
 Gets the trust level of the current Windows Runtime object.
@@ -71,6 +68,6 @@ This method always returns <b>S_OK</b>.
 
 <a href="/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
-
-
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
+
+[winrt::get_trust_level](/uwp/cpp-ref-for-winrt/get-trust-level)

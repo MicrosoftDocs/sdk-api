@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_ImageName
 title: IUIAutomationProxyFactoryEntry::put_ImageName (uiautomationclient.h)
-description: Sets or retrieves the name of the image of the proxy factory.
+description: Sets or retrieves the name of the image of the proxy factory. (Put)
 helpviewer_keywords: ["IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","ImageName property","IUIAutomationProxyFactoryEntry.ImageName","IUIAutomationProxyFactoryEntry.put_ImageName","IUIAutomationProxyFactoryEntry::ImageName","IUIAutomationProxyFactoryEntry::get_ImageName","IUIAutomationProxyFactoryEntry::put_ImageName","ImageName property [Windows Accessibility]","ImageName property [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","put_ImageName","uiauto.uiauto_IUIAutomationProxyFactoryEntry_ImageName","uiauto_IUIAutomationProxyFactoryEntry_ImageName","uiautomationclient/IUIAutomationProxyFactoryEntry::ImageName","uiautomationclient/IUIAutomationProxyFactoryEntry::get_ImageName","uiautomationclient/IUIAutomationProxyFactoryEntry::put_ImageName","winauto.uiauto_IUIAutomationProxyFactoryEntry_ImageName"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ImageName.htm
 tech.root: WinAuto

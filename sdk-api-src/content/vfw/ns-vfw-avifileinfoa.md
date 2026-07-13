@@ -1,7 +1,7 @@
 ---
 UID: NS:vfw._AVIFILEINFOA
 title: AVIFILEINFOA (vfw.h)
-description: The AVIFILEINFO structure contains global information for an entire AVI file.
+description: The AVIFILEINFO structure contains global information for an entire AVI file. (ANSI)
 helpviewer_keywords: ["*LPAVIFILEINFOA","AVIFILECAPS_ALLKEYFRAMES","AVIFILECAPS_CANREAD","AVIFILECAPS_CANWRITE","AVIFILECAPS_NOCOMPRESSION","AVIFILEINFO","AVIFILEINFO structure [Windows Multimedia]","AVIFILEINFOA","AVIFILEINFOW","AVIFILEINFO_COPYRIGHTED","AVIFILEINFO_HASINDEX","AVIFILEINFO_ISINTERLEAVED","AVIFILEINFO_MUSTUSEINDEX","AVIFILEINFO_WASCAPTUREFILE","multimedia.avifileinfo_COLLISION510","multimedia.avifileinfo_struct","vfw/AVIFILEINFO"]
 old-location: multimedia\avifileinfo_struct.htm
 tech.root: Multimedia
@@ -225,4 +225,4 @@ Null-terminated string containing descriptive information for the file type.
 ## -remarks
 
 > [!NOTE]
-> The vfw.h header defines AVIFILEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines AVIFILEINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

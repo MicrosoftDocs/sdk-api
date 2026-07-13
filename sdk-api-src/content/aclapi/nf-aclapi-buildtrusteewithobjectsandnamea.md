@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithObjectsAndNameA
 title: BuildTrusteeWithObjectsAndNameA function (aclapi.h)
-description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the name of the trustee.
-helpviewer_keywords: ["BuildTrusteeWithObjectsAndName","BuildTrusteeWithObjectsAndName function [Security]","BuildTrusteeWithObjectsAndNameA","BuildTrusteeWithObjectsAndNameW","_win32_buildtrusteewithobjectsandname","aclapi/BuildTrusteeWithObjectsAndName","aclapi/BuildTrusteeWithObjectsAndNameA","aclapi/BuildTrusteeWithObjectsAndNameW","security.buildtrusteewithobjectsandname"]
+description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the name of the trustee. (ANSI)
+helpviewer_keywords: ["BuildTrusteeWithObjectsAndNameA", "aclapi/BuildTrusteeWithObjectsAndNameA"]
 old-location: security\buildtrusteewithobjectsandname.htm
 tech.root: security
 ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
@@ -98,7 +98,7 @@ For more information about object-specific ACEs, see <a href="/windows/desktop/S
 
 
 > [!NOTE]
-> The aclapi.h header defines BuildTrusteeWithObjectsAndName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The aclapi.h header defines BuildTrusteeWithObjectsAndName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

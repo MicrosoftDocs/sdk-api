@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_IsItemVisible","ListView_IsItemVisible macro [Wi
 old-location: controls\ListView_IsItemVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isitemvisible.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_IsItemVisible, ListView_IsItemVisible macro [Windows Controls], _shell_ListView_IsItemVisible, _shell_ListView_IsItemVisible_cpp, commctrl/ListView_IsItemVisible, controls.ListView_IsItemVisible, controls._shell_ListView_IsItemVisible
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_IsItemVisible macro
+
+## -syntax
+
+```cpp
+UINT ListView_IsItemVisible(
+  [in] HWND hwnd,
+  [in] UINT index
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if visible, or <b>FALSE</b> otherwise.
 
 
 ## -description

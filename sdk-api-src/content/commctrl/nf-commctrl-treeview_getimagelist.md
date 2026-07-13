@@ -6,7 +6,7 @@ helpviewer_keywords: ["TVSIL_NORMAL","TVSIL_STATE","TreeView_GetImageList","Tree
 old-location: controls\TreeView_GetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getimagelist.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_GetImageList, TreeView_GetImageList macro [Windows Controls], _win32_TreeView_GetImageList, _win32_TreeView_GetImageList_cpp, commctrl/TreeView_GetImageList, controls.TreeView_GetImageList, controls._win32_TreeView_GetImageList
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_GetImageList macro
+
+## -syntax
+
+```cpp
+HIMAGELIST TreeView_GetImageList(
+   HWND hwnd,
+   INT  iImage
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns an HIMAGELIST handle to the specified image list.
 
 
 ## -description

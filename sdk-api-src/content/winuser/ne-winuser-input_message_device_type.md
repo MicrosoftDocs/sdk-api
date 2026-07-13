@@ -56,27 +56,27 @@ The type of device that sent the input message.
 
 ## -enum-fields
 
-### -field IMDT_UNAVAILABLE
+### -field IMDT_UNAVAILABLE:0x00000000
 
 The device type isn't identified.
 
-### -field IMDT_KEYBOARD
+### -field IMDT_KEYBOARD:0x00000001
 
 Keyboard input.
 
-### -field IMDT_MOUSE
+### -field IMDT_MOUSE:0x00000002
 
 Mouse input.
 
-### -field IMDT_TOUCH
+### -field IMDT_TOUCH:0x00000004
 
 Touch input.
 
-### -field IMDT_PEN
+### -field IMDT_PEN:0x00000008
 
 Pen or stylus input.
 
-### -field IMDT_TOUCHPAD
+### -field IMDT_TOUCHPAD:0x00000010
 
 Touchpad input (Windows 8.1 and later).
 

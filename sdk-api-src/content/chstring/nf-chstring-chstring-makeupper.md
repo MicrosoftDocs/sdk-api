@@ -61,7 +61,7 @@ api_name:
 
 The <b>MakeUpper</b> method converts a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string to an uppercase string.
 
-## -parameters
+
 
 ## -returns
 

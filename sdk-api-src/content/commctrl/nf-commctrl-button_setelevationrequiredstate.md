@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_SetElevationRequiredState","Button_SetElevationReq
 old-location: controls\Button_SetElevationRequiredState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setelevationrequiredstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_SetElevationRequiredState, Button_SetElevationRequiredState macro [Windows Controls], _shell_Button_SetElevationRequiredState, _shell_Button_SetElevationRequiredState_cpp, commctrl/Button_SetElevationRequiredState, controls.Button_SetElevationRequiredState, controls._shell_Button_SetElevationRequiredState
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Button_SetElevationRequiredState macro
+
+## -syntax
+
+```cpp
+LRESULT Button_SetElevationRequiredState(
+  [in] HWND hwnd,
+  [in] BOOL fRequired
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns 1 if successful, or an error code otherwise.
 
 
 ## -description

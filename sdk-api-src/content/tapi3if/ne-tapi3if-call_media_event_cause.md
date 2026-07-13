@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field CMC_UNKNOWN
+### -field CMC_UNKNOWN:0
 
 Call media is unknown.
 

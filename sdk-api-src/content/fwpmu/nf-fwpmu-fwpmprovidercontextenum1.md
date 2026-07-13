@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextEnum1
 title: FwpmProviderContextEnum1 function (fwpmu.h)
-description: Returns the next page of results from the provider context enumerator.
+description: Returns the next page of results from the provider context enumerator. (FwpmProviderContextEnum1)
 helpviewer_keywords: ["FwpmProviderContextEnum1","FwpmProviderContextEnum1 function [Filtering]","fwp.fwpmprovidercontextenum1_func","fwpmu/FwpmProviderContextEnum1"]
 old-location: fwp\fwpmprovidercontextenum1_func.htm
 tech.root: fwp

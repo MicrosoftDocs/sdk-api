@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.AddRefFromReferenceTracker
-title: IReferenceTrackerTarget::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerTarget::AddRefFromReferenceTracker (windows.ui.xaml.hosting.referencetracker.h)
 description: Indicates that the reference tracker is returning the target XAML object(s) from previous calls to FindTrackerTargets. Note that the reference is held by the reference tracker object in lieu of IUnknown::AddRef.
 helpviewer_keywords: ["AddRefFromReferenceTracker","AddRefFromReferenceTracker method [Windows Runtime]","AddRefFromReferenceTracker method [Windows Runtime]","IReferenceTrackerTarget interface","IReferenceTrackerTarget interface [Windows Runtime]","AddRefFromReferenceTracker method","IReferenceTrackerTarget.AddRefFromReferenceTracker","IReferenceTrackerTarget.xaml","IReferenceTrackerTarget::AddRefFromReferenceTracker","IReferenceTrackerTarget::xaml","windows/IReferenceTrackerTarget::AddRefFromReferenceTracker","winrt.ireferencetrackertarget_addreffromreferencetracker"]
 old-location: winrt\ireferencetrackertarget_addreffromreferencetracker.htm
@@ -45,14 +45,14 @@ api_name:
  - IReferenceTrackerTarget.AddRefFromReferenceTracker
 ---
 
-# IReferenceTrackerTarget::xaml
+# IReferenceTrackerTarget::AddRefFromReferenceTracker (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
 
 Indicates that the reference tracker is returning the target XAML object(s) from previous calls to  <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets">FindTrackerTargets</a>.  Note that the reference is held by the reference tracker object in lieu of <b>IUnknown::AddRef</b>.
 
-## -parameters
+
 
 ## -remarks
 

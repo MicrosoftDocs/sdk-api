@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteNonMember me
 old-location: security\iazapplicationgroup_deletenonmember.htm
 tech.root: security
 ms.assetid: 05d58f62-fa34-4829-a535-65ea0f5144ab
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplicationGroup object [Security],DeleteNonMember method, DeleteNonMember, DeleteNonMember method [Security], DeleteNonMember method [Security],AzApplicationGroup object, DeleteNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMember method, IAzApplicationGroup.DeleteNonMember, IAzApplicationGroup::DeleteNonMember, azroles/IAzApplicationGroup::DeleteNonMember, security.iazapplicationgroup_deletenonmember
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzApplicationGroup::DeleteNonMember
 
-
 ## -description
 
-The <b>DeleteNonMember</b> method removes the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of  accounts that are refused membership in the application group.
+The **DeleteNonMember** method removes the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form from the list of accounts that are refused membership in the application group.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the text form of the SID to remove from the list of  accounts that are refused membership in the application group.
+String that contains the text form of the SID to remove from the list of accounts that are refused membership in the application group.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of SIDs of accounts that are refused membership in this application group in text form, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembers">NonMembers</a> property.
+To view the list of SIDs of accounts that are refused membership in this application group in text form, use the [NonMembers](nf-azroles-iazapplicationgroup-get_nonmembers.md) property.
+
+## -see-also
+
+[NonMembers](nf-azroles-iazapplicationgroup-get_nonmembers.md)

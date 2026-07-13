@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_INFO_QUEUE_FILTER
 title: D3D12_INFO_QUEUE_FILTER (d3d12sdklayers.h)
-description: Debug message filter; contains a lists of message types to allow or deny.
+description: Debug message filter; contains a lists of message types to allow or deny. (D3D12_INFO_QUEUE_FILTER)
 helpviewer_keywords: ["D3D12_INFO_QUEUE_FILTER","D3D12_INFO_QUEUE_FILTER structure","d3d12sdklayers/D3D12_INFO_QUEUE_FILTER","direct3d12.d3d12_info_queue_filter"]
 old-location: direct3d12\d3d12_info_queue_filter.htm
 tech.root: direct3d12

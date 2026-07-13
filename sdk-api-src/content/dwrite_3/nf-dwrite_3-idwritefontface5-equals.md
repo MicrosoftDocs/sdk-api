@@ -4,14 +4,14 @@ title: IDWriteFontFace5::Equals
 description: Performs an equality comparison between the font face object on which **Equals** is being called and the font face object passed as a parameter.
 helpviewer_keywords: ["IDWriteFontFace5 interface [Direct Write]","Equals method","IDWriteFontFace5.Equals","IDWriteFontFace5::Equals","Equals","Equals method [Direct Write]","Equals method [Direct Write]","IDWriteFontFace5 interface","directwrite.idwritefontface5_equals","dwrite_3/IDWriteFontFace5::Equals"]
 tech.root: DirectWrite
-ms.date: 09/10/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontFace5 interface [Direct Write],Equals method, IDWriteFontFace5.Equals, IDWriteFontFace5::Equals, Equals, Equals method [Direct Write], Equals method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_equals, dwrite_3/IDWriteFontFace5::Equals
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

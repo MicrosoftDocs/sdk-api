@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptdlg.tagCSSW
 title: CERT_SELECT_STRUCT_W (cryptdlg.h)
-description: Contains criteria upon which to select certificates that are presented in a certificate selection dialog box. This structure is used in the CertSelectCertificate function.
+description: Contains criteria upon which to select certificates that are presented in a certificate selection dialog box. This structure is used in the CertSelectCertificate function. (Unicode)
 helpviewer_keywords: ["*PCERT_SELECT_STRUCT_W","CERT_SELECT_STRUCT","CERT_SELECT_STRUCT structure [Security]","CERT_SELECT_STRUCT_A","CERT_SELECT_STRUCT_W","CSS_ALLOWMULTISELECT","CSS_ENABLEHOOK","CSS_ENABLETEMPLATE","CSS_ENABLETEMPLATEHANDLE","CSS_HIDE_PROPERTIES","CSS_SHOW_HELP","PCERT_SELECT_STRUCT","PCERT_SELECT_STRUCT structure pointer [Security]","cryptdlg/CERT_SELECT_STRUCT","cryptdlg/CERT_SELECT_STRUCT_A","cryptdlg/CERT_SELECT_STRUCT_W","cryptdlg/PCERT_SELECT_STRUCT","security.cert_select_struct","security.cert_select_struct_w"]
 old-location: security\cert_select_struct.htm
 tech.root: security
@@ -256,4 +256,4 @@ A handle to the
 ## -remarks
 
 > [!NOTE]
-> The cryptdlg.h header defines CERT_SELECT_STRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cryptdlg.h header defines CERT_SELECT_STRUCT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

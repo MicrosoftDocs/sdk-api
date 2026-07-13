@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Contains parameters for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file">FSCTL_DUPLICATE_EXTENTS</a> control code that performs the <a href="/windows/desktop/FileIO/block-cloning">Block Cloning</a> operation.
+Contains parameters for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file">FSCTL_DUPLICATE_EXTENTS_TO_FILE</a> control code that performs the <a href="/windows/desktop/FileIO/block-cloning">Block Cloning</a> operation.
 
 ## -struct-fields
 

@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: PEB_LDR_DATA, *PPEB_LDR_DATA
 req.redist: 
-ms.custom: 19H1
+ms.custom: 24H2
 f1_keywords:
  - _PEB_LDR_DATA
  - winternl/_PEB_LDR_DATA
@@ -76,29 +76,37 @@ The head of a doubly-linked list that contains the loaded modules for the proces
 
 The <b>LIST_ENTRY</b> structure is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _LIST_ENTRY {
+
+``` syntax
+typedef struct _LIST_ENTRY {
    struct _LIST_ENTRY *Flink;
    struct _LIST_ENTRY *Blink;
-} LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;</code></pre>
+} LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;
+```
+
 The <b>LDR_DATA_TABLE_ENTRY</b> structure is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _LDR_DATA_TABLE_ENTRY {
+
+``` syntax
+typedef struct _LDR_DATA_TABLE_ENTRY {
     PVOID Reserved1[2];
     LIST_ENTRY InMemoryOrderLinks;
     PVOID Reserved2[2];
     PVOID DllBase;
-    PVOID EntryPoint;
-    PVOID Reserved3;
+    PVOID Reserved3[2];
     UNICODE_STRING FullDllName;
     BYTE Reserved4[8];
     PVOID Reserved5[3];
-    union {
+    union
+    {
         ULONG CheckSum;
         PVOID Reserved6;
     };
     ULONG TimeDateStamp;
 } LDR_DATA_TABLE_ENTRY, *PLDR_DATA_TABLE_ENTRY;
-</code></pre>
+
+```
+
 
 ## -see-also
 

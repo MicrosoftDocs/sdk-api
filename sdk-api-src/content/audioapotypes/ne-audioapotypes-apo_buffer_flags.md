@@ -4,7 +4,7 @@ title: APO_BUFFER_FLAGS (audioapotypes.h)
 description: Defines the buffer validation flags for the APO_CONNECTION_PROPERTY structure associated with each APO connection.
 helpviewer_keywords: ["APO_BUFFER_FLAGS","APO_BUFFER_FLAGS enumeration [Remote Desktop Services]","BUFFER_INVALID","BUFFER_SILENT","BUFFER_VALID","audioapotypes/APO_BUFFER_FLAGS","audioapotypes/BUFFER_INVALID","audioapotypes/BUFFER_SILENT","audioapotypes/BUFFER_VALID","termserv.apo_buffer_flags"]
 old-location: termserv\apo_buffer_flags.htm
-tech.root: TermServ
+tech.root: coreaudio
 ms.assetid: 996b56d7-1187-4ed7-b5f5-7d77291113f6
 ms.date: 12/05/2018
 ms.keywords: APO_BUFFER_FLAGS, APO_BUFFER_FLAGS enumeration [Remote Desktop Services], BUFFER_INVALID, BUFFER_SILENT, BUFFER_VALID, audioapotypes/APO_BUFFER_FLAGS, audioapotypes/BUFFER_INVALID, audioapotypes/BUFFER_SILENT, audioapotypes/BUFFER_VALID, termserv.apo_buffer_flags

@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
  - ie_shims.dll
@@ -98,7 +100,7 @@ If the specified pointer is not of type <a href="/windows/win32/api/winuser/ne-w
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>
 
 
 

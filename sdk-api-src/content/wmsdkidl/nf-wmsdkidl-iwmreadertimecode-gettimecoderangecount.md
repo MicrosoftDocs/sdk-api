@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetTimecodeRangeCount","GetTimecodeRangeCount method [win
 old-location: wmformat\iwmreadertimecode_gettimecoderangecount.htm
 tech.root: wmformat
 ms.assetid: df58f968-23f8-407b-b18c-569732635464
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetTimecodeRangeCount, GetTimecodeRangeCount method [windows Media Format], GetTimecodeRangeCount method [windows Media Format],IWMReaderTimecode interface, IWMReaderTimecode interface [windows Media Format],GetTimecodeRangeCount method, IWMReaderTimecode.GetTimecodeRangeCount, IWMReaderTimecode::GetTimecodeRangeCount, IWMReaderTimecodeGetTimecodeRangeCount, wmformat.iwmreadertimecode_gettimecoderangecount, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeCount
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetTimecodeRangeCount</b> method retrieves the total number of SMTPE time code ranges in a specified stream.
 

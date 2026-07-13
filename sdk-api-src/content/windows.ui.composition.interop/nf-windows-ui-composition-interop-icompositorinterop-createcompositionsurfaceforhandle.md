@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositorInterop.CreateCompositionSurfaceForHandle
-title: ICompositorInterop::composition (windows.ui.composition.interop.h)
+title: ICompositorInterop::CreateCompositionSurfaceForHandle (windows.ui.composition.interop.h)
 description: Creates an instance of CompositionSurface for use with the handle of a swapchain. In order to host media swapchain on a CompositionSurface, use the IMFMediaEngineEx::GetVideoSwapchainHandle method.
 helpviewer_keywords: ["CreateCompositionSurfaceForHandle","CreateCompositionSurfaceForHandle method","CreateCompositionSurfaceForHandle method","ICompositorInterop interface","ICompositorInterop interface","CreateCompositionSurfaceForHandle method","ICompositorInterop.CreateCompositionSurfaceForHandle","ICompositorInterop.composition","ICompositorInterop::CreateCompositionSurfaceForHandle","ICompositorInterop::composition","w_ui_comp.icompositorinterop_createcompositionsurfaceforhandle","windows/ICompositorInterop::CreateCompositionSurfaceForHandle"]
 old-location: w_ui_comp\icompositorinterop_createcompositionsurfaceforhandle.htm
@@ -45,7 +45,7 @@ api_name:
  - ICompositorInterop.CreateCompositionSurfaceForHandle
 ---
 
-# ICompositorInterop::composition
+# ICompositorInterop::CreateCompositionSurfaceForHandle (windows.ui.composition.interop.h)
 
 
 ## -description

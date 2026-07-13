@@ -56,7 +56,7 @@ Indicates whether the tracker property is added to the context in which the encl
 
 ## -enum-fields
 
-### -field CSC_DontUseTracker
+### -field CSC_DontUseTracker:0
 
 The tracker property is not added to the context in which the enclosed code runs.
 

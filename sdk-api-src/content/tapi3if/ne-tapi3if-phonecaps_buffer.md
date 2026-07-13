@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field PCB_DEVSPECIFICBUFFER
+### -field PCB_DEVSPECIFICBUFFER:0
 
 Device-specific phone capabilities.
 

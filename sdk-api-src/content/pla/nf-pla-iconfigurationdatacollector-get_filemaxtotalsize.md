@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_FileMaxTotalSize
 title: IConfigurationDataCollector::get_FileMaxTotalSize (pla.h)
-description: Retrieves or sets the maximum total file size of all files combined that you can collect.
+description: Retrieves or sets the maximum total file size of all files combined that you can collect. (Get)
 helpviewer_keywords: ["FileMaxTotalSize property [PLA]","FileMaxTotalSize property [PLA]","IConfigurationDataCollector interface","IConfigurationDataCollector interface [PLA]","FileMaxTotalSize property","IConfigurationDataCollector.FileMaxTotalSize","IConfigurationDataCollector.get_FileMaxTotalSize","IConfigurationDataCollector::FileMaxTotalSize","IConfigurationDataCollector::get_FileMaxTotalSize","IConfigurationDataCollector::put_FileMaxTotalSize","base.iconfigurationdatacollector_filemaxtotalsize","get_FileMaxTotalSize","pla.iconfigurationdatacollector_filemaxtotalsize","pla/IConfigurationDataCollector::FileMaxTotalSize","pla/IConfigurationDataCollector::get_FileMaxTotalSize","pla/IConfigurationDataCollector::put_FileMaxTotalSize"]
 old-location: pla\iconfigurationdatacollector_filemaxtotalsize.htm
 tech.root: PLA

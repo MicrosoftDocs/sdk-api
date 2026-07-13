@@ -52,7 +52,7 @@ api_name:
 
 Gets the mode that  is being used to interpret values by the device context.
 
-## -parameters
+
 
 ## -returns
 

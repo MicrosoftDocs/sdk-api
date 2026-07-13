@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the container can activate the object in place.
 
-## -parameters
+
 
 ## -returns
 

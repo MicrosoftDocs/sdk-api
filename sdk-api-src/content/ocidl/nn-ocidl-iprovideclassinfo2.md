@@ -54,8 +54,5 @@ An extension to <a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo">
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideClassInfo2</b> interface inherits from <b>IProvideClassInfo</b>. <b>IProvideClassInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IProvideClassInfo2</b> interface inherits from <b>IProvideClassInfo</b>. <b>IProvideClassInfo2</b> also has these types of members:
 

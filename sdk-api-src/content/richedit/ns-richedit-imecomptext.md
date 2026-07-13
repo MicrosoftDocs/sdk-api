@@ -87,8 +87,8 @@ The final composed string.
 
 ## -remarks
 
-This structure is used with the <a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a> message.
+This structure is used with the <a href="/windows/win32/controls/em-getimecomptext">EM_GETIMECOMPTEXT</a> message.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a>
+<a href="/windows/win32/controls/em-getimecomptext">EM_GETIMECOMPTEXT</a>

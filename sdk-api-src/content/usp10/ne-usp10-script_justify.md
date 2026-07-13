@@ -56,67 +56,67 @@ Defines glyph characteristic information that an application needs to implement 
 
 ## -enum-fields
 
-### -field SCRIPT_JUSTIFY_NONE
+### -field SCRIPT_JUSTIFY_NONE:0
 
 Justification cannot be applied at the glyph.
 
-### -field SCRIPT_JUSTIFY_ARABIC_BLANK
+### -field SCRIPT_JUSTIFY_ARABIC_BLANK:1
 
 The glyph represents a blank in an Arabic run.
 
-### -field SCRIPT_JUSTIFY_CHARACTER
+### -field SCRIPT_JUSTIFY_CHARACTER:2
 
 An inter-character justification point follows the glyph.
 
-### -field SCRIPT_JUSTIFY_RESERVED1
+### -field SCRIPT_JUSTIFY_RESERVED1:3
 
 Reserved.
 
-### -field SCRIPT_JUSTIFY_BLANK
+### -field SCRIPT_JUSTIFY_BLANK:4
 
 The glyph represents a blank outside an Arabic run.
 
-### -field SCRIPT_JUSTIFY_RESERVED2
+### -field SCRIPT_JUSTIFY_RESERVED2:5
 
 Reserved.
 
-### -field SCRIPT_JUSTIFY_RESERVED3
+### -field SCRIPT_JUSTIFY_RESERVED3:6
 
 Reserved.
 
-### -field SCRIPT_JUSTIFY_ARABIC_NORMAL
+### -field SCRIPT_JUSTIFY_ARABIC_NORMAL:7
 
 Normal middle-of-word glyph that connects to the right (begin).
 
-### -field SCRIPT_JUSTIFY_ARABIC_KASHIDA
+### -field SCRIPT_JUSTIFY_ARABIC_KASHIDA:8
 
 Kashida (U+0640) in the middle of the word.
 
-### -field SCRIPT_JUSTIFY_ARABIC_ALEF
+### -field SCRIPT_JUSTIFY_ARABIC_ALEF:9
 
 Final form of an alef-like (U+0627, U+0625, U+0623, U+0622).
 
-### -field SCRIPT_JUSTIFY_ARABIC_HA
+### -field SCRIPT_JUSTIFY_ARABIC_HA:10
 
 Final form of Ha (U+0647).
 
-### -field SCRIPT_JUSTIFY_ARABIC_RA
+### -field SCRIPT_JUSTIFY_ARABIC_RA:11
 
 Final form of Ra (U+0631).
 
-### -field SCRIPT_JUSTIFY_ARABIC_BA
+### -field SCRIPT_JUSTIFY_ARABIC_BA:12
 
 Final form of Ba (U+0628).
 
-### -field SCRIPT_JUSTIFY_ARABIC_BARA
+### -field SCRIPT_JUSTIFY_ARABIC_BARA:13
 
 Ligature of alike (U+0628,U+0631).
 
-### -field SCRIPT_JUSTIFY_ARABIC_SEEN
+### -field SCRIPT_JUSTIFY_ARABIC_SEEN:14
 
 Highest priority: initial shape of Seen class (U+0633).
 
-### -field SCRIPT_JUSTIFY_ARABIC_SEEN_M
+### -field SCRIPT_JUSTIFY_ARABIC_SEEN_M:15
 
 Highest priority: medial shape of Seen class (U+0633).
 

@@ -52,7 +52,7 @@ api_name:
 
 Shuts down the multicast client.
 
-## -parameters
+
 
 ## -returns
 

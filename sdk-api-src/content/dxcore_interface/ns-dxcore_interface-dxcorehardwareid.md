@@ -2,14 +2,11 @@
 UID: NS:dxcore_interface.DXCoreHardwareID
 title: DXCoreHardwareID
 description: Represents the PnP hardware ID parts for an adapter.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: DXCoreHardwareID structure, dxcore_interface.dxcorehardwareid
 ms.localizationpriority: low
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,30 +43,30 @@ Represents the PnP hardware ID parts for an adapter.
 
 ## -struct-fields
 
-### -field vendorId
+### -field vendorID
 
 Type: **uint32_t\***
 
-The PCI ID of the adapter's hardware vendor.
+The PCI ID or ACPI ID of the adapter's hardware vendor. If this value is less than or equal to 0xFFFF, it is a PCI ID; otherwise, it is an ACPI ID.
 
-### -field deviceId
-
-Type: **uint32_t\***
-
-The PCI ID of the adapter's hardware device.
-
-### -field subSysId
+### -field deviceID
 
 Type: **uint32_t\***
 
-The PCI ID of the adapter's hardware subsystem.
+The PCI ID or ACPI ID of the adapter's hardware device. If <b>vendorID</b> is a PCI ID, it is also a PCI ID; otherwise, it is an ACPI ID.
+
+### -field subSysID
+
+Type: **uint32_t\***
+
+The PCI ID or ACPI ID of the adapter's hardware subsystem. If <b>vendorID</b> is a PCI ID, it is also a PCI ID; otherwise, it is an ACPI ID.
 
 ### -field revision
 
 Type: **uint32_t\***
 
-The PCI ID of the adapter's revision number.
+The adapter's PCI or ACPI revision number. If <b>vendorID</b> is a PCI ID, it is a PCI device revision number; otherwise, it is an ACPI device revision number.
 
 ## -see-also
 
-[DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+[DXCore reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetPaletteEntries
 title: IDirect3DDevice9::SetPaletteEntries (d3d9.h)
-description: Sets palette entries.
+description: The IDirect3DDevice9::SetPaletteEntries method (d3d9.h) sets palette entries.
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetPaletteEntries method","IDirect3DDevice9.SetPaletteEntries","IDirect3DDevice9::SetPaletteEntries","SetPaletteEntries","SetPaletteEntries method [Direct3D 9]","SetPaletteEntries method [Direct3D 9]","IDirect3DDevice9 interface","bc7747ff-8f30-7495-fd87-8a6cb44c173c","d3d9helper/IDirect3DDevice9::SetPaletteEntries","direct3d9.idirect3ddevice9__setpaletteentries"]
 old-location: direct3d9\idirect3ddevice9__setpaletteentries.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpaletteentries.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPaletteEntries method, IDirect3DDevice9.SetPaletteEntries, IDirect3DDevice9::SetPaletteEntries, SetPaletteEntries, SetPaletteEntries method [Direct3D 9], SetPaletteEntries method [Direct3D 9],IDirect3DDevice9 interface, bc7747ff-8f30-7495-fd87-8a6cb44c173c, d3d9helper/IDirect3DDevice9::SetPaletteEntries, direct3d9.idirect3ddevice9__setpaletteentries
 req.header: d3d9.h
 req.include-header: D3D9.h

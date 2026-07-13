@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the statuses of all paths originating from the HBA port to a specified status.
 
@@ -72,7 +72,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -83,7 +83,7 @@ The statuses were successfully set.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_S_STATUSES_INCOMPLETELY_SET</b></b></dt>
+<dt><b>VDS_S_STATUSES_INCOMPLETELY_SET</b></dt>
 <dt>0x00042702L</dt>
 </dl>
 </td>

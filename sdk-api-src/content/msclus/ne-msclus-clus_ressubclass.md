@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUS_RESSUBCLASS
 title: CLUS_RESSUBCLASS (msclus.h)
-description: Identifies a resource subclass that manages a shared resource.
+description: The CLUS_RESSUBCLASS enumeration (msclus.h) identifies a resource subclass that manages a shared resource.
 helpviewer_keywords: ["CLUS_RESSUBCLASS","CLUS_RESSUBCLASS enumeration [Failover Cluster]","CLUS_RESSUBCLASS_SHARED","_CLUS_RESSUBCLASS","_CLUS_RESSUBCLASS enumeration [Failover Cluster]","clusapi/CLUS_RESSUBCLASS","clusapi/CLUS_RESSUBCLASS_SHARED","clusapi/_CLUS_RESSUBCLASS","msclus/CLUS_RESSUBCLASS","msclus/CLUS_RESSUBCLASS_SHARED","msclus/_CLUS_RESSUBCLASS","mscs.clus_ressubclass"]
 old-location: mscs\clus_ressubclass.htm
 tech.root: MsCS
 ms.assetid: 2e10a529-a12d-4259-a18a-be96471ab3a5
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: CLUS_RESSUBCLASS, CLUS_RESSUBCLASS enumeration [Failover Cluster], CLUS_RESSUBCLASS_SHARED, _CLUS_RESSUBCLASS, _CLUS_RESSUBCLASS enumeration [Failover Cluster], clusapi/CLUS_RESSUBCLASS, clusapi/CLUS_RESSUBCLASS_SHARED, clusapi/_CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS_SHARED, msclus/_CLUS_RESSUBCLASS, mscs.clus_ressubclass
 req.header: msclus.h
 req.include-header: 
@@ -55,7 +55,7 @@ Identifies a resource subclass that manages a shared resource.
 
 ## -enum-fields
 
-### -field CLUS_RESSUBCLASS_SHARED
+### -field CLUS_RESSUBCLASS_SHARED:0x80000000
 
 Identifies a resource subclass that manages a shared resource, such as a disk on a shared SCSI bus. The 
       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with the 

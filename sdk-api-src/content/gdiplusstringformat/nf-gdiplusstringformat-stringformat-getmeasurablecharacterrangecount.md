@@ -54,7 +54,7 @@ api_name:
 The <b>StringFormat::GetMeasurableCharacterRangeCount</b> method gets the number of measurable character ranges that are currently set. The character ranges that are set can be measured in a string by using the 
 			<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a> method.
 
-## -parameters
+
 
 ## -returns
 

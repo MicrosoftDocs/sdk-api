@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OnlineClusterGroup
 title: OnlineClusterGroup function (clusapi.h)
-description: Brings a group online.
+description: Brings a group online. (OnlineClusterGroup)
 helpviewer_keywords: ["OnlineClusterGroup","OnlineClusterGroup function [Failover Cluster]","PCLUSAPI_ONLINE_CLUSTER_GROUP","PCLUSAPI_ONLINE_CLUSTER_GROUP function [Failover Cluster]","_wolf_onlineclustergroup","clusapi/OnlineClusterGroup","clusapi/PCLUSAPI_ONLINE_CLUSTER_GROUP","mscs.onlineclustergroup"]
 old-location: mscs\onlineclustergroup.htm
 tech.root: MsCS

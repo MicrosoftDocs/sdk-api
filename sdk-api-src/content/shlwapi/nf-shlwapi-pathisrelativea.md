@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsRelativeA
 title: PathIsRelativeA function (shlwapi.h)
-description: Searches a path and determines if it is relative.
-helpviewer_keywords: ["PathIsRelative","PathIsRelative function [Windows Shell]","PathIsRelativeA","PathIsRelativeW","_win32_PathIsRelative","shell.PathIsRelative","shlwapi/PathIsRelative","shlwapi/PathIsRelativeA","shlwapi/PathIsRelativeW"]
+description: Searches a path and determines if it is relative. (ANSI)
+helpviewer_keywords: ["PathIsRelativeA", "shlwapi/PathIsRelativeA"]
 old-location: shell\PathIsRelative.htm
 tech.root: shell
 ms.assetid: ad36c277-645f-4c62-af7d-b75e29de573f
@@ -75,5 +75,5 @@ Returns <b>TRUE</b> if the path is relative, or <b>FALSE</b> if it is absolute.
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathIsRelative as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathIsRelative as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

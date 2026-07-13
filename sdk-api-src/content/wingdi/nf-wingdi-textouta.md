@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.TextOutA
 title: TextOutA function (wingdi.h)
-description: The TextOut function writes a character string at the specified location, using the currently selected font, background color, and text color.
-helpviewer_keywords: ["TextOut","TextOut function [Windows GDI]","TextOutA","TextOutW","_win32_TextOut","gdi.textout","wingdi/TextOut","wingdi/TextOutA","wingdi/TextOutW"]
+description: The TextOut function writes a character string at the specified location, using the currently selected font, background color, and text color. (ANSI)
+helpviewer_keywords: ["TextOutA", "wingdi/TextOutA"]
 old-location: gdi\textout.htm
 tech.root: gdi
 ms.assetid: 0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6
@@ -238,7 +238,7 @@ For an example, see <a href="/windows/desktop/gdi/enumerating-the-installed-font
 
 
 > [!NOTE]
-> The wingdi.h header defines TextOut as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines TextOut as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

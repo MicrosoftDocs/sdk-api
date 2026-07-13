@@ -54,7 +54,7 @@ Specifies the processing mode for the voice capture DSP. This enumeration is use
 
 ## -enum-fields
 
-### -field SINGLE_CHANNEL_AEC
+### -field SINGLE_CHANNEL_AEC:0
 
 AEC processing only.
 

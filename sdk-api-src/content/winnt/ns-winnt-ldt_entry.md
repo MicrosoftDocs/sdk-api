@@ -74,7 +74,7 @@ The high-order portion of the descriptor. This member may be interpreted as byte
 
 ### -field HighWord.Bytes.BaseMid
 
-Middle bits (16â€“23) of the base address of the segment.
+Middle bits (16–23) of the base address of the segment.
 
 ### -field HighWord.Bytes.Flags1
 
@@ -86,13 +86,13 @@ Values of the <b>LimitHi</b>, <b>Sys</b>, <b>Reserved_0</b>, <b>Default_Big</b>,
 
 ### -field HighWord.Bytes.BaseHi
 
-High bits (24â€“31) of the base address of the segment.
+High bits (24–31) of the base address of the segment.
 
 ### -field HighWord.Bits
 
 ### -field HighWord.Bits.BaseMid
 
-The middle bits (16â€“23) of the base address of the segment.
+The middle bits (16–23) of the base address of the segment.
 
 ### -field HighWord.Bits.Type
 
@@ -108,7 +108,7 @@ The present flag. This member is 1 if the segment is present in physical memory 
 
 ### -field HighWord.Bits.LimitHi
 
-The high bits (16â€“19) of the address of the last byte in the segment.
+The high bits (16–19) of the address of the last byte in the segment.
 
 ### -field HighWord.Bits.Sys
 
@@ -133,7 +133,7 @@ The granularity. This member contains 0 if the segment is byte granular, 1 if th
 
 ### -field HighWord.Bits.BaseHi
 
-The high bits (24â€“31) of the base address of the segment.
+The high bits (24–31) of the base address of the segment.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11Texture2D
 title: ID3D11Texture2D (d3d11.h)
-description: A 2D texture interface manages texel data, which is structured memory.
+description: A 2D texture interface manages texel data, which is structured memory. (ID3D11Texture2D)
 helpviewer_keywords: ["92f1d183-b220-944f-113a-e7696cd05d2f","ID3D11Texture2D","ID3D11Texture2D interface [Direct3D 11]","ID3D11Texture2D interface [Direct3D 11]","described","d3d11/ID3D11Texture2D","direct3d11.id3d11texture2d"]
 old-location: direct3d11\id3d11texture2d.htm
 tech.root: direct3d11
@@ -55,10 +55,7 @@ A 2D texture interface manages texel data, which is structured memory.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Texture2D</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>. <b>ID3D11Texture2D</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D11Texture2D</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>. <b>ID3D11Texture2D</b> also has these types of members:
 
 ## -remarks
 

@@ -55,10 +55,7 @@ An <b>IDXGIResource</b> interface allows resource sharing and identifies the mem
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIResource</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevicesubobject">IDXGIDeviceSubObject</a>. <b>IDXGIResource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIResource</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevicesubobject">IDXGIDeviceSubObject</a>. <b>IDXGIResource</b> also has these types of members:
 
 ## -remarks
 

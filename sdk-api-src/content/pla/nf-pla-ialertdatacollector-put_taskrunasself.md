@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_TaskRunAsSelf
 title: IAlertDataCollector::put_TaskRunAsSelf (pla.h)
-description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
+description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task. (IAlertDataCollector.put_TaskRunAsSelf)
 helpviewer_keywords: ["IAlertDataCollector interface [PLA]","TaskRunAsSelf property","IAlertDataCollector.TaskRunAsSelf","IAlertDataCollector.put_TaskRunAsSelf","IAlertDataCollector::TaskRunAsSelf","IAlertDataCollector::get_TaskRunAsSelf","IAlertDataCollector::put_TaskRunAsSelf","TaskRunAsSelf property [PLA]","TaskRunAsSelf property [PLA]","IAlertDataCollector interface","pla.ialertdatacollector_taskrunasself","pla/IAlertDataCollector::TaskRunAsSelf","pla/IAlertDataCollector::get_TaskRunAsSelf","pla/IAlertDataCollector::put_TaskRunAsSelf","put_TaskRunAsSelf"]
 old-location: pla\ialertdatacollector_taskrunasself.htm
 tech.root: PLA

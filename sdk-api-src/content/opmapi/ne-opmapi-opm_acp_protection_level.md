@@ -56,23 +56,23 @@ Specifies the protection level for Analog Copy Protection (ACP).
 
 ## -enum-fields
 
-### -field OPM_ACP_OFF
+### -field OPM_ACP_OFF:0
 
 ACP is disabled.
 
-### -field OPM_ACP_LEVEL_ONE
+### -field OPM_ACP_LEVEL_ONE:1
 
 ACP protection level 1.
 
-### -field OPM_ACP_LEVEL_TWO
+### -field OPM_ACP_LEVEL_TWO:2
 
 ACP protection level 2.
 
-### -field OPM_ACP_LEVEL_THREE
+### -field OPM_ACP_LEVEL_THREE:3
 
 ACP protection level 3.
 
-### -field OPM_ACP_FORCE_ULONG
+### -field OPM_ACP_FORCE_ULONG:0x7fffffff
 
 Reserved.
 

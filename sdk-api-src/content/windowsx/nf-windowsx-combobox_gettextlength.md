@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_GetTextLength","ComboBox_GetTextLength macro [Wi
 old-location: controls\ComboBox_GetTextLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_gettextlength.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_GetTextLength, ComboBox_GetTextLength macro [Windows Controls], _win32_ComboBox_GetTextLength, _win32_ComboBox_GetTextLength_cpp, controls.ComboBox_GetTextLength, controls._win32_ComboBox_GetTextLength, windowsx/ComboBox_GetTextLength
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ComboBox_GetTextLength macro
+
+## -syntax
+
+```cpp
+int ComboBox_GetTextLength(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The length, in characters, of the text.
 
 
 ## -description

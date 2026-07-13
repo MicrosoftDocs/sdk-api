@@ -111,7 +111,7 @@ Return the sample after it has been cleaned and filtered.
 
 * **WINBIO_DATA_FLAG_PROCESSED**
 
-Return the sample after it is ready to be used for the purpose specified by the <mark type="param">Purpose</mark> parameter.
+Return the sample after it is ready to be used for the purpose specified by the <mark>Purpose</mark> parameter.
 
 ### -param CaptureCallback [in]
 
@@ -133,7 +133,7 @@ If the function succeeds, it returns <b>S_OK</b>. If the function fails, it retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -144,7 +144,7 @@ The caller does not have permission to capture raw samples, or the session was n
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -4,15 +4,15 @@ title: GetCurrentProcessToken function (processthreadsapi.h)
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the access token associated with a process.
 helpviewer_keywords: ["GetCurrentProcessToken","GetCurrentProcessToken function [Security]","processthreadsapi/GetCurrentProcessToken","security.getcurrentprocesstoken"]
 old-location: security\getcurrentprocesstoken.htm
-tech.root: security
+tech.root: processthreadsapi
 ms.assetid: 9DD1781A-4C77-4E22-9FCF-579FC90F3028
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessToken, GetCurrentProcessToken function [Security], processthreadsapi/GetCurrentProcessToken, security.getcurrentprocesstoken
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,7 +52,7 @@ api_name:
 
 Retrieves a pseudo-handle that you can use as a shorthand way to refer to the <a href="/windows/desktop/SecGloss/a-gly">access token</a> associated with a process.
 
-## -parameters
+
 
 ## -returns
 

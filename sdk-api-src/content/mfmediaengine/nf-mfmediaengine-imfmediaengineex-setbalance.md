@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetBalance
 title: IMFMediaEngineEx::SetBalance (mfmediaengine.h)
-description: Sets the audio balance.
+description: Sets the audio balance. (IMFMediaEngineEx.SetBalance)
 helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","SetBalance method","IMFMediaEngineEx.SetBalance","IMFMediaEngineEx::SetBalance","SetBalance","SetBalance method [Media Foundation]","SetBalance method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_setbalance","mfmediaengine/IMFMediaEngineEx::SetBalance"]
 old-location: mf\imfmediaengineex_setbalance.htm
 tech.root: mf
@@ -96,7 +96,7 @@ If the value is zero, the left and right channels are at equal volumes. The defa
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

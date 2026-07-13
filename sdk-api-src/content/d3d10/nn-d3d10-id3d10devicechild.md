@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10DeviceChild
 title: ID3D10DeviceChild (d3d10.h)
-description: A device-child interface accesses data used by a device.
+description: A device-child interface accesses data used by a device. (ID3D10DeviceChild)
 helpviewer_keywords: ["ID3D10DeviceChild","ID3D10DeviceChild interface [Direct3D 10]","ID3D10DeviceChild interface [Direct3D 10]","described","d3d10/ID3D10DeviceChild","direct3d10.id3d10devicechild","e38df520-7753-67fb-6fb9-7bd65b783c01"]
 old-location: direct3d10\id3d10devicechild.htm
 tech.root: direct3d10
@@ -55,10 +55,7 @@ A device-child interface accesses data used by a device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DeviceChild</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10DeviceChild</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10DeviceChild</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10DeviceChild</b> also has these types of members:
 
 ## -remarks
 

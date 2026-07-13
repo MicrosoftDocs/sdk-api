@@ -56,7 +56,7 @@ The <b>TOKEN_TYPE</b> enumeration contains values that differentiate between a <
 
 ## -enum-fields
 
-### -field TokenPrimary
+### -field TokenPrimary:1
 
 Indicates a primary token.
 

@@ -1,7 +1,7 @@
 ---
 UID: NE:icftypes.NET_FW_PROFILE_TYPE2_
 title: NET_FW_PROFILE_TYPE2 (icftypes.h)
-description: Specifies the type of profile.
+description: Specifies the type of profile. (NET_FW_PROFILE_TYPE2)
 helpviewer_keywords: ["NET_FW_PROFILE2_ALL","NET_FW_PROFILE2_DOMAIN","NET_FW_PROFILE2_PRIVATE","NET_FW_PROFILE2_PUBLIC","NET_FW_PROFILE_TYPE2","NET_FW_PROFILE_TYPE2 enumeration [ICS/ICF]","NET_FW_PROFILE_TYPE2_","icftypes/NET_FW_PROFILE2_ALL","icftypes/NET_FW_PROFILE2_DOMAIN","icftypes/NET_FW_PROFILE2_PRIVATE","icftypes/NET_FW_PROFILE2_PUBLIC","icftypes/NET_FW_PROFILE_TYPE2","ics.net_fw_profile_type2"]
 old-location: ics\net_fw_profile_type2.htm
 tech.root: ics
@@ -57,19 +57,19 @@ The
 
 ## -enum-fields
 
-### -field NET_FW_PROFILE2_DOMAIN
+### -field NET_FW_PROFILE2_DOMAIN:0x1
 
 Profile type is domain.
 
-### -field NET_FW_PROFILE2_PRIVATE
+### -field NET_FW_PROFILE2_PRIVATE:0x2
 
 Profile type is private. This profile type is used for home and other private network types.
 
-### -field NET_FW_PROFILE2_PUBLIC
+### -field NET_FW_PROFILE2_PUBLIC:0x4
 
 Profile type is public. This profile type is used for public Internet access points.
 
-### -field NET_FW_PROFILE2_ALL
+### -field NET_FW_PROFILE2_ALL:0x7fffffff
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NE:resapi.RESOURCE_MONITOR_STATE
 title: RESOURCE_MONITOR_STATE (resapi.h)
-description: TBD.
+description: The RESOURCE_MONITOR_STATE enumeration provides a view of instrumentation activity that takes place when an application is running. 
 helpviewer_keywords: ["RESOURCE_MONITOR_STATE","RESOURCE_MONITOR_STATE enumeration [Failover Cluster]","RmonArbitrateResource","RmonDeadlocked","RmonDeletingResource","RmonIdle","RmonInitializing","RmonInitializingResource","RmonIsAlivePoll","RmonLooksAlivePoll","RmonOfflineResource","RmonOnlineResource","RmonReleaseResource","RmonResourceControl","RmonResourceTypeControl","RmonShutdownResource","RmonStartingResource","RmonTerminateResource","mscs.resource_monitor_state","resapi/RESOURCE_MONITOR_STATE","resapi/RmonArbitrateResource","resapi/RmonDeadlocked","resapi/RmonDeletingResource","resapi/RmonIdle","resapi/RmonInitializing","resapi/RmonInitializingResource","resapi/RmonIsAlivePoll","resapi/RmonLooksAlivePoll","resapi/RmonOfflineResource","resapi/RmonOnlineResource","resapi/RmonReleaseResource","resapi/RmonResourceControl","resapi/RmonResourceTypeControl","resapi/RmonShutdownResource","resapi/RmonStartingResource","resapi/RmonTerminateResource"]
 old-location: mscs\resource_monitor_state.htm
 tech.root: MsCS
 ms.assetid: 9501ed9b-af72-43fd-b242-a5d118b92b0e
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: RESOURCE_MONITOR_STATE, RESOURCE_MONITOR_STATE enumeration [Failover Cluster], RmonArbitrateResource, RmonDeadlocked, RmonDeletingResource, RmonIdle, RmonInitializing, RmonInitializingResource, RmonIsAlivePoll, RmonLooksAlivePoll, RmonOfflineResource, RmonOnlineResource, RmonReleaseResource, RmonResourceControl, RmonResourceTypeControl, RmonShutdownResource, RmonStartingResource, RmonTerminateResource, mscs.resource_monitor_state, resapi/RESOURCE_MONITOR_STATE, resapi/RmonArbitrateResource, resapi/RmonDeadlocked, resapi/RmonDeletingResource, resapi/RmonIdle, resapi/RmonInitializing, resapi/RmonInitializingResource, resapi/RmonIsAlivePoll, resapi/RmonLooksAlivePoll, resapi/RmonOfflineResource, resapi/RmonOnlineResource, resapi/RmonReleaseResource, resapi/RmonResourceControl, resapi/RmonResourceTypeControl, resapi/RmonShutdownResource, resapi/RmonStartingResource, resapi/RmonTerminateResource
 req.header: resapi.h
 req.include-header: 

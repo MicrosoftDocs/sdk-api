@@ -113,7 +113,7 @@ The media type is not set on one or more streams.
 
 ## -remarks
 
-Before calling this method, set the media types on all input and output streams.
+Each message type has a different requirement for calling order, see the <a href="/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a> enumeration for more details.
       
 
 The MFT might ignore certain message types. If so, the method returns <b>S_OK</b>. An error code indicates that the transform handles this message type but was unable to process the message in this instance.

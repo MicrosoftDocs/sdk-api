@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-devices-config-l1-1-2.dll
  - CfgMgr32.dll
  - API-MS-Win-devices-config-l1-1-0.dll
  - API-MS-Win-devices-config-l1-1-1.dll
@@ -53,6 +54,9 @@ api_name:
 ## -description
 
 The <b>CM_Get_Child</b> function is used to retrieve a device instance handle to the first child node of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.
+
+> [!NOTE]
+> In Windows Vista and later versions of Windows, the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-) uses the [**DEVPKEY_Device_Children**](/windows-hardware/drivers/install/devpkey-device-children) [property key](/windows-hardware/drivers/install/property-keys) to represent device children. See [Retrieving Device Relations](/windows-hardware/drivers/install/retrieving-device-relations) for details.
 
 ## -parameters
 
@@ -78,7 +82,7 @@ To enumerate all children of a devnode in the local machine's device tree, first
 
 <b>Using Device Instance Handles</b>
 
-Device instance handle that you use with <a href="/previous-versions/ff549713(v=vs.85)">PnP configuration manager functions</a> are bound to machine handles, as follows:
+Device instance handle that you use with <a href="/windows/win32/api/cfgmgr32/">PnP configuration manager functions</a> are bound to machine handles, as follows:
 
 <ul>
 <li>
@@ -110,7 +114,7 @@ Use one of the following functions, which retrieves local and remote device inst
 
 </li>
 </ul>
-You can also use the <a href="/previous-versions/ff541299(v=vs.85)">device installation functions</a> to obtain local device instance handles from a device information set that is bound to the local machine. Do the following steps: 
+You can also use the <a href="/windows-hardware/drivers/install/using-device-installation-functions#ddk-update-driver-function-dg">device installation functions</a> to obtain local device instance handles from a device information set that is bound to the local machine. Do the following steps: 
 
 <ol>
 <li>

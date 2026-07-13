@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_GetDroppedState","ComboBox_GetDroppedState macro
 old-location: controls\ComboBox_GetDroppedState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getdroppedstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_GetDroppedState, ComboBox_GetDroppedState macro [Windows Controls], _win32_ComboBox_GetDroppedState, _win32_ComboBox_GetDroppedState_cpp, controls.ComboBox_GetDroppedState, controls._win32_ComboBox_GetDroppedState, windowsx/ComboBox_GetDroppedState
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ComboBox_GetDroppedState macro
+
+## -syntax
+
+```cpp
+BOOL ComboBox_GetDroppedState(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if the drop list is visible; otherwise <b>FALSE</b>.
 
 
 ## -description

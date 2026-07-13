@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.GetAcceptLanguagesA
 title: GetAcceptLanguagesA function (shlwapi.h)
-description: Retrieves a string used with websites when specifying language preferences.
-helpviewer_keywords: ["GetAcceptLanguages","GetAcceptLanguages function [Windows Shell]","GetAcceptLanguagesA","GetAcceptLanguagesW","_shell_GetAcceptLanguages","shell.GetAcceptLanguages","shlwapi/GetAcceptLanguages","shlwapi/GetAcceptLanguagesA","shlwapi/GetAcceptLanguagesW"]
+description: Retrieves a string used with websites when specifying language preferences. (ANSI)
+helpviewer_keywords: ["GetAcceptLanguagesA", "shlwapi/GetAcceptLanguagesA"]
 old-location: shell\GetAcceptLanguages.htm
 tech.root: shell
 ms.assetid: a680a7fd-f980-485d-b52a-eb4d482ebc17
@@ -82,7 +82,7 @@ On exit, it is the actual size of <i>pszLanguages</i>, not including the termina
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -96,4 +96,4 @@ Some websites offer content in multiple languages. You can specify your language
 
 
 > [!NOTE]
-> The shlwapi.h header defines GetAcceptLanguages as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines GetAcceptLanguages as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

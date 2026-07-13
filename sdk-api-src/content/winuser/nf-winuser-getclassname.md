@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetClassName
 title: GetClassName function (winuser.h)
-description: Retrieves the name of the class to which the specified window belongs.
+description: The GetClassName function retrieves the name of the class to which the specified window belongs. (GetClassName)
 helpviewer_keywords: ["GetClassName","GetClassName function [Windows and Messages]","GetClassNameA","GetClassNameW","_win32_GetClassName","_win32_getclassname_cpp","winmsg.getclassname","winui._win32_getclassname","winuser/GetClassName","winuser/GetClassNameA","winuser/GetClassNameW"]
 old-location: winmsg\getclassname.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassname.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: GetClassName, GetClassName function [Windows and Messages], GetClassNameA, GetClassNameW, _win32_GetClassName, _win32_getclassname_cpp, winmsg.getclassname, winui._win32_getclassname, winuser/GetClassName, winuser/GetClassNameA, winuser/GetClassNameW
 req.header: winuser.h
 req.include-header: Windows.h

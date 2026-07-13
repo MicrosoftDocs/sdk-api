@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetAgentCapsW
 title: lineGetAgentCapsW function (tapi.h)
-description: The lineGetAgentCaps function obtains the agent-related capabilities supported on the specified line device. If a specific agent is named, the capabilities include a listing of ACD groups into which the agent is permitted to log in.
-helpviewer_keywords: ["_tapi2_linegetagentcaps","lineGetAgentCaps","lineGetAgentCaps function [TAPI 2.2]","lineGetAgentCapsA","lineGetAgentCapsW","tapi/lineGetAgentCaps","tapi/lineGetAgentCapsA","tapi/lineGetAgentCapsW","tapi2.linegetagentcaps"]
+description: The lineGetAgentCaps function obtains the agent-related capabilities supported on the specified line device. If a specific agent is named, the capabilities include a listing of ACD groups into which the agent is permitted to log in. (Unicode)
+helpviewer_keywords: ["_tapi2_linegetagentcaps", "lineGetAgentCaps", "lineGetAgentCaps function [TAPI 2.2]", "lineGetAgentCapsW", "tapi/lineGetAgentCaps", "tapi/lineGetAgentCapsW", "tapi2.linegetagentcaps"]
 old-location: tapi2\linegetagentcaps.htm
 tech.root: tapi3
 ms.assetid: 04bb6c00-2654-4707-ab11-2490ab5d9ab0
@@ -105,4 +105,4 @@ LINEERR_BADDEVICEID, LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_INVALADDRESSID, LIN
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineGetAgentCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetAgentCaps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

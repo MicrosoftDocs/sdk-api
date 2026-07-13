@@ -1,12 +1,12 @@
 ---
 UID: NF:winnls.CompareString
 title: CompareString function (winnls.h)
-description: Compares two character strings, for a locale specified by identifier.Caution  Using CompareString incorrectly can compromise the security of your application.
+description: The CompareString function (winnls.h) compares two character strings for a locale specified by an identifier.
 helpviewer_keywords: ["CompareString","CompareString function [Internationalization for Windows Applications]","CompareStringA","CompareStringW","_win32_CompareString","_win32_CompareString_cpp","intl.comparestring","stringapiset/CompareString","stringapiset/CompareStringA","stringapiset/CompareStringW","winnls/CompareString","winnls/CompareStringA","winnls/CompareStringW","winui._win32_CompareString"]
 old-location: intl\comparestring.htm
 tech.root: Intl
 ms.assetid: 4db84fa7-f3c2-48fb-ad7d-8673397c4b0e
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: CompareString, CompareString function [Internationalization for Windows Applications], CompareStringA, CompareStringW, _win32_CompareString, _win32_CompareString_cpp, intl.comparestring, stringapiset/CompareString, stringapiset/CompareStringA, stringapiset/CompareStringW, winnls/CompareString, winnls/CompareStringA, winnls/CompareStringW, winui._win32_CompareString
 req.header: winnls.h
 req.include-header: Windows.h

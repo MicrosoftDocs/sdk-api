@@ -52,7 +52,7 @@ api_name:
 
 Enables the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> function to override default registry mappings under Windows Vista Service Pack 1 (SP1), Windows Server 2008, and later operating system versions.
 
-## -parameters
+
 
 ## -remarks
 

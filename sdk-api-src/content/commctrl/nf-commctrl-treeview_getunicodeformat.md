@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetUnicodeFormat","TreeView_GetUnicodeFormat mac
 old-location: controls\TreeView_GetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getunicodeformat.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetUnicodeFormat, TreeView_GetUnicodeFormat macro [Windows Controls], _win32_TreeView_GetUnicodeFormat, _win32_TreeView_GetUnicodeFormat_cpp, commctrl/TreeView_GetUnicodeFormat, controls.TreeView_GetUnicodeFormat, controls._win32_TreeView_GetUnicodeFormat
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TreeView_GetUnicodeFormat macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_GetUnicodeFormat(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns the Unicode format flag for the control. If this value is nonzero, the control is using Unicode characters. If this value is zero, the control is using ANSI characters.
 
 
 ## -description

@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiDetermineApplicablePatchesA
 title: MsiDetermineApplicablePatchesA function (msi.h)
-description: The MsiDetermineApplicablePatches function takes a set of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer package and in what sequence.
-helpviewer_keywords: ["MsiDetermineApplicablePatches","MsiDetermineApplicablePatches function","MsiDetermineApplicablePatchesA","MsiDetermineApplicablePatchesW","msi/MsiDetermineApplicablePatches","msi/MsiDetermineApplicablePatchesA","msi/MsiDetermineApplicablePatchesW","setup.msidetermineapplicablepatches"]
+description: The MsiDetermineApplicablePatches function takes a set of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer package and in what sequence. (ANSI)
+helpviewer_keywords: ["MsiDetermineApplicablePatchesA", "msi/MsiDetermineApplicablePatchesA"]
 old-location: setup\msidetermineapplicablepatches.htm
 tech.root: setup
 ms.assetid: 2362d1dd-695e-48a3-b8ef-4516952ed253
@@ -197,7 +197,7 @@ If the function fails, the <a href="/windows/desktop/api/msi/ns-msi-msipatchsequ
 
 
 > [!NOTE]
-> The msi.h header defines MsiDetermineApplicablePatches as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiDetermineApplicablePatches as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

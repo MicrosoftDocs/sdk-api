@@ -4,6 +4,7 @@
     "winerror.h",
     "fwpmu.h",
     "fwptypes.h",
+    "fwpsu.h",
     "iketypes.h",
     "ipsectypes.h",
     "netiodef.h",

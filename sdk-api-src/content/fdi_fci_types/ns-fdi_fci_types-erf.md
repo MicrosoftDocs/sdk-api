@@ -1,5 +1,5 @@
 ---
-UID: NS:fdi_fci_types.__unnamed_struct_0
+UID: NS:fdi_fci_types.ERF
 title: ERF (fdi_fci_types.h)
 description: The ERF structure contains error information from FCI/FDI. The caller should not modify this structure.
 helpviewer_keywords: ["*PERF","ERF","ERF FAR *PERF","ERF FAR *PERF structure [Windows API]","ERF structure [Windows API]","FCIERR_ALLOC_FAIL","FCIERR_BAD_COMPR_TYPE","FCIERR_CAB_FILE","FCIERR_CAB_FORMAT_LIMIT","FCIERR_MCI_FAIL","FCIERR_NONE","FCIERR_OPEN_SRC","FCIERR_READ_SRC","FCIERR_TEMP_FILE","FCIERR_USER_ABORT","FDIERROR_ALLOC_FAIL","FDIERROR_BAD_COMPR_TYPE","FDIERROR_CABINET_NOT_FOUND","FDIERROR_CORRUPT_CABINET","FDIERROR_MDI_FAIL","FDIERROR_NONE","FDIERROR_NOT_A_CABINET","FDIERROR_RESERVE_MISMATCH","FDIERROR_TARGET_FILE","FDIERROR_UNKNOWN_CABINET_VERSION","FDIERROR_USER_ABORT","FDIERROR_WRONG_CABINET","fdi_fci_types/ERF","winprog.erf"]
@@ -338,3 +338,4 @@ A flag that indicates an error. If <b>TRUE</b>, an error is present.
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/extract">Extract</a>
+

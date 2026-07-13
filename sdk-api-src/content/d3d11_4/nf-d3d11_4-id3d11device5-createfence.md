@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_4.ID3D11Device5.CreateFence
 title: ID3D11Device5::CreateFence (d3d11_4.h)
-description: Creates a fence object.
+description: Creates a fence object. (ID3D11Device5.CreateFence)
 helpviewer_keywords: ["CreateFence","CreateFence method [Direct3D 11]","CreateFence method [Direct3D 11]","ID3D11Device5 interface","ID3D11Device5 interface [Direct3D 11]","CreateFence method","ID3D11Device5.CreateFence","ID3D11Device5::CreateFence","d3d11_4/ID3D11Device5::CreateFence","direct3d11.id3d11device5_createfence"]
 old-location: direct3d11\id3d11device5_createfence.htm
 tech.root: direct3d11

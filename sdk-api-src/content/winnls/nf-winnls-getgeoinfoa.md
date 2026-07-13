@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.GetGeoInfoA
 title: GetGeoInfoA function (winnls.h)
-description: Retrieves information about a specified geographical location.
-helpviewer_keywords: ["GetGeoInfo","GetGeoInfo function [Internationalization for Windows Applications]","GetGeoInfoA","GetGeoInfoW","_win32_GetGeoInfo","intl.getgeoinfo","winnls/GetGeoInfo","winnls/GetGeoInfoA","winnls/GetGeoInfoW"]
+description: Retrieves information about a specified geographical location. (ANSI)
+helpviewer_keywords: ["GetGeoInfoA", "winnls/GetGeoInfoA"]
 old-location: intl\getgeoinfo.htm
 tech.root: Intl
 ms.assetid: 73827ed9-bdc5-4b34-b849-fb44b3c5bd6e
@@ -121,7 +121,7 @@ If the application specifies GEO_LCID for <i>GeoType</i>, the function treats th
 
 
 > [!NOTE]
-> The winnls.h header defines GetGeoInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines GetGeoInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

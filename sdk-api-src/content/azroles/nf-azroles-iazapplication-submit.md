@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplication object [Security]","Submit method","IAzAppl
 old-location: security\iazapplication_submit.htm
 tech.root: security
 ms.assetid: d00d55a1-884f-46c2-b80b-f90ce8f5c648
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplication object [Security],Submit method, IAzApplication interface [Security],Submit method, IAzApplication.Submit, IAzApplication::Submit, Submit, Submit method [Security], Submit method [Security],AzApplication object, Submit method [Security],IAzApplication interface, azroles/IAzApplication::Submit, security.iazapplication_submit
 req.header: azroles.h
 req.include-header: 
@@ -48,23 +48,30 @@ api_name:
 
 # IAzApplication::Submit
 
-
 ## -description
 
-The <b>Submit</b> method persists changes made to the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
+The **Submit** method persists changes made to the [IAzApplication](nn-azroles-iazapplication.md) object.
 
 ## -parameters
 
 ### -param lFlags [in]
 
-Flags that modify the behavior of the <b>Submit</b> method. The default value is zero. If the AZ_SUBMIT_FLAG_ABORT flag is specified, the changes to the object are discarded and the object is updated to match the underlying policy store.
+Flags that modify the behavior of the **Submit** method. The default value is zero. If the **AZ_SUBMIT_FLAG_ABORT** flag is specified, the changes to the object are discarded and the object is updated to match the underlying policy store.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object are not persisted until the <b>Submit</b> method is called. 
+Any additions or modifications to an [IAzApplication](nn-azroles-iazapplication.md) object are not persisted until the **Submit** method is called.
 
-The <b>Submit</b> method does not extend to child objects; child objects  must be individually persisted to the policy store. A created <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.
+The **Submit** method does not extend to child objects; child objects  must be individually persisted to the policy store. A created [IAzApplication](nn-azroles-iazapplication.md) object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.
+
+## -see-also
+
+[IAzApplication](nn-azroles-iazapplication.md)

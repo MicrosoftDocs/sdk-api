@@ -54,23 +54,23 @@ Defines events that are sent by the sharing engine.
 
 ## -enum-fields
 
-### -field MF_SHARING_ENGINE_EVENT_DISCONNECT
+### -field MF_SHARING_ENGINE_EVENT_DISCONNECT:2000
 
 Reserved for internal use.
 
-### -field MF_SHARING_ENGINE_EVENT_LOCALRENDERINGSTARTED
+### -field MF_SHARING_ENGINE_EVENT_LOCALRENDERINGSTARTED:2001
 
 Reserved for internal use.
 
-### -field MF_SHARING_ENGINE_EVENT_LOCALRENDERINGENDED
+### -field MF_SHARING_ENGINE_EVENT_LOCALRENDERINGENDED:2002
 
 Reserved for internal use.
 
-### -field MF_SHARING_ENGINE_EVENT_STOPPED
+### -field MF_SHARING_ENGINE_EVENT_STOPPED:2003
 
 The device has stopped.
 
-### -field MF_SHARING_ENGINE_EVENT_ERROR
+### -field MF_SHARING_ENGINE_EVENT_ERROR:2501
 
 ## -see-also
 

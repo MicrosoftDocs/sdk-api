@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetPath
 title: IShellLinkA::GetPath (shobjidl_core.h)
-description: Gets the path and file name of the target of a Shell link object.
+description: Gets the path and file name of the target of a Shell link object. (ANSI)
 helpviewer_keywords: ["GetPath","GetPath method [Windows Shell]","GetPath method [Windows Shell]","IShellLink interface","GetPath method [Windows Shell]","IShellLinkA interface","GetPath method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetPath method","IShellLink::GetPath","IShellLinkA interface [Windows Shell]","GetPath method","IShellLinkA.GetPath","IShellLinkA::GetPath","IShellLinkW interface [Windows Shell]","GetPath method","IShellLinkW::GetPath","SLGP_RAWPATH","SLGP_RELATIVEPRIORITY","SLGP_SHORTPATH","SLGP_UNCPRIORITY","_win32_IShellLink_GetPath","shell.IShellLink_GetPath","shobjidl_core/IShellLink::GetPath","shobjidl_core/IShellLinkA::GetPath","shobjidl_core/IShellLinkW::GetPath"]
 old-location: shell\IShellLink_GetPath.htm
 tech.root: shell

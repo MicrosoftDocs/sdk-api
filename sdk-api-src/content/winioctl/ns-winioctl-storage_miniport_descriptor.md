@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._STORAGE_MINIPORT_DESCRIPTOR
 title: STORAGE_MINIPORT_DESCRIPTOR
-description: Reserved for system use.
+description: Reserved for system use. (STORAGE_MINIPORT_DESCRIPTOR)
 helpviewer_keywords: ["*PSTORAGE_MINIPORT_DESCRIPTOR","PSTORAGE_MINIPORT_DESCRIPTOR","PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Files]","STORAGE_MINIPORT_DESCRIPTOR","STORAGE_MINIPORT_DESCRIPTOR structure [Files]","StoragePortCodeSetReserved","StoragePortCodeSetSCSIport","StoragePortCodeSetStorport","fs.storage_miniport_descriptor","winioctl/PSTORAGE_MINIPORT_DESCRIPTOR","winioctl/STORAGE_MINIPORT_DESCRIPTOR"]
 old-location: fs\storage_miniport_descriptor.htm
 tech.root: fs

@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Clone
 title: IEnumOfflineFilesSettings::Clone (cscobj.h)
-description: Creates a new instance of the enumerator with the same enumeration state as the current one.
+description: Creates a new instance of the enumerator with the same enumeration state as the current one. (IEnumOfflineFilesSettings.Clone)
 helpviewer_keywords: ["Clone","Clone method [Offline Files]","Clone method [Offline Files]","IEnumOfflineFilesSettings interface","IEnumOfflineFilesSettings interface [Offline Files]","Clone method","IEnumOfflineFilesSettings.Clone","IEnumOfflineFilesSettings::Clone","cscobj/IEnumOfflineFilesSettings::Clone","of.ienumofflinefilessettings_clone"]
 old-location: of\ienumofflinefilessettings_clone.htm
 tech.root: of

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ScrollBar_GetRange","ScrollBar_GetRange macro [Windows Co
 old-location: controls\ScrollBar_GetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ScrollBar_GetRange, ScrollBar_GetRange macro [Windows Controls], _win32_ScrollBar_GetRange, _win32_ScrollBar_GetRange_cpp, controls.ScrollBar_GetRange, controls._win32_ScrollBar_GetRange, windowsx/ScrollBar_GetRange
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ScrollBar_GetRange macro
+
+## -syntax
+
+```cpp
+BOOL ScrollBar_GetRange(
+   HWND hwndCtl,
+   int  *lpposMin,
+   int  *lpposMax
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if the call succeeded; otherwise <b>FALSE</b>.
 
 
 ## -description

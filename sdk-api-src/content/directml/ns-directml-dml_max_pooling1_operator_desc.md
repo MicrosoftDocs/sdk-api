@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_MAX_POOLING1_OPERATOR_DESC
 title: DML_MAX_POOLING1_OPERATOR_DESC
-description: Computes the maximum value across the elements within the sliding window over the input tensor, and optionally returns the indices of the maximum values selected.
+description: Computes the maximum value across the elements within the sliding window over the input tensor, and optionally returns the indices of the maximum values selected. (DML_MAX_POOLING1_OPERATOR_DESC)
 tech.root: directml
-ms.date: 11/03/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -105,7 +105,7 @@ The number of padding elements to be applied to the end of each spatial dimensio
 ## -remarks
 When *OutputIndicesTensor* is set to NULL, this operator is equivalent to [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc).
 
-A newer version of this operator, [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc), was introduced in `DML_FEATURE_LEVEL_2_1`.
+A newer version of this operator, [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling2_operator_desc), was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
@@ -115,6 +115,13 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 * *InputTensor* and *OutputTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputIndicesTensor | Optional output | 4 to 5 | UINT64, UINT32 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

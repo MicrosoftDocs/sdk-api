@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegGetPathW
 title: SHRegGetPathW function (shlwapi.h)
-description: Retrieves a file path from the registry, expanding environment variables as needed.
-helpviewer_keywords: ["SHRegGetPath","SHRegGetPath function [Windows Shell]","SHRegGetPathA","SHRegGetPathW","_win32_SHRegGetPath","shell.SHRegGetPath","shlwapi/SHRegGetPath","shlwapi/SHRegGetPathA","shlwapi/SHRegGetPathW"]
+description: Retrieves a file path from the registry, expanding environment variables as needed. (Unicode)
+helpviewer_keywords: ["SHRegGetPath", "SHRegGetPath function [Windows Shell]", "SHRegGetPathW", "_win32_SHRegGetPath", "shell.SHRegGetPath", "shlwapi/SHRegGetPath", "shlwapi/SHRegGetPathW"]
 old-location: shell\SHRegGetPath.htm
 tech.root: shell
 ms.assetid: 2874b868-33f9-4f20-9e0b-136125cf268c
@@ -142,4 +142,4 @@ The following environment strings will be replaced by their equivalent path.
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegGetPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegGetPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

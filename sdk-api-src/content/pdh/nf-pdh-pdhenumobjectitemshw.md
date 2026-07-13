@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhEnumObjectItemsHW
 title: PdhEnumObjectItemsHW function (pdh.h)
-description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. This function is identical to the PdhEnumObjectItems function, except that it supports the use of handles to data sources.
-helpviewer_keywords: ["PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjectItemsH","PdhEnumObjectItemsH function [Perf]","PdhEnumObjectItemsHA","PdhEnumObjectItemsHW","_win32_pdhenumobjectitemsh","base.pdhenumobjectitemsh","pdh/PdhEnumObjectItemsH","pdh/PdhEnumObjectItemsHA","pdh/PdhEnumObjectItemsHW","perf.pdhenumobjectitemsh"]
+description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. This function is identical to the PdhEnumObjectItems function, except that it supports the use of handles to data sources. (Unicode)
+helpviewer_keywords: ["PERF_DETAIL_ADVANCED", "PERF_DETAIL_EXPERT", "PERF_DETAIL_NOVICE", "PERF_DETAIL_WIZARD", "PdhEnumObjectItemsH", "PdhEnumObjectItemsH function [Perf]", "PdhEnumObjectItemsHW", "_win32_pdhenumobjectitemsh", "base.pdhenumobjectitemsh", "pdh/PdhEnumObjectItemsH", "pdh/PdhEnumObjectItemsHW", "perf.pdhenumobjectitemsh"]
 old-location: perf\pdhenumobjectitemsh.htm
 tech.root: perf
 ms.assetid: 2cea7d0a-cea2-4fee-a087-37663de254e9
@@ -241,7 +241,7 @@ The order of the instance and counter names is undetermined.
 
 
 > [!NOTE]
-> The pdh.h header defines PdhEnumObjectItemsH as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhEnumObjectItemsH as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

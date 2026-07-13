@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.phoneGetStatusW
 title: phoneGetStatusW function (tapi.h)
-description: The phoneGetStatus function enables an application to query the specified open phone device for its overall status.
-helpviewer_keywords: ["_tapi2_phonegetstatus","phoneGetStatus","phoneGetStatus function [TAPI 2.2]","phoneGetStatusA","phoneGetStatusW","tapi/phoneGetStatus","tapi/phoneGetStatusA","tapi/phoneGetStatusW","tapi2.phonegetstatus"]
+description: The phoneGetStatusW (Unicode) function (tapi.h) enables an application to query the specified open phone device for its overall status.
+helpviewer_keywords: ["_tapi2_phonegetstatus", "phoneGetStatus", "phoneGetStatus function [TAPI 2.2]", "phoneGetStatusW", "tapi/phoneGetStatus", "tapi/phoneGetStatusW", "tapi2.phonegetstatus"]
 old-location: tapi2\phonegetstatus.htm
 tech.root: tapi3
 ms.assetid: d2e9e209-54f5-4895-b57a-a5f4c24e063e
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_phonegetstatus, phoneGetStatus, phoneGetStatus function [TAPI 2.2], phoneGetStatusA, phoneGetStatusW, tapi/phoneGetStatus, tapi/phoneGetStatusA, tapi/phoneGetStatusW, tapi2.phonegetstatus
 req.header: tapi.h
 req.include-header: 
@@ -81,7 +81,7 @@ An application can use this function to determine the current state of an open p
 
 
 > [!NOTE]
-> The tapi.h header defines phoneGetStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines phoneGetStatus as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

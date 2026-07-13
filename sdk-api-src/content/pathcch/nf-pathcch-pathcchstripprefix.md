@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Removes the "\\?\" prefix, if present, from a file path.
+Removes the "\\\\?\\" prefix, if present, from a file path.
 
 ## -parameters
 

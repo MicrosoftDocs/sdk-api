@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetWorkAreas","ListView_GetWorkAreas macro [Wind
 old-location: controls\ListView_GetWorkAreas.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getworkareas.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetWorkAreas, ListView_GetWorkAreas macro [Windows Controls], _win32_ListView_GetWorkAreas, _win32_ListView_GetWorkAreas_cpp, commctrl/ListView_GetWorkAreas, controls.ListView_GetWorkAreas, controls._win32_ListView_GetWorkAreas
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,16 @@ api_name:
 
 # ListView_GetWorkAreas macro
 
+## -syntax
+
+```cpp
+void ListView_GetWorkAreas(
+   HWND   hwnd,
+   INT    nWorkAreas,
+   LPRECT prc
+);
+```
+
 
 ## -description
 
@@ -64,7 +74,7 @@ A handle to the list-view control.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-The number of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures in the array at <i>lprc</i>.
+The number of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures in the array at <i>prc</i>.
 
 ### -param prc
 

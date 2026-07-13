@@ -67,7 +67,7 @@ Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defi
 </tr>
 <tr>
 <td width="40%"><a id="MEDIASINK_FIXED_STREAMS"></a><a id="mediasink_fixed_streams"></a><dl>
-<dt><b><b>MEDIASINK_FIXED_STREAMS</b></b></dt>
+<dt><b>MEDIASINK_FIXED_STREAMS</b></dt>
 <dt>0x00000001</dt>
 </dl>
 </td>
@@ -79,7 +79,7 @@ The media sink has a fixed number of streams. It does not support the <a href="/
 </tr>
 <tr>
 <td width="40%"><a id="MEDIASINK_CANNOT_MATCH_CLOCK"></a><a id="mediasink_cannot_match_clock"></a><dl>
-<dt><b><b>MEDIASINK_CANNOT_MATCH_CLOCK</b></b></dt>
+<dt><b>MEDIASINK_CANNOT_MATCH_CLOCK</b></dt>
 <dt>0x00000002</dt>
 </dl>
 </td>
@@ -96,7 +96,7 @@ For more information about the presentation clock, see <a href="/windows/desktop
 </tr>
 <tr>
 <td width="40%"><a id="MEDIASINK_RATELESS"></a><a id="mediasink_rateless"></a><dl>
-<dt><b><b>MEDIASINK_RATELESS</b></b></dt>
+<dt><b>MEDIASINK_RATELESS</b></dt>
 <dt>0x00000004</dt>
 </dl>
 </td>
@@ -109,7 +109,7 @@ Most archiving sinks are rateless.
 </tr>
 <tr>
 <td width="40%"><a id="MEDIASINK_CLOCK_REQUIRED"></a><a id="mediasink_clock_required"></a><dl>
-<dt><b><b>MEDIASINK_CLOCK_REQUIRED</b></b></dt>
+<dt><b>MEDIASINK_CLOCK_REQUIRED</b></dt>
 <dt>0x00000008</dt>
 </dl>
 </td>
@@ -122,7 +122,7 @@ This flag is obsolete, because all media sinks must support the <a href="/window
 </tr>
 <tr>
 <td width="40%"><a id="MEDIASINK_CAN_PREROLL"></a><a id="mediasink_can_preroll"></a><dl>
-<dt><b><b>MEDIASINK_CAN_PREROLL</b></b></dt>
+<dt><b>MEDIASINK_CAN_PREROLL</b></dt>
 <dt>0x00000010</dt>
 </dl>
 </td>
@@ -134,7 +134,7 @@ The media sink can accept preroll samples before the presentation clock starts. 
 </tr>
 <tr>
 <td width="40%"><a id="MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE"></a><a id="mediasink_require_reference_mediatype"></a><dl>
-<dt><b><b>MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE</b></b></dt>
+<dt><b>MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE</b></dt>
 <dt>0x00000020</dt>
 </dl>
 </td>
@@ -157,7 +157,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -169,7 +169,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

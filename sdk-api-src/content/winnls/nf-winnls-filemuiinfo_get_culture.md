@@ -6,7 +6,7 @@ helpviewer_keywords: ["FILEMUIINFO_GET_CULTURE","FILEMUIINFO_GET_CULTURE macro [
 old-location: intl\filemuiinfo_get_culture.htm
 tech.root: Intl
 ms.assetid: 3afed0e8-3a9c-4513-954a-83855a53f5b2
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: FILEMUIINFO_GET_CULTURE, FILEMUIINFO_GET_CULTURE macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_CULTURE, intl.filemuiinfo_get_culture, winnls/FILEMUIINFO_GET_CULTURE
 req.header: winnls.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # FILEMUIINFO_GET_CULTURE macro
+
+## -syntax
+
+```cpp
+LPWSTR FILEMUIINFO_GET_CULTURE(
+    PFILEMUIINFO pInfo
+);
+```
+
+## -returns
+
+Type: **LPWSTR**
+
+Returns a pointer to the locale name. The macro returns **NULL** if the language name offset in the structure is not initialized.
 
 
 ## -description

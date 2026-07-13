@@ -59,15 +59,15 @@ Contains the version of the virtual hard disk (VHD)
 
 ## -enum-fields
 
-### -field MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
 Not supported.
 
-### -field MERGE_VIRTUAL_DISK_VERSION_1
+### -field MERGE_VIRTUAL_DISK_VERSION_1:1
 
 The <b>Version1</b> member structure will be used.
 
-### -field MERGE_VIRTUAL_DISK_VERSION_2
+### -field MERGE_VIRTUAL_DISK_VERSION_2:2
 
 The <b>Version2</b> member structure will be used.
 

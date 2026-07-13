@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_SetCurSel","MonthCal_SetCurSel macro [Windows Co
 old-location: controls\MonthCal_SetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcursel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_SetCurSel, MonthCal_SetCurSel macro [Windows Controls], _win32_MonthCal_SetCurSel, _win32_MonthCal_SetCurSel_cpp, commctrl/MonthCal_SetCurSel, controls.MonthCal_SetCurSel, controls._win32_MonthCal_SetCurSel
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_SetCurSel macro
+
+## -syntax
+
+```cpp
+BOOL MonthCal_SetCurSel(
+   HWND         hmc,
+   LPSYSTEMTIME pst
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise. This macro will fail if applied to a month calendar control that uses the <b>MCS_MULTISELECT</b> style.
 
 
 ## -description

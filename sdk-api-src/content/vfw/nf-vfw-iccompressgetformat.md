@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICCompressGetFormat","ICCompressGetFormat macro [Windows 
 old-location: multimedia\iccompressgetformat.htm
 tech.root: Multimedia
 ms.assetid: d6552dc0-21fb-475c-9ec4-cb3ef1f3a70e
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICCompressGetFormat, ICCompressGetFormat macro [Windows Multimedia], _win32_ICCompressGetFormat, multimedia.iccompressgetformat, vfw/ICCompressGetFormat
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICCompressGetFormat macro
+
+## -syntax
+
+```cpp
+DWORD ICCompressGetFormat(
+     hic,
+     lpbiInput,
+     lpbiOutput
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+If _lpbiOutput_ is zero, returns the size of the structure. If _lpbiOutput_ is nonzero, returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

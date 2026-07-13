@@ -1,7 +1,7 @@
 ---
 UID: NC:winfax.PFAX_RECIPIENT_CALLBACKA
 title: PFAX_RECIPIENT_CALLBACKA (winfax.h)
-description: The FAX_RECIPIENT_CALLBACK function is an application-defined or library-defined callback function that the FaxSendDocumentForBroadcast function calls to retrieve user-specific information for the transmission.
+description: The FAX_RECIPIENT_CALLBACK function is an application-defined or library-defined callback function that the FaxSendDocumentForBroadcast function calls to retrieve user-specific information for the transmission. (ANSI)
 helpviewer_keywords: ["FAX_RECIPIENT_CALLBACK","FAX_RECIPIENT_CALLBACK callback","FAX_RECIPIENT_CALLBACK callback function [Fax Service]","PFAX_RECIPIENT_CALLBACKA","PFAX_RECIPIENT_CALLBACKW","_mfax_fax_recipient_callback","fax._mfax_fax_recipient_callback","winfax/FAX_RECIPIENT_CALLBACK","winfax/PFAX_RECIPIENT_CALLBACKA","winfax/PFAX_RECIPIENT_CALLBACKW"]
 old-location: fax\_mfax_fax_recipient_callback.htm
 tech.root: Fax
@@ -111,7 +111,7 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 > [!NOTE]
-> The winfax.h header defines PFAX_RECIPIENT_CALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines PFAX_RECIPIENT_CALLBACK as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

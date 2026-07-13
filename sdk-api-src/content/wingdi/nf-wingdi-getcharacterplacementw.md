@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetCharacterPlacementW
 title: GetCharacterPlacementW function (wingdi.h)
-description: The GetCharacterPlacement function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering.
-helpviewer_keywords: ["GCP_CLASSIN","GCP_DIACRITIC","GCP_DISPLAYZWG","GCP_GLYPHSHAPE","GCP_JUSTIFY","GCP_KASHIDA","GCP_LIGATE","GCP_MAXEXTENT","GCP_NEUTRALOVERRIDE","GCP_NUMERICOVERRIDE","GCP_NUMERICSLATIN","GCP_NUMERICSLOCAL","GCP_REORDER","GCP_SYMSWAPOFF","GCP_USEKERNING","GetCharacterPlacement","GetCharacterPlacement function [Windows GDI]","GetCharacterPlacementA","GetCharacterPlacementW","_win32_GetCharacterPlacement","gdi.getcharacterplacement","wingdi/GetCharacterPlacement","wingdi/GetCharacterPlacementA","wingdi/GetCharacterPlacementW"]
+description: The GetCharacterPlacement function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering. (Unicode)
+helpviewer_keywords: ["GCP_CLASSIN", "GCP_DIACRITIC", "GCP_DISPLAYZWG", "GCP_GLYPHSHAPE", "GCP_JUSTIFY", "GCP_KASHIDA", "GCP_LIGATE", "GCP_MAXEXTENT", "GCP_NEUTRALOVERRIDE", "GCP_NUMERICOVERRIDE", "GCP_NUMERICSLATIN", "GCP_NUMERICSLOCAL", "GCP_REORDER", "GCP_SYMSWAPOFF", "GCP_USEKERNING", "GetCharacterPlacement", "GetCharacterPlacement function [Windows GDI]", "GetCharacterPlacementW", "_win32_GetCharacterPlacement", "gdi.getcharacterplacement", "wingdi/GetCharacterPlacement", "wingdi/GetCharacterPlacementW"]
 old-location: gdi\getcharacterplacement.htm
 tech.root: gdi
 ms.assetid: 80d3f4b3-503b-4abb-826c-e5c09972ba2f
@@ -297,7 +297,7 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 > [!NOTE]
-> The wingdi.h header defines GetCharacterPlacement as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetCharacterPlacement as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectKaraokeAudioP
 old-location: dshow\idvdcontrol2_selectkaraokeaudiopresentationmode.htm
 tech.root: dshow
 ms.assetid: 9101fd83-1349-4cdd-b5e9-6daeb7d1e3d8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDvdControl2 interface [DirectShow],SelectKaraokeAudioPresentationMode method, IDvdControl2.SelectKaraokeAudioPresentationMode, IDvdControl2::SelectKaraokeAudioPresentationMode, IDvdControl2SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode method [DirectShow], SelectKaraokeAudioPresentationMode method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectkaraokeaudiopresentationmode, strmif/IDvdControl2::SelectKaraokeAudioPresentationMode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,13 +51,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>SelectKaraokeAudioPresentationMode</code> method sends karaoke auxiliary channels to the left or right speakers.
 
 ## -parameters
 
 ### -param ulMode [in]
 
-Bitwise OR of [DVD_KARAOKE_DOWNMIX](/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix) enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
+Bitwise OR of [DVD_KARAOKE_DOWNMIX](/windows/win32/api/strmif/ne-strmif-dvd_karaoke_downmix) enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
 
 ## -returns
 

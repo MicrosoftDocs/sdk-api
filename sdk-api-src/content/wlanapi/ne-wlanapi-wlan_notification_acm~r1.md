@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_NOTIFICATION_ACM~r1
 title: WLAN_NOTIFICATION_ACM
-ms.date: 01/30/2019
+description: The WLAN_NOTIFICATION_ACM enumeration specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_NOTIFICATION_ACM, WLAN_NOTIFICATION_ACM
 targetos: Windows
 req.construct-type: enumeration
@@ -10,8 +11,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -102,7 +103,7 @@ The <b>pData</b> member of the <a href="/previous-versions/windows/desktop/legac
 
 A connection attempt has failed.
 
-A connection consists of one or more connection attempts. An application may receive zero or more <b>wlan_notification_acm_connection_attempt_fail </b>notifications between receiving the <b>wlan_notification_acm_connection_start</b> notification and the <b>wlan_notification_acm_connection_complete</b> notification.
+A connection consists of one or more connection attempts. An application may receive zero or more <b>wlan_notification_acm_connection_attempt_fail </b> notifications between receiving the <b>wlan_notification_acm_connection_start</b> notification and the <b>wlan_notification_acm_connection_complete</b> notification.
 
 The <b>pData</b> member of the <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection attempt that failed.
 

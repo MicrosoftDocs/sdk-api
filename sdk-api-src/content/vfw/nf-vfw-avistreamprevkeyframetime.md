@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamPrevKeyFrameTime","AVIStreamPrevKeyFrameTime mac
 old-location: multimedia\avistreamprevkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 0da49be2-b017-4d41-b9da-3c1310fa0289
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamPrevKeyFrameTime, AVIStreamPrevKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrameTime, multimedia.avistreamprevkeyframetime, vfw/AVIStreamPrevKeyFrameTime
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamPrevKeyFrameTime macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamPrevKeyFrameTime(
+     pavi,
+     t
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the time if successful or –1 otherwise.
+
 
 ## -description
 
@@ -71,9 +86,9 @@ The <b>AVIStreamPrevKeyFrameTime</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamPrevKeyFrameTime(pavi, time) \ 
+#define AVIStreamPrevKeyFrameTime(pavi, t) \ 
     AVIStreamSampleToTime(pavi, AVIStreamPrevKeyFrame(pavi, 
-    AVIStreamTimeToSample(pavi, time))) 
+    AVIStreamTimeToSample(pavi, t))) 
 
 ```
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetAutodialEnableW
 title: RasGetAutodialEnableW function (ras.h)
-description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location.
-helpviewer_keywords: ["RasGetAutodialEnable","RasGetAutodialEnable function [RAS]","RasGetAutodialEnableA","RasGetAutodialEnableW","_ras_rasgetautodialenable","ras/RasGetAutodialEnable","ras/RasGetAutodialEnableA","ras/RasGetAutodialEnableW","rras.rasgetautodialenable"]
+description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location. (Unicode)
+helpviewer_keywords: ["RasGetAutodialEnable", "RasGetAutodialEnable function [RAS]", "RasGetAutodialEnableW", "_ras_rasgetautodialenable", "ras/RasGetAutodialEnable", "ras/RasGetAutodialEnableW", "rras.rasgetautodialenable"]
 old-location: rras\rasgetautodialenable.htm
 tech.root: RRAS
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18
@@ -86,4 +86,4 @@ If the function fails, the return value is from <a href="/windows/desktop/RRAS/r
 ## -remarks
 
 > [!NOTE]
-> The ras.h header defines RasGetAutodialEnable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetAutodialEnable as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

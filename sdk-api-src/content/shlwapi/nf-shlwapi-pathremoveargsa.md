@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathRemoveArgsA
 title: PathRemoveArgsA function (shlwapi.h)
-description: Removes any arguments from a given path.
-helpviewer_keywords: ["PathRemoveArgs","PathRemoveArgs function [Windows Shell]","PathRemoveArgsA","PathRemoveArgsW","_win32_PathRemoveArgs","shell.PathRemoveArgs","shlwapi/PathRemoveArgs","shlwapi/PathRemoveArgsA","shlwapi/PathRemoveArgsW"]
+description: Removes any arguments from a given path. (ANSI)
+helpviewer_keywords: ["PathRemoveArgsA", "shlwapi/PathRemoveArgsA"]
 old-location: shell\PathRemoveArgs.htm
 tech.root: shell
 ms.assetid: 430072bc-4ddc-4b3d-bf32-fb60d7b56faf
@@ -105,5 +105,5 @@ Path after calling "PathRemoveArgs": c:\a\b\FileA
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathRemoveArgs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathRemoveArgs as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

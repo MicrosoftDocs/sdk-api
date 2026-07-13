@@ -87,7 +87,11 @@ If the specified Control Panel item is already running, <b>SHRunControlPanel</b>
 
 Example calls to <b>SHRunControlPanel</b> are shown here.
 
-<pre class="syntax" xml:space="preserve"><code>SHRunControlPanel(TEXT("timedate.cpl"), hwnd);
+
+``` syntax
+SHRunControlPanel(TEXT("timedate.cpl"), hwnd);
 SHRunControlPanel(L"appwiz.cpl", NULL);
 SHRunControlPanel(L"appwiz.cpl,2", NULL);
-SHRunControlPanel("desk.cpl,Settings", hwnd</code></pre>
+SHRunControlPanel("desk.cpl,Settings", hwnd
+```
+

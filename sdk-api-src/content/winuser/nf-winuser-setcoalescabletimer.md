@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
@@ -119,7 +122,7 @@ Uses the system default timer coalescing.
 </dl>
 </td>
 <td width="60%">
-Uses no timer coalescing.  When this value is used, the created timer is not coalesced, no matter what  the system default timer coalescing is or the application compatiblity flags are.
+Uses no timer coalescing.  When this value is used, the created timer is not coalesced, no matter what the system default timer coalescing is or the application compatibility flags are.
 
 
 <div class="alert"><b>Note</b>  Do not use this value unless you are certain that the  timer requires no coalescing. </div>
@@ -178,6 +181,8 @@ The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Ano
             
 
 When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>.
+
+Before using **SetCoalescableTimer** or other timer-related functions, it is recommended to set the **UOI_TIMERPROC_EXCEPTION_SUPPRESSION** flag to **false** through the **SetUserObjectInformationW** function, otherwise the application could behave unpredictably and could be vulnerable to security exploits. For more info, see <a href="/windows/win32/api/winuser/nf-winuser-setuserobjectinformationw">SetUserObjectInformationW</a>.
 
 ## -see-also
 

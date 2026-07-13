@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This method is called in response to an application invoking the <b>IDirectInputEffect::Escape</b> or <b>IDirectInputDevice::Escape</b> methods.
+The <b>IDirectInputEffectDriver::Escape </b> method escapes to the driver. This method is called in response to an application invoking the <b>IDirectInputEffect::Escape</b> or <b>IDirectInputDevice::Escape</b> methods.
 
 ## -parameters
 

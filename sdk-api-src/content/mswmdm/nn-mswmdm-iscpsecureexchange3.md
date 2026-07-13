@@ -54,10 +54,7 @@ The <b>ISCPSecureExchange3</b> interface extends <b>ISCPSecureExchange2</b> by p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureExchange3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2</a>. <b>ISCPSecureExchange3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISCPSecureExchange3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2</a>. <b>ISCPSecureExchange3</b> also has these types of members:
 
 ## -see-also
 

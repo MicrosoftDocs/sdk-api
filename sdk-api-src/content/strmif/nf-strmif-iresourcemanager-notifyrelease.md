@@ -6,7 +6,7 @@ helpviewer_keywords: ["IResourceManager interface [DirectShow]","NotifyRelease m
 old-location: dshow\iresourcemanager_notifyrelease.htm
 tech.root: dshow
 ms.assetid: a3779a8d-fe78-4f9b-af6c-7a25e0f07a86
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IResourceManager interface [DirectShow],NotifyRelease method, IResourceManager.NotifyRelease, IResourceManager::NotifyRelease, IResourceManagerNotifyRelease, NotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyrelease, strmif/IResourceManager::NotifyRelease
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>NotifyRelease</code> method notifies the resource manager that <a href="/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> has released a resource.
 

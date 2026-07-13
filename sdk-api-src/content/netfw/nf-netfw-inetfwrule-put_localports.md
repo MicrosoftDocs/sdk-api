@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.put_LocalPorts
 title: INetFwRule::put_LocalPorts (netfw.h)
-description: Specifies the list of local ports for this rule.
+description: Specifies the list of local ports for this rule. (Put)
 helpviewer_keywords: ["RPC","RPC-EPMap","Teredo","INetFwRule interface [ICS/ICF]","LocalPorts property","INetFwRule.LocalPorts","INetFwRule.put_LocalPorts","INetFwRule::LocalPorts","INetFwRule::get_LocalPorts","INetFwRule::put_LocalPorts","LocalPorts property [ICS/ICF]","LocalPorts property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_localports","netfw/INetFwRule::LocalPorts","netfw/INetFwRule::get_LocalPorts","netfw/INetFwRule::put_LocalPorts","put_LocalPorts"]
 old-location: ics\inetfwrule_localports.htm
 tech.root: ics

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmAction.put_RunLimitInterval
 title: IFsrmAction::put_RunLimitInterval (fsrm.h)
-description: Retrieves or sets the interval that must expire before the action is run again.
+description: Retrieves or sets the interval that must expire before the action is run again. (Put)
 helpviewer_keywords: ["IFsrmAction interface [File Server Resource Manager]","RunLimitInterval property","IFsrmAction.RunLimitInterval","IFsrmAction.put_RunLimitInterval","IFsrmAction::RunLimitInterval","IFsrmAction::get_RunLimitInterval","IFsrmAction::put_RunLimitInterval","RunLimitInterval property [File Server Resource Manager]","RunLimitInterval property [File Server Resource Manager]","IFsrmAction interface","fs.ifsrmaction_runlimitinterval","fsrm.ifsrmaction_runlimitinterval","fsrm/IFsrmAction::RunLimitInterval","fsrm/IFsrmAction::get_RunLimitInterval","fsrm/IFsrmAction::put_RunLimitInterval","put_RunLimitInterval"]
 old-location: fsrm\ifsrmaction_runlimitinterval.htm
 tech.root: fsrm

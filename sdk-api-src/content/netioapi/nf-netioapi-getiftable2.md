@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetIfTable2
 title: GetIfTable2 function (netioapi.h)
-description: Retrieves the MIB-II interface table.
+description: Retrieves the MIB-II interface table. (GetIfTable2)
 helpviewer_keywords: ["GetIfTable2","GetIfTable2 function [IP Helper]","iphlp.getiftable2","netioapi/GetIfTable2"]
 old-location: iphlp\getiftable2.htm
 tech.root: IpHlp

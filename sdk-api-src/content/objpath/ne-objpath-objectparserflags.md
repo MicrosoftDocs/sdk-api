@@ -1,5 +1,5 @@
 ---
-UID: NE:objpath.__unnamed_enum_0
+UID: NE:objpath.ObjectParserFlags
 title: ObjectParserFlags (objpath.h)
 description: Flags used by constructor for CObjectPathParser.
 helpviewer_keywords: ["ObjectParserFlags","ObjectParserFlags enumeration [Windows Management Instrumentation]","e_ParserAbsoluteNamespaceOnly","e_ParserAcceptAll","e_ParserAcceptRelativeNamespace","objpath/ObjectParserFlags","objpath/e_ParserAbsoluteNamespaceOnly","objpath/e_ParserAcceptAll","objpath/e_ParserAcceptRelativeNamespace","wmi.objectparserflags"]
@@ -75,3 +75,4 @@ Accept any recognizable subset of a path.
 ## -see-also
 
 <a href="/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>
+

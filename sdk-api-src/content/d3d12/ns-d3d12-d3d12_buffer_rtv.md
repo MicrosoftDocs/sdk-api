@@ -56,7 +56,7 @@ Describes the elements in a buffer resource to use in a render-target view.
 
 ### -field FirstElement
 
-Number of bytes between the beginning of the buffer and the first element to access.
+Number of elements between the beginning of the buffer and the first element to access.
 
 ### -field NumElements
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SelectItemData","ListBox_SelectItemData macro [Wi
 old-location: controls\ListBox_SelectItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selectitemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SelectItemData, ListBox_SelectItemData macro [Windows Controls], _win32_ListBox_SelectItemData, _win32_ListBox_SelectItemData_cpp, controls.ListBox_SelectItemData, controls._win32_ListBox_SelectItemData, windowsx/ListBox_SelectItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_SelectItemData macro
+
+## -syntax
+
+```cpp
+int ListBox_SelectItemData(
+   HWND   hwndCtl,
+   int    indexStart,
+   LPARAM data
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the search is successful, the return value is the index of the selected item. If the search is unsuccessful, the return value is LB_ERR and the current selection is not changed.
 
 
 ## -description

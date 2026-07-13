@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_DefaultInboundAction
 title: INetFwPolicy2::put_DefaultInboundAction (netfw.h)
-description: Specifies the default action for inbound traffic. These settings are Block by default.
+description: Specifies the default action for inbound traffic. These settings are Block by default. (Put)
 helpviewer_keywords: ["DefaultInboundAction property [ICS/ICF]","DefaultInboundAction property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","DefaultInboundAction property","INetFwPolicy2.DefaultInboundAction","INetFwPolicy2.put_DefaultInboundAction","INetFwPolicy2::DefaultInboundAction","INetFwPolicy2::get_DefaultInboundAction","INetFwPolicy2::put_DefaultInboundAction","ics.inetfwpolicy2_defaultinboundaction","netfw/INetFwPolicy2::DefaultInboundAction","netfw/INetFwPolicy2::get_DefaultInboundAction","netfw/INetFwPolicy2::put_DefaultInboundAction","put_DefaultInboundAction"]
 old-location: ics\inetfwpolicy2_defaultinboundaction.htm
 tech.root: ics

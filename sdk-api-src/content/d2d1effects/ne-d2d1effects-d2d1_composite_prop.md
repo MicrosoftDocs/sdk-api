@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/composite">
 
 ## -enum-fields
 
-### -field D2D1_COMPOSITE_PROP_MODE
+### -field D2D1_COMPOSITE_PROP_MODE:0
 
 The mode used for the effect.
             
@@ -63,4 +63,4 @@ Type is D2D1_COMPOSITE_MODE.
 
 Default value is D2D1_COMPOSITE_MODE_SOURCE_OVER
 
-### -field D2D1_COMPOSITE_PROP_FORCE_DWORD
+### -field D2D1_COMPOSITE_PROP_FORCE_DWORD:0xffffffff

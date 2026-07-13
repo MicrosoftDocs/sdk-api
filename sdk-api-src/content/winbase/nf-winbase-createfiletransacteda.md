@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateFileTransactedA
 title: CreateFileTransactedA function (winbase.h)
-description: Creates or opens a file, file stream, or directory as a transacted operation.
-helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFileTransacted","CreateFileTransacted function [Files]","CreateFileTransactedA","CreateFileTransactedW","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_FLAG_BACKUP_SEMANTICS","FILE_FLAG_DELETE_ON_CLOSE","FILE_FLAG_NO_BUFFERING","FILE_FLAG_OPEN_NO_RECALL","FILE_FLAG_OPEN_REPARSE_POINT","FILE_FLAG_OVERLAPPED","FILE_FLAG_POSIX_SEMANTICS","FILE_FLAG_RANDOM_ACCESS","FILE_FLAG_SEQUENTIAL_SCAN","FILE_FLAG_SESSION_AWARE","FILE_FLAG_WRITE_THROUGH","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","OPEN_ALWAYS","OPEN_EXISTING","SECURITY_ANONYMOUS","SECURITY_CONTEXT_TRACKING","SECURITY_DELEGATION","SECURITY_EFFECTIVE_ONLY","SECURITY_IDENTIFICATION","SECURITY_IMPERSONATION","TRUNCATE_EXISTING","TXFS_MINIVERSION_COMMITTED_VIEW","TXFS_MINIVERSION_DEFAULT_VIEW","TXFS_MINIVERSION_DIRTY_VIEW","fs.createfiletransacted","winbase/CreateFileTransacted","winbase/CreateFileTransactedA","winbase/CreateFileTransactedW"]
+description: Creates or opens a file, file stream, or directory as a transacted operation. (ANSI)
+helpviewer_keywords: ["0", "CREATE_ALWAYS", "CREATE_NEW", "CreateFileTransactedA", "FILE_ATTRIBUTE_ARCHIVE", "FILE_ATTRIBUTE_ENCRYPTED", "FILE_ATTRIBUTE_HIDDEN", "FILE_ATTRIBUTE_NORMAL", "FILE_ATTRIBUTE_OFFLINE", "FILE_ATTRIBUTE_READONLY", "FILE_ATTRIBUTE_SYSTEM", "FILE_ATTRIBUTE_TEMPORARY", "FILE_FLAG_BACKUP_SEMANTICS", "FILE_FLAG_DELETE_ON_CLOSE", "FILE_FLAG_NO_BUFFERING", "FILE_FLAG_OPEN_NO_RECALL", "FILE_FLAG_OPEN_REPARSE_POINT", "FILE_FLAG_OVERLAPPED", "FILE_FLAG_POSIX_SEMANTICS", "FILE_FLAG_RANDOM_ACCESS", "FILE_FLAG_SEQUENTIAL_SCAN", "FILE_FLAG_SESSION_AWARE", "FILE_FLAG_WRITE_THROUGH", "FILE_SHARE_DELETE", "FILE_SHARE_READ", "FILE_SHARE_WRITE", "OPEN_ALWAYS", "OPEN_EXISTING", "SECURITY_ANONYMOUS", "SECURITY_CONTEXT_TRACKING", "SECURITY_DELEGATION", "SECURITY_EFFECTIVE_ONLY", "SECURITY_IDENTIFICATION", "SECURITY_IMPERSONATION", "TRUNCATE_EXISTING", "TXFS_MINIVERSION_COMMITTED_VIEW", "TXFS_MINIVERSION_DEFAULT_VIEW", "TXFS_MINIVERSION_DIRTY_VIEW", "winbase/CreateFileTransactedA"]
 old-location: fs\createfiletransacted.htm
 tech.root: fs
 ms.assetid: 0cbc081d-8787-409b-84bc-a6a28d8f83a0
@@ -86,11 +86,10 @@ The object must reside on the local computer; otherwise,
        the function fails and the last error code is set to 
        <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>. For information on special device names, 
-       see <a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more 
        information, see <a href="/windows/desktop/FileIO/file-streams">File Streams</a>.
@@ -197,7 +196,7 @@ If this flag is not specified, but the object has been opened for write access o
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure that contains an optional 
        <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">security descriptor</a> and also determines whether 
        or not the returned handle can be inherited by child processes. The parameter can be 
@@ -246,7 +245,7 @@ This parameter must be one of the following values, which cannot be combined.
 <td width="60%">
 Creates a new file, always.
 
-If the specified  file exists and is writable, the function overwrites the file, the function succeeds, and 
+If the specified  file exists and is writable, the function truncates the file, the function succeeds, and 
          last-error code is set to <b>ERROR_ALREADY_EXISTS</b> (183).
 
 If the specified file does not exist and is a valid path, a new file is created, the function succeeds, and 
@@ -1049,7 +1048,7 @@ For more information, see
 
 
 > [!NOTE]
-> The winbase.h header defines CreateFileTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CreateFileTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

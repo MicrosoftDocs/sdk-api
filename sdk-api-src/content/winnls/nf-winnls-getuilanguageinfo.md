@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -117,7 +119,7 @@ Alternatively if this parameter is set to <b>NULL</b> and <i>pcchLanguagesBuffer
 
 Pointer to the size, in characters, for the language buffer indicated by <i>pwszFallbackLanguages</i>. On successful return from the function, the parameter contains the size of the retrieved language buffer.
 
-Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer </i>is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>.
+Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer </i> is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>.
 
 ### -param pAttributes [out]
 

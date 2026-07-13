@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqPutWorkItem
 title: RtwqPutWorkItem function (rtworkq.h)
-description: Puts an asynchronous operation on a work queue.
+description: Puts an asynchronous operation on a work queue. (RtwqPutWorkItem)
 helpviewer_keywords: ["RtwqPutWorkItem","RtwqPutWorkItem function","base.rtwqputworkitem","rtworkq/RtwqPutWorkItem"]
 old-location: base\rtwqputworkitem.htm
 tech.root: backup
@@ -68,4 +68,4 @@ A pointer to the callback .  The caller must implement this interface.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

@@ -52,7 +52,7 @@ api_name:
 
 The <b>ITextStoreAnchorSink::OnSelectionChange</b> method is called when the selection within the text stream changes. This method should be called whenever the return value of a potential call to <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getselection">ITextStoreAnchor::GetSelection</a> has changed.
 
-## -parameters
+
 
 ## -returns
 

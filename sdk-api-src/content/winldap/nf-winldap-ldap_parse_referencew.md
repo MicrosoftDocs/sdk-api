@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_parse_referenceW
 title: ldap_parse_referenceW function (winldap.h)
-description: The ldap_parse_reference function returns a list of subordinate referrals in a search response message.
-helpviewer_keywords: ["_ldap_ldap_parse_reference","ldap.ldap__parse__reference","ldap.ldap_parse_reference","ldap_parse_reference","ldap_parse_reference function [LDAP]","ldap_parse_referenceA","ldap_parse_referenceW","winldap/ldap_parse_reference","winldap/ldap_parse_referenceA","winldap/ldap_parse_referenceW"]
+description: The ldap_parse_referenceW (Unicode) function (winldap.h) returns a list of subordinate referrals in a search response message. 
+helpviewer_keywords: ["_ldap_ldap_parse_reference", "ldap.ldap__parse__reference", "ldap.ldap_parse_reference", "ldap_parse_reference", "ldap_parse_reference function [LDAP]", "ldap_parse_referenceW", "winldap/ldap_parse_reference", "winldap/ldap_parse_referenceW"]
 old-location: ldap\ldap_parse_reference.htm
 tech.root: ldap
 ms.assetid: 106db7dd-ee1e-48c9-9357-e14d4f8e8782
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_parse_reference, ldap.ldap__parse__reference, ldap.ldap_parse_reference, ldap_parse_reference, ldap_parse_reference function [LDAP], ldap_parse_referenceA, ldap_parse_referenceW, winldap/ldap_parse_reference, winldap/ldap_parse_referenceA, winldap/ldap_parse_referenceW
 req.header: winldap.h
 req.include-header: 
@@ -88,7 +88,7 @@ When it is no longer needed, free the <i>Referrals</i> pointer by calling
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_parse_reference as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_parse_reference as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

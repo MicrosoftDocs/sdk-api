@@ -54,71 +54,71 @@ The <b>DWRITE_PANOSE_SERIF_STYLE</b> enumeration contains values that specify th
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_SERIF_STYLE_ANY
+### -field DWRITE_PANOSE_SERIF_STYLE_ANY:0
 
 Any appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_NO_FIT
+### -field DWRITE_PANOSE_SERIF_STYLE_NO_FIT:1
 
 No fit appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_COVE
+### -field DWRITE_PANOSE_SERIF_STYLE_COVE:2
 
 Cove appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_OBTUSE_COVE
+### -field DWRITE_PANOSE_SERIF_STYLE_OBTUSE_COVE:3
 
 Obtuse cove appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_SQUARE_COVE
+### -field DWRITE_PANOSE_SERIF_STYLE_SQUARE_COVE:4
 
 Square cove appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_OBTUSE_SQUARE_COVE
+### -field DWRITE_PANOSE_SERIF_STYLE_OBTUSE_SQUARE_COVE:5
 
 Obtuse square cove appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_SQUARE
+### -field DWRITE_PANOSE_SERIF_STYLE_SQUARE:6
 
 Square appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_THIN
+### -field DWRITE_PANOSE_SERIF_STYLE_THIN:7
 
 Thin appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_OVAL
+### -field DWRITE_PANOSE_SERIF_STYLE_OVAL:8
 
 Oval appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_EXAGGERATED
+### -field DWRITE_PANOSE_SERIF_STYLE_EXAGGERATED:9
 
 Exaggerated appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_TRIANGLE
+### -field DWRITE_PANOSE_SERIF_STYLE_TRIANGLE:10
 
 Triangle appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_NORMAL_SANS
+### -field DWRITE_PANOSE_SERIF_STYLE_NORMAL_SANS:11
 
 Normal sans appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_OBTUSE_SANS
+### -field DWRITE_PANOSE_SERIF_STYLE_OBTUSE_SANS:12
 
 Obtuse sans appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_PERPENDICULAR_SANS
+### -field DWRITE_PANOSE_SERIF_STYLE_PERPENDICULAR_SANS:13
 
 Perpendicular sans appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_FLARED
+### -field DWRITE_PANOSE_SERIF_STYLE_FLARED:14
 
 Flared appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_ROUNDED
+### -field DWRITE_PANOSE_SERIF_STYLE_ROUNDED:15
 
 Rounded appearance of the serif text.
 
-### -field DWRITE_PANOSE_SERIF_STYLE_SCRIPT
+### -field DWRITE_PANOSE_SERIF_STYLE_SCRIPT:16
 
 Script appearance of the serif text.
 

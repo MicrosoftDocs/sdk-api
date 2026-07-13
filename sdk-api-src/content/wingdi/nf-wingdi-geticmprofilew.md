@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetICMProfileW
 title: GetICMProfileW function (wingdi.h)
-description: The GetICMProfile function retrieves the file name of the current output color profile for a specified device context.
-helpviewer_keywords: ["GetICMProfile","GetICMProfile function [Windows Color System]","GetICMProfileA","GetICMProfileW","_color_GetICMProfile","wcs.geticmprofile","wingdi/GetICMProfile","wingdi/GetICMProfileA","wingdi/GetICMProfileW"]
+description: The GetICMProfile function retrieves the file name of the current output color profile for a specified device context. (Unicode)
+helpviewer_keywords: ["GetICMProfile", "GetICMProfile function [Windows Color System]", "GetICMProfileW", "_color_GetICMProfile", "wcs.geticmprofile", "wingdi/GetICMProfile", "wingdi/GetICMProfileW"]
 old-location: wcs\geticmprofile.htm
 tech.root: WCS
 ms.assetid: 1e16771a-80c5-47bb-9c98-14169d4dd773
@@ -93,7 +93,7 @@ If this function is called before any calls to the <b>SetICMProfile</b> function
 
 
 > [!NOTE]
-> The wingdi.h header defines GetICMProfile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetICMProfile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

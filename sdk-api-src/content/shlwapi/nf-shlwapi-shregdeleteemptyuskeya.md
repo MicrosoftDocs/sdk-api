@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegDeleteEmptyUSKeyA
 title: SHRegDeleteEmptyUSKeyA function (shlwapi.h)
-description: Deletes an empty registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHRegDeleteEmptyUSKey","SHRegDeleteEmptyUSKey function [Windows Shell]","SHRegDeleteEmptyUSKeyA","SHRegDeleteEmptyUSKeyW","_win32_SHRegDeleteEmptyUSKey","shell.SHRegDeleteEmptyUSKey","shlwapi/SHRegDeleteEmptyUSKey","shlwapi/SHRegDeleteEmptyUSKeyA","shlwapi/SHRegDeleteEmptyUSKeyW"]
+description: Deletes an empty registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
+helpviewer_keywords: ["SHRegDeleteEmptyUSKeyA", "shlwapi/SHRegDeleteEmptyUSKeyA"]
 old-location: shell\SHRegDeleteEmptyUSKey.htm
 tech.root: shell
 ms.assetid: adb09a2b-674c-472d-9f16-8e150476f1f5
@@ -93,4 +93,4 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegDeleteEmptyUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegDeleteEmptyUSKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

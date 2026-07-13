@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get__NewEnum
 title: IPolicyQualifiers::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (IPolicyQualifiers.get__NewEnum)
 helpviewer_keywords: ["IPolicyQualifiers interface [Security]","_NewEnum property","IPolicyQualifiers._NewEnum","IPolicyQualifiers.get__NewEnum","IPolicyQualifiers::_NewEnum","IPolicyQualifiers::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","IPolicyQualifiers interface","certenroll/IPolicyQualifiers::_NewEnum","certenroll/IPolicyQualifiers::get__NewEnum","get__NewEnum","security.ipolicyqualifiers__newenum_property"]
 old-location: security\ipolicyqualifiers__newenum_property.htm
 tech.root: security

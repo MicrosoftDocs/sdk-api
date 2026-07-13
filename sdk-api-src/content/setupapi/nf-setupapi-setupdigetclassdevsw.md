@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevsW
 title: SetupDiGetClassDevsW function (setupapi.h)
-description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
-helpviewer_keywords: ["SetupDiGetClassDevs","SetupDiGetClassDevs function [Device and Driver Installation]","SetupDiGetClassDevsW","devinst.setupdigetclassdevs","di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml","setupapi/SetupDiGetClassDevs","setupapi/SetupDiGetClassDevsW"]
+description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer. (Unicode)
+helpviewer_keywords: ["SetupDiGetClassDevs", "SetupDiGetClassDevs function [Device and Driver Installation]", "SetupDiGetClassDevsW", "devinst.setupdigetclassdevs", "di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml", "setupapi/SetupDiGetClassDevs", "setupapi/SetupDiGetClassDevsW"]
 old-location: devinst\setupdigetclassdevs.htm
 tech.root: devinst
 ms.assetid: 31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - SetupAPI.dll
  - ext-ms-win-setupapi-classinstallers-l1-1-0.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
@@ -61,7 +62,7 @@ The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="/windows-
 
 ### -param ClassGuid [in, optional]
 
-A pointer to the GUID for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
+A pointer to the GUID for a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
 
 ### -param Enumerator [in, optional]
 
@@ -222,7 +223,7 @@ Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT)
 ```
 
 
-<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="/previous-versions/ff553419(v=vs.85)">device setup class</a>.
+<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors">device setup class</a>.
 
 
 ```
@@ -230,7 +231,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);
 ```
 
 
-<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="/previous-versions/ff553412(v=vs.85)">device interface class</a>.
+<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 
 ```
@@ -238,51 +239,59 @@ Handle = SetupDiGetClassDevs(&GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESEN
 ```
 
 
-<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="/previous-versions/ff553419(v=vs.85)">device setup class</a> (Windows Vista and later versions of Windows).
+<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors">device setup class</a> (Windows Vista and later versions of Windows).
 
 <div class="alert"><b>Note</b>  You cannot set the <i>ClassGuid</i> parameter to GUID_DEVCLASS_UNKNOWN to detect devices with an unknown setup class. Instead, you must follow this example.</div>
 <div> </div>
 
 ```
-DeviceInfoSet = SetupDiGetClassDevs(
-                                    NULL,
-                                    NULL,
-                                    NULL,
-                                    DIGCF_ALLCLASSES | DIGCF_PRESENT);
+HDEVINFO DeviceInfoSet = SetupDiGetClassDevsW(
+    NULL,
+    NULL,
+    NULL,
+    DIGCF_ALLCLASSES | DIGCF_PRESENT);
 
+SP_DEVINFO_DATA DeviceInfoData;
 ZeroMemory(&DeviceInfoData, sizeof(SP_DEVINFO_DATA));
 DeviceInfoData.cbSize = sizeof(SP_DEVINFO_DATA);
-DeviceIndex = 0;
-    
+DWORD DeviceIndex = 0;
+DEVPROPTYPE PropType;
+
+GUID     DevGuid;
+DWORD Size;
+
 while (SetupDiEnumDeviceInfo(
-                             DeviceInfoSet,
-                             DeviceIndex,
-                             &DeviceInfoData)) {
+    DeviceInfoSet,
+    DeviceIndex,
+    &DeviceInfoData)) {
     DeviceIndex++;
 
-    if (!SetupDiGetDeviceProperty(
-                                  DeviceInfoSet,
-                                  &DeviceInfoData,
-                                  &DEVPKEY_Device_Class,
-                                  &PropType,
-                                  (PBYTE)&DevGuid,
-                                  sizeof(GUID),
-                                  &Size,
-                                  0) || PropType != DEVPROP_TYPE_GUID) {
+    if (!SetupDiGetDevicePropertyW(
+        DeviceInfoSet,
+        &DeviceInfoData,
+        &DEVPKEY_Device_Class,
+        &PropType,
+        (PBYTE)&DevGuid,
+        sizeof(GUID),
+        &Size,
+        0) || PropType != DEVPROP_TYPE_GUID) {
 
-        Error = GetLastError();
+        DWORD Error = GetLastError();
 
         if (Error == ERROR_NOT_FOUND) {
-            \\
-            \\ This device has an unknown device setup class.
-            \\
-            }
-        }                 
+            //
+            // This device has an unknown device setup class.
+            //
+
+        }
     }
+}
 
 if (DeviceInfoSet) {
     SetupDiDestroyDeviceInfoList(DeviceInfoSet);
-    }
+}
+
+return 0;
 ```
 
 
@@ -291,7 +300,7 @@ if (DeviceInfoSet) {
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetClassDevs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetClassDevs as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

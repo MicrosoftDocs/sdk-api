@@ -4,7 +4,8 @@ title: The Windows Shell
 ms.assetid: 2827809d-7ca5-313d-944e-507165c995d8
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # The Windows Shell

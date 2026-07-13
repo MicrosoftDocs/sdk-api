@@ -63,6 +63,9 @@ On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/window
 
 ## -remarks
 
-This functionality is supported through the [**IP_USER_MTU**](/windows/win32/winsock/ipproto-ip-socket-options) socket option. **WSAGetIPUserMtu** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](../winsock/nf-winsock-getsockopt.md).
+> [!IMPORTANT]
+> This API is deprecated. **WSAGetIPUserMtu** does not properly support dual-stack sockets. Use the [**IP_USER_MTU**](/windows/win32/winsock/ipproto-ip-socket-options) and [**IPV6_USER_MTU**](/windows/win32/winsock/ipproto-ipv6-socket-options) socket options directly with [getsockopt](../winsock/nf-winsock-getsockopt.md) instead.
+
+On a dual-stack socket that is unbound or bound to a wildcard address, applications need to get both the **IP_USER_MTU** (level **IPPROTO_IP**) and **IPV6_USER_MTU** (level **IPPROTO_IPV6**) socket options separately. If the socket is bound to a specific IPv6 address, only the **IPV6_USER_MTU** option should be get. If the socket is bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), only the **IP_USER_MTU** option should be get.
 
 ## -see-also

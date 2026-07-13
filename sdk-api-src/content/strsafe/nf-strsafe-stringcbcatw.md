@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbCatW
 title: StringCbCatW function (strsafe.h)
-description: Concatenates one string to another string.
-helpviewer_keywords: ["StringCbCat","StringCbCat function [Menus and Other Resources]","StringCbCatA","StringCbCatW","_shell_StringCbCat","_shell_stringcbcat_cpp","menurc.stringcbcat","strsafe/StringCbCat","strsafe/StringCbCatA","strsafe/StringCbCatW","winui._shell_stringcbcat"]
+description: Concatenates one string to another string. (StringCbCatW)
+helpviewer_keywords: ["StringCbCat", "StringCbCat function [Menus and Other Resources]", "StringCbCatW", "_shell_StringCbCat", "_shell_stringcbcat_cpp", "menurc.stringcbcat", "strsafe/StringCbCat", "strsafe/StringCbCatW", "winui._shell_stringcbcat"]
 old-location: menurc\stringcbcat.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcat.htm
@@ -176,7 +176,7 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="/wi
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCbCat as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCbCat as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

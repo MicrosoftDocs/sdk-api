@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.POFFLINE_V2_ROUTINE
 title: POFFLINE_V2_ROUTINE (resapi.h)
-description: Marks a resource as unavailable for use after cleanup processing is complete.
+description: The POFFLINE_V2_ROUTINE callback function marks a resource as unavailable for use after cleanup processing is complete.
 helpviewer_keywords: ["CLUS_RESDLL_OFFLINE_DO_NOT_UPDATE_PERSISTENT_STATE","CLUS_RESDLL_OFFLINE_DUE_TO_EMBEDDED_FAILURE","CLUS_RESDLL_OFFLINE_IGNORE_NETWORK_CONNECTIVITY","CLUS_RESDLL_OFFLINE_IGNORE_RESOURCE_STATUS","CLUS_RESDLL_OFFLINE_QUEUE_ENABLED","CLUS_RESDLL_OFFLINE_RETURNING_TO_SOURCE_NODE_BECAUSE_OF_ERROR","CLUS_RESDLL_OFFLINE_RETURN_TO_SOURCE_NODE_ON_ERROR","OfflineV2","OfflineV2 callback","OfflineV2 callback function [Failover Cluster]","POFFLINE_V2_ROUTINE","POFFLINE_V2_ROUTINE callback function [Failover Cluster]","mscs.offlinev2","resapi/OfflineV2","resapi/POFFLINE_V2_ROUTINE"]
 old-location: mscs\offlinev2.htm
 tech.root: MsCS
 ms.assetid: 2983B328-08ED-4DA6-8DC2-79D44C710888
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUS_RESDLL_OFFLINE_DO_NOT_UPDATE_PERSISTENT_STATE, CLUS_RESDLL_OFFLINE_DUE_TO_EMBEDDED_FAILURE, CLUS_RESDLL_OFFLINE_IGNORE_NETWORK_CONNECTIVITY, CLUS_RESDLL_OFFLINE_IGNORE_RESOURCE_STATUS, CLUS_RESDLL_OFFLINE_QUEUE_ENABLED, CLUS_RESDLL_OFFLINE_RETURNING_TO_SOURCE_NODE_BECAUSE_OF_ERROR, CLUS_RESDLL_OFFLINE_RETURN_TO_SOURCE_NODE_ON_ERROR, OfflineV2, OfflineV2 callback, OfflineV2 callback function [Failover Cluster], POFFLINE_V2_ROUTINE, POFFLINE_V2_ROUTINE callback function [Failover Cluster], mscs.offlinev2, resapi/OfflineV2, resapi/POFFLINE_V2_ROUTINE
 req.header: resapi.h
 req.include-header: 

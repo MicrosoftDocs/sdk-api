@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IPipeByte
 title: IPipeByte (objidl.h)
-description: Transfers data of the byte type (which is 8 bits wide).
+description: The IPipeByte interface (objidl.h) transfers data of the byte type, which is 8 bits wide. 
 helpviewer_keywords: ["IPipeByte","IPipeByte interface [COM]","IPipeByte interface [COM]","described","_com_ipipebyte","com.ipipebyte","objidlbase/IPipeByte"]
 old-location: com\ipipebyte.htm
 tech.root: com
 ms.assetid: e3e01280-c015-488a-8be4-9740c44c0041
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -54,10 +54,7 @@ Transfers data of the byte type (which is 8 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeByte</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeByte</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPipeByte</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeByte</b> also has these types of members:
 
 ## -remarks
 

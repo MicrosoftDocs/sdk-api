@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertySystem.RegisterPropertySchema
 title: IPropertySystem::RegisterPropertySchema (propsys.h)
-description: Informs the schema subsystem of the addition of a property description schema file.
+description: Informs the schema subsystem of the addition of a property description schema file. (IPropertySystem.RegisterPropertySchema)
 helpviewer_keywords: ["IPropertySystem interface [Windows Properties]","RegisterPropertySchema method","IPropertySystem.RegisterPropertySchema","IPropertySystem::RegisterPropertySchema","RegisterPropertySchema","RegisterPropertySchema method [Windows Properties]","RegisterPropertySchema method [Windows Properties]","IPropertySystem interface","properties.IPropertySystem_RegisterPropertySchema","propsys/IPropertySystem::RegisterPropertySchema","shell.IPropertySystem_RegisterPropertySchema","shell_IPropertySystem_RegisterPropertySchema"]
 old-location: properties\IPropertySystem_RegisterPropertySchema.htm
 tech.root: properties

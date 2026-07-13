@@ -57,7 +57,7 @@ The
 <b>OnFreeze</b> is a pure virtual method. It is not implemented by the 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class, and must be implemented by derived classes.
 
-## -parameters
+
 
 ## -returns
 

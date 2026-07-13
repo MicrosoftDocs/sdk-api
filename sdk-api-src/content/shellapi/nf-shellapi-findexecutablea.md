@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.FindExecutableA
 title: FindExecutableA function (shellapi.h)
-description: Retrieves the name of and handle to the executable (.exe) file associated with a specific document file.
-helpviewer_keywords: ["FindExecutable","FindExecutable function [Windows Shell]","FindExecutableA","FindExecutableW","_win32_FindExecutable","shell.FindExecutable","shellapi/FindExecutable","shellapi/FindExecutableA","shellapi/FindExecutableW"]
+description: Retrieves the name of and handle to the executable (.exe) file associated with a specific document file. (ANSI)
+helpviewer_keywords: ["FindExecutableA", "shellapi/FindExecutableA"]
 old-location: shell\FindExecutable.htm
 tech.root: shell
 ms.assetid: 969edbd9-164e-457f-ab0a-dc4d069bf16b
@@ -45,6 +45,7 @@ api_name:
  - FindExecutable
  - FindExecutableA
  - FindExecutableW
+no-loc: [verb, verbs, NULL, null, runas]
 ---
 
 # FindExecutableA function
@@ -72,7 +73,7 @@ The address of a <b>null</b>-terminated string that specifies the default direct
 
 Type: <b>LPTSTR</b>
 
-The address of a buffer that receives the file name of the associated executable file. This file name is a <b>null</b>-terminated string that specifies the executable file started when an "open" by association is run on the file specified in the <i>lpFile</i> parameter. Put simply, this is the application that is launched when the document file is directly double-clicked or when <b>Open</b> is chosen from the file's shortcut menu. This parameter must contain a valid non-<b>null</b> value and is assumed to be of length MAX_PATH. Responsibility for validating the value is left to the programmer.
+The address of a buffer that receives the file name of the associated executable file. This file name is a <b>null</b>-terminated string that specifies the executable file started when an ":::no-loc text="open":::" by association is run on the file specified in the <i>lpFile</i> parameter. Put simply, this is the application that is launched when the document file is directly double-clicked or when <b>Open</b> is chosen from the file's shortcut menu. This parameter must contain a valid non-<b>null</b> value and is assumed to be of length MAX_PATH. Responsibility for validating the value is left to the programmer.
 
 ## -returns
 
@@ -177,7 +178,7 @@ When <b>FindExecutable</b> returns, the <i>lpResult</i> parameter may contain th
 
 
 > [!NOTE]
-> The shellapi.h header defines FindExecutable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines FindExecutable as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

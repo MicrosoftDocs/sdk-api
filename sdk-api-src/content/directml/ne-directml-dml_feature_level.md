@@ -3,12 +3,12 @@ UID: NE:directml.DML_FEATURE_LEVEL
 title: DML_FEATURE_LEVEL
 description: Defines constants that specify a DirectML *feature level*. A feature level defines a broad umbrella of functionality supported by DirectML.
 tech.root: directml
-ms.date: 03/11/2021
+ms.date: 08/22/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,23 +52,23 @@ You can specify a *minimum feature level* when creating the DirectML device usin
 
 A DirectML device might support feature levels above the minimum feature level requested through **DMLCreateDevice1**. You can query the device for its supported feature levels using [IDMLDevice::CheckFeatureSupport](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport).
 
-For a list of new capabilities included in each feature level, see [DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history).
+For a list of new capabilities included in each feature level, see [DirectML feature level history](/windows/ai/directml/dml-feature-level-history).
 
 ## -enum-fields
 
-### -field DML_FEATURE_LEVEL_1_0
+### -field DML_FEATURE_LEVEL_1_0:0x1000
 
 Specifies feature level 1_0.
 
-### -field DML_FEATURE_LEVEL_2_0
+### -field DML_FEATURE_LEVEL_2_0:0x2000
 
 Specifies feature level 2_0.
 
-### -field DML_FEATURE_LEVEL_2_1
+### -field DML_FEATURE_LEVEL_2_1:0x2100
 
 Specifies feature level 2_1.
 
-### -field DML_FEATURE_LEVEL_3_0
+### -field DML_FEATURE_LEVEL_3_0:0x3000
 
 Specifies feature level 3_0.
 
@@ -76,9 +76,33 @@ Specifies feature level 3_0.
 
 Specifies feature level 3_1.
 
+### -field DML_FEATURE_LEVEL_4_0
+
+Specifies feature level 4_0.
+
+### -field DML_FEATURE_LEVEL_4_1
+
+Specifies feature level 4_1.
+
+### -field DML_FEATURE_LEVEL_5_0
+
+Specifies feature level 5_0.
+
 ## -remarks
 
-The **DML_FEATURE_LEVEL_3_1** constant was introduced in `DML_FEATURE_LEVEL_3_1`. **DML_FEATURE_LEVEL_3_1** specifies feature level 3_1.
+The **DML_FEATURE_LEVEL_5_1** constant was introduced in `DML_FEATURE_LEVEL_5_1`. **DML_FEATURE_LEVEL_5_1** specifies [feature level 5_1](/windows/ai/directml/dml-feature-level-history#dml_feature_level_5_1).
+
+The **DML_FEATURE_LEVEL_5_2** constant was introduced in `DML_FEATURE_LEVEL_5_2`. **DML_FEATURE_LEVEL_5_2** specifies [feature level 5_2](/windows/ai/directml/dml-feature-level-history#dml_feature_level_5_2).
+
+The **DML_FEATURE_LEVEL_6_0** constant was introduced in `DML_FEATURE_LEVEL_6_0`. **DML_FEATURE_LEVEL_6_0** specifies [feature level 6_0](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_0).
+
+The **DML_FEATURE_LEVEL_6_1** constant was introduced in `DML_FEATURE_LEVEL_6_1`. **DML_FEATURE_LEVEL_6_1** specifies [feature level 6_1](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_1).
+
+The **DML_FEATURE_LEVEL_6_2** constant was introduced in `DML_FEATURE_LEVEL_6_2`. **DML_FEATURE_LEVEL_6_2** specifies [feature level 6_2](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_2).
+
+The **DML_FEATURE_LEVEL_6_3** constant was introduced in `DML_FEATURE_LEVEL_6_3`. **DML_FEATURE_LEVEL_6_3** specifies [feature level 6_3](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_3).
+
+The **DML_FEATURE_LEVEL_6_4** constant was introduced in `DML_FEATURE_LEVEL_6_4`. **DML_FEATURE_LEVEL_6_4** specifies [feature level 6_4](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_4).
 
 ## Availability
 
@@ -88,5 +112,5 @@ This API was introduced in DirectML version `1.1.0`.
 
 * [DMLCreateDevice1 function](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
 * [IDMLDevice::CheckFeatureSupport method](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)
-* [DirectML version history](/windows/win32/direct3d12/dml-version-history)
-* [DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history)
+* [DirectML version history](/windows/ai/directml/dml-version-history)
+* [DirectML feature level history](/windows/ai/directml/dml-feature-level-history)

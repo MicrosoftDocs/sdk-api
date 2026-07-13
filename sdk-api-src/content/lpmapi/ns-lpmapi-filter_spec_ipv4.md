@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_6
+UID: NS:lpmapi.Filter_Spec_IPv4
 title: Filter_Spec_IPv4 (lpmapi.h)
 description: The Filter_Spec_IPv4 structure contains information about an IPv4 FILTERSPEC.
 helpviewer_keywords: ["Filter_Spec_IPv4","Filter_Spec_IPv4 structure [QOS]","lpmapi/Filter_Spec_IPv4","qos.filter_spec_ipv4"]
@@ -70,3 +70,4 @@ TCP port for the source.
 ## -see-also
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
+

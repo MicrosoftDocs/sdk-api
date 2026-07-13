@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","get_fullScr
 old-location: wmp\iwmpplayer_get_fullscreen.htm
 tech.root: WMP
 ms.assetid: 5a8bb0b5-76c6-424f-ba37-5e913b6ed542
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_fullScreen method, IWMPPlayer.get_fullScreen, IWMPPlayer::get_fullScreen, IWMPPlayerget_fullScreen, get_fullScreen, get_fullScreen method [Windows Media Player], get_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_fullscreen, wmp/IWMPPlayer::get_fullScreen
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_fullScreen</b> method retrieves a value indicating whether video content is played back in full-screen mode.
 

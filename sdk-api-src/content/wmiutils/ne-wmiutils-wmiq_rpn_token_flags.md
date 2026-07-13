@@ -56,134 +56,134 @@ Contains flags that describe query tokens used in the <a href="/windows/desktop/
 
 ## -enum-fields
 
-### -field WMIQ_RPN_TOKEN_EXPRESSION
+### -field WMIQ_RPN_TOKEN_EXPRESSION:1
 
 This token is an expression, for example, J = 7.
 
-### -field WMIQ_RPN_TOKEN_AND
+### -field WMIQ_RPN_TOKEN_AND:2
 
 This token is a logical AND.
 
-### -field WMIQ_RPN_TOKEN_OR
+### -field WMIQ_RPN_TOKEN_OR:3
 
 This token is a logical OR.
 
-### -field WMIQ_RPN_TOKEN_NOT
+### -field WMIQ_RPN_TOKEN_NOT:4
 
 This token is a logical NOT.
 
-### -field WMIQ_RPN_OP_UNDEFINED
+### -field WMIQ_RPN_OP_UNDEFINED:0
 
 The operator is undefined or unknown.
 
-### -field WMIQ_RPN_OP_EQ
+### -field WMIQ_RPN_OP_EQ:1
 
 The operator is  equal-to  (=).
 
-### -field WMIQ_RPN_OP_NE
+### -field WMIQ_RPN_OP_NE:2
 
 The operator is  not-equal-to  (&lt;&gt;).
 
-### -field WMIQ_RPN_OP_GE
+### -field WMIQ_RPN_OP_GE:3
 
 The operator is  greater-than-or-equal-to  (&gt;=).
 
-### -field WMIQ_RPN_OP_LE
+### -field WMIQ_RPN_OP_LE:4
 
 The operator is  less-than-or-equal-to  (&lt;=).
 
-### -field WMIQ_RPN_OP_LT
+### -field WMIQ_RPN_OP_LT:5
 
 The operator is  less-than (&lt;) .
 
-### -field WMIQ_RPN_OP_GT
+### -field WMIQ_RPN_OP_GT:6
 
 The operator is  greater-than  (&gt;).
 
-### -field WMIQ_RPN_OP_LIKE
+### -field WMIQ_RPN_OP_LIKE:7
 
 The operator is  LIKE.
 
-### -field WMIQ_RPN_OP_ISA
+### -field WMIQ_RPN_OP_ISA:8
 
 The operator is  ISA.
 
-### -field WMIQ_RPN_OP_ISNOTA
+### -field WMIQ_RPN_OP_ISNOTA:9
 
 The operator is  ISNOTA.
 
-### -field WMIQ_RPN_OP_ISNULL
+### -field WMIQ_RPN_OP_ISNULL:10
 
 The operator is  ISNULL.
 
-### -field WMIQ_RPN_OP_ISNOTNULL
+### -field WMIQ_RPN_OP_ISNOTNULL:11
 
 The operator is  ISNOTNULL.
 
-### -field WMIQ_RPN_LEFT_PROPERTY_NAME
+### -field WMIQ_RPN_LEFT_PROPERTY_NAME:0x1
 
 Left argument is a property name.
 
-### -field WMIQ_RPN_RIGHT_PROPERTY_NAME
+### -field WMIQ_RPN_RIGHT_PROPERTY_NAME:0x2
 
 Right argument is a property name.
 
-### -field WMIQ_RPN_CONST2
+### -field WMIQ_RPN_CONST2:0x4
 
 Has a second constant. Used with "BETWEEN" clauses.
 
-### -field WMIQ_RPN_CONST
+### -field WMIQ_RPN_CONST:0x8
 
 Has a constant.
 
-### -field WMIQ_RPN_RELOP
+### -field WMIQ_RPN_RELOP:0x10
 
 The field <b>m_uOperator</b> is not 0 (zero).
 
-### -field WMIQ_RPN_LEFT_FUNCTION
+### -field WMIQ_RPN_LEFT_FUNCTION:0x20
 
 Left argument is a function.
 
-### -field WMIQ_RPN_RIGHT_FUNCTION
+### -field WMIQ_RPN_RIGHT_FUNCTION:0x40
 
 Right argument is a function.
 
-### -field WMIQ_RPN_GET_TOKEN_TYPE
+### -field WMIQ_RPN_GET_TOKEN_TYPE:1
 
 Reserved for future use.
 
-### -field WMIQ_RPN_GET_EXPR_SHAPE
+### -field WMIQ_RPN_GET_EXPR_SHAPE:2
 
 Reserved for future use.
 
-### -field WMIQ_RPN_GET_LEFT_FUNCTION
+### -field WMIQ_RPN_GET_LEFT_FUNCTION:3
 
 Reserved for future use.
 
-### -field WMIQ_RPN_GET_RIGHT_FUNCTION
+### -field WMIQ_RPN_GET_RIGHT_FUNCTION:4
 
 Reserved for future use.
 
-### -field WMIQ_RPN_GET_RELOP
+### -field WMIQ_RPN_GET_RELOP:5
 
 Reserved for future use.
 
-### -field WMIQ_RPN_NEXT_TOKEN
+### -field WMIQ_RPN_NEXT_TOKEN:1
 
 Reserved for future use.
 
-### -field WMIQ_RPN_FROM_UNARY
+### -field WMIQ_RPN_FROM_UNARY:0x1
 
 FROM clause contains a single class.
 
-### -field WMIQ_RPN_FROM_PATH
+### -field WMIQ_RPN_FROM_PATH:0x2
 
 FROM clause contains an object path.
 
-### -field WMIQ_RPN_FROM_CLASS_LIST
+### -field WMIQ_RPN_FROM_CLASS_LIST:0x4
 
 FROM clause contains a list of classes.
 
-### -field WMIQ_RPN_FROM_MULTIPLE
+### -field WMIQ_RPN_FROM_MULTIPLE:0x8
 
 Reserved for future use.

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.SetMenuItemInfoA
 title: SetMenuItemInfoA function (winuser.h)
-description: Changes information about a menu item.
-helpviewer_keywords: ["SetMenuItemInfo","SetMenuItemInfo function [Menus and Other Resources]","SetMenuItemInfoA","SetMenuItemInfoW","_win32_SetMenuItemInfo","_win32_setmenuiteminfo_cpp","menurc.setmenuiteminfo","winui._win32_setmenuiteminfo","winuser/SetMenuItemInfo","winuser/SetMenuItemInfoA","winuser/SetMenuItemInfoW"]
+description: Changes information about a menu item. (ANSI)
+helpviewer_keywords: ["SetMenuItemInfoA", "winuser/SetMenuItemInfoA"]
 old-location: menurc\setmenuiteminfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuiteminfo.htm
-ms.date: 12/05/2018
+ms.date: 07/02/2025
 ms.keywords: SetMenuItemInfo, SetMenuItemInfo function [Menus and Other Resources], SetMenuItemInfoA, SetMenuItemInfoW, _win32_SetMenuItemInfo, _win32_setmenuiteminfo_cpp, menurc.setmenuiteminfo, winui._win32_setmenuiteminfo, winuser/SetMenuItemInfo, winuser/SetMenuItemInfoA, winuser/SetMenuItemInfoW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -71,13 +71,13 @@ A handle to the menu that contains the menu item.
 
 Type: <b>UINT</b>
 
-The identifier or position of the menu item to change. The meaning of this parameter depends on the value of <i>fByPosition</i>.
+The identifier or position of the menu item to change. The meaning of this parameter depends on the value of <i>fByPositon</i>.
 
 ### -param fByPositon [in]
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">About Menus</a> for more information.
+The meaning of <i>Item</i>. If this parameter is <b>FALSE</b>, <i>Item</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">About Menus</a> for more information. (_Note: this parameter is misspelled in the header; it should be used as shown here._)
 
 ### -param lpmii [in]
 
@@ -112,7 +112,7 @@ For an example, see <a href="/windows/desktop/menurc/using-menus">Example of Own
 
 
 > [!NOTE]
-> The winuser.h header defines SetMenuItemInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SetMenuItemInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

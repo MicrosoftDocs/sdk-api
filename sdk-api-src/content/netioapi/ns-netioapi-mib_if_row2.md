@@ -1,7 +1,7 @@
 ---
 UID: NS:netioapi._MIB_IF_ROW2
 title: MIB_IF_ROW2 (netioapi.h)
-description: Stores information about a particular interface.
+description: Stores information about a particular interface. (MIB_IF_ROW2)
 helpviewer_keywords: ["*PMIB_IF_ROW2","IF_TYPE_ATM","IF_TYPE_ETHERNET_CSMACD","IF_TYPE_FDDI","IF_TYPE_IEEE1394","IF_TYPE_IEEE80211","IF_TYPE_IEEE80216_WMAN","IF_TYPE_ISO88025_TOKENRING","IF_TYPE_OTHER","IF_TYPE_PPP","IF_TYPE_SOFTWARE_LOOPBACK","IF_TYPE_TUNNEL","IF_TYPE_WWANPP","IF_TYPE_WWANPP2","IfOperStatusDormant","IfOperStatusDown","IfOperStatusLowerLayerDown","IfOperStatusNotPresent","IfOperStatusTesting","IfOperStatusUnknown","IfOperStatusUp","MIB_IF_ROW2","MIB_IF_ROW2 structure [MIB]","MediaConnectStateConnected","MediaConnectStateDisconnected","MediaConnectStateUnknown","NET_IF_ACCESS_BROADCAST","NET_IF_ACCESS_LOOPBACK","NET_IF_ACCESS_MAXIMUM","NET_IF_ACCESS_POINT_TO_MULTI_POINT","NET_IF_ACCESS_POINT_TO_POINT","NET_IF_ADMIN_STATUS_DOWN","NET_IF_ADMIN_STATUS_TESTING","NET_IF_ADMIN_STATUS_UP","NET_IF_CONNECTION_DEDICATED","NET_IF_CONNECTION_DEMAND","NET_IF_CONNECTION_MAXIMUM","NET_IF_CONNECTION_PASSIVE","NET_IF_DIRECTION_MAXIMUM","NET_IF_DIRECTION_RECEIVEONLY","NET_IF_DIRECTION_SENDONLY","NET_IF_DIRECTION_SENDRECEIVE","NdisMedium1394","NdisMedium802_3","NdisMedium802_5","NdisMediumArcnet878_2","NdisMediumArcnetRaw","NdisMediumAtm","NdisMediumBpc","NdisMediumCoWan","NdisMediumDix","NdisMediumFddi","NdisMediumInfiniBand","NdisMediumIrda","NdisMediumLocalTalk","NdisMediumLoopback","NdisMediumNative802_11","NdisMediumTunnel","NdisMediumWan","NdisMediumWiMax","NdisMediumWirelessWan","NdisPhysicalMedium1394","NdisPhysicalMedium802_3","NdisPhysicalMedium802_5","NdisPhysicalMediumBluetooth","NdisPhysicalMediumCableModem","NdisPhysicalMediumDSL","NdisPhysicalMediumFibreChannel","NdisPhysicalMediumInfiniband","NdisPhysicalMediumIrda","NdisPhysicalMediumNative802_11","NdisPhysicalMediumOther","NdisPhysicalMediumPhoneLine","NdisPhysicalMediumPowerLine","NdisPhysicalMediumUWB","NdisPhysicalMediumUnspecified","NdisPhysicalMediumWiMax","NdisPhysicalMediumWiredCoWan","NdisPhysicalMediumWiredWAN","NdisPhysicalMediumWirelessLan","NdisPhysicalMediumWirelessWan","PMIB_IF_ROW2","PMIB_IF_ROW2 structure pointer [MIB]","TUNNEL_TYPE_6TO4","TUNNEL_TYPE_DIRECT","TUNNEL_TYPE_ISATAP","TUNNEL_TYPE_NONE","TUNNEL_TYPE_OTHER","TUNNEL_TYPE_TEREDO","_MIB_IF_ROW2","mib.mib_if_row2","netioapi/MIB_IF_ROW2","netioapi/PMIB_IF_ROW2"]
 old-location: mib\mib_if_row2.htm
 tech.root: MIB
@@ -967,51 +967,51 @@ A set of flags that provide information about the interface. These flags are com
 
 ### -field InterfaceAndOperStatusFlags.HardwareInterface
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is for hardware.
 
 ### -field InterfaceAndOperStatusFlags.FilterInterface
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is for a filter module.
 
 ### -field InterfaceAndOperStatusFlags.ConnectorPresent
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if a connector is present on the network interface. This value is set if there is a physical network adapter.
 
 ### -field InterfaceAndOperStatusFlags.NotAuthenticated
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the default port for the network interface is not authenticated. If a network interface is not authenticated by the target, then the network interface is not in an operational mode.
 Although this applies to both wired and wireless network connections, authentication is more common for wireless network connections.
 
 ### -field InterfaceAndOperStatusFlags.NotMediaConnected
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is not in a media-connected state. If a network cable is unplugged for a wired network, this would be set. For a wireless network, this is set for the network adapter that is not connected to a network.
 
 ### -field InterfaceAndOperStatusFlags.Paused
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network stack for the network interface is in the paused or pausing state. This does not mean that the computer is in a hibernated state.
 
 ### -field InterfaceAndOperStatusFlags.LowPower
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is in a low power state.
 
 ### -field InterfaceAndOperStatusFlags.EndPointInterface
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is an endpoint device and not a true network interface that connects to a network. This can be set by devices such as smart phones which use networking infrastructure to communicate to the PC but do not provide connectivity to an external network. It is mandatory for these types of devices to set this flag.
 
 ### -field OperStatus

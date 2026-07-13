@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IAutomaticUpdates
 title: IAutomaticUpdates (wuapi.h)
-description: Contains the functionality of Automatic Updates.
+description: Contains the functionality of Automatic Updates. (IAutomaticUpdates)
 helpviewer_keywords: ["IAutomaticUpdates","IAutomaticUpdates interface [Windows Update Agent]","IAutomaticUpdates interface [Windows Update Agent]","described","wua.iautomaticupdates","wuapi/IAutomaticUpdates"]
 old-location: wua\iautomaticupdates.htm
 tech.root: wua
@@ -54,11 +54,7 @@ Contains the functionality of Automatic Updates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IAutomaticUpdates</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
 
 ## -remarks
 

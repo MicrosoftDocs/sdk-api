@@ -15,7 +15,7 @@ dev_langs:
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ ms.custom: 19H1
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 
 Defines a handler for an event that is derived from the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface.
     In a Protected Broadcast Driver Architecture graph, Media Sink Devices that implement the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a> interface use this method to obtain data from Event System events that these devices receive. In this context, <i>Event System events</i> refer to event objects that that implement the <b>IESEvent</b> interface.
@@ -79,7 +81,7 @@ Pointer to an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ies
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 
 
@@ -94,6 +96,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a>
- 
+ 
 
- 
+ 

@@ -56,7 +56,7 @@ Describes how up-to-date the OS on a device is. <b>UpdateAssessmentStatus</b> is
 
 ## -enum-fields
 
-### -field UpdateAssessmentStatus_Latest
+### -field UpdateAssessmentStatus_Latest:0
 
 This result within <b>assessmentForCurrent</b> implies that the device is on the latest feature update and quality update available for that device. Within <b>assessmentForUpToDate</b>, this result implies that the device is on the latest quality update for the release of Windows it is running.
 

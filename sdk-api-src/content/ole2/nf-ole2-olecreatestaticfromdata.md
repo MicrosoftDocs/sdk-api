@@ -40,6 +40,15 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-com-ole32-l1-4-0.dll
+ - ext-ms-win-com-ole32-l1-3-0.dll
+ - ext-ms-win-com-ole32-l1-2-0.dll
+ - ext-ms-win-com-ole32-l1-1-5.dll
+ - ext-ms-win-com-ole32-l1-1-4.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - ext-ms-win-com-ole32-l1-1-2.dll
+ - ext-ms-win-com-ole32-l1-1-1.dll
+ - ext-ms-win-com-ole32-l1-1-0.dll
  - Ole32.dll
 api_name:
  - OleCreateStaticFromData

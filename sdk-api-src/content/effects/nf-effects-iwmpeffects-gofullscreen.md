@@ -6,7 +6,7 @@ helpviewer_keywords: ["EffectsGoFullscreen","GoFullscreen","GoFullscreen method 
 old-location: wmp\iwmpeffects_gofullscreen.htm
 tech.root: WMP
 ms.assetid: daf69206-5756-4504-9738-e16b9af39790
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: EffectsGoFullscreen, GoFullscreen, GoFullscreen method [Windows Media Player], GoFullscreen method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GoFullscreen method, IWMPEffects.GoFullscreen, IWMPEffects::GoFullscreen, effects/IWMPEffects::GoFullscreen, wmp.iwmpeffects_gofullscreen
 req.header: effects.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GoFullscreen</b> method instructs the visualization to switch to full-screen mode.
 

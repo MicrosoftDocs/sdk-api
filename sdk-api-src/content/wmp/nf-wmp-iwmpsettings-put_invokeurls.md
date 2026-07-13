@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_invok
 old-location: wmp\iwmpsettings_put_invokeurls.htm
 tech.root: WMP
 ms.assetid: 4c62ba8e-8fca-4cfe-9a52-6b6ac2c7c0de
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSettings interface [Windows Media Player],put_invokeURLs method, IWMPSettings.put_invokeURLs, IWMPSettings::put_invokeURLs, IWMPSettingsput_invokeURLs, put_invokeURLs, put_invokeURLs method [Windows Media Player], put_invokeURLs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_invokeurls, wmp/IWMPSettings::put_invokeURLs
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_invokeURLs</b> method specifies a value indicating whether URL events should launch a Web browser.
 

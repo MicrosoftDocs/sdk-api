@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_LOG_CATEGORYW
 title: FAX_LOG_CATEGORYW (winfax.h)
-description: The FAX_LOG_CATEGORY structure describes one logging category.
+description: The FAX_LOG_CATEGORY structure describes one logging category. (Unicode)
 helpviewer_keywords: ["*PFAX_LOG_CATEGORYW","FAXLOG_CATEGORY_INBOUND","FAXLOG_CATEGORY_INIT","FAXLOG_CATEGORY_OUTBOUND","FAXLOG_CATEGORY_UNKNOWN","FAXLOG_LEVEL_MAX","FAXLOG_LEVEL_MED","FAXLOG_LEVEL_MIN","FAXLOG_LEVEL_NONE","FAX_LOG_CATEGORY","FAX_LOG_CATEGORY structure [Fax Service]","FAX_LOG_CATEGORYA","FAX_LOG_CATEGORYW","PFAX_LOG_CATEGORY","PFAX_LOG_CATEGORY structure pointer [Fax Service]","_mfax_fax_log_category_str","fax._mfax_fax_log_category_str","winfax/FAX_LOG_CATEGORY","winfax/FAX_LOG_CATEGORYA","winfax/FAX_LOG_CATEGORYW","winfax/PFAX_LOG_CATEGORY"]
 old-location: fax\_mfax_fax_log_category_str.htm
 tech.root: Fax
@@ -175,7 +175,7 @@ The fax client application passes the <b>FAX_LOG_CATEGORY</b> structure in a cal
 
 
 > [!NOTE]
-> The winfax.h header defines FAX_LOG_CATEGORY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FAX_LOG_CATEGORY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

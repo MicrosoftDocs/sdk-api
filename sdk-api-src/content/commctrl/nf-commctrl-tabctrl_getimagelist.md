@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetImageList","TabCtrl_GetImageList macro [Window
 old-location: controls\TabCtrl_GetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getimagelist.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetImageList, TabCtrl_GetImageList macro [Windows Controls], _win32_TabCtrl_GetImageList, _win32_TabCtrl_GetImageList_cpp, commctrl/TabCtrl_GetImageList, controls.TabCtrl_GetImageList, controls._win32_TabCtrl_GetImageList
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TabCtrl_GetImageList macro
+
+## -syntax
+
+```cpp
+HIMAGELIST TabCtrl_GetImageList(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns the handle to the image list if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

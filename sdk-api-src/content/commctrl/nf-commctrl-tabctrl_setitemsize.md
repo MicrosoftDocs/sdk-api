@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_SetItemSize","TabCtrl_SetItemSize macro [Windows 
 old-location: controls\TabCtrl_SetItemSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemsize.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_SetItemSize, TabCtrl_SetItemSize macro [Windows Controls], _win32_TabCtrl_SetItemSize, _win32_TabCtrl_SetItemSize_cpp, commctrl/TabCtrl_SetItemSize, controls.TabCtrl_SetItemSize, controls._win32_TabCtrl_SetItemSize
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TabCtrl_SetItemSize macro
+
+## -syntax
+
+```cpp
+DWORD TabCtrl_SetItemSize(
+   HWND hwnd,
+   int  x,
+   int  y
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the old width and height. The width is in the <b>LOWORD</b> of the return value, and the height is in the <b>HIWORD</b>.
 
 
 ## -description

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun2.ApplyHints2
 title: IVdsLun2::ApplyHints2 (vdshwprv.h)
-description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes. This method is identical to the IVdsLun::ApplyHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.
+description: The IVdsLun2::ApplyHints2 (vdshwprv.h) method applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes.
 helpviewer_keywords: ["ApplyHints2","ApplyHints2 method","ApplyHints2 method","IVdsLun2 interface","IVdsLun2 interface","ApplyHints2 method","IVdsLun2.ApplyHints2","IVdsLun2::ApplyHints2","base.ivdslun2_applyhints2","vds/IVdsLun2::ApplyHints2","vdshwprv/IVdsLun2::ApplyHints2"]
 old-location: base\ivdslun2_applyhints2.htm
 tech.root: base
 ms.assetid: 0032dce3-876c-4a02-8e06-203b3f83ca08
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: ApplyHints2, ApplyHints2 method, ApplyHints2 method,IVdsLun2 interface, IVdsLun2 interface,ApplyHints2 method, IVdsLun2.ApplyHints2, IVdsLun2::ApplyHints2, base.ivdslun2_applyhints2, vds/IVdsLun2::ApplyHints2, vdshwprv/IVdsLun2::ApplyHints2
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Applies a new set of 
    hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes. This method is identical to the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-applyhints">IVdsLun::ApplyHints</a> method, except that it uses a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure instead of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure.

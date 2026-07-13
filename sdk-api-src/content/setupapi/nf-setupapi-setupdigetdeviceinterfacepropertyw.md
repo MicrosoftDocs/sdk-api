@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
+ - ext-ms-win-setupapi-classinstallers-l1-1-2.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:
@@ -69,7 +71,7 @@ A pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY
 
 ### -param PropertyType [out]
 
-A pointer to a <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
+A pointer to a <a href="/windows-hardware/drivers/install/property-data-type-identifiers">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
 
 ### -param PropertyBuffer [out]
 

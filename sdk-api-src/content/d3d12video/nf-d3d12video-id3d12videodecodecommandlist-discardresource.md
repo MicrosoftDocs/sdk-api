@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.DiscardResource
 title: ID3D12VideoDecodeCommandList::DiscardResource
-description: Indicate that the current contents of a resource can be discarded.
+description: Indicate that the current contents of a resource can be discarded. (ID3D12VideoDecodeCommandList::DiscardResource)
 helpviewer_keywords: ["ID3D12VideoDecodeCommandList::DiscardResource","DiscardResource","ID3D12VideoDecodeCommandList.DiscardResource","ID3D12VideoDecodeCommandList::DiscardResource","ID3D12VideoDecodeCommandList.DiscardResource"]
 tech.root: mf
 ms.assetid: f00a49e1-d189-462f-acb7-f233239b2cf4

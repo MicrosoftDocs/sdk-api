@@ -58,7 +58,7 @@ api_name:
 
 Cancels classification if it is running.
 
-## -parameters
+
 
 ## -returns
 

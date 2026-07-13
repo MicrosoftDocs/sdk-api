@@ -4,7 +4,7 @@ title: SetThreadIdealProcessor function (processthreadsapi.h)
 description: Sets a preferred processor for a thread. The system schedules threads on their preferred processors whenever possible.
 helpviewer_keywords: ["SetThreadIdealProcessor","SetThreadIdealProcessor function","_win32_setthreadidealprocessor","base.setthreadidealprocessor","processthreadsapi/SetThreadIdealProcessor"]
 old-location: base\setthreadidealprocessor.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: b174f74b-4b61-4170-a8a6-2ddc4cc5e375
 ms.date: 12/05/2018
 ms.keywords: SetThreadIdealProcessor, SetThreadIdealProcessor function, _win32_setthreadidealprocessor, base.setthreadidealprocessor, processthreadsapi/SetThreadIdealProcessor
@@ -40,6 +40,12 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
  - kernel32legacy.dll
@@ -87,6 +93,9 @@ You can use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystem
 <a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function to check the processors on which the thread is allowed to run. Note that 
 <b>GetProcessAffinityMask</b> returns a bitmask whereas 
 <b>SetThreadIdealProcessor</b> uses an integer value to represent the processor.
+
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a>, by default.
+The <b>SetThreadIdealProcessor</b> function sets the preferred processor to a logical processor in the thread's primary group.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0400 or later. For more information, see 
 <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexStringW
 title: SymSrvGetFileIndexStringW function (dbghelp.h)
-description: Retrieves the index string for the specified .pdb, .dbg, or image file.
+description: The SymSrvGetFileIndexStringW (Unicode) function (dbghelp.h) retrieves the index string for the specified .pdb, .dbg, or image file.
 helpviewer_keywords: ["SymSrvGetFileIndexString","SymSrvGetFileIndexString function","SymSrvGetFileIndexStringW","base.symsrvgetfileindexstring","dbghelp/SymSrvGetFileIndexString","dbghelp/SymSrvGetFileIndexStringW"]
 old-location: base\symsrvgetfileindexstring.htm
 tech.root: Debug
 ms.assetid: e66598fb-d7c7-4fde-a995-bfd1e7ceb24b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvGetFileIndexString, SymSrvGetFileIndexString function, SymSrvGetFileIndexStringW, base.symsrvgetfileindexstring, dbghelp/SymSrvGetFileIndexString, dbghelp/SymSrvGetFileIndexStringW
 req.header: dbghelp.h
 req.include-header: 
@@ -104,7 +104,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymSrvGetFileIndexString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymSrvGetFileIndexString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

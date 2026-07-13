@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-shell-associations-l1-1-3.dll
+ - api-ms-win-shell-associations-l1-1-2.dll
+ - api-ms-win-shell-associations-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-Shell-Associations-L1-1-0.dll
  - Windows.Storage.dll
@@ -90,7 +93,7 @@ When this function returns, contains a flag that is <b>TRUE</b> if the property 
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

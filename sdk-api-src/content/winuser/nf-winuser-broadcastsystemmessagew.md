@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.BroadcastSystemMessageW
 title: BroadcastSystemMessageW function (winuser.h)
-description: Sends a message to the specified recipients.
-helpviewer_keywords: ["BSF_ALLOWSFW","BSF_FLUSHDISK","BSF_FORCEIFHUNG","BSF_IGNORECURRENTTASK","BSF_NOHANG","BSF_NOTIMEOUTIFNOTHUNG","BSF_POSTMESSAGE","BSF_QUERY","BSF_SENDNOTIFYMESSAGE","BSM_ALLCOMPONENTS","BSM_ALLDESKTOPS","BSM_APPLICATIONS","BroadcastSystemMessage","BroadcastSystemMessage function [Windows and Messages]","BroadcastSystemMessageW","_win32_BroadcastSystemMessage","_win32_broadcastsystemmessage_cpp","winmsg.broadcastsystemmessage","winui._win32_broadcastsystemmessage","winuser/BroadcastSystemMessage","winuser/BroadcastSystemMessageW"]
+description: The BroadcastSystemMessageW (Unicode) function sends a message to the specified recipients. (BroadcastSystemMessageW)
+helpviewer_keywords: ["BSF_ALLOWSFW", "BSF_FLUSHDISK", "BSF_FORCEIFHUNG", "BSF_IGNORECURRENTTASK", "BSF_NOHANG", "BSF_NOTIMEOUTIFNOTHUNG", "BSF_POSTMESSAGE", "BSF_QUERY", "BSF_SENDNOTIFYMESSAGE", "BSM_ALLCOMPONENTS", "BSM_ALLDESKTOPS", "BSM_APPLICATIONS", "BroadcastSystemMessage", "BroadcastSystemMessage function [Windows and Messages]", "BroadcastSystemMessageW", "_win32_BroadcastSystemMessage", "_win32_broadcastsystemmessage_cpp", "winmsg.broadcastsystemmessage", "winui._win32_broadcastsystemmessage", "winuser/BroadcastSystemMessage", "winuser/BroadcastSystemMessageW"]
 old-location: winmsg\broadcastsystemmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessage.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessage, BroadcastSystemMessage function [Windows and Messages], BroadcastSystemMessageW, _win32_BroadcastSystemMessage, _win32_broadcastsystemmessage_cpp, winmsg.broadcastsystemmessage, winui._win32_broadcastsystemmessage, winuser/BroadcastSystemMessage, winuser/BroadcastSystemMessageW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -271,7 +271,7 @@ For an example, see <a href="/windows/desktop/ProcThread/terminating-a-process">
 
 
 > [!NOTE]
-> The winuser.h header defines BroadcastSystemMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines BroadcastSystemMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

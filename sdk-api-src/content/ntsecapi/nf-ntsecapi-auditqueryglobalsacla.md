@@ -1,8 +1,8 @@
 ---
 UID: NF:ntsecapi.AuditQueryGlobalSaclA
 title: AuditQueryGlobalSaclA function (ntsecapi.h)
-description: Retrieves a global system access control list (SACL) that delegates access to the audit messages.
-helpviewer_keywords: ["AuditQueryGlobalSacl","AuditQueryGlobalSacl function [Security]","AuditQueryGlobalSaclA","AuditQueryGlobalSaclW","ntsecapi/AuditQueryGlobalSacl","ntsecapi/AuditQueryGlobalSaclA","ntsecapi/AuditQueryGlobalSaclW","security.auditqueryglobalsacl"]
+description: Retrieves a global system access control list (SACL) that delegates access to the audit messages. (ANSI)
+helpviewer_keywords: ["AuditQueryGlobalSaclA", "ntsecapi/AuditQueryGlobalSaclA"]
 old-location: security\auditqueryglobalsacl.htm
 tech.root: security
 ms.assetid: 133BBC94-9C89-437A-9146-75A9898A6566
@@ -112,4 +112,4 @@ To successfully call this function, the caller must have <b>SeSecurityPrivilege<
 
 
 > [!NOTE]
-> The ntsecapi.h header defines AuditQueryGlobalSacl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntsecapi.h header defines AuditQueryGlobalSacl as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

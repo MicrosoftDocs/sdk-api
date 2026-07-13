@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateAcceleratorTableA
 title: CreateAcceleratorTableA function (winuser.h)
-description: Creates an accelerator table.
-helpviewer_keywords: ["CreateAcceleratorTable","CreateAcceleratorTable function [Menus and Other Resources]","CreateAcceleratorTableA","CreateAcceleratorTableW","_win32_CreateAcceleratorTable","_win32_createacceleratortable_cpp","menurc.createacceleratortable","winui._win32_createacceleratortable","winuser/CreateAcceleratorTable","winuser/CreateAcceleratorTableA","winuser/CreateAcceleratorTableW"]
+description: Creates an accelerator table. (ANSI)
+helpviewer_keywords: ["CreateAcceleratorTableA", "winuser/CreateAcceleratorTableA"]
 old-location: menurc\createacceleratortable.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\createacceleratortable.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-keyboard-ansi-l1-1-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-2.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
@@ -93,7 +94,7 @@ For an example, see <a href="/windows/desktop/menurc/using-keyboard-accelerators
 
 
 > [!NOTE]
-> The winuser.h header defines CreateAcceleratorTable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CreateAcceleratorTable as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

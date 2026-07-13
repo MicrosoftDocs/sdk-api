@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
+Gets a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
 
 ## -parameters
 
 ### -param ppt [in, out]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 A pointer to an existing structure to be filled with the current sizing dimensions of the items in the folder's view.
 
@@ -64,7 +64,7 @@ A pointer to an existing structure to be filled with the current sizing dimensio
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

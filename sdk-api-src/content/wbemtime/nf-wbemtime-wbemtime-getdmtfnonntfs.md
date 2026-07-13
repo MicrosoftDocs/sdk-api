@@ -62,7 +62,7 @@ api_name:
 The <b>GetDMTFNonNtfs</b> method gets a DMTF date in a 
 CIM <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a> from a FAT that does not have time zones.
 
-## -parameters
+
 
 ## -returns
 

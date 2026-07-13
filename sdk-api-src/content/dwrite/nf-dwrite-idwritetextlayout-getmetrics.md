@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetMetrics
 title: IDWriteTextLayout::GetMetrics (dwrite.h)
-description: Retrieves overall metrics for the formatted string.
+description: Retrieves overall metrics for the formatted string. (IDWriteTextLayout.GetMetrics)
 helpviewer_keywords: ["GetMetrics","GetMetrics method [Direct Write]","GetMetrics method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetMetrics method","IDWriteTextLayout.GetMetrics","IDWriteTextLayout::GetMetrics","directwrite.IDWriteTextLayout_GetMetrics","dwrite/IDWriteTextLayout::GetMetrics"]
 old-location: directwrite\IDWriteTextLayout_GetMetrics.htm
 tech.root: DirectWrite
@@ -64,7 +64,7 @@ When this method returns, contains the measured distances of text and associated
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

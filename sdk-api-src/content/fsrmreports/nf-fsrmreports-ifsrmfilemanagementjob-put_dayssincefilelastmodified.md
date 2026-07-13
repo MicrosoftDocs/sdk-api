@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_DaysSinceFileLastModified
 title: IFsrmFileManagementJob::put_DaysSinceFileLastModified (fsrmreports.h)
-description: The number of days that have elapsed since a file was last modified.
+description: The number of days that have elapsed since a file was last modified. (Put)
 helpviewer_keywords: ["DaysSinceFileLastModified property [File Server Resource Manager]","DaysSinceFileLastModified property [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","DaysSinceFileLastModified property","IFsrmFileManagementJob.DaysSinceFileLastModified","IFsrmFileManagementJob.put_DaysSinceFileLastModified","IFsrmFileManagementJob::DaysSinceFileLastModified","IFsrmFileManagementJob::get_DaysSinceFileLastModified","IFsrmFileManagementJob::put_DaysSinceFileLastModified","fs.ifsrmfilemanagementjob_dayssincefilelastmodified","fsrm.ifsrmfilemanagementjob_dayssincefilelastmodified","fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastModified","fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastModified","fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastModified","put_DaysSinceFileLastModified"]
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastmodified.htm
 tech.root: fsrm

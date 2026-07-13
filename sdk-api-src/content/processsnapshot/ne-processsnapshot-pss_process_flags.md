@@ -1,5 +1,5 @@
 ---
-UID: NE:processsnapshot.__unnamed_enum_6
+UID: NE:processsnapshot.PSS_PROCESS_FLAGS
 title: PSS_PROCESS_FLAGS (processsnapshot.h)
 description: Flags that describe a process.
 helpviewer_keywords: ["PSS_PROCESS_FLAGS","PSS_PROCESS_FLAGS enumeration","PSS_PROCESS_FLAGS_FROZEN","PSS_PROCESS_FLAGS_NONE","PSS_PROCESS_FLAGS_PROTECTED","PSS_PROCESS_FLAGS_RESERVED_03","PSS_PROCESS_FLAGS_RESERVED_04","PSS_PROCESS_FLAGS_WOW64","proc_snap.pss_process_flags","processsnapshot/PSS_PROCESS_FLAGS","processsnapshot/PSS_PROCESS_FLAGS_FROZEN","processsnapshot/PSS_PROCESS_FLAGS_NONE","processsnapshot/PSS_PROCESS_FLAGS_PROTECTED","processsnapshot/PSS_PROCESS_FLAGS_RESERVED_03","processsnapshot/PSS_PROCESS_FLAGS_RESERVED_04","processsnapshot/PSS_PROCESS_FLAGS_WOW64"]
@@ -54,27 +54,27 @@ Flags that describe a process.
 
 ## -enum-fields
 
-### -field PSS_PROCESS_FLAGS_NONE
+### -field PSS_PROCESS_FLAGS_NONE:0x00000000
 
 No flag.
 
-### -field PSS_PROCESS_FLAGS_PROTECTED
+### -field PSS_PROCESS_FLAGS_PROTECTED:0x00000001
 
 The process is protected.
 
-### -field PSS_PROCESS_FLAGS_WOW64
+### -field PSS_PROCESS_FLAGS_WOW64:0x00000002
 
 The process is a 32-bit process running on a 64-bit native OS.
 
-### -field PSS_PROCESS_FLAGS_RESERVED_03
+### -field PSS_PROCESS_FLAGS_RESERVED_03:0x00000004
 
 Undefined.
 
-### -field PSS_PROCESS_FLAGS_RESERVED_04
+### -field PSS_PROCESS_FLAGS_RESERVED_04:0x00000008
 
 Undefined.
 
-### -field PSS_PROCESS_FLAGS_FROZEN
+### -field PSS_PROCESS_FLAGS_FROZEN:0x00000010
 
 The process is frozen; for example,  a debugger is attached and broken into the process or a Store process is suspended by a lifetime management service.
 
@@ -85,3 +85,4 @@ There are <b>PSS_PROCESS_FLAGS</b> members in the <a href="/previous-versions/wi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

@@ -60,7 +60,7 @@ The <b>AM_COPY_MACROVISION</b> structure specifies the analog copy protection le
 
 ### -field MACROVISIONLevel
 
-Analog copy protection level for the NTSC encoder. Member of the <a href="/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level">AM_COPY_MACROVISION_LEVEL</a> enumerated data type.
+Analog copy protection level for the NTSC encoder. Member of the <a href="/previous-versions/ms778997(v=vs.85)">AM_COPY_MACROVISION_LEVEL</a> enumerated data type.
 
 ## -remarks
 

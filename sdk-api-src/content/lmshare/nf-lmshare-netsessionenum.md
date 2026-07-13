@@ -267,7 +267,7 @@ The user name could not be found.
 ## -remarks
 
 Only members of the Administrators or Server Operators local group can successfully execute the 
-<b>NetSessionEnum</b> function at level 1 or level 2. No special group membership is required for level 0 or level 10 calls.
+<b>NetSessionEnum</b> function at level 1 or level 2.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see 
 <a href="/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> and 

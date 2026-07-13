@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDevices.get__NewEnum
 title: IUPnPDevices::get__NewEnum (upnp.h)
-description: The _NewEnum property specifies either the IEnumVARIANT or IEnumUnknown enumerator interface for the collection.
+description: The _NewEnum property specifies either the IEnumVARIANT or IEnumUnknown enumerator interface for the collection. (IUPnPDevices.get__NewEnum)
 helpviewer_keywords: ["IUPnPDevices interface [UPnP APIs]","get__NewEnum method","IUPnPDevices.get__NewEnum","IUPnPDevices::get__NewEnum","_upnp_iupnpdevices__newenum","get__NewEnum","get__NewEnum method [UPnP APIs]","get__NewEnum method [UPnP APIs]","IUPnPDevices interface","upnp.iupnpdevices__newenum","upnp/IUPnPDevices::get__NewEnum"]
 old-location: upnp\iupnpdevices__newenum.htm
 tech.root: upnp

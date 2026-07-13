@@ -4,14 +4,14 @@ title: IDWriteFactory6::CreateFontResource
 description: Creates a font resource, given a font file and a face index.
 helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontResource method","IDWriteFactory6.CreateFontResource","IDWriteFactory6::CreateFontResource","CreateFontResource","CreateFontResource method [Direct Write]","CreateFontResource method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_createfontresource","dwrite_3/IDWriteFactory6::CreateFontResource"]
 tech.root: DirectWrite
-ms.date: 09/10/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontResource method, IDWriteFactory6.CreateFontResource, IDWriteFactory6::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontresource, dwrite_3/IDWriteFactory6::CreateFontResource
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

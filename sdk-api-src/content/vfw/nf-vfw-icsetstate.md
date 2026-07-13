@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICSetState","ICSetState macro [Windows Multimedia]","_win
 old-location: multimedia\icsetstate.htm
 tech.root: Multimedia
 ms.assetid: 96958fbf-8539-49bc-a2ff-160b7ea8d2ab
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICSetState, ICSetState macro [Windows Multimedia], _win32_ICSetState, multimedia.icsetstate, vfw/ICSetState
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICSetState macro
+
+## -syntax
+
+```cpp
+DWORD ICSetState(
+     hic,
+     pv,
+     cb
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the number of bytes used by the compressor if successful or zero otherwise.
 
 
 ## -description

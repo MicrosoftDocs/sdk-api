@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Gets the driver's response to a Digital Satellite Equipment Control (DiSEqC) command.
 
 ## -parameters
@@ -78,7 +80,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +91,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>BDA_E_BUFFER_TOO_SMALL</b></b></dt>
+<dt><b>BDA_E_BUFFER_TOO_SMALL</b></dt>
 </dl>
 </td>
 <td width="60%">

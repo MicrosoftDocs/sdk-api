@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegCreateUSKeyW
 title: SHRegCreateUSKeyW function (shlwapi.h)
-description: Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegCreateUSKey","SHRegCreateUSKey function [Windows Shell]","SHRegCreateUSKeyA","SHRegCreateUSKeyW","_win32_SHRegCreateUSKey","shell.SHRegCreateUSKey","shlwapi/SHRegCreateUSKey","shlwapi/SHRegCreateUSKeyA","shlwapi/SHRegCreateUSKeyW"]
+description: Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
+helpviewer_keywords: ["SHREGSET_DEFAULT", "SHREGSET_FORCE_HKCU", "SHREGSET_FORCE_HKLM", "SHREGSET_HKCU", "SHREGSET_HKLM", "SHRegCreateUSKey", "SHRegCreateUSKey function [Windows Shell]", "SHRegCreateUSKeyW", "_win32_SHRegCreateUSKey", "shell.SHRegCreateUSKey", "shlwapi/SHRegCreateUSKey", "shlwapi/SHRegCreateUSKeyW"]
 old-location: shell\SHRegCreateUSKey.htm
 tech.root: shell
 ms.assetid: 10e3e31e-bff6-4260-95fa-2d750de16ab3
@@ -157,4 +157,4 @@ If you want to write values to the new key, use <a href="/windows/desktop/api/sh
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegCreateUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegCreateUSKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,12 +1,11 @@
 ---
 UID: NF:cimfs.CimCreateHardLink
 title: CimCreateHardLink
-ms.date: 9/9/2019
-ms.author: windowssdkdev
+description: The CimCreateHardLink function adds a hard link to an existing path relative to the image represented by the image handle.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimCreateHardLink
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -16,7 +15,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: cimfs.lib
 req.max-support: 
 req.namespace: 
 req.redist: 

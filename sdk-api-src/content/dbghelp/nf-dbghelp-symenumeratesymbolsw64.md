@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumerateSymbolsW64
 title: SymEnumerateSymbolsW64 function (dbghelp.h)
-description: Enumerates all the symbols for a specified module.
+description: Enumerates all the symbols for a specified module. (SymEnumerateSymbolsW64)
 helpviewer_keywords: ["SymEnumerateSymbols","SymEnumerateSymbols function","SymEnumerateSymbols64","SymEnumerateSymbols64 function","SymEnumerateSymbolsW","SymEnumerateSymbolsW64","_win32_symenumeratesymbols64","base.symenumeratesymbols64","dbghelp/SymEnumerateSymbols","dbghelp/SymEnumerateSymbols64","dbghelp/SymEnumerateSymbolsW","dbghelp/SymEnumerateSymbolsW64"]
 old-location: base\symenumeratesymbols64.htm
 tech.root: Debug

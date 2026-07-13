@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetIconSpacing","ListView_SetIconSpacing macro [
 old-location: controls\ListView_SetIconSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_seticonspacing.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetIconSpacing, ListView_SetIconSpacing macro [Windows Controls], _win32_ListView_SetIconSpacing, _win32_ListView_SetIconSpacing_cpp, commctrl/ListView_SetIconSpacing, controls.ListView_SetIconSpacing, controls._win32_ListView_SetIconSpacing
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_SetIconSpacing macro
+
+## -syntax
+
+```cpp
+DWORD ListView_SetIconSpacing(
+   HWND hwndLV,
+   int  cx,
+   int  cy
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>DWORD</b> value that contains the previous
 
 
 ## -description

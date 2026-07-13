@@ -53,7 +53,7 @@ api_name:
 
 Stops the Media Session.
 
-## -parameters
+
 
 ## -returns
 

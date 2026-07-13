@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspStatuses.get__NewEnum
 title: ICspStatuses::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (ICspStatuses.get__NewEnum)
 helpviewer_keywords: ["ICspStatuses interface [Security]","_NewEnum property","ICspStatuses._NewEnum","ICspStatuses.get__NewEnum","ICspStatuses::_NewEnum","ICspStatuses::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ICspStatuses interface","certenroll/ICspStatuses::_NewEnum","certenroll/ICspStatuses::get__NewEnum","get__NewEnum","security.icspstatuses__newenum_property"]
 old-location: security\icspstatuses__newenum_property.htm
 tech.root: security

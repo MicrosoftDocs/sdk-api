@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupFindNextMatchLineA
 title: SetupFindNextMatchLineA function (setupapi.h)
-description: The SetupFindNextMatchLine function returns the location of the next line in an INF file relative to ContextIn.Line that matches a specified key.
-helpviewer_keywords: ["SetupFindNextMatchLine","SetupFindNextMatchLine function [Setup API]","SetupFindNextMatchLineA","SetupFindNextMatchLineW","_setupapi_setupfindnextmatchline","setup.setupfindnextmatchline","setupapi/SetupFindNextMatchLine","setupapi/SetupFindNextMatchLineA","setupapi/SetupFindNextMatchLineW"]
+description: The SetupFindNextMatchLine function returns the location of the next line in an INF file relative to ContextIn.Line that matches a specified key. (ANSI)
+helpviewer_keywords: ["SetupFindNextMatchLineA", "setupapi/SetupFindNextMatchLineA"]
 old-location: setup\setupfindnextmatchline.htm
 tech.root: setup
 ms.assetid: c08e22d0-7eb3-4fad-82a6-e9d4f50c4e73
@@ -91,7 +91,7 @@ If <i>ContextIn.Inf</i> references multiple INF files that have been appended to
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupFindNextMatchLine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupFindNextMatchLine as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

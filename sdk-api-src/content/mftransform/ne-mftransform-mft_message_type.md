@@ -56,44 +56,46 @@ Defines messages for a Media Foundation transform (MFT). To send a message to an
 
 ## -enum-fields
 
-### -field MFT_MESSAGE_COMMAND_FLUSH
+### -field MFT_MESSAGE_COMMAND_FLUSH:0
 
 Requests the MFT to flush all stored data. 
+Should only be called after streaming has started using the MFT_MESSAGE_NOTIFY_BEGIN_STREAMING message.
 
 See <a href="/windows/desktop/medfound/mft-message-command-flush">MFT_MESSAGE_COMMAND_FLUSH</a>.
 
-### -field MFT_MESSAGE_COMMAND_DRAIN
+### -field MFT_MESSAGE_COMMAND_DRAIN:0x1
 
 Requests the MFT to drain any stored data.
+Should only be called after streaming has started using the MFT_MESSAGE_NOTIFY_BEGIN_STREAMING message.
 
 See <a href="/windows/desktop/medfound/mft-message-command-drain">MFT_MESSAGE_COMMAND_DRAIN</a>.
 
-### -field MFT_MESSAGE_SET_D3D_MANAGER
+### -field MFT_MESSAGE_SET_D3D_MANAGER:0x2
 
-Sets or clears the <a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a> for DirectX Video Accereration (DXVA).
-            
+Sets or clears the <a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a> for DirectX Video Acceleration (DXVA).
+Must be called before SetInputType or SetOutputType.
             
           
 
 See <a href="/windows/desktop/medfound/mft-message-set-d3d-manager">MFT_MESSAGE_SET_D3D_MANAGER</a>.
 
-### -field MFT_MESSAGE_DROP_SAMPLES
+### -field MFT_MESSAGE_DROP_SAMPLES:0x3
 
 <b>Note</b> Requires Windows 7.
 
-### -field MFT_MESSAGE_COMMAND_TICK
+### -field MFT_MESSAGE_COMMAND_TICK:0x4
 
 <b>Note</b> Requires Windows 8.
 
-### -field MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
+### -field MFT_MESSAGE_NOTIFY_BEGIN_STREAMING:0x10000000
 
 Notifies the MFT that streaming is about to begin.
-            
+Must be called after SetInputType and SetOutputType.
           
 
 See <a href="/windows/desktop/medfound/mft-message-notify-begin-streaming">MFT_MESSAGE_NOTIFY_BEGIN_STREAMING</a>.
 
-### -field MFT_MESSAGE_NOTIFY_END_STREAMING
+### -field MFT_MESSAGE_NOTIFY_END_STREAMING:0x10000001
 
 Notifies the MFT that streaming is about to end.
             
@@ -101,33 +103,34 @@ Notifies the MFT that streaming is about to end.
 
 See <a href="/windows/desktop/medfound/mft-message-notify-end-streaming">MFT_MESSAGE_NOTIFY_END_STREAMING</a>.
 
-### -field MFT_MESSAGE_NOTIFY_END_OF_STREAM
+### -field MFT_MESSAGE_NOTIFY_END_OF_STREAM:0x10000002
 
 Notifies the MFT that an input stream has ended.
-            
+
           
 
 See <a href="/windows/desktop/medfound/mft-message-notify-end-of-stream">MFT_MESSAGE_NOTIFY_END_OF_STREAM</a>.
 
-### -field MFT_MESSAGE_NOTIFY_START_OF_STREAM
+### -field MFT_MESSAGE_NOTIFY_START_OF_STREAM:0x10000003
 
 Notifies the MFT that the first sample is about to be processed. 
+Must be called after SetInputType and SetOutputType.
 
 See
             
            <a href="/windows/desktop/medfound/mft-message-notify-start-of-stream">MFT_MESSAGE_NOTIFY_START_OF_STREAM</a>.
 
-### -field MFT_MESSAGE_NOTIFY_RELEASE_RESOURCES
+### -field MFT_MESSAGE_NOTIFY_RELEASE_RESOURCES:0x10000004
 
-### -field MFT_MESSAGE_NOTIFY_REACQUIRE_RESOURCES
+### -field MFT_MESSAGE_NOTIFY_REACQUIRE_RESOURCES:0x10000005
 
-### -field MFT_MESSAGE_NOTIFY_EVENT
+### -field MFT_MESSAGE_NOTIFY_EVENT:0x10000006
 
-### -field MFT_MESSAGE_COMMAND_SET_OUTPUT_STREAM_STATE
+### -field MFT_MESSAGE_COMMAND_SET_OUTPUT_STREAM_STATE:0x10000007
 
-### -field MFT_MESSAGE_COMMAND_FLUSH_OUTPUT_STREAM
+### -field MFT_MESSAGE_COMMAND_FLUSH_OUTPUT_STREAM:0x10000008
 
-### -field MFT_MESSAGE_COMMAND_MARKER
+### -field MFT_MESSAGE_COMMAND_MARKER:0x20000000
 
 Marks a point in the stream. This message applies only to asynchronous MFTs. 
 

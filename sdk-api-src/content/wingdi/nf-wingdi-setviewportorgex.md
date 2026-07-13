@@ -71,7 +71,7 @@ The y-coordinate, in device units, of the new viewport origin.
 
 ### -param lppt [out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous viewport origin, in device coordinates. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the previous viewport origin, in device coordinates. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
 
 ## -returns
 
@@ -115,7 +115,7 @@ For an example, see <a href="/windows/desktop/gdi/redrawing-in-the-update-region
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

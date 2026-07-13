@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_19
+UID: NE:webservices.WS_CHANNEL_TYPE
 title: WS_CHANNEL_TYPE (webservices.h)
 description: Indicates the basic characteristics of the channel, such as whether it is sessionful, and what directions of communication are supported.
 helpviewer_keywords: ["WS_CHANNEL_TYPE","WS_CHANNEL_TYPE enumeration [Web Services for Windows]","WS_CHANNEL_TYPE_DUPLEX","WS_CHANNEL_TYPE_DUPLEX_SESSION","WS_CHANNEL_TYPE_INPUT","WS_CHANNEL_TYPE_INPUT_SESSION","WS_CHANNEL_TYPE_OUTPUT","WS_CHANNEL_TYPE_OUTPUT_SESSION","WS_CHANNEL_TYPE_REPLY","WS_CHANNEL_TYPE_REQUEST","WS_CHANNEL_TYPE_SESSION","webservices/WS_CHANNEL_TYPE","webservices/WS_CHANNEL_TYPE_DUPLEX","webservices/WS_CHANNEL_TYPE_DUPLEX_SESSION","webservices/WS_CHANNEL_TYPE_INPUT","webservices/WS_CHANNEL_TYPE_INPUT_SESSION","webservices/WS_CHANNEL_TYPE_OUTPUT","webservices/WS_CHANNEL_TYPE_OUTPUT_SESSION","webservices/WS_CHANNEL_TYPE_REPLY","webservices/WS_CHANNEL_TYPE_REQUEST","webservices/WS_CHANNEL_TYPE_SESSION","wsw.ws_channel_type"]
@@ -55,7 +55,7 @@ Indicates the basic characteristics of the channel, such as whether it is
 
 ## -enum-fields
 
-### -field WS_CHANNEL_TYPE_INPUT
+### -field WS_CHANNEL_TYPE_INPUT:0x1
 
 Input channels support Receive operations.  They are used on the sender side.
                 
@@ -63,14 +63,14 @@ Input channels support Receive operations.  They are used on the sender side.
 The <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> supports this channel type
                     when used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
 
-### -field WS_CHANNEL_TYPE_OUTPUT
+### -field WS_CHANNEL_TYPE_OUTPUT:0x2
 
 Output channels support Send operations.
                 
 
 This channel type is not currently supported by any channel bindings.
 
-### -field WS_CHANNEL_TYPE_SESSION
+### -field WS_CHANNEL_TYPE_SESSION:0x4
 
 Sessionful channels provide channel-level correlation of all messages sent or received.
                 
@@ -109,7 +109,7 @@ An input/output channel that supports a session.
 The <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> supports this channel type when
                     used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
 
-### -field WS_CHANNEL_TYPE_REQUEST
+### -field WS_CHANNEL_TYPE_REQUEST:0x8
 
 Request channels support Send followed by Receive.  They are used on the client 
                     side for channels that support request-reply operations.
@@ -123,7 +123,7 @@ Note that request channels provide built-in correlation of request replies.
                     It is possible to do request-reply correlation on other channel types using the
                     addressing headers (RelatesTo and MessageID).
 
-### -field WS_CHANNEL_TYPE_REPLY
+### -field WS_CHANNEL_TYPE_REPLY:0x10
 
 Reply channels support Receive followed by Send.  They are used on the service
                     side for channels that support request-reply operations (for example, HTTP).
@@ -136,3 +136,4 @@ The <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding"
 Note that reply channels provide built-in correlation of request replies.
                     It is possible to do request-reply correlation on other channel types using the
                     addressing headers (RelatesTo and MessageID).
+

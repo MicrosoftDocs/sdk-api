@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get_Item
 title: IFsrmCollection::get_Item (fsrm.h)
-description: Retrieves the requested item from the collection.
+description: Retrieves the requested item from the collection. (IFsrmCollection.get_Item)
 helpviewer_keywords: ["IFsrmCollection interface [File Server Resource Manager]","Item property","IFsrmCollection.Item","IFsrmCollection.get_Item","IFsrmCollection::Item","IFsrmCollection::get_Item","Item property [File Server Resource Manager]","Item property [File Server Resource Manager]","IFsrmCollection interface","fs.ifsrmcollection_item","fsrm.ifsrmcollection_item","fsrm/IFsrmCollection::Item","fsrm/IFsrmCollection::get_Item","get_Item"]
 old-location: fsrm\ifsrmcollection_item.htm
 tech.root: fsrm

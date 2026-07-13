@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrToIntW
 title: StrToIntW function (shlwapi.h)
-description: Converts a string that represents a decimal value to an integer. The StrToLong macro is identical to this function.
-helpviewer_keywords: ["StrToInt","StrToInt function [Windows Shell]","StrToIntA","StrToIntW","_win32_StrToInt","shell.StrToInt","shlwapi/StrToInt","shlwapi/StrToIntA","shlwapi/StrToIntW"]
+description: Converts a string that represents a decimal value to an integer. The StrToLong macro is identical to this function. (Unicode)
+helpviewer_keywords: ["StrToInt", "StrToInt function [Windows Shell]", "StrToIntW", "_win32_StrToInt", "shell.StrToInt", "shlwapi/StrToInt", "shlwapi/StrToIntW"]
 old-location: shell\StrToInt.htm
 tech.root: shell
 ms.assetid: 74313e56-a820-4d02-91f4-f629d2fc72d4
@@ -69,7 +69,11 @@ A pointer to the null-terminated string to be converted. A valid string represen
                     
                     
 
-<pre class="syntax" xml:space="preserve"><code>(optional white space)(optional sign)(one or more decimal digits)</code></pre>
+
+``` syntax
+(optional white space)(optional sign)(one or more decimal digits)
+```
+
 The optional sign can be the character '-' or '+'; if omitted, the sign is assumed to be positive.
 
 ## -returns
@@ -87,7 +91,7 @@ If the string pointed to by <i>pszSrc</i> contains an invalid character, that ch
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrToInt as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrToInt as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

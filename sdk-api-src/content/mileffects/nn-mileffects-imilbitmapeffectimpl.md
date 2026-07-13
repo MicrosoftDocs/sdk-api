@@ -1,7 +1,7 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectImpl
 title: IMILBitmapEffectImpl (mileffects.h)
-description: Exposes methods that define an an out IMILBitmapEffect object.
+description: Exposes methods that define an out IMILBitmapEffect object.
 helpviewer_keywords: ["IMILBitmapEffectImpl","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectimpl","mileffects/IMILBitmapEffectImpl","wibe._wibe_imilbitmapeffectimpl"]
 old-location: wibe\_wibe_imilbitmapeffectimpl.htm
 tech.root: wibe
@@ -50,14 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that define an an out <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffect">IMILBitmapEffect</a> object.
+Exposes methods that define an out <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffect">IMILBitmapEffect</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectImpl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectImpl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMILBitmapEffectImpl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectImpl</b> also has these types of members:
 
 ## -remarks
 

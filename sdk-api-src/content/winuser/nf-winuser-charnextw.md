@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CharNextW
 title: CharNextW function (winuser.h)
-description: Retrieves a pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.
-helpviewer_keywords: ["CharNext","CharNext function [Menus and Other Resources]","CharNextA","CharNextW","_win32_CharNext","_win32_charnext_cpp","menurc.charnext","winui._win32_charnext","winuser/CharNext","winuser/CharNextA","winuser/CharNextW"]
+description: Retrieves a pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters. (Unicode)
+helpviewer_keywords: ["CharNext", "CharNext function [Menus and Other Resources]", "CharNextW", "_win32_CharNext", "_win32_charnext_cpp", "menurc.charnext", "winui._win32_charnext", "winuser/CharNext", "winuser/CharNextW"]
 old-location: menurc\charnext.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnext.htm
@@ -94,7 +94,7 @@ and so on.
 
 
 > [!NOTE]
-> The winuser.h header defines CharNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CharNext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

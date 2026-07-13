@@ -107,7 +107,7 @@ The current <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateUri</b> function error
+<dt><b>CreateUri function error
               </b></dt>
 </dl>
 </td>
@@ -172,7 +172,7 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML</a>
 
 
 

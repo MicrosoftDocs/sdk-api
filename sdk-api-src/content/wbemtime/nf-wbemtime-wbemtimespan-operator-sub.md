@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-sub
 title: WBEMTimeSpan::operator-sub (wbemtime.h)
-description: The WBEMTimeSpan class subtract operator (�) subtracts a time span from the object on which the method is executed.
+description: The WBEMTimeSpan class subtract operator (—) subtracts a time span from the object on which the method is executed.
 helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator- method","WBEMTimeSpan.operator-","WBEMTimeSpan.operator-sub","WBEMTimeSpan::operator-","WBEMTimeSpan::operator-sub","_hmm_wbemtimespan_operator_minus","operator-","operator- method [Windows Management Instrumentation]","operator- method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator-","wmi.wbemtimespan_operator_minus"]
 old-location: wmi\wbemtimespan_operator_minus.htm
 tech.root: wmi

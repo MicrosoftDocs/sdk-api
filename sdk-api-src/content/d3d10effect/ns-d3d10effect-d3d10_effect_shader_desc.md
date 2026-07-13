@@ -84,7 +84,7 @@ The length of pBytecode.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
-A string that constains a declaration of the <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages">stream output </a> from a geometry shader.
+A string that contains a declaration of the <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages">stream output </a> from a geometry shader.
 
 ### -field NumInputSignatureEntries
 

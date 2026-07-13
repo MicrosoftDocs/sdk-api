@@ -1,12 +1,12 @@
 ---
 UID: NN:dwrite_3.IDWriteRenderingParams3
 title: IDWriteRenderingParams3 (dwrite_3.h)
-description: Represents text rendering settings for glyph rasterization and filtering.
+description: Represents text rendering settings for glyph rasterization and filtering. (IDWriteRenderingParams3)
 helpviewer_keywords: ["IDWriteRenderingParams3","IDWriteRenderingParams3 interface [Direct Write]","IDWriteRenderingParams3 interface [Direct Write]","described","directwrite.idwriterenderingparams3","dwrite_3/IDWriteRenderingParams3"]
 old-location: directwrite\idwriterenderingparams3.htm
 tech.root: DirectWrite
 ms.assetid: A083377C-7315-40F4-AD94-9B65B98DE0D6
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteRenderingParams3, IDWriteRenderingParams3 interface [Direct Write], IDWriteRenderingParams3 interface [Direct Write],described, directwrite.idwriterenderingparams3, dwrite_3/IDWriteRenderingParams3
 req.header: dwrite_3.h
 req.include-header: 
@@ -54,10 +54,7 @@ Represents text rendering settings for glyph rasterization and filtering.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams3</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2">IDWriteRenderingParams2</a>. <b>IDWriteRenderingParams3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteRenderingParams3</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2">IDWriteRenderingParams2</a>. <b>IDWriteRenderingParams3</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:dsgetdc._DS_DOMAIN_TRUSTSW
 title: DS_DOMAIN_TRUSTSW (dsgetdc.h)
-description: Used with the DsEnumerateDomainTrusts function to contain trust data for a domain.
+description: Used with the DsEnumerateDomainTrusts function to contain trust data for a domain. (Unicode)
 helpviewer_keywords: ["*PDS_DOMAIN_TRUSTSW","DS_DOMAIN_DIRECT_INBOUND","DS_DOMAIN_DIRECT_OUTBOUND","DS_DOMAIN_IN_FOREST","DS_DOMAIN_NATIVE_MODE","DS_DOMAIN_PRIMARY","DS_DOMAIN_TREE_ROOT","DS_DOMAIN_TRUSTS","DS_DOMAIN_TRUSTS structure [Active Directory]","DS_DOMAIN_TRUSTSA","DS_DOMAIN_TRUSTSW","PDS_DOMAIN_TRUSTS","PDS_DOMAIN_TRUSTS structure pointer [Active Directory]","_glines_ds_domain_trusts","ad.ds__domain__trusts","ad.ds_domain_trusts","dsgetdc/DS_DOMAIN_TRUSTS","dsgetdc/DS_DOMAIN_TRUSTSA","dsgetdc/DS_DOMAIN_TRUSTSW","dsgetdc/PDS_DOMAIN_TRUSTS"]
 old-location: ad\ds_domain_trusts.htm
 tech.root: ad
@@ -182,4 +182,4 @@ The domain represented by this structure is the root of a tree and a member of t
 ## -remarks
 
 > [!NOTE]
-> The dsgetdc.h header defines DS_DOMAIN_TRUSTS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsgetdc.h header defines DS_DOMAIN_TRUSTS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

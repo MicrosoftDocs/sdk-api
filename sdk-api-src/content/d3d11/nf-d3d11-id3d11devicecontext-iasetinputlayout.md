@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IASetInputLayout
 title: ID3D11DeviceContext::IASetInputLayout (d3d11.h)
-description: Bind an input-layout object to the input-assembler stage.
+description: Bind an input-layout object to the input-assembler stage. (ID3D11DeviceContext.IASetInputLayout)
 helpviewer_keywords: ["IASetInputLayout","IASetInputLayout method [Direct3D 11]","IASetInputLayout method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","IASetInputLayout method","ID3D11DeviceContext.IASetInputLayout","ID3D11DeviceContext::IASetInputLayout","d3d11/ID3D11DeviceContext::IASetInputLayout","direct3d11.id3d11devicecontext_iasetinputlayout","f3e6f365-7707-18d4-cb39-e78b1f31d4c8"]
 old-location: direct3d11\id3d11devicecontext_iasetinputlayout.htm
 tech.root: direct3d11

@@ -89,188 +89,13 @@ If this parameter is <b>TRUE</b>, the function returns when the states of all ob
 
 The time-out interval, in milliseconds. If a nonzero value is specified, the function waits until the specified objects are signaled or the interval elapses. If <i>dwMilliseconds</i> is zero, the function does not enter a wait state if the specified objects are not signaled; it always returns immediately. If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function will return only when the specified objects are signaled.
 
-<b>Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2:  </b>The <i>dwMilliseconds</i> value does include time spent in low-power states. For example, the timeout does keep counting down while the computer is asleep.
+**Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2:** The <i>dwMilliseconds</i> value does include time spent in low-power states. For example, the timeout does keep counting down while the computer is asleep.
 
-<b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not keep counting down while the computer is asleep.
+**Windows 8 and newer, Windows Server 2012 and newer:** The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not keep counting down while the computer is asleep.
 
 ### -param dwWakeMask [in]
 
-The input types for which an input event object handle will be added to the array of object handles. This parameter can be any combination of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="QS_ALLEVENTS"></a><a id="qs_allevents"></a><dl>
-<dt><b>QS_ALLEVENTS</b></dt>
-<dt>0x04BF</dt>
-</dl>
-</td>
-<td width="60%">
-An input, <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>, <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>, <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a>, or posted message is in the queue.
-
-This value is a combination of <b>QS_INPUT</b>, <b>QS_POSTMESSAGE</b>, <b>QS_TIMER</b>, <b>QS_PAINT</b>, and <b>QS_HOTKEY</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_ALLINPUT"></a><a id="qs_allinput"></a><dl>
-<dt><b>QS_ALLINPUT</b></dt>
-<dt>0x04FF</dt>
-</dl>
-</td>
-<td width="60%">
-Any message is in the queue.
-
-This value is a combination of <b>QS_INPUT</b>, <b>QS_POSTMESSAGE</b>, <b>QS_TIMER</b>, <b>QS_PAINT</b>, <b>QS_HOTKEY</b>, and <b>QS_SENDMESSAGE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_ALLPOSTMESSAGE"></a><a id="qs_allpostmessage"></a><dl>
-<dt><b>QS_ALLPOSTMESSAGE</b></dt>
-<dt>0x0100</dt>
-</dl>
-</td>
-<td width="60%">
-A posted message is in the queue.
-
-This value is cleared when you call <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> without filtering messages.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_HOTKEY"></a><a id="qs_hotkey"></a><dl>
-<dt><b>QS_HOTKEY</b></dt>
-<dt>0x0080</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a> message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_INPUT"></a><a id="qs_input"></a><dl>
-<dt><b>QS_INPUT</b></dt>
-<dt>0x407</dt>
-</dl>
-</td>
-<td width="60%">
-An input message is in the queue.
-
-This value is a combination of <b>QS_MOUSE</b>, <b>QS_KEY</b>, and 
-         <b>QS_RAWINPUT</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_KEY"></a><a id="qs_key"></a><dl>
-<dt><b>QS_KEY</b></dt>
-<dt>0x0001</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>, <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>, or <a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a> message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_MOUSE"></a><a id="qs_mouse"></a><dl>
-<dt><b>QS_MOUSE</b></dt>
-<dt>0x0006</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message or mouse-button message (<b>WM_LBUTTONUP</b>, <a href="/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
-
-This value is a combination of <b>QS_MOUSEMOVE</b> and <b>QS_MOUSEBUTTON</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_MOUSEBUTTON"></a><a id="qs_mousebutton"></a><dl>
-<dt><b>QS_MOUSEBUTTON</b></dt>
-<dt>0x0004</dt>
-</dl>
-</td>
-<td width="60%">
-A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_MOUSEMOVE"></a><a id="qs_mousemove"></a><dl>
-<dt><b>QS_MOUSEMOVE</b></dt>
-<dt>0x0002</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_PAINT"></a><a id="qs_paint"></a><dl>
-<dt><b>QS_PAINT</b></dt>
-<dt>0x0020</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_POSTMESSAGE"></a><a id="qs_postmessage"></a><dl>
-<dt><b>QS_POSTMESSAGE</b></dt>
-<dt>0x0008</dt>
-</dl>
-</td>
-<td width="60%">
-A posted message is in the queue.
-
-This value is cleared when you call <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_RAWINPUT"></a><a id="qs_rawinput"></a><dl>
-<dt><b>QS_RAWINPUT</b></dt>
-<dt>0x0400</dt>
-</dl>
-</td>
-<td width="60%">
- A raw input message is in the queue. For more information, see 
-<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_SENDMESSAGE"></a><a id="qs_sendmessage"></a><dl>
-<dt><b>QS_SENDMESSAGE</b></dt>
-<dt>0x0040</dt>
-</dl>
-</td>
-<td width="60%">
-A message sent by another thread or application is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_TIMER"></a><a id="qs_timer"></a><dl>
-<dt><b>QS_TIMER</b></dt>
-<dt>0x0010</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message is in the queue.
-
-</td>
-</tr>
-</table>
+The input types for which an input event object handle will be added to the array of object handles. This parameter can be any combination of the values listed in [GetQueueStatus](/windows/win32/api/winuser/nf-winuser-getqueuestatus) *flags* parameter.
 
 ## -returns
 
@@ -391,7 +216,6 @@ The
 <li>Thread</li>
 <li>Waitable timer</li>
 </ul>
-The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> multiple times to get messages in different ranges.
 
 ## -see-also
 

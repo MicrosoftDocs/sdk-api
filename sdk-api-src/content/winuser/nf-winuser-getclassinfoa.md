@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetClassInfoA
 title: GetClassInfoA function (winuser.h)
-description: Retrieves information about a window class.
-helpviewer_keywords: ["GetClassInfo","GetClassInfo function [Windows and Messages]","GetClassInfoA","GetClassInfoW","_win32_GetClassInfo","_win32_getclassinfo_cpp","winmsg.getclassinfo","winui._win32_getclassinfo","winuser/GetClassInfo","winuser/GetClassInfoA","winuser/GetClassInfoW"]
+description: Retrieves information about a window class. (ANSI)
+helpviewer_keywords: ["GetClassInfoA", "winuser/GetClassInfoA"]
 old-location: winmsg\getclassinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfo.htm
@@ -137,4 +137,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines GetClassInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetClassInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

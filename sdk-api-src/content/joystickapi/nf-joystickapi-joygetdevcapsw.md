@@ -1,12 +1,12 @@
 ---
 UID: NF:joystickapi.joyGetDevCapsW
 title: joyGetDevCapsW function (joystickapi.h)
-description: The joyGetDevCaps function queries a joystick to determine its capabilities.
-helpviewer_keywords: ["_win32_joyGetDevCaps","joGetDevCapsA","joyGetDevCaps","joyGetDevCaps function [Windows Multimedia]","joyGetDevCapsW","joystickapi/joGetDevCapsA","joystickapi/joyGetDevCaps","joystickapi/joyGetDevCapsW","multimedia.joygetdevcaps"]
+description: The joyGetDevCapsW (Unicode) function queries a joystick to determine its comprehensive capabilities. 
+helpviewer_keywords: ["_win32_joyGetDevCaps", "joGetDevCapsA", "joyGetDevCaps", "joyGetDevCaps function [Windows Multimedia]", "joyGetDevCapsW", "joystickapi/joGetDevCapsA", "joystickapi/joyGetDevCaps", "joystickapi/joyGetDevCapsW", "multimedia.joygetdevcaps"]
 old-location: multimedia\joygetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 706cab9d-7d04-4151-80df-badd1d446a80
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: _win32_joyGetDevCaps, joGetDevCapsA, joyGetDevCaps, joyGetDevCaps function [Windows Multimedia], joyGetDevCapsW, joystickapi/joGetDevCapsA, joystickapi/joyGetDevCaps, joystickapi/joyGetDevCapsW, multimedia.joygetdevcaps
 req.header: joystickapi.h
 req.include-header: Windows.h
@@ -116,7 +116,7 @@ This method fails when passed an invalid value for the <i>cbjc</i> parameter.
 
 
 > [!NOTE]
-> The joystickapi.h header defines joyGetDevCaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The joystickapi.h header defines joyGetDevCaps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

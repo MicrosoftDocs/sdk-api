@@ -1,7 +1,7 @@
 ---
 UID: NN:vss.IVssEnumObject
 title: IVssEnumObject (vss.h)
-description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
+description: Contains methods to iterate over and perform other operations on a list of enumerated objects. (IVssEnumObject)
 helpviewer_keywords: ["IVssEnumObject","IVssEnumObject interface [VSS]","IVssEnumObject interface [VSS]","described","_win32_ivssenumobject","base.ivssenumobject","vss/IVssEnumObject"]
 old-location: base\ivssenumobject.htm
 tech.root: base
@@ -65,8 +65,5 @@ The <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-quer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssEnumObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumObject</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVssEnumObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumObject</b> also has these types of members:
 

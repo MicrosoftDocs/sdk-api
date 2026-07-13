@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_parse_page_controlW
 title: ldap_parse_page_controlW function (winldap.h)
-description: The ldap_parse_page_control parses the results of a search into pages.
-helpviewer_keywords: ["_ldap_ldap_parse_page_control","ldap.ldap__parse__page__control","ldap.ldap_parse_page_control","ldap_parse_page_control","ldap_parse_page_control function [LDAP]","ldap_parse_page_controlA","ldap_parse_page_controlW","winldap/ldap_parse_page_control","winldap/ldap_parse_page_controlA","winldap/ldap_parse_page_controlW"]
+description: The ldap_parse_page_controlW (Unicode) function (winldap.h) parses the results of a search into pages.  
+helpviewer_keywords: ["_ldap_ldap_parse_page_control", "ldap.ldap__parse__page__control", "ldap.ldap_parse_page_control", "ldap_parse_page_control", "ldap_parse_page_control function [LDAP]", "ldap_parse_page_controlW", "winldap/ldap_parse_page_control", "winldap/ldap_parse_page_controlW"]
 old-location: ldap\ldap_parse_page_control.htm
 tech.root: ldap
 ms.assetid: babf74d1-2f9c-40f8-ba82-e298e49ad937
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_parse_page_control, ldap.ldap__parse__page__control, ldap.ldap_parse_page_control, ldap_parse_page_control, ldap_parse_page_control function [LDAP], ldap_parse_page_controlA, ldap_parse_page_controlW, winldap/ldap_parse_page_control, winldap/ldap_parse_page_controlA, winldap/ldap_parse_page_controlW
 req.header: winldap.h
 req.include-header: 
@@ -90,7 +90,7 @@ Use <b>ldap_parse_page_control</b> in conjunction with
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_parse_page_control as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_parse_page_control as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

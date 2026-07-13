@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.BuildExplicitAccessWithNameA
 title: BuildExplicitAccessWithNameA function (aclapi.h)
-description: Initializes an EXPLICIT_ACCESS structure with data specified by the caller. The trustee is identified by a name string.
-helpviewer_keywords: ["BuildExplicitAccessWithName","BuildExplicitAccessWithName function [Security]","BuildExplicitAccessWithNameA","BuildExplicitAccessWithNameW","CONTAINER_INHERIT_ACE","INHERIT_ONLY_ACE","MultipleTrusteeOperation","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","SUB_CONTAINERS_AND_OBJECTS_INHERIT","SUB_CONTAINERS_ONLY_INHERIT","SUB_OBJECTS_ONLY_INHERIT","TrusteeForm","TrusteeType","_win32_buildexplicitaccesswithname","aclapi/BuildExplicitAccessWithName","aclapi/BuildExplicitAccessWithNameA","aclapi/BuildExplicitAccessWithNameW","pMultipleTrustee","security.buildexplicitaccesswithname"]
+description: Initializes an EXPLICIT_ACCESS structure with data specified by the caller. The trustee is identified by a name string. (ANSI)
+helpviewer_keywords: ["BuildExplicitAccessWithNameA", "CONTAINER_INHERIT_ACE", "INHERIT_ONLY_ACE", "MultipleTrusteeOperation", "NO_PROPAGATE_INHERIT_ACE", "OBJECT_INHERIT_ACE", "SUB_CONTAINERS_AND_OBJECTS_INHERIT", "SUB_CONTAINERS_ONLY_INHERIT", "SUB_OBJECTS_ONLY_INHERIT", "TrusteeForm", "TrusteeType", "aclapi/BuildExplicitAccessWithNameA", "pMultipleTrustee"]
 old-location: security\buildexplicitaccesswithname.htm
 tech.root: security
 ms.assetid: 5f12db19-63cf-4be6-9450-3c36e425967b
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-trustee-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-security-trustee-l1-1-1.dll
  - advapi32legacy.dll
@@ -76,7 +77,7 @@ A pointer to a <b>null</b>-terminated string that contains the name of the trust
 </tr>
 <tr>
 <td width="40%"><a id="pMultipleTrustee"></a><a id="pmultipletrustee"></a><a id="PMULTIPLETRUSTEE"></a><dl>
-<dt><b><b>pMultipleTrustee</b></b></dt>
+<dt><b>pMultipleTrustee</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -87,7 +88,7 @@ A pointer to a <b>null</b>-terminated string that contains the name of the trust
 </tr>
 <tr>
 <td width="40%"><a id="MultipleTrusteeOperation"></a><a id="multipletrusteeoperation"></a><a id="MULTIPLETRUSTEEOPERATION"></a><dl>
-<dt><b><b>MultipleTrusteeOperation</b></b></dt>
+<dt><b>MultipleTrusteeOperation</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -98,7 +99,7 @@ NO_MULTIPLE_TRUSTEE
 </tr>
 <tr>
 <td width="40%"><a id="TrusteeForm"></a><a id="trusteeform"></a><a id="TRUSTEEFORM"></a><dl>
-<dt><b><b>TrusteeForm</b></b></dt>
+<dt><b>TrusteeForm</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -109,7 +110,7 @@ TRUSTEE_IS_NAME
 </tr>
 <tr>
 <td width="40%"><a id="TrusteeType"></a><a id="trusteetype"></a><a id="TRUSTEETYPE"></a><dl>
-<dt><b><b>TrusteeType</b></b></dt>
+<dt><b>TrusteeType</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -249,4 +250,4 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 ## -remarks
 
 > [!NOTE]
-> The aclapi.h header defines BuildExplicitAccessWithName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The aclapi.h header defines BuildExplicitAccessWithName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

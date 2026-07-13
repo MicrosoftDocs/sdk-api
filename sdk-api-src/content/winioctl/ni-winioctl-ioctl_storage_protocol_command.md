@@ -41,7 +41,7 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
- - IOCTL_STORAGE_QUERY_PROPERTY
+ - IOCTL_STORAGE_PROTOCOL_COMMAND
 ---
 
 # IOCTL_STORAGE_PROTOCOL_COMMAND IOCTL

@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._charrange
 title: CHARRANGE (richedit.h)
-description: Specifies a range of characters in a rich edit control.If the cpMin and cpMax members are equal, the range is empty. The range includes everything if cpMin is 0 and cpMax is �1.
+description: Specifies a range of characters in a rich edit control. If the cpMin and cpMax members are equal, the range is empty. The range includes everything if cpMin is 0 and cpMax is —1.
 helpviewer_keywords: ["CHARRANGE","CHARRANGE structure [Windows Controls]","_win32_CHARRANGE_str","_win32_CHARRANGE_str_cpp","controls.CHARRANGE","controls._win32_CHARRANGE_str","richedit/CHARRANGE"]
 old-location: controls\CHARRANGE.htm
 tech.root: Controls
@@ -72,11 +72,11 @@ Character position immediately following the last character in the range.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/60fcf13e-6c45-4f4e-9b54-70f0985122fb">EM_EXGETSEL</a>
+<a href="/windows/win32/controls/em-exgetsel">EM_EXGETSEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/85a0d1d4-1826-4ac5-b823-de81a051441d">EM_EXSETSEL</a>
+<a href="/windows/win32/controls/em-exsetsel">EM_EXSETSEL</a>
 
 
 

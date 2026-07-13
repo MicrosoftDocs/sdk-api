@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_DRIVE_PROP2
 title: VDS_DRIVE_PROP2 (vdshwprv.h)
-description: Defines the properties of a drive object. This structure is identical to the VDS_DRIVE_PROP structure, except that it includes the enclosure number, bus type, and spindle speed as members.
+description: The VDS_DRIVE_PROP2 structure (vdshwprv.h) defines the properties of a drive object.
 helpviewer_keywords: ["*PVDS_DRIVE_PROP2","PVDS_DRIVE_PROP2","PVDS_DRIVE_PROP2 structure pointer","VDS_DRIVE_PROP2","VDS_DRIVE_PROP2 structure","VDS_H_FAILED","VDS_H_HEALTHY","VDS_H_PENDING_FAILURE","VDS_H_REPLACED","VDS_H_UNKNOWN","base.vds_drive_prop2","vds/PVDS_DRIVE_PROP2","vds/VDS_DRIVE_PROP2","vdshwprv/PVDS_DRIVE_PROP2","vdshwprv/VDS_DRIVE_PROP2"]
 old-location: base\vds_drive_prop2.htm
 tech.root: base
 ms.assetid: af932865-abb3-4dee-a7dc-3aa06fd167f6
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: '*PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2 structure pointer, VDS_DRIVE_PROP2, VDS_DRIVE_PROP2 structure, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REPLACED, VDS_H_UNKNOWN, base.vds_drive_prop2, vds/PVDS_DRIVE_PROP2, vds/VDS_DRIVE_PROP2, vdshwprv/PVDS_DRIVE_PROP2, vdshwprv/VDS_DRIVE_PROP2'
 req.header: vdshwprv.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    properties of a <a href="/windows/desktop/VDS/drive-object">drive object</a>. This structure is identical to the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure, except that it includes the enclosure number, bus type, and spindle speed as members.

@@ -1,8 +1,8 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgViewCertificateW
 title: CryptUIDlgViewCertificateW function (cryptuiapi.h)
-description: Presents a dialog box that displays a specified certificate.
-helpviewer_keywords: ["CryptUIDlgViewCertificate","CryptUIDlgViewCertificate function [Security]","CryptUIDlgViewCertificateA","CryptUIDlgViewCertificateW","cryptuiapi/CryptUIDlgViewCertificate","cryptuiapi/CryptUIDlgViewCertificateA","cryptuiapi/CryptUIDlgViewCertificateW","security.cryptuidlgviewcertificate"]
+description: Presents a dialog box that displays a specified certificate. (Unicode)
+helpviewer_keywords: ["CryptUIDlgViewCertificate", "CryptUIDlgViewCertificate function [Security]", "CryptUIDlgViewCertificateW", "cryptuiapi/CryptUIDlgViewCertificate", "cryptuiapi/CryptUIDlgViewCertificateW", "security.cryptuidlgviewcertificate"]
 old-location: security\cryptuidlgviewcertificate.htm
 tech.root: security
 ms.assetid: 5107ff22-78c4-4005-80af-ff45781da6c7
@@ -81,4 +81,4 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 ## -remarks
 
 > [!NOTE]
-> The cryptuiapi.h header defines CryptUIDlgViewCertificate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cryptuiapi.h header defines CryptUIDlgViewCertificate as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

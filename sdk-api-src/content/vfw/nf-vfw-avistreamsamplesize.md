@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamSampleSize","AVIStreamSampleSize macro [Windows 
 old-location: multimedia\avistreamsamplesize.htm
 tech.root: Multimedia
 ms.assetid: 24d8dae6-a9f7-4ca6-a083-1e1f59c0591c
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamSampleSize, AVIStreamSampleSize macro [Windows Multimedia], _win32_AVIStreamSampleSize, multimedia.avistreamsamplesize, vfw/AVIStreamSampleSize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # AVIStreamSampleSize macro
+
+## -syntax
+
+```cpp
+HRESULT AVIStreamSampleSize(
+     pavi,
+     lPos,
+     plSize
+);
+```
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns zero if successful or an error otherwise. Possible error values include the following:<table><tr><td>AVIERR_BUFFERTOOSMALL</td><td>The buffer size was smaller than a single sample of data.</td></tr><tr><td>AVIERR_MEMORY</td><td>There was not enough memory to complete the read operation.</td></tr><tr><td>AVIERR_FILEREAD</td><td>A disk error occurred while reading the file.</td></tr></table>
 
 
 ## -description

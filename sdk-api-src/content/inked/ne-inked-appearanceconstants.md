@@ -54,11 +54,11 @@ Specifies how an <a href="/windows/desktop/tablet/inkedit-control-reference">Ink
 
 ## -enum-fields
 
-### -field rtfFlat
+### -field rtfFlat:0
 
 Flat. Paints without visual effects.
 
-### -field rtfThreeD
+### -field rtfThreeD:1
 
 Default. 3D. Paints with three-dimensional effects.
 

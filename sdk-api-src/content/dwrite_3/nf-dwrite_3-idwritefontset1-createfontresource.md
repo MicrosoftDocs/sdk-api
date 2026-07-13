@@ -4,14 +4,14 @@ title: IDWriteFontSet1::CreateFontResource
 description: Creates the font resource of a single item.
 helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","CreateFontResource method","IDWriteFontSet1.CreateFontResource","IDWriteFontSet1::CreateFontResource","CreateFontResource","CreateFontResource method [Direct Write]","CreateFontResource method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_createfontresource","dwrite_3/IDWriteFontSet1::CreateFontResource"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontSet1 interface [Direct Write],CreateFontResource method, IDWriteFontSet1.CreateFontResource, IDWriteFontSet1::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_createfontresource, dwrite_3/IDWriteFontSet1::CreateFontResource
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

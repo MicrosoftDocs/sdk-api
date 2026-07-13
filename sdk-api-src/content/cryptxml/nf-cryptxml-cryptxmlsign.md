@@ -204,3 +204,7 @@ A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algo
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
+
+## -remarks
+
+If a certificate cannot be found CryptXmlSign will create a UI for certificate selection. If this window is generated from a process running in [session 0](https://techcommunity.microsoft.com/t5/ask-the-performance-team/application-compatibility-session-0-isolation/ba-p/372361), the application may unexpectedly terminate.

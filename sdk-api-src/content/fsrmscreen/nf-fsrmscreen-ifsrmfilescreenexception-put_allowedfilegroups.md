@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenException.put_AllowedFileGroups
 title: IFsrmFileScreenException::put_AllowedFileGroups (fsrmscreen.h)
-description: Retrieves or sets the names of the file groups that contain the file name patterns of the files that are allowed in the directory.
+description: Retrieves or sets the names of the file groups that contain the file name patterns of the files that are allowed in the directory. (Put)
 helpviewer_keywords: ["AllowedFileGroups property [File Server Resource Manager]","AllowedFileGroups property [File Server Resource Manager]","IFsrmFileScreenException interface","IFsrmFileScreenException interface [File Server Resource Manager]","AllowedFileGroups property","IFsrmFileScreenException.AllowedFileGroups","IFsrmFileScreenException.put_AllowedFileGroups","IFsrmFileScreenException::AllowedFileGroups","IFsrmFileScreenException::get_AllowedFileGroups","IFsrmFileScreenException::put_AllowedFileGroups","fs.ifsrmfilescreenexception_allowedfilegroups","fsrm.ifsrmfilescreenexception_allowedfilegroups","fsrmscreen/IFsrmFileScreenException::AllowedFileGroups","fsrmscreen/IFsrmFileScreenException::get_AllowedFileGroups","fsrmscreen/IFsrmFileScreenException::put_AllowedFileGroups","put_AllowedFileGroups"]
 old-location: fsrm\ifsrmfilescreenexception_allowedfilegroups.htm
 tech.root: fsrm

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.AbortRecordVariants
 title: ICrmCompensatorVariants::AbortRecordVariants (comsvcs.h)
-description: Delivers a log record to the CRM Compensator during the abort phase.
+description: Delivers a log record to the CRM Compensator during the abort phase. (ICrmCompensatorVariants.AbortRecordVariants)
 helpviewer_keywords: ["AbortRecordVariants","AbortRecordVariants method [COM+]","AbortRecordVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","AbortRecordVariants method","ICrmCompensatorVariants.AbortRecordVariants","ICrmCompensatorVariants::AbortRecordVariants","_dtc_ICrmCompensatorVariants_AbortRecordVariants","comsvcs/ICrmCompensatorVariants::AbortRecordVariants","cos.icrmcompensatorvariants_abortrecordvariants"]
 old-location: cos\icrmcompensatorvariants_abortrecordvariants.htm
 tech.root: cos
@@ -64,7 +64,7 @@ Indicates whether the delivered record should be forgotten.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetSpecialFolderPathA
 title: SHGetSpecialFolderPathA function (shlobj_core.h)
-description: SHGetSpecialFolderPath is not supported. Instead, use ShGetFolderPath.
-helpviewer_keywords: ["SHGetSpecialFolderPath","SHGetSpecialFolderPath function [Windows Shell]","SHGetSpecialFolderPathA","SHGetSpecialFolderPathW","_win32_SHGetSpecialFolderPath","shell.SHGetSpecialFolderPath","shlobj_core/SHGetSpecialFolderPath","shlobj_core/SHGetSpecialFolderPathA","shlobj_core/SHGetSpecialFolderPathW"]
+description: SHGetSpecialFolderPath is not supported. Instead, use ShGetFolderPath. (ANSI)
+helpviewer_keywords: ["SHGetSpecialFolderPathA", "shlobj_core/SHGetSpecialFolderPathA"]
 old-location: shell\SHGetSpecialFolderPath.htm
 tech.root: shell
 ms.assetid: 4c39fdc1-5e43-4042-8703-fb72c88e2637
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell32-shellfolders-l1-2-1.dll
+ - ext-ms-win-shell32-shellfolders-l1-2-0.dll
+ - api-ms-win-shell-shellfolders-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-shell-shellfolders-l1-1-0.dll
  - KernelBase.dll
@@ -101,4 +104,4 @@ The Microsoft Internet Explorer 4.0 Desktop Update must be installed for this f
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHGetSpecialFolderPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHGetSpecialFolderPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

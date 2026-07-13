@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-keyboard-l1-3-2.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-1.dll
  - User32.dll
  - ext-ms-win-ntuser-keyboard-l1-1-2.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
@@ -78,36 +80,12 @@ Because the <b>SetKeyboardState</b> function alters the input state of the calli
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
-
-
-
-<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-keybd_event">keybd_event</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-keybd_event">keybd_event</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

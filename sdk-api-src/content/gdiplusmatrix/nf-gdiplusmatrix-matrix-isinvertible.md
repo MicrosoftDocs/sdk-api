@@ -53,7 +53,7 @@ api_name:
 
 The <b>Matrix::IsInvertible</b> method determines whether this matrix is invertible.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_Profiles
 title: INetFwRule::get_Profiles (netfw.h)
-description: Specifies the profiles to which the rule belongs.
+description: Specifies the profiles to which the rule belongs. (Get)
 helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","Profiles property","INetFwRule.Profiles","INetFwRule.get_Profiles","INetFwRule::Profiles","INetFwRule::get_Profiles","INetFwRule::put_Profiles","Profiles property [ICS/ICF]","Profiles property [ICS/ICF]","INetFwRule interface","get_Profiles","ics.inetfwrule_profiles","netfw/INetFwRule::Profiles","netfw/INetFwRule::get_Profiles","netfw/INetFwRule::put_Profiles"]
 old-location: ics\inetfwrule_profiles.htm
 tech.root: ics

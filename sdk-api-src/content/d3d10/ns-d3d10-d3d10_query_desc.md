@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_QUERY_DESC
 title: D3D10_QUERY_DESC (d3d10.h)
-description: Describes a query.
+description: Describes a query. (D3D10_QUERY_DESC)
 helpviewer_keywords: ["D3D10_QUERY_DESC","D3D10_QUERY_DESC structure [Direct3D 10]","c98685a6-35b0-8f3e-8e4a-9394a6936f46","d3d10/D3D10_QUERY_DESC","direct3d10.d3d10_query_desc"]
 old-location: direct3d10\d3d10_query_desc.htm
 tech.root: direct3d10

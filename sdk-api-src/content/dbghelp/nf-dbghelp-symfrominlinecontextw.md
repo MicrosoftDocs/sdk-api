@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFromInlineContextW
 title: SymFromInlineContextW function (dbghelp.h)
-description: Retrieves symbol information for the specified address and inline context.
+description: The SymFromInlineContextW (Unicode) function retrieves symbol information for the specified address and inline context.
 helpviewer_keywords: ["SymFromInlineContext","SymFromInlineContext function","SymFromInlineContextW","base.symfrominlinecontext","dbghelp/SymFromInlineContext","dbghelp/SymFromInlineContextW"]
 old-location: base\symfrominlinecontext.htm
 tech.root: Debug
 ms.assetid: a60a345e-d723-4275-bc2d-01e13ea57d67
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymFromInlineContext, SymFromInlineContext function, SymFromInlineContextW, base.symfrominlinecontext, dbghelp/SymFromInlineContext, dbghelp/SymFromInlineContextW
 req.header: dbghelp.h
 req.include-header: 
@@ -92,4 +92,4 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 ## -remarks
 
 > [!NOTE]
-> The dbghelp.h header defines SymFromInlineContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymFromInlineContext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

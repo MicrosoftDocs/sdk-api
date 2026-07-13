@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegDeleteKeyW
 title: RegDeleteKeyW function (winreg.h)
-description: Deletes a subkey and its values.
-helpviewer_keywords: ["RegDeleteKey","RegDeleteKey function","RegDeleteKeyA","RegDeleteKeyW","_win32_regdeletekey","base.regdeletekey","winreg/RegDeleteKey","winreg/RegDeleteKeyA","winreg/RegDeleteKeyW"]
+description: Deletes a subkey and its values. (Unicode)
+helpviewer_keywords: ["RegDeleteKey", "RegDeleteKey function", "RegDeleteKeyW", "_win32_regdeletekey", "base.regdeletekey", "winreg/RegDeleteKey", "winreg/RegDeleteKeyW"]
 old-location: base\regdeletekey.htm
 tech.root: winprog
 ms.assetid: a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l2-3-0.dll
  - Advapi32.dll
  - API-MS-Win-Core-Registry-l2-1-0.dll
  - advapi32legacy.dll
@@ -114,7 +115,7 @@ For an example that uses this function, see <a href="/windows/desktop/SysInfo/de
 
 
 > [!NOTE]
-> The winreg.h header defines RegDeleteKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegDeleteKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

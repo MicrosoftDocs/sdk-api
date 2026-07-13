@@ -64,7 +64,7 @@ After an <b>OnBufferEnd</b> callback the audio memory for the buffer associated 
 
 
 
-<i>pBufferContext</i> is the context pointer originally provided by the <b>pContext </b>member of the <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer">XAUDIO2_BUFFER</a> structure, which may be NULL.
+<i>pBufferContext</i> is the context pointer originally provided by the <b>pContext </b> member of the <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer">XAUDIO2_BUFFER</a> structure, which may be NULL.
 
 
 

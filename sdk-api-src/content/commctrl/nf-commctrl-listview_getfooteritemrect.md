@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetFooterItemRect","ListView_GetFooterItemRect m
 old-location: controls\ListView_GetFooterItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooteritemrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetFooterItemRect, ListView_GetFooterItemRect macro [Windows Controls], _shell_ListView_GetFooterItemRect, _shell_ListView_GetFooterItemRect_cpp, commctrl/ListView_GetFooterItemRect, controls.ListView_GetFooterItemRect, controls._shell_ListView_GetFooterItemRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetFooterItemRect macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetFooterItemRect(
+  [in]      HWND hwnd,
+  [in]      UINT iItem,
+  [in, out] RECT *prc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

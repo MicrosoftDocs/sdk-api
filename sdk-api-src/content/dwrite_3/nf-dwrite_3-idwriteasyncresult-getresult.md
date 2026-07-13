@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetResult","GetResult method [Direct Write]","GetResult m
 old-location: directwrite\idwriteasyncresult_getresult.htm
 tech.root: DirectWrite
 ms.assetid: 40588741-958D-4D7E-8E39-206D7CFCBFB6
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetResult, GetResult method [Direct Write], GetResult method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetResult method, IDWriteAsyncResult.GetResult, IDWriteAsyncResult::GetResult, directwrite.idwriteasyncresult_getresult, dwrite_3/IDWriteAsyncResult::GetResult
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,7 +53,7 @@ api_name:
 
 Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.
 
-## -parameters
+
 
 ## -returns
 

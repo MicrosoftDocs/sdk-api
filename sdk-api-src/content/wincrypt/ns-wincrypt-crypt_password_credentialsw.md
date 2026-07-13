@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPT_PASSWORD_CREDENTIALSW
 title: CRYPT_PASSWORD_CREDENTIALSW (wincrypt.h)
-description: Contains the user name and password credentials to be used in the CRYPT_CREDENTIALS structure as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
+description: Contains the user name and password credentials to be used in the CRYPT_CREDENTIALS structure as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject. (Unicode)
 helpviewer_keywords: ["*PCRYPT_PASSWORD_CREDENTIALSW","CRYPT_PASSWORD_CREDENTIALS","CRYPT_PASSWORD_CREDENTIALS structure [Security]","CRYPT_PASSWORD_CREDENTIALSA","CRYPT_PASSWORD_CREDENTIALSW","PCRYPT_PASSWORD_CREDENTIALS","PCRYPT_PASSWORD_CREDENTIALS structure pointer [Security]","security.crypt_password_credentials","wincrypt/CRYPT_PASSWORD_CREDENTIALS","wincrypt/CRYPT_PASSWORD_CREDENTIALSA","wincrypt/CRYPT_PASSWORD_CREDENTIALSW","wincrypt/PCRYPT_PASSWORD_CREDENTIALS"]
 old-location: security\crypt_password_credentials.htm
 tech.root: security
@@ -75,4 +75,4 @@ A pointer to a null-terminated string that contains the password credential for 
 ## -remarks
 
 > [!NOTE]
-> The wincrypt.h header defines CRYPT_PASSWORD_CREDENTIALS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincrypt.h header defines CRYPT_PASSWORD_CREDENTIALS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

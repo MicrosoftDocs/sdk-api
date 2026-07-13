@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetGlyphIndicesA
 title: GetGlyphIndicesA function (wingdi.h)
-description: The GetGlyphIndices function translates a string into an array of glyph indices. The function can be used to determine whether a glyph exists in a font.
-helpviewer_keywords: ["GGI_MARK_NONEXISTING_GLYPHS","GetGlyphIndices","GetGlyphIndices function [Windows GDI]","GetGlyphIndicesA","GetGlyphIndicesW","_win32_GetGlyphIndices","gdi.getglyphindices","wingdi/GetGlyphIndices","wingdi/GetGlyphIndicesA","wingdi/GetGlyphIndicesW"]
+description: The GetGlyphIndices function translates a string into an array of glyph indices. The function can be used to determine whether a glyph exists in a font. (ANSI)
+helpviewer_keywords: ["GGI_MARK_NONEXISTING_GLYPHS", "GetGlyphIndicesA", "wingdi/GetGlyphIndicesA"]
 old-location: gdi\getglyphindices.htm
 tech.root: gdi
 ms.assetid: 7abfee7a-dd5d-4f33-96f1-b38364ba5afd
@@ -113,7 +113,7 @@ This function attempts to identify a single-glyph representation for each charac
 
 
 > [!NOTE]
-> The wingdi.h header defines GetGlyphIndices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetGlyphIndices as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

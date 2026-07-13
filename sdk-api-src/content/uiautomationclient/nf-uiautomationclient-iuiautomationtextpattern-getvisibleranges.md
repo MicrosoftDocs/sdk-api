@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.GetVisibleRanges
 title: IUIAutomationTextPattern::GetVisibleRanges (uiautomationclient.h)
-description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
+description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text. (IUIAutomationTextPattern.GetVisibleRanges)
 helpviewer_keywords: ["GetVisibleRanges","GetVisibleRanges method [Windows Accessibility]","GetVisibleRanges method [Windows Accessibility]","IUIAutomationTextPattern interface","IUIAutomationTextPattern interface [Windows Accessibility]","GetVisibleRanges method","IUIAutomationTextPattern.GetVisibleRanges","IUIAutomationTextPattern::GetVisibleRanges","uiauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges","uiauto_IUIAutomationTextPattern_GetVisibleRanges","uiautomationclient/IUIAutomationTextPattern::GetVisibleRanges","winauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges"]
 old-location: winauto\uiauto_IUIAutomationTextPattern_GetVisibleRanges.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ Receives a pointer to the collection of visible text ranges within the text-base
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -54,19 +54,19 @@ Allows a caller to control the channel depth of a stage in the rendering pipelin
 
 ## -enum-fields
 
-### -field D2D1_CHANNEL_DEPTH_DEFAULT
+### -field D2D1_CHANNEL_DEPTH_DEFAULT:0
 
 The channel depth is the default. It is inherited from the inputs.
 
-### -field D2D1_CHANNEL_DEPTH_1
+### -field D2D1_CHANNEL_DEPTH_1:1
 
 The channel depth is 1.
 
-### -field D2D1_CHANNEL_DEPTH_4
+### -field D2D1_CHANNEL_DEPTH_4:4
 
 The channel depth is 4.
 
-### -field D2D1_CHANNEL_DEPTH_FORCE_DWORD
+### -field D2D1_CHANNEL_DEPTH_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

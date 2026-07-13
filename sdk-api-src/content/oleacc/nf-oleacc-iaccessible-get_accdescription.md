@@ -117,7 +117,7 @@ The specified object does not support this property.
 
 ## -remarks
 
-An Microsoft Active Accessibility server can add support for UI Automation by using Direct Annotation, using the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface, or by implementing Microsoft Active Accessibility and UI Automation side-by-side with both implementations handling the <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message.
+An Microsoft Active Accessibility server can add support for UI Automation by using Direct Annotation, using the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface, or by implementing Microsoft Active Accessibility and UI Automation side-by-side with both implementations handling the [WM_GETOBJECT](/windows/win32/winauto/wm-getobject) message.
 
 This property provides a textual equivalent of the object for the user. The description should be similar to the text supplied with the ALT attribute in HTML, which is the text that is displayed to describe images for people using text-only browsers. However, some controls use this property to store extra information about the control that is not related to a textual equivalent. For more information about this property, see <a href="/windows/desktop/WinAuto/description-property">Description Property</a>.
 

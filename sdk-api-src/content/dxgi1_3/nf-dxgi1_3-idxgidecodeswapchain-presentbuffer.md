@@ -64,7 +64,7 @@ An index indicating which member of the subresource array to present.
 An integer that specifies how to synchronize presentation of a frame with the vertical blank.
 
 
-For the bit-block transfer (bitblt) model (<a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_DISCARD</a>or <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
+For the bit-block transfer (bitblt) model (<a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_DISCARD</a> or <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - The presentation occurs immediately, there is no synchronization.</li>

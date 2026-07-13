@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Uint8A
 title: MI_Uint8A (mi.h)
-description: Represents an array of MI_Uint8 types.
+description: Represents an array of MI_Uint8 types. (MI_Uint8A)
 helpviewer_keywords: ["MI_Uint8A","MI_Uint8A structure [Windows Management Infrastructure (MI)]","mi/MI_Uint8A","wmi._mi_uint8a","wmi_v2.mi_uint8a"]
 old-location: wmi_v2\mi_uint8a.htm
 tech.root: wmi_v2

@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capFileSetCaptureFile","capFileSetCaptureFile","ca
 old-location: multimedia\capfilesetcapturefile.htm
 tech.root: Multimedia
 ms.assetid: 47c69c62-5455-401e-adba-9a0eced548cf
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capFileSetCaptureFile, capFileSetCaptureFile, capFileSetCaptureFile macro [Windows Multimedia], multimedia.capfilesetcapturefile, vfw/capFileSetCaptureFile
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capFileSetCaptureFile macro
+
+## -syntax
+
+```cpp
+BOOL capFileSetCaptureFile(
+     hwnd,
+     szName
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if the filename is invalid or if streaming or single-frame capture is in progress.
 
 
 ## -description

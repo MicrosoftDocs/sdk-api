@@ -6,7 +6,7 @@ helpviewer_keywords: ["FWPM_CONDITION_ALE_APP_ID","FWPM_CONDITION_ALE_USER_ID","
 old-location: fwp\fwpm_net_event_enum_template0.htm
 tech.root: fwp
 ms.assetid: 79711b24-e092-4a36-810a-6acad279eb90
-ms.date: 12/05/2018
+ms.date: 05/02/2024
 ms.keywords: FWPM_CONDITION_ALE_APP_ID, FWPM_CONDITION_ALE_USER_ID, FWPM_CONDITION_IP_LOCAL_ADDRESS, FWPM_CONDITION_IP_LOCAL_PORT, FWPM_CONDITION_IP_PROTOCOL, FWPM_CONDITION_IP_REMOTE_ADDRESS, FWPM_CONDITION_IP_REMOTE_PORT, FWPM_CONDITION_SCOPE_ID, FWPM_NET_EVENT_ENUM_TEMPLATE0, FWPM_NET_EVENT_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_net_event_enum_template0, fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0
 req.header: fwpmtypes.h
 req.include-header: 
@@ -46,9 +46,6 @@ api_location:
 api_name:
  - FWPM_NET_EVENT_ENUM_TEMPLATE0
 ---
-
-# FWPM_NET_EVENT_ENUM_TEMPLATE0 structure
-
 
 ## -description
 
@@ -151,9 +148,9 @@ The interface IPv6 scope identifier. Reserved for internal use.
 </td>
 <td width="60%">
 The full path of the application.
-
 </td>
 </tr>
+
 <tr>
 <td width="40%"><a id="FWPM_CONDITION_ALE_USER_ID"></a><a id="fwpm_condition_ale_user_id"></a><dl>
 <dt><b>FWPM_CONDITION_ALE_USER_ID</b></dt>
@@ -161,9 +158,19 @@ The full path of the application.
 </td>
 <td width="60%">
 The identification of the local user.
-
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="FWPM_CONDITION_NET_EVENT_TYPE"></a><a id="fwpm_condition_net_event_type"></a><dl>
+<dt><b>FWPM_CONDITION_NET_EVENT_TYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The 32-bit event type to be notified of, as defined in the <a href="/windows/win32/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type">FWPM_NET_EVENT_TYPE</a> enumeration.
+</td>
+</tr>
+
 </table>
 
 ## -remarks

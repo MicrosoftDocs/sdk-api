@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_ARRAY_VPOV
 title: D3D11_TEX2D_ARRAY_VPOV (d3d11.h)
-description: Identifies a texture resource for a video processor output view.
+description: Identifies a texture resource for a video processor output view. (D3D11_TEX2D_ARRAY_VPOV)
 helpviewer_keywords: ["D3D11_TEX2D_ARRAY_VPOV","D3D11_TEX2D_ARRAY_VPOV structure [Media Foundation]","d3d11/D3D11_TEX2D_ARRAY_VPOV","mf.d3d11_tex2d_array_vpov"]
 old-location: mf\d3d11_tex2d_array_vpov.htm
 tech.root: mf

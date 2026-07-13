@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IPrincipal.get_Id
 title: IPrincipal::get_Id (taskschd.h)
-description: Gets or sets the identifier of the principal.
+description: Gets or sets the identifier of the principal. (Get)
 helpviewer_keywords: ["IPrincipal interface [Task Scheduler]","Id property","IPrincipal.Id","IPrincipal.get_Id","IPrincipal::Id","IPrincipal::get_Id","IPrincipal::put_Id","Id property [Task Scheduler]","Id property [Task Scheduler]","IPrincipal interface","get_Id","taskschd.iprincipal_id","taskschd/IPrincipal::Id","taskschd/IPrincipal::get_Id","taskschd/IPrincipal::put_Id"]
 old-location: taskschd\iprincipal_id.htm
 tech.root: taskschd

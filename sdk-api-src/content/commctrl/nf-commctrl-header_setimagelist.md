@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_SetImageList","Header_SetImageList macro [Windows 
 old-location: controls\Header_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setimagelist.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_SetImageList, Header_SetImageList macro [Windows Controls], _win32_Header_SetImageList, _win32_Header_SetImageList_cpp, commctrl/Header_SetImageList, controls.Header_SetImageList, controls._win32_Header_SetImageList
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Header_SetImageList macro
+
+## -syntax
+
+```cpp
+HIMAGELIST Header_SetImageList(
+   HWND       hwnd,
+   HIMAGELIST himl
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns the handle to the image list previously assigned to the header control, or <b>NULL</b> if there is no previous image list.
 
 
 ## -description

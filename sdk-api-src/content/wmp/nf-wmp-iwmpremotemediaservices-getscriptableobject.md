@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetScriptableObject","GetScriptableObject method [Windows
 old-location: wmp\iwmpremotemediaservices_getscriptableobject.htm
 tech.root: WMP
 ms.assetid: c2e313fd-cbf6-4b0f-8eb0-1097af53e77a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetScriptableObject, GetScriptableObject method [Windows Media Player], GetScriptableObject method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetScriptableObject method, IWMPRemoteMediaServices.GetScriptableObject, IWMPRemoteMediaServices::GetScriptableObject, IWMPRemoteMediaServicesGetScriptableObject, wmp.iwmpremotemediaservices_getscriptableobject, wmp/IWMPRemoteMediaServices::GetScriptableObject
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetScriptableObject</b> method is called by Windows Media Player to retrieve a name and interface pointer for an object that can be called from the script code within a skin.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IKsTopologyInfo interface [DirectShow]","get_NodeName met
 old-location: dshow\ikstopologyinfo_get_nodename.htm
 tech.root: dshow
 ms.assetid: 3e24ef6f-e49d-4397-a9b8-a46fcf576a01
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeName method, IKsTopologyInfo.get_NodeName, IKsTopologyInfo::get_NodeName, IKsTopologyInfoget_NodeName, dshow.ikstopologyinfo_get_nodename, get_NodeName, get_NodeName method [DirectShow], get_NodeName method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeName
 req.header: vidcap.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_NodeName</code> method returns the name of the node.
 
@@ -143,4 +145,4 @@ if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
 
 
 
-<a href="/windows/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
+<a href="/previous-versions/ms785846(v=vs.85)">IKsTopologyInfo Interface</a>

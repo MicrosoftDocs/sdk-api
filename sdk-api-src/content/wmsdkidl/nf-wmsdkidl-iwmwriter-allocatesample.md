@@ -6,7 +6,7 @@ helpviewer_keywords: ["AllocateSample","AllocateSample method [windows Media For
 old-location: wmformat\iwmwriter_allocatesample.htm
 tech.root: wmformat
 ms.assetid: b23b2364-fb36-479f-bf92-76a5bb4722de
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AllocateSample, AllocateSample method [windows Media Format], AllocateSample method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],AllocateSample method, IWMWriter.AllocateSample, IWMWriter::AllocateSample, IWMWriterAllocateSample, wmformat.iwmwriter_allocatesample, wmsdkidl/IWMWriter::AllocateSample
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -53,6 +53,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>AllocateSample</b> method allocates a buffer that can be used to provide samples to the writer.
 
 ## -parameters
@@ -63,7 +65,7 @@ The <b>AllocateSample</b> method allocates a buffer that can be used to provide 
 
 ### -param ppSample [out]
 
-Pointer to a pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface to an object containing the sample.
+Pointer to a pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface to an object containing the sample.
 
 ## -returns
 

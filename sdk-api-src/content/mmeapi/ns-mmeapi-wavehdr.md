@@ -76,7 +76,7 @@ User data.
 
 ### -field dwFlags
 
-A bitwise <b>OR</b> of zero of more flags. The following flags are defined:
+A bitwise <b>OR</b> of zero or more flags. The following flags are defined:
 
 <table>
 <tr>

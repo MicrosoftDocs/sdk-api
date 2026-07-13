@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Certificate
 title: IX509PrivateKey::put_Certificate (certenroll.h)
-description: Specifies or retrieves a byte array that contains the certificate associated with the private key.
+description: Specifies or retrieves a byte array that contains the certificate associated with the private key. (Put)
 helpviewer_keywords: ["Certificate property [Security]","Certificate property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","Certificate property","IX509PrivateKey.Certificate","IX509PrivateKey.put_Certificate","IX509PrivateKey::Certificate","IX509PrivateKey::get_Certificate","IX509PrivateKey::put_Certificate","certenroll/IX509PrivateKey::Certificate","certenroll/IX509PrivateKey::get_Certificate","certenroll/IX509PrivateKey::put_Certificate","put_Certificate","security.ix509privatekey_certificate_property"]
 old-location: security\ix509privatekey_certificate_property.htm
 tech.root: security

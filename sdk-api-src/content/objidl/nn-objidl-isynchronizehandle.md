@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.ISynchronizeHandle
 title: ISynchronizeHandle (objidl.h)
-description: Retrieves a handle associated with a synchronization object.
+description: The ISynchronizeHandle (objidl.h) interface retrieves a handle associated with a synchronization object.
 helpviewer_keywords: ["ISynchronizeHandle","ISynchronizeHandle interface [COM]","ISynchronizeHandle interface [COM]","described","_com_isynchronizehandle","com.isynchronizehandle","objidlbase/ISynchronizeHandle"]
 old-location: com\isynchronizehandle.htm
 tech.root: com
 ms.assetid: 93b2e682-78da-4a61-a045-8d71b3834e1d
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: ISynchronizeHandle, ISynchronizeHandle interface [COM], ISynchronizeHandle interface [COM],described, _com_isynchronizehandle, com.isynchronizehandle, objidlbase/ISynchronizeHandle
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -54,10 +54,7 @@ Retrieves a handle associated with a synchronization object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeHandle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizeHandle</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISynchronizeHandle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizeHandle</b> also has these types of members:
 
 ## -see-also
 

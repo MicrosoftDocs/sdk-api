@@ -57,14 +57,14 @@ Deprecated. Used by <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-i
 
 ## -enum-fields
 
-### -field BNS_NORMAL
+### -field BNS_NORMAL:0
 
 Indicates the normal state.
 
-### -field BNS_BEGIN_NAVIGATE
+### -field BNS_BEGIN_NAVIGATE:1
 
 A begin navigation event has occurred.
 
-### -field BNS_NAVIGATE
+### -field BNS_NAVIGATE:2
 
 The navigation event has occurred.

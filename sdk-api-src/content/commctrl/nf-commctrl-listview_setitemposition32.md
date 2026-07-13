@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetItemPosition32","ListView_SetItemPosition32 m
 old-location: controls\ListView_SetItemPosition32.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition32.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetItemPosition32, ListView_SetItemPosition32 macro [Windows Controls], _win32_ListView_SetItemPosition32, _win32_ListView_SetItemPosition32_cpp, commctrl/ListView_SetItemPosition32, controls.ListView_SetItemPosition32, controls._win32_ListView_SetItemPosition32
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,17 @@ api_name:
 
 # ListView_SetItemPosition32 macro
 
+## -syntax
+
+```cpp
+void ListView_SetItemPosition32(
+   HWND hwndLV,
+   int  i,
+   int  x0,
+   int  y0
+);
+```
+
 
 ## -description
 
@@ -80,4 +91,4 @@ New vertical coordinates of the item.
 
 ## -see-also
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>

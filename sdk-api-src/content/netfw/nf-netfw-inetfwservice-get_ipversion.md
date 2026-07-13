@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwService.get_IpVersion
 title: INetFwService::get_IpVersion (netfw.h)
-description: Specifies the firewall IP version for which the service is authorized.
+description: Specifies the firewall IP version for which the service is authorized. (Get)
 helpviewer_keywords: ["INetFwService interface [ICS/ICF]","IpVersion property","INetFwService.IpVersion","INetFwService.get_IpVersion","INetFwService::IpVersion","INetFwService::get_IpVersion","INetFwService::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwService interface","get_IpVersion","ics.inetfwservice_ipversion","netfw/INetFwService::IpVersion","netfw/INetFwService::get_IpVersion","netfw/INetFwService::put_IpVersion"]
 old-location: ics\inetfwservice_ipversion.htm
 tech.root: ics

@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_PROVIDER_PROP
 title: VDS_PROVIDER_PROP (vds.h)
-description: Defines the properties of a provider object.
+description: The VDS_PROVIDER_PROP structure (vds.h) defines the properties of a provider object.
 helpviewer_keywords: ["VDS_PROVIDER_PROP","VDS_PROVIDER_PROP structure [VDS]","base.vds_provider_prop","vds/_VDS_PROVIDER_PROP","vdshwprv/_VDS_PROVIDER_PROP"]
 old-location: base\vds_provider_prop.htm
 tech.root: base
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    properties of a <a href="/windows/desktop/VDS/provider-object">provider object</a>.

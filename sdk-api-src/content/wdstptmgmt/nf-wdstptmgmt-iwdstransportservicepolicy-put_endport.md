@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_EndPort
 title: IWdsTransportServicePolicy::put_EndPort (wdstptmgmt.h)
-description: Enables a WDS client computer to configure the end of a UDP port range that is used by WDS transport services.
+description: Enables a WDS client computer to configure the end of a UDP port range that is used by WDS transport services. (Put)
 helpviewer_keywords: ["EndPort property [Windows Deployment Services]","EndPort property [Windows Deployment Services]","IWdsTransportServicePolicy interface","IWdsTransportServicePolicy interface [Windows Deployment Services]","EndPort property","IWdsTransportServicePolicy.EndPort","IWdsTransportServicePolicy.put_EndPort","IWdsTransportServicePolicy::EndPort","IWdsTransportServicePolicy::get_EndPort","IWdsTransportServicePolicy::put_EndPort","put_EndPort","wds.iwdstransportservicepolicy_endport","wdstptmgmt/IWdsTransportServicePolicy::EndPort","wdstptmgmt/IWdsTransportServicePolicy::get_EndPort","wdstptmgmt/IWdsTransportServicePolicy::put_EndPort"]
 old-location: wds\iwdstransportservicepolicy_endport.htm
 tech.root: wds

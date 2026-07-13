@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSensorValue","GetSensorValue method","GetSensorValue m
 old-location: winsensors_com_ref\isensordatareport_getsensorvalue.htm
 tech.root: winsensors
 ms.assetid: cd4aab72-558c-4f56-a9c1-b10213823c28
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetSensorValue, GetSensorValue method, GetSensorValue method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValue method, ISensorDataReport.GetSensorValue, ISensorDataReport::GetSensorValue, sensorsapi/ISensorDataReport::GetSensorValue, winsensors_com_ref.isensordatareport_getsensorvalue
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves a single data field value from the data report.
 

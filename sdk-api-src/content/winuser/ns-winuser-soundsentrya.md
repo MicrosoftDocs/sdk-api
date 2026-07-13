@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagSOUNDSENTRYA
 title: SOUNDSENTRYA (winuser.h)
-description: Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
+description: Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated. (ANSI)
 helpviewer_keywords: ["*LPSOUNDSENTRYA","LPSOUNDSENTRY","LPSOUNDSENTRY structure pointer [Windows Accessibility]","SOUNDSENTRY","SOUNDSENTRY structure [Windows Accessibility]","SOUNDSENTRYA","SSF_AVAILABLE","SSF_INDICATOR","SSF_SOUNDSENTRYON","SSGF_DISPLAY","SSGF_NONE","SSTF_BORDER","SSTF_CHARS","SSTF_DISPLAY","SSTF_NONE","SSWF_CUSTOM","SSWF_DISPLAY","SSWF_NONE","SSWF_TITLE","SSWF_WINDOW","_win32_SOUNDSENTRY_str","msaa.soundsentry","tagSOUNDSENTRYA","tagSOUNDSENTRYW","winauto.soundsentry","winuser/LPSOUNDSENTRY","winuser/SOUNDSENTRY"]
 old-location: winauto\soundsentry.htm
 tech.root: WinAuto
@@ -357,7 +357,7 @@ An application uses a <b>SOUNDSENTRY</b> structure when calling the <a href="/wi
 
 
 > [!NOTE]
-> The winuser.h header defines SOUNDSENTRY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SOUNDSENTRY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

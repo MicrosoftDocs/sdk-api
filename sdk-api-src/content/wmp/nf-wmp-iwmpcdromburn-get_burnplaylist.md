@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","get_burn
 old-location: wmp\iwmpcdromburn_get_burnplaylist.htm
 tech.root: WMP
 ms.assetid: b31f4e87-2029-4001-94c7-268b14807cf0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnPlaylist method, IWMPCdromBurn.get_burnPlaylist, IWMPCdromBurn::get_burnPlaylist, IWMPCdromBurnget_burnPlaylist, get_burnPlaylist, get_burnPlaylist method [Windows Media Player], get_burnPlaylist method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnplaylist, wmp/IWMPCdromBurn::get_burnPlaylist
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_burnPlaylist</b> method retrieves the current playlist to burn to the CD.
 

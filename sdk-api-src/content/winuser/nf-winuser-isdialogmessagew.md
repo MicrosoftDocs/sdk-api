@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.IsDialogMessageW
 title: IsDialogMessageW function (winuser.h)
-description: Determines whether a message is intended for the specified dialog box and, if it is, processes the message.
-helpviewer_keywords: ["IsDialogMessage","IsDialogMessage function [Dialog Boxes]","IsDialogMessageA","IsDialogMessageW","_win32_IsDialogMessage","_win32_isdialogmessage_cpp","dlgbox.isdialogmessage","winui._win32_isdialogmessage","winuser/IsDialogMessage","winuser/IsDialogMessageA","winuser/IsDialogMessageW"]
+description: Determines whether a message is intended for the specified dialog box and, if it is, processes the message. (Unicode)
+helpviewer_keywords: ["IsDialogMessage", "IsDialogMessage function [Dialog Boxes]", "IsDialogMessageW", "_win32_IsDialogMessage", "_win32_isdialogmessage_cpp", "dlgbox.isdialogmessage", "winui._win32_isdialogmessage", "winuser/IsDialogMessage", "winuser/IsDialogMessageW"]
 old-location: dlgbox\isdialogmessage.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\isdialogmessage.htm
@@ -95,7 +95,7 @@ Because the <b>IsDialogMessage</b> function performs all necessary translating a
 
 
 > [!NOTE]
-> The winuser.h header defines IsDialogMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines IsDialogMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

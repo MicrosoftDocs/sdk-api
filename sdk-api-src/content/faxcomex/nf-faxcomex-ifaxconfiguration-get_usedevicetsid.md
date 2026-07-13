@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_UseDeviceTSID
 title: IFaxConfiguration::get_UseDeviceTSID (faxcomex.h)
-description: Sets or retrieves a value that indicates whether the transmitting station identifier (TSID) is used.
+description: Sets or retrieves a value that indicates whether the transmitting station identifier (TSID) is used. (Get)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","UseDeviceTSID property","IFaxConfiguration.UseDeviceTSID","IFaxConfiguration.get_UseDeviceTSID","IFaxConfiguration::UseDeviceTSID","IFaxConfiguration::get_UseDeviceTSID","IFaxConfiguration::put_UseDeviceTSID","UseDeviceTSID property [Fax Service]","UseDeviceTSID property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_UseDeviceTSID","fax._mfax_IFaxConfiguration_UseDeviceTSID","faxcomex/IFaxConfiguration::UseDeviceTSID","faxcomex/IFaxConfiguration::get_UseDeviceTSID","faxcomex/IFaxConfiguration::put_UseDeviceTSID","get_UseDeviceTSID"]
 old-location: fax\_mfax_IFaxConfiguration_UseDeviceTSID.htm
 tech.root: Fax

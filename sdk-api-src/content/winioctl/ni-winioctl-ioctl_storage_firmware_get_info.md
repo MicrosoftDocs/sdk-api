@@ -1,47 +1,46 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_FIRMWARE_GET_INFO
-title: IOCTL_STORAGE_FIRMWARE_GET_INFO
-description: Windows applications can use this control code to query the storage device for detailed firmware information.
-helpviewer_keywords: ["IOCTL_STORAGE_FIRMWARE_GET_INFO","IOCTL_STORAGE_FIRMWARE_GET_INFO control","IOCTL_STORAGE_FIRMWARE_GET_INFO control code [Files]","fs.ioctl_storage_firmware_get_info","winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO"]
-old-location: fs\ioctl_storage_firmware_get_info.htm
 tech.root: fs
-ms.assetid: DBF40C42-2282-4F0E-B83A-D3154D7EF332
+title: IOCTL_STORAGE_FIRMWARE_GET_INFO
 ms.date: 12/05/2018
-ms.keywords: IOCTL_STORAGE_FIRMWARE_GET_INFO, IOCTL_STORAGE_FIRMWARE_GET_INFO control, IOCTL_STORAGE_FIRMWARE_GET_INFO control code [Files], fs.ioctl_storage_firmware_get_info, winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
+targetos: Windows
+description: Windows applications can use this control code to query the storage device for detailed firmware information.
+prerelease: false
+req.construct-type: ioctl
+req.ddi-compliance: 
+req.dll: 
 req.header: winioctl.h
 req.include-header: Windows.h
-req.target-type: Windows
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
+req.target-type: Windows
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-targetos: Windows
-req.typenames: 
-req.redist: 
-f1_keywords:
- - IOCTL_STORAGE_FIRMWARE_GET_INFO
- - winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
-dev_langs:
- - c++
+req.umdf-ver: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
  - WinIoctl.h
 api_name:
  - IOCTL_STORAGE_FIRMWARE_GET_INFO
+f1_keywords:
+ - IOCTL_STORAGE_FIRMWARE_GET_INFO
+ - winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
+dev_langs:
+ - c++
+helpviewer_keywords: 
+ - IOCTL_STORAGE_FIRMWARE_GET_INFO
+req.unicode-ansi: 
+req.idl: 
+req.namespace: 
+req.assembly: 
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_FIRMWARE_GET_INFO IOCTL

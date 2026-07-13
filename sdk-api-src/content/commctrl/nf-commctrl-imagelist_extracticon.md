@@ -6,7 +6,7 @@ helpviewer_keywords: ["ImageList_ExtractIcon","ImageList_ExtractIcon macro [Wind
 old-location: controls\ImageList_ExtractIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_extracticon.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ImageList_ExtractIcon, ImageList_ExtractIcon macro [Windows Controls], _win32_ImageList_ExtractIcon, _win32_ImageList_ExtractIcon_cpp, commctrl/ImageList_ExtractIcon, controls.ImageList_ExtractIcon, controls._win32_ImageList_ExtractIcon
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ImageList_ExtractIcon macro
+
+## -syntax
+
+```cpp
+HICON ImageList_ExtractIcon(
+   HINSTANCE  hi,
+   HIMAGELIST himl,
+   int        i
+);
+```
+
+## -returns
+
+Type: **[HICON](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle of the icon or cursor if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

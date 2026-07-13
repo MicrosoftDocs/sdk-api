@@ -66,7 +66,7 @@ A pointer to a variable that receives the current performance-counter frequency,
 
 If the installed hardware supports a high-resolution performance counter, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. On systems that run Windows XP or later, the function will always succeed and will thus never return zero.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. On systems that run Windows XP or later, the function will always succeed when given valid parameters and will thus never return zero.
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>SetDefaultValues</b> method specifies a default hashing algorithm used to create a digest of the certificate request prior to  signing.
 
-## -parameters
+
 
 ## -returns
 
@@ -68,7 +68,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CERTSRV_E_PROPERTY_EMPTY</b></b></dt>
+<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
 <dt></dt>
 </dl>
 </td>

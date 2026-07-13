@@ -83,7 +83,7 @@ Attachments are used to connect multiple DirectDrawSurface objects into complex 
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetAttachedSurface</b> method.
+
 
 ## -see-also
 

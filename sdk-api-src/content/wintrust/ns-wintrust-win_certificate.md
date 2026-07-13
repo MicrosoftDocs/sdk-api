@@ -66,7 +66,7 @@ Specifies the length, in bytes, of the signature.
 
 Specifies the certificate revision.
 
-The only defined certificate revision is <b>WIN_CERT_REVISION_1_0 (0x0100)</b>.
+The defined certificate revisions are <b>WIN_CERT_REVISION_1_0 (0x0100)</b> and <b>WIN_CERT_REVISION_2_0 (0x0200)</b>.
 
 ### -field wCertificateType
 

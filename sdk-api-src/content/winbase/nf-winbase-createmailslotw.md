@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateMailslotW
 title: CreateMailslotW function (winbase.h)
-description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot.
-helpviewer_keywords: ["CreateMailslot","CreateMailslot function","CreateMailslotA","CreateMailslotW","MAILSLOT_WAIT_FOREVER","_win32_createmailslot","base.createmailslot","winbase/CreateMailslot","winbase/CreateMailslotA","winbase/CreateMailslotW"]
+description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot. (Unicode)
+helpviewer_keywords: ["CreateMailslot", "CreateMailslot function", "CreateMailslotW", "MAILSLOT_WAIT_FOREVER", "_win32_createmailslot", "base.createmailslot", "winbase/CreateMailslot", "winbase/CreateMailslotW"]
 old-location: base\createmailslot.htm
 tech.root: base
 ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll
@@ -115,7 +116,7 @@ This time-out value applies to all subsequent read operations and all inherited 
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. The <b>bInheritHandle</b> member of the structure determines whether the returned handle can be inherited by child processes. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the handle cannot be inherited.
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure. The <b>bInheritHandle</b> member of the structure determines whether the returned handle can be inherited by child processes. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the handle cannot be inherited.
 
 ## -returns
 
@@ -181,7 +182,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winbase.h header defines CreateMailslot as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CreateMailslot as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -205,7 +206,7 @@ For an example, see
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

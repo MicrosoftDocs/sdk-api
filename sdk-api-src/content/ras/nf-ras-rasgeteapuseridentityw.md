@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetEapUserIdentityW
 title: RasGetEapUserIdentityW function (ras.h)
-description: The RasGetEapUserIdentity function retrieves identity information for the current user. Use this information to call RasDial with a phone-book entry that requires Extensible Authentication Protocol (EAP).
-helpviewer_keywords: ["RASEAPF_Logon","RASEAPF_NonInteractive","RASEAPF_Preview","RasGetEapUserIdentity","RasGetEapUserIdentity function [RAS]","RasGetEapUserIdentityA","RasGetEapUserIdentityW","_ras_rasgeteapuseridentity","ras/RasGetEapUserIdentity","ras/RasGetEapUserIdentityA","ras/RasGetEapUserIdentityW","rras.rasgeteapuseridentity"]
+description: The RasGetEapUserIdentity function retrieves identity information for the current user. Use this information to call RasDial with a phone-book entry that requires Extensible Authentication Protocol (EAP). (Unicode)
+helpviewer_keywords: ["RASEAPF_Logon", "RASEAPF_NonInteractive", "RASEAPF_Preview", "RasGetEapUserIdentity", "RasGetEapUserIdentity function [RAS]", "RasGetEapUserIdentityW", "_ras_rasgeteapuseridentity", "ras/RasGetEapUserIdentity", "ras/RasGetEapUserIdentityW", "rras.rasgeteapuseridentity"]
 old-location: rras\rasgeteapuseridentity.htm
 tech.root: RRAS
 ms.assetid: b1b44672-86f3-4d8b-b816-31167a84b05a
@@ -209,7 +209,7 @@ If the remote access application being developed has a graphical user interface,
 
 
 > [!NOTE]
-> The ras.h header defines RasGetEapUserIdentity as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetEapUserIdentity as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

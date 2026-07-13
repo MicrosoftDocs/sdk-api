@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlUnescapeA
 title: UrlUnescapeA function (shlwapi.h)
-description: Converts escape sequences back into ordinary characters.
-helpviewer_keywords: ["URL_DONT_UNESCAPE_EXTRA_INFO","URL_UNESCAPE_AS_UTF8","URL_UNESCAPE_INPLACE","UrlUnescape","UrlUnescape function [Windows Shell]","UrlUnescapeA","UrlUnescapeW","_win32_UrlUnescape","shell.UrlUnescape","shlwapi/UrlUnescape","shlwapi/UrlUnescapeA","shlwapi/UrlUnescapeW"]
+description: Converts escape sequences back into ordinary characters. (ANSI)
+helpviewer_keywords: ["URL_DONT_UNESCAPE_EXTRA_INFO", "URL_UNESCAPE_AS_UTF8", "URL_UNESCAPE_INPLACE", "UrlUnescapeA", "shlwapi/UrlUnescapeA"]
 old-location: shell\UrlUnescape.htm
 tech.root: shell
 ms.assetid: 5bff5161-3b57-4f12-b126-42eac3f60267
@@ -76,7 +76,7 @@ A pointer to a buffer that will receive a null-terminated string that contains t
 
 Type: <b>DWORD*</b>
 
-The number of characters in the buffer pointed to by <i>pszUnescaped</i>. On entry, the value <i>pcchUnescaped</i> points to is set to the size of the buffer. If the function returns a success code, the value that <i>pcchUnescaped</i> points to is set to the number of characters written to that buffer, not counting the terminating <b>NULL</b> character. If an E_POINTER error code is returned, the buffer was too small, and the value to which <i>pcchUnescaped</i> points is set to the required number of characters that the buffer must be able to contain. If any other errors are returned, the value to which <i>pcchUnescaped</i> points is undefined.
+The number of characters in the buffer pointed to by <i>pszUnescaped</i>. On entry, the value <i>pcchUnescaped</i> points to is set to the size of the buffer. If the function returns a success code and the <b>URL_UNESCAPE_INPLACE</b> flag is not set, the value that <i>pcchUnescaped</i> points to is set to the number of characters written to that buffer, not counting the terminating <b>NULL</b> character. If an E_POINTER error code is returned, the buffer was too small, and the value to which <i>pcchUnescaped</i> points is set to the required number of characters that the buffer must be able to contain. If any other errors are returned, the value to which <i>pcchUnescaped</i> points is undefined.
 
 ### -param dwFlags
 
@@ -118,5 +118,5 @@ Input strings cannot be longer than INTERNET_MAX_URL_LENGTH.
 
 
 > [!NOTE]
-> The shlwapi.h header defines UrlUnescape as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlUnescape as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

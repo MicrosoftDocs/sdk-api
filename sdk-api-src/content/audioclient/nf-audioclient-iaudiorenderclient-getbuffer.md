@@ -130,6 +130,20 @@ The audio endpoint device has been unplugged, or the audio hardware or associate
 <tr>
 <td width="40%">
 <dl>
+<dt><b>AUDCLNT_E_RESOURCES_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The stream's resources have been invalidated. This error may be thrown for the following reasons:<br>
+- The stream is suspended.<br>
+- An Exclusive or Offload stream is disconnected.<br>
+- A packaged application that has an exclusive mode or offload stream is quiesced.<br>
+- A "protected output" stream is closed.<br>
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
 <dt><b>AUDCLNT_E_BUFFER_OPERATION_PENDING</b></dt>
 </dl>
 </td>

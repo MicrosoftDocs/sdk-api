@@ -54,11 +54,11 @@ Specifies the type of a raytracing acceleration structure.
 
 ## -enum-fields
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE_TOP_LEVEL:0
 
 Top-level acceleration structure.
 
-### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL
+### -field D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE_BOTTOM_LEVEL:0x1
 
 Bottom-level acceleration structure.
 

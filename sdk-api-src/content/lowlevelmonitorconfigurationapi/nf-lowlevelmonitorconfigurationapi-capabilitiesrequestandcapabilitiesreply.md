@@ -47,10 +47,10 @@ api_name:
 
 # CapabilitiesRequestAndCapabilitiesReply function
 
-[!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
-
-
 ## -description
+
+> [!WARNING]
+> The physical monitor configuration functions work using the VESA Monitor Control Command Set (MCCS) standard over an I<sup>2</sup>C interface. Many monitors don't fully implement that standard; so your use of these commands might result in undefined monitor behavior. We don't recommend using these functions for arbitrary monitors without physically validating that they work as intended.
 
 Retrieves a string describing a monitor's capabilities.
 
@@ -82,8 +82,12 @@ This function usually returns quickly, but sometimes it can take several seconds
 
 You can update a monitor's capabilities string by adding an <i>AddReg</i> directive to the monitor's INF file. Add a registry key named "CapabilitiesString" to the monitor's driver key. The value of the registry key is the capabilities string. The registry data type is REG_SZ.
 
-<pre class="syntax" xml:space="preserve"><code>HKR,,"CapabilitiesString",0x00000000,"updated capabilities string"
-</code></pre>
+
+``` syntax
+HKR,,"CapabilitiesString",0x00000000,"updated capabilities string"
+
+```
+
 <div class="alert"><b>Warning</b>  Do not modify a monitor's INF file unless you are familiar with the layout of INF files and also understand the DDC/CI standard.</div>
 <div> </div>
 

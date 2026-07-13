@@ -60,7 +60,7 @@ The <b>CERT_TRUST_STATUS</b> structure contains trust information about a certif
 
 ### -field dwErrorStatus
 
-The following error status codes are defined for certificates and chains. 
+dwErrorStatus is a bitmask of the following error codes defined for certificates and chains. 
 
 
 

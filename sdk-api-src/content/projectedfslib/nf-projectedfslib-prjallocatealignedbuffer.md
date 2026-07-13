@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ProjectedFSLib.lib
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -65,4 +65,8 @@ The size of the buffer required, in bytes.
 ## -returns
 
 Returns NULL if the buffer could not be allocated.
+
+## -remarks
+
+Use [PrjFreeAlignedBuffer](/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfreealignedbuffer) to deallocate memory obtained by **PrjAllocateAlignedBuffer**.
 

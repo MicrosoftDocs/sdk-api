@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IGetSecurityCallContext
 title: IGetSecurityCallContext (comsvcs.h)
-description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
+description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call. (IGetSecurityCallContext)
 helpviewer_keywords: ["IGetSecurityCallContext","IGetSecurityCallContext interface [COM+]","IGetSecurityCallContext interface [COM+]","described","_cos_IGetSecurityCallContext","comsvcs/IGetSecurityCallContext","cos.igetsecuritycallcontext"]
 old-location: cos\igetsecuritycallcontext.htm
 tech.root: cos
@@ -54,10 +54,7 @@ Retrieves a reference to an object created from the <a href="/windows/desktop/co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetSecurityCallContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGetSecurityCallContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IGetSecurityCallContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGetSecurityCallContext</b> also has these types of members:
 
 ## -see-also
 

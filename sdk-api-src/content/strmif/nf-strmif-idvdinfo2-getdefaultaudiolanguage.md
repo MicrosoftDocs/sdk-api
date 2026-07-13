@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetDefaultAudioLanguage","GetDefaultAudioLanguage method 
 old-location: dshow\idvdinfo2_getdefaultaudiolanguage.htm
 tech.root: dshow
 ms.assetid: 89f93521-9df7-4162-bb66-2210cceebc75
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetDefaultAudioLanguage, GetDefaultAudioLanguage method [DirectShow], GetDefaultAudioLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultAudioLanguage method, IDvdInfo2.GetDefaultAudioLanguage, IDvdInfo2::GetDefaultAudioLanguage, IDvdInfo2GetDefaultAudioLanguage, dshow.idvdinfo2_getdefaultaudiolanguage, strmif/IDvdInfo2::GetDefaultAudioLanguage
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetDefaultAudioLanguage</code> method retrieves the default audio language.
 

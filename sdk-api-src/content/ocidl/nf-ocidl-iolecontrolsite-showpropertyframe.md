@@ -52,7 +52,7 @@ api_name:
 
 Instructs a container to display a property sheet for the control embedded in this site.
 
-## -parameters
+
 
 ## -returns
 

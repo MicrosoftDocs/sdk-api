@@ -114,7 +114,7 @@ The
 <div> </div>
 If the specified handle is a named pipe handle in byte-read mode, the function reads all available bytes up to the size specified in <i>nBufferSize</i>. For a named pipe handle in message-read mode, the function reads the next message in the pipe. If the message is larger than <i>nBufferSize</i>, the function returns <b>TRUE</b> after reading the specified number of bytes. In this situation, <i>lpBytesLeftThisMessage</i> will receive the number of bytes remaining in the message.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 ## -see-also
 

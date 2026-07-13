@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsAddSidHistoryA
 title: DsAddSidHistoryA function (ntdsapi.h)
-description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest.
-helpviewer_keywords: ["DsAddSidHistory","DsAddSidHistory function [Active Directory]","DsAddSidHistoryA","DsAddSidHistoryW","_glines_dsaddsidhistory","ad.dsaddsidhistory","ntdsapi/DsAddSidHistory","ntdsapi/DsAddSidHistoryA","ntdsapi/DsAddSidHistoryW"]
+description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest. (ANSI)
+helpviewer_keywords: ["DsAddSidHistoryA", "ntdsapi/DsAddSidHistoryA"]
 old-location: ad\dsaddsidhistory.htm
 tech.root: ad
 ms.assetid: 36ef8734-717a-4c3a-a839-6591d85c9734
@@ -91,7 +91,7 @@ If this parameter is <b>NULL</b>, <a href="/windows/desktop/api/ntdsapi/nf-ntdsa
 
 Contains an identity handle that represents the identity and credentials of a user with administrative rights in the source domain. To obtain this handle, call  <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>. This user must be a member of either the Administrators or the Domain Administrators group. If this call is made from a remote computer to the destination DC, then both the remote computer and the destination DC must support 128-bit encryption to privacy-protect the credentials. If 128-bit encryption is unavailable and <i>SrcDomainCreds</i> are provided, then the call must be made on the destination DC.
 
-If this parameter is <b>NULL</b>, the credentials of the caller are used for access to the source domain.
+If this parameter is <b>NULL</b>, the credentials of the caller are used for access to the source domain. The caller user then needs administrative rights in the source domain.
 
 ### -param DstDomain [in]
 
@@ -136,4 +136,4 @@ Returns a Win32 error codes including the following.
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsAddSidHistory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsAddSidHistory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

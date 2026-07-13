@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.SetIScsiTunnelModeOuterAddressA
 title: SetIScsiTunnelModeOuterAddressA function (iscsidsc.h)
-description: SetIscsiTunnelModeOuterAddress function establishes the tunnel-mode outer address that the indicated initiator Host Bus Adapter (HBA) uses when communicating in IPsec tunnel mode through the specified port.
-helpviewer_keywords: ["SetIScsiTunnelModeOuterAddressA","SetIscsiTunnelModeOuterAddress","SetIscsiTunnelModeOuterAddress function [iSCSI Discovery Library API]","SetIscsiTunnelModeOuterAddressA","SetIscsiTunnelModeOuterAddressW","iscsidisc.setiscsitunnelmodeouteraddress","iscsidsc/SetIscsiTunnelModeOuterAddress","iscsidsc/SetIscsiTunnelModeOuterAddressA","iscsidsc/SetIscsiTunnelModeOuterAddressW"]
+description: SetIscsiTunnelModeOuterAddress function establishes the tunnel-mode outer address that the indicated initiator Host Bus Adapter (HBA) uses when communicating in IPsec tunnel mode through the specified port. (ANSI)
+helpviewer_keywords: ["SetIScsiTunnelModeOuterAddressA", "SetIscsiTunnelModeOuterAddressA", "iscsidsc/SetIscsiTunnelModeOuterAddressA"]
 old-location: iscsidisc\setiscsitunnelmodeouteraddress.htm
 tech.root: iSCSIDisc
 ms.assetid: fdf84037-a546-49fd-9af4-21ea001587f3
@@ -83,5 +83,5 @@ Returns ERROR_SUCCESS if the operation succeeds.Otherwise, it returns the approp
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines SetIScsiTunnelModeOuterAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines SetIScsiTunnelModeOuterAddress as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["NetAddr_SetAllowType","NetAddr_SetAllowType macro [Window
 old-location: shell\NetAddr_SetAllowType.htm
 tech.root: shell
 ms.assetid: 2fa97abd-79c8-41ce-bd0e-75941bf4d005
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: NetAddr_SetAllowType, NetAddr_SetAllowType macro [Windows Shell], _shell_NetAddr_SetAllowType, shell.NetAddr_SetAllowType, shellapi/NetAddr_SetAllowType
 req.header: shellapi.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # NetAddr_SetAllowType macro
+
+## -syntax
+
+```cpp
+HRESULT NetAddr_SetAllowType(
+  [in]  HWND hwnd,
+  [in]  WPARAM addrMask
+);
+```
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/winprog/windows-data-types)**
+
+
 
 
 ## -description

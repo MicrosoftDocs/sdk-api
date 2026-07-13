@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-security-slc-l1-1-0.dll
  - Slc.dll
 api_name:
  - SLGetWindowsInformationDWORD
@@ -96,6 +97,18 @@ The caller does not have the permissions necessary to call this function.
 </td>
 <td width="60%">
 The value portion of the name-value pair is not a <b>DWORD</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SL_E_VALUE_NOT_FOUND</b></dt>
+<dt>0xC004F012</dt>
+</dl>
+</td>
+<td width="60%">
+The requested policy is not defined for the current device.
 
 </td>
 </tr>

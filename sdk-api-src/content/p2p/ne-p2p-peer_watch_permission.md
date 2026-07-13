@@ -56,11 +56,11 @@ The <b>PEER_WATCH_PERMISSION</b> enumeration defines whether a peer contact can 
 
 ## -enum-fields
 
-### -field PEER_WATCH_BLOCKED
+### -field PEER_WATCH_BLOCKED:0
 
 The peer contact cannot receive presence updates.
 
-### -field PEER_WATCH_ALLOWED
+### -field PEER_WATCH_ALLOWED:1
 
 The peer contact can receive presence updates.
 

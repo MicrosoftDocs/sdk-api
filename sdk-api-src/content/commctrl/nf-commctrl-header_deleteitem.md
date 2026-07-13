@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_DeleteItem","Header_DeleteItem macro [Windows Cont
 old-location: controls\Header_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_deleteitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_DeleteItem, Header_DeleteItem macro [Windows Controls], _win32_Header_DeleteItem, _win32_Header_DeleteItem_cpp, commctrl/Header_DeleteItem, controls.Header_DeleteItem, controls._win32_Header_DeleteItem
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # Header_DeleteItem macro
 
+## -syntax
+
+```cpp
+BOOL Header_DeleteItem(
+   HWND hwndHD,
+   int  i
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
+
 
 ## -description
 
@@ -70,6 +85,10 @@ An index of the item to delete.
 
 The <b>Header_DeleteItem</b> macro is defined as follows. 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_DeleteItem(hwndHD, index)     \
 
-      (BOOL)SendMessage((hwndHD), HDM_DELETEITEM, (WPARAM)(int)(index), 0L)</code></pre>
+``` syntax
+#define Header_DeleteItem(hwndHD, i)     \
+
+      (BOOL)SendMessage((hwndHD), HDM_DELETEITEM, (WPARAM)(int)(i), 0L)
+```
+

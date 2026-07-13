@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Invitations
 title: IRDPSRAPIViewer::get_Invitations (rdpencomapi.h)
-description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
+description: Returns an object implementing the IRDPSRAPIInvitationManager interface. (IRDPSRAPIViewer.get_Invitations)
 helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","Invitations property","IRDPSRAPIViewer.Invitations","IRDPSRAPIViewer.get_Invitations","IRDPSRAPIViewer::Invitations","IRDPSRAPIViewer::get_Invitations","Invitations property [RDP]","Invitations property [RDP]","IRDPSRAPIViewer interface","Invitations property [RDP]","RDPViewer object","RDPViewer object [RDP]","Invitations property","get_Invitations","rdp.irdpsrapiviewer_invitations","rdpencomapi/IRDPSRAPIViewer::Invitations","rdpencomapi/IRDPSRAPIViewer::get_Invitations"]
 old-location: rdp\irdpsrapiviewer_invitations.htm
 tech.root: rdp

@@ -74,7 +74,7 @@ If the method fails, it returns one of the other elements of the
 ## -remarks
 
 A <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object maintains a transformation matrix that can store any affine transformation. When you use a path gradient brush to fill an area, GDI+ transforms the brush's boundary path according to the brush's transformation matrix and then fills the interior of the transformed path. The transformed path exists only during rendering; the boundary path stored in 
-						<b>PathGradientBrush</b>object is not transformed.
+						<b>PathGradientBrush</b> object is not transformed.
 
 
 #### Examples
@@ -82,11 +82,11 @@ A <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">Pa
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on an array of three points. The 
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on an array of three points. The 
 						<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-scaletransform">PathGradientBrush::ScaleTransform</a> and 
 						<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-translatetransform">PathGradientBrush::TranslateTransform</a> methods set the elements of the brush's transformation matrix so that the matrix represents a composite transformation (first scale, then translate). That composite transformation applies to the brush's boundary path, so the call to 
 						<a href="/previous-versions/ms535957(v=vs.85)">FillRectangle</a> fills the interior of a triangle that is the result of scaling and translating the boundary path. The code calls the <b>PathGradientBrush::GetTransform</b> method of the 
-						<b>PathGradientBrush</b>object to obtain the brush's transformation matrix and then calls the 
+						<b>PathGradientBrush</b> object to obtain the brush's transformation matrix and then calls the 
 						<a href="/windows/desktop/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-getelements">GetElements</a> method of the retrieved <a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object to fill an array with the matrix elements.
 
 

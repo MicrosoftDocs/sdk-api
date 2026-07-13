@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_XmlText
 title: ITaskSettings::put_XmlText (taskschd.h)
-description: Gets or sets an XML-formatted definition of the task settings.
+description: Gets or sets an XML-formatted definition of the task settings. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","XmlText property","ITaskSettings.XmlText","ITaskSettings.put_XmlText","ITaskSettings::XmlText","ITaskSettings::get_XmlText","ITaskSettings::put_XmlText","XmlText property [Task Scheduler]","XmlText property [Task Scheduler]","ITaskSettings interface","put_XmlText","taskschd.itasksettings_xmltext","taskschd/ITaskSettings::XmlText","taskschd/ITaskSettings::get_XmlText","taskschd/ITaskSettings::put_XmlText"]
 old-location: taskschd\itasksettings_xmltext.htm
 tech.root: taskschd

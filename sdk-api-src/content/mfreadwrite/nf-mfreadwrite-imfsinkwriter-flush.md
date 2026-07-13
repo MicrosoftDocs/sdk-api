@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.Flush
 title: IMFSinkWriter::Flush (mfreadwrite.h)
-description: Flushes one or more streams.
+description: Flushes one or more streams. (IMFSinkWriter.Flush)
 helpviewer_keywords: ["Flush","Flush method [Media Foundation]","Flush method [Media Foundation]","IMFSinkWriter interface","IMFSinkWriter interface [Media Foundation]","Flush method","IMFSinkWriter.Flush","IMFSinkWriter::Flush","mf.imfsinkwriter_flush","mfreadwrite/IMFSinkWriter::Flush"]
 old-location: mf\imfsinkwriter_flush.htm
 tech.root: mf
@@ -70,7 +70,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -81,7 +81,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDREQUEST</b></b></dt>
+<dt><b>MF_E_INVALIDREQUEST</b></dt>
 </dl>
 </td>
 <td width="60%">

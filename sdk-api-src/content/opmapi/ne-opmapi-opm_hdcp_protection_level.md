@@ -56,15 +56,15 @@ Specifies the protection level for High-Bandwidth Digital Content Protection (HD
 
 ## -enum-fields
 
-### -field OPM_HDCP_OFF
+### -field OPM_HDCP_OFF:0
 
 HDCP is disabled.
 
-### -field OPM_HDCP_ON
+### -field OPM_HDCP_ON:1
 
 HDCP is enabled.
 
-### -field OPM_HDCP_FORCE_ULONG
+### -field OPM_HDCP_FORCE_ULONG:0x7fffffff
 
 Reserved.
 

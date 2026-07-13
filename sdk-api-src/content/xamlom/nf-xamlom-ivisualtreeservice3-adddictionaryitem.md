@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddDictionaryItem","AddDictionaryItem method","AddDiction
 old-location: xaml_diagnostics\ivisualtreeservice3_adddictionaryitem.htm
 tech.root: xaml_diagnostics
 ms.assetid: 86590A71-8BFC-4214-9F7C-1DF5B8391552
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: AddDictionaryItem, AddDictionaryItem method, AddDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,AddDictionaryItem method, IVisualTreeService3.AddDictionaryItem, IVisualTreeService3::AddDictionaryItem, xaml_diagnostics.ivisualtreeservice3_adddictionaryitem, xamlom/IVisualTreeService3::AddDictionaryItem
 req.header: xamlom.h
 req.include-header: 
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-	Adds an item to a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Adds an item to a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8&preserve-view=true">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ The resource to add.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

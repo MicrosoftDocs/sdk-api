@@ -4,12 +4,12 @@ title: SetProcessShutdownParameters function (processthreadsapi.h)
 description: Sets shutdown parameters for the currently calling process. This function sets a shutdown order for a process relative to the other processes in the system.
 helpviewer_keywords: ["SHUTDOWN_NORETRY","SetProcessShutdownParameters","SetProcessShutdownParameters function","_win32_setprocessshutdownparameters","base.setprocessshutdownparameters","processthreadsapi/SetProcessShutdownParameters","winbase/SetProcessShutdownParameters"]
 old-location: base\setprocessshutdownparameters.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: c467950e-31e1-4608-a08a-0736a5524e0e
 ms.date: 12/05/2018
 ms.keywords: SHUTDOWN_NORETRY, SetProcessShutdownParameters, SetProcessShutdownParameters function, _win32_setprocessshutdownparameters, base.setprocessshutdownparameters, processthreadsapi/SetProcessShutdownParameters, winbase/SetProcessShutdownParameters
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
  - KernelBase.dll

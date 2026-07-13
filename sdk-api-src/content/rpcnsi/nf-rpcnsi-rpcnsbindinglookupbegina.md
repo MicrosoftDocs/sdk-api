@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupBeginA
 title: RpcNsBindingLookupBeginA function (rpcnsi.h)
-description: The RpcNsBindingLookupBegin function creates a lookup context for an interface and an object.
-helpviewer_keywords: ["RpcNsBindingLookupBegin","RpcNsBindingLookupBegin function [RPC]","RpcNsBindingLookupBeginA","RpcNsBindingLookupBeginW","_rpc_rpcnsbindinglookupbegin","rpc.rpcnsbindinglookupbegin","rpcnsi/RpcNsBindingLookupBegin","rpcnsi/RpcNsBindingLookupBeginA","rpcnsi/RpcNsBindingLookupBeginW"]
+description: The RpcNsBindingLookupBegin function creates a lookup context for an interface and an object. (ANSI)
+helpviewer_keywords: ["RpcNsBindingLookupBeginA", "rpcnsi/RpcNsBindingLookupBeginA"]
 old-location: rpc\rpcnsbindinglookupbegin.htm
 tech.root: Rpc
 ms.assetid: 75b7e901-706a-4e3d-b958-d04a0709b993
@@ -228,7 +228,7 @@ When finished locating binding handles, the client application calls the
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsBindingLookupBegin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsBindingLookupBegin as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

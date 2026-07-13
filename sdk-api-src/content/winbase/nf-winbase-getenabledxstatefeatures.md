@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-xstate-l2-1-2.dll
  - Kernel32.dll
  - API-MS-Win-Core-Xstate-l2-1-0.dll
  - KernelBase.dll
@@ -58,7 +59,7 @@ Gets a mask of enabled XState features on x86 or x64 processors.
 The definition of XState feature bits are processor vendor specific. Please refer to the relevant processor 
     reference manuals for additional information on a particular feature.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Skip
 title: IEnumNetworkConnections::Skip (netlistmgr.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. (IEnumNetworkConnections.Skip)
 helpviewer_keywords: ["IEnumNetworkConnections interface [Network Awareness]","Skip method","IEnumNetworkConnections.Skip","IEnumNetworkConnections::Skip","Skip","Skip method [Network Awareness]","Skip method [Network Awareness]","IEnumNetworkConnections interface","netlistmgr/IEnumNetworkConnections::Skip","nla.ienumnetworkconnections_skip"]
 old-location: nla\ienumnetworkconnections_skip.htm
 tech.root: nla

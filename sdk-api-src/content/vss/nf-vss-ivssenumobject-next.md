@@ -1,7 +1,7 @@
 ---
 UID: NF:vss.IVssEnumObject.Next
 title: IVssEnumObject::Next (vss.h)
-description: Returns the specified number of objects from the specified list of enumerated objects.
+description: Returns the specified number of objects from the specified list of enumerated objects. (IVssEnumObject.Next)
 helpviewer_keywords: ["IVssEnumObject interface [VSS]","Next method","IVssEnumObject.Next","IVssEnumObject::Next","Next","Next method [VSS]","Next method [VSS]","IVssEnumObject interface","_win32_ivssenumobject_next","base.ivssenumobject_next","vss/IVssEnumObject::Next"]
 old-location: base\ivssenumobject_next.htm
 tech.root: base

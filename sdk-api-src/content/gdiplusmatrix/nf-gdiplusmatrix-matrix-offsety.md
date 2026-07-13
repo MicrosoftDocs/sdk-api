@@ -53,7 +53,7 @@ api_name:
 
 The <b>Matrix::OffsetY</b> method gets the vertical translation value of this matrix, which is the element in row 3, column 2.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_0
+UID: NS:shlobj_core.NT_CONSOLE_PROPS
 title: NT_CONSOLE_PROPS (shlobj_core.h)
 description: Holds an extra data block used by IShellLinkDataList. It holds console properties.
 helpviewer_keywords: ["*LPNT_CONSOLE_PROPS","LPNT_CONSOLE_PROPS","LPNT_CONSOLE_PROPS structure pointer [Windows Shell]","NT_CONSOLE_PROPS","NT_CONSOLE_PROPS structure [Windows Shell]","_win32_NT_CONSOLE_PROPS_str","shell.NT_CONSOLE_PROPS_str","shlobj_core/LPNT_CONSOLE_PROPS","shlobj_core/NT_CONSOLE_PROPS"]
@@ -183,3 +183,4 @@ A boolean value that is set to <b>TRUE</b> if old duplicate history lists should
 Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a>[16]</b>
 
 An array of <a href="/windows/desktop/gdi/colorref">COLORREF</a> values with the console's color settings.
+

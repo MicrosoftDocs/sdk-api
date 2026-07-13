@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSUnRegisterSessionNotification
 title: WTSUnRegisterSessionNotification function (wtsapi32.h)
-description: Unregisters the specified window so that it receives no further session change notifications.
+description: Unregisters the specified window so that it receives no further session change notifications. (WTSUnRegisterSessionNotification)
 helpviewer_keywords: ["WTSUnRegisterSessionNotification","WTSUnRegisterSessionNotification function [Remote Desktop Services]","_win32_wtsunregistersessionnotification","termserv.wtsunregistersessionnotification","wtsapi32/WTSUnRegisterSessionNotification"]
 old-location: termserv\wtsunregistersessionnotification.htm
 tech.root: TermServ
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-session-wtsapi32-l1-1-1.dll
  - Wtsapi32.dll
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:

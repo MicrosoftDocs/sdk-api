@@ -58,7 +58,7 @@ The <b>DSROLE_SERVER_STATE</b> enumeration is used with the <a href="/windows/de
 
 ## -enum-fields
 
-### -field DsRoleServerUnknown
+### -field DsRoleServerUnknown:0
 
 The server role is unknown.
 

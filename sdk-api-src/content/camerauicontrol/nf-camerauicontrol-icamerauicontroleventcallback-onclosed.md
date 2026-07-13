@@ -52,7 +52,7 @@ api_name:
 
 Occurs when the camera UI control is closed.
 
-## -parameters
+
 
 ## -see-also
 

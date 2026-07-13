@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.GetServiceDisplayNameW
 title: GetServiceDisplayNameW function (winsvc.h)
-description: Retrieves the display name of the specified service.
-helpviewer_keywords: ["GetServiceDisplayName","GetServiceDisplayName function","GetServiceDisplayNameA","GetServiceDisplayNameW","_win32_getservicedisplayname","base.getservicedisplayname","winsvc/GetServiceDisplayName","winsvc/GetServiceDisplayNameA","winsvc/GetServiceDisplayNameW"]
+description: Retrieves the display name of the specified service. (Unicode)
+helpviewer_keywords: ["GetServiceDisplayName", "GetServiceDisplayName function", "GetServiceDisplayNameW", "_win32_getservicedisplayname", "base.getservicedisplayname", "winsvc/GetServiceDisplayName", "winsvc/GetServiceDisplayNameW"]
 old-location: base\getservicedisplayname.htm
 tech.root: security
 ms.assetid: 704812f3-134c-4161-b3b4-a955d87ff563
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-service-core-l1-1-5.dll
+ - api-ms-win-service-core-l1-1-4.dll
+ - api-ms-win-service-core-l1-1-3.dll
  - Advapi32.dll
  - AdvApi32Legacy.dll
  - API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
@@ -111,7 +114,7 @@ There are two names for a service: the service name and the display name. The se
 
 
 > [!NOTE]
-> The winsvc.h header defines GetServiceDisplayName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines GetServiceDisplayName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

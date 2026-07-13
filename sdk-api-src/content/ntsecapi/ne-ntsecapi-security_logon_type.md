@@ -58,9 +58,9 @@ The <b>SECURITY_LOGON_TYPE</b> enumeration indicates the type of logon requested
 
 ## -enum-fields
 
-### -field UndefinedLogonType
+### -field UndefinedLogonType:0
 
-### -field Interactive
+### -field Interactive:2
 
 The <a href="/windows/desktop/SecGloss/s-gly">security principal</a> is logging on interactively.
 

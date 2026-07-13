@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
  - ie_shims.dll
@@ -80,9 +82,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 An application can use the <b>GetPointerType</b> function to determine the pointer type if it wishes to react differently to pointers of different types.
 
-<div class="alert"><b>Note</b>  This function will never return with the generic <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_POINTER </a>type.</div>
+<div class="alert"><b>Note</b>  This function will never return with the generic <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_POINTER </a> type.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>

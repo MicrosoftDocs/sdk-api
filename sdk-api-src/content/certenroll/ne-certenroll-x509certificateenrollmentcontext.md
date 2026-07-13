@@ -67,17 +67,17 @@ The <b>X509CertificateEnrollmentContext</b> enumeration  specifies the nature of
 
 ## -enum-fields
 
-### -field ContextNone
+### -field ContextNone:0
 
-### -field ContextUser
+### -field ContextUser:0x1
 
 The certificate is intended for an end user.
 
-### -field ContextMachine
+### -field ContextMachine:0x2
 
 The certificate is intended for a computer.
 
-### -field ContextAdministratorForceMachine
+### -field ContextAdministratorForceMachine:0x3
 
 The certificate is being requested by an administrator acting on the behalf of a computer.
 

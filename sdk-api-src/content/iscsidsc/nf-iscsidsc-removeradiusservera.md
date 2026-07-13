@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RemoveRadiusServerA
 title: RemoveRadiusServerA function (iscsidsc.h)
-description: RemoveRadiusServer function removes a Remote Authentication Dial-In User Service (RADIUS) server entry from the RADIUS server list with which an iSCSI initiator is configured.
-helpviewer_keywords: ["RemoveRadiusServer","RemoveRadiusServer function [iSCSI Discovery Library API]","RemoveRadiusServerA","RemoveRadiusServerW","iscsidisc.removeradiusserver","iscsidsc/RemoveRadiusServer","iscsidsc/RemoveRadiusServerA","iscsidsc/RemoveRadiusServerW"]
+description: RemoveRadiusServer function removes a Remote Authentication Dial-In User Service (RADIUS) server entry from the RADIUS server list with which an iSCSI initiator is configured. (ANSI)
+helpviewer_keywords: ["RemoveRadiusServerA", "iscsidsc/RemoveRadiusServerA"]
 old-location: iscsidisc\removeradiusserver.htm
 tech.root: iSCSIDisc
 ms.assetid: e096a91b-84de-4b7d-a0d6-1364746ec488
@@ -71,4 +71,4 @@ Returns <b>ERROR_SUCCESS</b> if the operation is successful. If the operation fa
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines RemoveRadiusServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines RemoveRadiusServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

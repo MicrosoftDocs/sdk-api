@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT
-description: Retrieves the list of supported profiles.
+description: Retrieves the list of supported profiles. (D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT)
 helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT","D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT",""]
 tech.root: mf
 ms.assetid: 916f29f6-8bb5-4ac8-94a4-5cea6bdf353b

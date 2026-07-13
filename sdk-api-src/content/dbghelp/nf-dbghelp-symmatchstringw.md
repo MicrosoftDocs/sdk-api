@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymMatchStringW
 title: SymMatchStringW function (dbghelp.h)
-description: Compares the specified string to the specified wildcard expression.
-helpviewer_keywords: ["SymMatchString","SymMatchString function","SymMatchStringW","base.symmatchstring","dbghelp/SymMatchString","dbghelp/SymMatchStringW"]
+description: The SymMatchStringW (Unicode) function compares the specified string to the specified wildcard expression.
+helpviewer_keywords: ["SymMatchString", "SymMatchString function", "SymMatchStringW", "base.symmatchstring", "dbghelp/SymMatchString", "dbghelp/SymMatchStringW"]
 old-location: base\symmatchstring.htm
 tech.root: Debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symmatchstring, dbghelp/SymMatchString, dbghelp/SymMatchStringW
 req.header: dbghelp.h
 req.include-header: 
@@ -85,7 +85,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymMatchString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymMatchString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

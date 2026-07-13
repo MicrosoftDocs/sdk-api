@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetPrivileges
 title: IXblIdpAuthTokenResult::GetPrivileges (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetPrivileges)
 helpviewer_keywords: ["GetPrivileges","GetPrivileges method","GetPrivileges method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetPrivileges method","IXblIdpAuthTokenResult.GetPrivileges","IXblIdpAuthTokenResult::GetPrivileges","xblidp.ixblidpauthtokenresult_getprivileges","xblidpauthmanager/IXblIdpAuthTokenResult::GetPrivileges"]
 old-location: xblidp\ixblidpauthtokenresult_getprivileges.htm
 tech.root: xblidp
@@ -62,7 +62,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyAdmi
 old-location: security\azauthorizationstore_deletepolicyadministrator.htm
 tech.root: security
 ms.assetid: c27ca754-7808-4c96-8966-0be3960f2926
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzAuthorizationStore object, DeletePolicyAdministrator method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyAdministrator method, IAzAuthorizationStore.DeletePolicyAdministrator, IAzAuthorizationStore::DeletePolicyAdministrator, azroles/IAzAuthorizationStore::DeletePolicyAdministrator, security.azauthorizationstore_deletepolicyadministrator
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzAuthorizationStore::DeletePolicyAdministrator
 
-
 ## -description
 
-The <b>DeletePolicyAdministrator</b> method removes the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of principals that act as policy administrators.
+The **DeletePolicyAdministrator** method removes the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form from the list of principals that act as policy administrators.
 
 ## -parameters
 
@@ -63,17 +62,24 @@ Text form of the SID to remove from the list of policy administrators.
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
 Policy administrators for an object can perform the following tasks:
 
-<ul>
-<li>Read the object</li>
-<li>Write attributes to the object</li>
-<li>Read attributes of child objects of the object</li>
-<li>Write attributes to child objects of the object</li>
-<li>Delete the object</li>
-<li>Delete child objects of the object</li>
-<li>Create child objects of the object</li>
-</ul>
-To view the list of policy administrators, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministrators">PolicyAdministrators</a> property.
+- Read the object
+- Write attributes to the object
+- Read attributes of child objects of the object
+- Write attributes to child objects of the object
+- Delete the object
+- Delete child objects of the object
+- Create child objects of the object
+
+To view the list of policy administrators, use the [PolicyAdministrators](nf-azroles-iazauthorizationstore-get_policyadministrators.md) property.
+
+## -see-also
+
+[PolicyAdministrators](nf-azroles-iazauthorizationstore-get_policyadministrators.md)

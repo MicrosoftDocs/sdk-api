@@ -56,7 +56,7 @@ The <b>GROUPPROP</b> enumeration defines the constant values for retrieving and 
 
 ## -enum-fields
 
-### -field GROUPPROP_PRIORITY
+### -field GROUPPROP_PRIORITY:0
 
 Determines when the QMGR processes the group relative to other groups in the queue.
 
@@ -64,23 +64,23 @@ There is only one priority. You must specify a value of 1 when setting this prop
 
 Variant data type can be VT_I4, VT_I2, VT_UI4, VT_UI2, VT_INT, or VT_UINT.
 
-### -field GROUPPROP_REMOTEUSERID
+### -field GROUPPROP_REMOTEUSERID:1
 
 Not supported.
 
-### -field GROUPPROP_REMOTEUSERPWD
+### -field GROUPPROP_REMOTEUSERPWD:2
 
 Not supported.
 
-### -field GROUPPROP_LOCALUSERID
+### -field GROUPPROP_LOCALUSERID:3
 
 Not supported.
 
-### -field GROUPPROP_LOCALUSERPWD
+### -field GROUPPROP_LOCALUSERPWD:4
 
 Not supported.
 
-### -field GROUPPROP_PROTOCOLFLAGS
+### -field GROUPPROP_PROTOCOLFLAGS:5
 
 Specifies the protocol to use for the download.
 
@@ -88,37 +88,37 @@ You must specify QM_PROTOCOL_HTTP when setting this property.
 
 Variant data type can be VT_I4, VT_I2, VT_UI4, VT_UI2, VT_INT, or VT_UINT.
 
-### -field GROUPPROP_NOTIFYFLAGS
+### -field GROUPPROP_NOTIFYFLAGS:6
 
 Specifies the type of event notification to receive for the group. See Remarks.
 
 Variant data type can be VT_I4, VT_I2, VT_UI4, VT_UI2, VT_INT, or VT_UINT.
 
-### -field GROUPPROP_NOTIFYCLSID
+### -field GROUPPROP_NOTIFYCLSID:7
 
 The 	CLSID to activate when an event specified by <b>GROUPPROP_NOTIFYFLAGS</b> occurs. For more details on CLSID activation, see <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopycallback1">IBackgroundCopyCallback1</a>.
 
 Variant data type is VT_BSTR.
 
-### -field GROUPPROP_PROGRESSSIZE
+### -field GROUPPROP_PROGRESSSIZE:8
 
 Not supported.
 
-### -field GROUPPROP_PROGRESSPERCENT
+### -field GROUPPROP_PROGRESSPERCENT:9
 
 Not supported.
 
-### -field GROUPPROP_PROGRESSTIME
+### -field GROUPPROP_PROGRESSTIME:10
 
 Not supported.
 
-### -field GROUPPROP_DISPLAYNAME
+### -field GROUPPROP_DISPLAYNAME:11
 
 Specifies a display name that can be used to identify the group in a user interface. The length of the string is limited to 256 characters, not including the null terminator.
 
 Variant data type is VT_BSTR.
 
-### -field GROUPPROP_DESCRIPTION
+### -field GROUPPROP_DESCRIPTION:12
 
 Specifies a description to associate with the group. The length of the string is limited to 1,024 characters, not including the null terminator.
 

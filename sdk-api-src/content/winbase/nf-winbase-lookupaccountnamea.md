@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.LookupAccountNameA
 title: LookupAccountNameA function (winbase.h)
-description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
-helpviewer_keywords: ["LookupAccountName","LookupAccountName function [Security]","LookupAccountNameA","LookupAccountNameW","_win32_lookupaccountname","security.lookupaccountname","winbase/LookupAccountName","winbase/LookupAccountNameA","winbase/LookupAccountNameW"]
+description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found. (ANSI)
+helpviewer_keywords: ["LookupAccountNameA", "winbase/LookupAccountNameA"]
 old-location: security\lookupaccountname.htm
 tech.root: security
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
@@ -116,7 +116,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 > [!NOTE]
-> The winbase.h header defines LookupAccountName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines LookupAccountName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

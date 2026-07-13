@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_OBJECTINFORMATIONW
 title: NTMS_OBJECTINFORMATIONW (ntmsapi.h)
-description: The NTMS_OBJECTINFORMATION structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database.
+description: The NTMS_OBJECTINFORMATION structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database. (Unicode)
 helpviewer_keywords: ["*LPNTMS_OBJECTINFORMATIONW","LPNTMS_OBJECTINFORMATION","LPNTMS_OBJECTINFORMATION structure pointer [Files]","NTMS_CHANGER","NTMS_CHANGER_TYPE","NTMS_COMPUTER","NTMS_DRIVE","NTMS_DRIVE_TYPE","NTMS_IEDOOR","NTMS_IEPORT","NTMS_LIBRARY","NTMS_LIBREQUEST","NTMS_LOGICAL_MEDIA","NTMS_MEDIA_POOL","NTMS_MEDIA_TYPE","NTMS_NEEDS_SERVICE","NTMS_NOT_PRESENT","NTMS_OBJECTINFORMATION","NTMS_OBJECTINFORMATION structure [Files]","NTMS_OBJECTINFORMATIONA","NTMS_OBJECTINFORMATIONW","NTMS_OPREQUEST","NTMS_PARTITION","NTMS_PHYSICAL_MEDIA","NTMS_READY","NTMS_STORAGESLOT","_NTMS_OBJECTINFORMATIONA","_NTMS_OBJECTINFORMATIONW","_zaw_ntms_objectinformation","base.ntms_objectinformation","fs.ntms_objectinformation","ntmsapi/LPNTMS_OBJECTINFORMATION","ntmsapi/NTMS_OBJECTINFORMATION"]
 old-location: fs\ntms_objectinformation.htm
 tech.root: fs
@@ -68,7 +68,7 @@ The
 Type: <b>DWORD</b>
 
 Size of the information structure, in bytes. This member must be set to the correct size of the structure prior to using either the 
-<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>function or the 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a> function or the 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function.
 
 ### -field dwType
@@ -416,92 +416,92 @@ Device or system control object-specific information. The format of this informa
 
 ### -field Info.Drive
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE</b>.
 
 ### -field Info.DriveType
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE_TYPE</b>.
 
 ### -field Info.Library
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBRARY</b>.
 
 ### -field Info.Changer
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER</b>.
 
 ### -field Info.ChangerType
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa">NTMS_CHANGERTYPEINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa">NTMS_CHANGERTYPEINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER_TYPE</b>.
 
 ### -field Info.StorageSlot
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_STORAGESLOT</b>.
 
 ### -field Info.IEDoor
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation">NTMS_IEDOORINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation">NTMS_IEDOORINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_IEDOOR</b>.
 
 ### -field Info.IEPort
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_IEPORT</b>.
 
 ### -field Info.PhysicalMedia
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_PHYSICAL_MEDIA</b>.
 
 ### -field Info.LogicalMedia
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_LOGICAL_MEDIA</b>.
 
 ### -field Info.Partition
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_PARTITION</b>.
 
 ### -field Info.MediaPool
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_POOL</b>.
 
 ### -field Info.MediaType
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_TYPE</b>.
 
 ### -field Info.LibRequest
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBREQUEST</b>.
 
 ### -field Info.OpRequest
 
-<b>Type: <b>NTMS_OPREQUESTINFORMATION</b>
-</b>
+Type: <b>NTMS_OPREQUESTINFORMATION</b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_OPREQUEST</b>.
 
 ### -field Info.Computer
@@ -516,7 +516,7 @@ All members of the
 
 
 > [!NOTE]
-> The ntmsapi.h header defines NTMS_OBJECTINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines NTMS_OBJECTINFORMATION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

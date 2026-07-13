@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetBkColor","ListView_SetBkColor macro [Windows 
 old-location: controls\ListView_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetBkColor, ListView_SetBkColor macro [Windows Controls], _win32_ListView_SetBkColor, _win32_ListView_SetBkColor_cpp, commctrl/ListView_SetBkColor, controls.ListView_SetBkColor, controls._win32_ListView_SetBkColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetBkColor macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetBkColor(
+   HWND     hwnd,
+   COLORREF clrBk
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

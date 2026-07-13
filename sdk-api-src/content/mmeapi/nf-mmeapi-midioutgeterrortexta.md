@@ -1,8 +1,8 @@
 ---
 UID: NF:mmeapi.midiOutGetErrorTextA
 title: midiOutGetErrorTextA function (mmeapi.h)
-description: The midiOutGetErrorText function retrieves a textual description for an error identified by the specified error code.
-helpviewer_keywords: ["_win32_midiOutGetErrorText","midiOutGetErrorText","midiOutGetErrorText function [Windows Multimedia]","midiOutGetErrorTextA","midiOutGetErrorTextW","mmeapi/midiOutGetErrorText","mmeapi/midiOutGetErrorTextA","mmeapi/midiOutGetErrorTextW","multimedia.midioutgeterrortext"]
+description: The midiOutGetErrorText function retrieves a textual description for an error identified by the specified error code. (midiOutGetErrorTextA)
+helpviewer_keywords: ["midiOutGetErrorTextA", "mmeapi/midiOutGetErrorTextA"]
 old-location: multimedia\midioutgeterrortext.htm
 tech.root: Multimedia
 ms.assetid: e0e9a22f-da8b-4c87-bbdb-dedc22336503
@@ -112,7 +112,7 @@ If the textual error description is longer than the specified buffer, the descri
 
 
 > [!NOTE]
-> The mmeapi.h header defines midiOutGetErrorText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines midiOutGetErrorText as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

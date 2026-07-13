@@ -1,7 +1,7 @@
 ---
 UID: NS:wdstpdi._WDS_TRANSPORTPROVIDER_SETTINGS
 title: WDS_TRANSPORTPROVIDER_SETTINGS (wdstpdi.h)
-description: This structure is used by the WdsTransportProviderInitialize callback function.
+description: This structure is used by the WdsTransportProviderInitialize callback function. (WDS_TRANSPORTPROVIDER_SETTINGS)
 helpviewer_keywords: ["*PWDS_TRANSPORTPROVIDER_SETTINGS","PWDS_TRANSPORTPROVIDER_SETTINGS","PWDS_TRANSPORTPROVIDER_SETTINGS structure pointer [Windows Deployment Services]","WDS_TRANSPORTPROVIDER_SETTINGS","WDS_TRANSPORTPROVIDER_SETTINGS structure [Windows Deployment Services]","wds.wds_transportprovider_settings","wdstpdi/PWDS_TRANSPORTPROVIDER_SETTINGS","wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS"]
 old-location: wds\wds_transportprovider_settings.htm
 tech.root: wds

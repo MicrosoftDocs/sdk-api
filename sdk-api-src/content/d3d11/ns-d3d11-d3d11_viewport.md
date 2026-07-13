@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_VIEWPORT
 title: D3D11_VIEWPORT (d3d11.h)
-description: Defines the dimensions of a viewport.
+description: Defines the dimensions of a viewport. (D3D11_VIEWPORT)
 helpviewer_keywords: ["D3D11_VIEWPORT","D3D11_VIEWPORT structure [Direct3D 11]","d3d11/D3D11_VIEWPORT","direct3d11.d3d11_viewport","e40eb7eb-7ea6-54bc-b846-b83c9856e3fe"]
 old-location: direct3d11\d3d11_viewport.htm
 tech.root: direct3d11

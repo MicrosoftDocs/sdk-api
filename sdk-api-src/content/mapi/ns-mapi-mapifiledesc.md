@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.__unnamed_struct_0
+UID: NS:mapi.MapiFileDesc
 title: MapiFileDesc (mapi.h)
 description: A MapiFileDesc structure contains information about a file containing a message attachment stored as a temporary file.
 helpviewer_keywords: ["*lpMapiFileDesc","MAPI_OLE","MAPI_OLE_STATIC","MapiFileDesc","MapiFileDesc structure","lpMapiFileDesc","lpMapiFileDesc structure pointer","mapi.mapifiledesc","mapi/MapiFileDesc","mapi/lpMapiFileDesc"]
@@ -145,3 +145,4 @@ When using the <b>MapiFileDesc</b> member <b>nPosition</b>, the client applicati
 
 
 <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
+

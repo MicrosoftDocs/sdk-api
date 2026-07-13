@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetHotCursor","ListView_SetHotCursor macro [Wind
 old-location: controls\ListView_SetHotCursor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotcursor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetHotCursor, ListView_SetHotCursor macro [Windows Controls], _win32_ListView_SetHotCursor, _win32_ListView_SetHotCursor_cpp, commctrl/ListView_SetHotCursor, controls.ListView_SetHotCursor, controls._win32_ListView_SetHotCursor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetHotCursor macro
+
+## -syntax
+
+```cpp
+HCURSOR ListView_SetHotCursor(
+   HWND    hwnd,
+   HCURSOR hcur
+);
+```
+
+## -returns
+
+Type: **[HCURSOR](/windows/desktop/winprog/windows-data-types)**
+
+Returns an HCURSOR value that is the cursor that was previously used when the pointer was over an item.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capCaptureSingleFrameOpen","capCaptureSingleFrameO
 old-location: multimedia\capcapturesingleframeopen.htm
 tech.root: Multimedia
 ms.assetid: 980ba1ef-d86a-47f6-9876-84b5a099d14d
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capCaptureSingleFrameOpen, capCaptureSingleFrameOpen, capCaptureSingleFrameOpen macro [Windows Multimedia], multimedia.capcapturesingleframeopen, vfw/capCaptureSingleFrameOpen
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capCaptureSingleFrameOpen macro
+
+## -syntax
+
+```cpp
+BOOL capCaptureSingleFrameOpen(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

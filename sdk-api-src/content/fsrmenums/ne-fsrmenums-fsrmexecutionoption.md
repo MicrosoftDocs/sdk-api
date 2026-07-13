@@ -56,22 +56,22 @@ Defines the options for how to apply the rule to the file.
 
 ## -enum-fields
 
-### -field FsrmExecutionOption_Unknown
+### -field FsrmExecutionOption_Unknown:0
 
 The execution option is unknown. Do not use this value.
 
-### -field FsrmExecutionOption_EvaluateUnset
+### -field FsrmExecutionOption_EvaluateUnset:1
 
 The rule is applied as a default value to the file if the property is not set on the file (if none of the 
       storage modules returns the property).
 
-### -field FsrmExecutionOption_ReEvaluate_ConsiderExistingValue
+### -field FsrmExecutionOption_ReEvaluate_ConsiderExistingValue:2
 
 The rule is applied to the file considering default and existing values using aggregation rules (for 
       aggregation rules, see 
       <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertydefinitiontype">FsrmPropertyDefinitionType</a>).
 
-### -field FsrmExecutionOption_ReEvaluate_IgnoreExistingValue
+### -field FsrmExecutionOption_ReEvaluate_IgnoreExistingValue:3
 
 The rule is applied to the file but  default and existing values are ignored.
 

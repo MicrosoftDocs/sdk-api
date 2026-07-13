@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassificationManager
 title: IFsrmClassificationManager (fsrmpipeline.h)
-description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting.
+description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting. (IFsrmClassificationManager)
 helpviewer_keywords: ["IFsrmClassificationManager","IFsrmClassificationManager interface [File Server Resource Manager]","IFsrmClassificationManager interface [File Server Resource Manager]","described","fs.ifsrmclassificationmanager","fsrm.ifsrmclassificationmanager","fsrmpipeline/IFsrmClassificationManager"]
 old-location: fsrm\ifsrmclassificationmanager.htm
 tech.root: fsrm
@@ -65,11 +65,7 @@ To get this interface, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmClassificationManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmClassificationManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IFsrmClassificationManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmClassificationManager</b> also has these types of members:
 
 ## -remarks
 

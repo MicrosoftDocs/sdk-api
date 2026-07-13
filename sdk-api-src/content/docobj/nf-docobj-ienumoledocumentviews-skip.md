@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Skip
 title: IEnumOleDocumentViews::Skip (docobj.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumOleDocumentViews.Skip)
 helpviewer_keywords: ["IEnumOleDocumentViews interface [COM]","Skip method","IEnumOleDocumentViews.Skip","IEnumOleDocumentViews::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumOleDocumentViews interface","_ole_ienumoledocumentviews_skip","com.ienumoledocumentviews_skip","docobj/IEnumOleDocumentViews::Skip"]
 old-location: com\ienumoledocumentviews_skip.htm
 tech.root: com

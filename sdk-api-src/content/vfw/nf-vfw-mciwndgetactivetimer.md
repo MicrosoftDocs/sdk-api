@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetActiveTimer","MCIWndGetActiveTimer macro [Window
 old-location: multimedia\mciwndgetactivetimer.htm
 tech.root: Multimedia
 ms.assetid: 581b9bb3-9bc0-46f2-a5d2-93397900ff28
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetActiveTimer, MCIWndGetActiveTimer macro [Windows Multimedia], _win32_MCIWndGetActiveTimer, multimedia.mciwndgetactivetimer, vfw/MCIWndGetActiveTimer
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetActiveTimer macro
+
+## -syntax
+
+```cpp
+UINT MCIWndGetActiveTimer(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the update period in milliseconds. The default is 500 milliseconds.
 
 
 ## -description

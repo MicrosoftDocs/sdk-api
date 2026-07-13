@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetColumnOrderArray","ListView_GetColumnOrderArr
 old-location: controls\ListView_GetColumnOrderArray.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumnorderarray.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetColumnOrderArray, ListView_GetColumnOrderArray macro [Windows Controls], _win32_ListView_GetColumnOrderArray, _win32_ListView_GetColumnOrderArray_cpp, commctrl/ListView_GetColumnOrderArray, controls.ListView_GetColumnOrderArray, controls._win32_ListView_GetColumnOrderArray
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # ListView_GetColumnOrderArray macro
 
+## -syntax
+
+```cpp
+BOOL ListView_GetColumnOrderArray(
+   HWND hwnd,
+   int  iCount,
+   int  *pi
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If successful, returns nonzero and the buffer at <i>lpiArray</i> receives the column index of each column in the control in the order they appear from left to right. Otherwise, the return value is zero.
 
 ## -description
 

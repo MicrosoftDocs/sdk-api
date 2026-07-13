@@ -54,41 +54,41 @@ Defines the directions in which a pen flick has occurred.
 
 ## -enum-fields
 
-### -field FLICKDIRECTION_MIN
+### -field FLICKDIRECTION_MIN:0
 
-### -field FLICKDIRECTION_RIGHT
+### -field FLICKDIRECTION_RIGHT:0
 
  A pen flick to the right.
 
-### -field FLICKDIRECTION_UPRIGHT
+### -field FLICKDIRECTION_UPRIGHT:1
 
  A pen flick to the upper right.
 
-### -field FLICKDIRECTION_UP
+### -field FLICKDIRECTION_UP:2
 
  An upward pen flick.
 
-### -field FLICKDIRECTION_UPLEFT
+### -field FLICKDIRECTION_UPLEFT:3
 
 A pen flick to the upper left.
 
-### -field FLICKDIRECTION_LEFT
+### -field FLICKDIRECTION_LEFT:4
 
 A pen flick to the left.
 
-### -field FLICKDIRECTION_DOWNLEFT
+### -field FLICKDIRECTION_DOWNLEFT:5
 
 A pen flick to the lower left.
 
-### -field FLICKDIRECTION_DOWN
+### -field FLICKDIRECTION_DOWN:6
 
 A downward pen flick.
 
-### -field FLICKDIRECTION_DOWNRIGHT
+### -field FLICKDIRECTION_DOWNRIGHT:7
 
 A pen flick to the down right.
 
-### -field FLICKDIRECTION_INVALID
+### -field FLICKDIRECTION_INVALID:8
 
 An invalid pen flick.
 

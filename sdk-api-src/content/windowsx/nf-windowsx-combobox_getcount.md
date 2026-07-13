@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_GetCount","ComboBox_GetCount macro [Windows Cont
 old-location: controls\ComboBox_GetCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_GetCount, ComboBox_GetCount macro [Windows Controls], _win32_ComboBox_GetCount, _win32_ComboBox_GetCount_cpp, controls.ComboBox_GetCount, controls._win32_ComboBox_GetCount, windowsx/ComboBox_GetCount
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ComboBox_GetCount macro
+
+## -syntax
+
+```cpp
+int ComboBox_GetCount(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The number of items.
 
 
 ## -description

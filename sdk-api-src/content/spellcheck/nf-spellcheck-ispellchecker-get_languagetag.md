@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_LanguageTag
 title: ISpellChecker::get_LanguageTag (spellcheck.h)
-description: Gets the BCP47 language tag this instance of the spell checker supports.
+description: Gets the BCP47 language tag this instance of the spell checker supports. (ISpellChecker.get_LanguageTag)
 helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","LanguageTag property","ISpellChecker.LanguageTag","ISpellChecker.get_LanguageTag","ISpellChecker::LanguageTag","ISpellChecker::get_LanguageTag","LanguageTag property [Internationalization for Windows Applications]","LanguageTag property [Internationalization for Windows Applications]","ISpellChecker interface","get_LanguageTag","intl.ispellchecker_languagetag","spellcheck/ISpellChecker::LanguageTag","spellcheck/ISpellChecker::get_LanguageTag"]
 old-location: intl\ispellchecker_languagetag.htm
 tech.root: Intl

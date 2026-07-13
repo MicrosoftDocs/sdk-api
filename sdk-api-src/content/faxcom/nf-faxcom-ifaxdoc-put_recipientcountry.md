@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientCountry
 title: IFaxDoc::put_RecipientCountry (faxcom.h)
-description: Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientCountry property","IFaxDoc.RecipientCountry","IFaxDoc.put_RecipientCountry","IFaxDoc::RecipientCountry","IFaxDoc::get_RecipientCountry","IFaxDoc::put_RecipientCountry","RecipientCountry property [Fax Service]","RecipientCountry property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientcountry","fax._mfax_ifaxdoc_get_recipientcountry","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp","faxcom/IFaxDoc::RecipientCountry","faxcom/IFaxDoc::get_RecipientCountry","faxcom/IFaxDoc::put_RecipientCountry","put_RecipientCountry"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp.htm
 tech.root: Fax

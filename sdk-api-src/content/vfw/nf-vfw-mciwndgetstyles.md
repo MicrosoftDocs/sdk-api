@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetStyles","MCIWndGetStyles macro [Windows Multimed
 old-location: multimedia\mciwndgetstyles.htm
 tech.root: Multimedia
 ms.assetid: 06d022a7-7772-4442-b21c-4f18e9eedbc3
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetStyles, MCIWndGetStyles macro [Windows Multimedia], _win32_MCIWndGetStyles, multimedia.mciwndgetstyles, vfw/MCIWndGetStyles
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetStyles macro
+
+## -syntax
+
+```cpp
+UINT MCIWndGetStyles(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns a value representing the current styles of the MCIWnd window. The return value is the bitwise OR operator of the MCIWnd window styles (MCIWNDF flags).
 
 
 ## -description

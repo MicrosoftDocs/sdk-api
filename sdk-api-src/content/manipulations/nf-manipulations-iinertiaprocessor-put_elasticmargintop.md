@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_ElasticMarginTop
 title: IInertiaProcessor::put_ElasticMarginTop (manipulations.h)
-description: The ElasticMarginTop property specifies the topmost region for bouncing the target object.
+description: The ElasticMarginTop property specifies the topmost region for bouncing the target object. (Put)
 helpviewer_keywords: ["ElasticMarginTop property [Windows Touch]","ElasticMarginTop property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","ElasticMarginTop property","IInertiaProcessor.ElasticMarginTop","IInertiaProcessor.put_ElasticMarginTop","IInertiaProcessor::ElasticMarginTop","IInertiaProcessor::get_ElasticMarginTop","IInertiaProcessor::put_ElasticMarginTop","manipulations/IInertiaProcessor::ElasticMarginTop","manipulations/IInertiaProcessor::get_ElasticMarginTop","manipulations/IInertiaProcessor::put_ElasticMarginTop","put_ElasticMarginTop","wintouch.iinertiaprocessor_elasticmargintop"]
 old-location: wintouch\iinertiaprocessor_elasticmargintop.htm
 tech.root: wintouch

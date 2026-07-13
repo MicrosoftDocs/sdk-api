@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.GetMappedFileNameW
 title: GetMappedFileNameW function (psapi.h)
-description: Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file.
-helpviewer_keywords: ["GetMappedFileName","GetMappedFileName function [PSAPI]","GetMappedFileNameA","GetMappedFileNameW","K32GetMappedFileName","K32GetMappedFileNameA","K32GetMappedFileNameW","_win32_getmappedfilename","base.getmappedfilename","psapi.getmappedfilename","psapi/GetMappedFileName","psapi/GetMappedFileNameA","psapi/GetMappedFileNameW","psapi/K32GetMappedFileName","psapi/K32GetMappedFileNameA","psapi/K32GetMappedFileNameW"]
+description: Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file. (Unicode)
+helpviewer_keywords: ["GetMappedFileName", "GetMappedFileName function [PSAPI]", "GetMappedFileNameW", "K32GetMappedFileName", "K32GetMappedFileNameW", "_win32_getmappedfilename", "base.getmappedfilename", "psapi.getmappedfilename", "psapi/GetMappedFileName", "psapi/GetMappedFileNameW", "psapi/K32GetMappedFileName", "psapi/K32GetMappedFileNameW"]
 old-location: psapi\getmappedfilename.htm
 tech.root: psapi
 ms.assetid: 10a2e5ab-f495-486d-8ef7-ef763716afd1
@@ -82,10 +82,9 @@ The size of the <i>lpFilename</i> buffer, in characters.
 
 ## -returns
 
-If the function succeeds, the return value specifies the length of the string copied to the buffer, in characters.
+If the function succeeds, the return value is the length of the string that is copied to the buffer, in characters, not including the terminating null character. If the buffer is too small to hold the module name, the string is truncated to nSize characters (including the terminating null character), the function returns _nSize_, and the the last error is set to **ERROR_INSUFFICIENT_BUFFER**.
 
-If the function fails, the return value is zero. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -178,7 +177,7 @@ For an example, see
 
 
 > [!NOTE]
-> The psapi.h header defines GetMappedFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The psapi.h header defines GetMappedFileName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

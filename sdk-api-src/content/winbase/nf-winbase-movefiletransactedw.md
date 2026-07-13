@@ -1,12 +1,10 @@
 ---
 UID: NF:winbase.MoveFileTransactedW
 title: MoveFileTransactedW function (winbase.h)
-author: windows-sdk-content
-description: Moves an existing file or a directory, including its children, as a transacted operation.
+description: Moves an existing file or a directory, including its children, as a transacted operation. (Unicode)
 old-location: fs\movefiletransacted.htm
 tech.root: FileIO
 ms.assetid: 466d733b-30d2-4297-a0e6-77038f1a21d5
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileTransacted, MoveFileTransacted function [Files], MoveFileTransactedA, MoveFileTransactedW, fs.movefiletransacted, rename file [Files], winbase/MoveFileTransacted, winbase/MoveFileTransactedA, winbase/MoveFileTransactedW
 req.header: winbase.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -40,6 +37,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
@@ -72,20 +70,20 @@ Moves an existing file or a directory, including its children, as a transacted
 
 The current name of the existing file or directory on the local computer.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpNewFileName [in, optional]
 
 The new name for the file or directory. The new name must not already exist. A new file may be on a 
       different file system or drive. A new directory must be on the same drive.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpProgressRoutine [in, optional]
 

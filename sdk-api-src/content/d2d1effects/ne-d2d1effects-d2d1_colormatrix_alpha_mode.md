@@ -54,12 +54,12 @@ The alpha mode of the output of the <a href="/windows/desktop/Direct2D/color-mat
 
 ## -enum-fields
 
-### -field D2D1_COLORMATRIX_ALPHA_MODE_PREMULTIPLIED
+### -field D2D1_COLORMATRIX_ALPHA_MODE_PREMULTIPLIED:1
 
 The effect un-premultiplies the input, applies the color matrix, and premultiplies the output.
 
-### -field D2D1_COLORMATRIX_ALPHA_MODE_STRAIGHT
+### -field D2D1_COLORMATRIX_ALPHA_MODE_STRAIGHT:2
 
 The effect applies the color matrix directly to the input, and doesn't premultiply the output.
 
-### -field D2D1_COLORMATRIX_ALPHA_MODE_FORCE_DWORD
+### -field D2D1_COLORMATRIX_ALPHA_MODE_FORCE_DWORD:0xffffffff

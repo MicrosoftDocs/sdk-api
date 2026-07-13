@@ -52,7 +52,7 @@ api_name:
 
 Called by the Remote Desktop Protocol (RDP) stack to close the stream.
 
-## -parameters
+
 
 ## -returns
 

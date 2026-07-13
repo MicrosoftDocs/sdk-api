@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ULongLongMult
 title: ULongLongMult function (intsafe.h)
-description: Multiplies one value of type size_t by another.
+description: Multiplies one value of type size_t by another.S
 helpviewer_keywords: ["SizeTMult","SizeTMult function [Windows Shell]","ULongLongMult","_shell_SizeTMult","intsafe/SizeTMult","shell.SizeTMult"]
 old-location: shell\SizeTMult.htm
 tech.root: shell
@@ -67,7 +67,7 @@ A pointer to the result. If the operation results in a value that overflows or u
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetIncludeFile
 title: IVssExamineWriterMetadata::GetIncludeFile (vsbackup.h)
-description: Not supported.
+description: Not supported. (IVssExamineWriterMetadata.GetIncludeFile)
 helpviewer_keywords: ["GetIncludeFile","GetIncludeFile method [VSS]","GetIncludeFile method [VSS]","IVssExamineWriterMetadata interface","IVssExamineWriterMetadata interface [VSS]","GetIncludeFile method","IVssExamineWriterMetadata.GetIncludeFile","IVssExamineWriterMetadata::GetIncludeFile","_win32_ivssexaminewritermetadata_getincludefile","base.ivssexaminewritermetadata_getincludefile","vsbackup/IVssExamineWriterMetadata::GetIncludeFile"]
 old-location: base\ivssexaminewritermetadata_getincludefile.htm
 tech.root: base

@@ -29,6 +29,8 @@ topic_type:
  - apiref
 api_type:
 api_location:
+ - ext-ms-win-ro-typeresolution-l1-1-1.dll
+ - api-ms-win-ro-typeresolution-l1-1-1.dll
  - rometadataresolution.h
 api_name:
  - RoIsApiContractMajorVersionPresent
@@ -105,16 +107,6 @@ The input string is not an API contract defined in any examined .winmd file.
 </td>
 <td width="60%">
 The input string is an existing namespace rather than an API contract name.
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HR_RESULT_FROM_WIN32(ERROR_NO_PACKAGE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was called from a process that is not in a UWP app container.
 </td>
 </tr>
 </table>

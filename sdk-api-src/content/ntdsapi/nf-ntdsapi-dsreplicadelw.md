@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsReplicaDelW
 title: DsReplicaDelW function (ntdsapi.h)
-description: Removes a replication source reference from a destination naming context (NC).
-helpviewer_keywords: ["DS_REPDEL_ASYNCHRONOUS_OPERATION","DS_REPDEL_IGNORE_ERRORS","DS_REPDEL_INTERSITE_MESSAGING","DS_REPDEL_LOCAL_ONLY","DS_REPDEL_NO_SOURCE","DS_REPDEL_REF_OK","DS_REPDEL_WRITEABLE","DsReplicaDel","DsReplicaDel function [Active Directory]","DsReplicaDelA","DsReplicaDelW","_glines_dsreplicadel","ad.dsreplicadel","ntdsapi/DsReplicaDel","ntdsapi/DsReplicaDelA","ntdsapi/DsReplicaDelW"]
+description: Removes a replication source reference from a destination naming context (NC). (Unicode)
+helpviewer_keywords: ["DS_REPDEL_ASYNCHRONOUS_OPERATION", "DS_REPDEL_IGNORE_ERRORS", "DS_REPDEL_INTERSITE_MESSAGING", "DS_REPDEL_LOCAL_ONLY", "DS_REPDEL_NO_SOURCE", "DS_REPDEL_REF_OK", "DS_REPDEL_WRITEABLE", "DsReplicaDel", "DsReplicaDel function [Active Directory]", "DsReplicaDelW", "_glines_dsreplicadel", "ad.dsreplicadel", "ntdsapi/DsReplicaDel", "ntdsapi/DsReplicaDelW"]
 old-location: ad\dsreplicadel.htm
 tech.root: ad
 ms.assetid: 68c767c4-bbb6-477b-8ffb-94f3ae235375
@@ -180,4 +180,4 @@ If the function fails, the return value is a standard Win32 API error or <b>ERRO
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsReplicaDel as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsReplicaDel as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

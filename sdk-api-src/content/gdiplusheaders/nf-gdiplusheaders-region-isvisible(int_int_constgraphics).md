@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Region.IsVisible(INT,INT,constGraphics)
 title: Region::IsVisible
-description: The Region::IsVisible method determines whether a point is inside this region.
+description: The Region::IsVisible method determines whether a point is inside this region. (overload 2/4)
 tech.root: gdiplus
 helpviewer_keywords: ["Region::IsVisible"]
 ms.assetid: 6e7059c0-2029-4178-961a-88738894ee83

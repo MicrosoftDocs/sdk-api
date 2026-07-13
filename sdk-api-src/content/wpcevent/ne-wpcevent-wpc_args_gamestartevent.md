@@ -56,7 +56,7 @@ Indicates information about the start of a computer game.
 
 ## -enum-fields
 
-### -field WPC_ARGS_GAMESTARTEVENT_APPID
+### -field WPC_ARGS_GAMESTARTEVENT_APPID:0
 
 The application identifier of the computer game.
 

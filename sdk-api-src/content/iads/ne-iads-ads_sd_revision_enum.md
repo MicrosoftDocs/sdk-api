@@ -56,7 +56,7 @@ The <b>ADS_SD_REVISION_ENUM</b> enumeration specifies the revision number of the
 
 ## -enum-fields
 
-### -field ADS_SD_REVISION_DS
+### -field ADS_SD_REVISION_DS:4
 
 The revision number of the ACE, or the ACL, for Active Directory.
 

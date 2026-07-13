@@ -54,15 +54,15 @@ Indicates whether a specific  <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simp
 
 ## -enum-fields
 
-### -field D2D1_FIGURE_END_OPEN
+### -field D2D1_FIGURE_END_OPEN:0
 
 The figure is open.
 
-### -field D2D1_FIGURE_END_CLOSED
+### -field D2D1_FIGURE_END_CLOSED:1
 
 The figure is closed.
 
-### -field D2D1_FIGURE_END_FORCE_DWORD
+### -field D2D1_FIGURE_END_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

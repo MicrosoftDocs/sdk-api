@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyClientConnectionStateChange
 title: ITsSbResourceNotification::NotifyClientConnectionStateChange (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a client connection.
+description: Notifies registered plug-ins about state changes in a client connection. (ITsSbResourceNotification.NotifyClientConnectionStateChange)
 helpviewer_keywords: ["CONNECTION_REQUEST_CANCELLED","CONNECTION_REQUEST_FAILED","CONNECTION_REQUEST_PENDING","CONNECTION_REQUEST_SUCCEEDED","CONNECTION_REQUEST_TIMEDOUT","ITsSbResourceNotification interface [Remote Desktop Services]","NotifyClientConnectionStateChange method","ITsSbResourceNotification.NotifyClientConnectionStateChange","ITsSbResourceNotification::NotifyClientConnectionStateChange","NotifyClientConnectionStateChange","NotifyClientConnectionStateChange method [Remote Desktop Services]","NotifyClientConnectionStateChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange","termserv.itssbresourcenotification_notifyclientconnectionstatechange"]
 old-location: termserv\itssbresourcenotification_notifyclientconnectionstatechange.htm
 tech.root: TermServ
@@ -113,7 +113,7 @@ A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnecti
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

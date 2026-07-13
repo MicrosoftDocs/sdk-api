@@ -53,7 +53,7 @@ api_name:
 
 The <b>RectF::GetBottom</b> method gets the y-coordinate of the bottom edge of the rectangle.
 
-## -parameters
+
 
 ## -returns
 

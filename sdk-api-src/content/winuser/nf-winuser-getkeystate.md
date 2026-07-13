@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetKeyState
 title: GetKeyState function (winuser.h)
-description: Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off�alternating each time the key is pressed).
+description: Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off alternating each time the key is pressed).
 helpviewer_keywords: ["GetKeyState","GetKeyState function [Keyboard and Mouse Input]","_win32_GetKeyState","_win32_getkeystate_cpp","inputdev.getkeystate","winui._win32_getkeystate","winuser/GetKeyState"]
 old-location: inputdev\getkeystate.htm
 tech.root: inputdev
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-keyboard-l1-1-0.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-2.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
@@ -111,28 +114,10 @@ For an example, see <a href="/windows/desktop/inputdev/using-keyboard-input">Dis
 
 ## -see-also
 
-<b>Conceptual</b>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
-
-
-
-<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>

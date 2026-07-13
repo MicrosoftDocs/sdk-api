@@ -52,7 +52,7 @@ api_name:
 
 Gets the length, in tracks, of the timed-text-track list.
 
-## -parameters
+
 
 ## -returns
 

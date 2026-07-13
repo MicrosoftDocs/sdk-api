@@ -58,7 +58,7 @@ An <b>IInkDesktopHost</b> object enables ink input, processing, and rendering th
 
 
 
-<a href="/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
+<a href="/windows/win32/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
 
 
 

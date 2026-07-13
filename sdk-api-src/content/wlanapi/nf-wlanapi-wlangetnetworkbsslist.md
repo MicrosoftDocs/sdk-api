@@ -47,8 +47,13 @@ api_name:
 
 # WlanGetNetworkBssList function
 
-
 ## -description
+
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
 
 The <b>WlanGetNetworkBssList</b> function retrieves a list of the basic service set (BSS) entries of the wireless network or networks on a given wireless LAN interface.
 
@@ -123,7 +128,7 @@ Reserved for future use.  This parameter must be set to <b>NULL</b>.
 
 ### -param ppWlanBssList [out]
 
-A pointer to storage for a pointer to receive the returned list of of BSS entries in a <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure. 
+A pointer to storage for a pointer to receive the returned list of BSS entries in a <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure. 
 
 The buffer for the <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> returned is allocated by the <b>WlanGetNetworkBssList</b> function if the call succeeds.
 

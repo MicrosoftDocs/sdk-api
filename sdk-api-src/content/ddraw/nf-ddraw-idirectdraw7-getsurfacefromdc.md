@@ -83,7 +83,7 @@ This method succeeds only for device context handles that identify surfaces alre
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>GetSurfaceFromDC</b> method.
+
 
 ## -see-also
 

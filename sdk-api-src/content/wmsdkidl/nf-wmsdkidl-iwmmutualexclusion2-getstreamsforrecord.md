@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetStreamsForRecord","GetStreamsForRecord method [windows
 old-location: wmformat\iwmmutualexclusion2_getstreamsforrecord.htm
 tech.root: wmformat
 ms.assetid: a94a64e9-96c6-4aba-a5b4-f50d14c19b73
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetStreamsForRecord, GetStreamsForRecord method [windows Media Format], GetStreamsForRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetStreamsForRecord method, IWMMutualExclusion2.GetStreamsForRecord, IWMMutualExclusion2::GetStreamsForRecord, IWMMutualExclusion2GetStreamsForRecord, wmformat.iwmmutualexclusion2_getstreamsforrecord, wmsdkidl/IWMMutualExclusion2::GetStreamsForRecord
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetStreamsForRecord</b> method retrieves the list of streams that are present in a record.
 

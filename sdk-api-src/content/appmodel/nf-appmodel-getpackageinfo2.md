@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackageInfo2
 title: GetPackageInfo2
-description: Gets the package information for the specified package.
+description: Gets the package information for the specified package. (GetPackageInfo2)
 helpviewer_keywords: ["GetPackageInfo2"]
 tech.root: appxpkg
 ms.date: 01/31/2019
@@ -36,6 +36,11 @@ topic_type:
  - apiref
 api_type: 
 api_location:
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
+ - api-ms-win-appmodel-runtime-l1-1-6.dll
+ - api-ms-win-appmodel-runtime-l1-1-5.dll
+ - api-ms-win-appmodel-runtime-l1-1-4.dll
+ - api-ms-win-appmodel-runtime-l1-1-3.dll
  - appmodel.h
 api_name:
  - GetPackageInfo2

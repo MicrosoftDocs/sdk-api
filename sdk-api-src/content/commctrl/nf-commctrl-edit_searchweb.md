@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SearchWeb","Edit_SearchWeb macro [Windows Controls]"
 old-location: controls\edit_searchweb.htm
 tech.root: Controls
 ms.assetid: 33F79879-EC55-438F-AC55-14BC119A4EFC
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_SearchWeb, Edit_SearchWeb macro [Windows Controls], commctrl/Edit_SearchWeb, controls.edit_searchweb
 req.header: commctrl.h
 req.include-header: 
@@ -47,10 +47,18 @@ api_name:
 
 # Edit_SearchWeb macro
 
+## -syntax
+
+```cpp
+void Edit_SearchWeb(
+    HWND hwndCtl
+);
+```
+
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Invokes the "Search with Bing…" context menu item in edit controls. You can use this macro or send the <a href="/windows/desktop/controls/em-searchweb">EM_SEARCHWEB</a> message explicitly.
 

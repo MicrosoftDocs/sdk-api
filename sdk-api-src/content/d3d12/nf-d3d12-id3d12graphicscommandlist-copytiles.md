@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyTiles
 title: ID3D12GraphicsCommandList::CopyTiles (d3d12.h)
-description: Copies tiles from buffer to tiled resource or vice versa.
+description: Copies tiles from buffer to tiled resource or vice versa. (ID3D12GraphicsCommandList.CopyTiles)
 helpviewer_keywords: ["CopyTiles","CopyTiles method","CopyTiles method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","CopyTiles method","ID3D12GraphicsCommandList.CopyTiles","ID3D12GraphicsCommandList::CopyTiles","d3d12/ID3D12GraphicsCommandList::CopyTiles","direct3d12.id3d12graphicscommandlist_copytiles"]
 old-location: direct3d12\id3d12graphicscommandlist_copytiles.htm
 tech.root: direct3d12
@@ -105,7 +105,7 @@ If a copy operation involves writing to the same memory location multiple times 
 		happens to execute the copy operation. 
 
 The tiles involved in the copy operation can't include tiles that contain packed mipmaps or results of the copy 
-		  operation are undefined. To transfer data to and from mipmaps that the hardware packs into one tile, you must 
+		  operation are undefined. To transfer data to and from mipmaps that the hardware packs into the one-or-more tiles that constitute the packed mips, you must 
 		  use the standard (that is, non-tile specific) copy APIs 
 		  like <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">CopyTextureRegion</a>.
 

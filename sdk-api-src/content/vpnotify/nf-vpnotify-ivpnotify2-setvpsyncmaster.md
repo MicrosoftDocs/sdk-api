@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVPNotify2 interface [DirectShow]","SetVPSyncMaster metho
 old-location: dshow\ivpnotify2_setvpsyncmaster.htm
 tech.root: dshow
 ms.assetid: ef1075a6-f31b-4ad8-b31a-66ca68d2c068
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVPNotify2 interface [DirectShow],SetVPSyncMaster method, IVPNotify2.SetVPSyncMaster, IVPNotify2::SetVPSyncMaster, IVPNotify2SetVPSyncMaster, SetVPSyncMaster, SetVPSyncMaster method [DirectShow], SetVPSyncMaster method [DirectShow],IVPNotify2 interface, dshow.ivpnotify2_setvpsyncmaster, vpnotify/IVPNotify2::SetVPSyncMaster
 req.header: vpnotify.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetVPSyncMaster</code> method sets whether the video port controls vertical synchronization of the VGA.
 

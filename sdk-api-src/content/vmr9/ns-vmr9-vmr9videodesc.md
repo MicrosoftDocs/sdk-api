@@ -6,7 +6,7 @@ helpviewer_keywords: ["VMR9VideoDesc","VMR9VideoDesc structure [DirectShow]","VM
 old-location: dshow\vmr9videodesc.htm
 tech.root: dshow
 ms.assetid: af4bf46a-fae7-4485-b5fb-3fd1857f383f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VMR9VideoDesc, VMR9VideoDesc structure [DirectShow], VMR9VideoDescStructure, dshow.vmr9videodesc, vmr9/VMR9VideoDesc
 req.header: vmr9.h
 req.include-header: 
@@ -52,6 +52,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>VMR9VideoDesc</code> structure describes a video stream to be deinterlaced.
 
 ## -struct-fields
@@ -82,7 +84,7 @@ A <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9frequency">VM
 
 ### -field OutputFrameFreq
 
-A <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrfrequency">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
+A **VMRFrequency** structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
 
 ## -see-also
 

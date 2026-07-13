@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -59,7 +61,7 @@ api_name:
 
 Returns the <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> of the first user interface language for the current thread.
 
-## -parameters
+
 
 ## -returns
 

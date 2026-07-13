@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ContainerName
 title: IX509PrivateKey::put_ContainerName (certenroll.h)
-description: Specifies or retrieves the name of the key container.
+description: Specifies or retrieves the name of the key container. (Put)
 helpviewer_keywords: ["ContainerName property [Security]","ContainerName property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","ContainerName property","IX509PrivateKey.ContainerName","IX509PrivateKey.put_ContainerName","IX509PrivateKey::ContainerName","IX509PrivateKey::get_ContainerName","IX509PrivateKey::put_ContainerName","certenroll/IX509PrivateKey::ContainerName","certenroll/IX509PrivateKey::get_ContainerName","certenroll/IX509PrivateKey::put_ContainerName","put_ContainerName","security.ix509privatekey_containername_property"]
 old-location: security\ix509privatekey_containername_property.htm
 tech.root: security

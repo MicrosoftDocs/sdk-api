@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetIconOverlayIndexW
 title: SHGetIconOverlayIndexW function (shlobj_core.h)
-description: Returns the index of the overlay icon in the system image list.
-helpviewer_keywords: ["IDO_SHGIOI_DEFAULT","IDO_SHGIOI_LINK","IDO_SHGIOI_SHARE","IDO_SHGIOI_SLOWFILE","SHGetIconOverlayIndex","SHGetIconOverlayIndex function [Windows Shell]","SHGetIconOverlayIndexA","SHGetIconOverlayIndexW","_win32_SHGetIconOverlayIndex","shell.SHGetIconOverlayIndex","shlobj_core/SHGetIconOverlayIndex","shlobj_core/SHGetIconOverlayIndexA","shlobj_core/SHGetIconOverlayIndexW"]
+description: Returns the index of the overlay icon in the system image list. (Unicode)
+helpviewer_keywords: ["IDO_SHGIOI_DEFAULT", "IDO_SHGIOI_LINK", "IDO_SHGIOI_SHARE", "IDO_SHGIOI_SLOWFILE", "SHGetIconOverlayIndex", "SHGetIconOverlayIndex function [Windows Shell]", "SHGetIconOverlayIndexW", "_win32_SHGetIconOverlayIndex", "shell.SHGetIconOverlayIndex", "shlobj_core/SHGetIconOverlayIndex", "shlobj_core/SHGetIconOverlayIndexW"]
 old-location: shell\SHGetIconOverlayIndex.htm
 tech.root: shell
 ms.assetid: 20001ae0-05d0-46a7-8bb8-9bb722f5d795
@@ -129,7 +129,7 @@ Icon overlays are part of the system image list. They have two identifiers. The 
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHGetIconOverlayIndex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHGetIconOverlayIndex as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

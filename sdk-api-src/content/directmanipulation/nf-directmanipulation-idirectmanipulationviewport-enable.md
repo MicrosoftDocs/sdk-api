@@ -52,7 +52,7 @@ api_name:
 
 Starts or resumes input processing by the viewport.
 
-## -parameters
+
 
 ## -returns
 

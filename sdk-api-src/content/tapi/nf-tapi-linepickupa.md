@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.linePickupA
 title: linePickupA function (tapi.h)
-description: The linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call.
-helpviewer_keywords: ["_tapi2_linepickup","linePickup","linePickup function [TAPI 2.2]","linePickupA","linePickupW","tapi/linePickup","tapi/linePickupA","tapi/linePickupW","tapi2.linepickup"]
+description: The linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call. (linePickupA)
+helpviewer_keywords: ["linePickupA", "tapi/linePickupA"]
 old-location: tapi2\linepickup.htm
 tech.root: tapi3
 ms.assetid: 94773ca0-8ea4-443f-9c61-81969dd72a7a
@@ -113,7 +113,7 @@ After
 
 
 > [!NOTE]
-> The tapi.h header defines linePickup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines linePickup as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

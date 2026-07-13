@@ -6,13 +6,13 @@ helpviewer_keywords: ["DWRITE_FILE_FRAGMENT","DWRITE_FILE_FRAGMENT structure [Di
 old-location: directwrite\dwrite_file_fragment.htm
 tech.root: DirectWrite
 ms.assetid: 6E893719-E2A7-482A-B344-8FE2AA59A6B9
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: DWRITE_FILE_FRAGMENT, DWRITE_FILE_FRAGMENT structure [Direct Write], directwrite.dwrite_file_fragment, dwrite_3/DWRITE_FILE_FRAGMENT
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

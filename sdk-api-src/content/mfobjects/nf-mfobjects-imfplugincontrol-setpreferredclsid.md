@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.SetPreferredClsid
 title: IMFPluginControl::SetPreferredClsid (mfobjects.h)
-description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
+description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list. (IMFPluginControl.SetPreferredClsid)
 helpviewer_keywords: ["IMFPluginControl interface [Media Foundation]","SetPreferredClsid method","IMFPluginControl.SetPreferredClsid","IMFPluginControl::SetPreferredClsid","SetPreferredClsid","SetPreferredClsid method [Media Foundation]","SetPreferredClsid method [Media Foundation]","IMFPluginControl interface","mf.imfplugincontrol_imfplugincontrol__setpreferredclsid","mfobjects/IMFPluginControl::SetPreferredClsid"]
 old-location: mf\imfplugincontrol_imfplugincontrol__setpreferredclsid.htm
 tech.root: mf
@@ -68,7 +68,7 @@ The CLSID to add to the list. If this parameter is <b>NULL</b>, the key/value en
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

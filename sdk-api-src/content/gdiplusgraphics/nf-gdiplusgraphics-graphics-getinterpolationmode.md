@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetInterpolationMode</b> method gets the interpolation mode currently set for this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. The interpolation mode determines the algorithm that is used when images are scaled or rotated.
 
-## -parameters
+
 
 ## -returns
 

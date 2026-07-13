@@ -68,7 +68,7 @@ Returns a vector. Each component is an estimate of the sine of the corresponding
     <code>Est</code> functions are appropriate for non-critical calculations where accuracy can be sacrificed for speed.
     The exact amount of lost accuracy and speed increase are platform dependent.
 
-This function uses an 7-degree minimax approximation.
+This function uses a 7-degree minimax approximation.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.

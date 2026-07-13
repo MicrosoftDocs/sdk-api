@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetEapUserDataW
 title: RasGetEapUserDataW function (ras.h)
-description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry.
-helpviewer_keywords: ["RasGetEapUserData","RasGetEapUserData function [RAS]","RasGetEapUserDataA","RasGetEapUserDataW","_ras_rasgeteapuserdata","ras/RasGetEapUserData","ras/RasGetEapUserDataA","ras/RasGetEapUserDataW","rras.rasgeteapuserdata"]
+description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry. (Unicode)
+helpviewer_keywords: ["RasGetEapUserData", "RasGetEapUserData function [RAS]", "RasGetEapUserDataW", "_ras_rasgeteapuserdata", "ras/RasGetEapUserData", "ras/RasGetEapUserDataW", "rras.rasgeteapuserdata"]
 old-location: rras\rasgeteapuserdata.htm
 tech.root: RRAS
 ms.assetid: 6b1a1c73-28af-43ff-b79c-c796ddae219c
@@ -173,4 +173,4 @@ Use
 ## -remarks
 
 > [!NOTE]
-> The ras.h header defines RasGetEapUserData as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetEapUserData as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

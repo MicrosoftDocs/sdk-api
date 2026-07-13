@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateDouble
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateDouble (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified 64-bit floating point value.
 helpviewer_keywords: ["CreateDouble","CreateDouble method [Windows Runtime]","CreateDouble method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateDouble method","IPropertyValueStatics.CreateDouble","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateDouble","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateDouble","winrt.ipropertyvaluefactory_createdouble","winrt.ipropertyvaluestatics_createdouble"]
 old-location: winrt\ipropertyvaluestatics_createdouble.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateDouble
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateDouble (windows.foundation.h)
 
 
 ## -description

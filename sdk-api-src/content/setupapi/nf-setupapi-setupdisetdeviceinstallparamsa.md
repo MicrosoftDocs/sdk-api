@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiSetDeviceInstallParamsA
 title: SetupDiSetDeviceInstallParamsA function (setupapi.h)
-description: The SetupDiSetDeviceInstallParams function sets device installation parameters for a device information set or a particular device information element.
-helpviewer_keywords: ["SetupDiSetDeviceInstallParams","SetupDiSetDeviceInstallParams function [Device and Driver Installation]","SetupDiSetDeviceInstallParamsA","SetupDiSetDeviceInstallParamsW","devinst.setupdisetdeviceinstallparams","di-rtns_4d977738-ea9e-4bb7-b0a6-37099647b8c8.xml","setupapi/SetupDiSetDeviceInstallParams"]
+description: The SetupDiSetDeviceInstallParams function sets device installation parameters for a device information set or a particular device information element. (ANSI)
+helpviewer_keywords: ["SetupDiSetDeviceInstallParamsA", "di-rtns_4d977738-ea9e-4bb7-b0a6-37099647b8c8.xml"]
 old-location: devinst\setupdisetdeviceinstallparams.htm
 tech.root: devinst
 ms.assetid: 20384538-e124-41f7-94a6-c0fb9f5fe6a0
@@ -80,7 +80,7 @@ All parameters are validated before any changes are made. Therefore, a return va
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiSetDeviceInstallParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiSetDeviceInstallParams as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

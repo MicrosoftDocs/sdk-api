@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupPromptForDiskA
 title: SetupPromptForDiskA function (setupapi.h)
-description: The SetupPromptForDisk function displays a dialog box that prompts the user for a disk.
-helpviewer_keywords: ["SetupPromptForDisk","SetupPromptForDisk function [Setup API]","SetupPromptForDiskA","SetupPromptForDiskW","_setupapi_setuppromptfordisk","setup.setuppromptfordisk","setupapi/SetupPromptForDisk","setupapi/SetupPromptForDiskA","setupapi/SetupPromptForDiskW"]
+description: The SetupPromptForDisk function displays a dialog box that prompts the user for a disk. (ANSI)
+helpviewer_keywords: ["SetupPromptForDiskA", "setupapi/SetupPromptForDiskA"]
 old-location: setup\setuppromptfordisk.htm
 tech.root: setup
 ms.assetid: 65ccd3d1-1846-48cb-9fe6-ab5c69845e01
@@ -183,7 +183,7 @@ If this function is called with a <i>PathBuffer</i> of <b>NULL</b> and a <i>Path
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupPromptForDisk as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupPromptForDisk as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_collab_event_data_tag~r1
 title: PEER_COLLAB_EVENT_DATA
-ms.date: 01/30/2019
+description: The PEER_COLLAB_EVENT_DATA structure (p2p.h) contains variant data for each possible peer collaboration network event raised on a peer.
+ms.date: 08/15/2022
 ms.keywords: peer_collab_event_data_tag, PEER_COLLAB_EVENT_DATA
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: PEER_COLLAB_EVENT_DATA, *PPEER_COLLAB_EVENT_DATA
 req.umdf-ver: 

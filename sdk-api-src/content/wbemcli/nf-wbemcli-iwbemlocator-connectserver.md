@@ -190,8 +190,10 @@ int _tmain(int argc, _TCHAR* argv[])
     // Connect to WMI through the IWbemLocator::ConnectServer method 
     // Connect to the local ROOT\CIMV2 namespace 
     // and obtain pointer pSvc to make IWbemServices calls. 
-    IWbemServices *pSvc = NULL; 
-    hres = pLoc->ConnectServer(L"ROOT\\CimV2", NULL,NULL, 0, NULL, 0,  0,  &pSvc); 
+    IWbemServices *pSvc = NULL;
+    BSTR namespace = SysAllocString(L"ROOT\\CimV2");
+    hres = pLoc->ConnectServer(namespace, NULL, NULL, 0, NULL, 0, 0, &pSvc);
+    SysFreeString(namespace);
  
     if (FAILED(hres)) 
     { 

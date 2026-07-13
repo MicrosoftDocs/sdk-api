@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayerServices2 interface [Windows Media Player]","se
 old-location: wmp\iwmpplayerservices2_setbackgroundprocessingpriority.htm
 tech.root: WMP
 ms.assetid: 1e3536d2-006b-4019-a9c5-c460135cf555
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayerServices2 interface [Windows Media Player],setBackgroundProcessingPriority method, IWMPPlayerServices2.setBackgroundProcessingPriority, IWMPPlayerServices2::setBackgroundProcessingPriority, IWMPPlayerServices2setBackgroundProcessingPriority, setBackgroundProcessingPriority, setBackgroundProcessingPriority method [Windows Media Player], setBackgroundProcessingPriority method [Windows Media Player],IWMPPlayerServices2 interface, wmp.iwmpplayerservices2_setbackgroundprocessingpriority, wmp/IWMPPlayerServices2::setBackgroundProcessingPriority
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>setBackgroundProcessingPriority</b> method specifies a priority level for general background processing tasks.
 

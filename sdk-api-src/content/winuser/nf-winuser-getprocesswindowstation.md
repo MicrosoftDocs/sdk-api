@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-winstamin-l1-1-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
  - Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
@@ -57,7 +58,7 @@ req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 
 Retrieves a handle to the current window station for the calling process.
 
-## -parameters
+
 
 ## -returns
 

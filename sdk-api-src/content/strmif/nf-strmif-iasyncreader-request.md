@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAsyncReader interface [DirectShow]","Request method","IA
 old-location: dshow\iasyncreader_request.htm
 tech.root: dshow
 ms.assetid: d0eab370-bb17-48fa-9926-6a6eeaba5603
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAsyncReader interface [DirectShow],Request method, IAsyncReader.Request, IAsyncReader::Request, IAsyncReaderRequest, Request, Request method [DirectShow], Request method [DirectShow],IAsyncReader interface, dshow.iasyncreader_request, strmif/IAsyncReader::Request
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Request</code> method queues an asynchronous request for data.
 
@@ -155,7 +157,7 @@ The method returns before the request completes. Call the <a href="/windows/desk
 
 The following example shows a possible helper function for an input pin, to queue requests:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -166,22 +168,22 @@ The following example shows a possible helper function for an input pin, to queu
 CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
 {
     IMediaSample* pSample = NULL;
-    HRESULT hr = m_pAlloc-&gt;GetBuffer(&amp;pSample, NULL, NULL, 0);
+    HRESULT hr = m_pAlloc->GetBuffer(&pSample, NULL, NULL, 0);
     if (FAILED(hr)) 
     { 
         return hr; 
     }
 
     LONGLONG tStart = cbFirst * 10000000, tStop = cbLast * 10000000;
-    hr = pSample-&gt;SetTime(&amp;tStart, &amp;tStop);
+    hr = pSample->SetTime(&tStart, &tStop);
     if (SUCCEEDED(hr))
     {
-        hr = m_pReader-&gt;Request(pSample, dwuser);
+        hr = m_pReader->Request(pSample, dwuser);
     }
 
     if (FAILED(hr))
     {
-        pSample-&gt;Release();
+        pSample->Release();
     }
     return hr;
 }

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.CreateRenderTargetEx
 title: IDirect3DDevice9Ex::CreateRenderTargetEx (d3d9.h)
-description: Creates a render-target surface.
+description: Creates a render-target surface. (IDirect3DDevice9Ex.CreateRenderTargetEx)
 helpviewer_keywords: ["78a5ebad-c705-e895-65b2-37612b0e204e","CreateRenderTargetEx","CreateRenderTargetEx method [Direct3D 9]","CreateRenderTargetEx method [Direct3D 9]","IDirect3DDevice9Ex interface","IDirect3DDevice9Ex interface [Direct3D 9]","CreateRenderTargetEx method","IDirect3DDevice9Ex.CreateRenderTargetEx","IDirect3DDevice9Ex::CreateRenderTargetEx","d3d9/IDirect3DDevice9Ex::CreateRenderTargetEx","direct3d9.idirect3ddevice9ex_createrendertargetex"]
 old-location: direct3d9\idirect3ddevice9ex_createrendertargetex.htm
 tech.root: direct3d9

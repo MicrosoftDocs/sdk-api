@@ -1,5 +1,5 @@
 ---
-UID: NS:dsadmin.__unnamed_struct_0
+UID: NS:dsadmin.DSA_NEWOBJ_DISPINFO
 title: DSA_NEWOBJ_DISPINFO (dsadmin.h)
 description: Used with the IDsAdminNewObjExt::Initialize method to supply additional data about an Active Directory Domain Services object creation wizard.
 helpviewer_keywords: ["*LPDSA_NEWOBJ_DISPINFO","DSA_NEWOBJ_DISPINFO","DSA_NEWOBJ_DISPINFO structure [Active Directory]","LPDSA_NEWOBJ_DISPINFO","LPDSA_NEWOBJ_DISPINFO structure pointer [Active Directory]","ad.dsa_newobj_dispinfo","dsadmin/DSA_NEWOBJ_DISPINFO","dsadmin/LPDSA_NEWOBJ_DISPINFO"]
@@ -75,3 +75,4 @@ Pointer to a null-terminated Unicode string that contains the display name, or c
 ## -see-also
 
 <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a>
+

@@ -58,7 +58,7 @@ Retrieves the information about the raw input devices for the current applicatio
 
 Type: <b>PRAWINPUTDEVICE</b>
 
-An array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures for the application.
+An array of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures for the application. Pointer should be aligned on a **DWORD** (32-bit) boundary.
 
 ### -param puiNumDevices [in, out]
 
@@ -88,18 +88,10 @@ To receive raw input from a device, an application must register it by using <a 
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a>
-
-
 
 <a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
-
-
 <b>Reference</b>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-registerrawinputdevices">RegisterRawInputDevices</a>

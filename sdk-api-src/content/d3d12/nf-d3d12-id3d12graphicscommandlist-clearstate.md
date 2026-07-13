@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearState
 title: ID3D12GraphicsCommandList::ClearState (d3d12.h)
-description: Resets the state of a direct command list back to the state it was in when the command list was created.
+description: Resets the state of a direct command list back to the state it was in when the command list was created. (ID3D12GraphicsCommandList.ClearState)
 helpviewer_keywords: ["ClearState","ClearState method","ClearState method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ClearState method","ID3D12GraphicsCommandList.ClearState","ID3D12GraphicsCommandList::ClearState","d3d12/ID3D12GraphicsCommandList::ClearState","direct3d12.id3d12graphicscommandlist_clearstate"]
 old-location: direct3d12\id3d12graphicscommandlist_clearstate.htm
 tech.root: direct3d12

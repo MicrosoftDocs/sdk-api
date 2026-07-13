@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiQueryProductStateA
 title: MsiQueryProductStateA function (msi.h)
-description: The MsiQueryProductState function returns the installed state for a product.
-helpviewer_keywords: ["MsiQueryProductState","MsiQueryProductState function","MsiQueryProductStateA","MsiQueryProductStateW","_msi_msiqueryproductstate","msi/MsiQueryProductState","msi/MsiQueryProductStateA","msi/MsiQueryProductStateW","setup.msiqueryproductstate"]
+description: The MsiQueryProductState function returns the installed state for a product. (ANSI)
+helpviewer_keywords: ["MsiQueryProductStateA", "msi/MsiQueryProductStateA"]
 old-location: setup\msiqueryproductstate.htm
 tech.root: setup
 ms.assetid: f26f3229-d1ce-4802-99b1-857c6501c828
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-msi-misc-l1-1-0.dll
  - Msi.dll
 api_name:
  - MsiQueryProductState
@@ -136,4 +137,4 @@ The product is neither advertised or installed.
 ## -remarks
 
 > [!NOTE]
-> The msi.h header defines MsiQueryProductState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiQueryProductState as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

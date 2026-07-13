@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-base-l1-2-2.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
  - KernelBase.dll
@@ -59,7 +60,7 @@ api_name:
 
 The <b>RevertToSelf</b> function terminates the impersonation of a client application.
 
-## -parameters
+
 
 ## -returns
 

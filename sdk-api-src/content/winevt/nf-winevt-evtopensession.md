@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-wevtapi-eventlog-l1-1-3.dll
  - Wevtapi.dll
  - Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
  - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll

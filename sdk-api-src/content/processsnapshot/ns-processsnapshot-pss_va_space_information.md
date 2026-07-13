@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_3
+UID: NS:processsnapshot.PSS_VA_SPACE_INFORMATION
 title: PSS_VA_SPACE_INFORMATION (processsnapshot.h)
 description: Holds virtual address (VA) space information returned by PssQuerySnapshot.
 helpviewer_keywords: ["PSS_VA_SPACE_INFORMATION","PSS_VA_SPACE_INFORMATION structure","proc_snap.pss_va_space_information","processsnapshot/PSS_VA_SPACE_INFORMATION"]
@@ -65,3 +65,4 @@ The count of VA regions captured.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

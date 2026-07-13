@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDescriptionExA
 title: SetupDiGetClassDescriptionExA function (setupapi.h)
-description: The SetupDiGetClassDescriptionEx function retrieves the description of a setup class installed on a local or remote computer.
-helpviewer_keywords: ["SetupDiGetClassDescriptionEx","SetupDiGetClassDescriptionEx function [Device and Driver Installation]","SetupDiGetClassDescriptionExA","SetupDiGetClassDescriptionExW","devinst.setupdigetclassdescriptionex","di-rtns_1e1110ab-59c3-42be-863a-396f329b114e.xml","setupapi/SetupDiGetClassDescriptionEx"]
+description: The SetupDiGetClassDescriptionEx function retrieves the description of a setup class installed on a local or remote computer. (ANSI)
+helpviewer_keywords: ["SetupDiGetClassDescriptionExA", "di-rtns_1e1110ab-59c3-42be-863a-396f329b114e.xml"]
 old-location: devinst\setupdigetclassdescriptionex.htm
 tech.root: devinst
 ms.assetid: db3c6317-4f77-4ca6-96b8-4b26f6b04943
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetClassDescriptionEx, SetupDiGetClassDescriptionEx function [Device and Driver Installation], SetupDiGetClassDescriptionExA, SetupDiGetClassDescriptionExW, devinst.setupdigetclassdescriptionex, di-rtns_1e1110ab-59c3-42be-863a-396f329b114e.xml, setupapi/SetupDiGetClassDescriptionEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:
@@ -76,6 +77,9 @@ A pointer to a DWORD-typed variable that receives the size, in characters, that 
 
 A pointer to a NULL-terminated string that supplies the name of a remote computer on which the setup class resides. This pointer is optional and can be <b>NULL</b>. If the class is installed on a local computer, set the pointer to <b>NULL</b>.
 
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
+
 ### -param Reserved
 
 Reserved for system use. A caller of this function must set this parameter to <b>NULL</b>.
@@ -95,7 +99,7 @@ If there is a friendly name in the registry key for the class, this routine retu
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetClassDescriptionEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetClassDescriptionEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

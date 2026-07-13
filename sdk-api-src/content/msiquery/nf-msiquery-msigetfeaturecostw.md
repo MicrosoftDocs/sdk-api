@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetFeatureCostW
 title: MsiGetFeatureCostW function (msiquery.h)
-description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features.
-helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","INSTALLSTATE_UNKNOWN","MSICOSTTREE_CHILDREN","MSICOSTTREE_PARENTS","MSICOSTTREE_SELFONLY","MsiGetFeatureCost","MsiGetFeatureCost function","MsiGetFeatureCostA","MsiGetFeatureCostW","_msi_msigetfeaturecost","msiquery/MsiGetFeatureCost","msiquery/MsiGetFeatureCostA","msiquery/MsiGetFeatureCostW","setup.msigetfeaturecost"]
+description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features. (Unicode)
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_DEFAULT", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "INSTALLSTATE_UNKNOWN", "MSICOSTTREE_CHILDREN", "MSICOSTTREE_PARENTS", "MSICOSTTREE_SELFONLY", "MsiGetFeatureCost", "MsiGetFeatureCost function", "MsiGetFeatureCostW", "_msi_msigetfeaturecost", "msiquery/MsiGetFeatureCost", "msiquery/MsiGetFeatureCostW", "setup.msigetfeaturecost"]
 old-location: setup\msigetfeaturecost.htm
 tech.root: setup
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148
@@ -195,29 +195,37 @@ The MSICOSTTREE_PARENTS value indicates the total amount of disk space (in units
 
 <b>MsiGetFeatureCost</b> is dependent upon several other functions to be successful. The following example demonstrates the order in which these functions must be called:
 
-<pre class="syntax" xml:space="preserve"><code>MSIHANDLE   hInstall;      //product handle, must be closed
+
+``` syntax
+MSIHANDLE   hInstall;      //product handle, must be closed
 int         iCost;         //cost returned by MsiGetFeatureCost
 
-MsiOpenPackage("Path to package....",&amp;hInstall);   //"Path to package...." should be replaced with the full path to the package to be opened
+MsiOpenPackage("Path to package....",&hInstall);   //"Path to package...." should be replaced with the full path to the package to be opened
 MsiDoAction(hInstall,"CostInitialize");         //
 MsiDoAction(hInstall,"FileCost");
 MsiDoAction(hInstall,"CostFinalize");
 MsiDoAction(hInstall,"InstallValidate");
-MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&amp;iCost);
-MsiCloseHandle(hInstall);                        //close the open product handle</code></pre>
+MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&iCost);
+MsiCloseHandle(hInstall);                        //close the open product handle
+```
+
 The process to query the cost of features scheduled to be removed is slightly different:
 
-<pre class="syntax" xml:space="preserve"><code>MSIHANDLE   hInstall;      //product handle, must be closed
+
+``` syntax
+MSIHANDLE   hInstall;      //product handle, must be closed
 int         iCost;         //cost returned by MsiGetFeatureCost
 
-MsiOpenPackage("Path to package....",&amp;hInstall);              //"Path to package...." should be replaced with the full path to the package to be opened
+MsiOpenPackage("Path to package....",&hInstall);              //"Path to package...." should be replaced with the full path to the package to be opened
 MsiDoAction(hInstall,"CostInitialize");                          //
 MsiDoAction(hInstall,"FileCost");
 MsiDoAction(hInstall,"CostFinalize");
 MsiSetFeatureState(hInstall,"FeatureName",INSTALLSTATE_ABSENT);  //set the feature's state to "not installed"
 MsiDoAction(hInstall,"InstallValidate");
-MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&amp;iCost);
-MsiCloseHandle(hInstall);                                        //close the open product handle</code></pre>
+MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&iCost);
+MsiCloseHandle(hInstall);                                        //close the open product handle
+```
+
 If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
@@ -225,7 +233,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiGetFeatureCost as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiGetFeatureCost as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

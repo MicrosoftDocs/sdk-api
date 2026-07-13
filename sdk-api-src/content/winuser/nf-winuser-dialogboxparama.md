@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DialogBoxParamA
 title: DialogBoxParamA function (winuser.h)
-description: Creates a modal dialog box from a dialog box template resource.
-helpviewer_keywords: ["DialogBoxParam","DialogBoxParam function [Dialog Boxes]","DialogBoxParamA","DialogBoxParamW","_win32_DialogBoxParam","_win32_dialogboxparam_cpp","dlgbox.dialogboxparam","winui._win32_dialogboxparam","winuser/DialogBoxParam","winuser/DialogBoxParamA","winuser/DialogBoxParamW"]
+description: Creates a modal dialog box from a dialog box template resource. (ANSI)
+helpviewer_keywords: ["DialogBoxParamA", "winuser/DialogBoxParamA"]
 old-location: dlgbox\dialogboxparam.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxparam.htm
@@ -109,7 +109,7 @@ When the dialog box procedure calls the <a href="/windows/desktop/api/winuser/nf
 
 
 > [!NOTE]
-> The winuser.h header defines DialogBoxParam as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines DialogBoxParam as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

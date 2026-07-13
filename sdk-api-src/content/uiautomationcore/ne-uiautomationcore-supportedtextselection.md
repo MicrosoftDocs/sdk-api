@@ -54,15 +54,15 @@ Contains values that specify the supported text selection attribute.
 
 ## -enum-fields
 
-### -field SupportedTextSelection_None
+### -field SupportedTextSelection_None:0
 
 Does not support text selections.
 
-### -field SupportedTextSelection_Single
+### -field SupportedTextSelection_Single:1
 
 Supports a single, continuous text selection.
 
-### -field SupportedTextSelection_Multiple
+### -field SupportedTextSelection_Multiple:2
 
 Supports multiple, disjoint text selections.
 

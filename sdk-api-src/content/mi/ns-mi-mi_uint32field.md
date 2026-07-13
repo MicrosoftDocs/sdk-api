@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Uint32Field
 title: MI_Uint32Field (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_Uint32Field)
 helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_Uint32Field","MI_Uint32Field structure [Windows Management Infrastructure (MI)]","mi/MI_Uint32Field","wmi._mi_uint32field","wmi_v2.mi_uint32field"]
 old-location: wmi_v2\mi_uint32field.htm
 tech.root: wmi_v2

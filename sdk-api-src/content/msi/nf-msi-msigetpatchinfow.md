@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetPatchInfoW
 title: MsiGetPatchInfoW function (msi.h)
-description: The MsiGetPatchInfo function returns information about a patch.
-helpviewer_keywords: ["INSTALLPROPERTY_LOCALPACKAGE","MsiGetPatchInfo","MsiGetPatchInfo function","MsiGetPatchInfoA","MsiGetPatchInfoW","_msi_msigetpatchinfo","msi/MsiGetPatchInfo","msi/MsiGetPatchInfoA","msi/MsiGetPatchInfoW","setup.msigetpatchinfo"]
+description: The MsiGetPatchInfo function returns information about a patch. (Unicode)
+helpviewer_keywords: ["INSTALLPROPERTY_LOCALPACKAGE", "MsiGetPatchInfo", "MsiGetPatchInfo function", "MsiGetPatchInfoW", "_msi_msigetpatchinfo", "msi/MsiGetPatchInfo", "msi/MsiGetPatchInfoW", "setup.msigetpatchinfo"]
 old-location: setup\msigetpatchinfo.htm
 tech.root: setup
 ms.assetid: 4ff951df-5c1b-4874-9f09-f4ac23702e87
@@ -191,7 +191,7 @@ If the buffer is too small to hold the requested data,
 
 
 > [!NOTE]
-> The msi.h header defines MsiGetPatchInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetPatchInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

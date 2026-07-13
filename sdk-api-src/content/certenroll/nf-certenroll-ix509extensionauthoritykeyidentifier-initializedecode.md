@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509ExtensionAuthorityKeyIdentifier.InitializeDecode
 title: IX509ExtensionAuthorityKeyIdentifier::InitializeDecode (certenroll.h)
-description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
+description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value. (IX509ExtensionAuthorityKeyIdentifier.InitializeDecode)
 helpviewer_keywords: ["IX509ExtensionAuthorityKeyIdentifier interface [Security]","InitializeDecode method","IX509ExtensionAuthorityKeyIdentifier.InitializeDecode","IX509ExtensionAuthorityKeyIdentifier::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509ExtensionAuthorityKeyIdentifier interface","certenroll/IX509ExtensionAuthorityKeyIdentifier::InitializeDecode","security.ix509extensionauthoritykeyidentifier_initializedecode_method"]
 old-location: security\ix509extensionauthoritykeyidentifier_initializedecode_method.htm
 tech.root: security
@@ -76,7 +76,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></dt>
 <dt></dt>
 </dl>
 </td>

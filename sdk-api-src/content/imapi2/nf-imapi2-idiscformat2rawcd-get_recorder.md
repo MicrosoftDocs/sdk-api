@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_Recorder
 title: IDiscFormat2RawCD::get_Recorder (imapi2.h)
-description: Retrieves the recording device to use for the write operation.
+description: Retrieves the recording device to use for the write operation. (IDiscFormat2RawCD.get_Recorder)
 helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_Recorder method","IDiscFormat2RawCD.get_Recorder","IDiscFormat2RawCD::get_Recorder","get_Recorder","get_Recorder method [IMAPI]","get_Recorder method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_recorder","imapi2/IDiscFormat2RawCD::get_Recorder"]
 old-location: imapi\idiscformat2rawcd_get_recorder.htm
 tech.root: imapi

@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.VARIANT_UserUnmarshal64
 title: VARIANT_UserUnmarshal64 function (oaidl.h)
-description: Unmarshals a VARIANT object from the RPC buffer.
+description: Unmarshals a VARIANT object from the RPC buffer. (VARIANT_UserUnmarshal64)
 helpviewer_keywords: ["VARIANT_UserUnmarshal64","VARIANT_UserUnmarshal64 function [Automation]","automat.variant_userunmarshal64","oaidl/VARIANT_UserUnmarshal64"]
 old-location: automat\variant_userunmarshal64.htm
 tech.root: automat

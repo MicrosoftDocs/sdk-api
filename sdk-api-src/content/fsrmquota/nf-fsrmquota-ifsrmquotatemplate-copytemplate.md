@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplate.CopyTemplate
 title: IFsrmQuotaTemplate::CopyTemplate (fsrmquota.h)
-description: Copies the property values of the specified template to this template.
+description: Copies the property values of the specified template to this template. (IFsrmQuotaTemplate.CopyTemplate)
 helpviewer_keywords: ["CopyTemplate","CopyTemplate method [File Server Resource Manager]","CopyTemplate method [File Server Resource Manager]","IFsrmQuotaTemplate interface","IFsrmQuotaTemplate interface [File Server Resource Manager]","CopyTemplate method","IFsrmQuotaTemplate.CopyTemplate","IFsrmQuotaTemplate::CopyTemplate","fs.ifsrmquotatemplate_copytemplate","fsrm.ifsrmquotatemplate_copytemplate","fsrmquota/IFsrmQuotaTemplate::CopyTemplate"]
 old-location: fsrm\ifsrmquotatemplate_copytemplate.htm
 tech.root: fsrm

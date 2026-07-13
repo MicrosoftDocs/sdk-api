@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupAddToSourceListW
 title: SetupAddToSourceListW function (setupapi.h)
-description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created.
-helpviewer_keywords: ["SetupAddToSourceList","SetupAddToSourceList function [Setup API]","SetupAddToSourceListA","SetupAddToSourceListW","_setupapi_setupaddtosourcelist","setup.setupaddtosourcelist","setupapi/SetupAddToSourceList","setupapi/SetupAddToSourceListA","setupapi/SetupAddToSourceListW"]
+description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created. (Unicode)
+helpviewer_keywords: ["SetupAddToSourceList", "SetupAddToSourceList function [Setup API]", "SetupAddToSourceListW", "_setupapi_setupaddtosourcelist", "setup.setupaddtosourcelist", "setupapi/SetupAddToSourceList", "setupapi/SetupAddToSourceListW"]
 old-location: setup\setupaddtosourcelist.htm
 tech.root: setup
 ms.assetid: c1da3f9b-12ea-49f3-a5ca-45a63a56becd
@@ -148,4 +148,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupAddToSourceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupAddToSourceList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

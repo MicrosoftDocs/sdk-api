@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetStagedPackagePathByFullName
 title: GetStagedPackagePathByFullName function (appmodel.h)
-description: Gets the path of the specified staged package.
+description: Gets the path of the specified staged package. (GetStagedPackagePathByFullName)
 helpviewer_keywords: ["GetStagedPackagePathByFullName","GetStagedPackagePathByFullName function [App packaging and management]","appmodel/GetStagedPackagePathByFullName","appxpkg.getstagedpackagepathbyfullname"]
 old-location: appxpkg\getstagedpackagepathbyfullname.htm
 tech.root: appxpkg
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
+ - api-ms-win-appmodel-runtime-l1-1-6.dll
+ - api-ms-win-appmodel-runtime-l1-1-5.dll
+ - api-ms-win-appmodel-runtime-l1-1-4.dll
+ - api-ms-win-appmodel-runtime-l1-1-3.dll
  - Kernel32.dll
  - API-MS-Win-AppModel-RunTime-l1-1-1.dll
  - Kernel.AppCore.dll

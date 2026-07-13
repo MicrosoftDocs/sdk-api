@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-private-l1-3-1.dll
+ - api-ms-win-core-com-private-l1-3-0.dll
+ - api-ms-win-core-com-private-l1-2-0.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-private-l1-1-0.dll
  - ComBase.dll
@@ -55,7 +58,7 @@ api_name:
 
 Revokes a registered <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> object.
 
-## -parameters
+
 
 ## -returns
 

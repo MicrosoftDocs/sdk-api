@@ -59,7 +59,7 @@ The <b>MBN_READY_STATE</b> enumerated type contains values that indicate the rea
 
 ## -enum-fields
 
-### -field MBN_READY_STATE_OFF
+### -field MBN_READY_STATE_OFF:0
 
 The mobile broadband device stack is off.
 

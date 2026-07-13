@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.QueryRevertStatus
 title: IVssSoftwareSnapshotProvider::QueryRevertStatus (vsprov.h)
-description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
+description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation. (IVssSoftwareSnapshotProvider.QueryRevertStatus)
 helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","QueryRevertStatus method","IVssSoftwareSnapshotProvider.QueryRevertStatus","IVssSoftwareSnapshotProvider::QueryRevertStatus","QueryRevertStatus","QueryRevertStatus method","QueryRevertStatus method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_queryrevertstatus","vsprov/IVssSoftwareSnapshotProvider::QueryRevertStatus"]
 old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
 tech.root: base
@@ -128,7 +128,7 @@ The caller is out of memory or other system resources.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_OBJECT_NOT_FOUND</b></b></dt>
+<dt><b>VSS_E_OBJECT_NOT_FOUND</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ The <i>pwszVolume</i> parameter does not specify a valid volume.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_VOLUME_NOT_SUPPORTED</b></b></dt>
+<dt><b>VSS_E_VOLUME_NOT_SUPPORTED</b></dt>
 </dl>
 </td>
 <td width="60%">

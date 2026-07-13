@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ICodecAPI.GetParameterRange
 title: ICodecAPI::GetParameterRange (strmif.h)
-description: The GetParameterRange method gets the range of values for a codec property.
+description: The GetParameterRange method gets the range of values for a codec property. (ICodecAPI.GetParameterRange)
 helpviewer_keywords: ["GetParameterRange","GetParameterRange method [DirectShow]","GetParameterRange method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetParameterRange method","ICodecAPI.GetParameterRange","ICodecAPI::GetParameterRange","ICodecAPIGetParameterRange","dshow.icodecapi_getparameterrange","strmif/ICodecAPI::GetParameterRange"]
 old-location: dshow\icodecapi_getparameterrange.htm
 tech.root: dshow
 ms.assetid: 35bf758f-0ce3-4b3a-aae5-9d4326089743
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetParameterRange, GetParameterRange method [DirectShow], GetParameterRange method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterRange method, ICodecAPI.GetParameterRange, ICodecAPI::GetParameterRange, ICodecAPIGetParameterRange, dshow.icodecapi_getparameterrange, strmif/ICodecAPI::GetParameterRange
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetParameterRange</b> method gets the range of values for a codec property. 
       

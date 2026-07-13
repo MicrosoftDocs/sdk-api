@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.Connect
 title: IRpcStubBuffer::Connect (objidl.h)
-description: Initializes a server stub, binding it to the specified interface.
+description: The IRpcStubBuffer::Connect method (objidl.h) initializes a server stub, binding it to the specified interface.
 helpviewer_keywords: ["Connect","Connect method [COM]","Connect method [COM]","IRpcStubBuffer interface","IRpcStubBuffer interface [COM]","Connect method","IRpcStubBuffer.Connect","IRpcStubBuffer::Connect","_com_irpcstubbuffer_connect","com.irpcstubbuffer_connect","objidlbase/IRpcStubBuffer::Connect"]
 old-location: com\irpcstubbuffer_connect.htm
 tech.root: com
 ms.assetid: 0a452287-b674-4b51-9690-316beeab4482
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Connect method, IRpcStubBuffer.Connect, IRpcStubBuffer::Connect, _com_irpcstubbuffer_connect, com.irpcstubbuffer_connect, objidlbase/IRpcStubBuffer::Connect
 req.header: objidl.h
 req.include-header: ObjIdl.h

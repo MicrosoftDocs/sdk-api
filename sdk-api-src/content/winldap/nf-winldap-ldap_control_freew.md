@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_control_freeW
 title: ldap_control_freeW function (winldap.h)
-description: The ldap_control_free function frees an LDAPControl structure.
-helpviewer_keywords: ["_ldap_ldap_control_free","ldap.ldap__control__free","ldap.ldap_control_free","ldap_control_free","ldap_control_free function [LDAP]","ldap_control_freeA","ldap_control_freeW","winldap/ldap_control_free","winldap/ldap_control_freeA","winldap/ldap_control_freeW"]
+description: The ldap_control_freeW (Unicode) function (winldap.h) frees an LDAPControl structure.
+helpviewer_keywords: ["_ldap_ldap_control_free", "ldap.ldap__control__free", "ldap.ldap_control_free", "ldap_control_free", "ldap_control_free function [LDAP]", "ldap_control_freeW", "winldap/ldap_control_free", "winldap/ldap_control_freeW"]
 old-location: ldap\ldap_control_free.htm
 tech.root: ldap
 ms.assetid: 10729355-8f80-477b-acc8-705db72cebdb
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_ldap_control_free, ldap.ldap__control__free, ldap.ldap_control_free, ldap_control_free, ldap_control_free function [LDAP], ldap_control_freeA, ldap_control_freeW, winldap/ldap_control_free, winldap/ldap_control_freeA, winldap/ldap_control_freeW
 req.header: winldap.h
 req.include-header: 
@@ -83,7 +83,7 @@ Use this function to free an <a href="/previous-versions/windows/desktop/api/win
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_control_free as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_control_free as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

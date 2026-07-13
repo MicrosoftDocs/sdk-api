@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.get_SizeQuotaWarning
 title: IFaxOutgoingArchive::get_SizeQuotaWarning (faxcomex.h)
-description: The IFaxOutgoingArchive::get_SizeQuotaWarning property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the outbound archive exceeds the limit defined by the IFaxOutgoingArchive::get_HighQuotaWaterMark property.
+description: The IFaxOutgoingArchive::get_SizeQuotaWarning property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the outbound archive exceeds the limit defined by the IFaxOutgoingArchive::get_HighQuotaWaterMark property. (Get)
 helpviewer_keywords: ["IFaxOutgoingArchive interface [Fax Service]","SizeQuotaWarning property","IFaxOutgoingArchive.SizeQuotaWarning","IFaxOutgoingArchive.get_SizeQuotaWarning","IFaxOutgoingArchive.put_SizeQuotaWarning","IFaxOutgoingArchive::SizeQuotaWarning","IFaxOutgoingArchive::get_SizeQuotaWarning","IFaxOutgoingArchive::put_SizeQuotaWarning","SizeQuotaWarning property [Fax Service]","SizeQuotaWarning property [Fax Service]","IFaxOutgoingArchive interface","_mfax_faxoutgoingarchive.sizequotawarning","fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizequotawarning_cpp","fax._mfax_faxoutgoingarchive_sizequotawarning","faxcomex/IFaxOutgoingArchive::SizeQuotaWarning","faxcomex/IFaxOutgoingArchive::get_SizeQuotaWarning","faxcomex/IFaxOutgoingArchive::put_SizeQuotaWarning","get_SizeQuotaWarning"]
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizequotawarning_cpp.htm
 tech.root: Fax

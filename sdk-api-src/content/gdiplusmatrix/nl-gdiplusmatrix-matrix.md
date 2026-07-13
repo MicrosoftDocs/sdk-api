@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusmatrix.Matrix
 title: Matrix (gdiplusmatrix.h)
-description: A Matrix object represents a 3 �3 matrix that, in turn, represents an affine transformation.
+description: A Matrix object represents a 3 × 3 matrix that, in turn, represents an affine transformation.
 helpviewer_keywords: ["Matrix","Matrix class [GDI+]","Matrix class [GDI+]","described","_gdiplus_CLASS_Matrix_Class","gdiplus._gdiplus_CLASS_Matrix_Class","gdiplusmatrix/Matrix"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Class.htm
 tech.root: gdiplus

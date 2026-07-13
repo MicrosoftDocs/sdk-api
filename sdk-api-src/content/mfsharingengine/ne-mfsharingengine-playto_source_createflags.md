@@ -54,21 +54,21 @@ Contains flags for the <a href="/windows/desktop/api/mfsharingengine/nf-mfsharin
 
 ## -enum-fields
 
-### -field PLAYTO_SOURCE_NONE
+### -field PLAYTO_SOURCE_NONE:0
 
-### -field PLAYTO_SOURCE_IMAGE
+### -field PLAYTO_SOURCE_IMAGE:0x1
 
 Share images.
 
-### -field PLAYTO_SOURCE_AUDIO
+### -field PLAYTO_SOURCE_AUDIO:0x2
 
 Share audio.
 
-### -field PLAYTO_SOURCE_VIDEO
+### -field PLAYTO_SOURCE_VIDEO:0x4
 
 Share video.
 
-### -field PLAYTO_SOURCE_PROTECTED
+### -field PLAYTO_SOURCE_PROTECTED:0x8
 
 Share DRM protected media.
 

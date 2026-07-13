@@ -54,35 +54,35 @@ Indicates which resource types to track.
 
 ## -enum-fields
 
-### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_NONE
+### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_NONE:0
 
 No resource types are tracked.
 
-### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_UAV_DEVICEMEMORY
+### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_UAV_DEVICEMEMORY:1
 
 Track device memory that is created with unordered access view (UAV) bind flags.
 
-### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_NON_UAV_DEVICEMEMORY
+### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_NON_UAV_DEVICEMEMORY:2
 
 Track device memory that is created without UAV bind flags.
 
-### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL_DEVICEMEMORY
+### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL_DEVICEMEMORY:3
 
 Track all device memory.
 
-### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_GROUPSHARED_MEMORY
+### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_GROUPSHARED_MEMORY:4
 
 Track all shaders that use group shared memory.
 
-### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL_SHARED_MEMORY
+### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL_SHARED_MEMORY:5
 
 Track all device memory except device memory that is created without UAV bind flags.
 
-### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_GROUPSHARED_NON_UAV
+### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_GROUPSHARED_NON_UAV:6
 
 Track all device memory except device memory that is created with UAV bind flags.
 
-### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL
+### -field D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL:7
 
 Track all memory on the device.
 

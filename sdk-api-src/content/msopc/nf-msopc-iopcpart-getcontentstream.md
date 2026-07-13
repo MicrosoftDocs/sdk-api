@@ -92,7 +92,7 @@ The <i>stream</i> parameter is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateFile</b> function error</b></dt>
+<dt><b>CreateFile function error</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML standard</a>
 
 
 

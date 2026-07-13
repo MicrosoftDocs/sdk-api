@@ -52,7 +52,7 @@ api_name:
 
 Erases the media in the active disc recorder.
 
-## -parameters
+
 
 ## -returns
 

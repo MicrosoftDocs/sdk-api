@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.GetGeoInfoW
 title: GetGeoInfoW function (winnls.h)
-description: Retrieves information about a specified geographical location.
-helpviewer_keywords: ["GetGeoInfo","GetGeoInfo function [Internationalization for Windows Applications]","GetGeoInfoA","GetGeoInfoW","_win32_GetGeoInfo","intl.getgeoinfo","winnls/GetGeoInfo","winnls/GetGeoInfoA","winnls/GetGeoInfoW"]
+description: Retrieves information about a specified geographical location. (Unicode)
+helpviewer_keywords: ["GetGeoInfo", "GetGeoInfo function [Internationalization for Windows Applications]", "GetGeoInfoW", "_win32_GetGeoInfo", "intl.getgeoinfo", "winnls/GetGeoInfo", "winnls/GetGeoInfoW"]
 old-location: intl\getgeoinfo.htm
 tech.root: Intl
 ms.assetid: 73827ed9-bdc5-4b34-b849-fb44b3c5bd6e
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-2-0.dll
  - KernelBase.dll
@@ -121,7 +123,7 @@ If the application specifies GEO_LCID for <i>GeoType</i>, the function treats th
 
 
 > [!NOTE]
-> The winnls.h header defines GetGeoInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines GetGeoInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

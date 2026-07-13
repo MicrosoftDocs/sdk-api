@@ -54,7 +54,7 @@ The
 <b>Apply</b> method writes to persistent storage the changes made by calls to the 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a> method.
 
-## -parameters
+
 
 ## -returns
 

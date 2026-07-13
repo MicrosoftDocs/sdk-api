@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMTimecodeGenerator interface [DirectShow]","get_VITCLin
 old-location: dshow\iamtimecodegenerator_get_vitcline.htm
 tech.root: dshow
 ms.assetid: 0a1595a6-30ae-46ab-bfda-102b4dbc67ef
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],get_VITCLine method, IAMTimecodeGenerator.get_VITCLine, IAMTimecodeGenerator::get_VITCLine, IAMTimecodeGeneratorget_VITCLine, dshow.iamtimecodegenerator_get_vitcline, get_VITCLine, get_VITCLine method [DirectShow], get_VITCLine method [DirectShow],IAMTimecodeGenerator interface, strmif/IAMTimecodeGenerator::get_VITCLine
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_VITCLine</code> method retrieves which line(s) the vertical interval timecode information has been inserted into.
 

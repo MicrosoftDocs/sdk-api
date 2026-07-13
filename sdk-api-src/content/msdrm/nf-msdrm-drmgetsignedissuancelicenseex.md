@@ -94,7 +94,7 @@ Cancels an online signing request. Offline requests are processed immediately an
 
 Can be used with one of the preceding flags to have the Active Directory Rights Management Services system generate a content key for you. This key is used in encryption functions. Typically, the key type  is AES and the cipher mode is ECB. If this flag is not specified, you must provide your own content key with a cryptographic system, such as with the CryptoAPI functions from the Platform SDK.
 
-<div class="alert"><b>Note</b>  If you are using the AD RMS client included in  Windows 7,  or if you install the <a href="https://support.microsoft.com/kb/946583">CBC hotfix</a>, the value AES_CBC4K can be used to specify the AES algorithm with cipher-block chaining (CBC) cipher mode. See the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a> code examples for more information.</div>
+<div class="alert"><b>Note</b>  If you are using the AD RMS client included in  Windows 7,  or if you install the CBC hotfix, the value AES_CBC4K can be used to specify the AES algorithm with cipher-block chaining (CBC) cipher mode. See the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a> code examples for more information.</div>
 <div> </div>
 
 

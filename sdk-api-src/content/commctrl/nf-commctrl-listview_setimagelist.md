@@ -6,7 +6,7 @@ helpviewer_keywords: ["LVSIL_GROUPHEADER","LVSIL_NORMAL","LVSIL_SMALL","LVSIL_ST
 old-location: controls\ListView_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setimagelist.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_SetImageList, ListView_SetImageList macro [Windows Controls], _win32_ListView_SetImageList, _win32_ListView_SetImageList_cpp, commctrl/ListView_SetImageList, controls.ListView_SetImageList, controls._win32_ListView_SetImageList
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_SetImageList macro
+
+## -syntax
+
+```cpp
+HIMAGELIST ListView_SetImageList(
+   HWND       hwnd,
+   HIMAGELIST himl,
+   int        iImageList
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns the handle to the image list previously associated with the control if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

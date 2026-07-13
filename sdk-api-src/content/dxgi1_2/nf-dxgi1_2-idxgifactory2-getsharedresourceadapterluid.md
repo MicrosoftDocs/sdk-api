@@ -82,30 +82,34 @@ You cannot share resources across adapters. Therefore, you cannot open a shared 
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>HANDLE handle;
+
+``` syntax
+HANDLE handle;
 IDXGIFactory2* pFactory;
 
 LUID luid;
-pFactory-&gt;GetSharedResourceAdapterLuid (handle, &amp;luid);
+pFactory->GetSharedResourceAdapterLuid (handle, &luid);
 
 UINT index = 0;
 IDXGIAdapter* pAdapter = NULL;
-while (SUCCEEDED(pFactory-&gt;EnumAdapters(index, &amp;pAdapter)))
+while (SUCCEEDED(pFactory->EnumAdapters(index, &pAdapter)))
 {
     DXGI_ADAPTER_DESC desc;
-    pAdapter-&gt;GetDesc(&amp;desc);
+    pAdapter->GetDesc(&desc);
     if (desc.AdapterLuid == luid)
     {
        // Identified a matching adapter.
        break;
     }
-    pAdapter-&gt;Release();
+    pAdapter->Release();
     pAdapter = NULL;
     index++;
 }
 // At this point, if pAdapter is non-null, you identified an adapter that 
 // can open the shared resource.
-</code></pre>
+
+```
+
 
 ## -see-also
 

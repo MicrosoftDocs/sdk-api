@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
 title: IX509CertificateRequestPkcs10V3::put_AttestPrivateKey (certenroll.h)
-description: True if the created private key needs to be attested; otherwise false. If true, it is expected that the AttestationEncryptionCertificate property has been set.
+description: True if the created private key needs to be attested; otherwise false. If true, it is expected that the AttestationEncryptionCertificate property has been set. (Put)
 helpviewer_keywords: ["AttestPrivateKey property [Security]","AttestPrivateKey property [Security]","IX509CertificateRequestPkcs10V3 interface","IX509CertificateRequestPkcs10V3 interface [Security]","AttestPrivateKey property","IX509CertificateRequestPkcs10V3.AttestPrivateKey","IX509CertificateRequestPkcs10V3.put_AttestPrivateKey","IX509CertificateRequestPkcs10V3::AttestPrivateKey","IX509CertificateRequestPkcs10V3::get_AttestPrivateKey","IX509CertificateRequestPkcs10V3::put_AttestPrivateKey","certenroll/IX509CertificateRequestPkcs10V3::AttestPrivateKey","certenroll/IX509CertificateRequestPkcs10V3::get_AttestPrivateKey","certenroll/IX509CertificateRequestPkcs10V3::put_AttestPrivateKey","put_AttestPrivateKey","security.ix509certificaterequestpkcs10v3_attestprivatekey"]
 old-location: security\ix509certificaterequestpkcs10v3_attestprivatekey.htm
 tech.root: security

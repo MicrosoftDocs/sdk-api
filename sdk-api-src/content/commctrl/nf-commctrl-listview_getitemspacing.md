@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetItemSpacing","ListView_GetItemSpacing macro [
 old-location: controls\ListView_GetItemSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemspacing.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetItemSpacing, ListView_GetItemSpacing macro [Windows Controls], _win32_ListView_GetItemSpacing, _win32_ListView_GetItemSpacing_cpp, commctrl/ListView_GetItemSpacing, controls.ListView_GetItemSpacing, controls._win32_ListView_GetItemSpacing
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetItemSpacing macro
+
+## -syntax
+
+```cpp
+DWORD ListView_GetItemSpacing(
+   HWND hwndLV,
+   BOOL fSmall
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the amount of spacing between items. The horizontal spacing is contained in the <b>LOWORD</b> and the vertical spacing is contained in the <b>HIWORD</b>.
 
 
 ## -description

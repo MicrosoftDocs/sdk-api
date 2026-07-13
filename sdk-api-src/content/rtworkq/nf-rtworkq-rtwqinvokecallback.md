@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqInvokeCallback
 title: RtwqInvokeCallback function (rtworkq.h)
-description: Invokes a callback method to complete an asynchronous operation.
+description: Invokes a callback method to complete an asynchronous operation. (RtwqInvokeCallback)
 helpviewer_keywords: ["RtwqInvokeCallback","RtwqInvokeCallback function","base.rtwqinvokecallback","rtworkq/RtwqInvokeCallback"]
 old-location: base\rtwqinvokecallback.htm
 tech.root: backup
@@ -60,4 +60,4 @@ The asynchronous result. To create this object, call <a href="/windows/desktop/a
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

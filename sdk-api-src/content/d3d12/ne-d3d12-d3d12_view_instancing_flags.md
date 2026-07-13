@@ -54,11 +54,11 @@ Specifies options for view instancing.
 
 ## -enum-fields
 
-### -field D3D12_VIEW_INSTANCING_FLAG_NONE
+### -field D3D12_VIEW_INSTANCING_FLAG_NONE:0
 
 Indicates a default view instancing configuration.
 
-### -field D3D12_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING
+### -field D3D12_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING:0x1
 
 Enables view instance masking.
 

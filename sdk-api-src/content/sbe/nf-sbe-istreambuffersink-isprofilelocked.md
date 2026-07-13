@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],IsProfileLo
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies only to Windows XP Service Pack 1 or later.
         
 
@@ -57,7 +59,7 @@ This topic applies only to Windows XP Service Pack 1 or later.
 
 The <b>IsProfileLocked</b> method queries whether the Stream Buffer Sink filter's profile is locked.
 
-## -parameters
+
 
 ## -returns
 

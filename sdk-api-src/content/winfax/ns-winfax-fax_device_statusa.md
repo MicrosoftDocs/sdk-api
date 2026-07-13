@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_DEVICE_STATUSA
 title: FAX_DEVICE_STATUSA (winfax.h)
-description: The FAX_DEVICE_STATUS structure contains information about the current status of a fax device.
+description: The FAX_DEVICE_STATUS structure contains information about the current status of a fax device. (ANSI)
 helpviewer_keywords: ["*PFAX_DEVICE_STATUSA","FAX_DEVICE_STATUS","FAX_DEVICE_STATUS structure [Fax Service]","FAX_DEVICE_STATUSA","FAX_DEVICE_STATUSW","FPS_ABORTING","FPS_ANSWERED","FPS_AVAILABLE","FPS_BAD_ADDRESS","FPS_BUSY","FPS_CALL_BLACKLISTED","FPS_CALL_DELAYED","FPS_COMPLETED","FPS_DIALING","FPS_DISCONNECTED","FPS_FATAL_ERROR","FPS_HANDLED","FPS_INITIALIZING","FPS_NOT_FAX_CALL","FPS_NO_ANSWER","FPS_NO_DIAL_TONE","FPS_OFFLINE","FPS_RECEIVING","FPS_RINGING","FPS_ROUTING","FPS_SENDING","FPS_UNAVAILABLE","JT_RECEIVE","JT_SEND","JT_UNKNOWN","PFAX_DEVICE_STATUS","PFAX_DEVICE_STATUS structure pointer [Fax Service]","_mfax_fax_device_status_str","fax._mfax_fax_device_status_str","winfax/FAX_DEVICE_STATUS","winfax/FAX_DEVICE_STATUSA","winfax/FAX_DEVICE_STATUSW","winfax/PFAX_DEVICE_STATUS"]
 old-location: fax\_mfax_fax_device_status_str.htm
 tech.root: Fax
@@ -347,7 +347,7 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 > [!NOTE]
-> The winfax.h header defines FAX_DEVICE_STATUS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FAX_DEVICE_STATUS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

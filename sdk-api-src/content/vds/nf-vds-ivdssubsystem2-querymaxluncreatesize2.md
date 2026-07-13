@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsSubSystem2.QueryMaxLunCreateSize2
 title: IVdsSubSystem2::QueryMaxLunCreateSize2 (vds.h)
-description: Returns the size of the maximum LUN that can be created using the specified LUN type and hints.
+description: The IVdsSubSystem2::QueryMaxLunCreateSize2 method (vds.h) returns the size of the maximum LUN that can be created using the specified LUN type and hints.
 helpviewer_keywords: ["IVdsSubSystem2 interface","QueryMaxLunCreateSize2 method","IVdsSubSystem2.QueryMaxLunCreateSize2","IVdsSubSystem2::QueryMaxLunCreateSize2","QueryMaxLunCreateSize2","QueryMaxLunCreateSize2 method","QueryMaxLunCreateSize2 method","IVdsSubSystem2 interface","base.ivdssubsystem2_querymaxluncreatesize2","vds/IVdsSubSystem2::QueryMaxLunCreateSize2","vdshwprv/IVdsSubSystem2::QueryMaxLunCreateSize2"]
 old-location: base\ivdssubsystem2_querymaxluncreatesize2.htm
 tech.root: base
 ms.assetid: 6cd892d2-f1b0-40cd-b037-5c670da3b32f
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsSubSystem2 interface,QueryMaxLunCreateSize2 method, IVdsSubSystem2.QueryMaxLunCreateSize2, IVdsSubSystem2::QueryMaxLunCreateSize2, QueryMaxLunCreateSize2, QueryMaxLunCreateSize2 method, QueryMaxLunCreateSize2 method,IVdsSubSystem2 interface, base.ivdssubsystem2_querymaxluncreatesize2, vds/IVdsSubSystem2::QueryMaxLunCreateSize2, vdshwprv/IVdsSubSystem2::QueryMaxLunCreateSize2
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the size of the maximum LUN that can be created using the specified LUN type and hints. This method is identical to the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querymaxluncreatesize">IVdsSubSystem::QueryMaxLunCreateSize</a> method, except that the automagic hints are provided using a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure instead of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure.
 

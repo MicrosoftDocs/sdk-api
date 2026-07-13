@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.OpenBackupEventLogW
 title: OpenBackupEventLogW function (winbase.h)
-description: Opens a handle to a backup event log created by the BackupEventLog function.
-helpviewer_keywords: ["OpenBackupEventLog","OpenBackupEventLog function","OpenBackupEventLogA","OpenBackupEventLogW","_win32_openbackupeventlog","base.openbackupeventlog","winbase/OpenBackupEventLog","winbase/OpenBackupEventLogA","winbase/OpenBackupEventLogW"]
+description: Opens a handle to a backup event log created by the BackupEventLog function. (Unicode)
+helpviewer_keywords: ["OpenBackupEventLog", "OpenBackupEventLog function", "OpenBackupEventLogW", "_win32_openbackupeventlog", "base.openbackupeventlog", "winbase/OpenBackupEventLog", "winbase/OpenBackupEventLogW"]
 old-location: base\openbackupeventlog.htm
 tech.root: base
 ms.assetid: cfef0912-9d35-44aa-a1d3-f9bb37213ce0
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-eventlog-l1-1-2.dll
  - Advapi32.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
 api_name:
@@ -85,7 +86,7 @@ When this function is used on Windows Vista and later computers, only backup ev
 
 
 > [!NOTE]
-> The winbase.h header defines OpenBackupEventLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines OpenBackupEventLog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

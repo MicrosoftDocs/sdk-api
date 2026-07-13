@@ -1,12 +1,12 @@
 ---
 UID: NS:imm.tagREGISTERWORDA
 title: REGISTERWORDA (imm.h)
-description: Contains reading information or a word to register.
+description: The REGISTERWORDA (ANSI) structure (imm.h) contains reading information or a word to register.
 helpviewer_keywords: ["*LPREGISTERWORDA","*NPREGISTERWORDA","*PREGISTERWORDA","PREGISTERWORD","PREGISTERWORD structure pointer [Internationalization for Windows Applications]","REGISTERWORD","REGISTERWORD structure [Internationalization for Windows Applications]","REGISTERWORDA","REGISTERWORDW","_win32_REGISTERWORD_str","imm/PREGISTERWORD","imm/REGISTERWORD","imm/REGISTERWORDA","imm/REGISTERWORDW","intl.registerword","tagREGISTERWORDA","tagREGISTERWORDW"]
 old-location: intl\registerword.htm
 tech.root: Intl
 ms.assetid: 70a11a96-a0e3-4741-be91-b85eb38cd767
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*LPREGISTERWORDA, *NPREGISTERWORDA, *PREGISTERWORDA, PREGISTERWORD, PREGISTERWORD structure pointer [Internationalization for Windows Applications], REGISTERWORD, REGISTERWORD structure [Internationalization for Windows Applications], REGISTERWORDA, REGISTERWORDW, _win32_REGISTERWORD_str, imm/PREGISTERWORD, imm/REGISTERWORD, imm/REGISTERWORDA, imm/REGISTERWORDW, intl.registerword, tagREGISTERWORDA, tagREGISTERWORDW'
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -77,7 +77,7 @@ The application can pass this structure to the <a href="/windows/desktop/api/imm
 
 
 > [!NOTE]
-> The imm.h header defines REGISTERWORD as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The imm.h header defines REGISTERWORD as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

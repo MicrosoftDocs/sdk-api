@@ -87,5 +87,5 @@ A variable-sized array of [**PARTITION_INFORMATION_EX**](ns-winioctl-partition_i
 
 ## -see-also
 
-[DRIVE_LAYOUT_INFORMATION_GPT](ns-winioctl-drive_layout_information_gpt.md), [DRIVE_LAYOUT_INFORMATION_MBR](ns-winioctl-drive_layout_information_mbr.md), [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md), [IOCTL_DISK_SET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_set_drive_layout.md), [PARTITION_INFORMATION_EX](ns-winioctl-partition_information_ex.md), [PARTITION_INFORMATION](ns-winioctl-partition_information.md)
+[DRIVE_LAYOUT_INFORMATION_GPT](ns-winioctl-drive_layout_information_gpt.md), [DRIVE_LAYOUT_INFORMATION_MBR](ns-winioctl-drive_layout_information_mbr.md), [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md), [IOCTL_DISK_SET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_set_drive_layout_ex.md), [PARTITION_INFORMATION_EX](ns-winioctl-partition_information_ex.md), [PARTITION_INFORMATION](ns-winioctl-partition_information.md)
 

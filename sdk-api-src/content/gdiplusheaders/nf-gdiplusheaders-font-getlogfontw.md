@@ -2,7 +2,7 @@
 UID: NF:gdiplusheaders.Font.GetLogFontW
 title: Font::GetLogFontW (gdiplusheaders.h)
 description: The Font::GetLogFontW method uses a LOGFONTW structure to get the attributes of this Font object.
-helpviewer_keywords: ["Font class [GDI+]","GetLogFontW method","Font.GetLogFontW","Font::GetLogFontW","GetLogFontW","GetLogFontW method [GDI+]","GetLogFontW method [GDI+]","Font class","_gdiplus_CLASS_Font_GetLogFontW_g_logfontW_","gdiplus._gdiplus_CLASS_Font_GetLogFontW_g_logfontW_"]
+helpviewer_keywords: ["Font class [GDI+]", "GetLogFontW method", "Font.GetLogFontW", "Font::GetLogFontW", "GetLogFontW", "GetLogFontW method [GDI+]", "GetLogFontW method [GDI+]", "Font class", "_gdiplus_CLASS_Font_GetLogFontW_g_logfontW_", "gdiplus._gdiplus_CLASS_Font_GetLogFontW_g_logfontW_"]
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLogFontW_g_logfontW_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlogfontw.htm

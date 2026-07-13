@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetFileInformationByHandleEx
 title: GetFileInformationByHandleEx function (winbase.h)
-description: Retrieves file information for the specified file.
+description: Retrieves file information for the specified file. (GetFileInformationByHandleEx)
 helpviewer_keywords: ["GetFileInformationByHandleEx","GetFileInformationByHandleEx function [Files]","fileextd/GetFileInformationByHandleEx","fs.getfileinformationbyhandleex","winbase/GetFileInformationByHandleEx"]
 old-location: fs\getfileinformationbyhandleex.htm
 tech.root: fs
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l2-1-4.dll
+ - api-ms-win-core-file-l2-1-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l2-1-0.dll
  - KernelBase.dll

@@ -1,7 +1,7 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.Terminated
 title: IWTSSBPlugin::Terminated (tssbx.h)
-description: Notifies the plug-in that it is about to be destroyed by Terminal Services Session Broker (TS�Session Broker).
+description: Notifies the plug-in that it is about to be destroyed by Terminal Services Session Broker (TS Session Broker).
 helpviewer_keywords: ["IWTSSBPlugin interface [Remote Desktop Services]","Terminated method","IWTSSBPlugin.Terminated","IWTSSBPlugin::Terminated","Terminated","Terminated method [Remote Desktop Services]","Terminated method [Remote Desktop Services]","IWTSSBPlugin interface","termserv.iwtssbplugin_terminated","tssbx/IWTSSBPlugin::Terminated"]
 old-location: termserv\iwtssbplugin_terminated.htm
 tech.root: TermServ
@@ -56,7 +56,7 @@ api_name:
 
  Notifies the plug-in that it is about to be destroyed by Terminal Services Session Broker (TS Session Broker).
 
-## -parameters
+
 
 ## -returns
 

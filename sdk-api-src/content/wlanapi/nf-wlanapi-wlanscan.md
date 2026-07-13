@@ -47,8 +47,13 @@ api_name:
 
 # WlanScan function
 
-
 ## -description
+
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
 
 The <b>WlanScan</b> function requests a scan for available networks on the indicated interface.
 
@@ -66,7 +71,7 @@ The GUID of the interface to be queried.
 
 ### -param pDot11Ssid [in, optional]
 
-A pointer to a <a href="/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that specifies the SSID of the network to be scanned. This parameter is optional. When set to <b>NULL</b>, the returned list contains all available networks. 
+A pointer to a <a href="/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that specifies the SSID of the network to be scanned. This parameter may be <b>NULL</b>. 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This parameter must be <b>NULL</b>.
 
 ### -param pIeData [in, optional]

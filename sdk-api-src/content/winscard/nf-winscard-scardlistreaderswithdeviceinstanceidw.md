@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardListReadersWithDeviceInstanceIdW
 title: SCardListReadersWithDeviceInstanceIdW function (winscard.h)
-description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader.
-helpviewer_keywords: ["SCardListReadersWithDeviceInstanceId","SCardListReadersWithDeviceInstanceId function [Security]","SCardListReadersWithDeviceInstanceIdA","SCardListReadersWithDeviceInstanceIdW","security.scardgetreadernamefromdeviceinstanceid","security.scardlistreaderswithdeviceinstanceid","winscard/SCardListReadersWithDeviceInstanceId"]
+description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader. (Unicode)
+helpviewer_keywords: ["SCardListReadersWithDeviceInstanceId", "SCardListReadersWithDeviceInstanceId function [Security]", "SCardListReadersWithDeviceInstanceIdW", "security.scardgetreadernamefromdeviceinstanceid", "security.scardlistreaderswithdeviceinstanceid", "winscard/SCardListReadersWithDeviceInstanceId"]
 old-location: security\scardlistreaderswithdeviceinstanceid.htm
 tech.root: security
 ms.assetid: D470A10B-B167-4BCA-9042-BF63B9A3A92F
@@ -170,4 +170,4 @@ default:
 
 
 > [!NOTE]
-> The winscard.h header defines SCardListReadersWithDeviceInstanceId as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardListReadersWithDeviceInstanceId as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Animate_Play","Animate_Play macro [Windows Controls]","_w
 old-location: controls\Animate_Play.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_play.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Animate_Play, Animate_Play macro [Windows Controls], _win32_Animate_Play, _win32_Animate_Play_cpp, commctrl/Animate_Play, controls.Animate_Play, controls._win32_Animate_Play
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # Animate_Play macro
+
+## -syntax
+
+```cpp
+BOOL Animate_Play(
+   HWND hwnd,
+   UINT from,
+   UINT to,
+   UINT rep
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

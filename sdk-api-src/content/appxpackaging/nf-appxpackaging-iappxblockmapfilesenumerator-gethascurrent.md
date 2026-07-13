@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.GetHasCurrent
 title: IAppxBlockMapFilesEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is a file at the current position of the enumerator.
+description: Determines whether there is a file at the current position of the enumerator. (IAppxBlockMapFilesEnumerator.GetHasCurrent)
 helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxBlockMapFilesEnumerator interface","IAppxBlockMapFilesEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxBlockMapFilesEnumerator.GetHasCurrent","IAppxBlockMapFilesEnumerator::GetHasCurrent","appxpackaging/IAppxBlockMapFilesEnumerator::GetHasCurrent","appxpkg.iappxblockmapfilesenumerator_gethascurrent"]
 old-location: appxpkg\iappxblockmapfilesenumerator_gethascurrent.htm
 tech.root: appxpkg
@@ -64,7 +64,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

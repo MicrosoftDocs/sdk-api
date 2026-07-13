@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IAction.put_Id
 title: IAction::put_Id (taskschd.h)
-description: Gets or sets the identifier of the action.
+description: Gets or sets the identifier of the action. (Put)
 helpviewer_keywords: ["IAction interface [Task Scheduler]","Id property","IAction.Id","IAction.put_Id","IAction::Id","IAction::get_Id","IAction::put_Id","Id property [Task Scheduler]","Id property [Task Scheduler]","IAction interface","put_Id","taskschd.iaction_id","taskschd/IAction::Id","taskschd/IAction::get_Id","taskschd/IAction::put_Id"]
 old-location: taskschd\iaction_id.htm
 tech.root: taskschd

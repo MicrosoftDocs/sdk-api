@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteSectionW
 title: SetupQueueDeleteSectionW function (setupapi.h)
-description: The SetupQueueDeleteSection function queues all the files in a section of an INF file for deletion. The section must be in the correct Delete Files format and the INF file must contain a DestinationDirs section.
-helpviewer_keywords: ["SetupQueueDeleteSection","SetupQueueDeleteSection function [Setup API]","SetupQueueDeleteSectionA","SetupQueueDeleteSectionW","_setupapi_setupqueuedeletesection","setup.setupqueuedeletesection","setupapi/SetupQueueDeleteSection","setupapi/SetupQueueDeleteSectionA","setupapi/SetupQueueDeleteSectionW"]
+description: The SetupQueueDeleteSection function queues all the files in a section of an INF file for deletion. The section must be in the correct Delete Files format and the INF file must contain a DestinationDirs section. (Unicode)
+helpviewer_keywords: ["SetupQueueDeleteSection", "SetupQueueDeleteSection function [Setup API]", "SetupQueueDeleteSectionW", "_setupapi_setupqueuedeletesection", "setup.setupqueuedeletesection", "setupapi/SetupQueueDeleteSection", "setupapi/SetupQueueDeleteSectionW"]
 old-location: setup\setupqueuedeletesection.htm
 tech.root: setup
 ms.assetid: 3e76e345-1d6c-4eb5-a743-b71d5ccc52e5
@@ -92,7 +92,7 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueueDeleteSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueueDeleteSection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -56,7 +56,7 @@ The type of encoding used for a Remote Desktop Protocol (RDP) app container clie
 
 ## -enum-fields
 
-### -field SnapshotEncodingDataUri
+### -field SnapshotEncodingDataUri:0
 
 The snapshot will be taken and a data URI that contains the snapshot will be returned.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_GetButtonSize","Pager_GetButtonSize macro [Windows 
 old-location: controls\Pager_GetButtonSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonsize.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_GetButtonSize, Pager_GetButtonSize macro [Windows Controls], _win32_Pager_GetButtonSize, _win32_Pager_GetButtonSize_cpp, commctrl/Pager_GetButtonSize, controls.Pager_GetButtonSize, controls._win32_Pager_GetButtonSize
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Pager_GetButtonSize macro
+
+## -syntax
+
+```cpp
+int Pager_GetButtonSize(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns an <b>int</b> value that contains the current button size, in pixels.
 
 
 ## -description

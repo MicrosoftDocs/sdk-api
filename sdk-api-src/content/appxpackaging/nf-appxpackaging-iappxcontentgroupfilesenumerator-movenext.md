@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.MoveNext
 title: IAppxContentGroupFilesEnumerator::MoveNext (appxpackaging.h)
-description: Advances the position of the enumerator to the next file.
+description: Advances the position of the enumerator to the next file. (IAppxContentGroupFilesEnumerator.MoveNext)
 helpviewer_keywords: ["IAppxContentGroupFilesEnumerator interface [App packaging and management]","MoveNext method","IAppxContentGroupFilesEnumerator.MoveNext","IAppxContentGroupFilesEnumerator::MoveNext","MoveNext","MoveNext method [App packaging and management]","MoveNext method [App packaging and management]","IAppxContentGroupFilesEnumerator interface","appxpackaging/IAppxContentGroupFilesEnumerator::MoveNext","appxpkg.iappxcontentgroupfilesenumerator__movenext"]
 old-location: appxpkg\iappxcontentgroupfilesenumerator__movenext.htm
 tech.root: appxpkg

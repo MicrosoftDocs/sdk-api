@@ -6,7 +6,7 @@ helpviewer_keywords: ["HTTP_LESS_VERSION","HTTP_LESS_VERSION macro [HTTP]","_htt
 old-location: http\http_less_version.htm
 tech.root: http
 ms.assetid: 3a6486ad-04cb-416f-be5e-bd8f401b0836
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: HTTP_LESS_VERSION, HTTP_LESS_VERSION macro [HTTP], _http_http_less_version, http.http_less_version, http/HTTP_LESS_VERSION
 req.header: http.h
 req.include-header: 
@@ -47,19 +47,32 @@ api_name:
 
 # HTTP_LESS_VERSION macro
 
+## -syntax
+
+```cpp
+int HTTP_LESS_VERSION(
+    HTTP_VERSION version,
+    USHORT major,
+    USHORT minor
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns an integer that is either zero (false) or non-zero (true), that indicates whether or not the value of the _version_ parameter is less than or equal to the version combination passed in the _major_ and _minor_ parameters.
+
 
 ## -description
 
-The 
-<b>HTTP_LESS_VERSION</b> macro returns a non-zero value if an 
-<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure is less than a specified major/minor version combination, or zero otherwise.
+The <b>HTTP_LESS_VERSION</b> macro returns a non-zero value if an <a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure is less than a specified major/minor version combination, or zero otherwise.
 
 ## -parameters
 
 ### -param version
 
-The 
-<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be examined.
+The <a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be examined.
 
 ### -param major
 

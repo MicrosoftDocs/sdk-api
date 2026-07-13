@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtEpEltInqNextA
 title: RpcMgmtEpEltInqNextA function (rpcdce.h)
-description: The RpcMgmtEpEltInqNext function returns one element from an endpoint map.
-helpviewer_keywords: ["RpcMgmtEpEltInqNext","RpcMgmtEpEltInqNext function [RPC]","RpcMgmtEpEltInqNextA","RpcMgmtEpEltInqNextW","_rpc_rpcmgmtepeltinqnext","rpc.rpcmgmtepeltinqnext","rpcdce/RpcMgmtEpEltInqNext","rpcdce/RpcMgmtEpEltInqNextA","rpcdce/RpcMgmtEpEltInqNextW"]
+description: The RpcMgmtEpEltInqNext function returns one element from an endpoint map. (RpcMgmtEpEltInqNextA)
+helpviewer_keywords: ["RpcMgmtEpEltInqNextA", "rpcdce/RpcMgmtEpEltInqNextA"]
 old-location: rpc\rpcmgmtepeltinqnext.htm
 tech.root: Rpc
 ms.assetid: e1f79435-6868-453b-8237-da52e57ec96f
@@ -124,7 +124,7 @@ After viewing the endpoint-map elements, the application must call
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcMgmtEpEltInqNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcMgmtEpEltInqNext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

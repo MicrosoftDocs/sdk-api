@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_free_controlsA
 title: ldap_free_controlsA function (winldap.h)
-description: Obsolete function which frees an array of LDAPControl structures.
-helpviewer_keywords: ["_ldap_ldap_free_controls","ldap.ldap__free__controls","ldap.ldap_free_controls","ldap_free_controls","ldap_free_controls function [LDAP]","ldap_free_controlsA","ldap_free_controlsW","winldap/ldap_free_controls","winldap/ldap_free_controlsA","winldap/ldap_free_controlsW"]
+description: Obsolete function which frees an array of LDAPControl structures. (ldap_free_controlsA)
+helpviewer_keywords: ["ldap.ldap__free__controls", "ldap_free_controlsA", "winldap/ldap_free_controlsA"]
 old-location: ldap\ldap_free_controls.htm
 tech.root: ldap
 ms.assetid: 0c663189-5aa7-4dad-b265-c9af873bf576

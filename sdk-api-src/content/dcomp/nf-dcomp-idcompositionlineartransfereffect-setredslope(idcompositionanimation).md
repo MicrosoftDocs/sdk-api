@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedSlope(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetRedSlope(IDCompositionAnimation) (dcomp.h)
-description: Sets the slope of the linear function for the red channel.
+description: Sets the slope of the linear function for the red channel. (overload 1/2)
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetRedSlope method","IDCompositionLinearTransferEffect.SetRedSlope","IDCompositionLinearTransferEffect.SetRedSlope(IDCompositionAnimation)","IDCompositionLinearTransferEffect::SetRedSlope","IDCompositionLinearTransferEffect::SetRedSlope(IDCompositionAnimation)","SetRedSlope","SetRedSlope method [DirectComposition]","SetRedSlope method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetRedSlope","directcomp.idcompositionlineartransfereffect_setredslope_2"]
 old-location: directcomp\idcompositionlineartransfereffect_setredslope_2.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ An animation that represents how the slope of the linear function for the red ch
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

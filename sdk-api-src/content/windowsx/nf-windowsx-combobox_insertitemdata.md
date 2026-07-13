@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_InsertItemData","ComboBox_InsertItemData macro [
 old-location: controls\ComboBox_InsertItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertitemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_InsertItemData, ComboBox_InsertItemData macro [Windows Controls], _win32_ComboBox_InsertItemData, _win32_ComboBox_InsertItemData_cpp, controls.ComboBox_InsertItemData, controls._win32_ComboBox_InsertItemData, windowsx/ComboBox_InsertItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ComboBox_InsertItemData macro
+
+## -syntax
+
+```cpp
+int ComboBox_InsertItemData(
+   HWND   hwndCtl,
+   int    index,
+   LPARAM data
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is the zero-based index of the item in the list. If an error occurs, the return value is CB_ERR. If there is insufficient space to store the new string, the return value is CB_ERRSPACE.
 
 
 ## -description

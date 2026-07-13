@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateHardLinkTransactedW
 title: CreateHardLinkTransactedW function (winbase.h)
-description: Establishes a hard link between an existing file and a new file as a transacted operation.
-helpviewer_keywords: ["CreateHardLinkTransacted","CreateHardLinkTransacted function [Files]","CreateHardLinkTransactedA","CreateHardLinkTransactedW","fs.createhardlinktransacted","winbase/CreateHardLinkTransacted","winbase/CreateHardLinkTransactedA","winbase/CreateHardLinkTransactedW"]
+description: Establishes a hard link between an existing file and a new file as a transacted operation. (Unicode)
+helpviewer_keywords: ["CreateHardLinkTransacted", "CreateHardLinkTransacted function [Files]", "CreateHardLinkTransactedW", "fs.createhardlinktransacted", "winbase/CreateHardLinkTransacted", "winbase/CreateHardLinkTransactedW"]
 old-location: fs\createhardlinktransacted.htm
 tech.root: fs
 ms.assetid: 27dd5b0a-08ef-4757-8f51-03d9918028c8
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
  - Kernel32Legacy.dll
@@ -208,7 +209,7 @@ Note that SMB 3.0 does not support TxF.
 
 
 > [!NOTE]
-> The winbase.h header defines CreateHardLinkTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines CreateHardLinkTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

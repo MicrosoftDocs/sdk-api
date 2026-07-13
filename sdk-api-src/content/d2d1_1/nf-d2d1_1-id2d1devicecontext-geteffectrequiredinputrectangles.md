@@ -70,7 +70,7 @@ The portion of the output image whose inputs are being inspected.
 
 Type: <b>const <a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_effect_input_description">D2D1_EFFECT_INPUT_DESCRIPTION</a>*</b>
 
-A list of the inputs whos rectangles are being queried.
+A list of the inputs whose rectangles are being queried.
 
 ### -param requiredInputRects [out]
 

@@ -4,7 +4,7 @@ title: ISystemMediaTransportControlsInterop::GetForWindow (systemmediatransportc
 description: Gets an instance of the ISystemMediaTransportControls interface for the specified window.
 helpviewer_keywords: ["GetForWindow","GetForWindow method","GetForWindow method","ISystemMediaTransportControlsInterop interface","ISystemMediaTransportControlsInterop interface","GetForWindow method","ISystemMediaTransportControlsInterop.GetForWindow","ISystemMediaTransportControlsInterop::GetForWindow","mediatransport.isystemmediatransportcontrolsinterop_getforwindow","systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop::GetForWindow"]
 old-location: mediatransport\isystemmediatransportcontrolsinterop_getforwindow.htm
-tech.root: mediatransport
+tech.root: winrt
 ms.assetid: 7E878C3B-4CE9-4DED-8082-8E37266FE8AF
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,GetForWindow method, ISystemMediaTransportControlsInterop.GetForWindow, ISystemMediaTransportControlsInterop::GetForWindow, mediatransport.isystemmediatransportcontrolsinterop_getforwindow, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop::GetForWindow
@@ -64,12 +64,16 @@ A reference to the IID of the interface to retrieve.
 
 ### -param mediaTransportControl [out]
 
-The top-level app window for which the <a href="/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface is retrieved.
+Receives the <a href="/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> that corresponds to the <i>appWindow</i> window.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+
+## -remarks
+
+The <i>appWindow</i> parameter must refer to a top-level window that belongs to the calling process.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop">ISystemMediaTransportControlsInterop</a>
+<a href="/windows/win32/api/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop">ISystemMediaTransportControlsInterop</a>

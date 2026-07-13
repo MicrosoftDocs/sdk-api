@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxGetJobA
 title: FaxGetJobA function (winfax.h)
-description: A fax client application calls the FaxGetJob function to retrieve detailed information for the specified queued or active fax job. The function returns the information in a FAX_JOB_ENTRY structure.
-helpviewer_keywords: ["FaxGetJob","FaxGetJob function [Fax Service]","FaxGetJobA","FaxGetJobW","_mfax_faxgetjob","fax._mfax_faxgetjob","winfax/FaxGetJob","winfax/FaxGetJobA","winfax/FaxGetJobW"]
+description: A fax client application calls the FaxGetJob function to retrieve detailed information for the specified queued or active fax job. The function returns the information in a FAX_JOB_ENTRY structure. (ANSI)
+helpviewer_keywords: ["FaxGetJobA", "winfax/FaxGetJobA"]
 old-location: fax\_mfax_faxgetjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jz6.htm
@@ -136,7 +136,7 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 > [!NOTE]
-> The winfax.h header defines FaxGetJob as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxGetJob as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

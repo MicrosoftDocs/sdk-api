@@ -1,7 +1,7 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ISSUER_SERIAL
 title: CRYPT_XML_ISSUER_SERIAL (cryptxml.h)
-description: Contains an X.509 issued distinguished name�serial number pair.
+description: Contains an X.509 issued distinguished name—serial number pair.
 helpviewer_keywords: ["CRYPT_XML_ISSUER_SERIAL","CRYPT_XML_ISSUER_SERIAL structure [Security]","cryptxml/CRYPT_XML_ISSUER_SERIAL","security.crypt_xml_issuer_serial"]
 old-location: security\crypt_xml_issuer_serial.htm
 tech.root: security

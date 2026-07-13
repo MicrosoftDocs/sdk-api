@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_VIDEOIMAGE_SAMPLE","WMT_VIDEOIMAGE_SAMPLE structure [
 old-location: wmformat\wmt_videoimage_sample.htm
 tech.root: wmformat
 ms.assetid: 8572ca63-760e-4bb8-886e-8e46b8dce9e9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE, WMT_VIDEOIMAGE_SAMPLE structure [windows Media Format], wmformat.wmt_videoimage_sample, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2">WMT_VIDEOIMAGE_SAMPLE2</a>.]
 

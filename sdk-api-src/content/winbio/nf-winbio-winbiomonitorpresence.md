@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-biometrics-winbio-core-l1-1-6.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-5.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-4.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-3.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-2.dll
  - winbio.dll
  - Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll
  - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
@@ -77,7 +82,7 @@ Possible values include, but are not limited to, those in the following table.  
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -88,7 +93,7 @@ The session handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -99,7 +104,7 @@ The <i>UnitId</i> parameter cannot equal zero.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_INCORRECT_SESSION_TYPE</b></b></dt>
+<dt><b>WINBIO_E_INCORRECT_SESSION_TYPE</b></dt>
 </dl>
 </td>
 <td width="60%">

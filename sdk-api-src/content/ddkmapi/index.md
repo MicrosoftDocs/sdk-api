@@ -4,7 +4,8 @@ title: Ddkmapi.h header
 ms.assetid: b6ffa318-6cae-316b-afea-e5809778bc2e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: display
 f1_keywords:
  - ddkmapi

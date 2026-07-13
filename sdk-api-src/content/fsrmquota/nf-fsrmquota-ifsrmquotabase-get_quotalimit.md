@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_QuotaLimit
 title: IFsrmQuotaBase::get_QuotaLimit (fsrmquota.h)
-description: Retrieves or sets the quota limit for the object.
+description: Retrieves or sets the quota limit for the object. (Get)
 helpviewer_keywords: ["IFsrmQuotaBase interface [File Server Resource Manager]","QuotaLimit property","IFsrmQuotaBase.QuotaLimit","IFsrmQuotaBase.get_QuotaLimit","IFsrmQuotaBase::QuotaLimit","IFsrmQuotaBase::get_QuotaLimit","IFsrmQuotaBase::put_QuotaLimit","QuotaLimit property [File Server Resource Manager]","QuotaLimit property [File Server Resource Manager]","IFsrmQuotaBase interface","fs.ifsrmquotabase_quotalimit","fsrm.ifsrmquotabase_quotalimit","fsrmquota/IFsrmQuotaBase::QuotaLimit","fsrmquota/IFsrmQuotaBase::get_QuotaLimit","fsrmquota/IFsrmQuotaBase::put_QuotaLimit","get_QuotaLimit"]
 old-location: fsrm\ifsrmquotabase_quotalimit.htm
 tech.root: fsrm

@@ -109,7 +109,7 @@ Address of a
 ### -param Overlapped [in]
 
 Address of an 
-     <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>structure. This parameter is required.
+     <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. This parameter is required.
 
 ## -returns
 

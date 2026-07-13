@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RemovePersistentIScsiDeviceW
 title: RemovePersistentIScsiDeviceW function (iscsidsc.h)
-description: RemovePersistentIscsiDevice function removes a device or volume from the list of persistently bound iSCSI volumes.
-helpviewer_keywords: ["RemovePersistentIScsiDeviceW","RemovePersistentIscsiDevice","RemovePersistentIscsiDevice function [iSCSI Discovery Library API]","RemovePersistentIscsiDeviceA","RemovePersistentIscsiDeviceW","iscsidisc.removepersistentiscsidevice","iscsidsc/RemovePersistentIscsiDevice","iscsidsc/RemovePersistentIscsiDeviceA","iscsidsc/RemovePersistentIscsiDeviceW"]
+description: RemovePersistentIscsiDevice function removes a device or volume from the list of persistently bound iSCSI volumes. (Unicode)
+helpviewer_keywords: ["RemovePersistentIScsiDeviceW", "RemovePersistentIscsiDevice", "RemovePersistentIscsiDevice function [iSCSI Discovery Library API]", "RemovePersistentIscsiDeviceW", "iscsidisc.removepersistentiscsidevice", "iscsidsc/RemovePersistentIscsiDevice", "iscsidsc/RemovePersistentIscsiDeviceW"]
 old-location: iscsidisc\removepersistentiscsidevice.htm
 tech.root: iSCSIDisc
 ms.assetid: 4016d8e4-de67-4c49-b54f-31c1b7bd64a8
@@ -93,4 +93,4 @@ Otherwise, <b>RemovePersistentIscsiDevice</b> returns the appropriate Win32 or i
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines RemovePersistentIScsiDevice as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines RemovePersistentIScsiDevice as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

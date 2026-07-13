@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CertNameToStrW
 title: CertNameToStrW function (wincrypt.h)
-description: Converts an encoded name in a CERT_NAME_BLOB structure to a null-terminated character string.
-helpviewer_keywords: ["CERT_NAME_STR_CRLF_FLAG","CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG","CERT_NAME_STR_ENABLE_PUNYCODE_FLAG","CERT_NAME_STR_NO_PLUS_FLAG","CERT_NAME_STR_NO_QUOTING_FLAG","CERT_NAME_STR_REVERSE_FLAG","CERT_NAME_STR_SEMICOLON_FLAG","CERT_OID_NAME_STR","CERT_SIMPLE_NAME_STR","CERT_X500_NAME_STR","CertNameToStr","CertNameToStr function [Security]","CertNameToStrA","CertNameToStrW","X509_ASN_ENCODING","_crypto2_certnametostr","security.certnametostr","wincrypt/CertNameToStr","wincrypt/CertNameToStrA","wincrypt/CertNameToStrW"]
+description: Converts an encoded name in a CERT_NAME_BLOB structure to a null-terminated character string. (Unicode)
+helpviewer_keywords: ["CERT_NAME_STR_CRLF_FLAG", "CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG", "CERT_NAME_STR_ENABLE_PUNYCODE_FLAG", "CERT_NAME_STR_NO_PLUS_FLAG", "CERT_NAME_STR_NO_QUOTING_FLAG", "CERT_NAME_STR_REVERSE_FLAG", "CERT_NAME_STR_SEMICOLON_FLAG", "CERT_OID_NAME_STR", "CERT_SIMPLE_NAME_STR", "CERT_X500_NAME_STR", "CertNameToStr", "CertNameToStr function [Security]", "CertNameToStrW", "X509_ASN_ENCODING", "_crypto2_certnametostr", "security.certnametostr", "wincrypt/CertNameToStr", "wincrypt/CertNameToStrW"]
 old-location: security\certnametostr.htm
 tech.root: security
 ms.assetid: b3d96de8-5cbc-4ccb-b759-6757520bbda3
@@ -366,7 +366,7 @@ For an example that uses this function, see
 
 
 > [!NOTE]
-> The wincrypt.h header defines CertNameToStr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincrypt.h header defines CertNameToStr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

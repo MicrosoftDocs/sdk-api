@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPControls3 interface [Windows Media Player]","getAudio
 old-location: wmp\iwmpcontrols3_getaudiolanguageid.htm
 tech.root: WMP
 ms.assetid: 50874485-23fc-48cc-9149-7cbc3b8c0c00
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPControls3 interface [Windows Media Player],getAudioLanguageID method, IWMPControls3.getAudioLanguageID, IWMPControls3::getAudioLanguageID, IWMPControls3getAudioLanguageID, getAudioLanguageID, getAudioLanguageID method [Windows Media Player], getAudioLanguageID method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_getaudiolanguageid, wmp/IWMPControls3::getAudioLanguageID
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>getAudioLanguageID</b> method retrieves the locale identifier (LCID) for a specified audio language index.
 

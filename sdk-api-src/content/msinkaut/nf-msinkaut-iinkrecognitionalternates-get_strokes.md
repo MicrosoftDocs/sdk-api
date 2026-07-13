@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.get_Strokes
 title: IInkRecognitionAlternates::get_Strokes (msinkaut.h)
-description: Gets the collection of strokes that are contained in an object or used to create an object.
+description: Gets the collection of strokes that are contained in an object or used to create an object. (IInkRecognitionAlternates.get_Strokes)
 helpviewer_keywords: ["IInkRecognitionAlternates interface [Tablet PC]","Strokes property","IInkRecognitionAlternates.Strokes","IInkRecognitionAlternates.get_Strokes","IInkRecognitionAlternates::Strokes","IInkRecognitionAlternates::get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkRecognitionAlternates interface","get_Strokes","msinkaut/IInkRecognitionAlternates::Strokes","msinkaut/IInkRecognitionAlternates::get_Strokes","tablet.iinkrecognitionalternates_strokes"]
 old-location: tablet\iinkrecognitionalternates_strokes.htm
 tech.root: tablet
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensor interface","SetEventInterest method","ISensor.Set
 old-location: winsensors_com_ref\isensor_seteventinterest.htm
 tech.root: winsensors
 ms.assetid: d3c2d8b9-6511-41ff-9734-92f47825bbcd
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensor interface,SetEventInterest method, ISensor.SetEventInterest, ISensor::SetEventInterest, SetEventInterest, SetEventInterest method, SetEventInterest method,ISensor interface, sensorsapi/ISensor::SetEventInterest, winsensors_com_ref.isensor_seteventinterest
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Specifies the list of sensor events to receive.
 

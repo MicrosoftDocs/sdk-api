@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupInstallFileExW
 title: SetupInstallFileExW function (setupapi.h)
-description: The SetupInstallFileEx function installs a file as specified either by an INFCONTEXT returned by SetupFindXXXLine or explicitly by the filename and path information.
-helpviewer_keywords: ["SP_COPY_DELETESOURCE","SP_COPY_FORCE_IN_USE","SP_COPY_FORCE_NEWER","SP_COPY_FORCE_NOOVERWRITE","SP_COPY_IN_USE_NEEDS_REBOOT","SP_COPY_LANGUAGEAWARE","SP_COPY_NEWER_ONLY","SP_COPY_NEWER_OR_SAME","SP_COPY_NODECOMP","SP_COPY_NOOVERWRITE","SP_COPY_NOSKIP","SP_COPY_REPLACEONLY","SP_COPY_SOURCEPATH_ABSOLUTE","SP_COPY_SOURCE_ABSOLUTE","SP_COPY_WARNIFSKIP","SetupInstallFileEx","SetupInstallFileEx function [Setup API]","SetupInstallFileExA","SetupInstallFileExW","_setupapi_setupinstallfileex","setup.setupinstallfileex","setupapi/SetupInstallFileEx","setupapi/SetupInstallFileExA","setupapi/SetupInstallFileExW"]
+description: The SetupInstallFileEx function installs a file as specified either by an INFCONTEXT returned by SetupFindXXXLine or explicitly by the filename and path information. (Unicode)
+helpviewer_keywords: ["SP_COPY_DELETESOURCE", "SP_COPY_FORCE_IN_USE", "SP_COPY_FORCE_NEWER", "SP_COPY_FORCE_NOOVERWRITE", "SP_COPY_IN_USE_NEEDS_REBOOT", "SP_COPY_LANGUAGEAWARE", "SP_COPY_NEWER_ONLY", "SP_COPY_NEWER_OR_SAME", "SP_COPY_NODECOMP", "SP_COPY_NOOVERWRITE", "SP_COPY_NOSKIP", "SP_COPY_REPLACEONLY", "SP_COPY_SOURCEPATH_ABSOLUTE", "SP_COPY_SOURCE_ABSOLUTE", "SP_COPY_WARNIFSKIP", "SetupInstallFileEx", "SetupInstallFileEx function [Setup API]", "SetupInstallFileExW", "_setupapi_setupinstallfileex", "setup.setupinstallfileex", "setupapi/SetupInstallFileEx", "setupapi/SetupInstallFileExW"]
 old-location: setup\setupinstallfileex.htm
 tech.root: setup
 ms.assetid: 56013a33-341f-4b6b-a428-ec5aa0981835
@@ -291,7 +291,7 @@ If a UNC directory is specified as the target directory of a file installation, 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupInstallFileEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupInstallFileEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

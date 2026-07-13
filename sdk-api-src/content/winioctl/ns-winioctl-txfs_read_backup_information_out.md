@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._TXFS_READ_BACKUP_INFORMATION_OUT
 title: TXFS_READ_BACKUP_INFORMATION_OUT
-description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
+description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION. (TXFS_READ_BACKUP_INFORMATION_OUT)
 helpviewer_keywords: ["*PTXFS_READ_BACKUP_INFORMATION_OUT","PTXFS_READ_BACKUP_INFORMATION_OUT","PTXFS_READ_BACKUP_INFORMATION_OUT structure pointer [Files]","TXFS_READ_BACKUP_INFORMATION_OUT","TXFS_READ_BACKUP_INFORMATION_OUT structure [Files]","fs.txfs_read_backup_information_out","winioctl/PTXFS_READ_BACKUP_INFORMATION_OUT","winioctl/TXFS_READ_BACKUP_INFORMATION_OUT"]
 old-location: fs\txfs_read_backup_information_out.htm
 tech.root: fs

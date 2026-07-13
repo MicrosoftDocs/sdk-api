@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetItemRect","TreeView_GetItemRect macro [Window
 old-location: controls\TreeView_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetItemRect, TreeView_GetItemRect macro [Windows Controls], _win32_TreeView_GetItemRect, _win32_TreeView_GetItemRect_cpp, commctrl/TreeView_GetItemRect, controls.TreeView_GetItemRect, controls._win32_TreeView_GetItemRect
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # TreeView_GetItemRect macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_GetItemRect(
+   HWND      hwnd,
+   HTREEITEM hitem,
+   LPRECT    prc,
+   BOOL      code
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the item is visible and the bounding rectangle is successfully retrieved, the return value is <b>TRUE</b>. Otherwise, the <b>TVM_GETITEMRECT</b> message returns <b>FALSE</b> and does not retrieve the bounding rectangle.
 
 
 ## -description

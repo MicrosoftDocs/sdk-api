@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCSpnIA
 title: StrCSpnIA function (shlwapi.h)
-description: Searches a string for the first occurrence of any of a group of characters. The search method is not case-sensitive, and the terminating NULL character is included within the search pattern match.
-helpviewer_keywords: ["StrCSpnI","StrCSpnI function [Windows Shell]","StrCSpnIA","StrCSpnIW","_win32_StrCSpnI","shell.StrCSpnI","shlwapi/StrCSpnI","shlwapi/StrCSpnIA","shlwapi/StrCSpnIW"]
+description: Searches a string for the first occurrence of any of a group of characters. The search method is not case-sensitive, and the terminating NULL character is included within the search pattern match. (ANSI)
+helpviewer_keywords: ["StrCSpnIA", "shlwapi/StrCSpnIA"]
 old-location: shell\StrCSpnI.htm
 tech.root: shell
 ms.assetid: d21eb80b-5f02-4eb7-9a22-02425b7050b3
@@ -87,5 +87,5 @@ The return value of this function is equal to the length of the initial substrin
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrCSpnI as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrCSpnI as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

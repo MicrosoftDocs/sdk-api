@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetWaitHandle","GetWaitHandle method [Direct Write]","Get
 old-location: directwrite\idwriteasyncresult_getwaithandle.htm
 tech.root: DirectWrite
 ms.assetid: BF7F7A94-AD3E-48DB-9A01-D4E615063A8F
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetWaitHandle, GetWaitHandle method [Direct Write], GetWaitHandle method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetWaitHandle method, IDWriteAsyncResult.GetWaitHandle, IDWriteAsyncResult::GetWaitHandle, directwrite.idwriteasyncresult_getwaithandle, dwrite_3/IDWriteAsyncResult::GetWaitHandle
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,7 +53,7 @@ api_name:
 
 Returns a handle that can be used to wait for the asynchronous operation to complete. The handle remains valid until the interface is released.
 
-## -parameters
+
 
 ## -returns
 

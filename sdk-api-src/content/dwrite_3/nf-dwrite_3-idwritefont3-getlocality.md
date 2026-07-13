@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetLocality","GetLocality method [Direct Write]","GetLoca
 old-location: directwrite\idwritefont3_getlocality.htm
 tech.root: DirectWrite
 ms.assetid: B7CD16AE-77A3-4C3C-91B7-3AD32DCF68C0
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],GetLocality method, IDWriteFont3.GetLocality, IDWriteFont3::GetLocality, directwrite.idwritefont3_getlocality, dwrite_3/IDWriteFont3::GetLocality
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,7 +53,7 @@ api_name:
 
 Gets the current locality of the font.
 
-## -parameters
+
 
 ## -returns
 

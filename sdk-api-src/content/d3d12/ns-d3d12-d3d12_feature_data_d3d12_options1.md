@@ -64,7 +64,7 @@ Specifies the baseline number of lanes in the SIMD wave that this implementation
 
 ### -field WaveLaneCountMax
 
-Specifies the maximum number of lanes in the SIMD wave that this implementation can support. This capability is reserved for future expansion, and is not expected to be used by current applications.
+Specifies the maximum number of lanes in the SIMD wave that this implementation can support.
 
 ### -field TotalLaneCount
 

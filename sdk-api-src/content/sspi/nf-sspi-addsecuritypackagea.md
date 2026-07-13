@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.AddSecurityPackageA
 title: AddSecurityPackageA function (sspi.h)
-description: Adds a security support provider to the list of providers supported by Microsoft Negotiate.
-helpviewer_keywords: ["AddSecurityPackage","AddSecurityPackage function [Security]","AddSecurityPackageA","AddSecurityPackageW","security.addsecuritypackage","sspi/AddSecurityPackage","sspi/AddSecurityPackageA","sspi/AddSecurityPackageW"]
+description: Adds a security support provider to the list of providers supported by Microsoft Negotiate. (ANSI)
+helpviewer_keywords: ["AddSecurityPackageA", "sspi/AddSecurityPackageA"]
 old-location: security\addsecuritypackage.htm
 tech.root: security
 ms.assetid: 35b993d2-87a0-46d0-991f-88358b0cc5e6
@@ -77,4 +77,4 @@ If the function fails, it returns a nonzero error code.
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines AddSecurityPackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines AddSecurityPackage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

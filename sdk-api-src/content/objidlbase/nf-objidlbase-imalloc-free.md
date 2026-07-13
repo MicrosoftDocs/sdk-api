@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IMalloc.Free
 title: IMalloc::Free (objidlbase.h)
-description: Frees a previously allocated block of memory.
+description: The IMalloc::Free (objidlbase.h) method frees a previously allocated block of memory.
 helpviewer_keywords: ["Free","Free method [COM]","Free method [COM]","IMalloc interface","IMalloc interface [COM]","Free method","IMalloc.Free","IMalloc::Free","_com_imalloc_free","com.imalloc_free","objidlbase/IMalloc::Free"]
 old-location: com\imalloc_free.htm
 tech.root: com
 ms.assetid: d65411ea-13d5-4932-a757-d897311e9e28
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: Free, Free method [COM], Free method [COM],IMalloc interface, IMalloc interface [COM],Free method, IMalloc.Free, IMalloc::Free, _com_imalloc_free, com.imalloc_free, objidlbase/IMalloc::Free
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

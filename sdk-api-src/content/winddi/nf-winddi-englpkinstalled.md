@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-core-win32k-full-export-l1-1-0.dll
  - Win32k.sys
 api_name:
  - EngLpkInstalled
@@ -52,7 +53,7 @@ api_name:
 
 The <b>EngLpkInstalled</b> function determines whether the language pack is installed on the system.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsURLA
 title: PathIsURLA function (shlwapi.h)
-description: Tests a given string to determine if it conforms to a valid URL format.
-helpviewer_keywords: ["PathIsURL","PathIsURL function [Windows Shell]","PathIsURLA","PathIsURLW","_win32_PathIsURL","shell.PathIsURL","shlwapi/PathIsURL","shlwapi/PathIsURLA","shlwapi/PathIsURLW"]
+description: Tests a given string to determine if it conforms to a valid URL format. (ANSI)
+helpviewer_keywords: ["PathIsURLA", "shlwapi/PathIsURLA"]
 old-location: shell\PathIsURL.htm
 tech.root: shell
 ms.assetid: 8791bcd8-0d8f-4f7b-9c8e-59bcb95b5d19
@@ -139,5 +139,5 @@ The return value from the function is 0 = FALSE
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathIsURL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathIsURL as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -60,7 +60,7 @@ api_name:
 
 The <b>CHPtrArray</b> method   constructor initializes a new instance of <a href="/windows/desktop/api/chptrarr/nl-chptrarr-chptrarray">CHPtrArray</a>.
 
-## -parameters
+
 
 ## -remarks
 

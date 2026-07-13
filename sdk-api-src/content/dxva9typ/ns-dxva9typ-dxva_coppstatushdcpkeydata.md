@@ -6,7 +6,7 @@ helpviewer_keywords: ["DXVA_COPPStatusHDCPKeyData","DXVA_COPPStatusHDCPKeyData s
 old-location: dshow\dxva_coppstatushdcpkeydata.htm
 tech.root: dshow
 ms.assetid: fd49c50d-6caa-4d2a-83c6-41ff0130160f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [DirectShow], DXVA_COPPStatusHDCPKeyDataStructure, _DXVA_COPPStatusHDCPKeyData, dshow.dxva_coppstatushdcpkeydata, dxva9typ/DXVA_COPPStatusHDCPKeyData
 req.header: dxva9typ.h
 req.include-header: Dxva.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Contains the result from an HDCP Key Data query in Certified Output Protection Protocol (COPP). This query returns the device's HDCP key selection vector (KSV).
 

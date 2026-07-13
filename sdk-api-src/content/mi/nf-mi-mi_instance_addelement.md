@@ -106,19 +106,19 @@ Method parameter will be streamed back to the client from the provider.
 
 
 
-#### MI_FLAG_BORROW (0x4000000)
+#### MI_FLAG_BORROW (0x40000000)
 
 Used while adding and setting properties on an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted.
 
 
 
-#### MI_FLAG_ADOPT (0x8000000)
+#### MI_FLAG_ADOPT (0x80000000)
 
 Used while adding and setting properties on an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
 
 
 
-#### MI_FLAG_NULL (0x2000000)
+#### MI_FLAG_NULL (0x20000000)
 
 Element value is <b>Null</b>.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetSpeed","MCIWndGetSpeed macro [Windows Multimedia
 old-location: multimedia\mciwndgetspeed.htm
 tech.root: Multimedia
 ms.assetid: d327b649-8c1e-4219-a1ec-8f89e3a9a33e
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetSpeed, MCIWndGetSpeed macro [Windows Multimedia], _win32_MCIWndGetSpeed, multimedia.mciwndgetspeed, vfw/MCIWndGetSpeed
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetSpeed macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetSpeed(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the playback speed if successful. The value for normal speed is 1000. Larger values indicate faster speeds; smaller values indicate slower speeds.
 
 
 ## -description

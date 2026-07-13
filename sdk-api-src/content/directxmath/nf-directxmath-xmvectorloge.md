@@ -11,23 +11,23 @@ ms.keywords: Use DirectX..XMVectorLogE, XMVectorLogE, XMVectorLogE method [Direc
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - XMVectorLogE
@@ -67,14 +67,16 @@ Returns a vector whose components are base e logarithm of the corresponding comp
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8.1. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-<b>XMVectorLogE</b> is new for DirectXMath version 3.05. 
+<b>XMVectorLogE</b> is new for DirectXMath version 3.05.
 
 It's similar to the existing <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog">XMVectorLog</a> function for Windows 8, but computes base e instead of base 2.
 
 
 <b>XMVectorLogE</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result;
 
 Result.x = logf(V.x);
@@ -83,7 +85,9 @@ Result.z = logf(V.z);
 Result.w = logf(V.w);
 
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 
@@ -91,8 +95,9 @@ return Result;
 
 
 
-<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorexpe">XMVectorExpE</a>
-
-
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog2">XMVectorLog2</a>
+
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog10">XMVectorLog10</a>
+
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorexpe">XMVectorExpE</a>

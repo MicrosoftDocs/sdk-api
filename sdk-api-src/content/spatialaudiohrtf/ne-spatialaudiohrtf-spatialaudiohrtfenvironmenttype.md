@@ -54,7 +54,7 @@ Specifies the type of acoustic environment that is simulated when audio is proce
 
 ## -enum-fields
 
-### -field SpatialAudioHrtfEnvironment_Small
+### -field SpatialAudioHrtfEnvironment_Small:0
 
 A small room.
 

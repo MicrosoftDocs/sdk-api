@@ -1,7 +1,8 @@
 ---
 UID: NF:processenv.SetStdHandleEx
 title: SetStdHandleEx
-ms.date: 4/26/2019
+description: The SetStdHandleEx function (processenv.h) sets the handle for the input, output, or error streams.
+ms.date: 08/05/2022
 ms.keywords: SetStdHandleEx
 targetos: Windows
 req.assembly: 
@@ -13,12 +14,12 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: kernel32.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -33,7 +34,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - api-ms-win-core-processenvironment-l1-2-0.dll
  - api-ms-win-core-processenvironment-l1-1-0.dll
+ - kernel32.dll
 api_name:
  - SetStdHandleEx
 ---
@@ -58,7 +62,9 @@ Optional. Receives the previous handle.
 
 ## -returns
 
-Returns S_OK on success.
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 

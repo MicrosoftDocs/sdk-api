@@ -1,7 +1,7 @@
 ---
 UID: NS:cpl.tagNEWCPLINFOA
 title: NEWCPLINFOA (cpl.h)
-description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
+description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. (NEWCPLINFOA)
 helpviewer_keywords: ["*LPNEWCPLINFOA","LPNEWCPLINFO","LPNEWCPLINFO structure pointer [Windows Shell]","NEWCPLINFO","NEWCPLINFO structure [Windows Shell]","NEWCPLINFOA","_win32_NEWCPLINFO","cpl/LPNEWCPLINFO","cpl/NEWCPLINFO","shell.NEWCPLINFO"]
 old-location: shell\NEWCPLINFO.htm
 tech.root: shell
@@ -109,7 +109,7 @@ This member is ignored.
 The <a href="/windows/desktop/api/cpl/nc-cpl-applet_proc">CPlApplet</a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="/windows/desktop/shell/glossary">CPL_NEWINQUIRE</a> message.
 
 > [!NOTE]
-> The cpl.h header defines NEWCPLINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cpl.h header defines NEWCPLINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

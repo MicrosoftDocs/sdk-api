@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddLanguageByRFC1766String","AddLanguageByRFC1766String m
 old-location: wmformat\iwmlanguagelist_addlanguagebyrfc1766string.htm
 tech.root: wmformat
 ms.assetid: 3aec575c-8e04-4252-8863-1a458e56dcef
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AddLanguageByRFC1766String, AddLanguageByRFC1766String method [windows Media Format], AddLanguageByRFC1766String method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],AddLanguageByRFC1766String method, IWMLanguageList.AddLanguageByRFC1766String, IWMLanguageList::AddLanguageByRFC1766String, IWMLanguageListAddLanguageByRFC1766String, wmformat.iwmlanguagelist_addlanguagebyrfc1766string, wmsdkidl/IWMLanguageList::AddLanguageByRFC1766String
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AddLanguageByRFC1766String</b> method adds an entry to the list of supported languages for a file based upon a language tag compliant with RFC 1766.
 

@@ -54,17 +54,17 @@ Defines the behavior of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmedi
 
 ## -enum-fields
 
-### -field MFSESSION_SETTOPOLOGY_IMMEDIATE
+### -field MFSESSION_SETTOPOLOGY_IMMEDIATE:0x1
 
 Stop the current presentation, clear all pending presentations, and immediately queue the new topology (specified by the <i>pTopology</i> parameter).
 
 If the <i>pTopology</i>  parameter is <b>NULL</b>, this flag has no effect.
 
-### -field MFSESSION_SETTOPOLOGY_NORESOLUTION
+### -field MFSESSION_SETTOPOLOGY_NORESOLUTION:0x2
 
 The topology does not need to be resolved. Use this flag if you are setting a full topology.
 
-### -field MFSESSION_SETTOPOLOGY_CLEAR_CURRENT
+### -field MFSESSION_SETTOPOLOGY_CLEAR_CURRENT:0x4
 
 <div class="alert"><b>Note</b>  Requires Windows 7.</div>
 <div> </div>

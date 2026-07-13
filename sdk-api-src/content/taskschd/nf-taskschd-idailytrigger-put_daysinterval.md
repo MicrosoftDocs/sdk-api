@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IDailyTrigger.put_DaysInterval
 title: IDailyTrigger::put_DaysInterval (taskschd.h)
-description: Gets or sets the interval between the days in the schedule.
+description: Gets or sets the interval between the days in the schedule. (Put)
 helpviewer_keywords: ["DaysInterval property [Task Scheduler]","DaysInterval property [Task Scheduler]","IDailyTrigger interface","IDailyTrigger interface [Task Scheduler]","DaysInterval property","IDailyTrigger.DaysInterval","IDailyTrigger.put_DaysInterval","IDailyTrigger::DaysInterval","IDailyTrigger::get_DaysInterval","IDailyTrigger::put_DaysInterval","put_DaysInterval","taskschd.idailytrigger_daysinterval","taskschd/IDailyTrigger::DaysInterval","taskschd/IDailyTrigger::get_DaysInterval","taskschd/IDailyTrigger::put_DaysInterval"]
 old-location: taskschd\idailytrigger_daysinterval.htm
 tech.root: taskschd

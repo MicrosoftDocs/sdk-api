@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSLISTENERCONFIGA
 title: WTSLISTENERCONFIGA (wtsapi32.h)
-description: Contains information about a Remote Desktop Services listener.
+description: Contains information about a Remote Desktop Services listener. (ANSI)
 helpviewer_keywords: ["*PWTSLISTENERCONFIGA","1","2","3","4","5","PWTSLISTENERCONFIG","PWTSLISTENERCONFIG structure pointer [Remote Desktop Services]","WTSLISTENERCONFIG","WTSLISTENERCONFIG structure [Remote Desktop Services]","WTSLISTENERCONFIGA","WTSLISTENERCONFIGW","termserv.wtslistenerconfig","wtsapi32/PWTSLISTENERCONFIG","wtsapi32/WTSLISTENERCONFIG","wtsapi32/WTSLISTENERCONFIGA","wtsapi32/WTSLISTENERCONFIGW"]
 old-location: termserv\wtslistenerconfig.htm
 tech.root: TermServ
@@ -474,4 +474,4 @@ A null-terminated string that contains the name of  the program to start immedia
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSLISTENERCONFIG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSLISTENERCONFIG as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

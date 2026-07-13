@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetCalendarCount","MonthCal_GetCalendarCount mac
 old-location: controls\MonthCal_GetCalendarCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendarcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetCalendarCount, MonthCal_GetCalendarCount macro [Windows Controls], _shell_MonthCal_GetCalendarCount, _shell_MonthCal_GetCalendarCount_cpp, commctrl/MonthCal_GetCalendarCount, controls.MonthCal_GetCalendarCount, controls._shell_MonthCal_GetCalendarCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MonthCal_GetCalendarCount macro
+
+## -syntax
+
+```cpp
+DWORD MonthCal_GetCalendarCount(
+   HWND hmc
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Number of calendars currently displayed in the calendar control. The maximum number of allowed calendars is 12.
 
 
 ## -description

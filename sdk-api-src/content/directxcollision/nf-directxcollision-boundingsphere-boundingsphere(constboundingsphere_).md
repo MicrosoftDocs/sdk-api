@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.BoundingSphere(constBoundingSphere&)
 title: BoundingSphere::BoundingSphere(const BoundingSphere &)
-description: Creates an instance of the BoundingSphere class.
+description: Creates an instance of the BoundingSphere class. (overload 2/3)
 helpviewer_keywords: ["BoundingSphere","BoundingSphere interface [DirectX Math Support APIs]","DirectX.BoundingSphere constructor","BoundingSphere.BoundingSphere","BoundingSphere.BoundingSphere(const BoundingSphere &)","BoundingSphere.DirectX.BoundingSphere(const BoundingSphere&)","BoundingSphere::BoundingSphere","BoundingSphere::BoundingSphere(const BoundingSphere &)","DirectX.BoundingSphere constructor [DirectX Math Support APIs]","DirectX.BoundingSphere constructor [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_ctor_3"]
 old-location: dxmath\boundingsphere_ctor_3.htm
 tech.root: dxmath

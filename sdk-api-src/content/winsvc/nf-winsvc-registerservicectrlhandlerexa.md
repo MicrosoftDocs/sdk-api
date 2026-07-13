@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.RegisterServiceCtrlHandlerExA
 title: RegisterServiceCtrlHandlerExA function (winsvc.h)
-description: Registers a function to handle extended service control requests.
-helpviewer_keywords: ["RegisterServiceCtrlHandlerEx","RegisterServiceCtrlHandlerEx function","RegisterServiceCtrlHandlerExA","RegisterServiceCtrlHandlerExW","_win32_registerservicectrlhandlerex","base.registerservicectrlhandlerex","winsvc/RegisterServiceCtrlHandlerEx","winsvc/RegisterServiceCtrlHandlerExA","winsvc/RegisterServiceCtrlHandlerExW"]
+description: Registers a function to handle extended service control requests. (ANSI)
+helpviewer_keywords: ["RegisterServiceCtrlHandlerExA", "winsvc/RegisterServiceCtrlHandlerExA"]
 old-location: base\registerservicectrlhandlerex.htm
 tech.root: security
 ms.assetid: 23eea346-9899-4214-88f4-9b7eb7ce1332
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - sechost.dll
@@ -138,7 +139,7 @@ The service status handle does not have to be closed.
 
 
 > [!NOTE]
-> The winsvc.h header defines RegisterServiceCtrlHandlerEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines RegisterServiceCtrlHandlerEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

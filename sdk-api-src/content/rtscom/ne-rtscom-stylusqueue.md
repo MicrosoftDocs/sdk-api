@@ -54,15 +54,15 @@ api_name:
 
 ## -enum-fields
 
-### -field SyncStylusQueue
+### -field SyncStylusQueue:0x1
 
 Data is added to the input queue. When data is added to the input queue, it is automatically added to the output queue.
 
-### -field AsyncStylusQueueImmediate
+### -field AsyncStylusQueueImmediate:0x2
 
 Data is added to the output queue. The data is added before any data currently being processed.
 
-### -field AsyncStylusQueue
+### -field AsyncStylusQueue:0x3
 
 Data is added to the output queue.
 

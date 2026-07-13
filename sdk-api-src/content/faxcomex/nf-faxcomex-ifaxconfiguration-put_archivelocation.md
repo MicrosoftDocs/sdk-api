@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_ArchiveLocation
 title: IFaxConfiguration::put_ArchiveLocation (faxcomex.h)
-description: Sets or retrieves a value that indicates the location of the archive on the server.
+description: Sets or retrieves a value that indicates the location of the archive on the server. (Put)
 helpviewer_keywords: ["ArchiveLocation property [Fax Service]","ArchiveLocation property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","ArchiveLocation property","IFaxConfiguration.ArchiveLocation","IFaxConfiguration.put_ArchiveLocation","IFaxConfiguration::ArchiveLocation","IFaxConfiguration::get_ArchiveLocation","IFaxConfiguration::put_ArchiveLocation","_mfax_IFaxConfiguration_ArchiveLocation","fax._mfax_IFaxConfiguration_ArchiveLocation","faxcomex/IFaxConfiguration::ArchiveLocation","faxcomex/IFaxConfiguration::get_ArchiveLocation","faxcomex/IFaxConfiguration::put_ArchiveLocation","put_ArchiveLocation"]
 old-location: fax\_mfax_IFaxConfiguration_ArchiveLocation.htm
 tech.root: Fax

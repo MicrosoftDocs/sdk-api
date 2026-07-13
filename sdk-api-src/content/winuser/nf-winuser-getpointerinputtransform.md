@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll
+ - ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
  - MinUser.dll
@@ -111,7 +114,7 @@ If <i>historyCount</i> contains a value larger than the <b>historyCount</b> fiel
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback2.OnProcessSampleEx
 title: IMFSampleGrabberSinkCallback2::OnProcessSampleEx (mfidl.h)
-description: Called when the sample-grabber sink receives a new media sample.
+description: Called when the sample-grabber sink receives a new media sample. (IMFSampleGrabberSinkCallback2.OnProcessSampleEx)
 helpviewer_keywords: ["IMFSampleGrabberSinkCallback2 interface [Media Foundation]","OnProcessSampleEx method","IMFSampleGrabberSinkCallback2.OnProcessSampleEx","IMFSampleGrabberSinkCallback2::OnProcessSampleEx","OnProcessSampleEx","OnProcessSampleEx method [Media Foundation]","OnProcessSampleEx method [Media Foundation]","IMFSampleGrabberSinkCallback2 interface","mf.imfsamplegrabbersinkcallback2_onprocesssampleex","mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx"]
 old-location: mf\imfsamplegrabbersinkcallback2_onprocesssampleex.htm
 tech.root: mf
@@ -86,7 +86,7 @@ A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattribu
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

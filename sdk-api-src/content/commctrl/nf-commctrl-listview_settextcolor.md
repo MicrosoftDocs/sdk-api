@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetTextColor","ListView_SetTextColor macro [Wind
 old-location: controls\ListView_SetTextColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settextcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetTextColor, ListView_SetTextColor macro [Windows Controls], _win32_ListView_SetTextColor, _win32_ListView_SetTextColor_cpp, commctrl/ListView_SetTextColor, controls.ListView_SetTextColor, controls._win32_ListView_SetTextColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetTextColor macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetTextColor(
+   HWND     hwnd,
+   COLORREF clrText
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

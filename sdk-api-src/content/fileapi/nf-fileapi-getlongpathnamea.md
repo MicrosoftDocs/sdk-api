@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetLongPathNameA
 title: GetLongPathNameA function (fileapi.h)
-description: Converts the specified path to its long form.
-helpviewer_keywords: ["GetLongPathName","GetLongPathName function [Files]","GetLongPathNameA","GetLongPathNameW","_win32_getlongpathname","base.getlongpathname","fileapi/GetLongPathName","fileapi/GetLongPathNameA","fileapi/GetLongPathNameW","fs.getlongpathname","winbase/GetLongPathName","winbase/GetLongPathNameA","winbase/GetLongPathNameW"]
+description: Converts the specified path to its long form. (ANSI)
+helpviewer_keywords: ["GetLongPathNameA", "fileapi/GetLongPathNameA"]
 old-location: fs\getlongpathname.htm
 tech.root: fs
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -73,15 +76,6 @@ For more information about file and path names, see
 
 The path to be converted.
 
-In the ANSI version of this function, 
-       <b>GetLongPathNameA</b>, the name is limited to 
-       <b>MAX_PATH</b> (260) characters. To extend this limit to 32,767 wide characters, call the 
-       Unicode version of the function, <b>GetLongPathNameW</b>, 
-       and prepend "\\\\?\\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
-
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>GetLongPathNameW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
 
 ### -param lpszLongPath [out]
 
@@ -99,7 +93,7 @@ The size of the buffer <i>lpszLongPath</i> points to, in
 If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the 
        string copied to <i>lpszLongPath</i>, not including the terminating null character.
 
-If the <i>lpBuffer</i> buffer is too small to contain the path, the return value is the 
+If the <i>lpszLongPath</i> buffer is too small to contain the path, the return value is the 
        size, in <b>TCHARs</b>, of the buffer that is required to hold the path and the 
        terminating null character.
 
@@ -206,7 +200,7 @@ For an example that uses <b>GetLongPathName</b>, see the
 
 
 > [!NOTE]
-> The fileapi.h header defines GetLongPathName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The fileapi.h header defines GetLongPathName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

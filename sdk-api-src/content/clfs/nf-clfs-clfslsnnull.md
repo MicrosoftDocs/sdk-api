@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-fs-clfs-l1-1-0.dll
  - Clfsw32.dll
 api_name:
  - LsnNull

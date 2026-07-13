@@ -2,7 +2,7 @@
 UID: NF:winuser.IsCharLowerA
 title: IsCharLowerA function (winuser.h)
 description: Determines whether a character is lowercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
-helpviewer_keywords: ["IsCharLower","IsCharLower function [Menus and Other Resources]","IsCharLowerA","_win32_IsCharLower","_win32_ischarlower_cpp","menurc.ischarlower","winui._win32_ischarlower","winuser/IsCharLower","winuser/IsCharLowerA"]
+helpviewer_keywords: ["IsCharLowerA", "winuser/IsCharLowerA"]
 old-location: menurc\ischarlower.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischarlower.htm
@@ -92,4 +92,4 @@ If the character is not lowercase, the return value is zero. To get extended err
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines IsCharLower as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines IsCharLower as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

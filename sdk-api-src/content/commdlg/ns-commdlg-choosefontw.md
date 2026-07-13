@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagCHOOSEFONTW
 title: CHOOSEFONTW (commdlg.h)
-description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. (Unicode)
 helpviewer_keywords: ["*LPCHOOSEFONTW","BOLD_FONTTYPE","CF_ANSIONLY","CF_APPLY","CF_BOTH","CF_EFFECTS","CF_ENABLEHOOK","CF_ENABLETEMPLATE","CF_ENABLETEMPLATEHANDLE","CF_FIXEDPITCHONLY","CF_FORCEFONTEXIST","CF_INACTIVEFONTS","CF_INITTOLOGFONTSTRUCT","CF_LIMITSIZE","CF_NOFACESEL","CF_NOOEMFONTS","CF_NOSCRIPTSEL","CF_NOSIMULATIONS","CF_NOSIZESEL","CF_NOSTYLESEL","CF_NOVECTORFONTS","CF_NOVERTFONTS","CF_PRINTERFONTS","CF_SCALABLEONLY","CF_SCREENFONTS","CF_SCRIPTSONLY","CF_SELECTSCRIPT","CF_SHOWHELP","CF_TTONLY","CF_USESTYLE","CF_WYSIWYG","CHOOSEFONT","CHOOSEFONT structure [Dialog Boxes]","CHOOSEFONTA","CHOOSEFONTW","ITALIC_FONTTYPE","LPCHOOSEFONT","LPCHOOSEFONT structure pointer [Dialog Boxes]","PRINTER_FONTTYPE","REGULAR_FONTTYPE","SCREEN_FONTTYPE","SIMULATED_FONTTYPE","_win32_CHOOSEFONT_str","_win32_choosefont_str_cpp","commdlg/CHOOSEFONT","commdlg/CHOOSEFONTA","commdlg/CHOOSEFONTW","commdlg/LPCHOOSEFONT","dlgbox.choosefont_str","tagCHOOSEFONTA","tagCHOOSEFONTW","winui._win32_choosefont_str"]
 old-location: dlgbox\choosefont_str.htm
 tech.root: dlgbox
@@ -51,10 +51,9 @@ api_name:
 
 # CHOOSEFONTW structure
 
-
 ## -description
 
-Contains information that the <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function uses to initialize the <b>Font</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+Contains information that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function uses to initialize the <b>Font</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
 ## -struct-fields
 
@@ -593,4 +592,4 @@ The maximum point size a user can select. <a href="/previous-versions/windows/de
 ## -remarks
 
 > [!NOTE]
-> The commdlg.h header defines CHOOSEFONT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines CHOOSEFONT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

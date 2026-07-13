@@ -60,7 +60,7 @@ The <b>POLICY_LSA_SERVER_ROLE</b> enumeration type defines values that indicate 
 
 ## -enum-fields
 
-### -field PolicyServerRoleBackup
+### -field PolicyServerRoleBackup:2
 
 Indicates a backup LSA server.
 

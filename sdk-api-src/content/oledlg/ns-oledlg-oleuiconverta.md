@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUICONVERTA
 title: OLEUICONVERTA (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed. (ANSI)
 helpviewer_keywords: ["*LPOLEUICONVERTA","*POLEUICONVERTA","CF_CONVERTONLY","CF_DISABLEACTIVATEAS","CF_DISABLEDISPLAYASICON","CF_HIDECHANGEICON","CF_SELECTACTIVATEAS","CF_SELECTCONVERTTO","CF_SETACTIVATEDEFAULT","CF_SETCONVERTDEFAULT","CF_SHOWHELPBUTTON","LPOLEUICONVERT","LPOLEUICONVERT structure pointer [COM]","OLEUICONVERT","OLEUICONVERT structure [COM]","OLEUICONVERTA","OLEUICONVERTW","POLEUICONVERT","POLEUICONVERT structure pointer [COM]","_ole_OLEUICONVERT_str","com.oleuiconvert_struct","oledlg/LPOLEUICONVERT","oledlg/OLEUICONVERT","oledlg/OLEUICONVERTA","oledlg/OLEUICONVERTW","oledlg/POLEUICONVERT"]
 old-location: com\oleuiconvert_struct.htm
 tech.root: com
@@ -265,4 +265,4 @@ Pointer to the list of CLSIDs to exclude from the list.
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUICONVERT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUICONVERT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_Display
 title: IX509EnrollmentStatus::get_Display (certenroll.h)
-description: Specifies or retrieves a value that indicates whether to display the status information in a user interface.
+description: Specifies or retrieves a value that indicates whether to display the status information in a user interface. (Get)
 helpviewer_keywords: ["Display property [Security]","Display property [Security]","IX509EnrollmentStatus interface","IX509EnrollmentStatus interface [Security]","Display property","IX509EnrollmentStatus.Display","IX509EnrollmentStatus.get_Display","IX509EnrollmentStatus::Display","IX509EnrollmentStatus::get_Display","IX509EnrollmentStatus::put_Display","certenroll/IX509EnrollmentStatus::Display","certenroll/IX509EnrollmentStatus::get_Display","certenroll/IX509EnrollmentStatus::put_Display","get_Display","security.ix509enrollmentstatus_display_property"]
 old-location: security\ix509enrollmentstatus_display_property.htm
 tech.root: security

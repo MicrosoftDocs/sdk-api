@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_ParentWindow
 title: IX509Enrollment::get_ParentWindow (certenroll.h)
-description: Specifies or retrieves the ID of the window used to display the enrollment information.
+description: Specifies or retrieves the ID of the window used to display the enrollment information. (Get)
 helpviewer_keywords: ["IX509Enrollment interface [Security]","ParentWindow property","IX509Enrollment.ParentWindow","IX509Enrollment.get_ParentWindow","IX509Enrollment::ParentWindow","IX509Enrollment::get_ParentWindow","IX509Enrollment::put_ParentWindow","ParentWindow property [Security]","ParentWindow property [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::ParentWindow","certenroll/IX509Enrollment::get_ParentWindow","certenroll/IX509Enrollment::put_ParentWindow","get_ParentWindow","security.ix509enrollment_parentwindow_property"]
 old-location: security\ix509enrollment_parentwindow_property.htm
 tech.root: security

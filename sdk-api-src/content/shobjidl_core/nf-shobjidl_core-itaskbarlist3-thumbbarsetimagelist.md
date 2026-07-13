@@ -6,7 +6,7 @@ helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","ThumbBarSetImag
 old-location: shell\ITaskbarList3_ThumbBarSetImageList.htm
 tech.root: shell
 ms.assetid: 5c288b64-8630-42ca-9821-8e131f11f76d
-ms.date: 12/05/2018
+ms.date: 08/22/2025
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarSetImageList method, ITaskbarList3.ThumbBarSetImageList, ITaskbarList3::ThumbBarSetImageList, ThumbBarSetImageList, ThumbBarSetImageList method [Windows Shell], ThumbBarSetImageList method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarSetImageList, shell.ITaskbarList3_ThumbBarSetImageList, shobjidl_core/ITaskbarList3::ThumbBarSetImageList
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -47,7 +47,6 @@ api_name:
 
 # ITaskbarList3::ThumbBarSetImageList
 
-
 ## -description
 
 Specifies an image list that contains button images for a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
@@ -56,52 +55,53 @@ Specifies an image list that contains button images for a toolbar embedded in a 
 
 ### -param hwnd [in]
 
-Type: <b>HWND</b>
+Type: **HWND**
 
 The handle of the window whose thumbnail representation contains the toolbar to be updated. This handle must belong to the calling process.
 
 ### -param himl [in]
 
-Type: <b>HIMAGELIST</b>
+Type: **HIMAGELIST**
 
 The handle of the image list that contains all button images to be used in the toolbar.
 
 ## -returns
 
-Type: <b>HRESULT</b>
+Type: **HRESULT**
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 Applications must provide these button images:
-                
-                
 
+- The button in its default active state.
+- Images suitable for use with high-dpi (dots per inch) displays.
 
-<ul>
-<li>The button in its default active state.</li>
-<li>Images suitable for use with high-dpi (dots per inch) displays.</li>
-</ul>
+Images must be 32-bit and of dimensions [GetSystemMetrics](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)(SM_CXICON) x [GetSystemMetrics](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)(SM_CYICON). The toolbar itself provides visuals for a button's clicked, disabled, and hover states.
 
+### Accessibility
 
-Images must be 32-bit and of dimensions <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>(SM_CXICON) x <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>(SM_CYICON). The toolbar itself provides visuals for a button's clicked, disabled, and hover states.
+The button images supplied in the [THUMBBUTTON](ns-shobjidl_core-thumbbutton.md) structure indexed from the image list can be used in a variety of user personalization scenarios. A common example is light and dark color modes and contrast themes for accessibility. Choose assets that remain visually clear in all these contexts.
 
+You can handle this in two ways:
 
-#### Examples
+- Register for theme change events (see [Support Dark and Light themes in Win32 apps](/windows/apps/desktop/modernize/ui/apply-windows-themes)) and update buttons when themes change.
+- Use assets with built-in contrast, like glyphs with solid white fills and solid black outlines.
+
+### Examples
 
 The following example shows how to create a thumbnail toolbar with two buttons whose images come from an image list.
 
-
 ```cpp
 
-HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
+HRESULT AddThumbBarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 {
     // Define an array of two buttons. These buttons provide images through an 
     // image list and also provide tooltips.
     DWORD dwMask = THB_BITMAP | THB_TOOLTIP | THB_FLAGS;
     
-    THUMBBUTON thbButtons[2];
+    THUMBBUTTON thbButtons[2];
     thbButtons[0].dwMask = dwMask;
     thbButtons[0].iId = 0;
     thbButtons[0].iBitmap = 0;
@@ -139,24 +139,14 @@ HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 
 ## -see-also
 
-<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
+[ITaskbarList](nn-shobjidl_core-itaskbarlist.md)
 
+[ITaskbarList2](nn-shobjidl_core-itaskbarlist2.md)
 
+[ITaskbarList3](nn-shobjidl_core-itaskbarlist3.md)
 
-<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
+[ITaskbarList3::ThumbBarAddButtons](nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons.md)
 
+[ITaskbarList3::ThumbBarUpdateButtons](nf-shobjidl_core-itaskbarlist3-thumbbarupdatebuttons.md)
 
-
-<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>
-
-
-
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons">ITaskbarList3::ThumbBarAddButtons</a>
-
-
-
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarupdatebuttons">ITaskbarList3::ThumbBarUpdateButtons</a>
-
-
-
-<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
+[Taskbar Extensions](/windows/desktop/shell/taskbar-extensions)

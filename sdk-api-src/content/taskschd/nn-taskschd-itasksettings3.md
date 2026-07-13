@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.ITaskSettings3
 title: ITaskSettings3 (taskschd.h)
-description: Provides the extended settings that the Task Scheduler uses to run the task.
+description: Provides the extended settings that the Task Scheduler uses to run the task. (ITaskSettings3)
 helpviewer_keywords: ["ITaskSettings3","ITaskSettings3 interface [Task Scheduler]","ITaskSettings3 interface [Task Scheduler]","described","taskschd.itasksettings3","taskschd/ITaskSettings3"]
 old-location: taskschd\itasksettings3.htm
 tech.root: taskschd
@@ -54,11 +54,7 @@ Provides the extended settings that the Task Scheduler uses to run the task.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskSettings3</b> interface inherits from <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>. <b>ITaskSettings3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>ITaskSettings3</b> interface inherits from <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>. <b>ITaskSettings3</b> also has these types of members:
 
 ## -see-also
 

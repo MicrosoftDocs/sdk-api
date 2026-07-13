@@ -60,7 +60,7 @@ The DDGETSURFACESTATEOUT structure contains the capabilities and status of the s
 
 ### -field ddRVal
 
-Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff550673(v=vs.85)">DD_DXAPI_GET_SURFACE_STATE</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff550673(v=vs.85)">DD_DXAPI_GET_SURFACE_STATE</a> operations. A return code of DD_OK indicates success.
 
 ### -field dwStateCaps
 
@@ -160,4 +160,4 @@ Weave mode is being used on this surface.
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

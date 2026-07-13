@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.EncryptionChanged
 title: IOfflineFilesEvents::EncryptionChanged (cscobj.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IOfflineFilesEvents.EncryptionChanged)
 helpviewer_keywords: ["EncryptionChanged","EncryptionChanged method [Offline Files]","EncryptionChanged method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","EncryptionChanged method","IOfflineFilesEvents.EncryptionChanged","IOfflineFilesEvents::EncryptionChanged","cscobj/IOfflineFilesEvents::EncryptionChanged","of.iofflinefilesevents_encryptionchanged"]
 old-location: of\iofflinefilesevents_encryptionchanged.htm
 tech.root: of
@@ -65,7 +65,7 @@ This method is reserved for future use.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

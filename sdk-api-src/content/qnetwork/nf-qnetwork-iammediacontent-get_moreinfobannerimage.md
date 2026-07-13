@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_MoreInfoBann
 old-location: dshow\iammediacontent_get_moreinfobannerimage.htm
 tech.root: dshow
 ms.assetid: ae456ce2-4df8-4a36-88f5-526acb722bda
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerImage method, IAMMediaContent.get_MoreInfoBannerImage, IAMMediaContent::get_MoreInfoBannerImage, IAMMediaContentget_MoreInfoBannerImage, dshow.iammediacontent_get_moreinfobannerimage, get_MoreInfoBannerImage, get_MoreInfoBannerImage method [DirectShow], get_MoreInfoBannerImage method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerImage
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_MoreInfoBannerImage</code> method retrieves an image for a related-information banner.
 

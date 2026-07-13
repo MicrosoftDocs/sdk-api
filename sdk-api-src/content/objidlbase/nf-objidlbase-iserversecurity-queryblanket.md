@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IServerSecurity.QueryBlanket
 title: IServerSecurity::QueryBlanket (objidlbase.h)
-description: Retrieves information about the client that invoked one of the server's methods.
+description: The IServerSecurity::QueryBlanket (objidlbase.h) method retrieves information about the client that invoked one of the server's methods.
 helpviewer_keywords: ["IServerSecurity interface [COM]","QueryBlanket method","IServerSecurity.QueryBlanket","IServerSecurity::QueryBlanket","QueryBlanket","QueryBlanket method [COM]","QueryBlanket method [COM]","IServerSecurity interface","_com_iserversecurity_queryblanket","com.iserversecurity_queryblanket","objidlbase/IServerSecurity::QueryBlanket"]
 old-location: com\iserversecurity_queryblanket.htm
 tech.root: com
 ms.assetid: 1a6fd68c-8e71-45f8-8a8e-c8a5f4f36868
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IServerSecurity interface [COM],QueryBlanket method, IServerSecurity.QueryBlanket, IServerSecurity::QueryBlanket, QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM],IServerSecurity interface, _com_iserversecurity_queryblanket, com.iserversecurity_queryblanket, objidlbase/IServerSecurity::QueryBlanket
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

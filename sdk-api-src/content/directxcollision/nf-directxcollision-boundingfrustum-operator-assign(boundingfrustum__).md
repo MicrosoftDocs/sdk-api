@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.operator-assign(BoundingFrustum&&)
 title: BoundingFrustum::operator-assign(BoundingFrustum &&)
-description: Copies values from another BoundingFrustum.
+description: Copies values from another BoundingFrustum. (overload 2/2)
 helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","op_Assignment method","BoundingFrustum.op_Assignment","BoundingFrustum.operator-assign(BoundingFrustum &&)","BoundingFrustum.operator=","BoundingFrustum::operator-assign(BoundingFrustum &&)","BoundingFrustum::operator=","dxmath.boundingfrustum_op_assignment","op_Assignment method [DirectX Math Support APIs]","op_Assignment method [DirectX Math Support APIs]","BoundingFrustum interface","operator="]
 old-location: dxmath\boundingfrustum_op_assignment.htm
 tech.root: dxmath

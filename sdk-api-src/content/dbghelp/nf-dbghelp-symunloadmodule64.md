@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymUnloadModule64
 title: SymUnloadModule64 function (dbghelp.h)
-description: Unloads the symbol table.
+description: Unloads the symbol table. (SymUnloadModule64)
 helpviewer_keywords: ["SymUnloadModule","SymUnloadModule function","SymUnloadModule64","SymUnloadModule64 function","_win32_symunloadmodule64","base.symunloadmodule64","dbghelp/SymUnloadModule","dbghelp/SymUnloadModule64"]
 old-location: base\symunloadmodule64.htm
 tech.root: Debug

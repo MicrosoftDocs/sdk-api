@@ -72,7 +72,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CERTSRV_E_PROPERTY_EMPTY</b></b></dt>
+<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -84,7 +84,7 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX50
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_ARITHMETIC_OVERFLOW</b></b></dt>
+<dt><b>ERROR_ARITHMETIC_OVERFLOW</b></dt>
 <dt></dt>
 </dl>
 </td>

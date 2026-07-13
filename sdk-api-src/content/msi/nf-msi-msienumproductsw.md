@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiEnumProductsW
 title: MsiEnumProductsW function (msi.h)
-description: The MsiEnumProducts function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine installation context and advertisements are enumerated.
-helpviewer_keywords: ["MsiEnumProducts","MsiEnumProducts function","MsiEnumProductsA","MsiEnumProductsW","_msi_msienumproducts","msi/MsiEnumProducts","msi/MsiEnumProductsA","msi/MsiEnumProductsW","setup.msienumproducts"]
+description: The MsiEnumProducts function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine installation context and advertisements are enumerated. (Unicode)
+helpviewer_keywords: ["MsiEnumProducts", "MsiEnumProducts function", "MsiEnumProductsW", "_msi_msienumproducts", "msi/MsiEnumProducts", "msi/MsiEnumProductsW", "setup.msienumproducts"]
 old-location: setup\msienumproducts.htm
 tech.root: setup
 ms.assetid: c05ddc32-2c61-49ab-991f-8f9efae331a4
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-msi-misc-l1-1-0.dll
  - Msi.dll
 api_name:
  - MsiEnumProducts
@@ -144,7 +145,7 @@ When making multiple calls to
 
 
 > [!NOTE]
-> The msi.h header defines MsiEnumProducts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiEnumProducts as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

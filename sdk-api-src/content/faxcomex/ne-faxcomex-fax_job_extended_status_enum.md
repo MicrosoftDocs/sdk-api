@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>FAX_JOB_EXTENDED_STATUS_ENUM</b> enumeration defines the extended status values for a fax job. These are basic values provided for developers of a fax service provider (FSP). However, with the exception of <b><b>fjesPARTIALLY_RECEIVED</b></b>, these values or other proprietary values that may be developed for a specific FSP, are not recognized or interpreted by the fax server.
+The <b>FAX_JOB_EXTENDED_STATUS_ENUM</b> enumeration defines the extended status values for a fax job. These are basic values provided for developers of a fax service provider (FSP). However, with the exception of <b>fjesPARTIALLY_RECEIVED</b>, these values or other proprietary values that may be developed for a specific FSP, are not recognized or interpreted by the fax server.
 
 ## -enum-fields
 
-### -field fjesNONE
+### -field fjesNONE:0
 
 No extended status value.
 
@@ -134,7 +134,7 @@ The call was completed.
 
 The call was aborted.
 
-### -field fjesPROPRIETARY
+### -field fjesPROPRIETARY:0x1000000
 
 Obsolete. For information about proprietary extended status codes, see <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-extendedstatuscode-vb">IFaxOutgoingJob::get_ExtendedStatusCode</a>.
 

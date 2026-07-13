@@ -73,7 +73,7 @@ If the function succeeds, it returns <b>S_OK</b>. If the function fails, it retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,7 @@ The caller does not have permission to switch users or the biometric session is 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -95,7 +95,7 @@ The session handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_FALSE</b></b></dt>
+<dt><b>S_FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -117,7 +117,7 @@ The user could not be logged on.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_CRED_PROV_DISABLED</b></b></dt>
+<dt><b>WINBIO_E_CRED_PROV_DISABLED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -128,7 +128,7 @@ Current administrative policy prohibits use of the credential provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_FAST_USER_SWITCH_DISABLED</b></b></dt>
+<dt><b>WINBIO_E_FAST_USER_SWITCH_DISABLED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ Fast user switching is not enabled.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_SAS_ENABLED</b></b></dt>
+<dt><b>WINBIO_E_SAS_ENABLED</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3dcommon.ID3DDestructionNotifier
 title: ID3DDestructionNotifier (d3dcommon.h)
-description: **ID3DDestructionNotifier** is an interface that you can use to register for callbacks when a Direct3D nano-COM object is destroyed.
+description: "**ID3DDestructionNotifier** is an interface that you can use to register for callbacks when a Direct3D nano-COM object is destroyed."
 helpviewer_keywords: ["ID3DDestructionNotifier","ID3DDestructionNotifier interface [Direct3D]","ID3DDestructionNotifier interface [Direct3D]","described","d3dcommon/ID3DDestructionNotifier","direct3d.id3ddestructionnotifier"]
 tech.root: direct3d11
 ms.date: 10/06/2020
@@ -61,8 +61,8 @@ The <b>ID3DDestructionNotifier</b> can be used to track resources which are bein
 
 ## -see-also
 
-<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a>
+<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a>
 
-<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>
+<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-interfaces">Common Version Interfaces</a>

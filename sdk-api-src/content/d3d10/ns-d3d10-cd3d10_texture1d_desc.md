@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.CD3D10_TEXTURE1D_DESC
 title: CD3D10_TEXTURE1D_DESC (d3d10.h)
-description: Describes a 1D texture.
+description: Describes a 1D texture.D
 helpviewer_keywords: ["3b8edbcf-2f3c-dbad-9241-29cfd861f8cf","CD3D10_TEXTURE1D_DESC","D3D10_TEXTURE1D_DESC","D3D10_TEXTURE1D_DESC structure [Direct3D 10]","d3d10/D3D10_TEXTURE1D_DESC","direct3d10.d3d10_texture1d_desc"]
 old-location: direct3d10\d3d10_texture1d_desc.htm
 tech.root: direct3d10

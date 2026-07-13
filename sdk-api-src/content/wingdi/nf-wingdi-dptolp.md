@@ -64,7 +64,7 @@ A handle to the device context.
 
 ### -param lppt [in, out]
 
-A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures. The x- and y-coordinates contained in each <b>POINT</b> structure will be transformed.
+A pointer to an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures. The x- and y-coordinates contained in each <b>POINT</b> structure will be transformed.
 
 ### -param c [in]
 
@@ -101,4 +101,4 @@ For an example, see <a href="/windows/desktop/gdi/using-coordinate-spaces-and-tr
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>

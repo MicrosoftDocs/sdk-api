@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_Invitations
 title: IRDPSRAPISharingSession::get_Invitations (rdpencomapi.h)
-description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
+description: Returns an object implementing the IRDPSRAPIInvitationManager interface. (IRDPSRAPISharingSession.get_Invitations)
 helpviewer_keywords: ["IRDPSRAPISharingSession interface [RDP]","Invitations property","IRDPSRAPISharingSession.Invitations","IRDPSRAPISharingSession.get_Invitations","IRDPSRAPISharingSession2 interface [RDP]","Invitations property","IRDPSRAPISharingSession2.Invitations","IRDPSRAPISharingSession2::Invitations","IRDPSRAPISharingSession2::get_Invitations","IRDPSRAPISharingSession::get_Invitations","Invitations property [RDP]","Invitations property [RDP]","IRDPSRAPISharingSession interface","Invitations property [RDP]","IRDPSRAPISharingSession2 interface","Invitations property [RDP]","RDPSession object","RDPSession object [RDP]","Invitations property","get_Invitations","rdp.irdpsrapisharingsession_invitations","rdpencomapi/IRDPSRAPISharingSession2::Invitations","rdpencomapi/IRDPSRAPISharingSession2::get_Invitations","rdpencomapi/IRDPSRAPISharingSession::Invitations","rdpencomapi/IRDPSRAPISharingSession::get_Invitations"]
 old-location: rdp\irdpsrapisharingsession_invitations.htm
 tech.root: rdp

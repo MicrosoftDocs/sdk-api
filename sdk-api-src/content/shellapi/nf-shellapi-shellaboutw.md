@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ShellAboutW
 title: ShellAboutW function (shellapi.h)
-description: Displays a ShellAbout dialog box.
-helpviewer_keywords: ["ShellAbout","ShellAbout function [Windows Shell]","ShellAboutA","ShellAboutW","_win32_ShellAbout","shell.ShellAbout","shellapi/ShellAbout","shellapi/ShellAboutA","shellapi/ShellAboutW"]
+description: Displays a ShellAbout dialog box. (Unicode)
+helpviewer_keywords: ["ShellAbout", "ShellAbout function [Windows Shell]", "ShellAboutW", "_win32_ShellAbout", "shell.ShellAbout", "shellapi/ShellAbout", "shellapi/ShellAboutW"]
 old-location: shell\ShellAbout.htm
 tech.root: shell
 ms.assetid: 0919e356-84e8-475e-8628-23097b19c50d
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
  - Shell32.dll
 api_name:
  - ShellAbout
@@ -65,19 +69,19 @@ A window handle to a parent window. This parameter can be <b>NULL</b>.
 
 ### -param szApp [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 A pointer to a null-terminated string that contains text to be displayed in the title bar of the <b>ShellAbout</b> dialog box and on the first line of the dialog box after the text "Microsoft". If the text contains a separator (#) that divides it into two parts, the function displays the first part in the title bar and the second part on the first line after the text "Microsoft".
 
                     
 
-<b>Windows 2000, Windows XP, Windows Server 2003</b>: If the string pointed to by this parameter contains a separator (#), then the string must be writeable.
+<b>Windows 2000, Windows XP, Windows Server 2003</b>: If the string pointed to by this parameter contains a separator (#), then the string must be writable.
 
-<b>Windows Vista, Windows Server 2008</b>: This string cannot exceed 200 characters in length.
+<b>Windows Vista, Windows Server 2008</b>: This string cannot exceed 200 characters in length. The contents of <b>szApp</b> will no longer show after "Microsoft", unless there is a # separator, in which case the part after the # will completely replace the first line.
 
 ### -param szOtherStuff [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 A pointer to a null-terminated string that contains text to be displayed in the dialog box after the version and copyright information. This parameter can be <b>NULL</b>.
 
@@ -97,11 +101,11 @@ Type: <b>int</b>
 
 Note that the <b>ShellAbout</b> function dialog box uses text and a default icon that are specific to Windows.
 
-To see an example of a <b>ShellAbout</b> dialog box, choose <b>About Windows</b> from the <b>Help</b> menu drop-down list in Windows Explorer.
+To see an example of a <b>ShellAbout</b> dialog box, run the `winver.exe` command.
 
 
 
 
 > [!NOTE]
-> The shellapi.h header defines ShellAbout as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines ShellAbout as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetState","GetState method","GetState method","ISensor in
 old-location: winsensors_com_ref\isensor_getstate.htm
 tech.root: winsensors
 ms.assetid: ec8683a5-f2b3-48ce-8732-16429ee16a7f
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetState, GetState method, GetState method,ISensor interface, ISensor interface,GetState method, ISensor.GetState, ISensor::GetState, sensorsapi/ISensor::GetState, winsensors_com_ref.isensor_getstate
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the current operational state of the sensor.
 

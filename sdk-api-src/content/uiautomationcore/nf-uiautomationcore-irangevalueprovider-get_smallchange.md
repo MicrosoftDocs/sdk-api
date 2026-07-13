@@ -6,7 +6,7 @@ helpviewer_keywords: ["IRangeValueProvider interface [Windows Accessibility]","S
 old-location: winauto\uiauto_IRangeValueProvider_SmallChange.htm
 tech.root: WinAuto
 ms.assetid: 8230747d-d8c3-4708-a77a-7c76a62f39dd
-ms.date: 12/05/2018
+ms.date: 12/02/2025
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],SmallChange property, IRangeValueProvider.SmallChange, IRangeValueProvider.get_SmallChange, IRangeValueProvider::SmallChange, IRangeValueProvider::get_SmallChange, SmallChange property [Windows Accessibility], SmallChange property [Windows Accessibility],IRangeValueProvider interface, get_SmallChange, uiauto.uiauto_IRangeValueProvider_SmallChange, uiauto_IRangeValueProvider_SmallChange, uiautomationcore/IRangeValueProvider::SmallChange, uiautomationcore/IRangeValueProvider::get_SmallChange, winauto.uiauto_IRangeValueProvider_SmallChange
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
@@ -48,41 +48,29 @@ api_name:
 
 # IRangeValueProvider::get_SmallChange
 
-
 ## -description
 
-Specifies the value that is added to or subtracted from the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value">IRangeValueProvider::Value</a> property 
-        when a small change is made, such as when an arrow key is pressed.
-        
+Specifies the value that is added to or subtracted from the [IRangeValueProvider::Value](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irangevalueprovider-get_value) property when a small change is made, such as when an arrow key is pressed.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
-The SmallChange property can support Not a Number (NaN) value. When returning a NaN value, the provider should return a quiet (non-signaling) NaN to avoid raising an exception if floating-point exceptions are turned on. The following example shows how to create a quiet NaN:
+The SmallChange property can support a Not a Number (NaN) value. When returning a NaN value, the provider should return a quiet (non-signaling) NaN to avoid raising an exception if floating-point exceptions are turned on. The following example shows how to create a quiet NaN:
 
-            
-
-
-```
+```cpp
 ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
     *pRetVal = *reinterpret_cast<double*>(&ulNaN);
 ```
 
-
 Alternatively, you can use the following function from the standard C++ libraries:
 
-
-```
-numeric_limits<double>::quiet_NaN( )
+```cpp
+numeric_limits<double>::quiet_NaN()
 ```
 
 ## -see-also
 
-<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irangevalueprovider">IRangeValueProvider</a>
+[IRangeValueProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irangevalueprovider">IRangeValueProvider)
 
-
-
-<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
+[UI Automation Providers Overview](/windows/desktop/WinAuto/uiauto-providersoverview)

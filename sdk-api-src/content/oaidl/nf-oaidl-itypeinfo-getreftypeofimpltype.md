@@ -103,7 +103,7 @@ One or more of the arguments is not valid.
 </dl>
 </td>
 <td width="60%">
-Passed index is outside the range 0 to 1 less than the number of function descriptions.
+Passed index is outside the range 0 to 1 less than the number of implemented interfaces.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Passed index is outside the range 0 to 1 less than the number of function descri
 
 ## -remarks
 
-If the TKIND_DISPATCH type description is for a dual interface, the TKIND_INTERFACE type description can be obtained by calling <b>GetRefTypeOfImplType</b> with an <i>indexof</i> –1, and by passing the returned <i>pRefTypehandle</i> to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a> to retrieve the type information.
+If the TKIND_DISPATCH type description is for a dual interface, the TKIND_INTERFACE type description can be obtained by calling <b>GetRefTypeOfImplType</b> with an <i>index</i> of –1, and by passing the returned <i>pRefTypehandle</i> to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a> to retrieve the type information.
 
 ## -see-also
 

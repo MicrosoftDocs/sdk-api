@@ -1,7 +1,7 @@
 ---
-UID: NS:ntdsapi.__unnamed_struct_14
+UID: NS:ntdsapi.DS_DOMAIN_CONTROLLER_INFO_1W
 title: DS_DOMAIN_CONTROLLER_INFO_1W (ntdsapi.h)
-description: The DS_DOMAIN_CONTROLLER_INFO_1 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function.
+description: The DS_DOMAIN_CONTROLLER_INFO_1 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function. (Unicode)
 helpviewer_keywords: ["*PDS_DOMAIN_CONTROLLER_INFO_1W","DS_DOMAIN_CONTROLLER_INFO_1","DS_DOMAIN_CONTROLLER_INFO_1 structure [Active Directory]","DS_DOMAIN_CONTROLLER_INFO_1A","DS_DOMAIN_CONTROLLER_INFO_1W","PDS_DOMAIN_CONTROLLER_INFO_1","PDS_DOMAIN_CONTROLLER_INFO_1 structure pointer [Active Directory]","_glines_ds_domain_controller_info_1","ad.ds__domain__controller__info__1","ad.ds_domain_controller_info_1","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1A","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1W","ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_1"]
 old-location: ad\ds_domain_controller_info_1.htm
 tech.root: ad
@@ -100,7 +100,7 @@ The <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa"
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DS_DOMAIN_CONTROLLER_INFO_1 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DS_DOMAIN_CONTROLLER_INFO_1 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -109,3 +109,4 @@ The <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa"
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa">DsGetDomainControllerInfo</a>
+

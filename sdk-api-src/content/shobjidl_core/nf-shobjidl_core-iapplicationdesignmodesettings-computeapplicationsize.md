@@ -52,7 +52,7 @@ api_name:
 
 Gets the size of the Windows Store app, based on the current set of spoofed settings.
 
-You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> to set a proxy core window before calling this method.
+You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> to set a proxy core window before calling this method. For a code example, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
 
 In addition, each of these methods must be called before calling <b>ComputeApplicationSize</b>, or the call will fail.
 

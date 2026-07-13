@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 targetos: Windows

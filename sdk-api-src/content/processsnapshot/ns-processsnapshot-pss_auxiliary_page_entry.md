@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_8
+UID: NS:processsnapshot.PSS_AUXILIARY_PAGE_ENTRY
 title: PSS_AUXILIARY_PAGE_ENTRY (processsnapshot.h)
 description: Holds auxiliary page entry information returned by PssWalkSnapshot.
 helpviewer_keywords: ["PSS_AUXILIARY_PAGE_ENTRY","PSS_AUXILIARY_PAGE_ENTRY structure","proc_snap.pss_auxiliary_page_entry","processsnapshot/PSS_AUXILIARY_PAGE_ENTRY"]
@@ -81,3 +81,4 @@ The size of the page contents that <b>PageContents</b> points to, in bytes.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

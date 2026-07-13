@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.DWriteEngine2Events.Update
 title: DWriteEngine2Events::Update (imapi2.h)
-description: Implement this method to receive progress notification of the current write operation.
+description: Implement this method to receive progress notification of the current write operation. (DWriteEngine2Events.Update)
 helpviewer_keywords: ["DWriteEngine2Events interface [IMAPI]","Update method","DWriteEngine2Events.Update","DWriteEngine2Events::Update","Update","Update method [IMAPI]","Update method [IMAPI]","DWriteEngine2Events interface","imapi.dwriteengine2events_update","imapi2/DWriteEngine2Events::Update"]
 old-location: imapi\dwriteengine2events_update.htm
 tech.root: imapi

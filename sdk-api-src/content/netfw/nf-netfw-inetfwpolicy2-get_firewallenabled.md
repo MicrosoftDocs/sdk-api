@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_FirewallEnabled
 title: INetFwPolicy2::get_FirewallEnabled (netfw.h)
-description: Indicates whether a firewall is enabled locally (the effective result may differ due to group policy settings).
+description: Indicates whether a firewall is enabled locally (the effective result may differ due to group policy settings). (Get)
 helpviewer_keywords: ["FirewallEnabled property [ICS/ICF]","FirewallEnabled property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","FirewallEnabled property","INetFwPolicy2.FirewallEnabled","INetFwPolicy2.get_FirewallEnabled","INetFwPolicy2::FirewallEnabled","INetFwPolicy2::get_FirewallEnabled","INetFwPolicy2::put_FirewallEnabled","get_FirewallEnabled","ics.inetfwpolicy2_firewallenabled","netfw/INetFwPolicy2::FirewallEnabled","netfw/INetFwPolicy2::get_FirewallEnabled","netfw/INetFwPolicy2::put_FirewallEnabled"]
 old-location: ics\inetfwpolicy2_firewallenabled.htm
 tech.root: ics

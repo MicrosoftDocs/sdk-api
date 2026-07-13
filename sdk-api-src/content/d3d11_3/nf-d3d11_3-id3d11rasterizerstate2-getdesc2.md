@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_3.ID3D11RasterizerState2.GetDesc2
 title: ID3D11RasterizerState2::GetDesc2 (d3d11_3.h)
-description: Gets the description for rasterizer state that you used to create the rasterizer-state object.
+description: Gets the description for rasterizer state that you used to create the rasterizer-state object. (ID3D11RasterizerState2.GetDesc2)
 helpviewer_keywords: ["GetDesc2","GetDesc2 method [Direct3D 11]","GetDesc2 method [Direct3D 11]","ID3D11RasterizerState2 interface","ID3D11RasterizerState2 interface [Direct3D 11]","GetDesc2 method","ID3D11RasterizerState2.GetDesc2","ID3D11RasterizerState2::GetDesc2","d3d11_3/ID3D11RasterizerState2::GetDesc2","direct3d11.id3d11rasterizerstate2_getdesc2"]
 old-location: direct3d11\id3d11rasterizerstate2_getdesc2.htm
 tech.root: direct3d11

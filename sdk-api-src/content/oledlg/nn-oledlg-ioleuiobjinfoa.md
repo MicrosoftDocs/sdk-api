@@ -1,7 +1,7 @@
 ---
 UID: NN:oledlg.IOleUIObjInfoA
 title: IOleUIObjInfoA (oledlg.h)
-description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.
+description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box. (ANSI)
 helpviewer_keywords: ["IOleUIObjInfo","IOleUIObjInfo interface [COM]","IOleUIObjInfo interface [COM]","described","IOleUIObjInfoA","IOleUIObjInfoW","_ole_IOleUIObjInfo","com.ioleuiobjinfo","oledlg/IOleUIObjInfo"]
 old-location: com\ioleuiobjinfo.htm
 tech.root: com
@@ -56,10 +56,7 @@ Implemented by containers and used by the container's <b>Object Properties</b> d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUIObjInfo</b> interface inherits from <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>. <b>IOleUIObjInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOleUIObjInfo</b> interface inherits from <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>. <b>IOleUIObjInfo</b> also has these types of members:
 
 ## -see-also
 
@@ -72,4 +69,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUIObjInfo</b> interface i
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines IOleUIObjInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines IOleUIObjInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -52,12 +52,9 @@ api_name:
 
 Allows you to access fallback fonts from the font list.
 
-The <b>IDWriteFontFallback</b> interface defines a fallback sequence to map character ranges to fonts, which is either created via <a href="/windows/win32/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a> or retrieved from <a href="/windows/win32/DirectWrite/idwritefactory2-getsystemfontfallback">IDWriteFactory2::GetSystemFontFallback</a>.
+The <b>IDWriteFontFallback</b> interface defines a fallback sequence to map character ranges to fonts, which is either created via <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a> or retrieved from <a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-getsystemfontfallback">IDWriteFactory2::GetSystemFontFallback</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFallback</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontFallback</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFallback</b> also has these types of members:
 

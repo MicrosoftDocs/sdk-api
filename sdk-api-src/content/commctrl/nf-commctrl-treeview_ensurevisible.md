@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_EnsureVisible","TreeView_EnsureVisible macro [Wi
 old-location: controls\TreeView_EnsureVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_ensurevisible.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_EnsureVisible, TreeView_EnsureVisible macro [Windows Controls], _win32_TreeView_EnsureVisible, _win32_TreeView_EnsureVisible_cpp, commctrl/TreeView_EnsureVisible, controls.TreeView_EnsureVisible, controls._win32_TreeView_EnsureVisible
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_EnsureVisible macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_EnsureVisible(
+   HWND      hwnd,
+   HTREEITEM hitem
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if the system scrolled the items in the tree-view control and no items were expanded. Otherwise, the message returns zero.
 
 
 ## -description

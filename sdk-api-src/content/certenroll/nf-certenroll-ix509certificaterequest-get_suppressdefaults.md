@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_SuppressDefaults
 title: IX509CertificateRequest::get_SuppressDefaults (certenroll.h)
-description: Specifies or retrieves a Boolean value that indicates whether the default extensions and attributes are included in the request.
+description: Specifies or retrieves a Boolean value that indicates whether the default extensions and attributes are included in the request. (Get)
 helpviewer_keywords: ["IX509CertificateRequest interface [Security]","SuppressDefaults property","IX509CertificateRequest.SuppressDefaults","IX509CertificateRequest.get_SuppressDefaults","IX509CertificateRequest::SuppressDefaults","IX509CertificateRequest::get_SuppressDefaults","IX509CertificateRequest::put_SuppressDefaults","SuppressDefaults property [Security]","SuppressDefaults property [Security]","IX509CertificateRequest interface","certenroll/IX509CertificateRequest::SuppressDefaults","certenroll/IX509CertificateRequest::get_SuppressDefaults","certenroll/IX509CertificateRequest::put_SuppressDefaults","get_SuppressDefaults","security.ix509certificaterequest_suppressdefaults_property"]
 old-location: security\ix509certificaterequest_suppressdefaults_property.htm
 tech.root: security

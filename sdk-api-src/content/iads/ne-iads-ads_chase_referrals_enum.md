@@ -56,15 +56,15 @@ The <b>ADS_CHASE_REFERRALS_ENUM</b> enumeration specifies if, and how, referral 
 
 ## -enum-fields
 
-### -field ADS_CHASE_REFERRALS_NEVER
+### -field ADS_CHASE_REFERRALS_NEVER:0
 
 The client should never chase the referred-to server. Setting this option prevents a client from contacting other servers in a referral process.
 
-### -field ADS_CHASE_REFERRALS_SUBORDINATE
+### -field ADS_CHASE_REFERRALS_SUBORDINATE:0x20
 
 The client chases only subordinate referrals which are a subordinate naming context in a directory tree. For example, if the base search is requested for "DC=Fabrikam,DC=Com", and the server returns a result set and a referral of "DC=Sales,DC=Fabrikam,DC=Com" on the AdbSales server, the client can contact the AdbSales server to continue the search. The ADSI LDAP provider always turns off this flag for paged searches.
 
-### -field ADS_CHASE_REFERRALS_EXTERNAL
+### -field ADS_CHASE_REFERRALS_EXTERNAL:0x40
 
 The client chases external referrals. For example, a client requests server A to perform a search for "DC=Fabrikam,DC=Com". However, server A does not contain the object, but knows that an independent server, B, owns it. It then refers the client to server B.
 

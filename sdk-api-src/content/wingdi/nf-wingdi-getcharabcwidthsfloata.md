@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetCharABCWidthsFloatA
 title: GetCharABCWidthsFloatA function (wingdi.h)
-description: The GetCharABCWidthsFloat function retrieves the widths, in logical units, of consecutive characters in a specified range from the current font.
-helpviewer_keywords: ["GetCharABCWidthsFloat","GetCharABCWidthsFloat function [Windows GDI]","GetCharABCWidthsFloatA","GetCharABCWidthsFloatW","_win32_GetCharABCWidthsFloat","gdi.getcharabcwidthsfloat","wingdi/GetCharABCWidthsFloat","wingdi/GetCharABCWidthsFloatA","wingdi/GetCharABCWidthsFloatW"]
+description: The GetCharABCWidthsFloat function retrieves the widths, in logical units, of consecutive characters in a specified range from the current font. (ANSI)
+helpviewer_keywords: ["GetCharABCWidthsFloatA", "wingdi/GetCharABCWidthsFloatA"]
 old-location: gdi\getcharabcwidthsfloat.htm
 tech.root: gdi
 ms.assetid: 552942c9-e2a6-43f9-901f-3aba1e2523e5
@@ -97,7 +97,7 @@ The ABC widths of the default character are used for characters outside the rang
 
 
 > [!NOTE]
-> The wingdi.h header defines GetCharABCWidthsFloat as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetCharABCWidthsFloat as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

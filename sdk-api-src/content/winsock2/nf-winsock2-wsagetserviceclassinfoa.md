@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSAGetServiceClassInfoA
 title: WSAGetServiceClassInfoA function (winsock2.h)
-description: The WSAGetServiceClassInfo function retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider.
-helpviewer_keywords: ["WSAGetServiceClassInfo","WSAGetServiceClassInfo function [Winsock]","WSAGetServiceClassInfoA","WSAGetServiceClassInfoW","_win32_wsagetserviceclassinfo_2","winsock.wsagetserviceclassinfo_2","winsock2/WSAGetServiceClassInfo","winsock2/WSAGetServiceClassInfoA","winsock2/WSAGetServiceClassInfoW"]
+description: The WSAGetServiceClassInfo function retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider. (ANSI)
+helpviewer_keywords: ["WSAGetServiceClassInfoA", "winsock2/WSAGetServiceClassInfoA"]
 old-location: winsock\wsagetserviceclassinfo_2.htm
 tech.root: WinSock
 ms.assetid: e177bb7d-c7d3-43a4-a809-ab8212feea2e
@@ -189,7 +189,7 @@ The
 
 
 > [!NOTE]
-> The winsock2.h header defines WSAGetServiceClassInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSAGetServiceClassInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

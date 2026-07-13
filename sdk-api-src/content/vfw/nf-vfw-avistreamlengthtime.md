@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamLengthTime","AVIStreamLengthTime macro [Windows 
 old-location: multimedia\avistreamlengthtime.htm
 tech.root: Multimedia
 ms.assetid: 550d04b2-d5d4-4acc-97d3-8cd180de1545
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamLengthTime, AVIStreamLengthTime macro [Windows Multimedia], _win32_AVIStreamLengthTime, multimedia.avistreamlengthtime, vfw/AVIStreamLengthTime
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # AVIStreamLengthTime macro
+
+## -syntax
+
+```cpp
+LONG AVIStreamLengthTime(
+     pavi
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the time if successful or –1 otherwise.
 
 
 ## -description

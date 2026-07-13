@@ -7,25 +7,25 @@ helpviewer_keywords: ["XMFLOAT3X4","XMFLOAT3X4 structure [DirectX Math Support A
 tech.root: dxmath
 req.construct-type: structure
 req.header: directxmath.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 f1_keywords:
  - XMFLOAT3X4
  - directxmath/XMFLOAT3X4
@@ -116,6 +116,8 @@ The member *m* is a 2-dimensional 3x4 array. It provides 0-based indexing of the
 You can load an [XMMATRIX](./ns-directxmath-xmmatrix.md) from an **XMFLOAT3X4** by using [XMLoadFloat3x4](./nf-directxmath-xmloadfloat3x4.md).
 
 You can store an [XMMATRIX](./ns-directxmath-xmmatrix.md) into an **XMFLOAT3X4** by using [XMStoreFloat3x4](./nf-directxmath-xmstorefloat3x4.md).
+
+> This type and the associated functions were added in DirectXMath 3.13
 
 ## -see-also
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_8
+UID: NS:shlobj_core.DROPDESCRIPTION
 title: DROPDESCRIPTION (shlobj_core.h)
 description: Describes the image and accompanying text for a drop object.
 helpviewer_keywords: ["DROPDESCRIPTION","DROPDESCRIPTION structure [Windows Shell]","_shell_DROPDESCRIPTION","shell.DROPDESCRIPTION","shlobj_core/DROPDESCRIPTION"]
@@ -75,3 +75,4 @@ Text such as "Documents", inserted as specified by <b>szMessage</b>.
 ## -remarks
 
 Some UI coloring is applied to the text in <b>szInsert</b> if used by specifying %1 in <b>szMessage</b>. The characters %% and %1 are the subset of <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> markers that are processed here.
+

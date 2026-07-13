@@ -1,12 +1,12 @@
 ---
 UID: NC:dbghelp.PFIND_EXE_FILE_CALLBACK
 title: PFIND_EXE_FILE_CALLBACK (dbghelp.h)
-description: An application-defined callback function used with the FindExecutableImageEx function. It verifies whether the executable file found by FindExecutableImageEx is the correct executable file.
+description: PFIND_EXE_FILE_CALLBACK (dbghelp.h) is an application-defined callback function used with the FindExecutableImageEx function.
 helpviewer_keywords: ["FindExecutableImageProc","FindExecutableImageProc callback","FindExecutableImageProc callback function","PFIND_EXE_FILE_CALLBACK","PFIND_EXE_FILE_CALLBACKW","_win32_findexecutableimageproc","base.findexecutableimageproc","dbghelp/FindExecutableImageProc"]
 old-location: base\findexecutableimageproc.htm
 tech.root: Debug
 ms.assetid: cbd8cd63-8fdb-4314-8737-9f934de74f89
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: FindExecutableImageProc, FindExecutableImageProc callback, FindExecutableImageProc callback function, PFIND_EXE_FILE_CALLBACK, PFIND_EXE_FILE_CALLBACKW, _win32_findexecutableimageproc, base.findexecutableimageproc, dbghelp/FindExecutableImageProc
 req.header: dbghelp.h
 req.include-header: 

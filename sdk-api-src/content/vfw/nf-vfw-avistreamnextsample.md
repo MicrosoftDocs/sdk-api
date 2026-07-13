@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamNextSample","AVIStreamNextSample macro [Windows 
 old-location: multimedia\avistreamnextsample.htm
 tech.root: Multimedia
 ms.assetid: 3ce1086f-4364-4d3c-a60e-7a82ecf8d708
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamNextSample, AVIStreamNextSample macro [Windows Multimedia], _win32_AVIStreamNextSample, multimedia.avistreamnextsample, vfw/AVIStreamNextSample
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamNextSample macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamNextSample(
+     pavi,
+     l
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the sample position if successful or –1 otherwise.
+
 
 ## -description
 
@@ -64,15 +79,15 @@ Starting position to search in the stream.
 
 ## -remarks
 
-The sample position returned does not include the sample specified by <i>lPos</i>.
+The sample position returned does not include the sample specified by <i>l</i>.
 
 The <b>AVIStreamNextSample</b> macro is defined as follows:
 
 
 ```cpp
 
-#define AVIStreamNextSample(pavi, lPos) \ 
-    AVIStreamFindSample(pavi, lPos + 1, FIND_NEXT | FIND_ANY) 
+#define AVIStreamNextSample(pavi, l) \ 
+    AVIStreamFindSample(pavi, l + 1, FIND_NEXT | FIND_ANY) 
 
 ```
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcNsBindingInqEntryNameA
 title: RpcNsBindingInqEntryNameA function (rpcdce.h)
-description: The RpcNsBindingInqEntryName function returns the entry name from which the binding handle came.
-helpviewer_keywords: ["RpcNsBindingInqEntryName","RpcNsBindingInqEntryName function [RPC]","RpcNsBindingInqEntryNameA","RpcNsBindingInqEntryNameW","_rpc_rpcnsbindinginqentryname","rpc.rpcnsbindinginqentryname","rpcdce/RpcNsBindingInqEntryName","rpcdce/RpcNsBindingInqEntryNameA","rpcdce/RpcNsBindingInqEntryNameW"]
+description: The RpcNsBindingInqEntryName function returns the entry name from which the binding handle came. (RpcNsBindingInqEntryNameA)
+helpviewer_keywords: ["RpcNsBindingInqEntryNameA", "rpcdce/RpcNsBindingInqEntryNameA"]
 old-location: rpc\rpcnsbindinginqentryname.htm
 tech.root: Rpc
 ms.assetid: fff87506-4c3f-47cb-8130-78e46e906bf0
@@ -186,7 +186,7 @@ If the binding handle specified in the <i>Binding</i> parameter was not returned
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcNsBindingInqEntryName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcNsBindingInqEntryName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

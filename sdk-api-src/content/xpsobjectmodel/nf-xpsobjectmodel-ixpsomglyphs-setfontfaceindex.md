@@ -101,15 +101,19 @@ If this value is specified and is not –1, "#&lt;Index&gt;" is appended to the 
 
 The following markup of a FixedPage shows the result of setting the <i>fontFaceIndex</i> to 1. Notice that the <b>FontUri</b> attribute of the <b>Glyphs</b> element has a value of <code>../Resources/Fonts/Font.TTF#1</code>, which includes the index of the font face.
 
-<pre class="syntax" xml:space="preserve"><code>    &lt;FixedPage Height="1056" Width="816" xml:lang="en-US"
-    xmlns="http://schemas.microsoft.com/xps/2005/06"&gt;
-      &lt;Glyphs
+
+``` syntax
+    <FixedPage Height="1056" Width="816" xml:lang="en-US"
+    xmlns="http://schemas.microsoft.com/xps/2005/06">
+      <Glyphs
       OriginX="96"
       OriginY="96"
       UnicodeString="This is Page 1!"
       FontUri="../Resources/Fonts/Font.TTF#1"
-      FontRenderingEmSize="16" /&gt;
-    &lt;/FixedPage&gt;</code></pre>
+      FontRenderingEmSize="16" />
+    </FixedPage>
+```
+
 
 ## -see-also
 
@@ -117,7 +121,7 @@ The following markup of a FixedPage shows the result of setting the <i>fontFaceI
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

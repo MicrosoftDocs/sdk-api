@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateStateBlock
 title: IDirect3DDevice9::CreateStateBlock (d3d9helper.h)
-description: Creates a new state block that contains the values for all device states, vertex-related states, or pixel-related states.
+description: The IDirect3DDevice9::CreateStateBlock method (d3d9helper.h) creates a new state block containing the values for all device states, vertex-related states, or pixel-related states. 
 helpviewer_keywords: ["CreateStateBlock","CreateStateBlock method [Direct3D 9]","CreateStateBlock method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreateStateBlock method","IDirect3DDevice9.CreateStateBlock","IDirect3DDevice9::CreateStateBlock","bc860c8f-4665-5146-40bc-db147a89e0b4","d3d9helper/IDirect3DDevice9::CreateStateBlock","direct3d9.idirect3ddevice9__createstateblock"]
 old-location: direct3d9\idirect3ddevice9__createstateblock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createstateblock.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: CreateStateBlock, CreateStateBlock method [Direct3D 9], CreateStateBlock method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateStateBlock method, IDirect3DDevice9.CreateStateBlock, IDirect3DDevice9::CreateStateBlock, bc860c8f-4665-5146-40bc-db147a89e0b4, d3d9helper/IDirect3DDevice9::CreateStateBlock, direct3d9.idirect3ddevice9__createstateblock
 req.header: d3d9helper.h
 req.include-header: D3D9.h

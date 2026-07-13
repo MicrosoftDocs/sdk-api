@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange2.SetProperty
 title: ITextRange2::SetProperty (tom.h)
-description: Sets the value of the specified property.
+description: Sets the value of the specified property. (ITextRange2.SetProperty)
 helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","SetProperty method","ITextRange2.SetProperty","ITextRange2::SetProperty","SetProperty","SetProperty method [Windows Controls]","SetProperty method [Windows Controls]","ITextRange2 interface","controls.itextrange2_setproperty","tom/ITextRange2::SetProperty"]
 old-location: controls\itextrange2_setproperty.htm
 tech.root: Controls

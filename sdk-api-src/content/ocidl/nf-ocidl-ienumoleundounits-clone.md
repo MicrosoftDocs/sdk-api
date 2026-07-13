@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Clone
 title: IEnumOleUndoUnits::Clone (ocidl.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumOleUndoUnits.Clone)
 helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumOleUndoUnits interface","IEnumOleUndoUnits interface [COM]","Clone method","IEnumOleUndoUnits.Clone","IEnumOleUndoUnits::Clone","_ole_ienumoleundounits_clone","com.ienumoleundounits_clone","ocidl/IEnumOleUndoUnits::Clone"]
 old-location: com\ienumoleundounits_clone.htm
 tech.root: com

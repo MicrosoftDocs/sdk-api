@@ -1,7 +1,7 @@
 ---
 UID: NF:corewindow.ICoreWindowInterop.put_MessageHandled
 title: ICoreWindowInterop::put_MessageHandled (corewindow.h)
-description: Sets whether or not the message to the CoreWindow has been handled.
+description: Sets whether or not the message to the CoreWindow has been handled. (ICoreWindowInterop.put_MessageHandled)
 helpviewer_keywords: ["ICoreWindowInterop interface [Windows Runtime]","MessageHandled property","ICoreWindowInterop.MessageHandled","ICoreWindowInterop.put_MessageHandled","ICoreWindowInterop::MessageHandled","ICoreWindowInterop::put_MessageHandled","MessageHandled property [Windows Runtime]","MessageHandled property [Windows Runtime]","ICoreWindowInterop interface","corewindow/ICoreWindowInterop::MessageHandled","corewindow/ICoreWindowInterop::put_MessageHandled","put_MessageHandled","winrt.icorewindowinterop_messagehandled"]
 old-location: winrt\icorewindowinterop_messagehandled.htm
 tech.root: WinRT

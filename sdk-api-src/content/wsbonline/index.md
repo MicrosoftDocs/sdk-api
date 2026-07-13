@@ -4,7 +4,8 @@ title: Wsbonline.h header
 ms.assetid: 9df88687-7f2b-3cfe-b7a1-e8804e6fc954
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: wsb
 f1_keywords:
  - wsbonline

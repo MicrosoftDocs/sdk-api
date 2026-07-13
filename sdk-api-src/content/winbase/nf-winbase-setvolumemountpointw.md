@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.SetVolumeMountPointW
 title: SetVolumeMountPointW function (winbase.h)
-description: Associates a volume with a drive letter or a directory on another volume.
-helpviewer_keywords: ["SetVolumeMountPoint","SetVolumeMountPoint function [Files]","SetVolumeMountPointA","SetVolumeMountPointW","_win32_setvolumemountpoint","base.setvolumemountpoint","fs.setvolumemountpoint","winbase/SetVolumeMountPoint","winbase/SetVolumeMountPointA","winbase/SetVolumeMountPointW"]
+description: Associates a volume with a drive letter or a directory on another volume. (Unicode)
+helpviewer_keywords: ["SetVolumeMountPoint", "SetVolumeMountPoint function [Files]", "SetVolumeMountPointW", "_win32_setvolumemountpoint", "base.setvolumemountpoint", "fs.setvolumemountpoint", "winbase/SetVolumeMountPoint", "winbase/SetVolumeMountPointW"]
 old-location: fs\setvolumemountpoint.htm
 tech.root: fs
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
  - kernel32legacy.dll
@@ -65,8 +66,8 @@ Associates a volume with a drive letter or a directory on another volume.
 
 ### -param lpszVolumeMountPoint [in]
 
-The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\") or a directory 
-      on another volume (for example, "Y:\MountX\"). The string must end with a trailing backslash ('\').
+The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\\") or a directory 
+      on another volume (for example, "Y:\\MountX\\"). The string must end with a trailing backslash ('\\').
 
 ### -param lpszVolumeName [in]
 
@@ -170,7 +171,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winbase.h header defines SetVolumeMountPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines SetVolumeMountPoint as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

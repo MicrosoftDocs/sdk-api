@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetHelpInfo
 title: IPropertyUI::GetHelpInfo (shobjidl_core.h)
-description: Developers should use IPropertyDescription instead.
+description: Developers should use IPropertyDescription instead. (IPropertyUI.GetHelpInfo)
 helpviewer_keywords: ["GetHelpInfo","GetHelpInfo method [Windows Properties]","GetHelpInfo method [Windows Properties]","IPropertyUI interface","IPropertyUI interface [Windows Properties]","GetHelpInfo method","IPropertyUI.GetHelpInfo","IPropertyUI::GetHelpInfo","_shell_IPropertyUI_GetHelpInfo","properties.IPropertyUI_GetHelpInfo","shell.IPropertyUI_GetHelpInfo","shobjidl_core/IPropertyUI::GetHelpInfo"]
 old-location: properties\IPropertyUI_GetHelpInfo.htm
 tech.root: properties
@@ -86,4 +86,4 @@ The Help context ID for the property.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

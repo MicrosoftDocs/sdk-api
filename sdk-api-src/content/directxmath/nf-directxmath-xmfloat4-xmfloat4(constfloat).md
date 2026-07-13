@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMFLOAT4.XMFLOAT4(constfloat)
 title: XMFLOAT4::XMFLOAT4(const float) (directxmath.h)
-description: A constructor for XMFLOAT4.
+description: A constructor for XMFLOAT4. (overload 3/3)
 helpviewer_keywords: ["XMFLOAT4","XMFLOAT4 constructor [DirectX Math Support APIs]","XMFLOAT4 constructor [DirectX Math Support APIs]","XMFLOAT4 structure","XMFLOAT4 structure [DirectX Math Support APIs]","XMFLOAT4 constructor","XMFLOAT4.XMFLOAT4","XMFLOAT4.XMFLOAT4()","XMFLOAT4.XMFLOAT4(const float)","XMFLOAT4::XMFLOAT4","XMFLOAT4::XMFLOAT4(const float)","dxmath.xmfloat4_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMFLOAT4, XMFLOAT4 constructor [DirectX Math Support APIs], XMFLOAT
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

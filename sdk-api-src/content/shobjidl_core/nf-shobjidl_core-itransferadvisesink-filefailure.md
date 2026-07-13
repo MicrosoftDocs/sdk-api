@@ -82,7 +82,7 @@ Optional. When this method returns, contains a pointer to a null-terminated buff
 
 Type: <b>ULONG</b>
 
-The size of the <i>pszRename</i>buffer, in characters.
+The size of the <i>pszRename</i> buffer, in characters.
 
 ## -returns
 

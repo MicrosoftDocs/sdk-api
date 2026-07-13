@@ -6,7 +6,7 @@ helpviewer_keywords: ["SORTIDFROMLCID","SORTIDFROMLCID macro [Internationalizati
 old-location: intl\sortidfromlcid.htm
 tech.root: Intl
 ms.assetid: 78da443e-ad92-4e2f-aebe-c0aed880b8b6
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Windows Applications], _win32_SORTIDFROMLCID, intl.sortidfromlcid, winnt/SORTIDFROMLCID
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # SORTIDFROMLCID macro
+
+## -syntax
+
+```cpp
+WORD SORTIDFROMLCID(
+    LCID lcid
+);
+```
+
+## -returns
+
+Type: **WORD**
+
+Returns a sort order identifier.
 
 
 ## -description

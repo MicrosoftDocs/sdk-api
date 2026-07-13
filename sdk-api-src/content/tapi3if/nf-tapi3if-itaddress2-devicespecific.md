@@ -115,6 +115,12 @@ Insufficient memory exists to perform the operation.
 </tr>
 </table>
 
+## -remarks
+
+> [!CAUTION]
+> TAPI will write the returned data to the buffer referenced by *pParams* when the [LINE_REPLY](/windows/win32/tapi/line-reply) message is returned. This means that the buffer must remain valid until the LINE_REPLY message is returned; otherwise, data corruption and exceptions may occur.
+
+
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a>

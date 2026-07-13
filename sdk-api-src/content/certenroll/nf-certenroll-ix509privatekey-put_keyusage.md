@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_KeyUsage
 title: IX509PrivateKey::put_KeyUsage (certenroll.h)
-description: Specifies or retrieves a value that identifies the specific purpose for which a private key can be used.
+description: Specifies or retrieves a value that identifies the specific purpose for which a private key can be used. (Put)
 helpviewer_keywords: ["IX509PrivateKey interface [Security]","KeyUsage property","IX509PrivateKey.KeyUsage","IX509PrivateKey.put_KeyUsage","IX509PrivateKey::KeyUsage","IX509PrivateKey::get_KeyUsage","IX509PrivateKey::put_KeyUsage","KeyUsage property [Security]","KeyUsage property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::KeyUsage","certenroll/IX509PrivateKey::get_KeyUsage","certenroll/IX509PrivateKey::put_KeyUsage","put_KeyUsage","security.ix509privatekey_keyusage"]
 old-location: security\ix509privatekey_keyusage.htm
 tech.root: security

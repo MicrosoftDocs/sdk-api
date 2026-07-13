@@ -9,7 +9,7 @@ ms.assetid: 59364b91-d78b-46e2-b298-42f77e712577
 ms.date: 12/05/2018
 ms.keywords: CallbackMayRunLong, CallbackMayRunLong function, base.callbackmayrunlong, threadpoolapiset/CallbackMayRunLong, winbase/CallbackMayRunLong
 req.header: threadpoolapiset.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

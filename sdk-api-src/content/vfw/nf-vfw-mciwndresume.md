@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndResume","MCIWndResume macro [Windows Multimedia]","
 old-location: multimedia\mciwndresume.htm
 tech.root: Multimedia
 ms.assetid: 08b0dc42-edf2-485b-8b00-164157117a32
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndResume, MCIWndResume macro [Windows Multimedia], _win32_MCIWndResume, multimedia.mciwndresume, vfw/MCIWndResume
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndResume macro
+
+## -syntax
+
+```cpp
+LONG MCIWndResume(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

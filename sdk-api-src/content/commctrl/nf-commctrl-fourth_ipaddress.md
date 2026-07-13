@@ -6,7 +6,7 @@ helpviewer_keywords: ["FOURTH_IPADDRESS","FOURTH_IPADDRESS macro [Windows Contro
 old-location: controls\FOURTH_IPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\fourth_ipaddress.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: FOURTH_IPADDRESS, FOURTH_IPADDRESS macro [Windows Controls], _win32_FOURTH_IPADDRESS, _win32_FOURTH_IPADDRESS_cpp, commctrl/FOURTH_IPADDRESS, controls.FOURTH_IPADDRESS, controls._win32_FOURTH_IPADDRESS
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # FOURTH_IPADDRESS macro
+
+## -syntax
+
+```cpp
+BYTE FOURTH_IPADDRESS(
+   LPARAM x
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+Returns a BYTE value that contains the field 3 value.
 
 
 ## -description

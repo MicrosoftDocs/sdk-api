@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetPasswordChar","Edit_GetPasswordChar macro [Window
 old-location: controls\Edit_GetPasswordChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getpasswordchar.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetPasswordChar, Edit_GetPasswordChar macro [Windows Controls], _win32_Edit_GetPasswordChar, _win32_Edit_GetPasswordChar_cpp, controls.Edit_GetPasswordChar, controls._win32_Edit_GetPasswordChar, windowsx/Edit_GetPasswordChar
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetPasswordChar macro
+
+## -syntax
+
+```cpp
+TCHAR Edit_GetPasswordChar(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[TCHAR](/windows/desktop/winprog/windows-data-types)**
+
+The password character.
 
 
 ## -description

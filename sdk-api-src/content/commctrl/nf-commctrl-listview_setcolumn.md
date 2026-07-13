@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetColumn","ListView_SetColumn macro [Windows Co
 old-location: controls\ListView_SetColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumn.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetColumn, ListView_SetColumn macro [Windows Controls], _win32_ListView_SetColumn, _win32_ListView_SetColumn_cpp, commctrl/ListView_SetColumn, controls.ListView_SetColumn, controls._win32_ListView_SetColumn
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_SetColumn macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetColumn(
+   HWND       hwnd,
+   int        iCol,
+   LPLVCOLUMN pcol
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSAEnumNameSpaceProvidersExW
 title: WSAEnumNameSpaceProvidersExW function (winsock2.h)
-description: Retrieves information on available namespace providers.
-helpviewer_keywords: ["WSAEnumNameSpaceProvidersEx","WSAEnumNameSpaceProvidersEx function [Winsock]","WSAEnumNameSpaceProvidersExA","WSAEnumNameSpaceProvidersExW","winsock.wsaenumnamespaceprovidersex","winsock2/WSAEnumNameSpaceProvidersEx","winsock2/WSAEnumNameSpaceProvidersExA","winsock2/WSAEnumNameSpaceProvidersExW"]
+description: Retrieves information on available namespace providers. (Unicode)
+helpviewer_keywords: ["WSAEnumNameSpaceProvidersEx", "WSAEnumNameSpaceProvidersEx function [Winsock]", "WSAEnumNameSpaceProvidersExW", "winsock.wsaenumnamespaceprovidersex", "winsock2/WSAEnumNameSpaceProvidersEx", "winsock2/WSAEnumNameSpaceProvidersExW"]
 old-location: winsock\wsaenumnamespaceprovidersex.htm
 tech.root: WinSock
 ms.assetid: 34bc96aa-63f7-4ab8-9376-6f4b979225ca
@@ -135,7 +135,7 @@ When UNICODE or _UNICODE is not defined, <b>WSAEnumNameSpaceProvidersEx</b> is d
 
 
 > [!NOTE]
-> The winsock2.h header defines WSAEnumNameSpaceProvidersEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSAEnumNameSpaceProvidersEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

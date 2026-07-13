@@ -56,11 +56,11 @@ The data format used for a Remote Desktop Protocol (RDP) app container client sn
 
 ## -enum-fields
 
-### -field SnapshotFormatPng
+### -field SnapshotFormatPng:0
 
-### -field SnapshotFormatJpeg
+### -field SnapshotFormatJpeg:1
 
-### -field SnapshotFormatBmp
+### -field SnapshotFormatBmp:2
 
 ## -see-also
 

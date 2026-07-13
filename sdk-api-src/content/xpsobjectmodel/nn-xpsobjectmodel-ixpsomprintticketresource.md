@@ -47,17 +47,13 @@ api_name:
 
 # IXpsOMPrintTicketResource interface
 
-
 ## -description
 
 Provides an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to a <b>PrintTicket</b> resource.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPrintTicketResource</b> interface inherits from <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>. <b>IXpsOMPrintTicketResource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXpsOMPrintTicketResource</b> interface inherits from <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>. <b>IXpsOMPrintTicketResource</b> also has these types of members:
 
 ## -see-also
 
@@ -73,4 +69,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPrintTicketResource</b>
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

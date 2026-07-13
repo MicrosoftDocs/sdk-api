@@ -82,7 +82,7 @@ Indicates how much detail should be contained in the rendering. This parameter s
 
 ### -field lindex
 
-Part of the aspect when the data must be split across page boundaries. The most common value is -1, which identifies all of the data. For the aspects DVASPECT_THUMBNAIL and DVASPECT_ICON, lindex is ignored.
+Part of the aspect when the data must be split across page boundaries. The most common value is -1, which identifies all of the data. Zero-based index should be used for <a href="/windows/win32/shell/clipboard">CFSTR_FILECONTENTS</a> format. For the aspects DVASPECT_THUMBNAIL and DVASPECT_ICON, lindex is ignored.
 
 ### -field tymed
 

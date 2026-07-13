@@ -1,7 +1,7 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop.RequestAccessForWindowAsync
 title: IProtectionPolicyManagerInterop::RequestAccessForWindowAsync (efswrtinterop.h)
-description: Request access to enterprise protected content for an identity.
+description: Request access to enterprise protected content for an identity. (IProtectionPolicyManagerInterop.RequestAccessForWindowAsync)
 helpviewer_keywords: ["EDP.iprotectionpolicymanager_requestaccessforwindowasync","IProtectionPolicyManagerInterop interface","RequestAccessForWindowAsync method","IProtectionPolicyManagerInterop.RequestAccessForWindowAsync","IProtectionPolicyManagerInterop::RequestAccessForWindowAsync","RequestAccessForWindowAsync","RequestAccessForWindowAsync method","RequestAccessForWindowAsync method","IProtectionPolicyManagerInterop interface","efswrtinterop/IProtectionPolicyManagerInterop::RequestAccessForWindowAsync"]
 old-location: edp\iprotectionpolicymanager_requestaccessforwindowasync.htm
 tech.root: EDP
@@ -73,11 +73,11 @@ Reference to the identifier of the interface describing the type of interface po
 
 ### -param asyncOperation
 
-An <a href="https://docs.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation<ProtectionPolicyEvaluationResult></a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
+An <a href="/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation&lt;ProtectionPolicyEvaluationResult&gt;</a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

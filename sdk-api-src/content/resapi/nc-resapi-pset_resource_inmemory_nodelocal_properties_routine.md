@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
 title: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE (resapi.h)
-description: TBD.
+description: The PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function is called when a resource type control code operation completes.
 helpviewer_keywords: ["PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE","PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster]","SetResourceInMemoryNodeLocalProperties","SetResourceInMemoryNodeLocalProperties callback","SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster]","mscs.setresourceinmemorynodelocalproperties","resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE","resapi/SetResourceInMemoryNodeLocalProperties"]
 old-location: mscs\setresourceinmemorynodelocalproperties.htm
 tech.root: MsCS
 ms.assetid: 9263E130-49DE-465C-A852-34E2D93A4211
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster], SetResourceInMemoryNodeLocalProperties, SetResourceInMemoryNodeLocalProperties callback, SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster], mscs.setresourceinmemorynodelocalproperties, resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, resapi/SetResourceInMemoryNodeLocalProperties
 req.header: resapi.h
 req.include-header: 

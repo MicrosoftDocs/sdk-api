@@ -78,7 +78,7 @@ If it fails, the method can return DDERR_INVALIDPARAMS.
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDeviceIdentifier</b> method.
+
 
 ## -see-also
 

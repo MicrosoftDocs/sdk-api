@@ -2,7 +2,7 @@
 UID: NF:netioapi.ConvertInterfaceNameToLuidW
 title: ConvertInterfaceNameToLuidW function (netioapi.h)
 description: Converts a Unicode network interface name to the locally unique identifier (LUID) for the interface.
-helpviewer_keywords: ["ConvertInterfaceNameToLuidW","ConvertInterfaceNameToLuidW function [IP Helper]","iphlp.convertinterfacenametoluidw","netioapi/ConvertInterfaceNameToLuidW"]
+helpviewer_keywords: ["ConvertInterfaceNameToLuidW", "ConvertInterfaceNameToLuidW function [IP Helper]", "iphlp.convertinterfacenametoluidw", "netioapi/ConvertInterfaceNameToLuidW"]
 old-location: iphlp\convertinterfacenametoluidw.htm
 tech.root: IpHlp
 ms.assetid: 473be9f0-7fac-46f0-b33c-839906411fdc
@@ -99,7 +99,7 @@ One of the parameters was invalid. This error is returned if the <i>InterfaceLui
 
 ## -remarks
 
-The <b>ConvertInterfaceNameToLuidW</b> function is available on Windows Vistaand later.
+The <b>ConvertInterfaceNameToLuidW</b> function is available on Windows Vista and later.
 
 The <b>ConvertInterfaceNameToLuidW</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol. The <b>ConvertInterfaceNameToLuidW</b> converts a Unicode interface name to a LUID. 
 

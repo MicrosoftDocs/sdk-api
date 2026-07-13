@@ -63,7 +63,7 @@ A handle to the device context.
 
 ### -param lppt [out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the brush origin, in device coordinates.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the brush origin, in device coordinates.
 
 ## -returns
 
@@ -91,7 +91,7 @@ The system automatically tracks the origin of all window-managed device contexts
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

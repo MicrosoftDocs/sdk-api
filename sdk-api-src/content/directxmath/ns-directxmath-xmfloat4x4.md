@@ -9,25 +9,25 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT4X4
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X4, XMFLOAT4X4 structure [DirectX Math Support APIs], directxmath/XMFLOAT4X4, dxmath.xmfloat4x4
 req.header: directxmath.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - XMFLOAT4X4
@@ -55,10 +55,10 @@ A 4*4 floating point matrix.
 
 
 For a list of additional functionality such as constructors and operators that are available using <code>XMFLOAT4X4</code> when you
-  are programming in C++, see <a href="https://msdn.microsoft.com/ae6a5159-4a77-488c-a836-da3a16e7fcaf">XMFLOAT4X4 Extensions</a>.
+  are programming in C++, see <a href="/windows/win32/dxmath/ovw-xmfloat4x4-extensions">XMFLOAT4X4 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
-  equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and
-  <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.</div><div> </div>
+  equivalent <a href="/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and
+  <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects. objects.</div>
 
 ## -struct-fields
 
@@ -168,7 +168,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ae6a5159-4a77-488c-a836-da3a16e7fcaf">XMFLOAT4X4 Extensions</a>
+<a href="/windows/win32/dxmath/ovw-xmfloat4x4-extensions">XMFLOAT4X4 Extensions</a>
 
 
 

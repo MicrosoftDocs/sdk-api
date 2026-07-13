@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_TitleAttributes","DVD_TitleAttributes structure [Dire
 old-location: dshow\dvd_titleattributes.htm
 tech.root: dshow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,6 +52,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>DVD_TitleAttributes</b> structure contains information about a DVD title.
 
 ## -struct-fields
@@ -92,7 +94,7 @@ An array of [DVD_SubpictureAttributes](/windows/desktop/api/strmif/ns-strmif-dvd
 
 By default, the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> uses the <b>AppMode</b> member of the anonymous union to report  the title mode.
 
-If the application sets the <b>DVD_EnableTitleLength</b> option to <b>TRUE</b>, the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> uses the <b>TitleLength</b> member of the union to report the title length. To set this option, call the <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a>method.
+If the application sets the <b>DVD_EnableTitleLength</b> option to <b>TRUE</b>, the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> uses the <b>TitleLength</b> member of the union to report the title length. To set this option, call the <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a> method.
 
 ## -see-also
 

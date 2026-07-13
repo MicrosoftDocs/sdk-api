@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_MaximumBuffers
 title: ITraceDataCollector::get_MaximumBuffers (pla.h)
-description: Retrieves or sets the maximum number of buffers allocated for the event tracing session's buffer pool.
+description: Retrieves or sets the maximum number of buffers allocated for the event tracing session's buffer pool. (Get)
 helpviewer_keywords: ["ITraceDataCollector interface [PLA]","MaximumBuffers property","ITraceDataCollector.MaximumBuffers","ITraceDataCollector.get_MaximumBuffers","ITraceDataCollector::MaximumBuffers","ITraceDataCollector::get_MaximumBuffers","ITraceDataCollector::put_MaximumBuffers","MaximumBuffers property [PLA]","MaximumBuffers property [PLA]","ITraceDataCollector interface","base.itracedatacollector_maximumbuffers","get_MaximumBuffers","pla.itracedatacollector_maximumbuffers","pla/ITraceDataCollector::MaximumBuffers","pla/ITraceDataCollector::get_MaximumBuffers","pla/ITraceDataCollector::put_MaximumBuffers"]
 old-location: pla\itracedatacollector_maximumbuffers.htm
 tech.root: PLA

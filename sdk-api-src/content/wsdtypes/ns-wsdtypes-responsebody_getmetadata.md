@@ -1,5 +1,5 @@
 ---
-UID: NS:wsdtypes.__unnamed_struct_0
+UID: NS:wsdtypes.RESPONSEBODY_GetMetadata
 title: RESPONSEBODY_GetMetadata (wsdtypes.h)
 description: Represents a WS-MetadataExchange GetMetadata response message.
 helpviewer_keywords: ["RESPONSEBODY_GetMetadata","RESPONSEBODY_GetMetadata structure","ncd.responsebody_getmetadata_struct","wsdtypes/RESPONSEBODY_GetMetadata"]
@@ -57,3 +57,4 @@ Represents a WS-MetadataExchange GetMetadata response message.
 ### -field Metadata
 
 Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure that contains a node in a single-linked list of metadata sections.
+

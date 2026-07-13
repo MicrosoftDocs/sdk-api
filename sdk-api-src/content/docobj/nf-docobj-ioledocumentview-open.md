@@ -52,7 +52,7 @@ api_name:
 
 Displays a document view in a separate pop-up window. The semantics are equivalent to <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a> with OLEIVERB_OPEN.
 
-## -parameters
+
 
 ## -returns
 

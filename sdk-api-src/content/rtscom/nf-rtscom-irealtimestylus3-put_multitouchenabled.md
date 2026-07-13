@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus3.put_MultiTouchEnabled
 title: IRealTimeStylus3::put_MultiTouchEnabled (rtscom.h)
-description: Indicates whether the IRealTimeStylus3 object has multitouch input enabled.
+description: Indicates whether the IRealTimeStylus3 object has multitouch input enabled. (Put)
 helpviewer_keywords: ["IRealTimeStylus3 interface [Tablet PC]","MultiTouchEnabled property","IRealTimeStylus3.MultiTouchEnabled","IRealTimeStylus3.get_MultiTouchEnabled","IRealTimeStylus3.put_MultiTouchEnabled","IRealTimeStylus3::MultiTouchEnabled","IRealTimeStylus3::get_MultiTouchEnabled","IRealTimeStylus3::put_MultiTouchEnabled","MultiTouchEnabled property [Tablet PC]","MultiTouchEnabled property [Tablet PC]","IRealTimeStylus3 interface","put_MultiTouchEnabled","rtscom/IRealTimeStylus3::MultiTouchEnabled","rtscom/IRealTimeStylus3::get_MultiTouchEnabled","rtscom/IRealTimeStylus3::put_MultiTouchEnabled","tablet.irealtimestylus3_multitouchenabled"]
 old-location: tablet\irealtimestylus3_multitouchenabled.htm
 tech.root: tablet

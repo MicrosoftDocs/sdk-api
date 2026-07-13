@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFPMPHostApp.LockProcess
 title: IMFPMPHostApp::LockProcess (mfidl.h)
-description: Blocks the protected media path (PMP) process from ending.
+description: Blocks the protected media path (PMP) process from ending. (IMFPMPHostApp.LockProcess)
 helpviewer_keywords: ["IMFPMPHostApp interface [Media Foundation]","LockProcess method","IMFPMPHostApp.LockProcess","IMFPMPHostApp::LockProcess","LockProcess","LockProcess method [Media Foundation]","LockProcess method [Media Foundation]","IMFPMPHostApp interface","mf.imfpmphostapp_lockprocess","mfidl/IMFPMPHostApp::LockProcess"]
 old-location: mf\imfpmphostapp_lockprocess.htm
 tech.root: mf
@@ -52,11 +52,11 @@ api_name:
 
 Blocks the protected media path (PMP) process from ending.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

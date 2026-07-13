@@ -1,7 +1,7 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_23
+UID: NS:iscsidsc.PERSISTENT_ISCSI_LOGIN_INFOA
 title: PERSISTENT_ISCSI_LOGIN_INFOA (iscsidsc.h)
-description: PERSISTENT_ISCSI_LOGIN_INFO structure contains information that describes a login session established by the Microsoft iSCSI initiator service after the machine boots up.
+description: PERSISTENT_ISCSI_LOGIN_INFO structure contains information that describes a login session established by the Microsoft iSCSI initiator service after the machine boots up. (ANSI)
 helpviewer_keywords: ["*PPERSISTENT_ISCSI_LOGIN_INFOA","ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","PERSISTENT_ISCSI_LOGIN_INFO","PERSISTENT_ISCSI_LOGIN_INFO structure [iSCSI Discovery Library API]","PERSISTENT_ISCSI_LOGIN_INFOA","PERSISTENT_ISCSI_LOGIN_INFOW","PPERSISTENT_ISCSI_LOGIN_INFO","PPERSISTENT_ISCSI_LOGIN_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.persistent_iscsi_login_info","iscsidsc/PERSISTENT_ISCSI_LOGIN_INFO","iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOA","iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOW","iscsidsc/PPERSISTENT_ISCSI_LOGIN_INFO"]
 old-location: iscsidisc\persistent_iscsi_login_info.htm
 tech.root: iSCSIDisc
@@ -180,7 +180,7 @@ The <b>PERSISTENT_ISCSI_LOGIN_INFO</b> structure is used in conjunction with the
 
 
 > [!NOTE]
-> The iscsidsc.h header defines PERSISTENT_ISCSI_LOGIN_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines PERSISTENT_ISCSI_LOGIN_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -205,3 +205,4 @@ The <b>PERSISTENT_ISCSI_LOGIN_INFO</b> structure is used in conjunction with the
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a>
+

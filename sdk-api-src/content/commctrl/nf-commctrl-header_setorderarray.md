@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_SetOrderArray","Header_SetOrderArray macro [Window
 old-location: controls\Header_SetOrderArray.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setorderarray.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_SetOrderArray, Header_SetOrderArray macro [Windows Controls], _win32_Header_SetOrderArray, _win32_Header_SetOrderArray_cpp, commctrl/Header_SetOrderArray, controls.Header_SetOrderArray, controls._win32_Header_SetOrderArray
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # Header_SetOrderArray macro
+
+## -syntax
+
+```cpp
+BOOL Header_SetOrderArray(
+   HWND hwnd,
+   int  iCount,
+   int  *lpi
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

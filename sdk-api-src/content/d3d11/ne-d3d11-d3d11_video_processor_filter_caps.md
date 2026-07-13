@@ -54,35 +54,35 @@ Defines image filter capabilities for a Microsoft Direct3D 11 video processor.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_BRIGHTNESS
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_BRIGHTNESS:0x1
 
 The video processor can adjust the brightness level.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_CONTRAST
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_CONTRAST:0x2
 
 The video processor can adjust the contrast level.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_HUE
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_HUE:0x4
 
 The video processor can adjust hue.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_SATURATION
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_SATURATION:0x8
 
 The video processor can adjust the saturation level.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_NOISE_REDUCTION
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_NOISE_REDUCTION:0x10
 
 The video processor can perform noise reduction.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_EDGE_ENHANCEMENT
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_EDGE_ENHANCEMENT:0x20
 
 The video processor can perform edge enhancement.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_ANAMORPHIC_SCALING
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_ANAMORPHIC_SCALING:0x40
 
 The video processor can perform anamorphic scaling. Anamorphic scaling can be used to stretch 4:3 content to a widescreen 16:9 aspect ratio.
 
-### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_STEREO_ADJUSTMENT
+### -field D3D11_VIDEO_PROCESSOR_FILTER_CAPS_STEREO_ADJUSTMENT:0x80
 
 For stereo 3D video, the video processor can adjust the offset between the left and right views, allowing the user to reduce potential eye strain.
 

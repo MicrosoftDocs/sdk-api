@@ -1,7 +1,7 @@
 ---
 UID: NS:winhttp.tagWINHTTP_CREDS
 title: WINHTTP_CREDS (winhttp.h)
-description: Contains user credential information used for server and proxy authentication.
+description: Contains user credential information used for server and proxy authentication. (WINHTTP_CREDS)
 helpviewer_keywords: ["*PWINHTTP_CREDS","INHTTP_AUTH_SCHEME_DIGEST","PWINHTTP_CREDS","PWINHTTP_CREDS structure pointer [HTTP]","WINHTTP_AUTH_SCHEME_BASIC","WINHTTP_AUTH_SCHEME_NEGOTIATE","WINHTTP_AUTH_SCHEME_NTLM","WINHTTP_CREDS","WINHTTP_CREDS structure [HTTP]","http.winhttp_creds","winhttp/PWINHTTP_CREDS","winhttp/WINHTTP_CREDS"]
 old-location: http\winhttp_creds.htm
 tech.root: http
@@ -135,7 +135,7 @@ The server connection port.
 This structure is used with options <b>WINHTTP_OPTION_GLOBAL_SERVER_CREDS</b> and <b>WINHTTP_OPTION_GLOBAL_PROXY_CREDS</b>
 <a href="/windows/desktop/WinHttp/option-flags">option flags</a>. These options require the registry key <b>HKLM\Software\Microsoft\Windows\CurrentVersion\Internet Settings!ShareCredsWithWinHttp</b>. This registry key is not present by default.
 
-When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set  the <b>WINHTTP_OPTION_USE_GLOBAL_SERVER_CREDENTIALS</b>option flag.
+When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set  the <b>WINHTTP_OPTION_USE_GLOBAL_SERVER_CREDENTIALS</b> option flag.
 
 ## -see-also
 

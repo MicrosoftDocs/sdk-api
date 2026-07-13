@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.InitiateShutdownW
 title: InitiateShutdownW function (winreg.h)
-description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart.
-helpviewer_keywords: ["InitiateShutdown","InitiateShutdown function","InitiateShutdownA","InitiateShutdownW","SHUTDOWN_FORCE_OTHERS","SHUTDOWN_FORCE_SELF","SHUTDOWN_GRACE_OVERRIDE","SHUTDOWN_HYBRID","SHUTDOWN_INSTALL_UPDATES","SHUTDOWN_NOREBOOT","SHUTDOWN_POWEROFF","SHUTDOWN_RESTART","SHUTDOWN_RESTARTAPPS","base.initiateshutdown","security.initiateshutdown","winreg/InitiateShutdown","winreg/InitiateShutdownA","winreg/InitiateShutdownW"]
+description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart. (Unicode)
+helpviewer_keywords: ["InitiateShutdown", "InitiateShutdown function", "InitiateShutdownW", "SHUTDOWN_FORCE_OTHERS", "SHUTDOWN_FORCE_SELF", "SHUTDOWN_GRACE_OVERRIDE", "SHUTDOWN_HYBRID", "SHUTDOWN_INSTALL_UPDATES", "SHUTDOWN_NOREBOOT", "SHUTDOWN_POWEROFF", "SHUTDOWN_RESTART", "SHUTDOWN_RESTARTAPPS", "base.initiateshutdown", "security.initiateshutdown", "winreg/InitiateShutdown", "winreg/InitiateShutdownW"]
 old-location: base\initiateshutdown.htm
 tech.root: base
 ms.assetid: 9d0d3774-3e4d-4e56-b4c2-d59d74e797a1
@@ -310,7 +310,7 @@ A non-zero return value does not mean the logoff was or will be successful. The 
 
 
 > [!NOTE]
-> The winreg.h header defines InitiateShutdown as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines InitiateShutdown as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -60,7 +60,7 @@ The DDLOCKOUT structure contains a description of the surface.
 
 ### -field ddRVal
 
-Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff550695(v=vs.85)">DD_DXAPI_LOCK</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff550695(v=vs.85)">DD_DXAPI_LOCK</a> operations. A return code of DD_OK indicates success.
 
 ### -field dwSurfHeight
 
@@ -141,7 +141,7 @@ DDSCAPS_FLIP
 
 </td>
 <td>
-This surface is a part of a surface flipping structure. When this capability is passed to the application's <b>CreateSurface</b> method, a front buffer and one or more back buffers are created. DirectDraw sets the DDSCAPS_FRONTBUFFER bit on the front-buffer surface and the DDSCAPS_BACKBUFFER bit on the surface adjacent to the front-buffer surface. The <b>dwBackBufferCount</b> member of the <a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure must be set to at least 1 in order for the method call to succeed. The DDSCAPS_COMPLEX capability must always be set when creating multiple surfaces by using the <b>CreateSurface</b> method. 
+This surface is a part of a surface flipping structure. When this capability is passed to the application's <b>CreateSurface</b> method, a front buffer and one or more back buffers are created. DirectDraw sets the DDSCAPS_FRONTBUFFER bit on the front-buffer surface and the DDSCAPS_BACKBUFFER bit on the surface adjacent to the front-buffer surface. The <b>dwBackBufferCount</b> member of the <a href="/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc">DDSURFACEDESC</a> structure must be set to at least 1 in order for the method call to succeed. The DDSCAPS_COMPLEX capability must always be set when creating multiple surfaces by using the <b>CreateSurface</b> method. 
 
 </td>
 </tr>
@@ -606,4 +606,4 @@ Specifies the mask for V bits.
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

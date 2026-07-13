@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.OpenDesktopW
 title: OpenDesktopW function (winuser.h)
-description: Opens the specified desktop object.
-helpviewer_keywords: ["DF_ALLOWOTHERACCOUNTHOOK","OpenDesktop","OpenDesktop function [Windows Stations and Desktops]","OpenDesktopA","OpenDesktopW","_win32_opendesktop","base.opendesktop","winstation.opendesktop","winuser/OpenDesktop","winuser/OpenDesktopA","winuser/OpenDesktopW"]
+description: Opens the specified desktop object. (Unicode)
+helpviewer_keywords: ["DF_ALLOWOTHERACCOUNTHOOK", "OpenDesktop", "OpenDesktop function [Windows Stations and Desktops]", "OpenDesktopW", "_win32_opendesktop", "base.opendesktop", "winstation.opendesktop", "winuser/OpenDesktop", "winuser/OpenDesktopW"]
 old-location: winstation\opendesktop.htm
 tech.root: winstation
 ms.assetid: 7f805f47-1737-4f4b-a74a-9c1423b65f2c
@@ -116,7 +116,7 @@ If the <i>dwDesiredAccess</i> parameter specifies the <b>READ_CONTROL</b>, <b>WR
 
 
 > [!NOTE]
-> The winuser.h header defines OpenDesktop as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines OpenDesktop as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

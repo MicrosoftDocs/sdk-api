@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetOptionAt
 title: MI_OperationOptions_GetOptionAt function (mi.h)
-description: Gets a previously added option value based on the specified index.
+description: Gets a previously added option value based on the specified index. (MI_OperationOptions_GetOptionAt)
 helpviewer_keywords: ["MI_OperationOptions_GetOptionAt","MI_OperationOptions_GetOptionAt function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetOptionAt","wmi_v2.mi_operationoptions_getoptionat"]
 old-location: wmi_v2\mi_operationoptions_getoptionat.htm
 tech.root: wmi_v2

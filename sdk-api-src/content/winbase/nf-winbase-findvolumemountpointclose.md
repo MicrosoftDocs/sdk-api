@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
  - kernel32legacy.dll
@@ -58,7 +59,7 @@ api_name:
 
 Closes the specified mounted folder search handle. The 
     <a href="/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a> and 
-<a href="/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a>functions use this search handle to locate mounted folders on a specified volume.
+<a href="/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a> functions use this search handle to locate mounted folders on a specified volume.
 
 ## -parameters
 

@@ -48,9 +48,6 @@ api_name:
  - STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 ---
 
-# STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure
-
-
 ## -description
 
 This structure is used in conjunction with <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to return temperature data from a storage device or adapter.
@@ -85,7 +82,7 @@ Reserved for future use.
 
 Reserved for future use.
 
-### -field TemperatureInfo [ANYSIZE_ARRAY]
+### -field TemperatureInfo
 
 Device temperature data, of type <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>.
 

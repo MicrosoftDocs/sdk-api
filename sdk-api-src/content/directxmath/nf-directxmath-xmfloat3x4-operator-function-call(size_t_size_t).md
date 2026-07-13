@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3X4.operator-function-call(size_t,size_t)
-title: XMFLOAT3X4::operator()
+title: XMFLOAT3X4::operator()(size_t,size_t)
 ms.date: 04/22/2020
 description: Returns a reference to a matrix element of an **XMFLOAT3X4**, specified by row and column arguments.
 tech.root: dxmath
@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

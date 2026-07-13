@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegDeleteUSValueW
 title: SHRegDeleteUSValueW function (shlwapi.h)
-description: Deletes a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHRegDeleteUSValue","SHRegDeleteUSValue function [Windows Shell]","SHRegDeleteUSValueA","SHRegDeleteUSValueW","_win32_SHRegDeleteUSValue","shell.SHRegDeleteUSValue","shlwapi/SHRegDeleteUSValue","shlwapi/SHRegDeleteUSValueA","shlwapi/SHRegDeleteUSValueW"]
+description: Deletes a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
+helpviewer_keywords: ["SHRegDeleteUSValue", "SHRegDeleteUSValue function [Windows Shell]", "SHRegDeleteUSValueW", "_win32_SHRegDeleteUSValue", "shell.SHRegDeleteUSValue", "shlwapi/SHRegDeleteUSValue", "shlwapi/SHRegDeleteUSValueW"]
 old-location: shell\SHRegDeleteUSValue.htm
 tech.root: shell
 ms.assetid: f70407af-d8ee-4333-be32-01887d4add4c
@@ -100,4 +100,4 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegDeleteUSValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegDeleteUSValue as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

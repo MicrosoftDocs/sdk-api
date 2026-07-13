@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_SetText","ComboBox_SetText macro [Windows Contro
 old-location: controls\ComboBox_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_settext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_SetText, ComboBox_SetText macro [Windows Controls], _win32_ComboBox_SetText, _win32_ComboBox_SetText_cpp, controls.ComboBox_SetText, controls._win32_ComboBox_SetText, windowsx/ComboBox_SetText
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_SetText macro
+
+## -syntax
+
+```cpp
+int ComboBox_SetText(
+   HWND   hwndCtl,
+   LPTSTR lpsz
+);
+```
+
+## -returns
+
+Type: **int**
+
+If the macro succeeds, the return value is nonzero. If it fails, the return value is zero.
 
 
 ## -description

@@ -64,7 +64,7 @@ Position information. A sample can correspond to blocks of audio, a video frame,
 
 ## -returns
 
-Returns the converted time if successful or â€“1 otherwise.
+Returns the converted time if successful or −1 otherwise.
 
 ## -remarks
 

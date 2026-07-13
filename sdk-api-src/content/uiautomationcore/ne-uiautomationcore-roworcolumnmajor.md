@@ -54,15 +54,15 @@ Contains values that specify whether data in a table should be read primarily by
 
 ## -enum-fields
 
-### -field RowOrColumnMajor_RowMajor
+### -field RowOrColumnMajor_RowMajor:0
 
 Data in the table should be read row by row.
 
-### -field RowOrColumnMajor_ColumnMajor
+### -field RowOrColumnMajor_ColumnMajor:1
 
 Data in the table should be read column by column.
 
-### -field RowOrColumnMajor_Indeterminate
+### -field RowOrColumnMajor_Indeterminate:2
 
 The best way to present the data is indeterminate.
 

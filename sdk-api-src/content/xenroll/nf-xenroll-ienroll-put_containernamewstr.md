@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.put_ContainerNameWStr
 title: IEnroll::put_ContainerNameWStr (xenroll.h)
-description: Sets or retrieves the name of the key container to use.
+description: Sets or retrieves the name of the key container to use. (Put)
 helpviewer_keywords: ["ContainerNameWStr property [Security]","ContainerNameWStr property [Security]","IEnroll interface","IEnroll interface [Security]","ContainerNameWStr property","IEnroll.ContainerNameWStr","IEnroll.put_ContainerNameWStr","IEnroll::ContainerNameWStr","IEnroll::get_ContainerNameWStr","IEnroll::put_ContainerNameWStr","put_ContainerNameWStr","security.ienroll4_containernamewstr","xenroll/IEnroll::ContainerNameWStr","xenroll/IEnroll::get_ContainerNameWStr","xenroll/IEnroll::put_ContainerNameWStr"]
 old-location: security\ienroll4_containernamewstr.htm
 tech.root: security

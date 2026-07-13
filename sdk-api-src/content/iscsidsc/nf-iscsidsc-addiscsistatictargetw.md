@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.AddIScsiStaticTargetW
 title: AddIScsiStaticTargetW function (iscsidsc.h)
-description: AddIscsiStaticTarget function adds a target to the list of static targets available to the iSCSI initiator.
-helpviewer_keywords: ["AddIScsiStaticTargetW","AddIscsiStaticTarget","AddIscsiStaticTarget function [iSCSI Discovery Library API]","AddIscsiStaticTargetA","AddIscsiStaticTargetW","ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET","ISCSI_TARGET_FLAG_MERGE_TARGET_INFORMATION","iscsidisc.addiscsistatictarget","iscsidsc/AddIscsiStaticTarget","iscsidsc/AddIscsiStaticTargetA","iscsidsc/AddIscsiStaticTargetW"]
+description: AddIscsiStaticTarget function adds a target to the list of static targets available to the iSCSI initiator. (Unicode)
+helpviewer_keywords: ["AddIScsiStaticTargetW", "AddIscsiStaticTarget", "AddIscsiStaticTarget function [iSCSI Discovery Library API]", "AddIscsiStaticTargetW", "ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET", "ISCSI_TARGET_FLAG_MERGE_TARGET_INFORMATION", "iscsidisc.addiscsistatictarget", "iscsidsc/AddIscsiStaticTarget", "iscsidsc/AddIscsiStaticTargetW"]
 old-location: iscsidisc\addiscsistatictarget.htm
 tech.root: iSCSIDisc
 ms.assetid: 81f5ac9a-debb-4fa3-8ccf-1303cd45f1de
@@ -131,7 +131,7 @@ By setting the <b>ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET</b> flag, callers can con
 
 
 > [!NOTE]
-> The iscsidsc.h header defines AddIScsiStaticTarget as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines AddIScsiStaticTarget as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

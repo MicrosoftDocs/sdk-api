@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetItemRect","ListBox_GetItemRect macro [Windows 
 old-location: controls\ListBox_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetItemRect, ListBox_GetItemRect macro [Windows Controls], _win32_ListBox_GetItemRect, _win32_ListBox_GetItemRect_cpp, controls.ListBox_GetItemRect, controls._win32_ListBox_GetItemRect, windowsx/ListBox_GetItemRect
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_GetItemRect macro
+
+## -syntax
+
+```cpp
+int ListBox_GetItemRect(
+   HWND hwndCtl,
+   int  index,
+   RECT *lprc
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is LB_ERR.
 
 
 ## -description

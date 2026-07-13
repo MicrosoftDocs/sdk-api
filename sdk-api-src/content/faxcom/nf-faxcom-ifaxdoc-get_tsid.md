@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_Tsid
 title: IFaxDoc::get_Tsid (faxcom.h)
-description: Sets or retrieves the Tsid property of a FaxDoc object. The Tsid property is a null-terminated string that contains a user-defined transmitting station identifier (TSID).
+description: Sets or retrieves the Tsid property of a FaxDoc object. The Tsid property is a null-terminated string that contains a user-defined transmitting station identifier (TSID). (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","Tsid property","IFaxDoc.Tsid","IFaxDoc.get_Tsid","IFaxDoc::Tsid","IFaxDoc::get_Tsid","IFaxDoc::put_Tsid","Tsid property [Fax Service]","Tsid property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_tsid","fax._mfax_ifaxdoc_get_tsid","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_tsid_cpp","faxcom/IFaxDoc::Tsid","faxcom/IFaxDoc::get_Tsid","faxcom/IFaxDoc::put_Tsid","get_Tsid"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_tsid_cpp.htm
 tech.root: Fax

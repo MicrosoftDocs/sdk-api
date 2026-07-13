@@ -57,7 +57,7 @@ The <b>MBN_CONNECTION_MODE</b> enumerated type specifies the mode of connection 
 
 ## -enum-fields
 
-### -field MBN_CONNECTION_MODE_PROFILE
+### -field MBN_CONNECTION_MODE_PROFILE:0
 
 Profile name is used for connection.
 

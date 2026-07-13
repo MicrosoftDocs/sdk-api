@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_Name
 title: IFaxSender::get_Name (faxcomex.h)
-description: The IFaxSender::get_Name property is a null-terminated string that contains the name of the sender.
+description: The IFaxSender::get_Name property is a null-terminated string that contains the name of the sender. (Get)
 helpviewer_keywords: ["IFaxSender interface [Fax Service]","Name property","IFaxSender.Name","IFaxSender.get_Name","IFaxSender.put_Name","IFaxSender::Name","IFaxSender::get_Name","IFaxSender::put_Name","Name property [Fax Service]","Name property [Fax Service]","IFaxSender interface","_mfax_faxsender.name","fax._mfax_faxsender_cpp_mfax_faxsender_name_cpp","fax._mfax_faxsender_name","faxcomex/IFaxSender::Name","faxcomex/IFaxSender::get_Name","faxcomex/IFaxSender::put_Name","get_Name"]
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_name_cpp.htm
 tech.root: Fax

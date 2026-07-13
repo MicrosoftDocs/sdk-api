@@ -20,8 +20,8 @@ req.lib: D3D11.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
@@ -62,7 +62,7 @@ A reference to the globally unique identifier (GUID) of the interface that you w
 
 Type: **void\*\***
 
-A pointer to a memory block that receives a pointer to the the DXGI interface.
+A pointer to a memory block that receives a pointer to the DXGI interface.
 
 ## -returns
 

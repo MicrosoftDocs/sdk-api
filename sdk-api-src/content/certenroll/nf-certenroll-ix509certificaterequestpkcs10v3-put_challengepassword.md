@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_ChallengePassword
 title: IX509CertificateRequestPkcs10V3::put_ChallengePassword (certenroll.h)
-description: The password to use when creating a request with a challenge. To create a request without a challenge, do not set the ChallengePassword property.
+description: The password to use when creating a request with a challenge. To create a request without a challenge, do not set the ChallengePassword property. (Put)
 helpviewer_keywords: ["ChallengePassword property [Security]","ChallengePassword property [Security]","IX509CertificateRequestPkcs10V3 interface","IX509CertificateRequestPkcs10V3 interface [Security]","ChallengePassword property","IX509CertificateRequestPkcs10V3.ChallengePassword","IX509CertificateRequestPkcs10V3.put_ChallengePassword","IX509CertificateRequestPkcs10V3::ChallengePassword","IX509CertificateRequestPkcs10V3::get_ChallengePassword","IX509CertificateRequestPkcs10V3::put_ChallengePassword","certenroll/IX509CertificateRequestPkcs10V3::ChallengePassword","certenroll/IX509CertificateRequestPkcs10V3::get_ChallengePassword","certenroll/IX509CertificateRequestPkcs10V3::put_ChallengePassword","put_ChallengePassword","security.ix509certificaterequestpkcs10v3_challengepassword"]
 old-location: security\ix509certificaterequestpkcs10v3_challengepassword.htm
 tech.root: security

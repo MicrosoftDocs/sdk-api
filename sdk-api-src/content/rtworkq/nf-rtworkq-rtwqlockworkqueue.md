@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqLockWorkQueue
 title: RtwqLockWorkQueue function (rtworkq.h)
-description: Locks a work queue.
+description: Locks a work queue. (RtwqLockWorkQueue)
 helpviewer_keywords: ["RtwqLockWorkQueue","RtwqLockWorkQueue function","base.rtwqlockworkqueue","rtworkq/RtwqLockWorkQueue"]
 old-location: base\rtwqlockworkqueue.htm
 tech.root: backup
@@ -60,4 +60,4 @@ The identifier for the work queue. The identifier is returned by the <a href="/w
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

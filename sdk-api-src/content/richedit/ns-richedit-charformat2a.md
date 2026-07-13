@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit.CHARFORMAT2A
 title: CHARFORMAT2A (richedit.h)
-description: Contains information about character formatting in a rich edit control.
+description: Contains information about character formatting in a rich edit control. (CHARFORMAT2A)
 helpviewer_keywords: ["CFE_ALLCAPS","CFE_AUTOBACKCOLOR","CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_EMBOSS","CFE_EXTENDED","CFE_FONTBOUND","CFE_HIDDEN","CFE_IMPRINT","CFE_ITALIC","CFE_LINK","CFE_LINKPROTECTED","CFE_MATH","CFE_MATHNOBUILDUP","CFE_MATHORDINARY","CFE_OUTLINE","CFE_PROTECTED","CFE_REVISED","CFE_SHADOW","CFE_SMALLCAPS","CFE_STRIKEOUT","CFE_SUBSCRIPT","CFE_SUPERSCRIPT","CFE_UNDERLINE","CFM_ALL","CFM_ALL2","CFM_ALLCAPS","CFM_ANIMATION","CFM_BACKCOLOR","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_COOKIE","CFM_DISABLED","CFM_EFFECTS","CFM_EFFECTS2","CFM_EMBOSS","CFM_EXTENDED","CFM_FACE","CFM_FONTBOUND","CFM_HIDDEN","CFM_IMPRINT","CFM_ITALIC","CFM_KERNING","CFM_LCID","CFM_LINK","CFM_LINKPROTECTED","CFM_MATH","CFM_MATHNOBUILDUP","CFM_MATHORDINARY","CFM_OFFSET","CFM_OUTLINE","CFM_PROTECTED","CFM_REVAUTHOR","CFM_REVISED","CFM_SHADOW","CFM_SIZE","CFM_SMALLCAPS","CFM_SPACING","CFM_STRIKEOUT","CFM_STYLE","CFM_SUBSCRIPT","CFM_SUPERSCRIPT","CFM_UNDERLINE","CFM_UNDERLINETYPE","CFM_WEIGHT","CFU_CF1UNDERLINE","CFU_INVERT","CFU_UNDERLINE","CFU_UNDERLINEDASH","CFU_UNDERLINEDASHDOT","CFU_UNDERLINEDASHDOTDOT","CFU_UNDERLINEDOTTED","CFU_UNDERLINEDOUBLE","CFU_UNDERLINEDOUBLEWAVE","CFU_UNDERLINEHAIRLINE","CFU_UNDERLINEHEAVYWAVE","CFU_UNDERLINELONGDASH","CFU_UNDERLINENONE","CFU_UNDERLINETHICK","CFU_UNDERLINETHICKDASH","CFU_UNDERLINETHICKDASHDOT","CFU_UNDERLINETHICKDASHDOTDOT","CFU_UNDERLINETHICKDOTTED","CFU_UNDERLINETHICKLONGDASH","CFU_UNDERLINEWAVE","CFU_UNDERLINEWORD","CHARFORMAT2","CHARFORMAT2 structure [Windows Controls]","CHARFORMAT2A","CHARFORMAT2W","_win32_CHARFORMAT2_str","_win32_CHARFORMAT2_str_cpp","controls.CHARFORMAT2","controls._win32_CHARFORMAT2_str","richedit/CHARFORMAT2","richedit/CHARFORMAT2A","richedit/CHARFORMAT2W"]
 old-location: controls\CHARFORMAT2.htm
 tech.root: Controls
@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about character formatting in a rich edit control. <b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
+Contains information about character formatting in a rich edit control. <b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a> and <a href="/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -96,10 +96,6 @@ Client cookie. This member is opaque to a rich edit control.
 
 
 ### -field dwReserved
-
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
-
-Reserved; the value must be zero. 
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
@@ -433,7 +429,7 @@ Text color. To use this member, set the <b>CFM_COLOR</b> flag in the <b>dwMask</
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
+A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="/windows/win32/controls/text-object-model">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
                 
 
 This member can be a combination of the following values.
@@ -519,7 +515,7 @@ The characters are less common members of a script. A font that supports a scrip
 </dl>
 </td>
 <td width="60%">
-Font is chosen by the rich edit control because the active font doesn’t support the characters. This process is called font binding.
+Font is chosen by the rich edit control because the active font doesn't support the characters. This process is called font binding.
 
 
 </td>
@@ -560,7 +556,7 @@ Characters are italic.
 </dl>
 </td>
 <td width="60%">
-A rich edit control can send <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification codes when it receives mouse messages while the mouse pointer is over text with the <b>CFE_LINK</b> effect.
+A rich edit control can send <a href="/windows/win32/controls/en-link">EN_LINK</a> notification codes when it receives mouse messages while the mouse pointer is over text with the <b>CFE_LINK</b> effect.
 
 </td>
 </tr>
@@ -622,7 +618,7 @@ Characters are displayed as outlined characters. The value does not affect how t
 </dl>
 </td>
 <td width="60%">
-Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code.
+Characters are protected; an attempt to modify them will cause an <a href="/windows/win32/controls/en-protected">EN_PROTECTED</a> notification code.
 
 </td>
 </tr>
@@ -705,8 +701,8 @@ Characters are underlined.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the parts of the <b>CHARFORMAT2</b> structure that contain valid information. The 
-					<b>dwMask</b> member can be a combination of the values from two sets of bit flags. One set indicates the structure members that are valid. Another set indicates the valid attributes in the 
-					<b>dwEffects</b> member. 
+                    <b>dwMask</b> member can be a combination of the values from two sets of bit flags. One set indicates the structure members that are valid. Another set indicates the valid attributes in the 
+                    <b>dwEffects</b> member. 
                     
 
 
@@ -776,7 +772,7 @@ The <b>CFE_BOLD</b> value is valid.
 </td>
 <td width="60%">
 The <b>CFE_AUTOCOLOR</b> value is valid, or the 
-									<b>crTextColor</b> member is valid.
+                                    <b>crTextColor</b> member is valid.
 
 </td>
 </tr>
@@ -1041,7 +1037,7 @@ Set the following values to indicate the valid structure members.
 </td>
 <td width="60%">
 The 
-						<b>bAnimation</b> member is valid.
+                        <b>bAnimation</b> member is valid.
 
 </td>
 </tr>
@@ -1052,7 +1048,7 @@ The
 </td>
 <td width="60%">
 The 
-						<b>crBackColor</b> member is valid.
+                        <b>crBackColor</b> member is valid.
 
 </td>
 </tr>
@@ -1063,7 +1059,7 @@ The
 </td>
 <td width="60%">
 The 
-						<b>bCharSet</b> member is valid.
+                        <b>bCharSet</b> member is valid.
 
 </td>
 </tr>
@@ -1114,7 +1110,7 @@ The <b>lcid</b> member is valid.
 </td>
 <td width="60%">
 The 
-						<b>yOffset</b> member is valid.
+                        <b>yOffset</b> member is valid.
 
 </td>
 </tr>
@@ -1214,7 +1210,7 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 > [!NOTE]
-> The richedit.h header defines CHARFORMAT2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The richedit.h header defines CHARFORMAT2 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -1229,15 +1225,15 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a>
+<a href="/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a>
+<a href="/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+<a href="/windows/win32/controls/en-protected">EN_PROTECTED</a>
 
 
 

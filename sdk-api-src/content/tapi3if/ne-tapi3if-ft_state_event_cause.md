@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field FTEC_NORMAL
+### -field FTEC_NORMAL:0
 
 State change in response to a normal API call.
 

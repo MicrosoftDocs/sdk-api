@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-perfcounters-l1-2-0.dll
  - Advapi32.dll
  - API-MS-Win-Core-perfcounters-l1-1-0.dll
  - KernelBase.dll
@@ -90,7 +91,7 @@ This is a convenience function for incrementing raw counter data. To increment t
 
 Use the <a href="/windows/desktop/api/perflib/nf-perflib-perfsetulongcountervalue">PerfSetULongCounterValue</a> function to initially set the counter value.
 
-Note that the counter value will overflow when the counter value increments past the maximum size of an 4-byte unsigned integer.
+Note that the counter value will overflow when the counter value increments past the maximum size of a 4-byte unsigned integer.
 
 ## -see-also
 

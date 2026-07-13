@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamNextKeyFrameTime","AVIStreamNextKeyFrameTime mac
 old-location: multimedia\avistreamnextkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 5eb338aa-6ccb-4adc-a46c-9f796c36a121
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamNextKeyFrameTime, AVIStreamNextKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNextKeyFrameTime, multimedia.avistreamnextkeyframetime, vfw/AVIStreamNextKeyFrameTime
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamNextKeyFrameTime macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamNextKeyFrameTime(
+     pavi,
+     t
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the time if successful or –1 otherwise.
+
 
 ## -description
 
@@ -71,10 +86,10 @@ The <b>AVIStreamNextKeyFrameTime</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamNextKeyFrameTime(pavi, time) \ 
+#define AVIStreamNextKeyFrameTime(pavi, t) \ 
     AVIStreamSampleToTime(pavi, \ 
     AVIStreamNextKeyFrame(pavi, \ 
-    AVIStreamTimeToSample(pavi, time))) 
+    AVIStreamTimeToSample(pavi, t))) 
 
 ```
 

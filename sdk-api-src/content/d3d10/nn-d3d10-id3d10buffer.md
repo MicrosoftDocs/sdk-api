@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Buffer
 title: ID3D10Buffer (d3d10.h)
-description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data.
+description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data. (ID3D10Buffer)
 helpviewer_keywords: ["8a6172fe-deac-4b70-fb31-07255d702e32","ID3D10Buffer","ID3D10Buffer interface [Direct3D 10]","ID3D10Buffer interface [Direct3D 10]","described","d3d10/ID3D10Buffer","direct3d10.id3d10buffer"]
 old-location: direct3d10\id3d10buffer.htm
 tech.root: direct3d10
@@ -55,10 +55,7 @@ A buffer interface accesses a <a href="/windows/desktop/direct3d10/d3d10-graphic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Buffer</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>. <b>ID3D10Buffer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10Buffer</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>. <b>ID3D10Buffer</b> also has these types of members:
 
 ## -remarks
 

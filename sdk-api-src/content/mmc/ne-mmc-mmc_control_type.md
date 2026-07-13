@@ -59,7 +59,7 @@ MMC_CONTROL_TYPE enumeration defines the kinds of controls that can appear in th
 
 ## -enum-fields
 
-### -field TOOLBAR
+### -field TOOLBAR:0
 
 The control to be associated with the control bar is a toolbar.
 

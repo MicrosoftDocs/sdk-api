@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateColorSpaceW
 title: CreateColorSpaceW function (wingdi.h)
-description: The CreateColorSpace function creates a logical color space.
-helpviewer_keywords: ["CreateColorSpace","CreateColorSpace function [Windows Color System]","CreateColorSpaceA","CreateColorSpaceW","_color_CreateColorSpace","wcs.createcolorspace","wingdi/CreateColorSpace","wingdi/CreateColorSpaceA","wingdi/CreateColorSpaceW"]
+description: The CreateColorSpace function creates a logical color space. (Unicode)
+helpviewer_keywords: ["CreateColorSpace", "CreateColorSpace function [Windows Color System]", "CreateColorSpaceW", "_color_CreateColorSpace", "wcs.createcolorspace", "wingdi/CreateColorSpace", "wingdi/CreateColorSpaceW"]
 old-location: wcs\createcolorspace.htm
 tech.root: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
@@ -79,7 +79,7 @@ When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete 
 
 
 > [!NOTE]
-> The wingdi.h header defines CreateColorSpace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines CreateColorSpace as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

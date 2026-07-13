@@ -90,6 +90,6 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 ## -see-also
 
-* [CHANGER_INITIALIZE_ELEMENT_STATUS](ni-winioctl-ioctl_changer_initialize_element_status.md)
+* [CHANGER_INITIALIZE_ELEMENT_STATUS](ns-winioctl-changer_initialize_element_status.md)
 * [Device Management Control Codes](/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)

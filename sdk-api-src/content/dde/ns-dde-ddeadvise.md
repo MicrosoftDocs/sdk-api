@@ -1,5 +1,5 @@
 ---
-UID: NS:dde.__unnamed_struct_1
+UID: NS:dde.DDEADVISE
 title: DDEADVISE (dde.h)
 description: Contains flags that specify how a DDE server application should send data to a client application during an advise loop. A client passes a handle to a DDEADVISE structure to a server as part of a WM_DDE_ADVISE message.
 helpviewer_keywords: ["CF_BITMAP","CF_DIB","CF_DIF","CF_ENHMETAFILE","CF_METAFILEPICT","CF_OEMTEXT","CF_PALETTE","CF_PENDATA","CF_RIFF","CF_SYLK","CF_TEXT","CF_TIFF","CF_UNICODETEXT","CF_WAVE","DDEADVISE","DDEADVISE structure [Data Exchange]","_win32_DDEADVISE_str","_win32_ddeadvise_str_cpp","dataxchg.ddeadvise","dde/DDEADVISE","winui._win32_ddeadvise_str"]
@@ -160,3 +160,4 @@ The client application's preferred data format. The format must be a standard or
 
 
 <a href="/windows/desktop/dataxchg/wm-dde-unadvise">WM_DDE_UNADVISE</a>
+

@@ -56,31 +56,31 @@ Specifies image filters for Microsoft DirectX Video Acceleration High Definition
 
 ## -enum-fields
 
-### -field DXVAHD_FILTER_BRIGHTNESS
+### -field DXVAHD_FILTER_BRIGHTNESS:0
 
 Adjusts brightness.
 
-### -field DXVAHD_FILTER_CONTRAST
+### -field DXVAHD_FILTER_CONTRAST:1
 
 Adjusts contrast.
 
-### -field DXVAHD_FILTER_HUE
+### -field DXVAHD_FILTER_HUE:2
 
 Adjusts hue.
 
-### -field DXVAHD_FILTER_SATURATION
+### -field DXVAHD_FILTER_SATURATION:3
 
 Adjusts saturation.
 
-### -field DXVAHD_FILTER_NOISE_REDUCTION
+### -field DXVAHD_FILTER_NOISE_REDUCTION:4
 
 Applies noise reduction.
 
-### -field DXVAHD_FILTER_EDGE_ENHANCEMENT
+### -field DXVAHD_FILTER_EDGE_ENHANCEMENT:5
 
 Applies edge enhancement.
 
-### -field DXVAHD_FILTER_ANAMORPHIC_SCALING
+### -field DXVAHD_FILTER_ANAMORPHIC_SCALING:6
 
 Performs <i>anamorphic scaling</i>. Anamorphic scaling can be used to stretch 4:3 content to a widescreen 16:9 aspect ratio.
 

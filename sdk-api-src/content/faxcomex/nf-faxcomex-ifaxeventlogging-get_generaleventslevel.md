@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.get_GeneralEventsLevel
 title: IFaxEventLogging::get_GeneralEventsLevel (faxcomex.h)
-description: The IFaxEventLogging::get_GeneralEventsLevel property indicates the level of detail at which the fax service logs general events in the application log.
+description: The IFaxEventLogging::get_GeneralEventsLevel property indicates the level of detail at which the fax service logs general events in the application log. (Get)
 helpviewer_keywords: ["GeneralEventsLevel property [Fax Service]","GeneralEventsLevel property [Fax Service]","IFaxEventLogging interface","IFaxEventLogging interface [Fax Service]","GeneralEventsLevel property","IFaxEventLogging.GeneralEventsLevel","IFaxEventLogging.get_GeneralEventsLevel","IFaxEventLogging.put_GeneralEventsLevel","IFaxEventLogging::GeneralEventsLevel","IFaxEventLogging::get_GeneralEventsLevel","IFaxEventLogging::put_GeneralEventsLevel","_mfax_faxeventlogging.generaleventslevel","fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_generaleventslevel_cpp","fax._mfax_faxeventlogging_generaleventslevel","faxcomex/IFaxEventLogging::GeneralEventsLevel","faxcomex/IFaxEventLogging::get_GeneralEventsLevel","faxcomex/IFaxEventLogging::put_GeneralEventsLevel","get_GeneralEventsLevel"]
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_generaleventslevel_cpp.htm
 tech.root: Fax

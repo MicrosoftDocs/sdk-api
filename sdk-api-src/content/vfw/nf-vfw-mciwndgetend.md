@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetEnd","MCIWndGetEnd macro [Windows Multimedia]","
 old-location: multimedia\mciwndgetend.htm
 tech.root: Multimedia
 ms.assetid: 558d5412-1165-4dda-8ac1-6c599267beaf
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetEnd, MCIWndGetEnd macro [Windows Multimedia], _win32_MCIWndGetEnd, multimedia.mciwndgetend, vfw/MCIWndGetEnd
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetEnd macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetEnd(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the location in the current time format.
 
 
 ## -description

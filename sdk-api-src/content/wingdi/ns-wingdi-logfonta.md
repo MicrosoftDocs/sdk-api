@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagLOGFONTA
 title: LOGFONTA (wingdi.h)
-description: The LOGFONT structure defines the attributes of a font.
+description: The LOGFONT structure defines the attributes of a font. (ANSI)
 helpviewer_keywords: ["*LPLOGFONTA","*NPLOGFONTA","*PLOGFONTA","LOGFONT","LOGFONT structure [Windows GDI]","LOGFONTA","LOGFONTW","PLOGFONT","PLOGFONT structure pointer [Windows GDI]","_win32_LOGFONT_str","gdi.logfont","wingdi/LOGFONT","wingdi/LOGFONTA","wingdi/LOGFONTW","wingdi/PLOGFONT"]
 old-location: gdi\logfont.htm
 tech.root: gdi
@@ -200,51 +200,33 @@ A strikeout font if set to <b>TRUE</b>.
 
 ### -field lfCharSet
 
-The character set. The following values are predefined.
+The character set. The following values are predefined:
 
-
-<dl>
-<dd>ANSI_CHARSET</dd>
-<dd>BALTIC_CHARSET</dd>
-<dd>CHINESEBIG5_CHARSET</dd>
-<dd>DEFAULT_CHARSET</dd>
-<dd>EASTEUROPE_CHARSET</dd>
-<dd>GB2312_CHARSET</dd>
-<dd>GREEK_CHARSET</dd>
-<dd>HANGUL_CHARSET</dd>
-<dd>MAC_CHARSET</dd>
-<dd>OEM_CHARSET</dd>
-<dd>RUSSIAN_CHARSET</dd>
-<dd>SHIFTJIS_CHARSET</dd>
-<dd>SYMBOL_CHARSET</dd>
-<dd>TURKISH_CHARSET</dd>
-<dd>VIETNAMESE_CHARSET</dd>
-</dl>
-<b>Korean language edition of Windows:</b>
-
-<dl>
-<dd>JOHAB_CHARSET</dd>
-</dl>
-<b>Middle East language edition of Windows:</b>
-
-<dl>
-<dd>ARABIC_CHARSET</dd>
-<dd>HEBREW_CHARSET</dd>
-</dl>
-<b>Thai language edition of Windows:</b>
-
-<dl>
-<dd>THAI_CHARSET</dd>
-</dl>
-
-
-The OEM_CHARSET value specifies a character set that is operating-system dependent.
-
- DEFAULT_CHARSET is set to a value based on the current system locale. For example, when the system locale is English (United States), it is set as ANSI_CHARSET.
+| Value | Description |
+|--|--|
+| **ANSI_CHARSET** | This font supports the Windows ANSI character set. |
+| **ARABIC_CHARSET** | This font supports the Arabic character set. |
+| **BALTIC_CHARSET** | This font supports the Baltic character set. |
+| **CHINESEBIG5_CHARSET** | This font supports the traditional Chinese (Big 5) character set. |
+| **DEFAULT_CHARSET** | This font supports character set value based on the system default Windows ANSI code page. For example, when the system locale is English (United States), it is set as ANSI_CHARSET. |
+| **EASTEUROPE_CHARSET** | This font supports the Eastern European character set. |
+| **GB2312_CHARSET** | This font supports the simplified (PRC) Chinese character set. |
+| **GREEK_CHARSET** | This font supports the Greek character set. |
+| **HANGEUL_CHARSET** | This font supports the Korean (Hangul) character set. |
+| **HEBREW_CHARSET** | This font supports the Hebrew character set. |
+| **JOHAB_CHARSET** | This font supports the Korean (Johab) character set. |
+| **MAC_CHARSET** | This font supports character set value based on the current system Macintosh code page. This value is used primarily in legacy code and should not generally be needed since modern Macintosh computers use Unicode for encoding. |
+| **OEM_CHARSET** | This font supports an OEM-specific character set. The OEM character set is system dependent. |
+| **RUSSIAN_CHARSET** | This font supports the Cyrillic character set. |
+| **SHIFTJIS_CHARSET** | This font supports the Shift-JIS (Japanese Industry Standard) character set. |
+| **SYMBOL_CHARSET** | This font supports the Windows symbol character set. |
+| **THAI_CHARSET** | This font supports the Thai character set. |
+| **TURKISH_CHARSET** | This font supports the Turkish character set. |
+| **VIETNAMESE_CHARSET** | This font supports the Vietnamese character set. |
 
 Fonts with other character sets may exist in the operating system. If an application uses a font with an unknown character set, it should not attempt to translate or interpret strings that are rendered with that font.
 
-This parameter is important in the font mapping process. To ensure consistent results, specify a specific character set. If you specify a typeface name in the <b>lfFaceName</b> member, make sure that the <b>lfCharSet</b> value matches the character set of the typeface specified in <b>lfFaceName</b>.
+This parameter is important in the font mapping process. To ensure consistent results when creating a font, do not specify **OEM_CHARSET** or **DEFAULT_CHARSET**. If you specify a typeface name in the <b>lfFaceName</b> member, make sure that the <b>lfCharSet</b> value matches the character set of the typeface specified in <b>lfFaceName</b>.
 
 ### -field lfOutPrecision
 
@@ -465,7 +447,7 @@ The following situations do not support ClearType antialiasing:
 
 
 > [!NOTE]
-> The wingdi.h header defines LOGFONT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines LOGFONT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

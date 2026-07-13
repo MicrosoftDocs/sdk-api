@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_delete_ext_sW
 title: ldap_delete_ext_sW function (winldap.h)
-description: The ldap_delete_ext_s function is an extended routine that performs a synchronous operation to remove a leaf entry from the directory tree.
-helpviewer_keywords: ["_ldap_ldap_delete_ext_s","ldap.ldap__delete__ext__s","ldap.ldap_delete_ext_s","ldap_delete_ext_s","ldap_delete_ext_s function [LDAP]","ldap_delete_ext_sA","ldap_delete_ext_sW","winldap/ldap_delete_ext_s","winldap/ldap_delete_ext_sA","winldap/ldap_delete_ext_sW"]
+description: The ldap_delete_ext_sW (Unicode) function (winldap.h) is an extended routine that performs a synchronous operation to remove a leaf entry from the directory tree.
+helpviewer_keywords: ["_ldap_ldap_delete_ext_s", "ldap.ldap__delete__ext__s", "ldap.ldap_delete_ext_s", "ldap_delete_ext_s", "ldap_delete_ext_s function [LDAP]", "ldap_delete_ext_sW", "winldap/ldap_delete_ext_s", "winldap/ldap_delete_ext_sW"]
 old-location: ldap\ldap_delete_ext_s.htm
 tech.root: ldap
 ms.assetid: eb00a5c1-b7b8-4b68-9d91-d52235f5e1ff
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _ldap_ldap_delete_ext_s, ldap.ldap__delete__ext__s, ldap.ldap_delete_ext_s, ldap_delete_ext_s, ldap_delete_ext_s function [LDAP], ldap_delete_ext_sA, ldap_delete_ext_sW, winldap/ldap_delete_ext_s, winldap/ldap_delete_ext_sA, winldap/ldap_delete_ext_sW
 req.header: winldap.h
 req.include-header: 
@@ -95,7 +95,7 @@ Multithreading: Calls to <b>ldap_delete_ext_s</b> are thread-safe.
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_delete_ext_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_delete_ext_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,15 +1,15 @@
 ---
 UID: NF:synchapi.CreateMutexW
 title: CreateMutexW function (synchapi.h)
-description: Creates or opens a named or unnamed mutex object.
-helpviewer_keywords: ["CreateMutex","CreateMutex function","CreateMutexA","CreateMutexW","_win32_createmutex","base.createmutex","synchapi/CreateMutex","synchapi/CreateMutexA","synchapi/CreateMutexW","winbase/CreateMutex","winbase/CreateMutexA","winbase/CreateMutexW"]
+description: Creates or opens a named or unnamed mutex object. (Unicode)
+helpviewer_keywords: ["CreateMutex", "CreateMutex function", "CreateMutexW", "_win32_createmutex", "base.createmutex", "synchapi/CreateMutex", "synchapi/CreateMutexW"]
 old-location: base\createmutex.htm
 tech.root: base
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
 ms.date: 12/05/2018
 ms.keywords: CreateMutex, CreateMutex function, CreateMutexA, CreateMutexW, _win32_createmutex, base.createmutex, synchapi/CreateMutex, synchapi/CreateMutexA, synchapi/CreateMutexW, winbase/CreateMutex, winbase/CreateMutexA, winbase/CreateMutexW
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -67,7 +67,7 @@ To specify an access mask for the object, use the <a href="/windows/desktop/api/
 ### -param lpMutexAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the handle cannot be inherited by child processes. 
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the handle cannot be inherited by child processes. 
 
 
 
@@ -152,7 +152,7 @@ For an example that uses
 
 
 > [!NOTE]
-> The synchapi.h header defines CreateMutex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The synchapi.h header defines CreateMutex as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -188,7 +188,7 @@ For an example that uses
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

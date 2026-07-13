@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg._OFNOTIFYEXA
 title: OFNOTIFYEXA (commdlg.h)
-description: Contains information about a CDN_INCLUDEITEM notification message.
+description: Contains information about a CDN_INCLUDEITEM notification message. (ANSI)
 helpviewer_keywords: ["*LPOFNOTIFYEXA","LPOFNOTIFYEX","LPOFNOTIFYEX structure pointer [Dialog Boxes]","OFNOTIFYEX","OFNOTIFYEX structure [Dialog Boxes]","OFNOTIFYEXA","OFNOTIFYEXW","_win32_OFNOTIFYEX_str","_win32_ofnotifyex_str_cpp","commdlg/LPOFNOTIFYEX","commdlg/OFNOTIFYEX","commdlg/OFNOTIFYEXA","commdlg/OFNOTIFYEXW","dlgbox.ofnotifyex_str","winui._win32_ofnotifyex_str"]
 old-location: dlgbox\ofnotifyex_str.htm
 tech.root: dlgbox
@@ -115,4 +115,4 @@ A pointer to an item identifier list that identifies an item in the container id
 ## -remarks
 
 > [!NOTE]
-> The commdlg.h header defines OFNOTIFYEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines OFNOTIFYEX as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

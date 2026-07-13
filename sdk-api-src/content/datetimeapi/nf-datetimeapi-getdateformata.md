@@ -1,8 +1,8 @@
 ---
 UID: NF:datetimeapi.GetDateFormatA
 title: GetDateFormatA function (datetimeapi.h)
-description: Formats a date as a date string for a locale specified by the locale identifier.
-helpviewer_keywords: ["GetDateFormat","GetDateFormat function [Internationalization for Windows Applications]","GetDateFormatA","GetDateFormatW","_win32_GetDateFormat","datetimeapi/GetDateFormat","datetimeapi/GetDateFormatA","datetimeapi/GetDateFormatW","intl.getdateformat"]
+description: Formats a date as a date string for a locale specified by the locale identifier. (ANSI)
+helpviewer_keywords: ["GetDateFormatA", "datetimeapi/GetDateFormatA"]
 old-location: intl\getdateformat.htm
 tech.root: Intl
 ms.assetid: 546cede1-1702-403a-bba3-b5cd3b35a1bf
@@ -139,7 +139,7 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 > [!NOTE]
-> The datetimeapi.h header defines GetDateFormat as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The datetimeapi.h header defines GetDateFormat as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

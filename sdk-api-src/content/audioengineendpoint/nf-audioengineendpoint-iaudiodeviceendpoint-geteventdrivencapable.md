@@ -64,7 +64,7 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 ## -remarks
 
-Call the <b>GetEventDrivenCapable</b> method before     calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">IAudioDeviceEndpoint::SetBuffer</a>method, which initializes the device endpoint and creates a buffer. This allows the device endpoint to set up the structures needed for driving events.
+Call the <b>GetEventDrivenCapable</b> method before calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">IAudioDeviceEndpoint::SetBuffer</a> method, which initializes the device endpoint and creates a buffer. This allows the device endpoint to set up the structures needed for driving events.
 
 If the audio engine requires an event driven device endpoint, it will:
 

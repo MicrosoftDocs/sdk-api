@@ -55,7 +55,7 @@ req.apiset: ext-ms-win-shell-comctl32-init-l1-1-0 (introduced in Windows 10, ver
 
 Registers and initializes certain common control window classes. This function is obsolete. New applications should use the <a href="/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a> function.
 
-## -parameters
+
 
 ## -remarks
 

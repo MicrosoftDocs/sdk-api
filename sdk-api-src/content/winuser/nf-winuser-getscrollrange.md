@@ -40,6 +40,12 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
+ - ext-ms-win-ntuser-misc-l1-5-1.dll
+ - ext-ms-win-ntuser-misc-l1-5-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-2-0.dll
  - User32.dll
 api_name:
  - GetScrollRange

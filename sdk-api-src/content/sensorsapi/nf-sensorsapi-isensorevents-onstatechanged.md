@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensorEvents interface","OnStateChanged method","ISensor
 old-location: winsensors_com_ref\isensorevents_onstatechanged.htm
 tech.root: winsensors
 ms.assetid: fb995dba-23aa-4a09-b411-7e95019535ce
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensorEvents interface,OnStateChanged method, ISensorEvents.OnStateChanged, ISensorEvents::OnStateChanged, OnStateChanged, OnStateChanged method, OnStateChanged method,ISensorEvents interface, sensorsapi/ISensorEvents::OnStateChanged, winsensors_com_ref.isensorevents_onstatechanged
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Provides a notification that a sensor state has changed.
 

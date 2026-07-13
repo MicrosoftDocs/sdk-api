@@ -78,12 +78,12 @@ A pointer to the user data that is to be transferred back from the other socket 
 
 ### -param lpSQOS [in]
 
-A pointer to the <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i>, one for each direction.
+A pointer to the <a href="/windows/desktop/api/winsock2/ns-winsock2-qos">QOS</a> structure for socket <i>s</i>.
 
 ### -param lpGQOS [in]
 
 Reserved for future use with socket groups. A pointer to the 
-<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for the socket group (if applicable). This parameter should be <b>NULL</b>.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-qos">QOS</a> structure for the socket group (if applicable). This parameter should be <b>NULL</b>.
 
 ## -returns
 
@@ -98,7 +98,7 @@ With a nonblocking socket, the connection attempt cannot be completed immediatel
 
 <ul>
 <li>Use 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> to determine the completion of the connection request by checking if the socket is writeable.</li>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> to determine the completion of the connection request by checking if the socket is writable.</li>
 <li>If your application is using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a> to indicate interest in connection events, then your application will receive an FD_CONNECT notification when the connect operation is complete(successful or not).</li>
 <li>If your application is using 

@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_2.IDWriteTextRenderer1
 title: IDWriteTextRenderer1 (dwrite_2.h)
-description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.
+description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines. (IDWriteTextRenderer1)
 helpviewer_keywords: ["IDWriteTextRenderer1","IDWriteTextRenderer1 interface [Direct Write]","IDWriteTextRenderer1 interface [Direct Write]","described","directwrite.idwritetextrenderer1","dwrite_2/IDWriteTextRenderer1"]
 old-location: directwrite\idwritetextrenderer1.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextRenderer1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>. <b>IDWriteTextRenderer1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteTextRenderer1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>. <b>IDWriteTextRenderer1</b> also has these types of members:
 
 ## -see-also
 

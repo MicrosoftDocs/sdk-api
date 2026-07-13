@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredUnPackAuthenticationBufferW
 title: CredUnPackAuthenticationBufferW function (wincred.h)
-description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.
-helpviewer_keywords: ["CredUnPackAuthenticationBuffer","CredUnPackAuthenticationBuffer function [Security]","CredUnPackAuthenticationBufferA","CredUnPackAuthenticationBufferW","security.credunpackauthenticationbuffer","wincred/CredUnPackAuthenticationBuffer","wincred/CredUnPackAuthenticationBufferA","wincred/CredUnPackAuthenticationBufferW"]
+description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password. (Unicode)
+helpviewer_keywords: ["CredUnPackAuthenticationBuffer", "CredUnPackAuthenticationBuffer function [Security]", "CredUnPackAuthenticationBufferW", "security.credunpackauthenticationbuffer", "wincred/CredUnPackAuthenticationBuffer", "wincred/CredUnPackAuthenticationBufferW"]
 old-location: security\credunpackauthenticationbuffer.htm
 tech.root: security
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
@@ -132,7 +132,7 @@ For extended error information, call the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_NOT_CAPABLE</b></b></dt>
+<dt><b>ERROR_NOT_CAPABLE</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -144,7 +144,7 @@ CRED_PACK_PROTECTED_CREDENTIALS was passed as the value of the <i>dwFlags</i> pa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_INSUFFICIENT_BUFFER</b></b></dt>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -156,7 +156,7 @@ One of the output buffers, <i>pszUserName</i>, <i>pszDomainName</i>, or <i>pszPa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_NOT_SUPPORTED</b></b></dt>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -177,4 +177,4 @@ If the authentication buffer <i>pAuthBuffer</i> represents a nonpassword credent
 
 
 > [!NOTE]
-> The wincred.h header defines CredUnPackAuthenticationBuffer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredUnPackAuthenticationBuffer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

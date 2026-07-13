@@ -60,7 +60,34 @@ The address of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_c
 
 ### -param dwFlags [in]
 
-This parameter is not used and must be zero.
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="0"></a><a id="0"></a><dl>
+<dt><b>0</b></dt>
+<dt>0x00000000</dt>
+</dl>
+</td>
+<td width="60%">
+This API will try to retrieve an initial OCSP response before returning, which means it will block during the retrieval.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_SERVER_OCSP_RESPONSE_ASYNC_FLAG"></a><a id="CERT_SERVER_OCSP_RESPONSE_ASYNC_FLAG"></a><dl>
+<dt><b>CERT_SERVER_OCSP_RESPONSE_ASYNC_FLAG</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Set this flag to return immediately without making the initial synchronous retrieval.
+	
+</td>
+</tr>
+</table>
 
 ### -param pOpenPara
 
@@ -105,8 +132,10 @@ The end certificate does not contain an OCSP authority information access (AIA) 
 
 ## -remarks
 
-The <b>CertOpenServerOcspResponse</b> function tries to retrieve an initial OCSP response before it returns.
-It blocks its process thread during the retrieval. The <b>CertOpenServerOcspResponse</b> function creates a background thread that prefetches time-valid OCSP responses.
+When the <b>dwFlags</b> is set to 0, the <b>CertOpenServerOcspResponse</b> function tries to retrieve an initial OCSP response before it returns.
+It blocks its process thread during the retrieval. The <b>CertOpenServerOcspResponse</b> function creates a background thread that prefetches time-valid OCSP responses. If unable to successfully retrieve the first OCSP response, a non-NULL handle will still be returned if not one of the error cases mentioned above.
+
+When the <b>dwFlags</b> is set to 1 or <b>CERT_SERVER_OCSP_RESPONSE_ASYNC_FLAG</b>, the <b>CertOpenServerOcspResponse</b> function will return immediately without making the initial synchronous retrieval.
 
 The <b>CertOpenServerOcspResponse</b> function increments the reference count for the chain context represented by the <i>pChainContext</i> parameter. When you have finished using the chain context, close the returned handle by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a> function.
 

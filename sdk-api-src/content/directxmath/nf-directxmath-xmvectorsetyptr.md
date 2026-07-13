@@ -61,7 +61,7 @@ A valid 4D vector storing floating-point data.
 
 ### -param y [in]
 
-Pointer to a float containing the value to be stored in the <code>y</code> element of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>object <code>V</code>.
+Pointer to a float containing the value to be stored in the <code>y</code> element of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object <code>V</code>.
 
 ## -returns
 

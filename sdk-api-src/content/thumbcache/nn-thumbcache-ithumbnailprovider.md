@@ -6,7 +6,7 @@ helpviewer_keywords: ["IThumbnailProvider","IThumbnailProvider interface [Window
 old-location: shell\IThumbnailProvider.htm
 tech.root: shell
 ms.assetid: 55c4739a-4835-4f53-a435-804ddf06ffcf
-ms.date: 12/05/2018
+ms.date: 01/22/2025
 ms.keywords: IThumbnailProvider, IThumbnailProvider interface [Windows Shell], IThumbnailProvider interface [Windows Shell],described, _shell_IThumbnailProvider, shell.IThumbnailProvider, thumbcache/IThumbnailProvider
 req.header: thumbcache.h
 req.include-header: 
@@ -54,10 +54,7 @@ Exposes a method for getting a thumbnail image and is intended to be implemented
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IThumbnailProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailProvider</b> also has these types of members:
 
 ## -remarks
 
@@ -81,4 +78,4 @@ If none of these interfaces is present, <b>IThumbnailProvider</b> is not called.
 
 <b>Client apps</b> If you're developing a client app, you should use <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory">IShellItemImageFactory</a> instead. 
 
-<b>Windows Vista</b> IThumbnailProivder is new for Vista and replaces <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>. Vista still supports IExtractImage but lacks the ability to return the image type (alpha or not).
+<b>Windows Vista</b> IThumbnailProvider is new for Vista and replaces <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>. Vista still supports IExtractImage but lacks the ability to return the image type (alpha or not).

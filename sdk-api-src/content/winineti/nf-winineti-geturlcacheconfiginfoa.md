@@ -1,8 +1,8 @@
 ---
 UID: NF:winineti.GetUrlCacheConfigInfoA
 title: GetUrlCacheConfigInfoA function (winineti.h)
-description: Retrieves information about cache configuration.
-helpviewer_keywords: ["CACHE_CONFIG_CONTENT_PATHS_FC","CACHE_CONFIG_CONTENT_USAGE_FC","CACHE_CONFIG_COOKIES_PATHS_FC","CACHE_CONFIG_DISK_CACHE_PATHS_FC","CACHE_CONFIG_FORCE_CLEANUP_FC","CACHE_CONFIG_HISTORY_PATHS_FC","CACHE_CONFIG_QUOTA_FC","CACHE_CONFIG_STICKY_CONTENT_USAGE_FC","CACHE_CONFIG_SYNC_MODE_FC","CACHE_CONFIG_USER_MODE_FC","GetUrlCacheConfigInfo","GetUrlCacheConfigInfo function [WinINet]","GetUrlCacheConfigInfoA","GetUrlCacheConfigInfoW","wininet.geturlcacheconfiginfo","winineti/GetUrlCacheConfigInfo","winineti/GetUrlCacheConfigInfoA","winineti/GetUrlCacheConfigInfoW"]
+description: Retrieves information about cache configuration. (ANSI)
+helpviewer_keywords: ["CACHE_CONFIG_CONTENT_PATHS_FC", "CACHE_CONFIG_CONTENT_USAGE_FC", "CACHE_CONFIG_COOKIES_PATHS_FC", "CACHE_CONFIG_DISK_CACHE_PATHS_FC", "CACHE_CONFIG_FORCE_CLEANUP_FC", "CACHE_CONFIG_HISTORY_PATHS_FC", "CACHE_CONFIG_QUOTA_FC", "CACHE_CONFIG_STICKY_CONTENT_USAGE_FC", "CACHE_CONFIG_SYNC_MODE_FC", "CACHE_CONFIG_USER_MODE_FC", "GetUrlCacheConfigInfoA", "winineti/GetUrlCacheConfigInfoA"]
 old-location: wininet\geturlcacheconfiginfo.htm
 tech.root: wininet
 ms.assetid: 93a29a4f-57bf-497c-a7b1-3960935590f9
@@ -228,7 +228,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get
 
 
 > [!NOTE]
-> The winineti.h header defines GetUrlCacheConfigInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winineti.h header defines GetUrlCacheConfigInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

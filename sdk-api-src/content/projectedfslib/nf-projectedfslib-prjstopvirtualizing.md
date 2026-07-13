@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ProjectedFSLib.lib
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -57,8 +57,4 @@ Stops a running ProjFS virtualization instance, making it unavailable to service
 ### -param namespaceVirtualizationContext [in]
 
 An opaque handle for the virtualization instance.
-
-## -returns
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

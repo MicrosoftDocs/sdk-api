@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetItemProvider.GetAnnotationTypes
 title: ISpreadsheetItemProvider::GetAnnotationTypes (uiautomationcore.h)
-description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
+description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell. (ISpreadsheetItemProvider.GetAnnotationTypes)
 helpviewer_keywords: ["GetAnnotationTypes","GetAnnotationTypes method [Windows Accessibility]","GetAnnotationTypes method [Windows Accessibility]","ISpreadsheetItemProvider interface","ISpreadsheetItemProvider interface [Windows Accessibility]","GetAnnotationTypes method","ISpreadsheetItemProvider.GetAnnotationTypes","ISpreadsheetItemProvider::GetAnnotationTypes","uiautomationcore/ISpreadsheetItemProvider::GetAnnotationTypes","winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationTypes"]
 old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationTypes.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ Receives an array of annotation type identifiers, one for each type of annotatio
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

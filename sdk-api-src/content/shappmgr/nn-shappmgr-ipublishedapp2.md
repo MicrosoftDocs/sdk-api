@@ -54,10 +54,7 @@ Extends the <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IP
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishedApp2</b> interface inherits from <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>. <b>IPublishedApp2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPublishedApp2</b> interface inherits from <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>. <b>IPublishedApp2</b> also has these types of members:
 
 ## -remarks
 

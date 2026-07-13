@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capDriverGetVersion","capDriverGetVersion","capDri
 old-location: multimedia\capdrivergetversion.htm
 tech.root: Multimedia
 ms.assetid: 35afaef2-dc83-4b72-92e5-2fb9a75e90ba
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capDriverGetVersion, capDriverGetVersion, capDriverGetVersion macro [Windows Multimedia], multimedia.capdrivergetversion, vfw/capDriverGetVersion
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # capDriverGetVersion macro
+
+## -syntax
+
+```cpp
+BOOL capDriverGetVersion(
+     hwnd,
+     szVer,
+     wSize
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if the capture window is not connected to a capture driver.
 
 
 ## -description

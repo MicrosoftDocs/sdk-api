@@ -67,7 +67,7 @@ The implementer defined structure version.
 
 ### -field pEapType
 
-A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that contains the vendor information on the implementor of the APIs pointed to by this structure's members.
+A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that contains the vendor information on the implementer of the APIs pointed to by this structure's members.
 
 ### -field EapMethodAuthenticatorInitialize
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.SuspendDraw
-title: ISurfaceImageSourceNativeWithD2D::xaml (windows.ui.xaml.media.dxinterop.h)
+title: ISurfaceImageSourceNativeWithD2D::SuspendDraw (windows.ui.xaml.media.dxinterop.h)
 description: Suspends the drawing operation.
 helpviewer_keywords: ["ISurfaceImageSourceNativeWithD2D interface [Windows Runtime]","SuspendDraw method","ISurfaceImageSourceNativeWithD2D.SuspendDraw","ISurfaceImageSourceNativeWithD2D.xaml","ISurfaceImageSourceNativeWithD2D::SuspendDraw","ISurfaceImageSourceNativeWithD2D::xaml","SuspendDraw","SuspendDraw method [Windows Runtime]","SuspendDraw method [Windows Runtime]","ISurfaceImageSourceNativeWithD2D interface","windows/ISurfaceImageSourceNativeWithD2D::SuspendDraw","winrt.isurfaceimagesourcenativewithd2d_suspenddraw"]
 old-location: winrt\isurfaceimagesourcenativewithd2d_suspenddraw.htm
@@ -45,18 +45,18 @@ api_name:
  - ISurfaceImageSourceNativeWithD2D.SuspendDraw
 ---
 
-# ISurfaceImageSourceNativeWithD2D::xaml
+# ISurfaceImageSourceNativeWithD2D::SuspendDraw (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description
 
 Suspends the drawing operation.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

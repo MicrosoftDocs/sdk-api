@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(Image,constPointF,INT,REAL,REAL,REAL,REAL,Unit,constImageAttributes,DrawImageAbort,VOID)
 title: Graphics::DrawImage(IN Image,IN const PointF,IN INT,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit,IN const ImageAttributes,IN DrawImageAbort,IN VOID) (gdiplusgraphics.h)
-description: The Graphics::DrawImage method draws an image.
+description: The Graphics::DrawImage method draws an image. (overload 2/14)
 helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN const PointF","IN INT","IN REAL","IN REAL","IN REAL","IN REAL","IN Unit","IN const ImageAttributes","IN DrawImageAbort","IN VOID)","Graphics.DrawImage(Image*","const PointF*","INT","REAL","REAL","REAL","REAL","Unit","ImageAttributes*","DrawImageAbort","VOID*)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN const PointF","IN INT","IN REAL","IN REAL","IN REAL","IN REAL","IN Unit","IN const ImageAttributes","IN DrawImageAbort","IN VOID)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_REAL_srcx_REAL_srcy_REAL_s","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_REAL_srcx_REAL_srcy_REAL_s"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_PointF_destPoints_INT_count_REAL_srcx_REAL_srcy_REAL_s.htm
 tech.root: gdiplus

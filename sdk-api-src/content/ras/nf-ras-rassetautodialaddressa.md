@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetAutodialAddressA
 title: RasSetAutodialAddressA function (ras.h)
-description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database.
-helpviewer_keywords: ["RasSetAutodialAddress","RasSetAutodialAddress function [RAS]","RasSetAutodialAddressA","RasSetAutodialAddressW","_ras_rassetautodialaddress","ras/RasSetAutodialAddress","ras/RasSetAutodialAddressA","ras/RasSetAutodialAddressW","rras.rassetautodialaddress"]
+description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database. (ANSI)
+helpviewer_keywords: ["RasSetAutodialAddressA", "ras/RasSetAutodialAddressA"]
 old-location: rras\rassetautodialaddress.htm
 tech.root: RRAS
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
@@ -163,7 +163,7 @@ It is possible to have two connections that have the same name if one is configu
 
 
 > [!NOTE]
-> The ras.h header defines RasSetAutodialAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasSetAutodialAddress as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

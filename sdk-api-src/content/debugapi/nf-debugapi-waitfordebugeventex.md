@@ -1,7 +1,7 @@
 ---
 UID: NF:debugapi.WaitForDebugEventEx
 title: WaitForDebugEventEx function (debugapi.h)
-description: Waits for a debugging event to occur in a process being debugged.
+description: Waits for a debugging event to occur in a process being debugged. (WaitForDebugEventEx)
 helpviewer_keywords: ["WaitForDebugEventEx","WaitForDebugEventEx function","base.waitfordebugeventex","debugapi/WaitForDebugEventEx"]
 old-location: base\waitfordebugeventex.htm
 tech.root: Debug

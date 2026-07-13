@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqGetWorkQueueMMCSSClass
 title: RtwqGetWorkQueueMMCSSClass function (rtworkq.h)
-description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
+description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue. (RtwqGetWorkQueueMMCSSClass)
 helpviewer_keywords: ["RtwqGetWorkQueueMMCSSClass","RtwqGetWorkQueueMMCSSClass function","base.rtwqgetworkqueuemmcssclass","rtworkq/RtwqGetWorkQueueMMCSSClass"]
 old-location: base\rtwqgetworkqueuemmcssclass.htm
 tech.root: backup
@@ -68,4 +68,4 @@ On input, specifies the size of the <i>usageClass</i> buffer, in characters. On 
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

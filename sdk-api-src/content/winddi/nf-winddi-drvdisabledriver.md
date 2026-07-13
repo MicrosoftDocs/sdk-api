@@ -52,7 +52,7 @@ api_name:
 
 The <b>DrvDisableDriver</b> function is used by GDI to notify a driver that it no longer requires the driver and is ready to unload it.
 
-## -parameters
+
 
 ## -remarks
 

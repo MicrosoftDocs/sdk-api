@@ -53,7 +53,7 @@ api_name:
 
 Ends the collection of GPU data.
 
-## -parameters
+
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_COMMON_STATISTICS0_
 title: IKEEXT_COMMON_STATISTICS0 (iketypes.h)
-description: Various statistics common to IKE and Authip.
+description: Various statistics common to IKE and Authip. (IKEEXT_COMMON_STATISTICS0)
 helpviewer_keywords: ["IKEEXT_COMMON_STATISTICS0","IKEEXT_COMMON_STATISTICS0 structure [Filtering]","fwp.ikeext_common_statistics0","iketypes/IKEEXT_COMMON_STATISTICS0"]
 old-location: fwp\ikeext_common_statistics0.htm
 tech.root: fwp

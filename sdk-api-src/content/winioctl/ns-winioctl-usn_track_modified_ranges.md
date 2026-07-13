@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_20
+UID: NS:winioctl.USN_TRACK_MODIFIED_RANGES
 title: USN_TRACK_MODIFIED_RANGES
 description: Contains information on range tracking parameters for an update sequence number (USN) change journal using the FSCTL_USN_TRACK_MODIFIED_RANGES control code.
 helpviewer_keywords: ["*PUSN_TRACK_MODIFIED_RANGES","PUSN_TRACK_MODIFIED_RANGES","PUSN_TRACK_MODIFIED_RANGES structure pointer [Files]","USN_TRACK_MODIFIED_RANGES","USN_TRACK_MODIFIED_RANGES structure [Files]","fs.usn_track_modified_ranges","winioctl/PUSN_TRACK_MODIFIED_RANGES","winioctl/USN_TRACK_MODIFIED_RANGES"]
@@ -82,7 +82,7 @@ Chunk size for tracking ranges. A single byte modification will be reflected as 
 
 ### -field FileSizeThreshold
 
-File size threshold to start outputting <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a> record(s) for modified file, i.e. if the modified file size is less than this threshold, then no <b>USN_RECORD_V4</b> record will be output.
+File size threshold to start outputting [USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md) record(s) for modified file, i.e. if the modified file size is less than this threshold, then no <b>USN_RECORD_V4</b> record will be output.
 
 ## -remarks
 
@@ -91,3 +91,4 @@ Once range tracking is enabled for a given volume it cannot be disabled except b
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
+

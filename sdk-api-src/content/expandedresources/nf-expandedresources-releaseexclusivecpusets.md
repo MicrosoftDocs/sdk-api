@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-gaming-expandedresources-l1-1-0.dll
  - gamemode.dll
 api_name:
  - ReleaseExclusiveCpuSets
@@ -52,7 +53,7 @@ api_name:
 
 Opts out of CPU exclusivity, giving the app access to all cores, but at the cost of having to share them with other processes.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportISNSServerListW
 title: ReportISNSServerListW function (iscsidsc.h)
-description: ReportIsnsServerList function retrieves the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service queries for discovered targets.
-helpviewer_keywords: ["ReportISNSServerListW","ReportIsnsServerList","ReportIsnsServerList function [iSCSI Discovery Library API]","ReportIsnsServerListA","ReportIsnsServerListW","iscsidisc.reportisnsserverlist","iscsidsc/ReportIsnsServerList","iscsidsc/ReportIsnsServerListA","iscsidsc/ReportIsnsServerListW"]
+description: ReportIsnsServerList function retrieves the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service queries for discovered targets. (Unicode)
+helpviewer_keywords: ["ReportISNSServerListW", "ReportIsnsServerList", "ReportIsnsServerList function [iSCSI Discovery Library API]", "ReportIsnsServerListW", "iscsidisc.reportisnsserverlist", "iscsidsc/ReportIsnsServerList", "iscsidsc/ReportIsnsServerListW"]
 old-location: iscsidisc\reportisnsserverlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 4fa773ac-0d3e-4860-8603-cb36e9278e93
@@ -59,7 +59,7 @@ The <b>ReportIsnsServerList</b> function retrieves the list of Internet Storage 
 ### -param BufferSizeInChar [in, out]
 
 A <b>ULONG</b> value that specifies the number of list elements contained by the <i>Buffer</i> parameter. 
-If the operation succeeds, this location receives the size, represented by a number of  elements, that corresponds to the number of retrieved iSNS servrs.
+If the operation succeeds, this location receives the size, represented by a number of  elements, that corresponds to the number of retrieved iSNS servers.
 
 ### -param Buffer [out]
 
@@ -86,4 +86,4 @@ Otherwise, <b>ReportIsnsServerList</b> returns the appropriate Win32 or iSCSI er
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ReportISNSServerList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ReportISNSServerList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

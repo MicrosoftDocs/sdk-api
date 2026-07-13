@@ -1,12 +1,12 @@
 ---
 UID: NF:d2d1.D2D1CreateFactory
 title: D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS*,void**)
-description: Creates a factory object that can be used to create Direct2D resources.
+description: D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS*,void**) creates a factory object that can be used to create Direct2D resources.
 helpviewer_keywords: ["D2D1CreateFactory","D2D1CreateFactory function [Direct2D]","D2D1CreateFactory(D2D1_FACTORY_TYPE","REFIID","D2D1_FACTORY_OPTIONS*","void**)","d2d1/D2D1CreateFactory","direct2d.d2d1createfactory"]
 old-location: direct2d\d2d1createfactory.htm
 tech.root: Direct2D
 ms.assetid: 8c0a685a-8f33-4072-a715-bb423cb44f03
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS*,void**), d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
 req.header: d2d1.h
 req.include-header: 

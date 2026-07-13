@@ -1,8 +1,8 @@
 ---
 UID: NF:ip2string.RtlIpv6StringToAddressA
 title: RtlIpv6StringToAddressA function (ip2string.h)
-description: Converts a string representation of an IPv6 address to a binary IPv6 address.
-helpviewer_keywords: ["RtlIpv6StringToAddress","RtlIpv6StringToAddress function [IP Helper]","RtlIpv6StringToAddressA","RtlIpv6StringToAddressW","ip2string/RtlIpv6StringToAddress","ip2string/RtlIpv6StringToAddressA","ip2string/RtlIpv6StringToAddressW","iphlp.rtlipv6stringtoaddress"]
+description: Converts a string representation of an IPv6 address to a binary IPv6 address. (ANSI)
+helpviewer_keywords: ["RtlIpv6StringToAddressA", "ip2string/RtlIpv6StringToAddressA"]
 old-location: iphlp\rtlipv6stringtoaddress.htm
 tech.root: IpHlp
 ms.assetid: 3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -137,14 +137,12 @@ When both UNICODE and _UNICODE are not defined, <b>RtlIpv6StringToAddress</b> is
 
 The <a href="/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">IN6_ADDR</a> structure is defined in the In6addr.h header file.
 
-An import library containing the <b>RtlIpv6StringToAddress</b> function is not included in the Microsoft Windows Software Development Kit (SDK) released for Windows Vista. The <b>RtlIpv6StringToAddress</b> function is included in the <i>Ntdll.lib</i> import library included in the Windows Driver Kit (WDK). An application could also use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to retrieve the function pointer from the <i>Ntdll.dll</i> and call this function.
-
 
 
 
 
 > [!NOTE]
-> The ip2string.h header defines RtlIpv6StringToAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ip2string.h header defines RtlIpv6StringToAddress as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

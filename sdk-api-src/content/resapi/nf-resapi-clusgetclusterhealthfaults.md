@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.ClusGetClusterHealthFaults
 title: ClusGetClusterHealthFaults function (resapi.h)
-description: TBD.
+description: The ClusGetClusterHealthFaults function is a health fault utility function that is part of the resapi.h header used by Windows Clustering.
 helpviewer_keywords: ["ClusGetClusterHealthFaults","ClusGetClusterHealthFaults function [Failover Cluster]","mscs.clusgetclusterhealthfaults","resapi/ClusGetClusterHealthFaults"]
 old-location: mscs\clusgetclusterhealthfaults.htm
 tech.root: MsCS
 ms.assetid: 971d4cb6-be46-4259-9c40-72388b70aff7
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: ClusGetClusterHealthFaults, ClusGetClusterHealthFaults function [Failover Cluster], mscs.clusgetclusterhealthfaults, resapi/ClusGetClusterHealthFaults
 req.header: resapi.h
 req.include-header: 

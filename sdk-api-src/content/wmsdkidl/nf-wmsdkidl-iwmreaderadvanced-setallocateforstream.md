@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReaderAdvanced interface [windows Media Format]","SetA
 old-location: wmformat\iwmreaderadvanced_setallocateforstream.htm
 tech.root: wmformat
 ms.assetid: 58c396a9-5d1e-4a13-a877-5289649a6375
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetAllocateForStream method, IWMReaderAdvanced.SetAllocateForStream, IWMReaderAdvanced::SetAllocateForStream, IWMReaderAdvancedSetAllocateForStream, SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setallocateforstream, wmsdkidl/IWMReaderAdvanced::SetAllocateForStream
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -53,6 +53,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>SetAllocateForStream</b> method specifies whether the reader uses <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-allocateforstream">IWMReaderCallbackAdvanced::AllocateForStream</a> to allocate buffers for stream samples.
 
 ## -parameters
@@ -71,7 +73,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -remarks
 
-If the application's callback implements the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderallocatorex">IWMReaderAllocatorEx</a> interface interface, the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderallocatorex-allocateforstreamex">AllocateForStreamEx</a> method is called instead of <b>AllocateForStream</b>.
+If the application's callback implements the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderallocatorex">IWMReaderAllocatorEx</a> interface, the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderallocatorex-allocateforstreamex">AllocateForStreamEx</a> method is called instead of <b>AllocateForStream</b>.
 
 ## -see-also
 

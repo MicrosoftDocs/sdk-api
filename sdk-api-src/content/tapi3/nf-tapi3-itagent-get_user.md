@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITAgent.get_User
 title: ITAgent::get_User (tapi3.h)
-description: The get_User method gets the agent user name, which is the same as the operating system user login or e-mail name.
+description: The get_User method (tapi3.h) gets the agent user name, which is the same as the operating system user login or e-mail name.
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_User method","ITAgent.get_User","ITAgent::get_User","_tapi3_itagent_get_user","get_User","get_User method [TAPI 2.2]","get_User method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_user","tapi3cc/ITAgent::get_User"]
 old-location: tapi3\itagent_get_user.htm
 tech.root: tapi3
 ms.assetid: 6949fdb0-5841-4473-bb50-2ea598a71576
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgent interface [TAPI 2.2],get_User method, ITAgent.get_User, ITAgent::get_User, _tapi3_itagent_get_user, get_User, get_User method [TAPI 2.2], get_User method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_user, tapi3cc/ITAgent::get_User
 req.header: tapi3.h
 req.include-header: Tapi3.h

@@ -7,7 +7,6 @@ description: Frees memory allocated for error reports referenced by HDIAGNOSTIC_
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -17,7 +16,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: DiagnosticDataQuery.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -57,7 +56,7 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For information the datatype DIAGNOSTIC_REPORT_DATA, see [**here**](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_data)
+For information the datatype DIAGNOSTIC_REPORT_DATA, see [**here**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_report_data)
 
 ## -see-also
 

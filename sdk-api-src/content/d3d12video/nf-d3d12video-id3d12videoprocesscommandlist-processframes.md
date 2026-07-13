@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.ProcessFrames
 title: ID3D12VideoProcessCommandList::ProcessFrames
-description: Records a video processing operation to the command list, operating on one or more input samples and writing the result to an output surface.
+description: Records a video processing operation to the command list, operating on one or more input samples and writing the result to an output surface. (ID3D12VideoProcessCommandList::ProcessFrames)
 helpviewer_keywords: ["ID3D12VideoProcessCommandList::ProcessFrames","ProcessFrames","ID3D12VideoProcessCommandList.ProcessFrames","ID3D12VideoProcessCommandList::ProcessFrames","ID3D12VideoProcessCommandList.ProcessFrames"]
 tech.root: mf
 ms.assetid: 7f94fe17-318e-49cd-8041-71ca34030572

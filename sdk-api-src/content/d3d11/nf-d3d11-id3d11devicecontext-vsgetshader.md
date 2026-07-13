@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSGetShader
 title: ID3D11DeviceContext::VSGetShader (d3d11.h)
-description: Get the vertex shader currently set on the device.
+description: Get the vertex shader currently set on the device. (ID3D11DeviceContext.VSGetShader)
 helpviewer_keywords: ["3e9ed365-9e14-baae-7c23-80439c5771f7","ID3D11DeviceContext interface [Direct3D 11]","VSGetShader method","ID3D11DeviceContext.VSGetShader","ID3D11DeviceContext::VSGetShader","VSGetShader","VSGetShader method [Direct3D 11]","VSGetShader method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::VSGetShader","direct3d11.id3d11devicecontext_vsgetshader"]
 old-location: direct3d11\id3d11devicecontext_vsgetshader.htm
 tech.root: direct3d11

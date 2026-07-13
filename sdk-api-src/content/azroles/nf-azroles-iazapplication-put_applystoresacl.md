@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.put_ApplyStoreSacl
 title: IAzApplication::put_ApplyStoreSacl (azroles.h)
-description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
+description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified. (IAzApplication.put_ApplyStoreSacl)
 helpviewer_keywords: ["ApplyStoreSacl property [Security]","ApplyStoreSacl property [Security]","AzApplication object","ApplyStoreSacl property [Security]","IAzApplication interface","AzApplication object [Security]","ApplyStoreSacl property","IAzApplication interface [Security]","ApplyStoreSacl property","IAzApplication.ApplyStoreSacl","IAzApplication.put_ApplyStoreSacl","IAzApplication::ApplyStoreSacl","IAzApplication::get_ApplyStoreSacl","IAzApplication::put_ApplyStoreSacl","azroles/IAzApplication::ApplyStoreSacl","azroles/IAzApplication::get_ApplyStoreSacl","azroles/IAzApplication::put_ApplyStoreSacl","put_ApplyStoreSacl","security.iazapplication_applystoresacl"]
 old-location: security\iazapplication_applystoresacl.htm
 tech.root: security

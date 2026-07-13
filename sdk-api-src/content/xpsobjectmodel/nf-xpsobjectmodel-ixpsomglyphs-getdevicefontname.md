@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetDeviceFontName
 title: IXpsOMGlyphs::GetDeviceFontName (xpsobjectmodel.h)
-description: Gets the name of the device font.
+description: Gets the name of the device font. (IXpsOMGlyphs.GetDeviceFontName)
 helpviewer_keywords: ["GetDeviceFontName","GetDeviceFontName method [XPS Documents and Packaging]","GetDeviceFontName method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetDeviceFontName method","IXpsOMGlyphs.GetDeviceFontName","IXpsOMGlyphs::GetDeviceFontName","xps.ixpsomglyphs_getdevicefontname","xpsobjectmodel/IXpsOMGlyphs::GetDeviceFontName"]
 old-location: xps\ixpsomglyphs_getdevicefontname.htm
 tech.root: xps
@@ -105,7 +105,7 @@ This method allocates the memory used by the string that is returned in <i>devic
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

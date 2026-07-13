@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.GetSize
 title: ITextFont::GetSize (tom.h)
-description: Gets the font size.
+description: Gets the font size. (ITextFont.GetSize)
 helpviewer_keywords: ["GetSize","GetSize method [Windows Controls]","GetSize method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetSize method","ITextFont.GetSize","ITextFont::GetSize","_win32_ITextFont_GetSize","_win32_ITextFont_GetSize_cpp","controls.ITextFont_GetSize","controls._win32_ITextFont_GetSize","tom/ITextFont::GetSize"]
 old-location: controls\ITextFont_GetSize.htm
 tech.root: Controls

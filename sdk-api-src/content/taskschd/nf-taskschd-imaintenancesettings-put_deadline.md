@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.put_Deadline
 title: IMaintenanceSettings::put_Deadline (taskschd.h)
-description: Gets or sets the amount of time after which the Task scheduler attempts to run the task during emergency Automatic maintenance, if the task failed to complete during regular Automatic maintenance.
+description: Gets or sets the amount of time after which the Task scheduler attempts to run the task during emergency Automatic maintenance, if the task failed to complete during regular Automatic maintenance. (Put)
 helpviewer_keywords: ["Deadline property [Task Scheduler]","Deadline property [Task Scheduler]","IMaintenanceSettings interface","IMaintenanceSettings interface [Task Scheduler]","Deadline property","IMaintenanceSettings.Deadline","IMaintenanceSettings.put_Deadline","IMaintenanceSettings::Deadline","IMaintenanceSettings::get_Deadline","IMaintenanceSettings::put_Deadline","put_Deadline","taskschd.imaintenancesettings_deadline","taskschd/IMaintenanceSettings::Deadline","taskschd/IMaintenanceSettings::get_Deadline","taskschd/IMaintenanceSettings::put_Deadline"]
 old-location: taskschd\imaintenancesettings_deadline.htm
 tech.root: taskschd

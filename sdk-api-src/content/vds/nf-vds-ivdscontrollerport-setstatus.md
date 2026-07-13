@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsControllerPort.SetStatus
 title: IVdsControllerPort::SetStatus (vds.h)
-description: Sets the status of a controller port to the specified value.
+description: The IVdsControllerPort::SetStatus (vds.h) method sets the status of a controller port to the specified value.
 helpviewer_keywords: ["IVdsControllerPort interface [VDS]","SetStatus method","IVdsControllerPort.SetStatus","IVdsControllerPort::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_setstatus","vds/IVdsControllerPort::SetStatus","vdshwprv/IVdsControllerPort::SetStatus"]
 old-location: base\ivdscontrollerport_setstatus.htm
 tech.root: base
 ms.assetid: 1338e1e7-80c8-409d-aa54-575618fd9797
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsControllerPort interface [VDS],SetStatus method, IVdsControllerPort.SetStatus, IVdsControllerPort::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_setstatus, vds/IVdsControllerPort::SetStatus, vdshwprv/IVdsControllerPort::SetStatus
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the 
    status of a controller port to the specified value.
@@ -75,7 +75,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -86,7 +86,7 @@ The status was successfully set.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -103,7 +103,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -115,7 +115,7 @@ The controller port object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>
@@ -127,7 +127,7 @@ Another operation is in progress. This operation cannot proceed until previous o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 <dt>0x80042400L</dt>
 </dl>
 </td>

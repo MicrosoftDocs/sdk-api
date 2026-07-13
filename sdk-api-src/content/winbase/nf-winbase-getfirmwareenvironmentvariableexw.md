@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetFirmwareEnvironmentVariableExW
 title: GetFirmwareEnvironmentVariableExW function (winbase.h)
-description: Retrieves the value of the specified firmware environment variable and its attributes.
-helpviewer_keywords: ["GetFirmwareEnvironmentVariableEx","GetFirmwareEnvironmentVariableEx function","GetFirmwareEnvironmentVariableExA","GetFirmwareEnvironmentVariableExW","base.getfirmwareenvironmentvariableex","winbase/GetFirmwareEnvironmentVariableEx","winbase/GetFirmwareEnvironmentVariableExA","winbase/GetFirmwareEnvironmentVariableExW"]
+description: Retrieves the value of the specified firmware environment variable and its attributes. (Unicode)
+helpviewer_keywords: ["GetFirmwareEnvironmentVariableEx", "GetFirmwareEnvironmentVariableEx function", "GetFirmwareEnvironmentVariableExW", "base.getfirmwareenvironmentvariableex", "winbase/GetFirmwareEnvironmentVariableEx", "winbase/GetFirmwareEnvironmentVariableExW"]
 old-location: base\getfirmwareenvironmentvariableex.htm
 tech.root: winprog
 ms.assetid: B093BA68-C68B-4ED6-9902-058650A191FD
@@ -87,7 +87,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>for details.
+Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a> for details.
 
 To read a UEFI firmware environment variable, the user account that the app is running under must have the <a href="/windows/desktop/SecAuthZ/privilege-constants">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>.
 
@@ -105,7 +105,7 @@ If you are creating a backup application, you can use this function to save all 
 
 
 > [!NOTE]
-> The winbase.h header defines GetFirmwareEnvironmentVariableEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetFirmwareEnvironmentVariableEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

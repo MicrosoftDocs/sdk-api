@@ -53,7 +53,7 @@ api_name:
 
 Reports that the Offline Files feature has detected the arrival of a network transport. This is most often sent when a client computer connects to a network.
 
-## -parameters
+
 
 ## -returns
 

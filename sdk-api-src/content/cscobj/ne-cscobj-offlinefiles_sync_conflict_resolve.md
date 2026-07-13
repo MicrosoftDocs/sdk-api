@@ -56,7 +56,7 @@ Identifies the conflict resolution code returned by the <a href="/previous-versi
 
 ## -enum-fields
 
-### -field OFFLINEFILES_SYNC_CONFLICT_RESOLVE_NONE
+### -field OFFLINEFILES_SYNC_CONFLICT_RESOLVE_NONE:0
 
 No resolution.  The conflict is unresolved.  This allows the conflict to be processed by other handlers in the system.
 

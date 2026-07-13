@@ -77,7 +77,7 @@ Receives an interface pointer of the type specified in the <i>iid</i> parameter.
 
 ### -param updateOffset [out]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 The offset into the surface where the application should draw updated content. This offset will reference the upper left corner of the update rectangle.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverVerDate
 title: IWindowsDriverUpdate::get_DriverVerDate (wuapi.h)
-description: Gets the driver version date of the Windows driver update.
+description: Gets the driver version date of the Windows driver update. (IWindowsDriverUpdate.get_DriverVerDate)
 helpviewer_keywords: ["DriverVerDate property [Windows Update Agent]","DriverVerDate property [Windows Update Agent]","IWindowsDriverUpdate interface","IWindowsDriverUpdate interface [Windows Update Agent]","DriverVerDate property","IWindowsDriverUpdate.DriverVerDate","IWindowsDriverUpdate.get_DriverVerDate","IWindowsDriverUpdate::DriverVerDate","IWindowsDriverUpdate::get_DriverVerDate","get_DriverVerDate","wua.iwindowsdriverupdate_driververdate","wuapi/IWindowsDriverUpdate::DriverVerDate","wuapi/IWindowsDriverUpdate::get_DriverVerDate"]
 old-location: wua\iwindowsdriverupdate_driververdate.htm
 tech.root: wua

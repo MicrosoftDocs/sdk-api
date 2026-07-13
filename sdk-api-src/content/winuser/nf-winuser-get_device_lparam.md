@@ -3,10 +3,8 @@ UID: NF:winuser.GET_DEVICE_LPARAM
 title: GET_DEVICE_LPARAM macro (winuser.h)
 description: Retrieves the input device type from the specified LPARAM value.
 helpviewer_keywords: ["GET_DEVICE_LPARAM","GET_DEVICE_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_DEVICE_LPARAM","_win32_get_device_lparam_cpp","inputdev.get_device_lparam","winui._win32_get_device_lparam","winuser/GET_DEVICE_LPARAM"]
-old-location: inputdev\get_device_lparam.htm
 tech.root: inputdev
-ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_device_lparam.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GET_DEVICE_LPARAM, GET_DEVICE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_DEVICE_LPARAM, _win32_get_device_lparam_cpp, inputdev.get_device_lparam, winui._win32_get_device_lparam, winuser/GET_DEVICE_LPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -47,11 +45,17 @@ api_name:
 
 # GET_DEVICE_LPARAM macro
 
+## -syntax
+
+```cpp
+WORD GET_DEVICE_LPARAM(
+    LPARAM lParam
+);
+```
 
 ## -description
 
-Retrieves the input device type from the specified 
-			<b>LPARAM</b> value.
+Retrieves the input device type from the specified **LPARAM** value.
 
 ## -parameters
 
@@ -59,22 +63,22 @@ Retrieves the input device type from the specified
 
 The value to be converted.
 
+## -returns
+
+Type: **WORD**
+
+The return value is the bit of the high-order word representing the input device type. It can be one of the following values.
+
+| Return code | Value | Description |
+|--|--|--|
+| **FAPPCOMMAND_KEY** | 0 | User pressed a key. |
+| **FAPPCOMMAND_MOUSE** | 0x8000 | User clicked a mouse button. |
+| **FAPPCOMMAND_OEM** | 0x1000 | An unidentified hardware source generated the event. It could be a mouse or a keyboard event. |
+
 ## -remarks
 
-This macro is identical to the <a href="/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a> macro.
+This macro is identical to the [GET_MOUSEORKEY_LPARAM macro](/windows/win32/winmsg/nf-winuser-get_mouseorkey_lparam).
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a>
-
-
-
-<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
-
-
-
-<b>Reference</b>
+[GET_MOUSEORKEY_LPARAM macro](/windows/win32/winmsg/nf-winuser-get_mouseorkey_lparam), [Mouse Input](/windows/win32/inputdev/mouse-input)

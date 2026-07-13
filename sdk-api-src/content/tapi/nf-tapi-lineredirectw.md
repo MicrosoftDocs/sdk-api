@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineRedirectW
 title: lineRedirectW function (tapi.h)
-description: The lineRedirect function redirects the specified offering call to the specified destination address.
-helpviewer_keywords: ["_tapi2_lineredirect","lineRedirect","lineRedirect function [TAPI 2.2]","lineRedirectA","lineRedirectW","tapi/lineRedirect","tapi/lineRedirectA","tapi/lineRedirectW","tapi2.lineredirect"]
+description: The lineRedirectW (Unicode) function (tapi.h) redirects the specified offering call to the specified destination address.
+helpviewer_keywords: ["_tapi2_lineredirect", "lineRedirect", "lineRedirect function [TAPI 2.2]", "lineRedirectW", "tapi/lineRedirect", "tapi/lineRedirectW", "tapi2.lineredirect"]
 old-location: tapi2\lineredirect.htm
 tech.root: tapi3
 ms.assetid: 014465af-26a7-451e-9d32-2e020d1043b0
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_lineredirect, lineRedirect, lineRedirect function [TAPI 2.2], lineRedirectA, lineRedirectW, tapi/lineRedirect, tapi/lineRedirectA, tapi/lineRedirectW, tapi2.lineredirect
 req.header: tapi.h
 req.include-header: 
@@ -92,7 +92,7 @@ Besides redirecting an incoming call, an application may have the option to acce
 
 
 > [!NOTE]
-> The tapi.h header defines lineRedirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineRedirect as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

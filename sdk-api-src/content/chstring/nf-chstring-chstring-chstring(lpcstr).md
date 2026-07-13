@@ -1,7 +1,7 @@
 ---
 UID: NF:chstring.CHString.CHString(LPCSTR)
 title: CHString::CHString(LPCSTR) (chstring.h)
-description: Initializes a new CHString object with the specified data.
+description: Initializes a new CHString object with the specified data. (overload 5/6)
 helpviewer_keywords: ["??0CHString@@QAE@PBD@Z","??0CHString@@QEAA@PEBD@Z","CHString","CHString constructor [Windows Management Instrumentation]","CHString constructor [Windows Management Instrumentation]","CHString interface","CHString interface [Windows Management Instrumentation]","CHString constructor","CHString.CHString","CHString.CHString(LPCSTR)","CHString::CHString","CHString::CHString(LPCSTR)","chstring/CHString::CHString","wmi.chstring_chstring_lpcstr_"]
 old-location: wmi\chstring_chstring_lpcstr_.htm
 tech.root: wmi

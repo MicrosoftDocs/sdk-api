@@ -59,7 +59,7 @@ Enumeration values used by <a href="/windows/desktop/api/powrprof/nf-powrprof-po
 
 ## -enum-fields
 
-### -field ACCESS_AC_POWER_SETTING_INDEX
+### -field ACCESS_AC_POWER_SETTING_INDEX:0
 
 Used with <a href="/windows/desktop/api/powrprof/nf-powrprof-powersettingaccesscheck">PowerSettingAccessCheck</a> to 
       check for group policy overrides for AC power settings.

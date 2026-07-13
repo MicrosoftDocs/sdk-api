@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_get_values_lenW
 title: ldap_get_values_lenW function (winldap.h)
-description: The ldap_get_values_len function retrieves the list of values for a given attribute.
-helpviewer_keywords: ["_ldap_ldap_get_values_len","ldap.ldap__get__values__len","ldap.ldap_get_values_len","ldap_get_values_len","ldap_get_values_len function [LDAP]","ldap_get_values_lenA","ldap_get_values_lenW","winldap/ldap_get_values_len","winldap/ldap_get_values_lenA","winldap/ldap_get_values_lenW"]
+description: The ldap_get_values_lenW (Unicode) function (winldap.h) retrieves the list of values for a given attribute. 
+helpviewer_keywords: ["_ldap_ldap_get_values_len", "ldap.ldap__get__values__len", "ldap.ldap_get_values_len", "ldap_get_values_len", "ldap_get_values_len function [LDAP]", "ldap_get_values_lenW", "winldap/ldap_get_values_len", "winldap/ldap_get_values_lenW"]
 old-location: ldap\ldap_get_values_len.htm
 tech.root: ldap
 ms.assetid: e2100892-5dad-4fc7-8129-34c675bcf134
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_get_values_len, ldap.ldap__get__values__len, ldap.ldap_get_values_len, ldap_get_values_len, ldap_get_values_len function [LDAP], ldap_get_values_lenA, ldap_get_values_lenW, winldap/ldap_get_values_len, winldap/ldap_get_values_lenA, winldap/ldap_get_values_lenW
 req.header: winldap.h
 req.include-header: 
@@ -95,7 +95,7 @@ Call
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_get_values_len as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_get_values_len as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

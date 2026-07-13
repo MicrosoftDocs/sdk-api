@@ -52,7 +52,7 @@ api_name:
 
 Clears the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> input and output queues of data.
 
-## -parameters
+
 
 ## -returns
 
@@ -80,7 +80,7 @@ void CCOMRTSDlg::OnBnClickedButtonClearTestArea()
 	// Clear the status text
 	m_staticGestureStatus.SetWindowTextW(L"");
 
-	// Redaw the window to clear the ink
+	// Redraw the window to clear the ink
 	this->RedrawWindow();
 }
 

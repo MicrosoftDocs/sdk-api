@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiSetFeatureStateA
 title: MsiSetFeatureStateA function (msiquery.h)
-description: The MsiSetFeatureState function sets a feature to a specified state.
-helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_ADVERTISED","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiSetFeatureState","MsiSetFeatureState function","MsiSetFeatureStateA","MsiSetFeatureStateW","_msi_msisetfeaturestate","msiquery/MsiSetFeatureState","msiquery/MsiSetFeatureStateA","msiquery/MsiSetFeatureStateW","setup.msisetfeaturestate"]
+description: The MsiSetFeatureState function sets a feature to a specified state. (ANSI)
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_ADVERTISED", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MsiSetFeatureStateA", "msiquery/MsiSetFeatureStateA"]
 old-location: setup\msisetfeaturestate.htm
 tech.root: setup
 ms.assetid: c7b22484-5a89-44f2-b0ff-6061a7fc5703
@@ -150,7 +150,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiSetFeatureState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiSetFeatureState as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

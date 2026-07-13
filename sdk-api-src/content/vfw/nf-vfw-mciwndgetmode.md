@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetMode","MCIWndGetMode macro [Windows Multimedia]"
 old-location: multimedia\mciwndgetmode.htm
 tech.root: Multimedia
 ms.assetid: d5b5d200-459c-4437-9685-1c95e8acc52f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetMode, MCIWndGetMode macro [Windows Multimedia], _win32_MCIWndGetMode, multimedia.mciwndgetmode, vfw/MCIWndGetMode
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MCIWndGetMode macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetMode(
+     hwnd,
+     lp,
+     len
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns an integer corresponding to the MCI constant defining the mode.
 
 
 ## -description

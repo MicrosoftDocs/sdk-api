@@ -54,11 +54,11 @@ Used by <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanag
 
 ## -enum-fields
 
-### -field PRIORITIZE_FLAG_RETRYFAILEDITEMS
+### -field PRIORITIZE_FLAG_RETRYFAILEDITEMS:0x1
 
 Indicates that the indexer should reattempt to index items that it failed to index previously.
 
-### -field PRIORITIZE_FLAG_IGNOREFAILURECOUNT
+### -field PRIORITIZE_FLAG_IGNOREFAILURECOUNT:0x2
 
 Indicates that the indexer should continue to reattempt indexing items regardless of the number of times the indexer has failed to index them previously.
 

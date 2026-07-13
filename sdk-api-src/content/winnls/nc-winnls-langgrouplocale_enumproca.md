@@ -1,7 +1,7 @@
 ---
 UID: NC:winnls.LANGGROUPLOCALE_ENUMPROCA
 title: LANGGROUPLOCALE_ENUMPROCA (winnls.h)
-description: An application-defined callback function that processes enumerated language group locale information provided by the EnumLanguageGroupLocales function.
+description: An application-defined callback function that processes enumerated language group locale information provided by the EnumLanguageGroupLocales function. (ANSI)
 helpviewer_keywords: ["LANGGROUPLOCALE_ENUMPROC","LANGGROUPLOCALE_ENUMPROC callback","LANGGROUPLOCALE_ENUMPROC callback function [Internationalization for Windows Applications]","LANGGROUPLOCALE_ENUMPROCA","LANGGROUPLOCALE_ENUMPROCW","_win32_EnumLanguageGroupLocalesProc","intl.enumlanguagegrouplocalesproc","winnls/LANGGROUPLOCALE_ENUMPROC"]
 old-location: intl\enumlanguagegrouplocalesproc.htm
 tech.root: Intl
@@ -140,7 +140,7 @@ An <b>EnumLanguageGroupLocalesProc</b> function can carry out any desired task. 
 
 
 > [!NOTE]
-> The winnls.h header defines LANGGROUPLOCALE_ENUMPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines LANGGROUPLOCALE_ENUMPROC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

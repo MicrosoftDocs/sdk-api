@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRFILLPATH
 title: EMRFILLPATH (wingdi.h)
-description: The EMRFILLPATH,�EMRSTROKEANDFILLPATH,� and EMRSTROKEPATH structures contain members for the FillPath, StrokeAndFillPath, and StrokePath enhanced metafile records.
+description: The EMRFILLPATH, EMRSTROKEANDFILLPATH, and EMRSTROKEPATH structures contain members for the FillPath, StrokeAndFillPath, and StrokePath enhanced metafile records.
 helpviewer_keywords: ["*PEMRFILLPATH","*PEMRSTROKEANDFILLPATH","*PEMRSTROKEPATH","EMRFILLPATH","EMRFILLPATH structure [Windows GDI]","EMRFILLPATH","EMRSTROKEANDFILLPATH","EMRSTROKEPATH","EMRFILLPATH","EMRSTROKEANDFILLPATH","EMRSTROKEPATH structure [Windows GDI]","EMRSTROKEANDFILLPATH","EMRSTROKEANDFILLPATH structure [Windows GDI]","EMRSTROKEPATH","EMRSTROKEPATH structure [Windows GDI]","PEMRFILLPATH","PEMRFILLPATH structure pointer [Windows GDI]","PEMRSTROKEANDFILLPATH","PEMRSTROKEANDFILLPATH structure pointer [Windows GDI]","PEMRSTROKEPATH","PEMRSTROKEPATH structure pointer [Windows GDI]","_win32_EMRFILLPATH_str","gdi.emrfillpath__emrstrokeandfillpath__emrstrokepath","wingdi/EMRFILLPATH","EMRSTROKEANDFILLPATH","EMRSTROKEPATH","wingdi/EMRSTROKEANDFILLPATH","wingdi/EMRSTROKEPATH","wingdi/PEMRFILLPATH","wingdi/PEMRSTROKEANDFILLPATH","wingdi/PEMRSTROKEPATH"]
 old-location: gdi\emrfillpath__emrstrokeandfillpath__emrstrokepath.htm
 tech.root: gdi

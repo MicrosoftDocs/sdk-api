@@ -4,7 +4,8 @@ title: Wnvapi.h header
 ms.assetid: f882ce4a-20d7-339b-9fcd-bc37cfd92d99
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: wnv
 f1_keywords:
  - wnvapi

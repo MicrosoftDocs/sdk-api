@@ -52,7 +52,7 @@ api_name:
 
 Gets the type of the command list, such as direct, bundle, compute, or copy.
 
-## -parameters
+
 
 ## -returns
 

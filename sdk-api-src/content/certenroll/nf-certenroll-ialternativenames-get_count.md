@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IAlternativeNames.get_Count
 title: IAlternativeNames::get_Count (certenroll.h)
-description: Retrieves the number of objects in the collection.
+description: Retrieves the number of objects in the collection. (IAlternativeNames.get_Count)
 helpviewer_keywords: ["Count property [Security]","Count property [Security]","IAlternativeNames interface","IAlternativeNames interface [Security]","Count property","IAlternativeNames.Count","IAlternativeNames.get_Count","IAlternativeNames::Count","IAlternativeNames::get_Count","certenroll/IAlternativeNames::Count","certenroll/IAlternativeNames::get_Count","get_Count","security.ialternativenames_count_property"]
 old-location: security\ialternativenames_count_property.htm
 tech.root: security

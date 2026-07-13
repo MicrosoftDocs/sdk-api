@@ -55,7 +55,7 @@ api_name:
 
 The <b>timeGetTime</b> function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started.
 
-## -parameters
+
 
 ## -returns
 

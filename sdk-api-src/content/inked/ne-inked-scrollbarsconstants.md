@@ -54,19 +54,19 @@ Specifies how the scroll bars of an <a href="/windows/desktop/tablet/inkedit-con
 
 ## -enum-fields
 
-### -field rtfNone
+### -field rtfNone:0
 
 Default. No scroll bars.
 
-### -field rtfHorizontal
+### -field rtfHorizontal:1
 
 Horizontal scroll bar only.
 
-### -field rtfVertical
+### -field rtfVertical:2
 
 Vertical scroll bar only.
 
-### -field rtfBoth
+### -field rtfBoth:3
 
 Both horizontal and vertical scroll bars.
 

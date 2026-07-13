@@ -57,7 +57,7 @@ Creates an enlistment, sets its initial state, and opens a handle to the enlistm
 
 ### -param lpEnlistmentAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
       structure that contains the security attributes for the enlistment manager.  Specify 
       <b>NULL</b> to obtain the default attributes.
 
@@ -127,7 +127,7 @@ Keep the following notification rules in mind when enlisting in transactions:
 <li>If the RM requests a single-phase commit operation, it must also specify prepare and commit 
       notifications.</li>
 <li>The only time an RM is not required to request commit notifications is when it is requesting at least a 
-      pair of preprepare and rollback notifications.</li>
+      pair of prepare and rollback notifications.</li>
 </ul>
 
 ## -see-also

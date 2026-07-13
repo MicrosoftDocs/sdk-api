@@ -86,7 +86,7 @@ Pointer to a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">B
 
 Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>*</b>
 
-If the DriverStringOptionsRealizedAdvance flag is set, <i>positions</i> is a pointer to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object that specifies the position of the first glyph. Otherwise, <i>positions</i> is an array of <b>PointF</b> objects, each of which specifies the origin of an individual glyph.
+If the <b>DriverStringOptionsRealizedAdvance</b> flag is set, <i>positions</i> is a pointer to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object that specifies the position of the first glyph. Otherwise, <i>positions</i> is an array of <b>PointF</b> objects, each of which specifies the origin of an individual glyph.
 
 ### -param flags [in]
 

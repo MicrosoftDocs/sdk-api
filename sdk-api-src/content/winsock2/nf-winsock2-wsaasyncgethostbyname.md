@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.WSAAsyncGetHostByName
 title: WSAAsyncGetHostByName function (winsock2.h)
-description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
+description: The WSAAsyncGetHostByName function (winsock2.h) asynchronously retrieves host information that corresponds to a host name.
 helpviewer_keywords: ["WSAAsyncGetHostByName","WSAAsyncGetHostByName function [Winsock]","_win32_wsaasyncgethostbyname_2","winsock.wsaasyncgethostbyname_2","wsipv6ok/WSAAsyncGetHostByName"]
 old-location: winsock\wsaasyncgethostbyname_2.htm
 tech.root: WinSock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h

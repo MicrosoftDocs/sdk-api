@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_KeyArchivalCertificate
 title: IX509CertificateRequestCmc::put_KeyArchivalCertificate (certenroll.h)
-description: Specifies or retrieves a certification authority (CA) encryption certificate.
+description: Specifies or retrieves a certification authority (CA) encryption certificate. (Put)
 helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","KeyArchivalCertificate property","IX509CertificateRequestCmc.KeyArchivalCertificate","IX509CertificateRequestCmc.put_KeyArchivalCertificate","IX509CertificateRequestCmc::KeyArchivalCertificate","IX509CertificateRequestCmc::get_KeyArchivalCertificate","IX509CertificateRequestCmc::put_KeyArchivalCertificate","KeyArchivalCertificate property [Security]","KeyArchivalCertificate property [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::KeyArchivalCertificate","certenroll/IX509CertificateRequestCmc::get_KeyArchivalCertificate","certenroll/IX509CertificateRequestCmc::put_KeyArchivalCertificate","put_KeyArchivalCertificate","security.ix509certificaterequestcmc_keyarchivalcertificate_property"]
 old-location: security\ix509certificaterequestcmc_keyarchivalcertificate_property.htm
 tech.root: security

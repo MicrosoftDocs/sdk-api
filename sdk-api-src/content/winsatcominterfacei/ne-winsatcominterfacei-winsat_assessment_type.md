@@ -58,23 +58,23 @@ Defines the possible subcomponents of an assessment.
 
 ## -enum-fields
 
-### -field WINSAT_ASSESSMENT_MEMORY
+### -field WINSAT_ASSESSMENT_MEMORY:0
 
 Assess the memory of the computer.
 
-### -field WINSAT_ASSESSMENT_CPU
+### -field WINSAT_ASSESSMENT_CPU:1
 
 Assess the processors on the computer.
 
-### -field WINSAT_ASSESSMENT_DISK
+### -field WINSAT_ASSESSMENT_DISK:2
 
 Assess the primary hard disk on the computer.
 
-### -field WINSAT_ASSESSMENT_D3D
+### -field WINSAT_ASSESSMENT_D3D:3
 
 After Windows 8.1, WinSAT no longer assesses the three-dimensional graphics (gaming) capabilities of the computer and the graphics driver's ability to render objects and execute shaders using this assessment. For compatibility, WinSAT reports sentinel values for the metrics and scores, however these are not calculated in real time.
 
-### -field WINSAT_ASSESSMENT_GRAPHICS
+### -field WINSAT_ASSESSMENT_GRAPHICS:4
 
   Assess the video card abilities required for Desktop Window Manager (DWM) composition.
 

@@ -57,7 +57,7 @@ Retrieve, into an instance of a floating-point referenced by pointer, the value 
 
 ### -param f [out]
 
-Pointer to an instance of an floating-point object that will receive the value of the <i>i</i> component of the
+Pointer to an instance of a floating-point object that will receive the value of the <i>i</i> component of the
         <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object <code>V</code>.
 
 ### -param V

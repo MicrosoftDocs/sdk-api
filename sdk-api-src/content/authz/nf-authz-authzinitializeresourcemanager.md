@@ -2,12 +2,12 @@
 UID: NF:authz.AuthzInitializeResourceManager
 title: AuthzInitializeResourceManager function (authz.h)
 description: Uses Authz to verify that clients have access to various resources.
-helpviewer_keywords: ["AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION","AUTHZ_RM_FLAG_NO_AUDIT","AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES","AuthzInitializeResourceManager","AuthzInitializeResourceManager function [Security]","_win32_authzinitializeresourcemanager","authz/AuthzInitializeResourceManager","security.authzinitializeresourcemanager"]
+helpviewer_keywords: ["AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION","AUTHZ_RM_FLAG_NO_AUDIT","AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES","AuthzInitializeResourceManager","AuthzInitializeResourceManager function [Security]","_win32_authzinitializeresourcemanager","authz/AuthzInitializeResourceManager","security.authzinitializeresourcemanager"]
 old-location: security\authzinitializeresourcemanager.htm
 tech.root: security
 ms.assetid: e3f6b37d-2c33-4b17-97b4-762bf55561c5
 ms.date: 12/05/2018
-ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
+ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -98,8 +98,8 @@ The resource manager is initialized as the identity of the thread token.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES"></a><a id="authz_rm_flag_no_centralized_access_policies"></a><dl>
-<dt><b>AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES</b></dt>
+<td width="40%"><a id="AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES"></a><a id="authz_rm_flag_no_central_access_policies"></a><dl>
+<dt><b>AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES</b></dt>
 <dt></dt>
 </dl>
 </td>

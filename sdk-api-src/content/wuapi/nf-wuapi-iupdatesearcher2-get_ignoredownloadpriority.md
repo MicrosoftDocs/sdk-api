@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateSearcher2.get_IgnoreDownloadPriority
 title: IUpdateSearcher2::get_IgnoreDownloadPriority (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether to ignore the download priority.
+description: Gets and sets a Boolean value that indicates whether to ignore the download priority. (Get)
 helpviewer_keywords: ["IUpdateSearcher2 interface [Windows Update Agent]","IgnoreDownloadPriority property","IUpdateSearcher2.IgnoreDownloadPriority","IUpdateSearcher2.get_IgnoreDownloadPriority","IUpdateSearcher2::IgnoreDownloadPriority","IUpdateSearcher2::get_IgnoreDownloadPriority","IUpdateSearcher2::put_IgnoreDownloadPriority","IgnoreDownloadPriority property [Windows Update Agent]","IgnoreDownloadPriority property [Windows Update Agent]","IUpdateSearcher2 interface","get_IgnoreDownloadPriority","wua.iupdatesearcher2_ignoredownloadpriority","wuapi/IUpdateSearcher2::IgnoreDownloadPriority","wuapi/IUpdateSearcher2::get_IgnoreDownloadPriority","wuapi/IUpdateSearcher2::put_IgnoreDownloadPriority"]
 old-location: wua\iupdatesearcher2_ignoredownloadpriority.htm
 tech.root: wua

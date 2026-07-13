@@ -1,12 +1,12 @@
 ---
 UID: NF:mmiscapi.mmioStringToFOURCCW
 title: mmioStringToFOURCCW function (mmiscapi.h)
-description: The mmioStringToFOURCC function converts a null-terminated string to a four-character code.
-helpviewer_keywords: ["_win32_mmioStringToFOURCC","mmioStringToFOURCC","mmioStringToFOURCC function [Windows Multimedia]","mmioStringToFOURCCA","mmioStringToFOURCCW","mmsystem/mmioStringToFOURCC","mmsystem/mmioStringToFOURCCA","mmsystem/mmioStringToFOURCCW","multimedia.mmiostringtofourcc"]
+description: The mmioStringToFOURCCW (Unicode) function converts a null-terminated string to a four-character code. (mmioStringToFOURCCW)
+helpviewer_keywords: ["_win32_mmioStringToFOURCC", "mmioStringToFOURCC", "mmioStringToFOURCC function [Windows Multimedia]", "mmioStringToFOURCCW", "multimedia.mmiostringtofourcc"]
 old-location: multimedia\mmiostringtofourcc.htm
 tech.root: Multimedia
 ms.assetid: e2d4f7f0-7827-4af0-baa8-02607369247a
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_mmioStringToFOURCC, mmioStringToFOURCC, mmioStringToFOURCC function [Windows Multimedia], mmioStringToFOURCCA, mmioStringToFOURCCW, mmsystem/mmioStringToFOURCC, mmsystem/mmioStringToFOURCCA, mmsystem/mmioStringToFOURCCW, multimedia.mmiostringtofourcc
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
@@ -92,5 +92,5 @@ This function copies the string to a four-character code and pads it with space 
 
 
 > [!NOTE]
-> The mmiscapi.h header defines mmioStringToFOURCC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmiscapi.h header defines mmioStringToFOURCC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.get_FileScreenFlags
 title: IFsrmFileScreenBase::get_FileScreenFlags (fsrmscreen.h)
-description: Retrieves or sets the file screen flags.
+description: Retrieves or sets the file screen flags. (Get)
 helpviewer_keywords: ["FileScreenFlags property [File Server Resource Manager]","FileScreenFlags property [File Server Resource Manager]","IFsrmFileScreenBase interface","IFsrmFileScreenBase interface [File Server Resource Manager]","FileScreenFlags property","IFsrmFileScreenBase.FileScreenFlags","IFsrmFileScreenBase.get_FileScreenFlags","IFsrmFileScreenBase::FileScreenFlags","IFsrmFileScreenBase::get_FileScreenFlags","IFsrmFileScreenBase::put_FileScreenFlags","fs.ifsrmfilescreenbase_filescreenflags","fsrm.ifsrmfilescreenbase_filescreenflags","fsrmscreen/IFsrmFileScreenBase::FileScreenFlags","fsrmscreen/IFsrmFileScreenBase::get_FileScreenFlags","fsrmscreen/IFsrmFileScreenBase::put_FileScreenFlags","get_FileScreenFlags"]
 old-location: fsrm\ifsrmfilescreenbase_filescreenflags.htm
 tech.root: fsrm

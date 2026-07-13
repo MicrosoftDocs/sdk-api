@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetIndexBuffer
 title: ID3D10Device::IASetIndexBuffer (d3d10.h)
-description: Bind an index buffer to the input-assembler stage.
+description: Bind an index buffer to the input-assembler stage. (ID3D10Device.IASetIndexBuffer)
 helpviewer_keywords: ["608d16ec-f6d6-ea93-bc37-fe7d34d07215","IASetIndexBuffer","IASetIndexBuffer method [Direct3D 10]","IASetIndexBuffer method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IASetIndexBuffer method","ID3D10Device.IASetIndexBuffer","ID3D10Device::IASetIndexBuffer","d3d10/ID3D10Device::IASetIndexBuffer","direct3d10.id3d10device_iasetindexbuffer"]
 old-location: direct3d10\id3d10device_iasetindexbuffer.htm
 tech.root: direct3d10

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_IdleSettings
 title: ITaskSettings::put_IdleSettings (taskschd.h)
-description: Gets or sets the information that specifies how the Task Scheduler performs tasks when the computer is in an idle condition.
+description: Gets or sets the information that specifies how the Task Scheduler performs tasks when the computer is in an idle condition. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","IdleSettings property","ITaskSettings.IdleSettings","ITaskSettings.put_IdleSettings","ITaskSettings::IdleSettings","ITaskSettings::get_IdleSettings","ITaskSettings::put_IdleSettings","IdleSettings property [Task Scheduler]","IdleSettings property [Task Scheduler]","ITaskSettings interface","put_IdleSettings","taskschd.itasksettings_idlesettings","taskschd/ITaskSettings::IdleSettings","taskschd/ITaskSettings::get_IdleSettings","taskschd/ITaskSettings::put_IdleSettings"]
 old-location: taskschd\itasksettings_idlesettings.htm
 tech.root: taskschd

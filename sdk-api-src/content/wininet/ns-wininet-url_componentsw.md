@@ -1,7 +1,7 @@
 ---
-UID: NS:wininet.__unnamed_struct_11
+UID: NS:wininet.URL_COMPONENTSW
 title: URL_COMPONENTSW (wininet.h)
-description: Contains the constituent parts of a URL. This structure is used with the InternetCrackUrl and InternetCreateUrl functions.
+description: Contains the constituent parts of a URL. This structure is used with the InternetCrackUrl and InternetCreateUrl functions. (Unicode)
 helpviewer_keywords: ["*LPURL_COMPONENTSW","LPURL_COMPONENTS","LPURL_COMPONENTS structure pointer [WinINet]","URL_COMPONENTS","URL_COMPONENTS structure [WinINet]","URL_COMPONENTSA","URL_COMPONENTSW","_inet_url_components_structure","wininet.url_components","wininet/LPURL_COMPONENTS","wininet/URL_COMPONENTS","wininet/URL_COMPONENTSA","wininet/URL_COMPONENTSW"]
 old-location: wininet\url_components.htm
 tech.root: wininet
@@ -137,7 +137,7 @@ For
 
 
 > [!NOTE]
-> The wininet.h header defines URL_COMPONENTS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines URL_COMPONENTS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -146,3 +146,4 @@ For
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetcreateurla">InternetCreateUrl</a>
+

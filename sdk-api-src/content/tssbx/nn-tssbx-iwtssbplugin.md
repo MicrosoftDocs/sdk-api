@@ -1,7 +1,7 @@
 ---
 UID: NN:tssbx.IWTSSBPlugin
 title: IWTSSBPlugin (tssbx.h)
-description: Used to extend the capabilities of Terminal Services Session Broker (TS�Session Broker). Implement this interface when you want to provide a plug-in that overrides the redirection logic of TS�Session Broker.
+description: Used to extend the capabilities of Terminal Services Session Broker (TS Session Broker). Implement this interface when you want to provide a plug-in that overrides the redirection logic of TS Session Broker.
 helpviewer_keywords: ["IWTSSBPlugin","IWTSSBPlugin interface [Remote Desktop Services]","IWTSSBPlugin interface [Remote Desktop Services]","described","termserv.iwtssbplugin","tssbx/IWTSSBPlugin"]
 old-location: termserv\iwtssbplugin.htm
 tech.root: TermServ
@@ -58,10 +58,7 @@ Used to extend the capabilities of Terminal Services Session Broker (TS Session
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSSBPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSSBPlugin</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWTSSBPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSSBPlugin</b> also has these types of members:
 
 ## -remarks
 

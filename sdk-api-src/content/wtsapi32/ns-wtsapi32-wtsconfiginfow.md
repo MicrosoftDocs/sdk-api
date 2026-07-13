@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSCONFIGINFOW
 title: WTSCONFIGINFOW (wtsapi32.h)
-description: Contains information about a Remote Desktop Services session.
+description: Contains information about a Remote Desktop Services session. (WTSCONFIGINFOW)
 helpviewer_keywords: ["*PWTSCONFIGINFOW","PWTSCONFIGINFO","PWTSCONFIGINFO structure pointer [Remote Desktop Services]","WTSCONFIGINFO","WTSCONFIGINFO structure [Remote Desktop Services]","WTSCONFIGINFOA","WTSCONFIGINFOW","termserv.wtsconfiginfo","wtsapi32/PWTSCONFIGINFO","wtsapi32/WTSCONFIGINFO","wtsapi32/WTSCONFIGINFOA","wtsapi32/WTSCONFIGINFOW"]
 old-location: termserv\wtsconfiginfo.htm
 tech.root: TermServ
@@ -216,4 +216,4 @@ Disable client printer redirection.
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSCONFIGINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSCONFIGINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

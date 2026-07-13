@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxServer.put_Branding
 title: IFaxServer::put_Branding (faxcom.h)
-description: Sets or retrieves the Branding property for a FaxServer object. The Branding property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.
+description: Sets or retrieves the Branding property for a FaxServer object. The Branding property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions. (Put)
 helpviewer_keywords: ["Branding property [Fax Service]","Branding property [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","Branding property","IFaxServer.Branding","IFaxServer.get_Branding","IFaxServer.put_Branding","IFaxServer::Branding","IFaxServer::get_Branding","IFaxServer::put_Branding","_mfax_ifaxserver_get_branding","fax._mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp","fax._mfax_ifaxserver_get_branding","faxcom/IFaxServer::Branding","faxcom/IFaxServer::get_Branding","faxcom/IFaxServer::put_Branding","put_Branding"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp.htm
 tech.root: Fax

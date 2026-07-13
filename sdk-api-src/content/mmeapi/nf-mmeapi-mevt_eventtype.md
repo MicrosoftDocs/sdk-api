@@ -6,7 +6,7 @@ helpviewer_keywords: ["MEVT_EVENTTYPE","MEVT_EVENTTYPE macro [Windows Multimedia
 old-location: multimedia\mevt_eventtype.htm
 tech.root: Multimedia
 ms.assetid: ce2ca2b4-129c-4164-ad0c-de748b4a29aa
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MEVT_EVENTTYPE, MEVT_EVENTTYPE macro [Windows Multimedia], _win32_MEVT_EVENTTYPE, mmeapi/MEVT_EVENTTYPE, multimedia.mevt_eventtype
 req.header: mmeapi.h
 req.include-header: Windows.h
@@ -47,6 +47,20 @@ api_name:
 
 # MEVT_EVENTTYPE macro
 
+## -syntax
+
+```cpp
+BYTE MEVT_EVENTTYPE(
+    DWORD x
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+The event type from the value specified in the <b>dwEvent</b> member of a <a href="/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a> structure.
+
 
 ## -description
 
@@ -56,7 +70,7 @@ The <b>MEVT_EVENTTYPE</b> macro retrieves the event type from the value specifie
 
 ### -param x
 
-Code for the MIDI event and the event parameters or length, as specified in the dwEvent member of the MIDIEVENT structure. <i></i>
+Code for the MIDI event and the event parameters or length, as specified in the **dwEvent** member of the MIDIEVENT structure. <i></i>
 
 ## -remarks
 

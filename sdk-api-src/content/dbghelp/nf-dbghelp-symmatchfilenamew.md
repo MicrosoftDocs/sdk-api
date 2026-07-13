@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymMatchFileNameW
 title: SymMatchFileNameW function (dbghelp.h)
-description: Compares a string to a file name and path.
+description: The SymMatchFileNameW (Unicode) function compares a string to a file name and path.
 helpviewer_keywords: ["SymMatchFileName","SymMatchFileName function","SymMatchFileNameW","_win32_symmatchfilename","base.symmatchfilename","dbghelp/SymMatchFileName","dbghelp/SymMatchFileNameW"]
 old-location: base\symmatchfilename.htm
 tech.root: Debug
 ms.assetid: 69787cc7-db84-4c60-8d7d-f8eae18c82e9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymMatchFileName, SymMatchFileName function, SymMatchFileNameW, _win32_symmatchfilename, base.symmatchfilename, dbghelp/SymMatchFileName, dbghelp/SymMatchFileNameW
 req.header: dbghelp.h
 req.include-header: 
@@ -83,7 +83,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 Because the match string can be a suffix of the complete file name, this function can be used to match a plain file name to a fully qualified file name.
 
-Matching begins from the end of both strings and proceeds backward. Matching is case-insensitive and equates a backslash ('\') with a forward slash ('/').
+Matching begins from the end of both strings and proceeds backward. Matching is case-insensitive and equates a backslash (\\) with a forward slash (/).
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -94,7 +94,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymMatchFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymMatchFileName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>AdjustableArrowCap::IsFilled</b> method determines whether the arrow cap is filled.
 
-## -parameters
+
 
 ## -returns
 

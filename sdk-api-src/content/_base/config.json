@@ -13,7 +13,6 @@
     "winternl.h",
     "debugapi.h",
     "processenv.h",
-    "processthreadsapi.h",
     "memoryapi.h",
     "minwinbase.h",
     "wct.h",

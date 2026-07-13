@@ -1,8 +1,8 @@
 ---
 UID: NF:ip2string.RtlIpv4AddressToStringExW
 title: RtlIpv4AddressToStringExW function (ip2string.h)
-description: Converts an IPv4 address and port number to a string in Internet standard format.
-helpviewer_keywords: ["RtlIpv4AddressToStringEx","RtlIpv4AddressToStringEx function [IP Helper]","RtlIpv4AddressToStringExW","ip2string/RtlIpv4AddressToStringEx","ip2string/RtlIpv4AddressToStringExW","iphlp.rtlipv4addresstostringex"]
+description: Converts an IPv4 address and port number to a string in Internet standard format. (Unicode)
+helpviewer_keywords: ["RtlIpv4AddressToStringEx", "RtlIpv4AddressToStringEx function [IP Helper]", "RtlIpv4AddressToStringExW", "ip2string/RtlIpv4AddressToStringEx", "ip2string/RtlIpv4AddressToStringExW", "iphlp.rtlipv4addresstostringex"]
 old-location: iphlp\rtlipv4addresstostringex.htm
 tech.root: IpHlp
 ms.assetid: 4244eaaf-8522-4edb-abb8-dc2b063c9076
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -128,8 +128,6 @@ When both UNICODE and _UNICODE are not defined, <b>RtlIpv4AddressToStringEx</b> 
 
 
 The <b>IN_ADDR</b> structure is defined in the <i>Inaddr.h</i> header file.
-
-An import library containing the <b>RtlIpv4AddressToStringEx</b> function is not included in the Microsoft Windows Software Development Kit (SDK) released for Windows Vista. The <b>RtlIpv4AddressToStringEx</b> function is included in the <i>Ntdll.lib</i> import library included in the Windows Driver Kit (WDK). An application could also use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to retrieve the function pointer from the <i>Ntdll.dll</i> and call this function.
 
 ## -see-also
 

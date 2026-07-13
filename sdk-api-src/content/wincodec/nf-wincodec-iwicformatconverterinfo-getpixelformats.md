@@ -76,10 +76,10 @@ The actual array size needed to retrieve all pixel formats supported by the conv
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 The format converter does not necessarily guarantee symmetricality with respect to conversion; that is, a converter may be able to convert FROM a particular format without actually being able to convert TO a particular format. In order to test symmetricality, use <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-canconvert">CanConvert</a>.
 
-To determine the number of pixel formats a coverter can handle, set <i>cFormats</i> to <code>0</code> and <i>pPixelFormatGUIDs</i> to <code>NULL</code>. The converter will fill <i>pcActual</i> with the number of formats supported by that converter.
+To determine the number of pixel formats a converter can handle, set <i>cFormats</i> to <code>0</code> and <i>pPixelFormatGUIDs</i> to <code>NULL</code>. The converter will fill <i>pcActual</i> with the number of formats supported by that converter.

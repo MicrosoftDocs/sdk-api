@@ -125,4 +125,4 @@ Points to a <a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddcapbuffinfo">DDCA
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

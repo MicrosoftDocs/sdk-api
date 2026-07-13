@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_EM_POLICY2_
 title: IKEEXT_EM_POLICY2 (iketypes.h)
-description: Is used to store AuthIP's extended mode negotiation policy.
+description: Is used to store AuthIP's extended mode negotiation policy. (IKEEXT_EM_POLICY2)
 helpviewer_keywords: ["IKEEXT_EM_POLICY2","IKEEXT_EM_POLICY2 structure [Filtering]","fwp.ikeext_em_policy2","iketypes/IKEEXT_EM_POLICY2"]
 old-location: fwp\ikeext_em_policy2.htm
 tech.root: fwp

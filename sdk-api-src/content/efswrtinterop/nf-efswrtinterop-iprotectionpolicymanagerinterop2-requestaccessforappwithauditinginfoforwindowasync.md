@@ -1,7 +1,7 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessForAppWithAuditingInfoForWindowAsync
 title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync (efswrtinterop.h)
-description: Request access to enterprise-protected content for a specific target app.
+description: Request access to enterprise-protected content for a specific target app. (IProtectionPolicyManagerInterop2.RequestAccessForAppWithAuditingInfoForWindowAsync)
 helpviewer_keywords: ["EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithauditinginfoforwindowasync","IProtectionPolicyManagerInterop2 interface","RequestAccessForAppWithAuditingInfoForWindowAsync method","IProtectionPolicyManagerInterop2.RequestAccessForAppWithAuditingInfoForWindowAsync","IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync","RequestAccessForAppWithAuditingInfoForWindowAsync","RequestAccessForAppWithAuditingInfoForWindowAsync method","RequestAccessForAppWithAuditingInfoForWindowAsync method","IProtectionPolicyManagerInterop2 interface","efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync"]
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithauditinginfoforwindowasync.htm
 tech.root: EDP
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  Windows Information Protection (WIP) policy can be applied on Windows 10, version 1607.</div>
+<div class="alert"><b>Note</b> Windows Information Protection (WIP) policy can be applied on Windows 10, version 1607.</div>
 <div> </div>Request access to enterprise-protected content for a specific target app.
 
 ## -parameters
@@ -77,11 +77,11 @@ The enterprise identity to which the content is being disclosed. This is an emai
 
 ### -param asyncOperation [out]
 
-An <a href="https://docs.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation<ProtectionPolicyEvaluationResult></a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
+An <a href="/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation&lt;ProtectionPolicyEvaluationResult&gt;</a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA
 title: DHCP_SUBNET_ELEMENT_DATA (dhcpsapi.h)
-description: Defines an element that describes a feature or restriction of a subnet.
+description: Defines an element that describes a feature or restriction of a subnet. (DHCP_SUBNET_ELEMENT_DATA)
 helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_DATA","DHCP_SUBNET_ELEMENT_DATA","DHCP_SUBNET_ELEMENT_DATA structure [DHCP]","LPDHCP_SUBNET_ELEMENT_DATA","LPDHCP_SUBNET_ELEMENT_DATA structure pointer [DHCP]","dhcp.dhcp_subnet_element_data","dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA","dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA"]
 old-location: dhcp\dhcp_subnet_element_data.htm
 tech.root: DHCP

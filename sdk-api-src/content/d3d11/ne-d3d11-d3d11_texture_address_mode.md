@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_TEXTURE_ADDRESS_MODE
 title: D3D11_TEXTURE_ADDRESS_MODE (d3d11.h)
-description: Identify a technique for resolving texture coordinates that are outside of the boundaries of a texture.
+description: Identify a technique for resolving texture coordinates that are outside of the boundaries of a texture. (D3D11_TEXTURE_ADDRESS_MODE)
 helpviewer_keywords: ["2e717137-eb31-02da-bc07-a90f0bfe6795","D3D11_TEXTURE_ADDRESS_BORDER","D3D11_TEXTURE_ADDRESS_CLAMP","D3D11_TEXTURE_ADDRESS_MIRROR","D3D11_TEXTURE_ADDRESS_MIRROR_ONCE","D3D11_TEXTURE_ADDRESS_MODE","D3D11_TEXTURE_ADDRESS_MODE enumeration [Direct3D 11]","D3D11_TEXTURE_ADDRESS_WRAP","d3d11/D3D11_TEXTURE_ADDRESS_BORDER","d3d11/D3D11_TEXTURE_ADDRESS_CLAMP","d3d11/D3D11_TEXTURE_ADDRESS_MIRROR","d3d11/D3D11_TEXTURE_ADDRESS_MIRROR_ONCE","d3d11/D3D11_TEXTURE_ADDRESS_MODE","d3d11/D3D11_TEXTURE_ADDRESS_WRAP","direct3d11.d3d11_texture_address_mode"]
 old-location: direct3d11\d3d11_texture_address_mode.htm
 tech.root: direct3d11
@@ -54,23 +54,23 @@ Identify a technique for resolving texture coordinates that are outside of the b
 
 ## -enum-fields
 
-### -field D3D11_TEXTURE_ADDRESS_WRAP
+### -field D3D11_TEXTURE_ADDRESS_WRAP:1
 
 Tile the texture at every (u,v) integer junction. For example, for u values between 0 and 3, the texture is repeated three times.
 
-### -field D3D11_TEXTURE_ADDRESS_MIRROR
+### -field D3D11_TEXTURE_ADDRESS_MIRROR:2
 
 Flip the texture at every (u,v) integer junction. For u values between 0 and 1, for example, the texture is addressed normally; between 1 and 2, the texture is flipped (mirrored); between 2 and 3, the texture is normal again; and so on.
 
-### -field D3D11_TEXTURE_ADDRESS_CLAMP
+### -field D3D11_TEXTURE_ADDRESS_CLAMP:3
 
 Texture coordinates outside the range [0.0, 1.0] are set to the texture color at 0.0 or 1.0, respectively.
 
-### -field D3D11_TEXTURE_ADDRESS_BORDER
+### -field D3D11_TEXTURE_ADDRESS_BORDER:4
 
 Texture coordinates outside the range [0.0, 1.0] are set to the border color specified in <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc">D3D11_SAMPLER_DESC</a> or HLSL code.
 
-### -field D3D11_TEXTURE_ADDRESS_MIRROR_ONCE
+### -field D3D11_TEXTURE_ADDRESS_MIRROR_ONCE:5
 
 Similar to D3D11_TEXTURE_ADDRESS_MIRROR and D3D11_TEXTURE_ADDRESS_CLAMP. Takes the absolute value of the texture coordinate (thus, mirroring around 0), and then clamps to the maximum value.
 

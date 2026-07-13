@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_GetNote","Button_GetNote macro [Windows Controls]"
 old-location: controls\Button_GetNote.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnote.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_GetNote, Button_GetNote macro [Windows Controls], _shell_Button_GetNote, _shell_Button_GetNote_cpp, commctrl/Button_GetNote, controls.Button_GetNote, controls._shell_Button_GetNote
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # Button_GetNote macro
+
+## -syntax
+
+```cpp
+BOOL Button_GetNote(
+   HWND    hwnd,
+   LPCWSTR psz,
+   int     pcc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the macro succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 
 ## -description

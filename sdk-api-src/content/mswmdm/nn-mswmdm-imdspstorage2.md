@@ -54,10 +54,7 @@ The <b>IMDSPStorage2</b> interface extends <a href="/windows/desktop/api/mswmdm/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorage2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a>. <b>IMDSPStorage2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMDSPStorage2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a>. <b>IMDSPStorage2</b> also has these types of members:
 
 ## -see-also
 

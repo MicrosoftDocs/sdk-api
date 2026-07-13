@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddMarker","AddMarker method [windows Media Format]","Add
 old-location: wmformat\iwmheaderinfo_addmarker.htm
 tech.root: wmformat
 ms.assetid: cfa111bb-7bbb-448a-b2db-d36637c01a52
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AddMarker, AddMarker method [windows Media Format], AddMarker method [windows Media Format],IWMHeaderInfo interface, AddMarker method [windows Media Format],IWMHeaderInfo2 interface, AddMarker method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],AddMarker method, IWMHeaderInfo.AddMarker, IWMHeaderInfo2 interface [windows Media Format],AddMarker method, IWMHeaderInfo2::AddMarker, IWMHeaderInfo3 interface [windows Media Format],AddMarker method, IWMHeaderInfo3::AddMarker, IWMHeaderInfo::AddMarker, IWMHeaderInfoAddMarker, wmformat.iwmheaderinfo_addmarker, wmsdkidl/IWMHeaderInfo2::AddMarker, wmsdkidl/IWMHeaderInfo3::AddMarker, wmsdkidl/IWMHeaderInfo::AddMarker
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,6 +55,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AddMarker</b> method adds a <a href="/windows/desktop/wmformat/wmformat-glossary">marker</a>, consisting of a name and a specific time, to the header section of the ASF file.
 

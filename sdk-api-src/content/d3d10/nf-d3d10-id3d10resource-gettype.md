@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Resource.GetType
 title: ID3D10Resource::GetType (d3d10.h)
-description: Get the type of the resource.
+description: Get the type of the resource. (ID3D10Resource.GetType)
 helpviewer_keywords: ["GetType","GetType method [Direct3D 10]","GetType method [Direct3D 10]","ID3D10Resource interface","ID3D10Resource interface [Direct3D 10]","GetType method","ID3D10Resource.GetType","ID3D10Resource::GetType","bf044bba-84f5-5192-908b-5b26b497c5e7","d3d10/ID3D10Resource::GetType","direct3d10.id3d10resource_gettype"]
 old-location: direct3d10\id3d10resource_gettype.htm
 tech.root: direct3d10

@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._FILE_IN_CABINET_INFO_A
 title: FILE_IN_CABINET_INFO_A (setupapi.h)
-description: The FILE_IN_CABINET_INFO structure provides information about a file found in the cabinet.
+description: The FILE_IN_CABINET_INFO structure provides information about a file found in the cabinet. (ANSI)
 helpviewer_keywords: ["*PFILE_IN_CABINET_INFO_A","FILE_IN_CABINET_INFO","FILE_IN_CABINET_INFO structure [Setup API]","FILE_IN_CABINET_INFO_A","PFILE_IN_CABINET_INFO","PFILE_IN_CABINET_INFO structure pointer [Setup API]","_setupapi_file_in_cabinet_info_str","setup.file_in_cabinet_info_str","setupapi/FILE_IN_CABINET_INFO","setupapi/PFILE_IN_CABINET_INFO"]
 old-location: setup\file_in_cabinet_info_str.htm
 tech.root: setup
@@ -104,4 +104,4 @@ Target path and file name.
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines FILE_IN_CABINET_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines FILE_IN_CABINET_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

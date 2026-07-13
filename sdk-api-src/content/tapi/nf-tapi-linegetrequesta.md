@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetRequestA
 title: lineGetRequestA function (tapi.h)
-description: Retrieves the next by-proxy request for the specified request mode.
-helpviewer_keywords: ["_tapi2_linegetrequest","lineGetRequest","lineGetRequest function [TAPI 2.2]","lineGetRequestA","lineGetRequestW","tapi/lineGetRequest","tapi/lineGetRequestA","tapi/lineGetRequestW","tapi2.linegetrequest"]
+description: Retrieves the next by-proxy request for the specified request mode. (lineGetRequestA)
+helpviewer_keywords: ["lineGetRequestA", "tapi/lineGetRequestA"]
 old-location: tapi2\linegetrequest.htm
 tech.root: tapi3
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04
@@ -104,7 +104,7 @@ The subsequent LINE_REQUEST should not be ignored because it is not repeated by 
 
 
 > [!NOTE]
-> The tapi.h header defines lineGetRequest as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetRequest as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

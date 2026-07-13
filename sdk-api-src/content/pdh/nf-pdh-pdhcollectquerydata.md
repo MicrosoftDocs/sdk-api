@@ -1,7 +1,7 @@
 ---
 UID: NF:pdh.PdhCollectQueryData
 title: PdhCollectQueryData function (pdh.h)
-description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
+description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter. (PdhCollectQueryData)
 helpviewer_keywords: ["PdhCollectQueryData","PdhCollectQueryData function [Perf]","_win32_pdhcollectquerydata","base.pdhcollectquerydata","pdh/PdhCollectQueryData","perf.pdhcollectquerydata"]
 old-location: perf\pdhcollectquerydata.htm
 tech.root: perf
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-eventing-pdh-l1-1-3.dll
+ - ext-ms-win-eventing-pdh-l1-1-2.dll
+ - ext-ms-win-eventing-pdh-l1-1-1.dll
+ - ext-ms-win-eventing-pdh-l1-1-0.dll
  - Pdh.dll
 api_name:
  - PdhCollectQueryData
@@ -114,10 +118,14 @@ When
 
 The following shows the syntax if calling this function from Visual Basic.
 
-<pre class="syntax" xml:space="preserve"><code>PdhCollectQueryData(
+
+``` syntax
+PdhCollectQueryData(
   ByVal QueryHandle as Long  
 )
-as Long</code></pre>
+as Long
+```
+
 
 
 

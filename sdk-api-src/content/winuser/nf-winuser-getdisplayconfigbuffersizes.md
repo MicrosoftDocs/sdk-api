@@ -164,6 +164,10 @@ As <b>GetDisplayConfigBufferSizes</b> can only determine the required array size
 
 If a caller is aware that it must enable additional sources and targets, the caller can allocate a larger mode information array than is returned from <b>GetDisplayConfigBufferSizes</b> so that it has the space to add the additional source and target modes after calling <b>QueryDisplayConfig</b> and before calling <a href="/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a>.
 
+## Examples
+
+See <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig#examples">__QueryDisplayConfig__</a> for an example of __GetDisplayConfigBufferSizes__.
+
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a>

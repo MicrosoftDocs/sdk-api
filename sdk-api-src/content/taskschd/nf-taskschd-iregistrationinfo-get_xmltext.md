@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_XmlText
 title: IRegistrationInfo::get_XmlText (taskschd.h)
-description: Gets or sets an XML-formatted version of the registration information for the task.
+description: Gets or sets an XML-formatted version of the registration information for the task. (Get)
 helpviewer_keywords: ["IRegistrationInfo interface [Task Scheduler]","XmlText property","IRegistrationInfo.XmlText","IRegistrationInfo.get_XmlText","IRegistrationInfo::XmlText","IRegistrationInfo::get_XmlText","IRegistrationInfo::put_XmlText","XmlText property [Task Scheduler]","XmlText property [Task Scheduler]","IRegistrationInfo interface","get_XmlText","taskschd.iregistrationinfo_xmltext","taskschd/IRegistrationInfo::XmlText","taskschd/IRegistrationInfo::get_XmlText","taskschd/IRegistrationInfo::put_XmlText"]
 old-location: taskschd\iregistrationinfo_xmltext.htm
 tech.root: taskschd

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_ClearAllFilters","Header_ClearAllFilters macro [Wi
 old-location: controls\Header_ClearAllFilters.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_clearallfilters.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_ClearAllFilters, Header_ClearAllFilters macro [Windows Controls], _win32_Header_ClearAllFilters, _win32_Header_ClearAllFilters_cpp, commctrl/Header_ClearAllFilters, controls.Header_ClearAllFilters, controls._win32_Header_ClearAllFilters
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Header_ClearAllFilters macro
+
+## -syntax
+
+```cpp
+int Header_ClearAllFilters(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns an integer that indicates <b>TRUE</b>(1) or <b>FALSE</b>(0).
 
 
 ## -description

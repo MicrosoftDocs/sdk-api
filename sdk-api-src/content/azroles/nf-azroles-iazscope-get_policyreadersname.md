@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.get_PolicyReadersName
 title: IAzScope::get_PolicyReadersName (azroles.h)
-description: Retrieves the account names of principals that act as policy readers.
+description: Retrieves the account names of principals that act as policy readers. (IAzScope.get_PolicyReadersName)
 helpviewer_keywords: ["AzScope object [Security]","PolicyReadersName property","IAzScope interface [Security]","PolicyReadersName property","IAzScope.PolicyReadersName","IAzScope.get_PolicyReadersName","IAzScope::PolicyReadersName","IAzScope::get_PolicyReadersName","PolicyReadersName property [Security]","PolicyReadersName property [Security]","AzScope object","PolicyReadersName property [Security]","IAzScope interface","azroles/IAzScope::PolicyReadersName","azroles/IAzScope::get_PolicyReadersName","get_PolicyReadersName","security.iazscope_policyreadersname"]
 old-location: security\iazscope_policyreadersname.htm
 tech.root: security

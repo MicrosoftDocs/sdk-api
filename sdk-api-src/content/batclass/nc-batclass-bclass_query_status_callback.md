@@ -78,11 +78,11 @@ A pointer to a <a href="/previous-versions/ff536290(v=vs.85)">BATTERY_STATUS</a>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_SUCCESS </b></dt>
+<dt><b>STATUS_SUCCESS</b></dt>
 </dl>
 </td>
 <td width="60%">
-The battery designated by <i>BatteryTag </i>is currently installed. 
+The battery designated by <i>BatteryTag</i> is currently installed. 
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ The battery designated by <i>BatteryTag </i>is currently installed.
 </dl>
 </td>
 <td width="60%">
-The battery designated by <i>BatteryTag </i>is not present.
+The battery designated by <i>BatteryTag</i> is not present.
 
 </td>
 </tr>

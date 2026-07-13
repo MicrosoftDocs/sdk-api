@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.EnumerateMetafile(constMetafile,constRectF&,EnumerateMetafileProc,VOID,constImageAttributes)
 title: Graphics::EnumerateMetafile(IN const Metafile,IN const RectF &,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes) (gdiplusgraphics.h)
-description: The Graphics::EnumerateMetafile method calls an application-defined callback function for each record in a specified metafile. You can use this method to display a metafile by calling PlayRecord in the callback function.
+description: The Graphics::EnumerateMetafile method calls an application-defined callback function for each record in a specified metafile. You can use this method to display a metafile by calling PlayRecord in the callback function. (overload 2/12)
 helpviewer_keywords: ["EnumerateMetafile","EnumerateMetafile method [GDI+]","EnumerateMetafile method [GDI+]","Graphics class","Graphics class [GDI+]","EnumerateMetafile method","Graphics.EnumerateMetafile","Graphics.EnumerateMetafile(IN const Metafile","IN const RectF &","IN EnumerateMetafileProc","IN VOID","IN const ImageAttributes)","Graphics.EnumerateMetafile(const Metafile*","const RectF&","EnumerateMetafileProc","VOID*","ImageAttributes*)","Graphics::EnumerateMetafile","Graphics::EnumerateMetafile(IN const Metafile","IN const RectF &","IN EnumerateMetafileProc","IN VOID","IN const ImageAttributes)","_gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_RectF_destRect_EnumerateMetafileProc_cal","gdiplus._gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_RectF_destRect_EnumerateMetafileProc_cal"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_RectF_destRect_EnumerateMetafileProc_cal.htm
 tech.root: gdiplus

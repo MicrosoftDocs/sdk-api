@@ -52,7 +52,7 @@ api_name:
 
 Unlocks the Media Foundation platform after it was locked by a call to the <a href="/windows/desktop/api/mfapi/nf-mfapi-mflockplatform">MFLockPlatform</a> function.
 
-## -parameters
+
 
 ## -returns
 

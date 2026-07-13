@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Skip
 title: IEnumCATEGORYINFO::Skip (comcat.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumCATEGORYINFO.Skip)
 helpviewer_keywords: ["IEnumCATEGORYINFO interface [COM]","Skip method","IEnumCATEGORYINFO.Skip","IEnumCATEGORYINFO::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumCATEGORYINFO interface","_com_ienumcategoryinfo_skip","com.ienumcategoryinfo_skip","comcat/IEnumCATEGORYINFO::Skip"]
 old-location: com\ienumcategoryinfo_skip.htm
 tech.root: com

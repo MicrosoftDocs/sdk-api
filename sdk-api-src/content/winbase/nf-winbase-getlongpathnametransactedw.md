@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetLongPathNameTransactedW
 title: GetLongPathNameTransactedW function (winbase.h)
-description: Converts the specified path to its long form as a transacted operation.
-helpviewer_keywords: ["GetLongPathNameTransacted","GetLongPathNameTransacted function [Files]","GetLongPathNameTransactedA","GetLongPathNameTransactedW","fs.getlongpathnametransacted","winbase/GetLongPathNameTransacted","winbase/GetLongPathNameTransactedA","winbase/GetLongPathNameTransactedW"]
+description: Converts the specified path to its long form as a transacted operation. (Unicode)
+helpviewer_keywords: ["GetLongPathNameTransacted", "GetLongPathNameTransacted function [Files]", "GetLongPathNameTransactedW", "fs.getlongpathnametransacted", "winbase/GetLongPathNameTransacted", "winbase/GetLongPathNameTransactedW"]
 old-location: fs\getlongpathnametransacted.htm
 tech.root: fs
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
  - Kernel32Legacy.dll
@@ -76,13 +77,13 @@ For more information about file and path names, see
 
 The path to be converted.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> (260) 
-       characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and 
-       prepend "\\?\" to the path. For more information, see 
-      <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
-
 The path must reside on the local computer; otherwise, the function fails and the last error code is set to 
       <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
+
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpszLongPath [out]
 
@@ -206,7 +207,7 @@ SMB 3.0 does not support TxF.
 
 
 > [!NOTE]
-> The winbase.h header defines GetLongPathNameTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetLongPathNameTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

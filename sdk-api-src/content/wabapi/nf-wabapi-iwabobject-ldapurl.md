@@ -1,7 +1,7 @@
 ---
 UID: NF:wabapi.IWABObject.LDAPUrl
 title: IWABObject::LDAPUrl (wabapi.h)
-description: Processes an Lightweight Directory Access Protocol (LDAP)�URL and displays the results obtained from the URL.
+description: Processes an Lightweight Directory Access Protocol (LDAP) URL and displays the results obtained from the URL.
 helpviewer_keywords: ["IWABObject interface [Windows Address Book]","LDAPUrl method","IWABObject.LDAPUrl","IWABObject::LDAPUrl","LDAPUrl","LDAPUrl method [Windows Address Book]","LDAPUrl method [Windows Address Book]","IWABObject interface","LDAP_AUTH_NEGOTIATE","MAPI_UNICODE","WABOBJECT_LDAPURL_RETURN_MAILUSER","_wab_IWABObject_LDAPUrl","wab._wab_IWABObject_LDAPUrl","wabapi/IWABObject::LDAPUrl"]
 old-location: wab\_wab_IWABObject_LDAPUrl.htm
 tech.root: wab
@@ -127,7 +127,7 @@ Address of a pointer to an <a href="/windows/desktop/api/wabdefs/nn-wabdefs-imai
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

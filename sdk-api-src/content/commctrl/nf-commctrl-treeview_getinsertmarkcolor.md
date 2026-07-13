@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetInsertMarkColor","TreeView_GetInsertMarkColor
 old-location: controls\TreeView_GetInsertMarkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getinsertmarkcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetInsertMarkColor, TreeView_GetInsertMarkColor macro [Windows Controls], _win32_TreeView_GetInsertMarkColor, _win32_TreeView_GetInsertMarkColor_cpp, commctrl/TreeView_GetInsertMarkColor, controls.TreeView_GetInsertMarkColor, controls._win32_TreeView_GetInsertMarkColor
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,19 @@ api_name:
 
 # TreeView_GetInsertMarkColor macro
 
+## -syntax
+
+```cpp
+COLORREF TreeView_GetInsertMarkColor(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>COLORREF</b> value that contains the current insertion mark color.
 
 ## -description
 

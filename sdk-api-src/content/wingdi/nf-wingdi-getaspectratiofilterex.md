@@ -62,7 +62,7 @@ Handle to a device context.
 
 ### -param lpsize [out]
 
-Pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the current aspect-ratio filter.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the current aspect-ratio filter.
 
 ## -returns
 
@@ -86,7 +86,7 @@ The system provides a special filter, the aspect-ratio filter, to select fonts t
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>
 
 
 

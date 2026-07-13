@@ -52,7 +52,7 @@ api_name:
 
 Converts and replaces the hexadecimal number at the end of this range to a Unicode character.
 
-## -parameters
+
 
 ## -returns
 

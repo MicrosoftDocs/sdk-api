@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Bthprops.lib
-req.dll: Bthprops.dll
+req.dll: bthprops.cpl
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Bthprops.dll
+ - bthprops.cpl
  - BluetoothAPIs.dll
  - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
@@ -68,7 +68,7 @@ The size, in bytes, of the <i>pContainerStream</i> parameter.
 ### -param pElement [in, out]
 
 A value used to track the  location in the stream.  The first
-          time the <b>BluetoothSdpGetContainerElementData</b> function is called for a  container, *<i>pElement</i>should be <b>NULL</b>.  For subsequent calls, the value should be
+          time the <b>BluetoothSdpGetContainerElementData</b> function is called for a  container, *<i>pElement</i> should be <b>NULL</b>.  For subsequent calls, the value should be
 unmodified.
 
 ### -param pData [out]

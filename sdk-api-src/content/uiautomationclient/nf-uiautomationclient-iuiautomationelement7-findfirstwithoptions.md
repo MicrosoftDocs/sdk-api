@@ -54,7 +54,7 @@ Finds the first matching element in the specified order.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param scope [in]
 
 A combination of values specifying the scope of the search.
 
@@ -62,7 +62,7 @@ A combination of values specifying the scope of the search.
 
 A pointer to a condition that represents the criteria to match.
 
-### -param unnamedParam3
+### -param traversalOptions
 
 Enumeration value specifying the tree navigation order.
 

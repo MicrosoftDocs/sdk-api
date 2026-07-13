@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.InternetGoOnlineW
 title: InternetGoOnlineW function (wininet.h)
-description: Prompts the user for permission to initiate connection to a URL.
-helpviewer_keywords: ["INTERNET_GOONLINE_REFRESH","InternetGoOnline","InternetGoOnline function [WinINet]","InternetGoOnlineA","InternetGoOnlineW","_inet_internetgoonline_function","wininet.internetgoonline","winineti/InternetGoOnline","winineti/InternetGoOnlineA","winineti/InternetGoOnlineW"]
+description: The InternetGoOnlineW (Unicode) function (wininet.h) prompts the user for permission to initiate connection to a URL.
+helpviewer_keywords: ["INTERNET_GOONLINE_REFRESH", "InternetGoOnline", "InternetGoOnline function [WinINet]", "InternetGoOnlineW", "_inet_internetgoonline_function", "wininet.internetgoonline"]
 old-location: wininet\internetgoonline.htm
 tech.root: wininet
 ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline function [WinINet], InternetGoOnlineA, InternetGoOnlineW, _inet_internetgoonline_function, wininet.internetgoonline, winineti/InternetGoOnline, winineti/InternetGoOnlineA, winineti/InternetGoOnlineW
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
@@ -123,7 +123,7 @@ The <i>dwFlags</i> parameter contains a value other than zero or <b>INTERNET_GOO
 
 
 > [!NOTE]
-> The wininet.h header defines InternetGoOnline as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetGoOnline as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

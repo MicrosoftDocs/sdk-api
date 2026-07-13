@@ -54,15 +54,15 @@ Defines values for the file system item that was found using the <a href="/windo
 
 ## -enum-fields
 
-### -field FsiItemNotFound
+### -field FsiItemNotFound:0
 
 The specified item was not found.
 
-### -field FsiItemDirectory
+### -field FsiItemDirectory:1
 
 The specified item is a directory.
 
-### -field FsiItemFile
+### -field FsiItemFile:2
 
 The specified item is a file.
 

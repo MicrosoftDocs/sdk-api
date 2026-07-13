@@ -54,6 +54,9 @@ req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 
 Yields control to the user-mode scheduling (UMS) scheduler thread on which the calling UMS worker thread is running.
 
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
+
 ## -parameters
 
 ### -param SchedulerParam [in]

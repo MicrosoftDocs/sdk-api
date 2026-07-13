@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._INHERITED_FROMA
 title: INHERITED_FROMA (accctrl.h)
-description: Provides information about an object's inherited access control entry (ACE).
+description: Provides information about an object's inherited access control entry (ACE). (ANSI)
 helpviewer_keywords: ["*PINHERITED_FROMA","INHERITED_FROM","INHERITED_FROM structure [Security]","INHERITED_FROMA","INHERITED_FROMW","PINHERITED_FROM","PINHERITED_FROM structure pointer [Security]","_INHERITED_FROMA","_INHERITED_FROMW","accctrl/INHERITED_FROM","accctrl/INHERITED_FROMA","accctrl/INHERITED_FROMW","accctrl/PINHERITED_FROM","security.inherited_from"]
 old-location: security\inherited_from.htm
 tech.root: security
@@ -79,4 +79,4 @@ Name of the ancestor from which the ACE was inherited. For an explicit ACE, set 
 ## -remarks
 
 > [!NOTE]
-> The accctrl.h header defines INHERITED_FROM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The accctrl.h header defines INHERITED_FROM as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

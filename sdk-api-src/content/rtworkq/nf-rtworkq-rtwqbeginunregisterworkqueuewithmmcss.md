@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqBeginUnregisterWorkQueueWithMMCSS
 title: RtwqBeginUnregisterWorkQueueWithMMCSS function (rtworkq.h)
-description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
+description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task. (RtwqBeginUnregisterWorkQueueWithMMCSS)
 helpviewer_keywords: ["RtwqBeginUnregisterWorkQueueWithMMCSS","RtwqBeginUnregisterWorkQueueWithMMCSS function","base.rtwqbeginunregisterworkqueuewithmmcss","rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS"]
 old-location: base\rtwqbeginunregisterworkqueuewithmmcss.htm
 tech.root: backup
@@ -68,4 +68,4 @@ Pointer to the <b>IUnknown</b> interface of a state object, defined by the calle
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

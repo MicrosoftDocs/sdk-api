@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D9_OPTIONS1
 title: D3D11_FEATURE_DATA_D3D9_OPTIONS1 (d3d11.h)
-description: Describes Direct3D 9 feature options in the current graphics driver.
+description: Describes Direct3D 9 feature options in the current graphics driver. (D3D11_FEATURE_DATA_D3D9_OPTIONS1)
 helpviewer_keywords: ["D3D11_FEATURE_DATA_D3D9_OPTIONS1","D3D11_FEATURE_DATA_D3D9_OPTIONS1 structure [Direct3D 11]","d3d11/D3D11_FEATURE_DATA_D3D9_OPTIONS1","direct3d11.d3d11_feature_data_d3d9_options1"]
 old-location: direct3d11\d3d11_feature_data_d3d9_options1.htm
 tech.root: direct3d11

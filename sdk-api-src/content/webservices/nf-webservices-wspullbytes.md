@@ -118,7 +118,7 @@ A quota was exceeded.
 ## -remarks
 
 <a href="/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wspushbytes">WsPushBytes</a> require the buffer of data to be provided to the writer.
-        In some usage patterns, this may require an extra copy of the data.  For those scenarios, <b>WsPullBytes</b>offers a way to request the writer to provide the buffer that must be filled with data.
+        In some usage patterns, this may require an extra copy of the data.  For those scenarios, <b>WsPullBytes</b> offers a way to request the writer to provide the buffer that must be filled with data.
       
 
 If the encoding cannot take advantage of this behavior, then <b>WsPullBytes</b> will invoke the

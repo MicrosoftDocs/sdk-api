@@ -56,23 +56,23 @@ Elements of the <b>TF_DA_LINESTYLE</b> enumeration specify the underline style o
 
 ## -enum-fields
 
-### -field TF_LS_NONE
+### -field TF_LS_NONE:0
 
 The text is not underlined.
 
-### -field TF_LS_SOLID
+### -field TF_LS_SOLID:1
 
 The text is underlined with a solid line.
 
-### -field TF_LS_DOT
+### -field TF_LS_DOT:2
 
 The text is underlined with a dotted line.
 
-### -field TF_LS_DASH
+### -field TF_LS_DASH:3
 
 The text is underlined with a dashed line.
 
-### -field TF_LS_SQUIGGLE
+### -field TF_LS_SQUIGGLE:4
 
 The text is underlined with a solid wavy line.
 

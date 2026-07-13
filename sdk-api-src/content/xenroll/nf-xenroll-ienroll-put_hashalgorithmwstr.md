@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.put_HashAlgorithmWStr
 title: IEnroll::put_HashAlgorithmWStr (xenroll.h)
-description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS
+description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS (IEnroll.put_HashAlgorithmWStr)
 helpviewer_keywords: ["HashAlgorithmWStr property [Security]","HashAlgorithmWStr property [Security]","IEnroll interface","IEnroll interface [Security]","HashAlgorithmWStr property","IEnroll.HashAlgorithmWStr","IEnroll.put_HashAlgorithmWStr","IEnroll::HashAlgorithmWStr","IEnroll::get_HashAlgorithmWStr","IEnroll::put_HashAlgorithmWStr","put_HashAlgorithmWStr","security.ienroll4_hashalgorithmwstr","xenroll/IEnroll::HashAlgorithmWStr","xenroll/IEnroll::get_HashAlgorithmWStr","xenroll/IEnroll::put_HashAlgorithmWStr"]
 old-location: security\ienroll4_hashalgorithmwstr.htm
 tech.root: security

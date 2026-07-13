@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_AUTHENTICATION2_
 title: IKEEXT_CERTIFICATE_AUTHENTICATION2 (iketypes.h)
-description: Is used to specify various parameters for authentication with certificates.
+description: Is used to specify various parameters for authentication with certificates. (IKEEXT_CERTIFICATE_AUTHENTICATION2)
 helpviewer_keywords: ["IKEEXT_CERTIFICATE_AUTHENTICATION2","IKEEXT_CERTIFICATE_AUTHENTICATION2 structure [Filtering]","IKEEXT_CERT_AUTH_ALLOW_HTTP_CERT_LOOKUP","IKEEXT_CERT_AUTH_DISABLE_SSL_CERT_VALIDATION","IKEEXT_CERT_AUTH_ENABLE_CRL_CHECK_STRONG","IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK","IKEEXT_CERT_AUTH_FLAG_SSL_ONE_WAY","IKEEXT_CERT_AUTH_URL_CONTAINS_BUNDLE","fwp.ikeext_certificate_authentication2","iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION2"]
 old-location: fwp\ikeext_certificate_authentication2.htm
 tech.root: fwp

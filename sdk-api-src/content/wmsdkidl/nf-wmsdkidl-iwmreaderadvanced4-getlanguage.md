@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetLanguage","GetLanguage method [windows Media Format]",
 old-location: wmformat\iwmreaderadvanced4_getlanguage.htm
 tech.root: wmformat
 ms.assetid: 2af443f5-941a-466a-8eef-d4742f8e1ae1
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguage method, IWMReaderAdvanced4.GetLanguage, IWMReaderAdvanced4::GetLanguage, IWMReaderAdvanced4GetLanguage, wmformat.iwmreaderadvanced4_getlanguage, wmsdkidl/IWMReaderAdvanced4::GetLanguage
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetLanguage</b> method retrieves information about a language supported by an output. You must specify an output number and a language index, and this method will supply the RFC1766-compliant language string.
 

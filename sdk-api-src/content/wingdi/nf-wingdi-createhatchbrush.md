@@ -355,7 +355,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         hdc = BeginPaint(hWnd, &ps);
 
         // Start application-specific layout section.
-        // Just print the geeting string in the top left corner.
+        // Just print the greeting string in the top left corner.
         TextOut(hdc,
             5, 5,
             greeting, (int)_tcslen(greeting));

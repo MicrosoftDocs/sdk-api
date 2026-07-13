@@ -16,8 +16,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.unicode-ansi: 
 f1_keywords:
@@ -37,7 +37,7 @@ api_name:
 
 ## -description
 
-Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device. Adds the [CheckFeatureSupport](nf-d3d11_4-id3d11videodevice2-checkfeaturesupport.md) method for querying for decoding capabilities.
+Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device. Adds the [CheckFeatureSupport](nf-d3d11_4-id3d11videodevice2-checkfeaturesupport.md) method for querying for decoding capabilities, and the [NegotiateCryptoSessionKeyExchangeMT](nf-d3d11_4-id3d11videodevice2-negotiatecryptosessionkeyexchangemt.md) method.
 
 ## -inheritance
 

@@ -108,11 +108,11 @@ A WSK application passes a buffer to the
     created the socket.
 
 For more information about querying the current list of local transport addresses, see 
-    <a href="/previous-versions/windows/desktop/legacy/dd877219(v=vs.85)">SIO_ADDRESS_LIST_QUERY</a>.
+    <a href="/windows/win32/winsock/sio-address-list-query">SIO_ADDRESS_LIST_QUERY</a>.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/dd877219(v=vs.85)">SIO_ADDRESS_LIST_QUERY</a>
+<a href="/windows/win32/winsock/sio-address-list-query">SIO_ADDRESS_LIST_QUERY</a>
 
 
 

@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-security-winscard-l1-1-1.dll
  - Winscard.dll
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
@@ -54,4 +55,4 @@ api_name:
 The <b>SCardReleaseStartedEvent</b> function decrements the reference count for  a handle acquired by a previous call to the 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardaccessstartedevent">SCardAccessStartedEvent</a> function.
 
-## -parameters
+

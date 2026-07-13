@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensorManagerEvents interface","OnSensorEnter method","I
 old-location: winsensors_com_ref\isensormanagerevents_onsensorenter.htm
 tech.root: winsensors
 ms.assetid: 1316e3b0-9677-4575-a3b8-53fa57295987
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensorManagerEvents interface,OnSensorEnter method, ISensorManagerEvents.OnSensorEnter, ISensorManagerEvents::OnSensorEnter, OnSensorEnter, OnSensorEnter method, OnSensorEnter method,ISensorManagerEvents interface, sensorsapi/ISensorManagerEvents::OnSensorEnter, winsensors_com_ref.isensormanagerevents_onsensorenter, winsensors_com_ref.isensormanagerevents_sensorenter
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Provides notification when a sensor device is connected.
 

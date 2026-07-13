@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.get_MailCc
 title: IFsrmActionEmail::get_MailCc (fsrm.h)
-description: Retrieves or sets the carbon copy (Cc) email address to which email is sent when this action generates email.
+description: Retrieves or sets the carbon copy (Cc) email address to which email is sent when this action generates email. (Get)
 helpviewer_keywords: ["IFsrmActionEmail interface [File Server Resource Manager]","MailCc property","IFsrmActionEmail.MailCc","IFsrmActionEmail.get_MailCc","IFsrmActionEmail2 interface [File Server Resource Manager]","MailCc property","IFsrmActionEmail2.MailCc","IFsrmActionEmail2::MailCc","IFsrmActionEmail2::get_MailCc","IFsrmActionEmail2::put_MailCc","IFsrmActionEmail::get_MailCc","IFsrmActionEmail::put_MailCc","MailCc property [File Server Resource Manager]","MailCc property [File Server Resource Manager]","IFsrmActionEmail interface","MailCc property [File Server Resource Manager]","IFsrmActionEmail2 interface","fs.ifsrmactionemail_mailcc","fsrm.ifsrmactionemail_mailcc","fsrm/IFsrmActionEmail2::MailCc","fsrm/IFsrmActionEmail2::get_MailCc","fsrm/IFsrmActionEmail2::put_MailCc","fsrm/IFsrmActionEmail::MailCc","fsrm/IFsrmActionEmail::get_MailCc","fsrm/IFsrmActionEmail::put_MailCc","get_MailCc"]
 old-location: fsrm\ifsrmactionemail_mailcc.htm
 tech.root: fsrm

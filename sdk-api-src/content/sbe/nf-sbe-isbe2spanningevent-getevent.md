@@ -11,7 +11,7 @@ ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent met
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Gets an in-band spanning event and  event data from the Stream Buffer Engine, version 2 (SBE2). An <i>in-band spanning event</i> is an event that exists until it is replaced or erased, and is part of the state for events that appear later in the same stream.
 
 ## -parameters
@@ -72,7 +74,7 @@ Pointer to a buffer that gets the event data. If this parameter is <b>NULL</b>, 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

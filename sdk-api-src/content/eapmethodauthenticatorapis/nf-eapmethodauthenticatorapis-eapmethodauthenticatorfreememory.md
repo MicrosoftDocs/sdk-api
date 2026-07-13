@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorFreeMemory
 title: EapMethodAuthenticatorFreeMemory function (eapmethodauthenticatorapis.h)
-description: Releases all memory associated with an opaque user interface context data buffer.
+description: Releases all memory associated with an opaque user interface context data buffer. (EapMethodAuthenticatorFreeMemory)
 helpviewer_keywords: ["EapMethodAuthenticatorFreeMemory","EapMethodAuthenticatorFreeMemory function [EAPHost]","eaphost.eapmethodauthenticatorfreememory","eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory"]
 old-location: eaphost\eapmethodauthenticatorfreememory.htm
 tech.root: eaphost

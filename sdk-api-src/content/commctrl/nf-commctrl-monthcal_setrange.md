@@ -6,7 +6,7 @@ helpviewer_keywords: ["GDTR_MAX","GDTR_MIN","MonthCal_SetRange","MonthCal_SetRan
 old-location: controls\MonthCal_SetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setrange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: GDTR_MAX, GDTR_MIN, MonthCal_SetRange, MonthCal_SetRange macro [Windows Controls], _win32_MonthCal_SetRange, _win32_MonthCal_SetRange_cpp, commctrl/MonthCal_SetRange, controls.MonthCal_SetRange, controls._win32_MonthCal_SetRange
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # MonthCal_SetRange macro
 
+## -syntax
+
+```cpp
+BOOL MonthCal_SetRange(
+   HWND         hmc,
+   DWORD        gd,
+   LPSYSTEMTIME rgst
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
+
 
 ## -description
 
@@ -77,7 +93,7 @@ Flag values that specify which date limits are being set. This value must be one
 </dl>
 </td>
 <td width="60%">
-The maximum allowable date is being set. The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at <i>lprgSysTimeArray</i>[1] must contain date information. 
+The maximum allowable date is being set. The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at <i>rgst</i>[1] must contain date information. 
 
 </td>
 </tr>
@@ -87,7 +103,7 @@ The maximum allowable date is being set. The <a href="/windows/desktop/api/minwi
 </dl>
 </td>
 <td width="60%">
-The minimum allowable date is being set. The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at <i>lprgSysTimeArray</i>[0] must contain date information. 
+The minimum allowable date is being set. The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at <i>rgst</i>[0] must contain date information. 
 
 </td>
 </tr>
@@ -97,4 +113,4 @@ The minimum allowable date is being set. The <a href="/windows/desktop/api/minwi
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that contain the date limits. The maximum limit must be in <i>lprgSysTimeArray</i>[1] if GDTR_MAX is specified, and <i>lprgSysTimeArray</i>[0] must contain the minimum limit if GDTR_MIN is specified.
+Pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures that contain the date limits. The maximum limit must be in <i>rgst</i>[1] if GDTR_MAX is specified, and <i>rgst</i>[0] must contain the minimum limit if GDTR_MIN is specified.

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11shader._D3D11_SHADER_VARIABLE_DESC
 title: D3D11_SHADER_VARIABLE_DESC (d3d11shader.h)
-description: Describes a shader variable.
+description: Describes a shader variable. (D3D11_SHADER_VARIABLE_DESC)
 helpviewer_keywords: ["D3D11_SHADER_VARIABLE_DESC","D3D11_SHADER_VARIABLE_DESC structure [Direct3D 11]","cfce73ab-af25-fa7f-0d0a-e49af39dc5d8","d3d11shader/D3D11_SHADER_VARIABLE_DESC","direct3d11.d3d11_shader_variable_desc"]
 old-location: direct3d11\d3d11_shader_variable_desc.htm
 tech.root: direct3d11

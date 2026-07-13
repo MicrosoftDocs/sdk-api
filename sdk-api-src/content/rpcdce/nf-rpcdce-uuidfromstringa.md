@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.UuidFromStringA
 title: UuidFromStringA function (rpcdce.h)
-description: The UuidFromString function converts a string to a UUID.
-helpviewer_keywords: ["UuidFromString","UuidFromString function [RPC]","UuidFromStringA","UuidFromStringW","_rpc_uuidfromstring","rpc.uuidfromstring","rpcdce/UuidFromString","rpcdce/UuidFromStringA","rpcdce/UuidFromStringW"]
+description: The UuidFromString function converts a string to a UUID. (UuidFromStringA)
+helpviewer_keywords: ["UuidFromStringA", "rpcdce/UuidFromStringA"]
 old-location: rpc\uuidfromstring.htm
 tech.root: Rpc
 ms.assetid: 90b3cf6b-a15b-4f91-9ba2-0e43fe3374df
@@ -112,7 +112,7 @@ An application calls the
 
 
 > [!NOTE]
-> The rpcdce.h header defines UuidFromString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines UuidFromString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

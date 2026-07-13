@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC","DML_ELEM
 old-location: direct3d12\dml_element_wise_quantize_linear_operator_desc.htm
 tech.root: directml
 ms.assetid: 46415049-2978-4162-B94C-B600EA91992C
-ms.date: 10/30/2020
+ms.date: 08/21/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Performs the following linear quantization function on every element in *InputTensor* with respect to its corresponding element in *ScaleTensor* and `ZeroPointTensor`, placing the results in the corresponding element of *OutputTensor*.
+Performs the following linear quantization function on every element in *InputTensor* with respect to its corresponding element in *ScaleTensor* and *ZeroPointTensor*, placing the results in the corresponding element of *OutputTensor*.
 
 ```
 // For uint8 output, Min = 0, Max = 255
@@ -70,6 +70,11 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 The tensor containing the scales.
 
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
+
+If *InputTensor* is **INT32**, then *ScaleTensor* must be **FLOAT32**. Otherwise, *ScaleTensor* must have the same *DataType* as *InputTensor*.
+
 ### -field ZeroPointTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
@@ -86,10 +91,26 @@ The output tensor to write the results to.
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-* *OutputTensor* and `ZeroPointTensor` must have the same *DataType*.
-* *InputTensor*, *OutputTensor*, *ScaleTensor*, and `ZeroPointTensor` must have the same *DimensionCount* and *Sizes*.
+* *InputTensor*, *OutputTensor*, *ScaleTensor*, and *ZeroPointTensor* must have the same *DimensionCount* and *Sizes*.
+* *OutputTensor* and *ZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_6_2 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32 |
+| ScaleTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| ZeroPointTensor | Optional input | 1 to 8 | INT8, UINT8 |
+| OutputTensor | Output | 1 to 8 | INT8, UINT8 |
+
+### DML_FEATURE_LEVEL_6_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32 |
+| ScaleTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| ZeroPointTensor | Input | 1 to 8 | INT8, UINT8 |
+| OutputTensor | Output | 1 to 8 | INT8, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

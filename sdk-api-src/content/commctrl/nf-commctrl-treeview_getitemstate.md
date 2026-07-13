@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetItemState","TreeView_GetItemState macro [Wind
 old-location: controls\TreeView_GetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemstate.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetItemState, TreeView_GetItemState macro [Windows Controls], _win32_TreeView_GetItemState, _win32_TreeView_GetItemState_cpp, commctrl/TreeView_GetItemState, controls.TreeView_GetItemState, controls._win32_TreeView_GetItemState
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # TreeView_GetItemState macro
 
+## -syntax
+
+```cpp
+UINT TreeView_GetItemState(
+   HWND      hwndTV,
+   HTREEITEM hti,
+   UINT      mask
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>UINT</b> value that is equivalent to the state member of <b>TVITEMEX</b>. The state bits that are both true and were specified in <b>mask</b> will be set.
+
 
 ## -description
 
@@ -70,4 +86,4 @@ Handle to the item.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Mask used to specify the states to query for. It is equivalent to the <b>stateMask</b> member of <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a>.
+Mask used to specify the states to query for. It is equivalent to the <b>mask</b> member of <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a>.

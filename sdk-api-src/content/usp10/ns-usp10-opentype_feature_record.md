@@ -27,7 +27,7 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: OPENTYPE_FEATURE_RECORD
-req.redist: Usp10.dll version 1.600 or greater onWindows XP
+req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ms.custom: 19H1
 f1_keywords:
  - opentype_feature_record

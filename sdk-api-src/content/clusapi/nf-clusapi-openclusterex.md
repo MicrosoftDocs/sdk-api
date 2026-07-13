@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterEx
 title: OpenClusterEx function (clusapi.h)
-description: Opens a connection to a cluster and returns a handle to it.
+description: Opens a connection to a cluster and returns a handle to it. (OpenClusterEx)
 helpviewer_keywords: ["OpenClusterEx","OpenClusterEx function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_EX","PCLUSAPI_OPEN_CLUSTER_EX function [Failover Cluster]","clusapi/OpenClusterEx","clusapi/PCLUSAPI_OPEN_CLUSTER_EX","mscs.openclusterex"]
 old-location: mscs\openclusterex.htm
 tech.root: MsCS

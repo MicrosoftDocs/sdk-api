@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field PE_DISPLAY
+### -field PE_DISPLAY:0
 
 Phone display has changed.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.get_Interval
 title: IRepetitionPattern::get_Interval (taskschd.h)
-description: Gets or sets the amount of time between each restart of the task.
+description: Gets or sets the amount of time between each restart of the task. (Get)
 helpviewer_keywords: ["IRepetitionPattern interface [Task Scheduler]","Interval property","IRepetitionPattern.Interval","IRepetitionPattern.get_Interval","IRepetitionPattern::Interval","IRepetitionPattern::get_Interval","IRepetitionPattern::put_Interval","Interval property [Task Scheduler]","Interval property [Task Scheduler]","IRepetitionPattern interface","get_Interval","taskschd.irepetitionpattern_interval","taskschd/IRepetitionPattern::Interval","taskschd/IRepetitionPattern::get_Interval","taskschd/IRepetitionPattern::put_Interval"]
 old-location: taskschd\irepetitionpattern_interval.htm
 tech.root: taskschd

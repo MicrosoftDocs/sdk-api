@@ -72,7 +72,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 <dt>0x00000000L</dt>
 </dl>
 </td>
@@ -84,7 +84,7 @@ The operation was successfully completed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt><b>E_OUTOFMEMORY</b></dt>
 <dt>0x8007000EL</dt>
 </dl>
 </td>
@@ -108,7 +108,7 @@ One of the parameter values is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_OBJECT_NOT_FOUND</b></b></dt>
+<dt><b>VSS_E_OBJECT_NOT_FOUND</b></dt>
 <dt>0x80042308L</dt>
 </dl>
 </td>
@@ -120,7 +120,7 @@ The <i>SnapshotSetId</i> parameter refers to an object that was not found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_PROVIDER_VETO</b></b></dt>
+<dt><b>VSS_E_PROVIDER_VETO</b></dt>
 <dt>0x80042306L</dt>
 </dl>
 </td>

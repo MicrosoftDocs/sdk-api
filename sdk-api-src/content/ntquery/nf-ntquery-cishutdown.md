@@ -55,7 +55,7 @@ Shuts down the content indexer and closes all open catalogs.
             
 <div class="alert"><b>Note</b>  This function is not supported as of Windows 8.</div><div> </div>
 
-## -parameters
+
 
 
 

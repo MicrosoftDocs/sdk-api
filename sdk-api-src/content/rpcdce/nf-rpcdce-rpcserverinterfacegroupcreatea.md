@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupCreateA
 title: RpcServerInterfaceGroupCreateA function (rpcdce.h)
-description: The RpcServerInterfaceGroupCreate function creates an RPC server interface group for the server application.
-helpviewer_keywords: ["RpcServerInterfaceGroupCreate","RpcServerInterfaceGroupCreate function [RPC]","RpcServerInterfaceGroupCreateA","RpcServerInterfaceGroupCreateW","rpc.rpcserverinterfacegroupcreate","rpcdce/RpcServerInterfaceGroupCreate","rpcdce/RpcServerInterfaceGroupCreateA","rpcdce/RpcServerInterfaceGroupCreateW"]
+description: The RpcServerInterfaceGroupCreate function creates an RPC server interface group for the server application. (RpcServerInterfaceGroupCreateA)
+helpviewer_keywords: ["RpcServerInterfaceGroupCreateA", "rpcdce/RpcServerInterfaceGroupCreateA"]
 old-location: rpc\rpcserverinterfacegroupcreate.htm
 tech.root: Rpc
 ms.assetid: 7B648221-8256-42C9-B200-0EFD3B0DBA91
@@ -128,7 +128,7 @@ RPC server activity is not always visible to the server application.  In some ca
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcServerInterfaceGroupCreate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcServerInterfaceGroupCreate as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

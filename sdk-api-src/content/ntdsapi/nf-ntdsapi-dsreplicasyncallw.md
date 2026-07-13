@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsReplicaSyncAllW
 title: DsReplicaSyncAllW function (ntdsapi.h)
-description: Synchronizes a server with all other servers, using transitive replication, as necessary.
-helpviewer_keywords: ["DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE","DS_REPSYNCALL_CROSS_SITE_BOUNDARIES","DS_REPSYNCALL_DO_NOT_SYNC","DS_REPSYNCALL_ID_SERVERS_BY_DN","DS_REPSYNCALL_NO_OPTIONS","DS_REPSYNCALL_PUSH_CHANGES_OUTWARD","DS_REPSYNCALL_SKIP_INITIAL_CHECK","DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY","DsReplicaSyncAll","DsReplicaSyncAll function [Active Directory]","DsReplicaSyncAllA","DsReplicaSyncAllW","ad.dsreplicasyncall","ntdsapi/DsReplicaSyncAll","ntdsapi/DsReplicaSyncAllA","ntdsapi/DsReplicaSyncAllW"]
+description: Synchronizes a server with all other servers, using transitive replication, as necessary. (Unicode)
+helpviewer_keywords: ["DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE", "DS_REPSYNCALL_CROSS_SITE_BOUNDARIES", "DS_REPSYNCALL_DO_NOT_SYNC", "DS_REPSYNCALL_ID_SERVERS_BY_DN", "DS_REPSYNCALL_NO_OPTIONS", "DS_REPSYNCALL_PUSH_CHANGES_OUTWARD", "DS_REPSYNCALL_SKIP_INITIAL_CHECK", "DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY", "DsReplicaSyncAll", "DsReplicaSyncAll function [Active Directory]", "DsReplicaSyncAllW", "ad.dsreplicasyncall", "ntdsapi/DsReplicaSyncAll", "ntdsapi/DsReplicaSyncAllW"]
 old-location: ad\dsreplicasyncall.htm
 tech.root: ad
 ms.assetid: 2608adde-4f18-4048-a96f-d736ff09cd4b
@@ -198,7 +198,7 @@ The <b>DsReplicaSyncAll</b> function can use the callback function pointed to by
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsReplicaSyncAll as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsReplicaSyncAll as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

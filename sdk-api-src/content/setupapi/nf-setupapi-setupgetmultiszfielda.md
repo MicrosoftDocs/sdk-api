@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetMultiSzFieldA
 title: SetupGetMultiSzFieldA function (setupapi.h)
-description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line.
-helpviewer_keywords: ["SetupGetMultiSzField","SetupGetMultiSzField function [Setup API]","SetupGetMultiSzFieldA","SetupGetMultiSzFieldW","_setupapi_setupgetmultiszfield","setup.setupgetmultiszfield","setupapi/SetupGetMultiSzField","setupapi/SetupGetMultiSzFieldA","setupapi/SetupGetMultiSzFieldW"]
+description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line. (ANSI)
+helpviewer_keywords: ["SetupGetMultiSzFieldA", "setupapi/SetupGetMultiSzFieldA"]
 old-location: setup\setupgetmultiszfield.htm
 tech.root: setup
 ms.assetid: d884037c-a8d0-47a8-8b3f-70408866be05
@@ -102,7 +102,7 @@ If this function is called with a <i>ReturnBuffer</i> of <b>NULL</b> and a <i>Re
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetMultiSzField as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetMultiSzField as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

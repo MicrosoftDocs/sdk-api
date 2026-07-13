@@ -11,7 +11,7 @@ ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_Presenter metho
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>get_Presenter</b> method retrieves the presenter object for the <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer</a> (EVR) filter.
 
 ## -parameters
 
 ### -param ppAllocPresent [out]
 
-Receives a pointer to the <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface. This interface is documented in this Media Foundation SDK documentaion. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface. This interface is documented in this Media Foundation SDK documentation. The caller must release the interface.
 
 ## -returns
 

@@ -54,26 +54,26 @@ Contains values that specify a type of <a href="/windows/desktop/api/uiautomatio
 
 ## -enum-fields
 
-### -field ConditionType_True
+### -field ConditionType_True:0
 
 A condition that is true.
 
-### -field ConditionType_False
+### -field ConditionType_False:1
 
 A condition that is false.
 
-### -field ConditionType_Property
+### -field ConditionType_Property:2
 
 A property condition.
 
-### -field ConditionType_And
+### -field ConditionType_And:3
 
 A complex condition where all the contained conditions must be true.
 
-### -field ConditionType_Or
+### -field ConditionType_Or:4
 
 A complex condition where at least one of the contained conditions must be true.
 
-### -field ConditionType_Not
+### -field ConditionType_Not:5
 
 A condition that is true if the specified conditions are not met.

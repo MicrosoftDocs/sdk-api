@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineTranslateDialogA
 title: lineTranslateDialogA function (tapi.h)
-description: The lineTranslateDialog function displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect.
-helpviewer_keywords: ["_tapi2_linetranslatedialog","lineTranslateDialog","lineTranslateDialog function [TAPI 2.2]","lineTranslateDialogA","lineTranslateDialogW","tapi/lineTranslateDialog","tapi/lineTranslateDialogA","tapi/lineTranslateDialogW","tapi2.linetranslatedialog"]
+description: The lineTranslateDialog function displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect. (lineTranslateDialogA)
+helpviewer_keywords: ["lineTranslateDialogA", "tapi/lineTranslateDialogA"]
 old-location: tapi2\linetranslatedialog.htm
 tech.root: tapi3
 ms.assetid: c9fd7abb-3b4b-442b-badc-371a12724f67
@@ -105,7 +105,7 @@ If any function related to address translation (for example,
 
 
 > [!NOTE]
-> The tapi.h header defines lineTranslateDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineTranslateDialog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

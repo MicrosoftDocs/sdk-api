@@ -1,8 +1,8 @@
 ---
 UID: NF:winver.VerLanguageNameW
 title: VerLanguageNameW function (winver.h)
-description: Retrieves a description string for the language associated with a specified binary Microsoft language identifier.
-helpviewer_keywords: ["VerLanguageName","VerLanguageName function [Menus and Other Resources]","VerLanguageNameA","VerLanguageNameW","_win32_VerLanguageName","_win32_verlanguagename_cpp","menurc.verlanguagename","winui._win32_verlanguagename","winver/VerLanguageName","winver/VerLanguageNameA","winver/VerLanguageNameW"]
+description: Retrieves a description string for the language associated with a specified binary Microsoft language identifier. (Unicode)
+helpviewer_keywords: ["VerLanguageName", "VerLanguageName function [Menus and Other Resources]", "VerLanguageNameW", "_win32_VerLanguageName", "_win32_verlanguagename_cpp", "menurc.verlanguagename", "winui._win32_verlanguagename", "winver/VerLanguageName", "winver/VerLanguageNameW"]
 old-location: menurc\verlanguagename.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verlanguagename.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - api-ms-win-core-localization-l1-2-1.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -103,7 +105,7 @@ Typically, an installation program uses this function to translate a language id
 
 
 > [!NOTE]
-> The winver.h header defines VerLanguageName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winver.h header defines VerLanguageName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

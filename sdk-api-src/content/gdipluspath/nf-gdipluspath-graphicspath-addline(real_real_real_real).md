@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLine(REAL,REAL,REAL,REAL)
 title: GraphicsPath::AddLine(IN REAL,IN REAL,IN REAL,IN REAL) (gdipluspath.h)
-description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
+description: The GraphicsPath::AddLine method adds a line to the current figure of this path. (overload 1/4)
 helpviewer_keywords: ["AddLine","AddLine method [GDI+]","AddLine method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddLine method","GraphicsPath.AddLine","GraphicsPath.AddLine(IN REAL","IN REAL","IN REAL","IN REAL)","GraphicsPath.AddLine(REAL","REAL","REAL","REAL)","GraphicsPath::AddLine","GraphicsPath::AddLine(IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_","gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_.htm
 tech.root: gdiplus

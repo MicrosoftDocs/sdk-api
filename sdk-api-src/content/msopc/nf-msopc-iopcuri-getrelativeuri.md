@@ -96,7 +96,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateUri</b> function error</b></dt>
+<dt><b>CreateUri function error</b></dt>
 </dl>
 </td>
 <td width="60%">

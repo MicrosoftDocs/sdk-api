@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.Offline
 title: IBrowserService2::Offline (shdeprecated.h)
-description: Deprecated. Checks for and updates the browser's offline status, synchronzing the state between the base class and any derived classes.
+description: Deprecated. Checks for and updates the browser's offline status, synchronizing the state between the base class and any derived classes.
 helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","Offline method","IBrowserService2.Offline","IBrowserService2::Offline","Offline","Offline method [Windows Shell]","Offline method [Windows Shell]","IBrowserService2 interface","SBSC_QUERY","SBSC_TOGGLE","shdeprecated/IBrowserService2::Offline","shell.IBrowserService2_Offline","zone_IBrowserService2_Offline"]
 old-location: shell\IBrowserService2_Offline.htm
 tech.root: shell
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Checks for and updates the browser's offline status, synchronzing the state between the base class and any derived classes.
+Deprecated. Checks for and updates the browser's offline status, synchronizing the state between the base class and any derived classes.
 
 ## -parameters
 

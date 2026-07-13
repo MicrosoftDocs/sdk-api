@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IComputerInfoChangeNotify.ComputerInfoChanged
 title: IComputerInfoChangeNotify::ComputerInfoChanged (shobjidl.h)
-description: Not supported. This interface may be absent in later versions of Windows.
+description: Not supported. This interface may be absent in later versions of Windows. (IComputerInfoChangeNotify.ComputerInfoChanged)
 helpviewer_keywords: ["ComputerInfoChanged","ComputerInfoChanged method [Windows Shell]","ComputerInfoChanged method [Windows Shell]","IComputerInfoChangeNotify interface","IComputerInfoChangeNotify interface [Windows Shell]","ComputerInfoChanged method","IComputerInfoChangeNotify.ComputerInfoChanged","IComputerInfoChangeNotify::ComputerInfoChanged","_shell_IComputerInfoChangeNotify_ComputerInfoChanged","shell.IComputerInfoChangeNotify_ComputerInfoChanged","shobjidl/IComputerInfoChangeNotify::ComputerInfoChanged"]
 old-location: shell\IComputerInfoChangeNotify_ComputerInfoChanged.htm
 tech.root: shell
@@ -54,11 +54,11 @@ Not supported.
 
  This interface may be absent in later versions of Windows.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetType","GetType method [windows Media Format]","GetType
 old-location: wmformat\iwmmediaprops_gettype.htm
 tech.root: wmformat
 ms.assetid: d878caf9-2cd2-4b1d-b204-a43fe947c4c2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetType method, IWMMediaProps.GetType, IWMMediaProps::GetType, IWMMediaPropsGetType, wmformat.iwmmediaprops_gettype, wmsdkidl/IWMMediaProps::GetType
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetType</b> method retrieves the major type of the media in the stream, input, or output described by the object to which the current <b>IWMMediaProps</b> interface belongs.
 

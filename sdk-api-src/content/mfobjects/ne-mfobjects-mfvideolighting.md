@@ -56,23 +56,23 @@ Describes the optimal lighting for viewing a particular set of video content.
 
 ## -enum-fields
 
-### -field MFVideoLighting_Unknown
+### -field MFVideoLighting_Unknown:0
 
 The optimal lighting is unknown.
 
-### -field MFVideoLighting_bright
+### -field MFVideoLighting_bright:1
 
 Bright lighting; for example, outdoors.
 
-### -field MFVideoLighting_office
+### -field MFVideoLighting_office:2
 
 Medium brightness; for example, normal office lighting.
 
-### -field MFVideoLighting_dim
+### -field MFVideoLighting_dim:3
 
 Dim; for example, a living room with a television and additional low lighting.
 
-### -field MFVideoLighting_dark
+### -field MFVideoLighting_dark:4
 
 Dark; for example, a movie theater.
 
@@ -80,7 +80,7 @@ Dark; for example, a movie theater.
 
 Reserved.
 
-### -field MFVideoLighting_ForceDWORD
+### -field MFVideoLighting_ForceDWORD:0x7fffffff
 
 Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> value.
 

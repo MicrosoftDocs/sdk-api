@@ -81,7 +81,7 @@ A handle to the new cluster or <b>NULL</b>. A non <b>NULL</b>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>NULL</b></b></dt>
+<dt><b>NULL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ Less than a majority of nodes were successfully created. For more information ab
 
 ## -remarks
 
-To create clusters that are not domain joined, an non-domain account must have permission to manage the cluster remotely.
+To create clusters that are not domain joined, a non-domain account must have permission to manage the cluster remotely.
 
 ## -see-also
 

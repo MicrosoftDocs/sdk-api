@@ -54,7 +54,7 @@ api_name:
 The <b>Image::GetFlags</b> method gets a set of flags that indicate certain attributes of this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-## -parameters
+
 
 ## -returns
 

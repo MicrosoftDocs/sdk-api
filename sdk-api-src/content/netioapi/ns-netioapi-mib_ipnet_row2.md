@@ -223,8 +223,8 @@ A set of flags that indicate whether the IP address is a router and whether the 
 
 ### -field ReachabilityTime.LastReachable
 
-<b>Type: <b>ULONG</b>
-</b>
+Type: <b>ULONG</b>
+
 The time, in
                      milliseconds, that a node assumes a neighbor is
                      reachable after having received a reachability
@@ -232,8 +232,8 @@ The time, in
 
 ### -field ReachabilityTime.LastUnreachable
 
-<b>Type: <b>ULONG</b>
-</b>
+Type: <b>ULONG</b>
+
 The time, in
                      milliseconds, that a node assumes a neighbor is
                      unreachable after not having received a reachability

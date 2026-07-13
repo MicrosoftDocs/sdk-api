@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Region.IsVisible(constPoint&,constGraphics)
 title: Region::IsVisible(IN const Point &,IN const Graphics) (gdiplusheaders.h)
-description: The Region::IsVisible method determines whether a point is inside this region.
+description: The Region::IsVisible method determines whether a point is inside this region. (overload 1/4)
 helpviewer_keywords: ["IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","Region class","Region class [GDI+]","IsVisible method","Region.IsVisible","Region.IsVisible(IN const Point &","IN const Graphics)","Region.IsVisible(const Point&","const Graphics*)","Region::IsVisible","Region::IsVisible(IN const Point &","IN const Graphics)","_gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_","gdiplus._gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Point_point_Graphics_g_.htm
 tech.root: gdiplus

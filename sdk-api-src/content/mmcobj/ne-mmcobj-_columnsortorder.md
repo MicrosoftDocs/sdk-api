@@ -60,7 +60,7 @@ Used by <a href="/windows/desktop/lwef/-search-2x-iresultsviewer-sortorderproper
 
 ## -enum-fields
 
-### -field SortOrder_Ascending
+### -field SortOrder_Ascending:0
 
 Indicates that the sort order is ascending.
 

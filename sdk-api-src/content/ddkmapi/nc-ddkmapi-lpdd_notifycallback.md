@@ -222,7 +222,7 @@ unused
 
 ### -param pContext
 
-Contains a value that the caller passed in a call to the <b>DxApi</b> function along with a specific function identifier. For more information about function identifiers, see <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>.
+Contains a value that the caller passed in a call to the <b>DxApi</b> function along with a specific function identifier. For more information about function identifiers, see <a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>.
 
 ### -param dwParam1
 
@@ -238,7 +238,7 @@ Unused.
 
 ## -remarks
 
-A video capture driver supplies a <i>NotifyCallback</i> callback function to the DirectDraw runtime when the video capture driver calls the runtime's <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function. For more information, see <a href="/windows-hardware/drivers/display/notify-callback-functions-in-a-video-capture-driver">Notify Callback Functions in a Video Capture Driver</a>.
+A video capture driver supplies a <i>NotifyCallback</i> callback function to the DirectDraw runtime when the video capture driver calls the runtime's <a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a> function. For more information, see <a href="/windows-hardware/drivers/display/notify-callback-functions-in-a-video-capture-driver">Notify Callback Functions in a Video Capture Driver</a>.
 
 ## -see-also
 
@@ -298,4 +298,4 @@ A video capture driver supplies a <i>NotifyCallback</i> callback function to the
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

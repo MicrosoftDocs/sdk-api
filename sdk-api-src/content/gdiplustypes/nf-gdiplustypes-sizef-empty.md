@@ -54,7 +54,7 @@ api_name:
 The <b>SizeF::Empty</b> method determines whether a 
 			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object is empty.
 
-## -parameters
+
 
 ## -returns
 

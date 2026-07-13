@@ -52,7 +52,7 @@ api_name:
 
 Gets a value that indicates whether the handler can be synchronized.
 
-## -parameters
+
 
 ## -returns
 

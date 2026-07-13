@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumBstr.Next
 title: IEnumBstr::Next (tapi3if.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumBstr.Next)
 helpviewer_keywords: ["IEnumBstr interface [TAPI 2.2]","Next method","IEnumBstr.Next","IEnumBstr::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumBstr interface","_tapi3_ienumbstr_next","tapi3.ienumbstr_next","tapi3if/IEnumBstr::Next"]
 old-location: tapi3\ienumbstr_next.htm
 tech.root: tapi3

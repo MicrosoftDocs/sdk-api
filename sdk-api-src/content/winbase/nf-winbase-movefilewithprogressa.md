@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.MoveFileWithProgressA
 title: MoveFileWithProgressA function (winbase.h)
-description: Moves a file or directory, including its children. You can provide a callback function that receives progress notifications.
-helpviewer_keywords: ["MOVEFILE_COPY_ALLOWED","MOVEFILE_CREATE_HARDLINK","MOVEFILE_DELAY_UNTIL_REBOOT","MOVEFILE_FAIL_IF_NOT_TRACKABLE","MOVEFILE_REPLACE_EXISTING","MOVEFILE_WRITE_THROUGH","MoveFileWithProgress","MoveFileWithProgress function [Files]","MoveFileWithProgressA","MoveFileWithProgressW","Rename file [Files]","_win32_movefilewithprogress","base.movefilewithprogress","fs.movefilewithprogress","winbase/MoveFileWithProgress","winbase/MoveFileWithProgressA","winbase/MoveFileWithProgressW"]
+description: Moves a file or directory, including its children. You can provide a callback function that receives progress notifications. (ANSI)
+helpviewer_keywords: ["MOVEFILE_COPY_ALLOWED", "MOVEFILE_CREATE_HARDLINK", "MOVEFILE_DELAY_UNTIL_REBOOT", "MOVEFILE_FAIL_IF_NOT_TRACKABLE", "MOVEFILE_REPLACE_EXISTING", "MOVEFILE_WRITE_THROUGH", "MoveFileWithProgressA", "Rename file [Files]", "winbase/MoveFileWithProgressA"]
 old-location: fs\movefilewithprogress.htm
 tech.root: fs
 ms.assetid: f490aadc-7934-498a-8131-5c1be9e6f1aa
@@ -75,13 +75,10 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b>, the
        file cannot exist on a remote share because delayed operations are performed before the network is 
        available.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileWithProgressW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpNewFileName [in, optional]
 
@@ -102,13 +99,10 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> and
        <i>lpExistingFileName</i> refers to a directory, the system removes the directory at restart 
        only if the directory is empty.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileWithProgressW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpProgressRoutine [in, optional]
 
@@ -323,7 +317,7 @@ CsvFs will do redirected IO for compressed files.
 
 
 > [!NOTE]
-> The winbase.h header defines MoveFileWithProgress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines MoveFileWithProgress as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

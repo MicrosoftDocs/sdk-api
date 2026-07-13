@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Add_ID_ExW
 title: CM_Add_ID_ExW function (cfgmgr32.h)
-description: The CM_Add_ID_Ex function appends a device ID (if not already present) to a device instance's hardware ID list or compatible ID list, on either the local or a remote machine.
-helpviewer_keywords: ["CM_Add_ID_Ex","CM_Add_ID_Ex function [Device and Driver Installation]","CM_Add_ID_ExW","cfgmgr32/CM_Add_ID_Ex","cfgmgr32/CM_Add_ID_ExW","cfgmgrfn_0c8f48d0-09e5-46f9-b638-aff20af6abd5.xml","devinst.cm_add_id_ex"]
+description: The CM_Add_ID_Ex function appends a device ID (if not already present) to a device instance's hardware ID list or compatible ID list, on either the local or a remote machine. (Unicode)
+helpviewer_keywords: ["CM_Add_ID_Ex", "CM_Add_ID_Ex function [Device and Driver Installation]", "CM_Add_ID_ExW", "cfgmgr32/CM_Add_ID_Ex", "cfgmgr32/CM_Add_ID_ExW", "cfgmgrfn_0c8f48d0-09e5-46f9-b638-aff20af6abd5.xml", "devinst.cm_add_id_ex"]
 old-location: devinst\cm_add_id_ex.htm
 tech.root: devinst
 ms.assetid: 978d650b-cbd5-4dff-bd51-7419774b8a7f

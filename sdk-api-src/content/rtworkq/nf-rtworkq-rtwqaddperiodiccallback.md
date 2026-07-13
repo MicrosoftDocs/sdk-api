@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqAddPeriodicCallback
 title: RtwqAddPeriodicCallback function (rtworkq.h)
-description: Sets a callback function to be called at a fixed interval.
+description: Sets a callback function to be called at a fixed interval. (RtwqAddPeriodicCallback)
 helpviewer_keywords: ["RtwqAddPeriodicCallback","RtwqAddPeriodicCallback function","base.rtwqaddperiodiccallback","rtworkq/RtwqAddPeriodicCallback"]
 old-location: base\rtwqaddperiodiccallback.htm
 tech.root: backup
@@ -68,4 +68,4 @@ Receives a key that can be used to cancel the callback. To cancel the callback, 
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

@@ -52,7 +52,7 @@ api_name:
 
 Uninitializes the protocol manager.
 
-## -parameters
+
 
 ## -returns
 

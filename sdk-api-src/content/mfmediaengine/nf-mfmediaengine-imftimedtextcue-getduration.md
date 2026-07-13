@@ -52,7 +52,7 @@ api_name:
 
 Gets the duration time of the cue in the track.
 
-## -parameters
+
 
 ## -returns
 

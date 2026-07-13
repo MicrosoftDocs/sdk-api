@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_MessageDrain me
 old-location: dshow\ivideowindow_put_messagedrain.htm
 tech.root: dshow
 ms.assetid: aaf8624c-b3ea-4034-845a-6cd74c725c44
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVideoWindow interface [DirectShow],put_MessageDrain method, IVideoWindow.put_MessageDrain, IVideoWindow::put_MessageDrain, IVideoWindowput_MessageDrain, control/IVideoWindow::put_MessageDrain, dshow.ivideowindow_put_messagedrain, put_MessageDrain, put_MessageDrain method [DirectShow], put_MessageDrain method [DirectShow],IVideoWindow interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_MessageDrain</code> method specifies a window to receive mouse and keyboard messages from the video window.
 

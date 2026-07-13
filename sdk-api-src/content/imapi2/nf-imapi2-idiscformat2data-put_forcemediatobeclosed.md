@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_ForceMediaToBeClosed
 title: IDiscFormat2Data::put_ForceMediaToBeClosed (imapi2.h)
-description: Determines if further additions to the file system are prevented.
+description: Determines if further additions to the file system are prevented. (Put)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_ForceMediaToBeClosed method","IDiscFormat2Data.put_ForceMediaToBeClosed","IDiscFormat2Data::put_ForceMediaToBeClosed","imapi.idiscformat2data_put_forcemediatobeclosed","imapi2/IDiscFormat2Data::put_ForceMediaToBeClosed","put_ForceMediaToBeClosed","put_ForceMediaToBeClosed method [IMAPI]","put_ForceMediaToBeClosed method [IMAPI]","IDiscFormat2Data interface"]
 old-location: imapi\idiscformat2data_put_forcemediatobeclosed.htm
 tech.root: imapi

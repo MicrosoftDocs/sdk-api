@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagAXESLISTW
 title: AXESLISTW (wingdi.h)
-description: The AXESLIST structure contains information on all the axes of a multiple master font.
+description: The AXESLIST structure contains information on all the axes of a multiple master font. (Unicode)
 helpviewer_keywords: ["*LPAXESLISTW","*PAXESLISTW","AXESLIST","AXESLIST structure [Windows GDI]","AXESLISTA","AXESLISTW","PAXESLIST","PAXESLIST structure pointer [Windows GDI]","_win32_AXESLIST_str","gdi.axeslist","wingdi/AXESLIST","wingdi/AXESLISTA","wingdi/AXESLISTW","wingdi/PAXESLIST"]
 old-location: gdi\axeslist.htm
 tech.root: gdi
@@ -83,7 +83,7 @@ The information on the axes of a multiple master font are specified by the <a hr
 
 
 > [!NOTE]
-> The wingdi.h header defines AXESLIST as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines AXESLIST as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

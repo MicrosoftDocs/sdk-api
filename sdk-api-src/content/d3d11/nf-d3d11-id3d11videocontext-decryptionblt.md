@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecryptionBlt
 title: ID3D11VideoContext::DecryptionBlt (d3d11.h)
-description: Writes encrypted data to a protected surface.
+description: Writes encrypted data to a protected surface. (ID3D11VideoContext.DecryptionBlt)
 helpviewer_keywords: ["DecryptionBlt","DecryptionBlt method [Media Foundation]","DecryptionBlt method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","DecryptionBlt method","ID3D11VideoContext.DecryptionBlt","ID3D11VideoContext::DecryptionBlt","d3d11/ID3D11VideoContext::DecryptionBlt","mf.id3d11videocontext_decryptionblt"]
 old-location: mf\id3d11videocontext_decryptionblt.htm
 tech.root: mf
@@ -99,7 +99,7 @@ For other encryption types, a different structure might be used, or the encrypti
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -122,7 +122,7 @@ The <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_encrypted_block_info">D3D
 
 This function does not honor a D3D11 predicate that may have been set.
 
-If the application uses <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11 quries</a>, this function may not be accounted for with <b>D3D11_QUERY_EVENT</b> and <b>D3D11_QUERY_TIMESTAMP</b> when using feature levels lower than 11.  <b>D3D11_QUERY_PIPELINE_STATISTICS</b> will not include this function for any feature level.
+If the application uses <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11 queries</a>, this function may not be accounted for with <b>D3D11_QUERY_EVENT</b> and <b>D3D11_QUERY_TIMESTAMP</b> when using feature levels lower than 11.  <b>D3D11_QUERY_PIPELINE_STATISTICS</b> will not include this function for any feature level.
 
 ## -see-also
 

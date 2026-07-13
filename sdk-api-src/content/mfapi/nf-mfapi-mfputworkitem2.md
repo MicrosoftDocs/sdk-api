@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFPutWorkItem2
 title: MFPutWorkItem2 function (mfapi.h)
-description: Puts an asynchronous operation on a work queue, with a specified priority.
+description: Puts an asynchronous operation on a work queue, with a specified priority. (MFPutWorkItem2)
 helpviewer_keywords: ["MFPutWorkItem2","MFPutWorkItem2 function [Media Foundation]","mf.mfputworkitem2","mfapi/MFPutWorkItem2"]
 old-location: mf\mfputworkitem2.htm
 tech.root: mf
@@ -82,7 +82,7 @@ Returns an <b>HRESULT</b> value. Possible values include the following.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ Success.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALID_WORKQUEUE</b></b></dt>
+<dt><b>MF_E_INVALID_WORKQUEUE</b></dt>
 </dl>
 </td>
 <td width="60%">

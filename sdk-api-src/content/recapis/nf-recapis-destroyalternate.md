@@ -6,7 +6,7 @@ helpviewer_keywords: ["DestroyAlternate","DestroyAlternate function [Tablet PC]"
 old-location: tablet\destroyalternate.htm
 tech.root: tablet
 ms.assetid: d355d377-2021-4e74-b3bb-2058271c9be9
-ms.date: 12/05/2018
+ms.date: 11/06/2024
 ms.keywords: DestroyAlternate, DestroyAlternate function [Tablet PC], d355d377-2021-4e74-b3bb-2058271c9be9, recapis/DestroyAlternate, tablet.destroyalternate
 req.header: recapis.h
 req.include-header: 
@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: 
+req.dll: inkobjcore.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -38,9 +38,11 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport 
 api_location:
  - recapis.h
+ - inkobjcore.dll
+ - mshwgst.dll
 api_name:
  - DestroyAlternate
 ---

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-shell-changenotify-l1-1-1.dll
  - Shell32.dll
 api_name:
  - SHChangeNotifyRegisterThread

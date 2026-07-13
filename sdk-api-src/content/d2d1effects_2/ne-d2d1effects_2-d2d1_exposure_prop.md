@@ -53,9 +53,9 @@ Identifiers for properties of the [Exposure effect](/windows/desktop/Direct2D/ex
 
 ## -enum-fields
 
-### -field D2D1_EXPOSURE_PROP_EXPOSURE_VALUE
+### -field D2D1_EXPOSURE_PROP_EXPOSURE_VALUE:0
 
 The D2D1_EXPOSURE_PROP_EXPOSURE_VALUE property is a float value that specifies how much to increase or decrease the exposure of the image. The allowed range is -2.0 to 2.0. The default value is 0.0 (no change).
 
-### -field D2D1_EXPOSURE_PROP_FORCE_DWORD
+### -field D2D1_EXPOSURE_PROP_FORCE_DWORD:0xffffffff
 

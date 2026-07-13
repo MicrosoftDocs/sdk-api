@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CharToOemBuffA
 title: CharToOemBuffA function (winuser.h)
-description: Translates a specified number of characters in a string into the OEM-defined character set.
-helpviewer_keywords: ["CharToOemBuff","CharToOemBuff function [Menus and Other Resources]","CharToOemBuffA","CharToOemBuffW","_win32_CharToOemBuff","_win32_chartooembuff_cpp","menurc.chartooembuff","winui._win32_chartooembuff","winuser/CharToOemBuff","winuser/CharToOemBuffA","winuser/CharToOemBuffW"]
+description: Translates a specified number of characters in a string into the OEM-defined character set. (ANSI)
+helpviewer_keywords: ["CharToOemBuffA", "winuser/CharToOemBuffA"]
 old-location: menurc\chartooembuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooembuff.htm
@@ -91,7 +91,7 @@ Unlike the <a href="/windows/desktop/api/winuser/nf-winuser-chartooema">CharToOe
 
 
 > [!NOTE]
-> The winuser.h header defines CharToOemBuff as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CharToOemBuff as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

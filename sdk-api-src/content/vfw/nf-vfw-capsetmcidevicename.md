@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capSetMCIDeviceName","capSetMCIDeviceName","capSet
 old-location: multimedia\capsetmcidevicename.htm
 tech.root: Multimedia
 ms.assetid: 2dabc360-7f69-4dbb-9826-0657eec265ff
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capSetMCIDeviceName, capSetMCIDeviceName, capSetMCIDeviceName macro [Windows Multimedia], multimedia.capsetmcidevicename, vfw/capSetMCIDeviceName
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capSetMCIDeviceName macro
+
+## -syntax
+
+```cpp
+BOOL capSetMCIDeviceName(
+     hwnd,
+     szName
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

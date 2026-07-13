@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_TargetState
 title: ITsSbTarget::put_TargetState (sbtsv.h)
-description: Retrieves or specifies the target state.
+description: Retrieves or specifies the target state. (ITsSbTargetEx.put_TargetState)
 helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","TargetState property","ITsSbTarget.TargetState","ITsSbTarget.put_TargetState","ITsSbTarget::TargetState","ITsSbTarget::get_TargetState","ITsSbTarget::put_TargetState","ITsSbTargetEx interface [Remote Desktop Services]","TargetState property","ITsSbTargetEx.TargetState","ITsSbTargetEx::get_TargetState","ITsSbTargetEx::put_TargetState","TargetState property [Remote Desktop Services]","TargetState property [Remote Desktop Services]","ITsSbTarget interface","TargetState property [Remote Desktop Services]","ITsSbTargetEx interface","put_TargetState","sbtsv/ITsSbTarget::TargetState","sbtsv/ITsSbTarget::get_TargetState","sbtsv/ITsSbTarget::put_TargetState","sbtsv/ITsSbTargetEx::TargetState","sbtsv/ITsSbTargetEx::get_TargetState","sbtsv/ITsSbTargetEx::put_TargetState","termserv.itssbtarget_targetstate"]
 old-location: termserv\itssbtarget_targetstate.htm
 tech.root: TermServ

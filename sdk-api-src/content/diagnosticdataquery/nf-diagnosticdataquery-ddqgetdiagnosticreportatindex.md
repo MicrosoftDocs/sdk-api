@@ -7,7 +7,7 @@ description: Fetches an error report and its information at the specified index 
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -17,7 +17,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: DiagnosticDataQuery.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -57,7 +57,7 @@ The index of the error report to fetch.
 
 ### -param report
 
-Type: **[DIAGNOSTIC_DATA_REPORT_DATA\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_data)**
+Type: **[DIAGNOSTIC_DATA_REPORT_DATA\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_report_data)**
 This output parameter is a pointer to the resource that contains information about the fetched diagnostic report.
 
 ## -returns

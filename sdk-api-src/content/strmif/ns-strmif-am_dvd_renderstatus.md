@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_DVD_RENDERSTATUS","AM_DVD_RENDERSTATUS structure [Dire
 old-location: dshow\am_dvd_renderstatus.htm
 tech.root: dshow
 ms.assetid: 6d11332e-86db-4649-af77-2906c6cbba7a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_DVD_RENDERSTATUS, AM_DVD_RENDERSTATUS structure [DirectShow], AM_DVD_RENDERSTATUSStructure, dshow.am_dvd_renderstatus, strmif/AM_DVD_RENDERSTATUS
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,6 +52,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The AM_DVD_RENDERSTATUS structure contains codes indicating the status of DVD-Video playback. These codes are used in the <a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a> method.
 
 ## -struct-fields
@@ -86,7 +88,7 @@ Number of streams that failed to render.
 
 ### -field dwFailedStreamsFlag
 
-Combination of [AM_DVD_STREAM_FLAGS](/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags) flags indicating which streams failed.
+Combination of [AM_DVD_STREAM_FLAGS](/windows/win32/api/strmif/ne-strmif-am_dvd_stream_flags) flags indicating which streams failed.
 
 ## -see-also
 

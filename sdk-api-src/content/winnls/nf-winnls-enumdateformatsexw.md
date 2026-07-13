@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumDateFormatsExW
 title: EnumDateFormatsExW function (winnls.h)
-description: Enumerates the long date, short date, or year/month formats that are available for a specified locale.Note  Any application that runs only on Windows Vista and later should use EnumDateFormatsExEx in preference to this function.
-helpviewer_keywords: ["EnumDateFormatsEx","EnumDateFormatsEx function [Internationalization for Windows Applications]","EnumDateFormatsExA","EnumDateFormatsExW","_win32_EnumDateFormatsEx","intl.enumdateformatsex","winnls/EnumDateFormatsEx","winnls/EnumDateFormatsExA","winnls/EnumDateFormatsExW"]
+description: Enumerates the long date, short date, or year/month formats that are available for a specified locale.Note  Any application that runs only on Windows Vista and later should use EnumDateFormatsExEx in preference to this function. (Unicode)
+helpviewer_keywords: ["EnumDateFormatsEx", "EnumDateFormatsEx function [Internationalization for Windows Applications]", "EnumDateFormatsExW", "_win32_EnumDateFormatsEx", "intl.enumdateformatsex", "winnls/EnumDateFormatsEx", "winnls/EnumDateFormatsExW"]
 old-location: intl\enumdateformatsex.htm
 tech.root: Intl
 ms.assetid: 523ef50f-722a-48b9-a2ce-20786b7c79e1
@@ -126,7 +126,7 @@ The application should use <b>EnumDateFormatsEx</b> (instead of <a href="/window
 
 
 > [!NOTE]
-> The winnls.h header defines EnumDateFormatsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines EnumDateFormatsEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

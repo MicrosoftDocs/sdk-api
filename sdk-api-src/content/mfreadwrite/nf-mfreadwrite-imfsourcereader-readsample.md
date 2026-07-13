@@ -76,7 +76,7 @@ The zero-based index of a stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_FIRST_VIDEO_STREAM"></a><a id="mf_source_reader_first_video_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_FIRST_VIDEO_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_FIRST_VIDEO_STREAM</b></dt>
 <dt>0xFFFFFFFC</dt>
 </dl>
 </td>
@@ -87,7 +87,7 @@ The first video stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_FIRST_AUDIO_STREAM"></a><a id="mf_source_reader_first_audio_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_FIRST_AUDIO_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_FIRST_AUDIO_STREAM</b></dt>
 <dt>0xFFFFFFFD</dt>
 </dl>
 </td>
@@ -98,7 +98,7 @@ The first audio stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_ANY_STREAM"></a><a id="mf_source_reader_any_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_ANY_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_ANY_STREAM</b></dt>
 <dt>0xFFFFFFFE</dt>
 </dl>
 </td>
@@ -141,7 +141,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,7 +152,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDREQUEST</b></b></dt>
+<dt><b>MF_E_INVALIDREQUEST</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -163,7 +163,7 @@ Invalid request.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDSTREAMNUMBER</b></b></dt>
+<dt><b>MF_E_INVALIDSTREAMNUMBER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -174,7 +174,7 @@ The <i>dwStreamIndex</i> parameter is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_NOTACCEPTING</b></b></dt>
+<dt><b>MF_E_NOTACCEPTING</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -185,7 +185,7 @@ A flush operation is pending. See <a href="/windows/desktop/api/mfreadwrite/nf-m
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">

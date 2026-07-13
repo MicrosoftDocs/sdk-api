@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FtpCreateDirectoryW
 title: FtpCreateDirectoryW function (wininet.h)
-description: Creates a new directory on the FTP server.
-helpviewer_keywords: ["FtpCreateDirectory","FtpCreateDirectory function [WinINet]","FtpCreateDirectoryA","FtpCreateDirectoryW","_inet_ftpcreatedirectory_function","wininet.ftpcreatedirectory","wininet/FtpCreateDirectory","wininet/FtpCreateDirectoryA","wininet/FtpCreateDirectoryW"]
+description: Creates a new directory on the FTP server. (Unicode)
+helpviewer_keywords: ["FtpCreateDirectory", "FtpCreateDirectory function [WinINet]", "FtpCreateDirectoryW", "_inet_ftpcreatedirectory_function", "wininet.ftpcreatedirectory", "wininet/FtpCreateDirectory", "wininet/FtpCreateDirectoryW"]
 old-location: wininet\ftpcreatedirectory.htm
 tech.root: wininet
 ms.assetid: 51a33c5b-4e82-4148-8a3f-0cf7c0a8bac0
@@ -88,7 +88,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines FtpCreateDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines FtpCreateDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -56,43 +56,43 @@ Indicates the moniker's class.
 
 ## -enum-fields
 
-### -field MKSYS_NONE
+### -field MKSYS_NONE:0
 
 Indicates a custom moniker implementation.
 
-### -field MKSYS_GENERICCOMPOSITE
+### -field MKSYS_GENERICCOMPOSITE:1
 
 Indicates the system's generic composite moniker class.
 
-### -field MKSYS_FILEMONIKER
+### -field MKSYS_FILEMONIKER:2
 
 Indicates the system's file moniker class.
 
-### -field MKSYS_ANTIMONIKER
+### -field MKSYS_ANTIMONIKER:3
 
 Indicates the system's anti-moniker class.
 
-### -field MKSYS_ITEMMONIKER
+### -field MKSYS_ITEMMONIKER:4
 
 Indicates the system's item moniker class.
 
-### -field MKSYS_POINTERMONIKER
+### -field MKSYS_POINTERMONIKER:5
 
 Indicates the system's pointer moniker class.
 
-### -field MKSYS_CLASSMONIKER
+### -field MKSYS_CLASSMONIKER:7
 
 Indicates the system's class moniker class.
 
-### -field MKSYS_OBJREFMONIKER
+### -field MKSYS_OBJREFMONIKER:8
 
 Indicates the system's OBJREF moniker class.
 
-### -field MKSYS_SESSIONMONIKER
+### -field MKSYS_SESSIONMONIKER:9
 
 Indicates the system's terminal server session moniker class.
 
-### -field MKSYS_LUAMONIKER
+### -field MKSYS_LUAMONIKER:10
 
 Indicates the system's elevation moniker class.
 

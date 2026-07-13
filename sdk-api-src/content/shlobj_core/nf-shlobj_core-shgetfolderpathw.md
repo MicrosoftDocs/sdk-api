@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathW
 title: SHGetFolderPathW function (shlobj_core.h)
-description: Deprecated.
-helpviewer_keywords: ["SHGFP_TYPE_CURRENT","SHGFP_TYPE_DEFAULT","SHGetFolderPath","SHGetFolderPath function [Windows Shell]","SHGetFolderPathA","SHGetFolderPathW","_win32_SHGetFolderPath","_win32_SHGetFolderPath_cpp","shell.SHGetFolderPath","shlobj_core/SHGetFolderPath","shlobj_core/SHGetFolderPathA","shlobj_core/SHGetFolderPathW"]
+description: Deprecated. (SHGetFolderPathW)
+helpviewer_keywords: ["SHGFP_TYPE_CURRENT", "SHGFP_TYPE_DEFAULT", "SHGetFolderPath", "SHGetFolderPath function [Windows Shell]", "SHGetFolderPathW", "_win32_SHGetFolderPath", "_win32_SHGetFolderPath_cpp", "shell.SHGetFolderPath", "shlobj_core/SHGetFolderPath", "shlobj_core/SHGetFolderPathW"]
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell32-shellfolders-l1-2-1.dll
+ - api-ms-win-shell-shellfolders-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-shell-shellfolders-l1-1-0.dll
  - KernelBase.dll
@@ -140,7 +142,7 @@ Retrieve the folder's default path.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -229,7 +231,7 @@ if(SUCCEEDED(SHGetFolderPath(NULL,
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHGetFolderPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHGetFolderPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

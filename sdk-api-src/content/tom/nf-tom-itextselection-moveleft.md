@@ -186,7 +186,7 @@ As in WordBasic, if
 				<i>Count</i> is less than zero, the meanings of left and right are interchanged, that is <code>MoveLeft (Unit, Count, Extend)</code> is equivalent to <code>MoveRight (Unit, -Count, Extend)</code>. 
 
 Similar to WordBasic and the Left Arrow key UI behavior, calling <code>MoveLeft (
-				Unit, Count) </code>on a degenerate selection moves the insertion point the specified number of 
+				Unit, Count)</code> on a degenerate selection moves the insertion point the specified number of 
 				<i>Unit</i>s. On a degenerate range, calling 
 				<code>MoveLeft(
 				Unit, Count, 1)</code> where <code>Count</code> is greater than zero  causes the range to become nondegenerate with the left end being the active end. 

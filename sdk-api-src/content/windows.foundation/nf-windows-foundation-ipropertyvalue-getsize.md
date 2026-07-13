@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSize
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetSize (windows.foundation.h)
 description: Gets the Size value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetSize","GetSize method [Windows Runtime]","GetSize method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSize method","IPropertyValue.GetSize","IPropertyValue.IPropertyValue","IPropertyValue::GetSize","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSize","winrt.ipropertyvalue_getsize"]
 old-location: winrt\ipropertyvalue_getsize.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetSize
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetSize (windows.foundation.h)
 
 
 ## -description
@@ -64,7 +64,7 @@ The value.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

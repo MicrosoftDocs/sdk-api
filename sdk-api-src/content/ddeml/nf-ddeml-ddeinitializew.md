@@ -1,8 +1,8 @@
 ---
 UID: NF:ddeml.DdeInitializeW
 title: DdeInitializeW function (ddeml.h)
-description: Registers an application with the Dynamic Data Exchange Management Library (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function.
-helpviewer_keywords: ["APPCLASS_MONITOR","APPCLASS_STANDARD","APPCMD_CLIENTONLY","APPCMD_FILTERINITS","CBF_FAIL_ADVISES","CBF_FAIL_ALLSVRXACTIONS","CBF_FAIL_CONNECTIONS","CBF_FAIL_EXECUTES","CBF_FAIL_POKES","CBF_FAIL_REQUESTS","CBF_FAIL_SELFCONNECTIONS","CBF_SKIP_ALLNOTIFICATIONS","CBF_SKIP_CONNECT_CONFIRMS","CBF_SKIP_DISCONNECTS","CBF_SKIP_REGISTRATIONS","CBF_SKIP_UNREGISTRATIONS","DdeInitialize","DdeInitialize function [Data Exchange]","DdeInitializeA","DdeInitializeW","MF_CALLBACKS","MF_CONV","MF_ERRORS","MF_HSZ_INFO","MF_LINKS","MF_POSTMSGS","MF_SENDMSGS","_win32_DdeInitialize","_win32_ddeinitialize_cpp","dataxchg.ddeinitialize","ddeml/DdeInitialize","ddeml/DdeInitializeA","ddeml/DdeInitializeW","winui._win32_ddeinitialize"]
+description: Registers an application with the Dynamic Data Exchange Management Library (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function. (Unicode)
+helpviewer_keywords: ["APPCLASS_MONITOR", "APPCLASS_STANDARD", "APPCMD_CLIENTONLY", "APPCMD_FILTERINITS", "CBF_FAIL_ADVISES", "CBF_FAIL_ALLSVRXACTIONS", "CBF_FAIL_CONNECTIONS", "CBF_FAIL_EXECUTES", "CBF_FAIL_POKES", "CBF_FAIL_REQUESTS", "CBF_FAIL_SELFCONNECTIONS", "CBF_SKIP_ALLNOTIFICATIONS", "CBF_SKIP_CONNECT_CONFIRMS", "CBF_SKIP_DISCONNECTS", "CBF_SKIP_REGISTRATIONS", "CBF_SKIP_UNREGISTRATIONS", "DdeInitialize", "DdeInitialize function [Data Exchange]", "DdeInitializeW", "MF_CALLBACKS", "MF_CONV", "MF_ERRORS", "MF_HSZ_INFO", "MF_LINKS", "MF_POSTMSGS", "MF_SENDMSGS", "_win32_DdeInitialize", "_win32_ddeinitialize_cpp", "dataxchg.ddeinitialize", "ddeml/DdeInitialize", "ddeml/DdeInitializeW", "winui._win32_ddeinitialize"]
 old-location: dataxchg\ddeinitialize.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeinitialize.htm
@@ -377,7 +377,7 @@ There is an ANSI version and a Unicode version of <b>DdeInitialize</b>. The vers
 
 
 > [!NOTE]
-> The ddeml.h header defines DdeInitialize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ddeml.h header defines DdeInitialize as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

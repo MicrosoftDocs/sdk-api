@@ -57,7 +57,7 @@ The <b>MBN_ACTIVATION_STATE</b> enumerated type indicates the current data conne
 
 ## -enum-fields
 
-### -field MBN_ACTIVATION_STATE_NONE
+### -field MBN_ACTIVATION_STATE_NONE:0
 
 The connection state is unknown.
 

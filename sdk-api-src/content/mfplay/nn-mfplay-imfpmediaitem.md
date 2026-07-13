@@ -4,7 +4,8 @@ title: IMFPMediaItem (mfplay.h)
 description: Represents a media item. (Deprecated.).
 helpviewer_keywords: ["IMFPMediaItem","IMFPMediaItem interface [Media Foundation]","IMFPMediaItem interface [Media Foundation]","described","mf.imfpmediaitem","mfplay/IMFPMediaItem"]
 old-location: mf\imfpmediaitem.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
@@ -66,10 +67,7 @@ Represents a media item. A <i>media item</i> is an abstraction for a source of m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMediaItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMediaItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFPMediaItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMediaItem</b> also has these types of members:
 
 ## -see-also
 

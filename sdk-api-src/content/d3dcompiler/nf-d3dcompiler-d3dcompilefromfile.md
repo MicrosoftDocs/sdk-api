@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcompiler.D3DCompileFromFile
 title: D3DCompileFromFile function (d3dcompiler.h)
-description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
+description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target. (D3DCompileFromFile)
 helpviewer_keywords: ["D3DCompileFromFile","D3DCompileFromFile function [HLSL]","d3dcompiler/D3DCompileFromFile","direct3dhlsl.d3dcompilefromfile"]
 old-location: direct3dhlsl\d3dcompilefromfile.htm
 tech.root: direct3dhlsl
@@ -60,7 +60,7 @@ A pointer to a constant null-terminated string that contains  the name of the fi
 
 ### -param pDefines [in, optional]
 
-An optional array of <a href="/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D_SHADER_MACRO</a> structures that define shader macros. Each macro definition contains a name and a NULL-terminated definition. If not used, set to <b>NULL</b>.
+An optional array of <a href="/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D_SHADER_MACRO</a> structures that define shader macros. Each macro definition contains a name and a null-terminated definition. If not used, set to <b>NULL</b>. The last structure in the array serves as a terminator and must have all members set to <b>NULL</b>.
 
 ### -param pInclude [in, optional]
 

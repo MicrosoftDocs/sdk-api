@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.EnumerateExcludedExtensions
 title: ISearchCatalogManager::EnumerateExcludedExtensions (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchCatalogManager.EnumerateExcludedExtensions)
 helpviewer_keywords: ["EnumerateExcludedExtensions","EnumerateExcludedExtensions method [search]","EnumerateExcludedExtensions method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","EnumerateExcludedExtensions method","ISearchCatalogManager.EnumerateExcludedExtensions","ISearchCatalogManager::EnumerateExcludedExtensions","_search_ISearchCatalogManager_EnumerateExcludedExtensions","search._search_ISearchCatalogManager_EnumerateExcludedExtensions","searchapi/ISearchCatalogManager::EnumerateExcludedExtensions"]
 old-location: search\_search_ISearchCatalogManager_EnumerateExcludedExtensions.htm
 tech.root: search
@@ -64,5 +64,5 @@ Returns the address of a pointer to an enumerated list of extensions being exclu
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

@@ -56,10 +56,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamInterleave</b> interface inherits from <b>IStream</b>. <b>IStreamInterleave</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IStreamInterleave</b> interface inherits from <b>IStream</b>. <b>IStreamInterleave</b> also has these types of members:
 
 ## -remarks
 

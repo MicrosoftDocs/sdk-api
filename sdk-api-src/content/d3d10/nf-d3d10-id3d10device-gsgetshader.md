@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSGetShader
 title: ID3D10Device::GSGetShader (d3d10.h)
-description: Get the geometry shader currently set on the device.
+description: Get the geometry shader currently set on the device. (ID3D10Device.GSGetShader)
 helpviewer_keywords: ["GSGetShader","GSGetShader method [Direct3D 10]","GSGetShader method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GSGetShader method","ID3D10Device.GSGetShader","ID3D10Device::GSGetShader","cdbac92b-f473-124b-66e8-4af3395c926a","d3d10/ID3D10Device::GSGetShader","direct3d10.id3d10device_gsgetshader"]
 old-location: direct3d10\id3d10device_gsgetshader.htm
 tech.root: direct3d10

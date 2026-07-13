@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Compare
 title: ITextRangeProvider::Compare (uiautomationcore.h)
-description: Retrieves a value that specifies whether this text range has the same endpoints as another text range.
+description: Retrieves a value that specifies whether this text range has the same endpoints as another text range. (ITextRangeProvider.Compare)
 helpviewer_keywords: ["Compare","Compare method [Windows Accessibility]","Compare method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","Compare method","ITextRangeProvider.Compare","ITextRangeProvider::Compare","uiauto.uiauto_ITextRangeProvider_Compare","uiauto_ITextRangeProvider_Compare","uiautomationcore/ITextRangeProvider::Compare","winauto.uiauto_ITextRangeProvider_Compare"]
 old-location: winauto\uiauto_ITextRangeProvider_Compare.htm
 tech.root: WinAuto
@@ -70,7 +70,7 @@ Receives <b>TRUE</b> if the text ranges have the same endpoints, or <b>FALSE</b>
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

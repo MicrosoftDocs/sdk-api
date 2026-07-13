@@ -4,7 +4,7 @@ title: PackagePathType
 description: Indicates the type of package folder to retrieve.
 helpviewer_keywords: ["PackagePathType"]
 tech.root: appxpkg
-ms.date: 01/31/2019
+ms.date: 01/27/2026
 ms.keywords: PackagePathType
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -36,9 +36,6 @@ api_name:
  - PackagePathType
 ---
 
-# PackagePathType enumeration
-
-
 ## -description
 
 Indicates the type of folder path to retrieve in a query for the path or other info about a package.
@@ -47,32 +44,62 @@ Indicates the type of folder path to retrieve in a query for the path or other i
 
 ### -field PackagePathType_Install
 
-Retrieve the package path in the original install folder for the application.
+Retrieve the package's install path.
 
 ### -field PackagePathType_Mutable
 
-Retrieve the package path in the mutable install folder for the application, if the application is declared as mutable in the package manifest.
+If the package has a [Mutable location](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectories), then retrieve the package's Mutable path.
 
 ### -field PackagePathType_Effective
 
-Retrieve the package path in the mutable folder if the application is declared as mutable in the package manifest, or in the original install folder if the application is not mutable.
+Specifies that the package path should be retrieved according to the following logic:
+
+* If the package has a User-External location, then return that path.
+* Otherwise, if the package has a Machine-External location, then return that path.
+* Otherwise, if the package has a [Mutable location](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectories), then return the Mutable path. Also see [Create a directory in any location based on packaged app directory](/windows/msix/manage/create-directory).
+* Otherwise, return the package's Install path.
+
+### -field PackagePathType_MachineExternal
+
+Specifies that the package path should be retrieved according to the following logic:
+
+* If the package has a Machine-External location, then return that path.
+* Otherwise, return an error.
+
+### -field PackagePathType_UserExternal
+
+Specifies that the package path should be retrieved according to the following logic:
+
+* If the package has a User-External location, then return that path.
+* Otherwise, return an error.
+
+### -field PackagePathType_EffectiveExternal
+
+Specifies that the package path should be retrieved according to the following logic:
+
+* If the package has a User-External location, then return that path.
+* Otherwise, if the package has a Machine-External location, then return that path.
+* Otherwise, return an error.
 
 ## -remarks
 
-An application has a mutable install folder if it uses the [windows.mutablePackageDirectories extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in its package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
+An application has a mutable install folder if it uses the [windows.mutablePackageDirectories extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectories) in its package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files.
+
+> [!IMPORTANT]
+> This feature requires the **modifiableApp** [restricted capability](/windows/uwp/packaging/app-capability-declarations). Microsoft Store policy requires packages with that capability to be certain types of desktop PC games that are published by Microsoft and its partners.
+
+A package always has an Install location. A package can also have a Mutable, Machine External and/or User External location.
+
+The concept of "effective" is the location that has the highest precedence for the package/user.
 
 ## -see-also
 
-[GetCurrentPackageInfo2](nf-appmodel-getcurrentpackageinfo2.md)
-
-
-[GetCurrentPackagePath2](nf-appmodel-getcurrentpackagepath2.md)
-
-
-[GetPackagePathByFullName2](nf-appmodel-getpackagepathbyfullname2.md)
-
-
-[GetPackageInfo2](nf-appmodel-getpackageinfo2.md)
-
-
-[GetStagedPackagePathByFullName2](nf-appmodel-getstagedpackagepathbyfullname2.md)
+* [GetCurrentPackageInfo2](nf-appmodel-getcurrentpackageinfo2.md)
+* [GetCurrentPackagePath2](nf-appmodel-getcurrentpackagepath2.md)
+* [GetPackagePathByFullName2](nf-appmodel-getpackagepathbyfullname2.md)
+* [GetPackageInfo2](nf-appmodel-getpackageinfo2.md)
+* [GetStagedPackagePathByFullName2](nf-appmodel-getstagedpackagepathbyfullname2.md)
+* [desktop6:MutablePackageDirectories](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-mutablepackagedirectories)
+* [desktop8:MutablePackageDirectories](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectories)
+* [Package.MutableLocation property](/uwp/api/windows.applicationmodel.package.mutablelocation)
+* [Package.MutablePath property](/uwp/api/windows.applicationmodel.package.mutablepath)

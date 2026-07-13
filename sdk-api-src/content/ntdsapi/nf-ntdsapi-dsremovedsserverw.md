@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsServerW
 title: DsRemoveDsServerW function (ntdsapi.h)
-description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service.
-helpviewer_keywords: ["DsRemoveDsServer","DsRemoveDsServer function [Active Directory]","DsRemoveDsServerA","DsRemoveDsServerW","_glines_dsremovedsserver","ad.dsremovedsserver","ntdsapi/DsRemoveDsServer","ntdsapi/DsRemoveDsServerA","ntdsapi/DsRemoveDsServerW"]
+description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service. (Unicode)
+helpviewer_keywords: ["DsRemoveDsServer", "DsRemoveDsServer function [Active Directory]", "DsRemoveDsServerW", "_glines_dsremovedsserver", "ad.dsremovedsserver", "ntdsapi/DsRemoveDsServer", "ntdsapi/DsRemoveDsServerW"]
 old-location: ad\dsremovedsserver.htm
 tech.root: ad
 ms.assetid: a79a2b71-10c7-495b-861f-0c7a4d86f720
@@ -101,4 +101,4 @@ Returns <b>ERROR_SUCCESS</b> if successful  or a Win32 or RPC error code if unsu
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsRemoveDsServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsRemoveDsServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiProvideQualifiedComponentExA
 title: MsiProvideQualifiedComponentExA function (msi.h)
-description: The MsiProvideQualifiedComponentEx function returns the full component path for a qualified component that is published by a product and performs any necessary installation.
-helpviewer_keywords: ["INSTALLMODE_DEFAULT","INSTALLMODE_EXISTING","INSTALLMODE_NODETECTION","INSTALLMODE_NOSOURCERESOLUTION","MsiProvideQualifiedComponentEx","MsiProvideQualifiedComponentEx function","MsiProvideQualifiedComponentExA","MsiProvideQualifiedComponentExW","_msi_msiprovidequalifiedcomponentex","combination of the REINSTALLMODE flags","msi/MsiProvideQualifiedComponentEx","msi/MsiProvideQualifiedComponentExA","msi/MsiProvideQualifiedComponentExW","setup.msiprovidequalifiedcomponentex"]
+description: The MsiProvideQualifiedComponentEx function returns the full component path for a qualified component that is published by a product and performs any necessary installation. (ANSI)
+helpviewer_keywords: ["INSTALLMODE_DEFAULT", "INSTALLMODE_EXISTING", "INSTALLMODE_NODETECTION", "INSTALLMODE_NOSOURCERESOLUTION", "MsiProvideQualifiedComponentExA", "combination of the REINSTALLMODE flags", "msi/MsiProvideQualifiedComponentExA"]
 old-location: setup\msiprovidequalifiedcomponentex.htm
 tech.root: setup
 ms.assetid: b8b567de-c21a-4e8f-840c-e71f41c11447
@@ -266,7 +266,7 @@ Features with components containing a corrupted file or the wrong version of a f
 
 
 > [!NOTE]
-> The msi.h header defines MsiProvideQualifiedComponentEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiProvideQualifiedComponentEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCmpNICA
 title: StrCmpNICA function (shlwapi.h)
-description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive.
-helpviewer_keywords: ["StrCmpNIC","StrCmpNIC function [Windows Shell]","StrCmpNICA","StrCmpNICW","_shell_StrCmpNIC","shell.StrCmpNIC","shlwapi/StrCmpNIC","shlwapi/StrCmpNICA","shlwapi/StrCmpNICW"]
+description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive. (ANSI)
+helpviewer_keywords: ["StrCmpNICA", "shlwapi/StrCmpNICA"]
 old-location: shell\StrCmpNIC.htm
 tech.root: shell
 ms.assetid: ed2e7df9-7f36-4566-8a3e-e3517307a584
@@ -98,7 +98,7 @@ For those versions of Windows that do not include <b>StrCmpNIC</b> in Shlwapi.h,
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrCmpNIC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrCmpNIC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

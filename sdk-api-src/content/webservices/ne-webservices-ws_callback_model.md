@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_14
+UID: NE:webservices.WS_CALLBACK_MODEL
 title: WS_CALLBACK_MODEL (webservices.h)
 description: Specifies the threading behavior of a callback (for example, a WS_ASYNC_CALLBACK).
 helpviewer_keywords: ["WS_CALLBACK_MODEL","WS_CALLBACK_MODEL enumeration [Web Services for Windows]","WS_LONG_CALLBACK","WS_SHORT_CALLBACK","webservices/WS_CALLBACK_MODEL","webservices/WS_LONG_CALLBACK","webservices/WS_SHORT_CALLBACK","wsw.ws_callback_model"]
@@ -54,7 +54,7 @@ Specifies the threading behavior of a callback (for example, a <a href="/windows
 
 ## -enum-fields
 
-### -field WS_SHORT_CALLBACK
+### -field WS_SHORT_CALLBACK:0
 
 This value is used to indicate that a callback is invoked short.
                 
@@ -69,7 +69,7 @@ When a callback is invoked short, it should avoid lengthy computation or lengthy
 If it is necessary to do IO within a callback that was invoked short, the best practice is
                     to use asynchronous IO (instead of synchronous IO), to avoid lengthy blocking calls.
 
-### -field WS_LONG_CALLBACK
+### -field WS_LONG_CALLBACK:1
 
 This value is used to indicate that a callback is invoked long.
                 
@@ -104,3 +104,4 @@ Whether a callback will be invoked long or short is up to the caller implementat
                 The channel and listener implementations provide a way to control this for async callbacks
                 via the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL</a> and 
                 <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL</a> properties.
+

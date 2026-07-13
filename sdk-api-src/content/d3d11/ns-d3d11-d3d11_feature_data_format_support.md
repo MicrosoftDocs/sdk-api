@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_FORMAT_SUPPORT
 title: D3D11_FEATURE_DATA_FORMAT_SUPPORT (d3d11.h)
-description: Describes which resources are supported by the current graphics driver for a given format.
+description: Describes which resources are supported by the current graphics driver for a given format. (D3D11_FEATURE_DATA_FORMAT_SUPPORT)
 helpviewer_keywords: ["D3D11_FEATURE_DATA_FORMAT_SUPPORT","D3D11_FEATURE_DATA_FORMAT_SUPPORT structure [Direct3D 11]","a30c19a0-2294-7e25-009e-e49d1560486d","d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT","direct3d11.d3d11_feature_data_format_support"]
 old-location: direct3d11\d3d11_feature_data_format_support.htm
 tech.root: direct3d11

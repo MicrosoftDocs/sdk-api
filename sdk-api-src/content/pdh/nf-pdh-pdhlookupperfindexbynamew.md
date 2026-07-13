@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhLookupPerfIndexByNameW
 title: PdhLookupPerfIndexByNameW function (pdh.h)
-description: Returns the counter index corresponding to the specified counter name.
-helpviewer_keywords: ["PdhLookupPerfIndexByName","PdhLookupPerfIndexByName function [Perf]","PdhLookupPerfIndexByNameA","PdhLookupPerfIndexByNameW","_win32_pdhlookupperfindexbyname","base.pdhlookupperfindexbyname","pdh/PdhLookupPerfIndexByName","pdh/PdhLookupPerfIndexByNameA","pdh/PdhLookupPerfIndexByNameW","perf.pdhlookupperfindexbyname"]
+description: Returns the counter index corresponding to the specified counter name. (Unicode)
+helpviewer_keywords: ["PdhLookupPerfIndexByName", "PdhLookupPerfIndexByName function [Perf]", "PdhLookupPerfIndexByNameW", "_win32_pdhlookupperfindexbyname", "base.pdhlookupperfindexbyname", "pdh/PdhLookupPerfIndexByName", "pdh/PdhLookupPerfIndexByNameW", "perf.pdhlookupperfindexbyname"]
 old-location: perf\pdhlookupperfindexbyname.htm
 tech.root: perf
 ms.assetid: b8530bf3-0a9b-49c2-9494-4dca14cd57ef
@@ -102,4 +102,4 @@ A parameter is not valid or is incorrectly formatted.
 ## -remarks
 
 > [!NOTE]
-> The pdh.h header defines PdhLookupPerfIndexByName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhLookupPerfIndexByName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

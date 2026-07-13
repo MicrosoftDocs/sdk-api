@@ -6,7 +6,7 @@ helpviewer_keywords: ["GET_X_LPARAM","GET_X_LPARAM macro [Windows and Messages]"
 old-location: winmsg\get_x_lparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\get_x_lparam.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GET_X_LPARAM, GET_X_LPARAM macro [Windows and Messages], _win32_GET_X_LPARAM, _win32_get_x_lparam_cpp, windowsx/GET_X_LPARAM, winmsg.get_x_lparam, winui._win32_get_x_lparam
 req.header: windowsx.h
 req.include-header: Windowsx.h
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # GET_X_LPARAM macro
+
+## -syntax
+
+```cpp
+int GET_X_LPARAM(
+    LPARAM lp
+);
+```
 
 ## -description
 

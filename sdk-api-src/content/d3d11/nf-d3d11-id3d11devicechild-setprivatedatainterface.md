@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceChild.SetPrivateDataInterface
 title: ID3D11DeviceChild::SetPrivateDataInterface (d3d11.h)
-description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
+description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid. (ID3D11DeviceChild.SetPrivateDataInterface)
 helpviewer_keywords: ["7c5c6bc1-57d6-90b3-4715-5f6dbe8653c2","ID3D11DeviceChild interface [Direct3D 11]","SetPrivateDataInterface method","ID3D11DeviceChild.SetPrivateDataInterface","ID3D11DeviceChild::SetPrivateDataInterface","SetPrivateDataInterface","SetPrivateDataInterface method [Direct3D 11]","SetPrivateDataInterface method [Direct3D 11]","ID3D11DeviceChild interface","d3d11/ID3D11DeviceChild::SetPrivateDataInterface","direct3d11.id3d11devicechild_setprivatedatainterface"]
 old-location: direct3d11\id3d11devicechild_setprivatedatainterface.htm
 tech.root: direct3d11
@@ -65,17 +65,13 @@ Guid associated with the interface.
 
 Type: <b>const IUnknown*</b>
 
-Pointer to an IUnknown-derived interface to be associated with the device child.
+A pointer to the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)-derived interface to be associated with the device child. Its reference count is incremented when set, and decremented when either the [ID3D11DeviceChild](/windows/win32/api/d3d11/nn-d3d11-id3d11devicechild) is destroyed, or when the data is overwritten by calling [SetPrivateData](/windows/win32/api/d3d11/nf-d3d11-id3d11devicechild-setprivatedata) or **SetPrivateDataInterface** with the same **GUID**.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the following <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
-
-## -remarks
-
-When this method is called ::addref() will be called on the IUnknown-derived interface, and when the device child is detroyed ::release() will be called on the IUnknown-derived interface.
 
 ## -see-also
 

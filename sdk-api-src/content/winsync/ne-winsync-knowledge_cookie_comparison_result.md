@@ -56,7 +56,7 @@ Represents the possible results when a knowledge cookie is compared with a knowl
 
 ## -enum-fields
 
-### -field KCCR_COOKIE_KNOWLEDGE_EQUAL
+### -field KCCR_COOKIE_KNOWLEDGE_EQUAL:0
 
 The knowledge cookie is equal to the specified knowledge.
 

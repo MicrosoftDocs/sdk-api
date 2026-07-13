@@ -1,0 +1,7 @@
+{
+  "tech": "hba",
+  "headers": [
+    "hbaapi.h"
+  ],
+  "displayName": "Host bus adapter (HBA)"
+}

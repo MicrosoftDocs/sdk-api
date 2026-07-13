@@ -54,19 +54,19 @@ Specifies values that identify the types of changes that can be made to a collec
 
 ## -enum-fields
 
-### -field UI_COLLECTIONCHANGE_INSERT
+### -field UI_COLLECTIONCHANGE_INSERT:0
 
 Insert an item into the collection.
 
-### -field UI_COLLECTIONCHANGE_REMOVE
+### -field UI_COLLECTIONCHANGE_REMOVE:1
 
 Delete an item from the collection.
 
-### -field UI_COLLECTIONCHANGE_REPLACE
+### -field UI_COLLECTIONCHANGE_REPLACE:2
 
 Replace an item in the collection.
 
-### -field UI_COLLECTIONCHANGE_RESET
+### -field UI_COLLECTIONCHANGE_RESET:3
 
 Delete all items from the collection.
 

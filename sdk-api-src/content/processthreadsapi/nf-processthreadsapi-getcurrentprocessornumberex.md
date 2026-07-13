@@ -4,7 +4,7 @@ title: GetCurrentProcessorNumberEx function (processthreadsapi.h)
 description: Retrieves the processor group and number of the logical processor in which the calling thread is running.
 helpviewer_keywords: ["GetCurrentProcessorNumberEx","GetCurrentProcessorNumberEx function","base.getcurrentprocessornumberex","processthreadsapi/GetCurrentProcessorNumberEx","winbase/GetCurrentProcessorNumberEx"]
 old-location: base\getcurrentprocessornumberex.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 46c3d3f7-7a82-40d3-8a9e-0f8d0df534f3
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessorNumberEx, GetCurrentProcessorNumberEx function, base.getcurrentprocessornumberex, processthreadsapi/GetCurrentProcessorNumberEx, winbase/GetCurrentProcessorNumberEx
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
  - KernelBase.dll
@@ -63,10 +68,6 @@ Retrieves the processor group and number of the logical processor in which the c
 ### -param ProcNumber [out]
 
 A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a> structure that receives the processor group to which the logical processor is assigned and the number of the logical processor within its group.
-
-## -returns
-
-If the function succeeds, the <i>ProcNumber</i> parameter contains the group and processor number of the processor on which the calling thread is running.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11VideoContext
 title: ID3D11VideoContext (d3d11.h)
-description: Provides the video functionality of a Microsoft Direct3D 11 device.
+description: Provides the video functionality of a Microsoft Direct3D 11 device. (ID3D11VideoContext)
 helpviewer_keywords: ["ID3D11VideoContext","ID3D11VideoContext interface [Media Foundation]","ID3D11VideoContext interface [Media Foundation]","described","d3d11/ID3D11VideoContext","mf.id3d11videocontext"]
 old-location: mf\id3d11videocontext.htm
 tech.root: mf
@@ -54,10 +54,7 @@ Provides the video functionality of a Microsoft Direct3D 11 device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoContext</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D11VideoContext</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoContext</b> also has these types of members:
 
 ## -remarks
 

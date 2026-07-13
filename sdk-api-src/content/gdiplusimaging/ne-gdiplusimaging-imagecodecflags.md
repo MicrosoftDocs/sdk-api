@@ -55,39 +55,39 @@ The <b>ImageCodecFlags</b> enumeration indicates attributes of an image codec.
 
 ## -enum-fields
 
-### -field ImageCodecFlagsEncoder
+### -field ImageCodecFlagsEncoder:0x00000001
 
 Indicates that the codec supports encoding (saving).
 
-### -field ImageCodecFlagsDecoder
+### -field ImageCodecFlagsDecoder:0x00000002
 
 Indicates that the codec supports decoding (reading).
 
-### -field ImageCodecFlagsSupportBitmap
+### -field ImageCodecFlagsSupportBitmap:0x00000004
 
 Indicates that the codec supports raster images (bitmaps).
 
-### -field ImageCodecFlagsSupportVector
+### -field ImageCodecFlagsSupportVector:0x00000008
 
 Indicates that the codec supports vector images (metafiles).
 
-### -field ImageCodecFlagsSeekableEncode
+### -field ImageCodecFlagsSeekableEncode:0x00000010
 
 Indicates that an encoder requires a seekable output stream.
 
-### -field ImageCodecFlagsBlockingDecode
+### -field ImageCodecFlagsBlockingDecode:0x00000020
 
 Indicates that a decoder has blocking behavior during the decoding process.
 
-### -field ImageCodecFlagsBuiltin
+### -field ImageCodecFlagsBuiltin:0x00010000
 
 Indicates that the codec is built in to GDI+.
 
-### -field ImageCodecFlagsSystem
+### -field ImageCodecFlagsSystem:0x00020000
 
 Not used in GDI+ version 1.0.
 
-### -field ImageCodecFlagsUser
+### -field ImageCodecFlagsUser:0x00040000
 
 Not used in GDI+ version 1.0.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_EditLabel","ListView_EditLabel macro [Windows Co
 old-location: controls\ListView_EditLabel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_editlabel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_EditLabel, ListView_EditLabel macro [Windows Controls], _win32_ListView_EditLabel, _win32_ListView_EditLabel_cpp, commctrl/ListView_EditLabel, controls.ListView_EditLabel, controls._win32_ListView_EditLabel
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # ListView_EditLabel macro
 
+## -syntax
+
+```cpp
+HWND ListView_EditLabel(
+   HWND hwndLV,
+   int  i
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the edit control that is used to edit the item text if successful, or <b>NULL</b> otherwise.
+
 
 ## -description
 
@@ -64,8 +79,7 @@ A handle to the list-view control.
 
 Type: <b>int</b>
 
-The index of the list-view item. To cancel editing, set 
-					<i>iItem</i> to -1.
+The index of the list-view item. To cancel editing, set <i>i</i> to -1.
 
 ## -remarks
 

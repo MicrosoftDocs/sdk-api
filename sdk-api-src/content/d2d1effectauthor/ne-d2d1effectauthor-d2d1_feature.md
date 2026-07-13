@@ -55,12 +55,12 @@ Defines capabilities of the underlying Direct3D device which may be queried usin
 
 ## -enum-fields
 
-### -field D2D1_FEATURE_DOUBLES
+### -field D2D1_FEATURE_DOUBLES:0
 
 A D2D1_FEATURE_DATA_DOUBLES structure should be filled.
 
-### -field D2D1_FEATURE_D3D10_X_HARDWARE_OPTIONS
+### -field D2D1_FEATURE_D3D10_X_HARDWARE_OPTIONS:1
 
 A D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS structure should be filled.
 
-### -field D2D1_FEATURE_FORCE_DWORD
+### -field D2D1_FEATURE_FORCE_DWORD:0xffffffff

@@ -1,10 +1,10 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFontIndices
 title: IDWriteFontSet1::GetFilteredFontIndices
-description: Retrives all the item indices, filtered by the given properties.
+description: Retrieves all the item indices, filtered by the given properties.
 helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFontIndices method","IDWriteFontSet1.GetFilteredFontIndices","IDWriteFontSet1::GetFilteredFontIndices","GetFilteredFontIndices","GetFilteredFontIndices method [Direct Write]","GetFilteredFontIndices method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfilteredfontindices","dwrite_3/IDWriteFontSet1::GetFilteredFontIndices"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFontIndices method, IDWriteFontSet1.GetFilteredFontIndices, IDWriteFontSet1::GetFilteredFontIndices, GetFilteredFontIndices, GetFilteredFontIndices method [Direct Write], GetFilteredFontIndices method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfontindices, dwrite_3/IDWriteFontSet1::GetFilteredFontIndices
 f1_keywords:
 - dwrite_3/IDWriteFontSet1.GetFilteredFontIndices
@@ -14,8 +14,8 @@ req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -45,7 +45,7 @@ req.redist:
 
 ## -description
 
-Retrives all the item indices, filtered by the given properties.
+Retrieves all the item indices, filtered by the given properties.
 
 ## -parameters
 

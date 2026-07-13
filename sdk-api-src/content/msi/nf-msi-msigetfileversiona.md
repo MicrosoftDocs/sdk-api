@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetFileVersionA
 title: MsiGetFileVersionA function (msi.h)
-description: The MsiGetFileVersion returns the version string and language string in the format that the installer expects to find them in the database.
-helpviewer_keywords: ["MsiGetFileVersion","MsiGetFileVersion function","MsiGetFileVersionA","MsiGetFileVersionW","_msi_msigetfileversion","msi/MsiGetFileVersion","msi/MsiGetFileVersionA","msi/MsiGetFileVersionW","setup.msigetfileversion"]
+description: The MsiGetFileVersion returns the version string and language string in the format that the installer expects to find them in the database. (ANSI)
+helpviewer_keywords: ["MsiGetFileVersionA", "msi/MsiGetFileVersionA"]
 old-location: setup\msigetfileversion.htm
 tech.root: setup
 ms.assetid: 9dd7d71e-2e76-4755-a979-f3dcdcd6ebec
@@ -167,4 +167,4 @@ Unexpected error.
 ## -remarks
 
 > [!NOTE]
-> The msi.h header defines MsiGetFileVersion as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiGetFileVersion as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

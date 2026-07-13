@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.GetUrlCacheEntryInfoExA
 title: GetUrlCacheEntryInfoExA function (wininet.h)
-description: Retrieves information on the cache entry associated with the specified URL, taking into account any redirections that are applied in offline mode by the HttpSendRequest function.
-helpviewer_keywords: ["GetUrlCacheEntryInfoEx","GetUrlCacheEntryInfoEx function [WinINet]","GetUrlCacheEntryInfoExA","GetUrlCacheEntryInfoExW","_inet_geturlcacheentryinfoex_function","wininet.geturlcacheentryinfoex","wininet/GetUrlCacheEntryInfoEx","wininet/GetUrlCacheEntryInfoExA","wininet/GetUrlCacheEntryInfoExW"]
+description: Retrieves information on the cache entry associated with the specified URL, taking into account any redirections that are applied in offline mode by the HttpSendRequest function. (ANSI)
+helpviewer_keywords: ["GetUrlCacheEntryInfoExA", "wininet/GetUrlCacheEntryInfoExA"]
 old-location: wininet\geturlcacheentryinfoex.htm
 tech.root: wininet
 ms.assetid: 3842dae9-9474-492a-83fa-29d7927dc92d
@@ -127,7 +127,7 @@ The buffer referenced by
 
 ## -remarks
 
-<b>GetUrlCacheEntryInfoEx</b> does not do any URL parsing, so a URL containing an anchor (#) will not be found in the cache, even if the resource is cached. For example, if the URL http://example.com/example.htm#sample is passed, the function returns ERROR_FILE_NOT_FOUND even if http://example.com/example.htm is in the cache.
+<b>GetUrlCacheEntryInfoEx</b> does not do any URL parsing, so a URL containing an anchor (#) will not be found in the cache, even if the resource is cached. For example, if the URL `http://example.com/example.htm#sample` is passed, the function returns ERROR_FILE_NOT_FOUND even if `http://example.com/example.htm` is in the cache.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
@@ -138,7 +138,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines GetUrlCacheEntryInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines GetUrlCacheEntryInfoEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

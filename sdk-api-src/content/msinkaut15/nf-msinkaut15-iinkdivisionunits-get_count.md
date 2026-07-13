@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnits.get_Count
 title: IInkDivisionUnits::get_Count (msinkaut15.h)
-description: Gets the number of objects or collections contained in a collection.
+description: Gets the number of objects or collections contained in a collection. (IInkDivisionUnits.get_Count)
 helpviewer_keywords: ["Count property [Tablet PC]","Count property [Tablet PC]","IInkDivisionUnits interface","IInkDivisionUnits interface [Tablet PC]","Count property","IInkDivisionUnits.Count","IInkDivisionUnits.get_Count","IInkDivisionUnits::Count","IInkDivisionUnits::get_Count","get_Count","msinkaut15/IInkDivisionUnits::Count","msinkaut15/IInkDivisionUnits::get_Count","tablet.iinkdivisionunits_count"]
 old-location: tablet\iinkdivisionunits_count.htm
 tech.root: tablet

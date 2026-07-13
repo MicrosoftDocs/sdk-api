@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.DebugServerRelease
 title: IRpcStubBuffer::DebugServerRelease (objidlbase.h)
-description: Releases an interface pointer that was previously returned by DebugServerQueryInterface.
+description: The IRpcStubBuffer::DebugServerRelease (objidlbase.h) method releases an interface pointer that was previously returned by DebugServerQueryInterface.
 helpviewer_keywords: ["DebugServerRelease","DebugServerRelease method [COM]","DebugServerRelease method [COM]","IRpcStubBuffer interface","IRpcStubBuffer interface [COM]","DebugServerRelease method","IRpcStubBuffer.DebugServerRelease","IRpcStubBuffer::DebugServerRelease","_com_irpcstubbuffer_debugserverrelease","com.irpcstubbuffer_debugserverrelease","objidlbase/IRpcStubBuffer::DebugServerRelease"]
 old-location: com\irpcstubbuffer_debugserverrelease.htm
 tech.root: com
 ms.assetid: 511f6e55-fb1d-4500-80fd-83e3fe2779d1
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: DebugServerRelease, DebugServerRelease method [COM], DebugServerRelease method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerRelease method, IRpcStubBuffer.DebugServerRelease, IRpcStubBuffer::DebugServerRelease, _com_irpcstubbuffer_debugserverrelease, com.irpcstubbuffer_debugserverrelease, objidlbase/IRpcStubBuffer::DebugServerRelease
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

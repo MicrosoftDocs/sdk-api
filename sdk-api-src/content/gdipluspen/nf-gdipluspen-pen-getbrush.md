@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::GetBrush</b> method gets the <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that is currently set for this 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
-## -parameters
+
 
 ## -returns
 

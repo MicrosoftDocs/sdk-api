@@ -4,7 +4,7 @@ title: MFCreateVideoRenderer (evr.h)
 description: Creates an instance of the enhanced video renderer (EVR) media sink.
 helpviewer_keywords: ["MFCreateVideoRenderer","MFCreateVideoRenderer callback","MFCreateVideoRenderer callback function [Media Foundation]","d0f90c42-8f08-44f4-b3da-b9f3ae4869e6","evr/MFCreateVideoRenderer","mf.mfcreatevideorenderer"]
 old-location: mf\mfcreatevideorenderer.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: d0f90c42-8f08-44f4-b3da-b9f3ae4869e6
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoRenderer, MFCreateVideoRenderer callback, MFCreateVideoRenderer callback function [Media Foundation], d0f90c42-8f08-44f4-b3da-b9f3ae4869e6, evr/MFCreateVideoRenderer, mf.mfcreatevideorenderer
@@ -43,12 +43,15 @@ api_location:
  - evr.h
 api_name:
  - MFCreateVideoRenderer
+archived: true
 ---
 
 # MFCreateVideoRenderer callback function
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Creates an instance of the enhanced video renderer (EVR) media sink.
 

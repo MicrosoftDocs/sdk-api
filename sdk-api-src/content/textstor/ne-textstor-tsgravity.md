@@ -56,11 +56,11 @@ Elements of the <b>TsGravity</b> enumeration specify the gravity type associated
 
 ## -enum-fields
 
-### -field TS_GR_BACKWARD
+### -field TS_GR_BACKWARD:0
 
 The anchor has backward gravity. For more information about anchor gravity, see <a href="/windows/desktop/TSF/ranges">Ranges</a>.
 
-### -field TS_GR_FORWARD
+### -field TS_GR_FORWARD:1
 
 The anchor has forward gravity. For more information about anchor gravity, see <a href="/windows/desktop/TSF/ranges">Ranges</a>.
 

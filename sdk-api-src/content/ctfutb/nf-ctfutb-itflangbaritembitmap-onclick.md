@@ -60,7 +60,7 @@ Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfL
 
 ### -param pt [in]
 
-Pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
 
 ### -param prcArea [in]
 
@@ -105,7 +105,7 @@ One or more parameters are invalid.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

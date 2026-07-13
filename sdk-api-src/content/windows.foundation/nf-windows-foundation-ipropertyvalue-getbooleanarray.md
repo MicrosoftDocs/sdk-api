@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetBooleanArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetBooleanArray (windows.foundation.h)
 description: Gets the array of 8-bit Boolean values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetBooleanArray","GetBooleanArray method [Windows Runtime]","GetBooleanArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetBooleanArray method","IPropertyValue.GetBooleanArray","IPropertyValue.IPropertyValue","IPropertyValue::GetBooleanArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetBooleanArray","winrt.ipropertyvalue_getbooleanarray"]
 old-location: winrt\ipropertyvalue_getbooleanarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetBooleanArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetBooleanArray (windows.foundation.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ The returned pointer must be freed using <a href="/windows/desktop/api/combaseap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

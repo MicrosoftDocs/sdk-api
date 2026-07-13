@@ -56,11 +56,11 @@ Defines the ASF stream selector options.
 
 ## -enum-fields
 
-### -field MFASF_STREAMSELECTOR_DISABLE_THINNING
+### -field MFASF_STREAMSELECTOR_DISABLE_THINNING:0x1
 
 The stream selector will not set thinning. Thinning is the process of removing samples from a stream to reduce the bit rate.
 
-### -field MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE
+### -field MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE:0x2
 
 The stream selector will use the average bit rate of streams when selecting streams.
 

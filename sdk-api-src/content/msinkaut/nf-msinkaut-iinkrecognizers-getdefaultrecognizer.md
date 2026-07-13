@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -147,7 +147,7 @@ For more information about NLS, see <a href="/windows/desktop/Intl/nls-terminolo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846803(v=VS.85).aspx">IInkRecognizers</a>
+<a href="../msinkaut/nn-msinkaut-iinkrecognizers.md">IInkRecognizers</a>
 
 
 

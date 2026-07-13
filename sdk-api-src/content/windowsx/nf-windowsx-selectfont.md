@@ -6,7 +6,7 @@ helpviewer_keywords: ["SelectFont","SelectFont macro [Windows GDI]","_win32_Sele
 old-location: gdi\selectfont.htm
 tech.root: gdi
 ms.assetid: e7c145aa-566d-4754-a4dd-a5e71e188258
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: SelectFont, SelectFont macro [Windows GDI], _win32_SelectFont, gdi.selectfont, windowsx/SelectFont
 req.header: windowsx.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # SelectFont macro
 
+## -syntax
+
+```cpp
+HFONT SelectFont(
+    HDC hdc,
+    HFONT hfont
+);
+```
+
+## -returns
+
+Type: **[HFONT](/windows/desktop/winprog/windows-data-types)**
+
+If **SelectFont** succeeds, the return value is a handle to the font object being replaced. If an error occurs, the return value is **NULL**.
+
 
 ## -description
 
@@ -68,9 +83,13 @@ After an application has finished drawing with the new font object, it should al
 
 The <b>SelectFont</b> macro is equivalent to calling <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ((HFONT) SelectObject((hdc), (HGDIOBJ)(HFONT)(hfont)))
-</code></pre>
+
+```
+
 
 ## -see-also
 

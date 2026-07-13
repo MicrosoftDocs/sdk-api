@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMGraphStreams interface [DirectShow]","SetMaxGraphLaten
 old-location: dshow\iamgraphstreams_setmaxgraphlatency.htm
 tech.root: dshow
 ms.assetid: e17723ad-20b5-4679-94a9-e32efbe82124
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMGraphStreams interface [DirectShow],SetMaxGraphLatency method, IAMGraphStreams.SetMaxGraphLatency, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetMaxGraphLatency</code> method sets the maximum latency for the graph. You must call the <a href="/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset">IAMGraphStreams::SyncUsingStreamOffset</a> method before calling this method.
 
@@ -96,7 +98,7 @@ Success
 
 At connection time, some live source filters use the maximum latency to determine the size of buffer to allocate. Calling this method before constructing the graph can help to ensure that sufficient buffers are allocated for the expected latency.
 
-If you call this method beforing calling <b>SyncUsingStreamOffset</b>, the method returns E_FAIL.
+If you call this method before calling <b>SyncUsingStreamOffset</b>, the method returns E_FAIL.
 
 ## -see-also
 

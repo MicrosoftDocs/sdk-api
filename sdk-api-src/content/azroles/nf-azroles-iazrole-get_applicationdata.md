@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.get_ApplicationData
 title: IAzRole::get_ApplicationData (azroles.h)
-description: The ApplicationData property of IAzRole sets or retrieves an opaque field that can be used by the application to store information.
+description: The ApplicationData property of IAzRole sets or retrieves an opaque field that can be used by the application to store information. (Get)
 helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzRole object","ApplicationData property [Security]","IAzRole interface","AzRole object [Security]","ApplicationData property","IAzRole interface [Security]","ApplicationData property","IAzRole.ApplicationData","IAzRole.get_ApplicationData","IAzRole::ApplicationData","IAzRole::get_ApplicationData","IAzRole::put_ApplicationData","azroles/IAzRole::ApplicationData","azroles/IAzRole::get_ApplicationData","azroles/IAzRole::put_ApplicationData","get_ApplicationData","security.iazrole_applicationdata"]
 old-location: security\iazrole_applicationdata.htm
 tech.root: security

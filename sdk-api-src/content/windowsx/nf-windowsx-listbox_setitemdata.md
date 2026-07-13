@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_SetItemData","ListBox_SetItemData macro [Windows 
 old-location: controls\ListBox_SetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_SetItemData, ListBox_SetItemData macro [Windows Controls], _win32_ListBox_SetItemData, _win32_ListBox_SetItemData_cpp, controls.ListBox_SetItemData, controls._win32_ListBox_SetItemData, windowsx/ListBox_SetItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_SetItemData macro
+
+## -syntax
+
+```cpp
+int ListBox_SetItemData(
+   HWND   hwndCtl,
+   int    index,
+   LPARAM data
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is LB_ERR.
 
 
 ## -description

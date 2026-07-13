@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkDisp
 title: IInkDisp (msinkaut.h)
-description: .
+description: . (IInkDisp)
 helpviewer_keywords: ["IInkDisp","IInkDisp interface [Tablet PC]","IInkDisp interface [Tablet PC]","described","msinkaut/IInkDisp","tablet.iinkdisp"]
 old-location: tablet\iinkdisp.htm
 tech.root: tablet
@@ -54,12 +54,7 @@ Represents the collected strokes of ink within an ink space.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDisp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDisp</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Events</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IInkDisp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 
 
 ## -see-also
 

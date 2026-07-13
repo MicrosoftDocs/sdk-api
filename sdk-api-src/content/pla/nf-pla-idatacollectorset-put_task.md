@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Task
 title: IDataCollectorSet::put_Task (pla.h)
-description: Retrieves or sets the name of a Task Scheduler job to start each time the data collector set stops, including between segments.
+description: Retrieves or sets the name of a Task Scheduler job to start each time the data collector set stops, including between segments. (Put)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Task property","IDataCollectorSet.Task","IDataCollectorSet.put_Task","IDataCollectorSet::Task","IDataCollectorSet::get_Task","IDataCollectorSet::put_Task","Task property [PLA]","Task property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_task","pla.idatacollectorset_get_task","pla/IDataCollectorSet::Task","pla/IDataCollectorSet::get_Task","pla/IDataCollectorSet::put_Task","put_Task"]
 old-location: pla\idatacollectorset_get_task.htm
 tech.root: PLA

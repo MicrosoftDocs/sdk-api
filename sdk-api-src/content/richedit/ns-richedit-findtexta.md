@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._findtext
 title: FINDTEXTA (richedit.h)
-description: Contains information about a search operation in a rich edit control. This structure is used with the EM_FINDTEXT message.
+description: Contains information about a search operation in a rich edit control. This structure is used with the EM_FINDTEXT message. (ANSI)
 helpviewer_keywords: ["FINDTEXT","FINDTEXT structure [Windows Controls]","FINDTEXTA","FINDTEXTW","_win32_FINDTEXT_str","_win32_FINDTEXT_str_cpp","controls.FINDTEXT","controls._win32_FINDTEXT_str","richedit/FINDTEXT","richedit/FINDTEXTA","richedit/FINDTEXTW"]
 old-location: controls\FINDTEXT.htm
 tech.root: Controls
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about a search operation in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/f19e19a0-d8dd-4d31-b76d-f1f09577dd2d">EM_FINDTEXT</a> message.
+Contains information about a search operation in a rich edit control. This structure is used with the <a href="/windows/win32/controls/em-findtext">EM_FINDTEXT</a> message.
 
 ## -struct-fields
 
@@ -76,11 +76,11 @@ The null-terminated string used in the find operation.
 
 
 
-<a href="https://msdn.microsoft.com/f19e19a0-d8dd-4d31-b76d-f1f09577dd2d">EM_FINDTEXT</a>
+<a href="/windows/win32/controls/em-findtext">EM_FINDTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c1579f5-3b37-4e28-86a2-f4e03e195f38">EM_FINDTEXTW</a>
+<a href="/windows/win32/controls/em-findtextw">EM_FINDTEXTW</a>
 
 
 
@@ -89,4 +89,4 @@ The null-terminated string used in the find operation.
 ## -remarks
 
 > [!NOTE]
-> The richedit.h header defines FINDTEXT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The richedit.h header defines FINDTEXT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

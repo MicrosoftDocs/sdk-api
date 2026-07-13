@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetCheckConnectionW
 title: InternetCheckConnectionW function (wininet.h)
-description: Allows an application to check if a connection to the Internet can be established.
-helpviewer_keywords: ["InternetCheckConnection","InternetCheckConnection function [WinINet]","InternetCheckConnectionA","InternetCheckConnectionW","_inet_internetcheckconnection_function","wininet.internetcheckconnection","wininet/InternetCheckConnection","wininet/InternetCheckConnectionA","wininet/InternetCheckConnectionW"]
+description: Allows an application to check if a connection to the Internet can be established. (Unicode)
+helpviewer_keywords: ["InternetCheckConnection", "InternetCheckConnection function [WinINet]", "InternetCheckConnectionW", "_inet_internetcheckconnection_function", "wininet.internetcheckconnection", "wininet/InternetCheckConnection", "wininet/InternetCheckConnectionW"]
 old-location: wininet\internetcheckconnection.htm
 tech.root: wininet
 ms.assetid: 4666e4ee-057e-452d-ac2c-d03321a0073f
@@ -95,7 +95,7 @@ Returns <b>TRUE</b> if a connection is made successfully, or <b>FALSE</b> otherw
 
 
 > [!NOTE]
-> The wininet.h header defines InternetCheckConnection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetCheckConnection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

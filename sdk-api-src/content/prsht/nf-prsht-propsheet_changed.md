@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_Changed","PropSheet_Changed macro [Windows Cont
 old-location: controls\PropSheet_Changed.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_changed.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_Changed, PropSheet_Changed macro [Windows Controls], _win32_PropSheet_Changed, _win32_PropSheet_Changed_cpp, controls.PropSheet_Changed, controls._win32_PropSheet_Changed, prsht/PropSheet_Changed
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_Changed macro
+
+## -syntax
+
+```cpp
+BOOL PropSheet_Changed(
+   HWND hDlg,
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

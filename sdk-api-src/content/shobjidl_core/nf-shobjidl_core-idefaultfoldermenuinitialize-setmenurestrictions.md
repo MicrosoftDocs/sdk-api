@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.SetMenuRestrictions
 title: IDefaultFolderMenuInitialize::SetMenuRestrictions (shobjidl_core.h)
-description: .
+description: . (IDefaultFolderMenuInitialize.SetMenuRestrictions)
 helpviewer_keywords: ["IDefaultFolderMenuInitialize interface [Windows Shell]","SetMenuRestrictions method","IDefaultFolderMenuInitialize.SetMenuRestrictions","IDefaultFolderMenuInitialize::SetMenuRestrictions","SetMenuRestrictions","SetMenuRestrictions method [Windows Shell]","SetMenuRestrictions method [Windows Shell]","IDefaultFolderMenuInitialize interface","shell.IDefaultFolderMenuInitialize_SetMenuRestrictions","shobjidl_core/IDefaultFolderMenuInitialize::SetMenuRestrictions"]
 old-location: shell\IDefaultFolderMenuInitialize_SetMenuRestrictions.htm
 tech.root: shell
@@ -60,7 +60,7 @@ A bitwise combination of the [DEFAULT_FOLDER_MENU_RESTRICTIONS](ne-shobjidl_core
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

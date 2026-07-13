@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.ImportSecurityContextA
 title: ImportSecurityContextA function (sspi.h)
-description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext.
-helpviewer_keywords: ["ImportSecurityContext","ImportSecurityContext function [Security]","ImportSecurityContextA","ImportSecurityContextW","_ssp_importsecuritycontext","security.importsecuritycontext","sspi/ImportSecurityContext","sspi/ImportSecurityContextA","sspi/ImportSecurityContextW"]
+description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext. (ANSI)
+helpviewer_keywords: ["ImportSecurityContextA", "sspi/ImportSecurityContextA"]
 old-location: security\importsecuritycontext.htm
 tech.root: security
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
@@ -156,4 +156,4 @@ An error occurred that did not map to an SSPI error code.
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines ImportSecurityContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines ImportSecurityContext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileFromTokenW
 title: SymGetSourceFileFromTokenW function (dbghelp.h)
-description: Retrieves the source file associated with the specified token from the source server.
+description: The SymGetSourceFileFromTokenW (Unicode) function retrieves the source file associated with the specified token from the source server.
 helpviewer_keywords: ["SymGetSourceFileFromToken","SymGetSourceFileFromToken function","SymGetSourceFileFromTokenW","base.symgetsourcefilefromtoken","dbghelp/SymGetSourceFileFromToken","dbghelp/SymGetSourceFileFromTokenW"]
 old-location: base\symgetsourcefilefromtoken.htm
 tech.root: Debug
 ms.assetid: 67a282c2-99f8-4e35-9323-a81327404d1a
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
 req.header: dbghelp.h
 req.include-header: 
@@ -97,7 +97,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymGetSourceFileFromToken as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymGetSourceFileFromToken as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

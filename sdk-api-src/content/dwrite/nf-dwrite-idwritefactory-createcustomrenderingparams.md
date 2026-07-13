@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateCustomRenderingParams
 title: IDWriteFactory::CreateCustomRenderingParams (dwrite.h)
-description: Creates a rendering parameters object with the specified properties.
+description: Creates a rendering parameters object with the specified properties. (IDWriteFactory.CreateCustomRenderingParams)
 helpviewer_keywords: ["CreateCustomRenderingParams","CreateCustomRenderingParams method [Direct Write]","CreateCustomRenderingParams method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateCustomRenderingParams method","IDWriteFactory.CreateCustomRenderingParams","IDWriteFactory::CreateCustomRenderingParams","directwrite.IDWriteFactory_CreateCustomRenderingParams","dwrite/IDWriteFactory::CreateCustomRenderingParams"]
 old-location: directwrite\IDWriteFactory_CreateCustomRenderingParams.htm
 tech.root: DirectWrite
@@ -94,7 +94,7 @@ When this method returns, contains an address of a pointer to the newly created 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

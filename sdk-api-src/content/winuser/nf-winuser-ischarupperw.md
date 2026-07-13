@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.IsCharUpperW
 title: IsCharUpperW function (winuser.h)
-description: Determines whether a character is uppercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
-helpviewer_keywords: ["IsCharUpper","IsCharUpper function [Menus and Other Resources]","IsCharUpperA","IsCharUpperW","_win32_IsCharUpper","_win32_ischarupper_cpp","menurc.ischarupper","winui._win32_ischarupper","winuser/IsCharUpper","winuser/IsCharUpperA","winuser/IsCharUpperW"]
+description: Determines whether a character is uppercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. (Unicode)
+helpviewer_keywords: ["IsCharUpper", "IsCharUpper function [Menus and Other Resources]", "IsCharUpperW", "_win32_IsCharUpper", "_win32_ischarupper_cpp", "menurc.ischarupper", "winui._win32_ischarupper", "winuser/IsCharUpper", "winuser/IsCharUpperW"]
 old-location: menurc\ischarupper.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischarupper.htm
@@ -95,4 +95,4 @@ If the character is not uppercase, the return value is zero. To get extended err
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines IsCharUpper as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines IsCharUpper as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

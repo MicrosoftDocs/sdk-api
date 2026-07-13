@@ -52,7 +52,7 @@ api_name:
 
  Gets the  current reading direction for text in a paragraph.
 
-## -parameters
+
 
 ## -returns
 

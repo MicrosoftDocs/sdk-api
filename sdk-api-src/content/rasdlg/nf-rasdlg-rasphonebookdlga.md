@@ -1,8 +1,8 @@
 ---
 UID: NF:rasdlg.RasPhonebookDlgA
 title: RasPhonebookDlgA function (rasdlg.h)
-description: The RasPhonebookDlg function displays the main Dial-Up Networking dialog box.
-helpviewer_keywords: ["RasPhonebookDlg","RasPhonebookDlg function [RAS]","RasPhonebookDlgA","RasPhonebookDlgW","_ras_rasphonebookdlg","rasdlg/RasPhonebookDlg","rasdlg/RasPhonebookDlgA","rasdlg/RasPhonebookDlgW","rras.rasphonebookdlg"]
+description: The RasPhonebookDlg function displays the main Dial-Up Networking dialog box. (ANSI)
+helpviewer_keywords: ["RasPhonebookDlgA", "rasdlg/RasPhonebookDlgA"]
 old-location: rras\rasphonebookdlg.htm
 tech.root: RRAS
 ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5
@@ -145,4 +145,4 @@ int main (){
 ## -remarks
 
 > [!NOTE]
-> The rasdlg.h header defines RasPhonebookDlg as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rasdlg.h header defines RasPhonebookDlg as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IPersistSerializedPropStorage2
 title: IPersistSerializedPropStorage2 (propsys.h)
-description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
+description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance. (IPersistSerializedPropStorage2)
 helpviewer_keywords: ["IPersistSerializedPropStorage2","IPersistSerializedPropStorage2 interface [Windows Shell]","IPersistSerializedPropStorage2 interface [Windows Shell]","described","_shell_IPersistSerializedPropStorage2","propsys/IPersistSerializedPropStorage2","shell.IPersistSerializedPropStorage2"]
 old-location: shell\IPersistSerializedPropStorage2.htm
 tech.root: shell
@@ -54,10 +54,7 @@ Exposes methods to persist serialized property storage data for later use and to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistSerializedPropStorage2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>. <b>IPersistSerializedPropStorage2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPersistSerializedPropStorage2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>. <b>IPersistSerializedPropStorage2</b> also has these types of members:
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 Notifies an XAudio2 voice that no more buffers are coming after the last one that is currently in its queue.
 
-## -parameters
+
 
 ## -returns
 

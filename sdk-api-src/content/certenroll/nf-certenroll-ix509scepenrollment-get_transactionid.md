@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_TransactionId
 title: IX509SCEPEnrollment::get_TransactionId (certenroll.h)
-description: Gets or sets the transaction id for the request.
+description: Gets or sets the transaction id for the request. (Get)
 helpviewer_keywords: ["IX509SCEPEnrollment interface [Security]","TransactionId property","IX509SCEPEnrollment.TransactionId","IX509SCEPEnrollment.get_TransactionId","IX509SCEPEnrollment::TransactionId","IX509SCEPEnrollment::get_TransactionId","IX509SCEPEnrollment::put_TransactionId","TransactionId property [Security]","TransactionId property [Security]","IX509SCEPEnrollment interface","certenroll/IX509SCEPEnrollment::TransactionId","certenroll/IX509SCEPEnrollment::get_TransactionId","certenroll/IX509SCEPEnrollment::put_TransactionId","get_TransactionId","security.ix509scepenrollment_transactionid"]
 old-location: security\ix509scepenrollment_transactionid.htm
 tech.root: security

@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardReadCacheW
 title: SCardReadCacheW function (winscard.h)
-description: Retrieves the value portion of a name-value pair from the global cache maintained by the Smart Card Resource Manager.
-helpviewer_keywords: ["SCardReadCache","SCardReadCache function [Security]","SCardReadCacheA","SCardReadCacheW","security.scardreadcache","winscard/SCardReadCache","winscard/SCardReadCacheA","winscard/SCardReadCacheW"]
+description: Retrieves the value portion of a name-value pair from the global cache maintained by the Smart Card Resource Manager. (Unicode)
+helpviewer_keywords: ["SCardReadCache", "SCardReadCache function [Security]", "SCardReadCacheW", "security.scardreadcache", "winscard/SCardReadCache", "winscard/SCardReadCacheW"]
 old-location: security\scardreadcache.htm
 tech.root: security
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d
@@ -125,4 +125,4 @@ The specified name-value pair was older than requested and has been deleted from
 ## -remarks
 
 > [!NOTE]
-> The winscard.h header defines SCardReadCache as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardReadCache as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

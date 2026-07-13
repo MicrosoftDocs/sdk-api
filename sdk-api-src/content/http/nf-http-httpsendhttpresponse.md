@@ -126,7 +126,7 @@ When this flag is set, it should also be used consistently in calls to the <a hr
 </dl>
 </td>
 <td width="60%">
-Enables the TCP nagling algorithm for this  send only.
+Enables the TCP nagling algorithm for this send only.
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>This flag is not supported.
 
@@ -141,7 +141,7 @@ Enables the TCP nagling algorithm for this  send only.
 Specifies that for a range request, the full response content is passed and the caller wants the HTTP API to process ranges appropriately.
 
 
-<div class="alert"><b>Note</b>  This flag is only supported for responses to HTTP <i>GET</i> requests and offers a limited subset of functionality. Applications that require full range processing should perform it in user mode and not rely on HTTP.sys. It's usage is discouraged.</div>
+<div class="alert"><b>Note</b>  This flag is only supported for responses to HTTP <i>GET</i> requests and offers a limited subset of functionality. Applications that require full range processing should perform it in user mode and not rely on HTTP.sys. Its usage is discouraged.</div>
 <div> </div>
 Windows Server 2008 R2 and Windows 7 or later.
 

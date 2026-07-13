@@ -89,7 +89,7 @@ Type: <b>BOOL</b>
 
 Subclass callbacks are identified by the combination of the callback address and the caller-defined subclass ID. If the callback address and ID pair have not yet been installed, then this function installs the subclass. If the pair has already been installed, then this function just updates the reference data.
 
-Each callback can store a single <b>DWORD</b> of reference data, which is passed to the callback function when it is called to filter messages. No reference counting is performed for the callback; it may repeatedly call <b>SetWindowSubclass</b> to alter the value of its reference data element.
+Each callback can store a single <b>DWORD_PTR</b> of reference data, which is passed to the callback function when it is called to filter messages. No reference counting is performed for the callback; it may repeatedly call <b>SetWindowSubclass</b> to alter the value of its reference data element.
 
 <div class="alert"><b>Warning</b>  You cannot use the subclassing helper functions to subclass a window across threads.</div>
 <div> </div>

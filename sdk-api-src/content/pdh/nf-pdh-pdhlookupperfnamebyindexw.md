@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhLookupPerfNameByIndexW
 title: PdhLookupPerfNameByIndexW function (pdh.h)
-description: Returns the performance object name or counter name corresponding to the specified index.
-helpviewer_keywords: ["PdhLookupPerfNameByIndex","PdhLookupPerfNameByIndex function [Perf]","PdhLookupPerfNameByIndexA","PdhLookupPerfNameByIndexW","_win32_pdhlookupperfnamebyindex","base.pdhlookupperfnamebyindex","pdh/PdhLookupPerfNameByIndex","pdh/PdhLookupPerfNameByIndexA","pdh/PdhLookupPerfNameByIndexW","perf.pdhlookupperfnamebyindex"]
+description: Returns the performance object name or counter name corresponding to the specified index. (Unicode)
+helpviewer_keywords: ["PdhLookupPerfNameByIndex", "PdhLookupPerfNameByIndex function [Perf]", "PdhLookupPerfNameByIndexW", "_win32_pdhlookupperfnamebyindex", "base.pdhlookupperfnamebyindex", "pdh/PdhLookupPerfNameByIndex", "pdh/PdhLookupPerfNameByIndexW", "perf.pdhlookupperfnamebyindex"]
 old-location: perf\pdhlookupperfnamebyindex.htm
 tech.root: perf
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e
@@ -116,7 +116,7 @@ You should call this function twice, the first time to get the required buffer s
 
 <b>Windows XP:  </b>You must specify a buffer and buffer size. The function sets <i>pcchNameBufferSize</i> to either the required size or the size of the buffer that was used. If the buffer is too small, the function returns PDH_INSUFFICIENT_BUFFER instead of PDH_MORE_DATA. The maximum string size in bytes is PDH_MAX_COUNTER_NAME * sizeof(TCHAR).
 
-The index value that you specify must match one of the index values associated with the objects or counters that were loaded on the computer. The index/name value pairs are stored in the <b>Counters</b> registry value in the following registry location.<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The index value that you specify must match one of the index values associated with the objects or counters that were loaded on the computer. The index/name value pairs are stored in the <b>Counters</b> registry value in the following registry location.<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>\SOFTWARE</b>
       <b>\Microsoft</b>
          <b>\Windows NT</b>
@@ -125,8 +125,8 @@ The index value that you specify must match one of the index values associated w
                   <b>Last Counter<i> = highest counter index</i></b>
                   <b>Last Help<i> = highest help index</i></b>
                   <b>\009</b>
-                     <b>Counters<b> = 2 System 4 Memory...</b></b>
-                     <b>Help<b> = 3 The System Object Type...</b></b>
+                     <b>Counters = 2 System 4 Memory...</b>
+                     <b>Help = 3 The System Object Type...</b>
                   <i>\supported language, other than English</i>
                      <b>Counters = ...</b>
                      <b>Help = ...</b></pre>
@@ -137,7 +137,7 @@ The index value that you specify must match one of the index values associated w
 
 
 > [!NOTE]
-> The pdh.h header defines PdhLookupPerfNameByIndex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhLookupPerfNameByIndex as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

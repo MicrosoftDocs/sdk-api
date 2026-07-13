@@ -1,18 +1,18 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.CreateFontFromLOGFONT
 title: IDWriteGdiInterop1::CreateFontFromLOGFONT (dwrite_3.h)
-description: Creates a font object that matches the properties specified by the LOGFONT structure.
+description: Creates a font object that matches the properties specified by the LOGFONT structure. (IDWriteGdiInterop1.CreateFontFromLOGFONT)
 helpviewer_keywords: ["CreateFontFromLOGFONT","CreateFontFromLOGFONT method [Direct Write]","CreateFontFromLOGFONT method [Direct Write]","IDWriteGdiInterop1 interface","IDWriteGdiInterop1 interface [Direct Write]","CreateFontFromLOGFONT method","IDWriteGdiInterop1.CreateFontFromLOGFONT","IDWriteGdiInterop1::CreateFontFromLOGFONT","directwrite.idwritegdiinterop1_createfontfromlogfont","dwrite_3/IDWriteGdiInterop1::CreateFontFromLOGFONT"]
 old-location: directwrite\idwritegdiinterop1_createfontfromlogfont.htm
 tech.root: DirectWrite
 ms.assetid: AA28755A-C2E3-4177-A5DD-61D9809A9D0E
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: CreateFontFromLOGFONT, CreateFontFromLOGFONT method [Direct Write], CreateFontFromLOGFONT method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],CreateFontFromLOGFONT method, IDWriteGdiInterop1.CreateFontFromLOGFONT, IDWriteGdiInterop1::CreateFontFromLOGFONT, directwrite.idwritegdiinterop1_createfontfromlogfont, dwrite_3/IDWriteGdiInterop1::CreateFontFromLOGFONT
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -76,7 +76,7 @@ Receives a newly created font object if successful, or NULL in case of error.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

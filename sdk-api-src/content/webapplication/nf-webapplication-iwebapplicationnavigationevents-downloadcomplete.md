@@ -52,7 +52,7 @@ api_name:
 
 Download of a page has completed.
 
-## -parameters
+
 
 ## -returns
 

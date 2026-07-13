@@ -1,8 +1,8 @@
 ---
 UID: NF:cryptdlg.CertViewPropertiesA
 title: CertViewPropertiesA function (cryptdlg.h)
-description: The CertViewProperties function displays the properties for a certificate in a user interface (UI) dialog box. This function has no associated import library. You must use the LoadLibrary and GetProcAddress functions to dynamically link to CryptDlg.dll.
-helpviewer_keywords: ["CertViewProperties","CertViewProperties function [Security]","CertViewPropertiesA","CertViewPropertiesW","cryptdlg/CertViewProperties","cryptdlg/CertViewPropertiesA","cryptdlg/CertViewPropertiesW","security.certviewproperties"]
+description: The CertViewProperties function displays the properties for a certificate in a user interface (UI) dialog box. This function has no associated import library. You must use the LoadLibrary and GetProcAddress functions to dynamically link to CryptDlg.dll. (ANSI)
+helpviewer_keywords: ["CertViewPropertiesA", "cryptdlg/CertViewPropertiesA"]
 old-location: security\certviewproperties.htm
 tech.root: security
 ms.assetid: 5df840ab-fff6-4c7e-b799-51e4de4c644a
@@ -70,4 +70,4 @@ The return value is <b>TRUE</b> if the function is successful; <b>FALSE</b> if t
 ## -remarks
 
 > [!NOTE]
-> The cryptdlg.h header defines CertViewProperties as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cryptdlg.h header defines CertViewProperties as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

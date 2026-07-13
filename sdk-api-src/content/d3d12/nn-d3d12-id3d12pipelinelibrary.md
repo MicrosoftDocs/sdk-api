@@ -54,10 +54,7 @@ Manages a pipeline library, in particular loading and retrieving individual PSOs
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12PipelineLibrary</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>. <b>ID3D12PipelineLibrary</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D12PipelineLibrary</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>. <b>ID3D12PipelineLibrary</b> also has these types of members:
 
 ## -remarks
 

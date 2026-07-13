@@ -1,12 +1,13 @@
 ---
 UID: NF:winuser.GetMessageW
 title: GetMessageW function (winuser.h)
-description: Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval.
-helpviewer_keywords: ["GetMessage","GetMessage function [Windows and Messages]","GetMessageA","GetMessageW","_win32_GetMessage","_win32_getmessage_cpp","winmsg.getmessage","winui._win32_getmessage","winuser/GetMessage","winuser/GetMessageA","winuser/GetMessageW"]
+description: The GetMessageW function (Unicode) retrieves a message from the calling thread's message queue. (GetMessageW)
+helpviewer_keywords: ["GetMessage", "GetMessage function [Windows and Messages]", "GetMessageW", "_win32_GetMessage", "_win32_getmessage_cpp", "winmsg.getmessage", "winui._win32_getmessage", "winuser/GetMessage", "winuser/GetMessageW"]
+
 old-location: winmsg\getmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessage.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: GetMessage, GetMessage function [Windows and Messages], GetMessageA, GetMessageW, _win32_GetMessage, _win32_getmessage_cpp, winmsg.getmessage, winui._win32_getmessage, winuser/GetMessage, winuser/GetMessageA, winuser/GetMessageW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -40,6 +41,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-message-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-message-l1-1-0.dll
  - ie_shims.dll
@@ -186,7 +189,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-
 
 
 > [!NOTE]
-> The winuser.h header defines GetMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -60,7 +60,7 @@ Specifies the property identifier. This can be a custom identifier or one of the
 
 ### -param pdw [out]
 
-Pointer to a <b>DWORD</b> that recevies the property UI status. This can be zero or the following value.
+Pointer to a <b>DWORD</b> that receives the property UI status. This can be zero or the following value.
 
 <table>
 <tr>

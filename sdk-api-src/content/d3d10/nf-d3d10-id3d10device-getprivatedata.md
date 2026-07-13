@@ -81,9 +81,7 @@ This method returns one of the following <a href="/windows/desktop/direct3d10/d3
 
 ## -remarks
 
-The data stored in the device is set with <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setprivatedata">ID3D10Device::SetPrivateData</a>. 
-
-The data retrieved and the guid will typically be application-defined.
+If the data returned is a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or one of its derivative classes, which was previously set by **SetPrivateDataInterface**, that interface will have its reference count incremented before the private data is returned.
 
 ## -see-also
 

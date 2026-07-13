@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Id
 title: IInkCursor::get_Id (msinkaut.h)
-description: Gets the identifier of an object.
+description: Gets the identifier of an object. (IInkCursor.get_ID)
 helpviewer_keywords: ["ID property [Tablet PC]","ID property [Tablet PC]","IInkCursor interface","IInkCursor interface [Tablet PC]","ID property","IInkCursor.ID","IInkCursor.get_ID","IInkCursor.get_Id","IInkCursor::ID","IInkCursor::get_ID","IInkCursor::get_Id","get_Id","msinkaut/IInkCursor::ID","msinkaut/IInkCursor::get_ID","tablet.iinkcursor_id"]
 old-location: tablet\iinkcursor_id.htm
 tech.root: tablet
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows

@@ -57,7 +57,7 @@ Retrieves the query list stored in the WMI filter.
 
 ### -param pQryList [out]
 
-Pointer to a <b>SAFEARRAY</b> of <b>VARIANT</b> members that contain the <b>BSTR </b>strings representing the queries. Each  <b>BSTR</b> string contains the query string along with the namespace information for that query.
+Pointer to a <b>SAFEARRAY</b> of <b>VARIANT</b> members that contain the <b>BSTR </b> strings representing the queries. Each  <b>BSTR</b> string contains the query string along with the namespace information for that query.
 
 ## -returns
 

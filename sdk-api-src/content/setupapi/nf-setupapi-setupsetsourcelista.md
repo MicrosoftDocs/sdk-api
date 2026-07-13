@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupSetSourceListA
 title: SetupSetSourceListA function (setupapi.h)
-description: The SetupSetSourceList function allows the caller to set the list of installation sources for either the current user or the system (common to all users).
-helpviewer_keywords: ["SetupSetSourceList","SetupSetSourceList function [Setup API]","SetupSetSourceListA","SetupSetSourceListW","_setupapi_setupsetsourcelist","setup.setupsetsourcelist","setupapi/SetupSetSourceList","setupapi/SetupSetSourceListA","setupapi/SetupSetSourceListW"]
+description: The SetupSetSourceList function allows the caller to set the list of installation sources for either the current user or the system (common to all users). (ANSI)
+helpviewer_keywords: ["SetupSetSourceListA", "setupapi/SetupSetSourceListA"]
 old-location: setup\setupsetsourcelist.htm
 tech.root: setup
 ms.assetid: 6a37a56c-ae44-4a57-9307-90efcf025d1a
@@ -139,4 +139,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The setupapi.h header defines SetupSetSourceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupSetSourceList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawRectangles(constPen,constRectF,INT)
 title: Graphics::DrawRectangles
-description: The Graphics::DrawRectangles method draws a sequence of rectangles.
+description: The Graphics::DrawRectangles method draws a sequence of rectangles. (overload 2/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawRectangles"]
 ms.assetid: d8a6725b-6382-48a4-b83b-0a61614af6c9

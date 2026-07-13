@@ -103,7 +103,7 @@ This is a keyboard layout.
 
 ### -param hkl [in]
 
-[in] Specifies the keyboard layout handle of this profile. If <i>dwProfileType</i> is TF_PROFILETYPE_ INPUTPROCESSOR, this is <b>NULL</b>.
+[in] Specifies the keyboard layout handle of this profile. If <i>dwProfileType</i> is TF_PROFILETYPE_INPUTPROCESSOR, this is <b>NULL</b>.
 
 ### -param dwFlags [in]
 

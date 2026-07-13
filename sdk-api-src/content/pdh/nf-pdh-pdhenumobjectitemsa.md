@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhEnumObjectItemsA
 title: PdhEnumObjectItemsA function (pdh.h)
-description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectItemsH function.
-helpviewer_keywords: ["PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjectItems","PdhEnumObjectItems function [Perf]","PdhEnumObjectItemsA","PdhEnumObjectItemsW","_win32_pdhenumobjectitems","base.pdhenumobjectitems","pdh/PdhEnumObjectItems","pdh/PdhEnumObjectItemsA","pdh/PdhEnumObjectItemsW","perf.pdhenumobjectitems"]
+description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectItemsH function. (ANSI)
+helpviewer_keywords: ["PERF_DETAIL_ADVANCED", "PERF_DETAIL_EXPERT", "PERF_DETAIL_NOVICE", "PERF_DETAIL_WIZARD", "PdhEnumObjectItemsA", "pdh/PdhEnumObjectItemsA"]
 old-location: perf\pdhenumobjectitems.htm
 tech.root: perf
 ms.assetid: b3efdd31-44e6-47ff-bd0e-d31451c32818
@@ -82,7 +82,7 @@ If the <i>szDataSource</i> parameter is <b>NULL</b>, you can set <i>szMachineNam
 
 ### -param mszCounterList [out]
 
-Caller-allocated buffer that receives a list of <b>null</b>-terminated counter names provided by the specified object. The list contains unique counter names. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if the <i>pcchCounterListLength</i>parameter is zero.
+Caller-allocated buffer that receives a list of <b>null</b>-terminated counter names provided by the specified object. The list contains unique counter names. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if the <i>pcchCounterListLength</i> parameter is zero.
 
 ### -param pcchCounterListLength [in, out]
 
@@ -250,7 +250,7 @@ For an example, see
 
 
 > [!NOTE]
-> The pdh.h header defines PdhEnumObjectItems as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhEnumObjectItems as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

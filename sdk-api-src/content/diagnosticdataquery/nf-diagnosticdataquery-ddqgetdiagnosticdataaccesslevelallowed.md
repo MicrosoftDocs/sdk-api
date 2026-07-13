@@ -7,7 +7,7 @@ description: Returns the highest available data access level for the API caller.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -17,7 +17,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: DiagnosticDataQuery.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -47,7 +47,7 @@ Returns the highest available data access level for the API caller. This can be 
 
 ### -param accessLevel
 
-Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquery/ne-diagnosticdataquerytypes-ddqaccesslevel)**
+Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquerytypes/ne-diagnosticdataquerytypes-ddqaccesslevel)**
 This output parameter is a pointer to the highest access level available for the API caller.
 
 ## -returns

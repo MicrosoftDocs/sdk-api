@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.phoneGetIconA
 title: phoneGetIconA function (tapi.h)
-description: The phoneGetIcon function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user.
-helpviewer_keywords: ["_tapi2_phonegeticon","phoneGetIcon","phoneGetIcon function [TAPI 2.2]","phoneGetIconA","phoneGetIconW","tapi/phoneGetIcon","tapi/phoneGetIconA","tapi/phoneGetIconW","tapi2.phonegeticon"]
+description: The phoneGetIcon function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user. (phoneGetIconA)
+helpviewer_keywords: ["phoneGetIconA", "tapi/phoneGetIconA"]
 old-location: tapi2\phonegeticon.htm
 tech.root: tapi3
 ms.assetid: 6c0fa053-387e-4c1f-a972-b7cd42a1ad00
@@ -93,7 +93,7 @@ For applications using a TAPI version earlier than 2.0, if the provider does not
 
 
 > [!NOTE]
-> The tapi.h header defines phoneGetIcon as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines phoneGetIcon as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

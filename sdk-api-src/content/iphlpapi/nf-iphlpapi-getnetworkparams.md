@@ -137,7 +137,7 @@ If the function fails, use
 
 ## -remarks
 
-The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a>structure. The  memory for the <b>FIXED_INFO</b>structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
+The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure. The  memory for the <b>FIXED_INFO</b> structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
 
 In the Microsoft Windows Software Development Kit (SDK), the <a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO_WIN2KSP1</a> structure is defined.   When compiling an 
      application if the target platform is Windows 2000 with Service Pack 1 (SP1) and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, 

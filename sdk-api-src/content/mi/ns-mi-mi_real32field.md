@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Real32Field
 title: MI_Real32Field (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_Real32Field)
 helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_Real32Field","MI_Real32Field structure [Windows Management Infrastructure (MI)]","mi/MI_Real32Field","wmi._mi_real32field","wmi_v2.mi_real32field"]
 old-location: wmi_v2\mi_real32field.htm
 tech.root: wmi_v2

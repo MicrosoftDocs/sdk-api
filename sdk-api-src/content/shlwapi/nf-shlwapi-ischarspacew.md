@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.IsCharSpaceW
 title: IsCharSpaceW function (shlwapi.h)
-description: Determines whether a character represents a space.
-helpviewer_keywords: ["IsCharSpace","IsCharSpace function [Windows Shell]","IsCharSpaceA","IsCharSpaceW","_shell_IsCharSpace","shell.IsCharSpace","shlwapi/IsCharSpace","shlwapi/IsCharSpaceA","shlwapi/IsCharSpaceW"]
+description: Determines whether a character represents a space. (Unicode)
+helpviewer_keywords: ["IsCharSpace", "IsCharSpace function [Windows Shell]", "IsCharSpaceW", "_shell_IsCharSpace", "shell.IsCharSpace", "shlwapi/IsCharSpace", "shlwapi/IsCharSpaceW"]
 old-location: shell\IsCharSpace.htm
 tech.root: shell
 ms.assetid: 40ccde4d-38e8-4c03-a826-b6c060037ae5
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-shlwapi-l1-1-0.dll
  - Shlwapi.dll
  - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
  - KernelBase.dll
@@ -79,5 +80,5 @@ For those versions of Windows that do not include <b>IsCharSpace</b> in Shlwapi.
 
 
 > [!NOTE]
-> The shlwapi.h header defines IsCharSpace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines IsCharSpace as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

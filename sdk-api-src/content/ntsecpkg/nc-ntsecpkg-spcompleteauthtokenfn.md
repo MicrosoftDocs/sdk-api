@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpCompleteAuthTokenFn
 title: SpCompleteAuthTokenFn (ntsecpkg.h)
-description: Completes an authentication token.
+description: Completes an authentication token.S
 helpviewer_keywords: ["SpCompleteAuthToken","SpCompleteAuthToken callback function [Security]","SpCompleteAuthTokenFn","SpCompleteAuthTokenFn callback","_ssp_spcompleteauthtoken","ntsecpkg/SpCompleteAuthToken","security.spcompleteauthtoken"]
 old-location: security\spcompleteauthtoken.htm
 tech.root: security

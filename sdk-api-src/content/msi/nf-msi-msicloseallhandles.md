@@ -53,7 +53,7 @@ api_name:
 The 
 <b>MsiCloseAllHandles</b> function closes all open installation handles allocated by the current thread. This is a diagnostic function and should not be used for cleanup.
 
-## -parameters
+
 
 ## -returns
 

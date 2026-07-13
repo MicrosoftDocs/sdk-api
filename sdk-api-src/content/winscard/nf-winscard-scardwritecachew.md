@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardWriteCacheW
 title: SCardWriteCacheW function (winscard.h)
-description: Writes a name-value pair from a smart card to the global cache maintained by the Smart Card Resource Manager.
-helpviewer_keywords: ["SCardWriteCache","SCardWriteCache function [Security]","SCardWriteCacheA","SCardWriteCacheW","security.scardwritecache","winscard/SCardWriteCache","winscard/SCardWriteCacheA","winscard/SCardWriteCacheW"]
+description: Writes a name-value pair from a smart card to the global cache maintained by the Smart Card Resource Manager. (Unicode)
+helpviewer_keywords: ["SCardWriteCache", "SCardWriteCache function [Security]", "SCardWriteCacheW", "security.scardwritecache", "winscard/SCardWriteCache", "winscard/SCardWriteCacheW"]
 old-location: security\scardwritecache.htm
 tech.root: security
 ms.assetid: e982e297-6a78-41f4-a81c-d207a96f1dab
@@ -113,4 +113,4 @@ The size of the specified name-value pair exceeds the maximum size defined for t
 ## -remarks
 
 > [!NOTE]
-> The winscard.h header defines SCardWriteCache as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardWriteCache as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

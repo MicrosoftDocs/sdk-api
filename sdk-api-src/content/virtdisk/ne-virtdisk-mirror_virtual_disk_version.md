@@ -60,11 +60,11 @@ Contains the version of the virtual disk
 
 ## -enum-fields
 
-### -field MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
 Unsupported.
 
-### -field MIRROR_VIRTUAL_DISK_VERSION_1
+### -field MIRROR_VIRTUAL_DISK_VERSION_1:1
 
 Use the <b>Version1</b> member.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_GetCurrentPageHwnd","PropSheet_GetCurrentPageHw
 old-location: controls\PropSheet_GetCurrentPageHwnd.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_getcurrentpagehwnd.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_GetCurrentPageHwnd, PropSheet_GetCurrentPageHwnd macro [Windows Controls], _win32_PropSheet_GetCurrentPageHwnd, _win32_PropSheet_GetCurrentPageHwnd_cpp, controls.PropSheet_GetCurrentPageHwnd, controls._win32_PropSheet_GetCurrentPageHwnd, prsht/PropSheet_GetCurrentPageHwnd
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PropSheet_GetCurrentPageHwnd macro
+
+## -syntax
+
+```cpp
+HWND PropSheet_GetCurrentPageHwnd(
+   HWND hDlg
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns a handle to the window of the current property sheet page.
 
 
 ## -description

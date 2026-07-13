@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
  - Dwmapi.dll
  - ext-ms-win-dwmapi-ext-l1-1-0.dll
 api_name:
@@ -52,19 +54,17 @@ Enables the blur effect on a specified window.
 
 ## -parameters
 
-### -param hWnd
+### -param hWnd [in]
 
 The handle to the window on which the blur-behind data is applied.
 
-### -param pBlurBehind
-
-`[in]`
+### -param pBlurBehind [in]
 
 A pointer to a <a href="/windows/win32/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure that provides blur-behind data.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

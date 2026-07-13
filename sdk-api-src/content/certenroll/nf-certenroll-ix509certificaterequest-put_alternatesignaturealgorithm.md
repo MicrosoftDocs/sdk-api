@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_AlternateSignatureAlgorithm
 title: IX509CertificateRequest::put_AlternateSignatureAlgorithm (certenroll.h)
-description: Specifies and retrieves a Boolean value that indicates whether the signature algorithm object identifier (OID) for a PKCS
+description: Specifies and retrieves a Boolean value that indicates whether the signature algorithm object identifier (OID) for a PKCS (Put)
 helpviewer_keywords: ["AlternateSignatureAlgorithm property [Security]","AlternateSignatureAlgorithm property [Security]","IX509CertificateRequest interface","IX509CertificateRequest interface [Security]","AlternateSignatureAlgorithm property","IX509CertificateRequest.AlternateSignatureAlgorithm","IX509CertificateRequest.put_AlternateSignatureAlgorithm","IX509CertificateRequest::AlternateSignatureAlgorithm","IX509CertificateRequest::get_AlternateSignatureAlgorithm","IX509CertificateRequest::put_AlternateSignatureAlgorithm","certenroll/IX509CertificateRequest::AlternateSignatureAlgorithm","certenroll/IX509CertificateRequest::get_AlternateSignatureAlgorithm","certenroll/IX509CertificateRequest::put_AlternateSignatureAlgorithm","put_AlternateSignatureAlgorithm","security.ix509certificaterequest_alternatesignaturealgorithm_property"]
 old-location: security\ix509certificaterequest_alternatesignaturealgorithm_property.htm
 tech.root: security

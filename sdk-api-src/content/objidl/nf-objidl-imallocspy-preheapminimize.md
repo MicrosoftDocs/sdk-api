@@ -52,7 +52,7 @@ api_name:
 
 Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
 
-## -parameters
+
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_QUERY_MISC_FLAG
 title: D3D10_QUERY_MISC_FLAG (d3d10.h)
-description: Flags that describe miscellaneous query behavior.
+description: Flags that describe miscellaneous query behavior. (D3D10_QUERY_MISC_FLAG)
 helpviewer_keywords: ["D3D10_QUERY_MISC_FLAG","D3D10_QUERY_MISC_FLAG enumeration [Direct3D 10]","D3D10_QUERY_MISC_PREDICATEHINT","afca49a1-e15e-21f0-d3cc-592d3ba4b0cd","d3d10/D3D10_QUERY_MISC_FLAG","d3d10/D3D10_QUERY_MISC_PREDICATEHINT","direct3d10.d3d10_query_misc_flag"]
 old-location: direct3d10\d3d10_query_misc_flag.htm
 tech.root: direct3d10
@@ -54,7 +54,7 @@ Flags that describe miscellaneous query behavior.
 
 ## -enum-fields
 
-### -field D3D10_QUERY_MISC_PREDICATEHINT
+### -field D3D10_QUERY_MISC_PREDICATEHINT:0x1
 
 Tell the hardware that if it is not yet sure if something is hidden or not to draw it anyway. This is only used with an occlusion predicate. Predication data cannot be returned to your application via <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> when using this flag.
 

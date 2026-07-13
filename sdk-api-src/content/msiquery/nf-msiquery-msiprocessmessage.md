@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-msi-misc-l1-1-0.dll
  - Msi.dll
 api_name:
  - MsiProcessMessage
@@ -119,7 +120,7 @@ User request message,<div> </div>[1] is message number in Error table.
 </dl>
 </td>
 <td width="60%">
-Informative message for log,<div> </div>not to be displayed.
+Informative message for log,<div> </div> not to be displayed.
 
 </td>
 </tr>

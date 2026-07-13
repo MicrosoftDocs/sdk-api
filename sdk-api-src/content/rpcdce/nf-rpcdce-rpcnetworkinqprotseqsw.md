@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcNetworkInqProtseqsW
 title: RpcNetworkInqProtseqsW function (rpcdce.h)
-description: The RpcNetworkInqProtseqs function returns all protocol sequences supported by both the RPC run-time library and the operating system.
-helpviewer_keywords: ["RpcNetworkInqProtseqs","RpcNetworkInqProtseqs function [RPC]","RpcNetworkInqProtseqsA","RpcNetworkInqProtseqsW","_rpc_rpcnetworkinqprotseqs","rpc.rpcnetworkinqprotseqs","rpcdce/RpcNetworkInqProtseqs","rpcdce/RpcNetworkInqProtseqsA","rpcdce/RpcNetworkInqProtseqsW"]
+description: The RpcNetworkInqProtseqsW (Unicode) function (rpcdce.h) returns all protocol sequences supported by both the RPC run-time library and the operating system.
+helpviewer_keywords: ["RpcNetworkInqProtseqs", "RpcNetworkInqProtseqs function [RPC]", "RpcNetworkInqProtseqsW", "_rpc_rpcnetworkinqprotseqs", "rpc.rpcnetworkinqprotseqs", "rpcdce/RpcNetworkInqProtseqs", "rpcdce/RpcNetworkInqProtseqsW"]
 old-location: rpc\rpcnetworkinqprotseqs.htm
 tech.root: Rpc
 ms.assetid: 7390e30a-9e29-417e-8d21-a045f1888036
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcNetworkInqProtseqs, RpcNetworkInqProtseqs function [RPC], RpcNetworkInqProtseqsA, RpcNetworkInqProtseqsW, _rpc_rpcnetworkinqprotseqs, rpc.rpcnetworkinqprotseqs, rpcdce/RpcNetworkInqProtseqs, rpcdce/RpcNetworkInqProtseqsA, rpcdce/RpcNetworkInqProtseqsW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -112,7 +112,7 @@ The server is responsible for calling the
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcNetworkInqProtseqs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcNetworkInqProtseqs as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-net-netshell-l1-1-0.dll
  - Netshell.dll
 api_name:
  - NcFreeNetconProperties

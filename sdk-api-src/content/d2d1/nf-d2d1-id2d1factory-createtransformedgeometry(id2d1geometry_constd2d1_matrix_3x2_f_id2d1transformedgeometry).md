@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateTransformedGeometry(ID2D1Geometry,constD2D1_MATRIX_3X2_F,ID2D1TransformedGeometry)
 title: ID2D1Factory::CreateTransformedGeometry (d2d1.h)
-description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object.
+description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object. (overload 1/2)
 helpviewer_keywords: ["CreateTransformedGeometry","CreateTransformedGeometry methods [Direct2D]","ID2D1Factory.CreateTransformedGeometry","ID2D1Factory::CreateTransformedGeometry","d2d1/CreateTransformedGeometry","direct2d.id2d1factory_createtransformedgeometry"]
 old-location: direct2d\id2d1factory_createtransformedgeometry.htm
 tech.root: Direct2D
@@ -73,7 +73,7 @@ When this method returns, contains the address of the pointer to the new transfo
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 

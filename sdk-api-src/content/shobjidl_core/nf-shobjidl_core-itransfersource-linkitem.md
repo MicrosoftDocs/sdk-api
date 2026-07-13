@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.LinkItem
 title: ITransferSource::LinkItem (shobjidl_core.h)
-description: Not implemented.
+description: Not implemented. (ITransferSource.LinkItem)
 helpviewer_keywords: ["ITransferSource interface [Windows Shell]","LinkItem method","ITransferSource.LinkItem","ITransferSource::LinkItem","LinkItem","LinkItem method [Windows Shell]","LinkItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_LinkItem","shell.ITransferSource_LinkItem","shobjidl_core/ITransferSource::LinkItem"]
 old-location: shell\ITransferSource_LinkItem.htm
 tech.root: shell
@@ -88,4 +88,4 @@ When the method returns, contains the address of a pointer to the <a href="/wind
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

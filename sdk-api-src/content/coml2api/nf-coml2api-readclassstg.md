@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-com-ole32-l1-1-5.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l2-1-1.dll
  - coml2.dll

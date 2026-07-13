@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Query_And_Remove_SubTree_ExW
 title: CM_Query_And_Remove_SubTree_ExW function (cfgmgr32.h)
-description: The CM_Query_And_Remove_SubTree_Ex function checks whether a device instance and its children can be removed and, if so, it removes them.
-helpviewer_keywords: ["CM_Query_And_Remove_SubTree_Ex","CM_Query_And_Remove_SubTree_Ex function [Device and Driver Installation]","CM_Query_And_Remove_SubTree_ExW","cfgmgr32/CM_Query_And_Remove_SubTree_Ex","cfgmgr32/CM_Query_And_Remove_SubTree_ExW","cfgmgrfn_69fa61ff-b77c-41d7-a263-facf56883977.xml","devinst.cm_query_and_remove_subtree_ex"]
+description: The CM_Query_And_Remove_SubTree_Ex function checks whether a device instance and its children can be removed and, if so, it removes them. (Unicode)
+helpviewer_keywords: ["CM_Query_And_Remove_SubTree_Ex", "CM_Query_And_Remove_SubTree_Ex function [Device and Driver Installation]", "CM_Query_And_Remove_SubTree_ExW", "cfgmgr32/CM_Query_And_Remove_SubTree_Ex", "cfgmgr32/CM_Query_And_Remove_SubTree_ExW", "cfgmgrfn_69fa61ff-b77c-41d7-a263-facf56883977.xml", "devinst.cm_query_and_remove_subtree_ex"]
 old-location: devinst\cm_query_and_remove_subtree_ex.htm
 tech.root: devinst
 ms.assetid: c8a3af37-0886-4187-9cdb-49616bcb04a9

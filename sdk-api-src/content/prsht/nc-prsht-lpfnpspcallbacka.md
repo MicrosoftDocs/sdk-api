@@ -1,7 +1,7 @@
 ---
 UID: NC:prsht.LPFNPSPCALLBACKA
 title: LPFNPSPCALLBACKA (prsht.h)
-description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.
+description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page. (ANSI)
 helpviewer_keywords: ["LPFNPSPCALLBACK","LPFNPSPCALLBACK callback","LPFNPSPCALLBACK callback function [Windows Controls]","LPFNPSPCALLBACKA","LPFNPSPCALLBACKW","PSPCB_ADDREF","PSPCB_CREATE","PSPCB_RELEASE","_win32_PropSheetPageProc","_win32_PropSheetPageProc_cpp","controls.PropSheetPageProc","controls._win32_PropSheetPageProc","prsht/LPFNPSPCALLBACK"]
 old-location: controls\PropSheetPageProc.htm
 tech.root: Controls
@@ -129,4 +129,4 @@ With the exception of the <b>lParam</b> member, your application should not modi
 
 
 > [!NOTE]
-> The prsht.h header defines LPFNPSPCALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The prsht.h header defines LPFNPSPCALLBACK as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

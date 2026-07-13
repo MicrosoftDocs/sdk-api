@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
-title: IReferenceTrackerHost::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerHost::ReleaseDisconnectedReferenceSources (windows.ui.xaml.hosting.referencetracker.h)
 description: Requests that the host call IUnknown::Release on any reference tracker objects that have been disconnected by a reference source.
 helpviewer_keywords: ["IReferenceTrackerHost interface [Windows Runtime]","ReleaseDisconnectedReferenceSources method","IReferenceTrackerHost.ReleaseDisconnectedReferenceSources","IReferenceTrackerHost.xaml","IReferenceTrackerHost::ReleaseDisconnectedReferenceSources","IReferenceTrackerHost::xaml","ReleaseDisconnectedReferenceSources","ReleaseDisconnectedReferenceSources method [Windows Runtime]","ReleaseDisconnectedReferenceSources method [Windows Runtime]","IReferenceTrackerHost interface","windows/IReferenceTrackerHost::ReleaseDisconnectedReferenceSources","winrt.ireferencetrackerhost_releasedisconnectedreferencesources"]
 old-location: winrt\ireferencetrackerhost_releasedisconnectedreferencesources.htm
@@ -45,18 +45,18 @@ api_name:
  - IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
 ---
 
-# IReferenceTrackerHost::xaml
+# IReferenceTrackerHost::ReleaseDisconnectedReferenceSources (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
 
 Requests that the host call <b>IUnknown::Release</b> on any reference tracker objects that have been disconnected by a reference source.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

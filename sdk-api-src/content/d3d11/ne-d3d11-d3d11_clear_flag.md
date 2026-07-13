@@ -54,11 +54,11 @@ Specifies the parts of the depth stencil to clear.
 
 ## -enum-fields
 
-### -field D3D11_CLEAR_DEPTH
+### -field D3D11_CLEAR_DEPTH:0x1L
 
 Clear the depth buffer, using fast clear if possible, then place the resource in a compressed state.
 
-### -field D3D11_CLEAR_STENCIL
+### -field D3D11_CLEAR_STENCIL:0x2L
 
 Clear the stencil buffer, using fast clear if possible, then place the resource in a compressed state.
 

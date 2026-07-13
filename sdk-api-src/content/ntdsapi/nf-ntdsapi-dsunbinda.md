@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsUnBindA
 title: DsUnBindA function (ntdsapi.h)
-description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS).
-helpviewer_keywords: ["DsUnBind","DsUnBind function [Active Directory]","DsUnBindA","DsUnBindW","_glines_dsunbind","ad.dsunbind","ntdsapi/DsUnBind","ntdsapi/DsUnBindA","ntdsapi/DsUnBindW"]
+description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS). (ANSI)
+helpviewer_keywords: ["DsUnBindA", "ntdsapi/DsUnBindA"]
 old-location: ad\dsunbind.htm
 tech.root: ad
 ms.assetid: 7106d67f-d421-4a7c-b775-440e5944f25e
@@ -86,4 +86,4 @@ Pointer to a bind handle to the directory service. This handle is provided by a 
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsUnBind as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsUnBind as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

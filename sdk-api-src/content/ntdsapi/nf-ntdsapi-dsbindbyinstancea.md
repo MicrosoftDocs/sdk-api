@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsBindByInstanceA
 title: DsBindByInstanceA function (ntdsapi.h)
-description: Explicitly binds to any AD LDS or Active Directory instance.
-helpviewer_keywords: ["DsBindByInstance","DsBindByInstance function [ADAM]","DsBindByInstanceA","DsBindByInstanceW","NTDSAPI_BIND_ALLOW_DELEGATION","NTDSAPI_BIND_FORCE_KERBEROS","adam.dsbindbyinstance","ntdsapi/DsBindByInstance","ntdsapi/DsBindByInstanceA","ntdsapi/DsBindByInstanceW"]
+description: Explicitly binds to any AD LDS or Active Directory instance. (ANSI)
+helpviewer_keywords: ["DsBindByInstanceA", "NTDSAPI_BIND_ALLOW_DELEGATION", "NTDSAPI_BIND_FORCE_KERBEROS", "ntdsapi/DsBindByInstanceA"]
 old-location: adam\dsbindbyinstance.htm
 tech.root: ADAM
 ms.assetid: 65302ddc-2bc0-4d80-b028-e268859be227
@@ -253,4 +253,4 @@ Instance <b>GUID</b>
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsBindByInstance as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsBindByInstance as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

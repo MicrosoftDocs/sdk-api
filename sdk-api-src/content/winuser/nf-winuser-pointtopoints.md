@@ -6,7 +6,7 @@ helpviewer_keywords: ["POINTTOPOINTS","POINTTOPOINTS macro [Windows GDI]","_win3
 old-location: gdi\pointtopoints.htm
 tech.root: gdi
 ms.assetid: 9e9ec2c0-fce6-4205-8299-20ef7ff154e9
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: POINTTOPOINTS, POINTTOPOINTS macro [Windows GDI], _win32_POINTTOPOINTS, gdi.pointtopoints, winuser/POINTTOPOINTS
 req.header: winuser.h
 req.include-header: Windows.h
@@ -47,16 +47,30 @@ api_name:
 
 # POINTTOPOINTS macro
 
+## -syntax
+
+```cpp
+POINTS POINTTOPOINTS(
+    POINT pt
+);
+```
+
+## -returns
+
+Type: **POINTS**
+
+The return value is a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
+
 
 ## -description
 
-The <b>POINTTOPOINTS</b> macro converts a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
+The <b>POINTTOPOINTS</b> macro converts a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure to a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
 
 ## -parameters
 
 ### -param pt
 
-The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to convert.
+The <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure to convert.
 
 ## -see-also
 
@@ -64,11 +78,11 @@ The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to conver
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 
-<a href="/previous-versions/dd162808(v=vs.85)">POINTS</a>
+<a href="/windows/win32/api/windef/ns-windef-points">POINTS</a>
 
 
 

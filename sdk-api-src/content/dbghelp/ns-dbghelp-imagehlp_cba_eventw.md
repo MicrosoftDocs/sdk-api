@@ -1,12 +1,12 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_CBA_EVENTW
 title: IMAGEHLP_CBA_EVENTW (dbghelp.h)
-description: Contains information about a debugging event.
+description: The IMAGEHLP_CBA_EVENTW (Unicode) structure (dbghelp.h) contains information about a debugging event.
 helpviewer_keywords: ["*PIMAGEHLP_CBA_EVENTW","IMAGEHLP_CBA_EVENT","IMAGEHLP_CBA_EVENT structure","IMAGEHLP_CBA_EVENTW","PIMAGEHLP_CBA_EVENT","PIMAGEHLP_CBA_EVENT structure pointer","_IMAGEHLP_CBA_EVENT","_IMAGEHLP_CBA_EVENTW","base.imagehlp_cba_event_str","dbghelp/IMAGEHLP_CBA_EVENT","dbghelp/IMAGEHLP_CBA_EVENTW","dbghelp/PIMAGEHLP_CBA_EVENT","sevAttn","sevFatal","sevInfo","sevProblem"]
 old-location: base\imagehlp_cba_event_str.htm
 tech.root: Debug
 ms.assetid: 1d63007a-7542-4626-99a5-41461e00dbb4
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PIMAGEHLP_CBA_EVENTW, IMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT structure, IMAGEHLP_CBA_EVENTW, PIMAGEHLP_CBA_EVENT, PIMAGEHLP_CBA_EVENT structure pointer, _IMAGEHLP_CBA_EVENT, _IMAGEHLP_CBA_EVENTW, base.imagehlp_cba_event_str, dbghelp/IMAGEHLP_CBA_EVENT, dbghelp/IMAGEHLP_CBA_EVENTW, dbghelp/PIMAGEHLP_CBA_EVENT, sevAttn, sevFatal, sevInfo, sevProblem'
 req.header: dbghelp.h
 req.include-header: 
@@ -138,4 +138,4 @@ This member is reserved for future use.
 ## -remarks
 
 > [!NOTE]
-> The dbghelp.h header defines IMAGEHLP_CBA_EVENT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines IMAGEHLP_CBA_EVENT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Bthprops.lib
-req.dll: Bthprops.dll
+req.dll: bthprops.cpl
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Bthprops.dll
+ - bthprops.cpl
 api_name:
  - BluetoothAuthenticateDeviceEx
 ---
@@ -81,7 +81,7 @@ If not <b>NULL</b>, no UI is displayed.
 
 ### -param authenticationRequirement [in]
 
-An <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>value that specifies the protection required for authentication.
+An <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> value that specifies the protection required for authentication.
 
 ## -returns
 

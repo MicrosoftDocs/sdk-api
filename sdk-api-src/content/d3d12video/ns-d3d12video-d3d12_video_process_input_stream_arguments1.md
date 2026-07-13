@@ -16,8 +16,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 req.umdf-ver: 
@@ -57,7 +57,7 @@ A value from the [D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS](ne-d3d12video-d3d12_vi
 
 ### -field RateInfo
 
-A [D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE](ns-d3d12video-d3d12_video_process_input_stream_rate.md) structure specifying the framerate and input and output indicies for framerate conversion and deinterlacing.
+A [D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE](ns-d3d12video-d3d12_video_process_input_stream_rate.md) structure specifying the framerate and input and output indices for framerate conversion and deinterlacing.
 
 ### -field FilterLevels
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_ClassName
 title: IUIAutomationProxyFactoryEntry::put_ClassName (uiautomationclient.h)
-description: Sets or retrieves the name of the window class served by the proxy factory.
+description: Sets or retrieves the name of the window class served by the proxy factory. (Put)
 helpviewer_keywords: ["ClassName property [Windows Accessibility]","ClassName property [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","ClassName property","IUIAutomationProxyFactoryEntry.ClassName","IUIAutomationProxyFactoryEntry.put_ClassName","IUIAutomationProxyFactoryEntry::ClassName","IUIAutomationProxyFactoryEntry::get_ClassName","IUIAutomationProxyFactoryEntry::put_ClassName","put_ClassName","uiauto.uiauto_IUIAutomationProxyFactoryEntry_ClassName","uiauto_IUIAutomationProxyFactoryEntry_ClassName","uiautomationclient/IUIAutomationProxyFactoryEntry::ClassName","uiautomationclient/IUIAutomationProxyFactoryEntry::get_ClassName","uiautomationclient/IUIAutomationProxyFactoryEntry::put_ClassName","winauto.uiauto_IUIAutomationProxyFactoryEntry_ClassName"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ClassName.htm
 tech.root: WinAuto

@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Server
 title: IEmailAction::put_Server (taskschd.h)
-description: Gets or sets the name of the SMTP server that you use to send email from.
+description: Gets or sets the name of the SMTP server that you use to send email from. (Put)
 helpviewer_keywords: ["IEmailAction interface [Task Scheduler]","Server property","IEmailAction.Server","IEmailAction.put_Server","IEmailAction::Server","IEmailAction::get_Server","IEmailAction::put_Server","Server property [Task Scheduler]","Server property [Task Scheduler]","IEmailAction interface","put_Server","taskschd.iemailaction_server","taskschd/IEmailAction::Server","taskschd/IEmailAction::get_Server","taskschd/IEmailAction::put_Server"]
 old-location: taskschd\iemailaction_server.htm
 tech.root: taskschd
 ms.assetid: c781f189-f27b-4f37-af53-144e1ae8cb75
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IEmailAction interface [Task Scheduler],Server property, IEmailAction.Server, IEmailAction.put_Server, IEmailAction::Server, IEmailAction::get_Server, IEmailAction::put_Server, Server property [Task Scheduler], Server property [Task Scheduler],IEmailAction interface, put_Server, taskschd.iemailaction_server, taskschd/IEmailAction::Server, taskschd/IEmailAction::get_Server, taskschd/IEmailAction::put_Server
 req.header: taskschd.h
 req.include-header: 
@@ -52,8 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7
-">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the name of the SMTP server that you use to send email from.
 

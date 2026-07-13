@@ -1,12 +1,12 @@
 ---
 UID: NF:mmiscapi.mmioInstallIOProcW
 title: mmioInstallIOProcW function (mmiscapi.h)
-description: The mmioInstallIOProc function installs or removes a custom I/O procedure. This function also locates an installed I/O procedure, using its corresponding four-character code.
-helpviewer_keywords: ["_win32_mmioInstallIOProc","mmioInstallIOProc","mmioInstallIOProc function [Windows Multimedia]","mmioInstallIOProcA","mmioInstallIOProcW","mmsystem/mmioInstallIOProc","mmsystem/mmioInstallIOProcA","mmsystem/mmioInstallIOProcW","multimedia.mmioinstallioproc"]
+description: The mmioInstallIOProcW (Unicode) function installs or removes a custom I/O procedure and locates an installed I/O procedure, using its corresponding code.
+helpviewer_keywords: ["_win32_mmioInstallIOProc", "mmioInstallIOProc", "mmioInstallIOProc function [Windows Multimedia]", "mmioInstallIOProcW", "multimedia.mmioinstallioproc"]
 old-location: multimedia\mmioinstallioproc.htm
 tech.root: Multimedia
 ms.assetid: 235b5014-ad6e-4b9e-a063-99022cbcdb5d
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_mmioInstallIOProc, mmioInstallIOProc, mmioInstallIOProc function [Windows Multimedia], mmioInstallIOProcA, mmioInstallIOProcW, mmsystem/mmioInstallIOProc, mmsystem/mmioInstallIOProcA, mmsystem/mmioInstallIOProcW, multimedia.mmioinstallioproc
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
@@ -103,4 +103,4 @@ Returns the address of the I/O procedure installed, removed, or located. Returns
 ## -remarks
 
 > [!NOTE]
-> The mmiscapi.h header defines mmioInstallIOProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmiscapi.h header defines mmioInstallIOProc as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

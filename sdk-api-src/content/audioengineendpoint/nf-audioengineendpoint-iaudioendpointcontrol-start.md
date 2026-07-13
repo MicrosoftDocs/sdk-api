@@ -52,7 +52,7 @@ api_name:
 
 The <b>Start</b> method starts the endpoint stream.
 
-## -parameters
+
 
 ## -returns
 

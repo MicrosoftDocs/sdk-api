@@ -4,7 +4,8 @@ title: Windows Remote Management
 ms.assetid: 278db203-464f-3cc8-b97b-b01767a8cc07
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Windows Remote Management

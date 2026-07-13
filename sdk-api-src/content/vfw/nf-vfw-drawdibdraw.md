@@ -72,11 +72,11 @@ The y-coordinate, in <b>MM_TEXT</b> client coordinates, of the upper left corner
 
 ### -param dxDst
 
-Width, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i>dxDst</i> is â€“1, the width of the bitmap is used.
+Width, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i>dxDst</i> is −1, the width of the bitmap is used.
 
 ### -param dyDst
 
-Height, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i>dyDst</i> is â€“1, the height of the bitmap is used.
+Height, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i>dyDst</i> is −1, the height of the bitmap is used.
 
 ### -param lpbi
 

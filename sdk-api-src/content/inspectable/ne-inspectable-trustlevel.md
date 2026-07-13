@@ -54,7 +54,7 @@ Represents the trust level of an activatable class.
 
 ## -enum-fields
 
-### -field BaseTrust
+### -field BaseTrust:0
 
 The component has access to resources that are not protected.
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:shellscalingapi.__unnamed_enum_2
+UID: NE:shellscalingapi.SHELL_UI_COMPONENT
 title: SHELL_UI_COMPONENT (shellscalingapi.h)
 description: Identifies the type of UI component that is needed in the shell.
 helpviewer_keywords: ["SHELL_UI_COMPONENT","SHELL_UI_COMPONENT enumeration [Windows Shell]","SHELL_UI_COMPONENT_DESKBAND","SHELL_UI_COMPONENT_NOTIFICATIONAREA","SHELL_UI_COMPONENT_TASKBARS","shell.shell_ui_component","shellscalingapi/SHELL_UI_COMPONENT","shellscalingapi/SHELL_UI_COMPONENT_DESKBAND","shellscalingapi/SHELL_UI_COMPONENT_NOTIFICATIONAREA","shellscalingapi/SHELL_UI_COMPONENT_TASKBARS"]
@@ -50,21 +50,19 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Identifies the type of UI component that is needed in the shell.
 
 ## -enum-fields
 
-### -field SHELL_UI_COMPONENT_TASKBARS
+### -field SHELL_UI_COMPONENT_TASKBARS:0
 
 This UI component is a taskbar icon.
 
-### -field SHELL_UI_COMPONENT_NOTIFICATIONAREA
+### -field SHELL_UI_COMPONENT_NOTIFICATIONAREA:1
 
 This UI component is an icon in the notification area.
 
-### -field SHELL_UI_COMPONENT_DESKBAND
+### -field SHELL_UI_COMPONENT_DESKBAND:2
 
 This UI component is a deskband icon.
 

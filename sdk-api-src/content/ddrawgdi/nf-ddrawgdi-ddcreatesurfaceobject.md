@@ -82,7 +82,7 @@ This function is used to create objects that represent system memory surfaces. V
 
 Applications are advised to use the 
 DirectDraw and 
-<a href="/windows/desktop/direct3d10/d3d10-graphics-reference">Direct3D</a>APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference">Direct3D</a> APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 
 ## -see-also
 

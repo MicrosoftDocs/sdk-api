@@ -6,13 +6,13 @@ helpviewer_keywords: ["DeriveCapabilitySidsFromName","DeriveCapabilitySidsFromNa
 old-location: security\derivecapabilitysidsfromname.htm
 tech.root: security
 ms.assetid: 1A911FCC-6D11-4185-B532-20FE6C7C4B0B
-ms.date: 12/05/2018
+ms.date: 03/20/2025
 ms.keywords: DeriveCapabilitySidsFromName, DeriveCapabilitySidsFromName function [Security], security.derivecapabilitysidsfromname, securitybaseapi/DeriveCapabilitySidsFromName
 req.header: securitybaseapi.h
-req.include-header: 
+req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Kernel32.dll
+req.lib: OneCoreUAP.lib
+req.dll: KernelBase.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Kernel32.dll
+ - api-ms-win-security-base-l1-2-2.dll
+ - KernelBase.dll
 api_name:
  - DeriveCapabilitySidsFromName
 ---
@@ -76,10 +77,9 @@ The count of CapabilitySid with AppAuthority.
 
 ## -returns
 
-If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns **TRUE**.
 
-If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns **FALSE**. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 

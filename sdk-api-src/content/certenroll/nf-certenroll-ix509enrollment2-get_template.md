@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.get_Template
 title: IX509Enrollment2::get_Template (certenroll.h)
-description: Retrieves the certificate request template used during initialization.
+description: Retrieves the certificate request template used during initialization. (IX509Enrollment2.get_Template)
 helpviewer_keywords: ["IX509Enrollment2 interface [Security]","Template property","IX509Enrollment2.Template","IX509Enrollment2.get_Template","IX509Enrollment2::Template","IX509Enrollment2::get_Template","Template property [Security]","Template property [Security]","IX509Enrollment2 interface","certenroll/IX509Enrollment2::Template","certenroll/IX509Enrollment2::get_Template","get_Template","security.ix509enrollment2_template"]
 old-location: security\ix509enrollment2_template.htm
 tech.root: security

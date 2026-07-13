@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_add_extW
 title: ldap_add_extW function (winldap.h)
-description: The ldap_add_ext function initiates an asynchronous add operation to a tree. The parent of the entry added must exist, or the parent must be empty (equal to the distinguished name of the root) for an add operation to succeed.
-helpviewer_keywords: ["_ldap_ldap_add_ext","ldap.ldap__add__ext","ldap.ldap_add_ext","ldap_add_ext","ldap_add_ext function [LDAP]","ldap_add_extA","ldap_add_extW","winldap/ldap_add_ext","winldap/ldap_add_extA","winldap/ldap_add_extW"]
+description: The ldap_add_extW (Unicode) function (winldap.h) initiates an asynchronous add operation to a tree.
+helpviewer_keywords: ["_ldap_ldap_add_ext", "ldap.ldap__add__ext", "ldap.ldap_add_ext", "ldap_add_ext", "ldap_add_ext function [LDAP]", "ldap_add_extW", "winldap/ldap_add_ext", "winldap/ldap_add_extW"]
 old-location: ldap\ldap_add_ext.htm
 tech.root: ldap
 ms.assetid: 13ad97e7-6d3c-43a6-b806-ec775abe303c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_ldap_add_ext, ldap.ldap__add__ext, ldap.ldap_add_ext, ldap_add_ext, ldap_add_ext function [LDAP], ldap_add_extA, ldap_add_extW, winldap/ldap_add_ext, winldap/ldap_add_extA, winldap/ldap_add_extW
 req.header: winldap.h
 req.include-header: 
@@ -114,7 +114,7 @@ Multithreaded: Calls to <b>ldap_add_ext</b> are thread-safe.
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_add_ext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_add_ext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

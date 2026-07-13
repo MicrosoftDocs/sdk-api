@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetUserObjectInformationW
 title: GetUserObjectInformationW function (winuser.h)
-description: Retrieves information about the specified window station or desktop object.
-helpviewer_keywords: ["GetUserObjectInformation","GetUserObjectInformation function [Windows Stations and Desktops]","GetUserObjectInformationA","GetUserObjectInformationW","UOI_FLAGS","UOI_HEAPSIZE","UOI_IO","UOI_NAME","UOI_TYPE","UOI_USER_SID","_win32_getuserobjectinformation","base.getuserobjectinformation","winstation.getuserobjectinformation","winuser/GetUserObjectInformation","winuser/GetUserObjectInformationA","winuser/GetUserObjectInformationW"]
+description: Retrieves information about the specified window station or desktop object. (Unicode)
+helpviewer_keywords: ["GetUserObjectInformation", "GetUserObjectInformation function [Windows Stations and Desktops]", "GetUserObjectInformationW", "UOI_FLAGS", "UOI_HEAPSIZE", "UOI_IO", "UOI_NAME", "UOI_TYPE", "UOI_USER_SID", "_win32_getuserobjectinformation", "base.getuserobjectinformation", "winstation.getuserobjectinformation", "winuser/GetUserObjectInformation", "winuser/GetUserObjectInformationW"]
 old-location: winstation\getuserobjectinformation.htm
 tech.root: winstation
 ms.assetid: 64f7361d-1a94-4d5b-86f1-a2a21737668a
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-winstamin-l1-1-0.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
  - Ext-Ms-Win-NTUser-Windowstation-Ansi-L1-1-0.dll
@@ -217,4 +218,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines GetUserObjectInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetUserObjectInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_Draw
 title: ImageList_Draw function (commctrl.h)
-description: Draws an image list item in the specified device context.
+description: Draws an image list item in the specified device context. (ImageList_Draw)
 helpviewer_keywords: ["ILD_BLEND","ILD_BLEND25","ILD_BLEND50","ILD_FOCUS","ILD_IMAGE","ILD_MASK","ILD_NORMAL","ILD_SELECTED","ILD_TRANSPARENT","ImageList_Draw","ImageList_Draw function [Windows Controls]","_win32_ImageList_Draw","_win32_ImageList_Draw_cpp","commctrl/ImageList_Draw","controls.ImageList_Draw","controls._win32_ImageList_Draw"]
 old-location: controls\ImageList_Draw.htm
 tech.root: Controls

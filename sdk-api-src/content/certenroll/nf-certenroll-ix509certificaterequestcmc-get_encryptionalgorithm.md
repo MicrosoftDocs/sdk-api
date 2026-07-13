@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptionAlgorithm
 title: IX509CertificateRequestCmc::get_EncryptionAlgorithm (certenroll.h)
-description: Specifies or retrieves an object identifier (OID) of the algorithm used to encrypt the private key to be archived.
+description: Specifies or retrieves an object identifier (OID) of the algorithm used to encrypt the private key to be archived. (Get)
 helpviewer_keywords: ["EncryptionAlgorithm property [Security]","EncryptionAlgorithm property [Security]","IX509CertificateRequestCmc interface","IX509CertificateRequestCmc interface [Security]","EncryptionAlgorithm property","IX509CertificateRequestCmc.EncryptionAlgorithm","IX509CertificateRequestCmc.get_EncryptionAlgorithm","IX509CertificateRequestCmc::EncryptionAlgorithm","IX509CertificateRequestCmc::get_EncryptionAlgorithm","IX509CertificateRequestCmc::put_EncryptionAlgorithm","certenroll/IX509CertificateRequestCmc::EncryptionAlgorithm","certenroll/IX509CertificateRequestCmc::get_EncryptionAlgorithm","certenroll/IX509CertificateRequestCmc::put_EncryptionAlgorithm","get_EncryptionAlgorithm","security.ix509certificaterequestcmc_encryptionalgorithm_property"]
 old-location: security\ix509certificaterequestcmc_encryptionalgorithm_property.htm
 tech.root: security

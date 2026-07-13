@@ -53,13 +53,13 @@ api_name:
 
 The <b>Color::ToCOLORREF</b> method converts this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object's <b>ARGB</b> value to a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b>COLORREF</b>
 
-This method returns a GDI<b>COLORREF</b> value that has the same red, green, and blue components as this color's <b>ARGB</b> value.
+This method returns a GDI <b>COLORREF</b> value that has the same red, green, and blue components as this color's <b>ARGB</b> value.
 
 ## -remarks
 
@@ -70,7 +70,7 @@ When the <b>ARGB</b> value is converted to a <b>COLORREF</b> value, the alpha co
 
 
 
-The following example creates two <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> objects and converts the <b>ARGB</b> value of the first <b>Color</b> object into a GDI<b>COLORREF</b> value. The code then passes that <b>COLORREF</b> value to the <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a> method of the second <b>Color</b> object. Finally, the code uses the second <b>Color</b> object to fill a rectangle.
+The following example creates two <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> objects and converts the <b>ARGB</b> value of the first <b>Color</b> object into a GDI <b>COLORREF</b> value. The code then passes that <b>COLORREF</b> value to the <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a> method of the second <b>Color</b> object. Finally, the code uses the second <b>Color</b> object to fill a rectangle.
 
 
 ```cpp

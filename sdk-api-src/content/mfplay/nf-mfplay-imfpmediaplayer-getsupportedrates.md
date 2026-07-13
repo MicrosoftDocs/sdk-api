@@ -4,7 +4,8 @@ title: IMFPMediaPlayer::GetSupportedRates (mfplay.h)
 description: Gets the range of supported playback rates.
 helpviewer_keywords: ["GetSupportedRates","GetSupportedRates method [Media Foundation]","GetSupportedRates method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetSupportedRates method","IMFPMediaPlayer.GetSupportedRates","IMFPMediaPlayer::GetSupportedRates","mf.imfpmediaplayer_getsupportedrates","mfplay/IMFPMediaPlayer::GetSupportedRates"]
 old-location: mf\imfpmediaplayer_getsupportedrates.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: e0e738e4-b8e4-41da-8b74-74ce06f17274
 ms.date: 12/05/2018
 ms.keywords: GetSupportedRates, GetSupportedRates method [Media Foundation], GetSupportedRates method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetSupportedRates method, IMFPMediaPlayer.GetSupportedRates, IMFPMediaPlayer::GetSupportedRates, mf.imfpmediaplayer_getsupportedrates, mfplay/IMFPMediaPlayer::GetSupportedRates
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Gets the range of supported playback rates.
@@ -82,7 +82,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_UNSUPPORTED_RATE</b></b></dt>
+<dt><b>MF_E_UNSUPPORTED_RATE</b></dt>
 </dl>
 </td>
 <td width="60%">

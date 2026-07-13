@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::GetForceFeedbackState </b>method retrieves the force-feedback state for the device.
+The <b>IDirectInputEffectDriver::GetForceFeedbackState </b> method retrieves the force-feedback state for the device.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_Description
 title: IEventPublisher::put_Description (eventsys.h)
-description: The display text for the event publisher.
+description: The display text for the event publisher. (Put)
 helpviewer_keywords: ["Description property [COM]","Description property [COM]","IEventPublisher interface","IEventPublisher interface [COM]","Description property","IEventPublisher.Description","IEventPublisher.put_Description","IEventPublisher::Description","IEventPublisher::get_Description","IEventPublisher::put_Description","_com_ieventpublisher_description","com.ieventpublisher_description","eventsys/IEventPublisher::Description","eventsys/IEventPublisher::get_Description","eventsys/IEventPublisher::put_Description","put_Description"]
 old-location: com\ieventpublisher_description.htm
 tech.root: com

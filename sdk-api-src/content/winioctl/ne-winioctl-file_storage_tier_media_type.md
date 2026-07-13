@@ -57,19 +57,19 @@ Specifies the storage media type.
 
 ## -enum-fields
 
-### -field FileStorageTierMediaTypeUnspecified
+### -field FileStorageTierMediaTypeUnspecified:0
 
 Media type is unspecified.
 
-### -field FileStorageTierMediaTypeDisk
+### -field FileStorageTierMediaTypeDisk:1
 
 Media type is an HDD (hard disk drive).
 
-### -field FileStorageTierMediaTypeSsd
+### -field FileStorageTierMediaTypeSsd:2
 
 Media type is an SSD (solid state drive).
 
-### -field FileStorageTierMediaTypeScm
+### -field FileStorageTierMediaTypeScm:4
 
 ### -field FileStorageTierMediaTypeMax
 

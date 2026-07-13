@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcServerInqDefaultPrincNameW
 title: RpcServerInqDefaultPrincNameW function (rpcdce.h)
-description: The RpcServerInqDefaultPrincName function obtains the default principal name for a given authentication service.
-helpviewer_keywords: ["RpcServerInqDefaultPrincName","RpcServerInqDefaultPrincName function [RPC]","RpcServerInqDefaultPrincNameA","RpcServerInqDefaultPrincNameW","_rpc_rpcserverinqdefaultprincname","rpc.rpcserverinqdefaultprincname","rpcdce/RpcServerInqDefaultPrincName","rpcdce/RpcServerInqDefaultPrincNameA","rpcdce/RpcServerInqDefaultPrincNameW"]
+description: The RpcServerInqDefaultPrincNameW (Unicode) function (rpcdce.h) obtains the default principal name for a given authentication service. 
+helpviewer_keywords: ["RpcServerInqDefaultPrincName", "RpcServerInqDefaultPrincName function [RPC]", "RpcServerInqDefaultPrincNameW", "_rpc_rpcserverinqdefaultprincname", "rpc.rpcserverinqdefaultprincname", "rpcdce/RpcServerInqDefaultPrincName", "rpcdce/RpcServerInqDefaultPrincNameW"]
 old-location: rpc\rpcserverinqdefaultprincname.htm
 tech.root: Rpc
 ms.assetid: b265e0ae-cdef-450e-bf16-25da5bea7d5e
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcServerInqDefaultPrincName, RpcServerInqDefaultPrincName function [RPC], RpcServerInqDefaultPrincNameA, RpcServerInqDefaultPrincNameW, _rpc_rpcserverinqdefaultprincname, rpc.rpcserverinqdefaultprincname, rpcdce/RpcServerInqDefaultPrincName, rpcdce/RpcServerInqDefaultPrincNameA, rpcdce/RpcServerInqDefaultPrincNameW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -110,7 +110,7 @@ This function is the recommended way to obtain the server principal name to be p
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcServerInqDefaultPrincName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcServerInqDefaultPrincName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

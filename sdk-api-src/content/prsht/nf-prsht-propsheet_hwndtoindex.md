@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_HwndToIndex","PropSheet_HwndToIndex macro [Wind
 old-location: controls\PropSheet_HwndToIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_hwndtoindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_HwndToIndex, PropSheet_HwndToIndex macro [Windows Controls], _win32_PropSheet_HwndToIndex, _win32_PropSheet_HwndToIndex_cpp, controls.PropSheet_HwndToIndex, controls._win32_PropSheet_HwndToIndex, prsht/PropSheet_HwndToIndex
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # PropSheet_HwndToIndex macro
+
+## -syntax
+
+```cpp
+int PropSheet_HwndToIndex(
+   HWND hDlg,
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the zero-based index of the property sheet page specified by <i>hwnd</i> if successful. Otherwise, it returns -1.
 
 
 ## -description

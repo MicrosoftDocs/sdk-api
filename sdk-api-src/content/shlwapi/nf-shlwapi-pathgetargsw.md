@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathGetArgsW
 title: PathGetArgsW function (shlwapi.h)
-description: Finds the command line arguments within a given path.
-helpviewer_keywords: ["PathGetArgs","PathGetArgs function [Windows Shell]","PathGetArgsA","PathGetArgsW","_win32_PathGetArgs","shell.PathGetArgs","shlwapi/PathGetArgs","shlwapi/PathGetArgsA","shlwapi/PathGetArgsW"]
+description: Finds the command line arguments within a given path. (Unicode)
+helpviewer_keywords: ["PathGetArgs", "PathGetArgs function [Windows Shell]", "PathGetArgsW", "_win32_PathGetArgs", "shell.PathGetArgs", "shlwapi/PathGetArgs", "shlwapi/PathGetArgsW"]
 old-location: shell\PathGetArgs.htm
 tech.root: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9
@@ -148,5 +148,5 @@ The arg(s)found in path 4 were      :
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathGetArgs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathGetArgs as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

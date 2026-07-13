@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.CreateDirectoryA
 title: CreateDirectoryA function (fileapi.h)
-description: Creates a new directory.
-helpviewer_keywords: ["CreateDirectory","CreateDirectory function [Files]","CreateDirectoryA","CreateDirectoryW","_win32_createdirectory","base.createdirectory","fileapi/CreateDirectory","fileapi/CreateDirectoryA","fileapi/CreateDirectoryW","fs.createdirectory","winbase/CreateDirectory","winbase/CreateDirectoryA","winbase/CreateDirectoryW"]
+description: Creates a new directory. (CreateDirectoryA)
+helpviewer_keywords: ["CreateDirectoryA", "fileapi/CreateDirectoryA"]
 old-location: fs\createdirectory.htm
 tech.root: fs
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -75,17 +78,14 @@ To perform this
 
 The path of the directory to be created.
 
-For the ANSI version of this function, there is a default string size limit for paths of 248 characters (<b>MAX_PATH</b> - enough room for a 8.3 filename). To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\\\?\\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateDirectoryW</b>), you can opt-in to remove the 248 character limitation without prepending "\\?\". The 255 character limit per path segment still applies. See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure. The <b>lpSecurityDescriptor</b> member of the structure specifies a security 
        descriptor for the new directory. If <i>lpSecurityAttributes</i> is 
        <b>NULL</b>, the directory gets a default security descriptor. The ACLs in the default 
@@ -221,7 +221,7 @@ For an example, see
 
 
 > [!NOTE]
-> The fileapi.h header defines CreateDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The fileapi.h header defines CreateDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -249,7 +249,7 @@ For an example, see
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

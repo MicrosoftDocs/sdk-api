@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlGetPartA
 title: UrlGetPartA function (shlwapi.h)
-description: Accepts a URL string and returns a specified part of that URL.
-helpviewer_keywords: ["URL_PARTFLAG_KEEPSCHEME","URL_PART_HOSTNAME","URL_PART_PASSWORD","URL_PART_PORT","URL_PART_QUERY","URL_PART_SCHEME","URL_PART_USERNAME","UrlGetPart","UrlGetPart function [Windows Shell]","UrlGetPartA","UrlGetPartW","_win32_UrlGetPart","shell.UrlGetPart","shlwapi/UrlGetPart","shlwapi/UrlGetPartA","shlwapi/UrlGetPartW"]
+description: Accepts a URL string and returns a specified part of that URL. (ANSI)
+helpviewer_keywords: ["URL_PARTFLAG_KEEPSCHEME", "URL_PART_HOSTNAME", "URL_PART_PASSWORD", "URL_PART_PORT", "URL_PART_QUERY", "URL_PART_SCHEME", "URL_PART_USERNAME", "UrlGetPartA", "shlwapi/UrlGetPartA"]
 old-location: shell\UrlGetPart.htm
 tech.root: shell
 ms.assetid: 5f43dedd-c543-46b2-b90e-f0af576d2605
@@ -141,5 +141,5 @@ Returns S_OK if successful. The value pointed to by <i>pcchOut</i> will be set t
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines UrlGetPart as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlGetPart as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_ApproximateViewRect","ListView_ApproximateViewRe
 old-location: controls\ListView_ApproximateViewRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_approximateviewrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_ApproximateViewRect, ListView_ApproximateViewRect macro [Windows Controls], _win32_ListView_ApproximateViewRect, _win32_ListView_ApproximateViewRect_cpp, commctrl/ListView_ApproximateViewRect, controls.ListView_ApproximateViewRect, controls._win32_ListView_ApproximateViewRect
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,23 @@ api_name:
 
 # ListView_ApproximateViewRect macro
 
+## -syntax
+
+```cpp
+DWORD ListView_ApproximateViewRect(
+   HWND hwnd,
+   int    iWidth,
+   int    iHeight,
+   int    iCount
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>DWORD</b> value that holds the approximate width (in the LOWORD) and height (in the HIWORD) needed to display the items, in pixels.
+
 
 ## -description
 
@@ -56,7 +73,7 @@ Calculates the approximate width and height required to display a given number o
 
 ### -param hwnd
 
-Type: <b>hwndLV</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 

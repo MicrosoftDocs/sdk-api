@@ -61,7 +61,7 @@ Represents the friendly name, type, and property identifier (ID) information.
 
 ### -field wcsFriendlyName
 
-The friendly name for a property. The friendly name can be used in an Indexing Service query, column list, or sort order parsed by the <a href="/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttree">CITextToSelectTree</a> function and the <a href="/windows/desktop/api/ntquery/nf-ntquery-citexttofulltree">CITextToFullTree</a> function. Friendly names must be entered in uppercase.
+The friendly name for a property. The friendly name can be used in an Indexing Service query, column list, or sort order parsed by the <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/ntquery/nf-ntquery-citexttoselecttree.md">CITextToSelectTree</a> function and the <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/ntquery/nf-ntquery-citexttofulltree.md">CITextToFullTree</a> function. Friendly names must be entered in uppercase.
 
 ### -field dbType
 
@@ -73,11 +73,11 @@ The property ID for the property. Indexing Service properties must be either DBK
 
 ## -see-also
 
-<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttofulltree">CITextToFullTree</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/ntquery/nf-ntquery-citexttofulltree.md">CITextToFullTree</a>
 
 
 
-<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttree">CITextToSelectTree</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/ntquery/nf-ntquery-citexttoselecttree.md">CITextToSelectTree</a>
 
 
 

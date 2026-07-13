@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetDevConfigW
 title: lineGetDevConfigW function (tapi.h)
-description: The lineGetDevConfig function returns an &quot;opaque&quot; data structure object, the contents of which are specific to the line (service provider) and device class.
-helpviewer_keywords: ["_tapi2_linegetdevconfig","lineGetDevConfig","lineGetDevConfig function [TAPI 2.2]","lineGetDevConfigA","lineGetDevConfigW","tapi/lineGetDevConfig","tapi/lineGetDevConfigA","tapi/lineGetDevConfigW","tapi2.linegetdevconfig"]
+description: The lineGetDevConfigW (Unicode) function returns an "opaque" data structure object, the contents of which are specific to the line and device class.
+helpviewer_keywords: ["_tapi2_linegetdevconfig", "lineGetDevConfig", "lineGetDevConfig function [TAPI 2.2]", "lineGetDevConfigW", "tapi/lineGetDevConfig", "tapi/lineGetDevConfigW", "tapi2.linegetdevconfig"]
 old-location: tapi2\linegetdevconfig.htm
 tech.root: tapi3
 ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig function [TAPI 2.2], lineGetDevConfigA, lineGetDevConfigW, tapi/lineGetDevConfig, tapi/lineGetDevConfigA, tapi/lineGetDevConfigW, tapi2.linegetdevconfig
 req.header: tapi.h
 req.include-header: 
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ras-tapi32-l1-1-1.dll
  - Tapi32.dll
 api_name:
  - lineGetDevConfig
@@ -110,7 +111,7 @@ The exact format of the data contained within the structure is specific to the l
 
 
 > [!NOTE]
-> The tapi.h header defines lineGetDevConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetDevConfig as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

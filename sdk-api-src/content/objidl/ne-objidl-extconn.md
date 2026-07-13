@@ -1,12 +1,12 @@
 ---
 UID: NE:objidl.tagEXTCONN
 title: EXTCONN (objidl.h)
-description: Specifies the type of external connection existing on an embedded object.
+description: The EXTCONN enumeration (objidl.h) specifies the type of external connection existing on an embedded object.
 helpviewer_keywords: ["EXTCONN","EXTCONN enumeration [COM]","EXTCONN_CALLABLE","EXTCONN_STRONG","EXTCONN_WEAK","_com_EXTCONN","com.extconn","objidlbase/EXTCONN","objidlbase/EXTCONN_CALLABLE","objidlbase/EXTCONN_STRONG","objidlbase/EXTCONN_WEAK"]
 old-location: com\extconn.htm
 tech.root: com
 ms.assetid: 95c7de47-9f81-4316-99b8-0f5f0aa54d65
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: EXTCONN, EXTCONN enumeration [COM], EXTCONN_CALLABLE, EXTCONN_STRONG, EXTCONN_WEAK, _com_EXTCONN, com.extconn, objidlbase/EXTCONN, objidlbase/EXTCONN_CALLABLE, objidlbase/EXTCONN_STRONG, objidlbase/EXTCONN_WEAK
 req.header: objidl.h
 req.include-header: Objidl.h
@@ -56,15 +56,15 @@ Specifies the type of external connection existing on an embedded object.
 
 ## -enum-fields
 
-### -field EXTCONN_STRONG
+### -field EXTCONN_STRONG:0x1
 
 The external connection is a link. If this value is specified, the external connection must keep the object alive until all strong external connections are cleared through <a href="/windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection">IExternalConnection::ReleaseConnection</a>.
 
-### -field EXTCONN_WEAK
+### -field EXTCONN_WEAK:0x2
 
 This value is not used.
 
-### -field EXTCONN_CALLABLE
+### -field EXTCONN_CALLABLE:0x4
 
 This value is not used.
 

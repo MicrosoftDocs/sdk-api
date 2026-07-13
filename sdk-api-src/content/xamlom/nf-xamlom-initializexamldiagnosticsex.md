@@ -72,7 +72,7 @@ The name of the DLL to be injected in the process.
 
 ### -param tapClsid [in]
 
-The COM CLSID of the DLL to be injected in the process.
+The COM CLSID of an object implementing IObjectWithSite, to be created from the DLL to be injected in the process. The site object will implement IXamlDiagnostics.
 
 ### -param wszInitializationData [in]
 

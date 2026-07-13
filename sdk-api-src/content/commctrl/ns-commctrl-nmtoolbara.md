@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTOOLBARA
 title: NMTOOLBARA (commctrl.h)
-description: Contains information used to process toolbar notification codes. This structure supersedes the TBNOTIFY structure.
+description: Contains information used to process toolbar notification codes. This structure supersedes the TBNOTIFY structure. (ANSI)
 helpviewer_keywords: ["*LPNMTOOLBARA","LPNMTOOLBAR","LPNMTOOLBAR structure pointer [Windows Controls]","NMTOOLBAR","NMTOOLBAR structure [Windows Controls]","NMTOOLBARA","NMTOOLBARW","_win32_NMTOOLBAR","_win32_NMTOOLBAR_cpp","commctrl/LPNMTOOLBAR","commctrl/NMTOOLBAR","commctrl/NMTOOLBARA","commctrl/NMTOOLBARW","controls.NMTOOLBAR","controls._win32_NMTOOLBAR"]
 old-location: controls\NMTOOLBAR.htm
 tech.root: Controls
@@ -103,4 +103,4 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines NMTOOLBAR as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines NMTOOLBAR as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

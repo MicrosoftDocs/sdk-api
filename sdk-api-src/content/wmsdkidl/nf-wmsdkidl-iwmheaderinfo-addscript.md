@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddScript","AddScript method [windows Media Format]","Add
 old-location: wmformat\iwmheaderinfo_addscript.htm
 tech.root: wmformat
 ms.assetid: e20644fb-077e-4eee-8802-6099002f3969
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AddScript, AddScript method [windows Media Format], AddScript method [windows Media Format],IWMHeaderInfo interface, AddScript method [windows Media Format],IWMHeaderInfo2 interface, AddScript method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],AddScript method, IWMHeaderInfo.AddScript, IWMHeaderInfo2 interface [windows Media Format],AddScript method, IWMHeaderInfo2::AddScript, IWMHeaderInfo3 interface [windows Media Format],AddScript method, IWMHeaderInfo3::AddScript, IWMHeaderInfo::AddScript, IWMHeaderInfoAddScript, wmformat.iwmheaderinfo_addscript, wmsdkidl/IWMHeaderInfo2::AddScript, wmsdkidl/IWMHeaderInfo3::AddScript, wmsdkidl/IWMHeaderInfo::AddScript
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,6 +55,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AddScript</b> method adds a script, consisting of type and command strings, and a specific time, to the header section of the ASF file.
 

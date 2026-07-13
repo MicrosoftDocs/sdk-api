@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.GetNtmsUIOptionsA
 title: GetNtmsUIOptionsA function (ntmsapi.h)
-description: The GetNtmsUIOptions function obtains the list of computer names to which the specified type of user interface is being directed for the given object.
-helpviewer_keywords: ["GetNtmsUIOptions","GetNtmsUIOptions function [Files]","GetNtmsUIOptionsA","GetNtmsUIOptionsW","NTMS_UITYPE_ERR","NTMS_UITYPE_INFO","NTMS_UITYPE_REQ","_zaw_getntmsuioptions","base.getntmsuioptions","fs.getntmsuioptions","ntmsapi/GetNtmsUIOptions","ntmsapi/GetNtmsUIOptionsA","ntmsapi/GetNtmsUIOptionsW"]
+description: The GetNtmsUIOptions function obtains the list of computer names to which the specified type of user interface is being directed for the given object. (ANSI)
+helpviewer_keywords: ["GetNtmsUIOptionsA", "NTMS_UITYPE_ERR", "NTMS_UITYPE_INFO", "NTMS_UITYPE_REQ", "ntmsapi/GetNtmsUIOptionsA"]
 old-location: fs\getntmsuioptions.htm
 tech.root: fs
 ms.assetid: 69267981-1d68-4af9-ae4b-5d4cb3a18c57
@@ -253,7 +253,7 @@ A call to
 
 
 > [!NOTE]
-> The ntmsapi.h header defines GetNtmsUIOptions as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntmsapi.h header defines GetNtmsUIOptions as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

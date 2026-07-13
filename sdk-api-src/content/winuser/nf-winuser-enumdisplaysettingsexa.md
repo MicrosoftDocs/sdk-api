@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.EnumDisplaySettingsExA
 title: EnumDisplaySettingsExA function (winuser.h)
-description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function.
-helpviewer_keywords: ["EDS_RAWMODE","EDS_ROTATEDMODE","ENUM_CURRENT_SETTINGS","ENUM_REGISTRY_SETTINGS","EnumDisplaySettingsEx","EnumDisplaySettingsEx function [Windows GDI]","EnumDisplaySettingsExA","EnumDisplaySettingsExW","_win32_EnumDisplaySettingsEx","gdi.enumdisplaysettingsex","winuser/EnumDisplaySettingsEx","winuser/EnumDisplaySettingsExA","winuser/EnumDisplaySettingsExW"]
+description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function. (ANSI)
+helpviewer_keywords: ["EDS_RAWMODE", "EDS_ROTATEDMODE", "ENUM_CURRENT_SETTINGS", "ENUM_REGISTRY_SETTINGS", "EnumDisplaySettingsExA", "winuser/EnumDisplaySettingsExA"]
 old-location: gdi\enumdisplaysettingsex.htm
 tech.root: gdi
 ms.assetid: 99794fb1-7ba3-4864-bf6a-e3a514fa7917
@@ -170,7 +170,7 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 > [!NOTE]
-> The winuser.h header defines EnumDisplaySettingsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines EnumDisplaySettingsEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

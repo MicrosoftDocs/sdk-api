@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-core-win32k-base-export-l1-1-0.dll
  - Win32k.sys
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32.dll
@@ -55,7 +56,7 @@ api_name:
 
 The <b>EngCreateSemaphore</b> function creates a semaphore object.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymDeleteSymbolW
 title: SymDeleteSymbolW function (dbghelp.h)
-description: Deletes a virtual symbol from the specified module.
+description: The SymDeleteSymbolW (Unicode) function deletes a virtual symbol from the specified module. 
 helpviewer_keywords: ["SymDeleteSymbol","SymDeleteSymbol function","SymDeleteSymbolW","_win32_symdeletesymbol","base.symdeletesymbol","dbghelp/SymDeleteSymbol","dbghelp/SymDeleteSymbolW"]
 old-location: base\symdeletesymbol.htm
 tech.root: Debug
 ms.assetid: 9fc5a19d-5984-4d0a-a3d6-3da474055f5e
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymDeleteSymbol, SymDeleteSymbol function, SymDeleteSymbolW, _win32_symdeletesymbol, base.symdeletesymbol, dbghelp/SymDeleteSymbol, dbghelp/SymDeleteSymbolW
 req.header: dbghelp.h
 req.include-header: 
@@ -95,7 +95,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymDeleteSymbol as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymDeleteSymbol as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

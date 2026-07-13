@@ -58,6 +58,10 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval
+
+An [IUpdateDownloadContentCollection](nn-wuapi-iupdatedownloadcontentcollection.md) that allows you to enumerate the URLs for download contents associated with an update.
+
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

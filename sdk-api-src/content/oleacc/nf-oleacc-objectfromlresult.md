@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-oleacc-l1-1-2.dll
  - Oleacc.dll
  - ext-ms-win-oleacc-l1-1-1.dll
 api_name:
@@ -73,13 +74,13 @@ Reference identifier of the interface to be retrieved. This is IID_IAccessible.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
-Value sent by the associated <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message in its <i>wParam</i> parameter.
+Value sent by the associated [WM_GETOBJECT](/windows/win32/winauto/wm-getobject) message in its <i>wParam</i> parameter.
 
 ### -param ppvObject [out]
 
 Type: <b>void**</b>
 
-Receives the address of the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface on the object that corresponds to the <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message.
+Receives the address of the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface on the object that corresponds to the [WM_GETOBJECT](/windows/win32/winauto/wm-getobject) message.
 
 ## -returns
 
@@ -142,4 +143,4 @@ An unexpected error occurred.
 
 ## -see-also
 
-<a href="/windows/desktop/WinAuto/wm-getobject-window-message">WM_GETOBJECT Window Message</a>
+[WM_GETOBJECT](/windows/win32/winauto/wm-getobject)

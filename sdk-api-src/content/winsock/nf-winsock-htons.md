@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.htons
 title: htons function (winsock.h)
-description: The htons function converts a u_short from host to TCP/IP network byte order (which is big-endian).
+description: The htons function (winsock.h) converts a u_short from host to TCP/IP network byte order (which is big-endian).
 helpviewer_keywords: ["_win32_htons_2","htons","htons function [Winsock]","winsock.htons_2","winsock/htons"]
 old-location: winsock\htons_2.htm
 tech.root: WinSock
 ms.assetid: 3dae2655-2b3c-41d9-9650-125ac393d64a
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: _win32_htons_2, htons, htons function [Winsock], winsock.htons_2, winsock/htons
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -72,7 +72,7 @@ The
 The 
 <b>htons</b> function can be used to convert an IP port number in host byte order to the IP port number in network byte order. 
 
-The <b>htons</b>function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>htons</b> function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

@@ -98,15 +98,19 @@ The behavior of <b>OpenSharedResourceByName</b> is similar to the behavior of th
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>ID3D11Device1* pDevice;
+
+``` syntax
+ID3D11Device1* pDevice;
 ID3D11Texture2D* pTexture2D;
 
-pDevice-&gt;OpenSharedResourceByName(
-          “MySurface”, 
-          DXGI_SHARED_REOUSRCE_READ, 
+pDevice->OpenSharedResourceByName(
+          "MySurface", 
+          DXGI_SHARED_RESOURCE_READ, 
           __uuidof(ID3D11Texture2D), 
-         (void**)&amp;pTexture2D);
-</code></pre>
+         (void**)&pTexture2D);
+
+```
+
 
 ## -see-also
 

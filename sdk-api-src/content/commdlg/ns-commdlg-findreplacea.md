@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagFINDREPLACEA
 title: FINDREPLACEA (commdlg.h)
-description: Contains information that the FindText and ReplaceText functions use to initialize the Find and Replace dialog boxes.
+description: Contains information that the FindText and ReplaceText functions use to initialize the Find and Replace dialog boxes. (ANSI)
 helpviewer_keywords: ["*LPFINDREPLACEA","FINDREPLACE","FINDREPLACE structure [Dialog Boxes]","FINDREPLACEA","FINDREPLACEW","FR_DIALOGTERM","FR_DOWN","FR_ENABLEHOOK","FR_ENABLETEMPLATE","FR_ENABLETEMPLATEHANDLE","FR_FINDNEXT","FR_HIDEMATCHCASE","FR_HIDEUPDOWN","FR_HIDEWHOLEWORD","FR_MATCHCASE","FR_NOMATCHCASE","FR_NOUPDOWN","FR_NOWHOLEWORD","FR_REPLACE","FR_REPLACEALL","FR_SHOWHELP","FR_WHOLEWORD","LPFINDREPLACE","LPFINDREPLACE structure pointer [Dialog Boxes]","_win32_FINDREPLACE_str","_win32_findreplace_str_cpp","commdlg/FINDREPLACE","commdlg/FINDREPLACEA","commdlg/FINDREPLACEW","commdlg/LPFINDREPLACE","dlgbox.findreplace_str","winui._win32_findreplace_str"]
 old-location: dlgbox\findreplace_str.htm
 tech.root: dlgbox
@@ -363,4 +363,4 @@ The name of the dialog box template resource in the module identified by the <b>
 ## -remarks
 
 > [!NOTE]
-> The commdlg.h header defines FINDREPLACE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commdlg.h header defines FINDREPLACE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_ProviderNameWStr
 title: IEnroll::get_ProviderNameWStr (xenroll.h)
-description: Sets or retrieves the name of the cryptographic service provider (CSP) to use.
+description: Sets or retrieves the name of the cryptographic service provider (CSP) to use. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","ProviderNameWStr property","IEnroll.ProviderNameWStr","IEnroll.get_ProviderNameWStr","IEnroll::ProviderNameWStr","IEnroll::get_ProviderNameWStr","IEnroll::put_ProviderNameWStr","ProviderNameWStr property [Security]","ProviderNameWStr property [Security]","IEnroll interface","get_ProviderNameWStr","security.ienroll4_providernamewstr","xenroll/IEnroll::ProviderNameWStr","xenroll/IEnroll::get_ProviderNameWStr","xenroll/IEnroll::put_ProviderNameWStr"]
 old-location: security\ienroll4_providernamewstr.htm
 tech.root: security

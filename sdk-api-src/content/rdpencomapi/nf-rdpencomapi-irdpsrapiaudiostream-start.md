@@ -52,7 +52,7 @@ api_name:
 
 Starts the audio stream. The audio stream must be initialized by calling the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-initialize">Initialize</a> method before it can be started.
 
-## -parameters
+
 
 ## -returns
 

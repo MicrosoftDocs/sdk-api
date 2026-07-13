@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_POWERMESSAGEWAKE_PARAMS_W
 title: SP_POWERMESSAGEWAKE_PARAMS_W (setupapi.h)
-description: An SP_POWERMESSAGEWAKE_PARAMS structure corresponds to a DIF_POWERMESSAGEWAKE installation request.
+description: An SP_POWERMESSAGEWAKE_PARAMS structure corresponds to a DIF_POWERMESSAGEWAKE installation request. (Unicode)
 helpviewer_keywords: ["*PSP_POWERMESSAGEWAKE_PARAMS_W","PSP_POWERMESSAGEWAKE_PARAMS","PSP_POWERMESSAGEWAKE_PARAMS structure pointer [Device and Driver Installation]","SP_POWERMESSAGEWAKE_PARAMS","SP_POWERMESSAGEWAKE_PARAMS structure [Device and Driver Installation]","SP_POWERMESSAGEWAKE_PARAMS_W","devinst.sp_powermessagewake_params","di-struct_ac0928d6-b3df-4bf2-8304-a6b03eaa63a8.xml","setupapi/PSP_POWERMESSAGEWAKE_PARAMS","setupapi/SP_POWERMESSAGEWAKE_PARAMS"]
 old-location: devinst\sp_powermessagewake_params.htm
 tech.root: devinst
@@ -75,7 +75,7 @@ Windows only sends the DIF_POWERMESSAGEWAKE request if the drivers for the devic
 
 
 > [!NOTE]
-> The setupapi.h header defines SP_POWERMESSAGEWAKE_PARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SP_POWERMESSAGEWAKE_PARAMS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

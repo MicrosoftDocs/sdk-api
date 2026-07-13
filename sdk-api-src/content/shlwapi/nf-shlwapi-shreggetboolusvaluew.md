@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegGetBoolUSValueW
 title: SHRegGetBoolUSValueW function (shlwapi.h)
-description: Retrieves a Boolean value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHRegGetBoolUSValue","SHRegGetBoolUSValue function [Windows Shell]","SHRegGetBoolUSValueA","SHRegGetBoolUSValueW","_win32_SHRegGetBoolUSValue","shell.SHRegGetBoolUSValue","shlwapi/SHRegGetBoolUSValue","shlwapi/SHRegGetBoolUSValueA","shlwapi/SHRegGetBoolUSValueW"]
+description: Retrieves a Boolean value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
+helpviewer_keywords: ["SHRegGetBoolUSValue", "SHRegGetBoolUSValue function [Windows Shell]", "SHRegGetBoolUSValueW", "_win32_SHRegGetBoolUSValue", "shell.SHRegGetBoolUSValue", "shlwapi/SHRegGetBoolUSValue", "shlwapi/SHRegGetBoolUSValueW"]
 old-location: shell\SHRegGetBoolUSValue.htm
 tech.root: shell
 ms.assetid: afd95ce4-0ced-48ce-814f-1d02d7913be5
@@ -93,4 +93,4 @@ Returns either the value from the registry, or <i>fDefault</i> if none is found.
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegGetBoolUSValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegGetBoolUSValue as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetSummaryInformationA
 title: MsiGetSummaryInformationA function (msiquery.h)
-description: The MsiGetSummaryInformation function obtains a handle to the _SummaryInformation stream for an installer database. This function returns a handle that should be closed using MsiCloseHandle.
-helpviewer_keywords: ["MsiGetSummaryInformation","MsiGetSummaryInformation function","MsiGetSummaryInformationA","MsiGetSummaryInformationW","_msi_msigetsummaryinformation","msiquery/MsiGetSummaryInformation","msiquery/MsiGetSummaryInformationA","msiquery/MsiGetSummaryInformationW","setup.msigetsummaryinformation"]
+description: The MsiGetSummaryInformation function obtains a handle to the _SummaryInformation stream for an installer database. This function returns a handle that should be closed using MsiCloseHandle. (ANSI)
+helpviewer_keywords: ["MsiGetSummaryInformationA", "msiquery/MsiGetSummaryInformationA"]
 old-location: setup\msigetsummaryinformation.htm
 tech.root: setup
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
@@ -102,7 +102,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiGetSummaryInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiGetSummaryInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

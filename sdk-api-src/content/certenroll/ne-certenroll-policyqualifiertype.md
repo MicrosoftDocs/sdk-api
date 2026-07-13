@@ -54,19 +54,19 @@ The <b>PolicyQualifierType</b> enumeration type specifies the type of qualifier 
 
 ## -enum-fields
 
-### -field PolicyQualifierTypeUnknown
+### -field PolicyQualifierTypeUnknown:0
 
 The qualifier type is not specified.
 
-### -field PolicyQualifierTypeUrl
+### -field PolicyQualifierTypeUrl:1
 
 The qualifier is a URL that points to a Certification Practice Statement (CPS) that has been defined by the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> to outline the policies under which the <a href="/windows/desktop/SecGloss/c-gly">certificate</a> was issued and the purposes for which the certificate can be used.
 
-### -field PolicyQualifierTypeUserNotice
+### -field PolicyQualifierTypeUserNotice:2
 
 The qualifier is a text statement to be displayed by the application to any user who relies on the certificate. The user notice identifies the permitted uses of the certificate.
 
-### -field PolicyQualifierTypeFlags
+### -field PolicyQualifierTypeFlags:3
 
 ## -see-also
 

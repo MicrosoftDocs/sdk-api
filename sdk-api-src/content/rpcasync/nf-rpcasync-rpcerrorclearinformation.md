@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RpcErrorClearInformation</b> function clears all extended error information on the current thread.
 
-## -parameters
+
 
 ## -returns
 

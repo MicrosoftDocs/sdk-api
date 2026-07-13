@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcBindingFromStringBindingW
 title: RpcBindingFromStringBindingW function (rpcdce.h)
-description: Returns a binding handle from a string representation of a binding handle.
-helpviewer_keywords: ["RpcBindingFromStringBinding","RpcBindingFromStringBinding function [RPC]","RpcBindingFromStringBindingA","RpcBindingFromStringBindingW","_rpc_rpcbindingfromstringbinding","rpc.rpcbindingfromstringbinding","rpcdce/RpcBindingFromStringBinding","rpcdce/RpcBindingFromStringBindingA","rpcdce/RpcBindingFromStringBindingW"]
+description: The RpcBindingFromStringBindingW (Unicode) function (rpcdce.h) returns a binding handle from a string representation of a binding handle.
+helpviewer_keywords: ["RpcBindingFromStringBinding", "RpcBindingFromStringBinding function [RPC]", "RpcBindingFromStringBindingW", "_rpc_rpcbindingfromstringbinding", "rpc.rpcbindingfromstringbinding", "rpcdce/RpcBindingFromStringBinding", "rpcdce/RpcBindingFromStringBindingW"]
 old-location: rpc\rpcbindingfromstringbinding.htm
 tech.root: Rpc
 ms.assetid: fd82fb9f-da0e-46fb-9c11-a75a9b6ee858
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcBindingFromStringBinding, RpcBindingFromStringBinding function [RPC], RpcBindingFromStringBindingA, RpcBindingFromStringBindingW, _rpc_rpcbindingfromstringbinding, rpc.rpcbindingfromstringbinding, rpcdce/RpcBindingFromStringBinding, rpcdce/RpcBindingFromStringBindingA, rpcdce/RpcBindingFromStringBindingW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -195,7 +195,7 @@ When an application is finished using the <i>Binding</i> parameter, the applicat
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcBindingFromStringBinding as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcBindingFromStringBinding as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

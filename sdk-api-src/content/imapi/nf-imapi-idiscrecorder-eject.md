@@ -52,7 +52,7 @@ api_name:
 
 Unlocks and ejects the tray of the disc recorder, if possible.
 
-## -parameters
+
 
 ## -returns
 

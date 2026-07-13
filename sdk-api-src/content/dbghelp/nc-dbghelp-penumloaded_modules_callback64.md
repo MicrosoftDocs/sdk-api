@@ -1,12 +1,12 @@
 ---
 UID: NC:dbghelp.PENUMLOADED_MODULES_CALLBACK64
 title: PENUMLOADED_MODULES_CALLBACK64 (dbghelp.h)
-description: An application-defined callback function used with the EnumerateLoadedModules64 function.
+description: PENUMLOADED_MODULES_CALLBACK64 (dbghelp.h) is an application-defined callback function used with the EnumerateLoadedModules64 function.
 helpviewer_keywords: ["EnumerateLoadedModulesProc64","EnumerateLoadedModulesProc64 callback","EnumerateLoadedModulesProc64 callback function","PENUMLOADED_MODULES_CALLBACK","PENUMLOADED_MODULES_CALLBACK64","PENUMLOADED_MODULES_CALLBACKW64","_win32_enumerateloadedmodulesproc64","base.enumerateloadedmodulesproc64","dbghelp/EnumerateLoadedModulesProc64"]
 old-location: base\enumerateloadedmodulesproc64.htm
 tech.root: Debug
 ms.assetid: f6acb9cf-81f7-4b05-95e2-9628855f6b51
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: EnumerateLoadedModulesProc64, EnumerateLoadedModulesProc64 callback, EnumerateLoadedModulesProc64 callback function, PENUMLOADED_MODULES_CALLBACK, PENUMLOADED_MODULES_CALLBACK64, PENUMLOADED_MODULES_CALLBACKW64, _win32_enumerateloadedmodulesproc64, base.enumerateloadedmodulesproc64, dbghelp/EnumerateLoadedModulesProc64
 req.header: dbghelp.h
 req.include-header: 

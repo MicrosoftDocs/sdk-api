@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientZip
 title: IFaxDoc::get_RecipientZip (faxcom.h)
-description: Sets or retrieves the RecipientZip property of a FaxDoc object. The RecipientZip property is a null-terminated string that contains the ZIP code of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientZip property of a FaxDoc object. The RecipientZip property is a null-terminated string that contains the ZIP code of the recipient of the fax transmission. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientZip property","IFaxDoc.RecipientZip","IFaxDoc.get_RecipientZip","IFaxDoc::RecipientZip","IFaxDoc::get_RecipientZip","IFaxDoc::put_RecipientZip","RecipientZip property [Fax Service]","RecipientZip property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientzip","fax._mfax_ifaxdoc_get_recipientzip","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientzip_cpp","faxcom/IFaxDoc::RecipientZip","faxcom/IFaxDoc::get_RecipientZip","faxcom/IFaxDoc::put_RecipientZip","get_RecipientZip"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientzip_cpp.htm
 tech.root: Fax

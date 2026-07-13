@@ -55,31 +55,31 @@ Enumerates the types of shaders that Direct3D recognizes.
 
 ## -enum-fields
 
-### -field D3D12_SHVER_PIXEL_SHADER
+### -field D3D12_SHVER_PIXEL_SHADER:0
 
 Pixel shader.
 
-### -field D3D12_SHVER_VERTEX_SHADER
+### -field D3D12_SHVER_VERTEX_SHADER:1
 
 Vertex shader.
 
-### -field D3D12_SHVER_GEOMETRY_SHADER
+### -field D3D12_SHVER_GEOMETRY_SHADER:2
 
 Geometry shader.
 
-### -field D3D12_SHVER_HULL_SHADER
+### -field D3D12_SHVER_HULL_SHADER:3
 
 Hull shader.
 
-### -field D3D12_SHVER_DOMAIN_SHADER
+### -field D3D12_SHVER_DOMAIN_SHADER:4
 
 Domain shader.
 
-### -field D3D12_SHVER_COMPUTE_SHADER
+### -field D3D12_SHVER_COMPUTE_SHADER:5
 
 Compute shader.
 
-### -field D3D12_SHVER_RESERVED0
+### -field D3D12_SHVER_RESERVED0:0xFFF0
 
 Indicates the end of the enumeration.
 

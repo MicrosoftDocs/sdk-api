@@ -4,7 +4,8 @@ title: Propidlbase.h header
 ms.assetid: 0bfbc614-51e7-3d64-9e9b-adcb839b500b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: stg
 f1_keywords:
  - propidlbase

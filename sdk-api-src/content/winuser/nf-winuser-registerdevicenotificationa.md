@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.RegisterDeviceNotificationA
 title: RegisterDeviceNotificationA function (winuser.h)
-description: Registers the device or type of device for which a window will receive notifications.
-helpviewer_keywords: ["DEVICE_NOTIFY_ALL_INTERFACE_CLASSES","DEVICE_NOTIFY_SERVICE_HANDLE","DEVICE_NOTIFY_WINDOW_HANDLE","RegisterDeviceNotification","RegisterDeviceNotification function","RegisterDeviceNotificationA","RegisterDeviceNotificationW","_win32_registerdevicenotification","base.registerdevicenotification","winuser/RegisterDeviceNotification","winuser/RegisterDeviceNotificationA","winuser/RegisterDeviceNotificationW"]
+description: Registers the device or type of device for which a window will receive notifications. (ANSI)
+helpviewer_keywords: ["DEVICE_NOTIFY_ALL_INTERFACE_CLASSES", "DEVICE_NOTIFY_SERVICE_HANDLE", "DEVICE_NOTIFY_WINDOW_HANDLE", "RegisterDeviceNotificationA", "winuser/RegisterDeviceNotificationA"]
 old-location: base\registerdevicenotification.htm
 tech.root: base
 ms.assetid: 82094d95-9af3-4222-9c5e-ce2df9bab5e3
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
@@ -61,6 +63,9 @@ req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ## -description
 
 Registers the device or type of device for which a window will receive notifications.
+
+> [!NOTE]
+> You can use <a href="/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> instead of <b>RegisterDeviceNotification</b> if your code targets Windows 8 or newer versions of Windows. The advantage of <b>CM_Register_Notification</b> is that it does not require a window handle to work.
 
 ## -parameters
 
@@ -196,7 +201,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winuser.h header defines RegisterDeviceNotification as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines RegisterDeviceNotification as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

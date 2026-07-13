@@ -69,7 +69,7 @@ Receives the number of bytes that are copied into the buffer. This parameter can
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -97,7 +97,7 @@ The following example reads data from a byte stream into a caller-allocated medi
 ```cpp
 // Read data from a byte stream into a media buffer.
 //
-// This function reads a maximum of cbMax bytes, or up to the size size of the 
+// This function reads a maximum of cbMax bytes, or up to the size of the 
 // buffer, whichever is smaller. If the end of the byte stream is reached, the 
 // actual amount of data read might be less than either of these values.
 //

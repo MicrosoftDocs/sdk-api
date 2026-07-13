@@ -4,7 +4,8 @@ title: Joystickapi.h header
 ms.assetid: 0160d399-eaff-3d4f-9b19-ae0d716465dd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: multimedia
 f1_keywords:
  - joystickapi

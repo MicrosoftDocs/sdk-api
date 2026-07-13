@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdbase._WSDUdpRetransmitParams
 title: WSDUdpRetransmitParams (wsdbase.h)
-description: Defines the parameters for repeating a message transimission.
+description: Defines the parameters for repeating a message transmission.
 helpviewer_keywords: ["PWSDUdpRetransmitParams","PWSDUdpRetransmitParams structure pointer","WSDUdpRetransmitParams","WSDUdpRetransmitParams structure","_WSDUdpRetransmitParams","ncd.wsdupdretransmitparams","wsdbase/PWSDUdpRetransmitParams","wsdbase/WSDUdpRetransmitParams"]
 old-location: ncd\wsdupdretransmitparams.htm
 tech.root: ncd
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines the parameters for repeating a message transimission.
+Defines the parameters for repeating a message transmission.
 
 ## -struct-fields
 

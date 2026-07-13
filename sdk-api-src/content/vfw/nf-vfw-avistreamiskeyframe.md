@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamIsKeyFrame","AVIStreamIsKeyFrame macro [Windows 
 old-location: multimedia\avistreamiskeyframe.htm
 tech.root: Multimedia
 ms.assetid: 615ca0be-44d3-4dc4-9dc1-c14e8b50e835
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamIsKeyFrame, AVIStreamIsKeyFrame macro [Windows Multimedia], _win32_AVIStreamIsKeyFrame, multimedia.avistreamiskeyframe, vfw/AVIStreamIsKeyFrame
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamIsKeyFrame macro
 
+## -syntax
+
+```cpp
+BOOL AVIStreamIsKeyFrame(
+     pavi,
+     l
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if the sample is a key frame or **FALSE** otherwise.
+
 
 ## -description
 
@@ -69,8 +84,8 @@ The <b>AVIStreamIsKeyFrame</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamIsKeyFrame(pavi, lPos) \ 
-    (AVIStreamNearestKeyFrame(pavi, lPos) == 1) 
+#define AVIStreamIsKeyFrame(pavi, l) \ 
+    (AVIStreamNearestKeyFrame(pavi, l) == 1) 
 
 ```
 

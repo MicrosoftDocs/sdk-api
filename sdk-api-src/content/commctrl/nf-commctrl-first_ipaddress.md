@@ -6,7 +6,7 @@ helpviewer_keywords: ["FIRST_IPADDRESS","FIRST_IPADDRESS macro [Windows Controls
 old-location: controls\FIRST_IPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\first_ipaddress.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: FIRST_IPADDRESS, FIRST_IPADDRESS macro [Windows Controls], _win32_FIRST_IPADDRESS, _win32_FIRST_IPADDRESS_cpp, commctrl/FIRST_IPADDRESS, controls.FIRST_IPADDRESS, controls._win32_FIRST_IPADDRESS
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # FIRST_IPADDRESS macro
+
+## -syntax
+
+```cpp
+BYTE FIRST_IPADDRESS(
+   LPARAM x
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>BYTE</b> value that contains the field 0 value.
 
 
 ## -description

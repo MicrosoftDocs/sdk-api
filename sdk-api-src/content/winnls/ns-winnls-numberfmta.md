@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._numberfmtA
 title: NUMBERFMTA (winnls.h)
-description: Contains information that defines the format of a number string. The GetNumberFormat function uses this information to customize a number string for a specified locale.
+description: Contains information that defines the format of a number string. The GetNumberFormat function uses this information to customize a number string for a specified locale. (ANSI)
 helpviewer_keywords: ["*LPNUMBERFMTA","LPNUMBERFMT","LPNUMBERFMT structure pointer [Internationalization for Windows Applications]","NUMBERFMT","NUMBERFMT structure [Internationalization for Windows Applications]","NUMBERFMTA","_win32_NUMBERFMT_str","intl.numberfmt","winnls/LPNUMBERFMT","winnls/NUMBERFMT"]
 old-location: intl\numberfmt.htm
 tech.root: Intl
@@ -96,4 +96,4 @@ Negative number mode. This mode is equivalent to the locale information specifie
 ## -remarks
 
 > [!NOTE]
-> The winnls.h header defines NUMBERFMT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines NUMBERFMT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

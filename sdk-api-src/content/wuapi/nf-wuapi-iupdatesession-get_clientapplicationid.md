@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateSession.get_ClientApplicationID
 title: IUpdateSession::get_ClientApplicationID (wuapi.h)
-description: Gets and sets the current client application.
+description: Gets and sets the current client application. (IUpdateSession.get_ClientApplicationID)
 helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateSession interface","IUpdateSession interface [Windows Update Agent]","ClientApplicationID property","IUpdateSession.ClientApplicationID","IUpdateSession.get_ClientApplicationID","IUpdateSession::ClientApplicationID","IUpdateSession::get_ClientApplicationID","IUpdateSession::put_ClientApplicationID","get_ClientApplicationID","wua.iupdatesession_clientapplicationid","wuapi/IUpdateSession::ClientApplicationID","wuapi/IUpdateSession::get_ClientApplicationID","wuapi/IUpdateSession::put_ClientApplicationID"]
 old-location: wua\iupdatesession_clientapplicationid.htm
 tech.root: wua

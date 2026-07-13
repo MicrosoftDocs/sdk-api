@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsLunNumber
 title: IVdsLunNumber (vdshwprv.h)
-description: Provides a method to query the LUN number for a LUN.
+description: The IVdsLunNumber interface (vdshwprv.h) provides a method to query the LUN number for a LUN. 
 helpviewer_keywords: ["IVdsLunNumber","IVdsLunNumber interface","IVdsLunNumber interface","described","base.ivdslunnumber","vds/IVdsLunNumber","vdshwprv/IVdsLunNumber"]
 old-location: base\ivdslunnumber.htm
 tech.root: base
 ms.assetid: 77bd95f7-005a-474f-97c4-e211432b447d
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLunNumber, IVdsLunNumber interface, IVdsLunNumber interface,described, base.ivdslunnumber, vds/IVdsLunNumber, vdshwprv/IVdsLunNumber
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,16 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to query the LUN number for a LUN.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunNumber</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunNumber</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsLunNumber</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunNumber</b> also has these types of members:
 
 ## -see-also
 

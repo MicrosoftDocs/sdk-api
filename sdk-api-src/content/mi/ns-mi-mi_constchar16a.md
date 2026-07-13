@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstChar16A
 title: MI_ConstChar16A (mi.h)
-description: Represents an array of MI_Char16 types.
+description: Represents an array of MI_Char16 types. (MI_ConstChar16A)
 helpviewer_keywords: ["MI_ConstChar16A","MI_ConstChar16A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstChar16A","wmi._mi_constchar16a","wmi_v2.mi_constchar16a"]
 old-location: wmi_v2\mi_constchar16a.htm
 tech.root: wmi_v2

@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IExpDispSupportXP.OnTranslateAccelerator
 title: IExpDispSupportXP::OnTranslateAccelerator (shdeprecated.h)
-description: Not implemented.
+description: Not implemented. (IExpDispSupportXP.OnTranslateAccelerator)
 helpviewer_keywords: ["IExpDispSupportXP interface [Windows Shell]","OnTranslateAccelerator method","IExpDispSupportXP.OnTranslateAccelerator","IExpDispSupportXP::OnTranslateAccelerator","OnTranslateAccelerator","OnTranslateAccelerator method [Windows Shell]","OnTranslateAccelerator method [Windows Shell]","IExpDispSupportXP interface","_shell_IExpDispSupportXP_OnTranslateAccelerator","shdeprecated/IExpDispSupportXP::OnTranslateAccelerator","shell.IExpDispSupportXP_OnTranslateAccelerator"]
 old-location: shell\IExpDispSupportXP_OnTranslateAccelerator.htm
 tech.root: shell

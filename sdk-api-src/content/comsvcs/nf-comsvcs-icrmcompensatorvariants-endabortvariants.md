@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndAbortVariants
 title: ICrmCompensatorVariants::EndAbortVariants (comsvcs.h)
-description: Notifies the CRM Compensator that it has received all the log records available during the abort phase.
+description: Notifies the CRM Compensator that it has received all the log records available during the abort phase. (ICrmCompensatorVariants.EndAbortVariants)
 helpviewer_keywords: ["EndAbortVariants","EndAbortVariants method [COM+]","EndAbortVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","EndAbortVariants method","ICrmCompensatorVariants.EndAbortVariants","ICrmCompensatorVariants::EndAbortVariants","_dtc_ICrmCompensatorVariants_EndAbortVariants","comsvcs/ICrmCompensatorVariants::EndAbortVariants","cos.icrmcompensatorvariants_endabortvariants"]
 old-location: cos\icrmcompensatorvariants_endabortvariants.htm
 tech.root: cos
@@ -52,11 +52,11 @@ api_name:
 
 Notifies the CRM Compensator that it has received all the log records available during the abort phase. All log records for this transaction can be discarded from the log after this method has completed.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

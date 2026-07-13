@@ -57,7 +57,7 @@ The
 <div class="alert"><b>Note</b>  A WinSNMP application must call the 
 <b>SnmpCleanup</b> function as the last WinSNMP function before it terminates.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

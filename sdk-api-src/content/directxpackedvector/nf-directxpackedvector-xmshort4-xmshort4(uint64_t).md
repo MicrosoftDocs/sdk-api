@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(uint64_t)
 title: XMSHORT4::XMSHORT4(uint64_t) (directxpackedvector.h)
-description: A constructor for XMSHORT4.
+description: A constructor for XMSHORT4. (overload 1/3)
 helpviewer_keywords: ["XMSHORT4","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 structure","XMSHORT4 structure [DirectX Math Support APIs]","XMSHORT4 constructor","XMSHORT4.XMSHORT4","XMSHORT4.XMSHORT4()","XMSHORT4.XMSHORT4(uint64_t)","XMSHORT4::XMSHORT4","XMSHORT4::XMSHORT4(uint64_t)","dxmath.xmshort4_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMSHORT4, XMSHORT4 constructor [DirectX Math Support APIs], XMSHORT
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

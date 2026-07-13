@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCompBufferInfo","GetCompBufferInfo method [DirectShow]
 old-location: dshow\iamvideoaccelerator_getcompbufferinfo.htm
 tech.root: dshow
 ms.assetid: c32fb94d-396f-460a-9e69-1baaf14eff6e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCompBufferInfo, GetCompBufferInfo method [DirectShow], GetCompBufferInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetCompBufferInfo method, IAMVideoAccelerator.GetCompBufferInfo, IAMVideoAccelerator::GetCompBufferInfo, IAMVideoAcceleratorGetCompBufferInfo, dshow.iamvideoaccelerator_getcompbufferinfo, videoacc/IAMVideoAccelerator::GetCompBufferInfo
 req.header: videoacc.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>GetCompBufferInfo</b> method gets information about the compressed buffers used for DirectX Video Acceleration (DXVA) decoding.
 
 ## -parameters
@@ -76,7 +78,7 @@ Address of an array of <a href="/previous-versions/windows/desktop/api/amva/ns-a
 
 Set all of the array elements to zero before calling this method.
 
-Each array index corresponds to one of the DXVA surface types defined in dxva.h. The video accelerator will return a list of up to <b>DXVA_NUM_TYPES_COMP_BUFFERS</b>array entries. For details, refer to the <a href="/windows-hardware/drivers/display/directx-video-acceleration">DXVA 1.0 specification</a>, section 3.4, "Buffer Description List." If a particular buffer type is not used by the DXVA profile in question, the entry at that index contains zeroes for all values.
+Each array index corresponds to one of the DXVA surface types defined in dxva.h. The video accelerator will return a list of up to <b>DXVA_NUM_TYPES_COMP_BUFFERS</b> array entries. For details, refer to the <a href="/windows-hardware/drivers/display/directx-video-acceleration">DXVA 1.0 specification</a>, section 3.4, "Buffer Description List." If a particular buffer type is not used by the DXVA profile in question, the entry at that index contains zeroes for all values.
 
 ## -returns
 

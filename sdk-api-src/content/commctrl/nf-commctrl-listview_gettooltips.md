@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetToolTips","ListView_GetToolTips macro [Window
 old-location: controls\ListView_GetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettooltips.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetToolTips, ListView_GetToolTips macro [Windows Controls], _win32_ListView_GetToolTips, _win32_ListView_GetToolTips_cpp, commctrl/ListView_GetToolTips, controls.ListView_GetToolTips, controls._win32_ListView_GetToolTips
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetToolTips macro
+
+## -syntax
+
+```cpp
+HWND ListView_GetToolTips(
+   HWND hwndLV
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the tooltip control.
 
 
 ## -description

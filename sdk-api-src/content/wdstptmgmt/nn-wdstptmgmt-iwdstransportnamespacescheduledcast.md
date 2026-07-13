@@ -54,10 +54,7 @@ Represents a base interface to the derived interfaces: <a href="/windows/desktop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportNamespaceScheduledCast</b> interface inherits from <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>. <b>IWdsTransportNamespaceScheduledCast</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWdsTransportNamespaceScheduledCast</b> interface inherits from <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>. <b>IWdsTransportNamespaceScheduledCast</b> also has these types of members:
 
 ## -see-also
 

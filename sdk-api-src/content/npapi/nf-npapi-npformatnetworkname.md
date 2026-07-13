@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: davclnt.lib
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -91,7 +91,7 @@ Bitfield that indicates the type of format being requested. This parameter can b
 </dl>
 </td>
 <td width="60%">
-The provider should place  backslash n (\n)  where line breaks should appear in the name. The full name should be expressed.
+The provider should place  backslash n (\\n)  where line breaks should appear in the name. The full name should be expressed.
 
 </td>
 </tr>

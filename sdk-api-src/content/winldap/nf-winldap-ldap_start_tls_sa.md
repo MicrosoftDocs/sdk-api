@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_start_tls_sA
 title: ldap_start_tls_sA function (winldap.h)
-description: Used in an active LDAP session to begin using TLS encryption.
-helpviewer_keywords: ["ldap.ldap_start_tls_s","ldap_start_tls_s","ldap_start_tls_s function [LDAP]","ldap_start_tls_sA","ldap_start_tls_sW","winldap/ldap_start_tls_s","winldap/ldap_start_tls_sA","winldap/ldap_start_tls_sW"]
+description: Used in an active LDAP session to begin using TLS encryption. (ANSI)
+helpviewer_keywords: ["ldap_start_tls_sA", "winldap/ldap_start_tls_sA"]
 old-location: ldap\ldap_start_tls_s.htm
 tech.root: ldap
 ms.assetid: faca9324-5a85-47b0-9d6a-c62ec3c1ee80
@@ -94,7 +94,7 @@ For more information about start-stop TLS encryption, see <a href="/previous-ver
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_start_tls_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_start_tls_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

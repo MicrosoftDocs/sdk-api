@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode
 title: IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode (imapi2.h)
-description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
+description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD. (Put)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_DisableConsumerDvdCompatibilityMode method","IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode","IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode","imapi.idiscformat2data_put_disableconsumerdvdcompatibilitymode","imapi2/IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode","put_DisableConsumerDvdCompatibilityMode","put_DisableConsumerDvdCompatibilityMode method [IMAPI]","put_DisableConsumerDvdCompatibilityMode method [IMAPI]","IDiscFormat2Data interface"]
 old-location: imapi\idiscformat2data_put_disableconsumerdvdcompatibilitymode.htm
 tech.root: imapi
@@ -86,7 +86,7 @@ Value: 0xC0AA0400
 
 ## -remarks
 
-This property has no affect on CD media and DVD dash media.
+This property has no effect on CD media and DVD dash media.
 
 For DVD+R and DVD+DL media, this property will also affect the media closing operation. 
 
@@ -102,7 +102,7 @@ For DVD+R and DVD+DL media, this property will also affect the media closing ope
 <td>Closes the disc in compatible mode</td>
 </tr>
 <tr>
-<td>Fale</td>
+<td>False</td>
 <td>False</td>
 <td>Closes the disc in compatible mode</td>
 </tr>
@@ -114,7 +114,7 @@ For DVD+R and DVD+DL media, this property will also affect the media closing ope
 <tr>
 <td>True</td>
 <td>False</td>
-<td>Closes the session for DVD+RCloses disc normally for DVD+R DL 
+<td>Closes the session for DVD+R Closes disc normally for DVD+R DL 
 
 </td>
 </tr>

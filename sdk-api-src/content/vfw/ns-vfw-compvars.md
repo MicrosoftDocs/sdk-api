@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_11
+UID: NS:vfw.COMPVARS
 title: COMPVARS (vfw.h)
 description: The COMPVARS structure describes compressor settings for functions such as ICCompressorChoose, ICSeqCompressFrame, and ICCompressorFree.
 helpviewer_keywords: ["*PCOMPVARS","COMPVARS","COMPVARS structure [Windows Multimedia]","ICMF_COMPVARS_VALID","_win32_COMPVARS_str","multimedia.compvars","vfw/COMPVARS"]
@@ -164,3 +164,4 @@ Video Compression Manager
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

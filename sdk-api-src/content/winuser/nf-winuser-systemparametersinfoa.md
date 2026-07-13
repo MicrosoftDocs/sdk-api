@@ -1,12 +1,13 @@
 ---
 UID: NF:winuser.SystemParametersInfoA
 title: SystemParametersInfoA function (winuser.h)
-description: Retrieves or sets the value of one of the system-wide parameters.
-helpviewer_keywords: ["SPIF_SENDCHANGE","SPIF_SENDWININICHANGE","SPIF_UPDATEINIFILE","SPI_GETACCESSTIMEOUT","SPI_GETACTIVEWINDOWTRACKING","SPI_GETACTIVEWNDTRKTIMEOUT","SPI_GETACTIVEWNDTRKZORDER","SPI_GETANIMATION","SPI_GETAUDIODESCRIPTION","SPI_GETBEEP","SPI_GETBLOCKSENDINPUTRESETS","SPI_GETBORDER","SPI_GETCARETWIDTH","SPI_GETCLEARTYPE","SPI_GETCLIENTAREAANIMATION","SPI_GETCOMBOBOXANIMATION","SPI_GETCONTACTVISUALIZATION","SPI_GETCURSORSHADOW","SPI_GETDEFAULTINPUTLANG","SPI_GETDESKWALLPAPER","SPI_GETDISABLEOVERLAPPEDCONTENT","SPI_GETDOCKMOVING","SPI_GETDRAGFROMMAXIMIZE","SPI_GETDRAGFULLWINDOWS","SPI_GETDROPSHADOW","SPI_GETFILTERKEYS","SPI_GETFLATMENU","SPI_GETFOCUSBORDERHEIGHT","SPI_GETFOCUSBORDERWIDTH","SPI_GETFONTSMOOTHING","SPI_GETFONTSMOOTHINGCONTRAST","SPI_GETFONTSMOOTHINGORIENTATION","SPI_GETFONTSMOOTHINGTYPE","SPI_GETFOREGROUNDFLASHCOUNT","SPI_GETFOREGROUNDLOCKTIMEOUT","SPI_GETGESTUREVISUALIZATION","SPI_GETGRADIENTCAPTIONS","SPI_GETHIGHCONTRAST","SPI_GETHOTTRACKING","SPI_GETHUNGAPPTIMEOUT","SPI_GETICONMETRICS","SPI_GETICONTITLELOGFONT","SPI_GETICONTITLEWRAP","SPI_GETKEYBOARDCUES","SPI_GETKEYBOARDDELAY","SPI_GETKEYBOARDPREF","SPI_GETKEYBOARDSPEED","SPI_GETLISTBOXSMOOTHSCROLLING","SPI_GETLOGICALDPIOVERRIDE","SPI_GETLOWPOWERACTIVE","SPI_GETLOWPOWERTIMEOUT","SPI_GETMENUANIMATION","SPI_GETMENUDROPALIGNMENT","SPI_GETMENUFADE","SPI_GETMENUSHOWDELAY","SPI_GETMENUUNDERLINES","SPI_GETMESSAGEDURATION","SPI_GETMINIMIZEDMETRICS","SPI_GETMOUSE","SPI_GETMOUSECLICKLOCK","SPI_GETMOUSECLICKLOCKTIME","SPI_GETMOUSEDOCKTHRESHOLD","SPI_GETMOUSEDRAGOUTTHRESHOLD","SPI_GETMOUSEHOVERHEIGHT","SPI_GETMOUSEHOVERTIME","SPI_GETMOUSEHOVERWIDTH","SPI_GETMOUSEKEYS","SPI_GETMOUSESIDEMOVETHRESHOLD","SPI_GETMOUSESONAR","SPI_GETMOUSESPEED","SPI_GETMOUSETRAILS","SPI_GETMOUSEVANISH","SPI_GETMOUSEWHEELROUTING","SPI_GETNONCLIENTMETRICS","SPI_GETPENDOCKTHRESHOLD","SPI_GETPENDRAGOUTTHRESHOLD","SPI_GETPENSIDEMOVETHRESHOLD","SPI_GETPENVISUALIZATION","SPI_GETPOWEROFFACTIVE","SPI_GETPOWEROFFTIMEOUT","SPI_GETSCREENREADER","SPI_GETSCREENSAVEACTIVE","SPI_GETSCREENSAVERRUNNING","SPI_GETSCREENSAVESECURE","SPI_GETSCREENSAVETIMEOUT","SPI_GETSELECTIONFADE","SPI_GETSERIALKEYS","SPI_GETSHOWIMEUI","SPI_GETSHOWSOUNDS","SPI_GETSNAPSIZING","SPI_GETSNAPTODEFBUTTON","SPI_GETSOUNDSENTRY","SPI_GETSTICKYKEYS","SPI_GETSYSTEMLANGUAGEBAR","SPI_GETTHREADLOCALINPUTSETTINGS","SPI_GETTOGGLEKEYS","SPI_GETTOOLTIPANIMATION","SPI_GETTOOLTIPFADE","SPI_GETUIEFFECTS","SPI_GETWAITTOKILLSERVICETIMEOUT","SPI_GETWAITTOKILLTIMEOUT","SPI_GETWHEELSCROLLCHARS","SPI_GETWHEELSCROLLLINES","SPI_GETWINARRANGING","SPI_GETWORKAREA","SPI_ICONHORIZONTALSPACING","SPI_ICONVERTICALSPACING","SPI_SETACCESSTIMEOUT","SPI_SETACTIVEWINDOWTRACKING","SPI_SETACTIVEWNDTRKTIMEOUT","SPI_SETACTIVEWNDTRKZORDER","SPI_SETANIMATION","SPI_SETAUDIODESCRIPTION","SPI_SETBEEP","SPI_SETBLOCKSENDINPUTRESETS","SPI_SETBORDER","SPI_SETCARETWIDTH","SPI_SETCLEARTYPE","SPI_SETCLIENTAREAANIMATION","SPI_SETCOMBOBOXANIMATION","SPI_SETCONTACTVISUALIZATION","SPI_SETCURSORS","SPI_SETCURSORSHADOW","SPI_SETDEFAULTINPUTLANG","SPI_SETDESKPATTERN","SPI_SETDESKWALLPAPER","SPI_SETDISABLEOVERLAPPEDCONTENT","SPI_SETDOCKMOVING","SPI_SETDOUBLECLICKTIME","SPI_SETDOUBLECLKHEIGHT","SPI_SETDOUBLECLKWIDTH","SPI_SETDRAGFROMMAXIMIZE","SPI_SETDRAGFULLWINDOWS","SPI_SETDRAGHEIGHT","SPI_SETDRAGWIDTH","SPI_SETDROPSHADOW","SPI_SETFILTERKEYS","SPI_SETFLATMENU","SPI_SETFOCUSBORDERHEIGHT","SPI_SETFOCUSBORDERWIDTH","SPI_SETFONTSMOOTHING","SPI_SETFONTSMOOTHINGCONTRAST","SPI_SETFONTSMOOTHINGORIENTATION","SPI_SETFONTSMOOTHINGTYPE","SPI_SETFOREGROUNDFLASHCOUNT","SPI_SETFOREGROUNDLOCKTIMEOUT","SPI_SETGESTUREVISUALIZATION","SPI_SETGRADIENTCAPTIONS","SPI_SETHIGHCONTRAST","SPI_SETHOTTRACKING","SPI_SETHUNGAPPTIMEOUT","SPI_SETICONMETRICS","SPI_SETICONS","SPI_SETICONTITLELOGFONT","SPI_SETICONTITLEWRAP","SPI_SETKEYBOARDCUES","SPI_SETKEYBOARDDELAY","SPI_SETKEYBOARDPREF","SPI_SETKEYBOARDSPEED","SPI_SETLANGTOGGLE","SPI_SETLISTBOXSMOOTHSCROLLING","SPI_SETLOGICALDPIOVERRIDE","SPI_SETLOWPOWERACTIVE","SPI_SETLOWPOWERTIMEOUT","SPI_SETMENUANIMATION","SPI_SETMENUDROPALIGNMENT","SPI_SETMENUFADE","SPI_SETMENUSHOWDELAY","SPI_SETMENUUNDERLINES","SPI_SETMESSAGEDURATION","SPI_SETMINIMIZEDMETRICS","SPI_SETMOUSE","SPI_SETMOUSEBUTTONSWAP","SPI_SETMOUSECLICKLOCK","SPI_SETMOUSECLICKLOCKTIME","SPI_SETMOUSEDOCKTHRESHOLD","SPI_SETMOUSEDRAGOUTTHRESHOLD","SPI_SETMOUSEHOVERHEIGHT","SPI_SETMOUSEHOVERTIME","SPI_SETMOUSEHOVERWIDTH","SPI_SETMOUSEKEYS","SPI_SETMOUSESIDEMOVETHRESHOLD","SPI_SETMOUSESONAR","SPI_SETMOUSESPEED","SPI_SETMOUSETRAILS","SPI_SETMOUSEVANISH","SPI_SETMOUSEWHEELROUTING","SPI_SETNONCLIENTMETRICS","SPI_SETPENDOCKTHRESHOLD","SPI_SETPENDRAGOUTTHRESHOLD","SPI_SETPENSIDEMOVETHRESHOLD","SPI_SETPENVISUALIZATION","SPI_SETPOWEROFFACTIVE","SPI_SETPOWEROFFTIMEOUT","SPI_SETSCREENREADER","SPI_SETSCREENSAVEACTIVE","SPI_SETSCREENSAVESECURE","SPI_SETSCREENSAVETIMEOUT","SPI_SETSELECTIONFADE","SPI_SETSERIALKEYS","SPI_SETSHOWIMEUI","SPI_SETSHOWSOUNDS","SPI_SETSNAPSIZING","SPI_SETSNAPTODEFBUTTON","SPI_SETSOUNDSENTRY","SPI_SETSTICKYKEYS","SPI_SETSYSTEMLANGUAGEBAR","SPI_SETTHREADLOCALINPUTSETTINGS","SPI_SETTOGGLEKEYS","SPI_SETTOOLTIPANIMATION","SPI_SETTOOLTIPFADE","SPI_SETUIEFFECTS","SPI_SETWAITTOKILLSERVICETIMEOUT","SPI_SETWAITTOKILLTIMEOUT","SPI_SETWHEELSCROLLCHARS","SPI_SETWHEELSCROLLLINES","SPI_SETWINARRANGING","SPI_SETWORKAREA","SystemParametersInfo","SystemParametersInfo function [Windows and Messages]","SystemParametersInfoA","SystemParametersInfoW","_win32_systemparametersinfo","base.systemparametersinfo","systemparametersinfo_cpp","winmsg.systemparametersinfo","winui.systemparametersinfo","winuser/SystemParametersInfo","winuser/SystemParametersInfoA","winuser/SystemParametersInfoW"]
+description: Retrieves or sets the value of one of the system-wide parameters. (ANSI)
+prerelease: true
+helpviewer_keywords: ["SPIF_SENDCHANGE", "SPIF_SENDWININICHANGE", "SPIF_UPDATEINIFILE", "SPI_GETACCESSTIMEOUT", "SPI_GETACTIVEWINDOWTRACKING", "SPI_GETACTIVEWNDTRKTIMEOUT", "SPI_GETACTIVEWNDTRKZORDER", "SPI_GETANIMATION", "SPI_GETAUDIODESCRIPTION", "SPI_GETBEEP", "SPI_GETBLOCKSENDINPUTRESETS", "SPI_GETBORDER", "SPI_GETCARETWIDTH", "SPI_GETCLEARTYPE", "SPI_GETCLIENTAREAANIMATION", "SPI_GETCOMBOBOXANIMATION", "SPI_GETCONTACTVISUALIZATION", "SPI_GETCURSORSHADOW", "SPI_GETDEFAULTINPUTLANG", "SPI_GETDESKWALLPAPER", "SPI_GETDISABLEOVERLAPPEDCONTENT", "SPI_GETDOCKMOVING", "SPI_GETDRAGFROMMAXIMIZE", "SPI_GETDRAGFULLWINDOWS", "SPI_GETDROPSHADOW", "SPI_GETFILTERKEYS", "SPI_GETFLATMENU", "SPI_GETFOCUSBORDERHEIGHT", "SPI_GETFOCUSBORDERWIDTH", "SPI_GETFONTSMOOTHING", "SPI_GETFONTSMOOTHINGCONTRAST", "SPI_GETFONTSMOOTHINGORIENTATION", "SPI_GETFONTSMOOTHINGTYPE", "SPI_GETFOREGROUNDFLASHCOUNT", "SPI_GETFOREGROUNDLOCKTIMEOUT", "SPI_GETGESTUREVISUALIZATION", "SPI_GETGRADIENTCAPTIONS", "SPI_GETHIGHCONTRAST", "SPI_GETHOTTRACKING", "SPI_GETHUNGAPPTIMEOUT", "SPI_GETICONMETRICS", "SPI_GETICONTITLELOGFONT", "SPI_GETICONTITLEWRAP", "SPI_GETKEYBOARDCUES", "SPI_GETKEYBOARDDELAY", "SPI_GETKEYBOARDPREF", "SPI_GETKEYBOARDSPEED", "SPI_GETLISTBOXSMOOTHSCROLLING", "SPI_GETLOGICALDPIOVERRIDE", "SPI_GETLOWPOWERACTIVE", "SPI_GETLOWPOWERTIMEOUT", "SPI_GETMENUANIMATION", "SPI_GETMENUDROPALIGNMENT", "SPI_GETMENUFADE", "SPI_GETMENUSHOWDELAY", "SPI_GETMENUUNDERLINES", "SPI_GETMESSAGEDURATION", "SPI_GETMINIMIZEDMETRICS", "SPI_GETMOUSE", "SPI_GETMOUSECLICKLOCK", "SPI_GETMOUSECLICKLOCKTIME", "SPI_GETMOUSEDOCKTHRESHOLD", "SPI_GETMOUSEDRAGOUTTHRESHOLD", "SPI_GETMOUSEHOVERHEIGHT", "SPI_GETMOUSEHOVERTIME", "SPI_GETMOUSEHOVERWIDTH", "SPI_GETMOUSEKEYS", "SPI_GETMOUSESIDEMOVETHRESHOLD", "SPI_GETMOUSESONAR", "SPI_GETMOUSESPEED", "SPI_GETMOUSETRAILS", "SPI_GETMOUSEVANISH", "SPI_GETMOUSEWHEELROUTING", "SPI_GETNONCLIENTMETRICS", "SPI_GETPENDOCKTHRESHOLD", "SPI_GETPENDRAGOUTTHRESHOLD", "SPI_GETPENSIDEMOVETHRESHOLD", "SPI_GETPENVISUALIZATION", "SPI_GETPOWEROFFACTIVE", "SPI_GETPOWEROFFTIMEOUT", "SPI_GETSCREENREADER", "SPI_GETSCREENSAVEACTIVE", "SPI_GETSCREENSAVERRUNNING", "SPI_GETSCREENSAVESECURE", "SPI_GETSCREENSAVETIMEOUT", "SPI_GETSELECTIONFADE", "SPI_GETSERIALKEYS", "SPI_GETSHOWIMEUI", "SPI_GETSHOWSOUNDS", "SPI_GETSNAPSIZING", "SPI_GETSNAPTODEFBUTTON", "SPI_GETSOUNDSENTRY", "SPI_GETSTICKYKEYS", "SPI_GETSYSTEMLANGUAGEBAR", "SPI_GETTHREADLOCALINPUTSETTINGS", "SPI_GETTOGGLEKEYS", "SPI_GETTOOLTIPANIMATION", "SPI_GETTOOLTIPFADE", "SPI_GETUIEFFECTS", "SPI_GETWAITTOKILLSERVICETIMEOUT", "SPI_GETWAITTOKILLTIMEOUT", "SPI_GETWHEELSCROLLCHARS", "SPI_GETWHEELSCROLLLINES", "SPI_GETWINARRANGING", "SPI_GETWORKAREA", "SPI_ICONHORIZONTALSPACING", "SPI_ICONVERTICALSPACING", "SPI_SETACCESSTIMEOUT", "SPI_SETACTIVEWINDOWTRACKING", "SPI_SETACTIVEWNDTRKTIMEOUT", "SPI_SETACTIVEWNDTRKZORDER", "SPI_SETANIMATION", "SPI_SETAUDIODESCRIPTION", "SPI_SETBEEP", "SPI_SETBLOCKSENDINPUTRESETS", "SPI_SETBORDER", "SPI_SETCARETWIDTH", "SPI_SETCLEARTYPE", "SPI_SETCLIENTAREAANIMATION", "SPI_SETCOMBOBOXANIMATION", "SPI_SETCONTACTVISUALIZATION", "SPI_SETCURSORS", "SPI_SETCURSORSHADOW", "SPI_SETDEFAULTINPUTLANG", "SPI_SETDESKPATTERN", "SPI_SETDESKWALLPAPER", "SPI_SETDISABLEOVERLAPPEDCONTENT", "SPI_SETDOCKMOVING", "SPI_SETDOUBLECLICKTIME", "SPI_SETDOUBLECLKHEIGHT", "SPI_SETDOUBLECLKWIDTH", "SPI_SETDRAGFROMMAXIMIZE", "SPI_SETDRAGFULLWINDOWS", "SPI_SETDRAGHEIGHT", "SPI_SETDRAGWIDTH", "SPI_SETDROPSHADOW", "SPI_SETFILTERKEYS", "SPI_SETFLATMENU", "SPI_SETFOCUSBORDERHEIGHT", "SPI_SETFOCUSBORDERWIDTH", "SPI_SETFONTSMOOTHING", "SPI_SETFONTSMOOTHINGCONTRAST", "SPI_SETFONTSMOOTHINGORIENTATION", "SPI_SETFONTSMOOTHINGTYPE", "SPI_SETFOREGROUNDFLASHCOUNT", "SPI_SETFOREGROUNDLOCKTIMEOUT", "SPI_SETGESTUREVISUALIZATION", "SPI_SETGRADIENTCAPTIONS", "SPI_SETHIGHCONTRAST", "SPI_SETHOTTRACKING", "SPI_SETHUNGAPPTIMEOUT", "SPI_SETICONMETRICS", "SPI_SETICONS", "SPI_SETICONTITLELOGFONT", "SPI_SETICONTITLEWRAP", "SPI_SETKEYBOARDCUES", "SPI_SETKEYBOARDDELAY", "SPI_SETKEYBOARDPREF", "SPI_SETKEYBOARDSPEED", "SPI_SETLANGTOGGLE", "SPI_SETLISTBOXSMOOTHSCROLLING", "SPI_SETLOGICALDPIOVERRIDE", "SPI_SETLOWPOWERACTIVE", "SPI_SETLOWPOWERTIMEOUT", "SPI_SETMENUANIMATION", "SPI_SETMENUDROPALIGNMENT", "SPI_SETMENUFADE", "SPI_SETMENUSHOWDELAY", "SPI_SETMENUUNDERLINES", "SPI_SETMESSAGEDURATION", "SPI_SETMINIMIZEDMETRICS", "SPI_SETMOUSE", "SPI_SETMOUSEBUTTONSWAP", "SPI_SETMOUSECLICKLOCK", "SPI_SETMOUSECLICKLOCKTIME", "SPI_SETMOUSEDOCKTHRESHOLD", "SPI_SETMOUSEDRAGOUTTHRESHOLD", "SPI_SETMOUSEHOVERHEIGHT", "SPI_SETMOUSEHOVERTIME", "SPI_SETMOUSEHOVERWIDTH", "SPI_SETMOUSEKEYS", "SPI_SETMOUSESIDEMOVETHRESHOLD", "SPI_SETMOUSESONAR", "SPI_SETMOUSESPEED", "SPI_SETMOUSETRAILS", "SPI_SETMOUSEVANISH", "SPI_SETMOUSEWHEELROUTING", "SPI_SETNONCLIENTMETRICS", "SPI_SETPENDOCKTHRESHOLD", "SPI_SETPENDRAGOUTTHRESHOLD", "SPI_SETPENSIDEMOVETHRESHOLD", "SPI_SETPENVISUALIZATION", "SPI_SETPOWEROFFACTIVE", "SPI_SETPOWEROFFTIMEOUT", "SPI_SETSCREENREADER", "SPI_SETSCREENSAVEACTIVE", "SPI_SETSCREENSAVESECURE", "SPI_SETSCREENSAVETIMEOUT", "SPI_SETSELECTIONFADE", "SPI_SETSERIALKEYS", "SPI_SETSHOWIMEUI", "SPI_SETSHOWSOUNDS", "SPI_SETSNAPSIZING", "SPI_SETSNAPTODEFBUTTON", "SPI_SETSOUNDSENTRY", "SPI_SETSTICKYKEYS", "SPI_SETSYSTEMLANGUAGEBAR", "SPI_SETTHREADLOCALINPUTSETTINGS", "SPI_SETTOGGLEKEYS", "SPI_SETTOOLTIPANIMATION", "SPI_SETTOOLTIPFADE", "SPI_SETUIEFFECTS", "SPI_SETWAITTOKILLSERVICETIMEOUT", "SPI_SETWAITTOKILLTIMEOUT", "SPI_SETWHEELSCROLLCHARS", "SPI_SETWHEELSCROLLLINES", "SPI_SETWINARRANGING", "SPI_SETWORKAREA", "SystemParametersInfoA", "winuser/SystemParametersInfoA"]
 old-location: winmsg\systemparametersinfo.htm
 tech.root: winmsg
 ms.assetid: 9b99465c-e12d-413c-8e69-b46b52f2f11f
-ms.date: 12/05/2018
+ms.date: 03/27/2024
 ms.keywords: SPIF_SENDCHANGE, SPIF_SENDWININICHANGE, SPIF_UPDATEINIFILE, SPI_GETACCESSTIMEOUT, SPI_GETACTIVEWINDOWTRACKING, SPI_GETACTIVEWNDTRKTIMEOUT, SPI_GETACTIVEWNDTRKZORDER, SPI_GETANIMATION, SPI_GETAUDIODESCRIPTION, SPI_GETBEEP, SPI_GETBLOCKSENDINPUTRESETS, SPI_GETBORDER, SPI_GETCARETWIDTH, SPI_GETCLEARTYPE, SPI_GETCLIENTAREAANIMATION, SPI_GETCOMBOBOXANIMATION, SPI_GETCONTACTVISUALIZATION, SPI_GETCURSORSHADOW, SPI_GETDEFAULTINPUTLANG, SPI_GETDESKWALLPAPER, SPI_GETDISABLEOVERLAPPEDCONTENT, SPI_GETDOCKMOVING, SPI_GETDRAGFROMMAXIMIZE, SPI_GETDRAGFULLWINDOWS, SPI_GETDROPSHADOW, SPI_GETFILTERKEYS, SPI_GETFLATMENU, SPI_GETFOCUSBORDERHEIGHT, SPI_GETFOCUSBORDERWIDTH, SPI_GETFONTSMOOTHING, SPI_GETFONTSMOOTHINGCONTRAST, SPI_GETFONTSMOOTHINGORIENTATION, SPI_GETFONTSMOOTHINGTYPE, SPI_GETFOREGROUNDFLASHCOUNT, SPI_GETFOREGROUNDLOCKTIMEOUT, SPI_GETGESTUREVISUALIZATION, SPI_GETGRADIENTCAPTIONS, SPI_GETHIGHCONTRAST, SPI_GETHOTTRACKING, SPI_GETHUNGAPPTIMEOUT, SPI_GETICONMETRICS, SPI_GETICONTITLELOGFONT, SPI_GETICONTITLEWRAP, SPI_GETKEYBOARDCUES, SPI_GETKEYBOARDDELAY, SPI_GETKEYBOARDPREF, SPI_GETKEYBOARDSPEED, SPI_GETLISTBOXSMOOTHSCROLLING, SPI_GETLOGICALDPIOVERRIDE, SPI_GETLOWPOWERACTIVE, SPI_GETLOWPOWERTIMEOUT, SPI_GETMENUANIMATION, SPI_GETMENUDROPALIGNMENT, SPI_GETMENUFADE, SPI_GETMENUSHOWDELAY, SPI_GETMENUUNDERLINES, SPI_GETMESSAGEDURATION, SPI_GETMINIMIZEDMETRICS, SPI_GETMOUSE, SPI_GETMOUSECLICKLOCK, SPI_GETMOUSECLICKLOCKTIME, SPI_GETMOUSEDOCKTHRESHOLD, SPI_GETMOUSEDRAGOUTTHRESHOLD, SPI_GETMOUSEHOVERHEIGHT, SPI_GETMOUSEHOVERTIME, SPI_GETMOUSEHOVERWIDTH, SPI_GETMOUSEKEYS, SPI_GETMOUSESIDEMOVETHRESHOLD, SPI_GETMOUSESONAR, SPI_GETMOUSESPEED, SPI_GETMOUSETRAILS, SPI_GETMOUSEVANISH, SPI_GETMOUSEWHEELROUTING, SPI_GETNONCLIENTMETRICS, SPI_GETPENDOCKTHRESHOLD, SPI_GETPENDRAGOUTTHRESHOLD, SPI_GETPENSIDEMOVETHRESHOLD, SPI_GETPENVISUALIZATION, SPI_GETPOWEROFFACTIVE, SPI_GETPOWEROFFTIMEOUT, SPI_GETSCREENREADER, SPI_GETSCREENSAVEACTIVE, SPI_GETSCREENSAVERRUNNING, SPI_GETSCREENSAVESECURE, SPI_GETSCREENSAVETIMEOUT, SPI_GETSELECTIONFADE, SPI_GETSERIALKEYS, SPI_GETSHOWIMEUI, SPI_GETSHOWSOUNDS, SPI_GETSNAPSIZING, SPI_GETSNAPTODEFBUTTON, SPI_GETSOUNDSENTRY, SPI_GETSTICKYKEYS, SPI_GETSYSTEMLANGUAGEBAR, SPI_GETTHREADLOCALINPUTSETTINGS, SPI_GETTOGGLEKEYS, SPI_GETTOOLTIPANIMATION, SPI_GETTOOLTIPFADE, SPI_GETUIEFFECTS, SPI_GETWAITTOKILLSERVICETIMEOUT, SPI_GETWAITTOKILLTIMEOUT, SPI_GETWHEELSCROLLCHARS, SPI_GETWHEELSCROLLLINES, SPI_GETWINARRANGING, SPI_GETWORKAREA, SPI_ICONHORIZONTALSPACING, SPI_ICONVERTICALSPACING, SPI_SETACCESSTIMEOUT, SPI_SETACTIVEWINDOWTRACKING, SPI_SETACTIVEWNDTRKTIMEOUT, SPI_SETACTIVEWNDTRKZORDER, SPI_SETANIMATION, SPI_SETAUDIODESCRIPTION, SPI_SETBEEP, SPI_SETBLOCKSENDINPUTRESETS, SPI_SETBORDER, SPI_SETCARETWIDTH, SPI_SETCLEARTYPE, SPI_SETCLIENTAREAANIMATION, SPI_SETCOMBOBOXANIMATION, SPI_SETCONTACTVISUALIZATION, SPI_SETCURSORS, SPI_SETCURSORSHADOW, SPI_SETDEFAULTINPUTLANG, SPI_SETDESKPATTERN, SPI_SETDESKWALLPAPER, SPI_SETDISABLEOVERLAPPEDCONTENT, SPI_SETDOCKMOVING, SPI_SETDOUBLECLICKTIME, SPI_SETDOUBLECLKHEIGHT, SPI_SETDOUBLECLKWIDTH, SPI_SETDRAGFROMMAXIMIZE, SPI_SETDRAGFULLWINDOWS, SPI_SETDRAGHEIGHT, SPI_SETDRAGWIDTH, SPI_SETDROPSHADOW, SPI_SETFILTERKEYS, SPI_SETFLATMENU, SPI_SETFOCUSBORDERHEIGHT, SPI_SETFOCUSBORDERWIDTH, SPI_SETFONTSMOOTHING, SPI_SETFONTSMOOTHINGCONTRAST, SPI_SETFONTSMOOTHINGORIENTATION, SPI_SETFONTSMOOTHINGTYPE, SPI_SETFOREGROUNDFLASHCOUNT, SPI_SETFOREGROUNDLOCKTIMEOUT, SPI_SETGESTUREVISUALIZATION, SPI_SETGRADIENTCAPTIONS, SPI_SETHIGHCONTRAST, SPI_SETHOTTRACKING, SPI_SETHUNGAPPTIMEOUT, SPI_SETICONMETRICS, SPI_SETICONS, SPI_SETICONTITLELOGFONT, SPI_SETICONTITLEWRAP, SPI_SETKEYBOARDCUES, SPI_SETKEYBOARDDELAY, SPI_SETKEYBOARDPREF, SPI_SETKEYBOARDSPEED, SPI_SETLANGTOGGLE, SPI_SETLISTBOXSMOOTHSCROLLING, SPI_SETLOGICALDPIOVERRIDE, SPI_SETLOWPOWERACTIVE, SPI_SETLOWPOWERTIMEOUT, SPI_SETMENUANIMATION, SPI_SETMENUDROPALIGNMENT, SPI_SETMENUFADE, SPI_SETMENUSHOWDELAY, SPI_SETMENUUNDERLINES, SPI_SETMESSAGEDURATION, SPI_SETMINIMIZEDMETRICS, SPI_SETMOUSE, SPI_SETMOUSEBUTTONSWAP, SPI_SETMOUSECLICKLOCK, SPI_SETMOUSECLICKLOCKTIME, SPI_SETMOUSEDOCKTHRESHOLD, SPI_SETMOUSEDRAGOUTTHRESHOLD, SPI_SETMOUSEHOVERHEIGHT, SPI_SETMOUSEHOVERTIME, SPI_SETMOUSEHOVERWIDTH, SPI_SETMOUSEKEYS, SPI_SETMOUSESIDEMOVETHRESHOLD, SPI_SETMOUSESONAR, SPI_SETMOUSESPEED, SPI_SETMOUSETRAILS, SPI_SETMOUSEVANISH, SPI_SETMOUSEWHEELROUTING, SPI_SETNONCLIENTMETRICS, SPI_SETPENDOCKTHRESHOLD, SPI_SETPENDRAGOUTTHRESHOLD, SPI_SETPENSIDEMOVETHRESHOLD, SPI_SETPENVISUALIZATION, SPI_SETPOWEROFFACTIVE, SPI_SETPOWEROFFTIMEOUT, SPI_SETSCREENREADER, SPI_SETSCREENSAVEACTIVE, SPI_SETSCREENSAVESECURE, SPI_SETSCREENSAVETIMEOUT, SPI_SETSELECTIONFADE, SPI_SETSERIALKEYS, SPI_SETSHOWIMEUI, SPI_SETSHOWSOUNDS, SPI_SETSNAPSIZING, SPI_SETSNAPTODEFBUTTON, SPI_SETSOUNDSENTRY, SPI_SETSTICKYKEYS, SPI_SETSYSTEMLANGUAGEBAR, SPI_SETTHREADLOCALINPUTSETTINGS, SPI_SETTOGGLEKEYS, SPI_SETTOOLTIPANIMATION, SPI_SETTOOLTIPFADE, SPI_SETUIEFFECTS, SPI_SETWAITTOKILLSERVICETIMEOUT, SPI_SETWAITTOKILLTIMEOUT, SPI_SETWHEELSCROLLCHARS, SPI_SETWHEELSCROLLLINES, SPI_SETWINARRANGING, SPI_SETWORKAREA, SystemParametersInfo, SystemParametersInfo function [Windows and Messages], SystemParametersInfoA, SystemParametersInfoW, _win32_systemparametersinfo, base.systemparametersinfo, systemparametersinfo_cpp, winmsg.systemparametersinfo, winui.systemparametersinfo, winuser/SystemParametersInfo, winuser/SystemParametersInfoA, winuser/SystemParametersInfoW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -40,6 +41,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-sysparams-ext-l1-1-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-sysparams-Ext-l1-1-0.dll
  - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
@@ -53,7 +55,6 @@ req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
 ---
 
 # SystemParametersInfoA function
-
 
 ## -description
 
@@ -231,7 +232,7 @@ Users with visual impairments or cognitive conditions such as ADHD and dyslexia 
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled, or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled, or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -244,7 +245,7 @@ Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter
 </dl>
 </td>
 <td width="60%">
-Retrieves the time delay before the primary mouse button is locked. The <i>pvParam</i> parameter must point to <b>DWORD</b> that receives the time delay, in milliseconds. This is only enabled if <b>SPI_SETMOUSECLICKLOCK</b> is set to <b>TRUE</b>. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the time delay before the primary mouse button is locked. The <i>pvParam</i> parameter must point to <b>DWORD</b> that receives the time delay, in milliseconds. This is only enabled if <b>SPI_SETMOUSECLICKLOCK</b> is set to <b>TRUE</b>. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -268,7 +269,7 @@ Retrieves information about the MouseKeys accessibility feature. The <i>pvParam<
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -281,7 +282,7 @@ Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter mus
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -296,7 +297,7 @@ Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter mu
 <td width="60%">
 Determines whether a screen reviewer utility is running. A screen reviewer utility directs textual information to an output device, such as a speech synthesizer or Braille display. When this flag is set, an application should provide textual information in situations where it would otherwise present the information  graphically.
 
-The <i>pvParam</i> parameter is a pointer to a <b>BOOL</b>variable that receives <b>TRUE</b> if a screen reviewer utility is running, or <b>FALSE</b> otherwise.
+The <i>pvParam</i> parameter is a pointer to a <b>BOOL</b> variable that receives <b>TRUE</b> if a screen reviewer utility is running, or <b>FALSE</b> otherwise.
 
 <div class="alert"><b>Note</b>  Narrator, the screen reader that is included with Windows, does not set the <b>SPI_SETSCREENREADER</b> or <b>SPI_GETSCREENREADER</b> flags.</div>
 <div> </div>
@@ -511,7 +512,7 @@ Turns the Mouse ClickLock accessibility feature on or off. This feature temporar
 </dl>
 </td>
 <td width="60%">
-Adjusts the time delay before the primary mouse button is locked. The <i>uiParam</i> parameter should be set to 0. The <i>pvParam</i> parameter points to a <b>DWORD</b> that specifies the time delay in milliseconds. For example, specify 1000 for a 1 second delay. The default is 1200. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Adjusts the time delay before the primary mouse button is locked. The <i>uiParam</i> parameter should be set to 0. The <i>pvParam</i> parameter points to a <b>DWORD</b> that specifies the time delay in milliseconds. For example, specify 1000 for a 1 second delay. The default is 1200. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -535,7 +536,7 @@ Sets the parameters of the MouseKeys accessibility feature. The <i>pvParam</i> p
 </dl>
 </td>
 <td width="60%">
-Turns the Sonar accessibility feature on or off. This feature briefly shows several concentric circles around the mouse pointer when the user presses and releases the CTRL key. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Turns the Sonar accessibility feature on or off. This feature briefly shows several concentric circles around the mouse pointer when the user presses and releases the CTRL key. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -548,7 +549,7 @@ Turns the Sonar accessibility feature on or off. This feature briefly shows seve
 </dl>
 </td>
 <td width="60%">
-Turns the Vanish feature on or off. This feature hides the mouse pointer when the user types; the pointer reappears when the user moves the mouse. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Turns the Vanish feature on or off. This feature hides the mouse pointer when the user types; the pointer reappears when the user moves the mouse. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -706,7 +707,7 @@ The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives 
 </dl>
 </td>
 <td width="60%">
-Retrieves a contrast value that is used in <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Retrieves a contrast value that is used in <a href="/typography/cleartype/">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -850,7 +851,7 @@ To enable the feature, set the <i>uiParam</i> parameter to <b>TRUE</b>. To disab
 </dl>
 </td>
 <td width="60%">
-Sets the contrast value used in <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Sets the contrast value used in <a href="/typography/cleartype/">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>SPI_SETFONTSMOOTHINGTYPE</b> must also be set to <b>FE_FONTSMOOTHINGCLEARTYPE</b>.
 
@@ -878,7 +879,7 @@ Sets the font smoothing orientation. The <i>pvParam</i> parameter is either <b>F
 </dl>
 </td>
 <td width="60%">
-Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
+Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="/typography/cleartype/">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
 
 <b>SPI_SETFONTSMOOTHING</b> must also be set.
 
@@ -1017,7 +1018,7 @@ Turns icon-title wrapping on or off. The <i>uiParam</i> parameter specifies <b>T
 </table>
  
 
-The following are the input parameters. They include parameters related to the keyboard, mouse, pen, input language, and the warning beeper.
+The following are the input parameters. They include parameters related to the keyboard, mouse, touchpad, pen, input language, and the warning beeper.
 
 <table>
 <tr>
@@ -1202,11 +1203,13 @@ The <i>pvParam</i> parameter must point to an integer variable that receives a v
 </dl>
 </td>
 <td width="60%">
-Retrieves the routing setting for wheel button input. The routing setting determines whether wheel button input is sent to the app with focus (foreground) or the app under the mouse cursor.
+Retrieves the routing setting for mouse wheel input. The routing setting determines whether mouse wheel input is sent to the app with focus (foreground) or the app under the mouse cursor.
 
-The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the routing option. 
-If  the value is zero or MOUSEWHEEL_ROUTING_FOCUS, mouse wheel input is delivered to the app with focus. If the value is 1 or MOUSEWHEEL_ROUTING_HYBRID (default), mouse wheel input is delivered to the app with focus (desktop apps) or the app under the mouse cursor (Windows Store apps).
-The <i>uiParam</i> parameter is not used.
+The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the routing option. The <i>uiParam</i> parameter is not used.
+
+If  the value is zero (MOUSEWHEEL_ROUTING_FOCUS), mouse wheel input is delivered to the app with focus. If the value is 1 (MOUSEWHEEL_ROUTING_HYBRID), mouse wheel input is delivered to the app with focus (desktop apps) or the app under the mouse pointer (Windows Store apps).
+ 
+<b>Starting with Windows 10:</b> If the value is 2 (MOUSEWHEEL_ROUTING_MOUSE_POS), mouse wheel input is delivered to the app under the mouse pointer. This is the new default, and MOUSEWHEEL_ROUTING_HYBRID is no longer available in Settings.
 
 </td>
 </tr>
@@ -1252,6 +1255,22 @@ Determines whether the snap-to-default-button feature is enabled. If enabled, th
 <td width="60%">
 <b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SPI_GETTOUCHPADPARAMETERS"></a><a id="spi_gettouchpadparameters"></a><dl>
+<dt><b>SPI_GETTOUCHPADPARAMETERS</b></dt>
+<dt>0x00AE</dt>
+</dl>
+</td>
+<td width="60%">
+<b>Starting with Windows 11, version 24H2:</b> Retrieves details about the Precision Touchpad, including user settings and system information related to the touchpad.
+
+The *pvParam* parameter must point to a **[TOUCHPAD_PARAMETERS](/windows/win32/api/winuser/ns-winuser-touchpad_parameters)** structure.
+
+The *uiParam* parameter must specify the size of the structure.
+
+The value of the *versionNumber* field in the TOUCHPAD_PARAMETERS structure must be set to the appropriate value for the version of the structure being used.
 </td>
 </tr>
 <tr>
@@ -1476,7 +1495,7 @@ Sets the height, in pixels, of the rectangle within which the mouse pointer has 
 </dl>
 </td>
 <td width="60%">
-Sets the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. This is used only if you pass <b>HOVER_DEFAULT</b> in the <i>dwHoverTime</i> parameter in the call to <b>TrackMouseEvent</b>. Set the <i>uiParam</i>parameter to the new time.
+Sets the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. This is used only if you pass <b>HOVER_DEFAULT</b> in the <i>dwHoverTime</i> parameter in the call to <b>TrackMouseEvent</b>. Set the <i>uiParam</i> parameter to the new time.
 
 The time specified should be between <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b>. If <i>uiParam</i> is less than <b>USER_TIMER_MINIMUM</b>, the function will use <b>USER_TIMER_MINIMUM</b>. If <i>uiParam</i> is greater than <b>USER_TIMER_MAXIMUM</b>, the function will be <b>USER_TIMER_MAXIMUM</b>.               
 
@@ -1530,12 +1549,13 @@ To disable the feature, set the <i>uiParam</i> parameter to zero or 1. To enable
 </dl>
 </td>
 <td width="60%">
-Sets the routing setting for wheel button input. The routing setting determines whether wheel button input is sent to the app with focus (foreground) or the app under the mouse cursor.
+Sets the routing setting for mouse wheel input. The routing setting determines whether mouse wheel input is sent to the app with focus (foreground) or the app under the mouse cursor.
 
-The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the routing option. 
-If  the value is zero or MOUSEWHEEL_ROUTING_FOCUS, mouse wheel input is delivered to the app with focus. If the value is 1 or MOUSEWHEEL_ROUTING_HYBRID (default), mouse wheel input is delivered to the app with focus (desktop apps) or the app under the mouse cursor (Windows Store apps).
-Set the <i>uiParam</i> parameter to zero.
-
+The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the routing option. Set the <i>uiParam</i> parameter to zero.
+ 
+If  the value is zero (MOUSEWHEEL_ROUTING_FOCUS), mouse wheel input is delivered to the app with focus. If the value is 1 (MOUSEWHEEL_ROUTING_HYBRID), mouse wheel input is delivered to the app with focus (desktop apps) or the app under the mouse pointer (Windows Store apps).
+ 
+<b>Starting with Windows 10:</b> If the value is 2 (MOUSEWHEEL_ROUTING_MOUSE_POS), mouse wheel input is delivered to the app under the mouse pointer. This is the new default, and MOUSEWHEEL_ROUTING_HYBRID is no longer available in Settings.
 </td>
 </tr>
 <tr>
@@ -1580,6 +1600,22 @@ Enables or disables the snap-to-default-button feature. If enabled, the mouse cu
 <td width="60%">
 <b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must be a <b>BOOL</b> variable, casted by PVOID.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SPI_SETTOUCHPADPARAMETERS"></a><a id="spi_settouchpadparameters"></a><dl>
+<dt><b>SPI_SETTOUCHPADPARAMETERS</b></dt>
+<dt>0x00AF</dt>
+</dl>
+</td>
+<td width="60%">
+<b>Starting with Windows 11, version 24H2:</b> Sets details about the Precision Touchpad, including user settings and system information related to the touchpad.
+
+The *pvParam* parameter must point to a **[TOUCHPAD_PARAMETERS](/windows/win32/api/winuser/ns-winuser-touchpad_parameters)** structure.
+
+The *uiParam* parameter must specify the size of the structure.
+
+The value of the *versionNumber* field in the TOUCHPAD_PARAMETERS structure must be set to the appropriate value for the version of the structure being used.
 </td>
 </tr>
 <tr>
@@ -1819,7 +1855,7 @@ The following are the screen saver parameters.
 <td width="60%">
 Determines whether screen saving is enabled. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if screen saving is enabled, or <b>FALSE</b> otherwise.
 
-<b>Windows 7, Windows Server 2008 R2 and Windows 2000:  </b>The function returns <b>TRUE</b> even when screen saving is not enabled. For more information and a workaround, see <a href="https://support.microsoft.com/kb/318781">KB318781</a>.
+<b>Windows 7, Windows Server 2008 R2 and Windows 2000:  </b>The function returns <b>TRUE</b> even when screen saving is not enabled. 
 
 </td>
 </tr>
@@ -2247,7 +2283,7 @@ Set <i>pvParam</i> to <b>TRUE</b> to enable ToolTip animation or <b>FALSE</b> to
 </dl>
 </td>
 <td width="60%">
-If the <b>SPI_SETTOOLTIPANIMATION</b> flag is enabled, use <b>SPI_SETTOOLTIPFADE</b> to indicate whether ToolTip animation uses a fade effect or a slide effect. Set <i>pvParam</i> to <b>TRUE</b> for fade animation or <b>FALSE</b> for slide animation. The tooltip fade effect is possible only if the system has a color depth of more than 256 colors. For more information on the slide and fade effects, see the <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>function.
+If the <b>SPI_SETTOOLTIPANIMATION</b> flag is enabled, use <b>SPI_SETTOOLTIPFADE</b> to indicate whether ToolTip animation uses a fade effect or a slide effect. Set <i>pvParam</i> to <b>TRUE</b> for fade animation or <b>FALSE</b> for slide animation. The tooltip fade effect is possible only if the system has a color depth of more than 256 colors. For more information on the slide and fade effects, see the <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a> function.
 
 </td>
 </tr>
@@ -2323,7 +2359,7 @@ Retrieves the animation effects associated with user actions. The <i>pvParam</i>
 </dl>
 </td>
 <td width="60%">
-Retrieves the border multiplier factor that determines the width of a window's sizing border. The <i>pvParam</i>parameter must point to an integer variable that receives this value.
+Retrieves the border multiplier factor that determines the width of a window's sizing border. The <i>pvParam</i> parameter must point to an integer variable that receives this value.
 
 </td>
 </tr>
@@ -2465,6 +2501,8 @@ Use <b>SPI_GETWINARRANGING</b> to determine whether this behavior is enabled.
 </td>
 <td width="60%">
 Retrieves the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>.
+
+<b>Windows Server 2003 and Windows XP/2000:  </b>See Remarks for <a href="/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa#remarks">NONCLIENTMETRICS</a>.
 
 </td>
 </tr>
@@ -3007,7 +3045,7 @@ void main()
 
 
 > [!NOTE]
-> The winuser.h header defines SystemParametersInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SystemParametersInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
 targetos: Windows
@@ -56,7 +56,7 @@ api_name:
 
 Determines whether Windows Internet Explorer is in the Enhanced Security Configuration.
 
-## -parameters
+
 
 ## -returns
 

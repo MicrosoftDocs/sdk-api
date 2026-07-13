@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetDataFromIDListW
 title: SHGetDataFromIDListW function (shlobj_core.h)
-description: Retrieves extended property data from a relative identifier list.
-helpviewer_keywords: ["SHGDFIL_DESCRIPTIONID","SHGDFIL_FINDDATA","SHGDFIL_NETRESOURCE","SHGetDataFromIDList","SHGetDataFromIDList function [Windows Shell]","SHGetDataFromIDListA","SHGetDataFromIDListW","_win32_SHGetDataFromIDList","shell.SHGetDataFromIDList","shlobj_core/SHGetDataFromIDList","shlobj_core/SHGetDataFromIDListA","shlobj_core/SHGetDataFromIDListW"]
+description: Retrieves extended property data from a relative identifier list. (Unicode)
+helpviewer_keywords: ["SHGDFIL_DESCRIPTIONID", "SHGDFIL_FINDDATA", "SHGDFIL_NETRESOURCE", "SHGetDataFromIDList", "SHGetDataFromIDList function [Windows Shell]", "SHGetDataFromIDListW", "_win32_SHGetDataFromIDList", "shell.SHGetDataFromIDList", "shlobj_core/SHGetDataFromIDList", "shlobj_core/SHGetDataFromIDListW"]
 old-location: shell\SHGetDataFromIDList.htm
 tech.root: shell
 ms.assetid: 11c041bd-22fd-46a4-b75c-cc86ee771241
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
  - Shell32.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
@@ -81,13 +85,13 @@ The format in which the data is being requested. This parameter must be set to o
 
 #### SHGDFIL_FINDDATA
 
-Format used for file system objects. The <i>pv</i> parameter is the address of a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure.
+Format used for file system objects. The <i>pv</i> parameter is the address of a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataw">WIN32_FIND_DATA</a> structure.
 
 
 
 #### SHGDFIL_NETRESOURCE
 
-Format used for network resources. The <i>pv</i> parameter is the address of a <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
+Format used for network resources. The <i>pv</i> parameter is the address of a <a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcew">NETRESOURCE</a> structure.
 
 
 
@@ -110,22 +114,6 @@ Type: <b>int</b>
 
 Size of the buffer at <i>pv</i>, in bytes.
 
-
-##### - nFormat.SHGDFIL_DESCRIPTIONID
-
-
-<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71</a>. Format used for network resources. The <i>pv</i> parameter is the address of an <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shdescriptionid">SHDESCRIPTIONID</a> structure.
-
-
-##### - nFormat.SHGDFIL_FINDDATA
-
-Format used for file system objects. The <i>pv</i> parameter is the address of a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure.
-
-
-##### - nFormat.SHGDFIL_NETRESOURCE
-
-Format used for network resources. The <i>pv</i> parameter is the address of a <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
-
 ## -returns
 
 Type: <b>HRESULT</b>
@@ -134,7 +122,7 @@ Returns S_OK if successful, or E_INVALIDARG otherwise.
 
 ## -remarks
 
-This function extracts only information that is present in the pointer to an item identifier list (PIDL). Since the content of a PIDL depends on the folder object that created the PIDL, there is no guarantee that all requested information will be available. In addition, the information that is returned reflects the state of the object at the time the PIDL was created. The current state of the object could be different. For example, if you set <i>nFormat</i> to <b>SHGDFIL_FINDDATA</b>, the function might assign meaningful values to only some of the members of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure. The remaining members will be set to zero. To retrieve complete current information on a file system file or folder, use standard file system functions such as <a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a> or <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>.
+This function extracts only information that is present in the pointer to an item identifier list (PIDL). Since the content of a PIDL depends on the folder object that created the PIDL, there is no guarantee that all requested information will be available. In addition, the information that is returned reflects the state of the object at the time the PIDL was created. The current state of the object could be different. For example, if you set <i>nFormat</i> to <b>SHGDFIL_FINDDATA</b>, the function might assign meaningful values to only some of the members of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataw">WIN32_FIND_DATA</a> structure. The remaining members will be set to zero. To retrieve complete current information on a file system file or folder, use standard file system functions such as <a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a> or <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilew">FindFirstFile</a>.
 
 E_INVALIDARG is returned if the <i>psf</i>, <i>pidl</i>, <i>pv</i>, or <i>cb</i> parameter does not match the <i>nFormat</i> parameter, or if <i>nFormat</i> is not one of the specific SHGDFIL_ values shown above.
 
@@ -142,4 +130,4 @@ E_INVALIDARG is returned if the <i>psf</i>, <i>pidl</i>, <i>pv</i>, or <i>cb</i>
 
 
 > [!NOTE]
-> The shlobj_core.h header defines SHGetDataFromIDList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHGetDataFromIDList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

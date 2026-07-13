@@ -6,7 +6,7 @@ helpviewer_keywords: ["WerFreeString","WerFreeString function [Windows Error Rep
 old-location: wer\werfreestring.htm
 tech.root: wer
 ms.assetid: 748AEFD4-3310-4BC1-A3DA-CFACBA31F2FC
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WerFreeString, WerFreeString function [Windows Error Reporting], wer.werfreestring, werapi/WerFreeString
 req.header: werapi.h
 req.include-header: 
@@ -49,29 +49,20 @@ api_name:
 
 # WerFreeString function
 
-
 ## -description
 
-Frees up the memory used to store a report key string. This should be called after each successive call to <a href="/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey">WerStoreGetFirstReportKey</a> or <a href="/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey">WerStoreGetNextReportKey</a>, once the particular report key string has been used and is no longer needed.
+Frees up the memory used to store a [Windows Error Reporting](../_wer/index.md) (WER) key string.
 
 ## -parameters
 
 ### -param pwszStr
 
-The string to be freed (value set to <b>NULL</b>).
+The string to be freed (value set to **NULL**).
+
+### -remarks
+
+This method should be called after each successive call to [WerStoreGetFirstReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey) or [WerStoreGetNextReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey), once the particular report key string has been used and is no longer needed.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey">WerStoreGetFirstReportKey</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey">WerStoreGetNextReportKey</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerStoreGetFirstReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey), [WerStoreGetNextReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey), [Windows Error Reporting](/windows/desktop/wer)

@@ -52,7 +52,7 @@ api_name:
 
 Gets the language currently in use by the common controls for a particular process.
 
-## -parameters
+
 
 ## -returns
 

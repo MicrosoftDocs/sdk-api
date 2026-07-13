@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetConnectStatusA
 title: RasGetConnectStatusA function (ras.h)
-description: The RasGetConnectStatus function retrieves information on the current status of the specified remote access connection. An application can use this call to determine when an asynchronous RasDial call is complete.
-helpviewer_keywords: ["RasGetConnectStatus","RasGetConnectStatus function [RAS]","RasGetConnectStatusA","RasGetConnectStatusW","_ras_rasgetconnectstatus","ras/RasGetConnectStatus","ras/RasGetConnectStatusA","ras/RasGetConnectStatusW","rras.rasgetconnectstatus"]
+description: The RasGetConnectStatus function retrieves information on the current status of the specified remote access connection. An application can use this call to determine when an asynchronous RasDial call is complete. (ANSI)
+helpviewer_keywords: ["RasGetConnectStatusA", "ras/RasGetConnectStatusA"]
 old-location: rras\rasgetconnectstatus.htm
 tech.root: RRAS
 ms.assetid: 3b2a2f8d-b1ff-44d2-ba49-60877ca6c104
@@ -114,7 +114,7 @@ The return value for
 
 
 > [!NOTE]
-> The ras.h header defines RasGetConnectStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetConnectStatus as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

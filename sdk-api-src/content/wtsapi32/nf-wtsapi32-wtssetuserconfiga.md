@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSSetUserConfigA
 title: WTSSetUserConfigA function (wtsapi32.h)
-description: Modifies configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSSetUserConfig","WTSSetUserConfig function [Remote Desktop Services]","WTSSetUserConfigA","WTSSetUserConfigW","_win32_wtssetuserconfig","termserv.wtssetuserconfig","wtsapi32/WTSSetUserConfig","wtsapi32/WTSSetUserConfigA","wtsapi32/WTSSetUserConfigW"]
+description: Modifies configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server. (ANSI)
+helpviewer_keywords: ["WTSSetUserConfigA", "wtsapi32/WTSSetUserConfigA"]
 old-location: termserv\wtssetuserconfig.htm
 tech.root: TermServ
 ms.assetid: 44d027c6-6ebb-4750-a0fa-17fdf31e45cd
@@ -125,7 +125,7 @@ WTSSetUserConfig( strServer.GetBuffer(0),
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSSetUserConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSSetUserConfig as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

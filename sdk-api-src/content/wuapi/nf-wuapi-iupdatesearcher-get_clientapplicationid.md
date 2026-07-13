@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ClientApplicationID
 title: IUpdateSearcher::get_ClientApplicationID (wuapi.h)
-description: Identifies the current client application.
+description: Identifies the current client application. (Get)
 helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","ClientApplicationID property","IUpdateSearcher.ClientApplicationID","IUpdateSearcher.get_ClientApplicationID","IUpdateSearcher::ClientApplicationID","IUpdateSearcher::get_ClientApplicationID","IUpdateSearcher::put_ClientApplicationID","get_ClientApplicationID","wua.iupdatesearcherclientapplicationid","wuapi/IUpdateSearcher::ClientApplicationID","wuapi/IUpdateSearcher::get_ClientApplicationID","wuapi/IUpdateSearcher::put_ClientApplicationID"]
 old-location: wua\iupdatesearcherclientapplicationid.htm
 tech.root: wua

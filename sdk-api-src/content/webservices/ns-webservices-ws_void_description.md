@@ -56,7 +56,7 @@ Specifies information about a field which is neither serialized nor
                 deserialized.
             
 
-This is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>within a <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
+This is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a> within a <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 This type description is only required when <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> is not

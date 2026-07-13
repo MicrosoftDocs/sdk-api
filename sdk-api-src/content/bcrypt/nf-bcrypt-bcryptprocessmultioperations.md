@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCryptProcessMultiOperations","BCryptProcessMultiOperatio
 old-location: security\bcryptprocessmultioperation.htm
 tech.root: security
 ms.assetid: 5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5
-ms.date: 12/05/2018
+ms.date: 03/21/2023
 ms.keywords: BCryptProcessMultiOperations, BCryptProcessMultiOperations function [Security], bcrypt/BCryptProcessMultiOperations, security.bcryptprocessmultioperation
 req.header: bcrypt.h
 req.include-header: 
@@ -48,43 +48,54 @@ api_name:
 
 # BCryptProcessMultiOperations function
 
-
 ## -description
 
-The <b>BCryptProcessMultiOperations</b> function processes a sequence of operations on a multi-object state.
+The **BCryptProcessMultiOperations** function processes a sequence of operations on a multi-object state.
 
 ## -parameters
 
-### -param hObject [in, out]
+### -param hObject
 
-A handle to a multi-object state, such as one created by the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
+*BCRYPT_HANDLE* `[in, out]`
 
-### -param operationType [in]
+A handle to a multi-object state, such as one created by the [BCryptCreateMultiHash](nf-bcrypt-bcryptcreatemultihash.md) function.
 
-A <b>BCRYPT_OPERATION_TYPE_*</b> value. Currently the only defined value is <b>BCRYPT_OPERATION_TYPE_HASH</b>. This value identifies the <i>hObject</i> parameter as a multi-hash object and the <i>pOperations</i> pointer as pointing to an array of <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> elements.
+### -param operationType
 
-### -param pOperations [in]
+*BCRYPT_MULTI_OPERATION_TYPE* `[in]`
 
-A pointer to an array of operation command structures. For hashing, it is a pointer to an array of <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> structures.
+One of the **BCRYPT_OPERATION_TYPE_**\* values. Currently the only defined value is **BCRYPT_OPERATION_TYPE_HASH**. This value identifies the *hObject* parameter as a multi-hash object and the *pOperations* pointer as pointing to an array of [BCRYPT_MULTI_HASH_OPERATION](ns-bcrypt-bcrypt_multi_hash_operation.md) elements.
 
-### -param cbOperations [in]
+### -param pOperations
 
-The size, in bytes, of the <i>pOperations</i> array.
+*PVOID* `[in]`
 
-### -param dwFlags [in]
+A pointer to an array of operation command structures. For hashing, it is a pointer to an array of [BCRYPT_MULTI_HASH_OPERATION](ns-bcrypt-bcrypt_multi_hash_operation.md) structures.
 
-Specify a value of zero (0).
+### -param cbOperations
+
+*ULONG* `[in]`
+
+The size, in bytes, of the *pOperations* array.
+
+### -param dwFlags
+
+*ULONG* `[in]`
+
+Specify a value of zero (`0`).
+
+## -returns
+
+Returns a status code that indicates the success or failure of the function. If the method succeeds, it will return `STATUS_SUCCESS`. For other **NTSTATUS** values, see [NTSTATUS Values](/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55).
 
 ## -remarks
 
-Each element of the <i>pOperations</i> array contains instructions for a particular computation to be performed on a single element of the multi-object state. The functional behavior of <b>BCryptProcessMultiOperations</b> is equivalent to performing, for each element in the multi-object state, the computations specified in the operations array for that element, one at a time, in order. 
+Each element of the *pOperations* array contains instructions for a particular computation to be performed on a single element of the multi-object state. The functional behavior of **BCryptProcessMultiOperations** is equivalent to performing, for each element in the multi-object state, the computations specified in the operations array for that element, one at a time, in order.
 
 The relative order of two operations that operate on different elements of the array is not guaranteed. If an output buffer overlaps an input or output buffer the result is not deterministic.
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a>
+[BCRYPT_MULTI_HASH_OPERATION](ns-bcrypt-bcrypt_multi_hash_operation.md)
 
-
-
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a>
+[BCryptCreateMultiHash](nf-bcrypt-bcryptcreatemultihash.md)

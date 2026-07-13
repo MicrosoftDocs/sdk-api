@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.put_Interfaces
 title: INetFwRule::put_Interfaces (netfw.h)
-description: Specifies the list of interfaces for which the rule applies.
+description: Specifies the list of interfaces for which the rule applies. (Put)
 helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","Interfaces property","INetFwRule.Interfaces","INetFwRule.put_Interfaces","INetFwRule::Interfaces","INetFwRule::get_Interfaces","INetFwRule::put_Interfaces","Interfaces property [ICS/ICF]","Interfaces property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_interfaces","netfw/INetFwRule::Interfaces","netfw/INetFwRule::get_Interfaces","netfw/INetFwRule::put_Interfaces","put_Interfaces"]
 old-location: ics\inetfwrule_interfaces.htm
 tech.root: ics

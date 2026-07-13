@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation)
 title: IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation) (dcomp.h)
-description: Sets the saturation of the image.
+description: Sets the saturation of the image. (overload 1/2)
 helpviewer_keywords: ["IDCompositionSaturationEffect interface [DirectComposition]","SetSaturation method","IDCompositionSaturationEffect.SetSaturation","IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation)","IDCompositionSaturationEffect::SetSaturation","IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation)","SetSaturation","SetSaturation method [DirectComposition]","SetSaturation method [DirectComposition]","IDCompositionSaturationEffect interface","dcomp/IDCompositionSaturationEffect::SetSaturation","directcomp.idcompositionsaturationeffect_setsaturation_2"]
 old-location: directcomp\idcompositionsaturationeffect_setsaturation_2.htm
 tech.root: directcomp
@@ -66,7 +66,7 @@ An animation that represents how the saturation of the image changes over time. 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass.put_EventClassName
 title: IEventClass::put_EventClassName (eventsys.h)
-description: The ProgID for the event class object.
+description: The ProgID for the event class object. (Put)
 helpviewer_keywords: ["EventClassName property [COM+]","EventClassName property [COM+]","IEventClass interface","IEventClass interface [COM+]","EventClassName property","IEventClass.EventClassName","IEventClass.put_EventClassName","IEventClass::EventClassName","IEventClass::get_EventClassName","IEventClass::put_EventClassName","cos.ieventclass_eventclassname","eventsys/IEventClass::EventClassName","eventsys/IEventClass::get_EventClassName","eventsys/IEventClass::put_EventClassName","put_EventClassName"]
 old-location: cos\ieventclass_eventclassname.htm
 tech.root: cos

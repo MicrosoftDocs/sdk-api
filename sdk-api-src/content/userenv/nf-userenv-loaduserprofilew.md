@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.LoadUserProfileW
 title: LoadUserProfileW function (userenv.h)
-description: Loads the specified user's profile. The profile can be a local user profile or a roaming user profile.
-helpviewer_keywords: ["LoadUserProfile","LoadUserProfile function [Windows Shell]","LoadUserProfileA","LoadUserProfileW","_shell_LoadUserProfile","shell.LoadUserProfile","userenv/LoadUserProfile","userenv/LoadUserProfileA","userenv/LoadUserProfileW"]
+description: Loads the specified user's profile. The profile can be a local user profile or a roaming user profile. (Unicode)
+helpviewer_keywords: ["LoadUserProfile", "LoadUserProfile function [Windows Shell]", "LoadUserProfileW", "_shell_LoadUserProfile", "shell.LoadUserProfile", "userenv/LoadUserProfile", "userenv/LoadUserProfileW"]
 old-location: shell\LoadUserProfile.htm
 tech.root: shell
 ms.assetid: 9ec1f8f2-8f20-4d38-9d41-70315b890336
@@ -103,7 +103,7 @@ Starting with Windows XP Service Pack 2 (SP2) and Windows Server 2003, the ca
 
 
 > [!NOTE]
-> The userenv.h header defines LoadUserProfile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The userenv.h header defines LoadUserProfile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

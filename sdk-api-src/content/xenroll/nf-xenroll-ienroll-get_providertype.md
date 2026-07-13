@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_ProviderType
 title: IEnroll::get_ProviderType (xenroll.h)
-description: Sets or retrieves the type of provider.
+description: Sets or retrieves the type of provider. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","ProviderType property","IEnroll.ProviderType","IEnroll.get_ProviderType","IEnroll::ProviderType","IEnroll::get_ProviderType","IEnroll::put_ProviderType","ProviderType property [Security]","ProviderType property [Security]","IEnroll interface","get_ProviderType","security.ienroll4_providertype","xenroll/IEnroll::ProviderType","xenroll/IEnroll::get_ProviderType","xenroll/IEnroll::put_ProviderType"]
 old-location: security\ienroll4_providertype.htm
 tech.root: security

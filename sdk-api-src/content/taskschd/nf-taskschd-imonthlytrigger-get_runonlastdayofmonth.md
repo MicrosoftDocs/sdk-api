@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.get_RunOnLastDayOfMonth
 title: IMonthlyTrigger::get_RunOnLastDayOfMonth (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the task runs on the last day of the month.
+description: Gets or sets a Boolean value that indicates that the task runs on the last day of the month. (Get)
 helpviewer_keywords: ["IMonthlyTrigger interface [Task Scheduler]","RunOnLastDayOfMonth property","IMonthlyTrigger.RunOnLastDayOfMonth","IMonthlyTrigger.get_RunOnLastDayOfMonth","IMonthlyTrigger::RunOnLastDayOfMonth","IMonthlyTrigger::get_RunOnLastDayOfMonth","IMonthlyTrigger::put_RunOnLastDayOfMonth","RunOnLastDayOfMonth property [Task Scheduler]","RunOnLastDayOfMonth property [Task Scheduler]","IMonthlyTrigger interface","get_RunOnLastDayOfMonth","taskschd.imonthlytrigger_runonlastdayofmonth","taskschd/IMonthlyTrigger::RunOnLastDayOfMonth","taskschd/IMonthlyTrigger::get_RunOnLastDayOfMonth","taskschd/IMonthlyTrigger::put_RunOnLastDayOfMonth"]
 old-location: taskschd\imonthlytrigger_runonlastdayofmonth.htm
 tech.root: taskschd

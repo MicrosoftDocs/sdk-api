@@ -15,7 +15,7 @@ dev_langs:
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ ms.custom: 19H1
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 
 Implements a generic event interface that can deliver and encapsulate events that are raised by devices that work with the Protected Broadcast Driver Interface (PBDA). PBDA devices pass <b>IESEvent</b> objects in calls to <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>.
       Any devices that have registered to receive an event can call <b>IESEvent</b> methods to get data from the event.
@@ -56,9 +58,9 @@ Implements a generic event interface that can deliver and encapsulate events tha
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IESEvent</b> also has these types of members:
+The <b>IESEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IESEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -69,7 +71,7 @@ The <b>IESEvent</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-getdata">GetData</a>
 </td>
@@ -79,7 +81,7 @@ Returns a byte array that contains the event data.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-geteventid">GetEventId</a>
 </td>
@@ -89,7 +91,7 @@ Gets the unique identifier for the event.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-geteventtype">GetEventType</a>
 </td>
@@ -99,7 +101,7 @@ Gets the GUID that identifies the event type.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-getstringdata">GetStringData</a>
 </td>
@@ -109,7 +111,7 @@ Gets the event data in Unicode string format.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-setcompletionstatus">SetCompletionStatus</a>
 </td>
@@ -119,7 +121,7 @@ Sets the event completion status for clients that  process the event.
 
 </td>
 </tr>
-</table> 
+</table> 
 
 
 ## -remarks
@@ -141,6 +143,6 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEvents</a>
- 
+ 
 
- 
+ 

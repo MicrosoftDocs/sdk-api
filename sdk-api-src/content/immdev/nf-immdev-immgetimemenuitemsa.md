@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetImeMenuItemsA
 title: ImmGetImeMenuItemsA function (immdev.h)
-description: Retrieves the menu items that are registered in the IME menu of a specified input context.
-helpviewer_keywords: ["IGIMIF_RIGHTMENU","IGIMII_CMODE","IGIMII_CONFIGURE","IGIMII_HELP","IGIMII_INPUTTOOLS","IGIMII_OTHER","IGIMII_SMODE","IGIMII_TOOLS","ImmGetImeMenuItems","ImmGetImeMenuItems function [Internationalization for Windows Applications]","ImmGetImeMenuItemsA","ImmGetImeMenuItemsW","_win32_ImmGetImeMenuItems","imm/ImmGetImeMenuItems","imm/ImmGetImeMenuItemsA","imm/ImmGetImeMenuItemsW","intl.immgetimemenuitems"]
+description: The ImmGetImeMenuItemsA (ANSI) function (immdev.h) retrieves the menu items that are registered in the IME menu of a specified input context. 
+helpviewer_keywords: ["IGIMIF_RIGHTMENU", "IGIMII_CMODE", "IGIMII_CONFIGURE", "IGIMII_HELP", "IGIMII_INPUTTOOLS", "IGIMII_OTHER", "IGIMII_SMODE", "IGIMII_TOOLS", "ImmGetImeMenuItemsA"]
 old-location: intl\immgetimemenuitems.htm
 tech.root: Intl
 ms.assetid: 452c864d-b2e7-452a-85f2-d06d46170865
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IGIMIF_RIGHTMENU, IGIMII_CMODE, IGIMII_CONFIGURE, IGIMII_HELP, IGIMII_INPUTTOOLS, IGIMII_OTHER, IGIMII_SMODE, IGIMII_TOOLS, ImmGetImeMenuItems, ImmGetImeMenuItems function [Internationalization for Windows Applications], ImmGetImeMenuItemsA, ImmGetImeMenuItemsW, _win32_ImmGetImeMenuItems, imm/ImmGetImeMenuItems, imm/ImmGetImeMenuItemsA, imm/ImmGetImeMenuItemsW, intl.immgetimemenuitems
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -186,4 +186,4 @@ Returns the number of menu items copied into <i>lpImeMenu</i>. If <i>lpImeMenu</
 ## -remarks
 
 > [!NOTE]
-> The immdev.h header defines ImmGetImeMenuItems as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines ImmGetImeMenuItems as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

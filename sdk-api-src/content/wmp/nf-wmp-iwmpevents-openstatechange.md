@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","OpenStateCh
 old-location: wmp\iwmpevents_iwmpevents__openstatechange.htm
 tech.root: WMP
 ms.assetid: 6f228bc5-39a4-4bf8-a887-43ba13c1c414
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEvents interface [Windows Media Player],OpenStateChange method, IWMPEvents.OpenStateChange, IWMPEvents::OpenStateChange, IWMPEventsOpenStateChange, OpenStateChange, OpenStateChange method [Windows Media Player], OpenStateChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__openstatechange, wmp/IWMPEvents::OpenStateChange
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>OpenStateChange</b> event occurs when the Windows Media Player control changes state.
 

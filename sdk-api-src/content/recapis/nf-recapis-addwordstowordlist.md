@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: inkobjcore.lib
+req.dll: inkobjcore.dll
 req.irql: 
 targetos: Windows
 req.typenames: 

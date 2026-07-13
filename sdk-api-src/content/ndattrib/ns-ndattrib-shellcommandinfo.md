@@ -103,7 +103,7 @@ The following verbs are used in connection with <i>pwszOperation</i>.
 </tr>
 <tr>
 <td width="40%">
-<a id="edit"></a><a id="EDIT"></a>edit
+<a id="edit"></a><a id="EDIT"></a> edit
 
 </td>
 <td width="60%">
@@ -113,7 +113,7 @@ Launches an editor and opens the document for editing. If <i>pwszFile</i> is not
 </tr>
 <tr>
 <td width="40%">
-<a id="explore"></a><a id="EXPLORE"></a>explore
+<a id="explore"></a><a id="EXPLORE"></a> explore
 
 </td>
 <td width="60%">
@@ -123,7 +123,7 @@ Explores the folder specified by the <i>pwszFile</i> parameter.
 </tr>
 <tr>
 <td width="40%">
-<a id="find"></a><a id="FIND"></a>find
+<a id="find"></a><a id="FIND"></a> find
 
 </td>
 <td width="60%">
@@ -133,7 +133,7 @@ Initiates a search starting from the specified directory.
 </tr>
 <tr>
 <td width="40%">
-<a id="open"></a><a id="OPEN"></a>open
+<a id="open"></a><a id="OPEN"></a> open
 
 </td>
 <td width="60%">
@@ -143,7 +143,7 @@ Opens the file specified by the <i>pwszFile</i> parameter. The file can be an ex
 </tr>
 <tr>
 <td width="40%">
-<a id="print"></a><a id="PRINT"></a>print
+<a id="print"></a><a id="PRINT"></a> print
 
 </td>
 <td width="60%">

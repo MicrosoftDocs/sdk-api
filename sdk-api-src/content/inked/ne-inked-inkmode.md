@@ -51,15 +51,15 @@ Specifies the collection mode for drawn ink-whether ink collection is disabled, 
 
 ## -enum-fields
 
-### -field IEM_Disabled
+### -field IEM_Disabled:0
 
 Ink collection is disabled. No strokes are created when in this mode.
 
-### -field IEM_Ink
+### -field IEM_Ink:1
 
 Ink only is collected, creating a stroke.
 
-### -field IEM_InkAndGesture
+### -field IEM_InkAndGesture:2
 
 Default. Ink is collected and single-stroke gestures are accepted.
 

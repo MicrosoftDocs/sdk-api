@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthClientA
 title: RpcBindingInqAuthClientA function (rpcdce.h)
-description: A server application calls the RpcBindingInqAuthClient function to obtain the principal name or privilege attributes of the authenticated client that made the remote procedure call.
-helpviewer_keywords: ["RpcBindingInqAuthClient","RpcBindingInqAuthClient function [RPC]","RpcBindingInqAuthClientA","RpcBindingInqAuthClientW","_rpc_rpcbindinginqauthclient","rpc.rpcbindinginqauthclient","rpcdce/RpcBindingInqAuthClient","rpcdce/RpcBindingInqAuthClientA","rpcdce/RpcBindingInqAuthClientW"]
+description: A server application calls the RpcBindingInqAuthClient function to obtain the principal name or privilege attributes of the authenticated client that made the remote procedure call. (RpcBindingInqAuthClientA)
+helpviewer_keywords: ["RpcBindingInqAuthClientA", "rpcdce/RpcBindingInqAuthClientA"]
 old-location: rpc\rpcbindinginqauthclient.htm
 tech.root: Rpc
 ms.assetid: 2834a6a8-8bd6-4829-84ea-e3f35c917ab7
@@ -175,7 +175,7 @@ For synchronous RPC calls, the server application can use zero as the value for 
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcBindingInqAuthClient as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcBindingInqAuthClient as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

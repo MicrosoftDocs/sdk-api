@@ -1,8 +1,8 @@
 ---
 UID: NF:winineti.CreateUrlCacheContainerW
 title: CreateUrlCacheContainerW function (winineti.h)
-description: Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type.
-helpviewer_keywords: ["CreateUrlCacheContainer","CreateUrlCacheContainer function [WinINet]","CreateUrlCacheContainerA","CreateUrlCacheContainerW","wininet.createurlcachecontainer","winineti/CreateUrlCacheContainer"]
+description: Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type. (Unicode)
+helpviewer_keywords: ["CreateUrlCacheContainer", "CreateUrlCacheContainer function [WinINet]", "CreateUrlCacheContainerW", "wininet.createurlcachecontainer", "winineti/CreateUrlCacheContainer"]
 old-location: wininet\createurlcachecontainer.htm
 tech.root: wininet
 ms.assetid: 19b518cc-2f02-49c3-bedc-f5d633cc635d
@@ -107,4 +107,4 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 ## -remarks
 
 > [!NOTE]
-> The winineti.h header defines CreateUrlCacheContainer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winineti.h header defines CreateUrlCacheContainer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

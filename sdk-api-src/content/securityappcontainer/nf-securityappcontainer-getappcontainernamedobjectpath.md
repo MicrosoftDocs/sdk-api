@@ -262,14 +262,12 @@ Cleanup:
     return bSuccess;
 }
 
-�
     PSID pLogonSid = NULL;
     PSECURITY_DESCRIPTOR pSd = NULL;
     SECURITY_ATTRIBUTES  SecurityAttributes;
     HANDLE hToken = NULL;
     HANDLE hMutex = NULL;
 
-�
     //Allowing LogonSid and all appcontainers. 
     if (GetLogonSid(hToken, &pLogonSid) && CreateObjectSecurityDescriptor(pLogonSid, &pSd) )
     {

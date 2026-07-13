@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.wvnsprintfW
 title: wvnsprintfW function (shlwapi.h)
-description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string.
-helpviewer_keywords: ["_win32_wvnsprintf","shell.wvnsprintf","shlwapi/wvnsprintf","shlwapi/wvnsprintfA","shlwapi/wvnsprintfW","wvnsprintf","wvnsprintf function [Windows Shell]","wvnsprintfA","wvnsprintfW"]
+description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string. (Unicode)
+helpviewer_keywords: ["_win32_wvnsprintf", "shell.wvnsprintf", "shlwapi/wvnsprintf", "shlwapi/wvnsprintfW", "wvnsprintf", "wvnsprintf function [Windows Shell]", "wvnsprintfW"]
 old-location: shell\wvnsprintf.htm
 tech.root: shell
 ms.assetid: a2aaaa05-d61e-41e3-8e49-7c0da1a661f0
@@ -74,7 +74,7 @@ The maximum number of characters allowed in <i>pszDest</i>.
 
 Type: <b>PCTSTR</b>
 
-A <a href="/windows/desktop/direct3dhlsl/printf">printf</a>-style format string. The %s format identifier should never be used in an unbounded form. To avoid potential buffer overruns, always specify a size; for instance "%32s".
+A <a href="cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l">printf</a>-style format string. The %s format identifier should never be used in an unbounded form. To avoid potential buffer overruns, always specify a size; for instance "%32s".
 
 ### -param arglist [in]
 
@@ -96,4 +96,4 @@ Returns the number of characters written to the buffer, excluding any terminatin
 
 
 > [!NOTE]
-> The shlwapi.h header defines wvnsprintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines wvnsprintf as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

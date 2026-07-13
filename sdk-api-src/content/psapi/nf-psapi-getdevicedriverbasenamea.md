@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.GetDeviceDriverBaseNameA
 title: GetDeviceDriverBaseNameA function (psapi.h)
-description: Retrieves the base name of the specified device driver.
-helpviewer_keywords: ["GetDeviceDriverBaseName","GetDeviceDriverBaseName function [PSAPI]","GetDeviceDriverBaseNameA","GetDeviceDriverBaseNameW","K32GetDeviceDriverBaseName","K32GetDeviceDriverBaseNameA","K32GetDeviceDriverBaseNameW","_win32_getdevicedriverbasename","base.getdevicedriverbasename","psapi.getdevicedriverbasename","psapi/GetDeviceDriverBaseName","psapi/GetDeviceDriverBaseNameA","psapi/GetDeviceDriverBaseNameW","psapi/K32GetDeviceDriverBaseName","psapi/K32GetDeviceDriverBaseNameA","psapi/K32GetDeviceDriverBaseNameW"]
+description: Retrieves the base name of the specified device driver. (ANSI)
+helpviewer_keywords: ["GetDeviceDriverBaseNameA", "K32GetDeviceDriverBaseNameA", "psapi/GetDeviceDriverBaseNameA", "psapi/K32GetDeviceDriverBaseNameA"]
 old-location: psapi\getdevicedriverbasename.htm
 tech.root: psapi
 ms.assetid: a19a927d-4669-4d4c-951e-43f294a8fb40
@@ -110,7 +110,7 @@ For an example, see
 
 
 > [!NOTE]
-> The psapi.h header defines GetDeviceDriverBaseName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The psapi.h header defines GetDeviceDriverBaseName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

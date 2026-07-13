@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionReflection.GetFunctionParameter
 title: ID3D11FunctionReflection::GetFunctionParameter (d3d11shader.h)
-description: Gets the function parameter reflector.
+description: Gets the function parameter reflector. (ID3D11FunctionReflection.GetFunctionParameter)
 helpviewer_keywords: ["GetFunctionParameter","GetFunctionParameter method [Direct3D 11]","GetFunctionParameter method [Direct3D 11]","ID3D11FunctionReflection interface","ID3D11FunctionReflection interface [Direct3D 11]","GetFunctionParameter method","ID3D11FunctionReflection.GetFunctionParameter","ID3D11FunctionReflection::GetFunctionParameter","d3d11shader/ID3D11FunctionReflection::GetFunctionParameter","direct3d11.id3d11functionreflection_getfunctionparameter"]
 old-location: direct3d11\id3d11functionreflection_getfunctionparameter.htm
 tech.root: direct3d11

@@ -56,15 +56,15 @@ Elements of the <b>TKBLayoutType</b> enumeration are passed by an IME in a call 
 
 ## -enum-fields
 
-### -field TKBLT_UNDEFINED
+### -field TKBLT_UNDEFINED:0
 
  Undefined. If specified, it will cause the layout to fallback to a classic layout.
 
-### -field TKBLT_CLASSIC
+### -field TKBLT_CLASSIC:1
 
 The touch keyboard is to use a classic layout.
 
-### -field TKBLT_OPTIMIZED
+### -field TKBLT_OPTIMIZED:2
 
 The touch keyboard is to use a touch-optimized layout.
 

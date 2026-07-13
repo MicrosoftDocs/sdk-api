@@ -1,8 +1,8 @@
 ---
 UID: NF:dsgetdc.DsGetDcNextA
 title: DsGetDcNextA function (dsgetdc.h)
-description: Retrieves the next domain controller in a domain controller enumeration operation.
-helpviewer_keywords: ["DsGetDcNext","DsGetDcNext function [Active Directory]","DsGetDcNextA","DsGetDcNextW","ad.dsgetdcnext","dsgetdc/DsGetDcNext","dsgetdc/DsGetDcNextA","dsgetdc/DsGetDcNextW"]
+description: Retrieves the next domain controller in a domain controller enumeration operation. (ANSI)
+helpviewer_keywords: ["DsGetDcNextA", "dsgetdc/DsGetDcNextA"]
 old-location: ad\dsgetdcnext.htm
 tech.root: ad
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
@@ -106,7 +106,7 @@ The following procedure shows how to get a complete DC list from a computer runn
 
 
 > [!NOTE]
-> The dsgetdc.h header defines DsGetDcNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsgetdc.h header defines DsGetDcNext as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

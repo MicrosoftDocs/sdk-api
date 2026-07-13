@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ExtractIconExW
 title: ExtractIconExW function (shellapi.h)
-description: The ExtractIconEx function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.
-helpviewer_keywords: ["ExtractIconEx","ExtractIconEx function [Windows Shell]","ExtractIconExA","ExtractIconExW","_shell_ExtractIconEx","shell.ExtractIconEx","shellapi/ExtractIconEx","shellapi/ExtractIconExA","shellapi/ExtractIconExW"]
+description: The ExtractIconEx function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file. (Unicode)
+helpviewer_keywords: ["ExtractIconEx", "ExtractIconEx function [Windows Shell]", "ExtractIconExW", "_shell_ExtractIconEx", "shell.ExtractIconEx", "shellapi/ExtractIconEx", "shellapi/ExtractIconExW"]
 old-location: shell\ExtractIconEx.htm
 tech.root: shell
 ms.assetid: 1c4d760a-79b5-4646-9cf2-6cd32c5d05ee
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
  - Shell32.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
@@ -117,7 +121,7 @@ To retrieve the dimensions of the large and small icons, use this function with 
 
 
 > [!NOTE]
-> The shellapi.h header defines ExtractIconEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines ExtractIconEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

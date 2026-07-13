@@ -1,7 +1,7 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetResource
 title: ItsPubPlugin::GetResource (tspubplugincom.h)
-description: This method is reserved and should always return E_NOTIMPL.
+description: This method is reserved and should always return E_NOTIMPL. (ItsPubPlugin.GetResource)
 helpviewer_keywords: ["GetResource","GetResource method [Remote Desktop Services]","GetResource method [Remote Desktop Services]","ItsPubPlugin interface","ItsPubPlugin interface [Remote Desktop Services]","GetResource method","ItsPubPlugin.GetResource","ItsPubPlugin::GetResource","termserv.itspubplugin_getresource","tspubplugincom/ItsPubPlugin::GetResource"]
 old-location: termserv\itspubplugin_getresource.htm
 tech.root: TermServ

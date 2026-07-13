@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkListManagerEvents.ConnectivityChanged
 title: INetworkListManagerEvents::ConnectivityChanged (netlistmgr.h)
-description: The NetworkConnectivityChanged method is called when network connectivity related changes occur.
+description: The NetworkConnectivityChanged method is called when network connectivity related changes occur. (INetworkListManagerEvents.ConnectivityChanged)
 helpviewer_keywords: ["ConnectivityChanged","ConnectivityChanged method [Network Awareness]","ConnectivityChanged method [Network Awareness]","INetworkListManagerEvents interface","INetworkListManagerEvents interface [Network Awareness]","ConnectivityChanged method","INetworkListManagerEvents.ConnectivityChanged","INetworkListManagerEvents::ConnectivityChanged","netlistmgr/INetworkListManagerEvents::ConnectivityChanged","nla.inetworklistmanagerevents_connectivitychanged"]
 old-location: nla\inetworklistmanagerevents_connectivitychanged.htm
 tech.root: nla

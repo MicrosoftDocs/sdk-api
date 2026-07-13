@@ -52,7 +52,7 @@ api_name:
 
  Gets the style, or slope, of the specified font.
 
-## -parameters
+
 
 ## -returns
 

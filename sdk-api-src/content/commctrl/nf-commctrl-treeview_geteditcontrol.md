@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetEditControl","TreeView_GetEditControl macro [
 old-location: controls\TreeView_GetEditControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_geteditcontrol.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetEditControl, TreeView_GetEditControl macro [Windows Controls], _win32_TreeView_GetEditControl, _win32_TreeView_GetEditControl_cpp, commctrl/TreeView_GetEditControl, controls.TreeView_GetEditControl, controls._win32_TreeView_GetEditControl
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # TreeView_GetEditControl macro
+
+## -syntax
+
+```cpp
+HWND TreeView_GetEditControl(
+   HWND hwnd
+);
+```
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetSensorsByCategory","GetSensorsByCategory method","GetS
 old-location: winsensors_com_ref\isensormanager_getsensorsbycategory.htm
 tech.root: winsensors
 ms.assetid: 370e93ac-0854-4fe8-88d9-d23b80689c41
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetSensorsByCategory, GetSensorsByCategory method, GetSensorsByCategory method,ISensorManager interface, ISensorManager interface,GetSensorsByCategory method, ISensorManager.GetSensorsByCategory, ISensorManager::GetSensorsByCategory, sensorsapi/ISensorManager::GetSensorsByCategory, winsensors_com_ref.isensormanager_getsensorsbycategory
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves a collection containing all sensors associated with the specified category.
 

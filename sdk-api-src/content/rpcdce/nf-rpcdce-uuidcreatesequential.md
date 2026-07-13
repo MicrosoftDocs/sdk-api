@@ -85,8 +85,7 @@ The call succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is guaranteed to be unique to this computer only. For more information please see: <a href="https://support.microsoft.com/help/981080">KB article 981080</a>.
-
+The <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is guaranteed to be unique to this computer only.
 </td>
 </tr>
 <tr>

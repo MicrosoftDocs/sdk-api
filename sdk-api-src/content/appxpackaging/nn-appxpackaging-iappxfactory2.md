@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxFactory2
 title: IAppxFactory2 (appxpackaging.h)
-description: Creates objects for reading and writing app packages.
+description: Creates objects for reading and writing app packages. (IAppxFactory2)
 helpviewer_keywords: ["IAppxFactory2","IAppxFactory2 interface [App packaging and management]","IAppxFactory2 interface [App packaging and management]","described","appxpackaging/IAppxFactory2","appxpkg.iappxfactory2"]
 old-location: appxpkg\iappxfactory2.htm
 tech.root: appxpkg
@@ -54,8 +54,5 @@ Creates objects for reading and writing app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxFactory2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFactory2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxFactory2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFactory2</b> also has these types of members:
 

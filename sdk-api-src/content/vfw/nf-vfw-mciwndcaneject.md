@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndCanEject","MCIWndCanEject macro [Windows Multimedia
 old-location: multimedia\mciwndcaneject.htm
 tech.root: Multimedia
 ms.assetid: de5021d2-9e96-4fe4-99c7-91ffb2b11c7f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndCanEject, MCIWndCanEject macro [Windows Multimedia], _win32_MCIWndCanEject, multimedia.mciwndcaneject, vfw/MCIWndCanEject
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,19 @@ api_name:
 
 # MCIWndCanEject macro
 
+## -syntax
+
+```cpp
+BOOL MCIWndCanEject(
+    HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if the device can eject its media or **FALSE** otherwise.
 
 ## -description
 

@@ -54,7 +54,7 @@ Indicates the isolation level that is to be used for transactions.
 
 ## -enum-fields
 
-### -field COMAdminTxIsolationLevelAny
+### -field COMAdminTxIsolationLevelAny:0
 
 Any isolation level is supported. A downstream component that has this isolation level always uses the same isolation level that its immediate upstream component uses. If the root object in a transaction has its isolation level configured to COMAdminTxIsolationLevelAny, its isolation level becomes COMAdminTxIsolationLevelSerializable.
 

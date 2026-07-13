@@ -11,23 +11,23 @@ ms.keywords: Use DirectX..XMVectorSelect, XMVectorSelect, XMVectorSelect method 
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - XMVectorSelect
@@ -102,9 +102,9 @@ Manual construction of a control vector is not necessary. There are two simple w
 
 <ul>
 <li>
-Using the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselectcontrol">XMVectorSelectControl</a>function to construct a control vector.
+Using the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselectcontrol">XMVectorSelectControl</a> function to construct a control vector.
 
-See <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">Using XMVectorSelect and
+See <a href="/windows/win32/api/directxmath/nf-directxmath-xmvectorselectcontrol">Using XMVectorSelect and
        XMVectorSelectControl</a> for a demonstration of how this function can be used.
 
 </li>

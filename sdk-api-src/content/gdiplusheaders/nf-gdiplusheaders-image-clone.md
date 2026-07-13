@@ -55,7 +55,7 @@ The <b>Image::Clone</b> method creates a new
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object and initializes it with the contents of this 
 			<b>Image</b> object.
 
-## -parameters
+
 
 ## -returns
 

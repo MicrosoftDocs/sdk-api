@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-sub-assign
 title: WBEMTime::operator-sub-assign (wbemtime.h)
-description: The WBEMTime class subtract-and-assign (�=) operator has been overloaded to decrement an object's time by a time span.
+description: The WBEMTime class subtract-and-assign (—=) operator has been overloaded to decrement an object's time by a time span.
 helpviewer_keywords: ["WBEMTime interface [Windows Management Instrumentation]","operator-= method","WBEMTime.operator-=","WBEMTime.operator-sub-assign","WBEMTime::operator-=","WBEMTime::operator-sub-assign","_hmm_wbemtime_operator_minus_equal","operator-=","operator-= method [Windows Management Instrumentation]","operator-= method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator-=","wmi.wbemtime_operator_minus_equal"]
 old-location: wmi\wbemtime_operator_minus_equal.htm
 tech.root: wmi

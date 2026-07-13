@@ -70,7 +70,26 @@ Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the
 
 <b>CopyCursor</b> is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a> function.
 
-<pre class="syntax" xml:space="preserve"><code>#define CopyCursor(pcur) ((HCURSOR)CopyIcon((HICON)(pcur)))</code></pre>
+
+``` syntax
+#define CopyCursor(pcur) ((HCURSOR)CopyIcon((HICON)(pcur)))
+```
+
+## -returns
+
+Type: <b>HCURSOR</b>
+
+If the call succeeds, the return value is a handle to the duplicate cursor.
+
+If the call fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+
+## -syntax
+
+```cpp
+HCURSOR CopyCursor(
+  [in] pcur
+);
+```
 
 ## -see-also
 

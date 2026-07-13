@@ -56,14 +56,14 @@ Defines the progress of the download of the current update that is returned by t
 
 ## -enum-fields
 
-### -field dphInitializing
+### -field dphInitializing:1
 
 Initializing the download of the current update.
 
-### -field dphDownloading
+### -field dphDownloading:2
 
 Downloading the current update.
 
-### -field dphVerifying
+### -field dphVerifying:3
 
 Verifying the download of the current update.

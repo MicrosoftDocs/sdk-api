@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.HandleEventWithContent
 title: IHWEventHandler::HandleEventWithContent (shobjidl.h)
-description: Not implemented.
+description: Not implemented. (IHWEventHandler.HandleEventWithContent)
 helpviewer_keywords: ["HandleEventWithContent","HandleEventWithContent method [Windows Shell]","HandleEventWithContent method [Windows Shell]","IHWEventHandler interface","IHWEventHandler interface [Windows Shell]","HandleEventWithContent method","IHWEventHandler.HandleEventWithContent","IHWEventHandler::HandleEventWithContent","inet_IHWEventHandler_HandleEventWithContent","shell.IHWEventHandler_HandleEventWithContent","shobjidl/IHWEventHandler::HandleEventWithContent"]
 old-location: shell\IHWEventHandler_HandleEventWithContent.htm
 tech.root: shell

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllDefaultsWithNotify
 title: ICodecAPI::SetAllDefaultsWithNotify (strmif.h)
-description: The SetAllDefaultsWithNotify method resets all codec properties to their default values, and returns a list of the properties that changed.
+description: The SetAllDefaultsWithNotify method resets all codec properties to their default values, and returns a list of the properties that changed. (ICodecAPI.SetAllDefaultsWithNotify)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllDefaultsWithNotify method","ICodecAPI.SetAllDefaultsWithNotify","ICodecAPI::SetAllDefaultsWithNotify","ICodecAPISetAllDefaultsWithNotify","SetAllDefaultsWithNotify","SetAllDefaultsWithNotify method [DirectShow]","SetAllDefaultsWithNotify method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setalldefaultswithnotify","strmif/ICodecAPI::SetAllDefaultsWithNotify"]
 old-location: dshow\icodecapi_setalldefaultswithnotify.htm
 tech.root: dshow
 ms.assetid: 5f35845f-db62-466a-86cd-5788cdaa9809
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICodecAPI interface [DirectShow],SetAllDefaultsWithNotify method, ICodecAPI.SetAllDefaultsWithNotify, ICodecAPI::SetAllDefaultsWithNotify, ICodecAPISetAllDefaultsWithNotify, SetAllDefaultsWithNotify, SetAllDefaultsWithNotify method [DirectShow], SetAllDefaultsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setalldefaultswithnotify, strmif/ICodecAPI::SetAllDefaultsWithNotify
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetAllDefaultsWithNotify</b> method resets all codec properties to their default values, and returns a list of the properties that changed.
 

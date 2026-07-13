@@ -52,7 +52,7 @@ api_name:
 
 The <b>ITfContextOwnerServices::OnLayoutChange</b> method is called by the context owner when the on-screen representation of the text stream is updated during a composition. Text stream updates include when the position of the window that contains the text is changed or if the screen coordinates of the text change.
 
-## -parameters
+
 
 ## -returns
 

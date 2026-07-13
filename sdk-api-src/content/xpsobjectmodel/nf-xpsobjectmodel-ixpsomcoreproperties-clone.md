@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.Clone
 title: IXpsOMCoreProperties::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMCoreProperties.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","Clone method","IXpsOMCoreProperties.Clone","IXpsOMCoreProperties::Clone","xps.ixpsomcoreproperties_clone","xpsobjectmodel/IXpsOMCoreProperties::Clone"]
 old-location: xps\ixpsomcoreproperties_clone.htm
 tech.root: xps
@@ -112,11 +112,11 @@ The owner of the interface returned in <i>coreProperties</i> is <b>NULL</b>.
 
 
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

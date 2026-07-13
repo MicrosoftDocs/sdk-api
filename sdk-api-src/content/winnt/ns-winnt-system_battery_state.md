@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.__unnamed_struct_27
+UID: NS:winnt.SYSTEM_BATTERY_STATE
 title: SYSTEM_BATTERY_STATE (winnt.h)
 description: Contains information about the current state of the system battery.
 helpviewer_keywords: ["*PSYSTEM_BATTERY_STATE","PSYSTEM_BATTERY_STATE","PSYSTEM_BATTERY_STATE structure pointer","SYSTEM_BATTERY_STATE","SYSTEM_BATTERY_STATE structure","_win32_system_battery_state_str","base.system_battery_state_str","winnt/PSYSTEM_BATTERY_STATE","winnt/SYSTEM_BATTERY_STATE"]
@@ -114,3 +114,4 @@ The manufacturer's suggestion of a capacity, in mWh, at which a warning battery 
 ## -see-also
 
 <a href="/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>
+

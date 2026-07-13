@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIBUSYW
 title: OLEUIBUSYW (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed. (Unicode)
 helpviewer_keywords: ["*LPOLEUIBUSYW","*POLEUIBUSYW","BZ_DISABLECANCELBUTTON","BZ_DISABLERETRYBUTTON","BZ_DISABLESWITCHTOBUTTON","BZ_NOTRESPONDINGDIALOG","LPOLEUIBUSY","LPOLEUIBUSY structure pointer [COM]","OLEUIBUSY","OLEUIBUSY structure [COM]","OLEUIBUSYA","OLEUIBUSYW","POLEUIBUSY","POLEUIBUSY structure pointer [COM]","_ole_OLEUIBUSY_str","com.oleuibusy_struct","oledlg/LPOLEUIBUSY","oledlg/OLEUIBUSY","oledlg/OLEUIBUSYA","oledlg/OLEUIBUSYW","oledlg/POLEUIBUSY"]
 old-location: com\oleuibusy_struct.htm
 tech.root: com
@@ -158,4 +158,4 @@ Pointer to the dialog box's <b>HWND</b>.
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUIBUSY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUIBUSY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

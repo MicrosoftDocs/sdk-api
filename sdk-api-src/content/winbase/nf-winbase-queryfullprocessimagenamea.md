@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.QueryFullProcessImageNameA
 title: QueryFullProcessImageNameA function (winbase.h)
-description: Retrieves the full name of the executable image for the specified process.
-helpviewer_keywords: ["PROCESS_NAME_NATIVE","QueryFullProcessImageName","QueryFullProcessImageName function","QueryFullProcessImageNameA","QueryFullProcessImageNameW","base.queryfullprocessimagename","winbase/QueryFullProcessImageName","winbase/QueryFullProcessImageNameA","winbase/QueryFullProcessImageNameW"]
+description: Retrieves the full name of the executable image for the specified process. (ANSI)
+helpviewer_keywords: ["PROCESS_NAME_NATIVE", "QueryFullProcessImageNameA", "winbase/QueryFullProcessImageNameA"]
 old-location: base\queryfullprocessimagename.htm
 tech.root: backup
 ms.assetid: 49a9d1aa-30f3-45ea-a4ec-9f55df692b8b
@@ -122,7 +122,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 > [!NOTE]
-> The winbase.h header defines QueryFullProcessImageName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines QueryFullProcessImageName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

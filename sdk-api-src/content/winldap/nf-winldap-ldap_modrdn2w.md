@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_modrdn2W
 title: ldap_modrdn2W function (winldap.h)
-description: The ldap_modrdn2 function changes the relative distinguished name of an LDAP entry.
-helpviewer_keywords: ["_ldap_ldap_modrdn2","ldap.ldap__modrdn2","ldap.ldap_modrdn2","ldap_modrdn2","ldap_modrdn2 function [LDAP]","ldap_modrdn2A","ldap_modrdn2W","winldap/ldap_modrdn2","winldap/ldap_modrdn2A","winldap/ldap_modrdn2W"]
+description: The ldap_modrdn2W (Unicode) function (winldap.h) changes the relative distinguished name of an LDAP entry. 
+helpviewer_keywords: ["_ldap_ldap_modrdn2", "ldap.ldap__modrdn2", "ldap.ldap_modrdn2", "ldap_modrdn2", "ldap_modrdn2 function [LDAP]", "ldap_modrdn2W", "winldap/ldap_modrdn2", "winldap/ldap_modrdn2W"]
 old-location: ldap\ldap_modrdn2.htm
 tech.root: ldap
 ms.assetid: 7bf7370f-a5e6-474e-8fe9-e6895ef48ab5
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_modrdn2, ldap.ldap__modrdn2, ldap.ldap_modrdn2, ldap_modrdn2, ldap_modrdn2 function [LDAP], ldap_modrdn2A, ldap_modrdn2W, winldap/ldap_modrdn2, winldap/ldap_modrdn2A, winldap/ldap_modrdn2W
 req.header: winldap.h
 req.include-header: 
@@ -105,7 +105,7 @@ Multithreading: Calls to <b>ldap_modrdn2</b> are thread-safe, provided that
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_modrdn2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_modrdn2 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

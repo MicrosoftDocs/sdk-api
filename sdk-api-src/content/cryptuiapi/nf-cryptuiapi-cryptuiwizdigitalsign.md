@@ -96,9 +96,10 @@ A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_
 
 ## -returns
 
-If the function succeeds, the function returns nonzero.
+If the function succeeds, the return value is <b>TRUE</b>.
 
-If the function fails, it returns zero.
+If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 

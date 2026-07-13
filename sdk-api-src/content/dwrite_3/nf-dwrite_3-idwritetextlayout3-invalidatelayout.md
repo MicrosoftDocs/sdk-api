@@ -6,13 +6,13 @@ helpviewer_keywords: ["IDWriteTextLayout3 interface [Direct Write]","InvalidateL
 old-location: directwrite\idwritetextlayout3_invalidatelayout.htm
 tech.root: DirectWrite
 ms.assetid: 65b42ee1-5b67-1f6d-0e4b-ee60b192e7b7
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteTextLayout3 interface [Direct Write],InvalidateLayout method, IDWriteTextLayout3.InvalidateLayout, IDWriteTextLayout3::InvalidateLayout, InvalidateLayout, InvalidateLayout method [Direct Write], InvalidateLayout method [Direct Write],IDWriteTextLayout3 interface, directwrite.idwritetextlayout3_invalidatelayout, dwrite_3/IDWriteTextLayout3::InvalidateLayout
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -55,13 +55,13 @@ Invalidates the layout, forcing layout to remeasure before calling the
    changes, and layout should be redrawn, or if the size of a client    
    implemented IDWriteInlineObject changes.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextlayout3">IDWriteTextLayout3</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextlayout3">IDWriteTextLayout3</a>
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Principal
 title: ITaskDefinition::get_Principal (taskschd.h)
-description: Gets or sets the principal for the task that provides the security credentials for the task.
+description: Gets or sets the principal for the task that provides the security credentials for the task. (Get)
 helpviewer_keywords: ["ITaskDefinition interface [Task Scheduler]","Principal property","ITaskDefinition.Principal","ITaskDefinition.get_Principal","ITaskDefinition::Principal","ITaskDefinition::get_Principal","ITaskDefinition::put_Principal","Principal property [Task Scheduler]","Principal property [Task Scheduler]","ITaskDefinition interface","get_Principal","taskschd.itaskdefinition_principal","taskschd/ITaskDefinition::Principal","taskschd/ITaskDefinition::get_Principal","taskschd/ITaskDefinition::put_Principal"]
 old-location: taskschd\itaskdefinition_principal.htm
 tech.root: taskschd

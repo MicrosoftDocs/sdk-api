@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowExA
 title: CreateWindowExA function (winuser.h)
-description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function.
-helpviewer_keywords: ["CreateWindowEx","CreateWindowEx function [Windows and Messages]","CreateWindowExA","CreateWindowExW","_win32_CreateWindowEx","_win32_createwindowex_cpp","winmsg.createwindowex","winui._win32_createwindowex","winuser/CreateWindowEx","winuser/CreateWindowExA","winuser/CreateWindowExW"]
+description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function. (ANSI)
+helpviewer_keywords: ["CreateWindowExA", "winuser/CreateWindowExA"]
 old-location: winmsg\createwindowex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindowex.htm
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ansi-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -56,6 +59,7 @@ api_name:
  - CreateWindowExA
  - CreateWindowExW
 req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
+no-loc: [BUTTON, COMBOBOX, EDIT, LISTBOX, MDICLIENT, RichEdit, RICHEDIT_CLASS, SCROLLBAR, STATIC]
 ---
 
 # CreateWindowExA function
@@ -77,7 +81,11 @@ The extended window style of the window being created. For a list of possible va
 
 Type: <b>LPCTSTR</b>
 
-A <b>null</b>-terminated string or a class atom created by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. If <i>lpClassName</i> is a string, it specifies the window class name. The class name can be any name registered with <b>RegisterClass</b> or <b>RegisterClassEx</b>, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined <a href="/windows/desktop/winmsg/about-window-classes">system class</a> names.
+A <b>null</b>-terminated string or a class atom.
+
+If a <b>null</b>-terminated string, it specifies the window class name. The class name can be any name registered with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined <a href="/windows/desktop/winmsg/about-window-classes">system class</a> names.
+
+If a class atom created by a previous call to <b>RegisterClass</b> or <b>RegisterClassEx</b>, it must be converted using the macro <a href="/windows/desktop/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a>. (The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero.)
 
 ### -param lpWindowName [in, optional]
 
@@ -184,7 +192,7 @@ The following predefined control classes can be specified in the <i>lpClassName<
 <tr>
 <td><b>BUTTON</b></td>
 <td>
-Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="/windows/desktop/Tapi/buttons">Buttons</a>.
+Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="/windows/desktop/Controls/buttons">Buttons</a>.
 
 For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="/windows/desktop/Controls/button-styles">Button Styles</a>.
 
@@ -301,7 +309,7 @@ BOOL Create(
 
 
 > [!NOTE]
-> The winuser.h header defines CreateWindowEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CreateWindowEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -385,7 +393,7 @@ BOOL Create(
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
+<a href="/windows/win32/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
 
 
 

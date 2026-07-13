@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Keywords
 title: IDataCollectorSet::put_Keywords (pla.h)
-description: Retrieves or sets keywords that describe the data collector set. The list of keywords is added to the output files as metadata.
+description: Retrieves or sets keywords that describe the data collector set. The list of keywords is added to the output files as metadata. (Put)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Keywords property","IDataCollectorSet.Keywords","IDataCollectorSet.put_Keywords","IDataCollectorSet::Keywords","IDataCollectorSet::get_Keywords","IDataCollectorSet::put_Keywords","Keywords property [PLA]","Keywords property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_keywords","pla.idatacollectorset_get_keywords","pla/IDataCollectorSet::Keywords","pla/IDataCollectorSet::get_Keywords","pla/IDataCollectorSet::put_Keywords","put_Keywords"]
 old-location: pla\idatacollectorset_get_keywords.htm
 tech.root: PLA

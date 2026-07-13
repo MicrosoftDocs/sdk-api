@@ -46,9 +46,6 @@ api_name:
  - IInputPaneInterop.GetRuntimeClassName
 ---
 
-# IInspectable::GetRuntimeClassName
-
-
 ## -description
 
 Gets the fully qualified name of the current Windows Runtime object.
@@ -113,7 +110,7 @@ Use the <b>GetRuntimeClassName</b> method to retrieve the namespace-qualified na
 
 The caller is responsible for freeing the <i>className</i> string by using the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function.   
 
-The following table shows example class name strings that cold be returned by the <b>GetRuntimeClassName</b> method.
+The following table shows example class name strings that could be returned by the <b>GetRuntimeClassName</b> method.
 
 
 <table>
@@ -134,7 +131,7 @@ The following table shows example class name strings that cold be returned by th
 <td>A vector of TailspinToys.IStore interfaces. </td>
 </tr>
 <tr>
-<td>Windows.Foundation.Collections.IVector`1&lt;Windows.Foundation.Collections.IMapâ€™2&lt;String, TailspinToys.IStore&gt;&gt;</td>
+<td>Windows.Foundation.Collections.IVector`1&lt;Windows.Foundation.Collections.IMap`2&lt;String, TailspinToys.IStore&gt;&gt;</td>
 <td>A vector of maps of strings to TailspinToys.IStore interfaces. </td>
 </tr>
 </table>
@@ -150,6 +147,6 @@ The <b>GetRuntimeClassName</b> method returns <b>E_ILLEGAL_METHOD_CALL</b> if th
 
 <a href="/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
-
-
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
+
+[winrt::get_class_name](/uwp/cpp-ref-for-winrt/get-class-name)

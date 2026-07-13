@@ -54,39 +54,39 @@ Specifies the image descriptor metadata properties for  Graphics Interchange For
 
 ## -enum-fields
 
-### -field WICGifImageDescriptorLeft
+### -field WICGifImageDescriptorLeft:0x1
 
 [VT_UI2] Indicates the X offset at which to locate this frame within the logical screen.
 
-### -field WICGifImageDescriptorTop
+### -field WICGifImageDescriptorTop:0x2
 
 [VT_UI2] Indicates the Y offset at which to locate this frame within the logical screen.
 
-### -field WICGifImageDescriptorWidth
+### -field WICGifImageDescriptorWidth:0x3
 
 [VT_UI2] Indicates width of this frame, in pixels.
 
-### -field WICGifImageDescriptorHeight
+### -field WICGifImageDescriptorHeight:0x4
 
 [VT_UI2] Indicates height of this frame, in pixels.
 
-### -field WICGifImageDescriptorLocalColorTableFlag
+### -field WICGifImageDescriptorLocalColorTableFlag:0x5
 
 [VT_BOOL] Indicates the local color table flag. <b>TRUE</b> if global color table is present; otherwise, <b>FALSE</b>.
 
-### -field WICGifImageDescriptorInterlaceFlag
+### -field WICGifImageDescriptorInterlaceFlag:0x6
 
 [VT_BOOL] Indicates the interlace flag. <b>TRUE</b> if image is interlaced; otherwise, <b>FALSE</b>.
 
-### -field WICGifImageDescriptorSortFlag
+### -field WICGifImageDescriptorSortFlag:0x7
 
 [VT_BOOL] Indicates the sorted color table flag. <b>TRUE</b> if the color table is sorted from most frequently to least frequently used color; otherwise, <b>FALSE</b>.
 
-### -field WICGifImageDescriptorLocalColorTableSize
+### -field WICGifImageDescriptorLocalColorTableSize:0x8
 
 [VT_UI1] Indicates the value used to calculate the number of bytes contained in the global color table. 
 
 To calculate the actual size of the color table, raise 2 to the value of the field + 1.
 
-### -field WICGifImageDescriptorProperties_FORCE_DWORD
+### -field WICGifImageDescriptorProperties_FORCE_DWORD:0x7fffffff
 

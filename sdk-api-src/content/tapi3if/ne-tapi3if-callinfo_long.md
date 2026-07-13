@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field CIL_MEDIATYPESAVAILABLE
+### -field CIL_MEDIATYPESAVAILABLE:0
 
 The 
 <a href="/windows/desktop/Tapi/tapimediatype--constants">media types</a> available on the call.

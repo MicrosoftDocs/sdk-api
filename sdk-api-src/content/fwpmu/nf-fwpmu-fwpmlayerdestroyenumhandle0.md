@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmLayerDestroyEnumHandle0
 title: FwpmLayerDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by FwpmFilterCreateEnumHandle0.
+description: Frees a handle returned by FwpmFilterCreateEnumHandle0. (FwpmLayerDestroyEnumHandle0)
 helpviewer_keywords: ["FwpmLayerDestroyEnumHandle0","FwpmLayerDestroyEnumHandle0 function [Filtering]","fwp.fwpmlayerdestroyenumhandle0_func","fwpmu/FwpmLayerDestroyEnumHandle0"]
 old-location: fwp\fwpmlayerdestroyenumhandle0_func.htm
 tech.root: fwp

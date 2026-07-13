@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetRect","Edit_GetRect macro [Windows Controls]","_w
 old-location: controls\Edit_GetRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetRect, Edit_GetRect macro [Windows Controls], _win32_Edit_GetRect, _win32_Edit_GetRect_cpp, controls.Edit_GetRect, controls._win32_Edit_GetRect, windowsx/Edit_GetRect
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Edit_GetRect macro
+
+## -syntax
+
+```cpp
+void Edit_GetRect(
+   HWND hwndCtl,
+   RECT *lprc
+);
+```
 
 
 ## -description

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ISchedule.put_Days
 title: ISchedule::put_Days (pla.h)
-description: Retrieves or sets the days on which the data collector set runs.
+description: Retrieves or sets the days on which the data collector set runs. (Put)
 helpviewer_keywords: ["Days property [PLA]","Days property [PLA]","ISchedule interface","ISchedule interface [PLA]","Days property","ISchedule.Days","ISchedule.put_Days","ISchedule::Days","ISchedule::get_Days","ISchedule::put_Days","base.ischedule_days","pla.ischedule_days","pla/ISchedule::Days","pla/ISchedule::get_Days","pla/ISchedule::put_Days","put_Days"]
 old-location: pla\ischedule_days.htm
 tech.root: PLA

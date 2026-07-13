@@ -38,9 +38,9 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport
 api_location:
- - Winnt.h
+ - ntdll.dll
 api_name:
  - NtCurrentTeb
 ---
@@ -52,7 +52,7 @@ api_name:
 
 The <b>NtCurrentTeb</b> routine returns a pointer to the Thread Environment Block (<a href="/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>) of the current thread.
 
-## -parameters
+
 
 ## -returns
 

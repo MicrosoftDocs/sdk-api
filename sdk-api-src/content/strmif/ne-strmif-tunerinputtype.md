@@ -1,12 +1,12 @@
 ---
 UID: NE:strmif.tagTunerInputType
 title: TunerInputType (strmif.h)
-description: Specifies the frequency of a TV tuner (cable or antenna).
+description: Specifies the frequency of a TV tuner (cable or antenna). (TunerInputType)
 helpviewer_keywords: ["TunerInputAntenna","TunerInputCable","TunerInputType","TunerInputType enumeration [DirectShow]","TunerInputTypeEnumeration","dshow.tunerinputtype","strmif/TunerInputAntenna","strmif/TunerInputCable","strmif/TunerInputType"]
 old-location: dshow\tunerinputtype.htm
 tech.root: dshow
 ms.assetid: e25ec8e2-6d94-4059-a34e-a9e7887582fb
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: TunerInputAntenna, TunerInputCable, TunerInputType, TunerInputType enumeration [DirectShow], TunerInputTypeEnumeration, dshow.tunerinputtype, strmif/TunerInputAntenna, strmif/TunerInputCable, strmif/TunerInputType
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,11 +52,13 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Specifies the frequency of a TV tuner (cable or antenna).
 
 ## -enum-fields
 
-### -field TunerInputCable
+### -field TunerInputCable:0
 
 Indicates cable frequency.
 

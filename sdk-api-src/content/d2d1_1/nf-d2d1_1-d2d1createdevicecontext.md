@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: d2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 targetos: Windows

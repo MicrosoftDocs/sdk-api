@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_SetMonthDelta","MonthCal_SetMonthDelta macro [Wi
 old-location: controls\MonthCal_SetMonthDelta.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setmonthdelta.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_SetMonthDelta, MonthCal_SetMonthDelta macro [Windows Controls], _win32_MonthCal_SetMonthDelta, _win32_MonthCal_SetMonthDelta_cpp, commctrl/MonthCal_SetMonthDelta, controls.MonthCal_SetMonthDelta, controls._win32_MonthCal_SetMonthDelta
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_SetMonthDelta macro
+
+## -syntax
+
+```cpp
+INT MonthCal_SetMonthDelta(
+   HWND hmc,
+   INT  n
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+Returns an INT value that represents the previous scroll rate. If the scroll rate was not previously set, the return value is zero.
 
 
 ## -description

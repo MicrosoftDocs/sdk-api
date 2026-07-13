@@ -1,7 +1,7 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync
 title: IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync (efswrtinterop.h)
-description: Request access to enterprise protected content for an identity.
+description: Request access to enterprise protected content for an identity. (IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync)
 helpviewer_keywords: ["EDP.iprotectionpolicymanagerinterop2_requestaccesswithauditinginfoforwindowasync","IProtectionPolicyManagerInterop2 interface","RequestAccessWithAuditingInfoForWindowAsync method","IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync","IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync","RequestAccessWithAuditingInfoForWindowAsync","RequestAccessWithAuditingInfoForWindowAsync method","RequestAccessWithAuditingInfoForWindowAsync method","IProtectionPolicyManagerInterop2 interface","efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync"]
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccesswithauditinginfoforwindowasync.htm
 tech.root: EDP
@@ -77,11 +77,11 @@ The enterprise identity to which the content is protected. This is an email addr
 
 ### -param asyncOperation
 
-An <a href="https://docs.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation<ProtectionPolicyEvaluationResult></a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
+An <a href="/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation&lt;ProtectionPolicyEvaluationResult&gt;</a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

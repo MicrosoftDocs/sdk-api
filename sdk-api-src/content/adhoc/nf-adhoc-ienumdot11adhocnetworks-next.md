@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocNetworks.Next
 title: IEnumDot11AdHocNetworks::Next (adhoc.h)
-description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
+description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved. (IEnumDot11AdHocNetworks.Next)
 helpviewer_keywords: ["IEnumDot11AdHocNetworks interface [NativeWIFI]","Next method","IEnumDot11AdHocNetworks.Next","IEnumDot11AdHocNetworks::Next","Next","Next method [NativeWIFI]","Next method [NativeWIFI]","IEnumDot11AdHocNetworks interface","adhoc/IEnumDot11AdHocNetworks::Next","nwifi.ienumdot11adhocnetworks_next"]
 old-location: nwifi\ienumdot11adhocnetworks_next.htm
 tech.root: nwifi

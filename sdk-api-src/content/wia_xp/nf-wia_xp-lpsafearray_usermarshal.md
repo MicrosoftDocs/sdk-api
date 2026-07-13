@@ -1,10 +1,10 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserMarshal
 title: LPSAFEARRAY_UserMarshal function (wia_xp.h)
-description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side.
+description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side. (LPSAFEARRAY_UserMarshal)
 helpviewer_keywords: ["LPSAFEARRAY_UserMarshal","LPSAFEARRAY_UserMarshal function [Automation]","_oa96_LPSAFEARRAY_UserMarshal","automat.lpsafearray_usermarshal","wia_xp/LPSAFEARRAY_UserMarshal"]
 old-location: automat\lpsafearray_usermarshal.htm
-tech.root: automat
+tech.root: wia
 ms.assetid: 8255d1a0-b102-443d-a10f-8c6bd9047703
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserMarshal, LPSAFEARRAY_UserMarshal function [Automation], _oa96_LPSAFEARRAY_UserMarshal, automat.lpsafearray_usermarshal, wia_xp/LPSAFEARRAY_UserMarshal
@@ -43,6 +43,7 @@ api_location:
  - OleAut32.dll
 api_name:
  - LPSAFEARRAY_UserMarshal
+archived: true
 ---
 
 # LPSAFEARRAY_UserMarshal function

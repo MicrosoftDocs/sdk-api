@@ -104,6 +104,19 @@ Stream that includes audio with dialog.
 
 Stream that includes audio without dialog.
 
+### -field AudioCategory_FarFieldSpeech
+
+Media is audio captured with the intent of capturing voice sources located in the ‘far field’. (Far away from the microphone.)
+
+### -field AudioCategory_UniformSpeech
+
+Media is captured audio that requires consistent speech processing for the captured audio stream across all Windows devices. Used by applications that process speech data using machine learning algorithms.
+
+
+### -field AudioCategory_VoiceTyping
+
+Media is audio captured with the intent of enabling dictation or typing by voice. 
+
 ## -remarks
 
 Note that only a subset of the audio stream categories are valid for certain stream types.

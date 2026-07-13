@@ -56,15 +56,15 @@ The <b>InstallationRebootBehavior</b> enumeration defines the possible restart b
 
 ## -enum-fields
 
-### -field irbNeverReboots
+### -field irbNeverReboots:0
 
 The update never requires a system restart during or after an installation or an uninstallation.
 
-### -field irbAlwaysRequiresReboot
+### -field irbAlwaysRequiresReboot:1
 
 The update always requires a system restart after a successful installation or uninstallation.
 
-### -field irbCanRequestReboot
+### -field irbCanRequestReboot:2
 
 The update can request a system restart after a successful installation or uninstallation.
 

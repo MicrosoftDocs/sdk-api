@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_sasl_bind_sA
 title: ldap_sasl_bind_sA function (winldap.h)
-description: The ldap_sasl_bind_s function is a synchronous function that authenticates a client to the LDAP server using SASL.
-helpviewer_keywords: ["_ldap_ldap_sasl_bind_s","ldap.ldap__sasl__bind__s","ldap.ldap_sasl_bind_s","ldap_sasl_bind_s","ldap_sasl_bind_s function [LDAP]","ldap_sasl_bind_sA","ldap_sasl_bind_sW","winldap/ldap_sasl_bind_s","winldap/ldap_sasl_bind_sA","winldap/ldap_sasl_bind_sW"]
+description: The ldap_sasl_bind_s function is a synchronous function that authenticates a client to the LDAP server using SASL. (ANSI)
+helpviewer_keywords: ["ldap.ldap__sasl__bind__s", "ldap_sasl_bind_sA", "winldap/ldap_sasl_bind_sA"]
 old-location: ldap\ldap_sasl_bind_s.htm
 tech.root: ldap
 ms.assetid: 8347e2f5-bc14-480f-ba96-044ef3280418
@@ -103,7 +103,7 @@ The <b>ldap_sasl_bind_s</b> function binds to an LDAP server using the Simple Au
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_sasl_bind_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_sasl_bind_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

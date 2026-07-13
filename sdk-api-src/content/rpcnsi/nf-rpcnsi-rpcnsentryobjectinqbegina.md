@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqBeginA
 title: RpcNsEntryObjectInqBeginA function (rpcnsi.h)
-description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry.
-helpviewer_keywords: ["RpcNsEntryObjectInqBegin","RpcNsEntryObjectInqBegin function [RPC]","RpcNsEntryObjectInqBeginA","RpcNsEntryObjectInqBeginW","_rpc_rpcnsentryobjectinqbegin","rpc.rpcnsentryobjectinqbegin","rpcnsi/RpcNsEntryObjectInqBegin","rpcnsi/RpcNsEntryObjectInqBeginA","rpcnsi/RpcNsEntryObjectInqBeginW"]
+description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry. (ANSI)
+helpviewer_keywords: ["RpcNsEntryObjectInqBeginA", "rpcnsi/RpcNsEntryObjectInqBeginA"]
 old-location: rpc\rpcnsentryobjectinqbegin.htm
 tech.root: Rpc
 ms.assetid: dc667dc3-0812-43d5-adc2-aa29ee67f045
@@ -174,7 +174,7 @@ When finished viewing the object UUIDs, the application calls the
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsEntryObjectInqBegin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsEntryObjectInqBegin as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

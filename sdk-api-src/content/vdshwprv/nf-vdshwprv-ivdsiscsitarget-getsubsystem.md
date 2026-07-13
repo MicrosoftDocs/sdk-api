@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.GetSubSystem
 title: IVdsIscsiTarget::GetSubSystem (vdshwprv.h)
-description: Returns the subsystem to which the target belongs.
+description: The IVdsIscsiTarget::GetSubSystem (vdshwprv.h) method returns the subsystem to which the target belongs.
 helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","GetSubSystem method","IVdsIscsiTarget.GetSubSystem","IVdsIscsiTarget::GetSubSystem","base.ivdsiscsitarget_getsubsystem","vds/IVdsIscsiTarget::GetSubSystem","vdshwprv/IVdsIscsiTarget::GetSubSystem"]
 old-location: base\ivdsiscsitarget_getsubsystem.htm
 tech.root: base
 ms.assetid: c9feb332-1b30-4de8-ac30-79fe53750d8c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetSubSystem method, IVdsIscsiTarget.GetSubSystem, IVdsIscsiTarget::GetSubSystem, base.ivdsiscsitarget_getsubsystem, vds/IVdsIscsiTarget::GetSubSystem, vdshwprv/IVdsIscsiTarget::GetSubSystem
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the subsystem to which the target belongs.
 
@@ -74,7 +74,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ The subsystem object was returned successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -102,7 +102,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>

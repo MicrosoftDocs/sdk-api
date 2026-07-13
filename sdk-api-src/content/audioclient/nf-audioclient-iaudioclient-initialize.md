@@ -166,6 +166,20 @@ The audio endpoint device has been unplugged, or the audio hardware or associate
 <tr>
 <td width="40%">
 <dl>
+<dt><b>AUDCLNT_E_RESOURCES_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The stream's resources have been invalidated. This error may be thrown for the following reasons:<br>
+- The stream is suspended.<br>
+- An Exclusive or Offload stream is disconnected.<br>
+- A packaged application that has an exclusive mode or offload stream is quiesced.<br>
+- A "protected output" stream is closed.<br>
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
 <dt><b>AUDCLNT_E_DEVICE_IN_USE</b></dt>
 </dl>
 </td>
@@ -399,7 +413,7 @@ Starting with Windows 7, <b>Initialize</b> can return AUDCLNT_E_BUFFER_SIZE_NOT
   If <b>Initialize</b> returns AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED, the caller must call <b>Initialize</b> again and specify the aligned buffer size. Use the following steps:<ol>
 <li>Call <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">IAudioClient::GetBufferSize</a> and receive the next-highest-aligned buffer size (in frames).</li>
 <li>Call <b>IAudioClient::Release</b> to release the audio client used in the previous call that returned AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED.</li>
-<li>Calculate the aligned buffer size in 100-nansecond units (hns). The buffer size is <code>(REFERENCE_TIME)((10000.0 * 1000 / WAVEFORMATEX.nSamplesPerSecond * nFrames) + 0.5)</code>. In this formula,  <code>nFrames</code> is the buffer size retrieved by <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">GetBufferSize</a>.
+<li>Calculate the aligned buffer size in 100-nanosecond units (hns). The buffer size is <code>(REFERENCE_TIME)((10000.0 * 1000 / WAVEFORMATEX.nSamplesPerSecond * nFrames) + 0.5)</code>. In this formula,  <code>nFrames</code> is the buffer size retrieved by <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">GetBufferSize</a>.
 </li>
 <li>Call the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to REFIID IID_IAudioClient to create a new audio client.</li>
 <li>Call <b>Initialize</b> again on the created audio client and specify the new buffer size and periodicity.</li>

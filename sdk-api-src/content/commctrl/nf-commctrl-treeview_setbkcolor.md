@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetBkColor","TreeView_SetBkColor macro [Windows 
 old-location: controls\TreeView_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setbkcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetBkColor, TreeView_SetBkColor macro [Windows Controls], _win32_TreeView_SetBkColor, _win32_TreeView_SetBkColor_cpp, commctrl/TreeView_SetBkColor, controls.TreeView_SetBkColor, controls._win32_TreeView_SetBkColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_SetBkColor macro
+
+## -syntax
+
+```cpp
+COLORREF TreeView_SetBkColor(
+   HWND     hwnd,
+   COLORREF clr
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>COLORREF</b> value that represents the previous background color. If this value is -1, the control was using the system color for the background color.
 
 
 ## -description

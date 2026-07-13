@@ -1,12 +1,12 @@
 ---
 UID: NF:propidl.IPropertyStorage.ReadMultiple
 title: IPropertyStorage::ReadMultiple (propidl.h)
-description: Reads specified properties from the current property set.
+description: The IPropertyStorage::ReadMultiple method reads specified properties from the current property set.
 helpviewer_keywords: ["IPropertyStorage [Strctd Stg]","ReadMultiple","IPropertyStorage interface [Structured Storage]","ReadMultiple method","IPropertyStorage.ReadMultiple","IPropertyStorage::ReadMultiple","ReadMultiple","ReadMultiple method [Structured Storage]","ReadMultiple method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_readmultiple","propidl/IPropertyStorage::ReadMultiple","stg.ipropertystorage_readmultiple"]
 old-location: stg\ipropertystorage_readmultiple.htm
 tech.root: Stg
 ms.assetid: a3d708fe-53af-4f1b-94ac-edc40d59a034
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IPropertyStorage [Strctd Stg],ReadMultiple, IPropertyStorage interface [Structured Storage],ReadMultiple method, IPropertyStorage.ReadMultiple, IPropertyStorage::ReadMultiple, ReadMultiple, ReadMultiple method [Structured Storage], ReadMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readmultiple, propidl/IPropertyStorage::ReadMultiple, stg.ipropertystorage_readmultiple
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h

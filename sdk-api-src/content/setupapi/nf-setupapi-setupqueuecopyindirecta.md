@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueueCopyIndirectA
 title: SetupQueueCopyIndirectA function (setupapi.h)
-description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical.
-helpviewer_keywords: ["SetupQueueCopyIndirect","SetupQueueCopyIndirect function [Setup API]","SetupQueueCopyIndirectA","SetupQueueCopyIndirectW","_setupapi_setupqueuecopyindirect","setup.setupqueuecopyindirect","setupapi/SetupQueueCopyIndirect","setupapi/SetupQueueCopyIndirectA","setupapi/SetupQueueCopyIndirectW"]
+description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical. (ANSI)
+helpviewer_keywords: ["SetupQueueCopyIndirectA", "setupapi/SetupQueueCopyIndirectA"]
 old-location: setup\setupqueuecopyindirect.htm
 tech.root: setup
 ms.assetid: 5c81e83c-7ee3-489f-9d4c-f7c8a1c5cc5b
@@ -67,7 +67,7 @@ Pointer to a
 
 ## -returns
 
-If the function succeeds, the return value is an nonzero value.
+If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -80,4 +80,4 @@ If a UNC directory is specified as the target directory of a file copy operation
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueueCopyIndirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueueCopyIndirect as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

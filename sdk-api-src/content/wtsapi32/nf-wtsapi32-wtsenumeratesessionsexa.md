@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateSessionsExA
 title: WTSEnumerateSessionsExA function (wtsapi32.h)
-description: Retrieves a list of sessions on a specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
-helpviewer_keywords: ["WTSEnumerateSessionsEx","WTSEnumerateSessionsEx function [Remote Desktop Services]","WTSEnumerateSessionsExA","WTSEnumerateSessionsExW","termserv.wtsenumeratesessionsex","wtsapi32/WTSEnumerateSessionsEx","wtsapi32/WTSEnumerateSessionsExA","wtsapi32/WTSEnumerateSessionsExW"]
+description: Retrieves a list of sessions on a specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server. (ANSI)
+helpviewer_keywords: ["WTSEnumerateSessionsExA", "wtsapi32/WTSEnumerateSessionsExA"]
 old-location: termserv\wtsenumeratesessionsex.htm
 tech.root: TermServ
 ms.assetid: b903cf07-d3bd-4b65-9e57-88d9e1f74e0b
@@ -103,7 +103,7 @@ To enumerate sessions running on a virtual machine hosted on an RD Virtualizati
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSEnumerateSessionsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSEnumerateSessionsEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

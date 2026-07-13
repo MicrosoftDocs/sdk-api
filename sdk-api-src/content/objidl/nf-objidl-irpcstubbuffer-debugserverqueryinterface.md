@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.DebugServerQueryInterface
 title: IRpcStubBuffer::DebugServerQueryInterface (objidl.h)
-description: Retrieves a pointer to the interface that a stub represents.
+description: The IRpcStubBuffer::DebugServerQueryInterface method (objidl.h) retrieves a pointer to the interface that a stub represents.
 helpviewer_keywords: ["DebugServerQueryInterface","DebugServerQueryInterface method [COM]","DebugServerQueryInterface method [COM]","IRpcStubBuffer interface","IRpcStubBuffer interface [COM]","DebugServerQueryInterface method","IRpcStubBuffer.DebugServerQueryInterface","IRpcStubBuffer::DebugServerQueryInterface","_com_irpcstubbuffer_debugserverqueryinterface","com.irpcstubbuffer_debugserverqueryinterface","objidlbase/IRpcStubBuffer::DebugServerQueryInterface"]
 old-location: com\irpcstubbuffer_debugserverqueryinterface.htm
 tech.root: com
 ms.assetid: c735a99f-c67a-44eb-ae60-950dc4e68e74
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: DebugServerQueryInterface, DebugServerQueryInterface method [COM], DebugServerQueryInterface method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerQueryInterface method, IRpcStubBuffer.DebugServerQueryInterface, IRpcStubBuffer::DebugServerQueryInterface, _com_irpcstubbuffer_debugserverqueryinterface, com.irpcstubbuffer_debugserverqueryinterface, objidlbase/IRpcStubBuffer::DebugServerQueryInterface
 req.header: objidl.h
 req.include-header: ObjIdl.h

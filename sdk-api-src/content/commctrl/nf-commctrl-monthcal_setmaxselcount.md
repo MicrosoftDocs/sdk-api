@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_SetMaxSelCount","MonthCal_SetMaxSelCount macro [
 old-location: controls\MonthCal_SetMaxSelCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setmaxselcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_SetMaxSelCount, MonthCal_SetMaxSelCount macro [Windows Controls], _win32_MonthCal_SetMaxSelCount, _win32_MonthCal_SetMaxSelCount_cpp, commctrl/MonthCal_SetMaxSelCount, controls.MonthCal_SetMaxSelCount, controls._win32_MonthCal_SetMaxSelCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_SetMaxSelCount macro
+
+## -syntax
+
+```cpp
+BOOL MonthCal_SetMaxSelCount(
+   HWND hmc,
+   UINT n
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise. This macro will fail if applied to a month calendar control that does not use the <b>MCS_MULTISELECT</b> style.
 
 
 ## -description

@@ -50,17 +50,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 <b>ICivicAddressReport</b> represents a location report that contains information in the form of a street address.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICivicAddressReport</b> interface inherits from <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ICivicAddressReport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICivicAddressReport</b> interface inherits from <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ICivicAddressReport</b> also has these types of members:
 
 ## -remarks
 

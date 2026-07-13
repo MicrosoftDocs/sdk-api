@@ -6,7 +6,7 @@ helpviewer_keywords: ["ISensor","ISensor interface [WinSensors]","ISensor interf
 old-location: winsensors\isensor.htm
 tech.root: winsensors
 ms.assetid: 3216afbb-d524-486d-99ad-0ee0cfb884e0
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ISensor, ISensor interface [WinSensors], ISensor interface [WinSensors],described, sensorsapi/ISensor, winsensors.isensor
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Represents a sensor.
 

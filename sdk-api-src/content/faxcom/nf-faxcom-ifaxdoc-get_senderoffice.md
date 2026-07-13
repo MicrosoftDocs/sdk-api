@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderOffice
 title: IFaxDoc::get_SenderOffice (faxcom.h)
-description: Sets or retrieves the SenderOffice property of a FaxDoc object. The SenderOffice property is a null-terminated string that contains the office of the sender of the fax transmission.
+description: Sets or retrieves the SenderOffice property of a FaxDoc object. The SenderOffice property is a null-terminated string that contains the office of the sender of the fax transmission. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","SenderOffice property","IFaxDoc.SenderOffice","IFaxDoc.get_SenderOffice","IFaxDoc::SenderOffice","IFaxDoc::get_SenderOffice","IFaxDoc::put_SenderOffice","SenderOffice property [Fax Service]","SenderOffice property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_senderoffice","fax._mfax_ifaxdoc_get_senderoffice","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp","faxcom/IFaxDoc::SenderOffice","faxcom/IFaxDoc::get_SenderOffice","faxcom/IFaxDoc::put_SenderOffice","get_SenderOffice"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp.htm
 tech.root: Fax

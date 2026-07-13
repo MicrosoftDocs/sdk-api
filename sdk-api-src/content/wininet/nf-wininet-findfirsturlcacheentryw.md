@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FindFirstUrlCacheEntryW
 title: FindFirstUrlCacheEntryW function (wininet.h)
-description: Begins the enumeration of the Internet cache.
-helpviewer_keywords: ["FindFirstUrlCacheEntry","FindFirstUrlCacheEntry function [WinINet]","FindFirstUrlCacheEntryA","FindFirstUrlCacheEntryW","_inet_findfirsturlcacheentry_function","wininet.findfirsturlcacheentry","wininet/FindFirstUrlCacheEntry","wininet/FindFirstUrlCacheEntryA","wininet/FindFirstUrlCacheEntryW"]
+description: Begins the enumeration of the Internet cache. (Unicode)
+helpviewer_keywords: ["FindFirstUrlCacheEntry", "FindFirstUrlCacheEntry function [WinINet]", "FindFirstUrlCacheEntryW", "_inet_findfirsturlcacheentry_function", "wininet.findfirsturlcacheentry", "wininet/FindFirstUrlCacheEntry", "wininet/FindFirstUrlCacheEntryW"]
 old-location: wininet\findfirsturlcacheentry.htm
 tech.root: wininet
 ms.assetid: e8407284-846b-4080-b75b-4805330e0f95
@@ -100,7 +100,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines FindFirstUrlCacheEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines FindFirstUrlCacheEntry as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

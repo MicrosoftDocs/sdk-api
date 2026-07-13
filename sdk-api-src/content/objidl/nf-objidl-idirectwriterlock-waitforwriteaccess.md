@@ -62,6 +62,12 @@ Specifies the time in milliseconds that this method blocks while waiting to obta
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The caller has successfully obtained exclusive write access to the storage.|
+|S_FALSE | This method was called again without an intervening call to IDirectWriterLock::ReleaseWriteAccess.|
+|STG_E_INUSE | The specified time-out expired without obtaining exclusive write access.|
+
 ## -remarks
 
 When a storage is opened in direct mode (STGM_DIRECT) with the STGM_READWRITE|STGM_SHARE_DENY_WRITE, you can call this method to obtain exclusive write access to the storage.

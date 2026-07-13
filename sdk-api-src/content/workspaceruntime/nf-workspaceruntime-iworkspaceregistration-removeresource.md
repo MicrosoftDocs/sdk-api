@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceRegistration.RemoveResource
 title: IWorkspaceRegistration::RemoveResource (workspaceruntime.h)
-description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection.
+description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection. (IWorkspaceRegistration2.RemoveResource)
 helpviewer_keywords: ["IWorkspaceRegistration interface [Remote Desktop Services]","RemoveResource method","IWorkspaceRegistration.RemoveResource","IWorkspaceRegistration2 interface [Remote Desktop Services]","RemoveResource method","IWorkspaceRegistration2::RemoveResource","IWorkspaceRegistration::RemoveResource","RemoveResource","RemoveResource method [Remote Desktop Services]","RemoveResource method [Remote Desktop Services]","IWorkspaceRegistration interface","RemoveResource method [Remote Desktop Services]","IWorkspaceRegistration2 interface","RemoveResource method [Remote Desktop Services]","Workspace object","Workspace object [Remote Desktop Services]","RemoveResource method","termserv.iworkspaceregistration_removeresource","workspaceruntime/IWorkspaceRegistration2::RemoveResource","workspaceruntime/IWorkspaceRegistration::RemoveResource"]
 old-location: termserv\iworkspaceregistration_removeresource.htm
 tech.root: TermServ
@@ -62,7 +62,7 @@ A <b>DWORD</b> value that contains a connection cookie returned by the <a href="
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

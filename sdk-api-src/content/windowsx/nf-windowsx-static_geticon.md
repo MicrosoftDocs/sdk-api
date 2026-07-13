@@ -6,7 +6,7 @@ helpviewer_keywords: ["Static_GetIcon","Static_GetIcon macro [Windows Controls]"
 old-location: controls\Static_GetIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_geticon.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Static_GetIcon, Static_GetIcon macro [Windows Controls], _win32_Static_GetIcon, _win32_Static_GetIcon_cpp, controls.Static_GetIcon, controls._win32_Static_GetIcon, windowsx/Static_GetIcon
 req.header: windowsx.h
 req.include-header: 
@@ -47,11 +47,25 @@ api_name:
 
 # Static_GetIcon macro
 
+## -syntax
+
+```cpp
+HICON Static_GetIcon(
+   HWND  hwndCtl
+   HICON hIcon
+);
+```
+
+## -returns
+
+Type: **[HICON](/windows/desktop/winprog/windows-data-types)**
+
+A handle to the icon, or <b>NULL</b> if the static control has no associated icon or if an error occurred.
+
 
 ## -description
 
-Retrieves a handle to the icon associated with a static control that has the SS_ICON style. 
- You can use this macro or send the <a href="/windows/desktop/Controls/stm-geticon">STM_GETICON</a> message explicitly.
+Retrieves a handle to the icon associated with a static control that has the SS_ICON style. You can use this macro or send the <a href="/windows/desktop/Controls/stm-geticon">STM_GETICON</a> message explicitly.
 
 ## -parameters
 

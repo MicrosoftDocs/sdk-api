@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.GetCurrencyFormatA
 title: GetCurrencyFormatA function (winnls.h)
-description: Formats a number string as a currency string for a locale specified by identifier.
-helpviewer_keywords: ["GetCurrencyFormat","GetCurrencyFormat function [Internationalization for Windows Applications]","GetCurrencyFormatA","GetCurrencyFormatW","_win32_GetCurrencyFormat","intl.getcurrencyformat","winnls/GetCurrencyFormat","winnls/GetCurrencyFormatA","winnls/GetCurrencyFormatW"]
+description: Formats a number string as a currency string for a locale specified by identifier. (ANSI)
+helpviewer_keywords: ["GetCurrencyFormatA", "winnls/GetCurrencyFormatA"]
 old-location: intl\getcurrencyformat.htm
 tech.root: Intl
 ms.assetid: 43c51deb-ca92-4e14-8c27-3b588b7be061
@@ -133,7 +133,7 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 > [!NOTE]
-> The winnls.h header defines GetCurrencyFormat as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnls.h header defines GetCurrencyFormat as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

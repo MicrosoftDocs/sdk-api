@@ -54,11 +54,11 @@ The <b>PolicyServerUrlPropertyID</b> enumeration contains values that specify th
 
 ## -enum-fields
 
-### -field PsPolicyID
+### -field PsPolicyID:0
 
 Specify or retrieve an ID for the policy server.
 
-### -field PsFriendlyName
+### -field PsFriendlyName:1
 
 Specify or retrieve a display name for the policy server.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.put_Period
 title: IMaintenanceSettings::put_Period (taskschd.h)
-description: Gets or sets the amount of time the task needs to be once executed during regular Automatic maintenance.
+description: Gets or sets the amount of time the task needs to be once executed during regular Automatic maintenance. (Put)
 helpviewer_keywords: ["IMaintenanceSettings interface [Task Scheduler]","Period property","IMaintenanceSettings.Period","IMaintenanceSettings.put_Period","IMaintenanceSettings::Period","IMaintenanceSettings::get_Period","IMaintenanceSettings::put_Period","Period property [Task Scheduler]","Period property [Task Scheduler]","IMaintenanceSettings interface","put_Period","taskschd.imaintenancesettings_period","taskschd/IMaintenanceSettings::Period","taskschd/IMaintenanceSettings::get_Period","taskschd/IMaintenanceSettings::put_Period"]
 old-location: taskschd\imaintenancesettings_period.htm
 tech.root: taskschd

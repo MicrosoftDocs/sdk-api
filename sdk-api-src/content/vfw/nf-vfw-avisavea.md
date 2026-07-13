@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.AVISaveA
 title: AVISaveA function (vfw.h)
-description: The AVISave function builds a file by combining data streams from other files or from memory.
-helpviewer_keywords: ["AVISave","AVISave function [Windows Multimedia]","AVISaveA","AVISaveW","_win32_AVISave","multimedia.avisave","vfw/AVISave","vfw/AVISaveA","vfw/AVISaveW"]
+description: The AVISave function builds a file by combining data streams from other files or from memory. (ANSI)
+helpviewer_keywords: ["AVISaveA", "vfw/AVISaveA"]
 old-location: multimedia\avisave.htm
 tech.root: Multimedia
 ms.assetid: 44200871-541c-4d67-ba12-61af06da8788
@@ -111,7 +111,7 @@ The argument <i>pavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn
 
 
 > [!NOTE]
-> The vfw.h header defines AVISave as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines AVISave as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

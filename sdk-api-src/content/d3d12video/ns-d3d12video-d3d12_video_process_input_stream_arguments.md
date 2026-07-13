@@ -4,7 +4,6 @@ title: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS
 description: Specifies input stream arguments for an input stream passed to ID3D12VideoCommandList::ProcessFrames.
 helpviewer_keywords: ["D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS","D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS",""]
 tech.root: mf
-ms.assetid: 63497484-1bac-47d4-8fb9-6cf504a6f6f8
 ms.date: 05/28/2019
 ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS, D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS,
 req.header: d3d12video.h
@@ -42,7 +41,7 @@ api_name:
 
 ## -description
 
-Specifies input stream arguments for an input stream passed to[ID3D12VideoCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md).
+Specifies input stream arguments for an input stream passed to [ID3D12VideoCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md).
 
 ## -struct-fields
 
@@ -60,7 +59,7 @@ A value from the [D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS](ne-d3d12video-d3d12_vi
 
 ### -field RateInfo
 
-A [D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE](ns-d3d12video-d3d12_video_process_input_stream_rate.md) structure specifying the framerate and input and output indicies for framerate conversion and deinterlacing.
+A [D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE](ns-d3d12video-d3d12_video_process_input_stream_rate.md) structure specifying the framerate and input and output indices for framerate conversion and deinterlacing.
 
 ### -field FilterLevels
 

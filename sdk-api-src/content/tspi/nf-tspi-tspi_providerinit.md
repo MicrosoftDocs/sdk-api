@@ -95,7 +95,7 @@ A pointer to a <b>DWORD</b>-sized memory location, into which the service provid
 
 
 
-At this time, only one bit is defined to be returned through this pointer: LINETSPIOPTION_NONREENTRANT. The service provider sets this bit if it is not designed for fully pre-emptive, multithreaded, multitasking, multiprocessor operation (for example, updating of global data protected by mutexes). When this bit is set, TAPI only makes one call at a time to the service provider; it does not call any other entry point, nor that entry point again, until the service provider returns from the original function call. Without this bit set, TAPI may call into multiple service provider entry points, including multiple times to the same entry point, simultaneously (actually simultaneously in a multiprocessor system).
+At this time, only one bit is defined to be returned through this pointer: LINETSPIOPTION_NONREENTRANT. The service provider sets this bit if it is not designed for fully preemptive, multithreaded, multitasking, multiprocessor operation (for example, updating of global data protected by mutexes). When this bit is set, TAPI only makes one call at a time to the service provider; it does not call any other entry point, nor that entry point again, until the service provider returns from the original function call. Without this bit set, TAPI may call into multiple service provider entry points, including multiple times to the same entry point, simultaneously (actually simultaneously in a multiprocessor system).
 
 <div class="alert"><b>Note</b>  <b>Important:</b> It must be emphasized that setting this bit degrades performance. It is strongly recommended that this be used only for development but not a shipped production service provider.</div>
 <div> </div>

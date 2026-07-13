@@ -84,5 +84,4 @@ The EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP also indicates that you use the <b>In
  Array of map entries. For details, see the <a href="/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> structure.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a>

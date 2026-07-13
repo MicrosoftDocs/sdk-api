@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_GetResult","PropSheet_GetResult macro [Windows 
 old-location: controls\PropSheet_GetResult.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_getresult.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_GetResult, PropSheet_GetResult macro [Windows Controls], _win32_PropSheet_GetResult, _win32_PropSheet_GetResult_cpp, controls.PropSheet_GetResult, controls._win32_PropSheet_GetResult, prsht/PropSheet_GetResult
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,25 @@ api_name:
 ---
 
 # PropSheet_GetResult macro
+
+## -syntax
+
+```cpp
+int PropSheet_GetResult(
+   HWND hDlg
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns a positive value if successful, or -1 otherwise. The following return values have a special meaning.
+
+| Return code | Description |
+|---|---|
+| ID_PSREBOOTSYSTEM | A page sent a PSM_REBOOTSYSTEM message to the property sheet. The computer must be restarted for the user's changes to take effect. |
+| ID_PSRESTARTWINDOWS | A page sent a PSM_RESTARTWINDOWS message to the property sheet. Windows must be restarted for the user's changes to take effect. |
 
 
 ## -description

@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredIsMarshaledCredentialA
 title: CredIsMarshaledCredentialA function (wincred.h)
-description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential.
-helpviewer_keywords: ["CredIsMarshaledCredential","CredIsMarshaledCredential function [Security]","CredIsMarshaledCredentialA","CredIsMarshaledCredentialW","_cred_credismarshaledcredential","security.credismarshaledcredential","wincred/CredIsMarshaledCredential","wincred/CredIsMarshaledCredentialA","wincred/CredIsMarshaledCredentialW"]
+description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential. (ANSI)
+helpviewer_keywords: ["CredIsMarshaledCredentialA", "wincred/CredIsMarshaledCredentialA"]
 old-location: security\credismarshaledcredential.htm
 tech.root: security
 ms.assetid: fc902c0c-41e0-4178-8ca0-227a1d218388
@@ -71,4 +71,4 @@ This function returns <b>TRUE</b> if <i>MarshaledCredential</i> is a marshaled c
 ## -remarks
 
 > [!NOTE]
-> The wincred.h header defines CredIsMarshaledCredential as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wincred.h header defines CredIsMarshaledCredential as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

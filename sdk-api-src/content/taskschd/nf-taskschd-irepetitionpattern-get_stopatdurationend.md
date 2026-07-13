@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRepetitionPattern.get_StopAtDurationEnd
 title: IRepetitionPattern::get_StopAtDurationEnd (taskschd.h)
-description: Gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.
+description: Gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration. (Get)
 helpviewer_keywords: ["IRepetitionPattern interface [Task Scheduler]","StopAtDurationEnd property","IRepetitionPattern.StopAtDurationEnd","IRepetitionPattern.get_StopAtDurationEnd","IRepetitionPattern::StopAtDurationEnd","IRepetitionPattern::get_StopAtDurationEnd","IRepetitionPattern::put_StopAtDurationEnd","StopAtDurationEnd property [Task Scheduler]","StopAtDurationEnd property [Task Scheduler]","IRepetitionPattern interface","get_StopAtDurationEnd","taskschd.irepetitionpattern_stopatdurationend","taskschd/IRepetitionPattern::StopAtDurationEnd","taskschd/IRepetitionPattern::get_StopAtDurationEnd","taskschd/IRepetitionPattern::put_StopAtDurationEnd"]
 old-location: taskschd\irepetitionpattern_stopatdurationend.htm
 tech.root: taskschd

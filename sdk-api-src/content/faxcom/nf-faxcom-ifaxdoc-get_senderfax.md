@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderFax
 title: IFaxDoc::get_SenderFax (faxcom.h)
-description: Sets or retrieves the SenderFax property of a FaxDoc object. The SenderFax property is a null-terminated string that contains the fax number of the sender of the outbound fax transmission.
+description: Sets or retrieves the SenderFax property of a FaxDoc object. The SenderFax property is a null-terminated string that contains the fax number of the sender of the outbound fax transmission. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","SenderFax property","IFaxDoc.SenderFax","IFaxDoc.get_SenderFax","IFaxDoc::SenderFax","IFaxDoc::get_SenderFax","IFaxDoc::put_SenderFax","SenderFax property [Fax Service]","SenderFax property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_senderfax","fax._mfax_ifaxdoc_get_senderfax","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderfax_cpp","faxcom/IFaxDoc::SenderFax","faxcom/IFaxDoc::get_SenderFax","faxcom/IFaxDoc::put_SenderFax","get_SenderFax"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderfax_cpp.htm
 tech.root: Fax

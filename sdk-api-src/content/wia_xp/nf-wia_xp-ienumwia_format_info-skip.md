@@ -44,6 +44,7 @@ api_location:
  - Wiaguid.dll
 api_name:
  - IEnumWIA_FORMAT_INFO.Skip
+archived: true
 ---
 
 # IEnumWIA_FORMAT_INFO::Skip

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.put_MyStoreNameWStr
 title: IEnroll::put_MyStoreNameWStr (xenroll.h)
-description: The MyStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where certificates with linked private keys are kept.
+description: The MyStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where certificates with linked private keys are kept. (Put)
 helpviewer_keywords: ["IEnroll interface [Security]","MyStoreNameWStr property","IEnroll.MyStoreNameWStr","IEnroll.put_MyStoreNameWStr","IEnroll::MyStoreNameWStr","IEnroll::get_MyStoreNameWStr","IEnroll::put_MyStoreNameWStr","MyStoreNameWStr property [Security]","MyStoreNameWStr property [Security]","IEnroll interface","put_MyStoreNameWStr","security.ienroll4_mystorenamewstr","xenroll/IEnroll::MyStoreNameWStr","xenroll/IEnroll::get_MyStoreNameWStr","xenroll/IEnroll::put_MyStoreNameWStr"]
 old-location: security\ienroll4_mystorenamewstr.htm
 tech.root: security

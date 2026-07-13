@@ -69,7 +69,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see [/windows/desktop/WinProg/using-the-windows-headers](Using the Windows Headers).
+To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see [Using the Windows Headers](/windows/desktop/WinProg/using-the-windows-headers).
 
 ## -see-also
 

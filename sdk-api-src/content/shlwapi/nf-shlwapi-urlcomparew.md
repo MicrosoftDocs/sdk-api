@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlCompareW
 title: UrlCompareW function (shlwapi.h)
-description: Makes a case-sensitive comparison of two URL strings.
-helpviewer_keywords: ["UrlCompare","UrlCompare function [Windows Shell]","UrlCompareA","UrlCompareW","_win32_UrlCompare","shell.UrlCompare","shlwapi/UrlCompare","shlwapi/UrlCompareA","shlwapi/UrlCompareW"]
+description: Makes a case-sensitive comparison of two URL strings. (Unicode)
+helpviewer_keywords: ["UrlCompare", "UrlCompare function [Windows Shell]", "UrlCompareW", "_win32_UrlCompare", "shell.UrlCompare", "shlwapi/UrlCompare", "shlwapi/UrlCompareW"]
 old-location: shell\UrlCompare.htm
 tech.root: shell
 ms.assetid: d5c9e003-b85b-4f9f-b231-e3e4b71d4ce6
@@ -91,7 +91,7 @@ For best results, you should first canonicalize the URLs with <a href="/windows/
 
 
 > [!NOTE]
-> The shlwapi.h header defines UrlCompare as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines UrlCompare as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -4,7 +4,8 @@ title: Wbemprov.h header
 ms.assetid: c62991b7-953a-3437-a1b3-71d9aa11b1e8
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: wmi
 f1_keywords:
  - wbemprov

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTTDISPINFOA
 title: NMTTDISPINFOA (commctrl.h)
-description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.
+description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure. (ANSI)
 helpviewer_keywords: ["*LPNMTTDISPINFOA","LPNMTTDISPINFO","LPNMTTDISPINFO structure pointer [Windows Controls]","NMTTDISPINFO","NMTTDISPINFO structure [Windows Controls]","NMTTDISPINFOA","NMTTDISPINFOW","TTF_DI_SETITEM","TTF_IDISHWND","TTF_RTLREADING","_win32_NMTTDISPINFO","_win32_NMTTDISPINFO_cpp","commctrl/LPNMTTDISPINFO","commctrl/NMTTDISPINFO","commctrl/NMTTDISPINFOA","commctrl/NMTTDISPINFOW","controls.NMTTDISPINFO","controls._win32_NMTTDISPINFO"]
 old-location: controls\NMTTDISPINFO.htm
 tech.root: Controls
@@ -141,10 +141,10 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 ## -remarks
 
-You need to point the <b>lpszText</b>  array to your own private buffer when the text used in the tooltip exceeds 80 <b>TCHAR</b><b>s</b> in length. The system automatically strips the ampersand (&amp;) accelerator <b>TCHAR</b><b>s</b> from all strings passed to a tooltip control, unless the control has the <a href="/windows/desktop/Controls/tooltip-styles">TTS_NOPREFIX</a> style.
+You need to point the <b>lpszText</b> array to your own private buffer when the text used in the tooltip exceeds 80 <b>TCHAR</b>s in length. The system automatically strips the ampersand (&amp;) accelerator <b>TCHAR</b><b>s</b> from all strings passed to a tooltip control, unless the control has the <a href="/windows/desktop/Controls/tooltip-styles">TTS_NOPREFIX</a> style.
 
 
 
 
 > [!NOTE]
-> The commctrl.h header defines NMTTDISPINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines NMTTDISPINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

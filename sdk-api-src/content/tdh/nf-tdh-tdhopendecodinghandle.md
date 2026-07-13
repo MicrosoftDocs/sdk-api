@@ -101,5 +101,4 @@ Memory allocations failed.
 Call <a href="/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a> to free the returned handle.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a>

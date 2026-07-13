@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_FILTER_RANGE
 title: D3D12_VIDEO_PROCESS_FILTER_RANGE
-description: Defines the range of supported values for an image filter.
+description: Defines the range of supported values for an image filter. (D3D12_VIDEO_PROCESS_FILTER_RANGE)
 helpviewer_keywords: ["D3D12_VIDEO_PROCESS_FILTER_RANGE","D3D12_VIDEO_PROCESS_FILTER_RANGE",""]
 tech.root: mf
 ms.assetid: d9effd83-7420-45be-b360-eea63db64d1c

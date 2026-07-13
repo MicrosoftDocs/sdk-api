@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-2-0.dll
  - KernelBase.dll
@@ -225,7 +228,7 @@ This parameter must be one of the following values, which cannot be combined:
 <td width="60%">
 Creates a new file, always.
 
-If the specified file exists and is writable, the function overwrites the file, the function succeeds, and 
+If the specified file exists and is writable, the function truncates the file, the function succeeds, and 
          last-error code is set to <b>ERROR_ALREADY_EXISTS</b> (183).
 
 If the specified file does not exist and is a valid path, a new file is created, the function succeeds, and 
@@ -510,10 +513,7 @@ For more information, see
       <a href="/windows/desktop/FileIO/about-directory-management">About Directory Management</a>.
 
 <h3><a id="Physical_Disks_and_Volumes"></a><a id="physical_disks_and_volumes"></a><a id="PHYSICAL_DISKS_AND_VOLUMES"></a>Physical Disks and Volumes</h3>
-Direct access to the disk or to a volume is restricted. For more information, see 
-      "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
-      in the Help and Support Knowledge Base at 
-      <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
+Direct access to the disk or to a volume is restricted.
 
 You can use the <b>CreateFile2</b> function to open a physical 
       disk drive or a volume, which returns a direct access storage device (DASD) handle that can be used with the 
@@ -530,9 +530,9 @@ The following requirements must be met for such a call to succeed:
 <li>The caller must have administrative privileges. For more information, see 
        <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
 <li>The <i>dwCreationDisposition</i> parameter must have the 
-       <b>OPEN_EXISTING</b>flag.</li>
+      <b>OPEN_EXISTING</b> flag.</li>
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
-       <b>FILE_SHARE_WRITE</b>flag.</li>
+      <b>FILE_SHARE_WRITE</b> flag.</li>
 </ul>
 <div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
@@ -571,7 +571,7 @@ For an example of opening a physical drive, see
 
 When opening a volume or removable media drive (for example, a floppy disk drive or flash memory thumb drive), 
       the <i>lpFileName</i> string should be the following form: 
-      "\\.&#92;<i>X</i>:". Do not use a trailing backslash 
+      "&#92;&#92;.&#92;<i>X</i>:". Do not use a trailing backslash 
       (\\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
 
 <table>
@@ -673,10 +673,10 @@ Use the CONOUT$ value to specify console output.
 CONIN$ gets a handle to the console input buffer, even if the 
          <a href="/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="/windows/console/getstdhandle">GetStdHandle</a>function.
+         <a href="/windows/console/getstdhandle">GetStdHandle</a> function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="/windows/console/setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> redirects the standard output handle. To 
          get the standard output handle, use <a href="/windows/console/getstdhandle">GetStdHandle</a>.
 
 </td>
@@ -737,7 +737,7 @@ Set the members of the
 </td>
 <td>
 If you want the console to be inherited, the <b>bInheritHandle</b> member of the 
-         <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure 
+         <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure 
          must be <b>TRUE</b>.
 
 </td>
@@ -803,7 +803,7 @@ If <b>CreateFile2</b> opens the client end of a named pipe, the
       function uses any instance of the named pipe that is in the listening state. The opening process can duplicate 
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
-      specified in the <i>dwOpenMode</i>parameter of the 
+      specified in the <i>dwOpenMode</i> parameter of the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["PRIMARYLANGID","PRIMARYLANGID macro [Internationalization
 old-location: intl\primarylangid.htm
 tech.root: Intl
 ms.assetid: e463a2dc-bf36-4fbb-8df6-799ca1d549fa
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: PRIMARYLANGID, PRIMARYLANGID macro [Internationalization for Windows Applications], _win32_PRIMARYLANGID, intl.primarylangid, winnt/PRIMARYLANGID
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PRIMARYLANGID macro
+
+## -syntax
+
+```cpp
+WORD PRIMARYLANGID(
+    WORD lgid
+);
+```
+
+## -returns
+
+Type: **WORD**
+
+Returns the primary language identifier. It can be one of the predefined primary language identifiers or a user-defined primary language identifier. For more information, see <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>.
 
 
 ## -description

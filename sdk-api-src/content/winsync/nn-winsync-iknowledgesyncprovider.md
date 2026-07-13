@@ -54,10 +54,7 @@ Represents a synchronization provider that uses knowledge to perform synchroniza
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKnowledgeSyncProvider</b> interface inherits from <b>ISyncProvider</b>. <b>IKnowledgeSyncProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IKnowledgeSyncProvider</b> interface inherits from <b>ISyncProvider</b>. <b>IKnowledgeSyncProvider</b> also has these types of members:
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagTEXTMETRICA
 title: TEXTMETRICA (wingdi.h)
-description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context.
+description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context. (ANSI)
 helpviewer_keywords: ["*LPTEXTMETRICA","*NPTEXTMETRICA","*PTEXTMETRICA","PTEXTMETRIC","PTEXTMETRIC structure pointer [Windows GDI]","TEXTMETRIC","TEXTMETRIC structure [Windows GDI]","TEXTMETRICA","TEXTMETRICW","_win32_TEXTMETRIC_str","gdi.textmetric","wingdi/PTEXTMETRIC","wingdi/TEXTMETRIC","wingdi/TEXTMETRICA","wingdi/TEXTMETRICW"]
 old-location: gdi\textmetric.htm
 tech.root: gdi
@@ -170,53 +170,7 @@ The four high-order bits of <b>tmPitchAndFamily</b> designate the font's font fa
 
 ### -field tmCharSet
 
-The character set of the font. The character set can be one of the following values.
-
-<ul>
-<li>ANSI_CHARSET</li>
-<li>BALTIC_CHARSET</li>
-<li>CHINESEBIG5_CHARSET</li>
-<li>DEFAULT_CHARSET</li>
-<li>EASTEUROPE_CHARSET</li>
-<li>GB2312_CHARSET</li>
-<li>GREEK_CHARSET</li>
-<li>HANGUL_CHARSET</li>
-<li>MAC_CHARSET</li>
-<li>OEM_CHARSET</li>
-<li>RUSSIAN_CHARSET</li>
-<li>SHIFTJIS_CHARSET</li>
-<li>SYMBOL_CHARSET</li>
-<li>TURKISH_CHARSET</li>
-<li>VIETNAMESE_CHARSET</li>
-</ul>
-<b>Korean language edition of Windows:</b>
-
-<ul>
-<li>
-JOHAB_CHARSET
-
-</li>
-</ul>
-<b>Middle East language edition of Windows:</b>
-
-<ul>
-<li>
-ARABIC_CHARSET
-
-</li>
-<li>
-HEBREW_CHARSET
-
-</li>
-</ul>
-<b>Thai language edition of Windows:</b>
-
-<ul>
-<li>
-THAI_CHARSET
-
-</li>
-</ul>
+The character set of the font. For a list of possible values, see *lfCharSet* field of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT structure</a>.
 
 ## -see-also
 
@@ -241,4 +195,4 @@ THAI_CHARSET
 ## -remarks
 
 > [!NOTE]
-> The wingdi.h header defines TEXTMETRIC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines TEXTMETRIC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

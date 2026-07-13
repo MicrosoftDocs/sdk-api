@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMOpenProgress","IAMOpenProgress interface [DirectShow]"
 old-location: dshow\iamopenprogress.htm
 tech.root: dshow
 ms.assetid: 31021c83-ee83-49c3-a089-31184756fb0d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMOpenProgress, IAMOpenProgress interface [DirectShow], IAMOpenProgress interface [DirectShow],described, IAMOpenProgressInterface, dshow.iamopenprogress, strmif/IAMOpenProgress
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IAMOpenProgress</code> interface reports the progress of a file-open operation and enables the application to cancel the operation.
 
 Filters that open files over a network can expose this interface. An application can use it to query the progress of the download, or to cancel the download. If the network is not responsive, a method such as <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> might block for an indefinite period. To prevent your application from blocking, create a worker thread that uses <code>IAMOpenProgress</code> to monitor the progress. The worker thread can cancel the operation if a predefined timeout occurs, or in response to a command from the user.
@@ -59,8 +61,5 @@ The <a href="/windows/desktop/DirectShow/file-source--url--filter">File Source (
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOpenProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOpenProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMOpenProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOpenProgress</b> also has these types of members:
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathUndecorateW
 title: PathUndecorateW function (shlwapi.h)
-description: Removes the decoration from a path string.
-helpviewer_keywords: ["PathUndecorate","PathUndecorate function [Windows Shell]","PathUndecorateA","PathUndecorateW","_win32_PathUndecorate","shell.PathUndecorate","shlwapi/PathUndecorate","shlwapi/PathUndecorateA","shlwapi/PathUndecorateW"]
+description: Removes the decoration from a path string. (Unicode)
+helpviewer_keywords: ["PathUndecorate", "PathUndecorate function [Windows Shell]", "PathUndecorateW", "_win32_PathUndecorate", "shell.PathUndecorate", "shlwapi/PathUndecorate", "shlwapi/PathUndecorateW"]
 old-location: shell\PathUndecorate.htm
 tech.root: shell
 ms.assetid: 2d98ad60-8a7d-4b8d-9b5c-27e348bdc2c3
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shlwapi-l1-2-1.dll
+ - ext-ms-win-shell-shlwapi-l1-2-0.dll
+ - ext-ms-win-shell-shlwapi-l1-1-2.dll
  - Shlwapi.dll
  - API-MS-Win-shlwapi-IE-l1-1-0.dll
 api_name:
@@ -102,5 +105,5 @@ The following table illustrates how strings are modified by <b>PathUndecorate</b
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathUndecorate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathUndecorate as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.MAKEINTRESOURCEA
 title: MAKEINTRESOURCEA macro (winuser.h)
-description: Converts an integer value to a resource type compatible with the resource-management functions. This macro is used in place of a string containing the name of the resource.
-helpviewer_keywords: ["MAKEINTRESOURCE","MAKEINTRESOURCE macro [Menus and Other Resources]","MAKEINTRESOURCEA","MAKEINTRESOURCEW","_win32_MAKEINTRESOURCE","_win32_makeintresource_cpp","menurc.makeintresource","winui._win32_makeintresource","winuser/MAKEINTRESOURCE"]
+description: Converts an integer value to a resource type compatible with the resource-management functions. This macro is used in place of a string containing the name of the resource. (ANSI)
+helpviewer_keywords: ["MAKEINTRESOURCEA"]
 old-location: menurc\makeintresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\makeintresource.htm
@@ -67,7 +67,7 @@ The return value should be passed only to functions which explicitly indicate th
 
 
 > [!NOTE]
-> The winuser.h header defines MAKEINTRESOURCE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines MAKEINTRESOURCE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

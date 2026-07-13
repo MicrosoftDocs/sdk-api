@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_Name
 title: INetFwAuthorizedApplication::get_Name (netfw.h)
-description: Specifies the friendly name of this application.
+description: Specifies the friendly name of this application. (Get)
 helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","Name property","INetFwAuthorizedApplication.Name","INetFwAuthorizedApplication.get_Name","INetFwAuthorizedApplication::Name","INetFwAuthorizedApplication::get_Name","INetFwAuthorizedApplication::put_Name","Name property [ICS/ICF]","Name property [ICS/ICF]","INetFwAuthorizedApplication interface","get_Name","ics.inetfwauthorizedapplication_name","netfw/INetFwAuthorizedApplication::Name","netfw/INetFwAuthorizedApplication::get_Name","netfw/INetFwAuthorizedApplication::put_Name"]
 old-location: ics\inetfwauthorizedapplication_name.htm
 tech.root: ics

@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetFirstVisible","TreeView_GetFirstVisible macro
 old-location: controls\TreeView_GetFirstVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getfirstvisible.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetFirstVisible, TreeView_GetFirstVisible macro [Windows Controls], _win32_TreeView_GetFirstVisible, _win32_TreeView_GetFirstVisible_cpp, commctrl/TreeView_GetFirstVisible, controls.TreeView_GetFirstVisible, controls._win32_TreeView_GetFirstVisible
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TreeView_GetFirstVisible macro
+
+## -syntax
+
+```cpp
+HTREEITEM TreeView_GetFirstVisible(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Returns the handle to the item if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

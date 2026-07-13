@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll
  - user32.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-3-0.dll

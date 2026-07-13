@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmConfigureIMEW
 title: ImmConfigureIMEW function (imm.h)
-description: Displays the configuration dialog box for the IME of the specified input locale identifier.
-helpviewer_keywords: ["IME_CONFIG_GENERAL","IME_CONFIG_REGISTERWORD","IME_CONFIG_SELECTDICTIONARY","ImmConfigureIME","ImmConfigureIME function [Internationalization for Windows Applications]","ImmConfigureIMEA","ImmConfigureIMEW","_win32_ImmConfigureIME","imm/ImmConfigureIME","imm/ImmConfigureIMEA","imm/ImmConfigureIMEW","intl.immconfigureime"]
+description: The ImmConfigureIMEW (Unicode) function (imm.h) displays the configuration dialog box for the IME of the specified input locale identifier.
+helpviewer_keywords: ["IME_CONFIG_GENERAL", "IME_CONFIG_REGISTERWORD", "IME_CONFIG_SELECTDICTIONARY", "ImmConfigureIME", "ImmConfigureIME function [Internationalization for Windows Applications]", "ImmConfigureIMEW", "_win32_ImmConfigureIME", "imm/ImmConfigureIME", "imm/ImmConfigureIMEW", "intl.immconfigureime"]
 old-location: intl\immconfigureime.htm
 tech.root: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -128,4 +128,4 @@ Returns a nonzero value if successful, or 0 otherwise.
 ## -remarks
 
 > [!NOTE]
-> The imm.h header defines ImmConfigureIME as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The imm.h header defines ImmConfigureIME as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

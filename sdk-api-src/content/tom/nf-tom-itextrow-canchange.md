@@ -58,7 +58,7 @@ Determines whether changes can be made to this row.
 
 Type: <b>long*</b>
 
-A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> indicating whether the row can be edited. It is <b>tomTrue</b> only if the row can be edited. The <i>pB</i> paraemeter can be <b>NULL</b>.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> indicating whether the row can be edited. It is <b>tomTrue</b> only if the row can be edited. The <i>pB</i> parameter can be <b>NULL</b>.
 
 ## -returns
 

@@ -54,23 +54,23 @@ Indicates the screen orientation preference for a desktop app process.
 
 ## -enum-fields
 
-### -field ORIENTATION_PREFERENCE_NONE
+### -field ORIENTATION_PREFERENCE_NONE:0x0
 
 The process has no device orientation preferences. The system may choose any available setting.
 
-### -field ORIENTATION_PREFERENCE_LANDSCAPE
+### -field ORIENTATION_PREFERENCE_LANDSCAPE:0x1
 
 The process represents a desktop app that can be used in landscape mode.
 
-### -field ORIENTATION_PREFERENCE_PORTRAIT
+### -field ORIENTATION_PREFERENCE_PORTRAIT:0x2
 
 The process represents a desktop app that can be used in portrait mode.
 
-### -field ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED
+### -field ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED:0x4
 
  The process represents a desktop app that can be used in flipped landscape mode.
 
-### -field ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED
+### -field ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED:0x8
 
 The process represents a desktop app that can be used in flipped portrait mode.
 

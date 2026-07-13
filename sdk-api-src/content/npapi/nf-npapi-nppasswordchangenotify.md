@@ -76,7 +76,7 @@ Kerberos:Interactive
 
 ### -param lpAuthentInfo [in]
 
-Pointer to an structure that contains the new credentials. 
+Pointer to a structure that contains the new credentials. 
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_Strokes
 title: IInkRecognizerContext::get_Strokes (msinkaut.h)
-description: Gets or sets the InkStrokes collection associated with the InkRecognizerContext object.
+description: Gets or sets the InkStrokes collection associated with the InkRecognizerContext object. (IInkRecognizerContext.get_Strokes)
 helpviewer_keywords: ["IInkRecognizerContext interface [Tablet PC]","Strokes property","IInkRecognizerContext.Strokes","IInkRecognizerContext.get_Strokes","IInkRecognizerContext::Strokes","IInkRecognizerContext::get_Strokes","IInkRecognizerContext::putref_Strokes","InkRecognizerContext.get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkRecognizerContext interface","af31559b-741e-4af2-8c35-9e34ad1af85f","get_Strokes","msinkaut/IInkRecognizerContext::Strokes","msinkaut/IInkRecognizerContext::get_Strokes","msinkaut/IInkRecognizerContext::putref_Strokes","putref_Strokes","tablet.inkrecognizercontext_strokes"]
 old-location: tablet\inkrecognizercontext_strokes.htm
 tech.root: tablet
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -76,7 +76,7 @@ To keep the <b>Strokes</b> property of the <a href="/windows/desktop/tablet/inkr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
+<a href="../msinkaut/nn-msinkaut-iinkrecognizercontext.md">IInkRecognizerContext</a>
 
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetViewRect","ListView_GetViewRect macro [Window
 old-location: controls\ListView_GetViewRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getviewrect.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetViewRect, ListView_GetViewRect macro [Windows Controls], _win32_ListView_GetViewRect, _win32_ListView_GetViewRect_cpp, commctrl/ListView_GetViewRect, controls.ListView_GetViewRect, controls._win32_ListView_GetViewRect
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # ListView_GetViewRect macro
 
+## -syntax
+
+```cpp
+BOOL ListView_GetViewRect(
+   HWND hwnd,
+   RECT *prc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
+
 
 ## -description
 
@@ -62,6 +77,6 @@ A handle to the list-view control.
 
 ### -param prc
 
-Type: <b><a href="/previous-versions/dd162897(v=vs.85)">RECT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd162897(v=vs.85)">RECT</a> structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control.

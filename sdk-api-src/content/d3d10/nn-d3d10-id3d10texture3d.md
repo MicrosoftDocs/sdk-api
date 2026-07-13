@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Texture3D
 title: ID3D10Texture3D (d3d10.h)
-description: A 3D texture interface accesses texel data, which is structured memory.
+description: A 3D texture interface accesses texel data, which is structured memory. (ID3D10Texture3D)
 helpviewer_keywords: ["ID3D10Texture3D","ID3D10Texture3D interface [Direct3D 10]","ID3D10Texture3D interface [Direct3D 10]","described","a0af960d-1977-383c-0ee3-09972ece4699","d3d10/ID3D10Texture3D","direct3d10.id3d10texture3d"]
 old-location: direct3d10\id3d10texture3d.htm
 tech.root: direct3d10
@@ -55,10 +55,7 @@ A <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resource
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Texture3D</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>. <b>ID3D10Texture3D</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10Texture3D</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>. <b>ID3D10Texture3D</b> also has these types of members:
 
 ## -remarks
 

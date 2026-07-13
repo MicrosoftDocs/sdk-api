@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetBlue(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetBlue(IDCompositionAnimation) (dcomp.h)
-description: Sets the blue value for the color of the shadow.
+description: Sets the blue value for the color of the shadow. (overload 2/2)
 helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetBlue method","IDCompositionShadowEffect.SetBlue","IDCompositionShadowEffect.SetBlue(IDCompositionAnimation)","IDCompositionShadowEffect::SetBlue","IDCompositionShadowEffect::SetBlue(IDCompositionAnimation)","SetBlue","SetBlue method [DirectComposition]","SetBlue method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetBlue","directcomp.idcompositionshadoweffect_setblue_2"]
 old-location: directcomp\idcompositionshadoweffect_setblue_2.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ An animation that represents how the blue value for the color of the shadow chan
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

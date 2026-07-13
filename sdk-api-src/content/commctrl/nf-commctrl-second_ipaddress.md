@@ -6,7 +6,7 @@ helpviewer_keywords: ["SECOND_IPADDRESS","SECOND_IPADDRESS macro [Windows Contro
 old-location: controls\SECOND_IPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\second_ipaddress.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: SECOND_IPADDRESS, SECOND_IPADDRESS macro [Windows Controls], _win32_SECOND_IPADDRESS, _win32_SECOND_IPADDRESS_cpp, commctrl/SECOND_IPADDRESS, controls.SECOND_IPADDRESS, controls._win32_SECOND_IPADDRESS
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # SECOND_IPADDRESS macro
+
+## -syntax
+
+```cpp
+BYTE SECOND_IPADDRESS(
+   LPARAM x
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+Returns a BYTE value that contains the field 1 value.
 
 
 ## -description

@@ -56,44 +56,44 @@ Defines the characteristics of a media source. These flags are retrieved by the 
 
 ## -enum-fields
 
-### -field MFMEDIASOURCE_IS_LIVE
+### -field MFMEDIASOURCE_IS_LIVE:0x1
 
 This flag indicates a data source that runs constantly, such as a live presentation. If the source is stopped and then restarted, there will be a gap in the content.
 
-### -field MFMEDIASOURCE_CAN_SEEK
+### -field MFMEDIASOURCE_CAN_SEEK:0x2
 
 The media source supports seeking.
 
-### -field MFMEDIASOURCE_CAN_PAUSE
+### -field MFMEDIASOURCE_CAN_PAUSE:0x4
 
 The source can pause.
 
-### -field MFMEDIASOURCE_HAS_SLOW_SEEK
+### -field MFMEDIASOURCE_HAS_SLOW_SEEK:0x8
 
 The media source downloads content. It might take a long time to seek to parts of the content that have not been downloaded.
 
-### -field MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS
+### -field MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS:0x10
 
 The media source delivers a playlist, which might contain more than one entry. After the first playlist entry has completed, the media source signals the start of each new playlist entry by sending an <a href="/windows/desktop/medfound/menewpresentation">MENewPresentation</a> event. The event contains a presentation descriptor for the entry.
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
 
-### -field MFMEDIASOURCE_CAN_SKIPFORWARD
+### -field MFMEDIASOURCE_CAN_SKIPFORWARD:0x20
 
 The media source can skip forward in the playlist. Applies only if the MFMEDIASOURCE_HAS_MULTIPLE_PRESENTATIONS flag is present. 
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
 
-### -field MFMEDIASOURCE_CAN_SKIPBACKWARD
+### -field MFMEDIASOURCE_CAN_SKIPBACKWARD:0x40
 
 The media source can skip backward in the playlist.
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>
 <div> </div>
 
-### -field MFMEDIASOURCE_DOES_NOT_USE_NETWORK
+### -field MFMEDIASOURCE_DOES_NOT_USE_NETWORK:0x80
 
 The media source is not currently
     using the network to receive the content.  Networking hardware

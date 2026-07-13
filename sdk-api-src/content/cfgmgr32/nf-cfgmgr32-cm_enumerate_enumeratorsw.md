@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_EnumeratorsW
 title: CM_Enumerate_EnumeratorsW function (cfgmgr32.h)
-description: The CM_Enumerate_Enumerators function enumerates the local machine's device enumerators by supplying each enumerator's name.
-helpviewer_keywords: ["CM_Enumerate_Enumerators","CM_Enumerate_Enumerators function [Device and Driver Installation]","CM_Enumerate_EnumeratorsW","cfgmgr32/CM_Enumerate_Enumerators","cfgmgr32/CM_Enumerate_EnumeratorsW","cfgmgrfn_16448772-e0d6-4182-9cfd-52bc354ce487.xml","devinst.cm_enumerate_enumerators"]
+description: The CM_Enumerate_Enumerators function enumerates the local machine's device enumerators by supplying each enumerator's name. (Unicode)
+helpviewer_keywords: ["CM_Enumerate_Enumerators", "CM_Enumerate_Enumerators function [Device and Driver Installation]", "CM_Enumerate_EnumeratorsW", "cfgmgr32/CM_Enumerate_Enumerators", "cfgmgr32/CM_Enumerate_EnumeratorsW", "cfgmgrfn_16448772-e0d6-4182-9cfd-52bc354ce487.xml", "devinst.cm_enumerate_enumerators"]
 old-location: devinst\cm_enumerate_enumerators.htm
 tech.root: devinst
 ms.assetid: 85fbca44-bd3b-4654-bba2-099135c42d23

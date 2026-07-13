@@ -1,7 +1,7 @@
 ---
 UID: NS:userenv._GROUP_POLICY_OBJECTW
 title: GROUP_POLICY_OBJECTW (userenv.h)
-description: The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list.
+description: The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list. (Unicode)
 helpviewer_keywords: ["*PGROUP_POLICY_OBJECTW","GPLinkDomain","GPLinkMachine","GPLinkOrganizationalUnit","GPLinkSite","GPLinkUnknown","GPO_FLAG_DISABLE","GPO_FLAG_FORCE","GROUP_POLICY_OBJECT","GROUP_POLICY_OBJECT structure [Group Policy]","GROUP_POLICY_OBJECTA","GROUP_POLICY_OBJECTW","PGROUP_POLICY_OBJECT","PGROUP_POLICY_OBJECT structure pointer [Group Policy]","_win32_group_policy_object_str","policy.group_policy_object_str","userenv/GROUP_POLICY_OBJECT","userenv/GROUP_POLICY_OBJECTA","userenv/GROUP_POLICY_OBJECTW","userenv/PGROUP_POLICY_OBJECT"]
 old-location: policy\group_policy_object_str.htm
 tech.root: Policy
@@ -208,7 +208,7 @@ First, there is an opening bracket, "[", followed by the <b>GUID</b> of the exte
 
 
 > [!NOTE]
-> The userenv.h header defines GROUP_POLICY_OBJECT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The userenv.h header defines GROUP_POLICY_OBJECT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

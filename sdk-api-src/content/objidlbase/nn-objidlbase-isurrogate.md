@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.ISurrogate
 title: ISurrogate (objidlbase.h)
-description: Used to dynamically load new DLL servers into an existing surrogate and free the surrogate when it is no longer needed.
+description: The ISurrogate (objidlbase.h) interface is used to dynamically load new DLL servers into an existing surrogate and free the surrogate when it is no longer needed.
 helpviewer_keywords: ["ISurrogate","ISurrogate interface [COM]","ISurrogate interface [COM]","described","_com_isurrogate","com.isurrogate","objidlbase/ISurrogate"]
 old-location: com\isurrogate.htm
 tech.root: com
 ms.assetid: fbed0514-3646-4744-aa7a-4a98f1a12cc0
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: ISurrogate, ISurrogate interface [COM], ISurrogate interface [COM],described, _com_isurrogate, com.isurrogate, objidlbase/ISurrogate
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,10 +54,7 @@ Used to dynamically load new DLL servers into an existing surrogate and free the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurrogate</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISurrogate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurrogate</b> also has these types of members:
 
 ## -remarks
 

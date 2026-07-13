@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ShLwApi.Lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 targetos: Windows
@@ -54,7 +54,7 @@ api_name:
 
 Retrieves a value that indicates the type of Shell32.dll that the platform contains.
 
-## -parameters
+
 
 ## -returns
 

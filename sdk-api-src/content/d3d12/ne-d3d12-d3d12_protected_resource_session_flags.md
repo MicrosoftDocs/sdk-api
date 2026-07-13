@@ -9,8 +9,8 @@ ms.keywords: D3D12_PROTECTED_RESOURCE_SESSION_FLAGS, D3D12_PROTECTED_RESOURCE_SE
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -48,7 +48,7 @@ Defines constants that specify protected resource session flags. These flags can
 
 ## -enum-fields
 
-### -field D3D12_PROTECTED_RESOURCE_SESSION_FLAG_NONE
+### -field D3D12_PROTECTED_RESOURCE_SESSION_FLAG_NONE:0
 
 Specifies no flag.
 

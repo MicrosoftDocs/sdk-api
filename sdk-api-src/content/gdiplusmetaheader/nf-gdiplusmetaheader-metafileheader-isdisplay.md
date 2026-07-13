@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::IsDisplay</b> method determines whether the associated metafile was recorded against a video display device context.
 
-## -parameters
+
 
 ## -returns
 

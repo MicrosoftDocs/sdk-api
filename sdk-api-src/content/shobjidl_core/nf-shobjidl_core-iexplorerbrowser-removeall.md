@@ -52,7 +52,7 @@ api_name:
 
 Removes all items from the results folder.
 
-## -parameters
+
 
 ## -returns
 

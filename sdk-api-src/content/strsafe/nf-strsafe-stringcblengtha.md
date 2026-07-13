@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbLengthA
 title: StringCbLengthA function (strsafe.h)
-description: Determines whether a string exceeds the specified length, in bytes.
-helpviewer_keywords: ["StringCbLength","StringCbLength function [Menus and Other Resources]","StringCbLengthA","StringCbLengthW","UnalignedStringCbLength","_shell_StringCbLength","_shell_stringcblength_cpp","menurc.stringcblength","strsafe/StringCbLength","strsafe/StringCbLengthA","strsafe/StringCbLengthW","winui._shell_stringcblength"]
+description: Determines whether a string exceeds the specified length, in bytes. (ANSI)
+helpviewer_keywords: ["StringCbLengthA", "strsafe/StringCbLengthA"]
 old-location: menurc\stringcblength.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcblength.htm
@@ -155,7 +155,7 @@ Compared to  the functions it replaces, <b>StringCbLength</b> is an additional t
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCbLength as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCbLength as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

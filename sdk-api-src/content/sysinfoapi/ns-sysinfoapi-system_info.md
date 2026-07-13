@@ -166,7 +166,7 @@ A pointer to the highest memory address accessible to applications and DLLs.
 
 ### -field dwNumberOfProcessors
 
-The number of logical processors in the current group. To retrieve this value, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
+The number of logical processors in the current group. To retrieve the current processor group, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
 
 <div class="alert"><b>Note</b>  For information about the  physical processors shared by logical processors, call <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> with the <i>RelationshipType</i> parameter set to RelationProcessorPackage (3).</div>
 <div> </div>

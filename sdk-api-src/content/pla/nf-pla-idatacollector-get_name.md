@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.get_Name
 title: IDataCollector::get_Name (pla.h)
-description: Retrieves or sets the name of the data collector.
+description: Retrieves or sets the name of the data collector. (Get)
 helpviewer_keywords: ["IDataCollector interface [PLA]","Name property","IDataCollector.Name","IDataCollector.get_Name","IDataCollector::Name","IDataCollector::get_Name","IDataCollector::put_Name","Name property [PLA]","Name property [PLA]","IDataCollector interface","base.idatacollector_name","get_Name","pla.idatacollector_name","pla/IDataCollector::Name","pla/IDataCollector::get_Name","pla/IDataCollector::put_Name"]
 old-location: pla\idatacollector_name.htm
 tech.root: PLA

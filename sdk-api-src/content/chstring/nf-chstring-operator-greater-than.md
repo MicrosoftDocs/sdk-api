@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.operator-greater-than
 title: operator>
-description: 
+description: The chstring.operator-greater-than function compares two strings. These operators are a convenient substitute for the case-sensitive Compare method.
 tech.root: wmi
 helpviewer_keywords: ["operator>"]
 ms.assetid: db9344bb-e0e8-408e-881f-17cea7fc541e
-ms.date: 05/20/2019
+ms.date: 08/10/2022
 ms.keywords: operator>
 targetos: Windows
 req.assembly: 

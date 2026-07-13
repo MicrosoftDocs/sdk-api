@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymUnloadModule
 title: SymUnloadModule function (dbghelp.h)
-description: Unloads the symbol table.
+description: Unloads the symbol table. (SymUnloadModule)
 helpviewer_keywords: ["SymUnloadModule","SymUnloadModule function","SymUnloadModule64","SymUnloadModule64 function","_win32_symunloadmodule64","base.symunloadmodule64","dbghelp/SymUnloadModule","dbghelp/SymUnloadModule64"]
 old-location: base\symunloadmodule64.htm
 tech.root: Debug
@@ -76,7 +76,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
-This function supersedes the <b>SymUnloadedModule</b> function. For more information, see 
+The <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule64">SymUnloadModule64</a> function supersedes this function. For more information, see 
 <a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymUnloadedModule</b> is defined as follows in Dbghelp.h. 
 
 

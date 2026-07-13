@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetAgentActivityListW
 title: lineGetAgentActivityListW function (tapi.h)
-description: The lineGetAgentActivityList function obtains the identities of activities that the application can select using lineSetAgentActivity to indicate what function the agent is actually performing at the moment.
-helpviewer_keywords: ["_tapi2_linegetagentactivitylist","lineGetAgentActivityList","lineGetAgentActivityList function [TAPI 2.2]","lineGetAgentActivityListA","lineGetAgentActivityListW","tapi/lineGetAgentActivityList","tapi/lineGetAgentActivityListA","tapi/lineGetAgentActivityListW","tapi2.linegetagentactivitylist"]
+description: The lineGetAgentActivityList function obtains the identities of activities that the application can select using lineSetAgentActivity to indicate what function the agent is actually performing at the moment. (Unicode)
+helpviewer_keywords: ["_tapi2_linegetagentactivitylist", "lineGetAgentActivityList", "lineGetAgentActivityList function [TAPI 2.2]", "lineGetAgentActivityListW", "tapi/lineGetAgentActivityList", "tapi/lineGetAgentActivityListW", "tapi2.linegetagentactivitylist"]
 old-location: tapi2\linegetagentactivitylist.htm
 tech.root: tapi3
 ms.assetid: 8f0be375-2891-45bd-a2cb-246ea5c4b9bb
@@ -98,4 +98,4 @@ LINEERR_INVALADDRESSID, LINEERR_OPERATIONFAILED, LINEERR_INVALAGENTID, LINEERR_O
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineGetAgentActivityList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetAgentActivityList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

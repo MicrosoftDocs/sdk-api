@@ -4,7 +4,8 @@ title: XAudio2 APIs
 ms.assetid: f4dc61e6-fea4-3675-94bd-c29e3ea2b7f0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # XAudio2 APIs

@@ -56,7 +56,7 @@ These values are returned by <a href="/windows/desktop/api/structuredquery/nf-st
 
 ## -enum-fields
 
-### -field ILK_EXPLICIT_INCLUDED
+### -field ILK_EXPLICIT_INCLUDED:0
 
 The value is included in the range. For example, an integer range of numbers that is equal to or greater than 3 and less than or equal to 6 includes both 3 and 6. So the values 3 and 6 would both be returned with <b>ILK_EXPLICIT_INCLUDED</b>.
 

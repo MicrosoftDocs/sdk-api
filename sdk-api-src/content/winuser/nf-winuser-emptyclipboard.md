@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-misc-l1-1-0.dll
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
  - minuser.dll
@@ -63,7 +66,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 
 Empties the clipboard and frees handles to data in the clipboard. The function then assigns ownership of the clipboard to the window that currently has the clipboard open.
 
-## -parameters
+
 
 ## -returns
 

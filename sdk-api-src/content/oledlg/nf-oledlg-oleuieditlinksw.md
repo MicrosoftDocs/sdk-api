@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIEditLinksW
 title: OleUIEditLinksW function (oledlg.h)
-description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects.
-helpviewer_keywords: ["OleUIEditLinks","OleUIEditLinks function [COM]","OleUIEditLinksA","OleUIEditLinksW","_ole_OleUIEditLinks","com.oleuieditlinks","oledlg/OleUIEditLinks","oledlg/OleUIEditLinksA","oledlg/OleUIEditLinksW"]
+description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects. (Unicode)
+helpviewer_keywords: ["OleUIEditLinks", "OleUIEditLinks function [COM]", "OleUIEditLinksW", "_ole_OleUIEditLinks", "com.oleuieditlinks", "oledlg/OleUIEditLinks", "oledlg/OleUIEditLinksW"]
 old-location: com\oleuieditlinks.htm
 tech.root: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
@@ -357,4 +357,4 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUIEDITLINKS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUIEDITLINKS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

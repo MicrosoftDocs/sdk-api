@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqW
 title: RpcServerUseProtseqW function (rpcdce.h)
-description: The RpcServerUseProtseq function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
-helpviewer_keywords: ["RpcServerUseProtseq","RpcServerUseProtseq function [RPC]","RpcServerUseProtseqA","RpcServerUseProtseqW","_rpc_rpcserveruseprotseq","rpc.rpcserveruseprotseq","rpcdce/RpcServerUseProtseq","rpcdce/RpcServerUseProtseqA","rpcdce/RpcServerUseProtseqW"]
+description: The RpcServerUseProtseqW (Unicode) function (rpcdce.h) tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls. 
+helpviewer_keywords: ["RpcServerUseProtseq", "RpcServerUseProtseq function [RPC]", "RpcServerUseProtseqW", "_rpc_rpcserveruseprotseq", "rpc.rpcserveruseprotseq", "rpcdce/RpcServerUseProtseq", "rpcdce/RpcServerUseProtseqW"]
 old-location: rpc\rpcserveruseprotseq.htm
 tech.root: Rpc
 ms.assetid: 9b2c9cf0-fe96-4063-a893-f2793595af57
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcServerUseProtseq, RpcServerUseProtseq function [RPC], RpcServerUseProtseqA, RpcServerUseProtseqW, _rpc_rpcserveruseprotseq, rpc.rpcserveruseprotseq, rpcdce/RpcServerUseProtseq, rpcdce/RpcServerUseProtseqA, rpcdce/RpcServerUseProtseqW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -165,7 +165,7 @@ For more information, see
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcServerUseProtseq as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcServerUseProtseq as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

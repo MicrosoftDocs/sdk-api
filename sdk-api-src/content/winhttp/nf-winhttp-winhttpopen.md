@@ -88,8 +88,8 @@ Resolves all host names directly without a proxy.
 Retrieves the static proxy or direct configuration from the registry. <b>WINHTTP_ACCESS_TYPE_DEFAULT_PROXY</b> does not inherit browser proxy settings.
 
 The WinHTTP proxy configuration is set by one of these mechanisms.<ul>
+<li>The <a href="/windows/win32/winhttp/netsh-exe-commands">Netsh.exe commands</a> on Windows Vista and Windows Server 2008 or later.</li>
 <li>The <a href="/windows/desktop/WinHttp/proxycfg-exe--a-proxy-configuration-tool">proxycfg.exe</a> utility on Windows XP and Windows Server 2003 or earlier.</li>
-<li>The <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731131(v=ws.10)#BKMK_5">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
 <li>
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration">WinHttpSetDefaultProxyConfiguration</a> on all platforms.</li>
 </ul>
@@ -154,6 +154,16 @@ Unsigned long integer value that contains the flags that indicate various option
 <td width="60%">
 Use the WinHTTP functions asynchronously. By default, all WinHTTP functions that use the returned 
 <a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle are performed synchronously. When this flag is set, the caller needs to specify a callback function through <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WINHTTP_FLAG_SECURE_DEFAULTS"></a><a id="winhttp_flag_secure_defaults"></a><dl>
+<dt><b>WINHTTP_FLAG_SECURE_DEFAULTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+When this flag is set, WinHttp will require use of TLS 1.2 or newer. If the caller attempts to enable older TLS versions by setting <b>WINHTTP_OPTION_SECURE_PROTOCOLS</b>, it will fail with <b>ERROR_ACCESS_DENIED</b>. Additionally, TLS fallback will be disabled. Note that setting this flag also sets flag <b>WINHTTP_FLAG_ASYNC</b>.
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesDirtyInfo.RemoteDirtyByteCount
 title: IOfflineFilesDirtyInfo::RemoteDirtyByteCount (cscobj.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IOfflineFilesDirtyInfo.RemoteDirtyByteCount)
 helpviewer_keywords: ["IOfflineFilesDirtyInfo interface [Offline Files]","RemoteDirtyByteCount method","IOfflineFilesDirtyInfo.RemoteDirtyByteCount","IOfflineFilesDirtyInfo::RemoteDirtyByteCount","RemoteDirtyByteCount","RemoteDirtyByteCount method [Offline Files]","RemoteDirtyByteCount method [Offline Files]","IOfflineFilesDirtyInfo interface","cscobj/IOfflineFilesDirtyInfo::RemoteDirtyByteCount","of.iofflinefilesdirtyinfo_remotedirtybytecount"]
 old-location: of\iofflinefilesdirtyinfo_remotedirtybytecount.htm
 tech.root: of

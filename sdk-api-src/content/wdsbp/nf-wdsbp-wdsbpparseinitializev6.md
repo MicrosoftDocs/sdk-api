@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsbp.WdsBpParseInitializev6
 title: WdsBpParseInitializev6 function (wdsbp.h)
-description: Receives a handle to the packet sent by the network boot program.
+description: Receives a handle to the packet sent by the network boot program. (WdsBpParseInitializev6)
 helpviewer_keywords: ["WDSBP_PK_TYPE_BCD","WDSBP_PK_TYPE_DHCP","WDSBP_PK_TYPE_DHCPV6","WDSBP_PK_TYPE_WDSNBP","WdsBpParseInitializev6","WdsBpParseInitializev6 function [Windows Deployment Services]","wds.wdsbpparseinitializev6","wdsbp/WdsBpParseInitializev6"]
 old-location: wds\wdsbpparseinitializev6.htm
 tech.root: wds

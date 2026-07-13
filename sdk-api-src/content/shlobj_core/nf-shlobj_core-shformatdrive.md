@@ -157,5 +157,9 @@ The format is controlled by the dialog box interface. That is, the user must cli
 
 This call to <b>SHFormatDrive</b> brings up the Shell's Format dialog box for a disk in drive A, with the default formatting options selected.
 
-<pre class="syntax" xml:space="preserve"><code>SHFormatDrive(hMainWnd, 0, SHFMT_ID_DEFAULT, 0);</code></pre>
+
+``` syntax
+SHFormatDrive(hMainWnd, 0, SHFMT_ID_DEFAULT, 0);
+```
+
 

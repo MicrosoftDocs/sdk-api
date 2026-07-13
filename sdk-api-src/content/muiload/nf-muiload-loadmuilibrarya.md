@@ -1,8 +1,8 @@
 ---
 UID: NF:muiload.LoadMUILibraryA
 title: LoadMUILibraryA function (muiload.h)
-description: Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file.
-helpviewer_keywords: ["LoadMUILibrary","LoadMUILibrary function [Internationalization for Windows Applications]","LoadMUILibraryA","LoadMUILibraryW","MUI_LANGUAGE_EXACT","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","_win32_LoadMUILibrary","intl.loadmuilibrary","muiload/LoadMUILibrary","muiload/LoadMUILibraryA","muiload/LoadMUILibraryW"]
+description: Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file. (ANSI)
+helpviewer_keywords: ["LoadMUILibraryA", "MUI_LANGUAGE_EXACT", "MUI_LANGUAGE_ID", "MUI_LANGUAGE_NAME", "muiload/LoadMUILibraryA"]
 old-location: intl\loadmuilibrary.htm
 tech.root: Intl
 ms.assetid: 277067d8-c38d-4e79-9c1a-4e4af1987228
@@ -168,7 +168,7 @@ The state of the language identifier in the <i>LangID</i> parameter affects reso
 
 
 > [!NOTE]
-> The muiload.h header defines LoadMUILibrary as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The muiload.h header defines LoadMUILibrary as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

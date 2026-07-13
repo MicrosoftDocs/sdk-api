@@ -59,9 +59,9 @@ Contains the version of the virtual hard disk (VHD)
 
 ## -enum-fields
 
-### -field ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
-### -field ATTACH_VIRTUAL_DISK_VERSION_1
+### -field ATTACH_VIRTUAL_DISK_VERSION_1:1
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.AddFontResourceExW
 title: AddFontResourceExW function (wingdi.h)
-description: The AddFontResourceEx function adds the font resource from the specified file to the system. Fonts added with the AddFontResourceEx function can be marked as private and not enumerable.
-helpviewer_keywords: [".fnt",".fon",".fot",".mmm",".otf",".pfb",".pfm",".ttc",".ttf","AddFontResourceEx","AddFontResourceEx function [Windows GDI]","AddFontResourceExA","AddFontResourceExW","FR_NOT_ENUM","FR_PRIVATE","_win32_AddFontResourceEx","gdi.addfontresourceex","wingdi/AddFontResourceEx","wingdi/AddFontResourceExA","wingdi/AddFontResourceExW"]
+description: The AddFontResourceEx function adds the font resource from the specified file to the system. Fonts added with the AddFontResourceEx function can be marked as private and not enumerable. (Unicode)
+helpviewer_keywords: [".fnt", ".fon", ".fot", ".mmm", ".otf", ".pfb", ".pfm", ".ttc", ".ttf", "AddFontResourceEx", "AddFontResourceEx function [Windows GDI]", "AddFontResourceExW", "FR_NOT_ENUM", "FR_PRIVATE", "_win32_AddFontResourceEx", "gdi.addfontresourceex", "wingdi/AddFontResourceEx", "wingdi/AddFontResourceExW"]
 old-location: gdi\addfontresourceex.htm
 tech.root: gdi
 ms.assetid: eaf8ebf0-1b06-4a09-a842-83540245a117
@@ -218,7 +218,7 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 > [!NOTE]
-> The wingdi.h header defines AddFontResourceEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines AddFontResourceEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

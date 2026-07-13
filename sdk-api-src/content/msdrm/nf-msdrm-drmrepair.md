@@ -61,7 +61,7 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMRepair</b> function repairs a client machine by deleting certificates previously created for the machine or user.
 
-## -parameters
+
 
 ## -returns
 

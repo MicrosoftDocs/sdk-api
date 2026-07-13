@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvDeltaNameW
 title: SymSrvDeltaNameW function (dbghelp.h)
-description: Generates the name for a file that describes the relationship between two different versions of the same symbol or image file. Using this feature prevents applications from having to regenerate such information every time they analyze two files.
+description: The SymSrvDeltaNameW (Unicode) function (dbghelp.h) generates the name for a file that describes the relationship between two versions of the same symbol/image.
 helpviewer_keywords: ["SymSrvDeltaName","SymSrvDeltaName function","SymSrvDeltaNameW","base.symsrvdeltaname","dbghelp/SymSrvDeltaName","dbghelp/SymSrvDeltaNameW"]
 old-location: base\symsrvdeltaname.htm
 tech.root: Debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
 req.header: dbghelp.h
 req.include-header: 
@@ -104,7 +104,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymSrvDeltaName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymSrvDeltaName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

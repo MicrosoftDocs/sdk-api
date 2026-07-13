@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_OwnerSID
 title: IEventSubscription::get_OwnerSID (eventsys.h)
-description: The security ID of the subscription's creator.
+description: The security ID of the subscription's creator. (Get)
 helpviewer_keywords: ["IEventSubscription interface [COM+]","OwnerSID property","IEventSubscription.OwnerSID","IEventSubscription.get_OwnerSID","IEventSubscription::OwnerSID","IEventSubscription::get_OwnerSID","IEventSubscription::put_OwnerSID","OwnerSID property [COM+]","OwnerSID property [COM+]","IEventSubscription interface","cos.ieventsubscription_ownersid","eventsys/IEventSubscription::OwnerSID","eventsys/IEventSubscription::get_OwnerSID","eventsys/IEventSubscription::put_OwnerSID","get_OwnerSID"]
 old-location: cos\ieventsubscription_ownersid.htm
 tech.root: cos

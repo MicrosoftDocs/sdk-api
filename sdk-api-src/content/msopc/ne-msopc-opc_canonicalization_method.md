@@ -56,15 +56,15 @@ Describes the canonicalization method  to be applied to XML markup.
 
 ## -enum-fields
 
-### -field OPC_CANONICALIZATION_NONE
+### -field OPC_CANONICALIZATION_NONE:0
 
 No canonicalization method is applied.
 
-### -field OPC_CANONICALIZATION_C14N
+### -field OPC_CANONICALIZATION_C14N:1
 
 The C14N canonicalization method that removes comments is applied.
 
-### -field OPC_CANONICALIZATION_C14N_WITH_COMMENTS
+### -field OPC_CANONICALIZATION_C14N_WITH_COMMENTS:2
 
 The C14N canonicalization method that preserves comments is applied.
 
@@ -77,7 +77,7 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML standard</a>
 
 
 

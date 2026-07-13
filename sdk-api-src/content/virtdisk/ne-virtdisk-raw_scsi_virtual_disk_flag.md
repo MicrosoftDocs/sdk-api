@@ -59,7 +59,7 @@ Contains flags affecting the behavior of the <a href="/windows/win32/api/virtdis
 
 ## -enum-fields
 
-### -field RAW_SCSI_VIRTUAL_DISK_FLAG_NONE
+### -field RAW_SCSI_VIRTUAL_DISK_FLAG_NONE:0X00000000
 
 No flag specified.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_markerCo
 old-location: wmp\iwmpmedia_get_markercount.htm
 tech.root: WMP
 ms.assetid: e97c8d26-fa6a-4791-a698-b742eaf980eb
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia interface [Windows Media Player],get_markerCount method, IWMPMedia.get_markerCount, IWMPMedia2 interface [Windows Media Player],get_markerCount method, IWMPMedia2::get_markerCount, IWMPMedia3 interface [Windows Media Player],get_markerCount method, IWMPMedia3::get_markerCount, IWMPMedia::get_markerCount, IWMPMediaget_markerCount, get_markerCount, get_markerCount method [Windows Media Player], get_markerCount method [Windows Media Player],IWMPMedia interface, get_markerCount method [Windows Media Player],IWMPMedia2 interface, get_markerCount method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_markercount, wmp/IWMPMedia2::get_markerCount, wmp/IWMPMedia3::get_markerCount, wmp/IWMPMedia::get_markerCount
 req.header: wmp.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_markerCount</b> method retrieves the number of markers in the media item.
 

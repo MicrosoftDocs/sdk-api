@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmFormatChooseW
 title: acmFormatChooseW function (msacm.h)
-description: The acmFormatChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio format.
-helpviewer_keywords: ["_win32_acmFormatChoose","acmFormatChoose","acmFormatChoose function [Windows Multimedia]","acmFormatChooseA","acmFormatChooseW","msacm/acmFormatChoose","msacm/acmFormatChooseA","msacm/acmFormatChooseW","multimedia.acmformatchoose"]
+description: The acmFormatChoose (Unicode) function creates an ACM-defined dialog box that enables the user to select a waveform-audio format. (acmFormatChooseW)
+helpviewer_keywords: ["_win32_acmFormatChoose", "acmFormatChoose", "acmFormatChoose function [Windows Multimedia]", "acmFormatChooseW", "msacm/acmFormatChoose", "msacm/acmFormatChooseW", "multimedia.acmformatchoose"]
 old-location: multimedia\acmformatchoose.htm
 tech.root: Multimedia
 ms.assetid: 9be8311a-f6ad-4007-a254-841ee99ff3b6
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFormatChoose, acmFormatChoose, acmFormatChoose function [Windows Multimedia], acmFormatChooseA, acmFormatChooseW, msacm/acmFormatChoose, msacm/acmFormatChooseA, msacm/acmFormatChooseW, multimedia.acmformatchoose
 req.header: msacm.h
 req.include-header: 
@@ -151,4 +151,4 @@ A suitable driver is not available to provide valid format selections.
 ## -remarks
 
 > [!NOTE]
-> The msacm.h header defines ACMFORMATCHOOSE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMFORMATCHOOSE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

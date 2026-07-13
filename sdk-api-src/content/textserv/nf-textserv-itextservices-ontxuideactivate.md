@@ -52,7 +52,7 @@ api_name:
 
 Informs the text services object that the control is no longer UI active.
 
-## -parameters
+
 
 ## -returns
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDrawChangePalette","ICDrawChangePalette macro [Windows 
 old-location: multimedia\icdrawchangepalette.htm
 tech.root: Multimedia
 ms.assetid: 4b280b51-a45f-47e5-b54c-47dc4a6ca81c
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDrawChangePalette, ICDrawChangePalette macro [Windows Multimedia], _win32_ICDrawChangePalette, multimedia.icdrawchangepalette, vfw/ICDrawChangePalette
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICDrawChangePalette macro
+
+## -syntax
+
+```cpp
+DWORD ICDrawChangePalette(
+     hic,
+     lpbiInput
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or **FALSE** otherwise.
 
 
 ## -description

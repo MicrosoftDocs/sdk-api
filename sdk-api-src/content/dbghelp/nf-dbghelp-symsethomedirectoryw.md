@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSetHomeDirectoryW
 title: SymSetHomeDirectoryW function (dbghelp.h)
-description: Sets the home directory used by Dbghelp.
+description: The SymSetHomeDirectoryW (Unicode) function (dbghelp.h) sets the home directory used by Dbghelp.
 helpviewer_keywords: ["SymSetHomeDirectory","SymSetHomeDirectory function","SymSetHomeDirectoryW","base.symsethomedirectory","dbghelp/SymSetHomeDirectory","dbghelp/SymSetHomeDirectoryW"]
 old-location: base\symsethomedirectory.htm
 tech.root: Debug
 ms.assetid: 12e65054-c4d5-44b9-8597-b841cac012f5
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSetHomeDirectory, SymSetHomeDirectory function, SymSetHomeDirectoryW, base.symsethomedirectory, dbghelp/SymSetHomeDirectory, dbghelp/SymSetHomeDirectoryW
 req.header: dbghelp.h
 req.include-header: 
@@ -86,7 +86,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymSetHomeDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymSetHomeDirectory as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

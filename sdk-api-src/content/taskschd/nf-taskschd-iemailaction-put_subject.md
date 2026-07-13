@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Subject
 title: IEmailAction::put_Subject (taskschd.h)
-description: Gets or sets the subject of the email message.
+description: Gets or sets the subject of the email message. (Put)
 helpviewer_keywords: ["IEmailAction interface [Task Scheduler]","Subject property","IEmailAction.Subject","IEmailAction.put_Subject","IEmailAction::Subject","IEmailAction::get_Subject","IEmailAction::put_Subject","Subject property [Task Scheduler]","Subject property [Task Scheduler]","IEmailAction interface","put_Subject","taskschd.iemailaction_subject","taskschd/IEmailAction::Subject","taskschd/IEmailAction::get_Subject","taskschd/IEmailAction::put_Subject"]
 old-location: taskschd\iemailaction_subject.htm
 tech.root: taskschd

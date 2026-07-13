@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_RootPath
 title: IDataCollectorSet::get_RootPath (pla.h)
-description: Retrieves or sets the base path where the subdirectories are created.
+description: Retrieves or sets the base path where the subdirectories are created. (Get)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","RootPath property","IDataCollectorSet.RootPath","IDataCollectorSet.get_RootPath","IDataCollectorSet::RootPath","IDataCollectorSet::get_RootPath","IDataCollectorSet::put_RootPath","RootPath property [PLA]","RootPath property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_rootpath","get_RootPath","pla.idatacollectorset_get_rootpath","pla/IDataCollectorSet::RootPath","pla/IDataCollectorSet::get_RootPath","pla/IDataCollectorSet::put_RootPath"]
 old-location: pla\idatacollectorset_get_rootpath.htm
 tech.root: PLA

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.LoadAcceleratorsW
 title: LoadAcceleratorsW function (winuser.h)
-description: Loads the specified accelerator table.
-helpviewer_keywords: ["LoadAccelerators","LoadAccelerators function [Menus and Other Resources]","LoadAcceleratorsA","LoadAcceleratorsW","_win32_LoadAccelerators","_win32_loadaccelerators_cpp","menurc.loadaccelerators","winui._win32_loadaccelerators","winuser/LoadAccelerators","winuser/LoadAcceleratorsA","winuser/LoadAcceleratorsW"]
+description: Loads the specified accelerator table. (Unicode)
+helpviewer_keywords: ["LoadAccelerators", "LoadAccelerators function [Menus and Other Resources]", "LoadAcceleratorsW", "_win32_LoadAccelerators", "_win32_loadaccelerators_cpp", "menurc.loadaccelerators", "winui._win32_loadaccelerators", "winuser/LoadAccelerators", "winuser/LoadAcceleratorsW"]
 old-location: menurc\loadaccelerators.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\loadaccelerators.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-keyboard-l1-3-2.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
@@ -101,7 +103,7 @@ For an example, see <a href="/windows/desktop/menurc/using-keyboard-accelerators
 
 
 > [!NOTE]
-> The winuser.h header defines LoadAccelerators as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines LoadAccelerators as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

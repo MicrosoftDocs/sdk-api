@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetTopIndex","ListView_GetTopIndex macro [Window
 old-location: controls\ListView_GetTopIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettopindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetTopIndex, ListView_GetTopIndex macro [Windows Controls], _win32_ListView_GetTopIndex, _win32_ListView_GetTopIndex_cpp, commctrl/ListView_GetTopIndex, controls.ListView_GetTopIndex, controls._win32_ListView_GetTopIndex
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetTopIndex macro
+
+## -syntax
+
+```cpp
+int ListView_GetTopIndex(
+   HWND hwndLV
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the item if successful, or zero if the list-view control is in icon or small icon view.
 
 
 ## -description

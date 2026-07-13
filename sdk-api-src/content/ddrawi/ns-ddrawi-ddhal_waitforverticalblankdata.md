@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawi._DDHAL_WAITFORVERTICALBLANKDATA
 title: DDHAL_WAITFORVERTICALBLANKDATA (ddrawi.h)
-description: The DD_WAITFORVERTICALBLANKDATA structure contains information necessary to obtain the monitor's vertical blank information.
+description: The DD_WAITFORVERTICALBLANKDATA structure contains information necessary to obtain the monitor's vertical blank information. (DDHAL_WAITFORVERTICALBLANKDATA)
 helpviewer_keywords: ["*LPDDHAL_WAITFORVERTICALBLANKDATA","DDHAL_WAITFORVERTICALBLANKDATA","DDHAL_WAITFORVERTICALBLANKDATA structure [Display Devices]","DD_WAITFORVERTICALBLANKDATA","DD_WAITFORVERTICALBLANKDATA structure [Display Devices]","ddrawint/DD_WAITFORVERTICALBLANKDATA","ddstrcts_cd09b34a-249c-4166-8624-bb638cf4bfe1.xml","display.dd_waitforverticalblankdata"]
 old-location: display\dd_waitforverticalblankdata.htm
 tech.root: display

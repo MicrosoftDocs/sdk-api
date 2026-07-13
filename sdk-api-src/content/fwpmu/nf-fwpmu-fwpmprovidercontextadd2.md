@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextAdd2
 title: FwpmProviderContextAdd2 function (fwpmu.h)
-description: Adds a new provider context to the system.
+description: Adds a new provider context to the system. (FwpmProviderContextAdd2)
 helpviewer_keywords: ["FwpmProviderContextAdd2","FwpmProviderContextAdd2 function [Filtering]","fwp.fwpmprovidercontextadd2","fwpmu/FwpmProviderContextAdd2"]
 old-location: fwp\fwpmprovidercontextadd2.htm
 tech.root: fwp
@@ -45,9 +45,6 @@ api_name:
  - FwpmProviderContextAdd2
 ---
 
-# FwpmProviderContextAdd2 function
-
-
 ## -description
 
 The <b>FwpmProviderContextAdd2</b> function adds a new provider context to the system.
@@ -63,7 +60,7 @@ Handle for an open session to the filter engine. Call  <a href="/windows/desktop
 
 ### -param providerContext [in]
 
-Type: [FWPM_PROVIDER_CONTEXT2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)*</b>
+Type: **[FWPM_PROVIDER_CONTEXT2](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)\***
 
 The provider context object to be added.
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:dde.__unnamed_struct_3
+UID: NS:dde.DDEPOKE
 title: DDEPOKE (dde.h)
 description: Contains the data, and information about the data, sent as part of a WM_DDE_POKE message.
 helpviewer_keywords: ["CF_BITMAP","CF_DIB","CF_DIF","CF_ENHMETAFILE","CF_METAFILEPICT","CF_OEMTEXT","CF_PALETTE","CF_PENDATA","CF_RIFF","CF_SYLK","CF_TEXT","CF_TIFF","CF_UNICODETEXT","CF_WAVE","DDEPOKE","DDEPOKE structure [Data Exchange]","_win32_DDEPOKE_str","_win32_ddepoke_str_cpp","dataxchg.ddepoke","dde/DDEPOKE","winui._win32_ddepoke_str"]
@@ -159,3 +159,4 @@ Contains the data. The length and type of data depend on the value of the
 
 
 <a href="/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
+

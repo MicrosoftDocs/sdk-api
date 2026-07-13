@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetNumberOfDeinterlaceModes","GetNumberOfDeinterlaceModes
 old-location: dshow\ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes.htm
 tech.root: dshow
 ms.assetid: 5d7d72f3-140c-4af4-8876-80a558575a57
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetNumberOfDeinterlaceModes, GetNumberOfDeinterlaceModes method [DirectShow], GetNumberOfDeinterlaceModes method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetNumberOfDeinterlaceModes method, IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9GetNumberOfDeinterlaceModes, dshow.ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes, vmr9/IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetNumberOfDeinterlaceModes</b> method retrieves the deinterlacing modes available to the VMR for the specified video format.
 

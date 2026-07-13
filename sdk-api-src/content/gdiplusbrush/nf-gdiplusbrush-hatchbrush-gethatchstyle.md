@@ -53,7 +53,7 @@ api_name:
 
 The <b>HatchBrush::GetHatchStyle</b> method gets the hatch style of this hatch brush.
 
-## -parameters
+
 
 ## -returns
 

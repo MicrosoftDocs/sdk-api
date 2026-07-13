@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
+ - api-ms-win-core-memory-l1-1-5.dll
  - Kernel32.dll
  - API-MS-Win-Core-memory-l1-1-1.dll
  - KernelBase.dll
@@ -79,7 +84,7 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process
 
 ### -param SecurityAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure that determines whether a returned handle can be inherited by child processes. The 
        <b>lpSecurityDescriptor</b> member of the 
        <b>SECURITY_ATTRIBUTES</b> structure specifies a 
@@ -234,7 +239,7 @@ If <b>SEC_LARGE_PAGES</b> is specified, <b>SEC_COMMIT</b> must also
 </dl>
 </td>
 <td width="60%">
-Sets all pages to be non-cachable.
+Sets all pages to be non-cacheable.
 
 Applications should not use this attribute except when 
          explicitly required for a device. Using the interlocked functions with memory that is mapped with 
@@ -442,7 +447,7 @@ File Mapping Functions
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

@@ -56,7 +56,7 @@ The <b>ADS_STATUSENUM</b> enumeration specifies the status of a search preferenc
 
 ## -enum-fields
 
-### -field ADS_STATUS_S_OK
+### -field ADS_STATUS_S_OK:0
 
 The search preference was set successfully.
 

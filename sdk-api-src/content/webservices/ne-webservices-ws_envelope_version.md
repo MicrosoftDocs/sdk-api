@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_45
+UID: NE:webservices.WS_ENVELOPE_VERSION
 title: WS_ENVELOPE_VERSION (webservices.h)
 description: The version of the specification used for the envelope structure.
 helpviewer_keywords: ["WS_ENVELOPE_VERSION","WS_ENVELOPE_VERSION enumeration [Web Services for Windows]","WS_ENVELOPE_VERSION_SOAP_1_1","WS_ENVELOPE_VERSION_SOAP_1_2","webservices/WS_ENVELOPE_VERSION","webservices/WS_ENVELOPE_VERSION_SOAP_1_1","webservices/WS_ENVELOPE_VERSION_SOAP_1_2","wsw.ws_envelope_version"]
@@ -55,13 +55,13 @@ The version of the specification used for the envelope
 
 ## -enum-fields
 
-### -field WS_ENVELOPE_VERSION_SOAP_1_1
+### -field WS_ENVELOPE_VERSION_SOAP_1_1:1
 
 The XML namespace for this version is: 'http://schemas.xmlsoap.org/soap/envelope/'.
 
-### -field WS_ENVELOPE_VERSION_SOAP_1_2
+### -field WS_ENVELOPE_VERSION_SOAP_1_2:2
 
 The XML namespace for this version is: 'http://www.w3.org/2003/05/soap-envelope'.
 
-### -field WS_ENVELOPE_VERSION_NONE
+### -field WS_ENVELOPE_VERSION_NONE:3
 

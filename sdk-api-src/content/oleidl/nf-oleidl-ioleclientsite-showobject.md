@@ -52,7 +52,7 @@ api_name:
 
 Asks a container to display its object to the user. This method ensures that the container itself is visible and not minimized.
 
-## -parameters
+
 
 ## -returns
 

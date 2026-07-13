@@ -6,7 +6,7 @@ helpviewer_keywords: ["Pager_SetBorder","Pager_SetBorder macro [Windows Controls
 old-location: controls\Pager_SetBorder.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setborder.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Pager_SetBorder, Pager_SetBorder macro [Windows Controls], _win32_Pager_SetBorder, _win32_Pager_SetBorder_cpp, commctrl/Pager_SetBorder, controls.Pager_SetBorder, controls._win32_Pager_SetBorder
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Pager_SetBorder macro
+
+## -syntax
+
+```cpp
+INT Pager_SetBorder(
+   HWND hwnd,
+   int  iBorder
+);
+```
+
+## -returns
+
+Type: **[INT](/windows/desktop/winprog/windows-data-types)**
+
+Returns an INT value that contains the previous border size, in pixels.
 
 
 ## -description

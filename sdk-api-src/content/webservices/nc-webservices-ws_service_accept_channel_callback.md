@@ -73,7 +73,7 @@ The callback may provide channel state through this parameter. This channel stat
 
 ### -param asyncContext [in, optional]
 
-Information on whether the function is getting invoked asynchornously.
+Information on whether the function is getting invoked asynchronously.
 
 ### -param error [in, optional]
 
@@ -105,7 +105,9 @@ For an example implementation on how to use this callback for associating sessio
             
 
 <div class="code"></div>
-<pre class="syntax" xml:space="preserve"><code>HRESULT CALLBACK CreateSessionCalculator (const WS_OPERATION_CONTEXT* context, void** userChannelState,
+
+``` syntax
+HRESULT CALLBACK CreateSessionCalculator (const WS_OPERATION_CONTEXT* context, void** userChannelState,
                                           const WS_ASYNC_CONTEXT* asyncContext, WS_ERROR* error)
 {
     SessionfullCalculator* calculator = new SessionfullCalculator ();
@@ -114,4 +116,6 @@ For an example implementation on how to use this callback for associating sessio
     else
         return E_OUTOFMEMORY;
     return NOERROR;
-}</code></pre>
+}
+```
+

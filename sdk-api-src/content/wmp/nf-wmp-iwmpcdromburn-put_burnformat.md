@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","put_burn
 old-location: wmp\iwmpcdromburn_put_burnformat.htm
 tech.root: WMP
 ms.assetid: 1352e2f6-cad8-4d86-b973-b7d4d8f0c448
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnFormat method, IWMPCdromBurn.put_burnFormat, IWMPCdromBurn::put_burnFormat, IWMPCdromBurnput_burnFormat, put_burnFormat, put_burnFormat method [Windows Media Player], put_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_burnformat, wmp/IWMPCdromBurn::put_burnFormat
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_burnFormat</b> method specifies the type of CD to burn.
 

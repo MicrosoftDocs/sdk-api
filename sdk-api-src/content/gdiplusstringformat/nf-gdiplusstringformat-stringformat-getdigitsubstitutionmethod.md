@@ -55,7 +55,7 @@ The <b>StringFormat::GetDigitSubstitutionMethod</b> method gets an element of th
 			<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringdigitsubstitute">StringDigitSubstitute</a> enumeration that indicates the digit substitution method that is used by this 
 			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
-## -parameters
+
 
 ## -returns
 

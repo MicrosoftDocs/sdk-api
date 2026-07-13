@@ -1,12 +1,12 @@
 ---
 UID: NF:vfw.AVIFileOpenW
 title: AVIFileOpenW function (vfw.h)
-description: The AVIFileOpen function opens an AVI file and returns the address of a file interface used to access it.
-helpviewer_keywords: ["AVIFileOpen","AVIFileOpen function [Windows Multimedia]","AVIFileOpenA","AVIFileOpenW","_win32_AVIFileOpen","multimedia.avifileopen","vfw/AVIFileOpen","vfw/AVIFileOpenA","vfw/AVIFileOpenW"]
+description: The AVIFileOpenW function (vfw.h) opens an AVI file and returns the address of a file interface used to access it.
+helpviewer_keywords: ["AVIFileOpen", "AVIFileOpen function [Windows Multimedia]", "AVIFileOpenW", "_win32_AVIFileOpen", "multimedia.avifileopen", "vfw/AVIFileOpen", "vfw/AVIFileOpenW"]
 old-location: multimedia\avifileopen.htm
 tech.root: Multimedia
 ms.assetid: a5d7b278-7c80-42a3-94a4-5c012ad9a9fd
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: AVIFileOpen, AVIFileOpen function [Windows Multimedia], AVIFileOpenA, AVIFileOpenW, _win32_AVIFileOpen, multimedia.avifileopen, vfw/AVIFileOpen, vfw/AVIFileOpenA, vfw/AVIFileOpenW
 req.header: vfw.h
 req.include-header: 
@@ -199,4 +199,4 @@ According to the registry, the type of file specified in <b>AVIFileOpen</b> does
 ## -remarks
 
 > [!NOTE]
-> The vfw.h header defines AVIFileOpen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines AVIFileOpen as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

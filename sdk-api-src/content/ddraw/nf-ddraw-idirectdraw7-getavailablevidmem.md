@@ -121,7 +121,7 @@ If the surface has the <a href="/previous-versions/windows/hardware/drivers/ff55
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetAvailableVidMem</b> method.
+
 
 ## -see-also
 

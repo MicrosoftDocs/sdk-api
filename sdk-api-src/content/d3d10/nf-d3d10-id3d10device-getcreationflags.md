@@ -53,7 +53,7 @@ api_name:
 
 Get the flags used during the call to create the device with <a href="/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice">D3D10CreateDevice</a>.
 
-## -parameters
+
 
 ## -returns
 

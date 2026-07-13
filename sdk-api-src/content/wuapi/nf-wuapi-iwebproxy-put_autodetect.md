@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWebProxy.put_AutoDetect
 title: IWebProxy::put_AutoDetect (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether IWebProxy automatically detects proxy settings.
+description: Gets and sets a Boolean value that indicates whether IWebProxy automatically detects proxy settings. (Put)
 helpviewer_keywords: ["AutoDetect property [Windows Update Agent]","AutoDetect property [Windows Update Agent]","IWebProxy interface","IWebProxy interface [Windows Update Agent]","AutoDetect property","IWebProxy.AutoDetect","IWebProxy.put_AutoDetect","IWebProxy::AutoDetect","IWebProxy::get_AutoDetect","IWebProxy::put_AutoDetect","put_AutoDetect","wua.iwebproxy_autodetect","wuapi/IWebProxy::AutoDetect","wuapi/IWebProxy::get_AutoDetect","wuapi/IWebProxy::put_AutoDetect"]
 old-location: wua\iwebproxy_autodetect.htm
 tech.root: wua

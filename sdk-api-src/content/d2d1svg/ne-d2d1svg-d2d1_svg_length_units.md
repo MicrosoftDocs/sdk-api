@@ -54,13 +54,13 @@ Specifies the units for an SVG length.
 
 ## -enum-fields
 
-### -field D2D1_SVG_LENGTH_UNITS_NUMBER
+### -field D2D1_SVG_LENGTH_UNITS_NUMBER:0
 
 The length is unitless.
 
-### -field D2D1_SVG_LENGTH_UNITS_PERCENTAGE
+### -field D2D1_SVG_LENGTH_UNITS_PERCENTAGE:1
 
 The length is a percentage value.
 
-### -field D2D1_SVG_LENGTH_UNITS_FORCE_DWORD
+### -field D2D1_SVG_LENGTH_UNITS_FORCE_DWORD:0xffffffff
 

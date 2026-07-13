@@ -54,7 +54,7 @@ Not supported.
 
 It is valid to call this function, but it is not implemented to perform any function so there is no reason to do so.
 
-## -parameters
+
 
 ## -returns
 

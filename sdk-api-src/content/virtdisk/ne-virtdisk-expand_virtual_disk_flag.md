@@ -57,7 +57,7 @@ Contains virtual hard disk (VHD) expand request flags.
 
 ## -enum-fields
 
-### -field EXPAND_VIRTUAL_DISK_FLAG_NONE
+### -field EXPAND_VIRTUAL_DISK_FLAG_NONE:0x00000000
 
 ## -see-also
 

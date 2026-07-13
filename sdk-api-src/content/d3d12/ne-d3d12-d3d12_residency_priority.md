@@ -56,23 +56,23 @@ Applications can assign priority values other than the five values present in th
 
 ## -enum-fields
 
-### -field D3D12_RESIDENCY_PRIORITY_MINIMUM
+### -field D3D12_RESIDENCY_PRIORITY_MINIMUM:0x28000000
 
 Indicates a minimum priority.
 
-### -field D3D12_RESIDENCY_PRIORITY_LOW
+### -field D3D12_RESIDENCY_PRIORITY_LOW:0x50000000
 
 Indicates a low priority.
 
-### -field D3D12_RESIDENCY_PRIORITY_NORMAL
+### -field D3D12_RESIDENCY_PRIORITY_NORMAL:0x78000000
 
 Indicates a normal, medium, priority.
 
-### -field D3D12_RESIDENCY_PRIORITY_HIGH
+### -field D3D12_RESIDENCY_PRIORITY_HIGH:0xa0010000
 
 Indicates a high priority. Applications are discouraged from using priories greater than this. For more information see <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority">ID3D12Device1::SetResidencyPriority</a>.
 
-### -field D3D12_RESIDENCY_PRIORITY_MAXIMUM
+### -field D3D12_RESIDENCY_PRIORITY_MAXIMUM:0xc8000000
 
 Indicates a maximum priority. Applications are discouraged from using priorities greater than this; <b>D3D12_RESIDENCY_PRIORITY_MAXIMUM</b> is not guaranteed to be available. For more information see <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority">ID3D12Device1::SetResidencyPriority</a>
 

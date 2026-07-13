@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeStart
 title: WsWriteEnvelopeStart function (webservices.h)
-description: Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
+description: Writes the start of the message including the current set of headers of the message and prepares to write the body elements.
 helpviewer_keywords: ["WsWriteEnvelopeStart","WsWriteEnvelopeStart function [Web Services for Windows]","webservices/WsWriteEnvelopeStart","wsw.wswriteenvelopestart"]
 old-location: wsw\wswriteenvelopestart.htm
 tech.root: wsw
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
+Writes the start of the message including the current set of headers of the message and prepares to write the body elements.
 
 This function is designed  for writing messages to destinations other than channels.  To write a message to a channel use <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>.
 

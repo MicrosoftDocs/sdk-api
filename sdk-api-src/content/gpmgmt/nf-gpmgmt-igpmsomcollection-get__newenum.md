@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMSOMCollection.get__NewEnum
 title: IGPMSOMCollection::get__NewEnum (gpmgmt.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. (IGPMSOMCollection.get__NewEnum)
 helpviewer_keywords: ["IGPMSOMCollection interface [GPMC]","get__NewEnum method","IGPMSOMCollection.get__NewEnum","IGPMSOMCollection::get__NewEnum","_win32_igpmsomcollection_get__newenum","get__NewEnum","get__NewEnum method [GPMC]","get__NewEnum method [GPMC]","IGPMSOMCollection interface","gpmc.igpmsomcollection_get__newenum","gpmgmt/IGPMSOMCollection::get__NewEnum"]
 old-location: gpmc\igpmsomcollection_get__newenum.htm
 tech.root: gpmc

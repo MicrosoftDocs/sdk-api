@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICCompressGetSize","ICCompressGetSize macro [Windows Mult
 old-location: multimedia\iccompressgetsize.htm
 tech.root: Multimedia
 ms.assetid: 6cb85b0b-4a05-44f7-af61-303a94b49847
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICCompressGetSize, ICCompressGetSize macro [Windows Multimedia], _win32_ICCompressGetSize, multimedia.iccompressgetsize, vfw/ICCompressGetSize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICCompressGetSize macro
+
+## -syntax
+
+```cpp
+DWORD ICCompressGetSize(
+     hic,
+     lpbiInput,
+     lpbiOutput
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the maximum number of bytes a single compressed frame can occupy.
 
 
 ## -description

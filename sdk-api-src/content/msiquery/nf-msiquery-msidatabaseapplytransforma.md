@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiDatabaseApplyTransformA
 title: MsiDatabaseApplyTransformA function (msiquery.h)
-description: The MsiDatabaseApplyTransform function applies a transform to a database.
-helpviewer_keywords: ["MSITRANSFORM_ERROR_ADDEXISTINGROW","MSITRANSFORM_ERROR_ADDEXISTINGTABLE","MSITRANSFORM_ERROR_CHANGECODEPAGE","MSITRANSFORM_ERROR_DELMISSINGROW","MSITRANSFORM_ERROR_DELMISSINGTABLE","MSITRANSFORM_ERROR_UPDATEMISSINGROW","MSITRANSFORM_ERROR_VIEWTRANSFORM","MsiDatabaseApplyTransform","MsiDatabaseApplyTransform function","MsiDatabaseApplyTransformA","MsiDatabaseApplyTransformW","_msi_msidatabaseapplytransform","msiquery/MsiDatabaseApplyTransform","msiquery/MsiDatabaseApplyTransformA","msiquery/MsiDatabaseApplyTransformW","setup.msidatabaseapplytransform"]
+description: The MsiDatabaseApplyTransform function applies a transform to a database. (ANSI)
+helpviewer_keywords: ["MSITRANSFORM_ERROR_ADDEXISTINGROW", "MSITRANSFORM_ERROR_ADDEXISTINGTABLE", "MSITRANSFORM_ERROR_CHANGECODEPAGE", "MSITRANSFORM_ERROR_DELMISSINGROW", "MSITRANSFORM_ERROR_DELMISSINGTABLE", "MSITRANSFORM_ERROR_UPDATEMISSINGROW", "MSITRANSFORM_ERROR_VIEWTRANSFORM", "MsiDatabaseApplyTransformA", "msiquery/MsiDatabaseApplyTransformA"]
 old-location: setup\msidatabaseapplytransform.htm
 tech.root: setup
 ms.assetid: a0222465-f778-43c1-8007-22df6a01f8bd
@@ -180,7 +180,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiDatabaseApplyTransform as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiDatabaseApplyTransform as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

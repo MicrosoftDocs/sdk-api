@@ -1,7 +1,7 @@
 ---
 UID: NS:icm.GENERIC3CHANNEL
 title: GENERIC3CHANNEL
-description: TBD
+description: TBD (GENERIC3CHANNEL)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

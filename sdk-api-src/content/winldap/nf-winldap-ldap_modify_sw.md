@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_modify_sW
 title: ldap_modify_sW function (winldap.h)
-description: The ldap_modify_s function changes an existing entry.
-helpviewer_keywords: ["_ldap_ldap_modify_s","ldap.ldap__modify__s","ldap.ldap_modify_s","ldap_modify_s","ldap_modify_s function [LDAP]","ldap_modify_sA","ldap_modify_sW","winldap/ldap_modify_s","winldap/ldap_modify_sA","winldap/ldap_modify_sW"]
+description: The ldap_modify_sW (Unicode) function (winldap.h) initiates an asynchronous operation to modify an existing entry.
+helpviewer_keywords: ["_ldap_ldap_modify_s", "ldap.ldap__modify__s", "ldap.ldap_modify_s", "ldap_modify_s", "ldap_modify_s function [LDAP]", "ldap_modify_sW", "winldap/ldap_modify_s", "winldap/ldap_modify_sW"]
 old-location: ldap\ldap_modify_s.htm
 tech.root: ldap
 ms.assetid: 26002d58-a4ac-4fd6-aa63-39210f8fc883
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_modify_s, ldap.ldap__modify__s, ldap.ldap_modify_s, ldap_modify_s, ldap_modify_s function [LDAP], ldap_modify_sA, ldap_modify_sW, winldap/ldap_modify_s, winldap/ldap_modify_sA, winldap/ldap_modify_sW
 req.header: winldap.h
 req.include-header: 
@@ -90,7 +90,7 @@ Multithreading: Calls to <b>ldap_modify_s</b> are thread-safe.
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_modify_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_modify_s as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

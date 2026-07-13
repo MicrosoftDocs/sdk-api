@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportIScsiTargetPortalsW
 title: ReportIScsiTargetPortalsW function (iscsidsc.h)
-description: ReportIscsiTargetPortals function retrieves target portal information discovered by the iSCSI initiator service.
-helpviewer_keywords: ["ReportIScsiTargetPortalsW","ReportIscsiTargetPortals","ReportIscsiTargetPortals function [iSCSI Discovery Library API]","ReportIscsiTargetPortalsA","ReportIscsiTargetPortalsW","iscsidisc.reportiscsitargetportals","iscsidsc/ReportIscsiTargetPortals","iscsidsc/ReportIscsiTargetPortalsA","iscsidsc/ReportIscsiTargetPortalsW"]
+description: ReportIscsiTargetPortals function retrieves target portal information discovered by the iSCSI initiator service. (Unicode)
+helpviewer_keywords: ["ReportIScsiTargetPortalsW", "ReportIscsiTargetPortals", "ReportIscsiTargetPortals function [iSCSI Discovery Library API]", "ReportIscsiTargetPortalsW", "iscsidisc.reportiscsitargetportals", "iscsidsc/ReportIscsiTargetPortals", "iscsidsc/ReportIscsiTargetPortalsW"]
 old-location: iscsidisc\reportiscsitargetportals.htm
 tech.root: iSCSIDisc
 ms.assetid: e52d095d-4c05-490e-bdc3-639198a93335
@@ -87,5 +87,5 @@ Returns <b>ERROR_SUCCESS</b> if the operation is successful. If the operation fa
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ReportIScsiTargetPortals as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ReportIScsiTargetPortals as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

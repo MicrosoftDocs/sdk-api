@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetToolTips","TreeView_SetToolTips macro [Window
 old-location: controls\TreeView_SetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settooltips.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetToolTips, TreeView_SetToolTips macro [Windows Controls], _win32_TreeView_SetToolTips, _win32_TreeView_SetToolTips_cpp, commctrl/TreeView_SetToolTips, controls.TreeView_SetToolTips, controls._win32_TreeView_SetToolTips
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_SetToolTips macro
+
+## -syntax
+
+```cpp
+HWND TreeView_SetToolTips(
+   HWND hwnd,
+   HWND hwndTT
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to tooltip control previously set for the tree-view control, or <b>NULL</b> if tooltips were not previously used.
 
 
 ## -description

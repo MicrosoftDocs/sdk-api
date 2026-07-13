@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field CEC_NONE
+### -field CEC_NONE:0
 
 No call event has occurred.
 

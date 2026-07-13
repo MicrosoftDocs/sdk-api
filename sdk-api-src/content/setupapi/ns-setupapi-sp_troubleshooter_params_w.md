@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_TROUBLESHOOTER_PARAMS_W
 title: SP_TROUBLESHOOTER_PARAMS_W (setupapi.h)
-description: An SP_TROUBLESHOOTER_PARAMS structure corresponds to a DIF_TROUBLESHOOTER installation request.
+description: An SP_TROUBLESHOOTER_PARAMS structure corresponds to a DIF_TROUBLESHOOTER installation request. (Unicode)
 helpviewer_keywords: ["*PSP_TROUBLESHOOTER_PARAMS_W","PSP_TROUBLESHOOTER_PARAMS","PSP_TROUBLESHOOTER_PARAMS structure pointer [Device and Driver Installation]","SP_TROUBLESHOOTER_PARAMS","SP_TROUBLESHOOTER_PARAMS structure [Device and Driver Installation]","SP_TROUBLESHOOTER_PARAMS_W","devinst.sp_troubleshooter_params","di-struct_7bddca54-bae0-4d79-82d3-3663f8066f09.xml","setupapi/PSP_TROUBLESHOOTER_PARAMS","setupapi/SP_TROUBLESHOOTER_PARAMS"]
 old-location: devinst\sp_troubleshooter_params.htm
 tech.root: devinst
@@ -79,7 +79,7 @@ An installer fills in this structure in response to a DIF_TROUBLESHOOTER request
 
 
 > [!NOTE]
-> The setupapi.h header defines SP_TROUBLESHOOTER_PARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SP_TROUBLESHOOTER_PARAMS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

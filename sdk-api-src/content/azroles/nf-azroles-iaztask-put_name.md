@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.put_Name
 title: IAzTask::put_Name (azroles.h)
-description: Sets or retrieves the name of the task.
+description: Sets or retrieves the name of the task. (Put)
 helpviewer_keywords: ["AzTask object [Security]","Name property","IAzTask interface [Security]","Name property","IAzTask.Name","IAzTask.put_Name","IAzTask::Name","IAzTask::get_Name","IAzTask::put_Name","Name property [Security]","Name property [Security]","AzTask object","Name property [Security]","IAzTask interface","azroles/IAzTask::Name","azroles/IAzTask::get_Name","azroles/IAzTask::put_Name","put_Name","security.iaztask_name"]
 old-location: security\iaztask_name.htm
 tech.root: security

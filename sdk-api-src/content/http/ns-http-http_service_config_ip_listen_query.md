@@ -73,25 +73,33 @@ An array of
 
 An IPv4 address may be expressed as a literal string of four dotted decimal numbers, each in the range 0-255, such as 192.168.197.113. IPv4 addresses are contained in <b>sockaddr_in</b> structures, declared in the Windows header file Winsock2.h as follows:
 
-<pre class="syntax" xml:space="preserve"><code>  struct sockaddr_in {
+
+``` syntax
+  struct sockaddr_in {
     short    sin_family;        /* == AF_INET */
     u_short  sin_port;          /* Transport-level port number */
     struct   in_addr sin_addr;  /* IPv4 address */
     char     sin_zero[8];
   };
-</code></pre>
+
+```
+
 The <b>SOCKADDR_IN</b> structure is exactly equivalent to <b>sockaddr_in</b> by typedef.
 
 An IPv6 address can be expressed as a literal string enclosed in square brackets that contains hex numbers separated by colons; examples are: [::1] and [3ffe:ffff:6ECB:0101]. IPv6 addresses are contained in <b>sockaddr_in6</b> structures, declared in the Windows header file WS2tcpip.h as follows:
 
-<pre class="syntax" xml:space="preserve"><code>  struct sockaddr_in6 {
+
+``` syntax
+  struct sockaddr_in6 {
     short    sin6_family;       /* == AF_INET6 */
     u_short  sin6_port;         /* Transport-level port number */
     u_long   sin6_flowinfo;     /* IPv6 flow information */
     IN6_ADDR sin6_addr;         /* IPv6 address */
     u_long   sin6_scope_id;     /* set of scope interfaces */
   };
-</code></pre>
+
+```
+
 The <b>SOCKADDR_IN6</b> structure is exactly equivalent to <b>sockaddr_in6</b> by typedef.
 
 ## -see-also

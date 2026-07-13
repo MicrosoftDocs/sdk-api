@@ -50,16 +50,15 @@ api_name:
 
 # SetInteractionConfigurationInteractionContext function
 
-
 ## -description
 
-Configures the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object to process the specified manipulations.
+Configures the [Interaction Context](../_input_intcontext/index.md) object to process the specified manipulations.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-The handle of the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+The handle of the [Interaction Context](../_input_intcontext/index.md).
 
 ### -param configurationCount [in]
 
@@ -67,12 +66,12 @@ The number of interactions being configured.
 
 ### -param configuration [in]
 
-The interactions to enable for this <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+The interactions to enable for this [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -remarks
@@ -83,16 +82,6 @@ Configuration changes are applied only to new interactions.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getinteractionconfigurationinteractioncontext">GetInteractionConfigurationInteractionContext</a>
+[GetInteractionConfigurationInteractionContext function](nf-interactioncontext-getinteractionconfigurationinteractioncontext.md)
 
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_configuration">INTERACTION_CONTEXT_CONFIGURATION</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
+[INTERACTION_CONTEXT_CONFIGURATION structure](ns-interactioncontext-interaction_context_configuration.md)

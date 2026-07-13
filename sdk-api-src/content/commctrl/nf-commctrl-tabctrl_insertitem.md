@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_InsertItem","TabCtrl_InsertItem macro [Windows Co
 old-location: controls\TabCtrl_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_insertitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_InsertItem, TabCtrl_InsertItem macro [Windows Controls], _win32_TabCtrl_InsertItem, _win32_TabCtrl_InsertItem_cpp, commctrl/TabCtrl_InsertItem, controls.TabCtrl_InsertItem, controls._win32_TabCtrl_InsertItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TabCtrl_InsertItem macro
+
+## -syntax
+
+```cpp
+int TabCtrl_InsertItem(
+         HWND     hwnd,
+         int      iItem,
+   const LPTCITEM pitem
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the new tab if successful, or -1 otherwise.
 
 
 ## -description

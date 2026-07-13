@@ -6,10 +6,10 @@ helpviewer_keywords: ["WakeAllConditionVariable","WakeAllConditionVariable funct
 old-location: base\wakeallconditionvariable.htm
 tech.root: base
 ms.assetid: 1a57562a-fbbc-4a5f-910c-7a52a8dccbe3
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: WakeAllConditionVariable, WakeAllConditionVariable function, base.wakeallconditionvariable, synchapi/WakeAllConditionVariable, winbase/WakeAllConditionVariable
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -53,7 +53,6 @@ api_name:
 
 # WakeAllConditionVariable function
 
-
 ## -description
 
 Wake all threads waiting on the specified condition variable.
@@ -66,16 +65,12 @@ A pointer to the condition variable.
 
 ## -remarks
 
-The <b>WakeAllConditionVariable</b> wakes all 
-    waiting threads while the <a href="/windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable">WakeConditionVariable</a> 
-    wakes only a single thread. Waking one thread is similar to setting an auto-reset event, while waking all threads 
-    is similar to pulsing a manual reset event but more reliable (see 
-    <a href="/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a> for details).
+The **WakeAllConditionVariable** wakes all waiting threads while the [WakeConditionVariable](nf-synchapi-wakeconditionvariable.md) wakes only a single thread. Waking one thread is similar to setting an auto-reset event, while waking all threads is similar to pulsing a manual reset event but more reliable (see [PulseEvent](../winbase/nf-winbase-pulseevent.md) for details).
 
 ## -see-also
 
-<a href="/windows/desktop/Sync/condition-variables">Condition Variables</a>
+[Condition Variables](/windows/win32/Sync/condition-variables)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-
-<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

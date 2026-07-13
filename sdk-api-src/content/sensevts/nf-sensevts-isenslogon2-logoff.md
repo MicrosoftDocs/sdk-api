@@ -1,7 +1,7 @@
 ---
 UID: NF:sensevts.ISensLogon2.Logoff
 title: ISensLogon2::Logoff (sensevts.h)
-description: The Logoff method notifies an application that a user is logged off.
+description: The Logoff method notifies an application that a user is logged off. (ISensLogon2.Logoff)
 helpviewer_keywords: ["ISensLogon2 interface [SENS]","Logoff method","ISensLogon2.Logoff","ISensLogon2::Logoff","Logoff","Logoff method [SENS]","Logoff method [SENS]","ISensLogon2 interface","_zaw_isenslogon2_logoff","sens.isenslogon2_logoff","sensevts/ISensLogon2::Logoff","syncmgr.isenslogon2_logoff"]
 old-location: sens\isenslogon2_logoff.htm
 tech.root: Sens

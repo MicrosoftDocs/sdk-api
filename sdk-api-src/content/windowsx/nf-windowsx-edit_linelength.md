@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_LineLength","Edit_LineLength macro [Windows Controls
 old-location: controls\Edit_LineLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linelength.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_LineLength, Edit_LineLength macro [Windows Controls], _win32_Edit_LineLength, _win32_Edit_LineLength_cpp, controls.Edit_LineLength, controls._win32_Edit_LineLength, windowsx/Edit_LineLength
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Edit_LineLength macro
+
+## -syntax
+
+```cpp
+int Edit_LineLength(
+   HWND hwndCtl,
+   int  line
+);
+```
+
+## -returns
+
+Type: **int**
+
+The length of the line.
 
 
 ## -description

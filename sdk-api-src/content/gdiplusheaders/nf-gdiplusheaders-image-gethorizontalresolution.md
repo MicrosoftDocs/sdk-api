@@ -53,7 +53,7 @@ api_name:
 
 The <b>Image::GetHorizontalResolution</b> method gets the horizontal resolution, in dots per inch, of this image.
 
-## -parameters
+
 
 ## -returns
 

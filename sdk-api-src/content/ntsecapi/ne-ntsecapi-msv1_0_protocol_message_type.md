@@ -62,7 +62,7 @@ The <b>MSV1_0_PROTOCOL_MESSAGE_TYPE</b> enumeration lists the types of messages 
 
 ## -enum-fields
 
-### -field MsV1_0Lm20ChallengeRequest
+### -field MsV1_0Lm20ChallengeRequest:0
 
 This dispatch routine serves as the first half of an NTLM version 2.0 protocol logon. The challenge returned by this call may be delivered to the initiating NTLM 2.0 node. When that node responds with a challenge response, a <b>MsV1_0Lm20Logon</b> message to the 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function is used to complete the logon. For more information, see 

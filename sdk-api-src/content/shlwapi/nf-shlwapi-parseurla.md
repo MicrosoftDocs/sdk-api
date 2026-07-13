@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.ParseURLA
 title: ParseURLA function (shlwapi.h)
-description: Performs rudimentary parsing of a URL.
-helpviewer_keywords: ["ParseURL","ParseURL function [Windows Shell]","ParseURLA","ParseURLW","_win32_ParseURL","shell.ParseURL","shlwapi/ParseURL","shlwapi/ParseURLA","shlwapi/ParseURLW"]
+description: Performs rudimentary parsing of a URL. (ANSI)
+helpviewer_keywords: ["ParseURLA", "shlwapi/ParseURLA"]
 old-location: shell\ParseURL.htm
 tech.root: shell
 ms.assetid: 3d42dad0-b9eb-4e40-afc8-68cb85b27504
@@ -145,4 +145,4 @@ ParseURL(C:\AUTOEXEC.BAT) returned 0x80041001
 
 
 > [!NOTE]
-> The shlwapi.h header defines ParseURL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines ParseURL as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

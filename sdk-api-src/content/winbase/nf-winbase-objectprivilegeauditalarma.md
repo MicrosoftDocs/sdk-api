@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ObjectPrivilegeAuditAlarmA
 title: ObjectPrivilegeAuditAlarmA function (winbase.h)
-description: Generates an audit message in the security event log.
+description: Generates an audit message in the security event log. (ObjectPrivilegeAuditAlarmA)
 helpviewer_keywords: ["ObjectPrivilegeAuditAlarm","ObjectPrivilegeAuditAlarm function [Security]","ObjectPrivilegeAuditAlarmA","ObjectPrivilegeAuditAlarmW","_win32_objectprivilegeauditalarm","security.objectprivilegeauditalarm","winbase/ObjectPrivilegeAuditAlarm","winbase/ObjectPrivilegeAuditAlarmA","winbase/ObjectPrivilegeAuditAlarmW"]
 old-location: security\objectprivilegeauditalarm.htm
 tech.root: security

@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.__WSAFDIsSet
 title: __WSAFDIsSet function (winsock2.h)
-description: The __WSAFDIsSet function specifies whether a socket is included in a set of socket descriptors.
+description: The __WSAFDIsSet function (winsock2.h) specifies whether a socket is included in a set of socket descriptors.  
 helpviewer_keywords: ["__WSAFDIsSet","__WSAFDIsSet function [Winsock]","winsock.wsafdisset","winsock/__WSAFDIsSet"]
 old-location: winsock\wsafdisset.htm
 tech.root: WinSock
 ms.assetid: ca420136-0b3b-45a1-85ce-83ab6ba1a70a
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: __WSAFDIsSet, __WSAFDIsSet function [Winsock], winsock.wsafdisset, winsock/__WSAFDIsSet
 req.header: winsock2.h
 req.include-header: Winsock2.h
@@ -45,41 +45,35 @@ api_name:
  - __WSAFDIsSet
 ---
 
-# __WSAFDIsSet function
-
-
 ## -description
 
-The <b>__WSAFDIsSet</b> function specifies whether a socket is included in a set of socket descriptors.
+The **__WSAFDIsSet** function returns a value indicating whether a socket is included in a set of socket descriptors.
 
 ## -parameters
 
 ### -param fd
 
-Descriptor identifying a socket.
+A file descriptor identifying a socket.
 
 ### -param unnamedParam2
 
-Pointer to an <a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
+A pointer to an [fd_set](/windows/win32/api/winsock2/ns-winsock2-fd_set) structure containing the set of socket descriptors.
+
+## -returns
+
+Returns a non-zero value if the socket specified in *fd* is a member of the set specified in *unnamedParam2*. Otherwise, the function returns 0.
 
 ## -remarks
 
-<b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
+**Windows Phone 8:** This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
-<b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
+**Windows 8.1** and **Windows Server 2012 R2**: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
+
+The **FD_ISSET** macro expands to a call of function **__WSAFDIsSet**.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
-
-
-
-<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
-
-
-
-<a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a>
-
-
-
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
+* [WSAAsyncSelect](/windows/win32/api/winsock2/nf-winsock2-wsaasyncselect)
+* [WSAEventSelect](/windows/win32/api/winsock2/nf-winsock2-wsaeventselect)
+* [fd_set](/windows/win32/api/winsock2/ns-winsock2-fd_set)
+* [select](/windows/win32/api/winsock2/nf-winsock2-select)

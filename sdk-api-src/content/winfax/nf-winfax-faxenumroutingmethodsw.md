@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxEnumRoutingMethodsW
 title: FaxEnumRoutingMethodsW function (winfax.h)
-description: The FaxEnumRoutingMethods function enumerates all fax routing methods for a specific fax device. The function returns information about each routing method to a fax client application.
-helpviewer_keywords: ["FaxEnumRoutingMethods","FaxEnumRoutingMethods function [Fax Service]","FaxEnumRoutingMethodsA","FaxEnumRoutingMethodsW","_mfax_faxenumroutingmethods","fax._mfax_faxenumroutingmethods","winfax/FaxEnumRoutingMethods","winfax/FaxEnumRoutingMethodsA","winfax/FaxEnumRoutingMethodsW"]
+description: The FaxEnumRoutingMethods function enumerates all fax routing methods for a specific fax device. The function returns information about each routing method to a fax client application. (Unicode)
+helpviewer_keywords: ["FaxEnumRoutingMethods", "FaxEnumRoutingMethods function [Fax Service]", "FaxEnumRoutingMethodsW", "_mfax_faxenumroutingmethods", "fax._mfax_faxenumroutingmethods", "winfax/FaxEnumRoutingMethods", "winfax/FaxEnumRoutingMethodsW"]
 old-location: fax\_mfax_faxenumroutingmethods.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_41gz.htm
@@ -142,7 +142,7 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 > [!NOTE]
-> The winfax.h header defines FaxEnumRoutingMethods as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxEnumRoutingMethods as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

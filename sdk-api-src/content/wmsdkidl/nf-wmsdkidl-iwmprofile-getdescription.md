@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetDescription","GetDescription method [windows Media For
 old-location: wmformat\iwmprofile_getdescription.htm
 tech.root: wmformat
 ms.assetid: fa680ddb-091b-4461-8979-9330f8d59cea
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetDescription, GetDescription method [windows Media Format], GetDescription method [windows Media Format],IWMProfile interface, GetDescription method [windows Media Format],IWMProfile2 interface, GetDescription method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetDescription method, IWMProfile.GetDescription, IWMProfile2 interface [windows Media Format],GetDescription method, IWMProfile2::GetDescription, IWMProfile3 interface [windows Media Format],GetDescription method, IWMProfile3::GetDescription, IWMProfile::GetDescription, IWMProfileGetDescription, wmformat.iwmprofile_getdescription, wmsdkidl/IWMProfile2::GetDescription, wmsdkidl/IWMProfile3::GetDescription, wmsdkidl/IWMProfile::GetDescription
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,6 +55,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetDescription</b> method retrieves the profile description. The description is a string that contains an explanation of what the profile should be used for.
 

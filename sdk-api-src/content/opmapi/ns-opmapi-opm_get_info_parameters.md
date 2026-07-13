@@ -1,12 +1,12 @@
 ---
 UID: NS:opmapi._OPM_GET_INFO_PARAMETERS
 title: OPM_GET_INFO_PARAMETERS (opmapi.h)
-description: Contains parameters for the IOPMVideoOutput::GetInformation method.
+description: OPM_GET_INFO_PARAMETERS (opmapi.h) contains parameters for the IOPMVideoOutput::GetInformation method.
 helpviewer_keywords: ["OPM_GET_INFO_PARAMETERS","OPM_GET_INFO_PARAMETERS structure [Media Foundation]","_OPM_GET_INFO_PARAMETERS","ksopmapi/OPM_GET_INFO_PARAMETERS","mf.opm_get_info_parameters"]
 old-location: mf\opm_get_info_parameters.htm
 tech.root: mf
 ms.assetid: 8959c7d1-9a78-497f-8841-d3e61e9db6a3
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: OPM_GET_INFO_PARAMETERS, OPM_GET_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_INFO_PARAMETERS, ksopmapi/OPM_GET_INFO_PARAMETERS, mf.opm_get_info_parameters
 req.header: opmapi.h
 req.include-header: Opmapi.h

@@ -52,7 +52,7 @@ api_name:
 
 Queries whether the Media Engine is currently seeking to a new playback position.
 
-## -parameters
+
 
 ## -returns
 

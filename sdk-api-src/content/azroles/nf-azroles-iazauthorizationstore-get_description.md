@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_Description
 title: IAzAuthorizationStore::get_Description (azroles.h)
-description: Sets or retrieves a comment that describes the operation.
+description: Sets or retrieves a comment that describes the operation. (Get)
 helpviewer_keywords: ["AzAuthorizationStore object [Security]","Description property","Description property [Security]","Description property [Security]","AzAuthorizationStore object","Description property [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","Description property","IAzAuthorizationStore.Description","IAzAuthorizationStore.get_Description","IAzAuthorizationStore::Description","IAzAuthorizationStore::get_Description","IAzAuthorizationStore::put_Description","azroles/IAzAuthorizationStore::Description","azroles/IAzAuthorizationStore::get_Description","azroles/IAzAuthorizationStore::put_Description","get_Description","security.azauthorizationstore_description"]
 old-location: security\azauthorizationstore_description.htm
 tech.root: security

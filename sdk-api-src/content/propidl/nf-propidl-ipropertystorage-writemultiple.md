@@ -1,12 +1,12 @@
 ---
 UID: NF:propidl.IPropertyStorage.WriteMultiple
 title: IPropertyStorage::WriteMultiple (propidl.h)
-description: Writes a specified group of properties to the current property set.
+description: The IPropertyStorage::WriteMultiple method writes a specified group of properties to the current property set.
 helpviewer_keywords: ["IPropertyStorage [Strctd Stg]","WriteMultiple","IPropertyStorage interface [Structured Storage]","WriteMultiple method","IPropertyStorage.WriteMultiple","IPropertyStorage::WriteMultiple","WriteMultiple","WriteMultiple method [Structured Storage]","WriteMultiple method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_writemultiple","propidl/IPropertyStorage::WriteMultiple","stg.ipropertystorage_writemultiple"]
 old-location: stg\ipropertystorage_writemultiple.htm
 tech.root: Stg
 ms.assetid: 480a2be3-ccb0-4135-a085-733f6ab48ccd
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IPropertyStorage [Strctd Stg],WriteMultiple, IPropertyStorage interface [Structured Storage],WriteMultiple method, IPropertyStorage.WriteMultiple, IPropertyStorage::WriteMultiple, WriteMultiple, WriteMultiple method [Structured Storage], WriteMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writemultiple, propidl/IPropertyStorage::WriteMultiple, stg.ipropertystorage_writemultiple
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h

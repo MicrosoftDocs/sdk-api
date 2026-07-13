@@ -54,8 +54,7 @@ api_name:
 
 ## -description
 
-The 
-<b>HTTP_DATA_CHUNK</b> structure represents an individual block of data either in memory, in a file, or in the HTTP Server API response-fragment cache.
+The <b>HTTP_DATA_CHUNK</b> structure represents an individual block of data either in memory, in a file, or in the HTTP Server API response-fragment cache.
 
 ## -struct-fields
 
@@ -108,6 +107,16 @@ the <a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFr
 
 <div class="alert"><b>Note</b>  This string must be NULL terminated.</div>
 <div> </div>
+
+### -field Trailers
+
+### -field Trailers.TrailerCount
+
+Count of the number of <a href="/windows/desktop/api/http/ns-http-http_unknown_header">HTTP_UNKNOWN_HEADER</a> structures in the array pointed to by <b>pTrailers</b>.
+
+### -field Trailers.pTrailers
+
+Pointer to an array of <a href="/windows/desktop/api/http/ns-http-http_unknown_header">HTTP_UNKNOWN_HEADER</a> structures containing the trailers.
 
 ## -see-also
 

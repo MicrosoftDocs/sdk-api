@@ -54,15 +54,15 @@ Specifies the likelihood that the Media Engine can play a specified type of medi
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED
+### -field MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED:0
 
 The Media Engine cannot play the resource.
 
-### -field MF_MEDIA_ENGINE_CANPLAY_MAYBE
+### -field MF_MEDIA_ENGINE_CANPLAY_MAYBE:1
 
 The Media Engine might be able to play the resource.
 
-### -field MF_MEDIA_ENGINE_CANPLAY_PROBABLY
+### -field MF_MEDIA_ENGINE_CANPLAY_PROBABLY:2
 
 The Media Engine can probably play the resource.
 

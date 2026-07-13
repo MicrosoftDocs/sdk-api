@@ -55,10 +55,7 @@ This interface enables a single method that enumerates graphics adapters based o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory6</b> interface inherits from <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>. <b>IDXGIFactory6</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIFactory6</b> interface inherits from <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>. <b>IDXGIFactory6</b> also has these types of members:
 
 ## -see-also
 

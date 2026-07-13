@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetBkColor","TreeView_GetBkColor macro [Windows 
 old-location: controls\TreeView_GetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getbkcolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetBkColor, TreeView_GetBkColor macro [Windows Controls], _win32_TreeView_GetBkColor, _win32_TreeView_GetBkColor_cpp, commctrl/TreeView_GetBkColor, controls.TreeView_GetBkColor, controls._win32_TreeView_GetBkColor
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,19 @@ api_name:
 
 # TreeView_GetBkColor macro
 
+## -syntax
+
+```cpp
+COLORREF TreeView_GetBkColor(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+<p>Returns a <b>COLORREF</b> value that represents the current background color. If this value is -1, the control is using the system color for the background color.
 
 ## -description
 

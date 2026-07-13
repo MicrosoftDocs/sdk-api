@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-ole32-l1-1-0.dll
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - ComBase.dll
@@ -96,11 +99,15 @@ This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY,
 
 
 
-<pre class="syntax" xml:space="preserve"><code>    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
-    pss-&gt;QueryBlanket(pAuthnSvc, pAuthzSvc, pServerPrincName, 
+
+``` syntax
+    CoGetCallContext(IID_IServerSecurity, (void**)&pss);
+    pss->QueryBlanket(pAuthnSvc, pAuthzSvc, pServerPrincName, 
                 pAuthnLevel, pImpLevel, pPrivs, pCapabilities);
-    pss-&gt;Release();
-</code></pre>
+    pss->Release();
+
+```
+
 This sequence calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a> to get a pointer to <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> and, with the resulting pointer, calls <a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-queryblanket">IServerSecurity::QueryBlanket</a> and then releases the pointer.
 
 ## -see-also

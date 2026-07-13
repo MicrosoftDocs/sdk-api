@@ -60,4 +60,4 @@ api_name:
 
 The <b>EndRead</b> method provides thread safety by indicating the end of a data read operation when the provider is built on the WMI Provider Framework.  <a href="/windows/desktop/api/thrdbase/nl-thrdbase-cthreadbase">CThreadBase</a> is called internally.
 
-## -parameters
+

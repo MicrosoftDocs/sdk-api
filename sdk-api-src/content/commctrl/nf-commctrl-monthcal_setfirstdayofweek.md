@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_SetFirstDayOfWeek","MonthCal_SetFirstDayOfWeek m
 old-location: controls\MonthCal_SetFirstDayOfWeek.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setfirstdayofweek.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_SetFirstDayOfWeek, MonthCal_SetFirstDayOfWeek macro [Windows Controls], _win32_MonthCal_SetFirstDayOfWeek, _win32_MonthCal_SetFirstDayOfWeek_cpp, commctrl/MonthCal_SetFirstDayOfWeek, controls.MonthCal_SetFirstDayOfWeek, controls._win32_MonthCal_SetFirstDayOfWeek
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_SetFirstDayOfWeek macro
+
+## -syntax
+
+```cpp
+DWORD MonthCal_SetFirstDayOfWeek(
+   HWND hmc,
+   INT  iDay
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a <b>DWORD</b> value that contains two values. The high word is a <b>BOOL</b> value that is nonzero if the previous first day of the week did not equal LOCALE_IFIRSTDAYOFWEEK, or zero otherwise. The low word is an INT value that represents the previous first day of the week.
 
 
 ## -description

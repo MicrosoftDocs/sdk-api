@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_FindItemData","ListBox_FindItemData macro [Window
 old-location: controls\ListBox_FindItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_finditemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_FindItemData, ListBox_FindItemData macro [Windows Controls], _win32_ListBox_FindItemData, _win32_ListBox_FindItemData_cpp, controls.ListBox_FindItemData, controls._win32_ListBox_FindItemData, windowsx/ListBox_FindItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListBox_FindItemData macro
+
+## -syntax
+
+```cpp
+int ListBox_FindItemData(
+   HWND   hwndCtl,
+   int    indexStart,
+   LPARAM data
+);
+```
+
+## -returns
+
+Type: **int**
+
+The index of the matching item, or LB_ERR if the search was unsuccessful.
 
 
 ## -description

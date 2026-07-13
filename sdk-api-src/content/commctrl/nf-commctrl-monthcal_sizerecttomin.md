@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_SizeRectToMin","MonthCal_SizeRectToMin macro [Wi
 old-location: controls\MonthCal_SizeRectToMin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_sizerecttomin.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_SizeRectToMin, MonthCal_SizeRectToMin macro [Windows Controls], _shell_MonthCal_SizeRectToMin, _shell_MonthCal_SizeRectToMin_cpp, commctrl/MonthCal_SizeRectToMin, controls.MonthCal_SizeRectToMin, controls._shell_MonthCal_SizeRectToMin
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_SizeRectToMin macro
+
+## -syntax
+
+```cpp
+LRESULT MonthCal_SizeRectToMin(
+            HWND hmc,
+  [in, out] RECT prc
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Unused.
 
 
 ## -description

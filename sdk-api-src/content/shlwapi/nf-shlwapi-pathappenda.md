@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathAppendA
 title: PathAppendA function (shlwapi.h)
-description: Appends one path to the end of another.
-helpviewer_keywords: ["PathAppend","PathAppend function [Windows Shell]","PathAppendA","PathAppendW","_win32_PathAppend","shell.PathAppend","shlwapi/PathAppend","shlwapi/PathAppendA","shlwapi/PathAppendW"]
+description: Appends one path to the end of another. (ANSI)
+helpviewer_keywords: ["PathAppendA", "shlwapi/PathAppendA"]
 old-location: shell\PathAppend.htm
 tech.root: shell
 ms.assetid: 896737ef-a05c-4f0f-b8b0-56355ae9c2d9
@@ -131,4 +131,4 @@ The appended path string is    name_1\name_2\name_3
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathAppend as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathAppend as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

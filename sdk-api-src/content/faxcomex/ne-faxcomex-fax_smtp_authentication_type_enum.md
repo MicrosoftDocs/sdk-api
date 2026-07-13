@@ -54,7 +54,7 @@ The <b>FAX_SMTP_AUTHENTICATION_TYPE_ENUM</b> enumeration defines the configurati
 
 ## -enum-fields
 
-### -field fsatANONYMOUS
+### -field fsatANONYMOUS:0
 
 The server sends fax transmission receipts using a nonauthenticated SMTP protocol.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.CreateBoundaryDescriptorA
 title: CreateBoundaryDescriptorA function (winbase.h)
-description: Creates a boundary descriptor.
+description: The CreateBoundaryDescriptorA (ANSI) function (winbase.h) creates a boundary descriptor.
 helpviewer_keywords: ["CreateBoundaryDescriptor","CreateBoundaryDescriptor function","CreateBoundaryDescriptorA","CreateBoundaryDescriptorW","base.createboundarydescriptor","winbase/CreateBoundaryDescriptor","winbase/CreateBoundaryDescriptorA","winbase/CreateBoundaryDescriptorW"]
 old-location: base\createboundarydescriptor.htm
 tech.root: backup
 ms.assetid: c7789e90-8dfb-47ee-a0b2-906520982d84
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CreateBoundaryDescriptor, CreateBoundaryDescriptor function, CreateBoundaryDescriptorA, CreateBoundaryDescriptorW, base.createboundarydescriptor, winbase/CreateBoundaryDescriptor, winbase/CreateBoundaryDescriptorA, winbase/CreateBoundaryDescriptorW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -67,7 +67,11 @@ The name of the boundary descriptor.
 
 ### -param Flags [in]
 
-This parameter is reserved for future use.
+A combination of the following flags that are combined by using a bitwise **OR** operation.
+
+| Flag                                                            | Description |
+| --------------------------------------------------------------- | ----------- |
+| **CREATE_BOUNDARY_DESCRIPTOR_ADD_APPCONTAINER_SID** (0x01)<br>**Note:** This value is not supported prior to Windows 8.     | Required for creating a boundary descriptor in an appcontainer process, regardless of producer or consumer.       |
 
 ## -returns
 

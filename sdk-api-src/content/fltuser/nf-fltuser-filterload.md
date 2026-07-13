@@ -70,7 +70,7 @@ Pointer to a null-terminated wide-character string that specifies the service na
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32 (ERROR_ALREADY_EXISTS)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32 (ERROR_ALREADY_EXISTS)</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -81,7 +81,7 @@ The minifilter driver is already running.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32 (ERROR_FILE_NOT_FOUND)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32 (ERROR_FILE_NOT_FOUND)</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -92,7 +92,7 @@ No matching minifilter driver was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32 (ERROR_SERVICE_ALREADY_RUNNING)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32 (ERROR_SERVICE_ALREADY_RUNNING)</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -103,7 +103,7 @@ The minifilter driver is already running.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32 (ERROR_BAD_EXE_FORMAT)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32 (ERROR_BAD_EXE_FORMAT)</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +114,7 @@ The load image for the minifilter driver specified by <i>lpFilterName</i> is inv
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32 (ERROR_BAD_DRIVER)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32 (ERROR_BAD_DRIVER)</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +125,7 @@ The load image for the minifilter driver specified by <i>lpFilterName</i> is inv
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32 (ERROR_INVALID_IMAGE_HASH)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32 (ERROR_INVALID_IMAGE_HASH)</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -178,7 +178,9 @@ If the <i>SecuritySettings</i> parameter is set to <b>NULL</b>, and there is no 
 
 The default IPsec policy has been designed so that IPsec security can be negotiated in as many scenarios as possible.
 
-<pre class="syntax" xml:space="preserve"><code>Authip MM policy = 
+
+``` syntax
+Authip MM policy = 
 {
  Auth methods = {IKE_ANONYMOUS}
  No impersonation
@@ -247,13 +249,11 @@ Authip QM policy =
    No impersonation
  } 
 }
-</code></pre>
+
+```
+
 
 ## -see-also
-
-<a href="https://www.microsoft.com/technet/community/columns/cableguy/cg0806.mspx">AuthIP in Windows Vista</a>
-
-
 
 <a href="/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
 

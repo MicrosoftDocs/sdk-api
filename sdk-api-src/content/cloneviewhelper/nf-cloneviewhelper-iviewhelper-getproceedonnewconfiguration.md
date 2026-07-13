@@ -52,7 +52,7 @@ api_name:
 
 The <b>GetProceedOnNewConfiguration</b> method allows the user-mode display driver to suppress the TMM user interface and display changing actions on a new, two-monitor configuration. This is only the case when a user presses a keyboard shortcut to switch views (such as, FN key combinations like FN, F5) and causes a Hot Plug Detection (HPD) event to occur.
 
-## -parameters
+
 
 ## -returns
 

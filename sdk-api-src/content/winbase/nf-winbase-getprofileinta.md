@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetProfileIntA
 title: GetProfileIntA function (winbase.h)
-description: Retrieves an integer from a key in the specified section of the Win.ini file.
-helpviewer_keywords: ["GetProfileInt","GetProfileInt function","GetProfileIntA","GetProfileIntW","_win32_getprofileint","base.getprofileint","winbase/GetProfileInt","winbase/GetProfileIntA","winbase/GetProfileIntW"]
+description: Retrieves an integer from a key in the specified section of the Win.ini file. (ANSI)
+helpviewer_keywords: ["GetProfileIntA", "winbase/GetProfileIntA"]
 old-location: base\getprofileint.htm
 tech.root: winprog
 ms.assetid: 1da809c7-6c15-4d91-93fe-8e9e71f6c5ad
@@ -115,7 +115,7 @@ When looking at values in the registry that specify other registry locations, th
 
 
 > [!NOTE]
-> The winbase.h header defines GetProfileInt as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetProfileInt as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -69,7 +69,7 @@ An array of variables of type <a href="/windows/desktop/api/inaddr/ns-inaddr-in_
 
 ## -remarks
 
-The <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getunidirectionaladapterinfo">GetUnidirectionalAdapterInfo</a>function. A unidirectional adapter is an adapter that can receive
+The <b>IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</b> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getunidirectionaladapterinfo">GetUnidirectionalAdapterInfo</a> function. A unidirectional adapter is an adapter that can receive
     IPv4 datagrams, but can't transmit them.
 
 ## -see-also

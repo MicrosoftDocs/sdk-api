@@ -6,7 +6,7 @@ helpviewer_keywords: ["PSWIZB_BACK","PSWIZB_CANCEL","PSWIZB_FINISH","PSWIZB_NEXT
 old-location: controls\PropSheet_SetButtonText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setbuttontext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetButtonText, PropSheet_SetButtonText macro [Windows Controls], _win32_PropSheet_SetButtonText, _win32_PropSheet_SetButtonText_cpp, controls.PropSheet_SetButtonText, controls._win32_PropSheet_SetButtonText, prsht/PropSheet_SetButtonText
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # PropSheet_SetButtonText macro
+
+## -syntax
+
+```cpp
+VOID PropSheet_SetButtonText(
+   HWND    hDlg,
+   DWORD   dwButton,
+   LPCTSTR lpszText
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

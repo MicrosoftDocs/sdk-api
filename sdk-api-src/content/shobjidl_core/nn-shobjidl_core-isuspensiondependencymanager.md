@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ISuspensionDependencyManager
 title: ISuspensionDependencyManager (shobjidl_core.h)
-description: .
+description: . (ISuspensionDependencyManager)
 helpviewer_keywords: ["ISuspensionDependencyManager","ISuspensionDependencyManager interface [Windows Shell]","ISuspensionDependencyManager interface [Windows Shell]","described","shell.ISuspensionDependencyManager","shobjidl_core/ISuspensionDependencyManager"]
 old-location: shell\ISuspensionDependencyManager.htm
 tech.root: shell
@@ -54,8 +54,5 @@ Exposes methods to manage dependencies in process suspension scenarios. This int
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISuspensionDependencyManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISuspensionDependencyManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISuspensionDependencyManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISuspensionDependencyManager</b> also has these types of members:
 

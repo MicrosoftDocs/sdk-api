@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICDdsDecoder.GetParameters
 title: IWICDdsDecoder::GetParameters (wincodec.h)
-description: Gets DDS-specific data.
+description: Gets DDS-specific data. (IWICDdsDecoder.GetParameters)
 helpviewer_keywords: ["GetParameters","GetParameters method [Windows Imaging Component]","GetParameters method [Windows Imaging Component]","IWICDdsDecoder interface","IWICDdsDecoder interface [Windows Imaging Component]","GetParameters method","IWICDdsDecoder.GetParameters","IWICDdsDecoder::GetParameters","wic.iwicddsdecoder_getparameters","wincodec/IWICDdsDecoder::GetParameters"]
 old-location: wic\iwicddsdecoder_getparameters.htm
 tech.root: wic
@@ -64,7 +64,7 @@ A pointer to the structure where the information is returned.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

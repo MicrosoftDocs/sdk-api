@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetLineMetrics","GetLineMetrics method [Direct Write]","G
 old-location: directwrite\idwritetextlayout3_getlinemetrics.htm
 tech.root: DirectWrite
 ms.assetid: 352ca3e3-7b08-823c-0881-0b051d4ce574
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetLineMetrics, GetLineMetrics method [Direct Write], GetLineMetrics method [Direct Write],IDWriteTextLayout3 interface, IDWriteTextLayout3 interface [Direct Write],GetLineMetrics method, IDWriteTextLayout3.GetLineMetrics, IDWriteTextLayout3::GetLineMetrics, directwrite.idwritetextlayout3_getlinemetrics, dwrite_3/IDWriteTextLayout3::GetLineMetrics
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -69,7 +69,7 @@ The actual size of the lineMetrics
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -80,5 +80,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextlayout3">IDWriteTextLayout3</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextlayout3">IDWriteTextLayout3</a>
 

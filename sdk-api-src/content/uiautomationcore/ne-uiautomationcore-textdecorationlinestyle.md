@@ -54,79 +54,79 @@ Contains values that specify the OverlineStyle, StrikethroughStyle, and Underlin
 
 ## -enum-fields
 
-### -field TextDecorationLineStyle_None
+### -field TextDecorationLineStyle_None:0
 
 No line style.
 
-### -field TextDecorationLineStyle_Single
+### -field TextDecorationLineStyle_Single:1
 
 A single solid line.
 
-### -field TextDecorationLineStyle_WordsOnly
+### -field TextDecorationLineStyle_WordsOnly:2
 
 Only words (not spaces) are underlined.
 
-### -field TextDecorationLineStyle_Double
+### -field TextDecorationLineStyle_Double:3
 
 A double line.
 
-### -field TextDecorationLineStyle_Dot
+### -field TextDecorationLineStyle_Dot:4
 
 A dotted line.
 
-### -field TextDecorationLineStyle_Dash
+### -field TextDecorationLineStyle_Dash:5
 
 A dashed line.
 
-### -field TextDecorationLineStyle_DashDot
+### -field TextDecorationLineStyle_DashDot:6
 
 Alternating dashes and dots.
 
-### -field TextDecorationLineStyle_DashDotDot
+### -field TextDecorationLineStyle_DashDotDot:7
 
 A dash followed by two dots.
 
-### -field TextDecorationLineStyle_Wavy
+### -field TextDecorationLineStyle_Wavy:8
 
 A wavy line.
 
-### -field TextDecorationLineStyle_ThickSingle
+### -field TextDecorationLineStyle_ThickSingle:9
 
 A thick single line.
 
-### -field TextDecorationLineStyle_DoubleWavy
+### -field TextDecorationLineStyle_DoubleWavy:11
 
 A double wavy line.
 
-### -field TextDecorationLineStyle_ThickWavy
+### -field TextDecorationLineStyle_ThickWavy:12
 
 A thick wavy line.
 
-### -field TextDecorationLineStyle_LongDash
+### -field TextDecorationLineStyle_LongDash:13
 
 Long dashes.
 
-### -field TextDecorationLineStyle_ThickDash
+### -field TextDecorationLineStyle_ThickDash:14
 
 A thick dashed line.
 
-### -field TextDecorationLineStyle_ThickDashDot
+### -field TextDecorationLineStyle_ThickDashDot:15
 
 Thick dashes alternating with thick dots.
 
-### -field TextDecorationLineStyle_ThickDashDotDot
+### -field TextDecorationLineStyle_ThickDashDotDot:16
 
 A thick dash followed by two thick dots.
 
-### -field TextDecorationLineStyle_ThickDot
+### -field TextDecorationLineStyle_ThickDot:17
 
 A thick dotted line.
 
-### -field TextDecorationLineStyle_ThickLongDash
+### -field TextDecorationLineStyle_ThickLongDash:18
 
 Thick long dashes.
 
-### -field TextDecorationLineStyle_Other
+### -field TextDecorationLineStyle_Other:-1
 
 A line style not represented by another value.
 

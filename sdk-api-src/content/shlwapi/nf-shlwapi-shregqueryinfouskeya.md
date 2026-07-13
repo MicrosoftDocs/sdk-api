@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegQueryInfoUSKeyA
 title: SHRegQueryInfoUSKeyA function (shlwapi.h)
-description: Retrieves information about a specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHRegQueryInfoUSKey","SHRegQueryInfoUSKey function [Windows Shell]","SHRegQueryInfoUSKeyA","SHRegQueryInfoUSKeyW","_win32_SHRegQueryInfoUSKey","shell.SHRegQueryInfoUSKey","shlwapi/SHRegQueryInfoUSKey","shlwapi/SHRegQueryInfoUSKeyA","shlwapi/SHRegQueryInfoUSKeyW"]
+description: Retrieves information about a specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
+helpviewer_keywords: ["SHRegQueryInfoUSKeyA", "shlwapi/SHRegQueryInfoUSKeyA"]
 old-location: shell\SHRegQueryInfoUSKey.htm
 tech.root: shell
 ms.assetid: e47b4fad-50c7-43d7-82f2-6a835ac543f0
@@ -107,4 +107,4 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegQueryInfoUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegQueryInfoUSKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

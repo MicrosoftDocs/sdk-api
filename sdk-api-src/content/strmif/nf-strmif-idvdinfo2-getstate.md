@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method
 old-location: dshow\idvdinfo2_getstate.htm
 tech.root: dshow
 ms.assetid: 403add2b-3dfd-436d-8184-7a14f30f6ea3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetState method, IDvdInfo2.GetState, IDvdInfo2::GetState, IDvdInfo2GetState, dshow.idvdinfo2_getstate, strmif/IDvdInfo2::GetState
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetState</code> method retrieves a bookmark containing the disc location and DVD Navigator state information.
 

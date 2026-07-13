@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -60,7 +62,7 @@ api_name:
 Returns the <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> for the user default locale.
 <div class="alert"><b>Caution</b>  If the user default locale is a custom locale, an application cannot accurately tag data with the value or exchange it. In this case, the application should use  <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a> in preference to <b>GetUserDefaultLCID</b>.</div><div> </div><div class="alert"><b>Note</b>  Applications that are intended to run only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a>.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

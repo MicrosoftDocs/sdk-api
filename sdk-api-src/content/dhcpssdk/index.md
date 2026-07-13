@@ -4,7 +4,8 @@ title: Dhcpssdk.h header
 ms.assetid: 9323c364-117e-30e2-b820-54802b5fa17c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: dhcp
 f1_keywords:
  - dhcpssdk

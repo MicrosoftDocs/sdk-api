@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionReport.get_ReportTypes
 title: IFsrmActionReport::get_ReportTypes (fsrm.h)
-description: Retrieves or sets the types of reports to generate.
+description: Retrieves or sets the types of reports to generate. (Get)
 helpviewer_keywords: ["IFsrmActionReport interface [File Server Resource Manager]","ReportTypes property","IFsrmActionReport.ReportTypes","IFsrmActionReport.get_ReportTypes","IFsrmActionReport::ReportTypes","IFsrmActionReport::get_ReportTypes","IFsrmActionReport::put_ReportTypes","ReportTypes property [File Server Resource Manager]","ReportTypes property [File Server Resource Manager]","IFsrmActionReport interface","fs.ifsrmactionreport_reporttypes","fsrm.ifsrmactionreport_reporttypes","fsrm/IFsrmActionReport::ReportTypes","fsrm/IFsrmActionReport::get_ReportTypes","fsrm/IFsrmActionReport::put_ReportTypes","get_ReportTypes"]
 old-location: fsrm\ifsrmactionreport_reporttypes.htm
 tech.root: fsrm

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.RegisterWindowMessageW
 title: RegisterWindowMessageW function (winuser.h)
-description: Defines a new window message that is guaranteed to be unique throughout the system. The message value can be used when sending or posting messages.
-helpviewer_keywords: ["RegisterWindowMessage","RegisterWindowMessage function [Windows and Messages]","RegisterWindowMessageA","RegisterWindowMessageW","_win32_RegisterWindowMessage","_win32_registerwindowmessage_cpp","winmsg.registerwindowmessage","winui._win32_registerwindowmessage","winuser/RegisterWindowMessage","winuser/RegisterWindowMessageA","winuser/RegisterWindowMessageW"]
+description: Defines a new window message that is guaranteed to be unique throughout the system. The message value can be used when sending or posting messages. (Unicode)
+helpviewer_keywords: ["RegisterWindowMessage", "RegisterWindowMessage function [Windows and Messages]", "RegisterWindowMessageW", "_win32_RegisterWindowMessage", "_win32_registerwindowmessage_cpp", "winmsg.registerwindowmessage", "winui._win32_registerwindowmessage", "winuser/RegisterWindowMessage", "winuser/RegisterWindowMessageW"]
 old-location: winmsg\registerwindowmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\registerwindowmessage.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-message-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-message-l1-1-0.dll
  - ie_shims.dll
@@ -99,7 +101,7 @@ For an example, see <a href="/windows/desktop/dlgbox/using-common-dialog-boxes">
 
 
 > [!NOTE]
-> The winuser.h header defines RegisterWindowMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines RegisterWindowMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

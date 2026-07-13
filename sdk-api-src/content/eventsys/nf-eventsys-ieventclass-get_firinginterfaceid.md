@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass.get_FiringInterfaceID
 title: IEventClass::get_FiringInterfaceID (eventsys.h)
-description: The ID of the event interface on the event class object. This property is supported only for backward compatibility.
+description: The ID of the event interface on the event class object. This property is supported only for backward compatibility. (Get)
 helpviewer_keywords: ["FiringInterfaceID property [COM+]","FiringInterfaceID property [COM+]","IEventClass interface","IEventClass interface [COM+]","FiringInterfaceID property","IEventClass.FiringInterfaceID","IEventClass.get_FiringInterfaceID","IEventClass::FiringInterfaceID","IEventClass::get_FiringInterfaceID","IEventClass::put_FiringInterfaceID","cos.ieventclass_firinginterfaceid","eventsys/IEventClass::FiringInterfaceID","eventsys/IEventClass::get_FiringInterfaceID","eventsys/IEventClass::put_FiringInterfaceID","get_FiringInterfaceID"]
 old-location: cos\ieventclass_firinginterfaceid.htm
 tech.root: cos

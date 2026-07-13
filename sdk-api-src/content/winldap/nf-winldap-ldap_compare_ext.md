@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_compare_ext
 title: ldap_compare_ext function (winldap.h)
-description: Use the ldap_compare_ext function to determine if an attribute, for a given entry, holds a known value.
+description: The ldap_compare_ext function (winldap.h) determines if an attribute, for a given entry, holds a known value.  
 helpviewer_keywords: ["_ldap_ldap_compare_ext","ldap.ldap__compare__ext","ldap.ldap_compare_ext","ldap_compare_ext","ldap_compare_ext function [LDAP]","ldap_compare_extA","ldap_compare_extW","winldap/ldap_compare_ext","winldap/ldap_compare_extA","winldap/ldap_compare_extW"]
 old-location: ldap\ldap_compare_ext.htm
 tech.root: ldap
 ms.assetid: 07e96a95-439b-4bb1-a9ca-d76d181e8bea
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_ldap_compare_ext, ldap.ldap__compare__ext, ldap.ldap_compare_ext, ldap_compare_ext, ldap_compare_ext function [LDAP], ldap_compare_extA, ldap_compare_extW, winldap/ldap_compare_ext, winldap/ldap_compare_extA, winldap/ldap_compare_extW
 req.header: winldap.h
 req.include-header: 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_GetLBTextLen","ComboBox_GetLBTextLen macro [Wind
 old-location: controls\ComboBox_GetLBTextLen.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getlbtextlen.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_GetLBTextLen, ComboBox_GetLBTextLen macro [Windows Controls], _win32_ComboBox_GetLBTextLen, _win32_ComboBox_GetLBTextLen_cpp, controls.ComboBox_GetLBTextLen, controls._win32_ComboBox_GetLBTextLen, windowsx/ComboBox_GetLBTextLen
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_GetLBTextLen macro
+
+## -syntax
+
+```cpp
+int ComboBox_GetLBTextLen(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+The count of characters in the string.
 
 
 ## -description

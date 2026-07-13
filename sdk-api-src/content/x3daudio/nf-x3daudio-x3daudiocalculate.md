@@ -38,10 +38,12 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - LibDef
+ - DllExport
 api_location:
  - xaudio2.lib
  - xaudio2.dll
+ - xaudio2_8.dll
+ - xaudio2_9.dll
 api_name:
  - X3DAudioCalculate
 ---

@@ -58,7 +58,7 @@ The <b>WLAN_CONNECTION_MODE</b> enumerated type defines the mode of connection.<
 
 ## -enum-fields
 
-### -field wlan_connection_mode_profile
+### -field wlan_connection_mode_profile:0
 
 A profile will be used to make the connection.
 

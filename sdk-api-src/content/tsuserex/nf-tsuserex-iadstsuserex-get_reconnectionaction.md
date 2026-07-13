@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_ReconnectionAction
 title: IADsTSUserEx::get_ReconnectionAction (tsuserex.h)
-description: A value that specifies if reconnection to a disconnected Remote Desktop Services session is allowed.
+description: A value that specifies if reconnection to a disconnected Remote Desktop Services session is allowed. (Get)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","ReconnectionAction property","IADsTSUserEx.ReconnectionAction","IADsTSUserEx.get_ReconnectionAction","IADsTSUserEx::ReconnectionAction","IADsTSUserEx::get_ReconnectionAction","IADsTSUserEx::put_ReconnectionAction","ReconnectionAction property [Remote Desktop Services]","ReconnectionAction property [Remote Desktop Services]","IADsTSUserEx interface","get_ReconnectionAction","termserv.iadstsuserex_reconnectionaction","tsuserex/IADsTSUserEx::ReconnectionAction","tsuserex/IADsTSUserEx::get_ReconnectionAction","tsuserex/IADsTSUserEx::put_ReconnectionAction"]
 old-location: termserv\iadstsuserex_reconnectionaction.htm
 tech.root: TermServ

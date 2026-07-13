@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ro-typeresolution-l1-1-1.dll
+ - api-ms-win-ro-typeresolution-l1-1-1.dll
  - WinTypes.dll
  - API-MS-Win-ro-typeresolution-l1-1-0.dll
  - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
@@ -170,7 +172,7 @@ Example 3 (instantiated parameterized interface type)
 <li>
 <b>Input typename</b>
 
-Windows.Foundation.Collections.IIterator`1&lt;Windows.Foundation.Collections.IMapView`2&lt;Windows.Foundation.Collections.IVector`1&lt;String&gt;, String&gt;&gt;
+Windows.Foundation.Collections.IIterator\`1&lt;Windows.Foundation.Collections.IMapView\`2&lt;Windows.Foundation.Collections.IVector\`1&lt;String&gt;, String&gt;&gt;
 
 </li>
 <li>

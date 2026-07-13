@@ -1,7 +1,7 @@
 ---
 UID: NS:advpub._StrEntryA
 title: STRENTRYA (advpub.h)
-description: Represents a registry string replacement.
+description: Represents a registry string replacement. (ANSI)
 helpviewer_keywords: ["*LPSTRENTRYA","LPSTRENTRYA","LPSTRENTRYA structure pointer [Windows API]","STRENTRY","STRENTRYA","STRENTRYA structure [Windows API]","_StrEntryA","_StrEntryA structure [Windows API]","advpub/LPSTRENTRYA","advpub/_StrEntryA","winprog._strentrya"]
 old-location: winprog\_strentrya.htm
 tech.root: winprog
@@ -69,5 +69,5 @@ The replacement string.
 ## -remarks
 
 > [!NOTE]
-> The advpub.h header defines STRENTRY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The advpub.h header defines STRENTRY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

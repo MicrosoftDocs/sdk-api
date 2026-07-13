@@ -1,12 +1,12 @@
 ---
 UID: NC:dbghelp.PSYMBOL_FUNCENTRY_CALLBACK64
 title: PSYMBOL_FUNCENTRY_CALLBACK64 (dbghelp.h)
-description: An application-defined callback function used with the SymRegisterFunctionEntryCallback64 function. It is called by the stack walking procedure.
+description: PSYMBOL_FUNCENTRY_CALLBACK64 (dbghelp.h) is an application-defined callback function used with the SymRegisterFunctionEntryCallback64 function.
 helpviewer_keywords: ["PSYMBOL_FUNCENTRY_CALLBACK","PSYMBOL_FUNCENTRY_CALLBACK64","SymRegisterFunctionEntryCallbackProc64","SymRegisterFunctionEntryCallbackProc64 callback","SymRegisterFunctionEntryCallbackProc64 callback function","_win32_symregisterfunctionentrycallbackproc64","base.symregisterfunctionentrycallbackproc64","dbghelp/SymRegisterFunctionEntryCallbackProc64"]
 old-location: base\symregisterfunctionentrycallbackproc64.htm
 tech.root: Debug
 ms.assetid: cd10dfeb-451f-4d6d-ae1c-ecca75f86f3d
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: PSYMBOL_FUNCENTRY_CALLBACK, PSYMBOL_FUNCENTRY_CALLBACK64, SymRegisterFunctionEntryCallbackProc64, SymRegisterFunctionEntryCallbackProc64 callback, SymRegisterFunctionEntryCallbackProc64 callback function, _win32_symregisterfunctionentrycallbackproc64, base.symregisterfunctionentrycallbackproc64, dbghelp/SymRegisterFunctionEntryCallbackProc64
 req.header: dbghelp.h
 req.include-header: 

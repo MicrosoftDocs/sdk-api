@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
 title: D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
-description: Specifies the alpha fill mode for video processing.
+description: Specifies the alpha fill mode for video processing. (D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE)
 helpviewer_keywords: ["D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE","D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE",""]
 tech.root: mf
 ms.assetid: 828e0cbe-17ff-4830-8c95-997a6d53a994

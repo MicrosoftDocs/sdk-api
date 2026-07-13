@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.put_DeleteRequestCert
 title: IEnroll::put_DeleteRequestCert (xenroll.h)
-description: The DeleteRequestCert property of IEnroll4 sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted.
+description: The DeleteRequestCert property of IEnroll4 sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted. (Put)
 helpviewer_keywords: ["DeleteRequestCert property [Security]","DeleteRequestCert property [Security]","IEnroll interface","IEnroll interface [Security]","DeleteRequestCert property","IEnroll.DeleteRequestCert","IEnroll.put_DeleteRequestCert","IEnroll::DeleteRequestCert","IEnroll::get_DeleteRequestCert","IEnroll::put_DeleteRequestCert","put_DeleteRequestCert","security.ienroll4_deleterequestcert","xenroll/IEnroll::DeleteRequestCert","xenroll/IEnroll::get_DeleteRequestCert","xenroll/IEnroll::put_DeleteRequestCert"]
 old-location: security\ienroll4_deleterequestcert.htm
 tech.root: security

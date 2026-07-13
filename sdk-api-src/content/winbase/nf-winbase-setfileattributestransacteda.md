@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.SetFileAttributesTransactedA
 title: SetFileAttributesTransactedA function (winbase.h)
-description: Sets the attributes for a file or directory as a transacted operation.
-helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_NOT_CONTENT_INDEXED","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","SetFileAttributesTransacted","SetFileAttributesTransacted function [Files]","SetFileAttributesTransactedA","SetFileAttributesTransactedW","fs.setfileattributestransacted","winbase/SetFileAttributesTransacted","winbase/SetFileAttributesTransactedA","winbase/SetFileAttributesTransactedW"]
+description: Sets the attributes for a file or directory as a transacted operation. (ANSI)
+helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE", "FILE_ATTRIBUTE_HIDDEN", "FILE_ATTRIBUTE_NORMAL", "FILE_ATTRIBUTE_NOT_CONTENT_INDEXED", "FILE_ATTRIBUTE_OFFLINE", "FILE_ATTRIBUTE_READONLY", "FILE_ATTRIBUTE_SYSTEM", "FILE_ATTRIBUTE_TEMPORARY", "SetFileAttributesTransactedA", "winbase/SetFileAttributesTransactedA"]
 old-location: fs\setfileattributestransacted.htm
 tech.root: fs
 ms.assetid: e25e77b2-a6ad-4ce4-8589-d7ff6c4074f6
@@ -69,12 +69,11 @@ Sets the attributes for a file or directory as a transacted operation.
 ### -param lpFileName [in]
 
 The name of the file whose attributes are to be set.
-      
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 The file must reside on the local computer; otherwise, the function fails and the last error code is set to 
       <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
@@ -299,7 +298,7 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 > [!NOTE]
-> The winbase.h header defines SetFileAttributesTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines SetFileAttributesTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

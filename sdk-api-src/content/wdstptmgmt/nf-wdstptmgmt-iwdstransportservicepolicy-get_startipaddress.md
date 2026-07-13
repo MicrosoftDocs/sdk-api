@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_StartIpAddress
 title: IWdsTransportServicePolicy::get_StartIpAddress (wdstptmgmt.h)
-description: Enables a WDS client computer to configure the start of a multicast IP address range for a specified type of IP address.
+description: Enables a WDS client computer to configure the start of a multicast IP address range for a specified type of IP address. (Get)
 helpviewer_keywords: ["IWdsTransportServicePolicy interface [Windows Deployment Services]","StartIpAddress property","IWdsTransportServicePolicy.StartIpAddress","IWdsTransportServicePolicy.get_StartIpAddress","IWdsTransportServicePolicy::StartIpAddress","IWdsTransportServicePolicy::get_StartIpAddress","IWdsTransportServicePolicy::put_StartIpAddress","StartIpAddress property [Windows Deployment Services]","StartIpAddress property [Windows Deployment Services]","IWdsTransportServicePolicy interface","get_StartIpAddress","wds.iwdstransportservicepolicy_startipaddress","wdstptmgmt/IWdsTransportServicePolicy::StartIpAddress","wdstptmgmt/IWdsTransportServicePolicy::get_StartIpAddress","wdstptmgmt/IWdsTransportServicePolicy::put_StartIpAddress"]
 old-location: wds\iwdstransportservicepolicy_startipaddress.htm
 tech.root: wds

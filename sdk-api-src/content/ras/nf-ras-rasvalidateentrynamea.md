@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasValidateEntryNameA
 title: RasValidateEntryNameA function (ras.h)
-description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
-helpviewer_keywords: ["RasValidateEntryName","RasValidateEntryName function [RAS]","RasValidateEntryNameA","RasValidateEntryNameW","_ras_rasvalidateentryname","ras/RasValidateEntryName","ras/RasValidateEntryNameA","ras/RasValidateEntryNameW","rras.rasvalidateentryname"]
+description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character. (ANSI)
+helpviewer_keywords: ["RasValidateEntryNameA", "ras/RasValidateEntryNameA"]
 old-location: rras\rasvalidateentryname.htm
 tech.root: RRAS
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560
@@ -253,7 +253,7 @@ DWORD __cdecl wmain(){
 
 
 > [!NOTE]
-> The ras.h header defines RasValidateEntryName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasValidateEntryName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

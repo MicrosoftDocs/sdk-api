@@ -57,7 +57,7 @@ The Windows Sockets
 
 ## -enum-fields
 
-### -field SYSTEM_CRITICAL_SOCKET
+### -field SYSTEM_CRITICAL_SOCKET:1
 
 The usage type is critical to the system.
 

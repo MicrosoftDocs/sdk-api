@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchVPrintf_lExW
 title: StringCchVPrintf_lExW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchVPrintf_lEx","StringCchVPrintf_lEx function [Menus and Other Resources]","StringCchVPrintf_lExA","StringCchVPrintf_lExW","menurc.stringcchvprintf_lex","strsafe/StringCchVPrintf_lEx","strsafe/StringCchVPrintf_lExA","strsafe/StringCchVPrintf_lExW"]
+description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCchVPrintf_lExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchVPrintf_lEx", "StringCchVPrintf_lEx function [Menus and Other Resources]", "StringCchVPrintf_lExW", "menurc.stringcchvprintf_lex", "strsafe/StringCchVPrintf_lEx", "strsafe/StringCchVPrintf_lExW"]
 old-location: menurc\stringcchvprintf_lex.htm
 tech.root: menurc
 ms.assetid: 9ba9b785-806d-4a94-9ff4-81307dc6d8b9
@@ -212,4 +212,4 @@ In order to use this function, you must define the following macro in your heade
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCchVPrintf_lEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCchVPrintf_lEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

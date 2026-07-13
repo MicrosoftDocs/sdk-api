@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetFullPathNameTransactedW
 title: GetFullPathNameTransactedW function (winbase.h)
-description: Retrieves the full path and file name of the specified file as a transacted operation.
-helpviewer_keywords: ["GetFullPathNameTransacted","GetFullPathNameTransacted function [Files]","GetFullPathNameTransactedA","GetFullPathNameTransactedW","fs.getfullpathnametransacted","winbase/GetFullPathNameTransacted","winbase/GetFullPathNameTransactedA","winbase/GetFullPathNameTransactedW"]
+description: Retrieves the full path and file name of the specified file as a transacted operation. (Unicode)
+helpviewer_keywords: ["GetFullPathNameTransacted", "GetFullPathNameTransacted function [Files]", "GetFullPathNameTransactedW", "fs.getfullpathnametransacted", "winbase/GetFullPathNameTransacted", "winbase/GetFullPathNameTransactedW"]
 old-location: fs\getfullpathnametransacted.htm
 tech.root: fs
 ms.assetid: 63cbcec6-e9f0-4db3-bf2f-03a987000af1
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
  - Kernel32Legacy.dll
@@ -215,7 +216,7 @@ SMB 3.0 does not support TxF.
 
 
 > [!NOTE]
-> The winbase.h header defines GetFullPathNameTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetFullPathNameTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ConnectionMediaType","ConnectionMediaType method [DirectS
 old-location: dshow\ipin_connectionmediatype.htm
 tech.root: dshow
 ms.assetid: f372bfa7-b0ba-43f9-ba86-cbca5d1de515
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ConnectionMediaType, ConnectionMediaType method [DirectShow], ConnectionMediaType method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectionMediaType method, IPin.ConnectionMediaType, IPin::ConnectionMediaType, IPinConnectionMediaType, dshow.ipin_connectionmediatype, strmif/IPin::ConnectionMediaType
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>ConnectionMediaType</code> method retrieves the media type for the current pin connection, if any.
 

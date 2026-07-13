@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR)
 title: CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR) (wbemglue.h)
-description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class.
+description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class. (overload 2/2)
 helpviewer_keywords: ["?GetEmptyInstance@CWbemProviderGlue@@SGJPAVMethodContext@@PBGPAPAVCInstance@@1@Z","CWbemProviderGlue interface [Windows Management Instrumentation]","GetEmptyInstance method","CWbemProviderGlue.GetEmptyInstance","CWbemProviderGlue.GetEmptyInstance(MethodContext","LPCWSTR","CInstance","LPCWSTR)","CWbemProviderGlue::GetEmptyInstance","CWbemProviderGlue::GetEmptyInstance(MethodContext*","LPCWSTR","CInstance**","LPCWSTR)","CWbemProviderGlue::GetEmptyInstance(MethodContext","LPCWSTR","CInstance","LPCWSTR)","GetEmptyInstance","GetEmptyInstance method [Windows Management Instrumentation]","GetEmptyInstance method [Windows Management Instrumentation]","CWbemProviderGlue interface","wbemglue/CWbemProviderGlue::GetEmptyInstance","wmi.cwbemproviderglue_getemptyinstance_methodcontext_lpcwstr_cinstance__lpcwstr_"]
 old-location: wmi\cwbemproviderglue_getemptyinstance_methodcontext_lpcwstr_cinstance__lpcwstr_.htm
 tech.root: wmi

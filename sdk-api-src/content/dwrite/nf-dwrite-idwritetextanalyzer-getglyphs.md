@@ -102,7 +102,7 @@ The locale to use when selecting glyphs.
 
 ### -param numberSubstitution [optional]
 
-Type: <b><a href="/windows/win32/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritenumbersubstitution">IDWriteNumberSubstitution</a>*</b>
 
 A pointer to an optional number substitution which selects the appropriate glyphs for digits and related numeric characters, depending on the results obtained from <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzenumbersubstitution">AnalyzeNumberSubstitution</a>. Passing <b>NULL</b> indicates that no substitution is needed and that the digits should receive nominal glyphs.
 
@@ -169,7 +169,7 @@ When this method returns, contains the actual number of glyphs returned if
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

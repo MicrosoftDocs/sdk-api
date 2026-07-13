@@ -45,9 +45,6 @@ api_name:
  - DISPLAYCONFIG_MODE_INFO
 ---
 
-# DISPLAYCONFIG_MODE_INFO structure
-
-
 ## -description
 
 The DISPLAYCONFIG_MODE_INFO structure contains either source mode or target mode information.
@@ -78,7 +75,7 @@ A valid <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_source_mode
 
 ### -field DUMMYUNIONNAME.desktopImageInfo
 
-A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_desktop_image_info">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_. 
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_desktop_image_info">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is [DISPLAYCONFIG_MODE_INFO_TYPE_DESKTOP_IMAGE](/windows/win32/api/wingdi/ne-wingdi-displayconfig_mode_info_type).
 
 Supported starting in Windows 10.
 

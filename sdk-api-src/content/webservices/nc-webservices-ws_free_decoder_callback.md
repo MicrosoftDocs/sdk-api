@@ -56,7 +56,7 @@ Handles freeing a decoder instance.
 
 ### -param decoderContext [in]
 
-Frees an instance of an decoder.
+Frees an instance of a decoder.
 
 ## -remarks
 

@@ -56,9 +56,9 @@ Sets encoder parameters.
 
 ### -param pbagEnc [in]
 
-Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
+Type: <b><a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a>*</b>
 
-A pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> containing the encoder properties.
+A pointer to an <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a> containing the encoder properties.
 
 ## -returns
 
@@ -68,4 +68,4 @@ Always returns<b> S_OK</b>.
 
 ## -remarks
 
-The <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> passed in <i>pbagEnc</i> is used during a save operation. The image and any edits made to it, such as <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-rotate">Rotate</a> or <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-scale">Scale</a>, can be saved by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for either <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a> or <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> and calling their <b>Save</b> method.
+The <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a> passed in <i>pbagEnc</i> is used during a save operation. The image and any edits made to it, such as <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-rotate">Rotate</a> or <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-scale">Scale</a>, can be saved by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for either <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a> or <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> and calling their <b>Save</b> method.

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.DDiscFormat2DataEvents.Update
 title: DDiscFormat2DataEvents::Update (imapi2.h)
-description: Implement this method to receive progress notification of the current write operation.
+description: Implement this method to receive progress notification of the current write operation. (DDiscFormat2DataEvents.Update)
 helpviewer_keywords: ["DDiscFormat2DataEvents interface [IMAPI]","Update method","DDiscFormat2DataEvents.Update","DDiscFormat2DataEvents::Update","Update","Update method [IMAPI]","Update method [IMAPI]","DDiscFormat2DataEvents interface","imapi.ddiscformat2dataevents_update","imapi2/DDiscFormat2DataEvents::Update"]
 old-location: imapi\ddiscformat2dataevents_update.htm
 tech.root: imapi

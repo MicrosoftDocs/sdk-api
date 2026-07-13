@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus
 title: IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus (vsmgmt.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus)
 helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt2 interface","QueryMigrationStatus method","IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus","IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus","QueryMigrationStatus","QueryMigrationStatus method","QueryMigrationStatus method","IVssDifferentialSoftwareSnapshotMgmt2 interface","base.ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus.htm
 tech.root: base
@@ -64,5 +64,5 @@ This method is reserved for future use.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

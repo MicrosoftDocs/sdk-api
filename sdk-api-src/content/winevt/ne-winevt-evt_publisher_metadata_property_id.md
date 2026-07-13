@@ -56,7 +56,7 @@ Defines the identifiers that identify the metadata properties of a provider.
 
 ## -enum-fields
 
-### -field EvtPublisherMetadataPublisherGuid
+### -field EvtPublisherMetadataPublisherGuid:0
 
 Identifies the <b>guid</b> attribute of the provider. The variant type for this property is <b>EvtVarTypeGuid</b>.
 

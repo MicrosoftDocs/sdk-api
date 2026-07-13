@@ -97,7 +97,7 @@ Receives the number of elements in the <i>ppclsidMFT</i> array. The value can be
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -110,7 +110,7 @@ If no MFTs match the criteria, the method succeeds but returns the value zero in
 
 #### Examples
 
-To find a decoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_DECODER</b>or <b>MFT_CATEGORY_VIDEO_DECODER</b>and specify the encoding format in <i>pInputType</i>.  You would typically set <i>pOutputType</i> to <b>NULL</b> in this case.
+To find a decoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_DECODER</b> or <b>MFT_CATEGORY_VIDEO_DECODER</b> and specify the encoding format in <i>pInputType</i>.  You would typically set <i>pOutputType</i> to <b>NULL</b> in this case.
 
 
 ```cpp
@@ -160,7 +160,7 @@ HRESULT FindDecoder(
 ```
 
 
-To find an encoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_ENCODER</b>or <b>MFT_CATEGORY_VIDEO_ENCODER</b>and specify the encoding format in <i>pOutputType</i>.  You would typically set <i>pInputType</i> to <b>NULL</b> in this case.
+To find an encoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_ENCODER</b> or <b>MFT_CATEGORY_VIDEO_ENCODER</b> and specify the encoding format in <i>pOutputType</i>.  You would typically set <i>pInputType</i> to <b>NULL</b> in this case.
 
 
 ```cpp

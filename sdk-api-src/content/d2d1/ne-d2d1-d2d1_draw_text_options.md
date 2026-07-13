@@ -54,27 +54,27 @@ Specifies whether text snapping is suppressed or clipping to the layout rectangl
 
 ## -enum-fields
 
-### -field D2D1_DRAW_TEXT_OPTIONS_NO_SNAP
+### -field D2D1_DRAW_TEXT_OPTIONS_NO_SNAP:0x00000001
 
 Text is not vertically snapped to pixel boundaries. This setting is recommended for text that is being animated.
 
-### -field D2D1_DRAW_TEXT_OPTIONS_CLIP
+### -field D2D1_DRAW_TEXT_OPTIONS_CLIP:0x00000002
 
 Text is clipped to the layout rectangle.
 
-### -field D2D1_DRAW_TEXT_OPTIONS_ENABLE_COLOR_FONT
+### -field D2D1_DRAW_TEXT_OPTIONS_ENABLE_COLOR_FONT:0x00000004
 
 In Windows 8.1 and later, text is rendered using color versions of glyphs, if defined by the font.
 
-### -field D2D1_DRAW_TEXT_OPTIONS_DISABLE_COLOR_BITMAP_SNAPPING
+### -field D2D1_DRAW_TEXT_OPTIONS_DISABLE_COLOR_BITMAP_SNAPPING:0x00000008
 
 Bitmap origins of color glyph bitmaps are not snapped.
 
-### -field D2D1_DRAW_TEXT_OPTIONS_NONE
+### -field D2D1_DRAW_TEXT_OPTIONS_NONE:0x00000000
 
 Text is vertically snapped to pixel boundaries and is not clipped to the layout rectangle.
 
-### -field D2D1_DRAW_TEXT_OPTIONS_FORCE_DWORD
+### -field D2D1_DRAW_TEXT_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

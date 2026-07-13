@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_GetUnicodeFormat","MonthCal_GetUnicodeFormat mac
 old-location: controls\MonthCal_GetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getunicodeformat.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_GetUnicodeFormat, MonthCal_GetUnicodeFormat macro [Windows Controls], _win32_MonthCal_GetUnicodeFormat, _win32_MonthCal_GetUnicodeFormat_cpp, commctrl/MonthCal_GetUnicodeFormat, controls.MonthCal_GetUnicodeFormat, controls._win32_MonthCal_GetUnicodeFormat
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MonthCal_GetUnicodeFormat macro
+
+## -syntax
+
+```cpp
+BOOL MonthCal_GetUnicodeFormat(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns the Unicode format flag for the control. If this value is nonzero, the control is using Unicode characters. If this value is zero, the control is using ANSI characters.
 
 
 ## -description

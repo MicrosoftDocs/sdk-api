@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetWindowTextLengthW
 title: GetWindowTextLengthW function (winuser.h)
-description: Retrieves the length, in characters, of the specified window's title bar text (if the window has a title bar).
-helpviewer_keywords: ["GetWindowTextLength","GetWindowTextLength function [Windows and Messages]","GetWindowTextLengthA","GetWindowTextLengthW","_win32_GetWindowTextLength","_win32_getwindowtextlength_cpp","winmsg.getwindowtextlength","winui._win32_getwindowtextlength","winuser/GetWindowTextLength","winuser/GetWindowTextLengthA","winuser/GetWindowTextLengthW"]
+description: Retrieves the length, in characters, of the specified window's title bar text (if the window has a title bar). (Unicode)
+helpviewer_keywords: ["GetWindowTextLength", "GetWindowTextLength function [Windows and Messages]", "GetWindowTextLengthW", "_win32_GetWindowTextLength", "_win32_getwindowtextlength_cpp", "winmsg.getwindowtextlength", "winui._win32_getwindowtextlength", "winuser/GetWindowTextLength", "winuser/GetWindowTextLengthW"]
 old-location: winmsg\getwindowtextlength.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowtextlength.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Window-l1-1-1.dll
  - Ext-MS-Win-NTUser-Window-l1-1-2.dll
@@ -94,7 +96,7 @@ To obtain the exact length of the text, use the <a href="/windows/desktop/winmsg
 
 
 > [!NOTE]
-> The winuser.h header defines GetWindowTextLength as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetWindowTextLength as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsRootW
 title: PathIsRootW function (shlwapi.h)
-description: Determines whether a path string refers to the root of a volume.
-helpviewer_keywords: ["PathIsRoot","PathIsRoot function [Windows Shell]","PathIsRootA","PathIsRootW","_win32_PathIsRoot","shell.PathIsRoot","shlwapi/PathIsRoot","shlwapi/PathIsRootA","shlwapi/PathIsRootW"]
+description: Determines whether a path string refers to the root of a volume. (Unicode)
+helpviewer_keywords: ["PathIsRoot", "PathIsRoot function [Windows Shell]", "PathIsRootW", "_win32_PathIsRoot", "shell.PathIsRoot", "shlwapi/PathIsRoot", "shlwapi/PathIsRootW"]
 old-location: shell\PathIsRoot.htm
 tech.root: shell
 ms.assetid: 8586df98-91c4-49a6-9b07-7dceb8a63431
@@ -128,5 +128,5 @@ The path does not contain part    :path\file
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathIsRoot as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathIsRoot as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

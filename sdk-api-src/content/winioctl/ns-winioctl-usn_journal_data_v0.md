@@ -1,7 +1,7 @@
 ---
-UID: NS:winioctl.__unnamed_struct_28
+UID: NS:winioctl.USN_JOURNAL_DATA_V0
 title: USN_JOURNAL_DATA_V0
-description: Represents an update sequence number (USN) change journal, its records, and its capacity.
+description: Represents an update sequence number (USN) change journal, its records, and its capacity. (USN_JOURNAL_DATA_V0)
 helpviewer_keywords: ["*PUSN_JOURNAL_DATA","*PUSN_JOURNAL_DATA_V0","PUSN_JOURNAL_DATA","PUSN_JOURNAL_DATA structure pointer [Files]","PUSN_JOURNAL_DATA_V0","PUSN_JOURNAL_DATA_V0 structure pointer [Files]","USN_JOURNAL_DATA","USN_JOURNAL_DATA structure [Files]","USN_JOURNAL_DATA_V0","USN_JOURNAL_DATA_V0 structure [Files]","_win32_usn_journal_data_str","base.usn_journal_data_str","fs.usn_journal_data_str","winioctl/PUSN_JOURNAL_DATA","winioctl/PUSN_JOURNAL_DATA_V0","winioctl/USN_JOURNAL_DATA"]
 old-location: fs\usn_journal_data_str.htm
 tech.root: fs
@@ -107,3 +107,4 @@ The number of bytes of disk memory added to the end and removed from the beginni
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

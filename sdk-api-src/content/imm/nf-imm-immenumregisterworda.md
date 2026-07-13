@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmEnumRegisterWordA
 title: ImmEnumRegisterWordA function (imm.h)
-description: Enumerates the register strings having the specified reading string, style, and register string.
-helpviewer_keywords: ["ImmEnumRegisterWord","ImmEnumRegisterWord function [Internationalization for Windows Applications]","ImmEnumRegisterWordA","ImmEnumRegisterWordW","_win32_ImmEnumRegisterWord","imm/ImmEnumRegisterWord","imm/ImmEnumRegisterWordA","imm/ImmEnumRegisterWordW","intl.immenumregisterword"]
+description: The ImmEnumRegisterWordA (ANSI) function (imm.h) enumerates the register strings having the specified reading string, style, and register string.
+helpviewer_keywords: ["ImmEnumRegisterWordA", "imm/ImmEnumRegisterWordA"]
 old-location: intl\immenumregisterword.htm
 tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -93,7 +93,7 @@ If <i>dwStyle</i> is set to 0 and both <i>lpszReading</i> and <i>lpszRegister</i
 
 
 > [!NOTE]
-> The imm.h header defines ImmEnumRegisterWord as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The imm.h header defines ImmEnumRegisterWord as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

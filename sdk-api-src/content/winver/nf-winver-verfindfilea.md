@@ -1,8 +1,8 @@
 ---
 UID: NF:winver.VerFindFileA
 title: VerFindFileA function (winver.h)
-description: Determines where to install a file based on whether it locates another version of the file in the system. The values VerFindFile returns in the specified buffers are used in a subsequent call to the VerInstallFile function.
-helpviewer_keywords: ["VFFF_ISSHAREDFILE","VerFindFile","VerFindFile function [Menus and Other Resources]","VerFindFileA","VerFindFileW","_win32_VerFindFile","_win32_verfindfile_cpp","menurc.verfindfile","winui._win32_verfindfile","winver/VerFindFile","winver/VerFindFileA","winver/VerFindFileW"]
+description: Determines where to install a file based on whether it locates another version of the file in the system. The values VerFindFile returns in the specified buffers are used in a subsequent call to the VerInstallFile function. (ANSI)
+helpviewer_keywords: ["VFFF_ISSHAREDFILE", "VerFindFileA", "winver/VerFindFileA"]
 old-location: menurc\verfindfile.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verfindfile.htm
@@ -203,7 +203,7 @@ If the
 
 
 > [!NOTE]
-> The winver.h header defines VerFindFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winver.h header defines VerFindFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

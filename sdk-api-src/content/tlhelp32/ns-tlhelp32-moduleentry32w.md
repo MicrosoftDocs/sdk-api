@@ -1,12 +1,12 @@
 ---
 UID: NS:tlhelp32.tagMODULEENTRY32W
 title: MODULEENTRY32W (tlhelp32.h)
-description: Describes an entry from a list of the modules belonging to the specified process.
+description: The MODULEENTRY32W (Unicode) structure (tlhelp32.h) describes an entry from a list of the modules belonging to the specified process.
 helpviewer_keywords: ["*LPMODULEENTRY32W","*PMODULEENTRY32W","MODULEENTRY32","MODULEENTRY32 structure [ToolHelp]","MODULEENTRY32W","PMODULEENTRY32","PMODULEENTRY32 structure pointer [ToolHelp]","_win32_moduleentry32_str","base.moduleentry32_str","tlhelp32/MODULEENTRY32","tlhelp32/MODULEENTRY32W","tlhelp32/PMODULEENTRY32","toolhelp.moduleentry32_str"]
 old-location: toolhelp\moduleentry32_str.htm
 tech.root: ToolHelp
 ms.assetid: 305fab35-625c-42e3-a434-e2513e4c8870
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*LPMODULEENTRY32W, *PMODULEENTRY32W, MODULEENTRY32, MODULEENTRY32 structure [ToolHelp], MODULEENTRY32W, PMODULEENTRY32, PMODULEENTRY32 structure pointer [ToolHelp], _win32_moduleentry32_str, base.moduleentry32_str, tlhelp32/MODULEENTRY32, tlhelp32/MODULEENTRY32W, tlhelp32/PMODULEENTRY32, toolhelp.moduleentry32_str'
 req.header: tlhelp32.h
 req.include-header: 
@@ -115,7 +115,7 @@ For an example that uses <b>MODULEENTRY32</b>, see <a href="/windows/desktop/Too
 
 
 > [!NOTE]
-> The tlhelp32.h header defines MODULEENTRY32 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tlhelp32.h header defines MODULEENTRY32 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

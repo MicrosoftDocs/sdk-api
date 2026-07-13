@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorGetW
 title: XMVectorGetW function (directxmath.h)
-description: Retrieve the w component of an XMVECTOR Data Type.
+description: Retrieve the w component of an XMVECTOR Data Type. (XMVectorGetW)
 helpviewer_keywords: ["Use DirectX..XMVectorGetW","XMVectorGetW","XMVectorGetW method [DirectX Math Support APIs]","dxmath.xmvectorgetw"]
 old-location: dxmath\xmvectorgetw.htm
 tech.root: dxmath

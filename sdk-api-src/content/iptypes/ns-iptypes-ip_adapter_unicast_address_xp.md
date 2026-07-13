@@ -1,12 +1,12 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_UNICAST_ADDRESS_XP
 title: IP_ADAPTER_UNICAST_ADDRESS_XP (iptypes.h)
-description: The IP_ADAPTER_UNICAST_ADDRESS structure stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
+description: The IP_ADAPTER_UNICAST_ADDRESS_XP structure (iptypes.h) stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
 helpviewer_keywords: ["*PIP_ADAPTER_UNICAST_ADDRESS","*PIP_ADAPTER_UNICAST_ADDRESS_XP","IP_ADAPTER_ADDRESS_DNS_ELIGIBLE","IP_ADAPTER_ADDRESS_TRANSIENT","IP_ADAPTER_UNICAST_ADDRESS","IP_ADAPTER_UNICAST_ADDRESS structure [IP Helper]","IP_ADAPTER_UNICAST_ADDRESS_LH","IP_ADAPTER_UNICAST_ADDRESS_XP","PIP_ADAPTER_UNICAST_ADDRESS","PIP_ADAPTER_UNICAST_ADDRESS structure pointer [IP Helper]","_iphlp_ip_adapter_unicast_address","iphlp.ip_adapter_unicast_address","iptypes/IP_ADAPTER_UNICAST_ADDRESS","iptypes/PIP_ADAPTER_UNICAST_ADDRESS"]
 old-location: iphlp\ip_adapter_unicast_address.htm
 tech.root: IpHlp
 ms.assetid: 65c3648c-89bd-417b-8a9b-feefa6149c4a
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: '*PIP_ADAPTER_UNICAST_ADDRESS, *PIP_ADAPTER_UNICAST_ADDRESS_XP, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_UNICAST_ADDRESS, IP_ADAPTER_UNICAST_ADDRESS structure [IP Helper], IP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_UNICAST_ADDRESS_XP, PIP_ADAPTER_UNICAST_ADDRESS, PIP_ADAPTER_UNICAST_ADDRESS structure pointer [IP Helper], _iphlp_ip_adapter_unicast_address, iphlp.ip_adapter_unicast_address, iptypes/IP_ADAPTER_UNICAST_ADDRESS, iptypes/PIP_ADAPTER_UNICAST_ADDRESS'
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
@@ -153,7 +153,7 @@ The lease lifetime, in seconds, that the IP address is valid.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function. The <b>FirstUnicastAddress</b> member of the <b>IP_ADAPTER_ADDRESSES</b>structure is a pointer to a linked list of <b>IP_ADAPTER_UNICAST_ADDRESS</b> structures. 
+The <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function. The <b>FirstUnicastAddress</b> member of the <b>IP_ADAPTER_ADDRESSES</b> structure is a pointer to a linked list of <b>IP_ADAPTER_UNICAST_ADDRESS</b> structures. 
 
 The size of the <b>IP_ADAPTER_UNICAST_ADDRESS</b> structure changed on Windows Vista and later. The <b>Length</b> member should be used to determine which version of the <b>IP_ADAPTER_UNICAST_ADDRESS</b> structure is being used. 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CM_Reenumerate_DevNode_Ex","CM_Reenumerate_DevNode_Ex fun
 old-location: devinst\cm_reenumerate_devnode_ex.htm
 tech.root: devinst
 ms.assetid: 1d927aec-db3c-403f-9952-1bcc931984bf
-ms.date: 12/05/2018
+ms.date: 07/08/2025
 ms.keywords: CM_Reenumerate_DevNode_Ex, CM_Reenumerate_DevNode_Ex function [Device and Driver Installation], cfgmgr32/CM_Reenumerate_DevNode_Ex, cfgmgrfn_164140ec-3f5b-4047-8e18-7c7154975588.xml, devinst.cm_reenumerate_devnode_ex
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
@@ -90,7 +90,7 @@ This flag must be used with extreme caution, because it can cause the PnP manage
 
 #### CM_REENUMERATE_SYNCHRONOUS
 
-Reenumeration should occur synchronously. The call to this function returns when all devices in the specified subtree have been reenumerated. If this flag is set, the CM_REENUMERATE_ASYNCHRONOUS flag should not also be set. This flag is currently equivalent to CM_REENUMERATE_NORMAL.
+Reenumeration should occur synchronously. The call to this function returns when all devices in the subtree of the specified device have had reenumeration requests sent to them and those requests have been completed by the device stack. This does not guarantee that the drivers in the device stacks of those devices have rescanned their bus and reported updates. It also does not guarantee that any new devices reported are in the started state. If this flag is set, the CM_REENUMERATE_ASYNCHRONOUS flag should not also be set. This flag is functionally equivalent to CM_REENUMERATE_NORMAL.
 
 ### -param hMachine [in, optional]
 
@@ -105,7 +105,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-If the specified device node represents a hardware or software bus device, the PnP manager queries the device's drivers for a list of children, then attempts to configure and start any child devices that were not previously configured. The PnP manager also initiates surprise-removal of devices that are no longer present (see <a href="/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>).
+If the specified device node represents a hardware or software bus device, the PnP manager queries the device's drivers for a list of children, then attempts to configure and start any child devices that were not previously configured. The PnP manager also initiates surprise-removal of devices that are no longer present (see <a href="/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>). However, drivers may choose to update the bus relations they are reporting to the PnP manager asynchronous of the reenumeration request, so the appearance of new devices and removal of devices that are no longer present may not be complete when the reenumeration operation completes.
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 

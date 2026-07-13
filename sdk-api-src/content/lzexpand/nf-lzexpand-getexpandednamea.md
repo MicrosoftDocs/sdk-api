@@ -1,8 +1,8 @@
 ---
 UID: NF:lzexpand.GetExpandedNameA
 title: GetExpandedNameA function (lzexpand.h)
-description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm.
-helpviewer_keywords: ["GetExpandedName","GetExpandedName function [Files]","GetExpandedNameA","GetExpandedNameW","_win32_getexpandedname","base.getexpandedname","fs.getexpandedname","lzexpand/GetExpandedName","lzexpand/GetExpandedNameA","lzexpand/GetExpandedNameW"]
+description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm. (ANSI)
+helpviewer_keywords: ["GetExpandedNameA", "lzexpand/GetExpandedNameA"]
 old-location: fs\getexpandedname.htm
 tech.root: fs
 ms.assetid: 173344bc-59ba-46ba-901a-f8a8929bc4ee
@@ -145,7 +145,7 @@ Yes
 
 
 > [!NOTE]
-> The lzexpand.h header defines GetExpandedName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The lzexpand.h header defines GetExpandedName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

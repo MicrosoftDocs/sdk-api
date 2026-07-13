@@ -86,7 +86,7 @@ The maximum number of scatter-gather entries (SGEs) that can be specified in a s
 
 ### -field MaxReceiveRequestSge
 
-The maximum number of SGEs that can be specified in a single request over an receive queue.
+The maximum number of SGEs that can be specified in a single request over a receive queue.
 
 ### -field MaxReadRequestSge
 

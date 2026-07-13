@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndCommit
 title: ICrmCompensator::EndCommit (comsvcs.h)
-description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
+description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase. (ICrmCompensator.EndCommit)
 helpviewer_keywords: ["EndCommit","EndCommit method [COM+]","EndCommit method [COM+]","ICrmCompensator interface","ICrmCompensator interface [COM+]","EndCommit method","ICrmCompensator.EndCommit","ICrmCompensator::EndCommit","_dtc_ICrmCompensator_EndCommit","comsvcs/ICrmCompensator::EndCommit","cos.icrmcompensator_endcommit"]
 old-location: cos\icrmcompensator_endcommit.htm
 tech.root: cos
@@ -52,11 +52,11 @@ api_name:
 
 Notifies the CRM Compensator that it has delivered all the log records available during the commit phase. All log records for this transaction can be discarded from the log after this method has completed.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

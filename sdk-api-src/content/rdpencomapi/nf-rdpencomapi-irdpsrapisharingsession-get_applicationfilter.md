@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_ApplicationFilter
 title: IRDPSRAPISharingSession::get_ApplicationFilter (rdpencomapi.h)
-description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
+description: Returns an object implementing the IRDPSRAPIApplicationFilter interface. (IRDPSRAPISharingSession.get_ApplicationFilter)
 helpviewer_keywords: ["ApplicationFilter property [RDP]","ApplicationFilter property [RDP]","IRDPSRAPISharingSession interface","ApplicationFilter property [RDP]","IRDPSRAPISharingSession2 interface","ApplicationFilter property [RDP]","RDPSession object","IRDPSRAPISharingSession interface [RDP]","ApplicationFilter property","IRDPSRAPISharingSession.ApplicationFilter","IRDPSRAPISharingSession.get_ApplicationFilter","IRDPSRAPISharingSession2 interface [RDP]","ApplicationFilter property","IRDPSRAPISharingSession2.ApplicationFilter","IRDPSRAPISharingSession2::ApplicationFilter","IRDPSRAPISharingSession2::get_ApplicationFilter","IRDPSRAPISharingSession::get_ApplicationFilter","RDPSession object [RDP]","ApplicationFilter property","get_ApplicationFilter","rdp.irdpsrapisharingsession_applicationfilter","rdpencomapi/IRDPSRAPISharingSession2::ApplicationFilter","rdpencomapi/IRDPSRAPISharingSession2::get_ApplicationFilter","rdpencomapi/IRDPSRAPISharingSession::ApplicationFilter","rdpencomapi/IRDPSRAPISharingSession::get_ApplicationFilter"]
 old-location: rdp\irdpsrapisharingsession_applicationfilter.htm
 tech.root: rdp

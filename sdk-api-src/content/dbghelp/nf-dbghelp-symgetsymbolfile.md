@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetSymbolFile
 title: SymGetSymbolFile function (dbghelp.h)
-description: Locates a symbol file in the specified symbol path.
+description: The SymGetSymbolFile function (dbghelp.h) locates a symbol file in the specified symbol path.
 helpviewer_keywords: ["SymGetSymbolFile","SymGetSymbolFile function","SymGetSymbolFileW","base.symgetsymbolfile","dbghelp/SymGetSymbolFile","dbghelp/SymGetSymbolFileW","sfDbg","sfImage","sfMpd","sfPdb"]
 old-location: base\symgetsymbolfile.htm
 tech.root: Debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
 req.header: dbghelp.h
 req.include-header: 

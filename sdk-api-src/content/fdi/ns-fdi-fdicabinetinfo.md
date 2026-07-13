@@ -1,5 +1,5 @@
 ---
-UID: NS:fdi.__unnamed_struct_0
+UID: NS:fdi.FDICABINETINFO
 title: FDICABINETINFO (fdi.h)
 description: The FDICABINETINFO structure contains details about a particular cabinet file.
 helpviewer_keywords: ["*PFDICABINETINFO","FDICABINETINFO","FDICABINETINFO FAR *PFDICABINETINFO","FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API]","FDICABINETINFO structure [Windows API]","fdi/FDICABINETINFO","winprog.fdicabinetinfo"]
@@ -89,3 +89,4 @@ If this value is set to <b>TRUE</b>, the current cabinet is linked to the next c
 ## -see-also
 
 <a href="/windows/desktop/api/fdi/nf-fdi-fdiiscabinet">FDIIsCabinet</a>
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_ReceiptType
 title: IFaxDocument::put_ReceiptType (faxcomex.h)
-description: The IFaxDocument::get_ReceiptType property specifies the type of delivery receipt to deliver when the fax job reaches a final state.
+description: The IFaxDocument::get_ReceiptType property specifies the type of delivery receipt to deliver when the fax job reaches a final state. (Put)
 helpviewer_keywords: ["IFaxDocument interface [Fax Service]","ReceiptType property","IFaxDocument.ReceiptType","IFaxDocument.get_ReceiptType","IFaxDocument.put_ReceiptType","IFaxDocument::ReceiptType","IFaxDocument::get_ReceiptType","IFaxDocument::put_ReceiptType","ReceiptType property [Fax Service]","ReceiptType property [Fax Service]","IFaxDocument interface","_mfax_faxdocument.receipttype","fax._mfax_faxdocument_cpp_mfax_faxdocument_receipttype_cpp","fax._mfax_faxdocument_receipttype","faxcomex/IFaxDocument::ReceiptType","faxcomex/IFaxDocument::get_ReceiptType","faxcomex/IFaxDocument::put_ReceiptType","put_ReceiptType"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_receipttype_cpp.htm
 tech.root: Fax

@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetAutodialParamA
 title: RasGetAutodialParamA function (ras.h)
-description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter.
-helpviewer_keywords: ["RASADP_ConnectionQueryTimeout","RASADP_DisableConnectionQuery","RASADP_FailedConnectionTimeout","RASADP_LoginSessionDisable","RASADP_SavedAddressesLimit","RasGetAutodialParam","RasGetAutodialParam function [RAS]","RasGetAutodialParamA","RasGetAutodialParamW","_ras_rasgetautodialparam","ras/RasGetAutodialParam","ras/RasGetAutodialParamA","ras/RasGetAutodialParamW","rras.rasgetautodialparam"]
+description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter. (ANSI)
+helpviewer_keywords: ["RASADP_ConnectionQueryTimeout", "RASADP_DisableConnectionQuery", "RASADP_FailedConnectionTimeout", "RASADP_LoginSessionDisable", "RASADP_SavedAddressesLimit", "RasGetAutodialParamA", "ras/RasGetAutodialParamA"]
 old-location: rras\rasgetautodialparam.htm
 tech.root: RRAS
 ms.assetid: 49f0f944-49e7-4836-bf56-0fef07f39191
@@ -190,4 +190,4 @@ The size specified by the <i>lpdwcbValue</i> is too small.
 ## -remarks
 
 > [!NOTE]
-> The ras.h header defines RasGetAutodialParam as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetAutodialParam as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

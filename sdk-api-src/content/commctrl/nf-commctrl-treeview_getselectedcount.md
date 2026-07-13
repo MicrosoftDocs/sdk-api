@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetSelectedCount","TreeView_GetSelectedCount mac
 old-location: controls\TreeView_GetSelectedCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getselectedcount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetSelectedCount, TreeView_GetSelectedCount macro [Windows Controls], _shell_TreeView_GetSelectedCount, _shell_TreeView_GetSelectedCount_cpp, commctrl/TreeView_GetSelectedCount, controls.TreeView_GetSelectedCount, controls._shell_TreeView_GetSelectedCount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # TreeView_GetSelectedCount macro
+
+## -syntax
+
+```cpp
+DWORD TreeView_GetSelectedCount(
+  [in] HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the number of items selected.
 
 
 ## -description

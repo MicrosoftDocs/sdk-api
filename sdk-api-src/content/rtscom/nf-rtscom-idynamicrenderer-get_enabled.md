@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_Enabled
 title: IDynamicRenderer::get_Enabled (rtscom.h)
-description: Gets or sets a value that turns dynamic rendering on and off.
+description: Gets or sets a value that turns dynamic rendering on and off. (Get)
 helpviewer_keywords: ["Enabled property [Tablet PC]","Enabled property [Tablet PC]","IDynamicRenderer interface","IDynamicRenderer interface [Tablet PC]","Enabled property","IDynamicRenderer.Enabled","IDynamicRenderer.get_Enabled","IDynamicRenderer.put_Enabled","IDynamicRenderer::Enabled","IDynamicRenderer::get_Enabled","IDynamicRenderer::put_Enabled","b226d146-af96-4a51-aa11-8b2fe057a4b2","get_Enabled","rtscom/IDynamicRenderer::Enabled","rtscom/IDynamicRenderer::get_Enabled","rtscom/IDynamicRenderer::put_Enabled","tablet.idynamicrenderer_enabled"]
 old-location: tablet\idynamicrenderer_enabled.htm
 tech.root: tablet

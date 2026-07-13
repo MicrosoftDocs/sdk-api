@@ -56,7 +56,7 @@ The <b>IPSEC_TRANSFORM_TYPE</b> enumerated type indicates the type of an IPsec s
 
 ## -enum-fields
 
-### -field IPSEC_TRANSFORM_AH
+### -field IPSEC_TRANSFORM_AH:1
 
 Specifies Authentication Header (AH) transform.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcssl.RpcCertGeneratePrincipalNameW
 title: RpcCertGeneratePrincipalNameW function (rpcssl.h)
-description: Server programs use the RpcCertGeneratePrincipalName function to generate principal names for security certificates.
-helpviewer_keywords: ["RpcCertGeneratePrincipalName","RpcCertGeneratePrincipalName function [RPC]","RpcCertGeneratePrincipalNameA","RpcCertGeneratePrincipalNameW","_rpc_rpccertgenerateprincipalname","rpc.rpccertgenerateprincipalname","rpcssl/RpcCertGeneratePrincipalName","rpcssl/RpcCertGeneratePrincipalNameA","rpcssl/RpcCertGeneratePrincipalNameW"]
+description: The RpcCertGeneratePrincipalNameW (Unicode) function (rpcssl.h) is used by server programs to generate principal names for security certificates.
+helpviewer_keywords: ["RpcCertGeneratePrincipalName", "RpcCertGeneratePrincipalName function [RPC]", "RpcCertGeneratePrincipalNameW", "_rpc_rpccertgenerateprincipalname", "rpc.rpccertgenerateprincipalname", "rpcssl/RpcCertGeneratePrincipalName", "rpcssl/RpcCertGeneratePrincipalNameW"]
 old-location: rpc\rpccertgenerateprincipalname.htm
 tech.root: Rpc
 ms.assetid: 88a172f5-2226-46e9-845e-c67b0a885905
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcCertGeneratePrincipalName, RpcCertGeneratePrincipalName function [RPC], RpcCertGeneratePrincipalNameA, RpcCertGeneratePrincipalNameW, _rpc_rpccertgenerateprincipalname, rpc.rpccertgenerateprincipalname, rpcssl/RpcCertGeneratePrincipalName, rpcssl/RpcCertGeneratePrincipalNameA, rpcssl/RpcCertGeneratePrincipalNameW
 req.header: rpcssl.h
 req.include-header: Rpc.h
@@ -89,7 +89,7 @@ Your application must call
 
 
 > [!NOTE]
-> The rpcssl.h header defines RpcCertGeneratePrincipalName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcssl.h header defines RpcCertGeneratePrincipalName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

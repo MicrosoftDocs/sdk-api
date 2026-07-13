@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_SetFocusedItem","Header_SetFocusedItem macro [Wind
 old-location: controls\Header_SetFocusedItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfocuseditem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_SetFocusedItem, Header_SetFocusedItem macro [Windows Controls], _shell_Header_SetFocusedItem, _shell_Header_SetFocusedItem_cpp, commctrl/Header_SetFocusedItem, controls.Header_SetFocusedItem, controls._shell_Header_SetFocusedItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Header_SetFocusedItem macro
+
+## -syntax
+
+```cpp
+BOOL Header_SetFocusedItem(
+  [in] HWND hwnd,
+  [in] int  iItem
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

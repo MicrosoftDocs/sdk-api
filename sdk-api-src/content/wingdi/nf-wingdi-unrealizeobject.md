@@ -56,7 +56,7 @@ The <b>UnrealizeObject</b> function resets the origin of a brush or resets a log
 
 ## -parameters
 
-### -param h [in]
+### -param hgdiobj [in]
 
 A handle to the logical palette to be reset.
 

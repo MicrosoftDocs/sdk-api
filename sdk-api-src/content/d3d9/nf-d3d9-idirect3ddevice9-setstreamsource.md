@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetStreamSource
 title: IDirect3DDevice9::SetStreamSource (d3d9.h)
-description: Binds a vertex buffer to a device data stream. For more information, see Setting the Stream Source (Direct3D 9).
+description: The IDirect3DDevice9::SetStreamSource method (d3d9helper.h) binds a vertex buffer to a device data stream.
 helpviewer_keywords: ["58d641c0-a959-cca3-67e2-7290e9426e8e","IDirect3DDevice9 interface [Direct3D 9]","SetStreamSource method","IDirect3DDevice9.SetStreamSource","IDirect3DDevice9::SetStreamSource","SetStreamSource","SetStreamSource method [Direct3D 9]","SetStreamSource method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetStreamSource","direct3d9.idirect3ddevice9__setstreamsource"]
 old-location: direct3d9\idirect3ddevice9__setstreamsource.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setstreamsource.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 58d641c0-a959-cca3-67e2-7290e9426e8e, IDirect3DDevice9 interface [Direct3D 9],SetStreamSource method, IDirect3DDevice9.SetStreamSource, IDirect3DDevice9::SetStreamSource, SetStreamSource, SetStreamSource method [Direct3D 9], SetStreamSource method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetStreamSource, direct3d9.idirect3ddevice9__setstreamsource
 req.header: d3d9.h
 req.include-header: D3D9.h

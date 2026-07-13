@@ -54,7 +54,7 @@ Specifies the source of the default association for a file name extension. Used 
 
 ## -enum-fields
 
-### -field AL_MACHINE
+### -field AL_MACHINE:0
 
 The machine-level default application association.
 

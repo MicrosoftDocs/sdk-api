@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.put_Description
 title: IAzScope::put_Description (azroles.h)
-description: Sets or retrieves a comment that describes the scope.
+description: Sets or retrieves a comment that describes the scope. (Put)
 helpviewer_keywords: ["AzScope object [Security]","Description property","Description property [Security]","Description property [Security]","AzScope object","Description property [Security]","IAzScope interface","IAzScope interface [Security]","Description property","IAzScope.Description","IAzScope.put_Description","IAzScope::Description","IAzScope::get_Description","IAzScope::put_Description","azroles/IAzScope::Description","azroles/IAzScope::get_Description","azroles/IAzScope::put_Description","put_Description","security.iazscope_description"]
 old-location: security\iazscope_description.htm
 tech.root: security

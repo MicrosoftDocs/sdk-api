@@ -68,7 +68,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. If a C
 
 ## -remarks
 
-Call this method to determine whether the current CSP supports exchange keys, signature keys, or both. The <i>pdwKeySpec</i> parameter will contain one or more of the following constants (defined in in Wincrypt.h):
+Call this method to determine whether the current CSP supports exchange keys, signature keys, or both. The <i>pdwKeySpec</i> parameter will contain one or more of the following constants (defined in Wincrypt.h):
 
 <ul>
 <li>AT_KEYEXCHANGE</li>

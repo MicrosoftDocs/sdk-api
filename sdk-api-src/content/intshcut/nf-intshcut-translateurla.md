@@ -1,8 +1,8 @@
 ---
 UID: NF:intshcut.TranslateURLA
 title: TranslateURLA function (intshcut.h)
-description: Applies common translations to a given URL string, creating a new URL string.
-helpviewer_keywords: ["TRANSLATEURL_FL_GUESS_PROTOCOL","TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL","TranslateURL","TranslateURL function [Windows Shell]","TranslateURLA","TranslateURLW","_win32_TranslateURL","intshcut/TranslateURL","intshcut/TranslateURLA","intshcut/TranslateURLW","shell.TranslateURL"]
+description: Applies common translations to a given URL string, creating a new URL string. (ANSI)
+helpviewer_keywords: ["TranslateURLA", "intshcut/TranslateURLA"]
 old-location: shell\TranslateURL.htm
 tech.root: shell
 ms.assetid: 2f089f5a-4d7c-4bb7-961c-5c6e3e73c7b7
@@ -141,5 +141,5 @@ This function does not validate the input URL string. A successful return value 
 
 
 > [!NOTE]
-> The intshcut.h header defines TranslateURL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The intshcut.h header defines TranslateURL as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

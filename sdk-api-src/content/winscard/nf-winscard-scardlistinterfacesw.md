@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardListInterfacesW
 title: SCardListInterfacesW function (winscard.h)
-description: Provides a list of interfaces supplied by a given card.
-helpviewer_keywords: ["SCardListInterfaces","SCardListInterfaces function [Security]","SCardListInterfacesA","SCardListInterfacesW","_smart_scardlistinterfaces","security.scardlistinterfaces","winscard/SCardListInterfaces","winscard/SCardListInterfacesA","winscard/SCardListInterfacesW"]
+description: Provides a list of interfaces supplied by a given card. (Unicode)
+helpviewer_keywords: ["SCardListInterfaces", "SCardListInterfaces function [Security]", "SCardListInterfacesW", "_smart_scardlistinterfaces", "security.scardlistinterfaces", "winscard/SCardListInterfaces", "winscard/SCardListInterfacesW"]
 old-location: security\scardlistinterfaces.htm
 tech.root: security
 ms.assetid: 2460c133-3ad4-4f73-9f55-56fc3bab9cdb
@@ -153,7 +153,7 @@ if ( 0 != cGuid )
 
 
 > [!NOTE]
-> The winscard.h header defines SCardListInterfaces as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardListInterfaces as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

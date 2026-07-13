@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWbemBackUpRestoreEx::Resume</b> method releases a lock on the Windows Management Instrumentation (WMI) repository so  operations can continue.
 
-## -parameters
+
 
 ## -returns
 

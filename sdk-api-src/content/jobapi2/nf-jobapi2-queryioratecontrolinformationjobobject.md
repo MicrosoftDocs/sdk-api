@@ -6,7 +6,7 @@ helpviewer_keywords: ["QueryIoRateControlInformationJobObject","QueryIoRateContr
 old-location: base\queryioratecontrolinformationjobobject.htm
 tech.root: backup
 ms.assetid: B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC
-ms.date: 12/05/2018
+ms.date: 01/09/2025
 ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject
 req.header: jobapi2.h
 req.include-header: 
@@ -52,6 +52,8 @@ api_name:
 
 ## -description
 
+**Windows 10, version 1607, and newer: This function is not supported.**
+
 Gets information about the control of the I/O rate for a job object.
 
 ## -parameters
@@ -82,9 +84,6 @@ If the function fails, the return value is zero. To get extended error informati
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-<div class="alert"><b>Important</b>  Starting with Windows 10, version 1607, this function is no longer supported.</div>
-<div> </div>
 
 ## -see-also
 

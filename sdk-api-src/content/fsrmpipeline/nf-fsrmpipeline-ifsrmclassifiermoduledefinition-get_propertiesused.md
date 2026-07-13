@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.get_PropertiesUsed
 title: IFsrmClassifierModuleDefinition::get_PropertiesUsed (fsrmpipeline.h)
-description: The list of property names that the classifier inspects.
+description: The list of property names that the classifier inspects. (Get)
 helpviewer_keywords: ["IFsrmClassifierModuleDefinition interface [File Server Resource Manager]","PropertiesUsed property","IFsrmClassifierModuleDefinition.PropertiesUsed","IFsrmClassifierModuleDefinition.get_PropertiesUsed","IFsrmClassifierModuleDefinition::PropertiesUsed","IFsrmClassifierModuleDefinition::get_PropertiesUsed","IFsrmClassifierModuleDefinition::put_PropertiesUsed","PropertiesUsed property [File Server Resource Manager]","PropertiesUsed property [File Server Resource Manager]","IFsrmClassifierModuleDefinition interface","fs.ifsrmclassifiermoduledefinition_propertiesused","fsrm.ifsrmclassifiermoduledefinition_propertiesused","fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesUsed","fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesUsed","fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesUsed","get_PropertiesUsed"]
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesused.htm
 tech.root: fsrm

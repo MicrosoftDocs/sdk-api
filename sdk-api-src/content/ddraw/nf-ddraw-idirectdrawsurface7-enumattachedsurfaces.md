@@ -84,7 +84,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>EnumAttachedSurfaces</b> method.
+
 
 ## -see-also
 

@@ -1,6 +1,7 @@
 {
   "tech": "backup",
   "headers": [
+    "processthreadsapi.h",
     "winbase.h",
     "sisbkup.h",
     "winnt.h"

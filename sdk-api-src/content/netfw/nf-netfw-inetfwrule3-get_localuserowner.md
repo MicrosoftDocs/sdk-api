@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule3.get_LocalUserOwner
 title: INetFwRule3::get_LocalUserOwner (netfw.h)
-description: Specifies the user security identifier (SID) of the user who is the owner of the rule.
+description: Specifies the user security identifier (SID) of the user who is the owner of the rule. (Get)
 helpviewer_keywords: ["INetFwRule3 interface [ICS/ICF]","LocalUserOwner property","INetFwRule3.LocalUserOwner","INetFwRule3.get_LocalUserOwner","INetFwRule3::LocalUserOwner","INetFwRule3::get_LocalUserOwner","INetFwRule3::put_LocalUserOwner","LocalUserOwner property [ICS/ICF]","LocalUserOwner property [ICS/ICF]","INetFwRule3 interface","get_LocalUserOwner","ics.inetfwrule3_localuserowner","netfw/INetFwRule3::LocalUserOwner","netfw/INetFwRule3::get_LocalUserOwner","netfw/INetFwRule3::put_LocalUserOwner"]
 old-location: ics\inetfwrule3_localuserowner.htm
 tech.root: ics

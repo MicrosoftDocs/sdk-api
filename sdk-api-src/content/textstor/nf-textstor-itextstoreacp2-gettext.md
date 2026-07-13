@@ -60,7 +60,7 @@ Specifies the starting character position.
 
 ### -param acpEnd [in]
 
-Specifies the ending character position. If this parameter is 1, then return all text in the text store.
+Specifies the ending character position. If this parameter is -1, then return all text in the text store.
 
 ### -param pchPlain [out]
 

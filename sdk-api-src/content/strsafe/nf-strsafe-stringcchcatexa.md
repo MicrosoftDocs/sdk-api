@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCatExA
 title: StringCchCatExA function (strsafe.h)
-description: Concatenates one string to another string.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCatEx","StringCchCatEx function [Menus and Other Resources]","StringCchCatExA","StringCchCatExW","_shell_StringCchCatEx","_shell_stringcchcatex_cpp","menurc.stringcchcatex","strsafe/StringCchCatEx","strsafe/StringCchCatExA","strsafe/StringCchCatExW","winui._shell_stringcchcatex"]
+description: Concatenates one string to another string. (StringCchCatExA)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchCatExA", "strsafe/StringCchCatExA"]
 old-location: menurc\stringcchcatex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatex.htm
@@ -58,7 +58,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 <b>StringCchCatEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="/cpp/c-runtime-library/reference/strcat-wcscat-mbscat">strcat, wcscat, _tcsat</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strcat-wcscat-mbscat">strcat, wcscat, _tcscat</a></li>
 <li>
 <a href="/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 </li>
@@ -76,7 +76,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 Type: <b>LPTSTR</b>
 
-The destination buffer, which contains the string that is to be concatened to <i>pszSrc</i>, and that will receive the entire resultant string. The string at <i>pszSrc</i> is added to the end of the string at <i>pszDest</i>.
+The destination buffer, which contains the string that is to be concatenated to <i>pszSrc</i>, and that will receive the entire resultant string. The string at <i>pszSrc</i> is added to the end of the string at <i>pszDest</i>.
 
 ### -param cchDest [in]
 
@@ -221,7 +221,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchCatEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCatEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+<b>StringCchCatEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCatEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
@@ -258,7 +258,7 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 > [!NOTE]
-> The strsafe.h header defines StringCchCatEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The strsafe.h header defines StringCchCatEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

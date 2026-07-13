@@ -54,39 +54,39 @@ Contains values used to indicate Microsoft UI Automation data types.
 
 ## -enum-fields
 
-### -field UIAutomationType_Int
+### -field UIAutomationType_Int:0x1
 
 An integer.
 
-### -field UIAutomationType_Bool
+### -field UIAutomationType_Bool:0x2
 
 An Boolean value.
 
-### -field UIAutomationType_String
+### -field UIAutomationType_String:0x3
 
 A null-terminated character string.
 
-### -field UIAutomationType_Double
+### -field UIAutomationType_Double:0x4
 
 A double-precision floating-point number.
 
-### -field UIAutomationType_Point
+### -field UIAutomationType_Point:0x5
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the x- and y-coordinates of a point.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the x- and y-coordinates of a point.
 
-### -field UIAutomationType_Rect
+### -field UIAutomationType_Rect:0x6
 
 A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the upper-left and lower-right corners of a rectangle. This type is not supported for a custom UI Automation property.
 
-### -field UIAutomationType_Element
+### -field UIAutomationType_Element:0x7
 
 The address of the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interface of a UI Automation element.
 
-### -field UIAutomationType_Array
+### -field UIAutomationType_Array:0x10000
 
 An array of an unspecified type.
 
-### -field UIAutomationType_Out
+### -field UIAutomationType_Out:0x20000
 
 The address of a variable that receives a value retrieved by a function.
 
@@ -108,7 +108,7 @@ An array of double-precision floating-point numbers. This type is not supported 
 
 ### -field UIAutomationType_PointArray
 
-An array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures, each containing the x- and y-coordinates of a point. This type is not supported for a custom UI Automation property.
+An array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures, each containing the x- and y-coordinates of a point. This type is not supported for a custom UI Automation property.
 
 ### -field UIAutomationType_RectArray
 
@@ -136,7 +136,7 @@ The address of a variable that receives a double-precision floating-point number
 
 ### -field UIAutomationType_OutPoint
 
-The address of a variable that receives a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
+The address of a variable that receives a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure.
 
 ### -field UIAutomationType_OutRect
 
@@ -164,7 +164,7 @@ The address of a variable that receives an array of double-precision floating-po
 
 ### -field UIAutomationType_OutPointArray
 
-The address of a variable that receives an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures.
+The address of a variable that receives an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures.
 
 ### -field UIAutomationType_OutRectArray
 

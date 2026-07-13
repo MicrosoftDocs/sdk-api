@@ -6,7 +6,7 @@ helpviewer_keywords: ["ScrollBar_Show","ScrollBar_Show macro [Windows Controls]"
 old-location: controls\ScrollBar_Show.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_show.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ScrollBar_Show, ScrollBar_Show macro [Windows Controls], _win32_ScrollBar_Show, _win32_ScrollBar_Show_cpp, controls.ScrollBar_Show, controls._win32_ScrollBar_Show, windowsx/ScrollBar_Show
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ScrollBar_Show macro
+
+## -syntax
+
+```cpp
+BOOL ScrollBar_Show(
+   HWND hwndCtl,
+   BOOL fShow
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if the window was previously visible, or <b>FALSE</b> if it was previously hidden.
 
 
 ## -description

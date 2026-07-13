@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>RtlGenRandom</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function.]
+<p class="CCE_Message">[The <b>RtlGenRandom</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/win32/api/Bcrypt/nf-bcrypt-bcryptgenrandom">BCryptGenRandom</a> or <a href="/windows/win32/seccng/processprng">ProcessPrng</a> functions.]
 
 The <b>RtlGenRandom</b> function  generates a pseudo-random number.
 <div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction036</b> in Advapi32.dll. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>

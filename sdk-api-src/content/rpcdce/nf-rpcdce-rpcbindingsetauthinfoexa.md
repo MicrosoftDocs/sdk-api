@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfoExA
 title: RpcBindingSetAuthInfoExA function (rpcdce.h)
-description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information.
-helpviewer_keywords: ["RpcBindingSetAuthInfoEx","RpcBindingSetAuthInfoEx function [RPC]","RpcBindingSetAuthInfoExA","RpcBindingSetAuthInfoExW","_rpc_rpcbindingsetauthinfoex","rpc.rpcbindingsetauthinfoex","rpcdce/RpcBindingSetAuthInfoEx","rpcdce/RpcBindingSetAuthInfoExA","rpcdce/RpcBindingSetAuthInfoExW"]
+description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information. (ANSI)
+helpviewer_keywords: ["RpcBindingSetAuthInfoExA", "rpcdce/RpcBindingSetAuthInfoExA"]
 old-location: rpc\rpcbindingsetauthinfoex.htm
 tech.root: Rpc
 ms.assetid: 2438816c-995e-4398-999d-48a3538eec18
@@ -88,7 +88,7 @@ Handle for the structure that contains the client's authentication and authoriza
 
 
 
-When using the <a href="/windows/desktop/Rpc/authentication-service-constants">RPC_C_AUTHN_WINNT</a>authentication service <i>AuthIdentity</i> should be a pointer to a 
+When using the <a href="/windows/desktop/Rpc/authentication-service-constants">RPC_C_AUTHN_WINNT</a> authentication service <i>AuthIdentity</i> should be a pointer to a 
 <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure (defined in Rpcdce.h). Kerberos and Negotiate authentication services also use the 
 <b>SEC_WINNT_AUTH_IDENTITY</b> structure.
 
@@ -99,10 +99,6 @@ Specify a null value to use the security login context for the current address s
 Authorization service implemented by the server for the interface of interest. The validity and trustworthiness of authorization data, like any application data, depends on the authentication service and authentication level selected. This parameter is ignored when using the RPC_C_AUTHN_WINNT authentication service. See Note.
 
 ### -param SecurityQos
-
-TBD
-
-### -param SecurityQOS
 
 Pointer to the 
 <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines the security quality-of-service. 
@@ -198,7 +194,7 @@ Due to the varying requirements of different versions of Microsoft RPC, Microsof
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcBindingSetAuthInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcBindingSetAuthInfoEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

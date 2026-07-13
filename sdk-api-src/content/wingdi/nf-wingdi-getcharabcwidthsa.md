@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetCharABCWidthsA
 title: GetCharABCWidthsA function (wingdi.h)
-description: The GetCharABCWidths function retrieves the widths, in logical units, of consecutive characters in a specified range from the current TrueType font. This function succeeds only with TrueType fonts.
-helpviewer_keywords: ["GetCharABCWidths","GetCharABCWidths function [Windows GDI]","GetCharABCWidthsA","GetCharABCWidthsW","_win32_GetCharABCWidths","gdi.getcharabcwidths","wingdi/GetCharABCWidths","wingdi/GetCharABCWidthsA","wingdi/GetCharABCWidthsW"]
+description: The GetCharABCWidths function retrieves the widths, in logical units, of consecutive characters in a specified range from the current TrueType font. This function succeeds only with TrueType fonts. (ANSI)
+helpviewer_keywords: ["GetCharABCWidthsA", "wingdi/GetCharABCWidthsA"]
 old-location: gdi\getcharabcwidths.htm
 tech.root: gdi
 ms.assetid: b48ab66d-ff0a-48d9-b7dd-28610bf69d51
@@ -100,7 +100,7 @@ To retrieve the widths of characters in non-TrueType fonts, applications should 
 
 
 > [!NOTE]
-> The wingdi.h header defines GetCharABCWidths as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetCharABCWidths as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

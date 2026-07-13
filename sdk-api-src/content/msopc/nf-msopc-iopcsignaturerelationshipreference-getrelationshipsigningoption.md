@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetRelationshipSigningOption
 title: IOpcSignatureRelationshipReference::GetRelationshipSigningOption (msopc.h)
-description: Gets a value that describes whether all or a subset of relationships that are stored in the referenced�Relationships part are selected.
+description: Gets a value that describes whether all or a subset of relationships that are stored in the referenced Relationships part are selected.
 helpviewer_keywords: ["GetRelationshipSigningOption","GetRelationshipSigningOption method [Open Packaging Conventions]","GetRelationshipSigningOption method [Open Packaging Conventions]","IOpcSignatureRelationshipReference interface","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","GetRelationshipSigningOption method","IOpcSignatureRelationshipReference.GetRelationshipSigningOption","IOpcSignatureRelationshipReference::GetRelationshipSigningOption","msopc/IOpcSignatureRelationshipReference::GetRelationshipSigningOption","opc.iopcsignaturerelationshipreference_getrelationshipsigningoption"]
 old-location: opc\iopcsignaturerelationshipreference_getrelationshipsigningoption.htm
 tech.root: OPC

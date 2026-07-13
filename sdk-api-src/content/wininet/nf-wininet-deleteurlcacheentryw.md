@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.DeleteUrlCacheEntryW
 title: DeleteUrlCacheEntryW function (wininet.h)
-description: Removes the file associated with the source name from the cache, if the file exists.
-helpviewer_keywords: ["DeleteUrlCacheEntry","DeleteUrlCacheEntry function [WinINet]","DeleteUrlCacheEntryA","DeleteUrlCacheEntryW","_inet_deleteurlcacheentry_function","wininet.deleteurlcacheentry","wininet/DeleteUrlCacheEntry","wininet/DeleteUrlCacheEntryA","wininet/DeleteUrlCacheEntryW"]
+description: The DeleteUrlCacheEntryW (Unicode) function (wininet.h) removes the file associated with the source name from the cache, if the file exists.
+helpviewer_keywords: ["DeleteUrlCacheEntry", "DeleteUrlCacheEntry function [WinINet]", "DeleteUrlCacheEntryW", "_inet_deleteurlcacheentry_function", "wininet.deleteurlcacheentry", "wininet/DeleteUrlCacheEntry", "wininet/DeleteUrlCacheEntryW"]
 old-location: wininet\deleteurlcacheentry.htm
 tech.root: wininet
 ms.assetid: bb765cba-6662-4dca-8f9f-3f35e37da28a
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: DeleteUrlCacheEntry, DeleteUrlCacheEntry function [WinINet], DeleteUrlCacheEntryA, DeleteUrlCacheEntryW, _inet_deleteurlcacheentry_function, wininet.deleteurlcacheentry, wininet/DeleteUrlCacheEntry, wininet/DeleteUrlCacheEntryA, wininet/DeleteUrlCacheEntryW
 req.header: wininet.h
 req.include-header: 
@@ -103,7 +103,7 @@ The file is not in the cache.
 
 
 > [!NOTE]
-> The wininet.h header defines DeleteUrlCacheEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines DeleteUrlCacheEntry as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

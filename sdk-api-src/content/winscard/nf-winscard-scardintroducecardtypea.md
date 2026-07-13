@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardIntroduceCardTypeA
 title: SCardIntroduceCardTypeA function (winscard.h)
-description: Introduces a smart card to the smart card subsystem (for the active user) by adding it to the smart card database.
-helpviewer_keywords: ["SCardIntroduceCardType","SCardIntroduceCardType function [Security]","SCardIntroduceCardTypeA","SCardIntroduceCardTypeW","_smart_scardintroducecardtype","security.scardintroducecardtype","winscard/SCardIntroduceCardType","winscard/SCardIntroduceCardTypeA","winscard/SCardIntroduceCardTypeW"]
+description: Introduces a smart card to the smart card subsystem (for the active user) by adding it to the smart card database. (ANSI)
+helpviewer_keywords: ["SCardIntroduceCardTypeA", "winscard/SCardIntroduceCardTypeA"]
 old-location: security\scardintroducecardtype.htm
 tech.root: security
 ms.assetid: 1ac88466-1277-44d7-a471-b31d6bfce99e
@@ -171,7 +171,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 > [!NOTE]
-> The winscard.h header defines SCardIntroduceCardType as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardIntroduceCardType as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

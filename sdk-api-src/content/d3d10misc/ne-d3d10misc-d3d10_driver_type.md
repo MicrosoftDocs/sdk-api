@@ -54,23 +54,23 @@ The device-driver type.
 
 ## -enum-fields
 
-### -field D3D10_DRIVER_TYPE_HARDWARE
+### -field D3D10_DRIVER_TYPE_HARDWARE:0
 
 A hardware device; commonly called a HAL device.
 
-### -field D3D10_DRIVER_TYPE_REFERENCE
+### -field D3D10_DRIVER_TYPE_REFERENCE:1
 
 A reference device; commonly called a REF device.
 
-### -field D3D10_DRIVER_TYPE_NULL
+### -field D3D10_DRIVER_TYPE_NULL:2
 
 A NULL device; which is a reference device without render capability.
 
-### -field D3D10_DRIVER_TYPE_SOFTWARE
+### -field D3D10_DRIVER_TYPE_SOFTWARE:3
 
 Reserved for later use.
 
-### -field D3D10_DRIVER_TYPE_WARP
+### -field D3D10_DRIVER_TYPE_WARP:5
 
 A WARP driver, which is a high-performance software rasterizer. The rasterizer supports feature level 9_1 through level 10.1 with a 
         high performance software implementation when hardware is not available. For more information about using a WARP driver, see <a href="/windows/desktop/direct3darticles/directx-warp">Windows Advanced Rasterization Platform (WARP) In-Depth Guide</a>.

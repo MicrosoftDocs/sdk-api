@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.DAD_ShowDragImage
 title: DAD_ShowDragImage function (shlobj_core.h)
-description: Shows or hides the image being dragged.
+description: Shows or hides the image being dragged. (DAD_ShowDragImage)
 helpviewer_keywords: ["DAD_ShowDragImage","DAD_ShowDragImage function [Windows Shell]","FALSE","TRUE","shell.DAD_ShowDragImage","shell_DAD_ShowDragImage","shlobj_core/DAD_ShowDragImage"]
 old-location: shell\DAD_ShowDragImage.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkRecognitionAlternatesSelection
 title: InkRecognitionAlternatesSelection (msinkaut.h)
-description: Not implemented.
+description: Not implemented. (InkRecognitionAlternatesSelection)
 helpviewer_keywords: ["IRAS_All","IRAS_DefaultCount","IRAS_Start","InkRecognitionAlternatesSelection","InkRecognitionAlternatesSelection enumeration [Tablet PC]","abc9fecf-7754-4f32-974f-5febfc68a6a7","msinkaut/IRAS_All","msinkaut/IRAS_DefaultCount","msinkaut/IRAS_Start","msinkaut/InkRecognitionAlternatesSelection","tablet.inkrecognitionalternatesselection"]
 old-location: tablet\inkrecognitionalternatesselection.htm
 tech.root: tablet
@@ -54,15 +54,15 @@ Not implemented.
 
 ## -enum-fields
 
-### -field IRAS_Start
+### -field IRAS_Start:0
 
 Reserved.
 
-### -field IRAS_DefaultCount
+### -field IRAS_DefaultCount:10
 
 Reserved.
 
-### -field IRAS_All
+### -field IRAS_All:-1
 
 Reserved.
 

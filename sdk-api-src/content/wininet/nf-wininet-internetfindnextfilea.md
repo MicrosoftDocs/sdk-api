@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetFindNextFileA
 title: InternetFindNextFileA function (wininet.h)
-description: Continues a file search started as a result of a previous call to FtpFindFirstFile.Windows XP and Windows Server 2003 R2 and earlier:  Or continues a file search as a result of a previous call to GopherFindFirstFile.
-helpviewer_keywords: ["InternetFindNextFile","InternetFindNextFile function [WinINet]","InternetFindNextFileA","InternetFindNextFileW","_inet_internetfindnextfile_function","wininet.internetfindnextfile","wininet/InternetFindNextFile","wininet/InternetFindNextFileA","wininet/InternetFindNextFileW"]
+description: Continues a file search started as a result of a previous call to FtpFindFirstFile.Windows XP and Windows Server 2003 R2 and earlier:  Or continues a file search as a result of a previous call to GopherFindFirstFile. (ANSI)
+helpviewer_keywords: ["InternetFindNextFileA", "wininet/InternetFindNextFileA"]
 old-location: wininet\internetfindnextfile.htm
 tech.root: wininet
 ms.assetid: 7c53e399-b8a5-4cc0-9ef6-88d9a525d87f
@@ -90,7 +90,7 @@ Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get 
 
 
 > [!NOTE]
-> The wininet.h header defines InternetFindNextFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetFindNextFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

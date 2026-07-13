@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-aclui-l1-1-0.dll
  - Aclui.dll
 api_name:
  - EditSecurity

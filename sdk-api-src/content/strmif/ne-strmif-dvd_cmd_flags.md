@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_CMD_FLAGS","DVD_CMD_FLAGS","DVD_CMD_FLAGS enumeration
 old-location: dshow\dvd_cmd_flags.htm
 tech.root: dshow
 ms.assetid: 05eb5ab8-a1b3-4876-bac3-29510af8cdbd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_CMD_FLAGS, DVD_CMD_FLAGS , DVD_CMD_FLAGS enumeration [DirectShow], DVD_CMD_FLAGSEnumeration, DVD_CMD_FLAG_Block, DVD_CMD_FLAG_EndAfterRendered, DVD_CMD_FLAG_Flush, DVD_CMD_FLAG_None, DVD_CMD_FLAG_SendEvents, DVD_CMD_FLAG_StartWhenRendered, dshow.dvd_cmd_flags, strmif/DVD_CMD_FLAGS, strmif/DVD_CMD_FLAG_Block, strmif/DVD_CMD_FLAG_EndAfterRendered, strmif/DVD_CMD_FLAG_Flush, strmif/DVD_CMD_FLAG_None, strmif/DVD_CMD_FLAG_SendEvents, strmif/DVD_CMD_FLAG_StartWhenRendered
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,31 +52,33 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Defines flags that control how the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> filter handles command synchronization.
 
 ## -enum-fields
 
-### -field DVD_CMD_FLAG_None
+### -field DVD_CMD_FLAG_None:0
 
 The DVD Navigator will not flush its buffers when it issues the command, will not send any events, and will not to block the thread of execution on any method call.
 
-### -field DVD_CMD_FLAG_Flush
+### -field DVD_CMD_FLAG_Flush:0x1
 
 The DVD Navigator will flush all of its buffered video data before issuing the command. This can cause the DVD Navigator to discard approximately two seconds of video, which will decrease the response time but cause a gap in the playback data.
 
-### -field DVD_CMD_FLAG_SendEvents
+### -field DVD_CMD_FLAG_SendEvents:0x2
 
 The DVD Navigator will send an <a href="/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a> event when the command begins, and an <a href="/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a> event when the command ends. The event parameters contain the status code of the operation.
 
-### -field DVD_CMD_FLAG_Block
+### -field DVD_CMD_FLAG_Block:0x4
 
 The DVD Navigator blocks until the command completes or is canceled.
 
-### -field DVD_CMD_FLAG_StartWhenRendered
+### -field DVD_CMD_FLAG_StartWhenRendered:0x8
 
 Currently not used.
 
-### -field DVD_CMD_FLAG_EndAfterRendered
+### -field DVD_CMD_FLAG_EndAfterRendered:0x10
 
 The DVD Navigator will block until the specified action is actually rendered. This flag can be used with the following methods:
 

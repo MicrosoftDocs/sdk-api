@@ -1,5 +1,5 @@
 ---
-UID: NS:winuser.__unnamed_struct_5
+UID: NS:winuser.DLGITEMTEMPLATE
 title: DLGITEMTEMPLATE (winuser.h)
 description: Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a DLGTEMPLATE structure to form a standard template for a dialog box.
 helpviewer_keywords: ["*LPDLGITEMTEMPLATEA","*LPDLGITEMTEMPLATEW","*PDLGITEMTEMPLATEA","*PDLGITEMTEMPLATEW","DLGITEMTEMPLATE","DLGITEMTEMPLATE structure [Dialog Boxes]","PDLGITEMTEMPLATE","PDLGITEMTEMPLATE structure pointer [Dialog Boxes]","_win32_DLGITEMTEMPLATE_str","_win32_dlgitemtemplate_str_cpp","dlgbox.dlgitemtemplate","winui._win32_dlgitemtemplate_str","winuser/DLGITEMTEMPLATE","winuser/PDLGITEMTEMPLATE"]
@@ -215,3 +215,4 @@ The
 
 
 <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a>
+

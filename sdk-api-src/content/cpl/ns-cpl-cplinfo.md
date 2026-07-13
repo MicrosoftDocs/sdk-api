@@ -1,7 +1,7 @@
 ---
 UID: NS:cpl.tagCPLINFO
 title: CPLINFO (cpl.h)
-description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
+description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. (CPLINFO)
 helpviewer_keywords: ["*LPCPLINFO","CPLINFO","CPLINFO structure [Windows Shell]","_win32_CPLINFO","cpl/CPLINFO","shell.CPLINFO"]
 old-location: shell\CPLINFO.htm
 tech.root: shell

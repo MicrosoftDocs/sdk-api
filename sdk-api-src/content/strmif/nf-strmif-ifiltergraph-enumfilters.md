@@ -6,7 +6,7 @@ helpviewer_keywords: ["EnumFilters","EnumFilters method [DirectShow]","EnumFilte
 old-location: dshow\ifiltergraph_enumfilters.htm
 tech.root: dshow
 ms.assetid: 3a6dcd1a-3ec3-4f0f-8e82-2d33ad775eec
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: EnumFilters, EnumFilters method [DirectShow], EnumFilters method [DirectShow],IFilterGraph interface, EnumFilters method [DirectShow],IGraphBuilder interface, IFilterGraph interface [DirectShow],EnumFilters method, IFilterGraph.EnumFilters, IFilterGraph::EnumFilters, IFilterGraphEnumFilters, IGraphBuilder interface [DirectShow],EnumFilters method, IGraphBuilder.EnumFilters, IGraphBuilder::EnumFilters, dshow.ifiltergraph_enumfilters, strmif/IFilterGraph::EnumFilters, strmif/IGraphBuilder::EnumFilters
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>EnumFilters</code> method provides an enumerator for all filters in the graph.
 

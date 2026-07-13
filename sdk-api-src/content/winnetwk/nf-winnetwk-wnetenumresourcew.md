@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetEnumResourceW
 title: WNetEnumResourceW function (winnetwk.h)
-description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.
-helpviewer_keywords: ["WNetEnumResource","WNetEnumResource function [Windows Networking (WNet)]","WNetEnumResourceA","WNetEnumResourceW","_win32_wnetenumresource","winnetwk/WNetEnumResource","winnetwk/WNetEnumResourceA","winnetwk/WNetEnumResourceW","wnet.wnetenumresource"]
+description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function. (Unicode)
+helpviewer_keywords: ["WNetEnumResource", "WNetEnumResource function [Windows Networking (WNet)]", "WNetEnumResourceW", "_win32_wnetenumresource", "winnetwk/WNetEnumResource", "winnetwk/WNetEnumResourceW", "wnet.wnetenumresource"]
 old-location: wnet\wnetenumresource.htm
 tech.root: WNet
 ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
@@ -74,8 +74,7 @@ If the function succeeds, on return the variable pointed to by this parameter co
 
 ### -param lpBuffer [out]
 
-Pointer to the buffer that receives the enumeration results. The results are returned as an array of 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structures. Note that the buffer you allocate must be large enough to hold the structures, plus the strings to which their members point. For more information, see the following Remarks section. 
+Pointer to the buffer that receives the enumeration results. The results are returned as an array of <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structures. Note that the buffer you allocate must be large enough to hold the structures, plus the strings to which their members point. For more information, see the following Remarks section. 
 
 
 
@@ -198,11 +197,11 @@ For a code sample that illustrates an application-defined function that enumerat
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetEnumResource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetEnumResource as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a>
 
 
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardForgetCardTypeW
 title: SCardForgetCardTypeW function (winscard.h)
-description: Removes an introduced smart card from the smart card subsystem.
-helpviewer_keywords: ["SCardForgetCardType","SCardForgetCardType function [Security]","SCardForgetCardTypeA","SCardForgetCardTypeW","_smart_scardforgetcardtype","security.scardforgetcardtype","winscard/SCardForgetCardType","winscard/SCardForgetCardTypeA","winscard/SCardForgetCardTypeW"]
+description: Removes an introduced smart card from the smart card subsystem. (Unicode)
+helpviewer_keywords: ["SCardForgetCardType", "SCardForgetCardType function [Security]", "SCardForgetCardTypeW", "_smart_scardforgetcardtype", "security.scardforgetcardtype", "winscard/SCardForgetCardType", "winscard/SCardForgetCardTypeW"]
 old-location: security\scardforgetcardtype.htm
 tech.root: security
 ms.assetid: 4f2d4791-d517-43e4-bff9-f88e12983dea
@@ -127,7 +127,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 > [!NOTE]
-> The winscard.h header defines SCardForgetCardType as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardForgetCardType as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

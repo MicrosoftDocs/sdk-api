@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiSetComponentStateW
 title: MsiSetComponentStateW function (msiquery.h)
-description: The MsiSetComponentState function sets a component to the requested state.
-helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiSetComponentState","MsiSetComponentState function","MsiSetComponentStateA","MsiSetComponentStateW","_msi_msisetcomponentstate","msiquery/MsiSetComponentState","msiquery/MsiSetComponentStateA","msiquery/MsiSetComponentStateW","setup.msisetcomponentstate"]
+description: The MsiSetComponentState function sets a component to the requested state. (Unicode)
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MsiSetComponentState", "MsiSetComponentState function", "MsiSetComponentStateW", "_msi_msisetcomponentstate", "msiquery/MsiSetComponentState", "msiquery/MsiSetComponentStateW", "setup.msisetcomponentstate"]
 old-location: setup\msisetcomponentstate.htm
 tech.root: setup
 ms.assetid: d538c81f-130b-4522-9f85-47f04e24f125
@@ -129,7 +129,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiSetComponentState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiSetComponentState as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetEnableThinning","GetEnableThinning method [windows Med
 old-location: wmformat\iwmreadernetworkconfig2_getenablethinning.htm
 tech.root: wmformat
 ms.assetid: 3ad43406-56db-48db-96a7-419b6719dbd4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetEnableThinning, GetEnableThinning method [windows Media Format], GetEnableThinning method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableThinning method, IWMReaderNetworkConfig2.GetEnableThinning, IWMReaderNetworkConfig2::GetEnableThinning, IWMReaderNetworkConfig2GetEnableThinning, wmformat.iwmreadernetworkconfig2_getenablethinning, wmsdkidl/IWMReaderNetworkConfig2::GetEnableThinning
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetEnableThinning</b> method ascertains whether Intelligent Streaming is enabled. Intelligent Streaming is the communication between the reader and the streaming server that enables the server to change the content sent based on available bandwidth.
 

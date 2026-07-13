@@ -1,12 +1,10 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathA
 title: SHGetFolderPathA function (shlobj_core.h)
-author: windows-sdk-content
-description: Deprecated.
+description: Deprecated. (SHGetFolderPathA)
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
 req.header: shlobj_core.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -40,6 +37,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell32-shellfolders-l1-2-1.dll
+ - ext-ms-win-shell32-shellfolders-l1-2-0.dll
+ - api-ms-win-shell-shellfolders-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-shell-shellfolders-l1-1-0.dll
  - KernelBase.dll
@@ -123,13 +123,13 @@ Retrieve the folder's default path.
 
 Type: <b>LPTSTR</b>
 
-A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\".
+A pointer to a <b>null</b>-terminated string of length MAX_PATH which will receive the path. If an error occurs or S_FALSE is returned, this string will be empty. The returned path does not include a trailing backslash. For example, "C:\Users" is returned rather than "C:\Users\\".
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

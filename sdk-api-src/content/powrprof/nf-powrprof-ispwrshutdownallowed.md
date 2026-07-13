@@ -54,7 +54,7 @@ api_name:
 
 Determines whether the computer supports the soft off power state.
 
-## -parameters
+
 
 ## -returns
 

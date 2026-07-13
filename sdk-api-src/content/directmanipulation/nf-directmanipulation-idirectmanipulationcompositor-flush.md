@@ -52,7 +52,7 @@ api_name:
 
 Commits all pending updates in the compositor to the system for rendering.
 
-## -parameters
+
 
 ## -returns
 

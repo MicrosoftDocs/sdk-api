@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-perf-legacy-l1-1-0.dll
  - AdvAPI32.dll
 api_name:
  - PerfQueryCounterInfo

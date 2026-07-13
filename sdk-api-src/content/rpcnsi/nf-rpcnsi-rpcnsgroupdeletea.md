@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupDeleteA
 title: RpcNsGroupDeleteA function (rpcnsi.h)
-description: The RpcNsGroupDelete function deletes a group attribute.
-helpviewer_keywords: ["RPC_C_NS_SYNTAX_DCE","RPC_C_NS_SYNTAX_DEFAULT","RpcNsGroupDelete","RpcNsGroupDelete function [RPC]","RpcNsGroupDeleteA","RpcNsGroupDeleteW","_rpc_rpcnsgroupdelete","rpc.rpcnsgroupdelete","rpcnsi/RpcNsGroupDelete","rpcnsi/RpcNsGroupDeleteA","rpcnsi/RpcNsGroupDeleteW"]
+description: The RpcNsGroupDelete function deletes a group attribute. (ANSI)
+helpviewer_keywords: ["RPC_C_NS_SYNTAX_DCE", "RPC_C_NS_SYNTAX_DEFAULT", "RpcNsGroupDeleteA", "rpcnsi/RpcNsGroupDeleteA"]
 old-location: rpc\rpcnsgroupdelete.htm
 tech.root: Rpc
 ms.assetid: 4455e891-7846-47b5-9283-549c3451b70e
@@ -195,7 +195,7 @@ Neither the specified name service–database entry nor the group members are de
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsGroupDelete as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsGroupDelete as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

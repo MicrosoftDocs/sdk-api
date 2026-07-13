@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoRegisterInitializeSpy
 title: CoRegisterInitializeSpy function (objbase.h)
-description: Registers an implementation of the IInitializeSpy interface. The IInitializeSpy interface is defied to allow developers to perform initialization and cleanup on COM apartments.
+description: Registers an implementation of the IInitializeSpy interface. The IInitializeSpy interface is defined to allow developers to perform initialization and cleanup on COM apartments.
 helpviewer_keywords: ["CoRegisterInitializeSpy","CoRegisterInitializeSpy function [COM]","_com_CoRegisterInitializeSpy","com.coregisterinitializespy","objbase/CoRegisterInitializeSpy"]
 old-location: com\coregisterinitializespy.htm
 tech.root: com
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-private-l1-3-1.dll
+ - api-ms-win-core-com-private-l1-3-0.dll
+ - api-ms-win-core-com-private-l1-2-0.dll
  - Ole32.dll
  - API-MS-Win-Core-Com-private-l1-1-0.dll
  - ComBase.dll
@@ -50,12 +53,9 @@ api_name:
  - CoRegisterInitializeSpy
 ---
 
-# CoRegisterInitializeSpy function
-
-
 ## -description
 
-Registers an implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> interface. The <b>IInitializeSpy</b> interface is defied to allow developers to perform initialization and cleanup on COM apartments.
+Registers an implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> interface. The <b>IInitializeSpy</b> interface is defined to allow developers to perform initialization and cleanup on COM apartments.
 
 ## -parameters
 
@@ -127,4 +127,6 @@ It is unpredictable whether a call to <b>CoRegisterInitializeSpy</b> from within
 
 
 
+
 <a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>
+

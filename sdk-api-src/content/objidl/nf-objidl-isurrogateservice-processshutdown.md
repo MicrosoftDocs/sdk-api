@@ -66,11 +66,15 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_UNEXPECTED.
 
 The shutdown type is defined by the following enum.
 
-<pre class="syntax" xml:space="preserve"><code>typedef enum tagShutdownType { 
+
+``` syntax
+typedef enum tagShutdownType { 
     IdleShutdown, 
     ForcedShutdown
 } ShutdownType;
-</code></pre>
+
+```
+
 
 ## -see-also
 

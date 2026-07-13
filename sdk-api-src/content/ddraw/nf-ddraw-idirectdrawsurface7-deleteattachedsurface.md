@@ -86,7 +86,7 @@ Implicit attachments, those formed by DirectDraw rather than the <a href="/windo
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>DeleteAttachedSurface</b> method.
+
 
 ## -see-also
 

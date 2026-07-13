@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetGreen(float)
 title: IDCompositionShadowEffect::SetGreen (dcomp.h)
-description: Sets the green value for the color of the shadow.
+description: Sets the green value for the color of the shadow. (overload 1/2)
 helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetGreen method","IDCompositionShadowEffect.SetGreen","IDCompositionShadowEffect::SetGreen","IDCompositionShadowEffect::SetGreen(float)","SetGreen","SetGreen method [DirectComposition]","SetGreen method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetGreen","directcomp.idcompositionshadoweffect_setgreen"]
 old-location: directcomp\idcompositionshadoweffect_setgreen.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ The green value for the color of the shadow.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

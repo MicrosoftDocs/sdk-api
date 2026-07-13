@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueueDefaultCopyW
 title: SetupQueueDefaultCopyW function (setupapi.h)
-description: The SetupQueueDefaultCopy function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file.
-helpviewer_keywords: ["SetupQueueDefaultCopy","SetupQueueDefaultCopy function [Setup API]","SetupQueueDefaultCopyA","SetupQueueDefaultCopyW","_setupapi_setupqueuedefaultcopy","setup.setupqueuedefaultcopy","setupapi/SetupQueueDefaultCopy","setupapi/SetupQueueDefaultCopyA","setupapi/SetupQueueDefaultCopyW"]
+description: The SetupQueueDefaultCopy function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file. (Unicode)
+helpviewer_keywords: ["SetupQueueDefaultCopy", "SetupQueueDefaultCopy function [Setup API]", "SetupQueueDefaultCopyW", "_setupapi_setupqueuedefaultcopy", "setup.setupqueuedefaultcopy", "setupapi/SetupQueueDefaultCopy", "setupapi/SetupQueueDefaultCopyW"]
 old-location: setup\setupqueuedefaultcopy.htm
 tech.root: setup
 ms.assetid: 57e8dc72-5b0e-486c-9819-fa44085580eb
@@ -289,7 +289,7 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupQueueDefaultCopy as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupQueueDefaultCopy as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

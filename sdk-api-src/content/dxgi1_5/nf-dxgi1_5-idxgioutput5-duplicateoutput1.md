@@ -64,7 +64,7 @@ A pointer to the Direct3D device interface that you can use to process the deskt
 
 Type: <b>UINT</b>
 
-Reserved for future use; must be zero.
+A bitfield of <b>DXGI_OUTDUPL_FLAG</b> enumeration values describing the kind of capture surface to create.
 
 ### -param SupportedFormatsCount [in]
 

@@ -53,7 +53,7 @@ api_name:
 
 Instantiates a new instance of an uninitialized <a href="/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> structure.
 
-## -parameters
+
 
 ## -remarks
 

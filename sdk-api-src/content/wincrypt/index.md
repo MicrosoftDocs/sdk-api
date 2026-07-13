@@ -4,7 +4,8 @@ title: Wincrypt.h header
 ms.assetid: 9f9635e4-3e62-30ea-ac59-30f821c272a5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: security
 f1_keywords:
  - wincrypt

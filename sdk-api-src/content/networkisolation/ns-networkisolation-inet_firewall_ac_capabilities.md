@@ -1,12 +1,12 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_AC_CAPABILITIES
 title: INET_FIREWALL_AC_CAPABILITIES (networkisolation.h)
-description: Contains information about the capabilities of an app container.
+description: The INET_FIREWALL_AC_CAPABILITIES structure contains information about the capabilities of an app container. (INET_FIREWALL_AC_CAPABILITIES)
 helpviewer_keywords: ["*PINET_FIREWALL_AC_CAPABILITIES","INET_FIREWALL_AC_CAPABILITIES","INET_FIREWALL_AC_CAPABILITIES structure [ICS/ICF]","PINET_FIREWALL_AC_CAPABILITIES","PINET_FIREWALL_AC_CAPABILITIES structure pointer [ICS/ICF]","_INET_FIREWALL_AC_CAPABILITIES","ics.inet_firewall_ac_capabilities","networkisolation/INET_FIREWALL_AC_CAPABILITIES","networkisolation/PINET_FIREWALL_AC_CAPABILITIES"]
 old-location: ics\inet_firewall_ac_capabilities.htm
 tech.root: ics
 ms.assetid: 37386225-0c64-49c0-a21c-cecd8bdb1f1f
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PINET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES structure [ICS/ICF], PINET_FIREWALL_AC_CAPABILITIES, PINET_FIREWALL_AC_CAPABILITIES structure pointer [ICS/ICF], _INET_FIREWALL_AC_CAPABILITIES, ics.inet_firewall_ac_capabilities, networkisolation/INET_FIREWALL_AC_CAPABILITIES, networkisolation/PINET_FIREWALL_AC_CAPABILITIES'
 req.header: networkisolation.h
 req.include-header: Netfw.h

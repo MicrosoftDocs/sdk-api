@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSGetConstantBuffers
 title: ID3D10Device::PSGetConstantBuffers (d3d10.h)
-description: Get the constant buffers used by the pixel shader pipeline stage.
+description: Get the constant buffers used by the pixel shader pipeline stage. (ID3D10Device.PSGetConstantBuffers)
 helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","PSGetConstantBuffers method","ID3D10Device.PSGetConstantBuffers","ID3D10Device::PSGetConstantBuffers","PSGetConstantBuffers","PSGetConstantBuffers method [Direct3D 10]","PSGetConstantBuffers method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::PSGetConstantBuffers","direct3d10.id3d10device_psgetconstantbuffers","eab94e38-3b29-902e-3cc8-c2e19db2df68"]
 old-location: direct3d10\id3d10device_psgetconstantbuffers.htm
 tech.root: direct3d10

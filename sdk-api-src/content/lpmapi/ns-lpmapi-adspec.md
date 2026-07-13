@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_33
+UID: NS:lpmapi.ADSPEC
 title: ADSPEC (lpmapi.h)
 description: The ADSPEC structure contains Adspec message information for RSVP.
 helpviewer_keywords: ["ADSPEC","ADSPEC structure [QOS]","lpmapi/ADSPEC","qos.adspec"]
@@ -66,3 +66,4 @@ Adspec message body.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+

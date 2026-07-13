@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldapmodA
 title: LDAPModA (winldap.h)
-description: Holds data required to perform a modification operation.
+description: Holds data required to perform a modification operation. (ANSI)
 helpviewer_keywords: ["*PLDAPModA","LDAPMod","LDAPMod structure [LDAP]","LDAPModA","LDAP_MOD_ADD (0x00)","LDAP_MOD_DELETE (0x01)","LDAP_MOD_REPLACE (0x02)","PLDAPMod","PLDAPMod structure pointer [LDAP]","_ldap_ldapmod","ldap.ldapmod","ldapmodA","ldapmodW","winldap/LDAPMod","winldap/PLDAPMod","winldap/ldapmodA","winldap/ldapmodW"]
 old-location: ldap\ldapmod.htm
 tech.root: ldap
@@ -117,7 +117,7 @@ When passing a <b>LDAPMod</b> structure into the <a href="/previous-versions/win
 
 
 > [!NOTE]
-> The winldap.h header defines LDAPMod as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines LDAPMod as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

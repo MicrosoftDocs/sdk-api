@@ -56,7 +56,7 @@ The <b>SetupDiRestartDevices</b> function restarts a specified device or, if nec
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="/windows-hardware/drivers/install/device-classes">device information set</a> that contains the device information element that represents the device to restart.
+A handle to a <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device information element that represents the device to restart.
 
 ### -param DeviceInfoData [in, out]
 

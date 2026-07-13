@@ -1,7 +1,7 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_20
+UID: NS:iscsidsc.ISCSI_DEVICE_ON_SESSIONW
 title: ISCSI_DEVICE_ON_SESSIONW (iscsidsc.h)
-description: ISCSI_DEVICE_ON_SESSION structure specifies multiple methods for identifying a device associated with an iSCSI login session.
+description: ISCSI_DEVICE_ON_SESSION structure specifies multiple methods for identifying a device associated with an iSCSI login session. (Unicode)
 helpviewer_keywords: ["*PISCSI_DEVICE_ON_SESSIONW","ISCSI_DEVICE_ON_SESSION","ISCSI_DEVICE_ON_SESSION structure [iSCSI Discovery Library API]","ISCSI_DEVICE_ON_SESSIONA","ISCSI_DEVICE_ON_SESSIONW","PISCSI_DEVICE_ON_SESSION","PISCSI_DEVICE_ON_SESSION structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_device_on_session","iscsidsc/ISCSI_DEVICE_ON_SESSION","iscsidsc/ISCSI_DEVICE_ON_SESSIONA","iscsidsc/ISCSI_DEVICE_ON_SESSIONW","iscsidsc/PISCSI_DEVICE_ON_SESSION"]
 old-location: iscsidisc\iscsi_device_on_session.htm
 tech.root: iSCSIDisc
@@ -136,5 +136,5 @@ A handle to the instance of the device in the devnode tree. For information on t
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ISCSI_DEVICE_ON_SESSION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ISCSI_DEVICE_ON_SESSION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetFileCount","GetFileCount method [Direct Write]","GetFi
 old-location: directwrite\idwriteinmemoryfontfileloader_getfilecount.htm
 tech.root: DirectWrite
 ms.assetid: 02385843-FDE6-408A-BD48-BBDC7DE4CA67
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetFileCount, GetFileCount method [Direct Write], GetFileCount method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],GetFileCount method, IDWriteInMemoryFontFileLoader.GetFileCount, IDWriteInMemoryFontFileLoader::GetFileCount, directwrite.idwriteinmemoryfontfileloader_getfilecount, dwrite_3/IDWriteInMemoryFontFileLoader::GetFileCount
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 14393
+req.target-min-winversvr: Windows 10 Build 14393
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,7 +53,7 @@ api_name:
 
 Returns the number of font file references that have been created using this loader instance.
 
-## -parameters
+
 
 ## -returns
 

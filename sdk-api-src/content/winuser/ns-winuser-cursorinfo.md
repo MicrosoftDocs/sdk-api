@@ -118,7 +118,7 @@ A handle to the cursor.
 
 ### -field ptScreenPos
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 A   structure that receives the screen coordinates of the cursor.
 
@@ -136,7 +136,7 @@ A   structure that receives the screen coordinates of the cursor.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_20
+UID: NS:lpmapi.QualTspecParms
 title: QualTspecParms (lpmapi.h)
 description: The QualTspecParms structure contains qualitative Tspec parameters.
 helpviewer_keywords: ["QualTspecParms","QualTspecParms structure [QOS]","lpmapi/QualTspecParms","qos.qualtspecparms"]
@@ -82,3 +82,4 @@ Maximum packet size, in bytes.
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a>
+

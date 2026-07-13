@@ -53,7 +53,7 @@ api_name:
 
 Signals the multiplexer to process all queued output media samples. Call this method after passing the last sample to the multiplexer.
 
-## -parameters
+
 
 ## -returns
 

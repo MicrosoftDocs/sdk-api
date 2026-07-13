@@ -66,7 +66,7 @@ Returns the current value of an integer that is incremented whenever a mode swit
 
 <b>GdiEntry13</b> is defined as an alias for this function.
 
-## -parameters
+
 
 ## -returns
 

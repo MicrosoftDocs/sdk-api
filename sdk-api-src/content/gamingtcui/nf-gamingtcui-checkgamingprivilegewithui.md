@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.CheckGamingPrivilegeWithUI
 title: CheckGamingPrivilegeWithUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (CheckGamingPrivilegeWithUI)
 helpviewer_keywords: ["CheckGamingPrivilegeWithUI","CheckGamingPrivilegeWithUI function","gamingtcui/CheckGamingPrivilegeWithUI","tcui.CheckGamingPrivilegeWithUI"]
 old-location: tcui\CheckGamingPrivilegeWithUI.htm
 tech.root: tcui
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-gaming-tcui-l1-1-4.dll
+ - api-ms-win-gaming-tcui-l1-1-3.dll
+ - api-ms-win-gaming-tcui-l1-1-2.dll
+ - api-ms-win-gaming-tcui-l1-1-1.dll
  - gamingtcui.dll
 api_name:
  - CheckGamingPrivilegeWithUI

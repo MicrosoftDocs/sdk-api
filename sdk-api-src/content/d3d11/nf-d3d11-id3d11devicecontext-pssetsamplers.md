@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSSetSamplers
 title: ID3D11DeviceContext::PSSetSamplers (d3d11.h)
-description: Set an array of sampler states to the pixel shader pipeline stage.
+description: Set an array of sampler states to the pixel shader pipeline stage. (ID3D11DeviceContext.PSSetSamplers)
 helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","PSSetSamplers method","ID3D11DeviceContext.PSSetSamplers","ID3D11DeviceContext::PSSetSamplers","PSSetSamplers","PSSetSamplers method [Direct3D 11]","PSSetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","bedb6ab1-e7ea-70b9-097a-00978aae4f00","d3d11/ID3D11DeviceContext::PSSetSamplers","direct3d11.id3d11devicecontext_pssetsamplers"]
 old-location: direct3d11\id3d11devicecontext_pssetsamplers.htm
 tech.root: direct3d11

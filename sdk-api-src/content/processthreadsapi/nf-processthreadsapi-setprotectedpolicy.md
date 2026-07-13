@@ -4,7 +4,7 @@ title: SetProtectedPolicy function (processthreadsapi.h)
 description: Sets a protected policy.
 helpviewer_keywords: ["SetProtectedPolicy","SetProtectedPolicy function","base.setprotectedpolicy","processthreadsapi/SetProtectedPolicy"]
 old-location: base\setprotectedpolicy.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 36975287-20F0-477B-870F-EA0AC40B39E3
 ms.date: 12/05/2018
 ms.keywords: SetProtectedPolicy, SetProtectedPolicy function, base.setprotectedpolicy, processthreadsapi/SetProtectedPolicy
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-Processthreads-L1-1-2.dll
  - KernelBase.dll

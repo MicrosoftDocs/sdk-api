@@ -56,11 +56,11 @@ Specifies what to do with caches that are to be discarded from memory if their d
 
 ## -enum-fields
 
-### -field DISCARDCACHE_SAVEIFDIRTY
+### -field DISCARDCACHE_SAVEIFDIRTY:0
 
 The cache is to be saved to disk.
 
-### -field DISCARDCACHE_NOSAVE
+### -field DISCARDCACHE_NOSAVE:1
 
 The cache can be discarded without saving it.
 

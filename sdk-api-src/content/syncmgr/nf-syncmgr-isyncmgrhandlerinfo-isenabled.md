@@ -52,7 +52,7 @@ api_name:
 
 Gets a value that indicates whether the handler is enabled.
 
-## -parameters
+
 
 ## -returns
 

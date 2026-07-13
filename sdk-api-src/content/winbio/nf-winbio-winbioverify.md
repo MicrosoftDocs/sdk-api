@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-biometrics-winbio-core-l1-1-6.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-5.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-4.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-3.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-2.dll
  - Winbio.dll
  - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
  - winbioext.dll
@@ -123,7 +128,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +139,7 @@ The session handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +150,7 @@ The <i>SubFactor</i> argument is incorrect.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -156,7 +161,7 @@ The pointer specified by the <i>UnitId</i>,  <i>Identity</i>, <i>SubFactor</i>, 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_BAD_CAPTURE</b></b></dt>
+<dt><b>WINBIO_E_BAD_CAPTURE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -178,7 +183,7 @@ The operation could not be completed because the specified biometric unit is cur
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_NO_MATCH</b></b></dt>
+<dt><b>WINBIO_E_NO_MATCH</b></dt>
 </dl>
 </td>
 <td width="60%">

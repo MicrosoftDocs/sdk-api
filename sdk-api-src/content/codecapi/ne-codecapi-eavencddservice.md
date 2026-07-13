@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVEncDDService","codecapi/eAVEncDDService_C","c
 old-location: dshow\eavencddservice.htm
 tech.root: dshow
 ms.assetid: 25673019-6c26-4b2c-a394-81177a6c00c0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVEncDDService, codecapi/eAVEncDDService_C, codecapi/eAVEncDDService_CM, codecapi/eAVEncDDService_D, codecapi/eAVEncDDService_E, codecapi/eAVEncDDService_HI, codecapi/eAVEncDDService_ME, codecapi/eAVEncDDService_VI, codecapi/eAVEncDDService_VO, dshow.eavencddservice, eAVEncDDService, eAVEncDDService enumeration [DirectShow], eAVEncDDServiceEnumeration, eAVEncDDService_C, eAVEncDDService_CM, eAVEncDDService_D, eAVEncDDService_E, eAVEncDDService_HI, eAVEncDDService_ME, eAVEncDDService_VI, eAVEncDDService_VO
 req.header: codecapi.h
 req.include-header: 
@@ -50,39 +50,41 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Specifies the audio service contained in a Dolby Digital audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencddservice-property">AVEncDDService</a> property.
 
 ## -enum-fields
 
-### -field eAVEncDDService_CM
+### -field eAVEncDDService_CM:0
 
 Complete main audio service.
 
-### -field eAVEncDDService_ME
+### -field eAVEncDDService_ME:1
 
 Main service: music and effects. (The main audio service minus the dialog channel.)
 
-### -field eAVEncDDService_VI
+### -field eAVEncDDService_VI:2
 
 Associated service: visually impaired.
 
-### -field eAVEncDDService_HI
+### -field eAVEncDDService_HI:3
 
 Associated service: hard of hearing.
 
-### -field eAVEncDDService_D
+### -field eAVEncDDService_D:4
 
 Associated service: dialog.
 
-### -field eAVEncDDService_C
+### -field eAVEncDDService_C:5
 
 Associated service: commentary.
 
-### -field eAVEncDDService_E
+### -field eAVEncDDService_E:6
 
 Associated service: emergency.
 
-### -field eAVEncDDService_VO
+### -field eAVEncDDService_VO:7   
 
 Associated service: voice over.
 

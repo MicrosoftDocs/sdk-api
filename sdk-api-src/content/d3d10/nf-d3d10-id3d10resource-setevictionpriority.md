@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Resource.SetEvictionPriority
 title: ID3D10Resource::SetEvictionPriority (d3d10.h)
-description: Set the eviction priority of a resource.
+description: Set the eviction priority of a resource. (ID3D10Resource.SetEvictionPriority)
 helpviewer_keywords: ["8ad141ef-5f50-f2f6-d2db-3f0b076d0dda","ID3D10Resource interface [Direct3D 10]","SetEvictionPriority method","ID3D10Resource.SetEvictionPriority","ID3D10Resource::SetEvictionPriority","SetEvictionPriority","SetEvictionPriority method [Direct3D 10]","SetEvictionPriority method [Direct3D 10]","ID3D10Resource interface","d3d10/ID3D10Resource::SetEvictionPriority","direct3d10.id3d10resource_setevictionpriority"]
 old-location: direct3d10\id3d10resource_setevictionpriority.htm
 tech.root: direct3d10

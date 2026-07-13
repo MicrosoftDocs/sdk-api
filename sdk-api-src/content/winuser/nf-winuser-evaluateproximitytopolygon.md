@@ -84,7 +84,7 @@ Otherwise, it returns FALSE. To retrieve extended error information, call the <a
 
 ## -remarks
 
-For consistency with Windows, frameworks that handle <a href="/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> should use the following principles for targeting:
+For consistency with Windows, frameworks that handle <a href="/windows/win32/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> should use the following principles for targeting:
 
 <ul>
 <li>Inclusion: If the touch point is within the boundaries of a control, the touch point is not changed. 

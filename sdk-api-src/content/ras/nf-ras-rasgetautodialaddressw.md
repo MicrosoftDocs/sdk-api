@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetAutodialAddressW
 title: RasGetAutodialAddressW function (ras.h)
-description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.
-helpviewer_keywords: ["RasGetAutodialAddress","RasGetAutodialAddress function [RAS]","RasGetAutodialAddressA","RasGetAutodialAddressW","_ras_rasgetautodialaddress","ras/RasGetAutodialAddress","ras/RasGetAutodialAddressA","ras/RasGetAutodialAddressW","rras.rasgetautodialaddress"]
+description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database. (Unicode)
+helpviewer_keywords: ["RasGetAutodialAddress", "RasGetAutodialAddress function [RAS]", "RasGetAutodialAddressW", "_ras_rasgetautodialaddress", "ras/RasGetAutodialAddress", "ras/RasGetAutodialAddressW", "rras.rasgetautodialaddress"]
 old-location: rras\rasgetautodialaddress.htm
 tech.root: RRAS
 ms.assetid: b7182760-30c0-4c09-ae99-f656d868e150
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ras-rasapi32-l1-1-2.dll
  - Rasapi32.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
@@ -139,7 +140,7 @@ The Remote Access Service (RAS) supports default Internet connections. RAS suppo
 The name of the global default Internet connection is stored in the registry below the following registry key:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Ras Autodial</b>
@@ -175,7 +176,7 @@ This value is of type <b>REG_SZ</b>.
 
 
 > [!NOTE]
-> The ras.h header defines RasGetAutodialAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetAutodialAddress as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -81,6 +81,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a>, by default. 
+The <b>SetThreadGroupAffinity</b> function restricts a thread's affinity to the processors over the single processor group specified by the given <i>GroupAffinity</i>. This group will also become the thread's primary group.
+
 To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowStationA
 title: CreateWindowStationA function (winuser.h)
-description: Creates a window station object, associates it with the calling process, and assigns it to the current session.
-helpviewer_keywords: ["CreateWindowStation","CreateWindowStation function [Windows Stations and Desktops]","CreateWindowStationA","CreateWindowStationW","_win32_createwindowstation","base.createwindowstation","winstation.createwindowstation","winuser/CreateWindowStation","winuser/CreateWindowStationA","winuser/CreateWindowStationW"]
+description: Creates a window station object, associates it with the calling process, and assigns it to the current session. (ANSI)
+helpviewer_keywords: ["CreateWindowStationA", "winuser/CreateWindowStationA"]
 old-location: winstation\createwindowstation.htm
 tech.root: winstation
 ms.assetid: c1aee546-decd-46c9-8d02-d6792f5a6a0d
@@ -79,7 +79,7 @@ The type of access the returned handle has to the window station. In addition, y
 ### -param lpsa [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpsa</i> is <b>NULL</b>, the handle cannot be inherited.
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpsa</i> is <b>NULL</b>, the handle cannot be inherited.
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new window station. If <i>lpsa</i> is <b>NULL</b>, the window station (and any desktops created within the window) gets a security descriptor that grants <b>GENERIC_ALL</b> access to all users.
 
@@ -100,7 +100,7 @@ After you are done with the handle, you must call
 
 
 > [!NOTE]
-> The winuser.h header defines CreateWindowStation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines CreateWindowStation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

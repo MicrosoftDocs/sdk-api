@@ -70,116 +70,7 @@ Protocol used to establish this connection. The following table describes the co
 <th>Value</th>
 <th>Meaning</th>
 </tr>
-<tr>
-<td width="40%"><a id="SP_PROT_TLS1_CLIENT"></a><a id="sp_prot_tls1_client"></a><dl>
-<dt><b>SP_PROT_TLS1_CLIENT</b></dt>
-<dt>128 (0x80)</dt>
-</dl>
-</td>
-<td width="60%">
-<a href="/windows/desktop/SecGloss/t-gly">Transport Layer Security</a> 1.0 client-side.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_TLS1_SERVER"></a><a id="sp_prot_tls1_server"></a><dl>
-<dt><b>SP_PROT_TLS1_SERVER</b></dt>
-<dt>64 (0x40)</dt>
-</dl>
-</td>
-<td width="60%">
-Transport Layer Security 1.0 server-side.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_SSL3_CLIENT"></a><a id="sp_prot_ssl3_client"></a><dl>
-<dt><b>SP_PROT_SSL3_CLIENT</b></dt>
-<dt>32 (0x20)</dt>
-</dl>
-</td>
-<td width="60%">
-Secure Sockets Layer 3.0 client-side.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_SSL3_SERVER"></a><a id="sp_prot_ssl3_server"></a><dl>
-<dt><b>SP_PROT_SSL3_SERVER</b></dt>
-<dt>16 (0x10)</dt>
-</dl>
-</td>
-<td width="60%">
-Secure Sockets Layer 3.0 server-side.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_TLS1_1_CLIENT"></a><a id="sp_prot_tls1_1_client"></a><dl>
-<dt><b>SP_PROT_TLS1_1_CLIENT</b></dt>
-<dt>512 (0x200)</dt>
-</dl>
-</td>
-<td width="60%">
-Transport Layer Security 1.1 client-side.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_TLS1_1_SERVER"></a><a id="sp_prot_tls1_1_server"></a><dl>
-<dt><b>SP_PROT_TLS1_1_SERVER</b></dt>
-<dt>256 (0x100)</dt>
-</dl>
-</td>
-<td width="60%">
-Transport Layer Security 1.1 server-side.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_TLS1_2_CLIENT"></a><a id="sp_prot_tls1_2_client"></a><dl>
-<dt><b>SP_PROT_TLS1_2_CLIENT</b></dt>
-<dt>2048 (0x800)</dt>
-</dl>
-</td>
-<td width="60%">
-Transport Layer Security 1.2 client-side.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_TLS1_2_SERVER"></a><a id="sp_prot_tls1_2_server"></a><dl>
-<dt><b>SP_PROT_TLS1_2_SERVER</b></dt>
-<dt>1024 (0x400)</dt>
-</dl>
-</td>
-<td width="60%">
-Transport Layer Security 1.2 server-side.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_PCT1_CLIENT"></a><a id="sp_prot_pct1_client"></a><dl>
-<dt><b>SP_PROT_PCT1_CLIENT</b></dt>
-<dt>2 (0x2)</dt>
-</dl>
-</td>
-<td width="60%">
-Private Communications Technology 1.0 client-side. Obsolete.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SP_PROT_PCT1_SERVER"></a><a id="sp_prot_pct1_server"></a><dl>
-<dt><b>SP_PROT_PCT1_SERVER</b></dt>
-<dt>1 (0x1)</dt>
-</dl>
-</td>
-<td width="60%">
-Private Communications Technology 1.0 server-side. Obsolete.
-
-</td>
-</tr>
 <tr>
 <td width="40%"><a id="SP_PROT_SSL2_CLIENT"></a><a id="sp_prot_ssl2_client"></a><dl>
 <dt><b>SP_PROT_SSL2_CLIENT</b></dt>
@@ -188,9 +79,9 @@ Private Communications Technology 1.0 server-side. Obsolete.
 </td>
 <td width="60%">
 Secure Sockets Layer 2.0 client-side. Superseded by SP_PROT_TLS1_CLIENT.
-
 </td>
 </tr>
+
 <tr>
 <td width="40%"><a id="SP_PROT_SSL2_SERVER"></a><a id="sp_prot_ssl2_server"></a><dl>
 <dt><b>SP_PROT_SSL2_SERVER</b></dt>
@@ -199,9 +90,163 @@ Secure Sockets Layer 2.0 client-side. Superseded by SP_PROT_TLS1_CLIENT.
 </td>
 <td width="60%">
 Secure Sockets Layer 2.0 server-side. Superseded by SP_PROT_TLS1_SERVER.
-
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_SSL3_CLIENT"></a><a id="sp_prot_ssl3_client"></a><dl>
+<dt><b>SP_PROT_SSL3_CLIENT</b></dt>
+<dt>32 (0x20)</dt>
+</dl>
+</td>
+<td width="60%">
+Secure Sockets Layer 3.0 client-side.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_SSL3_SERVER"></a><a id="sp_prot_ssl3_server"></a><dl>
+<dt><b>SP_PROT_SSL3_SERVER</b></dt>
+<dt>16 (0x10)</dt>
+</dl>
+</td>
+<td width="60%">
+Secure Sockets Layer 3.0 server-side.
+</td>
+</tr>
+ 
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_0_CLIENT"></a><a id="sp_prot_tls1_0_client"></a><dl>
+<dt><b>SP_PROT_TLS1_0_CLIENT</b></dt>
+<dt>128 (0x80)</dt>
+</dl>
+</td>
+<td width="60%">
+<a href="/windows/desktop/SecGloss/t-gly">Transport Layer Security</a> 1.0 client-side.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_0_SERVER"></a><a id="sp_prot_tls1_0_server"></a><dl>
+<dt><b>SP_PROT_TLS1_0_SERVER</b></dt>
+<dt>64 (0x40)</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.0 server-side.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_1_CLIENT"></a><a id="sp_prot_tls1_1_client"></a><dl>
+<dt><b>SP_PROT_TLS1_1_CLIENT</b></dt>
+<dt>512 (0x200)</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.1 client-side.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_1_SERVER"></a><a id="sp_prot_tls1_1_server"></a><dl>
+<dt><b>SP_PROT_TLS1_1_SERVER</b></dt>
+<dt>256 (0x100)</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.1 server-side.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_2_CLIENT"></a><a id="sp_prot_tls1_2_client"></a><dl>
+<dt><b>SP_PROT_TLS1_2_CLIENT</b></dt>
+<dt>2048 (0x800)</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.2 client-side.
+</td>
+</tr>
+ 
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_2_SERVER"></a><a id="sp_prot_tls1_2_server"></a><dl>
+<dt><b>SP_PROT_TLS1_2_SERVER</b></dt>
+<dt>1024 (0x400)</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.2 server-side.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_3_CLIENT"></a><a id="sp_prot_tls1_3_client"></a><dl>
+<dt><b>SP_PROT_TLS1_3_CLIENT</b></dt>
+<dt>8192 (0x2000)</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.3 client-side.
+</td>
+</tr>
+ 
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_3_SERVER"></a><a id="sp_prot_tls1_3_server"></a><dl>
+<dt><b>SP_PROT_TLS1_3_SERVER</b></dt>
+<dt>4096 (0x1000)</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.3 server-side.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_DTLS1_0_CLIENT"></a><a id="sp_prot_dtls1_0_client"></a><dl>
+<dt><b>SP_PROT_DTLS1_0_CLIENT</b></dt>
+<dt>131072 (0x00020000)</dt>
+</dl>
+</td>
+<td width="60%">
+Datagram Transport Layer Security 1.0 client-side.
+</td>
+</tr>
+ 
+<tr>
+<td width="40%"><a id="SP_PROT_DTLS1_0_SERVER"></a><a id="sp_prot_dtls1_0_server"></a><dl>
+<dt><b>SP_PROT_DTLS1_0_SERVER</b></dt>
+<dt>65536 (0x00010000)</dt>
+</dl>
+</td>
+<td width="60%">
+Datagram Transport Layer Security 1.0 server-side.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="SP_PROT_DTLS1_2_CLIENT"></a><a id="sp_prot_dtls1_2_client"></a><dl>
+<dt><b>SP_PROT_DTLS1_2_CLIENT</b></dt>
+<dt>524288 (0x00080000)</dt>
+</dl>
+</td>
+<td width="60%">
+Datagram Transport Layer Security 1.2 client-side.
+</td>
+</tr>
+ 
+<tr>
+<td width="40%"><a id="SP_PROT_DTLS1_2_SERVER"></a><a id="sp_prot_dtls1_2_server"></a><dl>
+<dt><b>SP_PROT_DTLS1_2_SERVER</b></dt>
+<dt>262144 (0x00040000)</dt>
+</dl>
+</td>
+<td width="60%">
+Datagram Transport Layer Security 1.2 server-side.
+</td>
+</tr>
+
 </table>
 
 ### -field aiCipher
@@ -332,6 +377,16 @@ Strength of the hash, in bits: 128 or 160.
 <tr>
 <th>Value</th>
 <th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ALG_TYPE_ANY"></a><a id="alg_type_any"></a><dl>
+<dt><b>ALG_TYPE_ANY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Any key exchange algorithm.
+
+</td>
 </tr>
 <tr>
 <td width="40%"><a id="CALG_RSA_KEYX"></a><a id="calg_rsa_keyx"></a><dl>

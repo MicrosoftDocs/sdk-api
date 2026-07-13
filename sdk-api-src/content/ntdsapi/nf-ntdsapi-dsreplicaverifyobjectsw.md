@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsReplicaVerifyObjectsW
 title: DsReplicaVerifyObjectsW function (ntdsapi.h)
-description: Verifies all objects for a naming context with a source.
-helpviewer_keywords: ["DS_EXIST_ADVISORY_MODE","DsReplicaVerifyObjects","DsReplicaVerifyObjects function [Active Directory]","DsReplicaVerifyObjectsA","DsReplicaVerifyObjectsW","ad.dsreplicaverifyobjects","ntdsapi/DsReplicaVerifyObjects","ntdsapi/DsReplicaVerifyObjectsA","ntdsapi/DsReplicaVerifyObjectsW"]
+description: Verifies all objects for a naming context with a source. (Unicode)
+helpviewer_keywords: ["DS_EXIST_ADVISORY_MODE", "DsReplicaVerifyObjects", "DsReplicaVerifyObjects function [Active Directory]", "DsReplicaVerifyObjectsW", "ad.dsreplicaverifyobjects", "ntdsapi/DsReplicaVerifyObjects", "ntdsapi/DsReplicaVerifyObjectsW"]
 old-location: ad\dsreplicaverifyobjects.htm
 tech.root: ad
 ms.assetid: d0e139dc-6aaf-47e1-a76f-4e84f17aa7c6
@@ -108,4 +108,4 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error otherwise. Possible 
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsReplicaVerifyObjects as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsReplicaVerifyObjects as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

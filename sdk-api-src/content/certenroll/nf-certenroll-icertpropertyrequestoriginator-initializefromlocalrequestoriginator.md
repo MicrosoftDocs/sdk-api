@@ -52,7 +52,7 @@ api_name:
 
 The <b>InitializeFromLocalRequestOriginator</b> method initializes the object from the DNS name of the local computer.
 
-## -parameters
+
 
 ## -returns
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPControls3 interface [Windows Media Player]","get_curr
 old-location: wmp\iwmpcontrols3_get_currentpositiontimecode.htm
 tech.root: WMP
 ms.assetid: dbf981d7-1787-462c-b0d2-fd705f07ee23
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_currentPositionTimecode method, IWMPControls3.get_currentPositionTimecode, IWMPControls3::get_currentPositionTimecode, IWMPControls3get_currentPositionTimecode, get_currentPositionTimecode, get_currentPositionTimecode method [Windows Media Player], get_currentPositionTimecode method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_currentpositiontimecode, wmp/IWMPControls3::get_currentPositionTimecode
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_currentPositionTimecode</b> method retrieves the current position in the current media item using a time code format. This method currently supports SMPTE time code.
 

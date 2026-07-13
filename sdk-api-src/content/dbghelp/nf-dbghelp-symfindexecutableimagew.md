@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymFindExecutableImageW
 title: SymFindExecutableImageW function (dbghelp.h)
-description: Locates an executable file in the process search path.
+description: The SymFindExecutableImageW (Unicode) function locates an executable file in the process search path.
 helpviewer_keywords: ["SymFindExecutableImage","SymFindExecutableImage function","SymFindExecutableImageW","base.symfindexecutableimage","dbghelp/SymFindExecutableImage","dbghelp/SymFindExecutableImageW"]
 old-location: base\symfindexecutableimage.htm
 tech.root: Debug
 ms.assetid: e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymFindExecutableImage, SymFindExecutableImage function, SymFindExecutableImageW, base.symfindexecutableimage, dbghelp/SymFindExecutableImage, dbghelp/SymFindExecutableImageW
 req.header: dbghelp.h
 req.include-header: 
@@ -67,7 +67,7 @@ The name of the executable file. You can use a partial path.
 
 ### -param ImageFilePath [out]
 
-The fully qualified path of the executable file. This buffer must be at least MAX_PATH characters.
+The fully qualified path of the executable file. This buffer must be at least MAX_PATH+1 characters.
 
 ### -param Callback [in]
 
@@ -104,7 +104,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymFindExecutableImage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymFindExecutableImage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

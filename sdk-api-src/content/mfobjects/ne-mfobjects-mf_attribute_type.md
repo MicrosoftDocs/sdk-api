@@ -56,23 +56,23 @@ Defines the data type for a key/value pair.
 
 ## -enum-fields
 
-### -field MF_ATTRIBUTE_UINT32
+### -field MF_ATTRIBUTE_UINT32:VT_UI4
 
 Unsigned 32-bit integer.
 
-### -field MF_ATTRIBUTE_UINT64
+### -field MF_ATTRIBUTE_UINT64:VT_UI8
 
 Unsigned 64-bit integer.
 
-### -field MF_ATTRIBUTE_DOUBLE
+### -field MF_ATTRIBUTE_DOUBLE:VT_R8
 
 Floating-point number.
 
-### -field MF_ATTRIBUTE_GUID
+### -field MF_ATTRIBUTE_GUID:VT_CLSID
 
 <b>GUID</b> value.
 
-### -field MF_ATTRIBUTE_STRING
+### -field MF_ATTRIBUTE_STRING:VT_LPWSTR
 
 NULL-terminated wide-character string.
 
@@ -80,7 +80,7 @@ NULL-terminated wide-character string.
 
 Byte array.
 
-### -field MF_ATTRIBUTE_IUNKNOWN
+### -field MF_ATTRIBUTE_IUNKNOWN:VT_UNKNOWN
 
 <b>IUnknown</b> pointer.
 

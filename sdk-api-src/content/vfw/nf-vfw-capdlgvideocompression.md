@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capDlgVideoCompression","capDlgVideoCompression","
 old-location: multimedia\capdlgvideocompression.htm
 tech.root: Multimedia
 ms.assetid: f4abf869-deac-4537-a8e8-680a4f138d0b
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capDlgVideoCompression, capDlgVideoCompression, capDlgVideoCompression macro [Windows Multimedia], multimedia.capdlgvideocompression, vfw/capDlgVideoCompression
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capDlgVideoCompression macro
+
+## -syntax
+
+```cpp
+BOOL capDlgVideoCompression(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DefWindowProcA
 title: DefWindowProcA function (winuser.h)
-description: Calls the default window procedure to provide default processing for any window messages that an application does not process.
-helpviewer_keywords: ["DefWindowProc","DefWindowProc function [Windows and Messages]","DefWindowProcA","DefWindowProcW","_win32_DefWindowProc","_win32_defwindowproc_cpp","winmsg.defwindowproc","winui._win32_defwindowproc","winuser/DefWindowProc","winuser/DefWindowProcA","winuser/DefWindowProcW"]
+description: Calls the default window procedure to provide default processing for any window messages that an application does not process. (ANSI)
+helpviewer_keywords: ["DefWindowProcA", "winuser/DefWindowProcA"]
 old-location: winmsg\defwindowproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\defwindowproc.htm
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ansi-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -97,6 +100,17 @@ Type: <b>LRESULT</b>
 
 The return value is the result of the message processing and depends on the message.
 
+## -syntax
+
+```cpp
+LRESULT DefWindowProcA(
+  [in] HWND   hWnd,
+  [in] UINT   Msg,
+  [in] WPARAM wParam,
+  [in] LPARAM lParam
+);
+```
+
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
@@ -119,9 +133,9 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>
 
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines DefWindowProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines DefWindowProc as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

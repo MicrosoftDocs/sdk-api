@@ -1,9 +1,9 @@
 ---
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.CreateSession
 title: IMFContentDecryptionModule::CreateSession
-ms.date: 11/26/2019
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFContentDecryptionModule::CreateSession function creates a IMFContentDecryptionModuleSession object representing a Content Decryption Module (CDM) session.
 tech.root: mf
 req.assembly: 
 req.construct-type: function

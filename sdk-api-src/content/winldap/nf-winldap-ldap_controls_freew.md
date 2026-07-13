@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_controls_freeW
 title: ldap_controls_freeW function (winldap.h)
-description: Frees an array of LDAPControl structures.
-helpviewer_keywords: ["_ldap_ldap_controls_free","ldap.ldap__controls__free","ldap.ldap_controls_free","ldap_controls_free","ldap_controls_free function [LDAP]","ldap_controls_freeA","ldap_controls_freeW","winldap/ldap_controls_free","winldap/ldap_controls_freeA","winldap/ldap_controls_freeW"]
+description: The ldap_controls_freeW (Unicode) function (winldap.h) frees an array of LDAPControl structures.  
+helpviewer_keywords: ["_ldap_ldap_controls_free", "ldap.ldap__controls__free", "ldap.ldap_controls_free", "ldap_controls_free", "ldap_controls_free function [LDAP]", "ldap_controls_freeW", "winldap/ldap_controls_free", "winldap/ldap_controls_freeW"]
 old-location: ldap\ldap_controls_free.htm
 tech.root: ldap
 ms.assetid: e1e4545f-6184-41bb-bba1-4eebae9cdaaf
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_ldap_controls_free, ldap.ldap__controls__free, ldap.ldap_controls_free, ldap_controls_free, ldap_controls_free function [LDAP], ldap_controls_freeA, ldap_controls_freeW, winldap/ldap_controls_free, winldap/ldap_controls_freeA, winldap/ldap_controls_freeW
 req.header: winldap.h
 req.include-header: 
@@ -89,7 +89,7 @@ Use this function to free an array of <a href="/previous-versions/windows/deskto
 
 
 > [!NOTE]
-> The winldap.h header defines ldap_controls_free as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines ldap_controls_free as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

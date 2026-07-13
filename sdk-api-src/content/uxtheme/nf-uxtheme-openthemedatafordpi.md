@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: User32.lib
-req.dll: User32.dll
+req.lib: uxtheme.lib
+req.dll: uxtheme.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - User32.dll
+ - uxtheme.dll
 api_name:
  - OpenThemeDataForDpi
 ---

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3cc.ITACDGroupEvent.get_Event
 title: ITACDGroupEvent::get_Event (tapi3cc.h)
-description: The get_Event method gets the descriptor of an event which indicates that a new ACD group has been added.
+description: The ITACDGroupEvent::get_Event method (tapi3cc.h) gets the descriptor of an event which indicates that a new ACD group has been added.
 helpviewer_keywords: ["ITACDGroupEvent interface [TAPI 2.2]","get_Event method","ITACDGroupEvent.get_Event","ITACDGroupEvent::get_Event","_tapi3_itacdgroupevent_get_event","get_Event","get_Event method [TAPI 2.2]","get_Event method [TAPI 2.2]","ITACDGroupEvent interface","tapi3.itacdgroupevent_get_event","tapi3cc/ITACDGroupEvent::get_Event"]
 old-location: tapi3\itacdgroupevent_get_event.htm
 tech.root: tapi3
 ms.assetid: 9bc67911-cfb6-450c-bdc6-ade8d4617271
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITACDGroupEvent interface [TAPI 2.2],get_Event method, ITACDGroupEvent.get_Event, ITACDGroupEvent::get_Event, _tapi3_itacdgroupevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITACDGroupEvent interface, tapi3.itacdgroupevent_get_event, tapi3cc/ITACDGroupEvent::get_Event
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

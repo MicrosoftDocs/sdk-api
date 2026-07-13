@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusinit.GdiplusStartupParams
 title: GdiplusStartupParams
-ms.date: 05/07/2020
+ms.date: 02/26/2024
 targetos: Windows
 description: Defines constants that specify parameters for startup.
 tech.root: gdiplus
@@ -11,8 +11,8 @@ req.header: gdiplusinit.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -29,6 +29,7 @@ f1_keywords:
  - gdiplusinit/GdiplusStartupParams
 dev_langs:
  - c++
+prerelease: true
 ---
 
 ## -description
@@ -37,23 +38,26 @@ Defines constants that specify parameters for startup.
 
 ## -enum-fields
 
-### -field GdiplusStartupDefault
+### -field GdiplusStartupDefault:0x00000000
 
 Specfies default startup.
 
-### -field GdiplusStartupNoSetRound
+### -field GdiplusStartupNoSetRound:0x00000001
 
 Specifies no set round for startup.
 
-### -field GdiplusStartupSetPSValue
+### -field GdiplusStartupSetPSValue:0x00000002
 
 Specifies a pixel shader value for startup.
 
-### -field GdiplusStartupTransparencyMask
+### -field GdiplusStartupReserved0:0x00000004
+
+Still in preview.
+
+### -field GdiplusStartupTransparencyMask:0xFF000000
 
 Specifies a transparency mask for startup.
 
 ## -remarks
 
 ## -see-also
-

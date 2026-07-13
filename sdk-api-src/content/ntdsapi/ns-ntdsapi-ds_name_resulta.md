@@ -1,7 +1,7 @@
 ---
-UID: NS:ntdsapi.__unnamed_struct_1
+UID: NS:ntdsapi.DS_NAME_RESULTA
 title: DS_NAME_RESULTA (ntdsapi.h)
-description: The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function.
+description: The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function. (ANSI)
 helpviewer_keywords: ["*PDS_NAME_RESULTA","DS_NAME_RESULT","DS_NAME_RESULT structure [Active Directory]","DS_NAME_RESULTA","DS_NAME_RESULTW","PDS_NAME_RESULT","PDS_NAME_RESULT structure pointer [Active Directory]","_glines_ds_name_result","ad.ds__name__result","ad.ds_name_result","ntdsapi/DS_NAME_RESULT","ntdsapi/DS_NAME_RESULTA","ntdsapi/DS_NAME_RESULTW","ntdsapi/PDS_NAME_RESULT"]
 old-location: ad\ds_name_result.htm
 tech.root: ad
@@ -85,4 +85,5 @@ Contains an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_re
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DS_NAME_RESULT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DS_NAME_RESULT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

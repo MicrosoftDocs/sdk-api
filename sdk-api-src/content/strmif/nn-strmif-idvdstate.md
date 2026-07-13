@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDvdState","IDvdState interface [DirectShow]","IDvdState 
 old-location: dshow\idvdstate.htm
 tech.root: dshow
 ms.assetid: df30a3b9-7541-42a8-b642-3b6450a0345e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDvdState, IDvdState interface [DirectShow], IDvdState interface [DirectShow],described, IDvdStateInterface, dshow.idvdstate, strmif/IDvdState
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,16 +51,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IDvdState</b> interface caches the current state.
 
 The object that implements this interface is called a <i>DVD bookmark</i>. You can use it to save and restore the DVD state, which includes the playback location, the user's parental level, and the DVD region.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdState</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDvdState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdState</b> also has these types of members:
 
 ## -remarks
 

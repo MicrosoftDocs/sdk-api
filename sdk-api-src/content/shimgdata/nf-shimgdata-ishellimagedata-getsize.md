@@ -56,9 +56,9 @@ Gets the dimensions of the image file.
 
 ### -param pSize [out]
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure containing the size of the image. This value is valid only when the method returns <b>S_OK</b>.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure containing the size of the image. This value is valid only when the method returns <b>S_OK</b>.
 
 ## -returns
 

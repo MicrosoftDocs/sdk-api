@@ -54,15 +54,15 @@ Describes a request by the user to cancel a synchronization.
 
 ## -enum-fields
 
-### -field SYNCMGR_CR_NONE
+### -field SYNCMGR_CR_NONE:0
 
 No cancelation request has been made.
 
-### -field SYNCMGR_CR_CANCEL_ITEM
+### -field SYNCMGR_CR_CANCEL_ITEM:1
 
 Stop the synchronization of the current item, but continue the synchronization of other items.
 
-### -field SYNCMGR_CR_CANCEL_ALL
+### -field SYNCMGR_CR_CANCEL_ALL:2
 
 Stop the synchronization entirely.
 

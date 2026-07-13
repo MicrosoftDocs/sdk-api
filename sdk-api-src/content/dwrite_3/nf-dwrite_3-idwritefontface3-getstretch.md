@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetStretch","GetStretch method [Direct Write]","GetStretc
 old-location: directwrite\idwritefontface3_getstretch.htm
 tech.root: DirectWrite
 ms.assetid: A5B2DA7D-8222-440D-A8AF-33B07CE0765C
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetStretch, GetStretch method [Direct Write], GetStretch method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetStretch method, IDWriteFontFace3.GetStretch, IDWriteFontFace3::GetStretch, directwrite.idwritefontface3_getstretch, dwrite_3/IDWriteFontFace3::GetStretch
 req.header: dwrite_3.h
 req.include-header: 
@@ -52,7 +52,7 @@ api_name:
 
 Gets the stretch (also known as width) of this font.
 
-## -parameters
+
 
 ## -returns
 

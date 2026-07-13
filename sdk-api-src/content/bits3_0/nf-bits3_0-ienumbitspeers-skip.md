@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Skip
 title: IEnumBitsPeers::Skip (bits3_0.h)
-description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
+description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence. (IEnumBitsPeers.Skip)
 helpviewer_keywords: ["IEnumBitsPeers interface [BITS]","Skip method","IEnumBitsPeers.Skip","IEnumBitsPeers::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBitsPeers interface","bits.ienumbitspeers_skip","bits3_0/IEnumBitsPeers::Skip"]
 old-location: bits\ienumbitspeers_skip.htm
 tech.root: Bits
@@ -71,7 +71,7 @@ This method returns the following <b>HRESULT</b> values, as well as others.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

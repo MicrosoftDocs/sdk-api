@@ -55,7 +55,7 @@ The <b>TextRenderingHint</b> enumeration specifies the process used to render te
 
 ## -enum-fields
 
-### -field TextRenderingHintSystemDefault
+### -field TextRenderingHintSystemDefault:0
 
 Specifies that a character is drawn using the currently selected system font smoothing mode (also called a rendering hint).
 
@@ -84,7 +84,7 @@ Windows XP and Windows Server 2003 and later versions of Windows only: ClearTy
 
 ## -remarks
 
-The quality associated with each process varies according to the circumstances. <b><b>TextRenderingHintClearTypeGridFit</b></b> provides the best quality for most LCD monitors and relatively small font sizes. <b><b>TextRenderingHintAntiAlias</b></b> provides the best quality for rotated text. Generally, a process that produces higher quality text is slower than a process that produces lower quality text.
+The quality associated with each process varies according to the circumstances. <b>TextRenderingHintClearTypeGridFit</b> provides the best quality for most LCD monitors and relatively small font sizes. <b>TextRenderingHintAntiAlias</b> provides the best quality for rotated text. Generally, a process that produces higher quality text is slower than a process that produces lower quality text.
 
 ## -see-also
 

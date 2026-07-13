@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMProfile3 interface [windows Media Format]","RemoveBand
 old-location: wmformat\iwmprofile3_removebandwidthsharing.htm
 tech.root: wmformat
 ms.assetid: 3c0a90aa-154a-49c9-ab8e-0d1c4ce02641
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMProfile3 interface [windows Media Format],RemoveBandwidthSharing method, IWMProfile3.RemoveBandwidthSharing, IWMProfile3::RemoveBandwidthSharing, IWMProfile3RemoveBandwidthSharing, RemoveBandwidthSharing, RemoveBandwidthSharing method [windows Media Format], RemoveBandwidthSharing method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removebandwidthsharing, wmsdkidl/IWMProfile3::RemoveBandwidthSharing
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>RemoveBandwidthSharing</b> method removes a bandwidth sharing object from the profile. If you do not already have a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing</a> interface of the object you want to remove, you must obtain one with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing">IWMProfile3::GetBandwidthSharing</a>.
 

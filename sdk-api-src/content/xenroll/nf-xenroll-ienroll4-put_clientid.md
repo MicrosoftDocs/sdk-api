@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll4.put_ClientId
 title: IEnroll4::put_ClientId (xenroll.h)
-description: The ClientId property sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the IEnroll4 interface.
+description: The ClientId property sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the IEnroll4 interface. (Put)
 helpviewer_keywords: ["ClientId property [Security]","ClientId property [Security]","IEnroll4 interface","IEnroll4 interface [Security]","ClientId property","IEnroll4.ClientId","IEnroll4.put_ClientId","IEnroll4::ClientId","IEnroll4::get_ClientId","IEnroll4::put_ClientId","XECI_AUTOENROLL","XECI_CERTREQ","XECI_DISABLE","XECI_REQWIZARD","XECI_XENROLL","put_ClientId","security.ienroll4_clientid","xenroll/IEnroll4::ClientId","xenroll/IEnroll4::get_ClientId","xenroll/IEnroll4::put_ClientId"]
 old-location: security\ienroll4_clientid.htm
 tech.root: security

@@ -9,8 +9,8 @@ ms.keywords: D3D12_RESOURCE_ALLOCATION_INFO1, D3D12_RESOURCE_ALLOCATION_INFO1 st
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -68,7 +68,7 @@ The size, in bytes, of the resource.
 
 ## -remarks
 
-This structure is used by the [ID3D12Device::GetResourceAllocationInfo1](./nf-d3d12-id3d12device4-getresourceallocationinfo1.md) method.
+This structure is used by the [ID3D12Device::GetResourceAllocationInfo1](./nf-d3d12-id3d12device4-getresourceallocationinfo1(uint_uint_constd3d12_resource_desc_d3d12_resource_allocation_info1).md) method.
 
 ## -see-also
 

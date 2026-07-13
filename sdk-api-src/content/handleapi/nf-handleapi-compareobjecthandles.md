@@ -78,9 +78,11 @@ The <b>CompareObjectHandles</b> function is useful to determine if two kernel ha
 
 The following code sample creates three handles, two of which refer to the same object, then compares them to show that identical underlying kernel objects will return TRUE, while non-identical objects will return FALSE.
 
-<pre class="syntax" xml:space="preserve"><code>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;wchar.h&gt;
+
+``` syntax
+#include <windows.h>
+#include <stdio.h>
+#include <wchar.h>
 
 HANDLE Event1;
 HANDLE Event2;
@@ -117,7 +119,9 @@ if (CompareObjectHandles (Event1, GetCurrentProcess ()) == FALSE)
 	{	// This message should be printed by the program.
 		wprintf (L"Event1 and the current process refer to different underlying kernel objects.  (Error %lu)\n", GetLastError ());
 	}
-</code></pre>
+
+```
+
 
 ## -see-also
 

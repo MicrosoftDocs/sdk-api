@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_SetHeaderTitle","PropSheet_SetHeaderTitle macro
 old-location: controls\PropSheet_SetHeaderTitle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setheadertitle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_SetHeaderTitle, PropSheet_SetHeaderTitle macro [Windows Controls], _win32_PropSheet_SetHeaderTitle, _win32_PropSheet_SetHeaderTitle_cpp, controls.PropSheet_SetHeaderTitle, controls._win32_PropSheet_SetHeaderTitle, prsht/PropSheet_SetHeaderTitle
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # PropSheet_SetHeaderTitle macro
+
+## -syntax
+
+```cpp
+int PropSheet_SetHeaderTitle(
+   HWND    hDlg,
+   int     index,
+   LPCTSTR lpszText
+);
+```
+
+## -returns
+
+Type: **int**
+
+No return value.
 
 
 ## -description

@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsListRolesA
 title: DsListRolesA function (ntdsapi.h)
-description: The DsListRoles function lists roles recognized by the server.
-helpviewer_keywords: ["DS_ROLE_DOMAIN_OWNER","DS_ROLE_INFRASTRUCTURE_OWNER","DS_ROLE_PDC_OWNER","DS_ROLE_RID_OWNER","DS_ROLE_SCHEMA_OWNER","DsListRoles","DsListRoles function [Active Directory]","DsListRolesA","DsListRolesW","_glines_dslistroles","ad.dslistroles","ntdsapi/DsListRoles","ntdsapi/DsListRolesA","ntdsapi/DsListRolesW"]
+description: The DsListRoles function lists roles recognized by the server. (ANSI)
+helpviewer_keywords: ["DS_ROLE_DOMAIN_OWNER", "DS_ROLE_INFRASTRUCTURE_OWNER", "DS_ROLE_PDC_OWNER", "DS_ROLE_RID_OWNER", "DS_ROLE_SCHEMA_OWNER", "DsListRolesA", "ntdsapi/DsListRolesA"]
 old-location: ad\dslistroles.htm
 tech.root: ad
 ms.assetid: 679a2dca-019b-4f6e-acd9-efb30e0d4b44
@@ -123,4 +123,4 @@ Individual name conversion errors are reported in the returned <a href="/windows
 ## -remarks
 
 > [!NOTE]
-> The ntdsapi.h header defines DsListRoles as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsListRoles as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

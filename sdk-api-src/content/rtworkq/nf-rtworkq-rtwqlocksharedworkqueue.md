@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqLockSharedWorkQueue
 title: RtwqLockSharedWorkQueue function (rtworkq.h)
-description: Obtains and locks a shared work queue.
+description: Obtains and locks a shared work queue. (RtwqLockSharedWorkQueue)
 helpviewer_keywords: ["RtwqLockSharedWorkQueue","RtwqLockSharedWorkQueue function","base.rtwqlocksharedworkqueue","rtworkq/RtwqLockSharedWorkQueue"]
 old-location: base\rtwqlocksharedworkqueue.htm
 tech.root: backup
@@ -72,5 +72,5 @@ Receives an identifier for the new work queue. Use this identifier when queuing 
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

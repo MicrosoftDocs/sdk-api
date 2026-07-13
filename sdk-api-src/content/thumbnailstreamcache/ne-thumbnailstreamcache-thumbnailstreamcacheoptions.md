@@ -54,19 +54,19 @@ Defines the cache options used by the <a href="/windows/desktop/api/thumbnailstr
 
 ## -enum-fields
 
-### -field ExtractIfNotCached
+### -field ExtractIfNotCached:0
 
 Return the cached thumbnail if it is already cached, otherwise extract the thumbnail to the cache.
 
-### -field ReturnOnlyIfCached
+### -field ReturnOnlyIfCached:0x1
 
 Return the thumbnail only if it is already cached.
 
-### -field ResizeThumbnail
+### -field ResizeThumbnail:0x2
 
 Resize the thumbnail to match the requested size.
 
-### -field AllowSmallerSize
+### -field AllowSmallerSize:0x4
 
 Can return a cached thumbnail that is smaller than the requested size.
 

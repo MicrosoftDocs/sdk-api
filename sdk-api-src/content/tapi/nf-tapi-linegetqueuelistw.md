@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetQueueListW
 title: lineGetQueueListW function (tapi.h)
-description: The lineGetQueueList function returns a list of queues associated with a particular ACD Group.
-helpviewer_keywords: ["_tapi2_linegetqueuelist","lineGetQueueList","lineGetQueueList function [TAPI 2.2]","lineGetQueueListA","lineGetQueueListW","tapi/lineGetQueueList","tapi/lineGetQueueListA","tapi/lineGetQueueListW","tapi2.linegetqueuelist"]
+description: The lineGetQueueList function returns a list of queues associated with a particular ACD Group. (Unicode)
+helpviewer_keywords: ["_tapi2_linegetqueuelist", "lineGetQueueList", "lineGetQueueList function [TAPI 2.2]", "lineGetQueueListW", "tapi/lineGetQueueList", "tapi/lineGetQueueListW", "tapi2.linegetqueuelist"]
 old-location: tapi2\linegetqueuelist.htm
 tech.root: tapi3
 ms.assetid: 3921ab24-c9c8-4068-a885-e55759f04076
@@ -105,4 +105,4 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineGetQueueList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineGetQueueList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

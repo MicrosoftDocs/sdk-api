@@ -266,7 +266,7 @@ LPCWSTR data type.
 
 ### -field m_Const
 
-Value of the first constant. For more information, see <a href="/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnconst">SWbemRpnConst</a>.
+Value of the first constant. For more information, see <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnConst</a>.
 
 ### -field m_uConst2ApparentType
 
@@ -316,7 +316,7 @@ LPCWSTR data type.
 
 ### -field m_Const2
 
-Value of the second constant. The fields <b>m_uConst2ApparentType</b> and <b>m_uConst2</b> are used only for BETWEEN phrases. For more information, see <a href="/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnconst">SWbemRpnConst</a>.
+Value of the second constant. The fields <b>m_uConst2ApparentType</b> and <b>m_uConst2</b> are used only for BETWEEN phrases. For more information, see <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnConst</a>.
 
 ### -field m_pszRightFunc
 
@@ -336,7 +336,7 @@ Specifies a function on the left of the operator in a WHERE clause. If there is 
 
 
 
-<a href="/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnconst">SWbemRpnConst</a>
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnConst</a>
 
 
 

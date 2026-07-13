@@ -76,14 +76,14 @@ The size, in bytes, of the block of memory that <i>pBlobWithRootSignature</i> po
 
 ### -param riid
 
-Type: <b><b>REFIID</b></b>
+Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the root signature interface. See Remarks.
             An input parameter.
 
 ### -param ppvRootSignature [out]
 
-Type: <b><b>void</b>**</b>
+Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the root signature.
 

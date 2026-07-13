@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.QueryCredentialsAttributesA
 title: QueryCredentialsAttributesA function (sspi.h)
-description: Retrieves the attributes of a credential, such as the name associated with the credential.
-helpviewer_keywords: ["QueryCredentialsAttributes","QueryCredentialsAttributes function [Security]","QueryCredentialsAttributesA","QueryCredentialsAttributesW","_ssp_querycredentialsattributes","security.querycredentialsattributes","sspi/QueryCredentialsAttributes","sspi/QueryCredentialsAttributesA","sspi/QueryCredentialsAttributesW"]
+description: Retrieves the attributes of a credential, such as the name associated with the credential. (ANSI)
+helpviewer_keywords: ["QueryCredentialsAttributesA", "sspi/QueryCredentialsAttributesA"]
 old-location: security\querycredentialsattributes.htm
 tech.root: security
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533
@@ -218,7 +218,7 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 > [!NOTE]
-> The sspi.h header defines QueryCredentialsAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines QueryCredentialsAttributes as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

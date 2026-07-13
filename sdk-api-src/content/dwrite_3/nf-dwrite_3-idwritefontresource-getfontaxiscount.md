@@ -4,14 +4,14 @@ title: IDWriteFontResource::GetFontAxisCount
 description: Retrieves the number of axes supported by the font resource.
 helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetFontAxisCount method","IDWriteFontResource.GetFontAxisCount","IDWriteFontResource::GetFontAxisCount","GetFontAxisCount","GetFontAxisCount method [Direct Write]","GetFontAxisCount method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getfontaxiscount","dwrite_3/IDWriteFontResource::GetFontAxisCount"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisCount method, IDWriteFontResource.GetFontAxisCount, IDWriteFontResource::GetFontAxisCount, GetFontAxisCount, GetFontAxisCount method [Direct Write], GetFontAxisCount method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxiscount, dwrite_3/IDWriteFontResource::GetFontAxisCount
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -48,7 +48,7 @@ api_name:
 
 Retrieves the number of axes supported by the font resource. This includes both static and variable axes (see [DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md)).
 
-## -parameters
+
 
 ## -returns
 

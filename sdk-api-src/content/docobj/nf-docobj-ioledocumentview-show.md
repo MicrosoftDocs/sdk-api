@@ -113,7 +113,9 @@ A call to this method for the purpose of activating a view should follow calls t
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Implementations of this method should embody the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>if (fShow)
+
+``` syntax
+if (fShow)
     {
     In-place activate the view but do not UI activate it.
     Show the view window. 
@@ -122,7 +124,9 @@ else
     {
     Call IOleDocumentView::UIActivate(FALSE) on this view
     Hide the view window
-    }</code></pre>
+    }
+```
+
 All views of a document object must at least support in-place activation; E_NOTIMPL is not an acceptable value.
 
 ## -see-also

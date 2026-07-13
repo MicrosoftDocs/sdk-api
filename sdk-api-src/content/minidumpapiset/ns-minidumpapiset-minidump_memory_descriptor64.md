@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_DESCRIPTOR64
 title: MINIDUMP_MEMORY_DESCRIPTOR64 (minidumpapiset.h)
-description: Describes a range of memory.
+description: Describes a range of memory.M
 helpviewer_keywords: ["*PMINIDUMP_MEMORY_DESCRIPTOR64","MINIDUMP_MEMORY_DESCRIPTOR","MINIDUMP_MEMORY_DESCRIPTOR structure","MINIDUMP_MEMORY_DESCRIPTOR64","PMINIDUMP_MEMORY_DESCRIPTOR","PMINIDUMP_MEMORY_DESCRIPTOR structure pointer","_MINIDUMP_MEMORY_DESCRIPTOR","_win32_minidump_memory_descriptor_str","base.minidump_memory_descriptor_str","minidumpapiset/MINIDUMP_MEMORY_DESCRIPTOR","minidumpapiset/PMINIDUMP_MEMORY_DESCRIPTOR"]
 old-location: base\minidump_memory_descriptor_str.htm
 tech.root: Debug

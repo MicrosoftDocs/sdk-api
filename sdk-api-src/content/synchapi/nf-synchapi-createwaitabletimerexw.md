@@ -67,7 +67,7 @@ Creates or opens a waitable timer object and returns a handle to the object.
 ### -param lpTimerAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the timer handle cannot be inherited by child processes. 
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the timer handle cannot be inherited by child processes. 
 
 If <i>lpTimerAttributes</i> is <b>NULL</b>, the timer object gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a timer come from the primary or impersonation token of the creator.
 
@@ -90,7 +90,7 @@ The object can be created in a private namespace. For more information, see <a h
 
 ### -param dwFlags [in]
 
-This parameter can be 0 or the following value.
+This parameter can be 0 or the following values.
 
 <table>
 <tr>
@@ -105,7 +105,15 @@ This parameter can be 0 or the following value.
 </td>
 <td width="60%">
 The timer must be manually reset. Otherwise, the system automatically resets the timer after releasing a single waiting thread.
-
+</td>
+</tr><tr>
+<td width="40%"><a id="CREATE_WAITABLE_TIMER_HIGH_RESOLUTION"></a><a id="create_waitable_timer_high_resolution"></a><dl>
+<dt><b>CREATE_WAITABLE_TIMER_HIGH_RESOLUTION</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Creates a high resolution timer. Use this value for time-critical situations when short expiration delays on the order of a few milliseconds are unacceptable. This value is supported in Windows 10, version 1803, and later.
 </td>
 </tr>
 </table>
@@ -129,15 +137,10 @@ Any thread of the calling process can specify the timer object handle in a call 
 
 Multiple processes can have handles to the same timer object, enabling use of the object for interprocess synchronization.
 
-<ul>
-<li>A process created by the 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can inherit a handle to a timer object if the <i>lpTimerAttributes</i> parameter of 
-<b>CreateWaitableTimerEx</b> enables inheritance.</li>
-<li>A process can specify the timer object handle in a call to the <a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function. The resulting handle can be used by another process.</li>
-<li>A process can specify the name of a timer object in a call to the 
-[OpenWaitableTimer](./nf-synchapi-openwaitabletimerw.md) or 
-<b>CreateWaitableTimerEx</b> function.</li>
-</ul>
+* A process created by the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can inherit a handle to a timer object if the <i>lpTimerAttributes</i> parameter of <b>CreateWaitableTimerEx</b> enables inheritance.</li>
+* A process can specify the timer object handle in a call to the <a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function. The resulting handle can be used by another process.</li>
+* A process can specify the name of a timer object in a call to the [OpenWaitableTimer](./nf-synchapi-openwaitabletimerw.md) or <b>CreateWaitableTimerEx</b> function.</li>
+
 Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The timer object is destroyed when its last handle has been closed.
 
 To associate a timer with a window, use the <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> function.
@@ -146,10 +149,6 @@ To associate a timer with a window, use the <a href="/windows/desktop/api/winuse
 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
-
-
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
-
 
 <a href="/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>

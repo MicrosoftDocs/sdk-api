@@ -90,7 +90,7 @@ The metadata section contains metadata that is unique to a specific device. If t
 </tr>
 <tr>
 <td width="40%"><a id="http___schemas.xmlsoap.org_ws_2006_02_devprof_Relationship"></a><a id="http___schemas.xmlsoap.org_ws_2006_02_devprof_relationship"></a><a id="HTTP___SCHEMAS.XMLSOAP.ORG_WS_2006_02_DEVPROF_RELATIONSHIP"></a><dl>
-<dt><b>http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship</b></dt>
+<dt><b>`http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship`</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ The dialect-specific identifier for the scope/domain/namespace of the metadata s
 
 ### -field Data
 
-Reference to a binary representation of the metadata. The type of metadata is specified by <b>Dialect</b>. This member is ignored if <b>Dialect</b> does not have a value of http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice, or http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship.
+Reference to a binary representation of the metadata. The type of metadata is specified by <b>Dialect</b>. This member is ignored if <b>Dialect</b> does not have a value of `http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel`, `http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice`, or `http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship`.
 
 ### -field MetadataReference
 

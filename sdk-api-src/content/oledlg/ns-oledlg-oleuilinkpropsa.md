@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUILINKPROPSA
 title: OLEUILINKPROPSA (oledlg.h)
-description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.
+description: Contains information that is used to initialize the Link tab of the Object Properties dialog box. (ANSI)
 helpviewer_keywords: ["*LPOLEUILINKPROPSA","*POLEUILINKPROPSA","LPOLEUILINKPROPS","LPOLEUILINKPROPS structure pointer [COM]","OLEUILINKPROPS","OLEUILINKPROPS structure [COM]","OLEUILINKPROPSA","OLEUILINKPROPSW","POLEUILINKPROPS","POLEUILINKPROPS structure pointer [COM]","_ole_OLEUILINKPROPS","com.oleuilinkprops_struct","oledlg/LPOLEUILINKPROPS","oledlg/OLEUILINKPROPS","oledlg/OLEUILINKPROPSA","oledlg/OLEUILINKPROPSW","oledlg/POLEUILINKPROPS"]
 old-location: com\oleuilinkprops_struct.htm
 tech.root: com
@@ -99,4 +99,4 @@ Used internally.
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUILINKPROPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUILINKPROPS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

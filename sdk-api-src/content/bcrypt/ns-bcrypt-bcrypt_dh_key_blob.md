@@ -99,21 +99,29 @@ The length, in bytes, of the key.
 
 This structure is used as a header for a larger buffer. A Diffie-Hellman <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DH_PUBLIC_BLOB) has the following format in contiguous memory. The Modulus, Generator, and Public numbers are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DH_KEY_BLOB
 Modulus[cbKey] // Big-endian.
 Generator[cbKey] // Big-endian.
 Public[cbKey] // Big-endian.
-</code></pre>
+
+```
+
 A Diffie-Hellman <a href="/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_DH_PRIVATE_BLOB) has the following format in contiguous memory. The Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DH_KEY_BLOB
 Modulus[cbKey] // Big-endian.
 Generator[cbKey] // Big-endian.
 Public[cbKey] // Big-endian.
 PrivateExponent[cbKey] // Big-endian.
-</code></pre>
+
+```
+
 
 ## -see-also
 

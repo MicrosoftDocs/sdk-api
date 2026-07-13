@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_search_extA
 title: ldap_search_extA function (winldap.h)
-description: Searches the LDAP directory and returns a requested set of attributes for each matched entry.
-helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_ext","ldap.ldap__search__ext","ldap.ldap_search_ext","ldap_search_ext","ldap_search_ext function [LDAP]","ldap_search_extA","ldap_search_extW","winldap/ldap_search_ext","winldap/ldap_search_extA","winldap/ldap_search_extW"]
+description: Searches the LDAP directory and returns a requested set of attributes for each matched entry. (ldap_search_extA)
+helpviewer_keywords: ["LDAP_SCOPE_BASE", "LDAP_SCOPE_ONELEVEL", "LDAP_SCOPE_SUBTREE", "ldap.ldap__search__ext", "ldap_search_extA", "winldap/ldap_search_extA"]
 old-location: ldap\ldap_search_ext.htm
 tech.root: ldap
 ms.assetid: 25ba88f3-44f6-42b8-9d33-6e57f2484738
@@ -148,7 +148,7 @@ The <b>ldap_search_ext</b> function initiates an asynchronous search operation. 
 
 Use the 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the <b>LDAP_OPT_DEREF</b> option that determine how the search is performed. For more information, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. Two other session options, <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_TIMELIMIT</b>, are ignored in favor of the <i>SizeLimit</i> and <i>TimeLimit</i> parameters in this function.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. Two other session options, <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_TIMELIMIT</b>, are ignored in favor of the <i>SizeLimit</i> and <i>TimeLimit</i> parameters in this function.
 
 If the operation succeeds, <b>ldap_search_ext</b> passes the message ID to the caller as a parameter when the operation returns successfully. Call 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> with the message ID to get the result of the operation.
@@ -156,7 +156,7 @@ If the operation succeeds, <b>ldap_search_ext</b> passes the message ID to the c
 An LDAP client application that must control the rate at which results are returned may specify the search request to provide a paged results control with size set to the desired page size and cookie set to the zero-length string. The page size specified may be greater than zero and less than the <i>SizeLimit</i> value specified in the search request.
 
 If the page size is greater than or equal to the <i>SizeLimit</i> value option described in 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>, the server should ignore the control because the request can be satisfied in a single page. If the server does not support this control, the server must return an error of unsupported Critical Extension if the client requested it as critical, otherwise the server should ignore the control. The remainder of this section assumes the server does not ignore the client's paged results control.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>, the server should ignore the control because the request can be satisfied in a single page. If the server does not support this control, the server must return an error of unsupported Critical Extension if the client requested it as critical, otherwise the server should ignore the control. The remainder of this section assumes the server does not ignore the client's paged results control.
 
 The client sends the server a search request with the simple paged results control, along with an empty previous enumeration key, also known as a "cookie," and the initial page size. The server then returns the number of entries specified by the page size and also returns a cookie issued on the next client request to get the next page of results. The client then issues a search, with the cookie included, optionally resetting the page size. The server then responds by returning the results, up to the specified number of entries. To instruct the function to return the results directly, use the synchronous routine 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>.
@@ -177,7 +177,7 @@ Multithreading: Calls to <b>ldap_search_ext</b> are thread-safe.
 
 
 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 

@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-eventing-tdh-l1-1-2.dll
+ - api-ms-win-eventing-tdh-l1-1-1.dll
  - Tdh.dll
  - API-MS-Win-Eventing-Tdh-L1-1-0.dll
  - MinTdh.dll
@@ -168,7 +170,6 @@ For an example that shows how to call this function to retrieve the value of a t
 <div class="code"></div>
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a>
 
 

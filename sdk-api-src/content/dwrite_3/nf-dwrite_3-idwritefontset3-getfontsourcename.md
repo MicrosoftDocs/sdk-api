@@ -4,14 +4,14 @@ title: IDWriteFontSet3::GetFontSourceName
 description: Copies the font source name (for the specified font) into an output array.
 helpviewer_keywords: ["IDWriteFontSet3 interface [Direct Write]","GetFontSourceName method","IDWriteFontSet3.GetFontSourceName","IDWriteFontSet3::GetFontSourceName","GetFontSourceName","GetFontSourceName method [Direct Write]","GetFontSourceName method [Direct Write]","IDWriteFontSet3 interface","directwrite.idwritefontset3_getfontsourcename","dwrite_3/IDWriteFontSet3::GetFontSourceName"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontSet3 interface [Direct Write],GetFontSourceName method, IDWriteFontSet3.GetFontSourceName, IDWriteFontSet3::GetFontSourceName, GetFontSourceName, GetFontSourceName method [Direct Write], GetFontSourceName method [Direct Write],IDWriteFontSet3 interface, directwrite.idwritefontset3_getfontsourcename, dwrite_3/IDWriteFontSet3::GetFontSourceName
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 17763
+req.target-min-winversvr: Windows 10 Build 17763
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

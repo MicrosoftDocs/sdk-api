@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS
 title: D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS
-description: Specifies the parameters for decode output conversion.
+description: Specifies the parameters for decode output conversion. (D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS)
 helpviewer_keywords: ["D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS","D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS",""]
 tech.root: mf
 ms.assetid: 6a1fdbcd-abd7-431c-8cef-22f67b52ff0a

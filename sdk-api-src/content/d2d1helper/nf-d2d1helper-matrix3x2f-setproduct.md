@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.SetProduct
 title: Matrix3x2F::SetProduct (d2d1helper.h)
-description: Multiplies the two matrices and stores the result in this matrix.
+description: Multiplies the two matrices and stores the result in this matrix. (Matrix3x2F.SetProduct)
 helpviewer_keywords: ["D2D1.Matrix3x2F.SetProduct","D2D1::Matrix3x2F::SetProduct","Matrix3x2F interface [Direct2D]","SetProduct method","Matrix3x2F.SetProduct","Matrix3x2F::SetProduct","SetProduct","SetProduct method [Direct2D]","SetProduct method [Direct2D]","Matrix3x2F interface","d2d1helper/Matrix3x2F::SetProduct","direct2d.matrix3x2f_setproduct"]
 old-location: direct2d\matrix3x2f_setproduct.htm
 tech.root: Direct2D

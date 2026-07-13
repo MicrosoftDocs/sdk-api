@@ -6,7 +6,7 @@ helpviewer_keywords: ["SwDeviceInterfacePropertySet","SwDeviceInterfacePropertyS
 old-location: swdevice\swdeviceinterfacepropertyset.htm
 tech.root: swdevice
 ms.assetid: 397E6CAB-EE99-4723-84DB-8C48859E39D8
-ms.date: 12/05/2018
+ms.date: 04/22/2024
 ms.keywords: SwDeviceInterfacePropertySet, SwDeviceInterfacePropertySet function, swdevice.swdeviceinterfacepropertyset, swdevice/SwDeviceInterfacePropertySet
 req.header: swdevice.h
 req.include-header: 
@@ -77,8 +77,6 @@ An array of <a href="/previous-versions/windows/hardware/drivers/dn315030(v=vs.8
 S_OK is returned if <b>SwDeviceInterfacePropertySet</b> successfully set the properties on the interface; otherwise, an appropriate error value.
 
 ## -remarks
-
-Typically, only the operating system and Administrators of the computer can set properties on an interface, but the creator of a device can call <b>SwDeviceInterfacePropertySet</b> to set properties on an interface for that device even if the creator isn't the operating system or an Administrator.
 
 You can call <b>SwDeviceInterfacePropertySet</b> only after the operating system has called your client app's <a href="/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function to notify the client app that device enumeration completed.
 

@@ -54,11 +54,11 @@ Represents the state of the device in the network as last seen.
 
 ## -enum-fields
 
-### -field ConnectionStatus_Online
+### -field ConnectionStatus_Online:0
 
-### -field ConnectionStatus_Offline
+### -field ConnectionStatus_Offline:1
 
-### -field ConnectionStatus_Sleeping
+### -field ConnectionStatus_Sleeping:2
 
 #### - Offline
 

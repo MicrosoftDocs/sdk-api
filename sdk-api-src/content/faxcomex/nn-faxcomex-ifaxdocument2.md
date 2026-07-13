@@ -54,11 +54,7 @@ Defines a messaging object used by a fax client application to compose a fax doc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDocument2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>. <b>IFaxDocument2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IFaxDocument2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>. <b>IFaxDocument2</b> also has these types of members:
 
 ## -remarks
 

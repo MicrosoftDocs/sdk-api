@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqIfExA
 title: RpcServerUseProtseqIfExA function (rpcdce.h)
-description: The RpcServerUseProtseqIfEx function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls.
-helpviewer_keywords: ["RpcServerUseProtseqIfEx","RpcServerUseProtseqIfEx function [RPC]","RpcServerUseProtseqIfExA","RpcServerUseProtseqIfExW","_rpc_rpcserveruseprotseqifex","rpc.rpcserveruseprotseqifex","rpcdce/RpcServerUseProtseqIfEx","rpcdce/RpcServerUseProtseqIfExA","rpcdce/RpcServerUseProtseqIfExW"]
+description: The RpcServerUseProtseqIfEx function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls. (RpcServerUseProtseqIfExA)
+helpviewer_keywords: ["RpcServerUseProtseqIfExA", "rpcdce/RpcServerUseProtseqIfExA"]
 old-location: rpc\rpcserveruseprotseqifex.htm
 tech.root: Rpc
 ms.assetid: 28238ff2-0ed0-4cb5-8117-b6c544d8c098
@@ -207,7 +207,7 @@ To register all protocol sequences from the IDL file, a server calls
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcServerUseProtseqIfEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcServerUseProtseqIfEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

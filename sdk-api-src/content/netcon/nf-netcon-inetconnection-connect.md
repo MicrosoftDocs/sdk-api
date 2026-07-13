@@ -55,7 +55,7 @@ api_name:
 The 
 <b>Connect</b> method connects, or establishes, this network connection.
 
-## -parameters
+
 
 ## -returns
 

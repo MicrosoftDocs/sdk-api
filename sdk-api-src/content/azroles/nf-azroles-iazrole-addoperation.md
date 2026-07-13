@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddOperation","AddOperation method [Security]","AddOperat
 old-location: security\iazrole_addoperation.htm
 tech.root: security
 ms.assetid: 8c6d26ff-3287-4a1d-91cb-759f79ec92e5
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzRole object, AddOperation method [Security],IAzRole interface, AzRole object [Security],AddOperation method, IAzRole interface [Security],AddOperation method, IAzRole.AddOperation, IAzRole::AddOperation, azroles/IAzRole::AddOperation, security.iazrole_addoperation
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,30 @@ api_name:
 
 # IAzRole::AddOperation
 
-
 ## -description
 
-The <b>AddOperation</b> method adds the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name to the role.
+The **AddOperation** method adds the [IAzOperation](nn-azroles-iazoperation.md) object with the specified name to the role.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object to add to the role.
+Name of the [IAzOperation](nn-azroles-iazoperation.md) object to add to the role.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.
+You must call the [Submit](nf-azroles-iazrole-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[IAzOperation](nn-azroles-iazoperation.md)
+
+[Submit](nf-azroles-iazrole-submit.md)

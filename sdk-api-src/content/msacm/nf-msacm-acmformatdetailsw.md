@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmFormatDetailsW
 title: acmFormatDetailsW function (msacm.h)
-description: The acmFormatDetails function queries the ACM for format details for a specific waveform-audio format tag.
-helpviewer_keywords: ["_win32_acmFormatDetails","acmFormatDetails","acmFormatDetails function [Windows Multimedia]","acmFormatDetailsA","acmFormatDetailsW","msacm/acmFormatDetails","msacm/acmFormatDetailsA","msacm/acmFormatDetailsW","multimedia.acmformatdetails"]
+description: The acmFormatDetails (Unicode) function queries the ACM for format details for a specific waveform-audio format tag. (acmFormatDetailsW)
+helpviewer_keywords: ["_win32_acmFormatDetails", "acmFormatDetails", "acmFormatDetails function [Windows Multimedia]", "acmFormatDetailsW", "msacm/acmFormatDetails", "msacm/acmFormatDetailsW", "multimedia.acmformatdetails"]
 old-location: multimedia\acmformatdetails.htm
 tech.root: Multimedia
 ms.assetid: 2a6a9b8f-758b-4443-b1c7-e277f22bac5b
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFormatDetails, acmFormatDetails, acmFormatDetails function [Windows Multimedia], acmFormatDetailsA, acmFormatDetailsW, msacm/acmFormatDetails, msacm/acmFormatDetailsA, msacm/acmFormatDetailsW, multimedia.acmformatdetails
 req.header: msacm.h
 req.include-header: 
@@ -152,4 +152,4 @@ At least one parameter is invalid.
 ## -remarks
 
 > [!NOTE]
-> The msacm.h header defines ACMFORMATDETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines ACMFORMATDETAILS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

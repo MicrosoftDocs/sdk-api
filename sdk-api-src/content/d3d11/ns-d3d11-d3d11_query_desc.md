@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DESC
 title: D3D11_QUERY_DESC (d3d11.h)
-description: Describes a query.
+description: Describes a query. (D3D11_QUERY_DESC)
 helpviewer_keywords: ["4fde9a23-6b0d-4b54-8ad1-f6003b4e0887","D3D11_QUERY_DESC","D3D11_QUERY_DESC structure [Direct3D 11]","d3d11/D3D11_QUERY_DESC","direct3d11.d3d11_query_desc"]
 old-location: direct3d11\d3d11_query_desc.htm
 tech.root: direct3d11

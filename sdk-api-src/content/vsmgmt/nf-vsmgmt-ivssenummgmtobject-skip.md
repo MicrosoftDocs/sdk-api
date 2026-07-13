@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Skip
 title: IVssEnumMgmtObject::Skip (vsmgmt.h)
-description: Skips the specified number of objects.
+description: Skips the specified number of objects. (IVssEnumMgmtObject.Skip)
 helpviewer_keywords: ["IVssEnumMgmtObject interface [VSS]","Skip method","IVssEnumMgmtObject.Skip","IVssEnumMgmtObject::Skip","Skip","Skip method [VSS]","Skip method [VSS]","IVssEnumMgmtObject interface","base.ivssenummgmtobject_skip","vsmgmt/IVssEnumMgmtObject::Skip"]
 old-location: base\ivssenummgmtobject_skip.htm
 tech.root: base
@@ -61,7 +61,7 @@ Number of elements to be skipped in the list of enumerated objects.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -9,7 +9,7 @@ ms.assetid: f342e85c-ac81-4470-89ce-a9d0fc5e8f89
 ms.date: 12/05/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_CHECK_ONLY, InitOnceBeginInitialize, InitOnceBeginInitialize function, base.initoncebegininitialize, synchapi/InitOnceBeginInitialize, winbase/InitOnceBeginInitialize
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -137,5 +137,11 @@ For an example that uses this function, see [Using One-Time Initialization](/win
 
 ## -see-also
 
-[InitOnceComplete](/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete), [InitOnceExecuteOnce](/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce), [One-Time Initialization](/windows/desktop/Sync/one-time-initialization), [Synchronization Functions](/windows/desktop/Sync/synchronization-functions)
+[InitOnceComplete](/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete)
+
+[InitOnceExecuteOnce](/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce)
+
+[One-Time Initialization](/windows/desktop/Sync/one-time-initialization)
+
+[Synchronization Functions](/windows/desktop/Sync/synchronization-functions)
 

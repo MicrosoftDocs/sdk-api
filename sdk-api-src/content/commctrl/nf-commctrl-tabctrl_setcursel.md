@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_SetCurSel","TabCtrl_SetCurSel macro [Windows Cont
 old-location: controls\TabCtrl_SetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setcursel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_SetCurSel, TabCtrl_SetCurSel macro [Windows Controls], _win32_TabCtrl_SetCurSel, _win32_TabCtrl_SetCurSel_cpp, commctrl/TabCtrl_SetCurSel, controls.TabCtrl_SetCurSel, controls._win32_TabCtrl_SetCurSel
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TabCtrl_SetCurSel macro
+
+## -syntax
+
+```cpp
+int TabCtrl_SetCurSel(
+   HWND hwnd,
+   int  i
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the previously selected tab if successful, or -1 otherwise.
 
 
 ## -description

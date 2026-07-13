@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateCollection.RemoveAt
 title: IUpdateCollection::RemoveAt (wuapi.h)
-description: Removes the item at the specified index from the collection.
+description: Removes the item at the specified index from the collection. (IUpdateCollection.RemoveAt)
 helpviewer_keywords: ["IUpdateCollection interface [Windows Update Agent]","RemoveAt method","IUpdateCollection.RemoveAt","IUpdateCollection::RemoveAt","RemoveAt","RemoveAt method [Windows Update Agent]","RemoveAt method [Windows Update Agent]","IUpdateCollection interface","wua.iupdatecollection_removeat","wuapi/IUpdateCollection::RemoveAt"]
 old-location: wua\iupdatecollection_removeat.htm
 tech.root: wua

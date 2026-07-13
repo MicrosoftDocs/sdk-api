@@ -54,52 +54,36 @@ api_name:
 
 ## -description
 
-Defines the message parameters passed to a <b>WH_CALLWNDPROC</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>.
+Defines the message parameters passed to a **WH_CALLWNDPROC** hook procedure, [CallWindowProcW function](nf-winuser-callwindowprocw.md)/[CallWindowProcA function](nf-winuser-callwindowproca.md).
 
 ## -struct-fields
 
 ### -field lParam
 
-Type: <b>LPARAM</b>
+Type: **LPARAM**
 
-Additional information about the message. The exact meaning depends on the 
-					<b>message</b> value.
+Additional information about the message. The exact meaning depends on the **message** value.
 
 ### -field wParam
 
-Type: <b>WPARAM</b>
+Type: **WPARAM**
 
-Additional information about the message. The exact meaning depends on the 
-					<b>message</b> value.
+Additional information about the message. The exact meaning depends on the **message** value.
 
 ### -field message
 
-Type: <b>UINT</b>
+Type: **UINT**
 
 The message.
 
 ### -field hwnd
 
-Type: <b>HWND</b>
+Type: **HWND**
 
 A handle to the window to receive the message.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
-
-
-
-<b>Conceptual</b>
-
-
-
 <a href="/windows/desktop/winmsg/hooks">Hooks</a>
-
-
-
-<b>Reference</b>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

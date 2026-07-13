@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUICHANGESOURCEW
 title: OLEUICHANGESOURCEW (oledlg.h)
-description: Contains information that is used to initialize the standard Change Source dialog box.
+description: Contains information that is used to initialize the standard Change Source dialog box. (Unicode)
 helpviewer_keywords: ["*LPOLEUICHANGESOURCEW","*POLEUICHANGESOURCEW","CSF_ONLYGETSOURCE","CSF_SHOWHELP","CSF_VALIDSOURCE","LPOLEUICHANGESOURCE","LPOLEUICHANGESOURCE structure pointer [COM]","OLEUICHANGESOURCE","OLEUICHANGESOURCE structure [COM]","OLEUICHANGESOURCEA","OLEUICHANGESOURCEW","POLEUICHANGESOURCE","POLEUICHANGESOURCE structure pointer [COM]","_ole_OLEUICHANGESOURCE_str","com.oleuichangesource_struct","oledlg/LPOLEUICHANGESOURCE","oledlg/OLEUICHANGESOURCE","oledlg/OLEUICHANGESOURCEA","oledlg/OLEUICHANGESOURCEW","oledlg/POLEUICHANGESOURCE"]
 old-location: com\oleuichangesource_struct.htm
 tech.root: com
@@ -178,4 +178,4 @@ Pointer to the prefix of the source to be changed to.
 ## -remarks
 
 > [!NOTE]
-> The oledlg.h header defines OLEUICHANGESOURCE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUICHANGESOURCE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

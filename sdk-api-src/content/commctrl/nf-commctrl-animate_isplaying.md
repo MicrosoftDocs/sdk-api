@@ -6,7 +6,7 @@ helpviewer_keywords: ["Animate_IsPlaying","Animate_IsPlaying macro [Windows Cont
 old-location: controls\Animate_IsPlaying.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_isplaying.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Animate_IsPlaying, Animate_IsPlaying macro [Windows Controls], _shell_Animate_IsPlaying, _shell_Animate_IsPlaying_cpp, commctrl/Animate_IsPlaying, controls.Animate_IsPlaying, controls._shell_Animate_IsPlaying
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Animate_IsPlaying macro
+
+## -syntax
+
+```cpp
+BOOL Animate_IsPlaying(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

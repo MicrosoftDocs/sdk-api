@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetItem","ListView_GetItem macro [Windows Contro
 old-location: controls\ListView_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetItem, ListView_GetItem macro [Windows Controls], _win32_ListView_GetItem, _win32_ListView_GetItem_cpp, commctrl/ListView_GetItem, controls.ListView_GetItem, controls._win32_ListView_GetItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetItem macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetItem(
+   HWND     hwnd,
+   LPLVITEM pitem
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

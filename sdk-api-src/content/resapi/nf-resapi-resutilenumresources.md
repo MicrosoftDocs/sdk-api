@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-cluster-resutils-l1-1-3.dll
  - ResUtils.dll
 api_name:
  - ResUtilEnumResources
@@ -74,11 +75,15 @@ Pointer to a user-defined function which will be called for each enumerated reso
        callback function (note that parameter names are not part of the definition; they have been added here for 
        clarity):
 
-<pre class="syntax" xml:space="preserve"><code>DWORD (*LPRESOURCE_CALLBACK)( 
+
+``` syntax
+DWORD (*LPRESOURCE_CALLBACK)( 
   HRESOURCE hSelf, 
   HRESOURCE hEnum, 
   PVOID pParameter 
-);</code></pre>
+);
+```
+
 
 ### -param pParameter [in]
 

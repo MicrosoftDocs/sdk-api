@@ -60,7 +60,7 @@ Indicates the OEM's preferred power management profile. These values are read fr
 
 ## -enum-fields
 
-### -field PlatformRoleUnspecified
+### -field PlatformRoleUnspecified:0
 
 The OEM did not specify a specific role.
 

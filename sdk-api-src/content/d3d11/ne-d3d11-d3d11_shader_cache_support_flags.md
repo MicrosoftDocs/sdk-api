@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_SHADER_CACHE_SUPPORT_FLAGS
 title: D3D11_SHADER_CACHE_SUPPORT_FLAGS (d3d11.h)
-description: Describes the level of support for shader caching in the current graphics driver.
+description: Describes the level of support for shader caching in the current graphics driver. (D3D11_SHADER_CACHE_SUPPORT_FLAGS)
 helpviewer_keywords: ["D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE","D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE","D3D11_SHADER_CACHE_SUPPORT_FLAGS","D3D11_SHADER_CACHE_SUPPORT_FLAGS enumeration [Direct3D 11]","D3D11_SHADER_CACHE_SUPPORT_NONE","d3d11/D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE","d3d11/D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE","d3d11/D3D11_SHADER_CACHE_SUPPORT_FLAGS","d3d11/D3D11_SHADER_CACHE_SUPPORT_NONE","direct3d11.d3d11_shader_cache_support_flags"]
 old-location: direct3d11\d3d11_shader_cache_support_flags.htm
 tech.root: direct3d11
@@ -54,15 +54,15 @@ Describes the level of support for shader caching in the current graphics driver
 
 ## -enum-fields
 
-### -field D3D11_SHADER_CACHE_SUPPORT_NONE
+### -field D3D11_SHADER_CACHE_SUPPORT_NONE:0
 
 Indicates that the driver does not support shader caching.
 
-### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE
+### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE:0x1
 
 Indicates that the driver supports an OS-managed shader cache that stores compiled shaders in memory during the current run of the application.
 
-### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE
+### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE:0x2
 
 Indicates that the driver supports an OS-managed shader cache that stores compiled shaders on disk to accelerate future runs of the application.
 

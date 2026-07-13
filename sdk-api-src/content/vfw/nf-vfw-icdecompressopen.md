@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDecompressOpen","ICDecompressOpen macro [Windows Multim
 old-location: multimedia\icdecompressopen.htm
 tech.root: Multimedia
 ms.assetid: 83db0e07-7e93-4c77-a017-68a30b1372ef
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDecompressOpen, ICDecompressOpen macro [Windows Multimedia], _win32_ICDecompressOpen, multimedia.icdecompressopen, vfw/ICDecompressOpen
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # ICDecompressOpen macro
+
+## -syntax
+
+```cpp
+HIC ICDecompressOpen(
+    DWORD fccType,
+    DWORD fccHandler,
+    LPBITMAPINFOHEADER lpbiIn,
+    LPBITMAPINFOHEADER lpbiOut
+);
+```
+
+## -returns
+
+Type: **HIC**
+
+Returns a handle of a decompressor if successful or zero otherwise.
 
 
 ## -description

@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the address of the current fiber.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.MapViewOfFile3FromApp
 title: MapViewOfFile3FromApp function (memoryapi.h)
-description: Maps a view of a file mapping into the address space of a calling Windows Store app.
+description: Maps a view of a file mapping into the address space of a calling Windows Store app. (MapViewOfFile3FromApp)
 helpviewer_keywords: ["MEM_LARGE_PAGES","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MapViewOfFile3FromApp","MapViewOfFile3FromApp function","base.mapviewoffile3fromapp","memoryapi/MapViewOfFile3FromApp"]
 old-location: base\mapviewoffile3fromapp.htm
 tech.root: base
@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
  - Kernel32.dll
  - onecore.lib
 api_name:
@@ -74,8 +78,12 @@ A <b>HANDLE</b> to a process into which the section
 
 The desired base address of the view.
                   The address is rounded down to the nearest 64k boundary.
+
                   If this parameter is <b>NULL</b>, the system picks the base
                   address.
+
+If <i>BaseAddress</i> is not <b>NULL</b>, then
+any provided <a href="/windows/win32/api/winnt/ns-winnt-mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> structure must consist of all zeroes.
 
 ### -param Offset [in]
 
@@ -116,7 +124,8 @@ Maps a reserved view.
 </dl>
 </td>
 <td width="60%">
- Replaces a placeholder with a mapped view. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>ViewSize</i> must exactly match those of the placeholder.
+ Replaces a placeholder with a mapped view. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>ViewSize</i> must exactly match those of the placeholder,
+and any provided <a href="/windows/win32/api/winnt/ns-winnt-mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> structure must consist of all zeroes.
 
 After you replace a placeholder with a mapped view, to free that mapped view back to a placeholder, see the <i>UnmapFlags</i> parameter of <a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a> and <a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile2">UnmapViewOfFile2</a>.
 
@@ -200,7 +209,7 @@ For a code example, see Scenario 1 in <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>
+<a href="../memoryapi/nf-memoryapi-mapviewoffile3.md">MapViewOfFile3</a>
 
 
 

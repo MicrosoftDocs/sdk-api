@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateHistoryEntry
 title: IUpdateHistoryEntry (wuapi.h)
-description: Represents the recorded history of an update.
+description: Represents the recorded history of an update. (IUpdateHistoryEntry)
 helpviewer_keywords: ["IUpdateHistoryEntry","IUpdateHistoryEntry interface [Windows Update Agent]","IUpdateHistoryEntry interface [Windows Update Agent]","described","wua.iupdatehistoryentry","wuapi/IUpdateHistoryEntry"]
 old-location: wua\iupdatehistoryentry.htm
 tech.root: wua

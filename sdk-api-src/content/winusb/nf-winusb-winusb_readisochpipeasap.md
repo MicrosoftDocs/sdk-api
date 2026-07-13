@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WinUsb_ReadIsochPipeAsap</b> function submits a request that reads data from an isochronous OUT endpoint.
+The <b>WinUsb_ReadIsochPipeAsap</b> function submits a request that reads data from an isochronous IN endpoint.
 
 ## -parameters
 

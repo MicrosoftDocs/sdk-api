@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetModuleBase
 title: SymGetModuleBase function (dbghelp.h)
-description: Retrieves the base address of the module that contains the specified address.
+description: Retrieves the base address of the module that contains the specified address. (SymGetModuleBase)
 helpviewer_keywords: ["SymGetModuleBase","SymGetModuleBase function","SymGetModuleBase64","SymGetModuleBase64 function","_win32_symgetmodulebase64","base.symgetmodulebase64","dbghelp/SymGetModuleBase","dbghelp/SymGetModuleBase64"]
 old-location: base\symgetmodulebase64.htm
 tech.root: Debug

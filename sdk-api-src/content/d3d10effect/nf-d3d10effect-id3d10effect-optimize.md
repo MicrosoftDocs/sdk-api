@@ -52,7 +52,7 @@ api_name:
 
 Minimize the amount of memory required for an effect.
 
-## -parameters
+
 
 ## -returns
 

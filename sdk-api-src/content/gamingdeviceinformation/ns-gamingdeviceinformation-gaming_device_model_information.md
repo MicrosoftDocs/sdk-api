@@ -64,7 +64,7 @@ The type of device.
 
 ## -remarks
 
-This is a Win32 API that's supported in both Win32 and UWP apps. While it works on any device family, it's only really of value on Xbox devices.
+Supported in both Win32 and UWP apps.
 
 ## -see-also
 

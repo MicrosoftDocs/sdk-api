@@ -75,13 +75,11 @@ A value reserved for future use.
 
 The <b>SOCKET_PROCESSOR_AFFINITY</b>  structure is supported on Windows 8,   and Windows Server 2012, and later versions of the operating system.
 
-The <a href="/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)">SIO_QUERY_RSS_PROCESSOR_INFO</a> 
+The <a href="/windows/win32/winsock/sio-query-rss-processor-info">SIO_QUERY_RSS_PROCESSOR_INFO</a> 
         IOCTL is used to determine the association between a socket and an RSS processor core and NUMA node. This IOCTL returns a <b>SOCKET_PROCESSOR_AFFINITY</b> structure that contains the processor number and the NUMA node ID.
 
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a>
 
-
-
-<a href="/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)">SIO_QUERY_RSS_PROCESSOR_INFO</a>
+<a href="/windows/win32/winsock/sio-query-rss-processor-info">SIO_QUERY_RSS_PROCESSOR_INFO</a>

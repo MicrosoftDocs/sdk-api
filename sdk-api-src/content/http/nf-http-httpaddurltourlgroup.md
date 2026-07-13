@@ -62,7 +62,7 @@ The group ID for the URL group to which requests for the specified URL are route
 
 ### -param pFullyQualifiedUrl [in]
 
-A pointer to a Unicode string that contains a properly formed <a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix String</a> that identifies the URL to be registered.
+A pointer to a Unicode string that contains a properly formed <a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix String</a> that identifies the URL to be registered. If you are not running as an administrator, specify a port number greater than 1024, otherwise you may get an ERROR_ACCESS_DENIED error.
 
 ### -param UrlContext [in, optional]
 

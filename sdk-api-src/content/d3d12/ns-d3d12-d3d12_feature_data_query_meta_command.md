@@ -16,8 +16,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_FEATURE_DATA_QUERY_META_COMMAND
 req.umdf-ver: 
@@ -47,7 +47,7 @@ Indicates the level of support that the adapter provides for metacommands.
 
 Type: <b>[GUID](../guiddef/ns-guiddef-guid.md)</b>
 
-The fixed GUID that identfies the metacommand to query about.
+The fixed GUID that identifies the metacommand to query about.
 
 ### -field NodeMask
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateVirtualSurface
 title: IDCompositionDevice::CreateVirtualSurface (dcomp.h)
-description: Creates a sparsely populated surface that can be associated with one or more visuals for composition.
+description: The IDCompositionDevice::CreateVirtualSurface method creates a sparsely populated surface that can be associated with one or more visuals for composition.
 helpviewer_keywords: ["CreateVirtualSurface","CreateVirtualSurface method [DirectComposition]","CreateVirtualSurface method [DirectComposition]","IDCompositionDevice interface","DXGI_ALPHA_MODE_IGNORE","DXGI_ALPHA_MODE_PREMULTIPLIED","DXGI_ALPHA_MODE_UNSPECIFIED","IDCompositionDevice interface [DirectComposition]","CreateVirtualSurface method","IDCompositionDevice.CreateVirtualSurface","IDCompositionDevice::CreateVirtualSurface","dcomp/IDCompositionDevice::CreateVirtualSurface","directcomp.idcompositiondevice_createvirtualsurface"]
 old-location: directcomp\idcompositiondevice_createvirtualsurface.htm
 tech.root: directcomp
 ms.assetid: 85619C69-F5AE-4F07-AE56-7305BBECD58F
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionDevice interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice interface [DirectComposition],CreateVirtualSurface method, IDCompositionDevice.CreateVirtualSurface, IDCompositionDevice::CreateVirtualSurface, dcomp/IDCompositionDevice::CreateVirtualSurface, directcomp.idcompositiondevice_createvirtualsurface
 req.header: dcomp.h
 req.include-header: 

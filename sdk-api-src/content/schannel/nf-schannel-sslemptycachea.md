@@ -1,8 +1,8 @@
 ---
 UID: NF:schannel.SslEmptyCacheA
 title: SslEmptyCacheA function (schannel.h)
-description: Removes the specified string from the Schannel cache.
-helpviewer_keywords: ["SslEmptyCache","SslEmptyCache function [Security]","SslEmptyCacheA","SslEmptyCacheW","schannel/SslEmptyCache","schannel/SslEmptyCacheA","schannel/SslEmptyCacheW","security.sslemptycache"]
+description: Removes the specified string from the Schannel cache. (ANSI)
+helpviewer_keywords: ["SslEmptyCacheA", "schannel/SslEmptyCacheA"]
 old-location: security\sslemptycache.htm
 tech.root: security
 ms.assetid: c914d4e3-657e-45ef-ace8-2cea900a8a76
@@ -73,4 +73,4 @@ Returns nonzero if the specified entries are removed from the Schannel cache or 
 ## -remarks
 
 > [!NOTE]
-> The schannel.h header defines SslEmptyCache as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The schannel.h header defines SslEmptyCache as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

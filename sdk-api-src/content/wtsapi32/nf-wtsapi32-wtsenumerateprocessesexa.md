@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateProcessesExA
 title: WTSEnumerateProcessesExA function (wtsapi32.h)
-description: Retrieves information about the active processes on the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
-helpviewer_keywords: ["WTSEnumerateProcessesEx","WTSEnumerateProcessesEx function [Remote Desktop Services]","WTSEnumerateProcessesExA","WTSEnumerateProcessesExW","termserv.wtsenumerateprocessesex","wtsapi32/WTSEnumerateProcessesEx","wtsapi32/WTSEnumerateProcessesExA","wtsapi32/WTSEnumerateProcessesExW"]
+description: Retrieves information about the active processes on the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server. (ANSI)
+helpviewer_keywords: ["WTSEnumerateProcessesExA", "wtsapi32/WTSEnumerateProcessesExA"]
 old-location: termserv\wtsenumerateprocessesex.htm
 tech.root: TermServ
 ms.assetid: bc8a2550-cf89-4203-b96b-c750c0dff255
@@ -103,7 +103,7 @@ The caller must be a member of the Administrators group to enumerate processes t
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSEnumerateProcessesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSEnumerateProcessesEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

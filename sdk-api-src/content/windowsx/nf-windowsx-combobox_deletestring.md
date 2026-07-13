@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_DeleteString","ComboBox_DeleteString macro [Wind
 old-location: controls\ComboBox_DeleteString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_deletestring.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_DeleteString, ComboBox_DeleteString macro [Windows Controls], _win32_ComboBox_DeleteString, _win32_ComboBox_DeleteString_cpp, controls.ComboBox_DeleteString, controls._win32_ComboBox_DeleteString, windowsx/ComboBox_DeleteString
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_DeleteString macro
+
+## -syntax
+
+```cpp
+int ComboBox_DeleteString(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is a count of the strings remaining in the list. The return value is CB_ERR if the <i>index</i> parameter specifies an index greater than the number of items in the list.
 
 
 ## -description

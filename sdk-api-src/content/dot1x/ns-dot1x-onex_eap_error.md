@@ -461,7 +461,7 @@ The trusted root certificate needed for user certificate validation has expired.
 </dl>
 </td>
 <td width="60%">
-The EAPHost could not find a root certificate in the trusted root certificate store for server certificate velidation.
+The EAPHost could not find a root certificate in the trusted root certificate store for server certificate validation.
 
 </td>
 </tr>
@@ -473,7 +473,7 @@ The EAP method type that raised the error during 802.1X authentication. The <a h
 
 ### -field dwReasonCode
 
-The reason the EAP method failed. Some of the values for this member are defined in the <i>Eaphosterror.h</i> header file and some are defined in in the <i>Winerror.h</i> header file, although other values are possible.
+The reason the EAP method failed. Some of the values for this member are defined in the <i>Eaphosterror.h</i> header file and some are defined in the <i>Winerror.h</i> header file, although other values are possible.
 
 Possible values are listed below.
 

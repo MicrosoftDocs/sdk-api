@@ -53,7 +53,7 @@ api_name:
 
 The <b>LinearGradientBrush::GetWrapMode</b> method gets the wrap mode for this brush. The wrap mode determines how an area is tiled when it is painted with a brush.
 
-## -parameters
+
 
 ## -returns
 

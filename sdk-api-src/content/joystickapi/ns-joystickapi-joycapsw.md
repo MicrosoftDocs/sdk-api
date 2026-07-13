@@ -1,12 +1,12 @@
 ---
 UID: NS:joystickapi.tagJOYCAPSW
 title: JOYCAPSW (joystickapi.h)
-description: The JOYCAPS structure contains information about the joystick capabilities.
+description: The JOYCAPSW (Unicode) (joystickapi.h) structure contains information about the joystick capabilities.
 helpviewer_keywords: ["*LPJOYCAPSW","*NPJOYCAPSW","*PJOYCAPSW","JOYCAPS","JOYCAPS structure [Windows Multimedia]","JOYCAPSA","JOYCAPSW","_win32_JOYCAPS_str","joystickapi/JOYCAPS","joystickapi/JOYCAPSA","joystickapi/JOYCAPSW","multimedia.joycaps","tagJOYCAPSA","tagJOYCAPSW"]
 old-location: multimedia\joycaps.htm
 tech.root: Multimedia
 ms.assetid: 9b175aaf-f408-4fe8-bd7c-56f513b57c1b
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*LPJOYCAPSW, *NPJOYCAPSW, *PJOYCAPSW, JOYCAPS, JOYCAPS structure [Windows Multimedia], JOYCAPSA, JOYCAPSW, _win32_JOYCAPS_str, joystickapi/JOYCAPS, joystickapi/JOYCAPSA, joystickapi/JOYCAPSW, multimedia.joycaps, tagJOYCAPSA, tagJOYCAPSW'
 req.header: joystickapi.h
 req.include-header: Windows.h
@@ -206,4 +206,4 @@ Multimedia Joystick Structures
 ## -remarks
 
 > [!NOTE]
-> The joystickapi.h header defines JOYCAPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The joystickapi.h header defines JOYCAPS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

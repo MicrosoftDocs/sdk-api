@@ -56,7 +56,7 @@ The <b>FWPM_SYSTEM_PORT_TYPE</b> enumerated type specifies the type of system po
 
 ## -enum-fields
 
-### -field FWPM_SYSTEM_PORT_RPC_EPMAP
+### -field FWPM_SYSTEM_PORT_RPC_EPMAP:0
 
 Specifies a system port used by an RPC endpoint mapper.
 

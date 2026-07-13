@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInt64
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateInt64 (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified signed 64-bit integer value.
 helpviewer_keywords: ["CreateInt64","CreateInt64 method [Windows Runtime]","CreateInt64 method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateInt64 method","IPropertyValueStatics.CreateInt64","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateInt64","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateInt64","winrt.ipropertyvaluefactory_createint64","winrt.ipropertyvaluestatics_createint64"]
 old-location: winrt\ipropertyvaluestatics_createint64.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateInt64
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateInt64 (windows.foundation.h)
 
 
 ## -description

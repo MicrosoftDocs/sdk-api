@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_Apply","PropSheet_Apply macro [Windows Controls
 old-location: controls\PropSheet_Apply.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_apply.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_Apply, PropSheet_Apply macro [Windows Controls], _win32_PropSheet_Apply, _win32_PropSheet_Apply_cpp, controls.PropSheet_Apply, controls._win32_PropSheet_Apply, prsht/PropSheet_Apply
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PropSheet_Apply macro
+
+## -syntax
+
+```cpp
+BOOL PropSheet_Apply(
+   HWND hDlg
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if all pages successfully applied the changes, or <b>FALSE</b> otherwise.
 
 
 ## -description

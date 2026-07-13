@@ -54,19 +54,19 @@ Describes whether a render target uses hardware or software rendering, or if Dir
 
 ## -enum-fields
 
-### -field D2D1_RENDER_TARGET_TYPE_DEFAULT
+### -field D2D1_RENDER_TARGET_TYPE_DEFAULT:0
 
 The render target uses hardware rendering, if available; otherwise, it uses software rendering.
 
-### -field D2D1_RENDER_TARGET_TYPE_SOFTWARE
+### -field D2D1_RENDER_TARGET_TYPE_SOFTWARE:1
 
 The render target uses software rendering only.
 
-### -field D2D1_RENDER_TARGET_TYPE_HARDWARE
+### -field D2D1_RENDER_TARGET_TYPE_HARDWARE:2
 
 The render target uses hardware rendering only.
 
-### -field D2D1_RENDER_TARGET_TYPE_FORCE_DWORD
+### -field D2D1_RENDER_TARGET_TYPE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

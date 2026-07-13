@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorHermite
 title: XMVectorHermite function (directxmath.h)
-description: Performs a Hermite spline interpolation, using the specified vectors.
+description: Performs a Hermite spline interpolation, using the specified vectors. (XMVectorHermite)
 helpviewer_keywords: ["Use DirectX..XMVectorHermite","XMVectorHermite","XMVectorHermite method [DirectX Math Support APIs]","dxmath.xmvectorhermite"]
 old-location: dxmath\xmvectorhermite.htm
 tech.root: dxmath

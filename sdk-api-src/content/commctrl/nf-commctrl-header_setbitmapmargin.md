@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_SetBitmapMargin","Header_SetBitmapMargin macro [Wi
 old-location: controls\Header_SetBitmapMargin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setbitmapmargin.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_SetBitmapMargin, Header_SetBitmapMargin macro [Windows Controls], _win32_Header_SetBitmapMargin, _win32_Header_SetBitmapMargin_cpp, commctrl/Header_SetBitmapMargin, controls.Header_SetBitmapMargin, controls._win32_Header_SetBitmapMargin
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 
 # Header_SetBitmapMargin macro
 
+## -syntax
+
+```cpp
+int Header_SetBitmapMargin(
+   HWND hwnd,
+   int  iWidth
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns width of the bitmap margin in pixels. If the bitmap margin was not previously specified, the default value of 3*<b>GetSystemMetrics</b> (<i>CX_EDGE</i>) is returned.
 
 ## -description
 

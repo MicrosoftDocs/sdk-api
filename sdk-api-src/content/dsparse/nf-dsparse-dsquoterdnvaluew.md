@@ -1,8 +1,8 @@
 ---
 UID: NF:dsparse.DsQuoteRdnValueW
 title: DsQuoteRdnValueW function (dsparse.h)
-description: Converts an RDN into a quoted RDN value, if the RDN value contains characters that require quotes.
-helpviewer_keywords: ["DsQuoteRdnValue","DsQuoteRdnValue function [Active Directory]","DsQuoteRdnValueA","DsQuoteRdnValueW","ERROR_BUFFER_OVERFLOW","ERROR_SUCCESS","_glines_dsquoterdnvalue","ad.dsquoterdnvalue","dsparse/DsQuoteRdnValue","dsparse/DsQuoteRdnValueA","dsparse/DsQuoteRdnValueW"]
+description: Converts an RDN into a quoted RDN value, if the RDN value contains characters that require quotes. (Unicode)
+helpviewer_keywords: ["DsQuoteRdnValue", "DsQuoteRdnValue function [Active Directory]", "DsQuoteRdnValueW", "ERROR_BUFFER_OVERFLOW", "ERROR_SUCCESS", "_glines_dsquoterdnvalue", "ad.dsquoterdnvalue", "dsparse/DsQuoteRdnValue", "dsparse/DsQuoteRdnValueW"]
 old-location: ad\dsquoterdnvalue.htm
 tech.root: ad
 ms.assetid: a1e8a4c0-965a-4061-aab3-3e719ec6374d
@@ -115,7 +115,7 @@ To revert changes made by this call, call the <a href="/windows/desktop/api/dspa
 
 
 > [!NOTE]
-> The dsparse.h header defines DsQuoteRdnValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dsparse.h header defines DsQuoteRdnValue as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

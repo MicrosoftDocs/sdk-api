@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.InstallColorProfileA
 title: InstallColorProfileA
-description: Installs a given profile for use on a specified machine. The profile is also copied to the COLOR directory.
+description: Installs a given profile for use on a specified machine. The profile is also copied to the COLOR directory. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

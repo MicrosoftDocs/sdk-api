@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.UpdateVideo
 title: IMFCapturePreviewSink::UpdateVideo (mfcaptureengine.h)
-description: Updates the video frame.
+description: Updates the video frame. (IMFCapturePreviewSink.UpdateVideo)
 helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","UpdateVideo method","IMFCapturePreviewSink.UpdateVideo","IMFCapturePreviewSink::UpdateVideo","UpdateVideo","UpdateVideo method [Media Foundation]","UpdateVideo method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_updatevideo","mfcaptureengine/IMFCapturePreviewSink::UpdateVideo"]
 old-location: mf\imfcapturepreviewsink_updatevideo.htm
 tech.root: mf
@@ -68,7 +68,7 @@ The border color. Use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RG
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

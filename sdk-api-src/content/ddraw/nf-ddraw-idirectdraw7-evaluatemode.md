@@ -102,7 +102,7 @@ When the test is initiated, or whenever a mode is passed or failed, DirectDraw b
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>EvaluateMode</b> method.
+
 
 ## -see-also
 

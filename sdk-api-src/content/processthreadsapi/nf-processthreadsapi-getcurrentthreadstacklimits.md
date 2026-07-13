@@ -4,7 +4,7 @@ title: GetCurrentThreadStackLimits function (processthreadsapi.h)
 description: Retrieves the boundaries of the stack that was allocated by the system for the current thread.
 helpviewer_keywords: ["GetCurrentThreadStackLimits","GetCurrentThreadStackLimits function","base.getcurrentthreadstacklimits","processthreadsapi/GetCurrentThreadStackLimits"]
 old-location: base\getcurrentthreadstacklimits.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: a5556124-a832-477d-80ab-424779eb9553
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, base.getcurrentthreadstacklimits, processthreadsapi/GetCurrentThreadStackLimits
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
  - KernelBase.dll

@@ -54,7 +54,7 @@ Specifies how the CPU should respond when an application calls the <a href="/win
 
 ## -enum-fields
 
-### -field D3D11_MAP_FLAG_DO_NOT_WAIT
+### -field D3D11_MAP_FLAG_DO_NOT_WAIT:0x100000L
 
 Specifies that <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">ID3D11DeviceContext::Map</a> should return DXGI_ERROR_WAS_STILL_DRAWING when the GPU blocks the CPU from accessing a resource. For more information about this error code, see <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 

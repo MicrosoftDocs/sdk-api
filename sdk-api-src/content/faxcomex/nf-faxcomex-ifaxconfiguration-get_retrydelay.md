@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_RetryDelay
 title: IFaxConfiguration::get_RetryDelay (faxcomex.h)
-description: Sets or retrieves a value that indicates the length of time the fax service should wait before retrying a failed fax transmission.
+description: Sets or retrieves a value that indicates the length of time the fax service should wait before retrying a failed fax transmission. (Get)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","RetryDelay property","IFaxConfiguration.RetryDelay","IFaxConfiguration.get_RetryDelay","IFaxConfiguration::RetryDelay","IFaxConfiguration::get_RetryDelay","IFaxConfiguration::put_RetryDelay","RetryDelay property [Fax Service]","RetryDelay property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_RetryDelay","fax._mfax_IFaxConfiguration_RetryDelay","faxcomex/IFaxConfiguration::RetryDelay","faxcomex/IFaxConfiguration::get_RetryDelay","faxcomex/IFaxConfiguration::put_RetryDelay","get_RetryDelay"]
 old-location: fax\_mfax_IFaxConfiguration_RetryDelay.htm
 tech.root: Fax

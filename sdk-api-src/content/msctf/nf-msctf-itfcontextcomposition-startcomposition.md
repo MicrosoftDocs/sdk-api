@@ -160,7 +160,7 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 
 ## -remarks
 
-If the context owner has installed an context owner composition advise sink, the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition">ITfContextOwnerCompositionSink::OnStartComposition</a> method is called. If the advise sink rejects the new composition, this method returns S_OK but <i>ppComposition</i> is set to <b>NULL</b>.
+If the context owner has installed a context owner composition advise sink, the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition">ITfContextOwnerCompositionSink::OnStartComposition</a> method is called. If the advise sink rejects the new composition, this method returns S_OK but <i>ppComposition</i> is set to <b>NULL</b>.
 
 Any text covered by <i>pCompositionRange</i> receives the GUID_PROP_COMPOSING property.
 

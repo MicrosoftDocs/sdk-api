@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetDlgItemTextW
 title: GetDlgItemTextW function (winuser.h)
-description: Retrieves the title or text associated with a control in a dialog box.
-helpviewer_keywords: ["GetDlgItemText","GetDlgItemText function [Dialog Boxes]","GetDlgItemTextA","GetDlgItemTextW","_win32_GetDlgItemText","_win32_getdlgitemtext_cpp","dlgbox.getdlgitemtext","winui._win32_getdlgitemtext","winuser/GetDlgItemText","winuser/GetDlgItemTextA","winuser/GetDlgItemTextW"]
+description: Retrieves the title or text associated with a control in a dialog box. (Unicode)
+helpviewer_keywords: ["GetDlgItemText", "GetDlgItemText function [Dialog Boxes]", "GetDlgItemTextW", "_win32_GetDlgItemText", "_win32_getdlgitemtext_cpp", "dlgbox.getdlgitemtext", "winui._win32_getdlgitemtext", "winuser/GetDlgItemText", "winuser/GetDlgItemTextW"]
 old-location: dlgbox\getdlgitemtext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemtext.htm
@@ -109,7 +109,7 @@ For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creatin
 
 
 > [!NOTE]
-> The winuser.h header defines GetDlgItemText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetDlgItemText as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

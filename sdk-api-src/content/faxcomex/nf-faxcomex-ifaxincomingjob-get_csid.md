@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_CSID
 title: IFaxIncomingJob::get_CSID (faxcomex.h)
-description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the job.
+description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the job. (IFaxIncomingJob.get_CSID)
 helpviewer_keywords: ["CSID property [Fax Service]","CSID property [Fax Service]","IFaxIncomingJob interface","IFaxIncomingJob interface [Fax Service]","CSID property","IFaxIncomingJob.CSID","IFaxIncomingJob.get_CSID","IFaxIncomingJob::CSID","IFaxIncomingJob::get_CSID","_mfax_faxincomingjob.csid","fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_csid_cpp","fax._mfax_faxincomingjob_csid","faxcomex/IFaxIncomingJob::CSID","faxcomex/IFaxIncomingJob::get_CSID","get_CSID"]
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_csid_cpp.htm
 tech.root: Fax

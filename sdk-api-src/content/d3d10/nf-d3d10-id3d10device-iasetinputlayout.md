@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetInputLayout
 title: ID3D10Device::IASetInputLayout (d3d10.h)
-description: Bind an input-layout object to the input-assembler stage.
+description: Bind an input-layout object to the input-assembler stage. (ID3D10Device.IASetInputLayout)
 helpviewer_keywords: ["5492ac19-1f40-6d42-38a5-490e297331f0","IASetInputLayout","IASetInputLayout method [Direct3D 10]","IASetInputLayout method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IASetInputLayout method","ID3D10Device.IASetInputLayout","ID3D10Device::IASetInputLayout","d3d10/ID3D10Device::IASetInputLayout","direct3d10.id3d10device_iasetinputlayout"]
 old-location: direct3d10\id3d10device_iasetinputlayout.htm
 tech.root: direct3d10

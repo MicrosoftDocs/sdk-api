@@ -60,7 +60,7 @@ The DDOPENVPCAPTUREDEVICEOUT structure contains the <a href="/windows-hardware/d
 
 ### -field ddRVal
 
-Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a> operations. A return code of DD_OK indicates success.
 
 ### -field hCapture
 
@@ -72,4 +72,4 @@ Handle to the new VPE capture object.
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

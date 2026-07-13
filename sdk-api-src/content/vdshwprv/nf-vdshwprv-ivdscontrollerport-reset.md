@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsControllerPort.Reset
 title: IVdsControllerPort::Reset (vdshwprv.h)
-description: Reinitializes the controller port.
+description: The IVdsControllerPort::Reset (vdshwprv.h) method reinitializes the controller port.
 helpviewer_keywords: ["IVdsControllerPort interface [VDS]","Reset method","IVdsControllerPort.Reset","IVdsControllerPort::Reset","Reset","Reset method [VDS]","Reset method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_reset","vds/IVdsControllerPort::Reset","vdshwprv/IVdsControllerPort::Reset"]
 old-location: base\ivdscontrollerport_reset.htm
 tech.root: base
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsControllerPort interface [VDS],Reset method, IVdsControllerPort.Reset, IVdsControllerPort::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_reset, vds/IVdsControllerPort::Reset, vdshwprv/IVdsControllerPort::Reset
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,12 +51,12 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Reinitializes the 
    controller port.
 
-## -parameters
+
 
 ## -returns
 
@@ -70,7 +70,7 @@ This method can return standard HRESULT values, such as E_OUTOFMEMORY, and <a hr
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -81,7 +81,7 @@ The controller port was successfully reset.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -98,7 +98,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -110,7 +110,7 @@ The controller port object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>
@@ -122,7 +122,7 @@ Another operation is in progress. This operation cannot proceed until previous o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 <dt>0x80042400L</dt>
 </dl>
 </td>

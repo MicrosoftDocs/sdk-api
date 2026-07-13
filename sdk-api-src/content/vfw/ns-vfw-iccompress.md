@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_2
+UID: NS:vfw.ICCOMPRESS
 title: ICCOMPRESS (vfw.h)
 description: The ICCOMPRESS structure contains compression parameters used with the ICM_COMPRESS message.
 helpviewer_keywords: ["ICCOMPRESS","ICCOMPRESS structure [Windows Multimedia]","ICCOMPRESS_KEYFRAME","multimedia.iccompress_COLLISION455","multimedia.iccompress_struct","vfw/ICCOMPRESS"]
@@ -134,3 +134,4 @@ Drivers that perform temporal compression use data from the previous frame (foun
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

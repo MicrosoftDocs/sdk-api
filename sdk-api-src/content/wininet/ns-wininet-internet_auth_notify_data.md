@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_38
+UID: NS:wininet.INTERNET_AUTH_NOTIFY_DATA
 title: INTERNET_AUTH_NOTIFY_DATA (wininet.h)
 description: Contains the notification data for an authentication request.
 helpviewer_keywords: ["INTERNET_AUTH_NOTIFY_DATA","INTERNET_AUTH_NOTIFY_DATA structure [WinINet]","_inet_internet_auth_notify_data_structure","wininet.internet_auth_notify_data","wininet/INTERNET_AUTH_NOTIFY_DATA"]
@@ -77,3 +77,4 @@ Pointer to a variable that contains an application-defined value used to identif
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>
+

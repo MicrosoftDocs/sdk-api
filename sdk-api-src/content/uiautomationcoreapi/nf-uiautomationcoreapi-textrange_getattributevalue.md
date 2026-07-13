@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetAttributeValue
 title: TextRange_GetAttributeValue function (uiautomationcoreapi.h)
-description: Gets the value of an text attribute for a text range.
+description: Gets the value of a text attribute for a text range.
 helpviewer_keywords: ["TextRange_GetAttributeValue","TextRange_GetAttributeValue function [Windows Accessibility]","uiauto.uiauto_TextRange_GetAttributeValueConPat","uiauto_TextRange_GetAttributeValueConPat","uiautomationcoreapi/TextRange_GetAttributeValue","winauto.uiauto_TextRange_GetAttributeValueConPat"]
 old-location: winauto\uiauto_TextRange_GetAttributeValueConPat.htm
 tech.root: WinAuto
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Gets the value of an text attribute for a text range.
+<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Gets the value of a text attribute for a text range.
 
 ## -parameters
 

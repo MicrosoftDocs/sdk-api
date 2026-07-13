@@ -11,8 +11,8 @@ ms.keywords: GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreference
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: OneCore.Lib
 req.dll: Kernel.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-rotationmanager-l1-1-2.dll
  - kernel.dll
  - Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
  - user32.dll

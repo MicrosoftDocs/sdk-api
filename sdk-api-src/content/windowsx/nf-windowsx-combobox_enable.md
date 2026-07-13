@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_Enable","ComboBox_Enable macro [Windows Controls
 old-location: controls\ComboBox_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_enable.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_Enable, ComboBox_Enable macro [Windows Controls], _win32_ComboBox_Enable, _win32_ComboBox_Enable_cpp, controls.ComboBox_Enable, controls._win32_ComboBox_Enable, windowsx/ComboBox_Enable
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_Enable macro
+
+## -syntax
+
+```cpp
+BOOL ComboBox_Enable(
+   HWND hwndCtl,
+   BOOL fEnable
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+<b>TRUE</b> if the window was previously disabled, or <b>FALSE</b> if it was previously enabled.
 
 
 ## -description

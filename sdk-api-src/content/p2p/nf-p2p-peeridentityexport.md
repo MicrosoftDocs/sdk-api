@@ -131,15 +131,18 @@ Exporting a peer identity   does not remove it from a local ccmputer, it  makes 
 
 The XML fragment used by <b>PeerIdentityExport</b> is as follows:
 
-<pre class="syntax" xml:space="preserve"><code>&lt;PEERIDENTITYEXPORT VERSION="1.0"&gt;
-   &lt;PEERNAME&gt;
-     &lt;!-- UTF-8 encoded peer name of the identity --&gt;
-   &lt;/PEERNAME&gt;
-   &lt;DATA xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64"&gt;
-      &lt;!-- base64 encoded / PFX encoded and encrypted IDC with the private key --&gt;
-   &lt;/DATA&gt;
-&lt;/PEERIDENTITYEXPORT&gt;
-</code></pre>
+
+``` syntax
+<PEERIDENTITYEXPORT VERSION="1.0">
+   <PEERNAME>
+     <!-- UTF-8 encoded peer name of the identity -->
+   </PEERNAME>
+   <DATA xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">
+      <!-- base64 encoded / PFX encoded and encrypted IDC with the private key -->
+   </DATA>
+</PEERIDENTITYEXPORT>
+```
+
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_Cursors
 title: IInkPicture::get_Cursors (msinkaut.h)
-description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
+description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device. (IInkPicture.get_Cursors)
 helpviewer_keywords: ["Cursors property [Tablet PC]","Cursors property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","Cursors property","IInkPicture.Cursors","IInkPicture.get_Cursors","IInkPicture::Cursors","IInkPicture::get_Cursors","InkPicture.get_Cursors","get_Cursors","msinkaut/IInkPicture::Cursors","msinkaut/IInkPicture::get_Cursors","tablet.inkpicture_cursors"]
 old-location: tablet\inkpicture_cursors.htm
 tech.root: tablet
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -84,7 +84,7 @@ The <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleasePrimaryBuf
 old-location: dshow\iamdirectsound_releaseprimarybufferinterface.htm
 tech.root: dshow
 ms.assetid: 9a04d344-394e-4a93-a601-0aa419182d9b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMDirectSound interface [DirectShow],ReleasePrimaryBufferInterface method, IAMDirectSound.ReleasePrimaryBufferInterface, IAMDirectSound::ReleasePrimaryBufferInterface, IAMDirectSoundReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface method [DirectShow], ReleasePrimaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleasePrimaryBufferInterface, dshow.iamdirectsound_releaseprimarybufferinterface
 req.header: amaudio.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>ReleasePrimaryBufferInterface</code> method is not implemented.
 

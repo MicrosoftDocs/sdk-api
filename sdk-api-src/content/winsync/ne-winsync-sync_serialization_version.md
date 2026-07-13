@@ -52,19 +52,19 @@ api_name:
 
 ## -description
 
-Represents the version of <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a> that a particular component is compatible with. For an overview of what is involved in building synchronization providers using  <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a>, see <a href="/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
+Represents the version of Microsoft Sync Framework that a particular component is compatible with. For an overview see <a href="/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>. Note: this documentation is no longer updated and may contain out of date information.
 
 ## -enum-fields
 
-### -field SYNC_SERIALIZATION_VERSION_V1
+### -field SYNC_SERIALIZATION_VERSION_V1:1
 
 Indicates a component is compatible with Sync Framework 1.0.
 
-### -field SYNC_SERIALIZATION_VERSION_V2
+### -field SYNC_SERIALIZATION_VERSION_V2:4
 
 Indicates a component is compatible with Sync Framework 2.0.
 
-### -field SYNC_SERIALIZATION_VERSION_V3
+### -field SYNC_SERIALIZATION_VERSION_V3:5
 
 ## -remarks
 

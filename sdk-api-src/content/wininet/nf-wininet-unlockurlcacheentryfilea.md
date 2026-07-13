@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.UnlockUrlCacheEntryFileA
 title: UnlockUrlCacheEntryFileA function (wininet.h)
-description: Unlocks the cache entry that was locked while the file was retrieved for use from the cache.
-helpviewer_keywords: ["UnlockUrlCacheEntryFile","UnlockUrlCacheEntryFile function [WinINet]","UnlockUrlCacheEntryFileA","UnlockUrlCacheEntryFileW","_inet_unlockurlcacheentryfile_function","wininet.unlockurlcacheentryfile","wininet/UnlockUrlCacheEntryFile","wininet/UnlockUrlCacheEntryFileA","wininet/UnlockUrlCacheEntryFileW"]
+description: Unlocks the cache entry that was locked while the file was retrieved for use from the cache. (UnlockUrlCacheEntryFileA)
+helpviewer_keywords: ["UnlockUrlCacheEntryFileA", "wininet/UnlockUrlCacheEntryFileA"]
 old-location: wininet\unlockurlcacheentryfile.htm
 tech.root: wininet
 ms.assetid: ccc650dc-1759-4438-85d5-539c71d21a74
@@ -84,7 +84,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines UnlockUrlCacheEntryFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines UnlockUrlCacheEntryFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

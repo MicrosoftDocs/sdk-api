@@ -70,10 +70,7 @@ The <b>IChannelAudioVolume</b> interface controls the channel volumes in an audi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChannelAudioVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IChannelAudioVolume</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IChannelAudioVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IChannelAudioVolume</b> also has these types of members:
 
 ## -see-also
 

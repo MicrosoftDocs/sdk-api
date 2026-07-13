@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: 
+req.dll: inkobjcore.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ The following table lists the possible character Autocomplete modes.
 
 <table>
 <tr>
-<th>The haracter Autocomplete mode.</th>
+<th>The character Autocomplete mode.</th>
 <th>Meaning</th>
 </tr>
 <tr>

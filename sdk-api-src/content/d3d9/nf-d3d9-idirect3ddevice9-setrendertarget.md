@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetRenderTarget
 title: IDirect3DDevice9::SetRenderTarget (d3d9.h)
-description: Sets a new color buffer for the device.
+description: The IDirect3DDevice9::SetRenderTarget method (d3d9helper.h) sets a new color buffer for the device.
 helpviewer_keywords: ["8a35c59a-95b2-ac1b-0fde-a907c6a0b520","IDirect3DDevice9 interface [Direct3D 9]","SetRenderTarget method","IDirect3DDevice9.SetRenderTarget","IDirect3DDevice9::SetRenderTarget","SetRenderTarget","SetRenderTarget method [Direct3D 9]","SetRenderTarget method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetRenderTarget","direct3d9.idirect3ddevice9__setrendertarget"]
 old-location: direct3d9\idirect3ddevice9__setrendertarget.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setrendertarget.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 8a35c59a-95b2-ac1b-0fde-a907c6a0b520, IDirect3DDevice9 interface [Direct3D 9],SetRenderTarget method, IDirect3DDevice9.SetRenderTarget, IDirect3DDevice9::SetRenderTarget, SetRenderTarget, SetRenderTarget method [Direct3D 9], SetRenderTarget method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetRenderTarget, direct3d9.idirect3ddevice9__setrendertarget
 req.header: d3d9.h
 req.include-header: D3D9.h

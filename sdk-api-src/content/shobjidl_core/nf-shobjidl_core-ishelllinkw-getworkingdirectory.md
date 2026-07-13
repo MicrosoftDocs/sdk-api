@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetWorkingDirectory
 title: IShellLinkW::GetWorkingDirectory (shobjidl_core.h)
-description: Gets the name of the working directory for a Shell link object.
+description: Gets the name of the working directory for a Shell link object. (Unicode)
 helpviewer_keywords: ["GetWorkingDirectory","GetWorkingDirectory method [Windows Shell]","GetWorkingDirectory method [Windows Shell]","IShellLink interface","GetWorkingDirectory method [Windows Shell]","IShellLinkA interface","GetWorkingDirectory method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetWorkingDirectory method","IShellLink::GetWorkingDirectory","IShellLinkA interface [Windows Shell]","GetWorkingDirectory method","IShellLinkA::GetWorkingDirectory","IShellLinkW interface [Windows Shell]","GetWorkingDirectory method","IShellLinkW.GetWorkingDirectory","IShellLinkW::GetWorkingDirectory","_win32_IShellLink_GetWorkingDirectory","shell.IShellLink_GetWorkingDirectory","shobjidl_core/IShellLink::GetWorkingDirectory","shobjidl_core/IShellLinkA::GetWorkingDirectory","shobjidl_core/IShellLinkW::GetWorkingDirectory"]
 old-location: shell\IShellLink_GetWorkingDirectory.htm
 tech.root: shell
@@ -72,5 +72,5 @@ The maximum number of characters to copy to the buffer pointed to by the <i>pszD
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

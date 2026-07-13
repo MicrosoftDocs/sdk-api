@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsListSitesA
 title: DsListSitesA function (ntdsapi.h)
-description: Lists all the sites in the enterprise forest.
-helpviewer_keywords: ["DsListSites","DsListSites function [Active Directory]","DsListSitesA","DsListSitesW","_glines_dslistsites","ad.dslistsites","ntdsapi/DsListSites","ntdsapi/DsListSitesA","ntdsapi/DsListSitesW"]
+description: Lists all the sites in the enterprise forest. (ANSI)
+helpviewer_keywords: ["DsListSitesA", "ntdsapi/DsListSitesA"]
 old-location: ad\dslistsites.htm
 tech.root: ad
 ms.assetid: d424e750-6700-42b8-9d4f-e430cd0a7e4e
@@ -80,7 +80,7 @@ Individual name conversion errors are reported in the returned <a href="/windows
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsListSites as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsListSites as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

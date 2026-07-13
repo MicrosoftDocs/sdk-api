@@ -101,15 +101,19 @@ If a font face has not been set or is not supported by the font, a value of –1
 
 In the following markup of a FixedPage, the <b>FontUri</b> attribute of the <b>Glyphs</b> element has a value of <code>../Resources/Fonts/Font.TTF#1</code>. In this case, <b>GetFontFaceIndex</b>  would return a value of 1 in <i>fontFaceIndex</i>.
 
-<pre class="syntax" xml:space="preserve"><code>    &lt;FixedPage Height="1056" Width="816" xml:lang="en-US"
-    xmlns="http://schemas.microsoft.com/xps/2005/06"&gt;
-      &lt;Glyphs
+
+``` syntax
+    <FixedPage Height="1056" Width="816" xml:lang="en-US"
+    xmlns="http://schemas.microsoft.com/xps/2005/06">
+      <Glyphs
       OriginX="96"
       OriginY="96"
       UnicodeString="This is Page 1!"
       FontUri="../Resources/Fonts/Font.TTF#1"
-      FontRenderingEmSize="16" /&gt;
-    &lt;/FixedPage&gt;</code></pre>
+      FontRenderingEmSize="16" />
+    </FixedPage>
+```
+
 
 ## -see-also
 
@@ -125,7 +129,7 @@ In the following markup of a FixedPage, the <b>FontUri</b> attribute of the <b>G
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

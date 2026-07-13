@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument2.put_Bodies
 title: IFaxDocument2::put_Bodies (faxcomex.h)
-description: Provides a collection of one or more documents to the fax document.
+description: Provides a collection of one or more documents to the fax document. (Put)
 helpviewer_keywords: ["Bodies property [Fax Service]","Bodies property [Fax Service]","IFaxDocument2 interface","IFaxDocument2 interface [Fax Service]","Bodies property","IFaxDocument2.Bodies","IFaxDocument2.put_Bodies","IFaxDocument2::Bodies","IFaxDocument2::get_Bodies","IFaxDocument2::put_Bodies","_mfax_faxdocument2.bodies","fax._mfax_faxdocument2_bodies","fax._mfax_faxdocument2_cpp_mfax_faxdocument2_bodies_cpp","faxcomex/IFaxDocument2::Bodies","faxcomex/IFaxDocument2::get_Bodies","faxcomex/IFaxDocument2::put_Bodies","put_Bodies"]
 old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_bodies_cpp.htm
 tech.root: Fax

@@ -1,12 +1,12 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_AC_BINARIES
 title: INET_FIREWALL_AC_BINARIES (networkisolation.h)
-description: Contains the binary paths to applications running in an app container.
+description: The INET_FIREWALL_AC_BINARIES structure contains the binary paths to applications running in an app container. (INET_FIREWALL_AC_BINARIES)
 helpviewer_keywords: ["*PINET_FIREWALL_AC_BINARIES","INET_FIREWALL_AC_BINARIES","INET_FIREWALL_AC_BINARIES structure [ICS/ICF]","PINET_FIREWALL_AC_BINARIES","PINET_FIREWALL_AC_BINARIES structure pointer [ICS/ICF]","_INET_FIREWALL_AC_BINARIES","ics.inet_firewall_ac_binaries","networkisolation/INET_FIREWALL_AC_BINARIES","networkisolation/PINET_FIREWALL_AC_BINARIES"]
 old-location: ics\inet_firewall_ac_binaries.htm
 tech.root: ics
 ms.assetid: 5403303e-e65c-47cf-af84-3d748db8661b
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PINET_FIREWALL_AC_BINARIES, INET_FIREWALL_AC_BINARIES, INET_FIREWALL_AC_BINARIES structure [ICS/ICF], PINET_FIREWALL_AC_BINARIES, PINET_FIREWALL_AC_BINARIES structure pointer [ICS/ICF], _INET_FIREWALL_AC_BINARIES, ics.inet_firewall_ac_binaries, networkisolation/INET_FIREWALL_AC_BINARIES, networkisolation/PINET_FIREWALL_AC_BINARIES'
 req.header: networkisolation.h
 req.include-header: Netfw.h

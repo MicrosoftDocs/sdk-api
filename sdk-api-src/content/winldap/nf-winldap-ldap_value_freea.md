@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_value_freeA
 title: ldap_value_freeA function (winldap.h)
-description: Frees a structure returned by ldap_get_values.
-helpviewer_keywords: ["_ldap_ldap_value_free","ldap.ldap__value__free","ldap.ldap_value_free","ldap_value_free","ldap_value_free function [LDAP]","ldap_value_freeA","ldap_value_freeW","winldap/ldap_value_free","winldap/ldap_value_freeA","winldap/ldap_value_freeW"]
+description: Frees a structure returned by ldap_get_values. (ldap_value_freeA)
+helpviewer_keywords: ["ldap.ldap__value__free", "ldap_value_freeA", "winldap/ldap_value_freeA"]
 old-location: ldap\ldap_value_free.htm
 tech.root: ldap
 ms.assetid: 67c9f04c-4b8e-4e97-902d-fceccf27f522

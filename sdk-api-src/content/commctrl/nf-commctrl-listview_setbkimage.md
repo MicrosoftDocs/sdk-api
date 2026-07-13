@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetBkImage","ListView_SetBkImage macro [Windows 
 old-location: controls\ListView_SetBkImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkimage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetBkImage, ListView_SetBkImage macro [Windows Controls], _win32_ListView_SetBkImage, _win32_ListView_SetBkImage_cpp, commctrl/ListView_SetBkImage, controls.ListView_SetBkImage, controls._win32_ListView_SetBkImage
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetBkImage macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetBkImage(
+   HWND        hwnd,
+   LPLVBKIMAGE plvbki
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise. Returns zero if the ulFlags member of the <b>LVBKIMAGE</b> structure is LVBKIF_SOURCE_NONE.
 
 
 ## -description

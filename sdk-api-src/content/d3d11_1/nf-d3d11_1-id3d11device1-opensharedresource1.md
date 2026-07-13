@@ -88,15 +88,18 @@ The behavior of <b>OpenSharedResource1</b> is similar to the behavior of the <a 
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>HANDLE handle = GetSharedHandleFromOtherProcess();
+
+``` syntax
+HANDLE handle = GetSharedHandleFromOtherProcess();
 ID3D11Device1* pDevice;
 ID3D11Texture2D* pTexture2D;
 
-pDevice-&gt;OpenSharedResource1(
+pDevice->OpenSharedResource1(
           handle, 
           __uuidof(ID3D11Texture2D), 
-         (void**)&amp;pTexture2D);
-</code></pre>
+          (void**)&pTexture2D);
+```
+
 
 ## -see-also
 

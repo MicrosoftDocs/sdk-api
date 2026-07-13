@@ -4,7 +4,8 @@ title: Workspaceruntimeclientext.h header
 ms.assetid: b2046158-b6ab-3e73-9823-dffa9d37a3db
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: termserv
 f1_keywords:
  - workspaceruntimeclientext

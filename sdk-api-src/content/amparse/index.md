@@ -4,7 +4,8 @@ title: Amparse.h header
 ms.assetid: 95501730-ce40-3e73-b8a6-3f66aebf0451
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: dshow
 archived: true
 f1_keywords:

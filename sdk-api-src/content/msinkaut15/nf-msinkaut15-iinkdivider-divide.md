@@ -142,7 +142,7 @@ This method returns a new <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
+<a href="../msinkaut15/nn-msinkaut15-iinkdivider.md">IInkDivider</a>
 
 
 

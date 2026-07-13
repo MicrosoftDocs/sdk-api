@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathStripToRootW
 title: PathStripToRootW function (shlwapi.h)
-description: Removes all file and directory elements in a path except for the root information.
-helpviewer_keywords: ["PathStripToRoot","PathStripToRoot function [Windows Shell]","PathStripToRootA","PathStripToRootW","_win32_PathStripToRoot","shell.PathStripToRoot","shlwapi/PathStripToRoot","shlwapi/PathStripToRootA","shlwapi/PathStripToRootW"]
+description: Removes all file and directory elements in a path except for the root information. (Unicode)
+helpviewer_keywords: ["PathStripToRoot", "PathStripToRoot function [Windows Shell]", "PathStripToRootW", "_win32_PathStripToRoot", "shell.PathStripToRoot", "shlwapi/PathStripToRoot", "shlwapi/PathStripToRootW"]
 old-location: shell\PathStripToRoot.htm
 tech.root: shell
 ms.assetid: ce9a1a40-2a03-44d2-80bc-0dc10654550b
@@ -76,4 +76,4 @@ Returns <b>TRUE</b> if a valid drive letter was found in the path, or <b>FALSE</
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathStripToRoot as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathStripToRoot as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

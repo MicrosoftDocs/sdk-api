@@ -56,7 +56,7 @@ the <a href="/windows/desktop/WmiSdk/swbemlocator-connectserver">SWbemLocator.Co
 
 ## -enum-fields
 
-### -field wbemConnectFlagUseMaxWait
+### -field wbemConnectFlagUseMaxWait:0x80
 
 Shortens the timeout for the <a href="/windows/desktop/WmiSdk/swbemlocator-connectserver">SWbemLocator.ConnectServer</a> method call to two minutes.
 

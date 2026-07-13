@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEvents3","IWMPEvents3 interface [Windows Media Player
 old-location: wmp\iwmpevents3.htm
 tech.root: WMP
 ms.assetid: 654b7d78-97d4-4770-9729-dd1fed0431d9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], IWMPEvents3 interface [Windows Media Player],described, IWMPEvents3Interface, wmp.iwmpevents3, wmp/IWMPEvents3
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPEvents3</b> interface provides access to events originating from the Windows Media Player 11 control so that an application that has this control embedded in it can respond to these events. The events exposed by <b>IWMPEvents3</b> are also exposed by the <a href="/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents</a> interface.
 

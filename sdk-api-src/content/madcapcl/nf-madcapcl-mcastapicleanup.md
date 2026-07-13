@@ -56,7 +56,7 @@ The
 <b>McastApiCleanup</b> function must only be called after a successful call to 
 <b>McastApiStartup</b>.
 
-## -parameters
+
 
 ## -see-also
 

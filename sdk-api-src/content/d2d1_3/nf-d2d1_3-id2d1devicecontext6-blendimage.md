@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext6.BlendImage
 title: ID2D1DeviceContext6::BlendImage (d2d1_3.h)
-description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect.
+description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect. (ID2D1DeviceContext6.BlendImage)
 helpviewer_keywords: ["BlendImage","BlendImage method [Direct2D]","BlendImage method [Direct2D]","ID2D1DeviceContext6 interface","ID2D1DeviceContext6 interface [Direct2D]","BlendImage method","ID2D1DeviceContext6.BlendImage","ID2D1DeviceContext6::BlendImage","d2d1_3/ID2D1DeviceContext6::BlendImage","direct2d.id2d1devicecontext6_blendimage"]
 old-location: direct2d\id2d1devicecontext6_blendimage.htm
 tech.root: Direct2D

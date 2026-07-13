@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPDEVMODEW","*NPDEVMODEW","*PDEVMODEW","DEVMODE","DEVMOD
 old-location: display\devmodew.htm
 tech.root: display
 ms.assetid: b2369876-9a79-40c8-8d27-c8b9d8e68e6b
-ms.date: 12/05/2018
+ms.date: 06/13/2023
 ms.keywords: '*LPDEVMODEW, *NPDEVMODEW, *PDEVMODEW, DEVMODE, DEVMODEW, DEVMODEW structure [Display Devices], LPDEVMODEW, LPDEVMODEW structure pointer [Display Devices], NPDEVMODEW, NPDEVMODEW structure pointer [Display Devices], PDEVMODEW, PDEVMODEW structure pointer [Display Devices], display.devmodew, grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml, wingdi/DEVMODEW, wingdi/LPDEVMODEW, wingdi/NPDEVMODEW, wingdi/PDEVMODEW'
 req.header: wingdi.h
 req.include-header: Wingdi.h
@@ -48,9 +48,6 @@ api_location:
 api_name:
  - DEVMODEW
 ---
-
-# DEVMODEW structure
-
 
 ## -description
 
@@ -153,7 +150,7 @@ This member is not used for displays.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For displays, specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
+For displays, specifies a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
 
 This member is not used for printers.
 
@@ -184,7 +181,7 @@ DMDO_90
 
 </td>
 <td>
-The display device orientation is 90 degrees (measured clockwise) from that of DMDO_DEFAULT.
+The display device orientation is 90 degrees (measured counter-clockwise) from that of DMDO_DEFAULT.
 
 </td>
 </tr>
@@ -194,7 +191,7 @@ DMDO_180
 
 </td>
 <td>
-The display device orientation is 180 degrees (measured clockwise) from that of DMDO_DEFAULT.
+The display device orientation is 180 degrees (measured counter-clockwise) from that of DMDO_DEFAULT.
 
 </td>
 </tr>
@@ -204,7 +201,7 @@ DMDO_270
 
 </td>
 <td>
-The display device orientation is 270 degrees (measured clockwise) from that of DMDO_DEFAULT.
+The display device orientation is 270 degrees (measured counter-clockwise) from that of DMDO_DEFAULT.
 
 </td>
 </tr>
@@ -321,13 +318,13 @@ This member is not used for displays.
 
 ### -field dmFormName
 
-For printers, specifies the name of the form to use; such as "Letter" or "Legal". This must be a name that can be obtain by calling the Win32 <b>EnumForms</b> function (described in the Microsoft Window SDK documentation).
+For printers, specifies the name of the form to use; such as "Letter" or "Legal". This must be a name that can be obtain by calling the Win32 <a href="/windows/win32/printdocs/enumforms">EnumForms</a> function.
 
 This member is not used for displays.
 
 ### -field dmLogPixels
 
-For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
+For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="/windows/win32/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
 
 This member is not used for printers.
 
@@ -353,11 +350,24 @@ This member is not used for printers.
 
 ### -field DUMMYUNIONNAME2.dmDisplayFlags
 
-For displays, specifies a display device's display mode. This member can be one of the following values:
+Specifies the device's display mode. This member can be a combination of the following values.
 
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>DM_GRAYSCALE</td>
+<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed. This flag is no longer valid.</td>
+</tr>
+<tr>
+<td>DM_INTERLACED</td>
+<td>Specifies that the display mode is interlaced. If the flag is not set, noninterlaced is assumed.</td>
+</tr>
+</table>
 
-
-This member is not used for printers.
+Display drivers use this member; for example, in the [ChangeDisplaySettings](/windows/win32/api/winuser/nf-winuser-changedisplaysettingsa) function. Printer drivers don't use this member.
 
 ### -field DUMMYUNIONNAME2.dmNup
 
@@ -472,7 +482,7 @@ Also for Windows XP, several members of the DEVMODEW structure were moved to dif
 
 
 > [!NOTE]
-> The wingdi.h header defines DEVMODE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines DEVMODE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -488,4 +498,4 @@ Also for Windows XP, several members of the DEVMODEW structure were moved to dif
 
 
 
-<a href="/windows/desktop/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>
+<a href="/windows/win32/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>

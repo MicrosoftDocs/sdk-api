@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_SetHeaderSubTitle","PropSheet_SetHeaderSubTitle
 old-location: controls\PropSheet_SetHeaderSubTitle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setheadersubtitle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_SetHeaderSubTitle, PropSheet_SetHeaderSubTitle macro [Windows Controls], _win32_PropSheet_SetHeaderSubTitle, _win32_PropSheet_SetHeaderSubTitle_cpp, controls.PropSheet_SetHeaderSubTitle, controls._win32_PropSheet_SetHeaderSubTitle, prsht/PropSheet_SetHeaderSubTitle
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # PropSheet_SetHeaderSubTitle macro
+
+## -syntax
+
+```cpp
+VOID PropSheet_SetHeaderSubTitle(
+   HWND   hDlg,
+   int    index,
+   LPCSTR lpszText
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

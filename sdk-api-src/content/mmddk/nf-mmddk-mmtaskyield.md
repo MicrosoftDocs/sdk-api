@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: WinMM.Lib
 req.dll: Winmm.dll
 req.irql: 
 targetos: Windows
@@ -52,5 +52,5 @@ api_name:
 
 The <b>mmTaskYield</b> function is deprecated. Applications should not use this function.
 
-## -parameters
+
 

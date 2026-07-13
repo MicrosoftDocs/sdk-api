@@ -56,7 +56,7 @@ Indicates information about joining an existing conversation.
 
 ## -enum-fields
 
-### -field WPC_ARGS_CONVERSATIONJOINEVENT_APPNAME
+### -field WPC_ARGS_CONVERSATIONJOINEVENT_APPNAME:0
 
 The name of the application used for joining an existing conversation.
 

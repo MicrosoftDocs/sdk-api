@@ -54,37 +54,37 @@ Specifies the flip and rotation at which an image appears.
 
 ## -enum-fields
 
-### -field D2D1_ORIENTATION_DEFAULT
+### -field D2D1_ORIENTATION_DEFAULT:1
 
 The orientation is unchanged.
 
-### -field D2D1_ORIENTATION_FLIP_HORIZONTAL
+### -field D2D1_ORIENTATION_FLIP_HORIZONTAL:2
 
 The image is flipped horizontally.
 
-### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE180
+### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE180:3
 
 The image is rotated clockwise 180 degrees.
 
-### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE180_FLIP_HORIZONTAL
+### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE180_FLIP_HORIZONTAL:4
 
 The image is rotated clockwise 180 degrees, then flipped horizontally.
 
-### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE90_FLIP_HORIZONTAL
+### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE90_FLIP_HORIZONTAL:5
 
 The image is rotated clockwise 90 degrees, then flipped horizontally.
 
-### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE270
+### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE270:6
 
 The image is rotated clockwise 270 degrees.
 
-### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE270_FLIP_HORIZONTAL
+### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE270_FLIP_HORIZONTAL:7
 
 The image is rotated clockwise 270 degrees, then flipped horizontally.
 
-### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE90
+### -field D2D1_ORIENTATION_ROTATE_CLOCKWISE90:8
 
 The image is rotated clockwise 90 degrees.
 
-### -field D2D1_ORIENTATION_FORCE_DWORD
+### -field D2D1_ORIENTATION_FORCE_DWORD:0xffffffff
 

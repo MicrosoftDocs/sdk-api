@@ -4,7 +4,8 @@ title: Asyncinfo.h header
 ms.assetid: f7edecc9-c124-399e-8fc4-80e915e6257c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: winrt
 f1_keywords:
  - asyncinfo

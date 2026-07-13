@@ -6,7 +6,7 @@ helpviewer_keywords: ["FindInterface","FindInterface method [DirectShow]","FindI
 old-location: dshow\icapturegraphbuilder2_findinterface.htm
 tech.root: dshow
 ms.assetid: 931b42bf-25d6-4f0a-8c45-baf8ed65e302
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: FindInterface, FindInterface method [DirectShow], FindInterface method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],FindInterface method, ICaptureGraphBuilder2.FindInterface, ICaptureGraphBuilder2::FindInterface, ICaptureGraphBuilder2FindInterface, dshow.icapturegraphbuilder2_findinterface, strmif/ICaptureGraphBuilder2::FindInterface
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>FindInterface</code> method searches the graph for a specified interface, starting from a specified filter. You can restrict the search to a section of the graph upstream or downstream of the filter, or restrict it to a particular pin category or media type.
 

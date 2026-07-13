@@ -1,7 +1,7 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_8
+UID: NS:iscsidsc.ISCSI_TARGET_PORTAL_INFOW
 title: ISCSI_TARGET_PORTAL_INFOW (iscsidsc.h)
-description: ISCSI_TARGET_PORTAL_INFO structure contains information about a target portal.
+description: ISCSI_TARGET_PORTAL_INFO structure contains information about a target portal. (Unicode)
 helpviewer_keywords: ["*PISCSI_TARGET_PORTAL_INFOW","ISCSI_TARGET_PORTAL_INFO","ISCSI_TARGET_PORTAL_INFO structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTAL_INFOA","ISCSI_TARGET_PORTAL_INFOW","PISCSI_TARGET_PORTAL_INFO","PISCSI_TARGET_PORTAL_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal_info","iscsidsc/ISCSI_TARGET_PORTAL_INFO","iscsidsc/ISCSI_TARGET_PORTAL_INFOA","iscsidsc/ISCSI_TARGET_PORTAL_INFOW","iscsidsc/PISCSI_TARGET_PORTAL_INFO"]
 old-location: iscsidisc\iscsi_target_portal_info.htm
 tech.root: iSCSIDisc
@@ -81,5 +81,5 @@ The socket number.
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ISCSI_TARGET_PORTAL_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ISCSI_TARGET_PORTAL_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

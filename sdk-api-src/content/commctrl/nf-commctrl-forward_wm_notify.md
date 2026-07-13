@@ -6,7 +6,7 @@ helpviewer_keywords: ["FORWARD_WM_NOTIFY","FORWARD_WM_NOTIFY macro [Windows Cont
 old-location: controls\FORWARD_WM_NOTIFY.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\forward_wm_notify.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: FORWARD_WM_NOTIFY, FORWARD_WM_NOTIFY macro [Windows Controls], _win32_FORWARD_WM_NOTIFY, _win32_FORWARD_WM_NOTIFY_cpp, commctrl/FORWARD_WM_NOTIFY, controls.FORWARD_WM_NOTIFY, controls._win32_FORWARD_WM_NOTIFY
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,22 @@ api_name:
 
 # FORWARD_WM_NOTIFY macro
 
+## -syntax
+
+```cpp
+VOID FORWARD_WM_NOTIFY(
+   HWND     hwnd,
+   int      idFrom,
+   NMHDR    *pnmhdr,
+   function fn
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+Returns a value whose meaning depends on the <i>fn</i> parameter.
 
 ## -description
 
@@ -82,7 +98,11 @@ The function that sends or posts the <a href="/windows/desktop/Controls/wm-notif
 
 The <b>FORWARD_WM_NOTIFY</b> macro is defined as follows. 
 
-<pre class="syntax" xml:space="preserve"><code>#define FORWARD_WM_NOTIFY(hwnd, idFrom, pnmhdr, fn) \ 
+
+``` syntax
+#define FORWARD_WM_NOTIFY(hwnd, idFrom, pnmhdr, fn) \ 
 
     (void)(fn)((hwnd), WM_NOTIFY, (WPARAM)(int)(id), \ 
-    (LPARAM)(NMHDR*)(pnmhdr)) </code></pre>
+    (LPARAM)(NMHDR*)(pnmhdr)) 
+```
+

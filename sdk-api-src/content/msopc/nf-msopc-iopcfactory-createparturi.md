@@ -206,7 +206,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateUri</b> function error</b></dt>
+<dt><b>CreateUri function error</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -245,7 +245,7 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML</a>
 
 
 

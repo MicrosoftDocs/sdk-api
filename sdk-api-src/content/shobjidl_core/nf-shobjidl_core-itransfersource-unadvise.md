@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.Unadvise
 title: ITransferSource::Unadvise (shobjidl_core.h)
-description: Terminates an advisory connection.
+description: Terminates an advisory connection. (ITransferSource.Unadvise)
 helpviewer_keywords: ["ITransferSource interface [Windows Shell]","Unadvise method","ITransferSource.Unadvise","ITransferSource::Unadvise","Unadvise","Unadvise method [Windows Shell]","Unadvise method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_Unadvise","shell.ITransferSource_Unadvise","shobjidl_core/ITransferSource::Unadvise"]
 old-location: shell\ITransferSource_Unadvise.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMGetDepthStencilState
 title: ID3D10Device::OMGetDepthStencilState (d3d10.h)
-description: Gets the depth-stencil state of the output-merger stage.
+description: Gets the depth-stencil state of the output-merger stage. (ID3D10Device.OMGetDepthStencilState)
 helpviewer_keywords: ["5fead180-40d5-ddfe-7065-11f773e4032e","ID3D10Device interface [Direct3D 10]","OMGetDepthStencilState method","ID3D10Device.OMGetDepthStencilState","ID3D10Device::OMGetDepthStencilState","OMGetDepthStencilState","OMGetDepthStencilState method [Direct3D 10]","OMGetDepthStencilState method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::OMGetDepthStencilState","direct3d10.id3d10device_omgetdepthstencilstate"]
 old-location: direct3d10\id3d10device_omgetdepthstencilstate.htm
 tech.root: direct3d10

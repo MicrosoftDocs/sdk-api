@@ -1,12 +1,12 @@
 ---
 UID: NF:commctrl.TreeView_SetUnicodeFormat
 title: TreeView_SetUnicodeFormat macro (commctrl.h)
-description: Sets the Unicode character format flag for the control.
+description: Sets the Unicode character format flag for the control. (TreeView_SetUnicodeFormat)
 helpviewer_keywords: ["TreeView_SetUnicodeFormat","TreeView_SetUnicodeFormat macro [Windows Controls]","_win32_TreeView_SetUnicodeFormat","_win32_TreeView_SetUnicodeFormat_cpp","commctrl/TreeView_SetUnicodeFormat","controls.TreeView_SetUnicodeFormat","controls._win32_TreeView_SetUnicodeFormat"]
 old-location: controls\TreeView_SetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setunicodeformat.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetUnicodeFormat, TreeView_SetUnicodeFormat macro [Windows Controls], _win32_TreeView_SetUnicodeFormat, _win32_TreeView_SetUnicodeFormat_cpp, commctrl/TreeView_SetUnicodeFormat, controls.TreeView_SetUnicodeFormat, controls._win32_TreeView_SetUnicodeFormat
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_SetUnicodeFormat macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_SetUnicodeFormat(
+   HWND hwnd,
+   BOOL fUnicode
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns the previous Unicode format flag for the control.
 
 
 ## -description

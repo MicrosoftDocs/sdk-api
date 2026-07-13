@@ -52,7 +52,7 @@ api_name:
 
  Gets the weight, or stroke thickness, of the specified font.
 
-## -parameters
+
 
 ## -returns
 

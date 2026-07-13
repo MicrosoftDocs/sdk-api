@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IAutomaticUpdates2
 title: IAutomaticUpdates2 (wuapi.h)
-description: Contains the functionality of Automatic Updates.
+description: Contains the functionality of Automatic Updates. (IAutomaticUpdates2)
 helpviewer_keywords: ["IAutomaticUpdates2","IAutomaticUpdates2 interface [Windows Update Agent]","IAutomaticUpdates2 interface [Windows Update Agent]","described","wua.iautomaticupdates2","wuapi/IAutomaticUpdates2"]
 old-location: wua\iautomaticupdates2.htm
 tech.root: wua
@@ -54,10 +54,7 @@ Contains the functionality of Automatic Updates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>. <b>IAutomaticUpdates2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAutomaticUpdates2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>. <b>IAutomaticUpdates2</b> also has these types of members:
 
 ## -remarks
 

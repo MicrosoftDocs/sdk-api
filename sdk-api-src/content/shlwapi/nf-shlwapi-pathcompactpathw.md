@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathCompactPathW
 title: PathCompactPathW function (shlwapi.h)
-description: Truncates a file path to fit within a given pixel width by replacing path components with ellipses.
-helpviewer_keywords: ["PathCompactPath","PathCompactPath function [Windows Shell]","PathCompactPathA","PathCompactPathW","_win32_PathCompactPath","shell.PathCompactPath","shlwapi/PathCompactPath","shlwapi/PathCompactPathA","shlwapi/PathCompactPathW"]
+description: Truncates a file path to fit within a given pixel width by replacing path components with ellipses. (Unicode)
+helpviewer_keywords: ["PathCompactPath", "PathCompactPath function [Windows Shell]", "PathCompactPathW", "_win32_PathCompactPath", "shell.PathCompactPath", "shlwapi/PathCompactPath", "shlwapi/PathCompactPathW"]
 old-location: shell\PathCompactPath.htm
 tech.root: shell
 ms.assetid: b8184c98-1f86-4714-baf8-af4ef3e71cf2
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shlwapi-l1-2-1.dll
+ - ext-ms-win-shell-shlwapi-l1-2-0.dll
  - Shlwapi.dll
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
@@ -153,5 +155,5 @@ The truncated path at  25 pixels is :   ...\sample.txt
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathCompactPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathCompactPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

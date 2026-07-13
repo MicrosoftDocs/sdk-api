@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHStartNetConnectionDialogA
 title: SHStartNetConnectionDialogA function (shlobj_core.h)
-description: SHStartNetConnectionDialog may be altered or unavailable.
-helpviewer_keywords: ["RESOURCETYPE_ANY","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","SHStartNetConnectionDialog","SHStartNetConnectionDialog function [Windows Shell]","SHStartNetConnectionDialogA","SHStartNetConnectionDialogW","_win32_SHStartNetConnectionDialog","shell.SHStartNetConnectionDialog","shlobj_core/SHStartNetConnectionDialog","shlobj_core/SHStartNetConnectionDialogA","shlobj_core/SHStartNetConnectionDialogW"]
+description: SHStartNetConnectionDialog may be altered or unavailable. (ANSI)
+helpviewer_keywords: ["RESOURCETYPE_ANY", "RESOURCETYPE_DISK", "RESOURCETYPE_PRINT", "SHStartNetConnectionDialogA", "shlobj_core/SHStartNetConnectionDialogA"]
 old-location: shell\SHStartNetConnectionDialog.htm
 tech.root: shell
 ms.assetid: 9de9d5f4-a89f-42d2-b24e-b037694f6e92
@@ -103,5 +103,5 @@ Always returns S_OK.
 ## -remarks
 
 > [!NOTE]
-> The shlobj_core.h header defines SHStartNetConnectionDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj_core.h header defines SHStartNetConnectionDialog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_RemoveImage","TabCtrl_RemoveImage macro [Windows 
 old-location: controls\TabCtrl_RemoveImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_removeimage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_RemoveImage, TabCtrl_RemoveImage macro [Windows Controls], _win32_TabCtrl_RemoveImage, _win32_TabCtrl_RemoveImage_cpp, commctrl/TabCtrl_RemoveImage, controls.TabCtrl_RemoveImage, controls._win32_TabCtrl_RemoveImage
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # TabCtrl_RemoveImage macro
+
+## -syntax
+
+```cpp
+void TabCtrl_RemoveImage(
+   HWND hwnd,
+   int  i
+);
+```
 
 
 ## -description

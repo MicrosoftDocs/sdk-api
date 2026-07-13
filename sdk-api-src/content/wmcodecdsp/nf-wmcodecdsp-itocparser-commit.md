@@ -52,7 +52,7 @@ api_name:
 
 The <b>Commit</b> method stores the current state of the TOC Parser object in its associated media file.
 
-## -parameters
+
 
 ## -returns
 
@@ -78,7 +78,7 @@ The method succeeded.
 
 ## -remarks
 
-You can associate a TOC Parser object with a media file by calling <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-init">ITocParser::Init</a>. As you add, modify, or remove tables of contents from the TOC Parser object, those chages are made only to the TOC Parser object in memory, not to the media file. To store your changes in the media file, you must call <b>ITocParser::Commit</b>.
+You can associate a TOC Parser object with a media file by calling <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-init">ITocParser::Init</a>. As you add, modify, or remove tables of contents from the TOC Parser object, those changes are made only to the TOC Parser object in memory, not to the media file. To store your changes in the media file, you must call <b>ITocParser::Commit</b>.
 
 ## -see-also
 

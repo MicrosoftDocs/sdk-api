@@ -60,19 +60,19 @@ A string that contains the adapter description.
 
 ### -field VendorId
 
-The PCI ID of the hardware vendor.
+The PCI ID or ACPI ID of the adapter's hardware vendor. If this value is less than or equal to 0xFFFF, it is a PCI ID; otherwise, it is an ACPI ID.
 
 ### -field DeviceId
 
-The PCI ID of the hardware device.
+The PCI ID or ACPI ID of the adapter's hardware device. If <b>VendorId</b> is a PCI ID, it is also a PCI ID; otherwise, it is an ACPI ID.
 
 ### -field SubSysId
 
-The PCI ID of the sub system.
+The PCI ID or ACPI ID of the adapter's hardware subsystem. If <b>VendorId</b> is a PCI ID, it is also a PCI ID; otherwise, it is an ACPI ID.
 
 ### -field Revision
 
-The PCI ID of the revision number of the adapter.
+The adapter's PCI or ACPI revision number. If <b>VendorId</b> is a PCI ID, it is a PCI device revision number; otherwise, it is an ACPI device revision number.
 
 ### -field DedicatedVideoMemory
 

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: kernel32.Lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Returns information from the current walk position and advanced the walk marker to the next position.
+Returns information from the current walk position and advances the walk marker to the next position.
 
 ## -parameters
 

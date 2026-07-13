@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.MultinetGetConnectionPerformanceA
 title: MultinetGetConnectionPerformanceA function (winnetwk.h)
-description: Returns information about the expected performance of a connection used to access a network resource.
-helpviewer_keywords: ["MultinetGetConnectionPerformance","MultinetGetConnectionPerformance function [Windows Networking (WNet)]","MultinetGetConnectionPerformanceA","MultinetGetConnectionPerformanceW","_win32_multinetgetconnectionperformance","lpLocalName","lpProvider","lpRemoteName","winnetwk/MultinetGetConnectionPerformance","winnetwk/MultinetGetConnectionPerformanceA","winnetwk/MultinetGetConnectionPerformanceW","wnet.multinetgetconnectionperformance"]
+description: Returns information about the expected performance of a connection used to access a network resource. (ANSI)
+helpviewer_keywords: ["MultinetGetConnectionPerformanceA", "lpLocalName", "lpProvider", "lpRemoteName", "winnetwk/MultinetGetConnectionPerformanceA"]
 old-location: wnet\multinetgetconnectionperformance.htm
 tech.root: WNet
 ms.assetid: 3ec4a397-e0d4-419c-9e12-6d76a87b1ca0
@@ -60,7 +60,7 @@ The
 ### -param lpNetResource [in]
 
 A pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the network resource. The following members have specific meanings in this context.
+<a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure that specifies the network resource. The following members have specific meanings in this context.
 
 <table>
 <tr>
@@ -69,7 +69,7 @@ A pointer to a
 </tr>
 <tr>
 <td width="40%"><a id="lpLocalName"></a><a id="lplocalname"></a><a id="LPLOCALNAME"></a><dl>
-<dt><b><b>lpLocalName</b></b></dt>
+<dt><b>lpLocalName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,7 @@ If this member is <b>NULL</b> or an empty string, the network resource is specif
 </tr>
 <tr>
 <td width="40%"><a id="lpRemoteName"></a><a id="lpremotename"></a><a id="LPREMOTENAME"></a><dl>
-<dt><b><b>lpRemoteName</b></b></dt>
+<dt><b>lpRemoteName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ A pointer to a network resource to query. The resource must currently have an es
 </tr>
 <tr>
 <td width="40%"><a id="lpProvider"></a><a id="lpprovider"></a><a id="LPPROVIDER"></a><dl>
-<dt><b><b>lpProvider</b></b></dt>
+<dt><b>lpProvider</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -144,7 +144,7 @@ The network resource does not supply this information.
 </dl>
 </td>
 <td width="60%">
-The <b>lpLocalName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the  <i>lpNetResource</i> parameter does not specify a redirected device, or the <i>lpRemoteName</i> member does not specify the name of a resource that is currently connected.
+The <b>lpLocalName</b> member of the <a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure pointed to by the  <i>lpNetResource</i> parameter does not specify a redirected device, or the <i>lpRemoteName</i> member does not specify the name of a resource that is currently connected.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ The local device specified by the <i>lpLocalName</i> member is invalid.
 </dl>
 </td>
 <td width="60%">
-The network name cannot be found. This error is returned if the <b>lpLocalName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the  <i>lpNetResource</i> parameter was <b>NULL</b> and the <b>lpRemoteName</b> member of the <b>NETRESOURCE</b> structure pointed to by the  <i>lpNetResource</i> was also or <b>NULL</b> or could not recognized by any network.
+The network name cannot be found. This error is returned if the <b>lpLocalName</b> member of the <a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure pointed to by the  <i>lpNetResource</i> parameter was <b>NULL</b> and the <b>lpRemoteName</b> member of the <b>NETRESOURCE</b> structure pointed to by the  <i>lpNetResource</i> was also or <b>NULL</b> or could not recognized by any network.
 
 </td>
 </tr>
@@ -240,7 +240,7 @@ The information returned by the
 Note that the 
 <b>MultinetGetConnectionPerformance</b> function can be used only to request information for a local device that is redirected to a network resource, or for a network resource to which there is currently a connection.
 
-If a UNC path is specified in the <b>lpRemoteName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter,  the <b>lpRemoteName</b> member must be a directory name, not  a filename. 
+If a UNC path is specified in the <b>lpRemoteName</b> member of the <a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter,  the <b>lpRemoteName</b> member must be a directory name, not  a filename. 
 
 A typical way to use this function would be to open a file on a network server (which would ensure that there is a connection to the file), call this function, and use the results to make decisions about how to manage file I/O. For example, you can decide whether to read the entire file into a temporary file on the client or directly access the file on the server.
 
@@ -249,7 +249,7 @@ A typical way to use this function would be to open a file on a network server (
 
 
 > [!NOTE]
-> The winnetwk.h header defines MultinetGetConnectionPerformance as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines MultinetGetConnectionPerformance as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -257,7 +257,7 @@ A typical way to use this function would be to open a file on a network server (
 
 
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a>
 
 
 

@@ -56,7 +56,7 @@ Indicates how side-by-side assemblies are configured for <a href="/windows/deskt
 
 ## -enum-fields
 
-### -field CSC_NoSxs
+### -field CSC_NoSxs:0
 
 Side-by-side assemblies are not used within the enclosed context. This is the default setting for <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 

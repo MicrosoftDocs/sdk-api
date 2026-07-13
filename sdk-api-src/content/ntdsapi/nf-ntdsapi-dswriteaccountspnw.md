@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsWriteAccountSpnW
 title: DsWriteAccountSpnW function (ntdsapi.h)
-description: Writes an array of service principal names (SPNs) to the servicePrincipalName attribute of a specified user or computer account object in Active Directory Domain Services.
-helpviewer_keywords: ["DsWriteAccountSpn","DsWriteAccountSpn function [Active Directory]","DsWriteAccountSpnA","DsWriteAccountSpnW","_glines_dswriteaccountspn","ad.dswriteaccountspn","ntdsapi/DsWriteAccountSpn","ntdsapi/DsWriteAccountSpnA","ntdsapi/DsWriteAccountSpnW"]
+description: Writes an array of service principal names (SPNs) to the servicePrincipalName attribute of a specified user or computer account object in Active Directory Domain Services. (Unicode)
+helpviewer_keywords: ["DsWriteAccountSpn", "DsWriteAccountSpn function [Active Directory]", "DsWriteAccountSpnW", "_glines_dswriteaccountspn", "ad.dswriteaccountspn", "ntdsapi/DsWriteAccountSpn", "ntdsapi/DsWriteAccountSpnW"]
 old-location: ad\dswriteaccountspn.htm
 tech.root: ad
 ms.assetid: 2b555f6b-643d-4fa0-9aca-701e6b3313fa
@@ -131,7 +131,7 @@ On user accounts there is no "Validated SPN" property or "Write SPN" right.  Rat
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsWriteAccountSpn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsWriteAccountSpn as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._ACTRL_PROPERTY_ENTRYW
 title: ACTRL_PROPERTY_ENTRYW (accctrl.h)
-description: Contains a list of access-control entries for an object or a specified property on an object.
+description: Contains a list of access-control entries for an object or a specified property on an object. (Unicode)
 helpviewer_keywords: ["*PACTRL_PROPERTY_ENTRYW","ACTRL_ACCESS_PROTECTED","ACTRL_PROPERTY_ENTRY","ACTRL_PROPERTY_ENTRY structure [COM]","ACTRL_PROPERTY_ENTRYA","ACTRL_PROPERTY_ENTRYW","PACTRL_PROPERTY_ENTRY","PACTRL_PROPERTY_ENTRY structure pointer [COM]","_ACTRL_PROPERTY_ENTRYA","_ACTRL_PROPERTY_ENTRYW","accctrl/ACTRL_PROPERTY_ENTRY","accctrl/ACTRL_PROPERTY_ENTRYA","accctrl/ACTRL_PROPERTY_ENTRYW","accctrl/PACTRL_PROPERTY_ENTRY","com.actrl_property_entry"]
 old-location: com\actrl_property_entry.htm
 tech.root: com
@@ -105,7 +105,7 @@ To create an <b>ACTRL_PROPERTY_ENTRY</b> structure that denies all access to an 
 
 
 > [!NOTE]
-> The accctrl.h header defines ACTRL_PROPERTY_ENTRY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The accctrl.h header defines ACTRL_PROPERTY_ENTRY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.TpSetCallbackCleanupGroup
 title: TpSetCallbackCleanupGroup function (winnt.h)
-description: Associates the specified cleanup group with the specified callback environment.
+description: Associates the specified cleanup group with the specified callback environment. (TpSetCallbackCleanupGroup)
 helpviewer_keywords: ["TpSetCallbackCleanupGroup","TpSetCallbackCleanupGroup function","base.tpsetcallbackcleanupgroup","winnt/TpSetCallbackCleanupGroup"]
 old-location: base\tpsetcallbackcleanupgroup.htm
 tech.root: backup

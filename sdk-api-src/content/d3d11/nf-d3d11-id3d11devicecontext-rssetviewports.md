@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetViewports
 title: ID3D11DeviceContext::RSSetViewports (d3d11.h)
-description: Bind an array of viewports to the rasterizer stage of the pipeline.
+description: Bind an array of viewports to the rasterizer stage of the pipeline. (ID3D11DeviceContext.RSSetViewports)
 helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","RSSetViewports method","ID3D11DeviceContext.RSSetViewports","ID3D11DeviceContext::RSSetViewports","RSSetViewports","RSSetViewports method [Direct3D 11]","RSSetViewports method [Direct3D 11]","ID3D11DeviceContext interface","cdf57cc3-a89c-db1a-5bd9-f1eec144bfe0","d3d11/ID3D11DeviceContext::RSSetViewports","direct3d11.id3d11devicecontext_rssetviewports"]
 old-location: direct3d11\id3d11devicecontext_rssetviewports.htm
 tech.root: direct3d11

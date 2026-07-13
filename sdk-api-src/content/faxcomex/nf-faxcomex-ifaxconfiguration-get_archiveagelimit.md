@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveAgeLimit
 title: IFaxConfiguration::get_ArchiveAgeLimit (faxcomex.h)
-description: Sets or retrieves a value that indicates how long a fax message is kept on the server.
+description: Sets or retrieves a value that indicates how long a fax message is kept on the server. (Get)
 helpviewer_keywords: ["ArchiveAgeLimit property [Fax Service]","ArchiveAgeLimit property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","ArchiveAgeLimit property","IFaxConfiguration.ArchiveAgeLimit","IFaxConfiguration.get_ArchiveAgeLimit","IFaxConfiguration::ArchiveAgeLimit","IFaxConfiguration::get_ArchiveAgeLimit","IFaxConfiguration::put_ArchiveAgeLimit","_mfax_IFaxConfiguration_ArchiveAgeLimit","fax._mfax_IFaxConfiguration_ArchiveAgeLimit","faxcomex/IFaxConfiguration::ArchiveAgeLimit","faxcomex/IFaxConfiguration::get_ArchiveAgeLimit","faxcomex/IFaxConfiguration::put_ArchiveAgeLimit","get_ArchiveAgeLimit"]
 old-location: fax\_mfax_IFaxConfiguration_ArchiveAgeLimit.htm
 tech.root: Fax

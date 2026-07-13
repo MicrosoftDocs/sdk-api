@@ -54,10 +54,7 @@ Controls debug settings for Microsoft DirectX Graphics Infrastructure (DXGI). Yo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDebug1</b> interface inherits from <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>. <b>IDXGIDebug1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIDebug1</b> interface inherits from <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>. <b>IDXGIDebug1</b> also has these types of members:
 
 ## -remarks
 

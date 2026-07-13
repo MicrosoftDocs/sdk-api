@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagLVFINDINFOA
 title: LVFINDINFOA (commctrl.h)
-description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
+description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions. (ANSI)
 helpviewer_keywords: ["*LPFINDINFOA","LPFINDINFO","LPFINDINFO structure pointer [Windows Controls]","LVFINDINFO","LVFINDINFO structure [Windows Controls]","LVFINDINFOA","LVFINDINFOW","LVFI_NEARESTXY","LVFI_PARAM","LVFI_PARTIAL","LVFI_STRING","LVFI_SUBSTRING","LVFI_WRAP","_win32_LVFINDINFO","_win32_LVFINDINFO_cpp","commctrl/LPFINDINFO","commctrl/LVFINDINFO","commctrl/LVFINDINFOA","commctrl/LVFINDINFOW","controls.LVFINDINFO","controls._win32_LVFINDINFO"]
 old-location: controls\LVFINDINFO.htm
 tech.root: Controls
@@ -147,10 +147,10 @@ Value to compare with the <b>lParam</b> member of a list-view item's <a href="/w
 
 ### -field pt
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
 
 ### -field vkDirection
 
@@ -175,4 +175,4 @@ This member is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines LVFINDINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines LVFINDINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

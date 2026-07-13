@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetSourceVarFromTokenW
 title: SymGetSourceVarFromTokenW function (dbghelp.h)
-description: Retrieves the value associated with the specified variable name from the Source Server token.
+description: The SymGetSourceVarFromTokenW (Unicode) function retrieves the value associated with the specified variable name from the Source Server token.
 helpviewer_keywords: ["SymGetSourceVarFromToken","SymGetSourceVarFromToken function","SymGetSourceVarFromTokenW","base.symgetsourcevarfromtoken","dbghelp/SymGetSourceVarFromToken","dbghelp/SymGetSourceVarFromTokenW"]
 old-location: base\symgetsourcevarfromtoken.htm
 tech.root: Debug
 ms.assetid: 05e9005a-aef3-44a3-a73b-21830799a3d5
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetSourceVarFromToken, SymGetSourceVarFromToken function, SymGetSourceVarFromTokenW, base.symgetsourcevarfromtoken, dbghelp/SymGetSourceVarFromToken, dbghelp/SymGetSourceVarFromTokenW
 req.header: dbghelp.h
 req.include-header: 
@@ -99,4 +99,4 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymGetSourceVarFromToken as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymGetSourceVarFromToken as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

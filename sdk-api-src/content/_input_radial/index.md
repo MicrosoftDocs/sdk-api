@@ -18,4 +18,5 @@ To develop Radial controller input, you need these headers:
  * [radialcontrollerinterop.h](../radialcontrollerinterop/index.md)
 
 For programming guidance for this technology, see:
-* [Radial controller input](/previous-versions/windows/desktop/input_radial)
+* [Radial controller input](https://docs.microsoft.com/previous-versions/windows/desktop/input_radial)
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetSymFromName64
 title: SymGetSymFromName64 function (dbghelp.h)
-description: Locates a symbol for the specified name.
+description: Locates a symbol for the specified name. (SymGetSymFromName64)
 helpviewer_keywords: ["SymGetSymFromName","SymGetSymFromName function","SymGetSymFromName64","SymGetSymFromName64 function","_win32_symgetsymfromname64","base.symgetsymfromname64","dbghelp/SymGetSymFromName","dbghelp/SymGetSymFromName64"]
 old-location: base\symgetsymfromname64.htm
 tech.root: Debug

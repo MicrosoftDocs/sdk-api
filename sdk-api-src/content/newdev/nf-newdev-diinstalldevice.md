@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-newdev-config-l1-1-2.dll
  - Newdev.dll
  - Ext-MS-Win-Newdev-Config-L1-1-1.dll
 api_name:
@@ -175,7 +176,7 @@ In general, an installation application should set <i>NeedReboot</i> to <b>NULL<
 
 <ul>
 <li>
-The application must call <b>DiInstallDevice</b> several times to complete an installation. In this case, the application should record whether a <b>TRUE</b><i>NeedReboot</i> value is returned by any of the calls to <b>DiInstallDevice </b>and, if so, prompt the user to restart the system after the final call to <b>DiInstallDevice</b> returns.
+The application must call <b>DiInstallDevice</b> several times to complete an installation. In this case, the application should record whether a <b>TRUE</b><i>NeedReboot</i> value is returned by any of the calls to <b>DiInstallDevice </b> and, if so, prompt the user to restart the system after the final call to <b>DiInstallDevice</b> returns.
 
 </li>
 <li>

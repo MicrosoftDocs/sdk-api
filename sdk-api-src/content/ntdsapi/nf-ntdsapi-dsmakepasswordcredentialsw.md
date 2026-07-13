@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsMakePasswordCredentialsW
 title: DsMakePasswordCredentialsW function (ntdsapi.h)
-description: Constructs a credential handle suitable for use with the DsBindWithCred function.
-helpviewer_keywords: ["DsMakePasswordCredentials","DsMakePasswordCredentials function [Active Directory]","DsMakePasswordCredentialsA","DsMakePasswordCredentialsW","_glines_dsmakepasswordcredentials","ad.dsmakepasswordcredentials","ntdsapi/DsMakePasswordCredentials","ntdsapi/DsMakePasswordCredentialsA","ntdsapi/DsMakePasswordCredentialsW"]
+description: Constructs a credential handle suitable for use with the DsBindWithCred function. (Unicode)
+helpviewer_keywords: ["DsMakePasswordCredentials", "DsMakePasswordCredentials function [Active Directory]", "DsMakePasswordCredentialsW", "_glines_dsmakepasswordcredentials", "ad.dsmakepasswordcredentials", "ntdsapi/DsMakePasswordCredentials", "ntdsapi/DsMakePasswordCredentialsW"]
 old-location: ad\dsmakepasswordcredentials.htm
 tech.root: ad
 ms.assetid: 51aba58b-07c5-4e6d-8568-fa6f1a963d8e
@@ -98,7 +98,7 @@ When the handle returned in <i>pAuthIdentity</i> is passed to <a href="/windows/
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsMakePasswordCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsMakePasswordCredentials as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

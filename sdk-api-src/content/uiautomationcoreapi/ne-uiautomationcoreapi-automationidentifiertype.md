@@ -80,7 +80,7 @@ Specifies a landmark type ID.
 
 ### -field AutomationIdentifierType_Annotation
 
-Specifies an annotion ID.
+Specifies an annotation ID.
 
 ### -field AutomationIdentifierType_Changes
 

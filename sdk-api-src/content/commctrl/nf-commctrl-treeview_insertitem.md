@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_InsertItem","TreeView_InsertItem macro [Windows 
 old-location: controls\TreeView_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_insertitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_InsertItem, TreeView_InsertItem macro [Windows Controls], _win32_TreeView_InsertItem, _win32_TreeView_InsertItem_cpp, commctrl/TreeView_InsertItem, controls.TreeView_InsertItem, controls._win32_TreeView_InsertItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_InsertItem macro
+
+## -syntax
+
+```cpp
+HTREEITEM TreeView_InsertItem(
+   HWND             hwnd,
+   LPTVINSERTSTRUCT lpis
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Returns the <b>HTREEITEM</b> handle to the new item if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

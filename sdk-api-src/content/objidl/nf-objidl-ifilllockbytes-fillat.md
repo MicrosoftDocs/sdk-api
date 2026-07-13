@@ -75,6 +75,10 @@ Number of bytes that were successfully written.
 
 This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL in addition to the following:
 
+| Return code | Description |
+|----------------|---------------|
+| E_NOTIMPL | The byte array does not support the **FillAt** method. |
+
 ## -remarks
 
 The 

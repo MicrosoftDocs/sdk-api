@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(Image,WrapMode,INT,INT,INT,INT)
 title: TextureBrush::TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT) (gdiplusbrush.h)
-description: Creates a TextureBrush object based on an image, a wrap mode, and a defining set of coordinates.
+description: Creates a TextureBrush object based on an image, a wrap mode, and a defining set of coordinates. (overload 1/2)
 helpviewer_keywords: ["TextureBrush","TextureBrush class [GDI+]","TextureBrush constructor","TextureBrush constructor [GDI+]","TextureBrush constructor [GDI+]","TextureBrush class","TextureBrush.TextureBrush","TextureBrush.TextureBrush(IN Image","IN WrapMode","IN INT","IN INT","IN INT","IN INT)","TextureBrush.TextureBrush(Image*","WrapMode","INT","INT","INT","INT)","TextureBrush::TextureBrush","TextureBrush::TextureBrush(IN Image","IN WrapMode","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt","gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt.htm
 tech.root: gdiplus
@@ -101,7 +101,7 @@ The
 				<i>dstWidth</i> and 
 				<i>dstHeight</i>. The 
 				<i>dstX</i> and 
-				<i>dstY</i> parameters have no affect on the brush's size or position — the brush is always oriented at (0, 0). The 
+				<i>dstY</i> parameters have no effect on the brush's size or position — the brush is always oriented at (0, 0). The 
 				<i>dstX</i>, 
 				<i>dstY</i>, 
 				<i>dstWidth</i>, and 

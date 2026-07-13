@@ -54,15 +54,15 @@ Describes per-monitor DPI scaling behavior overrides for child windows within di
 
 ## -enum-fields
 
-### -field DCDC_DEFAULT
+### -field DCDC_DEFAULT:0x0000
 
 The default behavior of the dialog manager. The dialog managed will update the font, size, and position of the child window on DPI changes.
 
-### -field DCDC_DISABLE_FONT_UPDATE
+### -field DCDC_DISABLE_FONT_UPDATE:0x0001
 
 Prevents the dialog manager from sending an updated font to the child window via WM_SETFONT in response to a DPI change.
 
-### -field DCDC_DISABLE_RELAYOUT
+### -field DCDC_DISABLE_RELAYOUT:0x0002
 
 Prevents the dialog manager from resizing and repositioning  the child window in response to a DPI change.
 

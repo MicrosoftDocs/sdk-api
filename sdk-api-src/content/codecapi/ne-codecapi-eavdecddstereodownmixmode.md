@@ -54,15 +54,15 @@ Specifies the stereo downmix mode for a Dolby Digital audio decoder. This enumer
 
 ## -enum-fields
 
-### -field eAVDecDDStereoDownMixMode_Auto
+### -field eAVDecDDStereoDownMixMode_Auto:0
 
 The decoder selects the mode automatically.
 
-### -field eAVDecDDStereoDownMixMode_LtRt
+### -field eAVDecDDStereoDownMixMode_LtRt:1
 
 Left total/right total (Lt/Rt) downmix. (Surround compatible.)
 
-### -field eAVDecDDStereoDownMixMode_LoRo
+### -field eAVDecDDStereoDownMixMode_LoRo:2  
 
 Left only/right only (Lo/Ro) downmix. (Stereo.)
 

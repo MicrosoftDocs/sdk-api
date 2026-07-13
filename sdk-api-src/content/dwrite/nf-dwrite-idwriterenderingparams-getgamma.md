@@ -53,7 +53,7 @@ api_name:
 Gets the gamma value used for gamma correction. Valid values must be
      greater than zero and cannot exceed 256.
 
-## -parameters
+
 
 ## -returns
 

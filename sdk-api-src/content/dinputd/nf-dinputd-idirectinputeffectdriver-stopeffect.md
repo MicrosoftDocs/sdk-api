@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::StopEffect </b>method halts the playback of an effect.
+The <b>IDirectInputEffectDriver::StopEffect </b> method halts the playback of an effect.
 
 ## -parameters
 

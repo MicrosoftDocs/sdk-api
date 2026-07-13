@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_CONTEXT_INFOW
 title: FAX_CONTEXT_INFOW (winfax.h)
-description: The FAX_CONTEXT_INFO structure contains information about a fax printer device context. The SizeOfStruct member is required. Information for the other members is supplied by a call to the FaxStartPrintJob function.
+description: The FAX_CONTEXT_INFO structure contains information about a fax printer device context. The SizeOfStruct member is required. Information for the other members is supplied by a call to the FaxStartPrintJob function. (Unicode)
 helpviewer_keywords: ["*PFAX_CONTEXT_INFOW","FAX_CONTEXT_INFO","FAX_CONTEXT_INFO structure [Fax Service]","FAX_CONTEXT_INFOA","FAX_CONTEXT_INFOW","PFAX_CONTEXT_INFO","PFAX_CONTEXT_INFO structure pointer [Fax Service]","_mfax_fax_context_info_str","fax._mfax_fax_context_info_str","winfax/FAX_CONTEXT_INFO","winfax/FAX_CONTEXT_INFOA","winfax/FAX_CONTEXT_INFOW","winfax/PFAX_CONTEXT_INFO"]
 old-location: fax\_mfax_fax_context_info_str.htm
 tech.root: Fax
@@ -87,7 +87,7 @@ A fax client application can call the <a href="/previous-versions/windows/deskto
 
 
 > [!NOTE]
-> The winfax.h header defines FAX_CONTEXT_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FAX_CONTEXT_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_IsReadOnly
 title: IRangeValueProvider::get_IsReadOnly (uiautomationcore.h)
-description: Indicates whether the value of a control is read-only.
+description: Indicates whether the value of a control is read-only. (IRangeValueProvider.get_IsReadOnly)
 helpviewer_keywords: ["IRangeValueProvider interface [Windows Accessibility]","IsReadOnly property","IRangeValueProvider.IsReadOnly","IRangeValueProvider.get_IsReadOnly","IRangeValueProvider::IsReadOnly","IRangeValueProvider::get_IsReadOnly","IsReadOnly property [Windows Accessibility]","IsReadOnly property [Windows Accessibility]","IRangeValueProvider interface","get_IsReadOnly","uiauto.uiauto_IRangeValueProvider_IsReadOnly","uiauto_IRangeValueProvider_IsReadOnly","uiautomationcore/IRangeValueProvider::IsReadOnly","uiautomationcore/IRangeValueProvider::get_IsReadOnly","winauto.uiauto_IRangeValueProvider_IsReadOnly"]
 old-location: winauto\uiauto_IRangeValueProvider_IsReadOnly.htm
 tech.root: WinAuto

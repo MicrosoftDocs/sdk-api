@@ -1,7 +1,7 @@
 ---
 UID: NN:mfsharingengine.IMFSharingEngineClassFactory
 title: IMFSharingEngineClassFactory (mfsharingengine.h)
-description: Creates an instance of the media sharing engine.
+description: Creates an instance of the media sharing engine. (IMFSharingEngineClassFactory)
 helpviewer_keywords: ["IMFSharingEngineClassFactory","IMFSharingEngineClassFactory interface [Media Foundation]","IMFSharingEngineClassFactory interface [Media Foundation]","described","mf.imfsharingengineclassfactory","mfsharingengine/IMFSharingEngineClassFactory"]
 old-location: mf\imfsharingengineclassfactory.htm
 tech.root: mf
@@ -54,10 +54,7 @@ Creates an instance of the media sharing engine.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSharingEngineClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSharingEngineClassFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFSharingEngineClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSharingEngineClassFactory</b> also has these types of members:
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegSaveKeyExW
 title: RegSaveKeyExW function (winreg.h)
-description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
-helpviewer_keywords: ["REG_LATEST_FORMAT","REG_NO_COMPRESSION","REG_STANDARD_FORMAT","RegSaveKeyEx","RegSaveKeyEx function","RegSaveKeyExA","RegSaveKeyExW","_win32_regsavekeyex","base.regsavekeyex","winreg/RegSaveKeyEx","winreg/RegSaveKeyExA","winreg/RegSaveKeyExW"]
+description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format. (Unicode)
+helpviewer_keywords: ["REG_LATEST_FORMAT", "REG_NO_COMPRESSION", "REG_STANDARD_FORMAT", "RegSaveKeyEx", "RegSaveKeyEx function", "RegSaveKeyExW", "_win32_regsavekeyex", "base.regsavekeyex", "winreg/RegSaveKeyEx", "winreg/RegSaveKeyExW"]
 old-location: base\regsavekeyex.htm
 tech.root: winprog
 ms.assetid: f93b4162-cac4-42f7-bfd4-9e23fff80a03
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -85,7 +86,7 @@ If the string does not include a path, the file is created in the current direct
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new file. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the file gets a default security descriptor. The ACLs in a default security descriptor for a file are inherited from its parent directory.
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new file. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the file gets a default security descriptor. The ACLs in a default security descriptor for a file are inherited from its parent directory.
 
 ### -param Flags [in]
 
@@ -172,7 +173,7 @@ The calling process must have the SE_BACKUP_NAME privilege enabled. For more inf
 
 
 > [!NOTE]
-> The winreg.h header defines RegSaveKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegSaveKeyEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -208,4 +209,4 @@ The calling process must have the SE_BACKUP_NAME privilege enabled. For more inf
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>

@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-fs-cscapi-l1-1-1.dll
  - CscApi.dll
 api_name:
  - OfflineFilesQueryStatus

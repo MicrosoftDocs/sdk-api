@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_90
+UID: NE:webservices.WS_PARAMETER_TYPE
 title: WS_PARAMETER_TYPE (webservices.h)
 description: The different parameter types.
 helpviewer_keywords: ["WS_PARAMETER_TYPE","WS_PARAMETER_TYPE enumeration [Web Services for Windows]","WS_PARAMETER_TYPE_ARRAY","WS_PARAMETER_TYPE_ARRAY_COUNT","WS_PARAMETER_TYPE_MESSAGES","WS_PARAMETER_TYPE_NORMAL","webservices/WS_PARAMETER_TYPE","webservices/WS_PARAMETER_TYPE_ARRAY","webservices/WS_PARAMETER_TYPE_ARRAY_COUNT","webservices/WS_PARAMETER_TYPE_MESSAGES","webservices/WS_PARAMETER_TYPE_NORMAL","wsw.ws_parameter_type"]
@@ -54,19 +54,19 @@ The different parameter types.
 
 ## -enum-fields
 
-### -field WS_PARAMETER_TYPE_NORMAL
+### -field WS_PARAMETER_TYPE_NORMAL:0
 
 Not an array type.
 
-### -field WS_PARAMETER_TYPE_ARRAY
+### -field WS_PARAMETER_TYPE_ARRAY:1
 
 An array type.
 
-### -field WS_PARAMETER_TYPE_ARRAY_COUNT
+### -field WS_PARAMETER_TYPE_ARRAY_COUNT:2
 
 The array count.
 
-### -field WS_PARAMETER_TYPE_MESSAGES
+### -field WS_PARAMETER_TYPE_MESSAGES:3
 
 Parameter is a WSDL message element.
 

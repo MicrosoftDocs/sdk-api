@@ -52,7 +52,7 @@ api_name:
 
 Checks whether an object is up to date.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiProvideQualifiedComponentW
 title: MsiProvideQualifiedComponentW function (msi.h)
-description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature.
-helpviewer_keywords: ["INSTALLMODE_DEFAULT","INSTALLMODE_EXISTING","INSTALLMODE_NODETECTION","INSTALLMODE_NOSOURCERESOLUTION","MsiProvideQualifiedComponent","MsiProvideQualifiedComponent function","MsiProvideQualifiedComponentA","MsiProvideQualifiedComponentW","_msi_msiprovidequalifiedcomponent","combination of the REINSTALLMODE flags","msi/MsiProvideQualifiedComponent","msi/MsiProvideQualifiedComponentA","msi/MsiProvideQualifiedComponentW","setup.msiprovidequalifiedcomponent"]
+description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature. (Unicode)
+helpviewer_keywords: ["INSTALLMODE_DEFAULT", "INSTALLMODE_EXISTING", "INSTALLMODE_NODETECTION", "INSTALLMODE_NOSOURCERESOLUTION", "MsiProvideQualifiedComponent", "MsiProvideQualifiedComponent function", "MsiProvideQualifiedComponentW", "_msi_msiprovidequalifiedcomponent", "combination of the REINSTALLMODE flags", "msi/MsiProvideQualifiedComponent", "msi/MsiProvideQualifiedComponentW", "setup.msiprovidequalifiedcomponent"]
 old-location: setup\msiprovidequalifiedcomponent.htm
 tech.root: setup
 ms.assetid: 1d37e2c4-3ee0-42d2-95de-6e058319a4d4
@@ -245,7 +245,7 @@ Features with components containing a corrupted file or the wrong version of a f
 
 
 > [!NOTE]
-> The msi.h header defines MsiProvideQualifiedComponent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiProvideQualifiedComponent as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

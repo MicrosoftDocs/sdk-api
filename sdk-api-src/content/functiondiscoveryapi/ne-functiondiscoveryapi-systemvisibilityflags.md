@@ -58,11 +58,11 @@ Determines the visibility of the function instance's data.
 
 ## -enum-fields
 
-### -field SVF_SYSTEM
+### -field SVF_SYSTEM:0
 
 The function instance's data is available to all users on the system.
 
-### -field SVF_USER
+### -field SVF_USER:1
 
 The function instance's data is accessible only to the current user.
 

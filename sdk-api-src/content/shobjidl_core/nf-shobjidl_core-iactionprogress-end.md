@@ -52,7 +52,7 @@ api_name:
 
 Indicates that the action associated with this progress implementation has ended.
 
-## -parameters
+
 
 ## -returns
 

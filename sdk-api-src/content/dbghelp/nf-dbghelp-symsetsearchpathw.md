@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSetSearchPathW
 title: SymSetSearchPathW function (dbghelp.h)
-description: Sets the search path for the specified process.
+description: The SymSetSearchPathW (Unicode) function (dbghelp.h) sets the search path for the specified process.
 helpviewer_keywords: ["SymSetSearchPath","SymSetSearchPath function","SymSetSearchPathW","_win32_symsetsearchpath","base.symsetsearchpath","dbghelp/SymSetSearchPath","dbghelp/SymSetSearchPathW"]
 old-location: base\symsetsearchpath.htm
 tech.root: Debug
 ms.assetid: 564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSetSearchPath, SymSetSearchPath function, SymSetSearchPathW, _win32_symsetsearchpath, base.symsetsearchpath, dbghelp/SymSetSearchPath, dbghelp/SymSetSearchPathW
 req.header: dbghelp.h
 req.include-header: 
@@ -88,7 +88,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 > [!NOTE]
-> The dbghelp.h header defines SymSetSearchPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The dbghelp.h header defines SymSetSearchPath as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

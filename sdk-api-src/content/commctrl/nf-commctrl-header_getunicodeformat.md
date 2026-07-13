@@ -6,7 +6,7 @@ helpviewer_keywords: ["Header_GetUnicodeFormat","Header_GetUnicodeFormat macro [
 old-location: controls\Header_GetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getunicodeformat.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Header_GetUnicodeFormat, Header_GetUnicodeFormat macro [Windows Controls], _win32_Header_GetUnicodeFormat, _win32_Header_GetUnicodeFormat_cpp, commctrl/Header_GetUnicodeFormat, controls.Header_GetUnicodeFormat, controls._win32_Header_GetUnicodeFormat
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Header_GetUnicodeFormat macro
+
+## -syntax
+
+```cpp
+BOOL Header_GetUnicodeFormat(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns the Unicode format flag for the control. If this value is nonzero, the control is using Unicode characters. If this value is zero, the control is using ANSI characters.
 
 
 ## -description

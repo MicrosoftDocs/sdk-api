@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataManager.get_Enabled
 title: IDataManager::get_Enabled (pla.h)
-description: Retrieves or sets a value that indicates whether the data manager is enabled to run.
+description: Retrieves or sets a value that indicates whether the data manager is enabled to run. (Get)
 helpviewer_keywords: ["Enabled property [PLA]","Enabled property [PLA]","IDataManager interface","IDataManager interface [PLA]","Enabled property","IDataManager.Enabled","IDataManager.get_Enabled","IDataManager::Enabled","IDataManager::get_Enabled","IDataManager::put_Enabled","base.idatamanager_enabled","get_Enabled","pla.idatamanager_enabled","pla/IDataManager::Enabled","pla/IDataManager::get_Enabled","pla/IDataManager::put_Enabled"]
 old-location: pla\idatamanager_enabled.htm
 tech.root: PLA

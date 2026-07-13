@@ -51,15 +51,12 @@ api_name:
 ## -description
 
 The 
-<b>IWbemDecoupledBasicEventProvider</b> interface is a cocreatable interface that  registers decoupled providers with WMI. The object created should be passed into the <i>pUnknown </i>argument of 
+<b>IWbemDecoupledBasicEventProvider</b> interface is a cocreatable interface that  registers decoupled providers with WMI. The object created should be passed into the <i>pUnknown </i> argument of 
 <a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register">IWbemDecoupledRegistrar::Register</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemDecoupledBasicEventProvider</b> interface inherits from <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemdecoupledregistrar">IWbemDecoupledRegistrar</a>. <b>IWbemDecoupledBasicEventProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWbemDecoupledBasicEventProvider</b> interface inherits from <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemdecoupledregistrar">IWbemDecoupledRegistrar</a>. <b>IWbemDecoupledBasicEventProvider</b> also has these types of members:
 
 ## -see-also
 

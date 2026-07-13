@@ -54,7 +54,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/directional
 
 ## -enum-fields
 
-### -field D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION
+### -field D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION:0
 
 The amount of blur to be applied to the image. You can compute the blur radius of the kernel by multiplying the standard deviation by 3. 
           The units of both the standard deviation and blur radius are DIPs. A value of 0 DIPs disables this effect. 
@@ -64,7 +64,7 @@ The type is FLOAT.
 
 The default value is 3.0f.
 
-### -field D2D1_DIRECTIONALBLUR_PROP_ANGLE
+### -field D2D1_DIRECTIONALBLUR_PROP_ANGLE:1
 
 The angle of the blur relative to the x-axis, in the counterclockwise direction. The units are specified in degrees.
           
@@ -75,7 +75,7 @@ The type is FLOAT.
 
 The default value is 0.0f.
 
-### -field D2D1_DIRECTIONALBLUR_PROP_OPTIMIZATION
+### -field D2D1_DIRECTIONALBLUR_PROP_OPTIMIZATION:2
 
 The optimization mode. See Optimization modes for more info.
           
@@ -84,7 +84,7 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_direct
 
 The default value is D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED.
 
-### -field D2D1_DIRECTIONALBLUR_PROP_BORDER_MODE
+### -field D2D1_DIRECTIONALBLUR_PROP_BORDER_MODE:3
 
 The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
           
@@ -93,4 +93,4 @@ The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border
 
 The default value is D2D1_BORDER_MODE_SOFT.
 
-### -field D2D1_DIRECTIONALBLUR_PROP_FORCE_DWORD
+### -field D2D1_DIRECTIONALBLUR_PROP_FORCE_DWORD:0xffffffff

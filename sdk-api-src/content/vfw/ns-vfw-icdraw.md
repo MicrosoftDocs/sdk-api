@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_8
+UID: NS:vfw.ICDRAW
 title: ICDRAW (vfw.h)
 description: The ICDRAW structure contains parameters for drawing video data to the screen. This structure is used with the ICM_DRAW message.
 helpviewer_keywords: ["ICDRAW","ICDRAW structure [Windows Multimedia]","ICDRAW_HURRYUP","ICDRAW_NOTKEYFRAME","ICDRAW_NULLFRAME","ICDRAW_PREROLL","ICDRAW_UPDATE","multimedia.icdraw_COLLISION9","multimedia.icdraw_struct","vfw/ICDRAW"]
@@ -148,3 +148,4 @@ Time, in samples, when this data should be drawn. For video data this is normall
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

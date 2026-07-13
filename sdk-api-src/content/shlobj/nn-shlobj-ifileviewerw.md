@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj.IFileViewerW
 title: IFileViewerW
-description: Exposes methods that designate an interface that allows a registered file viewer to be notified when it must show or print a file.
+description: Exposes methods that designate an interface that allows a registered file viewer to be notified when it must show or print a file. (Unicode)
 helpviewer_keywords: ["IFileViewerW"]
 old-location: 
 tech.root: shell
@@ -52,7 +52,7 @@ You do not typically use this interface. The Shell calls the interface when the 
 
 
 > [!NOTE]
-> The shlobj.h header defines IFileViewer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlobj.h header defines IFileViewer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

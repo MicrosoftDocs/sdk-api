@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiDatabaseExportA
 title: MsiDatabaseExportA function (msiquery.h)
-description: The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File.
-helpviewer_keywords: ["MsiDatabaseExport","MsiDatabaseExport function","MsiDatabaseExportA","MsiDatabaseExportW","_msi_msidatabaseexport","msiquery/MsiDatabaseExport","msiquery/MsiDatabaseExportA","msiquery/MsiDatabaseExportW","setup.msidatabaseexport"]
+description: The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File. (ANSI)
+helpviewer_keywords: ["MsiDatabaseExportA", "msiquery/MsiDatabaseExportA"]
 old-location: setup\msidatabaseexport.htm
 tech.root: setup
 ms.assetid: c20c168d-900e-496a-894c-5678f308cdbe
@@ -157,7 +157,7 @@ If the function fails, you can get extended error information by using <a href="
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiDatabaseExport as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiDatabaseExport as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

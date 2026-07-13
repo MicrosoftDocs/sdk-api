@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -60,7 +62,7 @@ api_name:
 Returns the <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> for the system locale.<div class="alert"><b>Note</b>  Any application that runs only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlocalename">GetSystemDefaultLocaleName</a> in preference to this function.</div>
 <div> </div>
 
-## -parameters
+
 
 ## -returns
 

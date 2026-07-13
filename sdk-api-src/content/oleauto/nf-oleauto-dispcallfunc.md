@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.DispCallFunc
 title: DispCallFunc function (oleauto.h)
-description: Low-level helper for Invoke that provides machine independence for customized Invoke.
+description: Low-level helper for Invoke that provides machine independence for customized Invoke. (DispCallFunc)
 helpviewer_keywords: ["DispCallFunc","DispCallFunc function [Automation]","_oa96_DispCallFunc","automat.dispcallfunc","oleauto/DispCallFunc"]
 old-location: automat\dispcallfunc.htm
 tech.root: automat
@@ -88,4 +88,4 @@ The function result.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

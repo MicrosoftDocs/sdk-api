@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.get_ServiceCenterAddress
 title: IMbnSmsConfiguration::get_ServiceCenterAddress (mbnapi.h)
-description: SMS default Service Center address.
+description: SMS default Service Center address. (Get)
 helpviewer_keywords: ["IMbnSmsConfiguration interface [Microsoft Broadband Networks]","ServiceCenterAddress property","IMbnSmsConfiguration.ServiceCenterAddress","IMbnSmsConfiguration.get_ServiceCenterAddress","IMbnSmsConfiguration::ServiceCenterAddress","IMbnSmsConfiguration::get_ServiceCenterAddress","IMbnSmsConfiguration::put_ServiceCenterAddress","ServiceCenterAddress property [Microsoft Broadband Networks]","ServiceCenterAddress property [Microsoft Broadband Networks]","IMbnSmsConfiguration interface","get_ServiceCenterAddress","mbn.imbnsmsconfiguration_servicecenteraddress","mbnapi/IMbnSmsConfiguration::ServiceCenterAddress","mbnapi/IMbnSmsConfiguration::get_ServiceCenterAddress","mbnapi/IMbnSmsConfiguration::put_ServiceCenterAddress"]
 old-location: mbn\imbnsmsconfiguration_servicecenteraddress.htm
 tech.root: mbn

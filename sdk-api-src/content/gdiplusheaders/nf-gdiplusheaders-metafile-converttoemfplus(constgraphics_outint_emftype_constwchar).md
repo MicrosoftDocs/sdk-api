@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Metafile.ConvertToEmfPlus(constGraphics,INT,EmfType,constWCHAR)
 title: Metafile::ConvertToEmfPlus (gdiplusheaders.h)
-description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format.
+description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format. (overload 1/3)
 helpviewer_keywords: ["ConvertToEmfPlus","ConvertToEmfPlus method [GDI+]","ConvertToEmfPlus method [GDI+]","Metafile class","Metafile class [GDI+]","ConvertToEmfPlus method","Metafile.ConvertToEmfPlus","Metafile::ConvertToEmfPlus","_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_","gdiplus._gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_.htm
 tech.root: gdiplus

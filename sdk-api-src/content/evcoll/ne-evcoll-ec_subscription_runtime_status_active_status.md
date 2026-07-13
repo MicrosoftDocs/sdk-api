@@ -56,7 +56,7 @@ The <b>EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS</b> enumeration specifies th
 
 ## -enum-fields
 
-### -field EcRuntimeStatusActiveStatusDisabled
+### -field EcRuntimeStatusActiveStatusDisabled:1
 
 The subscription or event source is disabled.
 

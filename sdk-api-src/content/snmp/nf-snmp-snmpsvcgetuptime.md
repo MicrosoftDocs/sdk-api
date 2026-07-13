@@ -55,7 +55,7 @@ api_name:
 The
 				<b>SnmpSvcGetUptime</b> function retrieves the number of centiseconds that the SNMP service has been running. This function is an element of the SNMP Utility API.
 
-## -parameters
+
 
 ## -returns
 

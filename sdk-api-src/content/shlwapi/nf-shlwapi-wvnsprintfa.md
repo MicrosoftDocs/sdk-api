@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.wvnsprintfA
 title: wvnsprintfA function (shlwapi.h)
-description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string.
-helpviewer_keywords: ["_win32_wvnsprintf","shell.wvnsprintf","shlwapi/wvnsprintf","shlwapi/wvnsprintfA","shlwapi/wvnsprintfW","wvnsprintf","wvnsprintf function [Windows Shell]","wvnsprintfA","wvnsprintfW"]
+description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string. (ANSI)
+helpviewer_keywords: ["shlwapi/wvnsprintfA", "wvnsprintfA"]
 old-location: shell\wvnsprintf.htm
 tech.root: shell
 ms.assetid: a2aaaa05-d61e-41e3-8e49-7c0da1a661f0
@@ -96,4 +96,4 @@ Returns the number of characters written to the buffer, excluding any terminatin
 
 
 > [!NOTE]
-> The shlwapi.h header defines wvnsprintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines wvnsprintf as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

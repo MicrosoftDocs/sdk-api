@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_GetTopIndex","ListBox_GetTopIndex macro [Windows 
 old-location: controls\ListBox_GetTopIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettopindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_GetTopIndex, ListBox_GetTopIndex macro [Windows Controls], _win32_ListBox_GetTopIndex, _win32_ListBox_GetTopIndex_cpp, controls.ListBox_GetTopIndex, controls._win32_ListBox_GetTopIndex, windowsx/ListBox_GetTopIndex
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListBox_GetTopIndex macro
+
+## -syntax
+
+```cpp
+int ListBox_GetTopIndex(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The zero-based index of the first visible item.
 
 
 ## -description

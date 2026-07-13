@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","get_item 
 old-location: wmp\iwmpplaylist_get_item.htm
 tech.root: WMP
 ms.assetid: 20da6e49-720c-4291-9fb7-def441c7fc66
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_item method, IWMPPlaylist.get_item, IWMPPlaylist::get_item, IWMPPlaylistget_item, get_item, get_item method [Windows Media Player], get_item method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_item, wmp/IWMPPlaylist::get_item
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_item</b> method retrieves the media item at the specified index.
 

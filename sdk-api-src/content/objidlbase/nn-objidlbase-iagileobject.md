@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IAgileObject
 title: IAgileObject (objidlbase.h)
-description: Marks an interface as agile across apartments.
+description: The IAgileObject (objidlbase.h) interface marks an interface as agile across apartments.
 helpviewer_keywords: ["IAgileObject","IAgileObject interface [COM]","IAgileObject interface [COM]","described","com.iagileobject","objidl/IAgileObject"]
 old-location: com\iagileobject.htm
 tech.root: com
 ms.assetid: 787A22DE-AEAB-4570-BB97-C49D656E5D40
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IAgileObject, IAgileObject interface [COM], IAgileObject interface [COM],described, com.iagileobject, objidl/IAgileObject
 req.header: objidlbase.h
 req.include-header: Objidlbase.h

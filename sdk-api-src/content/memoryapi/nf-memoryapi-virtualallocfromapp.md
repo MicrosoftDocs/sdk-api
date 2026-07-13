@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.VirtualAllocFromApp
 title: VirtualAllocFromApp function (memoryapi.h)
-description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
+description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process. (VirtualAllocFromApp)
 helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_RESERVE","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","MEM_WRITE_WATCH","VirtualAllocFromApp","VirtualAllocFromApp function","base.virtualallocfromapp","memoryapi/VirtualAllocFromApp"]
 old-location: base\virtualallocfromapp.htm
 tech.root: base
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
+ - api-ms-win-core-memory-l1-1-5.dll
  - Kernel32.dll
  - API-MS-Win-Core-memory-l1-1-3.dll
  - KernelBase.dll

@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>CreateComponentList</b> method creates a new <a href="/previous-versions/windows/desktop/mstv/components-object">Components</a> collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
 
 ## -parameters

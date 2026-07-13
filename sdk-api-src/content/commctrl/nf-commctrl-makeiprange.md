@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKEIPRANGE","MAKEIPRANGE macro [Windows Controls]","_win
 old-location: controls\MAKEIPRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MAKEIPRANGE, MAKEIPRANGE macro [Windows Controls], _win32_MAKEIPRANGE, _win32_MAKEIPRANGE_cpp, commctrl/MAKEIPRANGE, controls.MAKEIPRANGE, controls._win32_MAKEIPRANGE
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MAKEIPRANGE macro
+
+## -syntax
+
+```cpp
+LPARAM MAKEIPRANGE(
+   BYTE low,
+   BYTE high
+);
+```
+
+## -returns
+
+Type: **[LPARAM](/windows/desktop/winprog/windows-data-types)**
+
+Returns an LPARAM value that contains the range.
 
 
 ## -description

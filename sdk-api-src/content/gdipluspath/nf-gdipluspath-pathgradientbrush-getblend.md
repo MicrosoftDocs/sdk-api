@@ -72,8 +72,8 @@ Pointer to an array that receives the blend positions.
 Type: <b>INT</b>
 
 Integer that specifies the number of blend factors to retrieve. Before calling the <b>PathGradientBrush::GetBlend</b> method of a 
-					<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object, call the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount">PathGradientBrush::GetBlendCount</a> method of that same 
-					<b>PathGradientBrush</b>object to determine the current number of blend factors. The number of blend positions retrieved is the same as the number of blend factors retrieved.
+					<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object, call the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount">PathGradientBrush::GetBlendCount</a> method of that same 
+					<b>PathGradientBrush</b> object to determine the current number of blend factors. The number of blend positions retrieved is the same as the number of blend factors retrieved.
 
 ## -returns
 
@@ -88,7 +88,7 @@ If the method fails, it returns one of the other elements of the
 ## -remarks
 
 A 
-				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object has a boundary path and a center point. When you fill an area with a path gradient brush, the color changes gradually as you move from the boundary path to the center point. By default, the color is linearly related to the distance, but you can customize the relationship between color and distance by calling the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a> method.
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object has a boundary path and a center point. When you fill an area with a path gradient brush, the color changes gradually as you move from the boundary path to the center point. By default, the color is linearly related to the distance, but you can customize the relationship between color and distance by calling the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a> method.
 
 
 #### Examples
@@ -96,8 +96,8 @@ A
 
 
 The following example demonstrates several methods of the 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>class including <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a>, <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount">PathGradientBrush::GetBlendCount</a>, and <b>PathGradientBrush::GetBlend</b>. The code creates a 
-						<b>PathGradientBrush</b>object and calls the <b>PathGradientBrush::SetBlend</b> method to establish a set of blend factors and blend positions for the brush. Then the code calls the <b>PathGradientBrush::GetBlendCount</b> method to retrieve the number of blend factors. After the number of blend factors is retrieved, the code allocates two buffers: one to receive the array of blend factors and one to receive the array of blend positions. Then the code calls the <b>PathGradientBrush::GetBlend</b> method to retrieve the blend factors and the blend positions.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> class including <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a>, <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount">PathGradientBrush::GetBlendCount</a>, and <b>PathGradientBrush::GetBlend</b>. The code creates a 
+						<b>PathGradientBrush</b> object and calls the <b>PathGradientBrush::SetBlend</b> method to establish a set of blend factors and blend positions for the brush. Then the code calls the <b>PathGradientBrush::GetBlendCount</b> method to retrieve the number of blend factors. After the number of blend factors is retrieved, the code allocates two buffers: one to receive the array of blend factors and one to receive the array of blend positions. Then the code calls the <b>PathGradientBrush::GetBlend</b> method to retrieve the blend factors and the blend positions.
 
 
 ```cpp

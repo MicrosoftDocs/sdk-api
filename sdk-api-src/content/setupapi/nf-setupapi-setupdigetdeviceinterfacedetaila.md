@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInterfaceDetailA
 title: SetupDiGetDeviceInterfaceDetailA function (setupapi.h)
-description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface.
-helpviewer_keywords: ["SetupDiGetDeviceInterfaceDetail","SetupDiGetDeviceInterfaceDetail function [Device and Driver Installation]","SetupDiGetDeviceInterfaceDetailA","SetupDiGetDeviceInterfaceDetailW","devinst.setupdigetdeviceinterfacedetail","di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml","setupapi/SetupDiGetDeviceInterfaceDetail"]
+description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface. (ANSI)
+helpviewer_keywords: ["SetupDiGetDeviceInterfaceDetailA", "di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml"]
 old-location: devinst\setupdigetdeviceinterfacedetail.htm
 tech.root: devinst
 ms.assetid: fb4963f1-0ed4-483d-9f39-dcbac493bf1d
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:
@@ -108,7 +109,7 @@ The interface detail returned by this function consists of a device path that ca
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupDiGetDeviceInterfaceDetail as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupDiGetDeviceInterfaceDetail as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

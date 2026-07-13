@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IServiceTransactionConfigBase
 title: IServiceTransactionConfigBase (comsvcs.h)
-description: Configures the transaction services for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
+description: Configures the transaction services for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain. (IServiceTransactionConfigBase)
 helpviewer_keywords: ["IServiceTransactionConfigBase","IServiceTransactionConfigBase interface [COM+]","IServiceTransactionConfigBase interface [COM+]","described","_cos_IServiceTransactionConfigBase","comsvcs/IServiceTransactionConfigBase","cos.iservicetransactionconfigbase"]
 old-location: cos\iservicetransactionconfigbase.htm
 tech.root: cos
@@ -54,10 +54,7 @@ Configures the transaction services for the work that is done when calling eithe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTransactionConfigBase</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceTransactionConfigBase</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IServiceTransactionConfigBase</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceTransactionConfigBase</b> also has these types of members:
 
 ## -see-also
 

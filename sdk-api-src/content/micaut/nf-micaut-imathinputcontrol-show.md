@@ -52,16 +52,16 @@ api_name:
 
 Shows the control.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 Shows the Math Input Control if it is not visible. If the control is already visible, puts the control on top of the z-order stack.
-If <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a> is not called, <b>Show</b> will display the control at the top-left corner of the screen ((0, 0) in screen cooridnates). 
+If <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a> is not called, <b>Show</b> will display the control at the top-left corner of the screen ((0, 0) in screen coordinates). 
 The control's width and height will be at their minimum.
 	 
 

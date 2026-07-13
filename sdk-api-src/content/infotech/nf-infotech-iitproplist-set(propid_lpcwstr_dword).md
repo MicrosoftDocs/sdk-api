@@ -1,7 +1,7 @@
 ---
 UID: NF:infotech.IITPropList.Set(PROPID,LPCWSTR,DWORD)
 title: IITPropList::Set(PROPID,LPCWSTR,DWORD) (infotech.h)
-description: Sets a property to a given value or deletes a property from the list.
+description: Sets a property to a given value or deletes a property from the list. (overload 3/3)
 helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","Set method","IITPropList.Set","IITPropList.Set(PROPID","LPCWSTR","DWORD)","IITPropList::Set","IITPropList::Set(PROPID","LPCWSTR","DWORD)","PROP_ADD","PROP_DELETE","PROP_UPDATE","Set","Set method [HTML Help Workshop]","Set method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_set3","infotech/IITPropList::Set","refIITPropListSetUnicodeString"]
 old-location: htmlhelp\iitproplist_set3.htm
 tech.root: htmlhelp

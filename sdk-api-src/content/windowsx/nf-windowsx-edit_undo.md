@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_Undo","Edit_Undo macro [Windows Controls]","_win32_E
 old-location: controls\Edit_Undo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_undo.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_Undo, Edit_Undo macro [Windows Controls], _win32_Edit_Undo, _win32_Edit_Undo_cpp, controls.Edit_Undo, controls._win32_Edit_Undo, windowsx/Edit_Undo
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_Undo macro
+
+## -syntax
+
+```cpp
+BOOL Edit_Undo(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+For a single-line control, the return value is always <b>TRUE</b>. For a multiline control, the return value is <b>TRUE</b> if the undo operation is successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

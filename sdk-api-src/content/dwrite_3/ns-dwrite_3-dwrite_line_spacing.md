@@ -6,13 +6,13 @@ helpviewer_keywords: ["DWRITE_LINE_SPACING","DWRITE_LINE_SPACING structure [Dire
 old-location: directwrite\dwrite_line_spacing.htm
 tech.root: DirectWrite
 ms.assetid: bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: DWRITE_LINE_SPACING, DWRITE_LINE_SPACING structure [Direct Write], directwrite.dwrite_line_spacing, dwrite_3/DWRITE_LINE_SPACING
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

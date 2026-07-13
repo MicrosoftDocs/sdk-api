@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SetDVDDirectory met
 old-location: dshow\idvdcontrol2_setdvddirectory.htm
 tech.root: dshow
 ms.assetid: fa64a614-14cb-4ea9-a005-0e738490b6d6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDvdControl2 interface [DirectShow],SetDVDDirectory method, IDvdControl2.SetDVDDirectory, IDvdControl2::SetDVDDirectory, IDvdControl2SetDVDDirectory, SetDVDDirectory, SetDVDDirectory method [DirectShow], SetDVDDirectory method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setdvddirectory, strmif/IDvdControl2::SetDVDDirectory
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetDVDDirectory</code> method sets the DVD drive that the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter will read from.
 
@@ -118,7 +120,7 @@ Invalid domain. For details, see Remarks.
 
 If <i>pszwPath</i> is <b>NULL</b>, the DVD Navigator tries to select a DVD volume on any available drive. On startup, the DVD Navigator automatically looks for a drive, starting at drive C, with a VIDEO_TS folder in the root folder. It is therefore only necessary to call <code>SetDVDDirectory</code> when you have more than one DVD drive on a machine, or if your DVD drive letter is A or B. When specifying the path, include the video_ts folder.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -132,7 +134,7 @@ SetDVDDirectory(L"e:\\video_ts");
 </table></span></div>
 Some DVD volumes may have their video in a directory named something other than "video_ts." The general idea is that an additional "DVD volume" (the set of .IFO. VOB, and .BUP files that would normally be stored in the VIDEO_TS directory) can be placed in a subdirectory on the disc. By changing the root to point to this directory, MSWebDVD will operate on this separate DVD volume. A new set of menus, titles, and so on will be available, independent of the titles in the VIDEO_TS root, which will no longer be accessible. Such directories are called "hidden directories." The following example shows how to set a hidden directory as the root, where "hidden" is a placeholder for whatever name the disc authors have given to the directory.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

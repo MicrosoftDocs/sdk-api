@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsBindA
 title: DsBindA function (ntdsapi.h)
-description: Binds to a domain controller.
-helpviewer_keywords: ["DsBind","DsBind function [Active Directory]","DsBindA","DsBindW","_glines_dsbind","ad.dsbind","ntdsapi/DsBind","ntdsapi/DsBindA","ntdsapi/DsBindW"]
+description: Binds to a domain controller. (ANSI)
+helpviewer_keywords: ["DsBindA", "ntdsapi/DsBindA"]
 old-location: ad\dsbind.htm
 tech.root: ad
 ms.assetid: c73cd16d-ccfd-4f61-b1c5-50130bef64d7
@@ -154,7 +154,7 @@ The <i>DomainControllerName</i> parameter takes precedence. <b>DsBind</b> will a
 
 
 > [!NOTE]
-> The ntdsapi.h header defines DsBind as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ntdsapi.h header defines DsBind as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

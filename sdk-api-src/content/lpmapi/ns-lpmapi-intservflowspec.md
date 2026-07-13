@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_28
+UID: NS:lpmapi.IntServFlowSpec
 title: IntServFlowSpec (lpmapi.h)
 description: The IntServFlowSpec structure contains information about Integrated Services flowspecs.
 helpviewer_keywords: ["IntServFlowSpec","IntServFlowSpec structure [QOS]","lpmapi/IntServFlowSpec","qos.intservflowspec"]
@@ -98,3 +98,4 @@ Qualitative application flowspec information, expressed as a <a href="/previous-
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualappflowspec">QualAppFlowSpec</a>
+

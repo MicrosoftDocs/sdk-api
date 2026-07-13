@@ -71,7 +71,7 @@ A pointer to a null-terminated string specifying the name of the subkey that con
 For example, if  <i>hkey</i> specifies HKEY_LOCAL_MACHINE and <i>pszSubkey</i> specifies "Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display", this function returns property sheet extension handlers using the following subkey:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows</b>

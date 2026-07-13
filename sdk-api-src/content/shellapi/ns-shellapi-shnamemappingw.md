@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHNAMEMAPPINGW
 title: SHNAMEMAPPINGW (shellapi.h)
-description: Contains the old and new path names for each file that was moved, copied, or renamed by the SHFileOperation function.
+description: Contains the old and new path names for each file that was moved, copied, or renamed by the SHFileOperation function. (Unicode)
 helpviewer_keywords: ["*LPSHNAMEMAPPINGW","LPSHNAMEMAPPING","LPSHNAMEMAPPING structure pointer [Windows Shell]","SHNAMEMAPPING","SHNAMEMAPPING structure [Windows Shell]","SHNAMEMAPPINGW","_win32_SHNAMEMAPPING","shell.SHNAMEMAPPING","shellapi/LPSHNAMEMAPPING","shellapi/SHNAMEMAPPING"]
 old-location: shell\SHNAMEMAPPING.htm
 tech.root: shell
@@ -91,7 +91,7 @@ There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and 
 
 
 > [!NOTE]
-> The shellapi.h header defines SHNAMEMAPPING as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHNAMEMAPPING as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

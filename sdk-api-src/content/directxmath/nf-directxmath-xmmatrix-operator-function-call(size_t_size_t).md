@@ -9,25 +9,25 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.operator ()(size_t,size_t
 ms.date: 12/05/2018
 ms.keywords: XMMATRIX structure [DirectX Math Support APIs],operator () method, XMMATRIX.operator ()(size_t,size_t), XMMATRIX.operator (size_t,size_t), XMMATRIX.operator(), XMMATRIX.operator-function-call(size_t,size_t), XMMATRIX::operator(), XMMATRIX::operator-function-call(size_t,size_t), dxmath.xmmatrix_operator_parens_1, operator () method [DirectX Math Support APIs], operator () method [DirectX Math Support APIs],XMMATRIX structure, operator()
 req.header: directxmath.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 f1_keywords:
  - XMMATRIX::operator()
  - directxmath/XMMATRIX::operator()
@@ -72,6 +72,8 @@ A <code>reference</code> to the matrix element specified by the operator's <b>Ro
 
 ## -remarks
 
+This operator is only available when building with ``_XM_NO_INTRINSICS_``.
+
 As a <code>reference</code> to the matrix element is returned, this operator can be used to update the value of an element
    of an instance of <code>XMMATRIX</code>.
 
@@ -103,5 +105,4 @@ will set the value of the <i>mat.m[1][2]</i> to 42.0.
 
 
 
-<a href="https://msdn.microsoft.com/917d44b0-4625-412f-b3ad-5955856689d5">operator ()</a>
-
+<a href="/windows/win32/dxmath/ovw-xmmatrix-operators">XMMATRIX Operators</a>

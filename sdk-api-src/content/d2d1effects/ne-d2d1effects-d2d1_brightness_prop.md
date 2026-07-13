@@ -54,7 +54,7 @@ Identifiers for the properties of the <a href="/windows/desktop/Direct2D/brightn
 
 ## -enum-fields
 
-### -field D2D1_BRIGHTNESS_PROP_WHITE_POINT
+### -field D2D1_BRIGHTNESS_PROP_WHITE_POINT:0
 
 The upper portion of the brightness transfer curve. The white point adjusts the appearance of the brighter portions of the image. 
           This property is for both the x value and the y value, in that order. Each of the values of this property are between 0 and 1, inclusive.
@@ -64,7 +64,7 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1
 
 The default value is (1.0f, 1.0f).
 
-### -field D2D1_BRIGHTNESS_PROP_BLACK_POINT
+### -field D2D1_BRIGHTNESS_PROP_BLACK_POINT:1
 
 The lower portion of the brightness transfer curve. The black point adjusts the appearance of the darker portions of the image. 
           This property is for both the x value and the y value, in that order. Each of the values of this property are between 0 and 1, inclusive.
@@ -74,4 +74,4 @@ The type is <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1
 
 The default value is (0.0f, 0.0f).
 
-### -field D2D1_BRIGHTNESS_PROP_FORCE_DWORD
+### -field D2D1_BRIGHTNESS_PROP_FORCE_DWORD:0xffffffff

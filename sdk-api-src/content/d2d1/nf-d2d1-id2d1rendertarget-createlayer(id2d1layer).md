@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateLayer(ID2D1Layer)
 title: ID2D1RenderTarget::CreateLayer(ID2D1Layer) (d2d1.h)
-description: Creates a layer resource that can be used with this render target and its compatible render targets.
+description: Creates a layer resource that can be used with this render target and its compatible render targets. (overload 1/2)
 helpviewer_keywords: ["CreateLayer","CreateLayer method [Direct2D]","CreateLayer method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateLayer method","ID2D1RenderTarget.CreateLayer","ID2D1RenderTarget.CreateLayer(ID2D1Layer)","ID2D1RenderTarget::CreateLayer","ID2D1RenderTarget::CreateLayer(ID2D1Layer)","d2d1/ID2D1RenderTarget::CreateLayer","direct2d.ID2D1RenderTarget_CreateLayer_ptr_ptr_ID2D1Layer"]
 old-location: direct2d\ID2D1RenderTarget_CreateLayer_ptr_ptr_ID2D1Layer.htm
 tech.root: Direct2D
@@ -61,7 +61,7 @@ When the method returns, contains a pointer to a pointer to the new layer. This 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetExtendedListViewStyle","ListView_SetExtendedL
 old-location: controls\ListView_SetExtendedListViewStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setextendedlistviewstyle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetExtendedListViewStyle, ListView_SetExtendedListViewStyle macro [Windows Controls], _win32_ListView_SetExtendedListViewStyle, _win32_ListView_SetExtendedListViewStyle_cpp, commctrl/ListView_SetExtendedListViewStyle, controls.ListView_SetExtendedListViewStyle, controls._win32_ListView_SetExtendedListViewStyle
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,15 @@ api_name:
 
 # ListView_SetExtendedListViewStyle macro
 
+## -syntax
+
+```cpp
+void ListView_SetExtendedListViewStyle(
+   HWND  hwndLV,
+   DWORD dw
+);
+```
+
 
 ## -description
 
@@ -69,7 +78,7 @@ A <b>DWORD</b> value that specifies the extended list-view control style. This p
 ## -remarks
 
 For backward compatibility reasons, the <b>ListView_SetExtendedListViewStyle</b> macro has not been updated to use 
-<i>dwExMask</i>. To use the <i>dwExMask</i>value, use the <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setextendedlistviewstyleex">ListView_SetExtendedListViewStyleEx</a> macro. 
+<i>dwExMask</i>. To use the <i>dwExMask</i> value, use the <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setextendedlistviewstyleex">ListView_SetExtendedListViewStyleEx</a> macro. 
 
 When you use this macro to set the <a href="/windows/desktop/Controls/extended-list-view-styles">LVS_EX_CHECKBOXES</a> style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the 
 <b>state</b> member of the <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure.

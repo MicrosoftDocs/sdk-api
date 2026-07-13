@@ -56,68 +56,33 @@ The <b>waveInGetDevCaps</b> function retrieves the capabilities of a given wavef
 
 ### -param uDeviceID
 
-Identifier of the waveform-audio output device. It can be either a device identifier or a handle of an open waveform-audio input device.
+Identifier of the waveform-audio input device. It can be either a device identifier or a handle of an open waveform-audio input device.
 
 ### -param pwic
 
-Pointer to a <a href="/previous-versions/dd743839(v=vs.85)">WAVEINCAPS</a> structure to be filled with information about the capabilities of the device.
+Pointer to a [WAVEINCAPS](ns-mmeapi-waveincaps.md) structure to be filled with information about the capabilities of the device.
 
 ### -param cbwic
 
-Size, in bytes, of the <b>WAVEINCAPS</b> structure.
+Size, in bytes, of the **WAVEINCAPS** structure.
 
 ## -returns
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMSYSERR_BADDEVICEID</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specified device identifier is out of range.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMSYSERR_NODRIVER</b></dt>
-</dl>
-</td>
-<td width="60%">
-No device driver is present.
+| Return code | Description |
+|-------------|-------------|
+| MMSYSERR_BADDEVICEID | Specified device identifier is out of range. |
+| MMSYSERR_NODRIVER | No device driver is present. |
+| MMSYSERR_NOMEM | Unable to allocate or lock memory. |
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMSYSERR_NOMEM</b></dt>
-</dl>
-</td>
-<td width="60%">
-Unable to allocate or lock memory.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 
-Use this function to determine the number of waveform-audio input devices present in the system. If the value specified by the <i>uDeviceID</i> parameter is a device identifier, it can vary from zero to one less than the number of devices present. The WAVE_MAPPER constant can also be used as a device identifier. Only <i>cbwic</i> bytes (or less) of information is copied to the location pointed to by <i>pwic</i>. If <i>cbwic</i> is zero, nothing is copied and the function returns zero.
+Use this function to determine the number of waveform-audio input devices present in the system. If the value specified by the *uDeviceID* parameter is a device identifier, it can vary from zero to one less than the number of devices present. The WAVE_MAPPER constant can also be used as a device identifier. Only *cbwic* bytes (or less) of information is copied to the location pointed to by *pwic*. If *cbwic* is zero, nothing is copied and the function returns zero.
 
 ## -see-also
 
-<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
-
-
-
-<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
+[Waveform Audio](/windows/desktop/Multimedia/waveform-audio)
+[Waveform Functions](/windows/desktop/Multimedia/waveform-functions)

@@ -6,7 +6,7 @@ helpviewer_keywords: ["PALETTERGB","PALETTERGB macro [Windows GDI]","_win32_PALE
 old-location: gdi\palettergb.htm
 tech.root: gdi
 ms.assetid: affe6d0f-2827-4de1-a21e-8fdcdad85fc5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: PALETTERGB, PALETTERGB macro [Windows GDI], _win32_PALETTERGB, gdi.palettergb, wingdi/PALETTERGB
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # PALETTERGB macro
+
+## -syntax
+
+```cpp
+COLORREF PALETTERGB(
+    BYTE r,
+    BYTE g,
+    BYTE b
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+The return value is a palette-relative RGB specifier. For output devices that support logical palettes, the system matches a palette-relative RGB value to the nearest color in the logical palette of the device context as though the application had specified an index to that palette entry. If an output device does not support a system palette, the system uses the palette-relative RGB as though it were a conventional RGB value returned by the **RGB** macro.
 
 
 ## -description

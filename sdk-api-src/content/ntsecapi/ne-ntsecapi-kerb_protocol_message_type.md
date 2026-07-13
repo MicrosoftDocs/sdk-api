@@ -61,7 +61,7 @@ Each message corresponds to a dispatch routine and causes the Kerberos authentic
 
 ## -enum-fields
 
-### -field KerbDebugRequestMessage
+### -field KerbDebugRequestMessage:0
 
 Reserved.
 
@@ -123,7 +123,7 @@ When changing the password for an account in a  non-Windows Kerberos realm, the 
 
 This message extends <b>KerbSetPasswordMessage</b> by specifying the client name and realm.
 
-### -field KerbAddExtraCredentialsMessage
+### -field KerbAddExtraCredentialsMessage:17
 
 This message is to add, remove, or replace an extra credential. The <b>SeTcbPrivilege</b> is required to alter another logon account's credentials.
 

@@ -1,12 +1,12 @@
 ---
 UID: NA:dxcore_interface
 title: dxcore_interface.h header
-ms.author: windowssdkdev
 ms.date: 06/12/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows
-ms.topic: portal
+ms.service: windows
+ms.subservice: windows
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: dxcore
 ---
 
@@ -16,4 +16,4 @@ tech.root: dxcore
 
 This header is used by DXCore. For more information, see:
 
-- [DXCore](/windows/win32/api/_dxcore/)
+- [DXCore](../_dxcore/index.md)

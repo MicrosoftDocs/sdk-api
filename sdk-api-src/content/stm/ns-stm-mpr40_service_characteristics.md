@@ -1,12 +1,12 @@
 ---
 UID: NS:stm._MPR40_SERVICE_CHARACTERISTICS
 title: MPR40_SERVICE_CHARACTERISTICS (stm.h)
-description: The MPR_SERVICE_CHARACTERISTICS structure contains information used to register a routing protocol with the router manager.
+description: The MPR40_SERVICE_CHARACTERISTICS (stm.h) structure contains information used to register a routing protocol with the router manager.
 helpviewer_keywords: ["*PMPR_SERVICE_CHARACTERISTICS","DEMAND_UPDATE_ROUTES","DEMAND_UPDATE_SERVICES","MPR40_SERVICE_CHARACTERISTICS","MPR_SERVICE_CHARACTERISTICS","MPR_SERVICE_CHARACTERISTICS structure [RAS]","PMPR_SERVICE_CHARACTERISTICS","PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS]","ROUTING","SERVICES","_mpr_mpr_service_characteristics","routprot/MPR_SERVICE_CHARACTERISTICS","routprot/PMPR_SERVICE_CHARACTERISTICS","rras.mpr_service_characteristics","stm/MPR_SERVICE_CHARACTERISTICS","stm/PMPR_SERVICE_CHARACTERISTICS"]
 old-location: rras\mpr_service_characteristics.htm
 tech.root: RRAS
 ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: '*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR40_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS structure [RAS], PMPR_SERVICE_CHARACTERISTICS, PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _mpr_mpr_service_characteristics, routprot/MPR_SERVICE_CHARACTERISTICS, routprot/PMPR_SERVICE_CHARACTERISTICS, rras.mpr_service_characteristics, stm/MPR_SERVICE_CHARACTERISTICS, stm/PMPR_SERVICE_CHARACTERISTICS'
 req.header: stm.h
 req.include-header: 

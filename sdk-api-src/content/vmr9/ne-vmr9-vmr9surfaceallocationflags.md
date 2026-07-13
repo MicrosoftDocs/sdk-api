@@ -6,7 +6,7 @@ helpviewer_keywords: ["VMR9AllocFlag_3DRenderTarget","VMR9AllocFlag_DXVATarget",
 old-location: dshow\vmr9surfaceallocationflags.htm
 tech.root: dshow
 ms.assetid: 880e6c78-177f-49d0-a526-5f036c715f9e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VMR9AllocFlag_3DRenderTarget, VMR9AllocFlag_DXVATarget, VMR9AllocFlag_OffscreenSurface, VMR9AllocFlag_RGBDynamicSwitch, VMR9AllocFlag_TextureSurface, VMR9AllocFlag_UsageMask, VMR9AllocFlag_UsageReserved, VMR9SurfaceAllocationFlags, VMR9SurfaceAllocationFlags , VMR9SurfaceAllocationFlags enumeration [DirectShow], VMR9SurfaceAllocationFlagsEnumeration, dshow.vmr9surfaceallocationflags, vmr9/VMR9AllocFlag_3DRenderTarget, vmr9/VMR9AllocFlag_DXVATarget, vmr9/VMR9AllocFlag_OffscreenSurface, vmr9/VMR9AllocFlag_RGBDynamicSwitch, vmr9/VMR9AllocFlag_TextureSurface, vmr9/VMR9AllocFlag_UsageMask, vmr9/VMR9AllocFlag_UsageReserved, vmr9/VMR9SurfaceAllocationFlags
 req.header: vmr9.h
 req.include-header: 
@@ -52,35 +52,37 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>VMR9SurfaceAllocationFlags</b> enumeration type is used with the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurfaceallocator9-initializedevice">IVMRSurfaceAllocator9::InitializeDevice</a> method to specify surface creation parameters (VMR-9 only).
 
 ## -enum-fields
 
-### -field VMR9AllocFlag_3DRenderTarget
+### -field VMR9AllocFlag_3DRenderTarget:0x1
 
 Indicates that the surface is a Direct3D render target.
 
-### -field VMR9AllocFlag_DXVATarget
+### -field VMR9AllocFlag_DXVATarget:0x2
 
 Indicates that the render target supports DXVA.
 
-### -field VMR9AllocFlag_TextureSurface
+### -field VMR9AllocFlag_TextureSurface:0x4
 
 Indicates that the target is a Direct3D texture surface.
 
-### -field VMR9AllocFlag_OffscreenSurface
+### -field VMR9AllocFlag_OffscreenSurface:0x8
 
 Indicates an offscreen surface.
 
-### -field VMR9AllocFlag_RGBDynamicSwitch
+### -field VMR9AllocFlag_RGBDynamicSwitch:0x10
 
 In YUV mixing mode, indicates that the mixer can accept RGB formats in addition to the specified YUV format. The allocator-presenter can switch between the formats dynamically. This flag is only valid in YUV mixing mode.
 
-### -field VMR9AllocFlag_UsageReserved
+### -field VMR9AllocFlag_UsageReserved:0xe0
 
 Reserved for future use.
 
-### -field VMR9AllocFlag_UsageMask
+### -field VMR9AllocFlag_UsageMask:0xff
 
 Bitwise <b>OR</b> of all flags; not used by applications
 

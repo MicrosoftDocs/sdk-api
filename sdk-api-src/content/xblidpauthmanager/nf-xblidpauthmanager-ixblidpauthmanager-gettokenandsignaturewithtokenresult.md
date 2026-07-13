@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult
 title: IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult)
 helpviewer_keywords: ["GetTokenAndSignatureWithTokenResult","GetTokenAndSignatureWithTokenResult method","GetTokenAndSignatureWithTokenResult method","IXblIdpAuthManager interface","IXblIdpAuthManager interface","GetTokenAndSignatureWithTokenResult method","IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult","IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult","xblidp.ixblidpauthmanager_gettokenandsignaturewithtokenresult","xblidpauthmanager/IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult"]
 old-location: xblidp\ixblidpauthmanager_gettokenandsignaturewithtokenresult.htm
 tech.root: xblidp
@@ -102,7 +102,7 @@ Type: <b>IXblIdpAuthTokenResult**</b>
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,18 +1,18 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSetBuilder
 title: IDWriteFontSetBuilder (dwrite_3.h)
-description: Contains methods for building a font set.
+description: Contains methods for building a font set. (IDWriteFontSetBuilder)
 helpviewer_keywords: ["IDWriteFontSetBuilder","IDWriteFontSetBuilder interface [Direct Write]","IDWriteFontSetBuilder interface [Direct Write]","described","directwrite.idwritefontsetbuilder","dwrite_3/IDWriteFontSetBuilder"]
 old-location: directwrite\idwritefontsetbuilder.htm
 tech.root: DirectWrite
 ms.assetid: CC6C95CA-BA8B-47C4-A241-650EC8477192
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontSetBuilder, IDWriteFontSetBuilder interface [Direct Write], IDWriteFontSetBuilder interface [Direct Write],described, directwrite.idwritefontsetbuilder, dwrite_3/IDWriteFontSetBuilder
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -54,10 +54,7 @@ Contains methods for building a font set.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSetBuilder</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontSetBuilder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontSetBuilder</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontSetBuilder</b> also has these types of members:
 
 ## -see-also
 

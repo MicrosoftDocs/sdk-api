@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiRecordSetStreamW
 title: MsiRecordSetStreamW function (msiquery.h)
-description: The MsiRecordSetStream function sets a record stream field from a file. Stream data cannot be inserted into temporary fields.
-helpviewer_keywords: ["MsiRecordSetStream","MsiRecordSetStream function","MsiRecordSetStreamA","MsiRecordSetStreamW","_msi_msirecordsetstream","msiquery/MsiRecordSetStream","msiquery/MsiRecordSetStreamA","msiquery/MsiRecordSetStreamW","setup.msirecordsetstream"]
+description: The MsiRecordSetStream function sets a record stream field from a file. Stream data cannot be inserted into temporary fields. (Unicode)
+helpviewer_keywords: ["MsiRecordSetStream", "MsiRecordSetStream function", "MsiRecordSetStreamW", "_msi_msirecordsetstream", "msiquery/MsiRecordSetStream", "msiquery/MsiRecordSetStreamW", "setup.msirecordsetstream"]
 old-location: setup\msirecordsetstream.htm
 tech.root: setup
 ms.assetid: ca62f6a6-2f39-4b4c-876f-4c74ecd28ee2
@@ -91,7 +91,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 > [!NOTE]
-> The msiquery.h header defines MsiRecordSetStream as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msiquery.h header defines MsiRecordSetStream as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

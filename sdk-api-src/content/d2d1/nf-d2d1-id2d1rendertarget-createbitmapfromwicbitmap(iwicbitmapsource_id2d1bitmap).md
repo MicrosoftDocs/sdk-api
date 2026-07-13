@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap)
 title: ID2D1RenderTarget::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap) (d2d1.h)
-description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
+description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap. (overload 3/4)
 helpviewer_keywords: ["CreateBitmapFromWicBitmap","CreateBitmapFromWicBitmap method [Direct2D]","CreateBitmapFromWicBitmap method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateBitmapFromWicBitmap method","ID2D1RenderTarget.CreateBitmapFromWicBitmap","ID2D1RenderTarget.CreateBitmapFromWicBitmap(IWICBitmapSource","ID2D1Bitmap)","ID2D1RenderTarget::CreateBitmapFromWicBitmap","ID2D1RenderTarget::CreateBitmapFromWicBitmap(IWICBitmapSource","ID2D1Bitmap)","d2d1/ID2D1RenderTarget::CreateBitmapFromWicBitmap","direct2d.ID2D1RenderTarget_CreateBitmapFromWicBitmap_ptr_IWICBitmapSource_ptr_ptr_ID2D1Bitmap"]
 old-location: direct2d\ID2D1RenderTarget_CreateBitmapFromWicBitmap_ptr_IWICBitmapSource_ptr_ptr_ID2D1Bitmap.htm
 tech.root: Direct2D
@@ -67,7 +67,7 @@ When this method returns, contains a pointer to a pointer to the new bitmap. Thi
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 

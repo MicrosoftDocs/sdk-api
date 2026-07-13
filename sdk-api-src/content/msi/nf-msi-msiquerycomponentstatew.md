@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiQueryComponentStateW
 title: MsiQueryComponentStateW function (msi.h)
-description: The MsiQueryComponentState function returns the installed state for a component.
-helpviewer_keywords: ["INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiQueryComponentState","MsiQueryComponentState function","MsiQueryComponentStateA","MsiQueryComponentStateW","NULL","User SID","msi/MsiQueryComponentState","msi/MsiQueryComponentStateA","msi/MsiQueryComponentStateW","setup.msiquerycomponentstate"]
+description: The MsiQueryComponentState function returns the installed state for a component. (Unicode)
+helpviewer_keywords: ["INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiQueryComponentState", "MsiQueryComponentState function", "MsiQueryComponentStateW", "NULL", "User SID", "msi/MsiQueryComponentState", "msi/MsiQueryComponentStateW", "setup.msiquerycomponentstate"]
 old-location: setup\msiquerycomponentstate.htm
 tech.root: setup
 ms.assetid: d3b387d1-720e-4b54-ba80-731fcabdf676
@@ -298,4 +298,4 @@ For more information, see
 ## -remarks
 
 > [!NOTE]
-> The msi.h header defines MsiQueryComponentState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiQueryComponentState as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

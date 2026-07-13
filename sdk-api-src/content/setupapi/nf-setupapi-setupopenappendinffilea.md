@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupOpenAppendInfFileA
 title: SetupOpenAppendInfFileA function (setupapi.h)
-description: The SetupOpenAppendInfFile function appends the information in an INF file to an INF file previously opened by SetupOpenInfFile.
-helpviewer_keywords: ["SetupOpenAppendInfFile","SetupOpenAppendInfFile function [Setup API]","SetupOpenAppendInfFileA","SetupOpenAppendInfFileW","_setupapi_setupopenappendinffile","setup.setupopenappendinffile","setupapi/SetupOpenAppendInfFile","setupapi/SetupOpenAppendInfFileA","setupapi/SetupOpenAppendInfFileW"]
+description: The SetupOpenAppendInfFile function appends the information in an INF file to an INF file previously opened by SetupOpenInfFile. (ANSI)
+helpviewer_keywords: ["SetupOpenAppendInfFileA", "setupapi/SetupOpenAppendInfFileA"]
 old-location: setup\setupopenappendinffile.htm
 tech.root: setup
 ms.assetid: 12b1c676-912f-4876-998c-6b0ff162b95d
@@ -95,7 +95,7 @@ The ERROR_WRONG_INF_STYLE may also be returned by <b>SetupOpenAppendInfFile</b> 
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupOpenAppendInfFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupOpenAppendInfFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetSubEntryHandleA
 title: RasGetSubEntryHandleA function (ras.h)
-description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection.
-helpviewer_keywords: ["RasGetSubEntryHandle","RasGetSubEntryHandle function [RAS]","RasGetSubEntryHandleA","RasGetSubEntryHandleW","_ras_rasgetsubentryhandle","ras/RasGetSubEntryHandle","ras/RasGetSubEntryHandleA","ras/RasGetSubEntryHandleW","rras.rasgetsubentryhandle"]
+description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection. (ANSI)
+helpviewer_keywords: ["RasGetSubEntryHandleA", "ras/RasGetSubEntryHandleA"]
 old-location: rras\rasgetsubentryhandle.htm
 tech.root: RRAS
 ms.assetid: 020388b1-9965-4bd1-be7b-30f2127cb0fb
@@ -135,7 +135,7 @@ You can call
 
 
 > [!NOTE]
-> The ras.h header defines RasGetSubEntryHandle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasGetSubEntryHandle as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

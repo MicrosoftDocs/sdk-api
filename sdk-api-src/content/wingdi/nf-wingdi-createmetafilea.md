@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateMetaFileA
 title: CreateMetaFileA function (wingdi.h)
-description: The CreateMetaFile function creates a device context for a Windows-format metafile.
-helpviewer_keywords: ["CreateMetaFile","CreateMetaFile function [Windows GDI]","CreateMetaFileA","CreateMetaFileW","_win32_CreateMetaFile","gdi.createmetafile","wingdi/CreateMetaFile","wingdi/CreateMetaFileA","wingdi/CreateMetaFileW"]
+description: The CreateMetaFile function creates a device context for a Windows-format metafile. (ANSI)
+helpviewer_keywords: ["CreateMetaFileA", "wingdi/CreateMetaFileA"]
 old-location: gdi\createmetafile.htm
 tech.root: gdi
 ms.assetid: 81b3baae-f0e6-4b71-a6de-953ad3376dbd
@@ -86,7 +86,7 @@ To create a scalable Windows-format metafile, record the graphics output in the 
 
 
 > [!NOTE]
-> The wingdi.h header defines CreateMetaFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines CreateMetaFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

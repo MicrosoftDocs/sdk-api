@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.DecryptionBlt
 title: IDirect3DCryptoSession9::DecryptionBlt (d3d9.h)
-description: Writes encrypted data to a protected surface.
+description: Writes encrypted data to a protected surface. (IDirect3DCryptoSession9.DecryptionBlt)
 helpviewer_keywords: ["DecryptionBlt","DecryptionBlt method [Media Foundation]","DecryptionBlt method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","DecryptionBlt method","IDirect3DCryptoSession9.DecryptionBlt","IDirect3DCryptoSession9::DecryptionBlt","d3d9/IDirect3DCryptoSession9::DecryptionBlt","mf.idirect3dcryptosession9_decryptionblt"]
 old-location: mf\idirect3dcryptosession9_decryptionblt.htm
 tech.root: mf
@@ -90,7 +90,7 @@ For other encryption types, a different structure might be used, or the encrypti
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

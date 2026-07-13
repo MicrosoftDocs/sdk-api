@@ -1,8 +1,8 @@
 ---
 UID: NF:nspapi.GetServiceW
 title: GetServiceW function (nspapi.h)
-description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace.
-helpviewer_keywords: ["GetService","GetService function [Winsock]","GetServiceA","GetServiceW","NS_DEFAULT","NS_DNS","NS_NETBT","NS_SAP","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","PROP_ADDRESSES","PROP_ALL","PROP_COMMENT","PROP_DISPLAY_HINT","PROP_LOCALE","PROP_MACHINE","PROP_SD","PROP_START_TIME","PROP_VERSION","_win32_getservice_2","nspapi/GetService","nspapi/GetServiceA","nspapi/GetServiceW","winsock.getservice_2"]
+description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace. (Unicode)
+helpviewer_keywords: ["GetService", "GetService function [Winsock]", "GetServiceW", "NS_DEFAULT", "NS_DNS", "NS_NETBT", "NS_SAP", "NS_TCPIP_HOSTS", "NS_TCPIP_LOCAL", "PROP_ADDRESSES", "PROP_ALL", "PROP_COMMENT", "PROP_DISPLAY_HINT", "PROP_LOCALE", "PROP_MACHINE", "PROP_SD", "PROP_START_TIME", "PROP_VERSION", "_win32_getservice_2", "nspapi/GetService", "nspapi/GetServiceW", "winsock.getservice_2"]
 old-location: winsock\getservice_2.htm
 tech.root: WinSock
 ms.assetid: d09ffe2d-33c3-4ca3-bc99-d7d78fd83620
@@ -342,4 +342,4 @@ The specified service was not found, or the specified namespace is not in use. T
 ## -remarks
 
 > [!NOTE]
-> The nspapi.h header defines GetService as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines GetService as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

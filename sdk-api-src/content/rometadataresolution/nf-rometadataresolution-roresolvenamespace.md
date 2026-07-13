@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ro-typeresolution-l1-1-1.dll
+ - api-ms-win-ro-typeresolution-l1-1-1.dll
  - WinTypes.dll
  - API-MS-Win-ro-typeresolution-l1-1-0.dll
  - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
@@ -144,17 +146,6 @@ Indicates one of the following:
 <li><i>metaDataFilePaths</i> only is set, but no metadata files for the given namespace were found.</li>
 <li><i>subNamespaces</i> only is set, but no subnamespaces for the given namespace were found.</li>
 </ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_NO_PACKAGE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <a href="/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roresolvenamespace">RoResolveNamespace</a> function  is called from a process that is not in a Windows Store app to resolve a 3rd-party namespace when  <i>packageGraphDirs</i> parameter is <b>nullptr</b>.
-
 </td>
 </tr>
 <tr>
@@ -275,7 +266,7 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
     }
     else
     {
-        wprintf(L"Error %x occured while trying to resolve %s!\n", hr, pszName);
+        wprintf(L"Error %x occurred while trying to resolve %s!\n", hr, pszName);
     }
 
     // Clean up resources.

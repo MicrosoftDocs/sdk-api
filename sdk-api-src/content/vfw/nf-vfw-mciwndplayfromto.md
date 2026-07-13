@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndPlayFromTo","MCIWndPlayFromTo macro [Windows Multim
 old-location: multimedia\mciwndplayfromto.htm
 tech.root: Multimedia
 ms.assetid: a592c28c-322f-4fd1-90e9-632703bf40c1
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndPlayFromTo, MCIWndPlayFromTo macro [Windows Multimedia], _win32_MCIWndPlayFromTo, multimedia.mciwndplayfromto, vfw/MCIWndPlayFromTo
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MCIWndPlayFromTo macro
+
+## -syntax
+
+```cpp
+LONG MCIWndPlayFromTo(
+     hwnd,
+     lStart,
+     lEnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

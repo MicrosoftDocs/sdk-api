@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetGenerationCount","GetGenerationCount method [Direct Wr
 old-location: directwrite\idwritefontdownloadqueue_getgenerationcount.htm
 tech.root: DirectWrite
 ms.assetid: 6fbbe575-b186-7ffb-ff32-efceccccc48c
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetGenerationCount, GetGenerationCount method [Direct Write], GetGenerationCount method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],GetGenerationCount method, IDWriteFontDownloadQueue.GetGenerationCount, IDWriteFontDownloadQueue::GetGenerationCount, directwrite.idwritefontdownloadqueue_getgenerationcount, dwrite_3/IDWriteFontDownloadQueue::GetGenerationCount
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -54,7 +54,7 @@ Gets the current generation number of the download queue, which is incremented
     every time after a download completes, whether failed or successful. This cookie  
     value can be compared against cached data to determine if it is stale.
 
-## -parameters
+
 
 ## -returns
 

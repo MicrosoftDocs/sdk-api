@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVMRSurfaceAllocatorNotify9 interface [DirectShow]","Noti
 old-location: dshow\ivmrsurfaceallocatornotify9_notifyevent.htm
 tech.root: dshow
 ms.assetid: 04c92e0f-9f6e-484c-96cd-3567c09a2ff6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRSurfaceAllocatorNotify9 interface [DirectShow],NotifyEvent method, IVMRSurfaceAllocatorNotify9.NotifyEvent, IVMRSurfaceAllocatorNotify9::NotifyEvent, IVMRSurfaceAllocatorNotify9NotifyEvent, NotifyEvent, NotifyEvent method [DirectShow], NotifyEvent method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, dshow.ivmrsurfaceallocatornotify9_notifyevent, vmr9/IVMRSurfaceAllocatorNotify9::NotifyEvent
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>NotifyEvent</code> method is called by the allocator-presenter to inform the VMR of any significant DirectShow events that it (the allocator presenter) generates during the allocation or presentation processes.
 

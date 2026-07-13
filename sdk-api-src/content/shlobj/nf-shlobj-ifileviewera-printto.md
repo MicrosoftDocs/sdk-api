@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.IFileViewerA.PrintTo
 title: IFileViewerA::PrintTo
-description: Prints a file.
+description: Prints a file. (ANSI)
 helpviewer_keywords: ["IFileViewerA::PrintTo"]
 tech.root: shell
 ms.assetid: 4a8fd0ed-4a9a-47c7-a0ab-87cf82f507cb

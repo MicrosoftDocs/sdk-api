@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIAddVerbMenuW
 title: OleUIAddVerbMenuW function (oledlg.h)
-description: Adds the Verb menu for the specified object to the specified menu.
-helpviewer_keywords: ["OleUIAddVerbMenu","OleUIAddVerbMenu function [COM]","OleUIAddVerbMenuA","OleUIAddVerbMenuW","_ole_OleUIAddVerbMenu","com.oleuiaddverbmenu","oledlg/OleUIAddVerbMenu","oledlg/OleUIAddVerbMenuA","oledlg/OleUIAddVerbMenuW"]
+description: Adds the Verb menu for the specified object to the specified menu. (Unicode)
+helpviewer_keywords: ["OleUIAddVerbMenu", "OleUIAddVerbMenu function [COM]", "OleUIAddVerbMenuW", "_ole_OleUIAddVerbMenu", "com.oleuiaddverbmenu", "oledlg/OleUIAddVerbMenu", "oledlg/OleUIAddVerbMenuW"]
 old-location: com\oleuiaddverbmenu.htm
 tech.root: com
 ms.assetid: 6efb49e7-b3c1-4035-892d-4572db47b951
@@ -105,4 +105,4 @@ If the object has one verb, the verb is added directly to the given menu.
 
 
 > [!NOTE]
-> The oledlg.h header defines OleUIAddVerbMenu as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OleUIAddVerbMenu as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

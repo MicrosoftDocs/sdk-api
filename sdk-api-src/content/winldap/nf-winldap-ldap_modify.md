@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_modify
 title: ldap_modify function (winldap.h)
-description: The ldap_modify function changes an existing entry.
+description: The ldap_modify function (winldap.h) initiates an asynchronous operation to modify an existing entry. 
 helpviewer_keywords: ["_ldap_ldap_modify","ldap.ldap__modify","ldap.ldap_modify","ldap_modify","ldap_modify function [LDAP]","ldap_modifyA","ldap_modifyW","winldap/ldap_modify","winldap/ldap_modifyA","winldap/ldap_modifyW"]
 old-location: ldap\ldap_modify.htm
 tech.root: ldap
 ms.assetid: 93ae0af4-1b16-4bb0-952f-139241189d79
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_modify, ldap.ldap__modify, ldap.ldap_modify, ldap_modify, ldap_modify function [LDAP], ldap_modifyA, ldap_modifyW, winldap/ldap_modify, winldap/ldap_modifyA, winldap/ldap_modifyW
 req.header: winldap.h
 req.include-header: 

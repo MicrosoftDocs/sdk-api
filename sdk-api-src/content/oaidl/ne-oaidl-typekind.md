@@ -56,7 +56,7 @@ Specifies a type.
 
 ## -enum-fields
 
-### -field TKIND_ENUM
+### -field TKIND_ENUM:0
 
 A set of enumerators.
 

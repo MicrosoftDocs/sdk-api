@@ -64,13 +64,13 @@ Pointer to the interface that represents the property store that contains the as
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 This method can be called at any time before the dialog is opened or while the dialog is showing. If an item has inherent properties, this method should be called with those properties before showing the dialog.
 
-When using <b>Save As</b>, the application should provide the properites of the item being saved to the <b>Save</b> dialog. Those properties should be retreived from the original item by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">GetPropertyStore</a> with the <a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GPS_HANDLERPROPERTIESONLY</a> flag.
+When using <b>Save As</b>, the application should provide the properties of the item being saved to the <b>Save</b> dialog. Those properties should be retreived from the original item by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">GetPropertyStore</a> with the <a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GPS_HANDLERPROPERTIESONLY</a> flag.
 
 To retrieve the properties of the saved item (which may have been modified by the user) after the dialog closes, call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-getproperties">IFileSaveDialog::GetProperties</a>.
 

@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
  - minuser.dll
@@ -65,9 +68,9 @@ A handle to the window whose child is to be retrieved.
 
 ### -param ptParentClientCoords [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that defines the client coordinates of the point to be checked.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that defines the client coordinates of the point to be checked.
 
 ## -returns
 
@@ -93,7 +96,7 @@ The return value is a handle to the child window that contains the specified poi
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

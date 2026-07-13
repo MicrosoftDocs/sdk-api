@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAttributeByName","GetAttributeByName method [windows M
 old-location: wmformat\iwmregistereddevice_getattributebyname.htm
 tech.root: wmformat
 ms.assetid: e74bd544-295d-4e83-8804-5a99d7efdbb8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAttributeByName, GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByName method, IWMRegisteredDevice.GetAttributeByName, IWMRegisteredDevice::GetAttributeByName, IWMRegisteredDeviceGetAttributeByName, wmformat.iwmregistereddevice_getattributebyname, wmsdkidl/IWMRegisteredDevice::GetAttributeByName
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAttributeByName</b> method retrieves an attribute associated with the device. This method uses an attribute name to specify the attribute to retrieve.
 

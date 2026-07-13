@@ -54,26 +54,26 @@ Indicates abilities and the conflict resolution activity to follow. Used with <a
 
 ## -enum-fields
 
-### -field SYNCMGR_RA_KEEPOTHER
+### -field SYNCMGR_RA_KEEPOTHER:0x1
 
 The resolution handler supports merging items and will produce a merged file to keep.
 
-### -field SYNCMGR_RA_KEEPRECENT
+### -field SYNCMGR_RA_KEEPRECENT:0x2
 
 Enables methods <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keeprecent">ISyncMgrResolutionHandler::KeepRecent</a> and <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepother">ISyncMgrResolutionHandler::KeepOther</a> to be called.
 
-### -field SYNCMGR_RA_REMOVEFROMSYNCSET
+### -field SYNCMGR_RA_REMOVEFROMSYNCSET:0x4
 
 Enables method <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-removefromsyncset">ISyncMgrResolutionHandler::RemoveFromSyncSet</a> to be called.
 
-### -field SYNCMGR_RA_KEEP_SINGLE
+### -field SYNCMGR_RA_KEEP_SINGLE:0x8
 
 Not used.
 
-### -field SYNCMGR_RA_KEEP_MULTIPLE
+### -field SYNCMGR_RA_KEEP_MULTIPLE:0x10
 
 Enables method <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepitems">ISyncMgrResolutionHandler::KeepItems</a> to be called with more than one item in <i>pArray</i>.
 
-### -field SYNCMGR_RA_VALID
+### -field SYNCMGR_RA_VALID:0x1f
 
 A mask for valid <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_abilities">SYNCMGR_RESOLUTION_ABILITIES</a> values.

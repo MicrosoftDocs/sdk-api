@@ -6,7 +6,7 @@ helpviewer_keywords: ["Static_Enable","Static_Enable macro [Windows Controls]","
 old-location: controls\Static_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_enable.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Static_Enable, Static_Enable macro [Windows Controls], _win32_Static_Enable, _win32_Static_Enable_cpp, controls.Static_Enable, controls._win32_Static_Enable, windowsx/Static_Enable
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Static_Enable macro
+
+## -syntax
+
+```cpp
+BOOL Static_Enable(
+   HWND hwndCtl,
+   BOOL fEnable
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Zero if the window was previously disabled; otherwise nonzero.
 
 
 ## -description

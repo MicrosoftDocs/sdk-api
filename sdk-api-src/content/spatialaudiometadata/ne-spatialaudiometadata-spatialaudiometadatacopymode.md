@@ -54,7 +54,7 @@ Specifies the copy mode used when calling <a href="/windows/desktop/api/spatiala
 
 ## -enum-fields
 
-### -field SpatialAudioMetadataCopy_Overwrite
+### -field SpatialAudioMetadataCopy_Overwrite:0
 
 Creates a direct copy of the number of metadata items  specified with the <i>copyFrameCount</i> parameter  into destination buffer, overwriting any previously existing data.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.IsConnected
 title: ISyncMgrSyncItemInfo::IsConnected (syncmgr.h)
-description: Generates a value that indicates whether the item�typically some type of external device�is connected.
+description: Generates a value that indicates whether the item — typically some type of external device — is connected.
 helpviewer_keywords: ["ISyncMgrSyncItemInfo interface [Windows Shell]","IsConnected method","ISyncMgrSyncItemInfo.IsConnected","ISyncMgrSyncItemInfo::IsConnected","IsConnected","IsConnected method [Windows Shell]","IsConnected method [Windows Shell]","ISyncMgrSyncItemInfo interface","_shell_ISyncMgrSyncItemInfo_IsConnected","shell.ISyncMgrSyncItemInfo_IsConnected","syncmgr/ISyncMgrSyncItemInfo::IsConnected"]
 old-location: shell\ISyncMgrSyncItemInfo_IsConnected.htm
 tech.root: shell
@@ -52,7 +52,7 @@ api_name:
 
 Generates a value that indicates whether the item—typically some type of external device—is connected.
 
-## -parameters
+
 
 ## -returns
 

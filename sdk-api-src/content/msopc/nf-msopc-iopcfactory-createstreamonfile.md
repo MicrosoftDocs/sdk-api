@@ -64,7 +64,7 @@ The value that describes the read/write status of the stream to be created.
 
 ### -param securityAttributes [in]
 
-For information about the <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure in this parameter, see the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+For information about the <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure in this parameter, see the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -121,7 +121,7 @@ At least one of the <i>filename</i> and <i>stream</i> parameters is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateFile</b> function error</b></dt>
+<dt><b>CreateFile function error</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +153,7 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML</a>
 
 
 

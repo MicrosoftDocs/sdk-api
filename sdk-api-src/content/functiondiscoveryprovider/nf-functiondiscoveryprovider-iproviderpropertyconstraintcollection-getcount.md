@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.GetCount
 title: IProviderPropertyConstraintCollection::GetCount (functiondiscoveryprovider.h)
-description: Gets the number of items in the collection.
+description: Gets the number of items in the collection. (IProviderPropertyConstraintCollection.GetCount)
 helpviewer_keywords: ["GetCount","GetCount method","GetCount method","IProviderPropertyConstraintCollection interface","IProviderPropertyConstraintCollection interface","GetCount method","IProviderPropertyConstraintCollection.GetCount","IProviderPropertyConstraintCollection::GetCount","functiondiscoveryprovider/IProviderPropertyConstraintCollection::GetCount","ncd.iproviderpropertyconstraintcollection_getcount"]
 old-location: ncd\iproviderpropertyconstraintcollection_getcount.htm
 tech.root: ncd

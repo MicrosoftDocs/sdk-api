@@ -52,7 +52,7 @@ api_name:
 
 Notifies the third-party application that it has been selected as the new current provider.
 
-## -parameters
+
 
 ## -returns
 

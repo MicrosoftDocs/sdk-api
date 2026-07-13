@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetTextExtentPointA
 title: GetTextExtentPointA function (wingdi.h)
-description: The GetTextExtentPoint function computes the width and height of the specified string of text.
-helpviewer_keywords: ["GetTextExtentPoint","GetTextExtentPoint function [Windows GDI]","GetTextExtentPointA","GetTextExtentPointW","_win32_GetTextExtentPoint","gdi.gettextextentpoint","wingdi/GetTextExtentPoint","wingdi/GetTextExtentPointA","wingdi/GetTextExtentPointW"]
+description: The GetTextExtentPoint function computes the width and height of the specified string of text. (ANSI)
+helpviewer_keywords: ["GetTextExtentPointA", "wingdi/GetTextExtentPointA"]
 old-location: gdi\gettextextentpoint.htm
 tech.root: gdi
 ms.assetid: 731085ce-009d-42e1-885f-2f5151e0f6d3
@@ -78,7 +78,7 @@ The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">lengt
 
 ### -param lpsz [out]
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the dimensions of the string, in logical units.
 
 ## -returns
 
@@ -99,7 +99,7 @@ The calculated string width takes into account the intercharacter spacing set by
 
 
 > [!NOTE]
-> The wingdi.h header defines GetTextExtentPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetTextExtentPoint as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -115,7 +115,7 @@ The calculated string width takes into account the intercharacter spacing set by
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>
 
 
 

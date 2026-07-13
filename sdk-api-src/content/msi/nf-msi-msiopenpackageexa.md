@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiOpenPackageExA
 title: MsiOpenPackageExA function (msi.h)
-description: The MsiOpenPackageEx function opens a package to use with functions that access the product database.
-helpviewer_keywords: ["MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE","MsiOpenPackageEx","MsiOpenPackageEx function","MsiOpenPackageExA","MsiOpenPackageExW","_msi_msiopenpackageex","msi/MsiOpenPackageEx","msi/MsiOpenPackageExA","msi/MsiOpenPackageExW","setup.msiopenpackageex"]
+description: The MsiOpenPackageEx function opens a package to use with functions that access the product database. (ANSI)
+helpviewer_keywords: ["MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE", "MsiOpenPackageExA", "msi/MsiOpenPackageExA"]
 old-location: setup\msiopenpackageex.htm
 tech.root: setup
 ms.assetid: 9e9550e9-9c10-4ef1-a172-dfacaaa37fd0
@@ -239,4 +239,4 @@ The
 
 
 > [!NOTE]
-> The msi.h header defines MsiOpenPackageEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiOpenPackageEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

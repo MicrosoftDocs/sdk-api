@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - COM
 api_location:
+ - ext-ms-win-gui-ieui-l1-1-0.dll
  - SrmSvc.dll
 api_name:
  - IFsrmFileScreenBase.CreateAction

@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_5
+UID: NS:lpmapi.RESV_STYLE
 title: RESV_STYLE (lpmapi.h)
 description: The RESV_STYLE structure contains information about RSVP RESV style.
 helpviewer_keywords: ["RESV_STYLE","RESV_STYLE structure [QOS]","STYLE_FF","STYLE_SE","STYLE_WF","lpmapi/RESV_STYLE","qos.resv_style"]
@@ -84,3 +84,4 @@ RSVP RESV style. Must be one of the following values:
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+

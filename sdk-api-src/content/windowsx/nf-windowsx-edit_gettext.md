@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetText","Edit_GetText macro [Windows Controls]","_w
 old-location: controls\edit_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gettext.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetText, Edit_GetText macro [Windows Controls], _win32_edit_GetText, _win32_edit_GetText_cpp, controls._win32_edit_GetText, controls.edit_GetText, windowsx/Edit_GetText
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # Edit_GetText macro
+
+## -syntax
+
+```cpp
+int Edit_GetText(
+   HWND   hwndCtl,
+   LPTSTR lpch,
+   int    cchMax
+);
+```
+
+## -returns
+
+Type: **int**
+
+The length, in characters, of the copied string, not including the terminating NULL character.
 
 
 ## -description

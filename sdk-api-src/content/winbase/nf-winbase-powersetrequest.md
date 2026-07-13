@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
  - kernel32legacy.dll
@@ -83,7 +84,7 @@ If the function fails, it returns zero. To get extended error information, call 
 
 ## -remarks
 
-On Modern Standby systems on DC power, power requests are terminated after 5 minutes.
+On Modern Standby systems on DC power, system and execution required power requests are terminated 5 minutes after the system sleep timeout has expired.
 
 Except for <b>PowerRequestAwayModeRequired</b> on Traditional Sleep (S3) systems, power requests are terminated upon user-initiated system sleep entry (power button, lid close or selecting **Sleep** from the **Start** menu).
 

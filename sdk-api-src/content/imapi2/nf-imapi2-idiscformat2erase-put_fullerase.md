@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_FullErase
 title: IDiscFormat2Erase::put_FullErase (imapi2.h)
-description: Determines the quality of the disc erasure.
+description: Determines the quality of the disc erasure. (Put)
 helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","put_FullErase method","IDiscFormat2Erase.put_FullErase","IDiscFormat2Erase::put_FullErase","imapi.idiscformat2erase_put_fullerase","imapi2/IDiscFormat2Erase::put_FullErase","put_FullErase","put_FullErase method [IMAPI]","put_FullErase method [IMAPI]","IDiscFormat2Erase interface"]
 old-location: imapi\idiscformat2erase_put_fullerase.htm
 tech.root: imapi

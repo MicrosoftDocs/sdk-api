@@ -45,19 +45,13 @@ api_name:
  - IInspectable
 ---
 
-# IInspectable interface
-
-
 ## -description
 
 Provides functionality required for all Windows Runtime classes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInspectable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInspectable</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IInspectable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInspectable</b> also has these types of members:
 
 ## -remarks
 
@@ -67,6 +61,10 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInspectable</b> interface in
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
-
-
 <a href="/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>
+
+[winrt::get_interfaces](/uwp/cpp-ref-for-winrt/get-interfaces)
+
+[winrt::get_class_name](/uwp/cpp-ref-for-winrt/get-class-name)
+
+[winrt::get_trust_level](/uwp/cpp-ref-for-winrt/get-trust-level)

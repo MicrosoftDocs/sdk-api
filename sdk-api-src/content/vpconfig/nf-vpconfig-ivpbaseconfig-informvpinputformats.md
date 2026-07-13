@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","InformVPInputForma
 old-location: dshow\ivpbaseconfig_informvpinputformats.htm
 tech.root: dshow
 ms.assetid: d9b4ea2b-ad71-4226-9aad-e68a9cb26274
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVPBaseConfig interface [DirectShow],InformVPInputFormats method, IVPBaseConfig.InformVPInputFormats, IVPBaseConfig::InformVPInputFormats, IVPBaseConfigInformVPInputFormats, InformVPInputFormats, InformVPInputFormats method [DirectShow], InformVPInputFormats method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_informvpinputformats, vpconfig/IVPBaseConfig::InformVPInputFormats
 req.header: vpconfig.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>InformVPInputFormats</code> method informs the device what video formats the video port supports.
 

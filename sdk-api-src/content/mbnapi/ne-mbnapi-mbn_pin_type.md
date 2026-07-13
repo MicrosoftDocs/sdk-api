@@ -57,7 +57,7 @@ The <b>MBN_PIN_TYPE</b> enumerated type indicates the type of password required 
 
 ## -enum-fields
 
-### -field MBN_PIN_TYPE_NONE
+### -field MBN_PIN_TYPE_NONE:0
 
 Indicates that no PIN is pending to be entered.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetButtonAtPosition","GetButtonAtPosition method [DirectS
 old-location: dshow\idvdinfo2_getbuttonatposition.htm
 tech.root: dshow
 ms.assetid: f9c506b3-c9d9-4dc2-b318-f987ab8636dc
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetButtonAtPosition, GetButtonAtPosition method [DirectShow], GetButtonAtPosition method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonAtPosition method, IDvdInfo2.GetButtonAtPosition, IDvdInfo2::GetButtonAtPosition, IDvdInfo2GetButtonAtPosition, dshow.idvdinfo2_getbuttonatposition, strmif/IDvdInfo2::GetButtonAtPosition
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetButtonAtPosition</code> method retrieves the button located at the specified point within the display window.
 

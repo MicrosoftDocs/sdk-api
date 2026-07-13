@@ -87,8 +87,12 @@ If <b>TRUE</b> is passed in,
     <b>EncryptionDisable</b> will write the following to the 
     Desktop.ini file in the directory (creating it if necessary):
 
-<pre class="syntax" xml:space="preserve"><code>[Encryption]
-Disable=1</code></pre>
+
+``` syntax
+[Encryption]
+Disable=1
+```
+
 If the section already exists but <i>Disable</i> is set to 0, it will be set to 1.
 
 Thereafter, <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will fail on the 
@@ -110,8 +114,12 @@ If <b>FALSE</b> is passed in,
     <b>EncryptionDisable</b> will write the following to the 
     Desktop.ini file:
 
-<pre class="syntax" xml:space="preserve"><code>[Encryption]
-Disable=0</code></pre>
+
+``` syntax
+[Encryption]
+Disable=0
+```
+
 This means that  file encryption is permitted on the files in that directory.
 
 If you try to use <b>EncryptionDisable</b> to set the 

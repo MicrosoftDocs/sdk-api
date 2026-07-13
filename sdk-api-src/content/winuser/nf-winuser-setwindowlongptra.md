@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetWindowLongPtrA
 title: SetWindowLongPtrA function (winuser.h)
-description: Changes an attribute of the specified window.
-helpviewer_keywords: ["DWLP_DLGPROC","DWLP_MSGRESULT","DWLP_USER","GWLP_HINSTANCE","GWLP_ID","GWLP_USERDATA","GWLP_WNDPROC","GWL_EXSTYLE","GWL_STYLE","SetWindowLongPtr","SetWindowLongPtr function [Windows and Messages]","SetWindowLongPtrA","SetWindowLongPtrW","_win32_SetWindowLongPtr","_win32_setwindowlongptr_cpp","winmsg.setwindowlongptr","winui._win32_setwindowlongptr","winuser/SetWindowLongPtr","winuser/SetWindowLongPtrA","winuser/SetWindowLongPtrW"]
+description: Changes an attribute of the specified window. (ANSI)
+helpviewer_keywords: ["DWLP_DLGPROC", "DWLP_MSGRESULT", "DWLP_USER", "GWLP_HINSTANCE", "GWLP_ID", "GWLP_USERDATA", "GWLP_WNDPROC", "GWL_EXSTYLE", "GWL_STYLE", "SetWindowLongPtrA", "winuser/SetWindowLongPtrA"]
 old-location: winmsg\setwindowlongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlongptr.htm
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-window-ansi-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
  - ie_shims.dll
@@ -104,6 +106,17 @@ Sets a new <a href="/windows/desktop/winmsg/extended-window-styles">extended win
 </td>
 <td width="60%">
 Sets a new application instance handle.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="GWLP_HWNDPARENT"></a><a id="gwlp_hwndparent"></a><dl>
+<dt><b>GWLP_HWNDPARENT</b></dt>
+<dt>-8</dt>
+</dl>
+</td>
+<td width="60%">
+Sets a new owner for a top-level window.
 
 </td>
 </tr>
@@ -219,7 +232,7 @@ If the previous value is zero and the function succeeds, the return value is zer
 
 Certain window data is cached, so changes you make using <b>SetWindowLongPtr</b> will not take effect until you call the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
 
-If you use <b>SetWindowLongPtr</b> with the <b>GWLP_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> callback function. 
+If you use <b>SetWindowLongPtr</b> with the <b>GWLP_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a> callback function. 
 
 If you use <b>SetWindowLongPtr</b> with the <b>DWLP_MSGRESULT</b> index to set the return value for a message processed by a dialog box procedure, the dialog box procedure should return <b>TRUE</b> directly afterward. Otherwise, if you call any function that results in your dialog box procedure receiving a window message, the nested window message could overwrite the return value you set by using <b>DWLP_MSGRESULT</b>. 
 
@@ -230,6 +243,10 @@ Reserve extra window memory by specifying a nonzero value in the
 
 Do not call <b>SetWindowLongPtr</b> with the <b>GWLP_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a> function. 
 
+<b>GWLP_HWNDPARENT</b> is used to change the owner of a top-level window, not the parent of a child window.
+
+A window can have either a parent or an owner, or neither, but never both simultaneously.
+
 If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do not set the extended window styles <b>WS_EX_COMPOSITED</b> or <b>WS_EX_LAYERED</b>.
 
  Calling <b>SetWindowLongPtr</b> to set the style on a progressbar will reset its position.
@@ -239,7 +256,7 @@ If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do n
 
 
 > [!NOTE]
-> The winuser.h header defines SetWindowLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SetWindowLongPtr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -275,4 +292,4 @@ If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do n
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>

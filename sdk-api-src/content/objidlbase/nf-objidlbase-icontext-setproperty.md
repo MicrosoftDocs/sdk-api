@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IContext.SetProperty
 title: IContext::SetProperty (objidlbase.h)
-description: Adds the specified context property to the object context.
+description: The IContext::SetProperty (objidlbase.h) method adds the specified context property to the object context.
 helpviewer_keywords: ["IContext interface [COM]","SetProperty method","IContext.SetProperty","IContext::SetProperty","SetProperty","SetProperty method [COM]","SetProperty method [COM]","IContext interface","_com_icontext_setproperty","com.icontext_setproperty","objidlbase/IContext::SetProperty"]
 old-location: com\icontext_setproperty.htm
 tech.root: com
 ms.assetid: 8e6dc055-bc97-41e0-973c-b061e851daf5
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IContext interface [COM],SetProperty method, IContext.SetProperty, IContext::SetProperty, SetProperty, SetProperty method [COM], SetProperty method [COM],IContext interface, _com_icontext_setproperty, com.icontext_setproperty, objidlbase/IContext::SetProperty
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

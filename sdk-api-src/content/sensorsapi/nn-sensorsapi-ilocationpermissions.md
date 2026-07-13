@@ -6,7 +6,7 @@ helpviewer_keywords: ["ILocationPermissions","ILocationPermissions interface [Wi
 old-location: winsensors\ilocationpermissions.htm
 tech.root: winsensors
 ms.assetid: f4b46f4a-60be-4428-a4b5-6100ae3f1e1b
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: ILocationPermissions, ILocationPermissions interface [WinSensors], ILocationPermissions interface [WinSensors],described, sensorsapi/ILocationPermissions, winsensors.ilocationpermissions
 req.header: sensorsapi.h
 req.include-header: 
@@ -50,14 +50,16 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 Provides the status of the system setting that allows users to change location settings.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationPermissions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationPermissions</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ILocationPermissions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationPermissions</b> also has these types of members:
 
 ## -remarks
 

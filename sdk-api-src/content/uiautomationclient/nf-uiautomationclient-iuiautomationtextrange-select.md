@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Select
 title: IUIAutomationTextRange::Select (uiautomationclient.h)
-description: Selects the span of text that corresponds to this text range, and removes any previous selection.
+description: Selects the span of text that corresponds to this text range, and removes any previous selection. (IUIAutomationTextRange.Select)
 helpviewer_keywords: ["IUIAutomationTextRange interface [Windows Accessibility]","Select method","IUIAutomationTextRange.Select","IUIAutomationTextRange::Select","Select","Select method [Windows Accessibility]","Select method [Windows Accessibility]","IUIAutomationTextRange interface","uiauto.uiauto_IUIAutomationTextRange_Select","uiauto_IUIAutomationTextRange_Select","uiautomationclient/IUIAutomationTextRange::Select","winauto.uiauto_IUIAutomationTextRange_Select"]
 old-location: winauto\uiauto_IUIAutomationTextRange_Select.htm
 tech.root: WinAuto
@@ -52,13 +52,13 @@ api_name:
 
 Selects the span of text that corresponds to this text range, and removes any previous  selection.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

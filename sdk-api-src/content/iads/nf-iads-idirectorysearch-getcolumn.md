@@ -100,7 +100,7 @@ while( m_pSearch->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
              break;
  
              case ADSTYPE_PROV_SPECIFIC:
-                printf("%S\n", col.pADsValues-->ProviderSpecific.lpValue);
+                printf("%S\n", col.pADsValues->ProviderSpecific.lpValue);
              break;
  
              default:
@@ -109,11 +109,14 @@ while( m_pSearch->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
           }
 
           {
-       
              m_pSearch->FreeColumn( &col );
           }
    }
+
+}
+
 m_pSearch->CloseSearchHandle( hSearch );
+
 ```
 
 ## -see-also

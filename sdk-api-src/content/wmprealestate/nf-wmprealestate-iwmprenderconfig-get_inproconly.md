@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPRenderConfig interface [Windows Media Player]","get_i
 old-location: wmp\iwmprenderconfig_get_inproconly.htm
 tech.root: WMP
 ms.assetid: 71284af6-dc76-4a39-81f4-ed265140aad5
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPRenderConfig interface [Windows Media Player],get_inProcOnly method, IWMPRenderConfig.get_inProcOnly, IWMPRenderConfig::get_inProcOnly, IWMPRenderConfiggetInProcOnly, get_inProcOnly, get_inProcOnly method [Windows Media Player], get_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_get_inproconly, wmprealestate/IWMPRenderConfig::get_inProcOnly
 req.header: wmprealestate.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_inProcOnly</b> method retrieves a value indicating whether playback is restricted to the current process.
 

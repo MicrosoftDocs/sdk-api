@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-rawinput-l1-1-1.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-2.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
  - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
@@ -115,28 +118,10 @@ These left- and right-distinguishing constants are available to an application o
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
-
-
-
-<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

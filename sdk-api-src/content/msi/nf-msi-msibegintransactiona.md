@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiBeginTransactionA
 title: MsiBeginTransactionA function (msi.h)
-description: The MsiBeginTransaction function starts transaction processing of a multiple-package installation and returns an identifier for the transaction.
-helpviewer_keywords: ["MsiBeginTransaction","MsiBeginTransaction function [Setup API]","MsiBeginTransactionA","MsiBeginTransactionW","msi/MsiBeginTransaction","msi/MsiBeginTransactionA","msi/MsiBeginTransactionW","setup.msibegintransaction"]
+description: The MsiBeginTransaction function starts transaction processing of a multiple-package installation and returns an identifier for the transaction. (ANSI)
+helpviewer_keywords: ["MsiBeginTransactionA", "msi/MsiBeginTransactionA"]
 old-location: setup\msibegintransaction.htm
 tech.root: setup
 ms.assetid: 05904e58-b24d-4d2c-8b59-a66ad71b494a
@@ -167,4 +167,4 @@ An invalid parameter is passed to the function.
 ## -remarks
 
 > [!NOTE]
-> The msi.h header defines MsiBeginTransaction as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msi.h header defines MsiBeginTransaction as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

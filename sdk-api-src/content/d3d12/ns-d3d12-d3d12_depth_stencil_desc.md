@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_DEPTH_STENCIL_DESC
 title: D3D12_DEPTH_STENCIL_DESC (d3d12.h)
-description: Describes depth-stencil state.
+description: Describes depth-stencil state. (D3D12_DEPTH_STENCIL_DESC)
 helpviewer_keywords: ["D3D12_DEPTH_STENCIL_DESC","D3D12_DEPTH_STENCIL_DESC structure","d3d12/D3D12_DEPTH_STENCIL_DESC","direct3d12.d3d12_depth_stencil_desc"]
 old-location: direct3d12\d3d12_depth_stencil_desc.htm
 tech.root: direct3d12
@@ -108,7 +108,7 @@ This table shows the default values of depth-stencil states.
 </tr>
 <tr>
 <td>DepthFunc</td>
-<td>D3D12_COMPARISON_LESS</td>
+<td>D3D12_COMPARISON_FUNC_LESS</td>
 </tr>
 <tr>
 <td>StencilEnable</td>
@@ -124,14 +124,14 @@ This table shows the default values of depth-stencil states.
 </tr>
 <tr>
 <td>
-FrontFace.StencilFunc
+FrontFace.StencilFailOp
 
 and
 
-BackFace.StencilFunc
+BackFace.StencilFailOp
 
 </td>
-<td>D3D12_COMPARISON_ALWAYS</td>
+<td>D3D12_STENCIL_OP_KEEP</td>
 </tr>
 <tr>
 <td>
@@ -157,14 +157,14 @@ BackFace.StencilPassOp
 </tr>
 <tr>
 <td>
-FrontFace.StencilFailOp
+FrontFace.StencilFunc
 
 and
 
-BackFace.StencilFailOp
+BackFace.StencilFunc
 
 </td>
-<td>D3D12_STENCIL_OP_KEEP</td>
+<td>D3D12_COMPARISON_FUNC_ALWAYS</td>
 </tr>
 </table>
  

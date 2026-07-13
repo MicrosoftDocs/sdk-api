@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_PayloadOffset
 title: IRDPSRAPITransportStreamBuffer::put_PayloadOffset (rdpencomapi.h)
-description: Specifies the location in the stream buffer where the content starts.
+description: Specifies the location in the stream buffer where the content starts. (Put)
 helpviewer_keywords: ["IRDPSRAPITransportStreamBuffer interface [RDP]","PayloadOffset property","IRDPSRAPITransportStreamBuffer.PayloadOffset","IRDPSRAPITransportStreamBuffer.put_PayloadOffset","IRDPSRAPITransportStreamBuffer::PayloadOffset","IRDPSRAPITransportStreamBuffer::get_PayloadOffset","IRDPSRAPITransportStreamBuffer::put_PayloadOffset","PayloadOffset property [RDP]","PayloadOffset property [RDP]","IRDPSRAPITransportStreamBuffer interface","put_PayloadOffset","rdp.irdpsrapitransportstreambuffer_payloadoffset","rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadOffset","rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadOffset","rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadOffset"]
 old-location: rdp\irdpsrapitransportstreambuffer_payloadoffset.htm
 tech.root: rdp

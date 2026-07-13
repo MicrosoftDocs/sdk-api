@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsControllerPort.QueryAssociatedLuns
 title: IVdsControllerPort::QueryAssociatedLuns (vdshwprv.h)
-description: Returns an enumeration of the LUNs with which the controller port is associated�the LUNs for which the controller is active. This method replaces IVdsController::QueryAssociatedLuns.
+description: The IVdsControllerPort::QueryAssociatedLuns (vdshwprv.h) method returns an enumeration of the LUNs with which the controller port is associated.
 helpviewer_keywords: ["IVdsControllerPort interface [VDS]","QueryAssociatedLuns method","IVdsControllerPort.QueryAssociatedLuns","IVdsControllerPort::QueryAssociatedLuns","QueryAssociatedLuns","QueryAssociatedLuns method [VDS]","QueryAssociatedLuns method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_queryassociatedluns","vds/IVdsControllerPort::QueryAssociatedLuns","vdshwprv/IVdsControllerPort::QueryAssociatedLuns"]
 old-location: base\ivdscontrollerport_queryassociatedluns.htm
 tech.root: base
 ms.assetid: 062b820e-f384-4c2e-a2f7-c90748c74976
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsControllerPort interface [VDS],QueryAssociatedLuns method, IVdsControllerPort.QueryAssociatedLuns, IVdsControllerPort::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_queryassociatedluns, vds/IVdsControllerPort::QueryAssociatedLuns, vdshwprv/IVdsControllerPort::QueryAssociatedLuns
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an enumeration of the LUNs with which the controller port is associated—the 
    LUNs for which the controller is active. This method replaces 
@@ -75,7 +75,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ The enumeration of associated LUNs was successfully returned. If the controller 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -104,7 +104,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -116,7 +116,7 @@ The controller port object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_STATUS_FAILED</b></b></dt>
+<dt><b>VDS_E_OBJECT_STATUS_FAILED</b></dt>
 <dt>0x80042431L</dt>
 </dl>
 </td>
@@ -128,7 +128,7 @@ The controller port is in a failed state and is unable to perform the requested 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>
@@ -140,7 +140,7 @@ Another operation is in progress. This operation cannot proceed until previous o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 <dt>0x80042400L</dt>
 </dl>
 </td>

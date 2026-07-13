@@ -54,7 +54,7 @@ ms.custom: 19H1
 This operator returns the address of a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a> structure that contains  the data from the <a href="/previous-versions/windows/desktop/legacy/jj151694(v=vs.85)">CD3D11_TEXTURE1D_DESC</a> instance.
 
 
-## -parameters
+
 
 
 

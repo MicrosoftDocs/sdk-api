@@ -56,7 +56,7 @@ The <b>NAPI_PROVIDER_TYPE</b> enumeration specifies the type of hosting expected
 
 ## -enum-fields
 
-### -field ProviderType_Application
+### -field ProviderType_Application:1
 
 The namespace provider is expected to be hosted by an application. There may be multiple namespace providers of type <b>ProviderType_Application</b> running at the same time on a local system. 
 
@@ -68,7 +68,7 @@ The namespace provider is expected to be hosted by a service. This hosting model
 
 ## -remarks
 
-This enumeration is supported on Windows Vistaand later.
+This enumeration is supported on Windows Vista and later.
 
 On  Windows Vista and Windows Server 2008, the <b>NAPI_PROVIDER_TYPE</b> enumeration applies only to NS_EMAIL namespace providers. Windows Vista and Windows Server 2008 currently support only namespace providers of type <b>ProviderType_Application</b> providers. On  Windows Vista and Windows Server 2008, this value should always be set to <b>ProviderType_Application</b>.
 

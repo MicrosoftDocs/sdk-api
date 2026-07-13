@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-service-core-l1-1-5.dll
+ - api-ms-win-service-core-l1-1-4.dll
+ - api-ms-win-service-core-l1-1-3.dll
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - sechost.dll
@@ -125,11 +129,15 @@ A service can call this function only after it has called
 If a service calls 
 <b>SetServiceStatus</b> with the <b>dwCurrentState</b> member set to SERVICE_STOPPED and the <b>dwWin32ExitCode</b> member set to a nonzero value, the following entry is written into the System event log:
 
-<pre class="syntax" xml:space="preserve"><code>   Event ID    = 7023
+
+``` syntax
+   Event ID    = 7023
    Source      = Service Control Manager
    Type        = Error
-   Description = &lt;ServiceName&gt; terminated with the following error:
-                 &lt;ExitCode&gt;.</code></pre>
+   Description = <ServiceName> terminated with the following error:
+                 <ExitCode>.
+```
+
 The following are best practices when calling this function:
 
 <ul>

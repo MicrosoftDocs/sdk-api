@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_FindString","ComboBox_FindString macro [Windows 
 old-location: controls\ComboBox_FindString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_findstring.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_FindString, ComboBox_FindString macro [Windows Controls], _win32_ComboBox_FindString, _win32_ComboBox_FindString_cpp, controls.ComboBox_FindString, controls._win32_ComboBox_FindString, windowsx/ComboBox_FindString
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ComboBox_FindString macro
+
+## -syntax
+
+```cpp
+int ComboBox_FindString(
+   HWND    hwndCtl,
+   int     indexStart,
+   LPCTSTR lpszFind
+);
+```
+
+## -returns
+
+Type: **int**
+
+The index of the matching item, or CB_ERR if the search was unsuccessful.
 
 
 ## -description

@@ -60,7 +60,7 @@ Contains information about a character set.
 
 ### -field ciCharset
 
-Character set value.
+Character set value. For a list of possible values, see *lfCharSet* field of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfontw">LOGFONT structure</a>.
 
 ### -field ciACP
 
@@ -74,14 +74,10 @@ A <a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a
 
 <a href="/windows/desktop/Intl/code-pages">Code Pages</a>
 
-
-
 <a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
 
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logfontw">LOGFONT</a>
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-translatecharsetinfo">TranslateCharsetInfo</a>
-
-
 
 <a href="/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>

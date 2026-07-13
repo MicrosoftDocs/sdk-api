@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIObjectPropertiesW
 title: OleUIObjectPropertiesW function (oledlg.h)
-description: Invokes the Object Properties dialog box, which displays General, View, and Link information about an object.
-helpviewer_keywords: ["OleUIObjectProperties","OleUIObjectProperties function [COM]","OleUIObjectPropertiesA","OleUIObjectPropertiesW","_ole_OleUIObjectProperties","com.oleuiobjectproperties","oledlg/OleUIObjectProperties","oledlg/OleUIObjectPropertiesA","oledlg/OleUIObjectPropertiesW"]
+description: Invokes the Object Properties dialog box, which displays General, View, and Link information about an object. (Unicode)
+helpviewer_keywords: ["OleUIObjectProperties", "OleUIObjectProperties function [COM]", "OleUIObjectPropertiesW", "_ole_OleUIObjectProperties", "com.oleuiobjectproperties", "oledlg/OleUIObjectProperties", "oledlg/OleUIObjectPropertiesW"]
 old-location: com\oleuiobjectproperties.htm
 tech.root: com
 ms.assetid: 591f6056-2e5f-4e58-8806-9a0093de2463
@@ -588,7 +588,7 @@ The <i>lpLinkInfo</i> value is <b>NULL</b> or the calling process doesn't have r
 
 
 > [!NOTE]
-> The oledlg.h header defines OleUIObjectProperties as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OleUIObjectProperties as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

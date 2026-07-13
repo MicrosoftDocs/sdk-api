@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateRectangleGeometry(constD2D1_RECT_F&,ID2D1RectangleGeometry)
 title: ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F &,ID2D1RectangleGeometry) (d2d1.h)
-description: Creates an ID2D1RectangleGeometry.
+description: Creates an ID2D1RectangleGeometry. (overload 2/2)
 helpviewer_keywords: ["CreateRectangleGeometry","CreateRectangleGeometry method [Direct2D]","CreateRectangleGeometry method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateRectangleGeometry method","ID2D1Factory.CreateRectangleGeometry","ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F &","ID2D1RectangleGeometry)","ID2D1Factory::CreateRectangleGeometry","ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F &","ID2D1RectangleGeometry)","d2d1/ID2D1Factory::CreateRectangleGeometry","direct2d.ID2D1Factory_CreateRectangleGeometry_ref_D2D_RECT_F_ptr_ptr_ID2D1RectangleGeometry"]
 old-location: direct2d\ID2D1Factory_CreateRectangleGeometry_ref_D2D_RECT_F_ptr_ptr_ID2D1RectangleGeometry.htm
 tech.root: Direct2D
@@ -67,7 +67,7 @@ When this method returns, contains the address of the pointer to the rectangle g
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 

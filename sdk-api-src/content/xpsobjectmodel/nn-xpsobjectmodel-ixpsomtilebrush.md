@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMTileBrush interface
 
-
 ## -description
 
 A tile brush uses a  visual image to paint a region by repeating the image. 
@@ -56,10 +55,7 @@ This is the base interface of <a href="/windows/desktop/api/xpsobjectmodel/nn-xp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMTileBrush</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>. <b>IXpsOMTileBrush</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXpsOMTileBrush</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>. <b>IXpsOMTileBrush</b> also has these types of members:
 
 ## -remarks
 
@@ -95,4 +91,4 @@ The next illustration shows the tile modes that are used to repeat the tile imag
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Version
 title: ITPluggableTerminalClassRegistration::get_Version (termmgr.h)
-description: The get_Version method gets the terminal version.
+description: The get_Version method gets the terminal version. (ITPluggableTerminalClassRegistration.get_Version)
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Version method","ITPluggableTerminalClassRegistration.get_Version","ITPluggableTerminalClassRegistration::get_Version","_tapi3_itpluggableterminalclassregistration_get_version","get_Version","get_Version method [TAPI 2.2]","get_Version method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_version","termmgr/ITPluggableTerminalClassRegistration::get_Version"]
 old-location: tapi3\itpluggableterminalclassregistration_get_version.htm
 tech.root: tapi3
@@ -62,7 +62,7 @@ The <b>BSTR</b> representation of the terminal version. The <b>BSTR</b> is alloc
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

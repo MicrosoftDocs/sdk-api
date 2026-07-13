@@ -1,8 +1,8 @@
 ---
 UID: NF:sddl.ConvertSecurityDescriptorToStringSecurityDescriptorW
 title: ConvertSecurityDescriptorToStringSecurityDescriptorW function (sddl.h)
-description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor.
-helpviewer_keywords: ["ConvertSecurityDescriptorToStringSecurityDescriptor","ConvertSecurityDescriptorToStringSecurityDescriptor function [Security]","ConvertSecurityDescriptorToStringSecurityDescriptorA","ConvertSecurityDescriptorToStringSecurityDescriptorW","_win32_convertsecuritydescriptortostringsecuritydescriptor","sddl/ConvertSecurityDescriptorToStringSecurityDescriptor","sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA","sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW","security.convertsecuritydescriptortostringsecuritydescriptor"]
+description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor. (Unicode)
+helpviewer_keywords: ["ConvertSecurityDescriptorToStringSecurityDescriptor", "ConvertSecurityDescriptorToStringSecurityDescriptor function [Security]", "ConvertSecurityDescriptorToStringSecurityDescriptorW", "_win32_convertsecuritydescriptortostringsecuritydescriptor", "sddl/ConvertSecurityDescriptorToStringSecurityDescriptor", "sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW", "security.convertsecuritydescriptortostringsecuritydescriptor"]
 old-location: security\convertsecuritydescriptortostringsecuritydescriptor.htm
 tech.root: security
 ms.assetid: 36140833-8e30-4c32-a88a-c10751b6c223
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - sechost.dll
@@ -158,7 +159,7 @@ If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is not set in th
 
 
 > [!NOTE]
-> The sddl.h header defines ConvertSecurityDescriptorToStringSecurityDescriptor as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sddl.h header defines ConvertSecurityDescriptorToStringSecurityDescriptor as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

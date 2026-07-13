@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumMoniker.Clone
 title: IEnumMoniker::Clone (objidl.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumMoniker.Clone)
 helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumMoniker interface","IEnumMoniker interface [COM]","Clone method","IEnumMoniker.Clone","IEnumMoniker::Clone","_ole_ienummoniker_clone","com.ienummoniker_clone","objidl/IEnumMoniker::Clone"]
 old-location: com\ienummoniker_clone.htm
 tech.root: com

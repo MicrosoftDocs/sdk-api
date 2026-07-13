@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAttributeIndices","GetAttributeIndices method [windows
 old-location: wmformat\iwmheaderinfo3_getattributeindices.htm
 tech.root: wmformat
 ms.assetid: 15c8f0c2-f2d4-441a-b6a9-774da820d03c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAttributeIndices, GetAttributeIndices method [windows Media Format], GetAttributeIndices method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeIndices method, IWMHeaderInfo3.GetAttributeIndices, IWMHeaderInfo3::GetAttributeIndices, IWMHeaderInfo3GetAttributeIndices, wmformat.iwmheaderinfo3_getattributeindices, wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAttributeIndices</b> method retrieves a list of valid attribute indices within specified parameters. You can retrieve indices for all attributes with the same name or for all attributes in a specified language. The indices found are for a single specific stream. Alternatively, you can retrieve the specified indices for the entire file.
 

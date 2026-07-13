@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IPipeDouble.Pull
 title: IPipeDouble::Pull (objidl.h)
-description: Retrieves data of the double integer type from the pipe source.
+description: The IPipeDouble::Pull method (objidl.h) retrieves data of the double integer type from the pipe source.
 helpviewer_keywords: ["IPipeDouble interface [COM]","Pull method","IPipeDouble.Pull","IPipeDouble::Pull","Pull","Pull method [COM]","Pull method [COM]","IPipeDouble interface","_com_ipipedouble_pull","com.ipipedouble_pull","objidlbase/IPipeDouble::Pull"]
 old-location: com\ipipedouble_pull.htm
 tech.root: com
 ms.assetid: 393e44fa-48fe-4a8d-b337-9b875129a502
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IPipeDouble interface [COM],Pull method, IPipeDouble.Pull, IPipeDouble::Pull, Pull, Pull method [COM], Pull method [COM],IPipeDouble interface, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
 req.header: objidl.h
 req.include-header: ObjIdl.h

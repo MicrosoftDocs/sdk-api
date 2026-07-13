@@ -72,14 +72,14 @@ This timeout can be set in the destination options by calling the <a href="/prev
 
 If the client is asking for progress, and the provider is reporting progress, the timeout interval will be restarted after each progress report.  For enumerations/subscribe/association, the interval is the maximum length before objects are delivered before it times out (subject to the progress comment).
 
-If a client performs an operation (such as an invoke) on a <a href="/previous-versions/windows/desktop/wmi_v2/gloss-c">CIM</a> session over Windows Remote Management, the operation can take longer than the operation timeout value if the target server is unreachable (for example, because of server outage, network outage, or an unexpected firewall exception). This excessive wait time occurs because the operation may be divided into suboperations for fetching schema information from the server, and the client continues continues the operation even if one or more of the schema fetch suboperations has been blocked by an unreachable server.
+If a client performs an operation (such as an invoke) on a <a href="/previous-versions/windows/desktop/wmi_v2/gloss-c">CIM</a> session over Windows Remote Management, the operation can take longer than the operation timeout value if the target server is unreachable (for example, because of server outage, network outage, or an unexpected firewall exception). This excessive wait time occurs because the operation may be divided into suboperations for fetching schema information from the server, and the client continues the operation even if one or more of the schema fetch suboperations has been blocked by an unreachable server.
 
 To mitigate this issue and get the client to report the results without an excessive wait time, try one or both of these steps:
 
 <ul>
 <li>
 Set the WinRM network delay time to a very low value by invoking the following command:
-<b>winrm set winrm/config/client @{NetworkDelayms="</b><i>DesiredValue</i><b>"}</b>where <i>DesiredValue</i> is the network delay value, in milliseconds. The lowest network delay that can be specified is 500 milliseconds.
+<b>winrm set winrm/config/client @{NetworkDelayms="</b><i>DesiredValue</i><b>"}</b> where <i>DesiredValue</i> is the network delay value, in milliseconds. The lowest network delay that can be specified is 500 milliseconds.
 
 The network delay value helps to account for network latency while reaching the target machine. If you set tiny network delay and operation timeout values, however, you might not be able to communicate with a target machine that takes a long time to reach. Also, a change in the network delay value affects the entire machine, not just one operation.
 

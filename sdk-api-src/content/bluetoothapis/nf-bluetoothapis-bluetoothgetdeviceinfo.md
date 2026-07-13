@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Bthprops.lib
-req.dll: Bthprops.dll
+req.dll: bthprops.cpl
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Bthprops.dll
+ - bthprops.cpl
  - BluetoothAPIs.dll
  - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
@@ -58,7 +58,7 @@ The <b>BluetoothGetDeviceInfo</b> function retrieves information about a remote 
 
 ### -param hRadio
 
-A handle to a local radio, obtained from a call to the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindfirstradio">BluetoothFindFirstRadio</a> or similar functions, or from a call to the <b>SetupDiEnumerateDeviceInterfaces</b> function.
+A handle to a local radio, obtained from a call to the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindfirstradio">BluetoothFindFirstRadio</a> or similar functions, or from a call to the <b>SetupDiEnumDeviceInterfaces</b> function.
 
 ### -param pbtdi
 

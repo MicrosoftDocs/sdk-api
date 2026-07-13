@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetRenderState
 title: IDirect3DDevice9::GetRenderState (d3d9helper.h)
-description: Retrieves a render-state value for a device.
+description: The IDirect3DDevice9::GetRenderState method (d3d9.h) retrieves a render-state value for a device.
 helpviewer_keywords: ["2d20be3d-5ba4-bf91-6270-0a3b1c346d9d","GetRenderState","GetRenderState method [Direct3D 9]","GetRenderState method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetRenderState method","IDirect3DDevice9.GetRenderState","IDirect3DDevice9::GetRenderState","d3d9helper/IDirect3DDevice9::GetRenderState","direct3d9.idirect3ddevice9__getrenderstate"]
 old-location: direct3d9\idirect3ddevice9__getrenderstate.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getrenderstate.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 2d20be3d-5ba4-bf91-6270-0a3b1c346d9d, GetRenderState, GetRenderState method [Direct3D 9], GetRenderState method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetRenderState method, IDirect3DDevice9.GetRenderState, IDirect3DDevice9::GetRenderState, d3d9helper/IDirect3DDevice9::GetRenderState, direct3d9.idirect3ddevice9__getrenderstate
 req.header: d3d9helper.h
 req.include-header: D3D9.h

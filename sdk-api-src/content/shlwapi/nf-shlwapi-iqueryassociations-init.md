@@ -56,21 +56,21 @@ Initializes the <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociati
 
 ### -param flags [in]
 
-Type: <b><a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a></b>
+Type: <b><a href="/windows/win32/shell/assocf_str">ASSOCF</a></b>
 
-A flag that specifies how the search is to be initialized. It is typically set to zero, but it can also take one of the following <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a> values. 
+A flag that specifies how the search is to be initialized. It is typically set to zero, but it can also take one of the following <a href="/windows/win32/shell/assocf_str">ASSOCF</a> values. 
 					
                     
 
 <ul>
 <li>
-<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_BYEXENAME</a>
+<a href="/windows/win32/shell/assocf_str">ASSOCF_INIT_BYEXENAME</a>
 </li>
 <li>
-<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_DEFAULTTOFOLDER</a>
+<a href="/windows/win32/shell/assocf_str">ASSOCF_INIT_DEFAULTTOFOLDER</a>
 </li>
 <li>
-<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_DEFAULTTOSTAR</a>
+<a href="/windows/win32/shell/assocf_str">ASSOCF_INIT_DEFAULTTOSTAR</a>
 </li>
 </ul>
 
@@ -102,7 +102,7 @@ An application's ProgID, such as <b>Word.Document.8</b>.
 
 #### Executable name
 
-The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="/windows/win32/shell/assocf_str">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 ### -param hkProgid [in, optional]
 
@@ -118,7 +118,7 @@ Type: <b>HWND</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

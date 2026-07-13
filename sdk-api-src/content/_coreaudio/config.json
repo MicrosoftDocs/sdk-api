@@ -13,7 +13,9 @@
     "spatialaudiometadata.h",
     "audiosessiontypes.h",
     "functiondiscoverykeys_devpkey.h",
-    "audioenginebaseapo.h"
+    "audioenginebaseapo.h",
+    "audioclientactivationparams.h",
+    "audiostatemonitorapi.h"
   ],
   "displayName": "Core Audio APIs"
 }

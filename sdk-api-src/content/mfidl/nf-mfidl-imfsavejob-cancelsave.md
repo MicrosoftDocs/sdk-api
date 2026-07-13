@@ -53,7 +53,7 @@ api_name:
 
 Cancels the operation started by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">IMFSaveJob::BeginSave</a>.
 
-## -parameters
+
 
 ## -returns
 

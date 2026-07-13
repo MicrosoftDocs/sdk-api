@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICGetDefaultQuality","ICGetDefaultQuality macro [Windows 
 old-location: multimedia\icgetdefaultquality.htm
 tech.root: Multimedia
 ms.assetid: dd88a141-5461-4725-83f9-c2ead3a3a2b6
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICGetDefaultQuality, ICGetDefaultQuality macro [Windows Multimedia], _win32_ICGetDefaultQuality, multimedia.icgetdefaultquality, vfw/ICGetDefaultQuality
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICGetDefaultQuality macro
+
+## -syntax
+
+```cpp
+DWORD ICGetDefaultQuality(
+     hic,
+     wParam
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the driver supports this message or ICERR_UNSUPPORTED otherwise.
 
 
 ## -description

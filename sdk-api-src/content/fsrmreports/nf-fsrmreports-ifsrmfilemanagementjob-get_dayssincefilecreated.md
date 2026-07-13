@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_DaysSinceFileCreated
 title: IFsrmFileManagementJob::get_DaysSinceFileCreated (fsrmreports.h)
-description: The number of days that have elapsed since the file was created.
+description: The number of days that have elapsed since the file was created. (Get)
 helpviewer_keywords: ["DaysSinceFileCreated property [File Server Resource Manager]","DaysSinceFileCreated property [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","DaysSinceFileCreated property","IFsrmFileManagementJob.DaysSinceFileCreated","IFsrmFileManagementJob.get_DaysSinceFileCreated","IFsrmFileManagementJob::DaysSinceFileCreated","IFsrmFileManagementJob::get_DaysSinceFileCreated","IFsrmFileManagementJob::put_DaysSinceFileCreated","fs.ifsrmfilemanagementjob_dayssincefilecreated","fsrm.ifsrmfilemanagementjob_dayssincefilecreated","fsrmreports/IFsrmFileManagementJob::DaysSinceFileCreated","fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileCreated","fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileCreated","get_DaysSinceFileCreated"]
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilecreated.htm
 tech.root: fsrm

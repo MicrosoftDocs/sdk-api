@@ -54,15 +54,12 @@ api_name:
 A pass interface encapsulates state assignments within a technique.
 
 The lifetime of an <b>ID3D10EffectPass</b> object is equal to the lifetime of its parent <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect</a> object.
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectPass</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-apply">Apply</a>
 </td>
@@ -71,7 +68,7 @@ Set the state contained in a pass to the device.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-computestateblockmask">ComputeStateBlockMask</a>
 </td>
@@ -80,7 +77,7 @@ Generate a mask for allowing/preventing state changes.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-getannotationbyindex">GetAnnotationByIndex</a>
 </td>
@@ -89,7 +86,7 @@ Get an annotation by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-getannotationbyname">GetAnnotationByName</a>
 </td>
@@ -98,7 +95,7 @@ Get an annotation by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-getdesc">GetDesc</a>
 </td>
@@ -107,7 +104,7 @@ Get a pass description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-getgeometryshaderdesc">GetGeometryShaderDesc</a>
 </td>
@@ -116,7 +113,7 @@ Get a geometry-shader description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-getpixelshaderdesc">GetPixelShaderDesc</a>
 </td>
@@ -125,7 +122,7 @@ Get a pixel-shader description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-getvertexshaderdesc">GetVertexShaderDesc</a>
 </td>
@@ -134,7 +131,7 @@ Get a vertex-shader description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpass-isvalid">IsValid</a>
 </td>

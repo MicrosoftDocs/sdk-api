@@ -4,7 +4,7 @@ title: IFilter::GetChunk (filter.h)
 description: Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the GetChunk method, and returns a description of the current chunk.
 helpviewer_keywords: ["GetChunk","GetChunk method [Indexing Service]","GetChunk method [Indexing Service]","IFilter interface","IFilter interface [Indexing Service]","GetChunk method","IFilter.GetChunk","IFilter::GetChunk","_idxs_IFilter_GetChunk","filter/IFilter::GetChunk","indexsrv.ifilter_getchunk"]
 old-location: indexsrv\ifilter_getchunk.htm
-tech.root: IndexSrv
+tech.root: search
 ms.assetid: VS|indexsrv|~\html\ixrefint_96gb.htm
 ms.date: 12/05/2018
 ms.keywords: GetChunk, GetChunk method [Indexing Service], GetChunk method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetChunk method, IFilter.GetChunk, IFilter::GetChunk, _idxs_IFilter_GetChunk, filter/IFilter::GetChunk, indexsrv.ifilter_getchunk
@@ -49,9 +49,6 @@ api_name:
 
 
 ## -description
-
-> [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the <b>GetChunk</b> method, and returns a description of the current chunk.
 

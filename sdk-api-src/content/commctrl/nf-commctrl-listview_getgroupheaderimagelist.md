@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetGroupHeaderImageList","ListView_GetGroupHeade
 old-location: controls\ListView_GetGroupHeaderImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupheaderimagelist.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetGroupHeaderImageList, ListView_GetGroupHeaderImageList macro [Windows Controls], _shell_ListView_GetGroupHeaderImageList, _shell_ListView_GetGroupHeaderImageList_cpp, commctrl/ListView_GetGroupHeaderImageList, controls.ListView_GetGroupHeaderImageList, controls._shell_ListView_GetGroupHeaderImageList
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetGroupHeaderImageList macro
+
+## -syntax
+
+```cpp
+HIMAGELIST ListView_GetGroupHeaderImageList(
+  [in] HWND hwnd
+);
+```
+
+## -returns
+
+Type: **HIMAGELIST**
+
+Returns the handle to the group header image list if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

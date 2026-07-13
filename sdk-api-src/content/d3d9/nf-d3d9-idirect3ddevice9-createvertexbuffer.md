@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateVertexBuffer
 title: IDirect3DDevice9::CreateVertexBuffer (d3d9.h)
-description: Creates a vertex buffer.
+description: The IDirect3DDevice9::CreateVertexBuffer method (d3d9.h) creates a vertex buffer.
 helpviewer_keywords: ["CreateVertexBuffer","CreateVertexBuffer method [Direct3D 9]","CreateVertexBuffer method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreateVertexBuffer method","IDirect3DDevice9.CreateVertexBuffer","IDirect3DDevice9::CreateVertexBuffer","d3d9helper/IDirect3DDevice9::CreateVertexBuffer","direct3d9.idirect3ddevice9__createvertexbuffer","f6027373-8860-696b-558e-21f53073f7c8"]
 old-location: direct3d9\idirect3ddevice9__createvertexbuffer.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createvertexbuffer.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CreateVertexBuffer, CreateVertexBuffer method [Direct3D 9], CreateVertexBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVertexBuffer method, IDirect3DDevice9.CreateVertexBuffer, IDirect3DDevice9::CreateVertexBuffer, d3d9helper/IDirect3DDevice9::CreateVertexBuffer, direct3d9.idirect3ddevice9__createvertexbuffer, f6027373-8860-696b-558e-21f53073f7c8
 req.header: d3d9.h
 req.include-header: D3D9.h

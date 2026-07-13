@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tagMIXERLINECONTROLSW
 title: MIXERLINECONTROLSW (mmeapi.h)
-description: The MIXERLINECONTROLS structure contains information about the controls of an audio line.
+description: The MIXERLINECONTROLS structure contains information about the controls of an audio line. (MIXERLINECONTROLSW)
 helpviewer_keywords: ["*LPMIXERLINECONTROLSW","*PMIXERLINECONTROLSW","MIXERLINECONTROLS","MIXERLINECONTROLS structure [Windows Multimedia]","MIXERLINECONTROLSW","_win32_MIXERLINECONTROLS_str","mmeapi/MIXERLINECONTROLS","multimedia.mixerlinecontrols","tMIXERLINECONTROLS","tagMIXERLINECONTROLSA","tagMIXERLINECONTROLSW"]
 old-location: multimedia\mixerlinecontrols.htm
 tech.root: Multimedia
@@ -112,4 +112,4 @@ Pointer to one or more <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontr
 ## -remarks
 
 > [!NOTE]
-> The mmeapi.h header defines MIXERLINECONTROLS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines MIXERLINECONTROLS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information associated with an <a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a> notification code. A rich edit control sends this notification to its parent window when the current selection changes.
+Contains information associated with an <a href="/windows/win32/controls/en-selchange">EN_SELCHANGE</a> notification code. A rich edit control sends this notification to its parent window when the current selection changes.
 
 ## -struct-fields
 
@@ -123,4 +123,4 @@ More than one COM object.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>
+<a href="/windows/win32/controls/en-selchange">EN_SELCHANGE</a>

@@ -53,7 +53,7 @@ Defines constants that specify the authentication scheme to use when a proxy or 
 
 ## -enum-fields
 
-### -field BG_AUTH_SCHEME_BASIC
+### -field BG_AUTH_SCHEME_BASIC:1
 
 <em>Basic</em> is a scheme in which the user name and password are sent in clear-text to the server or proxy.
 

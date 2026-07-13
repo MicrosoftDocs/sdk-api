@@ -53,7 +53,7 @@ api_name:
 
 The <b>Color::GetB</b> method gets the blue component of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
-## -parameters
+
 
 ## -returns
 

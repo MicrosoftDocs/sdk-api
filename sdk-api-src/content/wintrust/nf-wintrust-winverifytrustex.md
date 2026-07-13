@@ -47,10 +47,9 @@ api_name:
 
 # WinVerifyTrustEx function
 
-
 ## -description
 
-The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier.
 
 For certificate verification, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.
 
@@ -130,7 +129,7 @@ policy provider.
 </dl>
 </td>
 <td width="60%">
-Verify an SSL/TLS connection through Internet Explorer.
+Verify an SSL/TLS connection established by WinINet.
 
 </td>
 </tr>
@@ -208,6 +207,8 @@ The format of the structure depends on the action identifier. For information ab
 
 ## -returns
 
+Note, while the return type is declared as HRESULT this API returns Win32 error codes, do not use SUCCEEDED() or FAILED() to test the result.
+
 If the trust provider verifies that the subject is trusted for the specified action, the return value is ERROR_SUCCESS. Otherwise, the function returns a status code from the <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>.
 
 For example, a trust provider might indicate that the subject is not trusted, or is trusted but with limitations or warnings. The return value can be a trust provider–specific value described in the documentation for an individual trust provider, or it can be one of the following error codes.
@@ -226,7 +227,7 @@ For example, a trust provider might indicate that the subject is not trusted, or
 <td width="60%">
 The subject failed the specified verification action. Most trust providers return a more detailed error code that describes the reason for the failure.
 
-<div class="alert"><b>Note</b>  <p class="note">The <b>TRUST_E_SUBJECT_NOT_TRUSTED</b> return code may be returned depending on the value of the <b>EnableCertPaddingCheck</b> registry key under <b>HKLM\Software\Microsoft\Cryptography\Wintrust\Config</b>. If <b>EnableCertPaddingCheck</b> is set to "1", then an additional check is performed to verify that the <b>WIN_CERTIFICATE</b> structure does not contain extraneous information. The check validates that there is no non-zero data beyond the PKCS #7 structure. The <b>EnableCertPaddingCheck</b> key will be set to "1" by default on June 10, 2014. For more information, please refer to the following security advisory: <a href="/security-updates/SecurityAdvisories/2014/2915720">http://technet.microsoft.com/security/advisory/2915720#section1</a>.
+<div class="alert"><b>Note</b>  <p class="note">The <b>TRUST_E_SUBJECT_NOT_TRUSTED</b> return code may be returned depending on the value of the <b>EnableCertPaddingCheck</b> registry key under <b>HKLM\Software\Microsoft\Cryptography\Wintrust\Config</b>. If <b>EnableCertPaddingCheck</b> is set to "1", then an additional check is performed to verify that the <b>WIN_CERTIFICATE</b> structure does not contain extraneous information. The check validates that there is no non-zero data beyond the PKCS #7 structure. For more information, please refer to the following security advisory: <a href="/security-updates/SecurityAdvisories/2014/2915720">http://technet.microsoft.com/security/advisory/2915720#section1</a>.
 
 </div>
 <div> </div>

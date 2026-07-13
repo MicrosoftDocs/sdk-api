@@ -3,7 +3,7 @@ UID: NF:gdiplustypes.SizeF.operator-sub
 title: SizeF::operator-
 ms.date: 11/4/2019
 targetos: Windows
-description: Subtraction operator for the [**SizeF**](./nl-gdiplustypes-sizef.md) class.
+description: Subtraction operator for the [**SizeF**](../gdiplustypes/nl-gdiplustypes-sizef.md) class.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -18,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

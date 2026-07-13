@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsLFNFileSpecA
 title: PathIsLFNFileSpecA function (shlwapi.h)
-description: Determines whether a file name is in long format.
-helpviewer_keywords: ["PathIsLFNFileSpec","PathIsLFNFileSpec function [Windows Shell]","PathIsLFNFileSpecA","PathIsLFNFileSpecW","_win32_PathIsLFNFileSpec","shell.PathIsLFNFileSpec","shlwapi/PathIsLFNFileSpec","shlwapi/PathIsLFNFileSpecA","shlwapi/PathIsLFNFileSpecW"]
+description: Determines whether a file name is in long format. (ANSI)
+helpviewer_keywords: ["PathIsLFNFileSpecA", "shlwapi/PathIsLFNFileSpecA"]
 old-location: shell\PathIsLFNFileSpec.htm
 tech.root: shell
 ms.assetid: 599cb457-da72-4416-bfb7-5bc55a0eeb2d
@@ -79,4 +79,4 @@ Returns <b>TRUE</b> if <i>pszName</i> exceeds the number of characters allowed b
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathIsLFNFileSpec as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathIsLFNFileSpec as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

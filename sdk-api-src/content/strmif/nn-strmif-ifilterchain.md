@@ -6,7 +6,7 @@ helpviewer_keywords: ["IFilterChain","IFilterChain interface [DirectShow]","IFil
 old-location: dshow\ifilterchain.htm
 tech.root: dshow
 ms.assetid: 04fa1e89-19cd-488e-9df2-8a5fd2c3f445
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IFilterChain, IFilterChain interface [DirectShow], IFilterChain interface [DirectShow],described, IFilterChainInterface, dshow.ifilterchain, strmif/IFilterChain
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IFilterChain</code> interface provides methods for starting, stopping, or removing chains of filters in a filter graph. The filter graph manager exposes this interface.
 
 A <i>filter chain</i> is a sequence of filters, each with at most one connected input pin and one connected output pin, that forms an unbroken line of filters. A filter chain is defined by the filter at the start of the chain and the filter at the end of the chain. (These can be the same filter, making a chain of one filter.) By definition, there is a single stream path going from the start of the chain downstream to the end of the chain.
@@ -59,8 +61,5 @@ The methods on this interface are useful in situations where an entire stream of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterChain</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterChain</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFilterChain</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterChain</b> also has these types of members:
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetClientInfo
 title: DhcpV4GetClientInfo function (dhcpsapi.h)
-description: Retrieves DHCP client lease record information from the DHCP server database.
+description: Retrieves DHCP client lease record information from the DHCP server database. (DhcpV4GetClientInfo)
 helpviewer_keywords: ["DhcpV4GetClientInfo","DhcpV4GetClientInfo function [DHCP]","dhcp.dhcpv4getclientinfo","dhcpsapi/DhcpV4GetClientInfo"]
 old-location: dhcp\dhcpv4getclientinfo.htm
 tech.root: DHCP

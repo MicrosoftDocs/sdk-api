@@ -4,7 +4,8 @@ title: Winnls32.h header
 ms.assetid: 9d85d13a-e95a-3710-b362-a95c1cb893e6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: winprog
 f1_keywords:
  - winnls32

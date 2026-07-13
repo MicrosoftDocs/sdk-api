@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllSettingsWithNotify
 title: ICodecAPI::SetAllSettingsWithNotify (strmif.h)
-description: The SetAllSettingsWithNotify method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed.
+description: The SetAllSettingsWithNotify method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed. (ICodecAPI.SetAllSettingsWithNotify)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllSettingsWithNotify method","ICodecAPI.SetAllSettingsWithNotify","ICodecAPI::SetAllSettingsWithNotify","ICodecAPISetAllSettingsWithNotify","SetAllSettingsWithNotify","SetAllSettingsWithNotify method [DirectShow]","SetAllSettingsWithNotify method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setallsettingswithnotify","strmif/ICodecAPI::SetAllSettingsWithNotify"]
 old-location: dshow\icodecapi_setallsettingswithnotify.htm
 tech.root: dshow
 ms.assetid: 30f840d1-4c73-4a76-ba0b-c04f2901ad76
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettingsWithNotify method, ICodecAPI.SetAllSettingsWithNotify, ICodecAPI::SetAllSettingsWithNotify, ICodecAPISetAllSettingsWithNotify, SetAllSettingsWithNotify, SetAllSettingsWithNotify method [DirectShow], SetAllSettingsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettingswithnotify, strmif/ICodecAPI::SetAllSettingsWithNotify
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetAllSettingsWithNotify</b> method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed.
 

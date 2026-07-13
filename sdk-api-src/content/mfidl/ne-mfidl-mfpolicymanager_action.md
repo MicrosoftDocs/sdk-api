@@ -56,39 +56,39 @@ Defines actions that can be performed on a stream.
 
 ## -enum-fields
 
-### -field PEACTION_NO
+### -field PEACTION_NO:0
 
 No action.
 
-### -field PEACTION_PLAY
+### -field PEACTION_PLAY:1
 
 Play the stream.
 
-### -field PEACTION_COPY
+### -field PEACTION_COPY:2
 
 Copy the stream.
 
-### -field PEACTION_EXPORT
+### -field PEACTION_EXPORT:3
 
 Export the stream to another format.
 
-### -field PEACTION_EXTRACT
+### -field PEACTION_EXTRACT:4
 
 Extract the data from the stream and pass it to the application. For example, acoustic echo cancellation requires this action.
 
-### -field PEACTION_RESERVED1
+### -field PEACTION_RESERVED1:5
 
 Reserved.
 
-### -field PEACTION_RESERVED2
+### -field PEACTION_RESERVED2:6
 
 Reserved.
 
-### -field PEACTION_RESERVED3
+### -field PEACTION_RESERVED3:7
 
 Reserved.
 
-### -field PEACTION_LAST
+### -field PEACTION_LAST:7
 
 Last member of the enumeration.
 

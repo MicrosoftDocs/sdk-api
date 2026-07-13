@@ -54,10 +54,7 @@ Provides a method that enables an <a href="/windows/desktop/api/shobjidl_core/nn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExecuteCommandHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExecuteCommandHost</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IExecuteCommandHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExecuteCommandHost</b> also has these types of members:
 
 ## -remarks
 
@@ -65,4 +62,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExecuteCommandHost</b> inter
 A software component (either an OS component or an application) taat can launch a dual-mode application such as a browser should implement this interface. The interface should be implemented on an object that can be reached through the site chain provided to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> or the context menu and retrieved through the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">IServiceProvider::QueryService</a> method.
 
 <h3><a id="When_to_use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to use</h3>
-Typically, an application that is capable of launching as both a desktop application and a Windows Store app app will use this interface to query which mode the host is currently in. The application can then launch in the UI mode that is compatible with the host.
+Typically, an application that is capable of launching as both a desktop application and a Windows Store app will use this interface to query which mode the host is currently in. The application can then launch in the UI mode that is compatible with the host.

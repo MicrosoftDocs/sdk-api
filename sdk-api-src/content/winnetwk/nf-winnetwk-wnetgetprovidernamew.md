@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetProviderNameW
 title: WNetGetProviderNameW function (winnetwk.h)
-description: The WNetGetProviderName function obtains the provider name for a specific type of network.
-helpviewer_keywords: ["WNetGetProviderName","WNetGetProviderName function [Windows Networking (WNet)]","WNetGetProviderNameA","WNetGetProviderNameW","_win32_wnetgetprovidername","winnetwk/WNetGetProviderName","winnetwk/WNetGetProviderNameA","winnetwk/WNetGetProviderNameW","wnet.wnetgetprovidername"]
+description: The WNetGetProviderName function obtains the provider name for a specific type of network. (Unicode)
+helpviewer_keywords: ["WNetGetProviderName", "WNetGetProviderName function [Windows Networking (WNet)]", "WNetGetProviderNameW", "_win32_wnetgetprovidername", "winnetwk/WNetGetProviderName", "winnetwk/WNetGetProviderNameW", "wnet.wnetgetprovidername"]
 old-location: wnet\wnetgetprovidername.htm
 tech.root: WNet
 ms.assetid: c1369098-c574-4d5f-8051-ca5aa548e63f
@@ -151,4 +151,4 @@ The <i>lpProviderName</i> parameter or the <i>lpBufferSize</i> parameter is inva
 ## -remarks
 
 > [!NOTE]
-> The winnetwk.h header defines WNetGetProviderName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetGetProviderName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

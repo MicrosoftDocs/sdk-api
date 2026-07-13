@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.__unnamed_struct_0
+UID: NS:dsclient.DSOBJECT
 title: DSOBJECT (dsclient.h)
 description: Contains directory object data.
 helpviewer_keywords: ["*LPDSOBJECT","DSOBJECT","DSOBJECT structure [Active Directory]","DSOBJECT_ISCONTAINER","DSOBJECT_READONLYPAGES","DSPROVIDER_ADVANCED","DSPROVIDER_UNUSED_0","DSPROVIDER_UNUSED_1","DSPROVIDER_UNUSED_2","DSPROVIDER_UNUSED_3","LPDSOBJECT","LPDSOBJECT structure pointer [Active Directory]","_glines_dsobject","ad.dsobject","dsclient/DSOBJECT","dsclient/LPDSOBJECT"]
@@ -139,3 +139,4 @@ pwszClass = (LPWSTR)((LPBYTE)pdsObjNames +
 
 
 <a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
+

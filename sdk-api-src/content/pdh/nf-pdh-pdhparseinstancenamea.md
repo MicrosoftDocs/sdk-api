@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhParseInstanceNameA
 title: PdhParseInstanceNameA function (pdh.h)
-description: Parses the elements of an instance string.
-helpviewer_keywords: ["PdhParseInstanceName","PdhParseInstanceName function [Perf]","PdhParseInstanceNameA","PdhParseInstanceNameW","_win32_pdhparseinstancename","base.pdhparseinstancename","pdh/PdhParseInstanceName","pdh/PdhParseInstanceNameA","pdh/PdhParseInstanceNameW","perf.pdhparseinstancename"]
+description: Parses the elements of an instance string. (ANSI)
+helpviewer_keywords: ["PdhParseInstanceNameA", "pdh/PdhParseInstanceNameA"]
 old-location: perf\pdhparseinstancename.htm
 tech.root: perf
 ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
@@ -148,7 +148,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 > [!NOTE]
-> The pdh.h header defines PdhParseInstanceName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhParseInstanceName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

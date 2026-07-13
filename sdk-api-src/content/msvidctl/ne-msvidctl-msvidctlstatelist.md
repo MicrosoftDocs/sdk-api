@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Windows XP or later.
         
 
@@ -59,7 +61,7 @@ The <b>MSVidCtlStateList</b> enumeration defines the possible state values of th
 
 ## -enum-fields
 
-### -field STATE_UNBUILT
+### -field STATE_UNBUILT:-1
 
 Indicates that there is no filter graph.
 

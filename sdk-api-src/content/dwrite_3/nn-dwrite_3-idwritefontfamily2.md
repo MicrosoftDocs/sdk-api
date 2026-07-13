@@ -4,7 +4,7 @@ title: IDWriteFontFamily2
 description: Represents a family of related fonts. **IDWriteFontFamily2** adds new facilities, including retrieving fonts by font axis values.
 helpviewer_keywords: ["IDWriteFontFamily2","IDWriteFontFamily2 interface [Direct Write]","IDWriteFontFamily2 interface [Direct Write]","described","directwrite.idwritefontfamily2","dwrite_3/IDWriteFontFamily2"]
 tech.root: DirectWrite
-ms.date: 09/13/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontFamily2, IDWriteFontFamily2 interface [Direct Write], IDWriteFontFamily2 interface [Direct Write],described, directwrite.idwritefontfamily2, dwrite_3/IDWriteFontFamily2
 targetos: Windows
 req.assembly: 
@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_34
+UID: NE:webservices.WS_HEAP_PROPERTY_ID
 title: WS_HEAP_PROPERTY_ID (webservices.h)
 description: Each heap property is identified by an ID and has an associated value.
 helpviewer_keywords: ["WS_HEAP_PROPERTY_ACTUAL_SIZE","WS_HEAP_PROPERTY_ID","WS_HEAP_PROPERTY_ID enumeration [Web Services for Windows]","WS_HEAP_PROPERTY_MAX_SIZE","WS_HEAP_PROPERTY_REQUESTED_SIZE","WS_HEAP_PROPERTY_TRIM_SIZE","webservices/WS_HEAP_PROPERTY_ACTUAL_SIZE","webservices/WS_HEAP_PROPERTY_ID","webservices/WS_HEAP_PROPERTY_MAX_SIZE","webservices/WS_HEAP_PROPERTY_REQUESTED_SIZE","webservices/WS_HEAP_PROPERTY_TRIM_SIZE","wsw.ws_heap_property_id"]
@@ -54,14 +54,14 @@ Each heap property is identified by an ID and has an associated value.
 
 ## -enum-fields
 
-### -field WS_HEAP_PROPERTY_MAX_SIZE
+### -field WS_HEAP_PROPERTY_MAX_SIZE:0
 
 Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheapproperty">WsGetHeapProperty</a>.  Returns
                     the total number of bytes that can be allocated from the heap.  The total
                     number of bytes is defined as sum of the sizes passed in all the calls to
                     <a href="/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a> since the heap was created / reset.
 
-### -field WS_HEAP_PROPERTY_TRIM_SIZE
+### -field WS_HEAP_PROPERTY_TRIM_SIZE:1
 
 Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheapproperty">WsGetHeapProperty</a>.  
                     Returns the maximum number of bytes of memory that the heap will
@@ -70,14 +70,15 @@ Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheapprop
                     trim size is larger than the max size, then the size of the
                     heap will not be trimmed.
 
-### -field WS_HEAP_PROPERTY_REQUESTED_SIZE
+### -field WS_HEAP_PROPERTY_REQUESTED_SIZE:2
 
 Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheapproperty">WsGetHeapProperty</a>.  Returns the current 
                     total number of bytes requested from the heap since the heap was 
                     created/reset.
 
-### -field WS_HEAP_PROPERTY_ACTUAL_SIZE
+### -field WS_HEAP_PROPERTY_ACTUAL_SIZE:3
 
 Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheapproperty">WsGetHeapProperty</a>.  Returns the current
                     total number of bytes that the WS_HEAP has allocated from the
                     operating system for purposes of providing allocations.
+

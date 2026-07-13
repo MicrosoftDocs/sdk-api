@@ -1,5 +1,5 @@
 ---
-UID: NS:ws2atm.__unnamed_struct_2
+UID: NS:ws2atm.ATM_BHLI
 title: ATM_BHLI (ws2atm.h)
 description: The ATM_BHLI structure is used to identify B-HLI information for an associated ATM socket.
 helpviewer_keywords: ["ATM_BHLI","ATM_BHLI structure [Winsock]","ATM_BHLI_IE","_win32_atm_bhli_2","winsock.atm_bhli_2","ws2atm/ATM_BHLI"]
@@ -97,3 +97,4 @@ The following are the manifest constants associated with the
 
 
 <a href="/windows/desktop/api/ws2atm/ns-ws2atm-sockaddr_atm">sockaddr_atm</a>
+

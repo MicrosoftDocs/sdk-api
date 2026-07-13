@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAIsBlocking
 title: WSAIsBlocking function (winsock2.h)
-description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
+description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0. (WSAIsBlocking)
 helpviewer_keywords: ["WSAIsBlocking","WSAIsBlocking function [Winsock]","_win32_wsaisblocking_2","winsock.wsaisblocking_2","winsock2/WSAIsBlocking"]
 old-location: winsock\wsaisblocking_2.htm
 tech.root: WinSock
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Ws2_32.lib
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -57,7 +57,7 @@ The Windows Socket
 
 Blocking hooks are generally used to keep a single-threaded GUI application responsive during calls to blocking functions. Instead of using blocking hooks, an applications should use a separate thread (separate from the main GUI thread) for network activity.
 
-## -parameters
+
 
 ## -see-also
 

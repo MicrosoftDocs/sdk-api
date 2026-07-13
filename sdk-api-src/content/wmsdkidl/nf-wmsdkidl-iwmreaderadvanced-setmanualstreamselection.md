@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReaderAdvanced interface [windows Media Format]","SetM
 old-location: wmformat\iwmreaderadvanced_setmanualstreamselection.htm
 tech.root: wmformat
 ms.assetid: 6950b26c-1763-4578-ab5c-0ea29d3d77f1
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetManualStreamSelection method, IWMReaderAdvanced.SetManualStreamSelection, IWMReaderAdvanced::SetManualStreamSelection, IWMReaderAdvancedSetManualStreamSelection, SetManualStreamSelection, SetManualStreamSelection method [windows Media Format], SetManualStreamSelection method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setmanualstreamselection, wmsdkidl/IWMReaderAdvanced::SetManualStreamSelection
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetManualStreamSelection</b> method specifies whether stream selection is to be controlled manually. Stream selection applies to outputs associated with mutually exclusive streams. Under normal circumstances, the reader will select the most appropriate stream for an output at time of playback.
 

@@ -56,11 +56,11 @@ api_name:
 
 ## -enum-fields
 
-### -field EapCodeMinimum
+### -field EapCodeMinimum:1
 
 The lowest possible value for an EAP packet type code.
 
-### -field EapCodeRequest
+### -field EapCodeRequest:1
 
 A request packet sent by the authenticator to the supplicant.
 

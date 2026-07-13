@@ -53,7 +53,7 @@ api_name:
 
 Get the scale for inverse transforms.
 
-## -parameters
+
 
 ## -returns
 

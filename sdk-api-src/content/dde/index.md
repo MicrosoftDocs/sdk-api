@@ -4,7 +4,8 @@ title: Dde.h header
 ms.assetid: 77e18292-6ac5-3b48-bc99-37dd2d14f9ca
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: dataxchg
 f1_keywords:
  - dde

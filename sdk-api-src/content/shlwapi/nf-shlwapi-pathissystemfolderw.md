@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsSystemFolderW
 title: PathIsSystemFolderW function (shlwapi.h)
-description: Determines if an existing folder contains the attributes that make it a system folder. Alternately, this function indicates if certain attributes qualify a folder to be a system folder.
-helpviewer_keywords: ["PathIsSystemFolder","PathIsSystemFolder function [Windows Shell]","PathIsSystemFolderA","PathIsSystemFolderW","_win32_PathIsSystemFolder","shell.PathIsSystemFolder","shlwapi/PathIsSystemFolder","shlwapi/PathIsSystemFolderA","shlwapi/PathIsSystemFolderW"]
+description: Determines if an existing folder contains the attributes that make it a system folder. Alternately, this function indicates if certain attributes qualify a folder to be a system folder. (Unicode)
+helpviewer_keywords: ["PathIsSystemFolder", "PathIsSystemFolder function [Windows Shell]", "PathIsSystemFolderW", "_win32_PathIsSystemFolder", "shell.PathIsSystemFolder", "shlwapi/PathIsSystemFolder", "shlwapi/PathIsSystemFolderW"]
 old-location: shell\PathIsSystemFolder.htm
 tech.root: shell
 ms.assetid: 796901a8-1bc1-4fd1-b5b8-acd8f930ff14
@@ -77,4 +77,4 @@ Returns nonzero if the <i>pszPath</i> or <i>dwAttrb</i> represent a system folde
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines PathIsSystemFolder as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathIsSystemFolder as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

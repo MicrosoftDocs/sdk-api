@@ -56,19 +56,19 @@ Defines how the Task Scheduler handles  existing instances of the task when it s
 
 ## -enum-fields
 
-### -field TASK_INSTANCES_PARALLEL
+### -field TASK_INSTANCES_PARALLEL:0
 
 Starts new instance while an existing instance is running.
 
-### -field TASK_INSTANCES_QUEUE
+### -field TASK_INSTANCES_QUEUE:1
 
 Starts a new instance of the task after all other instances of the task are complete.
 
-### -field TASK_INSTANCES_IGNORE_NEW
+### -field TASK_INSTANCES_IGNORE_NEW:2
 
 Does not start a new instance if an existing instance of the task is running.
 
-### -field TASK_INSTANCES_STOP_EXISTING
+### -field TASK_INSTANCES_STOP_EXISTING:3
 
 Stops an existing instance of the task before it starts a new instance.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.RealGetWindowClassW
 title: RealGetWindowClassW function (winuser.h)
-description: Retrieves a string that specifies the window type.
-helpviewer_keywords: ["RealGetWindowClass","RealGetWindowClass function [Windows and Messages]","RealGetWindowClassW","_win32_RealGetWindowClass","_win32_realgetwindowclass_cpp","winmsg.realgetwindowclass","winui._win32_realgetwindowclass","winuser/RealGetWindowClass","winuser/RealGetWindowClassW"]
+description: Retrieves a string that specifies the window type. (Unicode)
+helpviewer_keywords: ["RealGetWindowClass", "RealGetWindowClass function [Windows and Messages]", "RealGetWindowClassW", "_win32_RealGetWindowClass", "_win32_realgetwindowclass_cpp", "winmsg.realgetwindowclass", "winui._win32_realgetwindowclass", "winuser/RealGetWindowClass", "winuser/RealGetWindowClassW"]
 old-location: winmsg\realgetwindowclass.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\realgetwindowclass.htm
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll

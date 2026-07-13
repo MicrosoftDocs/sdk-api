@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_SetItemExtra","TabCtrl_SetItemExtra macro [Window
 old-location: controls\TabCtrl_SetItemExtra.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemextra.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_SetItemExtra, TabCtrl_SetItemExtra macro [Windows Controls], _win32_TabCtrl_SetItemExtra, _win32_TabCtrl_SetItemExtra_cpp, commctrl/TabCtrl_SetItemExtra, controls.TabCtrl_SetItemExtra, controls._win32_TabCtrl_SetItemExtra
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TabCtrl_SetItemExtra macro
+
+## -syntax
+
+```cpp
+BOOL TabCtrl_SetItemExtra(
+   HWND hwndTC,
+   int  cb
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

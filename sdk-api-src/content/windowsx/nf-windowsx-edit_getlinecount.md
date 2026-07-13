@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetLineCount","Edit_GetLineCount macro [Windows Cont
 old-location: controls\Edit_GetLineCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getlinecount.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetLineCount, Edit_GetLineCount macro [Windows Controls], _win32_Edit_GetLineCount, _win32_Edit_GetLineCount_cpp, controls.Edit_GetLineCount, controls._win32_Edit_GetLineCount, windowsx/Edit_GetLineCount
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetLineCount macro
+
+## -syntax
+
+```cpp
+int Edit_GetLineCount(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is an integer specifying the total number of text lines in the multiline edit control or rich edit control. If the control has no text, the return value is 1. The return value will never be less than 1.
 
 
 ## -description

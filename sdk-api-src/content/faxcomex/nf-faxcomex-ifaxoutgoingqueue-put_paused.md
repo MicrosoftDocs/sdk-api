@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_Paused
 title: IFaxOutgoingQueue::put_Paused (faxcomex.h)
-description: The IFaxOutgoingQueue::get_Paused property is a Boolean value that indicates whether the job queue for outgoing faxes is paused.
+description: The IFaxOutgoingQueue::get_Paused property is a Boolean value that indicates whether the job queue for outgoing faxes is paused. (Put)
 helpviewer_keywords: ["IFaxOutgoingQueue interface [Fax Service]","Paused property","IFaxOutgoingQueue.Paused","IFaxOutgoingQueue.get_Paused","IFaxOutgoingQueue.put_Paused","IFaxOutgoingQueue::Paused","IFaxOutgoingQueue::get_Paused","IFaxOutgoingQueue::put_Paused","Paused property [Fax Service]","Paused property [Fax Service]","IFaxOutgoingQueue interface","_mfax_faxoutgoingqueue.paused","fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_paused_cpp","fax._mfax_faxoutgoingqueue_paused","faxcomex/IFaxOutgoingQueue::Paused","faxcomex/IFaxOutgoingQueue::get_Paused","faxcomex/IFaxOutgoingQueue::put_Paused","put_Paused"]
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_paused_cpp.htm
 tech.root: Fax

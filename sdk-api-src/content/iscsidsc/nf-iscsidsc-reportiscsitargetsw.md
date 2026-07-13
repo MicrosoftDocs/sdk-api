@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportIScsiTargetsW
 title: ReportIScsiTargetsW function (iscsidsc.h)
-description: ReportIscsiTargets function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list.
-helpviewer_keywords: ["ReportIScsiTargetsW","ReportIscsiTargets","ReportIscsiTargets function [iSCSI Discovery Library API]","ReportIscsiTargetsA","ReportIscsiTargetsW","iscsidisc.reportiscsitargets","iscsidsc/ReportIscsiTargets","iscsidsc/ReportIscsiTargetsA","iscsidsc/ReportIscsiTargetsW"]
+description: ReportIscsiTargets function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list. (Unicode)
+helpviewer_keywords: ["ReportIScsiTargetsW", "ReportIscsiTargets", "ReportIscsiTargets function [iSCSI Discovery Library API]", "ReportIscsiTargetsW", "iscsidisc.reportiscsitargets", "iscsidsc/ReportIscsiTargets", "iscsidsc/ReportIscsiTargetsW"]
 old-location: iscsidisc\reportiscsitargets.htm
 tech.root: iSCSIDisc
 ms.assetid: c4b2bcc4-d9d3-4fd3-bbca-03b13670054f
@@ -79,4 +79,4 @@ Returns ERROR_SUCCESS if the operation succeeds and ERROR_INSUFFICIENT_BUFFER if
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines ReportIScsiTargets as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ReportIScsiTargets as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

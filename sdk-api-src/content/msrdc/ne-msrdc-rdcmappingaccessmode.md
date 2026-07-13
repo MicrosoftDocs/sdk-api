@@ -56,7 +56,7 @@ Defines the access mode values for RDC file mapping objects.
 
 ## -enum-fields
 
-### -field RDCMAPPING_Undefined
+### -field RDCMAPPING_Undefined:0
 
 The mapping access mode is unknown.
 

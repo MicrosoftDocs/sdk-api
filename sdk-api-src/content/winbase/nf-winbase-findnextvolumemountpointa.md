@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.FindNextVolumeMountPointA
 title: FindNextVolumeMountPointA function (winbase.h)
-description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.
-helpviewer_keywords: ["FindNextVolumeMountPoint","FindNextVolumeMountPoint function [Files]","FindNextVolumeMountPointA","FindNextVolumeMountPointW","_win32_findnextvolumemountpoint","base.findnextvolumemountpoint","fs.findnextvolumemountpoint","winbase/FindNextVolumeMountPoint","winbase/FindNextVolumeMountPointA","winbase/FindNextVolumeMountPointW"]
+description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function. (ANSI)
+helpviewer_keywords: ["FindNextVolumeMountPointA", "winbase/FindNextVolumeMountPointA"]
 old-location: fs\findnextvolumemountpoint.htm
 tech.root: fs
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532
@@ -175,7 +175,7 @@ SMB does not support volume management functions. CsvFS does not support adding 
 
 
 > [!NOTE]
-> The winbase.h header defines FindNextVolumeMountPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines FindNextVolumeMountPoint as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,10 +1,10 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSetBuilder2
 title: IDWriteFontSetBuilder2
-description: Contains methods for building a font set.
+description: Contains methods for building a font set. (IDWriteFontSetBuilder2)
 helpviewer_keywords: ["IDWriteFontSetBuilder2","IDWriteFontSetBuilder2 interface [Direct Write]","IDWriteFontSetBuilder2 interface [Direct Write]","described","directwrite.idwritefontsetbuilder2","dwrite_3/IDWriteFontSetBuilder2"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontSetBuilder2, IDWriteFontSetBuilder2 interface [Direct Write], IDWriteFontSetBuilder2 interface [Direct Write],described, directwrite.idwritefontsetbuilder2, dwrite_3/IDWriteFontSetBuilder2
 targetos: Windows
 req.assembly: 
@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:

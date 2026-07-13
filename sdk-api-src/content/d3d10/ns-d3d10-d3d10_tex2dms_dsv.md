@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_DSV
 title: D3D10_TEX2DMS_DSV (d3d10.h)
-description: Specifies the subresource from a multisampled 2D texture that is accessible to a depth-stencil view.
+description: Specifies the subresource from a multisampled 2D texture that is accessible to a depth-stencil view. (D3D10_TEX2DMS_DSV)
 helpviewer_keywords: ["D3D10_TEX2DMS_DSV","D3D10_TEX2DMS_DSV structure [Direct3D 10]","c5f5656b-8589-3a09-033c-cf23c7b8dea4","d3d10/D3D10_TEX2DMS_DSV","direct3d10.d3d10_tex2dms_dsv"]
 old-location: direct3d10\d3d10_tex2dms_dsv.htm
 tech.root: direct3d10

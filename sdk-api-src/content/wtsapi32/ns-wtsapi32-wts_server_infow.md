@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTS_SERVER_INFOW
 title: WTS_SERVER_INFOW (wtsapi32.h)
-description: Contains information about a specific Remote Desktop Services server.
+description: Contains information about a specific Remote Desktop Services server. (Unicode)
 helpviewer_keywords: ["*PWTS_SERVER_INFOW","PWTS_SERVER_INFO","PWTS_SERVER_INFO structure pointer [Remote Desktop Services]","WTS_SERVER_INFO","WTS_SERVER_INFO structure [Remote Desktop Services]","WTS_SERVER_INFOA","WTS_SERVER_INFOW","termserv.wts_server_info","wtsapi32/PWTS_SERVER_INFO","wtsapi32/WTS_SERVER_INFO","wtsapi32/WTS_SERVER_INFOA","wtsapi32/WTS_SERVER_INFOW"]
 old-location: termserv\wts_server_info.htm
 tech.root: TermServ
@@ -71,4 +71,4 @@ Name of the server.
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTS_SERVER_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTS_SERVER_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -54,11 +54,11 @@ The <b>EnrollmentSelectionStatus</b> enumeration type specifies whether the enro
 
 ## -enum-fields
 
-### -field SelectedNo
+### -field SelectedNo:0
 
 The enrollment status is not monitored.
 
-### -field SelectedYes
+### -field SelectedYes:1
 
 The enrollment status is monitored.
 

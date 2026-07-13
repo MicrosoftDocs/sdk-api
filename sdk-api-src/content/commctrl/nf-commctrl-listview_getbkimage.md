@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetBkImage","ListView_GetBkImage macro [Windows 
 old-location: controls\ListView_GetBkImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getbkimage.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetBkImage, ListView_GetBkImage macro [Windows Controls], _win32_ListView_GetBkImage, _win32_ListView_GetBkImage_cpp, commctrl/ListView_GetBkImage, controls.ListView_GetBkImage, controls._win32_ListView_GetBkImage
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_GetBkImage macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetBkImage(
+   HWND        hwnd,
+   LPLVBKIMAGE plvbki
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns nonzero if successful, or zero otherwise.
 
 
 ## -description

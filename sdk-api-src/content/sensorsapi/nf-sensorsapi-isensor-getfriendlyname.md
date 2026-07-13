@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method","GetFriendlyNam
 old-location: winsensors_com_ref\isensor_getfriendlyname.htm
 tech.root: winsensors
 ms.assetid: 380a1a93-01f7-4d5b-9916-156728fd94ed
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetFriendlyName, GetFriendlyName method, GetFriendlyName method,ISensor interface, ISensor interface,GetFriendlyName method, ISensor.GetFriendlyName, ISensor::GetFriendlyName, sensorsapi/ISensor::GetFriendlyName, winsensors_com_ref.isensor_getfriendlyname
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves the sensor name that is intended to be seen by the user.
 

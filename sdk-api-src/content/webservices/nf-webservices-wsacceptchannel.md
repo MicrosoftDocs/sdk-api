@@ -57,7 +57,7 @@ Accepts the next incoming message from the specified <a href="/windows/desktop/w
 ### -param listener [in]
 
 Pointer to a <a href="/windows/desktop/wsw/ws-listener">WS_LISTENER</a> structure representing the listener.
-                This is the listener passed to <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>when the channel was created.
+                This is the listener passed to <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> when the channel was created.
 
 ### -param channel [in]
 

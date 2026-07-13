@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_GetTextLength","Button_GetTextLength macro [Window
 old-location: controls\Button_GetTextLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettextlength.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_GetTextLength, Button_GetTextLength macro [Windows Controls], _win32_Button_GetTextLength, _win32_Button_GetTextLength_cpp, controls.Button_GetTextLength, controls._win32_Button_GetTextLength, windowsx/Button_GetTextLength
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Button_GetTextLength macro
+
+## -syntax
+
+```cpp
+int Button_GetTextLength(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The length, in characters, of the button text.
 
 
 ## -description

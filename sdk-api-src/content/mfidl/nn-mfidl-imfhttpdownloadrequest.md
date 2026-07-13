@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadRequest
 title: IMFHttpDownloadRequest (mfidl.h)
-description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation.
+description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation. (IMFHttpDownloadRequest)
 helpviewer_keywords: ["IMFHttpDownloadRequest","IMFHttpDownloadRequest interface [Media Foundation]","IMFHttpDownloadRequest interface [Media Foundation]","described","mf.imfhttpdownloadrequest","mfidl/IMFHttpDownloadRequest"]
 old-location: mf\imfhttpdownloadrequest.htm
 tech.root: mf
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -57,8 +57,5 @@ Applications implement this interface to override the default implementation of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFHttpDownloadRequest</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFHttpDownloadRequest</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFHttpDownloadRequest</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFHttpDownloadRequest</b> also has these types of members:
 

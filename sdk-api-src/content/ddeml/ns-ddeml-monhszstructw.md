@@ -1,7 +1,7 @@
 ---
 UID: NS:ddeml.tagMONHSZSTRUCTW
 title: MONHSZSTRUCTW (ddeml.h)
-description: Contains information about a Dynamic Data Exchange (DDE) string handle. A DDE monitoring application can use this structure when monitoring the activity of the string manager component of the DDE Management Library.
+description: Contains information about a Dynamic Data Exchange (DDE) string handle. A DDE monitoring application can use this structure when monitoring the activity of the string manager component of the DDE Management Library. (Unicode)
 helpviewer_keywords: ["*PMONHSZSTRUCTW","MH_CLEANUP","MH_CREATE","MH_DELETE","MH_KEEP","MONHSZSTRUCT","MONHSZSTRUCT structure [Data Exchange]","MONHSZSTRUCTA","MONHSZSTRUCTW","PMONHSZSTRUCT","PMONHSZSTRUCT structure pointer [Data Exchange]","_win32_MONHSZSTRUCT_str","_win32_monhszstruct_str_cpp","dataxchg.monhszstruct_str","ddeml/MONHSZSTRUCT","ddeml/MONHSZSTRUCTA","ddeml/MONHSZSTRUCTW","ddeml/PMONHSZSTRUCT","winui._win32_monhszstruct_str"]
 old-location: dataxchg\monhszstruct_str.htm
 tech.root: dataxchg
@@ -182,4 +182,4 @@ Pointer to the string identified by the <b>hsz</b> member.
 ## -remarks
 
 > [!NOTE]
-> The ddeml.h header defines MONHSZSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ddeml.h header defines MONHSZSTRUCT as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

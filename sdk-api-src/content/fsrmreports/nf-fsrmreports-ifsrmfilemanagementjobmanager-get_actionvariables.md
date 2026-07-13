@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.get_ActionVariables
 title: IFsrmFileManagementJobManager::get_ActionVariables (fsrmreports.h)
-description: Retrieves a list of macros that you can specify in action property values.
+description: Retrieves a list of macros that you can specify in action property values. (IFsrmFileManagementJobManager.get_ActionVariables)
 helpviewer_keywords: ["ActionVariables property [File Server Resource Manager]","ActionVariables property [File Server Resource Manager]","FsrmFileManagementJobManager class","ActionVariables property [File Server Resource Manager]","IFsrmFileManagementJobManager interface","FsrmFileManagementJobManager class [File Server Resource Manager]","ActionVariables property","IFsrmFileManagementJobManager interface [File Server Resource Manager]","ActionVariables property","IFsrmFileManagementJobManager.ActionVariables","IFsrmFileManagementJobManager.get_ActionVariables","IFsrmFileManagementJobManager::ActionVariables","IFsrmFileManagementJobManager::get_ActionVariables","fs.ifsrmfilemanagementjobmanager_actionvariables","fsrm.ifsrmfilemanagementjobmanager_actionvariables","fsrmreports/IFsrmFileManagementJobManager::ActionVariables","fsrmreports/IFsrmFileManagementJobManager::get_ActionVariables","get_ActionVariables"]
 old-location: fsrm\ifsrmfilemanagementjobmanager_actionvariables.htm
 tech.root: fsrm

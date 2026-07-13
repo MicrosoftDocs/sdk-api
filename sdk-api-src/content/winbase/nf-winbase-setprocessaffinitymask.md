@@ -91,6 +91,8 @@ Do not call <b>SetProcessAffinityMask</b> in a DLL that may be called by process
 
 On a system with more than 64 processors, the <b>SetProcessAffinityMask</b> function can be used to set the process affinity mask only for processes with threads in a single <a href="/windows/desktop/ProcThread/processor-groups">processor group</a>. Use the <a href="/windows/desktop/api/winbase/nf-winbase-setthreadaffinitymask">SetThreadAffinityMask</a> function to set the affinity mask for individual threads in multiple groups. This effectively changes the group assignment of the process.
 
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all processor groups, by default. Instead of always failing in case the calling process contains threads in more than one processor group, the <b>SetProcessAffinityMask</b> function fails (returning zero with <b>ERROR_INVALID_PARAMETER</b> last error code) if the process had explicitly set the affinity of one or more of its threads outside of the process' <a href="/windows/desktop/ProcThread/processor-groups">primary group</a>.
+
 ## -see-also
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>

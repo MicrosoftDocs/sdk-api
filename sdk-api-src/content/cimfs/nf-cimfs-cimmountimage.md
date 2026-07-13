@@ -1,12 +1,11 @@
 ---
 UID: NF:cimfs.CimMountImage
 title: CimMountImage
-ms.date: 9/9/2019
-ms.author: windowssdkdev
+description: The CimMountImage function mounts the named image from the location specified by cimPath as a volume with the volume GUID specified by volumeId.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimMountImage
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -16,7 +15,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: cimfs.lib
 req.max-support: 
 req.namespace: 
 req.redist: 

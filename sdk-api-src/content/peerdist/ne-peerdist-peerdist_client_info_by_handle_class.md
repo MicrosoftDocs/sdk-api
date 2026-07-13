@@ -58,7 +58,7 @@ The <b>PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</b> enumeration defines the possible
 
 ## -enum-fields
 
-### -field PeerDistClientBasicInfo
+### -field PeerDistClientBasicInfo:0
 
  Indicates the information to retrieve is a <a href="/windows/desktop/api/peerdist/ns-peerdist-peerdist_client_basic_info">PEERDIST_CLIENT_BASIC_INFO</a> structure.
 

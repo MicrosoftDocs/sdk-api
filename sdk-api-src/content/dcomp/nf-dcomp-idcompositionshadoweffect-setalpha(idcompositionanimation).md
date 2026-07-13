@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation) (dcomp.h)
-description: Sets the alpha value for the effect.
+description: Sets the alpha value for the effect. (overload 1/2)
 helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetAlpha method","IDCompositionShadowEffect.SetAlpha","IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation)","IDCompositionShadowEffect::SetAlpha","IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation)","SetAlpha","SetAlpha method [DirectComposition]","SetAlpha method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetAlpha","directcomp.idcompositionshadoweffect_setalpha_2"]
 old-location: directcomp\idcompositionshadoweffect_setalpha_2.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ An animation that represents how the alpha value for the effect changes over tim
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

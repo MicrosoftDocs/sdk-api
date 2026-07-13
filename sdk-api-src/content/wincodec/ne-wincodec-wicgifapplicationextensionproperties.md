@@ -54,13 +54,13 @@ Specifies the application extension metadata properties for a Graphics Interchan
 
 ## -enum-fields
 
-### -field WICGifApplicationExtensionApplication
+### -field WICGifApplicationExtensionApplication:0x1
 
 [VT_UI1 | VT_VECTOR] Indicates a string that identifies the application.
 
-### -field WICGifApplicationExtensionData
+### -field WICGifApplicationExtensionData:0x2
 
 [VT_UI1 \| VT_VECTOR] Indicates data that is exposed by the application.
 
-### -field WICGifApplicationExtensionProperties_FORCE_DWORD
+### -field WICGifApplicationExtensionProperties_FORCE_DWORD:0x7fffffff
 

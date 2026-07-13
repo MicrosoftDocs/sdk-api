@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKEDLLVERULL","MAKEDLLVERULL macro [Windows Shell]","_wi
 old-location: shell\MAKEDLLVERULL.htm
 tech.root: shell
 ms.assetid: 10c75c91-9642-4877-845e-8c6343721b4f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKEDLLVERULL, MAKEDLLVERULL macro [Windows Shell], _win32_MAKEDLLVERULL, shell.MAKEDLLVERULL, shlwapi/MAKEDLLVERULL
 req.header: shlwapi.h
 req.include-header: 
@@ -47,6 +47,23 @@ api_name:
 
 # MAKEDLLVERULL macro
 
+## -syntax
+
+```cpp
+ULONGLONG MAKEDLLVERULL(
+    WORD major,
+    WORD minor,
+    WORD build,
+    WORD qfe
+);
+```
+
+## -returns
+
+Type: **ULONGLONG**
+
+Returns the version information packed into a ULONGLONG value.
+
 
 ## -description
 
@@ -78,11 +95,11 @@ This macro is used in conjunction with <a href="/windows/desktop/api/shlwapi/nc-
 
 
 ```cpp
-#define MAKEDLLVERULL(major, minor, build, sp) \
+#define MAKEDLLVERULL(major, minor, build, qfe) \
         (((ULONGLONG)(major) << 48) | \
          ((ULONGLONG)(minor) << 32) | \
          ((ULONGLONG)(build) << 16) | \
-         ((ULONGLONG)(   sp) <<  0))
+         ((ULONGLONG)(   qfe) <<  0))
 
 ```
 

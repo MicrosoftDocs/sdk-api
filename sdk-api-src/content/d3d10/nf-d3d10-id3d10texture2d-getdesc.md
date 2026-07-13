@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Texture2D.GetDesc
 title: ID3D10Texture2D::GetDesc (d3d10.h)
-description: Get the properties of the texture resource.
+description: Get the properties of the texture resource. (ID3D10Texture2D.GetDesc)
 helpviewer_keywords: ["GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10Texture2D interface","ID3D10Texture2D interface [Direct3D 10]","GetDesc method","ID3D10Texture2D.GetDesc","ID3D10Texture2D::GetDesc","d3d10/ID3D10Texture2D::GetDesc","db268331-a80d-aadf-4e4b-69cca5ab58b8","direct3d10.id3d10texture2d_getdesc"]
 old-location: direct3d10\id3d10texture2d_getdesc.htm
 tech.root: direct3d10

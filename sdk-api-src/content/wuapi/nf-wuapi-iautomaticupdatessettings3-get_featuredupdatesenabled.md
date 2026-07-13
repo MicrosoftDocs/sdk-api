@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled
 title: IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled (wuapi.h)
-description: Not supported.
+description: Not supported. (IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled)
 helpviewer_keywords: ["FeaturedUpdatesEnabled property [Windows Update Agent]","FeaturedUpdatesEnabled property [Windows Update Agent]","IAutomaticUpdatesSettings3 interface","IAutomaticUpdatesSettings3 interface [Windows Update Agent]","FeaturedUpdatesEnabled property","IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled","IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled","IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled","IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled","IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled","get_FeaturedUpdatesEnabled","wua.iautomaticupdatessettings3_featuredupdatesenabled","wuapi/IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled","wuapi/IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled","wuapi/IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled"]
 old-location: wua\iautomaticupdatessettings3_featuredupdatesenabled.htm
 tech.root: wua

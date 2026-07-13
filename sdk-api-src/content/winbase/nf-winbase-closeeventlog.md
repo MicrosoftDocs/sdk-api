@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CloseEventLog
 title: CloseEventLog function (winbase.h)
-description: Closes the specified event log.
+description: Closes the specified event log. (CloseEventLog)
 helpviewer_keywords: ["CloseEventLog","CloseEventLog function","_win32_closeeventlog","base.closeeventlog","winbase/CloseEventLog"]
 old-location: base\closeeventlog.htm
 tech.root: base
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-eventlog-l1-1-2.dll
  - Advapi32.dll
  - Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll

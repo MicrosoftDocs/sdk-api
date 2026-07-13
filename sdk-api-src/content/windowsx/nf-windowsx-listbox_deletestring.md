@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListBox_DeleteString","ListBox_DeleteString macro [Window
 old-location: controls\ListBox_DeleteString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_deletestring.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListBox_DeleteString, ListBox_DeleteString macro [Windows Controls], _win32_ListBox_DeleteString, _win32_ListBox_DeleteString_cpp, controls.ListBox_DeleteString, controls._win32_ListBox_DeleteString, windowsx/ListBox_DeleteString
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListBox_DeleteString macro
+
+## -syntax
+
+```cpp
+int ListBox_DeleteString(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is a count of the strings remaining in the list. The return value is LB_ERR if the <i>index</i> parameter specifies an index greater than the number of items in the list.
 
 
 ## -description

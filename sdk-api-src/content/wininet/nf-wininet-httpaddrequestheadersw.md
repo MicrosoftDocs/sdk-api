@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.HttpAddRequestHeadersW
 title: HttpAddRequestHeadersW function (wininet.h)
-description: Adds one or more HTTP request headers to the HTTP request handle.
-helpviewer_keywords: ["HTTP_ADDREQ_FLAG_ADD","HTTP_ADDREQ_FLAG_ADD_IF_NEW","HTTP_ADDREQ_FLAG_COALESCE","HTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA","HTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON","HTTP_ADDREQ_FLAG_REPLACE","HttpAddRequestHeaders","HttpAddRequestHeaders function [WinINet]","HttpAddRequestHeadersA","HttpAddRequestHeadersW","_inet_httpaddrequestheaders_function","wininet.httpaddrequestheaders","wininet/HttpAddRequestHeaders","wininet/HttpAddRequestHeadersA","wininet/HttpAddRequestHeadersW"]
+description: Adds one or more HTTP request headers to the HTTP request handle. (HttpAddRequestHeadersW)
+helpviewer_keywords: ["HTTP_ADDREQ_FLAG_ADD", "HTTP_ADDREQ_FLAG_ADD_IF_NEW", "HTTP_ADDREQ_FLAG_COALESCE", "HTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA", "HTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON", "HTTP_ADDREQ_FLAG_REPLACE", "HttpAddRequestHeaders", "HttpAddRequestHeaders function [WinINet]", "HttpAddRequestHeadersW", "_inet_httpaddrequestheaders_function", "wininet.httpaddrequestheaders", "wininet/HttpAddRequestHeaders", "wininet/HttpAddRequestHeadersW"]
 old-location: wininet\httpaddrequestheaders.htm
 tech.root: wininet
 ms.assetid: 636c3442-a2e6-4885-8fb4-1f6996ba6860
@@ -168,7 +168,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines HttpAddRequestHeaders as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines HttpAddRequestHeaders as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

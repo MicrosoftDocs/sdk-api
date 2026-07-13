@@ -56,7 +56,7 @@ Defines the set of response instructions sent by the  authenticator to the suppl
 
 ## -enum-fields
 
-### -field EAP_METHOD_AUTHENTICATOR_RESPONSE_DISCARD
+### -field EAP_METHOD_AUTHENTICATOR_RESPONSE_DISCARD:0
 
 The supplicant should discard the response as it is not usable by EAPHost.
 

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Crypt32.Lib
 req.dll: Crypt32.dll
 req.irql: 
 targetos: Windows

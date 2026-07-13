@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WRDS_CONNECTION_SETTINGS_1
 title: WRDS_CONNECTION_SETTINGS_1 (wtsdefs.h)
-description: Contains connection setting information for a remote session.
+description: Contains connection setting information for a remote session. (WRDS_CONNECTION_SETTINGS_1)
 helpviewer_keywords: ["*PWRDS_CONNECTION_SETTINGS_1","PWRDS_CONNECTION_SETTINGS_1","PWRDS_CONNECTION_SETTINGS_1 structure pointer [Remote Desktop Services]","WRDS_CONNECTION_SETTINGS_1","WRDS_CONNECTION_SETTINGS_1 structure [Remote Desktop Services]","WRDS_PERF_DISABLE_CURSORSETTINGS","WRDS_PERF_DISABLE_CURSOR_SHADOW","WRDS_PERF_DISABLE_FULLWINDOWDRAG","WRDS_PERF_DISABLE_MENUANIMATIONS","WRDS_PERF_DISABLE_NOTHING","WRDS_PERF_DISABLE_THEMING","WRDS_PERF_DISABLE_WALLPAPER","WRDS_PERF_ENABLE_DESKTOP_COMPOSITION","WRDS_PERF_ENABLE_ENHANCED_GRAPHICS","WRDS_PERF_ENABLE_FONT_SMOOTHING","termserv.wrds_connection_settings_1","wtsdefs/PWRDS_CONNECTION_SETTINGS_1","wtsdefs/WRDS_CONNECTION_SETTINGS_1"]
 old-location: termserv\wrds_connection_settings_1.htm
 tech.root: TermServ

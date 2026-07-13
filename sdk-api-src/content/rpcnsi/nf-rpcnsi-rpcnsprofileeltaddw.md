@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltAddW
 title: RpcNsProfileEltAddW function (rpcnsi.h)
-description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry.
-helpviewer_keywords: ["RpcNsProfileEltAdd","RpcNsProfileEltAdd function [RPC]","RpcNsProfileEltAddA","RpcNsProfileEltAddW","_rpc_rpcnsprofileeltadd","rpc.rpcnsprofileeltadd","rpcnsi/RpcNsProfileEltAdd","rpcnsi/RpcNsProfileEltAddA","rpcnsi/RpcNsProfileEltAddW"]
+description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry. (Unicode)
+helpviewer_keywords: ["RpcNsProfileEltAdd", "RpcNsProfileEltAdd function [RPC]", "RpcNsProfileEltAddW", "_rpc_rpcnsprofileeltadd", "rpc.rpcnsprofileeltadd", "rpcnsi/RpcNsProfileEltAdd", "rpcnsi/RpcNsProfileEltAddW"]
 old-location: rpc\rpcnsprofileeltadd.htm
 tech.root: Rpc
 ms.assetid: e0a2d4b9-853c-4578-8a15-e0be7bfc0b9b
@@ -187,7 +187,7 @@ If an element with the specified member name and interface identification is alr
 
 
 > [!NOTE]
-> The rpcnsi.h header defines RpcNsProfileEltAdd as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcnsi.h header defines RpcNsProfileEltAdd as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

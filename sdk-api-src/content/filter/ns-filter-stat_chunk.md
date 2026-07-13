@@ -4,7 +4,7 @@ title: STAT_CHUNK (filter.h)
 description: Describes the characteristics of a chunk.
 helpviewer_keywords: ["STAT_CHUNK","STAT_CHUNK structure [Indexing Service]","_idxs_STAT_CHUNK","filter/STAT_CHUNK","indexsrv.stat_chunk","tagSTAT_CHUNK"]
 old-location: indexsrv\stat_chunk.htm
-tech.root: IndexSrv
+tech.root: search
 ms.assetid: VS|indexsrv|~\html\ixrefint_6a5n.htm
 ms.date: 12/05/2018
 ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHUNK, filter/STAT_CHUNK, indexsrv.stat_chunk, tagSTAT_CHUNK
@@ -51,9 +51,6 @@ api_name:
 
 
 ## -description
-
-> [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Describes the characteristics of a chunk.
 

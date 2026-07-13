@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyPo
 old-location: wmp\iwmpnetwork_setproxyport.htm
 tech.root: WMP
 ms.assetid: 36b7290d-c359-45bb-b77b-46b696e9edcf
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyPort method, IWMPNetwork.setProxyPort, IWMPNetwork::setProxyPort, IWMPNetworksetProxyPort, setProxyPort, setProxyPort method [Windows Media Player], setProxyPort method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyport, wmp/IWMPNetwork::setProxyPort
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>setProxyPort</b> method specifies the proxy port to use.
 

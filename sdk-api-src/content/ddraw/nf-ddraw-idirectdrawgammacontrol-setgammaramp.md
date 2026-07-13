@@ -89,7 +89,7 @@ Including the DDSGR_CALIBRATE flag in the <i>dwFlags</i> parameter when running 
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetGammaRamp</b> method.
+
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetBreakOnCategory
 title: ID3D10InfoQueue::GetBreakOnCategory (d3d10sdklayers.h)
-description: Get a message category to break on when a message with that category passes through the storage filter.
+description: Get a message category to break on when a message with that category passes through the storage filter. (ID3D10InfoQueue.GetBreakOnCategory)
 helpviewer_keywords: ["GetBreakOnCategory","GetBreakOnCategory method [Direct3D 10]","GetBreakOnCategory method [Direct3D 10]","ID3D10InfoQueue interface","ID3D10InfoQueue interface [Direct3D 10]","GetBreakOnCategory method","ID3D10InfoQueue.GetBreakOnCategory","ID3D10InfoQueue::GetBreakOnCategory","d3d10sdklayers/ID3D10InfoQueue::GetBreakOnCategory","direct3d10.id3d10infoqueue_getbreakoncategory","f7712289-f56a-df8e-a2dd-2568f07262a8"]
 old-location: direct3d10\id3d10infoqueue_getbreakoncategory.htm
 tech.root: direct3d10

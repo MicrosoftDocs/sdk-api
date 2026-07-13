@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_ArchivePrivateKey
 title: IX509CertificateRequestCmc::get_ArchivePrivateKey (certenroll.h)
-description: Specifies or retrieves a Boolean value that indicates whether to archive a private key on the certification authority (CA).
+description: Specifies or retrieves a Boolean value that indicates whether to archive a private key on the certification authority (CA). (Get)
 helpviewer_keywords: ["ArchivePrivateKey property [Security]","ArchivePrivateKey property [Security]","IX509CertificateRequestCmc interface","IX509CertificateRequestCmc interface [Security]","ArchivePrivateKey property","IX509CertificateRequestCmc.ArchivePrivateKey","IX509CertificateRequestCmc.get_ArchivePrivateKey","IX509CertificateRequestCmc::ArchivePrivateKey","IX509CertificateRequestCmc::get_ArchivePrivateKey","IX509CertificateRequestCmc::put_ArchivePrivateKey","certenroll/IX509CertificateRequestCmc::ArchivePrivateKey","certenroll/IX509CertificateRequestCmc::get_ArchivePrivateKey","certenroll/IX509CertificateRequestCmc::put_ArchivePrivateKey","get_ArchivePrivateKey","security.ix509certificaterequestcmc_archiveprivatekey_property"]
 old-location: security\ix509certificaterequestcmc_archiveprivatekey_property.htm
 tech.root: security

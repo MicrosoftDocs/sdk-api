@@ -4,7 +4,7 @@ title: IDWriteFactory6
 description: This interface represents a factory object from which all DirectWrite objects are created. **IDWriteFactory6** adds new facilities for working with fonts and font resources.
 helpviewer_keywords: ["IDWriteFactory6","IDWriteFactory6 interface [Direct Write]","IDWriteFactory6 interface [Direct Write]","described","directwrite.idwritefactory6","dwrite_3/IDWriteFactory6"]
 tech.root: DirectWrite
-ms.date: 09/10/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFactory6, IDWriteFactory6 interface [Direct Write], IDWriteFactory6 interface [Direct Write],described, directwrite.idwritefactory6, dwrite_3/IDWriteFactory6
 targetos: Windows
 req.assembly: 
@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:

@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_GetPrevVisible","TreeView_GetPrevVisible macro [
 old-location: controls\TreeView_GetPrevVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getprevvisible.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_GetPrevVisible, TreeView_GetPrevVisible macro [Windows Controls], _win32_TreeView_GetPrevVisible, _win32_TreeView_GetPrevVisible_cpp, commctrl/TreeView_GetPrevVisible, controls.TreeView_GetPrevVisible, controls._win32_TreeView_GetPrevVisible
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_GetPrevVisible macro
+
+## -syntax
+
+```cpp
+HTREEITEM TreeView_GetPrevVisible(
+   HWND      hwnd,
+   HTREEITEM hitem
+);
+```
+
+## -returns
+
+Type: **HTREEITEM**
+
+Returns the handle to the item if successful, or <b>NULL</b> otherwise.
 
 
 ## -description

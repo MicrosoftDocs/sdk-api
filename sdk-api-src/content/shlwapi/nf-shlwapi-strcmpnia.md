@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCmpNIA
 title: StrCmpNIA function (shlwapi.h)
-description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is not case-sensitive. The StrNCmpI macro differs from this function in name only.
-helpviewer_keywords: ["StrCmpNI","StrCmpNI function [Windows Shell]","StrCmpNIA","StrCmpNIW","_win32_StrCmpNI","shell.StrCmpNI","shlwapi/StrCmpNI","shlwapi/StrCmpNIA","shlwapi/StrCmpNIW"]
+description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is not case-sensitive. The StrNCmpI macro differs from this function in name only. (ANSI)
+helpviewer_keywords: ["StrCmpNIA", "shlwapi/StrCmpNIA"]
 old-location: shell\StrCmpNI.htm
 tech.root: shell
 ms.assetid: c6657bd5-21b6-457c-9ed0-45e44b2571ba
@@ -88,5 +88,5 @@ Returns zero if the strings are identical. Returns a positive value if the first
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines StrCmpNI as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrCmpNI as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

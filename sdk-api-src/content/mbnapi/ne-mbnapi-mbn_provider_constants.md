@@ -57,10 +57,10 @@ The <b>MBN_PROVIDER_CONSTANTS</b> enumerated type contains values that define th
 
 ## -enum-fields
 
-### -field MBN_PROVIDERNAME_LEN
+### -field MBN_PROVIDERNAME_LEN:20
 
 The maximum length of the <b>providerName</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
 
-### -field MBN_PROVIDERID_LEN
+### -field MBN_PROVIDERID_LEN:6
 
 The maximum length of the <b>providerID</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.

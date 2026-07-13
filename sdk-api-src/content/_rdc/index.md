@@ -4,7 +4,8 @@ title: Remote Differential Compression
 ms.assetid: 97dfdf66-89fe-30f6-9a45-b228089e1d79
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Remote Differential Compression

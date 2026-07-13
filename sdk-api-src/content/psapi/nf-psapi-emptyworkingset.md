@@ -72,7 +72,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-You can also empty the working set by calling  the <a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> or <a href="/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex">SetProcessWorkingSetSizeEx</a> function with the <i>dwMinimumWorkingSetSize</i> and <i>dwMaximumWorkingSetSize</i> parameters set to the value <code>(SIZE_T)(-1)</code>.
+You can also empty the working set by calling  the <a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a> or <a href="/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex">SetProcessWorkingSetSizeEx</a> function with the <i>dwMinimumWorkingSetSize</i> and <i>dwMaximumWorkingSetSize</i> parameters set to the value <code>(SIZE_T)(-1)</code>.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -101,7 +101,7 @@ Programs that must run on earlier versions of Windows as
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
 
 
 

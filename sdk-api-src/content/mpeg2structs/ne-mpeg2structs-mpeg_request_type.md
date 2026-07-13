@@ -56,7 +56,7 @@ The <b>MPEG_REQUEST_TYPE</b> enumeration type specifies a request for MPEG-2 dat
 
 ## -enum-fields
 
-### -field MPEG_RQST_UNKNOWN
+### -field MPEG_RQST_UNKNOWN:0
 
 Unknown request type. Do not use this value.
 

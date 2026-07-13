@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventObjectChange2.ChangedEventClass
 title: IEventObjectChange2::ChangedEventClass (eventsys.h)
-description: Indicates that an event class object has been added, modified, or deleted.
+description: Indicates that an event class object has been added, modified, or deleted. (IEventObjectChange2.ChangedEventClass)
 helpviewer_keywords: ["ChangedEventClass","ChangedEventClass method [COM+]","ChangedEventClass method [COM+]","IEventObjectChange2 interface","IEventObjectChange2 interface [COM+]","ChangedEventClass method","IEventObjectChange2.ChangedEventClass","IEventObjectChange2::ChangedEventClass","_cos_ieventobjectchange2_changedeventclass","cos.ieventobjectchange2_changedeventclass","eventsys/IEventObjectChange2::ChangedEventClass"]
 old-location: cos\ieventobjectchange2_changedeventclass.htm
 tech.root: cos

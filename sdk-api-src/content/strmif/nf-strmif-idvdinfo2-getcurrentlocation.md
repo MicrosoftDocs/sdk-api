@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCurrentLocation","GetCurrentLocation method [DirectSho
 old-location: dshow\idvdinfo2_getcurrentlocation.htm
 tech.root: dshow
 ms.assetid: 54005c07-1689-411c-88a9-bcd19cc065dd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentLocation method, IDvdInfo2.GetCurrentLocation, IDvdInfo2::GetCurrentLocation, IDvdInfo2GetCurrentLocation, dshow.idvdinfo2_getcurrentlocation, strmif/IDvdInfo2::GetCurrentLocation
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetCurrentLocation</code> method retrieves the current playback location.
 

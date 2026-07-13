@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetCertificateSize
 title: ID3D11AuthenticatedChannel::GetCertificateSize (d3d11.h)
-description: Gets the size of the driver's certificate chain.
+description: Gets the size of the driver's certificate chain. (ID3D11AuthenticatedChannel.GetCertificateSize)
 helpviewer_keywords: ["GetCertificateSize","GetCertificateSize method [Media Foundation]","GetCertificateSize method [Media Foundation]","ID3D11AuthenticatedChannel interface","ID3D11AuthenticatedChannel interface [Media Foundation]","GetCertificateSize method","ID3D11AuthenticatedChannel.GetCertificateSize","ID3D11AuthenticatedChannel::GetCertificateSize","d3d11/ID3D11AuthenticatedChannel::GetCertificateSize","mf.id3d11authenticatedchannel_getcertificatesize"]
 old-location: mf\id3d11authenticatedchannel_getcertificatesize.htm
 tech.root: mf
@@ -60,7 +60,7 @@ Receives the size of the certificate chain, in bytes.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

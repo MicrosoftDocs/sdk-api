@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITAgent.get_MeasurementPeriod
 title: ITAgent::get_MeasurementPeriod (tapi3.h)
-description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
+description: The get_MeasurementPeriod method (tapi3.h) gets the measurement period for which the switch and/or implementation stores and calculates information.
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_MeasurementPeriod method","ITAgent.get_MeasurementPeriod","ITAgent::get_MeasurementPeriod","_tapi3_itagent_get_measurementperiod","get_MeasurementPeriod","get_MeasurementPeriod method [TAPI 2.2]","get_MeasurementPeriod method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_measurementperiod","tapi3cc/ITAgent::get_MeasurementPeriod"]
 old-location: tapi3\itagent_get_measurementperiod.htm
 tech.root: tapi3
 ms.assetid: ccc91dfb-83e5-496a-921d-784fcaea5af5
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgent interface [TAPI 2.2],get_MeasurementPeriod method, ITAgent.get_MeasurementPeriod, ITAgent::get_MeasurementPeriod, _tapi3_itagent_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_measurementperiod, tapi3cc/ITAgent::get_MeasurementPeriod
 req.header: tapi3.h
 req.include-header: Tapi3.h

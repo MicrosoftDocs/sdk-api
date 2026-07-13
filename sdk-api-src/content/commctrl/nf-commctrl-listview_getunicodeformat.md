@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetUnicodeFormat","ListView_GetUnicodeFormat mac
 old-location: controls\ListView_GetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getunicodeformat.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetUnicodeFormat, ListView_GetUnicodeFormat macro [Windows Controls], _win32_ListView_GetUnicodeFormat, _win32_ListView_GetUnicodeFormat_cpp, commctrl/ListView_GetUnicodeFormat, controls.ListView_GetUnicodeFormat, controls._win32_ListView_GetUnicodeFormat
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ListView_GetUnicodeFormat macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetUnicodeFormat(
+   HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns the Unicode format flag for the control. If this value is nonzero, the control is using Unicode characters. If this value is zero, the control is using ANSI characters.
 
 
 ## -description

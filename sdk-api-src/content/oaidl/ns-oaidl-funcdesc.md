@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagFUNCDESC
 title: FUNCDESC (oaidl.h)
-description: Describes a function.
+description: Describes a function. (FUNCDESC)
 helpviewer_keywords: ["*LPFUNCDESC","FUNCDESC","FUNCDESC structure [Automation]","LPFUNCDESC","LPFUNCDESC structure pointer [Automation]","_oa96_FUNCDESC","automat.funcdesc","oaidl/FUNCDESC","oaidl/LPFUNCDESC"]
 old-location: automat\funcdesc.htm
 tech.root: automat

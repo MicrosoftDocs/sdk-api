@@ -148,7 +148,7 @@ A content type does not conform to the rules for a valid media type, specified i
 </dl>
 </td>
 <td width="60%">
-Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
+Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML</a>
 
 
 

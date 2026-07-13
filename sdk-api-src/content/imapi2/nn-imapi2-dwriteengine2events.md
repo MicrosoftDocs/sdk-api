@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.DWriteEngine2Events
 title: DWriteEngine2Events (imapi2.h)
-description: Implement this interface to receive notifications of the current write operation.
+description: Implement this interface to receive notifications of the current write operation. (DWriteEngine2Events)
 helpviewer_keywords: ["DWriteEngine2Events","DWriteEngine2Events interface [IMAPI]","DWriteEngine2Events interface [IMAPI]","described","imapi.dwriteengine2events","imapi2/DWriteEngine2Events"]
 old-location: imapi\dwriteengine2events.htm
 tech.root: imapi
@@ -54,8 +54,5 @@ Implement this interface to receive notifications of the current write operation
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DWriteEngine2Events</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DWriteEngine2Events</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>DWriteEngine2Events</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DWriteEngine2Events</b> also has these types of members:
 

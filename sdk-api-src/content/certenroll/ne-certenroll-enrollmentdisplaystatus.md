@@ -54,11 +54,11 @@ The <b>EnrollmentDisplayStatus</b> enumeration type specifies whether to display
 
 ## -enum-fields
 
-### -field DisplayNo
+### -field DisplayNo:0
 
 Status is not displayed.
 
-### -field DisplayYes
+### -field DisplayYes:1
 
 Status is displayed.
 

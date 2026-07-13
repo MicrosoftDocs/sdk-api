@@ -123,7 +123,7 @@ The caller does not have a read/write lock on the document.
 
 ## -remarks
 
-Text, embedded objects, and any formatting are wrapped into a single <b>IDataObject</b> object. In this way private appliation-specific formatting associated with text can be preserved by a client.
+Text, embedded objects, and any formatting are wrapped into a single <b>IDataObject</b> object. In this way, private application-specific formatting associated with text can be preserved by a client.
 
 ## -see-also
 

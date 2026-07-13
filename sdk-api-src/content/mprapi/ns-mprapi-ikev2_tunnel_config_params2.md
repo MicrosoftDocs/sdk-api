@@ -94,7 +94,7 @@ The encryption type to be used for IKEv2.
 
 ### -field dwEncryptionType
 
-A value that  that specifies the encryption type to be negotiated during  the SA negotiation for the IKE2 tunnel based VPN connections. The <i>dwEncryptionType</i> parameter must have one of the following values.
+A value that specifies the encryption type to be negotiated during  the SA negotiation for the IKE2 tunnel based VPN connections. The <i>dwEncryptionType</i> parameter must have one of the following values.
 
 <table>
 <tr>

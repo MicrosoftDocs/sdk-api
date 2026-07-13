@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSAServiceClassInfoA
 title: WSASERVICECLASSINFOA (winsock2.h)
-description: The WSASERVICECLASSINFO structure contains information about a specified service class. For each service class in Windows Sockets 2, there is a single WSASERVICECLASSINFO structure.
+description: The WSASERVICECLASSINFO structure contains information about a specified service class. For each service class in Windows Sockets 2, there is a single WSASERVICECLASSINFO structure. (ANSI)
 helpviewer_keywords: ["*LPWSASERVICECLASSINFOA","*PWSASERVICECLASSINFOA","PWSASERVICECLASSINFOW","PWSASERVICECLASSINFOW structure pointer [Winsock]","WSASERVICECLASSINFO","WSASERVICECLASSINFO structure [Winsock]","WSASERVICECLASSINFOA","WSASERVICECLASSINFOW","_win32_wsaserviceclassinfo_2","winsock.wsaserviceclassinfo_2","winsock2/PWSASERVICECLASSINFOW","winsock2/WSASERVICECLASSINFO","winsock2/WSASERVICECLASSINFOA","winsock2/WSASERVICECLASSINFOW"]
 old-location: winsock\wsaserviceclassinfo_2.htm
 tech.root: WinSock
@@ -89,4 +89,4 @@ Array of <a href="/windows/desktop/api/winsock2/ns-winsock2-wsansclassinfow">WSA
 ## -remarks
 
 > [!NOTE]
-> The winsock2.h header defines WSASERVICECLASSINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSASERVICECLASSINFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

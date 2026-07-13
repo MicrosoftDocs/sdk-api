@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT1_
 title: FWPM_PROVIDER_CONTEXT1 (fwpmtypes.h)
-description: Stores the state associated with a provider context.
+description: Stores the state associated with a provider context. (FWPM_PROVIDER_CONTEXT1)
 old-location: fwp\fwpm_provider_context1_struct.htm
 tech.root: fwp
 ms.assetid: 34727579-9baf-4d50-b973-e864ddf651b0

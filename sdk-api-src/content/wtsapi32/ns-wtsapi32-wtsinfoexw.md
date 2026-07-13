@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSINFOEXW
 title: WTSINFOEXW (wtsapi32.h)
-description: Contains a WTSINFOEX_LEVEL union that contains extended information about a Remote Desktop Services session.
+description: Contains a WTSINFOEX_LEVEL union that contains extended information about a Remote Desktop Services session. (Unicode)
 helpviewer_keywords: ["*PWTSINFOEXW","PWTSINFOEX","PWTSINFOEX structure pointer [Remote Desktop Services]","WTSINFOEX","WTSINFOEX structure [Remote Desktop Services]","WTSINFOEXA","WTSINFOEXW","termserv.wtsinfoex","wtsapi32/PWTSINFOEX","wtsapi32/WTSINFOEX","wtsapi32/WTSINFOEXA","wtsapi32/WTSINFOEXW"]
 old-location: termserv\wtsinfoex.htm
 tech.root: TermServ
@@ -90,4 +90,4 @@ The <b>Data</b> member is a <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-w
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSINFOEX as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

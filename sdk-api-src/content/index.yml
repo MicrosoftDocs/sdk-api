@@ -7,10 +7,8 @@ metadata:
   description: This section provides the Win32 API reference documentation organized by technology areas and header. 
   author: drewbatgit
   ms.author: drewbat
-  ms.date: 10/04/2019
+  ms.date: 07/14/2025
   ms.topic: landing-page
-  ms.prod: windows
-  ms.technology: windows-sdk
   services: sdk
 
   
@@ -31,7 +29,7 @@ landingContent:
           - text: Development tools
             url: https://developer.microsoft.com/windows/downloads
           - text: Windows code samples
-            url: https://developer.microsoft.com/windows/samples
+            url: https://learn.microsoft.com/windows/apps/get-started/samples
 
   # Card
   - title: User Interface and desktop
@@ -216,3 +214,7 @@ landingContent:
             url: /windows/win32/midl
           - text: Compression API
             url: _cmpapi/index.md
+          - text: Activity Coordinator
+            url: _activity_coordinator/index.md
+          - text: Hardware Requirement Evaluator (HWREQCHK)
+            url: _hwreqchk/index.md

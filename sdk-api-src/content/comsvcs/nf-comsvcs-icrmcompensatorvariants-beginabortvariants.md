@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.BeginAbortVariants
 title: ICrmCompensatorVariants::BeginAbortVariants (comsvcs.h)
-description: Notifies the CRM Compensator of the abort phase of the transaction completion and that records are about to be delivered.
+description: Notifies the CRM Compensator of the abort phase of the transaction completion and that records are about to be delivered. (ICrmCompensatorVariants.BeginAbortVariants)
 helpviewer_keywords: ["BeginAbortVariants","BeginAbortVariants method [COM+]","BeginAbortVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","BeginAbortVariants method","ICrmCompensatorVariants.BeginAbortVariants","ICrmCompensatorVariants::BeginAbortVariants","_dtc_ICrmCompensatorVariants_BeginAbortVariants","comsvcs/ICrmCompensatorVariants::BeginAbortVariants","cos.icrmcompensatorvariants_beginabortvariants"]
 old-location: cos\icrmcompensatorvariants_beginabortvariants.htm
 tech.root: cos
@@ -60,7 +60,7 @@ Indicates whether this method is being called during recovery.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

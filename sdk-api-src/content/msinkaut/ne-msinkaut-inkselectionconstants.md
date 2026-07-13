@@ -56,11 +56,11 @@ Specifies whether the first element or all elements within a group of points or 
 
 ## -enum-fields
 
-### -field ISC_FirstElement
+### -field ISC_FirstElement:0
 
 The first element is used.
 
-### -field ISC_AllElements
+### -field ISC_AllElements:-1
 
  All elements are used.
 

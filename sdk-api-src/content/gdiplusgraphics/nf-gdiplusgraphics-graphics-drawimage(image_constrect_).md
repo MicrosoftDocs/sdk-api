@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(Image,constRect&)
 title: Graphics::DrawImage(IN Image,IN const Rect &) (gdiplusgraphics.h)
-description: The Graphics::DrawImage method draws an image.
+description: The Graphics::DrawImage method draws an image. (overload 11/14)
 helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN const Rect &)","Graphics.DrawImage(Image*","const Rect&)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN const Rect &)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_.htm
 tech.root: gdiplus

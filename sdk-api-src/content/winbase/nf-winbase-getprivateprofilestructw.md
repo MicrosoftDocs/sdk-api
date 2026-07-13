@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.GetPrivateProfileStructW
 title: GetPrivateProfileStructW function (winbase.h)
-description: Retrieves the data associated with a key in the specified section of an initialization file.
-helpviewer_keywords: ["GetPrivateProfileStruct","GetPrivateProfileStruct function","GetPrivateProfileStructA","GetPrivateProfileStructW","_win32_getprivateprofilestruct","base.getprivateprofilestruct","winbase/GetPrivateProfileStruct","winbase/GetPrivateProfileStructA","winbase/GetPrivateProfileStructW"]
+description: The GetPrivateProfileStructW (Unicode) function (winbase.h) retrieves the data associated with a key in the specified section of an initialization file.
+helpviewer_keywords: ["GetPrivateProfileStruct", "GetPrivateProfileStruct function", "GetPrivateProfileStructW", "_win32_getprivateprofilestruct", "base.getprivateprofilestruct", "winbase/GetPrivateProfileStruct", "winbase/GetPrivateProfileStructW"]
 old-location: base\getprivateprofilestruct.htm
 tech.root: winprog
 ms.assetid: a14ba43e-d16d-4c52-a8ac-0d4c71229b7b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetPrivateProfileStruct, GetPrivateProfileStruct function, GetPrivateProfileStructA, GetPrivateProfileStructW, _win32_getprivateprofilestruct, base.getprivateprofilestruct, winbase/GetPrivateProfileStruct, winbase/GetPrivateProfileStructA, winbase/GetPrivateProfileStructW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -90,11 +90,15 @@ A section in the initialization file must have the following form:
 				
 			
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=data
       .
       .
-      .</code></pre>
+      .
+```
+
 The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows NT</b>&#92;<b>CurrentVersion</b>&#92;<b>IniFileMapping</b>
 
 
@@ -126,7 +130,7 @@ When looking at values in the registry that specify other registry locations, th
 
 
 > [!NOTE]
-> The winbase.h header defines GetPrivateProfileStruct as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetPrivateProfileStruct as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

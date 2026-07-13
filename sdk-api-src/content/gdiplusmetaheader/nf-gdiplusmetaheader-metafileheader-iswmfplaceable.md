@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::IsWmfPlaceable</b> method determines whether the associated metafile is a placeable metafile.
 
-## -parameters
+
 
 ## -returns
 

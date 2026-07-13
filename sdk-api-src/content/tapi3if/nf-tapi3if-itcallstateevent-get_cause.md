@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCallStateEvent.get_Cause
 title: ITCallStateEvent::get_Cause (tapi3if.h)
-description: The get_Cause method gets the cause associated with this event.
+description: The get_Cause method gets the cause associated with this event. (ITCallStateEvent.get_Cause)
 helpviewer_keywords: ["ITCallStateEvent interface [TAPI 2.2]","get_Cause method","ITCallStateEvent.get_Cause","ITCallStateEvent::get_Cause","_tapi3_itcallstateevent_get_cause","get_Cause","get_Cause method [TAPI 2.2]","get_Cause method [TAPI 2.2]","ITCallStateEvent interface","tapi3.itcallstateevent_get_cause","tapi3if/ITCallStateEvent::get_Cause"]
 old-location: tapi3\itcallstateevent_get_cause.htm
 tech.root: tapi3

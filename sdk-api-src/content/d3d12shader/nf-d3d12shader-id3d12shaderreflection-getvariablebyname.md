@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetVariableByName
 title: ID3D12ShaderReflection::GetVariableByName (d3d12shader.h)
-description: Gets a variable by name.
+description: Gets a variable by name. (ID3D12ShaderReflection.GetVariableByName)
 helpviewer_keywords: ["GetVariableByName","GetVariableByName method","GetVariableByName method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetVariableByName method","ID3D12ShaderReflection.GetVariableByName","ID3D12ShaderReflection::GetVariableByName","d3d12shader/ID3D12ShaderReflection::GetVariableByName","direct3d12.id3d12shaderreflection_getvariablebyname"]
 old-location: direct3d12\id3d12shaderreflection_getvariablebyname.htm
 tech.root: direct3d12

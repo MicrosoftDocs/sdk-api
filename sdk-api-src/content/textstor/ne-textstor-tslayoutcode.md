@@ -56,15 +56,15 @@ Elements of the <b>TsLayoutCode</b> enumeration are used to specify the type of 
 
 ## -enum-fields
 
-### -field TS_LC_CREATE
+### -field TS_LC_CREATE:0
 
 The view has just been created.
 
-### -field TS_LC_CHANGE
+### -field TS_LC_CHANGE:1
 
 The view layout has changed.
 
-### -field TS_LC_DESTROY
+### -field TS_LC_DESTROY:2
 
 The view is about to be destroyed.
 

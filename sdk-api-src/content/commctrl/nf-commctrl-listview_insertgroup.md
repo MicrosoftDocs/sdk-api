@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_InsertGroup","ListView_InsertGroup macro [Window
 old-location: controls\ListView_InsertGroup.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertgroup.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_InsertGroup, ListView_InsertGroup macro [Windows Controls], _win32_ListView_InsertGroup, _win32_ListView_InsertGroup_cpp, commctrl/ListView_InsertGroup, controls.ListView_InsertGroup, controls._win32_ListView_InsertGroup
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_InsertGroup macro
+
+## -syntax
+
+```cpp
+int ListView_InsertGroup(
+   HWND     hwnd,
+   int      index,
+   PLVGROUP pgrp
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the item that the group was added to, or -1 if the operation failed.
 
 
 ## -description

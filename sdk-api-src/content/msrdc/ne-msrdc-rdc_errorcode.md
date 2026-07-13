@@ -58,7 +58,7 @@ The
 
 ## -enum-fields
 
-### -field RDC_NoError
+### -field RDC_NoError:0
 
 The operation was completed successfully.
 

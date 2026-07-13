@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPrivateEvent.get_CallHub
 title: ITPrivateEvent::get_CallHub (tapi3if.h)
-description: The get_CallHub method returns a pointer to the ITCallHub interface on which the event occurred.
+description: The get_CallHub method returns a pointer to the ITCallHub interface on which the event occurred. (ITPrivateEvent.get_CallHub)
 helpviewer_keywords: ["ITPrivateEvent interface [TAPI 2.2]","get_CallHub method","ITPrivateEvent.get_CallHub","ITPrivateEvent::get_CallHub","_tapi3_itprivateevent_get_callhub","get_CallHub","get_CallHub method [TAPI 2.2]","get_CallHub method [TAPI 2.2]","ITPrivateEvent interface","tapi3.itprivateevent_get_callhub","tapi3if/ITPrivateEvent::get_CallHub"]
 old-location: tapi3\itprivateevent_get_callhub.htm
 tech.root: tapi3

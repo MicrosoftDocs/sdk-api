@@ -75,7 +75,7 @@ A pointer to a string that represents the DNS name to query.
 
 ### -field QueryType
 
-A value that represents the Resource Record (RR) <a href="/windows/desktop/DNS/dns-constants">DNS Record Type</a> that is queried. <b>QueryType</b> determines the format of data pointed to by <b>pQueryRecords</b> returned in the <a href="/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a> structure. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the format of data pointed to by <b>pQueryRecords</b> is <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
+A value that represents the Resource Record (RR) <a href="/windows/desktop/DNS/dns-constants">DNS Record Type</a> that is queried. <b>QueryType</b> determines the format of data pointed to by <b>pQueryRecords</b> returned in the <a href="/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a> structure. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the format of data pointed to by <b>pQueryRecords</b> is <a href="/windows/win32/api/windns/nf-windns-dnsquery_a">DNS_A_DATA</a>.
 
 ### -field QueryOptions
 
@@ -83,7 +83,7 @@ A value that contains a bitmap of <a href="/windows/desktop/DNS/dns-constants">D
 
 ### -field pDnsServerList
 
-A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_addr_array">DNS_ADDR_ARRAY</a> structure that contains a list of DNS servers to use in the query.
+A pointer to a <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_addr_array">DNS_ADDR_ARRAY</a> structure that contains a list of DNS servers to use in the query.
 
 ### -field InterfaceIndex
 

@@ -56,7 +56,7 @@ Represents the current transaction state of the transaction.
 
 ## -enum-fields
 
-### -field TxState_Active
+### -field TxState_Active:0
 
 The transaction is active.
 

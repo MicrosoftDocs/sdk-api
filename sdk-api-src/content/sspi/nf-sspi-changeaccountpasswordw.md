@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.ChangeAccountPasswordW
 title: ChangeAccountPasswordW function (sspi.h)
-description: Changes the password for a Windows domain account by using the specified Security Support Provider.
-helpviewer_keywords: ["ChangeAccountPassword","ChangeAccountPassword function [Security]","ChangeAccountPasswordA","ChangeAccountPasswordW","security.changeaccountpassword","sspi/ChangeAccountPassword","sspi/ChangeAccountPasswordA","sspi/ChangeAccountPasswordW"]
+description: Changes the password for a Windows domain account by using the specified Security Support Provider. (Unicode)
+helpviewer_keywords: ["ChangeAccountPassword", "ChangeAccountPassword function [Security]", "ChangeAccountPasswordW", "security.changeaccountpassword", "sspi/ChangeAccountPassword", "sspi/ChangeAccountPasswordW"]
 old-location: security\changeaccountpassword.htm
 tech.root: security
 ms.assetid: a1d1e315-d1a2-499a-b552-83180508271f
@@ -99,4 +99,4 @@ If the function fails, it returns an error code.
 ## -remarks
 
 > [!NOTE]
-> The sspi.h header defines ChangeAccountPassword as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The sspi.h header defines ChangeAccountPassword as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

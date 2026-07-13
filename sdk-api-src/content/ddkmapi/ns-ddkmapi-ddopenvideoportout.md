@@ -60,7 +60,7 @@ The DDOPENVIDEOPORTOUT structure contains a Microsoft DirectDraw return code and
 
 ### -field ddRVal
 
-Specifies the location in which DirectDraw writes the return value of the <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff551498(v=vs.85)">DD_DXAPI_OPENVIDEOPORT</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which DirectDraw writes the return value of the <a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff551498(v=vs.85)">DD_DXAPI_OPENVIDEOPORT</a> operations. A return code of DD_OK indicates success.
 
 ### -field hVideoPort
 
@@ -72,4 +72,4 @@ Handle to the new VPE object.
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

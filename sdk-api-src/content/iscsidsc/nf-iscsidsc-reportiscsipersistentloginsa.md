@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportIScsiPersistentLoginsA
 title: ReportIScsiPersistentLoginsA function (iscsidsc.h)
-description: ReportIscsiPersistentLogins function retrieves the list of persistent login targets.
-helpviewer_keywords: ["ReportIScsiPersistentLoginsA","ReportIscsiPersistentLogins","ReportIscsiPersistentLogins function [iSCSI Discovery Library API]","ReportIscsiPersistentLoginsA","ReportIscsiPersistentLoginsW","iscsidisc.reportiscsipersistentlogins","iscsidsc/ReportIscsiPersistentLogins","iscsidsc/ReportIscsiPersistentLoginsA","iscsidsc/ReportIscsiPersistentLoginsW"]
+description: ReportIscsiPersistentLogins function retrieves the list of persistent login targets. (ANSI)
+helpviewer_keywords: ["ReportIScsiPersistentLoginsA", "ReportIscsiPersistentLoginsA", "iscsidsc/ReportIscsiPersistentLoginsA"]
 old-location: iscsidisc\reportiscsipersistentlogins.htm
 tech.root: iSCSIDisc
 ms.assetid: 0ab1a864-b44e-4307-9f7c-93cc0d40ff3a
@@ -83,7 +83,7 @@ The <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-persist
 
 
 > [!NOTE]
-> The iscsidsc.h header defines ReportIScsiPersistentLogins as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines ReportIScsiPersistentLogins as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

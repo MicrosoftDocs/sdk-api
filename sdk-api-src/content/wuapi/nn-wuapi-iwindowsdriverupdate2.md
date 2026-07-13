@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdate2
 title: IWindowsDriverUpdate2 (wuapi.h)
-description: Contains the properties and methods that are available only from a Windows driver update.
+description: Contains the properties and methods that are available only from a Windows driver update. (IWindowsDriverUpdate2)
 helpviewer_keywords: ["IWindowsDriverUpdate2","IWindowsDriverUpdate2 interface [Windows Update Agent]","IWindowsDriverUpdate2 interface [Windows Update Agent]","described","wua.iwindowsdriverupdate2","wuapi/IWindowsDriverUpdate2"]
 old-location: wua\iwindowsdriverupdate2.htm
 tech.root: wua
@@ -54,11 +54,7 @@ Contains the properties and methods that are available only from a Windows drive
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsDriverUpdate2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>. <b>IWindowsDriverUpdate2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IWindowsDriverUpdate2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>. <b>IWindowsDriverUpdate2</b> also has these types of members:
 
 ## -remarks
 

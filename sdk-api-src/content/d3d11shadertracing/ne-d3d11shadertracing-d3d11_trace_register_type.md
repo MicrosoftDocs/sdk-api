@@ -54,7 +54,7 @@ Identifies a type of trace register.
 
 ## -enum-fields
 
-### -field D3D11_TRACE_OUTPUT_NULL_REGISTER
+### -field D3D11_TRACE_OUTPUT_NULL_REGISTER:0
 
 Output <b>NULL</b> register.
 

@@ -53,7 +53,7 @@ api_name:
 
 Resets the Advanced Systems Format (ASF) splitter and releases all pending samples.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineParkW
 title: lineParkW function (tapi.h)
-description: The linePark function parks the specified call according to the specified park mode.
-helpviewer_keywords: ["_tapi2_linepark","linePark","linePark function [TAPI 2.2]","lineParkA","lineParkW","tapi/linePark","tapi/lineParkA","tapi/lineParkW","tapi2.linepark"]
+description: The lineParkW (Unicode) function (tapi.h) parks the specified call according to the specified park mode.
+helpviewer_keywords: ["_tapi2_linepark", "linePark", "linePark function [TAPI 2.2]", "lineParkW", "tapi/linePark", "tapi/lineParkW", "tapi2.linepark"]
 old-location: tapi2\linepark.htm
 tech.root: tapi3
 ms.assetid: a6198229-a6db-43ef-9ef6-957429f270cc
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linepark, linePark, linePark function [TAPI 2.2], lineParkA, lineParkW, tapi/linePark, tapi/lineParkA, tapi/lineParkW, tapi2.linepark
 req.header: tapi.h
 req.include-header: 
@@ -103,7 +103,7 @@ On a nondirected park, if the <b>dwTotalSize</b> member in the
 
 
 > [!NOTE]
-> The tapi.h header defines linePark as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines linePark as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

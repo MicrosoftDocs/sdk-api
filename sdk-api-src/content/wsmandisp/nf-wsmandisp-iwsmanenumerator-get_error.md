@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.get_Error
 title: IWSManEnumerator::get_Error (wsmandisp.h)
-description: Gets an XML representation of additional error information.
+description: Gets an XML representation of additional error information. (IWSManEnumerator.get_Error)
 helpviewer_keywords: ["Error property [Windows Remote Management]","Error property [Windows Remote Management]","IWSManEnumerator interface","IWSManEnumerator interface [Windows Remote Management]","Error property","IWSManEnumerator.Error","IWSManEnumerator.get_Error","IWSManEnumerator::Error","IWSManEnumerator::get_Error","get_Error","winrm.iwsmanenumerator_error","wsmandisp/IWSManEnumerator::Error","wsmandisp/IWSManEnumerator::get_Error"]
 old-location: winrm\iwsmanenumerator_error.htm
 tech.root: winrm

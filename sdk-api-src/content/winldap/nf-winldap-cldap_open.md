@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.cldap_open
 title: cldap_open function (winldap.h)
-description: Establishes a session with an LDAP server over a connectionless User Datagram Protocol (UDP) service.
+description: The cldap_open function (winldap.h) establishes a session with an LDAP server over a connectionless User Datagram Protocol (UDP) service. 
 helpviewer_keywords: ["_ldap_cldap_open","cldap_open","cldap_open function [LDAP]","cldap_openA","cldap_openW","ldap.cldap__open","ldap.cldap_open","winldap/cldap_open","winldap/cldap_openA","winldap/cldap_openW"]
 old-location: ldap\cldap_open.htm
 tech.root: ldap
 ms.assetid: 9dc62bb8-8569-4682-bfc7-7721af287318
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_cldap_open, cldap_open, cldap_open function [LDAP], cldap_openA, cldap_openW, ldap.cldap__open, ldap.cldap_open, winldap/cldap_open, winldap/cldap_openA, winldap/cldap_openW
 req.header: winldap.h
 req.include-header: 

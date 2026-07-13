@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowInboundRouterRequest
 title: INetFwIcmpSettings::get_AllowInboundRouterRequest (netfw.h)
-description: Indicates whether this is allowed.
+description: Indicates whether this is allowed. (INetFwIcmpSettings.get_AllowInboundRouterRequest)
 helpviewer_keywords: ["AllowInboundRouterRequest property [ICS/ICF]","AllowInboundRouterRequest property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowInboundRouterRequest property","INetFwIcmpSettings.AllowInboundRouterRequest","INetFwIcmpSettings.get_AllowInboundRouterRequest","INetFwIcmpSettings::AllowInboundRouterRequest","INetFwIcmpSettings::get_AllowInboundRouterRequest","INetFwIcmpSettings::put_AllowInboundRouterRequest","get_AllowInboundRouterRequest","ics.inetfwicmpsettings_allowinboundrouterrequest","netfw/INetFwIcmpSettings::AllowInboundRouterRequest","netfw/INetFwIcmpSettings::get_AllowInboundRouterRequest","netfw/INetFwIcmpSettings::put_AllowInboundRouterRequest"]
 old-location: ics\inetfwicmpsettings_allowinboundrouterrequest.htm
 tech.root: ics

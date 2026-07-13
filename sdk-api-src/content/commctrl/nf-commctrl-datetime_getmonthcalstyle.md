@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_GetMonthCalStyle","DateTime_GetMonthCalStyle mac
 old-location: controls\DateTime_GetMonthCalStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalstyle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_GetMonthCalStyle, DateTime_GetMonthCalStyle macro [Windows Controls], _shell_DateTime_GetMonthCalStyle, _shell_DateTime_GetMonthCalStyle_cpp, commctrl/DateTime_GetMonthCalStyle, controls.DateTime_GetMonthCalStyle, controls._shell_DateTime_GetMonthCalStyle
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # DateTime_GetMonthCalStyle macro
+
+## -syntax
+
+```cpp
+LRESULT DateTime_GetMonthCalStyle(
+  [in] HWND hdp
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the style value of the control. For more information see Month Calendar Control Styles.
 
 
 ## -description

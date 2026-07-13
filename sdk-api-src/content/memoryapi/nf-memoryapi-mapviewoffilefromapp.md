@@ -1,12 +1,12 @@
 ---
 UID: NF:memoryapi.MapViewOfFileFromApp
 title: MapViewOfFileFromApp function (memoryapi.h)
-description: Maps a view of a file mapping into the address space of a calling Windows Store app.
+description: Maps a view of a file mapping into the address space of a calling Windows Store app. (MapViewOfFileFromApp)
 helpviewer_keywords: ["FILE_MAP_ALL_ACCESS","FILE_MAP_COPY","FILE_MAP_LARGE_PAGES","FILE_MAP_READ","FILE_MAP_TARGETS_INVALID","FILE_MAP_WRITE","MapViewOfFileFromApp","MapViewOfFileFromApp function","base.mapviewoffilefromapp","memoryapi/MapViewOfFileFromApp"]
 old-location: base\mapviewoffilefromapp.htm
 tech.root: base
 ms.assetid: 59369959-3347-44d0-8b08-5c38ac58fdb0
-ms.date: 12/05/2018
+ms.date: 10/30/2024
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileFromApp, MapViewOfFileFromApp function, base.mapviewoffilefromapp, memoryapi/MapViewOfFileFromApp
 req.header: memoryapi.h
 req.include-header: Windows.h
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
+ - api-ms-win-core-memory-l1-1-7.dll
+ - api-ms-win-core-memory-l1-1-6.dll
+ - api-ms-win-core-memory-l1-1-5.dll
  - Kernel32.dll
  - API-MS-Win-Core-memory-l1-1-1.dll
  - KernelBase.dll
@@ -137,7 +142,7 @@ Using bitwise OR, you can combine the values above with these values.
 </td>
 <td width="60%">
 A copy-on-write view of the file is mapped. The file mapping object must have been created with 
-         <b>PAGE_READONLY</b>, <b>PAGE_READ_EXECUTE</b>, 
+         <b>PAGE_READONLY</b>, <b>PAGE_EXECUTE_READ</b>, 
          <b>PAGE_WRITECOPY</b>, or 
          <b>PAGE_READWRITE</b> protection.
 

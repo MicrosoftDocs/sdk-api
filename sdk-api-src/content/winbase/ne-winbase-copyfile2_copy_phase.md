@@ -58,7 +58,7 @@ Indicates the phase of a copy at the time of an error. This is used in the
 
 ## -enum-fields
 
-### -field COPYFILE2_PHASE_NONE
+### -field COPYFILE2_PHASE_NONE:0
 
 The copy had not yet started processing.
 

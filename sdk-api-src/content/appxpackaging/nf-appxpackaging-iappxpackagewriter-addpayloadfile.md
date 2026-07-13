@@ -141,11 +141,11 @@ The file name specified is already in use in the package.
 When the <b>AddPayloadFile</b> method succeeds the contents of the specified <i>fileName</i> are written to the package and a corresponding entry is made in the package block map.
 
 
-<div class="alert"><b>Note</b>  Files with the following reserved filenames cannnot be added to the package using the <b>AddPayloadFile</b> method:
+<div class="alert"><b>Note</b>  Files with the following reserved filenames cannot be added to the package using the <b>AddPayloadFile</b> method:
 
 `AppxManifest.xml`, `AppxBlockMap.xml`, `AppxStreamMap.xml`, and `AppxSignature.p7x`.
 
-Also, files with the following reserved folder prefixes cannnot be added to the package using the <b>AddPayloadFile</b> method: `\AppxMetadata\` and `\Microsoft.System.Package.Metadata\`. 
+Also, files with the following reserved folder prefixes cannot be added to the package using the <b>AddPayloadFile</b> method: `\AppxMetadata\` and `\Microsoft.System.Package.Metadata\`. 
 
 
 

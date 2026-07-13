@@ -1,12 +1,12 @@
 ---
 UID: NF:msacm.acmFilterEnumW
 title: acmFilterEnumW function (msacm.h)
-description: The acmFilterEnum function enumerates waveform-audio filters available for a given filter tag from an ACM driver. This function continues enumerating until there are no more suitable filters for the filter tag or the callback function returns FALSE.
-helpviewer_keywords: ["_win32_acmFilterEnum","acmFilterEnum","acmFilterEnum function [Windows Multimedia]","acmFilterEnumA","acmFilterEnumW","msacm/acmFilterEnum","msacm/acmFilterEnumA","msacm/acmFilterEnumW","multimedia.acmfilterenum"]
+description: The acmFilterEnum (Unicode) function enumerates waveform-audio filters available for a given filter tag from an ACM driver. This function continues enumerating until there are no more suitable filters for the filter tag or the callback function returns FALSE. (acmFilterEnumW)
+helpviewer_keywords: ["_win32_acmFilterEnum", "acmFilterEnum", "acmFilterEnum function [Windows Multimedia]", "acmFilterEnumW", "msacm/acmFilterEnum", "msacm/acmFilterEnumW", "multimedia.acmfilterenum"]
 old-location: multimedia\acmfilterenum.htm
 tech.root: Multimedia
 ms.assetid: ee8154d6-3aa1-49ce-96c5-7b8526f02a8a
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFilterEnum, acmFilterEnum, acmFilterEnum function [Windows Multimedia], acmFilterEnumA, acmFilterEnumW, msacm/acmFilterEnum, msacm/acmFilterEnumA, msacm/acmFilterEnumW, multimedia.acmfilterenum
 req.header: msacm.h
 req.include-header: 
@@ -156,7 +156,7 @@ The following functions should not be called from within the callback function: 
 
 
 > [!NOTE]
-> The msacm.h header defines acmFilterEnum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The msacm.h header defines acmFilterEnum as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVDecDDOperationalMode","codecapi/eAVDecDDOpera
 old-location: dshow\eavdecddoperationalmode.htm
 tech.root: dshow
 ms.assetid: 00d3f086-eaba-4bd2-ba77-401101e92570
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVDecDDOperationalMode, codecapi/eAVDecDDOperationalMode_CUSTOM0, codecapi/eAVDecDDOperationalMode_CUSTOM1, codecapi/eAVDecDDOperationalMode_LINE, codecapi/eAVDecDDOperationalMode_NONE, codecapi/eAVDecDDOperationalMode_PORTABLE11, codecapi/eAVDecDDOperationalMode_PORTABLE14, codecapi/eAVDecDDOperationalMode_PORTABLE8, codecapi/eAVDecDDOperationalMode_RF, dshow.eavdecddoperationalmode, eAVDecDDOperationalMode, eAVDecDDOperationalMode enumeration [DirectShow], eAVDecDDOperationalModeEnumeration, eAVDecDDOperationalMode_CUSTOM0, eAVDecDDOperationalMode_CUSTOM1, eAVDecDDOperationalMode_LINE, eAVDecDDOperationalMode_NONE, eAVDecDDOperationalMode_PORTABLE11, eAVDecDDOperationalMode_PORTABLE14, eAVDecDDOperationalMode_PORTABLE8, eAVDecDDOperationalMode_RF
 req.header: codecapi.h
 req.include-header: 
@@ -50,39 +50,41 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Specifies the compression control mode for a Dolby AC-3 or Dolby Enhanced AC-3 audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecddoperationalmode-property">AVDecDDOperationalMode</a> property.
 
 ## -enum-fields
 
-### -field eAVDecDDOperationalMode_NONE
+### -field eAVDecDDOperationalMode_NONE:0
 
 No dynamic range control or dialogue normalization (dialnorm). This mode should be used only for signal tests.
 
-### -field eAVDecDDOperationalMode_LINE
+### -field eAVDecDDOperationalMode_LINE:1
 
 Line mode. Dialnorm is enabled with a reference level of -31 decibels full scale (dBFS). Dynamic range control is applied, and high-level/low-level scaling is enabled. To set the high-level scaling factor, set the <a href="/windows/desktop/DirectShow/avdecdddynamicrangescalehigh-property">AVDecDDDynamicRangeScaleHigh</a> property. To set the low-level scaling factor, set the <a href="/windows/desktop/DirectShow/avdecdddynamicrangescalelow-property">AVDecDDDynamicRangeScaleLow</a> property.
 
-### -field eAVDecDDOperationalMode_RF
+### -field eAVDecDDOperationalMode_RF:2
 
 RF mode. Dialnorm is enabled with a reference level of -20 dBFS. Dynamic range control is applied. High-level/low-level scaling is disabled; instead, the maximum dynamic range reduction is applied.
 
-### -field eAVDecDDOperationalMode_CUSTOM0
+### -field eAVDecDDOperationalMode_CUSTOM0:3
 
 Custom mode 0 (analog dialnorm).
 
-### -field eAVDecDDOperationalMode_CUSTOM1
+### -field eAVDecDDOperationalMode_CUSTOM1:4
 
 Custom mode 1 (digital dialnorm).
 
-### -field eAVDecDDOperationalMode_PORTABLE8
+### -field eAVDecDDOperationalMode_PORTABLE8:5
 
 Dialnorm enabled, dialogue at -8dBFS. Dynamic range and compression used. High-level/low-level scaling is not allowed (always fully compressed).
 
-### -field eAVDecDDOperationalMode_PORTABLE11
+### -field eAVDecDDOperationalMode_PORTABLE11:6
 
 Dialnorm enabled, dialogue at -11dBFS. Dynamic range and compression used. High-level/low-level scaling is not allowed (always fully compressed).
 
-### -field eAVDecDDOperationalMode_PORTABLE14
+### -field eAVDecDDOperationalMode_PORTABLE14:7 
 
 Dialnorm enabled, dialogue at -14dBFS. Dynamic range and compression used. High-level/low-level scaling is not allowed (always fully compressed).
 

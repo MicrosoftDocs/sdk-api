@@ -53,7 +53,7 @@ api_name:
 
 The <b>Graphics::Save</b> method saves the current state (transformations, clipping region, and quality settings) of this <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. You can restore the state later by calling the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a> method.
 
-## -parameters
+
 
 ## -returns
 

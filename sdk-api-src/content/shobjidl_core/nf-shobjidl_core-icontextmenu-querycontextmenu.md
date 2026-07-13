@@ -132,7 +132,7 @@ Optional flags that specify how the shortcut menu can be changed. This parameter
 
 This value is not available.
 
-<b>Windows Server 2003 and Windows XP:  </b>0x00000040. A static menu is being constructed. Only the browser should use this flag; all other shortcut menu extensions should ignore it.
+<b>Windows Server 2003 and Windows XP:</b> 0x00000040. A static menu is being constructed. Only the browser should use this flag; all other shortcut menu extensions should ignore it.
 
 
 
@@ -184,7 +184,7 @@ This value is not available.
 
 #### CMF_DONOTPICKDEFAULT (0x00002000)
 
-0x00001000. When no verb is explicitly specified, do not use a default verb in its place.
+0x00002000. When no verb is explicitly specified, do not use a default verb in its place.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not available.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CVssWriter.OnContinueIOOnVolume
 title: CVssWriter::OnContinueIOOnVolume (vswriter.h)
-description: Not supported.
+description: Not supported. (CVssWriter.OnContinueIOOnVolume)
 helpviewer_keywords: ["CVssWriter interface [VSS]","OnContinueIOOnVolume method","CVssWriter.OnContinueIOOnVolume","CVssWriter::OnContinueIOOnVolume","OnContinueIOOnVolume","OnContinueIOOnVolume method [VSS]","OnContinueIOOnVolume method [VSS]","CVssWriter interface","_win32_cvsswriter_oncontinueioonvolume","base.cvsswriter_oncontinueioonvolume","vswriter/CVssWriter::OnContinueIOOnVolume"]
 old-location: base\cvsswriter_oncontinueioonvolume.htm
 tech.root: base

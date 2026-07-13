@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetMessage
 title: ID3D11InfoQueue::GetMessage (d3d11sdklayers.h)
-description: Get a message from the message queue.
+description: Get a message from the message queue. (ID3D11InfoQueue.GetMessage)
 helpviewer_keywords: ["GetMessage","GetMessage method [Direct3D 11]","GetMessage method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","GetMessage method","ID3D11InfoQueue.GetMessage","ID3D11InfoQueue::GetMessage","d3d11sdklayers/ID3D11InfoQueue::GetMessage","direct3d11.id3d11infoqueue_getmessage","fcb657d8-1742-cfff-a8cc-5af0bec46085"]
 old-location: direct3d11\id3d11infoqueue_getmessage.htm
 tech.root: direct3d11

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetMenuItemInfoW
 title: GetMenuItemInfoW function (winuser.h)
-description: Retrieves information about a menu item.
-helpviewer_keywords: ["GetMenuItemInfo","GetMenuItemInfo function [Menus and Other Resources]","GetMenuItemInfoA","GetMenuItemInfoW","_win32_GetMenuItemInfo","_win32_getmenuiteminfo_cpp","menurc.getmenuiteminfo","winui._win32_getmenuiteminfo","winuser/GetMenuItemInfo","winuser/GetMenuItemInfoA","winuser/GetMenuItemInfoW"]
+description: Retrieves information about a menu item. (Unicode)
+helpviewer_keywords: ["GetMenuItemInfo", "GetMenuItemInfo function [Menus and Other Resources]", "GetMenuItemInfoW", "_win32_GetMenuItemInfo", "_win32_getmenuiteminfo_cpp", "menurc.getmenuiteminfo", "winui._win32_getmenuiteminfo", "winuser/GetMenuItemInfo", "winuser/GetMenuItemInfoW"]
 old-location: menurc\getmenuiteminfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuiteminfo.htm
@@ -77,7 +77,7 @@ The identifier or position of the menu item to get information about. The meanin
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">Accessing Menu Items Programmatically</a> for more information.
+The meaning of <i>Item</i>. If this parameter is <b>FALSE</b>, <i>Item</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">Accessing Menu Items Programmatically</a> for more information.
 
 ### -param lpmii [in, out]
 
@@ -110,7 +110,7 @@ For an example, see <a href="/windows/desktop/menurc/using-menus">Example of Own
 
 
 > [!NOTE]
-> The winuser.h header defines GetMenuItemInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetMenuItemInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

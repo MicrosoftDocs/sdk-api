@@ -4,7 +4,8 @@ title: Mmstream.h header
 ms.assetid: ef67fdfa-597a-3ddd-bc70-7dc48571bbfc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: dshow
 archived: true
 f1_keywords:

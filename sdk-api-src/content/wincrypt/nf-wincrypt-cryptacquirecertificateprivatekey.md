@@ -2,12 +2,12 @@
 UID: NF:wincrypt.CryptAcquireCertificatePrivateKey
 title: CryptAcquireCertificatePrivateKey function (wincrypt.h)
 description: Obtains the private key for a certificate.
-helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CERT_NCRYPT_KEY_SPEC","CRYPT_ACQUIRE_ WINDOWS_HANDLE_FLAG","CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_CACHE_FLAG","CRYPT_ACQUIRE_COMPARE_KEY_FLAG","CRYPT_ACQUIRE_NO_HEALING","CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_SILENT_FLAG","CRYPT_ACQUIRE_USE_PROV_INFO_FLAG","CryptAcquireCertificatePrivateKey","CryptAcquireCertificatePrivateKey function [Security]","_crypto2_cryptacquirecertificateprivatekey","security.cryptacquirecertificateprivatekey","wincrypt/CryptAcquireCertificatePrivateKey"]
+helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CERT_NCRYPT_KEY_SPEC","CRYPT_ACQUIRE_WINDOW_HANDLE_FLAG","CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_CACHE_FLAG","CRYPT_ACQUIRE_COMPARE_KEY_FLAG","CRYPT_ACQUIRE_NO_HEALING","CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG","CRYPT_ACQUIRE_SILENT_FLAG","CRYPT_ACQUIRE_USE_PROV_INFO_FLAG","CryptAcquireCertificatePrivateKey","CryptAcquireCertificatePrivateKey function [Security]","_crypto2_cryptacquirecertificateprivatekey","security.cryptacquirecertificateprivatekey","wincrypt/CryptAcquireCertificatePrivateKey"]
 old-location: security\cryptacquirecertificateprivatekey.htm
 tech.root: security
 ms.assetid: 53c9aec9-701d-4c21-9814-d344a8dde0c1
 ms.date: 12/05/2018
-ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_ACQUIRE_ WINDOWS_HANDLE_FLAG, CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_CACHE_FLAG, CRYPT_ACQUIRE_COMPARE_KEY_FLAG, CRYPT_ACQUIRE_NO_HEALING, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_SILENT_FLAG, CRYPT_ACQUIRE_USE_PROV_INFO_FLAG, CryptAcquireCertificatePrivateKey, CryptAcquireCertificatePrivateKey function [Security], _crypto2_cryptacquirecertificateprivatekey, security.cryptacquirecertificateprivatekey, wincrypt/CryptAcquireCertificatePrivateKey
+ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_ACQUIRE_WINDOW_HANDLE_FLAG, CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_CACHE_FLAG, CRYPT_ACQUIRE_COMPARE_KEY_FLAG, CRYPT_ACQUIRE_NO_HEALING, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_SILENT_FLAG, CRYPT_ACQUIRE_USE_PROV_INFO_FLAG, CryptAcquireCertificatePrivateKey, CryptAcquireCertificatePrivateKey function [Security], _crypto2_cryptacquirecertificateprivatekey, security.cryptacquirecertificateprivatekey, wincrypt/CryptAcquireCertificatePrivateKey
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -134,8 +134,8 @@ This function will only use caching if during a previous call, the <i>dwFlags</i
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="CRYPT_ACQUIRE__WINDOWS_HANDLE_FLAG"></a><a id="crypt_acquire__windows_handle_flag"></a><dl>
-<dt><b>CRYPT_ACQUIRE_	WINDOWS_HANDLE_FLAG</b></dt>
+<td width="40%"><a id="CRYPT_ACQUIRE_WINDOW_HANDLE_FLAG"></a><a id="crypt_acquire_window_handle_flag"></a><dl>
+<dt><b>CRYPT_ACQUIRE_WINDOW_HANDLE_FLAG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -209,7 +209,7 @@ The <i>pdwKeySpec</i> variable receives the <b>CERT_NCRYPT_KEY_SPEC</b> flag if 
 
 ### -param pvParameters [in, optional]
 
-If the <b>CRYPT_ACQUIRE_WINDOWS_HANDLE_FLAG</b>  is set, then this is the address of an <b>HWND</b>. If the <b>CRYPT_ACQUIRE_WINDOWS_HANDLE_FLAG</b> is not set, then this parameter must be <b>NULL</b>.
+If the <b>CRYPT_ACQUIRE_WINDOW_HANDLE_FLAG</b>  is set, then this is the address of an <b>HWND</b>. If the <b>CRYPT_ACQUIRE_WINDOW_HANDLE_FLAG</b> is not set, then this parameter must be <b>NULL</b>.
 
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This parameter was  named <i>pvReserved</i> and reserved for future use and must be <b>NULL</b>.
@@ -317,7 +317,7 @@ The <i>dwFlags</i> parameter contained the <b>CRYPT_ACQUIRE_SILENT_FLAG</b> flag
 
 ## -remarks
 
-When <b>CRYPT_ACQUIRE_WINDOWS_HANDLE_FLAG</b> is set, the caller must ensure the <b>HWND</b> is valid. If the <b>HWND</b> is no longer valid, for CSP the caller should call <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> using flag PP_CLIENT_HWND with <b>NULL</b> for the <b>HWND</b> and <b>NULL</b>  for the HCRYPTPROV. For KSP, the caller should set the  NCRYPT_WINDOW_HANDLE_PROPERTY of the ncrypt key to be <b>NULL</b>. When <b>CRYPT_ACQUIRE_WINDOWS_HANDLE_FLAG</b> flag is set for KSP, the NCRYPT_WINDOW_HANDLE_PROPERTY is set on the storage provider and the key. If both calls fail, then the function fails. If only one fails, the function succeeds. Note that setting <b>HWND</b> to <b>NULL</b>  effectively removes <b>HWND</b> from the HCRYPTPROV or ncrypt key.
+When <b>CRYPT_ACQUIRE_WINDOW_HANDLE_FLAG</b> is set, the caller must ensure the <b>HWND</b> is valid. If the <b>HWND</b> is no longer valid, for CSP the caller should call <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> using flag PP_CLIENT_HWND with <b>NULL</b> for the <b>HWND</b> and <b>NULL</b>  for the HCRYPTPROV. For KSP, the caller should set the  NCRYPT_WINDOW_HANDLE_PROPERTY of the ncrypt key to be <b>NULL</b>. When <b>CRYPT_ACQUIRE_WINDOW_HANDLE_FLAG</b> flag is set for KSP, the NCRYPT_WINDOW_HANDLE_PROPERTY is set on the storage provider and the key. If both calls fail, then the function fails. If only one fails, the function succeeds. Note that setting <b>HWND</b> to <b>NULL</b>  effectively removes <b>HWND</b> from the HCRYPTPROV or ncrypt key.
 
 
 #### Examples

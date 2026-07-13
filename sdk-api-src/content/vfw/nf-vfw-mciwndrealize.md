@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndRealize","MCIWndRealize macro [Windows Multimedia]"
 old-location: multimedia\mciwndrealize.htm
 tech.root: Multimedia
 ms.assetid: 56230397-bdb2-4996-90a1-49c2f9a7e651
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndRealize, MCIWndRealize macro [Windows Multimedia], _win32_MCIWndRealize, multimedia.mciwndrealize, vfw/MCIWndRealize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndRealize macro
+
+## -syntax
+
+```cpp
+LONG MCIWndRealize(
+     hwnd,
+     fBkgnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Button_GetNoteLength","Button_GetNoteLength macro [Window
 old-location: controls\Button_GetNoteLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnotelength.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Button_GetNoteLength, Button_GetNoteLength macro [Windows Controls], _shell_Button_GetNoteLength, _shell_Button_GetNoteLength_cpp, commctrl/Button_GetNoteLength, controls.Button_GetNoteLength, controls._shell_Button_GetNoteLength
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,19 @@ api_name:
 
 # Button_GetNoteLength macro
 
+## -syntax
+
+```cpp
+LRESULT Button_GetNoteLength(
+  [in] HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the length of the note text in <b>WCHAR</b>s, not including any terminating <b>NULL</b>, or zero if there is no note text.
 
 ## -description
 

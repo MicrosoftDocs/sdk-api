@@ -6,7 +6,7 @@ helpviewer_keywords: ["QueryUnbiasedInterruptTime","QueryUnbiasedInterruptTime f
 old-location: base\queryunbiasedinterrupttime.htm
 tech.root: winprog
 ms.assetid: f9cf5440-9be9-4ff9-b85c-2779b847954c
-ms.date: 12/05/2018
+ms.date: 09/26/2024
 ms.keywords: QueryUnbiasedInterruptTime, QueryUnbiasedInterruptTime function, base.queryunbiasedinterrupttime, realtimeapiset/QueryUnbiasedInterruptTime
 req.header: realtimeapiset.h
 req.include-header: Windows.h
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-realtime-l1-1-2.dll
  - kernel32.dll
  - API-MS-Win-Core-realtime-l1-1-0.dll
  - KernelBase.dll
@@ -84,7 +85,7 @@ Unlike system time, the interrupt-time count is not subject to adjustments by us
 
 The  timer resolution set by the <a href="/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a> and <a href="/windows/desktop/api/timeapi/nf-timeapi-timeendperiod">timeEndPeriod</a> functions affects the resolution of  the <b>QueryUnbiasedInterruptTime</b> function. However, increasing the timer resolution is not recommended because it can reduce overall system performance and   increase system power consumption by preventing the processor from entering power-saving states. Instead, applications should use a high-resolution timer.
 
-<div class="alert"><b>Note</b>  The <b>QueryUnbiasedInterruptTime</b> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="https://msdn.microsoft.com/default.aspx">Microsoft Developer Network (MSDN)</a> Web site.</div>
+<div class="alert"><b>Note</b>  The <b>QueryUnbiasedInterruptTime</b> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time.</div>
 <div> </div>
 To compile an application that uses this function, define _WIN32_WINNT as 0x0601 or later. For more information, see 
 <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

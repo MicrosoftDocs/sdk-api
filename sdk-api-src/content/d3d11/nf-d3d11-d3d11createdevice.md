@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.D3D11CreateDevice
 title: D3D11CreateDevice function (d3d11.h)
-description: Creates a device that represents the display adapter.
+description: Creates a device that represents the display adapter. (D3D11CreateDevice)
 helpviewer_keywords: ["763ee631-eef7-d99f-1d0d-58e3651843f9","D3D11CreateDevice","D3D11CreateDevice function [Direct3D 11]","d3d11/D3D11CreateDevice","direct3d11.d3d11createdevice"]
 old-location: direct3d11\d3d11createdevice.htm
 tech.root: direct3d11

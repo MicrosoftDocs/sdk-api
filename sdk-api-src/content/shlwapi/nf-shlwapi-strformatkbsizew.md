@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrFormatKBSizeW
 title: StrFormatKBSizeW function (shlwapi.h)
-description: Converts a numeric value into a string that represents the number expressed as a size value in kilobytes.
-helpviewer_keywords: ["StrFormatKBSize","StrFormatKBSize function [Windows Shell]","StrFormatKBSizeA","StrFormatKBSizeW","_win32_StrFormatKBSize","shell.StrFormatKBSize","shlwapi/StrFormatKBSize","shlwapi/StrFormatKBSizeA","shlwapi/StrFormatKBSizeW"]
+description: Converts a numeric value into a string that represents the number expressed as a size value in kilobytes. (Unicode)
+helpviewer_keywords: ["StrFormatKBSize", "StrFormatKBSize function [Windows Shell]", "StrFormatKBSizeW", "_win32_StrFormatKBSize", "shell.StrFormatKBSize", "shlwapi/StrFormatKBSize", "shlwapi/StrFormatKBSizeW"]
 old-location: shell\StrFormatKBSize.htm
 tech.root: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
@@ -89,7 +89,7 @@ In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 
 
 
 > [!NOTE]
-> The shlwapi.h header defines StrFormatKBSize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines StrFormatKBSize as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

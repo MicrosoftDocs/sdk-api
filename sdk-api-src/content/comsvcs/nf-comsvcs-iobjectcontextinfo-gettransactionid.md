@@ -74,7 +74,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 </dl>
 </td>
 <td width="60%">
-The method completed succesfully.
+The method completed successfully.
 
 </td>
 </tr>

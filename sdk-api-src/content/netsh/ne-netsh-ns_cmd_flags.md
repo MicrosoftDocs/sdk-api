@@ -54,27 +54,27 @@ The <b>NS_CMD_FLAGS</b> enumeration specifies command flags available in NetShel
 
 ## -enum-fields
 
-### -field CMD_FLAG_PRIVATE
+### -field CMD_FLAG_PRIVATE:0x01
 
 Indicates a private command. This command is not valid in subcontexts.
 
-### -field CMD_FLAG_INTERACTIVE
+### -field CMD_FLAG_INTERACTIVE:0x02
 
 Indicates an interactive command. This command is not valid from outside NetShell.
 
-### -field CMD_FLAG_LOCAL
+### -field CMD_FLAG_LOCAL:0x08
 
 Indicates a local command. This command is not valid from remote computers.
 
-### -field CMD_FLAG_ONLINE
+### -field CMD_FLAG_ONLINE:0x10
 
 Indicates a command is valid only when online. This command is not valid in offline or noncommit mode.
 
-### -field CMD_FLAG_HIDDEN
+### -field CMD_FLAG_HIDDEN:0x20
 
 Indicates a command is not in online Help, but can be executed.
 
-### -field CMD_FLAG_LIMIT_MASK
+### -field CMD_FLAG_LIMIT_MASK:0xffff
 
 Indicates that the  command limits the mask.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathAddExtensionA
 title: PathAddExtensionA function (shlwapi.h)
-description: Adds a file name extension to a path string.
-helpviewer_keywords: ["PathAddExtension","PathAddExtension function [Windows Shell]","PathAddExtensionA","PathAddExtensionW","_win32_PathAddExtension","shell.PathAddExtension","shlwapi/PathAddExtension","shlwapi/PathAddExtensionA","shlwapi/PathAddExtensionW"]
+description: Adds a file name extension to a path string. (ANSI)
+helpviewer_keywords: ["PathAddExtensionA", "shlwapi/PathAddExtensionA"]
 old-location: shell\PathAddExtension.htm
 tech.root: shell
 ms.assetid: 2c113d11-11d5-4362-bad5-c859d65aca2a
@@ -148,4 +148,4 @@ The return value is 1
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathAddExtension as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathAddExtension as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

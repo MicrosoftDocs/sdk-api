@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-misc-l1-7-0.dll
+ - ext-ms-win-ntuser-misc-l1-6-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
  - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
@@ -59,7 +61,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ## -description
 
 Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the 
-    registry.
+    registry.<div> </div><div class="alert"><b>Note</b>  On Windows Server 2022, the Microsoft\Windows\Multimedia\SystemSoundsService task in Task Scheduler is disabled. This task will need to be enabled for MessageBeep to function.</div>
 
 ## -parameters
 
@@ -209,8 +211,10 @@ After queuing the sound, the <b>MessageBeep</b> function
 
 If it cannot play the specified alert sound, 
     <b>MessageBeep</b> attempts to play the system default sound. If 
-    it cannot play the system default sound, the function produces a standard beep sound through the computer 
-    speaker.
+    it cannot play the system default sound, the function produces a standard beep sound using the
+    <a href="/windows/desktop/api/utilapiset/nf-utilapiset-beep">Beep</a>
+    function. Starting in Windows 7, this plays a simple tone on the default sound device.
+    See the documentation for the <b>Beep</b> function for further details.
 
 The user can disable the warning beep by using the Sound control panel application.
 

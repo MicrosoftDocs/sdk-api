@@ -97,7 +97,7 @@ In the case of <a href="/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_S
 
 
 
-<a href="/windows/desktop/api/vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001">VSS_OBJECT_UNION</a>
+<a href="/openspecs/windows_protocols/ms-scmp/f63af19f-bc5c-4a20-afaf-4f6e0f7c1045">VSS_OBJECT_UNION</a>
 
 
 

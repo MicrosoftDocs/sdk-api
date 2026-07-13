@@ -56,7 +56,7 @@ The <b>WCN_PASSWORD_TYPE</b> enumeration defines the authentication that will be
 
 ## -enum-fields
 
-### -field WCN_PASSWORD_TYPE_PUSH_BUTTON
+### -field WCN_PASSWORD_TYPE_PUSH_BUTTON:0
 
 Indicates the device uses a WPS button interface to put the device into wireless provisioning mode. If this value is specified when calling <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">IWCNDevice::SetPassword</a>, set <i>dwPasswordLength</i> to zero and <i>pbPassword</i> to <b>NULL</b>.
 

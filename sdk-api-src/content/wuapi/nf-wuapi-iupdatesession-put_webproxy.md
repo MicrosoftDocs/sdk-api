@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateSession.put_WebProxy
 title: IUpdateSession::put_WebProxy (wuapi.h)
-description: Gets and sets the proxy settings that are used to access the server.
+description: Gets and sets the proxy settings that are used to access the server. (Put)
 helpviewer_keywords: ["IUpdateSession interface [Windows Update Agent]","WebProxy property","IUpdateSession.WebProxy","IUpdateSession.put_WebProxy","IUpdateSession::WebProxy","IUpdateSession::get_WebProxy","IUpdateSession::put_WebProxy","WebProxy property [Windows Update Agent]","WebProxy property [Windows Update Agent]","IUpdateSession interface","put_WebProxy","wua.iupdatesession_webproxy","wuapi/IUpdateSession::WebProxy","wuapi/IUpdateSession::get_WebProxy","wuapi/IUpdateSession::put_WebProxy"]
 old-location: wua\iupdatesession_webproxy.htm
 tech.root: wua

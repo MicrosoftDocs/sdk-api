@@ -56,7 +56,7 @@ Indicates information about contacting someone by using email.
 
 ## -enum-fields
 
-### -field WPC_ARGS_EMAILCONTACTEVENT_APPNAME
+### -field WPC_ARGS_EMAILCONTACTEVENT_APPNAME:0
 
 The name of the application used for the email contact.
 

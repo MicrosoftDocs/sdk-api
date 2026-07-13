@@ -4,14 +4,14 @@ title: IDWriteFontResource::GetFontAxisRanges
 description: Retrieves the value ranges of each axis.
 helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetFontAxisRanges method","IDWriteFontResource.GetFontAxisRanges","IDWriteFontResource::GetFontAxisRanges","GetFontAxisRanges","GetFontAxisRanges method [Direct Write]","GetFontAxisRanges method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getfontaxisranges","dwrite_3/IDWriteFontResource::GetFontAxisRanges"]
 tech.root: DirectWrite
-ms.date: 09/16/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisRanges method, IDWriteFontResource.GetFontAxisRanges, IDWriteFontResource::GetFontAxisRanges, GetFontAxisRanges, GetFontAxisRanges method [Direct Write], GetFontAxisRanges method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisranges, dwrite_3/IDWriteFontResource::GetFontAxisRanges
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

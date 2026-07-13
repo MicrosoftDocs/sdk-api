@@ -1,12 +1,13 @@
 ---
 UID: NF:winuser.SendMessageW
 title: SendMessageW function (winuser.h)
-description: Sends the specified message to a window or windows. The SendMessage function calls the window procedure for the specified window and does not return until the window procedure has processed the message.
-helpviewer_keywords: ["SendMessage","SendMessage function [Windows and Messages]","SendMessageA","SendMessageW","_win32_SendMessage","_win32_sendmessage_cpp","winmsg.sendmessage","winui._win32_sendmessage","winuser/SendMessage","winuser/SendMessageA","winuser/SendMessageW"]
+description: The SendMessageW (Unicode) function sends the specified message to a window or windows. (SendMessageW)
+helpviewer_keywords: ["SendMessage", "SendMessage function [Windows and Messages]", "SendMessageW", "_win32_SendMessage", "_win32_sendmessage_cpp", "winmsg.sendmessage", "winui._win32_sendmessage", "winuser/SendMessage", "winuser/SendMessageW"]
+
 old-location: winmsg\sendmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessage.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: SendMessage, SendMessage function [Windows and Messages], SendMessageA, SendMessageW, _win32_SendMessage, _win32_sendmessage_cpp, winmsg.sendmessage, winui._win32_sendmessage, winuser/SendMessage, winuser/SendMessageA, winuser/SendMessageW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -40,6 +41,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-message-l1-1-0.dll
  - User32.dll
  - API-MS-Win-NTUser-IE-message-l1-1-0.dll
  - ie_shims.dll
@@ -125,7 +128,7 @@ For an example, see <a href="/windows/desktop/inputdev/using-keyboard-input">Dis
 
 
 > [!NOTE]
-> The winuser.h header defines SendMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines SendMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

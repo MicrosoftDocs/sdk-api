@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capFileSaveDIB","capFileSaveDIB","capFileSaveDIB m
 old-location: multimedia\capfilesavedib.htm
 tech.root: Multimedia
 ms.assetid: bab1c97d-e84e-43ff-9b66-79b903a610eb
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capFileSaveDIB, capFileSaveDIB, capFileSaveDIB macro [Windows Multimedia], multimedia.capfilesavedib, vfw/capFileSaveDIB
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capFileSaveDIB macro
+
+## -syntax
+
+```cpp
+BOOL capFileSaveDIB(
+     hwnd,
+     szName
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.If an error occurs and an error callback function is set using the **capSetCallbackOnError** macro, the error callback function is called.
 
 
 ## -description

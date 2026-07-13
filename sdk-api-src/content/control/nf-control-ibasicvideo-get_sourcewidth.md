@@ -6,7 +6,7 @@ helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_SourceWidth meth
 old-location: dshow\ibasicvideo_get_sourcewidth.htm
 tech.root: dshow
 ms.assetid: 6c6f7e01-5f93-4277-b664-c5be0ea42004
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceWidth method, IBasicVideo.get_SourceWidth, IBasicVideo::get_SourceWidth, IBasicVideoget_SourceWidth, control/IBasicVideo::get_SourceWidth, dshow.ibasicvideo_get_sourcewidth, get_SourceWidth, get_SourceWidth method [DirectShow], get_SourceWidth method [DirectShow],IBasicVideo interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_SourceWidth</code> method retrieves the width of the source rectangle.
 

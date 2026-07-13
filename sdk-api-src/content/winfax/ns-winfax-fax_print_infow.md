@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_PRINT_INFOW
 title: FAX_PRINT_INFOW (winfax.h)
-description: The FAX_PRINT_INFO structure contains the information necessary for the fax server to print a fax transmission. The structure includes sender and recipient data, an optional billing code, and delivery report information.
+description: The FAX_PRINT_INFO structure contains the information necessary for the fax server to print a fax transmission. The structure includes sender and recipient data, an optional billing code, and delivery report information. (Unicode)
 helpviewer_keywords: ["*PFAX_PRINT_INFOW","FAX_PRINT_INFO","FAX_PRINT_INFO structure [Fax Service]","FAX_PRINT_INFOA","FAX_PRINT_INFOW","PFAX_PRINT_INFO","PFAX_PRINT_INFO structure pointer [Fax Service]","_mfax_fax_print_info_str","fax._mfax_fax_print_info_str","winfax/FAX_PRINT_INFO","winfax/FAX_PRINT_INFOA","winfax/FAX_PRINT_INFOW","winfax/PFAX_PRINT_INFO"]
 old-location: fax\_mfax_fax_print_info_str.htm
 tech.root: Fax
@@ -137,7 +137,7 @@ A fax client application passes the <b>FAX_PRINT_INFO</b> structure in a call to
 
 
 > [!NOTE]
-> The winfax.h header defines FAX_PRINT_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FAX_PRINT_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

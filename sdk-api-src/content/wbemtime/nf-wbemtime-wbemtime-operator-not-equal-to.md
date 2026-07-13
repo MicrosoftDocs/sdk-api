@@ -1,12 +1,12 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-not-equal-to
 title: WBEMTime::operator-not-equal-to (wbemtime.h)
-description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
+description: The WBEMTime::operator-not-equal-to (wbemtime.h) comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
 helpviewer_keywords: ["WBEMTime interface [Windows Management Instrumentation]","operator!= method","WBEMTime.operator!=","WBEMTime.operator-not-equal-to","WBEMTime::operator!=","WBEMTime::operator-not-equal-to","operator!=","operator!= method [Windows Management Instrumentation]","operator!= method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator!=","wmi.wbemtime_comparison_operators_notequal"]
 old-location: wmi\wbemtime_comparison_operators_notequal.htm
 tech.root: wmi
 ms.assetid: 9fdd37ed-a6b3-4cc0-8e0b-684265647051
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator!= method, WBEMTime.operator!=, WBEMTime.operator-not-equal-to, WBEMTime::operator!=, WBEMTime::operator-not-equal-to, operator!=, operator!= method [Windows Management Instrumentation], operator!= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator!=, wmi.wbemtime_comparison_operators_notequal
 req.header: wbemtime.h
 req.include-header: 

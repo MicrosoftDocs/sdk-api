@@ -67,7 +67,7 @@ Handle to the request queue with which this cache is associated. A request queue
 Pointer to a  <a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that the application uses in subsequent calls to 
 <a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> to identify this cache entry. The application must have called <b>HttpAddUrl</b> previously with the same handle as in the <i>ReqQueueHandle</i> parameter, and with  either  this identical UrlPrefix string or a valid prefix of it.
 
-Like any UrlPrefix, this string must take the form "scheme://host:port/relativeURI"; for example, http://www.mysite.com:80/image1.gif.
+Like any UrlPrefix, this string must take the form "scheme://host:port/relativeURI"; for example, `http://www.mysite.com:80/image1.gif`.
 
 ### -param DataChunk [in]
 

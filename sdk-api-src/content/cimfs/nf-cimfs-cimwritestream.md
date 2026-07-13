@@ -1,12 +1,11 @@
 ---
 UID: NF:cimfs.CimWriteStream
 title: CimWriteStream
-ms.date: 9/9/2019
-ms.author: windowssdkdev
+description: The CimWriteStream function writes data from the specified buffer to the stream represented by the stream handle.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimWriteStream
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -16,7 +15,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: cimfs.lib
 req.max-support: 
 req.namespace: 
 req.redist: 

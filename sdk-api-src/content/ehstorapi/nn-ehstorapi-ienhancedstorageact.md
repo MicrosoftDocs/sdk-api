@@ -1,7 +1,7 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageACT
 title: IEnhancedStorageACT (ehstorapi.h)
-description: This interface to obtain information and perform operations for an 1667 Addressable Contact Target (ACT).
+description: This interface to obtain information and perform operations for a 1667 Addressable Contact Target (ACT).
 helpviewer_keywords: ["IEnhancedStorageACT","IEnhancedStorageACT interface [Enhanced Storage]","IEnhancedStorageACT interface [Enhanced Storage]","described","ehstorapi/IEnhancedStorageACT","enstor.ienhancedstorageact"]
 old-location: enstor\ienhancedstorageact.htm
 tech.root: enstor
@@ -50,14 +50,11 @@ api_name:
 
 ## -description
 
-Use this interface to obtain information and perform operations for an 1667 Addressable Contact Target (ACT).
+Use this interface to obtain information and perform operations for a 1667 Addressable Contact Target (ACT).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageACT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnhancedStorageACT</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnhancedStorageACT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnhancedStorageACT</b> also has these types of members:
 
 ## -see-also
 

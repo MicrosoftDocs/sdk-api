@@ -8,7 +8,6 @@ tech.root: direct3d12
 ms.date: 02/08/2019
 ms.keywords: SetAutoBreadcrumbsEnablement, SetAutoBreadcrumbsEnablement method, ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings.SetAutoBreadcrumbsEnablement, ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement, d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement, direct3d12.id3d12deviceremovedextendeddatasettings_setautobreadcrumbsenablement
 req.construct-type: function
-req.ddi-compliance: 
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

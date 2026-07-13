@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifyTargetChangeEx
 title: ITsSbResourceNotificationEx::NotifyTargetChangeEx (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a target object.
+description: Notifies registered plug-ins about state changes in a target object. (ITsSbResourceNotificationEx.NotifyTargetChangeEx)
 helpviewer_keywords: ["ITsSbResourceNotificationEx interface [Remote Desktop Services]","NotifyTargetChangeEx method","ITsSbResourceNotificationEx.NotifyTargetChangeEx","ITsSbResourceNotificationEx::NotifyTargetChangeEx","NotifyTargetChangeEx","NotifyTargetChangeEx method [Remote Desktop Services]","NotifyTargetChangeEx method [Remote Desktop Services]","ITsSbResourceNotificationEx interface","sbtsv/ITsSbResourceNotificationEx::NotifyTargetChangeEx","termserv.itssbresourcenotificationex_notifytargetchangeex"]
 old-location: termserv\itssbresourcenotificationex_notifytargetchangeex.htm
 tech.root: TermServ
@@ -64,7 +64,7 @@ A value of the <a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublicty
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

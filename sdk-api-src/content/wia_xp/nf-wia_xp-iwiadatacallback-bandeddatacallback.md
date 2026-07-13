@@ -44,6 +44,7 @@ api_location:
  - Wiaguid.dll
 api_name:
  - IWiaDataCallback.BandedDataCallback
+archived: true
 ---
 
 # IWiaDataCallback::BandedDataCallback

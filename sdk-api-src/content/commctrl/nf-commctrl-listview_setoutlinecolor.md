@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetOutlineColor","ListView_SetOutlineColor macro
 old-location: controls\ListView_SetOutlineColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setoutlinecolor.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetOutlineColor, ListView_SetOutlineColor macro [Windows Controls], _win32_ListView_SetOutlineColor, _win32_ListView_SetOutlineColor_cpp, commctrl/ListView_SetOutlineColor, controls.ListView_SetOutlineColor, controls._win32_ListView_SetOutlineColor
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetOutlineColor macro
+
+## -syntax
+
+```cpp
+COLORREF ListView_SetOutlineColor(
+   HWND     hwnd,
+   COLORREF color
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>COLORREF</b> structure that contains the outline color.
 
 
 ## -description

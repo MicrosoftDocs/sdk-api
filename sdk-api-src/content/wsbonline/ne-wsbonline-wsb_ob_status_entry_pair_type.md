@@ -56,31 +56,31 @@ The <b>WSB_OB_STATUS_ENTRY_PAIR_TYPE</b> enumeration indicates the type of the p
 
 ## -enum-fields
 
-### -field WSB_OB_ET_UNDEFINED
+### -field WSB_OB_ET_UNDEFINED:0
 
 The value type is undefined.
 
-### -field WSB_OB_ET_STRING
+### -field WSB_OB_ET_STRING:1
 
 The value type is string.
 
-### -field WSB_OB_ET_NUMBER
+### -field WSB_OB_ET_NUMBER:2
 
 The value type is integer.
 
-### -field WSB_OB_ET_DATETIME
+### -field WSB_OB_ET_DATETIME:3
 
 The value type is datetime which represents an instant in time, typically expressed as a date and time of day. All time-related values are specified in Coordinated Universal Time (UTC) format.
 
-### -field WSB_OB_ET_TIME
+### -field WSB_OB_ET_TIME:4
 
 The value type is time. All time-related values are specified in UTC format.
 
-### -field WSB_OB_ET_SIZE
+### -field WSB_OB_ET_SIZE:5
 
 The value type is size.
 
-### -field WSB_OB_ET_MAX
+### -field WSB_OB_ET_MAX:6
 
 The maximum enumeration value for this enumeration.
 

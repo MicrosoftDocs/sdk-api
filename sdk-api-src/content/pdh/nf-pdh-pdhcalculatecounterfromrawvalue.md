@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-eventing-pdh-l1-1-3.dll
+ - ext-ms-win-eventing-pdh-l1-1-2.dll
  - Pdh.dll
 api_name:
  - PdhCalculateCounterFromRawValue

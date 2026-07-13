@@ -58,7 +58,7 @@ An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.micros
 
 
 
-<a href="/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
+<a href="/windows/win32/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
 
 
 

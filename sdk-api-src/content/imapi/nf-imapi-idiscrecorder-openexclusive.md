@@ -52,7 +52,7 @@ api_name:
 
 Opens a disc recorder for exclusive access.
 
-## -parameters
+
 
 ## -returns
 

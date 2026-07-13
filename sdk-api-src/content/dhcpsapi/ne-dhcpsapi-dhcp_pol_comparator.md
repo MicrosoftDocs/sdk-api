@@ -1,5 +1,5 @@
 ---
-UID: NE:dhcpsapi.__unnamed_enum_3
+UID: NE:dhcpsapi.DHCP_POL_COMPARATOR
 title: DHCP_POL_COMPARATOR (dhcpsapi.h)
 description: The DHCP_POL_COMPARATOR enumeration defines the comparison operator for a condition when building a DHCP server policy.
 helpviewer_keywords: ["DHCP_POL_COMPARATOR","DHCP_POL_COMPARATOR enumeration [DHCP]","DhcpCompBeginsWith","DhcpCompEqual","DhcpCompNotBeginWith","DhcpCompNotEqual","dhcp.dhcp_pol_comparator","dhcpsapi/DHCP_POL_COMPARATOR","dhcpsapi/DhcpCompBeginsWith","dhcpsapi/DhcpCompEqual","dhcpsapi/DhcpCompNotBeginWith","dhcpsapi/DhcpCompNotEqual"]
@@ -81,3 +81,4 @@ The DHCP client message field specified by the criterion must not begin with the
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcphlpraddv4policycondition">DhcpHlprAddV4PolicyCondition</a>
+

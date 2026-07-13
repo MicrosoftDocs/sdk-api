@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrixElement(int,int,float)
 title: IDCompositionColorMatrixEffect::SetMatrixElement(int,int,float) (dcomp.h)
-description: Sets an element of the color matrix.
+description: Sets an element of the color matrix. (overload 1/2)
 helpviewer_keywords: ["IDCompositionColorMatrixEffect interface [DirectComposition]","SetMatrixElement method","IDCompositionColorMatrixEffect.SetMatrixElement","IDCompositionColorMatrixEffect.SetMatrixElement(int","int","float)","IDCompositionColorMatrixEffect::SetMatrixElement","IDCompositionColorMatrixEffect::SetMatrixElement(int","int","float)","SetMatrixElement","SetMatrixElement method [DirectComposition]","SetMatrixElement method [DirectComposition]","IDCompositionColorMatrixEffect interface","dcomp/IDCompositionColorMatrixEffect::SetMatrixElement","directcomp.idcompositioncolormatrixeffect_setmatrixelement"]
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement.htm
 tech.root: directcomp
@@ -76,7 +76,7 @@ The new value of the element.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

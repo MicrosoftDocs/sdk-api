@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetDefaultColorKey","GetDefaultColorKey method [DirectSho
 old-location: dshow\ioverlay_getdefaultcolorkey.htm
 tech.root: dshow
 ms.assetid: d3aec72f-472e-44fa-bbd8-81e64732e5bc
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetDefaultColorKey, GetDefaultColorKey method [DirectShow], GetDefaultColorKey method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetDefaultColorKey method, IOverlay.GetDefaultColorKey, IOverlay::GetDefaultColorKey, IOverlayGetDefaultColorKey, dshow.ioverlay_getdefaultcolorkey, strmif/IOverlay::GetDefaultColorKey
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetDefaultColorKey</code> method retrieves the default color key used for a chroma key overlay.
 

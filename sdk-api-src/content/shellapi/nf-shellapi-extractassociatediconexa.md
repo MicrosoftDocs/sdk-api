@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ExtractAssociatedIconExA
 title: ExtractAssociatedIconExA function (shellapi.h)
-description: ExtractAssociatedIconEx may be altered or unavailable.
-helpviewer_keywords: ["ExtractAssociatedIconEx","ExtractAssociatedIconEx function [Windows Shell]","ExtractAssociatedIconExA","ExtractAssociatedIconExW","_win32_ExtractAssociatedIconEx","shell.ExtractAssociatedIconEx","shellapi/ExtractAssociatedIconEx","shellapi/ExtractAssociatedIconExA","shellapi/ExtractAssociatedIconExW"]
+description: ExtractAssociatedIconEx may be altered or unavailable. (ANSI)
+helpviewer_keywords: ["ExtractAssociatedIconExA", "shellapi/ExtractAssociatedIconExA"]
 old-location: shell\ExtractAssociatedIconEx.htm
 tech.root: shell
 ms.assetid: f32260b0-917b-4406-aeee-34f71a7c7309
@@ -109,7 +109,7 @@ The icon handle returned by this function must be released by calling <a href="/
 
 
 > [!NOTE]
-> The shellapi.h header defines ExtractAssociatedIconEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines ExtractAssociatedIconEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

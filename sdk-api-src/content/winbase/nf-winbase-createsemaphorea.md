@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateSemaphoreA
 title: CreateSemaphoreA function (winbase.h)
-description: Creates or opens a named or unnamed semaphore object.
+description: Creates or opens a named or unnamed semaphore object. (CreateSemaphoreA)
 helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreA function","CreateSemaphoreW","base.createsemaphorea","winbase/CreateSemaphoreA","winbase/CreateSemaphoreW"]
 old-location: base\createsemaphorea.htm
 tech.root: backup
@@ -11,8 +11,8 @@ ms.keywords: CreateSemaphoreA, CreateSemaphoreA function, CreateSemaphoreW, base
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
  - kernel32legacy.dll
@@ -72,7 +73,7 @@ To specify an access mask for the object, use the [CreateSemaphoreEx](/windows/w
 
 ### -param lpSemaphoreAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure. If this parameter is <b>NULL</b>, the handle cannot be inherited by child 
        processes.
 
@@ -113,7 +114,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-The handle returned by CreateSemaphore has the <b>SEMAPHORE_ALL_ACCESS</b> access right; it can be used in any function that requires a handle to a semaphore object, provided that the caller has been granted access. If an semaphore is created from a service or a thread that is impersonating a different user, you can either apply a security descriptor to the semaphore when you create it, or change the default security descriptor for the creating process by changing its default DACL. For more information, see 
+The handle returned by CreateSemaphore has the <b>SEMAPHORE_ALL_ACCESS</b> access right; it can be used in any function that requires a handle to a semaphore object, provided that the caller has been granted access. If a semaphore is created from a service or a thread that is impersonating a different user, you can either apply a security descriptor to the semaphore when you create it, or change the default security descriptor for the creating process by changing its default DACL. For more information, see 
 <a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 The state of a semaphore object is signaled when its count is greater than zero, and nonsignaled when its count is equal to zero. The <i>lInitialCount</i> parameter specifies the initial count. The count can never be less than zero or greater than the value specified in the <i>lMaximumCount</i> parameter.
@@ -173,7 +174,7 @@ For an example that uses
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

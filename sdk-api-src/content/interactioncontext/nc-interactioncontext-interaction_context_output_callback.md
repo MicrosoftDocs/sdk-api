@@ -47,10 +47,12 @@ api_name:
 
 # INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function
 
-
 ## -description
 
-Callback that receives events from an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Callback that receives events from an [Interaction Context](../_input_intcontext/index.md) object.
+
+> [!NOTE]
+> See [INTERACTION_CONTEXT_OUTPUT_CALLBACK2 callback function](nc-interactioncontext-interaction_context_output_callback2.md) for enhanced gesture recognition support.
 
 ## -parameters
 
@@ -60,16 +62,18 @@ A pointer to an object that contains information about the client. The value typ
 
 ### -param output [in]
 
-Output of the  <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Output of the [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
+[INTERACTION_CONTEXT_OUTPUT_CALLBACK2 callback function](nc-interactioncontext-interaction_context_output_callback2.md)
 
+[INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md)
 
+[INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md)
 
-<a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-reference">Interaction Context Reference</a>
+[INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md)
 
+[RegisterOutputCallbackInteractionContext function](nf-interactioncontext-registeroutputcallbackinteractioncontext.md)
 
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
+[RegisterOutputCallbackInteractionContext2 function](nf-interactioncontext-registeroutputcallbackinteractioncontext2.md)

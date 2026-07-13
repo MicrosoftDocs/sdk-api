@@ -58,11 +58,11 @@ The
 
 ## -enum-fields
 
-### -field SYNCMGRINVOKE_STARTSYNC
+### -field SYNCMGRINVOKE_STARTSYNC:0x2
 
 Immediately start the synchronization without displaying the <b>Choice</b> dialog box.
 
-### -field SYNCMGRINVOKE_MINIMIZED
+### -field SYNCMGRINVOKE_MINIMIZED:0x4
 
 Indicates that the <b>Choice</b> dialog should be minimized by default.
 

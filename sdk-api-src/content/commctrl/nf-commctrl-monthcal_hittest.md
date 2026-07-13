@@ -6,7 +6,7 @@ helpviewer_keywords: ["MonthCal_HitTest","MonthCal_HitTest macro [Windows Contro
 old-location: controls\MonthCal_HitTest.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_hittest.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: MonthCal_HitTest, MonthCal_HitTest macro [Windows Controls], _win32_MonthCal_HitTest, _win32_MonthCal_HitTest_cpp, commctrl/MonthCal_HitTest, controls.MonthCal_HitTest, controls._win32_MonthCal_HitTest
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MonthCal_HitTest macro
+
+## -syntax
+
+```cpp
+DWORD MonthCal_HitTest(
+   HWND           hmc,
+   PMCHITTESTINFO pinfo
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Sets values in members of the <b>MCHITTESTINFO</b> structure at <i>pinfo</i> and returns a <b>DWORD</b> value that contains a set of hit test result flags. See the return value description of <b>MCM_HITTEST</b> for a list of the hit test result flags.
 
 
 ## -description

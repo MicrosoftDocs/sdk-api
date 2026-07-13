@@ -54,7 +54,7 @@ api_name:
 The <b>Rect::Clone</b> method creates a new 
 			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object and initializes it with the contents of this <b>Rect</b> object.
 
-## -parameters
+
 
 ## -returns
 

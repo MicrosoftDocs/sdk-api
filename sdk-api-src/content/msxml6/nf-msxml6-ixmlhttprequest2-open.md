@@ -95,20 +95,22 @@ Although this method accepts credentials passed via parameter, these credentials
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>//
+
+``` syntax
+//
 // Create and initialize an IXMLHTTPRequest2 object
 //
 hr = CoCreateInstance(CLSID_FreeThreadedXMLHTTP60,
                       NULL,
                       CLSCTX_INPROC_SERVER,
-                      IID_PPV_ARGS(&amp;spXHR));
+                      IID_PPV_ARGS(&spXHR));
 
 //
 //Create and initialize an IXMLHTTPRequest2Callback object
 //
-hr = MakeAndInitialize&lt;CXMLHttpRequest2Callback&gt;(&amp;spXhrCallback);
+hr = MakeAndInitialize<CXMLHttpRequest2Callback>(&spXhrCallback);
 
-hr = spXHR-&gt;Open(L"GET",              // Method.
+hr = spXHR->Open(L"GET",              // Method.
                  pcwszUrl,            // Url.
                  spXhrCallback.Get(), // Callback.
                  NULL,                // Username.
@@ -119,9 +121,11 @@ hr = spXHR-&gt;Open(L"GET",              // Method.
 //
 //Send the GET request
 //
-hr = spXHR-&gt;Send(NULL, 0);
+hr = spXHR->Send(NULL, 0);
 
-hr = spXhrCallback-&gt;WaitForComplete(&amp;dwStatus);</code></pre>
+hr = spXhrCallback->WaitForComplete(&dwStatus);
+```
+
 For the complete examples, see the <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2GetRequest">XML HTTP Request 2 GET  sample</a> and  <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2PostRequest">XML HTTP Request 2 POST  sample</a>.
 
 ## -see-also

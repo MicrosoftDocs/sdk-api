@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ITypeLib2
 title: ITypeLib2 (oaidl.h)
-description: Represents a type library, the data that describes a set of objects.
+description: Represents a type library, the data that describes a set of objects. (ITypeLib2)
 helpviewer_keywords: ["ITypeLib2","ITypeLib2 interface [Automation]","ITypeLib2 interface [Automation]","described","_oa96_ITypeLib2_Interface","automat.itypelib2","oaidl/ITypeLib2"]
 old-location: automat\itypelib2.htm
 tech.root: automat
@@ -56,10 +56,7 @@ The <b>ITypeLib2</b> interface inherits from the <a href="/previous-versions/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeLib2</b> interface inherits from <b>ITypeLib</b>. <b>ITypeLib2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITypeLib2</b> interface inherits from <b>ITypeLib</b>. <b>ITypeLib2</b> also has these types of members:
 
 ## -see-also
 

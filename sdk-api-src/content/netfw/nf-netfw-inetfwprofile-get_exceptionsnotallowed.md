@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProfile.get_ExceptionsNotAllowed
 title: INetFwProfile::get_ExceptionsNotAllowed (netfw.h)
-description: Indicates whether the firewall should not allow exceptions.
+description: Indicates whether the firewall should not allow exceptions. (Get)
 helpviewer_keywords: ["ExceptionsNotAllowed property [ICS/ICF]","ExceptionsNotAllowed property [ICS/ICF]","INetFwProfile interface","INetFwProfile interface [ICS/ICF]","ExceptionsNotAllowed property","INetFwProfile.ExceptionsNotAllowed","INetFwProfile.get_ExceptionsNotAllowed","INetFwProfile::ExceptionsNotAllowed","INetFwProfile::get_ExceptionsNotAllowed","INetFwProfile::put_ExceptionsNotAllowed","get_ExceptionsNotAllowed","ics.inetfwprofile_exceptionsnotallowed","netfw/INetFwProfile::ExceptionsNotAllowed","netfw/INetFwProfile::get_ExceptionsNotAllowed","netfw/INetFwProfile::put_ExceptionsNotAllowed"]
 old-location: ics\inetfwprofile_exceptionsnotallowed.htm
 tech.root: ics

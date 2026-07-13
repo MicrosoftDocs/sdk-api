@@ -1,5 +1,5 @@
 ---
-UID: NE:wininet.__unnamed_enum_1
+UID: NE:wininet.InternetCookieState
 title: InternetCookieState (wininet.h)
 description: The InternetCookieState enumeration defines the state of the cookie.
 helpviewer_keywords: ["COOKIE_STATE_ACCEPT","COOKIE_STATE_DOWNGRADE","COOKIE_STATE_LEASH","COOKIE_STATE_MAX","COOKIE_STATE_PROMPT","COOKIE_STATE_REJECT","COOKIE_STATE_UNKNOWN","InternetCookieState","InternetCookieState enumeration [WinINet]","wininet.internetcookiestate","wininet/COOKIE_STATE_ACCEPT","wininet/COOKIE_STATE_DOWNGRADE","wininet/COOKIE_STATE_LEASH","wininet/COOKIE_STATE_MAX","wininet/COOKIE_STATE_PROMPT","wininet/COOKIE_STATE_REJECT","wininet/COOKIE_STATE_UNKNOWN","wininet/InternetCookieState"]
@@ -54,27 +54,27 @@ The <b>InternetCookieState</b> enumeration defines the state of the cookie.
 
 ## -enum-fields
 
-### -field COOKIE_STATE_UNKNOWN
+### -field COOKIE_STATE_UNKNOWN:0x0
 
 Reserved.
 
-### -field COOKIE_STATE_ACCEPT
+### -field COOKIE_STATE_ACCEPT:0x1
 
 The cookies are accepted.
 
-### -field COOKIE_STATE_PROMPT
+### -field COOKIE_STATE_PROMPT:0x2
 
 The user is prompted to accept or deny the cookie.
 
-### -field COOKIE_STATE_LEASH
+### -field COOKIE_STATE_LEASH:0x3
 
 Cookies are accepted only in the first-party context.
 
-### -field COOKIE_STATE_DOWNGRADE
+### -field COOKIE_STATE_DOWNGRADE:0x4
 
 Cookies are accepted and become session cookies.
 
-### -field COOKIE_STATE_REJECT
+### -field COOKIE_STATE_REJECT:0x5
 
 The cookies are rejected.
 
@@ -98,3 +98,4 @@ Same as <b>COOKIE_STATE_REJECT</b>.
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetpersitecookiedecisiona">InternetSetPerSiteCookieDecision</a>
+

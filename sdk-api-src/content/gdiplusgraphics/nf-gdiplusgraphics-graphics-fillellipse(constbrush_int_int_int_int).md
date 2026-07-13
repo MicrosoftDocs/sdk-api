@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillEllipse(constBrush,INT,INT,INT,INT)
 title: Graphics::FillEllipse(IN const Brush,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
-description: The Graphics::FillEllipse method uses a brush to fill the interior of an ellipse that is specified by coordinates and dimensions.
+description: The Graphics::FillEllipse method uses a brush to fill the interior of an ellipse that is specified by coordinates and dimensions. (overload 1/2)
 helpviewer_keywords: ["FillEllipse","FillEllipse method [GDI+]","FillEllipse method [GDI+]","Graphics class","Graphics class [GDI+]","FillEllipse method","Graphics.FillEllipse","Graphics.FillEllipse(IN const Brush","IN INT","IN INT","IN INT","IN INT)","Graphics.FillEllipse(const Brush*","INT","INT","INT","INT)","Graphics::FillEllipse","Graphics::FillEllipse(IN const Brush","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_INT_x_INT_y_INT_width_INT_height_","gdiplus._gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_INT_x_INT_y_INT_width_INT_height_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_INT_x_INT_y_INT_width_INT_height_.htm
 tech.root: gdiplus

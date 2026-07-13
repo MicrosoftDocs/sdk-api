@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProfile.put_FirewallEnabled
 title: INetFwProfile::put_FirewallEnabled (netfw.h)
-description: Indicates whether the firewall is enabled.
+description: Indicates whether the firewall is enabled. (Put)
 helpviewer_keywords: ["FirewallEnabled property [ICS/ICF]","FirewallEnabled property [ICS/ICF]","INetFwProfile interface","INetFwProfile interface [ICS/ICF]","FirewallEnabled property","INetFwProfile.FirewallEnabled","INetFwProfile.put_FirewallEnabled","INetFwProfile::FirewallEnabled","INetFwProfile::get_FirewallEnabled","INetFwProfile::put_FirewallEnabled","ics.inetfwprofile_firewallenabled","netfw/INetFwProfile::FirewallEnabled","netfw/INetFwProfile::get_FirewallEnabled","netfw/INetFwProfile::put_FirewallEnabled","put_FirewallEnabled"]
 old-location: ics\inetfwprofile_firewallenabled.htm
 tech.root: ics

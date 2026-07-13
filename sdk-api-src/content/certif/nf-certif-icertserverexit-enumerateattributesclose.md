@@ -57,7 +57,7 @@ All applications that use
 <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributessetup">ICertServerExit::EnumerateAttributesSetup</a> or 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateattributes">ICertServerExit::EnumerateAttributes</a> should call <b>EnumerateAttributesClose</b> when finished enumerating.
 
-## -parameters
+
 
 ## -returns
 

@@ -72,7 +72,7 @@ The pointer to the property value to set.
 
 ### -param valueSize [in]
 
-The size of of the property value.
+The size of the property value.
 
 ### -param error [in, optional]
 
@@ -132,5 +132,5 @@ It is up to the custom channel implementation to determine the
                 set of properties it wishes to support.
             
 
-If a property is not supported, the <b>E_INVALIDARG </b>should be returned.
+If a property is not supported, the <b>E_INVALIDARG </b> should be returned.
             (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

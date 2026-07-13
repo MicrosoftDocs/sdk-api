@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddRectangle(constRect&)
 title: GraphicsPath::AddRectangle(IN const Rect &) (gdipluspath.h)
-description: The GraphicsPath::AddRectangle method adds a rectangle to this path.
+description: The GraphicsPath::AddRectangle method adds a rectangle to this path. (overload 1/2)
 helpviewer_keywords: ["AddRectangle","AddRectangle method [GDI+]","AddRectangle method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddRectangle method","GraphicsPath.AddRectangle","GraphicsPath.AddRectangle(IN const Rect &)","GraphicsPath.AddRectangle(const Rect&)","GraphicsPath::AddRectangle","GraphicsPath::AddRectangle(IN const Rect &)","_gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_","gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_.htm
 tech.root: gdiplus

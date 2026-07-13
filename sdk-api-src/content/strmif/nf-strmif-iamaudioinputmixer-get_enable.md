@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Enable me
 old-location: dshow\iamaudioinputmixer_get_enable.htm
 tech.root: dshow
 ms.assetid: d3ec509c-9990-4803-a4e3-abc88fc8c522
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Enable method, IAMAudioInputMixer.get_Enable, IAMAudioInputMixer::get_Enable, IAMAudioInputMixerget_Enable, dshow.iamaudioinputmixer_get_enable, get_Enable, get_Enable method [DirectShow], get_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Enable
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_Enable</code> method retrieves whether the input is enabled.
 

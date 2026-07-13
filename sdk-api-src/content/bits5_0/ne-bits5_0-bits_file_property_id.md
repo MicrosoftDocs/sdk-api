@@ -53,7 +53,7 @@ Defines constants that specify ID values corresponding to background copy file p
 
 ## -enum-fields
 
-### -field BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS
+### -field BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS:1
 
 The full set of HTTP response headers from the server's last HTTP response packet.
 

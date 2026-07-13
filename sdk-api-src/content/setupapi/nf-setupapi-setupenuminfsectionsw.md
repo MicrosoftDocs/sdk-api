@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupEnumInfSectionsW
 title: SetupEnumInfSectionsW function (setupapi.h)
-description: The SetupEnumInfSections function retrieves section names from an INF file.
-helpviewer_keywords: ["SetupEnumInfSections","SetupEnumInfSections function [Setup API]","SetupEnumInfSectionsA","SetupEnumInfSectionsW","setup.setupenuminfsections","setupapi/SetupEnumInfSections","setupapi/SetupEnumInfSectionsA","setupapi/SetupEnumInfSectionsW"]
+description: The SetupEnumInfSections function retrieves section names from an INF file. (Unicode)
+helpviewer_keywords: ["SetupEnumInfSections", "SetupEnumInfSections function [Setup API]", "SetupEnumInfSectionsW", "setup.setupenuminfsections", "setupapi/SetupEnumInfSections", "setupapi/SetupEnumInfSectionsW"]
 old-location: setup\setupenuminfsections.htm
 tech.root: setup
 ms.assetid: 9b19ced6-728a-48e7-9e87-03fc53f7fb72
@@ -98,4 +98,4 @@ This function can enumerate all unique section names in the INF file. If a secti
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupEnumInfSections as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupEnumInfSections as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

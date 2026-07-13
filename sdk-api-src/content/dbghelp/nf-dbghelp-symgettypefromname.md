@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetTypeFromName
 title: SymGetTypeFromName function (dbghelp.h)
-description: Retrieves a type index for the specified type name.
+description: The SymGetTypeFromName function (dbghelp.h) retrieves a type index for the specified type name.
 helpviewer_keywords: ["SymGetTypeFromName","SymGetTypeFromName function","SymGetTypeFromNameW","_win32_symgettypefromname","base.symgettypefromname","dbghelp/SymGetTypeFromName","dbghelp/SymGetTypeFromNameW"]
 old-location: base\symgettypefromname.htm
 tech.root: Debug
 ms.assetid: 3a48365f-3b8a-493d-9fd9-dde77be9ced2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetTypeFromName, SymGetTypeFromName function, SymGetTypeFromNameW, _win32_symgettypefromname, base.symgettypefromname, dbghelp/SymGetTypeFromName, dbghelp/SymGetTypeFromNameW
 req.header: dbghelp.h
 req.include-header: 

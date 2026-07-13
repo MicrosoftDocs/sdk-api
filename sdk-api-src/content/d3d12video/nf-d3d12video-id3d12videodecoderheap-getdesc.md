@@ -48,7 +48,7 @@ api_name:
 
 Gets the [D3D12_VIDEO_DECODER_HEAP_DESC](ns-d3d12video-d3d12_video_decoder_heap_desc.md) structure that was passed into [ID3D12VideoDevice::CreateVideoDecoderHeap](nf-d3d12video-id3d12videodevice-createvideodecoder.md) when the [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md) was created.
 
-## -parameters
+
 
 ## -returns
 

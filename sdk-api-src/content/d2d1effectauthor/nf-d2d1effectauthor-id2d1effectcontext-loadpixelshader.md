@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.LoadPixelShader
 title: ID2D1EffectContext::LoadPixelShader (d2d1effectauthor.h)
-description: Loads the given shader by its unique ID.
+description: Loads the given shader by its unique ID. (ID2D1EffectContext.LoadPixelShader)
 helpviewer_keywords: ["ID2D1EffectContext interface [Direct2D]","LoadPixelShader method","ID2D1EffectContext.LoadPixelShader","ID2D1EffectContext::LoadPixelShader","LoadPixelShader","LoadPixelShader method [Direct2D]","LoadPixelShader method [Direct2D]","ID2D1EffectContext interface","d2d1effectauthor/ID2D1EffectContext::LoadPixelShader","direct2d.id2d1contextinternal_loadpixelshader"]
 old-location: direct2d\id2d1contextinternal_loadpixelshader.htm
 tech.root: Direct2D

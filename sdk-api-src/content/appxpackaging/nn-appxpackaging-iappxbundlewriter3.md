@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter3
 title: IAppxBundleWriter3 (appxpackaging.h)
-description: Provides a write-only object model for bundle packages.
+description: Provides a write-only object model for bundle packages. (IAppxBundleWriter3)
 helpviewer_keywords: ["IAppxBundleWriter3","IAppxBundleWriter3 interface [App packaging and management]","IAppxBundleWriter3 interface [App packaging and management]","described","appxpackaging/IAppxBundleWriter3","appxpkg.iappxbundlewriter3"]
 old-location: appxpkg\iappxbundlewriter3.htm
 tech.root: appxpkg
@@ -54,8 +54,5 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxBundleWriter3</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter3</b> also has these types of members:
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardListReaderGroupsA
 title: SCardListReaderGroupsA function (winscard.h)
-description: Provides the list of reader groups that have previously been introduced to the system.
-helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardListReaderGroups","SCardListReaderGroups function [Security]","SCardListReaderGroupsA","SCardListReaderGroupsW","_smart_scardlistreadergroups","security.scardlistreadergroups","winscard/SCardListReaderGroups","winscard/SCardListReaderGroupsA","winscard/SCardListReaderGroupsW"]
+description: Provides the list of reader groups that have previously been introduced to the system. (ANSI)
+helpviewer_keywords: ["SCARD_ALL_READERS", "SCARD_DEFAULT_READERS", "SCARD_LOCAL_READERS", "SCARD_SYSTEM_READERS", "SCardListReaderGroupsA", "winscard/SCardListReaderGroupsA"]
 old-location: security\scardlistreadergroups.htm
 tech.root: security
 ms.assetid: df01fa4b-8053-4d3a-ae2e-66eeb6583225
@@ -208,7 +208,7 @@ else
 
 
 > [!NOTE]
-> The winscard.h header defines SCardListReaderGroups as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winscard.h header defines SCardListReaderGroups as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

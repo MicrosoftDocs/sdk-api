@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.Zoom
 title: ITransformProvider2::Zoom (uiautomationcore.h)
-description: Zooms the viewport of the control.
+description: Zooms the viewport of the control. (ITransformProvider2.Zoom)
 helpviewer_keywords: ["ITransformProvider2 interface [Windows Accessibility]","Zoom method","ITransformProvider2.Zoom","ITransformProvider2::Zoom","Zoom","Zoom method [Windows Accessibility]","Zoom method [Windows Accessibility]","ITransformProvider2 interface","uiautomationcore/ITransformProvider2::Zoom","winauto.uiauto_ITransformProvider2_Zoom"]
 old-location: winauto\uiauto_ITransformProvider2_Zoom.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ The amount to zoom the viewport, specified as a percentage. The provider should 
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

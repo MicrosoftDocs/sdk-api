@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathFindNextComponentA
 title: PathFindNextComponentA function (shlwapi.h)
-description: Parses a path and returns the portion of that path that follows the first backslash.
-helpviewer_keywords: ["PathFindNextComponent","PathFindNextComponent function [Windows Shell]","PathFindNextComponentA","PathFindNextComponentW","_win32_PathFindNextComponent","shell.PathFindNextComponent","shlwapi/PathFindNextComponent","shlwapi/PathFindNextComponentA","shlwapi/PathFindNextComponentW"]
+description: Parses a path and returns the portion of that path that follows the first backslash. (ANSI)
+helpviewer_keywords: ["PathFindNextComponentA", "shlwapi/PathFindNextComponentA"]
 old-location: shell\PathFindNextComponent.htm
 tech.root: shell
 ms.assetid: 2c76b901-dc0e-4f26-93c8-3c59b8f7147d
@@ -169,5 +169,5 @@ The path c:\file.txt returns file.txt
 
 
 > [!NOTE]
-> The shlwapi.h header defines PathFindNextComponent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines PathFindNextComponent as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

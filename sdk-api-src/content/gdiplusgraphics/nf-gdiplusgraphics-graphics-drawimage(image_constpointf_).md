@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(Image,constPointF&)
 title: Graphics::DrawImage
-description: The Graphics::DrawImage method draws an image.
+description: The Graphics::DrawImage method draws an image. (overload 3/14)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawImage"]
 ms.assetid: 933bdaec-75a8-4437-b42a-0799c2925d66

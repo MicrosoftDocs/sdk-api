@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpace.get_DefaultPreferredComponentTypes
 title: ITuningSpace::get_DefaultPreferredComponentTypes (tuner.h)
-description: The get_DefaultPreferredComponentTypes method returns an list of the default preferred component types for this tuning space.
+description: The get_DefaultPreferredComponentTypes method returns a list of the default preferred component types for this tuning space.
 helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","get_DefaultPreferredComponentTypes method","ITuningSpace.get_DefaultPreferredComponentTypes","ITuningSpace::get_DefaultPreferredComponentTypes","ITuningSpaceget_DefaultPreferredComponentTypes","get_DefaultPreferredComponentTypes","get_DefaultPreferredComponentTypes method [Microsoft TV Technologies]","get_DefaultPreferredComponentTypes method [Microsoft TV Technologies]","ITuningSpace interface","mstv.ituningspace_get_defaultpreferredcomponenttypes","tuner/ITuningSpace::get_DefaultPreferredComponentTypes"]
 old-location: mstv\ituningspace_get_defaultpreferredcomponenttypes.htm
 tech.root: mstv
@@ -11,7 +11,7 @@ ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_DefaultPrefe
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,7 +50,9 @@ api_name:
 
 ## -description
 
-The <b>get_DefaultPreferredComponentTypes</b> method returns an list of the default preferred component types for this tuning space.
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+The <b>get_DefaultPreferredComponentTypes</b> method returns a list of the default preferred component types for this tuning space.
 
 ## -parameters
 

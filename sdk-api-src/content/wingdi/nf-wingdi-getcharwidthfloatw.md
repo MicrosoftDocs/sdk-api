@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetCharWidthFloatW
 title: GetCharWidthFloatW function (wingdi.h)
-description: The GetCharWidthFloat function retrieves the fractional widths of consecutive characters in a specified range from the current font.
-helpviewer_keywords: ["GetCharWidthFloat","GetCharWidthFloat function [Windows GDI]","GetCharWidthFloatA","GetCharWidthFloatW","_win32_GetCharWidthFloat","gdi.getcharwidthfloat","wingdi/GetCharWidthFloat","wingdi/GetCharWidthFloatA","wingdi/GetCharWidthFloatW"]
+description: The GetCharWidthFloat function retrieves the fractional widths of consecutive characters in a specified range from the current font. (Unicode)
+helpviewer_keywords: ["GetCharWidthFloat", "GetCharWidthFloat function [Windows GDI]", "GetCharWidthFloatW", "_win32_GetCharWidthFloat", "gdi.getcharwidthfloat", "wingdi/GetCharWidthFloat", "wingdi/GetCharWidthFloatW"]
 old-location: gdi\getcharwidthfloat.htm
 tech.root: gdi
 ms.assetid: 7a90b701-63f9-41e5-9069-10d344edfe02
@@ -93,7 +93,7 @@ If a character does not exist in the current font, it is assigned the width of t
 
 
 > [!NOTE]
-> The wingdi.h header defines GetCharWidthFloat as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines GetCharWidthFloat as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -59,10 +59,7 @@ The <b>IMDSPDevice3</b> interface extends <a href="/windows/desktop/api/mswmdm/n
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDevice3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice2">IMDSPDevice2</a>. <b>IMDSPDevice3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMDSPDevice3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice2">IMDSPDevice2</a>. <b>IMDSPDevice3</b> also has these types of members:
 
 ## -see-also
 

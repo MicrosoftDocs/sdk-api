@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_GetTabControl","PropSheet_GetTabControl macro [
 old-location: controls\PropSheet_GetTabControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_gettabcontrol.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_GetTabControl, PropSheet_GetTabControl macro [Windows Controls], _win32_PropSheet_GetTabControl, _win32_PropSheet_GetTabControl_cpp, controls.PropSheet_GetTabControl, controls._win32_PropSheet_GetTabControl, prsht/PropSheet_GetTabControl
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PropSheet_GetTabControl macro
+
+## -syntax
+
+```cpp
+HWND PropSheet_GetTabControl(
+   HWND hDlg
+);
+```
+
+## -returns
+
+Type: **[HWND](/windows/desktop/winprog/windows-data-types)**
+
+Returns the handle to the tab control.
 
 
 ## -description

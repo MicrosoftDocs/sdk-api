@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetConnectW
 title: InternetConnectW function (wininet.h)
-description: Opens an File Transfer Protocol (FTP) or HTTP session for a given site.
-helpviewer_keywords: ["InternetConnect","InternetConnect function [WinINet]","InternetConnectA","InternetConnectW","_win32_internetconnect","wininet.internetconnect","wininet/InternetConnect","wininet/InternetConnectA","wininet/InternetConnectW"]
+description: Opens an File Transfer Protocol (FTP) or HTTP session for a given site. (Unicode)
+helpviewer_keywords: ["InternetConnect", "InternetConnect function [WinINet]", "InternetConnectW", "_win32_internetconnect", "wininet.internetconnect", "wininet/InternetConnect", "wininet/InternetConnectW"]
 old-location: wininet\internetconnect.htm
 tech.root: wininet
 ms.assetid: 42b5d733-dccd-4c9d-8820-e358e033077c
@@ -301,7 +301,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 > [!NOTE]
-> The wininet.h header defines InternetConnect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetConnect as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

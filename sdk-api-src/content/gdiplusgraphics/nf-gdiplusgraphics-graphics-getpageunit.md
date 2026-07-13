@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetPageUnit</b> method gets the unit of measure currently set for this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-## -parameters
+
 
 ## -returns
 

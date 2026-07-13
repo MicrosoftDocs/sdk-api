@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdW
 title: SetupSetDirectoryIdW function (setupapi.h)
-description: The SetupSetDirectoryId function associates a directory identifier in an INF file with a specific directory.
-helpviewer_keywords: ["SetupSetDirectoryId","SetupSetDirectoryId function [Setup API]","SetupSetDirectoryIdA","SetupSetDirectoryIdW","_setupapi_setupsetdirectoryid","setup.setupsetdirectoryid","setupapi/SetupSetDirectoryId","setupapi/SetupSetDirectoryIdA","setupapi/SetupSetDirectoryIdW"]
+description: The SetupSetDirectoryId function associates a directory identifier in an INF file with a specific directory. (Unicode)
+helpviewer_keywords: ["SetupSetDirectoryId", "SetupSetDirectoryId function [Setup API]", "SetupSetDirectoryIdW", "_setupapi_setupsetdirectoryid", "setup.setupsetdirectoryid", "setupapi/SetupSetDirectoryId", "setupapi/SetupSetDirectoryIdW"]
 old-location: setup\setupsetdirectoryid.htm
 tech.root: setup
 ms.assetid: bacb7b90-a391-4f05-bedb-0c0f52fd15f9
@@ -92,7 +92,7 @@ DIRID_ABSOLUTE_16BIT is not a valid value for <i>Id</i>, which ensures compatibi
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupSetDirectoryId as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupSetDirectoryId as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

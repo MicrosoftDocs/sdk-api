@@ -52,7 +52,7 @@ api_name:
 
 Creates and initializes  the magnifier run-time objects.
 
-## -parameters
+
 
 ## -returns
 

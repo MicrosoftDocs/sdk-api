@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_5
+UID: NS:vfw.ICDECOMPRESS
 title: ICDECOMPRESS (vfw.h)
 description: The ICDECOMPRESS structure contains decompression parameters used with the ICM_DECOMPRESS message.
 helpviewer_keywords: ["ICDECOMPRESS","ICDECOMPRESS structure [Windows Multimedia]","ICDECOMPRESS_HURRYUP","ICDECOMPRESS_NOTKEYFRAME","ICDECOMPRESS_NULLFRAME","ICDECOMPRESS_PREROLL","ICDECOMPRESS_UPDATE","multimedia.icdecompress_COLLISION813","multimedia.icdecompress_struct","vfw/ICDECOMPRESS"]
@@ -155,3 +155,4 @@ Chunk identifier from the AVI file.
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

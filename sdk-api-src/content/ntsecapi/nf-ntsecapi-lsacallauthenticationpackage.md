@@ -91,7 +91,7 @@ A pointer to a <b>ULONG</b> that receives the length of the returned buffer, in 
 
 ### -param ProtocolStatus [out]
 
-If the function succeeds, this parameter receives a pointer to an <b>NTSTATUS</b> code that indicates the completion status of the authentication package.
+If the function succeeds, this parameter receives an <b>NTSTATUS</b> code that indicates the completion status of the authentication package.
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_CONFIGURATIONW
 title: FAX_CONFIGURATIONW (winfax.h)
-description: The FAX_CONFIGURATION structure contains information about the global configuration settings of a fax server.
+description: The FAX_CONFIGURATION structure contains information about the global configuration settings of a fax server. (Unicode)
 helpviewer_keywords: ["*PFAX_CONFIGURATIONW","FAX_CONFIGURATION","FAX_CONFIGURATION structure [Fax Service]","FAX_CONFIGURATIONA","FAX_CONFIGURATIONW","PFAX_CONFIGURATION","PFAX_CONFIGURATION structure pointer [Fax Service]","_mfax_fax_configuration_str","fax._mfax_fax_configuration_str","winfax/FAX_CONFIGURATION","winfax/FAX_CONFIGURATIONA","winfax/FAX_CONFIGURATIONW","winfax/PFAX_CONFIGURATION"]
 old-location: fax\_mfax_fax_configuration_str.htm
 tech.root: Fax
@@ -154,7 +154,7 @@ The fax client application passes the <b>FAX_CONFIGURATION</b> structure in a ca
 
 
 > [!NOTE]
-> The winfax.h header defines FAX_CONFIGURATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FAX_CONFIGURATION as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

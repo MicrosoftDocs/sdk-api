@@ -52,7 +52,7 @@ api_name:
 
 Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_11
+UID: NS:processsnapshot.PSS_THREAD_ENTRY
 title: PSS_THREAD_ENTRY (processsnapshot.h)
 description: Holds thread information returned by PssWalkSnapshotPssWalkSnapshot.
 helpviewer_keywords: ["PSS_THREAD_ENTRY","PSS_THREAD_ENTRY structure","proc_snap.pss_thread_entry","processsnapshot/PSS_THREAD_ENTRY"]
@@ -137,3 +137,4 @@ A pointer to the context record if thread context information was captured. The 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

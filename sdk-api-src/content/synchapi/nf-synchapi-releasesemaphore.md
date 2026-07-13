@@ -9,7 +9,7 @@ ms.assetid: 9d444318-4d66-4ec3-a65d-bd3b75db9d9b
 ms.date: 12/05/2018
 ms.keywords: ReleaseSemaphore, ReleaseSemaphore function, _win32_releasesemaphore, base.releasesemaphore, synchapi/ReleaseSemaphore, winbase/ReleaseSemaphore
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -64,7 +64,7 @@ Increases the count of the specified semaphore object by a specified amount.
 
 A handle to the semaphore object. The 
 <a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a> or 
-<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> function returns this handle.
+<a href="/windows/win32/api/synchapi/nf-synchapi-opensemaphorew">OpenSemaphore</a> function returns this handle.
 
 This handle must have the <b>SEMAPHORE_MODIFY_STATE</b> access right. For more information, see 
 <a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
@@ -115,7 +115,7 @@ For an example that uses
 
 <a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a>
 
-<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a>
+<a href="/windows/win32/api/synchapi/nf-synchapi-opensemaphorew">OpenSemaphore</a>
 
 
 <a href="/windows/desktop/Sync/semaphore-objects">Semaphore Objects</a>

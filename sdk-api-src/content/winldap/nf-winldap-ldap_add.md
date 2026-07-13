@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_add
 title: ldap_add function (winldap.h)
-description: Initiates an asynchronous add operation to a directory tree.
+description: The ldap_add function (winldap.h) initiates an asynchronous add operation to a directory tree. 
 helpviewer_keywords: ["_ldap_ldap_add","ldap.ldap__add","ldap.ldap_add","ldap_add","ldap_add function [LDAP]","ldap_addA","ldap_addW","winldap/ldap_add","winldap/ldap_addA","winldap/ldap_addW"]
 old-location: ldap\ldap_add.htm
 tech.root: ldap
 ms.assetid: d978f668-7726-44e4-a0b1-31390e8498c4
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _ldap_ldap_add, ldap.ldap__add, ldap.ldap_add, ldap_add, ldap_add function [LDAP], ldap_addA, ldap_addW, winldap/ldap_add, winldap/ldap_addA, winldap/ldap_addW
 req.header: winldap.h
 req.include-header: 

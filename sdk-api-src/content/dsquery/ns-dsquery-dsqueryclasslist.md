@@ -1,5 +1,5 @@
 ---
-UID: NS:dsquery.__unnamed_struct_3
+UID: NS:dsquery.DSQUERYCLASSLIST
 title: DSQUERYCLASSLIST (dsquery.h)
 description: The DSQUERYCLASSLIST structure describes a list of classes against which a directory service query is made.
 helpviewer_keywords: ["*LPDSQUERYCLASSLIST","DSQUERYCLASSLIST","DSQUERYCLASSLIST structure [Active Directory]","LPDSQUERYCLASSLIST","LPDSQUERYCLASSLIST structure pointer [Active Directory]","_glines_dsqueryclasslist","ad.dsqueryclasslist","dsquery/DSQUERYCLASSLIST","dsquery/LPDSQUERYCLASSLIST"]
@@ -76,3 +76,4 @@ The class list is retrieved by the form pages upon receiving a DSQPM_GETCLASSLIS
 
 <a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Active
   Directory Display Structures</a>
+

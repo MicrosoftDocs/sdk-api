@@ -53,7 +53,7 @@ api_name:
 
 The <b>FontCollection::GetLastStatus</b> method returns a value that indicates the result of this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontcollection">FontCollection</a> object's previous method call.
 
-## -parameters
+
 
 ## -returns
 

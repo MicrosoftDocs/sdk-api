@@ -56,7 +56,7 @@ The <b>FSM_STATE</b> enumeration defines the set of possible failover relationsh
 
 ## -enum-fields
 
-### -field NO_STATE
+### -field NO_STATE:0
 
 Indicates that no state is configured for the DHCPv4 failover relationship.
 

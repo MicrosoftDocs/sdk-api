@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.ExpandTargetPath
 title: ITargetInfo::ExpandTargetPath (wcmconfig.h)
-description: Expands a location string to indicate the offline installation location.
+description: Expands a location string to indicate the offline installation location. (ITargetInfo.ExpandTargetPath)
 helpviewer_keywords: ["ExpandTargetPath","ExpandTargetPath method [SMI]","ExpandTargetPath method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","ExpandTargetPath method","ITargetInfo.ExpandTargetPath","ITargetInfo::ExpandTargetPath","smi.itargetinfo_expandtargetpath","wcmconfig/ITargetInfo::ExpandTargetPath"]
 old-location: smi\itargetinfo_expandtargetpath.htm
 tech.root: SMI

@@ -91,7 +91,7 @@ VIDMEM_ISHEAP
 
 </td>
 <td>
-This flagais reserved for system use and should be ignored by the driver.
+This flag is reserved for system use and should be ignored by the driver.
 
 </td>
 </tr>

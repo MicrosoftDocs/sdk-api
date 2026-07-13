@@ -97,7 +97,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b> E_INVALIDARG</b></b></dt>
+<dt><b> E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ The value specified by the <i>Identity</i> parameter or the <i>SubFactor</i> par
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DUPLICATE_ENROLLMENT</b></b></dt>
+<dt><b>WINBIO_E_DUPLICATE_ENROLLMENT</b></dt>
 </dl>
 </td>
 <td width="60%">

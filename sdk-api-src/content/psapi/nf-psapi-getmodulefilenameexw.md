@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.GetModuleFileNameExW
 title: GetModuleFileNameExW function (psapi.h)
-description: Retrieves the fully qualified path for the file containing the specified module.
-helpviewer_keywords: ["GetModuleFileNameEx","GetModuleFileNameEx function [PSAPI]","GetModuleFileNameExA","GetModuleFileNameExW","K32GetModuleFileNameEx","K32GetModuleFileNameExA","K32GetModuleFileNameExW","_win32_getmodulefilenameex","base.getmodulefilenameex","psapi.getmodulefilenameex","psapi/GetModuleFileNameEx","psapi/GetModuleFileNameExA","psapi/GetModuleFileNameExW","psapi/K32GetModuleFileNameEx","psapi/K32GetModuleFileNameExA","psapi/K32GetModuleFileNameExW"]
+description: Retrieves the fully qualified path for the file containing the specified module. (Unicode)
+helpviewer_keywords: ["GetModuleFileNameEx", "GetModuleFileNameEx function [PSAPI]", "GetModuleFileNameExW", "K32GetModuleFileNameEx", "K32GetModuleFileNameExW", "_win32_getmodulefilenameex", "base.getmodulefilenameex", "psapi.getmodulefilenameex", "psapi/GetModuleFileNameEx", "psapi/GetModuleFileNameExW", "psapi/K32GetModuleFileNameEx", "psapi/K32GetModuleFileNameExW"]
 old-location: psapi\getmodulefilenameex.htm
 tech.root: psapi
 ms.assetid: 4199ce12-e82f-4a58-ac66-e0ddc0dffbff
@@ -71,7 +71,9 @@ A handle to the process that contains the module.
 
 The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
-The <b>GetModuleFileNameEx</b> function does not retrieve the path for modules  that were loaded using the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
+<b>Windows 10 and later, Windows Server 2016 and later</b>: If the <i>hModule</i> parameter is NULL, then the handle requires only <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access rights.
+
+The <b>GetModuleFileNameEx</b> function does not retrieve the path for modules  that were loaded using the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexw">LoadLibraryEx</a>.
 
 ### -param hModule [in, optional]
 
@@ -96,9 +98,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 The <b>GetModuleFileNameEx</b> function is primarily designed for use by debuggers and similar applications that must extract module information from another process. If the module list in the target process is corrupted or is not yet initialized, or if the module list changes during the function call as a result of DLLs being loaded or unloaded, <b>GetModuleFileNameEx</b> may fail or return incorrect information.
 
-To retrieve the name of a module in the current process, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a> function. This is more efficient and more reliable than calling <b>GetModuleFileNameEx</b> with a handle to the current process.
+To retrieve the name of a module in the current process, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamew">GetModuleFileName</a> function. This is more efficient and more reliable than calling <b>GetModuleFileNameEx</b> with a handle to the current process.
 
-To retrieve the name of the main executable module for a remote process, use the <a href="/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamea">GetProcessImageFileName</a> or <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function. This is more efficient and more reliable than calling the <b>GetModuleFileNameEx</b> function with a NULL module handle.
+To retrieve the name of the main executable module for a remote process, use the <a href="/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamew">GetProcessImageFileName</a> or <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamew">QueryFullProcessImageName</a> function. This is more efficient and more reliable than calling the <b>GetModuleFileNameEx</b> function with a NULL module handle.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -129,7 +131,7 @@ For an example, see
 
 
 > [!NOTE]
-> The psapi.h header defines GetModuleFileNameEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The psapi.h header defines GetModuleFileNameEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -137,19 +139,19 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/psapi/nf-psapi-getmodulebasenamea">GetModuleBaseName</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getmodulebasenamew">GetModuleBaseName</a>
 
 
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamew">GetModuleFileName</a>
 
 
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlew">GetModuleHandle</a>
 
 
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw">LoadLibrary</a>
 
 
 

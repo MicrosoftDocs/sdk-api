@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetScriptCount","GetScriptCount method [windows Media For
 old-location: wmformat\iwmheaderinfo_getscriptcount.htm
 tech.root: wmformat
 ms.assetid: c1a0b35c-db05-402a-9bde-684bead1eedf
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetScriptCount, GetScriptCount method [windows Media Format], GetScriptCount method [windows Media Format],IWMHeaderInfo interface, GetScriptCount method [windows Media Format],IWMHeaderInfo2 interface, GetScriptCount method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetScriptCount method, IWMHeaderInfo.GetScriptCount, IWMHeaderInfo2 interface [windows Media Format],GetScriptCount method, IWMHeaderInfo2::GetScriptCount, IWMHeaderInfo3 interface [windows Media Format],GetScriptCount method, IWMHeaderInfo3::GetScriptCount, IWMHeaderInfo::GetScriptCount, IWMHeaderInfoGetScriptCount, wmformat.iwmheaderinfo_getscriptcount, wmsdkidl/IWMHeaderInfo2::GetScriptCount, wmsdkidl/IWMHeaderInfo3::GetScriptCount, wmsdkidl/IWMHeaderInfo::GetScriptCount
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,6 +55,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetScriptCount</b> method returns the number of scripts currently in the header section of the ASF file.
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>SetupGetNonInteractiveMode</b> function returns the value of a SetupAPI non-interactive flag  that indicates whether the caller's process can interact with a user through user interface components, such as dialog boxes.
 
-## -parameters
+
 
 ## -returns
 

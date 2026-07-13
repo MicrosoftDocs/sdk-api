@@ -6,7 +6,7 @@ helpviewer_keywords: ["IMPEG2PIDMap interface [DirectShow]","UnmapPID method","I
 old-location: dshow\impeg2pidmap_unmappid.htm
 tech.root: dshow
 ms.assetid: 1ad866c7-672e-4f96-a384-bbf78a78b8f5
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IMPEG2PIDMap interface [DirectShow],UnmapPID method, IMPEG2PIDMap.UnmapPID, IMPEG2PIDMap::UnmapPID, IMPEG2PIDMapUnmapPID, UnmapPID, UnmapPID method [DirectShow], UnmapPID method [DirectShow],IMPEG2PIDMap interface, bdaiface/IMPEG2PIDMap::UnmapPID, dshow.impeg2pidmap_unmappid
 req.header: bdaiface.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>UnmapPID</code> method unmaps one or more PIDs.
 

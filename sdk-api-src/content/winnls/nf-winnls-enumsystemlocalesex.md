@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-2-1.dll
  - KernelBase.dll
@@ -70,23 +71,12 @@ Pointer to an application-defined callback function. The <b>EnumSystemLocalesEx<
 
 Flags identifying the locales to enumerate. The flags can be used singly or combined using a binary OR. If the application specifies 0 for this parameter, the function behaves as for <a href="/windows/desktop/Intl/locale-all">LOCALE_ALL</a>.
 
-
-<ul>
-<li>
-<a href="/windows/desktop/Intl/locale-all">LOCALE_ALL</a>
-</li>
-<li>
-<a href="/windows/desktop/Intl/locale-alternate-sorts">LOCALE_ALTERNATE_SORTS</a>; see Remarks</li>
-<li>
-<a href="/windows/desktop/Intl/locale-neutraldata">LOCALE_NEUTRALDATA</a>
-</li>
-<li>
-<a href="/windows/desktop/Intl/locale-supplemental">LOCALE_SUPPLEMENTAL</a>
-</li>
-<li>
-<a href="/windows/desktop/Intl/locale-windows">LOCALE_WINDOWS</a>
-</li>
-</ul>
+- <a href="/windows/desktop/Intl/locale-all">LOCALE_ALL</a>
+- <a href="/windows/desktop/Intl/locale-alternate-sorts">LOCALE_ALTERNATE_SORTS</a>; see Remarks</li>
+- <a href="/windows/desktop/Intl/locale-neutraldata">LOCALE_NEUTRALDATA</a>
+- <a href="/windows/desktop/Intl/locale-supplemental">LOCALE_SUPPLEMENTAL</a>
+- <a href="/windows/desktop/Intl/locale-windows">LOCALE_WINDOWS</a>
+- [LOCALE_SPECIFICDATA](/windows/win32/intl/locale-specificdata)
 
 ### -param lParam [in]
 

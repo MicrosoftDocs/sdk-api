@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcBindingToStringBindingW
 title: RpcBindingToStringBindingW function (rpcdce.h)
-description: The RpcBindingToStringBinding function returns a string representation of a binding handle.
-helpviewer_keywords: ["RpcBindingToStringBinding","RpcBindingToStringBinding function [RPC]","RpcBindingToStringBindingA","RpcBindingToStringBindingW","_rpc_rpcbindingtostringbinding","rpc.rpcbindingtostringbinding","rpcdce/RpcBindingToStringBinding","rpcdce/RpcBindingToStringBindingA","rpcdce/RpcBindingToStringBindingW"]
+description: The RpcBindingToStringBindingW (Unicode) function (rpcdce.h) returns a string representation of a binding handle.
+helpviewer_keywords: ["RpcBindingToStringBinding", "RpcBindingToStringBinding function [RPC]", "RpcBindingToStringBindingW", "_rpc_rpcbindingtostringbinding", "rpc.rpcbindingtostringbinding", "rpcdce/RpcBindingToStringBinding", "rpcdce/RpcBindingToStringBindingW"]
 old-location: rpc\rpcbindingtostringbinding.htm
 tech.root: Rpc
 ms.assetid: fd4fea9a-067e-4a1b-8be5-867bbe9663c5
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcBindingToStringBinding, RpcBindingToStringBinding function [RPC], RpcBindingToStringBindingA, RpcBindingToStringBindingW, _rpc_rpcbindingtostringbinding, rpc.rpcbindingtostringbinding, rpcdce/RpcBindingToStringBinding, rpcdce/RpcBindingToStringBindingA, rpcdce/RpcBindingToStringBindingW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -129,7 +129,7 @@ To parse the returned <i>StringBinding</i> parameter, call the
 
 
 > [!NOTE]
-> The rpcdce.h header defines RpcBindingToStringBinding as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines RpcBindingToStringBinding as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

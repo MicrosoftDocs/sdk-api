@@ -6,7 +6,7 @@ helpviewer_keywords: ["TabCtrl_GetItem","TabCtrl_GetItem macro [Windows Controls
 old-location: controls\TabCtrl_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TabCtrl_GetItem, TabCtrl_GetItem macro [Windows Controls], _win32_TabCtrl_GetItem, _win32_TabCtrl_GetItem_cpp, commctrl/TabCtrl_GetItem, controls.TabCtrl_GetItem, controls._win32_TabCtrl_GetItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # TabCtrl_GetItem macro
+
+## -syntax
+
+```cpp
+BOOL TabCtrl_GetItem(
+   HWND     hwnd,
+   int      iItem,
+   LPTCITEM pitem
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

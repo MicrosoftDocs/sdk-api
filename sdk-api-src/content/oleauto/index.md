@@ -4,7 +4,8 @@ title: Oleauto.h header
 ms.assetid: e26901c1-bc65-3702-b165-f54f14890afe
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 tech.root: automat
 f1_keywords:
  - oleauto

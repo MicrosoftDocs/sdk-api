@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetFirstVisibleLine","Edit_GetFirstVisibleLine macro
 old-location: controls\Edit_GetFirstVisibleLine.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getfirstvisibleline.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetFirstVisibleLine, Edit_GetFirstVisibleLine macro [Windows Controls], _win32_Edit_GetFirstVisibleLine, _win32_Edit_GetFirstVisibleLine_cpp, controls.Edit_GetFirstVisibleLine, controls._win32_Edit_GetFirstVisibleLine, windowsx/Edit_GetFirstVisibleLine
 req.header: windowsx.h
 req.include-header: 
@@ -47,6 +47,23 @@ api_name:
 
 # Edit_GetFirstVisibleLine macro
 
+## -syntax
+
+```cpp
+int Edit_GetFirstVisibleLine(
+   HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The zero-based index of the uppermost visible line in a multiline edit control.
+
+<b>Edit controls:</b> For single-line edit controls, the return value is the zero-based index of the first visible character.
+
+<b>Rich edit controls:</b> For single-line rich edit controls, the return value is zero.
 
 ## -description
 

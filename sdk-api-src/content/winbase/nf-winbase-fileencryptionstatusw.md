@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.FileEncryptionStatusW
 title: FileEncryptionStatusW function (winbase.h)
-description: Retrieves the encryption status of the specified file.
-helpviewer_keywords: ["FILE_ENCRYPTABLE","FILE_IS_ENCRYPTED","FILE_READ_ONLY","FILE_ROOT_DIR","FILE_SYSTEM_ATTR","FILE_SYSTEM_DIR","FILE_SYSTEM_NOT_SUPPORT","FILE_UNKNOWN","FILE_USER_DISALLOWED","FileEncryptionStatus","FileEncryptionStatus function [Files]","FileEncryptionStatusA","FileEncryptionStatusW","_win32_fileencryptionstatus","base.fileencryptionstatus","fs.fileencryptionstatus","winbase/FileEncryptionStatus","winbase/FileEncryptionStatusA","winbase/FileEncryptionStatusW"]
+description: Retrieves the encryption status of the specified file. (Unicode)
+helpviewer_keywords: ["FILE_ENCRYPTABLE", "FILE_IS_ENCRYPTED", "FILE_READ_ONLY", "FILE_ROOT_DIR", "FILE_SYSTEM_ATTR", "FILE_SYSTEM_DIR", "FILE_SYSTEM_NOT_SUPPORT", "FILE_UNKNOWN", "FILE_USER_DISALLOWED", "FileEncryptionStatus", "FileEncryptionStatus function [Files]", "FileEncryptionStatusW", "_win32_fileencryptionstatus", "base.fileencryptionstatus", "fs.fileencryptionstatus", "winbase/FileEncryptionStatus", "winbase/FileEncryptionStatusW"]
 old-location: fs\fileencryptionstatus.htm
 tech.root: fs
 ms.assetid: 96efe065-de62-4941-811d-610465cd7ef5
@@ -252,7 +252,7 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 > [!NOTE]
-> The winbase.h header defines FileEncryptionStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines FileEncryptionStatus as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

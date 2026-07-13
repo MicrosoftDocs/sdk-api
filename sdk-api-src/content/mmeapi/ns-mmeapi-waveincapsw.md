@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tagWAVEINCAPSW
 title: WAVEINCAPSW (mmeapi.h)
-description: The WAVEINCAPS structure describes the capabilities of a waveform-audio input device.
+description: The WAVEINCAPS structure describes the capabilities of a waveform-audio input device. (WAVEINCAPSW)
 helpviewer_keywords: ["*LPWAVEINCAPSW","*NPWAVEINCAPSW","*PWAVEINCAPSW","WAVEINCAPS","WAVEINCAPS structure [Windows Multimedia]","WAVEINCAPSW","_win32_WAVEINCAPS_str","mmeapi/WAVEINCAPS","multimedia.waveincaps","tagWAVEINCAPSA","tagWAVEINCAPSW","waveincaps_tag"]
 old-location: multimedia\waveincaps.htm
 tech.root: Multimedia
@@ -165,4 +165,4 @@ Number specifying whether the device supports mono (1) or stereo (2) input.
 ## -remarks
 
 > [!NOTE]
-> The mmeapi.h header defines WAVEINCAPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines WAVEINCAPS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

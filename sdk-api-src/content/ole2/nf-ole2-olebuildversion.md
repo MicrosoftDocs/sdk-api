@@ -52,7 +52,7 @@ api_name:
 
 This function is obsolete.
 
-## -parameters
+
 
 ## -returns
 

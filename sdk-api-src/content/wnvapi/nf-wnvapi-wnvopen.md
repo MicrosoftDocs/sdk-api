@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib:
 req.dll: Wnvapi.dll
 req.irql: 
 targetos: Windows
@@ -52,7 +52,7 @@ api_name:
 
 Provides a handle to the Windows Network Virtualization (WNV) driver object to be used to request and receive WNV notifications.
 
-## -parameters
+
 
 ## -returns
 

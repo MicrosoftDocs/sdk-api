@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_JOB_ENTRYA
 title: FAX_JOB_ENTRYA (winfax.h)
-description: The FAX_JOB_ENTRY structure describes one fax job.
+description: The FAX_JOB_ENTRY structure describes one fax job. (ANSI)
 helpviewer_keywords: ["*PFAX_JOB_ENTRYA","DRT_EMAIL","DRT_INBOX","DRT_NONE","FAX_JOB_ENTRY","FAX_JOB_ENTRY structure [Fax Service]","FAX_JOB_ENTRYA","FAX_JOB_ENTRYW","FPS_ABORTING","FPS_ANSWERED","FPS_AVAILABLE","FPS_BAD_ADDRESS","FPS_BUSY","FPS_CALL_BLACKLISTED","FPS_CALL_DELAYED","FPS_COMPLETED","FPS_DIALING","FPS_DISCONNECTED","FPS_FATAL_ERROR","FPS_HANDLED","FPS_INITIALIZING","FPS_NOT_FAX_CALL","FPS_NO_ANSWER","FPS_NO_DIAL_TONE","FPS_OFFLINE","FPS_RECEIVING","FPS_RINGING","FPS_ROUTING","FPS_SENDING","FPS_UNAVAILABLE","JSA_DISCOUNT_PERIOD","JSA_NOW","JSA_SPECIFIC_TIME","JS_DELETING","JS_FAILED","JS_INPROGRESS","JS_NOLINE","JS_PAUSED","JS_PENDING","JS_RETRIES_EXCEEDED","JS_RETRYING","JT_FAIL_RECEIVE","JT_RECEIVE","JT_ROUTING","JT_SEND","JT_UNKNOWN","PFAX_JOB_ENTRY","PFAX_JOB_ENTRY structure pointer [Fax Service]","_mfax_fax_job_entry_str","fax._mfax_fax_job_entry_str","winfax/FAX_JOB_ENTRY","winfax/FAX_JOB_ENTRYA","winfax/FAX_JOB_ENTRYW","winfax/PFAX_JOB_ENTRY"]
 old-location: fax\_mfax_fax_job_entry_str.htm
 tech.root: Fax
@@ -439,7 +439,7 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 > [!NOTE]
-> The winfax.h header defines FAX_JOB_ENTRY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FAX_JOB_ENTRY as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -72,7 +72,7 @@ Used by Microsoft DirectDraw and should be ignored by the driver.
 
 ### -field ddRVal
 
-Specifies the location in which DirectDraw writes the return value of the <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for the <a href="/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a> operation. Contains DD_OK if the capture buffer contains valid data.
+Specifies the location in which DirectDraw writes the return value of the <a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a> function for the <a href="/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a> operation. Contains DD_OK if the capture buffer contains valid data.
 
 ## -see-also
 
@@ -84,4 +84,4 @@ Specifies the location in which DirectDraw writes the return value of the <a hre
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
+<a href="/previous-versions/windows/drivers/display/nf-dxapi-dxapi">DxApi</a>

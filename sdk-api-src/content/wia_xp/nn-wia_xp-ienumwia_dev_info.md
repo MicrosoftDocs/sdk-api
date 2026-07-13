@@ -44,6 +44,7 @@ api_location:
  - Wiaguid.dll
 api_name:
  - IEnumWIA_DEV_INFO
+archived: true
 ---
 
 # IEnumWIA_DEV_INFO interface
@@ -55,10 +56,7 @@ The <b>IEnumWIA_DEV_INFO</b> interface enumerates the currently available Window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_DEV_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_DEV_INFO</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumWIA_DEV_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_DEV_INFO</b> also has these types of members:
 
 ## -remarks
 

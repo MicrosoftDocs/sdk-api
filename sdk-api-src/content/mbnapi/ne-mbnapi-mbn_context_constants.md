@@ -57,18 +57,18 @@ The <b>MBN_CONTEXT_CONSTANTS</b> enumerated type specifies the maximum string le
 
 ## -enum-fields
 
-### -field MBN_ACCESSSTRING_LEN
+### -field MBN_ACCESSSTRING_LEN:100
 
 Maximum string length of the <b>accessString</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
-### -field MBN_USERNAME_LEN
+### -field MBN_USERNAME_LEN:255
 
 Maximum string length of the <b>userName</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
-### -field MBN_PASSWORD_LEN
+### -field MBN_PASSWORD_LEN:255
 
 Maximum string length of the <b>password</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
-### -field MBN_CONTEXT_ID_APPEND
+### -field MBN_CONTEXT_ID_APPEND:0xffffffff
 
  The device will find the appropriate index to store a context into.

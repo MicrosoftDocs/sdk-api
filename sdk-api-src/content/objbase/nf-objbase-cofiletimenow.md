@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CoFileTimeNow
 title: CoFileTimeNow function (objbase.h)
-description: Returns the current time as a FILETIME structure.
+description: The CoFileTimeNow function (objbase.h) returns the current time as a FILETIME structure.
 helpviewer_keywords: ["CoFileTimeNow","CoFileTimeNow function [COM]","_com_CoFileTimeNow","com.cofiletimenow","combaseapi/CoFileTimeNow"]
 old-location: com\cofiletimenow.htm
 tech.root: com
 ms.assetid: 00083429-1d61-4a0b-bb73-82158869466d
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, com.cofiletimenow, combaseapi/CoFileTimeNow
 req.header: objbase.h
 req.include-header: Objbase.h
@@ -40,6 +40,12 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-com-ole32-l1-4-0.dll
+ - ext-ms-win-com-ole32-l1-3-0.dll
+ - ext-ms-win-com-ole32-l1-2-0.dll
+ - ext-ms-win-com-ole32-l1-1-5.dll
+ - api-ms-win-core-com-l1-1-3.dll
+ - api-ms-win-core-com-l1-1-2.dll
  - Ole32.dll
  - API-MS-Win-OLE32-IE-l1-1-0.dll
  - ole32_wp.dll

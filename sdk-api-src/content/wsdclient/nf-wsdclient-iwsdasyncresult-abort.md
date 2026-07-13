@@ -52,7 +52,7 @@ api_name:
 
 Aborts the asynchronous operation.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,59 +54,59 @@ Used by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_c
 
 ## -enum-fields
 
-### -field TSF_NORMAL
+### -field TSF_NORMAL:0
 
 Fail if the destination already exists, unless TSF_OVERWRITE_EXIST is specified. This is a default behavior.
 
-### -field TSF_FAIL_EXIST
+### -field TSF_FAIL_EXIST:0
 
 Fail if the destination already exists, unless TSF_OVERWRITE_EXIST is specified. This is a default behavior.
 
-### -field TSF_RENAME_EXIST
+### -field TSF_RENAME_EXIST:0x1
 
 Rename with auto-name generation if the destination already exists.
 
-### -field TSF_OVERWRITE_EXIST
+### -field TSF_OVERWRITE_EXIST:0x2
 
 Overwrite or merge with the destination.
 
-### -field TSF_ALLOW_DECRYPTION
+### -field TSF_ALLOW_DECRYPTION:0x4
 
 Allow creation of a decrypted destination.
 
-### -field TSF_NO_SECURITY
+### -field TSF_NO_SECURITY:0x8
 
 No discretionary access control list (DACL), system access control list (SACL), or owner.
 
-### -field TSF_COPY_CREATION_TIME
+### -field TSF_COPY_CREATION_TIME:0x10
 
 Copy the creation time as part of the copy. This can be useful for a move operation that is being used as a copy and delete operation (TSF_MOVE_AS_COPY_DELETE).
 
-### -field TSF_COPY_WRITE_TIME
+### -field TSF_COPY_WRITE_TIME:0x20
 
 Copy the last write time as part of the copy.
 
-### -field TSF_USE_FULL_ACCESS
+### -field TSF_USE_FULL_ACCESS:0x40
 
 Assign write, read, and delete permissions as share mode.
 
-### -field TSF_DELETE_RECYCLE_IF_POSSIBLE
+### -field TSF_DELETE_RECYCLE_IF_POSSIBLE:0x80
 
 Recycle on file delete, if possible.
 
-### -field TSF_COPY_HARD_LINK
+### -field TSF_COPY_HARD_LINK:0x100
 
 Hard link to the desired source (not required). This avoids a normal copy operation.
 
-### -field TSF_COPY_LOCALIZED_NAME
+### -field TSF_COPY_LOCALIZED_NAME:0x200
 
 Copy the localized name.
 
-### -field TSF_MOVE_AS_COPY_DELETE
+### -field TSF_MOVE_AS_COPY_DELETE:0x400
 
 Move as a copy and delete operation.
 
-### -field TSF_SUSPEND_SHELLEVENTS
+### -field TSF_SUSPEND_SHELLEVENTS:0x800
 
 Suspend Shell events.
 

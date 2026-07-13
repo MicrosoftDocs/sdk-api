@@ -1,7 +1,7 @@
 ---
 UID: NS:nspapi._SERVICE_INFOW
 title: SERVICE_INFOW (nspapi.h)
-description: Contains information about a network service or a network service type.
+description: Contains information about a network service or a network service type. (Unicode)
 helpviewer_keywords: ["*LPSERVICE_INFOW","*PSERVICE_INFOW","RESOURCEDISPLAYTYPE_DOMAIN","RESOURCEDISPLAYTYPE_FILE","RESOURCEDISPLAYTYPE_GENERIC","RESOURCEDISPLAYTYPE_GROUP","RESOURCEDISPLAYTYPE_SERVER","RESOURCEDISPLAYTYPE_SHARE","RESOURCEDISPLAYTYPE_TREE","SERVICE_INFO","SERVICE_INFO structure [Winsock]","SERVICE_INFOA","SERVICE_INFOW","_win32_service_info_2","nspapi/SERVICE_INFO","nspapi/SERVICE_INFOA","nspapi/SERVICE_INFOW","winsock.service_info_2"]
 old-location: winsock\service_info_2.htm
 tech.root: WinSock
@@ -264,4 +264,4 @@ A
 ## -remarks
 
 > [!NOTE]
-> The nspapi.h header defines SERVICE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines SERVICE_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

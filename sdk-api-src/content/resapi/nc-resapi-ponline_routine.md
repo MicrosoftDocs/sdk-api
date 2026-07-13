@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.PONLINE_ROUTINE
 title: PONLINE_ROUTINE (resapi.h)
-description: Marks a resource as available for use.
+description: The PONLINE_ROUTINE callback function marks a resource as available for use. (PONLINE_ROUTINE)
 helpviewer_keywords: ["Online","Online callback","Online callback function [Failover Cluster]","PONLINE_ROUTINE","PONLINE_ROUTINE callback function [Failover Cluster]","_wolf_online","mscs.online","resapi/Online","resapi/PONLINE_ROUTINE"]
 old-location: mscs\online.htm
 tech.root: MsCS
 ms.assetid: b406ef44-0622-4625-a6cf-462b6ea6018d
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
 req.header: resapi.h
 req.include-header: 

@@ -56,55 +56,55 @@ Specifies function flags.
 
 ## -enum-fields
 
-### -field FUNCFLAG_FRESTRICTED
+### -field FUNCFLAG_FRESTRICTED:0x1
 
 The function should not be accessible from macro languages. This flag is intended for system-level functions or functions that type browsers should not display.
 
-### -field FUNCFLAG_FSOURCE
+### -field FUNCFLAG_FSOURCE:0x2
 
 The function returns an object that is a source of events.
 
-### -field FUNCFLAG_FBINDABLE
+### -field FUNCFLAG_FBINDABLE:0x4
 
 The function that supports data binding.
 
-### -field FUNCFLAG_FREQUESTEDIT
+### -field FUNCFLAG_FREQUESTEDIT:0x8
 
 When set, any call to a method that sets the property results first in a call to <b>IPropertyNotifySink::OnRequestEdit</b>. The implementation of <b>OnRequestEdit</b> determines if the call is allowed to set the property.
 
-### -field FUNCFLAG_FDISPLAYBIND
+### -field FUNCFLAG_FDISPLAYBIND:0x10
 
 The function that is displayed to the user as bindable. FUNC_FBINDABLE must also be set.
 
-### -field FUNCFLAG_FDEFAULTBIND
+### -field FUNCFLAG_FDEFAULTBIND:0x20
 
 The function that best represents the object. Only one function in a type information can have this attribute.
 
-### -field FUNCFLAG_FHIDDEN
+### -field FUNCFLAG_FHIDDEN:0x40
 
 The function should not be displayed to the user, although it exists and is bindable.
 
-### -field FUNCFLAG_FUSESGETLASTERROR
+### -field FUNCFLAG_FUSESGETLASTERROR:0x80
 
 The function supports <b>GetLastError</b>. If an error occurs during the function, the caller can call <b>GetLastError</b> to retrieve the error code.
 
-### -field FUNCFLAG_FDEFAULTCOLLELEM
+### -field FUNCFLAG_FDEFAULTCOLLELEM:0x100
 
 Permits an optimization in which the compiler looks for a member named xyz on the type of abc. If such a member is found and is flagged as an accessor function for an element of the default collection, then a call is generated to that member function. Permitted on members in dispinterfaces and interfaces; not permitted on modules. For more information, refer to defaultcollelem in Type Libraries and the Object Description Language.
 
-### -field FUNCFLAG_FUIDEFAULT
+### -field FUNCFLAG_FUIDEFAULT:0x200
 
 The type information member is the default member for display in the user interface.
 
-### -field FUNCFLAG_FNONBROWSABLE
+### -field FUNCFLAG_FNONBROWSABLE:0x400
 
 The property appears in an object browser, but not in a properties browser.
 
-### -field FUNCFLAG_FREPLACEABLE
+### -field FUNCFLAG_FREPLACEABLE:0x800
 
 Tags the interface as having default behaviors.
 
-### -field FUNCFLAG_FIMMEDIATEBIND
+### -field FUNCFLAG_FIMMEDIATEBIND:0x1000
 
 Mapped as individual bindable properties.
 

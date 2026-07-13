@@ -56,31 +56,31 @@ Specifies whether color data includes headroom and toeroom. Headroom allows for 
 
 ## -enum-fields
 
-### -field MFNominalRange_Unknown
+### -field MFNominalRange_Unknown:0
 
 Unknown nominal range.
 
-### -field MFNominalRange_Normal
+### -field MFNominalRange_Normal:1
 
 Equivalent to MFNominalRange_0_255.
 
-### -field MFNominalRange_Wide
+### -field MFNominalRange_Wide:2
 
 Equivalent to MFNominalRange_16_235.
 
-### -field MFNominalRange_0_255
+### -field MFNominalRange_0_255:1
 
 The normalized range [0...1] maps to [0...255] for 8-bit samples or [0...1023] for 10-bit samples.
 
-### -field MFNominalRange_16_235
+### -field MFNominalRange_16_235:2
 
 The normalized range [0...1] maps to [16...235] for 8-bit samples or [64...940] for 10-bit samples.
 
-### -field MFNominalRange_48_208
+### -field MFNominalRange_48_208:3
 
 The normalized range [0..1] maps to [48...208] for 8-bit samples or [64...940] for 10-bit samples.
 
-### -field MFNominalRange_64_127
+### -field MFNominalRange_64_127:4
 
 The normalized range [0..1] maps to [64...127] for 8-bit samples or [256...508] for 10-bit samples. This range is used in the xRGB color space.
 
@@ -89,7 +89,7 @@ The normalized range [0..1] maps to [64...127] for 8-bit samples or [256...508] 
 
 ### -field MFNominalRange_Last
 
-### -field MFNominalRange_ForceDWORD
+### -field MFNominalRange_ForceDWORD:0x7fffffff
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxGetPortW
 title: FaxGetPortW function (winfax.h)
-description: The FaxGetPort function returns information for a specified fax port to a fax client application.
-helpviewer_keywords: ["FaxGetPort","FaxGetPort function [Fax Service]","FaxGetPortA","FaxGetPortW","_mfax_faxgetport","fax._mfax_faxgetport","winfax/FaxGetPort","winfax/FaxGetPortA","winfax/FaxGetPortW"]
+description: The FaxGetPort function returns information for a specified fax port to a fax client application. (Unicode)
+helpviewer_keywords: ["FaxGetPort", "FaxGetPort function [Fax Service]", "FaxGetPortW", "_mfax_faxgetport", "fax._mfax_faxgetport", "winfax/FaxGetPort", "winfax/FaxGetPortW"]
 old-location: fax\_mfax_faxgetport.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3910.htm
@@ -134,7 +134,7 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 > [!NOTE]
-> The winfax.h header defines FaxGetPort as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winfax.h header defines FaxGetPort as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

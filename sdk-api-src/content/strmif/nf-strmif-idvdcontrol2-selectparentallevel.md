@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectParentalLevel
 old-location: dshow\idvdcontrol2_selectparentallevel.htm
 tech.root: dshow
 ms.assetid: c87f8b12-0c14-4d3a-ac79-98577607d053
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDvdControl2 interface [DirectShow],SelectParentalLevel method, IDvdControl2.SelectParentalLevel, IDvdControl2::SelectParentalLevel, IDvdControl2SelectParentalLevel, SelectParentalLevel, SelectParentalLevel method [DirectShow], SelectParentalLevel method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectparentallevel, strmif/IDvdControl2::SelectParentalLevel
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SelectParentalLevel</code> method sets the parental access level for the logged-on user.
 

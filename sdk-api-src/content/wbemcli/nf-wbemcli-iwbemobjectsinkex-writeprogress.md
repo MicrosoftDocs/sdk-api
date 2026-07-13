@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteProgress
 title: IWbemObjectSinkEx::WriteProgress (wbemcli.h)
-description: TBD
+description: TBD (IWbemObjectSinkEx.WriteProgress)
 helpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","WriteProgress method","IWbemObjectSinkEx.WriteProgress","IWbemObjectSinkEx::WriteProgress","WriteProgress","WriteProgress method [Windows Management Instrumentation]","WriteProgress method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::WriteProgress","wmi.iwbemobjectsinkex_writeprogress"]
 old-location: wmi\iwbemobjectsinkex_writeprogress.htm
 tech.root: wmi
@@ -66,7 +66,7 @@ TBD
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

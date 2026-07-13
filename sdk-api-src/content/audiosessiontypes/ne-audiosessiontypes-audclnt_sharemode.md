@@ -74,6 +74,8 @@ In exclusive mode, the Windows audio service attempts to establish a connection 
 
 For more information about shared-mode and exclusive-mode streams, see <a href="/windows/desktop/CoreAudio/user-mode-audio-components">User-Mode Audio Components</a>.
 
+Starting with Xbox May 2021 Update, you can open an audio client in exclusive mode on Xbox.
+
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-constants">Core Audio Constants</a>

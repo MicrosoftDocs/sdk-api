@@ -1,7 +1,7 @@
 ---
 UID: NN:rtworkq.IRtwqAsyncResult
 title: IRtwqAsyncResult (rtworkq.h)
-description: Provides information about the result of an asynchronous operation.
+description: Provides information about the result of an asynchronous operation. (IRtwqAsyncResult)
 helpviewer_keywords: ["IRtwqAsyncResult","IRtwqAsyncResult interface","IRtwqAsyncResult interface","described","base.irtwqasyncresult","rtworkq/IRtwqAsyncResult"]
 old-location: base\irtwqasyncresult.htm
 tech.root: backup
@@ -54,8 +54,5 @@ Provides information about the result of an asynchronous operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqAsyncResult</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IRtwqAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqAsyncResult</b> also has these types of members:
 

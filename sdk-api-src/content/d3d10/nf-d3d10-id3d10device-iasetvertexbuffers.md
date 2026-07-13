@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetVertexBuffers
 title: ID3D10Device::IASetVertexBuffers (d3d10.h)
-description: Bind an array of vertex buffers to the input-assembler stage.
+description: Bind an array of vertex buffers to the input-assembler stage. (ID3D10Device.IASetVertexBuffers)
 helpviewer_keywords: ["IASetVertexBuffers","IASetVertexBuffers method [Direct3D 10]","IASetVertexBuffers method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IASetVertexBuffers method","ID3D10Device.IASetVertexBuffers","ID3D10Device::IASetVertexBuffers","d3d10/ID3D10Device::IASetVertexBuffers","db68f354-a2bd-412e-0600-c324eb254808","direct3d10.id3d10device_iasetvertexbuffers"]
 old-location: direct3d10\id3d10device_iasetvertexbuffers.htm
 tech.root: direct3d10

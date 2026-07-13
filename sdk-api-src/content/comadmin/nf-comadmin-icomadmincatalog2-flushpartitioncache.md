@@ -54,7 +54,7 @@ Empties the cache that maps users to their default partitions.
 
 COM+ caches users' default partitions to avoid repetitive Active Directory requests. You might want to call this method after changing a user's default partition in Active Directory.
 
-## -parameters
+
 
 ## -returns
 

@@ -75,7 +75,7 @@ If this property is not specified, then the default constraint value
                         of <a href="/windows/desktop/api/webservices/ne-webservices-ws_trust_version">WS_TRUST_VERSION_FEBRUARY_2005</a> will be used.
                     
 
-Currently only <a href="/windows/desktop/api/webservices/ne-webservices-ws_trust_version">WS_TRUST_VERSION_FEBRUARY_2005</a>is supported in policy, so a property constraint containing the
+Currently only <a href="/windows/desktop/api/webservices/ne-webservices-ws_trust_version">WS_TRUST_VERSION_FEBRUARY_2005</a> is supported in policy, so a property constraint containing the
                         value <b>WS_TRUST_VERSION_FEBRUARY_2005</b> must be specified in
                         order for the policy to match.
                     

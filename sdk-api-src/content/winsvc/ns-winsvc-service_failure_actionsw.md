@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._SERVICE_FAILURE_ACTIONSW
 title: SERVICE_FAILURE_ACTIONSW (winsvc.h)
-description: Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of SERVICE_STOPPED to the service controller.
+description: Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of SERVICE_STOPPED to the service controller. (Unicode)
 helpviewer_keywords: ["*LPSERVICE_FAILURE_ACTIONSW","LPSERVICE_FAILURE_ACTIONS","LPSERVICE_FAILURE_ACTIONS structure pointer","SERVICE_FAILURE_ACTIONS","SERVICE_FAILURE_ACTIONS structure","SERVICE_FAILURE_ACTIONSA","SERVICE_FAILURE_ACTIONSW","_win32_service_failure_actions_str","base.service_failure_actions_str","winsvc/LPSERVICE_FAILURE_ACTIONS","winsvc/SERVICE_FAILURE_ACTIONS","winsvc/SERVICE_FAILURE_ACTIONSA","winsvc/SERVICE_FAILURE_ACTIONSW"]
 old-location: base\service_failure_actions_str.htm
 tech.root: security
@@ -131,7 +131,7 @@ The service control manager counts the number of times each service has failed s
 
 
 > [!NOTE]
-> The winsvc.h header defines SERVICE_FAILURE_ACTIONS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines SERVICE_FAILURE_ACTIONS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

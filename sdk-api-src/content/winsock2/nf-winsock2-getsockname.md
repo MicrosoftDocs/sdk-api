@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.getsockname
 title: getsockname function (winsock2.h)
-description: The getsockname function retrieves the local name for a socket.
+description: The getsockname function (winsock2.h) retrieves the local name for the specified socket descriptor.  
 helpviewer_keywords: ["_win32_getsockname_2","getsockname","getsockname function [Winsock]","winsock.getsockname_2","winsock/getsockname"]
 old-location: winsock\getsockname_2.htm
 tech.root: WinSock
 ms.assetid: be20a731-cdfc-48ae-90b2-43f2cf9ecf6d
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _win32_getsockname_2, getsockname, getsockname function [Winsock], winsock.getsockname_2, winsock/getsockname
 req.header: winsock2.h
 req.include-header: Winsock2.h

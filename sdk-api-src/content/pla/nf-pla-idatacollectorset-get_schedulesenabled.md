@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SchedulesEnabled
 title: IDataCollectorSet::get_SchedulesEnabled (pla.h)
-description: Retrieves or sets a value that indicates whether the schedules are enabled.
+description: Retrieves or sets a value that indicates whether the schedules are enabled. (Get)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SchedulesEnabled property","IDataCollectorSet.SchedulesEnabled","IDataCollectorSet.get_SchedulesEnabled","IDataCollectorSet::SchedulesEnabled","IDataCollectorSet::get_SchedulesEnabled","IDataCollectorSet::put_SchedulesEnabled","SchedulesEnabled property [PLA]","SchedulesEnabled property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_schedulesenabled","get_SchedulesEnabled","pla.idatacollectorset_get_schedulesenabled","pla/IDataCollectorSet::SchedulesEnabled","pla/IDataCollectorSet::get_SchedulesEnabled","pla/IDataCollectorSet::put_SchedulesEnabled"]
 old-location: pla\idatacollectorset_get_schedulesenabled.htm
 tech.root: PLA

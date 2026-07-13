@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tagMIDIOUTCAPSA
 title: MIDIOUTCAPSA (mmeapi.h)
-description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device.
+description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device. (MIDIOUTCAPSA)
 helpviewer_keywords: ["*LPMIDIOUTCAPSA","*NPMIDIOUTCAPSA","*PMIDIOUTCAPSA","MIDICAPS_CACHE","MIDICAPS_LRVOLUME","MIDICAPS_STREAM","MIDICAPS_VOLUME","MIDIOUTCAPS","MIDIOUTCAPS structure [Windows Multimedia]","MIDIOUTCAPSA","MOD_FMSYNTH","MOD_MAPPER","MOD_MIDIPORT","MOD_SQSYNTH","MOD_SWSYNTH","MOD_SYNTH","MOD_WAVETABLE","_win32_MIDIOUTCAPS_str","midioutcaps_tag","mmeapi/MIDIOUTCAPS","multimedia.midioutcaps","tagMIDIOUTCAPSA","tagMIDIOUTCAPSW"]
 old-location: multimedia\midioutcaps.htm
 tech.root: Multimedia
@@ -237,4 +237,4 @@ If a device supports volume changes, the MIDICAPS_VOLUME flag will be set for th
 ## -remarks
 
 > [!NOTE]
-> The mmeapi.h header defines MIDIOUTCAPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The mmeapi.h header defines MIDIOUTCAPS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -54,39 +54,39 @@ Describes the sequence of dashes and gaps in a stroke.
 
 ## -enum-fields
 
-### -field D2D1_DASH_STYLE_SOLID
+### -field D2D1_DASH_STYLE_SOLID:0
 
 A solid line with no breaks.
 
-### -field D2D1_DASH_STYLE_DASH
+### -field D2D1_DASH_STYLE_DASH:1
 
 A dash followed by a gap of equal length. The dash and the gap are each twice as long as the stroke thickness.
 
 The equivalent dash  array for  <b>D2D1_DASH_STYLE_DASH</b> is {2, 2}.
 
-### -field D2D1_DASH_STYLE_DOT
+### -field D2D1_DASH_STYLE_DOT:2
 
 A dot followed by a longer gap.
 
 The equivalent dash  array for  <b>D2D1_DASH_STYLE_DOT</b> is {0, 2}.
 
-### -field D2D1_DASH_STYLE_DASH_DOT
+### -field D2D1_DASH_STYLE_DASH_DOT:3
 
 A dash, followed by a gap, followed by a dot, followed by another gap.
 
 The equivalent dash array for  <b>D2D1_DASH_STYLE_DASH_DOT</b> is {2, 2, 0, 2}.
 
-### -field D2D1_DASH_STYLE_DASH_DOT_DOT
+### -field D2D1_DASH_STYLE_DASH_DOT_DOT:4
 
 A dash, followed by a gap, followed by a dot, followed by another gap, followed by another dot, followed by another gap.
 
 The equivalent dash array for  <b>D2D1_DASH_STYLE_DASH_DOT_DOT</b> is {2, 2, 0, 2, 0, 2}.
 
-### -field D2D1_DASH_STYLE_CUSTOM
+### -field D2D1_DASH_STYLE_CUSTOM:5
 
 The dash pattern is specified by an array of floating-point values.
 
-### -field D2D1_DASH_STYLE_FORCE_DWORD
+### -field D2D1_DASH_STYLE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

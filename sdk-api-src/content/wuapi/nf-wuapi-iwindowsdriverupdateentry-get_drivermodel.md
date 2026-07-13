@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntry.get_DriverModel
 title: IWindowsDriverUpdateEntry::get_DriverModel (wuapi.h)
-description: Gets the language-invariant model name of the device for which the Windows driver update is intended.
+description: Gets the language-invariant model name of the device for which the Windows driver update is intended. (IWindowsDriverUpdateEntry.get_DriverModel)
 helpviewer_keywords: ["DriverModel property [Windows Update Agent]","DriverModel property [Windows Update Agent]","IWindowsDriverUpdateEntry interface","IWindowsDriverUpdateEntry interface [Windows Update Agent]","DriverModel property","IWindowsDriverUpdateEntry.DriverModel","IWindowsDriverUpdateEntry.get_DriverModel","IWindowsDriverUpdateEntry::DriverModel","IWindowsDriverUpdateEntry::get_DriverModel","get_DriverModel","wua.iwindowsdriverupdateentry_drivermodel","wuapi/IWindowsDriverUpdateEntry::DriverModel","wuapi/IWindowsDriverUpdateEntry::get_DriverModel"]
 old-location: wua\iwindowsdriverupdateentry_drivermodel.htm
 tech.root: wua

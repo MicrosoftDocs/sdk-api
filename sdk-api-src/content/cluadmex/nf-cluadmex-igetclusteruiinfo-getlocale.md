@@ -55,7 +55,7 @@ api_name:
 
 Returns the locale identifier to be used with property and wizard pages.
 
-## -parameters
+
 
 ## -returns
 

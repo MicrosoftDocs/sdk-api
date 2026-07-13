@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_HW_Prof_FlagsW
 title: CM_Get_HW_Prof_FlagsW function (cfgmgr32.h)
-description: The CM_Get_HW_Prof_Flags function retrieves the hardware profile-specific configuration flags for a device instance on a local machine.
-helpviewer_keywords: ["CM_Get_HW_Prof_Flags","CM_Get_HW_Prof_Flags function [Device and Driver Installation]","CM_Get_HW_Prof_FlagsA","CM_Get_HW_Prof_FlagsW","cfgmgr32/CM_Get_HW_Prof_Flags","cfgmgr32/CM_Get_HW_Prof_FlagsA","cfgmgr32/CM_Get_HW_Prof_FlagsW","cfgmgrfn_5d158399-60db-47ef-9135-3da047ef7682.xml","devinst.cm_get_hw_prof_flags"]
+description: The CM_Get_HW_Prof_Flags function retrieves the hardware profile-specific configuration flags for a device instance on a local machine. (Unicode)
+helpviewer_keywords: ["CM_Get_HW_Prof_Flags", "CM_Get_HW_Prof_Flags function [Device and Driver Installation]", "CM_Get_HW_Prof_FlagsW", "cfgmgr32/CM_Get_HW_Prof_Flags", "cfgmgr32/CM_Get_HW_Prof_FlagsW", "cfgmgrfn_5d158399-60db-47ef-9135-3da047ef7682.xml", "devinst.cm_get_hw_prof_flags"]
 old-location: devinst\cm_get_hw_prof_flags.htm
 tech.root: devinst
 ms.assetid: 672a0e4e-f025-4aeb-a865-2a6d6fc1162d
@@ -136,7 +136,7 @@ To retrieve configuration flags for a device instance on a remote machine, call 
 
 
 > [!NOTE]
-> The cfgmgr32.h header defines CM_Get_HW_Prof_Flags as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The cfgmgr32.h header defines CM_Get_HW_Prof_Flags as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

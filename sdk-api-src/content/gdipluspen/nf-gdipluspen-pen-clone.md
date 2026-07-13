@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::Clone</b> method copies a 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
-## -parameters
+
 
 ## -returns
 

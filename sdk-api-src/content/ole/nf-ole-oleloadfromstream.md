@@ -1,12 +1,12 @@
 ---
 UID: NF:ole.OleLoadFromStream
 title: OleLoadFromStream function (ole.h)
-description: Loads an object from the stream.
+description: The OleLoadFromStream function (ole.h) loads an object from the stream.
 helpviewer_keywords: ["OleLoadFromStream","OleLoadFromStream function [COM]","_ole_OleLoadFromStream","com.oleloadfromstream","ole/OleLoadFromStream"]
 old-location: com\oleloadfromstream.htm
 tech.root: com
 ms.assetid: 2d54a0ef-906b-4886-a095-4ff2f3d4e634
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFromStream, com.oleloadfromstream, ole/OleLoadFromStream
 req.header: ole.h
 req.include-header: Ole2.h
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-com-ole32-l1-4-0.dll
+ - ext-ms-win-com-ole32-l1-3-0.dll
+ - ext-ms-win-com-ole32-l1-2-0.dll
  - Ole32.dll
  - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
@@ -135,7 +138,7 @@ This function can also return any of the error values returned by the <a href="/
 
 ## -remarks
 
-<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data. For more information, see <a href="https://docs.microsoft.com/">Untrusted Data Security Risks</a>.
+<div class="alert"><b>Important</b>  <p class="note">Security Note: Calling this method with untrusted data is a security risk. Call this method only with trusted data.
 
 </div>
 <div> </div>

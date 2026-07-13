@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetProperties","GetProperties method","GetProperties meth
 old-location: winsensors_com_ref\isensor_getproperties.htm
 tech.root: winsensors
 ms.assetid: 19581a45-500f-4210-9ec2-b3e33c84fb8a
-ms.date: 12/05/2018
+ms.date: 09/19/2025
 ms.keywords: GetProperties, GetProperties method, GetProperties method,ISensor interface, ISensor interface,GetProperties method, ISensor.GetProperties, ISensor::GetProperties, sensorsapi/ISensor::GetProperties, winsensors_com_ref.isensor_getproperties
 req.header: sensorsapi.h
 req.include-header: 
@@ -49,6 +49,11 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Retrieves multiple sensor properties.
 

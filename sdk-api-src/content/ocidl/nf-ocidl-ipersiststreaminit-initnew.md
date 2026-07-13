@@ -52,7 +52,7 @@ api_name:
 
 Initializes an object to a default state. This method is to be called instead of <a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-load">IPersistStreamInit::Load</a>.
 
-## -parameters
+
 
 ## -returns
 

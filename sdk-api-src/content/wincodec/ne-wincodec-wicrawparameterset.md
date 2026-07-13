@@ -54,17 +54,17 @@ Specifies the parameter set used by a raw codec.
 
 ## -enum-fields
 
-### -field WICAsShotParameterSet
+### -field WICAsShotParameterSet:0x1
 
 An as shot parameter set.
 
-### -field WICUserAdjustedParameterSet
+### -field WICUserAdjustedParameterSet:0x2
 
 A user adjusted parameter set.
 
-### -field WICAutoAdjustedParameterSet
+### -field WICAutoAdjustedParameterSet:0x3
 
 A codec adjusted parameter set.
 
-### -field WICRAWPARAMETERSET_FORCE_DWORD
+### -field WICRAWPARAMETERSET_FORCE_DWORD:0x7fffffff
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmInstallIMEW
 title: ImmInstallIMEW function (immdev.h)
-description: Installs an IME.
-helpviewer_keywords: ["ImmInstallIME","ImmInstallIME function [Internationalization for Windows Applications]","ImmInstallIMEA","ImmInstallIMEW","_win32_ImmInstallIME","imm/ImmInstallIME","imm/ImmInstallIMEA","imm/ImmInstallIMEW","intl.imminstallime"]
+description: The ImmInstallIMEW (Unicode) function (immdev.h) installs an IME. 
+helpviewer_keywords: ["ImmInstallIME", "ImmInstallIME function [Internationalization for Windows Applications]", "ImmInstallIMEW", "_win32_ImmInstallIME", "intl.imminstallime"]
 old-location: intl\imminstallime.htm
 tech.root: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmInstallIME, ImmInstallIME function [Internationalization for Windows Applications], ImmInstallIMEA, ImmInstallIMEW, _win32_ImmInstallIME, imm/ImmInstallIME, imm/ImmInstallIMEA, imm/ImmInstallIMEW, intl.imminstallime
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -77,7 +77,7 @@ This function is intended to be used by IME setup applications only.
 
 
 > [!NOTE]
-> The immdev.h header defines ImmInstallIME as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The immdev.h header defines ImmInstallIME as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

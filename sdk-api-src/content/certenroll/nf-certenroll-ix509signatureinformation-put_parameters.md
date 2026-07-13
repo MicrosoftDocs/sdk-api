@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_Parameters
 title: IX509SignatureInformation::put_Parameters (certenroll.h)
-description: Retrieves a byte array that contains the parameters associated with the signature algorithm.
+description: Retrieves a byte array that contains the parameters associated with the signature algorithm. (Put)
 helpviewer_keywords: ["IX509SignatureInformation interface [Security]","Parameters property","IX509SignatureInformation.Parameters","IX509SignatureInformation.put_Parameters","IX509SignatureInformation::Parameters","IX509SignatureInformation::get_Parameters","IX509SignatureInformation::put_Parameters","Parameters property [Security]","Parameters property [Security]","IX509SignatureInformation interface","certenroll/IX509SignatureInformation::Parameters","certenroll/IX509SignatureInformation::get_Parameters","certenroll/IX509SignatureInformation::put_Parameters","put_Parameters","security.ix509signatureinformation_parameters_property"]
 old-location: security\ix509signatureinformation_parameters_property.htm
 tech.root: security
@@ -62,13 +62,17 @@ This property is read/write.
 
 The AlgorithmIdentifier ASN.1 object that is used in various fields of an <a href="/windows/desktop/SecGloss/x-gly">X.509</a> version 3 certificate contains an algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and optional parameters.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 AlgorithmIdentifier  ::=  SEQUENCE  
 {
    algorithm               OBJECT IDENTIFIER,
    parameters              ANY DEFINED BY algorithm OPTIONAL  
 }
-</code></pre>
+
+```
+
  The format and content of the parameters differs by algorithm. The Certificate Enrollment Control generates parameter information as required. Parameter values generated for various algorithms are discussed in the following sections.
 
 <b>PKCS #1 version 1.5 signature algorithms:  </b><p class="note"> The following OIDs must have a <b>NULL</b> parameter value. <ul>
@@ -83,19 +87,25 @@ AlgorithmIdentifier  ::=  SEQUENCE
 
 <p class="note">The ASN.1 <b>NULL</b> value is represented by two bytes. The tag number is 0x05 and the value associated with the tag, representing the parameter length, is 0x00. This is shown by the following  certificate example.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ...
 Public Key Algorithm:
     Algorithm ObjectId: 1.2.840.113549.1.1.1 RSA (RSA_SIGN)
     Algorithm Parameters:
     05 00
 ...
-</code></pre>
+
+```
+
 
 
 <b>RSASSA-PSS signatures:  </b><p class="note">The RSASSA-PSS (RSA Signature Scheme with Appendix - Probabilistic Signature Scheme), XCN_OID_RSA_SSA_PSS (1.2.840.113549.1.1.10), generates the following parameter information. A signature scheme with appendix consists of signature generation and signature verification operations. Verification of the signature requires the original certificate request on which the signature was generated. For more information, see the PKCS #1 v2.1 cryptography standard from RSA laboratories.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 RSASSA-PSS-params ::= SEQUENCE 
 {
    hashAlgorithm     [0] HashAlgorithm DEFAULT sha1,
@@ -104,7 +114,9 @@ RSASSA-PSS-params ::= SEQUENCE
    trailerField      [3] TrailerField DEFAULT trailerFieldBC
 }
 
-</code></pre>
+
+```
+
 
 
 <b>ECDSA-SHA1 signature algorithms:  </b>When the XCN_OID_ECDSA_SHA1 (1.2.840.10045.4.1) is used to create a signature, the parameters contains the OID of the hash algorithm. The following OIDs are supported:<ul>

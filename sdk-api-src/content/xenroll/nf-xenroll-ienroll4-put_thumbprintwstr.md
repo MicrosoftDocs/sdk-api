@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll4.put_ThumbPrintWStr
 title: IEnroll4::put_ThumbPrintWStr (xenroll.h)
-description: Sets or retrieves a hash of the certificate data. The thumbprint is used to point to the pending certificate.
+description: Sets or retrieves a hash of the certificate data. The thumbprint is used to point to the pending certificate. (Put)
 helpviewer_keywords: ["IEnroll4 interface [Security]","ThumbPrintWStr property","IEnroll4.ThumbPrintWStr","IEnroll4.put_ThumbPrintWStr","IEnroll4::ThumbPrintWStr","IEnroll4::get_ThumbPrintWStr","IEnroll4::put_ThumbPrintWStr","ThumbPrintWStr property [Security]","ThumbPrintWStr property [Security]","IEnroll4 interface","put_ThumbPrintWStr","security.ienroll4_thumbprintwstr","xenroll/IEnroll4::ThumbPrintWStr","xenroll/IEnroll4::get_ThumbPrintWStr","xenroll/IEnroll4::put_ThumbPrintWStr"]
 old-location: security\ienroll4_thumbprintwstr.htm
 tech.root: security

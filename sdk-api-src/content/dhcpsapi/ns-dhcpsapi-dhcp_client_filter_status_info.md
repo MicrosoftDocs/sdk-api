@@ -60,7 +60,7 @@ The <b>DHCP_CLIENT_FILTER_STATUS_INFO</b> structure defines information about th
 
 ### -field ClientIpAddress
 
-<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>type value that contains the DHCPv4 client's IPv4 address.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> type value that contains the DHCPv4 client's IPv4 address.
 
 ### -field SubnetMask
 

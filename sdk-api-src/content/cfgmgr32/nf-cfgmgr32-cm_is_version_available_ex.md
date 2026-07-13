@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.]
 
-The <b>CM_Is_Version_Available_Ex</b> function indicates whether a specified version of the Plug and Play (PNP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) is supported by a local or a remote machine.
+The <b>CM_Is_Version_Available_Ex</b> function indicates whether a specified version of the <a href="/windows/win32/api/cfgmgr32/">Plug and Play (PnP) Configuration Manager DLL</a> (<i>Cfgmgr32.dll</i>) is supported by a local or a remote machine.
 
 ## -parameters
 

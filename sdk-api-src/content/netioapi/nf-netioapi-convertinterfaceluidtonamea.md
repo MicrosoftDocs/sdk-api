@@ -2,7 +2,7 @@
 UID: NF:netioapi.ConvertInterfaceLuidToNameA
 title: ConvertInterfaceLuidToNameA function (netioapi.h)
 description: Converts a locally unique identifier (LUID) for a network interface to the ANSI interface name.
-helpviewer_keywords: ["ConvertInterfaceLuidToNameA","ConvertInterfaceLuidToNameA function [IP Helper]","iphlp.convertinterfaceluidtonamea","netioapi/ConvertInterfaceLuidToNameA"]
+helpviewer_keywords: ["ConvertInterfaceLuidToNameA", "ConvertInterfaceLuidToNameA function [IP Helper]", "iphlp.convertinterfaceluidtonamea", "netioapi/ConvertInterfaceLuidToNameA"]
 old-location: iphlp\convertinterfaceluidtonamea.htm
 tech.root: IpHlp
 ms.assetid: c65f7b3c-55f4-40f8-9a7a-19d1066deca4
@@ -105,7 +105,7 @@ Not enough storage is available to process this command. This error is returned 
 
 ## -remarks
 
-The <b>ConvertInterfaceLuidToNameA</b> function is available on Windows Vistaand later.
+The <b>ConvertInterfaceLuidToNameA</b> function is available on Windows Vista and later.
 
 The <b>ConvertInterfaceLuidToNameA</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol. The <b>ConvertInterfaceLuidToNameA</b> converts a network interface LUID to an ANSI interface name. 
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSQueryListenerConfigA
 title: WTSQueryListenerConfigA function (wtsapi32.h)
-description: Retrieves configuration information for a Remote Desktop Services listener.
-helpviewer_keywords: ["WTSQueryListenerConfig","WTSQueryListenerConfig function [Remote Desktop Services]","WTSQueryListenerConfigA","WTSQueryListenerConfigW","termserv.wtsquerylistenerconfig","wtsapi32/WTSQueryListenerConfig","wtsapi32/WTSQueryListenerConfigA","wtsapi32/WTSQueryListenerConfigW"]
+description: Retrieves configuration information for a Remote Desktop Services listener. (ANSI)
+helpviewer_keywords: ["WTSQueryListenerConfigA", "wtsapi32/WTSQueryListenerConfigA"]
 old-location: termserv\wtsquerylistenerconfig.htm
 tech.root: TermServ
 ms.assetid: abdcb98e-c00c-444f-a6f9-ce98161c8b62
@@ -92,7 +92,7 @@ This function does not retrieve the security descriptor for the listener. To ret
 
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSQueryListenerConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSQueryListenerConfig as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

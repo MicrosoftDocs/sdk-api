@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_SetIndent","TreeView_SetIndent macro [Windows Co
 old-location: controls\TreeView_SetIndent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setindent.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_SetIndent, TreeView_SetIndent macro [Windows Controls], _win32_TreeView_SetIndent, _win32_TreeView_SetIndent_cpp, commctrl/TreeView_SetIndent, controls.TreeView_SetIndent, controls._win32_TreeView_SetIndent
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_SetIndent macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_SetIndent(
+   HWND hwnd,
+   INT  indent
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Although this macro is typed as a BOOL, it always returns zero.
 
 
 ## -description

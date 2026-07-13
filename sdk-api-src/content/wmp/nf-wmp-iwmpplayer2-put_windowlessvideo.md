@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer2 interface [Windows Media Player]","put_window
 old-location: wmp\iwmpplayer2_put_windowlessvideo.htm
 tech.root: WMP
 ms.assetid: 736eaf52-29bd-4223-a62d-d3d75cef1863
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],put_windowlessVideo method, IWMPPlayer2.put_windowlessVideo, IWMPPlayer2::put_windowlessVideo, IWMPPlayer2put_windowlessVideo, put_windowlessVideo, put_windowlessVideo method [Windows Media Player], put_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_put_windowlessvideo, wmp/IWMPPlayer2::put_windowlessVideo
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_windowlessVideo</b> method specifies a value indicating whether the Windows Media Player control renders video in windowless mode.
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::GetConfig </b>method obtains information about a joystick's configuration.
+The <b>IDirectInputJoyConfig8::GetConfig </b> method obtains information about a joystick's configuration.
 
 ## -parameters
 

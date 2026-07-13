@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.InitiateSystemShutdownExW
 title: InitiateSystemShutdownExW function (winreg.h)
-description: Initiates a shutdown and optional restart of the specified computer, and optionally records the reason for the shutdown.
-helpviewer_keywords: ["InitiateSystemShutdownEx","InitiateSystemShutdownEx function","InitiateSystemShutdownExA","InitiateSystemShutdownExW","_win32_initiatesystemshutdownex","base.initiatesystemshutdownex","winreg/InitiateSystemShutdownEx","winreg/InitiateSystemShutdownExA","winreg/InitiateSystemShutdownExW"]
+description: Initiates a shutdown and optional restart of the specified computer, and optionally records the reason for the shutdown. (Unicode)
+helpviewer_keywords: ["InitiateSystemShutdownEx", "InitiateSystemShutdownEx function", "InitiateSystemShutdownExW", "_win32_initiatesystemshutdownex", "base.initiatesystemshutdownex", "winreg/InitiateSystemShutdownEx", "winreg/InitiateSystemShutdownExW"]
 old-location: base\initiatesystemshutdownex.htm
 tech.root: base
 ms.assetid: 4536cf76-7669-42b1-8c44-9f5e368424cc
@@ -141,7 +141,7 @@ Note that calling this function with the value of the <i>bForceAppsClosed</i> pa
 
 
 > [!NOTE]
-> The winreg.h header defines InitiateSystemShutdownEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines InitiateSystemShutdownEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

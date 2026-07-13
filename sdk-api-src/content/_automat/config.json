@@ -5,7 +5,6 @@
     "wtypes.h",
     "oaidl.h",
     "oleauto.h",
-    "wia_xp.h",
     "olectl.h"
   ],
   "displayName": "Automation"

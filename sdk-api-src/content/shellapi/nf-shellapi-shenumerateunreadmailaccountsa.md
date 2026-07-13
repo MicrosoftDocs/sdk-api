@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.SHEnumerateUnreadMailAccountsA
 title: SHEnumerateUnreadMailAccountsA function (shellapi.h)
-description: Enumerates the user accounts that have unread email.
-helpviewer_keywords: ["SHEnumerateUnreadMailAccounts","SHEnumerateUnreadMailAccounts function [Windows Shell]","SHEnumerateUnreadMailAccountsA","SHEnumerateUnreadMailAccountsW","_shell_SHEnumerateUnreadMailAccounts","shell.SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccountsA","shellapi/SHEnumerateUnreadMailAccountsW"]
+description: Enumerates the user accounts that have unread email. (ANSI)
+helpviewer_keywords: ["SHEnumerateUnreadMailAccountsA", "shellapi/SHEnumerateUnreadMailAccountsA"]
 old-location: shell\SHEnumerateUnreadMailAccounts.htm
 tech.root: shell
 ms.assetid: 67ec8355-f902-4b71-972f-94e403701f96
@@ -84,7 +84,7 @@ The number of characters in the email address.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -94,5 +94,5 @@ The <i>hKeyUser</i> parameter is the HKEY for the root of the user's information
 
 
 > [!NOTE]
-> The shellapi.h header defines SHEnumerateUnreadMailAccounts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shellapi.h header defines SHEnumerateUnreadMailAccounts as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

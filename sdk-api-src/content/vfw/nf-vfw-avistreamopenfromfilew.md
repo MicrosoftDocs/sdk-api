@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamOpenFromFileW
 title: AVIStreamOpenFromFileW function (vfw.h)
-description: The AVIStreamOpenFromFile function opens a single stream from a file.
-helpviewer_keywords: ["AVIStreamOpenFromFile","AVIStreamOpenFromFile function [Windows Multimedia]","AVIStreamOpenFromFileA","AVIStreamOpenFromFileW","_win32_AVIStreamOpenFromFile","multimedia.avistreamopenfromfile","vfw/AVIStreamOpenFromFile","vfw/AVIStreamOpenFromFileA","vfw/AVIStreamOpenFromFileW"]
+description: The AVIStreamOpenFromFile function opens a single stream from a file. (Unicode)
+helpviewer_keywords: ["AVIStreamOpenFromFile", "AVIStreamOpenFromFile function [Windows Multimedia]", "AVIStreamOpenFromFileW", "_win32_AVIStreamOpenFromFile", "multimedia.avistreamopenfromfile", "vfw/AVIStreamOpenFromFile", "vfw/AVIStreamOpenFromFileW"]
 old-location: multimedia\avistreamopenfromfile.htm
 tech.root: Multimedia
 ms.assetid: f9ac2a8a-08b7-42a7-b71b-a1d44c924b20
@@ -118,7 +118,7 @@ This function calls the <a href="/windows/desktop/api/vfw/nf-vfw-avifileopen">AV
 
 
 > [!NOTE]
-> The vfw.h header defines AVIStreamOpenFromFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The vfw.h header defines AVIStreamOpenFromFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

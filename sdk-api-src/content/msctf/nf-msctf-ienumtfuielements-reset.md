@@ -52,7 +52,7 @@ api_name:
 
 The <b>IEnumTfUIElements::Reset</b> method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerConfigBlob2Xml
 title: EapHostPeerConfigBlob2Xml function (eaphostpeerconfigapis.h)
-description: Converts the configuration BLOB to XML.
+description: Converts the configuration BLOB to XML. (EapHostPeerConfigBlob2Xml)
 helpviewer_keywords: ["EapHostPeerConfigBlob2Xml","EapHostPeerConfigBlob2Xml function [EAPHost]","eaphost.eaphostpeerconfigblob2xml","eaphostpeerconfigapis/EapHostPeerConfigBlob2Xml"]
 old-location: eaphost\eaphostpeerconfigblob2xml.htm
 tech.root: eaphost

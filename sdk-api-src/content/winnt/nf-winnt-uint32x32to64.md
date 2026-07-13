@@ -6,7 +6,7 @@ helpviewer_keywords: ["UInt32x32To64","UInt32x32To64 macro [Windows API]","_win3
 old-location: winprog\uint32x32to64.htm
 tech.root: WinProg
 ms.assetid: 369e0574-df8b-4e65-bbba-7a7961caebe7
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: UInt32x32To64, UInt32x32To64 macro [Windows API], _win32_uint32x32to64, winnt/UInt32x32To64, winprog.uint32x32to64
 req.header: winnt.h
 req.include-header: Windows.h
@@ -47,6 +47,21 @@ api_name:
 
 # UInt32x32To64 macro
 
+## -syntax
+
+```cpp
+ULONGLONG UInt32x32To64(
+  [in]  ULONG a,
+  [in]  ULONG b
+);
+```
+
+## -returns
+
+Type: **ULONGLONG**
+
+The return value is the unsigned 64-bit integer result of the multiplication operation.
+
 
 ## -description
 
@@ -67,7 +82,7 @@ The second unsigned 32-bit integer for the multiplication operation.
 This function is implemented on all platforms by optimal inline code: a single multiply instruction that returns a 64-bit result.
 
 Please note that the function's return value is a 64-bit value, not a 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-ularge_integer-r1">ULARGE_INTEGER</a> structure.
 
 ## -see-also
 

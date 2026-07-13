@@ -56,11 +56,11 @@ The <b>MPEG_CURRENT_NEXT_BIT</b> enumeration type specifies the value of the cur
 
 ## -enum-fields
 
-### -field MPEG_SECTION_IS_NEXT
+### -field MPEG_SECTION_IS_NEXT:0
 
 Indicates that the table is current applicable.
 
-### -field MPEG_SECTION_IS_CURRENT
+### -field MPEG_SECTION_IS_CURRENT:1
 
 Indicates that the table is not yet applicable, and will be the next valid table.
 

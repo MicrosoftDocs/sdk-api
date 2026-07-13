@@ -4,7 +4,7 @@ title: QueryProtectedPolicy function (processthreadsapi.h)
 description: Queries the value associated with a protected policy.
 helpviewer_keywords: ["QueryProtectedPolicy","QueryProtectedPolicy function","base.getprotectedpolicy","base.queryprotectedpolicy","processthreadsapi/QueryProtectedPolicy"]
 old-location: base\queryprotectedpolicy.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: A9B37117-DE6A-426C-B554-2178247FD4C8
 ms.date: 12/05/2018
 ms.keywords: QueryProtectedPolicy, QueryProtectedPolicy function, base.getprotectedpolicy, base.queryprotectedpolicy, processthreadsapi/QueryProtectedPolicy
@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-Ms-Win-Core-ProcessThreads-L1-1-2.dll
  - API-Ms-Win-Core-ProcessThreads-L1-1-3.dll

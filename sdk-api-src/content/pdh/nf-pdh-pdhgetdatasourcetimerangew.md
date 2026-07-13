@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhGetDataSourceTimeRangeW
 title: PdhGetDataSourceTimeRangeW function (pdh.h)
-description: Determines the time range, number of entries and, if applicable, the size of the buffer containing the performance data from the specified input source. To use handles to data sources, use the PdhGetDataSourceTimeRangeH function.
-helpviewer_keywords: ["PdhGetDataSourceTimeRange","PdhGetDataSourceTimeRange function [Perf]","PdhGetDataSourceTimeRangeA","PdhGetDataSourceTimeRangeW","_win32_pdhgetdatasourcetimerange","base.pdhgetdatasourcetimerange","pdh/PdhGetDataSourceTimeRange","pdh/PdhGetDataSourceTimeRangeA","pdh/PdhGetDataSourceTimeRangeW","perf.pdhgetdatasourcetimerange"]
+description: Determines the time range, number of entries and, if applicable, the size of the buffer containing the performance data from the specified input source. To use handles to data sources, use the PdhGetDataSourceTimeRangeH function. (Unicode)
+helpviewer_keywords: ["PdhGetDataSourceTimeRange", "PdhGetDataSourceTimeRange function [Perf]", "PdhGetDataSourceTimeRangeW", "_win32_pdhgetdatasourcetimerange", "base.pdhgetdatasourcetimerange", "pdh/PdhGetDataSourceTimeRange", "pdh/PdhGetDataSourceTimeRangeW", "perf.pdhgetdatasourcetimerange"]
 old-location: perf\pdhgetdatasourcetimerange.htm
 tech.root: perf
 ms.assetid: 142ee829-7f1c-4b97-859c-670f7058dfa1
@@ -137,4 +137,4 @@ The current data source is a real-time data source.
 ## -remarks
 
 > [!NOTE]
-> The pdh.h header defines PdhGetDataSourceTimeRange as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The pdh.h header defines PdhGetDataSourceTimeRange as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

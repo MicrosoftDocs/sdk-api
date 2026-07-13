@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: InkObj.dll
+req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
@@ -71,7 +71,7 @@ For further details about this property, refer to the <a href="/windows/desktop/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

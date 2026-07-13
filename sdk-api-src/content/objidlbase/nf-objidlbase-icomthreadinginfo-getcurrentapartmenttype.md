@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IComThreadingInfo.GetCurrentApartmentType
 title: IComThreadingInfo::GetCurrentApartmentType (objidlbase.h)
-description: Retrieves the type of apartment in which the caller is executing.
+description: The IComThreadingInfo::GetCurrentApartmentType (objidlbase.h) method retrieves the type of apartment in which the caller is executing.
 helpviewer_keywords: ["GetCurrentApartmentType","GetCurrentApartmentType method [COM]","GetCurrentApartmentType method [COM]","IComThreadingInfo interface","IComThreadingInfo interface [COM]","GetCurrentApartmentType method","IComThreadingInfo.GetCurrentApartmentType","IComThreadingInfo::GetCurrentApartmentType","_com_icomthreadinginfo_getcurrentapartmenttype","com.icomthreadinginfo_getcurrentapartmenttype","objidlbase/IComThreadingInfo::GetCurrentApartmentType"]
 old-location: com\icomthreadinginfo_getcurrentapartmenttype.htm
 tech.root: com
 ms.assetid: 59cb216f-818c-4189-b77b-984961889a62
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: GetCurrentApartmentType, GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentApartmentType method, IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

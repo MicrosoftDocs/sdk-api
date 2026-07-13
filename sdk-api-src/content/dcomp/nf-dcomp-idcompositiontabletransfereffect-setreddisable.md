@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetRedDisable
 title: IDCompositionTableTransferEffect::SetRedDisable (dcomp.h)
-description: Specifies whether to apply the transfer function to the red channel.
+description: Specifies whether to apply the transfer function to the red channel. (IDCompositionTableTransferEffect.SetRedDisable)
 helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetRedDisable method","IDCompositionTableTransferEffect.SetRedDisable","IDCompositionTableTransferEffect::SetRedDisable","SetRedDisable","SetRedDisable method [DirectComposition]","SetRedDisable method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetRedDisable","directcomp.idcompositiontabletransfereffect_setreddisable"]
 old-location: directcomp\idcompositiontabletransfereffect_setreddisable.htm
 tech.root: directcomp
@@ -65,7 +65,7 @@ A boolean value that specifies whether to apply the transfer function to the red
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

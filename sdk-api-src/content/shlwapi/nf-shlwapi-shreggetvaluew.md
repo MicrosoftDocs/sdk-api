@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegGetValueW
 title: SHRegGetValueW function (shlwapi.h)
-description: Retrieves a registry value.
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHRegGetValue","SHRegGetValue function [Windows Shell]","SHRegGetValueA","SHRegGetValueW","_shell_SHRegGetValue","shell.SHRegGetValue","shlwapi/SHRegGetValue","shlwapi/SHRegGetValueA","shlwapi/SHRegGetValueW"]
+description: Retrieves a registry value. (SHRegGetValueW)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHRegGetValue", "SHRegGetValue function [Windows Shell]", "SHRegGetValueW", "_shell_SHRegGetValue", "shell.SHRegGetValue", "shlwapi/SHRegGetValue", "shlwapi/SHRegGetValueW"]
 old-location: shell\SHRegGetValue.htm
 tech.root: shell
 ms.assetid: 5650eb4c-40fd-47d7-af76-2688d62d9bca
@@ -226,7 +226,7 @@ The potential for an additional call to the registry to read or re-read the data
 
 
 > [!NOTE]
-> The shlwapi.h header defines SHRegGetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHRegGetValue as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -130,7 +130,7 @@ This value is added to the value of the <b>Bias</b> member to form the bias used
 Settings for each time zone are stored in the following registry key:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>
@@ -183,7 +183,9 @@ Each time zone entry includes the following registry values.
 <td>
 The following time zone information.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _REG_TZI_FORMAT
+
+``` syntax
+typedef struct _REG_TZI_FORMAT
 {
     LONG Bias;
     LONG StandardBias;
@@ -191,7 +193,9 @@ The following time zone information.
     SYSTEMTIME StandardDate;
     SYSTEMTIME DaylightDate;
 } REG_TZI_FORMAT;
-</code></pre>
+
+```
+
 </td>
 </tr>
 </table>

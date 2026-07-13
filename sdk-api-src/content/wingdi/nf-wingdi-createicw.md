@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateICW
 title: CreateICW function (wingdi.h)
-description: The CreateIC function creates an information context for the specified device.
-helpviewer_keywords: ["CreateIC","CreateIC function [Windows GDI]","CreateICA","CreateICW","_win32_CreateIC","gdi.createic","wingdi/CreateIC","wingdi/CreateICA","wingdi/CreateICW"]
+description: The CreateIC function creates an information context for the specified device. (Unicode)
+helpviewer_keywords: ["CreateIC", "CreateIC function [Windows GDI]", "CreateICW", "_win32_CreateIC", "gdi.createic", "wingdi/CreateIC", "wingdi/CreateICW"]
 old-location: gdi\createic.htm
 tech.root: gdi
 ms.assetid: dcb08ce7-9ded-497c-936c-48d3026a0004
@@ -91,7 +91,7 @@ When you no longer need the information DC, call the <a href="/windows/desktop/a
 
 
 > [!NOTE]
-> The wingdi.h header defines CreateIC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines CreateIC as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

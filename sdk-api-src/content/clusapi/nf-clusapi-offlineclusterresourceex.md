@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-cluster-clusapi-l1-1-6.dll
+ - ext-ms-win-cluster-clusapi-l1-1-5.dll
+ - ext-ms-win-cluster-clusapi-l1-1-4.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
  - ClusAPI.dll
  - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
  - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
@@ -138,7 +142,7 @@ The resource is being restarted.
 
 #### CLUSAPI_RESOURCE_OFFLINE_REASON_PREEMPTED (0x00000020)
 
-There resource had a preemptive failure.
+The resource had a preemptive failure.
 
 <b>Windows Server 2012:  </b>This value is not supported before Windows Server 2012 R2.
 

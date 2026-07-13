@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.DceErrorInqTextW
 title: DceErrorInqTextW function (rpcdce.h)
-description: The DceErrorInqText function returns the message text for a status code.
-helpviewer_keywords: ["DceErrorInqText","DceErrorInqText function [RPC]","DceErrorInqTextA","DceErrorInqTextW","RPC_S_INVALID_ARG","RPC_S_OK","_rpc_dceerrorinqtext","rpc.dceerrorinqtext","rpcdce/DceErrorInqText","rpcdce/DceErrorInqTextA","rpcdce/DceErrorInqTextW"]
+description: The DceErrorInqTextW (Unicode) function (rpcdce.h) returns the message text for a status code.
+helpviewer_keywords: ["DceErrorInqText", "DceErrorInqText function [RPC]", "DceErrorInqTextW", "RPC_S_INVALID_ARG", "RPC_S_OK", "_rpc_dceerrorinqtext", "rpc.dceerrorinqtext", "rpcdce/DceErrorInqText", "rpcdce/DceErrorInqTextW"]
 old-location: rpc\dceerrorinqtext.htm
 tech.root: Rpc
 ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, DceErrorInqTextW, RPC_S_INVALID_ARG, RPC_S_OK, _rpc_dceerrorinqtext, rpc.dceerrorinqtext, rpcdce/DceErrorInqText, rpcdce/DceErrorInqTextA, rpcdce/DceErrorInqTextW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -109,4 +109,4 @@ The
 
 
 > [!NOTE]
-> The rpcdce.h header defines DceErrorInqText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The rpcdce.h header defines DceErrorInqText as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

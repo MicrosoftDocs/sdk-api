@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetDefaultCommConfigA
 title: GetDefaultCommConfigA function (winbase.h)
-description: Retrieves the default configuration for the specified communications device.
-helpviewer_keywords: ["GetDefaultCommConfig","GetDefaultCommConfig function","GetDefaultCommConfigA","GetDefaultCommConfigW","_win32_getdefaultcommconfig","base.getdefaultcommconfig","winbase/GetDefaultCommConfig","winbase/GetDefaultCommConfigA","winbase/GetDefaultCommConfigW"]
+description: Retrieves the default configuration for the specified communications device. (ANSI)
+helpviewer_keywords: ["GetDefaultCommConfigA", "winbase/GetDefaultCommConfigA"]
 old-location: base\getdefaultcommconfig.htm
 tech.root: base
 ms.assetid: 04bf5033-17c3-4403-8386-f3144e11423f
@@ -95,4 +95,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The winbase.h header defines GetDefaultCommConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GetDefaultCommConfig as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

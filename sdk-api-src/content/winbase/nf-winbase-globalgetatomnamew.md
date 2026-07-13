@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GlobalGetAtomNameW
 title: GlobalGetAtomNameW function (winbase.h)
-description: Retrieves a copy of the character string associated with the specified global atom.
-helpviewer_keywords: ["GlobalGetAtomName","GlobalGetAtomName function [Data Exchange]","GlobalGetAtomNameA","GlobalGetAtomNameW","_win32_GlobalGetAtomName","_win32_globalgetatomname_cpp","dataxchg.globalgetatomname","winbase/GlobalGetAtomName","winbase/GlobalGetAtomNameA","winbase/GlobalGetAtomNameW","winui._win32_globalgetatomname"]
+description: Retrieves a copy of the character string associated with the specified global atom. (Unicode)
+helpviewer_keywords: ["GlobalGetAtomName", "GlobalGetAtomName function [Data Exchange]", "GlobalGetAtomNameW", "_win32_GlobalGetAtomName", "_win32_globalgetatomname_cpp", "dataxchg.globalgetatomname", "winbase/GlobalGetAtomName", "winbase/GlobalGetAtomNameW", "winui._win32_globalgetatomname"]
 old-location: dataxchg\globalgetatomname.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globalgetatomname.htm
@@ -99,7 +99,7 @@ Using this function incorrectly might compromise the security of your program. I
 
 
 > [!NOTE]
-> The winbase.h header defines GlobalGetAtomName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines GlobalGetAtomName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

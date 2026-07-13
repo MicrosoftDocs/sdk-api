@@ -54,34 +54,34 @@ Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview
 
 ## -enum-fields
 
-### -field FLVM_UNSPECIFIED
+### -field FLVM_UNSPECIFIED:-1
 
 The view is not specified.
 
-### -field FLVM_FIRST
+### -field FLVM_FIRST:1
 
 The minimum valid enumeration value. Used for validation purposes only.
 
-### -field FLVM_DETAILS
+### -field FLVM_DETAILS:1
 
 Details view.
 
-### -field FLVM_TILES
+### -field FLVM_TILES:2
 
 Tiles view.
 
-### -field FLVM_ICONS
+### -field FLVM_ICONS:3
 
 Icons view.
 
-### -field FLVM_LIST
+### -field FLVM_LIST:4
 
 <b>Windows 7 and later</b>. List view.
 
-### -field FLVM_CONTENT
+### -field FLVM_CONTENT:5
 
 <b>Windows 7 and later</b>. Content view.
 
-### -field FLVM_LAST
+### -field FLVM_LAST:5
 
 The maximum valid enumeration value. Used for validation purposes only.

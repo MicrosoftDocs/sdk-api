@@ -54,19 +54,19 @@ Defines values for the structural types within the <a href="/windows/desktop/api
 
 ## -enum-fields
 
-### -field IDT_Segment
+### -field IDT_Segment:0
 
 A recognition segment.
 
-### -field IDT_Line
+### -field IDT_Line:1
 
 A line of handwriting that contains one or more recognition segments.
 
-### -field IDT_Paragraph
+### -field IDT_Paragraph:2
 
 A block of strokes that contains one or more lines of handwriting.
 
-### -field IDT_Drawing
+### -field IDT_Drawing:3
 
 Ink that is not text.
 

@@ -1,17 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory7.GetSystemFontSet
 title: IDWriteFactory7::GetSystemFontSet
-description: Retrieves the set of system fonts.
+description: Retrieves the set of system fonts. (IDWriteFactory7::GetSystemFontSet)
 helpviewer_keywords: ["IDWriteFactory7 interface [Direct Write]","GetSystemFontSet method","IDWriteFactory7.GetSystemFontSet","IDWriteFactory7::GetSystemFontSet","GetSystemFontSet","GetSystemFontSet method [Direct Write]","GetSystemFontSet method [Direct Write]","IDWriteFactory7 interface","directwrite.idwritefactory7_getsystemfontset","dwrite_3/IDWriteFactory7::GetSystemFontSet"]
 tech.root: DirectWrite
-ms.date: 09/12/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFactory7 interface [Direct Write],GetSystemFontSet method, IDWriteFactory7.GetSystemFontSet, IDWriteFactory7::GetSystemFontSet, GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory7 interface, directwrite.idwritefactory7_getsystemfontset, dwrite_3/IDWriteFactory7::GetSystemFontSet
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 17134
+req.target-min-winversvr: Windows 10 Build 17134
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

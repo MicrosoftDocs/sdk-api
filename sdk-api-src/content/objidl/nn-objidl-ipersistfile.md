@@ -54,8 +54,5 @@ Enables an object to be loaded from or saved to a disk file, rather than a stora
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistFile</b> interface inherits from <b>IPersist</b>. <b>IPersistFile</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPersistFile</b> interface inherits from <b>IPersist</b>. <b>IPersistFile</b> also has these types of members:
 

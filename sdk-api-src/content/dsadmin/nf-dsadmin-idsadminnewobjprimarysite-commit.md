@@ -52,7 +52,7 @@ api_name:
 
 The <b>IDsAdminNewObjPrimarySite::Commit</b> method causes a single-page primary object creation extension's <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">IDsAdminNewObjExt::WriteData</a> method to be called and writes the temporary object to persistent memory.
 
-## -parameters
+
 
 ## -returns
 

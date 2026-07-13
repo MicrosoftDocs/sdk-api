@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 title: STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
-description: Reserved for system use.
+description: Reserved for system use. (STORAGE_DEVICE_RESILIENCY_DESCRIPTOR)
 helpviewer_keywords: ["*PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR","PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR","PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Files]","STORAGE_DEVICE_RESILIENCY_DESCRIPTOR","STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Files]","fs.storage_device_resiliency_descriptor","winioctl/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR","winioctl/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR"]
 old-location: fs\storage_device_resiliency_descriptor.htm
 tech.root: fs

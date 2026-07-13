@@ -53,7 +53,7 @@ api_name:
 
 Invalidates the pointer to the desktop image that was retrieved by using <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-mapdesktopsurface">IDXGIOutputDuplication::MapDesktopSurface</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -275,7 +275,7 @@ For stream-oriented sockets such as those of type SOCK_STREAM, a call to
 
 For message-oriented sockets, data is extracted from the first enqueued message, up to the size of the buffer specified. If the datagram or message is larger than the buffer specified, the buffer is filled with the first part of the datagram, and 
 <b>recvfrom</b> generates the error 
-<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMSGSIZE</a>. For unreliable protocols (for example, UDP) the excess data is lost. For UDP if the packet received contains no data (empty), the return value from the <b>recvfrom</b> function function is zero.
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMSGSIZE</a>. For unreliable protocols (for example, UDP) the excess data is lost. For UDP if the packet received contains no data (empty), the return value from the <b>recvfrom</b> function is zero.
 
 If the <i>from</i> parameter is nonzero and the socket is not connection oriented, (type SOCK_DGRAM for example), the network address of the peer that sent the data is copied to the corresponding 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The value pointed to by <i>fromlen</i> is initialized to the size of this structure and is modified, on return, to indicate the actual size of the address stored in the <b>sockaddr</b> structure.

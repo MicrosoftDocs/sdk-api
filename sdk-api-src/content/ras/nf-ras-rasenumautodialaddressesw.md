@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasEnumAutodialAddressesW
 title: RasEnumAutodialAddressesW function (ras.h)
-description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.
-helpviewer_keywords: ["RasEnumAutodialAddresses","RasEnumAutodialAddresses function [RAS]","RasEnumAutodialAddressesA","RasEnumAutodialAddressesW","_ras_rasenumautodialaddresses","ras/RasEnumAutodialAddresses","ras/RasEnumAutodialAddressesA","ras/RasEnumAutodialAddressesW","rras.rasenumautodialaddresses"]
+description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database. (Unicode)
+helpviewer_keywords: ["RasEnumAutodialAddresses", "RasEnumAutodialAddresses function [RAS]", "RasEnumAutodialAddressesW", "_ras_rasenumautodialaddresses", "ras/RasEnumAutodialAddresses", "ras/RasEnumAutodialAddressesW", "rras.rasenumautodialaddresses"]
 old-location: rras\rasenumautodialaddresses.htm
 tech.root: RRAS
 ms.assetid: bd4fb897-5cc0-452f-b6a2-ec0540c59b90
@@ -202,7 +202,7 @@ DWORD __cdecl wmain(){
 
 
 > [!NOTE]
-> The ras.h header defines RasEnumAutodialAddresses as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasEnumAutodialAddresses as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

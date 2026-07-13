@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFPutWorkItemEx
 title: MFPutWorkItemEx function (mfapi.h)
-description: Puts an asynchronous operation on a work queue.
+description: Puts an asynchronous operation on a work queue. (MFPutWorkItemEx)
 helpviewer_keywords: ["67b4f7c6-0d49-4ed0-9bc3-e583451884af","MFPutWorkItemEx","MFPutWorkItemEx function [Media Foundation]","mf.mfputworkitemex","mfapi/MFPutWorkItemEx"]
 old-location: mf\mfputworkitemex.htm
 tech.root: mf
@@ -74,7 +74,7 @@ Returns an <b>HRESULT</b> value. Possible values include the following.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ Success.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALID_WORKQUEUE</b></b></dt>
+<dt><b>MF_E_INVALID_WORKQUEUE</b></dt>
 </dl>
 </td>
 <td width="60%">

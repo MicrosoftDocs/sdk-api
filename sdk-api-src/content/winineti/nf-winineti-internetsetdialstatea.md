@@ -1,8 +1,8 @@
 ---
 UID: NF:winineti.InternetSetDialStateA
 title: InternetSetDialStateA function (winineti.h)
-description: Not supported.This function is obsolete. Do not use.
-helpviewer_keywords: ["InternetSetDialState","InternetSetDialState function [WinINet]","InternetSetDialStateA","InternetSetDialStateW","_inet_internetsetdialstate_function","wininet.internetsetdialstate","wininet/InternetSetDialState","wininet/InternetSetDialStateA","wininet/InternetSetDialStateW","winineti/InternetSetDialState","winineti/InternetSetDialStateA","winineti/InternetSetDialStateW"]
+description: The InternetSetDialStateA (ANSI) function (wininet.h) is obsolete and not supported, do not use.
+helpviewer_keywords: ["InternetSetDialStateA", "winineti/InternetSetDialStateA"]
 old-location: wininet\internetsetdialstate.htm
 tech.root: wininet
 ms.assetid: f523f1ca-3e5a-4da0-850f-8654c82ee41e
@@ -82,4 +82,4 @@ This function does not return a value.
 
 
 > [!NOTE]
-> The winineti.h header defines InternetSetDialState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winineti.h header defines InternetSetDialState as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

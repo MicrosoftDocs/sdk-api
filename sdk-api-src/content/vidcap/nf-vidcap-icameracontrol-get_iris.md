@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_Iris method",
 old-location: dshow\icameracontrol_get_iris.htm
 tech.root: dshow
 ms.assetid: 710a29f1-f5ab-42cf-b912-dd9b4546757e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICameraControl interface [DirectShow],get_Iris method, ICameraControl.get_Iris, ICameraControl::get_Iris, ICameraControlget_Iris, dshow.icameracontrol_get_iris, get_Iris, get_Iris method [DirectShow], get_Iris method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Iris
 req.header: vidcap.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>get_Iris</code> method returns the camera's aperture setting.
 
 ## -parameters
@@ -61,7 +63,7 @@ Receives the aperture setting, in units of f-stop * 10.
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
+Receives one or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
 ## -returns
 

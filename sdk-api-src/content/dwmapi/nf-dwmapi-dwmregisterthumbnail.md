@@ -54,11 +54,11 @@ Creates a Desktop Window Manager (DWM) thumbnail relationship between the destin
 
 ## -parameters
 
-### -param hwndDestination
+### -param hwndDestination [in]
 
 The handle to the window that will use the DWM thumbnail. Setting the destination window handle to anything other than a top-level window type will result in a return value of E_INVALIDARG.
 
-### -param hwndSource
+### -param hwndSource [in]
 
 The handle to the window to use as the thumbnail source. Setting the source window handle to anything other than a top-level window type will result in a return value of E_INVALIDARG.
 
@@ -68,7 +68,7 @@ A pointer to a handle that, when this function returns successfully, represents 
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

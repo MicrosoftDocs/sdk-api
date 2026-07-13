@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.get_RandomDelay
 title: IMonthlyDOWTrigger::get_RandomDelay (taskschd.h)
-description: Gets or sets a delay time that is randomly added to the start time of the trigger.
+description: Gets or sets a delay time that is randomly added to the start time of the trigger. (IMonthlyDOWTrigger.get_RandomDelay)
 helpviewer_keywords: ["IMonthlyDOWTrigger interface [Task Scheduler]","RandomDelay property","IMonthlyDOWTrigger.RandomDelay","IMonthlyDOWTrigger.get_RandomDelay","IMonthlyDOWTrigger::RandomDelay","IMonthlyDOWTrigger::get_RandomDelay","IMonthlyDOWTrigger::put_RandomDelay","RandomDelay property [Task Scheduler]","RandomDelay property [Task Scheduler]","IMonthlyDOWTrigger interface","get_RandomDelay","taskschd.imonthlydowtrigger_randomdelay","taskschd/IMonthlyDOWTrigger::RandomDelay","taskschd/IMonthlyDOWTrigger::get_RandomDelay","taskschd/IMonthlyDOWTrigger::put_RandomDelay"]
 old-location: taskschd\imonthlydowtrigger_randomdelay.htm
 tech.root: taskschd

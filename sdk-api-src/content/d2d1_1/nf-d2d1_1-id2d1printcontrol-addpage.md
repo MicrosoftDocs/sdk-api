@@ -46,9 +46,6 @@ api_name:
  - ID2D1PrintControl.AddPage
 ---
 
-# ID2D1PrintControl::AddPage
-
-
 ## -description
 
 Converts Direct2D primitives in the passed-in command list into a fixed page representation for use  by the print subsystem.
@@ -65,13 +62,13 @@ The command list that contains the rendering operations.
 
 Type: <b><a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_size_f">D2D_SIZE_F</a></b>
 
-The size of the page to add.
+The size of the page to add, in DIPs (1 inch == 96 DIP). If the print driver doesn't respond to this parameter, then you can use *pagePrintTicketStream* instead.
 
-### -param pagePrintTicketStream [in, out]
+### -param pagePrintTicketStream [in, optional]
 
 Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-The print ticket stream.
+The print ticket stream. You can use this to modify properties of the current page; for example, paper size or orientation.
 
 ### -param tag1 [out, optional]
 

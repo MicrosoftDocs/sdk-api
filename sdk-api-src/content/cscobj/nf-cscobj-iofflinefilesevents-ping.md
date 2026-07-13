@@ -53,7 +53,7 @@ api_name:
 
 This event is delivered to all registered event subscribers on a periodic basis.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUDECN4.XMUDECN4(constXMUDECN4&)
 title: XMUDECN4::XMUDECN4(const XMUDECN4 &) (directxpackedvector.h)
-description: A constructor for XMUDECN4.
+description: A constructor for XMUDECN4. (overload 2/2)
 helpviewer_keywords: ["XMUDECN4","XMUDECN4 constructor [DirectX Math Support APIs]","XMUDECN4 constructor [DirectX Math Support APIs]","XMUDECN4 structure","XMUDECN4 structure [DirectX Math Support APIs]","XMUDECN4 constructor","XMUDECN4.XMUDECN4","XMUDECN4.XMUDECN4()","XMUDECN4.XMUDECN4(const XMUDECN4 &)","XMUDECN4::XMUDECN4","XMUDECN4::XMUDECN4(const XMUDECN4 &)","dxmath.xmudecn4_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMUDECN4, XMUDECN4 constructor [DirectX Math Support APIs], XMUDECN
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

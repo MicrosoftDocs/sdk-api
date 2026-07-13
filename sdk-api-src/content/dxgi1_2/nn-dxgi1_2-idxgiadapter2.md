@@ -55,10 +55,7 @@ The <b>IDXGIAdapter2</b> interface represents a display subsystem, which include
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter2</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a>. <b>IDXGIAdapter2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIAdapter2</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a>. <b>IDXGIAdapter2</b> also has these types of members:
 
 ## -remarks
 

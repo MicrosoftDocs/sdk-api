@@ -1,8 +1,8 @@
 ---
 UID: NF:ip2string.RtlEthernetAddressToStringA
 title: RtlEthernetAddressToStringA function (ip2string.h)
-description: Converts a binary Ethernet address to a string representation of the Ethernet MAC address.
-helpviewer_keywords: ["RtlEthernetAddressToString","RtlEthernetAddressToString function [IP Helper]","RtlEthernetAddressToStringA","RtlEthernetAddressToStringW","ip2string/RtlEthernetAddressToString","ip2string/RtlEthernetAddressToStringA","ip2string/RtlEthernetAddressToStringW","iphlp.rtlethernetaddresstostring"]
+description: Converts a binary Ethernet address to a string representation of the Ethernet MAC address. (ANSI)
+helpviewer_keywords: ["RtlEthernetAddressToStringA", "ip2string/RtlEthernetAddressToStringA"]
 old-location: iphlp\rtlethernetaddresstostring.htm
 tech.root: IpHlp
 ms.assetid: 5DE1A1EF-86B3-4414-A21F-90635B48242A
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -96,7 +96,7 @@ The <b>DL_EUI48</b> data type is defined in the <i>Mstcpip.h</i>  header file.
 
 
 > [!NOTE]
-> The ip2string.h header defines RtlEthernetAddressToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ip2string.h header defines RtlEthernetAddressToString as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["KeyCredentialManagerOperationErrorStateCertificateFailure
 old-location: security\keycredentialmanageroperationerrorstates.htm
 tech.root: security
 ms.assetid: 51C460E3-0A74-40A8-9F41-057EF6D03E86
-ms.date: 12/05/2018
+ms.date: 12/17/2024
 ms.keywords: KeyCredentialManagerOperationErrorStateCertificateFailure, KeyCredentialManagerOperationErrorStateDeviceJoinFailure, KeyCredentialManagerOperationErrorStateHardwareFailure, KeyCredentialManagerOperationErrorStateNone, KeyCredentialManagerOperationErrorStatePinExistsFailure, KeyCredentialManagerOperationErrorStatePolicyFailure, KeyCredentialManagerOperationErrorStateRemoteSessionFailure, KeyCredentialManagerOperationErrorStateTokenFailure, KeyCredentialManagerOperationErrorStates, KeyCredentialManagerOperationErrorStates enumeration [Security], keycredmgr/KeyCredentialManagerOperationErrorStateCertificateFailure, keycredmgr/KeyCredentialManagerOperationErrorStateDeviceJoinFailure, keycredmgr/KeyCredentialManagerOperationErrorStateHardwareFailure, keycredmgr/KeyCredentialManagerOperationErrorStateNone, keycredmgr/KeyCredentialManagerOperationErrorStatePinExistsFailure, keycredmgr/KeyCredentialManagerOperationErrorStatePolicyFailure, keycredmgr/KeyCredentialManagerOperationErrorStateRemoteSessionFailure, keycredmgr/KeyCredentialManagerOperationErrorStateTokenFailure, keycredmgr/KeyCredentialManagerOperationErrorStates, security.keycredentialmanageroperationerrorstates
 req.header: keycredmgr.h
 req.include-header: 
@@ -47,42 +47,40 @@ api_name:
 
 # KeyCredentialManagerOperationErrorStates enumeration
 
-
 ## -description
 
-Enumeration of Error states returned by the function <a href="https://msdn.microsoft.com/en-us/library/Mt830288(v=VS.85).aspx">KeyCredentialManagerGetOperationErrorStates</a> as flags.
+Enumeration of Error states returned by the function [KeyCredentialManagerGetOperationErrorStates](../keycredmgr/nf-keycredmgr-keycredentialmanagergetoperationerrorstates.md) as flags.
 
 ## -enum-fields
 
-### -field KeyCredentialManagerOperationErrorStateNone
+### -field KeyCredentialManagerOperationErrorStateNone:0x0
 
-No Error  equivalent to ERROR_SUCCESS.
+No Error. Equivalent to **ERROR_SUCCESS**.
 
-### -field KeyCredentialManagerOperationErrorStateDeviceJoinFailure
+### -field KeyCredentialManagerOperationErrorStateDeviceJoinFailure:0x01
 
 WHFB enrollment will successfully complete because the device is not properly joined to Azure or the Enterprise.
 
-### -field KeyCredentialManagerOperationErrorStateTokenFailure
+### -field KeyCredentialManagerOperationErrorStateTokenFailure:0x02
 
 WHFB enrollment will not successfully complete because the user could not get a token from Azure or the Enterprise.
 
-### -field KeyCredentialManagerOperationErrorStateCertificateFailure
+### -field KeyCredentialManagerOperationErrorStateCertificateFailure:0x04
 
 WHFB enrollment will not successfully complete because the certificate authority and/or certificate template could not be found.
 
-### -field KeyCredentialManagerOperationErrorStateRemoteSessionFailure
+### -field KeyCredentialManagerOperationErrorStateRemoteSessionFailure:0x08
 
 WHFB enrollment will not successfully complete because the current session is a remote session.
 
-### -field KeyCredentialManagerOperationErrorStatePolicyFailure
+### -field KeyCredentialManagerOperationErrorStatePolicyFailure:0x10
 
 WHFB enrollment will not successfully complete because there was an error reading MDM or Group Policy.
 
-### -field KeyCredentialManagerOperationErrorStateHardwareFailure
+### -field KeyCredentialManagerOperationErrorStateHardwareFailure:0x20
 
 WHFB enrollment will not successful complete because the device does not have the required hardware.
 
-### -field KeyCredentialManagerOperationErrorStatePinExistsFailure
+### -field KeyCredentialManagerOperationErrorStatePinExistsFailure:0x40
 
 WHFB is already enrolled on this device.
-

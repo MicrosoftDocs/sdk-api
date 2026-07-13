@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
  - Dwmapi.dll
 api_name:
  - DwmUnregisterThumbnail
@@ -54,13 +57,13 @@ Removes a Desktop Window Manager (DWM) thumbnail relationship created by the <a 
 
 ## -parameters
 
-### -param hThumbnailId
+### -param hThumbnailId [in]
 
 The handle to the thumbnail relationship to be removed. Null or non-existent handles will result in a return value of E_INVALIDARG.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

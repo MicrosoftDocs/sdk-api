@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecGetStatistics1
 title: IPsecGetStatistics1 function (fwpmu.h)
-description: Retrieves Internet Protocol Security (IPsec) statistics.
+description: Retrieves Internet Protocol Security (IPsec) statistics. (IPsecGetStatistics1)
 helpviewer_keywords: ["IPsecGetStatistics1","IPsecGetStatistics1 function [Filtering]","fwp.ipsecgetstatistics1_func","fwpmu/IPsecGetStatistics1"]
 old-location: fwp\ipsecgetstatistics1_func.htm
 tech.root: fwp

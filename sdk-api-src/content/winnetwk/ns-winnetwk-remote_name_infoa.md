@@ -1,7 +1,7 @@
 ---
 UID: NS:winnetwk._REMOTE_NAME_INFOA
 title: REMOTE_NAME_INFOA (winnetwk.h)
-description: The REMOTE_NAME_INFO structure contains information about the remote form of a universal name. It is used by the NPGetUniversalName function.
+description: The REMOTE_NAME_INFO structure contains information about the remote form of a universal name. It is used by the NPGetUniversalName function. (ANSI)
 helpviewer_keywords: ["*LPREMOTE_NAME_INFOA","LPREMOTE_NAME_INFO","LPREMOTE_NAME_INFO structure pointer [Security]","REMOTE_NAME_INFO","REMOTE_NAME_INFO structure [Security]","REMOTE_NAME_INFOA","REMOTE_NAME_INFOW","_mnp_remote_name_info","security.remote_name_info","winnetwk/LPREMOTE_NAME_INFO","winnetwk/REMOTE_NAME_INFO","winnetwk/REMOTE_NAME_INFOA","winnetwk/REMOTE_NAME_INFOW"]
 old-location: security\remote_name_info.htm
 tech.root: security
@@ -76,4 +76,4 @@ Pointer to the remaining path that must to be concatenated to a drive letter aft
 ## -remarks
 
 > [!NOTE]
-> The winnetwk.h header defines REMOTE_NAME_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines REMOTE_NAME_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

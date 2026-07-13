@@ -52,7 +52,7 @@ api_name:
 
 The <b>ITfCandidateListUIElementBehavior::Finalize</b> method finalizes the current selection and close the candidate list.
 
-## -parameters
+
 
 ## -returns
 

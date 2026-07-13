@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDateTime
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetDateTime (windows.foundation.h)
 description: Gets the DateTime value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetDateTime","GetDateTime method [Windows Runtime]","GetDateTime method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetDateTime method","IPropertyValue.GetDateTime","IPropertyValue.IPropertyValue","IPropertyValue::GetDateTime","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetDateTime","winrt.ipropertyvalue_getdatetime"]
 old-location: winrt\ipropertyvalue_getdatetime.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetDateTime
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetDateTime (windows.foundation.h)
 
 
 ## -description
@@ -64,7 +64,7 @@ The value.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

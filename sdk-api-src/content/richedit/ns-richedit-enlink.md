@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about an <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification code from a rich edit control.
+Contains information about an <a href="/windows/win32/controls/en-link">EN_LINK</a> notification code from a rich edit control.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The code member of this structure identifies the notification code being sent.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Identifier of the message that caused the rich edit control to send the <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification code.
+Identifier of the message that caused the rich edit control to send the <a href="/windows/win32/controls/en-link">EN_LINK</a> notification code.
 
 ### -field wParam
 
@@ -92,7 +92,7 @@ The range of consecutive characters in the rich edit control that have the CFE_L
 
 
 
-<a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a>
+<a href="/windows/win32/controls/en-link">EN_LINK</a>
 
 
 

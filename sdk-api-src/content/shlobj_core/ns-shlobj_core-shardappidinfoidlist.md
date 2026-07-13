@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFOIDLIST
 title: SHARDAPPIDINFOIDLIST (shlobj_core.h)
-description: Contains data used by SHAddToRecentDocs to identify both an item�in this case by an absolute pointer to an item identifier list (PIDL)�and the process that it is associated with.
+description: Contains data used by SHAddToRecentDocs to identify both an item — in this case by an absolute pointer to an item identifier list (PIDL) — and the process that it is associated with.
 helpviewer_keywords: ["SHARDAPPIDINFOIDLIST","SHARDAPPIDINFOIDLIST structure [Windows Shell]","_shell_SHARDAPPIDINFOIDLIST","shell.SHARDAPPIDINFOIDLIST","shlobj_core/SHARDAPPIDINFOIDLIST"]
 old-location: shell\SHARDAPPIDINFOIDLIST.htm
 tech.root: shell

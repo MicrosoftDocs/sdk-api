@@ -58,15 +58,15 @@ Defines values for the burn verification implemented by the <a href="/windows/de
 
 ## -enum-fields
 
-### -field IMAPI_BURN_VERIFICATION_NONE
+### -field IMAPI_BURN_VERIFICATION_NONE:0
 
 No burn verification.
 
-### -field IMAPI_BURN_VERIFICATION_QUICK
+### -field IMAPI_BURN_VERIFICATION_QUICK:1
 
 A quick, heuristic burn verification.
 
-### -field IMAPI_BURN_VERIFICATION_FULL
+### -field IMAPI_BURN_VERIFICATION_FULL:2
 
 This verification compares the checksum to the referenced stream for either the last session or each track.  A full verification includes the heuristic checks of a quick verification for both burn formats.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateAnimation
 title: IDCompositionDevice::CreateAnimation (dcomp.h)
-description: Creates an animation object that is used to animate one or more scalar properties of one or more Microsoft DirectComposition objects.
+description: Creates an animation object that is used to animate one or more scalar properties of one or more Microsoft DirectComposition objects. (IDCompositionDevice.CreateAnimation)
 helpviewer_keywords: ["CreateAnimation","CreateAnimation method [DirectComposition]","CreateAnimation method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateAnimation method","IDCompositionDevice.CreateAnimation","IDCompositionDevice::CreateAnimation","dcomp/IDCompositionDevice::CreateAnimation","directcomp.idcompositiondevice_createanimation"]
 old-location: directcomp\idcompositiondevice_createanimation.htm
 tech.root: directcomp

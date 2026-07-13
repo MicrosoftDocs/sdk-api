@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSyncServices interface [Windows Media Player]","getDe
 old-location: wmp\iwmpsyncservices_getdevice.htm
 tech.root: WMP
 ms.assetid: 4c34b823-57ce-4053-9e98-308a5d4ffdef
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSyncServices interface [Windows Media Player],getDevice method, IWMPSyncServices.getDevice, IWMPSyncServices::getDevice, IWMPSyncServicesgetDevice, getDevice, getDevice method [Windows Media Player], getDevice method [Windows Media Player],IWMPSyncServices interface, wmp.iwmpsyncservices_getdevice, wmp/IWMPSyncServices::getDevice
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>getDevice</b> method retrieves a pointer to a device interface.
 

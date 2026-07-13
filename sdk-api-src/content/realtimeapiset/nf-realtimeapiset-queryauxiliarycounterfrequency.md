@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-realtime-l1-1-2.dll
  - Kernel32.dll
 api_name:
  - QueryAuxiliaryCounterFrequency

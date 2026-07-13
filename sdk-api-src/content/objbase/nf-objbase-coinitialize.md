@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-com-ole32-l1-3-0.dll
+ - ext-ms-win-com-ole32-l1-2-0.dll
+ - ext-ms-win-com-ole32-l1-1-5.dll
  - Ole32.dll
  - API-MS-Win-OLE32-IE-l1-1-0.dll
  - ole32_wp.dll
@@ -61,7 +64,7 @@ Initializes the COM library on the current thread and identifies the concurrency
 
 New applications should call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> instead of CoInitialize. 
 
-If you want to use the Windows Runtime, you must call Windows::Foundation::Initialize instead.
+If you want to use the Windows Runtime, you must call <a href="/windows/win32/api/roapi/nf-roapi-roinitialize">RoInitialize</a> or <a href="/windows/win32/api/roapi/nf-roapi-initialize">Windows::Foundation::Initialize</a> instead.
 
 ## -parameters
 

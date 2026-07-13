@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.SetDisabled
 title: IMFPluginControl::SetDisabled (mfobjects.h)
-description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
+description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list. (IMFPluginControl.SetDisabled)
 helpviewer_keywords: ["IMFPluginControl interface [Media Foundation]","SetDisabled method","IMFPluginControl.SetDisabled","IMFPluginControl::SetDisabled","SetDisabled","SetDisabled method [Media Foundation]","SetDisabled method [Media Foundation]","IMFPluginControl interface","mf.imfplugincontrol_imfplugincontrol__setdisabled","mfobjects/IMFPluginControl::SetDisabled"]
 old-location: mf\imfplugincontrol_imfplugincontrol__setdisabled.htm
 tech.root: mf
@@ -78,7 +78,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +89,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">

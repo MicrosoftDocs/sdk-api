@@ -54,27 +54,27 @@ Determines which, if any, modifier keys were pressed when the flick gesture occu
 
 ## -enum-fields
 
-### -field KEYMODIFIER_CONTROL
+### -field KEYMODIFIER_CONTROL:1
 
 The Control key was pressed when the Flicks gesture occurred.
 
-### -field KEYMODIFIER_MENU
+### -field KEYMODIFIER_MENU:2
 
 The Menu key was pressed when the Flicks gesture occurred.
 
-### -field KEYMODIFIER_SHIFT
+### -field KEYMODIFIER_SHIFT:4
 
 The Shift key was pressed when the Flicks gesture occurred.
 
-### -field KEYMODIFIER_WIN
+### -field KEYMODIFIER_WIN:8
 
 The Windows key was pressed when the Flicks gesture occurred.
 
-### -field KEYMODIFIER_ALTGR
+### -field KEYMODIFIER_ALTGR:16
 
 The Alt key was pressed when the Flicks gesture occurred.
 
-### -field KEYMODIFIER_EXT
+### -field KEYMODIFIER_EXT:32
 
 The pressed key's scan code was preceded by a prefix byte that has the value 0xE0 (224).
 

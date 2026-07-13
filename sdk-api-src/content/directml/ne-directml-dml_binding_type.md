@@ -65,4 +65,4 @@ Specifies a binding that binds an array of buffers to the binding table. The cor
 
 ## -see-also
 
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [DML_BINDING_DESC](./ns-directml-dml_binding_desc.md)
+[Binding in DirectML](/windows/ai/directml/dml-binding), [DML_BINDING_DESC](./ns-directml-dml_binding_desc.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_Error
 title: IWSManResourceLocator::get_Error (wsmandisp.h)
-description: Gets an XML representation of additional error information.
+description: Gets an XML representation of additional error information. (IWSManResourceLocator.get_Error)
 helpviewer_keywords: ["Error property [Windows Remote Management]","Error property [Windows Remote Management]","IWSManResourceLocator interface","IWSManResourceLocator interface [Windows Remote Management]","Error property","IWSManResourceLocator.Error","IWSManResourceLocator.get_Error","IWSManResourceLocator::Error","IWSManResourceLocator::get_Error","get_Error","winrm.iwsmanresourcelocator_error","wsmandisp/IWSManResourceLocator::Error","wsmandisp/IWSManResourceLocator::get_Error"]
 old-location: winrm\iwsmanresourcelocator_error.htm
 tech.root: winrm

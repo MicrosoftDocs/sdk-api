@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Duration
 title: IDataCollectorSet::get_Duration (pla.h)
-description: Retrieves and sets the duration that the data collector set runs.
+description: Retrieves and sets the duration that the data collector set runs. (Get)
 helpviewer_keywords: ["Duration property [PLA]","Duration property [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","Duration property","IDataCollectorSet.Duration","IDataCollectorSet.get_Duration","IDataCollectorSet::Duration","IDataCollectorSet::get_Duration","IDataCollectorSet::put_Duration","base.idatacollectorset_get_duration","get_Duration","pla.idatacollectorset_get_duration","pla/IDataCollectorSet::Duration","pla/IDataCollectorSet::get_Duration","pla/IDataCollectorSet::put_Duration"]
 old-location: pla\idatacollectorset_get_duration.htm
 tech.root: PLA

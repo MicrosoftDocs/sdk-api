@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineSetupTransferA
 title: lineSetupTransferA function (tapi.h)
-description: The lineSetupTransfer function initiates a transfer of the call specified by the hCall parameter.
-helpviewer_keywords: ["_tapi2_linesetuptransfer","lineSetupTransfer","lineSetupTransfer function [TAPI 2.2]","lineSetupTransferA","lineSetupTransferW","tapi/lineSetupTransfer","tapi/lineSetupTransferA","tapi/lineSetupTransferW","tapi2.linesetuptransfer"]
+description: The lineSetupTransfer function initiates a transfer of the call specified by the hCall parameter. (lineSetupTransferA)
+helpviewer_keywords: ["lineSetupTransferA", "tapi/lineSetupTransferA"]
 old-location: tapi2\linesetuptransfer.htm
 tech.root: tapi3
 ms.assetid: 40f0ce8f-9809-43ec-af48-d8e410553048
@@ -106,7 +106,7 @@ The application can also transfer calls in a single step, without having to deal
 
 
 > [!NOTE]
-> The tapi.h header defines lineSetupTransfer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineSetupTransfer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

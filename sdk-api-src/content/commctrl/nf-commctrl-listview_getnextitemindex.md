@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetNextItemIndex","ListView_GetNextItemIndex mac
 old-location: controls\ListView_GetNextItemIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitemindex.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetNextItemIndex, ListView_GetNextItemIndex macro [Windows Controls], _shell_ListView_GetNextItemIndex, _shell_ListView_GetNextItemIndex_cpp, commctrl/ListView_GetNextItemIndex, controls.ListView_GetNextItemIndex, controls._shell_ListView_GetNextItemIndex
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetNextItemIndex macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetNextItemIndex(
+  [in]      HWND        hwnd,
+  [in, out] LVITEMINDEX *plvii,
+            LPARAM      flags
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

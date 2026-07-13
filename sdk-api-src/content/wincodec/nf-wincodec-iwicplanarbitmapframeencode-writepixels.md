@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapFrameEncode.WritePixels
 title: IWICPlanarBitmapFrameEncode::WritePixels (wincodec.h)
-description: Writes lines from the source planes to the encoded format.
+description: Writes lines from the source planes to the encoded format. (IWICPlanarBitmapFrameEncode.WritePixels)
 helpviewer_keywords: ["IWICPlanarBitmapFrameEncode interface [Windows Imaging Component]","WritePixels method","IWICPlanarBitmapFrameEncode.WritePixels","IWICPlanarBitmapFrameEncode::WritePixels","WritePixels","WritePixels method [Windows Imaging Component]","WritePixels method [Windows Imaging Component]","IWICPlanarBitmapFrameEncode interface","wic.iwicplanarbitmapframeencode_writepixels","wincodec/IWICPlanarBitmapFrameEncode::WritePixels"]
 old-location: wic\iwicplanarbitmapframeencode_writepixels.htm
 tech.root: wic

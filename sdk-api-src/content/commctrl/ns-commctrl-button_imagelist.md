@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_18
+UID: NS:commctrl.BUTTON_IMAGELIST
 title: BUTTON_IMAGELIST (commctrl.h)
 description: Contains information about an image list that is used with a button control.
 helpviewer_keywords: ["*PBUTTON_IMAGELIST","BUTTON_IMAGELIST","BUTTON_IMAGELIST structure [Windows Controls]","BUTTON_IMAGELIST_ALIGN_BOTTOM","BUTTON_IMAGELIST_ALIGN_CENTER","BUTTON_IMAGELIST_ALIGN_LEFT","BUTTON_IMAGELIST_ALIGN_RIGHT","BUTTON_IMAGELIST_ALIGN_TOP","PBUTTON_IMAGELIST","PBUTTON_IMAGELIST structure pointer [Windows Controls]","_win32_BUTTON_IMAGELIST_str","_win32_BUTTON_IMAGELIST_str_cpp","commctrl/BUTTON_IMAGELIST","commctrl/PBUTTON_IMAGELIST","controls.BUTTON_IMAGELIST","controls._win32_BUTTON_IMAGELIST_str"]
@@ -158,3 +158,4 @@ Center the image.
 
 
 <b>Reference</b>
+

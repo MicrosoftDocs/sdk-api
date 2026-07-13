@@ -27,7 +27,8 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_location:
-- Kernel32.dll
+ - Kernel32.dll
+ - api-ms-win-core-file-fromapp-l1-1-0.dll
 api_name:
 - GetFileAttributesFromAppW
 - GetFileAttributesFromApp
@@ -92,8 +93,8 @@ Specifies additional flags that control the search.
     
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

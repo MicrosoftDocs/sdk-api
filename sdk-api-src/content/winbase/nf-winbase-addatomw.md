@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.AddAtomW
 title: AddAtomW function (winbase.h)
-description: Adds a character string to the local atom table and returns a unique value (an atom) identifying the string.
-helpviewer_keywords: ["AddAtom","AddAtom function [Data Exchange]","AddAtomA","AddAtomW","_win32_AddAtom","_win32_addatom_cpp","dataxchg.addatom","winbase/AddAtom","winbase/AddAtomA","winbase/AddAtomW","winui._win32_addatom"]
+description: Adds a character string to the local atom table and returns a unique value (an atom) identifying the string. (Unicode)
+helpviewer_keywords: ["AddAtom", "AddAtom function [Data Exchange]", "AddAtomW", "_win32_AddAtom", "_win32_addatom_cpp", "dataxchg.addatom", "winbase/AddAtom", "winbase/AddAtomW", "winui._win32_addatom"]
 old-location: dataxchg\addatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\addatom.htm
@@ -91,7 +91,7 @@ If
 
 
 > [!NOTE]
-> The winbase.h header defines AddAtom as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines AddAtom as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

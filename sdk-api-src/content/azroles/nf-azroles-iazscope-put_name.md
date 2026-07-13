@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.put_Name
 title: IAzScope::put_Name (azroles.h)
-description: Sets or retrieves the name of the scope.
+description: Sets or retrieves the name of the scope. (Put)
 helpviewer_keywords: ["AzScope object [Security]","Name property","IAzScope interface [Security]","Name property","IAzScope.Name","IAzScope.put_Name","IAzScope::Name","IAzScope::get_Name","IAzScope::put_Name","Name property [Security]","Name property [Security]","AzScope object","Name property [Security]","IAzScope interface","azroles/IAzScope::Name","azroles/IAzScope::get_Name","azroles/IAzScope::put_Name","put_Name","security.iazscope_name"]
 old-location: security\iazscope_name.htm
 tech.root: security

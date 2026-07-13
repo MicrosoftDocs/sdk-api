@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.OpenFileMappingA
 title: OpenFileMappingA function (winbase.h)
-description: Opens a named file mapping object.
+description: Opens a named file mapping object. (OpenFileMappingA)
 helpviewer_keywords: ["OpenFileMapping","OpenFileMapping function","OpenFileMappingA","OpenFileMappingW","_win32_openfilemapping","base.openfilemapping","fs.openfilemapping","winbase/OpenFileMapping","winbase/OpenFileMappingA","winbase/OpenFileMappingW"]
 old-location: base\openfilemapping.htm
 tech.root: base
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
  - Kernel32.dll
  - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
  - kernel32legacy.dll
@@ -110,7 +111,7 @@ When modifying a file through a mapped view, the last modification timestamp may
      If required, the caller should use <a href="/windows/desktop/api/fileapi/nf-fileapi-setfiletime">SetFileTime</a> to set the 
      timestamp.
 
-When it is no longer needed, the caller should call release the handle returned by 
+When it is no longer needed, the caller should release the handle returned by 
      <b>OpenFileMapping</b> with a call to 
      <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 

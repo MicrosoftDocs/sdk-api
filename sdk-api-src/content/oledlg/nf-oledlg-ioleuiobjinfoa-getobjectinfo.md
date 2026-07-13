@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoA.GetObjectInfo
 title: IOleUIObjInfoA::GetObjectInfo (oledlg.h)
-description: Gets the size, type, name, and location information for an object.
+description: Gets the size, type, name, and location information for an object. (ANSI)
 helpviewer_keywords: ["GetObjectInfo","GetObjectInfo method [COM]","GetObjectInfo method [COM]","IOleUIObjInfo interface","GetObjectInfo method [COM]","IOleUIObjInfoA interface","GetObjectInfo method [COM]","IOleUIObjInfoW interface","IOleUIObjInfo interface [COM]","GetObjectInfo method","IOleUIObjInfo::GetObjectInfo","IOleUIObjInfoA interface [COM]","GetObjectInfo method","IOleUIObjInfoA.GetObjectInfo","IOleUIObjInfoA::GetObjectInfo","IOleUIObjInfoW interface [COM]","GetObjectInfo method","IOleUIObjInfoW::GetObjectInfo","_ole_IOleUIObjInfo_GetObjectInfo","com.ioleuiobjinfo_getobjectinfo","oledlg/IOleUIObjInfo::GetObjectInfo","oledlg/IOleUIObjInfoA::GetObjectInfo","oledlg/IOleUIObjInfoW::GetObjectInfo"]
 old-location: com\ioleuiobjinfo_getobjectinfo.htm
 tech.root: com

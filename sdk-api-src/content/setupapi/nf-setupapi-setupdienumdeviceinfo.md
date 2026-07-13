@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-0.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
@@ -82,6 +83,8 @@ To enumerate device information elements, an installer should initially call <b>
 
 Call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a> to get a context structure for a device <i>interface</i> element (versus a device <i>information</i> element).
 
+An example of <b>SetupDiEnumDeviceInfo</b> usage is available on the page documenting <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevsW</a>.
+
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
@@ -101,3 +104,4 @@ Call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfa
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinfoa">SetupDiOpenDeviceInfo</a>
+

@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::SetBorderColor (evr.h)
 description: Sets the border color for the video.
 helpviewer_keywords: ["4a3647a8-4789-4f18-979b-4a9ee1ce7b71","IMFVideoDisplayControl interface [Media Foundation]","SetBorderColor method","IMFVideoDisplayControl.SetBorderColor","IMFVideoDisplayControl::SetBorderColor","SetBorderColor","SetBorderColor method [Media Foundation]","SetBorderColor method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetBorderColor","mf.imfvideodisplaycontrol_setbordercolor"]
 old-location: mf\imfvideodisplaycontrol_setbordercolor.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71
 ms.date: 12/05/2018
 ms.keywords: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71, IMFVideoDisplayControl interface [Media Foundation],SetBorderColor method, IMFVideoDisplayControl.SetBorderColor, IMFVideoDisplayControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetBorderColor, mf.imfvideodisplaycontrol_setbordercolor
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.SetBorderColor
+archived: true
 ---
 
 # IMFVideoDisplayControl::SetBorderColor
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets the border color for the video.
 

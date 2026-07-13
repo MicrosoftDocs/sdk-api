@@ -58,15 +58,15 @@ Defines values that indicate the type of sub-channel data.
 
 ## -enum-fields
 
-### -field IMAPI_FORMAT2_RAW_CD_SUBCODE_PQ_ONLY
+### -field IMAPI_FORMAT2_RAW_CD_SUBCODE_PQ_ONLY:0x1
 
 The data contains P and Q sub-channel data.
 
-### -field IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_COOKED
+### -field IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_COOKED:0x2
 
 The data contains corrected and de-interleaved R-W sub-channel data.
 
-### -field IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_RAW
+### -field IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_RAW:0x3
 
 The data contains raw P-W sub-channel data that is returned in the order received from the disc surface.
 

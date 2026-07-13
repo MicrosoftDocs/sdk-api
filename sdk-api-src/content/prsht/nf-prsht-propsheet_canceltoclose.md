@@ -6,7 +6,7 @@ helpviewer_keywords: ["PropSheet_CancelToClose","PropSheet_CancelToClose macro [
 old-location: controls\PropSheet_CancelToClose.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_canceltoclose.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: PropSheet_CancelToClose, PropSheet_CancelToClose macro [Windows Controls], _win32_PropSheet_CancelToClose, _win32_PropSheet_CancelToClose_cpp, controls.PropSheet_CancelToClose, controls._win32_PropSheet_CancelToClose, prsht/PropSheet_CancelToClose
 req.header: prsht.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PropSheet_CancelToClose macro
+
+## -syntax
+
+```cpp
+VOID PropSheet_CancelToClose(
+   HWND hDlg
+);
+```
+
+## -returns
+
+Type: **[VOID](/windows/desktop/winprog/windows-data-types)**
+
+No return value.
 
 
 ## -description

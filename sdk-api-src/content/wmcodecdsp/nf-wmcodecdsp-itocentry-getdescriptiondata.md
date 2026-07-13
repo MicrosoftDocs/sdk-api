@@ -101,7 +101,7 @@ The method returns this error code if <i>pbtDescriptionData</i> is not <b>NULL</
 
 ## -remarks
 
-You can associate only one description data block with a given entry at a given time. However, you might want to design different types of description data blocks and identfy each type of block with a globally unique identifier (GUID). That way, when you call <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptiondata">SetDescriptionData</a>, you can mark the data block as being of a specific type. When you call <b>GetDescriptionData</b>, you can determine the type of the data block retrieved by inspecting the value returned in <i>pGuidType</i>.
+You can associate only one description data block with a given entry at a given time. However, you might want to design different types of description data blocks and identify each type of block with a globally unique identifier (GUID). That way, when you call <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptiondata">SetDescriptionData</a>, you can mark the data block as being of a specific type. When you call <b>GetDescriptionData</b>, you can determine the type of the data block retrieved by inspecting the value returned in <i>pGuidType</i>.
 
 ## -see-also
 

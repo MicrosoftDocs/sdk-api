@@ -353,7 +353,7 @@ The valid values are 0 to 9. Use 0 for the least favorable scheduling class rela
 ## -remarks
 
 Processes can still empty their working sets using the 
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function with (<b>SIZE_T</b>)-1, even when <b>JOB_OBJECT_LIMIT_WORKINGSET</b> is used. However, you cannot use <b>SetProcessWorkingSetSize</b> change the minimum or maximum working set size of a process in a job object.
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function with (<b>SIZE_T</b>)-1, even when <b>JOB_OBJECT_LIMIT_WORKINGSET</b> is used. However, you cannot use <b>SetProcessWorkingSetSize</b> change the minimum or maximum working set size of a process in a job object.
 
 The system increments the active process count when you attempt to associate a process with a job. If the limit is exceeded, the system decrements the active process count only when the process terminates and all handles to the process are closed. Therefore, if you have an open handle to a process that has been terminated in such a manner, you cannot associate any new processes until the handle is closed and the active process count is below the limit.
 
@@ -383,4 +383,4 @@ The system increments the active process count when you attempt to associate a p
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a>

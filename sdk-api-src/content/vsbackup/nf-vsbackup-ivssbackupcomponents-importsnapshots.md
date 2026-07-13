@@ -165,7 +165,7 @@ For more information on importing shadow copies, see
      Transportable Shadow Copied Volumes</a>. The transportable shadow copy must be 
      imported from outside the cluster as long as the original volume is mounted within the cluster.
 
-<div class="alert"><b>Note</b>   If the shadow copy import fails, the Volume Shadow Copy Service won't clean up LUNs on it's own. The requester has to initiate the cleanup of LUNs.</div>
+<div class="alert"><b>Note</b>   If the shadow copy import fails, the Volume Shadow Copy Service won't clean up LUNs on its own. The requester has to initiate the cleanup of LUNs.</div>
 <div> </div>
 
 ## -see-also

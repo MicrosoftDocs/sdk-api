@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_invok
 old-location: wmp\iwmpsettings_get_invokeurls.htm
 tech.root: WMP
 ms.assetid: a29ea1ba-8994-4d0f-8c53-8abba8fe997d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSettings interface [Windows Media Player],get_invokeURLs method, IWMPSettings.get_invokeURLs, IWMPSettings::get_invokeURLs, IWMPSettingsget_invokeURLs, get_invokeURLs, get_invokeURLs method [Windows Media Player], get_invokeURLs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_invokeurls, wmp/IWMPSettings::get_invokeURLs
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_invokeURLs</b> method retrieves a value indicating whether URL events should launch a Web browser.
 

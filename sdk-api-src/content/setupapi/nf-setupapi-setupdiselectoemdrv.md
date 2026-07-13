@@ -72,7 +72,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 ## -remarks
 
-<b>SetupDiSelectOEMDrv </b>is primarily designed to select an OEM driver for a device on a local computer before installing the device on that computer. Although <b>SetupDiSelectOEMDrv</b> will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations on a remote computer. In particular, the device information set cannot be used as input with a DIF_INSTALLDEVICE installation request to install a device on a remote computer.
+<b>SetupDiSelectOEMDrv </b> is primarily designed to select an OEM driver for a device on a local computer before installing the device on that computer. Although <b>SetupDiSelectOEMDrv</b> will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations on a remote computer. In particular, the device information set cannot be used as input with a DIF_INSTALLDEVICE installation request to install a device on a remote computer.
 
 <b>SetupDiSelectOEMDrv</b> prompts the user for the OEM path and then calls the class installer to select a driver from the OEM path.
 

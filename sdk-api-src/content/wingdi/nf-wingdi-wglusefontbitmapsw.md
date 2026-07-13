@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.wglUseFontBitmapsW
 title: wglUseFontBitmapsW function (wingdi.h)
-description: The wglUseFontBitmaps function creates a set of bitmap display lists for use in the current OpenGL rendering context.
-helpviewer_keywords: ["_ogl_wglUseFontBitmaps","opengl.wglusefontbitmaps","wglUseFontBitmaps","wglUseFontBitmaps function [OpenGL]","wglUseFontBitmapsA","wglUseFontBitmapsW","wingdi/wglUseFontBitmaps","wingdi/wglUseFontBitmapsA","wingdi/wglUseFontBitmapsW"]
+description: The wglUseFontBitmaps function creates a set of bitmap display lists for use in the current OpenGL rendering context. (Unicode)
+helpviewer_keywords: ["_ogl_wglUseFontBitmaps", "opengl.wglusefontbitmaps", "wglUseFontBitmaps", "wglUseFontBitmaps function [OpenGL]", "wglUseFontBitmapsW", "wingdi/wglUseFontBitmaps", "wingdi/wglUseFontBitmapsW"]
 old-location: opengl\wglusefontbitmaps.htm
 tech.root: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
@@ -165,7 +165,7 @@ glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");
 
 
 > [!NOTE]
-> The wingdi.h header defines wglUseFontBitmaps as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wingdi.h header defines wglUseFontBitmaps as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

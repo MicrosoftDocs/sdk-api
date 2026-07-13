@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_Schedule
 title: ISearchRoot::put_Schedule (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchRoot.put_Schedule)
 helpviewer_keywords: ["ISearchRoot interface [search]","put_Schedule method","ISearchRoot.put_Schedule","ISearchRoot::put_Schedule","_search_ISearchRoot_put_Schedule","put_Schedule","put_Schedule method [search]","put_Schedule method [search]","ISearchRoot interface","search._search_ISearchRoot_put_Schedule","searchapi/ISearchRoot::put_Schedule"]
 old-location: search\_search_ISearchRoot_put_Schedule.htm
 tech.root: search
@@ -64,5 +64,5 @@ Pointer to a null-terminated, Unicode buffer that contains the name of the task 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

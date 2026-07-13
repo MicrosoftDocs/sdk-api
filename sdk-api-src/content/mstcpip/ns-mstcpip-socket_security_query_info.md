@@ -103,7 +103,7 @@ A handle to the access token for the peer computer's account during the course o
 
 ## -remarks
 
-The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is supported on Windows Vistaand later.
+The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is supported on Windows Vista and later.
 
 The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is used by the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a> function to return information about the security applied to a connection on a socket.
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsPropertyValue::Clear</b> method clears the current values of the property value object.
 
-## -parameters
+
 
 ## -returns
 

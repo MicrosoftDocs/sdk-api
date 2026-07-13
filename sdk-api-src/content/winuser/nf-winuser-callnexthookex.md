@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-ntuser-window-l1-1-6.dll
+ - ext-ms-win-ntuser-window-l1-1-5.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Window-l1-1-0.dll
  - Ext-MS-Win-NTUser-Window-l1-1-1.dll
@@ -116,4 +119,4 @@ Calling <b>CallNextHookEx</b> is optional, but it is highly recommended; otherwi
 
 
 
-<a href="/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex">UnhookWindowsHookEx</a>
+[UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md)

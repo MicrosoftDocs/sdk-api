@@ -1,12 +1,12 @@
 ---
 UID: NS:tlhelp32.tagPROCESSENTRY32W
 title: PROCESSENTRY32W (tlhelp32.h)
-description: Describes an entry from a list of the processes residing in the system address space when a snapshot was taken.
+description: The PROCESSENTRY32W (Unicode) structure (tlhelp32.h) describes an entry from a list of the processes residing in the system address space when a snapshot was taken.
 helpviewer_keywords: ["*LPPROCESSENTRY32W","*PPROCESSENTRY32W","PPROCESSENTRY32","PPROCESSENTRY32 structure pointer [ToolHelp]","PROCESSENTRY32","PROCESSENTRY32 structure [ToolHelp]","PROCESSENTRY32W","_win32_processentry32_str","base.processentry32_str","tlhelp32/PPROCESSENTRY32","tlhelp32/PROCESSENTRY32","tlhelp32/PROCESSENTRY32W","toolhelp.processentry32_str"]
 old-location: toolhelp\processentry32_str.htm
 tech.root: ToolHelp
 ms.assetid: 9e2f7345-52bf-4bfc-9761-90b0b374c727
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*LPPROCESSENTRY32W, *PPROCESSENTRY32W, PPROCESSENTRY32, PPROCESSENTRY32 structure pointer [ToolHelp], PROCESSENTRY32, PROCESSENTRY32 structure [ToolHelp], PROCESSENTRY32W, _win32_processentry32_str, base.processentry32_str, tlhelp32/PPROCESSENTRY32, tlhelp32/PROCESSENTRY32, tlhelp32/PROCESSENTRY32W, toolhelp.processentry32_str'
 req.header: tlhelp32.h
 req.include-header: 
@@ -111,4 +111,4 @@ The name of the executable file for the process. To retrieve the full path to th
 ## -remarks
 
 > [!NOTE]
-> The tlhelp32.h header defines PROCESSENTRY32 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tlhelp32.h header defines PROCESSENTRY32 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

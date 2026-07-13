@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumSubStream.Clone
 title: IEnumSubStream::Clone (tapi3if.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. (IEnumSubStream.Clone)
 helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumSubStream interface","IEnumSubStream interface [TAPI 2.2]","Clone method","IEnumSubStream.Clone","IEnumSubStream::Clone","_tapi3_ienumsubstream_clone","tapi3.ienumsubstream_clone","tapi3if/IEnumSubStream::Clone"]
 old-location: tapi3\ienumsubstream_clone.htm
 tech.root: tapi3

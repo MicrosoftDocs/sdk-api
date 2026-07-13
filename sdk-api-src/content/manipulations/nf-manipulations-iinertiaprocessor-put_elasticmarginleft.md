@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_ElasticMarginLeft
 title: IInertiaProcessor::put_ElasticMarginLeft (manipulations.h)
-description: The ElasticMarginLeft property specifies the leftmost region for bouncing the target object.
+description: The ElasticMarginLeft property specifies the leftmost region for bouncing the target object. (Put)
 helpviewer_keywords: ["ElasticMarginLeft property [Windows Touch]","ElasticMarginLeft property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","ElasticMarginLeft property","IInertiaProcessor.ElasticMarginLeft","IInertiaProcessor.put_ElasticMarginLeft","IInertiaProcessor::ElasticMarginLeft","IInertiaProcessor::get_ElasticMarginLeft","IInertiaProcessor::put_ElasticMarginLeft","manipulations/IInertiaProcessor::ElasticMarginLeft","manipulations/IInertiaProcessor::get_ElasticMarginLeft","manipulations/IInertiaProcessor::put_ElasticMarginLeft","put_ElasticMarginLeft","wintouch.iinertiaprocessor_elasticmarginleft"]
 old-location: wintouch\iinertiaprocessor_elasticmarginleft.htm
 tech.root: wintouch

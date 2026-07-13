@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_SetInsertMark","ListView_SetInsertMark macro [Wi
 old-location: controls\ListView_SetInsertMark.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinsertmark.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_SetInsertMark, ListView_SetInsertMark macro [Windows Controls], _win32_ListView_SetInsertMark, _win32_ListView_SetInsertMark_cpp, commctrl/ListView_SetInsertMark, controls.ListView_SetInsertMark, controls._win32_ListView_SetInsertMark
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ListView_SetInsertMark macro
+
+## -syntax
+
+```cpp
+BOOL ListView_SetInsertMark(
+   HWND          hwnd,
+   PLVINSERTMARK lvim
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. Returns <b>FALSE</b> if the size of the <b>LVINSERTMARK</b> structure's <b>cbSize</b> member does not equal the actual size of the structure, or when an insertion point does not apply in the current view. 
 
 
 ## -description

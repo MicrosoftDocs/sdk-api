@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.InitiateSystemShutdownW
 title: InitiateSystemShutdownW function (winreg.h)
-description: Initiates a shutdown and optional restart of the specified computer.
-helpviewer_keywords: ["InitiateSystemShutdown","InitiateSystemShutdown function","InitiateSystemShutdownA","InitiateSystemShutdownW","_win32_initiatesystemshutdown","base.initiatesystemshutdown","winreg/InitiateSystemShutdown","winreg/InitiateSystemShutdownA","winreg/InitiateSystemShutdownW"]
+description: Initiates a shutdown and optional restart of the specified computer. (Unicode)
+helpviewer_keywords: ["InitiateSystemShutdown", "InitiateSystemShutdown function", "InitiateSystemShutdownW", "_win32_initiatesystemshutdown", "base.initiatesystemshutdown", "winreg/InitiateSystemShutdown", "winreg/InitiateSystemShutdownW"]
 old-location: base\initiatesystemshutdown.htm
 tech.root: base
 ms.assetid: cad54fea-7f59-438c-83ac-f0160d81496b
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-shutdown-l1-1-1.dll
+ - api-ms-win-core-shutdown-l1-1-0.dll
  - Advapi32.dll
  - AdvApi32Legacy.dll
  - API-MS-Win-Core-Shutdown-Ansi-L1-1-0.dll
@@ -132,7 +134,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winreg.h header defines InitiateSystemShutdown as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines InitiateSystemShutdown as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

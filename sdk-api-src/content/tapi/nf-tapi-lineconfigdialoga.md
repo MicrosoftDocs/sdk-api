@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineConfigDialogA
 title: lineConfigDialogA function (tapi.h)
-description: The lineConfigDialog function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
-helpviewer_keywords: ["_tapi2_lineconfigdialog","lineConfigDialog","lineConfigDialog function [TAPI 2.2]","lineConfigDialogA","lineConfigDialogW","tapi/lineConfigDialog","tapi/lineConfigDialogA","tapi/lineConfigDialogW","tapi2.lineconfigdialog"]
+description: The lineConfigDialog function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device. (lineConfigDialogA)
+helpviewer_keywords: ["lineConfigDialogA", "tapi/lineConfigDialogA"]
 old-location: tapi2\lineconfigdialog.htm
 tech.root: tapi3
 ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a
@@ -88,7 +88,7 @@ The <i>lpszDeviceClass</i> parameter would be "tapi/line" , "", or <b>NULL</b> t
 
 
 > [!NOTE]
-> The tapi.h header defines lineConfigDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineConfigDialog as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

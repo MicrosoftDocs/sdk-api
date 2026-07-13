@@ -50,11 +50,13 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Specifies the status of a DRM handshake between a tuner and the user's computer.
 
 ## -enum-fields
 
-### -field BDA_DrmPairing_Succeeded
+### -field BDA_DrmPairing_Succeeded:0
 
 The handshake was successful.
 

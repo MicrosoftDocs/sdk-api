@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.get_InitEventsLevel
 title: IFaxEventLogging::get_InitEventsLevel (faxcomex.h)
-description: The IFaxEventLogging::get_InitEventsLevel property indicates the level of detail at which the fax service logs initialization (starting the server) and termination (shutting down the server) events in the application log.
+description: The IFaxEventLogging::get_InitEventsLevel property indicates the level of detail at which the fax service logs initialization (starting the server) and termination (shutting down the server) events in the application log. (Get)
 helpviewer_keywords: ["IFaxEventLogging interface [Fax Service]","InitEventsLevel property","IFaxEventLogging.InitEventsLevel","IFaxEventLogging.get_InitEventsLevel","IFaxEventLogging.put_InitEventsLevel","IFaxEventLogging::InitEventsLevel","IFaxEventLogging::get_InitEventsLevel","IFaxEventLogging::put_InitEventsLevel","InitEventsLevel property [Fax Service]","InitEventsLevel property [Fax Service]","IFaxEventLogging interface","_mfax_faxeventlogging.initeventslevel","fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_initeventslevel_cpp","fax._mfax_faxeventlogging_initeventslevel","faxcomex/IFaxEventLogging::InitEventsLevel","faxcomex/IFaxEventLogging::get_InitEventsLevel","faxcomex/IFaxEventLogging::put_InitEventsLevel","get_InitEventsLevel"]
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_initeventslevel_cpp.htm
 tech.root: Fax

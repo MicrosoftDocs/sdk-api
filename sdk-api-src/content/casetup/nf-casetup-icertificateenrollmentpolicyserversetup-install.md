@@ -52,7 +52,7 @@ api_name:
 
 The <b>Install</b> method installs the Certificate Enrollment Policy (CEP) Web Service configured by the <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a> object.
 
-## -parameters
+
 
 ## -returns
 

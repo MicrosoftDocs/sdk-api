@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_DEPTH_TO_SPACE_OPERATOR_DESC
 title: DML_DEPTH_TO_SPACE_OPERATOR_DESC
-description: Rearranges (permutes) data from depth into blocks of spatial data. The operator outputs a copy of the input tensor where values from the depth dimension are moved in spatial blocks to the height and width dimensions.
+description: Rearranges (permutes) data from depth into blocks of spatial data. The operator outputs a copy of the input tensor where values from the depth dimension are moved in spatial blocks to the height and width dimensions. (DML_DEPTH_TO_SPACE_OPERATOR_DESC)
 helpviewer_keywords: ["DML_DEPTH_TO_SPACE_OPERATOR_DESC","DML_DEPTH_TO_SPACE_OPERATOR_DESC structure","direct3d12.dml_depth_to_space_operator_desc","directml/DML_DEPTH_TO_SPACE_OPERATOR_DESC"]
 old-location: direct3d12\dml_depth_to_space_operator_desc.htm
 tech.root: directml
 ms.assetid: 3C4B5A64-B487-4967-840F-3CD2FBDEFD52
-ms.date: 10/29/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -117,6 +117,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 *InputTensor* and *OutputTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { BatchCount, InputChannelCount, InputHeight, InputWidth } | 4 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | { BatchCount, OutputChannelCount, OutputHeight, OutputWidth } | 4 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |

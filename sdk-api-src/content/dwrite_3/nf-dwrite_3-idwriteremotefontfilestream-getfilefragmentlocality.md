@@ -6,13 +6,13 @@ helpviewer_keywords: ["GetFileFragmentLocality","GetFileFragmentLocality method 
 old-location: directwrite\idwriteremotefontfilestream_getfilefragmentlocality.htm
 tech.root: DirectWrite
 ms.assetid: 24F68EFD-D4D6-442B-97C1-C639F570F56B
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetFileFragmentLocality, GetFileFragmentLocality method [Direct Write], GetFileFragmentLocality method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetFileFragmentLocality method, IDWriteRemoteFontFileStream.GetFileFragmentLocality, IDWriteRemoteFontFileStream::GetFileFragmentLocality, directwrite.idwriteremotefontfilestream_getfilefragmentlocality, dwrite_3/IDWriteRemoteFontFileStream::GetFileFragmentLocality
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

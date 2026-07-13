@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagTBSAVEPARAMSA
 title: TBSAVEPARAMSA (commctrl.h)
-description: Specifies the location in the registry where the TB_SAVERESTORE message stores and retrieves information about the state of a toolbar.
+description: Specifies the location in the registry where the TB_SAVERESTORE message stores and retrieves information about the state of a toolbar. (ANSI)
 helpviewer_keywords: ["*LPTBSAVEPARAMSA","TBSAVEPARAMS","TBSAVEPARAMS structure [Windows Controls]","TBSAVEPARAMSA","TBSAVEPARAMSW","_win32_TBSAVEPARAMS","_win32_TBSAVEPARAMS_cpp","commctrl/TBSAVEPARAMS","commctrl/TBSAVEPARAMSA","commctrl/TBSAVEPARAMSW","controls.TBSAVEPARAMS","controls._win32_TBSAVEPARAMS"]
 old-location: controls\TBSAVEPARAMS.htm
 tech.root: Controls
@@ -81,4 +81,4 @@ Value name.
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines TBSAVEPARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines TBSAVEPARAMS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

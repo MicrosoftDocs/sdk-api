@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10VertexShader
 title: ID3D10VertexShader (d3d10.h)
-description: A vertex-shader interface manages an executable program (a vertex shader) that controls the vertex-shader stage.
+description: A vertex-shader interface manages an executable program (a vertex shader) that controls the vertex-shader stage. (ID3D10VertexShader)
 helpviewer_keywords: ["1037a0d0-ff92-5834-5b3b-282125a9ccca","ID3D10VertexShader","ID3D10VertexShader interface [Direct3D 10]","ID3D10VertexShader interface [Direct3D 10]","described","d3d10/ID3D10VertexShader","direct3d10.id3d10vertexshader"]
 old-location: direct3d10\id3d10vertexshader.htm
 tech.root: direct3d10

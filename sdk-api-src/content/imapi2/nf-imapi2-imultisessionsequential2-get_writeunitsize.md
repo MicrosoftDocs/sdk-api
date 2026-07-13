@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IMultisessionSequential2.get_WriteUnitSize
 title: IMultisessionSequential2::get_WriteUnitSize (imapi2.h)
-description: Retrieves the size of a writeable unit on the media.
+description: Retrieves the size of a writable unit on the media. (IMultisessionSequential2.get_WriteUnitSize)
 helpviewer_keywords: ["IMultisessionSequential2 interface [IMAPI]","get_WriteUnitSize method","IMultisessionSequential2.get_WriteUnitSize","IMultisessionSequential2::get_WriteUnitSize","get_WriteUnitSize","get_WriteUnitSize method [IMAPI]","get_WriteUnitSize method [IMAPI]","IMultisessionSequential2 interface","imapi.imultisessionsequential2_get_writeunitsize","imapi2/IMultisessionSequential2::get_WriteUnitSize"]
 old-location: imapi\imultisessionsequential2_get_writeunitsize.htm
 tech.root: imapi
@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the size of a writeable unit on the media.
+Retrieves the size of a writable unit on the media.
 
 ## -parameters
 
 ### -param value [out]
 
-The size of a writeable unit on the media in sectors.
+The size of a writable unit on the media in sectors.
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.IsBadStringPtrA
 title: IsBadStringPtrA function (winbase.h)
-description: Verifies that the calling process has read access to the specified range of memory.
-helpviewer_keywords: ["IsBadStringPtr","IsBadStringPtr function","IsBadStringPtrA","IsBadStringPtrW","_win32_isbadstringptr","base.isbadstringptr","winbase/IsBadStringPtr","winbase/IsBadStringPtrA","winbase/IsBadStringPtrW"]
+description: Verifies that the calling process has read access to the specified range of memory. (IsBadStringPtrA)
+helpviewer_keywords: ["IsBadStringPtrA", "winbase/IsBadStringPtrA"]
 old-location: base\isbadstringptr.htm
 tech.root: base
 ms.assetid: ec708f97-36c8-4484-96d7-b8dfb8578667
@@ -91,7 +91,7 @@ In a preemptive multitasking environment, it is possible for some other thread t
 
 
 > [!NOTE]
-> The winbase.h header defines IsBadStringPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines IsBadStringPtr as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

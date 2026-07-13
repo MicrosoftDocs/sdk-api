@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-Localregistry-l1-1-0.dll
  - KernelBase.dll
@@ -59,7 +60,7 @@ api_name:
 
 Disables handle caching for all predefined registry handles for the current process.
 
-## -parameters
+
 
 ## -returns
 

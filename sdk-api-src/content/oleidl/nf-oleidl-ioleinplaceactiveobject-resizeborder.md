@@ -116,7 +116,7 @@ An unexpected error occurred.
 <b>IOleInPlaceActiveObject::ResizeBorder</b> is called by the top-level container's document or frame window object when the border space allocated to the object should change. Because the active in-place object is not informed about which window has changed (the frame- or document-level window), <b>IOleInPlaceActiveObject::ResizeBorder</b> must be passed the pointer to the window's <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a> interface.
 
 
-<h3><a id="Notes_to_Implemeters"></a><a id="notes_to_implemeters"></a><a id="NOTES_TO_IMPLEMETERS"></a>Notes to Implemeters</h3>
+<h3><a id="Notes_to_Implemeters"></a><a id="notes_to_implemeters"></a><a id="NOTES_TO_IMPLEMETERS"></a>Notes to Implementers</h3>
 In most cases, resizing only requires that you grow, shrink, or scale your object's frame adornments. However, for more complicated adornments, you may be required to renegotiate for border space with calls to <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-setborderspace">IOleInPlaceUIWindow::SetBorderSpace</a> and <b>IOleInPlaceUIWindow::SetBorderSpace</b>.
 
 <div class="alert"><b>Note</b>  While executing <b>IOleInPlaceActiveObject::ResizeBorder</b>, do not make calls to the <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceActiveObject::ResizeBorder</b>.</div>

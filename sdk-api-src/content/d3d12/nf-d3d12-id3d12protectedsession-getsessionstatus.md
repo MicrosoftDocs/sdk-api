@@ -52,7 +52,7 @@ api_name:
 
 Gets the status of the protected session.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientInfoVQ
 title: DhcpGetClientInfoVQ function (dhcpsapi.h)
-description: Retrieves DHCP client lease record information from the DHCP server database.
+description: Retrieves DHCP client lease record information from the DHCP server database. (DhcpGetClientInfoVQ)
 helpviewer_keywords: ["DhcpGetClientInfoVQ","DhcpGetClientInfoVQ function [DHCP]","dhcp.dhcpgetclientinfovq","dhcpsapi/DhcpGetClientInfoVQ"]
 old-location: dhcp\dhcpgetclientinfovq.htm
 tech.root: DHCP

@@ -78,17 +78,17 @@ The format of <b>Packed</b> is:
 
 <ul>
 <li>
-The first 5 bits (bits 0-4) of <b>Packed</b> assigned to the <b>x</b>member of the current instance of <code>XMU565</code>.
+The first 5 bits (bits 0-4) of <b>Packed</b> assigned to the <b>x</b> member of the current instance of <code>XMU565</code>.
 		
 
 </li>
 <li>
-The second 6 bits (bits 5-10) of <b>Packed</b> assigned to the <b>y</b>member of the current instance of <code>XMU565</code>.
+The second 6 bits (bits 5-10) of <b>Packed</b> assigned to the <b>y</b> member of the current instance of <code>XMU565</code>.
 		
 
 </li>
 <li>
-The third 5 bits (bits 11-15) of <b>Packed</b> assigned to the <b>z</b>member of the current instance of <code>XMU565</code>.
+The third 5 bits (bits 11-15) of <b>Packed</b> assigned to the <b>z</b> member of the current instance of <code>XMU565</code>.
 		
 
 </li>

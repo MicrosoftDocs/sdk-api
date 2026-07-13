@@ -6,13 +6,13 @@ helpviewer_keywords: ["BeginDownload","BeginDownload method [Direct Write]","Beg
 old-location: directwrite\idwriteremotefontfilestream_begindownload.htm
 tech.root: DirectWrite
 ms.assetid: A0EE8383-81A8-4974-B213-142704EFA210
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],BeginDownload method, IDWriteRemoteFontFileStream.BeginDownload, IDWriteRemoteFontFileStream::BeginDownload, directwrite.idwriteremotefontfilestream_begindownload, dwrite_3/IDWriteRemoteFontFileStream::BeginDownload
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

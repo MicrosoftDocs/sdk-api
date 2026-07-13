@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_SizeQuotaWarning
 title: IFaxConfiguration::put_SizeQuotaWarning (faxcomex.h)
-description: Sets or retrieves a value that indicates whether the size quota warning is turned on.
+description: Sets or retrieves a value that indicates whether the size quota warning is turned on. (Put)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","SizeQuotaWarning property","IFaxConfiguration.SizeQuotaWarning","IFaxConfiguration.put_SizeQuotaWarning","IFaxConfiguration::SizeQuotaWarning","IFaxConfiguration::get_SizeQuotaWarning","IFaxConfiguration::put_SizeQuotaWarning","SizeQuotaWarning property [Fax Service]","SizeQuotaWarning property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_SizeQuotaWarning","fax._mfax_IFaxConfiguration_SizeQuotaWarning","faxcomex/IFaxConfiguration::SizeQuotaWarning","faxcomex/IFaxConfiguration::get_SizeQuotaWarning","faxcomex/IFaxConfiguration::put_SizeQuotaWarning","put_SizeQuotaWarning"]
 old-location: fax\_mfax_IFaxConfiguration_SizeQuotaWarning.htm
 tech.root: Fax

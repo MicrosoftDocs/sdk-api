@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: WinMM.Lib
 req.dll: Winmm.dll
 req.irql: 
 targetos: Windows

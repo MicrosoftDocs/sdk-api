@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_rate 
 old-location: wmp\iwmpsettings_put_rate.htm
 tech.root: WMP
 ms.assetid: a0c395f0-28d1-4c4d-8274-e26c0f4b1ae2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSettings interface [Windows Media Player],put_rate method, IWMPSettings.put_rate, IWMPSettings::put_rate, IWMPSettingsput_rate, put_rate, put_rate method [Windows Media Player], put_rate method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_rate, wmp/IWMPSettings::put_rate
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_rate</b> method specifies the current playback rate for video.
 

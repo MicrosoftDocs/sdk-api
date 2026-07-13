@@ -6,7 +6,7 @@ helpviewer_keywords: ["TreeView_EndEditLabelNow","TreeView_EndEditLabelNow macro
 old-location: controls\TreeView_EndEditLabelNow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_endeditlabelnow.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: TreeView_EndEditLabelNow, TreeView_EndEditLabelNow macro [Windows Controls], _win32_TreeView_EndEditLabelNow, _win32_TreeView_EndEditLabelNow_cpp, commctrl/TreeView_EndEditLabelNow, controls.TreeView_EndEditLabelNow, controls._win32_TreeView_EndEditLabelNow
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # TreeView_EndEditLabelNow macro
+
+## -syntax
+
+```cpp
+BOOL TreeView_EndEditLabelNow(
+   HWND hwnd,
+   BOOL fCancel
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

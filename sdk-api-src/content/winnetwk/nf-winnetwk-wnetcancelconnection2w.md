@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetCancelConnection2W
 title: WNetCancelConnection2W function (winnetwk.h)
-description: The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.
-helpviewer_keywords: ["0","CONNECT_UPDATE_PROFILE","WNetCancelConnection2","WNetCancelConnection2 function [Windows Networking (WNet)]","WNetCancelConnection2A","WNetCancelConnection2W","_win32_wnetcancelconnection2","winnetwk/WNetCancelConnection2","winnetwk/WNetCancelConnection2A","winnetwk/WNetCancelConnection2W","wnet.wnetcancelconnection2"]
+description: The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected. (Unicode)
+helpviewer_keywords: ["0", "CONNECT_UPDATE_PROFILE", "WNetCancelConnection2", "WNetCancelConnection2 function [Windows Networking (WNet)]", "WNetCancelConnection2W", "_win32_wnetcancelconnection2", "winnetwk/WNetCancelConnection2", "winnetwk/WNetCancelConnection2W", "wnet.wnetcancelconnection2"]
 old-location: wnet\wnetcancelconnection2.htm
 tech.root: WNet
 ms.assetid: 8bb8222f-6ede-4bf4-a6e4-681560cce162
@@ -219,7 +219,7 @@ For a code sample that illustrates how to cancel a connection to a network resou
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetCancelConnection2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetCancelConnection2 as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

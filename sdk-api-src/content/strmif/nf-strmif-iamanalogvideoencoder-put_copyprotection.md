@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMAnalogVideoEncoder interface [DirectShow]","put_CopyPr
 old-location: dshow\iamanalogvideoencoder_put_copyprotection.htm
 tech.root: dshow
 ms.assetid: a2a762f3-8b11-4334-979d-206234d6cf09
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_CopyProtection method, IAMAnalogVideoEncoder.put_CopyProtection, IAMAnalogVideoEncoder::put_CopyProtection, IAMAnalogVideoEncoderput_CopyProtection, dshow.iamanalogvideoencoder_put_copyprotection, put_CopyProtection, put_CopyProtection method [DirectShow], put_CopyProtection method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_CopyProtection
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 <div class="alert"><b>Note</b>  The <b>IAMAnalogVideoEncoder</b> interface is deprecated.</div>
 <div> </div>
 The <code>put_CopyProtection</code> method sets the level of copy protection for the encoder.
@@ -58,7 +60,7 @@ The <code>put_CopyProtection</code> method sets the level of copy protection for
 
 ### -param lVideoCopyProtection [in]
 
-Specifies the level of copy protection as a <b>long</b> integer with a value as defined in the <a href="/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level">AM_COPY_MACROVISION_LEVEL</a> enumeration.
+Specifies the level of copy protection as a <b>long</b> integer with a value as defined in the <a href="/previous-versions/ms778997(v=vs.85)">AM_COPY_MACROVISION_LEVEL</a> enumeration.
 
 ## -returns
 

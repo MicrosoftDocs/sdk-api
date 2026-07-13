@@ -37,11 +37,11 @@ Specifies support for protected resources in video operations.
 
 ## -enum-fields
 
-### -field D3D12_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAG_NONE
+### -field D3D12_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAG_NONE:0
 
 Protected resources are not supported.
 
-### -field D3D12_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAG_SUPPORTED
+### -field D3D12_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAG_SUPPORTED:0x1
 
 Protected resources are supported.
 

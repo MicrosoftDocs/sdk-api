@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.BuildCommDCBAndTimeoutsW
 title: BuildCommDCBAndTimeoutsW function (winbase.h)
-description: Translates a device-definition string into appropriate device-control block codes and places them into a device control block.
-helpviewer_keywords: ["BuildCommDCBAndTimeouts","BuildCommDCBAndTimeouts function","BuildCommDCBAndTimeoutsA","BuildCommDCBAndTimeoutsW","_win32_buildcommdcbandtimeouts","base.buildcommdcbandtimeouts","winbase/BuildCommDCBAndTimeouts","winbase/BuildCommDCBAndTimeoutsA","winbase/BuildCommDCBAndTimeoutsW"]
+description: Translates a device-definition string into appropriate device-control block codes and places them into a device control block. (Unicode)
+helpviewer_keywords: ["BuildCommDCBAndTimeouts", "BuildCommDCBAndTimeouts function", "BuildCommDCBAndTimeoutsW", "_win32_buildcommdcbandtimeouts", "base.buildcommdcbandtimeouts", "winbase/BuildCommDCBAndTimeouts", "winbase/BuildCommDCBAndTimeoutsW"]
 old-location: base\buildcommdcbandtimeouts.htm
 tech.root: base
 ms.assetid: d7fbc6e4-f166-4341-8ce9-37c8baab1b00
@@ -128,7 +128,7 @@ For more information, see the Remarks for the
 
 
 > [!NOTE]
-> The winbase.h header defines BuildCommDCBAndTimeouts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines BuildCommDCBAndTimeouts as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

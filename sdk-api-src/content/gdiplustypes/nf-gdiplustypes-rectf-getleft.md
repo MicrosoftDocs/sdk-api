@@ -53,7 +53,7 @@ api_name:
 
 The <b>RectF::GetLeft</b> method gets the x-coordinate of the left edge of the rectangle.
 
-## -parameters
+
 
 ## -returns
 

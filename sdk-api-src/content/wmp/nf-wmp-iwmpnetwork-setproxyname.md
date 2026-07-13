@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyNa
 old-location: wmp\iwmpnetwork_setproxyname.htm
 tech.root: WMP
 ms.assetid: 6f484f5b-195c-496d-932e-3e1fdbf873d8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyName method, IWMPNetwork.setProxyName, IWMPNetwork::setProxyName, IWMPNetworksetProxyName, setProxyName, setProxyName method [Windows Media Player], setProxyName method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyname, wmp/IWMPNetwork::setProxyName
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>setProxyName</b> method specifies the name of the proxy server to use.
 

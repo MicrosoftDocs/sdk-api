@@ -1,7 +1,7 @@
 ---
 UID: NS:winineti._INTERNET_CACHE_CONFIG_INFOW
 title: INTERNET_CACHE_CONFIG_INFOW (winineti.h)
-description: Contains information about the configuration of the Internet cache.
+description: Contains information about the configuration of the Internet cache. (Unicode)
 helpviewer_keywords: ["*LPINTERNET_CACHE_CONFIG_INFOW","INTERNET_CACHE_CONFIG_INFO","INTERNET_CACHE_CONFIG_INFO structure [WinINet]","INTERNET_CACHE_CONFIG_INFOW","PINTERNET_CACHE_CONFIG_INFO","PINTERNET_CACHE_CONFIG_INFO structure pointer [WinINet]","wininet.internet_cache_config_info","winineti/INTERNET_CACHE_CONFIG_INFO","winineti/PINTERNET_CACHE_CONFIG_INFO"]
 old-location: wininet\internet_cache_config_info.htm
 tech.root: wininet
@@ -115,7 +115,7 @@ The number of kilobytes for this container exempt from scavenging.
 
 
 > [!NOTE]
-> The winineti.h header defines INTERNET_CACHE_CONFIG_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winineti.h header defines INTERNET_CACHE_CONFIG_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

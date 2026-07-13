@@ -6,13 +6,13 @@ helpviewer_keywords: ["CreateInMemoryFontFileLoader","CreateInMemoryFontFileLoad
 old-location: directwrite\idwritefactory5_createinmemoryfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: BA36B91C-C6B8-43B8-BEDA-0089FAE1BAAD
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: CreateInMemoryFontFileLoader, CreateInMemoryFontFileLoader method [Direct Write], CreateInMemoryFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateInMemoryFontFileLoader method, IDWriteFactory5.CreateInMemoryFontFileLoader, IDWriteFactory5::CreateInMemoryFontFileLoader, directwrite.idwritefactory5_createinmemoryfontfileloader, dwrite_3/IDWriteFactory5::CreateInMemoryFontFileLoader
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 15063
+req.target-min-winversvr: Windows 10 Build 15063
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

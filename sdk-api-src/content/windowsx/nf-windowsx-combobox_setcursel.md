@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_SetCurSel","ComboBox_SetCurSel macro [Windows Co
 old-location: controls\ComboBox_SetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcursel.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_SetCurSel, ComboBox_SetCurSel macro [Windows Controls], _win32_ComboBox_SetCurSel, _win32_ComboBox_SetCurSel_cpp, controls.ComboBox_SetCurSel, controls._win32_ComboBox_SetCurSel, windowsx/ComboBox_SetCurSel
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ComboBox_SetCurSel macro
+
+## -syntax
+
+```cpp
+int ComboBox_SetCurSel(
+   HWND hwndCtl,
+   int  index
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is CB_ERR. If the <i>index</i> parameter is &#8211;1, the return value is CB_ERR even though no error occurred.
 
 
 ## -description

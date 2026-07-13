@@ -1,5 +1,5 @@
 ---
-UID: NS:snmp.__unnamed_struct_0
+UID: NS:snmp.AsnOctetString
 title: AsnOctetString (snmp.h)
 description: The AsnOctetString structure contains octet quantities, usually bytes. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 helpviewer_keywords: ["AsnBits","AsnDisplayString","AsnIPAddress","AsnImplicitSequence","AsnNetworkAddress","AsnOctetString","AsnOctetString structure [SNMP]","AsnOpaque","AsnSequence","_snmp_asnoctetstring_str","snmp.asnoctetstring_str","snmp/AsnOctetString"]
@@ -94,3 +94,4 @@ You must check the flag specified in the <b>dynamic</b> member before you releas
 
 
 <a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a>
+

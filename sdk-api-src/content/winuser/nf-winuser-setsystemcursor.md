@@ -68,166 +68,21 @@ Type: <b>DWORD</b>
 
 The system cursor to replace with the contents of <i>hcur</i>. This parameter can be one of the following values. 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_APPSTARTING"></a><a id="ocr_appstarting"></a><dl>
-<dt><b>OCR_APPSTARTING</b></dt>
-<dt>32650</dt>
-</dl>
-</td>
-<td width="60%">
-Standard arrow and small hourglass
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_NORMAL"></a><a id="ocr_normal"></a><dl>
-<dt><b>OCR_NORMAL</b></dt>
-<dt>32512</dt>
-</dl>
-</td>
-<td width="60%">
-Standard arrow
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_CROSS"></a><a id="ocr_cross"></a><dl>
-<dt><b>OCR_CROSS</b></dt>
-<dt>32515</dt>
-</dl>
-</td>
-<td width="60%">
-Crosshair
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_HAND"></a><a id="ocr_hand"></a><dl>
-<dt><b>OCR_HAND</b></dt>
-<dt>32649</dt>
-</dl>
-</td>
-<td width="60%">
-Hand
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_HELP"></a><a id="ocr_help"></a><dl>
-<dt><b>OCR_HELP</b></dt>
-<dt>32651</dt>
-</dl>
-</td>
-<td width="60%">
-Arrow and question mark
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_IBEAM"></a><a id="ocr_ibeam"></a><dl>
-<dt><b>OCR_IBEAM</b></dt>
-<dt>32513</dt>
-</dl>
-</td>
-<td width="60%">
-I-beam
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_NO"></a><a id="ocr_no"></a><dl>
-<dt><b>OCR_NO</b></dt>
-<dt>32648</dt>
-</dl>
-</td>
-<td width="60%">
-Slashed circle
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_SIZEALL"></a><a id="ocr_sizeall"></a><dl>
-<dt><b>OCR_SIZEALL</b></dt>
-<dt>32646</dt>
-</dl>
-</td>
-<td width="60%">
-Four-pointed arrow pointing north, south, east, and west
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_SIZENESW"></a><a id="ocr_sizenesw"></a><dl>
-<dt><b>OCR_SIZENESW</b></dt>
-<dt>32643</dt>
-</dl>
-</td>
-<td width="60%">
-Double-pointed arrow pointing northeast and southwest
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_SIZENS"></a><a id="ocr_sizens"></a><dl>
-<dt><b>OCR_SIZENS</b></dt>
-<dt>32645</dt>
-</dl>
-</td>
-<td width="60%">
-Double-pointed arrow pointing north and south
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_SIZENWSE"></a><a id="ocr_sizenwse"></a><dl>
-<dt><b>OCR_SIZENWSE</b></dt>
-<dt>32642</dt>
-</dl>
-</td>
-<td width="60%">
-Double-pointed arrow pointing northwest and southeast
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_SIZEWE"></a><a id="ocr_sizewe"></a><dl>
-<dt><b>OCR_SIZEWE</b></dt>
-<dt>32644</dt>
-</dl>
-</td>
-<td width="60%">
-Double-pointed arrow pointing west and east
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_UP"></a><a id="ocr_up"></a><dl>
-<dt><b>OCR_UP</b></dt>
-<dt>32516</dt>
-</dl>
-</td>
-<td width="60%">
-Vertical arrow
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="OCR_WAIT"></a><a id="ocr_wait"></a><dl>
-<dt><b>OCR_WAIT</b></dt>
-<dt>32514</dt>
-</dl>
-</td>
-<td width="60%">
-Hourglass
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|---|---|
+| **OCR\_NORMAL**<br/>`32512` | Normal select | 
+| **OCR\_IBEAM**<br/>`32513` | Text select | 
+| **OCR\_WAIT**<br/>`32514` | Busy | 
+| **OCR\_CROSS**<br/>`32515` | Precision select | 
+| **OCR\_UP**<br/>`32516` | Alternate select | 
+| **OCR\_SIZENWSE**<br/>`32642` | Diagonal resize 1 | 
+| **OCR\_SIZENESW**<br/>`32643` | Diagonal resize 2 | 
+| **OCR\_SIZEWE**<br/>`32644` | Horizontal resize | 
+| **OCR\_SIZENS**<br/>`32645` | Vertical resize | 
+| **OCR\_SIZEALL**<br/>`32646` | Move |  
+| **OCR\_NO**<br/>`32648` | Unavailable | 
+| **OCR\_HAND**<br/>`32649` | Link select | 
+| **OCR\_APPSTARTING**<br/>`32650` | Working in background |
 
 ## -returns
 

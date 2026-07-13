@@ -110,7 +110,7 @@ The DocumentStructure part contains the document framework and the outline that 
 
 The  StoryFragments parts contain content structure markup that defines the story's semantic blocks, such as the  paragraphs and tables that make up the story's content.
 
-The content of the DocumentStructure and StoryFragments parts is described in the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.
+The content of the DocumentStructure and StoryFragments parts is described in the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>.
 
 ## -see-also
 
@@ -130,7 +130,7 @@ The content of the DocumentStructure and StoryFragments parts is described in th
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

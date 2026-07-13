@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.get_MailReplyTo
 title: IFsrmActionEmail::get_MailReplyTo (fsrm.h)
-description: Retrieves or sets the email address to use as the reply-to address when the recipient of the email message replies.
+description: Retrieves or sets the email address to use as the reply-to address when the recipient of the email message replies. (Get)
 helpviewer_keywords: ["IFsrmActionEmail interface [File Server Resource Manager]","MailReplyTo property","IFsrmActionEmail.MailReplyTo","IFsrmActionEmail.get_MailReplyTo","IFsrmActionEmail2 interface [File Server Resource Manager]","MailReplyTo property","IFsrmActionEmail2.MailReplyTo","IFsrmActionEmail2::MailReplyTo","IFsrmActionEmail2::get_MailReplyTo","IFsrmActionEmail2::put_MailReplyTo","IFsrmActionEmail::get_MailReplyTo","IFsrmActionEmail::put_MailReplyTo","MailReplyTo property [File Server Resource Manager]","MailReplyTo property [File Server Resource Manager]","IFsrmActionEmail interface","MailReplyTo property [File Server Resource Manager]","IFsrmActionEmail2 interface","fs.ifsrmactionemail_mailreplyto","fsrm.ifsrmactionemail_mailreplyto","fsrm/IFsrmActionEmail2::MailReplyTo","fsrm/IFsrmActionEmail2::get_MailReplyTo","fsrm/IFsrmActionEmail2::put_MailReplyTo","fsrm/IFsrmActionEmail::MailReplyTo","fsrm/IFsrmActionEmail::get_MailReplyTo","fsrm/IFsrmActionEmail::put_MailReplyTo","get_MailReplyTo"]
 old-location: fsrm\ifsrmactionemail_mailreplyto.htm
 tech.root: fsrm

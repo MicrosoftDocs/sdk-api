@@ -1,15 +1,15 @@
 ---
 UID: NF:processenv.SetEnvironmentVariableA
 title: SetEnvironmentVariableA function (processenv.h)
-description: Sets the contents of the specified environment variable for the current process.
-helpviewer_keywords: ["SetEnvironmentVariable","SetEnvironmentVariable function","SetEnvironmentVariableA","SetEnvironmentVariableW","_win32_setenvironmentvariable","base.setenvironmentvariable","processenv/SetEnvironmentVariable","processenv/SetEnvironmentVariableA","processenv/SetEnvironmentVariableW","winbase/SetEnvironmentVariable","winbase/SetEnvironmentVariableA","winbase/SetEnvironmentVariableW"]
+description: Sets the contents of the specified environment variable for the current process. (SetEnvironmentVariableA)
+helpviewer_keywords: ["SetEnvironmentVariableA", "processenv/SetEnvironmentVariableA"]
 old-location: base\setenvironmentvariable.htm
 tech.root: backup
 ms.assetid: 95bd6fa5-886d-41dc-a5c3-ede86dbfa15d
 ms.date: 12/05/2018
 ms.keywords: SetEnvironmentVariable, SetEnvironmentVariable function, SetEnvironmentVariableA, SetEnvironmentVariableW, _win32_setenvironmentvariable, base.setenvironmentvariable, processenv/SetEnvironmentVariable, processenv/SetEnvironmentVariableA, processenv/SetEnvironmentVariableW, winbase/SetEnvironmentVariable, winbase/SetEnvironmentVariableA, winbase/SetEnvironmentVariableW
 req.header: processenv.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -97,7 +97,7 @@ For an example, see
 
 
 > [!NOTE]
-> The processenv.h header defines SetEnvironmentVariable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The processenv.h header defines SetEnvironmentVariable as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

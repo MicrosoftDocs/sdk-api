@@ -6,7 +6,7 @@ helpviewer_keywords: ["ComboBox_SetItemData","ComboBox_SetItemData macro [Window
 old-location: controls\ComboBox_SetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemdata.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ComboBox_SetItemData, ComboBox_SetItemData macro [Windows Controls], _win32_ComboBox_SetItemData, _win32_ComboBox_SetItemData_cpp, controls.ComboBox_SetItemData, controls._win32_ComboBox_SetItemData, windowsx/ComboBox_SetItemData
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ComboBox_SetItemData macro
+
+## -syntax
+
+```cpp
+int ComboBox_SetItemData(
+   HWND   hwndCtl,
+   int    index,
+   LPARAM data
+);
+```
+
+## -returns
+
+Type: **int**
+
+If an error occurs, the return value is CB_ERR.
 
 
 ## -description

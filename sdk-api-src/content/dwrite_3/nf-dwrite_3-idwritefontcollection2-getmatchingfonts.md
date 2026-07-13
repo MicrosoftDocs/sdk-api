@@ -4,14 +4,14 @@ title: IDWriteFontCollection2::GetMatchingFonts
 description: Retrieves a list of fonts in the specified font family, ranked in order of how well they match the specified axis values.
 helpviewer_keywords: ["IDWriteFontCollection2 interface [Direct Write]","GetMatchingFonts method","IDWriteFontCollection2.GetMatchingFonts","IDWriteFontCollection2::GetMatchingFonts","GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontCollection2 interface","directwrite.idwritefontcollection2_getmatchingfont","dwrite_3/IDWriteFontCollection2::GetMatchingFonts"]
 tech.root: DirectWrite
-ms.date: 09/12/2019
+ms.date: 09/10/2025
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetMatchingFonts method, IDWriteFontCollection2.GetMatchingFonts, IDWriteFontCollection2::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getmatchingfont, dwrite_3/IDWriteFontCollection2::GetMatchingFonts
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 16299
+req.target-min-winversvr: Windows 10 Build 16299
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

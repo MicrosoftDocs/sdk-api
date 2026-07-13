@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.put_CAStoreTypeWStr
 title: IEnroll::put_CAStoreTypeWStr (xenroll.h)
-description: Sets or retrieves the type of store to use for the store specified by the CAStoreNameWStr property.
+description: Sets or retrieves the type of store to use for the store specified by the CAStoreNameWStr property. (Put)
 helpviewer_keywords: ["CAStoreTypeWStr property [Security]","CAStoreTypeWStr property [Security]","IEnroll interface","IEnroll interface [Security]","CAStoreTypeWStr property","IEnroll.CAStoreTypeWStr","IEnroll.put_CAStoreTypeWStr","IEnroll::CAStoreTypeWStr","IEnroll::get_CAStoreTypeWStr","IEnroll::put_CAStoreTypeWStr","put_CAStoreTypeWStr","security.ienroll4_castoretypewstr","sz_CERT_STORE_PROV_SYSTEM_W","xenroll/IEnroll::CAStoreTypeWStr","xenroll/IEnroll::get_CAStoreTypeWStr","xenroll/IEnroll::put_CAStoreTypeWStr"]
 old-location: security\ienroll4_castoretypewstr.htm
 tech.root: security

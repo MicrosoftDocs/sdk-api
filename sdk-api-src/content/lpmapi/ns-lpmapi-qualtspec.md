@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_21
+UID: NS:lpmapi.QualTspec
 title: QualTspec (lpmapi.h)
 description: The QualTspec structure contains qualitative Tspec information.
 helpviewer_keywords: ["QualTspec","QualTspec structure [QOS]","lpmapi/QualTspec","qos.qualtspec"]
@@ -78,3 +78,4 @@ Tspec parameters, expressed as a <a href="/previous-versions/windows/desktop/api
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspecparms">QualTspecParms</a>
+

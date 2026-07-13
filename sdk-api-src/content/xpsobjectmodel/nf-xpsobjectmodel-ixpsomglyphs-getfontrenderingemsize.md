@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontRenderingEmSize
 title: IXpsOMGlyphs::GetFontRenderingEmSize (xpsobjectmodel.h)
-description: Gets the font size.
+description: Gets the font size. (IXpsOMGlyphs.GetFontRenderingEmSize)
 helpviewer_keywords: ["GetFontRenderingEmSize","GetFontRenderingEmSize method [XPS Documents and Packaging]","GetFontRenderingEmSize method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFontRenderingEmSize method","IXpsOMGlyphs.GetFontRenderingEmSize","IXpsOMGlyphs::GetFontRenderingEmSize","xps.ixpsomglyphs_getfontrenderingemsize","xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize"]
 old-location: xps\ixpsomglyphs_getfontrenderingemsize.htm
 tech.root: xps
@@ -105,7 +105,7 @@ If the value of <i>fontRenderingEmSize</i> is 0.0, no text is displayed.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

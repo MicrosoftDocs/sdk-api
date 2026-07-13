@@ -52,21 +52,21 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of object status values for a pack.
 
 ## -enum-fields
 
-### -field VDS_PS_UNKNOWN
+### -field VDS_PS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_PS_ONLINE
+### -field VDS_PS_ONLINE:1
 
 The pack is available.
 
-### -field VDS_PS_OFFLINE
+### -field VDS_PS_OFFLINE:4
 
 The pack is unavailable; the disks in the pack are not accessible.
 

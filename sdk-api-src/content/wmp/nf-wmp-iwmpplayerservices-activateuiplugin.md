@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayerServices interface [Windows Media Player]","act
 old-location: wmp\iwmpplayerservices_activateuiplugin.htm
 tech.root: WMP
 ms.assetid: 73274f71-ba34-479c-a23c-38a564e950fa
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],activateUIPlugin method, IWMPPlayerServices.activateUIPlugin, IWMPPlayerServices::activateUIPlugin, IWMPPlayerServicesactivateUIPlugin, activateUIPlugin, activateUIPlugin method [Windows Media Player], activateUIPlugin method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_activateuiplugin, wmp/IWMPPlayerServices::activateUIPlugin
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>activateUIPlugin</b> method activates the specified UI plug-in in the full mode of Windows Media Player.
 

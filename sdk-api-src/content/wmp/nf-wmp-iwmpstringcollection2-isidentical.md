@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPStringCollection2 interface [Windows Media Player]","
 old-location: wmp\iwmpstringcollection2_isidentical.htm
 tech.root: WMP
 ms.assetid: 549fdee8-7cd4-4ceb-8ed1-0de467d6c348
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],isIdentical method, IWMPStringCollection2.isIdentical, IWMPStringCollection2::isIdentical, IWMPStringCollection2isIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_isidentical, wmp/IWMPStringCollection2::isIdentical
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>isIdentical</b> method retrieves a value indicating whether the supplied object is the same as the current one.
 

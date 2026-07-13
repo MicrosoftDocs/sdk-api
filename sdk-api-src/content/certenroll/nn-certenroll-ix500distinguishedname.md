@@ -53,7 +53,9 @@ api_name:
 The <b>IX500DistinguishedName</b> interface represents an X.500 distinguished name (DN). The X.500 series of networking standards covers electronic directory services. A distinguished name uniquely identifies (distinguishes) each entry in the directory from all other entries. Each DN consists of one or more relative distinguished names (RDNs).
 
 The <b>subject</b> field of a PKCS #10 certificate request contains the DN of the entity requesting the certificate
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 CertificationRequestInfo ::= SEQUENCE 
 {
    version                 CertificationRequestInfoVersion,
@@ -61,8 +63,12 @@ CertificationRequestInfo ::= SEQUENCE
    subjectPublicKeyInfo    SubjectPublicKeyInfo,
    attributes              [0] IMPLICIT Attributes
 }
-</code></pre>The DN consists of a sequence of RDNs. Each RDN consists of a set of attributes, and each attribute consists of an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a value. The data type of the value is identified by the <b>DirectoryString</b> structure.
-<pre class="syntax" xml:space="preserve"><code>
+
+```
+The DN consists of a sequence of RDNs. Each RDN consists of a set of attributes, and each attribute consists of an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a value. The data type of the value is identified by the <b>DirectoryString</b> structure.
+
+``` syntax
+
 Name ::= SEQUENCE OF RelativeDistinguishedName
 
 RelativeDistinguishedName ::= SET OF AttributeTypeValue
@@ -81,7 +87,9 @@ DirectoryString ::= CHOICE
    utf8String              UTF8String (SIZE (1..MAX)),
    bmpString               BMPString (SIZE (1..MAX)) 
 }
-</code></pre> The following RDN keys and associated OIDs are currently supported.<table>
+
+```
+ The following RDN keys and associated OIDs are currently supported.<table>
 <tr>
 <th>Key</th>
 <th>OID</th>
@@ -180,17 +188,17 @@ DirectoryString ::= CHOICE
 
 
 Each service that is  based on X.500 defines its own distinguished name string representation. For example, LDAP uses a comma-delimited list arranged from right to left. Active Directory uses a forward slash (/) and arranges the list from left to right. Other services use semicolons as separators. The following example shows an Active Directory entry for an employee named John Peoples who works in the pharmaceutical division of a company named Contoso, Ltd.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 /c=gb/o=Contoso Ltd./ou=Contoso Pharmaceuticals/cn=John Peoples
-</code></pre>
+
+```
+
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX500DistinguishedName</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX500DistinguishedName</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IX500DistinguishedName</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX500DistinguishedName</b> also has these types of members:
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPControls3 interface [Windows Media Player]","get_curr
 old-location: wmp\iwmpcontrols3_get_currentaudiolanguageindex.htm
 tech.root: WMP
 ms.assetid: 559ff3a8-b053-44f6-90dc-02f99614c51b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_currentAudioLanguageIndex method, IWMPControls3.get_currentAudioLanguageIndex, IWMPControls3::get_currentAudioLanguageIndex, IWMPControls3get_currentAudioLanguageIndex, get_currentAudioLanguageIndex, get_currentAudioLanguageIndex method [Windows Media Player], get_currentAudioLanguageIndex method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_currentaudiolanguageindex, wmp/IWMPControls3::get_currentAudioLanguageIndex
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_currentAudioLanguageIndex</b> method retrieves the one-based index that corresponds to the audio language for playback.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupCommitFileQueueA
 title: SetupCommitFileQueueA function (setupapi.h)
-description: The SetupCommitFileQueue function performs file operations queued on a setup file queue.
-helpviewer_keywords: ["SetupCommitFileQueue","SetupCommitFileQueue function [Setup API]","SetupCommitFileQueueA","SetupCommitFileQueueW","_setupapi_setupcommitfilequeue","setup.setupcommitfilequeue","setupapi/SetupCommitFileQueue","setupapi/SetupCommitFileQueueA","setupapi/SetupCommitFileQueueW"]
+description: The SetupCommitFileQueue function performs file operations queued on a setup file queue. (ANSI)
+helpviewer_keywords: ["SetupCommitFileQueueA", "setupapi/SetupCommitFileQueueA"]
 old-location: setup\setupcommitfilequeue.htm
 tech.root: setup
 ms.assetid: c532f435-7393-49f0-975c-4c0ecca64407
@@ -105,7 +105,7 @@ If Unicode is defined in your callback application, and you specify <i>MsgHandle
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupCommitFileQueue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupCommitFileQueue as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

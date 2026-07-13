@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ICreateTypeInfo
 title: ICreateTypeInfo (oaidl.h)
-description: Provides the tools for creating and administering the type information defined through the type description.
+description: Provides the tools for creating and administering the type information defined through the type description. (ICreateTypeInfo)
 helpviewer_keywords: ["ICreateTypeInfo","ICreateTypeInfo interface [Automation]","ICreateTypeInfo interface [Automation]","described","_oa96_ICreateTypeInfo_Interface","automat.icreatetypeinfo","oaidl/ICreateTypeInfo"]
 old-location: automat\icreatetypeinfo.htm
 tech.root: automat
@@ -54,10 +54,7 @@ Provides the tools for creating and administering the type information defined t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateTypeInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICreateTypeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateTypeInfo</b> also has these types of members:
 
 ## -see-also
 

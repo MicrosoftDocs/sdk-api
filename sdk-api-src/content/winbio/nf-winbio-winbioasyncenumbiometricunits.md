@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-biometrics-winbio-core-l1-1-6.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-5.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-4.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-3.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-2.dll
  - Winbio.dll
  - Ext-MS-Win-BioMetrics-WinBio-Core-l1-1-0.dll
  - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
@@ -109,7 +114,7 @@ There was insufficient memory to complete the request.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DISABLED</b></b></dt>
+<dt><b>WINBIO_E_DISABLED</b></dt>
 </dl>
 </td>
 <td width="60%">

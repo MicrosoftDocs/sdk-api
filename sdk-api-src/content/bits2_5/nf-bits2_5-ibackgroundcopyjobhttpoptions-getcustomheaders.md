@@ -72,7 +72,7 @@ The following table lists some of the possible return values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -83,7 +83,7 @@ Successfully retrieved the headers.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_FALSE</b></b></dt>
+<dt><b>S_FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ The job does not specify custom headers.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +105,7 @@ Either you don't have permission to retrieve the custom headers, or [IBackground
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>RPC_X_NULL_REF_POINTER</b></b></dt>
+<dt><b>RPC_X_NULL_REF_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">

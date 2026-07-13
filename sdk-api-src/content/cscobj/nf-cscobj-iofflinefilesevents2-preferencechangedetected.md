@@ -53,7 +53,7 @@ api_name:
 
 Reports that the Offline Files service detected a change in one or more of its setting values that are not controlled by Group Policy.
 
-## -parameters
+
 
 ## -returns
 

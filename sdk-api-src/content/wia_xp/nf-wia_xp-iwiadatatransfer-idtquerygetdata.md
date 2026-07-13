@@ -43,6 +43,7 @@ api_location:
  - Wiaservc.dll
 api_name:
  - IWiaDataTransfer.idtQueryGetData
+archived: true
 ---
 
 # IWiaDataTransfer::idtQueryGetData

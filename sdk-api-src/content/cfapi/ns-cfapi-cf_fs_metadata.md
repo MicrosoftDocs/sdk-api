@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_FS_METADATA","CF_FS_METADATA structure","cfapi/CF_FS_M
 old-location: cloudapi\cf_fs_metadata.htm
 tech.root: cloudapi
 ms.assetid: A6D4473A-C93A-4B56-9EB0-9B44A56E5D28
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_FS_METADATA, CF_FS_METADATA structure, cfapi/CF_FS_METADATA, cloudApi.cf_fs_metadata
 req.header: cfapi.h
 req.include-header: 
@@ -47,18 +47,20 @@ api_name:
 
 # CF_FS_METADATA structure
 
-
 ## -description
 
-Placeholder file or directory metadata.
+Placeholder file or directory metadata, which can include all timestamps, file attributes and file size (optional for directories).
 
 ## -struct-fields
 
 ### -field BasicInfo
 
-Basic file information.
+Basic file information in a [FILE_BASIC_INFO](/windows/win32/api/winbase/ns-winbase-file_basic_info) structure.
 
 ### -field FileSize
 
 The size of the file, in bytes.
 
+## -see-also
+
+[FILE_BASIC_INFO](/windows/win32/api/winbase/ns-winbase-file_basic_info)

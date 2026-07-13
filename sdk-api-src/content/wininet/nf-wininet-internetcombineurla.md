@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetCombineUrlA
 title: InternetCombineUrlA function (wininet.h)
-description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl).
-helpviewer_keywords: ["InternetCombineUrl","InternetCombineUrl function [WinINet]","InternetCombineUrlA","InternetCombineUrlW","_inet_internetcombineurl_function","wininet.internetcombineurl","wininet/InternetCombineUrl","wininet/InternetCombineUrlA","wininet/InternetCombineUrlW"]
+description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl). (ANSI)
+helpviewer_keywords: ["InternetCombineUrlA", "wininet/InternetCombineUrlA"]
 old-location: wininet\internetcombineurl.htm
 tech.root: wininet
 ms.assetid: 2efcf28a-e82b-47f2-8e8c-95fee70a87e4
@@ -217,7 +217,7 @@ There is an invalid string, buffer, buffer size, or flags parameter.
 
 
 > [!NOTE]
-> The wininet.h header defines InternetCombineUrl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wininet.h header defines InternetCombineUrl as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_GetFooterItem","ListView_GetFooterItem macro [Wi
 old-location: controls\ListView_GetFooterItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooteritem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_GetFooterItem, ListView_GetFooterItem macro [Windows Controls], _shell_ListView_GetFooterItem, _shell_ListView_GetFooterItem_cpp, commctrl/ListView_GetFooterItem, controls.ListView_GetFooterItem, controls._shell_ListView_GetFooterItem
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_GetFooterItem macro
+
+## -syntax
+
+```cpp
+BOOL ListView_GetFooterItem(
+  [in]      HWND         hwnd,
+  [in]      UINT         iItem,
+  [in, out] LVFOOTERITEM *pfi
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description

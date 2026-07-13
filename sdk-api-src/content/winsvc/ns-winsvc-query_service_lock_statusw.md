@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_LOCK_STATUSW
 title: QUERY_SERVICE_LOCK_STATUSW (winsvc.h)
-description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function.
+description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function. (Unicode)
 helpviewer_keywords: ["*LPQUERY_SERVICE_LOCK_STATUSW","LPQUERY_SERVICE_LOCK_STATUS","LPQUERY_SERVICE_LOCK_STATUS structure pointer","QUERY_SERVICE_LOCK_STATUS","QUERY_SERVICE_LOCK_STATUS structure","QUERY_SERVICE_LOCK_STATUSA","QUERY_SERVICE_LOCK_STATUSW","_win32_query_service_lock_status_str","base.query_service_lock_status_str","winsvc/LPQUERY_SERVICE_LOCK_STATUS","winsvc/QUERY_SERVICE_LOCK_STATUS","winsvc/QUERY_SERVICE_LOCK_STATUSA","winsvc/QUERY_SERVICE_LOCK_STATUSW"]
 old-location: base\query_service_lock_status_str.htm
 tech.root: security
@@ -80,4 +80,4 @@ The time since the lock was first acquired, in seconds.
 ## -remarks
 
 > [!NOTE]
-> The winsvc.h header defines QUERY_SERVICE_LOCK_STATUS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsvc.h header defines QUERY_SERVICE_LOCK_STATUS as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.put_NotAfter
 title: IX509CertificateRequestCertificate::put_NotAfter (certenroll.h)
-description: Specifies or retrieves the date and time after which the certificate is no longer valid.
+description: Specifies or retrieves the date and time after which the certificate is no longer valid. (Put)
 helpviewer_keywords: ["IX509CertificateRequestCertificate interface [Security]","NotAfter property","IX509CertificateRequestCertificate.NotAfter","IX509CertificateRequestCertificate.put_NotAfter","IX509CertificateRequestCertificate::NotAfter","IX509CertificateRequestCertificate::get_NotAfter","IX509CertificateRequestCertificate::put_NotAfter","NotAfter property [Security]","NotAfter property [Security]","IX509CertificateRequestCertificate interface","certenroll/IX509CertificateRequestCertificate::NotAfter","certenroll/IX509CertificateRequestCertificate::get_NotAfter","certenroll/IX509CertificateRequestCertificate::put_NotAfter","put_NotAfter","security.ix509certificaterequestcertificate_notafter_property"]
 old-location: security\ix509certificaterequestcertificate_notafter_property.htm
 tech.root: security

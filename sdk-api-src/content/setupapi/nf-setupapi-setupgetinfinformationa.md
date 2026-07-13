@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetInfInformationA
 title: SetupGetInfInformationA function (setupapi.h)
-description: The SetUpGetInfInformation function returns the SP_INF_INFORMATION structure for the specified INF file to a buffer.
-helpviewer_keywords: ["SetupGetInfInformation","SetupGetInfInformation function [Setup API]","SetupGetInfInformationA","SetupGetInfInformationW","_setupapi_setupgetinfinformation","setup.setupgetinfinformation","setupapi/SetupGetInfInformation","setupapi/SetupGetInfInformationA","setupapi/SetupGetInfInformationW"]
+description: The SetUpGetInfInformation function returns the SP_INF_INFORMATION structure for the specified INF file to a buffer. (ANSI)
+helpviewer_keywords: ["SetupGetInfInformationA", "setupapi/SetupGetInfInformationA"]
 old-location: setup\setupgetinfinformation.htm
 tech.root: setup
 ms.assetid: 367eb374-1295-41f6-a1b3-cfc04e94b816
@@ -136,7 +136,7 @@ If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBuffer
 
 
 > [!NOTE]
-> The setupapi.h header defines SetupGetInfInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The setupapi.h header defines SetupGetInfInformation as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetFileTime","GetFileTime method [Direct Write]","GetFile
 old-location: directwrite\idwritefontfacereference_getfiletime.htm
 tech.root: DirectWrite
 ms.assetid: 98de8a3d-073e-78df-2e2c-8ab64632091c
-ms.date: 12/05/2018
+ms.date: 09/10/2025
 ms.keywords: GetFileTime, GetFileTime method [Direct Write], GetFileTime method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileTime method, IDWriteFontFaceReference.GetFileTime, IDWriteFontFaceReference::GetFileTime, directwrite.idwritefontfacereference_getfiletime, dwrite_3/IDWriteFontFaceReference::GetFileTime
 req.header: dwrite_3.h
 req.include-header: 
@@ -64,7 +64,7 @@ Returns the last modified date. The time may be zero if the font file loader doe
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

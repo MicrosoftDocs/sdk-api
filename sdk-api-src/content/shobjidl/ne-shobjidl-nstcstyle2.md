@@ -54,29 +54,29 @@ Used by methods of the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-inames
 
 ## -enum-fields
 
-### -field NSTCS2_DEFAULT
+### -field NSTCS2_DEFAULT:0
 
 Displays the tree nodes in default mode, which includes none of the following values.
 
-### -field NSTCS2_INTERRUPTNOTIFICATIONS
+### -field NSTCS2_INTERRUPTNOTIFICATIONS:0x1
 
 Displays interrupt notifications.
 
-### -field NSTCS2_SHOWNULLSPACEMENU
+### -field NSTCS2_SHOWNULLSPACEMENU:0x2
 
 Displays the context menu in the padding space.
 
-### -field NSTCS2_DISPLAYPADDING
+### -field NSTCS2_DISPLAYPADDING:0x4
 
 Inserts spacing (padding) between top-level nodes.
 
-### -field NSTCS2_DISPLAYPINNEDONLY
+### -field NSTCS2_DISPLAYPINNEDONLY:0x8
 
 Filters items based on the <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> value when <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities">INameSpaceTreeControlFolderCapabilities</a> is implemented.
 
-### -field NTSCS2_NOSINGLETONAUTOEXPAND
+### -field NTSCS2_NOSINGLETONAUTOEXPAND:0x10
 
-### -field NTSCS2_NEVERINSERTNONENUMERATED
+### -field NTSCS2_NEVERINSERTNONENUMERATED:0x20
 
 Do not insert nonenumerated (SFGAO_NONENUMERATED) items in the tree.
 

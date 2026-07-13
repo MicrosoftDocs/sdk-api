@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-security-slc-l1-1-0.dll
  - Slc.dll
 api_name:
  - SLOpen

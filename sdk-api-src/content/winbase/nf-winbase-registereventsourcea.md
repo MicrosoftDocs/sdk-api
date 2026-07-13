@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.RegisterEventSourceA
 title: RegisterEventSourceA function (winbase.h)
-description: Retrieves a registered handle to the specified event log.
-helpviewer_keywords: ["RegisterEventSource","RegisterEventSource function","RegisterEventSourceA","RegisterEventSourceW","_win32_registereventsource","base.registereventsource","winbase/RegisterEventSource","winbase/RegisterEventSourceA","winbase/RegisterEventSourceW"]
+description: Retrieves a registered handle to the specified event log. (ANSI)
+helpviewer_keywords: ["RegisterEventSourceA", "winbase/RegisterEventSourceA"]
 old-location: base\registereventsource.htm
 tech.root: base
 ms.assetid: 53706f83-6bc9-45d6-981c-bd0680d7bc08
@@ -101,7 +101,7 @@ For an example, see
 
 
 > [!NOTE]
-> The winbase.h header defines RegisterEventSource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winbase.h header defines RegisterEventSource as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

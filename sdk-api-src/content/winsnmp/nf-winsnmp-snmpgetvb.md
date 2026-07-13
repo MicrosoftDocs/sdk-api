@@ -92,7 +92,7 @@ If the function succeeds, the <b>syntax</b> member of the structure pointed to b
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_INT"></a><a id="snmp_syntax_int"></a><dl>
-<dt><b><b>SNMP_SYNTAX_INT</b></b></dt>
+<dt><b>SNMP_SYNTAX_INT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +102,7 @@ Indicates a 32-bit signed integer variable.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_OCTETS"></a><a id="snmp_syntax_octets"></a><dl>
-<dt><b><b>SNMP_SYNTAX_OCTETS</b></b></dt>
+<dt><b>SNMP_SYNTAX_OCTETS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ Indicates an octet string variable that is binary or textual data.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_NULL"></a><a id="snmp_syntax_null"></a><dl>
-<dt><b><b>SNMP_SYNTAX_NULL</b></b></dt>
+<dt><b>SNMP_SYNTAX_NULL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ Indicates a <b>NULL</b> value.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_OID"></a><a id="snmp_syntax_oid"></a><dl>
-<dt><b><b>SNMP_SYNTAX_OID</b></b></dt>
+<dt><b>SNMP_SYNTAX_OID</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ Indicates an object identifier variable that is an assigned name with a maximum 
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_INT32"></a><a id="snmp_syntax_int32"></a><dl>
-<dt><b><b>SNMP_SYNTAX_INT32</b></b></dt>
+<dt><b>SNMP_SYNTAX_INT32</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -142,7 +142,7 @@ Indicates a 32-bit signed integer variable.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_IPADDR"></a><a id="snmp_syntax_ipaddr"></a><dl>
-<dt><b><b>SNMP_SYNTAX_IPADDR</b></b></dt>
+<dt><b>SNMP_SYNTAX_IPADDR</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,7 +152,7 @@ Indicates a 32-bit Internet address variable. If SNMPv1 PDU trap format is used 
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_CNTR32"></a><a id="snmp_syntax_cntr32"></a><dl>
-<dt><b><b>SNMP_SYNTAX_CNTR32</b></b></dt>
+<dt><b>SNMP_SYNTAX_CNTR32</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +162,7 @@ Indicates a counter variable that increases until it reaches a maximum value of 
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_GAUGE32"></a><a id="snmp_syntax_gauge32"></a><dl>
-<dt><b><b>SNMP_SYNTAX_GAUGE32</b></b></dt>
+<dt><b>SNMP_SYNTAX_GAUGE32</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -172,7 +172,7 @@ Indicates a gauge variable that is a non-negative integer that can increase or d
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_TIMETICKS"></a><a id="snmp_syntax_timeticks"></a><dl>
-<dt><b><b>SNMP_SYNTAX_TIMETICKS</b></b></dt>
+<dt><b>SNMP_SYNTAX_TIMETICKS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -182,7 +182,7 @@ Indicates a counter variable that measures the time in hundredths of a second, u
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_OPAQUE"></a><a id="snmp_syntax_opaque"></a><dl>
-<dt><b><b>SNMP_SYNTAX_OPAQUE</b></b></dt>
+<dt><b>SNMP_SYNTAX_OPAQUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -192,7 +192,7 @@ This type provides backward compatibility, and should not be used for new object
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_CNTR64"></a><a id="snmp_syntax_cntr64"></a><dl>
-<dt><b><b>SNMP_SYNTAX_CNTR64</b></b></dt>
+<dt><b>SNMP_SYNTAX_CNTR64</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -202,7 +202,7 @@ Indicates a counter variable that increases until it reaches a maximum value of 
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_UINT32"></a><a id="snmp_syntax_uint32"></a><dl>
-<dt><b><b>SNMP_SYNTAX_UINT32</b></b></dt>
+<dt><b>SNMP_SYNTAX_UINT32</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -212,7 +212,7 @@ Indicates a 32-bit unsigned integer variable.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_NOSUCHOBJECT"></a><a id="snmp_syntax_nosuchobject"></a><dl>
-<dt><b><b>SNMP_SYNTAX_NOSUCHOBJECT</b></b></dt>
+<dt><b>SNMP_SYNTAX_NOSUCHOBJECT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -222,7 +222,7 @@ Indicates that the agent does not support the object type that corresponds to th
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_NOSUCHINSTANCE"></a><a id="snmp_syntax_nosuchinstance"></a><dl>
-<dt><b><b>SNMP_SYNTAX_NOSUCHINSTANCE</b></b></dt>
+<dt><b>SNMP_SYNTAX_NOSUCHINSTANCE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -232,7 +232,7 @@ Indicates that the object instance does not exist for the operation.
 </tr>
 <tr>
 <td width="40%"><a id="SNMP_SYNTAX_ENDOFMIBVIEW"></a><a id="snmp_syntax_endofmibview"></a><dl>
-<dt><b><b>SNMP_SYNTAX_ENDOFMIBVIEW</b></b></dt>
+<dt><b>SNMP_SYNTAX_ENDOFMIBVIEW</b></dt>
 </dl>
 </td>
 <td width="60%">

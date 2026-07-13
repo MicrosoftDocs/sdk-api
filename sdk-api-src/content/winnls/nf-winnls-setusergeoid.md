@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-2-0.dll
  - KernelBase.dll
@@ -86,7 +88,7 @@ If this function does not succeed, the application can call <a href="/windows/de
 
 This function writes to the registry the geographical location for a particular user instead of a particular application. This action affects the behavior of other applications run by the user. As a rule, the application should call this function only when the user has explicitly requested changes, but not for purely application-specific reasons.
 
-<b>SetUserGeoID</b> is intended for use by applications that are designed to change user settings, such as the Windows Settings app. Other applications should not call this function.
+<b>SetUserGeoID</b> is intended for use by applications that are designed to change user settings, such as in Windows Settings. Other applications should not call this function.
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetConnectionA
 title: WNetGetConnectionA function (winnetwk.h)
-description: The WNetGetConnection function retrieves the name of the network resource associated with a local device.
-helpviewer_keywords: ["WNetGetConnection","WNetGetConnection function [Windows Networking (WNet)]","WNetGetConnectionA","WNetGetConnectionW","_win32_wnetgetconnection","winnetwk/WNetGetConnection","winnetwk/WNetGetConnectionA","winnetwk/WNetGetConnectionW","wnet.wnetgetconnection"]
+description: The WNetGetConnection function retrieves the name of the network resource associated with a local device. (ANSI)
+helpviewer_keywords: ["WNetGetConnectionA", "winnetwk/WNetGetConnectionA"]
 old-location: wnet\wnetgetconnection.htm
 tech.root: WNet
 ms.assetid: 72d84752-4e64-4c16-872b-cb892dffbf9a
@@ -186,7 +186,7 @@ For a code sample that illustrates how to use the
 
 
 > [!NOTE]
-> The winnetwk.h header defines WNetGetConnection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winnetwk.h header defines WNetGetConnection as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

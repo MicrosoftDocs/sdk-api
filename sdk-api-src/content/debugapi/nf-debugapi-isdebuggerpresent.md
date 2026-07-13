@@ -11,8 +11,8 @@ ms.keywords: IsDebuggerPresent, IsDebuggerPresent function, _win32_isdebuggerpre
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows NT Workstation 4.0 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows NT Server 4.0 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ api_name:
 
 Determines whether the calling process is being debugged by a user-mode debugger.
 
-## -parameters
+
 
 ## -returns
 
@@ -72,9 +72,6 @@ This function allows an application to determine whether or not it is being debu
 <a href="/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> function if it is being debugged.
 
 To determine whether a remote process is being debugged, use the <a href="/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> function.
-
-To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0400 or later. For more information, see 
-<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 

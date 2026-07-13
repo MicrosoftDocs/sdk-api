@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSSendMessageA
 title: WTSSendMessageA function (wtsapi32.h)
-description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
-helpviewer_keywords: ["IDABORT","IDASYNC","IDCANCEL","IDCONTINUE","IDIGNORE","IDNO","IDOK","IDRETRY","IDTIMEOUT","IDTRYAGAIN","IDYES","WTSSendMessage","WTSSendMessage function [Remote Desktop Services]","WTSSendMessageA","WTSSendMessageW","_win32_wtssendmessage","termserv.wtssendmessage","wtsapi32/WTSSendMessage","wtsapi32/WTSSendMessageA","wtsapi32/WTSSendMessageW"]
+description: Displays a message box on the client desktop of a specified Remote Desktop Services session. (ANSI)
+helpviewer_keywords: ["IDABORT", "IDASYNC", "IDCANCEL", "IDCONTINUE", "IDIGNORE", "IDNO", "IDOK", "IDRETRY", "IDTIMEOUT", "IDTRYAGAIN", "IDYES", "WTSSendMessageA", "wtsapi32/WTSSendMessageA"]
 old-location: termserv\wtssendmessage.htm
 tech.root: TermServ
 ms.assetid: 4c70bc93-00b1-46ed-947d-b3cf61a5aca4
@@ -203,4 +203,4 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 > [!NOTE]
-> The wtsapi32.h header defines WTSSendMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The wtsapi32.h header defines WTSSendMessage as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

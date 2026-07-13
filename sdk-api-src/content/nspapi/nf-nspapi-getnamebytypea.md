@@ -1,8 +1,8 @@
 ---
 UID: NF:nspapi.GetNameByTypeA
 title: GetNameByTypeA function (nspapi.h)
-description: The GetNameByType function retrieves the name of a network service for the specified service type.
-helpviewer_keywords: ["GetNameByType","GetNameByType function [Winsock]","GetNameByTypeA","GetNameByTypeW","_win32_getnamebytype_2","nspapi/GetNameByType","nspapi/GetNameByTypeA","nspapi/GetNameByTypeW","winsock.getnamebytype_2"]
+description: The GetNameByType function retrieves the name of a network service for the specified service type. (ANSI)
+helpviewer_keywords: ["GetNameByTypeA", "nspapi/GetNameByTypeA"]
 old-location: winsock\getnamebytype_2.htm
 tech.root: WinSock
 ms.assetid: 74d747f0-5f5e-4f54-8b2f-7ea96d4043ee
@@ -104,4 +104,4 @@ If the function fails, the return value is SOCKET_ERROR (–1). To get extended 
 ## -remarks
 
 > [!NOTE]
-> The nspapi.h header defines GetNameByType as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The nspapi.h header defines GetNameByType as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

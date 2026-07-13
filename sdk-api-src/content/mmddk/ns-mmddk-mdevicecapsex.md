@@ -1,5 +1,5 @@
 ---
-UID: NS:mmddk.__unnamed_struct_1
+UID: NS:mmddk.MDEVICECAPSEX
 title: MDEVICECAPSEX (mmddk.h)
 description: The MDEVICECAPSEX structure contains device capability information for Plug and Play (PnP) device drivers.
 helpviewer_keywords: ["MDEVICECAPSEX","MDEVICECAPSEX structure [Audio Devices]","aud-prop_12e0eeb8-beac-4b01-8a5c-6e78f58f703b.xml","audio.mdevicecapsex","mmddk/MDEVICECAPSEX"]

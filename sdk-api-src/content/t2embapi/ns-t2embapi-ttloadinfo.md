@@ -1,5 +1,5 @@
 ---
-UID: NS:t2embapi.__unnamed_struct_0
+UID: NS:t2embapi.TTLOADINFO
 title: TTLOADINFO (t2embapi.h)
 description: The TTLOADINFO structure contains the URL from which the embedded font object has been obtained.
 helpviewer_keywords: ["TTLOADINFO","TTLOADINFO structure [Windows GDI]","_win32_TTLOADINFO","gdi.ttloadinfo","t2embapi/TTLOADINFO"]
@@ -73,3 +73,4 @@ Pointer to the string containing the current URL.
 
 
 <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>
+

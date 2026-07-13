@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ITypeInfo2
 title: ITypeInfo2 (oaidl.h)
-description: Used for reading information about objects.
+description: Used for reading information about objects. (ITypeInfo2)
 helpviewer_keywords: ["ITypeInfo2","ITypeInfo2 interface [Automation]","ITypeInfo2 interface [Automation]","described","_oa96_ITypeInfo2_Interface","automat.itypeinfo2","oaidl/ITypeInfo2"]
 old-location: automat\itypeinfo2.htm
 tech.root: automat
@@ -54,10 +54,7 @@ Used for reading information about objects. Can be cast to an <a href="/previous
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeInfo2</b> interface inherits from <b>ITypeInfo</b>. <b>ITypeInfo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITypeInfo2</b> interface inherits from <b>ITypeInfo</b>. <b>ITypeInfo2</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagTVDISPINFOEXW
 title: NMTVDISPINFOEXW (commctrl.h)
-description: Contains information pertaining to extended TreeView notification information.
+description: Contains information pertaining to extended TreeView notification information. (Unicode)
 helpviewer_keywords: ["*LPNMTVDISPINFOEXW","LPNMTVDISPINFOEX","LPNMTVDISPINFOEX structure pointer [Windows Controls]","NMTVDISPINFOEX","NMTVDISPINFOEX structure [Windows Controls]","NMTVDISPINFOEXA","NMTVDISPINFOEXW","_shell_NMTVDISPINFOEX","_shell_NMTVDISPINFOEX_cpp","commctrl/LPNMTVDISPINFOEX","commctrl/NMTVDISPINFOEX","commctrl/NMTVDISPINFOEXA","commctrl/NMTVDISPINFOEXW","controls.NMTVDISPINFOEX","controls._shell_NMTVDISPINFOEX"]
 old-location: controls\NMTVDISPINFOEX.htm
 tech.root: Controls
@@ -76,4 +76,4 @@ Specifies or receives attributes of a TreeView item.
 ## -remarks
 
 > [!NOTE]
-> The commctrl.h header defines NMTVDISPINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The commctrl.h header defines NMTVDISPINFOEX as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

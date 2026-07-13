@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaNotifyDevMgr.NewDeviceArrival
 title: IWiaNotifyDevMgr::NewDeviceArrival (wia_xp.h)
-description: This method is not implemented.
+description: This method is not implemented. (IWiaNotifyDevMgr.NewDeviceArrival)
 helpviewer_keywords: ["IWiaNotifyDevMgr interface [WIA]","NewDeviceArrival method","IWiaNotifyDevMgr.NewDeviceArrival","IWiaNotifyDevMgr::NewDeviceArrival","NewDeviceArrival","NewDeviceArrival method [WIA]","NewDeviceArrival method [WIA]","IWiaNotifyDevMgr interface","_wia_IWiaNotifyDevMgr_NewDeviceArrival","wia._wia_IWiaNotifyDevMgr_NewDeviceArrival","wia_xp/IWiaNotifyDevMgr::NewDeviceArrival"]
 old-location: wia\_wia_IWiaNotifyDevMgr_NewDeviceArrival.htm
 tech.root: wia
@@ -43,6 +43,7 @@ api_location:
  - Wiaservc.dll
 api_name:
  - IWiaNotifyDevMgr.NewDeviceArrival
+archived: true
 ---
 
 # IWiaNotifyDevMgr::NewDeviceArrival
@@ -52,11 +53,11 @@ api_name:
 
 This method is not implemented.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

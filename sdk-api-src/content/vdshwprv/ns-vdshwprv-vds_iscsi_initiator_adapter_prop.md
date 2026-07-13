@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_INITIATOR_ADAPTER_PROP
 title: VDS_ISCSI_INITIATOR_ADAPTER_PROP (vdshwprv.h)
-description: Defines the properties of an iSCSI initiator adapter.
+description: The VDS_ISCSI_INITIATOR_ADAPTER_PROP structure (vdshwprv.h) defines the properties of an iSCSI initiator adapter.
 helpviewer_keywords: ["VDS_ISCSI_INITIATOR_ADAPTER_PROP","VDS_ISCSI_INITIATOR_ADAPTER_PROP structure [VDS]","_VDS_ISCSI_INITIATOR_ADAPTER_PROP","base.vds_iscsi_initiator_adapter_prop","vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP","vdshwprv/VDS_ISCSI_INITIATOR_ADAPTER_PROP"]
 old-location: base\vds_iscsi_initiator_adapter_prop.htm
 tech.root: base
 ms.assetid: cfcc7c7a-d135-4404-8f67-64e43a425669
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_ISCSI_INITIATOR_ADAPTER_PROP, VDS_ISCSI_INITIATOR_ADAPTER_PROP structure [VDS], _VDS_ISCSI_INITIATOR_ADAPTER_PROP, base.vds_iscsi_initiator_adapter_prop, vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP, vdshwprv/VDS_ISCSI_INITIATOR_ADAPTER_PROP
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of an iSCSI initiator adapter.
 

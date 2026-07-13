@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawLines(constPen,constPointF,INT)
 title: Graphics::DrawLines
-description: The Graphics::DrawLines method draws a sequence of connected lines.
+description: The Graphics::DrawLines method draws a sequence of connected lines. (overload 1/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawLines"]
 ms.assetid: ea0d1b7b-f278-4a44-a99f-77801031d51e

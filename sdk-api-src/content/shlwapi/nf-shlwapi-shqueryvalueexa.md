@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHQueryValueExA
 title: SHQueryValueExA function (shlwapi.h)
-description: Opens a registry key and queries it for a specific value.
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHQueryValueEx","SHQueryValueEx function [Windows Shell]","SHQueryValueExA","SHQueryValueExW","_win32_SHQueryValueEx","shell.SHQueryValueEx","shlwapi/SHQueryValueEx","shlwapi/SHQueryValueExA","shlwapi/SHQueryValueExW"]
+description: Opens a registry key and queries it for a specific value. (ANSI)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHQueryValueExA", "shlwapi/SHQueryValueExA"]
 old-location: shell\SHQueryValueEx.htm
 tech.root: shell
 ms.assetid: 9969acae-5965-40fe-bde9-6de9ddf26bb8
@@ -130,4 +130,4 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 ## -remarks
 
 > [!NOTE]
-> The shlwapi.h header defines SHQueryValueEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The shlwapi.h header defines SHQueryValueEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

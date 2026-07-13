@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFOutputPolicy.GetOriginatorID
 title: IMFOutputPolicy::GetOriginatorID (mfidl.h)
-description: Retrieives a GUID identifying the input trust authority (ITA) that created this output policy object.
+description: Retrieves a GUID identifying the input trust authority (ITA) that created this output policy object.
 helpviewer_keywords: ["3412bb81-c4b8-4e10-9a8e-8eae413ca82d","GetOriginatorID","GetOriginatorID method [Media Foundation]","GetOriginatorID method [Media Foundation]","IMFOutputPolicy interface","IMFOutputPolicy interface [Media Foundation]","GetOriginatorID method","IMFOutputPolicy.GetOriginatorID","IMFOutputPolicy::GetOriginatorID","mf.imfoutputpolicy_getoriginatorid","mfidl/IMFOutputPolicy::GetOriginatorID"]
 old-location: mf\imfoutputpolicy_getoriginatorid.htm
 tech.root: mf
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieives a GUID identifying the input trust authority (ITA) that created this output policy object.
+Retrieves a GUID identifying the input trust authority (ITA) that created this output policy object.
 
 ## -parameters
 

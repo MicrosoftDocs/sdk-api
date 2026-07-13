@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-oleacc-l1-1-2.dll
  - Oleacc.dll
 api_name:
  - AccessibleChildren

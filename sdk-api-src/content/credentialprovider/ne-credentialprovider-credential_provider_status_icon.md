@@ -6,7 +6,7 @@ helpviewer_keywords: ["CPSI_ERROR","CPSI_NONE","CPSI_SUCCESS","CPSI_WARNING","CR
 old-location: shell\CREDENTIAL_PROVIDER_STATUS_ICON.htm
 tech.root: shell
 ms.assetid: 2aa5b5dc-4756-4eff-a7d8-97c8a1dce41b
-ms.date: 12/05/2018
+ms.date: 11/26/2024
 ms.keywords: CPSI_ERROR, CPSI_NONE, CPSI_SUCCESS, CPSI_WARNING, CREDENTIAL_PROVIDER_STATUS_ICON, CREDENTIAL_PROVIDER_STATUS_ICON enumeration [Windows Shell], _shell_CREDENTIAL_PROVIDER_STATUS_ICON, credentialprovider/CPSI_ERROR, credentialprovider/CPSI_NONE, credentialprovider/CPSI_SUCCESS, credentialprovider/CPSI_WARNING, credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON, shell.CREDENTIAL_PROVIDER_STATUS_ICON
 req.header: credentialprovider.h
 req.include-header: 
@@ -56,7 +56,7 @@ Indicates which status icon should be displayed.
 
 ## -enum-fields
 
-### -field CPSI_NONE
+### -field CPSI_NONE:0
 
 No icon indicated.
 
@@ -76,4 +76,4 @@ Reserved.
 
 <b>CREDENTIAL_PROVIDER_STATUS_ICON</b> is not used starting in Windows 10.
 
-As part of <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-reportresult">ReportResult</a>, a credential provider may specify a status icon to display. It is important to not that only Logon UI calls <b>ReportResult</b>, Credential UI does not.
+As part of <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-reportresult">ReportResult</a>, a credential provider may specify a status icon to display. It is important to note that only Logon UI calls <b>ReportResult</b>, Credential UI does not.

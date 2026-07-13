@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.GetIScsiIKEInfoW
 title: GetIScsiIKEInfoW function (iscsidsc.h)
-description: GetIscsiIKEInfo function retrieves the IPsec policy and any established pre-shared key values associated with an initiator Host-Bus Adapter (HBA).
-helpviewer_keywords: ["GetIScsiIKEInfoW","GetIscsiIKEInfo","GetIscsiIKEInfo function [iSCSI Discovery Library API]","GetIscsiIKEInfoA","GetIscsiIKEInfoW","iscsidisc.getiscsiikeinfo","iscsidsc/GetIscsiIKEInfo","iscsidsc/GetIscsiIKEInfoA","iscsidsc/GetIscsiIKEInfoW"]
+description: GetIscsiIKEInfo function retrieves the IPsec policy and any established pre-shared key values associated with an initiator Host-Bus Adapter (HBA). (Unicode)
+helpviewer_keywords: ["GetIScsiIKEInfoW", "GetIscsiIKEInfo", "GetIscsiIKEInfo function [iSCSI Discovery Library API]", "GetIscsiIKEInfoW", "iscsidisc.getiscsiikeinfo", "iscsidsc/GetIscsiIKEInfo", "iscsidsc/GetIscsiIKEInfoW"]
 old-location: iscsidisc\getiscsiikeinfo.htm
 tech.root: iSCSIDisc
 ms.assetid: 81576452-47bf-4732-a09f-dd1f9e2689c9
@@ -79,4 +79,4 @@ Returns ERROR_SUCCESS if the operation is successful. If the operation fails due
 ## -remarks
 
 > [!NOTE]
-> The iscsidsc.h header defines GetIScsiIKEInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The iscsidsc.h header defines GetIScsiIKEInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

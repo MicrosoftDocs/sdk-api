@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient3(IDCompositionAnimation)
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient3(IDCompositionAnimation) (dcomp.h)
-description: Sets the third coefficient for the equation used to composite the two input images.
+description: Sets the third coefficient for the equation used to composite the two input images. (overload 2/2)
 helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficient3 method","IDCompositionArithmeticCompositeEffect.SetCoefficient3","IDCompositionArithmeticCompositeEffect.SetCoefficient3(IDCompositionAnimation)","IDCompositionArithmeticCompositeEffect::SetCoefficient3","IDCompositionArithmeticCompositeEffect::SetCoefficient3(IDCompositionAnimation)","SetCoefficient3","SetCoefficient3 method [DirectComposition]","SetCoefficient3 method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient3","directcomp.idcompositionarithmeticcompositeeffect_setcoefficient3_2"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient3_2.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ An animation that represents how the value of the third coefficient changes over
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

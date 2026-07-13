@@ -63,7 +63,7 @@ Specifies the number of elements in the string array.
 
 ### -param StringType [in]
 
-Specifies the type of stings that the string array contains. The type must be one of the following values. For more information about RDN types, see the CryptoAPI 2.0 documents.
+Specifies the type of strings that the string array contains. The type must be one of the following values. For more information about RDN types, see the CryptoAPI 2.0 documents.
 
 <table>
 <tr>

@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIChangeSourceA
 title: OleUIChangeSourceA function (oledlg.h)
-description: Invokes the Change Source dialog box, allowing the user to change the source of a link.
-helpviewer_keywords: ["OleUIChangeSource","OleUIChangeSource function [COM]","OleUIChangeSourceA","OleUIChangeSourceW","_ole_OleUIChangeSource","com.oleuichangesource","oledlg/OleUIChangeSource","oledlg/OleUIChangeSourceA","oledlg/OleUIChangeSourceW"]
+description: Invokes the Change Source dialog box, allowing the user to change the source of a link. (ANSI)
+helpviewer_keywords: ["OleUIChangeSourceA", "oledlg/OleUIChangeSourceA"]
 old-location: com\oleuichangesource.htm
 tech.root: com
 ms.assetid: 53ff17aa-3135-462e-885d-3bfbb74ed1c5
@@ -430,7 +430,7 @@ The link source is not changed by the <b>Change Source</b> dialog box itself. In
 
 
 > [!NOTE]
-> The oledlg.h header defines OLEUICHANGESOURCE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The oledlg.h header defines OLEUICHANGESOURCE as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

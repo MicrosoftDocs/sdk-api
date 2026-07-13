@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasRenameEntryA
 title: RasRenameEntryA function (ras.h)
-description: The RasRenameEntry function changes the name of an entry in a phone book.
-helpviewer_keywords: ["RasRenameEntry","RasRenameEntry function [RAS]","RasRenameEntryA","RasRenameEntryW","_ras_rasrenameentry","ras/RasRenameEntry","ras/RasRenameEntryA","ras/RasRenameEntryW","rras.rasrenameentry"]
+description: The RasRenameEntry function changes the name of an entry in a phone book. (ANSI)
+helpviewer_keywords: ["RasRenameEntryA", "ras/RasRenameEntryA"]
 old-location: rras\rasrenameentry.htm
 tech.root: RRAS
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e
@@ -184,7 +184,7 @@ DWORD main (){
 
 
 > [!NOTE]
-> The ras.h header defines RasRenameEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasRenameEntry as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -58,11 +58,11 @@ Sets the value of Desktop Window Manager (DWM) non-client rendering attributes f
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 The handle to the window for which the attribute value is to be set.
 
-### -param dwAttribute
+### -param dwAttribute [in]
 
 A flag describing which value to set, specified as a value of the [DWMWINDOWATTRIBUTE](/windows/desktop/api/dwmapi/ne-dwmapi-dwmwindowattribute) enumeration. This parameter specifies which attribute to set, and the *pvAttribute* parameter points to an object containing the attribute value.
 
@@ -70,7 +70,7 @@ A flag describing which value to set, specified as a value of the [DWMWINDOWATTR
 
 A pointer to an object containing the attribute value to set. The type of the value set depends on the value of the *dwAttribute* parameter. The [**DWMWINDOWATTRIBUTE**](/windows/desktop/api/Dwmapi/ne-dwmapi-dwmwindowattribute) enumeration topic indicates, in the row for each flag, what type of value you should pass a pointer to in the *pvAttribute* parameter.
 
-### -param cbAttribute
+### -param cbAttribute [in]
 
 The size, in bytes, of the attribute value being set via the *pvAttribute* parameter. The type of the value set, and therefore its size in bytes, depends on the value of the *dwAttribute* parameter.
 

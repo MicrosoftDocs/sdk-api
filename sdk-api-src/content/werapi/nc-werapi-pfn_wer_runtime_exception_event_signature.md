@@ -1,12 +1,12 @@
 ---
 UID: NC:werapi.PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE
 title: PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE (werapi.h)
-description: WER can call this function multiple times to get the report parameters that uniquely describe the problem.
+description: Windows Error Reporting (WER) calls this function to get the report parameters that uniquely describe the problem.
 helpviewer_keywords: ["OutOfProcessExceptionEventSignatureCallback","OutOfProcessExceptionEventSignatureCallback callback function [Windows Error Reporting]","PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE","PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE callback","wer.outofprocessexceptioneventsignaturecallback","werapi/OutOfProcessExceptionEventSignatureCallback"]
 old-location: wer\outofprocessexceptioneventsignaturecallback.htm
 tech.root: wer
 ms.assetid: 892498db-0265-4276-9735-63a8104ecaa9
-ms.date: 12/05/2018
+ms.date: 07/21/2023
 ms.keywords: OutOfProcessExceptionEventSignatureCallback, OutOfProcessExceptionEventSignatureCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE, PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE callback, wer.outofprocessexceptioneventsignaturecallback, werapi/OutOfProcessExceptionEventSignatureCallback
 req.header: werapi.h
 req.include-header: 
@@ -47,22 +47,21 @@ api_name:
 
 # PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE callback function
 
-
 ## -description
 
- WER can call this function multiple times to get the report parameters that uniquely describe the problem.
+[Windows Error Reporting](../_wer/index.md) (WER) calls this function to get the report parameters that uniquely describe the problem.
 
-The <b>PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE</b> type defines a pointer to this callback function. You must use "OutOfProcessExceptionEventSignatureCallback" as the name of the callback function.
+The **PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE** type defines a pointer to this callback function. You must use "OutOfProcessExceptionEventSignatureCallback" as the name of the callback function.
 
 ## -parameters
 
 ### -param pContext [in]
 
-A pointer to arbitrary context information that you specified when you called the <a href="/windows/desktop/api/werapi/nf-werapi-werregisterruntimeexceptionmodule">WerRegisterRuntimeExceptionModule</a> function to register the exception handler.
+A pointer to arbitrary context information that you specified when you called the [WerRegisterRuntimeExceptionModule](/windows/desktop/api/werapi/nf-werapi-werregisterruntimeexceptionmodule) function to register the exception handler.
 
 ### -param pExceptionInformation [in]
 
-A <a href="/windows/desktop/api/werapi/ns-werapi-wer_runtime_exception_information">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information.
+A [WER_RUNTIME_EXCEPTION_INFORMATION](/windows/desktop/api/werapi/ns-werapi-wer_runtime_exception_information) structure that contains the exception information.
 
 ### -param dwIndex [in]
 
@@ -74,7 +73,7 @@ A caller-allocated buffer that you use to specify the parameter name.
 
 ### -param pchName [in, out]
 
-The size, in characters, of the <i>pwszName</i> buffer. The size includes the null-terminating character.
+The size, in characters, of the *pwszName* buffer. The size includes the null-terminating character.
 
 ### -param pwszValue [out]
 
@@ -82,11 +81,11 @@ A caller-allocated buffer that you use to specify the parameter value.
 
 ### -param pchValue [in, out]
 
-The size, in characters, of the <i>pwszValue</i> buffer. The size includes the null-terminating character.
+The size, in characters, of the *pwszValue* buffer. The size includes the null-terminating character.
 
 ## -returns
 
-Return <b>S_OK</b> on success. If you return other failure codes, WER reverts to its default crash reporting behavior.
+Return **S_OK** on success. If you return other failure codes, WER reverts to its default crash reporting behavior.
 
 ## -remarks
 
@@ -94,8 +93,8 @@ You must implement this function in your exception handler DLL.
 
 To generate error reports for application-specific issues, the application must create a short description of the problem using a few basic pieces of information called report parameters. Report parameters include information such as the application name, application version, module name, module version, and error code. The combination of these report parameters describes a unique problem.
 
-WER calls this callback function only if you set the <i>pbOwnershipClaimed</i> parameter of your <a href="/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event">OutOfProcessExceptionEventCallback</a> callback function to <b>TRUE</b>. The <i>pdwSignatureCount</i> parameter of <b>OutOfProcessExceptionEventCallback</b> determines the number of times that  WER will call  this callback function.
+WER calls this callback function only if you set the *pbOwnershipClaimed* parameter of your [OutOfProcessExceptionEventCallback](/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event) callback function to **TRUE**. The *pdwSignatureCount* parameter of **OutOfProcessExceptionEventCallback** determines the number of times that  WER will call  this callback function.
 
 ## -see-also
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werregisterruntimeexceptionmodule">WerRegisterRuntimeExceptionModule</a>
+[WerRegisterRuntimeExceptionModule](/windows/desktop/api/werapi/nf-werapi-werregisterruntimeexceptionmodule), [Windows Error Reporting](/windows/desktop/wer)

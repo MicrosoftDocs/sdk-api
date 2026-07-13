@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKESORTLCID","MAKESORTLCID macro [Internationalization f
 old-location: intl\makesortlcid.htm
 tech.root: Intl
 ms.assetid: 58327bfc-8a00-4fdc-bd5a-cef9c0b29faa
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKESORTLCID, MAKESORTLCID macro [Internationalization for Windows Applications], _win32_MAKESORTLCID, intl.makesortlcid, winnt/MAKESORTLCID
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MAKESORTLCID macro
+
+## -syntax
+
+```cpp
+DWORD MAKESORTLCID(
+    WORD lgid,
+    WORD srtid,
+    WORD ver
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the LCID.
 
 
 ## -description

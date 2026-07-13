@@ -51,13 +51,13 @@ Options for handling pixels in a display surface after calling <a href="/windows
 
 ## -enum-fields
 
-### -field DXGI_SWAP_EFFECT_DISCARD
+### -field DXGI_SWAP_EFFECT_DISCARD:0
 
 Use this flag to specify the bit-block transfer (bitblt) model and to specify that DXGI discard the contents of the back buffer after you call <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a>.
             This flag is valid for a swap chain with more than one back buffer, although, applications only have read and write access to buffer 0.
             Use this flag to enable the display driver to select the most efficient presentation technique for the swap chain.
           
-<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must using <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
+<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
 
 <div class="alert"><b>Note</b>  There are differences between full screen exclusive and full screen UWP. If you are porting a Direct3D 11 application to UWP on a Windows PC, be aware that the use of  <b>DXGI_SWAP_EFFECT_DISCARD</b> when creating swap chains does
 not behave the same way in UWP as it does in Win32, and its use may be detrimental to GPU performance.
@@ -69,33 +69,34 @@ The recommended approach is to manually convert DX11 Discard swap chains to use 
  Refer to the Example below, and see <a href="/windows/win32/direct3ddxgi/for-best-performance--use-dxgi-flip-model">this article</a> for more information.</div>
 <div> </div>
 
-### -field DXGI_SWAP_EFFECT_SEQUENTIAL
+### -field DXGI_SWAP_EFFECT_SEQUENTIAL:1
 
 Use this flag to specify the bitblt model and to specify that DXGI persist the contents of the back buffer after you call <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a>.
               Use this option to present the contents of the swap chain in order, from the first buffer (buffer 0) to the last buffer.
               This flag cannot be used with multisampling.
               
-<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must using <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
+<b>Direct3D 12:  </b>This enumeration value is never supported. D3D12 apps must use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
             
 
 <div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="/windows/win32/direct3ddxgi/for-best-performance--use-dxgi-flip-model">this article</a> for more information.</div>
 <div> </div>
 
-### -field DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL
+### -field DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL:3
 
 Use this flag to specify the flip presentation model and to specify that DXGI persist the contents of the back buffer after you call <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a>. This flag cannot be used with multisampling.
             
 
 <b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 8.
 
-### -field DXGI_SWAP_EFFECT_FLIP_DISCARD
+### -field DXGI_SWAP_EFFECT_FLIP_DISCARD:4
 
 Use this flag to specify the flip presentation model and to specify that DXGI discard the contents of the back buffer after you call <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a>.
               This flag cannot be used with multisampling and partial presentation.
               See <a href="/windows/win32/direct3ddxgi/dxgi-1-4-improvements">DXGI 1.4 Improvements</a>.
             
 
-<b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 10.
+<b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 10. 
+This flag is valid for a swap chain with more than one back buffer; although applications have read and write access only to buffer 0.
               
 
 <div class="alert"><b>Note</b>  Windows Store apps must use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> or <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>.
@@ -104,7 +105,7 @@ Use this flag to specify the flip presentation model and to specify that DXGI di
 
 ## -remarks
 
-This enumeration is used by the <a href="/windows/win32/api/dxgi/ns-dxgi-dxgi_swap_chain_desc">DXGI_SWAP_CHAIN_DESC</a> and <a href="/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1">DXGI_SWAP_CHAIN_DESC1</a>structures.
+This enumeration is used by the <a href="/windows/win32/api/dxgi/ns-dxgi-dxgi_swap_chain_desc">DXGI_SWAP_CHAIN_DESC</a> and <a href="/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1">DXGI_SWAP_CHAIN_DESC1</a> structures.
         
 In D3D12, only <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> and <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> are supported, and the bitblt models are not. Because of this, multisampling a back buffer is not supported in D3D12, and you must manually perform multisampling in the app using <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ID3D12GraphicsCommandList::ResolveSubresource</a></b> or <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion">ID3D12GraphicsCommandList1::ResolveSubresourceRegion</a></b>.
 
@@ -114,12 +115,15 @@ To use multisampling with <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b> or <b>DXGI_SWAP_EFF
 The primary difference between presentation models is how back-buffer contents get to the Desktop Window Manager (DWM) for composition. In the bitblt model, which is used with the <b>DXGI_SWAP_EFFECT_DISCARD</b> and <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b> values, contents of the back buffer get copied into the redirection surface on each call to <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a>. In the flip model, which is used with the <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> value, all back buffers are shared with the DWM. Therefore, the DWM can compose straight from those back buffers without any additional copy operations.
           In general, the flip model is the more efficient model. The flip model also provides more features, such as enhanced present statistics.
         
-The difference between <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> and <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> is that <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> forces DXGI to guarantee that the contents of each back buffer is preserved across `IDXGISwapChain::Present` calls, whereas <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> doesn't provide this guarantee. The compositor, under certain scenarios, can use DirectFlip, where it uses the application's back buffer as the entire display back buffer, which elides the cost of copying the application's back buffer into the final desktop back buffer. With <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> and <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>, this optimisation can occur when the application is the only item visible on the screen. However, even when the application is not the only visible item on the screen, if the flip model is <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>, the compositor can in some scenarios still perform this optimisation, by drawing other content onto the application's back buffer.
+The difference between <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> and <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> is that <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> forces DXGI to guarantee that the contents of each back buffer is preserved across `IDXGISwapChain::Present` calls, whereas <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> doesn't provide this guarantee. The compositor, under certain scenarios, can use DirectFlip, where it uses the application's back buffer as the entire display back buffer, which elides the cost of copying the application's back buffer into the final desktop back buffer. With <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> and <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>, this optimization can occur when the application is the only item visible on the screen. However, even when the application is not the only visible item on the screen, if the flip model is <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b>, the compositor can in some scenarios still perform this optimization, by drawing other content onto the application's back buffer.
 
 When you call <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a> on a flip model swap chain (<b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b>) with 0 specified in the <i>SyncInterval</i> parameter, <b>IDXGISwapChain1::Present1</b>'s behavior is the same as the behavior of <a href="/windows/win32/direct3darticles/direct3d-9ex-improvements">Direct3D 9Ex</a>'s <a href="/windows/win32/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex">IDirect3DDevice9Ex::PresentEx</a> with <a href="/windows/win32/direct3d9/d3dswapeffect">D3DSWAPEFFECT_FLIPEX</a> and <a href="/windows/win32/direct3d9/d3dpresent">D3DPRESENT_FORCEIMMEDIATE</a>. That is, the runtime not only presents the next frame instead of any previously queued frames, it also terminates any remaining time left on the previously queued frames.
         
 
 Regardless of whether the flip model is more efficient, an application still might choose the bitblt model because the bitblt model is the only way to mix GDI and DirectX presentation. In the flip model, the application must create the swap chain with <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE</a>, and then must use <a href="/windows/win32/api/dxgi/nf-dxgi-idxgisurface1-getdc">GetDC</a> on the back buffer explicitly. After the first successful call to <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">IDXGISwapChain1::Present1</a> on a flip-model swap chain, GDI no longer works with the <a href="/windows/win32/WinProg/windows-data-types">HWND</a> that is associated with that swap chain, even after the destruction of the swap chain. This restriction even extends to methods like <a href="/windows/win32/api/winuser/nf-winuser-scrollwindowex">ScrollWindowEx</a>.
+        
+
+To display HDR swapchain buffer formats and color spaces, a flip model is required. Otherwise they get composed (and clipped) in SDR (sRGB with a 0-1 range).
         
 
 For more info about the flip-model swap chain and optimizing presentation, see <a href="/windows/win32/direct3ddxgi/dxgi-1-2-presentation-improvements">Enhancing presentation with the flip model, dirty rectangles, and scrolled areas</a>.
@@ -130,7 +134,9 @@ For more info about the flip-model swap chain and optimizing presentation, see <
 
 To create a swap chain in UWP, you just need to create a new instance of the DX11 template and look at the implementation of <code>DeviceResources::CreateWindowSizeDependentResources</code> in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">D3D12 samples</a>.
 
-<pre class="syntax" xml:space="preserve"><code>DXGI_SWAP_CHAIN_DESC1 swapChainDesc = {0};
+
+``` syntax
+DXGI_SWAP_CHAIN_DESC1 swapChainDesc = {0};
 
        swapChainDesc.Width = lround(m_d3dRenderTargetSize.Width);    // Match the size of the window.
        swapChainDesc.Height = lround(m_d3dRenderTargetSize.Height);
@@ -146,26 +152,28 @@ To create a swap chain in UWP, you just need to create a new instance of the DX1
        swapChainDesc.AlphaMode = DXGI_ALPHA_MODE_IGNORE;
 
        // This sequence obtains the DXGI factory that was used to create the Direct3D device above.
-       ComPtr&lt;IDXGIDevice3&gt; dxgiDevice;
-       DX::ThrowIfFailed(m_d3dDevice.As(&amp;dxgiDevice));
+       ComPtr<IDXGIDevice3> dxgiDevice;
+       DX::ThrowIfFailed(m_d3dDevice.As(&dxgiDevice));
 
-       ComPtr&lt;IDXGIAdapter&gt; dxgiAdapter;
-       DX::ThrowIfFailed(dxgiDevice-&gt;GetAdapter(&amp;dxgiAdapter));
+       ComPtr<IDXGIAdapter> dxgiAdapter;
+       DX::ThrowIfFailed(dxgiDevice->GetAdapter(&dxgiAdapter));
 
-       ComPtr&lt;IDXGIFactory4&gt; dxgiFactory;
-       DX::ThrowIfFailed(dxgiAdapter-&gt;GetParent(IID_PPV_ARGS(&amp;dxgiFactory)));
+       ComPtr<IDXGIFactory4> dxgiFactory;
+       DX::ThrowIfFailed(dxgiAdapter->GetParent(IID_PPV_ARGS(&dxgiFactory)));
 
-       ComPtr&lt;IDXGISwapChain1&gt; swapChain;
+       ComPtr<IDXGISwapChain1> swapChain;
        DX::ThrowIfFailed(
-              dxgiFactory-&gt;CreateSwapChainForCoreWindow(
+              dxgiFactory->CreateSwapChainForCoreWindow(
                      m_d3dDevice.Get(),
-                     reinterpret_cast&lt;IUnknown*&gt;(m_window.Get()),
-                     &amp;swapChainDesc,
+                     reinterpret_cast<IUnknown*>(m_window.Get()),
+                     &swapChainDesc,
                      nullptr,
-                     &amp;swapChain
+                     &swapChain
                      )
               );
-</code></pre>
+
+```
+
 
 ## -see-also
 

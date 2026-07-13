@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetLine","Edit_GetLine macro [Windows Controls]","_w
 old-location: controls\Edit_GetLine.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getline.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_GetLine, Edit_GetLine macro [Windows Controls], _win32_Edit_GetLine, _win32_Edit_GetLine_cpp, controls.Edit_GetLine, controls._win32_Edit_GetLine, windowsx/Edit_GetLine
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # Edit_GetLine macro
+
+## -syntax
+
+```cpp
+int Edit_GetLine(
+   HWND   hwndCtl,
+   int    line,
+   LPTSTR lpch,
+   int    cchMax
+);
+```
+
+## -returns
+
+Type: **int**
+
+The return value is the number of <b>TCHAR</b>s copied. The return value is zero if the line number specified by the <i>line</i> parameter is greater than the number of lines in the edit control.
 
 
 ## -description

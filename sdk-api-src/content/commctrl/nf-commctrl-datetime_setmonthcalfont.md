@@ -6,7 +6,7 @@ helpviewer_keywords: ["DateTime_SetMonthCalFont","DateTime_SetMonthCalFont macro
 old-location: controls\DateTime_SetMonthCalFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalfont.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DateTime_SetMonthCalFont, DateTime_SetMonthCalFont macro [Windows Controls], _win32_DateTime_SetMonthCalFont, _win32_DateTime_SetMonthCalFont_cpp, commctrl/DateTime_SetMonthCalFont, controls.DateTime_SetMonthCalFont, controls._win32_DateTime_SetMonthCalFont
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # DateTime_SetMonthCalFont macro
+
+## -syntax
+
+```cpp
+void DateTime_SetMonthCalFont(
+   HWND  hdp,
+   HFONT hfont,
+   long  fRedraw
+);
+```
 
 
 ## -description

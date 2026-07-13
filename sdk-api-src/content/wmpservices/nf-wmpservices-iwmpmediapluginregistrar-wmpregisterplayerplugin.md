@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin","IWMPMe
 old-location: wmp\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm
 tech.root: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
 req.header: wmpservices.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin</b> function adds information to the registry that identifies a Windows Media Player plug-in.
 

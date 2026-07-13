@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of a file system type.
 
@@ -86,7 +86,7 @@ A string containing all characters that are not valid for this file system type.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">IVdsService::QueryFileSystemTypes</a>method returns this structure to report the property details of a file-system type.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">IVdsService::QueryFileSystemTypes</a> method returns this structure to report the property details of a file-system type.
 
 ## -see-also
 

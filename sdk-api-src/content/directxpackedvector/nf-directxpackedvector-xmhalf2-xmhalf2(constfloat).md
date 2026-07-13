@@ -52,7 +52,7 @@ api_name:
 
 Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf2">XMHALF2</a> from a two element <code>float</code> array argument.
 
-This constructor initializes a new instance of** XMHALF2** from a two element <code>float</code> array argument.
+This constructor initializes a new instance of **XMHALF2** from a two element <code>float</code> array argument.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 

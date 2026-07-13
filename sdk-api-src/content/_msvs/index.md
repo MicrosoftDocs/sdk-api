@@ -4,7 +4,8 @@ title: Microsoft Virtual Server
 ms.assetid: 459a1035-086f-3028-856c-ee41bb56878c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
+ms.update-cycle: 1095-days
 ---
 
 # Microsoft Virtual Server

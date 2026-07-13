@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.put_ClientApplicationID
 title: IUpdateInstaller::put_ClientApplicationID (wuapi.h)
-description: Gets and sets the current client application.
+description: Gets and sets the current client application. (IUpdateInstaller.put_ClientApplicationID)
 helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateInstaller interface","IUpdateInstaller interface [Windows Update Agent]","ClientApplicationID property","IUpdateInstaller.ClientApplicationID","IUpdateInstaller.put_ClientApplicationID","IUpdateInstaller::ClientApplicationID","IUpdateInstaller::get_ClientApplicationID","IUpdateInstaller::put_ClientApplicationID","put_ClientApplicationID","wua.iupdateinstaller_clientapplicationid","wuapi/IUpdateInstaller::ClientApplicationID","wuapi/IUpdateInstaller::get_ClientApplicationID","wuapi/IUpdateInstaller::put_ClientApplicationID"]
 old-location: wua\iupdateinstaller_clientapplicationid.htm
 tech.root: wua

@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PENCLAVE_CREATE_INFO_SGX","ENCLAVE_CREATE_INFO_SGX","ENC
 old-location: base\enclave_create_info_sgx.htm
 tech.root: base
 ms.assetid: 51ED6E75-DA18-4CCE-8718-46328DD62B07
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: '*PENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX structure, PENCLAVE_CREATE_INFO_SGX, PENCLAVE_CREATE_INFO_SGX structure pointer, base.enclave_create_info_sgx, winnt/ENCLAVE_CREATE_INFO_SGX, winnt/PENCLAVE_CREATE_INFO_SGX'
 req.header: winnt.h
 req.include-header: 
@@ -51,25 +51,24 @@ api_name:
 
 # ENCLAVE_CREATE_INFO_SGX structure
 
-
 ## -description
 
-Contains architecture-specific information to use to create an enclave when the enclave type is <b>ENCLAVE_TYPE_SGX</b>, which specifies an enclave for the Intel Software Guard Extensions (SGX) architecture extension.
+Contains architecture-specific information to use to create an enclave when the enclave type is **ENCLAVE_TYPE_SGX** or **ENCLAVE_TYPE_SGX2**, which specifies an enclave for one of the Intel Software Guard Extensions (SGX) architecture extensions.
 
 ## -struct-fields
 
 ### -field Secs
 
-The SGX enclave control structure (<b>SECS</b>) to use to create the enclave.
+The SGX enclave control structure (**SECS**) to use to create the enclave.
 
 ## -remarks
 
-For more information about the <b>SECS</b> structure, see the Intel SGX Programming Reference that is available from <a href="https://software.intel.com/sgx">Intel Software Guard Extensions</a>.
+For more information about the **SECS** structure, see the Intel SGX Programming Reference that is available from [Intel Software Guard Extensions](https://software.intel.com/sgx).
 
 ## -see-also
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
+[Enclave Structures](/windows/win32/trusted-execution/enclaves-structures)
 
+[CreateEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-createenclave)
 
-
-<a href="/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
+[ENCLAVE_INIT_INFO_SGX](/windows/win32/api/winnt/ns-winnt-enclave_init_info_sgx)

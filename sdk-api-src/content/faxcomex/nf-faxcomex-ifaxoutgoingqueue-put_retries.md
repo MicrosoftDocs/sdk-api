@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_Retries
 title: IFaxOutgoingQueue::put_Retries (faxcomex.h)
-description: The IFaxOutgoingQueue::get_Retries property is a value that indicates the number of times that the fax service attempts to retransmit an outgoing fax when the initial transmission fails.
+description: The IFaxOutgoingQueue::get_Retries property is a value that indicates the number of times that the fax service attempts to retransmit an outgoing fax when the initial transmission fails. (Put)
 helpviewer_keywords: ["IFaxOutgoingQueue interface [Fax Service]","Retries property","IFaxOutgoingQueue.Retries","IFaxOutgoingQueue.get_Retries","IFaxOutgoingQueue.put_Retries","IFaxOutgoingQueue::Retries","IFaxOutgoingQueue::get_Retries","IFaxOutgoingQueue::put_Retries","Retries property [Fax Service]","Retries property [Fax Service]","IFaxOutgoingQueue interface","_mfax_faxoutgoingqueue.retries","fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retries_cpp","fax._mfax_faxoutgoingqueue_retries","faxcomex/IFaxOutgoingQueue::Retries","faxcomex/IFaxOutgoingQueue::get_Retries","faxcomex/IFaxOutgoingQueue::put_Retries","put_Retries"]
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retries_cpp.htm
 tech.root: Fax

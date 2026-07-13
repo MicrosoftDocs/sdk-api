@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Termsrv uses this method to tell protocol stack  which mode it is 
     operating.
@@ -67,5 +67,5 @@ S_OK or error code.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832805(v=VS.85).aspx">IWRdsWddmIddProps</a>
+<a href="nn-wtsprotocol-iwrdswddmiddprops.md">IWRdsWddmIddProps</a>
 

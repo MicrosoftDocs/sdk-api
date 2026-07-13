@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Uint64A
 title: MI_Uint64A (mi.h)
-description: Represents an array of MI_Uint64 types.
+description: Represents an array of MI_Uint64 types. (MI_Uint64A)
 helpviewer_keywords: ["MI_Uint64A","MI_Uint64A structure [Windows Management Infrastructure (MI)]","mi/MI_Uint64A","wmi._mi_uint64a","wmi_v2.mi_uint64a"]
 old-location: wmi_v2\mi_uint64a.htm
 tech.root: wmi_v2

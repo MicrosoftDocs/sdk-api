@@ -54,47 +54,47 @@ Describes the relative description type for a property description, as determine
 
 ## -enum-fields
 
-### -field PDRDT_GENERAL
+### -field PDRDT_GENERAL:0
 
 General type.
 
-### -field PDRDT_DATE
+### -field PDRDT_DATE:1
 
 Date type.
 
-### -field PDRDT_SIZE
+### -field PDRDT_SIZE:2
 
 Size type.
 
-### -field PDRDT_COUNT
+### -field PDRDT_COUNT:3
 
 Count type.
 
-### -field PDRDT_REVISION
+### -field PDRDT_REVISION:4
 
 Revision type.
 
-### -field PDRDT_LENGTH
+### -field PDRDT_LENGTH:5
 
 Length type.
 
-### -field PDRDT_DURATION
+### -field PDRDT_DURATION:6
 
 Duration type.
 
-### -field PDRDT_SPEED
+### -field PDRDT_SPEED:7
 
 Speed type.
 
-### -field PDRDT_RATE
+### -field PDRDT_RATE:8
 
 Rate type.
 
-### -field PDRDT_RATING
+### -field PDRDT_RATING:9
 
 Rating type.
 
-### -field PDRDT_PRIORITY
+### -field PDRDT_PRIORITY:10
 
 Priority type.
 

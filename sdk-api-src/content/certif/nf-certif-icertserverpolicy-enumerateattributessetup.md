@@ -1,7 +1,7 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateAttributesSetup
 title: ICertServerPolicy::EnumerateAttributesSetup (certif.h)
-description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
+description: Initializes the internal enumeration pointer to the first request attribute associated with the current context. (ICertServerPolicy.EnumerateAttributesSetup)
 helpviewer_keywords: ["CCertServerPolicy object [Security]","EnumerateAttributesSetup method","EnumerateAttributesSetup","EnumerateAttributesSetup method [Security]","EnumerateAttributesSetup method [Security]","CCertServerPolicy object","EnumerateAttributesSetup method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","EnumerateAttributesSetup method","ICertServerPolicy.EnumerateAttributesSetup","ICertServerPolicy::EnumerateAttributesSetup","_certsrv_icertserverpolicy_enumerateattributessetup","certif/ICertServerPolicy::EnumerateAttributesSetup","security.icertserverpolicy_enumerateattributessetup"]
 old-location: security\icertserverpolicy_enumerateattributessetup.htm
 tech.root: security

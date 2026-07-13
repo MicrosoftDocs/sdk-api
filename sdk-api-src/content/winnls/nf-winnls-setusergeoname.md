@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
 api_name:
  - SetUserGeoName
@@ -110,7 +112,7 @@ This function writes to the registry the geographical location for a particular 
 
 For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.org/iso-3166-country-codes.html">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://unstats.un.org/unsd/methodology/m49/">Standard country or area codes for statistical use (M49)</a>.
 
-<b>SetUserGeoName</b> is intended for use by applications that are designed to change user settings, such as the Windows Settings app. Other applications should not call this function.
+<b>SetUserGeoName</b> is intended for use by applications that are designed to change user settings, such as in Windows Settings. Other applications should not call this function.
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReader interface [windows Media Format]","Open method"
 old-location: wmformat\iwmreader_open.htm
 tech.root: wmformat
 ms.assetid: ab5b7f9e-b647-4121-abb3-2c9deb1f50cc
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReader interface [windows Media Format],Open method, IWMReader.Open, IWMReader::Open, IWMReaderOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMReader interface, wmformat.iwmreader_open, wmsdkidl/IWMReader::Open
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>Open</b> method opens an ASF file for reading.
 
@@ -128,7 +130,7 @@ The method failed for an unspecified reason.
 
 This method is asynchronous; it returns very quickly and sends a WMT_OPENED status notification to the application's <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method when the file is opened and ready for use.
 
-Because the method returns before the file is opened, a return value of S_OK does not necessarily mean that the file has been opened successfully. To ascertain the success of the call, you must check the value of of the <i>hr</i> parameter of <b>OnStatus</b> when the WMT_OPENED notification is received.
+Because the method returns before the file is opened, a return value of S_OK does not necessarily mean that the file has been opened successfully. To ascertain the success of the call, you must check the value of the <i>hr</i> parameter of <b>OnStatus</b> when the WMT_OPENED notification is received.
 
 If <i>hr</i> equals NS_E_NO_STREAM it means that the header is not yet available, and that a WMT_SOURCE_SWITCH event will be sent as soon as the header becomes available. No WMT_EOF will be sent before the WMT_SOURCE_SWITCH.
 

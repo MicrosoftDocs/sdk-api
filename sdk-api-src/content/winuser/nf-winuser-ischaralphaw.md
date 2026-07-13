@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.IsCharAlphaW
 title: IsCharAlphaW function (winuser.h)
-description: Determines whether a character is an alphabetical character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
-helpviewer_keywords: ["IsCharAlpha","IsCharAlpha function [Menus and Other Resources]","IsCharAlphaA","IsCharAlphaW","_win32_IsCharAlpha","_win32_ischaralpha_cpp","menurc.ischaralpha","winui._win32_ischaralpha","winuser/IsCharAlpha","winuser/IsCharAlphaA","winuser/IsCharAlphaW"]
+description: Determines whether a character is an alphabetical character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. (Unicode)
+helpviewer_keywords: ["IsCharAlpha", "IsCharAlpha function [Menus and Other Resources]", "IsCharAlphaW", "_win32_IsCharAlpha", "_win32_ischaralpha_cpp", "menurc.ischaralpha", "winui._win32_ischaralpha", "winuser/IsCharAlpha", "winuser/IsCharAlphaW"]
 old-location: menurc\ischaralpha.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischaralpha.htm
@@ -95,4 +95,4 @@ If the character is not alphabetical, the return value is zero. To get extended 
 ## -remarks
 
 > [!NOTE]
-> The winuser.h header defines IsCharAlpha as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines IsCharAlpha as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

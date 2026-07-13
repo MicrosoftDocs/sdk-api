@@ -1,12 +1,12 @@
 ---
 UID: NF:fileapi.CreateFileW
 title: CreateFileW function (fileapi.h)
-description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.
-helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFile","CreateFile function [Files]","CreateFileA","CreateFileW","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_FLAG_BACKUP_SEMANTICS","FILE_FLAG_DELETE_ON_CLOSE","FILE_FLAG_NO_BUFFERING","FILE_FLAG_OPEN_NO_RECALL","FILE_FLAG_OPEN_REPARSE_POINT","FILE_FLAG_OVERLAPPED","FILE_FLAG_POSIX_SEMANTICS","FILE_FLAG_RANDOM_ACCESS","FILE_FLAG_SEQUENTIAL_SCAN","FILE_FLAG_SESSION_AWARE","FILE_FLAG_WRITE_THROUGH","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","OPEN_ALWAYS","OPEN_EXISTING","SECURITY_ANONYMOUS","SECURITY_CONTEXT_TRACKING","SECURITY_DELEGATION","SECURITY_EFFECTIVE_ONLY","SECURITY_IDENTIFICATION","SECURITY_IMPERSONATION","TRUNCATE_EXISTING","_win32_createfile","base.createfile","fileapi/CreateFile","fileapi/CreateFileA","fileapi/CreateFileW","fs.createfile","winbase/CreateFile","winbase/CreateFileA","winbase/CreateFileW"]
+description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe. (Unicode)
+helpviewer_keywords: ["0", "CREATE_ALWAYS", "CREATE_NEW", "CreateFile", "CreateFile function [Files]", "CreateFileW", "FILE_ATTRIBUTE_ARCHIVE", "FILE_ATTRIBUTE_ENCRYPTED", "FILE_ATTRIBUTE_HIDDEN", "FILE_ATTRIBUTE_NORMAL", "FILE_ATTRIBUTE_OFFLINE", "FILE_ATTRIBUTE_READONLY", "FILE_ATTRIBUTE_SYSTEM", "FILE_ATTRIBUTE_TEMPORARY", "FILE_FLAG_BACKUP_SEMANTICS", "FILE_FLAG_DELETE_ON_CLOSE", "FILE_FLAG_NO_BUFFERING", "FILE_FLAG_OPEN_NO_RECALL", "FILE_FLAG_OPEN_REPARSE_POINT", "FILE_FLAG_OVERLAPPED", "FILE_FLAG_POSIX_SEMANTICS", "FILE_FLAG_RANDOM_ACCESS", "FILE_FLAG_SEQUENTIAL_SCAN", "FILE_FLAG_SESSION_AWARE", "FILE_FLAG_WRITE_THROUGH", "FILE_SHARE_DELETE", "FILE_SHARE_READ", "FILE_SHARE_WRITE", "OPEN_ALWAYS", "OPEN_EXISTING", "SECURITY_ANONYMOUS", "SECURITY_CONTEXT_TRACKING", "SECURITY_DELEGATION", "SECURITY_EFFECTIVE_ONLY", "SECURITY_IDENTIFICATION", "SECURITY_IMPERSONATION", "TRUNCATE_EXISTING", "_win32_createfile", "base.createfile", "fileapi/CreateFile", "fileapi/CreateFileW", "fs.createfile"]
 old-location: fs\createfile.htm
 tech.root: fs
 ms.assetid: 80a96083-4de9-4422-9705-b8ad2b6cbd1b
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile, CreateFile function [Files], CreateFileA, CreateFileW, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, TRUNCATE_EXISTING, _win32_createfile, base.createfile, fileapi/CreateFile, fileapi/CreateFileA, fileapi/CreateFileW, fs.createfile, winbase/CreateFile, winbase/CreateFileA, winbase/CreateFileW
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -73,8 +76,7 @@ To perform this operation as a transacted operation, which results in a handle t
 
 The name of the file or device to be created or opened. You may use either forward slashes (/) or backslashes (\\) in this name.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-To extend this limit to 32,767 wide characters, use this Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+
 
 For information on special device names, see 
        <a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
@@ -82,8 +84,10 @@ For information on special device names, see
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more 
        information, see <a href="/windows/desktop/FileIO/file-streams">File Streams</a>.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param dwDesiredAccess [in]
 
@@ -142,8 +146,7 @@ To enable a process to share a file or device while another process has the file
 </dl>
 </td>
 <td width="60%">
-Prevents other processes from opening a file or device if they request delete, read, or write access.
-
+Prevents subsequent open operations on a file or device if they request delete, read, or write access.
 </td>
 </tr>
 <tr>
@@ -155,7 +158,7 @@ Prevents other processes from opening a file or device if they request delete, r
 <td width="60%">
 Enables subsequent open operations on a file or device to request delete access.
 
-Otherwise, other processes cannot open the file or device if they request delete access.
+Otherwise, no process can open the file or device if it requests delete access.
 
 If this flag is not specified, but the file or device has been opened for delete access, the function 
          fails.
@@ -173,7 +176,7 @@ If this flag is not specified, but the file or device has been opened for delete
 <td width="60%">
 Enables subsequent open operations on a file or device to request read access.
 
-Otherwise, other processes cannot open the file or device if they request read access.
+Otherwise, no process can open the file or device if it requests read access.
 
 If this flag is not specified, but the file or device has been opened for read access, the function 
          fails.
@@ -189,7 +192,7 @@ If this flag is not specified, but the file or device has been opened for read a
 <td width="60%">
 Enables subsequent open operations on a file or device to request write access.
 
-Otherwise, other processes cannot open the file or device if they request write access.
+Otherwise, no process can open the file or device if it requests write access.
 
 If this flag is not specified, but the file or device has been opened for write access or has a file mapping 
          with write access, the function fails.
@@ -200,7 +203,7 @@ If this flag is not specified, but the file or device has been opened for write 
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure that contains two separate but related data members: an optional security descriptor, and a Boolean 
        value that determines whether the returned handle can be inherited by child processes.
 
@@ -220,7 +223,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
        <b>lpSecurityDescriptor</b> member when opening an existing file or device, but continues 
        to use the <b>bInheritHandle</b> member.
 
-The <b>bInheritHandle</b>member of the structure specifies whether the returned handle 
+The <b>bInheritHandle</b> member of the structure specifies whether the returned handle 
        can be inherited.
 
 For more information, see the Remarks section.
@@ -249,7 +252,7 @@ This parameter must be one of the following values, which cannot be combined:
 <td width="60%">
 Creates a new file, always.
 
-If the specified file exists and is writable, the function overwrites the file, the function succeeds, and 
+If the specified file exists and is writable, the function truncates the file, the function succeeds, and 
          last-error code is set to <b>ERROR_ALREADY_EXISTS</b> (183).
 
 If the specified file does not exist and is a valid path, a new file is created, the function succeeds, and 
@@ -574,7 +577,7 @@ If this flag is not specified, then I/O operations are serialized, even if the c
          functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 For information about considerations when using a file handle created with this flag, see the 
-         <a href="https://docs.microsoft.com/">Synchronous and Asynchronous I/O Handles</a> 
+         <a href="#synchronous_and_asynchronous_i_o_handles">Synchronous and Asynchronous I/O Handles</a> 
          section of this topic.
 
 </td>
@@ -1046,10 +1049,7 @@ For more information, see
       <a href="/windows/desktop/FileIO/about-directory-management">About Directory Management</a>.
 
 <h3><a id="Physical_Disks_and_Volumes"></a><a id="physical_disks_and_volumes"></a><a id="PHYSICAL_DISKS_AND_VOLUMES"></a>Physical Disks and Volumes</h3>
-Direct access to the disk or to a volume is restricted. For more information, see 
-      "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
-      in the Help and Support Knowledge Base at 
-      <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
+Direct access to the disk or to a volume is restricted. 
 
 <b>Windows Server 2003 and Windows XP:  </b>Direct access to the disk or to a volume is not restricted in this manner.
 
@@ -1068,9 +1068,9 @@ The following requirements must be met for such a call to succeed:
 <li>The caller must have administrative privileges. For more information, see 
        <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
 <li>The <i>dwCreationDisposition</i> parameter must have the 
-       <b>OPEN_EXISTING</b>flag.</li>
+      <b>OPEN_EXISTING</b> flag.</li>
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
-       <b>FILE_SHARE_WRITE</b>flag.</li>
+      <b>FILE_SHARE_WRITE</b> flag.</li>
 </ul>
 <div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
@@ -1109,7 +1109,7 @@ For an example of opening a physical drive, see
 
 When opening a volume or removable media drive (for example, a floppy disk drive or flash memory thumb drive), 
       the <i>lpFileName</i> string should be the following form: 
-      "\\.&#92;<i>X</i>:". Do not use a trailing backslash 
+      "&#92;&#92;.&#92;<i>X</i>:". Do not use a trailing backslash 
       (\\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
 
 <table>
@@ -1211,10 +1211,10 @@ Use the CONOUT$ value to specify console output.
 CONIN$ gets a handle to the console input buffer, even if the 
          <a href="/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="/windows/console/getstdhandle">GetStdHandle</a>function.
+         <a href="/windows/console/getstdhandle">GetStdHandle</a> function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="/windows/console/setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> redirects the standard output handle. To 
          get the standard output handle, use <a href="/windows/console/getstdhandle">GetStdHandle</a>.
 
 </td>
@@ -1252,7 +1252,7 @@ If the calling process inherits the console, or if a child process should be abl
 </td>
 <td>
 If you want the console to be inherited, the <b>bInheritHandle</b> member of the 
-         <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure 
+         <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure 
          must be <b>TRUE</b>.
 
 </td>
@@ -1321,7 +1321,7 @@ The following table shows various settings of <i>dwDesiredAccess</i> and
  
 
 <h3><a id="Mailslots"></a><a id="mailslots"></a><a id="MAILSLOTS"></a>Mailslots</h3>
-If <b>CreateFile</b>opens the client end of a mailslot, the 
+If <b>CreateFile</b> opens the client end of a mailslot, the 
       function returns <b>INVALID_HANDLE_VALUE</b> if the mailslot client attempts to open a local 
       mailslot before the mailslot server has created it with the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a> function.
@@ -1333,7 +1333,7 @@ If <b>CreateFile</b> opens the client end of a named pipe, the
       function uses any instance of the named pipe that is in the listening state. The opening process can duplicate 
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
-      specified in the <i>dwOpenMode</i>parameter of the 
+      specified in the <i>dwOpenMode</i> parameter of the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 
@@ -1403,10 +1403,10 @@ Example file operations are shown in the following topics:
 <a href="/windows/desktop/FileIO/walking-a-buffer-of-change-journal-records">Walking a Buffer of Change Journal Records</a>
 </li>
 <li>
-<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
 </li>
 <li>
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
 </li>
 </ul>
 Physical device I/O is demonstrated in the following topics:
@@ -1440,7 +1440,7 @@ A tape backup code snippet can found at
 
 
 > [!NOTE]
-> The fileapi.h header defines CreateFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The fileapi.h header defines CreateFile as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets a value indicating if the connecting to Web audio should delay the page's load event.
 
-## -parameters
+
 
 ## -returns
 

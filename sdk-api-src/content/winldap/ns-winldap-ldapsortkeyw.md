@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldapsortkeyW
 title: LDAPSortKeyW (winldap.h)
-description: The LDAPSortKey structure stores sorting criteria for use by sort controls.
+description: The LDAPSortKey structure stores sorting criteria for use by sort controls. (Unicode)
 helpviewer_keywords: ["*PLDAPSortKeyW","LDAPSortKey","LDAPSortKey structure [LDAP]","LDAPSortKeyA","LDAPSortKeyW","PLDAPSortKey","PLDAPSortKey structure pointer [LDAP]","_ldap_ldapsortkey","ldap.ldapsortkey","winldap/LDAPSortKey","winldap/LDAPSortKeyA","winldap/LDAPSortKeyW","winldap/PLDAPSortKey"]
 old-location: ldap\ldapsortkey.htm
 tech.root: ldap
@@ -83,7 +83,7 @@ The
 
 
 > [!NOTE]
-> The winldap.h header defines LDAPSortKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winldap.h header defines LDAPSortKey as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetHandle","Edit_SetHandle macro [Windows Controls]"
 old-location: controls\Edit_SetHandle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_sethandle.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: Edit_SetHandle, Edit_SetHandle macro [Windows Controls], _win32_Edit_SetHandle, _win32_Edit_SetHandle_cpp, controls.Edit_SetHandle, controls._win32_Edit_SetHandle, windowsx/Edit_SetHandle
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Edit_SetHandle macro
+
+## -syntax
+
+```cpp
+void Edit_SetHandle(
+   HWND   hwndCtl,
+   HLOCAL h
+);
+```
 
 
 ## -description

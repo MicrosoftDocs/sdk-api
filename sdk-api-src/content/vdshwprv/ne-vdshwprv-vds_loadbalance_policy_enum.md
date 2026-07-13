@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_LOADBALANCE_POLICY_ENUM
 title: VDS_LOADBALANCE_POLICY_ENUM (vdshwprv.h)
-description: Defines a set of valid load balance policies for a path.
+description: The VDS_LOADBALANCE_POLICY_ENUM enumeration (vdshwprv.h) defines a set of valid load balance policies for a path.
 helpviewer_keywords: ["VDS_LBP_DYN_LEAST_QUEUE_DEPTH","VDS_LBP_FAILOVER","VDS_LBP_LEAST_BLOCKS","VDS_LBP_ROUND_ROBIN","VDS_LBP_ROUND_ROBIN_WITH_SUBSET","VDS_LBP_UNKNOWN","VDS_LBP_VENDOR_SPECIFIC","VDS_LBP_WEIGHTED_PATHS","VDS_LOADBALANCE_POLICY_ENUM","VDS_LOADBALANCE_POLICY_ENUM enumeration [VDS]","base.vds_loadbalance_policy_enum","vds/VDS_LBP_DYN_LEAST_QUEUE_DEPTH","vds/VDS_LBP_FAILOVER","vds/VDS_LBP_LEAST_BLOCKS","vds/VDS_LBP_ROUND_ROBIN","vds/VDS_LBP_ROUND_ROBIN_WITH_SUBSET","vds/VDS_LBP_UNKNOWN","vds/VDS_LBP_VENDOR_SPECIFIC","vds/VDS_LBP_WEIGHTED_PATHS","vds/VDS_LOADBALANCE_POLICY_ENUM","vdshwprv/VDS_LBP_DYN_LEAST_QUEUE_DEPTH","vdshwprv/VDS_LBP_FAILOVER","vdshwprv/VDS_LBP_LEAST_BLOCKS","vdshwprv/VDS_LBP_ROUND_ROBIN","vdshwprv/VDS_LBP_ROUND_ROBIN_WITH_SUBSET","vdshwprv/VDS_LBP_UNKNOWN","vdshwprv/VDS_LBP_VENDOR_SPECIFIC","vdshwprv/VDS_LBP_WEIGHTED_PATHS","vdshwprv/VDS_LOADBALANCE_POLICY_ENUM"]
 old-location: base\vds_loadbalance_policy_enum.htm
 tech.root: base
 ms.assetid: 0391c605-3808-4c24-8638-77b1fe3342bf
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_LBP_DYN_LEAST_QUEUE_DEPTH, VDS_LBP_FAILOVER, VDS_LBP_LEAST_BLOCKS, VDS_LBP_ROUND_ROBIN, VDS_LBP_ROUND_ROBIN_WITH_SUBSET, VDS_LBP_UNKNOWN, VDS_LBP_VENDOR_SPECIFIC, VDS_LBP_WEIGHTED_PATHS, VDS_LOADBALANCE_POLICY_ENUM, VDS_LOADBALANCE_POLICY_ENUM enumeration [VDS], base.vds_loadbalance_policy_enum, vds/VDS_LBP_DYN_LEAST_QUEUE_DEPTH, vds/VDS_LBP_FAILOVER, vds/VDS_LBP_LEAST_BLOCKS, vds/VDS_LBP_ROUND_ROBIN, vds/VDS_LBP_ROUND_ROBIN_WITH_SUBSET, vds/VDS_LBP_UNKNOWN, vds/VDS_LBP_VENDOR_SPECIFIC, vds/VDS_LBP_WEIGHTED_PATHS, vds/VDS_LOADBALANCE_POLICY_ENUM, vdshwprv/VDS_LBP_DYN_LEAST_QUEUE_DEPTH, vdshwprv/VDS_LBP_FAILOVER, vdshwprv/VDS_LBP_LEAST_BLOCKS, vdshwprv/VDS_LBP_ROUND_ROBIN, vdshwprv/VDS_LBP_ROUND_ROBIN_WITH_SUBSET, vdshwprv/VDS_LBP_UNKNOWN, vdshwprv/VDS_LBP_VENDOR_SPECIFIC, vdshwprv/VDS_LBP_WEIGHTED_PATHS, vdshwprv/VDS_LOADBALANCE_POLICY_ENUM
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,43 +53,43 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines a set of valid load balance policies for a path. These policies correspond to the 
    definitions in the DSM MOF.
 
 ## -enum-fields
 
-### -field VDS_LBP_UNKNOWN
+### -field VDS_LBP_UNKNOWN:0
 
 The policy is unknown.
 
-### -field VDS_LBP_FAILOVER
+### -field VDS_LBP_FAILOVER:1
 
 The policy uses one primary path with other paths being backup paths.
 
-### -field VDS_LBP_ROUND_ROBIN
+### -field VDS_LBP_ROUND_ROBIN:2
 
 The policy uses all paths in round-robin fashion.
 
-### -field VDS_LBP_ROUND_ROBIN_WITH_SUBSET
+### -field VDS_LBP_ROUND_ROBIN_WITH_SUBSET:3
 
 The policy uses primary paths in round-robin fashion. The backup paths are used if all of the primary paths 
      fail.
 
-### -field VDS_LBP_DYN_LEAST_QUEUE_DEPTH
+### -field VDS_LBP_DYN_LEAST_QUEUE_DEPTH:4
 
 The policy uses the path with the least number of active requests.
 
-### -field VDS_LBP_WEIGHTED_PATHS
+### -field VDS_LBP_WEIGHTED_PATHS:5
 
 The policy uses the path with the least weight (each path is assigned a weight).
 
-### -field VDS_LBP_LEAST_BLOCKS
+### -field VDS_LBP_LEAST_BLOCKS:6
 
 The policy uses the path with the least blocks.
 
-### -field VDS_LBP_VENDOR_SPECIFIC
+### -field VDS_LBP_VENDOR_SPECIFIC:7
 
 The policy is a vendor-specific policy.
 

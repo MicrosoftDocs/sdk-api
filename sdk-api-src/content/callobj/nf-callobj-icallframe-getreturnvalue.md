@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the return value stored in the call frame.
 
-## -parameters
+
 
 ## -returns
 

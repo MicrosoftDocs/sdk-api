@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_32
+UID: NS:lpmapi.IS_ADSPEC_BODY
 title: IS_ADSPEC_BODY (lpmapi.h)
 description: The IS_ADSPEC_BODY structure contains Integrated Services Adspec information.
 helpviewer_keywords: ["IS_ADSPEC_BODY","IS_ADSPEC_BODY structure [QOS]","lpmapi/IS_ADSPEC_BODY","qos.is_adspec_body"]
@@ -70,3 +70,4 @@ The variable-length fragments that follow the <b>adspec_genparams</b> member can
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a>
+

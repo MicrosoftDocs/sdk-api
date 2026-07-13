@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_DefaultOutboundAction
 title: INetFwPolicy2::get_DefaultOutboundAction (netfw.h)
-description: Specifies the default action for outbound traffic. These settings are Allow by default.
+description: Specifies the default action for outbound traffic. These settings are Allow by default. (Get)
 helpviewer_keywords: ["DefaultOutboundAction property [ICS/ICF]","DefaultOutboundAction property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","DefaultOutboundAction property","INetFwPolicy2.DefaultOutboundAction","INetFwPolicy2.get_DefaultOutboundAction","INetFwPolicy2::DefaultOutboundAction","INetFwPolicy2::get_DefaultOutboundAction","INetFwPolicy2::put_DefaultOutboundAction","get_DefaultOutboundAction","ics.inetfwpolicy2_defaultoutboundaction","netfw/INetFwPolicy2::DefaultOutboundAction","netfw/INetFwPolicy2::get_DefaultOutboundAction","netfw/INetFwPolicy2::put_DefaultOutboundAction"]
 old-location: ics\inetfwpolicy2_defaultoutboundaction.htm
 tech.root: ics

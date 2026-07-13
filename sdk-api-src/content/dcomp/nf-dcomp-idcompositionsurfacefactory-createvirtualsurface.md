@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionSurfaceFactory.CreateVirtualSurface
 title: IDCompositionSurfaceFactory::CreateVirtualSurface (dcomp.h)
-description: Creates a sparsely populated surface that can be associated with one or more visuals for composition.
+description: Creates a sparsely populated surface that can be associated with one or more visuals for composition. (IDCompositionSurfaceFactory.CreateVirtualSurface)
 helpviewer_keywords: ["CreateVirtualSurface","CreateVirtualSurface method [DirectComposition]","CreateVirtualSurface method [DirectComposition]","IDCompositionSurfaceFactory interface","IDCompositionSurfaceFactory interface [DirectComposition]","CreateVirtualSurface method","IDCompositionSurfaceFactory.CreateVirtualSurface","IDCompositionSurfaceFactory::CreateVirtualSurface","dcomp/IDCompositionSurfaceFactory::CreateVirtualSurface","directcomp.idcompositionsurfacefactory_createvirtualsurface"]
 old-location: directcomp\idcompositionsurfacefactory_createvirtualsurface.htm
 tech.root: directcomp

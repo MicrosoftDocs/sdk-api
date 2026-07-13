@@ -7,7 +7,6 @@ description: Creates a Diagnostic Data Query API session handle to be used to un
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -17,7 +16,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: DiagnosticDataQuery.Lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -47,7 +46,7 @@ Creates a Diagnostic Data Query API session handle to be used to uniquely identi
 
 ### -param accessLevel
 
-Type: **[DdqAccessLevel](/windows/win32/api/diagnosticdataquery/ne-diagnosticdataquerytypes-ddqaccesslevel)**
+Type: **[DdqAccessLevel](/windows/win32/api/diagnosticdataquerytypes/ne-diagnosticdataquerytypes-ddqaccesslevel)**
 The access level desired for this session.
 
 ### -param hSession

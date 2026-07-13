@@ -52,7 +52,7 @@ api_name:
 
 Prevents the TSF manager from processing keystrokes.
 
-## -parameters
+
 
 ## -returns
 

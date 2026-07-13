@@ -61,22 +61,22 @@ The
 
 ## -enum-fields
 
-### -field ENABLED
+### -field ENABLED:0x1
 
 The button accepts user input. A button that does not have this state does not accept user input and appears dimmed.
 
-### -field CHECKED
+### -field CHECKED:0x2
 
 The button has the CHECKED style and is being pressed.
 
-### -field HIDDEN
+### -field HIDDEN:0x4
 
 The button is not visible and cannot receive user input.
 
-### -field INDETERMINATE
+### -field INDETERMINATE:0x8
 
 The button appears dimmed.
 
-### -field BUTTONPRESSED
+### -field BUTTONPRESSED:0x10
 
 The button is being pressed.

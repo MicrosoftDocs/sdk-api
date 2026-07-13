@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetClassLongW
 title: GetClassLongW function (winuser.h)
-description: Retrieves the specified 32-bit (DWORD) value from the WNDCLASSEX structure associated with the specified window.
-helpviewer_keywords: ["GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_HBRBACKGROUND","GCL_HCURSOR","GCL_HICON","GCL_HICONSM","GCL_HMODULE","GCL_MENUNAME","GCL_STYLE","GCL_WNDPROC","GCW_ATOM","GetClassLong","GetClassLong function [Windows and Messages]","GetClassLongA","GetClassLongW","_win32_GetClassLong","_win32_getclasslong_cpp","winmsg.getclasslong","winui._win32_getclasslong","winuser/GetClassLong","winuser/GetClassLongA","winuser/GetClassLongW"]
+description: Retrieves the specified 32-bit (DWORD) value from the WNDCLASSEX structure associated with the specified window. (Unicode)
+helpviewer_keywords: ["GCL_CBCLSEXTRA", "GCL_CBWNDEXTRA", "GCL_HBRBACKGROUND", "GCL_HCURSOR", "GCL_HICON", "GCL_HICONSM", "GCL_HMODULE", "GCL_MENUNAME", "GCL_STYLE", "GCL_WNDPROC", "GCW_ATOM", "GetClassLong", "GetClassLong function [Windows and Messages]", "GetClassLongW", "_win32_GetClassLong", "_win32_getclasslong_cpp", "winmsg.getclasslong", "winui._win32_getclasslong", "winuser/GetClassLong", "winuser/GetClassLongW"]
 old-location: winmsg\getclasslong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclasslong.htm
@@ -219,7 +219,7 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 > [!NOTE]
-> The winuser.h header defines GetClassLong as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winuser.h header defines GetClassLong as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

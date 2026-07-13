@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Rect.Contains(Rect&)
 title: Rect::Contains(IN Rect &) (gdiplustypes.h)
-description: This topic lists the Contains methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
+description: This topic lists the Contains methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods. (overload 2/2)
 helpviewer_keywords: ["Contains","Contains methods [GDI+]","Rect.Contains","Rect.Contains(IN Rect &)","Rect::Contains","Rect::Contains(IN Rect &)","_gdiplus_CLASS_Rect_Contains_Methods","gdiplus._gdiplus_CLASS_Rect_Contains_Methods","gdiplustypes/Contains"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_Methods.htm
 tech.root: gdiplus

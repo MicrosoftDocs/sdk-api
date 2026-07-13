@@ -56,15 +56,15 @@ Specifies the preferred direction of the In-Place Input Panel relative to the te
 
 ## -enum-fields
 
-### -field InPlaceDirection_Auto
+### -field InPlaceDirection_Auto:0
 
 Restores the system default.
 
-### -field InPlaceDirection_Bottom
+### -field InPlaceDirection_Bottom:1
 
 The preferred direction is above the text entry field.
 
-### -field InPlaceDirection_Top
+### -field InPlaceDirection_Top:2
 
 The preferred direction is below the text entry field.
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates when a rich edit control is to deactivate the currently active in-place object, if any.
 
-## -parameters
+
 
 ## -returns
 

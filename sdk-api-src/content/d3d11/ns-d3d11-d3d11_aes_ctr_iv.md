@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11._D3D11_AES_CTR_IV
 title: D3D11_AES_CTR_IV (d3d11.h)
-description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
+description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption. (D3D11_AES_CTR_IV)
 helpviewer_keywords: ["D3D11_AES_CTR_IV","D3D11_AES_CTR_IV structure [Media Foundation]","d3d11/D3D11_AES_CTR_IV","mf.d3d11_aes_ctr_iv"]
 old-location: mf\d3d11_aes_ctr_iv.htm
 tech.root: mf

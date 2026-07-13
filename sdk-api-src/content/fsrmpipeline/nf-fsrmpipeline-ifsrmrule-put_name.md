@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.put_Name
 title: IFsrmRule::put_Name (fsrmpipeline.h)
-description: The name of the rule.
+description: The name of the rule. (Put)
 helpviewer_keywords: ["IFsrmRule interface [File Server Resource Manager]","Name property","IFsrmRule.Name","IFsrmRule.put_Name","IFsrmRule::Name","IFsrmRule::get_Name","IFsrmRule::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmRule interface","fs.ifsrmrule_name","fsrm.ifsrmrule_name","fsrmpipeline/IFsrmRule::Name","fsrmpipeline/IFsrmRule::get_Name","fsrmpipeline/IFsrmRule::put_Name","put_Name"]
 old-location: fsrm\ifsrmrule_name.htm
 tech.root: fsrm

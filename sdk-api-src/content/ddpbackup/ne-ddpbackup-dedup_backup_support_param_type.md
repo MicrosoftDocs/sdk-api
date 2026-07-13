@@ -56,11 +56,11 @@ Indicates whether Data Deduplication should perform an unoptimized or optimized 
 
 ## -enum-fields
 
-### -field DEDUP_RECONSTRUCT_UNOPTIMIZED
+### -field DEDUP_RECONSTRUCT_UNOPTIMIZED:1
 
 Perform an unoptimized restore.
 
-### -field DEDUP_RECONSTRUCT_OPTIMIZED
+### -field DEDUP_RECONSTRUCT_OPTIMIZED:2
 
 Reserved for future use. Do not use.
 

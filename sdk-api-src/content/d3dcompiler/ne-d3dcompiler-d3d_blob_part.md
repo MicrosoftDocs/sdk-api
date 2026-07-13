@@ -118,7 +118,7 @@ The blob part is the debug name of the shader. If the application does not speci
 <div class="alert"><b>Note</b>  This value is supported by the D3dcompiler_47.dll as available on the Windows 10 Fall Creators Update and its SDK, or later version of the file.</div>
 <div> </div>
 
-### -field D3D_BLOB_TEST_ALTERNATE_SHADER
+### -field D3D_BLOB_TEST_ALTERNATE_SHADER:0x8000
 
 The blob part is a test alternate shader.
 

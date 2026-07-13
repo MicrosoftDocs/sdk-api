@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capSetVideoFormat","capSetVideoFormat","capSetVide
 old-location: multimedia\capsetvideoformat.htm
 tech.root: Multimedia
 ms.assetid: 3c4bee26-d578-463b-8d97-6cdc78957ce0
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capSetVideoFormat, capSetVideoFormat, capSetVideoFormat macro [Windows Multimedia], multimedia.capsetvideoformat, vfw/capSetVideoFormat
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # capSetVideoFormat macro
+
+## -syntax
+
+```cpp
+BOOL capSetVideoFormat(
+     hwnd,
+     s,
+     wSize
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

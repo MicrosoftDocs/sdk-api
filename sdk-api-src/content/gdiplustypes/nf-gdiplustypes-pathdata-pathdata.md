@@ -50,7 +50,7 @@ api_name:
 
 Constructs a <b>PathData</b> object. The <b>Count</b> data member is initialized to 0. The <b>Points</b> and <b>Types</b> data members are initialized to <b>NULL</b>.
 
-## -parameters
+
 
 ## -see-also
 

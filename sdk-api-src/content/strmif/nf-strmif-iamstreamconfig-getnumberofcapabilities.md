@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetNumberOfCapabilities","GetNumberOfCapabilities method 
 old-location: dshow\iamstreamconfig_getnumberofcapabilities.htm
 tech.root: dshow
 ms.assetid: 355b8c4c-6d07-4d31-8dc5-ddc5ec2bf1cd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetNumberOfCapabilities, GetNumberOfCapabilities method [DirectShow], GetNumberOfCapabilities method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetNumberOfCapabilities method, IAMStreamConfig.GetNumberOfCapabilities, IAMStreamConfig::GetNumberOfCapabilities, IAMStreamConfigGetNumberOfCapabilities, dshow.iamstreamconfig_getnumberofcapabilities, strmif/IAMStreamConfig::GetNumberOfCapabilities
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetNumberOfCapabilities</code> method retrieves the number of format capabilities that this pin supports.
 

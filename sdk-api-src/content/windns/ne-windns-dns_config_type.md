@@ -1,5 +1,5 @@
 ---
-UID: NE:windns.__unnamed_enum_0
+UID: NE:windns.DNS_CONFIG_TYPE
 title: DNS_CONFIG_TYPE (windns.h)
 description: The DNS_CONFIG_TYPE enumeration provides DNS configuration type information.
 helpviewer_keywords: ["DNS_CONFIG_TYPE","DNS_CONFIG_TYPE enumeration [DNS]","DnsConfigAdapterDomainName_A","DnsConfigAdapterDomainName_UTF8","DnsConfigAdapterDomainName_W","DnsConfigAdapterHostNameRegistrationEnabled","DnsConfigAdapterInfo","DnsConfigAddressRegistrationMaxCount","DnsConfigDnsServerList","DnsConfigFullHostName_A","DnsConfigFullHostName_UTF8","DnsConfigFullHostName_W","DnsConfigHostName_A","DnsConfigHostName_UTF8","DnsConfigHostName_W","DnsConfigPrimaryDomainName_A","DnsConfigPrimaryDomainName_UTF8","DnsConfigPrimaryDomainName_W","DnsConfigPrimaryHostNameRegistrationEnabled","DnsConfigSearchList","dns.dns_config_type","windns/DNS_CONFIG_TYPE","windns/DnsConfigAdapterDomainName_A","windns/DnsConfigAdapterDomainName_UTF8","windns/DnsConfigAdapterDomainName_W","windns/DnsConfigAdapterHostNameRegistrationEnabled","windns/DnsConfigAdapterInfo","windns/DnsConfigAddressRegistrationMaxCount","windns/DnsConfigDnsServerList","windns/DnsConfigFullHostName_A","windns/DnsConfigFullHostName_UTF8","windns/DnsConfigFullHostName_W","windns/DnsConfigHostName_A","windns/DnsConfigHostName_UTF8","windns/DnsConfigHostName_W","windns/DnsConfigPrimaryDomainName_A","windns/DnsConfigPrimaryDomainName_UTF8","windns/DnsConfigPrimaryDomainName_W","windns/DnsConfigPrimaryHostNameRegistrationEnabled","windns/DnsConfigSearchList"]
@@ -135,3 +135,4 @@ Specifies configuration of the full host name (fully qualified domain name) in U
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsqueryconfig">DnsQueryConfig</a>
+

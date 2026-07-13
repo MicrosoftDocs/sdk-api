@@ -1,7 +1,7 @@
 ---
 UID: NN:eventsys.IEventControl
 title: IEventControl (eventsys.h)
-description: Controls the behavior of an event object, the object that fires an event to its subscribers.
+description: Controls the behavior of an event object, the object that fires an event to its subscribers. (IEventControl)
 helpviewer_keywords: ["IEventControl","IEventControl interface [COM+]","IEventControl interface [COM+]","described","_cos_IEventControl","cos.ieventcontrol","eventsys/IEventControl"]
 old-location: cos\ieventcontrol.htm
 tech.root: cos
@@ -56,9 +56,5 @@ The <b>IEventControl</b> interface differs from the <a href="/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IEventControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventControl</b> also has these types of members:
 

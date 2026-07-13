@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegCopyTreeW
 title: RegCopyTreeW function (winreg.h)
-description: Copies the specified registry key, along with its values and subkeys, to the specified destination key.
-helpviewer_keywords: ["RegCopyTree","RegCopyTree function","RegCopyTreeA","RegCopyTreeW","base.regcopytree","winreg/RegCopyTree","winreg/RegCopyTreeA","winreg/RegCopyTreeW"]
+description: Copies the specified registry key, along with its values and subkeys, to the specified destination key. (Unicode)
+helpviewer_keywords: ["RegCopyTree", "RegCopyTree function", "RegCopyTreeW", "base.regcopytree", "winreg/RegCopyTree", "winreg/RegCopyTreeW"]
 old-location: base\regcopytree.htm
 tech.root: winprog
 ms.assetid: d16f2b47-e537-42b0-90b3-9f9a00e61e76
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Core-registry-l2-1-0.dll
  - advapi32legacy.dll
@@ -111,7 +112,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 > [!NOTE]
-> The winreg.h header defines RegCopyTree as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winreg.h header defines RegCopyTree as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

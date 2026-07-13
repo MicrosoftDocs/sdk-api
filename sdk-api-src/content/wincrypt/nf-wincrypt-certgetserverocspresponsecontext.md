@@ -74,6 +74,8 @@ For a response to be time valid, the current time on the system hosting this fun
 is not available, this function returns <b>NULL</b> with the last error set to
 CRYPT_E_REVOCATION_OFFLINE.
 
+If the certificate is unknown by the OCSP responder, this function returns <b>NULL</b> with the last error set to CRYPT_E_REVOCATION_OFFLINE.
+
 ## -remarks
 
 If you use the <b>CertGetServerOcspResponseContext</b> function to create multiple references to an OCSP response context, you must call <a href="/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CertAddRefServerOcspResponseContext</a> to increment the reference count for the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. When you have finished using the structure, you must free it by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a> function.

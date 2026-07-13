@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetAutodialParamW
 title: RasSetAutodialParamW function (ras.h)
-description: The RasSetAutodialParam function sets the value of an AutoDial parameter.
-helpviewer_keywords: ["RASADP_ConnectionQueryTimeout","RASADP_DisableConnectionQuery","RASADP_FailedConnectionTimeout","RASADP_LoginSessionDisable","RASADP_SavedAddressesLimit","RasSetAutodialParam","RasSetAutodialParam function [RAS]","RasSetAutodialParamA","RasSetAutodialParamW","_ras_rassetautodialparam","ras/RasSetAutodialParam","ras/RasSetAutodialParamA","ras/RasSetAutodialParamW","rras.rassetautodialparam"]
+description: The RasSetAutodialParam function sets the value of an AutoDial parameter. (Unicode)
+helpviewer_keywords: ["RASADP_ConnectionQueryTimeout", "RASADP_DisableConnectionQuery", "RASADP_FailedConnectionTimeout", "RASADP_LoginSessionDisable", "RASADP_SavedAddressesLimit", "RasSetAutodialParam", "RasSetAutodialParam function [RAS]", "RasSetAutodialParamW", "_ras_rassetautodialparam", "ras/RasSetAutodialParam", "ras/RasSetAutodialParamW", "rras.rassetautodialparam"]
 old-location: rras\rassetautodialparam.htm
 tech.root: RRAS
 ms.assetid: 76c52494-e8ad-41df-bee6-33d90f24e448
@@ -183,4 +183,4 @@ The size specified by the <i>dwcbValue</i> is invalid.
 ## -remarks
 
 > [!NOTE]
-> The ras.h header defines RasSetAutodialParam as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The ras.h header defines RasSetAutodialParam as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

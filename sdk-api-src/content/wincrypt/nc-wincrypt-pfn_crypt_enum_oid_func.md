@@ -60,7 +60,7 @@ Specifies the encoding type to match. Setting this parameter to CRYPT_MATCH_ANY_
 
 <div class="alert"><b>Note</b>  If CRYPT_MATCH_ANY_ENCODING_TYPE is not specified, either a certificate or message encoding type is required.</div>
 <div> </div>
-If the low-order word containing the certificate encoding type is nonzero, it is used. Otherwise, the high-order word containing the message encoding type is used. If both are specified, the certificate encoding type in the low-order word is used.Currently defined encoding types are:
+If the low-order word containing the certificate encoding type is nonzero, it is used. Otherwise, the high-order word containing the message encoding type is used. If both are specified, the certificate encoding type in the low-order word is used. Currently defined encoding types are:
 
 <ul>
 <li>CRYPT_ASN_ENCODING</li>

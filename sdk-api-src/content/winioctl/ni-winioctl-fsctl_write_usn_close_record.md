@@ -1,12 +1,10 @@
 ---
 UID: NI:winioctl.FSCTL_WRITE_USN_CLOSE_RECORD
 title: FSCTL_WRITE_USN_CLOSE_RECORD
-author: windows-sdk-content
 description: Generates a record in the update sequence number (USN) change journal stream for the input file.
 old-location: fs\fsctl_write_usn_close_record.htm
 tech.root: FileIO
 ms.assetid: d7e0ad05-8ad5-4672-bd32-5a3b1dd0a6ea
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_WRITE_USN_CLOSE_RECORD, FSCTL_WRITE_USN_CLOSE_RECORD control, FSCTL_WRITE_USN_CLOSE_RECORD control code [Files], _win32_fsctl_write_usn_close_record, base.fsctl_write_usn_close_record, fs.fsctl_write_usn_close_record, winioctl/FSCTL_WRITE_USN_CLOSE_RECORD
 req.header: winioctl.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -55,7 +52,7 @@ Generates a record in the update sequence number (USN) change journal stream for
 To perform this operation, call the 
     <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
     parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -76,27 +73,21 @@ DeviceIoControl( (HANDLE) hDevice,              // handle to volume
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 
@@ -123,7 +114,7 @@ To retrieve a handle to a volume, call
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
-\\.&#92;<i>X</i>:
+&#92;&#92;.&#92;<i>X</i>:
 
 In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
      appears. The volume must be NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with 

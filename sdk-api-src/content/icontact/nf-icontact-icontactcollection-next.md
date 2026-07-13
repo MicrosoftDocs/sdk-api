@@ -52,7 +52,7 @@ api_name:
 
 Moves to the next contact.
 
-## -parameters
+
 
 ## -returns
 

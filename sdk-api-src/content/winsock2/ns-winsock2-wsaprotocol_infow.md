@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSAPROTOCOL_INFOW
 title: WSAPROTOCOL_INFOW (winsock2.h)
-description: Used to store or retrieve complete information for a given protocol.
+description: Used to store or retrieve complete information for a given protocol. (Unicode)
 helpviewer_keywords: ["*LPWSAPROTOCOL_INFOW","AF_APPLETALK","AF_BTH","AF_INET","AF_INET6","AF_IPX","AF_IRDA","AF_NETBIOS","BTHPROTO_RFCOMM","IPPROTO_ICMP","IPPROTO_ICMPV6","IPPROTO_IGMP","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","LPWSAPROTOCOL_INFOW","LPWSAPROTOCOL_INFOW structure pointer [Winsock]","PFL_HIDDEN","PFL_MATCHES_PROTOCOL_ZERO","PFL_MULTIPLE_PROTO_ENTRIES","PFL_NETWORKDIRECT_PROVIDER","PFL_RECOMMENDED_PROTO_ENTRY","SOCK_DGRAM","SOCK_RAW","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","WSAPROTOCOL_INFO","WSAPROTOCOL_INFOW","WSAPROTOCOL_INFOW structure [Winsock]","XP1_CONNECTIONLESS","XP1_CONNECT_DATA","XP1_DISCONNECT_DATA","XP1_EXPEDITED_DATA","XP1_GRACEFUL_CLOSE","XP1_GUARANTEED_DELIVERY","XP1_GUARANTEED_ORDER","XP1_IFS_HANDLES","XP1_INTERRUPT","XP1_MESSAGE_ORIENTED","XP1_MULTIPOINT_CONTROL_PLANE","XP1_MULTIPOINT_DATA_PLANE","XP1_PARTIAL_MESSAGE","XP1_PSEUDO_STREAM","XP1_QOS_SUPPORTED","XP1_SAN_SUPPORT_SDP","XP1_SUPPORT_BROADCAST","XP1_SUPPORT_MULTIPOINT","XP1_UNI_RECV","XP1_UNI_SEND","_WSAPROTOCOL_INFOW","winsock.wsaprotocol_infow_2","winsock2/LPWSAPROTOCOL_INFOW","winsock2/WSAPROTOCOL_INFOW"]
 old-location: winsock\wsaprotocol_infow_2.htm
 tech.root: WinSock
@@ -845,4 +845,4 @@ An array of Unicode characters that contains a human-readable name identifying t
 ## -remarks
 
 > [!NOTE]
-> The winsock2.h header defines WSAPROTOCOL_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The winsock2.h header defines WSAPROTOCOL_INFO as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

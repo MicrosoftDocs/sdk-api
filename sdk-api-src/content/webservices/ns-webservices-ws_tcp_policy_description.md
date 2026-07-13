@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_TCP_POLICY_DESCRIPTION
 title: WS_TCP_POLICY_DESCRIPTION (webservices.h)
-description: Describes the policy specifying http channel binding.
+description: Describes the policy specifying http channel binding. (WS_TCP_POLICY_DESCRIPTION)
 helpviewer_keywords: ["WS_TCP_POLICY_DESCRIPTION","WS_TCP_POLICY_DESCRIPTION structure [Web Services for Windows]","webservices/WS_TCP_POLICY_DESCRIPTION","wsw.ws_tcp_policy_description"]
 old-location: wsw\ws_tcp_policy_description.htm
 tech.root: wsw

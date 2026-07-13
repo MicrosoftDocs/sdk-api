@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Triggers
 title: ITaskDefinition::put_Triggers (taskschd.h)
-description: Gets or sets a collection of triggers used to start a task.
+description: Gets or sets a collection of triggers used to start a task. (Put)
 helpviewer_keywords: ["ITaskDefinition interface [Task Scheduler]","Triggers property","ITaskDefinition.Triggers","ITaskDefinition.put_Triggers","ITaskDefinition::Triggers","ITaskDefinition::get_Triggers","ITaskDefinition::put_Triggers","Triggers property [Task Scheduler]","Triggers property [Task Scheduler]","ITaskDefinition interface","put_Triggers","taskschd.itaskdefinition_triggers","taskschd/ITaskDefinition::Triggers","taskschd/ITaskDefinition::get_Triggers","taskschd/ITaskDefinition::put_Triggers"]
 old-location: taskschd\itaskdefinition_triggers.htm
 tech.root: taskschd

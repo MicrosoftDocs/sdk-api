@@ -56,19 +56,19 @@ Indicates semantic flags for function parameters.
 
 ## -enum-fields
 
-### -field D3D_PF_NONE
+### -field D3D_PF_NONE:0
 
 The parameter has no semantic flags.
 
-### -field D3D_PF_IN
+### -field D3D_PF_IN:0x1
 
 Indicates an input parameter.
 
-### -field D3D_PF_OUT
+### -field D3D_PF_OUT:0x2
 
 Indicates an output parameter.
 
-### -field D3D_PF_FORCE_DWORD
+### -field D3D_PF_FORCE_DWORD:0x7fffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 

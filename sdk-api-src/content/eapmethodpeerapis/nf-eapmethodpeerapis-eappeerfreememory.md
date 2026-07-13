@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerFreeMemory
 title: EapPeerFreeMemory function (eapmethodpeerapis.h)
-description: Releases all memory associated with an opaque user interface context data buffer.
+description: Releases all memory associated with an opaque user interface context data buffer. (EapPeerFreeMemory)
 helpviewer_keywords: ["EapPeerFreeMemory","EapPeerFreeMemory function [EAPHost]","eaphost.eappeerfreememory","eapmethodpeerapis/EapPeerFreeMemory"]
 old-location: eaphost\eappeerfreememory.htm
 tech.root: eaphost

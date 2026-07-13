@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineSetTollListW
 title: lineSetTollListW function (tapi.h)
-description: The lineSetTollList function manipulates the toll list.
-helpviewer_keywords: ["_tapi2_linesettolllist","lineSetTollList","lineSetTollList function [TAPI 2.2]","lineSetTollListA","lineSetTollListW","tapi/lineSetTollList","tapi/lineSetTollListA","tapi/lineSetTollListW","tapi2.linesettolllist"]
+description: The lineSetTollListW (Unicode) function (tapi.h) manipulates the toll list.
+helpviewer_keywords: ["_tapi2_linesettolllist", "lineSetTollList", "lineSetTollList function [TAPI 2.2]", "lineSetTollListW", "tapi/lineSetTollList", "tapi/lineSetTollListW", "tapi2.linesettolllist"]
 old-location: tapi2\linesettolllist.htm
 tech.root: tapi3
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist
 req.header: tapi.h
 req.include-header: 
@@ -97,4 +97,4 @@ LINEERR_BADDEVICEID, LINEERR_NODRIVER, LINEERR_INVALAPPHANDLE, LINEERR_NOMEM, LI
 ## -remarks
 
 > [!NOTE]
-> The tapi.h header defines lineSetTollList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tapi.h header defines lineSetTollList as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

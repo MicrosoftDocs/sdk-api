@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.UpdateLink
 title: IOleUILinkContainerA::UpdateLink (oledlg.h)
-description: Forces selected links to connect to their source and retrieve current information.
+description: Forces selected links to connect to their source and retrieve current information. (ANSI)
 helpviewer_keywords: ["IOleUILinkContainer interface [COM]","UpdateLink method","IOleUILinkContainer::UpdateLink","IOleUILinkContainerA interface [COM]","UpdateLink method","IOleUILinkContainerA.UpdateLink","IOleUILinkContainerA::UpdateLink","IOleUILinkContainerW interface [COM]","UpdateLink method","IOleUILinkContainerW::UpdateLink","UpdateLink","UpdateLink method [COM]","UpdateLink method [COM]","IOleUILinkContainer interface","UpdateLink method [COM]","IOleUILinkContainerA interface","UpdateLink method [COM]","IOleUILinkContainerW interface","_ole_IOleUILinkContainer_UpdateLink","com.ioleuilinkcontainer_updatelink","oledlg/IOleUILinkContainer::UpdateLink","oledlg/IOleUILinkContainerA::UpdateLink","oledlg/IOleUILinkContainerW::UpdateLink"]
 old-location: com\ioleuilinkcontainer_updatelink.htm
 tech.root: com

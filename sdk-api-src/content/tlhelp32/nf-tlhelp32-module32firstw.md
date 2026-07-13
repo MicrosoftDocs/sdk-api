@@ -1,12 +1,12 @@
 ---
 UID: NF:tlhelp32.Module32FirstW
 title: Module32FirstW function (tlhelp32.h)
-description: Retrieves information about the first module associated with a process.
+description: The Module32FirstW (Unicode) function (tlhelp32.h) retrieves information about the first module associated with a process.
 helpviewer_keywords: ["Module32First","Module32First function [ToolHelp]","Module32FirstW","_win32_module32first","base.module32first","tlhelp32/Module32First","tlhelp32/Module32FirstW","toolhelp.module32first"]
 old-location: toolhelp\module32first.htm
 tech.root: ToolHelp
 ms.assetid: bb41cab9-13a1-469d-bf76-68c172e982f6
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _win32_module32first, base.module32first, tlhelp32/Module32First, tlhelp32/Module32FirstW, toolhelp.module32first
 req.header: tlhelp32.h
 req.include-header: 
@@ -98,7 +98,7 @@ For an example, see
 
 
 > [!NOTE]
-> The tlhelp32.h header defines Module32First as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The tlhelp32.h header defines Module32First as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DSA_AppendItem","DSA_AppendItem macro [Windows Controls]"
 old-location: controls\DSA_AppendItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dsa_appenditem.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: DSA_AppendItem, DSA_AppendItem macro [Windows Controls], _shell_DSA_AppendItem, _shell_DSA_AppendItem_cpp, controls.DSA_AppendItem, controls._shell_DSA_AppendItem, dpa_dsa/DSA_AppendItem
 req.header: dpa_dsa.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # DSA_AppendItem macro
+
+## -syntax
+
+```cpp
+int DSA_AppendItem(
+  [in] HDSA hdsa,
+  [in] void *pitem
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns the index of the new item if the append action succeeds, or <code>-1</code> if the append action fails.
 
 
 ## -description

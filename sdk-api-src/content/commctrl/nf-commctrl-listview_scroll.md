@@ -6,7 +6,7 @@ helpviewer_keywords: ["ListView_Scroll","ListView_Scroll macro [Windows Controls
 old-location: controls\ListView_Scroll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_scroll.htm
-ms.date: 12/05/2018
+ms.date: 10/21/2024
 ms.keywords: ListView_Scroll, ListView_Scroll macro [Windows Controls], _win32_ListView_Scroll, _win32_ListView_Scroll_cpp, commctrl/ListView_Scroll, controls.ListView_Scroll, controls._win32_ListView_Scroll
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ListView_Scroll macro
+
+## -syntax
+
+```cpp
+BOOL ListView_Scroll(
+   HWND hwndLV,
+   int  dx,
+   int  dy
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 ## -description
