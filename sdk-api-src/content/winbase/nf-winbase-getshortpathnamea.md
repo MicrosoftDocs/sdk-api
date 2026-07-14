@@ -143,7 +143,7 @@ It is possible to have access to a file or directory but not have access to some
     may fail when it is unable to query the parent directory of a path component  to determine the short name for that 
     component. This check can be skipped for directory components that already meet the requirements of a short name. 
     For more information, see the 
-    <a href="/windows/desktop/FileIO/naming-a-file">Short vs. Long Names</a> section of 
+    <a href="/windows/desktop/FileIO/naming-a-file#short-vs-long-names">Short vs. Long Names</a> section of 
     <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
