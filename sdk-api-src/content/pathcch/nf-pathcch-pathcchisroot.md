@@ -177,4 +177,4 @@ The following table shows the <b>PathCchIsRoot</b> return value for various path
 </table>
  
 
-This function returns <b>TRUE</b> for paths such as "\", "<i>X</i>:\" or "&#92;&#92;<i>server</i>&#92;<i>share</i>". Paths such as "..\path2" or "&#92;&#92;<i>server</i>\" return <b>FALSE</b>.
+This function returns <b>TRUE</b> for paths such as "\", "<i>X</i>:\" or "&#92;&#92;<i>server</i>&#92;<i>share</i>". Paths such as "..\path2" or "&#92;&#92;<i>server</i>\share\" return <b>FALSE</b>.
