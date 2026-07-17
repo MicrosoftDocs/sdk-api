@@ -60,7 +60,7 @@ The backing Direct3D device.
 
 Type: \_Out\_ **[BOOL](/windows/win32/winprog/windows-data-types)\***
 
-Points to a value of `true` if *renderingDevice* supports composition textures; otherwise 'false`.
+Points to a value of `true` if *renderingDevice* supports composition textures; otherwise `false`.
 
 ## -returns
 

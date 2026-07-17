@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: mincore.lib
+req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 targetos: Windows

@@ -11,7 +11,7 @@ ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Volum
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -66,7 +66,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-Full volume is 0 and silence is –10,000. Divide by 100 to get the equivalent decibel value; for example, –10,000 is –100 dB.
+Full volume is 0 and silence is â€“10,000. Divide by 100 to get the equivalent decibel value; for example, â€“10,000 is â€“100 dB.
 
 ## -see-also
 

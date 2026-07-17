@@ -64,4 +64,4 @@ The <b>IWTSPlugin</b> interface inherits from the <a href="/windows/desktop/api/
 
 ## -remarks
 
-The **IWTSPlugin** interface is implemented by %System32%\webauthn.dll to enable the Remote Desktop WebAuthn redirection functionality. Get an instance of this interface by calling [VirtualChannelGetInstance]( ../termserv/virtualchannelgetinstance.md), which is also provided by webauthn.dll.
+The **IWTSPlugin** interface is implemented by %System32%\webauthn.dll to enable the Remote Desktop WebAuthn redirection functionality. Get an instance of this interface by calling <a href="/windows/desktop/TermServ/virtualchannelgetinstance">VirtualChannelGetInstance</a> function, which is also provided by webauthn.dll.

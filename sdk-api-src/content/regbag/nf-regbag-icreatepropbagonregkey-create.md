@@ -11,7 +11,7 @@ ms.keywords: Create, Create method [Microsoft TV Technologies], Create method [M
 req.header: regbag.h
 req.include-header: Tuner.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -167,7 +167,7 @@ This method creates a property bag and returns a pointer to the <b>IPropertyBag<
 <td>KEY_QUERY_VALUE | KEY_ENUMERATE_SUB_KEYS</td>
 </tr>
 </table>
- 
+ 
 
 If you write a value of VT_EMPTY or VT_NULL the property is removed from the bag and the corresponding registry values are deleted.
 

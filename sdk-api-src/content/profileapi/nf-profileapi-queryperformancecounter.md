@@ -1,7 +1,7 @@
 ---
 UID: NF:profileapi.QueryPerformanceCounter
 title: QueryPerformanceCounter function
-description: Retrieves the current value of the performance counter, which is a high resolution (&lt;1us) time stamp that can be used for time-interval measurements.
+description: Retrieves the current value of the performance counter, which is a high resolution (<1&micro;s) time stamp that can be used for time-interval measurements.
 helpviewer_keywords: ["QueryPerformanceCounter","QueryPerformanceCounter function [Windows and Messages]","_win32_QueryPerformanceCounter","_win32_queryperformancecounter_cpp","base.queryperformancecounter","profileapi/QueryPerformanceCounter","winmsg.queryperformancecounter","winui._win32_queryperformancecounter"]
 old-location: base\queryperformancecounter.htm
 tech.root: winprog
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Retrieves the current value of the performance counter, which is a high resolution (&lt;1us) time stamp that can be used for time-interval measurements.
+Retrieves the current value of the performance counter, which is a high resolution (<1&micro;s) time stamp that can be used for time-interval measurements.
 
 ## -parameters
 

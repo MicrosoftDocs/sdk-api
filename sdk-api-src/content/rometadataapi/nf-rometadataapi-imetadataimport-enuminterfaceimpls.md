@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enumerates MethodDef tokens representing interface implementations.
+Enumerates InterfaceImpl tokens representing interface implementations.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ A pointer to the enumerator.
 
 ### -param td [in]
 
-The token of the TypeDef whose MethodDef tokens representing interface implementations are to be enumerated.
+The token of the TypeDef whose InterfaceImpl tokens representing interface implementations are to be enumerated.
 
 ### -param rImpls [out]
 
-The array used to store the MethodDef tokens.
+The array used to store the InterfaceImpl tokens.
 
 ### -param cMax [in]
 
@@ -87,7 +87,7 @@ The actual number of tokens returned in <i>rImpls</i>.
 </tr>
 <tr>
 <td><b>S_FALSE</b></td>
-<td>There are no MethodDef tokens to enumerate. In this case, <i>pcImpls</i> is 0 (zero).
+<td>There are no InterfaceImpl tokens to enumerate. In this case, <i>pcImpls</i> is 0 (zero).
  
 
 </td>

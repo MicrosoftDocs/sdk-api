@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: mincore_downlevel.lib
+req.lib: Shlwapi.lib
 req.dll: Shell32.dll
 req.irql: 
 targetos: Windows

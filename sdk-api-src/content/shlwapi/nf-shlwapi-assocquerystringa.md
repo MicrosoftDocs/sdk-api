@@ -84,7 +84,7 @@ A pointer to a null-terminated string that is used to determine the root key. Th
 1. **File name extension**: A file name extension, such as .txt.
 2. **CLSID**: A CLSID GUID in the standard "{GUID}" format.
 3. **ProgID**: An application's ProgID, such as <a href="/windows/win32/shell/fa-progids">Word.Document.8</a>.
-4. **Executable name**: The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+4. **Executable name**: The name of an application's .exe file. The <a href="/windows/win32/shell/assocf_str">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 ### -param pszExtra [in, optional]
 
@@ -104,7 +104,7 @@ Type: <b>DWORD*</b>
 
 A pointer to a value that, when calling the function, is set to the number of characters in the <i>pszOut</i> buffer. When the function returns successfully, the value is set to the number of characters actually placed in the buffer.
 
-If the <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
+If the <a href="/windows/win32/shell/assocf_str">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
 
 If <i>pszOut</i> is <b>NULL</b>, the function returns S_FALSE and <i>pcchOut</i> points to the required size, in characters, of the buffer.
 

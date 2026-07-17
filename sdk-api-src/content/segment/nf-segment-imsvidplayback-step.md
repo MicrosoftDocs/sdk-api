@@ -11,7 +11,7 @@ ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Step method, I
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -103,10 +103,10 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
+ 
 
-<div class="alert"><b>Note</b>  The value ERROR_INVALID_STATE is converted to an <b>HRESULT</b> with the <b>HRESULT_FROM_WIN32</b> macro.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The value ERROR_INVALID_STATE is converted to an <b>HRESULT</b> with the <b>HRESULT_FROM_WIN32</b> macro.</div>
+<div> </div>
 
 ## -remarks
 

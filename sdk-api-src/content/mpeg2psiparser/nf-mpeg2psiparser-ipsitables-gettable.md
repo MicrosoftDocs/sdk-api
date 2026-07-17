@@ -11,7 +11,7 @@ ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable met
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2psiparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

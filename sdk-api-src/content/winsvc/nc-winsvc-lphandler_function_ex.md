@@ -183,29 +183,6 @@ Notifies a service that it should pause.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="SERVICE_CONTROL_PRESHUTDOWN"></a><a id="service_control_preshutdown"></a><dl>
-<dt><b>SERVICE_CONTROL_PRESHUTDOWN</b></dt>
-<dt>0x0000000F</dt>
-</dl>
-</td>
-<td width="60%">
-Notifies a service that the system will be shutting down. Services that need additional time to perform 
-        cleanup tasks beyond the tight time restriction at system shutdown can use this notification. The service
-        control manager sends this notification to applications that have registered for it before sending a
-        <b>SERVICE_CONTROL_SHUTDOWN</b> notification to applications that have registered for that notification.
-        
-
-A service that handles this notification blocks system shutdown until the service stops or the preshutdown 
-         time-out interval specified through 
-         <a href="/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> expires. Because 
-         this affects the user experience, services should use this feature only if it is absolutely necessary to avoid 
-         data loss or significant recovery time at the next system start.
-
-<b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
-
-</td>
-</tr>
-<tr>
 <td width="40%"><a id="SERVICE_CONTROL_SHUTDOWN"></a><a id="service_control_shutdown"></a><dl>
 <dt><b>SERVICE_CONTROL_SHUTDOWN</b></dt>
 <dt>0x00000005</dt>
@@ -299,6 +276,28 @@ Notifies a service of system power events.  The <i>dwEventType</i> parameter con
 Notifies a service of session change events.
         Note that a service will only be notified of a user logon if it is fully loaded before the logon attempt is made.  The <i>dwEventType</i> and <i>lpEventData</i> parameters contain additional information.
       
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SERVICE_CONTROL_PRESHUTDOWN"></a><a id="service_control_preshutdown"></a><dl>
+<dt><b>SERVICE_CONTROL_PRESHUTDOWN</b></dt>
+<dt>0x0000000F</dt>
+</dl>
+</td>
+<td width="60%">
+Notifies a service that the system will be shutting down. Services that need additional time to perform
+        cleanup tasks beyond the tight time restriction at system shutdown can use this notification. The service
+        control manager sends this notification to applications that have registered for it before sending a
+        <b>SERVICE_CONTROL_SHUTDOWN</b> notification to applications that have registered for that notification.
+
+A service that handles this notification blocks system shutdown until the service stops or the preshutdown
+         time-out interval specified through
+         <a href="/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> expires. Because
+         this affects the user experience, services should use this feature only if it is absolutely necessary to avoid
+         data loss or significant recovery time at the next system start.
+
+<b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 </td>
 </tr>

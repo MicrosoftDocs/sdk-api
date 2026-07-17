@@ -78,12 +78,12 @@ A pointer to the user data that is to be transferred back from the other socket 
 
 ### -param lpSQOS [in]
 
-A pointer to the <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i>, one for each direction.
+A pointer to the <a href="/windows/desktop/api/winsock2/ns-winsock2-qos">QOS</a> structure for socket <i>s</i>.
 
 ### -param lpGQOS [in]
 
 Reserved for future use with socket groups. A pointer to the 
-<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for the socket group (if applicable). This parameter should be <b>NULL</b>.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-qos">QOS</a> structure for the socket group (if applicable). This parameter should be <b>NULL</b>.
 
 ## -returns
 

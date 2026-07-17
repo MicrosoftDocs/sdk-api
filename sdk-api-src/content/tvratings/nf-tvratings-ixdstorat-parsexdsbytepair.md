@@ -11,7 +11,7 @@ ms.keywords: IXDSToRat interface [Microsoft TV Technologies],ParseXDSBytePair me
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -141,7 +141,7 @@ Return the following values for non-ratings packets.
 <td><b>BfAttrNone</b></td>
 </tr>
 </table>
- 
+ 
 
 For details, see section 9.5.1.5.4 (General Content Advisory Requirements) of the EIA/CEA-608-B specification.
 

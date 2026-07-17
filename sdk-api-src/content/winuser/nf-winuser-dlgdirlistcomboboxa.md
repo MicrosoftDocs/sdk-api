@@ -75,7 +75,7 @@ A pointer to a buffer containing a null-terminated string that specifies an abso
 
 The function splits the string into a directory and a file name. The function searches the directory for names that match the file name. If the string does not specify a directory, the function searches the current directory. 
 
-If the string includes a file name, the file name must contain at least one wildcard character (? or *). If the string does not include a file name, the function behaves as if you had specified the asterisk wildcard character (*) as the file name. All names in the specified directory that match the file name and have the attributes specified by the <i>uFiletype</i> parameter are added to the list displayed in the combo box.
+If the string includes a file name, the file name must contain at least one wildcard character (? or \*). If the string does not include a file name, the function behaves as if you had specified the asterisk wildcard character (*) as the file name. All names in the specified directory that match the file name and have the attributes specified by the <i>uFiletype</i> parameter are added to the list displayed in the combo box.
 
 ### -param nIDComboBox [in]
 
@@ -235,3 +235,4 @@ Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft L
 
 
 <b>Reference</b>
+

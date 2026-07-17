@@ -11,7 +11,7 @@ ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Length met
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -76,7 +76,7 @@ Pointer to a variable that receives the length. The units for the returned value
 <td>Hundredths of seconds</td>
 </tr>
 </table>
- 
+ 
 
 To set the position mode, call <a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-put_positionmode">IMSVidPlayback::put_PositionMode</a>.
 
@@ -134,10 +134,10 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
+ 
 
-<div class="alert"><b>Note</b>  The value ERROR_INVALID_STATE is converted to an <b>HRESULT</b> with the <b>HRESULT_FROM_WIN32</b> macro.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The value ERROR_INVALID_STATE is converted to an <b>HRESULT</b> with the <b>HRESULT_FROM_WIN32</b> macro.</div>
+<div> </div>
 
 ## -remarks
 

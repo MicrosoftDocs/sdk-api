@@ -11,7 +11,7 @@ ms.keywords: IATSCComponentType interface [Microsoft TV Technologies],get_Flags 
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -76,7 +76,7 @@ Receives one of the following values.
 <td>The component contains AC-3 audio</td>
 </tr>
 </table>
- 
+ 
 
 See <a href="/previous-versions/windows/desktop/mstv/atsccomponenttypeflags">ATSCComponentTypeFlags Enumeration</a>.
 

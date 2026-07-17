@@ -10,7 +10,7 @@ req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 11, version 24H2 [desktop apps only]
 req.target-min-winversvr: None supported
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -20,7 +20,6 @@ req.max-support:
 req.redist: 
 targetos: Windows
 req.typenames: TOUCHPAD_PARAMETERS, *PTOUCH_PAD_PARAMETERS, TOUCHPAD_PARAMETERS_V1, *PTOUCHPAD_PARAMETERS_V1
-ms.custom: 24H2
 typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 

@@ -11,7 +11,7 @@ ms.keywords: IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], I
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

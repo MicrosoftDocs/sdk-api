@@ -56,7 +56,7 @@ Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DX
 
 ### -param riid [in]
 
-Identifies the type of DXGI surface. This value must be <b>IID_ID3D11Texture2D</b>.
+Identifies the type of DXGI surface. This value must be <b>IID_ID3D11Texture2D</b> or <b>IID_ID3D12Resource</b>.
 
 ### -param punkSurface [in]
 

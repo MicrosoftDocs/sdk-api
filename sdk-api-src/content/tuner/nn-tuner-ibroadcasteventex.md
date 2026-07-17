@@ -89,7 +89,7 @@ Fires an event.
 
 </td>
 </tr>
-</table> 
+</table> 
 
 
 ## -remarks
@@ -111,6 +111,6 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 <a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
+ 
 
- 
+ 

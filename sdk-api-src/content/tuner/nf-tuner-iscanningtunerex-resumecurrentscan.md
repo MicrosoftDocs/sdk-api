@@ -108,7 +108,7 @@ Success.
 </td>
 </tr>
 </table>
- 
+ 
 
 When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 

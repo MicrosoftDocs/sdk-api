@@ -65,8 +65,8 @@ The <b>GetEAS</b> method retrieves the emergency alert message (EAS) table.
 
 Specifies the packet identifier (PID) for the requested EAS.
 
-<div class="alert"><b>Note</b>  Earlier versions of this documentation described this parameter incorrectly as a time-out value.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Earlier versions of this documentation described this parameter incorrectly as a time-out value.</div>
+<div> </div>
 
 ### -param ppEAS [out]
 

@@ -135,7 +135,7 @@ Sets the check-mark attribute to the clear state.
 
 Type: <b>DWORD</b>
 
-The return value specifies the previous state of the menu item (either <b>MF_CHECKED</b> or <b>MF_UNCHECKED</b>). If the menu item does not exist, the return value is –1.
+The return value specifies the previous state of the menu item (either <b>MF_CHECKED</b> or <b>MF_UNCHECKED</b>). If the menu item does not exist, the return value is UINT_MAX.
 
 ## -remarks
 

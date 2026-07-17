@@ -50,7 +50,7 @@ api_name:
 ## -syntax
 
 ```cpp
-LRESULT Button_SetState(
+UINT Button_SetState(
    HWND hwndCtl,
    BOOL state
 );
@@ -58,7 +58,7 @@ LRESULT Button_SetState(
 
 ## -returns
 
-Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
 
 The return value is always zero.
 

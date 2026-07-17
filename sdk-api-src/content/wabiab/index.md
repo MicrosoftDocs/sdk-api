@@ -6,7 +6,7 @@ ms.date: 03/03/2021
 ms.keywords: 
 ms.topic: overview
 ms.update-cycle: 1095-days
-tech.root: wab wab wab
+tech.root: wab
 f1_keywords:
  - wabiab
  - wabiab/wabiab

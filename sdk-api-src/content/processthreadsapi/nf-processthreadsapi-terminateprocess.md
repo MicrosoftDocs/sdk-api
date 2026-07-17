@@ -6,7 +6,7 @@ helpviewer_keywords: ["TerminateProcess","TerminateProcess function","_win32_ter
 old-location: base\terminateprocess.htm
 tech.root: processthreadsapi
 ms.assetid: 0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a
-ms.date: 02/02/2024
+ms.date: 12/30/2025
 ms.keywords: TerminateProcess, TerminateProcess function, _win32_terminateprocess, base.terminateprocess, processthreadsapi/TerminateProcess, winbase/TerminateProcess
 req.header: processthreadsapi.h
 req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
@@ -92,7 +92,7 @@ When a process terminates itself, <b>TerminateProcess</b> stops execution of the
 
 A process cannot prevent itself from being terminated.
 
-After a process has terminated, call to <b>TerminateProcess</b> with open handles to the process fails with <b>ERROR_ACCESS_DENIED</b> (5) error code.
+After a process has terminated, calls to <b>TerminateProcess</b> with open handles to the process fails with <b>ERROR_ACCESS_DENIED</b> (5) error code.
 
 ## -see-also
 

@@ -129,7 +129,7 @@ The <i>id</i> parameter is a pointer to a <b>GUID</b>.
 
 ### -param FoundFile [out]
 
-A pointer to a buffer that receives the fully qualified path to the symbol file. This buffer must be at least MAX_PATH characters.
+A pointer to a buffer that receives the fully qualified path to the symbol file. This buffer must be at least MAX_PATH+1 characters.
 
 ### -param callback [in, optional]
 

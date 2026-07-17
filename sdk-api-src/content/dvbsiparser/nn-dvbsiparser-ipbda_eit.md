@@ -11,7 +11,7 @@ ms.keywords: IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], IPBDA_E
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -61,7 +61,7 @@ An EIT provides information about events in each service, such as the event name
 </ul>EIT sections are given the following table identifiers.
 <table>
 <tr>
-<th>Table identifier</th>
+<th>Table identifier</th>
 <th>Description</th>
 </tr>
 <tr>

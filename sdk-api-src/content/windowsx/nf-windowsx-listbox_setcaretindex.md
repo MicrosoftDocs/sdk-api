@@ -79,7 +79,7 @@ A handle to the control.
 
 Type: <b>int</b>
 
- the zero-based index of the list box item that is to receive the focus rectangle.
+The zero-based index of the list box item that is to receive the focus rectangle.
 
 ## -remarks
 

@@ -119,6 +119,6 @@ This method is similar to <a href="/previous-versions/windows/desktop/api/tuner/
 
 
 <a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
+ 
 
- 
+ 

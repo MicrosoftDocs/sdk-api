@@ -47,7 +47,6 @@ api_name:
 
 # FlowDirections enumeration
 
-
 ## -description
 
 Contains values for the TextFlowDirections text attribute.

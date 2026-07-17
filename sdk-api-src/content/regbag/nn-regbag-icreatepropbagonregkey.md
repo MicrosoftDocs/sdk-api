@@ -11,7 +11,7 @@ ms.keywords: ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft
 req.header: regbag.h
 req.include-header: Tuner.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -54,7 +54,7 @@ api_name:
 
 The <b>ICreatePropBagOnRegKey</b> interface creates a property bag that can store information in the system registry.
 
-Use this interface to store the default tune request in the registry. When Microsoft® Internet Explorer® loads a "tv:" object in a Web page, it automatically tunes to the default tune request.
+Use this interface to store the default tune request in the registry. When MicrosoftÂ® Internet ExplorerÂ® loads a "tv:" object in a Web page, it automatically tunes to the default tune request.
 
 ## -inheritance
 

@@ -46,15 +46,6 @@ helpviewer_keywords:
 
 Duplicates an instance of *[WTS_SERIALIZED_USER_CREDENTIAL](/windows/win32/api/wtsapi32/ns-wtsapi32-wts_serialized_user_credential)*.
 
-## Syntax
-
-```cpp
-BOOL WINAPI WTSCloudAuthDuplicateSerializedUserCredential(
-  [in] const WTS_SERIALIZED_USER_CREDENTIAL* userCredential,
-  [out] WTS_SERIALIZED_USER_CREDENTIAL** duplicatedUserCredential
-);
-```
-
 ## -parameters
 
 ### -param userCredential [in]
@@ -68,9 +59,8 @@ Receives a pointer to the duplicated instance of *WTS_SERIALIZED_USER_CREDENTIAL
 ## -returns
 
 If the function succeeds, the return value is a nonzero value.
-If the function fails, the return value is zero. To get extended error information, call the [`GetLastError'](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
+If the function fails, the return value is zero. To get extended error information, call the [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
 
 ## -remarks
 
 ## -see-also
-

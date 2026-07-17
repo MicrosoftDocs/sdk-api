@@ -15,7 +15,7 @@ dev_langs:
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -95,7 +95,7 @@ For television tuning, the following event is defined.
 <td>Fired when the tuner changes stations or channels. Defined in Bdamedia.h.</td>
 </tr>
 </table>
- 
+ 
 
 For a list of events fired by the TV ratings components, see <a href="/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>.
 
@@ -112,6 +112,6 @@ For a list of events fired by the TV ratings components, see <a href="/previous-
 
 
 <a href="/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>
- 
+ 
 
- 
+ 

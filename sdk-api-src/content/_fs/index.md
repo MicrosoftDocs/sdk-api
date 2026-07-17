@@ -36,6 +36,7 @@ To develop Data Access and Storage, you need these headers:
 * [nvme.h](../nvme/index.md)
 * [txfw32.h](../txfw32/index.md)
 * [winefs.h](../winefs/index.md)
+* [Winioctl.h](../winioctl/index.md)
 * [wofapi.h](../wofapi/index.md)
 * [wow64apiset.h](../wow64apiset/index.md)
 

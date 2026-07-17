@@ -16,7 +16,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: nanosrv.lib
+req.lib: ResUtils.lib
 req.max-support: 
 req.namespace: 
 req.redist: 

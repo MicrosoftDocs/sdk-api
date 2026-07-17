@@ -11,7 +11,7 @@ ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidE
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

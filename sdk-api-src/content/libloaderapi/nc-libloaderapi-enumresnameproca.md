@@ -61,13 +61,13 @@ A handle to the module whose executable file contains the resources that are bei
 
 ### -param lpType
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 The type of resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <code>MAKEINTRESOURCE(ID)</code>, where ID is an integer value representing a predefined resource type. For standard resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ### -param lpName
 
-Type: <b>LPTSTR</b>
+Type: <b>LPSTR</b>
 
 The name of a resource of the type being enumerated. Alternately, rather than a pointer, this parameter can be <code>MAKEINTRESOURCE(ID)</code>, where ID is the integer identifier of the resource. For more information, see the Remarks section below. 
 
@@ -118,4 +118,4 @@ If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

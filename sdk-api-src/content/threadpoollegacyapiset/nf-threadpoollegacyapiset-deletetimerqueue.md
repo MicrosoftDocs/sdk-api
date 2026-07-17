@@ -9,7 +9,7 @@ prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: Kernel32.lib
+req.dll: Kernel32.dll
 req.header: threadpoollegacyapiset.h
 req.idl: 
 req.include-header: 

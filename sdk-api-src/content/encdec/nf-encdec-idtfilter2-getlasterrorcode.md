@@ -11,7 +11,7 @@ ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologie
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
