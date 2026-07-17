@@ -63,7 +63,7 @@ Writes formatted data to the specified buffer using a pointer to a list of argum
 
 Type: <b>LPTSTR</b>
 
-The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
+The buffer that is to receive the formatted output. The maximum size of the buffer is 1025 bytes (1024 characters and space for a null-terminator).
 
 ### -param unnamedParam2 [in]
 
