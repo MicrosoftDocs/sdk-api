@@ -50,7 +50,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>NtQueryInformationProcess</b> may be altered or unavailable in future versions of Windows. Applications should use the alternate functions listed in this topic.]
+> [!WARNING]
+> <b>NtQueryInformationProcess</b> may be altered or unavailable in future versions of Windows. Applications should use the alternate functions listed in this topic.
 
 Retrieves  information about the specified process.
 
