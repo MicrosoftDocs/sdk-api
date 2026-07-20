@@ -52,10 +52,10 @@ api_name:
 
 Searches through icon (<b>RT_GROUP_ICON</b>) or cursor (<b>RT_GROUP_CURSOR</b>) resource data for the icon or cursor that best fits the current display device.
 
-If more than one image exists in resource group, this method uses the following criteria to choose an image:
--   The image closest but not exceed the requested size is selected.
--   If two or more images of that size are present, the one that matches the color depth of the display is chosen.
--   If no images exactly match the color depth of the display, the image with the greatest color depth that does not exceed the color depth of the display is chosen. If all exceed the color depth, the one with the lowest color depth is chosen.
+If more than one image exists in the resource group, the function uses the following criteria to choose an image:
+-   Size and color depth are considered together, not as separate steps: the image chosen is the one that most closely matches the requested width and height along with the color depth of the current display device.
+-   An image smaller than the requested size is treated as a poorer match than one larger by the same amount, so when two images are equally close in size, the larger one is preferred.
+-   When two images match equally well, the one with the greater color depth is chosen.
 
 ## -parameters
 
