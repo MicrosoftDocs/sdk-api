@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:shellapi.SHGetImageList
 title: SHGetImageList function (shellapi.h)
 description: Retrieves an image list.
@@ -65,41 +65,14 @@ Type: <b>int</b>
 
 The image type contained in the list. One of the following values:
 
-
-
-#### SHIL_LARGE (0x0)
-
-0x0. The image size is normally 32x32 pixels. However, if the <b>Use large icons</b> option is selected from the <b>Effects</b> section of the <b>Appearance</b> tab in <b>Display Properties</b>, the image is 48x48 pixels.
-
-
-
-#### SHIL_SMALL (0x1)
-
-0x1. These images are the Shell standard small icon size of 16x16, but the size can be customized by the user.
-
-
-
-#### SHIL_EXTRALARGE (0x2)
-
-0x2. These images are the Shell standard extra-large icon size. This is typically 48x48, but the size can be customized by the user.
-
-
-
-#### SHIL_SYSSMALL (0x3)
-
-0x3. These images are the size specified by <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> called with <b>SM_CXSMICON</b> and <b>GetSystemMetrics</b> called with <b>SM_CYSMICON</b>.
-
-
-
-#### SHIL_JUMBO (0x4)
-
-0x4. <b>Windows Vista and later.</b> The image is normally 256x256 pixels.
-
-
-
-#### SHIL_LAST
-
-The largest valid flag value, for validation purposes.
+| Value | Description |
+|---|---|
+| **SHIL_LARGE** (0x0) | 32x32 pixels at 96 DPI; scales with DPI via **SM_CXICON** / **SM_CYICON**. |
+| **SHIL_SMALL** (0x1) | 16x16 pixels at 96 DPI; scales with DPI via **SM_CXSMICON** / **SM_CYSMICON**. |
+| **SHIL_EXTRALARGE** (0x2) | 48x48 pixels at 96 DPI; scales with DPI (48 logical pixels). |
+| **SHIL_SYSSMALL** (0x3) | Tracks the caption button size (**SM_CXSMSIZE** / **SM_CYSMSIZE**). Typically matches **SHIL_SMALL** but may differ when the user customizes window border and caption size in Display Settings. |
+| **SHIL_JUMBO** (0x4) | Windows Vista and later. Fixed at 256x256 physical pixels regardless of DPI. |
+| **SHIL_LAST** | The largest valid flag value, for validation purposes. |
 
 ### -param riid [in]
 
