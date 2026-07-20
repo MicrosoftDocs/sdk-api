@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-Sets the DPI scale for which the cursors being created on this thread are intended. This value is taken into account when scaling the cursor based on the current system DPI.
+Sets the DPI scale for which the cursors being created on this thread are intended. This value is taken into account when scaling the cursor for the DPI of the display on which it is being shown.
 
 ## -parameters
 
