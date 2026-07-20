@@ -243,7 +243,7 @@ When you use this flag, the system will destroy the resource when it is no longe
 
 Do not use <b>LR_SHARED</b> for images that have non-standard sizes, that may change after loading, or that are loaded from a file.
 
-When loading a predefined system icon or cursor (an <b>IDI_</b> or <b>IDC_</b> identifier with <i>hInst</i> set to <b>NULL</b>), use <b>LR_SHARED</b> so that the system manages the handle lifetime.
+When loading a predefined system icon or cursor (an <b>IDI_</b>, <b>IDC_</b>, <b>OIC_</b>, or <b>OCR_</b> identifier with <i>hInst</i> set to <b>NULL</b>), use <b>LR_SHARED</b> so that the system manages the handle lifetime.
 
 The shared cache is keyed by resource name and module, regardless of the size requested. If a matching entry is already cached at a different size, that cached handle is returned rather than loading a new image. Do not use <b>LR_SHARED</b> when you need a specific size or when loading the same resource at multiple sizes (for example, for per-monitor DPI scaling).
 
