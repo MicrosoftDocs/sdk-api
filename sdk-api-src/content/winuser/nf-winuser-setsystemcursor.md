@@ -96,6 +96,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 For an application to use any of the OCR_ constants, the constant <b>OEMRESOURCE</b> must be defined before the Windows.h header file is included.
 
+Changes made by **SetSystemCursor** are in-memory and session-wide — they affect all processes but are not written to the registry and do not survive a logoff. To undo the changes and reload all system cursors from the user's current cursor theme, call [SystemParametersInfo](/windows/desktop/api/winuser/nf-winuser-systemparametersinfow) with **SPI_SETCURSORS**:
+
+```c
+SystemParametersInfo(SPI_SETCURSORS, 0, NULL, 0);
+```
+
 ## -see-also
 
 <b>Conceptual</b>
