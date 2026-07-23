@@ -65,9 +65,7 @@ To specify a desired height or width, use the [CreateIconFromResourceEx](/window
 
 Type: **PBYTE**
 
-The buffer pointer containing the icon or cursor resource bits. These bits are typically loaded by calls to the [LookupIconIdFromDirectory](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory), [LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex), and [LoadResource](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource) functions.
-
-See [Cursor and Icon Resources](/windows/win32/menurc/resource-file-formats#cursor-and-icon-resources) for more info on icon and cursor resource format.
+The buffer pointer containing the icon or cursor resource bits. These bits are typically loaded by calls to the [LookupIconIdFromDirectory](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory), [LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex), and [LoadResource](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource) functions. For the buffer formats this parameter accepts, see the Remarks section of [CreateIconFromResourceEx](/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex).
 
 ### -param dwResSize [in]
 
@@ -80,8 +78,6 @@ The size, in bytes, of the set of bits pointed to by the *presbits* parameter.
 Type: **BOOL**
 
 Indicates whether an icon or a cursor is to be created. If this parameter is **TRUE**, an icon is to be created. If it is **FALSE**, a cursor is to be created.
-
-The [LOCALHEADER](/windows/win32/menurc/localheader) structure defines cursor hotspot and is the first data read from the cursor resource bits.
 
 ### -param dwVer [in]
 
@@ -99,11 +95,13 @@ If the function fails, the return value is **NULL**. To get extended error infor
 
 ## -remarks
 
-The **CreateIconFromResource**, [CreateIconFromResourceEx](/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex), [CreateIconIndirect](/windows/desktop/api/winuser/nf-winuser-createiconindirect), [GetIconInfo](/windows/desktop/api/winuser/nf-winuser-geticoninfo), [LookupIconIdFromDirectory](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory), and [LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex) functions allow shell applications and icon browsers to examine and use resources throughout the system.
-
-The **CreateIconFromResource** function calls [CreateIconFromResourceEx](/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex) passing `LR_DEFAULTSIZE|LR_SHARED` as flags.
+The **CreateIconFromResource** function calls [CreateIconFromResourceEx](/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex) passing `LR_DEFAULTSIZE|LR_SHARED` as flags. Because **LR_DEFAULTSIZE** is included, the icon or cursor is always created at the default system size (**SM_CXICON**/**SM_CYICON** for icons, **SM_CXCURSOR**/**SM_CYCURSOR** for cursors), regardless of the dimensions of the image in *presbits*. To create an icon or cursor at a specific size, call [CreateIconFromResourceEx](/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex) and specify *cxDesired* and *cyDesired*.
 
 You should call [DestroyIcon](/windows/win32/api/winuser/nf-winuser-destroyicon) for icons or [DestroyCursor](/windows/win32/api/winuser/nf-winuser-destroycursor) for cursors created with **CreateIconFromResource**.
+
+#### Examples
+
+For an example, see [Sharing Icon Resources](/windows/win32/menurc/using-icons#sharing-icon-resources).
 
 ## -see-also
 

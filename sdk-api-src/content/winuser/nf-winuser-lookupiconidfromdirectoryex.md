@@ -2,12 +2,12 @@
 UID: NF:winuser.LookupIconIdFromDirectoryEx
 title: LookupIconIdFromDirectoryEx function (winuser.h)
 description: Searches through icon or cursor data for the icon or cursor that best fits the current display device. (LookupIconIdFromDirectoryEx)
-helpviewer_keywords: ["LR_DEFAULTCOLOR","LR_MONOCHROME","LookupIconIdFromDirectoryEx","LookupIconIdFromDirectoryEx function [Menus and Other Resources]","_win32_LookupIconIdFromDirectoryEx","_win32_lookupiconidfromdirectoryex_cpp","menurc.lookupiconidfromdirectoryex","winui._win32_lookupiconidfromdirectoryex","winuser/LookupIconIdFromDirectoryEx"]
+helpviewer_keywords: ["LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_MONOCHROME","LookupIconIdFromDirectoryEx","LookupIconIdFromDirectoryEx function [Menus and Other Resources]","_win32_LookupIconIdFromDirectoryEx","_win32_lookupiconidfromdirectoryex_cpp","menurc.lookupiconidfromdirectoryex","winui._win32_lookupiconidfromdirectoryex","winuser/LookupIconIdFromDirectoryEx"]
 old-location: menurc\lookupiconidfromdirectoryex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\lookupiconidfromdirectoryex.htm
 ms.date: 12/05/2018
-ms.keywords: LR_DEFAULTCOLOR, LR_MONOCHROME, LookupIconIdFromDirectoryEx, LookupIconIdFromDirectoryEx function [Menus and Other Resources], _win32_LookupIconIdFromDirectoryEx, _win32_lookupiconidfromdirectoryex_cpp, menurc.lookupiconidfromdirectoryex, winui._win32_lookupiconidfromdirectoryex, winuser/LookupIconIdFromDirectoryEx
+ms.keywords: LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_MONOCHROME, LookupIconIdFromDirectoryEx, LookupIconIdFromDirectoryEx function [Menus and Other Resources], _win32_LookupIconIdFromDirectoryEx, _win32_lookupiconidfromdirectoryex_cpp, menurc.lookupiconidfromdirectoryex, winui._win32_lookupiconidfromdirectoryex, winuser/LookupIconIdFromDirectoryEx
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -52,10 +52,12 @@ api_name:
 
 Searches through icon (**RT_GROUP_ICON**) or cursor (**RT_GROUP_CURSOR**) resource data for the icon or cursor that best fits the current display device.
 
-If more than one image exists in the resource group, the function uses the following criteria to choose an image:
--   Size and color depth are considered together, not as separate steps: the image chosen is the one that most closely matches the requested width and height along with the color depth of the current display device.
--   An image smaller than the requested size is treated as a poorer match than one larger by the same amount, so when two images are equally close in size, the larger one is preferred.
--   When two images match equally well, the one with the greater color depth is chosen.
+If the resource group contains more than one image, the function assigns each candidate a score measuring how far it departs from the target, and returns the entry with the lowest score (a score of zero is an exact match). The target is the requested width and height (or, when those are zero, the system-metric size — see *cxDesired*) together with the color depth of the current display device. The score is the sum of three terms:
+-   the absolute difference in width, in pixels — doubled if the candidate is narrower than the target;
+-   the absolute difference in height, in pixels — doubled if the candidate is shorter than the target;
+-   the absolute difference in color depth, in bits per pixel — always doubled.
+
+Because the width and height terms are doubled only when the candidate is undersized, an image smaller than the requested size scores worse than one larger by the same amount (reducing size is preferred over enlarging it). Because the color-depth term is always doubled, a closer match in color depth is preferred over an equally close match in size. When two candidates score equally, the one with the greater color depth is chosen; if they are still equal, the earlier entry in the directory wins.
 
 ## -parameters
 
@@ -75,13 +77,13 @@ Indicates whether an icon or a cursor is sought. If this parameter is **TRUE**, 
 
 Type: **int**
 
-The desired width, in pixels, of the icon. If this parameter is zero, the function uses the **SM_CXICON** or **SM_CXCURSOR** system metric value.
+The desired width, in pixels, of the icon or cursor. If this parameter is zero, the width used depends on the **LR_DEFAULTSIZE** flag; see the *Flags* parameter.
 
 ### -param cyDesired [in]
 
 Type: **int**
 
-The desired height, in pixels, of the icon. If this parameter is zero, the function uses the **SM_CYICON** or **SM_CYCURSOR** system metric value.
+The desired height, in pixels, of the icon or cursor. If this parameter is zero, the height used depends on the **LR_DEFAULTSIZE** flag; see the *Flags* parameter.
 
 ### -param Flags [in]
 
@@ -92,7 +94,8 @@ A combination of the following values.
 | Value | Meaning |
 |---|---|
 | **LR_DEFAULTCOLOR** 0x00000000 | Uses the default color format. |
-| **LR_MONOCHROME** 0x00000001 | Creates a monochrome icon or cursor. |
+| **LR_DEFAULTSIZE** 0x00000040 | If *cxDesired* or *cyDesired* is zero, uses the **SM_CXICON**/**SM_CXCURSOR** or **SM_CYICON**/**SM_CYCURSOR** system-metric size for that dimension. If this flag is not specified and both are zero, size does not take part in the selection (see the selection criteria above). |
+| **LR_MONOCHROME** 0x00000001 | Searches for a monochrome icon or cursor. |
 
 ## -returns
 
