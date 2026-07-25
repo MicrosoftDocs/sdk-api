@@ -182,7 +182,7 @@ if (!exists)
 else
 {
 	// Read the file description for each language and code page.
-	for( i=0; i < (cbTranslations/sizeof(struct LANGANDCODEPAGE)); i++ )
+	for( UINT i=0; i < (cbTranslations/sizeof(struct LANGANDCODEPAGE)); i++ )
 	{
 		hr = StringCchPrintf(
 			SubBlock,
@@ -197,9 +197,9 @@ else
 		
 		// Retrieve file description for language and code page "i". 
 		exists = VerQueryValue(
-			pBlock, 
-			SubBlock, 
-			&lpBuffer, 
+			pBlock,
+			SubBlock,
+			(LPVOID*)&lpBuffer,
 			&dwBytes);
 	    if (exists)
 	    {
