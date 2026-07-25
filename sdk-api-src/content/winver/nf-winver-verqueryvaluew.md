@@ -198,28 +198,29 @@ else
 {
 	// Read the file description for each language and code page.
 	for( i=0; i < (cbTranslations/sizeof(struct LANGANDCODEPAGE)); i++ )
-	{
-	hr = StringCchPrintf(
-		SubBlock,
-		50,
-		TEXT("\\StringFileInfo\\%04x%04x\\FileDescription"),
-		lpTranslations[i].wLanguage,
-		lpTranslations[i].wCodePage);
-	if (FAILED(hr))
-	{
-		// Handle error
-	}
-	
-	// Retrieve file description for language and code page "i". 
-	exists = VerQueryValue(
-		pBlock, 
-		SubBlock, 
-		&lpBuffer, 
-		&dwBytes);
-    if (exists)
     {
-		// Do something with the data.
-	}
+		hr = StringCchPrintf(
+			SubBlock,
+			50,
+			TEXT("\\StringFileInfo\\%04x%04x\\FileDescription"),
+			lpTranslations[i].wLanguage,
+			lpTranslations[i].wCodePage);
+		if (FAILED(hr))
+		{
+			// Handle error
+		}
+		
+		// Retrieve file description for language and code page "i". 
+		exists = VerQueryValue(
+			pBlock, 
+			SubBlock, 
+			&lpBuffer, 
+			&dwBytes);
+	    if (exists)
+	    {
+			// Do something with the data.
+		}
+    }
 }
 ```
 
