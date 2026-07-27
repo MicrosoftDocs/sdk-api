@@ -121,10 +121,6 @@ If the function succeeds, the return value is the number of windows arranged.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-## -remarks
-
-Calling <b>TileWindows</b> causes all maximized windows to be restored to their previous size.
-
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-cascadewindows">CascadeWindows</a>
