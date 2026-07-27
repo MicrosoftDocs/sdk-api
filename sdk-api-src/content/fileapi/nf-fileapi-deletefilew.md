@@ -102,7 +102,7 @@ The **DeleteFile** function fails if an application attempts to delete a file th
 
 The **DeleteFile** function marks a file for deletion on close. Therefore, the file deletion does not occur until the last handle to the file is closed. Subsequent calls to [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilew) to open the file fail with **ERROR_ACCESS_DENIED**.
 
-The use of POSIX delete causes the file to be deleted while handles remain open. Subsequent calls to [CreateFile]/windows/win32/api/fileapi/nf-fileapi-createfilew) to open the file fail with **ERROR_FILE_NOT_FOUND**.
+The use of POSIX delete causes the file to be deleted while handles remain open. Subsequent calls to [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilew) to open the file fail with **ERROR_FILE_NOT_FOUND**.
 
 Symbolic link behavior:
 
