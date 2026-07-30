@@ -70,7 +70,7 @@ The
 
 ### -field szDevice
 
-A string that specifies the device name of the monitor being used.  Most applications have no use for a display monitor name, and so can save some bytes by using a <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure.
+A string that specifies the device name of the monitor being used.  Most applications have no use for a display monitor name, and so can save some bytes by using a <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure. This string is guaranteed to be null-terminated by <a href="/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a>.
 
 ### -field tagMONITORINFO
 
