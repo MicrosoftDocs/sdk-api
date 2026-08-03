@@ -463,7 +463,7 @@ If this flag is not set,  all time stamped signatures are considered valid forev
 </dl>
 </td>
 <td width="60%">
-Use only the local cache for revocation checks. Prevents revocation checks over the network. 
+Use only the local cache for revocation checks. Prevents revocation checks and fetching of intermediate certificates over the network. 
 
 <b>Windows XP:  </b>This value is not supported.
 
