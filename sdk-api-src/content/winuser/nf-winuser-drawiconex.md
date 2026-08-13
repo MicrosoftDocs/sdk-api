@@ -95,11 +95,11 @@ Type: <b>int</b>
 
 The logical width of the icon or cursor. If this parameter is zero and the <i>diFlags</i> parameter is <b>DI_DEFAULTSIZE</b>, the function uses the <b>SM_CXICON</b> system metric value to set the width. If this parameter is zero and <b>DI_DEFAULTSIZE</b> is not used, the function uses the actual resource width.
 
-### -param cyWidth [in]
+### -param cyHeight [in]
 
 Type: <b>int</b>
 
-The logical height of the icon or cursor. If this parameter is zero and the <i>diFlags</i> parameter is <b>DI_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> system metric value to set the width. If this parameter is zero and <b>DI_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
+The logical height of the icon or cursor. If this parameter is zero and the <i>diFlags</i> parameter is <b>DI_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> system metric value to set the height. If this parameter is zero and <b>DI_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
 
 ### -param istepIfAniCur [in]
 
@@ -142,7 +142,7 @@ The drawing flags. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Draws the icon or cursor using the width and height specified by the system metric values for icons, if the <i>cxWidth</i> and <i>cyWidth</i> parameters are set to zero. If this flag is not specified and <i>cxWidth</i> and <i>cyWidth</i> are set to zero, the function uses the actual resource size. 
+Draws the icon or cursor using the width and height specified by the system metric values for icons, if the <i>cxWidth</i> and <i>cyHeight</i> parameters are set to zero. If this flag is not specified and <i>cxWidth</i> and <i>cyHeight</i> are set to zero, the function uses the actual resource size. 
 
 </td>
 </tr>
