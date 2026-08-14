@@ -259,7 +259,7 @@ to provide a list of handles to be inherited by a particular process.
 The first parameter, <i>lpApplicationName</i>, can be <b>NULL</b>, in which case the executable name must be in the  white space–delimited string pointed to by <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
 
-``` syntax
+```cpp
     LPTSTR szCmdline = _tcsdup(TEXT("C:\\Program Files\\MyApp -L -S"));
     CreateProcess(NULL, szCmdline, /* ... */);
 ```
@@ -270,9 +270,9 @@ If a malicious user were to create an application called "Program.exe" on a syst
 To avoid this problem, do not pass <b>NULL</b> for <i>lpApplicationName</i>. If you do pass <b>NULL</b> for <i>lpApplicationName</i>, use quotation marks around the executable path in <i>lpCommandLine</i>, as shown in the example below.
 
 
-``` syntax
-    LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\" -L -S"));
-    CreateProcess(NULL, szCmdline, /*...*/);
+```cpp
+    LPTSTR szCmdline = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\" -L -S"));
+    CreateProcess(NULL, szCmdline, /* ... */);
 ```
 
 
