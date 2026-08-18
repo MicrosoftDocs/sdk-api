@@ -188,7 +188,7 @@ The key is a 521 bit elliptic curve DSA private key.
 
 ### -field cbKey
 
-The length, in bytes, of the key.
+The length, in bytes, of each scalar field of the key.
 
 ## -remarks
 
