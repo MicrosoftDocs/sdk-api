@@ -89,7 +89,7 @@ The size of the <i>lpFilename</i> buffer, in characters.
 
 ## -returns
 
-If the function succeeds, the return value specifies the length of the string copied to the buffer.
+If the function succeeds, the return value is the length of the string that is copied to the buffer, in characters, not including the terminating null character. If the buffer is too small to hold the module name, the string is truncated to nSize characters (including the terminating null character), the function returns _nSize - 1_.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
