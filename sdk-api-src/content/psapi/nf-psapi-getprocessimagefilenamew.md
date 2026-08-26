@@ -77,7 +77,7 @@ The size of the <i>lpImageFileName</i> buffer, in characters.
 
 ## -returns
 
-If the function succeeds, the return value specifies the length of the string copied to the buffer.
+If the function succeeds, the return value is the length of the string that is copied to the buffer, in characters, not including the terminating null character. If the buffer is too small to hold the file name, the function returns 0, and the last error is set to **ERROR_INSUFFICIENT_BUFFER**.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
