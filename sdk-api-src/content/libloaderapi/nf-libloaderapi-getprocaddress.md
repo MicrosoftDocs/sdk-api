@@ -83,6 +83,8 @@ If the function fails, the return value is NULL. To get extended error informati
 
 The spelling and case of a function name pointed to by *lpProcName* must be identical to that in the **EXPORTS** statement of the source DLL's module-definition (.def) file. The exported names of functions may differ from the names you use when calling these functions in your code. This difference is hidden by macros used in the SDK header files. For more information, see [Conventions for Function Prototypes](/windows/win32/Intl/conventions-for-function-prototypes).
 
+Name-based lookup relies on the module's export name table being sorted, as required by the PE/COFF specification. If a module's export name table is not correctly sorted, **GetProcAddress** may fail to locate an exported function **by name**, returning `NULL` with an extended error of **ERROR_PROC_NOT_FOUND**, even though the function is present in the module. In that situation the function may still be resolvable **by ordinal**, because ordinal lookup does not consult the export name table.
+
 The *lpProcName* parameter can identify the DLL function by specifying an ordinal value associated with the function in the **EXPORTS** statement. **GetProcAddress** verifies that the specified ordinal is in the range 1 through the highest ordinal value exported in the .def file. The function then uses the ordinal as an index to read the function's address from a function table.
 
 If the .def file does not number the functions consecutively from 1 to *N* (where *N* is the number of exported functions), an error can occur where **GetProcAddress** returns an invalid, non-NULL address, even though there is no function with the specified ordinal.
