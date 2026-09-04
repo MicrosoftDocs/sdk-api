@@ -294,7 +294,7 @@ The content is a serialized store.
 
 ### -param dwExpectedFormatTypeFlags [in]
 
-Indicates the expected format of the returned type. This can be one of the following values.
+Indicates the expected format of the content. This parameter can be a combination of one or more of the following flags.
 
 <table>
 <tr>
@@ -307,7 +307,7 @@ Indicates the expected format of the returned type. This can be one of the follo
 </dl>
 </td>
 <td width="60%">
-The content can be returned in any format.
+The content can be in any format.
 
 </td>
 </tr>
@@ -317,7 +317,7 @@ The content can be returned in any format.
 </dl>
 </td>
 <td width="60%">
-The content should be returned in <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> hex-encoded format with a "{ASN}" prefix.
+The content is in <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> hex-encoded format with a "{ASN}" prefix.
 
 </td>
 </tr>
@@ -327,7 +327,7 @@ The content should be returned in <a href="/windows/desktop/SecGloss/a-gly">ASCI
 </dl>
 </td>
 <td width="60%">
-The content should be returned in Base64 encoded format.
+The content is in Base64 encoded format.
 
 </td>
 </tr>
@@ -337,7 +337,7 @@ The content should be returned in Base64 encoded format.
 </dl>
 </td>
 <td width="60%">
-The content should be returned in binary format.
+The content is in binary format.
 
 </td>
 </tr>
