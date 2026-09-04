@@ -294,7 +294,7 @@ The content is a serialized store.
 
 ### -param dwExpectedFormatTypeFlags [in]
 
-Indicates the expected format of the content. This can be one of the following values.
+Indicates the expected format of the content. This parameter can be a combination of one or more of the following flags.
 
 <table>
 <tr>
