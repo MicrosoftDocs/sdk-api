@@ -174,6 +174,17 @@ There was insufficient memory available for this operation.
 
 </td>
 </tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+</dl>
+</td>
+<td width="60%">
+This data object does not support receiving data from another object.
+
+</td>
+</tr>
 </table>
 
 ## -remarks
