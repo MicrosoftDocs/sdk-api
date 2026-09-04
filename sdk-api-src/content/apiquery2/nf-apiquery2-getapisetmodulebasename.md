@@ -129,7 +129,7 @@ This function is carried by the `api-ms-win-core-apiquery-l2-1-1` API set contra
 3. If the result is **FALSE**, use your fallback path and don't attempt the load.
 4. Check the returned **HRESULT** and handle failure by taking the same fallback path as step 3.
 
-Note the difference between steps 1 and 2: the query omits the `.dll` suffix, and the loader call requires it.
+Note the difference between steps 1 and 2. The query omits the `.dll` suffix, which isn't part of the API set name. The loader call includes it because that's how the contract name appears in an import table; either form works there, because the API set runtime parses the name by API set naming rules rather than as a file name.
 
 **IsApiSetImplemented** is available through the OneCore umbrella libraries, so a program that uses this sequence still links an umbrella library for the query itself. For more info about that function and about umbrella library choice, see [IsApiSetImplemented](./nf-apiquery2-isapisetimplemented.md).
 
@@ -168,7 +168,8 @@ int __cdecl main(int argc, char* argv[])
         return 1;
     }
 
-    // The loader form requires the .dll suffix.
+    // The .dll suffix is optional here. It matches the spelling that
+    // appears in an import table.
     HMODULE apiQuery = LoadLibraryExW(L"api-ms-win-core-apiquery-l2-1-1.dll",
                                       NULL,
                                       LOAD_LIBRARY_SEARCH_SYSTEM32);
