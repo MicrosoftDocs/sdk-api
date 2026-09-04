@@ -183,15 +183,19 @@ main(
     int exitCode = 1;
 
     if (argc > 1) {
-        port = (USHORT)atoi(argv[1]);
-        if (port == 0) {
+        char* end;
+        unsigned long parsedPort = strtoul(argv[1], &end, 10);
+        if (argv[1][0] == '\0' || *end != '\0' ||
+            parsedPort == 0 || parsedPort > 65535) {
             fprintf(stderr, "Invalid port: %s\n", argv[1]);
             return 1;
         }
+        port = (USHORT)parsedPort;
     }
 
-    if (WSAStartup(WINSOCK_VERSION, &wsaData) != 0) {
-        fprintf(stderr, "WSAStartup failed: %d\n", WSAGetLastError());
+    result = WSAStartup(WINSOCK_VERSION, &wsaData);
+    if (result != 0) {
+        fprintf(stderr, "WSAStartup failed: %d\n", result);
         return 1;
     }
 
@@ -283,7 +287,6 @@ main(
         printf("recv: %d bytes\n", result);
     }
 
-    exitCode = 0;
 
 Done:
     if (s != INVALID_SOCKET) {
