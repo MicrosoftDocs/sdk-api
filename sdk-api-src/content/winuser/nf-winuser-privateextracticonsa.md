@@ -77,6 +77,8 @@ The zero-based index of the first icon to extract. For example,
 				  if this value is zero, the function extracts the first icon in the specified
 				  file.
 
+If this value is negative, a specific id will be searched instead. For example, if this value is -5, the function will look for the icon group with id 5.
+
 ### -param cxIcon [in]
 
 Type: <b>int</b>
