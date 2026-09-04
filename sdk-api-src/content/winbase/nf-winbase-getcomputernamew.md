@@ -64,7 +64,7 @@ api_name:
 Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
 
 <b>GetComputerName</b> retrieves only the NetBIOS name of the local computer. To retrieve the DNS host name, DNS domain name, or the fully qualified DNS name, call the 
-<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a> function. Additional information is provided by the 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexw">GetComputerNameEx</a> function. Additional information is provided by the 
 <a href="/windows/desktop/api/iads/nn-iads-iadsadsysteminfo">IADsADSystemInfo</a> interface.
 
 The behavior of this function can be affected if the local computer is a node in a cluster. For more information, see <a href="/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a> and <a href="/previous-versions/windows/desktop/mscs/generic-applications-usenetworkname">UseNetworkName</a>.
