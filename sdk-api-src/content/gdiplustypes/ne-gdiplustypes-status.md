@@ -122,9 +122,7 @@ Indicates that the specified style is not available for the specified font famil
 
 ### -field NotTrueTypeFont:16
 
-Indicates that the font retrieved from an 
-				<b>HDC</b> or 
-				<b>LOGFONT</b> is not a TrueType font and cannot be used with GDI+.
+Indicates that the font retrieved from an <b>HDC</b> or <b>LOGFONT</b> is not a TrueType font and cannot be used with GDI+.
 
 ### -field UnsupportedGdiplusVersion:17
 
@@ -132,8 +130,7 @@ Indicates that the version of GDI+ that is installed on the system is incompatib
 
 ### -field GdiplusNotInitialized:18
 
-Indicates that the GDI+API is not in an initialized state. To function, all GDI+ objects require that GDI+ be in an initialized state. Initialize GDI+ by calling 
-				<a href="/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>.
+Indicates that the GDI+ API is not in an initialized state. To function, all GDI+ objects require that GDI+ be in an initialized state. Initialize GDI+ by calling <a href="/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>.
 
 ### -field PropertyNotFound:19
 
