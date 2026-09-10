@@ -129,7 +129,7 @@ This function is carried by the `api-ms-win-core-apiquery-l2-1-1` API set contra
 3. If the result is **FALSE**, use your fallback path and don't attempt the load.
 4. Check the returned **HRESULT** and handle failure by taking the same fallback path as step 3.
 
-Note the difference between steps 1 and 2. The query omits the `.dll` suffix, which isn't part of the API set name. The loader call includes it because that's how the contract name appears in an import table; either form works there, because the API set runtime parses the name by API set naming rules rather than as a file name.
+The query in step 1 uses the conventional API set name without a `.dll` suffix. The loader call in step 2 uses the spelling found in an import table; either form works for that call.
 
 **IsApiSetImplemented** is available through the OneCore umbrella libraries, so a program that uses this sequence still links an umbrella library for the query itself. For more info about that function and about umbrella library choice, see [IsApiSetImplemented](./nf-apiquery2-isapisetimplemented.md).
 
@@ -161,7 +161,7 @@ int __cdecl main(int argc, char* argv[])
     PCSTR contractName = argv[1];
 
     // Test for the contract version that carries GetApiSetModuleBaseName.
-    // The query form omits the .dll suffix.
+    // Use the conventional API set name without the .dll suffix.
     if (!IsApiSetImplemented("api-ms-win-core-apiquery-l2-1-1"))
     {
         wprintf(L"GetApiSetModuleBaseName isn't available on this system.\n");

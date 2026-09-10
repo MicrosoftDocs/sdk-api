@@ -54,7 +54,7 @@ Tests whether a specified *API set* is present on the computer.
 
 ### -param Contract
 
-Specifies the name of the API set to query, without a `.dll` suffix. For more info, see the Remarks section.
+Specifies the name of the API set to query. API set names are conventionally written without a `.dll` suffix. For more info, see the Remarks section.
 
 ## -returns
 
@@ -84,7 +84,7 @@ The *Contract* parameter takes one of these forms.
 
 The `samplefeature` names are illustrative names for a fictional Windows component. The *Contract* prefix (`api-` or `ext-`) doesn't play a role in availability behavior.
 
-Omit the `.dll` suffix; it isn't part of the API set name. A loader operation such as **LoadLibrary** accepts either form, because the API set runtime parses the name by API set naming rules.
+The examples omit the `.dll` suffix because it isn't part of the API set name.
 
 For a named group, a **TRUE** result means that the group exists, its contract is mapped to an implementation module, that host is usable in the current execution environment, the group isn't disabled, and any system feature associated with the group is enabled. A query that passes a contract alias applies the contract and host checks.
 
