@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: onecore.lib
-req.dll: Kernel32.dll
+req.dll: KernelBase.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -44,7 +44,7 @@ api_location:
  - api-ms-win-core-memory-l1-1-8.dll
  - api-ms-win-core-memory-l1-1-7.dll
  - api-ms-win-core-memory-l1-1-6.dll
- - Kernel32.dll
+ - KernelBase.dll
  - onecore.lib
 api_name:
  - VirtualAlloc2
