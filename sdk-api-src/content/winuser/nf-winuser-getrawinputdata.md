@@ -56,98 +56,79 @@ req.apiset: ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version
 
 # GetRawInputData function
 
-
 ## -description
 
-Retrieves the raw input from the specified device.
+Retrieves the raw input data from the specified [RAWINPUT](ns-winuser-rawinput.md) handle.
 
 ## -parameters
 
 ### -param hRawInput [in]
 
-Type: <b>HRAWINPUT</b>
+Type: **HRAWINPUT**
 
-A handle to the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This comes from the <i>lParam</i> in <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>.
+A handle to the [RAWINPUT](ns-winuser-rawinput.md) structure. This handle is passed in the *lParam* of a [WM_INPUT](/windows/win32/inputdev/wm-input) message.
 
 ### -param uiCommand [in]
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-The command flag. This parameter can be one of the following values. 
+The command flag specifying which part of the [RAWINPUT](ns-winuser-rawinput.md) structure to retrieve. This parameter can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="RID_HEADER"></a><a id="rid_header"></a><dl>
-<dt><b>RID_HEADER</b></dt>
-<dt>0x10000005</dt>
-</dl>
-</td>
-<td width="60%">
-Get the header information from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RID_INPUT"></a><a id="rid_input"></a><dl>
-<dt><b>RID_INPUT</b></dt>
-<dt>0x10000003</dt>
-</dl>
-</td>
-<td width="60%">
-Get the raw data from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|-------|---------|
+| **RID_HEADER** 0x10000005 | Retrieve only the [RAWINPUTHEADER](ns-winuser-rawinputheader.md) from the [RAWINPUT](ns-winuser-rawinput.md) structure. *pData* must point to a **RAWINPUTHEADER**-sized buffer. |
+| **RID_INPUT** 0x10000003 | Retrieve the complete [RAWINPUT](ns-winuser-rawinput.md) structure including device-specific data. |
 
 ### -param pData [out, optional]
 
-Type: <b>LPVOID</b>
+Type: **LPVOID**
 
-A pointer to the data that comes from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This depends on the value of <i>uiCommand</i>. Pointer should be aligned on a **DWORD** (32-bit) boundary. 
+A pointer to the buffer that receives the data. The type of data depends on the value of *uiCommand*: a [RAWINPUTHEADER](ns-winuser-rawinputheader.md) for **RID_HEADER**, or a complete [RAWINPUT](ns-winuser-rawinput.md) structure for **RID_INPUT**.
 
-If <i>pData</i> is <b>NULL</b>, the required size of the buffer is returned in *<i>pcbSize</i>.
+If **NULL**, the required size of the buffer is returned in \**pcbSize* and the function returns zero.
+
+If the buffer is too small, the function returns (**UINT**)-1, sets **ERROR_INSUFFICIENT_BUFFER**, and returns the required size in \**pcbSize*.
 
 ### -param pcbSize [in, out]
 
-Type: <b>PUINT</b>
+Type: **PUINT**
 
-The size, in bytes, of the data in <i>pData</i>.
+On input, the size in bytes of the buffer pointed to by *pData*. On output, if the buffer is too small, receives the required size in bytes.
 
 ### -param cbSizeHeader [in]
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-The size, in bytes, of the <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure.
+The size, in bytes, of the [RAWINPUTHEADER](ns-winuser-rawinputheader.md) structure. Must be `sizeof(RAWINPUTHEADER)`, otherwise the function fails with **ERROR_INVALID_PARAMETER**.
 
 ## -returns
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-If <i>pData</i> is <b>NULL</b> and the function is successful, the return value is 0. If <i>pData</i> is not <b>NULL</b> and the function is successful, the return value is the number of bytes copied into pData.
+If *pData* is **NULL** and the function is successful, the return value is zero and \**pcbSize* contains the required buffer size.
 
-If there is an error, the return value is (<b>UINT</b>)-1.
+If *pData* is not **NULL** and the function is successful, the return value is the number of bytes copied into *pData*.
+
+If an error occurs, the return value is (**UINT**)-1. Call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) for the error code.
 
 ## -remarks
 
-<b>GetRawInputData</b> gets the raw input one <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure at a time. In contrast, <a href="/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a> gets an array of <b>RAWINPUT</b> structures.
+**GetRawInputData** retrieves one [RAWINPUT](ns-winuser-rawinput.md) structure at a time using the **HRAWINPUT** handle passed in *lParam* of a [WM_INPUT](/windows/win32/inputdev/wm-input) message. In contrast, [GetRawInputBuffer](nf-winuser-getrawinputbuffer.md) retrieves an array of **RAWINPUT** structures accumulated in the thread's raw input queue.
+
+**Handle lifetime:** The **HRAWINPUT** handle in *lParam* is valid for the duration of the [WM_INPUT](/windows/win32/inputdev/wm-input) message handler. It is freed internally on the next call to [GetMessage](nf-winuser-getmessage.md) or [PeekMessage](nf-winuser-peekmessagew.md) with **PM_REMOVE** via a deferred cleanup mechanism. **GetRawInputData** must be called before then.
+
+**Relationship with GetRawInputBuffer:** [GetMessage](nf-winuser-getmessage.md) removes the current [WM_INPUT](/windows/win32/inputdev/wm-input) from the raw input queue before returning. As a result, [GetRawInputBuffer](nf-winuser-getrawinputbuffer.md) will not see the current event — only events that arrived after it.
+
+See [Performing a Buffered Read of Raw Input](/windows/win32/inputdev/using-raw-input#performing-a-buffered-read-of-raw-input) for complete code samples.
 
 ## -see-also
 
-<b>Conceptual</b>
+**Conceptual**
 
-<a href="/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a>
+[GetRawInputBuffer](nf-winuser-getrawinputbuffer.md)
 
-<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+[RAWINPUT](ns-winuser-rawinput.md)
 
-<a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
+[RAWINPUTHEADER](ns-winuser-rawinputheader.md)
 
-<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
-
-
-
-<b>Reference</b>
+[Raw Input](/windows/win32/inputdev/raw-input)
