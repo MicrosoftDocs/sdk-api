@@ -58,9 +58,11 @@ This property is read-only.
 
 ## -parameters
 
-### -param retval
+### -param retval [out, retval]
 
-An [IUpdateDownloadContentCollection](nn-wuapi-iupdatedownloadcontentcollection.md) that allows you to enumerate the URLs for download contents associated with an update.
+Type: <b>IUpdateDownloadContentCollection**</b>
+
+A pointer that, upon success, receives a pointer to an [IUpdateDownloadContentCollection](nn-wuapi-iupdatedownloadcontentcollection.md) that allows you to enumerate the URLs for download contents associated with an update.
 
 ## -see-also
 

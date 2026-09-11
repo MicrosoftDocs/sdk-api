@@ -104,4 +104,6 @@ The Microsoft Software License Terms for the update could not be located.
 
 ## -see-also
 
+[EulaAccepted property](nf-wuapi-iupdate-get_eulaaccepted.md)
+
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

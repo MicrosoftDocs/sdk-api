@@ -57,6 +57,16 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>DownloadPriority*</b>
+
+A pointer to a variable of type [DownloadPriority](ne-wuapi-downloadpriority.md) that receives the suggested download priority of the update.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
