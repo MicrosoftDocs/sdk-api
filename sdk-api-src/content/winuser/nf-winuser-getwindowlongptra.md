@@ -103,7 +103,7 @@ Retrieves the <a href="/windows/desktop/winmsg/extended-window-styles">extended 
 </dl>
 </td>
 <td width="60%">
-Retrieves a handle to the application instance.
+Retrieves a handle to the module instance associated with the window at creation time, which may have been <b>NULL</b>.
 
 </td>
 </tr>

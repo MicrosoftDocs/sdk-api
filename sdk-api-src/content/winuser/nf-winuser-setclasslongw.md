@@ -141,7 +141,7 @@ Replaces a handle to the icon associated with the class.
 </dl>
 </td>
 <td width="60%">
-Replace a handle to the small icon associated with the class.
+Replaces a handle to the small icon associated with the class.
 
 </td>
 </tr>
