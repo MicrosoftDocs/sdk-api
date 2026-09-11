@@ -2,12 +2,12 @@
 UID: NF:winternl.NtQuerySystemInformation
 title: NtQuerySystemInformation function (winternl.h)
 description: Retrieves the specified system information.
-helpviewer_keywords: ["NtQuerySystemInformation","NtQuerySystemInformation function","SYSTEM_BASIC_INFORMATION","SYSTEM_CODEINTEGRITY_INFORMATION","SYSTEM_EXCEPTION_INFORMATION","SYSTEM_INFORMATION_CLASS","SYSTEM_INTERRUPT_INFORMATION","SYSTEM_KERNEL_VA_SHADOW_INFORMATION","SYSTEM_LEAP_SECOND_INFORMATION","SYSTEM_LOOKASIDE_INFORMATION","SYSTEM_PERFORMANCE_INFORMATION","SYSTEM_POLICY_INFORMATION","SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION","SYSTEM_PROCESS_INFORMATION","SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION","SYSTEM_REGISTRY_QUOTA_INFORMATION","SYSTEM_SPECULATION_CONTROL_INFORMATION","SYSTEM_THREAD_INFORMATION","SYSTEM_TIMEOFDAY_INFORMATION","SYSTEM_VHD_BOOT_INFORMATION","SystemBasicInformation","SystemCodeIntegrityInformation","SystemExceptionInformation","SystemInterruptInformation","SystemKernelVaShadowInformation","SystemLeapSecondInformation","SystemLookasideInformation","SystemPerformanceInformation","SystemPolicyInformation","SystemProcessInformation","SystemProcessorPerformanceInformation","SystemQueryPerformanceCounterInformation","SystemRegistryQuotaInformation","SystemSpeculationControlInformation","SystemTimeOfDayInformation","base.ntquerysysteminformation","winternl/NtQuerySystemInformation"]
+helpviewer_keywords: ["NtQuerySystemInformation","NtQuerySystemInformation function","SYSTEM_BASIC_INFORMATION","SYSTEM_CODEINTEGRITY_INFORMATION","SYSTEM_EXCEPTION_INFORMATION","SYSTEM_INFORMATION_CLASS","SYSTEM_INTERRUPT_INFORMATION","SYSTEM_KERNEL_VA_SHADOW_INFORMATION","SYSTEM_LEAP_SECOND_INFORMATION","SYSTEM_LOOKASIDE_INFORMATION","SYSTEM_PERFORMANCE_INFORMATION","SYSTEM_PMU_SOURCE_ADD_INFORMATION","SYSTEM_PMU_SOURCE_REMOVE_INFORMATION","SYSTEM_POLICY_INFORMATION","SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION","SYSTEM_PROCESS_INFORMATION","SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION","SYSTEM_REGISTRY_QUOTA_INFORMATION","SYSTEM_SPECULATION_CONTROL_INFORMATION","SYSTEM_THREAD_INFORMATION","SYSTEM_TIMEOFDAY_INFORMATION","SYSTEM_VHD_BOOT_INFORMATION","SystemBasicInformation","SystemCodeIntegrityInformation","SystemExceptionInformation","SystemInterruptInformation","SystemKernelVaShadowInformation","SystemLeapSecondInformation","SystemLookasideInformation","SystemPerformanceInformation","SystemPmuSourceAddInformation","SystemPmuSourceRemoveInformation","SystemPolicyInformation","SystemProcessInformation","SystemProcessorPerformanceInformation","SystemQueryPerformanceCounterInformation","SystemRegistryQuotaInformation","SystemSpeculationControlInformation","SystemTimeOfDayInformation","base.ntquerysysteminformation","winternl/NtQuerySystemInformation"]
 old-location: base\ntquerysysteminformation.htm
 tech.root: winprog
 ms.assetid: 553ec7b9-c5eb-4955-8dc0-f1c06f59fe31
 ms.date: 12/05/2018
-ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM_BASIC_INFORMATION, SYSTEM_CODEINTEGRITY_INFORMATION, SYSTEM_EXCEPTION_INFORMATION, SYSTEM_INFORMATION_CLASS, SYSTEM_INTERRUPT_INFORMATION, SYSTEM_KERNEL_VA_SHADOW_INFORMATION, SYSTEM_LEAP_SECOND_INFORMATION, SYSTEM_LOOKASIDE_INFORMATION, SYSTEM_PERFORMANCE_INFORMATION, SYSTEM_POLICY_INFORMATION, SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION, SYSTEM_PROCESS_INFORMATION, SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION, SYSTEM_REGISTRY_QUOTA_INFORMATION, SYSTEM_SPECULATION_CONTROL_INFORMATION, SYSTEM_THREAD_INFORMATION, SYSTEM_TIMEOFDAY_INFORMATION, SYSTEM_VHD_BOOT_INFORMATION, SystemBasicInformation, SystemCodeIntegrityInformation, SystemExceptionInformation, SystemInterruptInformation, SystemKernelVaShadowInformation, SystemLeapSecondInformation, SystemLookasideInformation, SystemPerformanceInformation, SystemPolicyInformation, SystemProcessInformation, SystemProcessorPerformanceInformation, SystemQueryPerformanceCounterInformation, SystemRegistryQuotaInformation, SystemSpeculationControlInformation, SystemTimeOfDayInformation, base.ntquerysysteminformation, winternl/NtQuerySystemInformation
+ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM_BASIC_INFORMATION, SYSTEM_CODEINTEGRITY_INFORMATION, SYSTEM_EXCEPTION_INFORMATION, SYSTEM_INFORMATION_CLASS, SYSTEM_INTERRUPT_INFORMATION, SYSTEM_KERNEL_VA_SHADOW_INFORMATION, SYSTEM_LEAP_SECOND_INFORMATION, SYSTEM_LOOKASIDE_INFORMATION, SYSTEM_PERFORMANCE_INFORMATION, SYSTEM_PMU_SOURCE_ADD_INFORMATION, SYSTEM_PMU_SOURCE_REMOVE_INFORMATION, SYSTEM_POLICY_INFORMATION, SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION, SYSTEM_PROCESS_INFORMATION, SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION, SYSTEM_REGISTRY_QUOTA_INFORMATION, SYSTEM_SPECULATION_CONTROL_INFORMATION, SYSTEM_THREAD_INFORMATION, SYSTEM_TIMEOFDAY_INFORMATION, SYSTEM_VHD_BOOT_INFORMATION, SystemBasicInformation, SystemCodeIntegrityInformation, SystemExceptionInformation, SystemInterruptInformation, SystemKernelVaShadowInformation, SystemLeapSecondInformation, SystemLookasideInformation, SystemPerformanceInformation, SystemPmuSourceAddInformation, SystemPmuSourceRemoveInformation, SystemPolicyInformation, SystemProcessInformation, SystemProcessorPerformanceInformation, SystemQueryPerformanceCounterInformation, SystemRegistryQuotaInformation, SystemSpeculationControlInformation, SystemTimeOfDayInformation, base.ntquerysysteminformation, winternl/NtQuerySystemInformation
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -117,6 +117,18 @@ instead.
 Returns an opaque <b>SYSTEM_PERFORMANCE_INFORMATION</b> structure that can be
 used to generate an unpredictable seed for a random number generator. Use the
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function instead.
+
+
+
+#### SystemPmuSourceAddInformation
+
+Accepts a <b>SYSTEM_PMU_SOURCE_ADD_INFORMATION</b> structure that describes a PMU (Performance Monitoring Unit) profile source to add.
+
+
+
+#### SystemPmuSourceRemoveInformation
+
+Accepts a <b>SYSTEM_PMU_SOURCE_REMOVE_INFORMATION</b> structure that identifies a PMU (Performance Monitoring Unit) profile source to remove.
 
 
 
@@ -659,6 +671,170 @@ use by the operating system.
 
 Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
+
+
+
+#### SYSTEM_PMU_SOURCE_ADD_INFORMATION
+
+When the <i>SystemInformationClass</i>  parameter is
+<b>SystemPmuSourceAddInformation</b>,  the buffer pointed to by
+the <i>SystemInformation</i> parameter should be large enough
+to hold a single <b>SYSTEM_PMU_SOURCE_ADD_INFORMATION</b> structure
+having the following layout:
+
+
+
+``` syntax
+typedef struct _SYSTEM_PMU_SOURCE_ADD_INFORMATION {
+    union {
+        struct {
+            UCHAR PerfEvtEventSelect;
+            UCHAR PerfEvtUnitSelect;
+            UCHAR PerfEvtCMask;
+            UCHAR PerfEvtCInv;
+            UCHAR PerfEvtAnyThread;
+            UCHAR PerfEvtEdgeDetect;
+        } Intel;
+        struct {
+            USHORT PerfEvtEventSelect;
+            UCHAR PerfEvtUnitSelect;
+            UCHAR PerfEvtCMask;
+            UCHAR PerfEvtCInv;
+            UCHAR PerfEvtEdgeDetect;
+            UCHAR PerfEvtHostGuest;
+            UCHAR PerfPmuType;
+        } Amd;
+        struct {
+            ULONG PerfEvtType;
+            BOOLEAN AllowsHalt;
+        } Arm;
+    };
+    ULONG CpuInfoHierarchy[3];
+    ULONG InitialInterval;
+    BOOLEAN Persist;
+    WCHAR ProfileSourceDescription[ANYSIZE_ARRAY];
+} SYSTEM_PMU_SOURCE_ADD_INFORMATION, *PSYSTEM_PMU_SOURCE_ADD_INFORMATION;
+```
+
+The architecture-specific union at the start of the structure contains the PMC (Performance Monitoring Counter) event configuration. The appropriate union member is selected based on the processor architecture.
+
+The <b>Intel</b> member is used on Intel processors and contains the following fields:
+
+<table>
+<tr>
+<td><b>Field</b></td>
+<td><b>Meaning</b></td>
+</tr>
+<tr>
+<td>PerfEvtEventSelect</td>
+<td>The PMC event select value.</td>
+</tr>
+<tr>
+<td>PerfEvtUnitSelect</td>
+<td>The PMC logical unit select value.</td>
+</tr>
+<tr>
+<td>PerfEvtCMask</td>
+<td>An optional non-zero counter mask.</td>
+</tr>
+<tr>
+<td>PerfEvtCInv</td>
+<td>An optional counter mask invert bit.</td>
+</tr>
+<tr>
+<td>PerfEvtAnyThread</td>
+<td>An optional AnyThread bit.</td>
+</tr>
+<tr>
+<td>PerfEvtEdgeDetect</td>
+<td>An optional edge detection bit.</td>
+</tr>
+</table>
+ 
+The <b>Amd</b> member is used on AMD processors and contains the following fields:
+
+<table>
+<tr>
+<td><b>Field</b></td>
+<td><b>Meaning</b></td>
+</tr>
+<tr>
+<td>PerfEvtEventSelect</td>
+<td>The PMC event select value.</td>
+</tr>
+<tr>
+<td>PerfEvtUnitSelect</td>
+<td>The PMC logical unit select value.</td>
+</tr>
+<tr>
+<td>PerfEvtCMask</td>
+<td>An optional non-zero counter mask.</td>
+</tr>
+<tr>
+<td>PerfEvtCInv</td>
+<td>An optional counter mask invert bit.</td>
+</tr>
+<tr>
+<td>PerfEvtEdgeDetect</td>
+<td>An optional edge detection bit.</td>
+</tr>
+<tr>
+<td>PerfEvtHostGuest</td>
+<td>An optional host/guest only bit.</td>
+</tr>
+<tr>
+<td>PerfPmuType</td>
+<td>An optional PMU type of the event.</td>
+</tr>
+</table>
+ 
+The <b>Arm</b> member is used on ARM processors and contains the following fields:
+
+<table>
+<tr>
+<td><b>Field</b></td>
+<td><b>Meaning</b></td>
+</tr>
+<tr>
+<td>PerfEvtType</td>
+<td>The PMC event type.</td>
+</tr>
+<tr>
+<td>AllowsHalt</td>
+<td>Toggles profiling across halt states.</td>
+</tr>
+</table>
+ 
+The <b>CpuInfoHierarchy</b> member is an array of three ULONG values that identify the target processor microarchitecture. For x86/x64/AMD64 processors, the values represent Family, Model, and Stepping. For ARM/ARM64 processors, the values represent Vendor, Model, and Revision. A value of -1 indicates "Not Specified".
+
+The <b>InitialInterval</b> member contains the initial sampling interval for the profile source.
+
+The <b>Persist</b> member indicates whether the profile source should persist across reboots by saving the configuration to the registry.
+
+The <b>ProfileSourceDescription</b> member contains a variable-length null-terminated Unicode string that provides a human-readable description of the profile source.
+
+
+
+#### SYSTEM_PMU_SOURCE_REMOVE_INFORMATION
+
+When the <i>SystemInformationClass</i>  parameter is
+<b>SystemPmuSourceRemoveInformation</b>,  the buffer pointed to by
+the <i>SystemInformation</i> parameter should be large enough
+to hold a single <b>SYSTEM_PMU_SOURCE_REMOVE_INFORMATION</b> structure
+having the following layout:
+
+
+
+``` syntax
+typedef struct _SYSTEM_PMU_SOURCE_REMOVE_INFORMATION {
+    ULONG ProfileSource;
+    ULONG CpuInfoHierarchy[3];
+} SYSTEM_PMU_SOURCE_REMOVE_INFORMATION, *PSYSTEM_PMU_SOURCE_REMOVE_INFORMATION;
+```
+
+The <b>ProfileSource</b> member identifies the profile source to remove.
+
+The <b>CpuInfoHierarchy</b> member is an array of three ULONG values that identify the target processor microarchitecture. For x86/x64/AMD64 processors, the values represent Family, Model, and Stepping. For ARM/ARM64 processors, the values represent Vendor, Model, and Revision. A value of -1 indicates "Not Specified".
 
 
 
