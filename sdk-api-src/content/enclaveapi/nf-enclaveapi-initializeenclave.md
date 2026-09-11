@@ -96,6 +96,7 @@ For a list of common error codes, see [System Error Codes](/windows/win32/Debug/
 | **ERROR_ENCLAVE_FAILURE** | An failure specific to the underlying enclave architecture occurred. The value for the *lpEnclaveError* parameter contains the architecture-specific error.<br/><br/>For the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types, the EINIT instruction that the [ENCLAVE_INIT_INFO_SGX](../winnt/ns-winnt-enclave_init_info_sgx.md) structure specified generated an error. The value of the *lpEnclaveError* parameter contains the error that the instruction generated. |
 | **ERROR_BAD_LENGTH** | The value of the *dwInfoLength* parameter did not match the value expected based on the value specified for the *lpEnclaveInformation* parameter. |
 | **ERROR_RETRY** | The processor was not able to initialize the enclave in a timely fashion. Try to initialize the enclave again. |
+| **ERROR_MOD_NOT_FOUND** | The vertdll.dll module was not found loaded in the enclave. Ensure the enclave DLL calls at least one vertdll.dll API. |
 
 ## -remarks
 
@@ -122,3 +123,4 @@ To create an enclave, use the [CreateEnclave](nf-enclaveapi-createenclave.md) fu
 [VirtualFree](../memoryapi/nf-memoryapi-virtualfree.md)
 
 [VirtualFreeEx](../memoryapi/nf-memoryapi-virtualfreeex.md)
+
