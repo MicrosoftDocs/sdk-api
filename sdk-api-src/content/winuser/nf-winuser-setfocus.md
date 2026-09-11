@@ -81,6 +81,8 @@ Type: **HWND**
 
 If the function succeeds, the return value is the handle to the window that previously had the keyboard focus. If the *hWnd* parameter is invalid or the window is not attached to the calling thread's message queue, the return value is NULL. To get extended error information, call [GetLastError function](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
+If the window that previously had the keyboard focus was destroyed after losing focus, the return value is NULL and [GetLastError function](../errhandlingapi/nf-errhandlingapi-getlasterror.md) return value is ERROR_SUCCESS (0).
+
 Extended error ERROR_INVALID_PARAMETER (0x57) means that window is in disabled state.
 
 ## -remarks
