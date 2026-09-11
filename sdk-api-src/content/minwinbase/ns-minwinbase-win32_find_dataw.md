@@ -60,9 +60,9 @@ api_name:
 ## -description
 
 Contains information about the file  that is found by the 
-    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, 
-    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>, or 
-    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilew">FindFirstFile</a>, 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexw">FindFirstFileEx</a>, or 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilew">FindNextFile</a> function.
 
 ## -struct-fields
 
@@ -226,11 +226,11 @@ typedef struct _WIN32_FIND_DATAW {
 If a file has a long file name, the complete name appears in the <b>cFileName</b> member, 
     and the 8.3 format truncated version of the name appears in the <b>cAlternateFileName</b> 
     member. Otherwise, <b>cAlternateFileName</b> is empty. If the 
-    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function was called with a value of 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexw">FindFirstFileEx</a> function was called with a value of 
     <b>FindExInfoBasic</b> in the <i>fInfoLevelId</i> parameter, the 
     <b>cAlternateFileName</b> member will always contain a <b>NULL</b> string 
     value. This remains true for all subsequent calls to the 
-    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function. As an alternative method of 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilew">FindNextFile</a> function. As an alternative method of 
     retrieving the 8.3 format version of a file name, you can use the 
     <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a> function. For more information about 
     file names, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
@@ -274,15 +274,15 @@ Not all file systems can record creation and last access times, and not all file
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilew">FindFirstFile</a>
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexw">FindFirstFileEx</a>
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilew">FindNextFile</a>
 
 
 

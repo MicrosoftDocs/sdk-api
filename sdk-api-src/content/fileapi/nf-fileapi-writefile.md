@@ -250,7 +250,7 @@ int main()
    // ... Add code using bufferAligned here.
    
    // Replace with corresponding free routine.
-   delete buffer;
+   delete[] buffer;
 }
 
 ```
@@ -280,3 +280,4 @@ int main()
 [SetEndOfFile](nf-fileapi-setendoffile.md)
 
 [WriteFileEx](nf-fileapi-writefileex.md)
+
