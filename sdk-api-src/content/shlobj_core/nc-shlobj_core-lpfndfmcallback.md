@@ -90,19 +90,19 @@ One of the following notifications.
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a>
+<a href="/windows/desktop/shell/dfm-mergecontextmenu">DFM_MERGECONTEXTMENU</a>
 </td>
-<td>Sent by the default context menu implementation to allow <b>LPFNDFMCALLBACK</b> to add items to the menu.</td>
+<td>Sent by the default context menu implementation to allow <b>LPFNDFMCALLBACK</b> to add items to the menu. Notification can be processed using S_OK return value to add the default extension to the menu.</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/preview-handler-guidelines">DFM_INVOKECOMMAND</a>
+<a href="/windows/desktop/shell/dfm-invokecommand">DFM_INVOKECOMMAND</a>
 </td>
-<td>Sent by the default context menu implementation to request <b>LPFNDFMCALLBACK</b> to invoke a menu command.</td>
+<td>Sent by the default context menu implementation to request <b>LPFNDFMCALLBACK</b> to invoke a menu command. Notification can be processed using S_FALSE return value to invoke the default command handler.</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/library-ovw">DFM_GETDEFSTATICID</a>
+<a href="/windows/desktop/shell/dfm-getdefstaticid">DFM_GETDEFSTATICID</a>
 </td>
 <td>Sent by the default context menu implementation when the default menu command is being created, allowing an alternate choice to be made.</td>
 </tr>
@@ -130,6 +130,16 @@ Returns S_OK if the message was handled, or an error value otherwise, including 
 <tr>
 <th>Return code</th>
 <th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+<a href="/windows/desktop/shell/dfm-invokecommand">DFM_INVOKECOMMAND</a> notification: invoke the default command handler.
+</td>
 </tr>
 <tr>
 <td width="40%">
