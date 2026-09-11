@@ -74,7 +74,7 @@ The virtual-key code to be translated. See <a href="/windows/desktop/inputdev/vi
 
 Type: <b>UINT</b>
 
-The hardware <a href="/windows/win32/inputdev/about-keyboard-input#scan-codes">scan code</a> of the key to be translated. The high-order bit of this value is set if the key is up.
+The hardware <a href="/windows/win32/inputdev/about-keyboard-input#scan-codes">scan code</a> of the key to be translated. Low byte must contain the last make byte; set bit 8 (0x0100) for <a href="/windows/win32/inputdev/about-keyboard-input#extended-key-flag">extended key</a>; set bit 15 (0x8000) for <a href="/windows/win32/inputdev/about-keyboard-input#previous-key-state-flag">key-up</a>.
 
 ### -param lpKeyState [in]
 
@@ -178,22 +178,13 @@ As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
-
-
 <b>Reference</b>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
+
