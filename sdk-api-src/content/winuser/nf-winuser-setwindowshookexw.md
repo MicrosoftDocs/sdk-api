@@ -70,7 +70,7 @@ Installs an application-defined hook procedure into a hook chain. You would inst
 
 Type: <b>int</b>
 
-The type of hook procedure to be installed. This parameter can be one of the following values. 
+The type of hook procedure to be installed. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -109,7 +109,7 @@ Installs a hook procedure that monitors messages after they have been processed 
 </td>
 <td width="60%">
 
-Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the <a href="/windows/win32/winmsg/cbtproc">CBTProc</a> hook procedure.
+Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the [CBTProc](/windows/win32/winmsg/cbtproc) hook procedure.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Installs a hook procedure useful for debugging other hook procedures. For more i
 </td>
 <td width="60%">
 
-Installs a hook procedure that will be called when the application's foreground thread is about to become idle. This hook is useful for performing low priority tasks during idle time. For more information, see the [ForegroundIdleProc](/windows/win32/winmsg/foregroundidleproc) hook procedure. 
+Installs a hook procedure that will be called when the application's foreground thread is about to become idle. This hook is useful for performing low priority tasks during idle time. For more information, see the [ForegroundIdleProc](/windows/win32/winmsg/foregroundidleproc) hook procedure.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Installs a hook procedure that monitors messages posted to a message queue. For 
 > [!WARNING]
 > Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
-Installs a hook procedure that posts messages previously recorded by a <a href="/windows/desktop/winmsg/about-hooks">WH_JOURNALRECORD</a> hook procedure. For more information, see the [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc) hook procedure.
+Installs a hook procedure that posts messages previously recorded by a [WH_JOURNALRECORD](/windows/desktop/winmsg/about-hooks) hook procedure. For more information, see the [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc) hook procedure.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Installs a hook procedure that records input messages posted to the system messa
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/windows/win32/winmsg/keyboardproc">KeyboardProc</a> hook procedure.
+Installs a hook procedure that monitors keystroke messages. For more information, see the [KeyboardProc](/windows/win32/winmsg/keyboardproc) hook procedure.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Installs a hook procedure that monitors low-level keyboard input events. For mor
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors mouse messages. For more information, see the <a href="/windows/win32/winmsg/mouseproc">MouseProc</a> hook procedure.
+Installs a hook procedure that monitors mouse messages. For more information, see the [MouseProc](/windows/win32/winmsg/mouseproc) hook procedure.
 
 </td>
 </tr>
@@ -223,7 +223,8 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a> hook procedure.
+
+Installs a hook procedure that monitors low-level mouse input events. For more information, see the [LowLevelMouseProc](/windows/win32/winmsg/lowlevelmouseproc) hook procedure.
 
 </td>
 </tr>
@@ -235,7 +236,7 @@ Installs a hook procedure that monitors low-level mouse input events. For more i
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the <a href="/windows/win32/winmsg/messageproc">MessageProc</a> hook procedure.
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the [MessageProc](/windows/win32/winmsg/messageproc) hook procedure.
 
 </td>
 </tr>
@@ -247,7 +248,7 @@ Installs a hook procedure that monitors messages generated as a result of an inp
 </td>
 <td width="60%">
 
-Installs a hook procedure that receives notifications useful to shell applications. For more information, see the <a href="/windows/win32/winmsg/shellproc">ShellProc</a> hook procedure.
+Installs a hook procedure that receives notifications useful to shell applications. For more information, see the [ShellProc](/windows/win32/winmsg/shellproc) hook procedure.
 
 </td>
 </tr>
@@ -258,7 +259,9 @@ Installs a hook procedure that receives notifications useful to shell applicatio
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the <a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a> hook procedure.
+
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the [SysMsgProc](/windows/win32/winmsg/sysmsgproc) hook procedure.
+
 </td>
 </tr>
 </table>
@@ -285,9 +288,9 @@ The identifier of the thread with which the hook procedure is to be associated. 
 
 Type: <b>HHOOK</b>
 
-If the function succeeds, the return value is the handle to the hook procedure. 
+If the function succeeds, the return value is the handle to the hook procedure.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
@@ -299,13 +302,13 @@ If a 64-bit application installs a global hook on 64-bit Windows, the 64-bit hoo
 
 To hook all applications on the desktop of a 64-bit Windows installation, install a 32-bit global hook and a 64-bit global hook, each from appropriate processes, and be sure to keep pumping messages in the hooking application to avoid blocking normal functioning. If you already have a 32-bit global hooking application and it doesn't need to run in each application's context, you may not need to create a 64-bit version.
 
-An error may occur if the <i>hMod</i> parameter is <b>NULL</b> and the <i>dwThreadId</i> parameter is zero or specifies the identifier of a thread created by another process. 
+An error may occur if the <i>hMod</i> parameter is <b>NULL</b> and the <i>dwThreadId</i> parameter is zero or specifies the identifier of a thread created by another process.
 
 Calling the [CallNextHookEx function](nf-winuser-callnexthookex.md) function to chain to the next hook procedure is optional, but it is highly recommended; otherwise, other applications that have installed hooks will not receive hook notifications and may behave incorrectly as a result. You should call <b>CallNextHookEx</b> unless you absolutely need to prevent the notification from being seen by other applications.
 
 In .NET apps, you must ensure the callback is not moved around by the garbage collector (otherwise your app will crash with an ExecutionEngineException). One way to do this is by making the callback a static method of your class.
 
-Before terminating, an application must call the [UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md) function to free system resources associated with the hook. 
+Before terminating, an application must call the [UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md) function to free system resources associated with the hook.
 
 The scope of a hook depends on the hook type. Some hooks can be set only with global scope; others can also be set for only a specific thread, as shown in the following table.
 
@@ -375,11 +378,10 @@ The scope of a hook depends on the hook type. Some hooks can be set only with gl
 <td>Global only</td>
 </tr>
 </table>
- 
 
 For a specified hook type, thread hooks are called first, then global hooks. Be aware that the WH_MOUSE, WH_KEYBOARD, WH_JOURNAL*, WH_SHELL, and low-level hooks can be called on the thread that installed the hook rather than the thread processing the hook. For these hooks, it is possible that both the 32-bit and 64-bit hooks will be called if a 32-bit hook is ahead of a 64-bit hook in the hook chain.
 
-The global hooks are a shared resource, and installing one affects all applications in the same desktop as the calling thread. All global hook functions must be in libraries. Global hooks should be restricted to special-purpose applications or to use as a development aid during application debugging. Libraries that no longer need a hook should remove its hook procedure. 
+The global hooks are a shared resource, and installing one affects all applications in the same desktop as the calling thread. All global hook functions must be in libraries. Global hooks should be restricted to special-purpose applications or to use as a development aid during application debugging. Libraries that no longer need a hook should remove its hook procedure.
 
 <b>Windows Store apps: </b> If dwThreadId is zero, then window hook DLLs are not loaded in-process for the Windows Store app processes and the Windows Runtime broker process unless they are installed by either UIAccess processes (accessibility tools). The notification is delivered on the installer's thread for these hooks:
 
@@ -401,12 +403,12 @@ The global hooks are a shared resource, and installing one affects all applicati
 
 </li>
 </ul>
-This behavior is similar to what happens when there is an architecture mismatch between the hook DLL and the target application process, for example, when the hook DLL is 32-bit and the application process 64-bit. 
+This behavior is similar to what happens when there is an architecture mismatch between the hook DLL and the target application process, for example, when the hook DLL is 32-bit and the application process 64-bit.
 
 
 #### Examples
 
-For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and Releasing Hook Procedures</a>.
+For an example, see [Installing and Releasing Hook Procedures](/windows/desktop/winmsg/using-hooks).
 
 <div class="code"></div>
 
