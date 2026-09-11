@@ -11,8 +11,8 @@ ms.keywords: LookupIconIdFromDirectory, LookupIconIdFromDirectory function [Menu
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -55,88 +55,60 @@ api_name:
 
 ## -description
 
-Searches through icon (<b>RT_GROUP_ICON</b>) or cursor (<b>RT_GROUP_CURSOR</b>) resource data for the icon or cursor that best fits the current display device.
+Searches through icon (**RT_GROUP_ICON**) or cursor (**RT_GROUP_CURSOR**) resource data for the icon or cursor that best fits the current display device.
 
-To specify a desired height or width, use the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> function. This function calls it by passing zero in the <b>cxDesired</b>/<b>cyDesired</b> parameters.
+To specify a desired height or width, use the [LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex) function. This function calls it passing zero for *cxDesired*, *cyDesired*, and *Flags*. Because no size is requested and **LR_DEFAULTSIZE** is not used, size does not take part in the selection; the image is chosen by color depth as described for [LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex).
 
 ## -parameters
 
 ### -param presbits [in]
 
-Type: <b>PBYTE</b>
+Type: **PBYTE**
 
-The icon or cursor directory data. Because this function does not validate the resource data, it causes a general protection (GP) fault or returns an undefined value if <i>presbits</i> is not pointing to valid resource data.
+The icon or cursor directory data. Because this function does not validate the resource data, it causes a general protection (GP) fault or returns an undefined value if *presbits* is not pointing to valid resource data.
 
 ### -param fIcon [in]
 
-Type: <b>BOOL</b>
+Type: **BOOL**
 
-Indicates whether an icon or a cursor is sought. If this parameter is <b>TRUE</b>, the function is searching for an icon; if the parameter is <b>FALSE</b>, the function is searching for a cursor.
+Indicates whether an icon or a cursor is sought. If this parameter is **TRUE**, the function is searching for an icon; if the parameter is **FALSE**, the function is searching for a cursor.
 
 ## -returns
 
-Type: <b>int</b>
+Type: **int**
 
-If the function succeeds, the return value is an integer resource identifier for the icon (<b>RT_ICON</b>) or cursor (<b>RT_CURSOR</b>) that best fits the current display device. 
+If the function succeeds, the return value is an integer resource identifier for the icon (**RT_ICON**) or cursor (**RT_CURSOR**) that best fits the current display device.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
-A resource file of type <b>RT_GROUP_ICON</b> (<b>RT_GROUP_CURSOR</b> indicates cursors) contains icon (or cursor) data in several device-dependent and device-independent formats. <b>LookupIconIdFromDirectory</b> searches the resource file for the icon (or cursor) that best fits the current display device and returns its integer identifier. The <a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> and <a href="/windows/desktop/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a> functions use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with this identifier to locate the resource in the module. 
+A resource file of type **RT_GROUP_ICON** (**RT_GROUP_CURSOR** indicates cursors) contains icon (or cursor) data in several device-dependent and device-independent formats. **LookupIconIdFromDirectory** searches the resource file for the icon (or cursor) that best fits the current display device and returns its integer identifier. The [FindResource](/windows/desktop/api/winbase/nf-winbase-findresourcea) and [FindResourceEx](/windows/desktop/api/winbase/nf-winbase-findresourceexa) functions use the [MAKEINTRESOURCE](/windows/desktop/api/winuser/nf-winuser-makeintresourcea) macro with this identifier to locate the resource in the module.
 
-The icon directory is loaded from a resource file with resource type <b>RT_GROUP_ICON</b> (or <b>RT_GROUP_CURSOR</b> for cursors), and an integer resource name for the specific icon to be loaded. <b>LookupIconIdFromDirectory</b> returns an integer identifier that is the resource name of the icon that best fits the current display device. 
+The icon directory is loaded from a resource file with resource type **RT_GROUP_ICON** (or **RT_GROUP_CURSOR** for cursors), and an integer resource name for the specific icon to be loaded. **LookupIconIdFromDirectory** returns an integer identifier that is the resource name of the icon that best fits the current display device.
 
-The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>, <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> functions use this function to search the specified resource data for the icon or cursor that best fits the current display device.
+The [LoadIcon](/windows/desktop/api/winuser/nf-winuser-loadicona), [LoadCursor](/windows/desktop/api/winuser/nf-winuser-loadcursora), and [LoadImage](/windows/desktop/api/winuser/nf-winuser-loadimagea) functions use this function to search the specified resource data for the icon or cursor that best fits the current display device.
 
 ## -see-also
 
-<b>Conceptual</b>
+[CreateIconFromResource](/windows/desktop/api/winuser/nf-winuser-createiconfromresource)
 
+[CreateIconIndirect](/windows/desktop/api/winuser/nf-winuser-createiconindirect)
 
+[FindResource](/windows/desktop/api/winbase/nf-winbase-findresourcea)
 
-<a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
+[FindResourceEx](/windows/desktop/api/winbase/nf-winbase-findresourceexa)
 
+[GetIconInfo](/windows/desktop/api/winuser/nf-winuser-geticoninfo)
 
+[Icons](/windows/desktop/menurc/icons)
 
-<a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
+[LoadCursor](/windows/desktop/api/winuser/nf-winuser-loadcursora)
 
+[LoadIcon](/windows/desktop/api/winuser/nf-winuser-loadicona)
 
+[LoadImage](/windows/desktop/api/winuser/nf-winuser-loadimagea)
 
-<a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a>
+[LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex)
 
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
-
-
-
-<a href="/windows/desktop/menurc/icons">Icons</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
-
-
-
-<b>Reference</b>
+[MAKEINTRESOURCE](/windows/desktop/api/winuser/nf-winuser-makeintresourcea)
