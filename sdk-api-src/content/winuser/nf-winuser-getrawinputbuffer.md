@@ -57,15 +57,15 @@ Performs a buffered read of the raw input messages data found in the calling thr
 
 Type: **PRAWINPUT**
 
-A pointer to a buffer of [RAWINPUT](ns-winuser-rawinput.md) structures that contain the raw input data. Pointer should be aligned on a **DWORD** (32-bit) boundary.
+A pointer to a buffer of [RAWINPUT](ns-winuser-rawinput.md) structures that contain the raw input data. The pointer must be aligned on a **DWORD** (32-bit) boundary on 32-bit systems, and on a **QWORD** (64-bit) boundary on 64-bit systems.
 
-If **NULL**, size of the first raw input message data (minimum required buffer), in bytes, is returned in \**pcbSize*.
+If **NULL**, the size of the first pending raw input message, in bytes, is returned in \**pcbSize*. The queue is not modified.
 
 ### -param pcbSize [in, out]
 
 Type: **PUINT**
 
-The size, in bytes, of the provided [RAWINPUT](ns-winuser-rawinput.md) buffer.
+The size, in bytes, of the provided [RAWINPUT](ns-winuser-rawinput.md) buffer. On return, contains the size of the first element that did not fit, or zero if all elements were read.
 
 ### -param cbSizeHeader [in]
 
@@ -79,17 +79,25 @@ Type: **UINT**
 
 If *pData* is **NULL** and the function is successful, the return value is zero. If *pData* is not **NULL** and the function is successful, the return value is the number of [RAWINPUT](ns-winuser-rawinput.md) structures written to *pData*.
 
-If an error occurs, the return value is (**UINT**)-1. Call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) for the error code.
+If an error occurs, the return value is (**UINT**)-1. Call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) for the error code. A common error is **ERROR_INSUFFICIENT_BUFFER**, which means the buffer is too small to hold the first pending element — in this case \**pcbSize* is updated with the required size and the function should be retried with a larger buffer.
 
 ## -remarks
 
 When an application receives raw input, its message queue gets a [WM_INPUT](/windows/win32/inputdev/wm-input) message and the queue status flag [QS_RAWINPUT](nf-winuser-getqueuestatus.md) is set.
 
-Using **GetRawInputBuffer**, the raw input data is read in the array of variable size [RAWINPUT](ns-winuser-rawinput.md) structures and corresponding [WM_INPUT](/windows/win32/inputdev/wm-input) messages are removed from the calling thread's message queue. You can call this method several times with buffer that cannot fit all message's data until all raw input messages have been read.
+**GetRawInputBuffer** reads [WM_INPUT](/windows/win32/inputdev/wm-input) messages directly from the calling thread's raw input queue and removes them as they are read. You can call this function several times until all raw input messages have been read. When all messages have been successfully read and *pData* is not **NULL**, the [QS_RAWINPUT](nf-winuser-getqueuestatus.md) flag is cleared from the calling thread's message queue status.
 
 The [NEXTRAWINPUTBLOCK](nf-winuser-nextrawinputblock.md) macro allows an application to traverse an array of [RAWINPUT](ns-winuser-rawinput.md) structures.
 
-If all raw input messages have been successfully read from message queue then [QS_RAWINPUT](nf-winuser-getqueuestatus.md) flag is cleared from the calling thread's message queue status.
+**Important:** **GetRawInputBuffer** only sees [WM_INPUT](/windows/win32/inputdev/wm-input) messages that are still present in the raw input queue. When [GetMessage](nf-winuser-getmessage.md) retrieves a [WM_INPUT](/windows/win32/inputdev/wm-input) message, it removes that message from the queue before returning — so **GetRawInputBuffer** will not see it. The removed event must be read via [GetRawInputData](nf-winuser-getrawinputdata.md) using the **HRAWINPUT** handle passed in *lParam*. Only events that arrived after the current one are visible to **GetRawInputBuffer**.
+
+Therefore, when using **GetRawInputBuffer** from a [WM_INPUT](/windows/win32/inputdev/wm-input) handler or after [GetMessage](nf-winuser-getmessage.md), the correct pattern is:
+
+1. Read the current event via [GetRawInputData](nf-winuser-getrawinputdata.md) using the *lParam* handle.
+2. Call **GetRawInputBuffer** in a loop to drain any additional events that accumulated in the queue.
+3. Call [DefWindowProc](/windows/win32/api/winproc/nf-winproc-defwndproc) after processing the message.
+
+See [Performing a Buffered Read of Raw Input](/windows/win32/inputdev/using-raw-input#performing-a-buffered-read-of-raw-input) for complete code samples.
 
 > [!NOTE]
 > WOW64: To get the correct size of the raw input buffer, do not use \**pcbSize*, use \**pcbSize* \* 8 instead. To ensure **GetRawInputBuffer** behaves properly on WOW64, you must align the [RAWINPUT](ns-winuser-rawinput.md) structure by 8 bytes. The following code shows how to align **RAWINPUT** for WOW64.
@@ -117,6 +125,8 @@ internal struct RAWINPUT
 **Conceptual** 
 
 [GetMessage](nf-winuser-getmessage.md)
+
+[GetRawInputData](nf-winuser-getrawinputdata.md)
 
 [NEXTRAWINPUTBLOCK](nf-winuser-nextrawinputblock.md)
 
