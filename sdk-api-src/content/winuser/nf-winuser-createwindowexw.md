@@ -80,7 +80,7 @@ The extended window style of the window being created. For a list of possible va
 
 ### -param lpClassName [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 A <b>null</b>-terminated string or a class atom.
 
@@ -90,7 +90,7 @@ If a class atom created by a previous call to <b>RegisterClass</b> or <b>Registe
 
 ### -param lpWindowName [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 The window name. If the window style specifies a title bar, the window title pointed to by <i>lpWindowName</i> is displayed in the title bar. When using <a href="/windows/desktop/api/winuser/nf-winuser-createwindoww">CreateWindow</a> to create controls, such as buttons, check boxes, and static controls, use <i>lpWindowName</i> to specify the text of the control. When creating a static control with the <b>SS_ICON</b> style, use <i>lpWindowName</i> to specify the icon name or identifier. To specify an identifier, use the syntax "#<i>num</i>".
 
@@ -276,7 +276,7 @@ The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activ
 
 ## Example
 
-The following sample code illustrates the use of **CreateWindowExA**.
+The following sample code illustrates the use of **CreateWindowExW**.
 
 ```cpp
 BOOL Create(
