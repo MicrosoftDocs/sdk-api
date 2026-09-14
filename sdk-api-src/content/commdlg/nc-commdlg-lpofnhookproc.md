@@ -55,21 +55,21 @@ The <b>LPOFNHOOKPROC</b> type defines a pointer to this callback function. <i>OF
 
 ## -parameters
 
-### -param unnamedParam1
+### -param hdlg
 
 A handle to the child dialog box of the <b>Open</b> or <b>Save As</b> dialog box. Use the <a href="/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a> function to get the handle to the <b>Open</b> or <b>Save As</b> dialog box.
 
-### -param unnamedParam2
+### -param lParam
 
 The identifier of the message being received.
 
-### -param unnamedParam3
+### -param uiMsg
 
-Additional information about the message. The exact meaning depends on the value of the <i>unnamedParam2</i> parameter.
+Additional information about the message. The exact meaning depends on the value of the <i>lParam</i> parameter.
 
-### -param unnamedParam4
+### -param wParam
 
-Additional information about the message. The exact meaning depends on the value of the <i>unnamedParam2</i> parameter. If the <i>unnamedParam2</i> parameter indicates the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>unnamedParam4</i> is a pointer to an <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure containing the values specified when the dialog box was created.
+Additional information about the message. The exact meaning depends on the value of the <i>lParam</i> parameter. If the <i>lParam</i> parameter indicates the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>wParam</i> is a pointer to an <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure containing the values specified when the dialog box was created.
 
 ## -returns
 
