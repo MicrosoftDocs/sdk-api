@@ -87,7 +87,7 @@ If the executable module is a 16-bit application, *lpApplicationName* should be 
 To run a batch file, you must start the command interpreter; set *lpApplicationName* to cmd.exe and set *lpCommandLine* to the following arguments: /c plus the name of the batch file.
 
 > [!IMPORTANT]
-> The MSRC engineering team advises against this. See [MS14-019 – Fixing a binary hijacking via .cmd or .bat file](https://www.microsoft.com/en-us/msrc/blog/2014/04/ms14-019-fixing-a-binary-hijacking-via-cmd-or-bat-file/) for more details.
+> The MSRC engineering team advises against this. See [MS14-019 – Fixing a binary hijacking via .cmd or .bat file](https://www.microsoft.com/msrc/blog/2014/04/ms14-019-fixing-a-binary-hijacking-via-cmd-or-bat-file/) for more details.
 
 ### -param lpCommandLine [in, out, optional]
 
