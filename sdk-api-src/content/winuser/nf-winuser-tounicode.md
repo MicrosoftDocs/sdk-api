@@ -99,6 +99,7 @@ The behavior of the function.
 If bit 0 is set, a menu is active. In this mode <b>Alt+Numeric keypad</b> key combinations are not handled.
 
 On Windows 10, version 1607 and later, if bit 2 is set, the function does not change keyboard state. For a known issue that affects Alt+Numeric keypad input, see Remarks.
+
 All other bits (through 31) are reserved.
 
 ## -returns
