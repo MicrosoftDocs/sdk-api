@@ -59,8 +59,8 @@ Contains processor-specific register data. The system uses <b>CONTEXT</b> struct
 | Architecture | API reference page |
 |--------------|--------------------|
 | x86 64-bit | [CONTEXT structure (x86 64-bit)](ns-winnt-context.md) |
-| x86 32-bit | [CONTEXT structure (x86 32-bit)](ns-winnt-context~r2.md) |
-| Arm32 | [CONTEXT structure (Arm32)](ns-winnt-context~r1.md) |
+| x86 32-bit | [CONTEXT structure (x86 32-bit)](ns-winnt-context-r2.md) |
+| Arm32 | [CONTEXT structure (Arm32)](ns-winnt-context-r1.md) |
 
 
 ## -struct-fields
