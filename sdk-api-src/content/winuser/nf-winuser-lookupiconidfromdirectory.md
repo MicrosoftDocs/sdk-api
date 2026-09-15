@@ -57,7 +57,7 @@ api_name:
 
 Searches through icon (**RT_GROUP_ICON**) or cursor (**RT_GROUP_CURSOR**) resource data for the icon or cursor that best fits the current display device.
 
-To specify a desired height or width, use the [LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex) function. This function calls it by passing zero in the **cxDesired**/**cyDesired** parameters.
+To specify a desired height or width, use the [LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex) function. This function calls it passing zero for *cxDesired*, *cyDesired*, and *Flags*. Because no size is requested and **LR_DEFAULTSIZE** is not used, size does not take part in the selection; the image is chosen by color depth as described for [LookupIconIdFromDirectoryEx](/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex).
 
 ## -parameters
 
