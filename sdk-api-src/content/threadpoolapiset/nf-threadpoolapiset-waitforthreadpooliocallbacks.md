@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.WaitForThreadpoolIoCallbacks
 title: WaitForThreadpoolIoCallbacks function (threadpoolapiset.h)
-description: Waits for outstanding I/O completion callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
+description: Waits for outstanding I/O completion callbacks to complete and optionally cancels queued callbacks that have not yet started to execute.
 helpviewer_keywords: ["WaitForThreadpoolIoCallbacks","WaitForThreadpoolIoCallbacks function","base.waitforthreadpooliocallbacks","threadpoolapiset/WaitForThreadpoolIoCallbacks","winbase/WaitForThreadpoolIoCallbacks"]
 old-location: base\waitforthreadpooliocallbacks.htm
 tech.root: backup
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Waits for outstanding I/O completion callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
+Waits for outstanding I/O completion callbacks to complete and optionally cancels queued callbacks that have not yet started to execute.
 
 ## -parameters
 
@@ -65,11 +65,11 @@ A pointer to a <b>TP_IO</b> structure that defines the I/O completion object. Th
 
 ### -param fCancelPendingCallbacks [in]
 
-Indicates whether to cancel queued callbacks that have not yet started to execute.
+Indicates whether to cancel queued callbacks that have not yet started to execute. “Pending” in the parameter name refers to callbacks, not to I/O requests.
 
 ## -remarks
 
-When <i>fCancelPendingCallbacks</i> is set to TRUE, only queued callbacks are canceled. Pending I/O requests are not canceled. Therefore, the caller should call <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> for the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure to check whether the I/O operation has completed before freeing the structure. As an alternative, set <i>fCancelPendingCallbacks</i> to FALSE and have the associated I/O completion callback free the <b>OVERLAPPED</b> structure. Be careful not to free the <b>OVERLAPPED</b> structure while I/O requests are still pending; use <b>GetOverlappedResult</b> to determine the status of the I/O operation and wait for the operation to complete. The <a href="/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> function can optionally be used first to cancel outstanding I/O requests, potentially shortening the wait. For more information, see <a href="/windows/desktop/FileIO/canceling-pending-i-o-operations">Canceling Pending I/O Operations</a>.
+When <i>fCancelPendingCallbacks</i> is set to TRUE, only queued callbacks that have not yet started to execute are canceled. Pending I/O requests are not canceled. Therefore, the caller should call <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> for the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure to check whether the I/O operation has completed before freeing the structure. As an alternative, set <i>fCancelPendingCallbacks</i> to FALSE and have the associated I/O completion callback free the <b>OVERLAPPED</b> structure. Be careful not to free the <b>OVERLAPPED</b> structure while I/O requests are still pending; use <b>GetOverlappedResult</b> to determine the status of the I/O operation and wait for the operation to complete. The <a href="/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> function can optionally be used first to cancel outstanding I/O requests, potentially shortening the wait. For more information, see <a href="/windows/desktop/FileIO/canceling-pending-i-o-operations">Canceling Pending I/O Operations</a>.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 
