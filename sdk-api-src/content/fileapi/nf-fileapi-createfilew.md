@@ -79,10 +79,10 @@ The name of the file or device to be created or opened. You may use either forwa
 
 
 For information on special device names, see 
-       <a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
+       <a href="/windows/win32/fileio/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
 
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more 
-       information, see <a href="/windows/desktop/FileIO/file-streams">File Streams</a>.
+       information, see <a href="/windows/win32/fileio/file-streams">File Streams</a>.
 
 By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
@@ -91,7 +91,7 @@ By default, the name is limited to MAX_PATH characters. To extend this limit to 
 
 ### -param dwDesiredAccess [in]
 
-The requested access to the file or device, which can be summarized as read, write, both or neither zero).
+The requested access to the file or device, which can be summarized as read, write, both or neither (zero).
 
 The most commonly used values are <b>GENERIC_READ</b>, 
        <b>GENERIC_WRITE</b>, or both 
@@ -983,7 +983,7 @@ If you rename or delete a file and then restore it shortly afterward, the system
       information to restore. Cached information includes its short/long name pair and creation time.
 
 If you call <b>CreateFile</b> on a file that is pending deletion 
-      as a result of a previous call to <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>, the function 
+      as a result of a previous call to <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilew">DeleteFile</a>, the function 
       fails. The operating system delays file deletion until all handles to the file are closed. 
       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_ACCESS_DENIED</b>.
@@ -1032,8 +1032,8 @@ An application cannot create a directory by using
       <b>CreateFile</b>, therefore only the 
       <b>OPEN_EXISTING</b> value is valid for 
       <i>dwCreationDisposition</i> for this use case. To create a directory, the application must 
-      call <a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a> or 
-      <a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a>.
+      call <a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectoryw">CreateDirectory</a> or 
+      <a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexw">CreateDirectoryEx</a>.
 
 To open a directory using <b>CreateFile</b>, specify the 
       <b>FILE_FLAG_BACKUP_SEMANTICS</b> flag as part of 
@@ -1334,9 +1334,9 @@ If <b>CreateFile</b> opens the client end of a named pipe, the
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
       specified in the <i>dwOpenMode</i> parameter of the 
-      <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
+      <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipew">CreateNamedPipe</a> function.
 
-If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 
+If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipew">CreateNamedPipe</a> function was not 
       successfully called on the server prior to this operation, a pipe will not exist and 
       <b>CreateFile</b> will fail with 
       <b>ERROR_FILE_NOT_FOUND</b>.
@@ -1464,23 +1464,23 @@ A tape backup code snippet can found at
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectoryw">CreateDirectory</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexw">CreateDirectoryEx</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiletransactedw">CreateFileTransacted</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createmailslotw">CreateMailSlot</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipew">CreateNamedPipe</a>
 
 
 
@@ -1488,7 +1488,7 @@ A tape backup code snippet can found at
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilew">DeleteFile</a>
 
 
 
@@ -1564,7 +1564,7 @@ A tape backup code snippet can found at
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileattributesw">SetFileAttributes</a>
 
 
 
@@ -1573,3 +1573,4 @@ A tape backup code snippet can found at
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
+

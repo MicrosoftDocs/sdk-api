@@ -54,7 +54,7 @@ no-loc: [verb, verbs, NULL, null, runas]
 
 ## -description
 
-Contains information used by <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>.
+Contains information used by <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a>.
 
 ## -struct-fields
 
@@ -94,7 +94,7 @@ A combination of one or more of the following values that indicate the content a
 </tr>
 <tr valign="top">
 <td>SEE_MASK_INVOKEIDLIST (0x0000000C)</td>
-<td>Use the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> interface of the selected item's <a href="/windows/desktop/shell/context-menu-handlers">shortcut menu handler</a>. Use either <b>lpFile</b> to identify the item by its file system path or <b>lpIDList</b> to identify the item by its PIDL. This flag allows applications to use <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> to invoke verbs from shortcut menu extensions instead of the static verbs listed in the registry.
+<td>Use the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> interface of the selected item's <a href="/windows/desktop/shell/context-menu-handlers">shortcut menu handler</a>. Use either <b>lpFile</b> to identify the item by its file system path or <b>lpIDList</b> to identify the item by its PIDL. This flag allows applications to use <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> to invoke verbs from shortcut menu extensions instead of the static verbs listed in the registry.
 <div class="alert"><b>Note:</b> SEE_MASK_INVOKEIDLIST overrides and implies SEE_MASK_IDLIST.</div>
 <div> </div>
 </td>
@@ -111,7 +111,7 @@ A combination of one or more of the following values that indicate the content a
 </tr>
 <tr valign="top">
 <td>SEE_MASK_NOCLOSEPROCESS (0x00000040)</td>
-<td>Use to indicate that the <b>hProcess</b> member receives the process handle. This handle is typically used to allow an application to find out when a process created with <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed.</td>
+<td>Use to indicate that the <b>hProcess</b> member receives the process handle. This handle is typically used to allow an application to find out when a process created with <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed.</td>
 </tr>
 <tr valign="top">
 <td>SEE_MASK_CONNECTNETDRV (0x00000080)</td>
@@ -121,7 +121,7 @@ A combination of one or more of the following values that indicate the content a
 <td>SEE_MASK_NOASYNC (0x00000100)</td>
 <td>Only respected when launching files, does not apply to uris or shell namespace items (e.g. "This PC"). Wait for the async part of the execute operation, (e.g. DDE) to complete before returning. When this applies it ensures the launching operation finishes before returning. Applications that exit immediately after calling <b>ShellExecuteEx</b> should specify this flag. Note, <b>ShellExecuteEx</b> moves its work to a background thread if the caller's threading model is not Apartment. Forcing the call to be synchronous disables that behavior and uses the callers COM apartment. Specifing SEE_MASK_FLAG_HINST_IS_SITE forces synchronous behavior always.
 
-If the execute operation is performed on a background thread and the caller did not specify the SEE_MASK_ASYNCOK flag, then the calling thread waits until the new process has started before returning. This typically means that either <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> has been called, the DDE communication has completed, or that the custom execution delegate has notified <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> that it is done. If the SEE_MASK_WAITFORINPUTIDLE flag is specified, then <b>ShellExecuteEx</b> calls <a href="/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a> and waits for the new process to idle before returning, with a maximum timeout of 1 minute.
+If the execute operation is performed on a background thread and the caller did not specify the SEE_MASK_ASYNCOK flag, then the calling thread waits until the new process has started before returning. This typically means that either <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> has been called, the DDE communication has completed, or that the custom execution delegate has notified <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> that it is done. If the SEE_MASK_WAITFORINPUTIDLE flag is specified, then <b>ShellExecuteEx</b> calls <a href="/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a> and waits for the new process to idle before returning, with a maximum timeout of 1 minute.
 
 For further discussion on when this flag is necessary, see the Remarks section.</td>
 </tr>
@@ -149,7 +149,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 <tr valign="top">
 <td>SEE_MASK_ASYNCOK (0x00100000)
 </td>
-<td>The execution can be performed on a background thread and the call should return immediately without waiting for the background thread to finish. Note that in certain cases <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> ignores this flag and waits for the process to finish before returning.</td>
+<td>The execution can be performed on a background thread and the call should return immediately without waiting for the background thread to finish. Note that in certain cases <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> ignores this flag and waits for the process to finish before returning.</td>
 </tr>
 <tr valign="top">
 <td>SEE_MASK_NOQUERYCLASSSTORE (0x01000000)</td>
@@ -161,7 +161,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 </tr>
 <tr valign="top">
 <td>SEE_MASK_NOZONECHECKS (0x00800000)</td>
-<td>Do not perform a zone check. This flag allows <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> to bypass zone checking put into place by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>.</td>
+<td>Do not perform a zone check. This flag allows <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> to bypass zone checking put into place by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>.</td>
 </tr>
 <tr valign="top">
 <td>SEE_MASK_WAITFORINPUTIDLE (0x02000000)</td>
@@ -173,7 +173,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 </tr>
 <tr valign="top">
 <td>SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)</td>
-<td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> function, the handler binding process, and invoked verb handlers.
+<td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> function, the handler binding process, and invoked verb handlers.
  
 <a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> can be provided to allow the caller to alter some parameters of the process being created.
 
@@ -209,7 +209,7 @@ A string, referred to as a <i>verb</i>, that specifies the action to be performe
 
 Type: <b>LPCTSTR</b>
 
-The address of a null-terminated string that specifies the name of the file or object on which <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> will perform the action specified by the <b>lpVerb</b> parameter. The system registry verbs that are supported by the <b>ShellExecuteEx</b> function include ":::no-loc text="open"::" for executable files and document files and ":::no-loc text="print"::" for document files for which a print handler has been registered. Other applications might have added Shell verbs through the system registry, such as ":::no-loc text="play"::" for .avi and .wav files. To specify a Shell namespace object, pass the fully qualified parse name and set the <b>SEE_MASK_INVOKEIDLIST</b> flag in the <b>fMask</b> parameter.
+The address of a null-terminated string that specifies the name of the file or object on which <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> will perform the action specified by the <b>lpVerb</b> parameter. The system registry verbs that are supported by the <b>ShellExecuteEx</b> function include ":::no-loc text="open"::" for executable files and document files and ":::no-loc text="print"::" for document files for which a print handler has been registered. Other applications might have added Shell verbs through the system registry, such as ":::no-loc text="play"::" for .avi and .wav files. To specify a Shell namespace object, pass the fully qualified parse name and set the <b>SEE_MASK_INVOKEIDLIST</b> flag in the <b>fMask</b> parameter.
 
 <div class="alert"><b>Note:</b> If the <b>SEE_MASK_INVOKEIDLIST</b> flag is set, you can use either <b>lpFile</b> or <b>lpIDList</b> to identify the item by its file system path or its PIDL respectively. One of the two values—<b>lpFile</b> or <b>lpIDList</b>—must be set.</div>
 
@@ -231,13 +231,13 @@ Optional. The address of a null-terminated string that specifies the name of the
 
 Type: <b>int</b>
 
-Required. Flags that specify how an application is to be shown when it is opened; one of the SW_ values listed for the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> function. If <b>lpFile</b> specifies a document file, the flag is simply passed to the associated application. It is up to the application to decide how to handle it.
+Required. Flags that specify how an application is to be shown when it is opened; one of the SW_ values listed for the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutew">ShellExecute</a> function. If <b>lpFile</b> specifies a document file, the flag is simply passed to the associated application. It is up to the application to decide how to handle it.
 
 ### -field hInstApp
 
 Type: <b>HINSTANCE</b>
 
-[out] If SEE_MASK_NOCLOSEPROCESS is set and the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> call succeeds, it sets this member to a value greater than 32. If the function fails, it is set to an SE_ERR_XXX error value that indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and compared to either 32 or the following SE_ERR_XXX error codes.
+[out] If SEE_MASK_NOCLOSEPROCESS is set and the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> call succeeds, it sets this member to a value greater than 32. If the function fails, it is set to an SE_ERR_XXX error value that indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and compared to either 32 or the following SE_ERR_XXX error codes.
 
 <br/>
 
@@ -306,13 +306,13 @@ Type: <b>HANDLE</b>
 
 A handle to the newly started application. This member is set on return and is always <b>NULL</b> unless <b>fMask</b> is set to <b>SEE_MASK_NOCLOSEPROCESS</b>. Even if <b>fMask</b> is set to <b>SEE_MASK_NOCLOSEPROCESS</b>, <b>hProcess</b> will be <b>NULL</b> if no process was launched. For example, if a document to be launched is a URL and an instance of Internet Explorer is already running, it will display the document. No new process is launched, and <b>hProcess</b> will be <b>NULL</b>.
 
-<div class="alert"><b>Note:</b> <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> does not always return an <b>hProcess</b>, even if a process is launched as the result of the call. For example, an <b>hProcess</b> does not return when you use <b>SEE_MASK_INVOKEIDLIST</b> to invoke <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>.</div>
+<div class="alert"><b>Note:</b> <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> does not always return an <b>hProcess</b>, even if a process is launched as the result of the call. For example, an <b>hProcess</b> does not return when you use <b>SEE_MASK_INVOKEIDLIST</b> to invoke <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>.</div>
 
 ## -remarks
 
-The <b>SEE_MASK_NOASYNC</b> flag must be specified if the thread calling <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> does not have a message loop or if the thread or process will terminate soon after <b>ShellExecuteEx</b> returns. Under such conditions, the calling thread will not be available to complete the DDE conversation, so it is important that <b>ShellExecuteEx</b> complete the conversation before returning control to the calling application. Failure to complete the conversation can result in an unsuccessful launch of the document.
+The <b>SEE_MASK_NOASYNC</b> flag must be specified if the thread calling <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> does not have a message loop or if the thread or process will terminate soon after <b>ShellExecuteEx</b> returns. Under such conditions, the calling thread will not be available to complete the DDE conversation, so it is important that <b>ShellExecuteEx</b> complete the conversation before returning control to the calling application. Failure to complete the conversation can result in an unsuccessful launch of the document.
 
-If the calling thread has a message loop and will exist for some time after the call to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> returns, the <b>SEE_MASK_NOASYNC</b> flag is optional. If the flag is omitted, the calling thread's message pump will be used to complete the DDE conversation. The calling application regains control sooner, since the DDE conversation can be completed in the background.
+If the calling thread has a message loop and will exist for some time after the call to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexw">ShellExecuteEx</a> returns, the <b>SEE_MASK_NOASYNC</b> flag is optional. If the flag is omitted, the calling thread's message pump will be used to complete the DDE conversation. The calling application regains control sooner, since the DDE conversation can be completed in the background.
 
 For calls to this API that result from user interaction specify <b>SEE_MASK_FLAG_LOG_USAGE</b>.
 

@@ -91,7 +91,7 @@ The following list identifies some tips for deleting, removing, or closing files
 - To delete a read-only file, first you must remove the read-only attribute.
 - To delete or rename a file, you must have either delete permission on the file, or delete child permission in the parent directory.
 - To recursively delete the files in a directory, use the [SHFileOperation](/windows/win32/api/shellapi/nf-shellapi-shfileoperationw) function.
-- To remove an empty directory, use the [RemoveDirectory](nf-fileapi-removedirectoryw.md) function.
+- To remove an empty directory, use the [RemoveDirectory](/windows/win32/api/fileapi/nf-fileapi-removedirectoryw) function.
 - To close an open file, use the [CloseHandle](/windows/win32/api/handleapi/nf-handleapi-closehandle) function.
 
 If you set up a directory with all access except delete and delete child, and the access control lists (ACL) of new files are inherited, then you can create a file without being able to delete it. However, then you can create a file, and then get all the access you request on the handle that is returned to you at the time you create the file.
@@ -100,13 +100,13 @@ If you request delete permission at the time you create a file, you can delete o
 
 The **DeleteFile** function fails if an application attempts to delete a file that has other handles open for normal I/O or as a memory-mapped file (**FILE_SHARE_DELETE** must have been specified when other handles were opened).
 
-The **DeleteFile** function marks a file for deletion on close. Therefore, the file deletion does not occur until the last handle to the file is closed. Subsequent calls to [CreateFile](nf-fileapi-createfilew.md) to open the file fail with **ERROR_ACCESS_DENIED**.
+The **DeleteFile** function marks a file for deletion on close. Therefore, the file deletion does not occur until the last handle to the file is closed. Subsequent calls to [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilew) to open the file fail with **ERROR_ACCESS_DENIED**.
 
-The use of POSIX delete causes the file to be deleted while handles remain open. Subsequent calls to [CreateFile](nf-fileapi-createfilew.md) to open the file fail with **ERROR_FILE_NOT_FOUND**.
+The use of POSIX delete causes the file to be deleted while handles remain open. Subsequent calls to [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilew) to open the file fail with **ERROR_FILE_NOT_FOUND**.
 
 Symbolic link behavior:
 
-If the path points to a symbolic link, the symbolic link is deleted, not the target. To delete a target, you must call [CreateFile](nf-fileapi-createfilew.md) and specify **FILE_FLAG_DELETE_ON_CLOSE**.
+If the path points to a symbolic link, the symbolic link is deleted, not the target. To delete a target, you must call [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilew) and specify **FILE_FLAG_DELETE_ON_CLOSE**.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies:
 
@@ -129,10 +129,11 @@ For an example, see [Locking and Unlocking Byte Ranges in Files](/windows/win32/
 
 [CloseHandle](/windows/win32/api/handleapi/nf-handleapi-closehandle)
 
-[CreateFile](nf-fileapi-createfilew.md)
+[CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilew)
 
 [DeleteFileTransacted](/windows/win32/api/winbase/nf-winbase-deletefiletransactedw)
 
 [File Management Functions](/windows/win32/FileIO/file-management-functions)
 
 [Symbolic Links](/windows/win32/FileIO/symbolic-links)
+
