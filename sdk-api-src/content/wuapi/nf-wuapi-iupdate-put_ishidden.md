@@ -52,16 +52,28 @@ api_name:
 
 ## -description
 
-Gets a Boolean value that indicates whether an update is hidden by a user. Administrators, users, and power users can retrieve the value of this property. However, only administrators and members of the Power Users administrative group can set the value of this property.
+Sets a Boolean value that indicates whether an update is hidden by a user. Administrators, users, and power users can retrieve the value of this property. However, only administrators and members of the Power Users administrative group can set the value of this property.
 
 This property is read/write.
 
 ## -parameters
+
+### -param retval [in]
+
+Type: <b>VARIANT_BOOL</b>
+
+<b>VARIANT_TRUE</b> if the update is to be hidden, <b>VARIANT_FALSE</b> if not.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 An attempt to mark a mandatory update as hidden causes an error.
 
 ## -see-also
+
+[IsHidden getter](nf-wuapi-iupdate-get_ishidden.md)
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
