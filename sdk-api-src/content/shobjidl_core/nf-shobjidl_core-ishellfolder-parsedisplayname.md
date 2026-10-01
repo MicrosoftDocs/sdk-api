@@ -81,7 +81,7 @@ A null-terminated Unicode string with the display name. Because each Shell folde
 
 
 ```cpp
-::{CLSID for Control Panel}\::{CLSID for printers folder}
+::{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}
 
 ```
 
