@@ -58,13 +58,13 @@ Creates a context menu for a selected group of file folder objects.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-An <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure for the parent folder. This value can be <b>NULL</b>.
+An <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure for the parent folder. The value is passed to the shell extension <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> method. This value can be <b>NULL</b>.
 
 ### -param hwnd [in, optional]
 
 Type: <b>HWND</b>
 
-A handle to the parent window. This value can be <b>NULL</b>.
+A handle to the parent window. The value is passed to <a href="/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfndfmcallback">LPFNDFMCALLBACK</a> callback and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a> method. This value can be <b>NULL</b>.
 
 ### -param cidl
 
@@ -76,19 +76,30 @@ The number of <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMI
 
 Type: <b>PCUITEMID_CHILD_ARRAY*</b>
 
-A pointer to an array of <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures, one for each item that is selected.
+A pointer to an array of <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures, one for each item that is selected. Absolute <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> are supported, which can be used when <i>psf</i> represents the desktop folder.
 
 ### -param psf [in, optional]
 
 Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to the parent folder's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface. This <b>IShellFolder</b> must support the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface. If it does not, <b>CDefFolderMenu_Create2</b> fails and returns E_NOINTERFACE. This value can be <b>NULL</b>.
+A pointer to the parent folder's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface. This <b>IShellFolder</b> must support the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface. If it does not, <b>CDefFolderMenu_Create2</b> fails and returns <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a> result value. This value can be <b>NULL</b>. If this value is <b>NULL</b>, there will be no items in the context menu.
 
 ### -param pfn [in, optional]
 
 Type: <b><a href="/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfndfmcallback">LPFNDFMCALLBACK</a></b>
 
 The <a href="/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfndfmcallback">LPFNDFMCALLBACK</a> callback object. This value can be <b>NULL</b> if the callback object is not needed.
+
+Common callback use cases:
+
+<ul>
+<li>
+Processing <a href="/windows/desktop/shell/dfm-mergecontextmenu">DFM_MERGECONTEXTMENU</a> notification and returning S_OK to add the default extension to the menu.
+</li>
+<li>
+Processing <a href="/windows/desktop/shell/dfm-invokecommand">DFM_INVOKECOMMAND</a> notification and returning S_FALSE to invoke the default command handler.
+</li>
+</ul>
 
 ### -param nKeys
 
@@ -105,7 +116,28 @@ The number of registry keys in the array pointed to by <i>ahkeys</i>.
 
 Type: <b>const HKEY*</b>
 
-A pointer to an array of registry keys that specify the context menu handlers used with the menu's entries. For more information on context menu handlers, see <a href="/windows/desktop/shell/context-menu-handlers">Creating Context Menu Handlers</a>. This array can contain a maximum of 16 registry keys.
+A pointer to an array of registry keys that specify the context menu handlers used with the menu's entries. For more information on context menu handlers, see <a href="/windows/desktop/shell/context-menu-handlers">Creating Context Menu Handlers</a> and <a href="/windows/desktop/shell/reg-shell-exts">Registering Shell Extension Handlers</a>. This array can contain a maximum of 16 registry keys.
+
+Common subkeys of <b>HKEY_CLASSES_ROOT</b> that can be used:
+
+<table class="clsStd">
+<tr>
+<th>Subkey</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>AllFileSystemObjects</b></td>
+<td>All files and file folders</td>
+</tr>
+<tr>
+<td><b>*</b></td>
+<td>All files</td>
+</tr>
+<tr>
+<td><b>Directory</b></td>
+<td>File folders</td>
+</tr>
+</table>
 
 ### -param ppcm [out]
 
