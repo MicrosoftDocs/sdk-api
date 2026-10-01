@@ -132,7 +132,7 @@ Type: <b>HWND</b>
 
 A handle to the parent or owner window of the window being created. To create a child window or an owned window, supply a valid window handle. This parameter is optional for pop-up windows.
 
- To create a <a href="/windows/desktop/winmsg/window-features">message-only window</a>, supply <b>HWND_MESSAGE</b> or a handle to an existing message-only window.
+To create a <a href="/windows/desktop/winmsg/window-features">message-only window</a>, supply <b>HWND_MESSAGE</b> or a handle to an existing message-only window.
 
 ### -param hMenu [in, optional]
 
@@ -144,7 +144,7 @@ A handle to a menu, or specifies a child-window identifier, depending on the win
 
 Type: <b>HINSTANCE</b>
 
-A handle to the instance of the module to be associated with the window.
+A handle to the module instance to be associated with the window. This parameter can be either the module instance that registered the class or <b>NULL</b>, and is used in combination with the <i>lpClassName</i> parameter to determine the class of the window to be created. For classes with the <b><a href="/windows/desktop/winmsg/window-class-styles">CS_GLOBALCLASS</a></b> style, like <a href="/windows/desktop/winmsg/about-window-classes#system-classes">system classes</a>, the instance handle is ignored.
 
 ### -param lpParam [in, optional]
 
