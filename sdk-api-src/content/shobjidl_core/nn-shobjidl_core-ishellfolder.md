@@ -9,7 +9,7 @@ ms.assetid: 35190a72-298b-4554-b924-e1357b583a99
 ms.date: 12/05/2018
 ms.keywords: IShellFolder, IShellFolder interface [Windows Shell], IShellFolder interface [Windows Shell],described, _win32_IShellFolder, _win32_IShellFolder_cpp, shell.IShellFolder, shobjidl_core/IShellFolder
 req.header: shobjidl_core.h
-req.include-header: 
+req.include-header: ShObjIdl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
