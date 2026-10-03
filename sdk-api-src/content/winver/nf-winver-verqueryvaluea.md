@@ -178,6 +178,7 @@ exists = VerQueryValue(
 if (!exists)
 {
 	// No translation information.
+    return;
 }
 else
 {
@@ -193,6 +194,7 @@ else
 		if (FAILED(hr))
 		{
 			// Handle error
+            return;
 		}
 		
 		// Retrieve file description for language and code page "i". 
