@@ -68,7 +68,7 @@ For some device sources, such as cameras or microphones, the **IMFMediaSource** 
 > [!NOTE] 
 > This interface is optional and may not be available. If this interface is not available, [QueryInterface](../unknwn/nf-unknwn-iunknown-queryinterface(refiid_void).md) will return E_NOINTERFACE.
 
-Get an instance of **IMFMediaSource** by calling [IMFSourceResolver::CreateObjectFromByteStream](nf-mfidl-imfsourceresolver-createobjectfrombytestream.md), [IMFSourceResolver::CreateObjectFromURL](nf-mfidl-imfsourceresolver-createobjectfromurl.md), or the asynchronous versions of those methods. Or create a capture source by calling [MFCreateDeviceSource](nf-mfidl-mfcreatedevicesource).
+Get an instance of **IMFMediaSource** by calling [IMFSourceResolver::CreateObjectFromByteStream](nf-mfidl-imfsourceresolver-createobjectfrombytestream.md), [IMFSourceResolver::CreateObjectFromURL](nf-mfidl-imfsourceresolver-createobjectfromurl.md), or the asynchronous versions of those methods. Or create a capture source by calling [MFCreateDeviceSource](nf-mfidl-mfcreatedevicesource.md).
 
 
 
