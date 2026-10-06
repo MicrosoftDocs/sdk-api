@@ -52,6 +52,7 @@ To develop Security and Identity, you need these headers:
 - [identitystore.h](../identitystore/index.md)
 - [isolatedwindowsenvironmentutils.h](../isolatedwindowsenvironmentutils/index.md)
 - [keycredmgr.h](../keycredmgr/index.md)
+- [licenseprotection.h](../licenseprotection/index.md)
 - [lsalookup.h](../lsalookup/index.md)
 - [mscat.h](../mscat/index.md)
 - [mssip.h](../mssip/index.md)
