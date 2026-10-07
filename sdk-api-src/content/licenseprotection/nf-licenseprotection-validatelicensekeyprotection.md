@@ -11,7 +11,7 @@ ms.keywords: ValidateLicenseKeyProtection, ValidateLicenseKeyProtection function
 req.header: licenseprotection.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 20H2 (10.0; Build 19042) [desktop apps only]
+req.target-min-winverclnt: Windows 11, version 21H2 (10.0; Build 22000) [desktop apps only]
 req.target-min-winversvr: Windows Server 2025 [desktop apps only]
 req.kmdf-ver:
 req.umdf-ver:
@@ -89,13 +89,13 @@ Returns `S_OK` if the function succeeds. Otherwise, it returns an `HRESULT` erro
 
 ## Remarks
 
-Use [RegisterLicenseKeyWithExpiration](nf-licenseprotection-registerlicensekeywithexpiration.md) to register a license key before calling **ValidateLicenseKeyProtection**.
+Use ValidateLicenseKeyProtection to check the license protection status of a registered license key.
 
 ## Requirements
 
 | Requirement | Value |
 | --- | --- |
-| **Minimum supported client** | Windows 10, version 20H2 [desktop apps only] |
+| **Minimum supported client** | Windows 11, version 21H2 [desktop apps only] |
 | **Minimum supported server** | Windows Server 2025 [desktop apps only] |
 | **Header** | `licenseprotection.h` |
 | **Library** | `api-ms-win-security-licenseprotection-l1-1-0.lib` |
