@@ -72,7 +72,7 @@ The size of the buffer pointed to by <i>pszPath</i>, in characters.
 
 ### -param pszMore [in, optional]
 
-A pointer the path to append to the end of the path pointed to by <i>pszPath</i>. UNC paths and paths that begin with the sequence \\?\ are accepted and recognized as fully-qualified paths. These paths replace the string pointed to by <i>pszPath</i> instead of being appended to it.
+A pointer to the path to append to the end of the path pointed to by <i>pszPath</i>. UNC paths and paths that begin with the sequence \\?\ are accepted and recognized as fully-qualified paths. These paths replace the string pointed to by <i>pszPath</i> instead of being appended to it.
 
 ### -param dwFlags [in]
 
