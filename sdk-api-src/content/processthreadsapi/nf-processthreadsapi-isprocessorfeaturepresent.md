@@ -791,17 +791,6 @@ This Arm processor implements the LSE2 atomic instructions (<b>FEAT_LSE2</b>).
 </tr>
 
 <tr>
-<td width="40%"><a id="PF_RESERVED_FEATURE"></a><a id="pf_reserved_feature"></a><dl>
-<dt><b>PF_RESERVED_FEATURE</b></dt>
-<dt>63</dt>
-</dl>
-</td>
-<td width="60%">
-Reserved. Do not use.
-</td>
-</tr>
-
-<tr>
 <td width="40%"><a id="PF_ARM_SHA3_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_sha3_instructions_available"></a><dl>
 <dt><b>PF_ARM_SHA3_INSTRUCTIONS_AVAILABLE</b></dt>
 <dt>64</dt>
