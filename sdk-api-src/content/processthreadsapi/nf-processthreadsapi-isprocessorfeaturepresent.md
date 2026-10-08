@@ -977,6 +977,149 @@ This x64 processor implements the UMONITOR instruction.
 </td>
 </tr>
 
+<tr>
+<td width="40%"><a id="PF_PPC_MOVEMEM_64BIT_OK"></a><a id="pf_ppc_movemem_64bit_ok"></a><dl>
+<dt><b>PF_PPC_MOVEMEM_64BIT_OK</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+The PowerPC processor supports 64-bit memory move operations. This is a legacy feature for PowerPC systems.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ALPHA_BYTE_INSTRUCTIONS"></a><a id="pf_alpha_byte_instructions"></a><dl>
+<dt><b>PF_ALPHA_BYTE_INSTRUCTIONS</b></dt>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+The Alpha processor supports byte instructions. This is a legacy feature for Alpha systems.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_SSE_DAZ_MODE_AVAILABLE"></a><a id="pf_sse_daz_mode_available"></a><dl>
+<dt><b>PF_SSE_DAZ_MODE_AVAILABLE</b></dt>
+<dt>11</dt>
+</dl>
+</td>
+<td width="60%">
+The processor supports denormals-are-zero (DAZ) mode for SSE instructions.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_NEON_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_neon_instructions_available"></a><dl>
+<dt><b>PF_ARM_NEON_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>19</dt>
+</dl>
+</td>
+<td width="60%">
+This Arm processor implements the NEON (Advanced SIMD) instruction set.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_RDRAND_INSTRUCTION_AVAILABLE"></a><a id="pf_rdrand_instruction_available"></a><dl>
+<dt><b>PF_RDRAND_INSTRUCTION_AVAILABLE</b></dt>
+<dt>28</dt>
+</dl>
+</td>
+<td width="60%">
+The RDRAND instruction for generating hardware random numbers is available.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_RDTSCP_INSTRUCTION_AVAILABLE"></a><a id="pf_rdtscp_instruction_available"></a><dl>
+<dt><b>PF_RDTSCP_INSTRUCTION_AVAILABLE</b></dt>
+<dt>32</dt>
+</dl>
+</td>
+<td width="60%">
+The RDTSCP instruction for reading the time-stamp counter and the IA32_TSC_AUX register is available.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_RDPID_INSTRUCTION_AVAILABLE"></a><a id="pf_rdpid_instruction_available"></a><dl>
+<dt><b>PF_RDPID_INSTRUCTION_AVAILABLE</b></dt>
+<dt>33</dt>
+</dl>
+</td>
+<td width="60%">
+The RDPID instruction for reading the processor identifier from the IA32_TSC_AUX register is available.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_MONITORX_INSTRUCTION_AVAILABLE"></a><a id="pf_monitorx_instruction_available"></a><dl>
+<dt><b>PF_MONITORX_INSTRUCTION_AVAILABLE</b></dt>
+<dt>35</dt>
+</dl>
+</td>
+<td width="60%">
+The MONITORX instruction for monitoring a memory address range is available.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ERMS_AVAILABLE"></a><a id="pf_erms_available"></a><dl>
+<dt><b>PF_ERMS_AVAILABLE</b></dt>
+<dt>42</dt>
+</dl>
+</td>
+<td width="60%">
+Enhanced REP MOVSB and STOSB (ERMS) is available.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_RESERVED_FEATURE"></a><a id="pf_reserved_feature"></a><dl>
+<dt><b>PF_RESERVED_FEATURE</b></dt>
+<dt>63</dt>
+</dl>
+</td>
+<td width="60%">
+Reserved. Do not use.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_APX_F_INSTRUCTIONS_AVAILABLE"></a><a id="pf_apx_f_instructions_available"></a><dl>
+<dt><b>PF_APX_F_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>90</dt>
+</dl>
+</td>
+<td width="60%">
+This x64 processor implements the Advanced Performance Extensions foundation (APX-F) instructions.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_FEAT_ECV_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_feat_ecv_instructions_available"></a><dl>
+<dt><b>PF_ARM_FEAT_ECV_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>91</dt>
+</dl>
+</td>
+<td width="60%">
+This Arm processor implements Enhanced Counter Virtualization (<b>FEAT_ECV</b>), including self-synchronizing counter reads.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_FEAT_ECV_POFF_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_feat_ecv_poff_instructions_available"></a><dl>
+<dt><b>PF_ARM_FEAT_ECV_POFF_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>92</dt>
+</dl>
+</td>
+<td width="60%">
+This Arm processor supports the physical counter offsetting functionality of Enhanced Counter Virtualization (<b>FEAT_ECV</b>).
+</td>
+</tr>
+
 </table>
 
 ## -returns
