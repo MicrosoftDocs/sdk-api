@@ -96,12 +96,12 @@ The size of the buffer to receive the null-terminated string for the drive and p
 
 A pointer to a buffer that receives the null-terminated string for the  drive and path.
 
-### -param lpFilePart [out]
+### -param lpFilePart [out, optional]
 
 A pointer to a buffer that receives the address (within <i>lpBuffer</i>) of the final 
       file name component in the path. 
 
-This parameter can be  <b>NULL</b>.
+This parameter can be <b>NULL</b>.
 
 If <i>lpBuffer</i> 
       refers to a directory and not a file, <i>lpFilePart</i> receives zero.
