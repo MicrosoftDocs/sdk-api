@@ -156,7 +156,7 @@ Pointer to the caller's implementation of
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-Other status or error codes are reported to the object sink specified by the <i>pReponseHandler</i> parameter.
+Other status or error codes are reported to the object sink specified by the <i>pResponseHandler</i> parameter.
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to Windows Management.
 

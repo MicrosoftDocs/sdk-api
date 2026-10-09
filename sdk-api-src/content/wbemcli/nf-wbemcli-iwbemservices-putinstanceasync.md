@@ -239,7 +239,7 @@ When implementing an instance provider, you should respond to a <b>NULL</b> prop
 </ul>
 If <i>pCtx</i> is not <b>NULL</b> and points to valid context information, the caller application is requesting a partial-instance update. As before, an instance providers that does not support partial-instance updating should fail the operation by returning <b>WBEM_E_PROVIDER_NOT_CAPABLE</b>.
 
-When implementing an async operation, the async operation not complete until you release any <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>'s you have performed on <i>pResponseHandler</i>.  This is the case even if you call <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> on <i>pResponseHander</i>. If <i>pResponseHandler</i> is leaked, any sync or semi-sync clients will also not complete and possibly stop responding, depending on your implementation.
+When implementing an async operation, the async operation not complete until you release any <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>'s you have performed on <i>pResponseHandler</i>.  This is the case even if you call <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> on <i>pResponseHandler</i>. If <i>pResponseHandler</i> is leaked, any sync or semi-sync clients will also not complete and possibly stop responding, depending on your implementation.
 
 Even in catastrophic cases, you must release the references for decoupled providers. This is because in sync and semi-sync cases, the WMI service owns the implementation of <i>pResponseHandler</i>: even if your decoupled provider's process exits, the clients will still not be responding.
 
