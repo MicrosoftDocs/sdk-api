@@ -72,7 +72,7 @@ Pointer to an implementation of the <a href="/windows/desktop/api/oleidl/nn-olei
 
 ### -param dwOKEffects [in]
 
-Effects the source allows in the OLE drag-and-drop operation. Most significant is whether it permits a move. The <i>dwOKEffect</i> and <i>pdwEffect</i> parameters obtain values from the <a href="/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> enumeration. For a list of values, see <b>DROPEFFECT</b>.
+Effects the source allows in the OLE drag-and-drop operation. Most significant is whether it permits a move. The <i>dwOKEffects</i> and <i>pdwEffect</i> parameters obtain values from the <a href="/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> enumeration. For a list of values, see <b>DROPEFFECT</b>.
 
 ### -param pdwEffect [out]
 
