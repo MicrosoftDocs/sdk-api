@@ -161,9 +161,7 @@ Indicates that the file is being opened or created for a backup or restore opera
          information, see 
          <a href="/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a Token</a>.
 
-You can also set this flag to obtain a handle to a directory. Where indicated, a directory handle can be 
-         passed to some functions in place of a file handle.
-
+You can also try to set this flag to obtain a handle to a directory, but it won't be honored: call the NtCreateFile function directly if you need that feature.
 </td>
 </tr>
 <tr>
