@@ -78,57 +78,79 @@ The processor feature to be tested. This parameter can be one of the following v
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="PF_ARM_64BIT_LOADSTORE_ATOMIC"></a><a id="pf_arm_64bit_loadstore_atomic"></a><dl>
-<dt><b>PF_ARM_64BIT_LOADSTORE_ATOMIC</b></dt>
-<dt>25</dt>
+<td width="40%"><a id="PF_FLOATING_POINT_PRECISION_ERRATA"></a><a id="pf_floating_point_precision_errata"></a><dl>
+<dt><b>PF_FLOATING_POINT_PRECISION_ERRATA</b></dt>
+<dt>0</dt>
 </dl>
 </td>
 <td width="60%">
-The 64-bit load/store atomic instructions are available.
+On a Pentium, a floating-point precision error can occur in rare circumstances.
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE"></a><a id="pf_arm_divide_instruction_available"></a><dl>
-<dt><b>PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE</b></dt>
-<dt>24</dt>
+<td width="40%"><a id="PF_FLOATING_POINT_EMULATED"></a><a id="pf_floating_point_emulated"></a><dl>
+<dt><b>PF_FLOATING_POINT_EMULATED</b></dt>
+<dt>1</dt>
 </dl>
 </td>
 <td width="60%">
-The divide instructions are available.
+Floating-point operations are emulated using a software emulator.
+
+This function returns a nonzero value if floating-point operations are emulated; otherwise, it returns zero.
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="PF_ARM_EXTERNAL_CACHE_AVAILABLE"></a><a id="pf_arm_external_cache_available"></a><dl>
-<dt><b>PF_ARM_EXTERNAL_CACHE_AVAILABLE</b></dt>
-<dt>26</dt>
+<td width="40%"><a id="PF_COMPARE_EXCHANGE_DOUBLE"></a><a id="pf_compare_exchange_double"></a><dl>
+<dt><b>PF_COMPARE_EXCHANGE_DOUBLE</b></dt>
+<dt>2</dt>
 </dl>
 </td>
 <td width="60%">
-The external cache is available.
+The atomic compare and exchange operation (cmpxchg) is available.
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_fmac_instructions_available"></a><dl>
-<dt><b>PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>27</dt>
+<td width="40%"><a id="PF_MMX_INSTRUCTIONS_AVAILABLE"></a><a id="pf_mmx_instructions_available"></a><dl>
+<dt><b>PF_MMX_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>3</dt>
 </dl>
 </td>
 <td width="60%">
-The floating-point multiply-accumulate instruction is available.
+The MMX instruction set is available.
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="PF_ARM_VFP_32_REGISTERS_AVAILABLE"></a><a id="pf_arm_vfp_32_registers_available"></a><dl>
-<dt><b>PF_ARM_VFP_32_REGISTERS_AVAILABLE</b></dt>
-<dt>18</dt>
+<td width="40%"><a id="PF_PPC_MOVEMEM_64BIT_OK"></a><a id="pf_ppc_movemem_64bit_ok"></a><dl>
+<dt><b>PF_PPC_MOVEMEM_64BIT_OK</b></dt>
+<dt>4</dt>
 </dl>
 </td>
 <td width="60%">
-The VFP/Neon: 32 x 64bit register bank is present. This flag has the same meaning as <b>PF_ARM_VFP_EXTENDED_REGISTERS</b>.
+The PowerPC processor supports 64-bit memory move operations. This is a legacy feature for PowerPC systems.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_ALPHA_BYTE_INSTRUCTIONS"></a><a id="pf_alpha_byte_instructions"></a><dl>
+<dt><b>PF_ALPHA_BYTE_INSTRUCTIONS</b></dt>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+The Alpha processor supports byte instructions. This is a legacy feature for Alpha systems.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_XMMI_INSTRUCTIONS_AVAILABLE"></a><a id="pf_xmmi_instructions_available"></a><dl>
+<dt><b>PF_XMMI_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+The SSE instruction set is available.
 
 </td>
 </tr>
@@ -144,25 +166,78 @@ The 3D-Now instruction set is available.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="PF_CHANNELS_ENABLED"></a><a id="pf_channels_enabled"></a><dl>
-<dt><b>PF_CHANNELS_ENABLED</b></dt>
-<dt>16</dt>
+<td width="40%"><a id="PF_RDTSC_INSTRUCTION_AVAILABLE"></a><a id="pf_rdtsc_instruction_available"></a><dl>
+<dt><b>PF_RDTSC_INSTRUCTION_AVAILABLE</b></dt>
+<dt>8</dt>
 </dl>
 </td>
 <td width="60%">
-The processor channels are enabled.
+The RDTSC instruction is available.
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="PF_COMPARE_EXCHANGE_DOUBLE"></a><a id="pf_compare_exchange_double"></a><dl>
-<dt><b>PF_COMPARE_EXCHANGE_DOUBLE</b></dt>
-<dt>2</dt>
+<td width="40%"><a id="PF_PAE_ENABLED"></a><a id="pf_pae_enabled"></a><dl>
+<dt><b>PF_PAE_ENABLED</b></dt>
+<dt>9</dt>
 </dl>
 </td>
 <td width="60%">
-The atomic compare and exchange operation (cmpxchg) is available.
+The processor is PAE-enabled. For more information, see 
+<a href="/windows/desktop/Memory/physical-address-extension">Physical Address Extension</a>.
 
+All x64 processors always return a nonzero value for this feature.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_XMMI64_INSTRUCTIONS_AVAILABLE"></a><a id="pf_xmmi64_instructions_available"></a><dl>
+<dt><b>PF_XMMI64_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>10</dt>
+</dl>
+</td>
+<td width="60%">
+The SSE2 instruction set is available.
+
+<b>Windows 2000:  </b>This feature is not supported.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_SSE_DAZ_MODE_AVAILABLE"></a><a id="pf_sse_daz_mode_available"></a><dl>
+<dt><b>PF_SSE_DAZ_MODE_AVAILABLE</b></dt>
+<dt>11</dt>
+</dl>
+</td>
+<td width="60%">
+The processor supports denormals-are-zero (DAZ) mode for SSE instructions.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_NX_ENABLED"></a><a id="pf_nx_enabled"></a><dl>
+<dt><b>PF_NX_ENABLED</b></dt>
+<dt>12</dt>
+</dl>
+</td>
+<td width="60%">
+
+<a href="/windows/desktop/Memory/data-execution-prevention">Data execution prevention</a> is enabled.
+
+<b>Windows XP/2000:  </b>This feature is not supported until Windows XP with SP2 and Windows Server 2003 with SP1.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_SSE3_INSTRUCTIONS_AVAILABLE"></a><a id="pf_sse3_instructions_available"></a><dl>
+<dt><b>PF_SSE3_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>13</dt>
+</dl>
+</td>
+<td width="60%">
+The SSE3 instruction set is available.
+
+<b>Windows Server 2003 and Windows XP/2000:  </b>This feature is not supported.
+ 
 </td>
 </tr>
 <tr>
@@ -192,224 +267,13 @@ The atomic compare 64 and exchange 128-bit operation (cmp8xchg16) is available.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="PF_FASTFAIL_AVAILABLE"></a><a id="pf_fastfail_available"></a><dl>
-<dt><b>PF_FASTFAIL_AVAILABLE</b></dt>
-<dt>23</dt>
+<td width="40%"><a id="PF_CHANNELS_ENABLED"></a><a id="pf_channels_enabled"></a><dl>
+<dt><b>PF_CHANNELS_ENABLED</b></dt>
+<dt>16</dt>
 </dl>
 </td>
 <td width="60%">
-_fastfail() is available.
- 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_FLOATING_POINT_EMULATED"></a><a id="pf_floating_point_emulated"></a><dl>
-<dt><b>PF_FLOATING_POINT_EMULATED</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Floating-point operations are emulated using a software emulator.
-
-This function returns a nonzero value if floating-point operations are emulated; otherwise, it returns zero.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_FLOATING_POINT_PRECISION_ERRATA"></a><a id="pf_floating_point_precision_errata"></a><dl>
-<dt><b>PF_FLOATING_POINT_PRECISION_ERRATA</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-On a Pentium, a floating-point precision error can occur in rare circumstances.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_MMX_INSTRUCTIONS_AVAILABLE"></a><a id="pf_mmx_instructions_available"></a><dl>
-<dt><b>PF_MMX_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-The MMX instruction set is available.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_NX_ENABLED"></a><a id="pf_nx_enabled"></a><dl>
-<dt><b>PF_NX_ENABLED</b></dt>
-<dt>12</dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="/windows/desktop/Memory/data-execution-prevention">Data execution prevention</a> is enabled.
-
-<b>Windows XP/2000:  </b>This feature is not supported until Windows XP with SP2 and Windows Server 2003 with SP1.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_PAE_ENABLED"></a><a id="pf_pae_enabled"></a><dl>
-<dt><b>PF_PAE_ENABLED</b></dt>
-<dt>9</dt>
-</dl>
-</td>
-<td width="60%">
-The processor is PAE-enabled. For more information, see 
-<a href="/windows/desktop/Memory/physical-address-extension">Physical Address Extension</a>.
-
-All x64 processors always return a nonzero value for this feature.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_RDTSC_INSTRUCTION_AVAILABLE"></a><a id="pf_rdtsc_instruction_available"></a><dl>
-<dt><b>PF_RDTSC_INSTRUCTION_AVAILABLE</b></dt>
-<dt>8</dt>
-</dl>
-</td>
-<td width="60%">
-The RDTSC instruction is available.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_RDWRFSGSBASE_AVAILABLE"></a><a id="pf_rdwrfsgsbase_available"></a><dl>
-<dt><b>PF_RDWRFSGSBASE_AVAILABLE</b></dt>
-<dt>22</dt>
-</dl>
-</td>
-<td width="60%">
-RDFSBASE, RDGSBASE, WRFSBASE, and WRGSBASE instructions are available.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_SECOND_LEVEL_ADDRESS_TRANSLATION"></a><a id="pf_second_level_address_translation"></a><dl>
-<dt><b>PF_SECOND_LEVEL_ADDRESS_TRANSLATION</b></dt>
-<dt>20</dt>
-</dl>
-</td>
-<td width="60%">
-Second Level Address Translation is supported by the hardware.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_SSE3_INSTRUCTIONS_AVAILABLE"></a><a id="pf_sse3_instructions_available"></a><dl>
-<dt><b>PF_SSE3_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>13</dt>
-</dl>
-</td>
-<td width="60%">
-The SSE3 instruction set is available.
-
-<b>Windows Server 2003 and Windows XP/2000:  </b>This feature is not supported.
- 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_SSSE3_INSTRUCTIONS_AVAILABLE"></a><a id="pf_ssse3_instructions_available"></a><dl>
-<dt><b>PF_SSSE3_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>36</dt>
-</dl>
-</td>
-<td width="60%">
-The SSSE3 instruction set is available.
- 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_SSE4_1_INSTRUCTIONS_AVAILABLE"></a><a id="pf_sse4_1_instructions_available"></a><dl>
-<dt><b>PF_SSE4_1_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>37</dt>
-</dl>
-</td>
-<td width="60%">
-The SSE4_1 instruction set is available.
- 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_SSE4_2_INSTRUCTIONS_AVAILABLE"></a><a id="pf_sse4_2_instructions_available"></a><dl>
-<dt><b>PF_SSE4_2_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>38</dt>
-</dl>
-</td>
-<td width="60%">
-The SSE4_2 instruction set is available.
- 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_AVX_INSTRUCTIONS_AVAILABLE"></a><a id="pf_avx_instructions_available"></a><dl>
-<dt><b>PF_AVX_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>39</dt>
-</dl>
-</td>
-<td width="60%">
-The AVX instruction set is available.
- 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_AVX2_INSTRUCTIONS_AVAILABLE"></a><a id="pf_avx2_instructions_available"></a><dl>
-<dt><b>PF_AVX2_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>40</dt>
-</dl>
-</td>
-<td width="60%">
-The AVX2 instruction set is available.
- 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_AVX512F_INSTRUCTIONS_AVAILABLE"></a><a id="pf_avx512f_instructions_available"></a><dl>
-<dt><b>PF_AVX512F_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>41</dt>
-</dl>
-</td>
-<td width="60%">
-The AVX512F instruction set is available.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_VIRT_FIRMWARE_ENABLED"></a><a id="pf_virt_firmware_enabled"></a><dl>
-<dt><b>PF_VIRT_FIRMWARE_ENABLED</b></dt>
-<dt>21</dt>
-</dl>
-</td>
-<td width="60%">
-Virtualization is enabled in the firmware and made available by the operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_XMMI_INSTRUCTIONS_AVAILABLE"></a><a id="pf_xmmi_instructions_available"></a><dl>
-<dt><b>PF_XMMI_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>6</dt>
-</dl>
-</td>
-<td width="60%">
-The SSE instruction set is available.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PF_XMMI64_INSTRUCTIONS_AVAILABLE"></a><a id="pf_xmmi64_instructions_available"></a><dl>
-<dt><b>PF_XMMI64_INSTRUCTIONS_AVAILABLE</b></dt>
-<dt>10</dt>
-</dl>
-</td>
-<td width="60%">
-The SSE2 instruction set is available.
-
-<b>Windows 2000:  </b>This feature is not supported.
+The processor channels are enabled.
 
 </td>
 </tr>
@@ -426,7 +290,126 @@ The processor implements the XSAVE and XRSTOR instructions.
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="PF_ARM_VFP_32_REGISTERS_AVAILABLE"></a><a id="pf_arm_vfp_32_registers_available"></a><dl>
+<dt><b>PF_ARM_VFP_32_REGISTERS_AVAILABLE</b></dt>
+<dt>18</dt>
+</dl>
+</td>
+<td width="60%">
+The VFP/Neon: 32 x 64bit register bank is present. This flag has the same meaning as <b>PF_ARM_VFP_EXTENDED_REGISTERS</b>.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_ARM_NEON_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_neon_instructions_available"></a><dl>
+<dt><b>PF_ARM_NEON_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>19</dt>
+</dl>
+</td>
+<td width="60%">
+This Arm processor implements the NEON (Advanced SIMD) instruction set.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_SECOND_LEVEL_ADDRESS_TRANSLATION"></a><a id="pf_second_level_address_translation"></a><dl>
+<dt><b>PF_SECOND_LEVEL_ADDRESS_TRANSLATION</b></dt>
+<dt>20</dt>
+</dl>
+</td>
+<td width="60%">
+Second Level Address Translation is supported by the hardware.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_VIRT_FIRMWARE_ENABLED"></a><a id="pf_virt_firmware_enabled"></a><dl>
+<dt><b>PF_VIRT_FIRMWARE_ENABLED</b></dt>
+<dt>21</dt>
+</dl>
+</td>
+<td width="60%">
+Virtualization is enabled in the firmware and made available by the operating system.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_RDWRFSGSBASE_AVAILABLE"></a><a id="pf_rdwrfsgsbase_available"></a><dl>
+<dt><b>PF_RDWRFSGSBASE_AVAILABLE</b></dt>
+<dt>22</dt>
+</dl>
+</td>
+<td width="60%">
+RDFSBASE, RDGSBASE, WRFSBASE, and WRGSBASE instructions are available.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_FASTFAIL_AVAILABLE"></a><a id="pf_fastfail_available"></a><dl>
+<dt><b>PF_FASTFAIL_AVAILABLE</b></dt>
+<dt>23</dt>
+</dl>
+</td>
+<td width="60%">
+_fastfail() is available.
+ 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE"></a><a id="pf_arm_divide_instruction_available"></a><dl>
+<dt><b>PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE</b></dt>
+<dt>24</dt>
+</dl>
+</td>
+<td width="60%">
+The divide instructions are available.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_ARM_64BIT_LOADSTORE_ATOMIC"></a><a id="pf_arm_64bit_loadstore_atomic"></a><dl>
+<dt><b>PF_ARM_64BIT_LOADSTORE_ATOMIC</b></dt>
+<dt>25</dt>
+</dl>
+</td>
+<td width="60%">
+The 64-bit load/store atomic instructions are available.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_ARM_EXTERNAL_CACHE_AVAILABLE"></a><a id="pf_arm_external_cache_available"></a><dl>
+<dt><b>PF_ARM_EXTERNAL_CACHE_AVAILABLE</b></dt>
+<dt>26</dt>
+</dl>
+</td>
+<td width="60%">
+The external cache is available.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_fmac_instructions_available"></a><dl>
+<dt><b>PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>27</dt>
+</dl>
+</td>
+<td width="60%">
+The floating-point multiply-accumulate instruction is available.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PF_RDRAND_INSTRUCTION_AVAILABLE"></a><a id="pf_rdrand_instruction_available"></a><dl>
+<dt><b>PF_RDRAND_INSTRUCTION_AVAILABLE</b></dt>
+<dt>28</dt>
+</dl>
+</td>
+<td width="60%">
+The RDRAND instruction for generating hardware random numbers is available.
+</td>
+</tr>
 <tr>
 <td width="40%"><a id="PF_ARM_V8_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_instructions_available"></a><dl>
 <dt><b>PF_ARM_V8_INSTRUCTIONS_AVAILABLE</b></dt>
@@ -461,6 +444,28 @@ This Arm processor implements the Arm v8 extra CRC32 instructions.
 </tr>
 
 <tr>
+<td width="40%"><a id="PF_RDTSCP_INSTRUCTION_AVAILABLE"></a><a id="pf_rdtscp_instruction_available"></a><dl>
+<dt><b>PF_RDTSCP_INSTRUCTION_AVAILABLE</b></dt>
+<dt>32</dt>
+</dl>
+</td>
+<td width="60%">
+The RDTSCP instruction for reading the time-stamp counter and the IA32_TSC_AUX register is available.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_RDPID_INSTRUCTION_AVAILABLE"></a><a id="pf_rdpid_instruction_available"></a><dl>
+<dt><b>PF_RDPID_INSTRUCTION_AVAILABLE</b></dt>
+<dt>33</dt>
+</dl>
+</td>
+<td width="60%">
+The RDPID instruction for reading the processor identifier from the IA32_TSC_AUX register is available.
+</td>
+</tr>
+ 
+<tr>
 <td width="40%"><a id="PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v81_atomic_instructions_available"></a><dl>
 <dt><b>PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE</b></dt>
 <dt>34</dt>
@@ -470,7 +475,101 @@ This Arm processor implements the Arm v8 extra CRC32 instructions.
 This Arm processor implements the Arm v8.1 atomic instructions (for example, CAS, SWP).
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="PF_MONITORX_INSTRUCTION_AVAILABLE"></a><a id="pf_monitorx_instruction_available"></a><dl>
+<dt><b>PF_MONITORX_INSTRUCTION_AVAILABLE</b></dt>
+<dt>35</dt>
+</dl>
+</td>
+<td width="60%">
+The MONITORX instruction for monitoring a memory address range is available.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_SSSE3_INSTRUCTIONS_AVAILABLE"></a><a id="pf_ssse3_instructions_available"></a><dl>
+<dt><b>PF_SSSE3_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>36</dt>
+</dl>
+</td>
+<td width="60%">
+The SSSE3 instruction set is available.
  
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_SSE4_1_INSTRUCTIONS_AVAILABLE"></a><a id="pf_sse4_1_instructions_available"></a><dl>
+<dt><b>PF_SSE4_1_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>37</dt>
+</dl>
+</td>
+<td width="60%">
+The SSE4_1 instruction set is available.
+ 
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_SSE4_2_INSTRUCTIONS_AVAILABLE"></a><a id="pf_sse4_2_instructions_available"></a><dl>
+<dt><b>PF_SSE4_2_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>38</dt>
+</dl>
+</td>
+<td width="60%">
+The SSE4_2 instruction set is available.
+ 
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_AVX_INSTRUCTIONS_AVAILABLE"></a><a id="pf_avx_instructions_available"></a><dl>
+<dt><b>PF_AVX_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>39</dt>
+</dl>
+</td>
+<td width="60%">
+The AVX instruction set is available.
+ 
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_AVX2_INSTRUCTIONS_AVAILABLE"></a><a id="pf_avx2_instructions_available"></a><dl>
+<dt><b>PF_AVX2_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>40</dt>
+</dl>
+</td>
+<td width="60%">
+The AVX2 instruction set is available.
+ 
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_AVX512F_INSTRUCTIONS_AVAILABLE"></a><a id="pf_avx512f_instructions_available"></a><dl>
+<dt><b>PF_AVX512F_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>41</dt>
+</dl>
+</td>
+<td width="60%">
+The AVX512F instruction set is available.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ERMS_AVAILABLE"></a><a id="pf_erms_available"></a><dl>
+<dt><b>PF_ERMS_AVAILABLE</b></dt>
+<dt>42</dt>
+</dl>
+</td>
+<td width="60%">
+Enhanced REP MOVSB and STOSB (ERMS) is available.
+</td>
+</tr>
+
 <tr>
 <td width="40%"><a id="PF_ARM_V82_DP_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v82_dp_instructions_available"></a><dl>
 <dt><b>PF_ARM_V82_DP_INSTRUCTIONS_AVAILABLE</b></dt>
@@ -974,6 +1073,39 @@ This Arm processor implements SME FA64 (Full AArch64 instruction set when in Str
 </td>
 <td width="60%">
 This x64 processor implements the UMONITOR instruction.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_APX_F_INSTRUCTIONS_AVAILABLE"></a><a id="pf_apx_f_instructions_available"></a><dl>
+<dt><b>PF_APX_F_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>90</dt>
+</dl>
+</td>
+<td width="60%">
+This x64 processor implements the Advanced Performance Extensions foundation (APX-F) instructions.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_FEAT_ECV_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_feat_ecv_instructions_available"></a><dl>
+<dt><b>PF_ARM_FEAT_ECV_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>91</dt>
+</dl>
+</td>
+<td width="60%">
+This Arm processor implements Enhanced Counter Virtualization (<b>FEAT_ECV</b>), including self-synchronizing counter reads.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_FEAT_ECV_POFF_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_feat_ecv_poff_instructions_available"></a><dl>
+<dt><b>PF_ARM_FEAT_ECV_POFF_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>92</dt>
+</dl>
+</td>
+<td width="60%">
+This Arm processor supports the physical counter offsetting functionality of Enhanced Counter Virtualization (<b>FEAT_ECV</b>).
 </td>
 </tr>
 
