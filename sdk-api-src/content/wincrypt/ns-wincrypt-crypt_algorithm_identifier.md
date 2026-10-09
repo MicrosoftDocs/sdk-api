@@ -833,7 +833,7 @@ Elliptic curve public key cryptography.
 </dl>
 </td>
 <td width="60%">
-512 bit elliptic curve.
+521 bit elliptic curve.
 
 </td>
 </tr>
