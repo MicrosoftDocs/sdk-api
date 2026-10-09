@@ -63,15 +63,15 @@ A pointer to the
 
 ### -param Name [out, optional]
 
-A pointer to a buffer that receives a <b>null</b>-terminated string that contains the account name that corresponds to the <i>lpSid</i> parameter.
+A pointer to a buffer that receives a <b>null</b>-terminated string that contains the account name that corresponds to the <i>Sid</i> parameter. This parameter can be <b>NULL</b> if <i>cchName</i> is zero.
 
 ### -param cchName [in, out]
 
-On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If the function fails because the buffer is too small or if <i>cchName</i> is zero, <i>cchName</i> receives the required buffer size, including the terminating <b>null</b> character.
+On input, specifies the size, in <b>TCHAR</b>s, of the <i>Name</i> buffer. If the function fails because the buffer is too small or if <i>cchName</i> is zero, <i>cchName</i> receives the required buffer size, including the terminating <b>null</b> character.
 
 ### -param ReferencedDomainName [out, optional]
 
-A pointer to a buffer that receives a <b>null</b>-terminated string that contains the name of the domain where the account name was found.
+A pointer to a buffer that receives a <b>null</b>-terminated string that contains the name of the domain where the account name was found. This parameter can be <b>NULL</b> if <i>cchReferencedDomainName</i> is zero.
 
 On a server, the domain name returned for most accounts in the security database of the local computer is the name of the domain for which the server is a domain controller.
 
@@ -81,7 +81,7 @@ Some accounts are predefined by the system. The domain name returned for these a
 
 ### -param cchReferencedDomainName [in, out]
 
-On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName</i> buffer. If the function fails because the buffer is too small or if <i>cchReferencedDomainName</i> is zero, <i>cchReferencedDomainName</i> receives the required buffer size, including the terminating <b>null</b> character.
+On input, specifies the size, in <b>TCHAR</b>s, of the <i>ReferencedDomainName</i> buffer. If the function fails because the buffer is too small or if <i>cchReferencedDomainName</i> is zero, <i>cchReferencedDomainName</i> receives the required buffer size, including the terminating <b>null</b> character.
 
 ### -param peUse [out]
 
