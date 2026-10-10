@@ -58,7 +58,7 @@ This property is read/write.
 
 ## -parameters
 
-### -param retval [in]
+### -param value [in]
 
 Type: <b>VARIANT_BOOL</b>
 
