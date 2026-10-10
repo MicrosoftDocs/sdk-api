@@ -159,17 +159,21 @@ If you need this handle after calling the <a href="/windows/desktop/api/winwlx/n
 A pointer to an 
 <a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a> structure that contains domain, user name, and password information for the user. Winlogon will use this information to provide identification and authentication information to network providers.
 
-The GINA is not required to return password information. Any <b>NULL</b> fields within the structure will be ignored by Winlogon. Use <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate each string; Winlogon will free them when they are no longer needed.
+The GINA is not required to return password information. Any <b>NULL</b> fields within the structure will be ignored by Winlogon. Use <a href="/windows/win32/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate each string; Winlogon will free them when they are no longer needed.
 
-The GINA should provide domain, user, and password values for  complete Session Directory functionality.  If the password is not provided, Session Directory will require the user to input the password twice before the user is connected to the server.
+The GINA should provide domain, user, and password values for complete Session Directory functionality.  If the password is not provided, Session Directory will require the user to input the password twice before the user is connected to the server.
 
-For information about protecting passwords, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+For information about protecting passwords, see <a href="/windows/win32/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -param pProfile [out]
 
 On return from a successful authentication, the <i>pProfile</i> parameter points to either a 
-<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a> or a 
-<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a> structure. The first <b>DWORD</b> in the structure indicates which structure it is. Winlogon uses this structure to load the profile of the logged-on user, and frees the memory associated with the structure when it no longer needs it.
+<a href="/windows/win32/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a> or a 
+<a href="/windows/win32/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a> structure. The first <b>DWORD</b> in the structure indicates which structure it is.
+
+Use <a href="/windows/win32/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate this structure, as well as each of its fields.
+
+Winlogon uses this structure to load the profile of the logged-on user, and frees the memory associated with the structure and its fields when it no longer needs it.
 
 ## -returns
 
@@ -226,8 +230,6 @@ Do not activate the user shell program in <b>WlxLoggedOutSAS</b>. The user shell
 
 ## -see-also
 
-<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxactivateusershell">WlxActivateUserShell</a>
+<a href="/windows/win32/api/winwlx/nf-winwlx-wlxactivateusershell">WlxActivateUserShell</a>
 
-
-
-<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+<a href="/windows/win32/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
