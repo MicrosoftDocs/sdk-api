@@ -74,16 +74,16 @@ A handle to the top-level window to be activated.
 
 Type: <b>HWND</b>
 
-If the function succeeds, the return value is the handle to the window that was previously active.
+If the function succeeds, the return value is the handle to the window that was previously active or <b>NULL</b>.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Function failure is indicated by a return value of <b>NULL</b> and a <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> result that is nonzero.
 
 ## -remarks
 
 The <b>SetActiveWindow</b> function activates a window, but not if the application is in the background. The window will be brought into the foreground (top of <a href="/windows/desktop/winmsg/window-features">Z-Order</a>) if its application is in the foreground when the system activates the window.
 
-If the window identified by the 
-    <i>hWnd</i> parameter was created by the calling thread, the active window status of the calling thread is set to 
+If the window identified by the
+    <i>hWnd</i> parameter was created by the calling thread, the active window status of the calling thread is set to
     <i>hWnd</i>. Otherwise, the active window status of the calling thread is set to <b>NULL</b>.
 
 ## -see-also
