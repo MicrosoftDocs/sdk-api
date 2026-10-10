@@ -109,35 +109,6 @@ Type: <b>PNOTIFYICONDATA</b>
 
 A pointer to a <a href="/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure. The content of the structure depends on the value of <i>dwMessage</i>. It can define an icon to add to the notification area, cause that icon to display a notification, or identify an icon to modify or delete.
 
-
-##### - dwMessage.NIM_ADD (0x00000000)
-
-0x00000000. Adds an icon to the status area. The icon is given an identifier in the <a href="/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>—either through its <b>uID</b> or <b>guidItem</b> member. This identifier is used in subsequent calls to <b>Shell_NotifyIcon</b> to perform later actions on the icon.
-
-
-##### - dwMessage.NIM_DELETE (0x00000002)
-
-0x00000002. Deletes an icon from the status area. <a href="/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be deleted.
-
-
-##### - dwMessage.NIM_MODIFY (0x00000001)
-
-0x00000001. Modifies an icon in the status area. <a href="/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be modified.
-
-
-##### - dwMessage.NIM_SETFOCUS (0x00000003)
-
-0x00000003. <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 5.0 and later only</a>. Returns focus to the taskbar notification area. Notification area icons should use this message when they have completed their UI operation. For example, if the icon displays a shortcut menu, but the user presses ESC to cancel it, use <b>NIM_SETFOCUS</b> to return focus to the notification area.
-
-
-##### - dwMessage.NIM_SETVERSION (0x00000004)
-
-0x00000004. <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 5.0 and later only</a>. Instructs the notification area to behave according to the version number specified in the <b>uVersion</b> member of the structure pointed to by <i>lpdata</i>. The version number specifies which members are recognized.
-
-NIM_SETVERSION must be called every time a notification area icon is added (NIM_ADD)&gt;. It does not need to be called with NIM_MODIFY. The version setting is not persisted once a user logs off.
-
-For details, see the Remarks section.
-
 ## -returns
 
 Type: <b>BOOL</b>
@@ -179,7 +150,7 @@ Regardless of the operating system version, you can select which way the Shell s
 As of Windows XP Service Pack 2 (SP2), a custom icon can be displayed in the notification balloon. This allows the calling process to customize the notification beyond the previously available options of info, warning, and error, and distinguish it from other types of notification for the user.
 
 <div> </div>
-On Windows 10, the balloon messages are shown as banner notifications, which then stay in the Notification Center until dismissed. On Windows 11, the behavior of banner notifications more closely follows the legacy behavior in making them transient. When a bannner notification times out or is otherwise dismissed, it will not be displayed in the Notification Center.
+On Windows 10, the balloon messages are shown as banner notifications, which then stay in the Notification Center until dismissed. On Windows 11, the behavior of banner notifications more closely follows the legacy behavior in making them transient. When a banner notification times out or is otherwise dismissed, it will not be displayed in the Notification Center.
 <div> </div>
 
 
