@@ -103,7 +103,7 @@ Sets a new <a href="/windows/desktop/winmsg/extended-window-styles">extended win
 </dl>
 </td>
 <td width="60%">
-Sets a new application instance handle.
+Sets a new handle to a module instance associated with the window.
 
 </td>
 </tr>
