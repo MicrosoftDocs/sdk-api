@@ -57,6 +57,16 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>IStringCollection**</b>
+
+A pointer that, upon success, receives a pointer to an [IStringCollection](nn-wuapi-istringcollection.md) containing the supported languages.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -remarks
 
 This property refers to the language of the update itself.  The language that is used for the title and description of the update is not necessarily the language of the update itself.

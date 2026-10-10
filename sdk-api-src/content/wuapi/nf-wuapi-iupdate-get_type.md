@@ -57,9 +57,13 @@ This property is read-only.
 
 ## -parameters
 
-### -param retval
+### -param retval [out, retval]
 
-A member of the [UpdateType](ne-wuapi-updatetype.md) enumeration specifying the type of the update.
+A pointer to a variable of type [UpdateType](ne-wuapi-updatetype.md) that receives the type of the update.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

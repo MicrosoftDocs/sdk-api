@@ -58,10 +58,22 @@ This property is read/write.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>VARIANT_BOOL*</b>
+
+A pointer to a variable of type <a href="/windows/win32/api/oaidl/ns-oaidl-variant#__variant_name_2__variant_name_3bool">VARIANT_BOOL</a> that receives <b>VARIANT_TRUE</b> if the update is hidden, and <b>VARIANT_FALSE</b> if not.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -remarks
 
 An attempt to mark a mandatory update as hidden causes an error.
 
 ## -see-also
+
+[IsHidden setter](nf-wuapi-iupdate-put_ishidden.md)
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

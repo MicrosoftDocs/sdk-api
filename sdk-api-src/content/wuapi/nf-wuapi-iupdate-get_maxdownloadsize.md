@@ -57,6 +57,16 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>DECIMAL*</b>
+
+A pointer that, upon success, receives the maximum download size of the update.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -remarks
 
 The <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_mindownloadsize">MinDownloadSize</a> property of an update is always downloaded.  However, the <b>MaxDownloadSize</b> property is not always downloaded. The <b>MaxDownloadSize</b> property is downloaded based on the configuration of the computer that receives the update.
@@ -64,3 +74,5 @@ The <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_mindownloadsize">Mi
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+
+<a href="/windows/win32/api/oaidl/ns-oaidl-variant">VARIANT</a>

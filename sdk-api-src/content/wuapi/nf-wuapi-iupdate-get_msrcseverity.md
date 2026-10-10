@@ -57,6 +57,16 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>BSTR*</b>
+
+A pointer to a variable of type <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> that receives the severity rating. The caller must free this memory with the <a href="/windows/win32/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function when it is no longer required.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -remarks
 
 The following ratings are the possible severity ratings of a security issue that is fixed by an update. These ratings were revised by the Microsoft Security Response Center in November 2002.

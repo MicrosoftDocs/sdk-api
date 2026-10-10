@@ -57,6 +57,16 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>DATE*</b>
+
+A pointer that, upon success, receives the last published date of the update.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -remarks
 
 On computers that are running Windows XP, the <b>LastDeploymentChangeTime</b> property retrieves the same date and time that are retrieved by the  <a href="/previous-versions/windows/desktop/ms750903(v=vs.85)">CreationDate</a> property  of the <b>IUpdateApproval</b> interface. The <a href="/previous-versions/windows/desktop/ms750903(v=vs.85)">CreationDate</a> property is used on computers that are running Windows Server 2003.
@@ -64,3 +74,5 @@ On computers that are running Windows XP, the <b>LastDeploymentChangeTime</b> p
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
+
+<a href="/windows/win32/api/oaidl/ns-oaidl-variant">VARIANT</a>
