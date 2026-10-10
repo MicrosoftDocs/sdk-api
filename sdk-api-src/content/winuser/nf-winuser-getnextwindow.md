@@ -102,6 +102,7 @@ Returns a handle to the window above the given window.
 Type: <b>HWND</b>
 
 If the function succeeds, the return value is a window handle. If no window exists with the specified relationship to the specified window, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+The function does not clear the last error information. To determine success or failure in case of <b>NULL</b> return value, clear the last error information by calling <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function with 0 value, then call <b>GetNextWindow</b>. Function failure will be indicated by a return value of <b>NULL</b> and a <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function result that is nonzero.
 
 ## -remarks
 
