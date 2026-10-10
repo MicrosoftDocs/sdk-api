@@ -58,6 +58,12 @@ Converts an integer value to a resource type compatible with the resource-manage
 
 The integer value to be converted.
 
+## -returns
+
+Type: <b>LPWSTR</b>
+
+The return value is a <b>LPWSTR</b> value.
+
 ## -remarks
 
 The return value should be passed only to functions which explicitly indicate that they accept <b>MAKEINTRESOURCE</b> as a parameter. For example, the resource management functions allow the return value of <b>MAKEINTRESOURCE</b> to be passed as the <i>lpType</i> or <i>lpName</i> parameters. 
