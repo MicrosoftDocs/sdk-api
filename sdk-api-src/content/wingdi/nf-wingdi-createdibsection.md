@@ -61,7 +61,7 @@ The <b>CreateDIBSection</b> function creates a DIB that applications can write t
 
 ### -param hdc [in]
 
-A handle to a device context. If the value of <i>iUsage</i> is DIB_PAL_COLORS, the function uses this device context's logical palette to initialize the DIB colors.
+A handle to a device context. If the value of <i>usage</i> is DIB_PAL_COLORS, the function uses this device context's logical palette to initialize the DIB colors.
 
 ### -param pbmi [in]
 

@@ -85,7 +85,7 @@ The <b>bmiColors</b> member contains one of the following:
 <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
-The <i>iUsage</i> parameter of <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> must be set to DIB_PAL_COLORS.
+The <i>usage</i> parameter of <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> must be set to DIB_PAL_COLORS.
 
 </li>
 </ul>
