@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetProductInfo","GetProductInfo function","PRODUCT_BUSINE
 old-location: base\getproductinfo.htm
 tech.root: winprog
 ms.assetid: 711e6010-2068-4c97-9009-6ecdf54797b6
-ms.date: 12/05/2018
+ms.date: 10/27/2026
 ms.keywords: GetProductInfo, GetProductInfo function, PRODUCT_BUSINESS, PRODUCT_BUSINESS_N, PRODUCT_CLUSTER_SERVER, PRODUCT_CLUSTER_SERVER_V, PRODUCT_CORE, PRODUCT_CORE_COUNTRYSPECIFIC, PRODUCT_CORE_N, PRODUCT_CORE_SINGLELANGUAGE, PRODUCT_DATACENTER_A_SERVER_CORE, PRODUCT_DATACENTER_EVALUATION_SERVER, PRODUCT_DATACENTER_SERVER, PRODUCT_DATACENTER_SERVER_CORE, PRODUCT_DATACENTER_SERVER_CORE_V, PRODUCT_DATACENTER_SERVER_V, PRODUCT_EDUCATION, PRODUCT_EDUCATION_N, PRODUCT_ENTERPRISE, PRODUCT_ENTERPRISE_E, PRODUCT_ENTERPRISE_EVALUATION, PRODUCT_ENTERPRISE_N, PRODUCT_ENTERPRISE_N_EVALUATION, PRODUCT_ENTERPRISE_S, PRODUCT_ENTERPRISE_SERVER, PRODUCT_ENTERPRISE_SERVER_CORE, PRODUCT_ENTERPRISE_SERVER_CORE_V, PRODUCT_ENTERPRISE_SERVER_IA64, PRODUCT_ENTERPRISE_SERVER_V, PRODUCT_ENTERPRISE_S_EVALUATION, PRODUCT_ENTERPRISE_S_N, PRODUCT_ENTERPRISE_S_N_EVALUATION, PRODUCT_ESSENTIALBUSINESS_SERVER_ADDL, PRODUCT_ESSENTIALBUSINESS_SERVER_ADDLSVC, PRODUCT_ESSENTIALBUSINESS_SERVER_MGMT, PRODUCT_ESSENTIALBUSINESS_SERVER_MGMTSVC, PRODUCT_HOME_BASIC, PRODUCT_HOME_BASIC_E, PRODUCT_HOME_BASIC_N, PRODUCT_HOME_PREMIUM, PRODUCT_HOME_PREMIUM_E, PRODUCT_HOME_PREMIUM_N, PRODUCT_HOME_PREMIUM_SERVER, PRODUCT_HOME_SERVER, PRODUCT_HYPERV, PRODUCT_IOTUAP, PRODUCT_IOTUAPCOMMERCIAL, PRODUCT_MEDIUMBUSINESS_SERVER_MANAGEMENT, PRODUCT_MEDIUMBUSINESS_SERVER_MESSAGING, PRODUCT_MEDIUMBUSINESS_SERVER_SECURITY, PRODUCT_MOBILE_CORE, PRODUCT_MOBILE_ENTERPRISE, PRODUCT_MULTIPOINT_PREMIUM_SERVER, PRODUCT_MULTIPOINT_STANDARD_SERVER, PRODUCT_PROFESSIONAL, PRODUCT_PROFESSIONAL_E, PRODUCT_PROFESSIONAL_N, PRODUCT_PROFESSIONAL_WMC, PRODUCT_PRO_WORKSTATION, PRODUCT_PRO_WORKSTATION_N, PRODUCT_SB_SOLUTION_SERVER, PRODUCT_SB_SOLUTION_SERVER_EM, PRODUCT_SERVER_FOR_SB_SOLUTIONS, PRODUCT_SERVER_FOR_SB_SOLUTIONS_EM, PRODUCT_SERVER_FOR_SMALLBUSINESS, PRODUCT_SERVER_FOR_SMALLBUSINESS_V, PRODUCT_SERVER_FOUNDATION, PRODUCT_SMALLBUSINESS_SERVER, PRODUCT_SMALLBUSINESS_SERVER_PREMIUM, PRODUCT_SMALLBUSINESS_SERVER_PREMIUM_CORE, PRODUCT_SOLUTION_EMBEDDEDSERVER, PRODUCT_STANDARD_A_SERVER_CORE, PRODUCT_STANDARD_EVALUATION_SERVER, PRODUCT_STANDARD_SERVER, PRODUCT_STANDARD_SERVER_CORE, PRODUCT_STANDARD_SERVER_CORE_V, PRODUCT_STANDARD_SERVER_SOLUTIONS, PRODUCT_STANDARD_SERVER_SOLUTIONS_CORE, PRODUCT_STANDARD_SERVER_V, PRODUCT_STARTER, PRODUCT_STARTER_E, PRODUCT_STARTER_N, PRODUCT_STORAGE_ENTERPRISE_SERVER, PRODUCT_STORAGE_ENTERPRISE_SERVER_CORE, PRODUCT_STORAGE_EXPRESS_SERVER, PRODUCT_STORAGE_EXPRESS_SERVER_CORE, PRODUCT_STORAGE_STANDARD_EVALUATION_SERVER, PRODUCT_STORAGE_STANDARD_SERVER, PRODUCT_STORAGE_STANDARD_SERVER_CORE, PRODUCT_STORAGE_WORKGROUP_EVALUATION_SERVER, PRODUCT_STORAGE_WORKGROUP_SERVER, PRODUCT_STORAGE_WORKGROUP_SERVER_CORE, PRODUCT_ULTIMATE, PRODUCT_ULTIMATE_E, PRODUCT_ULTIMATE_N, PRODUCT_UNDEFINED, PRODUCT_WEB_SERVER, PRODUCT_WEB_SERVER_CORE, base.getproductinfo, sysinfoapi/GetProductInfo
 req.header: sysinfoapi.h
 req.include-header: Windows.h
@@ -155,6 +155,17 @@ Windows 10 Home
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_CORE_ARM"></a><a id="product_core_arm"></a><dl>
+<dt><b>PRODUCT_CORE_ARM</b></dt>
+<dt>0x00000061</dt>
+</dl>
+</td>
+<td width="60%">
+Windows RT
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_CORE_COUNTRYSPECIFIC"></a><a id="product_core_countryspecific"></a><dl>
 <dt><b>PRODUCT_CORE_COUNTRYSPECIFIC</b></dt>
 <dt>0x00000063</dt>
@@ -221,6 +232,17 @@ Server Standard, Semi-Annual Channel (core installation)
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_DATACENTER_NANO_SERVER"></a><a id="product_datacenter_nano_server"></a><dl>
+<dt><b>PRODUCT_DATACENTER_NANO_SERVER</b></dt>
+<dt>0x0000008F</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Server Datacenter Edition (Nano Server installation)
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_DATACENTER_SERVER"></a><a id="product_datacenter_server"></a><dl>
 <dt><b>PRODUCT_DATACENTER_SERVER</b></dt>
 <dt>0x00000008</dt>
@@ -228,6 +250,17 @@ Server Standard, Semi-Annual Channel (core installation)
 </td>
 <td width="60%">
 Server Datacenter (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_DATACENTER_SERVER_AZURE_EDITION"></a><a id="product_datacenter_server_azure_edition"></a><dl>
+<dt><b>PRODUCT_DATACENTER_SERVER_AZURE_EDITION</b></dt>
+<dt>0x00000197</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Server Datacenter: Azure Edition
 
 </td>
 </tr>
@@ -265,6 +298,17 @@ Server Datacenter without Hyper-V (full installation)
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_DATACENTER_WS_SERVER_CORE"></a><a id="product_datacenter_ws_server_core"></a><dl>
+<dt><b>PRODUCT_DATACENTER_WS_SERVER_CORE</b></dt>
+<dt>0x00000093</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Server Datacenter Edition (Server Core installation)
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_EDUCATION"></a><a id="product_education"></a><dl>
 <dt><b>PRODUCT_EDUCATION</b></dt>
 <dt>0x00000079</dt>
@@ -283,6 +327,17 @@ Windows 10 Education
 </td>
 <td width="60%">
 Windows 10 Education N
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_EMBEDDED_INDUSTRY"></a><a id="product_embedded_industry"></a><dl>
+<dt><b>PRODUCT_EMBEDDED_INDUSTRY</b></dt>
+<dt>0x00000059</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Embedded Industry
 
 </td>
 </tr>
@@ -580,6 +635,17 @@ Windows Storage Server 2008 R2 Essentials
 </td>
 <td width="60%">
 Microsoft Hyper-V Server
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_INDUSTRY_HANDHELD"></a><a id="product_industry_handheld"></a><dl>
+<dt><b>PRODUCT_INDUSTRY_HANDHELD</b></dt>
+<dt>0x00000076</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Embedded Handheld
 
 </td>
 </tr>
@@ -936,6 +1002,17 @@ Server Standard (evaluation installation)
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_STANDARD_NANO_SERVER"></a><a id="product_standard_nano_server"></a><dl>
+<dt><b>PRODUCT_STANDARD_NANO_SERVER</b></dt>
+<dt>0x00000090</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Server Standard Edition (Nano Server installation)
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_STANDARD_SERVER"></a><a id="product_standard_server"></a><dl>
 <dt><b>PRODUCT_STANDARD_SERVER</b></dt>
 <dt>0x00000007</dt>
@@ -998,6 +1075,17 @@ Server Solutions Premium
 </td>
 <td width="60%">
 Server Solutions Premium (core installation)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_STANDARD_WS_SERVER_CORE"></a><a id="product_standard_ws_server_core"></a><dl>
+<dt><b>PRODUCT_STANDARD_WS_SERVER_CORE</b></dt>
+<dt>0x00000094</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Server Standard Edition (Server Core installation)
 
 </td>
 </tr>
@@ -1141,6 +1229,17 @@ Storage Server Workgroup
 </td>
 <td width="60%">
 Storage Server Workgroup (core installation)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_THINPC"></a><a id="product_thinpc"></a><dl>
+<dt><b>PRODUCT_THINPC</b></dt>
+<dt>0x00000057</dt>
+</dl>
+</td>
+<td width="60%">
+Windows Thin PC
 
 </td>
 </tr>
