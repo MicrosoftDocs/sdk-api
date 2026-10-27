@@ -214,7 +214,7 @@ Do not display the path of the destination item in the progress dialog.
 
 #### FOFX_RECYCLEONDELETE (0x00080000)
 
-<b>Introduced in Windows 8</b>. When a file is deleted, send it to the Recycle Bin rather than permanently deleting it.
+<b>Introduced in Windows 8</b>. When a file is deleted, send it to the Recycle Bin rather than permanently deleting it, if possible. A file that can't be recycled, such as one on a drive without a Recycle Bin or one larger than the Recycle Bin's maximum size, is deleted permanently; with <b>FOF_NOCONFIRMATION</b>, no warning is shown unless <b>FOF_WANTNUKEWARNING</b> is also set.
 
 
 
