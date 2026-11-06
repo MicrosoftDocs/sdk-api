@@ -86,4 +86,4 @@ Handle to the item.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Mask used to specify the states to query for. It is equivalent to the <b>mask</b> member of <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a>.
+Mask used to specify the states to query for. It is equivalent to the <b>stateMask</b> member of <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a>.
