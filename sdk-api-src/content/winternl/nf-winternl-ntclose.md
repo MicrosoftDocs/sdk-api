@@ -104,4 +104,3 @@ The <b>NtClose</b> function closes handles to the following objects.
 <li>Socket </li>
 <li>Thread </li>
 </ul>
-Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.

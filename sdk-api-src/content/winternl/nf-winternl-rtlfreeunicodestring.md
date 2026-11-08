@@ -65,5 +65,3 @@ A pointer to the Unicode string whose
 
 This routine does not release the ANSI string buffer passed to <a href="/windows/desktop/api/winternl/nf-winternl-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a> or <b>RtlUpcaseUnicodeString</b>.
 		
-
-Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.

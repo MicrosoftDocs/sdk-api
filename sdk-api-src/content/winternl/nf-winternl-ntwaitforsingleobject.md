@@ -144,4 +144,3 @@ The wait was aborted to deliver a user <a href="/windows/desktop/Sync/asynchrono
 
 ## -remarks
 
-Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
