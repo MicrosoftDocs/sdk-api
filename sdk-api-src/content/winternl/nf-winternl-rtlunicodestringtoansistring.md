@@ -106,5 +106,3 @@ The Unicode string was converted to ANSI. Otherwise, no storage was allocated an
 The translation is done with respect to the
     current system locale information.
 		
-
-Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
