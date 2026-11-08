@@ -127,8 +127,6 @@ The type of access to the file that the caller needs is dependent on the actual 
 
 Once the service is complete the <i>Event</i>, if specified, is set to the <code>signaled</code> state. If no <i>Event</i> parameter is specified, then the file object specified by the <i>FileHandle</i> is set to the <code>signaled</code> state. If an <i>ApcRoutine</i> is specified, it is invoked with the <i>ApcContext</i> and the <i>IoStatusBlock</i> as its arguments.
 
-Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
-
 ## -see-also
 
 <a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>
