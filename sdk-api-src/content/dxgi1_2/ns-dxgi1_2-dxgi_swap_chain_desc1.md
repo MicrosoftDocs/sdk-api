@@ -78,7 +78,7 @@ A value that describes the resolution height. If you specify the height as zero 
 
 ### -field Format
 
-A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> structure that describes the 
+A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> enum that describes the 
       display format.
 
 ### -field Stereo
