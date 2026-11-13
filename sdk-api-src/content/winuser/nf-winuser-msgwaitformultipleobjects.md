@@ -135,7 +135,7 @@ New input of the type specified in the <i>dwWakeMask</i> parameter is available 
 
 
 This value is also returned upon the occurrence of a system event that requires the thread's action, such as foreground activation. Therefore, 
-<a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a> can return even though no appropriate input is available and even if <i>dwWakeMask</i> is set to 0. If this occurs, call <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> to process the system event before trying the call to 
+<a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a> can return even though no appropriate input is available and even if <i>dwWakeMask</i> is set to 0. If this occurs, call <a href="/windows/desktop/api/winuser/nf-winuser-getmessagea">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> to process the system event before trying the call to 
 <b>MsgWaitForMultipleObjects</b> again.
 
 </td>
