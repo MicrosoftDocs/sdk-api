@@ -2,7 +2,7 @@
 UID: NN:uiautomationcore.IUiaEndpointNotifier
 tech.root: WinAuto
 title: IUiaEndpointNotifier
-ms.date: 11/12/2026
+ms.date: 11/18/2026
 targetos: Windows
 description: Registers and manages a UI Automation endpoint whose provider can run in a different process from its host window.
 prerelease: false
@@ -47,6 +47,8 @@ An endpoint is identified by a GUID shared between the host and provider. Genera
 To obtain this interface, call [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) with **CLSID_UiaEndpointNotifier**, **CLSCTX_INPROC_SERVER**, and **IID_IUiaEndpointNotifier**. **CLSID_UiaEndpointNotifier** is declared in **uiautomationcoreapi.h**.
 
 Use a Windows SDK that declares the endpoint interfaces. Successful creation of the endpoint notifier indicates that endpoint support is present on the running system. These declarations expose existing COM functionality; they do not require an application to deploy a replacement **UIAutomationCore.dll**.
+
+The endpoint interface declarations are expected in a forthcoming update to the Windows SDK 10.0.28000 series. The exact SDK revision remains unconfirmed until the update is published and its headers are verified. SDK availability and runtime support are separate requirements; continue to detect runtime support by creating the endpoint notifier.
 
 Each notifier instance manages one endpoint. Create a separate notifier instance for each endpoint, and retain it for the lifetime of the registration.
 
