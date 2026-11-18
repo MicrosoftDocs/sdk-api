@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: iface
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
+req.target-min-winverclnt: Windows build 26100
 req.target-min-winversvr:
 topic_type:
  - apiref
