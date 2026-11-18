@@ -2,14 +2,14 @@
 UID: NN:uiautomationcore.IComponentElementFinder
 tech.root: WinAuto
 title: IComponentElementFinder
-ms.date: 11/12/2026
+ms.date: 11/18/2026
 targetos: Windows
 description: Resolves an element identifier to an element within a UI Automation endpoint's provider tree.
 prerelease: false
 req.construct-type: iface
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
 req.target-min-winversvr:
 topic_type:
  - apiref

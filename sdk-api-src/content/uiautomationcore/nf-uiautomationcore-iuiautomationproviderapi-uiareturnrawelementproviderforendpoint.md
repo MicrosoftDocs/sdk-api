@@ -2,14 +2,14 @@
 UID: NF:uiautomationcore.IUIAutomationProviderApi.UiaReturnRawElementProviderForEndpoint
 tech.root: WinAuto
 title: IUIAutomationProviderApi::UiaReturnRawElementProviderForEndpoint
-ms.date: 11/12/2026
+ms.date: 11/18/2026
 targetos: Windows
 description: Supplies an endpoint's root provider in response to a UI Automation connection request.
 prerelease: false
 req.construct-type: function
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
 req.target-min-winversvr:
 topic_type:
  - apiref

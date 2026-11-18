@@ -2,14 +2,14 @@
 UID: NN:uiautomationcore.IUIAutomationProviderApi
 tech.root: WinAuto
 title: IUIAutomationProviderApi
-ms.date: 11/12/2026
+ms.date: 11/18/2026
 targetos: Windows
 description: Provides entry points for returning a UI Automation endpoint provider and obtaining its host provider.
 prerelease: false
 req.construct-type: iface
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
 req.target-min-winversvr:
 topic_type:
  - apiref

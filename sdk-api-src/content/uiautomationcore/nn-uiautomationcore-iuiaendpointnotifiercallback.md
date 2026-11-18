@@ -2,14 +2,14 @@
 UID: NN:uiautomationcore.IUiaEndpointNotifierCallback
 tech.root: WinAuto
 title: IUiaEndpointNotifierCallback
-ms.date: 11/12/2026
+ms.date: 11/18/2026
 targetos: Windows
 description: Receives requests to connect a UI Automation client to an endpoint provider.
 prerelease: false
 req.construct-type: iface
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
 req.target-min-winversvr:
 topic_type:
  - apiref

@@ -2,14 +2,14 @@
 UID: NF:uiautomationcore.IRawElementProviderComponent.get_ComponentSiteId
 tech.root: WinAuto
 title: IRawElementProviderComponent::get_ComponentSiteId
-ms.date: 11/12/2026
+ms.date: 11/18/2026
 targetos: Windows
 description: Retrieves the endpoint ID used to locate a component's provider.
 prerelease: false
 req.construct-type: function
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
 req.target-min-winversvr:
 topic_type:
  - apiref

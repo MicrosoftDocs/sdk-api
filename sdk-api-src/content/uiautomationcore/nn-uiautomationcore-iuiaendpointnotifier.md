@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: iface
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
 req.target-min-winversvr:
 topic_type:
  - apiref
@@ -45,6 +45,8 @@ A UI Automation endpoint exposes a provider tree that is integrated into the UI 
 An endpoint is identified by a GUID shared between the host and provider. Generate a unique, nonzero endpoint ID, for example by calling [CoCreateGuid](/windows/win32/api/combaseapi/nf-combaseapi-cocreateguid). The host and provider must exchange this ID; these APIs do not discover endpoints for the application.
 
 To obtain this interface, call [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) with **CLSID_UiaEndpointNotifier**, **CLSCTX_INPROC_SERVER**, and **IID_IUiaEndpointNotifier**. **CLSID_UiaEndpointNotifier** is declared in **uiautomationcoreapi.h**.
+
+These APIs are available on Windows 11, version 24H2 (build 26100), with applicable Windows updates. The base build number alone does not establish endpoint support.
 
 Use a Windows SDK that declares the endpoint interfaces. Successful creation of the endpoint notifier indicates that endpoint support is present on the running system. These declarations expose existing COM functionality; they do not require an application to deploy a replacement **UIAutomationCore.dll**.
 

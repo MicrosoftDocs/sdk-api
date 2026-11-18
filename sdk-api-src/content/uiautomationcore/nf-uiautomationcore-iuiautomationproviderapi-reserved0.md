@@ -2,14 +2,14 @@
 UID: NF:uiautomationcore.IUIAutomationProviderApi.Reserved0
 tech.root: WinAuto
 title: IUIAutomationProviderApi::Reserved0
-ms.date: 11/12/2026
+ms.date: 11/18/2026
 targetos: Windows
 description: Reserved for internal use. Do not call this method.
 prerelease: false
 req.construct-type: function
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
 req.target-min-winversvr:
 topic_type:
  - apiref

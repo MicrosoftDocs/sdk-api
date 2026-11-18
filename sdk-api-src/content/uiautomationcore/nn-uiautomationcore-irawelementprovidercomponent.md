@@ -2,14 +2,14 @@
 UID: NN:uiautomationcore.IRawElementProviderComponent
 tech.root: WinAuto
 title: IRawElementProviderComponent
-ms.date: 11/12/2026
+ms.date: 11/18/2026
 targetos: Windows
 description: Identifies an endpoint and an optional element within its provider tree for UI Automation tree navigation.
 prerelease: false
 req.construct-type: iface
 req.header: uiautomationcore.h
 req.idl: UIAutomationCore.idl
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 11, version 24H2 (Build 26100; with applicable updates)
 req.target-min-winversvr:
 topic_type:
  - apiref
