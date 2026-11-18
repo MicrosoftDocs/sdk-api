@@ -47,9 +47,6 @@ Use [UiaReturnRawElementProviderForEndpoint](nf-uiautomationcore-iuiautomationpr
 These are COM methods, not standalone DLL exports. They are the endpoint equivalents of [UiaReturnRawElementProvider](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiareturnrawelementprovider) and [UiaHostProviderFromHwnd](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiahostproviderfromhwnd).
 
 The interface exposes existing functionality in the system **UIAutomationCore.dll**. See [IUiaEndpointNotifier](nn-uiautomationcore-iuiaendpointnotifier.md) for registration and runtime availability detection.
-
-The **Reserved0** method is reserved for internal use and must not be called.
-
 ## -see-also
 
 [IUiaEndpointNotifier](nn-uiautomationcore-iuiaendpointnotifier.md)
