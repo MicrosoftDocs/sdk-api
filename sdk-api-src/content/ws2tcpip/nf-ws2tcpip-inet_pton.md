@@ -115,7 +115,7 @@ When the <i>Family</i> parameter is <b>AF_INET6</b>,  this buffer should be larg
 If no error occurs, 
 the <b>InetPton</b> function returns a value of 1 and the buffer pointed to by the <i>pAddrBuf</i> parameter contains the binary numeric IP address in network byte order.
 
-The <b>InetPton</b> function returns a value of 0 if the <i>pAddrBuf</i> parameter points to a string that is not a valid IPv4 dotted-decimal string or a valid IPv6 address string. Otherwise, a value of -1 is returned, and a specific error code can be retrieved by calling the  
+The <b>InetPton</b> function returns a value of 0 if the <i>pszAddrString</i> parameter points to a string that is not a valid IPv4 dotted-decimal string or a valid IPv6 address string. Otherwise, a value of -1 is returned, and a specific error code can be retrieved by calling the  
 <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> for extended error information.
 
 If the function has an error, the extended error code returned by <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> can be one of the following values.
