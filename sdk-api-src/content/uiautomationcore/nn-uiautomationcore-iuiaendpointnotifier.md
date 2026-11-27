@@ -63,9 +63,13 @@ Each notifier instance manages one endpoint. Create a separate notifier instance
 
 Implement [IRawElementProviderComponentHostRoot](nn-uiautomationcore-irawelementprovidercomponenthostroot.md) on the host's root provider to resolve navigation back to the host-side parent.
 
+If the hosting environment reports the endpoint provider's coordinates relative to a host visual, call [SetDefaultVisualReferenceId](nf-uiautomationcore-iuiaendpointnotifier-setdefaultvisualreferenceid.md) to supply that visual reference.
+
 The callback can be invoked on an arbitrary UI Automation worker thread. If the provider must respond on another thread, marshal access to the provider as required by its COM threading model and wait for the response to complete before returning from the callback.
 
 ## -see-also
+
+[IUiaEndpointNotifier::SetDefaultVisualReferenceId](nf-uiautomationcore-iuiaendpointnotifier-setdefaultvisualreferenceid.md)
 
 [IUiaEndpointNotifierCallback](nn-uiautomationcore-iuiaendpointnotifiercallback.md)
 
